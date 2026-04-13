@@ -1,577 +1,214 @@
-# Exentax — Production Architecture & System Documentation
+# Exentax Web — Arquitectura de Producción
 
-## Overview
-
-Exentax is a full-stack tax consultancy platform for international LLC formation, tax compliance, and client management. It serves three audiences:
-
-1. **Public visitors** — marketing site, tax calculator, booking system
-2. **Clients** — portal for documents, invoices, fiscal calendar, LLC details
-3. **Admin team** — CRM, billing, fiscal alerts, client management, analytics
-
-**Stack:** Express 5 + React 18 + Vite 7 + Drizzle ORM + PostgreSQL + TypeScript
+Web pública de Exentax: landing, blog, calculadora fiscal, sistema de reservas y páginas legales.
+Stack: React 19 + Vite / Express 5 / PostgreSQL (Drizzle ORM) / i18n (6 idiomas).
 
 ---
 
-## Project Structure
+## Estructura del proyecto
 
 ```
-exentax-web/
-├── client/                  # React frontend (Vite)
-│   └── src/
-│       ├── pages/
-│       │   ├── admin/       # Admin dashboard (role-based tabs)
-│       │   ├── clientes/    # Client portal (docs, invoices, calendar)
-│       │   ├── blog/        # Public blog
-│       │   ├── legal/       # Legal pages (privacy, terms, cookies)
-│       │   ├── home.tsx     # Landing page
-│       │   ├── booking.tsx  # Booking flow
-│       │   └── ...
-│       ├── components/      # Reusable UI components
-│       ├── i18n/            # i18next config + locale TypeScript modules (7 languages)
-│       └── App.tsx          # Router with lazy loading
-├── server/
-│   ├── index.ts             # Entry point, middleware, cron jobs
-│   ├── routes.ts            # Route registration hub, admin auth, CSRF, session logic
-│   ├── routes/
-│   │   ├── public.ts        # Unauthenticated endpoints (booking, calculator, newsletter)
-│   │   ├── client-auth.ts   # Client login (OTP + password)
-│   │   ├── client-portal.ts # Client area API
-│   │   ├── admin-core.ts           # Admin: blocked days, email, calculator, visitors
-│   │   ├── admin-core-auth.ts      # Admin login + user management
-│   │   ├── admin-core-crm.ts       # Leads + Agenda + Bookings
-│   │   ├── admin-core-analytics.ts  # Visits + Stats + KPIs + settings
-│   │   ├── admin-core-stats.ts     # Dashboard statistics
-│   │   ├── admin-core-comisiones.ts # Commission tracking
-│   │   ├── admin-core-extracts.ts   # PDF/CSV export endpoints
-│   │   ├── admin-clients.ts        # Registers all admin-clients-* sub-routers
-│   │   ├── admin-clients-crud.ts    # Client CRUD + documents
-│   │   ├── admin-clients-llc.ts     # LLC management
-│   │   ├── admin-clients-invoices.ts # Invoicing + PDF generation
-│   │   ├── admin-clients-alerts.ts  # Fiscal alert engine trigger
-│   │   ├── admin-clients-comms.ts   # Client communications + newsletter
-│   │   ├── api-response.ts  # Standardized API responses
-│   │   └── shared.ts        # Shared types, BACKEND_I18N, PDF labels
-│   ├── storage/
-│   │   ├── core.ts          # ID generation, error classes, utilities
-│   │   ├── clients.ts       # Client CRUD + cascade deletion
-│   │   ├── llcs.ts          # LLC + member operations
-│   │   ├── billing.ts       # Invoices + payments
-│   │   ├── documents.ts     # Document + file queries
-│   │   ├── auth.ts          # Tokens, sessions, audit logs
-│   │   ├── scheduling.ts    # Agenda, calendar, blocked days
-│   │   ├── marketing.ts     # Leads, newsletter, consents
-│   │   ├── accounting.ts    # Business expenses, fiscal calendar
-│   │   └── index.ts         # Barrel export
-│   ├── db.ts                # PostgreSQL pool + transactions
-│   ├── email.ts             # Email sending (Gmail API via service account JWT)
-│   ├── email-layout.ts      # HTML email templates
-│   ├── email-i18n.ts        # Email language resolution (7 languages)
-│   ├── file-encryption.ts   # AES-256-GCM document encryption
-│   ├── field-encryption.ts  # AES-256-GCM field encryption (EIN, IBAN, phone)
-│   ├── fiscal-alert-engine.ts # Scheduled fiscal deadline alert engine
-│   ├── google-meet.ts       # Google Calendar/Meet integration
-│   ├── google-credentials.ts # Google OAuth credential loader
-│   ├── google-utils.ts      # Google API shared utilities
-│   ├── route-helpers.ts     # Rate limiters, CSRF, file upload, slot locking
-│   ├── circuit-breaker.ts   # Circuit breaker for external service calls
-│   ├── logger.ts            # Structured logging
-│   ├── sanitize-middleware.ts # Auto XSS sanitization
-│   ├── server-constants.ts  # Fiscal rules, deadlines, config
-│   ├── seo-content.ts       # SEO meta content per page
-│   ├── pdf-fonts.ts         # Font loader for server-side PDF generation
-│   └── static.ts            # Production static file serving
-├── shared/
-│   └── schema.ts            # Drizzle schema (single source of truth)
-└── script/
-    └── build.ts             # Production build (esbuild + vite)
+exentax-web-new/
+├── exentax-web/
+│   ├── client/src/
+│   │   ├── pages/          # Páginas públicas
+│   │   ├── components/     # Componentes UI
+│   │   ├── i18n/           # Internacionalización
+│   │   ├── data/           # Blog y contenido
+│   │   ├── lib/            # Utilidades del cliente
+│   │   └── hooks/          # Hooks React
+│   ├── server/
+│   │   ├── routes/         # Endpoints públicos
+│   │   ├── storage/        # Capa de acceso a datos
+│   │   └── *.ts            # Servicios (email, Google, seguridad)
+│   └── shared/
+│       └── schema.ts       # Schema Drizzle (fuente de verdad)
+├── migrations/
+│   └── 0000_superb_genesis.sql  # Migración inicial limpia
+├── drizzle.config.ts
+└── package.json
 ```
 
 ---
 
-## ID System
+## Páginas públicas
 
-All entity IDs follow one of two patterns:
+| Ruta | Descripción |
+|------|-------------|
+| `/` | Landing principal |
+| `/servicios` | Servicios y precios |
+| `/como-trabajamos` | Cómo funciona el proceso |
+| `/preguntas-frecuentes` | FAQ |
+| `/agendar-asesoria` | Funnel de reserva (multi-paso) |
+| `/sobre-las-llc` | Información sobre LLC |
+| `/blog` | Listado de artículos |
+| `/blog/:slug` | Artículo individual |
+| `/legal/terminos` | Términos de servicio |
+| `/legal/privacidad` | Política de privacidad |
+| `/legal/cookies` | Política de cookies |
+| `/legal/reembolsos` | Política de reembolsos |
+| `/legal/disclaimer` | Aviso legal |
+| `/booking/:id` | Gestión de reserva (reagendar/cancelar) |
+| `/start` | Captura rápida de lead (noindex) |
+| `/links` | Redirector de enlaces (noindex) |
 
-### Prefixed String IDs (`varchar(64)`)
-Format: `{PREFIX}-{YYMMDD}-{16_HEX_CHARS}`
-Generated by `generateId(prefix)` in `storage/core.ts` using `crypto.randomBytes(8)`.
-
-| Entity             | Prefix | Example                    |
-|--------------------|--------|----------------------------|
-| Clients            | `EX`   | `EX-260408-A1B2C3D4E5F6A7B8` |
-| LLCs               | `LLC`  | `LLC-260408-...`           |
-| Invoices           | `INV`  | `INV-260408-...`           |
-| Tokens             | `TK`   | `TK-260408-...`            |
-| Timeline           | `TL`   | `TL-260408-...`            |
-| Emails             | `EM`   | `EM-260408-...`            |
-| Calendar entries   | `CAL`  | `CAL-260408-...`           |
-| Commissions        | `COM`  | `COM-260408-...`           |
-| Login attempts     | `LA`   | `LA-260408-...`            |
-| Consent records    | `CON`  | `CON-260408-...`           |
-| Fiscal alerts      | `AF`   | `AF-{timestamp36}-M`      |
-| Leads / Agenda     | `EX`   | (default prefix)           |
-
-### Auto-increment IDs (`serial`)
-Used for join/logging tables where prefix IDs add no value:
-- `llc_miembros` (LLC members)
-- `pagos` (payments)
-- `visitas` (site visits)
-- `revoked_admin_sessions`
-- `audit_logs`
-- `gastos_negocio` (business expenses)
+Todas las rutas soportan prefijo de idioma: `/:lang/ruta` donde `lang ∈ {es, en, fr, de, pt, ca}`.
 
 ---
 
-## Entity Relationships
+## API pública (`/api/*`)
 
+| Endpoint | Método | Descripción |
+|----------|--------|-------------|
+| `/api/bookings/blocked-days` | GET | Fechas bloqueadas |
+| `/api/bookings/config` | GET | Configuración de precio |
+| `/api/bookings/available-slots` | GET | Horas disponibles por fecha |
+| `/api/bookings/book` | POST | Crear reserva |
+| `/api/bookings/reschedule/:id` | PATCH | Reagendar (token en query) |
+| `/api/bookings/cancel/:id` | PATCH | Cancelar (token en query) |
+| `/api/bookings/acknowledge/:id` | PATCH | Confirmar recepción |
+| `/api/calculadora` | POST | Guardar resultado de calculadora |
+| `/api/newsletter/subscribe` | POST | Suscribir al newsletter |
+| `/api/newsletter/unsubscribe/:token` | POST | Desuscribir por token |
+| `/api/visitor` | POST | Registro de visita/analítica |
+| `/api/legal/documents/:type` | GET | Versión de documento legal |
+| `/sitemap.xml` | GET | Sitemap multiidioma |
+| `/robots.txt` | GET | Robots generado dinámicamente |
+| `/api/health` | GET | Health check |
+
+Rate limiting por IP en todos los endpoints.
+
+---
+
+## Internacionalización
+
+- **Idiomas soportados:** `es` · `en` · `fr` · `de` · `pt` · `ca`
+- **Framework:** i18next + react-i18next (carga diferida por idioma)
+- **Carga:** Español carga síncrona al inicio; el resto se carga dinámicamente al cambiar idioma
+- **Tipos generados:** `i18n/keys.generated.ts` (TypeScript type-safe keys)
+- **Validación:** `npm run i18n:check` detecta claves faltantes y genera tipos
+- **Blog:** Contenido por idioma en `data/blog-posts-content-{lang}.ts`
+- **Emails:** Traducciones en `server/email-i18n.ts` (mismo conjunto de idiomas)
+
+---
+
+## Base de datos (7 tablas)
+
+| Tabla | Propósito |
+|-------|-----------|
+| `leads` | Leads capturados (calculadora, formulario start) |
+| `agenda` | Reservas de asesoría |
+| `calculadora` | Resultados de la calculadora fiscal |
+| `visitas` | Analytics de visitas y UTM |
+| `newsletter_suscriptores` | Suscriptores al newsletter |
+| `dias_bloqueados` | Fechas bloqueadas para reservas |
+| `legal_document_versions` | Versiones de documentos legales |
+
+---
+
+## Seguridad
+
+- **Cifrado de campos:** AES-256-GCM para teléfonos y datos sensibles (`field-encryption.ts`)
+- **Rate limiting:** Por IP, configurable por endpoint (memoria o Redis vía `REDIS_URL`)
+- **CSRF:** Validación de `Origin`/`Referer` en todas las mutaciones
+- **Headers:** Helmet con CSP estricta
+- **Sanitización:** DOMPurify en middleware automático + sanitización de input
+- **Logging:** Structured logger con niveles (`logger.ts`)
+
+---
+
+## Variables de entorno requeridas
+
+```env
+DATABASE_URL=                      # PostgreSQL connection string
+SITE_URL=                          # URL pública (ej. https://exentax.com)
+GOOGLE_SERVICE_ACCOUNT_EMAIL=      # Para Calendar/Meet
+GOOGLE_PRIVATE_KEY=                # Para Calendar/Meet
+GMAIL_USER=                        # Email de envío
+ADMIN_EMAIL=                       # Email de notificaciones internas
 ```
-clientes (EX-*)
-├── llcs (LLC-*)          → clientId FK (SET NULL)
-│   ├── llc_miembros      → llcId FK (CASCADE), clientId FK (SET NULL)
-│   ├── calendario_fiscal → llcId FK (CASCADE), clientId FK (CASCADE)
-│   ├── alertas_fiscales  → llcId FK (CASCADE), clientId FK (CASCADE), taxCalendarId FK (CASCADE)
-│   └── documentos        → llcId FK (CASCADE), clientId FK (SET NULL)
-├── facturas (INV-*)      → clientId FK (SET NULL), llcId FK (SET NULL)
-│   └── pagos             → invoiceId FK (SET NULL), clientId FK (SET NULL)
-├── tokens (TK-*)         → clientId FK (CASCADE)
-├── timeline (TL-*)       → clientId FK (CASCADE)
-├── notificaciones        → clientId FK (CASCADE)
-├── leads (EX-*)          → clientId FK (SET NULL)
-│   └── comisiones        → clientId FK (SET NULL), invoiceId FK (SET NULL)
-└── consentimientos       → clientId FK (SET NULL)
+
+Opcionales:
+```env
+REDIS_URL=             # Si se omite, rate limiting en memoria
+WHATSAPP_NUMBER=
+CONTACT_EMAIL=
+LEGAL_EMAIL=
 ```
 
-### Known Schema Notes
-
-1. **`leads` table column:** Uses `cliente_id` as DB column name while all other tables use `client_id`. Drizzle maps both to `clientId` in code — this is cosmetic at DB level and changing it would require a migration.
-
-2. **Redundant fields on `clientes`:** The `clientes` table has `llcStatus`, `llcName`, and `ein` columns. These duplicate data from the `llcs` table. They exist for legacy reasons (originally 1:1 client-LLC). The `llcs` table is the authoritative source — these fields on `clientes` are convenience caches.
-
-3. **`onDelete` behavior:** At the DB level, most client FKs use `SET NULL` (preserving financial records like invoices, payments, leads, commissions) while tokens, timeline, notifications, and fiscal calendar/alerts use `CASCADE`. The `deleteClientCascade()` function in `storage/clients.ts` handles the full manual cascade to ensure clean deletion across all 15+ related tables regardless of DB-level cascade rules.
-
-4. **Date storage:** Most dates are stored as `text` (ISO format). Some use `timestamp`. This is intentional for timezone-safe fiscal deadline handling (Madrid timezone).
-
 ---
 
-## Authentication & Authorization
-
-### Admin Sessions
-- Cookie: `exentax_admin`
-- Format: `{sessionId}:{expires}:{username}:{role}:{hmac_signature}`
-- Signed with `SESSION_SECRET` (HMAC-SHA256)
-- Roles: `superadmin`, `admin`, `marketing`, `soporte`
-
-### Client Sessions
-- Cookie: `exentax_client`
-- Format: `{token}.{signature}`
-- Token stored in `tokens` table with expiry
-- Auth flows: OTP (magic link via email) or password login
-
-### Middleware Hierarchy
-```
-requireAdmin       → Any valid admin session
-requireFullAdmin   → admin or superadmin only
-requireSuperAdmin  → superadmin or owner account only
-requireRole(...)   → Dynamic role check
-requireClient      → Valid client session, not blocked
-```
-
-### Role-Based Data Access
-- `marketing` role: PII stripped from lead/agenda list views (no email, phone, IP)
-- `soporte` role: Read access to client data, limited write
-- `admin`/`superadmin`: Full access
-- Owner account: Cannot be modified/deleted via API
-
----
-
-## Security Architecture
-
-### Passwords
-- Hashed with `bcrypt` (12 rounds)
-- Never returned in API responses (only `has_password: boolean`)
-- Strength validation enforced on set
-
-### Documents
-- Encrypted at rest with AES-256-GCM (`file-encryption.ts`)
-- Decrypted on-the-fly when streamed to authorized users
-- Requires `DOCUMENT_ENCRYPTION_KEY` env var (64 hex chars, 32 bytes)
-- File ownership verified before serving (client must own the document or LLC)
-
-### Sensitive Data in Database
-| Field           | Tables              | Storage     |
-|-----------------|---------------------|-------------|
-| `passwordHash`  | clientes, admin_users | bcrypt hash (12 rounds) |
-| `ein`           | clientes, llcs      | AES-256-GCM encrypted + SHA-256 hash index (`einHash`) |
-| `dni`           | clientes, leads, llc_miembros | AES-256-GCM encrypted |
-| `iban`          | llcs, comisiones    | AES-256-GCM encrypted |
-| `accountNumber` | llcs                | AES-256-GCM encrypted |
-| `routingNumber` | llcs                | AES-256-GCM encrypted |
-| `filingNumber`  | llcs                | AES-256-GCM encrypted |
-| `phone`         | clientes, leads, llc_miembros, agenda | AES-256-GCM encrypted |
-| `address`       | clientes, leads, llcs, llc_miembros | AES-256-GCM encrypted |
-| `taxId`         | clientes            | AES-256-GCM encrypted |
-| `passportNumber`| facturas            | AES-256-GCM encrypted |
-| `swift`         | comisiones          | AES-256-GCM encrypted |
-
-All sensitive fields are encrypted at rest via `field-encryption.ts` using AES-256-GCM (requires `FIELD_ENCRYPTION_KEY` env var). In development, if the key is not set, fields are stored unencrypted with a warning logged. In production, the key is required and the server will refuse to start without it. Each storage module defines its own sensitive field list and applies encrypt/decrypt transparently. Document files are separately encrypted with AES-256-GCM via `file-encryption.ts` (requires `DOCUMENT_ENCRYPTION_KEY`). API responses apply data masking via `maskSensitiveField()` for restricted roles (`soporte`).
-
-### Input Sanitization
-- Auto-sanitization middleware (`sanitize-middleware.ts`) strips XSS from all request bodies
-- `sanitizeInput()` helper used for manual sanitization of specific fields
-- Rate limiting on all `/api/` routes (200 req/min per IP)
-
-### CSRF Protection
-- SameSite cookies + origin checking
-- Helmet CSP with strict directives
-
----
-
-## Fiscal Alert System
-
-### How It Works
-
-1. **Cron job** (every 12 hours, in `index.ts`): Scans `calendario_fiscal` for upcoming deadlines within 60 days
-2. **Manual trigger** (`POST /api/admin/fiscal-alerts/run`): Same logic, on-demand
-
-### Alert Schedule
-- **Client alerts:** Sent at 30, 10, 3, 1 days before deadline
-- **IRS critical forms** (5472, 1120, 1065): Additional alert at 14 days
-- **Internal alerts:** Sent at 45 and 15 days to admin team
-
-### Recipient Resolution
-1. Primary client (from `calendario_fiscal.clientId`)
-2. All LLC members (from `llc_miembros` for the associated LLC)
-3. Language resolved per recipient:
-   - If member is linked to a `clientId` → use that client's language preference
-   - Otherwise → fall back to primary client's language
-   - Final fallback → Spanish (`es`)
-
-### Deduplication
-- Alerts are logged in `alertas_fiscales` table with `daysBefore` threshold
-- Before sending, the system checks if an alert for the same threshold (±1 day) was already sent
-- Prevents duplicate alerts on repeated cron runs
-
-### Supported Languages
-Spanish, English, French, German, Italian, Portuguese, Catalan
-
----
-
-## Key Flows
-
-### Client Onboarding
-1. Admin creates client (`POST /api/admin/clients`) with optional auto-LLC creation
-2. System generates fiscal calendar entries based on LLC state, member count, and incorporation date
-3. Welcome email sent with portal access instructions
-4. Optional: auto-generate invoice for service fee
-
-### Booking Flow
-1. Public user checks available slots (`GET /api/bookings/available-slots`)
-2. Books consultation (`POST /api/bookings/book`) → creates lead + agenda entry
-3. Google Meet link auto-generated if configured
-4. Client receives booking confirmation with reschedule/cancel token
-5. Admin closes booking → optional auto-invoice generation
-
-### Invoice Lifecycle
-```
-pendiente → pagada → (reembolsada)
-         → vencida (overdue)
-         → anulada (voided)
-```
-- Invoices support multiple company entities (different billing entities)
-- Sequential invoice numbering via PostgreSQL sequence (`facturas_numero_seq`)
-- PDF generation with professional layout
-
-### Client Deletion (GDPR)
-1. All related records deleted in single transaction (`deleteClientCascade`)
-2. Physical document files deleted from filesystem
-3. Data erasure confirmation email sent
-4. Audit log entry created
-
----
-
-## Environment Variables
-
-### Required (all environments)
-| Variable         | Description                          |
-|------------------|--------------------------------------|
-| `DATABASE_URL`   | PostgreSQL connection string         |
-| `ADMIN_PASSWORD` | Password for owner admin account     |
-
-### Required (production only)
-| Variable                 | Description                                    |
-|--------------------------|------------------------------------------------|
-| `SESSION_SECRET`         | 64+ char random string for HMAC session signing |
-| `FIELD_ENCRYPTION_KEY`   | 64 hex chars (32 bytes) for AES-256-GCM field encryption (EIN, IBAN, phone) |
-| `DOCUMENT_ENCRYPTION_KEY`| 64 hex chars (32 bytes) for AES-256-GCM document encryption at rest |
-
-### Required (email & calendar features)
-| Variable                     | Description                                    |
-|------------------------------|------------------------------------------------|
-| `GOOGLE_SERVICE_ACCOUNT_KEY` | Google service account JSON key (must include `client_email` and `private_key`). Used for both Gmail API (JWT delegation) and Google Calendar/Meet. |
-| `GOOGLE_CALENDAR_ID`         | Google Calendar ID for meeting events (default: `hola@exentax.com`) |
-
-### Optional
-| Variable               | Description                         | Default |
-|------------------------|-------------------------------------|---------|
-| `PORT`                 | Server port                         | `5000`  |
-| `NODE_ENV`             | Environment mode                    | `development` |
-| `DB_POOL_MAX`          | Max database connections            | `25` (prod), `10` (dev) |
-| `SITE_URL`             | Full site URL                       | `https://exentax.com` |
-| `DOMAIN`               | Domain name                         | `exentax.com` |
-| `ADMIN_EMAIL`          | Admin notification email            | `arnau@exentax.com` |
-| `OWNER_USERNAME`       | Owner admin username                | `arnau` |
-| `COMMISSION_RATE`      | Default commission rate             | `0.15` (15%) |
-| `UPLOAD_DIR`           | Absolute path for document uploads  | `<cwd>/exentax-web/uploads/docs` |
-| `UPLOAD_MAX_SIZE_MB`   | Max upload file size in MB          | `20` |
-| `FONTS_DIR`            | Absolute path for PDF brand fonts   | auto-detected |
-| `EXTRA_ALLOWED_ORIGINS`| Comma-separated additional CSRF origins | — |
-| `COMPANY_ENTITIES_JSON`| JSON override for billing entities  | — |
-| `S3_BUCKET`            | AWS S3 bucket name for document storage | — (local storage) |
-| `S3_REGION`            | AWS S3 region                       | `eu-west-1` |
-| `S3_PREFIX`            | S3 key prefix for documents         | `docs/` |
-| `REDIS_URL`            | Redis URL for distributed rate limiting | — (in-memory) |
-
----
-
-## Development
+## Scripts
 
 ```bash
-npm run dev          # Start dev server (Express + Vite HMR) on port 5000
-npm run build        # Production build (esbuild + vite build)
-npm run start        # Run production build
-npm run db:push      # Sync Drizzle schema to database
+npm run dev          # Servidor de desarrollo (Express + Vite HMR)
+npm run build        # Build de producción
+npm run start        # Servidor de producción
+npm run check        # TypeScript type check
+npm run i18n:check   # Generar tipos + validar completitud i18n
+npm run db:push      # Push del schema a la DB (development)
+npm run db:generate  # Generar nueva migración
+npm run db:migrate   # Aplicar migraciones
 ```
 
-### Critical Rules
+---
 
-1. **Never change ID column types** — Changing `serial` to `varchar` or vice versa generates destructive `ALTER TABLE` statements
-2. **Never modify `vite.config.ts` or `server/vite.ts`** unless absolutely necessary
-3. **Always use `deleteClientCascade()`** for client deletion — never delete clients directly
-4. **All fiscal calendar operations must use Madrid timezone** — see `nowMadrid()` and `todayMadridISO()`
-5. **Invoice numbers are sequential** — the `facturas_numero_seq` PostgreSQL sequence must be initialized before first invoice creation (handled in `index.ts` startup)
-6. **LLC member alerts use language resolution chain** — member's client language → primary client language → "es"
-7. **Document encryption is optional in dev** — controlled by `DOCUMENT_ENCRYPTION_KEY` env var presence
-8. **The `clientes.ein`, `clientes.llcName`, `clientes.llcStatus` fields are legacy caches** — authoritative data is in `llcs` table
-9. **All route files import storage from barrel** (`../storage`) — never from sub-modules (`../storage/billing`)
-10. **All API responses use `apiOk()`/`apiFail()`** — never raw `res.json()`
-11. **Invoice items parsing uses `parseInvoiceItems()`** from `storage/billing.ts` — never inline `JSON.parse`
-12. **Booking slot locks use `withSlotLock`** with key format `${date}T${startTime}` — all slot-mutating endpoints (public book, reschedule, admin manual) must use identical key format
-13. **Token expiry checks use SQL `NOW()`** with `::timestamptz` cast — never JavaScript `new Date()`
+## Qué se eliminó y por qué
 
-### Known Schema Conventions
+### Dependencias eliminadas
 
-- **Status case split**: Agenda/Comisiones use PascalCase (`"Pendiente"`, `"Pagada"`, `"Cancelada"`); Facturas/Calendar use lowercase (`"pendiente"`, `"pagada"`). Stats code uses `.toLowerCase()` defensively. Do not unify — would require data migration.
-- **Column naming**: Most tables use Spanish column mappings (`fecha_creacion`, `estado`). `audit_logs` and `admin_users` use English (`created_at`, `action`). `facturas` mixes both (`payment_account` + `metodo_pago`). Cosmetic — mapped by Drizzle.
-- **Amount types**: All monetary `amount` fields (`facturas`, `pagos`, `leads`, `comisiones`, `gastos_negocio`) now use `numeric(12,2)`.
-- **Date storage**: Business dates (e.g. `incorporationDate`, `deadline`) stored as `text` (ISO format); system timestamps (`createdAt`, `updatedAt`) use `timestamp`. Do not change without data migration.
+| Paquete | Motivo |
+|---------|--------|
+| `@aws-sdk/client-s3` + `lib-storage` | Sin integración de almacenamiento de ficheros |
+| `bcryptjs` + `@types/bcryptjs` | Sin autenticación de admin ni portal de cliente |
+| `multer` + `@types/multer` | Sin upload de ficheros en rutas públicas |
+| `pdfkit` + `@types/pdfkit` | Sin generación de facturas ni PDFs |
+| `sharp` | Sin procesado de imágenes |
+| `ws` + `@types/ws` | Sin WebSockets directos |
+| `bufferutil` | Lib de rendimiento para WebSockets no usados |
+
+### Tablas eliminadas del schema y migración
+
+| Tabla | Motivo |
+|-------|--------|
+| `admin_users` | Sin portal de administración |
+| `clientes` | Sin portal de cliente |
+| `llcs` / `llc_miembros` | Sin gestión de LLCs |
+| `facturas` | Sin sistema de facturación |
+| `pagos` | Sin procesado de pagos |
+| `comisiones` | Sin tracking de comisiones |
+| `documentos` | Sin almacenamiento de documentos |
+| `emails` | Sin log de emails (no hay admin que los consulte) |
+| `consentimientos` | Consentimientos ya integrados en `leads` y `agenda` |
+| `legal_acceptances` | Sin portal de cliente que los gestione |
+| `timeline` | Sin portal donde mostrarla |
+| `tokens` | Sin autenticación de cliente |
+| `login_attempts` | Sin autenticación de admin |
+| `calendario_fiscal` | Sin motor de alertas fiscales |
+| `alertas_fiscales` | Sin motor de alertas fiscales |
+| `notificaciones` | Sin portal de cliente |
+| `gastos_negocio` | Sin panel de gestión interno |
+| `newsletter_campanas` | Sin panel de envío de campañas |
+| `audit_logs` | Sin panel de admin que las consulte |
+| `revoked_admin_sessions` | Sin autenticación de admin |
+
+### Eliminado de i18n
+
+- **Italiano:** Eliminado de `availableLanguage` en JSON-LD (`static.ts`) y del texto de contenido en `es.ts`, `en.ts`, `pt.ts` — el idioma italiano nunca estuvo implementado como locale soportado.
 
 ---
 
-## Documentation Ownership
+## Arquitectura
 
-| File | Scope | Owner |
-|------|-------|-------|
-| `README.md` (root) | Operational center: architecture, pending items, tech debt, change control, merge checklist | Project lead |
-| `exentax-web/README.md` | API reference, database schema, business flows, endpoint inventory | Backend lead |
-| `replit.md` | Design system, user preferences, dev environment, audit summary, i18n rules | Agent / design system |
+```
+Usuario
+  │
+  ▼
+Express 5 (Node.js)
+  ├── Middleware: Helmet · Compression · CSRF · Sanitización · Rate Limit
+  ├── Static: Vite build (React SPA) + assets
+  ├── API: /api/* → routes/public.ts → storage/* → PostgreSQL
+  └── HTML: SSR meta/SEO + SPA hydration
+```
 
-Each file has a single owner responsible for keeping it current. Cross-file contradictions must be resolved in favor of the operational center (this file) for architecture/config topics, `exentax-web/README.md` for API/schema details, and `replit.md` for design system and dev preferences.
-
----
-
-## Pending & Technical Debt
-
-Each item is tracked with: **Module**, **Problem**, **Impact**, **Priority** (P0=critical/blocking, P1=high, P2=medium, P3=low), **Status**, **Owner**, **Next Action**.
-
-> Last verified against codebase: 2026-04-13
-
-### DB — Database & Schema
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| DB-001 | `leads` table uses `cliente_id` as DB column while all other tables use `client_id`. Drizzle maps both to `clientId` in code. | Cosmetic inconsistency; confusing for DB-level queries. Changing requires a migration. | P3 | Open | Backend | Accept as-is or plan migration with data backup. |
-| DB-002 | Redundant fields on `clientes`: `llcStatus`, `llcName`, `ein` duplicate data from `llcs` table. Legacy from original 1:1 client-LLC model. | Risk of stale data if cache fields are not updated when LLC changes. | P2 | Open | Backend | Audit all write paths that modify LLC data to ensure `clientes` cache fields are updated, or deprecate them. |
-| DB-003 | Status case split: Agenda/Comisiones use PascalCase (`"Pendiente"`, `"Cancelada"`); Facturas/Calendar use lowercase (`"pendiente"`, `"pagada"`). Stats code uses `.toLowerCase()` defensively. | Developer confusion; fragile string comparisons in analytics/stats code. | P2 | Open | Backend | Document clearly (done). Unification requires data migration — defer unless causing bugs. |
-| DB-004 | Mixed column naming: most tables use Spanish (`fecha_creacion`, `estado`), `audit_logs`/`admin_users` use English (`created_at`, `action`), `facturas` mixes both (`payment_account` + `metodo_pago`). | Cosmetic; mapped by Drizzle ORM. | P3 | Open | Backend | Accept as-is. Drizzle mapping makes this transparent to application code. |
-| DB-005 | Date storage split: business dates stored as `text` (ISO format), system timestamps as `timestamp`. Intentional for timezone-safe fiscal handling. | Mixed types require different handling patterns in queries. | P3 | Open | Backend | Accept as-is — intentional design for Madrid timezone fiscal dates. |
-
-### Security
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| SEC-001 | Global API rate limiter now uses shared Redis-aware `RateLimitStore` with in-memory fallback. Specialized limiters already used it. | All rate limiters are multi-instance ready when `REDIS_URL` is configured. | P2 | **Resolved** | Backend | Resolved: migrated global `/api/` rate limiter to shared store. |
-| SEC-002 | In-memory session revocation (`Map` + DB) has eventual consistency. Revocation is immediate in-process but may take up to 1 hour to propagate to other instances. | Revoked sessions may remain valid briefly on other instances. | P2 | Open | Backend | Acceptable for single-instance. Plan shared revocation store before horizontal scaling. |
-| SEC-003 | Slot locking (`withSlotLock`) uses in-memory promise chains. Single-instance only. | Double-booking possible with multiple server instances. | P2 | Open | Backend | Interface is abstracted for Redis migration. Implement before scaling horizontally. |
-| SEC-004 | `SESSION_SECRET` defaults to random bytes in development. Admin sessions do not persist across server restarts in dev. | Dev inconvenience; no production impact (env var required in production). | P3 | Open | Backend | Accept as-is — by design for dev safety. |
-
-### Billing & Invoicing
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| BIL-001 | Invoice `items` stored as `jsonb` with no schema validation at DB level. Validated by `parseInvoiceItems()` at application layer only. | Malformed items could be inserted via direct DB access. | P3 | Open | Backend | Add JSON schema check constraint or rely on application validation (current approach). |
-| BIL-002 | `facturas_numero_seq` PostgreSQL sequence must be initialized before first invoice creation. Handled in `index.ts` startup but could fail silently. | If sequence initialization fails, invoice numbering breaks. | P2 | Open | Backend | Add startup health check that verifies sequence exists and logs clearly on failure. |
-
-### i18n — Internationalization
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| I18N-001 | 7 locale files with ~5,200+ keys each. Manual synchronization risk when adding new keys. | Missing translations fall back silently to Spanish, degrading UX for non-Spanish users. | P2 | Open | Frontend | Run `npm run i18n:validate` in CI/pre-merge. Already available but not enforced. |
-| I18N-002 | Backend translations split across multiple files: `email-i18n.ts`, `shared.ts` (BACKEND_I18N), `fiscal-alert-engine.ts`. No centralized validation. | Missed translations in emails/PDFs may go unnoticed until a user reports them. | P2 | Open | Backend | Create backend i18n validation script or extend existing `validate-i18n.ts`. |
-| I18N-003 | Blog content is stored as static TypeScript files per language (`blog-posts-content-{lang}.ts`). Adding/updating posts requires changes across 7 files. | High maintenance cost for blog content updates. | P3 | Open | Frontend | Accept as-is. Consider CMS integration if blog update frequency increases. |
-
-### Routes — API Endpoints
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| RTE-001 | Route files split across ~16 files by domain. Adding a new domain requires creating a new route file, registering it in the hub, and updating documentation in `exentax-web/README.md`. | Maintainability overhead for new domains, but manageable at current scale. | P3 | Open | Backend | Accept as-is. Route modularization is intentional. Ensure new route files follow existing patterns. |
-| RTE-002 | Catch-all 404 handler (`app.all("/api/{*rest}")`) must remain last in route registration order. If new route files are registered after it, those routes will never match. | Potential for silently broken endpoints if registration order is wrong. | P2 | Open | Backend | Document registration order requirement. Consider adding startup validation that verifies route order. |
-
-### PDFs — PDF Generation
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| PDF-001 | PDF generation uses custom builder with embedded fonts. Font loading depends on `FONTS_DIR` env var or auto-detection from `dist/fonts/` or `server/fonts/`. If fonts are missing, falls back to Helvetica. | Invoice PDFs may render with incorrect branding if fonts are not deployed correctly. | P2 | Open | Backend | Verify font deployment in production build. Add startup health check for font availability. |
-| PDF-002 | PDF invoice language uses client's `language` field from DB. If client has no language set, falls back to Spanish. PDF labels are defined inline in `server/routes/shared.ts`. | No centralized PDF label management; updates require modifying `shared.ts` directly. | P3 | Open | Backend | Accept as-is. PDF labels in `shared.ts` via `getPdfLabels(lang)` are well-structured for current scale. |
-| PDF-003 | Batch PDF generation (`POST /api/admin/invoices/batch-pdf`) processes invoices sequentially. Large batches may be slow. | Admin may experience timeouts on large batch PDF requests. | P3 | Open | Backend | Monitor batch sizes. Consider chunked/async processing if batch sizes grow significantly. |
-
-### Performance
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| PERF-001 | Suggested database indexes (see replit.md "Recommended Database Indexes" section) not all implemented. | Query latency may increase as data volume grows. | P2 | Open | Backend | Add recommended indexes (`clientes_created_at_idx`, `facturas_client_id_idx`, `facturas_status_idx`, `llcs_created_at_idx`, `tokens_token_type_idx`, `timeline_client_id_idx`, `agenda_date_idx`, `documentos_client_id_idx`) when performance issues are observed. |
-| PERF-002 | Fiscal alert engine runs as in-process `setInterval` timer. Heavy alert scan can block the event loop briefly. | Potential request latency spikes during alert processing. | P3 | Open | Backend | Monitor. Consider worker thread or separate process if latency becomes measurable. |
-| PERF-003 | All `getAll*` storage functions (`getAllVisitas`, `getAllCalculadora`, `getAllComisiones`, `getAllGastosNegocio`, `getAllNewsletterSuscriptores`, `getAllNewsletterCampanas`, `getAllEmails`) now support optional `{ limit, offset }` parameters. | Backward-compatible — omitting params returns full results. Ready for frontend pagination when needed. | P3 | **Resolved** | Backend | Use `{ limit, offset }` in admin endpoints when data volume warrants it. |
-| PERF-004 | N+1 query in `deleteClientCascade` eliminated — LLC members now fetched in single batch query with `inArray` instead of per-LLC loop. | Reduces N+1 DB round trips during client deletion to 1 batch fetch + per-LLC mutations. | P2 | **Resolved** | Backend | No further action needed. |
-
-### Compliance & Legal
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| COMP-001 | GDPR data export (`/api/clientes/export-data`) exports client data but completeness of exported fields has not been audited against all stored PII. | Potential GDPR non-compliance if some PII fields are missed in export. | P1 | Open | Backend | Audit all PII fields in schema against export output. Ensure all personal data is included. |
-| COMP-002 | Client deletion (`deleteClientCascade`) handles 15+ related tables but the list must be manually updated when new tables are added. | New tables with client FK may retain orphan data after deletion. | P1 | Open | Backend | Maintain `CASCADE_EMAIL_TABLES` registry. Add automated test that verifies all client-FK tables are covered. |
-
-### UX & Frontend
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| UX-001 | Admin dashboard has many tabs loaded via role-based conditional rendering. No code splitting within admin area. | Larger initial bundle for admin users. | P3 | Open | Frontend | Lazy-load admin tabs. App.tsx already uses `React.lazy` for pages but inner admin tabs are eagerly loaded. |
-| UX-002 | Login page design is frozen (`/clientes/login`). Any UX improvements require explicit user approval. | No risk — intentional constraint. | P3 | Open | — | Respect design freeze. |
-
-### Email & Notifications
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| EMAIL-001 | Email sending depends on Google service account JWT delegation via `GOOGLE_SERVICE_ACCOUNT_KEY`. If the service account key is invalid, revoked, or the delegated sender email is misconfigured, all email functionality fails silently (logged but no user-facing alert). | Missed fiscal alerts, booking confirmations, and transactional emails. | P1 | Open | Backend | Add health check endpoint or admin notification for email service status. Monitor service account key validity. |
-| EMAIL-002 | Meeting reminder emails scheduled via `setTimeout` are lost on server restart. | Missed reminders if server restarts between scheduling and send time. | P2 | Open | Backend | Store scheduled reminders in DB and process via cron instead of in-memory timers. |
-
-### SEO
-
-| # | Problem | Impact | Priority | Status | Owner | Next Action |
-|---|---------|--------|----------|--------|-------|-------------|
-| SEO-001 | All 16 public pages have `<SEO />` component. New pages must manually add it. | Missing SEO meta tags on new pages if developer forgets. | P3 | Open | Frontend | Add to merge checklist (done below). |
-
----
-
-## Merge Checklist
-
-Before merging any change, verify all applicable items:
-
-### Documentation
-- [ ] Root `README.md` updated if architecture, env vars, schema, or pending items changed
-- [ ] `exentax-web/README.md` updated if API endpoints, DB schema, or business flows changed
-- [ ] `replit.md` updated if design system, user preferences, or dev environment changed
-- [ ] Any new pending item or technical debt added to "Pending & Technical Debt" section
-- [ ] Any resolved item moved to "Resolved Items" section with date and summary
-
-### Internationalization (i18n)
-- [ ] All user-visible strings use `t()` (frontend) or backend translation dictionaries
-- [ ] New keys added to ALL 7 locale files simultaneously (es, en, fr, de, it, pt, ca)
-- [ ] `npm run i18n:validate` passes without errors
-- [ ] Email templates use `resolveEmailLang()` for language resolution
-- [ ] PDF/CSV exports use `EXPORT_LABELS[lang]` or `getPdfLabels(lang)`
-
-### Database & Schema
-- [ ] No destructive column type changes (serial ↔ varchar)
-- [ ] New tables with client FK added to `deleteClientCascade()` coverage
-- [ ] `CASCADE_EMAIL_TABLES` registry updated if new client-referencing table added
-- [ ] Check constraints added for status/enum columns
-- [ ] Appropriate indexes added for FK columns and frequently queried fields
-- [ ] `drizzle-kit push` tested locally before merge
-
-### Permissions & Security
-- [ ] New endpoints use appropriate auth middleware (`requireAdmin`, `requireFullAdmin`, `requireSuperAdmin`, `requireRole`)
-- [ ] `soporte` role data masking applied where applicable
-- [ ] `marketing` role access restricted to allowed data
-- [ ] Rate limiting applied to new endpoints
-- [ ] Request body validated with Zod `.strict()` schema
-- [ ] No raw `res.json()` — use `apiOk()`/`apiFail()`
-- [ ] All async route handlers wrapped in `asyncHandler()`
-
-### Error Handling
-- [ ] No empty catch blocks
-- [ ] Storage functions use `wrapStorageError()`
-- [ ] User-facing error messages are clear, actionable, and i18n'd
-- [ ] Fire-and-forget side effects use `.catch()` with explicit logging
-
-### Frontend
-- [ ] New pages include `<SEO />` component with appropriate meta tags
-- [ ] Interactive elements have `data-testid` attributes
-- [ ] Dark mode variants applied to all visual properties
-- [ ] Design system rules followed (see `replit.md`)
-- [ ] No external icon libraries (only custom SVGs from `components/icons.tsx`)
-- [ ] No emojis in UI, emails, or blog content
-
----
-
-## Change Control
-
-### Rules
-
-1. **If it's not in the README, it doesn't exist.** Every known issue, incomplete feature, technical debt item, and architectural decision must be registered in the "Pending & Technical Debt" section of this file.
-2. **Every change must be documented.** When a pull request introduces a new finding, incomplete implementation, or workaround, it must be added to the appropriate section before merge.
-3. **No silent deprecations.** When a feature, field, or pattern is deprecated, add it to "Pending & Technical Debt" with priority and next action.
-4. **Resolved items are archived, not deleted.** When a pending item is fixed, move it to the "Resolved Items" section with the resolution date and summary.
-5. **Environment variable changes require all three files to be updated.** Any new, renamed, or removed env var must be reflected in `README.md`, `exentax-web/README.md`, and `replit.md`.
-
-### Module Ownership
-
-| Module | Owner | Scope |
-|--------|-------|-------|
-| DB / Schema | Backend lead | `shared/schema.ts`, `server/storage/`, migrations |
-| Security / Auth | Backend lead | `server/routes.ts` (auth middleware), `server/route-helpers.ts`, `server/file-encryption.ts`, `server/field-encryption.ts` |
-| Billing / Invoicing | Backend lead | `server/routes/admin-clients-invoices.ts`, `server/storage/billing.ts`, invoice PDF generation |
-| Fiscal Compliance | Backend lead | `server/fiscal-alert-engine.ts`, `server/server-constants.ts`, `server/storage/accounting.ts` |
-| Email System | Backend lead | `server/email.ts`, `server/email-layout.ts`, `server/email-i18n.ts` |
-| i18n (Frontend) | Frontend lead | `client/src/i18n/`, locale files, `LanguageService` |
-| i18n (Backend) | Backend lead | `server/email-i18n.ts`, `server/routes/shared.ts` (BACKEND_I18N) |
-| CRM / Leads | Backend lead | `server/routes/admin-core-crm.ts`, `server/storage/marketing.ts` |
-| Client Portal | Backend lead | `server/routes/client-portal.ts`, `server/routes/client-auth.ts` |
-| Frontend / UX | Frontend lead | `client/src/pages/`, `client/src/components/` |
-| Design System | Project lead | `replit.md` (design rules), `client/src/index.css`, Tailwind config |
-| SEO | Frontend lead | `client/src/components/SEO.tsx`, `server/seo-content.ts` |
-| Documents | Backend lead | `server/storage/documents.ts`, `server/file-encryption.ts` |
-| Analytics | Backend lead | `server/routes/admin-core-analytics.ts`, `server/routes/admin-core-stats.ts` |
-| Scheduling / Booking | Backend lead | `server/routes/public.ts` (booking), `server/storage/scheduling.ts`, `server/route-helpers.ts` (slot locking) |
-
----
-
-## Resolved Items
-
-Items moved here from "Pending & Technical Debt" when resolved. Each entry preserves the original ID, resolution date, and summary.
-
-| Original ID | Resolved Date | Summary |
-|-------------|---------------|---------|
-| SEC-001 | 2026-04-13 | Global `/api/` rate limiter migrated from standalone in-memory `Map` to shared `RateLimitStore` (Redis-first with in-memory fallback). All 20+ specialized limiters already used it; now the global limiter does too. Multi-instance ready when `REDIS_URL` is set. |
-| INFRA-001 | 2026-04-13 | Document endpoints now support cursor-based pagination (`?cursor=&limit=`). Storage functions `getDocumentosByClient`, `getDocumentosByLlc`, `getDocumentosByLlcIds` return `{ data, nextCursor }`. Backward-compatible (omit params for full result). |
-| INFRA-002 | 2026-04-13 | Automatic image compression on upload via `sharp`. Images >500KB or >2400px are compressed (JPEG 85%, WebP 80%, PNG level 8). No impact on PDFs. Runs after magic-byte validation, before encryption. |
-| INFRA-003 | 2026-04-13 | Upload file size limit now configurable via `UPLOAD_MAX_SIZE_MB` env var (default 20MB). |
-| INFRA-004 | 2026-04-13 | Document streaming (`streamEncryptedDocument`) now uses S3 as primary source when configured, with local fallback. Previously always read from local disk even when S3 was enabled. |
-| BUILD-001 | 2026-04-13 | Production build migrated from CJS to ESM (`dist/index.mjs`) to support top-level `await` used throughout the server codebase. Build script paths resolved absolutely for reliability. |
-| I18N-001 | 2026-04-13 | PT (Portuguese) and CA (Catalan) translations verified complete. All 3610 keys present in both locales. 537 PT keys and 437 CA keys confirmed as correct cognates/proper nouns. 4 minor CA orthographic fixes applied (galetes, interpunct, verb conjugation). |
-| I18N-002 | 2026-04-13 | `COUNTRY_LABELS_I18N`, `IN_COUNTRY_I18N`, and `resolveLocalLabel()` moved from `email.ts` to centralized `email-i18n.ts`. All backend i18n labels now in one file. |
-| PERF-003 | 2026-04-13 | All `getAll*` storage functions now accept optional `{ limit, offset }` for pagination. Backward-compatible — omitting params returns full results. |
-| PERF-004 | 2026-04-13 | N+1 query in `deleteClientCascade` fixed. LLC members now fetched in single batch query with `inArray` instead of per-LLC loop. |
-| INFRA-005 | 2026-04-13 | Document deletion (`unlinkDocumentFile`) now uses centralized `deleteFile()` from `file-storage.ts`, which handles both S3 and local filesystem deletion. Previously only deleted from local disk. |
-| INFRA-006 | 2026-04-13 | Cursor-based pagination uses composite cursor (base64url-encoded `createdAt|id`) for correct ordering with non-monotonic prefixed IDs. Backward-compatible — omitting pagination params returns full result set. |
-| SEC-001b | 2026-04-13 | Redis rate limiter now falls back to in-memory enforcement on Redis operation failures instead of unconditionally allowing requests. Prevents rate limit bypass during Redis outages. |
-| I18N-003 | 2026-04-13 | Hardcoded string audit complete. All backend Zod validation messages in `admin-core-crm.ts`, `client-auth.ts`, `client-portal.ts`, `admin-core.ts`, `public.ts` replaced with i18n keys (`zodNameRequired`, `zodPasswordRequired`, `zodPhoneMinDigits`, `zodInvalidEmail`, `zodInvalidDateFormat`, `zodInvalidDate`). Unsubscribe HTML page now uses `backendLabel()` with `Accept-Language` detection for 7-language support. New BACKEND_I18N keys: `unsubError`, `unsubInvalidLink`, `unsubAlreadyTitle`, `unsubAlreadyMsg`, `unsubSuccessTitle`, `unsubSuccessMsg`, `zodNameRequired`, `zodPasswordRequired`. |
+La aplicación es un proceso Node.js único que sirve tanto el frontend (SPA React compilado por Vite) como el backend (Express). El SEO crítico (meta tags, JSON-LD, canonical, sitemap) se inyecta server-side en cada request.

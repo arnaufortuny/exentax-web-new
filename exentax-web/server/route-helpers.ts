@@ -133,9 +133,8 @@ export { getMeetingTimestampMs };
 
 /**
  * Trims whitespace from input strings. HTML entity escaping is handled
- * globally by autoSanitizeMiddleware (for JSON bodies) and sanitizeInPlace
- * (for multipart bodies after multer). Do NOT rely on this function for
- * HTML escaping — use output encoding at render sinks instead.
+ * globally by autoSanitizeMiddleware (for JSON bodies). Do NOT rely on this
+ * function for HTML escaping — use output encoding at render sinks instead.
  */
 export function sanitizeInput(str: string): string {
   return str.trim();

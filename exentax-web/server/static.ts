@@ -284,7 +284,7 @@ function injectMeta(html: string, reqPath: string): string {
         "@type": "ContactPoint",
         "email": "hola@exentax.com",
         "contactType": "customer service",
-        "availableLanguage": ["Spanish", "English", "French", "German", "Italian", "Portuguese", "Catalan"]
+        "availableLanguage": ["Spanish", "English", "French", "German", "Portuguese", "Catalan"]
       }
     });
   }
