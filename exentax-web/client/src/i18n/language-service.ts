@@ -27,7 +27,7 @@ export const LanguageService = {
     const lang = this.getCurrent();
     const map: Record<SupportedLang, string> = {
       es: "es-ES", en: "en-US", fr: "fr-FR",
-      de: "de-DE", pt: "pt-PT", ca: "ca-ES",
+      de: "de-DE", pt: "pt-BR", ca: "ca-ES",
     };
     return map[lang];
   },

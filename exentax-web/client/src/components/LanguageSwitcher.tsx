@@ -37,8 +37,10 @@ export default function LanguageSwitcher() {
     const pathLang = getLangFromPath(location);
     if (pathLang) {
       const rest = location.replace(new RegExp(`^/${pathLang}`), "") || "/";
-      if (rest === "/" || rest.startsWith("/blog")) {
-        setLocation(`/${lang}${rest === "/" ? "/blog" : rest}`, { replace: true });
+      if (rest.startsWith("/blog")) {
+        setLocation(`/${lang}${rest}`, { replace: true });
+      } else {
+        setLocation(rest || "/", { replace: true });
       }
     } else if (location === "/blog" || location.startsWith("/blog/")) {
       setLocation(`/${lang}${location}`, { replace: true });

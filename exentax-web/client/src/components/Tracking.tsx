@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useCallback } from "react";
 import { useLocation } from "wouter";
 import { getCookieConsent } from "./CookieBanner";
 
@@ -207,11 +207,9 @@ function reportVisit(path: string) {
 
 export default function Tracking() {
   const [location] = useLocation();
-  const [, setConsented] = useState(hasAnalyticsConsent);
 
   const onConsentChange = useCallback(() => {
     const now = hasAnalyticsConsent();
-    setConsented(now);
     updateGtagConsent(now);
     if (now) initTrackingIfConsented();
   }, []);

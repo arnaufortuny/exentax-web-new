@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { queryClient } from "@/lib/queryClient";
 import { useTranslation } from "react-i18next";
@@ -210,7 +210,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     },
   });
 
-  const days = getMonthDays(currentYear, currentMonth);
+  const days = useMemo(() => getMonthDays(currentYear, currentMonth), [currentYear, currentMonth]);
 
   const prevMonth = () => {
     if (currentMonth === 0) {
@@ -395,6 +395,11 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
             setSelectedTime(null);
             setFormData({ name: "", lastName: "", email: "", phone: "", beneficioMensual: "", clientesMundiales: null, operaDigital: null, notaCompartir: "", compromisoAsistir: null });
             setBookingResult(null);
+            setPrivacyAccepted(false);
+            setMarketingAccepted(false);
+            setPrivacyError(false);
+            setCompromisoError(false);
+            setPhoneError(false);
           }}
           className="text-sm text-[var(--text-2)] hover:text-[var(--text-1)] transition-colors"
           data-testid="button-new-booking"
