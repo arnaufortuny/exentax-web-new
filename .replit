@@ -1,0 +1,54 @@
+modules = ["nodejs-20", "web", "bash"]
+[nix]
+channel = "stable-25_05"
+packages = ["unzip", "imagemagick"]
+
+[agent]
+expertMode = true
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[deployment]
+run = ["node", "./dist/index.cjs"]
+deploymentTarget = "autoscale"
+build = ["npm", "run", "build"]
+
+[userenv]
+
+[userenv.shared]
+GOOGLE_LEADS_SHEET_ID = "11nLlSox44uim2VGAr9Gu-_jvJgY82MmRf07LBWRk3mM"
+GOOGLE_CALENDAR_ID = "hola@exentax.com"
+VITE_GA4_ID = "G-NTSDN0Y9YN"
+
+[userenv.development]
+SEED_TEST_CLIENT = "true"
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 20000

@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+Disallow: /clientes
+Disallow: /clientes/
+Disallow: /links
+Disallow: /start
+Disallow: /booking/
+Disallow: /login
+Disallow: /pago-completado
+Disallow: /pago-completado/
+Disallow: /pago-cancelado
+Disallow: /pago-cancelado/
+
+Sitemap: https://exentax.com/sitemap.xml

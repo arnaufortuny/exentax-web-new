@@ -1,0 +1,47 @@
+import i18n from "i18next";
+import { SUPPORTED_LANGS, type SupportedLang } from "./index";
+import { STORAGE_KEYS } from "@/lib/constants";
+
+function normalizeLang(raw: string): SupportedLang {
+  const code = raw.split("-")[0].toLowerCase();
+  return SUPPORTED_LANGS.includes(code as SupportedLang) ? (code as SupportedLang) : "es";
+}
+
+export const LanguageService = {
+  getCurrent(): SupportedLang {
+    return normalizeLang(i18n.language || "es");
+  },
+
+  async change(lang: SupportedLang): Promise<void> {
+    if (!SUPPORTED_LANGS.includes(lang)) return;
+    localStorage.setItem(STORAGE_KEYS.LANG, lang);
+    await i18n.changeLanguage(lang);
+  },
+
+  async changeTransient(lang: SupportedLang): Promise<void> {
+    if (!SUPPORTED_LANGS.includes(lang)) return;
+    await i18n.changeLanguage(lang);
+  },
+
+  getLocaleTag(): string {
+    const lang = this.getCurrent();
+    const map: Record<SupportedLang, string> = {
+      es: "es-ES", en: "en-US", fr: "fr-FR",
+      de: "de-DE", pt: "pt-PT", ca: "ca-ES",
+    };
+    return map[lang];
+  },
+
+  resolveForEntity(entityLang?: string | null): SupportedLang {
+    if (entityLang) {
+      const normalized = normalizeLang(entityLang);
+      if (SUPPORTED_LANGS.includes(normalized)) return normalized;
+    }
+    return this.getCurrent();
+  },
+
+  getStoredPreference(): SupportedLang | null {
+    const saved = localStorage.getItem(STORAGE_KEYS.LANG) as SupportedLang | null;
+    return saved && SUPPORTED_LANGS.includes(saved) ? saved : null;
+  },
+} as const;

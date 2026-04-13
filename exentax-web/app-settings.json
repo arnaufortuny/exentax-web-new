@@ -1,0 +1,11 @@
+{
+  "consultationPriceUSD": 124,
+  "consultationPriceCurrency": "EUR",
+  "bookingPriceEnabled": false,
+  "notifyNewBooking": true,
+  "notifyNewCalculation": true,
+  "notifyComisionCreated": true,
+  "notifyComisionPaid": true,
+  "notifyEmail": "",
+  "notifyEmails": []
+}

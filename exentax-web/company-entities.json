@@ -1,0 +1,46 @@
+{
+  "fortuny": {
+    "name": "Fortuny Consulting LLC",
+    "address": "1209 Mountain Road Pl NE, Ste R\nAlbuquerque, NM 87110\nUnited States",
+    "email": "hola@exentax.com",
+    "website": "exentax.com",
+    "accounts": [
+      {
+        "label": "Mercury",
+        "bank": "Column NA",
+        "type": "us",
+        "accountNumber": "",
+        "routingNumber": ""
+      },
+      {
+        "label": "Saxo",
+        "bank": "Saxo Payments A/S",
+        "type": "iban",
+        "iban": ""
+      }
+    ],
+    "active": true
+  },
+  "exentax": {
+    "name": "Exentax LLC",
+    "address": "1209 Mountain Road Pl NE, Ste R\nAlbuquerque, NM 87110\nUnited States",
+    "email": "hola@exentax.com",
+    "website": "exentax.com",
+    "accounts": [
+      {
+        "label": "Mercury",
+        "bank": "Column NA",
+        "type": "us",
+        "accountNumber": "",
+        "routingNumber": ""
+      },
+      {
+        "label": "Wise (IBAN EUR)",
+        "bank": "Wise US Inc",
+        "type": "iban",
+        "iban": ""
+      }
+    ],
+    "active": true
+  }
+}

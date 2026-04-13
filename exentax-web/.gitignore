@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Google credentials — never commit real keys
+# If you need to restore real credentials locally, copy them into this file
+# but do NOT commit. The app reads from GOOGLE_SERVICE_ACCOUNT_KEY env var.
+# server/google-credentials.ts
