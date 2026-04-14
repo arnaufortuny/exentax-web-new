@@ -26,6 +26,7 @@ function HeroSection() {
       <SEO
         title={t("llcUsPage.seoTitle")}
         description={t("llcUsPage.seoDesc")}
+        keywords={t("llcUsPage.seoKeywords")}
         path="/sobre-las-llc"
         breadcrumbs={[{ name: t("llcUsPage.breadcrumb"), path: "/sobre-las-llc" }]}
       />

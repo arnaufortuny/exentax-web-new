@@ -840,6 +840,7 @@ const es = {
  privacyPolicy:"Política de Privacidad",
  privacyError:"Debes aceptar la Política de Privacidad para suscribirte.",
  marketingCheck:"Acepto recibir comunicaciones comerciales de Exentax. Opcional.",
+ loading:"Enviando...",
  },
  cta: {
       headline: "Tu próxima declaración fiscal satisfactoria empieza aquí.",
@@ -1335,6 +1336,7 @@ const es = {
  preciosPage: {
  seoTitle:"Servicios LLC en EE.UU. | Exentax",
  seoDesc:"Constituye y gestiona tu LLC en EE.UU. con soporte experto. Incluye EIN, cuenta bancaria, compliance anual y acompañamiento en tu estructura fiscal internacional.",
+ seoKeywords:"servicios LLC Estados Unidos, constituir LLC, gestionar LLC, EIN LLC, cuenta bancaria LLC, compliance anual LLC, asesoría fiscal internacional, estructura fiscal autónomo, optimización fiscal freelancer, LLC Wyoming, LLC Delaware, Exentax servicios",
  },
 
  precios: {
@@ -1671,6 +1673,7 @@ const es = {
  comoFuncionaPage: {
  seoTitle:"Cómo funciona: tu LLC lista en 4 pasos",
  seoDesc:"Nuestro proceso en 4 fases: diagnóstico fiscal, estructura personalizada, constitución en 2-4 días y gestión anual completa. Sin sorpresas ni letra pequeña.",
+ seoKeywords:"cómo funciona Exentax, proceso constitución LLC, pasos crear LLC, asesoría fiscal proceso, estructura fiscal personalizada, constitución LLC 4 días, gestión anual LLC, Exentax proceso",
  },
  comoFunciona: {
  hero: {
@@ -1893,6 +1896,7 @@ const es = {
  llcUsPage: {
  seoTitle:"LLC en EE.UU. para no residentes · Guía completa 2026",
  seoDesc:"Todo lo que necesitas saber sobre LLC en EE.UU.: ventajas fiscales, cómo facturar, protección legal, banca en dólares y Stripe para no residentes.",
+ seoKeywords:"LLC Estados Unidos no residente, qué es una LLC, ventajas LLC, cómo facturar con LLC, banca dólares no residente, Stripe LLC no residente, LLC Wyoming no residente, LLC Delaware no residente, LLC freelancer, LLC autónomo español, EIN número, guía LLC 2026",
  breadcrumb:"LLC en Estados Unidos",
  heroTitle:"LLC en",
  heroTitleAccent:"Estados Unidos",
@@ -1982,6 +1986,7 @@ const es = {
  faqPage: {
  seoTitle:"Preguntas frecuentes sobre LLC en EE.UU.",
  seoDesc:"Resolvemos todas las dudas sobre LLC en EE.UU.: legalidad, ahorro real, diferencias Wyoming/Delaware/Nuevo México y obligaciones fiscales para autónomos.",
+ seoKeywords:"preguntas frecuentes LLC, FAQ LLC Estados Unidos, dudas LLC autónomo, legalidad LLC, ahorro fiscal LLC, Wyoming vs Delaware, Nuevo México LLC, obligaciones fiscales LLC, es legal LLC no residente, LLC para autónomo español",
  },
  booking: {
  days: ["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"],
@@ -2205,6 +2210,7 @@ const es = {
  asesoria:"Asesoría y gestoría",
  otros:"Otros gastos profesionales",
  },
+ expenseExample:"ej. {{amount}}",
  insights: {
  espana_autonomo_high:"Tu mayor ineficiencia está en la combinación de IRPF y Seguridad Social. A partir de 60k€, la tributación personal se dispara.",
  espana_autonomo_mid:"Con tu nivel de facturación, IRPF y cuotas sociales ya consumen una parte relevante del resultado. Hay margen real de optimización.",
@@ -2270,6 +2276,7 @@ const es = {
  pretitle:"BLOG",
  seoTitle:"Blog — Fiscalidad internacional y LLC en EE.UU. | Exentax",
  seoDescription:"Artículos sobre optimización fiscal, LLC en Estados Unidos, compliance y estrategias legales para freelancers y emprendedores digitales.",
+ seoKeywords:"blog fiscalidad internacional, LLC Estados Unidos guía, optimización fiscal freelancer, reducir impuestos autónomo, compliance LLC, estrategias fiscales legales, blog Exentax, fiscalidad digital, impuestos nómada digital",
  shareOnX:"Compartir en X",
  shareOnLinkedIn:"Compartir en LinkedIn",
  shareOnWhatsApp:"Compartir por WhatsApp",

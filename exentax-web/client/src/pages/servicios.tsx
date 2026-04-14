@@ -162,6 +162,7 @@ function PreciosHero() {
       <SEO
         title={t("preciosPage.seoTitle")}
         description={t("preciosPage.seoDesc")}
+        keywords={t("preciosPage.seoKeywords")}
         path="/servicios"
         breadcrumbs={[{ name: t("nav.services"), path: "/servicios" }]}
       />

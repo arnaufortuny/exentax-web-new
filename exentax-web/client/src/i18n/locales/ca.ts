@@ -845,6 +845,7 @@ const ca = {
       privacyPolicy: "Política de Privacitat",
       privacyError: "Has d'acceptar la Política de Privacitat per subscriure't.",
       marketingCheck: "Accepto rebre comunicacions comercials d'Exentax. Opcional.",
+      loading: "Enviant...",
     },
     cta: {
       headline: "La teva pròxima declaració fiscal satisfactòria comença aquí.",
@@ -1186,6 +1187,7 @@ const ca = {
   preciosPage: {
     seoTitle: "Serveis LLC als EUA | Exentax",
     seoDesc: "Constitueix i gestiona la teva LLC als EUA amb suport expert. Inclou EIN, compte bancari, compliance anual i acompanyament en la teva estructura fiscal internacional.",
+    seoKeywords: "serveis LLC EUA, constituir LLC, gestionar LLC, EIN LLC, compte bancari LLC, compliance anual LLC, assessoria fiscal internacional, estructura fiscal autònom, LLC Wyoming, LLC Delaware, Exentax serveis",
   },
   precios: {
     hero: {
@@ -1397,6 +1399,7 @@ const ca = {
   comoFuncionaPage: {
     seoTitle: "Com funciona: la teva LLC llesta en 4 passos",
     seoDesc: "El nostre procés en 4 fases: diagnòstic fiscal, estructura personalitzada, constitució en 2-4 dies i gestió anual completa. Sense sorpreses ni lletra petita.",
+    seoKeywords: "com funciona Exentax, procés constitució LLC, passos LLC, assessoria fiscal procés, estructura fiscal personalitzada, LLC en 4 dies, gestió anual LLC",
   },
   comoFunciona: {
     hero: {
@@ -1505,6 +1508,7 @@ const ca = {
   llcUsPage: {
     seoTitle: "LLC als EUA per a no residents · Guia completa 2026",
     seoDesc: "Tot el que necessites saber sobre LLC als EUA: avantatges fiscals, com facturar, protecció legal, banca en dòlars i Stripe per a no residents.",
+    seoKeywords: "LLC EUA no resident, què és una LLC, avantatges LLC, facturar amb LLC, banca dòlars no resident, Stripe LLC no resident, LLC Wyoming, LLC Delaware, LLC autònom, EIN número, guia LLC 2026",
     breadcrumb: "LLC als Estats Units",
     heroTitle: "LLC als",
     heroTitleAccent: "Estats Units",
@@ -1569,6 +1573,7 @@ const ca = {
   faqPage: {
     seoTitle: "Preguntes freqüents sobre LLC als EUA",
     seoDesc: "Resolem tots els dubtes sobre LLC als EUA: legalitat, estalvi real, diferències Wyoming/Delaware/Nou Mèxic i obligacions fiscals per a autònoms.",
+    seoKeywords: "FAQ LLC, preguntes LLC EUA, LLC autònoms, és legal LLC, estalvi fiscal LLC, Wyoming vs Delaware, LLC no resident, LLC europeus",
   },
   booking: {
     days: ["Dll","Dt","Dc","Dj","Dv","Ds","Dg"],
@@ -1793,6 +1798,7 @@ const ca = {
       asesoria: "Assessoria i gestoria",
       otros: "Altres despeses professionals",
     },
+    expenseExample: "ex. {{amount}}",
     insights: {
       espana_autonomo_high: "La teva major ineficiència està en la combinació d'IRPF i Seguretat Social. A partir de 60k€, la tributació personal es dispara.",
       espana_autonomo_mid: "Amb el teu nivell de facturació, IRPF i quotes socials ja consumeixen una part rellevant del resultat. Hi ha marge real d'optimització.",
@@ -1858,6 +1864,7 @@ const ca = {
     pretitle: "BLOG",
     seoTitle: "Blog · Fiscalitat internacional i LLC als EUA | Exentax",
     seoDescription: "Articles sobre optimització fiscal, LLC als EUA, compliance i estratègies legals per a freelancers i emprenedors digitals.",
+    seoKeywords: "blog fiscalitat internacional, LLC EUA guia, optimització fiscal autònom, LLC compliance, estratègies fiscals legals, blog Exentax, fiscalitat digital, nòmada digital impostos",
     shareOnX: "Compartir a X",
     shareOnLinkedIn: "Compartir a LinkedIn",
     shareOnWhatsApp: "Compartir per WhatsApp",

@@ -405,7 +405,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                               return existing;
                             });
                           }}
-                          placeholder={cat.placeholder}
+                          placeholder={t("calculator.expenseExample", { amount: cat.placeholder, defaultValue: cat.placeholder })}
                           className="w-full rounded-full px-2 pr-6 py-1 text-xs font-body bg-[var(--bg-1)] border border-[var(--border)] focus:border-[#00E510] focus:outline-none text-[var(--text-1)] text-right"
                         />
                         <span className="absolute right-2 top-1/2 -translate-y-1/2 text-[9px] text-[var(--text-3)] pointer-events-none">{currSymbol}</span>

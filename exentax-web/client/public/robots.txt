@@ -9,6 +9,7 @@ Disallow: /clientes/
 Disallow: /links
 Disallow: /start
 Disallow: /booking/
+Disallow: /mi-agenda/
 Disallow: /login
 Disallow: /pago-completado
 Disallow: /pago-completado/

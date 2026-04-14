@@ -29,6 +29,7 @@ export default function FAQPage() {
       <SEO
         title={t("faqPage.seoTitle")}
         description={t("faqPage.seoDesc")}
+        keywords={t("faqPage.seoKeywords")}
         path="/preguntas-frecuentes"
         jsonLd={faqJsonLd}
         breadcrumbs={[{ name: t("faqPage.seoTitle"), path: "/preguntas-frecuentes" }]}

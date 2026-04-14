@@ -71,7 +71,7 @@ function NewsletterSignup() {
               className="px-5 py-2.5 rounded-full bg-black text-[#00E510] font-semibold text-sm hover:bg-black/90 transition-colors disabled:opacity-50 flex-shrink-0"
               data-testid="button-newsletter-subscribe"
             >
-              {status === "loading" ? "..." : t("footer.newsletter.button")}
+              {status === "loading" ? t("footer.newsletter.loading") : t("footer.newsletter.button")}
             </button>
           </div>
 

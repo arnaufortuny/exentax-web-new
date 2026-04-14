@@ -220,7 +220,9 @@ export default function BlogIndex() {
       <SEO
         title={t("blogPost.seoTitle")}
         description={t("blogPost.seoDescription")}
+        keywords={t("blogPost.seoKeywords")}
         path={`/${lang}/blog`}
+        breadcrumbs={[{ name: t("blogPost.breadcrumbBlog"), path: `/${lang}/blog` }]}
       />
 
       <section className="min-h-[60vh] bg-[var(--bg-0)]" style={{ paddingBottom: 56 }}>
