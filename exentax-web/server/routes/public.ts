@@ -567,10 +567,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const calcLeadId = generateId("LEAD");
-
-    sendCalculatorEmail({ ...parsed.data, clientIp: calcIp, leadId: calcLeadId }).catch((err) =>
-      logger.error("Calculator email failed:", "app", err)
-    );
     const normalizedEmail = parsed.data.email.trim().toLowerCase();
     const annualIncome = parsed.data.annualIncome || (parsed.data.incomeMode === "annual" ? parsed.data.income : parsed.data.income * 12);
     const monthlyIncome = parsed.data.incomeMode === "annual" ? Math.round(parsed.data.income / 12) : parsed.data.income;
@@ -639,6 +635,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       logger.error("Calculator lead+row transaction failed:", "db", err);
       throw err;
     });
+
+    // Send email AFTER transaction commits — avoids orphan emails on TX failure
+    sendCalculatorEmail({ ...parsed.data, clientIp: calcIp, leadId: calcLeadId }).catch((err) =>
+      logger.error("Calculator email failed:", "app", err)
+    );
 
     if (parsed.data.marketingAccepted) {
       upsertNewsletterSubscriber(

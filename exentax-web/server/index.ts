@@ -373,7 +373,10 @@ httpServer.listen(
         const allMeetings = await getFutureAgenda();
         let scheduled = 0;
         for (const m of allMeetings) {
-          if (!m.meetingDate || !m.startTime || !m.email) continue;
+          if (!m.meetingDate || !m.startTime || !m.email) {
+            logger.warn(`Skipping reminder recovery for booking ${m.id} — missing meetingDate/startTime/email`, "reminder");
+            continue;
+          }
           const meetingMs = getMeetingTimestampMs(m.meetingDate, m.startTime);
           const reminderMs = meetingMs - 3 * 60 * 60 * 1000;
           if (reminderMs <= now) continue;
