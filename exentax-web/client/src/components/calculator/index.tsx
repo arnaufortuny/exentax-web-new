@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useSyncExternalStore } from "react";
+import { useState, useEffect, useMemo, useCallback, useSyncExternalStore } from "react";
 import { useTranslation } from "react-i18next";
 import { resolveLocale } from "@/lib/lang-utils";
 import { calculateSavings, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES } from "@/lib/calculator";
@@ -34,7 +34,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [country, setCountry] = useState("");
   const [regime, setRegime] = useState("");
 
-  function handleCountryChange(newCountry: string) {
+  const handleCountryChange = useCallback((newCountry: string) => {
     setCountry(newCountry);
     setRegime("");
     setExpenseItems(prev => {
@@ -45,7 +45,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
         return cat ? { ...item, deductPct: cat.deductPct, label: cat.label } : item;
       });
     });
-  }
+  }, []);
   const [activity, setActivity] = useState("digitalServices");
   const [expenses, setExpenses] = useState(0);
   const [expensesStr, setExpensesStr] = useState("0");
@@ -62,6 +62,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [showResults, setShowResults] = useState(false);
   const [incomeTouched, setIncomeTouched] = useState(false);
 
+  const expenseCategories = useMemo(() => getExpenseCategories(country), [country]);
   const hasCountry = country !== "";
   const hasRegime = regime !== "" && regime !== "sin-regimen";
   const countryRegimes = hasCountry ? (COUNTRY_REGIMES[country] || []) : [];
@@ -373,7 +374,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
               </>
             ) : (
               <div className="space-y-1.5">
-                {getExpenseCategories(country).map(cat => {
+                {expenseCategories.map(cat => {
                   const item = expenseItems.find(i => i.id === cat.id);
                   const val = item?.monthly || 0;
                   return (

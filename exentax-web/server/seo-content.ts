@@ -449,11 +449,6 @@ export const PAGE_META_I18N: Record<string, PageMeta> = {
     description: "Artikel über US-LLCs, internationale Besteuerung, Stripe, Krypto, digitale Nomaden und steuerliche Optimierung für Freelancer.",
     canonical: `${BASE_URL}/de/blog`,
   },
-  "/it/blog": {
-    title: "Blog: LLC negli USA, fiscalità internazionale e business digitale | Exentax",
-    description: "Articoli su LLC americane, fiscalità internazionale, Stripe, crypto, nomadi digitali e ottimizzazione fiscale per freelancer.",
-    canonical: `${BASE_URL}/it/blog`,
-  },
   "/pt/blog": {
     title: "Blog: LLC nos EUA, tributação internacional e negócios digitais | Exentax",
     description: "Artigos sobre LLCs americanas, tributação internacional, Stripe, cripto, nômades digitais e otimização fiscal para freelancers.",

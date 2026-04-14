@@ -109,14 +109,9 @@ export function maskSensitiveField(value: string | null | undefined, visibleChar
   return "*".repeat(clean.length - visibleChars) + clean.slice(-visibleChars);
 }
 
-export type SensitiveFieldName =
-  | "dni" | "taxId"
-  | "phone" | "address" | "city" | "postalCode";
+export type SensitiveFieldName = "phone";
 
-const ALL_SENSITIVE: readonly SensitiveFieldName[] = [
-  "dni", "taxId",
-  "phone", "address", "city", "postalCode",
-];
+const ALL_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
 
 export function encryptSensitiveFields<T extends Record<string, unknown>>(
   data: T,

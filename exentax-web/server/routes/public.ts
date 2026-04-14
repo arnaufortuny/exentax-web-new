@@ -22,7 +22,6 @@ import { encryptField } from "../field-encryption";
 import { sendBookingConfirmation, sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus } from "../server-constants";
 import { SITE_URL } from "../email-layout";
-import { PAGE_META } from "../seo-content";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
@@ -53,7 +52,10 @@ async function getCachedPrivacyVersion(): Promise<string> {
     const { getActiveLegalDocVersion } = await import("../storage/legal");
     const doc = await getActiveLegalDocVersion("privacy");
     _privacyVersionCache = doc?.version || "1.0";
-  } catch { _privacyVersionCache = "1.0"; }
+  } catch (err) {
+    logger.warn(`Failed to fetch privacy version, using fallback: ${err instanceof Error ? err.message : String(err)}`, "legal");
+    _privacyVersionCache = "1.0";
+  }
   _privacyVersionExpiry = Date.now() + 10 * 60_000;
   return _privacyVersionCache;
 }
@@ -141,8 +143,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   const bookingRequestSchema = z.object({
     name: z.string().min(2, "zodNameTooShort").max(100, "zodNameTooLong").transform(sanitizeInput),
     lastName: z.string().max(100, "zodLastNameTooLong").transform(sanitizeInput).optional().default(""),
-    email: z.string().email("zodInvalidEmail").max(254, "zodEmailTooLong"),
-    phone: z.string().max(PHONE_MAX_LENGTH, "zodPhoneTooLong").refine(isValidPhone, "zodPhoneMinDigits"),
+    email: z.string().email("zodInvalidEmail").max(254, "zodEmailTooLong").transform(e => e.trim().toLowerCase()),
+    phone: z.string().max(PHONE_MAX_LENGTH, "zodPhoneTooLong").transform(sanitizeInput).refine(isValidPhone, "zodPhoneMinDigits"),
     notes: z.string().max(1000, "zodNotesTooLong").transform(sanitizeInput).optional().nullable(),
     context: z.string().max(500, "zodContextTooLong").transform(sanitizeInput).optional().nullable(),
     activity: z.string().max(200, "zodActivityTooLong").transform(sanitizeInput).optional().nullable(),
@@ -169,9 +171,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return apiValidationFail(res, parsed.error);
     }
 
-    const { name, lastName, date, startTime, notes, context, activity, monthlyProfit, globalClients, digitalOperation, shareNote, privacyAccepted, marketingAccepted, language } = parsed.data;
-    const email = parsed.data.email.trim().toLowerCase();
-    const phone = parsed.data.phone;
+    const { name, lastName, email, phone, date, startTime, notes, context, activity, monthlyProfit, globalClients, digitalOperation, shareNote, privacyAccepted, marketingAccepted, language } = parsed.data;
 
     if (!isWeekday(date)) {
       return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
@@ -314,7 +314,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         notifyBookingCreated({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, meetLink, language, ip });
         getCachedPrivacyVersion().then(privacyVersion =>
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip })
-        ).catch(() => {});
+        ).catch(err => logger.warn(`Booking consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
         return { error: false as const, date, startTime, endTime, meetLink, status: "confirmed" };
       });
 
@@ -638,7 +638,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     notifyCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, ip: calcIp });
     getCachedPrivacyVersion().then(privacyVersion =>
       logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "/calculadora", privacyVersion, ip: calcIp })
-    ).catch(() => {});
+    ).catch(err => logger.warn(`Calculator consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res);
   }));
 
@@ -689,7 +689,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer" });
     getCachedPrivacyVersion().then(privacyVersion =>
       logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip })
-    ).catch(() => {});
+    ).catch(err => logger.warn(`Newsletter consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res, { subscribed: true });
   }));
 
@@ -878,15 +878,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return res.status(500).send("Error generating robots.txt");
     }
   });
-
-  app.get("/api/seo/page-meta", asyncHandler(async (req, res) => {
-    const ip = getClientIp(req);
-    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
-    const { page } = req.query;
-    if (!page || typeof page !== "string") return apiOk(res);
-    const meta = PAGE_META[page] || {};
-    return apiOk(res, meta as any);
-  }));
 
   app.get("/api/newsletter/unsubscribe/:token", asyncHandler(async (req, res) => {
     const token = (req.params.token as string || "").trim();
