@@ -17,7 +17,6 @@ export const leads = pgTable("leads", {
   termsAccepted: boolean("terminos_aceptados").default(false),
   marketingAccepted: boolean("marketing_aceptado").default(false),
   closed: boolean("cerrado").default(false),
-  amount: numeric("importe", { precision: 12, scale: 2 }),
   economicActivity: text("actividad_economica"),
   estimatedProfit: text("beneficio_estimado"),
   ip: text("ip"),
