@@ -7,7 +7,7 @@ import { LEGAL_DOCS } from "@/lib/constants";
 export default function DisclaimerPage() {
   const { t } = useTranslation();
   return (
-    <article><SEO title={t("legal.disclaimer.seoTitle")} description={t("legal.disclaimer.seoDescription")} path="/legal/disclaimer" keywords={t("legal.disclaimer.seoKeywords")} />
+    <article><SEO title={t("legal.disclaimer.seoTitle")} description={t("legal.disclaimer.seoDescription")} path="/legal/disclaimer" keywords={t("legal.disclaimer.seoKeywords")} breadcrumbs={[{ name: t("legal.disclaimer.seoTitle"), path: "/legal/disclaimer" }]} />
       <LegalLayout title={t("legal.disclaimer.title")} pdfHref={LEGAL_DOCS.DISCLAIMER}>
         <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(t("legal.disclaimer.body")) }} />
       </LegalLayout></article>

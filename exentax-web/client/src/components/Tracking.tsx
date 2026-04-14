@@ -164,7 +164,7 @@ function getSessionId(): string {
   const key = "exentax_sid";
   let sid = sessionStorage.getItem(key);
   if (!sid) {
-    sid = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+    sid = crypto.randomUUID();
     sessionStorage.setItem(key, sid);
   }
   return sid;

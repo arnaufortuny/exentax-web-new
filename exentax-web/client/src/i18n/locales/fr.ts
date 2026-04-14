@@ -841,6 +841,7 @@ const fr = {
       privacyPolicy: "Politique de confidentialité",
       privacyError: "Vous devez accepter la Politique de confidentialité pour vous abonner.",
       marketingCheck: "J'accepte de recevoir des communications commerciales d'Exentax. Optionnel.",
+      loading: "Envoi en cours...",
     },
     cta: {
       headline: "Votre prochaine déclaration fiscale satisfaisante commence ici.",
@@ -1091,6 +1092,7 @@ const fr = {
   preciosPage: {
     seoTitle: "Services LLC aux États-Unis | Exentax",
     seoDesc: "Constituez et gérez votre LLC américaine avec un support expert. Inclut EIN, compte bancaire, conformité annuelle et accompagnement dans votre structure fiscale internationale.",
+    seoKeywords: "services LLC États-Unis, créer LLC, gérer LLC, EIN LLC, compte bancaire LLC, conformité annuelle LLC, conseil fiscal international, structure fiscale freelancer, LLC Wyoming, LLC Delaware, Exentax services",
   },
   precios: {
     hero: {
@@ -1273,6 +1275,7 @@ const fr = {
   comoFuncionaPage: {
     seoTitle: "Comment ça fonctionne : votre LLC prête en 4 étapes",
     seoDesc: "Notre processus en 4 phases : diagnostic fiscal, structure personnalisée, constitution en 2-4 jours et gestion annuelle complète. Sans surprises.",
+    seoKeywords: "comment fonctionne Exentax, processus création LLC, étapes LLC, conseil fiscal processus, structure fiscale personnalisée, LLC 4 jours, gestion annuelle LLC",
   },
   comoFunciona: {
     hero: {
@@ -1381,6 +1384,7 @@ const fr = {
   llcUsPage: {
     seoTitle: "LLC aux États-Unis pour non-résidents · Guide complet 2026",
     seoDesc: "Tout ce que vous devez savoir sur les LLC américaines : avantages fiscaux, facturation, protection juridique, banque en dollars et Stripe pour non-résidents.",
+    seoKeywords: "LLC États-Unis non-résident, qu'est-ce qu'une LLC, avantages LLC, facturer avec LLC, banque dollars non-résident, Stripe LLC non-résident, LLC Wyoming, LLC Delaware, LLC freelancer, EIN numéro, guide LLC 2026",
     breadcrumb: "LLC aux États-Unis",
     heroTitle: "LLC aux",
     heroTitleAccent: "États-Unis",
@@ -1445,6 +1449,7 @@ const fr = {
   faqPage: {
     seoTitle: "Questions fréquentes sur les LLC aux États-Unis",
     seoDesc: "Nous répondons à toutes les questions sur les LLC américaines : légalité, économies réelles, différences Wyoming/Delaware/Nouveau-Mexique et obligations fiscales.",
+    seoKeywords: "FAQ LLC, questions LLC États-Unis, LLC freelancers, est-ce légal LLC, économies fiscales LLC, Wyoming vs Delaware, LLC non-résident, LLC Européens",
   },
   faqUI: {
     resultsFound: "résultats trouvés",
@@ -1683,6 +1688,7 @@ const fr = {
     pretitle: "BLOG",
     seoTitle: "Blog · Fiscalité internationale et LLC aux USA | Exentax",
     seoDescription: "Articles sur l'optimisation fiscale, les LLC aux États-Unis, la conformité et les stratégies légales pour freelancers et entrepreneurs digitaux.",
+    seoKeywords: "blog fiscalité internationale, LLC États-Unis guide, optimisation fiscale freelancer, LLC conformité, stratégies fiscales légales, blog Exentax, fiscalité numérique, nomade digital impôts",
     shareOnX: "Partager sur X",
     shareOnLinkedIn: "Partager sur LinkedIn",
     shareOnWhatsApp: "Partager sur WhatsApp",
@@ -1825,6 +1831,20 @@ const fr = {
 errors: {
   rateLimited: "Vous avez fait plusieurs requêtes de suite. Patientez un instant.",
   serverError: "Problème sur le serveur. Nous l'examinons déjà.",
+},
+calculator: {
+  expenseExample: "ex. {{amount}}",
+  expenseLabels: {
+    software: "Logiciels & outils",
+    hosting: "Hébergement / serveurs",
+    marketing: "Marketing & publicité",
+    telefono: "Téléphone & internet",
+    coworking: "Coworking / bureau",
+    vehiculo: "Véhicule (carburant, assurance)",
+    formacion: "Formation professionnelle",
+    asesoria: "Comptabilité & conseil",
+    otros: "Autres charges professionnelles",
+  },
 },
 };
 
