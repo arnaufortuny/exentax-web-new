@@ -844,6 +844,7 @@ const ca = {
       privacyCheck: "Accepto la",
       privacyPolicy: "Política de Privacitat",
       privacyError: "Has d'acceptar la Política de Privacitat per subscriure't.",
+      marketingCheck: "Accepto rebre comunicacions comercials d'Exentax. Opcional.",
     },
     cta: {
       headline: "La teva pròxima declaració fiscal satisfactòria comença aquí.",

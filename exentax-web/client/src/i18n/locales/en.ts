@@ -839,6 +839,7 @@ const en = {
       privacyCheck: "I accept the",
       privacyPolicy: "Privacy Policy",
       privacyError: "You must accept the Privacy Policy to subscribe.",
+      marketingCheck: "I agree to receive commercial communications from Exentax. Optional.",
     },
     cta: {
       headline: "Your next satisfactory tax return starts here.",

@@ -61,6 +61,8 @@ interface EmbedField {
 }
 
 interface DiscordPayload {
+  username: string;
+  avatar_url: string;
   embeds: [{
     title: string;
     color: number;
@@ -112,6 +114,8 @@ function _enqueue(type: DiscordEventType, title: string, fields: EmbedField[]): 
   if (!process.env.DISCORD_WEBHOOK_URL) return;
 
   const payload: DiscordPayload = {
+    username: "Exentax",
+    avatar_url: `${SITE_URL}/ex-icon-green.png`,
     embeds: [{
       title,
       color: COLOURS[type],

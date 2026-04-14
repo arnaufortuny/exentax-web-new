@@ -10,6 +10,7 @@ function NewsletterSignup() {
   const { t, i18n } = useTranslation();
   const [email, setEmail] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
+  const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [privacyError, setPrivacyError] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
@@ -26,12 +27,13 @@ function NewsletterSignup() {
       const res = await fetch("/api/newsletter/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, source: "footer", privacyAccepted: true, marketingAccepted: true, language: i18n.language }),
+        body: JSON.stringify({ email, source: "footer", privacyAccepted: true, marketingAccepted, language: i18n.language }),
       });
       if (res.ok) {
         setStatus("success");
         setEmail("");
         setPrivacyAccepted(false);
+        setMarketingAccepted(false);
         trackFormSubmit("newsletter_footer");
       } else {
         setStatus("error");
@@ -104,6 +106,30 @@ function NewsletterSignup() {
               {t("footer.newsletter.privacyError")}
             </p>
           )}
+
+          <label className={`flex items-start gap-2.5 cursor-pointer rounded-xl border px-3 py-2.5 transition-colors ${
+            marketingAccepted ? "border-black/20 bg-black/5" : "border-black/10 bg-black/5 hover:border-black/20"
+          }`}>
+            <input
+              type="checkbox"
+              checked={marketingAccepted}
+              onChange={(e) => setMarketingAccepted(e.target.checked)}
+              className="sr-only"
+              data-testid="checkbox-newsletter-marketing"
+            />
+            <span className={`mt-0.5 h-3.5 w-3.5 flex-shrink-0 rounded border-2 flex items-center justify-center transition-colors ${
+              marketingAccepted ? "bg-black border-black" : "border-black/30 bg-transparent"
+            }`}>
+              {marketingAccepted && (
+                <svg width="8" height="6" viewBox="0 0 9 7" fill="none">
+                  <path d="M1 3.5L3.5 6L8 1" stroke="#00E510" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              )}
+            </span>
+            <span className="text-[10px] text-black/50 leading-relaxed text-left">
+              {t("footer.newsletter.marketingCheck")}
+            </span>
+          </label>
         </form>
       )}
       {status === "error" && (

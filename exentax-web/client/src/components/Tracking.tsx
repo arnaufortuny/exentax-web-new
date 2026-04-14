@@ -87,7 +87,6 @@ function initMetaPixel(id: string) {
   s.src = "https://connect.facebook.net/en_US/fbevents.js";
   document.head.appendChild(s);
   window.fbq("init", id);
-  window.fbq("track", "PageView");
 }
 
 function hasAnalyticsConsent(): boolean {

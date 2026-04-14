@@ -839,6 +839,7 @@ const es = {
  privacyCheck:"Acepto la",
  privacyPolicy:"Política de Privacidad",
  privacyError:"Debes aceptar la Política de Privacidad para suscribirte.",
+ marketingCheck:"Acepto recibir comunicaciones comerciales de Exentax. Opcional.",
  },
  cta: {
       headline: "Tu próxima declaración fiscal satisfactoria empieza aquí.",

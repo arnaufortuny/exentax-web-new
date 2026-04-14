@@ -844,6 +844,7 @@ const pt = {
       privacyCheck: "Aceito a",
       privacyPolicy: "Política de Privacidade",
       privacyError: "Deves aceitar a Política de Privacidade para te inscreveres.",
+      marketingCheck: "Aceito receber comunicações comerciais da Exentax. Opcional.",
     },
     cta: {
       headline: "A sua próxima declaração fiscal satisfatória começa aqui.",

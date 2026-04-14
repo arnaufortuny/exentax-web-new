@@ -840,6 +840,7 @@ const de = {
       privacyCheck: "Ich akzeptiere die",
       privacyPolicy: "Datenschutzerklärung",
       privacyError: "Sie müssen die Datenschutzerklärung akzeptieren, um sich anzumelden.",
+      marketingCheck: "Ich stimme dem Erhalt kommerzieller Mitteilungen von Exentax zu. Optional.",
     },
     cta: {
       headline: "Ihre nächste zufriedenstellende Steuererklärung beginnt hier.",

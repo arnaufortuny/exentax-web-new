@@ -840,6 +840,7 @@ const fr = {
       privacyCheck: "J'accepte la",
       privacyPolicy: "Politique de confidentialité",
       privacyError: "Vous devez accepter la Politique de confidentialité pour vous abonner.",
+      marketingCheck: "J'accepte de recevoir des communications commerciales d'Exentax. Optionnel.",
     },
     cta: {
       headline: "Votre prochaine déclaration fiscale satisfaisante commence ici.",
