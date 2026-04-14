@@ -81,7 +81,7 @@ export default function HowItWorks() {
                       <StepNumber num={i + 1} />
                     </div>
                   </div>
-                  <div className="bg-[var(--bg-1)] border border-[rgba(0,229,16,0.22)] rounded-[var(--radius-xl)] p-7 text-left w-full flex-1 flex flex-col">
+                  <div className="glass-card border border-[rgba(0,229,16,0.22)] rounded-[var(--radius-xl)] p-7 text-left w-full flex-1 flex flex-col">
                     <h3 className="font-heading font-semibold text-xl text-[var(--text-1)] mb-2">{step.title}</h3>
                     {step.intro && <p className="text-sm text-[#00E510] font-medium mb-3">{step.intro}</p>}
                     {step.desc && (
@@ -133,7 +133,7 @@ export default function HowItWorks() {
                   <div className="w-12 h-12 flex items-center justify-center relative z-10 mb-3">
                     <StepNumber num={i + 1} />
                   </div>
-                  <div className="bg-[var(--bg-1)] border border-[rgba(0,229,16,0.22)] rounded-[var(--radius-xl)] p-5 sm:p-7 w-full">
+                  <div className="glass-card border border-[rgba(0,229,16,0.22)] rounded-[var(--radius-xl)] p-5 sm:p-7 w-full">
                     <h3 className="font-heading font-semibold text-xl text-[var(--text-1)] mb-2">{step.title}</h3>
                     {step.intro && <p className="text-sm text-[#00E510] font-medium mb-3">{step.intro}</p>}
                     {step.desc && (

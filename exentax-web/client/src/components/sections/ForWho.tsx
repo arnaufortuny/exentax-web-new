@@ -178,7 +178,9 @@ export default function ForWho() {
               key={profile.title}
               className="reveal rounded-2xl p-6 flex flex-col transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
               style={{
-                background: 'linear-gradient(135deg, rgba(0,229,16,0.04) 0%, var(--bg-1) 100%)',
+                background: 'var(--card-bg)',
+                backdropFilter: 'blur(20px) saturate(1.5)',
+                WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
                 border: '1px solid rgba(0,229,16,0.12)',
                 transitionDelay: `${i * 80}ms`,
               }}

@@ -56,7 +56,7 @@ export default function Origin() {
         </div>
 
         <div
-          className="reveal rounded-[var(--radius-xl)] p-8 lg:p-12 relative overflow-hidden border border-[rgba(0,229,16,0.22)] bg-[var(--bg-1)]"
+          className="reveal glass-card rounded-[var(--radius-xl)] p-8 lg:p-12 relative overflow-hidden border border-[rgba(0,229,16,0.22)]"
         >
           <div className="relative z-10">
             <div className="text-center mb-10">
@@ -77,7 +77,9 @@ export default function Origin() {
                   key={text}
                   className="flex flex-col items-center text-center gap-4 p-5 rounded-2xl transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
                   style={{
-                    background: 'rgba(0,229,16,0.03)',
+                    background: 'rgba(0,229,16,0.04)',
+                    backdropFilter: 'blur(12px)',
+                    WebkitBackdropFilter: 'blur(12px)',
                     border: '1px solid rgba(0,229,16,0.15)',
                     transitionDelay: `${i * 100}ms`,
                   }}

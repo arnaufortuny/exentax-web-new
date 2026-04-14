@@ -112,8 +112,9 @@ export default function WhyUs() {
                 key={point.title}
                 className="reveal rounded-2xl p-6 lg:p-7 transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300 group"
                 style={{
-                  background: 'var(--bg-2)',
-                  borderLeft: '3px solid #00E510',
+                  background: 'var(--card-bg)',
+                  backdropFilter: 'blur(20px) saturate(1.5)',
+                  WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
                   border: '1px solid var(--border-subtle)',
                   borderLeftWidth: '3px',
                   borderLeftColor: '#00E510',
@@ -133,7 +134,7 @@ export default function WhyUs() {
           })}
         </div>
 
-        <div className="reveal mt-20 rounded-[var(--radius-xl)] p-10 lg:p-14 text-center relative overflow-hidden border border-[rgba(0,229,16,0.22)] bg-[var(--bg-1)]">
+        <div className="reveal mt-20 glass-card rounded-[var(--radius-xl)] p-10 lg:p-14 text-center relative overflow-hidden border border-[rgba(0,229,16,0.22)]">
           <div className="relative z-10">
             <p className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-3">
               {t("whyUs.ctaTitle")}

@@ -124,8 +124,7 @@ export default function BanksCarousel() {
               loading="eager"
               decoding="async"
               fetchPriority={i < BANKS.length ? "high" : "low"}
-              className={`${b.height} w-auto object-contain opacity-70 dark:opacity-50 grayscale dark:invert`}
-              style={{ filter: "brightness(0)" }}
+              className={`${b.height} w-auto object-contain opacity-60 dark:opacity-50 brightness-0 dark:invert`}
               data-testid={`img-bank-${b.name.toLowerCase()}`}
             />
           </div>

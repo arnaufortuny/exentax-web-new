@@ -39,7 +39,9 @@ export default function Services() {
               key={item.label}
               className="rounded-2xl p-6 border-t-2 border-t-[#00E510] transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
               style={{
-                background: 'var(--bg-2)',
+                background: 'var(--card-bg)',
+                backdropFilter: 'blur(20px) saturate(1.5)',
+                WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
                 border: '1px solid var(--border-subtle)',
                 borderTop: '2px solid #00E510',
                 transitionDelay: `${i * 80}ms`,
@@ -57,7 +59,9 @@ export default function Services() {
               key={service.title}
               className="reveal rounded-[var(--radius-xl)] overflow-hidden transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
               style={{
-                background: 'var(--bg-2)',
+                background: 'var(--card-bg)',
+                backdropFilter: 'blur(20px) saturate(1.5)',
+                WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
                 border: '1px solid var(--border-subtle)',
                 transitionDelay: `${i * 120}ms`,
               }}
