@@ -24,7 +24,7 @@ import {
   checkNewsletterRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
-import { getAppSettings, backendLabel, resolveRequestLang } from "./shared";
+import { backendLabel, resolveRequestLang } from "./shared";
 import { BLOG_POSTS } from "../../client/src/data/blog-posts";
 import { getTranslatedSlug } from "../../client/src/data/blog-posts-slugs";
 import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "./api-response";
@@ -258,7 +258,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             marketingAccepted: marketingAccepted,
             consentDateTime: new Date().toISOString(),
             closed: false,
-            amount: (() => { const s = getAppSettings(); return s.bookingPriceEnabled ? String(s.consultationPriceUSD) : "0"; })(),
+            amount: "0",
             economicActivity: activity || null,
             ip,
             date: todayMadridISO(),

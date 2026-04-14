@@ -1,43 +1,4 @@
-import { logger } from "../logger";
 import { SUPPORTED_LANGS } from "../server-constants";
-import path from "path";
-import { promises as fsp } from "fs";
-
-interface AppSettings {
-  consultationPriceUSD: number;
-  consultationPriceCurrency: string;
-  bookingPriceEnabled: boolean;
-}
-
-const DEFAULT_APP_SETTINGS: AppSettings = {
-  consultationPriceUSD: 0,
-  consultationPriceCurrency: "EUR",
-  bookingPriceEnabled: false,
-};
-
-let _appSettings: AppSettings = { ...DEFAULT_APP_SETTINGS };
-
-function getSettingsPath(): string {
-  try {
-    const dir = typeof import.meta.dirname === "string" ? import.meta.dirname : process.cwd();
-    return path.join(dir, "..", "..", "app-settings.json");
-  } catch { return path.join(process.cwd(), "app-settings.json"); }
-}
-
-async function loadAppSettings() {
-  try {
-    const fp = getSettingsPath();
-    try { await fsp.access(fp); } catch { return; }
-    const raw = await fsp.readFile(fp, "utf-8");
-    const data = JSON.parse(raw);
-    _appSettings = { ...DEFAULT_APP_SETTINGS, ...data };
-  } catch (err) {
-    logger.error("Failed to load app settings:", "config", err);
-  }
-}
-await loadAppSettings();
-
-export function getAppSettings(): AppSettings { return { ..._appSettings }; }
 
 const BACKEND_I18N: Record<string, Record<string, string>> = {
   validationFailed: {
