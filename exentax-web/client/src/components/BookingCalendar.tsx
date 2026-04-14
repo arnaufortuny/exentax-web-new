@@ -129,7 +129,8 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     },
     staleTime: 300_000,
   });
-  const blockedDates = new Set(blockedDaysQuery.data || []);
+  const blockedDates = useMemo(() => new Set(blockedDaysQuery.data || []), [blockedDaysQuery.data]);
+  const todayStr = useMemo(() => todayMadridISO(), []);
 
   const slotsQuery = useQuery<{ date: string; slots: string[]; blocked?: boolean }>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
@@ -623,7 +624,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 const past = isPastDate(currentYear, currentMonth, day);
                 const dateStr = formatDateISO(currentYear, currentMonth, day);
                 const isSelected = selectedDate === dateStr;
-                const isToday = dateStr === todayMadridISO();
+                const isToday = dateStr === todayStr;
                 const blocked = isBlockedDate(currentYear, currentMonth, day);
                 const disabled = !weekday || past || blocked;
 

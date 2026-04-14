@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { clearCookieConsent } from "@/components/CookieBanner";
 import { BRAND, CONTACT, SOCIAL } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
@@ -13,6 +13,12 @@ function NewsletterSignup() {
   const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [privacyError, setPrivacyError] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  useEffect(() => {
+    if (status !== "success") return;
+    const t = setTimeout(() => setStatus("idle"), 4000);
+    return () => clearTimeout(t);
+  }, [status]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

@@ -21,7 +21,7 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { backendLabel, resolveRequestLang } from "./shared";
@@ -658,6 +658,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
 
   app.post("/api/consent", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
+    if (!(await checkConsentRateLimit(ip))) return apiOk(res); // silent — never block the client
     const parsed = cookieConsentSchema.safeParse(req.body);
     if (!parsed.success) return apiOk(res); // silent — never block the client
     const { tipo, aceptado, version, idioma, referrer } = parsed.data;
@@ -805,39 +806,34 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       { loc: "/legal/disclaimer", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
     ];
 
-    let urls = "";
+    const urlParts: string[] = [];
     for (const page of pages) {
       const loc = page.loc === "/" ? "" : page.loc;
       const fullLoc = `${SITE_URL}${loc}`;
-      urls += `  <url>\n    <loc>${fullLoc}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n`;
+      const parts = [`  <url>\n    <loc>${fullLoc}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n`];
       for (const lang of SUPPORTED_LANGS) {
         const langLoc = loc ? `/${lang}${loc}` : `/${lang}`;
-        urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${langLoc}" />\n`;
+        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${langLoc}" />\n`);
       }
-      urls += `    <xhtml:link rel="alternate" hreflang="x-default" href="${fullLoc}" />\n`;
-      urls += `  </url>\n`;
+      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${fullLoc}" />\n  </url>\n`);
+      urlParts.push(parts.join(""));
     }
 
-    const allPosts = BLOG_POSTS;
-    for (const post of allPosts) {
+    for (const post of BLOG_POSTS) {
       const postSlug = post.slug;
       const lastmod = post.updatedAt || post.publishedAt;
-      urls += `  <url>\n    <loc>${SITE_URL}/es/blog/${escapeXml(postSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`;
-      if (lastmod) urls += `    <lastmod>${escapeXml(lastmod)}</lastmod>\n`;
-
+      const parts = [`  <url>\n    <loc>${SITE_URL}/es/blog/${escapeXml(postSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`];
+      if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
       for (const lang of SUPPORTED_LANGS) {
         const translatedSlug = getTranslatedSlug(postSlug, lang);
-        if (translatedSlug && translatedSlug !== postSlug) {
-          urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}/${lang}/blog/${escapeXml(translatedSlug)}" />\n`;
-        } else {
-          urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}/${lang}/blog/${escapeXml(postSlug)}" />\n`;
-        }
+        const href = `${SITE_URL}/${lang}/blog/${escapeXml(translatedSlug && translatedSlug !== postSlug ? translatedSlug : postSlug)}`;
+        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />\n`);
       }
-      urls += `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n`;
-      urls += `  </url>\n`;
+      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n  </url>\n`);
+      urlParts.push(parts.join(""));
     }
 
-    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}</urlset>`;
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlParts.join("")}</urlset>`;
 
     sitemapCache = { xml, generatedAt: Date.now() };
 
