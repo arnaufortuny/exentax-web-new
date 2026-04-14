@@ -4,7 +4,7 @@ import helmet from "helmet";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer, type IncomingMessage, type ServerResponse } from "http";
-import { closePool, db } from "./db";
+import { closePool, db, runColumnMigrations } from "./db";
 import { logger } from "./logger";
 import { sql } from "drizzle-orm";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
@@ -312,6 +312,7 @@ httpServer.listen(
 
 (async () => {
   try {
+    await runColumnMigrations();
     await registerRoutes(httpServer, app, activeIntervals);
 
     const isProduction = process.env.NODE_ENV !== "development";
@@ -372,7 +373,10 @@ httpServer.listen(
         const allMeetings = await getFutureAgenda();
         let scheduled = 0;
         for (const m of allMeetings) {
-          if (!m.meetingDate || !m.startTime || !m.email) continue;
+          if (!m.meetingDate || !m.startTime || !m.email) {
+            logger.warn(`Skipping reminder recovery for booking ${m.id} — missing meetingDate/startTime/email`, "reminder");
+            continue;
+          }
           const meetingMs = getMeetingTimestampMs(m.meetingDate, m.startTime);
           const reminderMs = meetingMs - 3 * 60 * 60 * 1000;
           if (reminderMs <= now) continue;

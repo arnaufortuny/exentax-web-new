@@ -73,6 +73,7 @@ function ProcessHero() {
       <SEO
         title={t("comoFuncionaPage.seoTitle")}
         description={t("comoFuncionaPage.seoDesc")}
+        keywords={t("comoFuncionaPage.seoKeywords")}
         path="/como-trabajamos"
         breadcrumbs={[{ name: t("nav.howWeWork"), path: "/como-trabajamos" }]}
       />

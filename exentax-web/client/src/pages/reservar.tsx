@@ -203,8 +203,9 @@ export default function ReservarPage() {
     <><SEO
         title={t("reservarPage.seoTitle")}
         description={t("reservarPage.seoDesc")}
-        path="/agendar-asesoria"
         keywords={t("reservarPage.seoKeywords")}
+        path="/agendar-asesoria"
+        breadcrumbs={[{ name: t("reservarPage.seoTitle"), path: "/agendar-asesoria" }]}
       />
 
       {isPaymentSuccess ? (

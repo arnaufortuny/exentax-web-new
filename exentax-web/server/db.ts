@@ -35,6 +35,27 @@ export async function closePool() {
   await pool.end();
 }
 
+/**
+ * Idempotent column migrations — runs at startup, safe to run multiple times.
+ * Use ADD COLUMN IF NOT EXISTS to add new columns without breaking existing deployments.
+ */
+export async function runColumnMigrations(): Promise<void> {
+  const client = await pool.connect();
+  try {
+    await client.query(`
+      ALTER TABLE agenda
+        ADD COLUMN IF NOT EXISTS reschedule_count integer DEFAULT 0,
+        ADD COLUMN IF NOT EXISTS last_rescheduled_at text,
+        ADD COLUMN IF NOT EXISTS cancelled_at text
+    `);
+    logger.debug("Column migrations applied.", "db");
+  } catch (err) {
+    logger.error(`Column migration failed: ${err instanceof Error ? err.message : String(err)}`, "db");
+  } finally {
+    client.release();
+  }
+}
+
 export type DbOrTx = typeof db;
 
 export async function withTransaction<T>(fn: (tx: DbOrTx) => Promise<T>): Promise<T> {

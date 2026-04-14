@@ -61,6 +61,8 @@ interface EmbedField {
 }
 
 interface DiscordPayload {
+  username: string;
+  avatar_url: string;
   embeds: [{
     title: string;
     color: number;
@@ -73,8 +75,12 @@ interface DiscordPayload {
 // ─── Rate-limiting queue ──────────────────────────────────────────────────────
 const QUEUE_MAX = 50;
 const DRAIN_INTERVAL_MS = 1_500; // ~40 messages/min
+const MAX_RETRIES = 3;
+const FETCH_TIMEOUT_MS = 8_000;
 
-const _queue: DiscordPayload[] = [];
+interface QueueItem { payload: DiscordPayload; attempt: number }
+
+const _queue: QueueItem[] = [];
 let _drainTimer: NodeJS.Timeout | null = null;
 
 function _ensureDrainTimer(): void {
@@ -89,22 +95,53 @@ function _drainQueue(): void {
   _sendPayload(item);
 }
 
-async function _sendPayload(payload: DiscordPayload): Promise<void> {
+async function _sendPayload(item: QueueItem): Promise<void> {
   const url = process.env.DISCORD_WEBHOOK_URL;
   if (!url) return;
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    let res: Response;
+    try {
+      res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(item.payload),
+        signal: controller.signal,
+      });
+    } finally {
+      clearTimeout(timeout);
+    }
     if (!res.ok) {
       const body = await res.text().catch(() => "");
-      logger.warn(`Discord webhook HTTP ${res.status}: ${body.slice(0, 200)}`, "discord");
+      const isRetryable = res.status === 429 || res.status >= 500;
+      if (isRetryable && item.attempt < MAX_RETRIES) {
+        const backoff = Math.min(DRAIN_INTERVAL_MS * 2 ** item.attempt, 30_000);
+        logger.warn(`Discord HTTP ${res.status} — retry ${item.attempt + 1}/${MAX_RETRIES} in ${backoff}ms`, "discord");
+        setTimeout(() => _enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
+      } else {
+        logger.warn(`Discord webhook HTTP ${res.status} (no retry): ${body.slice(0, 300)}`, "discord");
+      }
     }
   } catch (err) {
-    logger.warn(`Discord send error: ${err instanceof Error ? err.message : String(err)}`, "discord");
+    const msg = err instanceof Error ? err.message : String(err);
+    if (item.attempt < MAX_RETRIES) {
+      const backoff = Math.min(DRAIN_INTERVAL_MS * 2 ** item.attempt, 30_000);
+      logger.warn(`Discord send error — retry ${item.attempt + 1}/${MAX_RETRIES} in ${backoff}ms: ${msg}`, "discord");
+      setTimeout(() => _enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
+    } else {
+      logger.warn(`Discord send failed after ${MAX_RETRIES} retries: ${msg}`, "discord");
+    }
   }
+}
+
+function _enqueueItem(item: QueueItem): void {
+  if (_queue.length >= QUEUE_MAX) {
+    _queue.shift();
+    logger.warn("Discord queue full — oldest message dropped", "discord");
+  }
+  _queue.push(item);
+  _ensureDrainTimer();
 }
 
 // ─── Internal enqueue ─────────────────────────────────────────────────────────
@@ -112,6 +149,8 @@ function _enqueue(type: DiscordEventType, title: string, fields: EmbedField[]): 
   if (!process.env.DISCORD_WEBHOOK_URL) return;
 
   const payload: DiscordPayload = {
+    username: "Exentax",
+    avatar_url: `${SITE_URL}/ex-icon-green.png`,
     embeds: [{
       title,
       color: COLOURS[type],
@@ -121,12 +160,7 @@ function _enqueue(type: DiscordEventType, title: string, fields: EmbedField[]): 
     }],
   };
 
-  if (_queue.length >= QUEUE_MAX) {
-    _queue.shift(); // drop oldest to avoid unbounded growth
-    logger.warn("Discord queue full — oldest message dropped", "discord");
-  }
-  _queue.push(payload);
-  _ensureDrainTimer();
+  _enqueueItem({ payload, attempt: 0 });
 }
 
 // ─── Public notification functions ───────────────────────────────────────────
@@ -159,20 +193,24 @@ export function notifyBookingRescheduled(opts: {
   bookingId: string;
   name: string;
   email: string;
+  phone?: string | null;
   oldDate?: string | null;
   oldStartTime?: string | null;
   newDate: string;
   newStartTime: string;
   newEndTime: string;
   language?: string | null;
+  rescheduleCount?: number | null;
 }): void {
   _enqueue("booking_rescheduled", "🔄 Reserva reagendada", [
-    { name: "ID",          value: `\`${opts.bookingId}\``,                                                    inline: true },
-    { name: "Anterior",    value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",          inline: true },
-    { name: "Nueva fecha", value: `${opts.newDate} ${opts.newStartTime}–${opts.newEndTime}`,                  inline: true },
-    { name: "Cliente",     value: maskName(opts.name),                                                        inline: true },
-    { name: "Email",       value: maskEmail(opts.email),                                                      inline: true },
-    { name: "Idioma",      value: opts.language || "es",                                                      inline: true },
+    { name: "ID",            value: `\`${opts.bookingId}\``,                                                    inline: true },
+    { name: "Anterior",      value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",          inline: true },
+    { name: "Nueva fecha",   value: `${opts.newDate} ${opts.newStartTime}–${opts.newEndTime}`,                  inline: true },
+    { name: "Cliente",       value: maskName(opts.name),                                                        inline: true },
+    { name: "Email",         value: maskEmail(opts.email),                                                      inline: true },
+    { name: "Teléfono",      value: maskPhone(opts.phone),                                                      inline: true },
+    { name: "Idioma",        value: opts.language || "es",                                                      inline: true },
+    { name: "Nº reagendas",  value: String(opts.rescheduleCount ?? 1),                                         inline: true },
   ]);
 }
 
@@ -180,16 +218,18 @@ export function notifyBookingCancelled(opts: {
   bookingId: string;
   name: string;
   email: string;
+  phone?: string | null;
   date?: string | null;
   startTime?: string | null;
   language?: string | null;
 }): void {
   _enqueue("booking_cancelled", "❌ Reserva cancelada", [
     { name: "ID",      value: `\`${opts.bookingId}\``,                                 inline: true },
-    { name: "Fecha",   value: opts.date ? `${opts.date} ${opts.startTime || ""}` : "—", inline: true },
-    { name: "Idioma",  value: opts.language || "es",                                    inline: true },
-    { name: "Cliente", value: maskName(opts.name),                                      inline: true },
-    { name: "Email",   value: maskEmail(opts.email),                                    inline: true },
+    { name: "Fecha",     value: opts.date ? `${opts.date} ${opts.startTime || ""}` : "—", inline: true },
+    { name: "Idioma",    value: opts.language || "es",                                    inline: true },
+    { name: "Cliente",   value: maskName(opts.name),                                      inline: true },
+    { name: "Email",     value: maskEmail(opts.email),                                    inline: true },
+    { name: "Teléfono",  value: maskPhone(opts.phone),                                    inline: true },
   ]);
 }
 

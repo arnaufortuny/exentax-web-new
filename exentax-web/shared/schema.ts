@@ -1,4 +1,4 @@
-import { pgTable, text, varchar, boolean, timestamp, numeric, serial, index, uniqueIndex, check } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, boolean, timestamp, numeric, serial, integer, index, uniqueIndex, check } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
@@ -61,6 +61,9 @@ export const agenda = pgTable("agenda", {
   manageToken: text("manage_token"),
   reminderSent: boolean("reminder_sent").default(false),
   language: text("idioma_booking"),
+  rescheduleCount: integer("reschedule_count").default(0),
+  lastRescheduledAt: text("last_rescheduled_at"),
+  cancelledAt: text("cancelled_at"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
   index("agenda_email_idx").on(table.email),

@@ -25,6 +25,7 @@
  */
 
 import { google } from "googleapis";
+import crypto from "crypto";
 import { logger } from "./logger";
 import { getGoogleServiceAccountKey, GOOGLE_CALENDAR_ID as EMBEDDED_CALENDAR_ID } from "./google-credentials.js";
 import { isTransient, isAuthError } from "./google-utils";
@@ -101,7 +102,8 @@ export async function createGoogleMeetEvent(params: MeetEventParams): Promise<Me
 async function _createGoogleMeetEventInternal(params: MeetEventParams): Promise<MeetEventResult | null> {
   const calendarId = process.env.GOOGLE_CALENDAR_ID || EMBEDDED_CALENDAR_ID;
 
-  const stableRequestId = `exentax-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  // Deterministic: same inputs always produce same ID, so retries are idempotent
+  const stableRequestId = `exentax-${crypto.createHash("sha256").update(`${params.clientEmail}|${params.date}|${params.startTime}`).digest("hex").slice(0, 16)}`;
 
   for (let attempt = 0; attempt < 2; attempt++) {
     const calendar = getCalendarClient();

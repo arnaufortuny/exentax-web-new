@@ -21,15 +21,15 @@ export interface ExpenseItem {
 type ExpenseCategoryDef = { id: string; label: string; deductPct: 100 | 80 | 50 | 20; placeholder: string };
 
 const BASE_EXPENSE_CATEGORIES: ExpenseCategoryDef[] = [
-  { id: "software", label: "Software y herramientas", deductPct: 100, placeholder: "Ej: 120" },
-  { id: "hosting", label: "Hosting / servidores", deductPct: 100, placeholder: "Ej: 50" },
-  { id: "marketing", label: "Marketing y publicidad", deductPct: 100, placeholder: "Ej: 200" },
-  { id: "telefono", label: "Teléfono e internet", deductPct: 50, placeholder: "Ej: 60" },
-  { id: "coworking", label: "Coworking / oficina", deductPct: 100, placeholder: "Ej: 250" },
-  { id: "vehiculo", label: "Vehículo (combustible, seguro)", deductPct: 50, placeholder: "Ej: 150" },
-  { id: "formacion", label: "Formación profesional", deductPct: 100, placeholder: "Ej: 80" },
-  { id: "asesoria", label: "Asesoría y gestoría", deductPct: 100, placeholder: "Ej: 100" },
-  { id: "otros", label: "Otros gastos profesionales", deductPct: 100, placeholder: "Ej: 50" },
+  { id: "software", label: "Software y herramientas", deductPct: 100, placeholder: "120" },
+  { id: "hosting", label: "Hosting / servidores", deductPct: 100, placeholder: "50" },
+  { id: "marketing", label: "Marketing y publicidad", deductPct: 100, placeholder: "200" },
+  { id: "telefono", label: "Teléfono e internet", deductPct: 50, placeholder: "60" },
+  { id: "coworking", label: "Coworking / oficina", deductPct: 100, placeholder: "250" },
+  { id: "vehiculo", label: "Vehículo (combustible, seguro)", deductPct: 50, placeholder: "150" },
+  { id: "formacion", label: "Formación profesional", deductPct: 100, placeholder: "80" },
+  { id: "asesoria", label: "Asesoría y gestoría", deductPct: 100, placeholder: "100" },
+  { id: "otros", label: "Otros gastos profesionales", deductPct: 100, placeholder: "50" },
 ];
 
 const COUNTRY_EXPENSE_OVERRIDES: Record<string, Partial<Record<string, { deductPct: 100 | 80 | 50 | 20; label?: string }>>> = {

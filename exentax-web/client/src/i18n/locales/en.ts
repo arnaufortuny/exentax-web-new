@@ -839,6 +839,8 @@ const en = {
       privacyCheck: "I accept the",
       privacyPolicy: "Privacy Policy",
       privacyError: "You must accept the Privacy Policy to subscribe.",
+      marketingCheck: "I agree to receive commercial communications from Exentax. Optional.",
+      loading: "Sending...",
     },
     cta: {
       headline: "Your next satisfactory tax return starts here.",
@@ -1088,7 +1090,8 @@ const en = {
   },
   preciosPage: {
     seoTitle: "LLC Services in the US | Exentax",
-    seoDesc: "Form and manage your US LLC with expert support. Includes EIN, bank account, annual compliance and guidance on your international tax structure."
+    seoDesc: "Form and manage your US LLC with expert support. Includes EIN, bank account, annual compliance and guidance on your international tax structure.",
+    seoKeywords: "US LLC services, form LLC, manage LLC, EIN LLC, LLC bank account, annual compliance LLC, international tax advice, tax structure freelancer, LLC Wyoming, LLC Delaware, Exentax services",
   },
   precios: {
     hero: {
@@ -1270,7 +1273,8 @@ const en = {
   },
   comoFuncionaPage: {
     seoTitle: "How it works: your LLC ready in 4 steps",
-    seoDesc: "Our process in 4 phases: free analysis, personalized structure, formation in 2-4 days and complete annual management. No surprises or fine print."
+    seoDesc: "Our process in 4 phases: free analysis, personalized structure, formation in 2-4 days and complete annual management. No surprises or fine print.",
+    seoKeywords: "how Exentax works, LLC formation process, steps to create LLC, tax advisory process, personalised tax structure, LLC formation 4 days, annual LLC management, Exentax process",
   },
   comoFunciona: {
     hero: {
@@ -1379,6 +1383,7 @@ const en = {
   llcUsPage: {
     seoTitle: "US LLC for non-residents · Complete guide 2026",
     seoDesc: "Everything you need to know about US LLCs: tax benefits, how to invoice, legal protection, dollar banking and Stripe for non-residents.",
+    seoKeywords: "US LLC non-resident, what is an LLC, LLC benefits, how to invoice with LLC, dollar banking non-resident, Stripe LLC non-resident, Wyoming LLC non-resident, Delaware LLC, LLC freelancer, EIN number, LLC guide 2026",
     breadcrumb: "LLC in the United States",
     heroTitle: "LLC in",
     heroTitleAccent: "the United States",
@@ -1442,7 +1447,8 @@ const en = {
   },
   faqPage: {
     seoTitle: "Frequently asked questions about US LLC",
-    seoDesc: "We answer all questions about US LLCs: legality, real savings, Wyoming/Delaware/New Mexico differences and tax obligations for freelancers."
+    seoDesc: "We answer all questions about US LLCs: legality, real savings, Wyoming/Delaware/New Mexico differences and tax obligations for freelancers.",
+    seoKeywords: "LLC FAQ, US LLC questions, LLC for freelancers, is LLC legal, LLC tax savings, Wyoming vs Delaware, New Mexico LLC, LLC tax obligations, LLC non-resident, LLC for Europeans",
   },
   faqUI: {
     resultsFound: "results found",
@@ -1681,6 +1687,7 @@ const en = {
     pretitle: "BLOG",
     seoTitle: "Blog · International Tax & US LLCs | Exentax",
     seoDescription: "Articles on tax optimization, US LLCs, compliance and legal strategies for freelancers and digital entrepreneurs.",
+    seoKeywords: "international tax blog, US LLC guide, tax optimization freelancer, reduce taxes freelancer, LLC compliance, legal tax strategies, Exentax blog, digital business tax, digital nomad taxes",
     shareOnX: "Share on X",
     shareOnLinkedIn: "Share on LinkedIn",
     shareOnWhatsApp: "Share on WhatsApp",
@@ -1709,6 +1716,7 @@ const en = {
       noShow: "No show"
     },
     yourSession: "Your session",
+    sessionType: "Strategic consultation · 30 min",
     date: "Date",
     time: "Time",
     videoCall: "Video call",
@@ -1821,6 +1829,20 @@ const en = {
   errors: {
     rateLimited: "You've made several requests in a row. Give it a moment.",
     serverError: "Server issue. We're already looking into it.",
+  },
+  calculator: {
+    expenseExample: "e.g. {{amount}}",
+    expenseLabels: {
+      software: "Software & tools",
+      hosting: "Hosting / servers",
+      marketing: "Marketing & advertising",
+      telefono: "Phone & internet",
+      coworking: "Coworking / office",
+      vehiculo: "Vehicle (fuel, insurance)",
+      formacion: "Professional training",
+      asesoria: "Advisory & accounting",
+      otros: "Other professional expenses",
+    },
   },
 };
 

@@ -212,6 +212,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
           <div>
             <p className="text-xs text-[var(--muted)] mb-0.5">{t("agenda.time")}</p>
             <p data-testid="text-meeting-time" className="text-sm font-semibold text-[var(--text-1)]">{booking.horaInicio} — {booking.horaFin}</p>
+            <p className="text-[11px] text-[var(--muted)] mt-0.5">Europe/Madrid (CET/CEST)</p>
           </div>
         </div>
         {booking.googleMeet && !isCancelled && (
@@ -367,8 +368,9 @@ export default function MiAgendaPage() {
             <div className="px-6 py-5 border-b border-[var(--border)]">
               <div className="flex items-start justify-between">
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs text-[var(--muted)] font-medium uppercase tracking-wider mb-1">{t("agenda.yourSession")}</p>
+                  <p className="text-xs text-[var(--muted)] font-medium uppercase tracking-wider mb-0.5">{t("agenda.yourSession")}</p>
                   <h1 data-testid="text-client-name" className="text-lg font-bold text-[var(--text-1)]">{booking.nombre}</h1>
+                  <p className="text-[11px] text-[var(--muted)] mt-0.5">{t("agenda.sessionType")}</p>
                 </div>
                 <StatusBadge estado={booking.estado} isPast={booking.isPast} />
               </div>
