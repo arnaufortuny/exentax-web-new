@@ -93,7 +93,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const madridNow = nowMadrid();
-    const todayStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayStr = todayMadridISO();
 
     if (date < todayStr) {
       return apiOk(res, { date, slots: [] });
@@ -171,8 +171,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return apiFail(res, 400, backendLabel("invalidTimeSlot", resolveRequestLang(req)), "INVALID_TIME");
     }
 
-    const madridNow = nowMadrid();
-    const todayMadridStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayMadridStr = todayMadridISO();
     if (date < todayMadridStr) {
       return apiFail(res, 400, backendLabel("cannotBookPastDate", resolveRequestLang(req)), "INVALID_DATE");
     }
@@ -347,7 +346,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
     if (row.meetingDate) {
       const madridNowCheck = nowMadrid();
-      const todayCheck = `${madridNowCheck.getFullYear()}-${String(madridNowCheck.getMonth() + 1).padStart(2, "0")}-${String(madridNowCheck.getDate()).padStart(2, "0")}`;
+      const todayCheck = todayMadridISO();
       if (row.meetingDate < todayCheck) return apiFail(res, 400, backendLabel("cannotReschedulePast", resolveRequestLang(req)), "PAST_BOOKING");
       if (row.meetingDate === todayCheck && row.endTime) {
         const nowH = madridNowCheck.getHours();
@@ -365,7 +364,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const { date, startTime } = parsed.data;
     if (!isWeekday(date)) return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
     const madridNow = nowMadrid();
-    const todayStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayStr = todayMadridISO();
     if (date < todayStr) return apiFail(res, 400, backendLabel("cannotReschedulePastDate", resolveRequestLang(req)), "PAST_DATE");
     const blockedDay = await getDiaBloqueado(date);
     if (blockedDay) return apiFail(res, 400, backendLabel("dateBlocked", resolveRequestLang(req)), "BLOCKED_DATE");
@@ -379,7 +378,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
     const endTime = getEndTime(startTime);
     const slotKey = `${date}T${startTime}`;
-    const newRescheduleCount = ((row as unknown as Record<string, unknown>).rescheduleCount as number | null ?? 0) + 1;
+    const newRescheduleCount = (row.rescheduleCount ?? 0) + 1;
     const nowIso = new Date().toISOString();
 
     // Claim slot atomically: check + update date/time/status inside the lock
@@ -476,7 +475,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
     if (row.meetingDate) {
       const madridNowCancel = nowMadrid();
-      const todayCancel = `${madridNowCancel.getFullYear()}-${String(madridNowCancel.getMonth() + 1).padStart(2, "0")}-${String(madridNowCancel.getDate()).padStart(2, "0")}`;
+      const todayCancel = todayMadridISO();
       if (row.meetingDate < todayCancel) return apiFail(res, 400, backendLabel("cannotCancelPast", resolveRequestLang(req)), "PAST_BOOKING");
       if (row.meetingDate === todayCancel && row.endTime) {
         const nowH = madridNowCancel.getHours();
@@ -653,7 +652,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     aceptado: z.boolean(),
     version: z.string().max(20).optional(),
     idioma: z.string().max(10).optional(),
-    referrer: z.string().max(200).optional(),
+    referrer: z.string().max(200).transform(s => s.trim()).optional(),
   }).strict();
 
   app.post("/api/consent", asyncHandler(async (req, res) => {
@@ -703,7 +702,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   const visitorSchema = z.object({
     consent: z.enum(["all", "essential"]).optional(),
     page: z.string().max(200).optional(),
-    referrer: z.string().max(500).optional(),
+    referrer: z.string().max(500).transform(s => s.trim()).optional(),
     language: z.string().max(10).optional(),
     screen: z.string().max(20).optional(),
     utm_source: z.string().max(100).optional(),
@@ -721,7 +720,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (consent !== "all") {
       return apiOk(res);
     }
-    if (isBotVisitor(req as any)) {
+    if (isBotVisitor(req)) {
       return apiOk(res);
     }
     const ip = getClientIp(req);

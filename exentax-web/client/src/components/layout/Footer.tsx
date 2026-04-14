@@ -16,8 +16,8 @@ function NewsletterSignup() {
 
   useEffect(() => {
     if (status !== "success") return;
-    const t = setTimeout(() => setStatus("idle"), 4000);
-    return () => clearTimeout(t);
+    const timer = setTimeout(() => setStatus("idle"), 4000);
+    return () => clearTimeout(timer);
   }, [status]);
 
   const handleSubmit = async (e: React.FormEvent) => {
