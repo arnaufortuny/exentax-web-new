@@ -5,10 +5,6 @@ import crypto from "crypto";
 import { withTransaction } from "../db";
 import { eq } from "drizzle-orm";
 import * as schema from "../../shared/schema";
-
-function escapeXml(str: string): string {
-  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
-}
 import {
   generateId, getAllDiasBloqueados, getDiaBloqueado, getBookedSlots, isSlotBooked,
   hasExistingBooking, insertAgenda, insertLead,
@@ -37,6 +33,10 @@ import {
   notifyCalculatorLead, notifyNewsletterSubscribe,
 } from "../discord";
 import { sheetsLogBooking, sheetsLogBookingUpdate, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
+
+function escapeXml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+}
 
 let sitemapCache: { xml: string; generatedAt: number } | null = null;
 const SITEMAP_CACHE_TTL = 3600_000;
@@ -311,7 +311,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
-        notifyBookingCreated({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, meetLink, language, ip });
+        notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, email, phone, date, startTime, endTime, meetLink, language, ip });
         sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: "Pendiente", meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip });

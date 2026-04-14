@@ -222,7 +222,7 @@ function App() {
 
   useEffect(() => {
     const consent = localStorage.getItem(STORAGE_KEYS.COOKIE_CONSENT);
-    if (consent === "all" || consent === "essential") {
+    if (consent === "all") {
       fetch("/api/visitor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

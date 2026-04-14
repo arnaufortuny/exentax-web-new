@@ -9,7 +9,6 @@ const de = {
     mainNavigation: "Hauptnavigation",
     banksCarousel: "Banken-Karussell",
     banksCarouselLabel: "Partner, mit denen wir arbeiten",
-    problemCarousel: "Problem-Karussell",
   },
   seo: {
     defaultSubtitle: "Ihre Steuerstruktur in den USA",

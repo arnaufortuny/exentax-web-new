@@ -11,7 +11,6 @@ export type TranslationKey =
   | "common.no"
   | "common.mainNavigation"
   | "common.banksCarousel"
-  | "common.problemCarousel"
   | "seo.defaultSubtitle"
   | "seo.breadcrumbHome"
   | "seo.twitterAlt"

@@ -167,6 +167,7 @@ function _enqueue(type: DiscordEventType, title: string, fields: EmbedField[]): 
 
 export function notifyBookingCreated(opts: {
   bookingId: string;
+  manageToken?: string | null;
   name: string;
   email: string;
   phone?: string | null;
@@ -177,16 +178,20 @@ export function notifyBookingCreated(opts: {
   language?: string | null;
   ip?: string | null;
 }): void {
-  _enqueue("booking_created", "📅 Nueva reserva", [
+  const fields: EmbedField[] = [
     { name: "ID",          value: `\`${opts.bookingId}\``,                               inline: true },
     { name: "Fecha",       value: `${opts.date} ${opts.startTime}–${opts.endTime}`,       inline: true },
     { name: "Idioma",      value: opts.language || "es",                                  inline: true },
     { name: "Cliente",     value: maskName(opts.name),                                    inline: true },
     { name: "Email",       value: maskEmail(opts.email),                                  inline: true },
     { name: "Teléfono",    value: maskPhone(opts.phone),                                  inline: true },
-    { name: "Meet",        value: opts.meetLink ? "✓ generado" : "✗ no disponible",       inline: true },
+    { name: "Meet",        value: opts.meetLink ? `[Abrir](${opts.meetLink})` : "✗ no disponible", inline: true },
     { name: "IP",          value: maskIp(opts.ip),                                        inline: true },
-  ]);
+  ];
+  if (opts.manageToken) {
+    fields.push({ name: "Gestionar", value: `[Ver reserva](${SITE_URL}/booking/${opts.bookingId}?token=${opts.manageToken})` });
+  }
+  _enqueue("booking_created", "📅 Nueva reserva", fields);
 }
 
 export function notifyBookingRescheduled(opts: {

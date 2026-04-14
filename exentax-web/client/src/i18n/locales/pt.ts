@@ -13,7 +13,6 @@ const pt = {
     mainNavigation: "Navegação principal",
     banksCarousel: "Carrossel de bancos",
     banksCarouselLabel: "Parceiros com quem trabalhamos",
-    problemCarousel: "Carrossel de problemas",
   },
   seo: {
     defaultSubtitle: "Sua estrutura fiscal nos EUA",

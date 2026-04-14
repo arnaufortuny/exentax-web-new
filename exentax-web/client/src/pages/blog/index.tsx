@@ -225,11 +225,11 @@ export default function BlogIndex() {
         breadcrumbs={[{ name: t("blogPost.breadcrumbBlog"), path: `/${lang}/blog` }]}
       />
 
-      <section className="min-h-[60vh] bg-[var(--bg-0)]" style={{ paddingBottom: 56 }}>
-        <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-20">
+      <section className="section-padding min-h-[60vh] bg-[var(--bg-0)]">
+        <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal mb-10 max-w-3xl">
-            <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block" data-testid="pretitle-blog">{t("blogPost.pretitle")}</span>
-            <h1 className="font-heading font-bold text-[28px] sm:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-[var(--text-1)] mb-4" data-testid="heading-blog">
+            <span className="section-label mb-4" data-testid="pretitle-blog">{t("blogPost.pretitle")}</span>
+            <h1 className="section-h2 mb-4" data-testid="heading-blog">
               {t("blogPost.heading")}
             </h1>
             <p className="text-[var(--text-2)] text-base sm:text-lg leading-relaxed" data-testid="subtitle-blog">

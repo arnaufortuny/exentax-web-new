@@ -9,7 +9,6 @@ const en = {
     mainNavigation: "Main navigation",
     banksCarousel: "Banks carousel",
     banksCarouselLabel: "Partners we work with",
-    problemCarousel: "Problem cards carousel",
   },
   seo: {
     defaultSubtitle: "Your US tax structure",

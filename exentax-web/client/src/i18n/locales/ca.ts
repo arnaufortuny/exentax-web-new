@@ -13,7 +13,6 @@ const ca = {
     mainNavigation: "Navegació principal",
     banksCarousel: "Carrusel de bancs",
     banksCarouselLabel: "Partners amb qui treballem",
-    problemCarousel: "Carrusel de problemes",
   },
   seo: {
     defaultSubtitle: "La teva estructura fiscal als EUA",
