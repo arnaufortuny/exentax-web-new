@@ -1,11 +1,10 @@
-import { pgTable, text, varchar, integer, boolean, timestamp, numeric, jsonb, serial, index, uniqueIndex, check } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, boolean, timestamp, numeric, serial, index, uniqueIndex, check } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
 export const leads = pgTable("leads", {
   id: varchar("id", { length: 64 }).primaryKey(),
-  clientId: varchar("cliente_id", { length: 64 }),
   date: text("fecha"),
   firstName: text("nombre").notNull(),
   lastName: text("apellido"),
@@ -19,46 +18,17 @@ export const leads = pgTable("leads", {
   marketingAccepted: boolean("marketing_aceptado").default(false),
   closed: boolean("cerrado").default(false),
   amount: numeric("importe", { precision: 12, scale: 2 }),
-  product: text("producto"),
-  billing: text("facturacion"),
-  accounting: text("contabilidad"),
-  notes: text("notas"),
-  birthDate: text("fecha_nacimiento"),
-  dni: text("dni"),
-  taxId: text("tax_id"),
-  idType: text("id_type").default("PASSPORT"),
-  ip: text("ip"),
-  consentDateTime: text("consentimiento_fecha_hora"),
-  closeDate: text("fecha_cierre"),
-  trustpilotSent: boolean("trustpilot_enviado").default(false),
   economicActivity: text("actividad_economica"),
   estimatedProfit: text("beneficio_estimado"),
-  country: text("pais"),
-  city: text("ciudad"),
-  address: text("direccion"),
-  postalCode: text("codigo_postal"),
-  language: text("idioma").default("es"),
-  pipelineStage: text("etapa_pipeline").default("nuevo"),
-  temperature: text("temperatura"),
-  nextFollowUp: text("proximo_seguimiento"),
-  nextAction: text("proxima_accion"),
-  lostReason: text("razon_perdida"),
-  assignedTo: text("asignado_a"),
+  ip: text("ip"),
+  consentDateTime: text("consentimiento_fecha_hora"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
   index("leads_email_idx").on(table.email),
-  index("leads_cliente_id_idx").on(table.clientId),
   index("leads_cerrado_idx").on(table.closed),
   index("leads_fecha_creacion_idx").on(table.createdAt),
   index("leads_telefono_idx").on(table.phone),
   index("leads_fuente_idx").on(table.source),
-  index("leads_producto_idx").on(table.product),
-  index("leads_etapa_pipeline_idx").on(table.pipelineStage),
-  index("leads_temperatura_idx").on(table.temperature),
-  index("leads_proximo_seguimiento_idx").on(table.nextFollowUp),
-  index("leads_asignado_a_idx").on(table.assignedTo),
-  index("leads_pipeline_temp_idx").on(table.pipelineStage, table.temperature),
-  check("leads_pipeline_stage_check", sql`${table.pipelineStage} IS NULL OR ${table.pipelineStage} IN ('nuevo','contactado','reunion_agendada','propuesta_enviada','negociacion','ganado','perdido')`),
 ]);
 
 export const insertLeadSchema = createInsertSchema(leads).omit({ createdAt: true });

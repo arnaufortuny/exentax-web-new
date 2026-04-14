@@ -66,6 +66,15 @@ function getCalendarClient() {
   }
 }
 
+const MEET_EVENT_I18N: Record<string, { summary: (name: string) => string; description: (name: string) => string; notesLabel: string }> = {
+  es: { summary: (n) => `Asesoría Exentax — ${n}`, description: (n) => `Asesoría fiscal estratégica de 30 minutos con ${n}.`, notesLabel: "Notas del cliente" },
+  en: { summary: (n) => `Exentax Advisory — ${n}`, description: (n) => `30-minute strategic tax consultation with ${n}.`, notesLabel: "Client notes" },
+  fr: { summary: (n) => `Consultation Exentax — ${n}`, description: (n) => `Consultation fiscale stratégique de 30 minutes avec ${n}.`, notesLabel: "Notes du client" },
+  de: { summary: (n) => `Exentax Beratung — ${n}`, description: (n) => `30-minütige strategische Steuerberatung mit ${n}.`, notesLabel: "Notizen des Kunden" },
+  pt: { summary: (n) => `Consultoria Exentax — ${n}`, description: (n) => `Consultoria fiscal estratégica de 30 minutos com ${n}.`, notesLabel: "Notas do cliente" },
+  ca: { summary: (n) => `Assessoria Exentax — ${n}`, description: (n) => `Assessoria fiscal estratègica de 30 minuts amb ${n}.`, notesLabel: "Notes del client" },
+};
+
 interface MeetEventParams {
   clientName: string;
   clientEmail: string;
@@ -73,6 +82,7 @@ interface MeetEventParams {
   startTime: string;
   endTime: string;
   notes?: string;
+  language?: string;
   additionalGuests?: string[];
 }
 
@@ -105,12 +115,14 @@ async function _createGoogleMeetEventInternal(params: MeetEventParams): Promise<
       const startDateTime = `${params.date}T${params.startTime}:00`;
       const endDateTime   = `${params.date}T${params.endTime}:00`;
 
+      const lang = (params.language || "es").split("-")[0].toLowerCase();
+      const i18n = MEET_EVENT_I18N[lang] || MEET_EVENT_I18N.es;
       const event = {
-        summary: `Asesoría Exentax — ${params.clientName}`,
+        summary: i18n.summary(params.clientName),
         description: [
-          `Asesoría fiscal estratégica de 30 minutos con ${params.clientName}.`,
+          i18n.description(params.clientName),
           `Email: ${params.clientEmail}`,
-          params.notes ? `\nNotas del cliente: ${params.notes}` : "",
+          params.notes ? `\n${i18n.notesLabel}: ${params.notes}` : "",
         ].filter(Boolean).join("\n"),
         start: { dateTime: startDateTime, timeZone: DEFAULT_TIMEZONE },
         end:   { dateTime: endDateTime,   timeZone: DEFAULT_TIMEZONE },

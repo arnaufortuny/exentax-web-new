@@ -190,6 +190,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             startTime,
             endTime,
             notes: notes || undefined,
+            language: language || undefined,
           });
           if (meetResult) {
             meetLink = meetResult.meetLink;
@@ -549,7 +550,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         const calcPhone = parsed.data.phone || "";
           await tx.insert(schema.leads).values({
           id: calcLeadId,
-          firstName: normalizedEmail,
+          firstName: normalizedEmail.split("@")[0],
           email: normalizedEmail,
           phone: calcPhone ? encryptField(calcPhone) : "",
           source: LEAD_SOURCES.CALCULATOR,
@@ -570,7 +571,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       const calcPhoneForCalc = parsed.data.phone || "";
         await tx.insert(schema.calculadora).values({
         id: calcLeadId,
-        email: parsed.data.email,
+        email: normalizedEmail,
         phone: calcPhoneForCalc ? encryptField(calcPhoneForCalc) : "",
         country: parsed.data.country,
         regime: parsed.data.regime,
@@ -827,17 +828,24 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!subscriber) {
       return res.status(200).send(unsubscribeHtml(backendLabel("unsubAlreadyTitle", lang), backendLabel("unsubAlreadyMsg", lang), lang));
     }
-    await updateNewsletterSuscriptor(subscriber.id, { unsubscribedAt: new Date().toISOString() } as any);
+    await updateNewsletterSuscriptor(subscriber.id, { unsubscribedAt: new Date().toISOString() });
     logger.info(`Newsletter unsubscribe: ${subscriber.email}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));
 
 }
 
+function escapeHtml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 function unsubscribeHtml(title: string, message: string, lang = "es"): string {
-  return `<!DOCTYPE html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title} — Exentax</title>
+  const safeTitle = escapeHtml(title);
+  const safeMessage = escapeHtml(message);
+  const safeLang = /^[a-z]{2}$/.test(lang) ? lang : "es";
+  return `<!DOCTYPE html><html lang="${safeLang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${safeTitle} — Exentax</title>
 <style>body{font-family:Inter,system-ui,sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;background:#F7F6F2;color:#0B0D0C}
 .card{text-align:center;padding:48px 32px;max-width:400px;border-radius:16px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 h1{font-size:20px;margin:0 0 12px}p{font-size:15px;color:#6B7280;margin:0}</style></head>
-<body><div class="card"><h1>${title}</h1><p>${message}</p></div></body></html>`;
+<body><div class="card"><h1>${safeTitle}</h1><p>${safeMessage}</p></div></body></html>`;
 }

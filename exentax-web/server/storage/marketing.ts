@@ -5,7 +5,7 @@ import { generateId, wrapStorageError, normalizeEmail } from "./core";
 import crypto from "crypto";
 import { encryptSensitiveFields, decryptSensitiveFields, type SensitiveFieldName } from "../field-encryption";
 
-const LEAD_SENSITIVE: readonly SensitiveFieldName[] = ["dni", "taxId", "phone", "address", "city", "postalCode"];
+const LEAD_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
 function decryptLead<T extends Record<string, unknown>>(row: T): T {
   return decryptSensitiveFields(row, LEAD_SENSITIVE);
 }
