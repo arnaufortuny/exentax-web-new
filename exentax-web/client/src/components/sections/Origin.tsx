@@ -31,7 +31,7 @@ export default function Origin() {
   const painPoints = t("origin.painPoints", { returnObjects: true }) as string[];
 
   return (
-    <section id="nuestra-experiencia" className="section-padding" ref={ref1}>
+    <section id="nuestra-experiencia" className="section-padding bg-[var(--bg-1)]" ref={ref1}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
           <span className="section-label mb-3">{t("origin.tag")}</span>

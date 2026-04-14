@@ -15,7 +15,7 @@ export default function Services() {
   }[];
 
   return (
-    <section id="servicios" className="section-padding" ref={ref}>
+    <section id="servicios" className="section-padding bg-[var(--bg-1)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
           <span className="section-label mb-3">{t("services.tag")}</span>

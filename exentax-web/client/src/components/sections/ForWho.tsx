@@ -92,7 +92,7 @@ export default function ForWho() {
   const tags = t("forWho.tags", { returnObjects: true }) as string[];
 
   return (
-    <section id="para-quien" className="section-padding" ref={ref}>
+    <section id="para-quien" className="section-padding bg-[var(--bg-1)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-10 reveal max-w-3xl">
           <span className="section-label mb-3">{t("forWho.tag")}</span>

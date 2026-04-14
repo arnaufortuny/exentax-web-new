@@ -154,8 +154,8 @@ a, button {
   --font-body: 'Inter', sans-serif;
   --font-button: 'Inter', sans-serif;
 
-  --section-gap: clamp(48px, 7vw, 96px);
-  --container-pad: clamp(20px, 5vw, 32px);
+  --section-gap: clamp(72px, 9vw, 120px);
+  --container-pad: clamp(20px, 5vw, 40px);
 
   --portal-sidebar-bg: #F8F7F4;
   --card-bg: rgba(255,255,255,0.65);
