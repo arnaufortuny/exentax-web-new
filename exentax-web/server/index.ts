@@ -9,6 +9,7 @@ import { logger } from "./logger";
 import { sql } from "drizzle-orm";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
+import { notifyCriticalError } from "./discord";
 
 const REQUIRED_ENV_VARS: Array<{ name: string; prodOnly?: boolean; hint: string }> = [
   { name: "DATABASE_URL", hint: "PostgreSQL connection string" },
@@ -336,6 +337,15 @@ httpServer.listen(
 
       logger.error(`Internal Server Error: ${err.message || err}`, "express", err);
 
+      if (status >= 500) {
+        notifyCriticalError({
+          context: "express",
+          message: err.message || String(err),
+          code: err.code || "SERVER_ERROR",
+          path: req.path,
+        });
+      }
+
       if (res.headersSent) {
         return next(err);
       }
@@ -414,7 +424,9 @@ process.on("SIGTERM", () => gracefulShutdown("SIGTERM"));
 process.on("SIGINT", () => gracefulShutdown("SIGINT"));
 
 process.on("unhandledRejection", (reason: any) => {
-  logger.error(`Unhandled promise rejection: ${reason?.message || reason}`, "process");
+  const message = reason?.message || String(reason);
+  logger.error(`Unhandled promise rejection: ${message}`, "process");
+  notifyCriticalError({ context: "unhandledRejection", message, code: reason?.code || null });
 });
 
 process.on("uncaughtException", (err: Error) => {
@@ -424,5 +436,6 @@ process.on("uncaughtException", (err: Error) => {
     logger.warn("Recoverable network error — continuing.", "process");
     return;
   }
+  notifyCriticalError({ context: "uncaughtException", message: err.message, code: (err as any).code || null });
   gracefulShutdown("uncaughtException");
 });

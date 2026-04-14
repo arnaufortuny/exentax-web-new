@@ -33,6 +33,10 @@ import { getAppSettings, backendLabel, resolveRequestLang } from "./shared";
 import { BLOG_POSTS } from "../../client/src/data/blog-posts";
 import { getTranslatedSlug } from "../../client/src/data/blog-posts-slugs";
 import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "./api-response";
+import {
+  notifyBookingCreated, notifyBookingRescheduled, notifyBookingCancelled,
+  notifyCalculatorLead, notifyNewsletterSubscribe,
+} from "../discord";
 
 let sitemapCache: { xml: string; generatedAt: number } | null = null;
 const SITEMAP_CACHE_TTL = 3600_000;
@@ -286,6 +290,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
+        notifyBookingCreated({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, meetLink, language, ip });
         return { error: false as const, date, startTime, endTime, meetLink, status: "confirmed" };
       });
 
@@ -432,6 +437,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
+    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
 
@@ -472,6 +478,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", date: row.meetingDate, startTime: row.startTime, language: row.language });
     return apiOk(res, { status: "cancelled" });
   }));
 
@@ -604,6 +611,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
     }
 
+    notifyCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, ip: calcIp });
     return apiOk(res);
   }));
 
@@ -620,6 +628,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const { email, source } = parsed.data;
     const normalizedEmail = email.trim().toLowerCase();
     await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
+    notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer" });
     return apiOk(res, { subscribed: true });
   }));
 
