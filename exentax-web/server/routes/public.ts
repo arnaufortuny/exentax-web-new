@@ -459,7 +459,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
-    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
+    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
@@ -502,7 +502,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, date: row.meetingDate, startTime: row.startTime, language: row.language });
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, language: row.language });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
@@ -630,7 +630,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (parsed.data.marketingAccepted) {
       upsertNewsletterSubscriber(
         normalizedEmail,
-        parsed.data.email,
+        "",
         "calculadora",
         ["fiscalidad", "llc"]
       ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
@@ -887,7 +887,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return res.status(200).send(unsubscribeHtml(backendLabel("unsubAlreadyTitle", lang), backendLabel("unsubAlreadyMsg", lang), lang));
     }
     await updateNewsletterSuscriptor(subscriber.id, { unsubscribedAt: new Date().toISOString() });
-    logger.info(`Newsletter unsubscribe: ${subscriber.email}`, "newsletter");
+    logger.info(`Newsletter unsubscribe: ${subscriber.email.slice(0, 3)}***@${subscriber.email.split("@")[1] ?? ""}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));
 

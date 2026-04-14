@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo, useCallback, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useReveal } from "@/hooks/useReveal";
 import { useFaqSections, sectionIcons, extractText } from "./faq-data";
@@ -50,17 +50,17 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
     setSearch("");
   };
 
-  const getSectionTitle = (icon: string) => {
+  const getSectionTitle = useCallback((icon: string) => {
     const key = `faqUI.sectionTitles.${icon}` as const;
     const translated = t(key);
     return translated !== key ? translated : allSections.find(s => s.icon === icon)?.title || icon;
-  };
+  }, [t, allSections]);
 
-  const getCategoryLabel = (icon: string) => {
+  const getCategoryLabel = useCallback((icon: string) => {
     const key = `faqUI.categories.${icon}` as const;
     const translated = t(key);
     return translated !== key ? translated : allSections.find(s => s.icon === icon)?.title || icon;
-  };
+  }, [t, allSections]);
 
   return (
     <section id="faq" className="section-padding bg-[var(--bg-0)]" ref={ref}>
