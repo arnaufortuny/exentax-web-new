@@ -16,6 +16,7 @@ import {
   upsertNewsletterSubscriber,
   getAgendaByIdAndToken, updateAgenda,
   findNewsletterByUnsubToken, updateNewsletterSuscriptor,
+  insertConsentLog,
 } from "../storage";
 import { encryptField } from "../field-encryption";
 import { sendBookingConfirmation, sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
@@ -42,6 +43,26 @@ let sitemapCache: { xml: string; generatedAt: number } | null = null;
 const SITEMAP_CACHE_TTL = 3600_000;
 
 let robotsCache: string | null = null;
+
+// Cached privacy policy version (TTL: 10 min) — avoids a DB hit per consent log insertion
+let _privacyVersionCache: string | null = null;
+let _privacyVersionExpiry = 0;
+async function getCachedPrivacyVersion(): Promise<string> {
+  if (_privacyVersionCache && Date.now() < _privacyVersionExpiry) return _privacyVersionCache;
+  try {
+    const { getActiveLegalDocVersion } = await import("../storage/legal");
+    const doc = await getActiveLegalDocVersion("privacy");
+    _privacyVersionCache = doc?.version || "1.0";
+  } catch { _privacyVersionCache = "1.0"; }
+  _privacyVersionExpiry = Date.now() + 10 * 60_000;
+  return _privacyVersionCache;
+}
+
+function logConsent(entry: Parameters<typeof insertConsentLog>[0]): void {
+  insertConsentLog(entry).catch((err) =>
+    logger.error(`Consent log failed [${entry.formType}]: ${err instanceof Error ? err.message : String(err)}`, "consent")
+  );
+}
 
 export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<typeof setInterval>[]) {
 
@@ -291,6 +312,9 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         });
 
         notifyBookingCreated({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, meetLink, language, ip });
+        getCachedPrivacyVersion().then(privacyVersion =>
+          logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip })
+        ).catch(() => {});
         return { error: false as const, date, startTime, endTime, meetLink, status: "confirmed" };
       });
 
@@ -612,12 +636,45 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     notifyCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, ip: calcIp });
+    getCachedPrivacyVersion().then(privacyVersion =>
+      logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "/calculadora", privacyVersion, ip: calcIp })
+    ).catch(() => {});
+    return apiOk(res);
+  }));
+
+  // Cookie banner consent log — anonymous, no email required
+  const cookieConsentSchema = z.object({
+    tipo: z.string().max(60),
+    aceptado: z.boolean(),
+    version: z.string().max(20).optional(),
+    idioma: z.string().max(10).optional(),
+    referrer: z.string().max(200).optional(),
+  }).strict();
+
+  app.post("/api/consent", asyncHandler(async (req, res) => {
+    const ip = getClientIp(req);
+    const parsed = cookieConsentSchema.safeParse(req.body);
+    if (!parsed.success) return apiOk(res); // silent — never block the client
+    const { tipo, aceptado, version, idioma, referrer } = parsed.data;
+    logConsent({
+      formType: `cookies:${tipo}`,
+      email: null,
+      privacyAccepted: true, // user has seen the banner; essential cookies always accepted
+      marketingAccepted: tipo === "cookies_analiticas" ? aceptado : null,
+      language: idioma || null,
+      source: referrer || null,
+      privacyVersion: version || null,
+      ip,
+    });
     return apiOk(res);
   }));
 
   const newsletterSubscribeSchema = z.object({
     email: z.string().email().max(255),
     source: z.string().max(50).optional(),
+    privacyAccepted: z.boolean(),
+    marketingAccepted: z.boolean().optional().default(false),
+    language: z.string().max(10).optional().nullable(),
   }).strict();
 
   app.post("/api/newsletter/subscribe", asyncHandler(async (req, res) => {
@@ -625,10 +682,14 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkNewsletterRateLimit(ip))) return apiRateLimited(res);
     const parsed = newsletterSubscribeSchema.safeParse(req.body);
     if (!parsed.success) return apiValidationFail(res, parsed.error);
-    const { email, source } = parsed.data;
+    const { email, source, privacyAccepted, marketingAccepted, language } = parsed.data;
+    if (!privacyAccepted) return apiFail(res, 400, "Debes aceptar la política de privacidad para continuar.", "PRIVACY_REQUIRED");
     const normalizedEmail = email.trim().toLowerCase();
     await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer" });
+    getCachedPrivacyVersion().then(privacyVersion =>
+      logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip })
+    ).catch(() => {});
     return apiOk(res, { subscribed: true });
   }));
 

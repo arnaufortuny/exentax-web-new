@@ -841,6 +841,9 @@ const pt = {
       success: "Você se inscreveu com sucesso.",
       error: "Erro ao se inscrever. Tente novamente.",
       privacy: "Respeitamos a sua privacidade. Pode cancelar a qualquer momento.",
+      privacyCheck: "Aceito a",
+      privacyPolicy: "Política de Privacidade",
+      privacyError: "Deves aceitar a Política de Privacidade para te inscreveres.",
     },
     cta: {
       headline: "A sua próxima declaração fiscal satisfatória começa aqui.",

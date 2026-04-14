@@ -159,7 +159,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       breakdown: result.breakdown,
       deductibleExpenses: expenseItems.length > 0 ? Math.round(calcDeductibleTotal(expenseItems) / 12) : expenses,
       calcSpainIrpf,
-      privacyAccepted: true,
+      privacyAccepted: privacyAccepted,
       marketingAccepted: marketingAccepted,
       language: i18n.language,
     }).catch((e) => console.error("[calculator] submission failed", e)).finally(() => setSending(false));

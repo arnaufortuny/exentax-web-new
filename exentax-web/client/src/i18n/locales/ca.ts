@@ -841,6 +841,9 @@ const ca = {
       success: "T'has subscrit correctament.",
       error: "Error en subscriure't. Torna-ho a provar.",
       privacy: "Respectem la teva privacitat. Pots donar-te de baixa en qualsevol moment.",
+      privacyCheck: "Accepto la",
+      privacyPolicy: "Política de Privacitat",
+      privacyError: "Has d'acceptar la Política de Privacitat per subscriure't.",
     },
     cta: {
       headline: "La teva pròxima declaració fiscal satisfactòria comença aquí.",

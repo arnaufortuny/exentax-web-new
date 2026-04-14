@@ -837,6 +837,9 @@ const de = {
       success: "Sie haben sich erfolgreich angemeldet.",
       error: "Fehler beim Abonnieren. Bitte versuchen Sie es erneut.",
       privacy: "Wir respektieren Ihre Privatsphäre. Sie können sich jederzeit abmelden.",
+      privacyCheck: "Ich akzeptiere die",
+      privacyPolicy: "Datenschutzerklärung",
+      privacyError: "Sie müssen die Datenschutzerklärung akzeptieren, um sich anzumelden.",
     },
     cta: {
       headline: "Ihre nächste zufriedenstellende Steuererklärung beginnt hier.",

@@ -7,23 +7,31 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { trackFormSubmit } from "@/components/Tracking";
 
 function NewsletterSignup() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [email, setEmail] = useState("");
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
+  const [privacyError, setPrivacyError] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !email.includes("@")) return;
+    if (!privacyAccepted) {
+      setPrivacyError(true);
+      return;
+    }
+    setPrivacyError(false);
     setStatus("loading");
     try {
       const res = await fetch("/api/newsletter/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, source: "footer" }),
+        body: JSON.stringify({ email, source: "footer", privacyAccepted: true, marketingAccepted: true, language: i18n.language }),
       });
       if (res.ok) {
         setStatus("success");
         setEmail("");
+        setPrivacyAccepted(false);
         trackFormSubmit("newsletter_footer");
       } else {
         setStatus("error");
@@ -39,35 +47,68 @@ function NewsletterSignup() {
       <h4 className="font-heading font-semibold text-[13px] uppercase tracking-[0.15em] text-black/40 mb-2">
         {t("footer.newsletter.title")}
       </h4>
-      
+
       {status === "success" ? (
         <p className="text-sm text-black font-semibold" data-testid="text-newsletter-success">{t("footer.newsletter.success")}</p>
       ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center justify-center px-2 sm:px-0">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder={t("footer.newsletter.placeholder")}
-            aria-label={t("footer.newsletter.placeholder")}
-            required
-            className="flex-1 min-w-0 max-w-full sm:max-w-[260px] px-4 py-2.5 rounded-full bg-black/10 border border-white/60 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-white"
-            data-testid="input-newsletter-email"
-          />
-          <button
-            type="submit"
-            disabled={status === "loading"}
-            className="px-5 py-2.5 rounded-full bg-black text-[#00E510] font-semibold text-sm hover:bg-black/90 transition-colors disabled:opacity-50 flex-shrink-0"
-            data-testid="button-newsletter-subscribe"
-          >
-            {status === "loading" ? "..." : t("footer.newsletter.button")}
-          </button>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-2.5">
+          <div className="flex flex-col sm:flex-row gap-2 items-stretch sm:items-center justify-center px-2 sm:px-0">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder={t("footer.newsletter.placeholder")}
+              aria-label={t("footer.newsletter.placeholder")}
+              required
+              className="flex-1 min-w-0 max-w-full sm:max-w-[260px] px-4 py-2.5 rounded-full bg-black/10 border border-white/60 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-white"
+              data-testid="input-newsletter-email"
+            />
+            <button
+              type="submit"
+              disabled={status === "loading"}
+              className="px-5 py-2.5 rounded-full bg-black text-[#00E510] font-semibold text-sm hover:bg-black/90 transition-colors disabled:opacity-50 flex-shrink-0"
+              data-testid="button-newsletter-subscribe"
+            >
+              {status === "loading" ? "..." : t("footer.newsletter.button")}
+            </button>
+          </div>
+
+          <label className={`flex items-start gap-2.5 cursor-pointer rounded-xl border px-3 py-2.5 transition-colors ${
+            privacyAccepted ? "border-black/20 bg-black/5" : privacyError ? "border-red-400/60 bg-red-50/30" : "border-black/10 bg-black/5 hover:border-black/20"
+          }`}>
+            <input
+              type="checkbox"
+              checked={privacyAccepted}
+              onChange={(e) => { setPrivacyAccepted(e.target.checked); setPrivacyError(false); }}
+              className="sr-only"
+              data-testid="checkbox-newsletter-privacy"
+            />
+            <span className={`mt-0.5 h-3.5 w-3.5 flex-shrink-0 rounded border-2 flex items-center justify-center transition-colors ${
+              privacyAccepted ? "bg-black border-black" : privacyError ? "border-red-500" : "border-black/30 bg-transparent"
+            }`}>
+              {privacyAccepted && (
+                <svg width="8" height="6" viewBox="0 0 9 7" fill="none">
+                  <path d="M1 3.5L3.5 6L8 1" stroke="#00E510" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              )}
+            </span>
+            <span className="text-[10px] text-black/50 leading-relaxed text-left">
+              {t("footer.newsletter.privacyCheck")}{" "}
+              <Link href="/legal/privacidad" className="text-black/70 underline hover:text-black">{t("footer.newsletter.privacyPolicy")}</Link>.{" "}
+              <span className="text-black/40">*</span>
+            </span>
+          </label>
+
+          {privacyError && (
+            <p className="text-[10px] text-red-600 text-left pl-1" data-testid="text-newsletter-privacy-error">
+              {t("footer.newsletter.privacyError")}
+            </p>
+          )}
         </form>
       )}
       {status === "error" && (
         <p className="text-sm text-red-700 mt-2" data-testid="text-newsletter-error">{t("footer.newsletter.error")}</p>
       )}
-      <p className="text-[11px] text-black/30 mt-3">{t("footer.newsletter.privacy")}</p>
     </div>
   );
 }

@@ -187,3 +187,26 @@ export const legalDocumentVersions = pgTable("legal_document_versions", {
 export const insertLegalDocVersionSchema = createInsertSchema(legalDocumentVersions).omit({ createdAt: true });
 export type InsertLegalDocVersion = z.infer<typeof insertLegalDocVersionSchema>;
 export type LegalDocVersion = typeof legalDocumentVersions.$inferSelect;
+
+// Audit trail for every consent event: form submissions, cookie banner decisions
+export const consentLog = pgTable("consent_log", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  formType: text("form_type").notNull(),       // booking | calculator | newsletter_footer | cookies
+  email: text("email"),                          // null for anonymous cookie consent
+  privacyAccepted: boolean("privacy_accepted").notNull(),
+  marketingAccepted: boolean("marketing_accepted"),
+  timestamp: text("timestamp").notNull(),        // ISO 8601
+  language: text("idioma"),
+  source: text("source"),                        // page path or route
+  privacyVersion: text("privacy_version"),       // version of privacy policy accepted
+  ip: text("ip"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("consent_log_email_idx").on(table.email),
+  index("consent_log_form_type_idx").on(table.formType),
+  index("consent_log_created_at_idx").on(table.createdAt),
+]);
+
+export const insertConsentLogSchema = createInsertSchema(consentLog).omit({ createdAt: true });
+export type InsertConsentLog = z.infer<typeof insertConsentLogSchema>;
+export type ConsentLog = typeof consentLog.$inferSelect;

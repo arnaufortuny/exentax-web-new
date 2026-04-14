@@ -835,7 +835,10 @@ const en = {
       button: "Subscribe",
       success: "You have subscribed successfully.",
       error: "Error subscribing. Please try again.",
-      privacy: "We respect your privacy. You can unsubscribe at any time."
+      privacy: "We respect your privacy. You can unsubscribe at any time.",
+      privacyCheck: "I accept the",
+      privacyPolicy: "Privacy Policy",
+      privacyError: "You must accept the Privacy Policy to subscribe.",
     },
     cta: {
       headline: "Your next satisfactory tax return starts here.",

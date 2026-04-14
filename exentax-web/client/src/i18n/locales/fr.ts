@@ -837,6 +837,9 @@ const fr = {
       success: "Vous êtes abonné avec succès.",
       error: "Erreur lors de l'abonnement. Veuillez réessayer.",
       privacy: "Nous respectons votre vie privée. Vous pouvez vous désabonner à tout moment.",
+      privacyCheck: "J'accepte la",
+      privacyPolicy: "Politique de confidentialité",
+      privacyError: "Vous devez accepter la Politique de confidentialité pour vous abonner.",
     },
     cta: {
       headline: "Votre prochaine déclaration fiscale satisfaisante commence ici.",

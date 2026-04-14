@@ -5,6 +5,35 @@ import { generateId, wrapStorageError, normalizeEmail } from "./core";
 import crypto from "crypto";
 import { encryptSensitiveFields, decryptSensitiveFields, type SensitiveFieldName } from "../field-encryption";
 
+export interface ConsentLogEntry {
+  formType: string;
+  email?: string | null;
+  privacyAccepted: boolean;
+  marketingAccepted?: boolean | null;
+  language?: string | null;
+  source?: string | null;
+  privacyVersion?: string | null;
+  ip?: string | null;
+}
+
+export async function insertConsentLog(entry: ConsentLogEntry): Promise<void> {
+  try {
+    const id = generateId("CON");
+    await db.insert(s.consentLog).values({
+      id,
+      formType: entry.formType,
+      email: entry.email || null,
+      privacyAccepted: entry.privacyAccepted,
+      marketingAccepted: entry.marketingAccepted ?? null,
+      timestamp: new Date().toISOString(),
+      language: entry.language || null,
+      source: entry.source || null,
+      privacyVersion: entry.privacyVersion || null,
+      ip: entry.ip || null,
+    });
+  } catch (err) { throw wrapStorageError("insertConsentLog", err); }
+}
+
 const LEAD_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
 function decryptLead<T extends Record<string, unknown>>(row: T): T {
   return decryptSensitiveFields(row, LEAD_SENSITIVE);

@@ -836,6 +836,9 @@ const es = {
  success:"Te has suscrito correctamente.",
  error:"Error al suscribirte. Inténtalo de nuevo.",
  privacy:"Respetamos tu privacidad. Puedes darte de baja en cualquier momento.",
+ privacyCheck:"Acepto la",
+ privacyPolicy:"Política de Privacidad",
+ privacyError:"Debes aceptar la Política de Privacidad para suscribirte.",
  },
  cta: {
       headline: "Tu próxima declaración fiscal satisfactoria empieza aquí.",
