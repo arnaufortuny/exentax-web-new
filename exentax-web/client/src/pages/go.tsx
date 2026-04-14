@@ -70,13 +70,13 @@ const btnBase = "w-full py-3.5 px-6 rounded-full font-body font-semibold text-ba
 const btnOutline = "border border-[var(--border)] text-[var(--text-1)] active:border-[#00E510]/40";
 const iconCircle = "w-11 h-11 rounded-full border border-[var(--border)] flex items-center justify-center text-[var(--text-3)] active:text-[var(--text-1)] active:border-[#00E510]/40 transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200";
 
-export default function LinksPage() {
+export default function GoPage() {
   const { t } = useTranslation();
   const lp = useLangPath();
   return (
     <>
     <SEO
-      path="/links"
+      path="/go"
       title={t("links.seoTitle")}
       description={t("links.seoDescription")}
       noindex

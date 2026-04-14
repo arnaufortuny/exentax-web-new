@@ -60,7 +60,7 @@ export default function StartPage() {
       <SEO
         title={t("start.seoTitle")}
         description={t("start.seoDescription")}
-        path="/start"
+        path="/empezar"
         noindex
       />
 

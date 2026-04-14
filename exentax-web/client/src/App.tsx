@@ -21,8 +21,8 @@ const pageImports = {
   cookies: () => import("@/pages/legal/cookies"),
   reembolsos: () => import("@/pages/legal/reembolsos"),
   disclaimer: () => import("@/pages/legal/disclaimer"),
-  links: () => import("@/pages/links"),
-  start: () => import("@/pages/start"),
+  go: () => import("@/pages/go"),
+  empezar: () => import("@/pages/empezar"),
   booking: () => import("@/pages/booking"),
   notFound: () => import("@/pages/not-found"),
 };
@@ -40,8 +40,8 @@ const PrivacidadPage   = lazy(pageImports.privacidad);
 const CookiesPage      = lazy(pageImports.cookies);
 const ReembolsosPage   = lazy(pageImports.reembolsos);
 const DisclaimerPage   = lazy(pageImports.disclaimer);
-const LinksPage        = lazy(pageImports.links);
-const StartPage        = lazy(pageImports.start);
+const GoPage           = lazy(pageImports.go);
+const EmpezarPage      = lazy(pageImports.empezar);
 const BookingPage       = lazy(pageImports.booking);
 const NotFound         = lazy(pageImports.notFound);
 
@@ -75,7 +75,7 @@ let prefetchDone = false;
 const publicPageKeys = new Set([
   "home", "servicios", "comoFunciona", "faq", "reservar", "llc",
   "blogIndex", "blogPost", "terminos", "privacidad", "cookies",
-  "reembolsos", "disclaimer", "links", "start", "notFound",
+  "reembolsos", "disclaimer", "go", "empezar", "notFound",
 ]);
 
 const priorityPageKeys = new Set(["servicios", "reservar", "comoFunciona", "llc", "faq"]);
@@ -101,16 +101,15 @@ function EmptyLoader() {
 const AppRouter = memo(function AppRouter() {
   return (
     <Switch>
-      <Route path="/links">
-        <Suspense fallback={<EmptyLoader />}><LinksPage /></Suspense>
+      <Route path="/go">
+        <Suspense fallback={<EmptyLoader />}><GoPage /></Suspense>
       </Route>
-      <Route path="/start">
-        <Suspense fallback={<EmptyLoader />}><StartPage /></Suspense>
+      <Route path="/empezar">
+        <Suspense fallback={<EmptyLoader />}><EmpezarPage /></Suspense>
       </Route>
-      <Route path="/booking/:bookingId">
+      <Route path="/booking/:token">
         <Suspense fallback={<EmptyLoader />}><BookingPage /></Suspense>
       </Route>
-      <Route path="/mi-agenda/:bookingId">{(params) => <Redirect to={`/booking/${params.bookingId}${window.location.search}`} />}</Route>
 
       <Route path="/">
         <Layout><Suspense fallback={<EmptyLoader />}><Home /></Suspense></Layout>

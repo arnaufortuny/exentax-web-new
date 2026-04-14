@@ -6,8 +6,8 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /clientes
 Disallow: /clientes/
-Disallow: /links
-Disallow: /start
+Disallow: /go
+Disallow: /empezar
 Disallow: /booking/
 Disallow: /mi-agenda/
 Disallow: /login

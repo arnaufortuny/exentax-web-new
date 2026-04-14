@@ -414,16 +414,16 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Privacidad, protección patrimonial, banca americana, fiscalidad optimizada y gastos deducibles: todas las ventajas reales de abrir una LLC en Estados Unidos.",
     canonical: `${BASE_URL}/es/blog/por-que-abrir-llc-estados-unidos-ventajas`,
   },
-  "/links": {
-    title: "Enlaces — Exentax",
+  "/go": {
+    title: "Exentax",
     description: "Todos los enlaces de Exentax. WhatsApp, asesoría fiscal, calculadora fiscal, redes sociales.",
-    canonical: `${BASE_URL}/links`,
+    canonical: `${BASE_URL}/go`,
     noindex: true,
   },
-  "/start": {
+  "/empezar": {
     title: "Empieza aquí | Exentax",
     description: "Diseñamos estructuras fiscales internacionales para negocios digitales. Descubre si tiene sentido para tu caso en 60 segundos.",
-    canonical: `${BASE_URL}/start`,
+    canonical: `${BASE_URL}/empezar`,
     noindex: true,
   },
 };

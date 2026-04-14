@@ -302,8 +302,8 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
 
 export default function MiAgendaPage() {
   const { t, i18n } = useTranslation();
-  const params = useParams<{ bookingId: string }>();
-  const bookingId = params.bookingId;
+  const params = useParams<{ token: string }>();
+  const bookingId = params.token;
   const urlToken = new URLSearchParams(window.location.search).get("token") || "";
   const tokenQs = urlToken ? `?token=${encodeURIComponent(urlToken)}` : "";
   const lang = (i18n.language || "es").split("-")[0];

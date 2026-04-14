@@ -877,9 +877,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Allow: /",
       "",
       "Disallow: /api/",
-      "Disallow: /links",
-      "Disallow: /start",
+      "Disallow: /go",
+      "Disallow: /empezar",
       "Disallow: /booking/",
+      "Disallow: /mi-agenda/",
       "",
       `Sitemap: ${SITE_URL}/sitemap.xml`,
     ].join("\n");

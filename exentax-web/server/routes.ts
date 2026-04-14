@@ -18,7 +18,7 @@ export async function registerRoutes(
   activeIntervals?: ReturnType<typeof setInterval>[]
 ): Promise<Server> {
 
-  const NOINDEX_PATHS = new Set(['/links', '/start']);
+  const NOINDEX_PATHS = new Set(['/go', '/empezar']);
   const PUBLIC_PATHS = new Set([
     '/', '/sobre-las-llc', '/como-trabajamos', '/servicios',
     '/preguntas-frecuentes', '/agendar-asesoria', '/blog',
@@ -27,7 +27,7 @@ export async function registerRoutes(
     ...PUBLIC_PATHS,
     '/legal/terminos', '/legal/privacidad', '/legal/cookies',
     '/legal/reembolsos', '/legal/disclaimer',
-    '/links', '/start',
+    '/go', '/empezar',
   ]);
   for (const lang of SUPPORTED_LANGS) {
     for (const p of PUBLIC_PATHS) {
@@ -45,7 +45,7 @@ export async function registerRoutes(
     return rest ? `/${rest}` : '/';
   }
 
-  const NOINDEX_PREFIXES = ['/booking/'];
+  const NOINDEX_PREFIXES = ['/booking/', '/mi-agenda/'];
 
   app.use((req, res, next) => {
     if (!req.path.startsWith('/api/') && !STATIC_EXT.test(req.path)) {
@@ -82,6 +82,12 @@ export async function registerRoutes(
       delete req.body.id;
     }
     next();
+  });
+
+  // 301 redirect: legacy /mi-agenda/:id → /booking/:id (preserves query string)
+  app.get("/mi-agenda/:bookingId", (req, res) => {
+    const qs = req.url.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
+    res.redirect(301, `/booking/${req.params.bookingId}${qs}`);
   });
 
   registerPublicRoutes(app, activeIntervals);
