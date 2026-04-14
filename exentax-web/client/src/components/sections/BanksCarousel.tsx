@@ -101,10 +101,12 @@ export default function BanksCarousel() {
 
   return (
     <section
-      className="relative w-full overflow-hidden py-6 sm:py-8"
+      className="relative w-full py-6 sm:py-10"
       aria-label={t("common.banksCarousel")}
       data-testid="banks-carousel"
     >
+      <p className="text-center section-label mb-6 sm:mb-8">{t("common.banksCarouselLabel")}</p>
+      <div className="relative overflow-hidden">
       <div className="absolute inset-y-0 left-0 w-16 sm:w-24 z-10 pointer-events-none" style={{ background: "linear-gradient(to right, var(--bg-0), transparent)" }} />
       <div className="absolute inset-y-0 right-0 w-16 sm:w-24 z-10 pointer-events-none" style={{ background: "linear-gradient(to left, var(--bg-0), transparent)" }} />
 
@@ -124,12 +126,12 @@ export default function BanksCarousel() {
               loading="eager"
               decoding="async"
               fetchPriority={i < BANKS.length ? "high" : "low"}
-              className={`${b.height} w-auto object-contain opacity-70 dark:opacity-50 grayscale dark:invert`}
-              style={{ filter: "brightness(0)" }}
+              className={`${b.height} w-auto object-contain opacity-60 dark:opacity-50 brightness-0 dark:invert`}
               data-testid={`img-bank-${b.name.toLowerCase()}`}
             />
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

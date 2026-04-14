@@ -121,7 +121,7 @@ export function encryptSensitiveFields<T extends Record<string, unknown>>(
   const result = { ...data };
   for (const field of fields) {
     if (field in result && typeof result[field] === "string" && result[field]) {
-      (result as any)[field] = encryptField(result[field] as string);
+      (result as Record<string, unknown>)[field] = encryptField(result[field] as string);
     }
   }
   return result;
@@ -134,7 +134,7 @@ export function decryptSensitiveFields<T extends Record<string, unknown>>(
   const result = { ...data };
   for (const field of fields) {
     if (field in result && typeof result[field] === "string") {
-      (result as any)[field] = decryptField(result[field] as string);
+      (result as Record<string, unknown>)[field] = decryptField(result[field] as string);
     }
   }
   return result;

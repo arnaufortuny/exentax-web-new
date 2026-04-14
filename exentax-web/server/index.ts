@@ -58,7 +58,7 @@ app.use(helmet({
       fontSrc: ["'self'", "https://fonts.gstatic.com"],
       imgSrc: ["'self'", "data:", "blob:", "https:"],
       connectSrc: ["'self'", "https://www.googletagmanager.com", "https://www.google-analytics.com", "https://analytics.google.com", "https://connect.facebook.net", "https://www.facebook.com", "https://fonts.googleapis.com", "https://fonts.gstatic.com"],
-      frameSrc: ["'self'"],
+      frameSrc: ["'self'", "https://www.googletagmanager.com"],
       frameAncestors: ["'self'"],
       objectSrc: ["'none'"],
       workerSrc: ["'self'", "blob:"],
@@ -436,10 +436,10 @@ process.on("unhandledRejection", (reason: any) => {
 process.on("uncaughtException", (err: Error) => {
   logger.error(`Uncaught exception: ${err.message}`, "process", err);
   const recoverable = ["ECONNRESET", "EPIPE", "ENOTFOUND", "ECONNREFUSED", "ETIMEDOUT", "EAI_AGAIN"];
-  if (recoverable.some(code => err.message?.includes(code) || (err as any).code === code)) {
+  if (recoverable.some(code => err.message?.includes(code) || (err as NodeJS.ErrnoException).code === code)) {
     logger.warn("Recoverable network error — continuing.", "process");
     return;
   }
-  notifyCriticalError({ context: "uncaughtException", message: err.message, code: (err as any).code || null });
+  notifyCriticalError({ context: "uncaughtException", message: err.message, code: (err as NodeJS.ErrnoException).code || null });
   gracefulShutdown("uncaughtException");
 });

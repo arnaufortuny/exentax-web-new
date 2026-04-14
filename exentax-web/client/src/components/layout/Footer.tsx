@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { clearCookieConsent } from "@/components/CookieBanner";
 import { BRAND, CONTACT, SOCIAL } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
@@ -13,6 +13,12 @@ function NewsletterSignup() {
   const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [privacyError, setPrivacyError] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  useEffect(() => {
+    if (status !== "success") return;
+    const timer = setTimeout(() => setStatus("idle"), 4000);
+    return () => clearTimeout(timer);
+  }, [status]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -198,7 +204,7 @@ export default function Footer() {
 
         <div className="pt-16 pb-12 text-center">
           <Link href="/" data-testid="link-footer-home">
-            <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto" style={{ filter: "brightness(0)" }} loading="lazy" data-testid="img-logo-footer" />
+            <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto brightness-0" loading="lazy" data-testid="img-logo-footer" />
           </Link>
         </div>
 
@@ -296,7 +302,7 @@ export default function Footer() {
               className="inline-block hover:opacity-80 transition-opacity"
               data-testid="link-trustpilot-footer"
             >
-              <img src="/img/partner-trustpilot.png" alt={t("footer.trustpilotAlt")} width={120} height={48} className="h-10 sm:h-12 w-auto object-contain opacity-60" style={{ filter: "brightness(0)" }} loading="lazy" data-testid="img-trustpilot-footer" />
+              <img src="/img/partner-trustpilot.png" alt={t("footer.trustpilotAlt")} width={120} height={48} className="h-10 sm:h-12 w-auto object-contain opacity-60 brightness-0" loading="lazy" data-testid="img-trustpilot-footer" />
             </a>
           </div>
           <NewsletterSignup />

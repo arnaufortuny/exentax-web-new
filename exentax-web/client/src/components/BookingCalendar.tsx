@@ -119,21 +119,6 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
   const monthNames = t("booking.months", { returnObjects: true }) as string[];
   const dayNamesFull = t("booking.dayNames", { returnObjects: true }) as string[];
 
-  const configQuery = useQuery<{ priceEnabled: boolean; priceUSD: number; priceCurrency: string }>({
-    queryKey: ["/api/bookings/config"],
-    queryFn: async () => {
-      const res = await fetch("/api/bookings/config");
-      if (!res.ok) return { priceEnabled: false, priceUSD: 0, priceCurrency: "EUR" };
-      const json = await res.json();
-      return { priceEnabled: json.priceEnabled, priceUSD: json.priceUSD, priceCurrency: json.priceCurrency || "EUR" };
-    },
-    staleTime: 300_000,
-  });
-  const isPaid = configQuery.data?.priceEnabled ?? false;
-  const priceAmount = configQuery.data?.priceUSD ?? 0;
-  const priceCurrency = configQuery.data?.priceCurrency ?? "EUR";
-  const priceFormatted = `${priceCurrency === "USD" ? "$" : "€"}${priceAmount} ${priceCurrency}`;
-
   const blockedDaysQuery = useQuery<string[]>({
     queryKey: ["/api/bookings/blocked-days"],
     queryFn: async () => {
@@ -144,7 +129,8 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     },
     staleTime: 300_000,
   });
-  const blockedDates = new Set(blockedDaysQuery.data || []);
+  const blockedDates = useMemo(() => new Set(blockedDaysQuery.data || []), [blockedDaysQuery.data]);
+  const todayStr = useMemo(() => todayMadridISO(), []);
 
   const slotsQuery = useQuery<{ date: string; slots: string[]; blocked?: boolean }>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
@@ -296,7 +282,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
         return t("booking.dateFormat", {
           dayName: dayNamesFull[d.getDay()],
           day: d.getDate(),
-          month: monthNames[d.getMonth()].toLowerCase(),
+          month: (monthNames[d.getMonth()] ?? "").toLowerCase(),
         });
       })()
     : "";
@@ -318,7 +304,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     const dateDisplay = t("booking.dateFormatYear", {
       dayName: dayNamesFull[d.getDay()],
       day: d.getDate(),
-      month: monthNames[d.getMonth()].toLowerCase(),
+      month: (monthNames[d.getMonth()] ?? "").toLowerCase(),
       year: d.getFullYear(),
     });
 
@@ -638,7 +624,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 const past = isPastDate(currentYear, currentMonth, day);
                 const dateStr = formatDateISO(currentYear, currentMonth, day);
                 const isSelected = selectedDate === dateStr;
-                const isToday = dateStr === todayMadridISO();
+                const isToday = dateStr === todayStr;
                 const blocked = isBlockedDate(currentYear, currentMonth, day);
                 const disabled = !weekday || past || blocked;
 
@@ -725,19 +711,6 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
 
         {step === "form" && (
           <form onSubmit={handleSubmit} className="space-y-4">
-            {isPaid && priceAmount > 0 && (
-            <div className="glass rounded-xl p-4 !border-[rgba(0,229,16,0.15)] mb-2">
-              <div className="flex items-center gap-2 mb-1">
-                <svg width={16} height={16} viewBox="0 0 16 16" fill="none">
-                  <circle cx="8" cy="8" r="7" stroke="#00E510" strokeWidth="1.2" fill="none"/>
-                  <path d="M5 8l2 2 4-4" stroke="#00E510" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                <span className="text-xs font-semibold text-[var(--text-1)]">{t("booking.freeNoticeTitle")}</span>
-              </div>
-              <p className="text-xs text-[var(--text-2)] leading-relaxed">{t("booking.freeNoticeDesc", { price: priceFormatted })}</p>
-            </div>
-            )}
-
             <div className="grid grid-cols-2 gap-3">
               <div>
                 <label className="text-sm font-medium text-[var(--text-1)] mb-1 block">{t("booking.firstNameLabel")}</label>

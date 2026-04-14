@@ -84,11 +84,15 @@ export async function registerRoutes(
     next();
   });
 
-  // 301 redirect: legacy /mi-agenda/:id → /booking/:id (preserves query string)
+  // 301 redirects: legacy paths
   app.get("/mi-agenda/:bookingId", (req, res) => {
     const qs = req.url.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
     res.redirect(301, `/booking/${req.params.bookingId}${qs}`);
   });
+  app.get("/start", (_req, res) => res.redirect(301, "/empezar"));
+  app.get("/links", (_req, res) => res.redirect(301, "/go"));
+  // /go/:slug — trackable shortlinks; unknown slugs fall back to booking page
+  app.get("/go/:slug", (_req, res) => res.redirect(302, "/agendar-asesoria"));
 
   registerPublicRoutes(app, activeIntervals);
 

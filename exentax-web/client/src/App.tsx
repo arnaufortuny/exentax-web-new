@@ -47,7 +47,7 @@ const NotFound         = lazy(pageImports.notFound);
 
 function Redirect({ to }: { to: string }) {
   const [, setLocation] = useLocation();
-  useEffect(() => { setLocation(to, { replace: true }); }, []);
+  useEffect(() => { setLocation(to, { replace: true }); }, [to]); // setLocation is stable in wouter
   return null;
 }
 
@@ -222,7 +222,7 @@ function App() {
 
   useEffect(() => {
     const consent = localStorage.getItem(STORAGE_KEYS.COOKIE_CONSENT);
-    if (consent === "all" || consent === "essential") {
+    if (consent === "all") {
       fetch("/api/visitor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

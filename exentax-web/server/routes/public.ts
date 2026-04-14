@@ -5,10 +5,6 @@ import crypto from "crypto";
 import { withTransaction } from "../db";
 import { eq } from "drizzle-orm";
 import * as schema from "../../shared/schema";
-
-function escapeXml(str: string): string {
-  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
-}
 import {
   generateId, getAllDiasBloqueados, getDiaBloqueado, getBookedSlots, isSlotBooked,
   hasExistingBooking, insertAgenda, insertLead,
@@ -25,10 +21,10 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
-import { getAppSettings, backendLabel, resolveRequestLang } from "./shared";
+import { backendLabel, resolveRequestLang } from "./shared";
 import { BLOG_POSTS } from "../../client/src/data/blog-posts";
 import { getTranslatedSlug } from "../../client/src/data/blog-posts-slugs";
 import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "./api-response";
@@ -37,6 +33,10 @@ import {
   notifyCalculatorLead, notifyNewsletterSubscribe,
 } from "../discord";
 import { sheetsLogBooking, sheetsLogBookingUpdate, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
+
+function escapeXml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+}
 
 let sitemapCache: { xml: string; generatedAt: number } | null = null;
 const SITEMAP_CACHE_TTL = 3600_000;
@@ -75,17 +75,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return apiOk(res, { data: rows.map(r => r.date).filter(Boolean) });
   }));
 
-  app.get("/api/bookings/config", asyncHandler(async (req, res) => {
-    const ip = getClientIp(req);
-    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
-    const settings = getAppSettings();
-    return apiOk(res, {
-      priceEnabled: settings.bookingPriceEnabled,
-      priceUSD: settings.consultationPriceUSD,
-      priceCurrency: settings.consultationPriceCurrency || "EUR",
-    });
-  }));
-
   const slotsQuerySchema = z.object({
     date: z.string().regex(ISO_DATE_RE, "zodInvalidDateFormat").refine(isValidISODate, "zodInvalidDate"),
   }).strict();
@@ -104,7 +93,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const madridNow = nowMadrid();
-    const todayStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayStr = todayMadridISO();
 
     if (date < todayStr) {
       return apiOk(res, { date, slots: [] });
@@ -182,8 +171,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return apiFail(res, 400, backendLabel("invalidTimeSlot", resolveRequestLang(req)), "INVALID_TIME");
     }
 
-    const madridNow = nowMadrid();
-    const todayMadridStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayMadridStr = todayMadridISO();
     if (date < todayMadridStr) {
       return apiFail(res, 400, backendLabel("cannotBookPastDate", resolveRequestLang(req)), "INVALID_DATE");
     }
@@ -269,7 +257,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             marketingAccepted: marketingAccepted,
             consentDateTime: new Date().toISOString(),
             closed: false,
-            amount: (() => { const s = getAppSettings(); return s.bookingPriceEnabled ? String(s.consultationPriceUSD) : "0"; })(),
             economicActivity: activity || null,
             ip,
             date: todayMadridISO(),
@@ -311,7 +298,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
-        notifyBookingCreated({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, meetLink, language, ip });
+        notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, email, phone, date, startTime, endTime, meetLink, language, ip });
         sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: "Pendiente", meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip });
@@ -329,7 +316,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     const today = new Date();
@@ -353,13 +340,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
     if (row.meetingDate) {
       const madridNowCheck = nowMadrid();
-      const todayCheck = `${madridNowCheck.getFullYear()}-${String(madridNowCheck.getMonth() + 1).padStart(2, "0")}-${String(madridNowCheck.getDate()).padStart(2, "0")}`;
+      const todayCheck = todayMadridISO();
       if (row.meetingDate < todayCheck) return apiFail(res, 400, backendLabel("cannotReschedulePast", resolveRequestLang(req)), "PAST_BOOKING");
       if (row.meetingDate === todayCheck && row.endTime) {
         const nowH = madridNowCheck.getHours();
@@ -377,7 +364,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const { date, startTime } = parsed.data;
     if (!isWeekday(date)) return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
     const madridNow = nowMadrid();
-    const todayStr = `${madridNow.getFullYear()}-${String(madridNow.getMonth() + 1).padStart(2, "0")}-${String(madridNow.getDate()).padStart(2, "0")}`;
+    const todayStr = todayMadridISO();
     if (date < todayStr) return apiFail(res, 400, backendLabel("cannotReschedulePastDate", resolveRequestLang(req)), "PAST_DATE");
     const blockedDay = await getDiaBloqueado(date);
     if (blockedDay) return apiFail(res, 400, backendLabel("dateBlocked", resolveRequestLang(req)), "BLOCKED_DATE");
@@ -391,7 +378,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
     const endTime = getEndTime(startTime);
     const slotKey = `${date}T${startTime}`;
-    const newRescheduleCount = ((row as unknown as Record<string, unknown>).rescheduleCount as number | null ?? 0) + 1;
+    const newRescheduleCount = (row.rescheduleCount ?? 0) + 1;
     const nowIso = new Date().toISOString();
 
     // Claim slot atomically: check + update date/time/status inside the lock
@@ -472,7 +459,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
-    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
+    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
@@ -482,13 +469,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
     if (row.meetingDate) {
       const madridNowCancel = nowMadrid();
-      const todayCancel = `${madridNowCancel.getFullYear()}-${String(madridNowCancel.getMonth() + 1).padStart(2, "0")}-${String(madridNowCancel.getDate()).padStart(2, "0")}`;
+      const todayCancel = todayMadridISO();
       if (row.meetingDate < todayCancel) return apiFail(res, 400, backendLabel("cannotCancelPast", resolveRequestLang(req)), "PAST_BOOKING");
       if (row.meetingDate === todayCancel && row.endTime) {
         const nowH = madridNowCancel.getHours();
@@ -515,7 +502,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, date: row.meetingDate, startTime: row.startTime, language: row.language });
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, language: row.language });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
@@ -601,7 +588,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           termsAccepted: parsed.data.privacyAccepted,
           marketingAccepted: parsed.data.marketingAccepted,
           closed: false,
-          amount: null,
           economicActivity: parsed.data.activity || null,
           estimatedProfit: Number.isFinite(annualIncome) ? String(annualIncome) : null,
           ip: calcIp,
@@ -644,7 +630,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (parsed.data.marketingAccepted) {
       upsertNewsletterSubscriber(
         normalizedEmail,
-        parsed.data.email,
+        "",
         "calculadora",
         ["fiscalidad", "llc"]
       ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
@@ -666,11 +652,12 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     aceptado: z.boolean(),
     version: z.string().max(20).optional(),
     idioma: z.string().max(10).optional(),
-    referrer: z.string().max(200).optional(),
+    referrer: z.string().max(200).transform(s => s.trim()).optional(),
   }).strict();
 
   app.post("/api/consent", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
+    if (!(await checkConsentRateLimit(ip))) return apiOk(res); // silent — never block the client
     const parsed = cookieConsentSchema.safeParse(req.body);
     if (!parsed.success) return apiOk(res); // silent — never block the client
     const { tipo, aceptado, version, idioma, referrer } = parsed.data;
@@ -715,7 +702,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   const visitorSchema = z.object({
     consent: z.enum(["all", "essential"]).optional(),
     page: z.string().max(200).optional(),
-    referrer: z.string().max(500).optional(),
+    referrer: z.string().max(500).transform(s => s.trim()).optional(),
     language: z.string().max(10).optional(),
     screen: z.string().max(20).optional(),
     utm_source: z.string().max(100).optional(),
@@ -733,7 +720,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (consent !== "all") {
       return apiOk(res);
     }
-    if (isBotVisitor(req as any)) {
+    if (isBotVisitor(req)) {
       return apiOk(res);
     }
     const ip = getClientIp(req);
@@ -818,39 +805,34 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       { loc: "/legal/disclaimer", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
     ];
 
-    let urls = "";
+    const urlParts: string[] = [];
     for (const page of pages) {
       const loc = page.loc === "/" ? "" : page.loc;
       const fullLoc = `${SITE_URL}${loc}`;
-      urls += `  <url>\n    <loc>${fullLoc}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n`;
+      const parts = [`  <url>\n    <loc>${fullLoc}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n`];
       for (const lang of SUPPORTED_LANGS) {
         const langLoc = loc ? `/${lang}${loc}` : `/${lang}`;
-        urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${langLoc}" />\n`;
+        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${langLoc}" />\n`);
       }
-      urls += `    <xhtml:link rel="alternate" hreflang="x-default" href="${fullLoc}" />\n`;
-      urls += `  </url>\n`;
+      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${fullLoc}" />\n  </url>\n`);
+      urlParts.push(parts.join(""));
     }
 
-    const allPosts = BLOG_POSTS;
-    for (const post of allPosts) {
+    for (const post of BLOG_POSTS) {
       const postSlug = post.slug;
       const lastmod = post.updatedAt || post.publishedAt;
-      urls += `  <url>\n    <loc>${SITE_URL}/es/blog/${escapeXml(postSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`;
-      if (lastmod) urls += `    <lastmod>${escapeXml(lastmod)}</lastmod>\n`;
-
+      const parts = [`  <url>\n    <loc>${SITE_URL}/es/blog/${escapeXml(postSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`];
+      if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
       for (const lang of SUPPORTED_LANGS) {
         const translatedSlug = getTranslatedSlug(postSlug, lang);
-        if (translatedSlug && translatedSlug !== postSlug) {
-          urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}/${lang}/blog/${escapeXml(translatedSlug)}" />\n`;
-        } else {
-          urls += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}/${lang}/blog/${escapeXml(postSlug)}" />\n`;
-        }
+        const href = `${SITE_URL}/${lang}/blog/${escapeXml(translatedSlug && translatedSlug !== postSlug ? translatedSlug : postSlug)}`;
+        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />\n`);
       }
-      urls += `    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n`;
-      urls += `  </url>\n`;
+      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n  </url>\n`);
+      urlParts.push(parts.join(""));
     }
 
-    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}</urlset>`;
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlParts.join("")}</urlset>`;
 
     sitemapCache = { xml, generatedAt: Date.now() };
 
@@ -905,7 +887,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return res.status(200).send(unsubscribeHtml(backendLabel("unsubAlreadyTitle", lang), backendLabel("unsubAlreadyMsg", lang), lang));
     }
     await updateNewsletterSuscriptor(subscriber.id, { unsubscribedAt: new Date().toISOString() });
-    logger.info(`Newsletter unsubscribe: ${subscriber.email}`, "newsletter");
+    logger.info(`Newsletter unsubscribe: ${subscriber.email.slice(0, 3)}***@${subscriber.email.split("@")[1] ?? ""}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));
 

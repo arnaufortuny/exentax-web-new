@@ -87,7 +87,7 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
     setMeta('name', 'twitter:site', BRAND.TWITTER_HANDLE);
 
     const rawPath = path || "/";
-    const normalizedPath = rawPath.replace(/^\/(es|en|fr|de|it|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
+    const normalizedPath = rawPath.replace(/^\/(es|en|fr|de|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
     const canonicalPath = blogSlug ? rawPath : normalizedPath;
     const fullUrl = `${BASE_URL}${canonicalPath}`;
 

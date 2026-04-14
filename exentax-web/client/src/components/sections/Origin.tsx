@@ -31,14 +31,14 @@ export default function Origin() {
   const painPoints = t("origin.painPoints", { returnObjects: true }) as string[];
 
   return (
-    <section id="nuestra-experiencia" className="section-padding" ref={ref1}>
+    <section id="nuestra-experiencia" className="section-padding bg-[var(--bg-1)]" ref={ref1}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("origin.tag")}</span>
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-3">
+          <span className="section-label mb-3">{t("origin.tag")}</span>
+          <h2 className="section-h2 mb-4">
             {t("origin.title")}
           </h2>
-          <p className="font-heading font-semibold text-[clamp(20px,2vw,24px)] text-[#00E510]">
+          <p className="section-green mt-1">
             {t("origin.subtitle")}
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Origin() {
         </div>
 
         <div
-          className="reveal rounded-[var(--radius-xl)] p-8 lg:p-12 relative overflow-hidden border border-[rgba(0,229,16,0.22)] bg-[var(--bg-1)]"
+          className="reveal glass-card rounded-[var(--radius-xl)] p-8 lg:p-12 relative overflow-hidden border border-[rgba(0,229,16,0.22)]"
         >
           <div className="relative z-10">
             <div className="text-center mb-10">
@@ -77,7 +77,9 @@ export default function Origin() {
                   key={text}
                   className="flex flex-col items-center text-center gap-4 p-5 rounded-2xl transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
                   style={{
-                    background: 'rgba(0,229,16,0.03)',
+                    background: 'rgba(0,229,16,0.04)',
+                    backdropFilter: 'blur(12px)',
+                    WebkitBackdropFilter: 'blur(12px)',
                     border: '1px solid rgba(0,229,16,0.15)',
                     transitionDelay: `${i * 100}ms`,
                   }}

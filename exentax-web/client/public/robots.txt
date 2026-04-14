@@ -8,12 +8,10 @@ Disallow: /clientes
 Disallow: /clientes/
 Disallow: /go
 Disallow: /empezar
+Disallow: /start
+Disallow: /links
 Disallow: /booking/
 Disallow: /mi-agenda/
 Disallow: /login
-Disallow: /pago-completado
-Disallow: /pago-completado/
-Disallow: /pago-cancelado
-Disallow: /pago-cancelado/
 
 Sitemap: https://exentax.com/sitemap.xml

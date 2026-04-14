@@ -1,4 +1,4 @@
-import { pgTable, text, varchar, boolean, timestamp, numeric, serial, integer, index, uniqueIndex, check } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, boolean, timestamp, serial, integer, index, uniqueIndex, check } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
@@ -17,7 +17,6 @@ export const leads = pgTable("leads", {
   termsAccepted: boolean("terminos_aceptados").default(false),
   marketingAccepted: boolean("marketing_aceptado").default(false),
   closed: boolean("cerrado").default(false),
-  amount: numeric("importe", { precision: 12, scale: 2 }),
   economicActivity: text("actividad_economica"),
   estimatedProfit: text("beneficio_estimado"),
   ip: text("ip"),
@@ -185,6 +184,8 @@ export const legalDocumentVersions = pgTable("legal_document_versions", {
   createdAt: timestamp("created_at").defaultNow(),
 }, (table) => [
   index("legal_doc_versions_type_idx").on(table.docType),
+  index("legal_doc_versions_effective_date_idx").on(table.effectiveDate),
+  index("legal_doc_versions_created_at_idx").on(table.createdAt),
 ]);
 
 export const insertLegalDocVersionSchema = createInsertSchema(legalDocumentVersions).omit({ createdAt: true });

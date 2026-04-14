@@ -108,8 +108,8 @@ export default function CalculatorResults({ result, income, country, regime, get
           <div className="pt-1 mb-4">
             <p className="font-body text-[10px] text-[#DC2626] uppercase tracking-wider font-semibold mb-2">{resolvedLocalLabel}</p>
             <div className="space-y-2">
-              {result.breakdown.map((item, i) => (
-                <div key={i} data-testid={`text-breakdown-${i}`}>
+              {result.breakdown.map((item) => (
+                <div key={item.label} data-testid={`text-breakdown-${item.label}`}>
                   <div className="flex justify-between items-start gap-2">
                     <span className="font-body text-[12px] sm:text-[13px] text-[var(--text-2)] leading-snug">{t(item.label, item.label)}</span>
                     <span className={`font-body font-semibold text-[12px] sm:text-[13px] shrink-0 ${item.amount < 0 ? "text-[#00E510]" : "text-[#DC2626]"}`}>{formatCurrency(item.amount)}</span>
@@ -142,8 +142,8 @@ export default function CalculatorResults({ result, income, country, regime, get
           <div>
             <p className="font-body text-[10px] text-[#00E510] uppercase tracking-wider font-semibold mb-2">{t("calculator.withLLCInUSA")}</p>
             <div className="space-y-2" data-testid="llc-breakdown">
-              {result.llcBreakdown.map((item, i) => (
-                <div key={i}>
+              {result.llcBreakdown.map((item) => (
+                <div key={item.label}>
                   <div className="flex justify-between items-start gap-2">
                     <span className="font-body text-[12px] sm:text-[13px] text-[var(--text-2)] leading-snug">{t(item.label, item.label)}</span>
                     <span className="font-body font-semibold text-[#00E510] text-[12px] sm:text-[13px] shrink-0">{formatCurrency(item.amount)}</span>

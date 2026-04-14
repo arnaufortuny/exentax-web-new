@@ -66,11 +66,11 @@ export default function WhyUs() {
     <section id="por-que" className="section-padding" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("whyUs.tag")}</span>
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-3">
+          <span className="section-label mb-3">{t("whyUs.tag")}</span>
+          <h2 className="section-h2 mb-4">
             {t("whyUs.title")}
           </h2>
-          <p className="font-heading font-semibold text-[clamp(20px,2vw,24px)] text-[#00E510] mb-6">
+          <p className="section-green mb-6">
             {t("whyUs.subtitle")}
           </p>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-4">
@@ -112,8 +112,9 @@ export default function WhyUs() {
                 key={point.title}
                 className="reveal rounded-2xl p-6 lg:p-7 transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300 group"
                 style={{
-                  background: 'var(--bg-2)',
-                  borderLeft: '3px solid #00E510',
+                  background: 'var(--card-bg)',
+                  backdropFilter: 'blur(20px) saturate(1.5)',
+                  WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
                   border: '1px solid var(--border-subtle)',
                   borderLeftWidth: '3px',
                   borderLeftColor: '#00E510',
@@ -133,12 +134,12 @@ export default function WhyUs() {
           })}
         </div>
 
-        <div className="reveal mt-20 rounded-[var(--radius-xl)] p-10 lg:p-14 text-center relative overflow-hidden border border-[rgba(0,229,16,0.22)] bg-[var(--bg-1)]">
+        <div className="reveal mt-20 glass-card rounded-[var(--radius-xl)] p-10 lg:p-14 text-center relative overflow-hidden border border-[rgba(0,229,16,0.22)]">
           <div className="relative z-10">
-            <p className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-3">
+            <p className="section-h2 mb-4">
               {t("whyUs.ctaTitle")}
             </p>
-            <p className="font-heading font-semibold text-[clamp(20px,2vw,24px)] leading-[1.3] text-[#00E510] mb-8 max-w-[700px] mx-auto">
+            <p className="section-green mb-8 max-w-[700px] mx-auto">
               {t("whyUs.ctaSubtitle")}
             </p>
             <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed max-w-[620px] mx-auto mb-10">

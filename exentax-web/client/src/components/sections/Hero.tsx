@@ -22,10 +22,10 @@ export default function Hero() {
           <div className="text-center mb-10 lg:mb-14">
             <div className="reveal max-w-[800px] mx-auto">
 
-              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,48px)] leading-[1.1] tracking-[-0.025em] text-black dark:text-white mb-2" data-testid="heading-hero">
+              <h1 className="font-heading font-bold text-[clamp(1.75rem,4.5vw,3rem)] leading-[1.08] tracking-[-0.03em] text-black dark:text-white mb-2" data-testid="heading-hero">
                 {t("hero.h1")}
               </h1>
-              <p className="font-heading font-bold text-2xl sm:text-4xl lg:text-[clamp(36px,3.5vw,48px)] leading-[1.1] tracking-[-0.025em] mb-6">
+              <p className="font-heading font-bold text-[clamp(1.625rem,4.5vw,3rem)] leading-[1.08] tracking-[-0.03em] mb-6">
                 <span className="relative inline-block text-[#00E510]">
                   {t("hero.h1Green")}
                   <svg
@@ -46,7 +46,7 @@ export default function Hero() {
                 </span>
               </p>
 
-              <p className="max-w-[680px] mx-auto text-[15px] sm:text-base lg:text-lg text-black/90 dark:text-white/80 leading-relaxed mb-8" data-testid="subtitle-hero">
+              <p className="max-w-[640px] mx-auto text-[15px] sm:text-base lg:text-[1.0625rem] text-black/80 dark:text-white/70 leading-relaxed mb-8" data-testid="subtitle-hero">
                 {t("hero.subtitle")}
               </p>
 

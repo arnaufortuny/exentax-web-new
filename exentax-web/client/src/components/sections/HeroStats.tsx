@@ -28,7 +28,9 @@ function StatCard({ value, suffix, prefix, label, target, duration, href, decima
   const inner = (
     <div className="relative flex flex-col items-center justify-center text-center px-3 py-5 sm:py-6 rounded-2xl border border-[rgba(0,229,16,0.25)] overflow-hidden group"
       style={{
-        background: "var(--bg-1)",
+        background: "var(--card-bg)",
+        backdropFilter: "blur(20px) saturate(1.5)",
+        WebkitBackdropFilter: "blur(20px) saturate(1.5)",
         boxShadow: "0 2px 16px rgba(0,229,16,0.08), 0 1px 3px rgba(0,0,0,0.06)",
       }}
     >

@@ -131,9 +131,9 @@ export default function ReservarPage() {
   const prefillPhone = params.get("phone") || "";
   const prefillContext = params.get("context") || "";
   const isReschedule = !!(prefillName || prefillEmail);
-  const paymentStatus = params.get("status");
-  const isPaymentSuccess = paymentStatus === "success";
-  const isPaymentCancelled = paymentStatus === "cancelled";
+  const bookingStatus = params.get("status");
+  const isBookingSuccess = bookingStatus === "success";
+  const isBookingCancelled = bookingStatus === "cancelled";
 
   const [showCalendar, setShowCalendar] = useState(isReschedule);
   const [step, setStep] = useState(0);
@@ -208,7 +208,7 @@ export default function ReservarPage() {
         breadcrumbs={[{ name: t("reservarPage.seoTitle"), path: "/agendar-asesoria" }]}
       />
 
-      {isPaymentSuccess ? (
+      {isBookingSuccess ? (
         <section className="pt-14 lg:pt-20 pb-16 lg:pb-24 min-h-[calc(100svh-72px)]">
           <div className="max-w-[500px] mx-auto px-4 sm:px-6 text-center">
             <div className="w-16 h-16 rounded-full bg-[#00E510]/10 flex items-center justify-center mx-auto mb-6">
@@ -219,7 +219,7 @@ export default function ReservarPage() {
             <p className="text-sm text-[var(--text-3)] font-body">{t("reservar.paymentSuccess.email")}</p>
           </div>
         </section>
-      ) : isPaymentCancelled ? (
+      ) : isBookingCancelled ? (
         <section className="pt-14 lg:pt-20 pb-16 lg:pb-24 min-h-[calc(100svh-72px)]">
           <div className="max-w-[500px] mx-auto px-4 sm:px-6 text-center">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ background: "rgba(0,229,16,0.06)" }}>

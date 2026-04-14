@@ -1,16 +1,24 @@
 import { useState, useRef, useEffect, memo } from "react";
 
-function ChevronDown({ open, color = "#00E510" }: { open: boolean; color?: string }) {
+function ChevronIcon({ open }: { open: boolean }) {
   return (
-    <svg
-      width={20}
-      height={20}
-      viewBox="0 0 24 24"
-      fill="none"
-      className={`flex-shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
+    <span
+      className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
+        open
+          ? "bg-[#00E510] rotate-180"
+          : "bg-[var(--bg-2)] group-hover:bg-[rgba(0,229,16,0.12)]"
+      }`}
     >
-      <path d="m6 9 6 6 6-6" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
+      <svg width={14} height={14} viewBox="0 0 24 24" fill="none">
+        <path
+          d="m6 9 6 6 6-6"
+          stroke={open ? "#0B0D0C" : "var(--text-2)"}
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
   );
 }
 
@@ -50,22 +58,69 @@ const AccordionItem = memo(function AccordionItem({
     return () => cancelAnimationFrame(rafRef.current);
   }, [isOpen]);
 
-  const wrapperClass = variant === "card"
-    ? `border bg-[var(--bg-0)] rounded-2xl transition-all duration-200 ${isOpen ? "border-[#00E510]/30 shadow-[0_0_20px_rgba(0,229,16,0.06)]" : "border-[var(--border)] hover:border-[#00E510]/20"}`
-    : "border-b border-[var(--border)] transition-colors duration-150";
-
-  const buttonPadding = variant === "card" ? "py-5 px-5 sm:px-6" : "py-5";
+  if (variant === "card") {
+    return (
+      <div
+        className="rounded-2xl overflow-hidden transition-[box-shadow,border-color] duration-300"
+        style={{
+          background: "var(--card-bg)",
+          backdropFilter: "blur(20px) saturate(1.5)",
+          WebkitBackdropFilter: "blur(20px) saturate(1.5)",
+          border: `1px solid ${isOpen ? "rgba(0,229,16,0.28)" : "var(--border)"}`,
+          boxShadow: isOpen
+            ? "0 8px 32px rgba(0,229,16,0.07), 0 2px 8px rgba(0,0,0,0.04)"
+            : "0 2px 8px rgba(0,0,0,0.03)",
+        }}
+        data-testid={`${testIdPrefix}-item-${id}`}
+      >
+        <button
+          onClick={onToggle}
+          className="group w-full flex items-center justify-between gap-4 py-5 px-5 sm:px-6 text-left font-body font-semibold text-[15px] sm:text-base text-[var(--text-1)] transition-colors duration-150"
+          aria-expanded={isOpen}
+          data-testid={`${testIdPrefix}-trigger-${id}`}
+        >
+          <span className={isOpen ? "text-[var(--text-1)]" : ""}>{question}</span>
+          <ChevronIcon open={isOpen} />
+        </button>
+        <div
+          className="overflow-hidden transition-[max-height,opacity] duration-300 ease-out"
+          style={{ maxHeight: height, opacity: isOpen ? 1 : 0 }}
+        >
+          <div ref={contentRef}>
+            {children}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className={wrapperClass} data-testid={`${testIdPrefix}-item-${id}`}>
+    <div
+      className="border-b border-[var(--border)] transition-colors duration-150"
+      data-testid={`${testIdPrefix}-item-${id}`}
+    >
       <button
         onClick={onToggle}
-        className={`w-full flex items-center justify-between gap-4 ${buttonPadding} text-left font-body font-semibold text-lg text-[var(--text-1)] hover:text-[#00E510] transition-colors duration-150`}
+        className="group w-full flex items-center justify-between gap-4 py-5 text-left font-body font-semibold text-[15px] sm:text-base text-[var(--text-1)] hover:text-[#00E510] transition-colors duration-150"
         aria-expanded={isOpen}
         data-testid={`${testIdPrefix}-trigger-${id}`}
       >
         <span>{question}</span>
-        <ChevronDown open={isOpen} />
+        <svg
+          width={18}
+          height={18}
+          viewBox="0 0 24 24"
+          fill="none"
+          className={`flex-shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+        >
+          <path
+            d="m6 9 6 6 6-6"
+            stroke={isOpen ? "#00E510" : "var(--text-3)"}
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </button>
       <div
         className="overflow-hidden transition-[max-height,opacity] duration-300 ease-out"

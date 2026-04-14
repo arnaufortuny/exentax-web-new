@@ -227,6 +227,7 @@ const calcLimiter = createAndTrackLimiter("calc", 10, 60 * 60 * 1000);
 const newsletterLimiter = createAndTrackLimiter("newsletter", 3, 60 * 60 * 1000);
 const publicDataLimiter = createAndTrackLimiter("publicData", 60, 60 * 1000);
 const visitorLimiter = createAndTrackLimiter("visitor", 30, 60 * 1000);
+const consentLimiter = createAndTrackLimiter("consent", 20, 60 * 1000);
 
 const VISITOR_WINDOW = 24 * 60 * 60 * 1000;
 const MAX_VISITOR_MAP_ENTRIES = 50_000;
@@ -255,6 +256,7 @@ export function checkCalcRateLimit(ip: string): Promise<boolean> { return calcLi
 export function checkNewsletterRateLimit(ip: string): Promise<boolean> { return newsletterLimiter.check(ip); }
 export function checkPublicDataRateLimit(ip: string): Promise<boolean> { return publicDataLimiter.check(ip); }
 export function checkVisitorRateLimit(ip: string): Promise<boolean> { return visitorLimiter.check(ip); }
+export function checkConsentRateLimit(ip: string): Promise<boolean> { return consentLimiter.check(ip); }
 
 const ALLOWED_ORIGINS = new Set([
   "https://exentax.com",

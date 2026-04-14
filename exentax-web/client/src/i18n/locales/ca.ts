@@ -12,7 +12,7 @@ const ca = {
     no: "No",
     mainNavigation: "Navegació principal",
     banksCarousel: "Carrusel de bancs",
-    problemCarousel: "Carrusel de problemes",
+    banksCarouselLabel: "Partners amb qui treballem",
   },
   seo: {
     defaultSubtitle: "La teva estructura fiscal als EUA",
@@ -893,6 +893,7 @@ const ca = {
     subtitle: "Si factures online. Cobres des de diferents plataformes. Operes a diversos països. Però la teva estructura fiscal no està optimitzada. A Exentax dissenyem estructures internacionals legals perquè paguis el que és just, amb seguretat i sense improvisacions.",
     cta: "Vull optimitzar la meva fiscalitat",
     talkToUs: "Parla amb nosaltres",
+    whatsappMsg: "Hola, m'interessa optimitzar la meva situació fiscal. He vist el que feu a Exentax i m'agradaria entendre si una LLC té sentit per al meu cas. Podem parlar?"
   },
   heroStats: {
     reductionLabel: "Reducció mitjana de càrrega fiscal",
@@ -955,6 +956,7 @@ const ca = {
     stepCta: "Reserva la teva assessoria fiscal estratègica",
     bottomText: "Si el teu negoci és internacional, la teva estructura també hauria d'estar a aquest nivell.",
     bottomCta: "Vull estructurar el meu negoci",
+    whatsappMsg: "Hola, he vist com funciona el vostre procés. M'agradaria començar i saber si encaixo amb el perfil de clients que busqueu. Quan podem parlar?"
   },
   services: {
     tag: "SERVEIS",
@@ -1145,10 +1147,10 @@ const ca = {
     showAll: "Veure totes les preguntes",
     emptyCategory: "No hi ha preguntes en aquesta categoria.",
     sectionLabel: "PREGUNTES FREQÜENTS",
-    pageTitle: "Respostes clares abans d'avançar",
-    pageSubtitle: "Tot el que necessites saber sobre LLC, fiscalitat, procés i preus. Sense lletra petita.",
-    sectionTitle: "Aquestes són les respostes clau",
-    sectionTitleAccent: "abans d'avançar.",
+    pageTitle: "Preguntes freqüents sobre LLC",
+    pageSubtitle: "Respostes clares sobre fiscalitat, compliment, comptes bancaris i operativa. Sense lletra petita.",
+    sectionTitle: "Fiscalitat, compliment i operativa",
+    sectionTitleAccent: "sense confusió.",
     categories: {
       about: "Qui som",
       fit: "És per a mi?",
@@ -1323,6 +1325,7 @@ const ca = {
     ctaSubtitle: "Som aquí per ajudar-te a tenir una estructura coherent amb el negoci que ja estàs construint.",
     ctaDesc: "Si la teva activitat és internacional, la teva fiscalitat també ho ha de ser. I això requereix criteri, experiència i execució.",
     bookNow: "Reserva la teva assessoria ara",
+    whatsappMsg: "Hola, he vist per què triar Exentax i em convenç l'enfocament. M'agradaria valorar si puc optimitzar la meva fiscalitat amb vosaltres. Podem parlar?"
   },
   origin: {
     tag: "LA NOSTRA EXPERIÈNCIA",
@@ -1395,9 +1398,19 @@ const ca = {
       operaDigital: "Opera digitalment",
       reagendamiento: "Reagendament",
     },
+    paymentSuccess: {
+      title: "Consulta registrada!",
+      desc: "Hem rebut la teva sol·licitud. En breu rebràs un correu de confirmació amb tots els detalls de la teva assessoria gratuïta.",
+      email: "Revisa la teva safata d'entrada (i la carpeta de spam) si no reps el correu en uns minuts."
+    },
+    paymentCancelled: {
+      title: "Procés no completat",
+      desc: "El procés no s'ha completat. Pots tornar-ho a intentar quan vulguis, sense cap cost.",
+      retry: "Tornar a intentar"
+    },
   },
   comoFuncionaPage: {
-    seoTitle: "Com funciona: la teva LLC llesta en 4 passos",
+    seoTitle: "Com treballem | Estructura LLC sense errors ni improvisació",
     seoDesc: "El nostre procés en 4 fases: diagnòstic fiscal, estructura personalitzada, constitució en 2-4 dies i gestió anual completa. Sense sorpreses ni lletra petita.",
     seoKeywords: "com funciona Exentax, procés constitució LLC, passos LLC, assessoria fiscal procés, estructura fiscal personalitzada, LLC en 4 dies, gestió anual LLC",
   },
@@ -1607,7 +1620,6 @@ const ca = {
     marketingOptional: "Opcional.",
     bookingError: "Error en crear la reserva. Torna-ho a provar.",
     submitCta: "Reservar assessoria",
-    freeNotice: "Aquesta consulta.",
     whatsappCta: "Consultar per WhatsApp",
     spainTime: "hora d'Espanya",
     joinMeet: "Unir-se a Google Meet",
@@ -1623,8 +1635,6 @@ const ca = {
     lastNamePlaceholder: "El teu cognom",
     confirmationNote: "Rebràs un email amb els detalls de la reunió.",
     dayBlocked: "Aquest dia no està disponible",
-    freeNoticeTitle: "Valorem el teu temps. Ens comprometem",
-    freeNoticeDesc: "Aquesta trucada té un valor real amb tota la informació personalitzada que et proporcionem. Una inversió mínima per a una assessoria estratègica completa. Aquesta reserva té un preu de {{price}}.",
     qualifyTitle: "La teva situació",
     qualifyNext: "Continuar",
     beneficioLabel: "Benefici net mensual aproximat",
@@ -1828,6 +1838,7 @@ const ca = {
     sub2Line2: "Si busques estructura seriosa, sí.",
     cta: "Reservar assessoria estratègica",
     whatsapp: "Parlar per WhatsApp",
+    whatsappMsg: "Hola, m'agradaria parlar sobre l'assessoria fiscal estratègica gratuïta.",
     calculator: "Avalua si té sentit estructurar",
     howWeWork: "Com treballem",
     aboutLLC: "Sobre les LLC",
@@ -1859,7 +1870,7 @@ const ca = {
     inCategory: "a",
     noResults: "No s'han trobat articles",
     noResultsHint: "Prova amb altres termes de cerca",
-    heading: "Fiscalitat sense fum",
+    heading: "Fiscalitat internacional i LLC",
     subtitle: "Articles clars sobre optimització fiscal, LLC als Estats Units i tot el que necessites per prendre decisions informades.",
     pretitle: "BLOG",
     seoTitle: "Blog · Fiscalitat internacional i LLC als EUA | Exentax",
@@ -1905,6 +1916,7 @@ const ca = {
     selectNewDate: "Selecciona una nova data",
     selectTime: "Selecciona un horari",
     noSlotsAvailable: "No hi ha horaris disponibles per a aquest dia",
+    slotsError: "No s'han pogut carregar els horaris disponibles. Torna-ho a intentar.",
     rescheduleError: "No s'ha pogut replanificar. Torna-ho a intentar.",
     rescheduling: "Replanificant...",
     confirmNewDate: "Confirmar nova data",
