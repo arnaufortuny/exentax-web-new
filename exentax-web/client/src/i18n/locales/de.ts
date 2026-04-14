@@ -889,6 +889,7 @@ const de = {
     subtitle: "Sie stellen online Rechnungen. Sie erhalten Zahlungen von verschiedenen Plattformen. Sie operieren in mehreren Ländern. Aber Ihre Steuerstruktur ist nicht optimiert. Bei Exentax entwerfen wir legale internationale Strukturen, damit Sie fair bezahlen, sicher und ohne Improvisation.",
     cta: "Ich möchte meine Steuern optimieren",
     talkToUs: "Sprechen Sie mit uns",
+    whatsappMsg: "Hallo, ich möchte meine Steuersituation optimieren. Ich habe gesehen, was ihr bei Exentax macht, und würde gerne verstehen, ob eine LLC für meinen Fall sinnvoll ist. Können wir sprechen?"
   },
   heroStats: {
     reductionLabel: "Durchschnittliche Steuerlastreduktion",
@@ -951,6 +952,7 @@ const de = {
     stepCta: "Buchen Sie Ihre strategische Beratung",
     bottomText: "Wenn Ihr Unternehmen international ist, sollte Ihre Struktur auch auf diesem Niveau sein.",
     bottomCta: "Ich möchte mein Unternehmen strukturieren",
+    whatsappMsg: "Hallo, ich habe gesehen, wie euer Prozess funktioniert. Ich würde gerne anfangen und wissen, ob ich zum gesuchten Profil passe. Wann können wir sprechen?"
   },
   services: {
     tag: "DIENSTLEISTUNGEN",
@@ -974,6 +976,7 @@ const de = {
     ctaSubtitle: "Wir sind hier, um Ihnen zu helfen, eine Struktur zu haben, die kohärent mit dem Geschäft ist, das Sie bereits aufbauen.",
     ctaDesc: "Wenn Ihre Tätigkeit international ist, sollte Ihre Besteuerung es auch sein. Und das erfordert Urteilsvermögen, Erfahrung und Umsetzung.",
     bookNow: "Buchen Sie jetzt Ihre Beratung",
+    whatsappMsg: "Hallo, ich habe gesehen, warum man Exentax wählen sollte, und bin vom Ansatz überzeugt. Ich würde gerne erkunden, ob ich mit euch meine Steuern optimieren kann. Können wir sprechen?"
   },
   origin: {
     tag: "UNSERE ERFAHRUNG",
@@ -1270,6 +1273,16 @@ const de = {
       clientesInternacionales: "Internationale Kunden",
       operaDigital: "Digitaler Betrieb",
       reagendamiento: "Umterminierung",
+    },
+    paymentSuccess: {
+      title: "Zahlung erfolgreich eingegangen!",
+      desc: "Ihre Zahlung wurde korrekt verarbeitet. Sie erhalten in Kürze eine Bestätigungs-E-Mail mit allen Details Ihrer Beratung.",
+      email: "Überprüfen Sie Ihren Posteingang (und den Spam-Ordner), falls Sie die E-Mail nicht innerhalb weniger Minuten erhalten."
+    },
+    paymentCancelled: {
+      title: "Zahlung storniert",
+      desc: "Die Zahlung wurde nicht abgeschlossen. Es wurde keine Abbuchung von Ihrem Konto vorgenommen. Sie können es jederzeit erneut versuchen.",
+      retry: "Erneut versuchen"
     },
   },
   comoFuncionaPage: {

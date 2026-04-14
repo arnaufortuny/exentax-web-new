@@ -296,7 +296,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
         return t("booking.dateFormat", {
           dayName: dayNamesFull[d.getDay()],
           day: d.getDate(),
-          month: monthNames[d.getMonth()].toLowerCase(),
+          month: (monthNames[d.getMonth()] ?? "").toLowerCase(),
         });
       })()
     : "";
@@ -318,7 +318,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     const dateDisplay = t("booking.dateFormatYear", {
       dayName: dayNamesFull[d.getDay()],
       day: d.getDate(),
-      month: monthNames[d.getMonth()].toLowerCase(),
+      month: (monthNames[d.getMonth()] ?? "").toLowerCase(),
       year: d.getFullYear(),
     });
 

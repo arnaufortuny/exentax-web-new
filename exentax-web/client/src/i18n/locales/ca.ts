@@ -893,6 +893,7 @@ const ca = {
     subtitle: "Si factures online. Cobres des de diferents plataformes. Operes a diversos països. Però la teva estructura fiscal no està optimitzada. A Exentax dissenyem estructures internacionals legals perquè paguis el que és just, amb seguretat i sense improvisacions.",
     cta: "Vull optimitzar la meva fiscalitat",
     talkToUs: "Parla amb nosaltres",
+    whatsappMsg: "Hola, m'interessa optimitzar la meva situació fiscal. He vist el que feu a Exentax i m'agradaria entendre si una LLC té sentit per al meu cas. Podem parlar?"
   },
   heroStats: {
     reductionLabel: "Reducció mitjana de càrrega fiscal",
@@ -955,6 +956,7 @@ const ca = {
     stepCta: "Reserva la teva assessoria fiscal estratègica",
     bottomText: "Si el teu negoci és internacional, la teva estructura també hauria d'estar a aquest nivell.",
     bottomCta: "Vull estructurar el meu negoci",
+    whatsappMsg: "Hola, he vist com funciona el vostre procés. M'agradaria començar i saber si encaixo amb el perfil de clients que busqueu. Quan podem parlar?"
   },
   services: {
     tag: "SERVEIS",
@@ -1323,6 +1325,7 @@ const ca = {
     ctaSubtitle: "Som aquí per ajudar-te a tenir una estructura coherent amb el negoci que ja estàs construint.",
     ctaDesc: "Si la teva activitat és internacional, la teva fiscalitat també ho ha de ser. I això requereix criteri, experiència i execució.",
     bookNow: "Reserva la teva assessoria ara",
+    whatsappMsg: "Hola, he vist per què triar Exentax i em convenç l'enfocament. M'agradaria valorar si puc optimitzar la meva fiscalitat amb vosaltres. Podem parlar?"
   },
   origin: {
     tag: "LA NOSTRA EXPERIÈNCIA",
@@ -1394,6 +1397,16 @@ const ca = {
       clientesInternacionales: "Clients internacionals",
       operaDigital: "Opera digitalment",
       reagendamiento: "Reagendament",
+    },
+    paymentSuccess: {
+      title: "Pagament rebut amb èxit!",
+      desc: "El teu pagament ha estat processat correctament. En breu rebràs un correu de confirmació amb tots els detalls de la teva assessoria.",
+      email: "Revisa la teva safata d'entrada (i la carpeta de spam) si no reps el correu en uns minuts."
+    },
+    paymentCancelled: {
+      title: "Pagament cancel·lat",
+      desc: "El pagament no s'ha completat. No s'ha realitzat cap càrrec al teu compte. Pots tornar-ho a intentar quan vulguis.",
+      retry: "Tornar a intentar"
     },
   },
   comoFuncionaPage: {

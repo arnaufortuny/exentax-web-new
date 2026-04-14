@@ -889,6 +889,7 @@ const fr = {
     subtitle: "Vous facturez en ligne. Vous recevez des paiements de différentes plateformes. Vous opérez dans plusieurs pays. Mais votre structure fiscale n'est pas optimisée. Chez Exentax, nous concevons des structures internationales légales pour que vous payiez le juste montant, en toute sécurité et sans improvisation.",
     cta: "Je veux optimiser ma fiscalité",
     talkToUs: "Parlez-nous",
+    whatsappMsg: "Bonjour, je souhaite optimiser ma fiscalité. J'ai vu ce que vous faites chez Exentax et j'aimerais comprendre si une LLC a du sens pour mon cas. Peut-on en parler ?"
   },
   heroStats: {
     reductionLabel: "Réduction moyenne de la charge fiscale",
@@ -951,6 +952,7 @@ const fr = {
     stepCta: "Réservez votre consultation stratégique",
     bottomText: "Si votre entreprise est internationale, votre structure devrait être à ce niveau aussi.",
     bottomCta: "Je veux structurer mon entreprise",
+    whatsappMsg: "Bonjour, j'ai vu comment fonctionne votre processus. J'aimerais commencer et savoir si je corresponds au profil que vous recherchez. Quand pouvons-nous parler ?"
   },
   services: {
     tag: "SERVICES",
@@ -974,6 +976,7 @@ const fr = {
     ctaSubtitle: "Nous sommes là pour vous aider à avoir une structure cohérente avec l'entreprise que vous construisez déjà.",
     ctaDesc: "Si votre activité est internationale, votre fiscalité devrait l'être aussi. Et cela nécessite du jugement, de l'expérience et de l'exécution.",
     bookNow: "Réservez votre consultation maintenant",
+    whatsappMsg: "Bonjour, j'ai vu pourquoi choisir Exentax et je suis convaincu(e) par votre approche. J'aimerais explorer si je peux optimiser ma fiscalité avec vous. Peut-on parler ?"
   },
   origin: {
     tag: "NOTRE EXPÉRIENCE",
@@ -1270,6 +1273,16 @@ const fr = {
       clientesInternacionales: "Clients internationaux",
       operaDigital: "Opère numériquement",
       reagendamiento: "Reprogrammation",
+    },
+    paymentSuccess: {
+      title: "Paiement reçu avec succès !",
+      desc: "Votre paiement a été traité correctement. Vous recevrez bientôt un email de confirmation avec tous les détails de votre consultation.",
+      email: "Vérifiez votre boîte de réception (et le dossier spam) si vous ne recevez pas l'email dans quelques minutes."
+    },
+    paymentCancelled: {
+      title: "Paiement annulé",
+      desc: "Le paiement n'a pas été complété. Aucun prélèvement n'a été effectué sur votre compte. Vous pouvez réessayer quand vous le souhaitez.",
+      retry: "Réessayer"
     },
   },
   comoFuncionaPage: {

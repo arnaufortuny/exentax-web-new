@@ -888,6 +888,7 @@ const es = {
  subtitle:"Si facturas online. Cobras desde distintas plataformas. Operas en varios países. Pero tu estructura fiscal no está optimizada. En Exentax diseñamos estructuras internacionales legales para que pagues lo justo, con seguridad y sin improvisaciones.",
  cta:"Quiero optimizar mi fiscalidad",
  talkToUs:"Habla con nosotros",
+ whatsappMsg:"Hola, me interesa optimizar mi fiscalidad. He visto lo que hacéis en Exentax y me gustaría entender si una LLC tiene sentido para mi situación. ¿Podemos hablar?",
  },
  heroStats: {
  reductionLabel:"Reducción media de carga fiscal",
@@ -995,6 +996,7 @@ const es = {
  stepCta:"Agenda tu asesoría fiscal",
  bottomText:"Si tu negocio es internacional, tu estructura también debería estar a ese nivel.",
  bottomCta:"Quiero estructurar mi negocio",
+ whatsappMsg:"Hola, he visto cómo funciona vuestro proceso. Me gustaría empezar y saber si encajo con el perfil de clientes que buscáis. ¿Cuándo podemos hablar?",
  },
  services: {
  tag:"SERVICIOS",
@@ -1064,6 +1066,7 @@ const es = {
  ctaSubtitle:"Estamos aquí para ayudarte a tener una estructura coherente con el negocio que ya estás construyendo.",
  ctaDesc:"Si tu actividad es internacional, tu fiscalidad también debe serlo. Y eso requiere criterio, experiencia y ejecución.",
  bookNow:"Agenda tu asesoría ahora",
+ whatsappMsg:"Hola, he visto por qué elegir Exentax y me convence el enfoque. Me gustaría valorar si puedo optimizar mi fiscalidad con vosotros. ¿Podemos hablar?",
  },
  origin: {
  tag:"NUESTRA EXPERIENCIA",
@@ -1668,6 +1671,16 @@ const es = {
  clientesInternacionales:"Clientes internacionales",
  operaDigital:"Opera digitalmente",
  reagendamiento:"Reagendamiento",
+ },
+ paymentSuccess: {
+  title:"¡Pago recibido con éxito!",
+  desc:"Tu pago ha sido procesado correctamente. En breve recibirás un email de confirmación con todos los detalles de tu asesoría.",
+  email:"Revisa tu bandeja de entrada (y la carpeta de spam) si no recibes el email en unos minutos.",
+ },
+ paymentCancelled: {
+  title:"Pago cancelado",
+  desc:"El pago no se ha completado. No se ha realizado ningún cargo en tu cuenta. Puedes intentarlo de nuevo cuando quieras.",
+  retry:"Intentar de nuevo",
  },
  },
  comoFuncionaPage: {

@@ -887,7 +887,8 @@ const en = {
     h1Green: "And it doesn't have to be that way.",
     subtitle: "You invoice online. You receive payments from various platforms. You operate in multiple countries. But your tax structure isn't optimized. At Exentax we design legal international structures so you pay what's fair, with security and without improvisation.",
     cta: "I want to optimize my taxes",
-    talkToUs: "Talk to us"
+    talkToUs: "Talk to us",
+    whatsappMsg: "Hi, I'm interested in optimizing my tax situation. I've seen what you do at Exentax and I'd like to understand if an LLC makes sense for my case. Can we talk?"
   },
   heroStats: {
     reductionLabel: "Average tax burden reduction",
@@ -950,6 +951,7 @@ const en = {
     stepCta: "Book your strategic consultation",
     bottomText: "If your business is international, your structure should be at that level too.",
     bottomCta: "I want to structure my business",
+    whatsappMsg: "Hi, I've seen how your process works. I'd like to start and know if I fit the profile you're looking for. When can we talk?"
   },
   services: {
     tag: "SERVICES",
@@ -973,6 +975,7 @@ const en = {
     ctaSubtitle: "We're here to help you have a structure coherent with the business you're already building.",
     ctaDesc: "If your activity is international, your taxation should be too. And that requires judgment, experience and execution.",
     bookNow: "Book your consultation now",
+    whatsappMsg: "Hi, I've seen why choose Exentax and I'm convinced by the approach. I'd like to explore if I can optimize my taxes with you. Can we talk?"
   },
   origin: {
     tag: "OUR EXPERIENCE",
@@ -1269,6 +1272,16 @@ const en = {
       clientesInternacionales: "International clients",
       operaDigital: "Digital operations",
       reagendamiento: "Rescheduling"
+    },
+    paymentSuccess: {
+      title: "Payment received successfully!",
+      desc: "Your payment has been processed correctly. You will shortly receive a confirmation email with all the details of your consultation.",
+      email: "Check your inbox (and the spam folder) if you don't receive the email within a few minutes."
+    },
+    paymentCancelled: {
+      title: "Payment cancelled",
+      desc: "The payment was not completed. No charge has been made to your account. You can try again whenever you like.",
+      retry: "Try again"
     },
   },
   comoFuncionaPage: {

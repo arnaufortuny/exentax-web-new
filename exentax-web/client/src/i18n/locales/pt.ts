@@ -893,6 +893,7 @@ const pt = {
     subtitle: "Você fatura online. Recebe pagamentos de diversas plataformas. Opera em vários países. Mas sua estrutura fiscal não está otimizada. Na Exentax projetamos estruturas internacionais legais para que você pague o justo, com segurança e sem improvisação.",
     cta: "Quero otimizar minha fiscalidade",
     talkToUs: "Fale conosco",
+    whatsappMsg: "Olá, tenho interesse em otimizar minha situação fiscal. Vi o que vocês fazem na Exentax e gostaria de entender se uma LLC faz sentido para o meu caso. Podemos conversar?"
   },
   heroStats: {
     reductionLabel: "Redução média da carga fiscal",
@@ -955,6 +956,7 @@ const pt = {
     stepCta: "Agende sua consultoria estratégica",
     bottomText: "Se seu negócio é internacional, sua estrutura também deveria estar nesse nível.",
     bottomCta: "Quero estruturar meu negócio",
+    whatsappMsg: "Olá, vi como funciona o processo de vocês. Gostaria de começar e saber se me encaixo no perfil que vocês buscam. Quando podemos conversar?"
   },
   services: {
     tag: "SERVIÇOS",
@@ -978,6 +980,7 @@ const pt = {
     ctaSubtitle: "Estamos aqui para ajudá-lo a ter uma estrutura coerente com o negócio que você já está construindo.",
     ctaDesc: "Se sua atividade é internacional, sua fiscalidade também deveria ser. E isso requer julgamento, experiência e execução.",
     bookNow: "Agende sua consultoria agora",
+    whatsappMsg: "Olá, vi o porquê escolher a Exentax e estou convencido(a) pela abordagem. Gostaria de explorar se posso otimizar minha fiscalidade com vocês. Podemos conversar?"
   },
   origin: {
     tag: "NOSSA EXPERIÊNCIA",
@@ -1274,6 +1277,16 @@ const pt = {
       clientesInternacionales: "Clientes internacionais",
       operaDigital: "Opera digitalmente",
       reagendamiento: "Remarcação",
+    },
+    paymentSuccess: {
+      title: "Pagamento recebido com sucesso!",
+      desc: "Seu pagamento foi processado corretamente. Em breve você receberá um email de confirmação com todos os detalhes da sua consultoria.",
+      email: "Verifique sua caixa de entrada (e a pasta de spam) se não receber o email em alguns minutos."
+    },
+    paymentCancelled: {
+      title: "Pagamento cancelado",
+      desc: "O pagamento não foi concluído. Nenhum débito foi feito em sua conta. Você pode tentar novamente quando quiser.",
+      retry: "Tentar novamente"
     },
   },
   comoFuncionaPage: {

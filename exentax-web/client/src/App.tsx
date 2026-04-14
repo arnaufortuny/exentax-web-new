@@ -47,7 +47,7 @@ const NotFound         = lazy(pageImports.notFound);
 
 function Redirect({ to }: { to: string }) {
   const [, setLocation] = useLocation();
-  useEffect(() => { setLocation(to, { replace: true }); }, []);
+  useEffect(() => { setLocation(to, { replace: true }); }, [to, setLocation]);
   return null;
 }
 
