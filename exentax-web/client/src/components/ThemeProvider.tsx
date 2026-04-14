@@ -1,19 +1,5 @@
-import { createContext, useContext, type ReactNode } from "react";
-
-interface ThemeContextType {
-  theme: "light";
-}
-
-const ThemeContext = createContext<ThemeContextType>({ theme: "light" });
+import { type ReactNode } from "react";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  return (
-    <ThemeContext.Provider value={{ theme: "light" }}>
-      {children}
-    </ThemeContext.Provider>
-  );
-}
-
-export function useTheme() {
-  return useContext(ThemeContext);
+  return <>{children}</>;
 }

@@ -110,11 +110,6 @@ function ErrorFallback({ errorType }: { errorType: string }) {
       network: { title: "Pas de connexion", desc: "Il semble qu'il n'y ait pas de connexion Internet. Vérifie ton réseau et réessaie.", reload: "Recharger la page" },
       generic: { title: "Quelque chose s'est mal passé", desc: "Une erreur inattendue s'est produite. Veuillez recharger la page.", reload: "Recharger la page" },
     },
-    it: {
-      chunk: { title: "Aggiornamento pagina", desc: "È stata rilevata una nuova versione. La pagina si ricaricherà automaticamente.", reload: "Ricarica pagina" },
-      network: { title: "Nessuna connessione", desc: "Sembra che non ci sia connessione a Internet. Controlla la tua rete e riprova.", reload: "Ricarica pagina" },
-      generic: { title: "Qualcosa è andato storto", desc: "Si è verificato un errore imprevisto. Per favore, ricarica la pagina.", reload: "Ricarica pagina" },
-    },
     pt: {
       chunk: { title: "Atualizando a página", desc: "Uma nova versão foi detectada. A página será recarregada automaticamente.", reload: "Recarregar página" },
       network: { title: "Sem conexão", desc: "Parece que não há conexão com a internet. Verifique sua rede e tente novamente.", reload: "Recarregar página" },

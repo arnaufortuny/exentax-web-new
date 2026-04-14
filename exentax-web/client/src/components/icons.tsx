@@ -28,37 +28,6 @@ export const CalendarIcon = (props: IconProps) => (
   </svg>
 );
 
-export const ChevronLeftIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d="M15 18l-6-6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-export const ChevronRightIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d="M9 18l6-6-6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-export const ChevronDownIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-export const CheckIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <polyline points="20 6 9 17 4 12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-export const XIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-  </svg>
-);
-
 export const CheckCircleIcon = (props: IconProps) => (
   <svg {...p(props)} viewBox="0 0 24 24" fill="none">
     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.2"/>
@@ -70,22 +39,6 @@ export const XCircleIcon = (props: IconProps) => (
   <svg {...p(props)} viewBox="0 0 24 24" fill="none">
     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.2"/>
     <path d="M15 9l-6 6M9 9l6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-  </svg>
-);
-
-export const InfoCircleIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.2"/>
-    <line x1="12" y1="16" x2="12" y2="12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-    <circle cx="12" cy="8" r="1.2" fill="currentColor"/>
-  </svg>
-);
-
-export const WarningTriangleIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-    <line x1="12" y1="9" x2="12" y2="13" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-    <circle cx="12" cy="17" r="1.2" fill="currentColor"/>
   </svg>
 );
 
@@ -119,23 +72,10 @@ export const ClockCircleIcon = (props: IconProps) => (
   </svg>
 );
 
-export const ArrowRightIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
-    <polyline points="12 5 19 12 12 19" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
 export const ArrowLeftIcon = (props: IconProps) => (
   <svg {...p(props)} viewBox="0 0 24 24" fill="none">
     <line x1="19" y1="12" x2="5" y2="12" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"/>
     <polyline points="12 19 5 12 12 5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-export const SectionIcon = ({ d, ...props }: IconProps & { d: string }) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d={d} stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 );
 
@@ -171,9 +111,3 @@ export const CalendarClockIcon = (props: IconProps) => (
   </svg>
 );
 
-export const WhatsAppIcon = (props: IconProps) => (
-  <svg {...p(props)} viewBox="0 0 24 24" fill="none">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="currentColor"/>
-    <path d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.334.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652a12.062 12.062 0 005.713 1.448h.005c6.585 0 11.946-5.336 11.948-11.896 0-3.176-1.24-6.165-3.487-8.411z" stroke="currentColor" strokeWidth="0.8"/>
-  </svg>
-);

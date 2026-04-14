@@ -9,8 +9,7 @@ import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, FAQ_SCHEMA_ENTRIES, PAGE_S
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
-import { SITE_URL } from "./email-layout";
-import { SUPPORTED_LANGS } from "./server-constants";
+import { SITE_URL, SUPPORTED_LANGS } from "./server-constants";
 
 type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 

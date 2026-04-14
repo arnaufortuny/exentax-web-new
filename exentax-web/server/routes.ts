@@ -1,13 +1,12 @@
 import type { Express } from "express";
 import { type Server } from "http";
 import { logger } from "./logger";
-import { SITE_URL } from "./email-layout";
 import crypto from "crypto";
 import {
   checkCsrfOrigin,
 } from "./route-helpers";
 import { apiFail, apiNotFound } from "./routes/api-response";
-import { SUPPORTED_LANGS } from "./server-constants";
+import { SUPPORTED_LANGS, SITE_URL } from "./server-constants";
 import {
   backendLabel, resolveRequestLang,
 } from "./routes/shared";

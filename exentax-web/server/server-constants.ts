@@ -11,8 +11,6 @@ export const AGENDA_STATUSES = {
   NO_PRESENTADO: "No presentado",
 } as const;
 
-export const AGENDA_STATUS_VALUES = Object.values(AGENDA_STATUSES) as unknown as readonly [string, ...string[]];
-
 export function isCancelledStatus(status: string | null | undefined): boolean {
   return status === AGENDA_STATUSES.CANCELADA || status === "Cancelado";
 }
@@ -30,7 +28,6 @@ export const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "hola@exentax.com";
 export const LEGAL_EMAIL = process.env.LEGAL_EMAIL || "legal@exentax.com";
 export const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER || "34614916910";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
-export const TRUSTPILOT_URL = process.env.TRUSTPILOT_URL || "https://es.trustpilot.com/review/exentax.com";
 export const INSTAGRAM_URL = process.env.INSTAGRAM_URL || "https://www.instagram.com/exentax.global/";
 export const TIKTOK_URL = process.env.TIKTOK_URL || "https://www.tiktok.com/@exentax";
 export const YOUTUBE_URL = process.env.YOUTUBE_URL || "https://youtube.com/@exentax";

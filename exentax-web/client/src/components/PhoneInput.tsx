@@ -85,7 +85,6 @@ interface PhoneInputProps {
   placeholder?: string;
   error?: boolean;
   compact?: boolean;
-  variant?: "public" | "portal" | "admin";
   "data-testid"?: string;
 }
 
@@ -95,7 +94,6 @@ export default function PhoneInput({
   placeholder = "612 345 678",
   error = false,
   compact = false,
-  variant = "public",
   "data-testid": testId = "input-phone",
 }: PhoneInputProps) {
   const { t } = useTranslation();
@@ -165,204 +163,7 @@ export default function PhoneInput({
       )
     : COUNTRY_PREFIXES;
 
-  if (variant === "admin") {
-    return (
-      <div ref={ref} style={{ position: "relative" }}>
-        <div style={{ display: "flex", gap: 0, borderRadius: 9999, border: `1.5px solid ${error ? "#DC2626" : "var(--border-subtle, rgba(0,0,0,0.06))"}`, overflow: "hidden", background: "var(--bg-input, #FAFBFC)", transition: "border-color 0.2s, box-shadow 0.2s" }}
-          onFocus={e => { if (!error) { e.currentTarget.style.borderColor = "#00E510"; e.currentTarget.style.boxShadow = "0 0 0 3px rgba(0,229,16,0.15)"; } }}
-          onBlur={e => { if (!e.currentTarget.contains(e.relatedTarget as Node)) { e.currentTarget.style.borderColor = error ? "#DC2626" : "var(--border-subtle, rgba(0,0,0,0.06))"; e.currentTarget.style.boxShadow = "none"; } }}
-        >
-          <button
-            type="button"
-            onClick={() => setOpen(!open)}
-            data-testid={`${testId}-prefix`}
-            style={{
-              display: "flex", alignItems: "center", gap: 4, padding: "11px 8px 11px 14px",
-              background: "transparent", border: "none", borderRight: "1.5px solid var(--border-subtle, rgba(0,0,0,0.06))",
-              cursor: "pointer", flexShrink: 0, fontFamily: "inherit", fontSize: 12, color: "var(--text-1, #1A1A1A)",
-            }}
-          >
-            <img
-              src={`https://flagcdn.com/w40/${selected.flag}.png`}
-              alt={selected.label}
-              width={16} height={12}
-              style={{ borderRadius: 2, objectFit: "cover", flexShrink: 0 }}
-            />
-            <span style={{ fontSize: 11, fontWeight: 600 }}>{selected.prefix}</span>
-            <svg width="8" height="8" viewBox="0 0 24 24" fill="#888"><path d="M7 10l5 5 5-5z"/></svg>
-          </button>
-          <input
-            type="tel"
-            inputMode="tel"
-            value={number}
-            onChange={handleNumberChange}
-            placeholder={placeholder}
-            data-testid={testId}
-            style={{
-              flex: 1, padding: "11px 14px", border: "none", outline: "none",
-              fontSize: 13, color: "var(--text-1, #1A1A1A)", fontFamily: "inherit", background: "transparent",
-              minWidth: 0, boxSizing: "border-box",
-            }}
-          />
-        </div>
-        {open && (
-          <div style={{
-            position: "absolute", top: "calc(100% + 4px)", left: 0, zIndex: 50,
-            background: "var(--card-bg, #fff)", borderRadius: 12, border: "1px solid var(--glass-border, rgba(0,0,0,0.08))",
-            boxShadow: "0 8px 32px rgba(0,0,0,0.12)", width: 240, maxHeight: 240,
-            overflow: "hidden", display: "flex", flexDirection: "column",
-          }}>
-            <div style={{ padding: "6px 8px", borderBottom: "1px solid var(--glass-border, rgba(0,0,0,0.06))" }}>
-              <input
-                ref={searchRef}
-                type="text"
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-                placeholder={t("common.search")}
-                data-testid={`${testId}-search`}
-                style={{
-                  width: "100%", padding: "6px 10px", border: "1px solid var(--glass-border, rgba(0,0,0,0.08))",
-                  borderRadius: 20, fontSize: 12, outline: "none", fontFamily: "inherit", boxSizing: "border-box",
-                  background: "var(--bg-input, #fff)", color: "var(--text-1, #1A1A1A)",
-                }}
-              />
-            </div>
-            <div style={{ overflowY: "auto", maxHeight: 200 }}>
-              {filtered.map(c => (
-                <button
-                  key={c.code}
-                  type="button"
-                  onClick={() => handleSelect(c.code)}
-                  data-testid={`${testId}-option-${c.code}`}
-                  style={{
-                    display: "flex", alignItems: "center", gap: 8, width: "100%",
-                    padding: "8px 12px", border: "none", cursor: "pointer", fontFamily: "inherit",
-                    fontSize: 12, color: "var(--text-1, #1A1A1A)", textAlign: "left",
-                    background: c.code === selectedCode ? "rgba(0,229,16,0.06)" : "transparent",
-                  }}
-                  onMouseEnter={e => { if (c.code !== selectedCode) (e.target as HTMLElement).style.background = "rgba(0,0,0,0.03)"; }}
-                  onMouseLeave={e => { (e.target as HTMLElement).style.background = c.code === selectedCode ? "rgba(0,229,16,0.06)" : "transparent"; }}
-                >
-                  <img src={`https://flagcdn.com/w40/${c.flag}.png`} alt="" width={16} height={12} loading="lazy" style={{ borderRadius: 2, objectFit: "cover", flexShrink: 0 }} />
-                  <span style={{ flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{c.label}</span>
-                  <span style={{ fontSize: 11, color: "#888", flexShrink: 0 }}>{c.prefix}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  if (variant === "portal") {
-    return (
-      <div ref={ref} style={{ position: "relative" }}>
-        <div style={{
-          display: "flex", gap: 0, borderRadius: 12, overflow: "hidden",
-          border: `1.5px solid ${error ? "#DC2626" : "var(--glass-border-strong)"}`,
-          background: "var(--bg-input)", transition: "border-color 0.2s, box-shadow 0.2s",
-        }}
-        onFocus={e => {
-          const container = e.currentTarget;
-          container.style.borderColor = "#00E510";
-          container.style.background = "var(--card-bg)";
-          container.style.boxShadow = "0 0 0 3px rgba(0,229,16,0.08)";
-        }}
-        onBlur={e => {
-          if (!e.currentTarget.contains(e.relatedTarget as Node)) {
-            const container = e.currentTarget;
-            container.style.borderColor = "var(--glass-border-strong)";
-            container.style.background = "var(--bg-input)";
-            container.style.boxShadow = "none";
-          }
-        }}
-        >
-          <button
-            type="button"
-            onClick={() => setOpen(!open)}
-            data-testid={`${testId}-prefix`}
-            style={{
-              display: "flex", alignItems: "center", gap: 5, padding: "11px 8px 11px 14px",
-              background: "transparent", border: "none", borderRight: "1.5px solid var(--glass-border-strong)",
-              cursor: "pointer", flexShrink: 0, fontFamily: "inherit",
-            }}
-          >
-            <img
-              src={`https://flagcdn.com/w40/${selected.flag}.png`}
-              alt={selected.label}
-              width={18} height={13}
-              style={{ borderRadius: 2, objectFit: "cover", flexShrink: 0 }}
-            />
-            <span style={{ fontSize: 13, fontWeight: 600, color: "var(--text-1)" }}>{selected.prefix}</span>
-            <svg width="8" height="8" viewBox="0 0 24 24" fill="var(--muted)"><path d="M7 10l5 5 5-5z"/></svg>
-          </button>
-          <input
-            type="tel"
-            inputMode="tel"
-            value={number}
-            onChange={handleNumberChange}
-            placeholder={placeholder}
-            data-testid={testId}
-            style={{
-              flex: 1, padding: "11px 16px 11px 12px", border: "none", outline: "none",
-              fontSize: 14, color: "var(--text-1)", fontFamily: "inherit", background: "transparent",
-              minWidth: 0, boxSizing: "border-box",
-            }}
-          />
-        </div>
-        {open && (
-          <div style={{
-            position: "absolute", top: "calc(100% + 4px)", left: 0, zIndex: 50,
-            background: "var(--card-bg)", borderRadius: 14, border: "1px solid var(--glass-border-strong)",
-            boxShadow: "0 8px 32px rgba(0,0,0,0.12)", width: 260, maxHeight: 260,
-            overflow: "hidden", display: "flex", flexDirection: "column",
-          }}>
-            <div style={{ padding: "8px", borderBottom: "1px solid var(--border-subtle)" }}>
-              <input
-                ref={searchRef}
-                type="text"
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-                placeholder={t("common.search")}
-                data-testid={`${testId}-search`}
-                style={{
-                  width: "100%", padding: "8px 12px", border: "1px solid var(--glass-border-strong)",
-                  borderRadius: 20, fontSize: 13, outline: "none", fontFamily: "inherit", boxSizing: "border-box",
-                  background: "var(--bg-input)", color: "var(--text-1)",
-                }}
-              />
-            </div>
-            <div style={{ overflowY: "auto", maxHeight: 210 }}>
-              {filtered.map(c => (
-                <button
-                  key={c.code}
-                  type="button"
-                  onClick={() => handleSelect(c.code)}
-                  data-testid={`${testId}-option-${c.code}`}
-                  style={{
-                    display: "flex", alignItems: "center", gap: 8, width: "100%",
-                    padding: "9px 14px", border: "none", cursor: "pointer", fontFamily: "inherit",
-                    fontSize: 13, color: "var(--text-1)", textAlign: "left",
-                    background: c.code === selectedCode ? "rgba(0,229,16,0.06)" : "transparent",
-                  }}
-                  onMouseEnter={e => { if (c.code !== selectedCode) (e.target as HTMLElement).style.background = "var(--inactive-bg)"; }}
-                  onMouseLeave={e => { (e.target as HTMLElement).style.background = c.code === selectedCode ? "rgba(0,229,16,0.06)" : "transparent"; }}
-                >
-                  <img src={`https://flagcdn.com/w40/${c.flag}.png`} alt="" width={18} height={13} loading="lazy" style={{ borderRadius: 2, objectFit: "cover", flexShrink: 0 }} />
-                  <span style={{ flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{c.label}</span>
-                  <span style={{ fontSize: 12, color: "var(--muted)", flexShrink: 0 }}>{c.prefix}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-    );
-  }
-
   const sizeClasses = compact ? "text-xs" : "text-sm";
-  const padClasses = compact ? "py-2.5" : "py-2.5";
 
   return (
     <div ref={ref} className="relative">
@@ -371,7 +172,7 @@ export default function PhoneInput({
           type="button"
           onClick={() => setOpen(!open)}
           data-testid={`${testId}-prefix`}
-          className={`flex items-center gap-1.5 px-3 border-r border-[var(--border)] bg-transparent cursor-pointer flex-shrink-0 hover:bg-[var(--bg-2)] transition-colors ${padClasses}`}
+          className={`flex items-center gap-1.5 px-3 border-r border-[var(--border)] bg-transparent cursor-pointer flex-shrink-0 hover:bg-[var(--bg-2)] transition-colors py-2.5`}
         >
           <img
             src={`https://flagcdn.com/w40/${selected.flag}.png`}
@@ -389,7 +190,7 @@ export default function PhoneInput({
           onChange={handleNumberChange}
           placeholder={placeholder}
           data-testid={testId}
-          className={`flex-1 min-w-0 px-3 bg-transparent outline-none text-[var(--text-1)] placeholder:text-[var(--text-3)] ${sizeClasses} ${padClasses}`}
+          className={`flex-1 min-w-0 px-3 bg-transparent outline-none text-[var(--text-1)] placeholder:text-[var(--text-3)] ${sizeClasses} py-2.5`}
         />
       </div>
       {open && (

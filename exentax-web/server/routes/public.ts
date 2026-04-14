@@ -20,8 +20,7 @@ import {
 } from "../storage";
 import { encryptField } from "../field-encryption";
 import { sendBookingConfirmation, sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
-import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus } from "../server-constants";
-import { SITE_URL } from "../email-layout";
+import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
