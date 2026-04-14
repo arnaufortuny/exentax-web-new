@@ -1039,7 +1039,6 @@ const en = {
     marketingOptional: "Optional.",
     bookingError: "Error creating the booking. Please try again.",
     submitCta: "Book consultation",
-    freeNotice: "This consultation.",
     whatsappCta: "Contact via WhatsApp",
     spainTime: "Spain time",
     joinMeet: "Join Google Meet",
@@ -1055,8 +1054,6 @@ const en = {
     lastNamePlaceholder: "Your last name",
     confirmationNote: "You will receive an email with the meeting details.",
     dayBlocked: "This day is not available",
-    freeNoticeTitle: "We value your time. We commit to our clients",
-    freeNoticeDesc: "This call has real value with all the personalized information we provide. A minimal investment for a complete strategic consultation. This booking has a price of {{price}}.",
     qualifyTitle: "Your situation",
     qualifyNext: "Continue",
     beneficioLabel: "Approximate monthly net profit",
@@ -1274,13 +1271,13 @@ const en = {
       reagendamiento: "Rescheduling"
     },
     paymentSuccess: {
-      title: "Payment received successfully!",
-      desc: "Your payment has been processed correctly. You will shortly receive a confirmation email with all the details of your consultation.",
+      title: "Consultation registered!",
+      desc: "We have received your request. You will shortly receive a confirmation email with all the details of your free consultation.",
       email: "Check your inbox (and the spam folder) if you don't receive the email within a few minutes."
     },
     paymentCancelled: {
-      title: "Payment cancelled",
-      desc: "The payment was not completed. No charge has been made to your account. You can try again whenever you like.",
+      title: "Process not completed",
+      desc: "The process was not completed. You can try again whenever you like, at no cost.",
       retry: "Try again"
     },
   },

@@ -1040,7 +1040,6 @@ const fr = {
     marketingOptional: "Facultatif.",
     bookingError: "Erreur lors de la création de la réservation. Veuillez réessayer.",
     submitCta: "Réserver une consultation",
-    freeNotice: "Cette consultation.",
     whatsappCta: "Contacter via WhatsApp",
     spainTime: "heure d'Espagne",
     joinMeet: "Rejoindre Google Meet",
@@ -1056,8 +1055,6 @@ const fr = {
     lastNamePlaceholder: "Votre nom",
     confirmationNote: "Vous recevrez un email avec les détails de la réunion.",
     dayBlocked: "Ce jour n'est pas disponible",
-    freeNoticeTitle: "Nous valorisons votre temps. Nous nous engageons",
-    freeNoticeDesc: "Cet appel a une valeur réelle avec toutes les informations personnalisées que nous vous fournissons. Un investissement minimal pour une consultation stratégique complète. Cette réservation a un prix de {{price}}.",
     qualifyTitle: "Votre situation",
     qualifyNext: "Continuer",
     beneficioLabel: "Bénéfice net mensuel approximatif",
@@ -1275,13 +1272,13 @@ const fr = {
       reagendamiento: "Reprogrammation",
     },
     paymentSuccess: {
-      title: "Paiement reçu avec succès !",
-      desc: "Votre paiement a été traité correctement. Vous recevrez bientôt un email de confirmation avec tous les détails de votre consultation.",
+      title: "Consultation enregistrée !",
+      desc: "Nous avons bien reçu votre demande. Vous recevrez bientôt un email de confirmation avec tous les détails de votre consultation gratuite.",
       email: "Vérifiez votre boîte de réception (et le dossier spam) si vous ne recevez pas l'email dans quelques minutes."
     },
     paymentCancelled: {
-      title: "Paiement annulé",
-      desc: "Le paiement n'a pas été complété. Aucun prélèvement n'a été effectué sur votre compte. Vous pouvez réessayer quand vous le souhaitez.",
+      title: "Processus non terminé",
+      desc: "Le processus n'a pas été complété. Vous pouvez réessayer quand vous le souhaitez, sans aucun frais.",
       retry: "Réessayer"
     },
   },

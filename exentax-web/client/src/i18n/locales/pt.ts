@@ -1044,7 +1044,6 @@ const pt = {
     marketingOptional: "Opcional.",
     bookingError: "Erro ao criar a reserva. Tente novamente.",
     submitCta: "Reservar consultoria",
-    freeNotice: "Esta consulta.",
     whatsappCta: "Falar pelo WhatsApp",
     spainTime: "horário da Espanha",
     joinMeet: "Entrar no Google Meet",
@@ -1060,8 +1059,6 @@ const pt = {
     lastNamePlaceholder: "O seu apelido",
     confirmationNote: "Você receberá um email com os detalhes da reunião.",
     dayBlocked: "Este dia não está disponível",
-    freeNoticeTitle: "Valorizamos o seu tempo. Comprometemo-nos",
-    freeNoticeDesc: "Esta chamada tem um valor real com todas as informações personalizadas que fornecemos. Um investimento mínimo para uma consultoria estratégica completa. Esta reserva tem um preço de {{price}}.",
     qualifyTitle: "Sua situação",
     qualifyNext: "Continuar",
     beneficioLabel: "Benefício líquido mensal aproximado",
@@ -1279,13 +1276,13 @@ const pt = {
       reagendamiento: "Remarcação",
     },
     paymentSuccess: {
-      title: "Pagamento recebido com sucesso!",
-      desc: "Seu pagamento foi processado corretamente. Em breve você receberá um email de confirmação com todos os detalhes da sua consultoria.",
+      title: "Consultoria registrada!",
+      desc: "Recebemos sua solicitação. Em breve você receberá um email de confirmação com todos os detalhes da sua consultoria gratuita.",
       email: "Verifique sua caixa de entrada (e a pasta de spam) se não receber o email em alguns minutos."
     },
     paymentCancelled: {
-      title: "Pagamento cancelado",
-      desc: "O pagamento não foi concluído. Nenhum débito foi feito em sua conta. Você pode tentar novamente quando quiser.",
+      title: "Processo não concluído",
+      desc: "O processo não foi concluído. Você pode tentar novamente quando quiser, sem nenhum custo.",
       retry: "Tentar novamente"
     },
   },

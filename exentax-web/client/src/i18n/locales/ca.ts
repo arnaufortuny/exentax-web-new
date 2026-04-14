@@ -1399,13 +1399,13 @@ const ca = {
       reagendamiento: "Reagendament",
     },
     paymentSuccess: {
-      title: "Pagament rebut amb èxit!",
-      desc: "El teu pagament ha estat processat correctament. En breu rebràs un correu de confirmació amb tots els detalls de la teva assessoria.",
+      title: "Consulta registrada!",
+      desc: "Hem rebut la teva sol·licitud. En breu rebràs un correu de confirmació amb tots els detalls de la teva assessoria gratuïta.",
       email: "Revisa la teva safata d'entrada (i la carpeta de spam) si no reps el correu en uns minuts."
     },
     paymentCancelled: {
-      title: "Pagament cancel·lat",
-      desc: "El pagament no s'ha completat. No s'ha realitzat cap càrrec al teu compte. Pots tornar-ho a intentar quan vulguis.",
+      title: "Procés no completat",
+      desc: "El procés no s'ha completat. Pots tornar-ho a intentar quan vulguis, sense cap cost.",
       retry: "Tornar a intentar"
     },
   },
@@ -1620,7 +1620,6 @@ const ca = {
     marketingOptional: "Opcional.",
     bookingError: "Error en crear la reserva. Torna-ho a provar.",
     submitCta: "Reservar assessoria",
-    freeNotice: "Aquesta consulta.",
     whatsappCta: "Consultar per WhatsApp",
     spainTime: "hora d'Espanya",
     joinMeet: "Unir-se a Google Meet",
@@ -1636,8 +1635,6 @@ const ca = {
     lastNamePlaceholder: "El teu cognom",
     confirmationNote: "Rebràs un email amb els detalls de la reunió.",
     dayBlocked: "Aquest dia no està disponible",
-    freeNoticeTitle: "Valorem el teu temps. Ens comprometem",
-    freeNoticeDesc: "Aquesta trucada té un valor real amb tota la informació personalitzada que et proporcionem. Una inversió mínima per a una assessoria estratègica completa. Aquesta reserva té un preu de {{price}}.",
     qualifyTitle: "La teva situació",
     qualifyNext: "Continuar",
     beneficioLabel: "Benefici net mensual aproximat",

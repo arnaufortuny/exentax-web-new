@@ -1040,7 +1040,6 @@ const de = {
     marketingOptional: "Optional.",
     bookingError: "Fehler beim Erstellen der Buchung. Bitte versuchen Sie es erneut.",
     submitCta: "Beratung buchen",
-    freeNotice: "Diese Beratung.",
     whatsappCta: "Über WhatsApp kontaktieren",
     spainTime: "spanische Zeit",
     joinMeet: "Google Meet beitreten",
@@ -1056,8 +1055,6 @@ const de = {
     lastNamePlaceholder: "Ihr Nachname",
     confirmationNote: "Sie erhalten eine E-Mail mit den Besprechungsdetails.",
     dayBlocked: "Dieser Tag ist nicht verfügbar",
-    freeNoticeTitle: "Wir schätzen Ihre Zeit. Wir verpflichten uns",
-    freeNoticeDesc: "Dieses Gespräch hat einen echten Wert mit allen personalisierten Informationen, die wir Ihnen bieten. Eine minimale Investition für eine vollständige strategische Beratung. Diese Buchung hat einen Preis von {{price}}.",
     qualifyTitle: "Ihre Situation",
     qualifyNext: "Weiter",
     beneficioLabel: "Ungefährer monatlicher Nettogewinn",
@@ -1275,13 +1272,13 @@ const de = {
       reagendamiento: "Umterminierung",
     },
     paymentSuccess: {
-      title: "Zahlung erfolgreich eingegangen!",
-      desc: "Ihre Zahlung wurde korrekt verarbeitet. Sie erhalten in Kürze eine Bestätigungs-E-Mail mit allen Details Ihrer Beratung.",
+      title: "Beratung registriert!",
+      desc: "Wir haben Ihre Anfrage erhalten. Sie erhalten in Kürze eine Bestätigungs-E-Mail mit allen Details Ihrer kostenlosen Beratung.",
       email: "Überprüfen Sie Ihren Posteingang (und den Spam-Ordner), falls Sie die E-Mail nicht innerhalb weniger Minuten erhalten."
     },
     paymentCancelled: {
-      title: "Zahlung storniert",
-      desc: "Die Zahlung wurde nicht abgeschlossen. Es wurde keine Abbuchung von Ihrem Konto vorgenommen. Sie können es jederzeit erneut versuchen.",
+      title: "Prozess nicht abgeschlossen",
+      desc: "Der Prozess wurde nicht abgeschlossen. Sie können es jederzeit erneut versuchen, kostenlos.",
       retry: "Erneut versuchen"
     },
   },
