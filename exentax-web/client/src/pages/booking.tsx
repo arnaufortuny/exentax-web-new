@@ -52,16 +52,17 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedSlot, setSelectedSlot] = useState("");
 
-  const { data: availableSlots, isLoading: slotsLoading } = useQuery<Array<{ time: string; endTime: string }>>({
+  const { data: availableSlots, isLoading: slotsLoading, isError: slotsError } = useQuery<Array<{ time: string; endTime: string }>>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
     queryFn: async () => {
       const res = await fetch(`/api/bookings/available-slots?date=${selectedDate}`, { credentials: "include" });
-      if (!res.ok) return [];
+      if (!res.ok) throw new Error("Failed to load slots");
       const data = await res.json();
       const slots: string[] = data?.slots || [];
       return slots.map(s => ({ time: s, endTime: getEndTimeClient(s) }));
     },
     enabled: !!selectedDate,
+    retry: 1,
   });
 
   const rescheduleMutation = useMutation({
@@ -100,6 +101,11 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
           {slotsLoading ? (
             <div className="flex items-center justify-center py-4">
               <SpinnerIcon className="w-5 h-5 animate-spin text-[var(--muted)]" />
+            </div>
+          ) : slotsError ? (
+            <div className="flex items-center gap-2 p-3 rounded-xl bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-400 text-sm">
+              <XCircleIcon className="w-4 h-4 flex-shrink-0" />
+              {t("agenda.slotsError")}
             </div>
           ) : availableSlots && availableSlots.length > 0 ? (
             <div className="grid grid-cols-3 gap-2">

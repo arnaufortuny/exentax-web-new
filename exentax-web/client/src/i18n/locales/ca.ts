@@ -1916,6 +1916,7 @@ const ca = {
     selectNewDate: "Selecciona una nova data",
     selectTime: "Selecciona un horari",
     noSlotsAvailable: "No hi ha horaris disponibles per a aquest dia",
+    slotsError: "No s'han pogut carregar els horaris disponibles. Torna-ho a intentar.",
     rescheduleError: "No s'ha pogut replanificar. Torna-ho a intentar.",
     rescheduling: "Replanificant...",
     confirmNewDate: "Confirmar nova data",

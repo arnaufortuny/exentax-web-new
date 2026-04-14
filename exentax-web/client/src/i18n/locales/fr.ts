@@ -1740,6 +1740,7 @@ const fr = {
     selectNewDate: "Sélectionner une nouvelle date",
     selectTime: "Sélectionner un créneau",
     noSlotsAvailable: "Aucun créneau disponible pour ce jour",
+    slotsError: "Impossible de charger les horaires disponibles. Veuillez réessayer.",
     rescheduleError: "Impossible de reprogrammer. Veuillez réessayer.",
     rescheduling: "Reprogrammation...",
     confirmNewDate: "Confirmer la nouvelle date",

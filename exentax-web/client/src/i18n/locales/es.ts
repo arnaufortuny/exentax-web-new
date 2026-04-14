@@ -2328,6 +2328,7 @@ const es = {
  selectNewDate:"Selecciona una nueva fecha",
  selectTime:"Selecciona un horario",
  noSlotsAvailable:"No hay horarios disponibles para este día",
+ slotsError:"No se pudieron cargar los horarios. Inténtalo de nuevo.",
  rescheduleError:"No se pudo reagendar. Inténtalo de nuevo.",
  rescheduling:"Reagendando...",
  confirmNewDate:"Confirmar nueva fecha",

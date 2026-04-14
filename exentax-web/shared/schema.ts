@@ -184,6 +184,8 @@ export const legalDocumentVersions = pgTable("legal_document_versions", {
   createdAt: timestamp("created_at").defaultNow(),
 }, (table) => [
   index("legal_doc_versions_type_idx").on(table.docType),
+  index("legal_doc_versions_effective_date_idx").on(table.effectiveDate),
+  index("legal_doc_versions_created_at_idx").on(table.createdAt),
 ]);
 
 export const insertLegalDocVersionSchema = createInsertSchema(legalDocumentVersions).omit({ createdAt: true });

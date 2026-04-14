@@ -1744,6 +1744,7 @@ const pt = {
     selectNewDate: "Selecionar nova data",
     selectTime: "Selecionar horário",
     noSlotsAvailable: "Sem horários disponíveis para este dia",
+    slotsError: "Não foi possível carregar os horários disponíveis. Tente novamente.",
     rescheduleError: "Não foi possível reagendar. Tente novamente.",
     rescheduling: "A reagendar...",
     confirmNewDate: "Confirmar nova data",

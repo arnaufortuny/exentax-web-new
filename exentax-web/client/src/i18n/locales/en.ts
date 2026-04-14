@@ -1739,6 +1739,7 @@ const en = {
     selectNewDate: "Select a new date",
     selectTime: "Select a time slot",
     noSlotsAvailable: "No slots available for this day",
+    slotsError: "Could not load available times. Please try again.",
     rescheduleError: "Could not reschedule. Please try again.",
     rescheduling: "Rescheduling...",
     confirmNewDate: "Confirm new date",

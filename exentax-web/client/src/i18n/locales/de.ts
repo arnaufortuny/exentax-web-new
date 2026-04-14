@@ -1740,6 +1740,7 @@ const de = {
     selectNewDate: "Neues Datum auswählen",
     selectTime: "Zeitfenster auswählen",
     noSlotsAvailable: "Keine Zeitfenster für diesen Tag verfügbar",
+    slotsError: "Verfügbare Zeiten konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
     rescheduleError: "Umplanung fehlgeschlagen. Bitte versuchen Sie es erneut.",
     rescheduling: "Wird umgeplant...",
     confirmNewDate: "Neues Datum bestätigen",
