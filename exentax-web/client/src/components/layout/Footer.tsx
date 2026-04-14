@@ -198,7 +198,7 @@ export default function Footer() {
 
         <div className="pt-16 pb-12 text-center">
           <Link href="/" data-testid="link-footer-home">
-            <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto" style={{ filter: "brightness(0)" }} loading="lazy" data-testid="img-logo-footer" />
+            <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto brightness-0" loading="lazy" data-testid="img-logo-footer" />
           </Link>
         </div>
 
@@ -296,7 +296,7 @@ export default function Footer() {
               className="inline-block hover:opacity-80 transition-opacity"
               data-testid="link-trustpilot-footer"
             >
-              <img src="/img/partner-trustpilot.png" alt={t("footer.trustpilotAlt")} width={120} height={48} className="h-10 sm:h-12 w-auto object-contain opacity-60" style={{ filter: "brightness(0)" }} loading="lazy" data-testid="img-trustpilot-footer" />
+              <img src="/img/partner-trustpilot.png" alt={t("footer.trustpilotAlt")} width={120} height={48} className="h-10 sm:h-12 w-auto object-contain opacity-60 brightness-0" loading="lazy" data-testid="img-trustpilot-footer" />
             </a>
           </div>
           <NewsletterSignup />

@@ -329,7 +329,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     const today = new Date();
@@ -353,7 +353,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
@@ -482,7 +482,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!(await checkBookingRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const bookingId = String(req.params.bookingId || "");
     const token = String(req.query.token || "");
-    if (!bookingId || !token) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
+    if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
