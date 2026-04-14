@@ -1710,6 +1710,7 @@ const en = {
       noShow: "No show"
     },
     yourSession: "Your session",
+    sessionType: "Strategic consultation · 30 min",
     date: "Date",
     time: "Time",
     videoCall: "Video call",

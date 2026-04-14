@@ -1715,6 +1715,7 @@ const pt = {
       noShow: "Não compareceu",
     },
     yourSession: "A sua sessão",
+    sessionType: "Consultoria estratégica · 30 min",
     date: "Data",
     time: "Hora",
     videoCall: "Videochamada",

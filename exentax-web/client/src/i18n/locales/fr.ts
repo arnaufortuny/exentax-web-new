@@ -1711,6 +1711,7 @@ const fr = {
       noShow: "Non présenté",
     },
     yourSession: "Votre session",
+    sessionType: "Consultation stratégique · 30 min",
     date: "Date",
     time: "Heure",
     videoCall: "Appel vidéo",

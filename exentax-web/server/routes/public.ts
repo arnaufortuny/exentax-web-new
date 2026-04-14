@@ -36,7 +36,7 @@ import {
   notifyBookingCreated, notifyBookingRescheduled, notifyBookingCancelled,
   notifyCalculatorLead, notifyNewsletterSubscribe,
 } from "../discord";
-import { sheetsLogBooking, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
+import { sheetsLogBooking, sheetsLogBookingUpdate, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
 
 let sitemapCache: { xml: string; generatedAt: number } | null = null;
 const SITEMAP_CACHE_TTL = 3600_000;
@@ -391,7 +391,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
     const endTime = getEndTime(startTime);
     const slotKey = `${date}T${startTime}`;
-    const slotResult = await withSlotLock(slotKey, async () => {
+    const newRescheduleCount = ((row as unknown as Record<string, unknown>).rescheduleCount as number | null ?? 0) + 1;
+    const nowIso = new Date().toISOString();
+
+    // Claim slot atomically: check + update date/time/status inside the lock
+    const claimResult = await withSlotLock(slotKey, async () => {
       const booked = await isSlotBooked(date, startTime);
       if (booked) return { error: true as const };
       await updateAgenda(bookingId, {
@@ -399,12 +403,14 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         startTime,
         endTime,
         status: AGENDA_STATUSES.REAGENDADA,
-        googleMeet: null,
+        googleMeet: null,        // clear stale link immediately
         googleMeetEventId: null,
+        rescheduleCount: newRescheduleCount,
+        lastRescheduledAt: nowIso,
       });
       return { error: false as const };
     });
-    if (slotResult.error) return apiFail(res, 409, backendLabel("slotAlreadyBooked", resolveRequestLang(req)), "SLOT_TAKEN");
+    if (claimResult.error) return apiFail(res, 409, backendLabel("slotAlreadyBooked", resolveRequestLang(req)), "SLOT_TAKEN");
 
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
@@ -436,10 +442,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       );
     }
 
-    await updateAgenda(bookingId, {
-      googleMeet: newMeetLink,
-      googleMeetEventId: newEventId,
-    });
+    // Update meet link after creation (separate from slot claim — acceptable non-atomic)
+    if (newMeetLink || newEventId) {
+      await updateAgenda(bookingId, {
+        googleMeet: newMeetLink,
+        googleMeetEventId: newEventId,
+      });
+    }
 
     const manageUrl = `${SITE_URL}/booking/${bookingId}?token=${token}`;
     sendRescheduleConfirmation({
@@ -463,7 +472,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
-    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language });
+    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
+    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
 
@@ -487,7 +497,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         if (endH < nowH || (endH === nowH && endM <= nowM)) return apiFail(res, 400, backendLabel("cannotCancelPast", resolveRequestLang(req)), "PAST_BOOKING");
       }
     }
-    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELADA });
+    const cancelledAt = new Date().toISOString();
+    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELADA, cancelledAt });
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
     }
@@ -504,7 +515,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", date: row.meetingDate, startTime: row.startTime, language: row.language });
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: (row as unknown as Record<string, unknown>).phone as string | null, date: row.meetingDate, startTime: row.startTime, language: row.language });
+    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
 

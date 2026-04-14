@@ -1,5 +1,5 @@
 import { db } from "../db";
-import { desc, and, lte } from "drizzle-orm";
+import { desc, and, lte, eq } from "drizzle-orm";
 import * as s from "../../shared/schema";
 import { generateId, wrapStorageError } from "./core";
 import { todayMadridISO } from "../server-constants";
@@ -17,6 +17,7 @@ export async function getActiveLegalDocVersion(docType: string): Promise<s.Legal
     const today = todayMadridISO();
     const rows = await db.select().from(s.legalDocumentVersions)
       .where(and(
+        eq(s.legalDocumentVersions.docType, docType),
         lte(s.legalDocumentVersions.effectiveDate, today),
       ))
       .orderBy(desc(s.legalDocumentVersions.effectiveDate), desc(s.legalDocumentVersions.createdAt))

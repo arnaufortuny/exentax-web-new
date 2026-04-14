@@ -4,7 +4,7 @@ import helmet from "helmet";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer, type IncomingMessage, type ServerResponse } from "http";
-import { closePool, db } from "./db";
+import { closePool, db, runColumnMigrations } from "./db";
 import { logger } from "./logger";
 import { sql } from "drizzle-orm";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
@@ -312,6 +312,7 @@ httpServer.listen(
 
 (async () => {
   try {
+    await runColumnMigrations();
     await registerRoutes(httpServer, app, activeIntervals);
 
     const isProduction = process.env.NODE_ENV !== "development";

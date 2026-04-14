@@ -1711,6 +1711,7 @@ const de = {
       noShow: "Nicht erschienen",
     },
     yourSession: "Ihre Sitzung",
+    sessionType: "Strategische Beratung · 30 Min.",
     date: "Datum",
     time: "Uhrzeit",
     videoCall: "Videoanruf",

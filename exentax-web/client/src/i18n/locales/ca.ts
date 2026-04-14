@@ -1886,6 +1886,7 @@ const ca = {
       noShow: "No presentat",
     },
     yourSession: "La teva sessió",
+    sessionType: "Assessoria estratègica · 30 min",
     date: "Data",
     time: "Hora",
     videoCall: "Videotrucada",

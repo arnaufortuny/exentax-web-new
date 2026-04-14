@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+import crypto from "crypto";
 import { logger } from "./logger";
 import { getGoogleServiceAccountKey } from "./google-credentials.js";
 import { isTransient, isAuthError } from "./google-utils";
@@ -75,7 +76,7 @@ interface BuildRawOpts {
 
 function buildRaw(to: string, subject: string, html: string, replyTo?: string, fromName = FROM_NAME, attachments?: EmailAttachment[], bcc?: string, opts?: BuildRawOpts): string {
   const encodedSubject = `=?UTF-8?B?${Buffer.from(subject).toString("base64")}?=`;
-  const messageId = `<${Date.now()}.${Math.random().toString(36).slice(2)}@${SENDER_EMAIL.split("@")[1] || "exentax.com"}>`;
+  const messageId = `<${crypto.randomBytes(12).toString("hex")}@${SENDER_EMAIL.split("@")[1] || "exentax.com"}>`;
 
   if (!attachments || attachments.length === 0) {
     const htmlBase64 = Buffer.from(html).toString("base64");
@@ -146,21 +147,25 @@ async function sendEmail(to: string, subject: string, html: string, replyTo?: st
   );
 }
 
+const EMAIL_MAX_RETRIES = 3;
+
 async function _sendEmailInternal(to: string, subject: string, html: string, replyTo?: string, fromName = FROM_NAME, attachments?: EmailAttachment[], bcc?: string, rawOpts?: BuildRawOpts): Promise<boolean> {
-  for (let attempt = 0; attempt < 2; attempt++) {
+  for (let attempt = 0; attempt < EMAIL_MAX_RETRIES; attempt++) {
     const gmail = getGmailClient();
     if (!gmail) return false;
     try {
       await gmail.users.messages.send({ userId: "me", requestBody: { raw: buildRaw(to, subject, html, replyTo, fromName, attachments, bcc, rawOpts) } });
       return true;
     } catch (err) {
-      if (attempt === 0 && (isTransient(err) || isAuthError(err))) {
-        logger.warn(`Transient error sending to ${to}, retrying in 1s...`, "email");
+      const isRetryable = isTransient(err) || isAuthError(err);
+      if (isRetryable && attempt < EMAIL_MAX_RETRIES - 1) {
+        const delay = 1_000 * 2 ** attempt; // 1s, 2s, 4s
+        logger.warn(`Transient email error (attempt ${attempt + 1}/${EMAIL_MAX_RETRIES}), retrying in ${delay}ms...`, "email");
         if (isAuthError(err)) resetGmailClient();
-        await new Promise(r => setTimeout(r, 1_000));
+        await new Promise(r => setTimeout(r, delay));
         continue;
       }
-      logger.error(`Failed to send to ${to}:`, "email", err);
+      logger.error(`Failed to send email to ${to} after ${attempt + 1} attempt(s):`, "email", err);
       throw err;
     }
   }

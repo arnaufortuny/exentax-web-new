@@ -17,8 +17,9 @@
  *
  * DESIGN:
  *   - Fire-and-forget: never blocks the main request flow
- *   - Silent degradation when env vars are absent or auth fails
- *   - No domain-wide delegation required (share sheet directly with SA)
+ *   - Graceful degradation when env vars absent or auth fails
+ *   - Errors always logged (never silently swallowed)
+ *   - Auth client reset on failure so next call retries
  */
 
 import { google } from "googleapis";
@@ -83,6 +84,7 @@ export function sheetsLogBooking(opts: {
   language?: string | null;
   status: string;
   meetLink?: string | null;
+  rescheduleCount?: number | null;
 }): void {
   const ts = new Date().toISOString();
   appendRow("Agenda", [
@@ -96,7 +98,33 @@ export function sheetsLogBooking(opts: {
     opts.language || "es",
     opts.status,
     opts.meetLink || "",
-  ]).catch(() => {});
+    opts.rescheduleCount ?? 0,
+  ]).catch(err => logger.warn(`sheetsLogBooking catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));
+}
+
+export function sheetsLogBookingUpdate(opts: {
+  bookingId: string;
+  email: string;
+  action: "rescheduled" | "cancelled";
+  newDate?: string | null;
+  newStartTime?: string | null;
+  newEndTime?: string | null;
+  rescheduleCount?: number | null;
+}): void {
+  const ts = new Date().toISOString();
+  appendRow("Agenda", [
+    ts,
+    opts.bookingId,
+    opts.newDate || "",
+    opts.newStartTime && opts.newEndTime ? `${opts.newStartTime}–${opts.newEndTime}` : "",
+    "",
+    opts.email,
+    "",
+    "",
+    opts.action === "rescheduled" ? "Reagendada" : "Cancelada",
+    "",
+    opts.rescheduleCount ?? "",
+  ]).catch(err => logger.warn(`sheetsLogBookingUpdate catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));
 }
 
 export function sheetsLogCalculatorLead(opts: {
@@ -120,7 +148,7 @@ export function sheetsLogCalculatorLead(opts: {
     opts.ahorro,
     opts.language || "es",
     opts.marketingAccepted ? "Sí" : "No",
-  ]).catch(() => {});
+  ]).catch(err => logger.warn(`sheetsLogCalculatorLead catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));
 }
 
 export function sheetsLogConsent(opts: {
@@ -142,5 +170,5 @@ export function sheetsLogConsent(opts: {
     opts.language || "",
     opts.source || "",
     opts.privacyVersion || "",
-  ]).catch(() => {});
+  ]).catch(err => logger.warn(`sheetsLogConsent catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));
 }

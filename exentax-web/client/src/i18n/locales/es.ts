@@ -2298,6 +2298,7 @@ const es = {
  noShow:"No presentado",
  },
  yourSession:"Tu sesión",
+ sessionType:"Asesoría estratégica · 30 min",
  date:"Fecha",
  time:"Hora",
  videoCall:"Videollamada",
