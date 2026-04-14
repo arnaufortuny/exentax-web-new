@@ -12,6 +12,7 @@ const pt = {
     no: "Não",
     mainNavigation: "Navegação principal",
     banksCarousel: "Carrossel de bancos",
+    banksCarouselLabel: "Parceiros com quem trabalhamos",
     problemCarousel: "Carrossel de problemas",
   },
   seo: {

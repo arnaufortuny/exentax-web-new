@@ -8,6 +8,7 @@ const de = {
     no: "Nein",
     mainNavigation: "Hauptnavigation",
     banksCarousel: "Banken-Karussell",
+    banksCarouselLabel: "Partner, mit denen wir arbeiten",
     problemCarousel: "Problem-Karussell",
   },
   seo: {

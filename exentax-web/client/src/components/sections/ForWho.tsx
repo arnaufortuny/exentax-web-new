@@ -95,8 +95,8 @@ export default function ForWho() {
     <section id="para-quien" className="section-padding" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-10 reveal max-w-3xl">
-          <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("forWho.tag")}</span>
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.15] tracking-[-0.02em] text-[var(--text-1)] mb-6">
+          <span className="section-label mb-3">{t("forWho.tag")}</span>
+          <h2 className="section-h2 mb-6">
             {t("forWho.title")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-4">

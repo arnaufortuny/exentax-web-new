@@ -8,6 +8,7 @@ const en = {
     no: "No",
     mainNavigation: "Main navigation",
     banksCarousel: "Banks carousel",
+    banksCarouselLabel: "Partners we work with",
     problemCarousel: "Problem cards carousel",
   },
   seo: {

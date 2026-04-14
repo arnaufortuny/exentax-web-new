@@ -12,6 +12,7 @@ const ca = {
     no: "No",
     mainNavigation: "Navegació principal",
     banksCarousel: "Carrusel de bancs",
+    banksCarouselLabel: "Partners amb qui treballem",
     problemCarousel: "Carrusel de problemes",
   },
   seo: {

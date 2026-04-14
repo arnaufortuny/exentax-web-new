@@ -37,26 +37,27 @@ function CarouselCard({ item }: { item: CarouselItem }) {
       <div
         className="relative h-full rounded-2xl p-6 min-h-[200px] flex flex-col overflow-hidden"
         style={{
-          background: 'var(--bg-2)',
-          border: `1.5px solid ${neon}35`,
-          boxShadow: `0 0 16px ${neon}10, 0 2px 12px rgba(0,0,0,0.04)`,
+          background: 'var(--card-bg)',
+          backdropFilter: 'blur(20px) saturate(1.5)',
+          WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
+          border: `1px solid ${neon}28`,
         }}
       >
         <div
           className="absolute top-0 left-0 right-0 h-[2px]"
-          style={{ background: `linear-gradient(90deg, transparent, ${neon}, transparent)`, opacity: 0.5 }}
+          style={{ background: `linear-gradient(90deg, transparent, ${neon}, transparent)`, opacity: 0.45 }}
         />
 
-        <h4 className="font-heading font-bold text-[22px] leading-tight mb-3" style={{ color: neon }}>
+        <h4 className="font-heading font-bold text-xl leading-tight mb-2.5" style={{ color: neon }}>
           {item.headline}
         </h4>
-        <p className="text-[var(--text-3)] leading-relaxed text-[14.5px] flex-1" style={{ whiteSpace: "pre-line" }}>
+        <p className="text-[var(--text-3)] leading-relaxed text-sm flex-1" style={{ whiteSpace: "pre-line" }}>
           {item.desc}
         </p>
 
         <div className="mt-4 flex items-center gap-2">
-          <div className="w-1.5 h-1.5 rounded-full" style={{ background: neon, boxShadow: `0 0 6px ${neon}` }} />
-          <div className="h-[1px] flex-1" style={{ background: `linear-gradient(90deg, ${neon}40, transparent)` }} />
+          <div className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ background: neon }} />
+          <div className="h-px flex-1" style={{ background: `linear-gradient(90deg, ${neon}30, transparent)` }} />
         </div>
       </div>
     </div>
@@ -138,8 +139,8 @@ export default function Problem() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="reveal mb-16">
           <div className="mb-12 max-w-3xl">
-            <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("problem.tag")}</span>
-            <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.15] tracking-[-0.02em] text-[var(--text-1)] mb-4">
+            <span className="section-label mb-3">{t("problem.tag")}</span>
+            <h2 className="section-h2 mb-5">
               {t("problem.title")}
             </h2>
             <p className="text-base lg:text-lg text-[var(--text-2)]">
@@ -156,53 +157,73 @@ export default function Problem() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="reveal">
-          <div className="relative grid lg:grid-cols-2 gap-6 mb-14">
+          <div className="relative grid lg:grid-cols-2 gap-5 mb-14">
 
+            {/* Without structure — red */}
             <div
               data-testid="card-sin-estructura"
-              className="relative rounded-2xl p-8 overflow-hidden"
+              className="relative rounded-[var(--radius-xl)] p-8 lg:p-10 overflow-hidden"
               style={{
-                background: 'var(--bg-2)',
-                border: '1.5px solid rgba(255,23,68,0.3)',
-                boxShadow: '0 0 20px rgba(255,23,68,0.08), 0 2px 12px rgba(0,0,0,0.04)',
+                background: 'var(--card-bg)',
+                backdropFilter: 'blur(20px) saturate(1.5)',
+                WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
+                border: '1px solid rgba(255,23,68,0.22)',
               }}
             >
-              <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: 'linear-gradient(90deg, transparent, #FF1744, transparent)', opacity: 0.5 }} />
-              <div className="flex items-center gap-3 mb-6">
-                <XIcon size={36} />
-                <h3 className="font-heading font-bold text-2xl lg:text-[28px]" style={{ color: '#FF1744' }}>{t("problem.withoutTitle")}</h3>
-              </div>
-              <div className="space-y-4">
-                {problems.map((item) => (
-                  <div key={item} className="flex items-start gap-3">
-                    <XIcon />
-                    <span className="text-base lg:text-lg leading-relaxed text-[var(--text-3)]">{item}</span>
+              <div className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(135deg, rgba(255,23,68,0.04) 0%, transparent 60%)' }} />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-7">
+                  <div className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0" style={{ background: 'rgba(255,23,68,0.1)', border: '1px solid rgba(255,23,68,0.2)' }}>
+                    <svg width={16} height={16} viewBox="0 0 24 24" fill="none">
+                      <path d="M18 6L6 18M6 6l12 12" stroke="#FF1744" strokeWidth="2.2" strokeLinecap="round"/>
+                    </svg>
                   </div>
-                ))}
+                  <h3 className="font-heading font-bold text-xl" style={{ color: '#FF1744' }}>{t("problem.withoutTitle")}</h3>
+                </div>
+                <div className="space-y-3.5">
+                  {problems.map((item) => (
+                    <div key={item} className="flex items-start gap-3">
+                      <svg width={18} height={18} viewBox="0 0 24 24" fill="none" className="flex-shrink-0 mt-0.5 opacity-70">
+                        <path d="M18 6L6 18M6 6l12 12" stroke="#FF1744" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                      <span className="text-[15px] leading-relaxed text-[var(--text-3)]">{item}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 
+            {/* With Exentax — green */}
             <div
               data-testid="card-con-exentax"
-              className="relative rounded-2xl p-8 overflow-hidden"
+              className="relative rounded-[var(--radius-xl)] p-8 lg:p-10 overflow-hidden"
               style={{
-                background: 'var(--bg-2)',
-                border: '1.5px solid rgba(0,229,16,0.3)',
-                boxShadow: '0 0 20px rgba(0,229,16,0.08), 0 2px 12px rgba(0,0,0,0.04)',
+                background: 'var(--card-bg)',
+                backdropFilter: 'blur(20px) saturate(1.5)',
+                WebkitBackdropFilter: 'blur(20px) saturate(1.5)',
+                border: '1px solid rgba(0,229,16,0.25)',
               }}
             >
-              <div className="absolute top-0 left-0 right-0 h-[2px]" style={{ background: 'linear-gradient(90deg, transparent, #00E510, transparent)', opacity: 0.5 }} />
-              <div className="flex items-center gap-3 mb-6">
-                <CheckIcon size={36} />
-                <h3 className="font-heading font-bold text-2xl lg:text-[28px] text-[#00E510]">{t("problem.withTitle")}</h3>
-              </div>
-              <div className="space-y-4">
-                {solutions.map((item) => (
-                  <div key={item} className="flex items-start gap-3">
-                    <CheckIcon />
-                    <span className="text-base lg:text-lg leading-relaxed text-[var(--text-2)]">{item}</span>
+              <div className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(135deg, rgba(0,229,16,0.04) 0%, transparent 60%)' }} />
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-7">
+                  <div className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0" style={{ background: 'rgba(0,229,16,0.1)', border: '1px solid rgba(0,229,16,0.2)' }}>
+                    <svg width={16} height={16} viewBox="0 0 24 24" fill="none">
+                      <path d="M5 13l4 4L19 7" stroke="#00E510" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                   </div>
-                ))}
+                  <h3 className="font-heading font-bold text-xl text-[#00E510]">{t("problem.withTitle")}</h3>
+                </div>
+                <div className="space-y-3.5">
+                  {solutions.map((item) => (
+                    <div key={item} className="flex items-start gap-3">
+                      <svg width={18} height={18} viewBox="0 0 24 24" fill="none" className="flex-shrink-0 mt-0.5">
+                        <path d="M5 13l4 4L19 7" stroke="#00E510" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                      <span className="text-[15px] leading-relaxed text-[var(--text-2)]">{item}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 

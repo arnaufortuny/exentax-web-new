@@ -52,8 +52,8 @@ export default function HowItWorks() {
     <section id="como-funciona" className="section-padding" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("howItWorks.tag")}</span>
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-4">
+          <span className="section-label mb-3">{t("howItWorks.tag")}</span>
+          <h2 className="section-h2 mb-5">
             {t("howItWorks.title")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-3 whitespace-pre-line">

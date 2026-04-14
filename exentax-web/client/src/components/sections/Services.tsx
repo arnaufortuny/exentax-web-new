@@ -18,8 +18,8 @@ export default function Services() {
     <section id="servicios" className="section-padding" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="text-[13px] uppercase tracking-[0.2em] font-body font-semibold text-[#00E510] mb-4 block">{t("services.tag")}</span>
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.12] tracking-[-0.025em] text-[var(--text-1)] mb-4">
+          <span className="section-label mb-3">{t("services.tag")}</span>
+          <h2 className="section-h2 mb-5">
             {t("services.title")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-4">
@@ -37,7 +37,7 @@ export default function Services() {
           {approach.map((item, i) => (
             <div
               key={item.label}
-              className="rounded-2xl p-6 border-t-2 border-t-[#00E510] transition-[color,background-color,border-color,box-shadow,opacity,transform,max-height] duration-300"
+              className="rounded-2xl p-6 transition-[border-color,box-shadow] duration-300"
               style={{
                 background: 'var(--card-bg)',
                 backdropFilter: 'blur(20px) saturate(1.5)',
@@ -47,8 +47,8 @@ export default function Services() {
                 transitionDelay: `${i * 80}ms`,
               }}
             >
-              <span className="inline-block font-heading font-bold text-sm text-[#00E510] mb-3 uppercase tracking-wide">{item.label}</span>
-              <p className="text-base text-[var(--text-2)] leading-relaxed">{item.text}</p>
+              <span className="section-label mb-3">{item.label}</span>
+              <p className="text-[15px] text-[var(--text-2)] leading-relaxed">{item.text}</p>
             </div>
           ))}
         </div>
@@ -69,7 +69,7 @@ export default function Services() {
             >
               <div className="p-8 lg:p-10">
                 <div className="mb-6">
-                  <h3 className="font-heading font-bold text-[clamp(20px,2vw,24px)] text-[var(--text-1)] mb-3">
+                  <h3 className="font-heading font-bold text-xl lg:text-2xl text-[var(--text-1)] mb-3">
                     {service.title}
                   </h3>
                   <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
