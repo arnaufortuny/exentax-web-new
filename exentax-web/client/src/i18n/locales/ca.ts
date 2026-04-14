@@ -1896,6 +1896,7 @@ const ca = {
     sessionType: "Assessoria estratègica · 30 min",
     date: "Data",
     time: "Hora",
+    timezone: "Europe/Madrid (CET/CEST)",
     videoCall: "Videotrucada",
     joinCall: "Unir-se a la trucada",
     reschedule: "Replanificar cita",

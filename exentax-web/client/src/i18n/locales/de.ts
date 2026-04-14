@@ -1720,6 +1720,7 @@ const de = {
     sessionType: "Strategische Beratung · 30 Min.",
     date: "Datum",
     time: "Uhrzeit",
+    timezone: "Europe/Madrid (CET/CEST)",
     videoCall: "Videoanruf",
     joinCall: "An Anruf teilnehmen",
     reschedule: "Termin umplanen",

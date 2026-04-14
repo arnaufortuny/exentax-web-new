@@ -1724,6 +1724,7 @@ const pt = {
     sessionType: "Consultoria estratégica · 30 min",
     date: "Data",
     time: "Hora",
+    timezone: "Europe/Madrid (CET/CEST)",
     videoCall: "Videochamada",
     joinCall: "Entrar na chamada",
     reschedule: "Reagendar consulta",

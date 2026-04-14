@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
 
-export function useCurrentLang(): SupportedLang {
+function useCurrentLang(): SupportedLang {
   const { i18n } = useTranslation();
   const raw = (i18n.language || "es").split("-")[0] as SupportedLang;
   return SUPPORTED_LANGS.includes(raw) ? raw : "es";

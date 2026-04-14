@@ -1720,6 +1720,7 @@ const fr = {
     sessionType: "Consultation stratégique · 30 min",
     date: "Date",
     time: "Heure",
+    timezone: "Europe/Madrid (CET/CEST)",
     videoCall: "Appel vidéo",
     joinCall: "Rejoindre l'appel",
     reschedule: "Reprogrammer le rendez-vous",

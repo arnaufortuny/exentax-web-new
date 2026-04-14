@@ -289,6 +289,11 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     es: "El cuerpo de la solicitud es demasiado grande", en: "Request body too large", fr: "Corps de la requete trop volumineux",
     de: "Anfragekuerper zu gross", pt: "Corpo da solicitacao muito grande", ca: "El cos de la sol-licitud es massa gran",
   },
+  payloadTooComplex: {
+    es: "La solicitud contiene demasiados campos", en: "Request contains too many fields",
+    fr: "La requete contient trop de champs", de: "Anfrage enthaelt zu viele Felder",
+    pt: "A solicitacao contem muitos campos", ca: "La sol-licitud conte massa camps",
+  },
   requestProcessingError: {
     es: "Error al procesar la solicitud", en: "Error processing request", fr: "Erreur lors du traitement de la requete",
     de: "Fehler bei der Verarbeitung der Anfrage", pt: "Erro ao processar a solicitacao", ca: "Error en processar la sol-licitud",
