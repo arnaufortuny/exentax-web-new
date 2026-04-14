@@ -1666,6 +1666,7 @@ const pt = {
     sub2Line2: "Se procura estrutura séria, sim.",
     cta: "Agendar consultoria estratégica",
     whatsapp: "Falar pelo WhatsApp",
+    whatsappMsg: "Olá, gostaria de falar sobre a consultoria fiscal estratégica gratuita.",
     calculator: "Avalie se faz sentido estruturar",
     howWeWork: "Como trabalhamos",
     aboutLLC: "Sobre as LLC",

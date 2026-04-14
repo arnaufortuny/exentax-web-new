@@ -1661,6 +1661,7 @@ const en = {
     sub2Line2: "If you're looking for serious structure, it is.",
     cta: "Book a strategic consultation",
     whatsapp: "Talk on WhatsApp",
+    whatsappMsg: "Hello, I'd like to talk about the free strategic tax consultation.",
     calculator: "Evaluate if structuring makes sense",
     howWeWork: "How we work",
     aboutLLC: "About LLCs",

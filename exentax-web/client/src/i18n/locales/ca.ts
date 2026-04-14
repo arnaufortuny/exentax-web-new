@@ -1838,6 +1838,7 @@ const ca = {
     sub2Line2: "Si busques estructura seriosa, sí.",
     cta: "Reservar assessoria estratègica",
     whatsapp: "Parlar per WhatsApp",
+    whatsappMsg: "Hola, m'agradaria parlar sobre l'assessoria fiscal estratègica gratuïta.",
     calculator: "Avalua si té sentit estructurar",
     howWeWork: "Com treballem",
     aboutLLC: "Sobre les LLC",

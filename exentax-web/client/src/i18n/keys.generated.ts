@@ -916,6 +916,7 @@ export type TranslationKey =
   | "links.sub2Line2"
   | "links.cta"
   | "links.whatsapp"
+  | "links.whatsappMsg"
   | "links.calculator"
   | "links.howWeWork"
   | "links.aboutLLC"

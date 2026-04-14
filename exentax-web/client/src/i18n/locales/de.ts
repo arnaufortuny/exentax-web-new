@@ -1662,6 +1662,7 @@ const de = {
     sub2Line2: "Wenn du seriöse Struktur suchst, schon.",
     cta: "Strategische Beratung buchen",
     whatsapp: "Über WhatsApp sprechen",
+    whatsappMsg: "Hallo, ich möchte über die kostenlose strategische Steuerberatung sprechen.",
     calculator: "Prüfe, ob eine Strukturierung sinnvoll ist",
     howWeWork: "Wie wir arbeiten",
     aboutLLC: "Über LLCs",

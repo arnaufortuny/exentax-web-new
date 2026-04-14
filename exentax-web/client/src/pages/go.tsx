@@ -198,11 +198,11 @@ export default function GoPage() {
         </div>
 
         <div className="flex items-center justify-center gap-5 mt-8 opacity-50">
-          <img src="/img/partner-relay.webp" alt="Relay" loading="lazy" decoding="async" className="h-6 w-auto object-contain" style={{ filter: "grayscale(1)" }} data-testid="img-partner-relay-links" />
-          <img src="/img/partner-trustpilot.png" alt="Trustpilot" loading="lazy" decoding="async" className="h-6 w-auto object-contain" style={{ filter: "grayscale(1)" }} data-testid="img-partner-trustpilot-links" />
-          <img src="/img/partner-visa.webp" alt="Visa" loading="lazy" decoding="async" className="h-5 w-auto object-contain" style={{ filter: "grayscale(1)" }} data-testid="img-partner-visa-links" />
-          <img src="/img/partner-mercury.webp" alt="Mercury" loading="lazy" decoding="async" className="h-6 w-auto object-contain" style={{ filter: "grayscale(1)" }} data-testid="img-partner-mercury-links" />
-          <img src="/img/partner-wallester.webp" alt="Wallester" loading="lazy" decoding="async" className="h-6 w-auto object-contain" style={{ filter: "grayscale(1)" }} data-testid="img-partner-wallester-links" />
+          <img src="/img/partner-relay.webp" alt="Relay" loading="lazy" decoding="async" className="h-6 w-auto object-contain grayscale" data-testid="img-partner-relay-links" />
+          <img src="/img/partner-trustpilot.png" alt="Trustpilot" loading="lazy" decoding="async" className="h-6 w-auto object-contain grayscale" data-testid="img-partner-trustpilot-links" />
+          <img src="/img/partner-visa.webp" alt="Visa" loading="lazy" decoding="async" className="h-5 w-auto object-contain grayscale" data-testid="img-partner-visa-links" />
+          <img src="/img/partner-mercury.webp" alt="Mercury" loading="lazy" decoding="async" className="h-6 w-auto object-contain grayscale" data-testid="img-partner-mercury-links" />
+          <img src="/img/partner-wallester.webp" alt="Wallester" loading="lazy" decoding="async" className="h-6 w-auto object-contain grayscale" data-testid="img-partner-wallester-links" />
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 mt-5">

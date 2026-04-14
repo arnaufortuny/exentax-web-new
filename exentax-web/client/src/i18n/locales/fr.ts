@@ -1662,6 +1662,7 @@ const fr = {
     sub2Line2: "Si vous cherchez une structure sérieuse, oui.",
     cta: "Réserver une consultation stratégique",
     whatsapp: "Parler sur WhatsApp",
+    whatsappMsg: "Bonjour, j'aimerais parler de la consultation fiscale stratégique gratuite.",
     calculator: "Évaluez si la structuration a du sens",
     howWeWork: "Comment on travaille",
     aboutLLC: "À propos des LLC",

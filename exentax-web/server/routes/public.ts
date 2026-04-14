@@ -75,17 +75,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return apiOk(res, { data: rows.map(r => r.date).filter(Boolean) });
   }));
 
-  app.get("/api/bookings/config", asyncHandler(async (req, res) => {
-    const ip = getClientIp(req);
-    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
-    const settings = getAppSettings();
-    return apiOk(res, {
-      priceEnabled: settings.bookingPriceEnabled,
-      priceUSD: settings.consultationPriceUSD,
-      priceCurrency: settings.consultationPriceCurrency || "EUR",
-    });
-  }));
-
   const slotsQuerySchema = z.object({
     date: z.string().regex(ISO_DATE_RE, "zodInvalidDateFormat").refine(isValidISODate, "zodInvalidDate"),
   }).strict();

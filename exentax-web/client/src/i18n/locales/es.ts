@@ -1324,7 +1324,7 @@ const es = {
  },
  homePage: {
  seoTitle:"Paga menos impuestos legalmente con tu LLC en EE.UU.",
- seoDesc:"Reduce tu carga fiscal del 40% al 8-12% con una LLC en Estados Unidos. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido. asesoría fiscal estratégica.",
+ seoDesc:"Reduce tu carga fiscal del 40% al 8-12% con una LLC en EE.UU. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido.",
  seoKeywords:"Exentax, LLC Estados Unidos, optimización fiscal, pagar menos impuestos legalmente, LLC para autónomos, LLC freelancers, estructura fiscal, reducir impuestos, fiscalidad internacional, LLC Wyoming, LLC Delaware, LLC Nuevo México, EIN, Form 5472, compliance IRS, cuenta bancaria USA, facturar con LLC americana, impuestos autónomo, reducir IRPF, nómada digital fiscalidad",
  jsonLd: {
  webPageName:"Tu estructura fiscal en EE.UU.",
@@ -1338,7 +1338,7 @@ const es = {
  },
  preciosPage: {
  seoTitle:"Servicios LLC en EE.UU. | Exentax",
- seoDesc:"Constituye y gestiona tu LLC en EE.UU. con soporte experto. Incluye EIN, cuenta bancaria, compliance anual y acompañamiento en tu estructura fiscal internacional.",
+ seoDesc:"Constituye y gestiona tu LLC en EE.UU. con soporte experto. EIN, cuenta bancaria, compliance anual y asesoría fiscal internacional incluidos.",
  seoKeywords:"servicios LLC Estados Unidos, constituir LLC, gestionar LLC, EIN LLC, cuenta bancaria LLC, compliance anual LLC, asesoría fiscal internacional, estructura fiscal autónomo, optimización fiscal freelancer, LLC Wyoming, LLC Delaware, Exentax servicios",
  },
 
@@ -2250,6 +2250,7 @@ const es = {
  sub2Line2:"Si buscas estructura seria, sí.",
  cta:"Agendar asesoría estratégica",
  whatsapp:"Hablar por WhatsApp",
+ whatsappMsg:"Hola, me gustaría hablar sobre la asesoría fiscal estratégica gratuita.",
  calculator:"Evalúa si tiene sentido estructurar",
  howWeWork:"Cómo trabajamos",
  aboutLLC:"Sobre las LLC",
