@@ -166,7 +166,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     }).catch((e) => console.error("[calculator] submission failed", e)).finally(() => setSending(false));
   }
 
-  function getInsight(): string {
+  const getInsight = useCallback((): string => {
     const annualIncome = income * 12;
     if (country === "espana" && regime === "autonomo") {
       if (annualIncome > 60000) return t("calculator.insights.espana_autonomo_high");
@@ -189,7 +189,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     if (activity === "trading") return t("calculator.insights.trading");
     if (activity === "ecommerceOwn" || activity === "dropshipping") return t("calculator.insights.ecommerce");
     return t("calculator.insights.generic");
-  }
+  }, [income, country, regime, activity, t]);
 
   const pad = compact ? "p-4 sm:p-5" : "p-7 sm:p-9 md:p-10 lg:p-12";
 

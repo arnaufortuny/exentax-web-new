@@ -82,8 +82,6 @@ export default function CookieBanner() {
       idioma: LanguageService.getCurrent(),
       referrer: window.location.pathname,
     };
-    const clientId = document.cookie.match(/client_session/);
-    if (clientId) payload.email = "session_client";
     fetch("/api/consent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

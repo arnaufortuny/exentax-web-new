@@ -21,16 +21,3 @@ export function sanitizeHtml(dirty: string): string {
   });
 }
 
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#x27;");
-}
-
-export function esc(val: unknown): string {
-  if (val == null) return "—";
-  return escapeHtml(String(val)) || "—";
-}

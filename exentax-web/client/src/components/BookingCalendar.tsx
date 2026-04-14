@@ -146,7 +146,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
   });
   const blockedDates = new Set(blockedDaysQuery.data || []);
 
-  const slotsQuery = useQuery<{ date: string; slots: string[] }>({
+  const slotsQuery = useQuery<{ date: string; slots: string[]; blocked?: boolean }>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
     queryFn: async () => {
       const res = await fetch(`/api/bookings/available-slots?date=${selectedDate}`);

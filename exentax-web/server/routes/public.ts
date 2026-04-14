@@ -75,7 +75,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return apiOk(res, { data: rows.map(r => r.date).filter(Boolean) });
   }));
 
-  app.get("/api/bookings/config", async (req, res) => {
+  app.get("/api/bookings/config", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const settings = getAppSettings();
@@ -84,7 +84,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       priceUSD: settings.consultationPriceUSD,
       priceCurrency: settings.consultationPriceCurrency || "EUR",
     });
-  });
+  }));
 
   const slotsQuerySchema = z.object({
     date: z.string().regex(ISO_DATE_RE, "zodInvalidDateFormat").refine(isValidISODate, "zodInvalidDate"),
@@ -725,67 +725,62 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     sessionId: z.string().max(64).optional(),
   }).strict();
 
-  app.post("/api/visitor", async (req, res) => {
-    try {
-      const parsed = visitorSchema.safeParse(req.body);
-      if (!parsed.success) return apiOk(res);
-      const b = parsed.data;
-      const consent = b.consent;
-      if (consent !== "all") {
-        return apiOk(res);
-      }
-      if (isBotVisitor(req as any)) {
-        return apiOk(res);
-      }
-      const ip = getClientIp(req);
-      if (!(await checkVisitorRateLimit(ip))) return apiOk(res);
-      if (ip === "127.0.0.1" || ip === "::1" || ip === "localhost") {
-        return apiOk(res);
-      }
-      const ua = req.headers["user-agent"] || null;
-      const page = b.page ? sanitizeInput(b.page) : null;
-      const str = (v: unknown, max = 200) => (typeof v === "string" ? v.slice(0, max) : null);
-
-      const timestamp = new Date().toLocaleString("es-ES", {
-        timeZone: DEFAULT_TIMEZONE,
-        year: "numeric", month: "2-digit", day: "2-digit",
-        hour: "2-digit", minute: "2-digit", second: "2-digit",
-      });
-
-      const uaLower = (ua || "").toLowerCase();
-      let dispositivo: string | null = null;
-      if (/mobile|android|iphone|ipad|ipod/i.test(uaLower)) dispositivo = /ipad|tablet/i.test(uaLower) ? "tablet" : "mobile";
-      else if (uaLower) dispositivo = "desktop";
-
-      insertVisita({
-        date: timestamp,
-        ip,
-        page,
-        referrer: str(b.referrer, 500),
-        userAgent: ua,
-        language: str(b.language, 10),
-        screen: str(b.screen, 20),
-        utmSource: str(b.utm_source, 100),
-        utmMedium: str(b.utm_medium, 100),
-        utmCampaign: str(b.utm_campaign, 200),
-        utmContent: str(b.utm_content, 200),
-        country: null,
-        device: dispositivo,
-        sessionId: str(b.sessionId, 64),
-      }).catch((err) =>
-        logger.error("DB append failed:", "visitor", err)
-      );
-
-      if (isNewVisitor(ip)) {
-        logger.info(`New visitor: ${ip}`, "visitor");
-      }
-
-      return apiOk(res);
-    } catch (err) {
-      logger.error("Visitor tracking error", "visitor", err);
+  app.post("/api/visitor", asyncHandler(async (req, res) => {
+    const parsed = visitorSchema.safeParse(req.body);
+    if (!parsed.success) return apiOk(res);
+    const b = parsed.data;
+    const consent = b.consent;
+    if (consent !== "all") {
       return apiOk(res);
     }
-  });
+    if (isBotVisitor(req as any)) {
+      return apiOk(res);
+    }
+    const ip = getClientIp(req);
+    if (!(await checkVisitorRateLimit(ip))) return apiRateLimited(res, "rateLimited");
+    if (ip === "127.0.0.1" || ip === "::1" || ip === "localhost") {
+      return apiOk(res);
+    }
+    const ua = req.headers["user-agent"] || null;
+    const page = b.page ? sanitizeInput(b.page) : null;
+    const str = (v: unknown, max = 200) => (typeof v === "string" ? v.slice(0, max) : null);
+
+    const timestamp = new Date().toLocaleString("es-ES", {
+      timeZone: DEFAULT_TIMEZONE,
+      year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", second: "2-digit",
+    });
+
+    const uaLower = (ua || "").toLowerCase();
+    let dispositivo: string | null = null;
+    if (/mobile|android|iphone|ipad|ipod/i.test(uaLower)) dispositivo = /ipad|tablet/i.test(uaLower) ? "tablet" : "mobile";
+    else if (uaLower) dispositivo = "desktop";
+
+    insertVisita({
+      date: timestamp,
+      ip,
+      page,
+      referrer: str(b.referrer, 500),
+      userAgent: ua,
+      language: str(b.language, 10),
+      screen: str(b.screen, 20),
+      utmSource: str(b.utm_source, 100),
+      utmMedium: str(b.utm_medium, 100),
+      utmCampaign: str(b.utm_campaign, 200),
+      utmContent: str(b.utm_content, 200),
+      country: null,
+      device: dispositivo,
+      sessionId: str(b.sessionId, 64),
+    }).catch((err) =>
+      logger.error("DB append failed:", "visitor", err)
+    );
+
+    if (isNewVisitor(ip)) {
+      logger.info(`New visitor: ${ip}`, "visitor");
+    }
+
+    return apiOk(res);
+  }));
 
 
   app.get("/api/legal/versions", asyncHandler(async (_req, res) => {

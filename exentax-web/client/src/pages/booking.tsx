@@ -212,7 +212,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
           <div>
             <p className="text-xs text-[var(--muted)] mb-0.5">{t("agenda.time")}</p>
             <p data-testid="text-meeting-time" className="text-sm font-semibold text-[var(--text-1)]">{booking.horaInicio} — {booking.horaFin}</p>
-            <p className="text-[11px] text-[var(--muted)] mt-0.5">Europe/Madrid (CET/CEST)</p>
+            <p className="text-[11px] text-[var(--muted)] mt-0.5">{t("agenda.timezone")}</p>
           </div>
         </div>
         {booking.googleMeet && !isCancelled && (

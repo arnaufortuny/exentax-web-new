@@ -2308,6 +2308,7 @@ const es = {
  sessionType:"Asesoría estratégica · 30 min",
  date:"Fecha",
  time:"Hora",
+ timezone:"Europe/Madrid (CET/CEST)",
  videoCall:"Videollamada",
  joinCall:"Unirse a la llamada",
  reschedule:"Reagendar cita",
