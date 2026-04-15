@@ -133,3 +133,9 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Security hardening**: Admin token removed from Discord webhook links.
 - **All server modules active**: discord, field-encryption, google-meet, google-sheets, google-credentials, google-utils, circuit-breaker, route-helpers, sanitize-middleware, rate-limit-store, all storage modules, all route modules, email system, static, seo-content.
 - **All client modules active**: All components, hooks, pages, libs verified in use.
+
+## Blog Editorial Review (April 2026)
+- **Em-dash cleanup**: 2816 em-dashes (—) removed from 5 translation files (EN/FR/DE/PT/CA). Spanish base had 0. Replaced with semicolons, commas, colons, or periods depending on context. Table dashes preserved.
+- **Clause separator repair**: 742 broken clause separators fixed across all 5 languages (period + lowercase → comma/semicolon/colon).
+- **Pricing language neutralized**: All "cheapest/most affordable/más económico/günstigste/le plus économique/mais econômico/més econòmic" references to New Mexico removed across 6 locales. Replaced with factual descriptions ("no annual fees", "sin tasas anuales", etc.). Legitimate financial comparisons (ACH costs, wire fees) preserved.
+- **Blog files**: `blog-posts.ts` (ES base), `blog-posts-content-en.ts`, `blog-posts-content-fr.ts`, `blog-posts-content-de.ts`, `blog-posts-content-pt.ts`, `blog-posts-content-ca.ts`.

@@ -1,4 +1,4 @@
-import { memo, lazy, Suspense, useEffect } from "react";
+import { memo, lazy, Suspense, useEffect, useRef } from "react";
 import { Switch, Route, useLocation } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
@@ -222,6 +222,23 @@ const AppRouter = memo(function AppRouter() {
   );
 });
 
+function ScrollToTop() {
+  const [location] = useLocation();
+  const prevLocation = useRef<string | null>(null);
+  useEffect(() => {
+    if (prevLocation.current !== null && location === prevLocation.current) return;
+    prevLocation.current = location;
+    if (location.includes("#")) return;
+    const go = () => window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
+    go();
+    requestAnimationFrame(go);
+    const t1 = setTimeout(go, 50);
+    const t2 = setTimeout(go, 150);
+    return () => { clearTimeout(t1); clearTimeout(t2); };
+  }, [location]);
+  return null;
+}
+
 function useHashScroll() {
   useEffect(() => {
     const hash = window.location.hash.slice(1);
@@ -266,6 +283,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider>
+        <ScrollToTop />
         <AppRouter />
       </ThemeProvider>
     </QueryClientProvider>

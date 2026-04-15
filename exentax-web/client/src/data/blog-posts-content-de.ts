@@ -1,15 +1,15 @@
 export const BLOG_CONTENT_DE: Record<string, string> = {
-  "llc-estados-unidos-guia-completa-2026": `Eine LLC (Limited Liability Company) ist die am häufigsten genutzte Unternehmensstruktur von Freiberuflern und digitalen Unternehmern, die als Nichtansässige von außerhalb der Vereinigten Staaten tätig sind. Sie kombiniert Vermögensschutz mit einer günstigen Besteuerung — und das Wichtigste: Sie ist vollkommen legal. Tausende deutschsprachige Fachleute nutzen sie bereits, um internationale Kunden abzurechnen, in Dollar bezahlt zu werden und nicht mehr die Hälfte ihrer Einnahmen an das Finanzamt abzugeben.
+  "llc-estados-unidos-guia-completa-2026": `Eine LLC (Limited Liability Company) ist die am häufigsten genutzte Unternehmensstruktur von Freiberuflern und digitalen Unternehmern, die als Nichtansässige von außerhalb der Vereinigten Staaten tätig sind. Sie kombiniert Vermögensschutz mit einer günstigen Besteuerung, und das Wichtigste: Sie ist vollkommen legal. Tausende deutschsprachige Fachleute nutzen sie bereits, um internationale Kunden abzurechnen, in Dollar bezahlt zu werden und nicht mehr die Hälfte ihrer Einnahmen an das Finanzamt abzugeben.
 
 In diesem Leitfaden erfahren Sie alles, was Sie wissen müssen, bevor Sie den Schritt wagen. Ohne Umschweife, ohne Kleingedrucktes, ohne das typische „fragen Sie Ihren Berater". Bei Exentax kümmern wir uns um alles, deshalb erklären wir es Ihnen so, als wären Sie bereits Kunde.
 
 ## Was genau ist eine LLC?
 
-Es handelt sich um eine US-amerikanische Rechtsform, die Ihr persönliches Vermögen von dem des Unternehmens trennt. Wenn Ihr Unternehmen Schulden oder ein rechtliches Problem hat, ist Ihr persönliches Vermögen nicht betroffen. Ihr Haus, Ihr Auto, Ihre Ersparnisse — unangreifbar.
+Es handelt sich um eine US-amerikanische Rechtsform, die Ihr persönliches Vermögen von dem des Unternehmens trennt. Wenn Ihr Unternehmen Schulden oder ein rechtliches Problem hat, ist Ihr persönliches Vermögen nicht betroffen, Ihr Haus, Ihr Auto, Ihre Ersparnisse. unangreifbar.
 
-Für einen Nichtansässigen mit einer Single-Member LLC (ein einziger Gesellschafter) klassifiziert der IRS diese als **„Disregarded Entity"**. Das bedeutet, dass die LLC steuerlich transparent ist: Sie zahlt keine Bundeseinkommensteuer in den USA. Dies wird als **Pass-through Taxation** bezeichnet — die Gewinne „fließen durch" die LLC direkt an den Eigentümer, der sie in seinem steuerlichen Wohnsitzland versteuert.
+Für einen Nichtansässigen mit einer Single-Member LLC (ein einziger Gesellschafter) klassifiziert der IRS diese als **„Disregarded Entity"**. Das bedeutet, dass die LLC steuerlich transparent ist: Sie zahlt keine Bundeseinkommensteuer in den USA. Dies wird als **Pass-through Taxation** bezeichnet, die Gewinne „fließen durch" die LLC direkt an den Eigentümer, der sie in seinem steuerlichen Wohnsitzland versteuert.
 
-In der Praxis bedeutet das: Wenn Sie in Deutschland, Österreich, der Schweiz oder einem anderen Land leben, zahlt Ihre amerikanische LLC **\$0 Bundessteuer** in den Vereinigten Staaten (sofern Sie keine Einkünfte aus US-amerikanischen Quellen haben). Anschließend versteuern Sie diese Gewinne in Ihrem Land — aber mit den bereits abgezogenen Ausgaben der LLC, was Ihre Bemessungsgrundlage erheblich reduziert.
+In der Praxis bedeutet das: Wenn Sie in Deutschland, Österreich, der Schweiz oder einem anderen Land leben, zahlt Ihre amerikanische LLC **\$0 Bundessteuer** in den Vereinigten Staaten (sofern Sie keine Einkünfte aus US-amerikanischen Quellen haben). Anschließend versteuern Sie diese Gewinne in Ihrem Land, aber mit den bereits abgezogenen Ausgaben der LLC, was Ihre Bemessungsgrundlage erheblich reduziert.
 
 ## Warum entscheiden sich so viele Freiberufler für eine LLC?
 
@@ -17,15 +17,15 @@ Es gibt sehr konkrete (und sehr überzeugende) Gründe:
 
 - **Optimierte Besteuerung.** Sie gehen von einer Steuerlast von 40-47% in Ihrem Land zu einer optimierten Steuerbelastung von bis zu 0%, je nach Ihrer Struktur und Ihrem Wohnsitzland. Ja, Sie haben richtig gelesen.
 - **Vermögensschutz.** Ihr Haus, Ihre Ersparnisse und Ihr Vermögen bleiben vom Unternehmen getrennt. Wenn etwas im Unternehmen schiefgeht, ist Ihr persönliches Vermögen geschützt.
-- **Privatsphäre und Anonymität.** In Bundesstaaten wie New Mexico sind die Daten der Gesellschafter nicht öffentlich zugänglich. Ihr Name erscheint nicht in staatlichen Registern. Sie operieren mit vollständiger Diskretion.
+- **Privatsphäre und Anonymität.** In Bundesstaaten wie New Mexico sind die Daten der Gesellschafter nicht öffentlich zugänglich, Ihr Name erscheint nicht in staatlichen Registern. Sie operieren mit vollständiger Diskretion.
 - **Bankkonten in Dollar.** Zugang zu Konten bei Mercury (gestützt durch Column NA, mit FDIC-Versicherung) oder Relay (gestützt durch Thread Bank), ohne Einschränkungen. Internationale Überweisungen für \$0 mit Mercury. Keine Kontoführungsgebühren.
-- **Zahlungsabwicklung ohne Einschränkungen.** Stripe, PayPal, Zahlungsanbieter — alle funktionieren problemlos mit einer amerikanischen LLC. Schluss mit den Einschränkungen, die persönliche Konten oder Unternehmen aus anderen Ländern haben.
+- **Zahlungsabwicklung ohne Einschränkungen.** Stripe, PayPal, Zahlungsanbieter, alle funktionieren problemlos mit einer amerikanischen LLC. Schluss mit den Einschränkungen, die persönliche Konten oder Unternehmen aus anderen Ländern haben.
 - **Internationale Glaubwürdigkeit.** Von einem amerikanischen Unternehmen aus abzurechnen, schafft sofortiges Vertrauen bei internationalen Kunden. Es ist ein Unterschied, ob Sie eine Rechnung als „Max Mustermann, Freiberufler" oder als „Ihr Unternehmen LLC" senden.
 - **Ohne Reisen.** Der gesamte Prozess ist 100% remote. Sie benötigen kein Visum, müssen keinen amerikanischen Boden betreten und brauchen keine SSN.
 
 ## Rechtssicherheit und Legalität
 
-Die LLC ist keine YouTube-Erfindung und kein Steuertrick. Es ist eine Unternehmensstruktur, die von der US-Bundesregierung anerkannt, von jedem Bundesstaat reguliert und von Millionen von Unternehmen genutzt wird — von Freiberuflern bis hin zu multinationalen Konzernen.
+Die LLC ist keine YouTube-Erfindung und kein Steuertrick. Es ist eine Unternehmensstruktur, die von der US-Bundesregierung anerkannt, von jedem Bundesstaat reguliert und von Millionen von Unternehmen genutzt wird, von Freiberuflern bis hin zu multinationalen Konzernen.
 
 Ihre LLC verfügt über:
 - **Articles of Organization**, die beim Bundesstaat registriert sind
@@ -40,11 +40,11 @@ Alles ordnungsgemäß, alles dokumentiert, alles legal. Bei Exentax stellen wir 
 
 Die drei gängigsten Bundesstaaten für Nichtansässige sind:
 
-**New Mexico** — Der beliebteste unter unseren Kunden, und das aus guten Gründen. Es wird kein Annual Report verlangt, was die jährlichen Kosten reduziert. Die Daten der Gesellschafter sind nicht öffentlich, sodass Sie echte Privatsphäre haben, ohne extra zu zahlen. Keine staatliche Steuer. Es ist die direkteste Option mit der geringsten Bürokratie.
+**New Mexico**: Der beliebteste unter unseren Kunden, und das aus guten Gründen. Es wird kein Annual Report verlangt, was die jährlichen Kosten reduziert. Die Daten der Gesellschafter sind nicht öffentlich, sodass Sie echte Privatsphäre haben, ohne extra zu zahlen. Keine staatliche Steuer. Es ist die direkteste Option mit der geringsten Bürokratie.
 
-**Wyoming** — Ebenfalls hervorragend für Privatsphäre. Überlegener Vermögensschutz und moderne Unternehmensgesetze. Kostet jedoch mehr als New Mexico und erfordert einen jährlichen Annual Report (\$60).
+**Wyoming**: Ebenfalls hervorragend für Privatsphäre. Überlegener Vermögensschutz und moderne Unternehmensgesetze. Kostet jedoch mehr als New Mexico und erfordert einen jährlichen Annual Report (\$60).
 
-**Delaware** — Der Bundesstaat mit dem besten rechtlichen Rahmen und bevorzugt von großen Unternehmen, C-Corps und Startups, die Venture-Capital-Investitionen suchen. Sein Court of Chancery ist weltweit führend im Unternehmensrecht. Aber er ist der teuerste und hat eine Franchise Tax. Für einen Freiberufler in der Regel überflüssig.
+**Delaware**: Der Bundesstaat mit dem besten rechtlichen Rahmen und bevorzugt von großen Unternehmen, C-Corps und Startups, die Venture-Capital-Investitionen suchen. Sein Court of Chancery ist weltweit führend im Unternehmensrecht. Aber er ist der teuerste und hat eine Franchise Tax. Für einen Freiberufler in der Regel überflüssig.
 
 ## Das Fintech-Ökosystem: Banking, Zahlungen und Tools
 
@@ -52,31 +52,31 @@ Einer der großen Vorteile einer LLC ist der Zugang zum amerikanischen Finanzök
 
 ### Banking und Treasury
 
-- **Mercury** — Digitales Bankkonto mit \$0 Gebühren auf alles: Kontoführung, nationale und internationale Überweisungen, ACH, Debitkarte. Ihr Geld wird bei Column NA verwahrt (Bank mit Bundeslizenz und FDIC-Versicherung bis zu \$250.000). Die am häufigsten genutzte Plattform unserer Kunden für den täglichen Betrieb.
-- **Relay** — Ein weiteres hervorragendes Fintech mit bis zu 20 kostenlosen Unterkonten, ideal um Ihr Geld nach Kategorien zu organisieren (Betrieb, Steuern, Rücklagen). Die Einlagen werden bei Thread Bank verwahrt. Bietet Zahlungslinks, die von Adyen betrieben werden, perfekt zum schnellen und professionellen Einzug von Kundenzahlungen.
-- **Slash** — Treasury-Plattform für Unternehmen, die es ermöglicht, das Kapital Ihrer LLC intelligent zu verwalten. Ideal für Unternehmen, die ihre verfügbaren Mittel optimieren möchten, mit Konten, die Rendite auf das Guthaben erwirtschaften und gleichzeitig sofortige Liquidität gewährleisten.
-- **Wise Business** — EMI (E-Geld-Institut), perfekt für internationale Überweisungen zum echten Wechselkurs (Mid-Market-Rate). Es ist keine Bank, ergänzt Mercury aber perfekt für Devisenumrechnung und Zahlungen an internationale Lieferanten.
-- **Revolut Business** — Multiwährungskonto mit wettbewerbsfähigem Wechselkurs unter der Woche, Karten für das Team und Tools zur Ausgabenverwaltung. Nützlich als Zweitkonto und für Operationen in mehreren Währungen.
+- **Mercury**: Digitales Bankkonto mit \$0 Gebühren auf alles: Kontoführung, nationale und internationale Überweisungen, ACH, Debitkarte, Ihr Geld wird bei Column NA verwahrt (Bank mit Bundeslizenz und FDIC-Versicherung bis zu \$250.000). Die am häufigsten genutzte Plattform unserer Kunden für den täglichen Betrieb.
+- **Relay**: Ein weiteres hervorragendes Fintech mit bis zu 20 kostenlosen Unterkonten, ideal um Ihr Geld nach Kategorien zu organisieren (Betrieb, Steuern, Rücklagen). Die Einlagen werden bei Thread Bank verwahrt. Bietet Zahlungslinks, die von Adyen betrieben werden, perfekt zum schnellen und professionellen Einzug von Kundenzahlungen.
+- **Slash**: Treasury-Plattform für Unternehmen, die es ermöglicht, das Kapital Ihrer LLC intelligent zu verwalten. Ideal für Unternehmen, die ihre verfügbaren Mittel optimieren möchten, mit Konten, die Rendite auf das Guthaben erwirtschaften und gleichzeitig sofortige Liquidität gewährleisten.
+- **Wise Business**: EMI (E-Geld-Institut), perfekt für internationale Überweisungen zum echten Wechselkurs (Mid-Market-Rate). Es ist keine Bank, ergänzt Mercury aber perfekt für Devisenumrechnung und Zahlungen an internationale Lieferanten.
+- **Revolut Business**: Multiwährungskonto mit wettbewerbsfähigem Wechselkurs unter der Woche, Karten für das Team und Tools zur Ausgabenverwaltung. Nützlich als Zweitkonto und für Operationen in mehreren Währungen.
 
 ### Firmenkarten
 
-- **Wallester** — Plattform für virtuelle und physische Firmenkarten, die mit Ihrer LLC verknüpft sind, mit Euro-IBAN für Exentax-Kunden. Ermöglicht die Ausgabe von Karten für spezifische Ausgaben (Werbung, Software, Abonnements) mit individuellen Limits. Sehr beliebt bei europäischen Unternehmern durch Integrationen und granulare Ausgabenkontrolle.
+- **Wallester**: Plattform für virtuelle und physische Firmenkarten, die mit Ihrer LLC verknüpft sind, mit Euro-IBAN für Exentax-Kunden. Ermöglicht die Ausgabe von Karten für spezifische Ausgaben (Werbung, Software, Abonnements) mit individuellen Limits. Sehr beliebt bei europäischen Unternehmern durch Integrationen und granulare Ausgabenkontrolle.
 - Die Debitkarten von Mercury und Relay funktionieren ebenfalls hervorragend für die täglichen Betriebsausgaben.
 
 ### Zahlungsabwicklung
 
-- **Stripe** — Die führende Zahlungsplattform für Kartenzahlungen, Abonnements, Checkout und automatische Rechnungsstellung. Akzeptiert über 135 Währungen. Funktioniert ohne Einschränkungen mit Ihrer amerikanischen LLC.
-- **PayPal Business** — Für Kunden, die lieber per PayPal bezahlen. Weithin anerkannt mit integriertem Verkäuferschutz. Erfordert ITIN des Eigentümers.
-- **Adyen** — Globaler Zahlungsanbieter, der von Unternehmen wie Uber, Spotify und eBay genutzt wird. Wenn Ihr Geschäft signifikante Volumina generiert, bietet Adyen sehr wettbewerbsfähige Tarife und Unterstützung für lokale Zahlungsmethoden in über 30 Ländern.
-- **DoDo Payments** — Aufstrebende Alternative, die als Merchant of Record fungiert und sich automatisch um die internationale MwSt./GST kümmert. Ideal, wenn Sie digitale Produkte an Endverbraucher in mehreren Ländern verkaufen.
+- **Stripe**: Die führende Zahlungsplattform für Kartenzahlungen, Abonnements, Checkout und automatische Rechnungsstellung. Akzeptiert über 135 Währungen. Funktioniert ohne Einschränkungen mit Ihrer amerikanischen LLC.
+- **PayPal Business**: Für Kunden, die lieber per PayPal bezahlen. Weithin anerkannt mit integriertem Verkäuferschutz. Erfordert ITIN des Eigentümers.
+- **Adyen**: Globaler Zahlungsanbieter, der von Unternehmen wie Uber, Spotify und eBay genutzt wird. Wenn Ihr Geschäft signifikante Volumina generiert, bietet Adyen sehr wettbewerbsfähige Tarife und Unterstützung für lokale Zahlungsmethoden in über 30 Ländern.
+- **DoDo Payments**: Aufstrebende Alternative, die als Merchant of Record fungiert und sich automatisch um die internationale MwSt./GST kümmert. Ideal, wenn Sie digitale Produkte an Endverbraucher in mehreren Ländern verkaufen.
 
 ### Investitionen und Trading
 
-- **Interactive Brokers** — Der umfassendste Broker für Investitionen über Ihre LLC. Zugang zu Aktien, ETFs, Optionen, Futures, Forex und Anleihen auf über 150 Weltmärkten. Geschäftskonto mit Ihrer LLC, um persönliche von geschäftlichen Investitionen zu trennen. Sehr wettbewerbsfähige Gebühren und professionelle Plattform.
-- **Tradovate** — Spezialisiert auf Futures-Trading. Wenn Ihre LLC auf Derivatemärkten operiert, bietet Tradovate eine moderne Plattform mit Flatrate-Gebühren und Zugang zu CME, CBOT, NYMEX und COMEX.
-- **Kraken** — Kryptowährungsbörse mit Geschäftskonto für Ihre LLC. Zugang zu Bitcoin, Ethereum, Stablecoins und über 200 Kryptoassets mit institutioneller Liquidität und solider regulatorischer Compliance.
+- **Interactive Brokers**: Der umfassendste Broker für Investitionen über Ihre LLC. Zugang zu Aktien, ETFs, Optionen, Futures, Forex und Anleihen auf über 150 Weltmärkten. Geschäftskonto mit Ihrer LLC, um persönliche von geschäftlichen Investitionen zu trennen. Sehr wettbewerbsfähige Gebühren und professionelle Plattform.
+- **Tradovate**: Spezialisiert auf Futures-Trading. Wenn Ihre LLC auf Derivatemärkten operiert, bietet Tradovate eine moderne Plattform mit Flatrate-Gebühren und Zugang zu CME, CBOT, NYMEX und COMEX.
+- **Kraken**: Kryptowährungsbörse mit Geschäftskonto für Ihre LLC. Zugang zu Bitcoin, Ethereum, Stablecoins und über 200 Kryptoassets mit institutioneller Liquidität und solider regulatorischer Compliance.
 
-Bei Exentax gestalten wir dieses gesamte Finanz-Ökosystem als Teil Ihrer kompletten Struktur. Wir gründen nicht nur Ihre LLC — wir konfigurieren das Banking (Mercury als Hauptkonto, Relay als Backup), die Zahlungsabwicklung (Stripe, PayPal), die Devisenumrechnung (Wise Business) und beraten Sie zu Firmenkarten (Wallester), Treasury (Slash) und Investitionen (Interactive Brokers) nach Ihrem Profil. Alles integriert, alles ab dem ersten Tag einsatzbereit.
+Bei Exentax gestalten wir dieses gesamte Finanz-Ökosystem als Teil Ihrer kompletten Struktur. Wir gründen nicht nur Ihre LLC. wir konfigurieren das Banking (Mercury als Hauptkonto, Relay als Backup), die Zahlungsabwicklung (Stripe, PayPal), die Devisenumrechnung (Wise Business) und beraten Sie zu Firmenkarten (Wallester), Treasury (Slash) und Investitionen (Interactive Brokers) nach Ihrem Profil. Alles integriert, alles ab dem ersten Tag einsatzbereit.
 
 ## Was kostet die Gründung und Unterhaltung einer LLC?
 
@@ -89,12 +89,12 @@ Die jährlichen Unterhaltskosten umfassen alle Erklärungen beim IRS (Form 5472,
 1. **Nicht im Wohnsitzland deklarieren.** Die LLC befreit Sie nicht von Ihren lokalen steuerlichen Pflichten. Die Gewinne fließen an Sie (Pass-through) und müssen deklariert werden. Das Gute: Mit den bereits abgezogenen LLC-Ausgaben ist die Bemessungsgrundlage deutlich niedriger.
 2. **Den Bundesstaat nur nach Preis wählen.** Jeder Bundesstaat hat unterschiedliche Vorteile. Bei Exentax empfehlen wir Ihnen den, der wirklich zu Ihnen passt.
 3. **Kein Operating Agreement haben.** Ohne dieses Dokument fehlt der LLC eine formale Struktur. Wir bereiten es immer vor.
-4. **Das Form 5472 vergessen.** Es ist eine jährliche Pflichtmeldung. Wir kümmern uns jedes Jahr darum — Sie bekommen davon nichts mit.
+4. **Das Form 5472 vergessen.** Es ist eine jährliche Pflichtmeldung. Wir kümmern uns jedes Jahr darum. Sie bekommen davon nichts mit.
 5. **Persönliche und geschäftliche Konten mischen.** Dies kann den Schutz der beschränkten Haftung gefährden. Das Konto der LLC = nur für das Geschäft.
 
 ## Ist es legal?
 
-Absolut. Es ist keine Steuerhinterziehung. Es ist legale Steuerplanung unter Nutzung von Strukturen, die vom IRS und den Behörden Ihres Landes anerkannt sind. Millionen von Unternehmen arbeiten so. Der Schlüssel liegt in der korrekten Deklaration und der Einhaltung der Compliance — und darum kümmern wir uns.
+Absolut. Es ist keine Steuerhinterziehung. Es ist legale Steuerplanung unter Nutzung von Strukturen, die vom IRS und den Behörden Ihres Landes anerkannt sind. Millionen von Unternehmen arbeiten so. Der Schlüssel liegt in der korrekten Deklaration und der Einhaltung der Compliance, und darum kümmern wir uns.
 
 Möchten Sie wissen, ob die LLC für Sie sinnvoll ist? Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen alles, analysieren Ihren Fall und sagen Ihnen genau, wie viel Sie sparen können. Unverbindlich, ohne Kleingedrucktes.`,
 
@@ -102,7 +102,7 @@ Möchten Sie wissen, ob die LLC für Sie sinnvoll ist? Vereinbaren Sie Ihre kost
 
 ## Was ist das Form 5472?
 
-Es ist ein Informationsformular des IRS (Internal Revenue Service), das von LLCs mit ausländischen Eigentümern eingereicht werden muss. Seine Funktion besteht darin, die Transaktionen zwischen der LLC und ihren „verbundenen Personen" zu melden — also Ihnen als Eigentümer.
+Es ist ein Informationsformular des IRS (Internal Revenue Service), das von LLCs mit ausländischen Eigentümern eingereicht werden muss. Seine Funktion besteht darin, die Transaktionen zwischen der LLC und ihren „verbundenen Personen" zu melden, also Ihnen als Eigentümer.
 
 Wir wiederholen es, weil es wichtig ist: **Es ist kein Steuerzahlungsformular.** Es ist rein informativ. Der IRS möchte einfach wissen, welche Bewegungen zwischen Ihnen und Ihrer LLC während des Jahres stattgefunden haben. Nicht mehr.
 
@@ -112,7 +112,7 @@ Warum erzeugt es dann so viel Angst? Weil das Internet voll ist mit alarmistisch
 
 Jede US-amerikanische LLC, die mindestens einen ausländischen Eigentümer hat (weder Ansässiger noch US-Bürger) und die im Steuerjahr meldepflichtige Transaktionen hatte.
 
-In der Praxis: Wenn Sie ein Freiberufler/Selbstständiger mit einer Single-Member LLC sind und Geld zwischen Ihrer LLC und sich selbst bewegt haben — sei es durch Gewinnentnahmen, Kapitaleinlagen oder Ausgabenzahlungen — müssen Sie dieses Formular einreichen. Und wenn Ihre LLC Aktivität hatte (was normal ist, wenn Sie abrechnen), gibt es Transaktionen zu melden.
+In der Praxis: Wenn Sie ein Freiberufler/Selbstständiger mit einer Single-Member LLC sind und Geld zwischen Ihrer LLC und sich selbst bewegt haben. sei es durch Gewinnentnahmen, Kapitaleinlagen oder Ausgabenzahlungen. müssen Sie dieses Formular einreichen. Und wenn Ihre LLC Aktivität hatte (was normal ist, wenn Sie abrechnen), gibt es Transaktionen zu melden.
 
 ## Welche Transaktionen werden gemeldet?
 
@@ -127,14 +127,14 @@ Im Grunde alles, was zwischen Ihnen und Ihrem Unternehmen ein- und ausgeht. Wenn
 
 ## Form 5472 und Form 1120: das untrennbare Duo
 
-Das Form 5472 wird nicht allein eingereicht — es geht zusammen mit dem **Form 1120**, der Körperschaftsteuererklärung der LLC. Aber Achtung: Für eine Single-Member LLC mit ausländischem Eigentümer ist das Form 1120 **pro-forma**. Es deklariert keine tatsächlichen Steuern, da die LLC eine Disregarded Entity ist und 0 $ Bundessteuer zahlt.
+Das Form 5472 wird nicht allein eingereicht, es geht zusammen mit dem **Form 1120**, der Körperschaftsteuererklärung der LLC. Aber Achtung: Für eine Single-Member LLC mit ausländischem Eigentümer ist das Form 1120 **pro-forma**. Es deklariert keine tatsächlichen Steuern, da die LLC eine Disregarded Entity ist und 0 $ Bundessteuer zahlt.
 
 ### Was ist das Pro-forma Form 1120?
 
 Es ist die Körperschaftsteuererklärung des IRS. Im Fall einer Ein-Mitglieder-LLC mit nicht ansässigem Eigentümer wird es als „Umschlag" für das Form 5472 eingereicht. Im Wesentlichen:
 
-- **Das Form 1120 ist das Deckblatt** — enthält die allgemeinen Informationen der LLC
-- **Das Form 5472 ist der Inhalt** — detailliert die Transaktionen zwischen Ihnen und Ihrer LLC
+- **Das Form 1120 ist das Deckblatt**: enthält die allgemeinen Informationen der LLC
+- **Das Form 5472 ist der Inhalt**: detailliert die Transaktionen zwischen Ihnen und Ihrer LLC
 
 Das Pro-forma Form 1120 wird mit allen Finanzfeldern auf null eingereicht (Einkommen: 0 $, Steuern: 0 $), da die LLC in den USA keine Steuern zahlt. Was zählt, ist das beigefügte Form 5472.
 
@@ -144,8 +144,8 @@ Weil der IRS das Form 5472 nicht als eigenständiges Dokument akzeptiert. Es mus
 
 | Formular | Zweck | Beinhaltet Zahlung? | Gefordert von |
 |---|---|---|---|
-| Form 1120 (pro-forma) | Unternehmenserklärung „Umschlag" | Nein — alles auf 0 $ | IRS |
-| Form 5472 | LLC-Eigentümer-Transaktionen melden | Nein — nur informativ | IRS |
+| Form 1120 (pro-forma) | Unternehmenserklärung „Umschlag" | Nein, alles auf 0 $ | IRS |
+| Form 5472 | LLC-Eigentümer-Transaktionen melden | Nein, nur informativ | IRS |
 | Form 7004 | Fristverlängerung beantragen | Nein | IRS |
 
 ## Wann wird es eingereicht?
@@ -167,9 +167,9 @@ Eine Verlängerung von 6 Monaten (bis 15. Oktober) kann durch Einreichung des **
 
 Wenn Sie es selbst machen, ja, es kann mühsam sein. Das Formular erfordert detaillierte Informationen über:
 
-1. **Daten der LLC** — Name, EIN, Adresse, Gründungsbundesstaat
-2. **Daten des ausländischen Eigentümers** — vollständiger Name, Wohnsitzland, Steueridentifikationsnummer
-3. **Meldepflichtige Transaktionen** — aufgeschlüsselt nach Art und Betrag
+1. **Daten der LLC**: Name, EIN, Adresse, Gründungsbundesstaat
+2. **Daten des ausländischen Eigentümers**: vollständiger Name, Wohnsitzland, Steueridentifikationsnummer
+3. **Meldepflichtige Transaktionen**: aufgeschlüsselt nach Art und Betrag
 
 Außerdem wird es in Papierform eingereicht (nicht elektronisch) zusammen mit dem Form 1120, per Post an den IRS gesendet. Ja, im Jahr 2026 verlangt der IRS dafür immer noch Papier. Willkommen in der amerikanischen Bürokratie.
 
@@ -181,7 +181,7 @@ Der IRS nimmt dieses Formular sehr ernst. Die Strafen für Nichteinreichung oder
 
 - **25.000 $ Grundstrafe** für jedes nicht eingereichte oder unvollständige Formular
 - **25.000 $ zusätzlich** für jeden 30-Tage-Zeitraum der Nichteinhaltung nach IRS-Benachrichtigung (bis zu 25.000 $ pro Monat)
-- Es gibt keine definierte Obergrenze — die Strafen können sich erheblich ansammeln
+- Es gibt keine definierte Obergrenze, die Strafen können sich erheblich ansammeln
 
 Diese Zahlen klingen alarmierend, aber die Realität ist differenzierter. Wenn Sie Ihr Form 5472 fristgerecht (oder innerhalb der Verlängerung) mit korrekten Informationen einreichen, gibt es keine Strafe. Strafen gelten für diejenigen, die die Verpflichtung ignorieren oder mit schwerwiegenden Fehlern einreichen.
 
@@ -191,11 +191,11 @@ Bei Exentax stellen wir sicher, dass alles korrekt und fristgerecht eingereicht 
 
 Wenn Sie eine LLC haben und das Form 5472 für frühere Jahre nicht eingereicht haben, geraten Sie nicht in Panik. Es gibt Möglichkeiten, sich auf den neuesten Stand zu bringen:
 
-- **Freiwillige verspätete Einreichungen** — der IRS hat Verfahren für überfällige Formulare
-- **Reasonable Cause** — wenn Sie nachweisen können, dass die Nichteinhaltung unbeabsichtigt war, kann der IRS Strafen reduzieren oder erlassen
-- **Professionelle Beratung** — es ist entscheidend, dass dieser Prozess von jemandem mit Erfahrung betreut wird
+- **Freiwillige verspätete Einreichungen**: der IRS hat Verfahren für überfällige Formulare
+- **Reasonable Cause**: wenn Sie nachweisen können, dass die Nichteinhaltung unbeabsichtigt war, kann der IRS Strafen reduzieren oder erlassen
+- **Professionelle Beratung**: es ist entscheidend, dass dieser Prozess von jemandem mit Erfahrung betreut wird
 
-Bei Exentax helfen wir Kunden, die von anderen Diensten kommen (oder die ihre LLC selbst verwaltet haben), ihre Situation zu regularisieren. Das Wichtigste ist zu handeln — je früher Sie sich auf den neuesten Stand bringen, desto besser.
+Bei Exentax helfen wir Kunden, die von anderen Diensten kommen (oder die ihre LLC selbst verwaltet haben), ihre Situation zu regularisieren. Das Wichtigste ist zu handeln. je früher Sie sich auf den neuesten Stand bringen, desto besser.
 
 ## Die wichtigsten Erkenntnisse
 
@@ -203,7 +203,7 @@ Das Form 5472 (zusammen mit dem Pro-forma Form 1120) ist eine jährliche informa
 
 Haben Sie Fragen zu Ihrer Situation? Vereinbaren Sie Ihre kostenlose Beratung und wir schauen es uns gemeinsam an.`,
 
-  "nuevo-mexico-vs-wyoming-vs-delaware": `Die Wahl des Gründungsbundesstaates für Ihre LLC ist eine der wichtigsten Entscheidungen — und eine derjenigen, die am meisten Verwirrung stiftet. Das Internet ist voll von Videos, die sagen „Delaware ist der beste" oder „Wyoming ist Pflicht". Die Realität ist differenzierter, und hier erklären wir sie Ihnen ohne Beschönigung.
+  "nuevo-mexico-vs-wyoming-vs-delaware": `Die Wahl des Gründungsbundesstaates für Ihre LLC ist eine der wichtigsten Entscheidungen, und eine derjenigen, die am meisten Verwirrung stiftet. Das Internet ist voll von Videos, die sagen „Delaware ist der beste" oder „Wyoming ist Pflicht". Die Realität ist differenzierter, und hier erklären wir sie Ihnen ohne Beschönigung.
 
 Wir vergleichen die drei beliebtesten Bundesstaaten für Nichtansässige: New Mexico, Wyoming und Delaware. Spoiler: Für die Mehrheit der Freiberufler und digitalen Unternehmer gewinnt New Mexico haushoch.
 
@@ -215,13 +215,13 @@ Wir vergleichen die drei beliebtesten Bundesstaaten für Nichtansässige: New Me
 New Mexico ist der beliebteste Bundesstaat unter unseren Kunden bei Exentax, und das aus gutem Grund. Er kombiniert die niedrigsten Kosten am Markt mit einem hervorragenden Niveau an Privatsphäre.
 
 **Vorteile:**
-- **Kein staatlicher Annual Report** — eine Formalität weniger pro Jahr, eine Kostenstelle weniger
-- **Echte Privatsphäre** — die Daten der Gesellschafter erscheinen nicht in den öffentlichen Registern des Bundesstaates. Ihr Name ist nicht öffentlich mit der LLC verbunden
+- **Kein staatlicher Annual Report**: eine Formalität weniger pro Jahr, eine Kostenstelle weniger
+- **Echte Privatsphäre**: die Daten der Gesellschafter erscheinen nicht in den öffentlichen Registern des Bundesstaates, Ihr Name ist nicht öffentlich mit der LLC verbunden
 - **Keine staatliche Steuer** auf Einkommen
 - **Niedrigste Gründungs- und Verwaltungskosten** der drei Bundesstaaten
-- **Einfacher und schneller Prozess** — ohne unnötige Bürokratie
+- **Einfacher und schneller Prozess**: ohne unnötige Bürokratie
 
-**Ideal für:** die große Mehrheit der Freiberufler, Berater, Entwickler, Designer und digitalen Unternehmer. Wenn Sie die praktischste, privateste und günstigste Option möchten, ist New Mexico die offensichtliche Wahl. Es ist der Bundesstaat, den wir bei Exentax standardmäßig empfehlen, es sei denn, Ihre spezifische Situation erfordert etwas anderes.
+**Ideal für:** die große Mehrheit der Freiberufler, Berater, Entwickler, Designer und digitalen Unternehmer. Wenn Sie die praktischste, privateste Option mit den niedrigsten laufenden Kosten möchten, ist New Mexico die offensichtliche Wahl. Es ist der Bundesstaat, den wir bei Exentax standardmäßig empfehlen, es sei denn, Ihre spezifische Situation erfordert etwas anderes.
 
 ## Wyoming: Gute Privatsphäre, höhere Kosten
 
@@ -233,7 +233,7 @@ Wyoming hat einen hervorragenden Ruf in Sachen Privatsphäre und Vermögensschut
 **Vorteile:**
 - Gesellschafter erscheinen nicht in öffentlichen Registern (wie bei New Mexico)
 - Keine staatliche Steuer
-- Überlegener Vermögensschutz — die Gesetze von Wyoming sind in dieser Hinsicht besonders robust
+- Überlegener Vermögensschutz, die Gesetze von Wyoming sind in dieser Hinsicht besonders robust
 - Moderne und gut etablierte Unternehmensgesetze
 
 **Erfordert:** Jährlichen Annual Report beim Bundesstaat + \$60 Gebühr (\$300, wenn das gemeldete Vermögen \$300.000 übersteigt). In unserem Verwaltungsplan enthalten.
@@ -245,14 +245,14 @@ Wyoming hat einen hervorragenden Ruf in Sachen Privatsphäre und Vermögensschut
 **Gründung:** Auf Anfrage
 **Jährliche Verwaltung:** Auf Anfrage
 
-Delaware ist der Bundesstaat mit dem größten Ruf im Unternehmensrecht und ist der Favorit großer Konzerne und Startups, die Investitionen suchen. Sein Court of Chancery — ein Gericht, das ausschließlich auf Unternehmensstreitigkeiten spezialisiert ist — ist weltweit führend.
+Delaware ist der Bundesstaat mit dem größten Ruf im Unternehmensrecht und ist der Favorit großer Konzerne und Startups, die Investitionen suchen. Sein Court of Chancery, ein Gericht, das ausschließlich auf Unternehmensstreitigkeiten spezialisiert ist. ist weltweit führend.
 
 Aber seien wir ehrlich: **Für einen Freiberufler oder digitalen Unternehmer, der mit einer Single-Member LLC arbeitet, ist Delaware überflüssig.** Sie zahlen einen Aufpreis für einen rechtlichen Rahmen, den Sie nicht nutzen werden.
 
 **Vorteile:**
 - Spezialisierter Court of Chancery
 - Am weitesten entwickelter Rechtsrahmen der USA
-- Bevorzugt von Investoren und Venture Capital — nahezu obligatorisch, wenn Sie Finanzierungsrunden planen
+- Bevorzugt von Investoren und Venture Capital. nahezu obligatorisch, wenn Sie Finanzierungsrunden planen
 - Umfangreiche Rechtsprechungshistorie
 
 **Erfordert:** Annual Report + Franchise Tax von \$300/Jahr (in unserem Verwaltungsplan enthalten).
@@ -279,7 +279,7 @@ Wenn Sie verstärkten Vermögensschutz benötigen: **Wyoming.**
 
 Wenn Sie VC-Investitionen einwerben möchten: **Delaware** (aber wahrscheinlich als C-Corp, nicht als LLC).
 
-Bei Exentax empfehlen wir Ihnen in der kostenlosen Beratung den Bundesstaat, der für Ihren Fall wirklich sinnvoll ist. Wir verkaufen keinen Bundesstaat standardmäßig — wir gestalten die Struktur, die zu Ihnen passt. Vereinbaren Sie Ihre Beratung und wir sprechen darüber.
+Bei Exentax empfehlen wir Ihnen in der kostenlosen Beratung den Bundesstaat, der für Ihren Fall wirklich sinnvoll ist. Wir verkaufen keinen Bundesstaat standardmäßig. wir gestalten die Struktur, die zu Ihnen passt. Vereinbaren Sie Ihre Beratung und wir sprechen darüber.
 
 ## Was der Bundesstaat NICHT ändert
 
@@ -295,7 +295,7 @@ Die Wahl des Bundesstaats beeinflusst hauptsächlich die Wartungskosten, das Niv
 
 ## Der Fehler, sich bei der Bundesstaatswahl zu verkrampfen
 
-Wir sehen das häufig: Freiberufler, die wochenlang Bundesstaaten vergleichen, Foren lesen, Videos schauen — und am Ende nichts tun. In der Zwischenzeit zahlen sie weiterhin hohe Sozialabgaben, werden zum Höchstsatz besteuert und arbeiten ohne Vermögensschutz.
+Wir sehen das häufig: Freiberufler, die wochenlang Bundesstaaten vergleichen, Foren lesen, Videos schauen, und am Ende nichts tun. In der Zwischenzeit zahlen sie weiterhin hohe Sozialabgaben, werden zum Höchstsatz besteuert und arbeiten ohne Vermögensschutz.
 
 Die Realität ist: Jeder der drei Bundesstaaten funktioniert gut. Der Unterschied zwischen New Mexico und Wyoming ist marginal im Vergleich zum Unterschied zwischen einer LLC haben und keine haben.
 
@@ -309,7 +309,7 @@ In diesem Artikel erklären wir Ihnen, warum es so wichtig ist, welche Konsequen
 
 ## Warum ist es so wichtig, Ihre Finanzen zu trennen?
 
-Die LLC (Limited Liability Company) existiert, um Ihr persönliches Vermögen von dem Ihres Unternehmens zu trennen. Wenn Ihr Unternehmen Schulden oder ein Problem hat, sind Ihre persönlichen Vermögenswerte — Ihr Haus, Ihre Ersparnisse, Ihr Auto — geschützt. Das ist der Hauptgrund, warum Sie eine LLC gründen.
+Die LLC (Limited Liability Company) existiert, um Ihr persönliches Vermögen von dem Ihres Unternehmens zu trennen. Wenn Ihr Unternehmen Schulden oder ein Problem hat, sind Ihre persönlichen Vermögenswerte, Ihr Haus, Ihre Ersparnisse, Ihr Auto. geschützt. Das ist der Hauptgrund, warum Sie eine LLC gründen.
 
 Um diesen Schutz aufrechtzuerhalten, ist es grundlegend nachzuweisen, dass Ihre LLC als unabhängige Einheit operiert. Der beste Weg, dies zu tun, ist, Ihre Finanzen klar und konsequent getrennt zu halten.
 
@@ -334,7 +334,7 @@ Dies sind die Gewohnheiten, die die am besten organisierten Unternehmer befolgen
 
 ## Rechtliche Anforderungen für die finanzielle Trennung
 
-Die Aufrechterhaltung der finanziellen Trennung ist nicht nur eine gute Praxis — sie ist eine implizite rechtliche Anforderung in der Struktur der LLC. Dies sind die Punkte, die Sie erfüllen müssen:
+Die Aufrechterhaltung der finanziellen Trennung ist nicht nur eine gute Praxis, sie ist eine implizite rechtliche Anforderung in der Struktur der LLC. Dies sind die Punkte, die Sie erfüllen müssen:
 
 ### 1. Separates und ausschließliches Bankkonto
 
@@ -346,7 +346,7 @@ Sie müssen eine separate Buchhaltung für Ihre LLC führen. Dies umfasst ein Re
 
 ### 3. Dokumentation von Transaktionen zwischen verbundenen Parteien
 
-Jedes Mal, wenn Sie Geld zwischen Ihrer LLC und sich selbst überweisen — sei es als Gewinnausschüttung, Spesenerstattung oder Darlehen — muss dies dokumentiert werden. Diese Transaktionen werden im Form 5472 beim IRS gemeldet.
+Jedes Mal, wenn Sie Geld zwischen Ihrer LLC und sich selbst überweisen. sei es als Gewinnausschüttung, Spesenerstattung oder Darlehen. muss dies dokumentiert werden. Diese Transaktionen werden im Form 5472 beim IRS gemeldet.
 
 ### 4. Gültiges Operating Agreement
 
@@ -362,7 +362,7 @@ Die Grundlage der finanziellen Trennung ist ein ausschließlich für Ihre LLC be
 
 ### Mercury
 
-Mercury ist die am häufigsten genutzte Fintech-Plattform von LLC-Eigentümern, die nicht in den USA ansässig sind. Ihre Einlagen werden bei Column NA verwahrt (Bank mit Bundeslizenz und FDIC-Versicherung). Die Vorteile für die Aufrechterhaltung der finanziellen Trennung:
+Mercury ist die am häufigsten genutzte Fintech-Plattform von LLC-Eigentümern, die nicht in den USA ansässig sind, Ihre Einlagen werden bei Column NA verwahrt (Bank mit Bundeslizenz und FDIC-Versicherung). Die Vorteile für die Aufrechterhaltung der finanziellen Trennung:
 
 - **Konto auf den Namen der LLC** mit der EIN als Identifikation
 - **Keine monatlichen Gebühren** und keine Mindestguthaben
@@ -377,7 +377,7 @@ Die Kontoeröffnung ist 100% online und erfordert keine Reise in die Vereinigten
 
 Relay ist eine weitere hervorragende Option, besonders wenn Sie Ihr Geld in verschiedene Kategorien einteilen müssen:
 
-- **Bis zu 20 Girokonten** ohne zusätzliche Kosten — Sie können eines für Betriebsausgaben, eines für Steuern, eines für Ihr Gehalt erstellen
+- **Bis zu 20 Girokonten** ohne zusätzliche Kosten. Sie können eines für Betriebsausgaben, eines für Steuern, eines für Ihr Gehalt erstellen
 - **Keine monatlichen Gebühren** und keine Mindestguthaben
 - **Debitkarten**, die bestimmten Konten zugewiesen werden können
 - **Integration mit Buchhaltungssoftware**
@@ -425,7 +425,7 @@ Auf diese Weise behält die LLC Betriebskapital, Sie decken Ihre steuerlichen Ve
 
 ## Steuerliche Auswirkungen der Vermischung von Geldern
 
-Die Commingling of Funds — die Vermischung persönlicher und geschäftlicher Gelder — hat schwerwiegende steuerliche Konsequenzen, die über den Verlust des rechtlichen Schutzes hinausgehen.
+Die Commingling of Funds, die Vermischung persönlicher und geschäftlicher Gelder. hat schwerwiegende steuerliche Konsequenzen, die über den Verlust des rechtlichen Schutzes hinausgehen.
 
 ### 1. Schwierigkeit bei der Rechtfertigung abzugsfähiger Ausgaben
 
@@ -445,7 +445,7 @@ Als Nichtansässiger in den USA werden die Einkünfte Ihrer LLC in Ihrem steuerl
 
 ### 5. Verlust von Vorteilen aus Steuerabkommen
 
-Einige Länder haben Doppelbesteuerungsabkommen mit den Vereinigten Staaten, die steuerliche Vorteile bieten. Aber diese Vorteile können verloren gehen, wenn die Behörden feststellen, dass die LLC nicht als unabhängige Einheit operiert — was die Vermischung von Geldern erheblich erleichtert.
+Einige Länder haben Doppelbesteuerungsabkommen mit den Vereinigten Staaten, die steuerliche Vorteile bieten. Aber diese Vorteile können verloren gehen, wenn die Behörden feststellen, dass die LLC nicht als unabhängige Einheit operiert, was die Vermischung von Geldern erheblich erleichtert.
 
 ## Anforderungen an Aufzeichnungen und Dokumentation
 
@@ -457,7 +457,7 @@ Die Führung angemessener Finanzunterlagen ist nicht optional. Es ist eine Anfor
 - **Alle Ausgaben**, die die LLC getätigt hat, mit Rechnungen oder Belegen als Nachweis
 - **Alle Ausschüttungen** an den Eigentümer, mit Datum, Betrag und Genehmigungsdokumentation
 - **Alle Kapitaleinlagen** des Eigentümers in die LLC
-- **Vollständige Bankbewegungen** — monatliche Kontoauszüge des LLC-Kontos
+- **Vollständige Bankbewegungen**: monatliche Kontoauszüge des LLC-Kontos
 - **Verträge und Vereinbarungen** mit Kunden, Lieferanten und Dritten
 
 ### Wie lange die Unterlagen aufbewahrt werden sollten
@@ -471,7 +471,7 @@ Der IRS empfiehlt, Steuerunterlagen mindestens **3 Jahre** ab dem Datum der Abga
 - **Google Drive** oder **Dropbox Business** zur Aufbewahrung von Rechnungen und Dokumentation
 - **Notion** oder **Airtable** für ein organisiertes Register von Transaktionen und Ausschüttungen
 
-Der Schlüssel liegt darin, ein System zu haben, das Sie konsequent pflegen können. Es ist egal, welches Tool Sie verwenden — wichtig ist, dass Sie es immer verwenden.
+Der Schlüssel liegt darin, ein System zu haben, das Sie konsequent pflegen können. Es ist egal, welches Tool Sie verwenden. wichtig ist, dass Sie es immer verwenden.
 
 ## Häufige Fehler, die Unternehmer machen
 
@@ -479,7 +479,7 @@ Nachdem wir mit Hunderten von Unternehmern zusammengearbeitet haben, die LLCs in
 
 ### 1. Das LLC-Konto für persönliche Ausgaben verwenden
 
-Dies ist der Fehler Nummer eins. Den Supermarkt, Netflix, das Benzin oder ein Abendessen mit der LLC-Karte zu bezahlen, zerstört die finanzielle Trennung. Es spielt keine Rolle, ob Sie „es später zurückgeben" — die Vermischung ist bereits geschehen.
+Dies ist der Fehler Nummer eins. Den Supermarkt, Netflix, das Benzin oder ein Abendessen mit der LLC-Karte zu bezahlen, zerstört die finanzielle Trennung. Es spielt keine Rolle, ob Sie „es später zurückgeben", die Vermischung ist bereits geschehen.
 
 ### 2. Kundenzahlungen auf dem persönlichen Konto empfangen
 
@@ -495,7 +495,7 @@ Einige Unternehmer gründen ihre LLC, brauchen aber Wochen oder Monate, um das G
 
 ### 5. Der LLC Geld leihen, ohne es zu dokumentieren
 
-Wenn Sie persönliches Kapital in Ihre LLC einbringen — zum Beispiel zur Deckung einer Anfangsinvestition — müssen Sie es als Darlehen oder Kapitaleinlage dokumentieren. Ohne Dokumentation verschwimmt die Grenze zwischen Ihren Geldern und denen des Unternehmens.
+Wenn Sie persönliches Kapital in Ihre LLC einbringen, zum Beispiel zur Deckung einer Anfangsinvestition. müssen Sie es als Darlehen oder Kapitaleinlage dokumentieren. Ohne Dokumentation verschwimmt die Grenze zwischen Ihren Geldern und denen des Unternehmens.
 
 ### 6. Keine Rücklagen für Steuern bilden
 
@@ -522,11 +522,11 @@ Um sicherzustellen, dass Sie alles richtig machen, überprüfen Sie diese Liste:
 
 ## Fazit
 
-Ihr persönliches Geld vom Geld Ihrer LLC zu trennen, ist kein administratives Detail — es ist die Grundlage, auf der der gesamte rechtliche und steuerliche Schutz ruht, den Ihnen Ihre LLC bietet. Ohne finanzielle Trennung ist Ihre LLC nur ein Name auf einem Stück Papier.
+Ihr persönliches Geld vom Geld Ihrer LLC zu trennen, ist kein administratives Detail, es ist die Grundlage, auf der der gesamte rechtliche und steuerliche Schutz ruht, den Ihnen Ihre LLC bietet. Ohne finanzielle Trennung ist Ihre LLC nur ein Name auf einem Stück Papier.
 
 Die gute Nachricht ist, dass die Umsetzung dieser Trennung einfach ist, wenn Sie es von Anfang an tun. Ein dediziertes Bankkonto, ein grundlegendes Buchhaltungssystem und Disziplin bei Ihren Ausschüttungen sind alles, was Sie brauchen.
 
-Bei Exentax sorgen wir dafür, dass Ihre LLC vom ersten Tag an korrekt strukturiert ist — einschließlich der Eröffnung Ihres Bankkontos, der Einrichtung Ihrer Buchhaltung und der Einreichung aller Formulare beim IRS. Wenn Sie sicherstellen möchten, dass Ihre finanzielle Trennung korrekt ist, können Sie eine kostenlose Beratung vereinbaren, in der wir Ihre Situation unverbindlich prüfen.
+Bei Exentax sorgen wir dafür, dass Ihre LLC vom ersten Tag an korrekt strukturiert ist. einschließlich der Eröffnung Ihres Bankkontos, der Einrichtung Ihrer Buchhaltung und der Einreichung aller Formulare beim IRS. Wenn Sie sicherstellen möchten, dass Ihre finanzielle Trennung korrekt ist, können Sie eine kostenlose Beratung vereinbaren, in der wir Ihre Situation unverbindlich prüfen.
 
 Möchten Sie sicherstellen, dass Ihre LLC vom ersten Tag an richtig getrennt ist? Vereinbaren Sie Ihre kostenlose Beratung und wir helfen Ihnen, Ihre Struktur korrekt einzurichten.`,
 
@@ -536,7 +536,7 @@ Möchten Sie sicherstellen, dass Ihre LLC vom ersten Tag an richtig getrennt ist
 
 Die EIN ist für praktisch alles unerlässlich, was Sie mit Ihrer LLC tun werden:
 
-- **Bankkonto eröffnen.** Keine Bank — weder Mercury noch Relay noch eine andere — wird Ihnen ohne Ihre EIN ein Konto eröffnen.
+- **Bankkonto eröffnen.** Keine Bank, weder Mercury noch Relay noch eine andere. wird Ihnen ohne Ihre EIN ein Konto eröffnen.
 - **Steuern beim IRS erklären.** Das Form 1120 und das Form 5472 erfordern Ihre EIN als Identifikation.
 - **Kunden abrechnen.** Stripe, PayPal und jeder Zahlungsabwickler werden Sie nach der EIN fragen, um Ihr Unternehmen zu verifizieren.
 - **Dienstleistungen beauftragen.** Anbieter und B2B-Plattformen in den Vereinigten Staaten verlangen die EIN für die Erstellung von Rechnungen und 1099-Formularen.
@@ -569,7 +569,7 @@ Bei Exentax kennen wir die besten Methoden und Zeiten, um die EIN schnell zu erh
 
 ## Was kostet die Beantragung der EIN?
 
-**Die EIN ist komplett kostenlos.** Der IRS erhebt keine Gebühren für die Ausstellung. Wenn Ihnen jemand nur für die EIN Geld berechnet, seien Sie misstrauisch — wahrscheinlich zahlen Sie für einen überteuerten Service.
+**Die EIN ist komplett kostenlos.** Der IRS erhebt keine Gebühren für die Ausstellung. Wenn Ihnen jemand nur für die EIN Geld berechnet, seien Sie misstrauisch. wahrscheinlich zahlen Sie für einen überteuerten Service.
 
 Bei Exentax ist die Beantragung der EIN in allen unseren Gründungsplänen enthalten. Wir kümmern uns um die Vorbereitung des SS-4, den Versand, die Nachverfolgung und die Bereitstellung Ihrer einsatzbereiten Nummer. Keine zusätzlichen Kosten, keine Überraschungen.
 
@@ -592,10 +592,10 @@ Mit Exentax haben Sie Ihre EIN normalerweise in weniger als einer Woche.
 
 ## EIN vs. ITIN: Was ist der Unterschied?
 
-- **EIN** ist für Unternehmen. Ihre LLC hat eine EIN. Es ist die „Steuernummer" Ihres amerikanischen Unternehmens.
+- **EIN** ist für Unternehmen, Ihre LLC hat eine EIN. Es ist die „Steuernummer" Ihres amerikanischen Unternehmens.
 - **ITIN** (Individual Taxpayer Identification Number) ist für natürliche Personen, die nicht in den USA ansässig sind und eine persönliche Steueridentifikationsnummer in den USA benötigen.
 
-Um Ihre LLC zu betreiben, benötigen Sie nur die EIN. Die ITIN ist in bestimmten Fällen erforderlich — zum Beispiel, wenn Sie persönliche steuerpflichtige Einkünfte in den USA haben, wenn Sie Vorteile aus einem Steuerabkommen geltend machen möchten oder wenn Sie bestimmte Konten eröffnen möchten, die sie erfordern.
+Um Ihre LLC zu betreiben, benötigen Sie nur die EIN. Die ITIN ist in bestimmten Fällen erforderlich, zum Beispiel, wenn Sie persönliche steuerpflichtige Einkünfte in den USA haben, wenn Sie Vorteile aus einem Steuerabkommen geltend machen möchten oder wenn Sie bestimmte Konten eröffnen möchten, die sie erfordern.
 
 **Bei Exentax helfen wir Ihnen auch bei der Beantragung der ITIN**, falls Sie sie benötigen. Es ist ein längerer und bürokratischerer Prozess als bei der EIN (es müssen beglaubigte Dokumente an den IRS gesendet werden), aber wir kümmern uns von Anfang bis Ende darum.
 
@@ -609,7 +609,7 @@ Möchten Sie Ihre LLC gründen und uns die EIN, die ITIN (falls erforderlich) un
 
 ## Was genau ist Mercury?
 
-Hier gibt es eine wichtige Nuance, die viele verwechseln: **Mercury ist keine Bank.** Mercury ist eine Fintech-Plattform — ein in den USA registrierter Money Transmitter — der Bankdienstleistungen über seine Partnerbank **Column NA** (früher bekannt als Column National Association) anbietet. Column NA ist eine Bank mit Bundeslizenz, FDIC-versichert bis zu \$250.000 pro Einleger.
+Hier gibt es eine wichtige Nuance, die viele verwechseln: **Mercury ist keine Bank.** Mercury ist eine Fintech-Plattform, ein in den USA registrierter Money Transmitter, der Bankdienstleistungen über seine Partnerbank **Column NA** (früher bekannt als Column National Association) anbietet. Column NA ist eine Bank mit Bundeslizenz, FDIC-versichert bis zu \$250.000 pro Einleger.
 
 Was bedeutet das in der Praxis? Dass Ihr Geld sicher bei einer echten Bank mit Bundesschutz deponiert ist, aber die Benutzererfahrung, die App, das Dashboard und der Support von Mercury verwaltet werden. Das Beste aus beiden Welten: die Sicherheit einer regulierten Bank mit der Benutzerfreundlichkeit einer modernen Fintech.
 
@@ -633,7 +633,7 @@ Um als Nicht-Ansässiger ein Konto bei Mercury zu beantragen, benötigen Sie:
 3. **Operating Agreement**, unterschrieben.
 4. **Gültiger Reisepass** des Eigentümers/Mitglieds der LLC.
 5. **Adresse des Registered Agent** in den Vereinigten Staaten.
-6. **Klare Geschäftsbeschreibung** — was Ihr Unternehmen macht, an wen es verkauft, wie es Einnahmen generiert. Je detaillierter, desto besser.
+6. **Klare Geschäftsbeschreibung**: was Ihr Unternehmen macht, an wen es verkauft, wie es Einnahmen generiert. Je detaillierter, desto besser.
 
 ## Schritt-für-Schritt-Prozess
 
@@ -651,7 +651,7 @@ Mercury überprüft, ob Ihre LLC existiert, indem es die Register des Bundesstaa
 
 ### 4. Manuelle Überprüfung (falls zutreffend)
 
-In einigen Fällen gibt es eine zusätzliche manuelle Überprüfung. Dies geschieht insbesondere bei Aktivitäten, die als risikoreich eingestuft werden (Kryptowährungen, Trading, Finanzdienstleistungen). Es können zusätzliche Dokumente oder ein kurzes Interview angefordert werden. Keine Panik — das ist normal und wird in der Regel schnell gelöst.
+In einigen Fällen gibt es eine zusätzliche manuelle Überprüfung. Dies geschieht insbesondere bei Aktivitäten, die als risikoreich eingestuft werden (Kryptowährungen, Trading, Finanzdienstleistungen). Es können zusätzliche Dokumente oder ein kurzes Interview angefordert werden. Keine Panik, das ist normal und wird in der Regel schnell gelöst.
 
 ### 5. Genehmigung
 
@@ -694,13 +694,13 @@ Wenn Ihre LLC Kapital zwischen Ausschüttungen hält (die meisten Freiberufler s
 
 Mercury ist unsere erste Empfehlung, aber nicht die einzige Option:
 
-- **Relay** — Eine weitere hervorragende Fintech, ebenfalls ohne Gebühren. Die Einlagen werden bei **Thread Bank** verwahrt. Sehr gut geeignet für Unternehmen, die mehrere Unterkonten und Teamverwaltung benötigen.
-- **Wise Business** — Technisch gesehen ein EMI (E-Geld-Institut), weder eine Bank noch ein Money Transmitter. Ideal für internationale Überweisungen zum echten Wechselkurs, aber mit eingeschränkterer Bankfunktionalität.
-- **Airwallex** — Globale Plattform mit Multi-Währungskonten. Gute Option, wenn Sie in vielen Märkten tätig sind.
-- **Revolut Business** — Ein weiteres EMI mit guten Multi-Währungsfunktionen und Teamkarten.
-- **Lili** — Neobank (Fintech mit Banklizenz) für Freiberufler und Selbstständige mit integrierten Buchhaltungstools.
-- **Sokin** — Spezialisiert auf internationale Zahlungen mit Pauschalgebühren.
-- **Wallester** — Herausgeber von Firmenkarten mit guten Integrationen.
+- **Relay**: Eine weitere hervorragende Fintech, ebenfalls ohne Gebühren. Die Einlagen werden bei **Thread Bank** verwahrt. Sehr gut geeignet für Unternehmen, die mehrere Unterkonten und Teamverwaltung benötigen.
+- **Wise Business**: Technisch gesehen ein EMI (E-Geld-Institut), weder eine Bank noch ein Money Transmitter. Ideal für internationale Überweisungen zum echten Wechselkurs, aber mit eingeschränkterer Bankfunktionalität.
+- **Airwallex**: Globale Plattform mit Multi-Währungskonten. Gute Option, wenn Sie in vielen Märkten tätig sind.
+- **Revolut Business**: Ein weiteres EMI mit guten Multi-Währungsfunktionen und Teamkarten.
+- **Lili**: Neobank (Fintech mit Banklizenz) für Freiberufler und Selbstständige mit integrierten Buchhaltungstools.
+- **Sokin**: Spezialisiert auf internationale Zahlungen mit Pauschalgebühren.
+- **Wallester**: Herausgeber von Firmenkarten mit guten Integrationen.
 
 ## Mercury-Gebühren: die ultimative Tabelle
 
@@ -727,7 +727,7 @@ Ja, alles kostenlos. Mercury monetarisiert sich über Premium-Produkte (Mercury 
 
 Bei Exentax kümmern wir uns um die Eröffnung Ihres Mercury-Kontos als Teil des Gründungsprozesses Ihrer LLC. Wir bereiten die gesamte Dokumentation vor, überprüfen Ihre Geschäftsbeschreibung und stellen sicher, dass alles perfekt ist, bevor wir den Antrag einreichen. Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen alles.`,
 
-  "autonomo-espana-vs-llc-estados-unidos": `Wenn Sie Freiberufler oder Selbstständiger in Spanien sind und internationale Kunden abrechnen — oder Ihr Geschäft zu 100% digital ist — haben Sie sicher schon gedacht: „Macht es Sinn, weiterhin 40% an den spanischen Fiskus zu zahlen?" Die kurze Antwort: wahrscheinlich nicht. Die Zahlen sind brutal.
+  "autonomo-espana-vs-llc-estados-unidos": `Wenn Sie Freiberufler oder Selbstständiger in Spanien sind und internationale Kunden abrechnen, oder Ihr Geschäft zu 100% digital ist. haben Sie sicher schon gedacht: „Macht es Sinn, weiterhin 40% an den spanischen Fiskus zu zahlen?" Die kurze Antwort: wahrscheinlich nicht. Die Zahlen sind brutal.
 
 Lassen Sie uns mit realen Daten vergleichen, wie viel Sie als Selbstständiger in Spanien zahlen und wie viel Sie über eine LLC in den Vereinigten Staaten zahlen würden. Ohne Umschweife.
 
@@ -754,7 +754,7 @@ Seit 2023 wendet Spanien ein System der Beitragsbemessung nach tatsächlichem Ei
 
 ### Mehrwertsteuer (IVA)
 
-Wenn Sie Dienstleistungen an EU-Unternehmen verkaufen, gilt das Reverse-Charge-Verfahren (0% MwSt.). Wenn Sie an Privatpersonen oder außerhalb der EU verkaufen, kann MwSt. oder eine Befreiung gelten. Und obendrein müssen Sie vierteljährliche Formulare verwalten (303, 349, 390...).
+Wenn Sie Dienstleistungen an EU-Unternehmen verkaufen, gilt das Reverse-Charge-Verfahren (0% MwSt.). Wenn Sie an Privatpersonen oder außerhalb der EU verkaufen, kann MwSt, oder eine Befreiung gelten. Und obendrein müssen Sie vierteljährliche Formulare verwalten (303, 349, 390...).
 
 ### Typisches Ergebnis
 
@@ -780,7 +780,7 @@ Hängt vom Gründungsstaat ab:
 
 ### Steuerliche Pflichten (Compliance)
 
-- **Form 5472 + Form 1120:** Jährliche Informationserklärung beim IRS. Keine Steuerzahlung erforderlich — es handelt sich um informative Dokumente, die Exentax für Sie erledigt.
+- **Form 5472 + Form 1120:** Jährliche Informationserklärung beim IRS. Keine Steuerzahlung erforderlich, es handelt sich um informative Dokumente, die Exentax für Sie erledigt.
 - **BOI Report:** Bericht über die wirtschaftlich Berechtigten bei FinCEN.
 - **Jährliche Unterhaltungskosten:** je nach Bundesstaat (inklusive Registered Agent, Erklärungen und vollständiger Compliance).
 
@@ -823,7 +823,7 @@ Lassen Sie uns es mit einem Beispiel von 60.000€ Umsatz verdeutlichen:
 - **Mit optimierter LLC:** Sie zahlen zwischen 5.000€ und 8.000€ insgesamt (Steuern + LLC-Kosten)
 - **Jährliche Ersparnis:** zwischen **10.000€ und 19.000€** mehr in Ihrer Tasche
 
-Das ist eine Reise, ein Notfallfonds, eine Investition... oder einfach besser leben. Jedes Jahr.
+Das ist eine Reise, ein Notfallfonds, eine Investition.., oder einfach besser leben. Jedes Jahr.
 
 ## Direkter Vergleich
 
@@ -845,11 +845,11 @@ Das ist eine Reise, ein Notfallfonds, eine Investition... oder einfach besser le
 Die LLC macht Sinn, wenn Sie mindestens zwei dieser Kriterien erfüllen:
 
 1. **Sie stellen mehr als 30.000€/Jahr** internationalen Kunden in Rechnung.
-2. **Ihr Geschäft ist zu 100% digital** — es erfordert keine physische Präsenz in Spanien.
+2. **Ihr Geschäft ist zu 100% digital**: es erfordert keine physische Präsenz in Spanien.
 3. **Sie rechnen in Dollar ab** oder benötigen Zugang zu US-amerikanischen Finanzplattformen.
 4. **Sie möchten Vermögensschutz** durch Trennung von privatem und geschäftlichem Vermögen.
 5. **Sie planen zu skalieren** und benötigen eine Struktur, die Wachstum unterstützt.
-6. **Sie haben genug davon**, Sozialversicherungsbeiträge zu zahlen, vierteljährliche MwSt. zu verwalten und zuzusehen, wie das Steuersystem fast die Hälfte einbehält.
+6. **Sie haben genug davon**, Sozialversicherungsbeiträge zu zahlen, vierteljährliche MwSt, zu verwalten und zuzusehen, wie das Steuersystem fast die Hälfte einbehält.
 
 ## Für wen macht es KEINEN Sinn?
 
@@ -862,7 +862,7 @@ Die LLC macht Sinn, wenn Sie mindestens zwei dieser Kriterien erfüllen:
 Über die Steuerersparnis hinaus eröffnet Ihnen die LLC Zugang zu Finanztools, die als Selbstständiger schlicht nicht existieren:
 
 - **Gebührenfreies Banking:** Mercury (Column NA, FDIC, \$0 für nationale und internationale Überweisungen) oder Relay (Thread Bank, 20 kostenlose Unterkonten)
-- **Corporate Treasury:** Slash erwirtschaftet Rendite auf Ihr ungenutztes Kapital — Geld, das Sie für Steuern reservieren oder als Betriebsmittel halten, arbeitet für Sie statt an Wert zu verlieren
+- **Corporate Treasury:** Slash erwirtschaftet Rendite auf Ihr ungenutztes Kapital. Geld, das Sie für Steuern reservieren oder als Betriebsmittel halten, arbeitet für Sie statt an Wert zu verlieren
 - **Firmenkarten:** Wallester ermöglicht die Ausgabe virtueller und physischer Karten mit Limits und granularer Kontrolle
 - **Echtes Multi-Währungs-Banking:** Wise Business zum Mid-Market-Wechselkurs und Revolut Business mit Multi-Währungskonten, ohne die versteckten Margen traditioneller Banken
 - **Globale Zahlungsgateways:** Stripe, Adyen, DoDo Payments (Merchant of Record, das Umsatzsteuer automatisch verwaltet)
@@ -870,7 +870,7 @@ Die LLC macht Sinn, wenn Sie mindestens zwei dieser Kriterien erfüllen:
 
 ## Bei Exentax kümmern wir uns um alles
 
-Wenn Sie den Schritt wagen möchten, gründen wir bei Exentax nicht nur Ihre LLC und beantragen Ihre EIN — wir gestalten Ihre komplette Struktur: Bankkontoöffnung, Treasury-Konfiguration mit Slash, Wallester-Firmenkarten mit Euro-IBAN, Integration mit Stripe oder dem Gateway Ihrer Wahl, und die gesamte jährliche Compliance (Form 5472, BOI Report, Erneuerung des Registered Agent). Wir sind keine LLC-Verkäufer: Wir sind Strukturdesigner.
+Wenn Sie den Schritt wagen möchten, gründen wir bei Exentax nicht nur Ihre LLC und beantragen Ihre EIN. wir gestalten Ihre komplette Struktur: Bankkontoöffnung, Treasury-Konfiguration mit Slash, Wallester-Firmenkarten mit Euro-IBAN, Integration mit Stripe oder dem Gateway Ihrer Wahl, und die gesamte jährliche Compliance (Form 5472, BOI Report, Erneuerung des Registered Agent). Wir sind keine LLC-Verkäufer: Wir sind Strukturdesigner.
 
 Möchten Sie genau wissen, wie viel Sie mit Ihrem Umsatz sparen würden? Nutzen Sie unseren kostenlosen Steuerrechner oder vereinbaren Sie eine 30-minütige Beratung. Wir geben Ihnen echte Zahlen, keine Versprechen.`,
 
@@ -948,7 +948,7 @@ Möchten Sie genau wissen, wie viel Sie mit Ihrem Umsatz sparen würden? Nutzen 
 
 
 
-  "impuestos-clientes-internacionales-espana": `Wenn Sie Freiberufler oder Selbstständiger in Spanien sind und Ihre Kunden in anderen Ländern sitzen — sei es in den Vereinigten Staaten, Großbritannien, Deutschland oder irgendwo sonst auf der Welt — ist Ihre steuerliche Situation völlig anders als bei jemandem, der nur mit nationalen Kunden arbeitet.
+  "impuestos-clientes-internacionales-espana": `Wenn Sie Freiberufler oder Selbstständiger in Spanien sind und Ihre Kunden in anderen Ländern sitzen. sei es in den Vereinigten Staaten, Großbritannien, Deutschland oder irgendwo sonst auf der Welt. ist Ihre steuerliche Situation völlig anders als bei jemandem, der nur mit nationalen Kunden arbeitet.
 
 Und trotzdem behandeln die meisten Steuerberater in Spanien Sie genauso. Sie wenden die gleiche progressive IRPF an, berechnen Ihnen die gleichen Sozialversicherungsbeiträge und erwähnen nicht einmal, dass es legale Alternativen gibt, um Ihre Steuerbelastung radikal zu optimieren.
 
@@ -960,8 +960,8 @@ Wenn Sie Dienstleistungen an Unternehmen außerhalb Spaniens erbringen, gibt es 
 
 Wenn Sie digitale Dienstleistungen (Programmierung, Design, Beratung, Marketing usw.) an Unternehmen mit Sitz außerhalb Spaniens verkaufen:
 
-- **Kunden in der EU (B2B):** Es gilt das Reverse-Charge-Verfahren. Sie stellen ohne MwSt. in Rechnung und der Kunde führt sie in seinem Land ab. Formular 349 ist Pflicht.
-- **Kunden außerhalb der EU:** Der Vorgang unterliegt nicht der spanischen MwSt. Sie stellen direkt ohne MwSt. in Rechnung.
+- **Kunden in der EU (B2B):** Es gilt das Reverse-Charge-Verfahren. Sie stellen ohne MwSt, in Rechnung und der Kunde führt sie in seinem Land ab. Formular 349 ist Pflicht.
+- **Kunden außerhalb der EU:** Der Vorgang unterliegt nicht der spanischen MwSt. Sie stellen direkt ohne MwSt, in Rechnung.
 - **Privatkunden (B2C) in der EU:** Es gilt das OSS-System (One-Stop Shop), wenn Sie 10.000€/Jahr an Verkäufen an Endverbraucher in anderen EU-Ländern überschreiten.
 
 In der Praxis gilt: Wenn Sie B2B außerhalb Spaniens verkaufen, **berechnen und erklären Sie keine MwSt.** für diese Vorgänge. Dies vereinfacht Ihre Buchhaltung enorm.
@@ -1012,7 +1012,7 @@ Diese Option erfordert einen tatsächlichen Umzug und die Einhaltung der 183-Tag
 
 ## Ist es möglich, 0% zu zahlen?
 
-Technisch ja — aber nicht als Selbstständiger in Spanien. Um eine effektive Steuerbelastung von 0% zu erreichen, benötigen Sie:
+Technisch ja, aber nicht als Selbstständiger in Spanien. Um eine effektive Steuerbelastung von 0% zu erreichen, benötigen Sie:
 
 1. **Ihren steuerlichen Wohnsitz** in ein Land mit 0% Einkommensteuer verlegen (Dubai, Bahamas usw.)
 2. **Über eine LLC operieren**, die in den USA nicht besteuert wird (0% Bundessteuer)
@@ -1032,18 +1032,18 @@ Dies ist vollkommen legal, wenn Sie die Anforderungen an den steuerlichen Wohnsi
 Lassen Sie uns direkt sein: Wenn Sie internationale Kunden aus Spanien abrechnen und als Selbstständiger 35-47% zahlen, kann eine LLC in den Vereinigten Staaten Ihre steuerliche Situation komplett verändern. So funktioniert es:
 
 1. **Sie gründen eine LLC** in einem Staat wie New Mexico (Privatsphäre, kein Annual Report, minimale Kosten)
-2. **Die LLC stellt Ihren internationalen Kunden Rechnungen** — in Dollar, mit Stripe, PayPal oder Wire Transfer
-3. **Die LLC zahlt keine Bundessteuer** in den USA (\$0 — Pass-Through-Besteuerung, Disregarded Entity)
+2. **Die LLC stellt Ihren internationalen Kunden Rechnungen**: in Dollar, mit Stripe, PayPal oder Wire Transfer
+3. **Die LLC zahlt keine Bundessteuer** in den USA (\$0. Pass-Through-Besteuerung, Disregarded Entity)
 4. **Sie optimieren Ihre Bemessungsgrundlage** in Ihrem Wohnsitzland: Sie erklären die Nettogewinne (Einnahmen minus alle abzugsfähigen Ausgaben)
-5. **Ihre Steuerbelastung sinkt drastisch** — weil Sie Software, Hardware, Marketing, Weiterbildung, Bankgebühren, professionelle Dienstleistungen, Ihr Operating Agreement und mehr absetzen...
+5. **Ihre Steuerbelastung sinkt drastisch**: weil Sie Software, Hardware, Marketing, Weiterbildung, Bankgebühren, professionelle Dienstleistungen, Ihr Operating Agreement und mehr absetzen...
 
 Das Ergebnis: Sie gehen von einer effektiven Rate von 35-47% auf 0% US-Bundessteuer. Bei gleichem Umsatz.
 
 ### Die Mehrwertsteuer: ein Vorteil, den Sie bereits haben (und nutzen sollten)
 
 Wenn Sie B2B-Dienstleistungen an Kunden außerhalb Spaniens verkaufen:
-- **Kunden in der EU:** Reverse-Charge-Verfahren. Sie stellen ohne MwSt. in Rechnung.
-- **Kunden außerhalb der EU:** Vorgang nicht der spanischen MwSt. unterworfen. Sie stellen direkt ohne MwSt. in Rechnung.
+- **Kunden in der EU:** Reverse-Charge-Verfahren. Sie stellen ohne MwSt, in Rechnung.
+- **Kunden außerhalb der EU:** Vorgang nicht der spanischen MwSt. unterworfen. Sie stellen direkt ohne MwSt, in Rechnung.
 
 Das ist bereits ein enormer Vorteil. Aber mit einer LLC läuft zusätzlich zum MwSt.-freien Abrechnen an Ihre internationalen Kunden die gesamte Fakturierung über eine Struktur, die Ihre globale Steuerbelastung radikal optimiert.
 
@@ -1065,7 +1065,7 @@ Bei Exentax analysieren wir Ihren konkreten Fall in einer kostenlosen 30-minüti
 
 Bevor wir über "null Steuern zahlen" sprechen, müssen Sie verstehen, wie eine LLC steuerlich funktioniert. Eine Single-Member LLC eines Nicht-Residenten funktioniert mit **Pass-Through-Besteuerung** (steuerliche Transparenz):
 
-1. **Die LLC selbst zahlt keine Bundessteuer in den USA.** — \$0. Null. Der IRS klassifiziert sie als "Disregarded Entity", wenn der Eigentümer nicht ansässig ist und keine Einkünfte aus US-amerikanischen Quellen hat.
+1. **Die LLC selbst zahlt keine Bundessteuer in den USA.**: \$0. Null. Der IRS klassifiziert sie als "Disregarded Entity", wenn der Eigentümer nicht ansässig ist und keine Einkünfte aus US-amerikanischen Quellen hat.
 2. **Die Gewinne "fließen durch"** die LLC direkt zum Eigentümer.
 3. **Der Eigentümer erklärt diese Gewinne in seinem steuerlichen Wohnsitzland.** Mit der richtigen Struktur erfolgt diese Erklärung auf Basis der Nettogewinne (Einnahmen minus Ausgaben), was die Steuerlast erheblich reduziert.
 
@@ -1076,7 +1076,7 @@ Das heißt: Die LLC zahlt keine Steuern in den USA, aber Sie zahlen in Ihrem Lan
 Klären wir den Unterschied:
 
 - **Steuerhinterziehung:** Einkünfte nicht deklarieren, Geld verstecken, gefälschte Rechnungen. Das ist illegal.
-- **Aggressive Steuergestaltung:** Gesetzliche Lücken aggressiv nutzen, um nicht zu zahlen. Legal, aber riskant — die Finanzbehörden können die Gestaltung umqualifizieren.
+- **Aggressive Steuergestaltung:** Gesetzliche Lücken aggressiv nutzen, um nicht zu zahlen. Legal, aber riskant, die Finanzbehörden können die Gestaltung umqualifizieren.
 - **Steueroptimierung:** Die Strukturen und Regelungen nutzen, die das Gesetz Ihnen zur Verfügung stellt, um den angemessenen Betrag zu zahlen. Zu 100% legal und genau das tun wir bei Exentax.
 
 ## Die 3 Szenarien, in denen Sie 0% (oder fast 0%) zahlen können
@@ -1086,7 +1086,7 @@ Klären wir den Unterschied:
 Dies ist das direkteste Szenario, um 0% zu erreichen:
 
 1. **Sie gründen eine LLC in den Vereinigten Staaten** (Single-Member, Nicht-Resident)
-2. **Die LLC zahlt \$0 Bundessteuer** in den USA — Pass-Through-Besteuerung, Disregarded Entity
+2. **Die LLC zahlt \$0 Bundessteuer** in den USA. Pass-Through-Besteuerung, Disregarded Entity
 3. **Sie verlegen Ihren steuerlichen Wohnsitz** in ein Land ohne Einkommensteuer:
    - **Vereinigte Arabische Emirate (Dubai):** 0% Einkommensteuer, 9% Körperschaftsteuer (nur wenn Sie mehr als 375.000 AED ~ 93.000€/Jahr über eine lokale Einheit fakturieren)
    - **Paraguay:** 0% auf ausländische Einkünfte
@@ -1101,7 +1101,7 @@ Dies ist das direkteste Szenario, um 0% zu erreichen:
 
 ### Szenario 2: LLC in den USA + Beckham-Gesetz (Spanien)
 
-Wenn Sie gerade nach Spanien gezogen sind (oder weniger als 5 Jahre nicht steuerlich ansässig in Spanien waren), können Sie das Impatriiertenregime nutzen — das bekannte "Ley Beckham":
+Wenn Sie gerade nach Spanien gezogen sind (oder weniger als 5 Jahre nicht steuerlich ansässig in Spanien waren), können Sie das Impatriiertenregime nutzen, das bekannte "Ley Beckham":
 
 - **Pauschaler Steuersatz von 24%** auf in Spanien erzielte Einkünfte (nicht progressiv)
 - **Befreiung von im Ausland erzielten Einkünften** (mit Ausnahmen)
@@ -1122,7 +1122,7 @@ Wenn Ihre Einkünfte aus einer amerikanischen LLC stammen und Ihre Kunden intern
 
 ## Was ist, wenn Sie steuerlich in Deutschland ansässig sind?
 
-Wenn Sie steuerlich in Deutschland ansässig sind und NICHT umziehen möchten, **können Sie nicht 0% zahlen.** Deutschland besteuert das Welteinkommen — es spielt keine Rolle, wo Sie die Einkünfte erzielen oder welche Struktur Sie verwenden. Jeder, der Ihnen etwas anderes erzählt, lügt.
+Wenn Sie steuerlich in Deutschland ansässig sind und NICHT umziehen möchten, **können Sie nicht 0% zahlen.** Deutschland besteuert das Welteinkommen, es spielt keine Rolle, wo Sie die Einkünfte erzielen oder welche Struktur Sie verwenden. Jeder, der Ihnen etwas anderes erzählt, lügt.
 
 Aber (und es ist ein sehr großes "Aber"): Sie können Ihre Steuerlast erheblich reduzieren:
 
@@ -1137,7 +1137,7 @@ Die Reduzierung von 40% auf potenziell 0% stellt bereits eine enorme Ersparnis d
 
 1. **Sie müssen wirklich umziehen.** Es reicht nicht, eine Adresse in Dubai zu haben und weiterhin in Berlin zu leben. Die Finanzbehörden sind besonders streng mit "falschen Nicht-Residenten" und gleichen Daten zu Stromverbrauch, Kreditkarten, Schulbesuch der Kinder usw. ab.
 
-2. **Das erste Jahr ist das teuerste.** LLC gründen, steuerlichen Wohnsitz wechseln, Konten eröffnen, sich im neuen Land etablieren — all das hat erhebliche Anfangskosten.
+2. **Das erste Jahr ist das teuerste.** LLC gründen, steuerlichen Wohnsitz wechseln, Konten eröffnen, sich im neuen Land etablieren. all das hat erhebliche Anfangskosten.
 
 3. **Die Compliance verschwindet nicht.** Auch wenn Sie 0% Steuern zahlen, haben Sie weiterhin Meldepflichten: Form 5472, BOI Report, lokale Erklärungen in Ihrem neuen Land usw.
 
@@ -1159,7 +1159,7 @@ Die Steueroptimierung ist nutzlos, wenn Sie nicht die Infrastruktur haben, um da
 - **Wallester**: Firmenkarten mit Euro-IBAN und granularer Ausgabenkontrolle
 - **Stripe / Adyen / DoDo Payments**: Zahlungs-Gateways für weltweites Inkasso
 
-Die Kombination aus optimierter Besteuerung + erstklassigen Finanztools macht den eigentlichen Unterschied. Es geht nicht nur darum, weniger Steuern zu zahlen — es geht darum, mit einer kompletten Infrastruktur zu arbeiten.
+Die Kombination aus optimierter Besteuerung + erstklassigen Finanztools macht den eigentlichen Unterschied. Es geht nicht nur darum, weniger Steuern zu zahlen, es geht darum, mit einer kompletten Infrastruktur zu arbeiten.
 
 Für die meisten Freiberufler/Selbstständigen, die zwischen 30.000€ und 150.000€ pro Jahr fakturieren:
 
@@ -1174,7 +1174,7 @@ Möchten Sie wissen, ob Ihr Profil es erlaubt, Ihre Steuerlast mit einer amerika
 
   "nomada-digital-residencia-fiscal": `Wenn Sie als digitaler Nomade arbeiten und einen Monat auf Bali, den nächsten in Lissabon und danach in Medellín verbringen, haben Sie ein steuerliches Problem, das die meisten ignorieren: In welchem Land versteuern Sie Ihre Einkünfte?
 
-Die Antwort ist weder "wo ich gerade bin" noch "wo ich meinen Reisepass habe". Es ist ein Thema, das Planung erfordert — und es von Anfang an richtig zu machen, erspart Ihnen Komplikationen und optimiert Ihre Steuerlast.
+Die Antwort ist weder "wo ich gerade bin" noch "wo ich meinen Reisepass habe". Es ist ein Thema, das Planung erfordert, und es von Anfang an richtig zu machen, erspart Ihnen Komplikationen und optimiert Ihre Steuerlast.
 
 ## Die 183-Tage-Regel
 
@@ -1183,7 +1183,7 @@ Die meisten Länder verwenden die 183-Tage-Regel als Hauptkriterium für die ste
 Aber es gibt kritische Nuancen:
 
 - **Deutschland** berücksichtigt neben den 183 Tagen weitere Faktoren: Mittelpunkt der wirtschaftlichen Interessen, Ehepartner und minderjährige Kinder mit Wohnsitz in Deutschland. Sie können als steuerlich ansässig in Deutschland betrachtet werden, auch wenn Sie weniger als 183 Tage dort verbringen.
-- **Einige Länder haben nicht die 183-Tage-Regel** als einziges Kriterium — die Vereinigten Staaten verwenden den "Substantial Presence Test", der die Tage der letzten 3 Jahre gewichtet.
+- **Einige Länder haben nicht die 183-Tage-Regel** als einziges Kriterium, die Vereinigten Staaten verwenden den "Substantial Presence Test", der die Tage der letzten 3 Jahre gewichtet.
 - **Doppelbesteuerungsabkommen (DBA)** zwischen Ländern enthalten Tie-Breaker-Regeln für den Fall, dass Sie in zwei Ländern gleichzeitig steuerlich ansässig sein könnten.
 
 ## Die echte Gefahr: In keinem Land steuerlich ansässig sein
@@ -1192,11 +1192,11 @@ Einige digitale Nomaden glauben, dass sie nirgendwo steuerlich ansässig sind, w
 
 - **Deutschland** wird Sie weiterhin als steuerlich ansässig betrachten, wenn Ihr letzter bekannter Wohnsitz in Deutschland war und Sie keinen steuerlichen Wohnsitz in einem anderen Land nachweisen können
 - **Andere Länder** können Ihre steuerliche Ansässigkeit beanspruchen, wenn Sie bedeutende wirtschaftliche Verbindungen haben (Bankkonten, Kunden, Immobilien)
-- **Die Abwesenheit einer steuerlichen Ansässigkeit** gibt es in der Praxis nicht — Sie werden immer irgendwo steuerlich ansässig sein
+- **Die Abwesenheit einer steuerlichen Ansässigkeit** gibt es in der Praxis nicht. Sie werden immer irgendwo steuerlich ansässig sein
 
 ## Die besten Optionen für den steuerlichen Wohnsitz digitaler Nomaden
 
-### 1. Portugal — NHR-Regime (aktualisiert 2025)
+### 1. Portugal. NHR-Regime (aktualisiert 2025)
 
 Das Regime für Nicht-Habituelle Residenten wurde 2024 geändert. Die neue Version bietet:
 - Reduzierter Steuersatz von 20% auf Arbeitseinkünfte aus "Tätigkeiten mit hoher Wertschöpfung"
@@ -1235,23 +1235,23 @@ Das Regime für Nicht-Habituelle Residenten wurde 2024 geändert. Die neue Versi
 
 Es gibt eine Gruppe von Ländern, die nur Einkünfte besteuern, die innerhalb ihrer Grenzen generiert werden. Wenn Ihre Einkünfte aus einer amerikanischen LLC stammen und Ihre Kunden international sind, können diese Länder Ihr bester Verbündeter sein:
 
-- **Panama** — Nur in Panama generierte Einkünfte werden besteuert. Einkünfte aus Ihrer amerikanischen LLC: befreit.
-- **Costa Rica** — Ähnliches Territorialprinzip. Ausländische Einkünfte werden nicht besteuert.
-- **Paraguay** — Maximal 10% auf inländische Einkünfte. Ausländische Einkünfte: 0%.
-- **Guatemala** — Territorialprinzip. Ausländische Einkünfte unterliegen nicht der Einkommensteuer.
-- **Nicaragua** — Ähnlich dem zentralamerikanischen Territorialmodell.
+- **Panama**: Nur in Panama generierte Einkünfte werden besteuert. Einkünfte aus Ihrer amerikanischen LLC: befreit.
+- **Costa Rica**: Ähnliches Territorialprinzip. Ausländische Einkünfte werden nicht besteuert.
+- **Paraguay**: Maximal 10% auf inländische Einkünfte. Ausländische Einkünfte: 0%.
+- **Guatemala**: Territorialprinzip. Ausländische Einkünfte unterliegen nicht der Einkommensteuer.
+- **Nicaragua**: Ähnlich dem zentralamerikanischen Territorialmodell.
 
 Der Schlüssel hier ist, dass Ihre Einkünfte wirklich aus ausländischen Quellen stammen müssen. Wenn Ihre LLC Kunden weltweit fakturiert und Sie einfach in einem dieser Länder leben, ist die Kombination äußerst wirkungsvoll.
 
 ## Doppelbesteuerungsabkommen (DBA): Ihr Schutzschild gegen doppelte Besteuerung
 
-DBA sind Abkommen zwischen Ländern, die verhindern, dass Ihnen für dieselben Einkünfte zweimal Steuern berechnet werden. Deutschland hat über 90 DBA unterzeichnet. Diese Abkommen enthalten "Tie-Breaker-Regeln" — Tiebreaker-Regeln, die Ihre steuerliche Ansässigkeit bestimmen, wenn zwei Länder Sie beanspruchen.
+DBA sind Abkommen zwischen Ländern, die verhindern, dass Ihnen für dieselben Einkünfte zweimal Steuern berechnet werden. Deutschland hat über 90 DBA unterzeichnet. Diese Abkommen enthalten "Tie-Breaker-Regeln". Tiebreaker-Regeln, die Ihre steuerliche Ansässigkeit bestimmen, wenn zwei Länder Sie beanspruchen.
 
 Die Tiebreaker-Kriterien (in der Reihenfolge der Priorität):
-1. **Ständige Wohnstätte** — In welchem Land haben Sie eine Wohnung zur Verfügung?
-2. **Mittelpunkt der Lebensinteressen** — Wo ist Ihre Familie, wo sind Ihre wichtigsten wirtschaftlichen Beziehungen?
-3. **Gewöhnlicher Aufenthalt** — Wo verbringen Sie mehr Zeit?
-4. **Staatsangehörigkeit** — letztes Mittel
+1. **Ständige Wohnstätte**: In welchem Land haben Sie eine Wohnung zur Verfügung?
+2. **Mittelpunkt der Lebensinteressen**: Wo ist Ihre Familie, wo sind Ihre wichtigsten wirtschaftlichen Beziehungen?
+3. **Gewöhnlicher Aufenthalt**: Wo verbringen Sie mehr Zeit?
+4. **Staatsangehörigkeit**: letztes Mittel
 
 Die Kenntnis dieser Abkommen ist für digitale Nomaden von grundlegender Bedeutung. Bei Exentax analysieren wir sie mit Ihnen, um die optimale Struktur für Ihren Fall zu entwerfen.
 
@@ -1259,15 +1259,15 @@ Die Kenntnis dieser Abkommen ist für digitale Nomaden von grundlegender Bedeutu
 
 Das effizienteste Setup für die meisten digitalen Nomaden ist:
 
-1. **LLC in den USA** zur Rechnungsstellung (0% Bundessteuer für Nicht-Residenten — Pass-Through-Besteuerung)
+1. **LLC in den USA** zur Rechnungsstellung (0% Bundessteuer für Nicht-Residenten. Pass-Through-Besteuerung)
 2. **Steuerlicher Wohnsitz in einem günstigen Land** (0-10% Einkommensteuer oder Territorialbesteuerung)
 3. **Mercury-Bankkonto** für den Geschäftsbetrieb (Column NA, FDIC-Versicherung, \$0 für Überweisungen)
-4. **Wise Business** für die Währungsumrechnung zum echten Wechselkurs (es handelt sich um ein EMI, keine Bank — ergänzt Mercury)
+4. **Wise Business** für die Währungsumrechnung zum echten Wechselkurs (es handelt sich um ein EMI, keine Bank. ergänzt Mercury)
 5. **Stripe/PayPal** um Zahlungen von globalen Kunden zu empfangen
 
 Mit diesem Setup kann Ihre gesamte Steuerlast 0% bis 10% betragen, abhängig vom gewählten Wohnsitzland. Und das Beste: Alles wird zu 100% remote verwaltet.
 
-Bei Exentax entwerfen wir diese komplette Struktur für Sie. Wir analysieren Ihre Situation, Ihr Herkunftsland, Ihre Reisepläne und schlagen Ihnen die optimale Kombination aus LLC + steuerlichem Wohnsitz + Finanztools vor. Es ist keine generische Vorlage — es ist ein maßgeschneiderter Plan.
+Bei Exentax entwerfen wir diese komplette Struktur für Sie. Wir analysieren Ihre Situation, Ihr Herkunftsland, Ihre Reisepläne und schlagen Ihnen die optimale Kombination aus LLC + steuerlichem Wohnsitz + Finanztools vor. Es ist keine generische Vorlage, es ist ein maßgeschneiderter Plan.
 
 ## So ändern Sie Ihren steuerlichen Wohnsitz
 
@@ -1279,7 +1279,7 @@ Wenn Sie derzeit in einem Land steuerlich ansässig sind und wechseln möchten, 
 4. **Reichen Sie die entsprechenden Wegzugserklärungen** in Ihrem Herkunftsland ein
 5. **Bauen Sie echte Verbindungen** im neuen Land auf: lokales Bankkonto, Krankenversicherung, Mietvertrag
 
-Bei Exentax helfen wir Ihnen, den kompletten Prozess zu planen — von der benötigten Dokumentation bis hin zur optimalen Strukturierung Ihrer LLC, damit alles optimal zusammenpasst.
+Bei Exentax helfen wir Ihnen, den kompletten Prozess zu planen, von der benötigten Dokumentation bis hin zur optimalen Strukturierung Ihrer LLC, damit alles optimal zusammenpasst.
 
 ## Die 183-Tage-Regel: Was sie wirklich bedeutet
 
@@ -1295,18 +1295,18 @@ Die 183-Tage-Regel ist das Hauptkriterium, aber nicht das einzige. Deshalb ist e
 ## Schwerwiegende Fehler digitaler Nomaden
 
 1. **Den Wohnsitzwechsel nicht den Finanzbehörden Ihres Landes mitteilen.** Ihr Herkunftsland kann Sie weiterhin als steuerlich ansässig betrachten und Steuern + Zuschläge + Zinsen einfordern. Die Finanzbehörden sind besonders streng mit "falschen Nicht-Residenten".
-2. **Glauben, dass die e-Residency Estlands Ihre Steuerfragen löst.** Das tut sie nicht — es ist eine digitale Identität, kein steuerlicher Wohnsitz. Sie können die estnische e-Residency haben und trotzdem in Deutschland steuerlich ansässig sein.
+2. **Glauben, dass die e-Residency Estlands Ihre Steuerfragen löst.** Das tut sie nicht, es ist eine digitale Identität, kein steuerlicher Wohnsitz. Sie können die estnische e-Residency haben und trotzdem in Deutschland steuerlich ansässig sein.
 3. **Ihre Vermögenswerte im Ausland nicht deklarieren**, wenn Sie die erforderlichen Schwellenwerte bei den Behörden Ihres Wohnsitzlandes überschreiten.
 4. **Die Adresse eines Familienmitglieds in Deutschland** als steuerlichen Wohnsitz nutzen, während Sie im Ausland leben. Dies macht Sie in Deutschland steuerlich ansässig.
 5. **Keine Krankenversicherung haben.** Viele Länder verlangen eine Versicherung, um Visa für digitale Nomaden zu erteilen.
-6. **Glauben, dass es eine Option ist, nirgendwo ansässig zu sein.** Das ist es nicht. Sie werden immer in einem Land steuerlich ansässig sein — und wenn Sie nicht selbst wählen, wählt es automatisch das Steuersystem Ihres Herkunftslandes.
+6. **Glauben, dass es eine Option ist, nirgendwo ansässig zu sein.** Das ist es nicht. Sie werden immer in einem Land steuerlich ansässig sein, und wenn Sie nicht selbst wählen, wählt es automatisch das Steuersystem Ihres Herkunftslandes.
 7. **Die DBA nicht berücksichtigen.** Doppelbesteuerungsabkommen können Ihnen Tausende von Euro sparen, wenn Sie sie kennen und anwenden.
 
 ## Wie fangen Sie an?
 
 Wenn Sie digitaler Nomade sind (oder darüber nachdenken, einer zu werden), ist die ideale Reihenfolge:
 
-1. **Definieren Sie Ihre Steuerstrategie** bevor Sie umziehen — nicht danach
+1. **Definieren Sie Ihre Steuerstrategie** bevor Sie umziehen, nicht danach
 2. **Wählen Sie Ihr Land für den steuerlichen Wohnsitz** basierend auf Daten, nicht auf YouTube-Videos
 3. **Gründen Sie Ihre LLC** als Rechnungsstellungsvehikel
 4. **Richten Sie Ihr Finanzökosystem ein** (Mercury + Wise + Stripe)
@@ -1314,7 +1314,7 @@ Wenn Sie digitaler Nomade sind (oder darüber nachdenken, einer zu werden), ist 
 
 Bei Exentax begleiten wir digitale Nomaden durch den gesamten Prozess. Von der ersten Analyse über die LLC-Gründung und die Kontoeröffnung bis hin zum Design der kompletten steuerlichen Struktur. Vereinbaren Sie Ihre kostenlose Beratung und wir beginnen mit der Arbeit an Ihrem Plan.`,
 
-  "criptomonedas-trading-llc-impuestos": `Der Handel mit Kryptowährungen erzeugt steuerliche Pflichten, die viele Trader ignorieren — bis die Finanzbehörden an die Tür klopfen. Wenn Sie mit Bitcoin, Ethereum, Stablecoins oder anderen Kryptoassets handeln, müssen Sie verstehen, wie die Besteuerung funktioniert und welche Möglichkeiten Sie zur Optimierung haben.
+  "criptomonedas-trading-llc-impuestos": `Der Handel mit Kryptowährungen erzeugt steuerliche Pflichten, die viele Trader ignorieren. bis die Finanzbehörden an die Tür klopfen. Wenn Sie mit Bitcoin, Ethereum, Stablecoins oder anderen Kryptoassets handeln, müssen Sie verstehen, wie die Besteuerung funktioniert und welche Möglichkeiten Sie zur Optimierung haben.
 
 ## Wie werden Kryptowährungen in Deutschland besteuert?
 
@@ -1350,12 +1350,12 @@ Die Single-Member LLC eines Nicht-Residenten (Disregarded Entity) zahlt keine Bu
 
 ## Das ideale Setup für einen Kryptowährungstrader
 
-1. **LLC in Wyoming** — Maximale Privatsphäre und Vermögensschutz
-2. **EIN vom IRS** — Zur Eröffnung von Konten bei Börsen und Banken
-3. **Mercury-Konto** — Zum Empfang von Geldern von Börsen in USD
-4. **Börse mit Geschäftskonto** — Coinbase, Kraken oder Binance US mit Unternehmensverifizierung
-5. **Hardware Wallet** — Ledger oder Trezor für sichere Verwahrung
-6. **Software zur Steuerverfolgung** — CoinTracker, Koinly oder TokenTax zur Aufzeichnung der Transaktionen
+1. **LLC in Wyoming**: Maximale Privatsphäre und Vermögensschutz
+2. **EIN vom IRS**: Zur Eröffnung von Konten bei Börsen und Banken
+3. **Mercury-Konto**: Zum Empfang von Geldern von Börsen in USD
+4. **Börse mit Geschäftskonto**: Coinbase, Kraken oder Binance US mit Unternehmensverifizierung
+5. **Hardware Wallet**: Ledger oder Trezor für sichere Verwahrung
+6. **Software zur Steuerverfolgung**: CoinTracker, Koinly oder TokenTax zur Aufzeichnung der Transaktionen
 
 ## Häufige Fehler von Tradern
 
@@ -1367,10 +1367,10 @@ Die Single-Member LLC eines Nicht-Residenten (Disregarded Entity) zahlt keine Bu
 
 ## Zusätzliche Vorteile der LLC für Trader
 
-- **Zugang zu US-Dollar-Bankkonten** — Mercury ermöglicht es Ihnen, Gelder ohne Überweisungsgebühren zu empfangen und zu senden (\$0 für internationale und inländische Überweisungen). Ihre Gelder werden bei Column NA mit FDIC-Versicherung bis \$250K verwahrt.
-- **Wise Business als Ergänzung** — als EMI (Electronic Money Institution) gibt Ihnen Wise den echten Wechselkurs zur Umrechnung der Gewinne in Ihre lokale Währung.
-- **Vollständige Vermögenstrennung** — wenn ein Trade sehr schlecht läuft, bleibt Ihr Privatvermögen unangetastet. Die LLC ist Ihre Brandmauer.
-- **Abzug von Trading-Tools** — TradingView, CoinTracker, Kurse, Hardware, Signal-Abonnements... alle gewöhnlichen und notwendigen Ausgaben sind abzugsfähig.
+- **Zugang zu US-Dollar-Bankkonten**: Mercury ermöglicht es Ihnen, Gelder ohne Überweisungsgebühren zu empfangen und zu senden (\$0 für internationale und inländische Überweisungen), Ihre Gelder werden bei Column NA mit FDIC-Versicherung bis \$250K verwahrt.
+- **Wise Business als Ergänzung**: als EMI (Electronic Money Institution) gibt Ihnen Wise den echten Wechselkurs zur Umrechnung der Gewinne in Ihre lokale Währung.
+- **Vollständige Vermögenstrennung**: wenn ein Trade sehr schlecht läuft, bleibt Ihr Privatvermögen unangetastet. Die LLC ist Ihre Brandmauer.
+- **Abzug von Trading-Tools**: TradingView, CoinTracker, Kurse, Hardware, Signal-Abonnements.., alle gewöhnlichen und notwendigen Ausgaben sind abzugsfähig.
 
 ## Lohnt sich die LLC für einen Trader?
 
@@ -1416,7 +1416,7 @@ Umsatzsteuerfreie Vorgänge (innergemeinschaftliche und Exportleistungen) werden
 
 Wenn Sie Dienstleistungen an Unternehmen in anderen EU-Ländern erbringen, müssen Sie die Zusammenfassende Meldung abgeben, in der diese Vorgänge deklariert werden.
 
-### OSS — One-Stop-Shop
+### OSS. One-Stop-Shop
 
 Wenn Sie B2C-Dienstleistungen an Verbraucher in anderen EU-Ländern verkaufen und die 10.000€ überschreiten, ermöglicht Ihnen das OSS-System, die Umsatzsteuer aller Länder von Deutschland aus zu erklären und zu zahlen, ohne sich in jedem Land einzeln registrieren zu müssen.
 
@@ -1445,7 +1445,7 @@ Wenn Sie Kurse an Privatpersonen in ganz Europa verkaufen, benötigen Sie:
 
 Wenn Sie über eine amerikanische LLC Ihre internationalen Kunden fakturieren:
 
-- **Die LLC erhebt keine Umsatzsteuer** — sie ist eine amerikanische Einheit und befindet sich außerhalb des europäischen Umsatzsteuersystems
+- **Die LLC erhebt keine Umsatzsteuer**: sie ist eine amerikanische Einheit und befindet sich außerhalb des europäischen Umsatzsteuersystems
 - **Ihre Kunden erhalten Rechnungen ohne Umsatzsteuer** von einem amerikanischen Unternehmen
 - **Sie geben keine Umsatzsteuervoranmeldung oder Zusammenfassende Meldung** für die Geschäfte der LLC ab
 
@@ -1455,17 +1455,17 @@ Dies vereinfacht Ihren Geschäftsbetrieb enorm, wenn die Mehrheit Ihrer Kunden i
 
 Hier wird es interessant. Wenn die Mehrheit Ihrer Kunden B2B außerhalb Deutschlands (oder direkt außerhalb der EU) sind, beseitigt die amerikanische LLC die gesamte Komplexität der europäischen Umsatzsteuer auf einen Schlag:
 
-- **Sie berechnen keine Umsatzsteuer** — die LLC ist eine amerikanische Einheit, außerhalb des europäischen Umsatzsteuersystems
+- **Sie berechnen keine Umsatzsteuer**: die LLC ist eine amerikanische Einheit, außerhalb des europäischen Umsatzsteuersystems
 - **Sie geben keine Umsatzsteuervoranmeldung, keine Zusammenfassende Meldung und keine OSS-Erklärung** für die Geschäfte der LLC ab
-- **Ihre Kunden erhalten saubere Rechnungen** — ohne Umsatzsteuer, ohne Verwirrung, ohne das typische "Warten Sie, ich prüfe ob das Reverse-Charge-Verfahren gilt"
-- **Schluss mit VIES-Prüfungen** — Sie müssen keine USt-IdNr. verifizieren, weil die LLC nicht innerhalb des Umsatzsteuerrahmens operiert
+- **Ihre Kunden erhalten saubere Rechnungen**: ohne Umsatzsteuer, ohne Verwirrung, ohne das typische "Warten Sie, ich prüfe ob das Reverse-Charge-Verfahren gilt"
+- **Schluss mit VIES-Prüfungen**: Sie müssen keine USt-IdNr. verifizieren, weil die LLC nicht innerhalb des Umsatzsteuerrahmens operiert
 
 Das Ergebnis? Vereinfachte internationale Rechnungen, weniger vierteljährliche Bürokratie und mehr Zeit für das, was wirklich zählt: Ihr Geschäft.
 
 ## Häufige Fehler bei der internationalen Umsatzsteuer
 
 1. **Inländische Umsatzsteuer einem EU-Unternehmen berechnen.** Wenn es eine gültige USt-IdNr. hat, dürfen Sie keine Umsatzsteuer berechnen. Überprüfen Sie es immer im VIES-System der Europäischen Kommission, bevor Sie fakturieren.
-2. **Die USt-IdNr. des Kunden nicht überprüfen.** Wenn Sie ohne Umsatzsteuer an ein innergemeinschaftliches Unternehmen fakturieren, ohne dessen USt-IdNr. zu überprüfen, können die Finanzbehörden die nicht erhobene Umsatzsteuer bei Ihnen einfordern. Es klingt absurd, aber es passiert.
+2. **Die USt-IdNr. des Kunden nicht überprüfen.** Wenn Sie ohne Umsatzsteuer an ein innergemeinschaftliches Unternehmen fakturieren, ohne dessen USt-IdNr, zu überprüfen, können die Finanzbehörden die nicht erhobene Umsatzsteuer bei Ihnen einfordern. Es klingt absurd, aber es passiert.
 3. **Das OSS-System ignorieren.** Wenn Sie B2C in der EU verkaufen und 10.000€ überschreiten, sind Sie verpflichtet, OSS zu nutzen oder sich in jedem Land zu registrieren. Mit der LLC verschwindet dieses Problem.
 4. **Nicht steuerbare Vorgänge nicht in der Umsatzsteuervoranmeldung deklarieren.** Auch wenn Sie keine Umsatzsteuer berechnen, müssen Sie die Bemessungsgrundlage in den entsprechenden Feldern deklarieren.
 5. **B2B mit B2C verwechseln.** Die Regeln sind völlig unterschiedlich. Wenn Sie an eine Privatperson in Frankreich verkaufen, ist es nicht dasselbe wie an eine französische SAS zu verkaufen.
@@ -1474,18 +1474,18 @@ Bei Exentax sorgen wir dafür, dass Ihre steuerliche Struktur für Ihren Kundent
 
 Möchten Sie sich keine Sorgen mehr um die internationale Umsatzsteuer machen und mit einer sauberen Struktur arbeiten? Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen, wie es geht.`,
 
-  "registered-agent-que-es-por-que-necesitas": `Wenn Sie eine LLC in den Vereinigten Staaten gründen, ist eine der zwingenden Voraussetzungen die Benennung eines Registered Agent (eingetragener Vertreter). Das ist nicht optional — ohne ihn können Sie Ihre LLC in keinem Bundesstaat gründen oder aufrechterhalten. Aber keine Sorge: Bei Exentax ist der Registered Agent in allen unseren Paketen enthalten. Sie müssen ihn nicht suchen, beauftragen oder verlängern. Wir kümmern uns um alles.
+  "registered-agent-que-es-por-que-necesitas": `Wenn Sie eine LLC in den Vereinigten Staaten gründen, ist eine der zwingenden Voraussetzungen die Benennung eines Registered Agent (eingetragener Vertreter). Das ist nicht optional, ohne ihn können Sie Ihre LLC in keinem Bundesstaat gründen oder aufrechterhalten. Aber keine Sorge: Bei Exentax ist der Registered Agent in allen unseren Paketen enthalten. Sie müssen ihn nicht suchen, beauftragen oder verlängern. Wir kümmern uns um alles.
 
 ## Was ist ein Registered Agent?
 
-Ein Registered Agent ist eine Person oder ein Unternehmen, das dazu bestimmt ist, rechtliche und offizielle Dokumente im Namen Ihrer LLC zu empfangen. Stellen Sie ihn sich als den "juristischen Briefkasten" Ihres Unternehmens in den Vereinigten Staaten vor — jemand, der dort ist, mit physischer Adresse, bereit, jede offizielle Benachrichtigung entgegenzunehmen.
+Ein Registered Agent ist eine Person oder ein Unternehmen, das dazu bestimmt ist, rechtliche und offizielle Dokumente im Namen Ihrer LLC zu empfangen. Stellen Sie ihn sich als den "juristischen Briefkasten" Ihres Unternehmens in den Vereinigten Staaten vor. jemand, der dort ist, mit physischer Adresse, bereit, jede offizielle Benachrichtigung entgegenzunehmen.
 
 Die Dokumente, die er empfängt, umfassen:
 
-- **Service of Process** — rechtliche Zustellungen, falls Ihre LLC verklagt wird (sehr unwahrscheinlich für einen Freiberufler/Selbstständigen, aber das System erfordert es)
-- **Behördliche Korrespondenz** — Annual Reports, Verlängerungserinnerungen, Compliance-Hinweise
-- **IRS-Korrespondenz** — obwohl der IRS üblicherweise an die registrierte Steueradresse sendet
-- **FinCEN-Dokumente** — Benachrichtigungen im Zusammenhang mit dem BOI Report
+- **Service of Process**: rechtliche Zustellungen, falls Ihre LLC verklagt wird (sehr unwahrscheinlich für einen Freiberufler/Selbstständigen, aber das System erfordert es)
+- **Behördliche Korrespondenz**: Annual Reports, Verlängerungserinnerungen, Compliance-Hinweise
+- **IRS-Korrespondenz**: obwohl der IRS üblicherweise an die registrierte Steueradresse sendet
+- **FinCEN-Dokumente**: Benachrichtigungen im Zusammenhang mit dem BOI Report
 
 Im Grunde genommen empfängt Ihr Registered Agent jede offizielle Mitteilung, die der Bundesstaat oder die Bundesregierung an Ihre LLC senden muss. Und wir leiten sie Ihnen eingescannt per E-Mail weiter.
 
@@ -1497,7 +1497,7 @@ Alle US-Bundesstaaten verlangen, dass LLCs einen Registered Agent haben, aus fol
 2. **Muss eine physische Adresse im Bundesstaat haben.** Ein Postfach (P.O. Box) ist nicht zulässig. Es muss eine reale physische Adresse im Bundesstaat sein, in dem die LLC registriert ist.
 3. **Muss während der Geschäftszeiten erreichbar sein.** Von Montag bis Freitag, während der amerikanischen Geschäftszeiten, muss jemand Dokumente entgegennehmen können.
 
-Für einen Nicht-Residenten, der in Deutschland, Österreich, der Schweiz oder einem anderen Land lebt, ist es unmöglich, sein eigener Registered Agent zu sein. Sie leben nicht in den USA, haben dort keine physische Adresse und sind während der amerikanischen Geschäftszeiten nicht verfügbar. Deshalb brauchen Sie einen professionellen Dienst — und deshalb ist er bei Exentax inklusive.
+Für einen Nicht-Residenten, der in Deutschland, Österreich, der Schweiz oder einem anderen Land lebt, ist es unmöglich, sein eigener Registered Agent zu sein. Sie leben nicht in den USA, haben dort keine physische Adresse und sind während der amerikanischen Geschäftszeiten nicht verfügbar. Deshalb brauchen Sie einen professionellen Dienst, und deshalb ist er bei Exentax inklusive.
 
 ## Was kostet es separat?
 
@@ -1551,7 +1551,7 @@ Etwas, das nur wenige erwähnen: Mercury, Relay und andere Fintechs überprüfen
 
 Wenn Ihr Registered Agent seine Adresse ändert (oder verschwindet), kann diese Inkonsistenz eine Compliance-Überprüfung der Bank auslösen. Wir haben Fälle gesehen, in denen ein nicht an Mercury gemeldeter Registered-Agent-Wechsel ein vorübergehendes Einfrieren des Kontos verursacht hat.
 
-**Die Lektion:** Der Registered Agent ist nicht nur ein Postempfänger. Er ist ein Knotenpunkt im Identitätsnetzwerk Ihrer LLC. Jede Stelle — Staat, IRS, Bank — erwartet, dieselbe Adresse zu sehen.
+**Die Lektion:** Der Registered Agent ist nicht nur ein Postempfänger. Er ist ein Knotenpunkt im Identitätsnetzwerk Ihrer LLC. Jede Stelle. Staat, IRS, Bank. erwartet, dieselbe Adresse zu sehen.
 
 ## Wie wir es bei Exentax handhaben
 
@@ -1569,7 +1569,7 @@ Alle unsere Vertreter bieten:
 
 Möchten Sie Ihre LLC mit eingeschlossenem Registered Agent und komplett verwaltet gründen? Vereinbaren Sie Ihre kostenlose Beratung und wir übernehmen den gesamten Prozess.`,
 
-  "errores-fiscales-freelancers-espanoles": `Nach der Beratung von Hunderten von spanischen Freiberuflern haben wir ein klares Muster erkannt: Dieselben steuerlichen Fehler wiederholen sich immer wieder. Und es handelt sich nicht um geringfügige Fehler — wir sprechen von Tausenden von Euro, die jedes Jahr durch Unwissenheit oder schlechte Beratung verloren gehen.
+  "errores-fiscales-freelancers-espanoles": `Nach der Beratung von Hunderten von spanischen Freiberuflern haben wir ein klares Muster erkannt: Dieselben steuerlichen Fehler wiederholen sich immer wieder. Und es handelt sich nicht um geringfügige Fehler. wir sprechen von Tausenden von Euro, die jedes Jahr durch Unwissenheit oder schlechte Beratung verloren gehen.
 
 ## Fehler 1: Nicht alle zulässigen Ausgaben absetzen
 
@@ -1581,18 +1581,18 @@ Der teuerste und am einfachsten zu behebende Fehler. Viele Freiberufler setzen n
 - **Arbeitsmaterial** (Computer, Bildschirm, Tastatur, Stuhl)
 - **Berufsversicherungen** (Berufshaftpflicht, Krankenversicherung als Selbstständiger)
 - **Geschäftsreisen** (Transport, Unterkunft, Verpflegungspauschalen)
-- **Sozialversicherungsbeiträge als Selbstständiger** — ja, die eigenen Beiträge sind absetzbar
+- **Sozialversicherungsbeiträge als Selbstständiger**: ja, die eigenen Beiträge sind absetzbar
 - **Steuer- und Buchhaltungsberatung**
 
 Ein Freiberufler, der 60.000 €/Jahr fakturiert und nur 3.000 € an Ausgaben absetzt, könnte 12.000–15.000 € absetzen, wenn er eine korrekte Buchführung führt. Das kann **3.000–4.000 € weniger Einkommensteuer pro Jahr** bedeuten.
 
 ## Fehler 2: Die falsche IAE-Kategorie wählen
 
-Die IAE-Kategorie (Impuesto de Actividades Económicas — Gewerbesteuer-Klassifikation) bestimmt, welche Art von Tätigkeit Sie aus Sicht der Finanzbehörden ausüben. Eine falsche Kategorie kann:
+Die IAE-Kategorie (Impuesto de Actividades Económicas. Gewerbesteuer-Klassifikation) bestimmt, welche Art von Tätigkeit Sie aus Sicht der Finanzbehörden ausüben. Eine falsche Kategorie kann:
 
-- **Ihre Abzugsmöglichkeiten einschränken** — einige Kategorien erlauben mehr Ausgaben als andere
-- **Probleme bei einer Steuerprüfung verursachen** — wenn die tatsächliche Tätigkeit nicht mit der Kategorie übereinstimmt
-- **Die Einkommensteuer-Einbehaltung beeinflussen** — einige Kategorien unterliegen einer 15%igen Quellensteuer auf Rechnungen an spanische Unternehmen
+- **Ihre Abzugsmöglichkeiten einschränken**: einige Kategorien erlauben mehr Ausgaben als andere
+- **Probleme bei einer Steuerprüfung verursachen**: wenn die tatsächliche Tätigkeit nicht mit der Kategorie übereinstimmt
+- **Die Einkommensteuer-Einbehaltung beeinflussen**: einige Kategorien unterliegen einer 15%igen Quellensteuer auf Rechnungen an spanische Unternehmen
 
 Die häufigsten Kategorien für digitale Freiberufler:
 - **763:** Programmierer und IT-Analysten
@@ -1635,7 +1635,7 @@ Wenn Sie an Kunden außerhalb Spaniens fakturieren, haben Sie Möglichkeiten zur
 - **Doppelbesteuerungsabkommen:** Um zu vermeiden, dass Sie dieselben Einkünfte doppelt versteuern
 - **Planung des steuerlichen Wohnsitzes:** In einigen Fällen kann ein Wohnsitzwechsel Ihre Steuerlast drastisch reduzieren
 
-Diese Mechanismen sind legal und stehen jedem Steuerpflichtigen zur Verfügung. Bei Exentax wenden wir sie im Rahmen unserer Dienstleistung für unsere Kunden an — und genau darauf haben wir uns spezialisiert.
+Diese Mechanismen sind legal und stehen jedem Steuerpflichtigen zur Verfügung. Bei Exentax wenden wir sie im Rahmen unserer Dienstleistung für unsere Kunden an, und genau darauf haben wir uns spezialisiert.
 
 ## Fehler 7: Die Besteuerung zum Jahresende nicht planen
 
@@ -1648,7 +1648,7 @@ Viele Freiberufler denken erst im März–Juni an die Steuern, wenn es bereits z
 
 ## Fehler 8: Das Pass-Through-Besteuerungsverfahren nicht verstehen
 
-Wenn Sie eine LLC in den Vereinigten Staaten haben (oder erwägen), gibt es ein Konzept, das Sie gut verstehen müssen: **Pass-Through Taxation.** Ihre Single-Member LLC als Nicht-Resident ist eine "Disregarded Entity" für den IRS — das bedeutet, dass die LLC keine Bundessteuer in den USA zahlt (\$0). Die Gewinne "fließen direkt durch" zu Ihnen als Eigentümer.
+Wenn Sie eine LLC in den Vereinigten Staaten haben (oder erwägen), gibt es ein Konzept, das Sie gut verstehen müssen: **Pass-Through Taxation.** Ihre Single-Member LLC als Nicht-Resident ist eine "Disregarded Entity" für den IRS, das bedeutet, dass die LLC keine Bundessteuer in den USA zahlt (\$0). Die Gewinne "fließen direkt durch" zu Ihnen als Eigentümer.
 
 Was bedeutet das? Sie deklarieren die Nettogewinne Ihrer LLC in Ihrem Wohnsitzland. Aber bevor Sie versteuern, ziehen Sie ALLE legitimen Ausgaben der LLC ab: Software, Hardware, Marketing, Fortbildung, professionelle Dienstleistungen, Bankgebühren, Coworking, Geschäftsreisen... Die verbleibende Bemessungsgrundlage ist deutlich geringer, als wenn Sie direkt als Selbstständiger fakturieren würden.
 
@@ -1656,18 +1656,18 @@ Ein Freiberufler, der 60.000 € fakturiert und 20.000 € an abzugsfähigen Aus
 
 ## Fehler 9: Die abzugsfähigen Ausgaben der LLC nicht maximieren
 
-Apropos abzugsfähige Ausgaben — viele Freiberufler mit LLC nutzen nicht den vollen Umfang der Abzugsmöglichkeiten, die die Struktur bietet. Ausgaben, die Sie über Ihre LLC absetzen können:
+Apropos abzugsfähige Ausgaben. viele Freiberufler mit LLC nutzen nicht den vollen Umfang der Abzugsmöglichkeiten, die die Struktur bietet. Ausgaben, die Sie über Ihre LLC absetzen können:
 
-- **Software und SaaS** — alle Tools, die Sie für die Arbeit nutzen (Figma, GitHub, Notion, Slack usw.)
-- **Hardware** — Computer, Monitor, Tastatur, Maus, ergonomischer Stuhl, Kopfhörer
-- **Hosting und Domains** — Server, Cloud Computing, CDN
-- **Marketing und Werbung** — Google Ads, Facebook Ads, SEO, Branding
-- **Berufliche Fortbildung** — Kurse, Konferenzen, Fachbücher, Bildungsmitgliedschaften
-- **Professionelle Dienstleistungen** — Buchhaltung, Rechtsberatung, Design, Copywriting (einschließlich der Gebühren von Exentax)
-- **Coworking** — die Kosten für den Arbeitsplatz
-- **Geschäftsreisen** — Transport und Unterkunft für Kundentreffen
-- **Bankgebühren** — von Mercury, Stripe, PayPal, Wise
-- **Berufsversicherungen** — Berufshaftpflicht, Fehler- und Unterlassungsversicherung
+- **Software und SaaS**: alle Tools, die Sie für die Arbeit nutzen (Figma, GitHub, Notion, Slack usw.)
+- **Hardware**: Computer, Monitor, Tastatur, Maus, ergonomischer Stuhl, Kopfhörer
+- **Hosting und Domains**: Server, Cloud Computing, CDN
+- **Marketing und Werbung**: Google Ads, Facebook Ads, SEO, Branding
+- **Berufliche Fortbildung**: Kurse, Konferenzen, Fachbücher, Bildungsmitgliedschaften
+- **Professionelle Dienstleistungen**: Buchhaltung, Rechtsberatung, Design, Copywriting (einschließlich der Gebühren von Exentax)
+- **Coworking**: die Kosten für den Arbeitsplatz
+- **Geschäftsreisen**: Transport und Unterkunft für Kundentreffen
+- **Bankgebühren**: von Mercury, Stripe, PayPal, Wise
+- **Berufsversicherungen**: Berufshaftpflicht, Fehler- und Unterlassungsversicherung
 
 Der Schlüssel: Jede Ausgabe muss für Ihre Tätigkeit "gewöhnlich und notwendig" sein und muss dokumentiert werden. Bewahren Sie alle Rechnungen und Belege auf.
 
@@ -1682,7 +1682,7 @@ Anzeichen, dass Ihr Berater Ihre Situation nicht versteht:
 - Er kann das Reverse-Charge-Verfahren bei der internationalen Umsatzsteuer nicht anwenden
 - Er behandelt Sie steuerlich genauso wie jeden anderen Selbstständigen mit lokalen Kunden
 
-Es ist nicht seine Schuld — es ist einfach nicht sein Spezialgebiet. Bei Exentax ist die internationale Besteuerung für Freiberufler und digitale Unternehmer ALLES, was wir tun. Wir gründen Ihre LLC, erstellen Ihr Operating Agreement und begleiten Sie beim gesamten jährlichen Compliance.
+Es ist nicht seine Schuld, es ist einfach nicht sein Spezialgebiet. Bei Exentax ist die internationale Besteuerung für Freiberufler und digitale Unternehmer ALLES, was wir tun. Wir gründen Ihre LLC, erstellen Ihr Operating Agreement und begleiten Sie beim gesamten jährlichen Compliance.
 
 ## Was kosten Sie diese Fehler?
 
@@ -1706,11 +1706,11 @@ Wenn Sie sich in einem dieser Fehler wiedererkennen (und die meisten Freiberufle
 
   "como-operar-llc-dia-a-dia": `Sie haben den Schritt gewagt und Ihre LLC ist bereits gegründet. Sie haben Ihre EIN, Ihr Konto bei Mercury ist eröffnet und Ihre Dokumente sind in Ordnung. Jetzt beginnt der spannende Teil: Ihr Unternehmen wie ein Profi zu führen.
 
-Der tägliche Betrieb einer LLC ist nicht kompliziert — tatsächlich läuft es fast auf Autopilot, sobald Sie die richtigen Gewohnheiten etabliert haben. Aber es gibt Spielregeln, die man vom ersten Tag an kennen sollte. Los geht's.
+Der tägliche Betrieb einer LLC ist nicht kompliziert. tatsächlich läuft es fast auf Autopilot, sobald Sie die richtigen Gewohnheiten etabliert haben. Aber es gibt Spielregeln, die man vom ersten Tag an kennen sollte. Los geht's.
 
 ## Das Wichtigste zuerst: Trennen Sie Persönliches von Geschäftlichem
 
-Das ist DAS Prinzip. Das Gebot Nummer eins. Die goldene Regel. Ihre LLC ist eine von Ihnen getrennte Einheit, und diese Trennung muss real sein, nicht nur auf dem Papier.
+Das ist DAS Prinzip. Das Gebot Nummer eins. Die goldene Regel, Ihre LLC ist eine von Ihnen getrennte Einheit, und diese Trennung muss real sein, nicht nur auf dem Papier.
 
 In der Praxis:
 
@@ -1718,7 +1718,7 @@ In der Praxis:
 - **Alle Geschäftsausgaben** werden von demselben Konto bezahlt
 - **Niemals, unter keinen Umständen** vermischen Sie persönliche Ausgaben mit denen der LLC
 
-Warum so viel Nachdruck? Weil ein Richter den "Unternehmensschleier durchbrechen" kann (Piercing the Corporate Veil), wenn Sie Gelder vermischen, und Ihr Vermögensschutz dann verschwindet. Es ist wie ein abgeschalteter Airbag — er ist da, aber er wird Ihnen nicht helfen, wenn Sie ihn brauchen.
+Warum so viel Nachdruck? Weil ein Richter den "Unternehmensschleier durchbrechen" kann (Piercing the Corporate Veil), wenn Sie Gelder vermischen, und Ihr Vermögensschutz dann verschwindet. Es ist wie ein abgeschalteter Airbag, er ist da, aber er wird Ihnen nicht helfen, wenn Sie ihn brauchen.
 
 ## Ihr Finanz-Ökosystem: Die Werkzeuge des Alltags
 
@@ -1730,13 +1730,13 @@ Mercury ist der Ort, an dem das Geld Ihrer LLC lebt. Es ist Ihr geschäftliches 
 - **Debitkarte** (physisch und virtuell) für Ausgaben der LLC
 - **Unterkonten**, um Ihr Geld zu organisieren (Betrieb, Steuern, Reserve)
 - **Übersichtliches Dashboard** mit automatischer Kategorisierung von Transaktionen
-- **Integrierte Rechnungsstellung** — Sie können Rechnungen direkt aus Mercury versenden
+- **Integrierte Rechnungsstellung**: Sie können Rechnungen direkt aus Mercury versenden
 
 Wenig bekannte Tatsache: Mercury berechnet keine Gebühren für internationale Überweisungen. Weder für den Versand noch für den Empfang. \$0. Das ist ein enormer Vorteil gegenüber jeder traditionellen Bank.
 
 ### Wise Business: Ihr Werkzeug für Währungsumrechnung
 
-Wise (Achtung: Es ist ein EMI — Electronic Money Institution — keine Bank) ist perfekt, wenn Sie Dollar in Euro, Pesos oder eine andere Währung umrechnen müssen. Sie erhalten den echten Wechselkurs (Mid-Market-Rate) ohne versteckte Marge.
+Wise (Achtung: Es ist ein EMI. Electronic Money Institution, keine Bank) ist perfekt, wenn Sie Dollar in Euro, Pesos oder eine andere Währung umrechnen müssen. Sie erhalten den echten Wechselkurs (Mid-Market-Rate) ohne versteckte Marge.
 
 Der typische Ablauf: Kunde zahlt → Mercury (USD) → Wise (Umrechnung) → Ihr persönliches Konto (EUR/MXN/COP).
 
@@ -1746,7 +1746,7 @@ Stripe für Kartenzahlungen, Abonnements und professionellen Checkout. PayPal Bu
 
 ## So stellen Sie Rechnungen mit Ihrer LLC aus
 
-Wenn Sie einem Kunden eine Rechnung stellen, tun Sie dies als Ihre LLC — nicht als Privatperson. Die Rechnung muss enthalten:
+Wenn Sie einem Kunden eine Rechnung stellen, tun Sie dies als Ihre LLC, nicht als Privatperson. Die Rechnung muss enthalten:
 
 - **Offizieller Name der LLC** (so wie er in den Articles of Organization erscheint)
 - **Adresse des Registered Agent** (oder Geschäftsadresse, falls vorhanden)
@@ -1755,17 +1755,17 @@ Wenn Sie einem Kunden eine Rechnung stellen, tun Sie dies als Ihre LLC — nicht
 
 Sie benötigen kein bestimmtes US-Rechnungsformat. Sie können Mercury Invoicing (in Ihrem Konto integriert), Stripe Invoicing oder Tools wie FreshBooks, Wave oder sogar ein gut gestaltetes PDF verwenden.
 
-**Profi-Tipp:** Erstellen Sie eine Rechnungsvorlage mit allen Daten Ihrer LLC und verwenden Sie diese wieder. Geben Sie Ihre Zahlungsbedingungen (Net 15, Net 30) und die akzeptierten Zahlungsmethoden an. Ein Freiberufler, der professionelle Rechnungen versendet, wird schneller bezahlt — bewiesene Tatsache.
+**Profi-Tipp:** Erstellen Sie eine Rechnungsvorlage mit allen Daten Ihrer LLC und verwenden Sie diese wieder. Geben Sie Ihre Zahlungsbedingungen (Net 15, Net 30) und die akzeptierten Zahlungsmethoden an. Ein Freiberufler, der professionelle Rechnungen versendet, wird schneller bezahlt. bewiesene Tatsache.
 
 ## Zahlungseingänge: Wie erhalte ich das Geld?
 
 Sie haben verschiedene Optionen (und es empfiehlt sich, je nach Kunde die passendste zu nutzen):
 
-- **ACH** — für amerikanische Kunden. Kostenlos bei Mercury und die gängigste Methode in den USA.
-- **Banküberweisung (Wire Transfer)** — für große oder dringende Zahlungen. \$0 bei Mercury (ja, sowohl Versand als auch Empfang).
-- **Stripe** — für Kartenzahlungen, Abonnements oder Online-Zahlungen (2,9 % + \$0,30 pro Transaktion)
-- **PayPal Business** — weit verbreitete Alternative
-- **Wise Business** — ideal zum Empfang in mehreren Währungen (EUR, GBP usw.) und zur Umrechnung in USD
+- **ACH**: für amerikanische Kunden. Kostenlos bei Mercury und die gängigste Methode in den USA.
+- **Banküberweisung (Wire Transfer)**: für große oder dringende Zahlungen. \$0 bei Mercury (ja, sowohl Versand als auch Empfang).
+- **Stripe**: für Kartenzahlungen, Abonnements oder Online-Zahlungen (2,9 % + \$0,30 pro Transaktion)
+- **PayPal Business**: weit verbreitete Alternative
+- **Wise Business**: ideal zum Empfang in mehreren Währungen (EUR, GBP usw.) und zur Umrechnung in USD
 
 Die goldene Regel: Alles Geschäftsgeld geht über das Konto der LLC ein. Wenn ein Kunde fragt "Kann ich auf Ihr persönliches Konto zahlen?", lautet die Antwort immer Nein.
 
@@ -1783,18 +1783,18 @@ Die LLC kann alle Ausgaben bezahlen, die für das Geschäft **gewöhnlich und no
 - Bank- und Zahlungsabwicklungsgebühren
 - Dienstleistungen von Exentax (ja, unsere Gebühren sind absetzbar)
 
-Abzugsfähige Ausgaben reduzieren Ihre Bemessungsgrundlage — und da Ihre Gewinne durch die LLC "durchfließen" (Pass-Through Taxation) in Ihre persönliche Steuererklärung, ist jede legitime Ausgabe, die Sie absetzen, Geld, das Sie nicht versteuern. Aber Achtung: Jede Ausgabe muss dokumentiert sein und tatsächlich geschäftlich bedingt sein. Versuchen Sie nicht, das Samstagabendessen mit Freunden als "Networking Dinner" auszugeben.
+Abzugsfähige Ausgaben reduzieren Ihre Bemessungsgrundlage, und da Ihre Gewinne durch die LLC "durchfließen" (Pass-Through Taxation) in Ihre persönliche Steuererklärung, ist jede legitime Ausgabe, die Sie absetzen, Geld, das Sie nicht versteuern. Aber Achtung: Jede Ausgabe muss dokumentiert sein und tatsächlich geschäftlich bedingt sein. Versuchen Sie nicht, das Samstagabendessen mit Freunden als "Networking Dinner" auszugeben.
 
 ## So überweisen Sie Geld von der LLC auf Ihr persönliches Konto
 
 Als Single-Member LLC gehören die Gewinne Ihnen. Sie können sich jederzeit Geld überweisen. Dies nennt man **Owner's Draw** (Eigentümerentnahme).
 
-Es ist kein Gehalt — Sie müssen sich keine Gehaltsabrechnung erstellen. Sie tätigen einfach eine Überweisung vom LLC-Konto auf Ihr persönliches Konto. Wichtig dabei:
+Es ist kein Gehalt. Sie müssen sich keine Gehaltsabrechnung erstellen. Sie tätigen einfach eine Überweisung vom LLC-Konto auf Ihr persönliches Konto. Wichtig dabei:
 
 - **Dokumentieren Sie jede Entnahme** mit einer klaren Notiz ("Owner's Draw - [Datum] - [Betrag]")
 - **Entnehmen Sie nicht mehr als vorhanden ist** (klingt offensichtlich, kommt aber vor)
 - **Halten Sie ein Polster** auf dem Konto für Betriebskosten und Compliance
-- **Bündeln Sie Ihre Entnahmen** — besser eine monatliche dokumentierte Entnahme als 47 kleine Überweisungen
+- **Bündeln Sie Ihre Entnahmen**: besser eine monatliche dokumentierte Entnahme als 47 kleine Überweisungen
 
 **Profi-Tipp:** Legen Sie einen monatlichen "Zahltag" fest. Am ersten jedes Monats zum Beispiel machen Sie einen Owner's Draw über den Betrag, den Sie festgelegt haben. Das vereinfacht die Buchhaltung und schafft eine saubere Gewohnheit.
 
@@ -1802,11 +1802,11 @@ Es ist kein Gehalt — Sie müssen sich keine Gehaltsabrechnung erstellen. Sie t
 
 Sie müssen keine komplexe Buchhaltung führen (Sie sind kein multinationaler Konzern), aber Sie brauchen Ordnung:
 
-- **Einnahmen- und Ausgabenregister** — Mercury macht das automatisch mit seinem Dashboard, aber führen Sie auch Ihre eigene Übersicht
-- **Alle ausgestellten und erhaltenen Rechnungen aufbewahren** — erstellen Sie einen Ordner in Google Drive, organisiert nach Monat
-- **Ausgabenbelege aufbewahren** — digital oder Fotos der physischen Belege. Ohne Beleg können Sie die Ausgabe nicht absetzen
-- **Owner's Draws dokumentieren** — Datum, Betrag, Überweisungsmethode
-- **Kontoauszüge von Mercury vierteljährlich exportieren** — speichern Sie diese in Ihrem LLC-Ordner
+- **Einnahmen- und Ausgabenregister**: Mercury macht das automatisch mit seinem Dashboard, aber führen Sie auch Ihre eigene Übersicht
+- **Alle ausgestellten und erhaltenen Rechnungen aufbewahren**: erstellen Sie einen Ordner in Google Drive, organisiert nach Monat
+- **Ausgabenbelege aufbewahren**: digital oder Fotos der physischen Belege. Ohne Beleg können Sie die Ausgabe nicht absetzen
+- **Owner's Draws dokumentieren**: Datum, Betrag, Überweisungsmethode
+- **Kontoauszüge von Mercury vierteljährlich exportieren**: speichern Sie diese in Ihrem LLC-Ordner
 
 Diese Aufzeichnungen sind wesentlich für Ihre Steuererklärungen (Form 5472 + 1120) und um nachzuweisen, dass Ihre LLC als echtes Unternehmen operiert. Wenn es Zeit ist, die Jahressteuererklärung vorzubereiten, bitten wir Sie bei Exentax um diese Informationen und kümmern uns um den Rest.
 
@@ -1814,33 +1814,33 @@ Diese Aufzeichnungen sind wesentlich für Ihre Steuererklärungen (Form 5472 + 1
 
 Damit der Betrieb reibungslos läuft, empfehlen wir, monatlich 30 Minuten dafür aufzuwenden:
 
-1. **Überprüfen Sie Ihren Kontoauszug** bei Mercury — stimmt alles?
+1. **Überprüfen Sie Ihren Kontoauszug** bei Mercury. stimmt alles?
 2. **Kategorisieren Sie Ausgaben**, die nicht automatisch kategorisiert wurden
 3. **Speichern Sie ausstehende Rechnungen und Belege** in Ihrem Ordner
 4. **Machen Sie Ihren monatlichen Owner's Draw** (falls zutreffend)
-5. **Überprüfen Sie Ihren Kontostand** — haben Sie genügend Polster für den nächsten Monat?
+5. **Überprüfen Sie Ihren Kontostand**: haben Sie genügend Polster für den nächsten Monat?
 
 30 Minuten. Einmal im Monat. Das ist alles, was Sie brauchen, um Ihre LLC tadellos zu führen.
 
 ## Häufige Fehler im täglichen Betrieb
 
-- **Persönliche und geschäftliche Konten vermischen** — der schwerwiegendste und häufigste Fehler. Ich wiederhole: NIEMALS
-- **Keine Belege aufbewahren** — ohne Dokumentation können Sie die Ausgabe nicht absetzen und verlieren Geld
-- **Die Mercury-Karte für persönliche Ausgaben nutzen** — gefährdet die Trennung der Einheiten
-- **Owner's Draws nicht dokumentieren** — verursacht Probleme bei der Jahressteuererklärung
-- **Die jährliche Wartung vergessen** — Annual Report, Form 5472+1120, Erneuerung des Registered Agent
-- **Keine Routine haben** — Nachlässigkeit sammelt sich an und am Jahresende haben Sie ein buchhalterisches Chaos
-- **Kunden bitten, auf Ihr persönliches Konto zu zahlen** — jede Zahlung muss auf das LLC-Konto gehen
+- **Persönliche und geschäftliche Konten vermischen**: der schwerwiegendste und häufigste Fehler. Ich wiederhole: NIEMALS
+- **Keine Belege aufbewahren**: ohne Dokumentation können Sie die Ausgabe nicht absetzen und verlieren Geld
+- **Die Mercury-Karte für persönliche Ausgaben nutzen**: gefährdet die Trennung der Einheiten
+- **Owner's Draws nicht dokumentieren**: verursacht Probleme bei der Jahressteuererklärung
+- **Die jährliche Wartung vergessen**: Annual Report, Form 5472+1120, Erneuerung des Registered Agent
+- **Keine Routine haben**: Nachlässigkeit sammelt sich an und am Jahresende haben Sie ein buchhalterisches Chaos
+- **Kunden bitten, auf Ihr persönliches Konto zu zahlen**: jede Zahlung muss auf das LLC-Konto gehen
 
 Der Betrieb Ihrer LLC ist einfacher als es scheint. Etablieren Sie gute Gewohnheiten vom ersten Tag an, nutzen Sie die richtigen Tools (Mercury + Wise + Stripe) und widmen Sie monatlich 30 Minuten der Ordnung. Den Rest erledigen wir. Vereinbaren Sie Ihre kostenlose Beratung und wir helfen Ihnen, alles so einzurichten, dass Ihre LLC wie eine gut geölte Maschine läuft.`,
 
-  "operating-agreement-llc-que-es": `Wenn Sie eine LLC gründen, erhalten Sie die Articles of Organization — das öffentliche Dokument, das Ihr Unternehmen im Bundesstaat registriert. Aber es gibt ein weiteres, ebenso wichtiges Dokument (das viele ignorieren): das **Operating Agreement**.
+  "operating-agreement-llc-que-es": `Wenn Sie eine LLC gründen, erhalten Sie die Articles of Organization, das öffentliche Dokument, das Ihr Unternehmen im Bundesstaat registriert. Aber es gibt ein weiteres, ebenso wichtiges Dokument (das viele ignorieren): das **Operating Agreement**.
 
 Und hier kommt eines der interessantesten Details: **Das Operating Agreement ist ein privates Dokument.** Es wird bei keiner staatlichen Behörde registriert, ist nicht öffentlich zugänglich, und niemand außer Ihnen (und den Einrichtungen, die Sie selbst bestimmen) kann es einsehen. Diese Vertraulichkeit ist ein enormer Vorteil für Ihre Unternehmensstruktur.
 
 ## Was ist das Operating Agreement?
 
-Es ist der interne Vertrag, der festlegt, wie Ihre LLC funktioniert. Betrachten Sie es als die "Verfassung" Ihres Unternehmens — die Spielregeln, die Sie selbst definieren. In den meisten Bundesstaaten muss es bei keiner Behörde registriert werden, was bedeutet, dass **sein Inhalt vollständig privat bleibt.** Nur Sie und die Parteien, die Sie auswählen (Bank, Zahlungsabwickler), sehen es.
+Es ist der interne Vertrag, der festlegt, wie Ihre LLC funktioniert. Betrachten Sie es als die "Verfassung" Ihres Unternehmens, die Spielregeln, die Sie selbst definieren. In den meisten Bundesstaaten muss es bei keiner Behörde registriert werden, was bedeutet, dass **sein Inhalt vollständig privat bleibt.** Nur Sie und die Parteien, die Sie auswählen (Bank, Zahlungsabwickler), sehen es.
 
 Vergleichen Sie es mit der Gründungsurkunde einer spanischen SL, die ein notarielles und öffentliches Dokument ist. Bei einer LLC bleiben Ihre internen Regeln, Ihre Beteiligung und Ihre steuerliche Klassifizierung zwischen Ihnen und Ihrem Unternehmen. Echte Privatsphäre.
 
@@ -1850,27 +1850,27 @@ Ohne Operating Agreement unterliegt Ihre LLC den allgemeinen Gesetzen des Bundes
 
 Aber die Bedeutung geht darüber hinaus:
 
-- **Es verstärkt die Trennung zwischen Ihnen und der LLC** — entscheidend für die Aufrechterhaltung des Vermögensschutzes. Ohne dieses Dokument ist der "Unternehmensschleier" leichter zu durchbrechen
-- **Es wird von Banken und Zahlungsabwicklern verlangt** — Mercury, Stripe und PayPal verlangen es zur Verifizierung Ihrer LLC. Ohne es können Sie kein Konto eröffnen
-- **Es definiert die steuerliche Struktur** — es legt fest, dass Ihre LLC eine Disregarded Entity für den IRS ist, was Ihnen die Pass-Through Taxation garantiert (\$0 Bundessteuer)
-- **Es schützt bei Streitigkeiten** — wenn Sie in Zukunft Partner aufnehmen, sind die Regeln bereits festgeschrieben
-- **Privatsphäre** — da es ein privates Dokument ist, sind Ihre Daten als Eigentümer und die finanziellen Regeln der LLC nicht öffentlich
+- **Es verstärkt die Trennung zwischen Ihnen und der LLC**: entscheidend für die Aufrechterhaltung des Vermögensschutzes. Ohne dieses Dokument ist der "Unternehmensschleier" leichter zu durchbrechen
+- **Es wird von Banken und Zahlungsabwicklern verlangt**: Mercury, Stripe und PayPal verlangen es zur Verifizierung Ihrer LLC. Ohne es können Sie kein Konto eröffnen
+- **Es definiert die steuerliche Struktur**: es legt fest, dass Ihre LLC eine Disregarded Entity für den IRS ist, was Ihnen die Pass-Through Taxation garantiert (\$0 Bundessteuer)
+- **Es schützt bei Streitigkeiten**: wenn Sie in Zukunft Partner aufnehmen, sind die Regeln bereits festgeschrieben
+- **Privatsphäre**: da es ein privates Dokument ist, sind Ihre Daten als Eigentümer und die finanziellen Regeln der LLC nicht öffentlich
 
 ## Was enthält ein Operating Agreement?
 
 Ein vollständiges Operating Agreement muss abdecken:
 
-- **Daten der LLC** — offizieller Name, Gründungsstaat, Adresse des Registered Agent
-- **Daten des Mitglieds** — vollständiger Name, Beteiligungsquote (100 % bei Single-Member)
-- **Zweck der LLC** — allgemeine Beschreibung der geschäftlichen Tätigkeit
-- **Steuerliche Klassifizierung** — ausdrückliche Erklärung, dass die LLC als Disregarded Entity gegenüber dem IRS behandelt wird
-- **Anfangskapital** — Ersteinlage des Mitglieds (kann \$0 sein)
-- **Gewinnverteilung** — wie die Gewinne verteilt werden (100 % an das einzige Mitglied bei Single-Member LLC)
-- **Geschäftsführung** — wer die Entscheidungen trifft (Member-Managed vs. Manager-Managed)
-- **Bankkonten** — Berechtigung zur Eröffnung und Führung von Konten im Namen der LLC
-- **Freistellung** — Schutz des Mitglieds vor Ansprüchen aus der Tätigkeit der LLC
-- **Auflösung** — Bedingungen, unter denen die LLC aufgelöst werden kann
-- **Änderungen** — wie die Vereinbarung geändert wird, wenn sich die Umstände ändern
+- **Daten der LLC**: offizieller Name, Gründungsstaat, Adresse des Registered Agent
+- **Daten des Mitglieds**: vollständiger Name, Beteiligungsquote (100 % bei Single-Member)
+- **Zweck der LLC**: allgemeine Beschreibung der geschäftlichen Tätigkeit
+- **Steuerliche Klassifizierung**: ausdrückliche Erklärung, dass die LLC als Disregarded Entity gegenüber dem IRS behandelt wird
+- **Anfangskapital**: Ersteinlage des Mitglieds (kann \$0 sein)
+- **Gewinnverteilung**: wie die Gewinne verteilt werden (100 % an das einzige Mitglied bei Single-Member LLC)
+- **Geschäftsführung**: wer die Entscheidungen trifft (Member-Managed vs. Manager-Managed)
+- **Bankkonten**: Berechtigung zur Eröffnung und Führung von Konten im Namen der LLC
+- **Freistellung**: Schutz des Mitglieds vor Ansprüchen aus der Tätigkeit der LLC
+- **Auflösung**: Bedingungen, unter denen die LLC aufgelöst werden kann
+- **Änderungen**: wie die Vereinbarung geändert wird, wenn sich die Umstände ändern
 
 ## Member-Managed oder Manager-Managed?
 
@@ -1880,9 +1880,9 @@ Für eine Single-Member LLC eines Freiberuflers oder digitalen Unternehmers ist 
 
 ## Brauche ich einen Anwalt für die Erstellung?
 
-Nein. Was Sie brauchen, ist, dass es gut gemacht und an Ihre tatsächliche Situation angepasst ist. Ein schlecht formuliertes Operating Agreement — oder schlimmer noch, eine generische Vorlage aus dem Internet — kann schlimmer sein als gar keines.
+Nein. Was Sie brauchen, ist, dass es gut gemacht und an Ihre tatsächliche Situation angepasst ist. Ein schlecht formuliertes Operating Agreement, oder schlimmer noch, eine generische Vorlage aus dem Internet. kann schlimmer sein als gar keines.
 
-Bei Exentax ist das Operating Agreement in allen unseren Gründungsplänen enthalten. Es ist speziell für Nicht-Residenten mit Single-Member LLCs angepasst: Es enthält die korrekte steuerliche Klassifizierung (Disregarded Entity), die notwendigen Datenschutzklauseln und die Struktur, die Mercury und Stripe sehen müssen, um Ihr Konto zu genehmigen. Es ist keine Vorlage — es ist ein Dokument, das für Ihren konkreten Fall erstellt wurde.
+Bei Exentax ist das Operating Agreement in allen unseren Gründungsplänen enthalten. Es ist speziell für Nicht-Residenten mit Single-Member LLCs angepasst: Es enthält die korrekte steuerliche Klassifizierung (Disregarded Entity), die notwendigen Datenschutzklauseln und die Struktur, die Mercury und Stripe sehen müssen, um Ihr Konto zu genehmigen. Es ist keine Vorlage, es ist ein Dokument, das für Ihren konkreten Fall erstellt wurde.
 
 ## Wann muss ich es aktualisieren?
 
@@ -1919,9 +1919,9 @@ Die häufigsten Fehler, die wir sehen:
 
 ## Was Sie aus diesem Artikel mitnehmen sollten
 
-Das Operating Agreement ist das rechtliche Rückgrat Ihrer LLC, und seine private Natur ist ein Vorteil, den Sie nutzen sollten. Bei Exentax erstellen wir es als Teil des Gründungsprozesses Ihrer LLC — es verlässt unsere Hände bereit zur Vorlage bei Mercury, Stripe und jeder Einrichtung, die es anfordert. Vereinbaren Sie Ihre kostenlose Beratung und wir stellen sicher, dass Ihre LLC vom ersten Tag an alle Dokumente in Ordnung hat.`,
+Das Operating Agreement ist das rechtliche Rückgrat Ihrer LLC, und seine private Natur ist ein Vorteil, den Sie nutzen sollten. Bei Exentax erstellen wir es als Teil des Gründungsprozesses Ihrer LLC, es verlässt unsere Hände bereit zur Vorlage bei Mercury, Stripe und jeder Einrichtung, die es anfordert. Vereinbaren Sie Ihre kostenlose Beratung und wir stellen sicher, dass Ihre LLC vom ersten Tag an alle Dokumente in Ordnung hat.`,
 
-  "documentos-llc-cuales-necesitas": `Wenn Sie eine LLC in den Vereinigten Staaten gründen, erhalten Sie ein komplettes "Rechtspaket" — mehrere Dokumente, jedes mit einer konkreten Funktion. Bei Exentax erstellen und übergeben wir alle als Teil des Gründungsservices. Aber es ist gut zu wissen, was jedes einzelne ist und wofür Sie es benötigen werden.
+  "documentos-llc-cuales-necesitas": `Wenn Sie eine LLC in den Vereinigten Staaten gründen, erhalten Sie ein komplettes "Rechtspaket". mehrere Dokumente, jedes mit einer konkreten Funktion. Bei Exentax erstellen und übergeben wir alle als Teil des Gründungsservices. Aber es ist gut zu wissen, was jedes einzelne ist und wofür Sie es benötigen werden.
 
 Spoiler: Es sind nicht viele, und Sie werden sie häufiger brauchen als Sie denken (besonders wenn Sie Ihr Bankkonto eröffnen oder sich bei Stripe registrieren).
 
@@ -1943,7 +1943,7 @@ In Bundesstaaten wie New Mexico erscheinen die Daten der Mitglieder NICHT in den
 
 ## 2. EIN Letter (CP 575 / SS-4 Bestätigung)
 
-Die EIN (Employer Identification Number) ist die steuerliche Identifikationsnummer Ihrer LLC beim IRS. Sie entspricht der deutschen Steuernummer bzw. USt-IdNr., aber für amerikanische Einheiten. Der Brief CP 575 des IRS bestätigt offiziell die Zuweisung Ihrer EIN.
+Die EIN (Employer Identification Number) ist die steuerliche Identifikationsnummer Ihrer LLC beim IRS. Sie entspricht der deutschen Steuernummer bzw. USt-IdNr, aber für amerikanische Einheiten. Der Brief CP 575 des IRS bestätigt offiziell die Zuweisung Ihrer EIN.
 
 **Wann brauchen Sie es?** Um Bankkonten zu eröffnen (Mercury, Relay), sich bei Stripe/PayPal zu registrieren, Steuererklärungen einzureichen (Form 5472 + 1120) und mit amerikanischen Kunden zu arbeiten. Einige Banken und Zahlungsabwickler verlangen ausdrücklich den Brief CP 575 als Nachweis.
 
@@ -1977,7 +1977,7 @@ Der BOI Report (Beneficial Ownership Information) ist eine Meldung an FinCEN, di
 
 ## 6. Registered Agent Agreement
 
-Dokument, das bestätigt, wer Ihr Registered Agent ist — die Person oder das Unternehmen, das dafür bestimmt ist, offizielle rechtliche Dokumente im Namen Ihrer LLC im Gründungsstaat entgegenzunehmen.
+Dokument, das bestätigt, wer Ihr Registered Agent ist, die Person oder das Unternehmen, das dafür bestimmt ist, offizielle rechtliche Dokumente im Namen Ihrer LLC im Gründungsstaat entgegenzunehmen.
 
 **Wann brauchen Sie es?** Es gehört zu den Unterlagen Ihrer LLC. Einige Banken verlangen es als zusätzliche Verifizierung.
 
@@ -1997,11 +1997,11 @@ Dokument, das bestätigt, wer Ihr Registered Agent ist — die Person oder das U
 
 ## Dokumente, die Sie NICHT brauchen
 
-- **Social Security Number (SSN)** — Nicht erforderlich für Nicht-Residenten. Die EIN ersetzt die SSN für steuerliche Zwecke der LLC
-- **Visum oder Arbeitserlaubnis** — Sie brauchen keine Arbeitserlaubnis in den USA, um eine LLC zu besitzen. Alles ist 100 % remote
-- **Physische Adresse in den USA** — Der Registered Agent stellt die rechtliche Adresse bereit
-- **Amerikanischer Reisepass** — Jeder gültige Reisepass ist akzeptabel
-- **Vorhandenes Bankkonto in den USA** — Es wird als Teil des Gründungsprozesses eröffnet
+- **Social Security Number (SSN)**: Nicht erforderlich für Nicht-Residenten. Die EIN ersetzt die SSN für steuerliche Zwecke der LLC
+- **Visum oder Arbeitserlaubnis**: Sie brauchen keine Arbeitserlaubnis in den USA, um eine LLC zu besitzen. Alles ist 100 % remote
+- **Physische Adresse in den USA**: Der Registered Agent stellt die rechtliche Adresse bereit
+- **Amerikanischer Reisepass**: Jeder gültige Reisepass ist akzeptabel
+- **Vorhandenes Bankkonto in den USA**: Es wird als Teil des Gründungsprozesses eröffnet
 
 ## Wo sollten Sie diese Dokumente aufbewahren?
 
@@ -2017,11 +2017,11 @@ Bei Exentax erhalten alle unsere Kunden ihre vollständige Dokumentation, organi
 
   "mantenimiento-anual-llc-obligaciones": `Die Gründung einer LLC ist nur der erste Schritt. Damit Ihr Unternehmen aktiv, regelkonform und mit intaktem Good Standing bleibt, gibt es jährliche Pflichten, die erfüllt werden müssen. Die gute Nachricht: Bei Exentax kümmern wir uns im Rahmen des jährlichen Wartungsplans um absolut alles. Sie widmen sich Ihrem Geschäft und wir dem Compliance.
 
-Aber es ist wichtig, dass Sie verstehen, was getan wird und wann. Also erzählen wir Ihnen alles im Detail — Fristen, Kosten und den vollständigen Kalender.
+Aber es ist wichtig, dass Sie verstehen, was getan wird und wann. Also erzählen wir Ihnen alles im Detail. Fristen, Kosten und den vollständigen Kalender.
 
 ## Was ist der Good Standing?
 
-Es ist der Status, der bestätigt, dass Ihre LLC allen ihren Verpflichtungen gegenüber dem Bundesstaat nachkommt. Es ist wie der "Führerschein" Ihres Unternehmens — wenn Sie ihn verlieren, können Sie nicht fahren.
+Es ist der Status, der bestätigt, dass Ihre LLC allen ihren Verpflichtungen gegenüber dem Bundesstaat nachkommt. Es ist wie der "Führerschein" Ihres Unternehmens, wenn Sie ihn verlieren, können Sie nicht fahren.
 
 Ohne Good Standing:
 
@@ -2036,9 +2036,9 @@ Den Good Standing aufrechtzuerhalten ist einfach, wenn Sie die Pflichten rechtze
 ## Jährliche Pflichten nach Bundesstaat
 
 ### New Mexico
-- **Annual Report:** Nicht erforderlich (ja, Sie haben richtig gelesen — \$0 und null staatliche Formalitäten)
+- **Annual Report:** Nicht erforderlich (ja, Sie haben richtig gelesen. \$0 und null staatliche Formalitäten)
 - **Jährliche Staatsgebühr:** \$0
-- **Ergebnis:** Die günstigste und einfachste Wartung der drei Bundesstaaten. Deshalb ist es unser Favorit
+- **Ergebnis:** Die einfachste Wartung der drei Bundesstaaten. Deshalb ist es unser Favorit
 
 ### Wyoming
 - **Annual Report:** Ja, jedes Jahr zum Jahrestag der LLC
@@ -2060,7 +2060,7 @@ Unabhängig davon, wo Sie Ihre LLC gründen, sind diese Pflichten dieselben:
 
 Wenn Ihre LLC einen ausländischen Eigentümer (Nicht-Residenten) hat, müssen Sie jährlich das **Form 5472** (informativ) zusammen mit einem **Form 1120 pro-forma** einreichen. Dies ist auch dann Pflicht, wenn Ihre LLC keine Einnahmen hatte.
 
-Wichtige Erinnerung: **Ihre LLC zahlt \$0 Bundessteuer.** Diese Formulare sind rein informativ — der IRS möchte wissen, welche Transaktionen zwischen Ihnen und Ihrer LLC stattgefunden haben, berechnet Ihnen aber nichts. Pass-Through Taxation in Reinform.
+Wichtige Erinnerung: **Ihre LLC zahlt \$0 Bundessteuer.** Diese Formulare sind rein informativ, der IRS möchte wissen, welche Transaktionen zwischen Ihnen und Ihrer LLC stattgefunden haben, berechnet Ihnen aber nichts. Pass-Through Taxation in Reinform.
 
 - **Ursprüngliche Frist:** 15. April
 - **Mit Verlängerung (Form 7004):** 15. Oktober
@@ -2075,7 +2075,7 @@ Wenn die Summe Ihrer Finanzkonten in den USA zu irgendeinem Zeitpunkt im Jahr \$
 
 ## Erneuerung des Registered Agent
 
-Ihr Registered Agent muss dauerhaft aktiv sein — das ist in allen Bundesstaaten gesetzlich vorgeschrieben. Wenn Ihr Registered-Agent-Service abläuft und Sie ihn nicht erneuern:
+Ihr Registered Agent muss dauerhaft aktiv sein, das ist in allen Bundesstaaten gesetzlich vorgeschrieben. Wenn Ihr Registered-Agent-Service abläuft und Sie ihn nicht erneuern:
 
 - Sendet der Bundesstaat rechtliche Mitteilungen, die niemand erhält
 - Können Sie den Good Standing verlieren, ohne es zu bemerken
@@ -2125,11 +2125,11 @@ Bei Exentax deckt der jährliche Wartungsplan alles oben Genannte ab. Null Über
 
 Wir sind direkt: Wenn Sie die Wartung Ihrer LLC ignorieren, sind die Konsequenzen real:
 
-1. **Verlust des Good Standing** — Ihre LLC erscheint als "Not in Good Standing" in den Registern des Bundesstaates
-2. **Mercury kann Ihr Konto einfrieren** — Finanzinstitute überprüfen regelmäßig den Status der LLC
+1. **Verlust des Good Standing**: Ihre LLC erscheint als "Not in Good Standing" in den Registern des Bundesstaates
+2. **Mercury kann Ihr Konto einfrieren**: Finanzinstitute überprüfen regelmäßig den Status der LLC
 3. **Sanktionen des IRS** wegen Nichteinreichung des Form 5472
-4. **Administrative Auflösung** — der Bundesstaat kann Ihre LLC auflösen, wenn Sie über einen längeren Zeitraum nicht konform sind
-5. **Verlust des Vermögensschutzes** — wenn Ihre LLC nicht aktiv ist, ist Ihr persönliches Vermögen ungeschützt
+4. **Administrative Auflösung**: der Bundesstaat kann Ihre LLC auflösen, wenn Sie über einen längeren Zeitraum nicht konform sind
+5. **Verlust des Vermögensschutzes**: wenn Ihre LLC nicht aktiv ist, ist Ihr persönliches Vermögen ungeschützt
 
 Es lohnt sich nicht, dieses Risiko einzugehen. Die jährliche Wartung ist eine kleine Investition im Vergleich zu dem, was sie schützt und spart.
 
@@ -2209,25 +2209,25 @@ Möchten Sie, dass wir uns um die gesamte Wartung Ihrer LLC kümmern? Vereinbare
 
 
 
-  "wise-business-llc-guia": `**Wise Business** (ehemals TransferWise) ist eines der nützlichsten Finanztools für LLC-Eigentümer, die international tätig sind. Es ermöglicht Ihnen, Geld in mehr als 40 Währungen zu empfangen, umzurechnen und zu senden — mit echten Wechselkursen und transparenten Gebühren.
+  "wise-business-llc-guia": `**Wise Business** (ehemals TransferWise) ist eines der nützlichsten Finanztools für LLC-Eigentümer, die international tätig sind. Es ermöglicht Ihnen, Geld in mehr als 40 Währungen zu empfangen, umzurechnen und zu senden, mit echten Wechselkursen und transparenten Gebühren.
 
-Ein wichtiger Hinweis: **Wise ist keine Bank.** Es ist ein EMI (E-Geld-Institut) — in den USA operiert es als Money Transmitter. Das bedeutet, dass Ihr Geld nicht durch die FDIC abgesichert ist, aber Wise nutzt Safeguarding (Trennung der Kundengelder), um es zu schützen. Für die meisten Umrechnungs- und internationalen Zahlungsvorgänge ist dies mehr als ausreichend. Für Ihre Hauptkasse verwenden Sie Mercury.
+Ein wichtiger Hinweis: **Wise ist keine Bank.** Es ist ein EMI (E-Geld-Institut), in den USA operiert es als Money Transmitter. Das bedeutet, dass Ihr Geld nicht durch die FDIC abgesichert ist, aber Wise nutzt Safeguarding (Trennung der Kundengelder), um es zu schützen. Für die meisten Umrechnungs- und internationalen Zahlungsvorgänge ist dies mehr als ausreichend. Für Ihre Hauptkasse verwenden Sie Mercury.
 
 ## Warum Wise Business für Ihre LLC?
 
 Wenn Ihre LLC in Dollar abrechnet, Ihre persönlichen Ausgaben aber in Euro, Pesos oder anderen Währungen anfallen, brauchen Sie eine effiziente Möglichkeit zur Währungsumrechnung. Wise bietet:
 
-- **Echter Wechselkurs** (Mid-Market-Rate) — ohne versteckte Marge
-- **Transparente Gebühren** — Sie sehen genau, was Sie zahlen, bevor Sie senden
-- **Konten in mehreren Währungen** — empfangen Sie in USD, EUR, GBP, AUD und mehr
-- **Lokale Bankdaten** — amerikanische Routing Number, europäische IBAN, britischer Sort Code
+- **Echter Wechselkurs** (Mid-Market-Rate), ohne versteckte Marge
+- **Transparente Gebühren**: Sie sehen genau, was Sie zahlen, bevor Sie senden
+- **Konten in mehreren Währungen**: empfangen Sie in USD, EUR, GBP, AUD und mehr
+- **Lokale Bankdaten**: amerikanische Routing Number, europäische IBAN, britischer Sort Code
 
 ## Ersetzt Wise Business Mercury?
 
 **Nein.** Sie ergänzen sich:
 
-- **Mercury** ist Ihre Hauptfinanzplattform — wo Sie die Einnahmen der LLC empfangen und die Kasse verwalten
-- **Wise Business** ist Ihr Tool für Währungsumrechnung und internationale Zahlungen — wo Sie Währungen umrechnen und Geld auf Ihr persönliches Konto senden
+- **Mercury** ist Ihre Hauptfinanzplattform, wo Sie die Einnahmen der LLC empfangen und die Kasse verwalten
+- **Wise Business** ist Ihr Tool für Währungsumrechnung und internationale Zahlungen, wo Sie Währungen umrechnen und Geld auf Ihr persönliches Konto senden
 
 Der typische Ablauf ist: Kunde zahlt → Mercury (USD) → Wise (Umrechnung) → Ihr persönliches Konto (EUR/CHF/andere Währung).
 
@@ -2242,7 +2242,7 @@ Der typische Ablauf ist: Kunde zahlt → Mercury (USD) → Wise (Umrechnung) →
 ## Wichtige Funktionen für Ihre LLC
 
 ### Zahlungen in mehreren Währungen empfangen
-Wise stellt Ihnen lokale Bankdaten in verschiedenen Ländern bereit. Wenn Sie einen Kunden in Europa haben, kann dieser per SEPA (europäische Überweisung) direkt auf Ihr Wise-Konto in Euro zahlen — ohne internationalen Wire Transfer und ohne Gebühren der Zwischenbank.
+Wise stellt Ihnen lokale Bankdaten in verschiedenen Ländern bereit. Wenn Sie einen Kunden in Europa haben, kann dieser per SEPA (europäische Überweisung) direkt auf Ihr Wise-Konto in Euro zahlen, ohne internationalen Wire Transfer und ohne Gebühren der Zwischenbank.
 
 ### Währungen umrechnen
 Wenn Sie Euro, Schweizer Franken oder eine andere Währung benötigen, rechnen Sie direkt bei Wise zum echten Wechselkurs um. Die Gebühr ist transparent (normalerweise 0,4-1,5% je nach Währungspaar).
@@ -2251,7 +2251,7 @@ Wenn Sie Euro, Schweizer Franken oder eine andere Währung benötigen, rechnen S
 Nach der Umrechnung senden Sie das Geld auf Ihr persönliches Konto in Ihrem Land. Wenn Ihre Bank SEPA (Europa) oder lokale Überweisungen akzeptiert, ist der Versand schnell und günstig.
 
 ### Wise Business Karte
-Wise bietet eine Debitkarte (physisch und virtuell), die mit Ihrem Konto verknüpft ist. Sie können sie für LLC-Ausgaben verwenden und in der lokalen Währung bezahlen — Wise rechnet automatisch zum besten Wechselkurs um.
+Wise bietet eine Debitkarte (physisch und virtuell), die mit Ihrem Konto verknüpft ist. Sie können sie für LLC-Ausgaben verwenden und in der lokalen Währung bezahlen. Wise rechnet automatisch zum besten Wechselkurs um.
 
 ## Kosten von Wise Business
 
@@ -2302,7 +2302,7 @@ Jedes Tool hat seine Funktion. Der häufigste Fehler ist zu versuchen, dass eine
 
 **Berater in Kolumbien, der in EUR und USD fakturiert:** Sie empfangen USD auf Mercury und EUR auf Ihrem europäischen Wise-Konto. Sie konvertieren beides in COP, wenn nötig, und senden auf Ihr kolumbianisches Konto. Wise gibt Ihnen den Mid-Market-Kurs, was Tausende Pesos pro konvertierten \$1.000 sparen kann gegenüber dem Kurs Ihrer lokalen Bank.
 
-**SaaS mit globalen Kunden:** Ihre Kunden zahlen über Stripe (das auf Mercury einzahlt). Ihr Freelancer-Team in Lateinamerika wird über Wise in lokalen Währungen bezahlt. Der Fluss ist sauber, dokumentiert und effizient.
+**SaaS mit globalen Kunden:** Ihre Kunden zahlen über Stripe (das auf Mercury einzahlt), Ihr Freelancer-Team in Lateinamerika wird über Wise in lokalen Währungen bezahlt. Der Fluss ist sauber, dokumentiert und effizient.
 
 Möchten Sie Wise Business als Ergänzung zu Ihrem Hauptkonto bei Mercury nutzen? Vereinbaren Sie Ihre kostenlose Beratung und wir helfen Ihnen, Ihren Währungsfluss so einzurichten, dass Sie bei jeder Konvertierung das Minimum zahlen.`,
 
@@ -2310,7 +2310,7 @@ Möchten Sie Wise Business als Ergänzung zu Ihrem Hauptkonto bei Mercury nutzen
 
 ## Stripe
 
-Stripe ist die bevorzugte Zahlungsplattform von Startups, SaaS-Unternehmen und digitalen Geschäftsmodellen. Mit Ihrer LLC erhalten Sie Zugang zu **Stripe US** — der umfassendsten Version.
+Stripe ist die bevorzugte Zahlungsplattform von Startups, SaaS-Unternehmen und digitalen Geschäftsmodellen. Mit Ihrer LLC erhalten Sie Zugang zu **Stripe US**: der umfassendsten Version.
 
 ### Vorteile
 - Akzeptiert mehr als 135 Währungen
@@ -2332,7 +2332,7 @@ Digitale Geschäftsmodelle, SaaS, Freiberufler/Selbstständige mit Volumen, Mark
 PayPal ist nach wie vor die bekannteste Zahlungsplattform bei Verbrauchern. Mit Ihrer LLC erhalten Sie Zugang zu **PayPal Business US** ohne die Einschränkungen von Privatkonten oder Ländern mit Beschränkungen.
 
 ### Vorteile
-- Markenbekanntheit — Kunden vertrauen PayPal
+- Markenbekanntheit. Kunden vertrauen PayPal
 - Checkout, Zahlungsbuttons, Abonnements, Rechnungsstellung
 - Verkäuferschutz inklusive
 - Einfache Integration mit den meisten Plattformen
@@ -2351,17 +2351,17 @@ Freiberufler/Selbstständige, die mit Kunden arbeiten, die PayPal bevorzugen, B2
 - Einheitliche Verarbeitung: Acquiring, Gateway und Risikomanagement auf einer Plattform
 - Lokale Zahlungsmethoden (iDEAL, Bancontact, Boleto, OXXO...)
 - Erweiterte Analytik und Betrugsprävention
-- Betreibt die Zahlungslinks von Relay — wenn Sie Relay als Bankkonto nutzen, werden Ihre Rechnungslinks über Adyen abgewickelt
+- Betreibt die Zahlungslinks von Relay, wenn Sie Relay als Bankkonto nutzen, werden Ihre Rechnungslinks über Adyen abgewickelt
 
 ### Ideal für
 Unternehmen mit signifikantem Volumen, Marktplätze, Enterprise-E-Commerce
 
 ## Dodo Payments
 
-**Dodo Payments** ist eine aufstrebende Alternative, die für digitale Unternehmen konzipiert wurde, die weltweit verkaufen. Ihr Ansatz ist die Vereinfachung der internationalen Steuer-Compliance.
+**Dodo Payments** ist eine aufstrebende Alternative, die für digitale Unternehmen konzipiert wurde, die weltweit verkaufen, Ihr Ansatz ist die Vereinfachung der internationalen Steuer-Compliance.
 
 ### Vorteile
-- Merchant of Record — Dodo übernimmt die internationale Umsatzsteuer/GST
+- Merchant of Record. Dodo übernimmt die internationale Umsatzsteuer/GST
 - Für Conversion optimierter Checkout
 - Unterstützt mehrere globale Zahlungsmethoden
 - Ideal für den Verkauf digitaler Produkte
@@ -2389,7 +2389,7 @@ Alle können mit demselben Bankkonto der LLC bei Mercury verbunden werden (das �
 
 ## Lili
 
-**Lili** ist eine Neobank (Fintech mit Banklizenz), die speziell für Freiberufler und kleine Unternehmen entwickelt wurde. Es ist kein Zahlungsgateway — es ist eine vollständige Digitalbank, die Girokonto, Buchhaltungstools und Rechnungsstellung in einer einzigen Plattform kombiniert.
+**Lili** ist eine Neobank (Fintech mit Banklizenz), die speziell für Freiberufler und kleine Unternehmen entwickelt wurde. Es ist kein Zahlungsgateway, es ist eine vollständige Digitalbank, die Girokonto, Buchhaltungstools und Rechnungsstellung in einer einzigen Plattform kombiniert.
 
 ### Vorteile
 - Vollständiges Bankkonto mit Banklizenz (keine EMI)
@@ -2413,17 +2413,17 @@ Freiberufler/Selbstständige, die eine All-in-One-Lösung für Banking und Buchh
 
 Um Ihre LLC bei einer Zahlungsplattform zu verifizieren, benötigen Sie:
 
-- **EIN** der LLC — wird von Exentax für Sie beantragt
-- **Articles of Organization** — werden von uns vorbereitet
-- **Operating Agreement** — individuell erstellt, kein Template aus dem Internet
+- **EIN** der LLC. wird von Exentax für Sie beantragt
+- **Articles of Organization**: werden von uns vorbereitet
+- **Operating Agreement**: individuell erstellt, kein Template aus dem Internet
 - **Ausweisdokument** des Eigentümers (Reisepass)
-- **Bankkonto** der LLC (Mercury — wird von uns eröffnet)
+- **Bankkonto** der LLC (Mercury. wird von uns eröffnet)
 
 Der Verifizierungsprozess dauert in der Regel 1-5 Werktage. Bei Exentax koordinieren wir die gesamte Einrichtung, damit Sie sich nicht mit Verifizierungsformularen auf Englisch herumschlagen oder Dokumente einzeln hochladen müssen. Sie entscheiden, welche Zahlungsplattformen Sie benötigen, wir richten sie betriebsbereit ein.
 
 Vereinbaren Sie Ihre kostenlose Beratung und wir empfehlen Ihnen die perfekte Kombination von Zahlungsplattformen für Ihre Art von Geschäft.`,
 
-  "amazon-ecommerce-llc-vender-online": `Wenn Sie Produkte (physische oder digitale) auf Amazon, Shopify, Etsy oder einer anderen E-Commerce-Plattform verkaufen möchten, öffnet Ihnen eine LLC in den Vereinigten Staaten Türen, die von Ihrem Land aus wahrscheinlich verschlossen sind — oder mit Einschränkungen und Einbehaltungen begrenzt.
+  "amazon-ecommerce-llc-vender-online": `Wenn Sie Produkte (physische oder digitale) auf Amazon, Shopify, Etsy oder einer anderen E-Commerce-Plattform verkaufen möchten, öffnet Ihnen eine LLC in den Vereinigten Staaten Türen, die von Ihrem Land aus wahrscheinlich verschlossen sind, oder mit Einschränkungen und Einbehaltungen begrenzt.
 
 ## Warum eine LLC für E-Commerce?
 
@@ -2431,7 +2431,7 @@ Vereinbaren Sie Ihre kostenlose Beratung und wir empfehlen Ihnen die perfekte Ko
 Amazon Seller Central US ist der größte Marktplatz der Welt. Mit einer amerikanischen LLC können Sie sich als professioneller Verkäufer registrieren, ohne die Einschränkungen, die internationale Verkäuferkonten haben.
 
 ### Bankkonto in Dollar
-E-Commerce-Plattformen zahlen Ihre Einnahmen auf Ihr Bankkonto ein. Mit einer LLC erhalten Sie die Gelder direkt auf Mercury in Dollar — ohne Vermittler, ohne Einbehaltungen und ohne erzwungene Währungsumrechnungen.
+E-Commerce-Plattformen zahlen Ihre Einnahmen auf Ihr Bankkonto ein. Mit einer LLC erhalten Sie die Gelder direkt auf Mercury in Dollar, ohne Vermittler, ohne Einbehaltungen und ohne erzwungene Währungsumrechnungen.
 
 ### Glaubwürdigkeit gegenüber dem Kunden
 Der Verkauf über ein amerikanisches Unternehmen schafft Vertrauen. Kunden in den USA sehen ein lokales Unternehmen, keinen internationalen Verkäufer.
@@ -2492,7 +2492,7 @@ Der **Nexus** ist das Konzept, das bestimmt, ob Sie Sales Tax in einem Staat erh
 
 ### Wenn Sie Private Label (eigene Marke) machen
 1. Sie produzieren in China, Indien oder wo es am wettbewerbsfähigsten ist
-2. Ihr Lieferant sendet direkt an die FBA-Lager von Amazon
+2, Ihr Lieferant sendet direkt an die FBA-Lager von Amazon
 3. Amazon lagert, verpackt und versendet
 4. Sie konzentrieren sich auf Marketing und Listing-Optimierung
 
@@ -2627,20 +2627,20 @@ Bei Exentax helfen wir Ihnen, den korrekten Prozentsatz zu berechnen und ihn zu 
 
 Hier ist die Grenze klar:
 
-- **Persönliche Ausgaben** — Kleidung (es sei denn, es handelt sich um Arbeitskleidung), tägliche Verpflegung, persönliche Unterhaltung, Netflix, persönliches Spotify
-- **Bußgelder und Strafen** — Verkehrsstrafen, IRS-Sanktionen
+- **Persönliche Ausgaben**: Kleidung (es sei denn, es handelt sich um Arbeitskleidung), tägliche Verpflegung, persönliche Unterhaltung, Netflix, persönliches Spotify
+- **Bußgelder und Strafen**: Verkehrsstrafen, IRS-Sanktionen
 - **Politische Spenden**
-- **Luxusausgaben** ohne geschäftliche Rechtfertigung — diese Luxusuhr ist kein "Repräsentationsaufwand"
-- **Persönliche Entnahmen** (Owner's Draws) — sind keine Ausgaben, sondern Gewinnausschüttungen
-- **Persönliche Kleidung** — Ihre Alltagskleidung ist nicht absetzbar, auch wenn Sie sie zum Arbeiten tragen
+- **Luxusausgaben** ohne geschäftliche Rechtfertigung. diese Luxusuhr ist kein "Repräsentationsaufwand"
+- **Persönliche Entnahmen** (Owner's Draws), sind keine Ausgaben, sondern Gewinnausschüttungen
+- **Persönliche Kleidung**: Ihre Alltagskleidung ist nicht absetzbar, auch wenn Sie sie zum Arbeiten tragen
 
 ## So dokumentieren Sie Ihre Ausgaben
 
 Damit eine Ausgabe absetzbar ist, benötigen Sie den Nachweis von drei Dingen:
 
-1. **Sie wurde mit LLC-Mitteln bezahlt** — vom Bankkonto oder der Karte der LLC (Mercury, Relay)
-2. **Es gibt eine Rechnung oder Quittung** — die den Zweck, das Datum und den Betrag zeigt
-3. **Sie ist geschäftlich** — Sie können den Zusammenhang mit der Tätigkeit der LLC begründen
+1. **Sie wurde mit LLC-Mitteln bezahlt**: vom Bankkonto oder der Karte der LLC (Mercury, Relay)
+2. **Es gibt eine Rechnung oder Quittung**: die den Zweck, das Datum und den Betrag zeigt
+3. **Sie ist geschäftlich**: Sie können den Zusammenhang mit der Tätigkeit der LLC begründen
 
 Bewahren Sie alle Quittungen und Rechnungen auf. Nutzen Sie Tools wie QuickBooks, Xero oder sogar einen organisierten Ordner in Google Drive. Der Schlüssel ist Konsistenz: Wenn Sie es vom ersten Tag an tun, ist es nie ein Problem.
 
@@ -2652,7 +2652,7 @@ Praktisches Beispiel: Wenn Sie \$60.000/Jahr fakturieren und \$15.000 an absetzb
 
 ## Bei Exentax helfen wir Ihnen dabei
 
-Teil unseres Wartungsservice umfasst die Beratung darüber, welche Ausgaben Sie absetzen können und wie Sie diese korrekt dokumentieren. Wir lassen Sie nicht allein mit einer Liste — wir begleiten Sie, damit Sie Ihre Abzüge maximieren, ohne Probleme.
+Teil unseres Wartungsservice umfasst die Beratung darüber, welche Ausgaben Sie absetzen können und wie Sie diese korrekt dokumentieren. Wir lassen Sie nicht allein mit einer Liste. wir begleiten Sie, damit Sie Ihre Abzüge maximieren, ohne Probleme.
 
 Möchten Sie wissen, wie viel Sie in Ihrem Fall absetzen können? Vereinbaren Sie Ihre kostenlose Beratung und wir berechnen es gemeinsam.`,
 
@@ -2690,19 +2690,19 @@ Für den IRS sind Sie steuerlich ansässig, wenn Sie eine der folgenden Bedingun
 - **Sie besitzen eine Green Card** (permanente Aufenthaltsgenehmigung)
 - **Sie bestehen den Substantial Presence Test** (mehr als 183 Tage in den USA in bestimmten Zeiträumen)
 
-Wenn Sie keine davon erfüllen, sind Sie für den IRS **nicht ansässig** — und das ändert alles.
+Wenn Sie keine davon erfüllen, sind Sie für den IRS **nicht ansässig**: und das ändert alles.
 
 ## Wesentliche steuerliche Unterschiede
 
 ### Single-Member LLC eines Ansässigen
-- Die LLC ist eine **Disregarded Entity** — die Einkünfte werden in Ihrer persönlichen Steuererklärung angegeben
+- Die LLC ist eine **Disregarded Entity**: die Einkünfte werden in Ihrer persönlichen Steuererklärung angegeben
 - Sie zahlen **Einkommensteuer** in den USA auf die Gewinne der LLC
-- Sie zahlen **Self-Employment Tax** (15,3%) — Sozialversicherung und Medicare
+- Sie zahlen **Self-Employment Tax** (15,3%). Sozialversicherung und Medicare
 - Sie reichen den **Schedule C** zusammen mit Ihrem Form 1040 ein
 - Effektiver Gesamtsteuersatz: kann je nach Einkommen **30-40%** übersteigen
 
 ### Single-Member LLC eines Nicht-Ansässigen
-- Die LLC ist eine **Disregarded Entity** — aber der IRS behandelt sie für Nicht-Ansässige anders
+- Die LLC ist eine **Disregarded Entity**: aber der IRS behandelt sie für Nicht-Ansässige anders
 - **Sie zahlen keine Bundessteuer** in den USA, wenn die Einkünfte von außerhalb des Landes stammen
 - **Sie zahlen keine Self-Employment Tax**
 - Sie reichen das **Form 5472 + Form 1120 pro-forma** (informativ) ein
@@ -2732,7 +2732,7 @@ Das ist es, was die LLC zu einem so mächtigen Werkzeug für Freiberufler/Selbst
 
 ## Was passiert, wenn ich meinen Wohnsitz wechsle?
 
-Wenn Sie Nicht-Ansässiger sind und in die USA ziehen (Green Card erhalten oder den Substantial Presence Test bestehen), ändert sich Ihr Steuerstatus. Sie werden als Ansässiger besteuert — mit allen Konsequenzen:
+Wenn Sie Nicht-Ansässiger sind und in die USA ziehen (Green Card erhalten oder den Substantial Presence Test bestehen), ändert sich Ihr Steuerstatus. Sie werden als Ansässiger besteuert, mit allen Konsequenzen:
 
 - Sie beginnen, Bundes- und Landessteuern zu zahlen
 - Sie müssen Self-Employment Tax zahlen
@@ -2742,19 +2742,19 @@ Das Umgekehrte gilt ebenfalls: Wenn Sie Ansässiger sind und die USA verlassen (
 
 ## Praktische Beispiele: Der Unterschied in Zahlen
 
-### Maria — Webentwicklerin in Spanien (nicht ansässig in den USA)
+### Maria. Webentwicklerin in Spanien (nicht ansässig in den USA)
 - Fakturiert 80.000€/Jahr an Kunden in den USA und Europa
 - **Ohne LLC:** Progressive Einkommensteuer ~33% + Freiberufler-Beiträge = ~30.000€ an Steuern
 - **Mit LLC:** \$0 Bundessteuer in den USA + optimierte Besteuerung im Wohnsitzland = ~8.000-10.000€
 - **Jährliche Ersparnis: ~20.000€**
 
-### Carlos — Marketingberater in Mexiko (nicht ansässig in den USA)
+### Carlos. Marketingberater in Mexiko (nicht ansässig in den USA)
 - Fakturiert \$60.000/Jahr an amerikanische Startups
 - **Ohne LLC:** ISR Mexiko ~30% = ~\$18.000
 - **Mit LLC:** \$0 Bundessteuer + optimierte Struktur in Mexiko = ~\$5.000-7.000
 - **Jährliche Ersparnis: ~\$11.000-13.000**
 
-### Andrea — UX-Designerin in Kolumbien (nicht ansässig in den USA)
+### Andrea. UX-Designerin in Kolumbien (nicht ansässig in den USA)
 - Fakturiert \$45.000/Jahr an internationale Agenturen
 - **Ohne LLC:** Einkommensteuer Kolumbien ~25% = ~\$11.250
 - **Mit LLC:** \$0 Bundessteuer + Optimierung Kolumbien = ~\$3.500-5.000
@@ -2771,11 +2771,11 @@ Der Schlüssel in all diesen Fällen: **Keiner hat Einkünfte aus US-amerikanisc
 - Eine Reise in die Vereinigten Staaten
 - Englischkenntnisse (dafür sind wir da)
 
-Der gesamte Gründungs- und Betriebsprozess erfolgt 100% online von jedem Land der Welt aus. Bei Exentax kümmern wir uns um alles für Sie — von der Gründung bis zur jährlichen Compliance. Sie widmen sich dem Fakturieren und wir sorgen dafür, dass beim IRS alles perfekt ist. Vereinbaren Sie Ihre kostenlose Beratung und wir sagen Ihnen genau, welche Struktur zu Ihrer Situation passt.`,
+Der gesamte Gründungs- und Betriebsprozess erfolgt 100% online von jedem Land der Welt aus. Bei Exentax kümmern wir uns um alles für Sie, von der Gründung bis zur jährlichen Compliance. Sie widmen sich dem Fakturieren und wir sorgen dafür, dass beim IRS alles perfekt ist. Vereinbaren Sie Ihre kostenlose Beratung und wir sagen Ihnen genau, welche Struktur zu Ihrer Situation passt.`,
 
   "cambiar-divisas-llc-mejores-opciones": `Wenn Sie eine LLC in den Vereinigten Staaten betreiben und in Spanien, Mexiko, Kolumbien oder einem anderen Land außerhalb der USA leben, ist der Währungswechsel ein wesentlicher Teil Ihres finanziellen Alltags. Sie kassieren in Dollar, aber Ihre persönlichen Ausgaben sind in Euro, Peso oder einer anderen lokalen Währung.
 
-Die Art und Weise, wie Sie diese Währungen umrechnen, kann Sie Hunderte oder Tausende von Dollar pro Jahr kosten — oder praktisch nichts, wenn Sie die richtigen Tools verwenden.
+Die Art und Weise, wie Sie diese Währungen umrechnen, kann Sie Hunderte oder Tausende von Dollar pro Jahr kosten, oder praktisch nichts, wenn Sie die richtigen Tools verwenden.
 
 ## Das Problem mit traditionellen Banken
 
@@ -2785,7 +2785,7 @@ Wenn Ihre lokale Bank eine Überweisung in Dollar erhält, rechnet sie diese in 
 - **Empfangsgebühren** (\$15-50 pro SWIFT-Überweisung)
 - **Gebühren der Zwischenbank** (\$10-25 zusätzlich)
 
-Insgesamt können Sie **3-5% bei jeder Überweisung verlieren**. Wenn Sie \$5.000 pro Monat überweisen, sind das \$150-250 pro Monat an versteckten Kosten — mehr als **\$2.000 pro Jahr**.
+Insgesamt können Sie **3-5% bei jeder Überweisung verlieren**. Wenn Sie \$5.000 pro Monat überweisen, sind das \$150-250 pro Monat an versteckten Kosten. mehr als **\$2.000 pro Jahr**.
 
 ## Die besten Optionen für den Währungswechsel
 
@@ -2800,7 +2800,7 @@ Wise bietet den realen Wechselkurs (Mid-Market-Rate) plus eine transparente und 
 
 ### 2. Mercury (direkt von Ihrem Konto)
 
-Mercury ermöglicht internationale Überweisungen mit \$0 Provision — ja, kostenlos. Aber wenn die Überweisung eine Währungsumrechnung beinhaltet, ist der Wechselkurs nicht so wettbewerbsfähig wie bei Wise.
+Mercury ermöglicht internationale Überweisungen mit \$0 Provision. ja, kostenlos. Aber wenn die Überweisung eine Währungsumrechnung beinhaltet, ist der Wechselkurs nicht so wettbewerbsfähig wie bei Wise.
 
 - **Wire-Provision:** \$0 (Senden und Empfangen, national und international)
 - **Wechselkurs:** Mit Aufschlag bei Währungsumrechnung (geringer als bei traditionellen Banken)
@@ -2813,7 +2813,7 @@ Airwallex ist eine globale Zahlungsplattform, die es ermöglicht, Multi-Währung
 
 - **Umrechnungsprovision:** Wettbewerbsfähig, mit geringem Aufschlag auf den Interbankenkurs
 - **Geschwindigkeit:** 1-2 Werktage
-- **Vorteil:** Lokale Konten in mehreren Ländern — Ihre Kunden zahlen, als wären Sie lokal
+- **Vorteil:** Lokale Konten in mehreren Ländern, Ihre Kunden zahlen, als wären Sie lokal
 
 ### 4. Sokin
 
@@ -2855,10 +2855,10 @@ Dieser Ablauf minimiert die Provisionen und maximiert den Wechselkurs.
 
 ## Tipps zum Sparen beim Währungswechsel
 
-- **Konsolidieren Sie Ihre Auszahlungen** — machen Sie eine oder zwei große Überweisungen pro Monat statt vieler kleiner
-- **Nutzen Sie Wise, wann immer möglich** — der Wechselkurs ist deutlich besser
-- **Vermeiden Sie PayPal-Umrechnungen** — heben Sie das Geld in Dollar ab und rechnen Sie über Wise um
-- **Vergleichen Sie vor dem Senden** — die Provisionen variieren je nach Betrag und Währung
+- **Konsolidieren Sie Ihre Auszahlungen**: machen Sie eine oder zwei große Überweisungen pro Monat statt vieler kleiner
+- **Nutzen Sie Wise, wann immer möglich**: der Wechselkurs ist deutlich besser
+- **Vermeiden Sie PayPal-Umrechnungen**: heben Sie das Geld in Dollar ab und rechnen Sie über Wise um
+- **Vergleichen Sie vor dem Senden**: die Provisionen variieren je nach Betrag und Währung
 
 Wenn Sie die Art und Weise optimieren möchten, wie Sie Geld zwischen Ihrer LLC und Ihrem persönlichen Konto bewegen, vereinbaren Sie eine kostenlose Beratung. Wir helfen Ihnen, den effizientesten Ablauf für Ihren Fall einzurichten.
 
@@ -2866,15 +2866,15 @@ Sie möchten Ihre Währungsumrechnungen optimieren und weniger Provisionen zahle
 
   "constituir-llc-proceso-paso-a-paso": `Eine LLC in den Vereinigten Staaten als Nichtansässiger zu gründen, ist ein zu 100 % online durchführbarer Prozess, der in wenigen Tagen abgeschlossen werden kann. Sie müssen nicht reisen, kein Visum haben und keinen Anwalt in den USA beauftragen.
 
-Hier erklären wir Ihnen den Prozess Schritt für Schritt — damit Sie genau verstehen, was damit verbunden ist.
+Hier erklären wir Ihnen den Prozess Schritt für Schritt. damit Sie genau verstehen, was damit verbunden ist.
 
 ## Schritt 1: Den Bundesstaat wählen
 
 Der erste Schritt besteht darin, in welchem Bundesstaat Sie Ihre LLC gründen möchten. Die drei beliebtesten für Nichtansässige:
 
-- **New Mexico** — Die günstigste Option. Kein Annual Report und keine jährlichen Gebühren
-- **Wyoming** — Maximale Privatsphäre. Mitgliederdaten sind nicht öffentlich
-- **Delaware** — Bester rechtlicher Rahmen. Empfohlen, wenn Sie Investoren suchen
+- **New Mexico**: Kein Annual Report und keine jährlichen Gebühren ($0/Jahr an staatlicher Wartung)
+- **Wyoming**: Maximale Privatsphäre. Mitgliederdaten sind nicht öffentlich
+- **Delaware**: Bester rechtlicher Rahmen. Empfohlen, wenn Sie Investoren suchen
 
 Die meisten Freiberufler und digitale Unternehmer wählen **New Mexico** wegen seiner Einfachheit und niedrigen Kosten, oder **Wyoming** wegen seiner Privatsphäre.
 
@@ -2888,7 +2888,7 @@ Sie können die Verfügbarkeit des Namens auf der Website des Secretary of State
 
 ## Schritt 3: Einen Registered Agent benennen
 
-Jede LLC benötigt einen Registered Agent — eine Person oder ein Unternehmen mit physischer Adresse im Bundesstaat, das rechtliche Dokumente im Namen Ihrer LLC entgegennimmt.
+Jede LLC benötigt einen Registered Agent, eine Person oder ein Unternehmen mit physischer Adresse im Bundesstaat, das rechtliche Dokumente im Namen Ihrer LLC entgegennimmt.
 
 Als Nichtansässiger beauftragen Sie einen professionellen Registered-Agent-Dienst. Dieser Service ist in den Gründungspaketen von Exentax enthalten.
 
@@ -2908,7 +2908,7 @@ Die Bearbeitungszeit variiert:
 
 ## Schritt 5: Die EIN beantragen
 
-Sobald die LLC gegründet ist, benötigen Sie die **EIN** (Employer Identification Number) — die Steuernummer Ihres Unternehmens beim IRS.
+Sobald die LLC gegründet ist, benötigen Sie die **EIN** (Employer Identification Number), die Steuernummer Ihres Unternehmens beim IRS.
 
 Der Antragsprozess der EIN für Nichtansässige erfolgt per Fax oder Post an den IRS. Die Bearbeitungszeit beträgt **2-8 Wochen**.
 
@@ -2924,8 +2924,8 @@ Seit 2024 müssen alle LLCs ihre tatsächlichen Eigentümer bei FinCEN melden. S
 
 Mit den Dokumenten in der Hand (Articles of Organization, EIN, Operating Agreement) können Sie Ihr Bankkonto in den USA eröffnen. Die beliebtesten Optionen:
 
-- **Mercury** — Die bevorzugte Option für LLCs von Nichtansässigen
-- **Relay** — Alternative mit mehreren Unterkonten
+- **Mercury**: Die bevorzugte Option für LLCs von Nichtansässigen
+- **Relay**: Alternative mit mehreren Unterkonten
 
 Der Prozess ist zu 100 % online und dauert in der Regel 1-5 Werktage.
 
@@ -2948,7 +2948,7 @@ Ihre LLC ist bereit. Jetzt können Sie Rechnungen an Kunden stellen, Zahlungen e
 | Zahlungsgateways | 1-5 Tage |
 | **Gesamt** | **3-10 Wochen** |
 
-Der Engpass ist die EIN — der IRS kann für Nichtansässige mehrere Wochen benötigen.
+Der Engpass ist die EIN, der IRS kann für Nichtansässige mehrere Wochen benötigen.
 
 ## Kann ich es selbst machen?
 
@@ -2968,18 +2968,18 @@ Jeder Fehler kostet Sie Wochen Verzögerung und in manchen Fällen Geld.
 Bei Exentax kümmern wir uns um den gesamten Gründungsprozess von Anfang bis Ende. Sie geben uns Ihren Reisepass, sagen uns, wie Ihre LLC heißen soll, und wir erledigen den Rest:
 
 1. **Wir wählen den optimalen Bundesstaat** gemeinsam mit Ihnen in der Erstberatung
-2. **Wir registrieren die Articles of Organization** — normalerweise in 1-3 Tagen
-3. **Wir beantragen die EIN** beim IRS — wir übernehmen die gesamte Kommunikation
-4. **Wir erstellen Ihr Operating Agreement** — individuell angepasst, kein generisches Template
-5. **Wir reichen den BOI Report** bei FinCEN ein — Sie bekommen davon nichts mit
-6. **Wir eröffnen Ihr Bankkonto** bei Mercury — mit perfekter Dokumentation
-7. **Wir machen Sie betriebsbereit** — bereit zum Rechnungen stellen, Zahlungen empfangen und Arbeiten
+2. **Wir registrieren die Articles of Organization**: normalerweise in 1-3 Tagen
+3. **Wir beantragen die EIN** beim IRS. wir übernehmen die gesamte Kommunikation
+4. **Wir erstellen Ihr Operating Agreement**: individuell angepasst, kein generisches Template
+5. **Wir reichen den BOI Report** bei FinCEN ein. Sie bekommen davon nichts mit
+6. **Wir eröffnen Ihr Bankkonto** bei Mercury, mit perfekter Dokumentation
+7. **Wir machen Sie betriebsbereit**: bereit zum Rechnungen stellen, Zahlungen empfangen und Arbeiten
 
 Der gesamte Prozess: zwischen 3 und 10 Wochen (der Engpass ist die EIN des IRS, nicht wir). Und während der gesamten Zeit haben Sie direkten Support durch unser Team.
 
 Vereinbaren Sie Ihre kostenlose Beratung und in 30 Minuten erklären wir Ihnen den gesamten Prozess für Ihren konkreten Fall.`,
 
-  "autonomos-espana-por-que-dejar-de-serlo": `Lassen Sie uns direkt sein: Wenn Sie Freiberufler/Selbstständiger in Spanien sind und der Großteil Ihrer Einnahmen aus dem Ausland stammt — Kunden in den USA, UK, Deutschland oder einem anderen Land — zahlen Sie wahrscheinlich viel mehr als nötig. Und nicht wenig.
+  "autonomos-espana-por-que-dejar-de-serlo": `Lassen Sie uns direkt sein: Wenn Sie Freiberufler/Selbstständiger in Spanien sind und der Großteil Ihrer Einnahmen aus dem Ausland stammt. Kunden in den USA, UK, Deutschland oder einem anderen Land. zahlen Sie wahrscheinlich viel mehr als nötig. Und nicht wenig.
 
 Das System der Selbstständigen in Spanien wurde für einen Bäcker um die Ecke konzipiert, nicht für einen UX-Designer, der mit Startups in San Francisco arbeitet. Und dennoch zahlen Tausende von digitalen Freiberuflern weiterhin alles, als würden sie Brötchen verkaufen.
 
@@ -2993,15 +2993,15 @@ Machen wir eine realistische Rechnung auf. Angenommen, Sie fakturieren 5.000 €
 
 Das Ergebnis: Von diesen 60.000 € bleiben Ihnen zwischen **32.000 € und 38.000 €** nach Steuern. Fast die Hälfte ist weg.
 
-Und das Schlimmste ist nicht, wie viel Sie zahlen — sondern dass Sie nicht so viel zahlen müssen.
+Und das Schlimmste ist nicht, wie viel Sie zahlen, sondern dass Sie nicht so viel zahlen müssen.
 
 ## Warum das Selbstständigenmodell für digitale Freiberufler nicht funktioniert?
 
-- **Der Beitrag ist fix** — Sie zahlen, auch wenn Sie nichts fakturieren. Und mit dem neuen einkommensabhängigen Beitragssystem steigt der Beitrag, wenn es Ihnen gut geht. Mittelmäßigkeit wird belohnt
-- **Die Einkommensteuer ist progressiv und gnadenlos** — ab 35.000 € sind Sie bereits im Steuersatz von 37 %. Ab 60.000 € erreichen Sie 45 %
-- **Vorauszahlungen** — jedes Quartal zahlen Sie 20 % Ihres geschätzten Gewinns. Sie zahlen den Behörden Geld im Voraus, bevor Sie wissen, ob Sie es tatsächlich verdient haben
-- **Mehrwertsteuer bei internationalen Geschäften** — ein bürokratisches Labyrinth. Reverse-Charge-Verfahren? Modell 349? OSS? Die meisten machen es falsch
-- **Kein Vermögensschutz** — wenn Ihr Geschäft ein rechtliches Problem hat, haften Ihre persönlichen Vermögenswerte. Ihr Haus, Ihre Ersparnisse, alles
+- **Der Beitrag ist fix**: Sie zahlen, auch wenn Sie nichts fakturieren. Und mit dem neuen einkommensabhängigen Beitragssystem steigt der Beitrag, wenn es Ihnen gut geht. Mittelmäßigkeit wird belohnt
+- **Die Einkommensteuer ist progressiv und gnadenlos**: ab 35.000 € sind Sie bereits im Steuersatz von 37 %. Ab 60.000 € erreichen Sie 45 %
+- **Vorauszahlungen**: jedes Quartal zahlen Sie 20 % Ihres geschätzten Gewinns. Sie zahlen den Behörden Geld im Voraus, bevor Sie wissen, ob Sie es tatsächlich verdient haben
+- **Mehrwertsteuer bei internationalen Geschäften**: ein bürokratisches Labyrinth. Reverse-Charge-Verfahren? Modell 349? OSS? Die meisten machen es falsch
+- **Kein Vermögensschutz**: wenn Ihr Geschäft ein rechtliches Problem hat, haften Ihre persönlichen Vermögenswerte, Ihr Haus, Ihre Ersparnisse, alles
 
 ## Was ist die Alternative?
 
@@ -3010,18 +3010,18 @@ Eine **LLC in den Vereinigten Staaten** ist nicht die einzige Alternative, aber 
 - **0 % Bundessteuer in den USA** (als Disregarded Entity mit nichtansässigem Eigentümer)
 - **Sie versteuern in Ihrem Wohnsitzland nur die Nettogewinne, die Sie sich überweisen** (bei korrekter Struktur)
 - **Zugang zu amerikanischen Bank- und Zahlungsdiensten** (Mercury, Stripe, PayPal US)
-- **Vollständiger Vermögensschutz** — Ihre persönlichen Vermögenswerte sind getrennt
-- **Kein fester monatlicher Beitrag** — es gibt kein Äquivalent zum Selbstständigenbeitrag
+- **Vollständiger Vermögensschutz**: Ihre persönlichen Vermögenswerte sind getrennt
+- **Kein fester monatlicher Beitrag**: es gibt kein Äquivalent zum Selbstständigenbeitrag
 
 ## "Aber ist das legal?"
 
-Ja. Vollkommen. Eine amerikanische LLC ist eine international anerkannte Unternehmensstruktur. Es handelt sich nicht um eine undurchsichtige Offshore-Gesellschaft auf den Kaimaninseln — es ist ein in einem US-Bundesstaat registriertes Unternehmen, mit EIN (Steuernummer), Registered Agent und jährlichen Erklärungen an den IRS.
+Ja. Vollkommen. Eine amerikanische LLC ist eine international anerkannte Unternehmensstruktur. Es handelt sich nicht um eine undurchsichtige Offshore-Gesellschaft auf den Kaimaninseln, es ist ein in einem US-Bundesstaat registriertes Unternehmen, mit EIN (Steuernummer), Registered Agent und jährlichen Erklärungen an den IRS.
 
 Was zählt, ist, dass die Struktur richtig aufgesetzt ist und dass Sie Ihren steuerlichen Pflichten in Spanien nachkommen. Hier liegt der Unterschied zwischen richtig und falsch machen.
 
 ## Muss ich mich als Selbstständiger abmelden?
 
-Das hängt von Ihrer Situation ab. Es gibt Fälle, in denen es sinnvoll ist, die Selbstständigenanmeldung in Spanien beizubehalten und die LLC parallel zu betreiben. In anderen Fällen kann es sinnvoll sein, sich abzumelden. Es gibt keine universelle Antwort — es hängt ab von:
+Das hängt von Ihrer Situation ab. Es gibt Fälle, in denen es sinnvoll ist, die Selbstständigenanmeldung in Spanien beizubehalten und die LLC parallel zu betreiben. In anderen Fällen kann es sinnvoll sein, sich abzumelden. Es gibt keine universelle Antwort, es hängt ab von:
 
 - Ihrem Umsatzvolumen
 - Dem Anteil internationaler vs. nationaler Kunden
@@ -3040,24 +3040,24 @@ Lassen Sie uns das anschaulich mit einem detaillierten Beispiel erklären:
 
 Ihre LLC als Disregarded Entity eines Nichtansässigen funktioniert mit **Pass-through Taxation**. Das bedeutet:
 
-1. **Die LLC kassiert von Ihren internationalen Kunden** — in Dollar, über Stripe, Wire oder ACH
-2. **Die LLC bezahlt ihre Betriebskosten** — Software, Tools, Dienstleistungen, Abonnements
-3. **Die LLC zahlt \$0 Bundessteuer in den USA** — null, nichts, zero
-4. **Sie erhalten die Nettogewinne** — mittels Owner's Draws auf Ihr persönliches Konto
+1. **Die LLC kassiert von Ihren internationalen Kunden**: in Dollar, über Stripe, Wire oder ACH
+2. **Die LLC bezahlt ihre Betriebskosten**: Software, Tools, Dienstleistungen, Abonnements
+3. **Die LLC zahlt \$0 Bundessteuer in den USA**: null, nichts, zero
+4. **Sie erhalten die Nettogewinne**: mittels Owner's Draws auf Ihr persönliches Konto
 5. **Sie erklären in Ihrem Wohnsitzland** nur die Nettogewinne, auf einer deutlich reduzierten Bemessungsgrundlage
 
 ### Abzugsfähige Ausgaben, von denen Sie als Selbstständiger nur träumen können
 
 Mit einer LLC können Sie als Betriebsausgaben alles absetzen, was "gewöhnlich und notwendig" für Ihr Geschäft ist:
 
-- **Ihr gesamter Tech-Stack** — Hosting, Domains, APIs, SaaS, KI-Tools
-- **Hardware** — Computer, Monitor, Kopfhörer, Mikrofon, Kamera
-- **Weiterbildung** — Kurse, Bootcamps, Konferenzen, Fachbücher
-- **Geschäftsreisen** — Flüge, Hotels, Verpflegungspauschalen (für Kundentreffen, Branchenveranstaltungen)
-- **Coworking oder Home-Office** — prozentualer Anteil Ihrer Miete, wenn Sie von zu Hause arbeiten
-- **Kommunikation** — Internet, Telefon, VPN
-- **Professionelle Dienstleistungen** — Buchhaltung, Steuerberatung (hallo!), Versicherungen
-- **Bankgebühren** — obwohl diese bei Mercury \$0 für Überweisungen betragen, gibt es hier wenig abzusetzen
+- **Ihr gesamter Tech-Stack**: Hosting, Domains, APIs, SaaS, KI-Tools
+- **Hardware**: Computer, Monitor, Kopfhörer, Mikrofon, Kamera
+- **Weiterbildung**: Kurse, Bootcamps, Konferenzen, Fachbücher
+- **Geschäftsreisen**: Flüge, Hotels, Verpflegungspauschalen (für Kundentreffen, Branchenveranstaltungen)
+- **Coworking oder Home-Office**: prozentualer Anteil Ihrer Miete, wenn Sie von zu Hause arbeiten
+- **Kommunikation**: Internet, Telefon, VPN
+- **Professionelle Dienstleistungen**: Buchhaltung, Steuerberatung (hallo!), Versicherungen
+- **Bankgebühren**: obwohl diese bei Mercury \$0 für Überweisungen betragen, gibt es hier wenig abzusetzen
 
 ### Beispiel mit realen Zahlen
 
@@ -3077,7 +3077,7 @@ Mit einer LLC können Sie als Betriebsausgaben alles absetzen, was "gewöhnlich 
 
 Dies verdient eine eigene Erwähnung: Der Selbstständigenbeitrag ist eine feste Abgabe, die Sie zahlen, **ob Sie fakturieren oder nicht**. Mit dem neuen einkommensabhängigen Beitragssystem (2023) steigt der Beitrag, wenn es Ihnen gut geht. Es ist das einzige Steuersystem der Welt, das Sie für Erfolg bestraft.
 
-Mit einer LLC gibt es kein Äquivalent. Es gibt keinen festen monatlichen Beitrag. Ihre Kosten sind:
+Mit einer LLC gibt es kein Äquivalent. Es gibt keinen festen monatlichen Beitrag, Ihre Kosten sind:
 - Jährliche LLC-Wartung (Festpreis, alles inklusive)
 - Die entsprechenden Steuern in Ihrem Wohnsitzland (auf Nettogewinne, nicht auf Bruttoeinnahmen)
 
@@ -3104,7 +3104,7 @@ Banken können:
 
 ## Was ist eine Fintech?
 
-Eine Fintech (Financial Technology) ist ein Technologieunternehmen, das Finanzdienstleistungen anbietet. Es hat keine eigene Banklizenz — es arbeitet **über eine Partnerbank**, die eine solche besitzt.
+Eine Fintech (Financial Technology) ist ein Technologieunternehmen, das Finanzdienstleistungen anbietet. Es hat keine eigene Banklizenz, es arbeitet **über eine Partnerbank**, die eine solche besitzt.
 
 - **Mercury** → Money Transmitter, der über **Column NA** operiert, eine Bank mit Bundeslizenz und FDIC-Deckung
 - **Relay** → Fintech, die über **Thread Bank** operiert, ebenfalls mit FDIC
@@ -3121,7 +3121,7 @@ Ja, mit Einschränkungen:
 
 - **Ihr Geld bei Mercury ist durch die FDIC versichert** bis zu \$250.000 über Column NA. Mercury bietet sogar eine erweiterte Deckung von bis zu \$5 Millionen durch sein Sweep-Programm über mehrere Banken
 - **Ihr Geld bei Relay ist durch die FDIC versichert** über Thread Bank
-- **Wise** hat keine FDIC-Versicherung — es ist ein EMI, das Safeguarding (Trennung der Kundengelder) verwendet. Sicher, aber anders
+- **Wise** hat keine FDIC-Versicherung, es ist ein EMI, das Safeguarding (Trennung der Kundengelder) verwendet. Sicher, aber anders
 - **Revolut Business** hat FDIC-Versicherung über seine Partnerbank
 
 Der Schlüssel: Fragen Sie immer, **wer die zugrunde liegende Bank ist** und ob es FDIC-Deckung gibt.
@@ -3166,7 +3166,7 @@ Wir sehen das ständig: Freiberufler, die Wochen damit verbringen, ein Konto bei
 3. Man verlangt eine SSN (die sie nicht haben) oder Dokumentation, die nicht zutrifft
 4. Nach Wochen wird ihnen mitgeteilt, dass die Kontoeröffnung nicht möglich ist
 
-Traditionelle amerikanische Banken sind für Einwohner konzipiert. Ihre Infrastruktur, ihre Formulare, ihre Compliance-Prozesse — alles ist für jemanden mit US-Adresse und SSN ausgelegt. Fintechs wurden genau zur Lösung dieses Problems gegründet.
+Traditionelle amerikanische Banken sind für Einwohner konzipiert, Ihre Infrastruktur, ihre Formulare, ihre Compliance-Prozesse, alles ist für jemanden mit US-Adresse und SSN ausgelegt. Fintechs wurden genau zur Lösung dieses Problems gegründet.
 
 ## Was viele über Wise nicht verstehen
 
@@ -3196,7 +3196,7 @@ Für die meisten LLCs von Nichtansässigen ist die ideale Kombination:
 
 Diese Kombination bietet Ihnen FDIC-Sicherheit, Zugang zu Zahlungsgateways, effiziente Währungsumrechnung und volle Kontrolle über Treasury und Ausgaben.
 
-Bei Exentax konfigurieren wir diese Struktur im Rahmen des Gründungsprozesses. Wir lassen Sie nicht mit einer LLC und einem Konto allein — wir bauen das komplette Finanzökosystem auf, damit Sie ab Tag eins operieren können.
+Bei Exentax konfigurieren wir diese Struktur im Rahmen des Gründungsprozesses. Wir lassen Sie nicht mit einer LLC und einem Konto allein. wir bauen das komplette Finanzökosystem auf, damit Sie ab Tag eins operieren können.
 
 Brauchen Sie Hilfe bei der Auswahl und Einrichtung Ihrer Konten? Vereinbaren Sie eine kostenlose Beratung und wir beraten Sie entsprechend Ihrem Fall.
 
@@ -3249,9 +3249,9 @@ ACH ist das inländische Überweisungssystem der USA. Es ist die gängigste und 
 
 ### Faktoren, die die Bearbeitungszeit beeinflussen
 
-- **Uhrzeit der Überweisung** — wenn Sie nach der Cut-off-Zeit senden, wird sie am nächsten Werktag verarbeitet
-- **Empfängerbank** — einige Banken halten ACH-Gelder 1-2 zusätzliche Tage zur Überprüfung zurück
-- **Erste Überweisung** — die erste Überweisung an ein neues Konto kann aufgrund von Sicherheitsüberprüfungen länger dauern
+- **Uhrzeit der Überweisung**: wenn Sie nach der Cut-off-Zeit senden, wird sie am nächsten Werktag verarbeitet
+- **Empfängerbank**: einige Banken halten ACH-Gelder 1-2 zusätzliche Tage zur Überprüfung zurück
+- **Erste Überweisung**: die erste Überweisung an ein neues Konto kann aufgrund von Sicherheitsüberprüfungen länger dauern
 
 ## Inlands-Wire-Transfer
 
@@ -3280,9 +3280,9 @@ Internationale Wires nutzen das SWIFT-Netzwerk und passieren Korrespondenzbanken
 
 ### Warum dauern sie länger?
 
-- **Korrespondenzbanken** — das Geld kann über 1-3 Korrespondenzbanken laufen, bevor es am Ziel ankommt
-- **Zeitzonen** — wenn die Empfängerbank bereits geschlossen hat, wird die Überweisung am nächsten Werktag verarbeitet
-- **Compliance-Prüfungen** — internationale Überweisungen durchlaufen Betrugs- und Geldwäschekontrollen
+- **Korrespondenzbanken**: das Geld kann über 1-3 Korrespondenzbanken laufen, bevor es am Ziel ankommt
+- **Zeitzonen**: wenn die Empfängerbank bereits geschlossen hat, wird die Überweisung am nächsten Werktag verarbeitet
+- **Compliance-Prüfungen**: internationale Überweisungen durchlaufen Betrugs- und Geldwäschekontrollen
 
 ## Wise Business
 
@@ -3309,11 +3309,11 @@ Wise nutzt für die meisten Überweisungen nicht das SWIFT-Netzwerk. Es verwende
 
 ## Tipps zur Beschleunigung Ihrer Zahlungen
 
-- **Initiieren Sie Überweisungen früh** — vor 14:00 Uhr Eastern Time (US-Ostküste). Nach der Cut-off-Zeit wird die Überweisung am nächsten Werktag verarbeitet
-- **Vermeiden Sie Freitage und Feiertage** — Überweisungen werden an Wochenenden nicht verarbeitet. Eine ACH-Überweisung, die am Freitag initiiert wird, kommt frühestens am Dienstag an
-- **Nutzen Sie ACH Same-Day**, wenn Sie Geschwindigkeit ohne Wire-Kosten benötigen — bei Mercury ohne zusätzliche Kosten verfügbar
-- **Bündeln Sie internationale Überweisungen** — ein großer Wire ist günstiger als mehrere kleine. Und bei Mercury sind Wires ohnehin \$0
-- **Nutzen Sie Wise für wiederkehrende Zahlungen** — schneller und günstiger als traditionelle Wires für mittlere Beträge, dank des Netzwerks lokaler Konten
+- **Initiieren Sie Überweisungen früh**: vor 14:00 Uhr Eastern Time (US-Ostküste). Nach der Cut-off-Zeit wird die Überweisung am nächsten Werktag verarbeitet
+- **Vermeiden Sie Freitage und Feiertage**: Überweisungen werden an Wochenenden nicht verarbeitet. Eine ACH-Überweisung, die am Freitag initiiert wird, kommt frühestens am Dienstag an
+- **Nutzen Sie ACH Same-Day**, wenn Sie Geschwindigkeit ohne Wire-Kosten benötigen, bei Mercury ohne zusätzliche Kosten verfügbar
+- **Bündeln Sie internationale Überweisungen**: ein großer Wire ist günstiger als mehrere kleine. Und bei Mercury sind Wires ohnehin \$0
+- **Nutzen Sie Wise für wiederkehrende Zahlungen**: schneller und günstiger als traditionelle Wires für mittlere Beträge, dank des Netzwerks lokaler Konten
 
 ## Die Information, die alles verändert: Mercury \$0 Wire-Gebühren
 
@@ -3323,11 +3323,11 @@ Die meisten Banken berechnen zwischen \$15-50 pro Wire Transfer. Mercury berechn
 - Ein amerikanischer Kunde möchte Ihnen per Wire zahlen? Sie empfangen es kostenlos
 - Wise verlangt eine Wire-Überweisung zur Verifizierung? \$0
 
-Mercury nutzt Column NA als Verwahrbank, mit FDIC-Versicherung. Es ist keine experimentelle Fintech — es ist seriöse Finanzinfrastruktur für Ihre LLC.
+Mercury nutzt Column NA als Verwahrbank, mit FDIC-Versicherung. Es ist keine experimentelle Fintech, es ist seriöse Finanzinfrastruktur für Ihre LLC.
 
 Bei Exentax helfen wir Ihnen, den optimalen Zahlungsfluss für Ihr Geschäft einzurichten: Mercury als zentraler Hub, Wise als Konvertierungstool (ein EMI mit dem echten Wechselkurs) und Relay (Thread Bank) als Backup. Alles integriert und ohne Überraschungen. Vereinbaren Sie Ihre kostenlose Beratung.`,
 
-  "iban-swift-routing-number-que-son": `Wenn Sie anfangen, Geld mit Ihrer LLC zu bewegen, werden Sie auf drei Abkürzungen stoßen, die immer wieder auftauchen: **IBAN**, **SWIFT** (oder BIC) und **Routing Number**. Sie sind wie die Postadresse Ihres Bankkontos — aber für Geld.
+  "iban-swift-routing-number-que-son": `Wenn Sie anfangen, Geld mit Ihrer LLC zu bewegen, werden Sie auf drei Abkürzungen stoßen, die immer wieder auftauchen: **IBAN**, **SWIFT** (oder BIC) und **Routing Number**. Sie sind wie die Postadresse Ihres Bankkontos, aber für Geld.
 
 Wir erklären jeden einzelnen klar und verständlich, damit Sie nie wieder denken müssen: „Welchen Code soll ich diesem Kunden geben?"
 
@@ -3348,7 +3348,7 @@ Das ist der Code, der eine Bank innerhalb der Vereinigten Staaten identifiziert.
 
 In Mercury: Dashboard → Account Details → "Routing Number"
 
-**Wichtiger Hinweis:** Mercury hat **zwei Routing Numbers** — eine für ACH und eine für Wire. Stellen Sie sicher, dass Sie je nach Überweisungsart die richtige angeben.
+**Wichtiger Hinweis:** Mercury hat **zwei Routing Numbers**: eine für ACH und eine für Wire. Stellen Sie sicher, dass Sie je nach Überweisungsart die richtige angeben.
 
 ## SWIFT / BIC Code
 
@@ -3375,11 +3375,11 @@ Die **IBAN** ist ein standardisiertes Kontonummernformat, das in Europa, dem Nah
 
 **Nein.** Die Vereinigten Staaten verwenden das IBAN-System nicht. Amerikanische Konten verwenden Routing Number + Account Number.
 
-Wenn ein europäischer Kunde Sie nach Ihrer IBAN fragt, um Sie zu bezahlen, lautet die Antwort: „Ich habe keine IBAN — hier sind meine Routing Number, Account Number und mein SWIFT Code für internationale Wire-Überweisungen."
+Wenn ein europäischer Kunde Sie nach Ihrer IBAN fragt, um Sie zu bezahlen, lautet die Antwort: „Ich habe keine IBAN. hier sind meine Routing Number, Account Number und mein SWIFT Code für internationale Wire-Überweisungen."
 
 ### Und wenn Sie Zahlungen aus Europa empfangen müssen?
 
-Hier glänzt **Wise Business**. Wise gibt Ihnen eine europäische IBAN (mit Präfix BE oder DE), die mit Ihrem Konto verknüpft ist. Europäische Kunden können Sie per SEPA bezahlen, als wäre es eine lokale Überweisung — ohne Gebühren für internationale Wire-Überweisungen.
+Hier glänzt **Wise Business**. Wise gibt Ihnen eine europäische IBAN (mit Präfix BE oder DE), die mit Ihrem Konto verknüpft ist. Europäische Kunden können Sie per SEPA bezahlen, als wäre es eine lokale Überweisung, ohne Gebühren für internationale Wire-Überweisungen.
 
 ## Kurze Zusammenfassung
 
@@ -3417,7 +3417,7 @@ Wise (das eine EMI ist, keine Bank) generiert lokale Konten in mehreren Ländern
 - **Sort Code** für britische Kunden
 - **BSB** für Kunden in Australien
 
-Ihre Kunden zahlen wie bei einer lokalen Überweisung — Sie empfangen in Ihrem Multi-Währungs-Guthaben bei Wise und überweisen dann zu Mercury, wenn es Ihnen passt.
+Ihre Kunden zahlen wie bei einer lokalen Überweisung. Sie empfangen in Ihrem Multi-Währungs-Guthaben bei Wise und überweisen dann zu Mercury, wenn es Ihnen passt.
 
 ## Mercury: Bankdaten, die Sie brauchen
 
@@ -3429,13 +3429,13 @@ Für Mercury geben Sie Ihren Kunden folgende Daten:
 - **SWIFT Code:** Für eingehende internationale Wire-Überweisungen
 - **Bankadresse:** Column NA, San Francisco, CA
 
-Mercury hat \$0 Wire-Gebühren — sowohl national als auch international. Ihre Gelder werden bei Column NA mit FDIC-Versicherung verwahrt.
+Mercury hat \$0 Wire-Gebühren. sowohl national als auch international, Ihre Gelder werden bei Column NA mit FDIC-Versicherung verwahrt.
 
 Bei Exentax richten wir alle Zahlungskanäle vom ersten Tag an für Sie ein. Wir sagen Ihnen genau, welche Daten Sie welchem Kundentyp geben müssen, damit das Geld schnell und ohne Überraschungen ankommt. Vereinbaren Sie Ihre kostenlose Beratung.`,
 
   "cuanto-cuesta-constituir-llc": `Fangen wir damit an, etwas klarzustellen, das uns in den Ohren wehtut, die wir in dieser Branche arbeiten: Eine LLC wird nicht „erstellt". Sie wird **gegründet**.
 
-Erstellen — das tun Sie mit einem Instagram-Profil oder einem Netflix-Konto. Gründen — das tun Sie, wenn Sie eine juristische Person bilden, die von einem souveränen Bundesstaat der Vereinigten Staaten anerkannt wird, mit steuerlichen Pflichten, einer Bundesidentifikationsnummer und Verantwortlichkeiten gegenüber dem IRS.
+Erstellen, das tun Sie mit einem Instagram-Profil oder einem Netflix-Konto. Gründen, das tun Sie, wenn Sie eine juristische Person bilden, die von einem souveränen Bundesstaat der Vereinigten Staaten anerkannt wird, mit steuerlichen Pflichten, einer Bundesidentifikationsnummer und Verantwortlichkeiten gegenüber dem IRS.
 
 Feiner Unterschied, nicht wahr? Gut, nachdem wir das losgeworden sind, kommen wir zum Wesentlichen: Was kostet es?
 
@@ -3477,7 +3477,7 @@ Die anfänglichen Kosten hängen vom gewählten Bundesstaat ab:
 
 Sobald Ihre LLC gegründet ist, fallen wiederkehrende Kosten an:
 
-### New Mexico — am günstigsten
+### New Mexico: keine jährlichen Gebühren
 | Posten | Jährliche Kosten |
 |---|---|
 | Annual Report | Nicht erforderlich (\$0) |
@@ -3494,7 +3494,7 @@ Sobald Ihre LLC gegründet ist, fallen wiederkehrende Kosten an:
 | Form 5472 + 1120 | \$150-500 |
 | **Gesamtkosten Unterhalt** | **\$260-710/Jahr** |
 
-### Delaware — am teuersten
+### Delaware. am teuersten
 | Posten | Jährliche Kosten |
 |---|---|
 | Franchise Tax + Annual Report | \$300 |
@@ -3528,7 +3528,7 @@ Die Differenz: **16.800-19.200€ pro Jahr**. Die Kosten der LLC amortisieren si
 
 Ja, die gibt es. Und sie machen genau das, was \$49 wert ist: ein Formular ausfüllen und es Ihnen schicken. Ohne steuerliche Beratung, ohne an Ihre Situation angepasstes Operating Agreement, ohne Betreuung nach der Gründung, ohne Erstellung von Steuererklärungen, ohne dass Ihnen jemand erklärt, was Sie danach tun müssen.
 
-Die LLC zu gründen ist der einfachste Schritt. Das Schwierige — und das, was den Unterschied macht — ist, sie korrekt zu betreiben, damit Ihre Steuerstruktur funktioniert.
+Die LLC zu gründen ist der einfachste Schritt. Das Schwierige, und das, was den Unterschied macht. ist, sie korrekt zu betreiben, damit Ihre Steuerstruktur funktioniert.
 
 ## Was Exentax beinhaltet (ohne Kleingedrucktes)
 
@@ -3567,7 +3567,7 @@ Hier kommen beide Seiten der Medaille. Ohne Filter.
 ### 1. Steueroptimierung (der Hauptgrund)
 Eine Single-Member LLC mit nicht-ansässigem Eigentümer zahlt **0% Bundessteuer** in den USA auf Einkünfte aus ausländischer Quelle. In Kombination mit der richtigen Steuerstruktur kann die Steuerlast **bis auf 0% optimiert** werden, gegenüber den **40-47%**, die Sie als Freiberufler/Selbstständiger zahlen.
 
-Das ist keine Steuerhinterziehung — es ist internationale Steueroptimierung, vollkommen legal.
+Das ist keine Steuerhinterziehung, es ist internationale Steueroptimierung, vollkommen legal.
 
 ### 2. Vermögensschutz
 Ihre LLC ist eine separate juristische Person. Wenn Ihr Unternehmen Schulden oder ein rechtliches Problem hat, sind Ihre persönlichen Vermögenswerte (Haus, Ersparnisse, Auto) geschützt. Als Freiberufler/Selbstständiger in Deutschland gibt es diesen Schutz nicht.
@@ -3593,10 +3593,10 @@ Ihre LLC hat jährliche Pflichten: Form 5472 + 1120, FBAR (falls zutreffend), An
 Eine LLC zu unterhalten kostet zwischen \$200 und \$1.000/Jahr, je nach Bundesstaat und den beauftragten Dienstleistungen. Es ist nicht kostenlos.
 
 ### 3. Steuerliche Komplexität
-Ihre steuerliche Situation wird komplexer. Sie haben Pflichten in den USA und in Ihrem Wohnsitzland. Sie brauchen professionelle Beratung — das ist nichts, was Sie mit einem YouTube-Tutorial erledigen können.
+Ihre steuerliche Situation wird komplexer. Sie haben Pflichten in den USA und in Ihrem Wohnsitzland. Sie brauchen professionelle Beratung, das ist nichts, was Sie mit einem YouTube-Tutorial erledigen können.
 
 ### 4. Steuern in Ihrem Land entfallen nicht
-Die LLC zahlt nicht in den USA, aber **Sie haben weiterhin steuerliche Pflichten in Ihrem Wohnsitzland**. Der Vorteil ist, dass Sie optimieren können, wie viel und wie Sie versteuern — aber die Steuern verschwinden nicht.
+Die LLC zahlt nicht in den USA, aber **Sie haben weiterhin steuerliche Pflichten in Ihrem Wohnsitzland**. Der Vorteil ist, dass Sie optimieren können, wie viel und wie Sie versteuern, aber die Steuern verschwinden nicht.
 
 ### 5. Risiko von Kontosperrungen
 Wenn Sie nicht korrekt operieren (Konten vermischen, nicht dokumentieren, verdächtige Bewegungen machen), können Mercury oder Wise Ihr Konto sperren. Das ist unüblich, wenn Sie alles richtig machen, aber es ist ein reales Risiko.
@@ -3615,23 +3615,23 @@ Wenn Sie weniger als \$1.500-2.000/Monat fakturieren oder wenn alle Ihre Kunden 
 ## Weitere erwähnenswerte Vorteile
 
 ### 7. Privatsphäre und Anonymität
-In Bundesstaaten wie New Mexico und Wyoming sind die Daten der LLC-Mitglieder nicht öffentlich zugänglich. Ihr Name erscheint nicht in staatlichen Registern. Sie operieren mit absoluter Diskretion — etwas Undenkbares mit einer deutschen GmbH, wo Ihre Daten im Handelsregister für jeden einsehbar sind.
+In Bundesstaaten wie New Mexico und Wyoming sind die Daten der LLC-Mitglieder nicht öffentlich zugänglich, Ihr Name erscheint nicht in staatlichen Registern. Sie operieren mit absoluter Diskretion. etwas Undenkbares mit einer deutschen GmbH, wo Ihre Daten im Handelsregister für jeden einsehbar sind.
 
 ### 8. Keine Umsatzsteuer bei internationaler Fakturierung
-Die LLC ist nicht Teil des europäischen Umsatzsteuersystems. Ihre Rechnungen an internationale Kunden sind sauber, ohne Umsatzsteuer, ohne vierteljährliche Meldungen, ohne Reverse-Charge-Verfahren.
+Die LLC ist nicht Teil des europäischen Umsatzsteuersystems, Ihre Rechnungen an internationale Kunden sind sauber, ohne Umsatzsteuer, ohne vierteljährliche Meldungen, ohne Reverse-Charge-Verfahren.
 
 ### 9. Zugang zum amerikanischen Finanzökosystem
 Mercury (\$0 Wire-Gebühren, Verwahrung bei Column NA mit FDIC), Relay (Thread Bank, 20 kostenlose Unterkonten), Wise Business (EMI mit echtem Wechselkurs), Stripe US, PayPal Business US... Das gesamte Fintech-Arsenal des technologisch fortschrittlichsten Landes der Welt steht Ihnen zur Verfügung.
 
 ### 10. Skalierbarkeit ohne Bürokratie
-Sie brauchen keine Protokolle zu führen, keinen Vorstand, keine Jahresabschlüsse zu veröffentlichen. Ihre LLC wächst mit Ihnen ohne unnötigen Papierkram.
+Sie brauchen keine Protokolle zu führen, keinen Vorstand, keine Jahresabschlüsse zu veröffentlichen, Ihre LLC wächst mit Ihnen ohne unnötigen Papierkram.
 
 ## Für wen ergibt eine LLC KEINEN Sinn?
 
-- Freiberufler/Selbstständige mit **100% nationalen Kunden** — wenn alle Ihre Kunden in Ihrem Land sind, bietet die LLC keinen Steuervorteil
-- Einkünfte unter **\$1.500-2.000/Monat** — die Ersparnis deckt die Unterhaltskosten nicht
+- Freiberufler/Selbstständige mit **100% nationalen Kunden**: wenn alle Ihre Kunden in Ihrem Land sind, bietet die LLC keinen Steuervorteil
+- Einkünfte unter **\$1.500-2.000/Monat**: die Ersparnis deckt die Unterhaltskosten nicht
 - Regulierte Berufe, die eine lokale Zulassung erfordern (Ärzte, Anwälte, Architekten, die lokal praktizieren)
-- Personen, die „vom Radar verschwinden" wollen — die LLC steht für steuerliche Transparenz, nicht Unsichtbarkeit
+- Personen, die „vom Radar verschwinden" wollen, die LLC steht für steuerliche Transparenz, nicht Unsichtbarkeit
 
 ## Die Nachteile, richtig eingeordnet
 
@@ -3646,7 +3646,7 @@ Seien wir ehrlich mit den Nachteilen, aber auch realistisch:
 
 Gründen Sie keine LLC, weil Sie ein Instagram-Reel gesehen haben, das Ihnen 0% Steuern versprochen hat. Analysieren Sie Ihre reale Situation: Einkünfte, Art der Kunden, Wohnsitzland, mittelfristige Pläne.
 
-Bei Exentax machen wir diese Analyse mit Ihnen in der kostenlosen Beratung. Wenn eine LLC für Sie Sinn ergibt, sagen wir es Ihnen mit Zahlen. Wenn nicht, sagen wir es Ihnen ebenfalls. Wir sind lieber ehrlich, als Ihnen etwas zu verkaufen, das Sie nicht brauchen — so baut man langfristige Beziehungen auf.
+Bei Exentax machen wir diese Analyse mit Ihnen in der kostenlosen Beratung. Wenn eine LLC für Sie Sinn ergibt, sagen wir es Ihnen mit Zahlen. Wenn nicht, sagen wir es Ihnen ebenfalls. Wir sind lieber ehrlich, als Ihnen etwas zu verkaufen, das Sie nicht brauchen. so baut man langfristige Beziehungen auf.
 
 Sie möchten wissen, ob eine LLC die richtige Option für Ihre Situation ist? Vereinbaren Sie Ihre kostenlose Beratung und wir geben Ihnen eine klare Antwort basierend auf Ihrem Fall.`,
 
@@ -3660,32 +3660,32 @@ Banken und Fintechs haben **KYC**-Pflichten (Know Your Customer) und **AML**-Pfl
 
 ### Die häufigsten Gründe für Sperrungen:
 
-1. **Bewegungen, die nicht zu Ihrem Profil passen** — wenn Sie angegeben haben, dass Ihre LLC \$5K/Monat umsetzt und plötzlich \$50K eingehen, schlägt das System Alarm
-2. **Überweisungen in Hochrisikoländer** — bestimmte Länder stehen auf Sanktionslisten (OFAC)
-3. **Vermischung von privaten und geschäftlichen Geldern** — das ist ein wichtiges Warnsignal
-4. **Unterlagen nicht in Ordnung** — wenn zusätzliche Verifizierung verlangt wird und Sie nicht rechtzeitig antworten
-5. **Mehrere verdächtige Konten** — Eröffnung mehrerer Konten ohne Begründung
-6. **Runde und repetitive Transaktionen** — Muster, die wie Strukturierung aussehen (Aufteilen von Beträgen, um Meldungen zu vermeiden)
-7. **Aktivitäten in Hochrisikobranchen** — Kryptowährungen, Glücksspiel, Cannabis, Waffen
+1. **Bewegungen, die nicht zu Ihrem Profil passen**: wenn Sie angegeben haben, dass Ihre LLC \$5K/Monat umsetzt und plötzlich \$50K eingehen, schlägt das System Alarm
+2. **Überweisungen in Hochrisikoländer**: bestimmte Länder stehen auf Sanktionslisten (OFAC)
+3. **Vermischung von privaten und geschäftlichen Geldern**: das ist ein wichtiges Warnsignal
+4. **Unterlagen nicht in Ordnung**: wenn zusätzliche Verifizierung verlangt wird und Sie nicht rechtzeitig antworten
+5. **Mehrere verdächtige Konten**: Eröffnung mehrerer Konten ohne Begründung
+6. **Runde und repetitive Transaktionen**: Muster, die wie Strukturierung aussehen (Aufteilen von Beträgen, um Meldungen zu vermeiden)
+7. **Aktivitäten in Hochrisikobranchen**: Kryptowährungen, Glücksspiel, Cannabis, Waffen
 
 ## Wie Sie Sperrungen verhindern
 
 ### Bei Mercury
 
-- **Vervollständigen Sie Ihr Profil zu 100%** — laden Sie alle angeforderten Dokumente hoch (Articles, EIN, Operating Agreement, Reisepass)
-- **Beschreiben Sie Ihre Tätigkeit korrekt** — seien Sie spezifisch darüber, was Ihre LLC macht und woher die Einkünfte stammen
-- **Skalieren Sie schrittweise** — gehen Sie nicht von \$0 auf \$50K von einem Monat auf den anderen ohne Kontext
+- **Vervollständigen Sie Ihr Profil zu 100%**: laden Sie alle angeforderten Dokumente hoch (Articles, EIN, Operating Agreement, Reisepass)
+- **Beschreiben Sie Ihre Tätigkeit korrekt**: seien Sie spezifisch darüber, was Ihre LLC macht und woher die Einkünfte stammen
+- **Skalieren Sie schrittweise**: gehen Sie nicht von \$0 auf \$50K von einem Monat auf den anderen ohne Kontext
 - **Antworten Sie schnell** auf Anfragen zur zusätzlichen Verifizierung
-- **Verwenden Sie das Konto nicht für private Ausgaben** — nur Geschäftsausgaben
-- **Bewahren Sie Dokumentation Ihrer Transaktionen auf** — Rechnungen, Verträge, E-Mails mit Kunden
+- **Verwenden Sie das Konto nicht für private Ausgaben**: nur Geschäftsausgaben
+- **Bewahren Sie Dokumentation Ihrer Transaktionen auf**: Rechnungen, Verträge, E-Mails mit Kunden
 
 ### Bei Wise Business
 
 - **Verifizieren Sie Ihre Identität vollständig** vom ersten Tag an
 - **Erklären Sie die Herkunft der Gelder** wenn Wise Sie fragt (und Wise wird fragen)
-- **Verwenden Sie Wise nicht als Hauptkonto** — nutzen Sie es für Währungsumrechnungen und Überweisungen, nicht zur Aufbewahrung großer Summen
-- **Vermeiden Sie Sendungen an persönliche Konten Dritter** — Wise kann das als Zahlung an nicht deklarierte Begünstigte interpretieren
-- **Dokumentieren Sie jede Überweisung** — insbesondere internationale
+- **Verwenden Sie Wise nicht als Hauptkonto**: nutzen Sie es für Währungsumrechnungen und Überweisungen, nicht zur Aufbewahrung großer Summen
+- **Vermeiden Sie Sendungen an persönliche Konten Dritter**: Wise kann das als Zahlung an nicht deklarierte Begünstigte interpretieren
+- **Dokumentieren Sie jede Überweisung**: insbesondere internationale
 
 ### Bei Revolut Business
 
@@ -3696,17 +3696,17 @@ Banken und Fintechs haben **KYC**-Pflichten (Know Your Customer) und **AML**-Pfl
 
 ## Was tun, wenn Ihr Konto gesperrt wird?
 
-1. **Keine Panik** — eine Sperrung bedeutet nicht, dass Sie etwas Falsches getan haben
-2. **Prüfen Sie Ihre E-Mails** — normalerweise wird Ihnen mitgeteilt, welche Dokumentation benötigt wird
-3. **Antworten Sie schnell und vollständig** — Rechnungen, Verträge, Erklärung der Tätigkeit
-4. **Seien Sie professionell und klar** — erklären Sie Ihr Geschäft auf einfache Weise
-5. **Haben Sie einen Plan B** — deshalb empfehlen wir, mindestens zwei Konten zu haben (Mercury + Wise als Minimum)
+1. **Keine Panik**: eine Sperrung bedeutet nicht, dass Sie etwas Falsches getan haben
+2. **Prüfen Sie Ihre E-Mails**: normalerweise wird Ihnen mitgeteilt, welche Dokumentation benötigt wird
+3. **Antworten Sie schnell und vollständig**: Rechnungen, Verträge, Erklärung der Tätigkeit
+4. **Seien Sie professionell und klar**: erklären Sie Ihr Geschäft auf einfache Weise
+5. **Haben Sie einen Plan B**: deshalb empfehlen wir, mindestens zwei Konten zu haben (Mercury + Wise als Minimum)
 
 ## Die goldene Regel: Transparenz
 
 Sperrungen geschehen fast immer wegen fehlender Informationen, nicht weil etwas Falsches getan wurde. Wenn Ihre LLC legitim operiert, Sie ordentliche Dokumentation führen und Ihre Tätigkeit mit dem übereinstimmt, was Sie bei der Kontoeröffnung angegeben haben, sind die Wahrscheinlichkeiten einer Sperrung minimal.
 
-Das Problem entsteht, wenn Leute versuchen, „unter dem Radar" zu operieren — und da wird es kompliziert.
+Das Problem entsteht, wenn Leute versuchen, „unter dem Radar" zu operieren, und da wird es kompliziert.
 
 ## Diversifizieren Sie Ihre Konten
 
@@ -3719,13 +3719,13 @@ Verlassen Sie sich nie auf ein einziges Konto. Wenn eines vorübergehend gesperr
 
 ## Wichtige Fakten zu jeder Plattform
 
-- **Mercury** nutzt Column NA als Depotbank. Ihre Gelder sind bis zu \$250K pro Einleger FDIC-versichert. Nationale und internationale Wire-Überweisungen kosten \$0. Es ist eine seriöse Fintech-Plattform, kein Hinterhofunternehmen.
+- **Mercury** nutzt Column NA als Depotbank, Ihre Gelder sind bis zu \$250K pro Einleger FDIC-versichert. Nationale und internationale Wire-Überweisungen kosten \$0. Es ist eine seriöse Fintech-Plattform, kein Hinterhofunternehmen.
 - **Wise Business** ist eine EMI (Electronic Money Institution), keine Bank. Es gibt keine Einlagensicherung wie bei einer traditionellen Bank, aber die Kundengelder sind segregiert. Nutzen Sie es für Umrechnungen und Überweisungen, nicht als Haupt-Treasury.
 - **Relay** nutzt Thread Bank als zugrundeliegende Bank. Eine gute Option als Backup-Konto mit bis zu 20 kostenlosen Unterkonten.
 
 Bei Exentax konfigurieren wir Ihre Konten von Anfang an, um das Risiko von Sperrungen zu minimieren. Wir bereiten die gesamte Dokumentation vor, die Mercury benötigt, beraten Sie, wie Sie korrekt operieren, und wenn Sie jemals ein Problem haben, helfen wir Ihnen bei der Lösung. Vereinbaren Sie Ihre kostenlose Beratung und wir bauen Ihnen die sperrungssichere Struktur auf.`,
 
-  "que-es-irs-guia-duenos-llc": `Wenn Sie eine LLC in den Vereinigten Staaten haben — oder darüber nachdenken, eine zu gründen — werden Sie viel über den **IRS** hören. Sehr viel. Es ist die Behörde, mit der Sie aus steuerlicher Sicht am meisten zu tun haben werden. Und es ist besser, sie von Anfang an gut zu verstehen.
+  "que-es-irs-guia-duenos-llc": `Wenn Sie eine LLC in den Vereinigten Staaten haben, oder darüber nachdenken, eine zu gründen. werden Sie viel über den **IRS** hören. Sehr viel. Es ist die Behörde, mit der Sie aus steuerlicher Sicht am meisten zu tun haben werden. Und es ist besser, sie von Anfang an gut zu verstehen.
 
 ## Was ist der IRS?
 
@@ -3753,14 +3753,14 @@ Jedes Jahr müssen Sie das **Form 5472 + Form 1120** beim IRS einreichen. Es ist
 Der IRS erwartet, dass Sie das Form 5472 jedes Jahr rechtzeitig einreichen. Es ist ein wichtiger administrativer Vorgang, den wir im Rahmen unseres Unterhaltsservices für Sie erledigen.
 
 ### 4. Er bestimmt die steuerliche Klassifizierung Ihrer LLC
-Der IRS ist es, der festlegt, wie Ihre LLC steuerlich behandelt wird. Für eine Single-Member LLC mit ausländischem Eigentümer lautet die Klassifizierung „Disregarded Entity" — was bedeutet, dass die LLC selbst kein Steuerpflichtiger ist.
+Der IRS ist es, der festlegt, wie Ihre LLC steuerlich behandelt wird. Für eine Single-Member LLC mit ausländischem Eigentümer lautet die Klassifizierung „Disregarded Entity", was bedeutet, dass die LLC selbst kein Steuerpflichtiger ist.
 
 ## Wie funktioniert das Steuersystem des IRS?
 
 Das US-Steuersystem ist komplex, aber für einen nicht-ansässigen LLC-Eigentümer müssen Sie Folgendes wissen:
 
 ### Steuern für Nicht-Ansässige mit LLC
-- **Einkünfte aus US-amerikanischer Quelle:** Könnten steuerpflichtig sein (FDAP income, ECI income) — das trifft aber auf die Mehrheit der digitalen Freiberufler, die mit Kunden von außerhalb der USA arbeiten, nicht zu.
+- **Einkünfte aus US-amerikanischer Quelle:** Könnten steuerpflichtig sein (FDAP income, ECI income), das trifft aber auf die Mehrheit der digitalen Freiberufler, die mit Kunden von außerhalb der USA arbeiten, nicht zu.
 - **Einkünfte aus ausländischer Quelle:** Unterliegen nicht der US-Bundessteuer. Das ist der Schlüssel zum Steuervorteil der LLC für Nicht-Ansässige.
 
 ### Das Konzept der „Quelle" des Einkommens
@@ -3791,7 +3791,7 @@ Für Nicht-Ansässige kann die Kommunikation mit dem IRS besonders kompliziert s
 
 ## Die Formulare, die Sie kennen müssen (und die wir für Sie erstellen)
 
-### Form 5472 — das Wichtigste
+### Form 5472, das Wichtigste
 Es ist das Informationsformular, das die Transaktionen zwischen der LLC und ihrem ausländischen Eigentümer meldet. Es umfasst:
 - Kapitaleinlagen des Mitglieds
 - Ausschüttungen (Owner's Draws) an das Mitglied
@@ -3800,18 +3800,18 @@ Es ist das Informationsformular, das die Transaktionen zwischen der LLC und ihre
 
 **Eine verspätete Einreichung zieht erhebliche Strafen nach sich.** Der IRS nimmt dieses Formular sehr ernst. Deshalb nehmen wir bei Exentax die Fristen sehr ernst.
 
-### Form 1120 — das „Deckblatt" des 5472
+### Form 1120, das „Deckblatt" des 5472
 Das Form 5472 kann nicht allein eingereicht werden. Es wird zusammen mit einem Form 1120 (Körperschaftsteuererklärung) eingereicht, das im Fall einer Disregarded Entity mit Nullwerten ausgefüllt wird (da keine Steuern zu zahlen sind). Es ist im Grunde ein Umschlag für das 5472.
 
-### Form 7004 — die automatische Fristverlängerung
-Wenn wir aus irgendeinem Grund zum 15. April nicht bereit sind, reichen wir ein Form 7004 ein, das eine automatische Verlängerung von 6 Monaten gewährt (bis zum 15. Oktober). Bei Exentax beantragen wir die Verlängerung proaktiv für alle unsere Kunden — sie ist kostenlos und nimmt den Stress.
+### Form 7004, die automatische Fristverlängerung
+Wenn wir aus irgendeinem Grund zum 15. April nicht bereit sind, reichen wir ein Form 7004 ein, das eine automatische Verlängerung von 6 Monaten gewährt (bis zum 15. Oktober). Bei Exentax beantragen wir die Verlängerung proaktiv für alle unsere Kunden, sie ist kostenlos und nimmt den Stress.
 
 ### FBAR (FinCEN Form 114)
 Wenn die LLC Finanzkonten außerhalb der USA hat, deren aggregierter Saldo zu irgendeinem Zeitpunkt des Jahres \$10.000 übersteigt, muss der FBAR eingereicht werden. Er wird elektronisch über FinCEN eingereicht, nicht über den IRS.
 
 ## Muss ich Angst vor dem IRS haben?
 
-Nein. Ganz entschieden nein. Der IRS ist kein Monster — er ist eine Bürokratie. Eine große, langsame und manchmal nervtötende Bürokratie, aber vorhersehbar. Wenn Sie sich an die Regeln halten, haben Sie nichts zu befürchten.
+Nein. Ganz entschieden nein. Der IRS ist kein Monster, er ist eine Bürokratie. Eine große, langsame und manchmal nervtötende Bürokratie, aber vorhersehbar. Wenn Sie sich an die Regeln halten, haben Sie nichts zu befürchten.
 
 Der IRS verfolgt diejenigen, die:
 - Pflichtformulare nicht einreichen
@@ -3870,7 +3870,7 @@ Sie möchten Ihre Beziehung zum IRS verstehen und Ihre LLC in Ordnung halten? Ve
 
 
 
-  "llc-seguridad-juridica-proteccion-patrimonial": `Es gibt einen Grund, warum der vollständige Name einer LLC **Limited Liability Company** lautet — „Gesellschaft mit beschränkter Haftung". Das Schlüsselwort ist **beschränkt**. Ihre persönliche Haftung hat eine Obergrenze.
+  "llc-seguridad-juridica-proteccion-patrimonial": `Es gibt einen Grund, warum der vollständige Name einer LLC **Limited Liability Company** lautet. „Gesellschaft mit beschränkter Haftung". Das Schlüsselwort ist **beschränkt**, Ihre persönliche Haftung hat eine Obergrenze.
 
 Wenn Sie Freiberufler sind, existiert diese Obergrenze nicht. Sie haften mit allem, was Sie besitzen.
 
@@ -3883,7 +3883,7 @@ Als Selbstständiger (oder Freiberufler) in den meisten spanischsprachigen Länd
 - **Ihr Auto** kann gepfändet werden
 - **Jeder Vermögenswert auf Ihren Namen** ist gefährdet
 
-Es spielt keine Rolle, ob das Problem eine unbezahlte Rechnung, ein klagender Kunde oder eine Schuld bei einem Lieferanten ist. Ihr gesamtes persönliches Vermögen haftet.
+Es spielt keine Rolle, ob das Problem eine unbezahlte Rechnung, ein klagender Kunde oder eine Schuld bei einem Lieferanten ist, Ihr gesamtes persönliches Vermögen haftet.
 
 ## Wie der Schutz durch die LLC funktioniert
 
@@ -3892,36 +3892,36 @@ Die LLC schafft eine **rechtliche Barriere** zwischen Ihrem persönlichen Vermö
 - **Die LLC** hat ihr eigenes Bankkonto, ihre eigenen Einnahmen, ihre eigenen Schulden
 - **Sie als Person** haben Ihre persönlichen Konten, Ihre Güter, Ihr Vermögen
 
-Wenn die LLC ein rechtliches Problem hat, sind nur die Vermögenswerte der LLC gefährdet. Ihr persönliches Vermögen bleibt geschützt.
+Wenn die LLC ein rechtliches Problem hat, sind nur die Vermögenswerte der LLC gefährdet, Ihr persönliches Vermögen bleibt geschützt.
 
 ### Praxisbeispiel
 
-Stellen Sie sich vor, Ihre LLC hat einen Vertrag mit einem Kunden über \$50.000. Der Kunde behauptet, Sie hätten die Arbeit nicht geliefert, und verklagt Sie wegen Vertragsbruch. Ohne LLC kann diese Klage direkt gegen Ihre persönlichen Vermögenswerte gerichtet werden. Mit LLC richtet sich die Klage gegen die LLC — nicht gegen Sie.
+Stellen Sie sich vor, Ihre LLC hat einen Vertrag mit einem Kunden über \$50.000. Der Kunde behauptet, Sie hätten die Arbeit nicht geliefert, und verklagt Sie wegen Vertragsbruch. Ohne LLC kann diese Klage direkt gegen Ihre persönlichen Vermögenswerte gerichtet werden. Mit LLC richtet sich die Klage gegen die LLC, nicht gegen Sie.
 
-Wenn die LLC nur \$10.000 auf ihrem Konto hat, ist das das Maximum, das der Kunde von der LLC einfordern kann. Ihr Haus im Wert von \$200.000 und Ihre Ersparnisse von \$30.000 sind geschützt.
+Wenn die LLC nur \$10.000 auf ihrem Konto hat, ist das das Maximum, das der Kunde von der LLC einfordern kann, Ihr Haus im Wert von \$200.000 und Ihre Ersparnisse von \$30.000 sind geschützt.
 
 ## Wann funktioniert der Schutz NICHT?
 
 Der Vermögensschutz der LLC ist **nicht absolut**. Ein Richter kann den „Unternehmensschleier durchstoßen" (Piercing the Corporate Veil) und Sie persönlich haftbar machen, wenn:
 
-- **Sie Gelder vermischen** — das Konto der LLC für persönliche Ausgaben verwenden oder umgekehrt
-- **Sie die LLC nicht operativ halten** — keine Erklärungen einreichen, den Registered Agent nicht erneuern, den Good Standing verlieren
-- **Sie Betrug begehen** — die LLC für betrügerische oder illegale Aktivitäten nutzen
-- **Sie kein Operating Agreement haben** — ohne interne Dokumente ist die Trennung schwächer
-- **Sie Verträge persönlich unterzeichnen** — wenn Sie eine Schuld der LLC mit Ihrer persönlichen Unterschrift garantieren, ist diese Garantie persönlich
-- **Die LLC unterkapitalisiert ist** — wenn die LLC nicht über ausreichende Mittel verfügt, um vernünftig zu operieren
+- **Sie Gelder vermischen**: das Konto der LLC für persönliche Ausgaben verwenden oder umgekehrt
+- **Sie die LLC nicht operativ halten**: keine Erklärungen einreichen, den Registered Agent nicht erneuern, den Good Standing verlieren
+- **Sie Betrug begehen**: die LLC für betrügerische oder illegale Aktivitäten nutzen
+- **Sie kein Operating Agreement haben**: ohne interne Dokumente ist die Trennung schwächer
+- **Sie Verträge persönlich unterzeichnen**: wenn Sie eine Schuld der LLC mit Ihrer persönlichen Unterschrift garantieren, ist diese Garantie persönlich
+- **Die LLC unterkapitalisiert ist**: wenn die LLC nicht über ausreichende Mittel verfügt, um vernünftig zu operieren
 
 ## Wie Sie den Schutz stark halten
 
 Damit der Vermögensschutz Ihrer LLC solide ist, müssen Sie:
 
-1. **Konten trennen** — ein Konto für die LLC, ein anderes für Sie. Niemals vermischen
-2. **Alles dokumentieren** — Rechnungen, Verträge, Entnahmen (Owner's Draws)
+1. **Konten trennen**: ein Konto für die LLC, ein anderes für Sie. Niemals vermischen
+2. **Alles dokumentieren**: Rechnungen, Verträge, Entnahmen (Owner's Draws)
 3. **Das Operating Agreement aktuell halten**
-4. **Alle Verpflichtungen erfüllen** — Annual Report, Form 5472, BOI Report
+4. **Alle Verpflichtungen erfüllen**: Annual Report, Form 5472, BOI Report
 5. **Die LLC nicht für persönliche Ausgaben nutzen**
-6. **Angemessene Kapitalisierung aufrechterhalten** — das Konto der LLC nicht dauerhaft auf \$0 lassen
-7. **Immer im Namen der LLC unterzeichnen** — „Juan García, Member of MiEmpresa LLC", niemals nur „Juan García"
+6. **Angemessene Kapitalisierung aufrechterhalten**: das Konto der LLC nicht dauerhaft auf \$0 lassen
+7. **Immer im Namen der LLC unterzeichnen**: „Juan García, Member of MiEmpresa LLC", niemals nur „Juan García"
 
 ## LLC im Vergleich zu anderen Strukturen
 
@@ -3949,22 +3949,22 @@ Diese Gesetzgebungen werden durch jahrzehntelange Rechtsprechung gestützt und s
 Neben dem Vermögensschutz bietet die LLC etwas, das nur wenige Strukturen in anderen Ländern bieten können: **echte Privatsphäre**.
 
 ### New Mexico
-Die Daten der LLC-Mitglieder **erscheinen nicht in öffentlichen Registern**. Der Bundesstaat verlangt nicht, dass die Eigentümer in den Articles of Organization offengelegt werden. Ihr Name ist nicht öffentlich mit dem Unternehmen verbunden. Das ist standardmäßige Privatsphäre, ohne Aufpreis.
+Die Daten der LLC-Mitglieder **erscheinen nicht in öffentlichen Registern**. Der Bundesstaat verlangt nicht, dass die Eigentümer in den Articles of Organization offengelegt werden, Ihr Name ist nicht öffentlich mit dem Unternehmen verbunden. Das ist standardmäßige Privatsphäre, ohne Aufpreis.
 
 ### Wyoming
-Wie New Mexico in Bezug auf die Privatsphäre der Mitglieder. Aber Wyoming bietet etwas Zusätzliches: den **stärksten Charging Order Protection** der Vereinigten Staaten. Wenn jemand Sie persönlich verklagt (außerhalb der LLC), kann ein Gläubiger nicht die Kontrolle über Ihre LLC übernehmen oder Ausschüttungen erzwingen. Er kann nur eine „Charging Order" erhalten — die ihm das Recht gibt, Ausschüttungen zu erhalten, WENN Sie diese vornehmen. Wenn Sie nicht ausschütten, erhält er nichts. Es ist der robusteste Vermögensschutz, der in der amerikanischen Landesgesetzgebung existiert.
+Wie New Mexico in Bezug auf die Privatsphäre der Mitglieder. Aber Wyoming bietet etwas Zusätzliches: den **stärksten Charging Order Protection** der Vereinigten Staaten. Wenn jemand Sie persönlich verklagt (außerhalb der LLC), kann ein Gläubiger nicht die Kontrolle über Ihre LLC übernehmen oder Ausschüttungen erzwingen. Er kann nur eine „Charging Order" erhalten, die ihm das Recht gibt, Ausschüttungen zu erhalten, WENN Sie diese vornehmen. Wenn Sie nicht ausschütten, erhält er nichts. Es ist der robusteste Vermögensschutz, der in der amerikanischen Landesgesetzgebung existiert.
 
 ### Delaware
 Die Privatsphäre der Mitglieder ist geringer (sie können in bestimmten Registern erscheinen), aber der Rechtsrahmen ist der am weitesten entwickelte. Ideal für C-Corps und Startups mit Investoren, weniger für individuellen Vermögensschutz.
 
 ### Im Vergleich zu einer spanischen SL
-In Spanien sind die Daten der Geschäftsführer und Gesellschafter im Handelsregister eingetragen. Jeder kann sie für weniger als 10€ einsehen. Ihr Name, Ihre Steuernummer, Ihre Beteiligung... alles öffentlich. Mit einer LLC in NM oder WY existieren diese Informationen einfach nicht in öffentlichen Registern.
+In Spanien sind die Daten der Geschäftsführer und Gesellschafter im Handelsregister eingetragen. Jeder kann sie für weniger als 10€ einsehen, Ihr Name, Ihre Steuernummer, Ihre Beteiligung.., alles öffentlich. Mit einer LLC in NM oder WY existieren diese Informationen einfach nicht in öffentlichen Registern.
 
 ## Charging Order Protection: Der ultimative Schutzschild
 
 Dieses Konzept verdient einen eigenen Abschnitt, da es einer der am wenigsten bekannten und gleichzeitig mächtigsten Vorteile der amerikanischen LLC ist.
 
-Wenn ein persönlicher Gläubiger ein Urteil gegen Sie erwirkt (zum Beispiel eine persönliche Schuld, ein Autounfall, was auch immer), kann dieser Gläubiger in den meisten Ländern Ihre Vermögenswerte angreifen — einschließlich Ihrer Unternehmensanteile.
+Wenn ein persönlicher Gläubiger ein Urteil gegen Sie erwirkt (zum Beispiel eine persönliche Schuld, ein Autounfall, was auch immer), kann dieser Gläubiger in den meisten Ländern Ihre Vermögenswerte angreifen. einschließlich Ihrer Unternehmensanteile.
 
 Mit einer LLC in Wyoming kann der Gläubiger nur eine **Charging Order** erhalten: ein Recht, die Ausschüttungen zu erhalten, die die LLC an das Mitglied vornimmt. Er kann aber NICHT:
 - Die Kontrolle über die LLC übernehmen
@@ -3972,17 +3972,17 @@ Mit einer LLC in Wyoming kann der Gläubiger nur eine **Charging Order** erhalte
 - Sie zu Ausschüttungen zwingen
 - Abstimmen oder an Entscheidungen der LLC teilnehmen
 
-In der Praxis bedeutet das: Wenn Sie keine Ausschüttungen vornehmen, erhält der Gläubiger nichts. Ihre LLC und ihre Vermögenswerte bleiben unberührt. Es ist wie ein Tresor, den niemand sonst öffnen kann.
+In der Praxis bedeutet das: Wenn Sie keine Ausschüttungen vornehmen, erhält der Gläubiger nichts, Ihre LLC und ihre Vermögenswerte bleiben unberührt. Es ist wie ein Tresor, den niemand sonst öffnen kann.
 
 ## Rechtssicherheit als Investition
 
-Denken Sie an den Vermögensschutz wie an eine Versicherung: Sie hoffen, ihn nie zu brauchen, aber wenn Sie ihn brauchen, ist er jeden Cent wert. Der Bäcker um die Ecke braucht wahrscheinlich keine LLC. Aber Sie, der international tätig ist, Verträge mit Kunden aus verschiedenen Ländern verwaltet und Geld zwischen Jurisdiktionen bewegt — Sie schon.
+Denken Sie an den Vermögensschutz wie an eine Versicherung: Sie hoffen, ihn nie zu brauchen, aber wenn Sie ihn brauchen, ist er jeden Cent wert. Der Bäcker um die Ecke braucht wahrscheinlich keine LLC. Aber Sie, der international tätig ist, Verträge mit Kunden aus verschiedenen Ländern verwaltet und Geld zwischen Jurisdiktionen bewegt. Sie schon.
 
-Die Kosten für die Aufrechterhaltung einer LLC sind ein Bruchteil dessen, was Sie verlieren würden, wenn ein rechtliches Problem Ihre persönlichen Vermögenswerte beträfe. Ein Rechtsstreit kann Zehntausende von Euro kosten. Ihre LLC kostet einen Bruchteil davon pro Jahr. Die Rechnung ist einfach.
+Die Kosten für die Aufrechterhaltung einer LLC sind ein Bruchteil dessen, was Sie verlieren würden, wenn ein rechtliches Problem Ihre persönlichen Vermögenswerte beträfe. Ein Rechtsstreit kann Zehntausende von Euro kosten, Ihre LLC kostet einen Bruchteil davon pro Jahr. Die Rechnung ist einfach.
 
 Bei Exentax stellen wir sicher, dass Ihre LLC im richtigen Bundesstaat gegründet wird, mit dem passenden Schutzniveau, perfekter Dokumentation und aktuellem Compliance. Denn Vermögensschutz funktioniert nur, wenn alles in Ordnung ist. Vereinbaren Sie Ihre kostenlose Beratung und wir gestalten die Struktur, die Ihr Vermögen schützt.`,
 
-  "llc-creadores-contenido-youtube-twitch": `Wenn Sie Content Creator sind — sei es auf YouTube, Twitch, TikTok, Podcasts oder einer anderen digitalen Plattform — generieren Sie wahrscheinlich Einnahmen aus mehreren Ländern, ohne eine dafür konzipierte Struktur zu haben.
+  "llc-creadores-contenido-youtube-twitch": `Wenn Sie Content Creator sind. sei es auf YouTube, Twitch, TikTok, Podcasts oder einer anderen digitalen Plattform. generieren Sie wahrscheinlich Einnahmen aus mehreren Ländern, ohne eine dafür konzipierte Struktur zu haben.
 
 YouTube bezahlt Sie aus Irland. Twitch aus San Francisco. Sponsoren können überall auf der Welt sitzen. Und Sie versuchen, all das in ein lokales Steuersystem einzupassen, das nicht für Ihre Realität geschaffen wurde.
 
@@ -4000,11 +4000,11 @@ Die meisten Content-Plattformen haben ihren Sitz in den Vereinigten Staaten. Wen
 
 Praktisch alle Plattformen zur Content-Monetarisierung funktionieren einwandfrei mit einer amerikanischen LLC:
 
-- **YouTube / AdSense** — Google zahlt ohne zusätzliche Quellensteuer, wenn Ihre LLC die EIN korrekt konfiguriert hat.
-- **Twitch** — Zahlungen werden direkt auf Ihr amerikanisches Bankkonto verarbeitet.
-- **Patreon / Ko-fi / Buy Me a Coffee** — Direkte Integration mit Ihrem Mercury- oder Relay-Konto.
-- **Sponsoren und Marken** — Sie fakturieren als amerikanisches Unternehmen, was die Geschäftsbeziehung enorm vereinfacht.
-- **Kurse und digitale Produkte** — Sie können über Gumroad, Teachable oder Ihre eigene Plattform mit Stripe verkaufen.
+- **YouTube / AdSense**: Google zahlt ohne zusätzliche Quellensteuer, wenn Ihre LLC die EIN korrekt konfiguriert hat.
+- **Twitch**: Zahlungen werden direkt auf Ihr amerikanisches Bankkonto verarbeitet.
+- **Patreon / Ko-fi / Buy Me a Coffee**: Direkte Integration mit Ihrem Mercury- oder Relay-Konto.
+- **Sponsoren und Marken**: Sie fakturieren als amerikanisches Unternehmen, was die Geschäftsbeziehung enorm vereinfacht.
+- **Kurse und digitale Produkte**: Sie können über Gumroad, Teachable oder Ihre eigene Plattform mit Stripe verkaufen.
 
 ## Ab welchem Betrag lohnt es sich?
 
@@ -4017,13 +4017,13 @@ Im kostenlosen Gespräch analysieren wir Ihren konkreten Fall und sagen Ihnen, o
 Die meisten Creator sind sich nicht bewusst, wie viele Einnahmequellen sie über ihre LLC laufen lassen können:
 
 ### Werbeeinnahmen
-- **YouTube AdSense** — Google bezahlt Sie aus Irland oder den USA. Mit Ihrer LLC und korrekt konfigurierter EIN kassieren Sie in den meisten Fällen ohne zusätzliche Quellensteuer.
-- **Twitch Ads** — Die Werbeeinnahmen von Twitch gehen direkt auf Ihr Mercury-Konto.
-- **TikTok Creator Fund / Creativity Program** — Immer relevanter und funktioniert einwandfrei mit einer LLC.
+- **YouTube AdSense**: Google bezahlt Sie aus Irland oder den USA. Mit Ihrer LLC und korrekt konfigurierter EIN kassieren Sie in den meisten Fällen ohne zusätzliche Quellensteuer.
+- **Twitch Ads**: Die Werbeeinnahmen von Twitch gehen direkt auf Ihr Mercury-Konto.
+- **TikTok Creator Fund / Creativity Program**: Immer relevanter und funktioniert einwandfrei mit einer LLC.
 
 ### Sponsorships und Markendeals
 Hier glänzt die LLC besonders. Wenn eine Marke Sie für ein Sponsorship kontaktiert:
-- Sie fakturieren über Ihre LLC — „CreatorName LLC" klingt unendlich professioneller als „Max Müller, Freiberufler"
+- Sie fakturieren über Ihre LLC. „CreatorName LLC" klingt unendlich professioneller als „Max Müller, Freiberufler"
 - Verhandlungen sind einfacher, wenn Sie ein amerikanisches Unternehmen vertreten
 - Amerikanische Marken arbeiten bevorzugt mit lokalen Anbietern (Ihre LLC ist für sie „lokal")
 - Zahlungen kommen ohne Quellensteuer auf Ihrem Mercury-Konto an
@@ -4040,7 +4040,7 @@ Wenn Sie Merch verkaufen (T-Shirts, Tassen, was auch immer), ist Ihre LLC die pe
 - Alles sauber über Ihre LLC fakturiert
 
 ### Mitgliedschaften und Abonnements
-- Patreon, Ko-fi, Buy Me a Coffee — alle integrieren sich direkt mit Ihrem amerikanischen Bankkonto
+- Patreon, Ko-fi, Buy Me a Coffee, alle integrieren sich direkt mit Ihrem amerikanischen Bankkonto
 - Unterstützer aus der ganzen Welt zahlen ohne Reibungsverluste
 
 ## Praxisbeispiel: Ein YouTuber mit 100K Abonnenten
@@ -4140,7 +4140,7 @@ Mit dieser Ersparnis stellen Sie einen weiteren Designer ein, investieren in eig
 
 ## Was wir für Sie tun
 
-Komplette LLC-Gründung, EIN, Bankkonto, Stripe-Konfiguration und Fakturierung, jährliches Compliance. Wir verschwinden nicht, nachdem wir das Unternehmen aufgebaut haben — wir bleiben an Ihrer Seite, damit alles korrekt funktioniert. Kontinuierlicher Support, das ganze Jahr über.
+Komplette LLC-Gründung, EIN, Bankkonto, Stripe-Konfiguration und Fakturierung, jährliches Compliance. Wir verschwinden nicht, nachdem wir das Unternehmen aufgebaut haben. wir bleiben an Ihrer Seite, damit alles korrekt funktioniert. Kontinuierlicher Support, das ganze Jahr über.
 
 Vereinbaren Sie eine kostenlose Beratung und wir erklären Ihnen, wie es für Ihre Agentur funktionieren könnte. In 30 Minuten rechnen wir mit Ihren realen Zahlen.
 
@@ -4192,10 +4192,10 @@ Mit Ihrem aktiven Konto können Sie bereits Zahlungen in Dollar aus der ganzen W
 
 Sobald Sie das Bankkonto haben, richten wir Ihre Zahlungskanäle ein:
 
-- **Stripe** — Um Kartenzahlungen von Kunden aus jedem Land zu akzeptieren.
-- **PayPal Business** — Wenn Ihre Kunden diese Option bevorzugen.
-- **Direkte Rechnungen** — Für Kunden, die per Überweisung zahlen (ACH oder Wire Transfer).
-- **Andere Plattformen** — Je nach Ihrem Geschäft (Gumroad, Teachable, etc.).
+- **Stripe**: Um Kartenzahlungen von Kunden aus jedem Land zu akzeptieren.
+- **PayPal Business**: Wenn Ihre Kunden diese Option bevorzugen.
+- **Direkte Rechnungen**: Für Kunden, die per Überweisung zahlen (ACH oder Wire Transfer).
+- **Andere Plattformen**: Je nach Ihrem Geschäft (Gumroad, Teachable, etc.).
 
 Alle diese Plattformen werden direkt mit Ihrem Mercury-Konto verbunden.
 
@@ -4228,7 +4228,7 @@ Während Sie sich im ersten Monat auf Ihr Geschäft konzentrieren, erledigen wir
 - **Beantwortung** aller Anfragen nach zusätzlicher Dokumentation, die die Bank stellen könnte
 - **Sicherstellung**, dass Ihr BOI Report korrekt bei FinCEN eingereicht wurde
 - **Vorbereitung** Ihres Dokumentenordners (Articles, EIN, Operating Agreement, alles organisiert)
-- **Erreichbarkeit** für jede Frage, die aufkommt — denn in den ersten Wochen kommen immer Fragen auf
+- **Erreichbarkeit** für jede Frage, die aufkommt, denn in den ersten Wochen kommen immer Fragen auf
 
 ## Realistischer Zeitplan Woche für Woche
 
@@ -4282,22 +4282,22 @@ Wenn Sie ein SaaS verkaufen oder Entwicklungsdienstleistungen anbieten, ist es s
 
 Die Werkzeuge, die Entwickler nutzen, sind für amerikanische Unternehmen konzipiert:
 
-- **Stripe Atlas** — Viele SaaS-Gründer starten hier, aber Exentax bietet einen umfassenderen und persönlicheren Service.
-- **GitHub Sponsors** — Direktzahlungen auf Ihr amerikanisches Konto.
-- **AWS / Google Cloud / Azure** — Direkte Abrechnung über Ihre LLC.
-- **App Store / Google Play** — Wenn Sie Apps haben, gehen die Zahlungen direkt auf Ihr Konto.
+- **Stripe Atlas**: Viele SaaS-Gründer starten hier, aber Exentax bietet einen umfassenderen und persönlicheren Service.
+- **GitHub Sponsors**: Direktzahlungen auf Ihr amerikanisches Konto.
+- **AWS / Google Cloud / Azure**: Direkte Abrechnung über Ihre LLC.
+- **App Store / Google Play**: Wenn Sie Apps haben, gehen die Zahlungen direkt auf Ihr Konto.
 
 ### Geistiges Eigentum
 
-Ihr Code, Ihre Marke und Ihr Produkt sind Vermögenswerte Ihrer LLC. Das bedeutet, dass sie durch die Struktur der beschränkten Haftung und durch den amerikanischen Rechtsrahmen geschützt sind — einen der robustesten der Welt im Bereich des Schutzes geistigen Eigentums.
+Ihr Code, Ihre Marke und Ihr Produkt sind Vermögenswerte Ihrer LLC. Das bedeutet, dass sie durch die Struktur der beschränkten Haftung und durch den amerikanischen Rechtsrahmen geschützt sind, einen der robustesten der Welt im Bereich des Schutzes geistigen Eigentums.
 
 ## Typische Fälle
 
-**Freiberuflicher Entwickler** — Sie arbeiten für amerikanische oder europäische Startups. Mit einer LLC stellen Sie als amerikanisches Unternehmen Rechnungen, kassieren in Dollar und operieren auf demselben Niveau wie Ihre Kunden.
+**Freiberuflicher Entwickler**: Sie arbeiten für amerikanische oder europäische Startups. Mit einer LLC stellen Sie als amerikanisches Unternehmen Rechnungen, kassieren in Dollar und operieren auf demselben Niveau wie Ihre Kunden.
 
-**SaaS-Gründer** — Sie haben eine App mit monatlichen Abonnements. Stripe US verarbeitet die Zahlungen, App Store und Google Play überweisen auf Ihr Mercury-Konto, und Ihr geistiges Eigentum ist unter dem amerikanischen Rechtsrahmen geschützt.
+**SaaS-Gründer**: Sie haben eine App mit monatlichen Abonnements. Stripe US verarbeitet die Zahlungen, App Store und Google Play überweisen auf Ihr Mercury-Konto, und Ihr geistiges Eigentum ist unter dem amerikanischen Rechtsrahmen geschützt.
 
-**App-Entwickler** — Sie veröffentlichen im App Store und bei Google Play. Apple und Google zahlen direkt auf Ihr amerikanisches Bankkonto. Ohne unnötige Einbehalte, ohne Zwischenhändler, die einen zusätzlichen Anteil nehmen.
+**App-Entwickler**: Sie veröffentlichen im App Store und bei Google Play. Apple und Google zahlen direkt auf Ihr amerikanisches Bankkonto. Ohne unnötige Einbehalte, ohne Zwischenhändler, die einen zusätzlichen Anteil nehmen.
 
 ## App Store und Google Play: Unkompliziert kassieren
 
@@ -4323,12 +4323,12 @@ Wenn Ihr Geschäftsmodell auf Abonnements basiert, ist Stripe Billing Ihr bester
 
 ## Geistiges Eigentum: Ihr Code geschützt
 
-Ihr Code, Ihre Marke, Ihre Algorithmen, Ihr Design — alles ist geistiges Eigentum, das Ihrer LLC gehört. Dies hat enorme Vorteile:
+Ihr Code, Ihre Marke, Ihre Algorithmen, Ihr Design, alles ist geistiges Eigentum, das Ihrer LLC gehört. Dies hat enorme Vorteile:
 
-- **Schutz nach US-Recht** — einer der robustesten Rechtsrahmen der Welt im Bereich geistiges Eigentum
-- **Vermögenstrennung** — wenn jemand Ihren Code kopiert oder Ihre Marke verletzt, klagt Ihre LLC, nicht Sie als Person
-- **Lizenzen und Lizenzgebühren** — Sie können Ihre Software über die LLC mit steuerlich optimierten Strukturen lizenzieren
-- **Bewertung** — wenn Sie eines Tages Ihr Unternehmen verkaufen oder Investitionen aufnehmen möchten, erleichtert die Platzierung des IP in einer amerikanischen LLC den Prozess enorm
+- **Schutz nach US-Recht**: einer der robustesten Rechtsrahmen der Welt im Bereich geistiges Eigentum
+- **Vermögenstrennung**: wenn jemand Ihren Code kopiert oder Ihre Marke verletzt, klagt Ihre LLC, nicht Sie als Person
+- **Lizenzen und Lizenzgebühren**: Sie können Ihre Software über die LLC mit steuerlich optimierten Strukturen lizenzieren
+- **Bewertung**: wenn Sie eines Tages Ihr Unternehmen verkaufen oder Investitionen aufnehmen möchten, erleichtert die Platzierung des IP in einer amerikanischen LLC den Prozess enorm
 
 ## Ab welchem Betrag lohnt es sich?
 
@@ -4350,14 +4350,14 @@ Mit einer amerikanischen LLC verschwinden diese Einschränkungen:
 
 - **Verkaufen Sie in jedes Land** ohne Zahlungsreibungen.
 - **Zugang zu allen Zahlungsplattformen** und Diensten ohne geografische Einschränkungen.
-- **Operieren Sie in Dollar** — der am weitesten akzeptierten Währung der Welt.
+- **Operieren Sie in Dollar**: der am weitesten akzeptierten Währung der Welt.
 - **Beauftragen Sie internationales Talent** und zahlen Sie von Ihrem amerikanischen Konto.
 
 ## Zugang zu Märkten, die zuvor verschlossen waren
 
 ### Der amerikanische Markt
 
-Die Vereinigten Staaten sind der größte Markt der Welt für digitale Dienstleistungen. Viele amerikanische Unternehmen bevorzugen — oder verlangen sogar —, mit Anbietern zusammenzuarbeiten, die eine amerikanische Unternehmensstruktur haben.
+Die Vereinigten Staaten sind der größte Markt der Welt für digitale Dienstleistungen. Viele amerikanische Unternehmen bevorzugen oder verlangen sogar, mit Anbietern zusammenzuarbeiten, die eine amerikanische Unternehmensstruktur haben.
 
 Mit Ihrer LLC können Sie an Ausschreibungen teilnehmen, auf Aufträge für Unternehmen reagieren und Verträge abschließen, die zuvor außerhalb Ihrer Reichweite lagen.
 
@@ -4390,34 +4390,34 @@ Die jährliche Wartung ist einfach: einige Erklärungen beim IRS (die wir für S
 
 Wenn Ihr Geschäft wächst, müssen Sie delegieren. Mit Ihrer LLC können Sie internationales Talent unkompliziert beauftragen:
 
-- **Deel oder Remote** — Plattformen, die es Ihnen ermöglichen, internationale Freiberufler mit standardisierten Verträgen und automatisierten Zahlungen von Ihrem Mercury-Konto zu engagieren
-- **Direktzahlungen** — Wire Transfers oder ACH von Mercury an Ihre Mitarbeiter (\$0 an Wire-Gebühren, zur Erinnerung)
-- **Wise Business** — Um Freiberufler in ihrer Landeswährung zum echten Wechselkurs zu bezahlen (Wise ist ein EMI, keine Bank — ergänzt Mercury aber perfekt)
-- **Form 1099** — Wenn Sie amerikanische Freiberufler beauftragen, müssen Sie ein 1099-NEC ausstellen. Bei ausländischen Freiberuflern verwenden Sie das W-8BEN
+- **Deel oder Remote**: Plattformen, die es Ihnen ermöglichen, internationale Freiberufler mit standardisierten Verträgen und automatisierten Zahlungen von Ihrem Mercury-Konto zu engagieren
+- **Direktzahlungen**: Wire Transfers oder ACH von Mercury an Ihre Mitarbeiter (\$0 an Wire-Gebühren, zur Erinnerung)
+- **Wise Business**: Um Freiberufler in ihrer Landeswährung zum echten Wechselkurs zu bezahlen (Wise ist ein EMI, keine Bank. ergänzt Mercury aber perfekt)
+- **Form 1099**: Wenn Sie amerikanische Freiberufler beauftragen, müssen Sie ein 1099-NEC ausstellen. Bei ausländischen Freiberuflern verwenden Sie das W-8BEN
 
 ## Finanzierung und Venture Capital
 
 Wenn Ihr digitales Geschäft den Punkt erreicht, an dem externe Investitionen benötigt werden, positioniert Sie die amerikanische LLC deutlich besser:
 
-- **Amerikanische Investoren bevorzugen amerikanische Unternehmen** — wenn Ihre LLC in Delaware ist, umso besser für VCs
+- **Amerikanische Investoren bevorzugen amerikanische Unternehmen**: wenn Ihre LLC in Delaware ist, umso besser für VCs
 - **Sie können von LLC zu C-Corp umwandeln** wenn Sie eine formelle Finanzierungsrunde aufnehmen möchten
-- **SAFEs und Convertible Notes** — Standard-Investmentinstrumente im amerikanischen Ökosystem, einfach umzusetzen mit einer US-Entität
-- **Glaubwürdigkeit gegenüber Investoren** — eine amerikanische LLC mit Bankhistorie bei Mercury zu haben, zeigt, dass Sie als ernsthafter Profi operieren
+- **SAFEs und Convertible Notes**: Standard-Investmentinstrumente im amerikanischen Ökosystem, einfach umzusetzen mit einer US-Entität
+- **Glaubwürdigkeit gegenüber Investoren**: eine amerikanische LLC mit Bankhistorie bei Mercury zu haben, zeigt, dass Sie als ernsthafter Profi operieren
 
 ## In neue Märkte expandieren
 
 Ihre amerikanische LLC ist Ihr Pass zu Märkten, die zuvor verschlossen waren:
 
-- **Amazon FBA** — Verkaufen Sie physische Produkte auf dem größten Marktplatz der Welt
-- **Shopify mit Stripe US** — Online-Shop ohne geografische Einschränkungen
-- **Globales SaaS** — Verkaufen Sie Abonnements an Kunden aus jedem Land
-- **Partner-Programme** — Viele Affiliate- und Partner-Programme akzeptieren nur amerikanische Unternehmen
+- **Amazon FBA**: Verkaufen Sie physische Produkte auf dem größten Marktplatz der Welt
+- **Shopify mit Stripe US**: Online-Shop ohne geografische Einschränkungen
+- **Globales SaaS**: Verkaufen Sie Abonnements an Kunden aus jedem Land
+- **Partner-Programme**: Viele Affiliate- und Partner-Programme akzeptieren nur amerikanische Unternehmen
 
 ## Der richtige Moment für den Schritt
 
 Wenn Sie regelmäßig Umsätze erzielen, internationale Kunden haben und spüren, dass Ihre aktuelle Struktur Sie einschränkt, wissen Sie bereits, was zu tun ist.
 
-Bei Exentax gründen wir nicht nur Ihre LLC — wir begleiten Sie bei Ihrem gesamten Wachstum. Von der ersten Rechnung bis hin zur Umwandlung in eine C-Corp für Ihre Series-A-Runde (ja, wir haben Kunden auf diesem Weg begleitet).
+Bei Exentax gründen wir nicht nur Ihre LLC. wir begleiten Sie bei Ihrem gesamten Wachstum. Von der ersten Rechnung bis hin zur Umwandlung in eine C-Corp für Ihre Series-A-Runde (ja, wir haben Kunden auf diesem Weg begleitet).
 
 Vereinbaren Sie Ihre kostenlose 30-Minuten-Beratung. Wir analysieren Ihre Situation, sagen Ihnen, ob eine Skalierung mit einer LLC sinnvoll ist, und entwerfen die Struktur, die Ihnen grenzenloses Wachstum ermöglicht.`,
 
@@ -4497,21 +4497,21 @@ Es ist der Prozess, bei dem eine Bank die Informationen eines neuen Kunden unter
 ## Welche Dokumente von Ihnen verlangt werden
 
 ### Dokumente der LLC:
-- **Articles of Organization** — das Gründungsdokument Ihrer LLC
-- **EIN Confirmation Letter** — das Schreiben des IRS, das Ihre Steueridentifikationsnummer bestätigt
-- **Operating Agreement** — die Vereinbarung, die Ihre LLC regelt
-- **Certificate of Good Standing** — (wenn die LLC älter als ein Jahr ist) bestätigt, dass sie aktiv und auf dem neuesten Stand ist
+- **Articles of Organization**: das Gründungsdokument Ihrer LLC
+- **EIN Confirmation Letter**: das Schreiben des IRS, das Ihre Steueridentifikationsnummer bestätigt
+- **Operating Agreement**: die Vereinbarung, die Ihre LLC regelt
+- **Certificate of Good Standing**: (wenn die LLC älter als ein Jahr ist) bestätigt, dass sie aktiv und auf dem neuesten Stand ist
 
 ### Persönliche Dokumente:
-- **Gültiger Reisepass** — das international am weitesten akzeptierte Ausweisdokument
-- **Adressnachweis** — Versorgungsrechnung, Kontoauszug oder aktuelles offizielles Schreiben
-- **Steueridentifikationsnummer** — aus Ihrem Wohnsitzland
+- **Gültiger Reisepass**: das international am weitesten akzeptierte Ausweisdokument
+- **Adressnachweis**: Versorgungsrechnung, Kontoauszug oder aktuelles offizielles Schreiben
+- **Steueridentifikationsnummer**: aus Ihrem Wohnsitzland
 
 ### Informationen über Ihr Unternehmen:
-- **Beschreibung der Tätigkeit** — was Ihre LLC macht, wie sie Einnahmen generiert
-- **Erwartetes Transaktionsvolumen** — wie viel Sie voraussichtlich monatlich bewegen werden
-- **Hauptkunden und Lieferanten** — aus welchen Ländern und in welchen Branchen
-- **Website oder Online-Präsenz** — LinkedIn, Portfolio, Unternehmenswebsite
+- **Beschreibung der Tätigkeit**: was Ihre LLC macht, wie sie Einnahmen generiert
+- **Erwartetes Transaktionsvolumen**: wie viel Sie voraussichtlich monatlich bewegen werden
+- **Hauptkunden und Lieferanten**: aus welchen Ländern und in welchen Branchen
+- **Website oder Online-Präsenz**: LinkedIn, Portfolio, Unternehmenswebsite
 
 ## Der Verifizierungsprozess Schritt für Schritt
 
@@ -4531,35 +4531,35 @@ Wenn alles in Ordnung ist, wird Ihr Konto innerhalb von 1-5 Werktagen genehmigt.
 
 Einige Branchen erfahren von Seiten der Banken eine zusätzliche Überprüfung:
 
-- **Kryptowährungen und Trading** — sich ständig weiterentwickelnde Regulierung
-- **Finanzdienstleistungen** — erfordern in vielen Bundesstaaten zusätzliche Lizenzen
-- **Regulierte Branchen** — Pharma, Gaming, Produkte für Erwachsene
-- **Regierungsberatung** — birgt zusätzliche Compliance-Risiken
+- **Kryptowährungen und Trading**: sich ständig weiterentwickelnde Regulierung
+- **Finanzdienstleistungen**: erfordern in vielen Bundesstaaten zusätzliche Lizenzen
+- **Regulierte Branchen**: Pharma, Gaming, Produkte für Erwachsene
+- **Regierungsberatung**: birgt zusätzliche Compliance-Risiken
 
 Wenn Ihr Unternehmen in einem dieser Sektoren tätig ist, bedeutet das nicht, dass Sie kein Konto eröffnen können. Der Prozess kann lediglich mehr Zeit in Anspruch nehmen und mehr Dokumentation erfordern.
 
 ## Wie Sie den Prozess erleichtern können
 
-1. **Halten Sie alle Dokumente bereit, bevor Sie sich bewerben** — Articles of Organization, EIN, Operating Agreement, Reisepass
-2. **Stellen Sie sicher, dass Ihre Website aktiv und aktuell ist** — die Banken überprüfen sie
-3. **Seien Sie klar und konsistent** — die Beschreibung Ihres Unternehmens muss in allen Dokumenten übereinstimmen
+1. **Halten Sie alle Dokumente bereit, bevor Sie sich bewerben**: Articles of Organization, EIN, Operating Agreement, Reisepass
+2. **Stellen Sie sicher, dass Ihre Website aktiv und aktuell ist**: die Banken überprüfen sie
+3. **Seien Sie klar und konsistent**: die Beschreibung Ihres Unternehmens muss in allen Dokumenten übereinstimmen
 4. **Antworten Sie schnell** auf jede zusätzliche Anfrage der Bank
-5. **Übertreiben oder untertreiben Sie nicht** Ihre erwarteten Volumina — seien Sie realistisch
+5. **Übertreiben oder untertreiben Sie nicht** Ihre erwarteten Volumina. seien Sie realistisch
 
 ## Mercury vs. traditionelle Banken
 
 Mercury hat den Due-Diligence-Prozess für LLCs mit ausländischen Eigentümern enorm vereinfacht. Während eine traditionelle Bank Wochen oder Monate benötigen kann, schließt Mercury den Prozess in der Regel innerhalb weniger Tage ab.
 
 Weitere Vorteile von Mercury bei der Due Diligence:
-- **100% digitaler Prozess** — Sie müssen keine Filiale besuchen
-- **Standarddokumentation** — keine exotischen Dokumente oder Apostillen erforderlich
-- **Team, das mit LLCs von Nicht-Ansässigen vertraut ist** — sie verstehen Ihre Situation
+- **100% digitaler Prozess**: Sie müssen keine Filiale besuchen
+- **Standarddokumentation**: keine exotischen Dokumente oder Apostillen erforderlich
+- **Team, das mit LLCs von Nicht-Ansässigen vertraut ist**: sie verstehen Ihre Situation
 
 ## Wichtiger Hinweis zu Mercury
 
-Mercury nutzt **Column NA** (Column National Association) als Depotbank. Es handelt sich um eine Bank mit Bundeslizenz, die von der FDIC reguliert wird. Ihre Einlagen sind bis zu \$250.000 versichert, mit erweiterter Deckung bis zu \$5M durch das Sweep-Programm.
+Mercury nutzt **Column NA** (Column National Association) als Depotbank. Es handelt sich um eine Bank mit Bundeslizenz, die von der FDIC reguliert wird, Ihre Einlagen sind bis zu \$250.000 versichert, mit erweiterter Deckung bis zu \$5M durch das Sweep-Programm.
 
-Mercury hat die Due Diligence für LLCs von Nicht-Ansässigen enorm vereinfacht. Ihr Team ist mit dieser Struktur vertraut und der Prozess ist zu 100% digital. Inlands- und internationale Überweisungen kosten \$0 — ein Detail, das den Unterschied macht, wenn Sie Gelder international bewegen müssen.
+Mercury hat die Due Diligence für LLCs von Nicht-Ansässigen enorm vereinfacht, Ihr Team ist mit dieser Struktur vertraut und der Prozess ist zu 100% digital. Inlands- und internationale Überweisungen kosten \$0, ein Detail, das den Unterschied macht, wenn Sie Gelder international bewegen müssen.
 
 ## Was passiert, wenn die Due Diligence scheitert
 
@@ -4584,7 +4584,7 @@ Der Schlüssel ist eine kohärente, dokumentierte und vorhersehbare Geschäftst�
 
 ## Wie wir es bei Exentax koordinieren
 
-Bei Exentax koordinieren wir die Eröffnung Ihres Mercury-Kontos als Teil des Gründungsprozesses. Wir bereiten die gesamte Dokumentation perfekt vor, bevor wir den Antrag einreichen — Articles, EIN, Operating Agreement, Reisepass, alles aufeinander abgestimmt und konsistent. Das Ergebnis: schnelle Genehmigung ohne Ablehnungen. Vereinbaren Sie Ihre kostenlose Beratung.`,
+Bei Exentax koordinieren wir die Eröffnung Ihres Mercury-Kontos als Teil des Gründungsprozesses. Wir bereiten die gesamte Dokumentation perfekt vor, bevor wir den Antrag einreichen. Articles, EIN, Operating Agreement, Reisepass, alles aufeinander abgestimmt und konsistent. Das Ergebnis: schnelle Genehmigung ohne Ablehnungen. Vereinbaren Sie Ihre kostenlose Beratung.`,
 
   "estructura-fiscal-optima-freelancer-internacional": `Wenn Sie Freiberufler/Selbstständiger sind und mit internationalen Kunden arbeiten, zahlen Sie wahrscheinlich mehr Steuern als nötig. Nicht weil Sie etwas falsch machen, sondern weil Ihre steuerliche Struktur nicht für Ihre Realität optimiert ist: internationale Einnahmen, Kunden in mehreren Ländern und eine zu 100% digitale Tätigkeit.
 
@@ -4594,10 +4594,10 @@ In diesem Artikel erklären wir Ihnen die verfügbaren Optionen und helfen Ihnen
 
 Die meisten internationalen Freiberufler arbeiten als Selbstständige in ihrem Wohnsitzland. Das bedeutet:
 
-- **Maximale Besteuerung** — in Spanien beispielsweise können Sie zwischen 30% und 47% auf Ihre Einkünfte zahlen
-- **Fixe Beiträge** — der Selbstständigenbeitrag (300€+/Monat in Spanien) wird unabhängig davon gezahlt, ob Sie Rechnungen stellen oder nicht
-- **Operative Einschränkungen** — Zahlungen in Dollar empfangen, Stripe ohne Einschränkungen nutzen, ein internationales Geschäftskonto haben
-- **Kein Vermögensschutz** — als Selbstständiger haften Sie mit Ihrem gesamten Privatvermögen
+- **Maximale Besteuerung**: in Spanien beispielsweise können Sie zwischen 30% und 47% auf Ihre Einkünfte zahlen
+- **Fixe Beiträge**: der Selbstständigenbeitrag (300€+/Monat in Spanien) wird unabhängig davon gezahlt, ob Sie Rechnungen stellen oder nicht
+- **Operative Einschränkungen**: Zahlungen in Dollar empfangen, Stripe ohne Einschränkungen nutzen, ein internationales Geschäftskonto haben
+- **Kein Vermögensschutz**: als Selbstständiger haften Sie mit Ihrem gesamten Privatvermögen
 
 ## Die steuerlichen Strukturoptionen
 
@@ -4621,10 +4621,10 @@ Dies ist die Standardoption und steuerlich die teuerste. Sie funktioniert, wenn 
 Die beliebteste Option unter internationalen Freiberuflern mit Kunden außerhalb ihres Landes. Die amerikanische LLC bietet:
 
 **Vorteile:**
-- Legale Steueroptimierung — die LLC zahlt keine Körperschaftssteuer in den USA, wenn Sie keine physische Präsenz haben
+- Legale Steueroptimierung, die LLC zahlt keine Körperschaftssteuer in den USA, wenn Sie keine physische Präsenz haben
 - Zugang zu Dollar-Bankkonten (Mercury, Relay)
 - Stripe und PayPal ohne Einschränkungen
-- Vermögensschutz — rechtliche Trennung zwischen Person und Unternehmen
+- Vermögensschutz. rechtliche Trennung zwischen Person und Unternehmen
 - Internationale Glaubwürdigkeit
 - Kein fixer monatlicher Beitrag
 
@@ -4655,17 +4655,17 @@ Die amerikanische LLC wird sinnvoll, wenn:
 
 Der Schlüssel zur Steueroptimierung mit einer LLC liegt in ihrer Klassifizierung als „Disregarded Entity" durch den IRS:
 
-1. **Die LLC zahlt keine Körperschaftssteuer in den USA** — wenn Sie keine physische Präsenz und keine Einkünfte aus US-amerikanischen Quellen haben
-2. **Die Gewinne werden in Ihrem Wohnsitzland erklärt** — aber mit der Möglichkeit, Ausschüttungen zu planen, Betriebsausgaben abzusetzen und die Besteuerung aufzuschieben
-3. **Das Nettoergebnis** — viele unserer Kunden gehen von 35-45% auf 10-20% Steuerlast, und das völlig legal
+1. **Die LLC zahlt keine Körperschaftssteuer in den USA**: wenn Sie keine physische Präsenz und keine Einkünfte aus US-amerikanischen Quellen haben
+2. **Die Gewinne werden in Ihrem Wohnsitzland erklärt**: aber mit der Möglichkeit, Ausschüttungen zu planen, Betriebsausgaben abzusetzen und die Besteuerung aufzuschieben
+3. **Das Nettoergebnis**: viele unserer Kunden gehen von 35-45% auf 10-20% Steuerlast, und das völlig legal
 
 ## Schritte zur Umsetzung der optimalen Struktur
 
-1. **Analysieren Sie Ihre aktuelle Situation** — wie viel Sie fakturieren, woher Ihre Einnahmen kommen, wie viel Sie an Steuern zahlen
-2. **Sprechen Sie mit Exentax** — wir analysieren Ihren konkreten Fall in der kostenlosen Beratung und sagen Ihnen genau, welche Struktur optimal ist
-3. **Gründen Sie Ihre LLC** — wählen Sie den passenden Bundesstaat für Ihr Profil
-4. **Richten Sie Ihre Infrastruktur ein** — Bankkonto, Zahlungsgateway, Buchhaltung
-5. **Migrieren Sie schrittweise** — Sie müssen nicht alles auf einmal übertragen
+1. **Analysieren Sie Ihre aktuelle Situation**: wie viel Sie fakturieren, woher Ihre Einnahmen kommen, wie viel Sie an Steuern zahlen
+2. **Sprechen Sie mit Exentax**: wir analysieren Ihren konkreten Fall in der kostenlosen Beratung und sagen Ihnen genau, welche Struktur optimal ist
+3. **Gründen Sie Ihre LLC**: wählen Sie den passenden Bundesstaat für Ihr Profil
+4. **Richten Sie Ihre Infrastruktur ein**: Bankkonto, Zahlungsgateway, Buchhaltung
+5. **Migrieren Sie schrittweise**: Sie müssen nicht alles auf einmal übertragen
 
 ## Der optimale Finanz-Stack für internationale Freiberufler
 
@@ -4678,11 +4678,11 @@ Die Gewinnerkombination, die wir für die Mehrheit unserer Kunden einsetzen:
 | **Stripe US** | Zahlungen von Kunden empfangen | 2,9% + \$0,30 pro Transaktion |
 | **Relay** | Backup-Konto | Thread Bank, 20 kostenlose Unterkonten |
 
-Bei Exentax begleiten wir Sie durch den gesamten Prozess. Von der Erstanalyse bis zur Gründung, einschließlich der Einrichtung Ihrer gesamten Finanzinfrastruktur — Mercury, Stripe, Wise, alles bereit zum Fakturieren. Vereinbaren Sie eine kostenlose Beratung und wir analysieren, ob es für Ihren konkreten Fall sinnvoll ist.
+Bei Exentax begleiten wir Sie durch den gesamten Prozess. Von der Erstanalyse bis zur Gründung, einschließlich der Einrichtung Ihrer gesamten Finanzinfrastruktur. Mercury, Stripe, Wise, alles bereit zum Fakturieren. Vereinbaren Sie eine kostenlose Beratung und wir analysieren, ob es für Ihren konkreten Fall sinnvoll ist.
 
 Sie möchten die perfekte steuerliche Struktur für Ihr internationales Freelance-Geschäft gestalten? Vereinbaren Sie Ihre kostenlose Beratung und wir erstellen einen maßgeschneiderten Plan.`,
 
-  "prevencion-blanqueo-capitales-llc": `Die Vorschriften zur Bekämpfung der Geldwäsche (AML — Anti-Money Laundering) sind ein grundlegender Pfeiler des internationalen Finanzsystems. Wenn Sie eine LLC in den Vereinigten Staaten besitzen, betreffen Sie diese Vorschriften direkt, auch wenn Ihr Geschäft vollkommen legitim ist.
+  "prevencion-blanqueo-capitales-llc": `Die Vorschriften zur Bekämpfung der Geldwäsche (AML. Anti-Money Laundering) sind ein grundlegender Pfeiler des internationalen Finanzsystems. Wenn Sie eine LLC in den Vereinigten Staaten besitzen, betreffen Sie diese Vorschriften direkt, auch wenn Ihr Geschäft vollkommen legitim ist.
 
 Die gute Nachricht: Die Einhaltung dieser Vorschriften ist einfach, wenn Sie verstehen, was von Ihnen erwartet wird, und von Anfang an gute Praktiken beibehalten.
 
@@ -4690,7 +4690,7 @@ Die gute Nachricht: Die Einhaltung dieser Vorschriften ist einfach, wenn Sie ver
 
 Das globale Finanzsystem braucht Mechanismen, um zu verhindern, dass es für illegale Aktivitäten missbraucht wird. Die AML-Vorschriften verpflichten die Finanzinstitute:
 
-- **Die Identität ihrer Kunden zu überprüfen** (KYC — Know Your Customer)
+- **Die Identität ihrer Kunden zu überprüfen** (KYC. Know Your Customer)
 - **Transaktionen zu überwachen** und nach verdächtigen Mustern zu suchen
 - **Verdächtige Aktivitäten zu melden** an die zuständigen Behörden
 - **Aufzeichnungen zu führen** über alle Transaktionen für einen bestimmten Zeitraum
@@ -4707,7 +4707,7 @@ Ihre Bank überwacht die Transaktionen auf Ihrem Konto kontinuierlich. Wenn sie 
 
 ### 3. Regulatorische Meldungen
 
-Abhängig vom Volumen und der Art der Transaktionen kann Ihre Bank verpflichtet sein, Meldungen bei FinCEN (Financial Crimes Enforcement Network) einzureichen. Dies bedeutet nicht, dass Sie unter Ermittlung stehen — es ist ein Routineverfahren.
+Abhängig vom Volumen und der Art der Transaktionen kann Ihre Bank verpflichtet sein, Meldungen bei FinCEN (Financial Crimes Enforcement Network) einzureichen. Dies bedeutet nicht, dass Sie unter Ermittlung stehen, es ist ein Routineverfahren.
 
 ## Der BSA: Bank Secrecy Act
 
@@ -4730,7 +4730,7 @@ Ihre Bankaktivität muss mit dem übereinstimmen, was Sie bei der Kontoeröffnun
 
 ### 2. Dokumentieren Sie alles
 
-Jede bedeutende Transaktion muss mit Dokumentation belegt werden können: Verträge, Rechnungen, Quittungen, E-Mails. Das ist nicht nur gut für die Compliance — es vereinfacht auch Ihre Buchhaltung.
+Jede bedeutende Transaktion muss mit Dokumentation belegt werden können: Verträge, Rechnungen, Quittungen, E-Mails. Das ist nicht nur gut für die Compliance, es vereinfacht auch Ihre Buchhaltung.
 
 ### 3. Vermeiden Sie Bargeldtransaktionen
 
@@ -4756,7 +4756,7 @@ Wenn Sie steuerlich außerhalb der USA ansässig sind, ist es wichtig, zwei Rahm
 Verpflichtet ausländische Finanzinstitute, Konten von US-Bürgern zu melden. Als Nicht-Ansässiger betrifft Sie dies nicht direkt, aber es betrifft die Institutionen, bei denen Sie Konten haben.
 
 ### CRS (Common Reporting Standard)
-Ist der globale Standard für den automatischen Austausch von Steuerinformationen zwischen Ländern. Ihr Wohnsitzland und die USA können Informationen über Ihre Finanzkonten austauschen.
+Ist der globale Standard für den automatischen Austausch von Steuerinformationen zwischen Ländern, Ihr Wohnsitzland und die USA können Informationen über Ihre Finanzkonten austauschen.
 
 ## Ihre LLC als Zeichen von Professionalität
 
@@ -4764,9 +4764,9 @@ Paradoxerweise positioniert Sie eine gut gegründete LLC mit einwandfreier Compl
 
 Ihre LLC mit ihrer EIN, ihren aktuellen Steuererklärungen und ihrem dedizierten Bankkonto bei Mercury (Column NA, FDIC, alles in Ordnung) ist genau das, was das System von einem Profi erwartet, der international tätig ist.
 
-Machen Sie sich keine Sorgen wegen der AML-Vorschriften — überlassen Sie es den Experten. Bei Exentax sorgen wir dafür, dass Ihre gesamte Struktur stets konform ist. Gründung, jährliche Steuererklärungen, Koordination mit Banken, BOI Report bei FinCEN... alles. Sie widmen sich Ihrem Geschäft, wir stellen sicher, dass jedes Dokument perfekt ist. Vereinbaren Sie Ihre kostenlose Beratung.`,
+Machen Sie sich keine Sorgen wegen der AML-Vorschriften. überlassen Sie es den Experten. Bei Exentax sorgen wir dafür, dass Ihre gesamte Struktur stets konform ist. Gründung, jährliche Steuererklärungen, Koordination mit Banken, BOI Report bei FinCEN... alles. Sie widmen sich Ihrem Geschäft, wir stellen sicher, dass jedes Dokument perfekt ist. Vereinbaren Sie Ihre kostenlose Beratung.`,
 
-  "fiscalidad-internacional-emprendedores-digitales": `Die internationale Besteuerung ist eines der wichtigsten — und am meisten missverstandenen — Themen für digitale Unternehmer. Wenn Sie Dienstleistungen oder digitale Produkte an Kunden in verschiedenen Ländern verkaufen, müssen Sie verstehen, wie das globale Steuersystem funktioniert, um die besten Entscheidungen für Ihr Unternehmen zu treffen.
+  "fiscalidad-internacional-emprendedores-digitales": `Die internationale Besteuerung ist eines der wichtigsten, und am meisten missverstandenen. Themen für digitale Unternehmer. Wenn Sie Dienstleistungen oder digitale Produkte an Kunden in verschiedenen Ländern verkaufen, müssen Sie verstehen, wie das globale Steuersystem funktioniert, um die besten Entscheidungen für Ihr Unternehmen zu treffen.
 
 ## Die Grundlagen der internationalen Besteuerung
 
@@ -4774,9 +4774,9 @@ Machen Sie sich keine Sorgen wegen der AML-Vorschriften — überlassen Sie es d
 
 Ihr steuerlicher Wohnsitz bestimmt, in welchem Land Sie Ihr weltweites Einkommen versteuern. Er ist nicht dasselbe wie Ihre Staatsangehörigkeit oder Ihre Postanschrift. Die Kriterien variieren je nach Land, umfassen aber in der Regel:
 
-- **Aufenthaltstage** — die 183-Tage-Regel ist die gebräuchlichste
-- **Mittelpunkt der Lebensinteressen** — wo sich Ihre Familie, Ihr Vermögen und Ihre hauptsächliche wirtschaftliche Tätigkeit befinden
-- **Gewöhnlicher Wohnsitz** — wo sich Ihre Hauptwohnung befindet
+- **Aufenthaltstage**: die 183-Tage-Regel ist die gebräuchlichste
+- **Mittelpunkt der Lebensinteressen**: wo sich Ihre Familie, Ihr Vermögen und Ihre hauptsächliche wirtschaftliche Tätigkeit befinden
+- **Gewöhnlicher Wohnsitz**: wo sich Ihre Hauptwohnung befindet
 
 ### 2. Einkommensquelle
 
@@ -4803,7 +4803,7 @@ Sie leben in Deutschland, haben eine LLC in den USA und Ihre Kunden befinden sic
 
 ### Betriebsstätte
 
-Eine Betriebsstätte (PE — Permanent Establishment) ist eine feste Geschäftseinrichtung in einem Land, die eine Steuerpflicht auslösen kann. Für digitale Unternehmer, die remote arbeiten, liegt in der Regel KEINE Betriebsstätte in den Ländern ihrer Kunden vor.
+Eine Betriebsstätte (PE. Permanent Establishment) ist eine feste Geschäftseinrichtung in einem Land, die eine Steuerpflicht auslösen kann. Für digitale Unternehmer, die remote arbeiten, liegt in der Regel KEINE Betriebsstätte in den Ländern ihrer Kunden vor.
 
 ### Transfer Pricing (Verrechnungspreise)
 
@@ -4811,7 +4811,7 @@ Wenn Sie mehrere Unternehmen haben (zum Beispiel eine LLC und eine Selbstständi
 
 ### Wirtschaftliche Substanz
 
-Damit eine Steuerstruktur gültig ist, muss sie eine echte wirtschaftliche Substanz haben. Ihre LLC muss als echtes Unternehmen mit genuiner wirtschaftlicher Aktivität operieren — sie darf keine leere Struktur sein, die nur zur Steuerreduzierung geschaffen wurde.
+Damit eine Steuerstruktur gültig ist, muss sie eine echte wirtschaftliche Substanz haben, Ihre LLC muss als echtes Unternehmen mit genuiner wirtschaftlicher Aktivität operieren, sie darf keine leere Struktur sein, die nur zur Steuerreduzierung geschaffen wurde.
 
 ## Strategien zur legalen Steueroptimierung
 
@@ -4833,10 +4833,10 @@ Die Doppelbesteuerungsabkommen zwischen Ihrem Wohnsitzland und den USA können I
 
 ## Was Sie NICHT tun sollten
 
-- **Ignorieren Sie nicht Ihre Steuerpflichten** — in keinem Land
-- **Schaffen Sie keine Strukturen ohne wirtschaftliche Substanz** — die Aufsichtsbehörden erkennen sie
-- **Vermischen Sie nicht private und geschäftliche Finanzen** — das gefährdet Ihre Struktur
-- **Treffen Sie keine steuerlichen Entscheidungen ohne professionelle Beratung** — jede Situation ist anders
+- **Ignorieren Sie nicht Ihre Steuerpflichten**: in keinem Land
+- **Schaffen Sie keine Strukturen ohne wirtschaftliche Substanz**: die Aufsichtsbehörden erkennen sie
+- **Vermischen Sie nicht private und geschäftliche Finanzen**: das gefährdet Ihre Struktur
+- **Treffen Sie keine steuerlichen Entscheidungen ohne professionelle Beratung**: jede Situation ist anders
 
 ## Die Zukunft der digitalen Besteuerung
 
@@ -4846,13 +4846,13 @@ Die OECD arbeitet am BEPS-2.0-Rahmenwerk (Pillar One und Pillar Two), um das int
 
 Sie müssen kein Experte für internationale Besteuerung sein, um Ihre Situation zu optimieren. Sie brauchen die richtigen Werkzeuge und ein Team, das sie zu nutzen weiß:
 
-- **LLC in NM oder WY** — die Basis Ihrer Struktur, \$0 auf Bundesebene, Pass-Through-Besteuerung
-- **Mercury** — Ihr finanzieller Hub (Column NA, FDIC, \$0 Überweisungen)
-- **Wise Business** — Ihr Umrechnungswerkzeug (EMI, echter Wechselkurs)
-- **Stripe US** — Ihr Zahlungsabwickler (135+ Währungen, keine geografischen Einschränkungen)
-- **Exentax** — Ihr Steuerteam (Gründung, Compliance, Steuererklärungen, fortlaufende Unterstützung)
+- **LLC in NM oder WY**: die Basis Ihrer Struktur, \$0 auf Bundesebene, Pass-Through-Besteuerung
+- **Mercury**: Ihr finanzieller Hub (Column NA, FDIC, \$0 Überweisungen)
+- **Wise Business**: Ihr Umrechnungswerkzeug (EMI, echter Wechselkurs)
+- **Stripe US**: Ihr Zahlungsabwickler (135+ Währungen, keine geografischen Einschränkungen)
+- **Exentax**: Ihr Steuerteam (Gründung, Compliance, Steuererklärungen, fortlaufende Unterstützung)
 
-Bei Exentax verfolgen wir alle internationalen regulatorischen Entwicklungen genau, um die Strategien unserer Kunden anzupassen. Sie werden nicht eines Tages mit einer neuen Vorschrift aufwachen, die Sie unvorbereitet trifft — wir werden sie bereits gelesen, analysiert und Sie vorher informiert haben.
+Bei Exentax verfolgen wir alle internationalen regulatorischen Entwicklungen genau, um die Strategien unserer Kunden anzupassen. Sie werden nicht eines Tages mit einer neuen Vorschrift aufwachen, die Sie unvorbereitet trifft. wir werden sie bereits gelesen, analysiert und Sie vorher informiert haben.
 
 Vereinbaren Sie Ihre kostenlose Beratung und wir gestalten die optimale Steuerstruktur für Ihre Situation.`,
 
@@ -4922,13 +4922,13 @@ Wie? Mit dem Form 7004. Und bei Exentax reichen wir diesen automatisch für alle
 
 ## Was ist der Form 7004?
 
-Der Form 7004 ist der offizielle Antrag auf automatische Fristverlängerung des IRS für Unternehmenssteuererklärungen. Wenn Sie ihn korrekt einreichen, gewährt Ihnen der IRS 6 zusätzliche Monate für die Abgabe Ihres Form 1120 — ohne Fragen, ohne Begründungen, ohne Komplikationen.
+Der Form 7004 ist der offizielle Antrag auf automatische Fristverlängerung des IRS für Unternehmenssteuererklärungen. Wenn Sie ihn korrekt einreichen, gewährt Ihnen der IRS 6 zusätzliche Monate für die Abgabe Ihres Form 1120, ohne Fragen, ohne Begründungen, ohne Komplikationen.
 
 Ja, Sie haben richtig gelesen: **automatisch**. Der IRS prüft Ihren Antrag nicht, er kann ihn nicht ablehnen, wenn er korrekt ausgefüllt ist, und Sie müssen keinen Grund angeben. Sie reichen einfach das Formular vor dem 15. April ein und Ihre neue Frist ist der 15. Oktober.
 
 ## Warum ist es so üblich, eine Verlängerung zu beantragen?
 
-Weil es eine Standardpraxis in der amerikanischen Geschäftswelt ist. **Mehr als 50 % der Körperschaftsteuererklärungen werden mit Verlängerung eingereicht.** Das ist weder ungewöhnlich noch verdächtig — es ist normal.
+Weil es eine Standardpraxis in der amerikanischen Geschäftswelt ist. **Mehr als 50 % der Körperschaftsteuererklärungen werden mit Verlängerung eingereicht.** Das ist weder ungewöhnlich noch verdächtig, es ist normal.
 
 Die Gründe sind praktisch:
 
@@ -4959,7 +4959,7 @@ Der Form 7004 fragt einfache Daten ab:
 
 Hier kommt der wichtige Teil: **Die Verlängerung gilt für die Abgabe der Erklärung, nicht für die Steuerzahlung.** Wenn Ihre LLC Bundessteuern schuldet, müssen Sie den geschätzten Betrag vor dem 15. April zahlen, auch wenn Sie die Erklärung erst im Oktober einreichen.
 
-Aber — und das ist entscheidend — **für die meisten Single-Member LLCs mit ausländischen Eigentümern ohne Einkünfte aus US-Quellen beträgt die Bundessteuer \$0.** Die Verlängerung ist also rein ein administrativer Vorgang ohne zusätzliche Steuerkosten.
+Aber, und das ist entscheidend. **für die meisten Single-Member LLCs mit ausländischen Eigentümern ohne Einkünfte aus US-Quellen beträgt die Bundessteuer \$0.** Die Verlängerung ist also rein ein administrativer Vorgang ohne zusätzliche Steuerkosten.
 
 ### Schritt 4: Die automatische Verlängerung erhalten
 
@@ -4987,7 +4987,7 @@ Die einfachste Lösung? Beantragen Sie die Verlängerung. Sie ist kostenlos, aut
 
 Das unterscheidet uns: **Bei Exentax reichen wir den Form 7004 automatisch für alle unsere Kunden der jährlichen Wartung ein.** Sie müssen nicht darum bitten, Sie müssen nicht daran denken, Sie müssen nichts tun.
 
-Vor dem 15. April stellen wir sicher, dass Ihre Verlängerung eingereicht ist. Danach bereiten wir in Ruhe und ohne Hektik Ihren Form 1120 und Form 5472 mit allen ordnungsgemäßen Unterlagen vor. So arbeiten wir — ohne Überraschungen, ohne Last-Minute-Panik.
+Vor dem 15. April stellen wir sicher, dass Ihre Verlängerung eingereicht ist. Danach bereiten wir in Ruhe und ohne Hektik Ihren Form 1120 und Form 5472 mit allen ordnungsgemäßen Unterlagen vor. So arbeiten wir, ohne Überraschungen, ohne Last-Minute-Panik.
 
 ### Was unser Service beinhaltet:
 
@@ -5003,7 +5003,7 @@ Vor dem 15. April stellen wir sicher, dass Ihre Verlängerung eingereicht ist. D
 |---|---|
 | Formular | Form 7004 |
 | Verlängerung | 6 Monate (vom 15. April bis 15. Oktober) |
-| Genehmigung | Automatisch — der IRS lehnt nicht ab |
+| Genehmigung | Automatisch, der IRS lehnt nicht ab |
 | Erforderlicher Grund | Keiner |
 | Kosten | Kostenlos |
 | Steuerzahlung | Muss vor dem 15. April erfolgen (in der Regel \$0 für LLCs von Nichtansässigen) |
@@ -5012,7 +5012,7 @@ Vor dem 15. April stellen wir sicher, dass Ihre Verlängerung eingereicht ist. D
 
 ## Haben Sie Fragen?
 
-Wenn Sie Ihre LLC gerade erst gegründet haben oder es Ihr erstes Geschäftsjahr ist, sind Fragen zu Fristen und Formularen normal. Bei Exentax kümmern wir uns um alles — von der Verlängerung bis zur endgültigen Erklärung. Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen genau, was Sie brauchen und wann.`,
+Wenn Sie Ihre LLC gerade erst gegründet haben oder es Ihr erstes Geschäftsjahr ist, sind Fragen zu Fristen und Formularen normal. Bei Exentax kümmern wir uns um alles, von der Verlängerung bis zur endgültigen Erklärung. Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen genau, was Sie brauchen und wann.`,
 
   "itin-ssn-que-son-como-obtenerlos": `Wenn Sie beginnen, sich in der Welt der amerikanischen LLCs zu bewegen, tauchen schnell zwei Abkürzungen auf, die für Verwirrung sorgen: ITIN und SSN. Sie klingen ähnlich, haben beide 9 Ziffern, und beide dienen zur Identifizierung beim IRS. Aber es sind sehr unterschiedliche Dinge, und zu wissen, welche Sie brauchen (und wie Sie sie erhalten) ist grundlegend.
 
@@ -5026,7 +5026,7 @@ Die SSN ist die Sozialversicherungsnummer der Vereinigten Staaten. Es ist eine 9
 - Personen mit dauerhaftem Aufenthaltsrecht (Green Card-Inhaber)
 - Personen mit Arbeitserlaubnis in den USA
 
-Die SSN ist nicht nur eine Steuernummer — sie ist Ihre Identität im amerikanischen System. Sie nutzen sie zum Arbeiten, Steuern zahlen, um Leistungen der Sozialversicherung in Anspruch zu nehmen, Kredite zu beantragen und praktisch für alles, was die Interaktion mit der Bundesregierung betrifft.
+Die SSN ist nicht nur eine Steuernummer, sie ist Ihre Identität im amerikanischen System. Sie nutzen sie zum Arbeiten, Steuern zahlen, um Leistungen der Sozialversicherung in Anspruch zu nehmen, Kredite zu beantragen und praktisch für alles, was die Interaktion mit der Bundesregierung betrifft.
 
 **Wenn Sie weder US-Bürger noch in den USA ansässig sind, können Sie keine SSN erhalten.** So einfach ist das. Es gibt keine Ausnahmen, keine Abkürzungen, keine Tricks. Wenn Ihnen jemand etwas anderes erzählt, seien Sie misstrauisch.
 
@@ -5070,7 +5070,7 @@ Kurz gesagt: Ohne ITIN ist Ihr steuerliches Leben mit einer amerikanischen LLC d
 
 ## Wie erhalten Sie Ihre ITIN?
 
-Der Prozess umfasst mehrere Schritte, ist aber durchaus machbar — vor allem wenn jemand ihn für Sie erledigt (Spoiler: Bei Exentax kümmern wir uns um alles).
+Der Prozess umfasst mehrere Schritte, ist aber durchaus machbar. vor allem wenn jemand ihn für Sie erledigt (Spoiler: Bei Exentax kümmern wir uns um alles).
 
 ### Schritt 1: Den Form W-7 vorbereiten
 
@@ -5080,7 +5080,7 @@ Der Form W-7 ist der offizielle ITIN-Antrag beim IRS. Er enthält Ihre persönli
 
 Sie benötigen Dokumente, die Ihre Identität und Ihren Ausländerstatus belegen. Die gängigsten sind:
 
-- **Gültiger Reisepass** — Er ist das am häufigsten akzeptierte Dokument, da er sowohl die Identität als auch den Ausländerstatus in einem einzigen Dokument belegt
+- **Gültiger Reisepass**: Er ist das am häufigsten akzeptierte Dokument, da er sowohl die Identität als auch den Ausländerstatus in einem einzigen Dokument belegt
 - **Personalausweis** Ihres Landes (als Ergänzung)
 - **Geburtsurkunde** (falls zutreffend)
 
@@ -5130,7 +5130,7 @@ Der IRS erhebt keine Gebühren für die Ausstellung der ITIN. Der Form W-7 ist k
 
 ## Bei Exentax helfen wir Ihnen, Ihre ITIN zu erhalten
 
-Wir wissen, dass der ITIN-Prozess einschüchternd wirken kann — Formulare, Dokumente, beglaubigte Kopien, Wartezeiten... Aber es muss nicht kompliziert sein.
+Wir wissen, dass der ITIN-Prozess einschüchternd wirken kann. Formulare, Dokumente, beglaubigte Kopien, Wartezeiten... Aber es muss nicht kompliziert sein.
 
 **Bei Exentax kümmern wir uns um den gesamten Prozess für Sie:**
 
@@ -5146,7 +5146,7 @@ Wir haben ITIN-Anträge für Kunden aus Spanien, Mexiko, Kolumbien, Argentinien,
 
 Wenn Sie Ihre LLC gerade gegründet haben oder kurz davor stehen, ist jetzt der richtige Zeitpunkt, Ihre ITIN zu beantragen. Je früher Sie sie haben, desto eher können Sie alle Ihre steuerlichen Pflichten ohne Komplikationen erfüllen.
 
-Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir erklären Ihnen genau, wie der Prozess für Ihren konkreten Fall funktioniert. Wir kümmern uns um alles — Sie brauchen nur Ihren Reisepass.`,
+Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir erklären Ihnen genau, wie der Prozess für Ihren konkreten Fall funktioniert. Wir kümmern uns um alles. Sie brauchen nur Ihren Reisepass.`,
 
   "tributacion-pass-through-llc-como-funciona": `Wenn Ihnen jemand gesagt hat, dass Sie mit einer LLC \$0 an Bundessteuern in den Vereinigten Staaten zahlen können, hat er Sie nicht auf den Arm genommen. Es ist real, es ist legal, und es hat einen Fachbegriff: **Pass-Through-Besteuerung**. Es ist wahrscheinlich der größte steuerliche Vorteil einer LLC als Nichtansässiger, und in diesem Artikel erklären wir Ihnen genau, wie es funktioniert.
 
@@ -5154,7 +5154,7 @@ Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir erklären Ihnen gen
 
 Einfach ausgedrückt: Ihre LLC zahlt keine Bundeseinkommensteuer in den Vereinigten Staaten. Die Einkünfte des Unternehmens "fließen durch" (pass through) direkt zum Eigentümer, der sie in seinem steuerlichen Wohnsitzland versteuert.
 
-Das heißt, die LLC ist steuerlich "transparent". Der IRS behandelt sie nicht als eigenständige Einheit für Einkommensteuerzwecke — er behandelt sie so, als wären die Einkünfte direkt Ihre eigenen.
+Das heißt, die LLC ist steuerlich "transparent". Der IRS behandelt sie nicht als eigenständige Einheit für Einkommensteuerzwecke, er behandelt sie so, als wären die Einkünfte direkt Ihre eigenen.
 
 Für eine Single-Member LLC mit ausländischem Eigentümer stuft der IRS sie als **Disregarded Entity** (nicht beachtete Einheit) ein. Das bedeutet:
 
@@ -5169,7 +5169,7 @@ Ja, null Dollar. Das ist kein Tippfehler.
 
 Weil das US-amerikanische Steuersystem Einkünfte nach ihrer **Quelle** besteuert. Wenn Sie kein US-Ansässiger sind und Ihre Einkünfte aus Dienstleistungen stammen, die außerhalb der Vereinigten Staaten erbracht werden (Freelancing, Beratung, Softwareentwicklung, Design, digitales Marketing usw.), gelten diese Einkünfte nicht als aus US-Quellen stammend.
 
-Und wenn sie nicht aus US-Quellen stammen, hat die USA keine Befugnis, sie zu besteuern. So funktioniert das System — es ist keine Gesetzeslücke, es ist das Design des Steuergesetzbuchs selbst.
+Und wenn sie nicht aus US-Quellen stammen, hat die USA keine Befugnis, sie zu besteuern. So funktioniert das System, es ist keine Gesetzeslücke, es ist das Design des Steuergesetzbuchs selbst.
 
 ### Die vereinfachte Formel:
 
@@ -5189,11 +5189,11 @@ Stellen Sie sich vor, Sie sind Webdesigner, leben in Berlin und stellen über Ih
 **In den Vereinigten Staaten:**
 - Ihre LLC reicht Form 1120 + Form 5472 ein (informativ)
 - Bundessteuer: \$0
-- Die LLC ist eine Disregarded Entity — steuerlich transparent
+- Die LLC ist eine Disregarded Entity. steuerlich transparent
 
 **In Ihrem Wohnsitzland:**
 - Die Nettogewinne Ihrer LLC werden in Ihrem Wohnsitzland versteuert
-- **Aber** — und hier kommt das Gute — zunächst ziehen Sie alle legitimen Ausgaben Ihrer LLC ab
+- **Aber**: und hier kommt das Gute. zunächst ziehen Sie alle legitimen Ausgaben Ihrer LLC ab
 
 ### Was ist der Unterschied zum direkten Freiberufler/Selbstständigen?
 
@@ -5242,7 +5242,7 @@ Vollkommen. Wir sprechen nicht über Steuerhinterziehung, intransparente Konstru
 - Kompatibel mit bestehenden Doppelbesteuerungsabkommen
 - Von Millionen von Unternehmen in den Vereinigten Staaten genutzt
 
-Der Schlüssel liegt in der **korrekten Erklärung in beiden Ländern** und der ordnungsgemäßen Führung aller Unterlagen. Dort verkomplizieren sich viele Unternehmer — und dort kommen wir ins Spiel.
+Der Schlüssel liegt in der **korrekten Erklärung in beiden Ländern** und der ordnungsgemäßen Führung aller Unterlagen. Dort verkomplizieren sich viele Unternehmer, und dort kommen wir ins Spiel.
 
 ## Wie vermeidet man die Doppelbesteuerung?
 
@@ -5258,7 +5258,7 @@ Wenn Sie Einkünfte aus US-Quellen haben (US-Kunden, die Sie für in den USA dur
 
 ## Wie Exentax dies für Sie strukturiert
 
-Bei Exentax gründen wir nicht nur Ihre LLC — wir gestalten die gesamte Steuerstruktur, damit die Pass-Through-Besteuerung optimal für Ihren Fall funktioniert:
+Bei Exentax gründen wir nicht nur Ihre LLC. wir gestalten die gesamte Steuerstruktur, damit die Pass-Through-Besteuerung optimal für Ihren Fall funktioniert:
 
 - **Wir analysieren Ihre steuerliche Situation** in Ihrem Wohnsitzland
 - **Wir wählen den Gründungsstaat**, der am besten zu Ihrem Profil passt
@@ -5273,11 +5273,11 @@ Das Ergebnis: eine Struktur, die Ihre Gesamtsteuerbelastung auf völlig legale W
 
 Jeder Fall ist anders, aber die meisten unserer Kunden reduzieren ihre Gesamtsteuerbelastung um 50 % bis 70 % im Vergleich zur Tätigkeit als Freiberufler/Selbstständiger in ihrem Land. Wenn Sie mehr als \$3.000 pro Monat in Rechnung stellen, werden die Zahlen sehr interessant.
 
-Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir analysieren Ihren konkreten Fall. Wir zeigen Ihnen genau, wie viel Sie mit einer LLC im Vergleich zu Ihrer aktuellen Struktur zahlen würden — mit echten Zahlen, nicht mit vagen Versprechungen.`,
+Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir analysieren Ihren konkreten Fall. Wir zeigen Ihnen genau, wie viel Sie mit einer LLC im Vergleich zu Ihrer aktuellen Struktur zahlen würden, mit echten Zahlen, nicht mit vagen Versprechungen.`,
 
   "por-que-abrir-llc-estados-unidos-ventajas": `Es gibt viele Artikel im Internet, die Ihnen sagen "gründen Sie eine LLC", als wäre es die magische Lösung für all Ihre Probleme. Wir bevorzugen es, direkt zu sein: Eine LLC ist keine Magie, aber sie ist die beste verfügbare Rechts- und Steuerstruktur für digitale Unternehmer, die international tätig sind. Und die Gründe sind sehr konkret.
 
-In diesem Artikel gehen wir alle echten Vorteile durch — ohne Nebel, ohne Übertreibungen, mit Daten und praktischen Beispielen. Wenn Sie nach dem Lesen entscheiden, dass es für Sie Sinn ergibt, kümmert sich Exentax um den gesamten Prozess.
+In diesem Artikel gehen wir alle echten Vorteile durch, ohne Nebel, ohne Übertreibungen, mit Daten und praktischen Beispielen. Wenn Sie nach dem Lesen entscheiden, dass es für Sie Sinn ergibt, kümmert sich Exentax um den gesamten Prozess.
 
 ## 1. Anonymität und Privatsphäre: Ihr Name erscheint nirgendwo
 
@@ -5285,7 +5285,7 @@ Einer der am meisten geschätzten Vorteile amerikanischer LLCs ist die **Privats
 
 ### Wie funktioniert das?
 
-- **New Mexico und Wyoming** ermöglichen die Gründung von LLCs, bei denen die Daten der Mitglieder (Eigentümer) nicht öffentlich zugänglich sind. Die Articles of Organization zeigen nur den Namen des Registered Agent und die Unternehmensadresse — nicht Ihren.
+- **New Mexico und Wyoming** ermöglichen die Gründung von LLCs, bei denen die Daten der Mitglieder (Eigentümer) nicht öffentlich zugänglich sind. Die Articles of Organization zeigen nur den Namen des Registered Agent und die Unternehmensadresse, nicht Ihren.
 - **Das Operating Agreement ist ein privates Dokument.** Es wird bei keiner Behörde registriert. Es ist das interne Dokument, das die Regeln Ihrer LLC festlegt, und nur Sie kennen es (und Ihr Berater).
 - **Es gibt kein öffentliches Register der Mitglieder** von LLCs, wie es in vielen europäischen oder lateinamerikanischen Ländern der Fall ist.
 
@@ -5296,15 +5296,15 @@ Einer der am meisten geschätzten Vorteile amerikanischer LLCs ist die **Privats
 - Diskretion in Geschäften, bei denen Privatsphäre ein Schlüsselfaktor ist
 - Schutz vor Wettbewerbern, die Ihre Struktur untersuchen möchten
 
-Es geht nicht darum, sich zu verstecken — es geht darum, dass Ihre persönlichen Informationen nicht unnötig offengelegt werden. In Europa und Lateinamerika kann jede Person Ihren Namen suchen und Ihre Unternehmen sehen. Mit einer LLC in New Mexico oder Wyoming passiert das nicht.
+Es geht nicht darum, sich zu verstecken, es geht darum, dass Ihre persönlichen Informationen nicht unnötig offengelegt werden. In Europa und Lateinamerika kann jede Person Ihren Namen suchen und Ihre Unternehmen sehen. Mit einer LLC in New Mexico oder Wyoming passiert das nicht.
 
 ## 2. Rechtssicherheit: echter Vermögensschutz
 
-Das "LL" in LLC steht für **Limited Liability** — beschränkte Haftung. Und das ist kein dekorativer Name.
+Das "LL" in LLC steht für **Limited Liability**: beschränkte Haftung. Und das ist kein dekorativer Name.
 
 ### Was bedeutet das in der Praxis?
 
-Wenn Ihre LLC Schulden hat, ein rechtliches Problem, eine Klage oder irgendeinen finanziellen Konflikt, **ist Ihr persönliches Vermögen geschützt.** Ihr Haus, Ihre Ersparnisse, Ihr Auto, Ihre Investitionen — alles bleibt außerhalb der Reichweite der Gläubiger des Unternehmens.
+Wenn Ihre LLC Schulden hat, ein rechtliches Problem, eine Klage oder irgendeinen finanziellen Konflikt, **ist Ihr persönliches Vermögen geschützt.** Ihr Haus, Ihre Ersparnisse, Ihr Auto, Ihre Investitionen, alles bleibt außerhalb der Reichweite der Gläubiger des Unternehmens.
 
 Dieser Schutz basiert auf dem **Corporate Veil** (Haftungsschleier), der das Unternehmen rechtlich von seinem Eigentümer trennt. Solange Sie die finanzielle Trennung aufrechterhalten (getrennte Konten, ordnungsgemäße Dokumentation), ist dieser Schutz solide.
 
@@ -5322,17 +5322,17 @@ Wenn Ihr Unternehmen in den USA gegründet ist, operieren Sie unter einem Rechts
 
 ## 3. Solide Struktur: globales professionelles Image
 
-Eine amerikanische LLC schützt Sie nicht nur — sie positioniert Sie. Ein Unternehmen in den Vereinigten Staaten zu haben, vermittelt international Seriosität, Professionalität und Vertrauen.
+Eine amerikanische LLC schützt Sie nicht nur, sie positioniert Sie. Ein Unternehmen in den Vereinigten Staaten zu haben, vermittelt international Seriosität, Professionalität und Vertrauen.
 
 ### Image- und operative Vorteile:
 
 - **Von einem amerikanischen Unternehmen aus zu fakturieren** schafft Vertrauen bei Kunden aus jedem Land
 - **Klare Trennung** zwischen Ihrem persönlichen und geschäftlichen Vermögen
-- **Weltweit anerkannte Struktur** — jede Bank, jeder Kunde oder Partner versteht, was eine LLC ist
+- **Weltweit anerkannte Struktur**: jede Bank, jeder Kunde oder Partner versteht, was eine LLC ist
 - **Zugang zu Plattformen**, die nur mit Unternehmen arbeiten (Stripe Atlas, Enterprise-SaaS-Plattformen, Marktplätze)
 - **Glaubwürdigkeit bei Investoren**, falls Sie Ihr Geschäft in Zukunft skalieren möchten
 
-Es ist nicht dasselbe, eine Rechnung von "Max Mustermann - Freiberufler" zu senden wie von "MaxTech LLC". Der Unterschied in der Wahrnehmung ist enorm — und in vielen Fällen auch der Unterschied bei den Geschäftsmöglichkeiten.
+Es ist nicht dasselbe, eine Rechnung von "Max Mustermann - Freiberufler" zu senden wie von "MaxTech LLC". Der Unterschied in der Wahrnehmung ist enorm, und in vielen Fällen auch der Unterschied bei den Geschäftsmöglichkeiten.
 
 ## 4. Zugang zum US-amerikanischen Bank- und Fintech-Ökosystem
 
@@ -5373,7 +5373,7 @@ Das Bank- und Fintech-Ökosystem der Vereinigten Staaten ist wahrscheinlich das 
 - Karten für das Team
 - Ausgabenverwaltungstools
 
-Mit einer LLC haben Sie Zugang zu diesem gesamten Ökosystem. In Dollar kassieren, internationale Lieferanten bezahlen, mehrere Währungen verwalten — alles von einem Ort aus, mit modernen Tools und ohne die Einschränkungen des traditionellen Bankwesens.
+Mit einer LLC haben Sie Zugang zu diesem gesamten Ökosystem. In Dollar kassieren, internationale Lieferanten bezahlen, mehrere Währungen verwalten, alles von einem Ort aus, mit modernen Tools und ohne die Einschränkungen des traditionellen Bankwesens.
 
 ## 5. Besteuerung: wie und wann Sie Steuern zahlen
 
@@ -5423,7 +5423,7 @@ Coworking-Mitgliedschaft, Mietanteil bei Arbeit von zu Hause (Home Office-Abzug)
 Online-Kurse (Udemy, Coursera, usw.), Fachbücher, Konferenzen und Branchenveranstaltungen, Workshops, berufliche Zertifizierungen.
 
 ### Geschäftsreisen
-Flüge, Unterkunft, lokaler Transport, Verpflegungsmehraufwand — sofern die Reise einen dokumentierten geschäftlichen Zweck hat. Kundentreffen, Konferenzen, Networking-Events.
+Flüge, Unterkunft, lokaler Transport, Verpflegungsmehraufwand. sofern die Reise einen dokumentierten geschäftlichen Zweck hat. Kundentreffen, Konferenzen, Networking-Events.
 
 ### Marketing und Werbung
 Anzeigen auf Meta, Google Ads, LinkedIn Ads, Markendesign, Branding, SEO, Content-Produktion, Public Relations, relevante Sponsorings.
@@ -5462,7 +5462,7 @@ Wir vergeben keine Unteraufträge, wir delegieren nicht an Dritte, wir verwenden
 
 Wenn Sie Freiberufler, Berater, Entwickler, Designer, Marketer oder ein anderer digitaler Fachmann sind, der mehr als \$2.000 pro Monat an internationale Kunden in Rechnung stellt, lautet die Antwort wahrscheinlich ja.
 
-Vereinbaren Sie Ihre kostenlose 30-minütige Beratung mit Exentax. Wir analysieren Ihren Fall, zeigen Ihnen die Zahlen und sagen Ihnen ehrlich, ob eine LLC das ist, was Sie brauchen — oder ob es eine bessere Option für Ihre Situation gibt. Ohne Verpflichtung, ohne Druck, mit echten Daten.`,
+Vereinbaren Sie Ihre kostenlose 30-minütige Beratung mit Exentax. Wir analysieren Ihren Fall, zeigen Ihnen die Zahlen und sagen Ihnen ehrlich, ob eine LLC das ist, was Sie brauchen, oder ob es eine bessere Option für Ihre Situation gibt. Ohne Verpflichtung, ohne Druck, mit echten Daten.`,
 
 
 
@@ -5487,21 +5487,21 @@ Vereinbaren Sie Ihre kostenlose 30-minütige Beratung mit Exentax. Wir analysier
 
 
 
-  "problemas-comunes-llc-como-evitarlos": `Eine LLC in den Vereinigten Staaten als Nicht-Resident zu eröffnen, ist eine der besten Entscheidungen, die Sie als Freiberufler oder digitaler Unternehmer treffen können. Aber es ist keine Zauberei. Wie jede Unternehmensstruktur bringt sie Pflichten, Risiken und Fallstricke mit sich, die — wenn sie nicht richtig gehandhabt werden — Sie Geld, Zeit und Seelenfrieden kosten können.
+  "problemas-comunes-llc-como-evitarlos": `Eine LLC in den Vereinigten Staaten als Nicht-Resident zu eröffnen, ist eine der besten Entscheidungen, die Sie als Freiberufler oder digitaler Unternehmer treffen können. Aber es ist keine Zauberei. Wie jede Unternehmensstruktur bringt sie Pflichten, Risiken und Fallstricke mit sich, die, wenn sie nicht richtig gehandhabt werden. Sie Geld, Zeit und Seelenfrieden kosten können.
 
 Bei Exentax haben wir alles gesehen. Kunden, die mit IRS-Strafen zu uns kommen, weil sie das Form 5472 nicht eingereicht haben. Mercury-Konten, die wegen verdächtiger Transaktionsmuster eingefroren wurden. LLCs, die seit zwei Jahren den Registered Agent nicht erneuert haben. Operating Agreements, die aus dem Internet kopiert wurden und nichts schützen.
 
-Dies sind die 7 häufigsten Probleme — und genau wie Sie sie vermeiden.
+Dies sind die 7 häufigsten Probleme, und genau wie Sie sie vermeiden.
 
 ## 1. Das Form 5472 nicht rechtzeitig einreichen
 
-**Das Problem:** Das Form 5472 ist für jede LLC mit ausländischen Eigentümern verpflichtend. Die Frist ist der 15. April (mit möglicher Verlängerung bis zum 15. Oktober). Es ist ein Vorgang, den man ernst nehmen sollte — und dennoch wissen viele LLC-Eigentümer nicht einmal, dass er existiert. Sie eröffnen die LLC über einen günstigen Online-Dienst, erhalten die EIN, eröffnen ein Mercury-Konto, beginnen zu fakturieren… und ein Jahr später stellen sie fest, dass sie ausstehende Pflichten gegenüber dem IRS haben.
+**Das Problem:** Das Form 5472 ist für jede LLC mit ausländischen Eigentümern verpflichtend. Die Frist ist der 15. April (mit möglicher Verlängerung bis zum 15. Oktober). Es ist ein Vorgang, den man ernst nehmen sollte, und dennoch wissen viele LLC-Eigentümer nicht einmal, dass er existiert. Sie eröffnen die LLC über einen günstigen Online-Dienst, erhalten die EIN, eröffnen ein Mercury-Konto, beginnen zu fakturieren… und ein Jahr später stellen sie fest, dass sie ausstehende Pflichten gegenüber dem IRS haben.
 
 **Wie wir das vermeiden:** Bei Exentax ist die Erstellung und Einreichung des Form 5472 in der jährlichen Wartung enthalten. Wir bereiten es vor Ablauf der Frist vor, prüfen alle meldepflichtigen Transaktionen zwischen Ihnen und der LLC und reichen es zusammen mit dem Form 1120 (informative Steuererklärung) ein. Sie müssen sich keine Termine merken und keine englischsprachigen Formulare verstehen.
 
 ## 2. Sperrung oder Schließung des Bankkontos
 
-**Das Problem:** Mercury, Relay, Wise — jede Fintech mit Compliance-Programm kann Ihr Konto einfrieren, wenn sie Aktivitäten feststellt, die sie nicht verifizieren kann. Die häufigsten Ursachen:
+**Das Problem:** Mercury, Relay, Wise, jede Fintech mit Compliance-Programm kann Ihr Konto einfrieren, wenn sie Aktivitäten feststellt, die sie nicht verifizieren kann. Die häufigsten Ursachen:
 
 - Hohe Eingänge ohne Rechnungen als Nachweis
 - Häufige Überweisungen auf Privatkonten ohne Kennzeichnung als Distributions
@@ -5515,7 +5515,7 @@ Dies sind die 7 häufigsten Probleme — und genau wie Sie sie vermeiden.
 
 **Das Problem:** Das LLC-Konto für Netflix, den Supermarkteinkauf oder die Miete nutzen. Das verletzt nicht nur die rechtliche Trennung zwischen Ihnen und dem Unternehmen (den "Corporate Veil"), sondern löst auch Compliance-Warnungen aus und erschwert die steuerliche Vorbereitung.
 
-Wenn ein Gericht feststellt, dass Sie konsequent Gelder vermischt haben, kann es den "Corporate Veil durchbrechen" und die LLC als keine von Ihnen getrennte Einheit betrachten. In diesem Moment verlieren Sie den Schutz der beschränkten Haftung — einen der Hauptgründe, warum Sie die LLC gegründet haben.
+Wenn ein Gericht feststellt, dass Sie konsequent Gelder vermischt haben, kann es den "Corporate Veil durchbrechen" und die LLC als keine von Ihnen getrennte Einheit betrachten. In diesem Moment verlieren Sie den Schutz der beschränkten Haftung, einen der Hauptgründe, warum Sie die LLC gegründet haben.
 
 **Wie wir das vermeiden:** Vom ersten Tag an legen wir die Regeln für die Kontonutzung fest. Geschäftsausgaben gehen über das LLC-Konto. Persönliche Zahlungen über Ihr Privatkonto. Überweisungen zwischen beiden werden als Owner's Draws oder Distributions durchgeführt, dokumentiert und in angemessener Häufigkeit (monatlich oder vierzehntägig, nicht täglich).
 
@@ -5559,7 +5559,7 @@ Damit die Tragweite klar ist:
 
 - **Nicht eingereichtes Form 5472:** Die Strafe für Nichteinreichung gemäß IRS §6038A beträgt \$25.000 pro Formular, pro Jahr. Wenn Sie zwei Jahre nicht eingereicht haben, sind das \$50.000. Und der IRS muss Ihnen nichts beweisen: Die Beweislast liegt bei Ihnen.
 - **Gesperrtes Bankkonto:** Wenn Mercury Ihr Konto einfriert, während Sie ausstehende Rechnungen haben, ist Ihr Betrieb lahmgelegt. Es können Wochen vergehen, bis die Sperre aufgehoben wird.
-- **Durchbrochener Corporate Veil:** Wenn ein Gericht feststellt, dass Sie persönliche und geschäftliche Gelder vermischt haben, verschwindet der Haftungsschutz. Ihre persönlichen Vermögenswerte sind den Schulden der LLC ausgesetzt.
+- **Durchbrochener Corporate Veil:** Wenn ein Gericht feststellt, dass Sie persönliche und geschäftliche Gelder vermischt haben, verschwindet der Haftungsschutz, Ihre persönlichen Vermögenswerte sind den Schulden der LLC ausgesetzt.
 - **LLC aufgelöst wegen Nichterneuerung des Registered Agent:** Wenn der Staat Ihre LLC auflöst, ist ein Reinstatement-Verfahren nötig, das teurer ist und länger dauert als die ursprüngliche Erneuerung.
 
 ## Das Muster, das wir systematisch beobachten
@@ -5579,19 +5579,19 @@ Die Gründung macht 10% der Arbeit aus. Die restlichen 90% sind Wartung, Complia
 
 90% der Probleme, die wir sehen, hätten mit einer angemessenen Beratung von Anfang an vermieden werden können. Eine gut gegründete LLC mit aktuellem Compliance und rückverfolgbarem Betrieb ist eine Maschine für steuerliche Effizienz. Eine schlecht geführte LLC ist eine tickende Zeitbombe.
 
-Bei Exentax eröffnen wir nicht nur LLCs. Wir stellen sicher, dass sie gut funktionieren, alle Pflichten erfüllen und Sie so schützen, wie sie dafür konzipiert sind. Gründung, jährliche Wartung, Bank-Compliance und laufende Unterstützung — alles inklusive.
+Bei Exentax eröffnen wir nicht nur LLCs. Wir stellen sicher, dass sie gut funktionieren, alle Pflichten erfüllen und Sie so schützen, wie sie dafür konzipiert sind. Gründung, jährliche Wartung, Bank-Compliance und laufende Unterstützung, alles inklusive.
 
 Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir analysieren Ihre Situation, identifizieren Risiken und schlagen Ihnen eine Struktur vor, die wirklich funktioniert.`,
 
-  "fiscalidad-llc-por-pais-residencia": `Einer der großen Vorteile einer amerikanischen Single-Member LLC ist, dass sie keine Bundeseinkommensteuer in den Vereinigten Staaten zahlt. Der IRS klassifiziert sie als "Disregarded Entity" — eine steuerlich transparente Einheit. Die Gewinne fließen direkt an den Eigentümer durch.
+  "fiscalidad-llc-por-pais-residencia": `Einer der großen Vorteile einer amerikanischen Single-Member LLC ist, dass sie keine Bundeseinkommensteuer in den Vereinigten Staaten zahlt. Der IRS klassifiziert sie als "Disregarded Entity", eine steuerlich transparente Einheit. Die Gewinne fließen direkt an den Eigentümer durch.
 
-Aber hier kommt der Teil, den viele vergessen: **Diese Gewinne deklarieren Sie in Ihrem steuerlichen Wohnsitzland.** Sie verschwinden nicht. Sie werden nicht unsichtbar. Ihre LLC optimiert Ihre Struktur, befreit Sie aber nicht von den steuerlichen Pflichten dort, wo Sie leben.
+Aber hier kommt der Teil, den viele vergessen: **Diese Gewinne deklarieren Sie in Ihrem steuerlichen Wohnsitzland.** Sie verschwinden nicht. Sie werden nicht unsichtbar, Ihre LLC optimiert Ihre Struktur, befreit Sie aber nicht von den steuerlichen Pflichten dort, wo Sie leben.
 
 In diesem Artikel erklären wir Ihnen, wie die tatsächliche Besteuerung einer amerikanischen LLC je nach den Ländern funktioniert, in denen unsere Kunden am häufigsten tätig sind.
 
 ## Das Grundprinzip: Besteuerung nach steuerlichem Wohnsitz
 
-Die meisten Länder besteuern ihre steuerlich Ansässigen nach ihrem **Welteinkommen**. Das bedeutet, wo auch immer Sie leben, müssen Sie alle Ihre Einkünfte deklarieren — einschließlich derjenigen, die Sie über Ihre amerikanische LLC erzielen.
+Die meisten Länder besteuern ihre steuerlich Ansässigen nach ihrem **Welteinkommen**. Das bedeutet, wo auch immer Sie leben, müssen Sie alle Ihre Einkünfte deklarieren. einschließlich derjenigen, die Sie über Ihre amerikanische LLC erzielen.
 
 Der entscheidende Punkt ist, dass Ihnen eine gut strukturierte LLC Folgendes ermöglicht:
 - **Tatsächliche Geschäftsausgaben absetzen**, bevor Ihre Bemessungsgrundlage berechnet wird
@@ -5658,27 +5658,27 @@ Argentinien ist eines der Länder mit der höchsten Steuerbelastung in der Regio
 
 Unabhängig davon, wo Sie leben, gelten immer folgende Grundsätze:
 
-**1. Die LLC beseitigt nicht Ihre Steuerpflicht — sie optimiert sie.** Sie reduzieren Ihre Bemessungsgrundlage mit legitimen absetzbaren Ausgaben und operieren mit einer professionellen Struktur, die Ihnen Werkzeuge bietet, die Sie als Freiberufler/Selbstständiger oder Privatperson nicht haben.
+**1. Die LLC beseitigt nicht Ihre Steuerpflicht, sie optimiert sie.** Sie reduzieren Ihre Bemessungsgrundlage mit legitimen absetzbaren Ausgaben und operieren mit einer professionellen Struktur, die Ihnen Werkzeuge bietet, die Sie als Freiberufler/Selbstständiger oder Privatperson nicht haben.
 
 **2. Die Dokumentation ist alles.** Rechnungen, Verträge, Ausgabenbelege, dokumentierte Ausschüttungen. Ohne Dokumentation ist kein Abzug möglich.
 
-**3. Die amerikanische Compliance schützt Sie.** Das Form 5472 einzureichen, den BOI Report aktuell zu halten und mit Rückverfolgbarkeit zu operieren, erfüllt nicht nur die IRS-Anforderungen — es zeigt auch Ihrem lokalen Finanzamt, dass Ihre Struktur legitim und transparent ist.
+**3. Die amerikanische Compliance schützt Sie.** Das Form 5472 einzureichen, den BOI Report aktuell zu halten und mit Rückverfolgbarkeit zu operieren, erfüllt nicht nur die IRS-Anforderungen, es zeigt auch Ihrem lokalen Finanzamt, dass Ihre Struktur legitim und transparent ist.
 
-**4. Jede Situation ist anders.** Es gibt keine pauschale Antwort. Ihre endgültige Steuerlast hängt von Ihren Einkünften, Ihren Ausgaben, Ihrem Land, Ihrem Regime und Dutzenden von Variablen ab, die nur im Einzelfall analysiert werden können.
+**4. Jede Situation ist anders.** Es gibt keine pauschale Antwort, Ihre endgültige Steuerlast hängt von Ihren Einkünften, Ihren Ausgaben, Ihrem Land, Ihrem Regime und Dutzenden von Variablen ab, die nur im Einzelfall analysiert werden können.
 
 ## Warum spezialisierte Beratung den Unterschied macht
 
-Auf YouTube und Twitter finden Sie Tausende von Leuten, die sagen "mit einer LLC zahlen Sie 0% Steuern". Das ist eine gefährliche Vereinfachung. Sie zahlen 0% **Bundessteuer in den USA** — aber Sie haben weiterhin Pflichten in Ihrem steuerlichen Wohnsitzland.
+Auf YouTube und Twitter finden Sie Tausende von Leuten, die sagen "mit einer LLC zahlen Sie 0% Steuern". Das ist eine gefährliche Vereinfachung. Sie zahlen 0% **Bundessteuer in den USA**: aber Sie haben weiterhin Pflichten in Ihrem steuerlichen Wohnsitzland.
 
-Der Unterschied zwischen einem Freiberufler, der 40% zahlt, und einem, der 15% zahlt, liegt nicht an der LLC selbst — sondern daran, wie sie strukturiert ist, welche Ausgaben abgesetzt werden, wie die Geschäftsvorgänge dokumentiert sind und wie im Wohnsitzland deklariert wird.
+Der Unterschied zwischen einem Freiberufler, der 40% zahlt, und einem, der 15% zahlt, liegt nicht an der LLC selbst, sondern daran, wie sie strukturiert ist, welche Ausgaben abgesetzt werden, wie die Geschäftsvorgänge dokumentiert sind und wie im Wohnsitzland deklariert wird.
 
 Bei Exentax analysieren wir Ihre gesamte Situation: Wohnsitzland, Einkünfte, Ausgaben, Kunden, Geschäftsmodell. Und wir entwerfen eine Struktur, die Ihre Besteuerung legal, dokumentiert und nachhaltig optimiert.
 
-Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir zeigen Ihnen die realen Zahlen Ihres Falls — ohne Vermutungen, ohne leere Versprechen, mit konkreten Daten.`,
+Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir zeigen Ihnen die realen Zahlen Ihres Falls, ohne Vermutungen, ohne leere Versprechen, mit konkreten Daten.`,
 
   "crs-cuentas-bancarias-llc-intercambio-informacion": `Wenn Sie eine LLC in den Vereinigten Staaten und ein Konto bei Mercury, Wise oder Relay haben, ist es natürlich, sich zu fragen: Kann das Finanzamt in meinem Land dieses Konto sehen? Wissen sie, wie viel Geld ich dort habe?
 
-Die kurze Antwort: Ja, potenziell können sie das. Aber das ist kein Problem — es ist ein Vorteil, wenn Ihre Struktur richtig aufgebaut ist. Wir erklären Ihnen, wie es funktioniert.
+Die kurze Antwort: Ja, potenziell können sie das. Aber das ist kein Problem, es ist ein Vorteil, wenn Ihre Struktur richtig aufgebaut ist. Wir erklären Ihnen, wie es funktioniert.
 
 ## Was ist der CRS und warum existiert er?
 
@@ -5688,13 +5688,13 @@ Der CRS (Common Reporting Standard) ist ein System zum automatischen Austausch v
 
 ## Die Vereinigten Staaten und der CRS: Die Besonderheit
 
-Hier kommt der interessante Teil: **Die Vereinigten Staaten nehmen nicht am CRS teil.** Sie sind der große Abwesende. Die USA haben ihr eigenes Austauschsystem — den FATCA (Foreign Account Tax Compliance Act) — aber dieses funktioniert anders und sucht hauptsächlich nach Informationen über amerikanische Staatsbürger und Ansässige mit Konten im Ausland, nicht umgekehrt.
+Hier kommt der interessante Teil: **Die Vereinigten Staaten nehmen nicht am CRS teil.** Sie sind der große Abwesende. Die USA haben ihr eigenes Austauschsystem, den FATCA (Foreign Account Tax Compliance Act), aber dieses funktioniert anders und sucht hauptsächlich nach Informationen über amerikanische Staatsbürger und Ansässige mit Konten im Ausland, nicht umgekehrt.
 
 **Was bedeutet das für Ihre LLC?**
 
 - Finanzinstitute in den USA melden nicht automatisch im Rahmen des CRS an Ihr Wohnsitzland
 - Ihr Mercury-Konto zum Beispiel erzeugt keinen automatischen CRS-Bericht, der beim Finanzamt in Deutschland ankommt
-- Das bedeutet NICHT, dass Sie etwas verbergen sollten — es bedeutet, dass der Austauschmechanismus ein anderer ist
+- Das bedeutet NICHT, dass Sie etwas verbergen sollten, es bedeutet, dass der Austauschmechanismus ein anderer ist
 
 ## Kann also mein lokales Finanzamt mein amerikanisches Konto sehen?
 
@@ -5704,7 +5704,7 @@ Es gibt verschiedene Wege, über die Ihr lokales Finanzamt Informationen erhalte
 
 **2. Spezifische Anfragen:** Ihr Finanzamt kann im Einzelfall Informationen von den amerikanischen Behörden anfordern, insbesondere bei einer Untersuchung.
 
-**3. Ihre eigene Steuererklärung:** In den meisten Ländern sind Sie verpflichtet, Ihre Vermögenswerte im Ausland zu deklarieren. In Deutschland beispielsweise müssen ausländische Konten und Vermögenswerte in der Steuererklärung angegeben werden.
+**3, Ihre eigene Steuererklärung:** In den meisten Ländern sind Sie verpflichtet, Ihre Vermögenswerte im Ausland zu deklarieren. In Deutschland beispielsweise müssen ausländische Konten und Vermögenswerte in der Steuererklärung angegeben werden.
 
 **4. Informationen von Drittanbietern:** Plattformen wie Wise oder Payoneer, die in mehreren Jurisdiktionen operieren, können in Ihrem Land Meldepflichten unterliegen.
 
@@ -5720,7 +5720,7 @@ Jede Plattform hat unterschiedliche Meldepflichten:
 
 ## Warum Transparenz Ihnen nützt
 
-Hier ist der entscheidende Punkt: **Eine gut geführte LLC hat nichts zu verbergen.** Das Ziel einer amerikanischen LLC ist nicht, Einkünfte vor Ihrem lokalen Finanzamt zu verstecken — sondern Ihre Steuerlast durch folgende Maßnahmen legal zu optimieren:
+Hier ist der entscheidende Punkt: **Eine gut geführte LLC hat nichts zu verbergen.** Das Ziel einer amerikanischen LLC ist nicht, Einkünfte vor Ihrem lokalen Finanzamt zu verstecken, sondern Ihre Steuerlast durch folgende Maßnahmen legal zu optimieren:
 
 - Legitimer Abzug von Geschäftsausgaben
 - Pass-through-Besteuerung mit \$0 Bundessteuer in den USA
@@ -5733,7 +5733,7 @@ Wenn Ihre Struktur richtig aufgebaut ist, können Sie Ihren Geschäftsbetrieb je
 
 Hinterziehen bedeutet, Einkünfte nicht zu deklarieren. Optimieren bedeutet, Ihr Unternehmen so zu strukturieren, dass Sie das Richtige innerhalb des Gesetzes zahlen.
 
-Ein Freiberufler/Selbstständiger in Deutschland kann effektiv einen hohen Prozentsatz an Einkommensteuer und Sozialabgaben zahlen. Derselbe Freiberufler kann mit einer gut strukturierten amerikanischen LLC seine effektive Steuerlast erheblich senken — bei vollständiger Deklaration aller Einkünfte, mit aktuellem Compliance und einwandfreier Dokumentation.
+Ein Freiberufler/Selbstständiger in Deutschland kann effektiv einen hohen Prozentsatz an Einkommensteuer und Sozialabgaben zahlen. Derselbe Freiberufler kann mit einer gut strukturierten amerikanischen LLC seine effektive Steuerlast erheblich senken, bei vollständiger Deklaration aller Einkünfte, mit aktuellem Compliance und einwandfreier Dokumentation.
 
 Der Unterschied liegt nicht darin, Geld zu verstecken. Er liegt darin, die richtige Struktur zu wählen.
 
@@ -5745,19 +5745,19 @@ Wenn Sie in Spanien steuerlich ansässig sind, verpflichtet Sie das Modelo 720 z
 - Wertpapiere, Rechte, Versicherungen und Renten
 - Immobilien und Immobilienrechte
 
-Ihr Mercury-Konto fällt in die erste Kategorie. Wenn der Saldo am 31. Dezember oder der Durchschnittssaldo des letzten Quartals 50.000 € übersteigt, müssen Sie es melden. Jedes Land hat seine eigenen Meldepflichten für Auslandsvermögen — das Prinzip ist dasselbe: Melden Sie, was Sie im Ausland haben.
+Ihr Mercury-Konto fällt in die erste Kategorie. Wenn der Saldo am 31. Dezember oder der Durchschnittssaldo des letzten Quartals 50.000 € übersteigt, müssen Sie es melden. Jedes Land hat seine eigenen Meldepflichten für Auslandsvermögen, das Prinzip ist dasselbe: Melden Sie, was Sie im Ausland haben.
 
 ## Der FBAR: eine weitere Pflicht, die Sie nicht ignorieren sollten
 
 Wenn Sie US-Bürger oder steuerlich in den USA ansässig sind (was auf die meisten unserer Kunden nicht zutrifft), verpflichtet Sie der FBAR (FinCEN Form 114) zur Meldung ausländischer Finanzkonten, die zu irgendeinem Zeitpunkt im Jahr \$10.000 übersteigen.
 
-Für Nichtansässige mit LLCs ist der FBAR in der Regel nicht direkt anwendbar. Aber wenn sich Ihre Situation ändert (z.B. wenn Sie einen US-Aufenthaltstitel erhalten), greift diese Pflicht sofort. Es ist wichtig, dies im Blick zu behalten.
+Für Nichtansässige mit LLCs ist der FBAR in der Regel nicht direkt anwendbar. Aber wenn sich Ihre Situation ändert (z.B, wenn Sie einen US-Aufenthaltstitel erhalten), greift diese Pflicht sofort. Es ist wichtig, dies im Blick zu behalten.
 
 ## Was passiert, wenn das Finanzamt Fragen stellt
 
-Das häufigste Szenario: Sie sind Freiberufler, gründen Ihre LLC, beginnen darüber zu fakturieren. Ihr lokaler Steuerberater deklariert die Einkünfte in Ihrer Einkommensteuererklärung. Alles korrekt.
+Das häufigste Szenario: Sie sind Freiberufler, gründen Ihre LLC, beginnen darüber zu fakturieren, Ihr lokaler Steuerberater deklariert die Einkünfte in Ihrer Einkommensteuererklärung. Alles korrekt.
 
-Eines Tages schickt Ihnen das Finanzamt eine Informationsanfrage über Ihre internationale Tätigkeit. Es ist keine Betriebsprüfung — es ist eine Auskunftsanfrage.
+Eines Tages schickt Ihnen das Finanzamt eine Informationsanfrage über Ihre internationale Tätigkeit. Es ist keine Betriebsprüfung, es ist eine Auskunftsanfrage.
 
 Was Sie bereithalten müssen:
 
@@ -5824,11 +5824,11 @@ Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen genau
 
 Es gibt drei große Mechanismen, über die Finanzinformationen zwischen Ländern ausgetauscht werden:
 
-**1. CRS (Common Reporting Standard)** — Der OECD-Standard, den über 100 Länder nutzen, um automatisch Informationen über Finanzkonten von Nichtansässigen auszutauschen.
+**1. CRS (Common Reporting Standard)**: Der OECD-Standard, den über 100 Länder nutzen, um automatisch Informationen über Finanzkonten von Nichtansässigen auszutauschen.
 
-**2. FATCA (Foreign Account Tax Compliance Act)** — Das US-amerikanische Gesetz, das ausländische Finanzinstitute verpflichtet, Konten von US-Bürgern und -Residenten an den IRS zu melden.
+**2. FATCA (Foreign Account Tax Compliance Act)**: Das US-amerikanische Gesetz, das ausländische Finanzinstitute verpflichtet, Konten von US-Bürgern und -Residenten an den IRS zu melden.
 
-**3. Bilaterale Abkommen** — Spezifische Verträge zwischen zwei Ländern zum Austausch von Steuerinformationen auf Anfrage.
+**3. Bilaterale Abkommen**: Spezifische Verträge zwischen zwei Ländern zum Austausch von Steuerinformationen auf Anfrage.
 
 ## Was passiert mit Ihrem Mercury-Konto?
 
@@ -5838,7 +5838,7 @@ Mercury ist ein in den USA registrierter Money Transmitter, der Column NA als De
 
 **Meldet Mercury an Ihr lokales Finanzamt?** Nicht direkt. Da die USA nicht am CRS teilnehmen, gibt es keinen automatischen CRS-Informationsfluss von Mercury an beispielsweise das Finanzamt in Deutschland oder Österreich.
 
-**Bedeutet das, dass Ihr Finanzamt es nicht erfahren kann?** Nicht ganz. Ihr lokales Finanzamt kann:
+**Bedeutet das, dass Ihr Finanzamt es nicht erfahren kann?** Nicht ganz, Ihr lokales Finanzamt kann:
 - Informationen über bilaterale FATCA/IGA-Abkommen mit den USA erhalten
 - Diese gezielt über Amtshilfeabkommen anfordern
 - Sie erfahren, weil Sie diese angeben (wie Sie es tun müssen)
@@ -5847,9 +5847,9 @@ Mercury ist ein in den USA registrierter Money Transmitter, der Column NA als De
 
 Wise ist ein anderer und komplexerer Fall. Es handelt sich um ein EMI (E-Geld-Institut) mit Präsenz in mehreren Rechtsräumen: Wise hat Lizenzen im Vereinigten Königreich, in der EU (über Belgien/Niederlande), in den USA als Money Transmitter, in Australien, Singapur usw.
 
-**Praktische Auswirkung:** Wise kann CRS-Meldepflichten in den Rechtsräumen haben, in denen es tätig ist. Wenn Ihr Wise-Konto in einem CRS-Rechtsraum angesiedelt ist (z.B. der EU), können die Informationen über dieses Konto automatisch an Ihr Wohnsitzland übermittelt werden.
+**Praktische Auswirkung:** Wise kann CRS-Meldepflichten in den Rechtsräumen haben, in denen es tätig ist. Wenn Ihr Wise-Konto in einem CRS-Rechtsraum angesiedelt ist (z.B, der EU), können die Informationen über dieses Konto automatisch an Ihr Wohnsitzland übermittelt werden.
 
-**Was gemeldet wird:** Kontosalden zum Jahresende, erwirtschaftete Zinsen (falls vorhanden) und Daten des Kontoinhabers. Es werden nicht einzelne Transaktionen gemeldet — der CRS ist eine Jahreszusammenfassung.
+**Was gemeldet wird:** Kontosalden zum Jahresende, erwirtschaftete Zinsen (falls vorhanden) und Daten des Kontoinhabers. Es werden nicht einzelne Transaktionen gemeldet, der CRS ist eine Jahreszusammenfassung.
 
 ## Und Relay?
 
@@ -5881,7 +5881,7 @@ Wenn Sie US-Bürger oder steuerlich in den USA ansässig sind, verpflichtet Sie 
 - **Wallester** (Firmenkarten): Die mit Wallester-Karten getätigten Ausgaben sind Transaktionen der LLC, keine separat zu meldenden Konten.
 - **Stripe, PayPal, Adyen**: Dies sind Zahlungsabwickler, keine Bankkonten. Die Gelder fließen zu Mercury (oder Ihrem Hauptkonto), wo sie dokumentiert werden.
 
-Der Schlüssel ist zu verstehen, dass die Meldepflichten für Finanzkonten gelten, nicht für jedes Tool, das Sie verwenden. Ihr lokaler Steuerberater muss Mercury und Wise kennen; der Rest gehört zum internen Betrieb der LLC.
+Der Schlüssel ist zu verstehen, dass die Meldepflichten für Finanzkonten gelten, nicht für jedes Tool, das Sie verwenden, Ihr lokaler Steuerberater muss Mercury und Wise kennen; der Rest gehört zum internen Betrieb der LLC.
 
 ## Das praktische Fazit
 
@@ -5891,7 +5891,7 @@ Der Schlüssel ist zu verstehen, dass die Meldepflichten für Finanzkonten gelte
 
 **3. Eine gut geführte LLC muss sich nicht verstecken.** Ihre Steuerersparnis kommt aus der legalen Optimierung (abzugsfähige Ausgaben, Pass-through-Besteuerung, effiziente Struktur), nicht aus dem Verbergen von Konten.
 
-**4. Nachvollziehbarkeit ist Ihre beste Verteidigung.** Wenn Ihr Finanzamt Sie jemals nach Ihrer LLC fragt, schützt Sie eine vollständige Dokumentation — Rechnungen, Ausschüttungen, Form 5472, Operating Agreement.
+**4. Nachvollziehbarkeit ist Ihre beste Verteidigung.** Wenn Ihr Finanzamt Sie jemals nach Ihrer LLC fragt, schützt Sie eine vollständige Dokumentation. Rechnungen, Ausschüttungen, Form 5472, Operating Agreement.
 
 ## Wie wir es bei Exentax handhaben
 
@@ -5906,7 +5906,7 @@ Es geht nicht nur darum, eine LLC und ein Konto zu eröffnen. Es geht darum sich
 
 Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen, wie das Finanzmeldewesen in Ihrem konkreten Fall funktioniert, und entwerfen eine Struktur, die transparent und effizient ist.`,
 
-  "privacidad-llc-americana-secreto-ventaja": `Einer der Gründe, warum viele Unternehmer Bundesstaaten wie New Mexico oder Wyoming für ihre LLC wählen, ist der Datenschutz. In diesen Staaten erscheint der Eigentümer der LLC nicht in öffentlichen Registern. Das klingt gut — aber es ist wichtig zu verstehen, was das wirklich bedeutet und was nicht.
+  "privacidad-llc-americana-secreto-ventaja": `Einer der Gründe, warum viele Unternehmer Bundesstaaten wie New Mexico oder Wyoming für ihre LLC wählen, ist der Datenschutz. In diesen Staaten erscheint der Eigentümer der LLC nicht in öffentlichen Registern. Das klingt gut, aber es ist wichtig zu verstehen, was das wirklich bedeutet und was nicht.
 
 ## Was der Datenschutz einer LLC schützt
 
@@ -5922,7 +5922,7 @@ Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen, wie 
 
 **Vor FinCEN:** Der BOI Report (Beneficial Ownership Information Report) verlangt, dass Sie die wirtschaftlich Berechtigten der LLC offenlegen, einschließlich Name, Geburtsdatum, Adresse und Identifikationsnummer. Diese Informationen sind nicht öffentlich, befinden sich aber in den Händen der Bundesregierung.
 
-**Vor Ihrer Bank:** Mercury, Relay, Wise — alle Finanzplattformen wissen, wer der Eigentümer der LLC ist. Der KYC-Prozess (Know Your Customer) erfordert persönliche Dokumente: Reisepass, Adressnachweis, manchmal ein Selfie mit Dokument. Es gibt kein anonymes Bankkonto.
+**Vor Ihrer Bank:** Mercury, Relay, Wise, alle Finanzplattformen wissen, wer der Eigentümer der LLC ist. Der KYC-Prozess (Know Your Customer) erfordert persönliche Dokumente: Reisepass, Adressnachweis, manchmal ein Selfie mit Dokument. Es gibt kein anonymes Bankkonto.
 
 **Vor Ihrem lokalen Finanzamt:** Wie wir in anderen Artikeln behandeln, kann Ihr lokales Finanzamt über Abkommen zum Austausch von Steuerinformationen Informationen über Ihre LLC und Ihre amerikanischen Konten erhalten.
 
@@ -5954,7 +5954,7 @@ Der Datenschutz einer LLC beschränkt sich nicht auf öffentliche Register. Er b
 
 **Diskrete Rechnungsstellung.** Ihre Rechnungen tragen den Namen Ihrer LLC, nicht Ihren persönlichen Namen (es sei denn, Sie fügen ihn freiwillig hinzu). Ein Kunde in Deutschland sieht „Digital Consulting Services LLC" auf seiner Rechnung, nicht Ihren Vor- und Nachnamen.
 
-**Adresse des Registered Agent.** Die öffentliche Adresse Ihrer LLC ist die des Registered Agent, nicht Ihre Privatadresse. Ihre tatsächliche Adresse erscheint in keinem öffentlichen Register in Verbindung mit der LLC.
+**Adresse des Registered Agent.** Die öffentliche Adresse Ihrer LLC ist die des Registered Agent, nicht Ihre Privatadresse, Ihre tatsächliche Adresse erscheint in keinem öffentlichen Register in Verbindung mit der LLC.
 
 ## New Mexico, Wyoming und Delaware: Welcher Staat bietet mehr Datenschutz?
 
@@ -6055,7 +6055,7 @@ Die Fristen hängen davon ab, wann die LLC gegründet wurde:
 
 ## Wie wird er eingereicht
 
-Der BOI Report wird elektronisch über das BOI E-Filing System von FinCEN eingereicht. Er wird nicht beim IRS eingereicht — es ist eine separate Meldung an eine andere Behörde.
+Der BOI Report wird elektronisch über das BOI E-Filing System von FinCEN eingereicht. Er wird nicht beim IRS eingereicht, es ist eine separate Meldung an eine andere Behörde.
 
 Das Formular erfordert:
 - Unternehmensdaten
@@ -6127,7 +6127,7 @@ Wenn Sie eine EIN beantragen, geben Sie an, wer die „responsible party" der LL
 
 **2. Verstoß gegen den BOI Report**
 
-Der BOI Report bei FinCEN verlangt, dass Sie die „Beneficial Owners" angeben — die tatsächlichen Eigentümer, nicht die nominellen. Wenn Sie Ihren Cousin als Owner angeben, aber Sie das Geschäft kontrollieren, liefern Sie falsche Informationen an eine Bundesbehörde, die für die Bekämpfung von Finanzkriminalität zuständig ist.
+Der BOI Report bei FinCEN verlangt, dass Sie die „Beneficial Owners" angeben, die tatsächlichen Eigentümer, nicht die nominellen. Wenn Sie Ihren Cousin als Owner angeben, aber Sie das Geschäft kontrollieren, liefern Sie falsche Informationen an eine Bundesbehörde, die für die Bekämpfung von Finanzkriminalität zuständig ist.
 
 **3. Bankbetrug**
 
@@ -6135,7 +6135,7 @@ Wenn Sie ein Konto bei Mercury, Relay oder einer anderen Finanzplattform eröffn
 
 **4. Steuerhinterziehung in Ihrem Land**
 
-Wenn der Grund für den Einsatz eines Strohmanns ist, dass Ihr lokales Finanzamt nicht erfahren soll, dass Sie eine LLC haben, betreiben Sie Steuerhinterziehung. Es spielt keine Rolle, auf wessen Namen die LLC läuft — wenn die Einkünfte Ihnen gehören, ist die Steuerpflicht Ihre.
+Wenn der Grund für den Einsatz eines Strohmanns ist, dass Ihr lokales Finanzamt nicht erfahren soll, dass Sie eine LLC haben, betreiben Sie Steuerhinterziehung. Es spielt keine Rolle, auf wessen Namen die LLC läuft, wenn die Einkünfte Ihnen gehören, ist die Steuerpflicht Ihre.
 
 ## Die tatsächlichen Konsequenzen
 
@@ -6155,7 +6155,7 @@ Wenn Ihr Anliegen der Datenschutz ist (dass Ihr Name nicht öffentlich erscheint
 
 **1. Einen Bundesstaat mit Datenschutz in den Registern wählen**
 
-New Mexico, Wyoming und Delaware erfordern nicht, dass der Name des Eigentümers in den öffentlichen Registern erscheint. Ihre LLC erscheint mit dem Firmennamen und dem Registered Agent, mehr nicht. Legal und effektiv.
+New Mexico, Wyoming und Delaware erfordern nicht, dass der Name des Eigentümers in den öffentlichen Registern erscheint, Ihre LLC erscheint mit dem Firmennamen und dem Registered Agent, mehr nicht. Legal und effektiv.
 
 **2. Einen professionellen Registered Agent nutzen**
 
@@ -6163,7 +6163,7 @@ Der Registered Agent ist die öffentliche Adresse Ihrer LLC. Wenn Sie einen prof
 
 **3. Ein gut formuliertes Operating Agreement haben**
 
-Das Operating Agreement wird in den meisten Bundesstaaten nicht öffentlich registriert. Ihr Name erscheint darin, aber es ist ein internes Dokument.
+Das Operating Agreement wird in den meisten Bundesstaaten nicht öffentlich registriert, Ihr Name erscheint darin, aber es ist ein internes Dokument.
 
 **4. Den BOI Report erfüllen**
 
@@ -6198,15 +6198,15 @@ Aber wenn man genauer hinsieht, ist die Realität ganz anders. Sprechen wir übe
 
 ## Was ist die e-Residency Estlands
 
-Die e-Residency ist ein Programm der estnischen Regierung, das es jeder Person auf der Welt ermöglicht, ein Unternehmen (OÜ — Osaühing, vergleichbar mit einer GmbH) in Estland ferngesteuert zu gründen. Sie erhalten eine digitale Identität, Zugang zu Online-Regierungsdiensten und die Möglichkeit, ein europäisches Unternehmen zu betreiben.
+Die e-Residency ist ein Programm der estnischen Regierung, das es jeder Person auf der Welt ermöglicht, ein Unternehmen (OÜ. Osaühing, vergleichbar mit einer GmbH) in Estland ferngesteuert zu gründen. Sie erhalten eine digitale Identität, Zugang zu Online-Regierungsdiensten und die Möglichkeit, ein europäisches Unternehmen zu betreiben.
 
 Klingt gut. Aber ein europäisches Unternehmen bedeutet europäische Besteuerung. Und da fangen die Probleme an.
 
 ## Der Mythos: „In Estland zahlen Sie keine Steuern auf nicht ausgeschüttete Gewinne"
 
-Es stimmt, dass Estland keine Körperschaftsteuer auf reinvestierte Gewinne erhebt. Wenn Sie kein Geld aus dem Unternehmen entnehmen, zahlen Sie nicht. Aber — und das ist ein gewaltiges Aber — was nützt Ihnen ein Unternehmen, wenn Sie die Gewinne nicht nutzen können?
+Es stimmt, dass Estland keine Körperschaftsteuer auf reinvestierte Gewinne erhebt. Wenn Sie kein Geld aus dem Unternehmen entnehmen, zahlen Sie nicht. Aber, und das ist ein gewaltiges Aber, was nützt Ihnen ein Unternehmen, wenn Sie die Gewinne nicht nutzen können?
 
-Sobald Sie Dividenden ausschütten (also sobald Sie das verdiente Geld genießen möchten), erhebt Estland eine **20%ige Steuer auf Ausschüttungen**. Technisch wird sie als 20/80 auf den Nettobetrag berechnet — das heißt, wenn Sie 10.000 € netto erhalten möchten, muss das Unternehmen 12.500 € „ausgeben" (10.000 € für Sie + 2.500 € Steuern). Das entspricht **20 % auf den gesamten Bruttobetrag**.
+Sobald Sie Dividenden ausschütten (also sobald Sie das verdiente Geld genießen möchten), erhebt Estland eine **20%ige Steuer auf Ausschüttungen**. Technisch wird sie als 20/80 auf den Nettobetrag berechnet, das heißt, wenn Sie 10.000 € netto erhalten möchten, muss das Unternehmen 12.500 € „ausgeben" (10.000 € für Sie + 2.500 € Steuern). Das entspricht **20 % auf den gesamten Bruttobetrag**.
 
 Und das ist nur die Steuer in Estland. Wenn Sie in Deutschland steuerlich ansässig sind, müssen Sie diese Dividenden zusätzlich deklarieren und Abgeltungsteuer bzw. Einkommensteuer zahlen:
 
@@ -6223,7 +6223,7 @@ Mit einer Single-Member LLC in den USA ist die Situation grundlegend anders:
 - **Keine Steuer auf Ausschüttungen.** Es gibt kein Konzept der „Dividendenausschüttung", da die LLC steuerlich transparent ist. Das Geld gehört Ihnen von Anfang an.
 - **Keine Bundesstaatssteuer** in New Mexico, Wyoming oder Delaware für Nicht-Residenten.
 
-In Ihrem Wohnsitzland deklarieren Sie die Nettogewinne — aber mit allen abzugsfähigen Ausgaben der LLC bereits abgezogen. Die Bemessungsgrundlage reduziert sich erheblich.
+In Ihrem Wohnsitzland deklarieren Sie die Nettogewinne, aber mit allen abzugsfähigen Ausgaben der LLC bereits abgezogen. Die Bemessungsgrundlage reduziert sich erheblich.
 
 ## Banking und Zahlungsverkehr: Estland vs. Vereinigte Staaten
 
@@ -6231,7 +6231,7 @@ Hier wird der Unterschied gewaltig.
 
 ### Mit einer OÜ in Estland
 
-- **Estnische Banken:** LHV, Swedbank oder SEB können Ihnen ein Konto eröffnen, aber die Bürokratie ist beträchtlich. Neobanken wie Wise Business funktionieren, aber Wise ist keine Bank — es ist ein EMI (E-Geld-Institut). Bei den meisten Optionen gibt es keine Einlagensicherung.
+- **Estnische Banken:** LHV, Swedbank oder SEB können Ihnen ein Konto eröffnen, aber die Bürokratie ist beträchtlich. Neobanken wie Wise Business funktionieren, aber Wise ist keine Bank, es ist ein EMI (E-Geld-Institut). Bei den meisten Optionen gibt es keine Einlagensicherung.
 - **Stripe:** Funktioniert mit einem estnischen Unternehmen, aber mit den Einschränkungen des SEPA-Raums. Die Gebühren für internationale Zahlungen außerhalb der EU sind höher.
 - **PayPal Business:** Einschränkungen je nach Land des Eigentümers.
 - **Hauptwährung:** Euro. Wenn Sie in Dollar kassieren, bedeutet jede Transaktion eine Währungsumrechnung.
@@ -6244,7 +6244,7 @@ Hier wird der Unterschied gewaltig.
 - **PayPal Business USA:** Ohne länderspezifische Einschränkungen.
 - **Hauptwährung:** Dollar. Wenn Ihre internationalen Kunden in USD zahlen, gibt es keine Währungsumrechnung.
 
-Die Finanzinfrastruktur der USA ist unvergleichlich überlegen. Mercury, Stripe, ACH, Überweisungen — alles funktioniert reibungslos.
+Die Finanzinfrastruktur der USA ist unvergleichlich überlegen. Mercury, Stripe, ACH, Überweisungen, alles funktioniert reibungslos.
 
 ## Tatsächliche Kosten: Der Vergleich, den niemand anstellt
 
@@ -6264,7 +6264,7 @@ Die Finanzinfrastruktur der USA ist unvergleichlich überlegen. Mercury, Stripe,
 - **Vollständige Gründung:** inklusive Articles of Organization, Operating Agreement, EIN, Registered Agent, Eröffnung eines Mercury-Kontos
 - **Jährliche Wartung:** inklusive Form 5472, Form 1120, BOI Report, Registered Agent, vollständige Compliance
 - **US-Bundessteuer:** 0 \$
-- **Keine USt., keine Steuer auf Ausschüttungen, keine estnische Pflichtbuchhaltung**
+- **Keine USt, keine Steuer auf Ausschüttungen, keine estnische Pflichtbuchhaltung**
 - **Geschätzte Jahreskosten:** kontaktieren Sie uns
 
 Die LLC ist günstiger zu gründen, günstiger zu unterhalten und hat keine Steuer auf Ausschüttungen.
@@ -6287,7 +6287,7 @@ Sie benötigen einen estnischen Buchhalter. Sie müssen die estnische Regulierun
 ### LLC in den Vereinigten Staaten
 
 Eine Single-Member LLC eines Nicht-Residenten benötigt:
-- Form 5472 + Form 1120 (jährliche Informationsmeldung — ohne Zahlung)
+- Form 5472 + Form 1120 (jährliche Informationsmeldung, ohne Zahlung)
 - BOI Report bei FinCEN
 - Verlängerung des Registered Agent
 
@@ -6299,7 +6299,7 @@ Das ist das Hauptargument der e-Residency. „Sie zahlen keine Steuern, wenn Sie
 
 1. **Warum gründen Sie ein Unternehmen, wenn Sie das Geld nicht nutzen wollen?** Das Ziel jedes Selbstständigen ist es, Einkommen zum Leben zu erwirtschaften. Wenn Sie das Geld nicht entnehmen können, ohne 20–25 % zu zahlen, welchen Sinn hat es dann?
 
-2. **Reinvestition hat Grenzen.** Sie können in Tools, Software, Marketing reinvestieren — genau wie bei einer LLC. Aber wenn Sie Ihre Miete, Ihr Essen oder Ihren Urlaub bezahlen müssen, müssen Sie ausschütten. Und dann zahlen Sie.
+2. **Reinvestition hat Grenzen.** Sie können in Tools, Software, Marketing reinvestieren. genau wie bei einer LLC. Aber wenn Sie Ihre Miete, Ihr Essen oder Ihren Urlaub bezahlen müssen, müssen Sie ausschütten. Und dann zahlen Sie.
 
 3. **Ihr Wohnsitzland vergisst nicht.** Wenn Sie in Deutschland steuerlich ansässig sind und ein Unternehmen in Estland haben, kann das Finanzamt dies dank des CRS (automatischer Informationsaustausch) erfahren. Je nach Ihrer Situation könnten Sie verpflichtet sein, das Unternehmen in Ihrer Steuererklärung anzugeben und die Erträge zu versteuern.
 
@@ -6340,7 +6340,7 @@ Seien wir fair. Die estnische OÜ kann in sehr spezifischen Fällen sinnvoll sei
 - Sie operieren ausschließlich im SEPA-Markt
 - Sie benötigen keinen Zugang zum amerikanischen Finanzökosystem
 
-Aber wenn Sie digitaler Freiberufler, SaaS-Anbieter, im internationalen E-Commerce, Content Creator oder Berater sind — ist die LLC in praktisch allen Aspekten überlegen.
+Aber wenn Sie digitaler Freiberufler, SaaS-Anbieter, im internationalen E-Commerce, Content Creator oder Berater sind. ist die LLC in praktisch allen Aspekten überlegen.
 
 ## Direktvergleich: Estland vs. LLC
 
@@ -6362,18 +6362,18 @@ Aber wenn Sie digitaler Freiberufler, SaaS-Anbieter, im internationalen E-Commer
 
 Die e-Residency Estlands ist zu einem brillanten Marketingprodukt geworden. Eine Regierung, die digitale Bürgerschaft mit einer Narrative von Innovation und Modernität verkauft. Und es funktioniert: Tausende von Menschen haben sich angemeldet.
 
-Aber die Zahlen lügen nicht. Wenn man die Kosten für Pflichtbuchhaltung, die Steuer auf Ausschüttungen, die USt.-Verwaltung und die Einschränkungen im Bankwesen zusammenrechnet — ist die estnische OÜ teurer, bürokratischer und steuerlich weniger effizient als eine amerikanische LLC für die überwiegende Mehrheit der Freiberufler und digitalen Selbstständigen im deutschsprachigen Raum.
+Aber die Zahlen lügen nicht. Wenn man die Kosten für Pflichtbuchhaltung, die Steuer auf Ausschüttungen, die USt.-Verwaltung und die Einschränkungen im Bankwesen zusammenrechnet. ist die estnische OÜ teurer, bürokratischer und steuerlich weniger effizient als eine amerikanische LLC für die überwiegende Mehrheit der Freiberufler und digitalen Selbstständigen im deutschsprachigen Raum.
 
 ## Bei Exentax geben wir Ihnen die Struktur, die wirklich funktioniert
 
 Wir verkaufen weder heiße Luft noch Modetrends. Wir entwerfen Steuerstrukturen auf Basis der geltenden Gesetzgebung, mit realen Zahlen und vollständiger Compliance.
 
-- **Vollständige LLC-Gründung** — kontaktieren Sie uns für aktuelle Preise
-- **Jährliche Wartung** — kontaktieren Sie uns für aktuelle Preise
+- **Vollständige LLC-Gründung**: kontaktieren Sie uns für aktuelle Preise
+- **Jährliche Wartung**: kontaktieren Sie uns für aktuelle Preise
 - **0 % US-Bundessteuer**
 - **Banking bei Mercury** mit 0 \$ Gebühren und FDIC-Versicherung
 - **Vollständige Compliance:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Haben Sie an Estland gedacht? Vereinbaren Sie eine kostenlose 30-minütige Beratung und wir zeigen Ihnen die realen Zahlen für Ihren Fall. Ohne Verpflichtung, ohne Druck — nur Fakten. In 30 Minuten wissen Sie genau, was Sie mit einer LLC im Vergleich zu einem estnischen Unternehmen zahlen würden.`,
+Haben Sie an Estland gedacht? Vereinbaren Sie eine kostenlose 30-minütige Beratung und wir zeigen Ihnen die realen Zahlen für Ihren Fall. Ohne Verpflichtung, ohne Druck, nur Fakten. In 30 Minuten wissen Sie genau, was Sie mit einer LLC im Vergleich zu einem estnischen Unternehmen zahlen würden.`,
 
 };

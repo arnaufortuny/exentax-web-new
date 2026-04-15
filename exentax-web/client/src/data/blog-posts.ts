@@ -258,7 +258,7 @@ Nuevo México es el estado más popular entre nuestros clientes en Exentax, y co
 - **Coste de constitución y mantenimiento más bajo** de los tres estados
 - **Proceso sencillo y rápido**: sin burocracia innecesaria
 
-**Ideal para:** la gran mayoría de freelancers, consultores, desarrolladores, diseñadores y emprendedores digitales. Si quieres la opción más práctica, más privada y más económica, Nuevo México es la elección obvia. Es el estado que recomendamos por defecto en Exentax a menos que tu situación específica requiera otra cosa.
+**Ideal para:** la gran mayoría de freelancers, consultores, desarrolladores, diseñadores y emprendedores digitales. Si quieres la opción más práctica, más privada y con menores costes recurrentes, Nuevo México es la elección obvia. Es el estado que recomendamos por defecto en Exentax a menos que tu situación específica requiera otra cosa.
 
 ## Wyoming: buena privacidad, mayor coste
 
@@ -3038,7 +3038,7 @@ Aquí te explicamos el proceso paso a paso, para que entiendas exactamente qué 
 
 El primer paso es decidir en qué estado constituir tu LLC. Los tres más populares para no residentes:
 
-- **Nuevo México**: El más económico. Sin Annual Report ni tasas anuales
+- **Nuevo México**: Sin Annual Report ni tasas anuales ($0/año en mantenimiento estatal)
 - **Wyoming**: Máxima privacidad. Datos de miembros no son públicos
 - **Delaware**: Mejor marco legal. Recomendado si buscas inversores
 
@@ -3664,7 +3664,7 @@ Los costes iniciales dependen del estado que elijas:
 
 Una vez constituida, tu LLC tiene gastos recurrentes:
 
-### Nuevo México, el más económico
+### Nuevo México: sin tasas anuales
 | Concepto | Coste anual |
 |---|---|
 | Annual Report | No requiere ($0) |
