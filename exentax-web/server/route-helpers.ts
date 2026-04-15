@@ -161,7 +161,9 @@ export function isValidPhone(val: string): boolean {
 import { getRateLimitStore, type RateLimitStore } from "./rate-limit-store";
 
 let _rlStore: RateLimitStore | null = null;
-getRateLimitStore().then(s => { _rlStore = s; }).catch(() => {});
+getRateLimitStore().then(s => { _rlStore = s; }).catch(err => {
+  logger.warn(`[rate-limit] Route-level store init failed, using in-memory fallback: ${err instanceof Error ? err.message : String(err)}`, "rate-limit");
+});
 
 interface RateLimiter {
   check(key: string): Promise<boolean>;
@@ -209,7 +211,9 @@ function createRateLimiter(name: string, maxRequests: number, windowMs: number):
       for (const [k, entry] of fallbackMap.entries()) {
         if (now > entry.resetAt) fallbackMap.delete(k);
       }
-      if (_rlStore) _rlStore.cleanup().catch(() => {});
+      if (_rlStore) _rlStore.cleanup().catch(err => {
+        logger.warn(`[rate-limit] Endpoint store cleanup failed: ${err instanceof Error ? err.message : String(err)}`, "rate-limit");
+      });
     },
   };
 }

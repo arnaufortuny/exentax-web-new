@@ -1012,7 +1012,7 @@ const de = {
     emailPlaceholder: "Ihre beste E-Mail-Adresse",
     phoneLabel: "Telefon / WhatsApp *",
     phonePlaceholder: "Ihre Telefonnummer",
-    phoneError: "Geben Sie eine gültige Telefonnummer ein (mind. 7 Ziffern)",
+    phoneError: "Geben Sie eine gültige Telefonnummer ein (7 bis 15 Ziffern)",
     privacyLabel: "Ich habe die",
     privacyPolicy: "Datenschutzerklärung",
     privacyConsent: "gelesen und akzeptiert und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Beratungsanfrage gemäß den",

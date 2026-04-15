@@ -1016,7 +1016,7 @@ const pt = {
     emailPlaceholder: "Seu melhor email",
     phoneLabel: "Telefone / WhatsApp *",
     phonePlaceholder: "Seu telefone",
-    phoneError: "Insira um número de telefone válido (mín. 7 dígitos)",
+    phoneError: "Insira um número de telefone válido (entre 7 e 15 dígitos)",
     privacyLabel: "Li e aceito a",
     privacyPolicy: "Política de Privacidade",
     privacyConsent: "e consinto o tratamento dos meus dados para gerir o meu pedido de consultoria de acordo com os",

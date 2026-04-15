@@ -189,6 +189,7 @@ export default function PhoneInput({
           value={number}
           onChange={handleNumberChange}
           placeholder={placeholder}
+          maxLength={20}
           data-testid={testId}
           className={`flex-1 min-w-0 px-3 bg-transparent outline-none text-[var(--text-1)] placeholder:text-[var(--text-3)] ${sizeClasses} py-2.5`}
         />

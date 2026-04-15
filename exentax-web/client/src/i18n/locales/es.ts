@@ -2006,7 +2006,7 @@ const es = {
  emailPlaceholder:"Tu mejor email",
  phoneLabel:"Teléfono / WhatsApp *",
  phonePlaceholder:"Tu teléfono",
- phoneError:"Introduce un teléfono válido (mín. 7 dígitos)",
+ phoneError:"Introduce un teléfono válido (entre 7 y 15 dígitos)",
  privacyLabel:"He leído y acepto la",
  privacyPolicy:"Política de Privacidad",
  privacyConsent:"y consiento el tratamiento de mis datos para gestionar mi solicitud de asesoría de acuerdo con los",

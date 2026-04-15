@@ -1012,7 +1012,7 @@ const fr = {
     emailPlaceholder: "Votre meilleur email",
     phoneLabel: "Téléphone / WhatsApp *",
     phonePlaceholder: "Votre téléphone",
-    phoneError: "Entrez un numéro de téléphone valide (min. 7 chiffres)",
+    phoneError: "Entrez un numéro de téléphone valide (entre 7 et 15 chiffres)",
     privacyLabel: "J'ai lu et j'accepte la",
     privacyPolicy: "Politique de Confidentialité",
     privacyConsent: "et je consens au traitement de mes données pour gérer ma demande de conseil conformément aux",

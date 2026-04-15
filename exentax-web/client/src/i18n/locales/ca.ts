@@ -1593,7 +1593,7 @@ const ca = {
     emailPlaceholder: "El teu millor email",
     phoneLabel: "Telèfon / WhatsApp *",
     phonePlaceholder: "El teu telèfon",
-    phoneError: "Introdueix un telèfon vàlid (mín. 7 dígits)",
+    phoneError: "Introdueix un telèfon vàlid (entre 7 i 15 dígits)",
     privacyLabel: "He llegit i accepto la",
     privacyPolicy: "Política de Privacitat",
     privacyConsent: "i consento el tractament de les meves dades per gestionar la meva sol·licitud d'assessoria d'acord amb els",

@@ -125,7 +125,8 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       newErrors.email = t("calculator.emailError");
     }
-    if (!phone || phone.replace(/\D/g, "").length < 7) {
+    const phoneDigits = phone ? phone.replace(/\D/g, "") : "";
+    if (!phone || phoneDigits.length < 7 || phoneDigits.length > 15) {
       newErrors.phone = t("booking.phoneError");
     }
     if (!privacyAccepted) {

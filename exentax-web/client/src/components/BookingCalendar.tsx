@@ -244,7 +244,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     if (!selectedDate || !selectedTime) return;
 
     const phoneDigits = formData.phone.replace(/\D/g, "");
-    if (phoneDigits.length < 7) {
+    if (phoneDigits.length < 7 || phoneDigits.length > 15) {
       setPhoneError(true);
       return;
     }

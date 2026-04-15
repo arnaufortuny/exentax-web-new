@@ -192,7 +192,9 @@ const RATE_LIMIT_WINDOW = 60_000;
 const RATE_LIMIT_MAX = 200;
 
 let _globalRlStore: RateLimitStore | null = null;
-getRateLimitStore().then(s => { _globalRlStore = s; }).catch(() => {});
+getRateLimitStore().then(s => { _globalRlStore = s; }).catch(err => {
+  logger.warn(`[rate-limit] Failed to initialize store, using in-memory fallback: ${err instanceof Error ? err.message : String(err)}`, "rate-limit");
+});
 
 const _globalRlFallback = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT_MAP_MAX = 10_000;
@@ -259,7 +261,9 @@ activeIntervals.push(setInterval(() => {
   for (const [key, entry] of _globalRlFallback) {
     if (now > entry.resetAt) _globalRlFallback.delete(key);
   }
-  if (_globalRlStore) _globalRlStore.cleanup().catch(() => {});
+  if (_globalRlStore) _globalRlStore.cleanup().catch(err => {
+    logger.warn(`[rate-limit] Store cleanup failed: ${err instanceof Error ? err.message : String(err)}`, "rate-limit");
+  });
 }, 60_000));
 
 

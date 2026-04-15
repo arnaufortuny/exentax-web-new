@@ -1011,7 +1011,7 @@ const en = {
     emailPlaceholder: "Your best email",
     phoneLabel: "Phone / WhatsApp *",
     phonePlaceholder: "Your phone",
-    phoneError: "Enter a valid phone number (min. 7 digits)",
+    phoneError: "Enter a valid phone number (7 to 15 digits)",
     privacyLabel: "I have read and accept the",
     privacyPolicy: "Privacy Policy",
     privacyConsent: "and consent to the processing of my data to manage my consultation request in accordance with the",
