@@ -15,7 +15,7 @@ import {
 import {
   generateTimeSlots, getEndTime, isWeekday,
   scheduleReminderEmail, cancelReminderTimer,
-  withSlotLock, asyncHandler,
+  withSlotLock, withBookingLock, asyncHandler,
   ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
@@ -104,6 +104,8 @@ export function registerAdminRoutes(app: Express) {
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { date, startTime } = parsed.data;
 
+    if (row.meetingDate === date && row.startTime === startTime) return apiFail(res, 400, "Mismo horario actual", "SAME_SLOT");
+
     if (!isWeekday(date)) return apiFail(res, 400, "Solo días laborables", "INVALID_DATE");
     const todayStr = todayMadridISO();
     if (date < todayStr) return apiFail(res, 400, "No se puede reagendar a una fecha pasada", "PAST_DATE");
@@ -117,22 +119,27 @@ export function registerAdminRoutes(app: Express) {
     const newRescheduleCount = (row.rescheduleCount ?? 0) + 1;
     const nowIso = new Date().toISOString();
 
-    const claimResult = await withSlotLock(slotKey, async () => {
-      const booked = await isSlotBooked(date, startTime);
-      if (booked) return { error: true as const };
-      await updateAgenda(bookingId, {
-        meetingDate: date,
-        startTime,
-        endTime,
-        status: AGENDA_STATUSES.RESCHEDULED,
-        googleMeet: null,
-        googleMeetEventId: null,
-        rescheduleCount: newRescheduleCount,
-        lastRescheduledAt: nowIso,
-      });
-      return { error: false as const };
-    });
-    if (claimResult.error) return apiFail(res, 409, "Horario ya ocupado", "SLOT_TAKEN");
+    const claimResult = await withBookingLock(bookingId, () =>
+      withSlotLock(slotKey, async () => {
+        const freshRow = await getAgendaById(bookingId);
+        if (!freshRow || isCancelledStatus(freshRow.status)) return { error: "CANCELLED" as const };
+        const booked = await isSlotBooked(date, startTime);
+        if (booked) return { error: "SLOT_TAKEN" as const };
+        await updateAgenda(bookingId, {
+          meetingDate: date,
+          startTime,
+          endTime,
+          status: AGENDA_STATUSES.RESCHEDULED,
+          googleMeet: null,
+          googleMeetEventId: null,
+          rescheduleCount: newRescheduleCount,
+          lastRescheduledAt: nowIso,
+        });
+        return { error: false as const };
+      })
+    );
+    if (claimResult.error === "CANCELLED") return apiFail(res, 400, "Reserva cancelada durante la operación", "BOOKING_CANCELLED");
+    if (claimResult.error === "SLOT_TAKEN") return apiFail(res, 409, "Horario ya ocupado", "SLOT_TAKEN");
 
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
@@ -224,39 +231,46 @@ export function registerAdminRoutes(app: Express) {
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, "Ya está cancelada", "ALREADY_CANCELLED");
 
-    const cancelledAt = new Date().toISOString();
-    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
+    const cancelResult = await withBookingLock(bookingId, async () => {
+      const freshRow = await getAgendaById(bookingId);
+      if (!freshRow || isCancelledStatus(freshRow.status)) return { error: true as const, row: null };
+      const cancelledAt = new Date().toISOString();
+      await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
+      return { error: false as const, row: freshRow };
+    });
+    if (cancelResult.error) return apiFail(res, 400, "Ya está cancelada", "ALREADY_CANCELLED");
+    const confirmedRow = cancelResult.row!;
 
-    if (row.meetingDate && row.startTime && row.email) {
-      cancelReminderTimer(row.meetingDate, row.startTime, row.email);
+    if (confirmedRow.meetingDate && confirmedRow.startTime && confirmedRow.email) {
+      cancelReminderTimer(confirmedRow.meetingDate, confirmedRow.startTime, confirmedRow.email);
     }
-    if (row.googleMeetEventId) {
-      deleteGoogleMeetEvent(row.googleMeetEventId).catch(err =>
+    if (confirmedRow.googleMeetEventId) {
+      deleteGoogleMeetEvent(confirmedRow.googleMeetEventId).catch(err =>
         logger.error("Google Meet delete on admin cancel failed", "admin", err)
       );
     }
 
     sendCancellationEmail({
-      clientName: row.name || "",
-      clientEmail: row.email || "",
-      date: row.meetingDate || "",
-      startTime: row.startTime || "",
-      endTime: row.endTime || "",
-      language: row.language || null,
+      clientName: confirmedRow.name || "",
+      clientEmail: confirmedRow.email || "",
+      date: confirmedRow.meetingDate || "",
+      startTime: confirmedRow.startTime || "",
+      endTime: confirmedRow.endTime || "",
+      language: confirmedRow.language || null,
     }).catch(err => logger.error("Admin cancellation email failed:", "admin", err));
 
     notifyBookingCancelled({
       bookingId,
-      name: row.name || "",
-      email: row.email || "",
-      phone: row.phone,
-      date: row.meetingDate,
-      startTime: row.startTime,
-      endTime: row.endTime,
-      language: row.language,
+      name: confirmedRow.name || "",
+      email: confirmedRow.email || "",
+      phone: confirmedRow.phone,
+      date: confirmedRow.meetingDate,
+      startTime: confirmedRow.startTime,
+      endTime: confirmedRow.endTime,
+      language: confirmedRow.language,
       source: "admin",
     });
-    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
+    sheetsLogBookingUpdate({ bookingId, email: confirmedRow.email || "", action: "cancelled" });
     logger.info(`[admin] Booking ${bookingId} cancelled`, "admin");
     return apiOk(res, { status: "cancelled" });
   }));

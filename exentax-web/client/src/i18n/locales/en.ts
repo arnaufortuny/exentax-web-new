@@ -1858,6 +1858,7 @@ const en = {
     marketingText: "I accept communications from Exentax.",
     optional: "Optional.",
     calculating: "Calculating...",
+    sendError: "Could not send your estimate. Please check your connection and try again.",
     seeMyEstimate: "Discover how much you could save with the right structure",
     estimatedAnnualSavings: "Estimated annual savings",
     perYearWithLLC: "per year with LLC structure",

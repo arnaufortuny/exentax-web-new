@@ -1860,6 +1860,7 @@ calculator: {
     marketingText: "Ich akzeptiere Mitteilungen von Exentax.",
     optional: "Optional.",
     calculating: "Berechnung läuft...",
+    sendError: "Ihre Schatzung konnte nicht gesendet werden. Bitte uberprufen Sie Ihre Verbindung und versuchen Sie es erneut.",
     seeMyEstimate: "Entdecken Sie, wie viel Sie mit der richtigen Struktur sparen könnten",
     estimatedAnnualSavings: "Geschätzte jährliche Einsparungen",
     perYearWithLLC: "pro Jahr mit LLC-Struktur",

@@ -1860,6 +1860,7 @@ errors: {
     marketingText: "J'accepte les communications d'Exentax.",
     optional: "Optionnel.",
     calculating: "Calcul en cours...",
+    sendError: "Impossible d'envoyer votre estimation. Veuillez verifier votre connexion et reessayer.",
     seeMyEstimate: "Découvrez combien vous pourriez économiser avec la bonne structure",
     estimatedAnnualSavings: "Économies annuelles estimées",
     perYearWithLLC: "par an avec structure LLC",

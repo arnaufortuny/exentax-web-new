@@ -85,6 +85,10 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     es: "No se puede reprogramar a un horario pasado", en: "Cannot reschedule to a past time slot", fr: "Impossible de reprogrammer a un creneau passe",
     de: "Umbuchung auf einen vergangenen Zeitslot nicht moeglich", pt: "Nao e possivel reagendar para um horario passado", ca: "No es pot reprogramar a un horari passat",
   },
+  sameSlot: {
+    es: "El nuevo horario es el mismo que el actual", en: "The new time slot is the same as the current one", fr: "Le nouveau creneau est le meme que l'actuel",
+    de: "Der neue Zeitslot ist derselbe wie der aktuelle", pt: "O novo horario e o mesmo que o atual", ca: "El nou horari es el mateix que l'actual",
+  },
   alreadyCancelled: {
     es: "La reserva ya esta cancelada", en: "Booking is already cancelled", fr: "La reservation est deja annulee",
     de: "Buchung ist bereits storniert", pt: "A reserva ja esta cancelada", ca: "La reserva ja esta cancel-lada",

@@ -255,6 +255,24 @@ const slotLocks = new Map<string, Promise<unknown>>();
 const slotLockTimestamps = new Map<string, number>();
 const slotLockSettled = new Map<string, boolean>();
 
+const bookingLocks = new Map<string, Promise<unknown>>();
+export function withBookingLock<T>(bookingId: string, fn: () => Promise<T>): Promise<T> {
+  const LOCK_TIMEOUT_MS = 15_000;
+  const prev = bookingLocks.get(bookingId) ?? Promise.resolve();
+  const run = new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`Booking lock timeout for ${bookingId}`)), LOCK_TIMEOUT_MS);
+    prev.catch(() => {}).then(() => {
+      fn().then((v) => { clearTimeout(timer); resolve(v); }).catch((e) => { clearTimeout(timer); reject(e); });
+    });
+  });
+  const cleanup = run.then(() => {}, () => {});
+  bookingLocks.set(bookingId, cleanup);
+  cleanup.then(() => {
+    if (bookingLocks.get(bookingId) === cleanup) bookingLocks.delete(bookingId);
+  });
+  return run;
+}
+
 export function checkBookingRateLimit(ip: string): Promise<boolean> { return bookingLimiter.check(ip); }
 export function checkCalcRateLimit(ip: string): Promise<boolean> { return calcLimiter.check(ip); }
 export function checkNewsletterRateLimit(ip: string): Promise<boolean> { return newsletterLimiter.check(ip); }

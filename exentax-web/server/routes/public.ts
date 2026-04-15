@@ -23,7 +23,7 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock, withBookingLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { backendLabel, resolveRequestLang, escapeHtml } from "./shared";
@@ -364,6 +364,9 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = rescheduleSchema.safeParse(req.body);
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { date, startTime } = parsed.data;
+
+    if (row.meetingDate === date && row.startTime === startTime) return apiFail(res, 400, backendLabel("sameSlot", resolveRequestLang(req)), "SAME_SLOT");
+
     if (!isWeekday(date)) return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
     const madridNow = nowMadrid();
     const todayStr = todayMadridISO();
@@ -383,23 +386,27 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const newRescheduleCount = (row.rescheduleCount ?? 0) + 1;
     const nowIso = new Date().toISOString();
 
-    // Claim slot atomically: check + update date/time/status inside the lock
-    const claimResult = await withSlotLock(slotKey, async () => {
-      const booked = await isSlotBooked(date, startTime);
-      if (booked) return { error: true as const };
-      await updateAgenda(bookingId, {
-        meetingDate: date,
-        startTime,
-        endTime,
-        status: AGENDA_STATUSES.RESCHEDULED,
-        googleMeet: null,        // clear stale link immediately
-        googleMeetEventId: null,
-        rescheduleCount: newRescheduleCount,
-        lastRescheduledAt: nowIso,
-      });
-      return { error: false as const };
-    });
-    if (claimResult.error) return apiFail(res, 409, backendLabel("slotAlreadyBooked", resolveRequestLang(req)), "SLOT_TAKEN");
+    const claimResult = await withBookingLock(bookingId, () =>
+      withSlotLock(slotKey, async () => {
+        const freshRow = await getAgendaByIdAndToken(bookingId, token);
+        if (!freshRow || isCancelledStatus(freshRow.status)) return { error: "CANCELLED" as const };
+        const booked = await isSlotBooked(date, startTime);
+        if (booked) return { error: "SLOT_TAKEN" as const };
+        await updateAgenda(bookingId, {
+          meetingDate: date,
+          startTime,
+          endTime,
+          status: AGENDA_STATUSES.RESCHEDULED,
+          googleMeet: null,
+          googleMeetEventId: null,
+          rescheduleCount: newRescheduleCount,
+          lastRescheduledAt: nowIso,
+        });
+        return { error: false as const };
+      })
+    );
+    if (claimResult.error === "CANCELLED") return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
+    if (claimResult.error === "SLOT_TAKEN") return apiFail(res, 409, backendLabel("slotAlreadyBooked", resolveRequestLang(req)), "SLOT_TAKEN");
 
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
@@ -486,26 +493,35 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         if (endH < nowH || (endH === nowH && endM <= nowM)) return apiFail(res, 400, backendLabel("cannotCancelPast", resolveRequestLang(req)), "PAST_BOOKING");
       }
     }
-    const cancelledAt = new Date().toISOString();
-    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
-    if (row.meetingDate && row.startTime && row.email) {
-      cancelReminderTimer(row.meetingDate, row.startTime, row.email);
+
+    const cancelResult = await withBookingLock(bookingId, async () => {
+      const freshRow = await getAgendaByIdAndToken(bookingId, token);
+      if (!freshRow || isCancelledStatus(freshRow.status)) return { error: "ALREADY_CANCELLED" as const, row: null };
+      const cancelledAt = new Date().toISOString();
+      await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
+      return { error: false as const, row: freshRow };
+    });
+    if (cancelResult.error) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
+    const confirmedRow = cancelResult.row!;
+
+    if (confirmedRow.meetingDate && confirmedRow.startTime && confirmedRow.email) {
+      cancelReminderTimer(confirmedRow.meetingDate, confirmedRow.startTime, confirmedRow.email);
     }
-    if (row.googleMeetEventId) {
-      deleteGoogleMeetEvent(row.googleMeetEventId).catch(err =>
+    if (confirmedRow.googleMeetEventId) {
+      deleteGoogleMeetEvent(confirmedRow.googleMeetEventId).catch(err =>
         logger.error("Google Meet delete on public cancel failed", "app", err)
       );
     }
     sendCancellationEmail({
-      clientName: row.name || "",
-      clientEmail: row.email || "",
-      date: row.meetingDate || "",
-      startTime: row.startTime || "",
-      endTime: row.endTime || "",
-      language: row.language || null,
+      clientName: confirmedRow.name || "",
+      clientEmail: confirmedRow.email || "",
+      date: confirmedRow.meetingDate || "",
+      startTime: confirmedRow.startTime || "",
+      endTime: confirmedRow.endTime || "",
+      language: confirmedRow.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, endTime: row.endTime, language: row.language, ip, source: "client" });
-    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
+    notifyBookingCancelled({ bookingId, name: confirmedRow.name || "", email: confirmedRow.email || "", phone: confirmedRow.phone, date: confirmedRow.meetingDate, startTime: confirmedRow.startTime, endTime: confirmedRow.endTime, language: confirmedRow.language, ip, source: "client" });
+    sheetsLogBookingUpdate({ bookingId, email: confirmedRow.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
 

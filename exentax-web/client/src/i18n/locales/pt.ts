@@ -1864,6 +1864,7 @@ errors: {
     marketingText: "Aceito comunicações da Exentax.",
     optional: "Opcional.",
     calculating: "Calculando...",
+    sendError: "Nao foi possivel enviar a sua estimativa. Verifique a sua ligacao e tente novamente.",
     seeMyEstimate: "Descubra quanto poderia economizar com a estrutura certa",
     estimatedAnnualSavings: "Economia anual estimada",
     perYearWithLLC: "ao ano com estrutura LLC",

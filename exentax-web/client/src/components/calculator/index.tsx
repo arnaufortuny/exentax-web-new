@@ -59,6 +59,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [errors, setErrors] = useState<{ email?: string; phone?: string; privacy?: string }>({});
   const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState(false);
   const [showResults, setShowResults] = useState(false);
   const [incomeTouched, setIncomeTouched] = useState(false);
 
@@ -141,6 +142,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     if (!validate()) return;
 
     setSending(true);
+    setSendError(false);
     setShowResults(true);
     trackFormSubmit("calculator");
 
@@ -164,7 +166,10 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       privacyAccepted: privacyAccepted,
       marketingAccepted: marketingAccepted,
       language: i18n.language,
-    }).catch((e) => console.error("[calculator] submission failed", e)).finally(() => setSending(false));
+    }).catch((e) => {
+      console.error("[calculator] submission failed", e);
+      setSendError(true);
+    }).finally(() => setSending(false));
   }
 
   const getInsight = useCallback((): string => {
@@ -510,13 +515,20 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       ) : null}
 
       {showResults && (
-        <CalculatorResults
-          result={result}
-          income={income}
-          country={country}
-          regime={regime}
-          getInsight={getInsight}
-        />
+        <>
+          <CalculatorResults
+            result={result}
+            income={income}
+            country={country}
+            regime={regime}
+            getInsight={getInsight}
+          />
+          {sendError && (
+            <p className="text-red-600 text-xs text-center mt-2" data-testid="text-calculator-send-error">
+              {t("calculator.sendError")}
+            </p>
+          )}
+        </>
       )}
     </div>
   );
