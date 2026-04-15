@@ -21,24 +21,24 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Backend**: Node.js, Express 5, TypeScript
 - **Database**: PostgreSQL via Drizzle ORM (uses `db:push`, not migrations)
 - **Validation**: Zod
-- **Internationalization**: i18next (es, en, fr, de, pt, ca — 6 languages, Italian removed)
+- **Internationalization**: i18next (es, en, fr, de, pt, ca — 6 languages)
 - **Security**: Helmet CSP/HSTS, CSRF origin check, rate limiting, AES-256-GCM field encryption
 
 ### Core Architectural Patterns
-- **Admin Panel**: Token-based URL access (no login page). `ADMIN_TOKEN` env var required. Access via `/admin/agenda/:bookingId?adminToken=TOKEN`. Discord embeds include full admin links.
+- **Admin Panel**: Token-based URL access (no login page). `ADMIN_TOKEN` env var required. Access via `/admin/agenda/:bookingId?adminToken=TOKEN`. Discord admin links do NOT include the token (security hardening).
 - **Booking System**: Consultation booking with Google Meet integration, email confirmations, reminders. States: pending → rescheduled/cancelled/no_show/contacted/in_progress/closed. All date comparisons use `todayMadridISO()`. Both admin and public reschedule check blocked days.
 - **API Contract**: Uniform JSON `{ ok: true, data }` or `{ ok: false, error, code }` with Zod validation.
 - **Timezone**: All booking date logic uses `Europe/Madrid` timezone via `todayMadridISO()` and `nowMadrid()`. Never use UTC `new Date()` for date comparisons.
-- **Slot Locking**: In-memory promise chains (`withSlotLock()`) for preventing concurrent booking modifications.
+- **Slot Locking**: In-memory promise chains (`withSlotLock()`) for preventing concurrent booking modifications. Single-instance; distributed lock (Redis) needed for multi-instance scaling.
 - **Storage Error Handling**: Centralized `wrapStorageError` for consistent error reporting.
-- **Field Encryption**: AES-256-GCM encryption for sensitive fields (phone, address, etc.).
+- **Field Encryption**: AES-256-GCM encryption for sensitive fields (phone). Requires `FIELD_ENCRYPTION_KEY` (64 hex chars / 32 bytes) in production.
 - **Circuit Breaker**: Email and Google Calendar calls protected by circuit breaker pattern.
 
 ### Database Tables (schema.ts)
-- `leads` — Booking leads (note: `closed` column removed — was always false, never queried)
+- `leads` — Booking leads
 - `agenda` — Booking meetings
 - `calculadora` — Tax calculator submissions
-- `visitas` — Visitor tracking/analytics (note: `country` column removed — was always null)
+- `visitas` — Visitor tracking/analytics
 - `newsletterSuscriptores` — Newsletter subscribers
 - `diasBloqueados` — Blocked booking days
 - `legalDocumentVersions` — Legal document version tracking
@@ -49,8 +49,8 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/routes/public.ts` — All public API endpoints (booking, newsletter, calculator, SEO, sitemap)
 - `server/routes/admin.ts` — Admin booking management (token auth, reschedule, cancel, no-show, emails)
 - `server/routes/shared.ts` — App settings, i18n labels, helpers
-- `server/email.ts` — 8 email types (booking, reminder, calculator, reschedule, cancellation, noshow, followup-steps, followup-review) via Gmail API
-- `server/email-i18n.ts` — Email translations for all 8 types × 6 languages (ES/EN/FR/DE/PT/CA)
+- `server/email.ts` — 6 email types (booking confirmation, reminder, calculator, reschedule, cancellation, no-show) via Gmail API
+- `server/email-i18n.ts` — Email translations for all 6 types × 6 languages (ES/EN/FR/DE/PT/CA)
 - `server/email-layout.ts` — Email HTML components: emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote, infoCard, greenPanel, meetBlock, bulletList
 - `server/google-meet.ts` — Google Meet event creation/deletion
 - `server/storage/` — Database CRUD (scheduling.ts, marketing.ts, legal.ts, core.ts)
@@ -81,22 +81,23 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/components/layout/Navbar.tsx` — Public navbar (no client area). Link arrays memoized with useMemo.
 - `client/src/components/layout/Footer.tsx` — Public footer. Link/social arrays memoized with useMemo.
 - `client/src/components/icons.tsx` — Custom SVG icons (no external icon libs)
-- `client/src/i18n/` — Internationalization (6 languages)
+- `client/src/i18n/` — Internationalization (6 languages, 1068 keys per locale)
 - `client/src/lib/routes.ts` — Centralized route key → localized slug mapping
 
 ### Integrations
-- **Discord**: Multi-channel webhook notifications (6 channels, rate-limited queue, minimal embeds):
-  - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads, system events
+- **Discord**: Multi-channel webhook notifications (6 channels, rate-limited queue). Uses webhook native identity (name/avatar configured in Discord, no code overrides).
+  - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads
   - `DISCORD_WEBHOOK_CALCULADORA` → Calculator results with full financial data
   - `DISCORD_WEBHOOK_ACTIVIDAD` → Web visits (page, device, UTM, referrer, IP)
   - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin/client links
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
   - `DISCORD_WEBHOOK_ERRORES` → Critical server errors (fallback to registros if not set)
-  - Webhook identity: username "Exentax", avatar `/ex-icon-green.png`
   - Embed design: NO footer, NO author block, NO dividers — clean fields + timestamp only
+  - Every embed includes "Registrado" field with full Madrid timestamp (dd/MM/yyyy HH:mm:ss Europe/Madrid)
   - Field helpers: `push()` for optional fields (hidden when empty), `pushAlways()` for operational fields (always visible with "—" fallback)
-  - Colors: GREEN=#00E510 (new booking), BLUE=#3498DB (reschedule), RED=#DC2626 (cancel), ORANGE=#F39C12 (no-show), TEAL=#1ABC9C (newsletter), PURPLE=#9B59B6 (leads), RED_INTENSE=#C0392B (errors), GREY=#95A5A6 (recurring visits)
+  - Colors: GREEN=#00E510 (new booking, calculator), TEAL=#1ABC9C (reschedule, newsletter), RED=#DC2626 (cancel), ORANGE=#F39C12 (no-show), PURPLE=#9B59B6 (leads), RED_INTENSE=#C0392B (errors), GREY=#95A5A6 (recurring visits)
   - CRITICAL: NO emojis, NO icons anywhere in Discord messages — plain text field names only
+  - Admin links do NOT include admin token (security hardening)
   - Safety: field count capped at 25, field name/value truncated to Discord limits (256/1024 chars), stack traces excluded in production
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
@@ -109,6 +110,26 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
   - No-show reschedule ("No hemos podido coincidir hoy") — with rebook CTA + WhatsApp
   - Brand signature: "Exentax / Estructuración fiscal internacional / Banca, inversión y operativa global."
 
+## Security
+- **Input sanitization**: Global `autoSanitizeMiddleware` on all routes — escapes HTML, limits depth/keys, removes `__proto__`/`constructor`
+- **CSRF**: Origin/Referer check on all non-GET requests to `/api/`
+- **Rate limiting**: Per-endpoint (booking: 5/hr, calc: 10/hr, newsletter: 3/hr, global: 200/min)
+- **Admin auth**: `ADMIN_TOKEN` via header or query param, timing-safe comparison
+- **Booking tokens**: 24 random bytes (hex), timing-safe comparison for manage links
+- **Field encryption**: AES-256-GCM with unique IV per encryption, auth tag for integrity
+- **Headers**: Helmet with CSP, HSTS (production), X-Content-Type-Options, X-Frame-Options
+- **API responses**: 500 errors masked for users, full details logged server-side
+- **ID injection prevention**: Global middleware deletes `id` from request body on POST/PATCH/PUT
+
 ## External Dependencies
 - **Google APIs**: Gmail API v1 (emails), Google Calendar API (Meet events), Google Sheets API v4 (logging)
 - **Deployment**: `npm run dev` starts Express + Vite on port 5000
+
+## Production Audit (April 2026)
+- **i18n**: 1068 keys × 6 locales — 0 missing, 0 extra, 0 empty, 0 unused. PASS.
+- **TypeScript**: 0 errors across entire project.
+- **Dead CSS**: 14 unused CRM/portal classes removed from index.css.
+- **Dead code**: No dead files, functions, imports, or exports found across client and server.
+- **Security hardening**: Admin token removed from Discord webhook links.
+- **All server modules active**: discord, field-encryption, google-meet, google-sheets, google-credentials, google-utils, circuit-breaker, route-helpers, sanitize-middleware, rate-limit-store, all storage modules, all route modules, email system, static, seo-content.
+- **All client modules active**: All components, hooks, pages, libs verified in use.

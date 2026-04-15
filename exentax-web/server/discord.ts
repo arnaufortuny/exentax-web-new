@@ -23,11 +23,8 @@ import { SITE_URL, DEFAULT_TIMEZONE } from "./server-constants";
 
 // ─── Link builders ───────────────────────────────────────────────────────────
 
-const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "";
-
 function adminLink(bookingId: string): string {
-  if (!ADMIN_TOKEN) return `${SITE_URL}/admin/agenda/${bookingId}`;
-  return `${SITE_URL}/admin/agenda/${bookingId}?adminToken=${ADMIN_TOKEN}`;
+  return `${SITE_URL}/admin/agenda/${bookingId}`;
 }
 
 function clientLink(bookingId: string, manageToken?: string | null): string | null {
