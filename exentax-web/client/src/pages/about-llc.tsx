@@ -322,7 +322,6 @@ function ObligacionesSection() {
 
 const stateKeys = ["newMexico", "wyoming", "delaware"];
 const stateAdvantageKeys = ["nmAdvantages", "wyAdvantages", "deAdvantages"];
-const statePriceValues = [1099, 1399, 1699];
 
 function EstadosSection() {
   const { t } = useTranslation();
@@ -371,9 +370,7 @@ function EstadosSection() {
                   <div className="text-center mb-6">
                     <h3 className="font-heading font-bold text-2xl text-[var(--text-1)] mb-2">{t(`llcUsPage.${key}`)}</h3>
                     <div className="flex items-baseline justify-center gap-1 mb-1">
-                      <span className="text-[var(--text-3)] text-sm">{t("llcUsPage.from")}</span>
-                      <span className="font-heading font-bold text-4xl text-[#00E510]">{statePriceValues[i].toLocaleString()}</span>
-                      <span className="text-[var(--text-2)] text-lg">€</span>
+                      <span className="text-[var(--text-2)] text-sm italic">{t("llcUsPage.stateConsult")}</span>
                     </div>
                   </div>
                   <div className="h-px bg-gradient-to-r from-transparent via-[var(--border-subtle)] to-transparent mb-6" />

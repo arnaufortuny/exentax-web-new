@@ -91,7 +91,7 @@ export function useStatsHome(): StatDef[] {
 export function useStatsPrecios(): StatDef[] {
   const { t } = useTranslation();
   return [
-    { prefix: "", suffix: "€", target: 1099, duration: 1600, label: t("heroStats.pricingFrom") },
+    { prefix: "+", target: 8, duration: 1200, label: t("heroStats.countriesLabel") },
     { prefix: "", suffix: "", target: 0, duration: 800, label: t("heroStats.noCosts") },
     { value: "5.0", suffix: "★", label: t("heroStats.ratingLabel"), href: SOCIAL.TRUSTPILOT },
   ];

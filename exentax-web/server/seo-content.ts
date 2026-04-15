@@ -753,9 +753,9 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li>Todo 100% remoto — sin necesidad de viajar a Estados Unidos</li>
 <li>Compliance fiscal continuo — nunca estás solo</li>
 </ul>
-<h2>Servicios de constitución de LLC en Estados Unidos</h2>
+<h2>Estructuración fiscal con LLC en Estados Unidos</h2>
 <ul>
-<li>LLC Nuevo México — El más económico, sin Annual Report</li>
+<li>LLC Nuevo México — Estructura eficiente, sin Annual Report</li>
 <li>LLC Wyoming — Máxima privacidad y anonimato</li>
 <li>LLC Delaware — Mejor marco legal para inversores</li>
 </ul>
@@ -797,14 +797,14 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li>Credibilidad internacional con una empresa constituida en EE.UU.</li>
 <li>Sin necesidad de residencia ni visa americana</li>
 </ul>
-<h2>Mejores estados para abrir una LLC en 2026</h2>
-<h3>Nuevo México — El más económico para abrir una LLC</h3>
-<p>Sin Annual Report, sin impuesto estatal sobre ingresos, la opción más económica para constituir y mantener una LLC. Ideal para quienes buscan el menor coste total de operación.</p>
+<h2>Mejores estados para estructurar tu LLC en 2026</h2>
+<h3>Nuevo México — Estructura eficiente para emprendedores digitales</h3>
+<p>Sin Annual Report, sin impuesto estatal sobre ingresos. Estructura directa y eficiente para operar internacionalmente. Ideal para profesionales que priorizan simplicidad operativa.</p>
 <h3>Wyoming — Máxima privacidad para tu LLC</h3>
 <p>Sin impuesto estatal, máximo anonimato (los miembros no son públicos), protección de activos superior y leyes empresariales modernas. Perfecto para quienes priorizan la privacidad.</p>
 <h3>Delaware — Mejor marco legal y Court of Chancery</h3>
 <p>Court of Chancery especializado en derecho empresarial, ideal para startups que buscan inversión. Recomendado si planeas levantar capital o trabajar con inversores estadounidenses.</p>
-<h2>Cómo abrir una LLC en Estados Unidos paso a paso</h2>
+<h2>Cómo estructurar tu LLC en Estados Unidos paso a paso</h2>
 <ol>
 <li>Diagnóstico fiscal estratégico  — Analizamos tu situación fiscal, ingresos y país de residencia</li>
 <li>Elección de estado — Recomendación personalizada entre Nuevo México, Wyoming y Delaware</li>
@@ -849,10 +849,10 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 </article>`,
 
   "our_services": `<article>
-<h1>Planes y Tarifas — LLC en Estados Unidos para autónomos y freelancers</h1>
-<h2>Constitución de LLC — Precio cerrado, sin sorpresas</h2>
+<h1>Estructuración fiscal internacional — LLC en Estados Unidos</h1>
+<h2>Estructura tu LLC con un equipo especializado</h2>
 <h3>LLC Nuevo México</h3>
-<p>El estado más económico para abrir una LLC. Sin Annual Report ante el estado, sin impuesto estatal. Incluye: Articles of Organization, Operating Agreement, EIN, agente registrado 12 meses y apertura de cuenta bancaria Mercury. El mantenimiento anual más bajo del mercado.</p>
+<p>Estructura eficiente sin complejidad innecesaria. Sin Annual Report ante el estado, sin impuesto estatal. Incluye: Articles of Organization, Operating Agreement, EIN, agente registrado 12 meses y apertura de cuenta bancaria Mercury.</p>
 <h3>LLC Wyoming</h3>
 <p>Máxima privacidad y anonimato. Sin impuesto estatal. Protección de activos superior. Incluye: Articles of Organization, Operating Agreement, EIN, agente registrado 12 meses y apertura de cuenta Mercury. Ideal para quienes valoran la discreción.</p>
 <h3>LLC Delaware</h3>
@@ -1000,7 +1000,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Por qué tantos freelancers eligen una LLC?</h2>
 <ul><li>Fiscalidad optimizada: del 40-47% hasta un 0%</li><li>Protección patrimonial</li><li>Banca en dólares con Mercury</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% remoto</li></ul>
 <h2>Mejores estados para tu LLC</h2>
-<p>Nuevo México (más económico), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
+<p>Nuevo México (estructura eficiente), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
 <p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
 </article>`,
 
@@ -1020,7 +1020,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h1>Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC</h1>
 <p>Los tres estados más populares para constituir una LLC como no residente. Comparamos costes, privacidad, burocracia y para quién encaja cada uno.</p>
 <h2>Nuevo México</h2>
-<p>El más económico. Sin Annual Report, sin impuesto estatal. Ideal para freelancers que buscan la opción más directa.</p>
+<p>Estructura directa y eficiente. Sin Annual Report, sin impuesto estatal. Ideal para freelancers que buscan operar sin complejidad innecesaria.</p>
 <h2>Wyoming</h2>
 <p>Máxima privacidad. Datos de miembros no son públicos. Annual Report de $60/año. Protección de activos superior.</p>
 <h2>Delaware</h2>
