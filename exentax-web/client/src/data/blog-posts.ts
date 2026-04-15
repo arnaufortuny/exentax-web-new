@@ -77,7 +77,7 @@ Una de las grandes ventajas de tener una LLC es acceder al ecosistema financiero
 
 ### Tarjetas corporativas
 
-- **Wallester**: Plataforma de tarjetas corporativas virtuales y físicas vinculadas a tu LLC. Permite emitir tarjetas para gastos específicos (publicidad, software, suscripciones) con límites personalizados. Muy popular entre emprendedores europeos por sus integraciones y control granular del gasto.
+- **Wallester**: Plataforma de tarjetas corporativas virtuales y físicas vinculadas a tu LLC, con IBAN en euros para clientes Exentax. Permite emitir tarjetas para gastos específicos (publicidad, software, suscripciones) con límites personalizados. Muy popular entre emprendedores europeos por sus integraciones y control granular del gasto.
 - Las tarjetas de débito de Mercury y Relay también funcionan perfectamente para gastos operativos del día a día.
 
 ### Pasarelas de pago
@@ -778,7 +778,7 @@ Si tu LLC mantiene capital entre distribuciones (la mayoría de freelancers acum
 
 ### Wallester: tarjetas corporativas con control total
 
-**Wallester** es un emisor de tarjetas corporativas (virtuales y físicas) que te permite controlar cada gasto de tu LLC con límites individuales, categorización automática y revocación instantánea. Es la herramienta perfecta para mantener la separación financiera: cada gasto empresarial va a la tarjeta Wallester, nunca a tu tarjeta personal. Si trabajas con colaboradores, puedes emitirles tarjetas con límites específicos. Todo queda documentado.
+**Wallester** es un emisor de tarjetas corporativas (virtuales y físicas) que te permite controlar cada gasto de tu LLC con límites individuales, categorización automática y revocación instantánea. Para clientes Exentax, Wallester proporciona un IBAN en euros, facilitando la recepción y envío de pagos en zona euro directamente desde tu estructura LLC. Es la herramienta perfecta para mantener la separación financiera: cada gasto empresarial va a la tarjeta Wallester, nunca a tu tarjeta personal. Si trabajas con colaboradores, puedes emitirles tarjetas con límites específicos. Todo queda documentado.
 
 ### Wise Business: transferencias internacionales al tipo de cambio real
 

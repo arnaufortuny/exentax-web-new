@@ -48,15 +48,35 @@ Os três estados mais habituais para não residentes são:
 
 ## O ecossistema fintech: banca, pagamentos e ferramentas
 
-Uma das grandes vantagens de ter uma LLC é aceder ao ecossistema financeiro americano. Isto inclui:
+Uma das grandes vantagens de ter uma LLC é aceder ao ecossistema financeiro americano, o mais avançado do mundo para negócios digitais. Não estamos a falar apenas de uma conta bancária: é um ecossistema completo de banca, tesouraria, cartões corporativos, pagamentos e conversão de divisas que funciona sem fricções.
 
-- **Mercury** — Conta bancária digital com \$0 comissões em tudo: manutenção, transferências nacionais e internacionais, ACH, cartão de débito. O teu dinheiro está custodiado no Column NA (banco com licença federal e seguro FDIC até \$250,000).
-- **Relay** — Outra fintech excelente com até 20 sub-contas gratuitas. Os depósitos são custodiados no Thread Bank. Oferece links de pagamento processados por Adyen, ideal para cobrar clientes de forma rápida e profissional.
-- **Wise Business** — EMI (Instituição de Dinheiro Eletrónico) perfeita para transferências internacionais ao câmbio real. Não é um banco, mas complementa perfeitamente o Mercury.
-- **Stripe** — Gateway de pagamentos para cobrar com cartão, subscrições e checkout. Funciona sem problema com a tua LLC.
-- **PayPal Business** — Para clientes que preferem pagar por PayPal. Requer ITIN do proprietário.
+### Banca e tesouraria
 
-Na Exentax ajudamos-te a abrir a tua conta bancária e configurar todo o ecossistema de pagamentos como parte do processo de constituição.
+- **Mercury** — Conta bancária digital com \$0 comissões em tudo: manutenção, transferências nacionais e internacionais, ACH, cartão de débito. O teu dinheiro está custodiado no Column NA (banco com licença federal e seguro FDIC até \$250,000). É a plataforma mais utilizada pelos nossos clientes para a operação diária.
+- **Relay** — Outra fintech excelente com até 20 sub-contas gratuitas, ideal para organizar o teu dinheiro por categorias (operacional, impostos, reservas). Os depósitos são custodiados no Thread Bank. Oferece links de pagamento processados por Adyen, perfeito para cobrar clientes de forma rápida e profissional.
+- **Slash** — Plataforma de tesouraria empresarial que permite gerir o capital da tua LLC de forma inteligente. Ideal para empresas que querem otimizar a gestão do capital disponível, com contas que geram rendimento sobre o saldo enquanto manténs liquidez imediata.
+- **Wise Business** — EMI (Instituição de Dinheiro Eletrónico) perfeita para transferências internacionais ao câmbio real (mid-market rate). Não é um banco, mas complementa perfeitamente o Mercury para conversão de divisas e pagamentos a fornecedores internacionais.
+- **Revolut Business** — Conta multi-divisa com câmbio competitivo durante a semana, cartões para a equipa e ferramentas de gestão de despesas. Útil como conta secundária e para operações em múltiplas moedas.
+
+### Cartões corporativos
+
+- **Wallester** — Plataforma de cartões corporativos virtuais e físicos vinculados à tua LLC, com IBAN em euros para clientes Exentax. Permite emitir cartões para despesas específicas (publicidade, software, subscrições) com limites personalizados. Muito popular entre empreendedores europeus pelas suas integrações e controlo granular do gasto.
+- Os cartões de débito do Mercury e Relay também funcionam perfeitamente para despesas operacionais do dia a dia.
+
+### Gateways de pagamento
+
+- **Stripe** — O gateway líder para cobrar com cartão, subscrições, checkout e faturação automática. Aceita mais de 135 divisas. Funciona sem restrições com a tua LLC americana.
+- **PayPal Business** — Para clientes que preferem pagar por PayPal. Amplamente reconhecido com proteção ao vendedor incluída. Requer ITIN do proprietário.
+- **Adyen** — Processador de pagamentos global utilizado por empresas como Uber, Spotify e eBay. Se o teu negócio tem volume significativo, Adyen oferece tarifas muito competitivas e suporte para métodos de pagamento locais em mais de 30 países.
+- **DoDo Payments** — Alternativa emergente que atua como Merchant of Record, encarregando-se automaticamente do IVA/GST internacional. Ideal se vendes produtos digitais a consumidores finais em múltiplos países.
+
+### Investimento e trading
+
+- **Interactive Brokers** — O broker mais completo para investir a partir da tua LLC. Acesso a ações, ETFs, opções, futuros, forex e obrigações em mais de 150 mercados mundiais. Conta empresarial com a tua LLC para separar investimentos pessoais dos do negócio. Comissões muito competitivas e plataforma profissional.
+- **Tradovate** — Especializado em futuros (futures trading). Se a tua LLC opera em mercados de derivados, Tradovate oferece uma plataforma moderna com comissões fixas e acesso ao CME, CBOT, NYMEX e COMEX.
+- **Kraken** — Exchange de criptomoedas com conta corporativa para a tua LLC. Acesso a Bitcoin, Ethereum, stablecoins e mais de 200 criptoativos com liquidez institucional e cumprimento regulatório sólido.
+
+Na Exentax desenhamos todo este ecossistema financeiro como parte da tua estrutura completa. Não apenas constituímos a tua LLC — configuramos a banca (Mercury como conta principal, Relay como reforço), os gateways de pagamento (Stripe, PayPal), a conversão de divisas (Wise Business) e aconselhamos-te sobre cartões corporativos (Wallester), tesouraria (Slash) e investimento (Interactive Brokers) segundo o teu perfil. Tudo integrado, tudo operacional desde o primeiro dia.
 
 ## Quanto custa constituir e manter uma LLC?
 
@@ -177,6 +197,26 @@ Se tens uma LLC e não apresentaste o Form 5472 de anos anteriores, não entres 
 
 Na Exentax ajudamos clientes que vêm de outros serviços (ou que geriam a sua LLC sozinhos) a regularizar a sua situação. O importante é agir — quanto antes te puseres em dia, melhor.
 
+## O que as entidades financeiras pedem do Operating Agreement
+
+Quando abres conta na Mercury, configuras Stripe ou solicitas qualquer outro serviço financeiro para a tua LLC, vão pedir-te uma cópia do Operating Agreement. O que verificam:
+
+- Que és efetivamente o member/owner da LLC
+- A percentagem de propriedade
+- A estrutura de gestão (member-managed vs manager-managed)
+- As assinaturas
+
+Um Operating Agreement bem redigido acelera estas verificações. Um documento genérico ou inconsistente com os outros documentos (Articles of Organization, EIN Letter) pode atrasar ou bloquear a abertura de contas.
+
+## Erros comuns com o Operating Agreement
+
+Os erros mais frequentes que constatamos:
+
+- **Usar um template da internet sem personalizar**: os templates genéricos não refletem a tua situação específica e podem conter cláusulas contraditórias
+- **Não assinar**: um Operating Agreement não assinado não tem qualquer valor
+- **Inconsistência com os Articles**: se o nome da LLC ou do member não corresponde exatamente ao que consta nos Articles of Organization, as entidades financeiras detetam
+- **Não atualizar**: se adicionas um sócio, mudas a estrutura de gestão ou alteras as percentagens, o Operating Agreement deve refletir essas alterações
+
 ## O que deves reter
 
 O Form 5472 (juntamente com o Form 1120 pro-forma) é um trâmite informativo anual que toda LLC com dono estrangeiro deve apresentar. Não implica pagamento de impostos. Não é complicado se o gere alguém que sabe o que faz. E na Exentax tratamos disto como parte da manutenção anual da tua LLC.
@@ -260,6 +300,26 @@ Se precisas de proteção de ativos reforçada: **Wyoming.**
 Se vais levantar investimento de VCs: **Delaware** (mas provavelmente como C-Corp, não como LLC).
 
 Na Exentax recomendamos-te o estado que realmente faz sentido para o teu caso na assessoria gratuita. Não vendemos um estado por defeito — desenhamos a estrutura que encaixa contigo. Agenda a tua assessoria e falamos.
+
+## O que o estado NÃO muda
+
+Independentemente do estado que escolhas, há coisas que não variam:
+
+- **A tributação federal é a mesma**: \$0 de imposto federal para Disregarded Entity de não residente, nos três estados
+- **O EIN é o mesmo tipo de número**: é emitido pelo IRS, não pelo estado
+- **As obrigações fiscais federais são idênticas**: Form 5472, Form 1120, BOI Report
+- **O acesso à banca é o mesmo**: Mercury, Relay, Wise aceitam LLCs de qualquer estado
+- **Os gateways de pagamento não discriminam por estado**: Stripe, PayPal, Adyen funcionam igual
+
+A escolha do estado afeta principalmente o custo de manutenção, o nível de privacidade nos registos públicos e a proteção jurídica em caso de disputas. Para 80% dos freelancers digitais, estas diferenças são menores comparadas com a poupança fiscal e operacional que a LLC proporciona independentemente do estado.
+
+## O erro de se paralisar pela escolha do estado
+
+Vemos isto com frequência: freelancers que passam semanas a comparar estados, a ler fóruns, a ver vídeos, e no final não fazem nada. Entretanto, continuam a pagar quotas elevadas, a tributar à taxa máxima, e a operar sem proteção patrimonial.
+
+A realidade é que qualquer um dos três estados funciona bem. A diferença entre Novo México e Wyoming é marginal comparada com a diferença entre ter uma LLC e não ter.
+
+Na Exentax recomendamos-te o estado que encaixa com o teu perfil concreto. Não vendemos um estado por defeito. Analisamos a tua situação e dizemos-te qual faz mais sentido para ti.
 
 Não sabes que estado escolher para a tua LLC? Agenda a tua assessoria gratuita e recomendamos-te o que melhor encaixa com o teu negócio, o teu país de residência e os teus objetivos.`,
 
@@ -630,6 +690,26 @@ Uma vez aprovada, a tua conta está pronta. Podes enviar e receber transferênci
 - **Inconsistências.** Se o nome no passaporte não coincide com o do Operating Agreement, ou os endereços não batem certo.
 - **País de alto risco.** Embora a Mercury aceite não residentes da maioria dos países, alguns têm restrições adicionais.
 
+## Para além da conta bancária: a operação financeira completa
+
+A Mercury é a base, mas uma LLC bem estruturada precisa de mais do que uma conta bancária. Estas são as plataformas que complementam a Mercury para criar uma operação financeira profissional:
+
+### Slash: tesouraria corporativa
+
+Se a tua LLC mantém capital entre distribuições (a maioria dos freelancers acumula 2-3 meses de rendimentos), a **Slash** permite que essa liquidez gere rendimento. Funciona como camada de gestão de tesouraria, colocando o excedente em instrumentos de baixo risco sem bloquear o acesso ao capital.
+
+### Wallester: cartões corporativos com IBAN euro e controlo total
+
+A **Wallester** é um emissor de cartões corporativos (virtuais e físicos) que te permite controlar cada gasto da tua LLC com limites individuais, categorização automática e revogação instantânea. Para clientes Exentax, a Wallester fornece IBAN em euros, facilitando a receção e envio de pagamentos na zona euro diretamente a partir da tua estrutura LLC. Se trabalhas com colaboradores, podes emitir-lhes cartões com limites específicos.
+
+### Wise Business: transferências internacionais à taxa de câmbio real
+
+A **Wise Business** é uma EMI, não um banco. A sua vantagem principal: transferências internacionais à taxa mid-market (a real, sem margem oculta). Se faturas em dólares mas tens despesas em euros ou outras moedas, a Wise Business poupa-te o diferencial cambial que os bancos tradicionais cobram.
+
+### Revolut Business: multi-moeda e cartões para equipa
+
+A **Revolut Business** é outra EMI com funcionalidades multi-moeda poderosas. Taxa de câmbio competitiva durante a semana, cartões para membros da equipa e uma app com análise de gastos.
+
 ## Alternativas à Mercury
 
 A Mercury é a nossa primeira recomendação, mas não é a única opção:
@@ -797,13 +877,22 @@ A LLC faz sentido se cumpres pelo menos dois destes critérios:
 - Negócios com menos de 20.000€/ano de faturação (a poupança não justifica os custos).
 - Profissões reguladas que exigem inscrição na ordem local (advogados, médicos, arquitetos com projetos nacionais).
 
+## A infraestrutura financeira que o teu trabalho independente não te dá
+
+Para além da poupança fiscal, a LLC abre-te o acesso a ferramentas financeiras que como trabalhador independente simplesmente não existem:
+
+- **Banca sem comissões:** Mercury (Column NA, FDIC, \$0 em wires nacionais e internacionais) ou Relay (Thread Bank, 20 sub-contas gratuitas)
+- **Tesouraria corporativa:** Slash gera rendimento sobre o teu capital parado — o dinheiro que reservas para impostos ou manténs como fundo operacional trabalha para ti em vez de desvalorizar
+- **Cartões corporativos:** Wallester permite-te emitir cartões virtuais e físicos com limites e controlo granular, com IBAN em euros para clientes Exentax
+- **Multi-moeda real:** Wise Business à taxa de câmbio mid-market e Revolut Business com contas multi-moeda, sem as margens ocultas dos bancos tradicionais
+- **Gateways de pagamento globais:** Stripe, Adyen, DoDo Payments (Merchant of Record que gere IVA automaticamente)
+- **Investimento corporativo:** Interactive Brokers (150+ mercados), Tradovate (futuros CME/CBOT/NYMEX), Kraken (200+ cripto-ativos com liquidez institucional)
+
 ## Na Exentax tratamos de tudo
 
-Se decides dar o passo, na Exentax gerimos a constituição completa da tua LLC, a obtenção do EIN, a abertura de conta bancária na Mercury, e todo o compliance anual (Form 5472, BOI Report, renovação de agente registado). Tu dedicas-te ao teu negócio, nós a que a tua estrutura esteja impecável.
+Se decides dar o passo, na Exentax não nos limitamos a criar a tua LLC e obter o teu EIN — desenhamos a tua estrutura completa: abertura de conta bancária, configuração de tesouraria com Slash, cartões corporativos Wallester, integração com Stripe ou o gateway que necessites, e todo o compliance anual (Form 5472, BOI Report, renovação de agente registado). Não somos vendedores de LLCs: somos designers de estruturas.
 
-Queres saber exatamente quanto pouparias com a tua faturação? Usa a nossa calculadora fiscal gratuita ou agenda uma assessoria de 30 minutos. Damos-te números reais, não promessas.
-
-Queres saber quanto poderias poupar deixando de ser trabalhador independente/autônomo em Espanha e operando com uma LLC? Agenda a tua assessoria gratuita e analisamos o teu caso concreto.`,
+Queres saber exatamente quanto pouparias com a tua faturação? Usa a nossa calculadora fiscal gratuita ou agenda uma assessoria de 30 minutos. Damos-te números reais, não promessas.`,
 
 
 
@@ -1077,6 +1166,20 @@ A redução de 40% até 0% já é uma poupança enorme. Para alguém que fatura 
 5. **A legislação muda.** Os regimes fiscais favoráveis não são eternos. Dubai introduziu imposto corporativo em 2023. Portugal restringiu o NHR em 2024. Deve estar preparado para se adaptar.
 
 ## Qual é o cenário mais realista?
+
+Para a maioria dos freelancers lusófonos: redução significativa com declaração parcial. Não pagas zero, mas pagas muito menos do que hoje, e fá-lo num enquadramento legal, documentado e sustentável.
+
+## As ferramentas financeiras que acompanham os 0%
+
+Otimizar a fiscalidade não serve de nada se não tens a infraestrutura para gerir o dinheiro de forma eficiente. As ferramentas que complementam a tua estrutura LLC:
+
+- **Mercury**: conta bancária sem comissões, FDIC, \$0 em transferências
+- **Wise Business**: conversão de divisas à taxa mid-market real
+- **Slash**: rendimento sobre o capital parado da tua LLC
+- **Wallester**: cartões corporativos com IBAN euro e controlo granular de despesas
+- **Stripe / Adyen / DoDo Payments**: gateways de pagamento para receber de qualquer parte do mundo
+
+A combinação de fiscalidade otimizada + ferramentas financeiras de primeiro nível é o que faz a verdadeira diferença. Não se trata apenas de pagar menos impostos — trata-se de operar com uma infraestrutura completa.
 
 Para a maioria dos freelancers que faturam entre 30.000€ e 150.000€ por ano:
 
@@ -1450,6 +1553,25 @@ Dito isto, como não residente é a única morada física que tem nos EUA, por i
 - Registos estaduais da LLC
 - Morada perante o IRS
 - Morada na candidatura ao Mercury (como morada da LLC)
+
+## O aviso sobre agentes baratos
+
+Existem serviços de Registered Agent a 49\$/ano ou até menos. O problema não é o preço, mas o que falta:
+
+- **Sem notificação:** Recebes o correio físico semanas depois de chegar, ou nem recebes
+- **Sem digitalização:** Tens de pedir que te enviem os documentos por correio (dentro dos EUA)
+- **Renovação não automática:** Se te esqueces de renovar, a tua LLC perde o estatuto. O processo de reinstatement custa mais e demora mais
+- **Sem suporte:** Se o IRS envia uma notificação urgente, ninguém te avisa
+
+Um Registered Agent fiável não é um luxo. É um seguro operacional. Os \$50-100 de diferença entre um serviço mínimo e um serviço profissional são negligenciáveis face ao custo de um problema não detetado a tempo.
+
+## A conexão entre Registered Agent e acesso bancário
+
+Algo que poucos mencionam: Mercury, Relay e outras fintechs verificam a consistência da morada da tua LLC. A morada do Registered Agent é a que consta nos Articles of Organization, no pedido de EIN e no pedido bancário.
+
+Se o teu Registered Agent muda de morada (ou desaparece), essa inconsistência pode desencadear uma revisão de compliance bancário. Vimos casos em que uma mudança de Registered Agent não comunicada à Mercury provocou um congelamento temporário da conta.
+
+**A lição:** o Registered Agent não é apenas um recetor de correio. É um nó na rede de identidade da tua LLC. Cada entidade — estado, IRS, banco — espera ver a mesma morada.
 
 ## Como o gerimos na Exentax
 
@@ -2148,9 +2270,41 @@ A Wise oferece um cartão de débito (físico e virtual) vinculado à sua conta.
 | Velocidade | 1-2 dias | 2-5 dias |
 | Transparência | Vê tudo antes de enviar | Descobre o custo depois |
 
-Se opera uma LLC e move dinheiro entre países, Wise Business é uma ferramenta que deveria ter configurada. Agende uma assessoria gratuita e ajudamo-lo a otimizar o fluxo de dinheiro entre a sua LLC e a sua conta pessoal.
+Se opera uma LLC e move dinheiro entre países, Wise Business é uma ferramenta que deveria ter configurada.
 
-Quer usar Wise Business como complemento à sua conta principal no Mercury? Agende a sua assessoria gratuita e ajudamo-lo a configurar o seu ecossistema de pagamentos completo.`,
+## Erros comuns com Wise Business
+
+### Usar Wise como conta principal da LLC
+
+Os rendimentos da tua LLC (pagamentos de clientes, depósitos Stripe) devem ir para a Mercury. A Wise serve para conversão e transferências internacionais, não como conta principal. Os fundos na Wise não estão segurados pela FDIC.
+
+### Não verificar os limites de transferência
+
+Consoante a moeda e o corredor, a Wise impõe limites de transferência. Se precisas mover \$50.000 de uma vez, verifica primeiro os limites aplicáveis ao teu corredor. Ultrapassá-los pode bloquear a transação durante dias.
+
+### Confundir os dados bancários da Wise com os da Mercury
+
+A Wise dá-te dados bancários (routing number, número de conta) para receber dinheiro. Estes são diferentes dos da Mercury. Certifica-te de que dás os dados corretos ao interlocutor certo.
+
+## Wise no contexto da tua operação financeira
+
+A Wise ocupa um papel específico no teu stack financeiro:
+
+1. **Rendimentos e tesouraria:** Mercury gere as tuas cobranças, pagamentos a fornecedores e capital operacional
+2. **Conversão internacional:** Wise converte USD para EUR, MXN, COP à taxa real quando precisas retirar benefícios
+3. **Gastos corporativos:** Podes usar cartões Wise para gastos pontuais em moedas locais onde a Wise oferece melhor taxa
+
+Cada ferramenta tem a sua função. O erro mais comum é tentar que uma só plataforma faça tudo. O resultado é sempre pagar mais em comissões ocultas ou obter pior taxa de câmbio.
+
+## Casos de uso reais
+
+**Freelancer em Espanha que fatura em USD:** O teu cliente americano paga na tua Mercury por ACH. No final do mês, transferes a tua distribuição para a Wise, convertes para EUR à taxa real e envias para a tua conta espanhola por SEPA. Custo total da conversão: 0,4-0,6%. Com um banco tradicional pagarias 2-3%.
+
+**Consultor na Colômbia que fatura em EUR e USD:** Recebes USD na Mercury e EUR na tua conta Wise europeia. Convertes ambas para COP quando precisas e envias para a tua conta colombiana. A Wise dá-te a taxa mid-market, o que pode poupar milhares de pesos por cada \$1.000 convertidos face à taxa do teu banco local.
+
+**SaaS com clientes globais:** Os teus clientes pagam pelo Stripe (que deposita na Mercury). A tua equipa de freelancers na América Latina recebe pela Wise nas suas moedas locais. O fluxo é limpo, documentado e eficiente.
+
+Queres usar Wise Business como complemento à tua conta principal na Mercury? Agenda a tua assessoria gratuita e ajudamos-te a configurar o teu fluxo de divisas para pagares o mínimo possível em cada conversão.`,
 
   "pasarelas-pago-llc-stripe-paypal-dodo": `Uma das maiores vantagens de ter uma LLC nos Estados Unidos é o acesso às melhores plataformas de pagamento do mundo. Enquanto muitos países têm restrições ou comissões elevadas, com uma LLC americana pode cobrar em praticamente qualquer moeda com as ferramentas mais avançadas.
 
@@ -2190,6 +2344,17 @@ PayPal continua a ser a plataforma mais reconhecida pelos consumidores. Com a su
 
 ### Ideal para
 Freelancers que trabalham com clientes que preferem PayPal, serviços B2B
+
+## Adyen
+
+### Vantagens
+- Processamento unificado: aquisição, gateway e gestão de risco numa única plataforma
+- Métodos de pagamento locais (iDEAL, Bancontact, Boleto, OXXO...)
+- Analítica avançada e gestão de fraude
+- Alimenta os links de pagamento do Relay — se usas Relay como conta bancária, os teus links de faturação são processados via Adyen
+
+### Ideal para
+Empresas com volume significativo, marketplaces, e-commerce enterprise
 
 ## Dodo Payments
 
@@ -2992,14 +3157,46 @@ As fintechs resolveram este problema. Mercury, Relay e Wise permitem abrir conta
 | Wires envio | \$0 | \$0 doméstico | N/A | Limitado |
 | Wires recebimento | \$0 | \$0 doméstico | N/A | Limitado |
 
+## O erro de tentar abrir conta num banco tradicional
+
+Vemos isto constantemente: freelancers que perdem semanas a tentar abrir conta no Chase ou Bank of America. O resultado é quase sempre:
+
+1. Viajam até uma agência nos EUA (ou pedem a alguém para ir)
+2. O funcionário não sabe o que fazer com uma LLC de um não residente
+3. Pedem-lhe um SSN (que não tem) ou documentação que não se aplica
+4. Depois de semanas, dizem-lhe que não é possível abrir a conta
+
+Os bancos tradicionais americanos estão desenhados para residentes. A sua infraestrutura, formulários, processos de compliance — tudo está pensado para alguém com morada americana e SSN. As fintechs nasceram para resolver exatamente este problema.
+
+## O que muita gente não entende sobre a Wise
+
+A Wise é uma ferramenta excelente, mas é preciso entender o que é e o que não é:
+
+- **Não é um banco.** É uma EMI (Instituição de Dinheiro Eletrónico). Sem licença bancária nem seguro FDIC.
+- **Não deveria ser a tua conta principal.** Os fundos estão segregados (safeguarding), mas não segurados como num banco.
+- **A sua força é a conversão.** A taxa de câmbio mid-market da Wise é a taxa real interbancária. Não aplica margem adicional (apenas cobra uma comissão transparente). Para converter USD para EUR, é difícil encontrar melhor.
+- **Os limites da Wise variam.** Consoante a moeda e o corredor de pagamento, existem limites de transferência. Para montantes elevados, convém verificá-los antes.
+
+## Onde encaixam a Slash e a Wallester
+
+Nem tudo na banca da tua LLC se resume a contas à ordem. Há duas camadas adicionais que a maioria ignora:
+
+A **Slash** cobre a camada de tesouraria. Se a tua LLC acumula capital entre cobranças e distribuições, esse dinheiro pode gerar rendimento em vez de ficar parado na Mercury. A Slash coloca o excedente em instrumentos de baixo risco, mantendo a liquidez acessível.
+
+A **Wallester** cobre a camada de gastos e fornece IBAN em euros para clientes Exentax. Emite cartões corporativos (virtuais e físicos) com controlo individual por cartão. Um cartão para cada subscrição, cada fornecedor, cada categoria de gasto. Se trabalhas com colaboradores, podes emitir-lhes cartões com limites específicos. Tudo fica documentado e categorizado.
+
 ## Qual recomendamos?
 
 Para a maioria das LLCs de não residentes, a combinação ideal é:
 
-1. **Mercury** como conta principal — rendimentos da LLC, gastos operacionais, tesouraria
-2. **Wise Business** como ferramenta de conversão — receber em outras moedas, converter à melhor taxa de câmbio, enviar para sua conta pessoal
+1. **Mercury** como conta principal: rendimentos, gastos operacionais, tesouraria
+2. **Wise Business** como camada de conversão: receber noutras moedas, converter à taxa real, enviar para a tua conta pessoal
+3. **Slash** como camada de tesouraria: rendimento sobre capital parado
+4. **Wallester** como camada de gastos: cartões corporativos com controlo granular
 
-Esta combinação oferece o melhor dos dois mundos: segurança FDIC, acesso a gateways de pagamento, e conversão de moedas eficiente.
+Esta combinação dá-te segurança FDIC, acesso a gateways de pagamento, conversão de moedas eficiente e controlo total sobre tesouraria e gastos.
+
+Na Exentax configuramos esta estrutura como parte do processo de constituição. Não te deixamos com uma LLC e uma conta — montamos o ecossistema financeiro completo para que comeces a operar desde o primeiro dia.
 
 Precisa de ajuda para escolher e configurar suas contas? Agende uma assessoria gratuita e orientamos conforme o seu caso.
 
@@ -4364,6 +4561,29 @@ Mercury usa **Column NA** (Column National Association) como banco custódio. É
 
 Mercury simplificou enormemente a due diligence para LLCs de não residentes. A sua equipa está familiarizada com esta estrutura e o processo é 100% digital. Os wires nacionais e internacionais são \$0 — um detalhe que faz a diferença quando precisas movimentar fundos internacionalmente.
 
+## O que acontece quando a due diligence falha
+
+Se a Mercury (ou qualquer outra fintech) rejeitar a tua candidatura, as razões mais comuns são:
+
+- **Atividade não suportada**: certos setores (crypto, jogos de azar, CBD) têm restrições adicionais
+- **Documentação inconsistente**: a informação do formulário não coincide com os documentos fornecidos
+- **Descrição da atividade vaga**: "consultoria" sem mais detalhes não é suficiente
+- **Histórico do endereço do Registered Agent**: se o agente tem um histórico de LLCs problemáticas associadas
+
+A boa notícia: uma rejeição não é definitiva. Com a documentação correta e uma descrição clara da tua atividade, é frequentemente possível submeter novamente ou optar por uma alternativa como a Relay.
+
+## A due diligence não termina na abertura
+
+A verificação inicial é apenas o início. As fintechs (e os bancos) fazem monitorização contínua:
+
+- **Transações incomuns**: montantes muito elevados de repente, transferências para países de alto risco ou padrões invulgares podem desencadear uma revisão
+- **Atualizações periódicas**: a Mercury pode pedir-te que confirmes que os teus dados continuam atuais
+- **Mudança de atividade**: se a tua LLC muda substancialmente de atividade, deves notificar
+
+A chave é manter uma operação coerente, documentada e previsível. Se as tuas transações são coerentes com a tua atividade declarada, não terás qualquer problema.
+
+## Como coordenamos na Exentax
+
 Na Exentax coordenamos a abertura da tua conta Mercury como parte do processo de constituição. Preparamos toda a documentação perfeita antes de enviar a candidatura — Articles, EIN, Operating Agreement, passaporte, tudo alinhado e coerente. O resultado: aprovação rápida e sem rejeições. Agenda a tua assessoria gratuita.`,
 
   "estructura-fiscal-optima-freelancer-internacional": `Se és freelancer e trabalhas com clientes internacionais, provavelmente estás a pagar mais impostos do que o necessário. Não porque estejas a fazer algo mal, mas porque a tua estrutura fiscal não está otimizada para a tua realidade: rendimentos internacionais, clientes em múltiplos países e uma atividade 100% digital.
@@ -5333,6 +5553,28 @@ Alguns freelancers acreditam que com uma LLC "desaparecem" do radar fiscal do se
 
 **Como evitamos:** Na assessoria inicial analisamos a sua situação fiscal completa, incluindo as suas obrigações no seu país de residência. Explicamos exatamente o que deve declarar, como fazê-lo e quanto pode deduzir legalmente. Não deixamos pontas soltas.
 
+## Quanto custam estes problemas na prática
+
+Para que a dimensão fique clara:
+
+- **Form 5472 não apresentado:** A multa por não apresentação segundo o IRS §6038A é de \$25.000 por formulário, por ano. Se não apresentaste durante dois anos, são \$50.000. E o IRS não precisa de te provar nada: o ónus da prova é teu.
+- **Conta bancária bloqueada:** Se a Mercury congela a tua conta enquanto tens faturas pendentes de cobrança, a tua operação fica paralisada. Podem passar semanas até à resolução do bloqueio.
+- **Corporate veil levantado:** Se um tribunal determina que misturaste fundos pessoais e empresariais, a proteção de responsabilidade limitada desaparece. Os teus bens pessoais ficam expostos às dívidas da LLC.
+- **LLC dissolvida por não renovação do Registered Agent:** Se o estado dissolve a tua LLC, é necessário um processo de reinstatement que custa mais e demora mais do que a renovação original.
+
+## O padrão que observamos sistematicamente
+
+A sequência típica do freelancer que chega à Exentax com problemas:
+
+1. Constituiu a LLC com um serviço barato que só faz o registo
+2. Obteve o EIN e abriu Mercury
+3. Começou a faturar e cobrar
+4. Ninguém lhe disse que precisava de apresentar o Form 5472, o BOI Report, nem renovar o Registered Agent
+5. Passou um ou dois anos
+6. Recebeu uma notificação do IRS, um bloqueio de conta, ou descobriu que a sua LLC estava "not in good standing"
+
+A constituição representa 10% do trabalho. Os 90% restantes são manutenção, compliance e operação diária. Na Exentax cobrimos o ciclo completo.
+
 ## A diferença entre fazer as coisas bem e fazer as coisas "pela metade"
 
 90% dos problemas que vemos poderiam ter sido evitados com um assessoramento adequado desde o início. Uma LLC bem constituída, com compliance em dia e uma operação rastreável, é uma máquina de eficiência fiscal. Uma LLC mal gerida é uma bomba-relógio.
@@ -5495,6 +5737,39 @@ Um freelancer que trabalha como trabalhador independente/autônomo em Espanha po
 
 A diferença não está em esconder dinheiro. Está em escolher a estrutura correta.
 
+## O Modelo 720 e as contas americanas
+
+Se és residente fiscal em Espanha, o Modelo 720 obriga-te a declarar bens e direitos situados no estrangeiro quando superem 50.000 € numa destas categorias:
+
+- Contas em entidades financeiras
+- Valores, direitos, seguros e rendas
+- Bens imóveis e direitos sobre imóveis
+
+A tua conta Mercury entra na primeira categoria. Se o saldo a 31 de dezembro ou o saldo médio do último trimestre superar 50.000 €, tens de declará-lo. Cada país tem as suas próprias regras de declaração de ativos no exterior — o princípio é o mesmo: declara o que tens fora.
+
+## O FBAR: outra obrigação que não deves ignorar
+
+Se és cidadão ou residente fiscal dos EUA (o que não se aplica à maioria dos nossos clientes), o FBAR (FinCEN Form 114) obriga-te a reportar contas financeiras no estrangeiro que superem \$10.000 em qualquer momento do ano.
+
+Para não residentes com LLCs, o FBAR normalmente não é diretamente aplicável. Mas se a tua situação mudar (por exemplo, se obtiveres residência americana), esta obrigação entra em vigor imediatamente. É importante tê-lo no radar.
+
+## O que acontece quando a Autoridade Tributária faz perguntas
+
+O cenário mais comum: és freelancer, constituis a tua LLC, começas a faturar por ela. O teu assessor fiscal local declara os rendimentos no teu IRS/IRPF. Tudo correto.
+
+Um dia, a autoridade tributária envia-te um pedido de informação sobre a tua atividade internacional. Não é uma inspeção — é um pedido de esclarecimento.
+
+O que precisas de ter pronto:
+
+1. Articles of Organization da LLC
+2. EIN e documentação fiscal americana
+3. Extratos bancários Mercury mostrando rendimentos e despesas
+4. Faturas emitidas a clientes
+5. Justificação das despesas deduzidas
+6. Documentação das distributions (owner's draws)
+
+Se tudo estiver organizado e coincidir com o declarado, o pedido resolve-se sem problemas. Se não, começam as complicações.
+
 ## Como gerimos isto na Exentax
 
 Na Exentax operamos com total transparência. Quando constituímos a sua LLC:
@@ -5592,6 +5867,20 @@ Independentemente do que as fintechs reportem ou deixem de reportar, a maioria d
 
 **Argentina:** Declaração de bens pessoais que inclui ativos no exterior.
 
+## O FBAR: a obrigação que muitos esquecem
+
+Se és cidadão ou residente fiscal dos Estados Unidos, o FBAR (FinCEN Form 114) obriga-te a declarar contas financeiras no estrangeiro que ultrapassem 10.000 \$. Para a maioria dos não residentes com LLCs, isto não se aplica diretamente, mas é importante conhecê-lo caso a tua situação mude.
+
+## O que acontece com Slash, Wallester e os gateways de pagamento
+
+Para além das contas bancárias tradicionais, outros instrumentos financeiros entram em jogo:
+
+- **Slash** (tesouraria corporativa): os fundos colocados via Slash são investidos em instrumentos regulados. Não são reportados da mesma forma que uma conta bancária, mas podem desencadear obrigações de declaração de ativos consoante o teu país.
+- **Wallester** (cartões corporativos): as despesas feitas com cartões Wallester são transações da LLC, não contas a declarar separadamente.
+- **Stripe, PayPal, Adyen**: são processadores de pagamento, não contas bancárias. Os fundos transitam para a Mercury (ou a tua conta principal), onde ficam documentados.
+
+A chave é compreender que as obrigações de declaração incidem sobre contas financeiras, não sobre cada ferramenta que usas. O teu consultor fiscal local deve conhecer a Mercury e a Wise; o resto faz parte da operação interna da LLC.
+
 ## A conclusão prática
 
 **1. Não assuma que a sua conta americana é "invisível".** Embora os EUA não participem no CRS, existem múltiplas vias de troca de informação. E as tendências regulatórias apontam para mais transparência, não menos.
@@ -5652,6 +5941,18 @@ A privacidade protege-o de:
 - Spam e contactos indesejados por registos públicos
 
 Mas não tenta (nem deve tentar) escondê-lo das autoridades fiscais ou financeiras. Isso seria evasão, e não é o que fazemos.
+
+## Privacidade operacional: para além dos registos
+
+A privacidade de uma LLC não se limita aos registos públicos. Afeta também a tua operação quotidiana:
+
+**Operating Agreement privado.** Ao contrário dos estatutos de uma empresa portuguesa (que são públicos e inscritos no registo comercial), o Operating Agreement da tua LLC é um documento privado. Não é registado em nenhum organismo governamental. Só tu e as entidades a quem escolhes mostrá-lo (Mercury, Stripe, etc.) o veem.
+
+**Extratos bancários privados.** A Mercury não publica as tuas informações bancárias. Extratos, saldos e transações são privados entre ti e o banco. Só uma ordem judicial ou fiscal pode forçar a divulgação.
+
+**Faturação discreta.** As tuas faturas levam o nome da tua LLC, não o teu nome pessoal (a menos que o incluas voluntariamente). Um cliente na Alemanha vê "Digital Consulting Services LLC" na fatura, não o teu nome e apelido.
+
+**Morada do Registered Agent.** A morada pública da tua LLC é a do Registered Agent, não a tua morada pessoal. A tua morada real não aparece em nenhum registo público associado à LLC.
 
 ## Novo México, Wyoming e Delaware: qual é mais privado?
 
