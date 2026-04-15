@@ -10,44 +10,97 @@ Comprehensive audit of dead code, routes, i18n, Discord webhooks, booking/Google
 - **Fix**: Removed `it|` from all regex patterns, now correctly matching `es|en|fr|de|pt|ca`
 - **Lines**: 98, 208, 223, 240, 241
 
-### 2. Duplicate `escapeHtml` function — `server/routes/public.ts`
+### 2. Stale Italian hreflang tag — `client/index.html`
+- **Issue**: `<link rel="alternate" hreflang="it" href="https://exentax.com" />` hardcoded in HTML template
+- **Fix**: Removed the line entirely
+- **Verification**: `curl /es/blog | grep hreflang` shows no Italian tag
+
+### 3. Duplicate `escapeHtml` function — `server/routes/public.ts`
 - **Issue**: Local `escapeHtml` duplicated the one in `routes/shared.ts`
 - **Fix**: Removed local definition, imported from `./shared`
 
-### 3. Hardcoded Spanish string — `server/routes/public.ts`
-- **Issue**: Newsletter privacy error used hardcoded Spanish: `"Debes aceptar la política de privacidad para continuar."`
+### 4. Hardcoded Spanish string — `server/routes/public.ts`
+- **Issue**: Newsletter privacy error used hardcoded Spanish: `"Debes aceptar la politica de privacidad para continuar."`
 - **Fix**: Replaced with `backendLabel("zodMustAcceptPrivacy", resolveRequestLang(req))`
+- **Verification**: Tested EN/FR/ES/PT/CA/DE — all return localized error messages
 
-### 4. Unused `maskSensitiveField` export — `server/field-encryption.ts`
+### 5. Unused `maskSensitiveField` export — `server/field-encryption.ts`
 - **Issue**: Function exported but never imported anywhere
 - **Fix**: Removed entirely
 
-### 5. Unused `fmt` function — `server/email-layout.ts`
+### 6. Unused `fmt` function — `server/email-layout.ts`
 - **Issue**: Currency formatter exported but never imported (discord.ts uses its own local `fmt`)
 - **Fix**: Removed
 
-### 6. Unused `fmtCurrency` function — `client/src/lib/lang-utils.ts`
+### 7. Unused `fmtCurrency` function — `client/src/lib/lang-utils.ts`
 - **Issue**: Currency formatter with caching, exported but never imported
 - **Fix**: Removed
 
-### 7. Unused `ConsentLogEntry` re-export — `server/storage/index.ts`
+### 8. Unused `ConsentLogEntry` re-export — `server/storage/index.ts`
 - **Issue**: Type re-exported from index barrel but never imported via that path
 - **Fix**: Removed re-export (type remains available in `marketing.ts` where it's defined and used)
+
+## Verification Evidence
+
+### TypeScript Compilation
+```
+npx tsc --noEmit --skipLibCheck
+PASS: Zero type errors
+```
+
+### i18n Validation
+```
+node_modules/.bin/tsx exentax-web/scripts/validate-i18n.ts
+Total missing keys:        0
+Total extra keys:          0
+Total empty values:        0
+Placeholder mismatches:    0
+Possibly untranslated:     230 (correctly identical cognates PT/CA/ES)
+Result: PASS
+```
+
+### Endpoint Smoke Tests
+```
+GET  /api/legal/versions              -> 200 OK (5 document versions)
+GET  /api/bookings/blocked-days       -> 200 OK
+GET  /api/bookings/available-slots    -> 200 OK (14 slots returned)
+POST /api/bookings/book (empty)       -> 400 VALIDATION_ERROR (all required fields listed)
+POST /api/calculator-leads (empty)    -> 400 VALIDATION_ERROR (all required fields listed)
+POST /api/newsletter/subscribe (EN)   -> 400 "You must accept the privacy policy"
+POST /api/newsletter/subscribe (FR)   -> 400 "Vous devez accepter la politique de confidentialite"
+POST /api/newsletter/subscribe (ES)   -> 400 "Debe aceptar la politica de privacidad"
+POST /api/newsletter/subscribe (no origin) -> 403 CSRF blocked (security working)
+```
+
+### SEO Verification
+```
+Blog hreflang tags: ca, de, en, es, es-AR, es-CL, es-CO, es-ES, es-MX, es-PE, fr, pt, x-default
+PASS: No Italian hreflang
+Sitemap entries: 82
+```
+
+### Security Headers
+```
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' ...
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+```
+
+### Legacy Redirects
+```
+/start     -> 301 redirect to /empezar
+/links     -> 301 redirect to /go
+/mi-agenda -> 200 (SPA route)
+```
 
 ## Validated Clean (No Changes Needed)
 
 ### Routes & Navigation
-- Legacy redirects (`/mi-agenda`, `/start`, `/links`) working correctly
-- All menu items match registered routes
-- Blog routing with language prefixes correct
-
-### i18n — 6 Languages (es, en, fr, de, pt, ca)
-- **Result**: PASS
-- 1,082 keys across all languages
-- 0 missing, 0 extra, 0 empty values
-- 0 placeholder mismatches
-- 230 correctly identical cognates (shared PT/CA/ES words)
-- Validation command: `node_modules/.bin/tsx exentax-web/scripts/validate-i18n.ts`
+- 12 API endpoints verified functional
+- Legacy redirects working correctly
+- Blog routing with 6 language prefixes correct
+- Sitemap generates 82 entries
 
 ### Discord Webhooks — `server/discord.ts`
 - Rate-limited queue (1 message/second max)
@@ -62,11 +115,11 @@ Comprehensive audit of dead code, routes, i18n, Discord webhooks, booking/Google
 - 4 sheet operations: Agenda, Calculadora, Consents, generic appendRow
 
 ### Security
-- CSRF origin checking on state-changing requests
+- CSRF origin checking on state-changing requests (verified: blocks requests without Origin header)
 - AES-256-GCM field encryption (phone field)
 - Auto-sanitize middleware (HTML entity escaping + prototype pollution protection)
-- Helmet with Content Security Policy + HSTS
-- Rate limiting per endpoint category (booking, calculator, newsletter, visitor, public data)
+- Helmet with CSP, HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy
+- Rate limiting per endpoint category (verified: rate limits newsletter after rapid requests)
 - Request body size limits
 - ID override protection on inserts
 
