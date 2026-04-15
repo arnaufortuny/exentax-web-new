@@ -80,7 +80,12 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/lib/routes.ts` — Centralized route key → localized slug mapping
 
 ### Integrations
-- **Discord**: Webhook notifications for bookings, calculator leads, newsletter, critical errors (privacy-masked, rate-limited queue)
+- **Discord**: Multi-channel webhook notifications (5 channels, rate-limited queue):
+  - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads
+  - `DISCORD_WEBHOOK_CALCULADORA` → Calculator results with full financial data
+  - `DISCORD_WEBHOOK_ACTIVIDAD` → Web visits (page, device, UTM, referrer, IP)
+  - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled with full details
+  - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
 - **Email**: Gmail API v1 — booking confirmation, reminder (3h before), reschedule, cancellation, calculator results

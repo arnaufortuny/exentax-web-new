@@ -1,84 +1,61 @@
 /**
- * Discord webhook notification service
+ * Discord webhook notification service — Multi-canal
  *
- * Sends structured embed notifications for key business events.
- * Privacy-safe: no full emails, phones, or IPs are transmitted.
+ * Canales:
+ *   DISCORD_WEBHOOK_REGISTROS       → Registros web (newsletter, leads)
+ *   DISCORD_WEBHOOK_CALCULADORA     → Resultados de la calculadora fiscal
+ *   DISCORD_WEBHOOK_ACTIVIDAD       → Actividad web (visitas, páginas)
+ *   DISCORD_WEBHOOK_AGENDA          → Asesorías (crear, reagendar, cancelar)
+ *   DISCORD_WEBHOOK_CONSENTIMIENTOS → Consentimientos de privacidad/cookies
  *
- * ENV:  DISCORD_WEBHOOK_URL  (optional — silently disabled if not set)
- * Rate: one message per 1.5 s = ~40 messages/min (Discord limit: 50/min per webhook)
+ * Rate: one message per 1.5 s per channel = ~40 messages/min/canal
  */
 
 import { logger } from "./logger";
 import { SITE_URL } from "./server-constants";
 
-// ─── Event colours ────────────────────────────────────────────────────────────
-const COLOURS = {
-  booking_created:      0x2ECC71, // green
-  booking_rescheduled:  0x3498DB, // blue
-  booking_cancelled:    0xE67E22, // orange
-  calculator_lead:      0x9B59B6, // purple
-  newsletter_subscribe: 0x1ABC9C, // teal
-  error_critical:       0xE74C3C, // red
-} as const;
+type Channel = "registros" | "calculadora" | "actividad" | "agenda" | "consentimientos";
 
-export type DiscordEventType = keyof typeof COLOURS;
+const CHANNEL_ENV: Record<Channel, string> = {
+  registros:       "DISCORD_WEBHOOK_REGISTROS",
+  calculadora:     "DISCORD_WEBHOOK_CALCULADORA",
+  actividad:       "DISCORD_WEBHOOK_ACTIVIDAD",
+  agenda:          "DISCORD_WEBHOOK_AGENDA",
+  consentimientos: "DISCORD_WEBHOOK_CONSENTIMIENTOS",
+};
 
-// ─── Privacy helpers ──────────────────────────────────────────────────────────
-function maskEmail(email: string): string {
-  const atIdx = email.indexOf("@");
-  if (atIdx <= 0) return "***";
-  const local = email.slice(0, atIdx);
-  const domain = email.slice(atIdx + 1);
-  const visible = local.slice(0, Math.min(2, local.length));
-  return `${visible}***@${domain}`;
+function getWebhookUrl(channel: Channel): string | undefined {
+  return process.env[CHANNEL_ENV[channel]];
 }
 
-function maskPhone(phone: string | null | undefined): string {
-  if (!phone) return "—";
-  const digits = phone.replace(/\D/g, "");
-  return digits.length >= 4 ? `****${digits.slice(-4)}` : "****";
-}
-
-function maskName(name: string | null | undefined): string {
-  if (!name) return "—";
-  const parts = name.trim().split(/\s+/);
-  if (parts.length === 1) return `${parts[0].slice(0, 1)}***`;
-  return `${parts[0]} ${parts[1].slice(0, 1)}.`;
-}
-
-function maskIp(ip: string | null | undefined): string {
-  if (!ip) return "—";
-  const parts = ip.split(".");
-  if (parts.length === 4) return `${parts[0]}.${parts[1]}.*.*`;
-  return "—";
-}
-
-// ─── Discord payload types ────────────────────────────────────────────────────
 interface EmbedField {
   name: string;
   value: string;
   inline?: boolean;
 }
 
+interface DiscordEmbed {
+  title: string;
+  description?: string;
+  color: number;
+  fields: EmbedField[];
+  footer: { text: string; icon_url?: string };
+  timestamp: string;
+  thumbnail?: { url: string };
+}
+
 interface DiscordPayload {
   username: string;
   avatar_url: string;
-  embeds: [{
-    title: string;
-    color: number;
-    fields: EmbedField[];
-    footer: { text: string };
-    timestamp: string;
-  }];
+  embeds: DiscordEmbed[];
 }
 
-// ─── Rate-limiting queue ──────────────────────────────────────────────────────
-const QUEUE_MAX = 50;
-const DRAIN_INTERVAL_MS = 1_500; // ~40 messages/min
+const QUEUE_MAX = 80;
+const DRAIN_INTERVAL_MS = 1_500;
 const MAX_RETRIES = 3;
 const FETCH_TIMEOUT_MS = 8_000;
 
-interface QueueItem { payload: DiscordPayload; attempt: number }
+interface QueueItem { url: string; payload: DiscordPayload; attempt: number }
 
 const _queue: QueueItem[] = [];
 let _drainTimer: NodeJS.Timeout | null = null;
@@ -86,7 +63,7 @@ let _drainTimer: NodeJS.Timeout | null = null;
 function _ensureDrainTimer(): void {
   if (_drainTimer) return;
   _drainTimer = setInterval(_drainQueue, DRAIN_INTERVAL_MS);
-  _drainTimer.unref(); // don't block process exit
+  _drainTimer.unref();
 }
 
 function _drainQueue(): void {
@@ -96,14 +73,12 @@ function _drainQueue(): void {
 }
 
 async function _sendPayload(item: QueueItem): Promise<void> {
-  const url = process.env.DISCORD_WEBHOOK_URL;
-  if (!url) return;
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
     let res: Response;
     try {
-      res = await fetch(url, {
+      res = await fetch(item.url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(item.payload),
@@ -120,14 +95,13 @@ async function _sendPayload(item: QueueItem): Promise<void> {
         logger.warn(`Discord HTTP ${res.status} — retry ${item.attempt + 1}/${MAX_RETRIES} in ${backoff}ms`, "discord");
         setTimeout(() => _enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
       } else {
-        logger.warn(`Discord webhook HTTP ${res.status} (no retry): ${body.slice(0, 300)}`, "discord");
+        logger.warn(`Discord webhook HTTP ${res.status}: ${body.slice(0, 300)}`, "discord");
       }
     }
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     if (item.attempt < MAX_RETRIES) {
       const backoff = Math.min(DRAIN_INTERVAL_MS * 2 ** item.attempt, 30_000);
-      logger.warn(`Discord send error — retry ${item.attempt + 1}/${MAX_RETRIES} in ${backoff}ms: ${msg}`, "discord");
       setTimeout(() => _enqueueItem({ ...item, attempt: item.attempt + 1 }), backoff);
     } else {
       logger.warn(`Discord send failed after ${MAX_RETRIES} retries: ${msg}`, "discord");
@@ -144,31 +118,39 @@ function _enqueueItem(item: QueueItem): void {
   _ensureDrainTimer();
 }
 
-// ─── Internal enqueue ─────────────────────────────────────────────────────────
-function _enqueue(type: DiscordEventType, title: string, fields: EmbedField[]): void {
-  if (!process.env.DISCORD_WEBHOOK_URL) return;
-
+function _send(channel: Channel, embed: DiscordEmbed): void {
+  const url = getWebhookUrl(channel);
+  if (!url) return;
   const payload: DiscordPayload = {
-    username: "Exentax",
+    username: "Exentax Bot",
     avatar_url: `${SITE_URL}/ex-icon-green.png`,
-    embeds: [{
-      title,
-      color: COLOURS[type],
-      fields,
-      footer: { text: `Exentax · ${SITE_URL}` },
-      timestamp: new Date().toISOString(),
-    }],
+    embeds: [embed],
   };
-
-  _enqueueItem({ payload, attempt: 0 });
+  _enqueueItem({ url, payload, attempt: 0 });
 }
 
-// ─── Public notification functions ───────────────────────────────────────────
+function ts(): string {
+  return new Date().toLocaleString("es-ES", {
+    timeZone: "Europe/Madrid",
+    weekday: "long", year: "numeric", month: "long", day: "numeric",
+    hour: "2-digit", minute: "2-digit", second: "2-digit",
+  });
+}
+
+function flag(lang: string | null | undefined): string {
+  const flags: Record<string, string> = { es: "🇪🇸", en: "🇬🇧", fr: "🇫🇷", de: "🇩🇪", pt: "🇵🇹", ca: "🏴" };
+  return flags[lang || "es"] || "🌐";
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CANAL: AGENDA (asesorías)
+// ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyBookingCreated(opts: {
   bookingId: string;
   manageToken?: string | null;
   name: string;
+  lastName?: string | null;
   email: string;
   phone?: string | null;
   date: string;
@@ -177,21 +159,51 @@ export function notifyBookingCreated(opts: {
   meetLink?: string | null;
   language?: string | null;
   ip?: string | null;
+  activity?: string | null;
+  monthlyProfit?: number | null;
+  globalClients?: boolean | null;
+  digitalOperation?: boolean | null;
+  notes?: string | null;
+  context?: string | null;
+  shareNote?: string | null;
+  privacyAccepted?: boolean;
+  marketingAccepted?: boolean;
 }): void {
   const fields: EmbedField[] = [
-    { name: "ID",          value: `\`${opts.bookingId}\``,                               inline: true },
-    { name: "Fecha",       value: `${opts.date} ${opts.startTime}–${opts.endTime}`,       inline: true },
-    { name: "Idioma",      value: opts.language || "es",                                  inline: true },
-    { name: "Cliente",     value: maskName(opts.name),                                    inline: true },
-    { name: "Email",       value: maskEmail(opts.email),                                  inline: true },
-    { name: "Teléfono",    value: maskPhone(opts.phone),                                  inline: true },
-    { name: "Meet",        value: opts.meetLink ? `[Abrir](${opts.meetLink})` : "✗ no disponible", inline: true },
-    { name: "IP",          value: maskIp(opts.ip),                                        inline: true },
+    { name: "🆔 ID Reserva",      value: `\`${opts.bookingId}\``,                                    inline: true },
+    { name: "📅 Fecha",            value: `**${opts.date}**`,                                          inline: true },
+    { name: "🕐 Horario",         value: `${opts.startTime} — ${opts.endTime}`,                       inline: true },
+    { name: "👤 Nombre completo", value: `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`,   inline: true },
+    { name: "📧 Email",           value: opts.email,                                                   inline: true },
+    { name: "📱 Teléfono",        value: opts.phone || "No proporcionado",                             inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),              inline: true },
+    { name: "🌐 IP",              value: opts.ip || "—",                                               inline: true },
+    { name: "📹 Google Meet",     value: opts.meetLink ? `[Abrir enlace](${opts.meetLink})` : "No disponible", inline: true },
   ];
+
+  if (opts.activity) fields.push({ name: "💼 Actividad", value: opts.activity, inline: true });
+  if (opts.monthlyProfit != null) fields.push({ name: "💰 Beneficio mensual", value: `${opts.monthlyProfit.toLocaleString("es-ES")} €`, inline: true });
+  if (opts.globalClients != null) fields.push({ name: "🌍 Clientes internacionales", value: opts.globalClients ? "Sí" : "No", inline: true });
+  if (opts.digitalOperation != null) fields.push({ name: "💻 Operación digital", value: opts.digitalOperation ? "Sí" : "No", inline: true });
+  if (opts.notes) fields.push({ name: "📝 Notas del cliente", value: opts.notes.slice(0, 500) });
+  if (opts.context) fields.push({ name: "🔎 Contexto", value: opts.context.slice(0, 500) });
+  if (opts.shareNote) fields.push({ name: "📋 Nota adicional", value: opts.shareNote.slice(0, 300) });
+
+  fields.push({ name: "✅ Privacidad", value: opts.privacyAccepted ? "Aceptada" : "No", inline: true });
+  fields.push({ name: "📣 Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
+
   if (opts.manageToken) {
-    fields.push({ name: "Gestionar", value: `[Ver reserva](${SITE_URL}/booking/${opts.bookingId}?token=${opts.manageToken})` });
+    fields.push({ name: "🔗 Gestionar reserva", value: `[Panel de gestión](${SITE_URL}/booking/${opts.bookingId}?token=${opts.manageToken})` });
   }
-  _enqueue("booking_created", "📅 Nueva reserva", fields);
+
+  _send("agenda", {
+    title: "📅 Nueva asesoría programada",
+    description: `**${opts.name}** ha reservado una asesoría fiscal para el **${opts.date}** a las **${opts.startTime}**.`,
+    color: 0x00E510,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }
 
 export function notifyBookingRescheduled(opts: {
@@ -204,19 +216,30 @@ export function notifyBookingRescheduled(opts: {
   newDate: string;
   newStartTime: string;
   newEndTime: string;
+  newMeetLink?: string | null;
   language?: string | null;
   rescheduleCount?: number | null;
+  ip?: string | null;
 }): void {
-  _enqueue("booking_rescheduled", "🔄 Reserva reagendada", [
-    { name: "ID",            value: `\`${opts.bookingId}\``,                                                    inline: true },
-    { name: "Anterior",      value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",          inline: true },
-    { name: "Nueva fecha",   value: `${opts.newDate} ${opts.newStartTime}–${opts.newEndTime}`,                  inline: true },
-    { name: "Cliente",       value: maskName(opts.name),                                                        inline: true },
-    { name: "Email",         value: maskEmail(opts.email),                                                      inline: true },
-    { name: "Teléfono",      value: maskPhone(opts.phone),                                                      inline: true },
-    { name: "Idioma",        value: opts.language || "es",                                                      inline: true },
-    { name: "Nº reagendas",  value: String(opts.rescheduleCount ?? 1),                                         inline: true },
-  ]);
+  _send("agenda", {
+    title: "🔄 Asesoría reagendada",
+    description: `**${opts.name}** ha cambiado la fecha de su asesoría.`,
+    color: 0x3498DB,
+    fields: [
+      { name: "🆔 ID Reserva",    value: `\`${opts.bookingId}\``,                                                        inline: true },
+      { name: "❌ Fecha anterior", value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",              inline: true },
+      { name: "✅ Nueva fecha",   value: `**${opts.newDate}** ${opts.newStartTime} — ${opts.newEndTime}`,                 inline: true },
+      { name: "👤 Cliente",       value: opts.name,                                                                        inline: true },
+      { name: "📧 Email",         value: opts.email,                                                                       inline: true },
+      { name: "📱 Teléfono",      value: opts.phone || "—",                                                                inline: true },
+      { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                                inline: true },
+      { name: "🔢 Nº reagendas",  value: String(opts.rescheduleCount ?? 1),                                               inline: true },
+      { name: "🌐 IP",            value: opts.ip || "—",                                                                   inline: true },
+      { name: "📹 Google Meet",   value: opts.newMeetLink ? `[Abrir enlace](${opts.newMeetLink})` : "Sin cambios",         inline: true },
+    ],
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }
 
 export function notifyBookingCancelled(opts: {
@@ -227,51 +250,250 @@ export function notifyBookingCancelled(opts: {
   date?: string | null;
   startTime?: string | null;
   language?: string | null;
+  ip?: string | null;
+  reason?: string | null;
 }): void {
-  _enqueue("booking_cancelled", "❌ Reserva cancelada", [
-    { name: "ID",      value: `\`${opts.bookingId}\``,                                 inline: true },
-    { name: "Fecha",     value: opts.date ? `${opts.date} ${opts.startTime || ""}` : "—", inline: true },
-    { name: "Idioma",    value: opts.language || "es",                                    inline: true },
-    { name: "Cliente",   value: maskName(opts.name),                                      inline: true },
-    { name: "Email",     value: maskEmail(opts.email),                                    inline: true },
-    { name: "Teléfono",  value: maskPhone(opts.phone),                                    inline: true },
-  ]);
+  const fields: EmbedField[] = [
+    { name: "🆔 ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
+    { name: "📅 Fecha",        value: opts.date ? `${opts.date} ${opts.startTime || ""}` : "—",      inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),            inline: true },
+    { name: "👤 Cliente",      value: opts.name,                                                      inline: true },
+    { name: "📧 Email",        value: opts.email,                                                     inline: true },
+    { name: "📱 Teléfono",     value: opts.phone || "—",                                              inline: true },
+    { name: "🌐 IP",           value: opts.ip || "—",                                                 inline: true },
+  ];
+  if (opts.reason) fields.push({ name: "💬 Motivo", value: opts.reason.slice(0, 300) });
+
+  _send("agenda", {
+    title: "❌ Asesoría cancelada",
+    description: `**${opts.name}** ha cancelado su asesoría del **${opts.date || "fecha desconocida"}**.`,
+    color: 0xE74C3C,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CANAL: CALCULADORA
+// ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyCalculatorLead(opts: {
   leadId: string;
   email: string;
+  name?: string | null;
   country?: string | null;
   regime?: string | null;
   ahorro: number;
   annualIncome?: number | null;
+  monthlyIncome?: number | null;
+  localTax?: number | null;
+  llcTax?: number | null;
   language?: string | null;
   ip?: string | null;
+  marketingAccepted?: boolean;
+  privacyAccepted?: boolean;
+  userAgent?: string | null;
+  referrer?: string | null;
 }): void {
   const fmt = (n: number) =>
     new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
 
-  _enqueue("calculator_lead", "🧮 Resultado calculadora", [
-    { name: "ID",           value: `\`${opts.leadId}\``,                     inline: true },
-    { name: "País",         value: opts.country  || "—",                     inline: true },
-    { name: "Régimen",      value: opts.regime   || "—",                     inline: true },
-    { name: "Email",        value: maskEmail(opts.email),                     inline: true },
-    { name: "Ingresos",     value: opts.annualIncome != null ? fmt(opts.annualIncome) : "—", inline: true },
-    { name: "Ahorro est.",  value: fmt(opts.ahorro),                          inline: true },
-    { name: "Idioma",       value: opts.language || "es",                    inline: true },
-    { name: "IP",           value: maskIp(opts.ip),                           inline: true },
-  ]);
+  const fields: EmbedField[] = [
+    { name: "🆔 ID Lead",          value: `\`${opts.leadId}\``,                                        inline: true },
+    { name: "📧 Email",            value: opts.email,                                                   inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),              inline: true },
+    { name: "🌍 País",             value: opts.country || "No especificado",                            inline: true },
+    { name: "📊 Régimen fiscal",   value: opts.regime || "No especificado",                             inline: true },
+    { name: "🌐 IP",               value: opts.ip || "—",                                               inline: true },
+  ];
+
+  if (opts.annualIncome != null) fields.push({ name: "💶 Ingresos anuales", value: fmt(opts.annualIncome), inline: true });
+  if (opts.monthlyIncome != null) fields.push({ name: "💶 Ingresos mensuales", value: fmt(opts.monthlyIncome), inline: true });
+  if (opts.localTax != null) fields.push({ name: "🏛️ Impuestos locales", value: fmt(opts.localTax), inline: true });
+  if (opts.llcTax != null) fields.push({ name: "🇺🇸 Impuestos LLC", value: fmt(opts.llcTax), inline: true });
+
+  fields.push({ name: "💰 Ahorro estimado", value: `**${fmt(opts.ahorro)}**`, inline: true });
+
+  if (opts.name) fields.push({ name: "👤 Nombre", value: opts.name, inline: true });
+  fields.push({ name: "✅ Privacidad", value: opts.privacyAccepted ? "Aceptada" : "—", inline: true });
+  fields.push({ name: "📣 Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
+
+  if (opts.referrer) fields.push({ name: "🔗 Referrer", value: opts.referrer.slice(0, 200), inline: true });
+
+  const ahorroAbs = Math.abs(opts.ahorro);
+  let emoji = "🟢";
+  if (ahorroAbs < 3000) emoji = "🟡";
+  if (ahorroAbs < 1000) emoji = "🔴";
+
+  _send("calculadora", {
+    title: `🧮 Resultado calculadora — ${emoji} ${fmt(opts.ahorro)} ahorro`,
+    description: `Nuevo cálculo desde **${opts.country || "país desconocido"}** con un ahorro estimado de **${fmt(opts.ahorro)}** anuales.`,
+    color: ahorroAbs >= 5000 ? 0x00E510 : ahorroAbs >= 2000 ? 0xF1C40F : 0xE67E22,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CANAL: REGISTROS WEB (newsletter, leads genéricos)
+// ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyNewsletterSubscribe(opts: {
   email: string;
   source?: string | null;
+  language?: string | null;
+  ip?: string | null;
+  privacyAccepted?: boolean;
+  marketingAccepted?: boolean;
 }): void {
-  _enqueue("newsletter_subscribe", "📧 Newsletter · nueva suscripción", [
-    { name: "Email",  value: maskEmail(opts.email),   inline: true },
-    { name: "Fuente", value: opts.source || "footer", inline: true },
-  ]);
+  _send("registros", {
+    title: "📧 Nueva suscripción newsletter",
+    description: `Nuevo suscriptor desde **${opts.source || "footer"}**.`,
+    color: 0x1ABC9C,
+    fields: [
+      { name: "📧 Email",       value: opts.email,                                      inline: true },
+      { name: "📍 Fuente",      value: opts.source || "footer",                          inline: true },
+      { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(), inline: true },
+      { name: "🌐 IP",          value: opts.ip || "—",                                   inline: true },
+      { name: "✅ Privacidad",  value: opts.privacyAccepted ? "Aceptada" : "—",          inline: true },
+      { name: "📣 Marketing",   value: opts.marketingAccepted ? "Aceptado" : "No",       inline: true },
+    ],
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }
+
+export function notifyNewLead(opts: {
+  leadId: string;
+  name: string;
+  email: string;
+  phone?: string | null;
+  source: string;
+  language?: string | null;
+  ip?: string | null;
+  activity?: string | null;
+}): void {
+  _send("registros", {
+    title: "🆕 Nuevo lead registrado",
+    description: `**${opts.name}** se ha registrado desde **${opts.source}**.`,
+    color: 0x9B59B6,
+    fields: [
+      { name: "🆔 ID Lead",   value: `\`${opts.leadId}\``,                                inline: true },
+      { name: "👤 Nombre",    value: opts.name,                                             inline: true },
+      { name: "📧 Email",     value: opts.email,                                            inline: true },
+      { name: "📱 Teléfono",  value: opts.phone || "—",                                     inline: true },
+      { name: "📍 Fuente",    value: opts.source,                                            inline: true },
+      { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(), inline: true },
+      { name: "🌐 IP",        value: opts.ip || "—",                                        inline: true },
+    ],
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CANAL: ACTIVIDAD WEB
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export function notifyWebVisit(opts: {
+  ip: string;
+  page?: string | null;
+  referrer?: string | null;
+  language?: string | null;
+  device?: string | null;
+  screen?: string | null;
+  userAgent?: string | null;
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  utmCampaign?: string | null;
+  utmContent?: string | null;
+  sessionId?: string | null;
+  isNew?: boolean;
+}): void {
+  const deviceEmoji = opts.device === "mobile" ? "📱" : opts.device === "tablet" ? "📲" : "🖥️";
+
+  const fields: EmbedField[] = [
+    { name: "📄 Página",            value: opts.page || "/",                                              inline: true },
+    { name: `${deviceEmoji} Dispositivo`, value: opts.device || "Desconocido",                           inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                inline: true },
+    { name: "🌐 IP",                value: opts.ip,                                                       inline: true },
+    { name: "📐 Pantalla",          value: opts.screen || "—",                                             inline: true },
+    { name: "👤 Visitante",         value: opts.isNew ? "🆕 Nuevo" : "🔄 Recurrente",                    inline: true },
+  ];
+
+  if (opts.referrer) fields.push({ name: "🔗 Referrer", value: opts.referrer.slice(0, 200), inline: true });
+  if (opts.utmSource) fields.push({ name: "📊 UTM Source", value: opts.utmSource, inline: true });
+  if (opts.utmMedium) fields.push({ name: "📊 UTM Medium", value: opts.utmMedium, inline: true });
+  if (opts.utmCampaign) fields.push({ name: "📊 UTM Campaign", value: opts.utmCampaign.slice(0, 100), inline: true });
+  if (opts.utmContent) fields.push({ name: "📊 UTM Content", value: opts.utmContent.slice(0, 100), inline: true });
+  if (opts.sessionId) fields.push({ name: "🔑 Sesión", value: `\`${opts.sessionId.slice(0, 16)}...\``, inline: true });
+
+  let browserInfo = "—";
+  if (opts.userAgent) {
+    const ua = opts.userAgent;
+    if (/Chrome/i.test(ua) && !/Edge/i.test(ua)) browserInfo = "Chrome";
+    else if (/Firefox/i.test(ua)) browserInfo = "Firefox";
+    else if (/Safari/i.test(ua) && !/Chrome/i.test(ua)) browserInfo = "Safari";
+    else if (/Edge/i.test(ua)) browserInfo = "Edge";
+    else if (/Opera|OPR/i.test(ua)) browserInfo = "Opera";
+    else browserInfo = ua.slice(0, 50);
+  }
+  fields.push({ name: "🌐 Navegador", value: browserInfo, inline: true });
+
+  _send("actividad", {
+    title: `${opts.isNew ? "🆕" : "👁️"} Visita web · ${opts.page || "/"}`,
+    color: opts.isNew ? 0x2ECC71 : 0x95A5A6,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CANAL: CONSENTIMIENTOS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export function notifyConsent(opts: {
+  formType: string;
+  email?: string | null;
+  privacyAccepted?: boolean | null;
+  marketingAccepted?: boolean | null;
+  language?: string | null;
+  source?: string | null;
+  privacyVersion?: string | null;
+  ip?: string | null;
+}): void {
+  const isCookie = opts.formType.startsWith("cookies:");
+  const title = isCookie
+    ? `🍪 Consentimiento cookies — ${opts.formType.replace("cookies:", "")}`
+    : `📋 Consentimiento — ${opts.formType}`;
+
+  const fields: EmbedField[] = [
+    { name: "📝 Tipo",              value: opts.formType,                                               inline: true },
+    { name: "✅ Privacidad",        value: opts.privacyAccepted ? "Aceptada" : "No aceptada",           inline: true },
+    { name: "📣 Marketing",         value: opts.marketingAccepted === true ? "Aceptado" : opts.marketingAccepted === false ? "Rechazado" : "N/A", inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),              inline: true },
+    { name: "🌐 IP",                value: opts.ip || "—",                                              inline: true },
+    { name: "📋 Versión política",  value: opts.privacyVersion || "—",                                  inline: true },
+  ];
+
+  if (opts.email) fields.push({ name: "📧 Email", value: opts.email, inline: true });
+  if (opts.source) fields.push({ name: "📍 Fuente", value: opts.source, inline: true });
+
+  _send("consentimientos", {
+    title,
+    color: isCookie ? 0xF39C12 : 0x3498DB,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ERRORES CRÍTICOS (se envía a registros)
+// ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyCriticalError(opts: {
   context: string;
@@ -280,11 +502,17 @@ export function notifyCriticalError(opts: {
   path?: string | null;
 }): void {
   const fields: EmbedField[] = [
-    { name: "Contexto", value: opts.context,                 inline: true },
-    { name: "Código",   value: opts.code || "SERVER_ERROR",  inline: true },
+    { name: "⚙️ Contexto", value: opts.context,                   inline: true },
+    { name: "🏷️ Código",   value: opts.code || "SERVER_ERROR",    inline: true },
   ];
-  if (opts.path) fields.push({ name: "Ruta", value: opts.path.slice(0, 100), inline: true });
-  fields.push({ name: "Mensaje", value: opts.message.slice(0, 500) });
+  if (opts.path) fields.push({ name: "📄 Ruta", value: opts.path.slice(0, 200), inline: true });
+  fields.push({ name: "💬 Mensaje", value: `\`\`\`${opts.message.slice(0, 800)}\`\`\`` });
 
-  _enqueue("error_critical", "🚨 Error crítico", fields);
+  _send("registros", {
+    title: "🚨 Error crítico del servidor",
+    color: 0xE74C3C,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
 }

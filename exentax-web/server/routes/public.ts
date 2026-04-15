@@ -32,7 +32,7 @@ import { getTranslatedSlug } from "../../client/src/data/blog-posts-slugs";
 import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "./api-response";
 import {
   notifyBookingCreated, notifyBookingRescheduled, notifyBookingCancelled,
-  notifyCalculatorLead, notifyNewsletterSubscribe,
+  notifyCalculatorLead, notifyNewsletterSubscribe, notifyWebVisit, notifyConsent,
 } from "../discord";
 import { sheetsLogBooking, sheetsLogBookingUpdate, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
 
@@ -299,10 +299,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
-        notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, email, phone, date, startTime, endTime, meetLink, language, ip });
+        notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, lastName, email, phone, date, startTime, endTime, meetLink, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
         sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDIENTE, meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
+          notifyConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
           sheetsLogConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion });
         }).catch(err => logger.warn(`Booking consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
         return { error: false as const, date, startTime, endTime, meetLink, status: "confirmed" };
@@ -460,7 +461,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
-    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, language: row.language, rescheduleCount: newRescheduleCount });
+    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, newMeetLink: newMeetLink, language: row.language, rescheduleCount: newRescheduleCount, ip });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
@@ -503,7 +504,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, language: row.language });
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, language: row.language, ip });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
@@ -634,13 +635,18 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         "calculadora",
         ["fiscalidad", "llc"]
       ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
-      notifyNewsletterSubscribe({ email: normalizedEmail, source: "calculadora_marketing" });
+      notifyNewsletterSubscribe({ email: normalizedEmail, source: "calculadora_marketing", language: parsed.data.language, ip: calcIp });
     }
 
-    notifyCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, ip: calcIp });
+    notifyCalculatorLead({
+      leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime,
+      ahorro: parsed.data.ahorro, annualIncome, monthlyIncome, localTax: parsed.data.sinLLC, llcTax: parsed.data.conLLC,
+      language: parsed.data.language, ip: calcIp, marketingAccepted: parsed.data.marketingAccepted, privacyAccepted: parsed.data.privacyAccepted,
+    });
     sheetsLogCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, marketingAccepted: parsed.data.marketingAccepted ?? false });
     getCachedPrivacyVersion().then(privacyVersion => {
       logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcIp });
+      notifyConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcIp });
       sheetsLogConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion });
     }).catch(err => logger.warn(`Calculator consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res);
@@ -661,16 +667,18 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = cookieConsentSchema.safeParse(req.body);
     if (!parsed.success) return apiOk(res); // silent — never block the client
     const { tipo, aceptado, version, idioma, referrer } = parsed.data;
-    logConsent({
+    const consentData = {
       formType: `cookies:${tipo}`,
-      email: null,
-      privacyAccepted: true, // user has seen the banner; essential cookies always accepted
+      email: null as string | null,
+      privacyAccepted: true,
       marketingAccepted: tipo === "cookies_analiticas" ? aceptado : null,
       language: idioma || null,
       source: referrer || null,
       privacyVersion: version || null,
       ip,
-    });
+    };
+    logConsent(consentData);
+    notifyConsent(consentData);
     return apiOk(res);
   }));
 
@@ -691,9 +699,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!privacyAccepted) return apiFail(res, 400, backendLabel("zodMustAcceptPrivacy", resolveRequestLang(req)), "PRIVACY_REQUIRED");
     const normalizedEmail = email.trim().toLowerCase();
     await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
-    notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer" });
+    notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
     getCachedPrivacyVersion().then(privacyVersion => {
       logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });
+      notifyConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });
       sheetsLogConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion });
     }).catch(err => logger.warn(`Newsletter consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res, { subscribed: true });
@@ -743,6 +752,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (/mobile|android|iphone|ipad|ipod/i.test(uaLower)) dispositivo = /ipad|tablet/i.test(uaLower) ? "tablet" : "mobile";
     else if (uaLower) dispositivo = "desktop";
 
+    const isNew = isNewVisitor(ip);
+
     insertVisita({
       date: timestamp,
       ip,
@@ -761,7 +772,23 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       logger.error("DB append failed:", "visitor", err)
     );
 
-    if (isNewVisitor(ip)) {
+    notifyWebVisit({
+      ip,
+      page,
+      referrer: str(b.referrer, 500),
+      language: str(b.language, 10),
+      device: dispositivo,
+      screen: str(b.screen, 20),
+      userAgent: ua,
+      utmSource: str(b.utm_source, 100),
+      utmMedium: str(b.utm_medium, 100),
+      utmCampaign: str(b.utm_campaign, 200),
+      utmContent: str(b.utm_content, 200),
+      sessionId: str(b.sessionId, 64),
+      isNew,
+    });
+
+    if (isNew) {
       logger.info(`New visitor: ${ip}`, "visitor");
     }
 
