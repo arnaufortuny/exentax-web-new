@@ -14,10 +14,10 @@ export const SITE_URL = _SITE_URL;
 export const WHATSAPP_URL = _WHATSAPP_URL;
 
 export const C_BG       = "#F7F7F7";
-export const C_CARD     = "#FFFFFF";
-export const C_CARD_FT  = "#F0F0F0";
+const C_CARD     = "#FFFFFF";
+const C_CARD_FT  = "#F0F0F0";
 export const C_NEON     = "#00E510";
-export const C_NEON_BG  = "rgba(0,229,16,0.06)";
+const C_NEON_BG  = "rgba(0,229,16,0.06)";
 export const C_NEON_DK  = "#00C80E";
 export const C_TEXT_1   = "#111111";
 export const C_TEXT_2   = "#4B5563";
@@ -26,9 +26,9 @@ export const C_BORDER   = "#E5E7EB";
 export const C_ACCENT     = C_NEON_DK;
 export const C_ACCENT_BG  = "rgba(0,200,14,0.06)";
 export const C_ACCENT_BD  = "rgba(0,200,14,0.15)";
-export const C_HIGHLIGHT_BG = C_NEON_BG;
-export const C_HIGHLIGHT_BD = "rgba(0,229,16,0.15)";
-export const C_HIGHLIGHT_TX = C_NEON_DK;
+const C_HIGHLIGHT_BG = C_NEON_BG;
+const C_HIGHLIGHT_BD = "rgba(0,229,16,0.15)";
+const C_HIGHLIGHT_TX = C_NEON_DK;
 export const F_STACK    = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
 
 const LOGO_URL = `${SITE_URL}/ex-icon-green.png`;

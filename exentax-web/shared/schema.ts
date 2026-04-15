@@ -48,7 +48,7 @@ export const agenda = pgTable("agenda", {
   ip: text("ip"),
   privacy: boolean("privacidad").default(false),
   marketing: boolean("marketing").default(false),
-  status: text("estado").default("Pendiente"),
+  status: text("estado").default("pending"),
   consentDateTime: text("consentimiento_fecha_hora"),
   monthlyProfit: text("beneficio_mensual"),
   globalClients: text("clientes_mundiales"),
@@ -71,14 +71,14 @@ export const agenda = pgTable("agenda", {
   index("agenda_hora_inicio_idx").on(table.startTime),
   index("agenda_fecha_creacion_idx").on(table.createdAt),
   index("agenda_estado_fecha_idx").on(table.status, table.meetingDate),
-  check("agenda_status_check", sql`${table.status} IS NULL OR ${table.status} IN ('Pendiente','Contactado','En proceso','Cerrado','Cancelada','Cancelado','Reagendada','No presentado')`),
+  check("agenda_status_check", sql`${table.status} IS NULL OR ${table.status} IN ('pending','contacted','in_progress','closed','cancelled','rescheduled','no_show')`),
 ]);
 
 export const insertAgendaSchema = createInsertSchema(agenda).omit({ createdAt: true });
 export type InsertAgenda = z.infer<typeof insertAgendaSchema>;
 export type Agenda = typeof agenda.$inferSelect;
 
-export const calculadora = pgTable("calculadora", {
+export const calculations = pgTable("calculations", {
   id: varchar("id", { length: 64 }).primaryKey(),
   date: text("fecha"),
   email: text("email"),
@@ -100,15 +100,16 @@ export const calculadora = pgTable("calculadora", {
   ip: text("ip"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
-  index("calculadora_email_idx").on(table.email),
-  index("calculadora_fecha_creacion_idx").on(table.createdAt),
-  index("calculadora_pais_idx").on(table.country),
+  index("calculations_email_idx").on(table.email),
+  index("calculations_created_at_idx").on(table.createdAt),
+  index("calculations_country_idx").on(table.country),
 ]);
 
-export const insertCalculadoraSchema = createInsertSchema(calculadora).omit({ createdAt: true });
-export type Calculadora = typeof calculadora.$inferSelect;
+export const insertCalculationSchema = createInsertSchema(calculations).omit({ createdAt: true });
+export type InsertCalculation = z.infer<typeof insertCalculationSchema>;
+export type Calculation = typeof calculations.$inferSelect;
 
-export const visitas = pgTable("visitas", {
+export const visits = pgTable("visits", {
   id: serial("id").primaryKey(),
   date: text("fecha"),
   ip: text("ip"),
@@ -125,16 +126,16 @@ export const visitas = pgTable("visitas", {
   sessionId: text("session_id"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
-  index("visitas_ip_idx").on(table.ip),
-  index("visitas_fecha_creacion_idx").on(table.createdAt),
+  index("visits_ip_idx").on(table.ip),
+  index("visits_created_at_idx").on(table.createdAt),
 ]);
 
-export const insertVisitaSchema = createInsertSchema(visitas).omit({ id: true, createdAt: true });
-export type InsertVisita = z.infer<typeof insertVisitaSchema>;
-export type Visita = typeof visitas.$inferSelect;
+export const insertVisitSchema = createInsertSchema(visits).omit({ id: true, createdAt: true });
+export type InsertVisit = z.infer<typeof insertVisitSchema>;
+export type Visit = typeof visits.$inferSelect;
 
 
-export const newsletterSuscriptores = pgTable("newsletter_suscriptores", {
+export const newsletterSubscribers = pgTable("newsletter_subscribers", {
   id: varchar("id", { length: 64 }).primaryKey(),
   email: text("email").notNull(),
   name: text("name"),
@@ -149,20 +150,23 @@ export const newsletterSuscriptores = pgTable("newsletter_suscriptores", {
   index("newsletter_unsub_token_idx").on(table.unsubscribeToken),
 ]);
 
-export const insertNewsletterSuscriptorSchema = createInsertSchema(newsletterSuscriptores).omit({ createdAt: true });
-export type InsertNewsletterSuscriptor = z.infer<typeof insertNewsletterSuscriptorSchema>;
+export const insertNewsletterSubscriberSchema = createInsertSchema(newsletterSubscribers).omit({ createdAt: true });
+export type InsertNewsletterSubscriber = z.infer<typeof insertNewsletterSubscriberSchema>;
+export type NewsletterSubscriber = typeof newsletterSubscribers.$inferSelect;
 
-export const diasBloqueados = pgTable("dias_bloqueados", {
+export const blockedDays = pgTable("blocked_days", {
   id: varchar("id", { length: 64 }).primaryKey(),
   date: text("fecha"),
   reason: text("motivo"),
   createdBy: text("creado_por"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
-  index("dias_bloqueados_fecha_idx").on(table.date),
+  index("blocked_days_date_idx").on(table.date),
 ]);
 
-export const insertDiaBloqueadoSchema = createInsertSchema(diasBloqueados).omit({ createdAt: true });
+export const insertBlockedDaySchema = createInsertSchema(blockedDays).omit({ createdAt: true });
+export type InsertBlockedDay = z.infer<typeof insertBlockedDaySchema>;
+export type BlockedDay = typeof blockedDays.$inferSelect;
 
 export const LEGAL_DOC_TYPES = ["tos", "privacy", "cookies", "disclaimer", "refund"] as const;
 export type LegalDocType = (typeof LEGAL_DOC_TYPES)[number];
@@ -185,17 +189,16 @@ export const insertLegalDocVersionSchema = createInsertSchema(legalDocumentVersi
 export type InsertLegalDocVersion = z.infer<typeof insertLegalDocVersionSchema>;
 export type LegalDocVersion = typeof legalDocumentVersions.$inferSelect;
 
-// Audit trail for every consent event: form submissions, cookie banner decisions
 export const consentLog = pgTable("consent_log", {
   id: varchar("id", { length: 64 }).primaryKey(),
-  formType: text("form_type").notNull(),       // booking | calculator | newsletter_footer | cookies
-  email: text("email"),                          // null for anonymous cookie consent
+  formType: text("form_type").notNull(),
+  email: text("email"),
   privacyAccepted: boolean("privacy_accepted").notNull(),
   marketingAccepted: boolean("marketing_accepted"),
-  timestamp: text("timestamp").notNull(),        // ISO 8601
+  timestamp: text("timestamp").notNull(),
   language: text("idioma"),
-  source: text("source"),                        // page path or route
-  privacyVersion: text("privacy_version"),       // version of privacy policy accepted
+  source: text("source"),
+  privacyVersion: text("privacy_version"),
   ip: text("ip"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [

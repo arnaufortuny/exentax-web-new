@@ -91,11 +91,11 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
 
 const prefetchMap: Record<string, () => Promise<unknown>> = {
   home: () => import("@/pages/home"),
-  how_we_work: () => import("@/pages/como-funciona"),
-  our_services: () => import("@/pages/servicios"),
+  how_we_work: () => import("@/pages/how-we-work"),
+  our_services: () => import("@/pages/services"),
   faq: () => import("@/pages/faq-page"),
-  book: () => import("@/pages/reservar"),
-  about_llc: () => import("@/pages/llc-estados-unidos"),
+  book: () => import("@/pages/book"),
+  about_llc: () => import("@/pages/about-llc"),
   blog: () => import("@/pages/blog/index"),
 };
 

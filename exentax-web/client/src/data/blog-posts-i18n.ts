@@ -5,6 +5,7 @@ export interface BlogPostMeta {
   excerpt: string;
   metaTitle: string;
   metaDescription: string;
+  content?: string;
 }
 
 type BlogI18nMap = Record<string, Partial<Record<SupportedLang, BlogPostMeta>>>;

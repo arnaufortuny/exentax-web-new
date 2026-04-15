@@ -1,7 +1,6 @@
 import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
-import { rm, readFile, cp, mkdir } from "fs/promises";
-import { existsSync } from "fs";
+import { rm, readFile, mkdir } from "fs/promises";
 import path from "path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -53,14 +52,6 @@ async function buildAll() {
       js: 'import { createRequire } from "module"; const require = createRequire(import.meta.url);',
     },
   });
-
-  const fontsSource = path.resolve(ROOT, "server/fonts");
-  const fontsDest = path.resolve(distDir, "fonts");
-  if (existsSync(fontsSource)) {
-    await mkdir(fontsDest, { recursive: true });
-    await cp(fontsSource, fontsDest, { recursive: true });
-    console.log("copied brand fonts to dist/fonts/");
-  }
 
   console.log("creating uploads directory...");
   await mkdir(path.resolve(WORKSPACE, "uploads/docs"), { recursive: true });

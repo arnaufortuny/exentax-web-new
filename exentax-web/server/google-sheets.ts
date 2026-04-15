@@ -121,7 +121,7 @@ export function sheetsLogBookingUpdate(opts: {
     opts.email,
     "",
     "",
-    opts.action === "rescheduled" ? "Reagendada" : "Cancelada",
+    opts.action === "rescheduled" ? "rescheduled" : "cancelled",
     "",
     opts.rescheduleCount ?? "",
   ]).catch(err => logger.warn(`sheetsLogBookingUpdate catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));

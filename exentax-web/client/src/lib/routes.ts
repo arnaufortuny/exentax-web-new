@@ -1,4 +1,5 @@
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
+export type { SupportedLang };
 
 export type RouteKey =
   | "home"

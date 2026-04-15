@@ -2,14 +2,17 @@ export const SUPPORTED_LANGS: readonly string[] = ["es", "en", "fr", "de", "pt",
 export type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
 export const AGENDA_STATUSES = {
-  PENDIENTE: "Pendiente",
-  CANCELADA: "Cancelada",
-  REAGENDADA: "Reagendada",
-  NO_PRESENTADO: "No presentado",
+  PENDING: "pending",
+  CONTACTED: "contacted",
+  IN_PROGRESS: "in_progress",
+  CLOSED: "closed",
+  CANCELLED: "cancelled",
+  RESCHEDULED: "rescheduled",
+  NO_SHOW: "no_show",
 } as const;
 
 export function isCancelledStatus(status: string | null | undefined): boolean {
-  return status === AGENDA_STATUSES.CANCELADA || status === "Cancelado";
+  return status === AGENDA_STATUSES.CANCELLED;
 }
 
 export const LEAD_SOURCES = {

@@ -414,15 +414,15 @@ Middleware helpers: `requireAdmin` (any role), `requireFullAdmin` (admin/superad
 ### Booking Lifecycle
 
 ```
-Visitor books slot → Agenda created (Pendiente)
+Visitor books slot → Agenda created (pending)
   → Google Meet event created
   → Confirmation email sent
   → Lead auto-created or linked
   → Reminder email scheduled (3h before)
   → Meeting time passes:
-      ├─ Admin marks Contactado / En proceso / Cerrado
-      └─ No-show detected → status set to "No presentado" → reschedule email sent
-  → Admin can reschedule → new Meet link → status "Reagendada"
+      ├─ Admin marks contacted / in_progress / closed
+      └─ No-show detected → status set to "no_show" → reschedule email sent
+  → Admin can reschedule → new Meet link → status "rescheduled"
   → Visitor can self-reschedule or cancel via manage token URL
 ```
 

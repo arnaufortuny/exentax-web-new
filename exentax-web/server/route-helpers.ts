@@ -99,7 +99,7 @@ export function scheduleReminderEmail(data: {
       if (data.agendaId) {
         const { getAgendaById } = await import("./storage");
         const current = await getAgendaById(data.agendaId);
-        if (!current || isCancelledStatus(current.status) || current.status === AGENDA_STATUSES.NO_PRESENTADO) {
+        if (!current || isCancelledStatus(current.status) || current.status === AGENDA_STATUSES.NO_SHOW) {
           logger.info(`Skipping reminder — booking ${data.agendaId} is ${current?.status ?? "deleted"}`, "reminder");
           return;
         }

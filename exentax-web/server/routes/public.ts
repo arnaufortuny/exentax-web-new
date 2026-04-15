@@ -6,12 +6,12 @@ import { withTransaction } from "../db";
 import { eq } from "drizzle-orm";
 import * as schema from "../../shared/schema";
 import {
-  generateId, getAllDiasBloqueados, getDiaBloqueado, getBookedSlots, isSlotBooked,
+  generateId, getAllBlockedDays, getBlockedDay, getBookedSlots, isSlotBooked,
   hasExistingBooking, insertAgenda, insertLead,
-  insertVisita,
+  insertVisit,
   upsertNewsletterSubscriber,
   getAgendaByIdAndToken, updateAgenda,
-  findNewsletterByUnsubToken, updateNewsletterSuscriptor,
+  findNewsletterByUnsubToken, updateNewsletterSubscriber,
   insertConsentLog,
 } from "../storage";
 import { encryptField } from "../field-encryption";
@@ -73,7 +73,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   app.get("/api/bookings/blocked-days", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
-    const rows = await getAllDiasBloqueados();
+    const rows = await getAllBlockedDays();
     return apiOk(res, { data: rows.map(r => r.date).filter(Boolean) });
   }));
 
@@ -102,7 +102,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const [blockedDay, alreadyBooked] = await Promise.all([
-      getDiaBloqueado(date),
+      getBlockedDay(date),
       getBookedSlots(date),
     ]);
 
@@ -178,7 +178,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return apiFail(res, 400, backendLabel("cannotBookPastDate", resolveRequestLang(req)), "INVALID_DATE");
     }
 
-    const blockedDayCheck = await getDiaBloqueado(date);
+    const blockedDayCheck = await getBlockedDay(date);
     if (blockedDayCheck) {
       return apiFail(res, 400, backendLabel("dayNotAvailable", resolveRequestLang(req)), "DAY_BLOCKED");
     }
@@ -300,7 +300,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         });
 
         notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, lastName, email, phone, date, startTime, endTime, meetLink, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
-        sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDIENTE, meetLink });
+        sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDING, meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
           notifyConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
@@ -332,7 +332,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       horaInicio: row.startTime || "",
       horaFin: row.endTime || "",
       googleMeet: row.googleMeet || null,
-      estado: row.status || AGENDA_STATUSES.PENDIENTE,
+      estado: row.status || AGENDA_STATUSES.PENDING,
       isPast,
     });
   }));
@@ -368,7 +368,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const madridNow = nowMadrid();
     const todayStr = todayMadridISO();
     if (date < todayStr) return apiFail(res, 400, backendLabel("cannotReschedulePastDate", resolveRequestLang(req)), "PAST_DATE");
-    const blockedDay = await getDiaBloqueado(date);
+    const blockedDay = await getBlockedDay(date);
     if (blockedDay) return apiFail(res, 400, backendLabel("dateBlocked", resolveRequestLang(req)), "BLOCKED_DATE");
     const validSlots = generateTimeSlots();
     if (!validSlots.includes(startTime)) return apiFail(res, 400, backendLabel("invalidTimeSlotShort", resolveRequestLang(req)), "INVALID_TIME");
@@ -391,7 +391,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         meetingDate: date,
         startTime,
         endTime,
-        status: AGENDA_STATUSES.REAGENDADA,
+        status: AGENDA_STATUSES.RESCHEDULED,
         googleMeet: null,        // clear stale link immediately
         googleMeetEventId: null,
         rescheduleCount: newRescheduleCount,
@@ -487,7 +487,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       }
     }
     const cancelledAt = new Date().toISOString();
-    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELADA, cancelledAt });
+    await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
     }
@@ -597,7 +597,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       }
 
       const calcPhoneForCalc = parsed.data.phone || "";
-        await tx.insert(schema.calculadora).values({
+        await tx.insert(schema.calculations).values({
         id: calcLeadId,
         email: normalizedEmail,
         phone: calcPhoneForCalc ? encryptField(calcPhoneForCalc) : "",
@@ -754,7 +754,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
 
     const isNew = isNewVisitor(ip);
 
-    insertVisita({
+    insertVisit({
       date: timestamp,
       ip,
       page,
@@ -930,7 +930,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!subscriber) {
       return res.status(200).send(unsubscribeHtml(backendLabel("unsubAlreadyTitle", lang), backendLabel("unsubAlreadyMsg", lang), lang));
     }
-    await updateNewsletterSuscriptor(subscriber.id, { unsubscribedAt: new Date().toISOString() });
+    await updateNewsletterSubscriber(subscriber.id, { unsubscribedAt: new Date().toISOString() });
     logger.info(`Newsletter unsubscribe: ${subscriber.email.slice(0, 3)}***@${subscriber.email.split("@")[1] ?? ""}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));

@@ -47,11 +47,11 @@ export async function insertLead(data: s.InsertLead, txDb?: DbOrTx) {
   } catch (err) { throw wrapStorageError("insertLead", err); }
 }
 
-export async function insertVisita(data: s.InsertVisita) {
+export async function insertVisit(data: s.InsertVisit) {
   try {
-    const [row] = await db.insert(s.visitas).values(data).returning();
+    const [row] = await db.insert(s.visits).values(data).returning();
     return row;
-  } catch (err) { throw wrapStorageError("insertVisita", err); }
+  } catch (err) { throw wrapStorageError("insertVisit", err); }
 }
 
 
@@ -59,7 +59,7 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
   try {
     const id = generateId("NS");
     const unsubToken = crypto.randomBytes(24).toString("hex");
-    const [row] = await db.insert(s.newsletterSuscriptores).values({
+    const [row] = await db.insert(s.newsletterSubscribers).values({
       id,
       email,
       name: name || null,
@@ -68,14 +68,14 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
       unsubscribeToken: unsubToken,
       subscribedAt: new Date().toISOString(),
     }).onConflictDoUpdate({
-      target: s.newsletterSuscriptores.email,
+      target: s.newsletterSubscribers.email,
       set: {
         unsubscribedAt: null,
-        name: name || sql`${s.newsletterSuscriptores.name}`,
+        name: name || sql`${s.newsletterSubscribers.name}`,
         ...(interests && interests.length > 0 ? {
           interests: sql`COALESCE(
             (SELECT array_agg(DISTINCT u) FROM unnest(
-              COALESCE(${s.newsletterSuscriptores.interests}, '{}') || ${interests}::text[]
+              COALESCE(${s.newsletterSubscribers.interests}, '{}') || ${interests}::text[]
             ) AS u),
             '{}'
           )`,
@@ -88,16 +88,16 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
 
 export async function findNewsletterByUnsubToken(token: string) {
   try {
-    const rows = await db.select().from(s.newsletterSuscriptores)
-      .where(and(eq(s.newsletterSuscriptores.unsubscribeToken, token), sql`${s.newsletterSuscriptores.unsubscribedAt} IS NULL`))
+    const rows = await db.select().from(s.newsletterSubscribers)
+      .where(and(eq(s.newsletterSubscribers.unsubscribeToken, token), sql`${s.newsletterSubscribers.unsubscribedAt} IS NULL`))
       .limit(1);
     return rows[0] ?? null;
   } catch (err) { throw wrapStorageError("findNewsletterByUnsubToken", err); }
 }
 
-export async function updateNewsletterSuscriptor(id: string, updates: Partial<s.InsertNewsletterSuscriptor>) {
+export async function updateNewsletterSubscriber(id: string, updates: Partial<s.InsertNewsletterSubscriber>) {
   try {
-    const [row] = await db.update(s.newsletterSuscriptores).set(updates).where(eq(s.newsletterSuscriptores.id, id)).returning();
+    const [row] = await db.update(s.newsletterSubscribers).set(updates).where(eq(s.newsletterSubscribers.id, id)).returning();
     return row ?? null;
-  } catch (err) { throw wrapStorageError("updateNewsletterSuscriptor", err); }
+  } catch (err) { throw wrapStorageError("updateNewsletterSubscriber", err); }
 }
