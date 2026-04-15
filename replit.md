@@ -25,7 +25,7 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Security**: Helmet CSP/HSTS, CSRF origin check, rate limiting, AES-256-GCM field encryption
 
 ### Core Architectural Patterns
-- **Public-Only Architecture**: No admin panel, no client portal, no login pages. Backend serves only public routes.
+- **Admin Panel**: Token-based URL access (no login page). `ADMIN_TOKEN` env var required. Access via `/admin/agenda/:bookingId?adminToken=TOKEN`. Discord embeds include full admin links.
 - **Booking System**: Consultation booking with Google Meet integration, email confirmations, reminders.
 - **API Contract**: Uniform JSON `{ ok: true, data }` or `{ ok: false, error, code }` with Zod validation.
 - **Timezone**: Booking calendar uses `Europe/Madrid` timezone.
@@ -47,6 +47,7 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/index.ts` — Express server, startup, reminder recovery
 - `server/routes.ts` — Route registration, middleware
 - `server/routes/public.ts` — All public API endpoints (booking, newsletter, calculator, SEO, sitemap)
+- `server/routes/admin.ts` — Admin booking management (token auth, reschedule, cancel, no-show, emails)
 - `server/routes/shared.ts` — App settings, i18n labels, helpers
 - `server/email.ts` — 8 email types (booking, reminder, calculator, reschedule, cancellation, noshow, followup-steps, followup-review) via Gmail API
 - `server/email-i18n.ts` — Email translations for all 8 types × 6 languages (ES/EN/FR/DE/PT/CA)
@@ -69,13 +70,14 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Sitemap**: Generated dynamically by `server/routes/public.ts` — 492 URLs total (all routes × 6 langs + all blog posts × 6 langs), full `hreflang` alternates + x-default.
 - **robots.txt**: Generated dynamically by server — Disallows /api/, /links, /start, /booking/.
 - **Hreflang**: Server replaces template hreflang tags per page using dynamic `HREFLANG_STRIP_RE` regex (no hardcoded domain). Client-side SEO.tsx also injects hreflang for SPA navigation.
-- **Noindex**: Enforced for /start, /links, /booking/:token via both X-Robots-Tag header and meta robots content.
+- **Noindex**: Enforced for /start, /links, /booking/:token, /admin/ via both X-Robots-Tag header and meta robots content.
 - **Skip-to-content**: Accessibility link in Layout.tsx (`#main-content`).
 - **No legacy redirects**: All old Spanish-only paths removed. Every route exists exactly once under `/:lang/:slug`.
 
 ### Key Frontend Files
-- `client/src/App.tsx` — Public-only routes with lazy loading, no legacy redirects
+- `client/src/App.tsx` — Routes with lazy loading (public + admin), no legacy redirects
 - `client/src/pages/` — Landing pages, booking, legal, blog
+- `client/src/pages/admin/agenda.tsx` — Admin booking management page (no layout wrapper)
 - `client/src/components/layout/Navbar.tsx` — Public navbar (no client area)
 - `client/src/components/icons.tsx` — Custom SVG icons (no external icon libs)
 - `client/src/i18n/` — Internationalization (6 languages)
@@ -86,7 +88,7 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
   - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads
   - `DISCORD_WEBHOOK_CALCULADORA` → Calculator results with full financial data
   - `DISCORD_WEBHOOK_ACTIVIDAD` → Web visits (page, device, UTM, referrer, IP)
-  - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled with full details
+  - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin links
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings

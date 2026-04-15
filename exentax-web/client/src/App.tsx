@@ -24,6 +24,7 @@ const pageImports = {
   links: () => import("@/pages/go"),
   start: () => import("@/pages/start"),
   booking: () => import("@/pages/booking"),
+  adminAgenda: () => import("@/pages/admin/agenda"),
   notFound: () => import("@/pages/not-found"),
 };
 
@@ -43,6 +44,7 @@ const DisclaimerPage   = lazy(pageImports.legal_disclaimer);
 const LinksPage        = lazy(pageImports.links);
 const StartPage        = lazy(pageImports.start);
 const BookingPage      = lazy(pageImports.booking);
+const AdminAgendaPage  = lazy(pageImports.adminAgenda);
 const NotFound         = lazy(pageImports.notFound);
 
 const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<React.ComponentType>> = {
@@ -168,6 +170,9 @@ const AppRouter = memo(function AppRouter() {
       </Route>
       <Route path="/booking/:token">
         <Suspense fallback={<EmptyLoader />}><BookingPage /></Suspense>
+      </Route>
+      <Route path="/admin/agenda/:bookingId">
+        <Suspense fallback={<EmptyLoader />}><AdminAgendaPage /></Suspense>
       </Route>
 
       <Route path="/:lang/blog/:slug">

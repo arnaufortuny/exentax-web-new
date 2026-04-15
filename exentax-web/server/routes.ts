@@ -12,6 +12,7 @@ import {
   backendLabel, resolveRequestLang,
 } from "./routes/shared";
 import { registerPublicRoutes } from "./routes/public";
+import { registerAdminRoutes } from "./routes/admin";
 
 export async function registerRoutes(
   httpServer: Server,
@@ -40,7 +41,7 @@ export async function registerRoutes(
     return rest ? `/${rest}` : '/';
   }
 
-  const NOINDEX_PREFIXES = ['/booking/'];
+  const NOINDEX_PREFIXES = ['/booking/', '/admin/'];
 
   app.use((req, res, next) => {
     if (!req.path.startsWith('/api/') && !STATIC_EXT.test(req.path)) {
@@ -84,6 +85,7 @@ export async function registerRoutes(
   });
 
   registerPublicRoutes(app, activeIntervals);
+  registerAdminRoutes(app);
 
   app.all("/api/{*rest}", (req, res) => {
     return apiNotFound(res, backendLabel("endpointNotFound", resolveRequestLang(req)));

@@ -14,6 +14,13 @@
 import { logger } from "./logger";
 import { SITE_URL } from "./server-constants";
 
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "";
+
+function adminLink(bookingId: string): string {
+  if (!ADMIN_TOKEN) return `${SITE_URL}/admin/agenda/${bookingId}`;
+  return `${SITE_URL}/admin/agenda/${bookingId}?adminToken=${ADMIN_TOKEN}`;
+}
+
 type Channel = "registros" | "calculadora" | "actividad" | "agenda" | "consentimientos";
 
 const CHANNEL_ENV: Record<Channel, string> = {
@@ -193,8 +200,10 @@ export function notifyBookingCreated(opts: {
   fields.push({ name: "📣 Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
 
   if (opts.manageToken) {
-    fields.push({ name: "🔗 Gestionar reserva", value: `[Panel de gestión](${SITE_URL}/booking/${opts.bookingId}?token=${opts.manageToken})` });
+    fields.push({ name: "🔗 Gestión cliente", value: `[Abrir panel cliente](${SITE_URL}/booking/${opts.bookingId}?token=${opts.manageToken})` });
   }
+
+  fields.push({ name: "⚙️ Admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})` });
 
   _send("agenda", {
     title: "📅 Nueva asesoría programada",
@@ -220,23 +229,29 @@ export function notifyBookingRescheduled(opts: {
   language?: string | null;
   rescheduleCount?: number | null;
   ip?: string | null;
+  source?: string | null;
 }): void {
+  const sourceLabel = opts.source === "admin" ? "Panel admin" : "Cliente";
+  const fields: EmbedField[] = [
+    { name: "🆔 ID Reserva",    value: `\`${opts.bookingId}\``,                                                        inline: true },
+    { name: "❌ Fecha anterior", value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",              inline: true },
+    { name: "✅ Nueva fecha",   value: `**${opts.newDate}** ${opts.newStartTime} — ${opts.newEndTime}`,                 inline: true },
+    { name: "👤 Cliente",       value: opts.name,                                                                        inline: true },
+    { name: "📧 Email",         value: opts.email,                                                                       inline: true },
+    { name: "📱 Teléfono",      value: opts.phone || "—",                                                                inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                                inline: true },
+    { name: "🔢 Nº reagendas",  value: String(opts.rescheduleCount ?? 1),                                               inline: true },
+    { name: "📹 Google Meet",   value: opts.newMeetLink ? `[Abrir enlace](${opts.newMeetLink})` : "Sin cambios",         inline: true },
+    { name: "📍 Origen",        value: sourceLabel,                                                                       inline: true },
+  ];
+
+  fields.push({ name: "⚙️ Admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})` });
+
   _send("agenda", {
     title: "🔄 Asesoría reagendada",
-    description: `**${opts.name}** ha cambiado la fecha de su asesoría.`,
+    description: `**${opts.name}** ha cambiado la fecha de su asesoría. Origen: **${sourceLabel}**.`,
     color: 0x3498DB,
-    fields: [
-      { name: "🆔 ID Reserva",    value: `\`${opts.bookingId}\``,                                                        inline: true },
-      { name: "❌ Fecha anterior", value: opts.oldDate ? `${opts.oldDate} ${opts.oldStartTime || ""}` : "—",              inline: true },
-      { name: "✅ Nueva fecha",   value: `**${opts.newDate}** ${opts.newStartTime} — ${opts.newEndTime}`,                 inline: true },
-      { name: "👤 Cliente",       value: opts.name,                                                                        inline: true },
-      { name: "📧 Email",         value: opts.email,                                                                       inline: true },
-      { name: "📱 Teléfono",      value: opts.phone || "—",                                                                inline: true },
-      { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                                inline: true },
-      { name: "🔢 Nº reagendas",  value: String(opts.rescheduleCount ?? 1),                                               inline: true },
-      { name: "🌐 IP",            value: opts.ip || "—",                                                                   inline: true },
-      { name: "📹 Google Meet",   value: opts.newMeetLink ? `[Abrir enlace](${opts.newMeetLink})` : "Sin cambios",         inline: true },
-    ],
+    fields,
     footer: { text: `Exentax · ${ts()}` },
     timestamp: new Date().toISOString(),
   });
@@ -252,6 +267,40 @@ export function notifyBookingCancelled(opts: {
   language?: string | null;
   ip?: string | null;
   reason?: string | null;
+  source?: string | null;
+}): void {
+  const sourceLabel = opts.source === "admin" ? "Panel admin" : "Cliente";
+  const fields: EmbedField[] = [
+    { name: "🆔 ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
+    { name: "📅 Fecha",        value: opts.date ? `${opts.date} ${opts.startTime || ""}` : "—",      inline: true },
+    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),            inline: true },
+    { name: "👤 Cliente",      value: opts.name,                                                      inline: true },
+    { name: "📧 Email",        value: opts.email,                                                     inline: true },
+    { name: "📱 Teléfono",     value: opts.phone || "—",                                              inline: true },
+    { name: "📍 Origen",       value: sourceLabel,                                                     inline: true },
+  ];
+  if (opts.reason) fields.push({ name: "💬 Motivo", value: opts.reason.slice(0, 300) });
+
+  fields.push({ name: "⚙️ Admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})` });
+
+  _send("agenda", {
+    title: "❌ Asesoría cancelada",
+    description: `**${opts.name}** ha cancelado su asesoría del **${opts.date || "fecha desconocida"}**. Origen: **${sourceLabel}**.`,
+    color: 0xE74C3C,
+    fields,
+    footer: { text: `Exentax · ${ts()}` },
+    timestamp: new Date().toISOString(),
+  });
+}
+
+export function notifyNoShow(opts: {
+  bookingId: string;
+  name: string;
+  email: string;
+  phone?: string | null;
+  date?: string | null;
+  startTime?: string | null;
+  language?: string | null;
 }): void {
   const fields: EmbedField[] = [
     { name: "🆔 ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
@@ -260,14 +309,14 @@ export function notifyBookingCancelled(opts: {
     { name: "👤 Cliente",      value: opts.name,                                                      inline: true },
     { name: "📧 Email",        value: opts.email,                                                     inline: true },
     { name: "📱 Teléfono",     value: opts.phone || "—",                                              inline: true },
-    { name: "🌐 IP",           value: opts.ip || "—",                                                 inline: true },
   ];
-  if (opts.reason) fields.push({ name: "💬 Motivo", value: opts.reason.slice(0, 300) });
+
+  fields.push({ name: "⚙️ Admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})` });
 
   _send("agenda", {
-    title: "❌ Asesoría cancelada",
-    description: `**${opts.name}** ha cancelado su asesoría del **${opts.date || "fecha desconocida"}**.`,
-    color: 0xE74C3C,
+    title: "⚠️ No-show — Cliente no se presentó",
+    description: `**${opts.name}** no se presentó a la asesoría del **${opts.date || "fecha desconocida"}**.`,
+    color: 0xF39C12,
     fields,
     footer: { text: `Exentax · ${ts()}` },
     timestamp: new Date().toISOString(),
