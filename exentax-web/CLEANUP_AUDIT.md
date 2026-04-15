@@ -10,10 +10,13 @@ Comprehensive audit of dead code, routes, i18n, Discord webhooks, booking/Google
 - **Fix**: Removed `it|` from all regex patterns, now correctly matching `es|en|fr|de|pt|ca`
 - **Lines**: 98, 208, 223, 240, 241
 
-### 2. Stale Italian hreflang tag — `client/index.html`
-- **Issue**: `<link rel="alternate" hreflang="it" href="https://exentax.com" />` hardcoded in HTML template
-- **Fix**: Removed the line entirely
-- **Verification**: `curl /es/blog | grep hreflang` shows no Italian tag
+### 2. Stale Italian references — `client/index.html`
+- **Issue**: Three Italian references in HTML template despite Italian not being a supported language:
+  - `<link rel="alternate" hreflang="it" href="https://exentax.com" />`
+  - `<meta property="og:locale:alternate" content="it_IT" />`
+  - `"knowsLanguage": ["es", "en", "fr", "de", "pt", "it", "ca"]` (x2 in JSON-LD)
+- **Fix**: Removed all 4 Italian references
+- **Verification**: `curl / | grep -o 'hreflang="[^"]*"'` and `og:locale` both show no Italian
 
 ### 3. Duplicate `escapeHtml` function — `server/routes/public.ts`
 - **Issue**: Local `escapeHtml` duplicated the one in `routes/shared.ts`
