@@ -2,4 +2,3 @@ export { generateId, normalizeEmail, StorageError, NotFoundError, ValidationErro
 export * from "./scheduling";
 export * from "./marketing";
 export * from "./legal";
-export type { ConsentLogEntry } from "./marketing";

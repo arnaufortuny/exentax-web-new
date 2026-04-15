@@ -267,8 +267,3 @@ export function meetBlock(meetLink: string | null, lang = "es"): string {
     </td></tr>
   </table>`;
 }
-
-export function fmt(amount: number, lang = "es", currency = "EUR"): string {
-  const localeMap: Record<string, string> = { es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", pt: "pt-PT", ca: "ca-ES" };
-  return new Intl.NumberFormat(localeMap[lang] || "es-ES", { style: "currency", currency, maximumFractionDigits: 0 }).format(amount);
-}
