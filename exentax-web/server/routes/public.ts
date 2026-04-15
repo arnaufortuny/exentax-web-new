@@ -357,11 +357,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         if (endH < nowH || (endH === nowH && endM <= nowM)) return apiFail(res, 400, backendLabel("cannotReschedulePast", resolveRequestLang(req)), "PAST_BOOKING");
       }
     }
-    const schema = z.object({
+    const rescheduleSchema = z.object({
       date: z.string().regex(ISO_DATE_RE, "zodInvalidDate").refine(isValidISODate, "zodInvalidDate"),
       startTime: z.string().regex(/^\d{2}:\d{2}$/, "zodInvalidTime"),
     }).strict();
-    const parsed = schema.safeParse(req.body);
+    const parsed = rescheduleSchema.safeParse(req.body);
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { date, startTime } = parsed.data;
     if (!isWeekday(date)) return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
@@ -565,8 +565,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       const [existingLead] = await tx.select().from(schema.leads).where(eq(schema.leads.email, normalizedEmail)).limit(1);
       if (existingLead) {
         const newPhone = parsed.data.phone;
-          const phoneValue = newPhone ? encryptField(newPhone) : (existingLead.phone || "");
-          await tx.update(schema.leads).set({
+        const phoneValue = newPhone ? encryptField(newPhone) : (existingLead.phone || "");
+        await tx.update(schema.leads).set({
           usedCalculator: true,
           phone: phoneValue,
           privacyAccepted: parsed.data.privacyAccepted,
@@ -578,7 +578,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         }).where(eq(schema.leads.id, existingLead.id));
       } else {
         const calcPhone = parsed.data.phone || "";
-          await tx.insert(schema.leads).values({
+        await tx.insert(schema.leads).values({
           id: calcLeadId,
           firstName: normalizedEmail.split("@")[0],
           email: normalizedEmail,
@@ -597,7 +597,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       }
 
       const calcPhoneForCalc = parsed.data.phone || "";
-        await tx.insert(schema.calculations).values({
+      await tx.insert(schema.calculations).values({
         id: calcLeadId,
         email: normalizedEmail,
         phone: calcPhoneForCalc ? encryptField(calcPhoneForCalc) : "",

@@ -47,7 +47,8 @@ export function isFieldEncryptionEnabled(): boolean {
 }
 
 export function encryptField(plaintext: string | null | undefined): string | null {
-  if (!plaintext) return plaintext as string | null;
+  // null, undefined, and empty string all return null (nothing to encrypt)
+  if (!plaintext) return null;
 
   const key = getFieldKey();
   if (key.length === 0) return plaintext;

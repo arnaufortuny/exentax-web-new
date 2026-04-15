@@ -91,7 +91,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/reschedule", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, "No se puede reagendar una reserva cancelada", "BOOKING_CANCELLED");
@@ -219,7 +219,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/cancel", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     if (isCancelledStatus(row.status)) return apiFail(res, 400, "Ya está cancelada", "ALREADY_CANCELLED");
@@ -263,7 +263,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/no-show", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     if (row.status === "no_show") return apiFail(res, 400, "Ya marcada como no-show", "ALREADY_NO_SHOW");
@@ -293,7 +293,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/send-noshow", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
 
@@ -308,7 +308,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/resend-confirmation", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
 

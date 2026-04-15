@@ -68,14 +68,6 @@ export class CircuitBreaker {
     }
   }
 
-  getStatus(): { name: string; state: CircuitState; failureCount: number; threshold: number } {
-    return {
-      name: this.opts.name,
-      state: this.currentState,
-      failureCount: this.failureCount,
-      threshold: this.opts.failureThreshold,
-    };
-  }
 }
 
 export const googleCalendarBreaker = new CircuitBreaker({

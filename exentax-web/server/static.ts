@@ -6,14 +6,12 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
-import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath, ROUTE_SLUGS, ALL_ROUTE_KEYS } from "./route-slugs";
-import type { SupportedLang as RouteLang } from "./server-constants";
+import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "./route-slugs";
+import type { SupportedLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
 import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL } from "./server-constants";
-
-type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
 function markdownToHtml(md: string): string {
   const lines = md.split("\n");
@@ -230,7 +228,7 @@ function injectMeta(html: string, reqPath: string): string {
     const resolved = resolveServerRoute(cleanPath);
     if (resolved) {
       const nonBlogHreflang = SUPPORTED.map(lang =>
-        `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}${getLocalizedPath(resolved.key, lang as RouteLang)}" />`
+        `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}${getLocalizedPath(resolved.key, lang as SupportedLang)}" />`
       ).join("\n    ");
       const nonBlogXDefault = `<link rel="alternate" hreflang="x-default" href="${BASE_URL}${getLocalizedPath(resolved.key, "es")}" />`;
       html = html.replace('</head>', `    ${nonBlogHreflang}\n    ${nonBlogXDefault}\n  </head>`);

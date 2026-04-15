@@ -265,9 +265,6 @@ activeIntervals.push(setInterval(() => {
 
 registerCleanupIntervals(activeIntervals);
 
-function log(message: string, source = "express") {
-  logger.info(message, source);
-}
 
 app.use((req, res, next) => {
   const start = Date.now();
@@ -306,7 +303,7 @@ httpServer.listen(
     host: "0.0.0.0",
   },
   () => {
-    log(`listening on port ${port}`);
+    logger.info(`listening on port ${port}`, "express");
   },
 );
 
@@ -324,8 +321,8 @@ httpServer.listen(
           "https://www.google.com/ping?sitemap=https%3A%2F%2Fexentax.com%2Fsitemap.xml",
           "https://www.bing.com/ping?sitemap=https%3A%2F%2Fexentax.com%2Fsitemap.xml",
         ];
-        urls.forEach(url => fetch(url).catch(e => log(`Sitemap ping failed for ${url}: ${e instanceof Error ? e.message : String(e)}`)));
-        log("Sitemap pings sent (Google + Bing)");
+        urls.forEach(url => fetch(url).catch(e => logger.info(`Sitemap ping failed for ${url}: ${e instanceof Error ? e.message : String(e)}`, "express")));
+        logger.info("Sitemap pings sent (Google + Bing)", "express");
       }, 5000);
     } else {
       const { setupVite } = await import("./vite");
@@ -362,10 +359,10 @@ httpServer.listen(
     });
 
     serverReady = true;
-    log(`fully initialized`);
+    logger.info("fully initialized", "express");
 
     import("./storage").then(({ seedInitialLegalVersions }) => {
-      seedInitialLegalVersions().then(() => log("Legal document versions seeded.")).catch(e => logger.error("legal version seed failed", "startup", e));
+      seedInitialLegalVersions().then(() => logger.info("Legal document versions seeded.", "startup")).catch(e => logger.error("legal version seed failed", "startup", e));
     });
 
     (async function recoverPendingReminders() {
@@ -397,14 +394,14 @@ httpServer.listen(
           });
           scheduled++;
         }
-        if (scheduled > 0) log(`Recovered ${scheduled} pending meeting reminders`);
+        if (scheduled > 0) logger.info(`Recovered ${scheduled} pending meeting reminders`, "express");
       } catch (err) {
         logger.error("Failed to recover pending reminders", "startup", err);
       }
     })();
 
   } catch (err) {
-    log(`Fatal startup error: ${(err as Error).message}`, "error");
+    logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);
   }
 })();

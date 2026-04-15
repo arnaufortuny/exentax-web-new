@@ -672,23 +672,3 @@ export function notifyCriticalError(opts: {
   });
 }
 
-// ═════════════════════════════════════════════════════════════════════════════
-// EVENTOS DE SISTEMA
-// ═════════════════════════════════════════════════════════════════════════════
-
-export function notifySystemEvent(opts: {
-  title: string;
-  description: string;
-  type?: "info" | "warning" | "success";
-  fields?: EmbedField[];
-}): void {
-  const colorMap = { info: COLOR.BLUE, warning: COLOR.ORANGE, success: COLOR.GREEN };
-
-  send("registros", {
-    title: opts.title,
-    description: opts.description,
-    color: colorMap[opts.type || "info"],
-    fields: opts.fields || [],
-    timestamp: new Date().toISOString(),
-  });
-}

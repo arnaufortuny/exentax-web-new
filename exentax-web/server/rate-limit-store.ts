@@ -46,11 +46,13 @@ class MemoryStore implements RateLimitStore {
 
   async cleanup(): Promise<void> {
     const now = Date.now();
+    let cleaned = 0;
     for (const map of this.maps.values()) {
       for (const [k, entry] of map.entries()) {
-        if (now > entry.resetAt) map.delete(k);
+        if (now > entry.resetAt) { map.delete(k); cleaned++; }
       }
     }
+    if (cleaned > 0) logger.debug(`Rate limit cleanup: removed ${cleaned} expired entries`, "rate-limit");
   }
 }
 

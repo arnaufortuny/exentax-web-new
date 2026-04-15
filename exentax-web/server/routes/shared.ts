@@ -121,10 +121,6 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     es: "Error en la operacion de almacenamiento", en: "Storage operation failed", fr: "Echec de l'operation de stockage",
     de: "Speichervorgang fehlgeschlagen", pt: "Falha na operacao de armazenamento", ca: "Error en l'operacio d'emmagatzematge",
   },
-  zodNameRequired: {
-    es: "El nombre es obligatorio", en: "Name is required", fr: "Le nom est obligatoire",
-    de: "Name ist erforderlich", pt: "O nome e obrigatorio", ca: "El nom es obligatori",
-  },
   zodInvalidEmail: {
     es: "Correo electronico no valido", en: "Invalid email", fr: "Email invalide",
     de: "Ungueltige E-Mail", pt: "Email invalido", ca: "Correu electronic no valid",
@@ -201,10 +197,6 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     es: "La nota es demasiado larga", en: "Note is too long", fr: "La note est trop longue",
     de: "Notiz ist zu lang", pt: "A nota e muito longa", ca: "La nota es massa llarga",
   },
-  missingFields: {
-    es: "Faltan campos obligatorios", en: "Missing required fields", fr: "Champs obligatoires manquants",
-    de: "Pflichtfelder fehlen", pt: "Campos obrigatorios em falta", ca: "Falten camps obligatoris",
-  },
   tooManyRequestsWait: {
     es: "Demasiadas solicitudes. Por favor, espera unos minutos.",
     en: "Too many requests. Please wait a few minutes.",
@@ -212,10 +204,6 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     de: "Zu viele Anfragen. Bitte warten Sie einige Minuten.",
     pt: "Muitas solicitacoes. Por favor, aguarde alguns minutos.",
     ca: "Massa sol-licituds. Si us plau, espereu uns minuts.",
-  },
-  validEmailRequired: {
-    es: "Se requiere un email valido", en: "Valid email required", fr: "Email valide requis",
-    de: "Gueltige E-Mail erforderlich", pt: "Email valido obrigatorio", ca: "Cal un email valid",
   },
   unsubError: {
     es: "Error", en: "Error", fr: "Erreur", de: "Fehler", pt: "Erro", ca: "Error",

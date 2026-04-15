@@ -52,8 +52,6 @@ export function sanitizeInPlace(obj: any, depth = 0): void {
   }
 }
 
-const SKIP_PATHS: string[] = [];
-
 function countKeys(obj: any, depth = 0): number {
   if (!obj || typeof obj !== "object" || depth > MAX_DEPTH) return 0;
   if (obj instanceof Buffer || obj instanceof Uint8Array) return 0;
@@ -70,10 +68,6 @@ function countKeys(obj: any, depth = 0): number {
 }
 
 export function autoSanitizeMiddleware(req: Request, res: Response, next: NextFunction) {
-  if (SKIP_PATHS.some(p => req.path === p || req.path.startsWith(p))) {
-    return next();
-  }
-
   sanitizeInPlace(req.query);
   sanitizeInPlace(req.params);
 

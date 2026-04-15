@@ -34,7 +34,11 @@ interface LogEmailOpts {
 }
 
 function logEmail(opts: LogEmailOpts): void {
-  logger.debug(`email ${opts.status}: ${opts.type} → ${opts.to}`, "email");
+  const parts = [`email ${opts.status}: ${opts.type} → ${opts.to}`];
+  if (opts.clientName) parts.push(`client=${opts.clientName}`);
+  if (opts.relatedId) parts.push(`ref=${opts.relatedType || "unknown"}:${opts.relatedId}`);
+  if (opts.error) parts.push(`err=${opts.error.slice(0, 120)}`);
+  logger.debug(parts.join(" | "), "email");
 }
 
 let gmailClient: ReturnType<typeof google.gmail> | null = null;
@@ -290,7 +294,6 @@ interface CalculatorEmailData {
   conLLC: number;
   localLabel: string;
   breakdown: Array<{ label: string; amount: number }>;
-  gastosDeducibles?: number;
   calcSpainIrpf?: boolean;
   clientIp?: string | null;
   privacyAccepted?: boolean;

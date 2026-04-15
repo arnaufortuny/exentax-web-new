@@ -100,9 +100,13 @@ export async function createGoogleMeetEvent(params: MeetEventParams): Promise<Me
 }
 
 async function _createGoogleMeetEventInternal(params: MeetEventParams): Promise<MeetEventResult | null> {
+  if (!params.clientEmail || !params.date || !params.startTime || !params.endTime) {
+    logger.warn("Missing required params for Meet event creation", "meet");
+    return null;
+  }
+
   const calendarId = process.env.GOOGLE_CALENDAR_ID || EMBEDDED_CALENDAR_ID;
 
-  // Deterministic: same inputs always produce same ID, so retries are idempotent
   const stableRequestId = `exentax-${crypto.createHash("sha256").update(`${params.clientEmail}|${params.date}|${params.startTime}`).digest("hex").slice(0, 16)}`;
 
   for (let attempt = 0; attempt < 2; attempt++) {
@@ -186,6 +190,11 @@ export async function deleteGoogleMeetEvent(eventId: string): Promise<boolean> {
 }
 
 async function _deleteGoogleMeetEventInternal(eventId: string): Promise<boolean> {
+  if (!eventId) {
+    logger.warn("Missing eventId for Meet event deletion", "meet");
+    return false;
+  }
+
   const calendarId = process.env.GOOGLE_CALENDAR_ID || EMBEDDED_CALENDAR_ID;
 
   for (let attempt = 0; attempt < 2; attempt++) {

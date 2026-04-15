@@ -35,6 +35,7 @@ export async function markReminderSent(agendaId: string) {
 
 export async function getAgendaByIdAndToken(id: string, token: string) {
   try {
+    if (!id || !token || typeof token !== "string") return null;
     const rows = await db.select().from(s.agenda)
       .where(eq(s.agenda.id, id))
       .limit(1);

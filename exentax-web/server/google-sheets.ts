@@ -66,8 +66,8 @@ async function appendRow(sheet: string, values: (string | number | null)[]): Pro
       requestBody: { values: [values.map(v => v === null ? "" : String(v))] },
     });
   } catch (err) {
-    logger.warn(`Sheets append failed [${sheet}]: ${err instanceof Error ? err.message : String(err)}`, "sheets");
-    _client = null; // reset so next call retries auth
+    logger.error(`Sheets append failed [${sheet}]: ${err instanceof Error ? err.message : String(err)}`, "sheets", err);
+    _client = null;
   }
 }
 

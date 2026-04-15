@@ -1,11 +1,9 @@
 import { SUPPORTED_LANGS, type SupportedLang } from "./server-constants";
 
-type Lang = SupportedLang;
-
-export function resolveEmailLang(lang?: string | null): Lang {
+export function resolveEmailLang(lang?: string | null): SupportedLang {
   if (!lang) return "es";
   const normalized = lang.split("-")[0].toLowerCase();
-  if (SUPPORTED_LANGS.includes(normalized)) return normalized as Lang;
+  if (SUPPORTED_LANGS.includes(normalized)) return normalized as SupportedLang;
   return "es";
 }
 
@@ -112,7 +110,7 @@ interface EmailTranslations {
   currencyFormatter: (amount: number) => string;
 }
 
-const translations: Record<Lang, EmailTranslations> = {
+const translations: Record<SupportedLang, EmailTranslations> = {
   es: {
     booking: {
       subjectPrefix: "Tu asesoría está confirmada",
@@ -983,4 +981,4 @@ export function resolveLocalLabel(raw: string, lang: string): string {
   return `${regLabel} ${prep} ${countryName}`;
 }
 
-export { type EmailTranslations, type Lang };
+export { type EmailTranslations };

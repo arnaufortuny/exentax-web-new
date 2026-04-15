@@ -150,7 +150,7 @@ export function isValidISODate(s: string): boolean {
 }
 
 export const PHONE_MAX_LENGTH = 30;
-const PHONE_MIN_DIGITS = 7;
+export const PHONE_MIN_DIGITS = 7;
 
 export function isValidPhone(val: string): boolean {
   if (val.length > PHONE_MAX_LENGTH) return false;
