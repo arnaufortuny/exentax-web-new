@@ -824,11 +824,6 @@ const es = {
  disclaimer:"Disclaimer",
  },
  newsletter: {
- addFile:"Adjuntar archivo",
- allSegments:"Todos los segmentos",
- attachments:"Archivos adjuntos",
- deleteSubTitle:"Eliminar suscriptor",
- fileTooLarge:"Archivo demasiado grande",
  title:"Mantente al día",
  desc:"Consejos fiscales, novedades y guías directamente en tu bandeja de entrada.",
  placeholder:"Tu email",

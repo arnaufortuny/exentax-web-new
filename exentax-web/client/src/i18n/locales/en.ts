@@ -824,11 +824,6 @@ const en = {
       disclaimer: "Disclaimer"
     },
     newsletter: {
-      addFile: "Attach file",
-      allSegments: "All segments",
-      attachments: "Attachments",
-      deleteSubTitle: "Delete subscriber",
-      fileTooLarge: "File too large",
       title: "Stay up to date",
       desc: "Tax tips, news and guides delivered straight to your inbox.",
       placeholder: "Your email",

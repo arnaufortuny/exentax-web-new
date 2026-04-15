@@ -70,26 +70,7 @@ export function getEquivalentPath(currentPath: string, targetLang: SupportedLang
   return `/${targetLang}`;
 }
 
-export function getRouteKeyFromPath(path: string): RouteKey | null {
-  const resolved = resolveRoute(path.replace(/\/+$/, "") || "/");
-  return resolved ? resolved.key : null;
-}
-
 export function getLangFromPath(pathname: string): SupportedLang | null {
   const seg = pathname.split("/")[1] as SupportedLang;
   return seg && SUPPORTED_LANGS.includes(seg) ? seg : null;
-}
-
-export function isLocalizedRoute(path: string): boolean {
-  return resolveRoute(path) !== null;
-}
-
-export function getAllPathsForKey(key: RouteKey): string[] {
-  return SUPPORTED_LANGS.map(lang => getLocalizedPath(key, lang));
-}
-
-export function getCurrentLangFromUrl(): SupportedLang {
-  const path = typeof window !== "undefined" ? window.location.pathname : "/";
-  const lang = getLangFromPath(path);
-  return lang || "es";
 }

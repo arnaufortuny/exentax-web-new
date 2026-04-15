@@ -829,11 +829,6 @@ const ca = {
       disclaimer: "Disclaimer",
     },
     newsletter: {
-      addFile: "Adjuntar fitxer",
-      allSegments: "Tots els segments",
-      attachments: "Fitxers adjunts",
-      deleteSubTitle: "Eliminar subscriptor",
-      fileTooLarge: "Fitxer massa gran",
       title: "Mantén-te al dia",
       desc: "Consells fiscals, novetats i guies directament a la teva safata d'entrada.",
       placeholder: "El teu email",

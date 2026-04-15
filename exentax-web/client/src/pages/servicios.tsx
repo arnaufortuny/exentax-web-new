@@ -1,9 +1,10 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { CONTACT } from "@/lib/constants";
 import HeroStats, { useStatsPrecios } from "@/components/sections/HeroStats";
 import SEO from "@/components/SEO";
+import AccordionItem from "@/components/sections/AccordionItem";
 import { useLangPath } from "@/hooks/useLangPath";
 import { useReveal } from "@/hooks/useReveal";
 
@@ -16,81 +17,11 @@ function GreenCheck() {
   );
 }
 
-function ChevronDown({ open }: { open: boolean }) {
-  return (
-    <svg
-      width={20}
-      height={20}
-      viewBox="0 0 20 20"
-      fill="none"
-      className={`flex-shrink-0 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
-    >
-      <path d="M5 8l5 5 5-5" stroke="#00E510" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 interface FAQItem {
   q: string;
   paragraphs: string[];
   list?: string[];
   note?: string;
-}
-
-function FAQAccordionItem({ faq, index, isOpen, onToggle }: { faq: FAQItem; index: number; isOpen: boolean; onToggle: () => void }) {
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-  const rafRef = useRef(0);
-
-  useEffect(() => {
-    cancelAnimationFrame(rafRef.current);
-    if (!contentRef.current) return;
-    if (isOpen) {
-      rafRef.current = requestAnimationFrame(() => {
-        if (contentRef.current) setHeight(contentRef.current.scrollHeight);
-      });
-    } else {
-      setHeight(0);
-    }
-    return () => cancelAnimationFrame(rafRef.current);
-  }, [isOpen]);
-
-  return (
-    <div
-      className="border border-[rgba(0,229,16,0.18)] rounded-[var(--radius-lg)] transition-colors duration-150"
-      data-testid={`precios-faq-item-${index}`}
-    >
-      <button
-        onClick={onToggle}
-        className="w-full flex items-center justify-between gap-4 py-4 px-4 text-left font-body font-semibold text-base text-[var(--text-1)] hover:text-[#00E510] transition-colors duration-150"
-        aria-expanded={isOpen}
-        data-testid={`precios-faq-trigger-${index}`}
-      >
-        <span>{faq.q}</span>
-        <ChevronDown open={isOpen} />
-      </button>
-      <div
-        className="overflow-hidden transition-[max-height,opacity] duration-300 ease-out"
-        style={{ maxHeight: height, opacity: isOpen ? 1 : 0 }}
-      >
-        <div ref={contentRef}>
-          <div className="text-[var(--text-2)] text-base leading-relaxed px-4 pb-4">
-            {faq.paragraphs.map((p) => (
-              <p key={p} className="mb-3">{p}</p>
-            ))}
-            {faq.list && faq.list.length > 0 && (
-              <ul className="list-disc pl-5 space-y-1.5 mb-3">
-                {faq.list.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            )}
-            {faq.note && <p>{faq.note}</p>}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 }
 
 function IconPrivacidad() {
@@ -523,13 +454,29 @@ function PricingFAQSection() {
 
         <div className="space-y-3 reveal">
           {Array.isArray(faqItems) && faqItems.map((faq, i) => (
-            <FAQAccordionItem
+            <AccordionItem
               key={faq.q}
-              index={i}
-              faq={faq}
+              id={`precios-${i}`}
+              question={faq.q}
               isOpen={openIndex === i}
               onToggle={() => setOpenIndex(openIndex === i ? null : i)}
-            />
+              testIdPrefix="precios-faq"
+              variant="card"
+            >
+              <div className="text-[var(--text-2)] text-base leading-relaxed px-5 pb-5">
+                {faq.paragraphs.map((p) => (
+                  <p key={p} className="mb-3">{p}</p>
+                ))}
+                {faq.list && faq.list.length > 0 && (
+                  <ul className="list-disc pl-5 space-y-1.5 mb-3">
+                    {faq.list.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+                {faq.note && <p>{faq.note}</p>}
+              </div>
+            </AccordionItem>
           ))}
         </div>
 

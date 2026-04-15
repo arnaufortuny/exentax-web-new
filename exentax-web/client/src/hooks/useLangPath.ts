@@ -26,7 +26,3 @@ export function useLangPath() {
     [lang],
   );
 }
-
-export function useCurrentRouteLang(): SupportedLang {
-  return useCurrentLang();
-}

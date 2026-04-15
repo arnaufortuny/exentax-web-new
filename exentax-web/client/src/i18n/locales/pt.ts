@@ -829,11 +829,6 @@ const pt = {
       disclaimer: "Aviso legal",
     },
     newsletter: {
-      addFile: "Anexar arquivo",
-      allSegments: "Todos os segmentos",
-      attachments: "Anexos",
-      deleteSubTitle: "Eliminar assinante",
-      fileTooLarge: "Ficheiro demasiado grande",
       title: "Fique atualizado",
       desc: "Dicas fiscais, novidades e guias diretamente na sua caixa de entrada.",
       placeholder: "Seu email",

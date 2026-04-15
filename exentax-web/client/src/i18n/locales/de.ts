@@ -825,11 +825,6 @@ const de = {
       disclaimer: "Haftungsausschluss",
     },
     newsletter: {
-      addFile: "Datei anhängen",
-      allSegments: "Alle Segmente",
-      attachments: "Anhänge",
-      deleteSubTitle: "Abonnent löschen",
-      fileTooLarge: "Datei zu groß",
       title: "Bleiben Sie auf dem Laufenden",
       desc: "Steuertipps, Neuigkeiten und Leitfaden direkt in Ihr Postfach.",
       placeholder: "Ihre E-Mail",

@@ -825,11 +825,6 @@ const fr = {
       disclaimer: "Avertissement",
     },
     newsletter: {
-      addFile: "Joindre un fichier",
-      allSegments: "Tous les segments",
-      attachments: "Pièces jointes",
-      deleteSubTitle: "Supprimer l'abonné",
-      fileTooLarge: "Fichier trop volumineux",
       title: "Restez informé",
       desc: "Conseils fiscaux, actualités et guides directement dans votre boîte mail.",
       placeholder: "Votre email",
