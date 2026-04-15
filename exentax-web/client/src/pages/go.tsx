@@ -90,6 +90,7 @@ export default function GoPage() {
             navigator.clipboard.writeText(window.location.href);
           }
         }}
+        aria-label={t("blogPost.share")}
         className="absolute top-5 right-5 w-10 h-10 rounded-full border border-[var(--border)] flex items-center justify-center text-[var(--text-3)] active:text-[var(--text-1)] active:border-[#00E510]/40 transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
         data-testid="button-share"
       >
@@ -183,16 +184,16 @@ export default function GoPage() {
         </div>
 
         <div className="flex items-center justify-center gap-3 mt-6">
-          <a href={`mailto:${CONTACT.EMAIL}`} className={iconCircle} data-testid="icon-email">
+          <a href={`mailto:${CONTACT.EMAIL}`} aria-label={t("footer.social.email")} className={iconCircle} data-testid="icon-email">
             <EmailIcon />
           </a>
-          <a href={SOCIAL.INSTAGRAM} target="_blank" rel="noopener noreferrer" className={iconCircle} data-testid="icon-instagram">
+          <a href={SOCIAL.INSTAGRAM} target="_blank" rel="noopener noreferrer" aria-label={t("footer.social.instagram")} className={iconCircle} data-testid="icon-instagram">
             <InstagramIcon />
           </a>
-          <a href={SOCIAL.TIKTOK} target="_blank" rel="noopener noreferrer" className={iconCircle} data-testid="icon-tiktok">
+          <a href={SOCIAL.TIKTOK} target="_blank" rel="noopener noreferrer" aria-label={t("footer.social.tiktok")} className={iconCircle} data-testid="icon-tiktok">
             <TikTokIcon />
           </a>
-          <a href={SOCIAL.FACEBOOK} target="_blank" rel="noopener noreferrer" className={iconCircle} data-testid="icon-facebook">
+          <a href={SOCIAL.FACEBOOK} target="_blank" rel="noopener noreferrer" aria-label={t("footer.social.facebook")} className={iconCircle} data-testid="icon-facebook">
             <FacebookIcon />
           </a>
         </div>

@@ -1,11 +1,8 @@
 const en = {
   common: {
     search: "Search...",
-    loading: "Loading...",
     selectLanguage: "Select language",
     changeLanguage: "Change language",
-    yes: "Yes",
-    no: "No",
     mainNavigation: "Main navigation",
     banksCarousel: "Banks carousel",
     banksCarouselLabel: "Partners we work with",
@@ -22,8 +19,6 @@ const en = {
   },
   legal: {
     downloadPdf: "Download PDF",
-    lastUpdated: "Last updated",
-    version: "Version",
     terminos: {
       title: "Terms and Conditions",
       seoTitle: "Terms and Conditions | Exentax",
@@ -800,13 +795,11 @@ const en = {
     menuLabel: "Navigation menu",
     mobileHome: "International tax structure",
     language: "Language",
-    more: "More",
   },
   footer: {
     navigation: "Navigation",
     legal: "Legal",
     contact: "Community",
-    partners: "Partners",
     desc: "International taxation for digital businesses operating without borders. Formation, banking and annual compliance. Everything documented. Everything clear.",
     companyLinks: {
       home: "International tax structure",
@@ -825,7 +818,6 @@ const en = {
     },
     newsletter: {
       title: "Stay up to date",
-      desc: "Tax tips, news and guides delivered straight to your inbox.",
       placeholder: "Your email",
       button: "Subscribe",
       success: "You have subscribed successfully.",
@@ -837,13 +829,8 @@ const en = {
       marketingCheck: "I agree to receive commercial communications from Exentax. Optional.",
       loading: "Sending...",
     },
-    cta: {
-      headline: "Your next satisfactory tax return starts here.",
-      desc: "We analyze your case, design the structure that best fits you and take care of everything: formation, banking, compliance and filings. 30 minutes that can change how you manage your taxes forever.",
-      book: "Book your consultation",
-      whatsapp: "Talk on WhatsApp"
-    },
     social: {
+      email: "Email",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -909,7 +896,6 @@ const en = {
       headline: "3 days",
       desc: "That's how long it takes us, on average, to get your structure ready to operate. No endless processes. No runaround. No absurd bureaucracy."
     },
-    viewStat: "View stat {{n}}",
     cards: [
       { title: "No clear strategy", desc: "You're not optimizing. You're just adapting.\nDecisions are made late, without structure or long-term clarity." },
       { title: "Structure lagging", desc: "Your business grows, but your setup stays behind.\nAnd that gap quietly costs you more every single month." },

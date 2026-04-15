@@ -5,11 +5,8 @@
 const pt = {
   common: {
     search: "Pesquisar...",
-    loading: "A carregar...",
     selectLanguage: "Selecionar idioma",
     changeLanguage: "Mudar idioma",
-    yes: "Sim",
-    no: "Não",
     mainNavigation: "Navegação principal",
     banksCarousel: "Carrossel de bancos",
     banksCarouselLabel: "Parceiros com quem trabalhamos",
@@ -26,8 +23,6 @@ const pt = {
   },
   legal: {
     downloadPdf: "Baixar PDF",
-    lastUpdated: "Última atualização",
-    version: "Versão",
     terminos: {
       title: "Termos e condições",
       seoTitle: "Termos e condições | Exentax",
@@ -804,14 +799,12 @@ const pt = {
     menuLabel: "Menu de navegação",
     mobileHome: "Estrutura fiscal internacional",
     language: "Língua",
-    more: "Mais",
   },
   footer: {
 
     navigation: "Navegação",
     legal: "Legal",
     contact: "Comunidade",
-    partners: "Parceiros",
     desc: "Fiscalidade internacional para negócios digitais que operam sem fronteiras. Constituição, banco e conformidade anual. Tudo documentado. Tudo claro.",
     companyLinks: {
       home: "Estrutura fiscal internacional",
@@ -830,7 +823,6 @@ const pt = {
     },
     newsletter: {
       title: "Fique atualizado",
-      desc: "Dicas fiscais, novidades e guias diretamente na sua caixa de entrada.",
       placeholder: "Seu email",
       button: "Inscrever-se",
       success: "Você se inscreveu com sucesso.",
@@ -842,13 +834,8 @@ const pt = {
       marketingCheck: "Aceito receber comunicações comerciais da Exentax. Opcional.",
       loading: "A enviar...",
     },
-    cta: {
-      headline: "A sua próxima declaração fiscal satisfatória começa aqui.",
-      desc: "Analisamos o seu caso, desenhamos a estrutura que melhor se adapta a si e tratamos de tudo: constituição, banca, compliance e declarações. 30 minutos que podem mudar a forma como gere os seus impostos para sempre.",
-      book: "Reserve a sua consulta",
-      whatsapp: "Falar no WhatsApp",
-    },
     social: {
+      email: "Email",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -914,7 +901,6 @@ const pt = {
       headline: "3 dias",
       desc: "É o tempo que levamos, em média, para deixar sua estrutura pronta para operar. Sem processos infinitos. Sem burocracia absurda.",
     },
-    viewStat: "Ver stat {{n}}",
     cards: [
       { title: "Sem estratégia clara", desc: "Você não está otimizando. Está apenas se adaptando.\nAs decisões são tomadas tarde, sem estrutura ou clareza a longo prazo." },
       { title: "Estrutura atrasada", desc: "Seu negócio cresce, mas sua configuração fica para trás.\nE essa lacuna custa mais silenciosamente a cada mês." },

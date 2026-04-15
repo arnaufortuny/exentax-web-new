@@ -5,11 +5,8 @@
 const ca = {
   common: {
     search: "Cercar...",
-    loading: "Carregant...",
     selectLanguage: "Seleccionar llengua",
     changeLanguage: "Canviar idioma",
-    yes: "Sí",
-    no: "No",
     mainNavigation: "Navegació principal",
     banksCarousel: "Carrusel de bancs",
     banksCarouselLabel: "Partners amb qui treballem",
@@ -26,8 +23,6 @@ const ca = {
   },
   legal: {
     downloadPdf: "Descarregar PDF",
-    lastUpdated: "Última actualització",
-    version: "Versió",
     terminos: {
       title: "Termes i condicions",
       seoTitle: "Termes i condicions | Exentax",
@@ -804,14 +799,12 @@ const ca = {
     menuLabel: "Menú de navegació",
     mobileHome: "Estructura fiscal internacional",
     language: "Llengua",
-    more: "Més",
   },
   footer: {
 
     navigation: "Navegació",
     legal: "Legal",
     contact: "Comunitat",
-    partners: "Partners",
     desc: "Fiscalitat internacional per a negocis digitals que operen sense fronteres. Constitució, banca i compliment anual. Tot documentat. Tot clar.",
     companyLinks: {
       home: "Estructura fiscal internacional",
@@ -830,7 +823,6 @@ const ca = {
     },
     newsletter: {
       title: "Mantén-te al dia",
-      desc: "Consells fiscals, novetats i guies directament a la teva safata d'entrada.",
       placeholder: "El teu email",
       button: "Subscriure'm",
       success: "T'has subscrit correctament.",
@@ -842,13 +834,8 @@ const ca = {
       marketingCheck: "Accepto rebre comunicacions comercials d'Exentax. Opcional.",
       loading: "Enviant...",
     },
-    cta: {
-      headline: "La teva pròxima declaració fiscal satisfactòria comença aquí.",
-      desc: "Analitzem el teu cas, dissenyem l'estructura que millor s'adapta a tu i ens encarreguem de tot: constitució, banca, compliance i presentacions. 30 minuts que poden canviar com gestionas els teus impostos per sempre.",
-      book: "Reserva la teva consulta",
-      whatsapp: "Parlar per WhatsApp",
-    },
     social: {
+      email: "Email",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -914,7 +901,6 @@ const ca = {
       headline: "3 dies",
       desc: "És el que tardem, de mitjana, a deixar la teva estructura llesta per operar. Sense processos eterns. Sense marejar-te. Sense burocràcia absurda.",
     },
-    viewStat: "Veure stat {{n}}",
     cards: [
       { title: "Sense estratègia clara", desc: "No estàs optimitzant. Només t'adaptes.\nLes decisions es prenen tard, sense estructura ni claredat a llarg termini." },
       { title: "Estructura endarrerida", desc: "El teu negoci creix, però la teva configuració es queda enrere.\nI aquesta bretxa et costa més cada mes en silenci." },

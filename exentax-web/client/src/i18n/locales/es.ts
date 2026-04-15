@@ -1,11 +1,8 @@
 const es = {
  common: {
   search: "Buscar...",
-  loading: "Cargando...",
   selectLanguage: "Seleccionar idioma",
   changeLanguage: "Cambiar idioma",
-  yes: "Sí",
-  no: "No",
   mainNavigation: "Navegación principal",
   banksCarousel: "Carrusel de bancos",
   banksCarouselLabel: "Partners con los que trabajamos",
@@ -22,8 +19,6 @@ const es = {
  },
  legal: {
  downloadPdf:"Descargar PDF",
- lastUpdated:"Última actualización",
- version:"Versión",
  terminos: {
   title:"Términos y condiciones",
   seoTitle:"Términos y condiciones | Exentax",
@@ -800,13 +795,11 @@ const es = {
  menuLabel:"Menú de navegación",
  mobileHome:"Estructura fiscal internacional",
  language:"Idioma",
- more:"Más",
  },
  footer: {
  navigation:"Navegación",
  legal:"Legal",
  contact:"Comunidad",
- partners:"Partners",
  desc:"Fiscalidad internacional para negocios digitales que operan sin fronteras. Constitución, banca y cumplimiento anual. Todo documentado. Todo claro.",
  companyLinks: {
  home:"Estructura fiscal internacional",
@@ -825,7 +818,6 @@ const es = {
  },
  newsletter: {
  title:"Mantente al día",
- desc:"Consejos fiscales, novedades y guías directamente en tu bandeja de entrada.",
  placeholder:"Tu email",
  button:"Suscribirme",
  success:"Te has suscrito correctamente.",
@@ -837,13 +829,8 @@ const es = {
  marketingCheck:"Acepto recibir comunicaciones comerciales de Exentax. Opcional.",
  loading:"Enviando...",
  },
- cta: {
-      headline: "Tu próxima declaración fiscal satisfactoria empieza aquí.",
-      desc: "Analizamos tu caso, diseñamos la estructura que mejor se adapta a ti y nos encargamos de todo: constitución, banca, compliance y presentaciones. 30 minutos que pueden cambiar cómo gestionas tus impuestos para siempre.",
-      book: "Reserva tu consulta",
-      whatsapp: "Hablar por WhatsApp"
-    },
  social: {
+      email: "Email",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -909,7 +896,6 @@ const es = {
  headline:"3 días",
  desc:"Es lo que tardamos, de media, en dejar tu estructura lista para operar. Sin procesos eternos. Sin marearte. Sin burocracia absurda.",
  },
- viewStat:"Ver stat {{n}}",
  cards: [
    { title: "Sin estrategia clara", desc: "No estás optimizando. Solo te vas adaptando.\nLas decisiones se toman tarde, sin estructura ni claridad a largo plazo." },
    { title: "Estructura rezagada", desc: "Tu negocio crece, pero tu configuración se queda atrás.\nY esa brecha te cuesta más cada mes en silencio." },

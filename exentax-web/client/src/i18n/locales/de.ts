@@ -1,11 +1,8 @@
 const de = {
   common: {
     search: "Suchen...",
-    loading: "Laden...",
     selectLanguage: "Sprache wählen",
     changeLanguage: "Sprache ändern",
-    yes: "Ja",
-    no: "Nein",
     mainNavigation: "Hauptnavigation",
     banksCarousel: "Banken-Karussell",
     banksCarouselLabel: "Partner, mit denen wir arbeiten",
@@ -22,8 +19,6 @@ const de = {
   },
   legal: {
     downloadPdf: "PDF herunterladen",
-    lastUpdated: "Letzte Aktualisierung",
-    version: "Version",
     terminos: {
       title: "Allgemeine Geschäftsbedingungen",
       seoTitle: "Allgemeine Geschäftsbedingungen | Exentax",
@@ -800,14 +795,12 @@ const de = {
     menuLabel: "Navigationsmenü",
     mobileHome: "Internationale Steuerstruktur",
     language: "Sprache",
-    more: "Mehr",
   },
   footer: {
 
     navigation: "Navigation",
     legal: "Rechtliches",
     contact: "Community",
-    partners: "Partner",
     desc: "Internationale Besteuerung für digitale Unternehmen, die ohne Grenzen operieren. Gründung, Banking und jährliche Compliance. Alles dokumentiert. Alles klar.",
     companyLinks: {
       home: "Internationale Steuerstruktur",
@@ -826,7 +819,6 @@ const de = {
     },
     newsletter: {
       title: "Bleiben Sie auf dem Laufenden",
-      desc: "Steuertipps, Neuigkeiten und Leitfaden direkt in Ihr Postfach.",
       placeholder: "Ihre E-Mail",
       button: "Abonnieren",
       success: "Sie haben sich erfolgreich angemeldet.",
@@ -838,13 +830,8 @@ const de = {
       marketingCheck: "Ich stimme dem Erhalt kommerzieller Mitteilungen von Exentax zu. Optional.",
       loading: "Wird gesendet...",
     },
-    cta: {
-      headline: "Ihre nächste zufriedenstellende Steuererklärung beginnt hier.",
-      desc: "Wir analysieren Ihren Fall, entwerfen die Struktur, die am besten zu Ihnen passt, und kümmern uns um alles: Gründung, Banking, Compliance und Einreichungen. 30 Minuten, die Ihre Steuerverwaltung für immer verändern können.",
-      book: "Beratung buchen",
-      whatsapp: "Über WhatsApp sprechen",
-    },
     social: {
+      email: "E-Mail",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -910,7 +897,6 @@ const de = {
       headline: "3 Tage",
       desc: "Das ist die Zeit, die wir im Durchschnitt brauchen, um Ihre Struktur betriebsbereit zu machen. Keine endlosen Prozesse. Keine absurde Bürokratie.",
     },
-    viewStat: "Stat {{n}} anzeigen",
     cards: [
       { title: "Keine klare Strategie", desc: "Sie optimieren nicht. Sie passen sich nur an.\nEntscheidungen werden spät getroffen, ohne Struktur oder langfristige Klarheit." },
       { title: "Struktur hinkt hinterher", desc: "Ihr Geschäft wächst, aber Ihr Setup bleibt zurück.\nUnd diese Lücke kostet Sie jeden Monat still und leise mehr." },

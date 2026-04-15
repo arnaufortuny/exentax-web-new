@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 
 export type InlineMessageType = "success" | "error" | "info" | null;
 
@@ -10,6 +10,12 @@ export interface InlineMessageState {
 export function useInlineMessage(autoClearMs = 5000) {
   const [msg, setMsg] = useState<InlineMessageState>({ text: "", type: null });
   const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+  useEffect(() => {
+    return () => {
+      if (timer.current) clearTimeout(timer.current);
+    };
+  }, []);
 
   const showMsg = useCallback((text: string, type: "success" | "error" | "info" = "info") => {
     if (timer.current) clearTimeout(timer.current);

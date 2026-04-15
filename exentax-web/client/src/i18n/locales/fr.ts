@@ -1,11 +1,8 @@
 const fr = {
   common: {
     search: "Rechercher...",
-    loading: "Chargement...",
     selectLanguage: "Choisir la langue",
     changeLanguage: "Changer de langue",
-    yes: "Oui",
-    no: "Non",
     mainNavigation: "Navigation principale",
     banksCarousel: "Carrousel de banques",
     banksCarouselLabel: "Partenaires avec qui nous travaillons",
@@ -22,8 +19,6 @@ const fr = {
   },
   legal: {
     downloadPdf: "Télécharger le PDF",
-    lastUpdated: "Dernière mise à jour",
-    version: "Version",
     terminos: {
       title: "Conditions générales",
       seoTitle: "Conditions générales | Exentax",
@@ -800,14 +795,12 @@ const fr = {
     menuLabel: "Menu de navigation",
     mobileHome: "Structure fiscale internationale",
     language: "Langue",
-    more: "Plus",
   },
   footer: {
 
     navigation: "Navigation",
     legal: "Mentions légales",
     contact: "Communauté",
-    partners: "Partenaires",
     desc: "Fiscalité internationale pour les entreprises numériques opérant sans frontières. Constitution, banque et conformité annuelle. Tout documenté. Tout clair.",
     companyLinks: {
       home: "Structure fiscale internationale",
@@ -826,7 +819,6 @@ const fr = {
     },
     newsletter: {
       title: "Restez informé",
-      desc: "Conseils fiscaux, actualités et guides directement dans votre boîte mail.",
       placeholder: "Votre email",
       button: "S'abonner",
       success: "Vous êtes abonné avec succès.",
@@ -838,13 +830,8 @@ const fr = {
       marketingCheck: "J'accepte de recevoir des communications commerciales d'Exentax. Optionnel.",
       loading: "Envoi en cours...",
     },
-    cta: {
-      headline: "Votre prochaine déclaration fiscale satisfaisante commence ici.",
-      desc: "Nous analysons votre cas, concevons la structure qui vous convient le mieux et nous occupons de tout : constitution, banque, conformité et déclarations. 30 minutes qui peuvent changer votre gestion fiscale pour toujours.",
-      book: "Réservez votre consultation",
-      whatsapp: "Parler sur WhatsApp",
-    },
     social: {
+      email: "Email",
       instagram: "Instagram",
       tiktok: "TikTok",
       youtube: "YouTube",
@@ -910,7 +897,6 @@ const fr = {
       headline: "3 jours",
       desc: "C'est le temps qu'il nous faut, en moyenne, pour que votre structure soit prête à fonctionner. Pas de processus interminables. Pas de bureaucratie absurde.",
     },
-    viewStat: "Voir stat {{n}}",
     cards: [
       { title: "Pas de stratégie claire", desc: "Vous n'optimisez pas. Vous vous adaptez simplement.\nLes décisions sont prises tard, sans structure ni clarté à long terme." },
       { title: "Structure en retard", desc: "Votre entreprise grandit, mais votre configuration reste en arrière.\nEt cet écart vous coûte silencieusement plus chaque mois." },
