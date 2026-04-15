@@ -196,6 +196,7 @@ export function registerAdminRoutes(app: Express) {
 
     notifyBookingRescheduled({
       bookingId,
+      manageToken: row.manageToken,
       name: row.name || "",
       email: row.email || "",
       phone: row.phone,
@@ -249,6 +250,7 @@ export function registerAdminRoutes(app: Express) {
       phone: row.phone,
       date: row.meetingDate,
       startTime: row.startTime,
+      endTime: row.endTime,
       language: row.language,
       source: "admin",
     });
@@ -278,7 +280,9 @@ export function registerAdminRoutes(app: Express) {
       phone: row.phone,
       date: row.meetingDate,
       startTime: row.startTime,
+      endTime: row.endTime,
       language: row.language,
+      meetLink: row.googleMeet,
     });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "no_show" });
     logger.info(`[admin] Booking ${bookingId} marked as no-show`, "admin");

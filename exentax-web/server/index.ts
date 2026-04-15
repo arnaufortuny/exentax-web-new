@@ -344,6 +344,9 @@ httpServer.listen(
           message: err.message || String(err),
           code: err.code || "SERVER_ERROR",
           path: req.path,
+          method: req.method,
+          statusCode: status,
+          stack: err.stack || null,
         });
       }
 

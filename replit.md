@@ -84,12 +84,15 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/lib/routes.ts` — Centralized route key → localized slug mapping
 
 ### Integrations
-- **Discord**: Multi-channel webhook notifications (5 channels, rate-limited queue):
-  - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads
+- **Discord**: Multi-channel webhook notifications (6 channels, rate-limited queue, professional embeds with Exentax branding):
+  - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads, system events
   - `DISCORD_WEBHOOK_CALCULADORA` → Calculator results with full financial data
   - `DISCORD_WEBHOOK_ACTIVIDAD` → Web visits (page, device, UTM, referrer, IP)
-  - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin links
+  - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin/client links
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
+  - `DISCORD_WEBHOOK_ERRORES` → Critical server errors (fallback to registros if not set)
+  - All embeds include: author block, Exentax avatar, consistent color palette (green=#00E510, blue=#3498DB, red=#DC2626, orange=#F39C12), timezone, structured fields with dividers, admin/client management links
+  - Safety: field count capped at 25, field values truncated to Discord limits, stack traces excluded in production
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
 - **Email**: Gmail API v1 — 8 email types × 6 languages:

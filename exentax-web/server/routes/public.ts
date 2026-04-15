@@ -33,6 +33,7 @@ import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "
 import {
   notifyBookingCreated, notifyBookingRescheduled, notifyBookingCancelled,
   notifyCalculatorLead, notifyNewsletterSubscribe, notifyWebVisit, notifyConsent,
+  notifyNewLead,
 } from "../discord";
 import { sheetsLogBooking, sheetsLogBookingUpdate, sheetsLogCalculatorLead, sheetsLogConsent } from "../google-sheets";
 
@@ -300,6 +301,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         });
 
         notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, lastName, email, phone, date, startTime, endTime, meetLink, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
+        notifyNewLead({ leadId: bookingLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
         sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDING, meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
@@ -461,7 +463,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: row.language || null,
       agendaId: bookingId,
     });
-    notifyBookingRescheduled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, newMeetLink: newMeetLink, language: row.language, rescheduleCount: newRescheduleCount, ip });
+    notifyBookingRescheduled({ bookingId, manageToken: token, name: row.name || "", email: row.email || "", phone: row.phone, oldDate: row.meetingDate, oldStartTime: row.startTime, newDate: date, newStartTime: startTime, newEndTime: endTime, newMeetLink: newMeetLink, language: row.language, rescheduleCount: newRescheduleCount, ip, source: "client" });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
@@ -504,7 +506,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       endTime: row.endTime || "",
       language: row.language || null,
     }).catch((err) => logger.error("Cancellation email failed:", "email", err));
-    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, language: row.language, ip });
+    notifyBookingCancelled({ bookingId, name: row.name || "", email: row.email || "", phone: row.phone, date: row.meetingDate, startTime: row.startTime, endTime: row.endTime, language: row.language, ip, source: "client" });
     sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "cancelled" });
     return apiOk(res, { status: "cancelled" });
   }));
