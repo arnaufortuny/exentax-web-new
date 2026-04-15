@@ -88,10 +88,9 @@ export async function registerRoutes(
     const qs = req.url.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
     res.redirect(301, `/booking/${req.params.bookingId}${qs}`);
   });
-  app.get("/start", (_req, res) => res.redirect(301, "/empezar"));
-  app.get("/links", (_req, res) => res.redirect(301, "/go"));
-  // /go/:slug — trackable shortlinks; unknown slugs fall back to booking page
-  app.get("/go/:slug", (_req, res) => res.redirect(302, "/agendar-asesoria"));
+  app.get("/empezar", (_req, res) => res.redirect(301, "/start"));
+  app.get("/go", (_req, res) => res.redirect(301, "/links"));
+  app.get("/go/:slug", (_req, res) => res.redirect(302, "/links"));
 
   registerPublicRoutes(app, activeIntervals);
 

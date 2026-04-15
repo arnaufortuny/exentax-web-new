@@ -6,7 +6,7 @@ import Layout from "@/components/layout/Layout";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import i18n, { SUPPORTED_LANGS, LanguageService, type SupportedLang } from "@/i18n";
 import { STORAGE_KEYS } from "@/lib/constants";
-import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey, getLangFromPath } from "@/lib/routes";
+import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey } from "@/lib/routes";
 
 const pageImports = {
   home: () => import("@/pages/home"),
@@ -46,7 +46,7 @@ const StartPage        = lazy(pageImports.start);
 const BookingPage      = lazy(pageImports.booking);
 const NotFound         = lazy(pageImports.notFound);
 
-const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<any>> = {
+const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<React.ComponentType>> = {
   home: Home,
   how_we_work: ComoFuncionaPage,
   our_services: PreciosPage,
@@ -134,7 +134,6 @@ function generateLocalizedRoutes() {
 
   for (const routeKey of ALL_ROUTE_KEYS) {
     const Component = PAGE_COMPONENTS[routeKey];
-    const isLegal = routeKey.startsWith("legal_");
 
     for (const lang of SUPPORTED_LANGS) {
       const slug = ROUTE_SLUGS[routeKey][lang];

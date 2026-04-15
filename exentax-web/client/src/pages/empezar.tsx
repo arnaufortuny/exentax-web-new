@@ -343,7 +343,7 @@ export default function StartPage() {
       <section ref={blockClose} className="reveal px-5 pb-20 max-w-3xl mx-auto text-center">
         <div className="h-px bg-gradient-to-r from-transparent via-[rgba(0,229,16,0.2)] to-transparent mb-12" />
 
-        <Link href="/" className="group inline-block mb-8" data-testid="link-start-home">
+        <Link href={lp("home")} className="group inline-block mb-8" data-testid="link-start-home">
           <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-36 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity mx-auto" data-testid="img-logo-start" />
         </Link>
 
@@ -353,11 +353,11 @@ export default function StartPage() {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 mt-6">
-          <Link href="/legal/cookies" className="text-xs text-[var(--text-3)] hover:text-[var(--text-2)] transition-colors" data-testid="link-start-cookies">
+          <Link href={lp("legal_cookies")} className="text-xs text-[var(--text-3)] hover:text-[var(--text-2)] transition-colors" data-testid="link-start-cookies">
             {t("start.closeCookies")}
           </Link>
           <span className="text-[var(--text-3)]">·</span>
-          <Link href="/legal/privacidad" className="text-xs text-[var(--text-3)] hover:text-[var(--text-2)] transition-colors" data-testid="link-start-privacy">
+          <Link href={lp("legal_privacy")} className="text-xs text-[var(--text-3)] hover:text-[var(--text-2)] transition-colors" data-testid="link-start-privacy">
             {t("start.closePrivacy")}
           </Link>
         </div>

@@ -101,7 +101,7 @@ export default function GoPage() {
       </button>
 
       <div className="w-full max-w-[400px] flex flex-col items-center mt-4">
-        <a href="/" data-testid="link-links-home">
+        <a href={lp("home")} data-testid="link-links-home">
           <ExMark />
         </a>
 
@@ -206,11 +206,11 @@ export default function GoPage() {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 mt-5">
-          <a href="/legal/cookies" className="text-xs text-[var(--text-3)] active:text-[var(--text-2)] transition-colors" data-testid="link-links-cookies">
+          <a href={lp("legal_cookies")} className="text-xs text-[var(--text-3)] active:text-[var(--text-2)] transition-colors" data-testid="link-links-cookies">
             {t("links.cookies")}
           </a>
           <span className="text-[var(--text-3)]">·</span>
-          <a href="/legal/privacidad" className="text-xs text-[var(--text-3)] active:text-[var(--text-2)] transition-colors" data-testid="link-links-privacidad">
+          <a href={lp("legal_privacy")} className="text-xs text-[var(--text-3)] active:text-[var(--text-2)] transition-colors" data-testid="link-links-privacidad">
             {t("links.privacy")}
           </a>
         </div>
