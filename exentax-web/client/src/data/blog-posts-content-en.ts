@@ -63,79 +63,110 @@ If you want to know whether a US LLC makes sense for your specific situation, bo
 
 Book your strategic consultation and discover how a properly structured US LLC can transform your business.`,
 
-  "form-5472-que-es-como-presentarlo": `If you own a US LLC as a foreign national, the Form 5472 is one of your most important annual obligations with the IRS. Missing it can result in a $25,000 penalty per occurrence. Here's everything you need to know.
+  "form-5472-que-es-como-presentarlo": `If you own a US LLC as a non-resident, the Form 5472 is an informational return the IRS requires every year. It sounds intimidating, but rest assured: it's informational paperwork, not a tax payment, and at Exentax we handle everything for you. You literally don't have to do anything.
 
 ## What is Form 5472?
 
-Form 5472 is an IRS informational return that foreign-owned US LLCs must file each year. Its official name is "Information Return of a 25% Foreign-Owned US Corporation or a Foreign Corporation Engaged in a US Trade or Business."
+Form 5472 is an IRS informational return that foreign-owned US LLCs must file each year. Its purpose is to report transactions between your LLC and its "related persons" — that is, you as the owner.
 
-Despite the complex name, its purpose is simple: to inform the IRS about transactions between your LLC and you (its foreign owner).
+Let's repeat this because it's important: **it is not a tax payment form.** It's purely informational. The IRS simply wants to know what financial movements occurred between you and your LLC during the year. Nothing more.
+
+So why does it cause so much anxiety? Because the internet is full of alarmist articles with scary numbers. The reality: if you have a competent team handling it (ahem, that's us), it's a routine filing resolved without drama. At Exentax we prepare and file it for all our clients every year. You won't even notice.
 
 ## Who must file Form 5472?
 
-You must file Form 5472 if:
+Any US LLC that has at least one foreign owner (non-resident and non-US citizen) and had reportable transactions during the tax year.
 
-- You are a non-US person (foreign national or non-resident)
-- You own 25% or more of a US LLC
-- The LLC had any transactions with you during the year
-
-For single-member LLCs owned entirely by a foreign national, this means virtually every LLC must file.
+In practice: if you're a freelancer with a Single-Member LLC and you've moved money between your LLC and yourself — whether withdrawing profits, making capital contributions, or paying expenses — you must file this form. And if your LLC had activity (which is normal if you're invoicing), there are transactions to report.
 
 ## What counts as a "reportable transaction"?
 
-Any transfer of value between you and your LLC counts as a reportable transaction:
+- Owner's draws (profit withdrawals)
+- Capital contributions
+- Loans between the owner and the LLC
+- Payments for services between related parties
+- Rentals or intellectual property licenses
+- Any financial movement between the LLC and its owner
 
-- **Money you transfer into the LLC** — capital contributions
-- **Money you withdraw from the LLC** — owner's draws or distributions
-- **Services you provide to the LLC**
-- **Expenses the LLC pays on your behalf**
-- **Loans between you and the LLC**
+Basically, everything that flows in and out between you and your company. If you maintain good financial separation (LLC account separate from personal), documenting this is straightforward.
 
-Even if no money changed hands, if there were any transactions, you must file.
+## Form 5472 and Form 1120: the inseparable pair
 
-## When is Form 5472 due?
+Form 5472 is not filed alone — it goes together with **Form 1120**, which is the LLC's corporate tax return. But note: for a Single-Member LLC with a foreign owner, Form 1120 is **pro-forma**. It doesn't declare actual taxes because the LLC is a Disregarded Entity and pays $0 in federal tax.
 
-Form 5472 is filed together with Form 1120 (the corporate income tax return). The filing deadline is:
+### What is the pro-forma Form 1120?
 
-- **April 15** — standard deadline for calendar-year LLCs
-- **October 15** — if you file Form 7004 for an automatic 6-month extension
+It's the IRS corporate income tax return. For a single-member LLC with a non-resident owner, it's filed as a "wrapper" for Form 5472. Essentially:
 
-At Exentax, we file Form 7004 automatically for all our clients, giving you until October to prepare everything properly.
+- **Form 1120 is the cover page** — includes the LLC's general information
+- **Form 5472 is the content** — details the transactions between you and your LLC
 
-## What is the penalty for not filing?
+The pro-forma Form 1120 is filed with all financial fields at zero (income: $0, taxes: $0) because the LLC doesn't pay US taxes. What matters is the attached Form 5472.
 
-The penalty for failing to file Form 5472 is **$25,000 per form, per year**. If you also fail to maintain proper records, the IRS can impose additional penalties.
+### Why is Form 1120 needed?
 
-This is not a typo. $25,000 per year, per LLC. This is why proper compliance management is essential.
+Because the IRS doesn't accept Form 5472 as a standalone document. It needs to go inside a corporate return (Form 1120). It's pure bureaucracy: the IRS designed the system for regular corporations, and non-resident LLCs have to use the same channel.
 
-## How do I file Form 5472?
+| Form | Purpose | Involves payment? | Required by |
+|---|---|---|---|
+| Form 1120 (pro-forma) | Corporate return "wrapper" | No — everything at $0 | IRS |
+| Form 5472 | Report LLC-owner transactions | No — informational only | IRS |
+| Form 7004 | Request filing extension | No | IRS |
 
-Form 5472 cannot be e-filed — it must be mailed to the IRS along with Form 1120. The process:
+## When is it due?
 
-1. Prepare Form 1120 (proforma return showing no income)
-2. Prepare Form 5472 with all reportable transactions
-3. Mail both forms to the IRS by the deadline
+Form 5472 is filed together with Form 1120, with a deadline of **April 15** each year for the previous tax year.
 
-At Exentax, we handle the complete preparation and filing of both forms as part of our annual maintenance service.
+A 6-month extension (until October 15) can be requested by filing **Form 7004**, but the extension must be filed before April 15. At Exentax, we always file the extension automatically for all our clients, giving us plenty of time to prepare everything properly.
 
-## What information is needed?
+### Key tax calendar:
 
-To prepare Form 5472, we need:
+| Date | Action |
+|---|---|
+| **January 1** | Start of period to gather tax information |
+| **Before April 15** | File Form 7004 (extension) |
+| **April 15** | Original deadline for Form 1120 + 5472 |
+| **October 15** | Extended deadline |
 
-- Your LLC's EIN and legal name
-- Your personal tax identification number
-- A complete record of all transactions during the year
-- Your country of residence
+## Is it difficult to file?
 
-This is why we emphasize from day one: keep your LLC accounts separate from your personal accounts, and document every transaction.
+If you do it yourself, yes, it can be cumbersome. The form requires detailed information about:
 
-## Can I file it myself?
+1. **LLC data** — name, EIN, address, state of formation
+2. **Foreign owner data** — full name, country of residence, tax identification
+3. **Reportable transactions** — broken down by type and amount
 
-Technically yes, but we don't recommend it. The form has specific requirements, must be mailed (not e-filed), and any errors or omissions can trigger penalties. Given the $25,000 penalty risk, professional filing is worth every cent.
+Additionally, it's filed on paper (not electronically) together with Form 1120, mailed to the IRS. Yes, in 2026, the IRS still requires paper for this. Welcome to American bureaucracy.
 
-Our annual maintenance service includes Form 5472 + Form 1120 preparation and filing, BOI Report update, registered agent renewal, and ongoing compliance support.
+But if you're an Exentax client, all of this is invisible to you. We gather the information, prepare both forms, review them, and mail them. You focus on your business and we handle compliance. That simple.
 
-Book your strategic consultation and make sure your LLC stays perfectly compliant.`,
+## Penalties for not filing Form 5472
+
+The IRS takes this form very seriously. Penalties for failing to file or filing incorrectly are significant:
+
+- **$25,000 base penalty** for each form not filed or filed incomplete
+- **$25,000 additional** for each 30-day period of non-compliance after IRS notification (up to $25,000 per month)
+- There is no defined maximum cap — penalties can accumulate considerably
+
+These figures sound alarming, but the reality is more nuanced. If you file your Form 5472 on time (or within the extension) with correct information, there is no penalty at all. Penalties apply to those who ignore the obligation or file with serious errors.
+
+At Exentax, we ensure everything is filed correctly and on time. We have never had a client penalized by the IRS for a Form 5472.
+
+## What if I haven't filed in previous years?
+
+If you have an LLC and haven't filed Form 5472 for previous years, don't panic. There are ways to catch up:
+
+- **Voluntary late filings** — the IRS has procedures for filing overdue forms
+- **Reasonable cause** — if you can demonstrate the non-compliance was unintentional, the IRS may reduce or eliminate penalties
+- **Professional guidance** — it's critical that this process is handled by someone with experience
+
+At Exentax, we help clients who come from other services (or who managed their LLC themselves) to regularize their situation. The important thing is to act — the sooner you catch up, the better.
+
+## Key takeaways
+
+Form 5472 (together with the pro-forma Form 1120) is an annual informational filing that every LLC with a foreign owner must submit. It doesn't involve tax payments. It's not complicated when handled by someone who knows what they're doing. And at Exentax, we take care of this as part of your LLC's annual maintenance.
+
+Have questions about your situation? Book your free consultation and we'll review everything together.`,
 
   "nuevo-mexico-vs-wyoming-vs-delaware": `When forming a US LLC as a non-resident, one of the first decisions you'll face is which state to choose. New Mexico, Wyoming, and Delaware are the three most popular options. Here's an honest comparison.
 
@@ -474,137 +505,53 @@ The LLC makes the most sense when:
 
 Book your strategic consultation and we'll analyze your specific situation — current income, clients, expenses — and tell you honestly whether the switch makes financial sense for you.`,
 
-  "boi-report-beneficial-ownership-llc": `Since January 2024, all US LLCs must file a Beneficial Ownership Information (BOI) Report with FinCEN (Financial Crimes Enforcement Network). Missing this filing can result in civil and criminal penalties. Here's everything you need to know.
 
-## What is the BOI Report?
 
-The BOI Report is a filing required by the Corporate Transparency Act (CTA) that discloses who actually owns and controls a US company. Its purpose is to prevent money laundering and other financial crimes by creating a registry of the real (beneficial) owners of US companies.
 
-"Beneficial owner" means anyone who owns 25% or more of the company, or who has substantial control over the company — even if not a formal owner.
 
-## Who must file?
 
-Most US LLCs and corporations must file, with some exceptions:
 
-- Large operating companies (more than 20 US employees, more than $5M US revenue, physical US office) are exempt
-- Regulated entities (banks, insurance companies, etc.) are exempt
-- Companies formed before January 1, 2024 had until January 1, 2025 to file
 
-**For most of our clients** — small foreign-owned LLCs with no US employees — filing is required.
 
-## What information must be reported?
 
-For each beneficial owner, you must report:
-- Full legal name
-- Date of birth
-- Residential address
-- ID document number (passport, driver's license, or state ID)
-- An image of the ID document
 
-## When must you file?
 
-- **LLCs formed before January 1, 2024:** Initial report was due by January 1, 2025
-- **LLCs formed from January 1, 2024 onward:** Must file within 90 days of formation
-- **Updates:** Any changes to beneficial ownership information must be reported within 30 days
 
-## What are the penalties for not filing?
 
-- **Civil penalty:** Up to $591 per day for each day the report is late (adjusted for inflation)
-- **Criminal penalty:** Up to $10,000 fine and up to 2 years in prison for willful violations
 
-These penalties apply per violation. Non-compliance is not a minor oversight.
 
-## How do you file?
 
-The BOI Report is filed electronically through FinCEN's BOSS system (Beneficial Ownership Secure System) at fincen.gov. The filing itself is free.
 
-At Exentax, we file the BOI Report as part of our complete formation package and update it in our annual maintenance service whenever required.
 
-## Is the information public?
 
-No. The BOI Report data is stored in a secure FinCEN database that is only accessible to:
-- Law enforcement agencies (federal, state, local, tribal)
-- Financial institutions (for due diligence purposes, with your consent)
-- Government agencies authorized by FinCEN
 
-Your information is NOT on a public database.
 
-## What we do at Exentax
 
-We file your BOI Report at the time of LLC formation and include annual BOI updates in our maintenance service. You don't need to worry about deadlines, forms, or FinCEN portals — we handle it all.
 
-Book your strategic consultation and let us make sure your LLC is fully compliant from day one.`,
 
-  "stripe-paypal-llc-cobrar-dolares": `One of the most significant practical advantages of a US LLC is access to Stripe and PayPal Business in their full US versions. Here's how to set them up and why it matters.
 
-## Why US payment processors matter
 
-As a freelancer or digital entrepreneur operating outside the US, you've likely experienced the limitations of your local payment options:
 
-- Stripe may be unavailable in your country or limited in functionality
-- PayPal charges higher fees for cross-border transactions
-- International wire transfers are expensive and slow
-- Clients in the US prefer working with payment methods they recognize
 
-With a US LLC and a Mercury bank account, you access Stripe US and PayPal Business US — the full-featured versions with access to all products and the lowest fee structure.
 
-## Setting up Stripe for your LLC
 
-Stripe US requires:
-- Your LLC's legal name and EIN
-- Your Mercury account details (bank account and routing number)
-- Your personal information (as the beneficial owner)
-- Business description and expected transaction volumes
 
-Once approved, you can:
-- Accept credit and debit cards from 135+ countries
-- Process payments in 135+ currencies (with automatic conversion to USD)
-- Set up recurring subscriptions
-- Use Stripe Billing for SaaS businesses
-- Access Stripe Connect if you need marketplace functionality
 
-**Fees:** 2.9% + $0.30 per successful card charge for US transactions. Lower than European Stripe rates and with more features.
 
-## Setting up PayPal Business
 
-PayPal Business US requires similar documentation **plus your ITIN** (Individual Taxpayer Identification Number) for personal identity verification. With it, you can:
-- Accept PayPal payments from 200+ countries
-- Accept credit cards via PayPal (without customers needing a PayPal account)
-- Issue PayPal invoices
-- Use PayPal Working Capital for business financing
 
-**When to use PayPal:** Some clients (especially those in Latin America and older demographics) strongly prefer PayPal. Having it available expands your client base.
 
-## Other payment options with your LLC
 
-**ACH (Automated Clearing House):** For US clients, ACH bank transfers through Mercury are free and take 1-3 business days. Perfect for regular clients and larger invoices.
 
-**Wire transfers:** Mercury offers free international wire transfers. For large invoices to clients who prefer wire, this is ideal.
 
-**Wise Business:** Not a payment processor but an Electronic Money Institution. Use it to receive and convert payments in multiple currencies at real exchange rates.
 
-**Dodo Payments:** Merchant of Record service that handles global VAT/tax compliance for digital products. Great for SaaS businesses selling to EU customers.
 
-## Invoicing from your LLC
 
-Once you have your LLC, Stripe, and bank account set up, you issue invoices with:
-- Your LLC's legal name
-- Your registered agent's address (your US address)
-- Your EIN
-- Payment instructions (bank transfer or payment link)
 
-No VAT or sales tax on international digital services for most scenarios (consult with your tax advisor about specifics).
 
-## What we set up at Exentax
 
-As part of our LLC formation service, we help you configure:
-- Mercury account
-- Stripe US
-- PayPal Business
 
-We also provide guidance on invoicing practices, ACH setup, and which payment methods work best for your specific client types.
 
-Book your strategic consultation and we'll design the complete payment infrastructure for your business.`,
 
   "impuestos-clientes-internacionales-espana": `Working with international clients while based in Spain creates a complex tax situation. Here's what you need to understand and how a US LLC can simplify things.
 
@@ -1360,209 +1307,74 @@ That's exactly what our Exentax annual maintenance plan includes.
 
 Maintenance is not optional. Book your strategic consultation and we'll set up your LLC with proper maintenance from day one.`,
 
-  "form-1120-5472-declaraciones-llc": `Every year, your foreign-owned US LLC must file Form 5472 and Form 1120 with the IRS. Here's a complete practical guide.
 
-## The two forms explained
 
-### Form 1120: Corporation Income Tax Return
 
-Form 1120 is the US corporate income tax return. For a single-member LLC owned by a non-resident, it's filed as a "proforma" — a placeholder showing no US taxable income.
 
-Why file if there's no income? Because the IRS requires all foreign-owned single-member LLCs to file, even if the LLC has no US-source income. It's the vehicle through which Form 5472 is submitted.
 
-### Form 5472: Information Return
 
-Form 5472 reports all transactions between the LLC and its foreign owner(s). It's an information return — not a tax payment form. You're telling the IRS what happened between you and the LLC during the year.
 
-## What transactions must be reported on Form 5472?
 
-| Transaction Type | Example |
-|---|---|
-| Contributions | You depositing $10,000 into LLC bank account |
-| Distributions | You withdrawing $5,000 for personal use |
-| Loans from owner to LLC | You lending $2,000 to the LLC |
-| Loans from LLC to owner | LLC lending money to you |
-| Services provided by owner | You performing work for the LLC |
-| Services paid by LLC for owner | LLC paying your personal expenses |
 
-The list is comprehensive. When in doubt, report it.
 
-## Annual deadlines
 
-**Standard deadline:** April 15 (for calendar-year LLCs)
-**Extended deadline:** October 15 (with Form 7004 extension)
 
-At Exentax, we file Form 7004 automatically for all clients — you get until October by default.
 
-## How to file
 
-Both forms must be filed by mail (not electronically). They're sent to:
-- IRS office designated for foreign-owned US corporations
 
-The exact mailing address depends on whether you include a payment (though for most of our clients, there's no tax due).
 
-## What you need to prepare
 
-To have us prepare your forms, provide:
-- Complete transaction log for the year (all money in and out of the LLC)
-- Bank statements from Mercury (or other LLC accounts)
-- Invoices for all income
-- Receipts for all expenses
-- Any loan documentation
 
-The more organized your records, the faster and cheaper preparation is.
 
-## The $25,000 penalty
 
-We mention this in multiple articles because it's that important:
 
-**Failure to file Form 5472:** $25,000 penalty per form, per year.
-**Failure to maintain records:** Additional $25,000 penalty.
 
-The IRS does not waive these penalties lightly. Compliance is essential.
 
-## Our filing service
 
-Our annual maintenance plan includes:
-- Review of your transaction records
-- Preparation of Form 5472 and Form 1120
-- Mailing to the IRS
-- Tracking confirmation of receipt
-- Responding to any IRS correspondence
 
-No surprises, no hidden fees. Everything included.
 
-Book your strategic consultation and make sure your IRS filings are handled properly every year.`,
 
-  "que-es-ach-pagos-internacionales": `ACH (Automated Clearing House) is the US bank-to-bank payment network. For your LLC, understanding how ACH works helps you get paid faster and more cheaply. Here's the complete guide.
 
-## What is ACH?
 
-ACH is a US electronic payment network that enables bank-to-bank transfers without the fees and delays of traditional wire transfers. It's how most US payroll, bill payments, and business transfers work.
 
-Your Mercury account supports ACH in both directions:
-- **ACH Credit:** Receive money into your Mercury account
-- **ACH Debit:** Pull money from a customer's account (requires customer authorization)
 
-## Types of ACH transfers
 
-**Standard ACH (1-3 business days):** The most common type. Free on Mercury. Used for regular payments, payroll, and non-urgent transfers.
 
-**Same-day ACH:** Settles on the same business day if submitted by the cutoff time. May have a small fee depending on the bank.
 
-**ACH Debit:** Used for recurring subscriptions and automatic payments. Requires the customer to authorize you to pull funds from their account.
 
-## ACH vs. wire transfer: what's the difference?
 
-| Feature | ACH | Wire Transfer |
-|---|---|---|
-| Speed | 1-3 business days | Same day (domestic), 1-5 days (international) |
-| Cost on Mercury | Free | Free (Mercury's competitive advantage) |
-| International | US only | Yes, worldwide |
-| Best for | Regular US payments | Large one-time transfers |
 
-## Receiving ACH payments as an LLC
 
-To receive ACH payments from US clients, provide them with:
-- Your Mercury account number
-- Your Mercury routing number
-- Your LLC name (as it appears on the account)
-- The type of account (checking)
 
-Most US businesses and individuals can send you ACH payments directly from their bank account.
 
-## ACH for freelancers and agencies
 
-If you have ongoing clients in the US who pay monthly or regularly:
 
-1. Share your Mercury ACH information
-2. Ask them to set up a recurring ACH transfer on their end
-3. Funds arrive in your Mercury account automatically
 
-This eliminates the need for invoicing each time — perfect for retainer clients.
 
-## Stripe ACH
 
-Stripe offers ACH payment collection (US bank debits) for US businesses. With Stripe's ACH product:
-- You can charge US clients' bank accounts directly
-- Lower fees than credit card processing (0.8% per transaction, max $5)
-- Ideal for large invoice amounts where credit card fees would be expensive
 
-## What ACH doesn't do
 
-ACH is US-only. For international clients (outside the US), you need:
-- **Wire transfer:** For large international payments
-- **Stripe:** For international credit/debit card payments
-- **Wise:** For convenient multi-currency collection
 
-Book your strategic consultation and we'll help you design the right payment collection setup for your client mix.`,
 
-  "wire-transfer-llc-como-funciona": `Wire transfers are the gold standard for large international payments. Your US LLC with Mercury makes them free and easy. Here's everything you need to know.
 
-## What is a wire transfer?
 
-A wire transfer is an electronic transfer of funds directly between banks. Unlike ACH (which is US-only and takes 1-3 days), wires:
-- Work internationally (nearly every country)
-- Settle quickly (same day domestic, 1-5 days international)
-- Have a higher cost at most banks (but not Mercury)
 
-## Mercury's wire transfer advantage
 
-Most banks charge $15-45 per wire transfer. Mercury charges $0 for both domestic and international wires. This is one of Mercury's most significant advantages for international business owners.
 
-With free wires, you can:
-- Receive large client payments without fee deductions
-- Pay international contractors without fees
-- Move money internationally without worrying about transfer costs
 
-## Sending international wires from Mercury
 
-To send an international wire, you need:
-- Recipient's full name and address
-- Recipient's bank name and address
-- SWIFT/BIC code of the recipient's bank
-- Recipient's IBAN or account number
-- Routing/sort code (for some countries)
-- Purpose of payment
 
-Mercury allows you to initiate wire transfers directly from your dashboard. International wires typically arrive within 1-5 business days.
 
-## Receiving international wires
 
-To receive an international wire to your Mercury account, provide the sender with:
-- Your name or LLC name
-- Mercury's bank: **Column NA** (Column National Association)
-- ABA/Routing number: **117201490**
-- Your Mercury account number
-- Bank address: 2211 Michelson Drive, Suite 1210, Irvine, CA 92612
 
-## Wire transfer fees: what clients pay
 
-While Mercury charges you nothing to receive wires, your clients' banks may charge them to send:
-- Typical US bank wire fee: $20-35 per wire
-- International wire from European bank: €15-40 per wire
 
-For very small amounts, wires may not make economic sense due to the sender's fees. In those cases, ACH or Stripe is better.
 
-## SWIFT codes explained
 
-SWIFT (Society for Worldwide Interbank Financial Telecommunication) codes identify specific banks internationally. For Mercury:
-- Mercury uses Column NA's SWIFT code for incoming international wires
-- When sending, you need the recipient bank's SWIFT code
 
-## When to use wire transfers
 
-**Best for:**
-- Large payments (€5,000+) where a percentage-based fee service would be expensive
-- Clients who insist on bank-to-bank transfers
-- One-time large transactions
-- When speed isn't critical but reliability is
 
-**Not ideal for:**
-- Small amounts (your client's sending fee may be proportionally large)
-- Frequent small recurring payments (use ACH or Stripe instead)
 
-Book your strategic consultation and we'll help you optimize your payment collection infrastructure.`,
 
   "wise-business-llc-guia": `Wise Business is the most popular multi-currency financial tool for international entrepreneurs. Here's how it works, how it fits with your LLC, and what to watch out for.
 
@@ -1866,92 +1678,33 @@ A freelancer with $80,000 in LLC revenue and $12,000 in legitimate expenses decl
 
 Book your strategic consultation and we'll help you identify all legitimate deductions for your specific situation.`,
 
-  "responsabilidades-dueno-llc": `Owning a US LLC comes with important responsibilities. Understanding these keeps your LLC in good standing and your personal liability protection intact.
 
-## Your core responsibilities
 
-### 1. Maintain the corporate veil
 
-The most fundamental responsibility of an LLC owner is maintaining the legal separation between yourself and your business. This means:
-- Always keeping separate bank accounts (personal vs. LLC)
-- Never using LLC funds for personal expenses
-- Documenting all transactions between yourself and the LLC
-- Maintaining proper records
 
-If you fail to maintain this separation, a court can "pierce the corporate veil" and hold you personally liable for the LLC's debts.
 
-### 2. File required IRS forms
 
-**Form 5472 + Form 1120:** Due annually (April 15, or October 15 with extension). Penalty for non-filing: $25,000.
 
-**BOI Report:** Filed at formation and updated within 30 days of any change.
 
-These are not optional. They apply even if your LLC had no activity during the year.
 
-### 3. Maintain a registered agent
 
-Your LLC must always have an active registered agent in its state of formation. If your registered agent resigns or you fail to renew, the state can dissolve your LLC.
 
-### 4. Pay state annual fees (where applicable)
 
-- Wyoming: ~$60 annual report fee
-- Delaware: $300 annual LLC tax
-- New Mexico: None
 
-Missing these can lead to administrative dissolution.
 
-### 5. Maintain proper records
 
-Keep:
-- All invoices issued and received
-- Bank statements
-- Contracts with clients and vendors
-- Tax filings (copies)
-- Meeting notes (if multi-member)
 
-Retain records for at least 7 years.
 
-## Your responsibility to clients
 
-### Professional invoicing
-Issue proper invoices for every transaction:
-- LLC name and address
-- EIN
-- Invoice date and number
-- Service description
-- Payment terms
 
-### Delivery of services
-Your LLC's reputation reflects on you. Deliver what you promise, handle disputes professionally.
 
-## Your responsibility to banks
 
-Banks require you to:
-- Maintain accurate profile information (business description, expected transaction volumes)
-- Respond promptly to requests for documentation
-- Notify them of significant changes in your business
-- Not use accounts for activities outside your stated business purpose
 
-## Your responsibility in your country of residence
 
-Even with a US LLC:
-- Declare all LLC income in your home country
-- Pay applicable local taxes
-- File required foreign asset disclosure forms (Modelo 720 in Spain, etc.)
-- Consult with a local tax advisor about your specific obligations
 
-## What Exentax handles for you
 
-We take care of:
-- Annual IRS filings (Form 5472 + 1120)
-- BOI Report maintenance
-- Registered agent service
-- State annual reports (where applicable)
-- Ongoing compliance monitoring
 
-Your responsibilities become much simpler with proper professional support.
 
-Book your strategic consultation to understand the full picture of LLC ownership.`,
 
   "residentes-no-residentes-llc-diferencias": `Whether you're a US resident or non-resident significantly impacts how your LLC is taxed and what forms you need to file. Here's the complete breakdown.
 
@@ -2281,70 +2034,32 @@ This combination gives you FDIC protection, free wires, multi-currency capabilit
 
 Book your strategic consultation and we'll set up your complete banking infrastructure.`,
 
-  "fdic-garantia-depositos-que-es": `When choosing where to keep your LLC's money, FDIC insurance is one of the most important safety factors. Here's what it is and why it matters.
 
-## What is FDIC insurance?
 
-The Federal Deposit Insurance Corporation (FDIC) is a US government agency that insures bank deposits. If a bank fails, the FDIC guarantees your deposits up to $250,000 per depositor, per bank.
 
-This protection is:
-- Automatic (no opt-in required)
-- Government-backed (as solid as the US government)
-- Per bank, per depositor, per account category (checking, savings, etc.)
 
-## Why FDIC coverage matters for your LLC
 
-When you open a Mercury or Relay account, your deposits are held by partner banks (Column NA for Mercury, Thread Bank for Relay), both of which are FDIC insured.
 
-This means:
-- If the partner bank fails, your money is protected up to $250,000
-- Your LLC's operating funds are safe even in a banking crisis
 
-Contrast this with Wise: Wise is an EMI, not a bank. Your funds are held in "safeguarding accounts" but are NOT FDIC insured. If Wise has financial difficulties, your protection is different (and less robust).
 
-## Mercury's extended FDIC coverage
 
-Mercury offers something most banks don't: extended FDIC coverage beyond $250,000 through its sweep program.
 
-**How it works:** Mercury automatically distributes your funds across multiple FDIC-insured banks in its network. Each bank provides $250,000 of coverage, extending your total protection.
 
-Mercury's program covers up to $5 million. For businesses with significant cash balances, this is a substantial advantage.
 
-## Relay's FDIC coverage
 
-Relay operates through Thread Bank, which is FDIC insured. Standard coverage: $250,000 per depositor, per account category.
 
-Relay's 20 sub-accounts are all held at Thread Bank — the $250,000 limit applies to the total, not per sub-account.
 
-## FDIC coverage for LLC accounts
 
-Your LLC is a separate legal entity from you personally. This means:
-- Your LLC's deposits have FDIC coverage
-- Your personal deposits at the same bank have separate coverage
 
-So if you personally had $250,000 at Column NA (Mercury's bank) AND your LLC had $250,000 at the same bank, both amounts would be insured.
 
-## Practical guidance
 
-**Under $250,000 in total LLC cash:** One Mercury account is sufficient.
 
-**$250,000 - $5 million in LLC cash:** Use Mercury's sweep program for extended coverage.
 
-**Over $5 million:** Diversify across multiple institutions.
 
-**For most of our clients** (businesses billing €3,000-20,000/month): Standard Mercury FDIC coverage through Column NA is more than sufficient. At any given time, your LLC balance is unlikely to exceed $250,000.
 
-## What happens if a bank fails?
 
-If an FDIC-insured bank fails:
-1. The FDIC takes over
-2. Insured deposits (up to $250,000) are protected
-3. Usually, accounts transfer to another bank within days
-4. In worst case, you receive a check within a few days
 
-Bank failures are rare but not impossible. FDIC insurance gives you peace of mind regardless.
 
-Book your strategic consultation and we'll set up your LLC with the right banking infrastructure from day one.`,
 
   "tiempos-pagos-ach-wire-transfer": `Understanding payment timing helps you manage cash flow effectively. Here's a complete guide to how long different payment methods take.
 
@@ -2760,63 +2475,26 @@ For most foreign-owned LLC owners, the complexity of these resources is why you 
 
 Book your strategic consultation and we'll handle all your IRS compliance requirements.`,
 
-  "ventajas-fiscales-llc-clientes-internacionales": `The tax advantages of a US LLC become most powerful when you work with international clients. Here's how the structure optimizes your fiscal position.
 
-## The multiplier effect of international clients
 
-When you work with clients in multiple countries, you face multiple layers of potential taxation: your home country taxes, potential source-country taxes, VAT in various jurisdictions, and currency conversion costs. A US LLC simplifies this significantly.
 
-## No VAT complications on B2B services
 
-When your US LLC provides services to businesses in other countries, the reverse charge mechanism typically applies for VAT:
-- You don't charge VAT on your invoices
-- The client business handles VAT in their country
-- Your LLC invoices for the net service amount
 
-This simplification eliminates the need to register for VAT in each client's country (for most B2B scenarios).
 
-## 0% withholding tax optimization
 
-Some countries withhold tax when paying service providers in other countries. With a US LLC and proper tax treaty positioning:
-- The LLC may benefit from reduced withholding rates under US tax treaties
-- The W-8BEN-E form certifies your LLC's status to US clients
 
-**Example:** When a US company pays a Spanish autónomo, they may withhold tax. When they pay a properly documented US LLC owned by a non-resident, the treatment may be different.
 
-## The EIN advantage with US clients
 
-Your EIN (Employer Identification Number) is what US clients use to report payments to the IRS. US clients sending payments to a foreign individual may have different reporting obligations than payments to a US LLC.
 
-Providing your EIN and W-8BEN-E form to US clients signals that you're operating as a professional US business entity.
 
-## Flexible expense deduction
 
-With your income flowing through a US LLC, you have structured access to business expense deductions that reduce your taxable income:
 
-- All legitimate business expenses reduce LLC profit
-- Only the net profit gets declared in your home country
-- Effective tax rate is applied to a smaller base
 
-This is the core mechanism of the tax advantage — not magic, but structured optimization.
 
-## Example: freelancer billing international clients
 
-Carlos is a software developer in Mexico billing $120,000/year, split between US, German, and UK clients.
 
-**Without LLC (as Mexican freelancer):**
-- Gross income: $120,000
-- Mexican ISR: ~35% on taxable income
-- Currency conversion costs: ~2-3%
-- International banking limitations
 
-**With US LLC:**
-- LLC expenses (software, tools, Exentax): ~$8,000
-- Net LLC profit: $112,000
-- Declared in Mexico under applicable tax treaty rules
-- Currency management through Mercury (free wires) and Wise (real rates)
-- Effective tax optimization: potentially 10-20% reduction in tax burden
 
-Book your strategic consultation and we'll calculate your specific international tax advantage.`,
 
   "llc-seguridad-juridica-proteccion-patrimonial": `One of the most underrated advantages of a US LLC is its legal security and personal asset protection. Here's how it works in practice.
 
@@ -3025,72 +2703,28 @@ As your agency grows:
 
 Book your strategic consultation and we'll design your LLC structure for your agency's specific model.`,
 
-  "credibilidad-internacional-llc-imagen-profesional": `Beyond tax optimization, a US LLC fundamentally changes how the world perceives your business. Here's the underestimated professional advantage.
 
-## The perception reality
 
-When you invoice someone as "María García, Autónoma" versus "García Creative LLC," the psychological impact on the client is different:
 
-- **As an individual:** Hired gun, freelancer, "one person"
-- **As a US LLC:** Professional business, established entity, accountable company
 
-This isn't about deception — it's about how professional structures are perceived in international business.
 
-## Access to premium client segments
 
-Many larger businesses have supplier qualification processes that require working with registered business entities, not individuals. With your LLC:
-- You can respond to corporate RFPs that were previously closed to individual freelancers
-- Enterprise clients who wouldn't work with a "freelancer" will work with an LLC
-- The conversation shifts from "how much do you charge?" to "what are your service terms?"
 
-## The rate premium
 
-Multiple factors enable higher rates with an LLC:
-- Professional invoicing with EIN and US address
-- Business entity status (perceived stability and accountability)
-- Access to enterprise-level sales conversations
 
-Some of our clients have seen 20-40% rate increases after transitioning to LLC invoicing — not because their skills changed, but because the presentation did.
 
-## Platform access and partnership programs
 
-Many platforms and business programs require US business registration:
-- **AWS Partner Network:** Requires a US business entity
-- **Google Partner Programs:** Business entity required
-- **Shopify Partner Program:** Business entity preferred
-- **App marketplaces:** Apple and Google pay differently to US businesses
 
-## The invoice that opens doors
 
-A professional invoice from your LLC includes:
-- Your company logo
-- LLC legal name and address
-- EIN (Employer Identification Number)
-- Clear service descriptions
-- Professional payment terms
 
-This invoice, compared to a personal invoice or a basic freelancer invoice, makes a significant impression on professional procurement departments.
 
-## The email signature and proposal header
 
-Small things matter in business. A professional email from ceo@yourcompany.com representing "Smith Consulting LLC" reads differently than freelancer@gmail.com. Professional presentation cascades through every client interaction.
 
-## Building long-term business value
 
-Unlike individual freelancing, your LLC can:
-- Build a reputation and brand as a business entity
-- Be valued and potentially sold
-- Attract co-founders and team members
-- Access business credit and financing
-- Build relationships that outlast individual projects
 
-## Real example: the case of Mateo
 
-Mateo is a podcast host and content creator in Mexico. He was charging $500-1,000 per sponsorship episode. After forming his LLC and starting to invoice professionally as a US business, his rates climbed to $2,000-3,000. Brands valued the professional structure and viewed the partnership differently.
 
-The quality of his work didn't change. The professional credibility did.
 
-Book your strategic consultation and discover how your LLC becomes a business platform, not just a tax tool.`,
 
   "primer-mes-llc-que-esperar": `You've formed your LLC. Now what? Here's exactly what happens during your first month — week by week.
 
@@ -3327,136 +2961,54 @@ If you're billing consistently, have international clients, and feel your curren
 
 Book your strategic consultation and we'll design the LLC structure that lets you scale without limits.`,
 
-  "compliance-bancario-llc-como-cumplir": `Banking compliance is one of the most important — and least discussed — aspects of running a US LLC. Here's how to keep your accounts safe and operational.
 
-## What is banking compliance?
 
-Banking compliance (regulatory compliance) is the set of rules, policies, and controls that financial institutions implement to prevent illegal activity: money laundering, terrorism financing, fraud, and tax evasion.
 
-For you as an LLC owner, this means operating in ways that your bank doesn't find suspicious.
 
-## KYC: Know Your Customer
 
-When you open an LLC bank account, the bank verifies:
-- Your personal identity (passport, ID)
-- Your LLC's legal existence (Articles of Organization, EIN)
-- Your business address
-- Nature of your business and income sources
 
-This isn't an obstacle — it's a necessary step that protects both you and the bank.
 
-## AML: Anti-Money Laundering
 
-Banks monitor transactions for suspicious patterns:
-- Transactions inconsistent with your stated business profile
-- Frequent transfers to high-risk jurisdictions
-- Unusual cash deposits (rare for digital businesses)
-- "Structuring" — breaking large transactions into small ones to avoid reporting thresholds
 
-## How to keep your account in good standing
 
-### Operate consistently with your stated profile
 
-When you opened your account, you described your business. Keep your actual activity aligned with that description. If your business evolves significantly, notify the bank.
 
-### Document your transactions
 
-Every significant transaction should be documentable: invoices, contracts, receipts, emails. Not just for compliance — this is good business practice.
 
-### Separate business and personal finances
 
-Never use your LLC account for personal expenses. This is the most common trigger for bank compliance reviews.
 
-### Keep your information updated
 
-Changed your address? New passport? Updated business description? Keep your bank profile current. Stale information triggers alerts.
 
-### Respond promptly to bank requests
 
-If Mercury, Wise, or any other institution requests documentation, respond within 24-48 hours. Ignoring requests leads to escalation.
 
-## Mercury, Wise, and Relay: their compliance cultures
 
-**Mercury (Column NA):** Thorough but fair KYC. They want to understand your business but won't make arbitrary decisions. If your documentation is in order and your activity is consistent, you'll have no problems. Free wires mean you always use proper channels.
 
-**Wise Business (EMI):** More likely to request additional documentation, especially for large transfers. Use Wise for currency conversion, not as your primary treasury — this reduces compliance friction.
 
-**Relay (Thread Bank):** Similar to Mercury in its approach. The 20 sub-accounts are excellent for organizing money without triggering alerts about "complex" fund movements.
 
-## What to do if you receive a compliance request
 
-1. Don't panic — this is routine
-2. Read carefully what they're asking for
-3. Gather documentation (invoices, contracts, business explanation)
-4. Submit complete, clear, organized documentation
-5. Follow up if no response within 5 business days
 
-At Exentax, we help clients respond to banking compliance requests. Contact us immediately if this happens.
 
-Book your strategic consultation and we'll set up your LLC with a banking infrastructure designed for compliance from day one.`,
 
-  "politicas-monetarias-impacto-llc-emprendedores": `Central bank decisions affect your LLC's profitability, cash flow, and tax planning. Here's how to understand and navigate monetary policy as an international entrepreneur.
 
-## What monetary policy means for your LLC
 
-Your LLC operates in USD. This means the Federal Reserve's decisions directly impact you:
 
-**When the Fed raises interest rates:**
-- The dollar typically strengthens — your USD income buys more in your local currency
-- Treasury yields increase — Mercury's savings accounts offer better returns
-- Borrowing becomes more expensive (if you ever need business financing)
 
-**When the Fed cuts rates:**
-- The dollar may weaken — currency conversion yields less local currency
-- Financial markets often rally — potentially positive for investment portfolios
-- Business credit becomes more accessible
 
-## Managing currency risk
 
-If you earn in USD and spend in euros, pesos, or reals, exchange rate movements directly affect your real income:
 
-**Strategy 1: Maintain USD reserves**
-Don't convert everything immediately. Keep a buffer in Mercury for future business expenses and opportunities. The USD is strong and your business expenses are in USD.
 
-**Strategy 2: Use Wise for conversions**
-Wise converts at real mid-market rates with small, transparent fees (0.4-0.6% for EUR/USD). Compare this to banks charging 2-4% above market rates.
 
-**Strategy 3: Time your conversions**
-If you need local currency regularly, establish a conversion schedule rather than converting large amounts all at once. Dollar-cost averaging your currency conversions reduces rate timing risk.
 
-**Strategy 4: Invoice in USD wherever possible**
-The fewer currency conversions in your billing, the simpler your financial management.
 
-## Inflation's impact on your LLC
 
-**US inflation:**
-- Software subscriptions, tools, and services in the US get more expensive
-- Your pricing should reflect US market inflation if you have US clients
-- State filing fees and other costs may increase
 
-**Inflation in your home country:**
-- If your costs are in a high-inflation currency, earning USD provides natural protection
-- Your local purchasing power in high-inflation environments is protected when income is in USD
 
-## Interest rates and your cash strategy
 
-Mercury offers treasury accounts (via Column NA) that pay competitive yields on your USD balance. When US interest rates are high, these accounts generate meaningful returns on your operating cash.
 
-Practical approach:
-- Keep 1-3 months of operating expenses in Mercury checking
-- Park remaining balance in Mercury savings/treasury for yield
-- Use Wise for currency conversion when needed
 
-## Planning around macroeconomic cycles
 
-For business planning:
-- When dollar is strong: favorable time to convert accumulated USD to local currency
-- When dollar is weak: hold USD, minimize conversions, accumulate
-- Independent of exchange rates: maintain consistent USD pricing for your services
 
-The dollar's strength relative to most currencies has been a long-term trend that benefits USD-earning entrepreneurs.
 
-Book your strategic consultation and we'll structure your LLC's financial operations for macroeconomic resilience.`,
 
   "due-diligence-bancario-llc-americana": `When you open a US bank account for your LLC, the bank conducts due diligence on both your entity and you personally. Understanding this process helps you prepare and succeed.
 
@@ -3733,135 +3285,53 @@ Your country's tax treaty with the US may offer additional benefits. We analyze 
 
 Book your strategic consultation and we'll design your optimal international tax structure.`,
 
-  "regulaciones-fintech-llc-mercury-wise-relay": `Mercury, Wise, and Relay operate under specific regulatory frameworks that affect how your LLC's money is protected and managed. Here's what you need to know.
 
-## Are they banks or fintechs?
 
-The distinction is crucial:
 
-**Mercury:** NOT a bank. It's a financial technology company that operates through **Column NA** (Column National Association), a federally chartered bank. Your deposits are held at Column NA with FDIC insurance up to $250,000 (extended to $5 million through Mercury's sweep program).
 
-**Wise:** NOT a bank. It's an **EMI (Electronic Money Institution)** regulated in the US as a Money Transmitter by FinCEN, and in the EU/UK by respective financial regulators. Funds are held in safeguarding accounts — separated from Wise's operating capital but NOT FDIC insured.
 
-**Relay:** NOT a bank. Similar to Mercury, Relay partners with **Thread Bank** as its banking infrastructure. Deposits are FDIC insured through Thread Bank.
 
-## FDIC protection
 
-The FDIC (Federal Deposit Insurance Corporation) insures bank deposits in the US:
-- **Coverage:** Up to $250,000 per depositor, per institution, per account category
-- **Mercury:** FDIC through Column NA, extended up to $5M through sweep program
-- **Relay:** FDIC through Thread Bank, standard $250,000
-- **Wise:** NOT FDIC insured
 
-## Regulatory requirements that affect you
 
-### BSA/AML compliance
-All three must comply with the Bank Secrecy Act and Anti-Money Laundering regulations:
-- Mandatory KYC for all customers
-- Transaction monitoring
-- Suspicious activity reporting
 
-### State licensing
-Fintechs must obtain Money Transmitter licenses in each state where they operate. Mercury, Wise, and Relay all have necessary licenses across US states.
 
-## Advantages of fintechs over traditional banks
 
-### 1. Simplified account opening
-100% online application, no branch visit required — designed for remote businesses.
 
-### 2. Superior technology
-APIs, accounting software integrations, faster international transfers, advanced financial management tools.
 
-### 3. Better experience for non-residents
-These fintechs are designed to serve global customers. They understand the reality of an entrepreneur in Spain or Mexico operating a US LLC.
 
-### 4. International cards
-Both Mercury and Relay offer debit cards (physical and virtual) that work globally for business expenses.
 
-## Risks and mitigation
 
-**Account closure risk:** Fintechs can close accounts if they detect policy violations. Mitigate by operating transparently and responding promptly to inquiries.
 
-**Regulatory evolution:** The fintech regulatory landscape continues to evolve. Mercury, Wise, and Relay are well-capitalized and current on all regulations.
 
-**Concentration risk:** Don't keep all your business funds in one account. Diversify across Mercury and Relay.
 
-## Our recommendation
 
-1. **Mercury as primary** — receiving payments, paying expenses, treasury management
-2. **Wise as complement** — currency conversion, multi-currency receiving
-3. **Relay as backup** — second business account for redundancy and organization
 
-This combination gives you FDIC protection, free wires, multi-currency capability, and redundancy.
 
-Book your strategic consultation and we'll coordinate your complete fintech setup.`,
 
-  "transparencia-fiscal-internacional-llc": `Global tax transparency has transformed how countries monitor cross-border financial activity. Understanding this framework helps you operate your LLC confidently.
 
-## The new global tax paradigm
 
-Twenty years ago, it was relatively easy to maintain financial structures in other countries without your home country knowing. That era is over. Today, 100+ countries automatically exchange financial information.
 
-For a digital entrepreneur operating a US LLC transparently, this is actually positive — the information exchanged confirms you're complying with your obligations.
 
-## CRS: Common Reporting Standard
 
-The CRS is the OECD framework for automatic exchange of tax information between countries. 100+ jurisdictions participate.
 
-**How it works:**
-1. Financial institutions collect information about customer accounts
-2. They report to their country's tax authority
-3. Tax authorities automatically exchange information with the account holder's country of residence
 
-**What's exchanged:**
-- Account holder's name and address
-- Tax residency country
-- Tax identification number
-- Account balance
-- Financial income (interest, dividends, etc.)
 
-**Important note about the US:**
-The US does NOT participate in CRS. Instead, it has its own system: FATCA. This means your Mercury account information doesn't automatically flow to your home country via CRS. However, other mechanisms may provide this information exchange.
 
-## FATCA: Foreign Account Tax Compliance Act
 
-FATCA requires foreign financial institutions to report US citizen/resident accounts to the IRS.
 
-**Does it affect you?**
-If you're not a US citizen or resident, FATCA doesn't impose direct obligations on you. However, your bank in your home country may ask you to confirm you're not a "US Person."
 
-## Transparency as strategy
 
-Transparency isn't a burden — it's an advantage:
 
-**Credibility with financial institutions:** When your activity is transparent and documented, banks treat you better. Less documentation requests, fewer restrictions.
 
-**Personal peace of mind:** Knowing you comply with all obligations in all relevant countries lets you focus on your business.
 
-**Long-term sustainability:** Opaque structures have an expiration date. Transparent, well-documented structures are sustainable indefinitely.
 
-**Better position in audits:** If your home country reviews your tax situation, having everything documented and declared is your best protection.
 
-## Implementing transparency in your LLC
 
-1. **Declare your LLC in your country of residence** — comply with all applicable reporting obligations
-2. **Maintain separate, documented accounting** — invoices, contracts, transaction records
-3. **File all returns on time** — Form 5472 in the US, local returns in your home country
-4. **Work with Exentax** — we ensure everything is in order on both sides
 
-## How we handle transparency at Exentax
 
-Our approach to compliance:
-- ✓ Annual Form 5472 + Form 1120 filing with the IRS
-- ✓ FBAR if applicable
-- ✓ BOI Report maintained with FinCEN
-- ✓ Documentation prepared for your local tax advisor
-- ✓ Guidance on all local and international reporting obligations
-- ✓ Complete documentation archive for any future review
 
-Your LLC operates in the open. There's nothing to hide, and transparency is what makes this structure sustainable indefinitely.
 
-Book your strategic consultation and we'll review your complete tax transparency situation.`,
 
   "extension-irs-form-1120-como-solicitarla": `More than 50% of US corporate tax returns are filed on extension. Here's why you should automatically extend yours, and how Form 7004 works.
 
@@ -4155,76 +3625,31 @@ We'll tell you honestly if the numbers work in your favor. If they don't (yet), 
 
 Book your strategic consultation — no obligation, real numbers, honest advice.`,
 
-  "trazabilidad-transacciones-llc-confianza": `Transaction traceability is one of the most underrated advantages of a US LLC. Here's why documented, traceable operations protect your business.
 
-## What is transaction traceability?
 
-Traceability means every financial transaction in your LLC has a clear, documentable trail:
-- Who paid (or who you paid)
-- When the transaction occurred
-- What it was for
-- How much it was
-- Through which channel it moved
 
-A fully traceable operation can explain every dollar that came in and every dollar that went out.
 
-## Why traceability matters
 
-### For IRS compliance
 
-Form 5472 requires reporting all transactions between you and your LLC. Without traceability, you can't complete this form accurately. Without accurate completion, you risk the $25,000 penalty.
 
-### For banking compliance
 
-Your bank (Mercury, Relay, etc.) monitors transactions. When they see unexpected activity, they ask for documentation. If every transaction is traceable and documented, responding to these requests takes minutes, not days of frantic searching.
 
-### For tax optimization
 
-You can only deduct expenses you can prove. Without receipts, invoices, and documentation, your accountant can't include expenses in your tax calculation. Good traceability = more deductions = lower taxes.
 
-### For personal protection
 
-If your LLC is ever involved in a legal dispute or audit, traceability is your defense. You can show exactly what happened, when, and why. A clean, fully documented record is extremely powerful legal protection.
 
-### For your own financial management
 
-You can't manage what you can't measure. Traceable transactions let you see your real business performance: revenue by client, expenses by category, profit margin by service type.
 
-## How to achieve complete traceability
 
-**1. Use Mercury as your single LLC bank account**
-Every transaction goes through one place. Mercury's dashboard gives you complete transaction history, downloadable statements, and transaction-level notes.
 
-**2. Issue invoices for every income**
-Invoice every client payment, even small ones. Your invoice is the primary documentation that a payment was for a legitimate business service.
 
-**3. Get receipts for every expense**
-Screenshot software subscriptions, save email receipts, download invoices from vendors. File these by month and category.
 
-**4. Document every personal transfer**
-Every time you move money between Mercury and your personal account, note it:
-- Type: Distribution (money going to you) or Capital Contribution (money you're putting in)
-- Date, amount, purpose
 
-**5. Use accounting software**
-Wave (free) or QuickBooks integrates with Mercury to automatically categorize transactions. Review and correct categories monthly.
 
-## At Exentax: your compliance safety net
 
-We review your transaction records annually for Form 5472 preparation. When you provide clean, well-documented records:
-- Preparation is faster
-- Cost is lower
-- Accuracy is higher
-- Risk of IRS issues is minimal
 
-When records are messy or incomplete:
-- Reconstruction takes time
-- Costs more
-- Higher risk of inaccuracies
 
-The investment in maintaining clean records throughout the year pays dividends at tax time.
 
-Book your strategic consultation and we'll set up your LLC with the right traceability infrastructure from day one.`,
 
   "problemas-comunes-llc-como-evitarlos": `Based on our experience helping hundreds of LLC owners, these are the most common problems — and how to prevent them.
 
@@ -4450,84 +3875,30 @@ We work with clients who want to pay the right amount — not hide money.
 
 Book your strategic consultation and we'll explain how financial information exchange works in your specific case.`,
 
-  "por-que-elegir-exentax-diferencia": `There are dozens of services that form LLCs. There are few that understand the complete fiscal situation of a Spanish-speaking non-resident entrepreneur. Here's what makes Exentax different.
 
-## What "low cost" formation services do
 
-Services like LegalZoom, ZenBusiness, or Incfile offer a standardized product:
-- They fill out the Articles of Organization
-- They assign a Registered Agent
-- They send you the formation document
 
-And that's where their service ends. They don't help with the EIN, don't explain Form 5472, don't know what CRS is, don't understand how your LLC is taxed in Spain or Mexico.
 
-They're designed for Americans starting a local business — not for a freelancer in Barcelona billing international clients in dollars through Mercury.
 
-## What we do differently at Exentax
 
-**1. We understand your complete fiscal situation**
 
-We're not a company formation service. We're a firm specialized in international taxation for Spanish-speaking freelancers and digital entrepreneurs using US LLCs.
 
-When you consult with us, we analyze:
-- Your country of tax residence and its obligations
-- Your business model and income structure
-- Your real deductible expenses
-- The tax optimization achievable with an LLC
-- The financial platforms best suited to your situation
 
-**2. Everything in Spanish**
 
-All communication, documentation, and support is in Spanish. No translating IRS forms, no interpreting English legalese. We explain everything in your language, with examples from your context.
 
-**3. Comprehensive service, not à la carte**
 
-Our plans include everything needed to operate your LLC correctly:
-- LLC formation in the optimal state
-- Custom Operating Agreement
-- EIN obtainment
-- BOI Report filing
-- Annual Registered Agent service
-- Bank account opening (Mercury, Relay)
-- Initial 30-minute tax consultation
-- Support via email and WhatsApp
 
-No hidden fees, no surprise add-ons.
 
-**4. Annual maintenance that actually covers you**
 
-Our annual maintenance isn't just Registered Agent renewal. It includes:
-- Form 5472 + Form 1120 preparation and filing
-- BOI Report updates
-- Registered Agent renewal
-- State annual report (where applicable)
-- Continuous support via WhatsApp and email
-- Banking compliance review
 
-**5. Real experience with Spanish-speaking clients**
 
-We've worked with web development freelancers in Spain, graphic designers in Colombia, marketing consultants in Mexico, content creators in Argentina. We know the tax regimes in each country, the questions inspectors ask, and the real situations that arise day-to-day.
 
-## What we don't do
 
-Being transparent, there are things we don't do:
-- We don't offer accounting services in your home country (we work with recommended local advisors)
-- We don't promise "you'll pay 0% taxes" — it depends on your country and situation
-- We don't accept clients seeking to hide income or evade taxes
 
-Our goal is for your structure to be legal, efficient, and sustainable long-term.
 
-## The strategic consultation
 
-Before deciding if Exentax is right for you, book a strategic 30-minute consultation. In that call:
-- We analyze your current situation
-- We explain whether an LLC makes sense for your case
-- We show you real tax savings numbers
-- We walk through the complete process
 
-No commitment, no pressure. If after the consultation you prefer another service — perfect. At least you'll have made the decision with real information.
 
-Book your strategic consultation and discover the Exentax difference.`,
 
   "cuentas-bancarias-usa-reportan-hacienda-verdad": `"Does Mercury tell my tax authority how much money I have?" This is the question we receive most often. Here's the complete, honest answer.
 

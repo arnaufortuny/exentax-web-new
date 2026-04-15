@@ -50,16 +50,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Comparamos la carga fiscal de un autónomo en España (30-40%) con una LLC en Estados Unidos (hasta 0%). Números reales, ventajas y para quién tiene sentido.",
     canonical: `${BASE_URL}/es/blog/autonomo-espana-vs-llc-estados-unidos`,
   },
-  "/blog/boi-report-beneficial-ownership-llc": {
-    title: "BOI Report: qué es y cómo cumplir con el Beneficial Ownership | Exentax",
-    description: "El BOI Report es obligatorio para todas las LLCs ante FinCEN. Plazos, sanciones por incumplimiento, cómo presentarlo y errores que debes evitar.",
-    canonical: `${BASE_URL}/es/blog/boi-report-beneficial-ownership-llc`,
-  },
-  "/blog/stripe-paypal-llc-cobrar-dolares": {
-    title: "Cobrar en dólares con Stripe y PayPal usando tu LLC | Exentax",
-    description: "Configura Stripe y PayPal con tu LLC americana para cobrar en dólares sin restricciones. Guía paso a paso, comisiones y comparativa con cuentas locales.",
-    canonical: `${BASE_URL}/es/blog/stripe-paypal-llc-cobrar-dolares`,
-  },
   "/blog/impuestos-clientes-internacionales-espana": {
     title: "Impuestos con clientes internacionales en España | Exentax",
     description: "Si facturas a clientes internacionales desde España, puedes reducir tu carga fiscal del 40% hasta un 0% legalmente. IVA, fiscalidad internacional y LLC explicados.",
@@ -115,21 +105,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent. Plazos, costes y calendario completo.",
     canonical: `${BASE_URL}/es/blog/mantenimiento-anual-llc-obligaciones`,
   },
-  "/blog/form-1120-5472-declaraciones-llc": {
-    title: "Form 1120 y 5472: declaraciones fiscales obligatorias de tu LLC | Exentax",
-    description: "El Form 5472 y Form 1120 son obligatorios para LLCs con propietarios extranjeros. Qué reportan, plazos y cómo presentarlos correctamente con Exentax.",
-    canonical: `${BASE_URL}/es/blog/form-1120-5472-declaraciones-llc`,
-  },
-  "/blog/que-es-ach-pagos-internacionales": {
-    title: "¿Qué es ACH? Cómo recibir pagos en tu LLC americana | Exentax",
-    description: "ACH es el sistema de transferencias bancarias de EE.UU. Cómo funciona, diferencias con Wire Transfer, costes y cómo recibir pagos ACH en tu LLC.",
-    canonical: `${BASE_URL}/es/blog/que-es-ach-pagos-internacionales`,
-  },
-  "/blog/wire-transfer-llc-como-funciona": {
-    title: "Wire Transfer: enviar y recibir dinero con tu LLC | Exentax",
-    description: "Qué es un wire transfer, cómo funciona, costes, diferencias con ACH y Wise. Guía para enviar y recibir dinero internacionalmente con tu LLC americana.",
-    canonical: `${BASE_URL}/es/blog/wire-transfer-llc-como-funciona`,
-  },
   "/blog/wise-business-llc-guia": {
     title: "Wise Business para tu LLC: guía completa | Exentax",
     description: "Wise Business para tu LLC: cómo abrirla, recibir pagos en múltiples divisas, convertir moneda y enviar dinero a tu cuenta personal. Guía completa.",
@@ -149,11 +124,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Gastos deducibles en tu LLC: qué puedes deducir | Exentax",
     description: "Guía completa de gastos deducibles en tu LLC americana: tecnología, servicios profesionales, marketing, viajes, formación. Qué sí y qué no puedes deducir.",
     canonical: `${BASE_URL}/es/blog/gastos-deducibles-llc-que-puedes-deducir`,
-  },
-  "/blog/responsabilidades-dueno-llc": {
-    title: "Tus responsabilidades como dueño de una LLC | Exentax",
-    description: "Lista completa de responsabilidades como dueño de una LLC: obligaciones legales, fiscales y operativas. Calendario, plazos y consecuencias de no cumplir.",
-    canonical: `${BASE_URL}/es/blog/responsabilidades-dueno-llc`,
   },
   "/blog/residentes-no-residentes-llc-diferencias": {
     title: "LLC para residentes y no residentes: diferencias fiscales | Exentax",
@@ -179,11 +149,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Bancos vs Fintech para tu LLC: Mercury, Wise, Relay | Exentax",
     description: "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC americana.",
     canonical: `${BASE_URL}/es/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`,
-  },
-  "/blog/fdic-garantia-depositos-que-es": {
-    title: "¿Qué es el FDIC? Garantía de depósitos en EE.UU. | Exentax",
-    description: "El FDIC asegura tu dinero hasta $250,000 si tu banco quiebra. Cómo funciona, qué cubre, cómo afecta a tu LLC y diferencias con Mercury y Wise.",
-    canonical: `${BASE_URL}/es/blog/fdic-garantia-depositos-que-es`,
   },
   "/blog/tiempos-pagos-ach-wire-transfer": {
     title: "¿Cuánto tardan ACH y Wire Transfer? Tiempos reales | Exentax",
@@ -215,20 +180,10 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir con tus obligaciones fiscales. Guía completa.",
     canonical: `${BASE_URL}/es/blog/que-es-irs-guia-duenos-llc`,
   },
-  "/blog/ventajas-fiscales-llc-clientes-internacionales": {
-    title: "Ventajas fiscales LLC con clientes internacionales | Exentax",
-    description: "Si tienes clientes internacionales, una LLC puede ahorrarte entre el 50% y 100% en impuestos federales. Ejemplo real: de 36% a 0% federal. Te explicamos cómo funciona.",
-    canonical: `${BASE_URL}/es/blog/ventajas-fiscales-llc-clientes-internacionales`,
-  },
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": {
     title: "LLC y seguridad jurídica: protección patrimonial | Exentax",
     description: "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección, cuándo falla, y cómo mantenerla fuerte. Guía completa de seguridad jurídica.",
     canonical: `${BASE_URL}/es/blog/llc-seguridad-juridica-proteccion-patrimonial`,
-  },
-  "/blog/trazabilidad-transacciones-llc-confianza": {
-    title: "Trazabilidad de transacciones en tu LLC: confianza con bancos y clientes | Exentax",
-    description: "La trazabilidad financiera protege tu LLC de bloqueos bancarios, facilita el compliance IRS y genera confianza con clientes enterprise. Guía práctica.",
-    canonical: `${BASE_URL}/es/blog/trazabilidad-transacciones-llc-confianza`,
   },
   "/blog/problemas-comunes-llc-como-evitarlos": {
     title: "7 problemas reales de una LLC en EE.UU. y cómo evitarlos | Exentax",
@@ -244,11 +199,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "CRS, cuentas bancarias y LLC: intercambio de información fiscal | Exentax",
     description: "¿Puede tu hacienda ver tu cuenta de Mercury? Cómo funciona el CRS, qué reportan las fintechs americanas y por qué la transparencia fiscal te beneficia.",
     canonical: `${BASE_URL}/es/blog/crs-cuentas-bancarias-llc-intercambio-informacion`,
-  },
-  "/blog/por-que-elegir-exentax-diferencia": {
-    title: "Por qué elegir Exentax para tu LLC — Qué nos diferencia | Exentax",
-    description: "No solo abrimos LLCs: analizamos tu fiscalidad, preparamos compliance y te acompañamos en español. Esto es lo que hace diferente a Exentax.",
-    canonical: `${BASE_URL}/es/blog/por-que-elegir-exentax-diferencia`,
   },
   "/blog/cuentas-bancarias-usa-reportan-hacienda-verdad": {
     title: "¿Las cuentas bancarias USA reportan a tu hacienda? La verdad | Exentax",
@@ -285,11 +235,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Cómo una LLC americana ayuda a agencias de marketing digital a facturar internacionalmente, cobrar en dólares y escalar sin límites geográficos.",
     canonical: `${BASE_URL}/es/blog/llc-agencias-marketing-digital`,
   },
-  "/blog/credibilidad-internacional-llc-imagen-profesional": {
-    title: "Credibilidad internacional con una LLC americana | Exentax",
-    description: "Una LLC americana no solo optimiza tu fiscalidad — también mejora tu imagen profesional, abre puertas a clientes más grandes y da acceso completo a plataformas globales.",
-    canonical: `${BASE_URL}/es/blog/credibilidad-internacional-llc-imagen-profesional`,
-  },
   "/blog/primer-mes-llc-que-esperar": {
     title: "Tu primer mes con una LLC: qué esperar | Exentax",
     description: "Qué pasa exactamente después de constituir tu LLC: cuenta bancaria, primeras facturas, configuración de cobros y rutina operativa. Guía paso a paso del primer mes.",
@@ -304,16 +249,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Cómo escalar tu negocio digital con una LLC americana | Exentax",
     description: "Una LLC americana no es solo fiscalidad. Es acceso a mercados globales, herramientas sin restricciones, credibilidad internacional y crecimiento sin burocracia.",
     canonical: `${BASE_URL}/es/blog/escalar-negocio-digital-llc-americana`,
-  },
-  "/blog/compliance-bancario-llc-como-cumplir": {
-    title: "Compliance bancario para tu LLC: cómo mantener tus cuentas seguras | Exentax",
-    description: "Compliance bancario para LLCs: KYC, AML, FBAR y buenas prácticas para mantener tus cuentas en Mercury y Wise operativas sin bloqueos.",
-    canonical: `${BASE_URL}/es/blog/compliance-bancario-llc-como-cumplir`,
-  },
-  "/blog/politicas-monetarias-impacto-llc-emprendedores": {
-    title: "Políticas monetarias y tu LLC: cómo afectan tu negocio digital | Exentax",
-    description: "Tipos de cambio, inflación y tasas de interés: cómo las políticas monetarias impactan tu LLC americana y qué estrategias adoptar para proteger tu rentabilidad.",
-    canonical: `${BASE_URL}/es/blog/politicas-monetarias-impacto-llc-emprendedores`,
   },
   "/blog/due-diligence-bancario-llc-americana": {
     title: "Due diligence bancario para tu LLC: qué verifican los bancos | Exentax",
@@ -334,16 +269,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Fiscalidad internacional para emprendedores digitales | Exentax",
     description: "Residencia fiscal, doble imposición, establecimiento permanente: todo lo que un emprendedor digital necesita saber sobre fiscalidad internacional.",
     canonical: `${BASE_URL}/es/blog/fiscalidad-internacional-emprendedores-digitales`,
-  },
-  "/blog/regulaciones-fintech-llc-mercury-wise-relay": {
-    title: "Regulaciones fintech: Mercury, Wise y Relay para tu LLC | Exentax",
-    description: "Cómo funcionan Mercury, Wise y Relay: regulaciones, protección FDIC, compliance y qué significa para tu LLC americana. Guía completa para emprendedores.",
-    canonical: `${BASE_URL}/es/blog/regulaciones-fintech-llc-mercury-wise-relay`,
-  },
-  "/blog/transparencia-fiscal-internacional-llc": {
-    title: "Transparencia fiscal internacional y tu LLC: CRS, FATCA y más | Exentax",
-    description: "CRS, FATCA, intercambio automático de información: cómo funciona la transparencia fiscal internacional y qué significa para tu LLC americana.",
-    canonical: `${BASE_URL}/es/blog/transparencia-fiscal-internacional-llc`,
   },
   "/blog/extension-irs-form-1120-como-solicitarla": {
     title: "Form 7004: extensión del IRS para el Form 1120 | Exentax",
@@ -1034,9 +959,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li><a href="/blog/form-5472-que-es-como-presentarlo">Form 5472: qué es, quién debe presentarlo y cómo cumplir correctamente</a></li>
 <li><a href="/blog/autonomo-espana-vs-llc-estados-unidos">Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa</a></li>
 <li><a href="/blog/nuevo-mexico-vs-wyoming-vs-delaware">Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC</a></li>
-<li><a href="/blog/stripe-paypal-llc-cobrar-dolares">Cómo cobrar en dólares con Stripe y PayPal usando tu LLC americana</a></li>
 <li><a href="/blog/ein-numero-fiscal-llc-como-obtenerlo">EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso</a></li>
-<li><a href="/blog/boi-report-beneficial-ownership-llc">BOI Report: qué es el Beneficial Ownership y cómo cumplir con FinCEN</a></li>
 <li><a href="/blog/cuenta-bancaria-mercury-llc-extranjero">Cómo abrir una cuenta Mercury para tu LLC desde cualquier país</a></li>
 <li><a href="/blog/impuestos-clientes-internacionales-espana">Impuestos si tienes clientes internacionales en España</a></li>
 <li><a href="/blog/pagar-cero-impuestos-legalmente-llc">¿Se puede pagar 0% de impuestos legalmente?</a></li>
@@ -1049,27 +972,21 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li><a href="/blog/operating-agreement-llc-que-es">Operating Agreement: qué es y por qué tu LLC lo necesita</a></li>
 <li><a href="/blog/documentos-llc-cuales-necesitas">Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno</a></li>
 <li><a href="/blog/mantenimiento-anual-llc-obligaciones">Mantenimiento anual de tu LLC: obligaciones, plazos y costes</a></li>
-<li><a href="/blog/form-1120-5472-declaraciones-llc">Form 1120 y Form 5472: las declaraciones fiscales de tu LLC</a></li>
-<li><a href="/blog/que-es-ach-pagos-internacionales">¿Qué es ACH? Cómo recibir pagos en tu LLC</a></li>
-<li><a href="/blog/wire-transfer-llc-como-funciona">Wire Transfer: qué es y cómo enviar y recibir dinero con tu LLC</a></li>
 <li><a href="/blog/wise-business-llc-guia">Wise Business para tu LLC: guía completa</a></li>
 <li><a href="/blog/pasarelas-pago-llc-stripe-paypal-dodo">Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas</a></li>
 <li><a href="/blog/amazon-ecommerce-llc-vender-online">Amazon y ecommerce con LLC: cómo vender online desde cualquier país</a></li>
 <li><a href="/blog/gastos-deducibles-llc-que-puedes-deducir">Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir</a></li>
-<li><a href="/blog/responsabilidades-dueno-llc">Tus responsabilidades como dueño de una LLC</a></li>
 <li><a href="/blog/residentes-no-residentes-llc-diferencias">LLC para residentes y no residentes de EE.UU.: diferencias clave</a></li>
 <li><a href="/blog/cambiar-divisas-llc-mejores-opciones">Cómo cambiar divisas en tu LLC: las mejores opciones</a></li>
 <li><a href="/blog/constituir-llc-proceso-paso-a-paso">Constituir tu LLC: el proceso paso a paso</a></li>
 <li><a href="/blog/autonomos-espana-por-que-dejar-de-serlo">Por qué dejar de ser autónomo en España</a></li>
 <li><a href="/blog/bancos-vs-fintech-llc-donde-abrir-cuenta">Bancos vs Fintech: dónde abrir la cuenta de tu LLC</a></li>
-<li><a href="/blog/fdic-garantia-depositos-que-es">¿Qué es el FDIC? Garantía de depósitos en EE.UU.</a></li>
 <li><a href="/blog/tiempos-pagos-ach-wire-transfer">¿Cuánto tardan los pagos ACH y Wire Transfer?</a></li>
 <li><a href="/blog/iban-swift-routing-number-que-son">IBAN, SWIFT y Routing Number: qué son</a></li>
 <li><a href="/blog/cuanto-cuesta-constituir-llc">¿Cuánto cuesta constituir una LLC?</a></li>
 <li><a href="/blog/ventajas-desventajas-llc-no-residentes">Ventajas y desventajas de una LLC para no residentes</a></li>
 <li><a href="/blog/evitar-bloqueos-mercury-wise-revolut">Cómo evitar bloqueos en Mercury, Wise y Revolut</a></li>
 <li><a href="/blog/que-es-irs-guia-duenos-llc">¿Qué es el IRS? Guía para dueños de LLC</a></li>
-<li><a href="/blog/ventajas-fiscales-llc-clientes-internacionales">Ventajas fiscales de una LLC con clientes internacionales</a></li>
 <li><a href="/blog/llc-seguridad-juridica-proteccion-patrimonial">LLC y seguridad jurídica: protección patrimonial</a></li>
 </ul>
 </nav>
@@ -1145,30 +1062,6 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Para quién tiene sentido la LLC?</h2>
 <ul><li>Facturas más de 30.000€/año a clientes internacionales</li><li>Negocio 100% digital</li><li>Cobras en dólares</li><li>Quieres protección patrimonial</li></ul>
 <p>Usa nuestra <a href="/">calculadora fiscal gratuita</a> para ver cuánto ahorrarías con tu facturación concreta.</p>
-</article>`,
-
-  "/blog/boi-report-beneficial-ownership-llc": `<article>
-<h1>BOI Report: qué es el Beneficial Ownership y cómo cumplir con FinCEN</h1>
-<p>El BOI Report es una declaración obligatoria ante FinCEN bajo la Corporate Transparency Act. Todas las LLCs deben reportar quiénes son sus propietarios reales.</p>
-<h2>¿Qué información se reporta?</h2>
-<ul><li>Nombre completo de cada propietario beneficiario</li><li>Fecha de nacimiento</li><li>Dirección residencial</li><li>Documento de identificación con imagen</li></ul>
-<h2>Plazos</h2>
-<p>LLCs constituidas en 2024: 90 días. LLCs a partir de 2025: 30 días desde la constitución. Actualizaciones: 30 días tras cualquier cambio.</p>
-<h2>Multas por no cumplir</h2>
-<p>El incumplimiento del BOI Report conlleva sanciones civiles y penales significativas. Consulta con un profesional para asegurar el cumplimiento.</p>
-<p>En Exentax <a href="/como-trabajamos">gestionamos el BOI Report</a> como parte de nuestro servicio de compliance.</p>
-</article>`,
-
-  "/blog/stripe-paypal-llc-cobrar-dolares": `<article>
-<h1>Cómo cobrar en dólares con Stripe y PayPal usando tu LLC americana</h1>
-<p>Con una LLC en EE.UU. puedes acceder a Stripe y PayPal sin restricciones geográficas. Cobra en más de 135 divisas, sin retenciones y con comisiones más bajas.</p>
-<h2>Stripe con LLC americana</h2>
-<ul><li>Cuenta Stripe US con todas las funcionalidades</li><li>Cobrar en 135+ divisas</li><li>Comisión: 2.9% + $0.30 por transacción doméstica</li><li>Sin restricciones geográficas</li></ul>
-<h2>PayPal Business con LLC</h2>
-<ul><li>Cuenta Business US sin retenciones</li><li>PayPal Checkout, suscripciones y facturación</li><li>Comisión: 2.99% + $0.49 por transacción doméstica</li></ul>
-<h2>Configuración paso a paso</h2>
-<p>Crea cuenta → verifica LLC con EIN → verifica identidad → conecta cuenta Mercury → activa.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y te explicamos cómo configurarlo para tu caso.</p>
 </article>`,
 
   "/blog/impuestos-clientes-internacionales-espana": `<article>
@@ -1275,30 +1168,6 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre mantenimiento anual.</p>
 </article>`,
 
-  "/blog/form-1120-5472-declaraciones-llc": `<article>
-<h1>Form 1120 y Form 5472: las declaraciones fiscales de tu LLC</h1>
-<p>Si tu LLC tiene un propietario extranjero, debes presentar el Form 5472 y Form 1120 cada año. El IRS impone sanciones significativas por incumplimiento.</p>
-<h2>Qué se reporta</h2>
-<ul><li>Capital contributions</li><li>Distributions (Owner's Draws)</li><li>Préstamos entre miembro y LLC</li><li>Pagos por servicios</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre tus obligaciones fiscales.</p>
-</article>`,
-
-  "/blog/que-es-ach-pagos-internacionales": `<article>
-<h1>¿Qué es ACH? Cómo recibir pagos en tu LLC</h1>
-<p>ACH (Automated Clearing House) es el sistema de transferencias bancarias doméstico de EE.UU. Gratis en Mercury, 1-3 días hábiles.</p>
-<h2>ACH vs Wire Transfer</h2>
-<ul><li>ACH: gratis, 1-3 días, reversible</li><li>Wire: $15-50, mismo día, irreversible</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar tus cobros.</p>
-</article>`,
-
-  "/blog/wire-transfer-llc-como-funciona": `<article>
-<h1>Wire Transfer: qué es y cómo enviar y recibir dinero con tu LLC</h1>
-<p>El wire transfer es la forma más segura de mover dinero internacionalmente. Doméstico ($15-30) e internacional ($25-50) desde Mercury.</p>
-<h2>Cuándo usarlo</h2>
-<ul><li>Pagos grandes (>$5,000)</li><li>Pagos urgentes</li><li>Clientes internacionales</li><li>Transferencias a tu cuenta personal</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para optimizar tus transferencias.</p>
-</article>`,
-
   "/blog/wise-business-llc-guia": `<article>
 <h1>Wise Business para tu LLC: guía completa</h1>
 <p>Wise Business permite recibir, convertir y enviar dinero en 40+ divisas con tipo de cambio real. Complemento perfecto de Mercury.</p>
@@ -1331,14 +1200,6 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>No deducibles</h2>
 <ul><li>Gastos personales</li><li>Multas y sanciones</li><li>Owner's Draws (son distribuciones)</li></ul>
 <p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre deducciones.</p>
-</article>`,
-
-  "/blog/responsabilidades-dueno-llc": `<article>
-<h1>Tus responsabilidades como dueño de una LLC</h1>
-<p>Obligaciones legales (Registered Agent, Annual Report, BOI), fiscales (Form 5472, FBAR) y operativas (separar finanzas, registros contables).</p>
-<h2>Calendario de responsabilidades</h2>
-<ul><li>Continuo: separar finanzas, guardar facturas</li><li>Anual: Form 5472+1120, FBAR, Annual Report</li><li>Cuando haya cambios: actualizar BOI y Operating Agreement</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para revisar tus obligaciones.</p>
 </article>`,
 
   "/blog/residentes-no-residentes-llc-diferencias": `<article>
@@ -1383,16 +1244,6 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>Comparativa</h2>
 <p>Mercury (FDIC hasta $5M), Relay (FDIC $250K), Wise (safeguarding, no FDIC), Revolut (FDIC $250K).</p>
 <p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para elegir la mejor opción.</p>
-</article>`,
-
-  "/blog/fdic-garantia-depositos-que-es": `<article>
-<h1>¿Qué es el FDIC? La garantía de depósitos en Estados Unidos</h1>
-<p>El FDIC asegura tus depósitos bancarios hasta $250,000 por depositante. Si tu banco quiebra, el gobierno te devuelve tu dinero.</p>
-<h2>Cobertura</h2>
-<ul><li>$250,000 por depositante, por banco</li><li>Cuentas corrientes, ahorro, CDs</li><li>No cubre inversiones ni criptomonedas</li></ul>
-<h2>Tu LLC y el FDIC</h2>
-<p>Tu LLC tiene cobertura independiente de tus cuentas personales. Mercury ofrece hasta $5M vía programa de barrido.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para estructurar tus cuentas.</p>
 </article>`,
 
   "/blog/tiempos-pagos-ach-wire-transfer": `<article>
@@ -1446,16 +1297,6 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>Obligaciones con el IRS</h2>
 <ul><li>EIN: número fiscal de tu LLC</li><li>Form 1120 + Form 5472: declaración corporativa e informativa anual</li><li>Sanciones significativas por no presentar</li><li>Plazo: 15 de marzo (extensión hasta 15 de septiembre con Form 7004)</li></ul>
 <p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para entender tus obligaciones.</p>
-</article>`,
-
-  "/blog/ventajas-fiscales-llc-clientes-internacionales": `<article>
-<h1>Ventajas fiscales de una LLC si tienes clientes internacionales</h1>
-<p>Si la mayoría de tus clientes están fuera de tu país, una LLC puede reducir tu carga fiscal del 36-47% hasta un 0% de impuesto federal en EE.UU.</p>
-<h2>Ventajas concretas</h2>
-<ul><li>0% impuesto federal en EE.UU.</li><li>Facturación sin IVA</li><li>Optimización fiscal total</li><li>Sin retenciones en pagos de clientes americanos</li><li>Deducción de gastos globales</li></ul>
-<h2>Ejemplo: freelancer en España</h2>
-<p>La diferencia fiscal puede ser muy significativa. Usa nuestra <a href="/">calculadora fiscal gratuita</a> para estimar tu ahorro concreto.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para calcular tu ahorro.</p>
 </article>`,
 
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": `<article>
@@ -1915,56 +1756,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "wordCount": 1400
     }
   ],
-  "/blog/boi-report-beneficial-ownership-llc": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-        { "@type": "ListItem", "position": 3, "name": "BOI Report", "item": `${BASE_URL}/blog/boi-report-beneficial-ownership-llc` }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "BOI Report: qué es el Beneficial Ownership y cómo cumplir con FinCEN",
-      "description": "El BOI Report es obligatorio para todas las LLCs ante FinCEN. Plazos, sanciones por incumplimiento, cómo presentarlo y errores que debes evitar.",
-      "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
-      "datePublished": "2026-03-05",
-      "mainEntityOfPage": `${BASE_URL}/blog/boi-report-beneficial-ownership-llc`,
-      "inLanguage": "es",
-      "articleSection": "Compliance",
-      "wordCount": 1200
-    }
-  ],
-  "/blog/stripe-paypal-llc-cobrar-dolares": [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-        { "@type": "ListItem", "position": 3, "name": "Stripe y PayPal con LLC", "item": `${BASE_URL}/blog/stripe-paypal-llc-cobrar-dolares` }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Cómo cobrar en dólares con Stripe y PayPal usando tu LLC americana",
-      "description": "Configura Stripe y PayPal con tu LLC americana para cobrar en dólares sin restricciones. Guía paso a paso, comisiones y comparativa con cuentas locales.",
-      "image": `${BASE_URL}/og-image.png`,
-      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
-      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
-      "datePublished": "2026-03-05",
-      "mainEntityOfPage": `${BASE_URL}/blog/stripe-paypal-llc-cobrar-dolares`,
-      "inLanguage": "es",
-      "articleSection": "Herramientas",
-      "wordCount": 1500
-    }
-  ],
   "/blog/impuestos-clientes-internacionales-espana": [
     {
       "@context": "https://schema.org",
@@ -2173,30 +1964,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
   ],
-  "/blog/form-1120-5472-declaraciones-llc": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "Form 1120 y 5472", "item": `${BASE_URL}/blog/form-1120-5472-declaraciones-llc` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Form 1120 y Form 5472: las declaraciones fiscales de tu LLC", "description": "El Form 5472 y Form 1120 son obligatorios para LLCs con propietarios extranjeros. Plazos y cómo presentarlos correctamente con Exentax.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/form-1120-5472-declaraciones-llc`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1000 }
-  ],
-  "/blog/que-es-ach-pagos-internacionales": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "Qué es ACH", "item": `${BASE_URL}/blog/que-es-ach-pagos-internacionales` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es ACH? Cómo recibir pagos en tu LLC", "description": "ACH es el sistema de transferencias bancarias de EE.UU. Cómo funciona, diferencias con Wire Transfer y cómo recibir pagos ACH en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-ach-pagos-internacionales`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 900 }
-  ],
-  "/blog/wire-transfer-llc-como-funciona": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "Wire Transfer LLC", "item": `${BASE_URL}/blog/wire-transfer-llc-como-funciona` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Wire Transfer: qué es y cómo enviar y recibir dinero con tu LLC", "description": "Qué es un wire transfer, cómo funciona, costes y diferencias con ACH y Wise.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wire-transfer-llc-como-funciona`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 950 }
-  ],
   "/blog/wise-business-llc-guia": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
@@ -2228,14 +1995,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 3, "name": "Gastos deducibles LLC", "item": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir` }
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
-  ],
-  "/blog/responsabilidades-dueno-llc": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "Responsabilidades dueño LLC", "item": `${BASE_URL}/blog/responsabilidades-dueno-llc` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Tus responsabilidades como dueño de una LLC", "description": "Lista completa de responsabilidades como dueño de una LLC: obligaciones legales, fiscales y operativas.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/responsabilidades-dueno-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
   ],
   "/blog/residentes-no-residentes-llc-diferencias": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2276,14 +2035,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 3, "name": "Bancos vs Fintech para LLC", "item": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta` }
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
-  ],
-  "/blog/fdic-garantia-depositos-que-es": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "FDIC garantía de depósitos", "item": `${BASE_URL}/blog/fdic-garantia-depositos-que-es` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el FDIC? La garantía de depósitos en Estados Unidos", "description": "El FDIC asegura tu dinero hasta $250,000 si tu banco quiebra. Cómo funciona, qué cubre y cómo afecta a tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/fdic-garantia-depositos-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/tiempos-pagos-ach-wire-transfer": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -2332,14 +2083,6 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 3, "name": "Qué es el IRS", "item": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc` }
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
-  ],
-  "/blog/ventajas-fiscales-llc-clientes-internacionales": [
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-      { "@type": "ListItem", "position": 3, "name": "Ventajas fiscales LLC clientes internacionales", "item": `${BASE_URL}/blog/ventajas-fiscales-llc-clientes-internacionales` }
-    ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas fiscales de una LLC si tienes clientes internacionales", "description": "Si tienes clientes internacionales, una LLC puede ahorrarte entre el 50% y 75% en impuestos.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-fiscales-llc-clientes-internacionales`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
   ],
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
