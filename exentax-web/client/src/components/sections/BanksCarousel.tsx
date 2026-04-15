@@ -16,6 +16,8 @@ const BANKS: Bank[] = [
   { name: "Wise", src: "/img/partner-wise.png", height: "h-16 sm:h-20" },
   { name: "Lili", src: "/img/partner-lili.webp", height: "h-8 sm:h-10" },
   { name: "Slash", src: "/img/partner-slash.png", height: "h-12 sm:h-16" },
+  { name: "Interactive Brokers", src: "/img/partner-interactive-brokers.png", height: "h-8 sm:h-10" },
+  { name: "Kraken", src: "/img/partner-kraken.png", height: "h-10 sm:h-12" },
 ];
 
 const DUPLICATED = [...BANKS, ...BANKS];
