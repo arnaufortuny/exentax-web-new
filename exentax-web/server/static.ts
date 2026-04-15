@@ -251,18 +251,9 @@ function injectMeta(html: string, reqPath: string): string {
     );
   }
 
-  const OLD_PATH_MAP: Partial<Record<string, string>> = {
-    home: "/",
-    how_we_work: "/como-trabajamos",
-    our_services: "/servicios",
-    about_llc: "/sobre-las-llc",
-    faq: "/preguntas-frecuentes",
-    book: "/agendar-asesoria",
-  };
   const resolvedRoute = resolveServerRoute(cleanPath);
-  const oldPathKey = resolvedRoute ? OLD_PATH_MAP[resolvedRoute.key] : undefined;
-
-  let seoContent = PAGE_SEO_CONTENT[cleanPath] || (oldPathKey ? PAGE_SEO_CONTENT[oldPathKey] : undefined);
+  const routeKey = resolvedRoute?.key ?? (cleanPath === "/" ? "home" : undefined);
+  let seoContent = routeKey ? PAGE_SEO_CONTENT[routeKey] : undefined;
   if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)) {
     const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
     const blogLinks = BLOG_POSTS.map(post => {
@@ -317,7 +308,7 @@ function injectMeta(html: string, reqPath: string): string {
     });
   }
 
-  let pageSchemas = PAGE_SCHEMAS[cleanPath] || (oldPathKey ? PAGE_SCHEMAS[oldPathKey] : undefined);
+  let pageSchemas = routeKey ? PAGE_SCHEMAS[routeKey] : undefined;
   if (!pageSchemas && isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
     if (post) {

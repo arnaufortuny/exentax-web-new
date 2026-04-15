@@ -646,41 +646,234 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
 };
 
-export const PAGE_META_I18N: Record<string, PageMeta> = {
-  "/es/blog": {
-    title: "Blog sobre LLC, impuestos y fiscalidad internacional | Exentax",
-    description: "Artículos sobre LLCs en EE.UU., fiscalidad internacional, Stripe, criptomonedas, nómadas digitales y optimización fiscal para freelancers.",
-    canonical: `${BASE_URL}/es/blog`,
-  },
-  "/en/blog": {
-    title: "Blog: US LLCs, international taxation & digital business | Exentax",
-    description: "Articles on US LLCs, international taxation, Stripe, crypto, digital nomad tax planning and fiscal optimization for freelancers.",
-    canonical: `${BASE_URL}/en/blog`,
-  },
-  "/fr/blog": {
-    title: "Blog : LLC aux USA, fiscalité internationale et business digital | Exentax",
-    description: "Articles sur les LLC américaines, la fiscalité internationale, Stripe, crypto, nomades numériques et optimisation fiscale pour freelances.",
-    canonical: `${BASE_URL}/fr/blog`,
-  },
-  "/de/blog": {
-    title: "Blog: US-LLC, internationale Besteuerung & digitales Business | Exentax",
-    description: "Artikel über US-LLCs, internationale Besteuerung, Stripe, Krypto, digitale Nomaden und steuerliche Optimierung für Freelancer.",
-    canonical: `${BASE_URL}/de/blog`,
-  },
-  "/pt/blog": {
-    title: "Blog: LLC nos EUA, tributação internacional e negócios digitais | Exentax",
-    description: "Artigos sobre LLCs americanas, tributação internacional, Stripe, cripto, nômades digitais e otimização fiscal para freelancers.",
-    canonical: `${BASE_URL}/pt/blog`,
-  },
-  "/ca/blog": {
-    title: "Blog: LLC als EUA, fiscalitat internacional i negoci digital | Exentax",
-    description: "Articles sobre LLCs americanes, fiscalitat internacional, Stripe, cripto, nòmades digitals i optimització fiscal per a freelancers.",
-    canonical: `${BASE_URL}/ca/blog`,
-  },
-};
+function buildI18nMeta(): Record<string, PageMeta> {
+  const LANGS: SupportedLang[] = ["es", "en", "fr", "de", "pt", "ca"];
+  const meta: Record<string, PageMeta> = {};
+
+  const PAGE_TITLES: Record<RouteKey, Record<SupportedLang, string>> = {
+    home: {
+      es: "Paga menos impuestos legalmente con tu LLC en EE.UU. | Exentax",
+      en: "Pay less taxes legally with your US LLC | Exentax",
+      fr: "Payez moins d'impôts légalement avec votre LLC aux USA | Exentax",
+      de: "Zahlen Sie legal weniger Steuern mit Ihrer US-LLC | Exentax",
+      pt: "Pague menos impostos legalmente com sua LLC nos EUA | Exentax",
+      ca: "Paga menys impostos legalment amb la teva LLC als EUA | Exentax",
+    },
+    our_services: {
+      es: "Servicios de constitución LLC en EE.UU. | Exentax",
+      en: "LLC Services in the US | Exentax",
+      fr: "Services LLC aux États-Unis | Exentax",
+      de: "LLC-Dienstleistungen in den USA | Exentax",
+      pt: "Serviços LLC nos EUA | Exentax",
+      ca: "Serveis LLC als EUA | Exentax",
+    },
+    how_we_work: {
+      es: "Cómo funciona: tu LLC lista en 4 pasos | Exentax",
+      en: "How we work | LLC structure without errors or improvisation | Exentax",
+      fr: "Comment nous travaillons | Structure LLC sans erreurs ni improvisation | Exentax",
+      de: "Wie wir arbeiten | LLC-Struktur ohne Fehler und Improvisation | Exentax",
+      pt: "Como trabalhamos | Estrutura LLC sem erros ou improvisação | Exentax",
+      ca: "Com treballem | Estructura LLC sense errors ni improvisació | Exentax",
+    },
+    about_llc: {
+      es: "LLC en EE.UU. para no residentes — Guía completa 2026 | Exentax",
+      en: "US LLC for non-residents · Complete guide 2026 | Exentax",
+      fr: "LLC aux États-Unis pour non-résidents · Guide complet 2026 | Exentax",
+      de: "US-LLC für Nicht-Residenten · Vollständiger Leitfaden 2026 | Exentax",
+      pt: "LLC nos EUA para não residentes · Guia completo 2026 | Exentax",
+      ca: "LLC als EUA per a no residents · Guia completa 2026 | Exentax",
+    },
+    faq: {
+      es: "Preguntas frecuentes sobre LLC en EE.UU. | Exentax",
+      en: "Frequently asked questions about US LLC | Exentax",
+      fr: "Questions fréquentes sur les LLC aux États-Unis | Exentax",
+      de: "Häufig gestellte Fragen zur US-LLC | Exentax",
+      pt: "Perguntas frequentes sobre LLC nos EUA | Exentax",
+      ca: "Preguntes freqüents sobre LLC als EUA | Exentax",
+    },
+    book: {
+      es: "Asesoría fiscal estratégica 30 min — Analiza tu ahorro fiscal | Exentax",
+      en: "30-min tax consultation · Analyze your tax savings | Exentax",
+      fr: "Consultation fiscale stratégique 30 min · Analysez vos économies fiscales | Exentax",
+      de: "30-Min-Steuerberatung · Analysieren Sie Ihre Steuerersparnis | Exentax",
+      pt: "Consultoria fiscal estratégica 30 min · Analise sua economia fiscal | Exentax",
+      ca: "Assessoria fiscal estratègica 30 min · Analitza el teu estalvi fiscal | Exentax",
+    },
+    legal_terms: {
+      es: "Términos y condiciones | Exentax",
+      en: "Terms and Conditions | Exentax",
+      fr: "Conditions générales | Exentax",
+      de: "Allgemeine Geschäftsbedingungen | Exentax",
+      pt: "Termos e condições | Exentax",
+      ca: "Termes i condicions | Exentax",
+    },
+    legal_privacy: {
+      es: "Política de privacidad | Exentax",
+      en: "Privacy Policy | Exentax",
+      fr: "Politique de confidentialité | Exentax",
+      de: "Datenschutzrichtlinie | Exentax",
+      pt: "Política de privacidade | Exentax",
+      ca: "Política de privacitat | Exentax",
+    },
+    legal_cookies: {
+      es: "Política de cookies | Exentax",
+      en: "Cookie Policy | Exentax",
+      fr: "Politique de cookies | Exentax",
+      de: "Cookie-Richtlinie | Exentax",
+      pt: "Política de cookies | Exentax",
+      ca: "Política de galetes | Exentax",
+    },
+    legal_refunds: {
+      es: "Política de reembolsos | Exentax",
+      en: "Refund Policy | Exentax",
+      fr: "Politique de remboursement | Exentax",
+      de: "Erstattungsrichtlinie | Exentax",
+      pt: "Política de reembolso | Exentax",
+      ca: "Política de reemborsament | Exentax",
+    },
+    legal_disclaimer: {
+      es: "Disclaimer legal y fiscal | Exentax",
+      en: "Legal and Tax Disclaimer | Exentax",
+      fr: "Avertissement juridique et fiscal | Exentax",
+      de: "Rechts- und Steuerhaftungsausschluss | Exentax",
+      pt: "Aviso legal e fiscal | Exentax",
+      ca: "Avís legal i fiscal | Exentax",
+    },
+  };
+
+  const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
+    home: {
+      es: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en Estados Unidos. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido. Asesoría estratégica personalizada.",
+      en: "Reduce your tax burden from 40% to 8-12% with a US LLC. Formation in 2 days, EIN, bank account and compliance included. Strategic consultation.",
+      fr: "Réduisez votre charge fiscale de 40% à 8-12% avec une LLC aux États-Unis. Constitution en 2 jours, EIN, compte bancaire et conformité inclus. Consultation stratégique.",
+      de: "Reduzieren Sie Ihre Steuerlast von 40% auf 8-12% mit einer US-LLC. Gründung in 2 Tagen, EIN, Bankkonto und Compliance inklusive. Strategische Beratung.",
+      pt: "Reduza sua carga tributária de 40% para 8-12% com uma LLC nos Estados Unidos. Constituição em 2 dias, EIN, conta bancária e compliance incluídos. Consultoria estratégica.",
+      ca: "Redueix la teva càrrega fiscal del 40% al 8-12% amb una LLC als Estats Units. Constitució en 2 dies, EIN, compte bancari i compliance inclòs. Assessoria estratègica.",
+    },
+    our_services: {
+      es: "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta Mercury, compliance y soporte 12 meses. Consulta nuestros planes.",
+      en: "Form and manage your US LLC with expert support. Includes EIN, bank account, annual compliance and guidance on your international tax structure.",
+      fr: "Constituez et gérez votre LLC américaine avec un support expert. Inclut EIN, compte bancaire, conformité annuelle et accompagnement dans votre structure fiscale internationale.",
+      de: "Gründen und verwalten Sie Ihre US-LLC mit Expertenunterstützung. Beinhaltet EIN, Bankkonto, jährliche Compliance und Beratung zu Ihrer internationalen Steuerstruktur.",
+      pt: "Constitua e gerencie sua LLC americana com suporte especializado. Inclui EIN, conta bancária, conformidade anual e acompanhamento na sua estrutura fiscal internacional.",
+      ca: "Constitueix i gestiona la teva LLC als EUA amb suport expert. Inclou EIN, compte bancari, compliance anual i acompanyament en la teva estructura fiscal internacional.",
+    },
+    how_we_work: {
+      es: "Asesoría estratégica, estructura personalizada, constitución en 2-4 días y compliance anual. Proceso claro, sin letra pequeña.",
+      en: "Our process in 4 phases: free analysis, personalized structure, formation in 2-4 days and complete annual management. No surprises or fine print.",
+      fr: "Notre processus en 4 phases : analyse gratuite, structure personnalisée, constitution en 2-4 jours et gestion annuelle complète. Sans surprises.",
+      de: "Unser Prozess in 4 Phasen: kostenlose Analyse, personalisierte Struktur, Gründung in 2-4 Tagen und vollständige Jahresverwaltung. Ohne Überraschungen.",
+      pt: "Nosso processo em 4 fases: análise gratuita, estrutura personalizada, constituição em 2-4 dias e gestão anual completa. Sem surpresas.",
+      ca: "El nostre procés en 4 fases: anàlisi gratuïta, estructura personalitzada, constitució en 2-4 dies i gestió anual completa. Sense sorpreses.",
+    },
+    about_llc: {
+      es: "Todo sobre LLC en Estados Unidos: ventajas fiscales, cómo constituirla paso a paso, banca en dólares, Stripe, obligaciones IRS y errores a evitar.",
+      en: "Everything you need to know about US LLCs: tax benefits, how to invoice, legal protection, dollar banking and Stripe for non-residents.",
+      fr: "Tout ce que vous devez savoir sur les LLC américaines : avantages fiscaux, facturation, protection juridique, banque en dollars et Stripe pour non-résidents.",
+      de: "Alles, was Sie über US-LLCs wissen müssen: Steuervorteile, Rechnungsstellung, Rechtsschutz, Dollar-Banking und Stripe für Nicht-Residenten.",
+      pt: "Tudo o que você precisa saber sobre LLCs americanas: benefícios fiscais, faturamento, proteção legal, conta em dólares e Stripe para não residentes.",
+      ca: "Tot el que necessites saber sobre LLC als EUA: avantatges fiscals, com facturar, protecció legal, banca en dòlars i Stripe per a no residents.",
+    },
+    faq: {
+      es: "¿Es legal? ¿Cuánto cuesta? ¿Qué impuestos pago? Respondemos todas las dudas sobre LLC en Estados Unidos para freelancers y autónomos.",
+      en: "We answer all questions about US LLCs: legality, real savings, Wyoming/Delaware/New Mexico differences and tax obligations for freelancers.",
+      fr: "Nous répondons à toutes les questions sur les LLC américaines : légalité, économies réelles, différences Wyoming/Delaware/Nouveau-Mexique et obligations fiscales.",
+      de: "Wir beantworten alle Fragen zu US-LLCs: Legalität, reale Einsparungen, Wyoming/Delaware/New-Mexico-Unterschiede und Steuerpflichten für Freelancer.",
+      pt: "Respondemos todas as dúvidas sobre LLCs americanas: legalidade, economia real, diferenças Wyoming/Delaware/Novo México e obrigações fiscais.",
+      ca: "Responem totes les preguntes sobre LLC als EUA: legalitat, estalvi real, diferències Wyoming/Delaware/Nou Mèxic i obligacions fiscals.",
+    },
+    book: {
+      es: "Reserva tu asesoría fiscal estratégica. En 30 minutos analizamos tu situación fiscal real y calculamos cuánto puedes ahorrar con una LLC.",
+      en: "Book 30 min of strategic tax consultation. We analyze your situation and calculate your savings with a US LLC.",
+      fr: "Réservez 30 min de consultation fiscale stratégique. Nous analysons votre situation et calculons vos économies avec une LLC américaine.",
+      de: "Buchen Sie 30 Min strategische Steuerberatung. Wir analysieren Ihre Situation und berechnen Ihre Ersparnis mit einer US-LLC.",
+      pt: "Reserve 30 minutos de consultoria fiscal estratégica. Analisamos sua situação e calculamos sua economia com uma LLC americana.",
+      ca: "Reserva 30 min d'assessoria fiscal estratègica. Analitzem la teva situació i calculem el teu estalvi amb una LLC als EUA.",
+    },
+    legal_terms: {
+      es: "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
+      en: "Terms and conditions of Exentax. US LLC formation and management, international tax planning, and ongoing advisory for freelancers and entrepreneurs.",
+      fr: "Conditions générales d'Exentax. Constitution et gestion de LLC aux États-Unis, planification fiscale internationale et conseil continu pour indépendants.",
+      de: "AGB von Exentax. Gründung und Verwaltung von US-LLCs, internationale Steuerplanung und laufende Beratung für Freiberufler und Unternehmer.",
+      pt: "Termos e condições da Exentax. Constituição e gestão de LLC nos EUA, planeamento fiscal internacional e assessoria contínua para freelancers.",
+      ca: "Termes i condicions d'Exentax. Constitució i gestió de LLC als EUA, planificació fiscal internacional i assessoria contínua per a autònoms.",
+    },
+    legal_privacy: {
+      es: "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
+      en: "Exentax privacy policy. How we collect, use, and protect your personal data in our tax optimization services.",
+      fr: "Politique de confidentialité d'Exentax. Comment nous collectons, utilisons et protégeons vos données personnelles dans nos services d'optimisation fiscale.",
+      de: "Datenschutzrichtlinie von Exentax. Wie wir Ihre personenbezogenen Daten in unseren Steueroptimierungsdiensten erheben, verwenden und schützen.",
+      pt: "Política de privacidade da Exentax. Como coletamos, usamos e protegemos seus dados pessoais nos serviços de otimização fiscal.",
+      ca: "Política de privacitat d'Exentax. Com recopilem, utilitzem i protegim les teves dades personals als serveis d'optimització fiscal.",
+    },
+    legal_cookies: {
+      es: "Información sobre el uso de cookies en exentax.com. Asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
+      en: "Information about the use of cookies on exentax.com. Specialized advisory on legal tax optimization for freelancers.",
+      fr: "Informations sur l'utilisation des cookies sur exentax.com. Conseil spécialisé en optimisation fiscale légale pour indépendants.",
+      de: "Informationen über die Verwendung von Cookies auf exentax.com. Spezialisierte Beratung zur legalen Steueroptimierung für Freelancer.",
+      pt: "Informações sobre o uso de cookies em exentax.com. Assessoria especializada em otimização fiscal legal para freelancers.",
+      ca: "Informació sobre l'ús de galetes a exentax.com. Assessoria especialitzada en optimització fiscal legal per a autònoms.",
+    },
+    legal_refunds: {
+      es: "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
+      en: "Exentax refund policy. Cancellations, refunds, and guarantees for LLC formation and tax optimization services.",
+      fr: "Politique de remboursement d'Exentax. Annulations, remboursements et garanties pour les services de constitution LLC et d'optimisation fiscale.",
+      de: "Erstattungsrichtlinie von Exentax. Stornierungen, Erstattungen und Garantien für LLC-Gründungs- und Steueroptimierungsdienste.",
+      pt: "Política de reembolso da Exentax. Cancelamentos, reembolsos e garantias nos serviços de constituição LLC e otimização fiscal.",
+      ca: "Política de reemborsament d'Exentax. Cancel·lacions, devolucions i garanties als serveis de constitució LLC i optimització fiscal.",
+    },
+    legal_disclaimer: {
+      es: "Disclaimer legal y fiscal de Exentax. Información sobre la naturaleza de nuestros servicios, limitaciones de responsabilidad y obligaciones del cliente.",
+      en: "Exentax legal and tax disclaimer. Information about the nature of our services, liability limitations, and client obligations.",
+      fr: "Avertissement juridique et fiscal d'Exentax. Informations sur la nature de nos services, limitations de responsabilité et obligations du client.",
+      de: "Rechts- und Steuerhaftungsausschluss von Exentax. Informationen über die Art unserer Dienstleistungen, Haftungsbeschränkungen und Kundenpflichten.",
+      pt: "Aviso legal e fiscal da Exentax. Informações sobre a natureza dos nossos serviços, limitações de responsabilidade e obrigações do cliente.",
+      ca: "Avís legal i fiscal d'Exentax. Informació sobre la naturalesa dels nostres serveis, limitacions de responsabilitat i obligacions del client.",
+    },
+  };
+
+  for (const key of ALL_ROUTE_KEYS) {
+    for (const lang of LANGS) {
+      const path = getLocalizedPath(key, lang);
+      meta[path] = {
+        title: PAGE_TITLES[key][lang],
+        description: PAGE_DESCS[key][lang],
+        canonical: `${BASE_URL}${path}`,
+      };
+    }
+  }
+
+  const BLOG_TITLES: Record<SupportedLang, string> = {
+    es: "Blog sobre LLC, impuestos y fiscalidad internacional | Exentax",
+    en: "Blog: US LLCs, international taxation & digital business | Exentax",
+    fr: "Blog : LLC aux USA, fiscalité internationale et business digital | Exentax",
+    de: "Blog: US-LLC, internationale Besteuerung & digitales Business | Exentax",
+    pt: "Blog: LLC nos EUA, tributação internacional e negócios digitais | Exentax",
+    ca: "Blog: LLC als EUA, fiscalitat internacional i negoci digital | Exentax",
+  };
+  const BLOG_DESCS: Record<SupportedLang, string> = {
+    es: "Artículos sobre LLCs en EE.UU., fiscalidad internacional, Stripe, criptomonedas, nómadas digitales y optimización fiscal para freelancers.",
+    en: "Articles on US LLCs, international taxation, Stripe, crypto, digital nomad tax planning and fiscal optimization for freelancers.",
+    fr: "Articles sur les LLC américaines, la fiscalité internationale, Stripe, crypto, nomades numériques et optimisation fiscale pour freelances.",
+    de: "Artikel über US-LLCs, internationale Besteuerung, Stripe, Krypto, digitale Nomaden und steuerliche Optimierung für Freelancer.",
+    pt: "Artigos sobre LLCs americanas, tributação internacional, Stripe, cripto, nômades digitais e otimização fiscal para freelancers.",
+    ca: "Articles sobre LLCs americanes, fiscalitat internacional, Stripe, cripto, nòmades digitals i optimització fiscal per a freelancers.",
+  };
+  for (const lang of LANGS) {
+    meta[`/${lang}/blog`] = {
+      title: BLOG_TITLES[lang],
+      description: BLOG_DESCS[lang],
+      canonical: `${BASE_URL}/${lang}/blog`,
+    };
+  }
+
+  return meta;
+}
+
+export const PAGE_META_I18N: Record<string, PageMeta> = buildI18nMeta();
 
 export const PAGE_SEO_CONTENT: Record<string, string> = {
-  "/": `<article>
+  "home": `<article>
 <h1>Exentax — Paga menos impuestos legalmente</h1>
 <h2>Optimización fiscal internacional para autónomos y freelancers</h2>
 <p>Estás pagando más impuestos de los necesarios. Y no tiene por qué ser así. Si facturas online, cobras desde distintas plataformas u operas en varios países, tu estructura fiscal no está optimizada.</p>
@@ -725,7 +918,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 </nav>
 </article>`,
 
-  "/sobre-las-llc": `<article>
+  "about_llc": `<article>
 <h1>LLC en Estados Unidos para no residentes — Guía completa 2026</h1>
 <h2>¿Qué es una LLC y por qué te interesa?</h2>
 <p>Una LLC (Limited Liability Company) es una estructura empresarial en Estados Unidos que combina la protección de responsabilidad limitada con la flexibilidad fiscal. Para autónomos y freelancers no residentes, una LLC americana permite optimizar la carga fiscal del 40% hasta un 0% de forma completamente legal.</p>
@@ -773,7 +966,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>En Exentax nos encargamos de todo el compliance fiscal por ti. <a href="/agendar-asesoria">Agenda tu asesoría fiscal</a>.</p>
 </article>`,
 
-  "/como-trabajamos": `<article>
+  "how_we_work": `<article>
 <h1>Así Trabajamos — Optimización fiscal paso a paso</h1>
 <h2>Un proceso claro, sin sorpresas</h2>
 <p>En Exentax seguimos un proceso estructurado en 4 fases para optimizar tu fiscalidad de forma legal y segura. Todo 100% remoto, sin necesidad de viajar a Estados Unidos.</p>
@@ -792,7 +985,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p><a href="/agendar-asesoria">Agenda tu diagnóstico fiscal estratégico</a> y comienza el proceso hoy.</p>
 </article>`,
 
-  "/servicios": `<article>
+  "our_services": `<article>
 <h1>Planes y Tarifas — LLC en Estados Unidos para autónomos y freelancers</h1>
 <h2>Constitución de LLC — Precio cerrado, sin sorpresas</h2>
 <h3>LLC Nuevo México</h3>
@@ -826,7 +1019,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Sin costes ocultos. Sin permanencia. Cancela cuando quieras. <a href="/agendar-asesoria">Agenda tu asesoría fiscal</a>.</p>
 </article>`,
 
-  "/preguntas-frecuentes": `<article>
+  "faq": `<article>
 <h1>Preguntas Frecuentes — LLC y Fiscalidad Internacional</h1>
 <h2>Sobre LLC en Estados Unidos</h2>
 <h3>¿Qué es una LLC?</h3>
@@ -867,7 +1060,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>¿Más dudas? <a href="/agendar-asesoria">Agenda una asesoría fiscal</a> o escríbenos a <a href="mailto:hola@exentax.com">hola@exentax.com</a>.</p>
 </article>`,
 
-  "/agendar-asesoria": `<article>
+  "book": `<article>
 <h1>Asesoría Fiscal Estratégica — 30 Minutos por Videollamada</h1>
 <h2>Diagnóstico fiscal personalizado para tu negocio digital</h2>
 <p>Reserva una videollamada de 30 minutos con un asesor fiscal de Exentax. Analizamos tu situación fiscal actual y te indicamos si una LLC en Estados Unidos es la mejor opción para tu negocio digital.</p>
@@ -1339,7 +1532,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 };
 
 export const PAGE_SCHEMAS: Record<string, object[]> = {
-  "/": [
+  "home": [
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -1398,7 +1591,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ]
     }
   ],
-  "/sobre-las-llc": [
+  "about_llc": [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1432,7 +1625,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       }
     }
   ],
-  "/como-trabajamos": [
+  "how_we_work": [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1490,7 +1683,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ]
     }
   ],
-  "/servicios": [
+  "our_services": [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1564,7 +1757,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "url": "https://exentax.com/servicios"
     }
   ],
-  "/preguntas-frecuentes": [
+  "faq": [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1574,7 +1767,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ]
     }
   ],
-  "/agendar-asesoria": [
+  "book": [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",

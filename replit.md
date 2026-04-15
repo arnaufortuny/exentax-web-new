@@ -58,13 +58,15 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 
 ### Routing & SEO Architecture
 - **Centralized route definitions**: `client/src/lib/routes.ts` (client) and `server/route-slugs.ts` (server) define localized slugs per route key per language (es/en/fr/de/pt/ca).
-- **Route keys**: `home`, `our_services`, `how_we_work`, `faq`, `book`, `about_llc`, `legal_terms`, `legal_privacy`, `legal_cookies`, `legal_refunds`, `legal_disclaimer`, `links`, `start`, `booking`.
+- **Route keys**: `home`, `our_services`, `how_we_work`, `faq`, `book`, `about_llc`, `legal_terms`, `legal_privacy`, `legal_cookies`, `legal_refunds`, `legal_disclaimer`.
 - **`useLangPath` hook**: Accepts route keys or `/blog` paths, returns localized `/:lang/slug` paths for navigation.
 - **`getLocalizedPath(key, lang)`**: Pure function for building localized paths (used in JSON-LD, sitemap, etc.).
-- **SEO pre-rendering**: `server/static.ts` injects `PAGE_META` (title/desc/keywords) and `PAGE_SEO_CONTENT` (hidden HTML for crawlers) into the HTML shell. `OLD_PATH_MAP` bridges route keys to legacy Spanish path keys used as `PAGE_SEO_CONTENT` lookup keys.
-- **Sitemap**: Generated dynamically by `server/routes/public.ts` with full `hreflang` alternates for all 6 languages, including blog posts.
+- **SEO meta**: `PAGE_META` (Spanish/root paths) + `PAGE_META_I18N` (all routes × all 6 languages, built via `buildI18nMeta()`). Server injects title/desc/canonical into HTML shell at serve time (production only).
+- **SEO pre-render content**: `PAGE_SEO_CONTENT` keyed by route key (e.g., `"home"`, `"our_services"`) — hidden HTML for crawlers.
+- **JSON-LD schemas**: `PAGE_SCHEMAS` keyed by route key — Organization, BreadcrumbList, Product, HowTo, Service, FAQPage schemas.
+- **Sitemap**: Generated dynamically by `server/routes/public.ts` with full `hreflang` alternates for all 6 languages + x-default, including blog posts.
 - **robots.txt**: Generated dynamically by server (no static file in `client/public/`).
-- **Legacy redirects**: Client-side redirects in `App.tsx` catch old Spanish-only paths (`/servicios` → `/es/nuestros-servicios`, etc.) for SPA navigation.
+- **Legacy redirects**: Client-side redirects in `App.tsx` catch old Spanish-only paths (`/servicios` → `/es/nuestros-servicios`, etc.) for SPA navigation. Required for backward compatibility with search engine indexes.
 
 ### Key Frontend Files
 - `client/src/App.tsx` — Public-only routes with lazy loading and legacy redirects
