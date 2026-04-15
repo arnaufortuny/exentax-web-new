@@ -815,7 +815,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return res.send(sitemapCache.xml);
     }
 
-    const today = new Date().toISOString().slice(0, 10);
+    const today = todayMadridISO();
 
     const routePriority: Partial<Record<RouteKey, { priority: string; changefreq: string; lastmod: string }>> = {
       home:             { priority: "1.0", changefreq: "weekly", lastmod: today },

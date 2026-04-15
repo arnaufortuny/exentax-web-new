@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { Link, useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -127,23 +127,23 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
   const currentRouteKey = resolved?.key || null;
   const isBlogActive = location.includes("/blog");
 
-  const navLinks = [
+  const navLinks = useMemo(() => [
     { label: t("nav.home"), labelXl: t("nav.homeXl"), href: lp("home"), routeKey: "home" as const, prefetchKey: "home" },
     { label: t("nav.howWeWork"), labelXl: t("nav.howWeWorkXl"), href: lp("how_we_work"), routeKey: "how_we_work" as const, prefetchKey: "how_we_work" },
     { label: t("nav.services"), href: lp("our_services"), routeKey: "our_services" as const, prefetchKey: "our_services" },
     { label: t("nav.aboutLlc"), href: lp("about_llc"), routeKey: "about_llc" as const, prefetchKey: "about_llc" },
     { label: t("nav.faq"), labelXl: t("nav.faqXl"), href: lp("faq"), routeKey: "faq" as const, prefetchKey: "faq" },
     { label: t("nav.blog"), labelXl: t("nav.blogXl"), href: lp("/blog"), routeKey: null, prefetchKey: "blog" },
-  ];
+  ], [t, lp]);
 
-  const mobileNavLinks = [
+  const mobileNavLinks = useMemo(() => [
     { label: t("nav.mobileHome"), href: lp("home"), routeKey: "home" as const, prefetchKey: "home" },
     { label: t("nav.howWeWorkXl"), href: lp("how_we_work"), routeKey: "how_we_work" as const, prefetchKey: "how_we_work" },
     { label: t("nav.services"), href: lp("our_services"), routeKey: "our_services" as const, prefetchKey: "our_services" },
     { label: t("nav.aboutLlc"), href: lp("about_llc"), routeKey: "about_llc" as const, prefetchKey: "about_llc" },
     { label: t("nav.faqXl"), href: lp("faq"), routeKey: "faq" as const, prefetchKey: "faq" },
     { label: t("nav.blogXl"), href: lp("/blog"), routeKey: null, prefetchKey: "blog" },
-  ];
+  ], [t, lp]);
 
   const handleMenuToggle = useCallback(() => {
     setMenuOpen(prev => {

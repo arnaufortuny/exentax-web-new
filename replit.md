@@ -78,7 +78,8 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/App.tsx` — Routes with lazy loading (public + admin), no legacy redirects
 - `client/src/pages/` — Landing pages, booking, legal, blog
 - `client/src/pages/admin/agenda.tsx` — Admin booking management page (no layout wrapper)
-- `client/src/components/layout/Navbar.tsx` — Public navbar (no client area)
+- `client/src/components/layout/Navbar.tsx` — Public navbar (no client area). Link arrays memoized with useMemo.
+- `client/src/components/layout/Footer.tsx` — Public footer. Link/social arrays memoized with useMemo.
 - `client/src/components/icons.tsx` — Custom SVG icons (no external icon libs)
 - `client/src/i18n/` — Internationalization (6 languages)
 - `client/src/lib/routes.ts` — Centralized route key → localized slug mapping

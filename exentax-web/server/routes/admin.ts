@@ -24,7 +24,7 @@ import {
   notifyNoShow,
 } from "../discord";
 import { sheetsLogBookingUpdate } from "../google-sheets";
-import { apiOk, apiFail, apiNotFound } from "./api-response";
+import { apiOk, apiFail, apiNotFound, apiValidationFail } from "./api-response";
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "";
 
@@ -101,7 +101,7 @@ export function registerAdminRoutes(app: Express) {
       startTime: z.string().regex(/^\d{2}:\d{2}$/),
     }).strict();
     const parsed = parseSchema.safeParse(req.body);
-    if (!parsed.success) return apiFail(res, 400, "Datos inválidos", "VALIDATION_ERROR");
+    if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { date, startTime } = parsed.data;
 
     if (!isWeekday(date)) return apiFail(res, 400, "Solo días laborables", "INVALID_DATE");

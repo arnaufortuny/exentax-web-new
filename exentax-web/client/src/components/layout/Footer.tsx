@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { clearCookieConsent } from "@/components/CookieBanner";
 import { BRAND, CONTACT, SOCIAL } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
@@ -150,24 +150,25 @@ export default function Footer() {
   const { t } = useTranslation();
   const lp = useLangPath();
 
-  const footerCompany: { label: string; href: string }[] = [
+  const footerCompany = useMemo<{ label: string; href: string }[]>(() => [
     { label: t("footer.companyLinks.home"), href: lp("home") },
     { label: t("footer.companyLinks.services"), href: lp("our_services") },
     { label: t("footer.companyLinks.howWeWork"), href: lp("how_we_work") },
     { label: t("footer.companyLinks.faq"), href: lp("faq") },
     { label: t("footer.companyLinks.blog"), href: lp("/blog") },
     { label: t("footer.companyLinks.talk"), href: lp("book") },
-  ];
+  ], [t, lp]);
 
-  const footerLegal = [
+  const footerLegal = useMemo(() => [
     { label: t("footer.legalLinks.terms"), href: lp("legal_terms") },
     { label: t("footer.legalLinks.privacy"), href: lp("legal_privacy") },
     { label: t("footer.legalLinks.cookies"), href: lp("legal_cookies") },
     { label: t("footer.legalLinks.refunds"), href: lp("legal_refunds") },
     { label: t("footer.legalLinks.disclaimer"), href: lp("legal_disclaimer") },
-  ];
+  ], [t, lp]);
 
-  const socials = [
+  const socials = useMemo(() => {
+    return [
     { href: SOCIAL.INSTAGRAM, label: t("footer.social.instagram"), id: "instagram", icon: (
       <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="2" width="20" height="20" rx="5" />
@@ -196,6 +197,7 @@ export default function Footer() {
       </svg>
     )},
   ];
+  }, [t]);
 
   return (
     <footer className="relative" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
