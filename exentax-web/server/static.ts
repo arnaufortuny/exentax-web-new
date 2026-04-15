@@ -253,7 +253,8 @@ function injectMeta(html: string, reqPath: string): string {
 
   const resolvedRoute = resolveServerRoute(cleanPath);
   const routeKey = resolvedRoute?.key ?? (cleanPath === "/" ? "home" : undefined);
-  let seoContent = routeKey ? PAGE_SEO_CONTENT[routeKey] : undefined;
+  const prerenderLang = resolvedRoute?.lang ?? "es";
+  let seoContent = (routeKey && prerenderLang === "es") ? PAGE_SEO_CONTENT[routeKey] : undefined;
   if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)) {
     const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
     const blogLinks = BLOG_POSTS.map(post => {
