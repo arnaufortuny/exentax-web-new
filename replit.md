@@ -48,7 +48,9 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/routes.ts` — Route registration, middleware
 - `server/routes/public.ts` — All public API endpoints (booking, newsletter, calculator, SEO, sitemap)
 - `server/routes/shared.ts` — App settings, i18n labels, helpers
-- `server/email.ts` — Booking confirmation, reminder, reschedule, cancellation, calculator emails (Gmail API)
+- `server/email.ts` — 7 email types (booking, reminder, calculator, reschedule, cancellation, followup-steps, followup-review) via Gmail API
+- `server/email-i18n.ts` — Email translations for all 7 types × 6 languages (ES/EN/FR/DE/PT/CA)
+- `server/email-layout.ts` — Email HTML components: emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote, infoCard, greenPanel, meetBlock, bulletList
 - `server/google-meet.ts` — Google Meet event creation/deletion
 - `server/storage/` — Database CRUD (scheduling.ts, marketing.ts, legal.ts, core.ts)
 - `server/field-encryption.ts` — AES-256-GCM field-level encryption for phone fields (encrypt/decrypt/encryptSensitiveFields/decryptSensitiveFields)
@@ -88,7 +90,15 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
-- **Email**: Gmail API v1 — booking confirmation, reminder (3h before), reschedule, cancellation, calculator results
+- **Email**: Gmail API v1 — 7 email types × 6 languages:
+  - Booking confirmation ("Tu asesoría está confirmada | {{date}} {{time}}")
+  - Reminder ("Mañana vemos tu caso | {{time}}")
+  - Calculator results ("Tu estimación fiscal | {{savings}}")
+  - Reschedule ("Tu asesoría ha sido actualizada")
+  - Cancellation ("Asesoría cancelada")
+  - Followup next steps ("Siguientes pasos") — post-consultation with custom summary
+  - Followup review ("Lo vemos contigo si quieres hacerlo bien") — review with dual CTA
+  - Brand signature: "Exentax / Estructuración fiscal internacional / Banca, inversión y operativa global."
 
 ## External Dependencies
 - **Google APIs**: Gmail API v1 (emails), Google Calendar API (Meet events), Google Sheets API v4 (logging)

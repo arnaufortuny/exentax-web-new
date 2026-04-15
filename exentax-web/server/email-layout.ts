@@ -171,21 +171,34 @@ export function ctaButton(href: string, text: string): string {
   </table>`;
 }
 
-const TEAM_LABEL: Record<string, string> = {
-  es: "Equipo", en: "The", fr: "L'équipe", de: "Team", pt: "Equipa", ca: "Equip",
+const SIGNATURE_I18N: Record<string, { line1: string; line2: string }> = {
+  es: { line1: "Estructuración fiscal internacional", line2: "Banca, inversión y operativa global." },
+  en: { line1: "International tax structuring", line2: "Banking, investment and global operations." },
+  fr: { line1: "Structuration fiscale internationale", line2: "Banque, investissement et opérations internationales." },
+  de: { line1: "Internationale Steuerstrukturierung", line2: "Banking, Investitionen und globale Geschäftstätigkeit." },
+  pt: { line1: "Estruturação fiscal internacional", line2: "Banca, investimento e operações globais." },
+  ca: { line1: "Estructuració fiscal internacional", line2: "Banca, inversió i operativa global." },
 };
 
-export function signOff(closing: string, lang?: string): string {
-  const l = lang && TEAM_LABEL[lang] ? lang : "es";
-  const teamPrefix = TEAM_LABEL[l];
-  const teamStr = l === "en" ? `${teamPrefix} ${_BRAND_NAME} Team` : `${teamPrefix} ${_BRAND_NAME}`;
+export function brandSignature(lang?: string, closing?: string): string {
+  const l = lang && SIGNATURE_I18N[lang] ? lang : "es";
+  const sig = SIGNATURE_I18N[l];
+  const closingHtml = closing
+    ? `<p class="txt-2" style="font-family:${F_STACK};font-size:15px;color:${C_TEXT_2};margin:0 0 20px;line-height:1.7;">${closing}</p>`
+    : "";
   return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:28px;">
     <tr><td>
-      <p class="txt-2" style="font-family:${F_STACK};font-size:15px;color:${C_TEXT_2};margin:0;line-height:1.7;">
-        ${closing},<br/>
-        <strong class="txt-1" style="color:${C_TEXT_1};font-weight:700;">${teamStr}</strong>
-      </p>
+      ${closingHtml}
+      <p class="txt-1" style="font-family:${F_STACK};font-size:16px;font-weight:800;color:${C_TEXT_1};margin:0 0 4px;line-height:1.4;">${_BRAND_NAME}</p>
+      <p class="txt-2" style="font-family:${F_STACK};font-size:13px;color:${C_TEXT_2};margin:0 0 2px;line-height:1.5;">${sig.line1}</p>
+      <p class="txt-3" style="font-family:${F_STACK};font-size:12px;color:${C_TEXT_3};margin:0;line-height:1.5;">${sig.line2}</p>
     </td></tr>
+  </table>`;
+}
+
+export function bulletList(items: string[]): string {
+  return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+    ${items.map(item => `<tr><td style="padding:5px 0;font-family:${F_STACK};font-size:14px;color:${C_TEXT_2};line-height:1.7;"><span class="txt-neon" style="color:${C_NEON_DK};font-weight:700;margin-right:8px;">&#8594;</span>${item}</td></tr>`).join("")}
   </table>`;
 }
 

@@ -6,14 +6,15 @@ import { isTransient, isAuthError } from "./google-utils";
 import { getEmailTranslations, resolveEmailLang, resolveLocalLabel } from "./email-i18n";
 import { emailBreaker } from "./circuit-breaker";
 import {
-  emailHtml, label, heading, bodyText, divider, ctaButton, signOff, unsubNote,
-  infoCard, greenPanel, meetBlock,
+  emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote,
+  infoCard, greenPanel, meetBlock, bulletList,
   SITE_URL, WHATSAPP_URL,
   C_BG, C_NEON, C_NEON_DK, C_TEXT_1, C_TEXT_2, C_TEXT_3, C_BORDER,
   C_ACCENT, C_ACCENT_BG, C_ACCENT_BD, F_STACK,
 } from "./email-layout";
 import { escapeHtml } from "./routes/shared";
 import { BRAND_NAME, CONTACT_EMAIL } from "./server-constants";
+import { getLocalizedPath } from "./route-slugs";
 
 const SENDER_EMAIL = CONTACT_EMAIL;
 const REPLY_TO_EMAIL = CONTACT_EMAIL;
@@ -159,7 +160,7 @@ async function _sendEmailInternal(to: string, subject: string, html: string, rep
     } catch (err) {
       const isRetryable = isTransient(err) || isAuthError(err);
       if (isRetryable && attempt < EMAIL_MAX_RETRIES - 1) {
-        const delay = 1_000 * 2 ** attempt; // 1s, 2s, 4s
+        const delay = 1_000 * 2 ** attempt;
         logger.warn(`Transient email error (attempt ${attempt + 1}/${EMAIL_MAX_RETRIES}), retrying in ${delay}ms...`, "email");
         if (isAuthError(err)) resetGmailClient();
         await new Promise(r => setTimeout(r, delay));
@@ -208,50 +209,58 @@ export async function sendBookingConfirmation(data: BookingEmailData) {
   const agendaRef = data.agendaId || "—";
 
   const clientBody = `
-    ${label(bt.label)}
     ${heading(bt.heading(firstName))}
 
-    ${bodyText(bt.body1)}
+    ${bodyText(bt.intro)}
 
-    ${bodyText(bt.body2)}
+    ${bodyText(bt.introDesc)}
 
-    ${bodyText(bt.body2b || "")}
+    ${bodyText(bt.honestNote)}
 
     ${divider()}
+
+    ${label(bt.detailsTitle)}
 
     ${infoCard([
       { icon: "calendar", label: bt.dateLabel, value: dateFormatted },
       { icon: "clock", label: bt.timeLabel, value: `${data.startTime} – ${data.endTime}` },
-      { icon: "pin", label: bt.formatLabel, value: bt.formatValue },
     ])}
 
     ${meetBlock(data.meetLink, lang)}
 
-    ${greenPanel(bt.prepareTitle, `
-      <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
-        ${bt.prepareItems.map(item => `<tr><td style="padding:8px 0;font-family:${F_STACK};font-size:14px;color:${C_TEXT_2};line-height:1.7;"><span class="txt-neon" style="color:${C_NEON_DK};font-weight:700;margin-right:8px;">&#8594;</span>${item}</td></tr>`).join("")}
-      </table>
-    `)}
+    ${divider()}
+
+    ${greenPanel(bt.prepareTitle, bulletList(bt.prepareItems))}
 
     ${divider()}
 
-    ${bodyText(bt.changeTime)}
+    ${greenPanel(bt.coverTitle, bulletList(bt.coverItems))}
 
-    ${data.manageUrl ? `${ctaButton(data.manageUrl, bt.ctaManage)}` : `${ctaButton(WHATSAPP_URL, bt.ctaWhatsapp)}`}
+    ${divider()}
 
-    ${bodyText(bt.honest, "8px")}
+    ${bodyText(`<strong>${bt.weDoNote1}</strong>`)}
 
-    ${bodyText(bt.trackingNote || "", "8px")}
+    ${bodyText(bt.weDoNote2)}
 
-    ${signOff(bt.signOff, lang)}
-    ${unsubNote(`${bt.unsubNote} &middot; <a href="${SITE_URL}/legal/privacidad" style="color:${C_TEXT_3};text-decoration:none;">${bt.privacyLabel}</a>`)}
-    ${unsubNote(`ID: <strong>${agendaRef}</strong>`)}
+    ${divider()}
+
+    ${data.manageUrl
+      ? `${bodyText(`${bt.ctaManage}:`)}${ctaButton(data.manageUrl, bt.ctaManage)}`
+      : ""}
+
+    ${bodyText(`${bt.orWrite} <a href="${WHATSAPP_URL}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">WhatsApp</a>`)}
+
+    ${bodyText(bt.closing)}
+
+    ${brandSignature(lang)}
+    ${unsubNote(bt.unsubNote)}
+    ${unsubNote(`${bt.refLabel}: <strong>${agendaRef}</strong>`)}
   `;
 
-  const clientHtml = emailHtml(clientBody, `${bt.label} | ${dateFormatted} ${data.startTime}`, lang);
+  const clientSubj = `${bt.subjectPrefix} | ${dateFormatted} ${data.startTime}`;
+  const clientHtml = emailHtml(clientBody, `${bt.subjectPrefix} | ${dateFormatted} ${data.startTime}`, lang);
 
   if (gmail) {
-    const clientSubj = `${bt.label} | ${dateFormatted} ${data.startTime}`;
     try {
       const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL);
       logger.info(`Booking sent → ${data.clientEmail}`, "email");
@@ -262,7 +271,7 @@ export async function sendBookingConfirmation(data: BookingEmailData) {
     }
   } else {
     logger.error("BOOKING (no Gmail config): emails NOT sent for booking", "email");
-    logEmail({ to: data.clientEmail, subject: `${bt.label}`, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
+    logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
   }
 }
 
@@ -299,81 +308,108 @@ export async function sendCalculatorEmail(data: CalculatorEmailData) {
   const ahorroF = t.currencyFormatter(data.ahorro);
   const sinLLCF = t.currencyFormatter(data.sinLLC);
   const conLLCF = t.currencyFormatter(data.conLLC);
-  const monthlyF = t.currencyFormatter(data.income);
   const annualF = t.currencyFormatter(data.annualIncome ?? data.income * 12);
   const leadRef = data.leadId || "—";
-  const localLabel = resolveLocalLabel(data.localLabel, lang);
+  const countryLabel = resolveLocalLabel(data.localLabel, lang);
 
   const clientBody = `
-    ${label(ct.label)}
-    ${heading(ct.heading)}
+    ${heading(ct.heading(data.email.split("@")[0]))}
 
-    ${bodyText(ct.body1(localLabel, monthlyF, annualF))}
-
-    ${bodyText(ct.body1b || "")}
+    ${bodyText(ct.intro)}
 
     ${divider()}
 
-    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px;">
+    ${label(ct.situationTitle)}
+
+    ${infoCard([
+      { icon: "pin", label: ct.residenceLabel, value: countryLabel },
+      { icon: "calendar", label: ct.incomeLabel, value: annualF },
+    ])}
+
+    ${divider()}
+
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px;">
       <tr>
-        <td style="padding:14px 20px;background-color:${C_ACCENT_BG};border:1px solid ${C_ACCENT_BD};border-radius:16px;text-align:center;" bgcolor="${C_ACCENT_BG}">
-          <p class="txt-3" style="font-family:${F_STACK};font-size:10px;color:${C_TEXT_3};text-transform:uppercase;margin:0 0 4px;font-weight:600;">${ct.payingLabel}</p>
-          <p class="txt-accent" style="font-family:${F_STACK};font-size:28px;font-weight:700;color:${C_ACCENT};margin:0;">${sinLLCF}<span class="txt-3" style="font-family:${F_STACK};font-size:13px;font-weight:500;color:${C_TEXT_3};"> /${ct.perYear}</span></p>
+        <td style="padding:18px 20px;background-color:${C_ACCENT_BG};border:1px solid ${C_ACCENT_BD};border-radius:16px;text-align:center;" bgcolor="${C_ACCENT_BG}">
+          <p class="txt-3" style="font-family:${F_STACK};font-size:10px;color:${C_TEXT_3};text-transform:uppercase;margin:0 0 6px;font-weight:600;">${ct.currentTitle}</p>
+          <p class="txt-2" style="font-family:${F_STACK};font-size:13px;color:${C_TEXT_2};margin:0 0 4px;">${ct.currentPrefix}</p>
+          <p class="txt-accent" style="font-family:${F_STACK};font-size:28px;font-weight:700;color:${C_ACCENT};margin:0;">${sinLLCF}</p>
         </td>
       </tr>
     </table>
 
-    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px;">
+    ${divider()}
+
+    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px;">
       <tr>
-        <td class="bg-dark" style="padding:14px 20px;background-color:${C_BG};border:1px solid ${C_BORDER};border-radius:16px;text-align:center;" bgcolor="${C_BG}">
-          <p class="txt-3" style="font-family:${F_STACK};font-size:10px;color:${C_TEXT_3};text-transform:uppercase;margin:0 0 4px;font-weight:600;">${ct.withLLCLabel}</p>
-          <p class="txt-neon" style="font-family:${F_STACK};font-size:28px;font-weight:700;color:${C_NEON_DK};margin:0;">${conLLCF}<span class="txt-3" style="font-family:${F_STACK};font-size:13px;font-weight:500;color:${C_TEXT_3};"> /${ct.perYear}</span></p>
+        <td class="bg-dark" style="padding:18px 20px;background-color:${C_BG};border:1px solid ${C_BORDER};border-radius:16px;text-align:center;" bgcolor="${C_BG}">
+          <p class="txt-3" style="font-family:${F_STACK};font-size:10px;color:${C_TEXT_3};text-transform:uppercase;margin:0 0 6px;font-weight:600;">${ct.optimizedTitle}</p>
+          <p class="txt-2" style="font-family:${F_STACK};font-size:13px;color:${C_TEXT_2};margin:0 0 4px;">${ct.optimizedPrefix}</p>
+          <p class="txt-neon" style="font-family:${F_STACK};font-size:28px;font-weight:700;color:${C_NEON_DK};margin:0;">${conLLCF}</p>
         </td>
       </tr>
     </table>
+
+    ${divider()}
 
     <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 28px;">
       <tr><td class="bg-dark" style="background-color:${C_BG};border:1px solid ${C_BORDER};border-radius:20px;padding:28px 24px;text-align:center;" bgcolor="${C_BG}">
-        <p class="txt-neon" style="font-family:${F_STACK};font-size:10px;font-weight:700;color:${C_NEON_DK};text-transform:uppercase;margin:0 0 10px;">${ct.savingsLabel}</p>
+        <p class="txt-neon" style="font-family:${F_STACK};font-size:10px;font-weight:700;color:${C_NEON_DK};text-transform:uppercase;margin:0 0 10px;">${ct.differenceTitle}</p>
         <p class="txt-neon-bright" style="font-family:${F_STACK};font-size:44px;font-weight:700;color:${C_NEON};margin:0;line-height:1;">${ahorroF}</p>
         <p class="txt-3" style="font-family:${F_STACK};font-size:12px;color:${C_TEXT_3};margin:10px 0 0;">${ct.perYear}</p>
       </td></tr>
     </table>
 
-    ${bodyText(ct.body2)}
+    ${divider()}
 
-    ${bodyText(ct.body3)}
+    ${bodyText(ct.disclaimer)}
 
-    ${bodyText(ct.body3b || "")}
+    ${bodyText(ct.keyIntro)}
+
+    ${bulletList(ct.keyItems)}
 
     ${divider()}
 
-    ${bodyText(ct.body4)}
+    ${bodyText(`<strong>${ct.failNote}</strong>`)}
 
-    ${ctaButton(`${SITE_URL}/agendar-asesoria`, ct.ctaButton)}
+    ${divider()}
 
-    ${bodyText(ct.body5)}
+    ${label(ct.whatWeDoTitle)}
 
-    ${bodyText(ct.honest, "8px")}
+    ${bodyText(ct.whatWeDoIntro1)}
 
-    ${signOff(ct.signOff, lang)}
-    ${unsubNote(`${ct.unsubNote} &middot; <a href="${SITE_URL}/legal/privacidad" style="color:${C_TEXT_3};text-decoration:none;">${ct.privacyLabel}</a>`)}
+    ${bodyText(ct.whatWeDoIntro2)}
+
+    ${bulletList(ct.whatWeDoItems)}
+
+    ${bodyText(ct.whatWeDoDisclaimer, "8px")}
+
+    ${divider()}
+
+    ${bodyText(ct.ctaIntro)}
+
+    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ct.ctaButton)}
+
+    ${bodyText(ct.ctaDesc)}
+
+    ${brandSignature(lang)}
+    ${unsubNote(ct.unsubNote)}
   `;
 
-  const clientHtml = emailHtml(clientBody, `${ct.label} | ${ahorroF}`, lang);
+  const clientHtml = emailHtml(clientBody, `${ct.subjectPrefix} | ${ahorroF}`, lang);
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.email, `${ct.label} | ${ahorroF}`, clientHtml, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.email, `${ct.subjectPrefix} | ${ahorroF}`, clientHtml, REPLY_TO_EMAIL);
       logger.info(`Calculator lead sent → ${data.email}`, "email");
-      logEmail({ to: data.email, subject: `${ct.label} | ${ahorroF}`, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
+      logEmail({ to: data.email, subject: `${ct.subjectPrefix} | ${ahorroF}`, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     } catch (err) {
       logger.error(`Calculator email failed for ${data.email}:`, "email", err);
-      logEmail({ to: data.email, subject: `${ct.label} | ${ahorroF}`, type: "calculator_result", channel: "transactional", status: "fallido", error: String(err), clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
+      logEmail({ to: data.email, subject: `${ct.subjectPrefix} | ${ahorroF}`, type: "calculator_result", channel: "transactional", status: "fallido", error: String(err), clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     }
   } else {
-    logger.debug("CALCULATOR LEAD (no Gmail): " + JSON.stringify({ email: data.email, phone: data.phone, income: monthlyF, ahorro: ahorroF, leadId: leadRef }), "email");
-    logEmail({ to: data.email, subject: `${ct.label}`, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
+    logger.debug("CALCULATOR LEAD (no Gmail): " + JSON.stringify({ email: data.email, phone: data.phone, income: annualF, ahorro: ahorroF, leadId: leadRef }), "email");
+    logEmail({ to: data.email, subject: `${ct.subjectPrefix}`, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
   }
 }
 
@@ -396,28 +432,43 @@ export async function sendReminderEmail(data: ReminderEmailData) {
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
 
   const clientBody = `
-    ${label(rt.label)}
     ${heading(rt.heading(firstName))}
 
-    ${bodyText(rt.body1(data.startTime))}
+    ${bodyText(rt.intro)}
 
-    ${bodyText(rt.body2)}
+    ${infoCard([
+      { icon: "clock", label: rt.timeLabel, value: data.startTime },
+    ])}
 
     ${meetBlock(data.meetLink, lang)}
 
-    ${bodyText(rt.body3)}
+    ${divider()}
 
-    ${bodyText(rt.body4)}
+    ${bodyText(`<strong>${rt.directTitle}</strong>`)}
 
-    ${bodyText(rt.body4b || "")}
+    ${bodyText(rt.directDesc)}
 
-    ${signOff(rt.signOff, lang)}
+    ${divider()}
+
+    ${bodyText(rt.prepareTitle)}
+
+    ${bulletList(rt.prepareItems)}
+
+    ${bodyText(rt.prepareNote)}
+
+    ${divider()}
+
+    ${data.manageUrl
+      ? `${bodyText(`${rt.imprevisto} <a href="${data.manageUrl}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">${data.manageUrl}</a>`)}`
+      : ""}
+
+    ${brandSignature(lang, rt.closing)}
     ${unsubNote(rt.unsubNote)}
   `;
 
-  const html = emailHtml(clientBody, `${rt.label} | ${data.startTime}`, lang);
+  const reminderSubj = `${rt.subjectPrefix} | ${data.startTime}`;
+  const html = emailHtml(clientBody, `${rt.subjectPrefix} | ${data.startTime}`, lang);
 
-  const reminderSubj = `${rt.label} | ${data.startTime}`;
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL);
@@ -455,30 +506,32 @@ export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
   const dateFormatted = t.dateFormatter(data.date);
 
   const clientBody = `
-    ${label(rt.label)}
     ${heading(rt.heading(firstName))}
 
-    ${bodyText(rt.body1)}
-
-    ${divider()}
+    ${bodyText(rt.intro)}
 
     ${infoCard([
       { icon: "calendar", label: rt.dateLabel, value: dateFormatted },
       { icon: "clock", label: rt.timeLabel, value: `${data.startTime} – ${data.endTime}` },
-      { icon: "pin", label: rt.formatLabel, value: rt.formatValue },
     ])}
 
     ${meetBlock(data.meetLink, lang)}
 
-    ${bodyText(rt.body2)}
+    ${divider()}
+
+    ${bodyText(rt.focusNote)}
+
+    ${divider()}
+
+    ${bodyText(rt.manageNote)}
 
     ${ctaButton(data.manageUrl, rt.ctaManage)}
 
-    ${signOff(rt.signOff, lang)}
+    ${brandSignature(lang, rt.closing)}
     ${unsubNote(rt.unsubNote)}
   `;
 
-  const subject = rt.label;
+  const subject = rt.subject;
   const html = emailHtml(clientBody, subject, lang);
 
   if (gmail) {
@@ -516,27 +569,32 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
   const dateFormatted = t.dateFormatter(data.date);
 
   const clientBody = `
-    ${label(ct.label)}
     ${heading(ct.heading(firstName))}
 
-    ${bodyText(ct.body1)}
-
-    ${divider()}
-
-    ${bodyText(ct.body2)}
+    ${bodyText(ct.intro)}
 
     ${infoCard([
       { icon: "calendar", label: ct.dateLabel, value: dateFormatted },
       { icon: "clock", label: ct.timeLabel, value: `${data.startTime} – ${data.endTime}` },
     ])}
 
-    ${ctaButton(SITE_URL + "/booking", ct.ctaRebook)}
+    ${divider()}
 
-    ${signOff(ct.signOff, lang)}
+    ${bodyText(ct.rebookNote)}
+
+    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ct.ctaRebook)}
+
+    ${bodyText(ct.rebookDesc)}
+
+    ${divider()}
+
+    ${bodyText(`${ct.whatsappNote} <a href="${WHATSAPP_URL}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">WhatsApp</a>`)}
+
+    ${brandSignature(lang)}
     ${unsubNote(ct.unsubNote)}
   `;
 
-  const subject = ct.label;
+  const subject = ct.subject;
   const html = emailHtml(clientBody, subject, lang);
 
   if (gmail) {
@@ -555,4 +613,146 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
   }
 }
 
+interface FollowupStepsEmailData {
+  clientName: string;
+  clientEmail: string;
+  summary: string;
+  ctaLink: string;
+  language?: string | null;
+}
 
+export async function sendFollowupStepsEmail(data: FollowupStepsEmailData) {
+  const lang = resolveEmailLang(data.language);
+  const t = getEmailTranslations(lang);
+  const ft = t.followupSteps;
+  const gmail = getGmailClient();
+  const firstName = escapeHtml(data.clientName.split(" ")[0]);
+
+  const clientBody = `
+    ${heading(ft.heading(firstName))}
+
+    ${bodyText(ft.intro1)}
+
+    ${bodyText(ft.intro2)}
+
+    ${bodyText(ft.intro3)}
+
+    ${divider()}
+
+    ${label(ft.recommendTitle)}
+
+    ${bodyText(escapeHtml(data.summary))}
+
+    ${bodyText(ft.recommendSuffix)}
+
+    ${divider()}
+
+    ${bodyText(`<strong>${ft.clarityNote1}</strong>`)}
+
+    ${bodyText(ft.clarityNote2)}
+
+    ${divider()}
+
+    ${bodyText(ft.ctaIntro)}
+
+    ${ctaButton(data.ctaLink, ft.ctaButton)}
+
+    ${bodyText(ft.ctaDesc)}
+
+    ${divider()}
+
+    ${bodyText(ft.optionalNote)}
+
+    ${bodyText(ft.costNote)}
+
+    ${brandSignature(lang, ft.closing)}
+    ${unsubNote(ft.unsubNote)}
+  `;
+
+  const subject = ft.subject;
+  const html = emailHtml(clientBody, subject, lang);
+
+  if (gmail) {
+    try {
+      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      logger.info(`Followup steps sent → ${data.clientEmail}`, "email");
+      logEmail({ to: data.clientEmail, subject, type: "followup_steps", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+    } catch (err) {
+      logger.error("Followup steps send failed:", "email", err);
+      logEmail({ to: data.clientEmail, subject, type: "followup_steps", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
+      throw err;
+    }
+  } else {
+    logger.debug("FOLLOWUP STEPS (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>` }), "email");
+    logEmail({ to: data.clientEmail, subject, type: "followup_steps", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+  }
+}
+
+interface FollowupReviewEmailData {
+  clientName: string;
+  clientEmail: string;
+  ctaLink: string;
+  bookingLink: string;
+  language?: string | null;
+}
+
+export async function sendFollowupReviewEmail(data: FollowupReviewEmailData) {
+  const lang = resolveEmailLang(data.language);
+  const t = getEmailTranslations(lang);
+  const fr = t.followupReview;
+  const gmail = getGmailClient();
+  const firstName = escapeHtml(data.clientName.split(" ")[0]);
+
+  const clientBody = `
+    ${heading(fr.heading(firstName))}
+
+    ${bodyText(fr.intro1)}
+
+    ${bodyText(fr.intro2)}
+
+    ${bodyText(fr.intro3)}
+
+    ${divider()}
+
+    ${bodyText(fr.coherenceTitle)}
+
+    ${bulletList(fr.coherenceItems)}
+
+    ${divider()}
+
+    ${bodyText(fr.ctaAction)}
+
+    ${ctaButton(data.ctaLink, fr.ctaActionLabel)}
+
+    ${bodyText(fr.ctaBookingIntro)}
+
+    ${ctaButton(data.bookingLink, fr.ctaBookingLabel)}
+
+    ${divider()}
+
+    ${bodyText(`<strong>${fr.notForEveryone}</strong>`)}
+
+    ${bodyText(fr.ifFitsNote)}
+
+    ${brandSignature(lang)}
+    ${unsubNote(fr.unsubNote)}
+  `;
+
+  const subject = fr.subject;
+  const html = emailHtml(clientBody, subject, lang);
+
+  if (gmail) {
+    try {
+      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      logger.info(`Followup review sent → ${data.clientEmail}`, "email");
+      logEmail({ to: data.clientEmail, subject, type: "followup_review", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+    } catch (err) {
+      logger.error("Followup review send failed:", "email", err);
+      logEmail({ to: data.clientEmail, subject, type: "followup_review", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
+      throw err;
+    }
+  } else {
+    logger.debug("FOLLOWUP REVIEW (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>` }), "email");
+    logEmail({ to: data.clientEmail, subject, type: "followup_review", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+  }
+}
