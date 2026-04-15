@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development npx tsx exentax-web/server/index.ts",
+    "dev": "NODE_ENV=development node_modules/.bin/tsx exentax-web/server/index.ts",
     "build": "npx tsx exentax-web/script/build.ts",
     "start": "NODE_ENV=production node exentax-web/dist/index.mjs",
     "db:push": "drizzle-kit push",
