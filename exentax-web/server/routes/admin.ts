@@ -105,6 +105,8 @@ export function registerAdminRoutes(app: Express) {
     const { date, startTime } = parsed.data;
 
     if (!isWeekday(date)) return apiFail(res, 400, "Solo días laborables", "INVALID_DATE");
+    const today = new Date().toISOString().slice(0, 10);
+    if (date < today) return apiFail(res, 400, "No se puede reagendar a una fecha pasada", "PAST_DATE");
     const endTime = getEndTime(startTime);
     const validSlots = generateTimeSlots();
     if (!validSlots.includes(startTime)) return apiFail(res, 400, "Horario no válido", "INVALID_TIME");
