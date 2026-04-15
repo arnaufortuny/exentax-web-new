@@ -26,9 +26,9 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 
 ### Core Architectural Patterns
 - **Admin Panel**: Token-based URL access (no login page). `ADMIN_TOKEN` env var required. Access via `/admin/agenda/:bookingId?adminToken=TOKEN`. Discord embeds include full admin links.
-- **Booking System**: Consultation booking with Google Meet integration, email confirmations, reminders.
+- **Booking System**: Consultation booking with Google Meet integration, email confirmations, reminders. States: pending → rescheduled/cancelled/no_show/contacted/in_progress/closed. All date comparisons use `todayMadridISO()`. Both admin and public reschedule check blocked days.
 - **API Contract**: Uniform JSON `{ ok: true, data }` or `{ ok: false, error, code }` with Zod validation.
-- **Timezone**: Booking calendar uses `Europe/Madrid` timezone.
+- **Timezone**: All booking date logic uses `Europe/Madrid` timezone via `todayMadridISO()` and `nowMadrid()`. Never use UTC `new Date()` for date comparisons.
 - **Slot Locking**: In-memory promise chains (`withSlotLock()`) for preventing concurrent booking modifications.
 - **Storage Error Handling**: Centralized `wrapStorageError` for consistent error reporting.
 - **Field Encryption**: AES-256-GCM encryption for sensitive fields (phone, address, etc.).
@@ -91,8 +91,9 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
   - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin/client links
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
   - `DISCORD_WEBHOOK_ERRORES` → Critical server errors (fallback to registros if not set)
-  - All embeds include: author block, Exentax avatar, consistent color palette (green=#00E510, blue=#3498DB, red=#DC2626, orange=#F39C12), timezone, structured fields with dividers, admin/client management links
-  - Safety: field count capped at 25, field values truncated to Discord limits, stack traces excluded in production
+  - All embeds include: author block, Exentax avatar, consistent color palette (green=#00E510, blue=#3498DB, red=#DC2626, orange=#F39C12), timezone, structured fields, admin/client management links
+  - CRITICAL: NO emojis, NO icons anywhere in Discord messages — plain text field names only, clean professional formatting
+  - Safety: field count capped at 25, field name/value truncated to Discord limits (256/1024 chars), stack traces excluded in production
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
 - **Email**: Gmail API v1 — 8 email types × 6 languages:

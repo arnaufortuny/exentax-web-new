@@ -88,7 +88,7 @@ const MAX_RETRIES = 3;
 const FETCH_TIMEOUT_MS = 8_000;
 
 const AVATAR_URL = `${SITE_URL}/ex-icon-green.png`;
-const WEBHOOK_USERNAME = `${BRAND_NAME} · Notificaciones`;
+const WEBHOOK_USERNAME = `${BRAND_NAME}`;
 
 interface QueueItem { url: string; payload: DiscordPayload; attempt: number }
 
@@ -160,15 +160,15 @@ const DISCORD_DESC_MAX = 4096;
 
 function _clampEmbed(embed: DiscordEmbed): DiscordEmbed {
   if (embed.description && embed.description.length > DISCORD_DESC_MAX) {
-    embed.description = embed.description.slice(0, DISCORD_DESC_MAX - 3) + "…";
+    embed.description = embed.description.slice(0, DISCORD_DESC_MAX - 3) + "...";
   }
   if (embed.fields.length > DISCORD_FIELD_LIMIT) {
     embed.fields = embed.fields.slice(0, DISCORD_FIELD_LIMIT - 1);
-    embed.fields.push({ name: "⚠️", value: "Algunos campos han sido omitidos por límite de Discord.", inline: false });
+    embed.fields.push({ name: "Aviso", value: "Algunos campos han sido omitidos por limite de Discord.", inline: false });
   }
   for (const f of embed.fields) {
-    if (f.name.length > DISCORD_FIELD_NAME_MAX) f.name = f.name.slice(0, DISCORD_FIELD_NAME_MAX - 1) + "…";
-    if (f.value.length > DISCORD_FIELD_VALUE_MAX) f.value = f.value.slice(0, DISCORD_FIELD_VALUE_MAX - 3) + "…";
+    if (f.name.length > DISCORD_FIELD_NAME_MAX) f.name = f.name.slice(0, DISCORD_FIELD_NAME_MAX - 3) + "...";
+    if (f.value.length > DISCORD_FIELD_VALUE_MAX) f.value = f.value.slice(0, DISCORD_FIELD_VALUE_MAX - 3) + "...";
   }
   return embed;
 }
@@ -192,9 +192,9 @@ function ts(): string {
   });
 }
 
-function flag(lang: string | null | undefined): string {
-  const flags: Record<string, string> = { es: "🇪🇸", en: "🇬🇧", fr: "🇫🇷", de: "🇩🇪", pt: "🇵🇹", ca: "🏴" };
-  return flags[lang || "es"] || "🌐";
+function langLabel(lang: string | null | undefined): string {
+  const labels: Record<string, string> = { es: "ES", en: "EN", fr: "FR", de: "DE", pt: "PT", ca: "CA" };
+  return labels[lang || "es"] || (lang || "es").toUpperCase();
 }
 
 function safe(val: string | null | undefined, fallback = "No disponible"): string {
@@ -213,9 +213,9 @@ function linksBlock(bookingId: string, manageToken?: string | null): EmbedField[
   const fields: EmbedField[] = [];
   const cl = clientLink(bookingId, manageToken);
   if (cl) {
-    fields.push({ name: "🔗 Gestión cliente", value: `[Abrir panel cliente](${cl})`, inline: true });
+    fields.push({ name: "Gestion cliente", value: `[Abrir panel cliente](${cl})`, inline: true });
   }
-  fields.push({ name: "⚙️ Panel admin", value: `[Gestionar reserva](${adminLink(bookingId)})`, inline: true });
+  fields.push({ name: "Panel admin", value: `[Gestionar reserva](${adminLink(bookingId)})`, inline: true });
   return fields;
 }
 
@@ -224,7 +224,7 @@ function divider(): EmbedField {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// CANAL: AGENDA (asesorías)
+// CANAL: AGENDA (asesorias)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyBookingCreated(opts: {
@@ -241,7 +241,7 @@ export function notifyBookingCreated(opts: {
   language?: string | null;
   ip?: string | null;
   activity?: string | null;
-  monthlyProfit?: number | null;
+  monthlyProfit?: string | number | null;
   globalClients?: boolean | null;
   digitalOperation?: boolean | null;
   notes?: string | null;
@@ -253,51 +253,40 @@ export function notifyBookingCreated(opts: {
   const fullName = `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`;
 
   const fields: EmbedField[] = [
-    { name: "🆔 ID Reserva",       value: `\`${opts.bookingId}\``,                            inline: true },
-    { name: "📋 Estado",           value: "🟢 Confirmada",                                     inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),      inline: true },
-    divider(),
-    { name: "📅 Fecha",            value: `**${opts.date}**`,                                   inline: true },
-    { name: "🕐 Horario",          value: `${opts.startTime} — ${opts.endTime}`,                inline: true },
-    { name: "🌐 Zona horaria",     value: DEFAULT_TIMEZONE,                                     inline: true },
-    divider(),
-    { name: "👤 Nombre completo",  value: fullName,                                              inline: true },
-    { name: "📧 Email",            value: opts.email,                                            inline: true },
-    { name: "📱 Teléfono",         value: safe(opts.phone, "No proporcionado"),                  inline: true },
+    { name: "ID Reserva",     value: `\`${opts.bookingId}\``,                            inline: true },
+    { name: "Estado",         value: "Confirmada",                                        inline: true },
+    { name: "Idioma",         value: langLabel(opts.language),                             inline: true },
+    { name: "Fecha",          value: `**${opts.date}**`,                                   inline: true },
+    { name: "Horario",        value: `${opts.startTime} — ${opts.endTime}`,                inline: true },
+    { name: "Zona horaria",   value: DEFAULT_TIMEZONE,                                     inline: true },
+    { name: "Nombre",         value: fullName,                                              inline: true },
+    { name: "Email",          value: opts.email,                                            inline: true },
+    { name: "Telefono",       value: safe(opts.phone, "No proporcionado"),                  inline: true },
   ];
 
   if (opts.meetLink) {
-    fields.push({ name: "📹 Google Meet", value: `[Unirse a la reunión](${opts.meetLink})`, inline: true });
-  }
-  if (opts.ip) {
-    fields.push({ name: "🌐 IP",  value: opts.ip,                                               inline: true });
+    fields.push({ name: "Google Meet", value: `[Unirse a la reunion](${opts.meetLink})`, inline: true });
   }
 
-  if (opts.activity || opts.monthlyProfit != null || opts.globalClients != null || opts.digitalOperation != null) {
-    fields.push(divider());
-    if (opts.activity) fields.push({ name: "💼 Actividad", value: opts.activity, inline: true });
-    if (opts.monthlyProfit != null) fields.push({ name: "💰 Beneficio mensual", value: `${opts.monthlyProfit.toLocaleString("es-ES")} €`, inline: true });
-    if (opts.globalClients != null) fields.push({ name: "🌍 Clientes internacionales", value: opts.globalClients ? "Sí" : "No", inline: true });
-    if (opts.digitalOperation != null) fields.push({ name: "💻 Operación digital", value: opts.digitalOperation ? "Sí" : "No", inline: true });
-  }
+  if (opts.activity) fields.push({ name: "Actividad", value: opts.activity, inline: true });
+  if (opts.monthlyProfit != null) fields.push({ name: "Beneficio mensual", value: String(opts.monthlyProfit), inline: true });
+  if (opts.globalClients != null) fields.push({ name: "Clientes internacionales", value: opts.globalClients ? "Si" : "No", inline: true });
+  if (opts.digitalOperation != null) fields.push({ name: "Operacion digital", value: opts.digitalOperation ? "Si" : "No", inline: true });
 
-  if (opts.notes || opts.context || opts.shareNote) {
-    fields.push(divider());
-    if (opts.notes) fields.push({ name: "📝 Notas del cliente", value: opts.notes.slice(0, 500) });
-    if (opts.context) fields.push({ name: "🔎 Contexto", value: opts.context.slice(0, 500) });
-    if (opts.shareNote) fields.push({ name: "📋 Nota adicional", value: opts.shareNote.slice(0, 300) });
-  }
+  if (opts.notes) fields.push({ name: "Notas del cliente", value: opts.notes.slice(0, 500) });
+  if (opts.context) fields.push({ name: "Contexto", value: opts.context.slice(0, 500) });
+  if (opts.shareNote) fields.push({ name: "Nota adicional", value: opts.shareNote.slice(0, 300) });
 
-  fields.push(divider());
-  fields.push({ name: "✅ Privacidad", value: opts.privacyAccepted ? "Aceptada" : "No", inline: true });
-  fields.push({ name: "📣 Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
+  fields.push({ name: "Privacidad", value: opts.privacyAccepted ? "Aceptada" : "No", inline: true });
+  fields.push({ name: "Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
+  if (opts.ip) fields.push({ name: "IP", value: opts.ip, inline: true });
 
   fields.push(divider());
   fields.push(...linksBlock(opts.bookingId, opts.manageToken));
 
   _send("agenda", {
-    title: "📅 Nueva asesoría programada",
-    description: `**${fullName}** ha reservado una asesoría fiscal.\n📅 **${opts.date}** · 🕐 **${opts.startTime} — ${opts.endTime}**`,
+    title: "Nueva asesoria programada",
+    description: `**${fullName}** ha reservado una asesoria fiscal para el **${opts.date}** a las **${opts.startTime}**.`,
     color: COLOR.GREEN,
     fields,
     author: makeAuthor(),
@@ -324,37 +313,31 @@ export function notifyBookingRescheduled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Panel admin" : "Cliente";
-  const sourceEmoji = opts.source === "admin" ? "🛡️" : "👤";
 
   const fields: EmbedField[] = [
-    { name: "🆔 ID Reserva",       value: `\`${opts.bookingId}\``,                                                           inline: true },
-    { name: "📋 Estado",           value: "🔄 Reagendada",                                                                    inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                                     inline: true },
-    divider(),
-    { name: "❌ Fecha anterior",   value: opts.oldDate ? `~~${opts.oldDate} ${opts.oldStartTime || ""}~~` : "No disponible",  inline: true },
-    { name: "✅ Nueva fecha",      value: `**${opts.newDate}**`,                                                               inline: true },
-    { name: "🕐 Nuevo horario",    value: `**${opts.newStartTime} — ${opts.newEndTime}**`,                                    inline: true },
-    { name: "🌐 Zona horaria",     value: DEFAULT_TIMEZONE,                                                                    inline: true },
-    divider(),
-    { name: "👤 Cliente",          value: opts.name,                                                                            inline: true },
-    { name: "📧 Email",            value: opts.email,                                                                           inline: true },
-    { name: "📱 Teléfono",         value: safe(opts.phone),                                                                     inline: true },
-    divider(),
-    { name: "📹 Google Meet",      value: opts.newMeetLink ? `[Unirse a la reunión](${opts.newMeetLink})` : "Sin cambios",     inline: true },
-    { name: "🔢 Nº reagendamientos", value: String(opts.rescheduleCount ?? 1),                                                 inline: true },
-    { name: `${sourceEmoji} Origen`, value: `**${sourceLabel}**`,                                                               inline: true },
+    { name: "ID Reserva",       value: `\`${opts.bookingId}\``,                                                           inline: true },
+    { name: "Estado",           value: "Reagendada",                                                                       inline: true },
+    { name: "Idioma",           value: langLabel(opts.language),                                                            inline: true },
+    { name: "Fecha anterior",   value: opts.oldDate ? `~~${opts.oldDate} ${opts.oldStartTime || ""}~~` : "No disponible",  inline: true },
+    { name: "Nueva fecha",      value: `**${opts.newDate}**`,                                                               inline: true },
+    { name: "Nuevo horario",    value: `**${opts.newStartTime} — ${opts.newEndTime}**`,                                    inline: true },
+    { name: "Zona horaria",     value: DEFAULT_TIMEZONE,                                                                    inline: true },
+    { name: "Cliente",          value: opts.name,                                                                            inline: true },
+    { name: "Email",            value: opts.email,                                                                           inline: true },
+    { name: "Telefono",         value: safe(opts.phone),                                                                     inline: true },
+    { name: "Google Meet",      value: opts.newMeetLink ? `[Unirse a la reunion](${opts.newMeetLink})` : "Sin cambios",     inline: true },
+    { name: "Reagendamientos",  value: String(opts.rescheduleCount ?? 1),                                                   inline: true },
+    { name: "Origen",           value: `**${sourceLabel}**`,                                                                 inline: true },
   ];
 
-  if (opts.ip) {
-    fields.push({ name: "🌐 IP", value: opts.ip, inline: true });
-  }
+  if (opts.ip) fields.push({ name: "IP", value: opts.ip, inline: true });
 
   fields.push(divider());
   fields.push(...linksBlock(opts.bookingId, opts.manageToken));
 
   _send("agenda", {
-    title: "🔄 Asesoría reagendada",
-    description: `**${opts.name}** ha cambiado la fecha de su asesoría.\n📅 **${opts.newDate}** · 🕐 **${opts.newStartTime} — ${opts.newEndTime}** · Origen: **${sourceLabel}**`,
+    title: "Asesoria reagendada",
+    description: `**${opts.name}** ha cambiado la fecha de su asesoria al **${opts.newDate}** a las **${opts.newStartTime}**. Origen: **${sourceLabel}**.`,
     color: COLOR.BLUE,
     fields,
     author: makeAuthor(),
@@ -378,37 +361,29 @@ export function notifyBookingCancelled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Panel admin" : "Cliente";
-  const sourceEmoji = opts.source === "admin" ? "🛡️" : "👤";
 
   const fields: EmbedField[] = [
-    { name: "🆔 ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
-    { name: "📋 Estado",      value: "🔴 Cancelada",                                                 inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),            inline: true },
-    divider(),
-    { name: "📅 Fecha",        value: safe(opts.date),                                                inline: true },
-    { name: "🕐 Horario",      value: opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "No disponible", inline: true },
-    { name: "🌐 Zona horaria", value: DEFAULT_TIMEZONE,                                               inline: true },
-    divider(),
-    { name: "👤 Cliente",      value: opts.name,                                                       inline: true },
-    { name: "📧 Email",        value: opts.email,                                                      inline: true },
-    { name: "📱 Teléfono",     value: safe(opts.phone),                                                inline: true },
-    divider(),
-    { name: `${sourceEmoji} Origen`, value: `**${sourceLabel}**`,                                      inline: true },
+    { name: "ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
+    { name: "Estado",      value: "Cancelada",                                                    inline: true },
+    { name: "Idioma",      value: langLabel(opts.language),                                       inline: true },
+    { name: "Fecha",       value: safe(opts.date),                                                inline: true },
+    { name: "Horario",     value: opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "No disponible", inline: true },
+    { name: "Zona horaria", value: DEFAULT_TIMEZONE,                                              inline: true },
+    { name: "Cliente",     value: opts.name,                                                       inline: true },
+    { name: "Email",       value: opts.email,                                                      inline: true },
+    { name: "Telefono",    value: safe(opts.phone),                                                inline: true },
+    { name: "Origen",      value: `**${sourceLabel}**`,                                            inline: true },
   ];
 
-  if (opts.reason) {
-    fields.push({ name: "💬 Motivo de cancelación", value: opts.reason.slice(0, 300) });
-  }
-  if (opts.ip) {
-    fields.push({ name: "🌐 IP", value: opts.ip, inline: true });
-  }
+  if (opts.reason) fields.push({ name: "Motivo", value: opts.reason.slice(0, 300) });
+  if (opts.ip) fields.push({ name: "IP", value: opts.ip, inline: true });
 
   fields.push(divider());
-  fields.push({ name: "⚙️ Panel admin", value: `[Ver reserva](${adminLink(opts.bookingId)})`, inline: true });
+  fields.push({ name: "Panel admin", value: `[Ver reserva](${adminLink(opts.bookingId)})`, inline: true });
 
   _send("agenda", {
-    title: "❌ Asesoría cancelada",
-    description: `**${opts.name}** ha cancelado su asesoría del **${opts.date || "fecha desconocida"}**.\nOrigen: **${sourceLabel}**`,
+    title: "Asesoria cancelada",
+    description: `**${opts.name}** ha cancelado su asesoria del **${opts.date || "fecha desconocida"}**. Origen: **${sourceLabel}**.`,
     color: COLOR.RED,
     fields,
     author: makeAuthor(),
@@ -430,29 +405,27 @@ export function notifyNoShow(opts: {
   meetLink?: string | null;
 }): void {
   const fields: EmbedField[] = [
-    { name: "🆔 ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
-    { name: "📋 Estado",      value: "🟠 No-show",                                                   inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),            inline: true },
-    divider(),
-    { name: "📅 Fecha",        value: safe(opts.date),                                                inline: true },
-    { name: "🕐 Horario",      value: opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "No disponible", inline: true },
-    { name: "🌐 Zona horaria", value: DEFAULT_TIMEZONE,                                               inline: true },
-    divider(),
-    { name: "👤 Cliente",      value: opts.name,                                                       inline: true },
-    { name: "📧 Email",        value: opts.email,                                                      inline: true },
-    { name: "📱 Teléfono",     value: safe(opts.phone),                                                inline: true },
+    { name: "ID Reserva",  value: `\`${opts.bookingId}\``,                                       inline: true },
+    { name: "Estado",      value: "No-show",                                                      inline: true },
+    { name: "Idioma",      value: langLabel(opts.language),                                       inline: true },
+    { name: "Fecha",       value: safe(opts.date),                                                inline: true },
+    { name: "Horario",     value: opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "No disponible", inline: true },
+    { name: "Zona horaria", value: DEFAULT_TIMEZONE,                                              inline: true },
+    { name: "Cliente",     value: opts.name,                                                       inline: true },
+    { name: "Email",       value: opts.email,                                                      inline: true },
+    { name: "Telefono",    value: safe(opts.phone),                                                inline: true },
   ];
 
   if (opts.meetLink) {
-    fields.push({ name: "📹 Google Meet", value: `[Enlace](${opts.meetLink})`, inline: true });
+    fields.push({ name: "Google Meet", value: `[Enlace](${opts.meetLink})`, inline: true });
   }
 
   fields.push(divider());
-  fields.push({ name: "⚙️ Panel admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})`, inline: true });
+  fields.push({ name: "Panel admin", value: `[Gestionar reserva](${adminLink(opts.bookingId)})`, inline: true });
 
   _send("agenda", {
-    title: "⚠️ No-show — Cliente no se presentó",
-    description: `**${opts.name}** no se presentó a la asesoría del **${opts.date || "fecha desconocida"}**.\nSe recomienda contactar al cliente para reagendar.`,
+    title: "No-show — Cliente no se presento",
+    description: `**${opts.name}** no se presento a la asesoria del **${opts.date || "fecha desconocida"}**. Se recomienda contactar al cliente para reagendar.`,
     color: COLOR.ORANGE,
     fields,
     author: makeAuthor(),
@@ -489,47 +462,34 @@ export function notifyCalculatorLead(opts: {
     new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
 
   const ahorroAbs = Math.abs(opts.ahorro);
-  let savingsEmoji = "🟢";
-  if (ahorroAbs < 3000) savingsEmoji = "🟡";
-  if (ahorroAbs < 1000) savingsEmoji = "🔴";
 
   const fields: EmbedField[] = [
-    { name: "🆔 ID Lead",          value: `\`${opts.leadId}\``,                                        inline: true },
-    { name: "📧 Email",            value: opts.email,                                                   inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),              inline: true },
-    divider(),
-    { name: "🌍 País",             value: safe(opts.country, "No especificado"),                        inline: true },
-    { name: "📊 Régimen fiscal",   value: safe(opts.regime, "No especificado"),                         inline: true },
+    { name: "ID Lead",          value: `\`${opts.leadId}\``,                              inline: true },
+    { name: "Email",            value: opts.email,                                         inline: true },
+    { name: "Idioma",           value: langLabel(opts.language),                            inline: true },
+    { name: "Pais",             value: safe(opts.country, "No especificado"),               inline: true },
+    { name: "Regimen fiscal",   value: safe(opts.regime, "No especificado"),                inline: true },
   ];
 
-  if (opts.activity) {
-    fields.push({ name: "💼 Actividad", value: opts.activity, inline: true });
-  }
+  if (opts.activity) fields.push({ name: "Actividad", value: opts.activity, inline: true });
 
-  fields.push(divider());
+  if (opts.monthlyIncome != null) fields.push({ name: "Ingresos mensuales", value: fmt(opts.monthlyIncome), inline: true });
+  if (opts.annualIncome != null) fields.push({ name: "Ingresos anuales", value: fmt(opts.annualIncome), inline: true });
+  if (opts.localTax != null) fields.push({ name: "Impuestos locales", value: fmt(opts.localTax), inline: true });
+  if (opts.llcTax != null) fields.push({ name: "Impuestos LLC", value: fmt(opts.llcTax), inline: true });
+  fields.push({ name: "Ahorro estimado", value: `**${fmt(opts.ahorro)}** / anual`, inline: true });
 
-  if (opts.monthlyIncome != null) fields.push({ name: "💶 Ingresos mensuales", value: fmt(opts.monthlyIncome), inline: true });
-  if (opts.annualIncome != null) fields.push({ name: "💶 Ingresos anuales", value: fmt(opts.annualIncome), inline: true });
-  if (opts.localTax != null) fields.push({ name: "🏛️ Impuestos locales", value: fmt(opts.localTax), inline: true });
-  if (opts.llcTax != null) fields.push({ name: "🇺🇸 Impuestos LLC", value: fmt(opts.llcTax), inline: true });
-  fields.push({ name: `${savingsEmoji} Ahorro estimado`, value: `**${fmt(opts.ahorro)}** / año`, inline: true });
+  if (opts.name) fields.push({ name: "Nombre", value: opts.name, inline: true });
+  if (opts.phone) fields.push({ name: "Telefono", value: opts.phone, inline: true });
 
-  if (opts.name || opts.phone) {
-    fields.push(divider());
-    if (opts.name) fields.push({ name: "👤 Nombre", value: opts.name, inline: true });
-    if (opts.phone) fields.push({ name: "📱 Teléfono", value: opts.phone, inline: true });
-  }
-
-  fields.push(divider());
-  fields.push({ name: "✅ Privacidad", value: opts.privacyAccepted ? "Aceptada" : "No", inline: true });
-  fields.push({ name: "📣 Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
-  if (opts.ip) fields.push({ name: "🌐 IP", value: opts.ip, inline: true });
-
-  if (opts.referrer) fields.push({ name: "🔗 Referrer", value: opts.referrer.slice(0, 200), inline: true });
+  fields.push({ name: "Privacidad", value: opts.privacyAccepted ? "Aceptada" : "No", inline: true });
+  fields.push({ name: "Marketing", value: opts.marketingAccepted ? "Aceptado" : "No", inline: true });
+  if (opts.ip) fields.push({ name: "IP", value: opts.ip, inline: true });
+  if (opts.referrer) fields.push({ name: "Referrer", value: opts.referrer.slice(0, 200), inline: true });
 
   _send("calculadora", {
-    title: `🧮 Resultado calculadora — ${savingsEmoji} ${fmt(opts.ahorro)} ahorro`,
-    description: `Nuevo cálculo desde **${safe(opts.country, "país desconocido")}** (${safe(opts.regime, "régimen no especificado")}).\nAhorro estimado: **${fmt(opts.ahorro)}** anuales.`,
+    title: `Resultado calculadora — ${fmt(opts.ahorro)} ahorro`,
+    description: `Nuevo calculo desde **${safe(opts.country, "pais desconocido")}** (${safe(opts.regime, "regimen no especificado")}). Ahorro estimado: **${fmt(opts.ahorro)}** anuales.`,
     color: ahorroAbs >= 5000 ? COLOR.GREEN : ahorroAbs >= 2000 ? COLOR.YELLOW : COLOR.ORANGE,
     fields,
     author: makeAuthor(),
@@ -539,7 +499,7 @@ export function notifyCalculatorLead(opts: {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// CANAL: REGISTROS WEB (newsletter, leads genéricos)
+// CANAL: REGISTROS WEB (newsletter, leads genericos)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyNewsletterSubscribe(opts: {
@@ -551,16 +511,16 @@ export function notifyNewsletterSubscribe(opts: {
   marketingAccepted?: boolean;
 }): void {
   _send("registros", {
-    title: "📧 Nueva suscripción newsletter",
+    title: "Nueva suscripcion newsletter",
     description: `Nuevo suscriptor registrado desde **${safe(opts.source, "footer")}**.`,
     color: COLOR.TEAL,
     fields: [
-      { name: "📧 Email",       value: opts.email,                                      inline: true },
-      { name: "📍 Fuente",      value: safe(opts.source, "footer"),                      inline: true },
-      { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(), inline: true },
-      { name: "🌐 IP",          value: safe(opts.ip, "—"),                               inline: true },
-      { name: "✅ Privacidad",  value: opts.privacyAccepted ? "Aceptada" : "No",         inline: true },
-      { name: "📣 Marketing",   value: opts.marketingAccepted ? "Aceptado" : "No",       inline: true },
+      { name: "Email",       value: opts.email,                                      inline: true },
+      { name: "Fuente",      value: safe(opts.source, "footer"),                      inline: true },
+      { name: "Idioma",      value: langLabel(opts.language),                         inline: true },
+      { name: "IP",          value: safe(opts.ip, "—"),                               inline: true },
+      { name: "Privacidad",  value: opts.privacyAccepted ? "Aceptada" : "No",        inline: true },
+      { name: "Marketing",   value: opts.marketingAccepted ? "Aceptado" : "No",      inline: true },
     ],
     author: makeAuthor(),
     footer: makeFooter(),
@@ -580,24 +540,24 @@ export function notifyNewLead(opts: {
   bookingId?: string | null;
 }): void {
   const fields: EmbedField[] = [
-    { name: "🆔 ID Lead",      value: `\`${opts.leadId}\``,                                inline: true },
-    { name: "👤 Nombre",       value: opts.name,                                             inline: true },
-    { name: "📧 Email",        value: opts.email,                                            inline: true },
-    { name: "📱 Teléfono",     value: safe(opts.phone),                                      inline: true },
-    { name: "📍 Fuente",       value: opts.source,                                            inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),    inline: true },
+    { name: "ID Lead",      value: `\`${opts.leadId}\``,                                inline: true },
+    { name: "Nombre",       value: opts.name,                                             inline: true },
+    { name: "Email",        value: opts.email,                                            inline: true },
+    { name: "Telefono",     value: safe(opts.phone),                                      inline: true },
+    { name: "Fuente",       value: opts.source,                                            inline: true },
+    { name: "Idioma",       value: langLabel(opts.language),                               inline: true },
   ];
 
-  if (opts.activity) fields.push({ name: "💼 Actividad", value: opts.activity, inline: true });
-  if (opts.ip) fields.push({ name: "🌐 IP", value: opts.ip, inline: true });
+  if (opts.activity) fields.push({ name: "Actividad", value: opts.activity, inline: true });
+  if (opts.ip) fields.push({ name: "IP", value: opts.ip, inline: true });
 
   if (opts.bookingId) {
     fields.push(divider());
-    fields.push({ name: "⚙️ Panel admin", value: `[Ver en admin](${adminLink(opts.bookingId)})`, inline: true });
+    fields.push({ name: "Panel admin", value: `[Ver en admin](${adminLink(opts.bookingId)})`, inline: true });
   }
 
   _send("registros", {
-    title: "🆕 Nuevo lead registrado",
+    title: "Nuevo lead registrado",
     description: `**${opts.name}** se ha registrado desde **${opts.source}**.`,
     color: COLOR.PURPLE,
     fields,
@@ -626,23 +586,21 @@ export function notifyWebVisit(opts: {
   sessionId?: string | null;
   isNew?: boolean;
 }): void {
-  const deviceEmoji = opts.device === "mobile" ? "📱" : opts.device === "tablet" ? "📲" : "🖥️";
-
   const fields: EmbedField[] = [
-    { name: "📄 Página",            value: opts.page || "/",                                              inline: true },
-    { name: `${deviceEmoji} Dispositivo`, value: safe(opts.device, "Desconocido"),                        inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),                inline: true },
-    { name: "🌐 IP",                value: opts.ip,                                                       inline: true },
-    { name: "📐 Pantalla",          value: safe(opts.screen, "—"),                                         inline: true },
-    { name: "👤 Visitante",         value: opts.isNew ? "🆕 Nuevo" : "🔄 Recurrente",                    inline: true },
+    { name: "Pagina",        value: opts.page || "/",                                        inline: true },
+    { name: "Dispositivo",   value: safe(opts.device, "Desconocido"),                        inline: true },
+    { name: "Idioma",        value: langLabel(opts.language),                                 inline: true },
+    { name: "IP",            value: opts.ip,                                                  inline: true },
+    { name: "Pantalla",      value: safe(opts.screen, "—"),                                   inline: true },
+    { name: "Visitante",     value: opts.isNew ? "Nuevo" : "Recurrente",                     inline: true },
   ];
 
-  if (opts.referrer) fields.push({ name: "🔗 Referrer", value: opts.referrer.slice(0, 200), inline: true });
-  if (opts.utmSource) fields.push({ name: "📊 UTM Source", value: opts.utmSource, inline: true });
-  if (opts.utmMedium) fields.push({ name: "📊 UTM Medium", value: opts.utmMedium, inline: true });
-  if (opts.utmCampaign) fields.push({ name: "📊 UTM Campaign", value: opts.utmCampaign.slice(0, 100), inline: true });
-  if (opts.utmContent) fields.push({ name: "📊 UTM Content", value: opts.utmContent.slice(0, 100), inline: true });
-  if (opts.sessionId) fields.push({ name: "🔑 Sesión", value: `\`${opts.sessionId.slice(0, 16)}...\``, inline: true });
+  if (opts.referrer) fields.push({ name: "Referrer", value: opts.referrer.slice(0, 200), inline: true });
+  if (opts.utmSource) fields.push({ name: "UTM Source", value: opts.utmSource, inline: true });
+  if (opts.utmMedium) fields.push({ name: "UTM Medium", value: opts.utmMedium, inline: true });
+  if (opts.utmCampaign) fields.push({ name: "UTM Campaign", value: opts.utmCampaign.slice(0, 100), inline: true });
+  if (opts.utmContent) fields.push({ name: "UTM Content", value: opts.utmContent.slice(0, 100), inline: true });
+  if (opts.sessionId) fields.push({ name: "Sesion", value: `\`${opts.sessionId.slice(0, 16)}...\``, inline: true });
 
   let browserInfo = "—";
   if (opts.userAgent) {
@@ -654,10 +612,10 @@ export function notifyWebVisit(opts: {
     else if (/Opera|OPR/i.test(ua)) browserInfo = "Opera";
     else browserInfo = ua.slice(0, 50);
   }
-  fields.push({ name: "🌐 Navegador", value: browserInfo, inline: true });
+  fields.push({ name: "Navegador", value: browserInfo, inline: true });
 
   _send("actividad", {
-    title: `${opts.isNew ? "🆕" : "👁️"} Visita web · ${opts.page || "/"}`,
+    title: `Visita web — ${opts.page || "/"}`,
     color: opts.isNew ? COLOR.GREEN_DARK : COLOR.GREY,
     fields,
     author: makeAuthor(),
@@ -682,20 +640,20 @@ export function notifyConsent(opts: {
 }): void {
   const isCookie = opts.formType.startsWith("cookies:");
   const title = isCookie
-    ? `🍪 Consentimiento cookies — ${opts.formType.replace("cookies:", "")}`
-    : `📋 Consentimiento — ${opts.formType}`;
+    ? `Consentimiento cookies — ${opts.formType.replace("cookies:", "")}`
+    : `Consentimiento — ${opts.formType}`;
 
   const fields: EmbedField[] = [
-    { name: "📝 Tipo",              value: opts.formType,                                               inline: true },
-    { name: "✅ Privacidad",        value: opts.privacyAccepted ? "Aceptada" : "No aceptada",           inline: true },
-    { name: "📣 Marketing",         value: opts.marketingAccepted === true ? "Aceptado" : opts.marketingAccepted === false ? "Rechazado" : "N/A", inline: true },
-    { name: `${flag(opts.language)} Idioma`, value: (opts.language || "es").toUpperCase(),              inline: true },
-    { name: "🌐 IP",                value: safe(opts.ip, "—"),                                          inline: true },
-    { name: "📋 Versión política",  value: safe(opts.privacyVersion, "—"),                              inline: true },
+    { name: "Tipo",              value: opts.formType,                                               inline: true },
+    { name: "Privacidad",        value: opts.privacyAccepted ? "Aceptada" : "No aceptada",           inline: true },
+    { name: "Marketing",         value: opts.marketingAccepted === true ? "Aceptado" : opts.marketingAccepted === false ? "Rechazado" : "N/A", inline: true },
+    { name: "Idioma",            value: langLabel(opts.language),                                     inline: true },
+    { name: "IP",                value: safe(opts.ip, "—"),                                           inline: true },
+    { name: "Version politica",  value: safe(opts.privacyVersion, "—"),                               inline: true },
   ];
 
-  if (opts.email) fields.push({ name: "📧 Email", value: opts.email, inline: true });
-  if (opts.source) fields.push({ name: "📍 Fuente", value: opts.source, inline: true });
+  if (opts.email) fields.push({ name: "Email", value: opts.email, inline: true });
+  if (opts.source) fields.push({ name: "Fuente", value: opts.source, inline: true });
 
   _send("consentimientos", {
     title,
@@ -708,7 +666,7 @@ export function notifyConsent(opts: {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// ERRORES CRÍTICOS (canal dedicado con fallback a registros)
+// ERRORES CRITICOS (canal dedicado con fallback a registros)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 export function notifyCriticalError(opts: {
@@ -721,24 +679,24 @@ export function notifyCriticalError(opts: {
   stack?: string | null;
 }): void {
   const fields: EmbedField[] = [
-    { name: "⚙️ Contexto",   value: opts.context,                   inline: true },
-    { name: "🏷️ Código",     value: opts.code || "SERVER_ERROR",    inline: true },
+    { name: "Contexto",   value: opts.context,                   inline: true },
+    { name: "Codigo",     value: opts.code || "SERVER_ERROR",    inline: true },
   ];
 
-  if (opts.method) fields.push({ name: "📡 Método", value: opts.method, inline: true });
-  if (opts.path) fields.push({ name: "📄 Ruta", value: `\`${opts.path.slice(0, 200)}\``, inline: true });
-  if (opts.statusCode) fields.push({ name: "🔢 Status", value: String(opts.statusCode), inline: true });
+  if (opts.method) fields.push({ name: "Metodo", value: opts.method, inline: true });
+  if (opts.path) fields.push({ name: "Ruta", value: `\`${opts.path.slice(0, 200)}\``, inline: true });
+  if (opts.statusCode) fields.push({ name: "Status", value: String(opts.statusCode), inline: true });
 
   fields.push(divider());
-  fields.push({ name: "💬 Mensaje de error", value: `\`\`\`${opts.message.slice(0, 800)}\`\`\`` });
+  fields.push({ name: "Mensaje de error", value: `\`\`\`${opts.message.slice(0, 800)}\`\`\`` });
 
   if (opts.stack && process.env.NODE_ENV !== "production") {
-    fields.push({ name: "📜 Stack trace", value: `\`\`\`${opts.stack.slice(0, 600)}\`\`\`` });
+    fields.push({ name: "Stack trace", value: `\`\`\`${opts.stack.slice(0, 600)}\`\`\`` });
   }
 
   _send("errores", {
-    title: "🚨 Error crítico del servidor",
-    description: `Se ha producido un error en **${opts.context}**. Requiere atención inmediata.`,
+    title: "Error critico del servidor",
+    description: `Se ha producido un error en **${opts.context}**. Requiere atencion inmediata.`,
     color: COLOR.RED_INTENSE,
     fields,
     author: makeAuthor(),

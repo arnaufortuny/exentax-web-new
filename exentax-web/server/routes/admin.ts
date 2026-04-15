@@ -3,14 +3,14 @@ import crypto from "crypto";
 import { z } from "zod";
 import { logger } from "../logger";
 import {
-  getAgendaById, updateAgenda, isSlotBooked,
+  getAgendaById, updateAgenda, isSlotBooked, getBlockedDay,
 } from "../storage";
 import {
   sendBookingConfirmation, sendCancellationEmail,
   sendRescheduleConfirmation, sendNoShowRescheduleEmail,
 } from "../email";
 import {
-  AGENDA_STATUSES, isCancelledStatus, SITE_URL,
+  AGENDA_STATUSES, isCancelledStatus, SITE_URL, todayMadridISO,
 } from "../server-constants";
 import {
   generateTimeSlots, getEndTime, isWeekday,
@@ -105,8 +105,10 @@ export function registerAdminRoutes(app: Express) {
     const { date, startTime } = parsed.data;
 
     if (!isWeekday(date)) return apiFail(res, 400, "Solo días laborables", "INVALID_DATE");
-    const today = new Date().toISOString().slice(0, 10);
-    if (date < today) return apiFail(res, 400, "No se puede reagendar a una fecha pasada", "PAST_DATE");
+    const todayStr = todayMadridISO();
+    if (date < todayStr) return apiFail(res, 400, "No se puede reagendar a una fecha pasada", "PAST_DATE");
+    const blockedDay = await getBlockedDay(date);
+    if (blockedDay) return apiFail(res, 400, "Día bloqueado", "BLOCKED_DATE");
     const endTime = getEndTime(startTime);
     const validSlots = generateTimeSlots();
     if (!validSlots.includes(startTime)) return apiFail(res, 400, "Horario no válido", "INVALID_TIME");

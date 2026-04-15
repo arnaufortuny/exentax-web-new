@@ -323,10 +323,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (!bookingId || !token || token.length > 150 || bookingId.length > 100) return apiFail(res, 400, backendLabel("missingBookingIdOrToken", resolveRequestLang(req)), "MISSING_PARAMS");
     const row = await getAgendaByIdAndToken(bookingId, token);
     if (!row) return apiNotFound(res, "bookingNotFound");
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const meetingDate = row.meetingDate ? new Date(row.meetingDate + "T12:00:00") : null;
-    const isPast = meetingDate ? meetingDate < today : false;
+    const todayStr = todayMadridISO();
+    const isPast = row.meetingDate ? row.meetingDate < todayStr : false;
     return apiOk(res, {
       id: row.id,
       nombre: row.name || "",
