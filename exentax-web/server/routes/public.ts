@@ -301,7 +301,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         });
 
         notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, email, phone, date, startTime, endTime, meetLink, language, ip });
-        sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: "Pendiente", meetLink });
+        sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDIENTE, meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
           logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip });
           sheetsLogConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion });
@@ -332,7 +332,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       horaInicio: row.startTime || "",
       horaFin: row.endTime || "",
       googleMeet: row.googleMeet || null,
-      estado: row.status || "Pendiente",
+      estado: row.status || AGENDA_STATUSES.PENDIENTE,
       isPast,
     });
   }));

@@ -86,11 +86,6 @@ interface EmailTranslations {
     signOff: string;
     unsubNote: string;
   };
-  newsletter: {
-    signOff: string;
-    unsubNote: string;
-    unsubLabel: string;
-  };
   dateFormatter: (dateStr: string) => string;
   currencyFormatter: (amount: number) => string;
 }
@@ -173,11 +168,6 @@ const translations: Record<Lang, EmailTranslations> = {
       signOff: "Seguimos aquí cuando lo necesites",
       unsubNote: "Has recibido este email porque cancelaste una asesoría en exentax.com.",
     },
-    newsletter: {
-      signOff: "El equipo de Exentax",
-      unsubNote: "Recibes este email porque te suscribiste a las novedades de Exentax.",
-      unsubLabel: "Cancelar suscripción",
-    },
     dateFormatter: formatDateEs,
     currencyFormatter: (amount) => new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -257,11 +247,6 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaRebook: "Book new appointment",
       signOff: "We're here whenever you need us",
       unsubNote: "You received this email because you cancelled a consultation at exentax.com.",
-    },
-    newsletter: {
-      signOff: "The Exentax Team",
-      unsubNote: "You received this email because you subscribed to Exentax updates.",
-      unsubLabel: "Unsubscribe",
     },
     dateFormatter: formatDateEn,
     currencyFormatter: (amount) => new Intl.NumberFormat("en-US", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -343,11 +328,6 @@ const translations: Record<Lang, EmailTranslations> = {
       signOff: "Nous sommes là quand vous en avez besoin",
       unsubNote: "Vous avez reçu cet email car vous avez annulé une consultation sur exentax.com.",
     },
-    newsletter: {
-      signOff: "L'équipe Exentax",
-      unsubNote: "Vous recevez cet email car vous êtes abonné(e) aux nouveautés Exentax.",
-      unsubLabel: "Se désabonner",
-    },
     dateFormatter: formatDateFr,
     currencyFormatter: (amount) => new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -427,11 +407,6 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaRebook: "Neuen Termin buchen",
       signOff: "Wir sind für Sie da, wenn Sie uns brauchen",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie eine Beratung auf exentax.com storniert haben.",
-    },
-    newsletter: {
-      signOff: "Das Exentax-Team",
-      unsubNote: "Sie erhalten diese E-Mail, weil Sie die Exentax-Neuigkeiten abonniert haben.",
-      unsubLabel: "Abbestellen",
     },
     dateFormatter: formatDateDe,
     currencyFormatter: (amount) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -513,11 +488,6 @@ const translations: Record<Lang, EmailTranslations> = {
       signOff: "Estamos aqui quando precisar",
       unsubNote: "Recebeu este email porque cancelou uma consulta em exentax.com.",
     },
-    newsletter: {
-      signOff: "A equipa Exentax",
-      unsubNote: "Recebe este email porque subscreveu as novidades da Exentax.",
-      unsubLabel: "Cancelar subscrição",
-    },
     dateFormatter: formatDatePt,
     currencyFormatter: (amount) => new Intl.NumberFormat("pt-PT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -597,11 +567,6 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaRebook: "Reservar nova cita",
       signOff: "Seguim aquí quan ho necessitis",
       unsubNote: "Has rebut aquest email perquè has cancel·lat una assessoria a exentax.com.",
-    },
-    newsletter: {
-      signOff: "L'equip d'Exentax",
-      unsubNote: "Reps aquest email perquè et vas subscriure a les novetats d'Exentax.",
-      unsubLabel: "Cancel·lar subscripció",
     },
     dateFormatter: formatDateCa,
     currencyFormatter: (amount) => new Intl.NumberFormat("ca-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),

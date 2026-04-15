@@ -32,6 +32,7 @@ export const INSTAGRAM_URL = process.env.INSTAGRAM_URL || "https://www.instagram
 export const TIKTOK_URL = process.env.TIKTOK_URL || "https://www.tiktok.com/@exentax";
 export const YOUTUBE_URL = process.env.YOUTUBE_URL || "https://youtube.com/@exentax";
 export const FACEBOOK_URL = process.env.FACEBOOK_URL || "https://www.facebook.com/share/1Auhteo8Ad/?mibextid=wwXIfr";
+export const LINKEDIN_URL = process.env.LINKEDIN_URL || "https://www.linkedin.com/company/exentax";
 export const DEFAULT_TIMEZONE = "Europe/Madrid";
 export const DATE_LOCALE_ISO = "en-CA";
 export const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "arnau@exentax.com";

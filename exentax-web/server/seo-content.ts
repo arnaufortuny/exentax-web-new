@@ -1,4 +1,4 @@
-import { SITE_URL, type SupportedLang } from "./server-constants";
+import { SITE_URL, BRAND_NAME, LEGAL_EMAIL, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, type SupportedLang } from "./server-constants";
 import { ROUTE_SLUGS, ALL_ROUTE_KEYS, getLocalizedPath, type RouteKey } from "./route-slugs";
 const BASE_URL = SITE_URL.replace(/\/+$/, "");
 
@@ -1474,18 +1474,18 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Exentax",
+      "name": BRAND_NAME,
       "alternateName": "Exentax LLC",
-      "url": "https://exentax.com",
+      "url": BASE_URL,
       "logo": {
         "@type": "ImageObject",
-        "url": "https://exentax.com/icon-192.png",
+        "url": `${BASE_URL}/icon-192.png`,
         "width": 192,
         "height": 192
       },
-      "image": "https://exentax.com/og-image.png",
+      "image": `${BASE_URL}/og-image.png`,
       "description": "Constitución y gestión de LLC en Estados Unidos para autónomos, freelancers y emprendedores digitales. Optimización fiscal legal e internacional.",
-      "email": "legal@exentax.com",
+      "email": LEGAL_EMAIL,
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "1209 Mountain Road Place Northeast, STE R",
@@ -1495,9 +1495,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "addressCountry": "US"
       },
       "sameAs": [
-        "https://www.instagram.com/exentax",
-        "https://www.tiktok.com/@exentax",
-        "https://www.linkedin.com/company/exentax"
+        INSTAGRAM_URL,
+        TIKTOK_URL,
+        LINKEDIN_URL
       ],
       "foundingDate": "2024",
       "legalName": "Exentax LLC",
@@ -1525,7 +1525,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL }
       ]
     }
   ],
@@ -1534,8 +1534,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Sobre las LLC", "item": "https://exentax.com/sobre-las-llc" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Sobre las LLC", "item": `${BASE_URL}/sobre-las-llc` }
       ]
     },
     {
@@ -1543,12 +1543,12 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "LLC en Estados Unidos para no residentes — Guía completa 2026",
       "description": "Todo lo que necesitas saber sobre LLC en EE.UU.: ventajas fiscales, mejores estados, proceso de constitución paso a paso y obligaciones fiscales anuales.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/sobre-las-llc",
+      "mainEntityOfPage": `${BASE_URL}/sobre-las-llc`,
       "inLanguage": "es",
       "about": [
         { "@type": "Thing", "name": "LLC en Estados Unidos" },
@@ -1568,8 +1568,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Así Trabajamos", "item": "https://exentax.com/como-trabajamos" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Así Trabajamos", "item": `${BASE_URL}/como-trabajamos` }
       ]
     },
     {
@@ -1577,7 +1577,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "HowTo",
       "name": "Cómo constituir una LLC en Estados Unidos desde el extranjero",
       "description": "Proceso paso a paso de Exentax para constituir y gestionar tu LLC americana: desde el diagnóstico fiscal estratégico hasta el compliance anual.",
-      "image": "https://exentax.com/og-image.png",
+      "image": `${BASE_URL}/og-image.png`,
       "totalTime": "P30D",
       "estimatedCost": { "@type": "MonetaryAmount", "currency": "EUR", "value": "0" },
       "supply": [
@@ -1595,28 +1595,28 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
           "position": 1,
           "name": "Diagnóstico Fiscal Estratégico",
           "text": "Videollamada de 30 minutos donde analizamos tu situación fiscal actual, tus ingresos, tu país de residencia y tu tipo de actividad. Determinamos si una LLC americana es la mejor opción.",
-          "url": "https://exentax.com/agendar-asesoria"
+          "url": `${BASE_URL}/agendar-asesoria`
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Constitución de la LLC",
           "text": "Nos encargamos de todo: Articles of Organization, Operating Agreement, obtención del EIN ante el IRS, y designación de agente registrado. Todo 100% remoto en 2-4 semanas.",
-          "url": "https://exentax.com/sobre-las-llc"
+          "url": `${BASE_URL}/sobre-las-llc`
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Apertura de Cuentas Bancarias",
           "text": "Abrimos tu cuenta bancaria empresarial en Mercury o Relay en dólares. Configuramos Stripe y las pasarelas de pago para facturar internacionalmente.",
-          "url": "https://exentax.com/servicios"
+          "url": `${BASE_URL}/servicios`
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Compliance y Mantenimiento Anual",
           "text": "Gestión fiscal continua: Form 5472, Form 1120, BOI Report, renovación de agente registrado, Annual Report y asesoría fiscal permanente. Tu LLC siempre en regla.",
-          "url": "https://exentax.com/servicios"
+          "url": `${BASE_URL}/servicios`
         }
       ]
     }
@@ -1626,8 +1626,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Planes y Tarifas", "item": "https://exentax.com/servicios" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Planes y Tarifas", "item": `${BASE_URL}/servicios` }
       ]
     },
     {
@@ -1635,13 +1635,13 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Product",
       "name": "Constitución LLC Nuevo México",
       "description": "Constitución completa de LLC en Nuevo México. Sin Annual Report, sin impuesto estatal. Incluye Articles of Organization, Operating Agreement, EIN, agente registrado y cuenta Mercury.",
-      "brand": { "@type": "Brand", "name": "Exentax" },
+      "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": "https://exentax.com/servicios",
+        "url": `${BASE_URL}/servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Exentax" }
+        "seller": { "@type": "Organization", "name": BRAND_NAME }
       },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5" }
     },
@@ -1650,13 +1650,13 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Product",
       "name": "Constitución LLC Wyoming",
       "description": "Constitución completa de LLC en Wyoming con máxima privacidad. Sin impuesto estatal, máximo anonimato. Incluye Articles of Organization, Operating Agreement, EIN, agente registrado y cuenta Mercury.",
-      "brand": { "@type": "Brand", "name": "Exentax" },
+      "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": "https://exentax.com/servicios",
+        "url": `${BASE_URL}/servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Exentax" }
+        "seller": { "@type": "Organization", "name": BRAND_NAME }
       },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5" }
     },
@@ -1665,13 +1665,13 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Product",
       "name": "Constitución LLC Delaware",
       "description": "Constitución completa de LLC en Delaware. El mejor marco legal de EE.UU., ideal para startups e inversores. Incluye Articles of Organization, Operating Agreement, EIN, agente registrado y cuenta Mercury.",
-      "brand": { "@type": "Brand", "name": "Exentax" },
+      "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": "https://exentax.com/servicios",
+        "url": `${BASE_URL}/servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": "Exentax" }
+        "seller": { "@type": "Organization", "name": BRAND_NAME }
       },
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5" }
     },
@@ -1680,19 +1680,19 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "ProfessionalService",
       "name": "Exentax — Constitución y gestión de LLC en EE.UU.",
       "description": "Servicio integral de constitución de LLC en Estados Unidos para autónomos, freelancers y emprendedores digitales. Incluye EIN, Operating Agreement, cuenta bancaria Mercury, compliance fiscal y soporte continuo.",
-      "provider": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Constitución y gestión de LLC",
       "areaServed": "Worldwide",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Planes de constitución LLC",
         "itemListElement": [
-          { "@type": "Offer", "name": "LLC Nuevo México", "priceCurrency": "EUR", "url": "https://exentax.com/servicios" },
-          { "@type": "Offer", "name": "LLC Wyoming", "priceCurrency": "EUR", "url": "https://exentax.com/servicios" },
-          { "@type": "Offer", "name": "LLC Delaware", "priceCurrency": "EUR", "url": "https://exentax.com/servicios" }
+          { "@type": "Offer", "name": "LLC Nuevo México", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` },
+          { "@type": "Offer", "name": "LLC Wyoming", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` },
+          { "@type": "Offer", "name": "LLC Delaware", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` }
         ]
       },
-      "url": "https://exentax.com/servicios"
+      "url": `${BASE_URL}/servicios`
     }
   ],
   "faq": [
@@ -1700,8 +1700,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Preguntas Frecuentes", "item": "https://exentax.com/preguntas-frecuentes" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Preguntas Frecuentes", "item": `${BASE_URL}/preguntas-frecuentes` }
       ]
     }
   ],
@@ -1710,8 +1710,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Asesoría Fiscal Estratégica", "item": "https://exentax.com/agendar-asesoria" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Asesoría Fiscal Estratégica", "item": `${BASE_URL}/agendar-asesoria` }
       ]
     },
     {
@@ -1719,7 +1719,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Service",
       "name": "Asesoría Fiscal Estratégica — 30 Minutos",
       "description": "Videollamada de 30 minutos con un asesor fiscal de Exentax. Analizamos tu situación fiscal y te indicamos si una LLC en Estados Unidos es la mejor opción para tu negocio.",
-      "provider": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "serviceType": "Asesoría fiscal",
       "areaServed": [
         { "@type": "Country", "name": "España" },
@@ -1734,9 +1734,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "price": "50",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "url": "https://exentax.com/agendar-asesoria"
+        "url": `${BASE_URL}/agendar-asesoria`
       },
-      "termsOfService": "https://exentax.com/legal/terminos",
+      "termsOfService": `${BASE_URL}/legal/terminos`,
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceType": "Videollamada Google Meet",
@@ -1749,8 +1749,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` }
       ]
     },
     {
@@ -1758,8 +1758,8 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "CollectionPage",
       "name": "Blog — Fiscalidad internacional y LLC en Estados Unidos",
       "description": "Artículos sobre optimización fiscal, LLC en Estados Unidos, compliance y estrategias legales para freelancers y emprendedores digitales.",
-      "url": "https://exentax.com/blog",
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
+      "url": `${BASE_URL}/blog`,
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
       "inLanguage": "es"
     }
   ],
@@ -1768,9 +1768,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "LLC en Estados Unidos: guía completa", "item": "https://exentax.com/blog/llc-estados-unidos-guia-completa-2026" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "LLC en Estados Unidos: guía completa", "item": `${BASE_URL}/blog/llc-estados-unidos-guia-completa-2026` }
       ]
     },
     {
@@ -1778,12 +1778,12 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "LLC en Estados Unidos: guía completa para no residentes en 2026",
       "description": "Guía completa para constituir una LLC en EE.UU. siendo extranjero. Estados, costes, fiscalidad, errores frecuentes y cómo elegir la mejor opción.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/llc-estados-unidos-guia-completa-2026",
+      "mainEntityOfPage": `${BASE_URL}/blog/llc-estados-unidos-guia-completa-2026`,
       "inLanguage": "es",
       "articleSection": "Guías",
       "wordCount": 1200
@@ -1794,9 +1794,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Form 5472", "item": "https://exentax.com/blog/form-5472-que-es-como-presentarlo" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Form 5472", "item": `${BASE_URL}/blog/form-5472-que-es-como-presentarlo` }
       ]
     },
     {
@@ -1804,12 +1804,12 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Form 5472: qué es y cómo presentarlo correctamente",
       "description": "El Form 5472 es obligatorio para LLCs con dueños extranjeros. Aprende qué transacciones reportar, plazos de presentación y cómo cumplir sin complicaciones.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/form-5472-que-es-como-presentarlo",
+      "mainEntityOfPage": `${BASE_URL}/blog/form-5472-que-es-como-presentarlo`,
       "inLanguage": "es",
       "articleSection": "Compliance",
       "wordCount": 1100
@@ -1820,9 +1820,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Nuevo México vs Wyoming vs Delaware", "item": "https://exentax.com/blog/nuevo-mexico-vs-wyoming-vs-delaware" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Nuevo México vs Wyoming vs Delaware", "item": `${BASE_URL}/blog/nuevo-mexico-vs-wyoming-vs-delaware` }
       ]
     },
     {
@@ -1830,11 +1830,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC",
       "description": "Comparativa completa de los 3 mejores estados para constituir una LLC como no residente. Costes, privacidad, burocracia y para quién encaja cada uno.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/nuevo-mexico-vs-wyoming-vs-delaware",
+      "mainEntityOfPage": `${BASE_URL}/blog/nuevo-mexico-vs-wyoming-vs-delaware`,
       "inLanguage": "es",
       "articleSection": "Comparativas",
       "wordCount": 1000
@@ -1845,9 +1845,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "EIN: número fiscal de tu LLC", "item": "https://exentax.com/blog/ein-numero-fiscal-llc-como-obtenerlo" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "EIN: número fiscal de tu LLC", "item": `${BASE_URL}/blog/ein-numero-fiscal-llc-como-obtenerlo` }
       ]
     },
     {
@@ -1855,11 +1855,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso",
       "description": "El EIN es el número fiscal que el IRS asigna a tu LLC. Aprende cómo obtenerlo paso a paso siendo no residente, plazos, coste y errores frecuentes.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/ein-numero-fiscal-llc-como-obtenerlo",
+      "mainEntityOfPage": `${BASE_URL}/blog/ein-numero-fiscal-llc-como-obtenerlo`,
       "inLanguage": "es",
       "articleSection": "Guías",
       "wordCount": 1100
@@ -1870,9 +1870,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Cuenta Mercury para tu LLC", "item": "https://exentax.com/blog/cuenta-bancaria-mercury-llc-extranjero" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Cuenta Mercury para tu LLC", "item": `${BASE_URL}/blog/cuenta-bancaria-mercury-llc-extranjero` }
       ]
     },
     {
@@ -1880,11 +1880,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Cómo abrir una cuenta Mercury para tu LLC desde cualquier país",
       "description": "Guía paso a paso para abrir una cuenta bancaria en Mercury con tu LLC americana siendo no residente. Requisitos, plazos, documentos y alternativas.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/cuenta-bancaria-mercury-llc-extranjero",
+      "mainEntityOfPage": `${BASE_URL}/blog/cuenta-bancaria-mercury-llc-extranjero`,
       "inLanguage": "es",
       "articleSection": "Herramientas",
       "wordCount": 1200
@@ -1895,9 +1895,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Autónomo España vs LLC EE.UU.", "item": "https://exentax.com/blog/autonomo-espana-vs-llc-estados-unidos" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Autónomo España vs LLC EE.UU.", "item": `${BASE_URL}/blog/autonomo-espana-vs-llc-estados-unidos` }
       ]
     },
     {
@@ -1905,11 +1905,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa",
       "description": "Comparamos la carga fiscal de un autónomo en España (30-40%) con una LLC en Estados Unidos (hasta 0%). Números reales, ventajas y para quién tiene sentido.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/autonomo-espana-vs-llc-estados-unidos",
+      "mainEntityOfPage": `${BASE_URL}/blog/autonomo-espana-vs-llc-estados-unidos`,
       "inLanguage": "es",
       "articleSection": "Comparativas",
       "wordCount": 1400
@@ -1920,9 +1920,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "BOI Report", "item": "https://exentax.com/blog/boi-report-beneficial-ownership-llc" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "BOI Report", "item": `${BASE_URL}/blog/boi-report-beneficial-ownership-llc` }
       ]
     },
     {
@@ -1930,11 +1930,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "BOI Report: qué es el Beneficial Ownership y cómo cumplir con FinCEN",
       "description": "El BOI Report es obligatorio para todas las LLCs ante FinCEN. Plazos, sanciones por incumplimiento, cómo presentarlo y errores que debes evitar.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/boi-report-beneficial-ownership-llc",
+      "mainEntityOfPage": `${BASE_URL}/blog/boi-report-beneficial-ownership-llc`,
       "inLanguage": "es",
       "articleSection": "Compliance",
       "wordCount": 1200
@@ -1945,9 +1945,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Stripe y PayPal con LLC", "item": "https://exentax.com/blog/stripe-paypal-llc-cobrar-dolares" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Stripe y PayPal con LLC", "item": `${BASE_URL}/blog/stripe-paypal-llc-cobrar-dolares` }
       ]
     },
     {
@@ -1955,11 +1955,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Cómo cobrar en dólares con Stripe y PayPal usando tu LLC americana",
       "description": "Configura Stripe y PayPal con tu LLC americana para cobrar en dólares sin restricciones. Guía paso a paso, comisiones y comparativa con cuentas locales.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/stripe-paypal-llc-cobrar-dolares",
+      "mainEntityOfPage": `${BASE_URL}/blog/stripe-paypal-llc-cobrar-dolares`,
       "inLanguage": "es",
       "articleSection": "Herramientas",
       "wordCount": 1500
@@ -1970,9 +1970,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Impuestos clientes internacionales España", "item": "https://exentax.com/blog/impuestos-clientes-internacionales-espana" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Impuestos clientes internacionales España", "item": `${BASE_URL}/blog/impuestos-clientes-internacionales-espana` }
       ]
     },
     {
@@ -1980,12 +1980,12 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Impuestos si tienes clientes internacionales en España: lo que nadie te cuenta",
       "description": "Si facturas a clientes internacionales desde España, puedes reducir tu carga fiscal del 40% hasta un 0% legalmente. IVA, fiscalidad internacional y LLC explicados.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/impuestos-clientes-internacionales-espana",
+      "mainEntityOfPage": `${BASE_URL}/blog/impuestos-clientes-internacionales-espana`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1400
@@ -1996,9 +1996,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Pagar 0% impuestos legalmente", "item": "https://exentax.com/blog/pagar-cero-impuestos-legalmente-llc" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Pagar 0% impuestos legalmente", "item": `${BASE_URL}/blog/pagar-cero-impuestos-legalmente-llc` }
       ]
     },
     {
@@ -2006,11 +2006,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "¿Se puede pagar 0% de impuestos legalmente? La verdad sobre la optimización fiscal",
       "description": "¿Es posible pagar cero impuestos de forma legal? Analizamos los 3 escenarios reales: LLC + residencia fiscal en país sin IRPF, Ley Beckham y régimen territorial.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/pagar-cero-impuestos-legalmente-llc",
+      "mainEntityOfPage": `${BASE_URL}/blog/pagar-cero-impuestos-legalmente-llc`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1500
@@ -2021,9 +2021,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Nómada digital residencia fiscal", "item": "https://exentax.com/blog/nomada-digital-residencia-fiscal" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Nómada digital residencia fiscal", "item": `${BASE_URL}/blog/nomada-digital-residencia-fiscal` }
       ]
     },
     {
@@ -2031,11 +2031,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Nómada digital: dónde tributar y cómo elegir tu residencia fiscal",
       "description": "Guía fiscal para nómadas digitales: regla de los 183 días, mejores países para tributar y cómo cambiar tu residencia fiscal.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/nomada-digital-residencia-fiscal",
+      "mainEntityOfPage": `${BASE_URL}/blog/nomada-digital-residencia-fiscal`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1300
@@ -2046,9 +2046,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Criptomonedas y trading con LLC", "item": "https://exentax.com/blog/criptomonedas-trading-llc-impuestos" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Criptomonedas y trading con LLC", "item": `${BASE_URL}/blog/criptomonedas-trading-llc-impuestos` }
       ]
     },
     {
@@ -2056,11 +2056,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Criptomonedas y trading con LLC: fiscalidad completa para traders",
       "description": "Fiscalidad completa para traders de criptomonedas. Cómo tributar en España, ventajas de operar con LLC, Modelo 721, setup ideal y errores frecuentes.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/criptomonedas-trading-llc-impuestos",
+      "mainEntityOfPage": `${BASE_URL}/blog/criptomonedas-trading-llc-impuestos`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1200
@@ -2071,9 +2071,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "IVA servicios digitales", "item": "https://exentax.com/blog/iva-servicios-digitales-internacional" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "IVA servicios digitales", "item": `${BASE_URL}/blog/iva-servicios-digitales-internacional` }
       ]
     },
     {
@@ -2081,11 +2081,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "IVA en servicios digitales internacionales: cuándo aplica y cuándo no",
       "description": "Cuándo cobrar IVA en servicios digitales a clientes internacionales. Reglas B2B/B2C, operaciones intracomunitarias, Modelo 303/349, OSS.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/iva-servicios-digitales-internacional",
+      "mainEntityOfPage": `${BASE_URL}/blog/iva-servicios-digitales-internacional`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1200
@@ -2096,9 +2096,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Registered Agent", "item": "https://exentax.com/blog/registered-agent-que-es-por-que-necesitas" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Registered Agent", "item": `${BASE_URL}/blog/registered-agent-que-es-por-que-necesitas` }
       ]
     },
     {
@@ -2106,11 +2106,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "Registered Agent: qué es y por qué es obligatorio para tu LLC",
       "description": "El Registered Agent es obligatorio para tu LLC. Qué hace, cuánto cuesta, qué pasa sin él y cómo elegir el mejor servicio.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/registered-agent-que-es-por-que-necesitas",
+      "mainEntityOfPage": `${BASE_URL}/blog/registered-agent-que-es-por-que-necesitas`,
       "inLanguage": "es",
       "articleSection": "Guías",
       "wordCount": 900
@@ -2121,9 +2121,9 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Errores fiscales freelancers", "item": "https://exentax.com/blog/errores-fiscales-freelancers-espanoles" }
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": "Errores fiscales freelancers", "item": `${BASE_URL}/blog/errores-fiscales-freelancers-espanoles` }
       ]
     },
     {
@@ -2131,11 +2131,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "Article",
       "headline": "7 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)",
       "description": "Los 7 errores fiscales más costosos que cometen los freelancers en España. Deducciones, IVA internacional, pagos fraccionados y cómo evitar perder hasta 30.000€/año.",
-      "image": "https://exentax.com/og-image.png",
-      "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" },
-      "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } },
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
-      "mainEntityOfPage": "https://exentax.com/blog/errores-fiscales-freelancers-espanoles",
+      "mainEntityOfPage": `${BASE_URL}/blog/errores-fiscales-freelancers-espanoles`,
       "inLanguage": "es",
       "articleSection": "Fiscalidad",
       "wordCount": 1400
@@ -2143,211 +2143,211 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   ],
   "/blog/como-operar-llc-dia-a-dia": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Cómo operar tu LLC", "item": "https://exentax.com/blog/como-operar-llc-dia-a-dia" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Cómo operar tu LLC", "item": `${BASE_URL}/blog/como-operar-llc-dia-a-dia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/como-operar-llc-dia-a-dia", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo operar tu LLC en el día a día: guía práctica", "description": "Guía práctica para operar tu LLC americana: facturación, cobros, gastos, retiros y contabilidad.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/como-operar-llc-dia-a-dia`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1100 }
   ],
   "/blog/operating-agreement-llc-que-es": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Operating Agreement LLC", "item": "https://exentax.com/blog/operating-agreement-llc-que-es" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Operating Agreement LLC", "item": `${BASE_URL}/blog/operating-agreement-llc-que-es` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/operating-agreement-llc-que-es", "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Operating Agreement: qué es y por qué tu LLC lo necesita", "description": "El Operating Agreement define las reglas internas de tu LLC. Qué incluye, por qué es imprescindible y cuándo actualizarlo.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/operating-agreement-llc-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/documentos-llc-cuales-necesitas": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Documentos de tu LLC", "item": "https://exentax.com/blog/documentos-llc-cuales-necesitas" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Documentos de tu LLC", "item": `${BASE_URL}/blog/documentos-llc-cuales-necesitas` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/documentos-llc-cuales-necesitas", "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno", "description": "Articles of Organization, EIN, Operating Agreement, BOI Report... Todos los documentos de tu LLC explicados.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/documentos-llc-cuales-necesitas`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/mantenimiento-anual-llc-obligaciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Mantenimiento anual LLC", "item": "https://exentax.com/blog/mantenimiento-anual-llc-obligaciones" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Mantenimiento anual LLC", "item": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/mantenimiento-anual-llc-obligaciones", "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes", "description": "Todo lo que necesitas hacer cada año para mantener tu LLC en regla: Annual Report, Form 5472, FBAR, Registered Agent.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/mantenimiento-anual-llc-obligaciones`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1200 }
   ],
   "/blog/form-1120-5472-declaraciones-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Form 1120 y 5472", "item": "https://exentax.com/blog/form-1120-5472-declaraciones-llc" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Form 1120 y 5472", "item": `${BASE_URL}/blog/form-1120-5472-declaraciones-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Form 1120 y Form 5472: las declaraciones fiscales de tu LLC", "description": "El Form 5472 y Form 1120 son obligatorios para LLCs con propietarios extranjeros. Plazos y cómo presentarlos correctamente con Exentax.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/form-1120-5472-declaraciones-llc", "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Form 1120 y Form 5472: las declaraciones fiscales de tu LLC", "description": "El Form 5472 y Form 1120 son obligatorios para LLCs con propietarios extranjeros. Plazos y cómo presentarlos correctamente con Exentax.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/form-1120-5472-declaraciones-llc`, "inLanguage": "es", "articleSection": "Compliance", "wordCount": 1000 }
   ],
   "/blog/que-es-ach-pagos-internacionales": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Qué es ACH", "item": "https://exentax.com/blog/que-es-ach-pagos-internacionales" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Qué es ACH", "item": `${BASE_URL}/blog/que-es-ach-pagos-internacionales` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es ACH? Cómo recibir pagos en tu LLC", "description": "ACH es el sistema de transferencias bancarias de EE.UU. Cómo funciona, diferencias con Wire Transfer y cómo recibir pagos ACH en tu LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/que-es-ach-pagos-internacionales", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es ACH? Cómo recibir pagos en tu LLC", "description": "ACH es el sistema de transferencias bancarias de EE.UU. Cómo funciona, diferencias con Wire Transfer y cómo recibir pagos ACH en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-ach-pagos-internacionales`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 900 }
   ],
   "/blog/wire-transfer-llc-como-funciona": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Wire Transfer LLC", "item": "https://exentax.com/blog/wire-transfer-llc-como-funciona" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Wire Transfer LLC", "item": `${BASE_URL}/blog/wire-transfer-llc-como-funciona` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Wire Transfer: qué es y cómo enviar y recibir dinero con tu LLC", "description": "Qué es un wire transfer, cómo funciona, costes y diferencias con ACH y Wise.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/wire-transfer-llc-como-funciona", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 950 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Wire Transfer: qué es y cómo enviar y recibir dinero con tu LLC", "description": "Qué es un wire transfer, cómo funciona, costes y diferencias con ACH y Wise.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wire-transfer-llc-como-funciona`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 950 }
   ],
   "/blog/wise-business-llc-guia": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Wise Business LLC", "item": "https://exentax.com/blog/wise-business-llc-guia" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Wise Business LLC", "item": `${BASE_URL}/blog/wise-business-llc-guia` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/wise-business-llc-guia", "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Wise Business para tu LLC: guía completa", "description": "Wise Business para tu LLC: recibir pagos en múltiples divisas, convertir moneda y enviar dinero.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/wise-business-llc-guia`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1000 }
   ],
   "/blog/pasarelas-pago-llc-stripe-paypal-dodo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Pasarelas de pago LLC", "item": "https://exentax.com/blog/pasarelas-pago-llc-stripe-paypal-dodo" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Pasarelas de pago LLC", "item": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/pasarelas-pago-llc-stripe-paypal-dodo", "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas", "description": "Compara Stripe, PayPal y Dodo Payments para tu LLC americana.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/pasarelas-pago-llc-stripe-paypal-dodo`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/amazon-ecommerce-llc-vender-online": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Amazon y ecommerce con LLC", "item": "https://exentax.com/blog/amazon-ecommerce-llc-vender-online" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Amazon y ecommerce con LLC", "item": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/amazon-ecommerce-llc-vender-online", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país", "description": "Vende en Amazon, Shopify y Etsy con tu LLC americana sin restricciones.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/amazon-ecommerce-llc-vender-online`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/gastos-deducibles-llc-que-puedes-deducir": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Gastos deducibles LLC", "item": "https://exentax.com/blog/gastos-deducibles-llc-que-puedes-deducir" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Gastos deducibles LLC", "item": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/gastos-deducibles-llc-que-puedes-deducir", "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir", "description": "Guía completa de gastos deducibles en tu LLC: tecnología, servicios, marketing, viajes, formación.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/gastos-deducibles-llc-que-puedes-deducir`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
   ],
   "/blog/responsabilidades-dueno-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Responsabilidades dueño LLC", "item": "https://exentax.com/blog/responsabilidades-dueno-llc" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Responsabilidades dueño LLC", "item": `${BASE_URL}/blog/responsabilidades-dueno-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Tus responsabilidades como dueño de una LLC", "description": "Lista completa de responsabilidades como dueño de una LLC: obligaciones legales, fiscales y operativas.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/responsabilidades-dueno-llc", "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Tus responsabilidades como dueño de una LLC", "description": "Lista completa de responsabilidades como dueño de una LLC: obligaciones legales, fiscales y operativas.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/responsabilidades-dueno-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
   ],
   "/blog/residentes-no-residentes-llc-diferencias": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Residentes vs no residentes LLC", "item": "https://exentax.com/blog/residentes-no-residentes-llc-diferencias" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Residentes vs no residentes LLC", "item": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/residentes-no-residentes-llc-diferencias", "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC para residentes y no residentes de EE.UU.: diferencias clave", "description": "Las diferencias fiscales entre tener una LLC como residente y no residente de EE.UU.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/residentes-no-residentes-llc-diferencias`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/cambiar-divisas-llc-mejores-opciones": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Cambiar divisas LLC", "item": "https://exentax.com/blog/cambiar-divisas-llc-mejores-opciones" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Cambiar divisas LLC", "item": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/cambiar-divisas-llc-mejores-opciones", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo cambiar divisas en tu LLC: las mejores opciones", "description": "Compara Wise, Mercury, bancos tradicionales y PayPal para cambiar divisas en tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cambiar-divisas-llc-mejores-opciones`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/constituir-llc-proceso-paso-a-paso": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Constituir LLC paso a paso", "item": "https://exentax.com/blog/constituir-llc-proceso-paso-a-paso" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Constituir LLC paso a paso", "item": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/constituir-llc-proceso-paso-a-paso", "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Constituir tu LLC: el proceso paso a paso", "description": "El proceso completo para constituir una LLC americana como no residente: elegir estado, nombre, Registered Agent, EIN, cuenta bancaria.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/constituir-llc-proceso-paso-a-paso`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/autonomos-espana-por-que-dejar-de-serlo": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Dejar de ser autónomo en España", "item": "https://exentax.com/blog/autonomos-espana-por-que-dejar-de-serlo" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Dejar de ser autónomo en España", "item": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/autonomos-espana-por-que-dejar-de-serlo", "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)", "description": "Si eres autónomo en España y facturas al extranjero, puedes estar pagando hasta un 47%. Hay alternativas legales como la LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/autonomos-espana-por-que-dejar-de-serlo`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1100 }
   ],
   "/blog/bancos-vs-fintech-llc-donde-abrir-cuenta": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Bancos vs Fintech para LLC", "item": "https://exentax.com/blog/bancos-vs-fintech-llc-donde-abrir-cuenta" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Bancos vs Fintech para LLC", "item": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/bancos-vs-fintech-llc-donde-abrir-cuenta", "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC", "description": "Mercury, Wise, Relay y Revolut: ¿son bancos? ¿Son seguros? Diferencias entre bancos y fintech, FDIC, y cuál conviene para tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/bancos-vs-fintech-llc-donde-abrir-cuenta`, "inLanguage": "es", "articleSection": "Herramientas", "wordCount": 1100 }
   ],
   "/blog/fdic-garantia-depositos-que-es": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "FDIC garantía de depósitos", "item": "https://exentax.com/blog/fdic-garantia-depositos-que-es" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "FDIC garantía de depósitos", "item": `${BASE_URL}/blog/fdic-garantia-depositos-que-es` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el FDIC? La garantía de depósitos en Estados Unidos", "description": "El FDIC asegura tu dinero hasta $250,000 si tu banco quiebra. Cómo funciona, qué cubre y cómo afecta a tu LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/fdic-garantia-depositos-que-es", "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el FDIC? La garantía de depósitos en Estados Unidos", "description": "El FDIC asegura tu dinero hasta $250,000 si tu banco quiebra. Cómo funciona, qué cubre y cómo afecta a tu LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/fdic-garantia-depositos-que-es`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 900 }
   ],
   "/blog/tiempos-pagos-ach-wire-transfer": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Tiempos ACH y Wire Transfer", "item": "https://exentax.com/blog/tiempos-pagos-ach-wire-transfer" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Tiempos ACH y Wire Transfer", "item": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/tiempos-pagos-ach-wire-transfer", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales", "description": "Tiempos reales de pago: ACH (1-3 días), Wire doméstico (horas), Wire internacional (1-5 días), Wise (1-2 días).", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/tiempos-pagos-ach-wire-transfer`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/iban-swift-routing-number-que-son": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "IBAN, SWIFT y Routing Number", "item": "https://exentax.com/blog/iban-swift-routing-number-que-son" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "IBAN, SWIFT y Routing Number", "item": `${BASE_URL}/blog/iban-swift-routing-number-que-son` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/iban-swift-routing-number-que-son", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos", "description": "IBAN, SWIFT/BIC y Routing Number explicados: qué son, cuándo usar cada uno, qué datos dar a clientes.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/iban-swift-routing-number-que-son`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1000 }
   ],
   "/blog/cuanto-cuesta-constituir-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Cuánto cuesta constituir LLC", "item": "https://exentax.com/blog/cuanto-cuesta-constituir-llc" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Cuánto cuesta constituir LLC", "item": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming y Delaware. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/cuanto-cuesta-constituir-llc", "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Cuánto cuesta constituir una LLC? Costes reales", "description": "Costes reales de constituir una LLC en Nuevo México, Wyoming y Delaware. Filing fees, Registered Agent, EIN, mantenimiento anual.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/cuanto-cuesta-constituir-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
   "/blog/ventajas-desventajas-llc-no-residentes": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Ventajas y desventajas LLC", "item": "https://exentax.com/blog/ventajas-desventajas-llc-no-residentes" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Ventajas y desventajas LLC", "item": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/ventajas-desventajas-llc-no-residentes", "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros", "description": "Las ventajas reales (fiscalidad, protección, banca) y las desventajas reales (costes, compliance, complejidad) de una LLC.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-desventajas-llc-no-residentes`, "inLanguage": "es", "articleSection": "Comparativas", "wordCount": 1200 }
   ],
   "/blog/evitar-bloqueos-mercury-wise-revolut": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Evitar bloqueos Mercury Wise Revolut", "item": "https://exentax.com/blog/evitar-bloqueos-mercury-wise-revolut" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Evitar bloqueos Mercury Wise Revolut", "item": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/evitar-bloqueos-mercury-wise-revolut", "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business", "description": "Por qué bloquean cuentas de LLC en Mercury, Wise y Revolut. Cómo prevenirlo y qué hacer si te bloquean.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/evitar-bloqueos-mercury-wise-revolut`, "inLanguage": "es", "articleSection": "Operativa", "wordCount": 1200 }
   ],
   "/blog/que-es-irs-guia-duenos-llc": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Qué es el IRS", "item": "https://exentax.com/blog/que-es-irs-guia-duenos-llc" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Qué es el IRS", "item": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/que-es-irs-guia-duenos-llc", "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "¿Qué es el IRS? Guía completa para dueños de LLC", "description": "El IRS es la agencia tributaria de EE.UU. Qué es, qué exige a dueños de LLC, plazos, multas y cómo cumplir.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/que-es-irs-guia-duenos-llc`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1100 }
   ],
   "/blog/ventajas-fiscales-llc-clientes-internacionales": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Ventajas fiscales LLC clientes internacionales", "item": "https://exentax.com/blog/ventajas-fiscales-llc-clientes-internacionales" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "Ventajas fiscales LLC clientes internacionales", "item": `${BASE_URL}/blog/ventajas-fiscales-llc-clientes-internacionales` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas fiscales de una LLC si tienes clientes internacionales", "description": "Si tienes clientes internacionales, una LLC puede ahorrarte entre el 50% y 75% en impuestos.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/ventajas-fiscales-llc-clientes-internacionales", "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "Ventajas fiscales de una LLC si tienes clientes internacionales", "description": "Si tienes clientes internacionales, una LLC puede ahorrarte entre el 50% y 75% en impuestos.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/ventajas-fiscales-llc-clientes-internacionales`, "inLanguage": "es", "articleSection": "Fiscalidad", "wordCount": 1200 }
   ],
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": [
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://exentax.com" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://exentax.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "LLC seguridad jurídica", "item": "https://exentax.com/blog/llc-seguridad-juridica-proteccion-patrimonial" }
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+      { "@type": "ListItem", "position": 3, "name": "LLC seguridad jurídica", "item": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial` }
     ]},
-    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": "https://exentax.com/og-image.png", "author": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com" }, "publisher": { "@type": "Organization", "name": "Exentax", "url": "https://exentax.com", "logo": { "@type": "ImageObject", "url": "https://exentax.com/icon-192.png" } }, "datePublished": "2026-03-05", "mainEntityOfPage": "https://exentax.com/blog/llc-seguridad-juridica-proteccion-patrimonial", "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+    { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
 };
 

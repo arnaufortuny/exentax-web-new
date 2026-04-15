@@ -53,7 +53,7 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/storage/` — Database CRUD (scheduling.ts, marketing.ts, legal.ts, core.ts)
 - `server/field-encryption.ts` — AES-256-GCM field-level encryption for phone fields (encrypt/decrypt/encryptSensitiveFields/decryptSensitiveFields)
 - `server/circuit-breaker.ts` — Circuit breaker for external service calls (Google Calendar, Email)
-- `server/server-constants.ts` — Shared constants (langs, agenda statuses, brand info, timezone)
+- `server/server-constants.ts` — Single source of truth for all brand/URL constants (BRAND_NAME, SITE_URL, DOMAIN, social URLs, emails, langs, agenda statuses, timezone)
 - `server/route-helpers.ts` — Rate limiters (booking, calc, newsletter, public, visitor), slot locking, CSRF, utilities
 
 ### Routing & SEO Architecture

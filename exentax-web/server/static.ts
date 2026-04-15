@@ -11,7 +11,7 @@ import type { SupportedLang as RouteLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
-import { SITE_URL, SUPPORTED_LANGS } from "./server-constants";
+import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL } from "./server-constants";
 
 type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
@@ -181,8 +181,8 @@ function injectMeta(html: string, reqPath: string): string {
       `<meta property="og:type" content="article"`
     );
     const articleMeta = [
-      `<meta property="article:author" content="Exentax" />`,
-      `<meta property="article:publisher" content="https://exentax.com" />`,
+      `<meta property="article:author" content="${BRAND_NAME}" />`,
+      `<meta property="article:publisher" content="${BASE_URL}" />`,
       `<meta property="article:published_time" content="${publishedTime}" />`,
       `<meta property="article:modified_time" content="${modifiedTime}" />`,
       `<meta property="article:section" content="${section}" />`,
@@ -190,9 +190,10 @@ function injectMeta(html: string, reqPath: string): string {
       `<meta property="article:tag" content="${artI18n.tagOptimization}" />`,
       `<meta property="article:tag" content="${artI18n.tagFreelancers}" />`,
     ].join("\n    ");
+    const ogImageRegex = new RegExp(`<meta property="og:image" content="${BASE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/og-image\\.png[^"]*"`);
     html = html.replace(
-      /<meta property="og:image" content="https:\/\/exentax\.com\/og-image\.png[^"]*"/,
-      `${articleMeta}\n    <meta property="og:image" content="https://exentax.com/og-image.png"`
+      ogImageRegex,
+      `${articleMeta}\n    <meta property="og:image" content="${BASE_URL}/og-image.png"`
     );
 
     if (post) {
@@ -288,20 +289,20 @@ function injectMeta(html: string, reqPath: string): string {
     allJsonLd.push({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "name": "Exentax",
+      "name": BRAND_NAME,
       "url": BASE_URL,
       "logo": `${BASE_URL}/icon-192.png`,
       "description": "Tax consulting for freelancers, digital nomads, and entrepreneurs. US LLC creation and management, tax optimization, and fiscal compliance.",
       "areaServed": "Worldwide",
       "priceRange": "$$",
       "sameAs": [
-        "https://www.instagram.com/exentax",
-        "https://www.tiktok.com/@exentax",
-        "https://www.linkedin.com/company/exentax"
+        INSTAGRAM_URL,
+        TIKTOK_URL,
+        LINKEDIN_URL
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "hola@exentax.com",
+        "email": CONTACT_EMAIL,
         "contactType": "customer service",
         "availableLanguage": ["Spanish", "English", "French", "German", "Portuguese", "Catalan"]
       }
@@ -332,8 +333,8 @@ function injectMeta(html: string, reqPath: string): string {
           "headline": post.title,
           "description": post.metaDescription || post.excerpt,
           "image": `${BASE_URL}/og-image.png`,
-          "author": { "@type": "Organization", "name": "Exentax", "url": BASE_URL },
-          "publisher": { "@type": "Organization", "name": "Exentax", "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+          "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+          "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
           "datePublished": publishedTime,
           "dateModified": modifiedTime,
           "mainEntityOfPage": articleUrl,
