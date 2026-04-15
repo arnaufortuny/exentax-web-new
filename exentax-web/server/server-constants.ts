@@ -3,9 +3,6 @@ export type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
 export const AGENDA_STATUSES = {
   PENDIENTE: "Pendiente",
-  CONTACTADO: "Contactado",
-  EN_PROCESO: "En proceso",
-  CERRADO: "Cerrado",
   CANCELADA: "Cancelada",
   REAGENDADA: "Reagendada",
   NO_PRESENTADO: "No presentado",
@@ -26,7 +23,7 @@ export const SITE_URL = process.env.SITE_URL || "https://exentax.com";
 export const DOMAIN = process.env.DOMAIN || "exentax.com";
 export const CONTACT_EMAIL = process.env.CONTACT_EMAIL || "hola@exentax.com";
 export const LEGAL_EMAIL = process.env.LEGAL_EMAIL || "legal@exentax.com";
-export const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER || "34614916910";
+const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER || "34614916910";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const INSTAGRAM_URL = process.env.INSTAGRAM_URL || "https://www.instagram.com/exentax.global/";
 export const TIKTOK_URL = process.env.TIKTOK_URL || "https://www.tiktok.com/@exentax";
@@ -34,7 +31,7 @@ export const YOUTUBE_URL = process.env.YOUTUBE_URL || "https://youtube.com/@exen
 export const FACEBOOK_URL = process.env.FACEBOOK_URL || "https://www.facebook.com/share/1Auhteo8Ad/?mibextid=wwXIfr";
 export const LINKEDIN_URL = process.env.LINKEDIN_URL || "https://www.linkedin.com/company/exentax";
 export const DEFAULT_TIMEZONE = "Europe/Madrid";
-export const DATE_LOCALE_ISO = "en-CA";
+const DATE_LOCALE_ISO = "en-CA";
 export const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "arnau@exentax.com";
 
 export function nowMadrid(): Date {

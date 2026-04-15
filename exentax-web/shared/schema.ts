@@ -106,7 +106,6 @@ export const calculadora = pgTable("calculadora", {
 ]);
 
 export const insertCalculadoraSchema = createInsertSchema(calculadora).omit({ createdAt: true });
-export type InsertCalculadora = z.infer<typeof insertCalculadoraSchema>;
 export type Calculadora = typeof calculadora.$inferSelect;
 
 export const visitas = pgTable("visitas", {
@@ -152,7 +151,6 @@ export const newsletterSuscriptores = pgTable("newsletter_suscriptores", {
 
 export const insertNewsletterSuscriptorSchema = createInsertSchema(newsletterSuscriptores).omit({ createdAt: true });
 export type InsertNewsletterSuscriptor = z.infer<typeof insertNewsletterSuscriptorSchema>;
-export type NewsletterSuscriptor = typeof newsletterSuscriptores.$inferSelect;
 
 export const diasBloqueados = pgTable("dias_bloqueados", {
   id: varchar("id", { length: 64 }).primaryKey(),
@@ -165,8 +163,6 @@ export const diasBloqueados = pgTable("dias_bloqueados", {
 ]);
 
 export const insertDiaBloqueadoSchema = createInsertSchema(diasBloqueados).omit({ createdAt: true });
-export type InsertDiaBloqueado = z.infer<typeof insertDiaBloqueadoSchema>;
-export type DiaBloqueado = typeof diasBloqueados.$inferSelect;
 
 export const LEGAL_DOC_TYPES = ["tos", "privacy", "cookies", "disclaimer", "refund"] as const;
 export type LegalDocType = (typeof LEGAL_DOC_TYPES)[number];
@@ -209,5 +205,3 @@ export const consentLog = pgTable("consent_log", {
 ]);
 
 export const insertConsentLogSchema = createInsertSchema(consentLog).omit({ createdAt: true });
-export type InsertConsentLog = z.infer<typeof insertConsentLogSchema>;
-export type ConsentLog = typeof consentLog.$inferSelect;
