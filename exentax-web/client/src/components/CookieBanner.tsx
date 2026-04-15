@@ -122,7 +122,7 @@ export default function CookieBanner() {
                 {t("cookie.desc2")}{" "}
                 <Link href={lp("legal_cookies")} className="text-[#00E510] hover:underline font-medium">
                   {t("cookie.policyLink")}
-                </Link>
+                </Link>.
               </p>
             </div>
           </div>

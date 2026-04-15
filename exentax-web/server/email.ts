@@ -613,6 +613,61 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
   }
 }
 
+interface NoShowEmailData {
+  clientName: string;
+  clientEmail: string;
+  language?: string | null;
+}
+
+export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
+  const lang = resolveEmailLang(data.language);
+  const t = getEmailTranslations(lang);
+  const ns = t.noShow;
+  const gmail = getGmailClient();
+  const firstName = escapeHtml(data.clientName.split(" ")[0]);
+
+  const clientBody = `
+    ${heading(ns.heading(firstName))}
+
+    ${bodyText(ns.intro)}
+
+    ${bodyText(ns.understandNote)}
+
+    ${divider()}
+
+    ${bodyText(ns.rebookIntro)}
+
+    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ns.ctaRebook)}
+
+    ${bodyText(ns.sessionDesc)}
+
+    ${divider()}
+
+    ${bodyText(`${ns.whatsappIntro} <a href="${WHATSAPP_URL}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">WhatsApp</a>`)}
+
+    ${brandSignature(lang, ns.closing)}
+    ${unsubNote(ns.unsubNote)}
+  `;
+
+  const subject = ns.subject;
+  const html = emailHtml(clientBody, subject, lang);
+
+  if (gmail) {
+    try {
+      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      logger.info(`No-show reschedule sent → ${data.clientEmail}`, "email");
+      logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+    } catch (err) {
+      logger.error("No-show reschedule send failed:", "email", err);
+      logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
+      throw err;
+    }
+  } else {
+    logger.debug("NO-SHOW (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>` }), "email");
+    logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+  }
+}
+
 interface FollowupStepsEmailData {
   clientName: string;
   clientEmail: string;

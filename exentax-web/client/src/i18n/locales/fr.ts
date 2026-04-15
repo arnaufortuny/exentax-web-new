@@ -857,8 +857,8 @@ const fr = {
   },
   cookie: {
     title: "Votre vie privée est importante",
-    desc: "Chez Exentax, nous utilisons des cookies techniques nécessaires pour garantir le bon fonctionnement de la plateforme, ainsi que des cookies d'analyse pour améliorer en permanence les performances et l'expérience utilisateur.",
-    desc2: "Vous pouvez accepter tous les cookies ou gérer vos préférences à tout moment.",
+    desc: "Chez Exentax, nous utilisons des cookies essentiels pour garantir le bon fonctionnement et la sécurité de la plateforme. Nous utilisons également des cookies d'analyse pour mieux comprendre l'utilisation de la plateforme et perfectionner en continu les performances et l'expérience utilisateur.",
+    desc2: "Vous gardez le contrôle total et pouvez accepter ou ajuster vos préférences à tout moment. Pour plus de détails, consultez notre",
     policyLink: "Politique de cookies",
     acceptAll: "Tout accepter",
     essentialOnly: "Essentiels uniquement",

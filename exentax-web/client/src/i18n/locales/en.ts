@@ -856,9 +856,9 @@ const en = {
   },
   cookie: {
     title: "Your privacy matters",
-    desc: "At Exentax we use necessary technical cookies to ensure the proper functioning of the platform, as well as analytics cookies to continuously improve performance and user experience.",
-    desc2: "You can accept all cookies or manage your preferences at any time.",
-    policyLink: "Cookie policy",
+    desc: "At Exentax, we use essential cookies to guarantee the proper and secure functioning of the platform. We also rely on analytics cookies to better understand how the platform is used and to continuously refine performance and user experience.",
+    desc2: "You remain in full control and can accept or adjust your preferences at any time. For further details, please see our",
+    policyLink: "Cookie Policy",
     acceptAll: "Accept all",
     essentialOnly: "Essential only",
     customize: "Customize",

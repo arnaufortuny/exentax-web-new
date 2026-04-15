@@ -130,6 +130,18 @@ interface EmailTranslations {
     ifFitsNote: string;
     unsubNote: string;
   };
+  noShow: {
+    subject: string;
+    heading: (name: string) => string;
+    intro: string;
+    understandNote: string;
+    rebookIntro: string;
+    ctaRebook: string;
+    sessionDesc: string;
+    whatsappIntro: string;
+    closing: string;
+    unsubNote: string;
+  };
   dateFormatter: (dateStr: string) => string;
   currencyFormatter: (amount: number) => string;
 }
@@ -290,6 +302,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaBookingLabel: "Reservar asesoría",
       notForEveryone: "No es para todo el mundo.",
       ifFitsNote: "Pero si encaja, conviene hacerlo bien desde el inicio.",
+      unsubNote: "Has recibido este email porque contactaste con exentax.com.",
+    },
+    noShow: {
+      subject: "No hemos podido coincidir hoy",
+      heading: (name: string) => `Hola ${name},`,
+      intro: "Hoy teníamos prevista tu asesoría, pero no hemos podido coincidir.",
+      understandNote: "Entendemos perfectamente que a veces surgen imprevistos.",
+      rebookIntro: "Si sigues valorando estructurar bien tu situación, puedes reagendar fácilmente desde aquí:",
+      ctaRebook: "Reagendar asesoría",
+      sessionDesc: "La idea de esta asesoría es ir al punto y ver, con criterio, si tiene sentido hacer algo en tu caso, cómo plantearlo y qué conviene evitar desde el inicio.",
+      whatsappIntro: "Si prefieres comentarlo antes de volver a reservar, también puedes escribirnos directamente por WhatsApp:",
+      closing: "Quedamos atentos.",
       unsubNote: "Has recibido este email porque contactaste con exentax.com.",
     },
     dateFormatter: formatDateEs,
@@ -453,6 +477,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ifFitsNote: "But if it fits, it's worth doing it right from the start.",
       unsubNote: "You received this email because you contacted exentax.com.",
     },
+    noShow: {
+      subject: "We couldn't connect today",
+      heading: (name: string) => `Hi ${name},`,
+      intro: "We had your consultation scheduled for today, but we weren't able to connect.",
+      understandNote: "We completely understand that things come up unexpectedly.",
+      rebookIntro: "If you're still looking to structure your situation properly, you can easily reschedule from here:",
+      ctaRebook: "Reschedule consultation",
+      sessionDesc: "The goal of this session is to get straight to the point and assess, with clear criteria, whether it makes sense to take action in your case, how to approach it, and what to avoid from the start.",
+      whatsappIntro: "If you'd prefer to discuss it before rebooking, you can also reach us directly on WhatsApp:",
+      closing: "We'll be here.",
+      unsubNote: "You received this email because you contacted exentax.com.",
+    },
     dateFormatter: formatDateEn,
     currencyFormatter: (amount) => new Intl.NumberFormat("en-US", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -612,6 +648,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaBookingLabel: "Réserver une consultation",
       notForEveryone: "Ce n'est pas pour tout le monde.",
       ifFitsNote: "Mais si cela correspond, mieux vaut bien faire dès le départ.",
+      unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
+    },
+    noShow: {
+      subject: "Nous n'avons pas pu nous retrouver aujourd'hui",
+      heading: (name: string) => `Bonjour ${name},`,
+      intro: "Votre consultation était prévue aujourd'hui, mais nous n'avons pas pu nous connecter.",
+      understandNote: "Nous comprenons parfaitement que des imprévus peuvent survenir.",
+      rebookIntro: "Si vous souhaitez toujours structurer votre situation correctement, vous pouvez facilement reprogrammer depuis ici :",
+      ctaRebook: "Reprogrammer la consultation",
+      sessionDesc: "L'objectif de cette consultation est d'aller à l'essentiel et d'évaluer, avec rigueur, s'il est pertinent d'agir dans votre cas, comment l'aborder et ce qu'il convient d'éviter dès le départ.",
+      whatsappIntro: "Si vous préférez en discuter avant de réserver à nouveau, vous pouvez aussi nous écrire directement sur WhatsApp :",
+      closing: "Nous restons à votre disposition.",
       unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
     },
     dateFormatter: formatDateFr,
@@ -775,6 +823,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ifFitsNote: "Aber wenn es passt, lohnt es sich, es von Anfang an richtig zu machen.",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
     },
+    noShow: {
+      subject: "Wir konnten uns heute nicht treffen",
+      heading: (name: string) => `Hallo ${name},`,
+      intro: "Ihre Beratung war für heute geplant, aber wir konnten leider keine Verbindung herstellen.",
+      understandNote: "Wir verstehen vollkommen, dass manchmal unvorhergesehene Dinge dazwischenkommen.",
+      rebookIntro: "Wenn Sie weiterhin daran interessiert sind, Ihre Situation ordentlich zu strukturieren, können Sie hier ganz einfach einen neuen Termin vereinbaren:",
+      ctaRebook: "Beratung neu planen",
+      sessionDesc: "Das Ziel dieser Beratung ist es, direkt auf den Punkt zu kommen und mit klaren Kriterien zu prüfen, ob in Ihrem Fall Handlungsbedarf besteht, wie Sie vorgehen sollten und was Sie von Anfang an vermeiden sollten.",
+      whatsappIntro: "Wenn Sie es lieber vorher besprechen möchten, bevor Sie erneut buchen, können Sie uns auch direkt über WhatsApp erreichen:",
+      closing: "Wir sind für Sie da.",
+      unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
+    },
     dateFormatter: formatDateDe,
     currencyFormatter: (amount) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -936,6 +996,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ifFitsNote: "Mas se encaixar, vale a pena fazer bem desde o início.",
       unsubNote: "Recebeu este email porque contactou exentax.com.",
     },
+    noShow: {
+      subject: "Não conseguimos nos encontrar hoje",
+      heading: (name: string) => `Olá ${name},`,
+      intro: "A sua consulta estava agendada para hoje, mas não conseguimos nos conectar.",
+      understandNote: "Compreendemos perfeitamente que por vezes surgem imprevistos.",
+      rebookIntro: "Se continua a considerar estruturar bem a sua situação, pode reagendar facilmente a partir daqui:",
+      ctaRebook: "Reagendar consulta",
+      sessionDesc: "O objetivo desta consulta é ir diretamente ao ponto e avaliar, com critério, se faz sentido agir no seu caso, como abordar e o que convém evitar desde o início.",
+      whatsappIntro: "Se preferir conversar antes de voltar a reservar, também pode escrever-nos diretamente pelo WhatsApp:",
+      closing: "Ficamos atentos.",
+      unsubNote: "Recebeu este email porque contactou exentax.com.",
+    },
     dateFormatter: formatDatePt,
     currencyFormatter: (amount) => new Intl.NumberFormat("pt-PT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -1095,6 +1167,18 @@ const translations: Record<Lang, EmailTranslations> = {
       ctaBookingLabel: "Reservar assessoria",
       notForEveryone: "No és per a tothom.",
       ifFitsNote: "Però si encaixa, val la pena fer-ho bé des de l'inici.",
+      unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
+    },
+    noShow: {
+      subject: "No hem pogut coincidir avui",
+      heading: (name: string) => `Hola ${name},`,
+      intro: "Avui teníem prevista la teva assessoria, però no hem pogut coincidir.",
+      understandNote: "Entenem perfectament que de vegades sorgeixen imprevistos.",
+      rebookIntro: "Si segueixes valorant estructurar bé la teva situació, pots reagendar fàcilment des d'aquí:",
+      ctaRebook: "Reagendar assessoria",
+      sessionDesc: "La idea d'aquesta assessoria és anar al punt i veure, amb criteri, si té sentit fer alguna cosa en el teu cas, com plantejar-ho i què convé evitar des de l'inici.",
+      whatsappIntro: "Si prefereixes comentar-ho abans de tornar a reservar, també pots escriure'ns directament per WhatsApp:",
+      closing: "Quedem atents.",
       unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
     },
     dateFormatter: formatDateCa,

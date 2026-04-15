@@ -861,8 +861,8 @@ const ca = {
   },
   cookie: {
     title: "La teva privacitat és important",
-    desc: "A Exentax utilitzem cookies tècniques necessàries per garantir el correcte funcionament de la plataforma, així com cookies d'analítica per millorar contínuament el rendiment i l'experiència d'usuari.",
-    desc2: "Pots acceptar totes les cookies o gestionar les teves preferències en qualsevol moment.",
+    desc: "A Exentax utilitzem cookies essencials per garantir el correcte i segur funcionament de la plataforma. També utilitzem cookies d'analítica per comprendre millor com s'utilitza la plataforma i perfeccionar contínuament el rendiment i l'experiència d'usuari.",
+    desc2: "Mantens el control total i pots acceptar o ajustar les teves preferències en qualsevol moment. Per a més informació, consulta la nostra",
     policyLink: "Política de galetes",
     acceptAll: "Acceptar totes",
     essentialOnly: "Només essencials",

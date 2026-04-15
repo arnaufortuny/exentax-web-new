@@ -856,8 +856,8 @@ const es = {
  },
  cookie: {
  title:"Tu privacidad es importante",
- desc:"En Exentax utilizamos cookies técnicas necesarias para garantizar el correcto funcionamiento de la plataforma, así como cookies de analítica para mejorar continuamente el rendimiento y la experiencia de usuario.",
- desc2:"Puedes aceptar todas las cookies o gestionar tus preferencias en cualquier momento.",
+ desc:"En Exentax utilizamos cookies esenciales para garantizar el correcto y seguro funcionamiento de la plataforma. También utilizamos cookies de analítica para comprender mejor cómo se utiliza la plataforma y perfeccionar continuamente el rendimiento y la experiencia de usuario.",
+ desc2:"Mantienes el control total y puedes aceptar o ajustar tus preferencias en cualquier momento. Para más información, consulta nuestra",
  policyLink:"Política de cookies",
  acceptAll:"Aceptar todas",
  essentialOnly:"Solo esenciales",
