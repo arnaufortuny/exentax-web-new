@@ -259,6 +259,7 @@ function injectMeta(html: string, reqPath: string): string {
     faq: "/preguntas-frecuentes",
     book: "/agendar-asesoria",
   };
+  const resolvedRoute = resolveServerRoute(cleanPath);
   const oldPathKey = resolvedRoute ? OLD_PATH_MAP[resolvedRoute.key] : undefined;
 
   let seoContent = PAGE_SEO_CONTENT[cleanPath] || (oldPathKey ? PAGE_SEO_CONTENT[oldPathKey] : undefined);
@@ -284,7 +285,6 @@ function injectMeta(html: string, reqPath: string): string {
 
   const allJsonLd: any[] = [];
 
-  const resolvedRoute = resolveServerRoute(cleanPath);
   if (resolvedRoute?.key === "faq") {
     allJsonLd.push({
       "@context": "https://schema.org",
