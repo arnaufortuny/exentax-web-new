@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 import { CONTACT } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
+import { getLocalizedPath, type SupportedLang } from "@/lib/routes";
 import Hero from "@/components/sections/Hero";
 import BanksCarousel from "@/components/sections/BanksCarousel";
 import Problem from "@/components/sections/Problem";
@@ -15,12 +16,14 @@ import HomeFAQ from "@/components/sections/HomeFAQ";
 
 function useHomeJsonLd(t: (key: string) => string, lang: string) {
   const S = CONTACT.SITE_URL;
+  const l = lang as SupportedLang;
+  const lp = (key: Parameters<typeof getLocalizedPath>[0]) => `${S}${getLocalizedPath(key, l)}`;
   return [
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "@id": `${S}/#webpage`,
-      "url": S,
+      "url": lp("home"),
       "name": t("homePage.jsonLd.webPageName"),
       "description": t("homePage.jsonLd.webPageDesc"),
       "isPartOf": { "@id": `${S}/#website` },
@@ -31,10 +34,10 @@ function useHomeJsonLd(t: (key: string) => string, lang: string) {
         "cssSelector": ["h1", "h2", ".hero-desc", "p"],
       },
       "significantLink": [
-        `${S}/servicios`,
-        `${S}/agendar-asesoria`,
-        `${S}/sobre-las-llc`,
-        `${S}/como-trabajamos`,
+        lp("our_services"),
+        lp("book"),
+        lp("about_llc"),
+        lp("how_we_work"),
       ],
     },
     {
@@ -44,9 +47,9 @@ function useHomeJsonLd(t: (key: string) => string, lang: string) {
       "description": t("homePage.jsonLd.itemListDesc"),
       "numberOfItems": 3,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": t("homePage.jsonLd.service1"), "url": `${S}/servicios` },
-        { "@type": "ListItem", "position": 2, "name": t("homePage.jsonLd.service2"), "url": `${S}/servicios` },
-        { "@type": "ListItem", "position": 3, "name": t("homePage.jsonLd.service3"), "url": `${S}/servicios` },
+        { "@type": "ListItem", "position": 1, "name": t("homePage.jsonLd.service1"), "url": lp("our_services") },
+        { "@type": "ListItem", "position": 2, "name": t("homePage.jsonLd.service2"), "url": lp("our_services") },
+        { "@type": "ListItem", "position": 3, "name": t("homePage.jsonLd.service3"), "url": lp("our_services") },
       ],
     },
   ];

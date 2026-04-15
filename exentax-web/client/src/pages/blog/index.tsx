@@ -8,7 +8,7 @@ import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
 import { BRAND } from "@/lib/constants";
 
 const LANG_LOCALE_MAP: Record<string, string> = {
-  es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", it: "it-IT", pt: "pt-PT", ca: "ca-ES",
+  es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", pt: "pt-PT", ca: "ca-ES",
 };
 
 function ComplianceIcon() {

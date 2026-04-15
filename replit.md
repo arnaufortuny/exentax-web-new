@@ -56,12 +56,23 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/server-constants.ts` — Shared constants (langs, agenda statuses, brand info, timezone)
 - `server/route-helpers.ts` — Rate limiters (booking, calc, newsletter, public, visitor), slot locking, CSRF, utilities
 
+### Routing & SEO Architecture
+- **Centralized route definitions**: `client/src/lib/routes.ts` (client) and `server/route-slugs.ts` (server) define localized slugs per route key per language (es/en/fr/de/pt/ca).
+- **Route keys**: `home`, `our_services`, `how_we_work`, `faq`, `book`, `about_llc`, `legal_terms`, `legal_privacy`, `legal_cookies`, `legal_refunds`, `legal_disclaimer`, `links`, `start`, `booking`.
+- **`useLangPath` hook**: Accepts route keys or `/blog` paths, returns localized `/:lang/slug` paths for navigation.
+- **`getLocalizedPath(key, lang)`**: Pure function for building localized paths (used in JSON-LD, sitemap, etc.).
+- **SEO pre-rendering**: `server/static.ts` injects `PAGE_META` (title/desc/keywords) and `PAGE_SEO_CONTENT` (hidden HTML for crawlers) into the HTML shell. `OLD_PATH_MAP` bridges route keys to legacy Spanish path keys used as `PAGE_SEO_CONTENT` lookup keys.
+- **Sitemap**: Generated dynamically by `server/routes/public.ts` with full `hreflang` alternates for all 6 languages, including blog posts.
+- **robots.txt**: Generated dynamically by server (no static file in `client/public/`).
+- **Legacy redirects**: Client-side redirects in `App.tsx` catch old Spanish-only paths (`/servicios` → `/es/nuestros-servicios`, etc.) for SPA navigation.
+
 ### Key Frontend Files
-- `client/src/App.tsx` — Public-only routes
+- `client/src/App.tsx` — Public-only routes with lazy loading and legacy redirects
 - `client/src/pages/` — Landing pages, booking, legal, blog
 - `client/src/components/layout/Navbar.tsx` — Public navbar (no client area)
 - `client/src/components/icons.tsx` — Custom SVG icons (no external icon libs)
 - `client/src/i18n/` — Internationalization (6 languages)
+- `client/src/lib/routes.ts` — Centralized route key → localized slug mapping
 
 ### Integrations
 - **Discord**: Webhook notifications for bookings, calculator leads, newsletter, critical errors (privacy-masked, rate-limited queue)
