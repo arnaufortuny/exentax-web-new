@@ -17,6 +17,8 @@ import {
 import { encryptField } from "../field-encryption";
 import { sendBookingConfirmation, sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
+import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../route-slugs";
+import type { SupportedLang } from "../server-constants";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
@@ -790,31 +792,46 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const today = new Date().toISOString().slice(0, 10);
-    const pages = [
-      { loc: "/", priority: "1.0", changefreq: "weekly", lastmod: today },
-      { loc: "/sobre-las-llc", priority: "0.9", changefreq: "monthly", lastmod: today },
-      { loc: "/como-trabajamos", priority: "0.9", changefreq: "monthly", lastmod: today },
-      { loc: "/servicios", priority: "0.9", changefreq: "monthly", lastmod: today },
-      { loc: "/preguntas-frecuentes", priority: "0.8", changefreq: "monthly", lastmod: today },
-      { loc: "/agendar-asesoria", priority: "0.8", changefreq: "weekly", lastmod: today },
-      { loc: "/blog", priority: "0.8", changefreq: "weekly", lastmod: today },
-      { loc: "/legal/terminos", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
-      { loc: "/legal/privacidad", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
-      { loc: "/legal/cookies", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
-      { loc: "/legal/reembolsos", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
-      { loc: "/legal/disclaimer", priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
-    ];
+
+    const routePriority: Partial<Record<RouteKey, { priority: string; changefreq: string; lastmod: string }>> = {
+      home:             { priority: "1.0", changefreq: "weekly", lastmod: today },
+      about_llc:        { priority: "0.9", changefreq: "monthly", lastmod: today },
+      how_we_work:      { priority: "0.9", changefreq: "monthly", lastmod: today },
+      our_services:     { priority: "0.9", changefreq: "monthly", lastmod: today },
+      faq:              { priority: "0.8", changefreq: "monthly", lastmod: today },
+      book:             { priority: "0.8", changefreq: "weekly", lastmod: today },
+      legal_terms:      { priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
+      legal_privacy:    { priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
+      legal_cookies:    { priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
+      legal_refunds:    { priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
+      legal_disclaimer: { priority: "0.3", changefreq: "yearly", lastmod: "2026-03-01" },
+    };
 
     const urlParts: string[] = [];
-    for (const page of pages) {
-      const loc = page.loc === "/" ? "" : page.loc;
-      const fullLoc = `${SITE_URL}${loc}`;
-      const parts = [`  <url>\n    <loc>${fullLoc}</loc>\n    <lastmod>${page.lastmod}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n`];
-      for (const lang of SUPPORTED_LANGS) {
-        const langLoc = loc ? `/${lang}${loc}` : `/${lang}`;
-        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${SITE_URL}${langLoc}" />\n`);
+
+    for (const routeKey of ALL_ROUTE_KEYS) {
+      const meta = routePriority[routeKey];
+      if (!meta) continue;
+
+      for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
+        const loc = getLocalizedPath(routeKey, lang);
+        const parts = [`  <url>\n    <loc>${SITE_URL}${loc}</loc>\n    <lastmod>${meta.lastmod}</lastmod>\n    <changefreq>${meta.changefreq}</changefreq>\n    <priority>${meta.priority}</priority>\n`];
+        for (const altLang of SUPPORTED_LANGS as readonly SupportedLang[]) {
+          const altLoc = getLocalizedPath(routeKey, altLang);
+          parts.push(`    <xhtml:link rel="alternate" hreflang="${altLang}" href="${SITE_URL}${altLoc}" />\n`);
+        }
+        const esLoc = getLocalizedPath(routeKey, "es");
+        parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}${esLoc}" />\n  </url>\n`);
+        urlParts.push(parts.join(""));
       }
-      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${fullLoc}" />\n  </url>\n`);
+    }
+
+    for (const lang of SUPPORTED_LANGS) {
+      const parts = [`  <url>\n    <loc>${SITE_URL}/${lang}/blog</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n`];
+      for (const altLang of SUPPORTED_LANGS) {
+        parts.push(`    <xhtml:link rel="alternate" hreflang="${altLang}" href="${SITE_URL}/${altLang}/blog" />\n`);
+      }
+      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog" />\n  </url>\n`);
       urlParts.push(parts.join(""));
     }
 
@@ -861,6 +878,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Disallow: /api/",
       "Disallow: /go",
       "Disallow: /empezar",
+      "Disallow: /links",
+      "Disallow: /start",
       "Disallow: /booking/",
       "Disallow: /mi-agenda/",
       "",

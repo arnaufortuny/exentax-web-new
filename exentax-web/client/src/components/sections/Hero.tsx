@@ -52,8 +52,8 @@ export default function Hero() {
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
                 <Link
-                  href={lp("/agendar-asesoria")}
-                  onClick={() => trackCTA("hero_book_consultation", "/agendar-asesoria")}
+                  href={lp("book")}
+                  onClick={() => trackCTA("hero_book_consultation", lp("book"))}
                   className="btn-pulse inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap"
                   data-testid="button-hero-agendar"
                 >

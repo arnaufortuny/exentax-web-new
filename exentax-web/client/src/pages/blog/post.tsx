@@ -245,7 +245,7 @@ export default function BlogPost() {
 
   const localizedContent = lang !== "es" ? getLocalizedBlogContent(post.slug, lang) : undefined;
   const contentToRender = localizedContent || post.content;
-  const articleHtml = parseMarkdown(contentToRender, lp("/agendar-asesoria"));
+  const articleHtml = parseMarkdown(contentToRender, lp("book"));
   const isInSpanish = lang !== "es" && !localizedContent;
 
   const currentTranslatedSlug = getTranslatedSlug(post.slug, lang);
@@ -391,7 +391,7 @@ export default function BlogPost() {
                     {t("blogPost.ctaDesc")}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                    <Link href={lp("/agendar-asesoria")} className="inline-flex items-center justify-center whitespace-nowrap bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200" data-testid="button-post-agendar">
+                    <Link href={lp("book")} className="inline-flex items-center justify-center whitespace-nowrap bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200" data-testid="button-post-agendar">
                       {t("blogPost.ctaBook")}
                       <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </Link>

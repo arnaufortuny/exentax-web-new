@@ -476,7 +476,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
           </p>
           <div className="flex justify-center">
             <a
-              href={lp("/agendar-asesoria")}
+              href={lp("book")}
               className={`inline-flex items-center justify-center font-semibold rounded-full bg-[#00E510] text-[#0B0D0C] border border-[#00E510] shadow-[var(--shadow-green)] transition-colors ${compact ? "text-[11px] py-1.5 px-4" : "text-sm py-2.5 px-6"}`}
               data-testid="link-sin-regimen-asesoria"
             >

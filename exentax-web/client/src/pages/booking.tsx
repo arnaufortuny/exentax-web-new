@@ -196,7 +196,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
         </div>
         <h2 className="text-xl font-bold text-[var(--text-1)] mb-2">{t("agenda.cancelledTitle")}</h2>
         <p className="text-sm text-[var(--muted)]">{t("agenda.cancelledDesc")}</p>
-        <a href={lp("/agendar-asesoria")} data-testid="link-new-booking" className="mt-4 inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-base font-semibold active:scale-[0.97] transition-all" style={{ background: "#00E510", color: "#000", boxShadow: "0 8px 24px rgba(0,229,16,0.15)" }}>
+        <a href={lp("book")} data-testid="link-new-booking" className="mt-4 inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-base font-semibold active:scale-[0.97] transition-all" style={{ background: "#00E510", color: "#000", boxShadow: "0 8px 24px rgba(0,229,16,0.15)" }}>
           {t("agenda.bookNew")}
         </a>
       </div>
@@ -296,7 +296,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
         <div className="px-6 pb-6">
           <div className="bg-[var(--bg-2)] rounded-2xl p-5 text-center">
             <p className="text-sm text-[var(--muted)]">{t("agenda.pastSession")}</p>
-            <a href={lp("/agendar-asesoria")} data-testid="link-book-again" className="mt-3 inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-base font-semibold active:scale-[0.97] transition-all" style={{ background: "#00E510", color: "#000", boxShadow: "0 8px 24px rgba(0,229,16,0.15)" }}>
+            <a href={lp("book")} data-testid="link-book-again" className="mt-3 inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-base font-semibold active:scale-[0.97] transition-all" style={{ background: "#00E510", color: "#000", boxShadow: "0 8px 24px rgba(0,229,16,0.15)" }}>
               {t("agenda.bookAnother")}
             </a>
           </div>

@@ -1,9 +1,11 @@
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
+import { useLangPath } from "@/hooks/useLangPath";
 
 export default function NotFound() {
   const { t } = useTranslation();
+  const lp = useLangPath();
 
   return (
     <><SEO title={t("notFound.title")} noindex /><div className="min-h-[70vh] flex items-center justify-center px-4">
@@ -16,7 +18,7 @@ export default function NotFound() {
             {t("notFound.desc")}
           </p>
           <Link
-            href="/"
+            href={lp("home")}
             className="inline-flex items-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-7 py-3.5 rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
             data-testid="link-go-home"
           >

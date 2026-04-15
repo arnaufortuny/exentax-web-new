@@ -74,8 +74,8 @@ function ProcessHero() {
         title={t("comoFuncionaPage.seoTitle")}
         description={t("comoFuncionaPage.seoDesc")}
         keywords={t("comoFuncionaPage.seoKeywords")}
-        path="/como-trabajamos"
-        breadcrumbs={[{ name: t("nav.howWeWork"), path: "/como-trabajamos" }]}
+        path={lp("how_we_work")}
+        breadcrumbs={[{ name: t("nav.howWeWork"), path: lp("how_we_work") }]}
       />
       <section
         className="relative overflow-hidden pb-14"
@@ -98,7 +98,7 @@ function ProcessHero() {
                 {t("comoFunciona.hero.desc")}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
-                <Link href={lp("/agendar-asesoria")} className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap sm:min-w-[220px] lg:min-w-[270px]" data-testid="button-at-hero-agendar">
+                <Link href={lp("book")} className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap sm:min-w-[220px] lg:min-w-[270px]" data-testid="button-at-hero-agendar">
                   {t("comoFunciona.hero.btnAgendar")}
                   <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="ml-1 flex-shrink-0"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -221,7 +221,7 @@ function PhasesTimeline() {
             <div className="bg-[var(--bg-2)] border border-[var(--border-subtle)] rounded-2xl p-6 sm:p-8 text-center">
               <p className="text-[var(--text-2)] leading-relaxed mb-6">{t("comoFunciona.phases.phase1.cta.desc")}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link href={lp("/agendar-asesoria")} className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap" data-testid="button-at-phase1-agendar">
+                <Link href={lp("book")} className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap" data-testid="button-at-phase1-agendar">
                   {t("comoFunciona.phases.phase1.cta.btnAgendar")}
                 </Link>
                 <a href={`${CONTACT.WHATSAPP_URL}?text=${encodeURIComponent(t("comoFunciona.phases.phase1.cta.waText"))}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 border border-[#00E510]/40 hover:border-[#00E510]/70 text-[#00E510] font-body font-semibold px-8 py-3.5 text-base rounded-full transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap" data-testid="button-at-phase1-whatsapp">

@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { STORAGE_KEYS } from "@/lib/constants";
 import { CookieIcon } from "@/components/icons";
 import { LanguageService } from "@/i18n";
+import { useLangPath } from "@/hooks/useLangPath";
 const CONSENT_KEY = STORAGE_KEYS.COOKIE_CONSENT;
 
 export type CookieConsent = "all" | "essential" | null;
@@ -48,6 +49,7 @@ function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: 
 
 export default function CookieBanner() {
   const { t } = useTranslation();
+  const lp = useLangPath();
   const [visible, setVisible] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [analyticsEnabled, setAnalyticsEnabled] = useState(true);
@@ -118,7 +120,7 @@ export default function CookieBanner() {
               <p className="text-[var(--text-2)] text-sm leading-relaxed mb-2">{t("cookie.desc")}</p>
               <p className="text-[var(--text-2)] text-sm leading-relaxed">
                 {t("cookie.desc2")}{" "}
-                <Link href="/legal/cookies" className="text-[#00E510] hover:underline font-medium">
+                <Link href={lp("legal_cookies")} className="text-[#00E510] hover:underline font-medium">
                   {t("cookie.policyLink")}
                 </Link>
               </p>

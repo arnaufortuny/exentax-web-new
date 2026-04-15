@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "wouter";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
-import { getLangFromPath } from "@/hooks/useLangPath";
+import { getEquivalentPath } from "@/lib/routes";
 import FlagImg from "@/components/FlagImg";
 import { LANG_SHORT } from "@/lib/lang-utils";
 
@@ -33,18 +33,8 @@ export default function LanguageSwitcher() {
   const changeLang = useCallback((lang: SupportedLang) => {
     LanguageService.change(lang);
     setOpen(false);
-
-    const pathLang = getLangFromPath(location);
-    if (pathLang) {
-      const rest = location.replace(new RegExp(`^/${pathLang}`), "") || "/";
-      if (rest.startsWith("/blog")) {
-        setLocation(`/${lang}${rest}`, { replace: true });
-      } else {
-        setLocation(rest || "/", { replace: true });
-      }
-    } else if (location === "/blog" || location.startsWith("/blog/")) {
-      setLocation(`/${lang}${location}`, { replace: true });
-    }
+    const newPath = getEquivalentPath(location, lang);
+    setLocation(newPath, { replace: true });
   }, [location, setLocation]);
 
   return (

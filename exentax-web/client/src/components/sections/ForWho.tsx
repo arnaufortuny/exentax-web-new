@@ -130,7 +130,7 @@ export default function ForWho() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
               <Link
-                href={lp("/agendar-asesoria")}
+                href={lp("book")}
                 className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 w-full sm:w-auto"
                 data-testid="button-forwho-agendar-top"
               >
@@ -199,7 +199,7 @@ export default function ForWho() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center mt-12 reveal">
           <Link
-            href={lp("/agendar-asesoria")}
+            href={lp("book")}
             className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-5 sm:px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap w-full sm:w-auto"
             data-testid="button-forwho-agendar"
           >

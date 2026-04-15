@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 import { CONTACT } from "@/lib/constants";
+import { useLangPath } from "@/hooks/useLangPath";
 import Hero from "@/components/sections/Hero";
 import BanksCarousel from "@/components/sections/BanksCarousel";
 import Problem from "@/components/sections/Problem";
@@ -54,11 +55,12 @@ function useHomeJsonLd(t: (key: string) => string, lang: string) {
 export default function Home() {
   const { t, i18n } = useTranslation();
   const lang = (i18n.language || "es").split("-")[0];
+  const lp = useLangPath();
   const homeJsonLd = useHomeJsonLd(t, lang);
   return (
     <article>
       <SEO
-        path="/"
+        path={lp("home")}
         title={t("homePage.seoTitle")}
         description={t("homePage.seoDesc")}
         keywords={t("homePage.seoKeywords")}

@@ -49,7 +49,8 @@ export default function FloatingMobileCTA() {
     };
   }, [location]);
 
-  if (location === "/agendar-asesoria") return null;
+  const bookPath = lp("book");
+  if (location === bookPath) return null;
 
   const visible = scrolled && !nearBottom && !mobileMenuOpen;
 
@@ -61,7 +62,7 @@ export default function FloatingMobileCTA() {
     >
       <div className="bg-[var(--bg-0)] border-t border-[var(--border)] px-4 pt-3" style={{ paddingBottom: "max(6px, env(safe-area-inset-bottom, 6px))" }}>
         <Link
-          href={lp("/agendar-asesoria")}
+          href={lp("book")}
           className="flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] active:scale-[0.97] text-[#0F1A14] font-heading font-bold text-base rounded-full py-3.5 shadow-[var(--shadow-green)] transition-[color,background-color,border-color,opacity,transform] duration-200"
           data-testid="button-floating-cta"
         >

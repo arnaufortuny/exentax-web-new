@@ -6,7 +6,8 @@ import FlagImg from "@/components/FlagImg";
 import { LANG_SHORT } from "@/lib/lang-utils";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
 import { BRAND, CONTACT } from "@/lib/constants";
-import { useLangPath, getLangFromPath } from "@/hooks/useLangPath";
+import { useLangPath } from "@/hooks/useLangPath";
+import { getLangFromPath, getEquivalentPath, resolveRoute } from "@/lib/routes";
 
 function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
   const { t } = useTranslation();
@@ -34,15 +35,8 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
     LanguageService.change(lang);
     setOpen(false);
     onClose();
-    const pathLang = getLangFromPath(location);
-    if (pathLang) {
-      const rest = location.replace(new RegExp(`^/${pathLang}`), "") || "/";
-      if (rest.startsWith("/blog")) {
-        setLocation(`/${lang}${rest}`, { replace: true });
-      } else {
-        setLocation(rest, { replace: true });
-      }
-    }
+    const newPath = getEquivalentPath(location, lang);
+    setLocation(newPath, { replace: true });
   }, [location, setLocation, onClose]);
 
   return (
@@ -96,23 +90,22 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
 }
 
 const prefetchMap: Record<string, () => Promise<unknown>> = {
-  "/": () => import("@/pages/home"),
-  "/como-trabajamos": () => import("@/pages/como-funciona"),
-  "/servicios": () => import("@/pages/servicios"),
-  "/preguntas-frecuentes": () => import("@/pages/faq-page"),
-  "/agendar-asesoria": () => import("@/pages/reservar"),
-  "/sobre-las-llc": () => import("@/pages/llc-estados-unidos"),
-  "/blog": () => import("@/pages/blog/index"),
+  home: () => import("@/pages/home"),
+  how_we_work: () => import("@/pages/como-funciona"),
+  our_services: () => import("@/pages/servicios"),
+  faq: () => import("@/pages/faq-page"),
+  book: () => import("@/pages/reservar"),
+  about_llc: () => import("@/pages/llc-estados-unidos"),
+  blog: () => import("@/pages/blog/index"),
 };
 
 const prefetched = new Set<string>();
 const langPrefixRe = new RegExp(`^\\/(${SUPPORTED_LANGS.join("|")})`);
 
-function prefetchPage(href: string) {
-  if (prefetched.has(href)) return;
-  prefetched.add(href);
-  const stripped = href.replace(langPrefixRe, "") || "/";
-  const loader = prefetchMap[stripped];
+function prefetchPage(key: string) {
+  if (prefetched.has(key)) return;
+  prefetched.add(key);
+  const loader = prefetchMap[key];
   if (loader) loader();
 }
 
@@ -130,24 +123,26 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
   const [location] = useLocation();
   const dropdownRef = useRef<HTMLDivElement>(null);
   const lp = useLangPath();
-  const currentPath = location.replace(langPrefixRe, "") || "/";
+  const resolved = resolveRoute(location);
+  const currentRouteKey = resolved?.key || null;
+  const isBlogActive = location.includes("/blog");
 
   const navLinks = [
-    { label: t("nav.home"), labelXl: t("nav.homeXl"), href: lp("/"), matchPath: "/" },
-    { label: t("nav.howWeWork"), labelXl: t("nav.howWeWorkXl"), href: lp("/como-trabajamos"), matchPath: "/como-trabajamos" },
-    { label: t("nav.services"), href: lp("/servicios"), matchPath: "/servicios" },
-    { label: t("nav.aboutLlc"), href: lp("/sobre-las-llc"), matchPath: "/sobre-las-llc" },
-    { label: t("nav.faq"), labelXl: t("nav.faqXl"), href: lp("/preguntas-frecuentes"), matchPath: "/preguntas-frecuentes" },
-    { label: t("nav.blog"), labelXl: t("nav.blogXl"), href: lp("/blog"), matchPath: "/blog" },
+    { label: t("nav.home"), labelXl: t("nav.homeXl"), href: lp("home"), routeKey: "home" as const, prefetchKey: "home" },
+    { label: t("nav.howWeWork"), labelXl: t("nav.howWeWorkXl"), href: lp("how_we_work"), routeKey: "how_we_work" as const, prefetchKey: "how_we_work" },
+    { label: t("nav.services"), href: lp("our_services"), routeKey: "our_services" as const, prefetchKey: "our_services" },
+    { label: t("nav.aboutLlc"), href: lp("about_llc"), routeKey: "about_llc" as const, prefetchKey: "about_llc" },
+    { label: t("nav.faq"), labelXl: t("nav.faqXl"), href: lp("faq"), routeKey: "faq" as const, prefetchKey: "faq" },
+    { label: t("nav.blog"), labelXl: t("nav.blogXl"), href: lp("/blog"), routeKey: null, prefetchKey: "blog" },
   ];
 
   const mobileNavLinks = [
-    { label: t("nav.mobileHome"), href: lp("/"), matchPath: "/" },
-    { label: t("nav.howWeWorkXl"), href: lp("/como-trabajamos"), matchPath: "/como-trabajamos" },
-    { label: t("nav.services"), href: lp("/servicios"), matchPath: "/servicios" },
-    { label: t("nav.aboutLlc"), href: lp("/sobre-las-llc"), matchPath: "/sobre-las-llc" },
-    { label: t("nav.faqXl"), href: lp("/preguntas-frecuentes"), matchPath: "/preguntas-frecuentes" },
-    { label: t("nav.blogXl"), href: lp("/blog"), matchPath: "/blog" },
+    { label: t("nav.mobileHome"), href: lp("home"), routeKey: "home" as const, prefetchKey: "home" },
+    { label: t("nav.howWeWorkXl"), href: lp("how_we_work"), routeKey: "how_we_work" as const, prefetchKey: "how_we_work" },
+    { label: t("nav.services"), href: lp("our_services"), routeKey: "our_services" as const, prefetchKey: "our_services" },
+    { label: t("nav.aboutLlc"), href: lp("about_llc"), routeKey: "about_llc" as const, prefetchKey: "about_llc" },
+    { label: t("nav.faqXl"), href: lp("faq"), routeKey: "faq" as const, prefetchKey: "faq" },
+    { label: t("nav.blogXl"), href: lp("/blog"), routeKey: null, prefetchKey: "blog" },
   ];
 
   const handleMenuToggle = useCallback(() => {
@@ -191,31 +186,34 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
       <div ref={dropdownRef} className="max-w-[1340px] mx-auto relative">
         <div className="navbar-glass h-[76px] xl:h-[88px] 2xl:h-[92px] bg-[var(--glass-bg)] backdrop-blur-[16px] border border-[var(--glass-border)] rounded-[22px] px-4 xl:px-5 2xl:px-10 flex items-center gap-2 xl:gap-2 2xl:gap-5 shadow-[var(--shadow)]">
 
-          <Link href="/" data-testid="link-home" className="flex items-center justify-center flex-shrink-0 outline-none focus-visible:ring-2 focus-visible:ring-[#00E510] focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-md mr-1 lg:mr-2 xl:mr-2 2xl:mr-4">
+          <Link href={lp("home")} data-testid="link-home" className="flex items-center justify-center flex-shrink-0 outline-none focus-visible:ring-2 focus-visible:ring-[#00E510] focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-md mr-1 lg:mr-2 xl:mr-2 2xl:mr-4">
             <img src="/logo-tight.png" alt={BRAND.NAME} fetchPriority="high" decoding="async" className="navbar-logo w-[120px] lg:w-[132px] xl:w-[130px] 2xl:w-[164px] h-auto object-contain block" data-testid="img-logo-navbar" />
           </Link>
 
           <nav className="hidden xl:flex items-center justify-center gap-0 xl:gap-0.5 2xl:gap-2 flex-1 min-w-0 overflow-hidden" aria-label={t("common.mainNavigation")} data-testid="nav-desktop">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onMouseEnter={() => prefetchPage(link.href)}
-                className={`font-body font-semibold text-[13px] xl:text-[13px] 2xl:text-[15.5px] px-1.5 xl:px-2 2xl:px-3 py-2.5 relative transition-colors duration-200 whitespace-nowrap ${
-                  currentPath === link.matchPath || (link.matchPath === "/blog" && currentPath.startsWith("/blog"))
-                    ? "text-[#00E510] after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[2px] after:bg-[rgba(0,229,16,0.35)]"
-                    : "text-[var(--text-2)] hover:text-[var(--text-1)]"
-                }`}
-                data-testid={`nav-${link.label.toLowerCase().replace(/\s/g, "-").replace(/ó/g, "o")}`}
-              >
-                {link.labelXl ? (
-                  <>
-                    <span className="2xl:hidden">{link.label}</span>
-                    <span className="hidden 2xl:inline">{link.labelXl}</span>
-                  </>
-                ) : link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = link.routeKey ? currentRouteKey === link.routeKey : isBlogActive;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onMouseEnter={() => prefetchPage(link.prefetchKey)}
+                  className={`font-body font-semibold text-[13px] xl:text-[13px] 2xl:text-[15.5px] px-1.5 xl:px-2 2xl:px-3 py-2.5 relative transition-colors duration-200 whitespace-nowrap ${
+                    isActive
+                      ? "text-[#00E510] after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[2px] after:bg-[rgba(0,229,16,0.35)]"
+                      : "text-[var(--text-2)] hover:text-[var(--text-1)]"
+                  }`}
+                  data-testid={`nav-${link.label.toLowerCase().replace(/\s/g, "-").replace(/ó/g, "o")}`}
+                >
+                  {link.labelXl ? (
+                    <>
+                      <span className="2xl:hidden">{link.label}</span>
+                      <span className="hidden 2xl:inline">{link.labelXl}</span>
+                    </>
+                  ) : link.label}
+                </Link>
+              );
+            })}
           </nav>
 
           <div className="flex-1 xl:hidden" />
@@ -234,8 +232,8 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
             </a>
             {!hideBooking && (
               <Link
-                href={lp("/agendar-asesoria")}
-                onMouseEnter={() => prefetchPage(lp("/agendar-asesoria"))}
+                href={lp("book")}
+                onMouseEnter={() => prefetchPage("book")}
                 className="inline-flex items-center gap-1.5 bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-4 xl:px-5 2xl:px-7 py-2 xl:py-2.5 2xl:py-3 text-[12px] xl:text-[13px] 2xl:text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-95 whitespace-nowrap focus:ring-4 focus:ring-[rgba(0,229,16,0.22)]"
                 data-testid="button-agendar-nav"
               >
@@ -282,7 +280,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
         >
           <nav className="p-3">
             {mobileNavLinks.map((link) => {
-              const active = currentPath === link.matchPath || (link.matchPath === "/blog" && currentPath.startsWith("/blog"));
+              const active = link.routeKey ? currentRouteKey === link.routeKey : isBlogActive;
               return (
                 <Link
                   key={link.href}
@@ -326,8 +324,8 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
             </div>
             {!hideBooking && (
               <Link
-                href={lp("/agendar-asesoria")}
-                onMouseEnter={() => prefetchPage(lp("/agendar-asesoria"))}
+                href={lp("book")}
+                onMouseEnter={() => prefetchPage("book")}
                 className="flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-7 py-3.5 text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-[0.98]"
                 onClick={() => setMenuOpen(false)}
                 data-testid="mobile-nav-agendar"

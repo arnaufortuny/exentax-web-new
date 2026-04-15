@@ -60,7 +60,7 @@ export default function StartPage() {
       <SEO
         title={t("start.seoTitle")}
         description={t("start.seoDescription")}
-        path="/empezar"
+        path="/start"
         noindex
       />
 
@@ -144,7 +144,7 @@ export default function StartPage() {
 
         <div className="flex justify-center mt-5">
           <Link
-            href={lp("/agendar-asesoria")}
+            href={lp("book")}
             className="inline-flex items-center gap-2 bg-transparent border border-[rgba(0,229,16,0.3)] text-[#00E510] font-body font-semibold px-7 py-3 text-sm rounded-full hover:bg-[rgba(0,229,16,0.06)] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 cursor-pointer no-underline"
             data-testid="link-agendar-start"
           >
@@ -295,7 +295,7 @@ export default function StartPage() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-5">
           <Link
-            href={lp("/agendar-asesoria")}
+            href={lp("book")}
             className="inline-flex items-center justify-center gap-2 bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-4 text-sm rounded-full shadow-[0_0_24px_rgba(0,229,16,0.35)] hover:shadow-[0_0_40px_rgba(0,229,16,0.5)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
             data-testid="button-agendar-decision"
           >

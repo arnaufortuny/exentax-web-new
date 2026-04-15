@@ -6,49 +6,76 @@ import Layout from "@/components/layout/Layout";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import i18n, { SUPPORTED_LANGS, LanguageService, type SupportedLang } from "@/i18n";
 import { STORAGE_KEYS } from "@/lib/constants";
+import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey, getLangFromPath } from "@/lib/routes";
 
 const pageImports = {
   home: () => import("@/pages/home"),
-  servicios: () => import("@/pages/servicios"),
-  comoFunciona: () => import("@/pages/como-funciona"),
+  our_services: () => import("@/pages/servicios"),
+  how_we_work: () => import("@/pages/como-funciona"),
   faq: () => import("@/pages/faq-page"),
-  reservar: () => import("@/pages/reservar"),
-  llc: () => import("@/pages/llc-estados-unidos"),
+  book: () => import("@/pages/reservar"),
+  about_llc: () => import("@/pages/llc-estados-unidos"),
   blogIndex: () => import("@/pages/blog/index"),
   blogPost: () => import("@/pages/blog/post"),
-  terminos: () => import("@/pages/legal/terminos"),
-  privacidad: () => import("@/pages/legal/privacidad"),
-  cookies: () => import("@/pages/legal/cookies"),
-  reembolsos: () => import("@/pages/legal/reembolsos"),
-  disclaimer: () => import("@/pages/legal/disclaimer"),
-  go: () => import("@/pages/go"),
-  empezar: () => import("@/pages/empezar"),
+  legal_terms: () => import("@/pages/legal/terminos"),
+  legal_privacy: () => import("@/pages/legal/privacidad"),
+  legal_cookies: () => import("@/pages/legal/cookies"),
+  legal_refunds: () => import("@/pages/legal/reembolsos"),
+  legal_disclaimer: () => import("@/pages/legal/disclaimer"),
+  links: () => import("@/pages/go"),
+  start: () => import("@/pages/empezar"),
   booking: () => import("@/pages/booking"),
   notFound: () => import("@/pages/not-found"),
 };
 
 const Home             = lazy(pageImports.home);
-const PreciosPage      = lazy(pageImports.servicios);
-const ComoFuncionaPage = lazy(pageImports.comoFunciona);
+const PreciosPage      = lazy(pageImports.our_services);
+const ComoFuncionaPage = lazy(pageImports.how_we_work);
 const FAQPage          = lazy(pageImports.faq);
-const ReservarPage     = lazy(pageImports.reservar);
-const LLCEstadosUnidos = lazy(pageImports.llc);
+const ReservarPage     = lazy(pageImports.book);
+const LLCEstadosUnidos = lazy(pageImports.about_llc);
 const BlogIndex        = lazy(pageImports.blogIndex);
 const BlogPostPage     = lazy(pageImports.blogPost);
-const TerminosPage     = lazy(pageImports.terminos);
-const PrivacidadPage   = lazy(pageImports.privacidad);
-const CookiesPage      = lazy(pageImports.cookies);
-const ReembolsosPage   = lazy(pageImports.reembolsos);
-const DisclaimerPage   = lazy(pageImports.disclaimer);
-const GoPage           = lazy(pageImports.go);
-const EmpezarPage      = lazy(pageImports.empezar);
-const BookingPage       = lazy(pageImports.booking);
+const TerminosPage     = lazy(pageImports.legal_terms);
+const PrivacidadPage   = lazy(pageImports.legal_privacy);
+const CookiesPage      = lazy(pageImports.legal_cookies);
+const ReembolsosPage   = lazy(pageImports.legal_refunds);
+const DisclaimerPage   = lazy(pageImports.legal_disclaimer);
+const LinksPage        = lazy(pageImports.links);
+const StartPage        = lazy(pageImports.start);
+const BookingPage      = lazy(pageImports.booking);
 const NotFound         = lazy(pageImports.notFound);
+
+const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<any>> = {
+  home: Home,
+  how_we_work: ComoFuncionaPage,
+  our_services: PreciosPage,
+  about_llc: LLCEstadosUnidos,
+  faq: FAQPage,
+  book: ReservarPage,
+  legal_terms: TerminosPage,
+  legal_privacy: PrivacidadPage,
+  legal_cookies: CookiesPage,
+  legal_refunds: ReembolsosPage,
+  legal_disclaimer: DisclaimerPage,
+};
 
 function Redirect({ to }: { to: string }) {
   const [, setLocation] = useLocation();
-  useEffect(() => { setLocation(to, { replace: true }); }, [to]); // setLocation is stable in wouter
+  useEffect(() => { setLocation(to, { replace: true }); }, [to]);
   return null;
+}
+
+function LangSyncEffect({ lang, children }: { lang: string; children: React.ReactNode }) {
+  useEffect(() => {
+    if (SUPPORTED_LANGS.includes(lang as SupportedLang)) {
+      const current = LanguageService.getCurrent();
+      if (current !== lang) {
+        LanguageService.changeTransient(lang as SupportedLang);
+      }
+    }
+  }, [lang]);
+  return <>{children}</>;
 }
 
 function BlogLangEffect({ lang, children }: { lang: string; children: React.ReactNode }) {
@@ -72,13 +99,7 @@ function BlogLangEffect({ lang, children }: { lang: string; children: React.Reac
 
 let prefetchDone = false;
 
-const publicPageKeys = new Set([
-  "home", "servicios", "comoFunciona", "faq", "reservar", "llc",
-  "blogIndex", "blogPost", "terminos", "privacidad", "cookies",
-  "reembolsos", "disclaimer", "go", "empezar", "notFound",
-]);
-
-const priorityPageKeys = new Set(["servicios", "reservar", "comoFunciona", "llc", "faq"]);
+const priorityPageKeys = new Set(["our_services", "book", "how_we_work", "about_llc", "faq"]);
 
 function prefetchAllPages() {
   if (prefetchDone) return;
@@ -89,7 +110,7 @@ function prefetchAllPages() {
   });
   setTimeout(() => {
     Object.entries(pageImports)
-      .filter(([key]) => publicPageKeys.has(key) && key !== "home" && !priorityPageKeys.has(key))
+      .filter(([key]) => key !== "home" && !priorityPageKeys.has(key))
       .forEach(([, load]) => load().catch((e) => console.error("[prefetch]", e)));
   }, 5000);
 }
@@ -98,36 +119,57 @@ function EmptyLoader() {
   return <div style={{ minHeight: "100vh", background: "var(--bg-0, #F7F6F2)" }} />;
 }
 
+function RootRedirect() {
+  const stored = LanguageService.getStoredPreference();
+  if (stored && SUPPORTED_LANGS.includes(stored)) {
+    return <Redirect to={`/${stored}`} />;
+  }
+  const browserLang = (navigator.language || "es").split("-")[0] as SupportedLang;
+  const target = SUPPORTED_LANGS.includes(browserLang) ? browserLang : "es";
+  return <Redirect to={`/${target}`} />;
+}
+
+function generateLocalizedRoutes() {
+  const routes: React.ReactNode[] = [];
+
+  for (const routeKey of ALL_ROUTE_KEYS) {
+    const Component = PAGE_COMPONENTS[routeKey];
+    const isLegal = routeKey.startsWith("legal_");
+
+    for (const lang of SUPPORTED_LANGS) {
+      const slug = ROUTE_SLUGS[routeKey][lang];
+      const path = slug ? `/${lang}/${slug}` : `/${lang}`;
+
+      routes.push(
+        <Route key={`${routeKey}-${lang}`} path={path}>
+          <LangSyncEffect lang={lang}>
+            <Layout>
+              <Suspense fallback={<EmptyLoader />}>
+                <Component />
+              </Suspense>
+            </Layout>
+          </LangSyncEffect>
+        </Route>
+      );
+    }
+  }
+
+  return routes;
+}
+
+const localizedRoutes = generateLocalizedRoutes();
+
 const AppRouter = memo(function AppRouter() {
   return (
     <Switch>
-      <Route path="/go">
-        <Suspense fallback={<EmptyLoader />}><GoPage /></Suspense>
+      <Route path="/links">
+        <Suspense fallback={<EmptyLoader />}><LinksPage /></Suspense>
       </Route>
-      <Route path="/empezar">
-        <Suspense fallback={<EmptyLoader />}><EmpezarPage /></Suspense>
+      <Route path="/start">
+        <Suspense fallback={<EmptyLoader />}><StartPage /></Suspense>
       </Route>
       <Route path="/booking/:token">
         <Suspense fallback={<EmptyLoader />}><BookingPage /></Suspense>
-      </Route>
-
-      <Route path="/">
-        <Layout><Suspense fallback={<EmptyLoader />}><Home /></Suspense></Layout>
-      </Route>
-      <Route path="/servicios">
-        <Layout><Suspense fallback={<EmptyLoader />}><PreciosPage /></Suspense></Layout>
-      </Route>
-      <Route path="/como-trabajamos">
-        <Layout><Suspense fallback={<EmptyLoader />}><ComoFuncionaPage /></Suspense></Layout>
-      </Route>
-      <Route path="/preguntas-frecuentes">
-        <Layout><Suspense fallback={<EmptyLoader />}><FAQPage /></Suspense></Layout>
-      </Route>
-      <Route path="/agendar-asesoria">
-        <Layout><Suspense fallback={<EmptyLoader />}><ReservarPage /></Suspense></Layout>
-      </Route>
-      <Route path="/sobre-las-llc">
-        <Layout><Suspense fallback={<EmptyLoader />}><LLCEstadosUnidos /></Suspense></Layout>
       </Route>
 
       <Route path="/:lang/blog/:slug">
@@ -162,20 +204,47 @@ const AppRouter = memo(function AppRouter() {
         <Layout><Suspense fallback={<EmptyLoader />}><BlogIndex /></Suspense></Layout>
       </Route>
 
+      {localizedRoutes}
+
+      <Route path="/go">
+        <Redirect to="/links" />
+      </Route>
+      <Route path="/empezar">
+        <Redirect to="/start" />
+      </Route>
+      <Route path="/servicios">
+        <Redirect to="/es/nuestros-servicios" />
+      </Route>
+      <Route path="/como-trabajamos">
+        <Redirect to="/es/como-trabajamos" />
+      </Route>
+      <Route path="/preguntas-frecuentes">
+        <Redirect to="/es/preguntas-frecuentes" />
+      </Route>
+      <Route path="/sobre-las-llc">
+        <Redirect to="/es/sobre-las-llc" />
+      </Route>
+      <Route path="/agendar-asesoria">
+        <Redirect to="/es/agendar" />
+      </Route>
       <Route path="/legal/terminos">
-        <Layout><Suspense fallback={<EmptyLoader />}><TerminosPage /></Suspense></Layout>
+        <Redirect to="/es/legal/terminos" />
       </Route>
       <Route path="/legal/privacidad">
-        <Layout><Suspense fallback={<EmptyLoader />}><PrivacidadPage /></Suspense></Layout>
+        <Redirect to="/es/legal/privacidad" />
       </Route>
       <Route path="/legal/cookies">
-        <Layout><Suspense fallback={<EmptyLoader />}><CookiesPage /></Suspense></Layout>
+        <Redirect to="/es/legal/cookies" />
       </Route>
       <Route path="/legal/reembolsos">
-        <Layout><Suspense fallback={<EmptyLoader />}><ReembolsosPage /></Suspense></Layout>
+        <Redirect to="/es/legal/reembolsos" />
       </Route>
       <Route path="/legal/disclaimer">
-        <Layout><Suspense fallback={<EmptyLoader />}><DisclaimerPage /></Suspense></Layout>
+        <Redirect to="/es/legal/disclaimer" />
+      </Route>
+
+      <Route path="/">
+        <RootRedirect />
       </Route>
 
       <Route>

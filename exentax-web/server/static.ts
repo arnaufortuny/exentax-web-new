@@ -6,6 +6,8 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
+import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath, ROUTE_SLUGS, ALL_ROUTE_KEYS } from "./route-slugs";
+import type { SupportedLang as RouteLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
@@ -100,6 +102,14 @@ function injectMeta(html: string, reqPath: string): string {
   const blogSlug = rawBlogSlug ? resolveToSpanishSlug(rawBlogSlug, blogLang) : rawBlogSlug;
 
   let meta = PAGE_META[cleanPath];
+
+  if (!meta) {
+    const resolvedMeta = resolveServerRoute(cleanPath);
+    if (resolvedMeta) {
+      const localizedPathCheck = getLocalizedPath(resolvedMeta.key, resolvedMeta.lang);
+      meta = PAGE_META[localizedPathCheck];
+    }
+  }
 
   if (!meta && isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
@@ -217,13 +227,21 @@ function injectMeta(html: string, reqPath: string): string {
       /<link rel="alternate" hreflang="([^"]+)" href="https:\/\/exentax\.com[^"]*" \/>/g,
       ''
     );
-    const basePath = cleanPath.replace(/^\/(es|en|fr|de|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
-    const canonicalLoc = `${BASE_URL}${basePath === "/" ? "" : basePath}`;
-    const nonBlogHreflang = SUPPORTED.map(lang =>
-      `<link rel="alternate" hreflang="${lang}" href="${canonicalLoc}" />`
-    ).join("\n    ");
-    const nonBlogXDefault = `<link rel="alternate" hreflang="x-default" href="${canonicalLoc}" />`;
-    html = html.replace('</head>', `    ${nonBlogHreflang}\n    ${nonBlogXDefault}\n  </head>`);
+    const resolved = resolveServerRoute(cleanPath);
+    if (resolved) {
+      const nonBlogHreflang = SUPPORTED.map(lang =>
+        `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}${getLocalizedPath(resolved.key, lang as RouteLang)}" />`
+      ).join("\n    ");
+      const nonBlogXDefault = `<link rel="alternate" hreflang="x-default" href="${BASE_URL}${getLocalizedPath(resolved.key, "es")}" />`;
+      html = html.replace('</head>', `    ${nonBlogHreflang}\n    ${nonBlogXDefault}\n  </head>`);
+    } else {
+      const canonicalLoc = `${BASE_URL}${cleanPath === "/" ? "" : cleanPath}`;
+      const fallbackHreflang = SUPPORTED.map(lang =>
+        `<link rel="alternate" hreflang="${lang}" href="${canonicalLoc}" />`
+      ).join("\n    ");
+      const fallbackXDefault = `<link rel="alternate" hreflang="x-default" href="${canonicalLoc}" />`;
+      html = html.replace('</head>', `    ${fallbackHreflang}\n    ${fallbackXDefault}\n  </head>`);
+    }
   }
 
   if (meta.noindex) {
@@ -233,7 +251,17 @@ function injectMeta(html: string, reqPath: string): string {
     );
   }
 
-  let seoContent = PAGE_SEO_CONTENT[cleanPath];
+  const OLD_PATH_MAP: Partial<Record<string, string>> = {
+    home: "/",
+    how_we_work: "/como-trabajamos",
+    our_services: "/servicios",
+    about_llc: "/sobre-las-llc",
+    faq: "/preguntas-frecuentes",
+    book: "/agendar-asesoria",
+  };
+  const oldPathKey = resolvedRoute ? OLD_PATH_MAP[resolvedRoute.key] : undefined;
+
+  let seoContent = PAGE_SEO_CONTENT[cleanPath] || (oldPathKey ? PAGE_SEO_CONTENT[oldPathKey] : undefined);
   if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)) {
     const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
     const blogLinks = BLOG_POSTS.map(post => {
@@ -256,7 +284,8 @@ function injectMeta(html: string, reqPath: string): string {
 
   const allJsonLd: any[] = [];
 
-  if (cleanPath === "/preguntas-frecuentes") {
+  const resolvedRoute = resolveServerRoute(cleanPath);
+  if (resolvedRoute?.key === "faq") {
     allJsonLd.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -264,7 +293,7 @@ function injectMeta(html: string, reqPath: string): string {
     });
   }
 
-  if (cleanPath === "/" || cleanPath === "") {
+  if (resolvedRoute?.key === "home") {
     allJsonLd.push({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
@@ -288,7 +317,7 @@ function injectMeta(html: string, reqPath: string): string {
     });
   }
 
-  let pageSchemas = PAGE_SCHEMAS[cleanPath];
+  let pageSchemas = PAGE_SCHEMAS[cleanPath] || (oldPathKey ? PAGE_SCHEMAS[oldPathKey] : undefined);
   if (!pageSchemas && isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
     if (post) {
@@ -384,10 +413,14 @@ export async function serveStatic(app: Express) {
 
   const indexHtml = await fsp.readFile(path.resolve(distPath, "index.html"), "utf-8");
 
-  const KNOWN_PATHS = new Set([...Object.keys(PAGE_META), ...Object.keys(PAGE_META_I18N)]);
+  const localizedPaths = getAllLocalizedPaths();
+  const KNOWN_PATHS = new Set([
+    ...Object.keys(PAGE_META),
+    ...Object.keys(PAGE_META_I18N),
+    ...localizedPaths,
+    "/links", "/start",
+  ]);
   const LANG_PREFIX_RE = /^\/(es|en|fr|de|pt|ca)(\/|$)/;
-
-  const SPA_PREFIXES = ["/legal/"];
 
   app.use((req, res) => {
     const cleanPath = req.path.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
@@ -395,15 +428,9 @@ export async function serveStatic(app: Express) {
     const basePath = langMatch ? (cleanPath.slice(langMatch[1].length + 1) || "/") : cleanPath;
     const isBlogPost = basePath.startsWith("/blog/") && basePath !== "/blog";
     const isBlogIndex = basePath === "/blog";
-    const isSpaRoute = SPA_PREFIXES.some(p => cleanPath === p || cleanPath.startsWith(p));
     const isLangBlogRoute = !!langMatch && (isBlogPost || isBlogIndex);
 
-    if (langMatch && !isLangBlogRoute) {
-      const qs = req.originalUrl.includes("?") ? req.originalUrl.slice(req.originalUrl.indexOf("?")) : "";
-      return res.redirect(301, (basePath === "/" ? "/" : basePath) + qs);
-    }
-
-    const isKnown = KNOWN_PATHS.has(cleanPath) || KNOWN_PATHS.has(basePath) || isBlogPost || isBlogIndex || isSpaRoute || isLangBlogRoute;
+    const isKnown = KNOWN_PATHS.has(cleanPath) || isBlogPost || isBlogIndex || isLangBlogRoute;
 
     let injected = injectMetaCached(indexHtml, req.path);
 

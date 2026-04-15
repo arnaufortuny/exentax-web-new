@@ -214,7 +214,7 @@ export default function CalculatorResults({ result, income, country, regime, get
       </p>
 
       <a
-        href={lp("/agendar-asesoria")}
+        href={lp("book")}
         className="flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,opacity,transform] duration-200 mb-2.5"
         data-testid="button-agenda-orientativo"
       >

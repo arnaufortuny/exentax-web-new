@@ -7,6 +7,7 @@ import { useInlineMessage } from "@/hooks/useInlineMessage";
 import { InlineMessage } from "@/components/InlineMessage";
 import { trackFormSubmit } from "@/components/Tracking";
 import PhoneInput from "@/components/PhoneInput";
+import { useLangPath } from "@/hooks/useLangPath";
 
 function getMonthDays(year: number, month: number): (number | null)[] {
   const firstDay = new Date(year, month, 1);
@@ -81,6 +82,7 @@ const BENEFICIO_KEYS = [
 
 export default function BookingCalendar({ prefilledContext, prefilledName, prefilledEmail, prefilledPhone, prefilledBeneficio, prefilledClientesMundiales, prefilledOperaDigital, prefilledActivity }: BookingCalendarProps) {
   const { t, i18n } = useTranslation();
+  const lp = useLangPath();
   const { msg: inlineMsg, showMsg } = useInlineMessage();
   const beneficioOptions = t("booking.beneficioOptions", { returnObjects: true }) as string[];
   const today = nowMadrid();
@@ -805,9 +807,9 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 </span>
                 <span className="text-xs text-[var(--text-3)] leading-relaxed">
                   {t("booking.privacyLabel")}{" "}
-                  <a href="/legal/privacidad" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("booking.privacyPolicy")}</a>
+                  <a href={lp("legal_privacy")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("booking.privacyPolicy")}</a>
                   {" "}{t("booking.privacyConsent")}{" "}
-                  <a href="/legal/terminos" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("booking.termsConditions")}</a>.{" "}
+                  <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("booking.termsConditions")}</a>.{" "}
                   <span className="text-[#00E510]/70">*</span>
                 </span>
               </label>

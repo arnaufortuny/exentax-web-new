@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import PhoneInput from "@/components/PhoneInput";
+import { useLangPath } from "@/hooks/useLangPath";
 
 interface EmailGateFormProps {
   compact: boolean;
@@ -23,6 +24,7 @@ export default function EmailGateForm({
   setErrors, handleSubmit,
 }: EmailGateFormProps) {
   const { t } = useTranslation();
+  const lp = useLangPath();
 
   return (
     <div
@@ -91,8 +93,8 @@ export default function EmailGateForm({
             </span>
             <span className={`text-[var(--text-3)] leading-relaxed ${compact ? "text-[10px]" : "text-xs"}`}>
               {t("calculator.privacyText1")}{" "}
-              <a href="/legal/privacidad" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("calculator.privacyPolicy")}</a>
-              {" "}{t("calculator.privacyText2")} <a href="/legal/terminos" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("calculator.termsConditions")}</a>.{" "}
+              <a href={lp("legal_privacy")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("calculator.privacyPolicy")}</a>
+              {" "}{t("calculator.privacyText2")} <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[#00E510] underline hover:text-[#00E510]/80">{t("calculator.termsConditions")}</a>.{" "}
               <span className="text-[#00E510]/70">*</span>
             </span>
           </label>

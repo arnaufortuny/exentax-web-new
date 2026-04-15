@@ -76,7 +76,7 @@ export default function GoPage() {
   return (
     <>
     <SEO
-      path="/go"
+      path="/links"
       title={t("links.seoTitle")}
       description={t("links.seoDescription")}
       noindex
@@ -119,7 +119,7 @@ export default function GoPage() {
 
         <div className="flex flex-col gap-3.5 w-full">
           <a
-            href={lp("/agendar-asesoria")}
+            href={lp("book")}
             className={`${btnBase} bg-[#00E510] hover:bg-[#00E510] text-black`}
             data-testid="link-links-agenda"
           >
@@ -148,7 +148,7 @@ export default function GoPage() {
           </a>
 
           <a
-            href="/como-trabajamos"
+            href={lp("how_we_work")}
             className={`${btnBase} ${btnOutline}`}
             data-testid="link-links-como"
           >
@@ -157,7 +157,7 @@ export default function GoPage() {
           </a>
 
           <a
-            href="/sobre-las-llc"
+            href={lp("about_llc")}
             className={`${btnBase} ${btnOutline}`}
             data-testid="link-links-llc"
           >

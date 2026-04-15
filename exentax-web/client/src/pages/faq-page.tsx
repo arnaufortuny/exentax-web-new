@@ -1,12 +1,14 @@
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
+import { useLangPath } from "@/hooks/useLangPath";
 
 import FAQ from "@/components/sections/FAQ";
 import { useFaqSections, extractText } from "@/components/sections/faq-data";
 
 export default function FAQPage() {
   const { t } = useTranslation();
+  const lp = useLangPath();
   const allSections = useFaqSections();
   const faqJsonLd = useMemo(() => {
     const allItems = allSections.flatMap(s => s.items);
@@ -30,9 +32,9 @@ export default function FAQPage() {
         title={t("faqPage.seoTitle")}
         description={t("faqPage.seoDesc")}
         keywords={t("faqPage.seoKeywords")}
-        path="/preguntas-frecuentes"
+        path={lp("faq")}
         jsonLd={faqJsonLd}
-        breadcrumbs={[{ name: t("faqPage.seoTitle"), path: "/preguntas-frecuentes" }]}
+        breadcrumbs={[{ name: t("faqPage.seoTitle"), path: lp("faq") }]}
       />
       <FAQ asPage />
     </article>

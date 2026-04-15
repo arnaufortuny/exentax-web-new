@@ -204,8 +204,8 @@ export default function ReservarPage() {
         title={t("reservarPage.seoTitle")}
         description={t("reservarPage.seoDesc")}
         keywords={t("reservarPage.seoKeywords")}
-        path="/agendar-asesoria"
-        breadcrumbs={[{ name: t("reservarPage.seoTitle"), path: "/agendar-asesoria" }]}
+        path={lp("book")}
+        breadcrumbs={[{ name: t("reservarPage.seoTitle"), path: lp("book") }]}
       />
 
       {isBookingSuccess ? (
@@ -227,7 +227,7 @@ export default function ReservarPage() {
             </div>
             <h1 className="font-heading font-bold text-2xl lg:text-3xl text-[var(--text-1)] mb-3">{t("reservar.paymentCancelled.title")}</h1>
             <p className="text-[var(--text-2)] font-body mb-6">{t("reservar.paymentCancelled.desc")}</p>
-            <a href={lp("/agendar-asesoria")} className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#00E510] text-white font-semibold text-sm hover:opacity-90 transition-opacity" data-testid="button-retry-booking">
+            <a href={lp("book")} className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#00E510] text-white font-semibold text-sm hover:opacity-90 transition-opacity" data-testid="button-retry-booking">
               {t("reservar.paymentCancelled.retry")}
             </a>
           </div>

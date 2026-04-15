@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import i18n, { SUPPORTED_LANGS } from "@/i18n";
 import { getTranslatedSlug } from "@/data/blog-posts-slugs";
 import { BRAND, CONTACT } from "@/lib/constants";
+import { resolveRoute, getLocalizedPath } from "@/lib/routes";
 
 const LOCALE_MAP: Record<string, string> = {
   es: "es_ES",
@@ -87,13 +88,16 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
     setMeta('name', 'twitter:site', BRAND.TWITTER_HANDLE);
 
     const rawPath = path || "/";
-    const normalizedPath = rawPath.replace(/^\/(es|en|fr|de|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
-    const canonicalPath = blogSlug ? rawPath : normalizedPath;
-    const fullUrl = `${BASE_URL}${canonicalPath}`;
+    const resolved = resolveRoute(rawPath);
+    const canonicalUrl = resolved
+      ? `${BASE_URL}${getLocalizedPath(resolved.key, resolved.lang)}`
+      : blogSlug
+        ? `${BASE_URL}${rawPath}`
+        : `${BASE_URL}${rawPath}`;
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute("href", fullUrl);
+      canonical.setAttribute("href", canonicalUrl);
     }
 
     const existingHreflang = document.querySelectorAll('link[rel="alternate"][hreflang]');
@@ -108,8 +112,10 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
         if (isBlog) {
           const langSlug = getTranslatedSlug(blogSlug!, lang);
           link.href = `${BASE_URL}/${lang}/blog/${langSlug}`;
+        } else if (resolved) {
+          link.href = `${BASE_URL}${getLocalizedPath(resolved.key, lang)}`;
         } else {
-          link.href = `${BASE_URL}/${lang}${normalizedPath === "/" ? "" : normalizedPath}`;
+          link.href = `${BASE_URL}/${lang}${rawPath === "/" ? "" : rawPath}`;
         }
         document.head.appendChild(link);
       }
@@ -118,8 +124,10 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
       xDefault.hreflang = "x-default";
       if (isBlog) {
         xDefault.href = `${BASE_URL}/es/blog/${blogSlug}`;
+      } else if (resolved) {
+        xDefault.href = `${BASE_URL}${getLocalizedPath(resolved.key, "es")}`;
       } else {
-        xDefault.href = fullUrl;
+        xDefault.href = canonicalUrl;
       }
       document.head.appendChild(xDefault);
     }

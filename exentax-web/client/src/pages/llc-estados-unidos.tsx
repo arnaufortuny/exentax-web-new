@@ -27,8 +27,8 @@ function HeroSection() {
         title={t("llcUsPage.seoTitle")}
         description={t("llcUsPage.seoDesc")}
         keywords={t("llcUsPage.seoKeywords")}
-        path="/sobre-las-llc"
-        breadcrumbs={[{ name: t("llcUsPage.breadcrumb"), path: "/sobre-las-llc" }]}
+        path={lp("about_llc")}
+        breadcrumbs={[{ name: t("llcUsPage.breadcrumb"), path: lp("about_llc") }]}
       />
       <section className="relative section-padding" ref={ref}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal">
@@ -50,7 +50,7 @@ function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href={lp("/agendar-asesoria")}
+                href={lp("book")}
                 className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                 data-testid="button-llc-hero-agendar"
               >
@@ -386,7 +386,7 @@ function EstadosSection() {
                     ))}
                   </div>
                   <Link
-                    href={lp("/servicios")}
+                    href={lp("our_services")}
                     className="inline-flex items-center justify-center w-full font-body font-semibold px-6 py-3 text-base rounded-full active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] shadow-[var(--shadow-green)]"
                     data-testid={`link-estado-${i}`}
                   >

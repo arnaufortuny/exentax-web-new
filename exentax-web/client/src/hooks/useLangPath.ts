@@ -1,6 +1,9 @@
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
+import { getLocalizedPath, type RouteKey, ROUTE_SLUGS } from "@/lib/routes";
+
+export { getLangFromPath } from "@/lib/routes";
 
 function useCurrentLang(): SupportedLang {
   const { i18n } = useTranslation();
@@ -11,17 +14,19 @@ function useCurrentLang(): SupportedLang {
 export function useLangPath() {
   const lang = useCurrentLang();
   return useCallback(
-    (path: string) => {
-      if (path === "/blog" || path.startsWith("/blog/")) {
-        return `/${lang}${path}`;
+    (keyOrPath: RouteKey | string) => {
+      if (keyOrPath in ROUTE_SLUGS) {
+        return getLocalizedPath(keyOrPath as RouteKey, lang);
       }
-      return path;
+      if (keyOrPath === "/blog" || keyOrPath.startsWith("/blog/")) {
+        return `/${lang}${keyOrPath}`;
+      }
+      return keyOrPath;
     },
     [lang],
   );
 }
 
-export function getLangFromPath(pathname: string): SupportedLang | null {
-  const seg = pathname.split("/")[1] as SupportedLang;
-  return seg && SUPPORTED_LANGS.includes(seg) ? seg : null;
+export function useCurrentRouteLang(): SupportedLang {
+  return useCurrentLang();
 }

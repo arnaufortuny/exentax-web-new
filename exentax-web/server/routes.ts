@@ -7,6 +7,7 @@ import {
 } from "./route-helpers";
 import { apiFail, apiNotFound } from "./routes/api-response";
 import { SUPPORTED_LANGS, SITE_URL } from "./server-constants";
+import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "./route-slugs";
 import {
   backendLabel, resolveRequestLang,
 } from "./routes/shared";
@@ -18,21 +19,15 @@ export async function registerRoutes(
   activeIntervals?: ReturnType<typeof setInterval>[]
 ): Promise<Server> {
 
-  const NOINDEX_PATHS = new Set(['/go', '/empezar']);
-  const PUBLIC_PATHS = new Set([
-    '/', '/sobre-las-llc', '/como-trabajamos', '/servicios',
-    '/preguntas-frecuentes', '/agendar-asesoria', '/blog',
-  ]);
+  const NOINDEX_PATHS = new Set(['/links', '/start', '/go', '/empezar']);
+  const localizedPaths = getAllLocalizedPaths();
   const KNOWN_PATHS = new Set([
-    ...PUBLIC_PATHS,
-    '/legal/terminos', '/legal/privacidad', '/legal/cookies',
-    '/legal/reembolsos', '/legal/disclaimer',
-    '/go', '/empezar',
+    ...localizedPaths,
+    '/links', '/start', '/go', '/empezar',
+    '/blog',
   ]);
   for (const lang of SUPPORTED_LANGS) {
-    for (const p of PUBLIC_PATHS) {
-      KNOWN_PATHS.add(`/${lang}${p === '/' ? '' : p}`);
-    }
+    KNOWN_PATHS.add(`/${lang}/blog`);
   }
 
   const STATIC_EXT = /\.(js|css|map|woff2?|ttf|png|jpg|jpeg|gif|svg|ico|webp|avif|webmanifest|pdf|xml|txt|json)$/;
@@ -58,7 +53,11 @@ export async function registerRoutes(
         res.setHeader('X-Robots-Tag', 'noindex, nofollow');
       } else {
         res.setHeader('X-Robots-Tag', 'index, follow, max-snippet:-1, max-image-preview:large');
-        res.setHeader('Link', `<${SITE_URL}${cleanPath === '/' ? '' : cleanPath}>; rel="canonical"`);
+        const resolved = resolveServerRoute(cleanPath);
+        const canonicalPath = resolved
+          ? getLocalizedPath(resolved.key, resolved.lang)
+          : (cleanPath === '/' ? '' : cleanPath);
+        res.setHeader('Link', `<${SITE_URL}${canonicalPath}>; rel="canonical"`);
       }
     }
     next();

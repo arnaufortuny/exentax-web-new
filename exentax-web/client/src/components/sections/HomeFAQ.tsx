@@ -60,7 +60,7 @@ export default function HomeFAQ() {
                 />
                 <div className="mt-4 flex items-center gap-3 flex-wrap">
                   <Link
-                    href={lp("/agendar-asesoria")}
+                    href={lp("book")}
                     className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#00E510] hover:underline"
                     data-testid={`link-faq-contact-${i}`}
                   >
@@ -69,7 +69,7 @@ export default function HomeFAQ() {
                   </Link>
                   <span className="text-[var(--border)]">|</span>
                   <Link
-                    href={lp("/agendar-asesoria")}
+                    href={lp("book")}
                     className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[var(--text-2)] hover:text-[#00E510] transition-colors"
                     data-testid={`link-faq-book-${i}`}
                   >
@@ -85,7 +85,7 @@ export default function HomeFAQ() {
         <div className="text-center mt-12 reveal">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4">
             <Link
-              href={lp("/preguntas-frecuentes")}
+              href={lp("faq")}
               className="inline-flex items-center justify-center gap-2 bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 w-full sm:w-auto sm:min-w-[220px]"
               data-testid="button-home-faq-ver-todas"
             >
@@ -93,7 +93,7 @@ export default function HomeFAQ() {
               <svg width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </Link>
             <Link
-              href={lp("/agendar-asesoria")}
+              href={lp("book")}
               className="inline-flex items-center justify-center gap-2 border border-[#00E510]/50 hover:border-[#00E510]/80 text-[#00E510] font-body font-semibold px-8 py-3.5 text-base rounded-full transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 w-full sm:w-auto sm:min-w-[220px]"
               data-testid="button-home-faq-agenda"
             >

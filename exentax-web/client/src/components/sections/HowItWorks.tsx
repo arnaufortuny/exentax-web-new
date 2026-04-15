@@ -105,7 +105,7 @@ export default function HowItWorks() {
                     {hasCta && (
                       <div className="mt-auto pt-4">
                         <Link
-                          href={lp("/agendar-asesoria")}
+                          href={lp("book")}
                           className="inline-flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-5 py-2.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                           data-testid="button-step-cta-agendar"
                         >
@@ -157,7 +157,7 @@ export default function HowItWorks() {
                     {hasCta && (
                       <div className="pt-4">
                         <Link
-                          href={lp("/agendar-asesoria")}
+                          href={lp("book")}
                           className="inline-flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-5 py-2.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                           data-testid="button-step-cta-agendar-mobile"
                         >
@@ -179,7 +179,7 @@ export default function HowItWorks() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href={lp("/agendar-asesoria")}
+              href={lp("book")}
               className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 whitespace-nowrap sm:min-w-[220px] lg:min-w-[270px]"
               data-testid="button-howitworks-agendar"
             >

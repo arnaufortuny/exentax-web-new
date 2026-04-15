@@ -8,6 +8,7 @@ import { trackFormSubmit } from "@/components/Tracking";
 
 function NewsletterSignup() {
   const { t, i18n } = useTranslation();
+  const lp = useLangPath();
   const [email, setEmail] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const [marketingAccepted, setMarketingAccepted] = useState(false);
@@ -102,7 +103,7 @@ function NewsletterSignup() {
             </span>
             <span className="text-[10px] text-black/50 leading-relaxed text-left">
               {t("footer.newsletter.privacyCheck")}{" "}
-              <Link href="/legal/privacidad" className="text-black/70 underline hover:text-black">{t("footer.newsletter.privacyPolicy")}</Link>.{" "}
+              <Link href={lp("legal_privacy")} className="text-black/70 underline hover:text-black">{t("footer.newsletter.privacyPolicy")}</Link>.{" "}
               <span className="text-black/40">*</span>
             </span>
           </label>
@@ -150,20 +151,20 @@ export default function Footer() {
   const lp = useLangPath();
 
   const footerCompany: { label: string; href: string }[] = [
-    { label: t("footer.companyLinks.home"), href: lp("/") },
-    { label: t("footer.companyLinks.services"), href: lp("/servicios") },
-    { label: t("footer.companyLinks.howWeWork"), href: lp("/como-trabajamos") },
-    { label: t("footer.companyLinks.faq"), href: lp("/preguntas-frecuentes") },
+    { label: t("footer.companyLinks.home"), href: lp("home") },
+    { label: t("footer.companyLinks.services"), href: lp("our_services") },
+    { label: t("footer.companyLinks.howWeWork"), href: lp("how_we_work") },
+    { label: t("footer.companyLinks.faq"), href: lp("faq") },
     { label: t("footer.companyLinks.blog"), href: lp("/blog") },
-    { label: t("footer.companyLinks.talk"), href: lp("/agendar-asesoria") },
+    { label: t("footer.companyLinks.talk"), href: lp("book") },
   ];
 
   const footerLegal = [
-    { label: t("footer.legalLinks.terms"), href: lp("/legal/terminos") },
-    { label: t("footer.legalLinks.privacy"), href: lp("/legal/privacidad") },
-    { label: t("footer.legalLinks.cookies"), href: lp("/legal/cookies") },
-    { label: t("footer.legalLinks.refunds"), href: lp("/legal/reembolsos") },
-    { label: t("footer.legalLinks.disclaimer"), href: lp("/legal/disclaimer") },
+    { label: t("footer.legalLinks.terms"), href: lp("legal_terms") },
+    { label: t("footer.legalLinks.privacy"), href: lp("legal_privacy") },
+    { label: t("footer.legalLinks.cookies"), href: lp("legal_cookies") },
+    { label: t("footer.legalLinks.refunds"), href: lp("legal_refunds") },
+    { label: t("footer.legalLinks.disclaimer"), href: lp("legal_disclaimer") },
   ];
 
   const socials = [
@@ -203,7 +204,7 @@ export default function Footer() {
         <div className="px-6 sm:px-10 lg:px-16">
 
         <div className="pt-16 pb-12 text-center">
-          <Link href="/" data-testid="link-footer-home">
+          <Link href={lp("home")} data-testid="link-footer-home">
             <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto brightness-0" loading="lazy" data-testid="img-logo-footer" />
           </Link>
         </div>

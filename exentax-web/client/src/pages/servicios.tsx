@@ -163,8 +163,8 @@ function PreciosHero() {
         title={t("preciosPage.seoTitle")}
         description={t("preciosPage.seoDesc")}
         keywords={t("preciosPage.seoKeywords")}
-        path="/servicios"
-        breadcrumbs={[{ name: t("nav.services"), path: "/servicios" }]}
+        path={lp("our_services")}
+        breadcrumbs={[{ name: t("nav.services"), path: lp("our_services") }]}
       />
       <section className="relative overflow-hidden pb-14">
         <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
@@ -200,7 +200,7 @@ function PreciosHero() {
 
               <div className="flex flex-col sm:flex-row gap-4 mb-6 justify-center">
                 <Link
-                  href={lp("/agendar-asesoria")}
+                  href={lp("book")}
                   className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-8 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                   data-testid="button-precios-hero-agendar"
                 >
@@ -303,7 +303,7 @@ function LLCPlansSection() {
                 <div className="text-center text-xs text-[var(--text-2)] mb-4">{t("precios.services.accountReady")}</div>
 
                 <Link
-                  href={lp("/agendar-asesoria")}
+                  href={lp("book")}
                   className="inline-flex items-center justify-center w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                   data-testid={`button-solicitar-llc-${i}`}
                 >
@@ -417,7 +417,7 @@ function ComparativaSection() {
                 </div>
                 <div className="mt-10 pt-8 border-t border-[rgba(0,229,16,0.08)]">
                   <Link
-                    href={lp("/agendar-asesoria")}
+                    href={lp("book")}
                     className="inline-flex items-center justify-center w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-base rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200"
                     data-testid="button-comparativa-agendar"
                   >
@@ -535,7 +535,7 @@ function PricingFAQSection() {
 
         <div className="mt-12 text-center reveal">
           <Link
-            href={lp("/preguntas-frecuentes")}
+            href={lp("faq")}
             className="inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold rounded-full px-8 py-3.5 text-base transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 active:scale-[0.97] whitespace-nowrap shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)]"
             data-testid="button-precios-ver-todas-preguntas"
           >
@@ -571,7 +571,7 @@ function PreciosCTAFinal() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
-                href={lp("/agendar-asesoria")}
+                href={lp("book")}
                 className="btn-pulse inline-flex items-center justify-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-semibold rounded-full px-8 py-3.5 text-base transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 active:scale-[0.97] whitespace-nowrap shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)]"
                 data-testid="button-precios-cta-agendar"
               >
