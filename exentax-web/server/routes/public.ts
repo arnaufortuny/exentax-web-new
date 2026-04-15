@@ -904,6 +904,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Allow: /",
       "",
       "Disallow: /api/",
+      "Disallow: /admin/",
       "Disallow: /links",
       "Disallow: /start",
       "Disallow: /booking/",

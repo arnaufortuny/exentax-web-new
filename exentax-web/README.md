@@ -63,7 +63,7 @@ exentax-web/
 │   │   ├── admin-core-extracts.ts   # PDF/CSV export endpoints
 │   │   ├── admin-core-stats.ts      # Dashboard statistics
 │   │   ├── admin-clients.ts         # Registers all admin-clients-* sub-routers
-│   │   ├── admin-clients-crud.ts    # Client CRUD, documents, timeline, password, Trustpilot
+│   │   ├── admin-clients-crud.ts    # Client CRUD, documents, timeline, password
 │   │   ├── admin-clients-invoices.ts# Invoice CRUD, PDF generation, reminders, company entities
 │   │   ├── admin-clients-llc.ts     # LLC CRUD, members, tax calendar, fiscal calendar generation
 │   │   ├── admin-clients-alerts.ts  # Manual fiscal alert trigger, pending alerts
@@ -283,7 +283,6 @@ All admin endpoints require the `exentax_admin` session cookie. Access levels va
 | GET | `/api/admin/clients/:id/documents` | List client documents |
 | DELETE | `/api/admin/documents/:docId` | Delete document |
 | GET | `/api/admin/clients/:id/consent` | View consent records |
-| POST | `/api/admin/clients/:id/trustpilot-invite` | Send Trustpilot review invite |
 
 **LLCs & Fiscal Calendar:**
 
@@ -477,8 +476,6 @@ All sent alerts are recorded in `alertas_fiscales` to prevent duplicates (matche
 | `ADMIN_EMAIL` | — | Admin notification email (default: `arnau@exentax.com`) |
 | `OWNER_USERNAME` | — | Owner admin username (default: `arnau`) |
 | `WHATSAPP_NUMBER` | — | WhatsApp number for CTA links |
-| `TRUSTPILOT_URL` | — | Trustpilot review page URL |
-| `TRUSTPILOT_SAF_EMAIL` | — | Trustpilot invitation email |
 | `COMMISSION_RATE` | — | Referral commission rate (default: 0.15) |
 | `COMPANY_ADDRESS_SHORT` | — | Company address shown in emails |
 

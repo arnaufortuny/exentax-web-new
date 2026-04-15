@@ -773,11 +773,11 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Trabajamos con autónomos y emprendedores de España, Argentina, México, Colombia, Chile y Perú. Nuestro equipo habla español e inglés y conoce la legislación fiscal de cada país.</p>
 <p>Contacto: <a href="mailto:hola@exentax.com">hola@exentax.com</a> | <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
-<a href="/sobre-las-llc">LLC en Estados Unidos — Guía completa 2026</a>
-<a href="/como-trabajamos">Así trabajamos — Proceso paso a paso</a>
-<a href="/servicios">Planes y tarifas de constitución LLC</a>
-<a href="/preguntas-frecuentes">Preguntas frecuentes sobre LLC y fiscalidad</a>
-<a href="/agendar-asesoria">Agendar asesoría fiscal estratégica</a>
+<a href="/es/sobre-las-llc">LLC en Estados Unidos — Guía completa 2026</a>
+<a href="/es/como-trabajamos">Así trabajamos — Proceso paso a paso</a>
+<a href="/es/nuestros-servicios">Planes y tarifas de constitución LLC</a>
+<a href="/es/preguntas-frecuentes">Preguntas frecuentes sobre LLC y fiscalidad</a>
+<a href="/es/agendar">Agendar asesoría fiscal estratégica</a>
 </nav>
 </article>`,
 
@@ -825,8 +825,8 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Es legal tener una LLC en EE.UU. siendo residente fiscal en otro país?</h2>
 <p>Sí, es completamente legal. La clave es la correcta declaración en tu país de residencia fiscal. Cada país tiene reglas diferentes y mecanismos específicos para declarar rentas del exterior. En Exentax te asesoramos sobre cómo hacerlo correctamente y optimizar tu carga fiscal total.</p>
 <h2>¿Cuánto cuesta abrir y mantener una LLC?</h2>
-<p>Constitución disponible en Nuevo México, Wyoming y Delaware. Sin costes ocultos ni permanencia. <a href="/servicios">Consulta nuestros planes</a>.</p>
-<p>En Exentax nos encargamos de todo el compliance fiscal por ti. <a href="/agendar-asesoria">Agenda tu asesoría fiscal</a>.</p>
+<p>Constitución disponible en Nuevo México, Wyoming y Delaware. Sin costes ocultos ni permanencia. <a href="/es/nuestros-servicios">Consulta nuestros planes</a>.</p>
+<p>En Exentax nos encargamos de todo el compliance fiscal por ti. <a href="/es/agendar">Agenda tu asesoría fiscal</a>.</p>
 </article>`,
 
   "how_we_work": `<article>
@@ -844,8 +844,8 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Cuánto tiempo tarda todo el proceso?</h2>
 <p>La constitución de la LLC tarda entre 2 y 4 semanas. La obtención del EIN puede tardar de 1 a 8 semanas adicionales según la carga del IRS. La apertura de cuenta bancaria es inmediata una vez tienes el EIN.</p>
 <h2>¿Qué pasa después de la constitución?</h2>
-<p>No te dejamos solo. El mantenimiento incluye todas las declaraciones fiscales, compliance continuo y acceso a asesoría siempre que lo necesites. <a href="/servicios">Ver planes de mantenimiento</a>.</p>
-<p><a href="/agendar-asesoria">Agenda tu diagnóstico fiscal estratégico</a> y comienza el proceso hoy.</p>
+<p>No te dejamos solo. El mantenimiento incluye todas las declaraciones fiscales, compliance continuo y acceso a asesoría siempre que lo necesites. <a href="/es/nuestros-servicios">Ver planes de mantenimiento</a>.</p>
+<p><a href="/es/agendar">Agenda tu diagnóstico fiscal estratégico</a> y comienza el proceso hoy.</p>
 </article>`,
 
   "our_services": `<article>
@@ -879,7 +879,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li>Configuración de Stripe para cobros internacionales</li>
 <li>Soporte por email y WhatsApp durante todo el proceso</li>
 </ul>
-<p>Sin costes ocultos. Sin permanencia. Cancela cuando quieras. <a href="/agendar-asesoria">Agenda tu asesoría fiscal</a>.</p>
+<p>Sin costes ocultos. Sin permanencia. Cancela cuando quieras. <a href="/es/agendar">Agenda tu asesoría fiscal</a>.</p>
 </article>`,
 
   "faq": `<article>
@@ -890,7 +890,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h3>¿Necesito viajar a Estados Unidos para abrir una LLC?</h3>
 <p>No. Todo el proceso es 100% remoto. Nos encargamos de la constitución, obtención del EIN, y apertura de cuenta bancaria sin que tengas que salir de tu país.</p>
 <h3>¿Cuál es el mejor estado para mi LLC?</h3>
-<p>Depende de tus prioridades: Nuevo México para menor coste, Wyoming para máxima privacidad, Delaware para el mejor marco legal (ideal si buscas inversores). <a href="/servicios">Consulta los planes disponibles</a>.</p>
+<p>Depende de tus prioridades: Nuevo México para menor coste, Wyoming para máxima privacidad, Delaware para el mejor marco legal (ideal si buscas inversores). <a href="/es/nuestros-servicios">Consulta los planes disponibles</a>.</p>
 <h3>¿Cuánto tarda constituir una LLC?</h3>
 <p>La constitución tarda entre 2 y 4 semanas. La obtención del EIN puede tardar de 1 a 8 semanas adicionales.</p>
 <h3>¿Puedo tener una LLC siendo empleado por cuenta ajena?</h3>
@@ -910,9 +910,9 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>El IRS impone sanciones significativas por no presentar el Form 1120 y Form 5472 dentro de plazo. Es una obligación seria que en Exentax gestionamos siempre a tiempo.</p>
 <h2>Sobre costes</h2>
 <h3>¿Cuánto cuesta abrir una LLC?</h3>
-<p>Ofrecemos planes de constitución en Nuevo México, Wyoming y Delaware. Incluye todo: constitución, EIN, agente registrado y cuenta bancaria. <a href="/agendar-asesoria">Consulta con nosotros para tu presupuesto personalizado</a>.</p>
+<p>Ofrecemos planes de constitución en Nuevo México, Wyoming y Delaware. Incluye todo: constitución, EIN, agente registrado y cuenta bancaria. <a href="/es/agendar">Consulta con nosotros para tu presupuesto personalizado</a>.</p>
 <h3>¿Cuánto cuesta el mantenimiento anual?</h3>
-<p>El mantenimiento incluye declaraciones IRS, compliance y soporte. Annual Report incluido en estados que lo exigen. <a href="/agendar-asesoria">Agenda una asesoría para conocer los costes</a>.</p>
+<p>El mantenimiento incluye declaraciones IRS, compliance y soporte. Annual Report incluido en estados que lo exigen. <a href="/es/agendar">Agenda una asesoría para conocer los costes</a>.</p>
 <h3>¿Hay costes ocultos?</h3>
 <p>No. Nuestros planes incluyen todo lo necesario. Sin permanencia, sin comisiones extra, sin sorpresas.</p>
 <h2>Sobre cuentas bancarias y pagos</h2>
@@ -920,7 +920,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Sí. La apertura de cuenta bancaria en Mercury o Relay es 100% online. Solo necesitas tu LLC constituida y el EIN. Nosotros gestionamos todo el proceso.</p>
 <h3>¿Puedo usar Stripe con mi LLC americana?</h3>
 <p>Sí. Con una LLC en EE.UU. tienes acceso completo a Stripe sin las restricciones que aplican a cuentas de otros países. Puedes cobrar en dólares, euros y más de 135 divisas.</p>
-<p>¿Más dudas? <a href="/agendar-asesoria">Agenda una asesoría fiscal</a> o escríbenos a <a href="mailto:hola@exentax.com">hola@exentax.com</a>.</p>
+<p>¿Más dudas? <a href="/es/agendar">Agenda una asesoría fiscal</a> o escríbenos a <a href="mailto:hola@exentax.com">hola@exentax.com</a>.</p>
 </article>`,
 
   "book": `<article>
@@ -1001,7 +1001,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Fiscalidad optimizada: del 40-47% hasta un 0%</li><li>Protección patrimonial</li><li>Banca en dólares con Mercury</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% remoto</li></ul>
 <h2>Mejores estados para tu LLC</h2>
 <p>Nuevo México (más económico), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
 </article>`,
 
   "/blog/form-5472-que-es-como-presentarlo": `<article>
@@ -1013,7 +1013,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Retiros de beneficios del dueño</li><li>Aportaciones de capital</li><li>Préstamos entre dueño y LLC</li><li>Pagos de gastos personales desde la LLC</li></ul>
 <h2>Plazos y presentación</h2>
 <p>Se presenta junto al Form 1120 antes del 15 de marzo. Si necesitas extensión, puedes solicitarla con el Form 7004 para extender el plazo hasta septiembre.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> — nos encargamos de todas las declaraciones ante el IRS.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> — nos encargamos de todas las declaraciones ante el IRS.</p>
 </article>`,
 
   "/blog/nuevo-mexico-vs-wyoming-vs-delaware": `<article>
@@ -1025,7 +1025,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Máxima privacidad. Datos de miembros no son públicos. Annual Report de $60/año. Protección de activos superior.</p>
 <h2>Delaware</h2>
 <p>Mejor marco legal. Court of Chancery especializado. Franchise Tax de $300/año. Recomendado si planeas buscar inversión.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y te recomendamos el estado que encaja con tu caso.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y te recomendamos el estado que encaja con tu caso.</p>
 </article>`,
 
   "/blog/ein-numero-fiscal-llc-como-obtenerlo": `<article>
@@ -1037,7 +1037,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Como no residente, debes completar el Form SS-4 y enviarlo por fax al IRS. El EIN es gratuito. Plazo: 4-7 días hábiles por fax.</p>
 <h2>EIN vs ITIN</h2>
 <p>El EIN es para empresas; el ITIN es para personas físicas no residentes. Para operar tu LLC, solo necesitas el EIN.</p>
-<p>En <a href="/servicios">todos nuestros planes</a> la obtención del EIN está incluida.</p>
+<p>En <a href="/es/nuestros-servicios">todos nuestros planes</a> la obtención del EIN está incluida.</p>
 </article>`,
 
   "/blog/cuenta-bancaria-mercury-llc-extranjero": `<article>
@@ -1049,7 +1049,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Solicitud online → verificación de identidad → verificación de empresa → aprobación en 1-3 días hábiles.</p>
 <h2>Alternativas</h2>
 <p>Relay, Wise Business y Brex son alternativas si Mercury no es la opción adecuada para tu caso.</p>
-<p>En Exentax nos encargamos de la <a href="/como-trabajamos">apertura de tu cuenta Mercury</a> como parte del proceso de constitución.</p>
+<p>En Exentax nos encargamos de la <a href="/es/como-trabajamos">apertura de tu cuenta Mercury</a> como parte del proceso de constitución.</p>
 </article>`,
 
   "/blog/autonomo-espana-vs-llc-estados-unidos": `<article>
@@ -1071,7 +1071,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>IVA no aplica en servicios B2B internacionales</li><li>Deducción por doble imposición internacional</li><li>Opciones de optimización fiscal avanzada</li></ul>
 <h2>Opciones disponibles</h2>
 <ul><li>Seguir como autónomo (30-40% carga fiscal)</li><li>LLC en EE.UU. (0% federal, estructura optimizada)</li><li>Cambio de residencia fiscal (0-10%)</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y analizamos tu caso concreto.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y analizamos tu caso concreto.</p>
 </article>`,
 
   "/blog/pagar-cero-impuestos-legalmente-llc": `<article>
@@ -1083,7 +1083,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>24% tipo fijo + exención de rentas extranjeras durante 6 años para nuevos residentes en España.</p>
 <h2>Residente en España</h2>
 <p>Sí, puedes pagar 0% de impuesto federal en EE.UU. con una LLC correctamente estructurada como no residente.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para saber qué aplica a tu caso.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber qué aplica a tu caso.</p>
 </article>`,
 
   "/blog/nomada-digital-residencia-fiscal": `<article>
@@ -1093,7 +1093,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Portugal NHR: 20% tipo fijo</li><li>Dubai: 0% IRPF</li><li>Georgia: 1% para freelancers</li><li>Paraguay: 0% sobre rentas extranjeras</li></ul>
 <h2>Setup ideal</h2>
 <p>LLC en EE.UU. (0% federal) + residencia fiscal favorable (0-10%) + Mercury + Stripe.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y diseñamos tu estructura fiscal.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y diseñamos tu estructura fiscal.</p>
 </article>`,
 
   "/blog/criptomonedas-trading-llc-impuestos": `<article>
@@ -1103,7 +1103,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Ganancias patrimoniales del 19% al 28%. Modelo 721 obligatorio si tienes más de 50.000€ en exchanges extranjeros.</p>
 <h2>Ventajas de la LLC para trading</h2>
 <ul><li>Separación patrimonial</li><li>Acceso a exchanges profesionales</li><li>Deducción de gastos de trading</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para traders.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para traders.</p>
 </article>`,
 
   "/blog/iva-servicios-digitales-internacional": `<article>
@@ -1115,7 +1115,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Sistema OSS si superas 10.000€/año en ventas B2C intracomunitarias.</p>
 <h2>Con LLC americana</h2>
 <p>La LLC no está en el sistema IVA europeo. Facturas sin IVA directamente.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre IVA internacional.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> sobre IVA internacional.</p>
 </article>`,
 
   "/blog/registered-agent-que-es-por-que-necesitas": `<article>
@@ -1125,7 +1125,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Notificaciones legales (Service of Process)</li><li>Correspondencia del estado</li><li>Documentos del IRS y FinCEN</li></ul>
 <h2>Sin Registered Agent</h2>
 <p>Tu LLC pierde el Good Standing y puede ser disuelta administrativamente.</p>
-<p>En Exentax, el Registered Agent está <a href="/servicios">incluido en todos nuestros planes</a>.</p>
+<p>En Exentax, el Registered Agent está <a href="/es/nuestros-servicios">incluido en todos nuestros planes</a>.</p>
 </article>`,
 
   "/blog/errores-fiscales-freelancers-espanoles": `<article>
@@ -1133,7 +1133,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Los errores fiscales más costosos: deducciones no aplicadas, IVA incorrecto, pagos fraccionados, y no aprovechar la optimización internacional. Hasta 30.000€/año en pérdidas evitables.</p>
 <h2>Errores principales</h2>
 <ol><li>No deducir todos los gastos permitidos (3.000-4.000€/año)</li><li>Epígrafe IAE incorrecto</li><li>No aplicar tarifa plana</li><li>IVA incorrecto en operaciones internacionales</li><li>Pagos fraccionados mal</li><li>Ignorar fiscalidad internacional (15.000-20.000€/año)</li><li>No planificar al cierre del ejercicio</li></ol>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y revisamos tu situación.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y revisamos tu situación.</p>
 </article>`,
 
   "/blog/como-operar-llc-dia-a-dia": `<article>
@@ -1141,7 +1141,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Guía práctica para operar tu LLC americana desde cualquier país: facturación, cobros, gastos, retiros personales (Owner's Draw) y contabilidad básica.</p>
 <h2>Operativa diaria</h2>
 <ul><li>Separar finanzas personales y de negocio</li><li>Facturar como LLC (nombre legal, EIN, datos bancarios)</li><li>Cobros: Wire, ACH, Stripe, PayPal, Wise</li><li>Gastos ordinarios y necesarios del negocio</li><li>Owner's Draw para retiros personales</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar tu operativa.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para configurar tu operativa.</p>
 </article>`,
 
   "/blog/operating-agreement-llc-que-es": `<article>
@@ -1149,7 +1149,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>El Operating Agreement es el documento interno más importante de tu LLC. Define las reglas de funcionamiento, clasificación fiscal y estructura de gestión.</p>
 <h2>Qué incluye</h2>
 <ul><li>Datos de la LLC y del miembro</li><li>Clasificación fiscal (Disregarded Entity)</li><li>Distribución de beneficios</li><li>Gestión (Member-Managed)</li><li>Condiciones de disolución</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para revisar tus documentos.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para revisar tus documentos.</p>
 </article>`,
 
   "/blog/documentos-llc-cuales-necesitas": `<article>
@@ -1157,7 +1157,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>El kit legal completo de tu LLC: Articles of Organization, EIN, Operating Agreement, BOI Report, Certificado de Good Standing y IRS Confirmation Letter.</p>
 <h2>Documentos esenciales</h2>
 <ol><li>Articles of Organization</li><li>EIN (Employer Identification Number)</li><li>Operating Agreement</li><li>BOI Report</li><li>Certificado de Good Standing</li><li>IRS Confirmation Letter (CP 575)</li></ol>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y revisamos tu documentación.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y revisamos tu documentación.</p>
 </article>`,
 
   "/blog/mantenimiento-anual-llc-obligaciones": `<article>
@@ -1165,7 +1165,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Para mantener tu LLC activa necesitas cumplir con obligaciones anuales: Annual Report, Form 5472+1120, FBAR, Registered Agent y BOI Report.</p>
 <h2>Calendario anual</h2>
 <ul><li>Form 1120 + Form 5472: antes del 15 de marzo (extensión hasta septiembre con Form 7004)</li><li>FBAR: antes del 15 de abril (si >$10K)</li><li>Annual Report: según estado</li><li>Renovar Registered Agent</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre mantenimiento anual.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> sobre mantenimiento anual.</p>
 </article>`,
 
   "/blog/wise-business-llc-guia": `<article>
@@ -1173,7 +1173,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Wise Business permite recibir, convertir y enviar dinero en 40+ divisas con tipo de cambio real. Complemento perfecto de Mercury.</p>
 <h2>Funcionalidades</h2>
 <ul><li>Cuentas en múltiples divisas</li><li>Tipo de cambio real (mid-market)</li><li>Datos bancarios locales</li><li>Tarjeta de débito</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar Wise.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para configurar Wise.</p>
 </article>`,
 
   "/blog/pasarelas-pago-llc-stripe-paypal-dodo": `<article>
@@ -1181,7 +1181,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Compara las mejores pasarelas de pago para tu LLC: Stripe (2.9%+$0.30), PayPal (2.99%+$0.49) y Dodo Payments.</p>
 <h2>Comparativa</h2>
 <ul><li>Stripe: SaaS, productos digitales, API potente</li><li>PayPal: freelancers, B2B, reconocimiento de marca</li><li>Dodo Payments: ventas globales con IVA</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para elegir tu pasarela.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para elegir tu pasarela.</p>
 </article>`,
 
   "/blog/amazon-ecommerce-llc-vender-online": `<article>
@@ -1189,7 +1189,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Con una LLC puedes vender en Amazon FBA, Shopify y Etsy sin restricciones geográficas. Acceso completo a los mayores marketplaces del mundo.</p>
 <h2>Qué necesitas</h2>
 <ul><li>LLC constituida</li><li>EIN</li><li>Cuenta Mercury</li><li>Pasaporte del propietario</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para lanzar tu ecommerce.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para lanzar tu ecommerce.</p>
 </article>`,
 
   "/blog/gastos-deducibles-llc-que-puedes-deducir": `<article>
@@ -1199,7 +1199,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Software y herramientas</li><li>Servicios profesionales</li><li>Marketing y publicidad</li><li>Hardware de trabajo</li><li>Formación profesional</li></ul>
 <h2>No deducibles</h2>
 <ul><li>Gastos personales</li><li>Multas y sanciones</li><li>Owner's Draws (son distribuciones)</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> sobre deducciones.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> sobre deducciones.</p>
 </article>`,
 
   "/blog/residentes-no-residentes-llc-diferencias": `<article>
@@ -1207,7 +1207,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>La fiscalidad cambia radicalmente según tu estatus: residente paga 30-40% (impuestos + Self-Employment Tax), no residente paga 0% federal en EE.UU.</p>
 <h2>Diferencias principales</h2>
 <ul><li>Residente: impuesto federal 10-37% + Self-Employment Tax 15.3%</li><li>No residente: 0% federal US, tributa en país de residencia</li><li>Formularios diferentes: Schedule C vs Form 5472</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para entender tu caso.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para entender tu caso.</p>
 </article>`,
 
   "/blog/cambiar-divisas-llc-mejores-opciones": `<article>
@@ -1215,7 +1215,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Compara Wise (0.4-1.5%), Mercury wire (1-2%), bancos tradicionales (3-5%) y PayPal (4-6%) para convertir divisas en tu LLC.</p>
 <h2>Flujo recomendado</h2>
 <ol><li>Cobrar USD en Mercury</li><li>Transferir a Wise (ACH gratis)</li><li>Convertir al tipo de cambio real</li><li>Enviar a cuenta local</li></ol>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para optimizar tus conversiones.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para optimizar tus conversiones.</p>
 </article>`,
 
   "/blog/constituir-llc-proceso-paso-a-paso": `<article>
@@ -1223,7 +1223,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>El proceso completo: elegir estado, nombre, Registered Agent, Articles of Organization, EIN, Operating Agreement, BOI Report, cuenta bancaria y pasarelas de pago.</p>
 <h2>Pasos principales</h2>
 <ol><li>Elegir estado (NM, WY, DE)</li><li>Elegir nombre</li><li>Designar Registered Agent</li><li>Presentar Articles of Organization</li><li>Obtener EIN</li><li>Redactar Operating Agreement</li><li>Presentar BOI Report</li><li>Abrir cuenta bancaria</li></ol>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para que te guiemos.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para que te guiemos.</p>
 </article>`,
 
   "/blog/autonomos-espana-por-que-dejar-de-serlo": `<article>
@@ -1233,7 +1233,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Con 60.000€/año: cuota ~3.600€, IRPF 24-37%, IVA 21%. Te quedan entre 32.000€ y 38.000€. Casi la mitad se va.</p>
 <h2>La alternativa: LLC en EE.UU.</h2>
 <ul><li>0% impuesto federal</li><li>Protección patrimonial completa</li><li>Acceso a banca americana</li><li>Sin cuota fija mensual</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> y analizamos tu caso.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> y analizamos tu caso.</p>
 </article>`,
 
   "/blog/bancos-vs-fintech-llc-donde-abrir-cuenta": `<article>
@@ -1243,7 +1243,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Banco: licencia bancaria propia, FDIC directo</li><li>Fintech: tecnología financiera, FDIC a través de banco partner</li></ul>
 <h2>Comparativa</h2>
 <p>Mercury (FDIC hasta $5M), Relay (FDIC $250K), Wise (safeguarding, no FDIC), Revolut (FDIC $250K).</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para elegir la mejor opción.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para elegir la mejor opción.</p>
 </article>`,
 
   "/blog/tiempos-pagos-ach-wire-transfer": `<article>
@@ -1251,7 +1251,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Tiempos reales: ACH Standard 1-3 días, ACH Same-Day mismo día, Wire doméstico 2-6 horas, Wire internacional 1-5 días, Wise 1-2 días.</p>
 <h2>Factores que afectan</h2>
 <ul><li>Hora de envío y horario de corte</li><li>Días hábiles vs fines de semana</li><li>Bancos intermediarios en wires internacionales</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar tus flujos de pago.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para configurar tus flujos de pago.</p>
 </article>`,
 
   "/blog/iban-swift-routing-number-que-son": `<article>
@@ -1259,7 +1259,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Routing Number (9 dígitos, EE.UU.), SWIFT/BIC (8-11 caracteres, internacional), IBAN (15-34 caracteres, Europa). Son las direcciones de tu cuenta bancaria.</p>
 <h2>¿Qué dar a cada cliente?</h2>
 <ul><li>Cliente americano: Routing Number + Account Number</li><li>Cliente europeo: SWIFT + Account o IBAN de Wise (SEPA)</li><li>Cliente LatAm: SWIFT + Account o datos locales de Wise</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar tus cobros.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para configurar tus cobros.</p>
 </article>`,
 
   "/blog/cuanto-cuesta-constituir-llc": `<article>
@@ -1269,7 +1269,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Filing fee estatal</li><li>Registered Agent</li><li>EIN</li><li>Operating Agreement</li><li>BOI Report</li></ul>
 <h2>El coste de NO tener LLC</h2>
 <p>Si facturas una cantidad significativa al año como autónomo pagando 40%, la diferencia con una LLC optimizada puede ser muy relevante. Usa nuestra calculadora para estimar tu ahorro.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para tu presupuesto exacto.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para tu presupuesto exacto.</p>
 </article>`,
 
   "/blog/ventajas-desventajas-llc-no-residentes": `<article>
@@ -1278,7 +1278,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>0% impuesto federal EE.UU.</li><li>Protección patrimonial</li><li>Acceso a banca y pagos internacionales</li><li>Credibilidad internacional</li><li>Sin cuota fija mensual</li></ul>
 <h2>Desventajas</h2>
 <ul><li>Obligaciones de compliance (Form 5472, FBAR)</li><li>Coste de mantenimiento anual</li><li>Complejidad fiscal internacional</li><li>Riesgo de bloqueos bancarios si no operas bien</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para analizar si te conviene.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para analizar si te conviene.</p>
 </article>`,
 
   "/blog/evitar-bloqueos-mercury-wise-revolut": `<article>
@@ -1288,7 +1288,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Movimientos inconsistentes con el perfil</li><li>Mezclar fondos personales y de negocio</li><li>No responder a verificaciones</li><li>Transacciones a países sancionados</li></ul>
 <h2>Diversifica cuentas</h2>
 <p>Mercury (principal) + Wise (conversiones) + Relay (respaldo). Nunca dependas de una sola cuenta.</p>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para configurar tus cuentas.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para configurar tus cuentas.</p>
 </article>`,
 
   "/blog/que-es-irs-guia-duenos-llc": `<article>
@@ -1296,7 +1296,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>El IRS (Internal Revenue Service) es la agencia tributaria de EE.UU. — equivalente a la AEAT en España o el SAT en México. Si tienes una LLC, el IRS te asigna el EIN y recibe tus declaraciones anuales.</p>
 <h2>Obligaciones con el IRS</h2>
 <ul><li>EIN: número fiscal de tu LLC</li><li>Form 1120 + Form 5472: declaración corporativa e informativa anual</li><li>Sanciones significativas por no presentar</li><li>Plazo: 15 de marzo (extensión hasta 15 de septiembre con Form 7004)</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para entender tus obligaciones.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para entender tus obligaciones.</p>
 </article>`,
 
   "/blog/llc-seguridad-juridica-proteccion-patrimonial": `<article>
@@ -1306,7 +1306,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <ul><li>Autónomo: responsabilidad ilimitada (casa, ahorros en riesgo)</li><li>LLC: responsabilidad limitada (solo activos de la LLC)</li></ul>
 <h2>Cómo mantener la protección</h2>
 <ul><li>Separar cuentas personales y de negocio</li><li>Documentar todo (facturas, contratos)</li><li>Mantener Operating Agreement actualizado</li><li>Cumplir obligaciones fiscales</li></ul>
-<p><a href="/agendar-asesoria">Agenda una asesoría fiscal</a> para proteger tu patrimonio.</p>
+<p><a href="/es/agendar">Agenda una asesoría fiscal</a> para proteger tu patrimonio.</p>
 </article>`,
 };
 
@@ -1436,7 +1436,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
           "position": 1,
           "name": "Diagnóstico Fiscal Estratégico",
           "text": "Videollamada de 30 minutos donde analizamos tu situación fiscal actual, tus ingresos, tu país de residencia y tu tipo de actividad. Determinamos si una LLC americana es la mejor opción.",
-          "url": `${BASE_URL}/agendar-asesoria`
+          "url": `${BASE_URL}/es/agendar`
         },
         {
           "@type": "HowToStep",
@@ -1450,14 +1450,14 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
           "position": 3,
           "name": "Apertura de Cuentas Bancarias",
           "text": "Abrimos tu cuenta bancaria empresarial en Mercury o Relay en dólares. Configuramos Stripe y las pasarelas de pago para facturar internacionalmente.",
-          "url": `${BASE_URL}/servicios`
+          "url": `${BASE_URL}/es/nuestros-servicios`
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Compliance y Mantenimiento Anual",
           "text": "Gestión fiscal continua: Form 5472, Form 1120, BOI Report, renovación de agente registrado, Annual Report y asesoría fiscal permanente. Tu LLC siempre en regla.",
-          "url": `${BASE_URL}/servicios`
+          "url": `${BASE_URL}/es/nuestros-servicios`
         }
       ]
     }
@@ -1479,7 +1479,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": `${BASE_URL}/servicios`,
+        "url": `${BASE_URL}/es/nuestros-servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "seller": { "@type": "Organization", "name": BRAND_NAME }
@@ -1494,7 +1494,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": `${BASE_URL}/servicios`,
+        "url": `${BASE_URL}/es/nuestros-servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "seller": { "@type": "Organization", "name": BRAND_NAME }
@@ -1509,7 +1509,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "brand": { "@type": "Brand", "name": BRAND_NAME },
       "offers": {
         "@type": "Offer",
-        "url": `${BASE_URL}/servicios`,
+        "url": `${BASE_URL}/es/nuestros-servicios`,
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
         "seller": { "@type": "Organization", "name": BRAND_NAME }
@@ -1528,12 +1528,12 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "@type": "OfferCatalog",
         "name": "Planes de constitución LLC",
         "itemListElement": [
-          { "@type": "Offer", "name": "LLC Nuevo México", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` },
-          { "@type": "Offer", "name": "LLC Wyoming", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` },
-          { "@type": "Offer", "name": "LLC Delaware", "priceCurrency": "EUR", "url": `${BASE_URL}/servicios` }
+          { "@type": "Offer", "name": "LLC Nuevo México", "priceCurrency": "EUR", "url": `${BASE_URL}/es/nuestros-servicios` },
+          { "@type": "Offer", "name": "LLC Wyoming", "priceCurrency": "EUR", "url": `${BASE_URL}/es/nuestros-servicios` },
+          { "@type": "Offer", "name": "LLC Delaware", "priceCurrency": "EUR", "url": `${BASE_URL}/es/nuestros-servicios` }
         ]
       },
-      "url": `${BASE_URL}/servicios`
+      "url": `${BASE_URL}/es/nuestros-servicios`
     }
   ],
   "faq": [
@@ -1542,7 +1542,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Preguntas Frecuentes", "item": `${BASE_URL}/preguntas-frecuentes` }
+        { "@type": "ListItem", "position": 2, "name": "Preguntas Frecuentes", "item": `${BASE_URL}/es/preguntas-frecuentes` }
       ]
     }
   ],
@@ -1552,7 +1552,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Asesoría Fiscal Estratégica", "item": `${BASE_URL}/agendar-asesoria` }
+        { "@type": "ListItem", "position": 2, "name": "Asesoría Fiscal Estratégica", "item": `${BASE_URL}/es/agendar` }
       ]
     },
     {
@@ -1575,7 +1575,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "price": "50",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "url": `${BASE_URL}/agendar-asesoria`
+        "url": `${BASE_URL}/es/agendar`
       },
       "termsOfService": `${BASE_URL}/legal/terminos`,
       "availableChannel": {

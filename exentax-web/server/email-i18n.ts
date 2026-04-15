@@ -96,40 +96,6 @@ interface EmailTranslations {
     whatsappNote: string;
     unsubNote: string;
   };
-  followupSteps: {
-    subject: string;
-    heading: (name: string) => string;
-    intro1: string;
-    intro2: string;
-    intro3: string;
-    recommendTitle: string;
-    recommendSuffix: string;
-    clarityNote1: string;
-    clarityNote2: string;
-    ctaIntro: string;
-    ctaButton: string;
-    ctaDesc: string;
-    optionalNote: string;
-    costNote: string;
-    closing: string;
-    unsubNote: string;
-  };
-  followupReview: {
-    subject: string;
-    heading: (name: string) => string;
-    intro1: string;
-    intro2: string;
-    intro3: string;
-    coherenceTitle: string;
-    coherenceItems: string[];
-    ctaAction: string;
-    ctaActionLabel: string;
-    ctaBookingIntro: string;
-    ctaBookingLabel: string;
-    notForEveryone: string;
-    ifFitsNote: string;
-    unsubNote: string;
-  };
   noShow: {
     subject: string;
     heading: (name: string) => string;
@@ -265,45 +231,6 @@ const translations: Record<Lang, EmailTranslations> = {
       whatsappNote: "Si necesitas comentar algo antes:",
       unsubNote: "Has recibido este email porque cancelaste una asesoría en exentax.com.",
     },
-    followupSteps: {
-      subject: "Siguientes pasos",
-      heading: (name) => `Hola ${name},`,
-      intro1: "Después de lo que hemos visto, la situación es bastante clara.",
-      intro2: "Puedes seguir como estás o reordenar la estructura para que tenga sentido a medio plazo.",
-      intro3: "Tal y como estás operando ahora, hay puntos que no son eficientes y que con el tiempo suelen dar problemas.",
-      recommendTitle: "Nuestra recomendación",
-      recommendSuffix: "Sin complicarlo más de lo necesario, pero sin hacerlo mal.",
-      clarityNote1: "Esto no va de abrir una empresa sin más.",
-      clarityNote2: "Va de dejar bien planteado cómo operas: ingresos, cobros, cuentas y parte fiscal.",
-      ctaIntro: "Si quieres avanzar:",
-      ctaButton: "Avanzar ahora",
-      ctaDesc: "Nos encargamos de que todo quede bien configurado desde el inicio.",
-      optionalNote: "Si no es el momento, no pasa nada.",
-      costNote: "Pero es importante entender que mantener la estructura actual también tiene un coste.",
-      closing: "Quedamos atentos,",
-      unsubNote: "Has recibido este email porque completaste una asesoría en exentax.com.",
-    },
-    followupReview: {
-      subject: "Lo vemos contigo si quieres hacerlo bien",
-      heading: (name) => `Hola ${name},`,
-      intro1: "Hemos revisado tu caso.",
-      intro2: "Tiene sentido estructurarlo, pero solo si se hace bien desde el principio.",
-      intro3: "Montar una estructura sin entender cómo encaja en tu operativa no sirve.",
-      coherenceTitle: "Lo importante es que todo tenga coherencia:",
-      coherenceItems: [
-        "cómo generas ingresos",
-        "cómo cobras",
-        "qué cuentas utilizas",
-        "cómo tributa",
-      ],
-      ctaAction: "Si quieres hacerlo correctamente:",
-      ctaActionLabel: "Empezar ahora",
-      ctaBookingIntro: "Si prefieres verlo antes en una asesoría:",
-      ctaBookingLabel: "Reservar asesoría",
-      notForEveryone: "No es para todo el mundo.",
-      ifFitsNote: "Pero si encaja, conviene hacerlo bien desde el inicio.",
-      unsubNote: "Has recibido este email porque contactaste con exentax.com.",
-    },
     noShow: {
       subject: "No hemos podido coincidir hoy",
       heading: (name: string) => `Hola ${name},`,
@@ -437,45 +364,6 @@ const translations: Record<Lang, EmailTranslations> = {
       rebookDesc: "When you do, we'll review it properly and with substance, not with generic approaches.",
       whatsappNote: "If you need to discuss something first:",
       unsubNote: "You received this email because you cancelled a consultation at exentax.com.",
-    },
-    followupSteps: {
-      subject: "Next steps",
-      heading: (name) => `Hi ${name},`,
-      intro1: "After what we've reviewed, the situation is fairly clear.",
-      intro2: "You can continue as you are or restructure things so they make sense in the medium term.",
-      intro3: "The way you're currently operating, there are points that aren't efficient and that tend to cause problems over time.",
-      recommendTitle: "Our recommendation",
-      recommendSuffix: "Without overcomplicating it, but without doing it wrong.",
-      clarityNote1: "This isn't about opening a company for the sake of it.",
-      clarityNote2: "It's about properly setting up how you operate: income, payments, accounts, and taxes.",
-      ctaIntro: "If you want to move forward:",
-      ctaButton: "Get started",
-      ctaDesc: "We'll make sure everything is properly configured from the start.",
-      optionalNote: "If now isn't the right time, that's fine.",
-      costNote: "But it's important to understand that keeping your current structure also has a cost.",
-      closing: "We're here when you're ready,",
-      unsubNote: "You received this email because you completed a consultation at exentax.com.",
-    },
-    followupReview: {
-      subject: "We'll go through it with you if you want to do it right",
-      heading: (name) => `Hi ${name},`,
-      intro1: "We've reviewed your case.",
-      intro2: "It makes sense to structure it, but only if it's done right from the start.",
-      intro3: "Setting up a structure without understanding how it fits your operations doesn't work.",
-      coherenceTitle: "What matters is that everything is coherent:",
-      coherenceItems: [
-        "how you generate income",
-        "how you collect payments",
-        "what accounts you use",
-        "how it's taxed",
-      ],
-      ctaAction: "If you want to do it correctly:",
-      ctaActionLabel: "Get started",
-      ctaBookingIntro: "If you'd rather review it first in a consultation:",
-      ctaBookingLabel: "Book a consultation",
-      notForEveryone: "It's not for everyone.",
-      ifFitsNote: "But if it fits, it's worth doing it right from the start.",
-      unsubNote: "You received this email because you contacted exentax.com.",
     },
     noShow: {
       subject: "We couldn't connect today",
@@ -611,45 +499,6 @@ const translations: Record<Lang, EmailTranslations> = {
       whatsappNote: "Si vous avez besoin de discuter avant :",
       unsubNote: "Vous avez reçu cet email car vous avez annulé une consultation sur exentax.com.",
     },
-    followupSteps: {
-      subject: "Prochaines étapes",
-      heading: (name) => `Bonjour ${name},`,
-      intro1: "Après ce que nous avons vu, la situation est assez claire.",
-      intro2: "Vous pouvez continuer comme vous êtes ou réorganiser la structure pour qu'elle ait du sens à moyen terme.",
-      intro3: "Tel que vous opérez actuellement, il y a des points qui ne sont pas efficaces et qui, avec le temps, ont tendance à poser des problèmes.",
-      recommendTitle: "Notre recommandation",
-      recommendSuffix: "Sans compliquer plus que nécessaire, mais sans mal faire.",
-      clarityNote1: "Il ne s'agit pas d'ouvrir une entreprise pour le plaisir.",
-      clarityNote2: "Il s'agit de bien organiser votre fonctionnement : revenus, encaissements, comptes et fiscalité.",
-      ctaIntro: "Si vous voulez avancer :",
-      ctaButton: "Avancer maintenant",
-      ctaDesc: "Nous nous assurons que tout est bien configuré dès le départ.",
-      optionalNote: "Si ce n'est pas le moment, pas de problème.",
-      costNote: "Mais il est important de comprendre que maintenir la structure actuelle a aussi un coût.",
-      closing: "Nous restons à votre disposition,",
-      unsubNote: "Vous avez reçu cet email car vous avez complété une consultation sur exentax.com.",
-    },
-    followupReview: {
-      subject: "On le voit avec vous si vous voulez bien faire",
-      heading: (name) => `Bonjour ${name},`,
-      intro1: "Nous avons examiné votre cas.",
-      intro2: "Cela a du sens de le structurer, mais seulement si c'est bien fait dès le départ.",
-      intro3: "Monter une structure sans comprendre comment elle s'intègre à votre activité ne sert à rien.",
-      coherenceTitle: "L'important est que tout soit cohérent :",
-      coherenceItems: [
-        "comment vous générez des revenus",
-        "comment vous encaissez",
-        "quels comptes vous utilisez",
-        "comment c'est imposé",
-      ],
-      ctaAction: "Si vous voulez le faire correctement :",
-      ctaActionLabel: "Commencer maintenant",
-      ctaBookingIntro: "Si vous préférez d'abord en discuter lors d'une consultation :",
-      ctaBookingLabel: "Réserver une consultation",
-      notForEveryone: "Ce n'est pas pour tout le monde.",
-      ifFitsNote: "Mais si cela correspond, mieux vaut bien faire dès le départ.",
-      unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
-    },
     noShow: {
       subject: "Nous n'avons pas pu nous retrouver aujourd'hui",
       heading: (name: string) => `Bonjour ${name},`,
@@ -783,45 +632,6 @@ const translations: Record<Lang, EmailTranslations> = {
       rebookDesc: "Wenn Sie es tun, prüfen wir es gründlich und fundiert, nicht mit generischen Ansätzen.",
       whatsappNote: "Wenn Sie vorher etwas besprechen möchten:",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie eine Beratung auf exentax.com storniert haben.",
-    },
-    followupSteps: {
-      subject: "Nächste Schritte",
-      heading: (name) => `Hallo ${name},`,
-      intro1: "Nach dem, was wir gesehen haben, ist die Situation ziemlich klar.",
-      intro2: "Sie können weitermachen wie bisher oder die Struktur so umorganisieren, dass sie mittelfristig Sinn ergibt.",
-      intro3: "So wie Sie derzeit arbeiten, gibt es Punkte, die nicht effizient sind und mit der Zeit zu Problemen neigen.",
-      recommendTitle: "Unsere Empfehlung",
-      recommendSuffix: "Ohne es unnötig zu verkomplizieren, aber ohne es falsch zu machen.",
-      clarityNote1: "Es geht nicht darum, einfach ein Unternehmen zu gründen.",
-      clarityNote2: "Es geht darum, richtig aufzustellen, wie Sie arbeiten: Einkommen, Zahlungseingänge, Konten und Steuerseite.",
-      ctaIntro: "Wenn Sie vorankommen möchten:",
-      ctaButton: "Jetzt starten",
-      ctaDesc: "Wir sorgen dafür, dass alles von Anfang an richtig konfiguriert ist.",
-      optionalNote: "Wenn jetzt nicht der richtige Zeitpunkt ist, kein Problem.",
-      costNote: "Aber es ist wichtig zu verstehen, dass die aktuelle Struktur beizubehalten auch Kosten verursacht.",
-      closing: "Wir sind bereit, wenn Sie es sind,",
-      unsubNote: "Sie haben diese E-Mail erhalten, weil Sie eine Beratung auf exentax.com abgeschlossen haben.",
-    },
-    followupReview: {
-      subject: "Wir gehen es mit Ihnen durch, wenn Sie es richtig machen wollen",
-      heading: (name) => `Hallo ${name},`,
-      intro1: "Wir haben Ihren Fall geprüft.",
-      intro2: "Es ergibt Sinn, ihn zu strukturieren, aber nur wenn es von Anfang an richtig gemacht wird.",
-      intro3: "Eine Struktur aufzubauen, ohne zu verstehen, wie sie in Ihren Betrieb passt, bringt nichts.",
-      coherenceTitle: "Wichtig ist, dass alles zusammenpasst:",
-      coherenceItems: [
-        "wie Sie Einkommen generieren",
-        "wie Sie kassieren",
-        "welche Konten Sie nutzen",
-        "wie es besteuert wird",
-      ],
-      ctaAction: "Wenn Sie es korrekt machen möchten:",
-      ctaActionLabel: "Jetzt starten",
-      ctaBookingIntro: "Wenn Sie es lieber zuerst in einer Beratung besprechen möchten:",
-      ctaBookingLabel: "Beratung buchen",
-      notForEveryone: "Es ist nicht für jeden.",
-      ifFitsNote: "Aber wenn es passt, lohnt es sich, es von Anfang an richtig zu machen.",
-      unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
     },
     noShow: {
       subject: "Wir konnten uns heute nicht treffen",
@@ -957,45 +767,6 @@ const translations: Record<Lang, EmailTranslations> = {
       whatsappNote: "Se precisar de falar antes:",
       unsubNote: "Recebeu este email porque cancelou uma consultoria em exentax.com.",
     },
-    followupSteps: {
-      subject: "Próximos passos",
-      heading: (name) => `Olá ${name},`,
-      intro1: "Depois do que vimos, a situação é bastante clara.",
-      intro2: "Pode continuar como está ou reorganizar a estrutura para que faça sentido a médio prazo.",
-      intro3: "Tal como está a operar agora, há pontos que não são eficientes e que, com o tempo, tendem a causar problemas.",
-      recommendTitle: "A nossa recomendação",
-      recommendSuffix: "Sem complicar mais do que o necessário, mas sem fazer mal.",
-      clarityNote1: "Isto não é sobre abrir uma empresa por abrir.",
-      clarityNote2: "É sobre deixar bem organizado como opera: rendimentos, cobranças, contas e parte fiscal.",
-      ctaIntro: "Se quiser avançar:",
-      ctaButton: "Avançar agora",
-      ctaDesc: "Garantimos que tudo fica bem configurado desde o início.",
-      optionalNote: "Se não for o momento, não há problema.",
-      costNote: "Mas é importante perceber que manter a estrutura atual também tem um custo.",
-      closing: "Ficamos à disposição,",
-      unsubNote: "Recebeu este email porque completou uma consultoria em exentax.com.",
-    },
-    followupReview: {
-      subject: "Vemos consigo se quiser fazer bem",
-      heading: (name) => `Olá ${name},`,
-      intro1: "Revimos o seu caso.",
-      intro2: "Faz sentido estruturá-lo, mas só se for bem feito desde o início.",
-      intro3: "Montar uma estrutura sem entender como encaixa na sua operação não funciona.",
-      coherenceTitle: "O importante é que tudo tenha coerência:",
-      coherenceItems: [
-        "como gera rendimentos",
-        "como recebe",
-        "que contas utiliza",
-        "como tributa",
-      ],
-      ctaAction: "Se quiser fazê-lo corretamente:",
-      ctaActionLabel: "Começar agora",
-      ctaBookingIntro: "Se preferir ver primeiro numa consultoria:",
-      ctaBookingLabel: "Marcar consultoria",
-      notForEveryone: "Não é para toda a gente.",
-      ifFitsNote: "Mas se encaixar, vale a pena fazer bem desde o início.",
-      unsubNote: "Recebeu este email porque contactou exentax.com.",
-    },
     noShow: {
       subject: "Não conseguimos nos encontrar hoje",
       heading: (name: string) => `Olá ${name},`,
@@ -1129,45 +900,6 @@ const translations: Record<Lang, EmailTranslations> = {
       rebookDesc: "Quan ho facis, ho revisem bé i amb fonament, no amb plantejaments genèrics.",
       whatsappNote: "Si necessites comentar alguna cosa abans:",
       unsubNote: "Has rebut aquest email perquè has cancel·lat una assessoria a exentax.com.",
-    },
-    followupSteps: {
-      subject: "Següents passos",
-      heading: (name) => `Hola ${name},`,
-      intro1: "Després del que hem vist, la situació és bastant clara.",
-      intro2: "Pots seguir com estàs o reordenar l'estructura perquè tingui sentit a mig termini.",
-      intro3: "Tal com estàs operant ara, hi ha punts que no són eficients i que amb el temps solen donar problemes.",
-      recommendTitle: "La nostra recomanació",
-      recommendSuffix: "Sense complicar-ho més del necessari, però sense fer-ho malament.",
-      clarityNote1: "Això no va d'obrir una empresa per obrir.",
-      clarityNote2: "Va de deixar ben plantejat com operes: ingressos, cobraments, comptes i part fiscal.",
-      ctaIntro: "Si vols avançar:",
-      ctaButton: "Avançar ara",
-      ctaDesc: "Ens encarreguem que tot quedi ben configurat des de l'inici.",
-      optionalNote: "Si no és el moment, no passa res.",
-      costNote: "Però és important entendre que mantenir l'estructura actual també té un cost.",
-      closing: "Quedem atents,",
-      unsubNote: "Has rebut aquest email perquè has completat una assessoria a exentax.com.",
-    },
-    followupReview: {
-      subject: "Ho veiem amb tu si vols fer-ho bé",
-      heading: (name) => `Hola ${name},`,
-      intro1: "Hem revisat el teu cas.",
-      intro2: "Té sentit estructurar-lo, però només si es fa bé des del principi.",
-      intro3: "Muntar una estructura sense entendre com encaixa en la teva operativa no serveix.",
-      coherenceTitle: "L'important és que tot tingui coherència:",
-      coherenceItems: [
-        "com generes ingressos",
-        "com cobres",
-        "quins comptes utilitzes",
-        "com tributa",
-      ],
-      ctaAction: "Si vols fer-ho correctament:",
-      ctaActionLabel: "Començar ara",
-      ctaBookingIntro: "Si prefereixes veure-ho abans en una assessoria:",
-      ctaBookingLabel: "Reservar assessoria",
-      notForEveryone: "No és per a tothom.",
-      ifFitsNote: "Però si encaixa, val la pena fer-ho bé des de l'inici.",
-      unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
     },
     noShow: {
       subject: "No hem pogut coincidir avui",

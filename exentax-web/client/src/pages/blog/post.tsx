@@ -15,7 +15,7 @@ const LANG_LOCALE_MAP: Record<string, string> = {
   es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", pt: "pt-PT", ca: "ca-ES",
 };
 
-function parseMarkdown(content: string, agendarPath: string = "/agendar-asesoria"): string {
+function parseMarkdown(content: string, agendarPath: string = "/es/agendar"): string {
   const lines = content.split("\n");
   let html = "";
   let listType: "ul" | "ol" | null = null;
