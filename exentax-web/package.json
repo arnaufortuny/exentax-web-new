@@ -13,7 +13,6 @@
     "i18n:check": "tsx scripts/generate-i18n-types.ts && tsx scripts/validate-i18n.ts"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^1.0.2",
     "@tanstack/react-query": "^5.90.21",
     "@types/compression": "^1.8.1",
     "@types/dompurify": "^3.0.5",
@@ -35,8 +34,6 @@
     "helmet": "^8.1.0",
     "i18next": "^25.8.18",
     "ioredis": "^5.10.1",
-    "isomorphic-dompurify": "^3.8.0",
-    "lucide-react": "^0.577.0",
     "nanoid": "^5.1.6",
     "pg": "^8.20.0",
     "postcss": "^8.5.8",
@@ -50,8 +47,5 @@
     "wouter": "^3.9.0",
     "zod": "^3.24.2"
   },
-  "devDependencies": {},
-  "optionalDependencies": {
-    "bufferutil": "^4.0.8"
-  }
+  "devDependencies": {}
 }

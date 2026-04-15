@@ -258,7 +258,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             termsAccepted: privacyAccepted,
             marketingAccepted: marketingAccepted,
             consentDateTime: new Date().toISOString(),
-            closed: false,
             economicActivity: activity || null,
             ip,
             date: todayMadridISO(),
@@ -303,8 +302,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         notifyBookingCreated({ bookingId: bookingLeadId, manageToken, name, email, phone, date, startTime, endTime, meetLink, language, ip });
         sheetsLogBooking({ bookingId: bookingLeadId, name, email, phone, date, startTime, endTime, language, status: AGENDA_STATUSES.PENDIENTE, meetLink });
         getCachedPrivacyVersion().then(privacyVersion => {
-          logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion, ip });
-          sheetsLogConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "/agendar-asesoria", privacyVersion });
+          logConsent({ formType: "booking", email, privacyAccepted: privacyAccepted, marketingAccepted: marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
+          sheetsLogConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion });
         }).catch(err => logger.warn(`Booking consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
         return { error: false as const, date, startTime, endTime, meetLink, status: "confirmed" };
       });
@@ -589,7 +588,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           privacyAccepted: parsed.data.privacyAccepted,
           termsAccepted: parsed.data.privacyAccepted,
           marketingAccepted: parsed.data.marketingAccepted,
-          closed: false,
           economicActivity: parsed.data.activity || null,
           estimatedProfit: Number.isFinite(annualIncome) ? String(annualIncome) : null,
           ip: calcIp,
@@ -642,8 +640,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     notifyCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, ip: calcIp });
     sheetsLogCalculatorLead({ leadId: calcLeadId, email: normalizedEmail, country: parsed.data.country, regime: parsed.data.regime, ahorro: parsed.data.ahorro, annualIncome, language: parsed.data.language, marketingAccepted: parsed.data.marketingAccepted ?? false });
     getCachedPrivacyVersion().then(privacyVersion => {
-      logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "/calculadora", privacyVersion, ip: calcIp });
-      sheetsLogConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "/calculadora", privacyVersion });
+      logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcIp });
+      sheetsLogConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion });
     }).catch(err => logger.warn(`Calculator consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res);
   }));
@@ -757,7 +755,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       utmMedium: str(b.utm_medium, 100),
       utmCampaign: str(b.utm_campaign, 200),
       utmContent: str(b.utm_content, 200),
-      country: null,
       device: dispositivo,
       sessionId: str(b.sessionId, 64),
     }).catch((err) =>

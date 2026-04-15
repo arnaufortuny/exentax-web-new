@@ -35,10 +35,10 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Circuit Breaker**: Email and Google Calendar calls protected by circuit breaker pattern.
 
 ### Database Tables (schema.ts)
-- `leads` — Booking leads
+- `leads` — Booking leads (note: `closed` column removed — was always false, never queried)
 - `agenda` — Booking meetings
 - `calculadora` — Tax calculator submissions
-- `visitas` — Visitor tracking/analytics
+- `visitas` — Visitor tracking/analytics (note: `country` column removed — was always null)
 - `newsletterSuscriptores` — Newsletter subscribers
 - `diasBloqueados` — Blocked booking days
 - `legalDocumentVersions` — Legal document version tracking

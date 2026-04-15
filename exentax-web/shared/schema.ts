@@ -16,7 +16,6 @@ export const leads = pgTable("leads", {
   privacyAccepted: boolean("privacidad_aceptada").default(false),
   termsAccepted: boolean("terminos_aceptados").default(false),
   marketingAccepted: boolean("marketing_aceptado").default(false),
-  closed: boolean("cerrado").default(false),
   economicActivity: text("actividad_economica"),
   estimatedProfit: text("beneficio_estimado"),
   ip: text("ip"),
@@ -24,7 +23,6 @@ export const leads = pgTable("leads", {
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
   index("leads_email_idx").on(table.email),
-  index("leads_cerrado_idx").on(table.closed),
   index("leads_fecha_creacion_idx").on(table.createdAt),
   index("leads_telefono_idx").on(table.phone),
   index("leads_fuente_idx").on(table.source),
@@ -124,7 +122,6 @@ export const visitas = pgTable("visitas", {
   utmMedium: text("utm_medium"),
   utmCampaign: text("utm_campaign"),
   utmContent: text("utm_content"),
-  country: text("pais"),
   device: text("dispositivo"),
   sessionId: text("session_id"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
