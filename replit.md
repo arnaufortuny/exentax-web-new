@@ -85,27 +85,28 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/lib/routes.ts` — Centralized route key → localized slug mapping
 
 ### Integrations
-- **Discord**: Multi-channel webhook notifications (6 channels, rate-limited queue, professional embeds with Exentax branding):
+- **Discord**: Multi-channel webhook notifications (6 channels, rate-limited queue, minimal embeds):
   - `DISCORD_WEBHOOK_REGISTROS` → Newsletter subscriptions, new leads, system events
   - `DISCORD_WEBHOOK_CALCULADORA` → Calculator results with full financial data
   - `DISCORD_WEBHOOK_ACTIVIDAD` → Web visits (page, device, UTM, referrer, IP)
   - `DISCORD_WEBHOOK_AGENDA` → Booking created/rescheduled/cancelled/no-show with full details + admin/client links
   - `DISCORD_WEBHOOK_CONSENTIMIENTOS` → Cookie/privacy consent logs
   - `DISCORD_WEBHOOK_ERRORES` → Critical server errors (fallback to registros if not set)
-  - All embeds include: author block, Exentax avatar, consistent color palette (green=#00E510, blue=#3498DB, red=#DC2626, orange=#F39C12), timezone, structured fields, admin/client management links
-  - CRITICAL: NO emojis, NO icons anywhere in Discord messages — plain text field names only, clean professional formatting
+  - Webhook identity: username "Exentax", avatar `/ex-icon-green.png`
+  - Embed design: NO footer, NO author block, NO dividers — clean fields + timestamp only
+  - Field helpers: `push()` for optional fields (hidden when empty), `pushAlways()` for operational fields (always visible with "—" fallback)
+  - Colors: GREEN=#00E510 (new booking), BLUE=#3498DB (reschedule), RED=#DC2626 (cancel), ORANGE=#F39C12 (no-show), TEAL=#1ABC9C (newsletter), PURPLE=#9B59B6 (leads), RED_INTENSE=#C0392B (errors), GREY=#95A5A6 (recurring visits)
+  - CRITICAL: NO emojis, NO icons anywhere in Discord messages — plain text field names only
   - Safety: field count capped at 25, field name/value truncated to Discord limits (256/1024 chars), stack traces excluded in production
 - **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
 - **Google Meet**: Calendar event creation/deletion for bookings
-- **Email**: Gmail API v1 — 8 email types × 6 languages:
+- **Email**: Gmail API v1 — 6 email types × 6 languages:
   - Booking confirmation ("Tu asesoría está confirmada | {{date}} {{time}}")
   - Reminder ("Mañana vemos tu caso | {{time}}")
   - Calculator results ("Tu estimación fiscal | {{savings}}")
   - Reschedule ("Tu asesoría ha sido actualizada")
   - Cancellation ("Asesoría cancelada")
   - No-show reschedule ("No hemos podido coincidir hoy") — with rebook CTA + WhatsApp
-  - Followup next steps ("Siguientes pasos") — post-consultation with custom summary
-  - Followup review ("Lo vemos contigo si quieres hacerlo bien") — review with dual CTA
   - Brand signature: "Exentax / Estructuración fiscal internacional / Banca, inversión y operativa global."
 
 ## External Dependencies
