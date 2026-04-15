@@ -928,6 +928,7 @@ export type TranslationKey =
   | "blogPost.ctaTitle"
   | "blogPost.ctaDesc"
   | "blogPost.ctaBook"
+  | "blogPost.ctaDirect"
   | "blogPost.ctaWhatsapp"
   | "blogPost.ctaWhatsappMsg"
   | "blogPost.relatedTitle"

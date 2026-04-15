@@ -390,11 +390,12 @@ export default function BlogPost() {
                   <p className="text-[var(--text-2)] text-base leading-relaxed mb-6 max-w-md mx-auto">
                     {t("blogPost.ctaDesc")}
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                  <div className="flex flex-col items-center gap-4">
                     <Link href={lp("book")} className="inline-flex items-center justify-center whitespace-nowrap bg-[#00E510] text-[#0B0D0C] font-body font-semibold px-6 py-3.5 text-sm rounded-full shadow-[var(--shadow-green)] hover:shadow-[var(--shadow-green-lg)] active:scale-[0.97] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200" data-testid="button-post-agendar">
                       {t("blogPost.ctaBook")}
                       <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </Link>
+                    <p className="text-[var(--text-3)] text-sm">{t("blogPost.ctaDirect")}</p>
                     <a
                       href={`${CONTACT.WHATSAPP_URL}?text=${encodeURIComponent(t("blogPost.ctaWhatsappMsg"))}`}
                       target="_blank"
