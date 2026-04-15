@@ -9,11 +9,17 @@
  *   DISCORD_WEBHOOK_CONSENTIMIENTOS → Privacy/cookie consent
  *   DISCORD_WEBHOOK_ERRORES         → Critical server errors (fallback: registros)
  *
+ * Identity: uses the webhook name and avatar configured in Discord.
+ *           No username/avatar_url overrides from code.
+ *
+ * Timestamps: all embeds include full Madrid-local time
+ *             (dd/MM/yyyy HH:mm:ss Europe/Madrid)
+ *
  * Rate: one message per 1.5s per channel (~40 msg/min/channel)
  */
 
 import { logger } from "./logger";
-import { SITE_URL, BRAND_NAME, DEFAULT_TIMEZONE } from "./server-constants";
+import { SITE_URL, DEFAULT_TIMEZONE } from "./server-constants";
 
 // ─── Link builders ───────────────────────────────────────────────────────────
 
@@ -49,18 +55,40 @@ function getWebhookUrl(channel: Channel): string | undefined {
   return undefined;
 }
 
-// ─── Color palette ───────────────────────────────────────────────────────────
+// ─── Color palette (Exentax brand) ──────────────────────────────────────────
 
 const COLOR = {
   GREEN:       0x00E510,
-  BLUE:        0x3498DB,
+  TEAL:        0x1ABC9C,
   RED:         0xDC2626,
   RED_INTENSE: 0xC0392B,
   ORANGE:      0xF39C12,
   PURPLE:      0x9B59B6,
-  TEAL:        0x1ABC9C,
+  BLUE:        0x3498DB,
   GREY:        0x95A5A6,
 } as const;
+
+// ─── Timestamp helpers ──────────────────────────────────────────────────────
+
+function madridTimestamp(): string {
+  const now = new Date();
+  const parts = new Intl.DateTimeFormat("es-ES", {
+    timeZone: DEFAULT_TIMEZONE,
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).formatToParts(now);
+  const get = (t: Intl.DateTimeFormatPartTypes) => parts.find(p => p.type === t)?.value || "";
+  return `${get("day")}/${get("month")}/${get("year")} ${get("hour")}:${get("minute")}:${get("second")} ${DEFAULT_TIMEZONE}`;
+}
+
+function madridISO(): string {
+  return new Date().toISOString();
+}
 
 // ─── Discord types & limits ──────────────────────────────────────────────────
 
@@ -75,8 +103,6 @@ interface DiscordEmbed {
 }
 
 interface DiscordPayload {
-  username: string;
-  avatar_url: string;
   embeds: DiscordEmbed[];
 }
 
@@ -106,9 +132,6 @@ const QUEUE_MAX = 80;
 const DRAIN_INTERVAL_MS = 1_500;
 const MAX_RETRIES = 3;
 const FETCH_TIMEOUT_MS = 8_000;
-
-const AVATAR_URL = `${SITE_URL}/ex-icon-green.png`;
-const WEBHOOK_USERNAME = BRAND_NAME;
 
 interface QueueItem { url: string; payload: DiscordPayload; attempt: number }
 
@@ -181,8 +204,6 @@ function send(channel: Channel, embed: DiscordEmbed): void {
   enqueueItem({
     url,
     payload: {
-      username: WEBHOOK_USERNAME,
-      avatar_url: AVATAR_URL,
       embeds: [clampEmbed(embed)],
     },
     attempt: 0,
@@ -245,6 +266,7 @@ export function notifyBookingCreated(opts: {
   marketingAccepted?: boolean;
 }): void {
   const fullName = `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`;
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
@@ -275,12 +297,14 @@ export function notifyBookingCreated(opts: {
 
   pushLinks(fields, opts.bookingId, opts.manageToken);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("agenda", {
     title: `Nueva asesoria — ${opts.date} ${opts.startTime}`,
     description: `**${fullName}** ha reservado una asesoria fiscal.`,
     color: COLOR.GREEN,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -302,6 +326,7 @@ export function notifyBookingRescheduled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
@@ -324,12 +349,14 @@ export function notifyBookingRescheduled(opts: {
 
   pushLinks(fields, opts.bookingId, opts.manageToken);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("agenda", {
     title: `Asesoria reagendada — ${opts.newDate} ${opts.newStartTime}`,
     description: `**${opts.name}** ha cambiado la fecha de su asesoria. Origen: **${sourceLabel}**.`,
-    color: COLOR.BLUE,
+    color: COLOR.TEAL,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -348,6 +375,7 @@ export function notifyBookingCancelled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
@@ -368,12 +396,14 @@ export function notifyBookingCancelled(opts: {
 
   pushAlways(fields, "Panel admin", `[Ver reserva](${adminLink(opts.bookingId)})`, true);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("agenda", {
     title: `Asesoria cancelada — ${opts.date || "sin fecha"}`,
     description: `**${opts.name}** ha cancelado su asesoria. Origen: **${sourceLabel}**.`,
     color: COLOR.RED,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -389,6 +419,7 @@ export function notifyNoShow(opts: {
   language?: string | null;
   meetLink?: string | null;
 }): void {
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
@@ -407,12 +438,14 @@ export function notifyNoShow(opts: {
 
   pushAlways(fields, "Panel admin", `[Gestionar](${adminLink(opts.bookingId)})`, true);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("agenda", {
     title: `No-show — ${opts.date || "sin fecha"}`,
     description: `**${opts.name}** no se presento a la asesoria. Contactar para reagendar.`,
     color: COLOR.ORANGE,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -441,6 +474,7 @@ export function notifyCalculatorLead(opts: {
   referrer?: string | null;
 }): void {
   const ahorroAbs = Math.abs(opts.ahorro);
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
@@ -465,14 +499,16 @@ export function notifyCalculatorLead(opts: {
   push(fields, "IP", opts.ip);
   if (opts.referrer) pushAlways(fields, "Referrer", opts.referrer.slice(0, 200), true);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("calculadora", {
     title: `Calculadora — ${fmt(opts.ahorro)} ahorro`,
     description: opts.country
       ? `Nuevo calculo desde **${opts.country}** (${opts.regime || "regimen no especificado"}).`
       : undefined,
-    color: ahorroAbs >= 5000 ? COLOR.GREEN : ahorroAbs >= 2000 ? COLOR.TEAL : COLOR.ORANGE,
+    color: COLOR.GREEN,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -488,6 +524,7 @@ export function notifyNewsletterSubscribe(opts: {
   privacyAccepted?: boolean;
   marketingAccepted?: boolean;
 }): void {
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Email", opts.email, true);
@@ -497,11 +534,13 @@ export function notifyNewsletterSubscribe(opts: {
   pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
   pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("registros", {
     title: "Nueva suscripcion newsletter",
     color: COLOR.TEAL,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -516,6 +555,7 @@ export function notifyNewLead(opts: {
   activity?: string | null;
   bookingId?: string | null;
 }): void {
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
@@ -532,12 +572,14 @@ export function notifyNewLead(opts: {
     pushAlways(fields, "Panel admin", `[Ver](${adminLink(opts.bookingId)})`, true);
   }
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("registros", {
     title: `Nuevo lead — ${opts.source}`,
     description: `**${opts.name}** se ha registrado.`,
     color: COLOR.PURPLE,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -561,6 +603,7 @@ export function notifyWebVisit(opts: {
   isNew?: boolean;
 }): void {
   const page = opts.page || "/";
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Pagina", page, true);
@@ -591,11 +634,13 @@ export function notifyWebVisit(opts: {
 
   if (opts.sessionId) pushAlways(fields, "Sesion", `\`${opts.sessionId.slice(0, 16)}\``, true);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("actividad", {
     title: `Visita — ${page}`,
     color: opts.isNew ? COLOR.GREEN : COLOR.GREY,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -615,6 +660,7 @@ export function notifyConsent(opts: {
 }): void {
   const isCookie = opts.formType.startsWith("cookies:");
   const typeLabel = isCookie ? opts.formType.replace("cookies:", "") : opts.formType;
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Tipo", typeLabel, true);
@@ -627,11 +673,13 @@ export function notifyConsent(opts: {
   push(fields, "Email", opts.email);
   push(fields, "Fuente", opts.source);
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("consentimientos", {
     title: isCookie ? `Consentimiento cookies — ${typeLabel}` : `Consentimiento — ${typeLabel}`,
     color: isCookie ? COLOR.ORANGE : COLOR.BLUE,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
 
@@ -648,6 +696,7 @@ export function notifyCriticalError(opts: {
   statusCode?: number | null;
   stack?: string | null;
 }): void {
+  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Contexto", opts.context, true);
@@ -663,12 +712,13 @@ export function notifyCriticalError(opts: {
     pushAlways(fields, "Stack trace", `\`\`\`${opts.stack.slice(0, 600)}\`\`\``, false);
   }
 
+  pushAlways(fields, "Registrado", ts, false);
+
   send("errores", {
     title: "Error critico del servidor",
     description: `Se ha producido un error en **${opts.context}**.`,
     color: COLOR.RED_INTENSE,
     fields,
-    timestamp: new Date().toISOString(),
+    timestamp: madridISO(),
   });
 }
-
