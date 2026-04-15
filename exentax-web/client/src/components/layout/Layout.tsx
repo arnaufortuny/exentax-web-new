@@ -28,8 +28,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="relative w-full overflow-x-hidden flex flex-col min-h-screen" style={{ backgroundColor: "var(--bg-0)" }}>
       <Tracking />
       <ScrollToTop />
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-black focus:text-white focus:rounded-lg focus:text-sm">
+        Skip to main content
+      </a>
       <Navbar />
-      <main className="pt-[110px] lg:pt-[116px] xl:pt-[120px] 2xl:pt-[126px] flex-1 bg-[var(--bg-0)]">
+      <main id="main-content" className="pt-[110px] lg:pt-[116px] xl:pt-[120px] 2xl:pt-[126px] flex-1 bg-[var(--bg-0)]">
         {children}
       </main>
       <Footer />

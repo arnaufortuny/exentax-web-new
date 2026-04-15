@@ -61,11 +61,14 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - **Route keys**: `home`, `our_services`, `how_we_work`, `faq`, `book`, `about_llc`, `legal_terms`, `legal_privacy`, `legal_cookies`, `legal_refunds`, `legal_disclaimer`.
 - **`useLangPath` hook**: Accepts route keys or `/blog` paths, returns localized `/:lang/slug` paths for navigation.
 - **`getLocalizedPath(key, lang)`**: Pure function for building localized paths (used in JSON-LD, sitemap, etc.).
-- **SEO meta**: `PAGE_META` (root `/` + `/blog` + individual blog posts) + `PAGE_META_I18N` (all page routes × all 6 languages, built via `buildI18nMeta()`). Server injects title/desc/canonical into HTML shell at serve time (production only).
-- **SEO pre-render content**: `PAGE_SEO_CONTENT` keyed by route key (e.g., `"home"`, `"our_services"`) — hidden HTML for crawlers.
-- **JSON-LD schemas**: `PAGE_SCHEMAS` keyed by route key — Organization, BreadcrumbList, Product, HowTo, Service, FAQPage schemas.
-- **Sitemap**: Generated dynamically by `server/routes/public.ts` with full `hreflang` alternates for all 6 languages + x-default, including blog posts.
-- **robots.txt**: Generated dynamically by server (no static file in `client/public/`).
+- **SEO meta**: `PAGE_META` (root `/` + `/blog` + individual blog posts) + `PAGE_META_I18N` (all page routes × all 6 languages, built via `buildI18nMeta()`). Server injects title/desc/canonical/hreflang into HTML shell at serve time.
+- **SEO pre-render content**: `PAGE_SEO_CONTENT` keyed by route key — hidden HTML for crawlers. Blog prerender uses localized content per language.
+- **JSON-LD schemas**: `PAGE_SCHEMAS` keyed by route key — Organization, BreadcrumbList, Article, FAQPage schemas. Blog Article schemas use localized headlines/descriptions.
+- **Sitemap**: Generated dynamically by `server/routes/public.ts` — 492 URLs total (all routes × 6 langs + all blog posts × 6 langs), full `hreflang` alternates + x-default.
+- **robots.txt**: Generated dynamically by server — Disallows /api/, /links, /start, /booking/.
+- **Hreflang**: Server replaces template hreflang tags per page using dynamic `HREFLANG_STRIP_RE` regex (no hardcoded domain). Client-side SEO.tsx also injects hreflang for SPA navigation.
+- **Noindex**: Enforced for /start, /links, /booking/:token via both X-Robots-Tag header and meta robots content.
+- **Skip-to-content**: Accessibility link in Layout.tsx (`#main-content`).
 - **No legacy redirects**: All old Spanish-only paths removed. Every route exists exactly once under `/:lang/:slug`.
 
 ### Key Frontend Files

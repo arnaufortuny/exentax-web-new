@@ -83,7 +83,7 @@ export default function Problem() {
             >
               <div className="flex items-center gap-2 mb-3">
                 <div className="w-1 h-5 rounded-full flex-shrink-0" style={{ background: "#FF1744" }} />
-                <h4 className="font-heading font-semibold text-[15px] text-[var(--text-1)]">{card.title}</h4>
+                <h3 className="font-heading font-semibold text-[15px] text-[var(--text-1)]">{card.title}</h3>
               </div>
               <p className="text-[14px] text-[var(--text-3)] leading-relaxed" style={{ whiteSpace: "pre-line" }}>
                 {card.desc}

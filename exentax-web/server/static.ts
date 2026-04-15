@@ -60,6 +60,10 @@ function markdownToHtml(md: string): string {
 }
 
 const BASE_URL = SITE_URL;
+const HREFLANG_STRIP_RE = new RegExp(
+  `<link rel="alternate" hreflang="([^"]+)" href="${BASE_URL.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[^"]*" \\/>`,
+  'g'
+);
 
 const ARTICLE_META_I18N: Record<SupportedLang, { section: string; tagLLC: string; tagOptimization: string; tagFreelancers: string }> = {
   es: { section: "Fiscalidad Internacional", tagLLC: "LLC Estados Unidos", tagOptimization: "Optimización Fiscal", tagFreelancers: "Freelancers" },
@@ -197,7 +201,11 @@ function injectMeta(html: string, reqPath: string): string {
     );
 
     if (post) {
-      const prerender = `<article><h1>${post.title}</h1><p>${post.excerpt}</p>${markdownToHtml(post.content)}</article>`;
+      const i18nPost = blogLang !== "es" ? BLOG_I18N[post.slug]?.[blogLang] : undefined;
+      const prerenderTitle = i18nPost?.title || post.title;
+      const prerenderExcerpt = i18nPost?.excerpt || post.excerpt;
+      const prerenderContent = i18nPost?.content || post.content;
+      const prerender = `<article><h1>${prerenderTitle}</h1><p>${prerenderExcerpt}</p>${markdownToHtml(prerenderContent)}</article>`;
       html = html.replace(
         '<div id="root"></div>',
         `<div id="root"><div id="seo-prerender" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">${prerender}</div></div>`
@@ -208,26 +216,17 @@ function injectMeta(html: string, reqPath: string): string {
       `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}/${lang}/blog/${getTranslatedSlug(blogSlug!, lang)}" />`
     ).join("\n    ");
     const xDefaultLink = `<link rel="alternate" hreflang="x-default" href="${BASE_URL}/es/blog/${blogSlug}" />`;
-    html = html.replace(
-      /<link rel="alternate" hreflang="([^"]+)" href="https:\/\/exentax\.com[^"]*" \/>/g,
-      ''
-    );
+    html = html.replace(HREFLANG_STRIP_RE, '');
     html = html.replace('</head>', `${hreflangLinks}\n    ${xDefaultLink}\n  </head>`);
   } else if (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/) || cleanPath === "/blog") {
     const blogIndexHreflang = SUPPORTED.map(lang =>
       `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}/${lang}/blog" />`
     ).join("\n    ");
     const blogIndexXDefault = `<link rel="alternate" hreflang="x-default" href="${BASE_URL}/es/blog" />`;
-    html = html.replace(
-      /<link rel="alternate" hreflang="([^"]+)" href="https:\/\/exentax\.com[^"]*" \/>/g,
-      ''
-    );
+    html = html.replace(HREFLANG_STRIP_RE, '');
     html = html.replace('</head>', `${blogIndexHreflang}\n    ${blogIndexXDefault}\n  </head>`);
   } else {
-    html = html.replace(
-      /<link rel="alternate" hreflang="([^"]+)" href="https:\/\/exentax\.com[^"]*" \/>/g,
-      ''
-    );
+    html = html.replace(HREFLANG_STRIP_RE, '');
     const resolved = resolveServerRoute(cleanPath);
     if (resolved) {
       const nonBlogHreflang = SUPPORTED.map(lang =>
@@ -322,7 +321,7 @@ function injectMeta(html: string, reqPath: string): string {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+            { "@type": "ListItem", "position": 1, "name": blogLang === "es" ? "Inicio" : blogLang === "en" ? "Home" : blogLang === "fr" ? "Accueil" : blogLang === "de" ? "Startseite" : blogLang === "pt" ? "Início" : "Inici", "item": `${BASE_URL}/${blogLang}` },
             { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/${blogLang}/blog` },
             { "@type": "ListItem", "position": 3, "name": breadcrumbName, "item": articleUrl }
           ]
@@ -330,8 +329,8 @@ function injectMeta(html: string, reqPath: string): string {
         {
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": post.title,
-          "description": post.metaDescription || post.excerpt,
+          "headline": (blogLang !== "es" && BLOG_I18N[post.slug]?.[blogLang]?.title) || post.title,
+          "description": (blogLang !== "es" && BLOG_I18N[post.slug]?.[blogLang]?.metaDescription) || post.metaDescription || post.excerpt,
           "image": `${BASE_URL}/og-image.png`,
           "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
           "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },

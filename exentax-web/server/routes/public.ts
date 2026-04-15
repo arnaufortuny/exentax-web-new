@@ -835,15 +835,19 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     for (const post of BLOG_POSTS) {
       const postSlug = post.slug;
       const lastmod = post.updatedAt || post.publishedAt;
-      const parts = [`  <url>\n    <loc>${SITE_URL}/es/blog/${escapeXml(postSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`];
-      if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
-      for (const lang of SUPPORTED_LANGS) {
-        const translatedSlug = getTranslatedSlug(postSlug, lang);
-        const href = `${SITE_URL}/${lang}/blog/${escapeXml(translatedSlug && translatedSlug !== postSlug ? translatedSlug : postSlug)}`;
-        parts.push(`    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />\n`);
+      for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
+        const langSlug = getTranslatedSlug(postSlug, lang);
+        const locSlug = langSlug && langSlug !== postSlug ? langSlug : postSlug;
+        const parts = [`  <url>\n    <loc>${SITE_URL}/${lang}/blog/${escapeXml(locSlug)}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n`];
+        if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
+        for (const altLang of SUPPORTED_LANGS) {
+          const translatedSlug = getTranslatedSlug(postSlug, altLang);
+          const href = `${SITE_URL}/${altLang}/blog/${escapeXml(translatedSlug && translatedSlug !== postSlug ? translatedSlug : postSlug)}`;
+          parts.push(`    <xhtml:link rel="alternate" hreflang="${altLang}" href="${href}" />\n`);
+        }
+        parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n  </url>\n`);
+        urlParts.push(parts.join(""));
       }
-      parts.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_URL}/es/blog/${escapeXml(postSlug)}" />\n  </url>\n`);
-      urlParts.push(parts.join(""));
     }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlParts.join("")}</urlset>`;
