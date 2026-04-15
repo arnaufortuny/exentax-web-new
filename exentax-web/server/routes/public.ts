@@ -24,7 +24,7 @@ import {
   checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
-import { backendLabel, resolveRequestLang } from "./shared";
+import { backendLabel, resolveRequestLang, escapeHtml } from "./shared";
 import { BLOG_POSTS } from "../../client/src/data/blog-posts";
 import { getTranslatedSlug } from "../../client/src/data/blog-posts-slugs";
 import { apiFail, apiOk, apiRateLimited, apiNotFound, apiValidationFail } from "./api-response";
@@ -688,7 +688,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = newsletterSubscribeSchema.safeParse(req.body);
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { email, source, privacyAccepted, marketingAccepted, language } = parsed.data;
-    if (!privacyAccepted) return apiFail(res, 400, "Debes aceptar la política de privacidad para continuar.", "PRIVACY_REQUIRED");
+    if (!privacyAccepted) return apiFail(res, 400, backendLabel("zodMustAcceptPrivacy", resolveRequestLang(req)), "PRIVACY_REQUIRED");
     const normalizedEmail = email.trim().toLowerCase();
     await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer" });
@@ -891,10 +891,6 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));
 
-}
-
-function escapeHtml(str: string): string {
-  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
 function unsubscribeHtml(title: string, message: string, lang = "es"): string {

@@ -92,7 +92,7 @@ function injectMeta(html: string, reqPath: string): string {
   const cleanPath = reqPath.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
 
   const SUPPORTED = SUPPORTED_LANGS as readonly string[] as SupportedLang[];
-  const langBlogMatch = cleanPath.match(/^\/(es|en|fr|de|it|pt|ca)\/blog\/([a-z0-9][a-z0-9-]+[a-z0-9])$/);
+  const langBlogMatch = cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog\/([a-z0-9][a-z0-9-]+[a-z0-9])$/);
   const directBlogMatch = cleanPath.match(/^\/blog\/([a-z0-9][a-z0-9-]+[a-z0-9])$/);
   const isBlogArticle = !!langBlogMatch || !!directBlogMatch;
   const rawBlogSlug = langBlogMatch ? langBlogMatch[2] : directBlogMatch ? directBlogMatch[1] : null;
@@ -202,7 +202,7 @@ function injectMeta(html: string, reqPath: string): string {
       ''
     );
     html = html.replace('</head>', `${hreflangLinks}\n    ${xDefaultLink}\n  </head>`);
-  } else if (cleanPath.match(/^\/(es|en|fr|de|it|pt|ca)\/blog$/) || cleanPath === "/blog") {
+  } else if (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/) || cleanPath === "/blog") {
     const blogIndexHreflang = SUPPORTED.map(lang =>
       `<link rel="alternate" hreflang="${lang}" href="${BASE_URL}/${lang}/blog" />`
     ).join("\n    ");
@@ -217,7 +217,7 @@ function injectMeta(html: string, reqPath: string): string {
       /<link rel="alternate" hreflang="([^"]+)" href="https:\/\/exentax\.com[^"]*" \/>/g,
       ''
     );
-    const basePath = cleanPath.replace(/^\/(es|en|fr|de|it|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
+    const basePath = cleanPath.replace(/^\/(es|en|fr|de|pt|ca)(\/|$)/, "/").replace(/^(?!\/)/, "/");
     const canonicalLoc = `${BASE_URL}${basePath === "/" ? "" : basePath}`;
     const nonBlogHreflang = SUPPORTED.map(lang =>
       `<link rel="alternate" hreflang="${lang}" href="${canonicalLoc}" />`
@@ -234,8 +234,8 @@ function injectMeta(html: string, reqPath: string): string {
   }
 
   let seoContent = PAGE_SEO_CONTENT[cleanPath];
-  if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|it|pt|ca)\/blog$/)) {
-    const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|it|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
+  if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)) {
+    const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
     const blogLinks = BLOG_POSTS.map(post => {
       const slug = getTranslatedSlug(post.slug, blogLang2);
       const i18nData = blogLang2 !== "es" ? BLOG_I18N[post.slug]?.[blogLang2] : undefined;

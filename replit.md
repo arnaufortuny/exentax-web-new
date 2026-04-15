@@ -51,8 +51,8 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `server/email.ts` — Booking confirmation, reminder, reschedule, cancellation, calculator emails (Gmail API)
 - `server/google-meet.ts` — Google Meet event creation/deletion
 - `server/storage/` — Database CRUD (scheduling.ts, marketing.ts, legal.ts, core.ts)
-- `server/field-encryption.ts` — AES-256-GCM field-level encryption
-- `server/circuit-breaker.ts` — Circuit breaker for external service calls
+- `server/field-encryption.ts` — AES-256-GCM field-level encryption for phone fields (encrypt/decrypt/encryptSensitiveFields/decryptSensitiveFields)
+- `server/circuit-breaker.ts` — Circuit breaker for external service calls (Google Calendar, Email)
 - `server/server-constants.ts` — Shared constants (langs, agenda statuses, brand info, timezone)
 - `server/route-helpers.ts` — Rate limiters (booking, calc, newsletter, public, visitor), slot locking, CSRF, utilities
 
@@ -63,6 +63,12 @@ Exentax Web is a public-facing TaxTech platform for international LLC formation 
 - `client/src/components/icons.tsx` — Custom SVG icons (no external icon libs)
 - `client/src/i18n/` — Internationalization (6 languages)
 
+### Integrations
+- **Discord**: Webhook notifications for bookings, calculator leads, newsletter, critical errors (privacy-masked, rate-limited queue)
+- **Google Sheets**: Append-only logging to Agenda, Calculadora, Consents sheets
+- **Google Meet**: Calendar event creation/deletion for bookings
+- **Email**: Gmail API v1 — booking confirmation, reminder (3h before), reschedule, cancellation, calculator results
+
 ## External Dependencies
-- **Google APIs**: Gmail API v1 (emails), Google Calendar API (Meet events)
+- **Google APIs**: Gmail API v1 (emails), Google Calendar API (Meet events), Google Sheets API v4 (logging)
 - **Deployment**: `npm run dev` starts Express + Vite on port 5000

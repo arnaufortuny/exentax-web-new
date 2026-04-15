@@ -100,15 +100,6 @@ function isEncryptedField(value: string | null | undefined): boolean {
     && /^[0-9a-f]+$/.test(parts[0]) && /^[0-9a-f]+$/.test(parts[1]) && /^[0-9a-f]+$/.test(parts[2]);
 }
 
-export function maskSensitiveField(value: string | null | undefined, visibleChars = 4): string {
-  if (!value) return "";
-  const decrypted = decryptField(value);
-  if (!decrypted) return "";
-  const clean = decrypted.replace(/[\s\-\.]/g, "");
-  if (clean.length <= visibleChars) return "****";
-  return "*".repeat(clean.length - visibleChars) + clean.slice(-visibleChars);
-}
-
 export type SensitiveFieldName = "phone";
 
 const ALL_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
