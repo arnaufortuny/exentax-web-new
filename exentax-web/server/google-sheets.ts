@@ -147,7 +147,7 @@ export function sheetsLogCalculatorLead(opts: {
     opts.annualIncome ?? "",
     opts.ahorro,
     opts.language || "es",
-    opts.marketingAccepted ? "Sí" : "No",
+    opts.marketingAccepted ? "yes" : "no",
   ]).catch(err => logger.warn(`sheetsLogCalculatorLead catch: ${err instanceof Error ? err.message : String(err)}`, "sheets"));
 }
 
@@ -165,8 +165,8 @@ export function sheetsLogConsent(opts: {
     ts,
     opts.formType,
     opts.email || "",
-    opts.privacyAccepted ? "Sí" : "No",
-    opts.marketingAccepted != null ? (opts.marketingAccepted ? "Sí" : "No") : "",
+    opts.privacyAccepted ? "yes" : "no",
+    opts.marketingAccepted != null ? (opts.marketingAccepted ? "yes" : "no") : "",
     opts.language || "",
     opts.source || "",
     opts.privacyVersion || "",

@@ -15,56 +15,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     description: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en Estados Unidos. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido. Asesoría estratégica personalizada.",
     canonical: BASE_URL,
   },
-  "/como-trabajamos": {
-    title: "Cómo funciona: tu LLC lista en 4 pasos | Exentax",
-    description: "Asesoría estratégica → estructura personalizada → constitución en 2-4 días → compliance anual. Proceso claro, sin letra pequeña. Más de 127 clientes satisfechos.",
-    canonical: `${BASE_URL}/como-trabajamos`,
-  },
-  "/servicios": {
-    title: "Servicios de constitución LLC en EE.UU. | Exentax",
-    description: "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta Mercury, compliance y soporte 12 meses. Consulta nuestros planes.",
-    canonical: `${BASE_URL}/servicios`,
-  },
-  "/preguntas-frecuentes": {
-    title: "Preguntas frecuentes sobre LLC en EE.UU. | Exentax",
-    description: "¿Es legal? ¿Cuánto cuesta? ¿Qué impuestos pago? Respondemos todas las dudas sobre LLC en Estados Unidos para freelancers y autónomos.",
-    canonical: `${BASE_URL}/preguntas-frecuentes`,
-  },
-  "/agendar-asesoria": {
-    title: "Asesoría fiscal estratégica 30 min — Analiza tu ahorro fiscal | Exentax",
-    description: "Reserva tu asesoría fiscal estratégica. En 30 minutos analizamos tu situación fiscal real y calculamos cuánto puedes ahorrar con una LLC.",
-    canonical: `${BASE_URL}/agendar-asesoria`,
-  },
-  "/sobre-las-llc": {
-    title: "LLC en EE.UU. para no residentes — Guía completa 2026 | Exentax",
-    description: "Todo sobre LLC en Estados Unidos: ventajas fiscales, cómo constituirla paso a paso, banca en dólares, Stripe, obligaciones IRS y errores a evitar.",
-    canonical: `${BASE_URL}/sobre-las-llc`,
-  },
-  "/legal/terminos": {
-    title: "Términos y condiciones | Exentax",
-    description: "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
-    canonical: `${BASE_URL}/legal/terminos`,
-  },
-  "/legal/privacidad": {
-    title: "Política de privacidad | Exentax",
-    description: "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
-    canonical: `${BASE_URL}/legal/privacidad`,
-  },
-  "/legal/cookies": {
-    title: "Política de cookies | Exentax",
-    description: "Información sobre el uso de cookies en exentax.com. Asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
-    canonical: `${BASE_URL}/legal/cookies`,
-  },
-  "/legal/reembolsos": {
-    title: "Política de reembolsos | Exentax",
-    description: "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
-    canonical: `${BASE_URL}/legal/reembolsos`,
-  },
-  "/legal/disclaimer": {
-    title: "Disclaimer legal y fiscal | Exentax",
-    description: "Disclaimer legal y fiscal de Exentax. Información sobre la naturaleza de nuestros servicios, limitaciones de responsabilidad y obligaciones del cliente.",
-    canonical: `${BASE_URL}/legal/disclaimer`,
-  },
   "/blog": {
     title: "Blog de fiscalidad internacional y LLC en EE.UU. | Exentax",
     description: "Guías, estrategias y novedades sobre LLC en Estados Unidos, optimización fiscal, compliance IRS y ahorro de impuestos para freelancers y autónomos.",
@@ -414,18 +364,6 @@ export const PAGE_META: Record<string, PageMeta> = {
     title: "Por qué abrir una LLC en EE.UU.: privacidad, seguridad y ventajas fiscales | Exentax",
     description: "Privacidad, protección patrimonial, banca americana, fiscalidad optimizada y gastos deducibles: todas las ventajas reales de abrir una LLC en Estados Unidos.",
     canonical: `${BASE_URL}/es/blog/por-que-abrir-llc-estados-unidos-ventajas`,
-  },
-  "/go": {
-    title: "Exentax",
-    description: "Todos los enlaces de Exentax. WhatsApp, asesoría fiscal, calculadora fiscal, redes sociales.",
-    canonical: `${BASE_URL}/go`,
-    noindex: true,
-  },
-  "/empezar": {
-    title: "Empieza aquí | Exentax",
-    description: "Diseñamos estructuras fiscales internacionales para negocios digitales. Descubre si tiene sentido para tu caso en 60 segundos.",
-    canonical: `${BASE_URL}/empezar`,
-    noindex: true,
   },
   "/links": {
     title: "Exentax",

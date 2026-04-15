@@ -5,7 +5,6 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import Layout from "@/components/layout/Layout";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import i18n, { SUPPORTED_LANGS, LanguageService, type SupportedLang } from "@/i18n";
-import { STORAGE_KEYS } from "@/lib/constants";
 import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey } from "@/lib/routes";
 
 const pageImports = {
@@ -205,43 +204,6 @@ const AppRouter = memo(function AppRouter() {
 
       {localizedRoutes}
 
-      <Route path="/go">
-        <Redirect to="/links" />
-      </Route>
-      <Route path="/empezar">
-        <Redirect to="/start" />
-      </Route>
-      <Route path="/servicios">
-        <Redirect to="/es/nuestros-servicios" />
-      </Route>
-      <Route path="/como-trabajamos">
-        <Redirect to="/es/como-trabajamos" />
-      </Route>
-      <Route path="/preguntas-frecuentes">
-        <Redirect to="/es/preguntas-frecuentes" />
-      </Route>
-      <Route path="/sobre-las-llc">
-        <Redirect to="/es/sobre-las-llc" />
-      </Route>
-      <Route path="/agendar-asesoria">
-        <Redirect to="/es/agendar" />
-      </Route>
-      <Route path="/legal/terminos">
-        <Redirect to="/es/legal/terminos" />
-      </Route>
-      <Route path="/legal/privacidad">
-        <Redirect to="/es/legal/privacidad" />
-      </Route>
-      <Route path="/legal/cookies">
-        <Redirect to="/es/legal/cookies" />
-      </Route>
-      <Route path="/legal/reembolsos">
-        <Redirect to="/es/legal/reembolsos" />
-      </Route>
-      <Route path="/legal/disclaimer">
-        <Redirect to="/es/legal/disclaimer" />
-      </Route>
-
       <Route path="/">
         <RootRedirect />
       </Route>
@@ -289,15 +251,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const consent = localStorage.getItem(STORAGE_KEYS.COOKIE_CONSENT);
-    if (consent === "all") {
-      fetch("/api/visitor", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ page: window.location.pathname, consent }),
-      }).catch((e) => console.error("[visitor]", e));
-    }
-
     if ("requestIdleCallback" in window) {
       requestIdleCallback(prefetchAllPages, { timeout: 3000 });
     } else {

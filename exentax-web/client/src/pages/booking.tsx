@@ -12,6 +12,13 @@ const LANG_LOCALE_MAP: Record<string, string> = {
   es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", pt: "pt-PT", ca: "ca-ES",
 };
 
+const STATUS = {
+  CANCELLED: "Cancelada",
+  CANCELLED_ALT: "Cancelado",
+  RESCHEDULED: "Reagendada",
+  NO_SHOW: "No presentado",
+} as const;
+
 interface BookingData {
   id: string;
   nombre: string;
@@ -34,9 +41,9 @@ function formatDate(d: string, locale: string = "es-ES") {
 
 function StatusBadge({ estado, isPast }: { estado: string; isPast: boolean }) {
   const { t } = useTranslation();
-  if (estado === "Cancelada" || estado === "Cancelado") return <span data-testid="badge-status-cancelled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.cancelled")}</span>;
-  if (estado === "No presentado") return <span data-testid="badge-status-noshow" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.noShow")}</span>;
-  if (estado === "Reagendada") return <span data-testid="badge-status-rescheduled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400"><CalendarClockIcon className="w-3.5 h-3.5" />{t("agenda.status.rescheduled")}</span>;
+  if (estado === STATUS.CANCELLED || estado === STATUS.CANCELLED_ALT) return <span data-testid="badge-status-cancelled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.cancelled")}</span>;
+  if (estado === STATUS.NO_SHOW) return <span data-testid="badge-status-noshow" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.noShow")}</span>;
+  if (estado === STATUS.RESCHEDULED) return <span data-testid="badge-status-rescheduled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400"><CalendarClockIcon className="w-3.5 h-3.5" />{t("agenda.status.rescheduled")}</span>;
   if (isPast) return <span data-testid="badge-status-completed" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[var(--bg-2)] text-[var(--muted)]"><CheckCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.completed")}</span>;
   return <span data-testid="badge-status-confirmed" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold" style={{ background: "rgba(0,229,16,0.08)", color: "#00E510" }}><CheckCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.confirmed")}</span>;
 }
@@ -173,7 +180,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
     },
   });
 
-  const isCancelled = booking.estado === "Cancelada" || booking.estado === "Cancelado" || actionDone === "cancelled";
+  const isCancelled = booking.estado === STATUS.CANCELLED || booking.estado === STATUS.CANCELLED_ALT || actionDone === "cancelled";
   const canManage = !booking.isPast && !isCancelled;
 
   if (actionDone === "rescheduled") {

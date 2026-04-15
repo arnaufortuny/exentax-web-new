@@ -19,11 +19,11 @@ export async function registerRoutes(
   activeIntervals?: ReturnType<typeof setInterval>[]
 ): Promise<Server> {
 
-  const NOINDEX_PATHS = new Set(['/links', '/start', '/go', '/empezar']);
+  const NOINDEX_PATHS = new Set(['/links', '/start']);
   const localizedPaths = getAllLocalizedPaths();
   const KNOWN_PATHS = new Set([
     ...localizedPaths,
-    '/links', '/start', '/go', '/empezar',
+    '/links', '/start',
     '/blog',
   ]);
   for (const lang of SUPPORTED_LANGS) {
@@ -40,7 +40,7 @@ export async function registerRoutes(
     return rest ? `/${rest}` : '/';
   }
 
-  const NOINDEX_PREFIXES = ['/booking/', '/mi-agenda/'];
+  const NOINDEX_PREFIXES = ['/booking/'];
 
   app.use((req, res, next) => {
     if (!req.path.startsWith('/api/') && !STATIC_EXT.test(req.path)) {
@@ -82,15 +82,6 @@ export async function registerRoutes(
     }
     next();
   });
-
-  // 301 redirects: legacy paths
-  app.get("/mi-agenda/:bookingId", (req, res) => {
-    const qs = req.url.includes("?") ? req.url.slice(req.url.indexOf("?")) : "";
-    res.redirect(301, `/booking/${req.params.bookingId}${qs}`);
-  });
-  app.get("/empezar", (_req, res) => res.redirect(301, "/start"));
-  app.get("/go", (_req, res) => res.redirect(301, "/links"));
-  app.get("/go/:slug", (_req, res) => res.redirect(302, "/links"));
 
   registerPublicRoutes(app, activeIntervals);
 
