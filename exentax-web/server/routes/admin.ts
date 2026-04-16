@@ -349,7 +349,7 @@ export function registerAdminRoutes(app: Express) {
       ? path.resolve(process.env.SEO_RANKINGS_DIR)
       : path.resolve(process.cwd(), "seo-rankings");
     if (!fs.existsSync(dir)) {
-      return apiOk(res, { dates: [], series: [], dir, message: "no snapshots directory" });
+      return apiOk(res, { dates: [], series: [], message: "no snapshots directory" });
     }
     const files = fs.readdirSync(dir)
       .filter((f) => /^\d{4}-\d{2}-\d{2}\.csv$/.test(f))
