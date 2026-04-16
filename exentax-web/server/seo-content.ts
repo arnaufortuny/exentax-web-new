@@ -7,6 +7,7 @@ export interface PageMeta {
   description: string;
   canonical: string;
   noindex?: boolean;
+  keywords?: string;
 }
 
 export const PAGE_META: Record<string, PageMeta> = {

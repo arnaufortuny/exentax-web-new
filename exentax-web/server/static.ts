@@ -133,10 +133,14 @@ function injectMeta(html: string, reqPath: string): string {
       const canonicalPath = blogLang === "es"
         ? `${BASE_URL}/es/blog/${post.slug}`
         : `${BASE_URL}/${blogLang}/blog/${translatedSlug}`;
+      const articleKeywords = i18nMeta?.keywords || post.keywords;
       meta = {
         title: i18nMeta?.metaTitle || post.metaTitle,
         description: i18nMeta?.metaDescription || post.metaDescription,
         canonical: canonicalPath,
+        keywords: articleKeywords && articleKeywords.length > 0
+          ? articleKeywords.join(", ")
+          : undefined,
       };
     }
   }
@@ -158,6 +162,12 @@ function injectMeta(html: string, reqPath: string): string {
     /<meta name="description" content="[^"]*"/,
     `<meta name="description" content="${meta.description}"`
   );
+  if (meta.keywords) {
+    html = html.replace(
+      /<meta name="keywords" content="[^"]*"/,
+      `<meta name="keywords" content="${meta.keywords}"`
+    );
+  }
   html = html.replace(
     /<link rel="canonical" href="[^"]*"/,
     `<link rel="canonical" href="${meta.canonical}"`
