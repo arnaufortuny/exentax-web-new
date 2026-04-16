@@ -281,8 +281,8 @@ export function registerAdminRoutes(app: Express) {
     if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
-    if (row.status === "no_show") return apiFail(res, 400, "Ya marcada como no-show", "ALREADY_NO_SHOW");
-    if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
+    if (row.status === "no_show") return apiFail(res, 400, backendLabel("alreadyMarkedNoShow", resolveRequestLang(req)), "ALREADY_NO_SHOW");
+    if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotMarkNoShowCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
 
     await updateAgenda(bookingId, { status: AGENDA_STATUSES.NO_SHOW });
 

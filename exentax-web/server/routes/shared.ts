@@ -65,6 +65,14 @@ const BACKEND_I18N: Record<string, Record<string, string>> = {
     es: "No se puede reprogramar una reserva cancelada", en: "Cannot reschedule a cancelled booking", fr: "Impossible de reprogrammer une reservation annulee",
     de: "Eine stornierte Buchung kann nicht umgebucht werden", pt: "Nao e possivel reagendar uma reserva cancelada", ca: "No es pot reprogramar una reserva cancel-lada",
   },
+  cannotMarkNoShowCancelled: {
+    es: "No se puede marcar como no-show una reserva cancelada", en: "Cannot mark a cancelled booking as no-show", fr: "Impossible de marquer no-show une reservation annulee",
+    de: "Eine stornierte Buchung kann nicht als No-Show markiert werden", pt: "Nao e possivel marcar uma reserva cancelada como no-show", ca: "No es pot marcar com a no-show una reserva cancel-lada",
+  },
+  alreadyMarkedNoShow: {
+    es: "Ya marcada como no-show", en: "Already marked as no-show", fr: "Deja marquee no-show",
+    de: "Bereits als No-Show markiert", pt: "Ja marcada como no-show", ca: "Ja marcada com a no-show",
+  },
   cannotReschedulePast: {
     es: "No se puede reprogramar una reserva pasada", en: "Cannot reschedule a past booking", fr: "Impossible de reprogrammer une reservation passee",
     de: "Eine vergangene Buchung kann nicht umgebucht werden", pt: "Nao e possivel reagendar uma reserva passada", ca: "No es pot reprogramar una reserva passada",
