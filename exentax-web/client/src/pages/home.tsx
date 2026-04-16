@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 import { CONTACT } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
-import { getLocalizedPath, type SupportedLang } from "@/lib/routes";
+import { getLocalizedPath, type SupportedLang } from "@shared/routes";
 import Hero from "@/components/sections/Hero";
 import BanksCarousel from "@/components/sections/BanksCarousel";
 import Problem from "@/components/sections/Problem";

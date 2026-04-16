@@ -7,7 +7,7 @@ import {
 } from "./route-helpers";
 import { apiFail, apiNotFound } from "./routes/api-response";
 import { SUPPORTED_LANGS, SITE_URL } from "./server-constants";
-import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "./route-slugs";
+import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import {
   backendLabel, resolveRequestLang,
 } from "./routes/shared";

@@ -1,4 +1,5 @@
-import { SUPPORTED_LANGS, type SupportedLang } from "./server-constants";
+export const SUPPORTED_LANGS = ["es", "en", "fr", "de", "pt", "ca"] as const;
+export type SupportedLang = (typeof SUPPORTED_LANGS)[number];
 
 export type RouteKey =
   | "home"
@@ -29,17 +30,15 @@ export const ROUTE_SLUGS: Record<RouteKey, Record<SupportedLang, string>> = {
 
 export const ALL_ROUTE_KEYS = Object.keys(ROUTE_SLUGS) as RouteKey[];
 
+const slugToRouteMap = new Map<string, { key: RouteKey; lang: SupportedLang }>();
 const allLocalizedPaths = new Set<string>();
 for (const key of ALL_ROUTE_KEYS) {
-  for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
-    const slug = ROUTE_SLUGS[key as RouteKey][lang];
+  for (const lang of SUPPORTED_LANGS) {
+    const slug = ROUTE_SLUGS[key][lang];
     const fullPath = slug ? `/${lang}/${slug}` : `/${lang}`;
+    slugToRouteMap.set(fullPath, { key, lang });
     allLocalizedPaths.add(fullPath);
   }
-}
-
-export function getAllLocalizedPaths(): Set<string> {
-  return allLocalizedPaths;
 }
 
 export function getLocalizedPath(key: RouteKey, lang: SupportedLang): string {
@@ -47,14 +46,40 @@ export function getLocalizedPath(key: RouteKey, lang: SupportedLang): string {
   return slug ? `/${lang}/${slug}` : `/${lang}`;
 }
 
-export function resolveServerRoute(path: string): { key: RouteKey; lang: SupportedLang } | null {
+export function resolveRoute(path: string): { key: RouteKey; lang: SupportedLang } | null {
   const clean = path.replace(/\/+$/, "") || "/";
-  for (const key of ALL_ROUTE_KEYS) {
-    for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
-      const slug = ROUTE_SLUGS[key as RouteKey][lang];
-      const fullPath = slug ? `/${lang}/${slug}` : `/${lang}`;
-      if (clean === fullPath) return { key: key as RouteKey, lang };
-    }
-  }
+  const match = slugToRouteMap.get(clean);
+  if (match) return match;
   return null;
+}
+
+export const resolveServerRoute = resolveRoute;
+
+export function getAllLocalizedPaths(): Set<string> {
+  return allLocalizedPaths;
+}
+
+export function getEquivalentPath(currentPath: string, targetLang: SupportedLang): string {
+  const clean = currentPath.replace(/\/+$/, "") || "/";
+
+  const blogMatch = clean.match(/^\/(es|en|fr|de|pt|ca)\/blog(\/.*)?$/);
+  if (blogMatch) {
+    const rest = blogMatch[2] || "";
+    return `/${targetLang}/blog${rest}`;
+  }
+  if (clean === "/blog" || clean.startsWith("/blog/")) {
+    return `/${targetLang}${clean}`;
+  }
+
+  const resolved = resolveRoute(clean);
+  if (resolved) {
+    return getLocalizedPath(resolved.key, targetLang);
+  }
+
+  return `/${targetLang}`;
+}
+
+export function getLangFromPath(pathname: string): SupportedLang | null {
+  const seg = pathname.split("/")[1] as SupportedLang;
+  return seg && (SUPPORTED_LANGS as readonly SupportedLang[]).includes(seg) ? seg : null;
 }

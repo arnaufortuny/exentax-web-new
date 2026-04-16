@@ -14,7 +14,7 @@ import {
 } from "./email-layout";
 import { escapeHtml } from "./routes/shared";
 import { BRAND_NAME, CONTACT_EMAIL } from "./server-constants";
-import { getLocalizedPath } from "./route-slugs";
+import { getLocalizedPath } from "../shared/routes";
 
 const SENDER_EMAIL = CONTACT_EMAIL;
 const REPLY_TO_EMAIL = CONTACT_EMAIL;

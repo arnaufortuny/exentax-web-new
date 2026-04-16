@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "wouter";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
-import { getEquivalentPath } from "@/lib/routes";
+import { getEquivalentPath } from "@shared/routes";
 import FlagImg from "@/components/FlagImg";
 import { LANG_SHORT } from "@/lib/lang-utils";
 

@@ -1,5 +1,5 @@
 import { SITE_URL, BRAND_NAME, LEGAL_EMAIL, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, type SupportedLang } from "./server-constants";
-import { ROUTE_SLUGS, ALL_ROUTE_KEYS, getLocalizedPath, type RouteKey } from "./route-slugs";
+import { ROUTE_SLUGS, ALL_ROUTE_KEYS, getLocalizedPath, type RouteKey } from "../shared/routes";
 const BASE_URL = SITE_URL.replace(/\/+$/, "");
 
 export interface PageMeta {

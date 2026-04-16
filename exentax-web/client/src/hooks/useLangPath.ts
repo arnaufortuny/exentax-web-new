@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
-import { getLocalizedPath, type RouteKey, ROUTE_SLUGS } from "@/lib/routes";
+import { getLocalizedPath, type RouteKey, ROUTE_SLUGS } from "@shared/routes";
 
-export { getLangFromPath } from "@/lib/routes";
+export { getLangFromPath } from "@shared/routes";
 
 function useCurrentLang(): SupportedLang {
   const { i18n } = useTranslation();

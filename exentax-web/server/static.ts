@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
-import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "./route-slugs";
+import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";

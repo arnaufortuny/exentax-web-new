@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import i18n, { SUPPORTED_LANGS } from "@/i18n";
 import { getTranslatedSlug } from "@/data/blog-posts-slugs";
 import { BRAND, CONTACT } from "@/lib/constants";
-import { resolveRoute, getLocalizedPath } from "@/lib/routes";
+import { resolveRoute, getLocalizedPath } from "@shared/routes";
 
 const LOCALE_MAP: Record<string, string> = {
   es: "es_ES",

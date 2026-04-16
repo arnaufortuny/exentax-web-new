@@ -7,7 +7,7 @@ import { LANG_SHORT } from "@/lib/lang-utils";
 import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } from "@/i18n";
 import { BRAND, CONTACT } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
-import { getLangFromPath, getEquivalentPath, resolveRoute } from "@/lib/routes";
+import { getLangFromPath, getEquivalentPath, resolveRoute } from "@shared/routes";
 
 function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
   const { t } = useTranslation();

@@ -6,7 +6,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import Layout from "@/components/layout/Layout";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import i18n, { SUPPORTED_LANGS, LanguageService, type SupportedLang } from "@/i18n";
-import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey } from "@/lib/routes";
+import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey } from "@shared/routes";
 
 const pageImports = {
   home: () => import("@/pages/home"),

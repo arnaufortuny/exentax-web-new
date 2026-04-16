@@ -17,7 +17,7 @@ import {
 import { encryptField } from "../field-encryption";
 import { sendBookingConfirmation, sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
-import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../route-slugs";
+import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
 import type { SupportedLang } from "../server-constants";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
