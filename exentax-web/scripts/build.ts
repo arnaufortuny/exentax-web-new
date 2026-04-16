@@ -52,6 +52,34 @@ async function buildAll() {
     );
   }
 
+  // Newsletter end-to-end guard (Task #19).
+  // Boots the server and exercises the full subscribe + RGPD consent +
+  // multi-language unsubscribe flow against the real Postgres database.
+  // No bypass: every deploy must run this guard. If DATABASE_URL is
+  // missing, the build fails so the omission is impossible to ignore.
+  if (!process.env.DATABASE_URL) {
+    throw new Error(
+      "newsletter E2E guard cannot run because DATABASE_URL is not set. " +
+        "Every deploy must validate the newsletter flow — set DATABASE_URL " +
+        "in the build environment before retrying.",
+    );
+  }
+  console.log("running newsletter end-to-end guard (test:newsletter)...");
+  const newsletter = spawnSync(
+    process.execPath,
+    [
+      path.resolve(WORKSPACE, "node_modules/.bin/tsx"),
+      path.resolve(ROOT, "scripts/run-newsletter-e2e.ts"),
+    ],
+    { stdio: "inherit", cwd: WORKSPACE },
+  );
+  if (newsletter.status !== 0) {
+    throw new Error(
+      `newsletter E2E guard failed with exit code ${newsletter.status}. ` +
+        `Fix the subscribe/unsubscribe regression reported above before deploying.`,
+    );
+  }
+
   console.log("building client...");
   await viteBuild({
     configFile: path.resolve(ROOT, "vite.config.ts"),

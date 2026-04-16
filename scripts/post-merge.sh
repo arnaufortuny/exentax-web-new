@@ -14,3 +14,11 @@ echo "--- Running blog price-and-address guard (npm run lint:blog) ---"
 # its own regexes (allowlist drift, locale keyword gaps, false negatives).
 echo "--- Running blog guard unit tests (npm run test:lint-blog) ---"
 (cd exentax-web && npm run test:lint-blog)
+
+# Newsletter end-to-end guard (Task #19).
+# Boots the server on an ephemeral port and exercises the full subscribe +
+# RGPD consent + multi-language unsubscribe flow against the real Postgres
+# database. Blocks the merge (and therefore the deploy) if any step fails.
+# Documented in replit.md.
+echo "--- Running newsletter end-to-end guard (npm run test:newsletter) ---"
+(cd exentax-web && npm run test:newsletter)

@@ -270,14 +270,12 @@ Hay dos `package.json`:
 
   ```bash
   npm run dev          # NODE_ENV=development node_modules/.bin/tsx exentax-web/server/index.ts
-  npm run build        # npx tsx exentax-web/script/build.ts  (ver nota)
+  npm run build        # npx tsx exentax-web/scripts/build.ts
   npm run start        # NODE_ENV=production node exentax-web/dist/index.mjs
   npm run db:push      # drizzle-kit push
   npm run db:generate  # drizzle-kit generate
   npm run db:migrate   # drizzle-kit migrate
   ```
-
-  > Nota: el script `build` de la raíz apunta a `exentax-web/script/build.ts` (singular), pero el archivo real vive en `exentax-web/scripts/build.ts` (plural). Para ejecutar el build directamente: `npx tsx exentax-web/scripts/build.ts`.
 
 - **`/exentax-web/package.json`** — scripts del subproyecto (utilidades adicionales):
 
@@ -286,7 +284,11 @@ Hay dos `package.json`:
   npm run i18n:generate-types  # tsx scripts/generate-i18n-types.ts
   npm run i18n:validate        # tsx scripts/validate-i18n.ts
   npm run i18n:check           # generate-types + validate
+  npm run lint:blog            # guard de precios/direcciones en el blog
+  npm run test:newsletter      # E2E newsletter (alta + RGPD + baja en 6 idiomas)
   ```
+
+  > `npm run test:newsletter` arranca el servidor en `PORT=5051`, espera a `/api/health` y ejecuta `scripts/test-newsletter-e2e.ts` contra esa instancia. Crea y limpia sus propios suscriptores (`*@e2e.exentax.test`) y devuelve exit code distinto de 0 si cualquier verificación falla. Está enganchado en dos puntos para que ningún despliegue lo pueda saltar: `scripts/post-merge.sh` (bloquea el merge) y `exentax-web/scripts/build.ts` (bloquea el build/deploy).
 
 ---
 
