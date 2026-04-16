@@ -91,6 +91,7 @@ function NewsletterSignup() {
               type="checkbox"
               checked={privacyAccepted}
               onChange={(e) => { setPrivacyAccepted(e.target.checked); setPrivacyError(false); }}
+              disabled={status === "loading"}
               className="sr-only"
               data-testid="checkbox-newsletter-privacy"
             />
@@ -123,6 +124,7 @@ function NewsletterSignup() {
               type="checkbox"
               checked={marketingAccepted}
               onChange={(e) => setMarketingAccepted(e.target.checked)}
+              disabled={status === "loading"}
               className="sr-only"
               data-testid="checkbox-newsletter-marketing"
             />

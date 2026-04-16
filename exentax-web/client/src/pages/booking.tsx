@@ -318,7 +318,7 @@ export default function MiAgendaPage() {
   const urlToken = new URLSearchParams(window.location.search).get("token") || "";
   const tokenQs = urlToken ? `?token=${encodeURIComponent(urlToken)}` : "";
   const lang = (i18n.language || "es").split("-")[0];
-  const dateLocale = LANG_LOCALE_MAP[lang] || "es-ES";
+  const dateLocale = LANG_LOCALE_MAP[lang] ?? LANG_LOCALE_MAP.es;
 
   const { data: booking, isLoading, isError } = useQuery<BookingData>({
     queryKey: ["/api/booking", bookingId],

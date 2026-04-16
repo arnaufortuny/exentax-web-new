@@ -27,7 +27,7 @@ export function clearCookieConsent() {
   window.dispatchEvent(new CustomEvent("cookie-consent-change", { detail: null }));
 }
 
-function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: boolean) => void; label: string }) {
+function Toggle({ checked, onChange, label, disabled }: { checked: boolean; onChange: (v: boolean) => void; label: string; disabled?: boolean }) {
   return (
     <button
       type="button"
@@ -35,9 +35,10 @@ function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: 
       aria-checked={checked}
       aria-label={label}
       onClick={() => onChange(!checked)}
-      className={`relative w-9 h-5 rounded-full transition-colors duration-200 flex-shrink-0 cursor-pointer ${
+      disabled={disabled}
+      className={`relative w-9 h-5 rounded-full transition-colors duration-200 flex-shrink-0 ${
         checked ? "bg-[#00E510]" : "bg-[var(--muted)]"
-      }`}
+      } ${disabled ? "opacity-60 cursor-not-allowed" : "cursor-pointer"}`}
     >
       <span
         className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-[var(--bg-0)] shadow transition-transform duration-200 ${
@@ -164,7 +165,7 @@ export default function CookieBanner() {
                   <p className="text-xs font-semibold text-[var(--text-1)]">{t("cookie.analytics")}</p>
                   <p className="text-[10px] text-[var(--text-3)]">{t("cookie.analyticsDesc")}</p>
                 </div>
-                <Toggle checked={analyticsEnabled} onChange={setAnalyticsEnabled} label={t("cookie.analytics")} />
+                <Toggle checked={analyticsEnabled} onChange={setAnalyticsEnabled} label={t("cookie.analytics")} disabled={saving} />
               </div>
             </div>
           )}
