@@ -1,4 +1,6 @@
-export default `Wenn Sie als Freiberufler oder digitaler Selbstständiger über die Optimierung Ihrer Steuerlast nachdenken, haben Sie sicher schon von der e-Residency Estlands gehört. Das Programm hat sich auf YouTube, Twitter und LinkedIn als „die ultimative Lösung für digitale Nomaden" viral verbreitet. Und wir verstehen die Attraktivität: ein europäisches Land, vollständige Digitalisierung, eine hübsche Karte mit Ihrem Foto.
+export default `Wenn Sie auf YouTube nach „Steuern sparen als Freelancer" suchen, landen Sie innerhalb weniger Minuten bei einem Video, das Ihnen die estnische e-Residency als Allheilmittel verkauft. Auf dem Papier sieht es elegant aus: digitale Karte, Online-Gründung, modernes EU-Image. Das Problem: Für deutschsprachige Freiberufler, die ihre Kunden außerhalb Estlands haben, ist das fast nie die richtige Antwort.
+
+In diesem Artikel erklären wir, warum die estnische Gesellschaft so attraktiv wirkt, was sie Sie wirklich kostet (22 % Steuer auf ausgeschüttete Gewinne, Buchhaltungspflicht, schwierige Banken) und warum eine US-LLC in den meisten Fällen einfacher, günstiger und steuerlich effizienter ist.
 
 Aber wenn man genauer hinsieht, ist die Realität ganz anders. Sprechen wir über Fakten, ohne Umschweife. Denn bei Exentax sind wir der Meinung, dass steuerliche Entscheidungen nicht nach Trends, sondern nach Zahlen getroffen werden sollten.
 
@@ -180,4 +182,4 @@ Wir verkaufen weder heiße Luft noch Modetrends. Wir entwerfen Steuerstrukturen 
 - **Banking bei Mercury** mit 0 $ Gebühren und FDIC-Versicherung
 - **Vollständige Compliance:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Haben Sie an Estland gedacht? Vereinbaren Sie eine kostenlose 30-minütige Beratung und wir zeigen Ihnen die realen Zahlen für Ihren Fall. Ohne Verpflichtung, ohne Druck, nur Fakten. In 30 Minuten wissen Sie genau, was Sie mit einer LLC im Vergleich zu einem estnischen Unternehmen zahlen würden.`;
+Sie schwanken noch zwischen Estland und einer US-LLC für Ihre Struktur? Vereinbaren Sie Ihre kostenlose Beratung. Wir vergleichen beide Optionen anhand Ihrer realen Zahlen und zeigen Ihnen ohne Schönfärberei, welche Variante Sie langfristig weniger kostet.`;

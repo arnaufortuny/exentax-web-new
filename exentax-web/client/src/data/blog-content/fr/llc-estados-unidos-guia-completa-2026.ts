@@ -1,4 +1,6 @@
-export default `Une LLC (Limited Liability Company) est la structure d'entreprise la plus utilisée par les freelances et entrepreneurs numériques non-résidents qui opèrent depuis l'extérieur des États-Unis. Elle combine protection du patrimoine et fiscalité avantageuse, et surtout : c'est parfaitement légal. Des milliers de professionnels francophones l'utilisent déjà pour facturer des clients internationaux, encaisser en dollars et cesser de donner la moitié de leurs revenus au fisc.
+export default `Vous facturez des clients à l'étranger depuis la France ou la Belgique, et chaque trimestre l'URSSAF vous rappelle qu'environ 45 % de ce que vous gagnez part en cotisations et impôts ? Vous n'êtes pas seul. De plus en plus de freelances francophones, qu'ils soient développeurs, consultants ou créateurs de contenu, structurent désormais leur activité internationale via une LLC américaine.
+
+Une LLC (Limited Liability Company) bien montée n'a rien à voir avec un schéma offshore : c'est une société américaine reconnue par l'IRS, parfaitement légale, qui combine protection du patrimoine et fiscalité pass-through. Ce guide vous explique, sans langue de bois, comment elle fonctionne en 2026, ce qu'elle change pour un non-résident et où elle a réellement du sens.
 
 Dans ce guide, nous vous expliquons tout ce que vous devez savoir avant de franchir le pas. Sans détours, sans petits caractères, sans le classique « consultez votre conseiller ». Chez Exentax, nous nous occupons de tout, alors nous vous l'expliquons comme si vous étiez déjà client.
 
@@ -95,4 +97,4 @@ La maintenance annuelle comprend toutes les déclarations auprès de l'IRS (Form
 
 Absolument. Ce n'est pas de l'évasion fiscale. C'est de la planification fiscale légale utilisant des structures reconnues par l'IRS et les autorités de votre pays. Des millions d'entreprises fonctionnent ainsi. La clé est de déclarer correctement et de maintenir la conformité à jour, et c'est de cela que nous nous occupons.
 
-Vous voulez savoir si la LLC a du sens pour vous ? Prenez rendez-vous pour votre consultation gratuite de 30 minutes. Nous vous expliquons tout, analysons votre cas et vous disons exactement combien vous pouvez économiser. Sans engagement, sans petits caractères.`;
+Vous voulez savoir si une LLC est une bonne idée pour votre activité, ou si vous gagneriez plus à rester en micro-entreprise ou à passer en société française ? Prenez rendez-vous pour votre consultation gratuite de 30 minutes. Nous regardons votre situation, vos clients, votre pays de résidence et nous vous disons honnêtement combien vous économiseriez. Sans engagement et sans baratin commercial.`;

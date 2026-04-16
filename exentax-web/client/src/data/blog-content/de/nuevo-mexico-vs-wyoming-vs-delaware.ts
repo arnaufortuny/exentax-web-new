@@ -1,4 +1,6 @@
-export default `Die Wahl des Gründungsbundesstaates für Ihre LLC ist eine der wichtigsten Entscheidungen, und eine derjenigen, die am meisten Verwirrung stiftet. Das Internet ist voll von Videos, die sagen „Delaware ist der beste" oder „Wyoming ist Pflicht". Die Realität ist differenzierter, und hier erklären wir sie Ihnen ohne Beschönigung.
+export default `Wenn Sie aus Deutschland, Österreich oder der Schweiz eine LLC gründen wollen, stoßen Sie sehr schnell auf dieselbe Frage in allen Foren: New Mexico, Wyoming oder Delaware? Spoiler: Der „beste Bundesstaat" aus YouTube-Videos ist für deutschsprachige Nichtansässige in den meisten Fällen die falsche Wahl. Delaware ergibt zum Beispiel nur dann Sinn, wenn Sie US-Investoren ins Boot holen wollen, und das ist meist nicht der Fall, wenn Sie Ihre Kunden ohnehin aus München, Wien oder Zürich heraus betreuen.
+
+In diesem Vergleich stellen wir die drei beliebtesten Bundesstaaten mit realen Zahlen gegenüber (Jahresgebühren, Besteuerung, Privatsphäre des Inhabers) und sagen Ihnen ehrlich, welcher zu Ihrem Profil passt.
 
 Wir vergleichen die drei beliebtesten Bundesstaaten für Nichtansässige: New Mexico, Wyoming und Delaware. Spoiler: Für die Mehrheit der Freiberufler und digitalen Unternehmer gewinnt New Mexico haushoch.
 
@@ -96,4 +98,4 @@ Die Realität ist: Jeder der drei Bundesstaaten funktioniert gut. Der Unterschie
 
 Bei Exentax empfehlen wir Ihnen den Bundesstaat, der zu Ihrem konkreten Profil passt. Wir verkaufen keinen Bundesstaat standardmäßig. Wir analysieren Ihre Situation und sagen Ihnen, welcher für Sie am meisten Sinn ergibt.
 
-Sie wissen nicht, welchen Bundesstaat Sie für Ihre LLC wählen sollen? Vereinbaren Sie Ihre kostenlose Beratung und wir empfehlen Ihnen den, der am besten zu Ihrem Geschäft, Ihrem Wohnsitzland und Ihren Zielen passt.`;
+Schwanken Sie immer noch zwischen New Mexico, Wyoming und Delaware? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihr Geschäftsmodell, Ihren Wohnsitz im DACH-Raum und Ihre Ziele und empfehlen Ihnen den Bundesstaat, der Sie langfristig am wenigsten Zeit und Geld kostet.`;

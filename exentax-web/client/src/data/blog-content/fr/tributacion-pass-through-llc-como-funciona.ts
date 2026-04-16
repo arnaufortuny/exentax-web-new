@@ -1,4 +1,6 @@
-export default `Si quelqu'un vous a dit qu'avec une LLC vous pouvez payer 0 $ d'impôts fédéraux aux États-Unis, il ne vous racontait pas d'histoires. C'est réel, c'est légal, et cela porte un nom technique : **la fiscalité pass-through**. C'est probablement l'avantage fiscal le plus puissant d'avoir une LLC en tant que non-résident, et dans cet article, nous allons vous expliquer exactement comment cela fonctionne.
+export default `« Une LLC américaine paie 0 $ d'impôt fédéral aux États-Unis ». Cette phrase, vous l'avez sûrement croisée sur LinkedIn ou TikTok, et elle déclenche presque toujours la même réaction chez les freelances français : « ça sent l'arnaque ». Bonne nouvelle : c'est exact, à condition de bien comprendre pourquoi. Le mécanisme s'appelle la **fiscalité pass-through**, et il est parfaitement reconnu par l'IRS comme par l'administration fiscale française.
+
+Dans cet article, nous expliquons sans flou ce que signifie réellement « pass-through », pourquoi votre LLC ne paie pas d'impôt fédéral si vous résidez en France ou en Belgique, et où vos revenus sont effectivement imposés. C'est la base de tout le reste.
 
 ## Qu'est-ce que la fiscalité pass-through ?
 
@@ -123,4 +125,4 @@ Le résultat : une structure qui minimise votre charge fiscale totale de manièr
 
 Chaque cas est différent, mais la plupart de nos clients réduisent leur charge fiscale totale de 50 % à 70 % par rapport au fait d'opérer en tant qu'auto-entrepreneur/travailleur indépendant dans leur pays. Si vous facturez plus de 3 000 $ par mois, les chiffres commencent à devenir très intéressants.
 
-Prenez rendez-vous pour une consultation gratuite avec Exentax et nous analyserons votre cas concret. Nous vous montrerons exactement combien vous paieriez avec une LLC par rapport à votre structure actuelle, avec des chiffres réels, pas des promesses vagues.`;
+Vous voulez savoir comment la fiscalité pass-through s'applique précisément à votre cas, en fonction de votre résidence (France, Belgique, Suisse, Québec) et de votre type de clients ? Prenez rendez-vous pour votre consultation gratuite et nous regardons votre situation en détail.`;

@@ -1,4 +1,6 @@
-export default `Se tens uma LLC nos Estados Unidos, precisas de uma conta bancária americana. E a Mercury tornou-se a opção número um para não residentes por uma razão muito simples: podes abri-la 100% online, sem pisar solo americano, e com condições que muitos bancos tradicionais gostariam de ter.
+export default `Se acabaste de constituir a tua LLC a partir de Portugal ou do Brasil, a próxima pergunta é quase sempre a mesma: "como é que abro uma conta bancária americana sem pôr os pés nos Estados Unidos?" Durante muito tempo isto era quase impossível. Hoje, a Mercury mudou as regras do jogo para os não residentes e tornou-se, de longe, a opção preferida dos empreendedores lusófonos com LLC.
+
+100 % online, sem custos escondidos, com transferências internacionais gratuitas e um painel que nada tem a ver com o do banco do teu bairro em Lisboa, no Porto ou em São Paulo, a Mercury é a espinha dorsal financeira de quase todas as LLCs dos nossos clientes. Aqui explicamos porquê, como abrir a conta e como integrá-la no resto do teu setup.
 
 ## O que é a Mercury exatamente?
 
@@ -118,4 +120,4 @@ Sim, tudo a zero. A Mercury monetiza com produtos premium (Mercury Treasury, cr�
 3. **Ativa a autenticação de dois fatores** desde o primeiro dia. A segurança não é opcional.
 4. **Cria sub-contas** para organizar o teu dinheiro: uma para operações, outra para impostos, outra para reservas. A Mercury torna isto muito fácil.
 
-Na Exentax tratamos da abertura da tua conta Mercury como parte do processo de constituição da tua LLC. Preparamos toda a documentação, revemos a descrição do teu negócio e asseguramo-nos de que tudo esteja perfeito antes de enviar a candidatura. Agenda a tua assessoria gratuita e explicamos-te tudo.`;
+Na Exentax tratamos da abertura da tua conta Mercury como parte da constituição da tua LLC: preparamos a documentação, redigimos uma descrição de atividade limpa e garantimos que o pedido passa à primeira, sem ir e vir com a equipa de compliance. Agenda a tua consultoria gratuita e explicamos-te tudo.`;

@@ -1,4 +1,6 @@
-export default `Choisir l'État de constitution de votre LLC est l'une des décisions les plus importantes, et l'une de celles qui génèrent le plus de confusion. Internet est rempli de vidéos disant « Delaware est le meilleur » ou « Wyoming est obligatoire ». La réalité est plus nuancée, et nous vous la présentons ici sans poudre aux yeux.
+export default `Au moment de constituer votre LLC depuis la France, vous tombez vite sur la même question sur tous les forums : Nouveau-Mexique, Wyoming ou Delaware ? Spoiler : pour la majorité des freelances francophones non-résidents, le « meilleur État » de YouTube n'est presque jamais le bon. Delaware, par exemple, n'a d'intérêt réel que si vous visez un fonds d'investissement américain, ce qui n'est pas votre cas si vous facturez vos clients depuis Paris, Bruxelles ou Montréal.
+
+Dans ce comparatif, nous mettons côte à côte les trois États les plus populaires avec des chiffres réels (frais annuels, fiscalité, vie privée du gérant) et nous vous disons honnêtement lequel choisir selon votre profil.
 
 Nous allons comparer les trois États les plus choisis par les non-résidents : Nouveau-Mexique, Wyoming et Delaware. Spoiler : pour la majorité des freelances et entrepreneurs numériques, le Nouveau-Mexique l'emporte haut la main.
 
@@ -87,4 +89,4 @@ La réalité est que n'importe lequel des trois États fonctionne bien. La diff�
 
 Chez Exentax, nous vous recommandons l'État qui correspond à votre profil concret. Nous n'imposons aucun État par défaut. Nous analysons votre situation et vous indiquons lequel a le plus de sens pour vous.
 
-Vous ne savez pas quel État choisir pour votre LLC ? Prenez rendez-vous pour votre consultation gratuite et nous vous recommandons celui qui correspond le mieux à votre activité, votre pays de résidence et vos objectifs.`;
+Vous hésitez encore entre Nouveau-Mexique, Wyoming et Delaware pour votre projet ? Prenez rendez-vous pour votre consultation gratuite. Nous regardons votre activité, votre pays de résidence (France, Belgique, Suisse, Québec) et vos objectifs, et nous vous recommandons l'État qui vous coûtera le moins en temps et en argent à long terme.`;

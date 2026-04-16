@@ -1,4 +1,6 @@
-export default `Un dels grans avantatges d'una Single-Member LLC americana és que no paga impost federal sobre la renda als Estats Units. L'IRS la classifica com a "Disregarded Entity", una entitat transparent fiscalment. Els beneficis passen directament al propietari.
+export default `Una Single-Member LLC americana no paga impost federal als Estats Units si el soci és no resident i els ingressos no tenen origen americà: l'IRS la tracta com a "Disregarded Entity" i els beneficis van directament al soci. Fins aquí, ningú no ho discuteix.
+
+La pregunta real és què passa després al teu país de residència. I aquí la resposta canvia radicalment segons si vius a Catalunya o a un altre país: conveni fiscal, tractament de la LLC com a transparent o opaca, IRPF amb tram autonòmic, quota d'autònoms… Aquest article ho ordena país per país posant el focus al cas català.
 
 Però aquí ve la part que molts obliden: **aquests beneficis els declares al teu país de residència fiscal.** No desapareixen. No es tornen invisibles. La teva LLC optimitza la teva estructura, però no t'eximeix de les obligacions fiscals on vius.
 
@@ -89,4 +91,4 @@ La diferència entre un freelancer que paga el 40% i un que paga el 15% no és l
 
 A Exentax analitzem la teva situació completa: país de residència, ingressos, despeses, clients, model de negoci. I dissenyem una estructura que optimitzi la teva fiscalitat de forma legal, documentada i sostenible.
 
-Agenda la teva assessoria gratuïta de 30 minuts. Et mostrem els números reals del teu cas, sense suposicions, sense promeses buides, amb dades concretes.`;
+Vols saber exactament com tributarà la teva LLC segons el teu país de residència (Catalunya o un altre) i com optimitzar la declaració? Agenda la teva consultoria gratuïta i mirem el teu cas amb detall.`;

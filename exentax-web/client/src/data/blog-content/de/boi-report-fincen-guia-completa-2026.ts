@@ -1,4 +1,6 @@
-export default `Der BOI Report (Beneficial Ownership Information Report) ist eine Pflichtmeldung bei FinCEN (Financial Crimes Enforcement Network), die die wirtschaftlich Berechtigten von in den Vereinigten Staaten registrierten Unternehmen identifiziert. Wenn Sie eine LLC haben, müssen Sie ihn einreichen. Hier erklären wir Ihnen alles.
+export default `Wenn Sie in den letzten Jahren eine US-LLC gegründet haben, haben Sie sicher schon vom „BOI Report" gehört. Und vermutlich auch alles und das Gegenteil davon: dass er ausgesetzt sei, dann wieder eingeführt, dann „nur für US-Bürger" und so weiter. Hier bringen wir die Sache klar auf Stand 2026.
+
+Der BOI Report (Beneficial Ownership Information Report) ist eine Meldung an FinCEN, mit der die wirtschaftlich Berechtigten von in den USA registrierten Gesellschaften offengelegt werden. Für deutschsprachige Unternehmer mit einer LLC ist das heute eine überschaubare Pflicht, solange sie fristgerecht erfüllt wird. Hier finden Sie alles, was Sie dazu wissen müssen.
 
 ## Was ist FinCEN und warum fordert es diese Informationen an
 
@@ -99,4 +101,4 @@ Der BOI Report ist in unseren Gründungs- und Wartungsdienstleistungen enthalten
 
 Sie müssen kein Regierungsportal aufrufen, keine Formulare auf Englisch ausfüllen oder sich um Fristen sorgen. Wir kümmern uns um alles.
 
-Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen den BOI Report im Detail und wie wir ihn zusammen mit den übrigen Pflichten Ihrer LLC verwalten.`;
+Sie sind unsicher, ob Ihr BOI Report tatsächlich korrekt eingereicht wurde, oder haben eine LLC, bei der er nie gemacht wurde? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihren FinCEN-Status und bringen ihn, falls nötig, schnell in Ordnung, bevor daraus ein echtes Problem wird.`;

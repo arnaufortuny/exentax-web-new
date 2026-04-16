@@ -1,4 +1,6 @@
-export default `Eine LLC in den Vereinigten Staaten als Nichtansässiger zu gründen, ist ein zu 100 % online durchführbarer Prozess, der in wenigen Tagen abgeschlossen werden kann. Sie müssen nicht reisen, kein Visum haben und keinen Anwalt in den USA beauftragen.
+export default `Sie haben entschieden, eine LLC aus Deutschland, Österreich oder der Schweiz heraus zu gründen, und möchten den gesamten Prozess sehen, bevor Sie irgendetwas unterschreiben? Gute Entscheidung. Die Gründung einer LLC als Nichtansässiger ist heute ein vollständig digitaler Prozess, ohne Visum, ohne Reise und ohne US-Anwalt, aber dennoch keine reine Formularangelegenheit.
+
+In diesem Leitfaden zeigen wir Schritt für Schritt, was wir bei Exentax für unsere Mandanten konkret übernehmen: Wahl des Bundesstaates, Einreichung der Articles of Organization, EIN, Operating Agreement, BOI Report, Eröffnung des Mercury-Kontos und Aufsetzen der jährlichen Compliance. Ohne versteckte Schritte und ohne unrealistische Versprechen zur Bearbeitungsdauer.
 
 Hier erklären wir Ihnen den Prozess Schritt für Schritt. damit Sie genau verstehen, was damit verbunden ist.
 
@@ -111,4 +113,4 @@ Bei Exentax kümmern wir uns um den gesamten Gründungsprozess von Anfang bis En
 
 Der gesamte Prozess: zwischen 3 und 10 Wochen (der Engpass ist die EIN des IRS, nicht wir). Und während der gesamten Zeit haben Sie direkten Support durch unser Team.
 
-Vereinbaren Sie Ihre kostenlose Beratung und in 30 Minuten erklären wir Ihnen den gesamten Prozess für Ihren konkreten Fall.`;
+Möchten Sie den Prozess mit einer durchgehenden Begleitung aus dem DACH-Raum starten? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihr Vorhaben, wählen gemeinsam den passenden Bundesstaat und starten die Gründung, sobald Sie bereit sind.`;

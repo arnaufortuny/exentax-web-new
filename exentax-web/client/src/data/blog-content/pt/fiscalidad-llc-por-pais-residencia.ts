@@ -1,4 +1,6 @@
-export default `Uma das grandes vantagens de uma Single-Member LLC americana é que não paga imposto federal sobre o rendimento nos Estados Unidos. O IRS classifica-a como "Disregarded Entity", uma entidade transparente fiscalmente. Os lucros passam diretamente para o proprietário.
+export default `Uma Single-Member LLC americana não paga imposto federal nos Estados Unidos se o sócio for não residente e os rendimentos não tiverem origem americana: o IRS trata-a como "Disregarded Entity" e os lucros vão diretamente para o sócio. Até aí, ninguém discute.
+
+A verdadeira pergunta é o que acontece a seguir no teu país de residência. E aí a resposta muda radicalmente consoante vives em Portugal, no Brasil ou noutro país: convenção fiscal, tratamento da LLC como transparente ou opaca, IRS categoria B, Segurança Social, IFICI… Este artigo arruma o tema país a país para o mundo lusófono.
 
 Mas aqui vem a parte que muitos esquecem: **esses lucros são declarados no seu país de residência fiscal.** Não desaparecem. Não se tornam invisíveis. A sua LLC otimiza a sua estrutura, mas não o isenta das obrigações fiscais onde vive.
 
@@ -89,4 +91,4 @@ A diferença entre um freelancer que paga 40% e um que paga 15% não é a LLC em
 
 Na Exentax analisamos a sua situação completa: país de residência, rendimentos, despesas, clientes, modelo de negócio. E desenhamos uma estrutura que otimize a sua fiscalidade de forma legal, documentada e sustentável.
 
-Agende a sua assessoria gratuita de 30 minutos. Mostramos-lhe os números reais do seu caso, sem suposições, sem promessas vazias, com dados concretos.`;
+Queres saber exatamente como a tua LLC será tributada consoante o teu país de residência (Portugal, Brasil ou outro) e como otimizar a declaração? Agenda a tua consultoria gratuita e olhamos para o teu caso ao detalhe.`;

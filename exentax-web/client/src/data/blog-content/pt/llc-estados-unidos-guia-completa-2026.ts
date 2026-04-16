@@ -1,4 +1,6 @@
-export default `Uma LLC (Limited Liability Company) é a estrutura empresarial mais utilizada por freelancers e empreendedores digitais não residentes que operam fora dos Estados Unidos. Combina proteção patrimonial com uma fiscalidade favorável, e o mais importante: é completamente legal. Milhares de profissionais lusófonos já a utilizam para faturar a clientes globais, receber em dólares e deixar de entregar metade do que ganham ao fisco.
+export default `Faturas a clientes lá fora a partir de Portugal ou do Brasil e, no fim do ano, sentes que entregas metade ao Estado entre IRS, derrama e Segurança Social? Não és exceção. Cada vez mais freelancers, programadores e criadores lusófonos passaram a estruturar a sua atividade internacional através de uma LLC americana.
+
+Uma LLC (Limited Liability Company) bem constituída não é um esquema offshore: é uma sociedade dos Estados Unidos reconhecida pelo IRS, totalmente legal, que combina proteção patrimonial e tributação pass-through (0 % federal nos EUA para não residentes). Este guia explica, sem rodeios, como funciona em 2026, o que muda para quem vive em Lisboa, Porto, São Paulo ou Lisboa fiscal, e quando faz mesmo sentido dar o salto.
 
 Neste guia contamos-te tudo o que precisas saber antes de dar o passo. Sem rodeios, sem letras pequenas, sem o típico "consulte o seu assessor". Na Exentax tratamos de tudo, por isso explicamos-te como se já fosses cliente.
 
@@ -95,4 +97,4 @@ A manutenção anual inclui todas as declarações perante o IRS (Form 5472, For
 
 Absolutamente. Não é evasão fiscal. É planeamento fiscal legal utilizando estruturas reconhecidas pelo IRS e as autoridades do teu país. Milhões de empresas operam assim. A chave está em declarar corretamente e manter o compliance em dia, e disso tratamos nós.
 
-Queres saber se a LLC faz sentido para ti? Agenda a tua assessoria gratuita de 30 minutos. Explicamos-te tudo, analisamos o teu caso e dizemos-te exatamente quanto podes poupar. Sem compromisso, sem letras pequenas.`;
+Queres perceber se a LLC encaixa no teu caso, ou se ainda compensa manter a atividade aberta em Portugal (ou o teu CNPJ no Brasil)? Agenda a tua consultoria gratuita de 30 minutos. Olhamos para os teus clientes, residência fiscal e objetivos e dizemos-te de forma honesta quanto irias poupar. Sem compromisso, sem letra miudinha.`;

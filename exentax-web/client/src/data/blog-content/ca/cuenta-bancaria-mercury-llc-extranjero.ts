@@ -1,4 +1,6 @@
-export default `Si tens una LLC als Estats Units, necessites un compte bancari americà. I Mercury s'ha convertit en l'opció número u per a no residents per una raó molt senzilla: pots obrir-lo 100% online, sense trepitjar sòl americà, i amb unes condicions que ja voldrien molts bancs tradicionals.
+export default `Si acabes de constituir la teva LLC des de Catalunya, la pregunta següent gairebé sempre és la mateixa: "com obro un compte bancari americà sense trepitjar els Estats Units?" Durant molt temps això era pràcticament impossible. Avui, Mercury ha canviat les regles del joc per als no residents i s'ha convertit, de llarg, en l'opció preferida dels emprenedors catalans amb LLC.
+
+100 % en línia, sense costos amagats, amb transferències internacionals gratuïtes i un panell que no té res a veure amb el del teu banc de tota la vida, Mercury és l'espina dorsal financera de gairebé totes les LLCs dels nostres clients. Aquí t'expliquem per què, com obrir el compte i com integrar-lo amb la resta del teu setup.
 
 ## Què és Mercury exactament?
 
@@ -118,4 +120,4 @@ Sí, tot a zero. Mercury monetitza amb productes premium (Mercury Treasury, crè
 3. **Activa l'autenticació de dos factors** des del primer dia. La seguretat no és opcional.
 4. **Crea subcomptes** per organitzar els teus diners: un per a operacions, un altre per a impostos, un altre per a reserves. Mercury ho fa molt fàcil.
 
-A Exentax ens encarreguem de l'obertura del teu compte Mercury com a part del procés de constitució de la teva LLC. Preparem tota la documentació, revisem la descripció del teu negoci i ens assegurem que tot estigui perfecte abans d'enviar la sol·licitud. Agenda la teva assessoria gratuïta i t'ho expliquem.`;
+A Exentax ens encarreguem de l'obertura del teu compte Mercury com a part de la constitució de la teva LLC: preparem la documentació, redactem una descripció d'activitat neta i ens assegurem que la sol·licitud passi a la primera, sense anar i venir amb l'equip de compliance. Agenda la teva consultoria gratuïta i t'ho expliquem tot.`;

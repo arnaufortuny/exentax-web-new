@@ -1,4 +1,6 @@
-export default `El BOI Report (Beneficial Ownership Information Report) és una declaració obligatòria davant FinCEN (Financial Crimes Enforcement Network) que identifica els propietaris beneficiaris d'empreses registrades als Estats Units. Si tens una LLC, necessites presentar-lo. Aquí t'expliquem tot.
+export default `Si has constituït una LLC als Estats Units els darrers anys, segur que has sentit a parlar del "BOI Report". I probablement també hauràs llegit tot i el contrari: que estava suspès, després reactivat, després "només per a socis americans", i així. Posem-hi ordre, actualitzat al 2026.
+
+El BOI Report (Beneficial Ownership Information Report) és una declaració a FinCEN que identifica els beneficiaris reals de les societats registrades als Estats Units. Per a emprenedors catalans amb LLC, avui és una obligació senzilla de complir, sempre que es faci dins de termini. Aquí tens tot el que necessites saber.
 
 ## Què és FinCEN i per què demana aquesta informació
 
@@ -99,4 +101,4 @@ El BOI Report està inclòs en els nostres serveis de constitució i manteniment
 
 No has d'entrar a cap portal governamental, omplir formularis en anglès ni preocupar-te pels terminis. Ens encarreguem de tot.
 
-Agenda la teva assessoria gratuïta de 30 minuts. T'expliquem el BOI Report en detall i com el gestionem juntament amb la resta d'obligacions de la teva LLC.`;
+Tens dubtes si el teu BOI Report es va presentar correctament, o tens una LLC on no s'ha fet mai? Agenda la teva consultoria gratuïta. Revisem el teu estat a FinCEN i, si cal, ho regularitzem ràpidament abans que es converteixi en un problema real.`;

@@ -1,4 +1,6 @@
-export default `Constituir una LLC als Estats Units sent no resident és un procés 100% online que es pot completar en pocs dies. No necessites viatjar, no necessites visat, i no necessites un advocat als EUA.
+export default `Has decidit obrir una LLC des de Catalunya i vols veure el procés sencer abans de signar res? Bona decisió. Constituir una LLC sent no resident és avui un procés 100 % en línia, sense visat, sense viatjar i sense advocat americà, però no per això és només omplir un formulari.
+
+En aquesta guia detallem pas a pas què fem realment a Exentax pels nostres clients: tria de l'estat, presentació dels Articles of Organization, EIN, Operating Agreement, BOI Report, obertura del compte Mercury i arrencada del manteniment anual. Sense passos amagats i sense terminis massa optimistes.
 
 Aquí t'expliquem el procés pas a pas. perquè entenguis exactament què implica.
 
@@ -111,4 +113,4 @@ A Exentax ens encarreguem de tot el procés de constitució de principi a fi. Tu
 
 El procés complet: entre 3 i 10 setmanes (el coll d'ampolla és l'EIN de l'IRS, no nosaltres). I durant tot aquest temps, tens suport directe amb el nostre equip.
 
-Agenda la teva assessoria gratuïta i en 30 minuts t'expliquem tot el procés per al teu cas concret.`;
+Vols començar el procés amb un acompanyament de cap a cap des de Catalunya? Agenda la teva consultoria gratuïta. Validem el teu projecte, triem junts el millor estat i arrenquem amb la constitució en el moment que ens diguis.`;

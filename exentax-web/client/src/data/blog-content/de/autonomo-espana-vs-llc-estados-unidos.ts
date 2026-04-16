@@ -1,4 +1,6 @@
-export default `Wenn Sie Freiberufler oder Selbstständiger in Spanien sind und internationale Kunden abrechnen, oder Ihr Geschäft zu 100% digital ist. haben Sie sicher schon gedacht: „Macht es Sinn, weiterhin 40% an den spanischen Fiskus zu zahlen?" Die kurze Antwort: wahrscheinlich nicht. Die Zahlen sind brutal.
+export default `Dieser Artikel stellt den spanischen „autónomo" direkt der US-LLC gegenüber, weil das die historische Vergleichsbasis unserer Kanzlei ist. Wenn Sie aus Deutschland, Österreich oder der Schweiz lesen, ist die Schlussfolgerung jedoch dieselbe: Ein klassisches Freiberufler- oder Gewerbe-Setup im DACH-Raum kostet ab einer gewissen Einkommenshöhe deutlich mehr als eine sauber aufgesetzte US-LLC, sobald Krankenversicherung, Einkommensteuer, Soli und gegebenenfalls Gewerbesteuer zusammenkommen.
+
+In dieser Analyse legen wir echte Zahlen auf den Tisch: was wirklich nach allen Abgaben übrig bleibt, hier wie dort. Damit Sie eine klare Entscheidungsgrundlage haben.
 
 Lassen Sie uns mit realen Daten vergleichen, wie viel Sie als Selbstständiger in Spanien zahlen und wie viel Sie über eine LLC in den Vereinigten Staaten zahlen würden. Ohne Umschweife.
 
@@ -143,4 +145,4 @@ Die LLC macht Sinn, wenn Sie mindestens zwei dieser Kriterien erfüllen:
 
 Wenn Sie den Schritt wagen möchten, gründen wir bei Exentax nicht nur Ihre LLC und beantragen Ihre EIN. wir gestalten Ihre komplette Struktur: Bankkontoöffnung, Treasury-Konfiguration mit Slash, Wallester-Firmenkarten mit Euro-IBAN, Integration mit Stripe oder dem Gateway Ihrer Wahl, und die gesamte jährliche Compliance (Form 5472, BOI Report, Erneuerung des Registered Agent). Wir sind keine LLC-Verkäufer: Wir sind Strukturdesigner.
 
-Möchten Sie genau wissen, wie viel Sie mit Ihrem Umsatz sparen würden? Nutzen Sie unseren kostenlosen Steuerrechner oder vereinbaren Sie eine 30-minütige Beratung. Wir geben Ihnen echte Zahlen, keine Versprechen.`;
+Möchten Sie an Ihren eigenen Zahlen (Umsatz, Marge, Wohnsitz im DACH-Raum) sehen, was eine US-LLC für Sie statt Ihres aktuellen Setups bedeuten würde? Vereinbaren Sie Ihre kostenlose Beratung. Wir rechnen es gemeinsam durch, unverbindlich, und Sie haben am Ende eine klare Antwort.`;

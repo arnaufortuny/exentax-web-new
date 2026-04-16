@@ -1,4 +1,6 @@
-export default `Die EIN (Employer Identification Number) ist die Steueridentifikationsnummer, die der IRS Ihrer LLC zuweist. Betrachten Sie sie als die Steuernummer Ihres Unternehmens in den Vereinigten Staaten. Ohne diese Nummer existiert Ihre LLC zwar rechtlich, kann aber in der Praxis nicht operieren.
+export default `Die EIN (Employer Identification Number) ist für Ihre LLC das, was die Steuernummer für ein deutsches Unternehmen ist. Sie wird vom IRS vergeben, und ohne sie existiert Ihre LLC zwar auf dem Papier, kann aber praktisch nichts machen: kein Mercury-Konto, kein Stripe US, keine jährliche Steuererklärung, keine Überweisung von US-Kunden.
+
+Die gute Nachricht: Das Beantragen einer EIN als deutscher, österreichischer oder schweizerischer Nichtansässiger ohne SSN ist ein Standardvorgang, den wir bei Exentax dutzendfach pro Monat erledigen. Im Folgenden zeigen wir Ihnen, wie der Prozess 2026 wirklich abläuft, wie lange er aktuell dauert und warum dieser Schritt alles andere ermöglicht.
 
 ## Wofür brauchen Sie die EIN?
 
@@ -71,4 +73,4 @@ Um Ihre LLC zu betreiben, benötigen Sie nur die EIN. Die ITIN ist in bestimmten
 
 Keine Sorge. Die EIN wird Ihrer LLC dauerhaft zugewiesen und läuft nicht ab. Wenn Sie das Zuweisungsdokument (den Brief CP 575) verlieren, können Sie eine Kopie anfordern, indem Sie den IRS anrufen oder das entsprechende Formular einreichen. Sie können Ihre EIN auch in zuvor beim IRS eingereichten Erklärungen finden. Und wenn Sie unser Kunde sind, haben wir sie selbstverständlich archiviert.
 
-Möchten Sie Ihre LLC gründen und uns die EIN, die ITIN (falls erforderlich) und alles Weitere überlassen? Vereinbaren Sie Ihre kostenlose Beratung und wir legen los.`;
+Möchten Sie Ihre LLC aus dem DACH-Raum heraus gründen und uns die EIN, gegebenenfalls die ITIN, das Mercury-Konto und die jährliche Steuererklärung überlassen? Vereinbaren Sie Ihre kostenlose Beratung und wir legen los, ohne dass Sie Papierkram auf Ihrer Seite erledigen müssen.`;

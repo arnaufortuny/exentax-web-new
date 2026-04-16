@@ -1,4 +1,6 @@
-export default `L'EIN (Employer Identification Number) és el número d'identificació fiscal que l'IRS assigna a la teva LLC. Pensa-hi com el NIF o CIF de la teva empresa als Estats Units. Sense aquest número, la teva LLC existeix legalment però no pot operar a la pràctica.
+export default `L'EIN (Employer Identification Number) és, per a la teva LLC, l'equivalent al NIF de l'empresa a Espanya. L'emet l'IRS i, sense ell, la teva LLC existeix sobre el paper però no pot fer absolutament res a la pràctica: ni compte Mercury, ni Stripe US, ni declaració anual, ni rebre transferències de clients americans.
+
+La bona notícia és que aconseguir l'EIN com a no resident català sense SSN és un procés estàndard que fem desenes de vegades al mes a Exentax. Aquí t'expliquem com funciona, quant triga realment el 2026 i per què aquest pas és el que ho desbloqueja tot.
 
 ## Per a què necessites l'EIN?
 
@@ -71,4 +73,4 @@ Per operar la teva LLC, només necessites l'EIN. L'ITIN és necessari en certs c
 
 No et preocupis. L'EIN s'assigna de forma permanent a la teva LLC i no caduca. Si perds el document d'assignació (la carta CP 575), pots sol·licitar una còpia trucant a l'IRS o enviant el formulari corresponent. També pots trobar el teu EIN en declaracions anteriors presentades davant l'IRS. I si ets client nostre, òbviament el tenim arxivat.
 
-Vols constituir la teva LLC i que ens encarreguem de l'EIN, l'ITIN (si el necessites) i tot la resta? Agenda la teva assessoria gratuïta i comencem.`;
+Vols constituir la teva LLC des de Catalunya i que ens encarreguem de l'EIN, de l'ITIN si cal, del compte Mercury i de la declaració anual? Agenda la teva consultoria gratuïta i arrenquem junts, sense paperassa del teu costat.`;

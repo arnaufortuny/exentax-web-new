@@ -1,4 +1,6 @@
-export default `O EIN (Employer Identification Number) é o número de identificação fiscal que o IRS atribui à tua LLC. Pensa nele como o NIF ou NIPC da tua empresa nos Estados Unidos. Sem este número, a tua LLC existe legalmente mas não pode operar na prática.
+export default `O EIN (Employer Identification Number) é, para a tua LLC, o equivalente ao NIF da empresa em Portugal ou ao CNPJ no Brasil. É o IRS que o emite e, sem ele, a tua LLC existe no papel mas não pode fazer absolutamente nada na prática: nem conta Mercury, nem Stripe US, nem declaração anual, nem receber transferências de clientes americanos.
+
+A boa notícia é que obter o EIN sendo não residente lusófono e sem SSN é um processo padrão que tratamos dezenas de vezes por mês na Exentax. Aqui mostramos como funciona, quanto demora realmente em 2026 e porque é este o passo que destranca tudo o resto.
 
 ## Para que precisas do EIN?
 
@@ -71,4 +73,4 @@ Para operar a tua LLC, só precisas do EIN. O ITIN é necessário em certos caso
 
 Não te preocupes. O EIN é atribuído de forma permanente à tua LLC e não caduca. Se perderes o documento de atribuição (a carta CP 575), podes solicitar uma cópia ligando ao IRS ou enviando o formulário correspondente. Também podes encontrar o teu EIN em declarações anteriores apresentadas perante o IRS. E se és nosso cliente, obviamente temo-lo arquivado.
 
-Queres constituir a tua LLC e que tratemos do EIN, do ITIN (se precisares) e de tudo o resto? Agenda a tua assessoria gratuita e arrancamos.`;
+Queres constituir a tua LLC a partir de Portugal ou do Brasil e que tratemos do EIN, do ITIN se for preciso, da conta Mercury e da declaração anual? Agenda a tua consultoria gratuita e arrancamos juntos, sem burocracia do teu lado.`;

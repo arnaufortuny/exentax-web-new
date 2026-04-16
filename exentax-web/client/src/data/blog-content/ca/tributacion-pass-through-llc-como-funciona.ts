@@ -1,4 +1,6 @@
-export default `Si algú t'ha dit que amb una LLC pots pagar $0 d'impostos federals als Estats Units, no t'estava prenent el pèl. És real, és legal, i té un nom tècnic: **tributació pass-through**. És probablement l'avantatge fiscal més potent de tenir una LLC com a no resident, i en aquest article t'explicarem exactament com funciona.
+export default `"Una LLC americana paga 0 $ d'impost federal als Estats Units". Aquesta frase ja l'has vist mil vegades a LinkedIn i a TikTok, i quasi sempre provoca la mateixa reacció als freelancers catalans: "això sona a muntatge". Bona notícia: és cert, sempre que s'entengui per què. El mecanisme es diu **tributació pass-through** i està reconegut tant per l'IRS com per l'AEAT i la Generalitat.
+
+En aquest article expliquem sense floritures què vol dir realment "pass-through", per què la teva LLC no paga impost federal si vius a Catalunya, i on acaben tributant els teus ingressos. És la base de tota la resta.
 
 ## Què és la tributació pass-through?
 
@@ -123,4 +125,4 @@ El resultat: una estructura que minimitza la teva càrrega fiscal total de forma
 
 Cada cas és diferent, però la majoria dels nostres clients redueixen la seva càrrega fiscal total entre un 50% i un 70% respecte a operar com a autònom/treballador per compte propi al seu país. Si factures més de $3,000 al mes, els números comencen a ser molt interessants.
 
-Agenda la teva assessoria gratuïta amb Exentax i analitzem el teu cas concret. Et mostrem exactament quant pagaries amb una LLC vs la teva estructura actual, amb números reals, no amb promeses vagues.`;
+Vols entendre com s'aplica la tributació pass-through al teu cas concret, segons la teva residència a Catalunya i el tipus de clients que tens? Agenda la teva consultoria gratuïta i mirem la teva situació amb detall.`;

@@ -1,4 +1,6 @@
-export default `Se é nómada digital e trabalha a partir de Bali num mês, Lisboa no seguinte e Medellín depois, tem um problema fiscal que a maioria ignora: em que país tributa?
+export default `Trabalhas dois meses desde Lisboa, um mês desde Bali, vais ver a família a Coimbra ou ao Recife e depois vais para a Cidade do México? Vives o sonho do nómada digital lusófono e tens um problema fiscal silencioso: enquanto não tiveres a residência fiscal claramente definida, as Finanças (em Portugal) ou a Receita Federal (no Brasil) podem perfeitamente continuar a tratar-te como residente, com tudo o que isso implica.
+
+Neste artigo explicamos como funciona realmente a residência fiscal para um nómada digital, como sair de Portugal ou do Brasil de forma limpa, e que destinos fazem mesmo sentido em 2026.
 
 A resposta não é "onde estou agora" nem "onde tenho o meu passaporte". É um tema que requer planeamento, e fazê-lo bem desde o início poupa-lhe complicações e otimiza a sua carga fiscal.
 
@@ -138,4 +140,4 @@ Se é nómada digital (ou está a pensar em sê-lo), a sequência ideal é:
 4. **Configure o seu ecossistema financeiro** (Mercury + Wise + Stripe)
 5. **Comunique a mudança** às autoridades fiscais do seu país de origem
 
-Na Exentax acompanhamos nómadas digitais em todo este processo. Desde a análise inicial até à constituição da LLC, a abertura bancária e o desenho da estrutura fiscal completa. Agende a sua assessoria gratuita e começamos a trabalhar no seu plano.`;
+És nómada digital lusófono e queres clarificar a tua residência fiscal antes que se transforme num dossier complicado com as Finanças? Agenda a tua consultoria gratuita. Analisamos a tua situação, os teus dias de presença e os teus clientes e propomos-te um plano realista para 2026.`;

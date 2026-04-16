@@ -1,4 +1,6 @@
-export default `Si vous êtes auto-entrepreneur en Espagne et que vous facturez des clients internationaux, ou que votre activité est 100% digitale, vous avez sûrement déjà pensé : "Est-ce que ça a du sens de continuer à payer 40% au fisc espagnol ?" La réponse courte : probablement pas. Les chiffres sont brutaux.
+export default `Cet article compare directement le statut d'auto-entrepreneur espagnol avec une LLC américaine, parce que c'est le point de comparaison historique de notre cabinet. Mais si vous lisez ceci depuis la France, la Belgique ou le Québec, la conclusion est en réalité identique : un statut européen classique d'indépendant (auto-entrepreneur français, indépendant complémentaire belge, travailleur autonome québécois) finit toujours, à partir d'un certain seuil de revenus, par coûter beaucoup plus cher qu'une LLC américaine bien structurée.
+
+Dans cette analyse, nous mettons des chiffres réels sur la table : ce qu'il vous reste réellement après URSSAF, prélèvements sociaux, IRPF / IS et TVA, face à ce qu'il vous resterait avec une LLC. Vous aurez la photo claire pour décider.
 
 Nous allons comparer avec des données réelles combien vous payez en tant qu'auto-entrepreneur en Espagne et combien vous paieriez en opérant via une LLC aux États-Unis. Sans détour.
 
@@ -143,4 +145,4 @@ Au-delà des économies fiscales, la LLC vous ouvre l'accès à des outils finan
 
 Si vous décidez de franchir le pas, chez Exentax nous ne nous contentons pas de créer votre LLC et d'obtenir votre EIN, nous concevons votre structure complète : ouverture du compte bancaire, configuration de la trésorerie avec Slash, cartes corporatives Wallester, intégration avec Stripe ou la passerelle dont vous avez besoin, et tout le compliance annuel (Form 5472, BOI Report, renouvellement de l'agent enregistré). Nous ne sommes pas des vendeurs de LLCs : nous sommes des concepteurs de structures.
 
-Vous voulez savoir exactement combien vous économiseriez avec votre facturation ? Utilisez notre calculateur fiscal gratuit ou prenez rendez-vous pour une consultation de 30 minutes. Nous vous donnons des chiffres réels, pas des promesses.`;
+Vous voulez voir, sur vos chiffres réels (chiffre d'affaires, marges, pays de résidence), ce que donnerait votre activité avec une LLC américaine au lieu de votre statut actuel ? Prenez rendez-vous pour votre consultation gratuite. Nous faisons le calcul ensemble, sans engagement, et vous repartez avec une réponse claire.`;

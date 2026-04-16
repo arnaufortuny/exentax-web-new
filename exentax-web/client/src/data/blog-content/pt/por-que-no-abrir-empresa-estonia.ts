@@ -1,4 +1,6 @@
-export default `Se está a pensar em otimizar a sua fiscalidade como trabalhador independente/autônomo ou empreendedor digital, seguramente já ouviu falar da e-Residency da Estónia. O programa viralizou-se no YouTube, Twitter e LinkedIn como "a solução definitiva para nómadas digitais". E entendemos o atrativo: um país europeu, digitalização total, um cartão bonito com a sua foto.
+export default `Pesquisas "otimização fiscal freelancer" no YouTube e em poucos minutos cais num vídeo que te garante que a e-Residency da Estónia é a solução definitiva. Visto de fora parece elegante: cartão digital, abertura 100 % online, imagem muito "Europa moderna". O problema é que, para um freelancer português ou brasileiro que fatura a clientes fora da Estónia, raramente é a resposta certa.
+
+Neste artigo explicamos porque é que a sociedade estónia atrai tanto, o que ela realmente te custa (22 % de imposto na distribuição, contabilidade obrigatória, bancos complicados) e porque é que, na grande maioria dos casos, uma LLC americana é mais simples, mais barata e fiscalmente mais eficiente.
 
 Mas quando se vai além da superfície, a realidade é muito diferente. Falemos com dados, sem rodeios. Porque na Exentax acreditamos que as decisões fiscais não se tomam por tendência, mas sim por números.
 
@@ -183,4 +185,4 @@ Não vendemos fumo nem modas. Desenhamos estruturas fiscais baseadas na legisla�
 - **Banca no Mercury** com $0 comissões e seguro FDIC
 - **Compliance total:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Estava a pensar na Estónia? Agende uma assessoria gratuita de 30 minutos e mostramos-lhe os números reais para o seu caso. Sem compromisso, sem pressão, apenas dados. Em 30 minutos saberá exatamente quanto pagaria com uma LLC vs com uma empresa estoniana.`;
+Ainda estás indeciso entre a Estónia e uma LLC americana para estruturar a tua atividade? Agenda a tua consultoria gratuita. Comparamos as duas opções com os teus números reais e mostramos-te, sem viés, qual te sai mais barata a longo prazo.`;

@@ -1,4 +1,6 @@
-export default `Einer der großen Vorteile einer amerikanischen Single-Member LLC ist, dass sie keine Bundeseinkommensteuer in den Vereinigten Staaten zahlt. Der IRS klassifiziert sie als "Disregarded Entity", eine steuerlich transparente Einheit. Die Gewinne fließen direkt an den Eigentümer durch.
+export default `Eine Single-Member LLC zahlt in den USA keine Bundessteuer, wenn der Inhaber nicht in den USA ansässig ist und die Einkünfte keine US-Quelle haben: Der IRS behandelt sie als „Disregarded Entity", und die Gewinne fließen direkt an den Inhaber. So weit, so unstrittig.
+
+Die eigentliche Frage ist, was anschließend in Ihrem Wohnsitzland passiert. Und genau da ändert sich die Antwort radikal, je nachdem, ob Sie in Deutschland, Österreich oder der Schweiz wohnen: Doppelbesteuerungsabkommen, Einordnung der LLC als transparent oder intransparent, Krankenkasse, Soli… Dieser Artikel sortiert das Land für Land im DACH-Raum.
 
 Aber hier kommt der Teil, den viele vergessen: **Diese Gewinne deklarieren Sie in Ihrem steuerlichen Wohnsitzland.** Sie verschwinden nicht. Sie werden nicht unsichtbar, Ihre LLC optimiert Ihre Struktur, befreit Sie aber nicht von den steuerlichen Pflichten dort, wo Sie leben.
 
@@ -89,4 +91,4 @@ Der Unterschied zwischen einem Freiberufler, der 40% zahlt, und einem, der 15% z
 
 Bei Exentax analysieren wir Ihre gesamte Situation: Wohnsitzland, Einkünfte, Ausgaben, Kunden, Geschäftsmodell. Und wir entwerfen eine Struktur, die Ihre Besteuerung legal, dokumentiert und nachhaltig optimiert.
 
-Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir zeigen Ihnen die realen Zahlen Ihres Falls, ohne Vermutungen, ohne leere Versprechen, mit konkreten Daten.`;
+Möchten Sie genau wissen, wie Ihre LLC in Ihrem konkreten Wohnsitzland (Deutschland, Österreich oder der Schweiz) besteuert wird und wie die Erklärung sauber optimiert wird? Vereinbaren Sie Ihre kostenlose Beratung und wir gehen Ihren Fall im Detail durch.`;

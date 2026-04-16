@@ -1,4 +1,6 @@
-export default `Si ets nòmada digital i treballes des de Bali un mes, Lisboa el següent i Medellín després, tens un problema fiscal que la majoria ignora: a quin país tributes?
+export default `Treballes dos mesos des de Lisboa, un mes des de Bali, tornes a veure la família a Barcelona i te'n vas a Mèxic DF? Vius el somni del nòmada digital català i tens un problema fiscal que es cou en silenci: mentre no tinguis la residència fiscal ben definida, l'AEAT et pot continuar tractant com a resident, amb tot el que això comporta.
+
+En aquest article t'expliquem com funciona realment la residència fiscal per a un nòmada digital, com sortir d'Espanya de manera neta i quins destins tenen sentit de debò el 2026.
 
 La resposta no és "on sóc ara" ni "on tinc el meu passaport". És un tema que requereix planificació, i fer-ho bé des del principi t'estalvia complicacions i optimitza la teva càrrega fiscal.
 
@@ -138,4 +140,4 @@ Si ets nòmada digital (o estàs pensant a ser-ho), la seqüència ideal és:
 4. **Configura el teu ecosistema financer** (Mercury + Wise + Stripe)
 5. **Comunica el canvi** a les autoritats fiscals del teu país d'origen
 
-A Exentax acompanyem nòmades digitals en tot aquest procés. Des de l'anàlisi inicial fins a la constitució de la LLC, l'obertura bancària i el disseny de l'estructura fiscal completa. Agenda la teva assessoria gratuïta i comencem a treballar en el teu pla.`;
+Ets nòmada digital català i vols aclarir la teva residència fiscal abans que es converteixi en un expedient complicat amb Hisenda? Agenda la teva consultoria gratuïta. Analitzem la teva situació, els teus dies de presència i els teus clients i et proposem un pla realista per al 2026.`;

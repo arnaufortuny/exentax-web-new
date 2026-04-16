@@ -1,4 +1,6 @@
-export default `Una LLC (Limited Liability Company) és l'estructura empresarial més utilitzada per freelancers i emprenedors digitals no residents que operen des de fora dels Estats Units. Combina protecció patrimonial amb una fiscalitat favorable, i el més important: és completament legal. Milers de professionals ja la fan servir per facturar a clients globals, cobrar en dòlars i deixar de regalar la meitat del que guanyen al fisc.
+export default `Factures a clients de fora des de Catalunya i, entre la quota d'autònoms, l'IRPF i el tram autonòmic, veus com cada any se't'n va prop de la meitat? No ets l'únic. Cada cop més freelancers, dissenyadors i programadors catalans estructuren la seva activitat internacional a través d'una LLC americana.
+
+Una LLC (Limited Liability Company) ben muntada no és cap muntatge opac: és una societat dels Estats Units reconeguda per l'IRS, totalment legal, que combina protecció patrimonial amb tributació pass-through (0 % federal als EUA per a no residents). Aquesta guia t'explica, sense embuts, com funciona el 2026, què canvia respecte al règim d'autònoms i quan té sentit de debò fer el pas.
 
 En aquesta guia t'expliquem tot el que necessites saber abans de fer el pas. Sense embuts, sense lletra petita, sense el típic "consulta amb el teu assessor". A Exentax ens encarreguem de tot, així que t'ho expliquem com si ja fossis client.
 
@@ -95,4 +97,4 @@ El manteniment anual inclou totes les declaracions davant l'IRS (Form 5472, Form
 
 Absolutament. No és evasió fiscal. És planificació fiscal legal utilitzant estructures reconegudes per l'IRS i les autoritats del teu país. Milions d'empreses operen així. La clau està a declarar correctament i mantenir el compliance al dia, i d'això ens encarreguem nosaltres.
 
-Vols saber si la LLC té sentit per a tu? Agenda la teva assessoria gratuïta de 30 minuts. T'expliquem tot, analitzem el teu cas i et diem exactament quant pots estalviar. Sense compromís, sense lletra petita.`;
+Vols saber si la LLC encaixa amb el teu cas, o si encara et compensa més continuar com a autònom o passar per una SL? Agenda la teva consultoria gratuïta de 30 minuts. Mirem els teus clients, la teva residència fiscal i els teus objectius i et diem honestament quant estalviaries. Sense compromís i sense lletra petita.`;

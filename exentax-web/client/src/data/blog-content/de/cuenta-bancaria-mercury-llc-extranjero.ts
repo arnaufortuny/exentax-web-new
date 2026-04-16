@@ -1,4 +1,6 @@
-export default `Wenn Sie eine LLC in den Vereinigten Staaten haben, benötigen Sie ein amerikanisches Bankkonto. Und Mercury hat sich aus einem ganz einfachen Grund zur Nummer-eins-Option für Nicht-Ansässige entwickelt: Sie können es zu 100% online eröffnen, ohne amerikanischen Boden betreten zu müssen, und mit Konditionen, von denen viele traditionelle Banken nur träumen können.
+export default `Wenn Sie Ihre LLC gerade gegründet haben, ist die nächste Frage fast immer dieselbe: „Wie eröffne ich eigentlich ein US-Bankkonto, ohne nach New York zu fliegen?" Lange war das für Nichtansässige nahezu unmöglich. Mit Mercury hat sich das geändert. Es ist heute mit Abstand die beliebteste Option für deutschsprachige Unternehmer mit einer US-LLC.
+
+Komplett online, ohne versteckte Gebühren, mit kostenlosen internationalen Überweisungen und einem Dashboard, das mit dem typischen Online-Banking einer Sparkasse oder Raiffeisenbank nichts zu tun hat: Mercury ist das finanzielle Rückgrat fast aller LLCs unserer Kunden. Hier erfahren Sie warum, wie Sie das Konto eröffnen und wie es sich in den Rest Ihres Setups einfügt.
 
 ## Was genau ist Mercury?
 
@@ -118,4 +120,4 @@ Ja, alles kostenlos. Mercury monetarisiert sich über Premium-Produkte (Mercury 
 3. **Aktivieren Sie die Zwei-Faktor-Authentifizierung** vom ersten Tag an. Sicherheit ist keine Option.
 4. **Erstellen Sie Unterkonten**, um Ihr Geld zu organisieren: eines für den Betrieb, eines für Steuern, eines für Rücklagen. Mercury macht es sehr einfach.
 
-Bei Exentax kümmern wir uns um die Eröffnung Ihres Mercury-Kontos als Teil des Gründungsprozesses Ihrer LLC. Wir bereiten die gesamte Dokumentation vor, überprüfen Ihre Geschäftsbeschreibung und stellen sicher, dass alles perfekt ist, bevor wir den Antrag einreichen. Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen alles.`;
+Bei Exentax kümmern wir uns um die Eröffnung Ihres Mercury-Kontos als Teil der Gründung Ihrer LLC: Wir bereiten die Unterlagen vor, formulieren eine saubere Geschäftsbeschreibung und sorgen dafür, dass der Antrag direkt durchgeht, ohne Rückfragen vom Compliance-Team. Vereinbaren Sie Ihre kostenlose Beratung und wir gehen alles gemeinsam durch.`;

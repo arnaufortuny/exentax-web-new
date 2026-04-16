@@ -1,4 +1,6 @@
-export default `Si vous êtes nomade digital et que vous travaillez depuis Bali un mois, Lisbonne le mois suivant et Medellín ensuite, vous avez un problème fiscal que la plupart des gens ignorent : dans quel pays devez-vous payer vos impôts ?
+export default `Vous travaillez deux mois depuis Lisbonne, un mois depuis Bali, puis vous revenez voir vos parents à Lyon avant de filer à Mexico ? Vous vivez le rêve du nomade digital francophone… et vous avez un vrai problème fiscal qui se prépare en silence : tant que vous n'avez pas clairement défini votre résidence fiscale, l'administration française (ou belge, ou suisse) peut très bien continuer à vous considérer comme résident, avec tout ce que cela implique.
+
+Dans cet article, nous expliquons comment fonctionne réellement la résidence fiscale pour un nomade digital, comment l'on quitte proprement la France ou la Belgique, et quelles destinations sont réalistes en 2026.
 
 La réponse n'est pas "là où je suis en ce moment" ni "là où j'ai mon passeport". C'est un sujet qui nécessite de la planification, et bien s'y prendre dès le départ vous évite des complications et optimise votre charge fiscale.
 
@@ -138,4 +140,4 @@ Si vous êtes nomade digital (ou si vous envisagez de le devenir), la séquence 
 4. **Configurez votre écosystème financier** (Mercury + Wise + Stripe)
 5. **Communiquez le changement** aux autorités fiscales de votre pays d'origine
 
-Chez Exentax, nous accompagnons les nomades digitaux tout au long de ce processus. De l'analyse initiale à la constitution de la LLC, en passant par l'ouverture bancaire et la conception de la structure fiscale complète. Prenez rendez-vous pour votre consultation gratuite et commençons à travailler sur votre plan.`;
+Vous êtes nomade digital francophone et vous voulez clarifier votre résidence fiscale avant que cela ne devienne un dossier épineux ? Prenez rendez-vous pour votre consultation gratuite. Nous analysons votre situation, vos jours de présence et vos clients, et nous vous proposons un plan réaliste pour 2026.`;

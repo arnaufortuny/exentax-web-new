@@ -1,4 +1,6 @@
-export default `Se és trabalhador independente/autônomo em Espanha e faturas a clientes internacionais, ou o teu negócio é 100% digital. de certeza que já pensaste: "faz sentido continuar a pagar 40% ao fisco espanhol?" A resposta curta: provavelmente não. Os números são brutais.
+export default `Este artigo compara diretamente o autónomo espanhol com a LLC americana, porque foi o ponto de partida histórico da nossa firma. Mas se estás a ler isto a partir de Portugal ou do Brasil, a conclusão é exatamente a mesma: um trabalhador independente clássico (atividade aberta categoria B em Portugal, MEI ou autónomo no Brasil) acaba, a partir de um certo nível de faturação, por pagar muito mais do que uma LLC americana bem estruturada.
+
+Nesta análise pomos números reais em cima da mesa: o que sobra de facto depois de IRS, derrama, Segurança Social ou DAS, comparado com o que sobraria com uma LLC. Vais ter a fotografia clara para decidir.
 
 Vamos comparar com dados reais quanto pagas como trabalhador independente/autônomo em Espanha e quanto pagarias operando através de uma LLC nos Estados Unidos. Sem rodeios.
 
@@ -143,4 +145,4 @@ Para além da poupança fiscal, a LLC abre-te o acesso a ferramentas financeiras
 
 Se decides dar o passo, na Exentax não nos limitamos a criar a tua LLC e obter o teu EIN. desenhamos a tua estrutura completa: abertura de conta bancária, configuração de tesouraria com Slash, cartões corporativos Wallester, integração com Stripe ou o gateway que necessites, e todo o compliance anual (Form 5472, BOI Report, renovação de agente registado). Não somos vendedores de LLCs: somos designers de estruturas.
 
-Queres saber exatamente quanto pouparias com a tua faturação? Usa a nossa calculadora fiscal gratuita ou agenda uma assessoria de 30 minutos. Damos-te números reais, não promessas.`;
+Queres ver, com os teus números reais (faturação, margens, residência fiscal em Portugal ou no Brasil), o que daria a tua atividade com uma LLC americana em vez do teu regime atual? Agenda a tua consultoria gratuita. Fazemos as contas juntos, sem compromisso, e sais com uma resposta clara.`;

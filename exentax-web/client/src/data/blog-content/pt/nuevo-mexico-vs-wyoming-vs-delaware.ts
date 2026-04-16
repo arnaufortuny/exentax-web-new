@@ -1,4 +1,6 @@
-export default `Escolher o estado de constituição da tua LLC é uma das decisões mais importantes, e uma das que mais confusão gera. A internet está cheia de vídeos a dizer "Delaware é o melhor" ou "Wyoming é obrigatório". A realidade é mais matizada, e aqui contamo-la sem fumo.
+export default `Quando começas a pesquisar sobre LLCs a partir de Lisboa, Porto ou de qualquer cidade do Brasil, aparece sempre a mesma pergunta nos fóruns: Novo México, Wyoming ou Delaware? Aviso: o "melhor estado" do YouTube é quase nunca o melhor para um não residente lusófono. O Delaware, por exemplo, só faz mesmo sentido se planeias levantar capital com fundos americanos, o que não é o teu caso se faturas os teus clientes a partir de casa em Portugal ou no Brasil.
+
+Nesta comparação pomos lado a lado os três estados mais populares com números reais (taxas anuais, fiscalidade, privacidade do sócio) e dizemos-te com honestidade qual escolher segundo o teu perfil.
 
 Vamos comparar os três estados mais escolhidos por não residentes: Novo México, Wyoming e Delaware. Spoiler: para a maioria dos freelancers e empreendedores digitais, Novo México ganha por larga margem.
 
@@ -96,4 +98,4 @@ A realidade é que qualquer um dos três estados funciona bem. A diferença entr
 
 Na Exentax recomendamos-te o estado que encaixa com o teu perfil concreto. Não vendemos um estado por defeito. Analisamos a tua situação e dizemos-te qual faz mais sentido para ti.
 
-Não sabes que estado escolher para a tua LLC? Agenda a tua assessoria gratuita e recomendamos-te o que melhor encaixa com o teu negócio, o teu país de residência e os teus objetivos.`;
+Ainda estás indeciso entre Novo México, Wyoming e Delaware? Agenda a tua consultoria gratuita. Olhamos para o teu negócio, a tua residência fiscal (Portugal, Brasil ou outro) e os teus objetivos e recomendamos-te o estado que te vai custar menos tempo e dinheiro a longo prazo.`;

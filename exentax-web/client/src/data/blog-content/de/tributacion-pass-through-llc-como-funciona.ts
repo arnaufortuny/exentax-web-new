@@ -1,4 +1,6 @@
-export default `Wenn Ihnen jemand gesagt hat, dass Sie mit einer LLC $0 an Bundessteuern in den Vereinigten Staaten zahlen können, hat er Sie nicht auf den Arm genommen. Es ist real, es ist legal, und es hat einen Fachbegriff: **Pass-Through-Besteuerung**. Es ist wahrscheinlich der größte steuerliche Vorteil einer LLC als Nichtansässiger, und in diesem Artikel erklären wir Ihnen genau, wie es funktioniert.
+export default `„Eine US-LLC zahlt 0 $ Bundessteuer in den USA". Diesen Satz haben Sie vermutlich schon auf LinkedIn oder TikTok gesehen, und er löst bei deutschen Freiberuflern fast immer dieselbe Reaktion aus: „Klingt nach Steuertrick". Die gute Nachricht: Es stimmt, solange man versteht, warum. Der Mechanismus heißt **Pass-Through-Besteuerung** und ist sowohl vom IRS als auch vom deutschen, österreichischen und schweizerischen Fiskus anerkannt.
+
+In diesem Artikel erklären wir ohne Marketing-Nebel, was „pass-through" wirklich bedeutet, warum Ihre LLC keine US-Bundessteuer zahlt, wenn Sie im DACH-Raum wohnen, und wo Ihre Einkünfte am Ende tatsächlich besteuert werden. Das ist das Fundament für alles Weitere.
 
 ## Was ist die Pass-Through-Besteuerung?
 
@@ -123,4 +125,4 @@ Das Ergebnis: eine Struktur, die Ihre Gesamtsteuerbelastung auf völlig legale W
 
 Jeder Fall ist anders, aber die meisten unserer Kunden reduzieren ihre Gesamtsteuerbelastung um 50 % bis 70 % im Vergleich zur Tätigkeit als Freiberufler/Selbstständiger in ihrem Land. Wenn Sie mehr als $3.000 pro Monat in Rechnung stellen, werden die Zahlen sehr interessant.
 
-Vereinbaren Sie Ihre kostenlose Beratung mit Exentax und wir analysieren Ihren konkreten Fall. Wir zeigen Ihnen genau, wie viel Sie mit einer LLC im Vergleich zu Ihrer aktuellen Struktur zahlen würden, mit echten Zahlen, nicht mit vagen Versprechungen.`;
+Möchten Sie wissen, wie die Pass-Through-Besteuerung konkret in Ihrem Fall greift, je nach Wohnsitz in Deutschland, Österreich oder der Schweiz und Art Ihrer Kunden? Vereinbaren Sie Ihre kostenlose Beratung und wir schauen uns Ihre Situation im Detail an.`;

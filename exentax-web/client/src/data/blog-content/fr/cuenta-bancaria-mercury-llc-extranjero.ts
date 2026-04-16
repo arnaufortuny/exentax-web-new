@@ -1,4 +1,6 @@
-export default `Si vous avez une LLC aux États-Unis, vous avez besoin d'un compte bancaire américain. Et Mercury est devenu l'option numéro un pour les non-résidents pour une raison très simple : vous pouvez l'ouvrir 100% en ligne, sans mettre les pieds sur le sol américain, et avec des conditions que beaucoup de banques traditionnelles envieraient.
+export default `Si vous venez de constituer votre LLC depuis la France ou la Belgique, la prochaine question est presque toujours la même : « comment j'ouvre un compte bancaire américain sans mettre les pieds aux États-Unis ? » Pendant longtemps, c'était quasi impossible. Aujourd'hui, Mercury a changé la donne pour les non-résidents et est devenu, de loin, l'option préférée des freelances francophones avec une LLC.
+
+Entièrement en ligne, sans frais cachés, avec virements internationaux gratuits et un dashboard qui n'a rien à voir avec celui de votre banque française, Mercury est l'épine dorsale financière de la plupart des LLCs de nos clients. Voici pourquoi, comment ouvrir le compte et comment l'intégrer au reste de votre stack.
 
 ## Qu'est-ce que Mercury exactement ?
 
@@ -118,4 +120,4 @@ Oui, tout à zéro. Mercury monétise avec des produits premium (Mercury Treasur
 3. **Activez l'authentification à deux facteurs** dès le premier jour. La sécurité n'est pas optionnelle.
 4. **Créez des sous-comptes** pour organiser votre argent : un pour les opérations, un pour les impôts, un pour les réserves. Mercury rend cela très facile.
 
-Chez Exentax, nous nous occupons de l'ouverture de votre compte Mercury dans le cadre du processus de constitution de votre LLC. Nous préparons toute la documentation, révisons la description de votre activité et nous assurons que tout est parfait avant d'envoyer la demande. Prenez rendez-vous pour votre consultation gratuite et nous vous expliquons tout.`;
+Chez Exentax, nous nous occupons de l'ouverture de votre compte Mercury dans le cadre de la constitution de votre LLC : nous préparons la documentation, rédigeons une description d'activité claire et veillons à ce que la demande soit acceptée du premier coup, sans aller-retour avec leur équipe de conformité. Prenez rendez-vous pour votre consultation gratuite et nous vous expliquons tout.`;

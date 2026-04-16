@@ -1,4 +1,6 @@
-export default `Se alguém disse que com uma LLC você pode pagar $0 de impostos federais nos Estados Unidos, não estava brincando. É real, é legal, e tem um nome técnico: **tributação pass-through**. É provavelmente a vantagem fiscal mais poderosa de ter uma LLC como não residente, e neste artigo vamos explicar exatamente como funciona.
+export default `"Uma LLC americana paga 0 $ de imposto federal nos Estados Unidos". Esta frase já apareceu mil vezes no LinkedIn e no TikTok, e quase sempre provoca a mesma reação nos freelancers portugueses e brasileiros: "isto cheira a esquema". Boa notícia: é verdade, desde que se perceba porquê. O mecanismo chama-se **tributação pass-through** e é reconhecido tanto pelo IRS como pelas autoridades fiscais portuguesas e brasileiras.
+
+Neste artigo explicamos sem floreados o que significa realmente "pass-through", porque é que a tua LLC não paga imposto federal se vives em Portugal ou no Brasil, e onde os teus rendimentos acabam por ser tributados. É a base de tudo o resto.
 
 ## O que é a tributação pass-through?
 
@@ -123,4 +125,4 @@ O resultado: uma estrutura que minimiza a sua carga fiscal total de forma comple
 
 Cada caso é diferente, mas a maioria dos nossos clientes reduz a sua carga fiscal total entre 50% e 70% em relação a operar como trabalhador independente/autônomo no seu país. Se você fatura mais de $3,000 por mês, os números começam a ficar muito interessantes.
 
-Agende a sua assessoria gratuita com a Exentax e analisamos o seu caso concreto. Mostramos exatamente quanto você pagaria com uma LLC vs a sua estrutura atual, com números reais, não com promessas vagas.`;
+Queres perceber como a tributação pass-through se aplica ao teu caso concreto, consoante a tua residência (Portugal, Brasil ou outro) e o tipo de clientes que tens? Agenda a tua consultoria gratuita e olhamos para a tua situação em detalhe.`;

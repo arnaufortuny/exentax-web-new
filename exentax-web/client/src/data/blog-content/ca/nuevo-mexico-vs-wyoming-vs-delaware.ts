@@ -1,4 +1,6 @@
-export default `Triar l'estat de constitució de la teva LLC és una de les decisions més importants, i una de les que més confusió genera. Internet està ple de vídeos dient "Delaware és el millor" o "Wyoming és obligatori". La realitat és més matisada, i aquí te la contem sense fum.
+export default `Quan comences a investigar sobre LLCs des de Catalunya, sempre acaba apareixent la mateixa pregunta als fòrums: Nou Mèxic, Wyoming o Delaware? Avís: el "millor estat" del YouTube quasi mai és el millor per a un no resident català. Delaware, per exemple, només té sentit si vols aixecar capital amb fons americans, cosa que no és el teu cas si factures els teus clients des de casa a Barcelona o Girona.
+
+En aquesta comparativa posem costat a costat els tres estats més populars amb números reals (taxes anuals, fiscalitat, privacitat del soci) i et diem amb honestedat quin triar segons el teu perfil.
 
 Compararem els tres estats més triats per no residents: Nou Mèxic, Wyoming i Delaware. Spoiler: per a la majoria de freelancers i emprenedors digitals, Nou Mèxic guanya de lluny.
 
@@ -96,4 +98,4 @@ La realitat és que qualsevol dels tres estats funciona bé. La diferència entr
 
 A Exentax et recomanem l'estat que encaixa amb el teu perfil concret. No venem un estat per defecte. Analitzem la teva situació i et diem quin té més sentit per a tu.
 
-No saps quin estat triar per a la teva LLC? Agenda la teva assessoria gratuïta i et recomanem el que millor encaixa amb el teu negoci, el teu país de residència i els teus objectius.`;
+Encara dubtes entre Nou Mèxic, Wyoming i Delaware? Agenda la teva consultoria gratuïta. Mirem el teu negoci, la teva residència fiscal i els teus objectius i et recomanem l'estat que et costarà menys temps i diners a llarg termini.`;

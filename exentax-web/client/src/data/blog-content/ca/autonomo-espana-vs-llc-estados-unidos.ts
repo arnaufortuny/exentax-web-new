@@ -1,4 +1,6 @@
-export default `Si ets autònom a Espanya i factures a clients internacionals, o el teu negoci és 100% digital. segur que ja has pensat: "Té sentit seguir pagant el 40% al fisc espanyol?" La resposta curta: probablement no. Els números són brutals.
+export default `Aquest article compara directament l'autònom a Espanya amb la LLC americana, perquè és el punt de partida històric de la nostra firma. Però si ho llegeixes des de Catalunya, la conclusió és exactament la mateixa que veuràs aquí: a partir d'un cert nivell de facturació, l'autònom (especialment amb el tram autonòmic català de l'IRPF i la quota mensual) acaba pagant molt més que una LLC ben estructurada.
+
+En aquesta anàlisi posem números reals sobre la taula: què et queda de debò després de quota d'autònoms, IRPF i IVA, davant del que et quedaria amb una LLC. Tindràs la foto clara per decidir.
 
 Anem a comparar amb dades reals quant pagues com a autònom a Espanya i quant pagaries operant a través d'una LLC als Estats Units. Sense embuts.
 
@@ -143,4 +145,4 @@ Més enllà de l'estalvi fiscal, la LLC t'obre l'accés a eines financeres que c
 
 Si decideixes fer el pas, a Exentax no ens limitem a crear la teva LLC i obtenir el teu EIN. dissenyem la teva estructura completa: obertura de compte bancari, configuració de tresoreria amb Slash, targetes corporatives Wallester, integració amb Stripe o la passarel·la que necessitis, i tot el compliance anual (Form 5472, BOI Report, renovació d'agent registrat). No som venedors de LLCs: som dissenyadors d'estructures.
 
-Vols saber exactament quant estalviaries amb la teva facturació? Utilitza la nostra calculadora fiscal gratuïta o agenda una assessoria de 30 minuts. Et donem números reals, no promeses.`;
+Vols veure, amb els teus números reals (facturació, marges, residència a Catalunya), què passaria amb la teva activitat si fessis el salt a una LLC en lloc de continuar com a autònom? Agenda la teva consultoria gratuïta. Fem els números junts, sense compromís, i te'n vas amb una resposta clara.`;

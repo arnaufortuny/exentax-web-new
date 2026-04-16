@@ -1,4 +1,6 @@
-export default `Constituer une LLC aux États-Unis en tant que non-résident est un processus 100% en ligne qui peut être complété en quelques jours. Pas besoin de voyager, pas besoin de visa, et pas besoin d'un avocat aux États-Unis.
+export default `Vous avez décidé d'ouvrir une LLC depuis la France, la Belgique ou la Suisse, et vous voulez voir le processus en entier avant de signer quoi que ce soit ? Bonne idée. Constituer une LLC en tant que non-résident est aujourd'hui un parcours 100 % en ligne, sans visa, sans déplacement et sans avocat américain, mais ce n'est pas pour autant un simple formulaire.
+
+Dans ce guide, nous détaillons étape par étape ce que nous faisons concrètement chez Exentax pour nos clients : choix de l'État, dépôt des Articles of Organization, EIN, Operating Agreement, BOI Report, ouverture du compte Mercury et mise en route du compliance annuel. Sans étapes cachées et sans optimiste démesuré sur les délais.
 
 Nous vous expliquons ici le processus étape par étape, pour que vous compreniez exactement ce que cela implique.
 
@@ -111,4 +113,4 @@ Chez Exentax, nous nous chargeons de tout le processus de constitution du début
 
 Le processus complet : entre 3 et 10 semaines (le goulot d'étranglement est l'EIN de l'IRS, pas nous). Et pendant tout ce temps, vous avez un support direct avec notre équipe.
 
-Prenez rendez-vous pour une consultation gratuite et en 30 minutes nous vous expliquons tout le processus pour votre cas particulier.`;
+Vous voulez démarrer le processus avec un accompagnement de bout en bout depuis la France ou la Belgique ? Prenez rendez-vous pour votre consultation gratuite. Nous validons votre projet, choisissons ensemble le meilleur État et lançons la constitution dès que vous êtes prêt.`;

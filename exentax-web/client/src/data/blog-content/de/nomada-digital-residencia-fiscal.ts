@@ -1,4 +1,6 @@
-export default `Wenn Sie als digitaler Nomade arbeiten und einen Monat auf Bali, den nächsten in Lissabon und danach in Medellín verbringen, haben Sie ein steuerliches Problem, das die meisten ignorieren: In welchem Land versteuern Sie Ihre Einkünfte?
+export default `Sie arbeiten zwei Monate aus Lissabon, einen Monat aus Bali, fliegen für die Geburtstagsfeier wieder nach Berlin und ziehen dann nach Mexiko-Stadt weiter? Sie leben den Traum des deutschsprachigen Digital Nomad und haben ein steuerliches Problem, das sich leise aufbaut: Solange Ihr steuerlicher Wohnsitz nicht sauber geklärt ist, kann das deutsche, österreichische oder schweizerische Finanzamt Sie weiterhin als unbeschränkt steuerpflichtig behandeln, mit allen Konsequenzen.
+
+In diesem Artikel erklären wir, wie steuerliche Ansässigkeit für einen Digital Nomad wirklich funktioniert, wie ein sauberer Wegzug aus Deutschland oder Österreich aussieht und welche Zielländer 2026 realistisch sind.
 
 Die Antwort ist weder "wo ich gerade bin" noch "wo ich meinen Reisepass habe". Es ist ein Thema, das Planung erfordert, und es von Anfang an richtig zu machen, erspart Ihnen Komplikationen und optimiert Ihre Steuerlast.
 
@@ -138,4 +140,4 @@ Wenn Sie digitaler Nomade sind (oder darüber nachdenken, einer zu werden), ist 
 4. **Richten Sie Ihr Finanzökosystem ein** (Mercury + Wise + Stripe)
 5. **Teilen Sie den Wechsel** den Finanzbehörden Ihres Herkunftslandes mit
 
-Bei Exentax begleiten wir digitale Nomaden durch den gesamten Prozess. Von der ersten Analyse über die LLC-Gründung und die Kontoeröffnung bis hin zum Design der kompletten steuerlichen Struktur. Vereinbaren Sie Ihre kostenlose Beratung und wir beginnen mit der Arbeit an Ihrem Plan.`;
+Sie sind Digital Nomad aus dem DACH-Raum und möchten Ihren steuerlichen Wohnsitz klären, bevor daraus ein langwieriges Verfahren wird? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihre Aufenthaltstage, Kunden und Ziele und schlagen Ihnen einen realistischen Plan für 2026 vor.`;

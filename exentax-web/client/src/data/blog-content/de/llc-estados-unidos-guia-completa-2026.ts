@@ -1,4 +1,6 @@
-export default `Eine LLC (Limited Liability Company) ist die am häufigsten genutzte Unternehmensstruktur von Freiberuflern und digitalen Unternehmern, die als Nichtansässige von außerhalb der Vereinigten Staaten tätig sind. Sie kombiniert Vermögensschutz mit einer günstigen Besteuerung, und das Wichtigste: Sie ist vollkommen legal. Tausende deutschsprachige Fachleute nutzen sie bereits, um internationale Kunden abzurechnen, in Dollar bezahlt zu werden und nicht mehr die Hälfte ihrer Einnahmen an das Finanzamt abzugeben.
+export default `Sie rechnen aus Deutschland, Österreich oder der Schweiz für internationale Kunden ab und sehen jedes Jahr, wie Finanzamt, Soli und Krankenkasse einen Großteil Ihres Gewinns auffressen? Damit sind Sie nicht allein. Immer mehr deutschsprachige Freiberufler, Entwickler und Online-Unternehmer strukturieren ihr internationales Geschäft heute über eine US-LLC.
+
+Eine LLC (Limited Liability Company) ist kein Offshore-Konstrukt, sondern eine vom IRS anerkannte US-Gesellschaft. Sie verbindet Haftungsbegrenzung mit der sogenannten Pass-Through-Besteuerung und ist für Nichtansässige in den USA föderal mit 0 % belastet. Dieser Leitfaden erklärt 2026 Punkt für Punkt, was die LLC wirklich kann, wo sie sich für deutschsprachige Unternehmer rechnet und wo nicht.
 
 In diesem Leitfaden erfahren Sie alles, was Sie wissen müssen, bevor Sie den Schritt wagen. Ohne Umschweife, ohne Kleingedrucktes, ohne das typische „fragen Sie Ihren Berater". Bei Exentax kümmern wir uns um alles, deshalb erklären wir es Ihnen so, als wären Sie bereits Kunde.
 
@@ -95,4 +97,4 @@ Die jährlichen Unterhaltskosten umfassen alle Erklärungen beim IRS (Form 5472,
 
 Absolut. Es ist keine Steuerhinterziehung. Es ist legale Steuerplanung unter Nutzung von Strukturen, die vom IRS und den Behörden Ihres Landes anerkannt sind. Millionen von Unternehmen arbeiten so. Der Schlüssel liegt in der korrekten Deklaration und der Einhaltung der Compliance, und darum kümmern wir uns.
 
-Möchten Sie wissen, ob die LLC für Sie sinnvoll ist? Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir erklären Ihnen alles, analysieren Ihren Fall und sagen Ihnen genau, wie viel Sie sparen können. Unverbindlich, ohne Kleingedrucktes.`;
+Möchten Sie wissen, ob eine LLC für Sie und Ihr deutsches, österreichisches oder schweizerisches Steuerprofil tatsächlich sinnvoll ist? Vereinbaren Sie Ihre kostenlose 30-minütige Beratung. Wir schauen uns Ihre Kundenstruktur, Ihren Wohnsitz und Ihre Ziele an und sagen Ihnen offen, was Sie sparen würden, ganz ohne Verkaufsdruck.`;

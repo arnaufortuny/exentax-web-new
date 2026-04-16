@@ -1,4 +1,6 @@
-export default `Wenn Sie eine LLC in den Vereinigten Staaten als Nichtansässiger haben, ist das Form 5472 eine informative Erklärung, die der IRS jedes Jahr verlangt. Das klingt einschüchternd, aber keine Sorge: Es handelt sich um eine rein informative Meldung, nicht um eine Steuerzahlung, und bei Exentax kümmern wir uns um alles für Sie. Sie müssen buchstäblich nichts tun.
+export default `Sie haben Ihre US-LLC aus Deutschland, Österreich oder der Schweiz gegründet und plötzlich liest man von einem mysteriösen „Form 5472" mit einer Strafe von 25.000 USD bei Versäumnis? Bitte ruhig bleiben. Das Form 5472 ist eine reine Informationsmeldung, die der IRS jedes Jahr von jeder LLC mit ausländischem Eigentümer verlangt, vergleichbar mit einer Mitteilungspflicht an das Finanzamt. Es ist weder ein Steuerbescheid noch eine Prüfung.
+
+Bei Exentax bereiten wir das Form 5472 für Sie vor und reichen es jedes Jahr im Rahmen der jährlichen Wartung Ihrer LLC ein. Im Folgenden erklären wir Ihnen klar, wofür es da ist, wer es abgeben muss und warum es kein Grund zur Panik sein sollte.
 
 ## Was ist das Form 5472?
 
@@ -101,4 +103,4 @@ Bei Exentax helfen wir Kunden, die von anderen Diensten kommen (oder die ihre LL
 
 Das Form 5472 (zusammen mit dem Pro-forma Form 1120) ist eine jährliche informative Meldung, die jede LLC mit ausländischem Eigentümer einreichen muss. Es beinhaltet keine Steuerzahlung. Es ist nicht kompliziert, wenn es jemand verwaltet, der weiß, was er tut. Und bei Exentax kümmern wir uns darum als Teil der jährlichen Verwaltung Ihrer LLC.
 
-Haben Sie Fragen zu Ihrer Situation? Vereinbaren Sie Ihre kostenlose Beratung und wir schauen es uns gemeinsam an.`;
+Sie sind unsicher, ob Ihre LLC mit dem Form 5472 wirklich auf dem Laufenden ist, oder Sie verwalten Ihre LLC bisher selbst und möchten das nun abgeben? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihre bisherigen Einreichungen und schlagen Ihnen einen klaren Plan vor, damit Sie Jahr für Jahr ruhig schlafen können.`;

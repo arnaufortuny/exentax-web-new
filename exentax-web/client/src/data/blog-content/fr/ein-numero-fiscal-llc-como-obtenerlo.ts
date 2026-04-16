@@ -1,4 +1,6 @@
-export default `L'EIN (Employer Identification Number) est le numéro d'identification fiscale que l'IRS attribue à votre LLC. Considérez-le comme le numéro SIRET de votre entreprise aux États-Unis. Sans ce numéro, votre LLC existe juridiquement mais ne peut pas fonctionner en pratique.
+export default `L'EIN (Employer Identification Number) est l'équivalent américain du numéro SIREN/SIRET pour votre LLC. C'est l'IRS qui le délivre, et sans lui, votre société existe sur le papier mais ne peut rien faire concrètement : pas de compte Mercury, pas de Stripe US, pas de déclaration annuelle, pas de paiement par virement de vos clients américains.
+
+La bonne nouvelle, c'est que l'obtention de l'EIN pour un non-résident sans SSN est un processus standard que nous traitons des dizaines de fois par mois chez Exentax. Voici comment cela fonctionne, combien de temps cela prend réellement en 2026, et pourquoi cette étape conditionne tout le reste.
 
 ## À quoi sert l'EIN ?
 
@@ -71,4 +73,4 @@ Pour faire fonctionner votre LLC, vous n'avez besoin que de l'EIN. L'ITIN est n�
 
 Pas d'inquiétude. L'EIN est attribué de manière permanente à votre LLC et n'expire pas. Si vous perdez le document d'attribution (la lettre CP 575), vous pouvez demander une copie en appelant l'IRS ou en envoyant le formulaire correspondant. Vous pouvez également retrouver votre EIN dans les déclarations précédemment déposées auprès de l'IRS. Et si vous êtes notre client, nous l'avons évidemment archivé.
 
-Vous souhaitez constituer votre LLC et que nous nous occupions de l'EIN, de l'ITIN (si vous en avez besoin) et de tout le reste ? Prenez rendez-vous pour votre consultation gratuite et nous démarrons.`;
+Vous voulez constituer votre LLC depuis la France, la Belgique ou la Suisse, et que nous nous occupions de l'EIN, de l'ITIN si nécessaire, du compte Mercury et de la déclaration annuelle ? Prenez rendez-vous pour votre consultation gratuite et nous démarrons ensemble, sans paperasse de votre côté.`;

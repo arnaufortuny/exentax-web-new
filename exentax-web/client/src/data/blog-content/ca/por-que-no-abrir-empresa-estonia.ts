@@ -1,4 +1,6 @@
-export default `Si estàs pensant a optimitzar la teva fiscalitat com a treballador per compte propi o emprenedor digital, segurament hauràs sentit a parlar de l'e-Residency d'Estònia. El programa s'ha viralitzat a YouTube, Twitter i LinkedIn com "la solució definitiva per a nòmades digitals". I entenem l'atractiu: un país europeu, digitalització total, una targeta bonica amb la teva foto.
+export default `Busques "optimització fiscal freelance" al YouTube i en pocs minuts caus en un vídeo que et ven l'e-Residency d'Estònia com la solució definitiva. Sobre el paper és elegant: targeta digital, obertura 100 % en línia, imatge molt "Europa moderna". El problema és que, per a un freelancer català que factura a clients fora d'Estònia, gairebé mai és la resposta correcta.
+
+En aquest article expliquem per què la societat estoniana atrau tant, què et costa realment (22 % d'impost sobre la distribució, comptabilitat obligatòria, bancs complicats) i per què, en la gran majoria dels casos, una LLC americana és més simple, més barata i fiscalment més eficient.
 
 Però quan rasques la superfície, la realitat és molt diferent. Parlem amb dades, sense embuts. Perquè a Exentax creiem que les decisions fiscals no es prenen per tendència sinó per números.
 
@@ -183,4 +185,4 @@ No venem fum ni modes. Dissenyem estructures fiscals basades en la legislació v
 - **Banca a Mercury** amb $0 comissions i assegurança FDIC
 - **Compliance total:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Estaves pensant en Estònia? Agenda una assessoria gratuïta de 30 minuts i et mostrem els números reals per al teu cas. Sense compromís, sense pressió, només dades. En 30 minuts sabràs exactament quant pagaries amb una LLC vs amb una empresa estona.`;
+Encara dubtes entre Estònia i una LLC americana per estructurar la teva activitat? Agenda la teva consultoria gratuïta. Comparem les dues opcions amb els teus números reals i et mostrem, sense biaix, quina et surt més barata a llarg termini.`;

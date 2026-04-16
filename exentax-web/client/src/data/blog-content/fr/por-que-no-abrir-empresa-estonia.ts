@@ -1,4 +1,6 @@
-export default `Si vous envisagez d'optimiser votre fiscalité en tant que freelance ou auto-entrepreneur numérique, vous avez sûrement entendu parler de l'e-Residency d'Estonie. Le programme est devenu viral sur YouTube, Twitter et LinkedIn comme "la solution définitive pour les nomades numériques". Et nous comprenons l'attrait : un pays européen, une digitalisation totale, une jolie carte avec votre photo.
+export default `Vous tapez « optimisation fiscale freelance » sur YouTube et, en quelques minutes, vous tombez sur trois vidéos vous expliquant qu'il faut absolument prendre l'e-Residency en Estonie. C'est élégant sur le papier : carte numérique, ouverture en ligne, image très « Europe moderne ». Le problème : pour un freelance francophone qui facture à des clients hors Estonie, c'est très rarement la bonne réponse.
+
+Dans cet article, nous expliquons pourquoi la société estonienne séduit autant, ce qu'elle vous coûte vraiment (impôt sur les distributions à 22 %, comptable obligatoire, banques compliquées) et pourquoi, dans la grande majorité des cas, une LLC américaine est plus simple, moins chère et fiscalement plus efficace.
 
 Mais quand on gratte la surface, la réalité est très différente. Parlons avec des chiffres, sans détour. Parce que chez Exentax, nous croyons que les décisions fiscales ne se prennent pas par tendance mais par les chiffres.
 
@@ -180,4 +182,4 @@ Nous ne vendons ni de la fumée ni des tendances. Nous concevons des structures 
 - **Banque chez Mercury** avec 0 $ de commissions et assurance FDIC
 - **Conformité totale :** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Vous pensiez à l'Estonie ? Réservez une consultation gratuite de 30 minutes et nous vous montrons les chiffres réels pour votre cas. Sans engagement, sans pression. juste des données. En 30 minutes, vous saurez exactement combien vous paieriez avec une LLC vs avec une entreprise estonienne.`;
+Vous hésitez encore entre l'Estonie et une LLC américaine pour structurer votre activité ? Prenez rendez-vous pour votre consultation gratuite. Nous comparons les deux options sur vos chiffres réels et vous montrons, sans parti pris, laquelle vous coûte le moins à long terme.`;
