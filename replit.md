@@ -37,6 +37,7 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - **Input Sanitization**: Global middleware to sanitize all incoming request data, preventing common injection attacks.
 - **Rate Limiting**: Endpoint-specific rate limiting to protect against abuse.
 - **Error Handling**: Consistent server-side error handling with masked user messages and detailed logging.
+- **Blog Content Guard**: `exentax-web/scripts/blog-content-lint.mjs` (`npm run lint:blog` from `exentax-web/`) blocks reintroduction of forbidden price/fee/address mentions in the blog. It runs automatically in two places: (1) `scripts/post-merge.sh`, so every push/merge fails fast, and (2) `exentax-web/scripts/build.ts`, so every deploy is blocked if the guard fails. Script output is streamed to the author so offending lines are visible.
 
 ## External Dependencies
 - **Google APIs**: Gmail API v1 (email sending), Google Calendar API (Google Meet event management), Google Sheets API v4 (data logging).

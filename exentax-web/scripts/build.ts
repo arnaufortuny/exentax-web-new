@@ -1,6 +1,7 @@
 import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
 import { rm, readFile, mkdir } from "fs/promises";
+import { spawnSync } from "child_process";
 import path from "path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -18,6 +19,22 @@ const allowlist = [
 async function buildAll() {
   const distDir = path.resolve(ROOT, "dist");
   await rm(distDir, { recursive: true, force: true });
+
+  // Blog price-and-address guard (Task #21).
+  // Runs before the client build so a forbidden price/address mention
+  // blocks the deploy with visible output from the script itself.
+  console.log("running blog price-and-address guard (lint:blog)...");
+  const lint = spawnSync(
+    process.execPath,
+    [path.resolve(ROOT, "scripts/blog-content-lint.mjs")],
+    { stdio: "inherit" },
+  );
+  if (lint.status !== 0) {
+    throw new Error(
+      `blog-content-lint failed with exit code ${lint.status}. ` +
+        `Fix the forbidden price/address mentions reported above before deploying.`,
+    );
+  }
 
   console.log("building client...");
   await viteBuild({
