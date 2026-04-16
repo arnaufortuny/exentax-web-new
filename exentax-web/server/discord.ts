@@ -1,21 +1,35 @@
 /**
  * Discord webhook notification service
  *
- * Channels:
- *   DISCORD_WEBHOOK_REGISTROS       → Newsletter, leads
- *   DISCORD_WEBHOOK_CALCULADORA     → Tax calculator results
- *   DISCORD_WEBHOOK_ACTIVIDAD       → Web visits
- *   DISCORD_WEBHOOK_AGENDA          → Bookings (create, reschedule, cancel, no-show)
- *   DISCORD_WEBHOOK_CONSENTIMIENTOS → Privacy/cookie consent
- *   DISCORD_WEBHOOK_ERRORES         → Critical server errors (fallback: registros)
+ * Único canal de visibilidad operativa para todos los eventos del backend
+ * (registros, leads, calculadora, agenda, consentimientos, actividad,
+ * errores y validaciones).
  *
- * Identity: uses the webhook name and avatar configured in Discord.
- *           No username/avatar_url overrides from code.
+ * Canales (selección por tipo de evento):
+ *   DISCORD_WEBHOOK_REGISTROS       → Leads, newsletter
+ *   DISCORD_WEBHOOK_CALCULADORA     → Calculadora fiscal
+ *   DISCORD_WEBHOOK_ACTIVIDAD       → Visitas web
+ *   DISCORD_WEBHOOK_AGENDA          → Reservas (creadas, reagendadas, canceladas, no-show)
+ *   DISCORD_WEBHOOK_CONSENTIMIENTOS → Privacidad / cookies
+ *   DISCORD_WEBHOOK_ERRORES         → Errores críticos + validaciones (fallback: registros)
  *
- * Timestamps: all embeds include full Madrid-local time
- *             (dd/MM/yyyy HH:mm:ss Europe/Madrid)
+ * Helper único: `notifyEvent(envelope)` — todos los `notify*` lo usan internamente.
  *
- * Rate: one message per 1.5s per channel (~40 msg/min/channel)
+ * Payload normalizado (envelope):
+ *   - `type`        → catálogo en `EVENT_TYPES`
+ *   - `criticality` → `info | business | warning | error`
+ *   - `channel`     → seleccionado a partir de `type` (o explícito)
+ *   - `origin`      → módulo/ruta lógica (ej. "public/booking")
+ *   - `route`       → ruta HTTP cuando aplique (ej. "/api/bookings/book")
+ *   - `method`      → método HTTP cuando aplique
+ *   - `language`    → idioma del usuario
+ *   - `source`      → fuente / referrer / utm
+ *   - `user`        → identificador del usuario (email) cuando aplique
+ *   - `data`        → campos específicos del evento (ya formateados)
+ *
+ * Timestamp: ISO UTC + hora local Europe/Madrid con segundos.
+ * Reintentos: backoff exponencial (max 3) ante 429/5xx o errores de red.
+ * Errores definitivos: log interno (logger.warn) sin romper el flujo.
  */
 
 import { logger } from "./logger";
@@ -51,6 +65,47 @@ function getWebhookUrl(channel: Channel): string | undefined {
   if (channel === "errores") return process.env[CHANNEL_ENV.registros];
   return undefined;
 }
+
+// ─── Event catalog & criticality ─────────────────────────────────────────────
+
+export const EVENT_TYPES = {
+  BOOKING_CREATED:     "booking_created",
+  BOOKING_RESCHEDULED: "booking_rescheduled",
+  BOOKING_CANCELLED:   "booking_cancelled",
+  BOOKING_NO_SHOW:     "booking_no_show",
+  LEAD_NEW:            "lead_new",
+  LEAD_CALCULATOR:     "lead_calculator",
+  LEAD_NEWSLETTER:     "lead_newsletter",
+  CONSENT_LOGGED:      "consent_logged",
+  USER_ACTIVITY:       "user_activity",
+  VALIDATION_FAILED:   "validation_failed",
+  SYSTEM_ERROR:        "system_error",
+} as const;
+
+export type EventType = typeof EVENT_TYPES[keyof typeof EVENT_TYPES];
+
+export type Criticality = "info" | "business" | "warning" | "error";
+
+const CRITICALITY_LABEL: Record<Criticality, string> = {
+  info:     "Info",
+  business: "Negocio",
+  warning:  "Advertencia",
+  error:    "Error",
+};
+
+const TYPE_TO_CHANNEL: Record<EventType, Channel> = {
+  booking_created:     "agenda",
+  booking_rescheduled: "agenda",
+  booking_cancelled:   "agenda",
+  booking_no_show:     "agenda",
+  lead_new:            "registros",
+  lead_calculator:     "calculadora",
+  lead_newsletter:     "registros",
+  consent_logged:      "consentimientos",
+  user_activity:       "actividad",
+  validation_failed:   "errores",
+  system_error:        "errores",
+};
 
 // ─── Color palette (Exentax brand) ──────────────────────────────────────────
 
@@ -197,13 +252,79 @@ function enqueueItem(item: QueueItem): void {
 
 function send(channel: Channel, embed: DiscordEmbed): void {
   const url = getWebhookUrl(channel);
-  if (!url) return;
+  if (!url) {
+    logger.debug(`Discord webhook missing for channel '${channel}' — event dropped`, "discord");
+    return;
+  }
   enqueueItem({
     url,
     payload: {
       embeds: [clampEmbed(embed)],
     },
     attempt: 0,
+  });
+}
+
+// ─── Normalized envelope / central helper ────────────────────────────────────
+
+/**
+ * Envelope normalizado para todos los eventos enviados a Discord.
+ * Un único helper (`notifyEvent`) construye el embed final, añade los campos
+ * de metadatos comunes (Tipo, Criticidad, Origen, Idioma, Fuente, etc.) y
+ * encola el envío con reintentos.
+ */
+export interface EventEnvelope {
+  type: EventType;
+  criticality: Criticality;
+  title: string;
+  description?: string;
+  color?: number;
+  channel?: Channel;          // override; por defecto se deriva de `type`
+  origin?: string | null;     // ej. "public/booking", "admin/agenda"
+  route?: string | null;      // ej. "/api/bookings/book"
+  method?: string | null;     // GET / POST / ...
+  language?: string | null;
+  source?: string | null;     // referrer / utm / canal de origen
+  user?: string | null;       // identificador del usuario (email)
+  ip?: string | null;
+  fields?: EmbedField[];      // campos específicos del evento (orden preservado)
+}
+
+const CRITICALITY_COLOR: Record<Criticality, number> = {
+  info:     COLOR.GREY,
+  business: COLOR.GREEN,
+  warning:  COLOR.ORANGE,
+  error:    COLOR.RED_INTENSE,
+};
+
+export function notifyEvent(ev: EventEnvelope): void {
+  const channel = ev.channel || TYPE_TO_CHANNEL[ev.type];
+  const fields: FieldList = [];
+
+  // Metadatos del envelope siempre primero — formato coherente.
+  pushAlways(fields, "Tipo", ev.type, true);
+  pushAlways(fields, "Criticidad", CRITICALITY_LABEL[ev.criticality], true);
+  if (ev.origin) pushAlways(fields, "Origen", ev.origin, true);
+  if (ev.method || ev.route) {
+    const r = `${ev.method ? ev.method + " " : ""}${ev.route || ""}`.trim();
+    if (r) pushAlways(fields, "Ruta", `\`${r.slice(0, 200)}\``, true);
+  }
+  if (ev.language) pushAlways(fields, "Idioma", langLabel(ev.language), true);
+  if (ev.source) pushAlways(fields, "Fuente", ev.source.slice(0, 200), true);
+  if (ev.user) pushAlways(fields, "Usuario", ev.user, true);
+  if (ev.ip) pushAlways(fields, "IP", ev.ip, true);
+
+  // Campos específicos del evento (data) tras los metadatos.
+  if (ev.fields) for (const f of ev.fields) fields.push(f);
+
+  pushAlways(fields, "Registrado", madridTimestamp(), false);
+
+  send(channel, {
+    title: ev.title,
+    description: ev.description,
+    color: ev.color ?? CRITICALITY_COLOR[ev.criticality],
+    fields,
+    timestamp: madridISO(),
   });
 }
 
@@ -229,14 +350,18 @@ function pushAlways(fields: FieldList, name: string, value: string, inline = tru
   fields.push({ name, value, inline });
 }
 
-function pushLinks(fields: FieldList, bookingId: string, manageToken?: string | null): void {
+// ─── Helpers comunes para los wrappers ───────────────────────────────────────
+
+function bookingLinks(bookingId: string, manageToken?: string | null): EmbedField[] {
+  const out: EmbedField[] = [];
   const cl = clientLink(bookingId, manageToken);
-  if (cl) fields.push({ name: "Gestion cliente", value: `[Abrir](${cl})`, inline: true });
-  fields.push({ name: "Panel admin", value: `[Gestionar](${adminLink(bookingId)})`, inline: true });
+  if (cl) out.push({ name: "Gestion cliente", value: `[Abrir](${cl})`, inline: true });
+  out.push({ name: "Panel admin", value: `[Gestionar](${adminLink(bookingId)})`, inline: true });
+  return out;
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// CANAL: AGENDA
+// EVENTOS DE NEGOCIO — wrappers tipados sobre notifyEvent
 // ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyBookingCreated(opts: {
@@ -263,19 +388,14 @@ export function notifyBookingCreated(opts: {
   marketingAccepted?: boolean;
 }): void {
   const fullName = `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`;
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Confirmada", true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-
   pushAlways(fields, "Fecha", `**${opts.date}**`, true);
   pushAlways(fields, "Horario", `${opts.startTime} — ${opts.endTime}`, true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
-
   pushAlways(fields, "Nombre", fullName, true);
-  pushAlways(fields, "Email", opts.email, true);
   pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
 
   if (opts.meetLink) pushAlways(fields, "Google Meet", `[Unirse](${opts.meetLink})`, true);
@@ -290,18 +410,22 @@ export function notifyBookingCreated(opts: {
 
   pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
   pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
-  push(fields, "IP", opts.ip);
 
-  pushLinks(fields, opts.bookingId, opts.manageToken);
+  for (const f of bookingLinks(opts.bookingId, opts.manageToken)) fields.push(f);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("agenda", {
+  notifyEvent({
+    type: EVENT_TYPES.BOOKING_CREATED,
+    criticality: "business",
     title: `Nueva asesoria — ${opts.date} ${opts.startTime}`,
     description: `**${fullName}** ha reservado una asesoria fiscal.`,
     color: COLOR.GREEN,
+    origin: "public/booking",
+    route: "/api/bookings/book",
+    method: "POST",
+    language: opts.language || null,
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
 
@@ -323,37 +447,37 @@ export function notifyBookingRescheduled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Reagendada", true);
-  pushAlways(fields, "Origen", sourceLabel, true);
-
   pushAlways(fields, "Fecha anterior", opts.oldDate ? `~~${opts.oldDate}${opts.oldStartTime ? " " + opts.oldStartTime : ""}~~` : "—", true);
   pushAlways(fields, "Nueva fecha", `**${opts.newDate}**`, true);
   pushAlways(fields, "Nuevo horario", `**${opts.newStartTime} — ${opts.newEndTime}**`, true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
-
   pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Email", opts.email, true);
   pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-
   pushAlways(fields, "Google Meet", opts.newMeetLink ? `[Unirse](${opts.newMeetLink})` : "Sin cambios", true);
   pushAlways(fields, "Reagendamientos", String(opts.rescheduleCount ?? 1), true);
-  push(fields, "IP", opts.ip);
 
-  pushLinks(fields, opts.bookingId, opts.manageToken);
+  for (const f of bookingLinks(opts.bookingId, opts.manageToken)) fields.push(f);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("agenda", {
+  notifyEvent({
+    type: EVENT_TYPES.BOOKING_RESCHEDULED,
+    criticality: "business",
     title: `Asesoria reagendada — ${opts.newDate} ${opts.newStartTime}`,
-    description: `**${opts.name}** ha cambiado la fecha de su asesoria. Origen: **${sourceLabel}**.`,
+    description: `**${opts.name}** ha cambiado la fecha de su asesoria.`,
     color: COLOR.TEAL,
+    origin: opts.source === "admin" ? "admin/agenda" : "public/booking",
+    route: opts.source === "admin"
+      ? `/api/admin/agenda/${opts.bookingId}/reschedule`
+      : `/api/booking/${opts.bookingId}/reschedule`,
+    method: "POST",
+    language: opts.language || null,
+    source: sourceLabel,
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
 
@@ -372,35 +496,35 @@ export function notifyBookingCancelled(opts: {
   source?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Cancelada", true);
-  pushAlways(fields, "Origen", sourceLabel, true);
-
   pushAlways(fields, "Fecha", opts.date || "—", true);
   pushAlways(fields, "Horario", opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "—", true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
-
   pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Email", opts.email, true);
   pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
 
   if (opts.reason) pushAlways(fields, "Motivo", opts.reason.slice(0, 300), false);
-  push(fields, "IP", opts.ip);
-
   pushAlways(fields, "Panel admin", `[Ver reserva](${adminLink(opts.bookingId)})`, true);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("agenda", {
+  notifyEvent({
+    type: EVENT_TYPES.BOOKING_CANCELLED,
+    criticality: "warning",
     title: `Asesoria cancelada — ${opts.date || "sin fecha"}`,
-    description: `**${opts.name}** ha cancelado su asesoria. Origen: **${sourceLabel}**.`,
+    description: `**${opts.name}** ha cancelado su asesoria.`,
     color: COLOR.RED,
+    origin: opts.source === "admin" ? "admin/agenda" : "public/booking",
+    route: opts.source === "admin"
+      ? `/api/admin/agenda/${opts.bookingId}/cancel`
+      : `/api/booking/${opts.bookingId}/cancel`,
+    method: "POST",
+    language: opts.language || null,
+    source: sourceLabel,
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
 
@@ -416,39 +540,33 @@ export function notifyNoShow(opts: {
   language?: string | null;
   meetLink?: string | null;
 }): void {
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "No-show", true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-
   pushAlways(fields, "Fecha", opts.date || "—", true);
   pushAlways(fields, "Horario", opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "—", true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
-
   pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Email", opts.email, true);
   pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
 
   if (opts.meetLink) pushAlways(fields, "Google Meet", `[Enlace](${opts.meetLink})`, true);
-
   pushAlways(fields, "Panel admin", `[Gestionar](${adminLink(opts.bookingId)})`, true);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("agenda", {
+  notifyEvent({
+    type: EVENT_TYPES.BOOKING_NO_SHOW,
+    criticality: "warning",
     title: `No-show — ${opts.date || "sin fecha"}`,
     description: `**${opts.name}** no se presento a la asesoria. Contactar para reagendar.`,
     color: COLOR.ORANGE,
+    origin: "admin/agenda",
+    route: `/api/admin/agenda/${opts.bookingId}/no-show`,
+    method: "POST",
+    language: opts.language || null,
+    user: opts.email,
     fields,
-    timestamp: madridISO(),
   });
 }
-
-// ═════════════════════════════════════════════════════════════════════════════
-// CANAL: CALCULADORA
-// ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyCalculatorLead(opts: {
   leadId: string;
@@ -470,14 +588,9 @@ export function notifyCalculatorLead(opts: {
   userAgent?: string | null;
   referrer?: string | null;
 }): void {
-  const ahorroAbs = Math.abs(opts.ahorro);
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
-  pushAlways(fields, "Email", opts.email, true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-
   pushAlways(fields, "Pais", opts.country?.trim() || "No especificado", true);
   pushAlways(fields, "Regimen fiscal", opts.regime?.trim() || "No especificado", true);
   push(fields, "Actividad", opts.activity);
@@ -493,25 +606,25 @@ export function notifyCalculatorLead(opts: {
 
   pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
   pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
-  push(fields, "IP", opts.ip);
-  if (opts.referrer) pushAlways(fields, "Referrer", opts.referrer.slice(0, 200), true);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("calculadora", {
+  notifyEvent({
+    type: EVENT_TYPES.LEAD_CALCULATOR,
+    criticality: "business",
     title: `Calculadora — ${fmt(opts.ahorro)} ahorro`,
     description: opts.country
       ? `Nuevo calculo desde **${opts.country}** (${opts.regime || "regimen no especificado"}).`
       : undefined,
     color: COLOR.GREEN,
+    origin: "public/calculator",
+    route: "/api/calculator-leads",
+    method: "POST",
+    language: opts.language || null,
+    source: opts.referrer ? opts.referrer.slice(0, 200) : null,
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
-
-// ═════════════════════════════════════════════════════════════════════════════
-// CANAL: REGISTROS WEB
-// ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyNewsletterSubscribe(opts: {
   email: string;
@@ -521,23 +634,23 @@ export function notifyNewsletterSubscribe(opts: {
   privacyAccepted?: boolean;
   marketingAccepted?: boolean;
 }): void {
-  const ts = madridTimestamp();
   const fields: FieldList = [];
-
-  pushAlways(fields, "Email", opts.email, true);
-  pushAlways(fields, "Fuente", opts.source || "footer", true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-  push(fields, "IP", opts.ip);
   pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
   pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("registros", {
+  notifyEvent({
+    type: EVENT_TYPES.LEAD_NEWSLETTER,
+    criticality: "business",
     title: "Nueva suscripcion newsletter",
     color: COLOR.TEAL,
+    origin: "public/newsletter",
+    route: "/api/newsletter/subscribe",
+    method: "POST",
+    language: opts.language || null,
+    source: opts.source || "footer",
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
 
@@ -552,37 +665,29 @@ export function notifyNewLead(opts: {
   activity?: string | null;
   bookingId?: string | null;
 }): void {
-  const ts = madridTimestamp();
   const fields: FieldList = [];
-
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
-  pushAlways(fields, "Fuente", opts.source, true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
-
   pushAlways(fields, "Nombre", opts.name, true);
-  pushAlways(fields, "Email", opts.email, true);
   push(fields, "Telefono", opts.phone);
   push(fields, "Actividad", opts.activity);
-  push(fields, "IP", opts.ip);
-
   if (opts.bookingId) {
     pushAlways(fields, "Panel admin", `[Ver](${adminLink(opts.bookingId)})`, true);
   }
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("registros", {
+  notifyEvent({
+    type: EVENT_TYPES.LEAD_NEW,
+    criticality: "business",
     title: `Nuevo lead — ${opts.source}`,
     description: `**${opts.name}** se ha registrado.`,
     color: COLOR.PURPLE,
+    origin: "public/lead",
+    language: opts.language || null,
+    source: opts.source,
+    user: opts.email,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
-
-// ═════════════════════════════════════════════════════════════════════════════
-// CANAL: ACTIVIDAD WEB
-// ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyWebVisit(opts: {
   ip: string;
@@ -600,15 +705,11 @@ export function notifyWebVisit(opts: {
   isNew?: boolean;
 }): void {
   const page = opts.page || "/";
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Pagina", page, true);
   pushAlways(fields, "Dispositivo", opts.device || "Desconocido", true);
   pushAlways(fields, "Visitante", opts.isNew ? "Nuevo" : "Recurrente", true);
-
-  pushAlways(fields, "IP", opts.ip, true);
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
   push(fields, "Pantalla", opts.screen);
 
   let browser = "";
@@ -622,7 +723,6 @@ export function notifyWebVisit(opts: {
     else browser = ua.slice(0, 50);
   }
   push(fields, "Navegador", browser);
-  push(fields, "Referrer", opts.referrer?.slice(0, 200));
 
   if (opts.utmSource) pushAlways(fields, "UTM Source", opts.utmSource, true);
   if (opts.utmMedium) pushAlways(fields, "UTM Medium", opts.utmMedium, true);
@@ -631,19 +731,19 @@ export function notifyWebVisit(opts: {
 
   if (opts.sessionId) pushAlways(fields, "Sesion", `\`${opts.sessionId.slice(0, 16)}\``, true);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("actividad", {
+  notifyEvent({
+    type: EVENT_TYPES.USER_ACTIVITY,
+    criticality: "info",
     title: `Visita — ${page}`,
     color: opts.isNew ? COLOR.GREEN : COLOR.GREY,
+    origin: "public/visitor",
+    route: page,
+    language: opts.language || null,
+    source: opts.referrer ? opts.referrer.slice(0, 200) : null,
+    ip: opts.ip,
     fields,
-    timestamp: madridISO(),
   });
 }
-
-// ═════════════════════════════════════════════════════════════════════════════
-// CANAL: CONSENTIMIENTOS
-// ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyConsent(opts: {
   formType: string;
@@ -657,31 +757,69 @@ export function notifyConsent(opts: {
 }): void {
   const isCookie = opts.formType.startsWith("cookies:");
   const typeLabel = isCookie ? opts.formType.replace("cookies:", "") : opts.formType;
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
-  pushAlways(fields, "Tipo", typeLabel, true);
+  pushAlways(fields, "Formulario", typeLabel, true);
   pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No aceptada", true);
   pushAlways(fields, "Marketing", opts.marketingAccepted === true ? "Aceptado" : opts.marketingAccepted === false ? "Rechazado" : "N/A", true);
-
-  pushAlways(fields, "Idioma", langLabel(opts.language), true);
   push(fields, "Version politica", opts.privacyVersion);
-  push(fields, "IP", opts.ip);
-  push(fields, "Email", opts.email);
-  push(fields, "Fuente", opts.source);
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("consentimientos", {
+  notifyEvent({
+    type: EVENT_TYPES.CONSENT_LOGGED,
+    criticality: "info",
     title: isCookie ? `Consentimiento cookies — ${typeLabel}` : `Consentimiento — ${typeLabel}`,
     color: isCookie ? COLOR.ORANGE : COLOR.BLUE,
+    origin: isCookie ? "public/cookies" : `public/${typeLabel}`,
+    language: opts.language || null,
+    source: opts.source || null,
+    user: opts.email || null,
+    ip: opts.ip || null,
     fields,
-    timestamp: madridISO(),
   });
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// CANAL: ERRORES CRITICOS
+// VALIDACIÓN FALLIDA
+// ═════════════════════════════════════════════════════════════════════════════
+
+/**
+ * Notifica una validación fallida (400). Se invoca una sola vez por petición
+ * desde `apiValidationFail`. Los detalles se truncan para evitar ruido.
+ */
+export function notifyValidationFailed(opts: {
+  route?: string | null;
+  method?: string | null;
+  language?: string | null;
+  ip?: string | null;
+  origin?: string | null;
+  details?: Record<string, string>;
+}): void {
+  const fields: FieldList = [];
+  if (opts.details) {
+    const entries = Object.entries(opts.details).slice(0, 10);
+    if (entries.length > 0) {
+      const text = entries.map(([k, v]) => `• \`${k}\`: ${String(v).slice(0, 120)}`).join("\n");
+      pushAlways(fields, "Campos invalidos", text.slice(0, 1000), false);
+    }
+  }
+
+  notifyEvent({
+    type: EVENT_TYPES.VALIDATION_FAILED,
+    criticality: "warning",
+    title: `Validacion fallida — ${opts.method || "?"} ${opts.route || "?"}`,
+    description: "La peticion fue rechazada por validacion de esquema.",
+    color: COLOR.ORANGE,
+    origin: opts.origin || "api",
+    route: opts.route || null,
+    method: opts.method || null,
+    language: opts.language || null,
+    ip: opts.ip || null,
+    fields,
+  });
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// ERRORES CRITICOS
 // ═════════════════════════════════════════════════════════════════════════════
 
 export function notifyCriticalError(opts: {
@@ -693,15 +831,11 @@ export function notifyCriticalError(opts: {
   statusCode?: number | null;
   stack?: string | null;
 }): void {
-  const ts = madridTimestamp();
   const fields: FieldList = [];
 
   pushAlways(fields, "Contexto", opts.context, true);
   pushAlways(fields, "Codigo", opts.code || "SERVER_ERROR", true);
   if (opts.statusCode) pushAlways(fields, "Status", String(opts.statusCode), true);
-
-  if (opts.method) pushAlways(fields, "Metodo", opts.method, true);
-  if (opts.path) pushAlways(fields, "Ruta", `\`${opts.path.slice(0, 200)}\``, true);
 
   pushAlways(fields, "Mensaje de error", `\`\`\`${opts.message.slice(0, 800)}\`\`\``, false);
 
@@ -709,13 +843,15 @@ export function notifyCriticalError(opts: {
     pushAlways(fields, "Stack trace", `\`\`\`${opts.stack.slice(0, 600)}\`\`\``, false);
   }
 
-  pushAlways(fields, "Registrado", ts, false);
-
-  send("errores", {
+  notifyEvent({
+    type: EVENT_TYPES.SYSTEM_ERROR,
+    criticality: "error",
     title: "Error critico del servidor",
     description: `Se ha producido un error en **${opts.context}**.`,
     color: COLOR.RED_INTENSE,
+    origin: opts.context,
+    route: opts.path || null,
+    method: opts.method || null,
     fields,
-    timestamp: madridISO(),
   });
 }

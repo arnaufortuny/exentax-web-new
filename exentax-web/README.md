@@ -474,6 +474,16 @@ All sent alerts are recorded in `alertas_fiscales` to prevent duplicates (matche
 | `WHATSAPP_NUMBER` | — | WhatsApp number for CTA links |
 | `COMMISSION_RATE` | — | Referral commission rate (default: 0.15) |
 | `COMPANY_ADDRESS_SHORT` | — | Company address shown in emails |
+| `DISCORD_WEBHOOK_AGENDA` | Optional | Discord webhook for booking events (created, rescheduled, cancelled, no-show) |
+| `DISCORD_WEBHOOK_REGISTROS` | Optional | Discord webhook for leads & newsletter subscriptions |
+| `DISCORD_WEBHOOK_CALCULADORA` | Optional | Discord webhook for tax calculator submissions |
+| `DISCORD_WEBHOOK_CONSENTIMIENTOS` | Optional | Discord webhook for privacy/cookie consent records |
+| `DISCORD_WEBHOOK_ACTIVIDAD` | Optional | Discord webhook for visitor activity |
+| `DISCORD_WEBHOOK_ERRORES` | Optional | Discord webhook for critical server errors and validation failures (falls back to `DISCORD_WEBHOOK_REGISTROS` if not set) |
+
+### Operational reporting
+
+All backend events (bookings, leads, calculator submissions, newsletter sign-ups, consent records, visitor activity, validation errors and critical server errors) are reported through Discord. The mapping from event type to channel is defined in `server/discord.ts` (`TYPE_TO_CHANNEL`). A single helper, `notifyEvent()`, builds a normalized embed with type, criticality, origin, route, language, source, user and IP fields. Notifications are queued and retried with exponential backoff and never block the user-facing response.
 
 ---
 
