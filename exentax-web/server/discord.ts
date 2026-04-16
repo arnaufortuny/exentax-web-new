@@ -2,8 +2,8 @@
  * Discord webhook notification service
  *
  * Único canal de visibilidad operativa para todos los eventos del backend
- * (registros, leads, calculadora, agenda, consentimientos, actividad, errores
- * y validaciones). Google Sheets ha sido eliminado por completo.
+ * (registros, leads, calculadora, agenda, consentimientos, actividad,
+ * errores y validaciones).
  *
  * Canales (selección por tipo de evento):
  *   DISCORD_WEBHOOK_REGISTROS       → Leads, newsletter
