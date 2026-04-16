@@ -2,6 +2,28 @@
 
 Chronological log of SEO-affecting changes. Most recent first.
 
+## Tax content review — 2026
+
+- **Date:** 2026-04-16
+- **Scope:** Advanced FAQ entries `advanced_9`, `advanced_10`, `advanced_11`
+  under `faqData.answers` / `faqData.questions` in all 6 locales.
+- **Sources consulted:** IRS Publication 515 (withholding of tax on non-resident
+  aliens and foreign entities), Publication 901 (US tax treaties),
+  Form W-8BEN-E + instructions, Form 1042-S + instructions, IRC §871(h) and
+  §881(c) (portfolio interest exemption).
+- **Outcome:** No customer-facing figures required correction at this
+  review. The 30% default withholding rate, the 15% / 10% treaty-reduced
+  rates, the 3-year W-8BEN-E validity window, Form 1042-S as the issued
+  information return, and the portfolio interest exemption all remain
+  consistent with the current IRS publications.
+- **Note:** At the time of the review, entries `advanced_9 / 10 / 11` had not
+  yet been authored in the locale files (only `advanced_0`–`advanced_8` ship
+  today). A follow-up task covers adding the three answers; this checklist
+  applies to them once they land.
+- **Validation:** `npx tsx exentax-web/scripts/validate-i18n.ts` → PASS
+  (0 missing keys, 0 extra keys, 0 empty values, 0 placeholder mismatches).
+- **Checklist:** `docs/tax-content-annual-review.md`.
+
 ## 2026-04-16 — SEO overhaul task #4
 
 ### Documentation (new in `exentax-web/docs/seo/`)
