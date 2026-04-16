@@ -23,7 +23,6 @@ import {
   notifyBookingRescheduled, notifyBookingCancelled,
   notifyNoShow,
 } from "../discord";
-import { sheetsLogBookingUpdate } from "../google-sheets";
 import { apiOk, apiFail, apiNotFound, apiValidationFail } from "./api-response";
 import { backendLabel, resolveRequestLang } from "./shared";
 
@@ -220,7 +219,6 @@ export function registerAdminRoutes(app: Express) {
       rescheduleCount: newRescheduleCount,
       source: "admin",
     });
-    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "rescheduled", newDate: date, newStartTime: startTime, newEndTime: endTime, rescheduleCount: newRescheduleCount });
     logger.info(`[admin] Booking ${bookingId} rescheduled to ${date} ${startTime}`, "admin");
     return apiOk(res, { date, startTime, endTime, status: "rescheduled" });
   }));
@@ -271,7 +269,6 @@ export function registerAdminRoutes(app: Express) {
       language: confirmedRow.language,
       source: "admin",
     });
-    sheetsLogBookingUpdate({ bookingId, email: confirmedRow.email || "", action: "cancelled" });
     logger.info(`[admin] Booking ${bookingId} cancelled`, "admin");
     return apiOk(res, { status: "cancelled" });
   }));
@@ -301,7 +298,6 @@ export function registerAdminRoutes(app: Express) {
       language: row.language,
       meetLink: row.googleMeet,
     });
-    sheetsLogBookingUpdate({ bookingId, email: row.email || "", action: "no_show" });
     logger.info(`[admin] Booking ${bookingId} marked as no-show`, "admin");
     return apiOk(res, { status: "no_show" });
   }));

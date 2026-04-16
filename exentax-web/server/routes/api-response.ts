@@ -1,6 +1,8 @@
 import type { Response } from "express";
 import type { ZodError } from "zod";
 import { backendLabel, resolveRequestLang } from "./shared";
+import { notifyValidationFailed } from "../discord";
+import { getClientIp } from "../route-helpers";
 
 function resolveLang(res: Response, lang?: string | null): string {
   if (lang) return lang;
@@ -25,6 +27,19 @@ export function apiValidationFail(res: Response, zodError: ZodError, lang?: stri
       const translated = backendLabel(msg, resolved);
       details[key] = translated !== msg ? translated : msg;
     }
+  }
+  try {
+    const req = res.req;
+    notifyValidationFailed({
+      route: req?.originalUrl || req?.url || null,
+      method: req?.method || null,
+      language: resolved,
+      ip: req ? getClientIp(req) : null,
+      origin: "api",
+      details,
+    });
+  } catch {
+    // notificación nunca debe afectar a la respuesta
   }
   return apiFail(res, 400, backendLabel("validationFailed", resolved), "VALIDATION_ERROR", { details });
 }
