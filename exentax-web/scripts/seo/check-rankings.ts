@@ -8,11 +8,14 @@
  *   GSC_SITE_URL                  e.g. "sc-domain:exentax.com" or "https://exentax.com/"
  *   GOOGLE_APPLICATION_CREDENTIALS  path to a service-account JSON with Search Console access.
  *     (Alternative) GSC_SERVICE_ACCOUNT_JSON  the JSON payload as a string.
+ *   DATABASE_URL                  when set, snapshots are persisted to the `seo_rankings` table
+ *                                 (recommended for scheduled deployments where local disk is wiped).
  *
  * Outputs:
- *   seo-rankings/<YYYY-MM-DD>.csv       fresh snapshot
- *   seo-rankings/latest.csv             symlink-style copy of the newest snapshot
+ *   seo-rankings/<YYYY-MM-DD>.csv       fresh snapshot (local disk)
+ *   seo-rankings/latest.csv             copy of the newest snapshot (local disk)
  *   seo-rankings/alerts-<YYYY-MM-DD>.txt  (only when drops exceed threshold)
+ *   seo_rankings table                  durable per-row history when DATABASE_URL is set
  *
  * Alert delivery:
  *   When `SEO_ALERTS_CHANNEL` is set to `slack` or `email`, the same digest is
@@ -293,6 +296,132 @@ function diffAlerts(
   return { lines, drops: sortDropsBySeverity(drops) };
 }
 
+interface DbPrevSnapshot {
+  snapshotDate: string;
+  prev: Map<string, { position: number; impressions: number; clicks: number }>;
+}
+
+async function withPgClient<T>(fn: (client: import("pg").PoolClient) => Promise<T>): Promise<T> {
+  const { Pool } = await import("pg");
+  const isProduction = process.env.NODE_ENV === "production";
+  const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    max: 2,
+    connectionTimeoutMillis: 5000,
+    ...(isProduction && { ssl: { rejectUnauthorized: false } }),
+  });
+  try {
+    const client = await pool.connect();
+    try {
+      return await fn(client);
+    } finally {
+      client.release();
+    }
+  } finally {
+    await pool.end();
+  }
+}
+
+async function ensureSeoRankingsTable(client: import("pg").PoolClient): Promise<void> {
+  await client.query(`
+    CREATE TABLE IF NOT EXISTS seo_rankings (
+      id serial PRIMARY KEY,
+      snapshot_date text NOT NULL,
+      slug text NOT NULL,
+      lang text NOT NULL,
+      keyword text NOT NULL,
+      page_url text NOT NULL,
+      impressions integer NOT NULL DEFAULT 0,
+      clicks integer NOT NULL DEFAULT 0,
+      ctr text NOT NULL DEFAULT '0',
+      position text NOT NULL DEFAULT '0',
+      has_data boolean NOT NULL DEFAULT false,
+      created_at timestamp DEFAULT now()
+    )
+  `);
+  await client.query(`CREATE INDEX IF NOT EXISTS seo_rankings_snapshot_idx ON seo_rankings(snapshot_date)`);
+  await client.query(`CREATE INDEX IF NOT EXISTS seo_rankings_slug_lang_idx ON seo_rankings(slug, lang)`);
+  await client.query(
+    `CREATE UNIQUE INDEX IF NOT EXISTS seo_rankings_snapshot_slug_lang_idx ON seo_rankings(snapshot_date, slug, lang)`,
+  );
+}
+
+async function loadPrevFromDb(
+  client: import("pg").PoolClient,
+  todaySnapshot: string,
+): Promise<DbPrevSnapshot | undefined> {
+  const { rows } = await client.query<{ snapshot_date: string }>(
+    `SELECT DISTINCT snapshot_date FROM seo_rankings WHERE snapshot_date <> $1 ORDER BY snapshot_date DESC LIMIT 1`,
+    [todaySnapshot],
+  );
+  if (rows.length === 0) return undefined;
+  const snapshotDate = rows[0].snapshot_date;
+  const { rows: data } = await client.query<{
+    slug: string;
+    lang: string;
+    impressions: number;
+    clicks: number;
+    position: string;
+  }>(
+    `SELECT slug, lang, impressions, clicks, position FROM seo_rankings WHERE snapshot_date = $1`,
+    [snapshotDate],
+  );
+  const prev = new Map<string, { position: number; impressions: number; clicks: number }>();
+  for (const r of data) {
+    prev.set(`${r.slug}::${r.lang}`, {
+      position: Number(r.position) || 0,
+      impressions: Number(r.impressions) || 0,
+      clicks: Number(r.clicks) || 0,
+    });
+  }
+  return { snapshotDate, prev };
+}
+
+async function writeSnapshotToDb(
+  client: import("pg").PoolClient,
+  snapshotDate: string,
+  results: RankingRow[],
+): Promise<void> {
+  await client.query("BEGIN");
+  try {
+    await client.query(`DELETE FROM seo_rankings WHERE snapshot_date = $1`, [snapshotDate]);
+    const chunkSize = 100;
+    for (let i = 0; i < results.length; i += chunkSize) {
+      const chunk = results.slice(i, i + chunkSize);
+      const values: unknown[] = [];
+      const placeholders: string[] = [];
+      chunk.forEach((r, idx) => {
+        const base = idx * 10;
+        placeholders.push(
+          `($${base + 1},$${base + 2},$${base + 3},$${base + 4},$${base + 5},$${base + 6},$${base + 7},$${base + 8},$${base + 9},$${base + 10})`,
+        );
+        values.push(
+          snapshotDate,
+          r.slug,
+          r.lang,
+          r.keyword,
+          r.pageUrl,
+          r.impressions,
+          r.clicks,
+          r.ctr.toFixed(4),
+          r.position.toFixed(2),
+          r.hasData,
+        );
+      });
+      await client.query(
+        `INSERT INTO seo_rankings
+          (snapshot_date, slug, lang, keyword, page_url, impressions, clicks, ctr, position, has_data)
+         VALUES ${placeholders.join(",")}`,
+        values,
+      );
+    }
+    await client.query("COMMIT");
+  } catch (err) {
+    await client.query("ROLLBACK");
+    throw err;
+  }
+}
+
 async function main() {
   const args = parseArgs(process.argv);
   let rows = buildArticleKeywords();
@@ -333,13 +462,45 @@ async function main() {
   fs.writeFileSync(path.join(outDir, "latest.csv"), toCsv(results), "utf8");
   console.log(`[seo] wrote ${results.length} rows → ${path.relative(process.cwd(), todayPath)}`);
 
-  const prevFile = findPreviousSnapshot(outDir, todayFile);
-  if (prevFile) {
-    const prev = parseCsv(fs.readFileSync(path.join(outDir, prevFile), "utf8"));
+  const snapshotDate = today();
+  let dbPrev: DbPrevSnapshot | undefined;
+  if (process.env.DATABASE_URL) {
+    try {
+      await withPgClient(async (client) => {
+        await ensureSeoRankingsTable(client);
+        dbPrev = await loadPrevFromDb(client, snapshotDate);
+        await writeSnapshotToDb(client, snapshotDate, results);
+      });
+      console.log(
+        `[seo] persisted ${results.length} rows to seo_rankings table (snapshot_date=${snapshotDate})`,
+      );
+    } catch (err) {
+      console.error(
+        `[seo] DB persistence failed: ${(err as Error).message}. Snapshot remains on local disk only.`,
+      );
+    }
+  } else {
+    console.log("[seo] DATABASE_URL not set — skipping durable DB persistence.");
+  }
+
+  let prev: Map<string, { position: number; impressions: number; clicks: number }> | undefined;
+  let prevLabel: string | undefined;
+  if (dbPrev) {
+    prev = dbPrev.prev;
+    prevLabel = `seo_rankings@${dbPrev.snapshotDate}`;
+  } else {
+    const prevFile = findPreviousSnapshot(outDir, todayFile);
+    if (prevFile) {
+      prev = parseCsv(fs.readFileSync(path.join(outDir, prevFile), "utf8"));
+      prevLabel = prevFile;
+    }
+  }
+
+  if (prev && prevLabel) {
     const { lines, drops } = diffAlerts(results, prev, args.alertDrop);
-    console.log(`[seo] compared against ${prevFile} — ${lines.length} alert(s) over threshold ${args.alertDrop}`);
+    console.log(`[seo] compared against ${prevLabel} — ${lines.length} alert(s) over threshold ${args.alertDrop}`);
     if (lines.length > 0) {
-      const alertsPath = path.join(outDir, `alerts-${today()}.txt`);
+      const alertsPath = path.join(outDir, `alerts-${snapshotDate}.txt`);
       fs.writeFileSync(alertsPath, lines.join("\n") + "\n", "utf8");
       for (const line of lines) console.log(`  ⚠  ${line}`);
       console.log(`[seo] wrote alerts → ${path.relative(process.cwd(), alertsPath)}`);

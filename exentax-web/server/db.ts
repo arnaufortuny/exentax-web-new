@@ -48,6 +48,32 @@ export async function runColumnMigrations(): Promise<void> {
         ADD COLUMN IF NOT EXISTS last_rescheduled_at text,
         ADD COLUMN IF NOT EXISTS cancelled_at text
     `);
+    await client.query(`
+      CREATE TABLE IF NOT EXISTS seo_rankings (
+        id serial PRIMARY KEY,
+        snapshot_date text NOT NULL,
+        slug text NOT NULL,
+        lang text NOT NULL,
+        keyword text NOT NULL,
+        page_url text NOT NULL,
+        impressions integer NOT NULL DEFAULT 0,
+        clicks integer NOT NULL DEFAULT 0,
+        ctr text NOT NULL DEFAULT '0',
+        position text NOT NULL DEFAULT '0',
+        has_data boolean NOT NULL DEFAULT false,
+        created_at timestamp DEFAULT now()
+      )
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS seo_rankings_snapshot_idx ON seo_rankings(snapshot_date)
+    `);
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS seo_rankings_slug_lang_idx ON seo_rankings(slug, lang)
+    `);
+    await client.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS seo_rankings_snapshot_slug_lang_idx
+        ON seo_rankings(snapshot_date, slug, lang)
+    `);
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     logger.error(`Column migration failed: ${err instanceof Error ? err.message : String(err)}`, "db");

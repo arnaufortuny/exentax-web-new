@@ -207,4 +207,27 @@ export const consentLog = pgTable("consent_log", {
   index("consent_log_created_at_idx").on(table.createdAt),
 ]);
 
+export const seoRankings = pgTable("seo_rankings", {
+  id: serial("id").primaryKey(),
+  snapshotDate: text("snapshot_date").notNull(),
+  slug: text("slug").notNull(),
+  lang: text("lang").notNull(),
+  keyword: text("keyword").notNull(),
+  pageUrl: text("page_url").notNull(),
+  impressions: integer("impressions").notNull().default(0),
+  clicks: integer("clicks").notNull().default(0),
+  ctr: text("ctr").notNull().default("0"),
+  position: text("position").notNull().default("0"),
+  hasData: boolean("has_data").notNull().default(false),
+  createdAt: timestamp("created_at").defaultNow(),
+}, (table) => [
+  index("seo_rankings_snapshot_idx").on(table.snapshotDate),
+  index("seo_rankings_slug_lang_idx").on(table.slug, table.lang),
+  uniqueIndex("seo_rankings_snapshot_slug_lang_idx").on(table.snapshotDate, table.slug, table.lang),
+]);
+
+export const insertSeoRankingSchema = createInsertSchema(seoRankings).omit({ id: true, createdAt: true });
+export type InsertSeoRanking = z.infer<typeof insertSeoRankingSchema>;
+export type SeoRanking = typeof seoRankings.$inferSelect;
+
 export const insertConsentLogSchema = createInsertSchema(consentLog).omit({ createdAt: true });

@@ -46,17 +46,32 @@ The `googleapis` package is already a dependency (see `server/google-meet.ts`), 
 
 ## Output
 
-```
-seo-rankings/
-  2026-04-16.csv        snapshot written today
-  2026-04-09.csv        previous week's snapshot
-  latest.csv            copy of the most recent snapshot
-  alerts-2026-04-16.txt only present when at least one article dropped ≥ threshold
-```
+Two destinations, in this priority order:
 
-CSV columns: `date, slug, lang, keyword, page_url, impressions, clicks, ctr, position, has_data`.
+1. **`seo_rankings` Postgres table** — durable history. The script persists every row here whenever `DATABASE_URL` is set (always the case on Replit Deployments). Schema:
 
-Weekly diff logic: for every `(slug, lang)` pair with data in both snapshots, alert when `position_today − position_previous >= --alert-drop`. Higher position numbers are worse, so a drop from 8 → 14 is a 6-slot loss.
+   ```
+   id, snapshot_date, slug, lang, keyword, page_url,
+   impressions, clicks, ctr, position, has_data, created_at
+   ```
+
+   A unique `(snapshot_date, slug, lang)` index keeps the table idempotent: re-running the script on the same day overwrites that day's rows instead of duplicating them. The table is auto-created on first use (and on server boot via `runColumnMigrations`).
+
+2. **`seo-rankings/` folder on local disk** — convenience copies for ad-hoc work:
+
+   ```
+   seo-rankings/
+     2026-04-16.csv        snapshot written today
+     2026-04-09.csv        previous week's snapshot
+     latest.csv            copy of the most recent snapshot
+     alerts-2026-04-16.txt only present when at least one article dropped ≥ threshold
+   ```
+
+   CSV columns: `date, slug, lang, keyword, page_url, impressions, clicks, ctr, position, has_data`.
+
+   ⚠️ In a Scheduled Deployment the container filesystem is wiped between runs, so treat the CSVs as development-only. The DB is the source of truth in production.
+
+Weekly diff logic: for every `(slug, lang)` pair with data in both snapshots, alert when `position_today − position_previous >= --alert-drop`. Higher position numbers are worse, so a drop from 8 → 14 is a 6-slot loss. The script prefers the most recent snapshot in `seo_rankings` as the baseline; it only falls back to the previous CSV on disk when the DB is unavailable.
 
 ## Alert delivery (Slack / email)
 
@@ -89,16 +104,40 @@ The digest contains:
 | `SEO_ALERTS_EMAIL_TO` | yes | Comma-separated list of recipients. |
 | `SEO_ALERTS_EMAIL_FROM` | yes | A verified sender in your SendGrid account. |
 
-## Scheduling
+## Scheduling on Replit
 
-Any weekly scheduler works. A minimal cron entry on a box with the credentials mounted:
+The ranking monitor runs automatically every Monday as a **Replit Scheduled Deployment**. To create or re-create it:
+
+1. Open the **Publishing** tool in this Repl and click **Create deployment → Scheduled**.
+2. Configure:
+   - **Name**: `seo-ranking-monitor`
+   - **Schedule**: `0 7 * * 1` (Mondays at 07:00 UTC)
+   - **Build command**: _(leave empty)_
+   - **Run command**: `cd exentax-web && npx tsx scripts/seo/check-rankings.ts --source=gsc`
+   - **Timeout**: 30 minutes
+3. Under **Secrets**, add the two service-account secrets (do **not** put them in `.replit`):
+   - `GSC_SITE_URL` — e.g. `sc-domain:exentax.com`
+   - `GSC_SERVICE_ACCOUNT_JSON` — the full JSON service-account key as a single string
+   `DATABASE_URL` is already inherited from the Repl environment, so snapshots land in the same Postgres database the web app uses.
+4. Click **Publish**. The first run writes a baseline; the second and later runs compare against the previous row in `seo_rankings` and log any `--alert-drop`-sized regressions.
+
+Verifying locally before publishing:
+
+```bash
+export GSC_SITE_URL="sc-domain:exentax.com"
+export GSC_SERVICE_ACCOUNT_JSON='{ ... }'
+cd exentax-web && npx tsx scripts/seo/check-rankings.ts --source=gsc --limit=5
+# Then inspect the seo_rankings table:
+psql "$DATABASE_URL" -c "select snapshot_date, slug, lang, position from seo_rankings order by snapshot_date desc limit 10;"
+```
+
+If you prefer a plain cron host instead of a Scheduled Deployment, the equivalent line is:
 
 ```
-# Mondays 07:00 UTC
-0 7 * * 1 cd /opt/exentax-web && tsx scripts/seo/check-rankings.ts --source=gsc >> logs/seo-rankings.log 2>&1
+0 7 * * 1 cd /opt/exentax-web && npx tsx scripts/seo/check-rankings.ts --source=gsc >> logs/seo-rankings.log 2>&1
 ```
 
-For Replit Deployments, add a Scheduled Deployment that runs the same command. With `SEO_ALERTS_CHANNEL` configured, the digest is delivered automatically — no extra piping step needed.
+With `SEO_ALERTS_CHANNEL` configured, the digest is delivered automatically — no extra piping step needed.
 
 ## Adjusting which keyword an article targets
 
