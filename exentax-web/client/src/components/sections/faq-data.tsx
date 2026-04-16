@@ -266,6 +266,9 @@ export function useFaqSections(): FAQSection[] {
           { q: t("faqData.questions.advanced_6"), a: r("advanced_6") },
           { q: t("faqData.questions.advanced_7"), a: r("advanced_7") },
           { q: t("faqData.questions.advanced_8"), a: r("advanced_8") },
+          { q: t("faqData.questions.advanced_9"), a: r("advanced_9") },
+          { q: t("faqData.questions.advanced_10"), a: r("advanced_10") },
+          { q: t("faqData.questions.advanced_11"), a: r("advanced_11") },
         ],
       },
       {
