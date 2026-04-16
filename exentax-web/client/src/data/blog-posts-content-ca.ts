@@ -5,7 +5,7 @@ En aquesta guia t'expliquem tot el que necessites saber abans de fer el pas. Sen
 
 ## Què és exactament una LLC?
 
-És una figura jurídica nord-americana que separa els teus béns personals dels del negoci. Si la teva empresa té un deute o un problema legal, el teu patrimoni personal no es veu afectat. La teva casa, el teu cotxe, els teus estalvis. intocables.
+És una figura jurídica nord-americana que separa els teus béns personals dels del negoci. Si la teva empresa té un deute o un problema legal, el teu patrimoni personal no es veu afectat. La teva casa, el teu cotxe, els teus estalvis — intocables.
 
 Per a un no resident amb una Single-Member LLC (un sol soci), l'IRS la classifica com a **"Disregarded Entity"**. Això significa que la LLC és una entitat transparent fiscalment: no paga impost federal sobre la renda als EUA. És el que es coneix com a **pass-through taxation**: els beneficis "passen a través" de la LLC directament al propietari, que els declara al seu país de residència fiscal.
 
@@ -76,7 +76,7 @@ Un dels grans avantatges de tenir una LLC és accedir a l'ecosistema financer am
 - **Tradovate**: Especialitzat en futurs (futures trading). Si la teva LLC opera en mercats de derivats, Tradovate ofereix una plataforma moderna amb comissions planes i accés a CME, CBOT, NYMEX i COMEX.
 - **Kraken**: Exchange de criptomonedes amb compte corporatiu per a la teva LLC. Accés a Bitcoin, Ethereum, stablecoins i més de 200 criptoactius amb liquiditat institucional i compliment regulatori sòlid.
 
-A Exentax dissenyem tot aquest ecosistema financer com a part de la teva estructura completa. No només constituïm la teva LLC. configurem la banca (Mercury com a compte principal, Relay com a reforç), les passarel·les de pagament (Stripe, PayPal), la conversió de divises (Wise Business) i t'assessorem sobre targetes corporatives (Wallester), tresoreria (Slash) i inversió (Interactive Brokers) segons el teu perfil. Tot integrat, tot operatiu des del dia u.
+A Exentax dissenyem tot aquest ecosistema financer com a part de la teva estructura completa. No només constituïm la teva LLC — configurem la banca (Mercury com a compte principal, Relay com a reforç), les passarel·les de pagament (Stripe, PayPal), la conversió de divises (Wise Business) i t'assessorem sobre targetes corporatives (Wallester), tresoreria (Slash) i inversió (Interactive Brokers) segons el teu perfil. Tot integrat, tot operatiu des del dia u.
 
 ## Quant costa constituir i mantenir una LLC?
 
@@ -112,7 +112,7 @@ Aleshores, per què genera tanta ansietat? Perquè internet està ple d'articles
 
 Qualsevol LLC nord-americana que tingui almenys un propietari estranger (no resident i no ciutadà dels EUA) i que hagi tingut transaccions reportables durant l'any fiscal.
 
-A la pràctica: si ets un freelancer amb una Single-Member LLC i has mogut diners entre la teva LLC i tu, ja sigui retirant beneficis, fent aportacions de capital o pagant despeses. has de presentar aquest formulari. I si la teva LLC va tenir activitat (que és el normal si estàs facturant), hi ha transaccions que reportar.
+A la pràctica: si ets un freelancer amb una Single-Member LLC i has mogut diners entre la teva LLC i tu, ja sigui retirant beneficis, fent aportacions de capital o pagant despeses — has de presentar aquest formulari. I si la teva LLC va tenir activitat (que és el normal si estàs facturant), hi ha transaccions que reportar.
 
 ## Quines transaccions es reporten?
 
@@ -127,7 +127,7 @@ Bàsicament, tot el que entra i surt entre tu i la teva empresa. Si mantens una 
 
 ## Form 5472 i Form 1120: el duo inseparable
 
-El Form 5472 no es presenta sol. va acompanyat del **Form 1120**, que és la declaració d'impostos corporativa de la LLC. Però atenció: per a una Single-Member LLC amb propietari estranger, el Form 1120 és **pro-forma**. No declara impostos reals perquè la LLC és una Disregarded Entity i paga 0 $ d'impost federal.
+El Form 5472 no es presenta sol — va acompanyat del **Form 1120**, que és la declaració d'impostos corporativa de la LLC. Però atenció: per a una Single-Member LLC amb propietari estranger, el Form 1120 és **pro-forma**. No declara impostos reals perquè la LLC és una Disregarded Entity i paga 0 $ d'impost federal.
 
 ### Què és el Form 1120 pro-forma?
 
@@ -245,14 +245,14 @@ Wyoming té una reputació excel·lent en privacitat i protecció d'actius. No o
 **Constitució:** Consultar
 **Manteniment anual:** Consultar
 
-Delaware és l'estat amb major reputació en dret empresarial, i és el favorit de les grans corporacions i startups que busquen inversió. La seva Court of Chancery, un tribunal especialitzat exclusivament en disputes corporatives. és referència mundial.
+Delaware és l'estat amb major reputació en dret empresarial, i és el favorit de les grans corporacions i startups que busquen inversió. La seva Court of Chancery, un tribunal especialitzat exclusivament en disputes corporatives — és referència mundial.
 
 Però siguem honestos: **per a un freelancer o emprenedor digital que opera amb una Single-Member LLC, Delaware és innecessari.** Estàs pagant un premium per un marc legal que no faràs servir.
 
 **Avantatges:**
 - Court of Chancery especialitzat
 - Marc legal més desenvolupat dels EUA
-- Preferit per inversors i venture capital. gairebé obligatori si planeges aixecar rondes de finançament
+- Preferit per inversors i venture capital — gairebé obligatori si planeges aixecar rondes de finançament
 - Historial jurisprudencial extens
 
 **Requereix:** Annual Report + Franchise Tax (inclosos en el nostre pla de manteniment).
@@ -279,7 +279,7 @@ Si necessites protecció d'actius reforçada: **Wyoming.**
 
 Si has d'aixecar inversió de VCs: **Delaware** (però probablement com a C-Corp, no com a LLC).
 
-A Exentax et recomanem l'estat que realment té sentit per al teu cas a l'assessoria gratuïta. No venem un estat per defecte. dissenyem l'estructura que encaixa amb tu. Agenda la teva assessoria i en parlem.
+A Exentax et recomanem l'estat que realment té sentit per al teu cas a l'assessoria gratuïta. No venem un estat per defecte — dissenyem l'estructura que encaixa amb tu. Agenda la teva assessoria i en parlem.
 
 ## El que l'estat NO canvia
 
@@ -309,7 +309,7 @@ En aquest article t'expliquem per què és tan important, quines conseqüències
 
 ## Per què és tan important separar les teves finances?
 
-La LLC (Limited Liability Company) existeix per separar el teu patrimoni personal del del teu negoci. Si la teva empresa té un deute o un problema, els teus béns personals, la teva casa, els teus estalvis, el teu cotxe. estan protegits. Aquesta és la raó principal per la qual constitueixes una LLC.
+La LLC (Limited Liability Company) existeix per separar el teu patrimoni personal del del teu negoci. Si la teva empresa té un deute o un problema, els teus béns personals, la teva casa, els teus estalvis, el teu cotxe — estan protegits. Aquesta és la raó principal per la qual constitueixes una LLC.
 
 Per mantenir aquesta protecció sòlida, és fonamental demostrar que la teva LLC opera com una entitat independent. La millor forma de fer-ho és mantenint les teves finances separades de forma clara i consistent.
 
@@ -334,7 +334,7 @@ Aquests són els hàbits que els emprenedors millor organitzats segueixen:
 
 ## Requisits legals per a la separació financera
 
-Mantenir la separació financera no és només una bona pràctica. és un requisit legal implícit en l'estructura de la LLC. Aquests són els punts que has de complir:
+Mantenir la separació financera no és només una bona pràctica — és un requisit legal implícit en l'estructura de la LLC. Aquests són els punts que has de complir:
 
 ### 1. Compte bancari separat i exclusiu
 
@@ -346,7 +346,7 @@ Has de mantenir una comptabilitat separada per a la teva LLC. Això inclou un re
 
 ### 3. Documentació de transaccions entre parts relacionades
 
-Cada vegada que transfereixis diners entre la teva LLC i tu, ja sigui com a distribució de beneficis, reemborsament de despeses o préstec. ha d'estar documentat. Aquestes transaccions es reporten al Form 5472 davant l'IRS.
+Cada vegada que transfereixis diners entre la teva LLC i tu, ja sigui com a distribució de beneficis, reemborsament de despeses o préstec — ha d'estar documentat. Aquestes transaccions es reporten al Form 5472 davant l'IRS.
 
 ### 4. Operating Agreement vigent
 
@@ -377,7 +377,7 @@ L'obertura és 100% online i no requereix viatjar als Estats Units. Necessites l
 
 Relay és una altra excel·lent opció, especialment si necessites organitzar els teus diners en diferents categories:
 
-- **Fins a 20 comptes corrents** sense cost addicional. pots crear-ne un per a despeses operatives, un altre per a impostos, un altre per al teu salari
+- **Fins a 20 comptes corrents** sense cost addicional — pots crear-ne un per a despeses operatives, un altre per a impostos, un altre per al teu salari
 - **Sense comissions mensuals** ni mínims
 - **Targetes de dèbit** assignables a comptes específics
 - **Integració amb programari comptable**
@@ -425,7 +425,7 @@ D'aquesta manera, la LLC manté capital operatiu, cobreixes les teves obligacion
 
 ## Implicacions fiscals de barrejar fons
 
-La commingling of funds. barreja de fons personals i empresarials. té conseqüències fiscals serioses que van més enllà de la pèrdua de protecció legal.
+La commingling of funds — barreja de fons personals i empresarials — té conseqüències fiscals serioses que van més enllà de la pèrdua de protecció legal.
 
 ### 1. Dificultat per justificar despeses deduïbles
 
@@ -445,7 +445,7 @@ Com a no resident als EUA, els ingressos de la teva LLC tributen al teu país de
 
 ### 5. Pèrdua de beneficis de tractats fiscals
 
-Alguns països tenen tractats de doble imposició amb els Estats Units que ofereixen beneficis fiscals. Però aquests beneficis es poden perdre si les autoritats determinen que la LLC no opera com una entitat independent. cosa que la barreja de fons facilita enormement.
+Alguns països tenen tractats de doble imposició amb els Estats Units que ofereixen beneficis fiscals. Però aquests beneficis es poden perdre si les autoritats determinen que la LLC no opera com una entitat independent — cosa que la barreja de fons facilita enormement.
 
 ## Requisits de registre i documentació
 
@@ -495,7 +495,7 @@ Alguns emprenedors constitueixen la seva LLC però triguen setmanes o mesos a ob
 
 ### 5. Prestar diners a la LLC sense documentar-ho
 
-Si aportes capital personal a la teva LLC, per exemple, per cobrir una despesa inicial. has de documentar-ho com un préstec o una aportació de capital. Sense documentació, la línia entre els teus fons i els de l'empresa es difumina.
+Si aportes capital personal a la teva LLC, per exemple, per cobrir una despesa inicial — has de documentar-ho com un préstec o una aportació de capital. Sense documentació, la línia entre els teus fons i els de l'empresa es difumina.
 
 ### 6. No reservar fons per a impostos
 
@@ -522,7 +522,7 @@ Per assegurar-te que estàs fent tot correctament, revisa aquesta llista:
 
 ## Conclusió
 
-Separar els teus diners personals dels diners de la teva LLC no és un detall administratiu. és la base sobre la qual se sosté tota la protecció legal i fiscal que la teva LLC t'ofereix. Sense separació financera, la teva LLC és només un nom en un paper.
+Separar els teus diners personals dels diners de la teva LLC no és un detall administratiu — és la base sobre la qual se sosté tota la protecció legal i fiscal que la teva LLC t'ofereix. Sense separació financera, la teva LLC és només un nom en un paper.
 
 La bona notícia és que implementar aquesta separació és senzill si ho fas des del principi. Un compte bancari dedicat, un sistema de comptabilitat bàsic i disciplina en les teves distribucions és tot el que necessites.
 
@@ -536,7 +536,7 @@ Vols assegurar-te que la teva LLC està ben separada des del primer dia? Agenda 
 
 L'EIN és imprescindible per a pràcticament tot el que facis amb la teva LLC:
 
-- **Obrir compte bancari.** Cap banc, ni Mercury, ni Relay, ni cap altre. t'obrirà un compte sense el teu EIN.
+- **Obrir compte bancari.** Cap banc, ni Mercury, ni Relay, ni cap altre — t'obrirà un compte sense el teu EIN.
 - **Declarar impostos davant l'IRS.** El Form 1120 i el Form 5472 requereixen el teu EIN com a identificació.
 - **Cobrar a clients.** Stripe, PayPal i qualsevol processador de pagaments et demanaran l'EIN per verificar la teva empresa.
 - **Contractar serveis.** Proveïdors i plataformes B2B als Estats Units sol·liciten l'EIN per generar factures i formularis 1099.
@@ -569,7 +569,7 @@ A Exentax coneixem els millors mètodes i horaris per obtenir l'EIN de forma rà
 
 ## Quant costa obtenir l'EIN?
 
-**L'EIN és completament gratuït.** L'IRS no cobra res per emetre'l. Si algú et cobra només per l'EIN, desconfia. probablement estàs pagant un servei inflat.
+**L'EIN és completament gratuït.** L'IRS no cobra res per emetre'l. Si algú et cobra només per l'EIN, desconfia — probablement estàs pagant un servei inflat.
 
 A Exentax, l'obtenció de l'EIN està inclosa en tots els nostres plans de constitució. Ens encarreguem de preparar el SS-4, enviar-lo, fer seguiment i lliurar-te el teu número llest per fer servir. Sense costos extra, sense sorpreses.
 
@@ -651,7 +651,7 @@ Mercury verifica que la teva LLC existeix consultant els registres de l'estat on
 
 ### 4. Revisió manual (si s'aplica)
 
-En alguns casos hi ha una revisió manual addicional. Això passa especialment amb activitats considerades de major risc (criptomonedes, trading, serveis financers). Poden demanar-te documentació addicional o una breu entrevista. No t'espantis. és normal i sol resoldre's ràpid.
+En alguns casos hi ha una revisió manual addicional. Això passa especialment amb activitats considerades de major risc (criptomonedes, trading, serveis financers). Poden demanar-te documentació addicional o una breu entrevista. No t'espantis — és normal i sol resoldre's ràpid.
 
 ### 5. Aprovació
 
@@ -727,7 +727,7 @@ Sí, tot a zero. Mercury monetitza amb productes premium (Mercury Treasury, crè
 
 A Exentax ens encarreguem de l'obertura del teu compte Mercury com a part del procés de constitució de la teva LLC. Preparem tota la documentació, revisem la descripció del teu negoci i ens assegurem que tot estigui perfecte abans d'enviar la sol·licitud. Agenda la teva assessoria gratuïta i t'ho expliquem.`,
 
-  "autonomo-espana-vs-llc-estados-unidos": `Si ets autònom a Espanya i factures a clients internacionals, o el teu negoci és 100% digital. segur que ja has pensat: "Té sentit seguir pagant el 40% al fisc espanyol?" La resposta curta: probablement no. Els números són brutals.
+  "autonomo-espana-vs-llc-estados-unidos": `Si ets autònom a Espanya i factures a clients internacionals, o el teu negoci és 100% digital — segur que ja has pensat: "Té sentit seguir pagant el 40% al fisc espanyol?" La resposta curta: probablement no. Els números són brutals.
 
 Anem a comparar amb dades reals quant pagues com a autònom a Espanya i quant pagaries operant a través d'una LLC als Estats Units. Sense embuts.
 
@@ -780,7 +780,7 @@ Depèn de l'estat de constitució:
 
 ### Obligacions fiscals (compliance)
 
-- **Form 5472 + Form 1120:** declaració informativa anual davant l'IRS. No implica pagament d'impostos. és paperassa informativa que a Exentax gestionem per tu.
+- **Form 5472 + Form 1120:** declaració informativa anual davant l'IRS. No implica pagament d'impostos — és paperassa informativa que a Exentax gestionem per tu.
 - **BOI Report:** informe de titularitat real davant FinCEN.
 - **Cost anual de manteniment:** segons l'estat (inclou agent registrat, declaracions i compliance complet).
 
@@ -870,7 +870,7 @@ Més enllà de l'estalvi fiscal, la LLC t'obre l'accés a eines financeres que c
 
 ## A Exentax ens encarreguem de tot
 
-Si decideixes fer el pas, a Exentax no ens limitem a crear la teva LLC i obtenir el teu EIN. dissenyem la teva estructura completa: obertura de compte bancari, configuració de tresoreria amb Slash, targetes corporatives Wallester, integració amb Stripe o la passarel·la que necessitis, i tot el compliance anual (Form 5472, BOI Report, renovació d'agent registrat). No som venedors de LLCs: som dissenyadors d'estructures.
+Si decideixes fer el pas, a Exentax no ens limitem a crear la teva LLC i obtenir el teu EIN — dissenyem la teva estructura completa: obertura de compte bancari, configuració de tresoreria amb Slash, targetes corporatives Wallester, integració amb Stripe o la passarel·la que necessitis, i tot el compliance anual (Form 5472, BOI Report, renovació d'agent registrat). No som venedors de LLCs: som dissenyadors d'estructures.
 
 Vols saber exactament quant estalviaries amb la teva facturació? Utilitza la nostra calculadora fiscal gratuïta o agenda una assessoria de 30 minuts. Et donem números reals, no promeses.`,
 
@@ -1086,7 +1086,7 @@ Deixem clara la diferència:
 Aquest és l'escenari més directe per arribar al 0%:
 
 1. **Constitueixes una LLC als Estats Units** (Single-Member, no resident)
-2. **La LLC paga \$0 d'impost federal** als EUA. pass-through taxation, Disregarded Entity
+2. **La LLC paga \$0 d'impost federal** als EUA — pass-through taxation, Disregarded Entity
 3. **Canvies la teva residència fiscal** a un país sense impost sobre la renda:
    - **Emirats Àrabs Units (Dubai):** 0% IRPF, 9% impost corporatiu (només si factures més de 375.000 AED ~ 93.000€/any a través d'entitat local)
    - **Paraguai:** 0% sobre rendes de font estrangera
@@ -1122,7 +1122,7 @@ Si els teus ingressos provenen d'una LLC americana i els teus clients són inter
 
 ## I si sóc resident fiscal a Espanya?
 
-Si ets resident fiscal a Espanya i NO planifiques mudar-te, **no pots pagar 0%.** Espanya grava la renda mundial. no importa on generes els ingressos ni quina estructura facis servir. Qualsevol que et digui el contrari t'està mentint.
+Si ets resident fiscal a Espanya i NO planifiques mudar-te, **no pots pagar 0%.** Espanya grava la renda mundial — no importa on generes els ingressos ni quina estructura facis servir. Qualsevol que et digui el contrari t'està mentint.
 
 Però (i és un "però" molt gran): pots reduir la teva càrrega fiscal de forma brutal:
 
@@ -1159,7 +1159,7 @@ Optimitzar la fiscalitat no serveix de res si no tens la infraestructura per ges
 - **Wallester**: targetes corporatives amb IBAN euro i control granular de despeses
 - **Stripe / Adyen / DoDo Payments**: passarel·les de pagament per cobrar des de qualsevol part del món
 
-La combinació de fiscalitat optimitzada + eines financeres de primer nivell és el que fa la veritable diferència. No es tracta només de pagar menys impostos. es tracta d'operar amb una infraestructura completa.
+La combinació de fiscalitat optimitzada + eines financeres de primer nivell és el que fa la veritable diferència. No es tracta només de pagar menys impostos — es tracta d'operar amb una infraestructura completa.
 
 Per a la majoria dels freelancers que facturen entre 30.000€ i 150.000€ l'any:
 
@@ -1259,15 +1259,15 @@ Conèixer aquests tractats és fonamental per a nòmades digitals. A Exentax els
 
 El setup més eficient per a la majoria dels nòmades digitals és:
 
-1. **LLC als EUA** per facturar (0% federal per a no residents. pass-through taxation)
+1. **LLC als EUA** per facturar (0% federal per a no residents — pass-through taxation)
 2. **Residència fiscal en país favorable** (0-10% IRPF o tributació territorial)
 3. **Compte bancari Mercury** per operar (Column NA, assegurança FDIC, \$0 en wires)
-4. **Wise Business** per a conversió de divises al tipus de canvi real (és una EMI, no un banc. complementa Mercury)
+4. **Wise Business** per a conversió de divises al tipus de canvi real (és una EMI, no un banc — complementa Mercury)
 5. **Stripe/PayPal** per cobrar a clients globals
 
 Amb aquest setup, la teva càrrega fiscal total pot ser del 0% al 10%, depenent del país de residència triat. I el millor: tot es gestiona 100% en remot.
 
-A Exentax dissenyem aquesta estructura completa per a tu. Analitzem la teva situació, el teu país d'origen, els teus plans de viatge, i et proposem la combinació òptima de LLC + residència fiscal + eines financeres. No és un template genèric. és un pla fet a mida.
+A Exentax dissenyem aquesta estructura completa per a tu. Analitzem la teva situació, el teu país d'origen, els teus plans de viatge, i et proposem la combinació òptima de LLC + residència fiscal + eines financeres. No és un template genèric — és un pla fet a mida.
 
 ## Com canviar la teva residència fiscal
 
@@ -1295,7 +1295,7 @@ La regla dels 183 dies és el criteri principal, però no l'únic. Per això pla
 ## Errors greus dels nòmades digitals
 
 1. **No comunicar el canvi de residència a les autoritats fiscals del teu país.** El teu país d'origen pot seguir considerant-te resident fiscal i reclamar-te impostos + recàrrecs + interessos. Les autoritats fiscals són especialment rigoroses amb els "falsos no residents".
-2. **Creure que l'e-Residency d'Estònia resol la teva fiscalitat.** No ho fa. és una identitat digital, no una residència fiscal. Pots tenir e-Residency estoniana i seguir sent resident fiscal espanyol.
+2. **Creure que l'e-Residency d'Estònia resol la teva fiscalitat.** No ho fa — és una identitat digital, no una residència fiscal. Pots tenir e-Residency estoniana i seguir sent resident fiscal espanyol.
 3. **No declarar els teus actius a l'estranger** davant les autoritats del teu país de residència quan superes els llindars requerits.
 4. **Usar l'adreça d'un familiar a Espanya** com a domicili fiscal mentre vius fora. Això et fa resident fiscal espanyol.
 5. **No tenir assegurança mèdica.** Molts països exigeixen assegurança per atorgar visats de nòmada digital.
@@ -1306,7 +1306,7 @@ La regla dels 183 dies és el criteri principal, però no l'únic. Per això pla
 
 Si ets nòmada digital (o estàs pensant a ser-ho), la seqüència ideal és:
 
-1. **Defineix la teva estratègia fiscal** abans de moure't. no després
+1. **Defineix la teva estratègia fiscal** abans de moure't — no després
 2. **Tria el teu país de residència fiscal** basant-te en dades, no en vídeos de YouTube
 3. **Constitueix la teva LLC** com a vehicle de facturació
 4. **Configura el teu ecosistema financer** (Mercury + Wise + Stripe)
@@ -1314,7 +1314,7 @@ Si ets nòmada digital (o estàs pensant a ser-ho), la seqüència ideal és:
 
 A Exentax acompanyem nòmades digitals en tot aquest procés. Des de l'anàlisi inicial fins a la constitució de la LLC, l'obertura bancària i el disseny de l'estructura fiscal completa. Agenda la teva assessoria gratuïta i comencem a treballar en el teu pla.`,
 
-  "criptomonedas-trading-llc-impuestos": `El trading de criptomonedes genera obligacions fiscals que molts traders ignoren. fins que les autoritats fiscals truquen a la porta. Si operes amb Bitcoin, Ethereum, stablecoins o qualsevol altre criptoactiu, necessites entendre com funciona la tributació i quines opcions tens per optimitzar-la.
+  "criptomonedas-trading-llc-impuestos": `El trading de criptomonedes genera obligacions fiscals que molts traders ignoren — fins que les autoritats fiscals truquen a la porta. Si operes amb Bitcoin, Ethereum, stablecoins o qualsevol altre criptoactiu, necessites entendre com funciona la tributació i quines opcions tens per optimitzar-la.
 
 ## Com tributen les criptomonedes a Espanya?
 
@@ -1478,7 +1478,7 @@ Vols deixar de preocupar-te per l'IVA internacional i operar amb una estructura 
 
 ## Què és un Registered Agent?
 
-Un Registered Agent és una persona o empresa designada per rebre documents legals i oficials en nom de la teva LLC. Pensa en ell com la "bústia legal" de la teva empresa als Estats Units. algú que hi és, amb adreça física, llest per rebre qualsevol notificació oficial que arribi.
+Un Registered Agent és una persona o empresa designada per rebre documents legals i oficials en nom de la teva LLC. Pensa en ell com la "bústia legal" de la teva empresa als Estats Units — algú que hi és, amb adreça física, llest per rebre qualsevol notificació oficial que arribi.
 
 Els documents que rep inclouen:
 
@@ -1551,7 +1551,7 @@ Quelcom que pocs mencionen: Mercury, Relay i altres fintechs verifiquen la consi
 
 Si el teu Registered Agent canvia d'adreça (o desapareix), aquesta inconsistència pot desencadenar una revisió de compliance bancari. Hem vist casos on un canvi de Registered Agent no comunicat a Mercury va provocar un congelament temporal del compte.
 
-**La lliçó:** el Registered Agent no és només un receptor de correu. És un node a la xarxa d'identitat de la teva LLC. Cada entitat. estat, IRS, banc. espera veure la mateixa adreça.
+**La lliçó:** el Registered Agent no és només un receptor de correu. És un node a la xarxa d'identitat de la teva LLC. Cada entitat — estat, IRS, banc — espera veure la mateixa adreça.
 
 ## Com ho gestionem a Exentax
 
@@ -1569,7 +1569,7 @@ Tots els nostres agents inclouen:
 
 Vols constituir la teva LLC amb Registered Agent inclòs i tot gestionat? Agenda la teva assessoria gratuïta i ens encarreguem del procés complet.`,
 
-  "errores-fiscales-freelancers-espanoles": `Després d'assessorar centenars de freelancers espanyols, hem identificat un patró clar: els mateixos errors fiscals es repeteixen una vegada i una altra. I no són errors menors. estem parlant de milers d'euros perduts cada any per desconeixement o mala assessoria.
+  "errores-fiscales-freelancers-espanoles": `Després d'assessorar centenars de freelancers espanyols, hem identificat un patró clar: els mateixos errors fiscals es repeteixen una vegada i una altra. I no són errors menors — estem parlant de milers d'euros perduts cada any per desconeixement o mala assessoria.
 
 ## Error 1: No deduir totes les despeses permeses
 
@@ -1656,7 +1656,7 @@ Un freelancer que factura 60.000€ i té 20.000€ en despeses deduïbles de la
 
 ## Error 9: No maximitzar les despeses deduïbles de la LLC
 
-Parlant de despeses deduïbles. molts freelancers amb LLC no aprofiten l'amplitud de deduccions que permet l'estructura. Despeses que pots deduir a través de la teva LLC:
+Parlant de despeses deduïbles — molts freelancers amb LLC no aprofiten l'amplitud de deduccions que permet l'estructura. Despeses que pots deduir a través de la teva LLC:
 
 - **Programari i SaaS**: totes les eines que uses per treballar (Figma, GitHub, Notion, Slack, etc.)
 - **Maquinari**: ordinador, monitor, teclat, ratolí, cadira ergonòmica, auriculars
@@ -1682,7 +1682,7 @@ Senyals que el teu assessor no entén la teva situació:
 - No saben aplicar la inversió del subjecte passiu en l'IVA internacional
 - Et tracten fiscalment igual que a qualsevol altre autònom/treballador per compte propi amb clients locals
 
-No és culpa seva. simplement no és la seva especialitat. A Exentax, la fiscalitat internacional per a freelancers i emprenedors digitals és TOT el que fem. Constituïm la teva LLC, preparem el teu Operating Agreement, i t'acompanyem en tot el compliance anual.
+No és culpa seva — simplement no és la seva especialitat. A Exentax, la fiscalitat internacional per a freelancers i emprenedors digitals és TOT el que fem. Constituïm la teva LLC, preparem el teu Operating Agreement, i t'acompanyem en tot el compliance anual.
 
 ## Quant et costen aquests errors?
 
@@ -1706,7 +1706,7 @@ Si t'has identificat amb algun d'aquests errors (i la majoria dels freelancers q
 
   "como-operar-llc-dia-a-dia": `Has fet el pas i la teva LLC ja està constituïda. Tens el teu EIN, el teu compte a Mercury obert i els teus documents en ordre. Ara comença la part divertida: operar el teu negoci com un professional.
 
-L'operativa diària d'una LLC no és complicada. de fet, un cop estableixes els hàbits correctes, funciona gairebé en pilot automàtic. Però hi ha regles de joc que convé conèixer des del primer dia. Anem-hi.
+L'operativa diària d'una LLC no és complicada — de fet, un cop estableixes els hàbits correctes, funciona gairebé en pilot automàtic. Però hi ha regles de joc que convé conèixer des del primer dia. Anem-hi.
 
 ## El primer: separa el personal del professional
 
@@ -1718,7 +1718,7 @@ A la pràctica:
 - **Tota despesa del negoci** surt d'aquest mateix compte
 - **Mai, jamais, under no circumstances** barregis despeses personals amb les de la LLC
 
-Per què tanta insistència? Perquè si barreges fons, un jutge pot "aixecar el vel corporatiu" (piercing the corporate veil) i la teva protecció patrimonial desapareix. És com tenir un airbag desconnectat. hi és però no et servirà quan el necessitis.
+Per què tanta insistència? Perquè si barreges fons, un jutge pot "aixecar el vel corporatiu" (piercing the corporate veil) i la teva protecció patrimonial desapareix. És com tenir un airbag desconnectat — hi és però no et servirà quan el necessitis.
 
 ## El teu ecosistema financer: les eines del dia a dia
 
@@ -1736,7 +1736,7 @@ Dada que pocs saben: Mercury no cobra per wires internacionals. Ni d'enviament n
 
 ### Wise Business: la teva eina de conversió de divises
 
-Wise (atenció: és una EMI. Institució de Diner Electrònic. no un banc) és perfecta per quan necessites convertir dòlars a euros, pesos o qualsevol altra moneda. Et dona el tipus de canvi real (mid-market rate) sense marge ocult.
+Wise (atenció: és una EMI. Institució de Diner Electrònic — no un banc) és perfecta per quan necessites convertir dòlars a euros, pesos o qualsevol altra moneda. Et dona el tipus de canvi real (mid-market rate) sense marge ocult.
 
 El flux típic: Client paga → Mercury (USD) → Wise (conversió) → El teu compte personal (EUR/MXN/COP).
 
@@ -1746,7 +1746,7 @@ Stripe per a pagaments amb targeta, subscripcions i checkout professional. PayPa
 
 ## Com facturar amb la teva LLC
 
-Quan factures a un client, ho fas com la teva LLC. no com a persona física. La factura ha d'incloure:
+Quan factures a un client, ho fas com la teva LLC — no com a persona física. La factura ha d'incloure:
 
 - **Nom legal de la LLC** (tal com apareix als Articles of Organization)
 - **Adreça del Registered Agent** (o adreça comercial si la tens)
@@ -1755,7 +1755,7 @@ Quan factures a un client, ho fas com la teva LLC. no com a persona física. La 
 
 No necessites un format de factura específic dels EUA. Pots usar Mercury Invoicing (integrat al teu compte), Stripe Invoicing, o eines com FreshBooks, Wave o fins i tot un PDF ben fet.
 
-**Tip pro:** Crea una plantilla de factura amb totes les dades de la teva LLC i reutilitza-la. Inclou els teus termes de pagament (Net 15, Net 30) i els mètodes de pagament acceptats. Un freelancer que envia factures professionals cobra més ràpid. fet comprovat.
+**Tip pro:** Crea una plantilla de factura amb totes les dades de la teva LLC i reutilitza-la. Inclou els teus termes de pagament (Net 15, Net 30) i els mètodes de pagament acceptats. Un freelancer que envia factures professionals cobra més ràpid — fet comprovat.
 
 ## Cobraments: com rebo els diners?
 
@@ -1789,7 +1789,7 @@ Les despeses deduïbles redueixen la teva base imposable, i com que els teus ben
 
 Com a Single-Member LLC, els beneficis són teus. Pots transferir-te diners quan vulguis. Això s'anomena **Owner's Draw** (retirada del propietari).
 
-No és un salari. no has de fer-te nòmina. Simplement fas una transferència del compte de la LLC al teu compte personal. L'important:
+No és un salari — no has de fer-te nòmina. Simplement fas una transferència del compte de la LLC al teu compte personal. L'important:
 
 - **Documenta cada retirada** amb una nota clara ("Owner's Draw - [data] - [import]")
 - **No retiris més del que hi ha** (sona obvi, però passa)
@@ -1803,10 +1803,10 @@ No és un salari. no has de fer-te nòmina. Simplement fas una transferència de
 No necessites portar una comptabilitat complexa (no ets una multinacional), però sí necessites ordre:
 
 - **Registre d'ingressos i despeses**: Mercury ho fa automàtic amb el seu dashboard, però tingues també el teu propi full de seguiment
-- **Guardar totes les factures** emeses i rebudes. crea una carpeta a Google Drive organitzada per mes
+- **Guardar totes les factures** emeses i rebudes — crea una carpeta a Google Drive organitzada per mes
 - **Guardar rebuts de despeses**: digitals o fotos dels físics. Si no tens rebut, no pots deduir
 - **Registrar els Owner's Draws**: data, import, mètode de transferència
-- **Exportar estats de compte** de Mercury trimestralment. guarda'ls a la teva carpeta de LLC
+- **Exportar estats de compte** de Mercury trimestralment — guarda'ls a la teva carpeta de LLC
 
 Aquests registres són essencials per a les teves declaracions fiscals (Form 5472 + 1120) i per demostrar que la teva LLC opera com un negoci real. Quan arriba el moment de preparar la declaració anual, a Exentax et demanem aquesta informació i ens encarreguem de la resta.
 
@@ -1880,9 +1880,9 @@ Per a una Single-Member LLC d'un freelancer o emprenedor digital, el més habitu
 
 ## Necessito un advocat per redactar-lo?
 
-No. El que necessites és que estigui ben fet i adaptat a la teva situació real. Un Operating Agreement mal redactat, o pitjor, una plantilla genèrica descarregada d'internet. pot ser pitjor que no tenir-ne cap.
+No. El que necessites és que estigui ben fet i adaptat a la teva situació real. Un Operating Agreement mal redactat, o pitjor, una plantilla genèrica descarregada d'internet — pot ser pitjor que no tenir-ne cap.
 
-A Exentax, l'Operating Agreement ve inclòs en tots els nostres plans de constitució. Està adaptat específicament per a no residents amb Single-Member LLCs: inclou la classificació fiscal correcta (Disregarded Entity), les clàusules de privacitat necessàries i l'estructura que Mercury i Stripe necessiten veure per aprovar el teu compte. No és un template. és un document preparat per al teu cas concret.
+A Exentax, l'Operating Agreement ve inclòs en tots els nostres plans de constitució. Està adaptat específicament per a no residents amb Single-Member LLCs: inclou la classificació fiscal correcta (Disregarded Entity), les clàusules de privacitat necessàries i l'estructura que Mercury i Stripe necessiten veure per aprovar el teu compte. No és un template — és un document preparat per al teu cas concret.
 
 ## Quan necessito actualitzar-lo?
 
@@ -1899,9 +1899,9 @@ A Exentax també ens encarreguem de les actualitzacions de l'Operating Agreement
 
 ## El que hauries d'endur-te d'aquest article
 
-L'Operating Agreement és la columna vertebral legal de la teva LLC, i la seva naturalesa privada és un avantatge que has d'aprofitar. A Exentax el preparem com a part del procés de constitució de la teva LLC. surt de les nostres mans llest per presentar a Mercury, Stripe i qualsevol entitat que el sol·liciti. Agenda la teva assessoria gratuïta i ens assegurem que la teva LLC té tota la documentació en ordre des del dia u.`,
+L'Operating Agreement és la columna vertebral legal de la teva LLC, i la seva naturalesa privada és un avantatge que has d'aprofitar. A Exentax el preparem com a part del procés de constitució de la teva LLC — surt de les nostres mans llest per presentar a Mercury, Stripe i qualsevol entitat que el sol·liciti. Agenda la teva assessoria gratuïta i ens assegurem que la teva LLC té tota la documentació en ordre des del dia u.`,
 
-  "documentos-llc-cuales-necesitas": `Quan constitueixes una LLC als Estats Units, reps un "kit legal" complet. diversos documents, cadascun amb una funció concreta. A Exentax els preparem i entreguem tots com a part del servei de constitució. Però és bo que sàpigues què és cadascun i per a què el necessitaràs.
+  "documentos-llc-cuales-necesitas": `Quan constitueixes una LLC als Estats Units, reps un "kit legal" complet — diversos documents, cadascun amb una funció concreta. A Exentax els preparem i entreguem tots com a part del servei de constitució. Però és bo que sàpigues què és cadascun i per a què el necessitaràs.
 
 Spoiler: no són gaires, i els faràs servir més del que penses (sobretot quan obris el teu compte bancari o et registris a Stripe).
 
@@ -1997,11 +1997,11 @@ A Exentax, tots els nostres clients reben la seva documentació completa, organi
 
   "mantenimiento-anual-llc-obligaciones": `Constituir una LLC és només el primer pas. Perquè la teva empresa segueixi activa, en regla i amb el Good Standing intacte, hi ha obligacions anuals que has de complir. La bona notícia: a Exentax ens encarreguem d'absolutament tot com a part del pla de manteniment anual. Tu et dediques al teu negoci i nosaltres al compliance.
 
-Però és important que entenguis què es fa i quan. Així que anem a explicar-t'ho tot amb detall. terminis, costos, i el calendari complet.
+Però és important que entenguis què es fa i quan. Així que anem a explicar-t'ho tot amb detall — terminis, costos, i el calendari complet.
 
 ## Què és el Good Standing?
 
-És l'estatus que confirma que la teva LLC compleix amb totes les seves obligacions davant l'estat. És com el "carnet de conduir" de la teva empresa. si el perds, no pots circular.
+És l'estatus que confirma que la teva LLC compleix amb totes les seves obligacions davant l'estat. És com el "carnet de conduir" de la teva empresa — si el perds, no pots circular.
 
 Sense Good Standing:
 
@@ -2040,7 +2040,7 @@ Independentment d'on constitueixes la teva LLC, aquestes obligacions són les ma
 
 Si la teva LLC té un propietari estranger (no resident), has de presentar el **Form 5472** (informatiu) juntament amb un **Form 1120 pro-forma** cada any. És obligatori fins i tot si la teva LLC no va tenir ingressos.
 
-Recordatori important: **la teva LLC paga \$0 d'impost federal.** Aquests formularis són purament informatius. l'IRS vol saber quines transaccions hi va haver entre tu i la teva LLC, però no et cobra res. Pass-through taxation en estat pur.
+Recordatori important: **la teva LLC paga \$0 d'impost federal.** Aquests formularis són purament informatius — l'IRS vol saber quines transaccions hi va haver entre tu i la teva LLC, però no et cobra res. Pass-through taxation en estat pur.
 
 - **Termini original:** 15 d'abril
 - **Amb extensió (Form 7004):** 15 d'octubre
@@ -2055,7 +2055,7 @@ Si la suma dels teus comptes financers als EUA supera els \$10,000 en algun mome
 
 ## Renovació del Registered Agent
 
-El teu Registered Agent ha d'estar actiu permanentment. és requisit legal a tots els estats. Si el teu servei de Registered Agent expira i no el renoves:
+El teu Registered Agent ha d'estar actiu permanentment — és requisit legal a tots els estats. Si el teu servei de Registered Agent expira i no el renoves:
 
 - L'estat envia avisos legals que ningú rep
 - Pots perdre el Good Standing sense assabentar-te'n
@@ -2331,7 +2331,7 @@ Treballadors per compte propi que treballen amb clients que prefereixen PayPal, 
 - Processament unificat: adquisició, gateway i gestió de risc en una sola plataforma
 - Mètodes de pagament locals (iDEAL, Bancontact, Boleto, OXXO...)
 - Analítica avançada i gestió de frau
-- Alimenta els enllaços de pagament de Relay. si uses Relay com a compte bancari, els teus enllaços de facturació es processen via Adyen
+- Alimenta els enllaços de pagament de Relay — si uses Relay com a compte bancari, els teus enllaços de facturació es processen via Adyen
 
 ### Ideal per a
 Empreses amb volum significatiu, marketplaces, e-commerce enterprise
@@ -2369,7 +2369,7 @@ Totes es poden connectar al mateix compte bancari de la LLC a Mercury (que té \
 
 ## Lili
 
-**Lili** és un neobanc (fintech amb llicència bancària) dissenyat específicament per a treballadors per compte propi i petits negocis. No és una passarel·la de pagaments. és un banc digital complet que combina compte corrent, eines de comptabilitat i facturació en una sola plataforma.
+**Lili** és un neobanc (fintech amb llicència bancària) dissenyat específicament per a treballadors per compte propi i petits negocis. No és una passarel·la de pagaments — és un banc digital complet que combina compte corrent, eines de comptabilitat i facturació en una sola plataforma.
 
 ### Avantatges
 - Compte bancari complet amb llicència bancària (no és una EMI)
@@ -2393,11 +2393,11 @@ Treballadors per compte propi que volen una solució tot-en-un de banking i comp
 
 Per verificar la teva LLC a qualsevol passarel·la de pagament necessites:
 
-- **EIN** de la LLC. l'obté Exentax per tu
+- **EIN** de la LLC — l'obté Exentax per tu
 - **Articles of Organization**: els preparem nosaltres
 - **Operating Agreement**: personalitzat, no un template d'internet
 - **Document d'identitat** del propietari (passaport)
-- **Compte bancari** de la LLC (Mercury. l'obrim nosaltres)
+- **Compte bancari** de la LLC (Mercury — l'obrim nosaltres)
 
 El procés de verificació sol trigar 1-5 dies hàbils. A Exentax coordinem tota la configuració perquè no hagis de bregar amb formularis de verificació en anglès ni pujar documents un per un. Tu decideixes quines passarel·les necessites, nosaltres les deixem llestes.
 
@@ -2610,7 +2610,7 @@ Aquí la línia és clara:
 - **Despeses personals**: roba (tret que sigui uniforme de treball), menjar diari, entreteniment personal, Netflix, Spotify personal
 - **Multes i sancions**: multes de trànsit, sancions de l'IRS
 - **Contribucions polítiques**
-- **Despeses sumptuàries** sense justificació de negoci. aquell rellotge de luxe no és una "despesa de representació"
+- **Despeses sumptuàries** sense justificació de negoci — aquell rellotge de luxe no és una "despesa de representació"
 - **Retirades personals** (Owner's Draws), no són despeses, són distribucions de beneficis
 - **Roba personal**: la teva roba del dia a dia no és deduïble encara que la facis servir per treballar
 
@@ -2632,7 +2632,7 @@ Exemple pràctic: si factures \$60,000/any i tens \$15,000 en despeses deduïble
 
 ## A Exentax t'ajudem amb això
 
-Part del nostre servei de manteniment inclou orientació sobre quines despeses pots deduir i com documentar-les correctament. No et deixem sol amb una llista. t'acompanyem perquè maximitzis les teves deduccions sense problemes.
+Part del nostre servei de manteniment inclou orientació sobre quines despeses pots deduir i com documentar-les correctament. No et deixem sol amb una llista — t'acompanyem perquè maximitzis les teves deduccions sense problemes.
 
 Vols saber quant pots deduir en el teu cas? Agenda la teva assessoria gratuïta i ho calculem junts.`,
 
@@ -2765,7 +2765,7 @@ Quan el teu banc local rep una transferència en dòlars, la converteix a la tev
 - **Comissions de recepció** (\$15-50 per transferència SWIFT)
 - **Comissions del banc intermediari** (\$10-25 addicionals)
 
-En total, pots perdre **3-5% en cada transferència**. Si mous \$5,000 al mes, això són \$150-250 al mes en costos ocults. més de **\$2,000 a l'any**.
+En total, pots perdre **3-5% en cada transferència**. Si mous \$5,000 al mes, això són \$150-250 al mes en costos ocults — més de **\$2,000 a l'any**.
 
 ## Les millors opcions per canviar divises
 
@@ -2780,7 +2780,7 @@ Wise ofereix el tipus de canvi real (mid-market rate) més una comissió transpa
 
 ### 2. Mercury (directe des del teu compte)
 
-Mercury permet enviar wires internacionals amb \$0 de comissió. sí, gratis. Però si la transferència implica conversió de divisa, el tipus de canvi no és tan competitiu com Wise.
+Mercury permet enviar wires internacionals amb \$0 de comissió — sí, gratis. Però si la transferència implica conversió de divisa, el tipus de canvi no és tan competitiu com Wise.
 
 - **Comissió wire:** \$0 (enviament i recepció, nacionals i internacionals)
 - **Tipus de canvi:** Amb marge si converteixes divisa (menor que bancs tradicionals)
@@ -2846,7 +2846,7 @@ Vols optimitzar les teves conversions de divises i pagar menys en comissions? Ag
 
   "constituir-llc-proceso-paso-a-paso": `Constituir una LLC als Estats Units sent no resident és un procés 100% online que es pot completar en pocs dies. No necessites viatjar, no necessites visat, i no necessites un advocat als EUA.
 
-Aquí t'expliquem el procés pas a pas. perquè entenguis exactament què implica.
+Aquí t'expliquem el procés pas a pas — perquè entenguis exactament què implica.
 
 ## Pas 1: Triar l'estat
 
@@ -2928,7 +2928,7 @@ La teva LLC està llesta. Ara pots facturar a clients, rebre pagaments i operar 
 | Passarel·les de pagament | 1-5 dies |
 | **Total** | **3-10 setmanes** |
 
-El coll d'ampolla és l'EIN. l'IRS pot trigar diverses setmanes per a no residents.
+El coll d'ampolla és l'EIN — l'IRS pot trigar diverses setmanes per a no residents.
 
 ## Puc fer-ho sol?
 
@@ -2949,7 +2949,7 @@ A Exentax ens encarreguem de tot el procés de constitució de principi a fi. Tu
 
 1. **Triem l'estat òptim** amb tu a l'assessoria inicial
 2. **Registrem els Articles of Organization**: normalment en 1-3 dies
-3. **Sol·licitem l'EIN** a l'IRS. ens encarreguem de tota la comunicació
+3. **Sol·licitem l'EIN** a l'IRS — ens encarreguem de tota la comunicació
 4. **Redactem el teu Operating Agreement**: personalitzat, no un template genèric
 5. **Presentem el BOI Report** davant de FinCEN, ni t'assabentes
 6. **Obrim el teu compte bancari** a Mercury, amb tota la documentació perfecta
@@ -2959,7 +2959,7 @@ El procés complet: entre 3 i 10 setmanes (el coll d'ampolla és l'EIN de l'IRS,
 
 Agenda la teva assessoria gratuïta i en 30 minuts t'expliquem tot el procés per al teu cas concret.`,
 
-  "autonomos-espana-por-que-dejar-de-serlo": `Anem a ser directes: si ets autònom a Espanya i la majoria dels teus ingressos vénen de fora. clients als EUA, UK, Alemanya o qualsevol altre país. probablement estàs pagant molt més del necessari. I no poc.
+  "autonomos-espana-por-que-dejar-de-serlo": `Anem a ser directes: si ets autònom a Espanya i la majoria dels teus ingressos vénen de fora — clients als EUA, UK, Alemanya o qualsevol altre país — probablement estàs pagant molt més del necessari. I no poc.
 
 El sistema d'autònoms a Espanya va ser dissenyat per a un forner de barri, no per a un dissenyador UX que treballa amb startups de San Francisco. I tanmateix, milers de freelancers digitals segueixen pagant-ho tot com si venguessin pa.
 
@@ -2973,7 +2973,7 @@ Fem números reals. Suposem que factures 5.000€ al mes (60.000€ a l'any):
 
 El resultat: d'aquests 60.000€, et poden quedar entre **32.000€ i 38.000€** després d'impostos. Gairebé la meitat se'n va.
 
-I el pitjor no és quant pagues. és que no tens per què pagar tant.
+I el pitjor no és quant pagues — és que no tens per què pagar tant.
 
 ## Per què el model d'autònom no funciona per a freelancers digitals?
 
@@ -2995,13 +2995,13 @@ Una **LLC als Estats Units** no és l'única alternativa, però per a freelancer
 
 ## "Però això és legal?"
 
-Sí. Totalment. Una LLC americana és una estructura empresarial reconeguda internacionalment. No és una offshore opaca a les Illes Caiman. és una empresa registrada en un estat dels EUA, amb EIN (número fiscal), Registered Agent, i declaracions anuals a l'IRS.
+Sí. Totalment. Una LLC americana és una estructura empresarial reconeguda internacionalment. No és una offshore opaca a les Illes Caiman — és una empresa registrada en un estat dels EUA, amb EIN (número fiscal), Registered Agent, i declaracions anuals a l'IRS.
 
 El que importa és que l'estructura estigui ben muntada i que compleixis amb les teves obligacions fiscals a Espanya. Aquí és on entra la diferència entre fer-ho bé i fer-ho malament.
 
 ## He de donar-me de baixa com a autònom?
 
-Depèn de la teva situació. Hi ha casos on convé mantenir l'alta d'autònom a Espanya i operar la LLC en paral·lel. En d'altres, pot tenir sentit donar-se de baixa. No hi ha una resposta universal. depèn de:
+Depèn de la teva situació. Hi ha casos on convé mantenir l'alta d'autònom a Espanya i operar la LLC en paral·lel. En d'altres, pot tenir sentit donar-se de baixa. No hi ha una resposta universal — depèn de:
 
 - El teu volum de facturació
 - El percentatge de clients internacionals vs nacionals
@@ -3084,7 +3084,7 @@ Els bancs poden:
 
 ## Què és una fintech?
 
-Una fintech (financial technology) és una empresa de tecnologia que ofereix serveis financers. No té llicència bancària pròpia. treballa **a través d'un banc partner** que sí la té.
+Una fintech (financial technology) és una empresa de tecnologia que ofereix serveis financers. No té llicència bancària pròpia — treballa **a través d'un banc partner** que sí la té.
 
 - **Mercury** → Money Transmitter que opera a través de **Column NA**, un banc amb llicència federal i cobertura FDIC
 - **Relay** → Fintech que opera a través de **Thread Bank**, també amb FDIC
@@ -3101,7 +3101,7 @@ Sí, amb matisos:
 
 - **Els teus diners a Mercury estan assegurats pel FDIC** fins a \$250,000 a través de Column NA. Mercury fins i tot ofereix cobertura estesa de fins a \$5 milions a través del seu programa de barrida entre múltiples bancs
 - **Els teus diners a Relay estan assegurats pel FDIC** a través de Thread Bank
-- **Wise** no té assegurança FDIC. és una EMI que utilitza safeguarding (separació de fons del client). Segur, però diferent
+- **Wise** no té assegurança FDIC — és una EMI que utilitza safeguarding (separació de fons del client). Segur, però diferent
 - **Revolut Business** té assegurança FDIC a través del seu banc partner
 
 La clau: pregunta sempre **qui és el banc subjacent** i si hi ha cobertura FDIC.
@@ -3176,7 +3176,7 @@ Per a la majoria de LLCs de no residents, la combinació ideal és:
 
 Aquesta combinació et dona seguretat FDIC, accés a passarel·les de pagament, conversió de divises eficient i control total sobre tresoreria i despeses.
 
-A Exentax configurem aquesta estructura com a part del procés de constitució. No et deixem amb una LLC i un compte. muntem l'ecosistema financer complet perquè comencis a operar des del primer dia.
+A Exentax configurem aquesta estructura com a part del procés de constitució. No et deixem amb una LLC i un compte — muntem l'ecosistema financer complet perquè comencis a operar des del primer dia.
 
 Necessites ajuda per triar i configurar els teus comptes? Agenda una assessoria gratuïta i t'orientem segons el teu cas.
 
@@ -3291,7 +3291,7 @@ Wise no utilitza la xarxa SWIFT per a la majoria de transferències. Utilitza co
 
 - **Inicia les transferències aviat**: abans de les 2pm hora de l'est dels EUA. Després del cut-off, es processa al següent dia hàbil
 - **Evita divendres i festius**: les transferències no es processen en caps de setmana. Un ACH iniciat el divendres arriba el dimarts com a molt aviat
-- **Fes servir ACH Same-Day** quan necessitis velocitat sense cost de wire. està disponible a Mercury sense cost addicional
+- **Fes servir ACH Same-Day** quan necessitis velocitat sense cost de wire — està disponible a Mercury sense cost addicional
 - **Consolida enviaments internacionals**: un wire gran surt més barat que diversos petits. I amb Mercury, els wires són \$0 de totes maneres
 - **Fes servir Wise per a pagaments recurrents**: més ràpid i barat que wires tradicionals per a imports mitjans, gràcies a la seva xarxa de comptes locals
 
@@ -3303,7 +3303,7 @@ La majoria de bancs cobren entre \$15-50 per wire transfer. Mercury no cobra res
 - Un client americà vol pagar-te per wire? El reps gratis
 - Wise et demana enviar fons per wire per a verificació? \$0
 
-Mercury fa servir Column NA com a banc custodi, amb assegurança FDIC. No és una fintech experimental. és infraestructura financera seriosa per a la teva LLC.
+Mercury fa servir Column NA com a banc custodi, amb assegurança FDIC. No és una fintech experimental — és infraestructura financera seriosa per a la teva LLC.
 
 A Exentax t'ajudem a configurar el flux de pagaments òptim per al teu negoci: Mercury com a hub central, Wise com a eina de conversió (és una EMI amb tipus de canvi real), i Relay (Thread Bank) com a reserva. Tot integrat i sense sorpreses. Agenda la teva assessoria gratuïta.`,
 
@@ -3355,7 +3355,7 @@ L'**IBAN** és un format estandarditzat de número de compte que s'utilitza a Eu
 
 **No.** Els Estats Units no utilitzen el sistema IBAN. Els comptes americans utilitzen Routing Number + Account Number.
 
-Si un client europeu et demana el teu IBAN per pagar-te, la resposta és: "No tinc IBAN. aquí tens el meu Routing Number, Account Number i SWIFT Code per a wire internacional."
+Si un client europeu et demana el teu IBAN per pagar-te, la resposta és: "No tinc IBAN — aquí tens el meu Routing Number, Account Number i SWIFT Code per a wire internacional."
 
 ### I si necessites rebre pagaments d'Europa?
 
@@ -3397,7 +3397,7 @@ Wise (que és una EMI, no un banc) et genera comptes locals en múltiples païso
 - **Sort code** britànic per a clients UK
 - **BSB** australià per a clients a Austràlia
 
-Els teus clients paguen com si fos una transferència local. tu reps al teu balanç multi-divisa de Wise i després transfereixes a Mercury quan et convingui.
+Els teus clients paguen com si fos una transferència local — tu reps al teu balanç multi-divisa de Wise i després transfereixes a Mercury quan et convingui.
 
 ## Mercury: dades bancàries que necessites
 
@@ -3508,7 +3508,7 @@ La diferència: **16.800-19.200€ a l'any**. El cost de la LLC s'amortitza en e
 
 Sí, n'hi ha. I fan únicament un treball mecànic: omplen un formulari i te l'envien. Sense assessoria fiscal, sense Operating Agreement adaptat a la teva situació, sense suport post-constitució, sense preparació de declaracions, sense que ningú t'expliqui què fer després.
 
-Constituir la LLC és el pas més fàcil. El difícil, i el que marca la diferència. és operar-la correctament perquè la teva estructura fiscal funcioni.
+Constituir la LLC és el pas més fàcil. El difícil, i el que marca la diferència — és operar-la correctament perquè la teva estructura fiscal funcioni.
 
 ## El que inclou Exentax (sense lletra petita)
 
@@ -3547,7 +3547,7 @@ Aquí van les dues cares de la moneda. Sense filtres.
 ### 1. Fiscalitat optimitzada (la raó principal)
 Una Single-Member LLC amb propietari no resident paga **0% d'impost federal** als EUA sobre ingressos de font estrangera. Combinat amb l'estructura fiscal correcta, es pot arribar a optimitzar la càrrega fiscal **fins a un 0%**, enfront del **40-47%** que pagues com a autònom/treballador per compte propi.
 
-Això no és evasió. és optimització fiscal internacional, completament legal.
+Això no és evasió — és optimització fiscal internacional, completament legal.
 
 ### 2. Protecció patrimonial
 La teva LLC és una entitat separada. Si el teu negoci té un deute o un problema legal, els teus béns personals (casa, estalvis, cotxe) estan protegits. Com a autònom/treballador per compte propi a Espanya, aquesta protecció no existeix.
@@ -3573,7 +3573,7 @@ La teva LLC té obligacions anuals: Form 5472 + 1120, FBAR (si aplica), Annual R
 Mantenir una LLC té un cost anual raonable depenent de l'estat i els serveis que contractis. No és gratis.
 
 ### 3. Complexitat fiscal
-La teva situació fiscal es torna més complexa. Tens obligacions als EUA i al teu país de residència. Necessites assessoria professional. no és una cosa que puguis fer amb un tutorial de YouTube.
+La teva situació fiscal es torna més complexa. Tens obligacions als EUA i al teu país de residència. Necessites assessoria professional — no és una cosa que puguis fer amb un tutorial de YouTube.
 
 ### 4. No elimina impostos al teu país
 La LLC no paga als EUA, però **segueixes tenint obligacions fiscals al teu país de residència**. L'avantatge és que pots optimitzar quant i com tributes, però no desapareixen els impostos.
@@ -3705,7 +3705,7 @@ Mai depenguis d'un sol compte. Si un es bloqueja temporalment, necessites poder 
 
 A Exentax configurem els teus comptes des del principi per minimitzar el risc de bloquejos. Preparem tota la documentació que Mercury necessita, t'assessorem sobre com operar correctament, i si alguna vegada tens un problema, t'ajudem a resoldre'l. Agenda la teva assessoria gratuïta i et muntem l'estructura a prova de bloquejos.`,
 
-  "que-es-irs-guia-duenos-llc": `Si tens una LLC als Estats Units, o estàs pensant en tenir-ne una. sentiràs parlar molt de l'**IRS**. Molt. És l'entitat amb la qual tindràs més relació des del punt de vista fiscal. I és millor entendre-la bé des del principi.
+  "que-es-irs-guia-duenos-llc": `Si tens una LLC als Estats Units, o estàs pensant en tenir-ne una — sentiràs parlar molt de l'**IRS**. Molt. És l'entitat amb la qual tindràs més relació des del punt de vista fiscal. I és millor entendre-la bé des del principi.
 
 ## Què és l'IRS?
 
@@ -3784,14 +3784,14 @@ Per a no residents, la comunicació amb l'IRS pot ser especialment complicada pe
 El Form 5472 no es pot presentar sol. Va adjunt a un Form 1120 (declaració d'impost corporatiu) que, en el cas d'una Disregarded Entity, es presenta amb els camps a zero (perquè no hi ha impost a pagar). És bàsicament un sobre per al 5472.
 
 ### Form 7004. l'extensió automàtica
-Si per qualsevol raó no estem llestos per al 15 d'abril, presentem un Form 7004 que dona una extensió automàtica de 6 mesos (fins al 15 d'octubre). A Exentax sol·licitem l'extensió de forma proactiva per a tots els nostres clients. és gratuït i elimina l'estrès.
+Si per qualsevol raó no estem llestos per al 15 d'abril, presentem un Form 7004 que dona una extensió automàtica de 6 mesos (fins al 15 d'octubre). A Exentax sol·licitem l'extensió de forma proactiva per a tots els nostres clients — és gratuït i elimina l'estrès.
 
 ### FBAR (FinCEN Form 114)
 Si la LLC té comptes financers fora dels EUA amb un saldo agregat superior a \$10,000 en qualsevol moment de l'any, cal presentar l'FBAR. Es fa electrònicament a través de FinCEN, no de l'IRS.
 
 ## He de tenir por de l'IRS?
 
-No. Rotundament no. L'IRS no és un monstre. és una burocràcia. Una burocràcia gran, lenta, i de vegades exasperant, però previsible. Si compleixes amb les regles, no tens res a témer.
+No. Rotundament no. L'IRS no és un monstre — és una burocràcia. Una burocràcia gran, lenta, i de vegades exasperant, però previsible. Si compleixes amb les regles, no tens res a témer.
 
 L'IRS persegueix els qui:
 - No presenten formularis obligatoris
@@ -3882,7 +3882,7 @@ Si la LLC té un problema legal, només els actius de la LLC estan en risc. El t
 
 ### Exemple pràctic
 
-Imagina que la teva LLC té un contracte amb un client per \$50.000. El client diu que no vas lliurar la feina i et demanda per incompliment. Sense LLC, aquesta demanda pot anar directament contra els teus béns personals. Amb LLC, la demanda és contra la LLC. no contra tu.
+Imagina que la teva LLC té un contracte amb un client per \$50.000. El client diu que no vas lliurar la feina i et demanda per incompliment. Sense LLC, aquesta demanda pot anar directament contra els teus béns personals. Amb LLC, la demanda és contra la LLC — no contra tu.
 
 Si la LLC només té \$10.000 al seu compte, això és el màxim que el client pot reclamar de la LLC. Casa teva de \$200.000 i els teus estalvis de \$30.000 estan protegits.
 
@@ -3950,7 +3950,7 @@ A Espanya, les dades d'administradors i socis estan al Registre Mercantil. Quals
 
 Aquest concepte mereix la seva pròpia secció perquè és un dels avantatges menys coneguts i més potents de la LLC americana.
 
-Si un creditor personal teu obté una sentència en contra teva (per exemple, un deute personal, un accident de cotxe, el que sigui), a la majoria de països aquest creditor pot anar a per els teus béns. incloses les teves participacions en empreses.
+Si un creditor personal teu obté una sentència en contra teva (per exemple, un deute personal, un accident de cotxe, el que sigui), a la majoria de països aquest creditor pot anar a per els teus béns — incloses les teves participacions en empreses.
 
 Amb una LLC a Wyoming, el creditor només pot obtenir una **charging order**: un dret a rebre les distribucions que la LLC faci al membre. Però NO pot:
 - Prendre el control de la LLC
@@ -3962,13 +3962,13 @@ A la pràctica, això significa que si no fas distribucions, el creditor no cobr
 
 ## La seguretat jurídica com a inversió
 
-Pensa en la protecció patrimonial com una assegurança: esperes no necessitar-la mai, però si la necessites, val cada cèntim. El forner del barri probablement no necessita una LLC. Però tu, que operes internacionalment, gestiones contractes amb clients de diversos països i mous diners entre jurisdiccions. tu sí.
+Pensa en la protecció patrimonial com una assegurança: esperes no necessitar-la mai, però si la necessites, val cada cèntim. El forner del barri probablement no necessita una LLC. Però tu, que operes internacionalment, gestiones contractes amb clients de diversos països i mous diners entre jurisdiccions — tu sí.
 
 El cost de mantenir una LLC és una fracció del que perdries si un problema legal afectés els teus béns personals. Un judici pot costar desenes de milers d'euros. La teva LLC costa una fracció d'això a l'any. Els comptes són fàcils.
 
 A Exentax ens assegurem que la teva LLC estigui constituïda a l'estat correcte per al teu nivell de protecció, amb la documentació perfecta i el compliance al dia. Perquè la protecció patrimonial només funciona si tot està en ordre. Agenda la teva assessoria gratuïta i dissenyem l'estructura que blinda el teu patrimoni.`,
 
-  "llc-creadores-contenido-youtube-twitch": `Si ets creador de contingut, ja sigui a YouTube, Twitch, TikTok, podcasts o qualsevol plataforma digital. probablement estiguis generant ingressos des de múltiples països sense una estructura pensada per a això.
+  "llc-creadores-contenido-youtube-twitch": `Si ets creador de contingut, ja sigui a YouTube, Twitch, TikTok, podcasts o qualsevol plataforma digital — probablement estiguis generant ingressos des de múltiples països sense una estructura pensada per a això.
 
 YouTube et paga des d'Irlanda. Twitch des de San Francisco. Els sponsors poden estar a qualsevol part del món. I tu estàs intentant encaixar tot això en un règim fiscal local que no va ser dissenyat per a la teva realitat.
 
@@ -4126,7 +4126,7 @@ Amb aquest estalvi contractes un altre dissenyador, inverteixes en ads propis o 
 
 ## El que fem per tu
 
-Constitució completa de la LLC, EIN, compte bancari, configuració de Stripe i facturació, compliance anual. No desapareixem després de muntar l'empresa. ens quedem amb tu perquè tot funcioni correctament. Suport continu, tot l'any.
+Constitució completa de la LLC, EIN, compte bancari, configuració de Stripe i facturació, compliance anual. No desapareixem després de muntar l'empresa — ens quedem amb tu perquè tot funcioni correctament. Suport continu, tot l'any.
 
 Agenda una assessoria gratuïta i t'expliquem com podria funcionar per a la teva agència. En 30 minuts fem els números amb les teves xifres reals.
 
@@ -4214,7 +4214,7 @@ Mentre tu et dediques a treballar en el teu negoci durant aquest primer mes, a E
 - **Responent** a qualsevol sol·licitud de documentació addicional que el banc pugui demanar
 - **Assegurant-nos** que el teu BOI Report està presentat correctament davant FinCEN
 - **Preparant** la teva carpeta de documentació (Articles, EIN, Operating Agreement, tot organitzat)
-- **Estant disponibles** per a qualsevol dubte que et sorgeixi. perquè sempre sorgeixen dubtes les primeres setmanes
+- **Estant disponibles** per a qualsevol dubte que et sorgeixi — perquè sempre sorgeixen dubtes les primeres setmanes
 
 ## Cronograma realista setmana a setmana
 
@@ -4343,7 +4343,7 @@ Amb una LLC americana, aquestes limitacions desapareixen:
 
 ### El mercat americà
 
-Els Estats Units són el mercat més gran del món per a serveis digitals. Moltes empreses americanes prefereixen, o fins i tot exigeixen. treballar amb proveïdors que tinguin una estructura empresarial americana.
+Els Estats Units són el mercat més gran del món per a serveis digitals. Moltes empreses americanes prefereixen, o fins i tot exigeixen — treballar amb proveïdors que tinguin una estructura empresarial americana.
 
 Amb la teva LLC, pots participar en licitacions, respondre a ofertes de treball per a empreses i tancar contractes que abans no estaven al teu abast.
 
@@ -4403,7 +4403,7 @@ La teva LLC americana és el teu passaport a mercats que abans estaven tancats:
 
 Si estàs facturant regularment, tens clients internacionals i sents que la teva estructura actual et limita, ja saps el que cal fer.
 
-A Exentax no només constituïm la teva LLC. t'acompanyem en tot el creixement. Des de la primera factura fins que necessitis convertir a C-Corp per a la teva ronda Series A (sí, hem acompanyat clients en aquest camí).
+A Exentax no només constituïm la teva LLC — t'acompanyem en tot el creixement. Des de la primera factura fins que necessitis convertir a C-Corp per a la teva ronda Series A (sí, hem acompanyat clients en aquest camí).
 
 Agenda la teva assessoria gratuïta de 30 minuts. Analitzem la teva situació, et diem si té sentit escalar amb una LLC, i dissenyem l'estructura que et permeti créixer sense sostre.`,
 
@@ -4530,7 +4530,7 @@ Si el teu negoci està en un d'aquests sectors, no significa que no puguis obrir
 2. **Assegura't que el teu lloc web està actiu i actualitzat**: els bancs el revisen
 3. **Sigues clar i consistent**: la descripció del teu negoci ha de coincidir en tots els documents
 4. **Respon ràpidament** a qualsevol sol·licitud addicional del banc
-5. **No exageris ni minimitzis** els teus volums esperats. sigues realista
+5. **No exageris ni minimitzis** els teus volums esperats — sigues realista
 
 ## Mercury vs. bancs tradicionals
 
@@ -4610,7 +4610,7 @@ L'opció més popular entre freelancers internacionals amb clients fora del seu 
 - Optimització fiscal legal, la LLC no paga impostos corporatius als EUA si no tens presència física
 - Accés a banca en dòlars (Mercury, Relay)
 - Stripe i PayPal sense restriccions
-- Protecció patrimonial. separació legal entre persona i empresa
+- Protecció patrimonial — separació legal entre persona i empresa
 - Credibilitat internacional
 - Sense quota fixa mensual
 
@@ -4693,7 +4693,7 @@ El teu banc monitora les transaccions del teu compte de forma contínua. Si dete
 
 ### 3. Informes regulatoris
 
-Depenent del volum i tipus de transaccions, el teu banc pot estar obligat a presentar informes davant FinCEN (Financial Crimes Enforcement Network). Això no significa que estiguis sota investigació. és un procediment rutinari.
+Depenent del volum i tipus de transaccions, el teu banc pot estar obligat a presentar informes davant FinCEN (Financial Crimes Enforcement Network). Això no significa que estiguis sota investigació — és un procediment rutinari.
 
 ## El BSA: Bank Secrecy Act
 
@@ -4716,7 +4716,7 @@ La teva activitat bancària ha de ser coherent amb el que vas declarar en obrir 
 
 ### 2. Documenta-ho tot
 
-Cada transacció significativa ha de poder justificar-se amb documentació: contractes, factures, rebuts, correus electrònics. Això no només és bo per al compliance. també simplifica la teva comptabilitat.
+Cada transacció significativa ha de poder justificar-se amb documentació: contractes, factures, rebuts, correus electrònics. Això no només és bo per al compliance — també simplifica la teva comptabilitat.
 
 ### 3. Evita transaccions en efectiu
 
@@ -4750,7 +4750,7 @@ Paradoxalment, tenir una LLC ben constituïda i mantenir un compliance impecable
 
 La teva LLC, amb el seu EIN, les seves declaracions al dia i el seu compte bancari dedicat a Mercury (Column NA, FDIC, tot en ordre), és exactament el que el sistema espera veure d'un professional que opera internacionalment.
 
-No et complicis amb les regulacions AML. deixa-ho en mans de qui sap. A Exentax ens encarreguem que tota la teva estructura estigui sempre en compliment. Constitució, declaracions anuals, coordinació amb bancs, BOI Report davant FinCEN... tot. Tu et dediques al teu negoci, nosaltres ens assegurem que cada paper estigui perfecte. Agenda la teva assessoria gratuïta.`,
+No et complicis amb les regulacions AML — deixa-ho en mans de qui sap. A Exentax ens encarreguem que tota la teva estructura estigui sempre en compliment. Constitució, declaracions anuals, coordinació amb bancs, BOI Report davant FinCEN... tot. Tu et dediques al teu negoci, nosaltres ens assegurem que cada paper estigui perfecte. Agenda la teva assessoria gratuïta.`,
 
   "fiscalidad-internacional-emprendedores-digitales": `La fiscalitat internacional és un dels temes més importants, i més mal entesos, per a emprenedors digitals. Si vens serveis o productes digitals a clients de diversos països, necessites entendre com funciona el sistema fiscal global per prendre les millors decisions per al teu negoci.
 
@@ -4797,7 +4797,7 @@ Si tens diverses entitats (per exemple, una LLC i un autònom/treballador per co
 
 ### Substància econòmica
 
-Perquè una estructura fiscal sigui vàlida, ha de tenir substància econòmica real. La teva LLC ha d'operar com un negoci real amb activitat econòmica genuïna. no pot ser una estructura buida creada només per reduir impostos.
+Perquè una estructura fiscal sigui vàlida, ha de tenir substància econòmica real. La teva LLC ha d'operar com un negoci real amb activitat econòmica genuïna — no pot ser una estructura buida creada només per reduir impostos.
 
 ## Estratègies d'optimització fiscal legal
 
@@ -4914,7 +4914,7 @@ Sí, has llegit bé: **automàtica**. L'IRS no avalua la teva sol·licitud, no l
 
 ## Per què és tan comú demanar extensió?
 
-Perquè és una pràctica estàndard en el món empresarial nord-americà. **Més del 50% de les declaracions d'impostos corporatives es presenten amb extensió.** No és quelcom rar ni sospitós. és el normal.
+Perquè és una pràctica estàndard en el món empresarial nord-americà. **Més del 50% de les declaracions d'impostos corporatives es presenten amb extensió.** No és quelcom rar ni sospitós — és el normal.
 
 Les raons són pràctiques:
 
@@ -4989,7 +4989,7 @@ Abans del 15 d'abril, ens assegurem que la teva extensió estigui presentada. De
 |---|---|
 | Formulari | Form 7004 |
 | Extensió | 6 mesos (del 15 d'abril al 15 d'octubre) |
-| Aprovació | Automàtica. l'IRS no la denega |
+| Aprovació | Automàtica — l'IRS no la denega |
 | Motiu requerit | Cap |
 | Cost | Gratuït |
 | Pagament d'impostos | S'ha de fer abans del 15 d'abril (generalment \$0 per a LLCs de no residents) |
@@ -5012,7 +5012,7 @@ L'SSN és el número de Seguretat Social dels Estats Units. És un identificador
 - Residents permanents (green card holders)
 - Persones autoritzades a treballar als EUA
 
-L'SSN no és només un número fiscal. és la teva identitat en el sistema nord-americà. L'uses per treballar, pagar impostos, accedir a beneficis de la Seguretat Social, sol·licitar crèdit i pràcticament tot el que impliqui interactuar amb el govern federal.
+L'SSN no és només un número fiscal — és la teva identitat en el sistema nord-americà. L'uses per treballar, pagar impostos, accedir a beneficis de la Seguretat Social, sol·licitar crèdit i pràcticament tot el que impliqui interactuar amb el govern federal.
 
 **Si no ets ciutadà ni resident dels EUA, no pots obtenir un SSN.** Així de simple. No hi ha excepcions, no hi ha dreceres, no hi ha trucs. Si algú et diu el contrari, desconfia.
 
@@ -5056,7 +5056,7 @@ En poques paraules: sense ITIN, la teva vida fiscal amb una LLC americana és mo
 
 ## Com obtenir el teu ITIN?
 
-El procés té diversos passos, però és completament gestionable. sobretot si tens algú que ho gestioni per tu (spoiler: a Exentax ens encarreguem de tot).
+El procés té diversos passos, però és completament gestionable — sobretot si tens algú que ho gestioni per tu (spoiler: a Exentax ens encarreguem de tot).
 
 ### Pas 1: Preparar el Form W-7
 
@@ -5116,7 +5116,7 @@ L'IRS no cobra res per emetre l'ITIN. El Form W-7 és gratuït. Els costos reals
 
 ## A Exentax t'ajudem a obtenir el teu ITIN
 
-Sabem que el procés de l'ITIN pot semblar intimidant. formularis, documents, còpies certificades, temps d'espera... Però no té per què ser complicat.
+Sabem que el procés de l'ITIN pot semblar intimidant — formularis, documents, còpies certificades, temps d'espera... Però no té per què ser complicat.
 
 **A Exentax ens encarreguem de tot el procés per tu:**
 
@@ -5132,7 +5132,7 @@ Hem gestionat sol·licituds d'ITIN per a clients d'Espanya, Mèxic, Colòmbia, A
 
 Si acabes de constituir la teva LLC o estàs a punt de fer-ho, el moment de sol·licitar el teu ITIN és ara. Com més aviat el tinguis, més aviat podràs complir amb totes les teves obligacions fiscals sense complicacions.
 
-Agenda la teva assessoria gratuïta amb Exentax i t'expliquem exactament com funciona el procés per al teu cas concret. Ens encarreguem de tot. tu només posa el passaport.`,
+Agenda la teva assessoria gratuïta amb Exentax i t'expliquem exactament com funciona el procés per al teu cas concret. Ens encarreguem de tot — tu només posa el passaport.`,
 
   "tributacion-pass-through-llc-como-funciona": `Si algú t'ha dit que amb una LLC pots pagar \$0 d'impostos federals als Estats Units, no t'estava prenent el pèl. És real, és legal, i té un nom tècnic: **tributació pass-through**. És probablement l'avantatge fiscal més potent de tenir una LLC com a no resident, i en aquest article t'explicarem exactament com funciona.
 
@@ -5155,7 +5155,7 @@ Sí, zero dòlars. No és un error tipogràfic.
 
 Perquè el sistema fiscal nord-americà grava els ingressos segons la seva **font**. Si ets no resident dels EUA i els teus ingressos provenen de serveis prestats fora dels Estats Units (freelancing, consultoria, desenvolupament de programari, disseny, màrqueting digital, etc.), aquests ingressos no es consideren de font nord-americana.
 
-I si no són de font nord-americana, els EUA no tenen potestat per gravar-los. Així funciona el sistema. no és una llacuna legal, és el disseny del propi codi fiscal.
+I si no són de font nord-americana, els EUA no tenen potestat per gravar-los. Així funciona el sistema — no és una llacuna legal, és el disseny del propi codi fiscal.
 
 ### La fórmula simplificada:
 
@@ -5175,11 +5175,11 @@ Imagina que ets dissenyador web, vius a Madrid i factures \$6,000 al mes a clien
 **Als Estats Units:**
 - La teva LLC presenta el Form 1120 + Form 5472 (informatiu)
 - Impost federal: \$0
-- La LLC és una Disregarded Entity. transparent fiscalment
+- La LLC és una Disregarded Entity — transparent fiscalment
 
 **Al teu país de residència:**
 - Els beneficis nets de la teva LLC tributen al teu país de residència
-- **Però**: i aquí ve el bo. primer dedueixis totes les despeses legítimes de la teva LLC
+- **Però**: i aquí ve el bo — primer dedueixis totes les despeses legítimes de la teva LLC
 
 ### Quina és la diferència amb ser autònom/treballador per compte propi directament?
 
@@ -5244,7 +5244,7 @@ Si tens ingressos de font nord-americana (clients als EUA que et contracten per 
 
 ## Com Exentax estructura això per a tu
 
-A Exentax no només constituïm la teva LLC. dissenyem tota l'estructura fiscal perquè el pass-through funcioni de manera òptima per al teu cas:
+A Exentax no només constituïm la teva LLC — dissenyem tota l'estructura fiscal perquè el pass-through funcioni de manera òptima per al teu cas:
 
 - **Analitzem la teva situació fiscal** al teu país de residència
 - **Escollim l'estat de constitució** que millor encaixi amb el teu perfil
@@ -5271,7 +5271,7 @@ Un dels avantatges més valorats de les LLC americanes és la **privacitat**. De
 
 ### Com funciona?
 
-- **Nou Mèxic i Wyoming** permeten constituir LLCs on les dades dels membres (propietaris) no són d'accés públic. Els Articles of Organization només mostren el nom de l'agent registrat i l'adreça de l'empresa. no el teu.
+- **Nou Mèxic i Wyoming** permeten constituir LLCs on les dades dels membres (propietaris) no són d'accés públic. Els Articles of Organization només mostren el nom de l'agent registrat i l'adreça de l'empresa — no el teu.
 - **L'Operating Agreement és un document privat.** No es registra davant cap autoritat. És el document intern que estableix les regles de la teva LLC, i només el coneixes tu (i el teu assessor).
 - **No existeix un registre públic de membres** de LLCs com passa a molts països europeus o llatinoamericans.
 
@@ -5282,7 +5282,7 @@ Un dels avantatges més valorats de les LLC americanes és la **privacitat**. De
 - Discreció en negocis on la privacitat és un factor clau
 - Protecció contra competidors que vulguin investigar la teva estructura
 
-No es tracta d'amagar-se. es tracta que la teva informació personal no estigui exposada innecessàriament. A Europa i Llatinoamèrica, qualsevol persona pot buscar el teu nom i veure les teves empreses. Amb una LLC a Nou Mèxic o Wyoming, això no passa.
+No es tracta d'amagar-se — es tracta que la teva informació personal no estigui exposada innecessàriament. A Europa i Llatinoamèrica, qualsevol persona pot buscar el teu nom i veure les teves empreses. Amb una LLC a Nou Mèxic o Wyoming, això no passa.
 
 ## 2. Seguretat jurídica: protecció patrimonial de veritat
 
@@ -5308,7 +5308,7 @@ Quan la teva empresa està constituïda als EUA, operes sota un sistema legal qu
 
 ## 3. Estructura sòlida: imatge professional global
 
-Una LLC americana no només et protegeix. et posiciona. Tenir una empresa als Estats Units transmet seriositat, professionalisme i confiança a nivell internacional.
+Una LLC americana no només et protegeix — et posiciona. Tenir una empresa als Estats Units transmet seriositat, professionalisme i confiança a nivell internacional.
 
 ### Avantatges d'imatge i operatius:
 
@@ -5487,7 +5487,7 @@ Aquests són els 7 problemes més comuns, i exactament com evitar-los.
 
 ## 2. Bloqueig o tancament de compte bancari
 
-**El problema:** Mercury, Relay, Wise. qualsevol fintech amb programa de compliance pot congelar el teu compte si detecta activitat que no pot verificar. Les causes més freqüents:
+**El problema:** Mercury, Relay, Wise — qualsevol fintech amb programa de compliance pot congelar el teu compte si detecta activitat que no pot verificar. Les causes més freqüents:
 
 - Ingressos grans sense factures que els recolzin
 - Transferències freqüents a comptes personals sense etiquetar com a distributions
@@ -5577,7 +5577,7 @@ En aquest article t'expliquem com funciona la tributació real d'una LLC america
 
 ## El principi fonamental: tributació per residència fiscal
 
-La majoria de països graven els seus residents fiscals per la seva **renda mundial**. Això significa que, visquis on visquis, has de declarar tots els teus ingressos. inclosos els que generes a través de la teva LLC americana.
+La majoria de països graven els seus residents fiscals per la seva **renda mundial**. Això significa que, visquis on visquis, has de declarar tots els teus ingressos — inclosos els que generes a través de la teva LLC americana.
 
 La clau està en què una LLC ben estructurada et permet:
 - **Deduir despeses reals del negoci** abans de calcular la teva base imposable
@@ -5644,11 +5644,11 @@ Argentina és un dels països amb major pressió fiscal de la regió. Els reside
 
 Independentment d'on visquis, hi ha principis que s'apliquen sempre:
 
-**1. La LLC no elimina la teva obligació fiscal. l'optimitza.** Redueixes la teva base imposable amb despeses deduïbles legítimes i operes amb una estructura professional que et dona eines que no tens com a autònom/treballador per compte propi o persona física.
+**1. La LLC no elimina la teva obligació fiscal — l'optimitza.** Redueixes la teva base imposable amb despeses deduïbles legítimes i operes amb una estructura professional que et dona eines que no tens com a autònom/treballador per compte propi o persona física.
 
 **2. La documentació ho és tot.** Factures, contractes, registres de despeses, distributions documentades. Sense documentació, no hi ha deducció possible.
 
-**3. El compliance americà et protegeix.** Presentar el Form 5472, mantenir el BOI Report al dia i operar amb traçabilitat no només compleix amb l'IRS. també demostra davant la teva hisenda local que la teva estructura és legítima i transparent.
+**3. El compliance americà et protegeix.** Presentar el Form 5472, mantenir el BOI Report al dia i operar amb traçabilitat no només compleix amb l'IRS — també demostra davant la teva hisenda local que la teva estructura és legítima i transparent.
 
 **4. Cada situació és diferent.** No existeix una resposta genèrica. La teva càrrega fiscal final depèn dels teus ingressos, les teves despeses, el teu país, el teu règim i dotzenes de variables que només es poden analitzar cas per cas.
 
@@ -5656,7 +5656,7 @@ Independentment d'on visquis, hi ha principis que s'apliquen sempre:
 
 A YouTube i Twitter trobaràs milers de persones dient "amb una LLC pagues 0% d'impostos". És una simplificació perillosa. Pagues 0% d'impost **federal als EUA**: però segueixes tenint obligacions al teu país de residència.
 
-La diferència entre un freelancer que paga el 40% i un que paga el 15% no és la LLC en si. és com està estructurada, quines despeses es dedueixen, com es documenten les operacions i com es declara al país de residència.
+La diferència entre un freelancer que paga el 40% i un que paga el 15% no és la LLC en si — és com està estructurada, quines despeses es dedueixen, com es documenten les operacions i com es declara al país de residència.
 
 A Exentax analitzem la teva situació completa: país de residència, ingressos, despeses, clients, model de negoci. I dissenyem una estructura que optimitzi la teva fiscalitat de forma legal, documentada i sostenible.
 
@@ -5664,7 +5664,7 @@ Agenda la teva assessoria gratuïta de 30 minuts. Et mostrem els números reals 
 
   "crs-cuentas-bancarias-llc-intercambio-informacion": `Si tens una LLC als Estats Units i un compte a Mercury, Wise o Relay, és natural preguntar-se: pot Hisenda al meu país veure aquest compte? Saben quants diners tinc allà?
 
-La resposta curta: sí, potencialment poden. Però això no és un problema. és un avantatge si la teva estructura està ben muntada. T'expliquem com funciona.
+La resposta curta: sí, potencialment poden. Però això no és un problema — és un avantatge si la teva estructura està ben muntada. T'expliquem com funciona.
 
 ## Què és el CRS i per què existeix
 
@@ -5680,7 +5680,7 @@ Aquí ve la part interessant: **Els Estats Units no participen en el CRS.** És 
 
 - Les institucions financeres als EUA no reporten automàticament sota CRS al teu país de residència
 - El teu compte de Mercury, per exemple, no genera un informe automàtic CRS que arribi a Hisenda a Espanya
-- Això NO significa que hagis d'amagar res. significa que el mecanisme d'intercanvi és diferent
+- Això NO significa que hagis d'amagar res — significa que el mecanisme d'intercanvi és diferent
 
 ## Aleshores, pot la meva hisenda local veure el meu compte americà?
 
@@ -5706,7 +5706,7 @@ Cada plataforma té obligacions diferents:
 
 ## Per què la transparència et beneficia
 
-Aquí està el punt clau: **una LLC ben gestionada no té res a amagar.** L'objectiu d'una LLC americana no és ocultar ingressos de la teva hisenda local. és optimitzar legalment la teva càrrega fiscal a través de:
+Aquí està el punt clau: **una LLC ben gestionada no té res a amagar.** L'objectiu d'una LLC americana no és ocultar ingressos de la teva hisenda local — és optimitzar legalment la teva càrrega fiscal a través de:
 
 - Deducció legítima de despeses del negoci
 - Pass-through taxation amb \$0 d'impost federal als EUA
@@ -5719,7 +5719,7 @@ Si la teva estructura està ben muntada, pots ensenyar la teva operació a quals
 
 Evadir és no declarar ingressos. Optimitzar és estructurar el teu negoci per pagar el just dins de la llei.
 
-Un freelancer que treballa com a autònom/treballador per compte propi a Espanya pot estar pagant un 45% efectiu entre IRPF i quota d'autònom/treballador per compte propi. Aquest mateix freelancer, amb una LLC americana ben estructurada, pot reduir la seva càrrega fiscal efectiva significativament. declarant-ho tot, amb compliance al dia, amb documentació impecable.
+Un freelancer que treballa com a autònom/treballador per compte propi a Espanya pot estar pagant un 45% efectiu entre IRPF i quota d'autònom/treballador per compte propi. Aquest mateix freelancer, amb una LLC americana ben estructurada, pot reduir la seva càrrega fiscal efectiva significativament — declarant-ho tot, amb compliance al dia, amb documentació impecable.
 
 La diferència no està en amagar diners. Està en triar l'estructura correcta.
 
@@ -5743,7 +5743,7 @@ Per a no residents amb LLCs, el FBAR normalment no és directament aplicable. Pe
 
 L'escenari més comú: ets freelancer, constitueixes la teva LLC, comences a facturar per ella. El teu assessor fiscal local declara els ingressos al teu IRPF. Tot correcte.
 
-Un dia, Hisenda t'envia un requeriment demanant informació sobre la teva activitat internacional. No és una inspecció. és una sol·licitud d'informació.
+Un dia, Hisenda t'envia un requeriment demanant informació sobre la teva activitat internacional. No és una inspecció — és una sol·licitud d'informació.
 
 El que necessites tenir preparat:
 
@@ -5861,7 +5861,7 @@ Independentment del que reportin o deixin de reportar les fintechs, la majoria d
 
 **3. Una LLC ben gestionada no necessita amagar-se.** El teu estalvi fiscal ve de l'optimització legal (despeses deduïbles, pass-through taxation, estructura eficient), no d'ocultar comptes.
 
-**4. La traçabilitat és la teva millor defensa.** Si alguna vegada la teva hisenda et pregunta sobre la teva LLC, tenir-ho tot documentat. factures, distributions, Form 5472, Operating Agreement. és el que et protegeix.
+**4. La traçabilitat és la teva millor defensa.** Si alguna vegada la teva hisenda et pregunta sobre la teva LLC, tenir-ho tot documentat — factures, distributions, Form 5472, Operating Agreement — és el que et protegeix.
 
 ## Com ho gestionem a Exentax
 
@@ -6025,7 +6025,7 @@ Els terminis depenen de quan es va constituir la LLC:
 
 ## Com es presenta
 
-El BOI Report es presenta electrònicament a través del sistema BOI E-Filing de FinCEN. No es presenta a l'IRS. és un report separat a una agència diferent.
+El BOI Report es presenta electrònicament a través del sistema BOI E-Filing de FinCEN. No es presenta a l'IRS — és un report separat a una agència diferent.
 
 El formulari requereix:
 - Dades de l'empresa
@@ -6105,7 +6105,7 @@ Quan obres un compte a Mercury, Relay o qualsevol plataforma financera, el proc�
 
 **4. Evasió fiscal al teu país**
 
-Si la raó d'utilitzar un testaferro és que la teva hisenda local no sàpiga que tens una LLC, estàs evadint impostos. No importa a nom de qui estigui la LLC. si els ingressos són teus, l'obligació fiscal és teva.
+Si la raó d'utilitzar un testaferro és que la teva hisenda local no sàpiga que tens una LLC, estàs evadint impostos. No importa a nom de qui estigui la LLC — si els ingressos són teus, l'obligació fiscal és teva.
 
 ## Les conseqüències reals
 
@@ -6174,9 +6174,9 @@ Sona bé. Però una empresa europea implica fiscalitat europea. I aquí comencen
 
 ## El mite: "A Estònia no pagues impostos sobre beneficis no distribuïts"
 
-És cert que Estònia no aplica impost de societats sobre beneficis reinvertits. Si no treus diners de l'empresa, no pagues. Però, i aquest és un però enorme. de què et serveix una empresa si no pots fer servir els beneficis?
+És cert que Estònia no aplica impost de societats sobre beneficis reinvertits. Si no treus diners de l'empresa, no pagues. Però, i aquest és un però enorme — de què et serveix una empresa si no pots fer servir els beneficis?
 
-En el moment en què distribueixes dividends (és a dir, en el moment en què vols gaudir dels diners que has guanyat), Estònia aplica un **20% d'impost sobre distribucions**. Tècnicament es calcula com 20/80 sobre l'import net distribuït. és a dir, si vols rebre 10.000€ nets, l'empresa ha de "gastar" 12.500€ (10.000€ per a tu + 2.500€ d'impost). Això equival a un **20% sobre l'import brut total**.
+En el moment en què distribueixes dividends (és a dir, en el moment en què vols gaudir dels diners que has guanyat), Estònia aplica un **20% d'impost sobre distribucions**. Tècnicament es calcula com 20/80 sobre l'import net distribuït — és a dir, si vols rebre 10.000€ nets, l'empresa ha de "gastar" 12.500€ (10.000€ per a tu + 2.500€ d'impost). Això equival a un **20% sobre l'import brut total**.
 
 I això és només l'impost a Estònia. Si ets resident fiscal a Espanya, a més has de declarar aquests dividends i pagar IRPF de l'estalvi:
 
@@ -6204,7 +6204,7 @@ Aquí és on la diferència es torna abismal.
 
 ### Amb una OÜ a Estònia
 
-- **Bancs estonians:** LHV, Swedbank o SEB poden obrir-te compte, però la burocràcia és considerable. Els neobancs com Wise Business funcionen, però Wise no és un banc. és una EMI (Institució de Diner Electrònic). No hi ha assegurança de dipòsits a la majoria d'opcions.
+- **Bancs estonians:** LHV, Swedbank o SEB poden obrir-te compte, però la burocràcia és considerable. Els neobancs com Wise Business funcionen, però Wise no és un banc — és una EMI (Institució de Diner Electrònic). No hi ha assegurança de dipòsits a la majoria d'opcions.
 - **Stripe:** Funciona amb empresa estona, però amb les limitacions d'operar a la zona SEPA. Les comissions per a pagaments internacionals fora de la UE són més altes.
 - **PayPal Business:** Limitacions segons el país del propietari.
 - **Divisa principal:** Euros. Si cobres en dòlars, cada transacció implica conversió de divisa.
@@ -6260,7 +6260,7 @@ Necessites un comptable estonià. Necessites entendre la normativa estona. Neces
 ### LLC als Estats Units
 
 Una Single-Member LLC de no resident necessita:
-- Form 5472 + Form 1120 (declaració informativa anual. no implica pagament)
+- Form 5472 + Form 1120 (declaració informativa anual — no implica pagament)
 - BOI Report davant FinCEN
 - Renovació de Registered Agent
 
@@ -6335,7 +6335,7 @@ Però si ets treballador per compte propi digital, SaaS, e-commerce internaciona
 
 L'e-Residency d'Estònia s'ha convertit en un producte de màrqueting brillant. Un govern que ven ciutadania digital amb una narrativa d'innovació i modernitat. I funciona: milers de persones s'hi han apuntat.
 
-Però els números no menteixen. Quan sumes els costos de comptabilitat obligatòria, l'impost sobre distribucions, la gestió d'IVA, i les limitacions bancàries. l'OÜ estona és més cara, més burocràtica i fiscalment menys eficient que una LLC americana per a la immensa majoria de treballadors per compte propi i emprenedors digitals hispans.
+Però els números no menteixen. Quan sumes els costos de comptabilitat obligatòria, l'impost sobre distribucions, la gestió d'IVA, i les limitacions bancàries — l'OÜ estona és més cara, més burocràtica i fiscalment menys eficient que una LLC americana per a la immensa majoria de treballadors per compte propi i emprenedors digitals hispans.
 
 ## A Exentax et donem l'estructura que realment funciona
 

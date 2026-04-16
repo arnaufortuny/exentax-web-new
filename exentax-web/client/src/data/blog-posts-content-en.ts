@@ -490,7 +490,7 @@ These are just state costs. Add Registered Agent fees, professional filing fees,
 Florida is a popular choice for LLC formation because of its zero state income tax and business-friendly reputation. However, for non-residents:
 - **Annual report:** mandatory annual report (failure dissolves the LLC)
 - **Late filing penalty:** state-level penalty if filed after May 1
-- **Privacy:** LOW. officer/member names appear on public Sunbiz.org record
+- **Privacy:** LOW — officer/member names appear on public Sunbiz.org record
 - **Formation speed:** 1-3 days (standard), same day available (expedited surcharge applies)
 - **Best for:** Entrepreneurs with physical US presence or operations in Florida
 
@@ -795,7 +795,7 @@ Relay (Thread Bank, FDIC insured) offers up to 20 free sub-accounts, each with i
 
 ### Slash: corporate treasury
 
-Slash is not a bank. it's a corporate treasury tool. Use it for:
+Slash is not a bank — it's a corporate treasury tool. Use it for:
 - Parking idle LLC cash that generates yield
 - Maintaining a clear separation between operational funds (Mercury) and reserve/investment funds (Slash)
 - Demonstrating to auditors that your LLC manages its finances independently
@@ -951,14 +951,14 @@ Before considering your separation complete, verify each of these items:
 |---|---|---|
 | **Mercury** | Primary LLC checking | All business revenue and expenses flow here |
 | **Relay** | Sub-accounts | Separate client funds, tax reserves, operating expenses |
-| **Wallester** | Virtual cards per expense | Each subscription has its own card. automatic categorization |
+| **Wallester** | Virtual cards per expense | Each subscription has its own card — automatic categorization |
 | **Slash** | Corporate treasury | LLC savings clearly separated from operating funds |
 | **Wise Business** | LLC currency conversion | Business FX conversions documented separately from personal |
 | **Your personal bank** | Personal finances | Completely separate institution from LLC banking |
 
 ### The Owner's Draw: your distribution method
 
-When you need to transfer money from your LLC to yourself, you execute an **Owner's Draw** (also called a distribution). This is NOT a salary. it's a distribution of profits from the LLC to its sole member.
+When you need to transfer money from your LLC to yourself, you execute an **Owner's Draw** (also called a distribution). This is NOT a salary — it's a distribution of profits from the LLC to its sole member.
 
 **Proper documentation for each Owner's Draw:**
 - Date of distribution
@@ -1020,7 +1020,7 @@ It's the equivalent of:
 - **CUIT** in Argentina
 - **RUT** in Chile
 
-Despite the name ("Employer Identification Number"), you don't need to have employees to get an EIN. it's simply required for any US business entity.
+Despite the name ("Employer Identification Number"), you don't need to have employees to get an EIN — it's simply required for any US business entity.
 
 ## Why do you need an EIN?
 
@@ -1050,7 +1050,7 @@ You can call the IRS international line directly to obtain an EIN. This can be f
 
 ### Through a formation service
 
-When you use Exentax to form your LLC, we obtain the EIN for you as part of the formation package. This is the simplest path. no IRS paperwork, no long phone calls, no waiting for mail. We handle everything and deliver your EIN confirmation letter (CP 575) directly to you.
+When you use Exentax to form your LLC, we obtain the EIN for you as part of the formation package. This is the simplest path — no IRS paperwork, no long phone calls, no waiting for mail. We handle everything and deliver your EIN confirmation letter (CP 575) directly to you.
 
 ## The EIN confirmation letter (CP 575)
 
@@ -1072,7 +1072,7 @@ As a foreign LLC owner, your LLC has an EIN. You personally might need an ITIN i
 
 ## Protecting your EIN
 
-Your EIN is like a business social security number. protect it from unauthorized use. Only share it with:
+Your EIN is like a business social security number — protect it from unauthorized use. Only share it with:
 
 - Banks and financial institutions (Mercury, Relay, Wise)
 - The IRS for tax filing
@@ -1105,7 +1105,7 @@ Once you have your EIN, you can:
 | **EIN letter (CP575) lost** | Never received or misplaced | Request Form 147C from IRS as replacement |
 
 ### The Exentax difference
-We've filed hundreds of EIN applications. Our approval rate is 98%+ on first submission because we verify every field, every name spelling, and every classification before filing. When issues arise, we follow up directly with the IRS International line. something most entrepreneurs can't do effectively due to hold times (sometimes 1-2 hours) and IRS phone menu complexity.
+We've filed hundreds of EIN applications. Our approval rate is 98%+ on first submission because we verify every field, every name spelling, and every classification before filing. When issues arise, we follow up directly with the IRS International line — something most entrepreneurs can't do effectively due to hold times (sometimes 1-2 hours) and IRS phone menu complexity.
 
 ## What platforms need your EIN
 
@@ -1195,7 +1195,7 @@ When clients need to pay you, provide:
 - Account Number: [your unique number]
 
 **For US clients (Wire):**
-- Routing Number (Wire): [see Mercury settings. different from ACH]
+- Routing Number (Wire): [see Mercury settings — different from ACH]
 - Account Number: [your unique number]
 
 **For international clients (Wire):**
@@ -1221,7 +1221,7 @@ Wise is an **EMI (Electronic Money Institution)**, not a bank. It's **not FDIC i
 
 ### Wallester: corporate cards
 
-**Wallester** provides virtual and physical corporate cards with granular spend control. Create a separate virtual card for each subscription. one for AWS, another for Adobe, another for your domain registrar. This simplifies expense tracking and provides control without sharing your main debit card.
+**Wallester** provides virtual and physical corporate cards with granular spend control. Create a separate virtual card for each subscription — one for AWS, another for Adobe, another for your domain registrar. This simplifies expense tracking and provides control without sharing your main debit card.
 
 ### Revolut Business: multi-currency complement
 
@@ -1270,7 +1270,7 @@ FDIC (Federal Deposit Insurance Corporation) protects depositors if their bank f
 
 - **Standard coverage:** $250,000 per depositor, per bank
 - **Mercury Treasury:** Extends coverage up to $5,000,000 by distributing funds across multiple partner banks
-- **What's covered:** Checking accounts, savings accounts. all deposit accounts
+- **What's covered:** Checking accounts, savings accounts — all deposit accounts
 - **What's NOT covered:** Investments, crypto, safe deposit boxes
 - **How it works:** If Column NA (Mercury's banking partner) were to fail, FDIC would reimburse your deposits up to the coverage limit within days
 
@@ -1294,7 +1294,7 @@ No. Mercury has no minimum balance requirement.
 Mercury accounts are USD-only. For non-USD payments, receive through Wise Business, convert to USD, and transfer to Mercury via free ACH.
 
 **What happens if Mercury decides to close my account?**
-You receive notice to transfer your funds. This is why having a backup account (Relay) is essential. never have all your business funds in one institution.
+You receive notice to transfer your funds. This is why having a backup account (Relay) is essential — never have all your business funds in one institution.
 
 
 ## Related articles
@@ -1319,7 +1319,7 @@ Let's do the real math. Suppose you bill €5,000/month (€60,000/year):
 
 The result: from those €60,000, you might keep **€32,000-38,000** after taxes. Nearly half is gone.
 
-And the worst part isn't how much you pay. it's that you don't have to pay that much.
+And the worst part isn't how much you pay — it's that you don't have to pay that much.
 
 ## Why the autónomo model fails digital freelancers
 
@@ -1379,7 +1379,7 @@ With an LLC, you can deduct as operational expenses everything that is "ordinary
 
 ## The autónomo contribution: Spain's most absurd tax
 
-The autónomo quota is an anomaly in Europe: you pay a fixed amount each month regardless of whether you bill or not. With the new income-based system (2023+), the quota increases as you earn more. the system literally penalizes success.
+The autónomo quota is an anomaly in Europe: you pay a fixed amount each month regardless of whether you bill or not. With the new income-based system (2023+), the quota increases as you earn more — the system literally penalizes success.
 
 Meanwhile, with a US LLC: there is no equivalent monthly contribution. You pay for annual maintenance (Exentax fees, Registered Agent, state fees if applicable), but there's no monthly tax for simply existing as a business.
 
@@ -1391,7 +1391,7 @@ The key is having the structure properly set up and complying with your tax obli
 
 ## Do I need to cancel my autónomo registration?
 
-It depends on your situation. There are cases where it makes sense to maintain autónomo registration in Spain and operate the LLC in parallel. In others, it makes sense to deregister. There's no universal answer. it depends on:
+It depends on your situation. There are cases where it makes sense to maintain autónomo registration in Spain and operate the LLC in parallel. In others, it makes sense to deregister. There's no universal answer — it depends on:
 
 - Your billing volume
 - The percentage of international vs. domestic clients
@@ -1451,7 +1451,7 @@ These figures assume €72,000/year billing and grow proportionally with income.
 
 - <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us-llc">guide on leaving Spanish self-employment</a>
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
-Book your strategic consultation and we'll analyze your specific situation. current income, clients, expenses, and tell you honestly whether the switch makes financial sense for you.`,
+Book your strategic consultation and we'll analyze your specific situation — current income, clients, expenses, and tell you honestly whether the switch makes financial sense for you.`,
 
   "impuestos-clientes-internacionales-espana": `Working with international clients while based in Spain creates a complex tax situation. Here's what you need to understand and how a US LLC can simplify things dramatically.
 
@@ -1459,7 +1459,7 @@ Book your strategic consultation and we'll analyze your specific situation. curr
 
 When you're autónomo in Spain and you serve clients in the US, Germany, Mexico, or anywhere outside Spain, you face several complications:
 
-**VAT complications:** Digital services sold to businesses in other EU countries under B2B rules generally don't require charging Spanish VAT (reverse charge applies, per EU Directive 2006/112/EC). But for B2C sales to EU consumers, you may need to register for OSS (One-Stop Shop). Non-EU clients? Different rules again. services to non-EU businesses are generally exempt from Spanish VAT (Modelo 303 with "no subject" operations). The paperwork is relentless: Modelo 303 quarterly, Modelo 349 for intra-community, Modelo 390 annual summary.
+**VAT complications:** Digital services sold to businesses in other EU countries under B2B rules generally don't require charging Spanish VAT (reverse charge applies, per EU Directive 2006/112/EC). But for B2C sales to EU consumers, you may need to register for OSS (One-Stop Shop). Non-EU clients? Different rules again — services to non-EU businesses are generally exempt from Spanish VAT (Modelo 303 with "no subject" operations). The paperwork is relentless: Modelo 303 quarterly, Modelo 349 for intra-community, Modelo 390 annual summary.
 
 **Withholding taxes:** Some countries (like the US under IRC §1441) apply withholding taxes on certain payments to foreign service providers. Getting these back requires filing foreign tax returns or proper W-8BEN-E documentation.
 
@@ -1565,7 +1565,7 @@ Book your strategic consultation and we'll calculate your specific numbers.`,
 
   "pagar-cero-impuestos-legalmente-llc": `"Pay 0% in taxes". you've seen this claim on social media. Is it true? Partially. Here's the full, honest explanation with real numbers.
 
-## The 0% federal US tax. real, but specific
+## The 0% federal US tax — real, but specific
 
 Yes, a US LLC owned by a non-resident can pay **$0 in US federal income tax**. This is 100% legal and results from how the IRS classifies single-member LLCs:
 
@@ -1574,13 +1574,13 @@ Yes, a US LLC owned by a non-resident can pay **$0 in US federal income tax**. T
 - If the owner is a non-resident with no US source income (working remotely outside the US), no US federal tax applies
 - Legal basis: IRC §871 (taxation of non-resident aliens) and IRC §882 (taxation of foreign corporations)
 
-**Key condition:** Your income must have no US source. If you work from Spain, Colombia, or Mexico and your clients pay for services you perform from there. the income is foreign-sourced, and the US doesn't tax it. The source of income is determined by where the services are performed, not where the client is located.
+**Key condition:** Your income must have no US source. If you work from Spain, Colombia, or Mexico and your clients pay for services you perform from there — the income is foreign-sourced, and the US doesn't tax it. The source of income is determined by where the services are performed, not where the client is located.
 
 ## What 0% does NOT mean
 
 Here's what many social media "gurus" conveniently omit: **You still pay taxes in your country of residence.**
 
-As a tax resident of Spain, Mexico, Colombia, Argentina, or any other country. you must declare all worldwide income, including profits from your US LLC.
+As a tax resident of Spain, Mexico, Colombia, Argentina, or any other country — you must declare all worldwide income, including profits from your US LLC.
 
 The LLC doesn't eliminate your tax obligations. It optimizes them.
 
@@ -1607,7 +1607,7 @@ Instead of declaring your gross revenue in Spain, you declare the net profit aft
 You control when you take money out of the LLC. This can help manage which tax year your income falls into. With tools like **Slash** for corporate treasury, your idle cash generates yield while sitting in the LLC.
 
 **4. Pass-through efficiency**
-No corporate-level tax in the US means no double taxation. the income is only taxed once, in your country of residence.
+No corporate-level tax in the US means no double taxation — the income is only taxed once, in your country of residence.
 
 ## Real numbers: what's possible
 
@@ -1663,7 +1663,7 @@ You won't pay 0% total taxes. But you can significantly reduce your effective ta
 - Optimized income reporting in your country of residence
 - Professional financial infrastructure (Mercury, Slash, Wise)
 
-The actual savings depend on your country, income level, expenses, and specific situation. We calculate your real numbers during the strategic consultation. no guesswork, no promises we can't keep.
+The actual savings depend on your country, income level, expenses, and specific situation. We calculate your real numbers during the strategic consultation — no guesswork, no promises we can't keep.
 
 ## The complete annual compliance calendar
 
@@ -1690,12 +1690,12 @@ At Exentax, every deadline is tracked, every filing is prepared in advance, and 
 | Missed FBAR (willful) | $129,210 | 50% of account balance |
 | State dissolution + reinstatement | $200-500 | $500+ plus back fees |
 
-Compare these to the annual cost of professional maintenance and the decision is obvious. Professional compliance isn't an expense. it's insurance against financial catastrophe.
+Compare these to the annual cost of professional maintenance and the decision is obvious. Professional compliance isn't an expense — it's insurance against financial catastrophe.
 
 ## Frequently asked questions
 
 **Is it legal to pay 0% US federal tax?**
-Yes. IRC §871 and §882 establish that non-resident aliens with no US-source income have no US federal tax obligation. The LLC structure as a Disregarded Entity (IRC §7701) makes this possible. It's not a loophole. it's the law as written.
+Yes. IRC §871 and §882 establish that non-resident aliens with no US-source income have no US federal tax obligation. The LLC structure as a Disregarded Entity (IRC §7701) makes this possible. It's not a loophole — it's the law as written.
 
 **Will this trigger an audit in my country?**
 A properly structured and documented LLC with transparent filings is unlikely to trigger audits. The key is full compliance: declare all income, file all required forms, and maintain complete documentation. The LLC is about optimization, not concealment.
@@ -1808,7 +1808,7 @@ We don't provide advice on changing your tax residency, that requires consultati
 | **Argentina** | 12+ months outside (strict) | Lose residency, prove new residence elsewhere | Bienes Personales may still apply |
 | **Chile** | 183 days outside | Tax residence vs. domicile distinction | 3-year exemption for new residents |
 | **Peru** | 183 days outside | Physical presence test | Territorial system for non-residents |
-| **Portugal** | 183 days + habitual abode | NHR regime (special rates for 10 years) | NHR is changing. get advice |
+| **Portugal** | 183 days + habitual abode | NHR regime (special rates for 10 years) | NHR is changing — get advice |
 | **UAE** | No income tax | Establish tax certificate from FTA | Must demonstrate substance |
 
 ## The "base" strategy: popular but requires execution
@@ -1860,7 +1860,7 @@ When you change countries, the only thing that changes is your local tax declara
 ## Frequently asked questions
 
 **Can I use my LLC as a "nomadic" business vehicle?**
-Yes. The LLC is location-independent. It doesn't matter where you personally are. the LLC exists in the US, and your Mercury account, Stripe, and all tools work globally.
+Yes. The LLC is location-independent. It doesn't matter where you personally are — the LLC exists in the US, and your Mercury account, Stripe, and all tools work globally.
 
 **Do I need to update my LLC if I change countries?**
 Not the LLC itself. But you should update your BOI Report if your personal address changes (within 30 days, penalty $591/day). You should also update Mercury and other financial platforms with your new address.
@@ -1889,9 +1889,9 @@ It can, depending on your situation. The potential benefits:
 - Access to US-based crypto exchanges and platforms with full features
 - **Kraken** offers corporate accounts with access to 200+ cryptocurrencies, institutional-grade staking, and OTC trading desk
 - **Interactive Brokers** provides access to crypto alongside 150+ traditional markets (stocks, bonds, futures, forex), all from one LLC account
-- **Tradovate** for futures trading on CME, CBOT, NYMEX. accessible through your LLC
+- **Tradovate** for futures trading on CME, CBOT, NYMEX — accessible through your LLC
 - Professional invoicing for crypto-related businesses (consulting, development, advisory)
-- Asset protection from LLC structure. your personal assets are separated from trading risk
+- Asset protection from LLC structure — your personal assets are separated from trading risk
 
 **Tax considerations:**
 - The LLC itself pays no US federal tax (pass-through)
@@ -2028,7 +2028,7 @@ This creates complexity for international digital service businesses that sell t
 When you sell digital services to another business, the **reverse charge mechanism** usually applies. The customer accounts for VAT in their own country. You (the supplier) generally don't need to register for VAT in the customer's country. You issue an invoice without VAT, and your client handles the rest. This is the simplest scenario and the most common for freelancers and agencies.
 
 **B2C (Business to Consumer):**
-When you sell directly to consumers, you may need to collect and remit VAT in the customer's country. EU rules require this for sales to EU consumers. This is where things get genuinely complex. potentially requiring VAT registration in every country where you have customers.
+When you sell directly to consumers, you may need to collect and remit VAT in the customer's country. EU rules require this for sales to EU consumers. This is where things get genuinely complex — potentially requiring VAT registration in every country where you have customers.
 
 ## How a US LLC changes the picture
 
@@ -2044,7 +2044,7 @@ When your US LLC provides digital services to international clients:
 
 The US has no federal VAT. Instead, individual states have sales tax. The rules for digital services vary dramatically by state.
 
-For most non-resident LLC owners providing digital services to US clients: sales tax obligations are complex and depend on your "nexus" (connection to a state). Generally, if you have no physical presence or significant economic activity in a state, you may not have sales tax obligations there. But this is a rapidly evolving area. post-Wayfair (2018), economic nexus thresholds can trigger obligations even without physical presence.
+For most non-resident LLC owners providing digital services to US clients: sales tax obligations are complex and depend on your "nexus" (connection to a state). Generally, if you have no physical presence or significant economic activity in a state, you may not have sales tax obligations there. But this is a rapidly evolving area — post-Wayfair (2018), economic nexus thresholds can trigger obligations even without physical presence.
 
 ## The Merchant of Record solution
 
@@ -2058,7 +2058,7 @@ If VAT and sales tax compliance is overwhelming, consider using a **Merchant of 
 - Handles **global VAT, sales tax, and GST automatically**: calculates, collects, and remits taxes in 100+ countries
 - You don't need to register for VAT in 40+ jurisdictions
 - Accepts payment methods from every major market (cards, wallets, bank transfers)
-- **Fees:** Typically 5% + payment processing fees. higher than Stripe alone, but includes complete tax compliance
+- **Fees:** Typically 5% + payment processing fees — higher than Stripe alone, but includes complete tax compliance
 - Your LLC simply receives the net amount after taxes and fees
 - Invoices to customers include all required tax information automatically
 
@@ -2121,7 +2121,7 @@ A Merchant of Record is a company that becomes the legal seller of your product 
 - Any scenario where you'd otherwise need to register for VAT in multiple jurisdictions
 
 ### When NOT to use a MoR:
-- B2B services (reverse charge applies. your client handles VAT)
+- B2B services (reverse charge applies — your client handles VAT)
 - Physical goods (requires different logistics)
 - Selling only to clients in your own country
 
@@ -2142,11 +2142,11 @@ Without a MoR, managing compliance across all these jurisdictions is a full-time
 
 Book your strategic consultation and we'll analyze your specific VAT situation.`,
 
-  "registered-agent-que-es-por-que-necesitas": `Every US LLC must have a Registered Agent. This is not optional. it's a legal requirement in all 50 states. Here's what it is, why it matters, and what happens if you don't have one.
+  "registered-agent-que-es-por-que-necesitas": `Every US LLC must have a Registered Agent. This is not optional — it's a legal requirement in all 50 states. Here's what it is, why it matters, and what happens if you don't have one.
 
 ## What is a Registered Agent?
 
-A Registered Agent (also called Statutory Agent or Resident Agent) is a person or company designated to receive official legal and government documents on behalf of your LLC. Think of it as the "legal mailbox" of your company in the United States. someone who is there, with a physical address, ready to receive any official notification that arrives.
+A Registered Agent (also called Statutory Agent or Resident Agent) is a person or company designated to receive official legal and government documents on behalf of your LLC. Think of it as the "legal mailbox" of your company in the United States — someone who is there, with a physical address, ready to receive any official notification that arrives.
 
 Every US LLC must maintain a registered agent in its state of formation. The registered agent must:
 - Have a physical address in the state (not a P.O. box)
@@ -2226,7 +2226,7 @@ The Registered Agent market is full of bargain-priced options. Sounds like a bar
 
 When you apply for your Mercury account, one of the details you provide is your LLC's address. For non-residents, that address is usually the Registered Agent's. Mercury (and other financial entities) conduct due diligence on that address.
 
-If your address appears as a Registered Agent shared with thousands of other LLCs, that's not a problem in itself. it's normal and Mercury knows it. But if that Registered Agent has a history of problematic associated LLCs, it can create additional friction in your due diligence process.
+If your address appears as a Registered Agent shared with thousands of other LLCs, that's not a problem in itself — it's normal and Mercury knows it. But if that Registered Agent has a history of problematic associated LLCs, it can create additional friction in your due diligence process.
 
 At Exentax we work with established, reputable registered agents with clean track records and specific experience with LLCs owned by non-resident Spanish-speaking entrepreneurs.
 
@@ -2242,7 +2242,7 @@ At Exentax we work with established, reputable registered agents with clean trac
 
 ### Why "free" Registered Agents are risky
 
-Some formation services offer a "free first year" RA but then charge a standard annual fee afterward. Others include RA service but charge separately for mail forwarding, document scanning, or compliance alerts. At Exentax, the Registered Agent is included in your maintenance package. no surprise fees, no upsells.
+Some formation services offer a "free first year" RA but then charge a standard annual fee afterward. Others include RA service but charge separately for mail forwarding, document scanning, or compliance alerts. At Exentax, the Registered Agent is included in your maintenance package — no surprise fees, no upsells.
 
 ## What happens when your RA receives mail
 
@@ -2262,7 +2262,7 @@ You never need to worry about missing a deadline because a letter sat unopened a
 
 Book your strategic consultation and we'll handle your Registered Agent as part of the complete formation package.`,
 
-  "errores-fiscales-freelancers-espanoles": `After working with hundreds of Spanish freelancers who operate US LLCs, we've identified the most common tax mistakes. Learn from others' errors. each one can cost you thousands.
+  "errores-fiscales-freelancers-espanoles": `After working with hundreds of Spanish freelancers who operate US LLCs, we've identified the most common tax mistakes. Learn from others' errors — each one can cost you thousands.
 
 ## Mistake #1: Not separating personal and business finances
 
@@ -2272,13 +2272,13 @@ This is the most common mistake and the one that creates the most problems. Usin
 - Accounting nightmares at tax time
 - Compliance triggers with Mercury and Wise
 
-**Fix:** Maintain dedicated accounts. Everything business goes through Mercury. Personal expenses from your personal account. Use **Wallester** virtual cards for each business subscription so tracking is automatic. Use **Relay** sub-accounts to organize by client or project. Use **Slash** for corporate treasury. idle cash generates yield while properly separated from personal funds.
+**Fix:** Maintain dedicated accounts. Everything business goes through Mercury. Personal expenses from your personal account. Use **Wallester** virtual cards for each business subscription so tracking is automatic. Use **Relay** sub-accounts to organize by client or project. Use **Slash** for corporate treasury — idle cash generates yield while properly separated from personal funds.
 
 ## Mistake #2: Ignoring Form 5472
 
 Many LLC owners discover Form 5472 only when they receive a penalty notice. The **$25,000 per-year penalty** (IRC §6038A) is real and devastating.
 
-**Fix:** Make sure your LLC formation service includes annual tax compliance. At Exentax, we file Form 5472 + Form 1120 as part of our annual maintenance. no surprises.
+**Fix:** Make sure your LLC formation service includes annual tax compliance. At Exentax, we file Form 5472 + Form 1120 as part of our annual maintenance — no surprises.
 
 ## Mistake #3: Not updating the BOI Report after changes
 
@@ -2336,7 +2336,7 @@ US tax compliance is complex. Mistakes cost more than professional help. Common 
 
 ## Mistake #11: Not having proper insurance
 
-Some LLC owners assume the LLC structure replaces insurance. It doesn't. the LLC limits personal liability, but the LLC itself can still face claims.
+Some LLC owners assume the LLC structure replaces insurance. It doesn't — the LLC limits personal liability, but the LLC itself can still face claims.
 
 **Fix:** Consider professional liability (E&O) insurance, especially for consulting and agency work. General liability for client-facing activities. Cyber liability if you handle client data.
 
@@ -2415,12 +2415,12 @@ Mercury is where your financial life as an LLC owner centers. Everything flows t
 - Pay for business tools and subscriptions directly from Mercury
 - Send wire transfers to international contractors ($0 fee, domestic and international)
 - Use your Mercury debit card for business expenses
-- Use **Wallester** virtual cards for individual subscriptions. one card per service for granular tracking
+- Use **Wallester** virtual cards for individual subscriptions — one card per service for granular tracking
 
 **Managing treasury:**
 - Keep operating cash in Mercury checking account
 - Move reserves to Mercury savings for yield
-- Use **Slash** for corporate treasury. idle cash generates yield while you decide when to distribute
+- Use **Slash** for corporate treasury — idle cash generates yield while you decide when to distribute
 
 **Monitoring your business:**
 - Mercury's dashboard shows real-time balance, recent transactions, and analytics
@@ -2471,14 +2471,14 @@ For your LLC's operating expenses (subscriptions, tools, services), **Wallester*
 
 ### Revolut Business: multi-currency complement
 
-If you operate in multiple currencies. billing in USD, paying suppliers in EUR, with expenses in GBP. **Revolut Business** (EMI) gives you multi-currency accounts with competitive exchange rates on weekdays and team cards. Complements Mercury and Wise.
+If you operate in multiple currencies — billing in USD, paying suppliers in EUR, with expenses in GBP. **Revolut Business** (EMI) gives you multi-currency accounts with competitive exchange rates on weekdays and team cards. Complements Mercury and Wise.
 
 ### Stripe, PayPal, and more: collecting from clients
 
 - **Stripe** for card payments, subscriptions, and professional checkout (2.9% + $0.30)
 - **PayPal Business** for clients who prefer that method
 - **Adyen** for enterprise processing (also powers Relay payment links)
-- **DoDo Payments** if you sell B2C digital products. acts as Merchant of Record and handles VAT/GST for each country automatically
+- **DoDo Payments** if you sell B2C digital products — acts as Merchant of Record and handles VAT/GST for each country automatically
 
 All connect to your Mercury account seamlessly.
 
@@ -2527,7 +2527,7 @@ The golden rule: all business money enters through the LLC account. If a client 
 
 As a Single-Member LLC, the profits are yours. You can transfer money whenever you want. This is called an **Owner's Draw**.
 
-It's not a salary. you don't need to run payroll. You simply make a transfer from the LLC account to your personal account. What matters:
+It's not a salary — you don't need to run payroll. You simply make a transfer from the LLC account to your personal account. What matters:
 
 - **Document each withdrawal** with a clear note ("Owner's Draw - [date] - [amount]")
 - **Don't withdraw more than what's available** (sounds obvious, but it happens)
@@ -2541,10 +2541,10 @@ It's not a salary. you don't need to run payroll. You simply make a transfer fro
 You don't need complex accounting (you're not a multinational), but you need order:
 
 - **Income and expense records**: Mercury does this automatically with its dashboard, but maintain your own tracking spreadsheet too
-- **Save all invoices** issued and received. create a Google Drive folder organized by month
+- **Save all invoices** issued and received — create a Google Drive folder organized by month
 - **Save expense receipts**: digital or photos of physical ones. No receipt = no deduction
 - **Record Owner's Draws**: date, amount, transfer method
-- **Export bank statements** from Mercury quarterly. save them in your LLC folder
+- **Export bank statements** from Mercury quarterly — save them in your LLC folder
 
 These records are essential for your tax filings (Form 5472 + 1120) and for demonstrating that your LLC operates as a real business.
 
@@ -2594,7 +2594,7 @@ You focus on running your business. We handle:
 - Compliance monitoring
 - Questions via WhatsApp and email throughout the year
 
-The difference between an LLC that works and one that causes problems isn't in the paperwork. it's in the daily operation. At Exentax, we configure your complete operation from day one. We don't disappear after formation. We make sure Mercury is approved, Stripe is connected, and your collection and distribution flow works without friction.
+The difference between an LLC that works and one that causes problems isn't in the paperwork — it's in the daily operation. At Exentax, we configure your complete operation from day one. We don't disappear after formation. We make sure Mercury is approved, Stripe is connected, and your collection and distribution flow works without friction.
 
 ## Operating Agreement deep dive
 
@@ -2638,7 +2638,7 @@ At Exentax, every document is prepared, filed, and organized for you. You receiv
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
 Book your strategic consultation to get your LLC set up and operating correctly from day one.`,
 
-  "operating-agreement-llc-que-es": `An Operating Agreement is the internal backbone of your LLC. the private document that defines how your company works. Think of it as the "constitution" of your business, with rules that you define. Here's why it matters more than most people think.
+  "operating-agreement-llc-que-es": `An Operating Agreement is the internal backbone of your LLC — the private document that defines how your company works. Think of it as the "constitution" of your business, with rules that you define. Here's why it matters more than most people think.
 
 ## What is an Operating Agreement?
 
@@ -2713,7 +2713,7 @@ If your Operating Agreement doesn't match the information you provide in applica
 
 ## What we provide at Exentax
 
-We prepare a customized Operating Agreement for every LLC we form. It's specifically designed for non-residents with Single-Member LLCs: includes the correct tax classification (Disregarded Entity), the necessary privacy clauses, and the structure that Mercury and Stripe need to see. It's not a template. it's a document prepared for your specific case.
+We prepare a customized Operating Agreement for every LLC we form. It's specifically designed for non-residents with Single-Member LLCs: includes the correct tax classification (Disregarded Entity), the necessary privacy clauses, and the structure that Mercury and Stripe need to see. It's not a template — it's a document prepared for your specific case.
 
 ## Operating Agreement: key clauses every non-resident needs
 
@@ -2815,7 +2815,7 @@ The BOI Report (Beneficial Ownership Information) is a declaration to FinCEN ide
 
 ## 6. Registered Agent Agreement
 
-Document confirming who your Registered Agent is. the person or company designated to receive official legal documentation on behalf of your LLC in the state of formation.
+Document confirming who your Registered Agent is — the person or company designated to receive official legal documentation on behalf of your LLC in the state of formation.
 
 **When you need it:** Part of your LLC records. Some banks request it as additional verification.
 
@@ -2929,7 +2929,7 @@ Regardless of where you form your LLC, these obligations are the same:
 
 If your LLC has a foreign owner (non-resident), you must file **Form 5472** (informational) together with a **Form 1120 pro-forma** every year. It's mandatory even if your LLC had no income.
 
-Important reminder: **your LLC pays $0 federal tax.** These forms are purely informational. the IRS wants to know what transactions occurred between you and your LLC, but doesn't charge you anything. Pass-through taxation in its purest form.
+Important reminder: **your LLC pays $0 federal tax.** These forms are purely informational — the IRS wants to know what transactions occurred between you and your LLC, but doesn't charge you anything. Pass-through taxation in its purest form.
 
 - **Original deadline:** April 15
 - **With extension (Form 7004):** October 15
@@ -3073,7 +3073,7 @@ The typical flow: Client pays → Mercury (USD) → Wise (conversion) → Your p
 ## Key features for your LLC
 
 ### Receive payments in multiple currencies
-Wise gives you local banking details in several countries. If you have a client in Europe, they can pay you by SEPA (European transfer) directly to your Wise euro account. no international wire transfer and no intermediary bank fees.
+Wise gives you local banking details in several countries. If you have a client in Europe, they can pay you by SEPA (European transfer) directly to your Wise euro account — no international wire transfer and no intermediary bank fees.
 
 ### Convert currencies
 When you need euros, pesos, or another currency, convert directly in Wise at the real exchange rate. The fee is transparent (typically 0.4-1.5% depending on the currency pair).
@@ -3290,7 +3290,7 @@ Connect all payment processors to your Mercury account for unified cash manageme
 
 ### For marketplaces and platforms:
 1. **Primary:** Stripe Connect (marketplace payments)
-2. **International:** PayPal (if platform requires it. need ITIN)
+2. **International:** PayPal (if platform requires it — need ITIN)
 3. **Payouts:** Mercury for all deposits
 
 
@@ -3342,7 +3342,7 @@ Selling on Amazon US (amazon.com) as an individual or foreign company creates un
 - Amazon stores your inventory in their warehouses
 - They pick, pack, and ship orders
 - Customer service handled by Amazon for shipping issues
-- Prime eligibility. huge conversion boost
+- Prime eligibility — huge conversion boost
 - Fees: storage + fulfillment per unit
 
 **FBM (Fulfilled by Merchant):**
@@ -3363,7 +3363,7 @@ If you sell digital products (ebooks, courses, software) on Amazon or your own w
 
 Your LLC enables selling on multiple platforms simultaneously:
 - **Amazon**: the biggest marketplace
-- **Shopify** with Stripe US. your own store, full control
+- **Shopify** with Stripe US — your own store, full control
 - **Etsy**: for handmade, vintage, and craft items
 - **eBay**: for general commerce
 - **Walmart Marketplace**: growing competitor to Amazon
@@ -3577,7 +3577,7 @@ This depends on your country's laws. In some countries, you can deduct a percent
 ## What you CANNOT deduct
 
 - Personal expenses (groceries, personal vacations, personal clothing)
-- Owner's draws/distributions (these aren't expenses. they're how you pay yourself)
+- Owner's draws/distributions (these aren't expenses — they're how you pay yourself)
 - Taxes paid in your country of residence
 - Penalties or fines (IRS penalties, traffic tickets)
 - Personal insurance premiums (life, personal health in most cases)
@@ -3620,7 +3620,7 @@ Every deductible expense needs documentation:
 - **Spain (AEAT):** 4 years from the end of the filing period
 - **Mexico (SAT):** 5 years from the filing date
 - **Colombia (DIAN):** 5 years from the filing date
-- **Best practice:** Keep digital copies indefinitely. storage is essentially free
+- **Best practice:** Keep digital copies indefinitely — storage is essentially free
 
 ## Deduction strategy by profession
 
@@ -3805,7 +3805,7 @@ Wise offers the real exchange rate (mid-market rate) plus a small transparent fe
 
 ### 2. Mercury (direct from your account)
 
-Mercury allows sending international wires with $0 fees. yes, free. But if the transfer involves currency conversion, the exchange rate isn't as competitive as Wise.
+Mercury allows sending international wires with $0 fees — yes, free. But if the transfer involves currency conversion, the exchange rate isn't as competitive as Wise.
 
 - **Wire fee:** $0 (sending and receiving, domestic and international)
 - **Exchange rate:** With markup if converting currency (less than traditional banks)
@@ -3827,7 +3827,7 @@ A global payments platform that allows opening multi-currency accounts and recei
 
 - **Conversion fee:** Competitive, with low markup on interbank rate
 - **Speed:** 1-2 business days
-- **Advantage:** Local accounts in multiple countries. your clients pay you as if you were local
+- **Advantage:** Local accounts in multiple countries — your clients pay you as if you were local
 
 ### 5. Wise or Wallester card (spend without converting)
 
@@ -3899,7 +3899,7 @@ You can verify name availability on the Secretary of State's website for your ch
 
 ## Step 3: Designate a Registered Agent
 
-Every LLC needs a Registered Agent. a person or company with a physical address in the state who receives legal documents on behalf of your LLC.
+Every LLC needs a Registered Agent — a person or company with a physical address in the state who receives legal documents on behalf of your LLC.
 
 As a non-resident, you hire a professional Registered Agent service. This is included in Exentax formation plans.
 
@@ -3969,7 +3969,7 @@ Your LLC is ready. You can now invoice clients, receive payments, and operate yo
 | Payment gateways | 1-5 days |
 | **Total** | **3-10 weeks** |
 
-The bottleneck is the EIN. the IRS can take several weeks for non-residents.
+The bottleneck is the EIN — the IRS can take several weeks for non-residents.
 
 ## Can I do it myself?
 
@@ -3990,7 +3990,7 @@ We handle the entire formation process from start to finish. You give us your pa
 
 1. **We choose the optimal state** together during the initial consultation
 2. **We file the Articles of Organization**: typically in 1-3 days
-3. **We obtain the EIN** from the IRS. we handle all communication
+3. **We obtain the EIN** from the IRS — we handle all communication
 4. **We prepare your Operating Agreement**: customized, not a generic template
 5. **We file the BOI Report** with FinCEN
 6. **We open your bank account** on Mercury with complete, perfect documentation
@@ -4003,7 +4003,7 @@ We handle the entire formation process from start to finish. You give us your pa
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
 Book your free consultation and in 30 minutes we'll explain the entire process for your specific case.`,
 
-  "autonomos-espana-por-que-dejar-de-serlo": `Let's be direct: if you're autónomo in Spain and most of your income comes from outside the country. clients in the US, UK, Germany, or anywhere else. you're probably paying much more than necessary. And not just a little.
+  "autonomos-espana-por-que-dejar-de-serlo": `Let's be direct: if you're autónomo in Spain and most of your income comes from outside the country — clients in the US, UK, Germany, or anywhere else — you're probably paying much more than necessary. And not just a little.
 
 The autónomo system in Spain was designed for a neighborhood baker, not for a UX designer working with San Francisco startups. Yet thousands of digital freelancers keep paying everything as if they were selling bread.
 
@@ -4017,7 +4017,7 @@ Let's do real numbers. Suppose you bill €5,000/month (€60,000/year):
 
 The result: from those €60,000, you might keep **€32,000-38,000** after taxes. Nearly half is gone.
 
-And the worst part isn't how much you pay. it's that you don't have to pay that much.
+And the worst part isn't how much you pay — it's that you don't have to pay that much.
 
 ## Why the autónomo model doesn't work for digital freelancers
 
@@ -4054,7 +4054,7 @@ A **US LLC** is not the only alternative, but for digital freelancers with inter
 
 ## Do I need to cancel autónomo registration?
 
-It depends on your situation. There are cases where it makes sense to keep autónomo registration and operate the LLC in parallel. In others, it makes sense to deregister. No universal answer. it depends on:
+It depends on your situation. There are cases where it makes sense to keep autónomo registration and operate the LLC in parallel. In others, it makes sense to deregister. No universal answer — it depends on:
 
 - Your billing volume
 - The percentage of international vs. domestic clients
@@ -4101,7 +4101,7 @@ This isn't a fantasy. It's the result of legitimate tax optimization through a U
 ### The deductions that make the difference
 As autónomo, your deduction options are limited and heavily scrutinized by Hacienda. Through your LLC, legitimate business expenses reduce your taxable base significantly:
 - Software and tools (€3,000-5,000/year)
-- Equipment (computers, phones, cameras. depreciated or expensed)
+- Equipment (computers, phones, cameras — depreciated or expensed)
 - Home office (proportional percentage of rent/utilities)
 - Travel for business (flights, accommodation, meals)
 - Professional services (accounting, legal, Exentax)
@@ -4165,7 +4165,7 @@ The fintech ecosystem provides everything you need:
 - **Monthly fees:** $0 (basic) or monthly fee (Pro with additional features)
 - **Wire transfers:** Free on Pro, $5 on free plan
 - **ACH:** Free
-- **Best feature:** 20 free checking accounts. perfect for organizing money by client, project, or purpose
+- **Best feature:** 20 free checking accounts — perfect for organizing money by client, project, or purpose
 - **Payment links:** Powered by **Adyen**: create professional payment links to collect from clients
 
 **Best for:** Backup account or primary account if you want granular money organization.
@@ -4213,14 +4213,14 @@ This combination gives you FDIC protection, free wires, multi-currency capabilit
 
 ## The importance of redundancy
 
-Never depend on a single account. If Mercury has a temporary compliance review, you need Relay as backup. If Wise restricts your account during a review, you need another currency conversion path. Redundancy is not paranoia. it's professional risk management.
+Never depend on a single account. If Mercury has a temporary compliance review, you need Relay as backup. If Wise restricts your account during a review, you need another currency conversion path. Redundancy is not paranoia — it's professional risk management.
 
 ## Traditional bank vs. fintech: the complete decision matrix
 
 | Decision factor | Traditional bank wins | Fintech wins |
 |---|---|---|
 | You need physical branch access | ✅ | |
-| You're applying from outside the US | | ✅ (Mercury, Relay. fully remote) |
+| You're applying from outside the US | | ✅ (Mercury, Relay — fully remote) |
 | You need FDIC insurance > $250K | ✅ (multiple accounts) | ✅ (Mercury via Column NA, up to $5M) |
 | You need international wires | | ✅ ($0 at Mercury vs. $25-50 at banks) |
 | You need sub-accounts for clients | | ✅ (Relay: 20 free) |
@@ -4228,7 +4228,7 @@ Never depend on a single account. If Mercury has a temporary compliance review, 
 | You want corporate cards | ✅ (sometimes) | ✅ (Mercury, Wallester) |
 | You need a US checking account | ✅ | ✅ |
 | You want a credit line | ✅ | Mercury (through partners) |
-| You need API access | | ✅ (Mercury, Relay. modern APIs) |
+| You need API access | | ✅ (Mercury, Relay — modern APIs) |
 
 ## The optimal setup: hybrid approach
 
@@ -4324,7 +4324,7 @@ Wise business transfers:
 - Account Number: [your Mercury account number]
 
 **For US clients paying via domestic wire:**
-- Routing Number (Wire): [see Mercury settings. different from ACH routing]
+- Routing Number (Wire): [see Mercury settings — different from ACH routing]
 - Account Number: [your Mercury account number]
 
 **For international clients paying via wire:**
@@ -4385,7 +4385,7 @@ Mercury has $0 wire fees, both domestic and international. Your funds are held i
 - <a href="/en/blog/wise-business-with-your-llc-the-complete-guide-to-multi-currency-management">Wise Business guide</a>
 At Exentax we configure all your collection channels from day one. We tell you exactly which details to give to each type of client so the money arrives fast and without surprises. Book your strategic consultation.`,
 
-  "iban-swift-routing-number-que-son": `IBAN, SWIFT, and Routing numbers. international payment systems use different identifiers in different countries. Understanding them prevents payment errors and ensures your money arrives quickly. Here's what each one is and when you need which.
+  "iban-swift-routing-number-que-son": `IBAN, SWIFT, and Routing numbers — international payment systems use different identifiers in different countries. Understanding them prevents payment errors and ensures your money arrives quickly. Here's what each one is and when you need which.
 
 ## Routing Number (ABA Number)
 
@@ -4395,7 +4395,7 @@ At Exentax we configure all your collection channels from day one. We tell you e
 
 **Mercury's routing number:** 117201490 (Column NA, Mercury's banking partner)
 
-**Important:** Mercury has two routing numbers. one for ACH and one for wire transfers. They may be different. Check your Mercury dashboard for the specific wire routing number.
+**Important:** Mercury has two routing numbers — one for ACH and one for wire transfers. They may be different. Check your Mercury dashboard for the specific wire routing number.
 
 **Format:** Always 9 digits, example: 117201490
 
@@ -4526,10 +4526,10 @@ Invoicing from a US company generates trust with global clients. For many B2B cl
 Unlike Spain's autónomo regime (€300+/month), the LLC has no fixed monthly cost. You pay annual maintenance, but there's no mandatory monthly expense.
 
 ### 6. Privacy and discretion
-In states like New Mexico and Wyoming, member data is not publicly accessible. Your name doesn't appear in state registries. Total discretion. something unthinkable with a Spanish SL, where your data is in the Registro Mercantil for anyone to check.
+In states like New Mexico and Wyoming, member data is not publicly accessible. Your name doesn't appear in state registries. Total discretion — something unthinkable with a Spanish SL, where your data is in the Registro Mercantil for anyone to check.
 
 ### 7. No VAT on international invoicing
-The LLC is not within the European VAT system. Your invoices to international clients are clean. no VAT, no quarterly filings, no reverse charge headaches. Goodbye Modelo 303.
+The LLC is not within the European VAT system. Your invoices to international clients are clean — no VAT, no quarterly filings, no reverse charge headaches. Goodbye Modelo 303.
 
 ### 8. Scalability without bureaucracy
 No need for board meetings, no board of directors, no publishing annual accounts. Your LLC grows with you without unnecessary paperwork. Can convert to C-Corp for VC investment if needed.
@@ -4573,7 +4573,7 @@ If your monthly billing is low, or all your clients are domestic, an LLC probabl
 
 Don't form an LLC because you saw an Instagram reel promising 0% taxes. Analyze your real situation: income, type of clients, country of residence, medium-term plans.
 
-At Exentax we do that analysis with you in the free consultation. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need. that's how long-term relationships are built.
+At Exentax we do that analysis with you in the free consultation. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need — that's how long-term relationships are built.
 
 ## The complete financial infrastructure
 
@@ -4681,8 +4681,8 @@ Banks and fintechs have **KYC** (Know Your Customer) and **AML** (Anti-Money Lau
 
 Our recommendation:
 - **Mercury** as primary account (treasury, collections, expenses)
-- **Slash** for corporate treasury. your idle capital generates yield while you decide when to use it
-- **Wallester** for corporate cards with granular control. each subscription and operational expense with its own virtual card
+- **Slash** for corporate treasury — your idle capital generates yield while you decide when to use it
+- **Wallester** for corporate cards with granular control — each subscription and operational expense with its own virtual card
 - **Wise Business** for currency conversion and international payments
 - **Revolut Business** as a multi-currency complement for EUR/GBP operations
 - **Relay** as backup account (Thread Bank, FDIC insured, 20 free sub-accounts)
@@ -4737,7 +4737,7 @@ The IRS determines how your LLC is treated for tax purposes. For a Single-Member
 
 ## How the US tax system works for non-residents
 
-### Income source. the critical concept
+### Income source — the critical concept
 What determines whether you pay US taxes is not where your LLC is registered, but **where the income comes from**:
 
 - You design a website for a German client from your home in Spain → income of **foreign** source → not taxed in the US
@@ -4769,7 +4769,7 @@ The informational form reporting transactions between the LLC and its foreign ow
 Form 5472 can't be filed alone. It goes attached to a Form 1120 (corporate tax return) that, for a Disregarded Entity, is filed with fields at zero (because there's no tax to pay). It's basically an envelope for the 5472.
 
 ### Form 7004. the extension
-This form requests a 6-month extension (from April 15 to October 15). It's automatic. the IRS cannot deny it if properly filed. We file it for all our clients as standard practice.
+This form requests a 6-month extension (from April 15 to October 15). It's automatic — the IRS cannot deny it if properly filed. We file it for all our clients as standard practice.
 
 ### FBAR (FinCEN Form 114)
 If your US financial accounts exceed $10,000 at any point during the year, you must file this report with FinCEN (not the IRS, but often discussed together). Deadline: April 15 (automatic extension to October 15).
@@ -4781,7 +4781,7 @@ Yes, but it's not the most agile experience:
 - **Mail correspondence:** Everything formal goes by postal mail (yes, in 2026)
 - **Online portal (IRS.gov):** For queries, forms, and some tools
 
-For non-residents, communicating with the IRS can be especially complicated due to time zones and language requirements (everything is in English). That's exactly why you work with a service like Exentax. we handle all IRS communication for you.
+For non-residents, communicating with the IRS can be especially complicated due to time zones and language requirements (everything is in English). That's exactly why you work with a service like Exentax — we handle all IRS communication for you.
 
 ## The IRS penalty structure you should know
 
@@ -4811,7 +4811,7 @@ This information is available to the IRS and, under certain circumstances, can b
 
 ## At Exentax: your IRS buffer
 
-We serve as the buffer between you and the IRS. All communication, all filings, all deadlines. handled by us. You never need to call the IRS, navigate their website, or mail a form. We handle Form 7004 (automatic extension), Form 5472 + 1120 (annual filing), FBAR (if applicable), and respond to any IRS notices on your behalf.
+We serve as the buffer between you and the IRS. All communication, all filings, all deadlines — handled by us. You never need to call the IRS, navigate their website, or mail a form. We handle Form 7004 (automatic extension), Form 5472 + 1120 (annual filing), FBAR (if applicable), and respond to any IRS notices on your behalf.
 
 
 ## Related articles
@@ -4851,7 +4851,7 @@ The protection disappears if you "pierce the corporate veil" by:
 5. **Not maintaining proper documentation:** Missing Operating Agreement, unsigned documents, no records
 6. **Inadequate capitalization:** Not having enough resources in the LLC to conduct its business
 
-This is why maintaining strict financial separation is not bureaucratic pedantry. it's essential to your legal protection. Use **Mercury** exclusively for business, **Wallester** virtual cards for each subscription, and document every Owner's Draw.
+This is why maintaining strict financial separation is not bureaucratic pedantry — it's essential to your legal protection. Use **Mercury** exclusively for business, **Wallester** virtual cards for each subscription, and document every Owner's Draw.
 
 ## Wyoming vs. New Mexico vs. Delaware: asset protection
 
@@ -4871,7 +4871,7 @@ This makes Wyoming especially attractive for:
 
 ## Intellectual property protection
 
-Your code, creative work, brand, and other intellectual property owned by your US LLC is protected under US intellectual property law. one of the most robust in the world.
+Your code, creative work, brand, and other intellectual property owned by your US LLC is protected under US intellectual property law — one of the most robust in the world.
 
 This is particularly valuable for:
 - **Software developers**: code as LLC asset, protected by US copyright law
@@ -4894,16 +4894,16 @@ These are optional but recommended for higher-risk businesses or larger contract
 
 | Tool | Role in asset protection |
 |---|---|
-| **Mercury** | Dedicated LLC account. clear separation from personal finances |
-| **Wallester** | Virtual cards per subscription. automatic expense documentation |
+| **Mercury** | Dedicated LLC account — clear separation from personal finances |
+| **Wallester** | Virtual cards per subscription — automatic expense documentation |
 | **Slash** | Corporate treasury. LLC assets generating yield, clearly business funds |
-| **Relay** | Sub-accounts per client. organized separation of client funds |
+| **Relay** | Sub-accounts per client — organized separation of client funds |
 | **Operating Agreement** | Legal documentation of LLC structure and separation |
 
 ## Real-world scenarios: protection in action
 
 **Scenario 1: Client dispute over deliverables**
-A client claims your work didn't meet specifications and demands a $50,000 refund plus damages. Without an LLC, they sue you personally. your savings account, your home, everything is at risk. With an LLC, they sue the LLC. Your personal assets are untouched. The LLC's assets (its bank account) are exposed, but your personal life is protected.
+A client claims your work didn't meet specifications and demands a $50,000 refund plus damages. Without an LLC, they sue you personally — your savings account, your home, everything is at risk. With an LLC, they sue the LLC. Your personal assets are untouched. The LLC's assets (its bank account) are exposed, but your personal life is protected.
 
 **Scenario 2: Accidental data breach**
 A client's database is compromised while you're working on their project. They claim negligence and file a lawsuit for $200,000. Without an LLC, your personal assets respond. With an LLC (especially combined with cyber liability insurance), the exposure is limited to the LLC's assets and insurance coverage.
@@ -4941,7 +4941,7 @@ A US LLC addresses each of these:
 ### YouTube monetization
 Google (YouTube's parent) pays content creators through AdSense. With a US LLC:
 - AdSense payments go directly to your LLC's Mercury account
-- The W-8BEN-E form confirms your non-US status. reduced or zero US withholding tax on ad revenue
+- The W-8BEN-E form confirms your non-US status — reduced or zero US withholding tax on ad revenue
 - USD payments without conversion at unfavorable rates
 - Monthly deposits directly to Mercury ($0 wire fees)
 
@@ -4971,7 +4971,7 @@ Selling t-shirts, presets, templates, or other products becomes more structured:
 ## Tax advantages for content creators
 
 **Equipment deductions:**
-Camera, lenses, lighting, microphones, tripods, editing computers, green screens, teleprompters, streaming equipment. all legitimate LLC expenses that reduce your taxable profit.
+Camera, lenses, lighting, microphones, tripods, editing computers, green screens, teleprompters, streaming equipment — all legitimate LLC expenses that reduce your taxable profit.
 
 **Software deductions:**
 Adobe Premiere, Final Cut Pro, DaVinci Resolve, Lightroom, After Effects, plugin subscriptions, stock footage licenses, music licensing (Epidemic Sound, Artlist), editing tools, everything you use for production.
@@ -5079,7 +5079,7 @@ One unique challenge for agencies: you collect ad spend from clients and then sp
 2. You pay Google Ads, Meta, etc, from Mercury using **Wallester** virtual cards (one per platform for tracking)
 3. Invoices from ad platforms are LLC expenses
 
-**Important:** Keep the "pass-through" ad spend clearly documented. The ad spend is not LLC profit. it's client money you spend on their behalf. Your profit is the management fee.
+**Important:** Keep the "pass-through" ad spend clearly documented. The ad spend is not LLC profit — it's client money you spend on their behalf. Your profit is the management fee.
 
 ## Hiring contractors through your LLC
 
@@ -5115,7 +5115,7 @@ Most agencies work with freelance contractors. With your LLC:
 ## Scaling your agency with the LLC
 
 As your agency grows:
-- The LLC is the platform for growth. no additional registration needed
+- The LLC is the platform for growth — no additional registration needed
 - **Hire more contractors** internationally via Deel/Remote with payments from Mercury
 - **Add partners:** Convert to multi-member LLC if bringing in co-founders
 - **Raise funding:** Convert to C-Corp (especially if in Delaware) for venture investment
@@ -5170,7 +5170,7 @@ This separation makes accounting clean, Form 5472 simple, and client trust maint
 
 Book your strategic consultation and we'll design your LLC structure for your agency's specific model.`,
 
-  "primer-mes-llc-que-esperar": `You've formed your LLC. Now what? Here's exactly what happens during your first month. week by week.
+  "primer-mes-llc-que-esperar": `You've formed your LLC. Now what? Here's exactly what happens during your first month — week by week.
 
 ## Week 1: Bank account setup
 
@@ -5321,8 +5321,8 @@ If your business model is subscriptions, Stripe Billing is your best friend:
 If your SaaS sells directly to end consumers in multiple countries, **DoDo Payments** acts as Merchant of Record: it calculates, collects, and remits VAT/GST for each country automatically. You don't need to register for VAT in 40+ different jurisdictions.
 
 ### Slash and Wallester: treasury and expense control
-- **Slash** so your accumulated MRR generates yield while you decide when to distribute. ideal for SaaS with predictable recurring revenue
-- **Wallester** for virtual corporate cards: one for AWS, another for GitHub, another for team tools. granular control without sharing your debit card
+- **Slash** so your accumulated MRR generates yield while you decide when to distribute — ideal for SaaS with predictable recurring revenue
+- **Wallester** for virtual corporate cards: one for AWS, another for GitHub, another for team tools — granular control without sharing your debit card
 
 ## Specific use cases
 
@@ -5363,7 +5363,7 @@ You publish on App Store and Google Play. With your LLC:
 
 When you develop code, your LLC owns it. This means:
 - Clear IP ownership documentation
-- US copyright and trade secret protection applies. one of the most robust legal frameworks in the world
+- US copyright and trade secret protection applies — one of the most robust legal frameworks in the world
 - If you ever sell the business, the IP transfer is clean
 - Licensing arrangements can be structured through the LLC
 - If someone copies your code or violates your brand, the LLC files the legal action, not you personally
@@ -5384,7 +5384,7 @@ When you develop code, your LLC owns it. This means:
 
 **Freelance developers:** From $3,000+/month in revenue, the structure typically pays off.
 
-**SaaS businesses:** Even at earlier stages. the operational benefits (Stripe access, platform integrations, professional entity) may justify it before the tax savings fully kick in.
+**SaaS businesses:** Even at earlier stages — the operational benefits (Stripe access, platform integrations, professional entity) may justify it before the tax savings fully kick in.
 
 ## The scaling toolkit: what to add at each stage
 
@@ -5423,7 +5423,7 @@ At Exentax, we monitor your growth and proactively recommend structure changes w
 
 Book your strategic consultation and we'll analyze whether the LLC makes sense for your current stage and growth trajectory.`,
 
-  "escalar-negocio-digital-llc-americana": `Many entrepreneurs think of the US LLC purely as a tax tool. It's much more than that. it's a platform for scaling your digital business globally.
+  "escalar-negocio-digital-llc-americana": `Many entrepreneurs think of the US LLC purely as a tax tool. It's much more than that — it's a platform for scaling your digital business globally.
 
 ## From local to global in one structure
 
@@ -5438,9 +5438,9 @@ With a US LLC, these limitations largely disappear.
 ## Access to markets that were previously closed
 
 ### The US market
-The US is the world's largest market for digital services. US companies often prefer, and sometimes require. working with US-registered vendors.
+The US is the world's largest market for digital services. US companies often prefer, and sometimes require — working with US-registered vendors.
 
-With your LLC, you can bid on contracts, respond to enterprise RFPs, and position yourself as a US business partner. opening doors that weren't available before.
+With your LLC, you can bid on contracts, respond to enterprise RFPs, and position yourself as a US business partner — opening doors that weren't available before.
 
 ### Platforms without restrictions
 Stripe, Amazon, Shopify, Gumroad, Teachable, Webflow, these platforms offer full functionality to US businesses. No geographic restrictions, no limited features, no surprises.
@@ -5500,13 +5500,13 @@ Your US LLC is your passport to markets that were previously closed:
 
 ## When to take the next step
 
-If you're billing consistently, have international clients, and feel your current structure is limiting your growth. the LLC isn't just a cost-saver, it's a growth accelerator.
+If you're billing consistently, have international clients, and feel your current structure is limiting your growth — the LLC isn't just a cost-saver, it's a growth accelerator.
 
-At Exentax we don't just form your LLC. we design the entire ecosystem and accompany you through growth. From the first invoice to when you need to convert to C-Corp for your Series A. Banking (Mercury/Relay), treasury (Slash), cards (Wallester), payments (Stripe/Adyen/DoDo), currency conversion (Wise/Revolut), corporate investment (Interactive Brokers/Kraken), all integrated.
+At Exentax we don't just form your LLC — we design the entire ecosystem and accompany you through growth. From the first invoice to when you need to convert to C-Corp for your Series A. Banking (Mercury/Relay), treasury (Slash), cards (Wallester), payments (Stripe/Adyen/DoDo), currency conversion (Wise/Revolut), corporate investment (Interactive Brokers/Kraken), all integrated.
 
 Book your free consultation. We'll analyze your situation, tell you if scaling with an LLC makes sense, and design the structure that lets you grow without limits.`,
 
-  "due-diligence-bancario-llc-americana": `When you open a US bank account for your LLC, the bank conducts due diligence on both your entity and you personally. Understanding this process helps you prepare and succeed. the difference between approval and rejection often comes down to preparation.
+  "due-diligence-bancario-llc-americana": `When you open a US bank account for your LLC, the bank conducts due diligence on both your entity and you personally. Understanding this process helps you prepare and succeed — the difference between approval and rejection often comes down to preparation.
 
 ## What is banking due diligence?
 
@@ -5544,7 +5544,7 @@ The bank verifies your passport and address. They may use automated verification
 A compliance team reviews the nature of your business, your website, and the consistency between what you declare and what they see online.
 
 ### 4. Decision
-If everything is in order, your account is approved in 1-5 business days. If they need more information, they'll contact you. respond within 24-48 hours.
+If everything is in order, your account is approved in 1-5 business days. If they need more information, they'll contact you — respond within 24-48 hours.
 
 ## Industries that require additional due diligence
 
@@ -5568,9 +5568,9 @@ If your business is in one of these sectors, it doesn't mean you can't open an a
 ## Mercury vs. traditional bank due diligence
 
 **Mercury (Column NA):**
-- 100% online process. no branch visit required
-- Standard documentation. no exotic documents or apostilles
-- Team experienced with non-resident LLCs. they understand your situation
+- 100% online process — no branch visit required
+- Standard documentation — no exotic documents or apostilles
+- Team experienced with non-resident LLCs — they understand your situation
 - FDIC insured to $250K, extendable to $5M via sweep program
 - Domestic and international wires: $0
 - Typical approval: 1-5 business days
@@ -5604,7 +5604,7 @@ Key: maintain a transaction flow consistent with what you declared when opening 
 
 ## How we coordinate at Exentax
 
-We prepare all documentation before submitting the Mercury application. Articles, EIN, Operating Agreement, passport. all aligned and consistent. The result: fast approval without rejections.
+We prepare all documentation before submitting the Mercury application. Articles, EIN, Operating Agreement, passport — all aligned and consistent. The result: fast approval without rejections.
 
 We also coordinate verification for each additional tool: Slash, Wallester, Wise Business, Revolut Business, Stripe. Each has its own due diligence process, and we prepare the specific documentation for each.
 
@@ -5612,7 +5612,7 @@ We also coordinate verification for each additional tool: Slash, Wallester, Wise
 
 ### Mercury freeze resolution
 1. Check your Mercury email for a compliance request
-2. Respond within 48 hours (critical. delays escalate to closure)
+2. Respond within 48 hours (critical — delays escalate to closure)
 3. Provide requested documentation: typically invoices, contracts, or proof of business activity
 4. Do NOT open new accounts while your primary is under review
 5. If resolved, review what triggered it and adjust your operations
@@ -5800,17 +5800,17 @@ When you open a Mercury account, the bank conducts AML due diligence: identity v
 Your bank continuously monitors transactions. If patterns seem unusual compared to your stated business, they may request clarification, not an accusation, just routine verification. This is normal and expected.
 
 ### 3. Regulatory reports
-Depending on the volume and type of transactions, your bank may be required to file reports with FinCEN (Financial Crimes Enforcement Network). This doesn't mean you're under investigation. it's a routine procedure.
+Depending on the volume and type of transactions, your bank may be required to file reports with FinCEN (Financial Crimes Enforcement Network). This doesn't mean you're under investigation — it's a routine procedure.
 
 ## The Bank Secrecy Act (BSA)
 
 The BSA is the US federal law establishing financial compliance obligations. Key requirements:
 
 ### Currency Transaction Report (CTR)
-Generated automatically for cash transactions over $10,000 in a single day. For most digital businesses, this isn't relevant. your transactions are electronic.
+Generated automatically for cash transactions over $10,000 in a single day. For most digital businesses, this isn't relevant — your transactions are electronic.
 
 ### Suspicious Activity Report (SAR)
-Filed by banks when they detect potentially suspicious activity. You're not notified when this happens. it's an internal bank process. The bank files it with FinCEN.
+Filed by banks when they detect potentially suspicious activity. You're not notified when this happens — it's an internal bank process. The bank files it with FinCEN.
 
 ### Record-keeping
 Banks must maintain records of certain transactions for at least 5 years.
@@ -5827,17 +5827,17 @@ Each significant transaction should have supporting documentation: contracts, in
 Digital businesses practically don't handle cash. Keep all your transactions digital and documented. Mercury, Stripe, and Wise create automatic records.
 
 ### 4. Never structure transactions
-Structuring. deliberately breaking a large transaction into multiple smaller ones to avoid reporting thresholds, is illegal. It's a federal crime under 31 USC §5324. If you need to make a large payment, make it directly.
+Structuring — deliberately breaking a large transaction into multiple smaller ones to avoid reporting thresholds, is illegal. It's a federal crime under 31 USC §5324. If you need to make a large payment, make it directly.
 
 ### 5. Respond promptly to bank requests
 If your bank asks for additional information, respond with transparency and within 24-48 hours. It's a routine process that demonstrates your professionalism.
 
 ### 6. Keep your LLC documentation current
-Active Registered Agent, filed Form 5472, current BOI Report. all of these signal to banks and regulators that you're operating legitimately.
+Active Registered Agent, filed Form 5472, current BOI Report — all of these signal to banks and regulators that you're operating legitimately.
 
 ## BOI Report and AML
 
-The Beneficial Ownership Information (BOI) Report you file with FinCEN is part of the global anti-money laundering effort. By reporting who actually owns your LLC (with government ID verification), you contribute to corporate transparency. The BOI Report database is not public. it's only accessible to law enforcement and authorized entities.
+The Beneficial Ownership Information (BOI) Report you file with FinCEN is part of the global anti-money laundering effort. By reporting who actually owns your LLC (with government ID verification), you contribute to corporate transparency. The BOI Report database is not public — it's only accessible to law enforcement and authorized entities.
 
 ## FATCA and CRS: information exchange
 
@@ -5856,7 +5856,7 @@ Paradoxically, having a well-formed LLC with impeccable compliance positions you
 
 Your LLC, with its EIN, filed returns, and dedicated Mercury account (Column NA, FDIC, everything in order), is exactly what the system expects to see from a professional operating internationally.
 
-At Exentax we ensure all your compliance is impeccable from day one: IRS filings (Form 5472 + 1120), BOI Report, banking documentation. all in perfect order. You focus on your business, we make sure every filing is correct.
+At Exentax we ensure all your compliance is impeccable from day one: IRS filings (Form 5472 + 1120), BOI Report, banking documentation — all in perfect order. You focus on your business, we make sure every filing is correct.
 
 ## The AML compliance checklist for your LLC
 
@@ -5978,7 +5978,7 @@ The OECD is working on the BEPS 2.0 framework (Pillar One and Pillar Two) to ada
 | **Kraken** | Digital assets (corporate account, institutional staking) |
 | **Exentax** | Your international tax team |
 
-At Exentax we monitor all international regulatory developments to adapt our clients' strategies. You won't wake up one day with a new regulation that catches you off guard. we'll have read it, analyzed it, and warned you first.
+At Exentax we monitor all international regulatory developments to adapt our clients' strategies. You won't wake up one day with a new regulation that catches you off guard — we'll have read it, analyzed it, and warned you first.
 
 ## What NOT to do: common international tax mistakes
 
@@ -6017,13 +6017,13 @@ Each country has unique rules about how LLC income is treated. At Exentax, we co
 - <a href="/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where-you-live">taxation by country guide</a>
 Book your free consultation and we'll design the optimal tax structure for your situation.`,
 
-  "extension-irs-form-1120-como-solicitarla": `More than 50% of US corporate tax returns are filed on extension. Here's why you should automatically extend yours, and how Form 7004 works. At Exentax, we file this automatically for every client. you don't have to do anything.
+  "extension-irs-form-1120-como-solicitarla": `More than 50% of US corporate tax returns are filed on extension. Here's why you should automatically extend yours, and how Form 7004 works. At Exentax, we file this automatically for every client — you don't have to do anything.
 
 ## What is Form 7004?
 
 Form 7004 is the IRS automatic extension request for business tax returns. Filing it correctly grants you **6 additional months** to file your Form 1120 (and attached Form 5472), no questions asked, no justification needed.
 
-**Key word: automatic.** The IRS cannot deny a properly filed Form 7004. It's not evaluated, not approved or rejected. it's an automatic right.
+**Key word: automatic.** The IRS cannot deny a properly filed Form 7004. It's not evaluated, not approved or rejected — it's an automatic right.
 
 File before April 15 (the standard deadline), and your new deadline becomes **October 15**.
 
@@ -6032,7 +6032,7 @@ File before April 15 (the standard deadline), and your new deadline becomes **Oc
 More than 50% of corporate tax returns in the US are filed on extension. This is normal professional practice, not a red flag. No accountant or IRS agent will think poorly of your LLC for extending.
 
 **Practical reasons:**
-- **More time to gather documentation:** Bank statements, invoices, transaction records. having 6 extra months allows preparation without rushing
+- **More time to gather documentation:** Bank statements, invoices, transaction records — having 6 extra months allows preparation without rushing
 - **Fewer errors:** A rushed return is a return with errors. With extension, there's time to review every detail
 - **Better tax planning:** Extra time for optimizing deductions and structuring your situation
 - **Operational flexibility:** You don't have to stop your business in March to chase paperwork
@@ -6114,7 +6114,7 @@ You must then file your Form 5472 + 1120 by the original deadline (April 15 or M
 Technically yes, but it's not recommended. Filing incorrectly (wrong form type, wrong fiscal year, incorrect EIN) can invalidate the extension. At Exentax, we file it as part of your maintenance package at no extra cost.
 
 **Does the IRS send confirmation of the extension?**
-For e-filed extensions, you receive an electronic acknowledgment. For mailed extensions, you don't receive confirmation. the extension is assumed granted if properly filed. This is why e-filing is strongly recommended.
+For e-filed extensions, you receive an electronic acknowledgment. For mailed extensions, you don't receive confirmation — the extension is assumed granted if properly filed. This is why e-filing is strongly recommended.
 
 **What if I owe US taxes and file an extension?**
 The extension only extends the filing deadline, not the payment deadline. If your LLC owes federal taxes (rare for non-resident single-member LLCs), you must estimate and pay before April 15. For most of our clients, the tax due is $0, so this isn't a concern.
@@ -6159,13 +6159,13 @@ An SSN is the personal tax identification number for US citizens and certain US 
 
 ## Employer Identification Number (EIN)
 
-The EIN is the business tax ID for your LLC. essential for every aspect of LLC operation. Think of it as your company's Social Security Number.
+The EIN is the business tax ID for your LLC — essential for every aspect of LLC operation. Think of it as your company's Social Security Number.
 
 **Format:** XX-XXXXXXX
 
 **Who needs it:** Every US business entity, including every LLC.
 
-**Do you need one?** YES. absolutely required. Without an EIN, you cannot:
+**Do you need one?** YES — absolutely required. Without an EIN, you cannot:
 - Open a bank account (Mercury, Relay)
 - File IRS forms (Form 5472, Form 1120)
 - Set up Stripe or PayPal Business
@@ -6174,7 +6174,7 @@ The EIN is the business tax ID for your LLC. essential for every aspect of LLC o
 
 **How to get it:** At Exentax, we obtain your EIN as part of the formation package. For non-residents, the process involves filing Form SS-4 with the IRS (4-8 weeks by mail, faster by fax). You cannot apply online without a US SSN or ITIN.
 
-**The EIN confirmation letter (CP 575):** Once approved, the IRS sends this letter confirming your EIN. Mercury specifically requests it. Keep it safe. digital and physical copies.
+**The EIN confirmation letter (CP 575):** Once approved, the IRS sends this letter confirming your EIN. Mercury specifically requests it. Keep it safe — digital and physical copies.
 
 ## Individual Taxpayer Identification Number (ITIN)
 
@@ -6279,7 +6279,7 @@ You can request a replacement from the IRS by calling the International line. Al
 For most LLC operations, yes. Mercury accepts foreign tax IDs. Stripe accepts passport numbers. The EIN covers the LLC's identity. An ITIN is only needed for specific platforms (PayPal, Amazon) that require personal US tax identification.
 
 **Does the EIN expire?**
-No. Once issued, an EIN is permanent. it never expires and never changes. Even if you dissolve the LLC, the EIN remains associated with it in IRS records.
+No. Once issued, an EIN is permanent — it never expires and never changes. Even if you dissolve the LLC, the EIN remains associated with it in IRS records.
 
 **Can I have multiple EINs?**
 Each LLC gets exactly one EIN. If you have multiple LLCs, each one has its own EIN. You cannot share EINs between entities.
@@ -6348,14 +6348,14 @@ You declare the LLC's net income on your personal tax return in your home countr
 
 | Entity | Taxation | Available to non-residents? | Best for |
 |---|---|---|---|
-| **LLC (single-member)** | Pass-through. no corporate tax | Yes. best option | Freelancers, agencies, SaaS |
+| **LLC (single-member)** | Pass-through — no corporate tax | Yes — best option | Freelancers, agencies, SaaS |
 | **C-Corporation** | Double taxation (21% + dividends) | Yes, but less efficient | VC-backed startups |
 | **S-Corporation** | Pass-through (similar to LLC) | **No**: can't have non-US shareholders | US residents only |
 | **Sole proprietorship** | Pass-through | N/A. local entity | Local-only businesses |
 
 ## Form 5472 and pass-through
 
-Despite paying no corporate tax, your LLC must still file Form 5472. This reports all transactions between you and the LLC. it's an information return, not a tax payment.
+Despite paying no corporate tax, your LLC must still file Form 5472. This reports all transactions between you and the LLC — it's an information return, not a tax payment.
 
 The $25,000 penalty for not filing Form 5472 (IRC §6038A) exists precisely because pass-through entities with foreign owners need this transparency mechanism. The IRS wants to know what transactions occurred, even though no tax is owed.
 
@@ -6432,7 +6432,7 @@ Most states follow the federal classification. States like New Mexico and Wyomin
 - <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual maintenance guide</a>
 Book your strategic consultation and we'll show you exactly how pass-through taxation works for your specific situation.`,
 
-  "por-que-abrir-llc-estados-unidos-ventajas": `In 2026, opening a US LLC is the most popular structure for international digital entrepreneurs. Here's why. covering all the advantages that matter, with honest assessment of both benefits and limitations.
+  "por-que-abrir-llc-estados-unidos-ventajas": `In 2026, opening a US LLC is the most popular structure for international digital entrepreneurs. Here's why — covering all the advantages that matter, with honest assessment of both benefits and limitations.
 
 ## The five pillars of the US LLC advantage
 
@@ -6442,7 +6442,7 @@ The flagship advantage: a US LLC owned by a non-resident pays **$0 US federal in
 Real impact: Effective tax rates for many of our clients drop from **35-47%** (as local self-employed) to **15-25%** (properly structured through LLC).
 
 ### 2. Professional banking infrastructure
-Mercury, Relay, Wise Business, Slash, Wallester. tools unavailable or severely limited outside the US ecosystem:
+Mercury, Relay, Wise Business, Slash, Wallester — tools unavailable or severely limited outside the US ecosystem:
 - Free international wire transfers (Mercury: $0, Column NA, FDIC)
 - No monthly fees, no minimum balances
 - FDIC insurance (Mercury via Column NA: $250K, extendable to $5M)
@@ -6451,7 +6451,7 @@ Mercury, Relay, Wise Business, Slash, Wallester. tools unavailable or severely l
 - Granular spend control (Wallester: virtual cards per subscription)
 
 ### 3. Global payment processing
-Stripe US and PayPal Business US. the full-featured versions:
+Stripe US and PayPal Business US — the full-featured versions:
 - Accept cards from 195+ countries
 - 135+ currencies processed (Stripe)
 - Subscription billing (Stripe Billing)
@@ -6549,7 +6549,7 @@ It's important to be transparent about limitations:
 ## Frequently asked questions
 
 **Can I open a US LLC from my country without traveling?**
-Yes. The entire process. formation, EIN, bank account, annual compliance, is done 100% remotely. You never need to visit the United States.
+Yes. The entire process — formation, EIN, bank account, annual compliance, is done 100% remotely. You never need to visit the United States.
 
 **How long does it take to have everything operational?**
 Typically 2-4 weeks from start to finish: LLC formation (1-3 days), EIN (1-2 weeks), Mercury account (1-2 weeks), Stripe setup (1-3 days).
@@ -6644,7 +6644,7 @@ Book the free strategic consultation. We analyze your specific income, expenses,
 - <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
 - <a href="/en/blog/irs-extension-for-form-1120-how-to-file-form-7004-and-get-6-more-months">Form 7004 extension guide</a>
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
-Book your strategic consultation. no obligation, real numbers, honest advice.`,
+Book your strategic consultation — no obligation, real numbers, honest advice.`,
 
   "problemas-comunes-llc-como-evitarlos": `Based on our experience helping hundreds of LLC owners, these are the most common problems, and how to prevent them. Each one can cost you time, money, or both.
 
@@ -6652,7 +6652,7 @@ Book your strategic consultation. no obligation, real numbers, honest advice.`,
 
 **What happens:** The EIN process takes 4-8 weeks for non-residents. During this time, you can't open Mercury, set up Stripe, or issue invoices with your EIN.
 
-**Prevention:** Start the EIN process immediately when you form the LLC. At Exentax, we file the EIN application simultaneously with the Articles of Organization. maximizing overlap time.
+**Prevention:** Start the EIN process immediately when you form the LLC. At Exentax, we file the EIN application simultaneously with the Articles of Organization — maximizing overlap time.
 
 ## Problem 2: Mercury account rejection
 
@@ -6663,7 +6663,7 @@ Book your strategic consultation. no obligation, real numbers, honest advice.`,
 - Describe your business clearly and accurately
 - Ensure your industry isn't in Mercury's restricted list
 - Have an active website or online presence
-- Work with Exentax. we know what Mercury needs and how to present your case
+- Work with Exentax — we know what Mercury needs and how to present your case
 
 If rejected, Relay (Thread Bank, FDIC) and Wise Business are alternatives.
 
@@ -6673,7 +6673,7 @@ If rejected, Relay (Thread Bank, FDIC) and Wise Business are alternatives.
 
 **Prevention:** Work with a formation service that includes annual compliance. Never assume you "don't need to file" without confirming with a professional. At Exentax, we file Form 5472 + Form 1120 automatically.
 
-## Problem 4: Commingling funds. piercing the corporate veil
+## Problem 4: Commingling funds — piercing the corporate veil
 
 **What happens:** Owner uses Mercury card for personal expenses, pays personal bills from LLC account. Tax time becomes a nightmare; corporate veil is at risk.
 
@@ -6693,7 +6693,7 @@ If rejected, Relay (Thread Bank, FDIC) and Wise Business are alternatives.
 
 ## Problem 7: Choosing the wrong state
 
-**What happens:** Owner chooses Delaware because it "sounds prestigious," then discovers franchise tax. unnecessary for a simple freelancer business.
+**What happens:** Owner chooses Delaware because it "sounds prestigious," then discovers franchise tax — unnecessary for a simple freelancer business.
 
 **Prevention:** Choose based on actual needs. For most freelancers: **New Mexico** (no state annual fees) or **Wyoming** (strongest asset protection (with annual report)).
 
@@ -6774,7 +6774,7 @@ Think of your LLC compliance like insurance: you pay a small amount regularly (m
 - $12,909 per FBAR violation
 - Account closure and frozen funds from banking issues
 
-The annual cost of proper maintenance is a tiny fraction of any single penalty. That's why every Exentax client sleeps well. knowing every filing is handled, every deadline is tracked, and every platform is properly documented.
+The annual cost of proper maintenance is a tiny fraction of any single penalty. That's why every Exentax client sleeps well — knowing every filing is handled, every deadline is tracked, and every platform is properly documented.
 
 
 ## Related articles
@@ -6864,7 +6864,7 @@ Argentina has one of the highest effective tax rates in the region.
 - LLC income declared in Impuesto a las Ganancias
 - **Impuesto sobre Bienes Personales** may apply to foreign assets (including LLC and bank accounts)
 - Argentina has no tax treaty with the US
-- BCRA currency controls make the LLC structure particularly attractive. you operate in USD without BCRA exchange rate restrictions
+- BCRA currency controls make the LLC structure particularly attractive — you operate in USD without BCRA exchange rate restrictions
 
 **Practical advantage:** For Argentine freelancers, the LLC provides access to US banking without BCRA exchange controls. The difference between official and parallel exchange rates (which can be 30-40%) makes the LLC structure enormously valuable from an operational standpoint.
 
@@ -7008,11 +7008,11 @@ A US LLC operated correctly has nothing to hide:
 - US compliance (Form 5472, BOI Report) is filed annually
 - Everything is done in the open, legally, and sustainably
 
-When your local tax authority has questions, you can show them everything. Clean, documented, compliant. That's your strongest protection. far better than hoping nobody finds out.
+When your local tax authority has questions, you can show them everything. Clean, documented, compliant. That's your strongest protection — far better than hoping nobody finds out.
 
 ## The trend: more transparency, not less
 
-The global trend is clearly toward more financial information sharing between countries. What's not shared today may be shared tomorrow. Structure your LLC and manage your finances as if everything is visible. because eventually, it will be. And when it is, you want everything to be perfectly in order.
+The global trend is clearly toward more financial information sharing between countries. What's not shared today may be shared tomorrow. Structure your LLC and manage your finances as if everything is visible — because eventually, it will be. And when it is, you want everything to be perfectly in order.
 
 ## What Mercury, Relay, and Wise report (and to whom)
 
@@ -7028,7 +7028,7 @@ The global trend is clearly toward more financial information sharing between co
 
 1. **Mercury is your safest primary account:** US-only banking partner (Column NA), FDIC insured, not in CRS. Your treasury is well-organized and documented.
 
-2. **Wise for conversion only:** Because Wise operates in CRS jurisdictions, your Wise account is more likely to be reported. Keep balances minimal. use it for what it does best (currency conversion at 0.4-1.5% fee at mid-market rate) and transfer to Mercury promptly.
+2. **Wise for conversion only:** Because Wise operates in CRS jurisdictions, your Wise account is more likely to be reported. Keep balances minimal — use it for what it does best (currency conversion at 0.4-1.5% fee at mid-market rate) and transfer to Mercury promptly.
 
 3. **Revolut with awareness:** Revolut's EU entity participates in CRS. If you use Revolut Business for EUR/GBP operations, know that your home country may receive account information.
 
@@ -7043,7 +7043,7 @@ Build your LLC structure assuming full transparency. Because:
 - All deductions are legitimate (receipts and business purpose documented)
 - You declare in your country of residence as required
 
-When you operate this way, CRS, FATCA, or any future information exchange mechanism is irrelevant. your records are clean and your compliance is perfect. That's the real advantage: not hiding from information exchange, but having nothing to worry about when information is exchanged.
+When you operate this way, CRS, FATCA, or any future information exchange mechanism is irrelevant — your records are clean and your compliance is perfect. That's the real advantage: not hiding from information exchange, but having nothing to worry about when information is exchanged.
 
 ## Frequently asked questions about CRS and information exchange
 
@@ -7072,7 +7072,7 @@ Through formal tax treaty mechanisms (mutual legal assistance), yes, but this re
 - <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">financial separation guide</a>
 Book your strategic consultation and we'll explain how financial information exchange works in your specific case.`,
 
-  "cuentas-bancarias-usa-reportan-hacienda-verdad": `"Does Mercury tell my tax authority how much money I have?" This is the question we receive most often. Here's the complete, honest answer. no sugarcoating, no fear-mongering.
+  "cuentas-bancarias-usa-reportan-hacienda-verdad": `"Does Mercury tell my tax authority how much money I have?" This is the question we receive most often. Here's the complete, honest answer — no sugarcoating, no fear-mongering.
 
 ## The three mechanisms of international financial reporting
 
@@ -7086,7 +7086,7 @@ Book your strategic consultation and we'll explain how financial information exc
 
 Mercury is a US fintech using Column NA as its banking infrastructure. It operates exclusively within the US financial system.
 
-**Does Mercury report to the IRS?** Yes. like any US financial institution, Mercury/Column NA complies with US reporting obligations. This includes 1099 forms when applicable.
+**Does Mercury report to the IRS?** Yes — like any US financial institution, Mercury/Column NA complies with US reporting obligations. This includes 1099 forms when applicable.
 
 **Does Mercury report to your home tax authority?** Not directly through CRS (the US doesn't participate). However:
 
@@ -7094,7 +7094,7 @@ Mercury is a US fintech using Column NA as its banking infrastructure. It operat
 - Your country's tax authority can **request information specifically** through tax treaty mechanisms
 - Information exchange is possible but not automatic in the CRS sense
 
-**The practical reality:** As of 2026, automatic reporting from US financial institutions to foreign tax authorities is significantly less comprehensive than CRS reporting from European institutions. But this may change. the trend is toward more transparency.
+**The practical reality:** As of 2026, automatic reporting from US financial institutions to foreign tax authorities is significantly less comprehensive than CRS reporting from European institutions. But this may change — the trend is toward more transparency.
 
 ## What about Wise?
 
@@ -7130,9 +7130,9 @@ Regardless of what gets automatically reported, most countries require you to de
 
 2. **Declare everything you're required to.** It's easier, cheaper, and far less stressful than assuming nobody will find out. The cost of non-declaration (penalties, interest, investigations) far exceeds the cost of proper compliance.
 
-3. **A properly managed LLC has nothing to hide.** Your tax savings come from legal optimization. deductions, pass-through structure, efficient organization, not from hiding accounts.
+3. **A properly managed LLC has nothing to hide.** Your tax savings come from legal optimization — deductions, pass-through structure, efficient organization, not from hiding accounts.
 
-4. **Traceability is your best protection.** If your tax authority ever asks about your LLC, having everything documented. invoices, distributions, Form 5472, Operating Agreement, Mercury statements, is what protects you.
+4. **Traceability is your best protection.** If your tax authority ever asks about your LLC, having everything documented — invoices, distributions, Form 5472, Operating Agreement, Mercury statements, is what protects you.
 
 5. **The financial infrastructure supports you.** Mercury ($0 wires, clear statements), Wise (transparent conversion records), Wallester (card-level expense tracking), all create documentation that proves your legitimate operation.
 
@@ -7169,9 +7169,9 @@ Within 5-10 years, most financial account information will be exchanged automati
 1. **Transparency is your friend.** A well-documented LLC with proper compliance is bulletproof under any reporting regime
 2. **Don't structure around information gaps.** Today's gap is tomorrow's exchange mechanism
 3. **Proper deductions save more than hiding income.** Legitimate expense deductions through your LLC save you far more than any reporting gap could
-4. **Professional documentation protects you.** Mercury statements, Wallester card records, Stripe reports. all create the paper trail that proves your legitimate operation
+4. **Professional documentation protects you.** Mercury statements, Wallester card records, Stripe reports — all create the paper trail that proves your legitimate operation
 
-The LLC advantage isn't secrecy. it's efficiency. You pay less because your structure is more efficient, not because nobody knows about it.
+The LLC advantage isn't secrecy — it's efficiency. You pay less because your structure is more efficient, not because nobody knows about it.
 
 
 ## Related articles
@@ -7185,7 +7185,7 @@ The LLC advantage isn't secrecy. it's efficiency. You pay less because your stru
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
 Book your strategic consultation and we'll explain exactly how financial reporting works in your specific case.`,
 
-  "privacidad-llc-americana-secreto-ventaja": `Some US states don't publish the owner's name on LLC records. But privacy doesn't mean anonymity. Here's the realistic picture. what you get, what you don't, and why it matters.
+  "privacidad-llc-americana-secreto-ventaja": `Some US states don't publish the owner's name on LLC records. But privacy doesn't mean anonymity. Here's the realistic picture — what you get, what you don't, and why it matters.
 
 ## What privacy a US LLC actually provides
 
@@ -7197,7 +7197,7 @@ In states like New Mexico and Wyoming, the LLC's Articles of Organization don't 
 - Anyone searching for your name will not find it connected to the LLC in public registries
 - This provides a meaningful level of privacy from casual searches, competitors, and solicitors
 
-**Delaware:** Less privacy. more information may appear in public filings. Choose Delaware for VC investment or legal prestige, not for privacy.
+**Delaware:** Less privacy — more information may appear in public filings. Choose Delaware for VC investment or legal prestige, not for privacy.
 
 ### What is NOT private
 
@@ -7205,7 +7205,7 @@ In states like New Mexico and Wyoming, the LLC's Articles of Organization don't 
 
 **BOI Report:** Beneficial ownership information is filed with FinCEN. The database is not public, but law enforcement, financial institutions (with consent), and authorized agencies can access it. You must provide your real name, date of birth, address, and government-issued ID.
 
-**Banking records:** Your bank knows who you are. complete KYC on file (passport, address, tax ID). This information can be obtained through legal processes (subpoenas, court orders).
+**Banking records:** Your bank knows who you are — complete KYC on file (passport, address, tax ID). This information can be obtained through legal processes (subpoenas, court orders).
 
 **Tax filings:** Form 5472 is filed with the IRS, not public, but accessible to US government authorities.
 
@@ -7314,13 +7314,13 @@ The key takeaway: your ownership is private from **casual searches, competitors,
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
 Book your strategic consultation to understand what privacy level makes sense for your situation.`,
 
-  "boi-report-fincen-guia-completa-2026": `The BOI Report is one of the most important compliance obligations for US LLCs since 2024. Here's the complete 2026 guide. updated with the latest requirements.
+  "boi-report-fincen-guia-completa-2026": `The BOI Report is one of the most important compliance obligations for US LLCs since 2024. Here's the complete 2026 guide — updated with the latest requirements.
 
 ## What the BOI Report is and why it was created
 
 The Beneficial Ownership Information (BOI) Report was mandated by the **Corporate Transparency Act (CTA)**, enacted in 2020 and effective January 1, 2024. Its purpose: create a federal registry of who actually owns and controls US companies, to combat money laundering, tax evasion, and financial crime.
 
-Before the CTA, it was possible to form a US LLC with no federal disclosure of ownership. The BOI Report changes this, now FinCEN (Financial Crimes Enforcement Network) maintains a database of beneficial owners. This database is NOT public. it's only accessible to law enforcement and authorized entities.
+Before the CTA, it was possible to form a US LLC with no federal disclosure of ownership. The BOI Report changes this, now FinCEN (Financial Crimes Enforcement Network) maintains a database of beneficial owners. This database is NOT public — it's only accessible to law enforcement and authorized entities.
 
 ## Who must file
 
@@ -7334,7 +7334,7 @@ Before the CTA, it was possible to form a US LLC with no federal disclosure of o
 - Banks, credit unions, registered securities entities, and other regulated entities
 - Large operating companies meeting specific criteria
 
-**For most of our clients**: foreign-owned single-member LLCs. filing is required. No exemption applies.
+**For most of our clients**: foreign-owned single-member LLCs — filing is required. No exemption applies.
 
 ## What information must be reported
 
@@ -7351,7 +7351,7 @@ Before the CTA, it was possible to form a US LLC with no federal disclosure of o
 - Unique ID number (passport, driver's license, or state ID)
 - Image of the ID document (front and back if applicable)
 
-**Beneficial owner definition:** Anyone who directly or indirectly owns 25%+ of the company, or who has substantial control over the company. For a single-member LLC, that's you. the sole owner.
+**Beneficial owner definition:** Anyone who directly or indirectly owns 25%+ of the company, or who has substantial control over the company. For a single-member LLC, that's you — the sole owner.
 
 ## Deadlines in 2026
 
@@ -7371,7 +7371,7 @@ These are serious penalties. FinCEN is actively enforcing compliance.
 
 ## How to file
 
-**Online:** Through FinCEN's BOSS system (BOI E-Filing System) at fincen.gov. The filing itself is free. no filing fee.
+**Online:** Through FinCEN's BOSS system (BOI E-Filing System) at fincen.gov. The filing itself is free — no filing fee.
 
 **Method:** Electronic filing only. No paper filing accepted.
 
@@ -7503,7 +7503,7 @@ If your concern is privacy (you don't want your name appearing publicly), there 
 
 **1. Choose a state with privacy in registries**
 
-New Mexico, Wyoming, and Delaware don't require the owner's name in public records. Your LLC appears with the company name and Registered Agent. nothing else. Legal and effective.
+New Mexico, Wyoming, and Delaware don't require the owner's name in public records. Your LLC appears with the company name and Registered Agent — nothing else. Legal and effective.
 
 **2. Use a professional Registered Agent**
 
@@ -7583,7 +7583,7 @@ Estonia has attractive taxation *if you legitimately reside in Estonia* and oper
 
 **Credibility for non-EU clients:** US clients often prefer working with a familiar US entity over an obscure Eastern European company they've never heard of.
 
-**Complexity:** EU VAT registration and compliance is genuinely complex for a company serving international clients. The US LLC avoids most of this. no EU VAT, no reverse charge, no OSS.
+**Complexity:** EU VAT registration and compliance is genuinely complex for a company serving international clients. The US LLC avoids most of this — no EU VAT, no reverse charge, no OSS.
 
 **Accounting requirements:** Estonian companies require a local accountant familiar with Estonian regulations. This adds cost and complexity.
 
@@ -7746,7 +7746,7 @@ Estonia's pitch is attractive: "0% tax on undistributed profits!" But here's wha
 Technically yes, but it adds complexity and cost. For most entrepreneurs, one entity is sufficient. The LLC covers international needs better for most profiles.
 
 **What if I plan to move to Estonia?**
-If you genuinely plan to live in Estonia, the OÜ becomes more attractive. Estonian taxation of OÜs is favorable for resident owners. But if you're staying in Spain, Mexico, or Latin America. the LLC is the better choice.
+If you genuinely plan to live in Estonia, the OÜ becomes more attractive. Estonian taxation of OÜs is favorable for resident owners. But if you're staying in Spain, Mexico, or Latin America — the LLC is the better choice.
 
 **Is e-Residency completely useless?**
 No. It's a genuine innovation with real use cases. It's just not the tax optimization tool that marketing suggests. For EU-specific businesses, EU grants, or EU regulatory requirements, it can be valuable.
