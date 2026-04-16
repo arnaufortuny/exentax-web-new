@@ -264,6 +264,11 @@ export default function BlogPost() {
   const displayTitle = localized?.title || post.title;
   const displayMetaTitle = localized?.metaTitle || post.metaTitle;
   const displayMetaDesc = localized?.metaDescription || post.metaDescription;
+  const displayKeywords = (localized?.keywords && localized.keywords.length
+    ? localized.keywords
+    : post.keywords && post.keywords.length
+      ? post.keywords
+      : undefined)?.join(", ");
   const dateLocale = LANG_LOCALE_MAP[lang] ?? LANG_LOCALE_MAP.es;
   const formattedDate = new Date(post.publishedAt).toLocaleDateString(dateLocale, {
     year: "numeric",
@@ -284,6 +289,7 @@ export default function BlogPost() {
       <SEO
         title={displayMetaTitle}
         description={displayMetaDesc}
+        keywords={displayKeywords}
         path={`/${lang}/blog/${currentTranslatedSlug}`}
         ogType="article"
         blogSlug={post.slug}
