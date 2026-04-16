@@ -55,10 +55,20 @@ export async function insertVisit(data: s.InsertVisit) {
 }
 
 
+function toPgTextArrayLiteral(values: readonly string[]): string {
+  // Build a Postgres text[] literal like `{"a","b\\"c"}` so it can be bound
+  // as a single string parameter and cast to text[] in SQL. Drizzle's sql
+  // template spreads JS arrays into N comma-separated params, which is not
+  // what we want here.
+  const escaped = values.map((v) => `"${v.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`);
+  return `{${escaped.join(",")}}`;
+}
+
 export async function upsertNewsletterSubscriber(email: string, name: string, source: string, interests?: string[]) {
   try {
     const id = generateId("NS");
     const unsubToken = crypto.randomBytes(24).toString("hex");
+    const interestsLiteral = interests && interests.length > 0 ? toPgTextArrayLiteral(interests) : null;
     const [row] = await db.insert(s.newsletterSubscribers).values({
       id,
       email,
@@ -72,12 +82,12 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
       set: {
         unsubscribedAt: null,
         name: name || sql`${s.newsletterSubscribers.name}`,
-        ...(interests && interests.length > 0 ? {
+        ...(interestsLiteral ? {
           interests: sql`COALESCE(
             (SELECT array_agg(DISTINCT u) FROM unnest(
-              COALESCE(${s.newsletterSubscribers.interests}, '{}') || ${interests}::text[]
+              COALESCE(${s.newsletterSubscribers.interests}, '{}'::text[]) || ${interestsLiteral}::text[]
             ) AS u),
-            '{}'
+            '{}'::text[]
           )`,
         } : {}),
       },
