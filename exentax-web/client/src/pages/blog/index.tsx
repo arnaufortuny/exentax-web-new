@@ -1,9 +1,10 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 import { useReveal } from "@/hooks/useReveal";
 import { BLOG_POSTS, getLocalizedMeta, getTranslatedSlug } from "@/data/blog-posts";
+import { loadBlogContent, prefetchBlogContent } from "@/data/blog-posts-content";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
 import { BRAND } from "@/lib/constants";
 
@@ -129,8 +130,16 @@ function BlogCard({ slug, title, excerpt, category, readTime, publishedAt }: {
     day: "numeric",
   });
 
+  const prefetch = () => { void loadBlogContent(slug, lang); };
+
   return (
-    <Link href={`/${lang}/blog/${getTranslatedSlug(slug, lang)}`} data-testid={`card-blog-${slug}`}>
+    <Link
+      href={`/${lang}/blog/${getTranslatedSlug(slug, lang)}`}
+      data-testid={`card-blog-${slug}`}
+      onMouseEnter={prefetch}
+      onFocus={prefetch}
+      onTouchStart={prefetch}
+    >
       <article
         className="group relative rounded-2xl flex flex-col h-full cursor-pointer overflow-hidden transition-[border-color,box-shadow,transform] duration-300 hover:-translate-y-1"
         style={{
@@ -213,6 +222,21 @@ export default function BlogIndex() {
       );
     });
   }, [search, activeCategory, lang]);
+
+  useEffect(() => {
+    const topSlugs = filteredPosts.slice(0, 5).map(p => p.slug);
+    if (topSlugs.length === 0) return;
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 400));
+    const cancel = w.cancelIdleCallback ?? window.clearTimeout;
+    const id = schedule(() => {
+      for (const s of topSlugs) prefetchBlogContent(s, lang);
+    }, { timeout: 3000 });
+    return () => cancel(id as number);
+  }, [filteredPosts, lang]);
 
   return (
     <>

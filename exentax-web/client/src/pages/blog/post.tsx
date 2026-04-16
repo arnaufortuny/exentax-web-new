@@ -1,12 +1,12 @@
 import { useParams, Link } from "wouter";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { BRAND, CONTACT } from "@/lib/constants";
 import SEO from "@/components/SEO";
 import { useReveal } from "@/hooks/useReveal";
 import { useLangPath } from "@/hooks/useLangPath";
 import { getBlogPost, BLOG_POSTS, getLocalizedMeta, getTranslatedSlug, resolveToSpanishSlug } from "@/data/blog-posts";
-import { loadBlogContent } from "@/data/blog-posts-content";
+import { loadBlogContent, prefetchBlogContent } from "@/data/blog-posts-content";
 import { sanitizeHtml } from "@/lib/sanitize";
 import NotFound from "@/pages/not-found";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
@@ -177,7 +177,14 @@ function SidebarRelated({ currentSlug, currentCategory, lang }: { currentSlug: s
         {related.map(post => {
           const localized = getLocalizedMeta(post.slug, lang as SupportedLang);
           return (
-          <Link key={post.slug} href={`/${lang}/blog/${getTranslatedSlug(post.slug, lang)}`} data-testid={`sidebar-${post.slug}`}>
+          <Link
+            key={post.slug}
+            href={`/${lang}/blog/${getTranslatedSlug(post.slug, lang)}`}
+            data-testid={`sidebar-${post.slug}`}
+            onMouseEnter={() => { void loadBlogContent(post.slug, lang as SupportedLang); }}
+            onFocus={() => { void loadBlogContent(post.slug, lang as SupportedLang); }}
+            onTouchStart={() => { void loadBlogContent(post.slug, lang as SupportedLang); }}
+          >
             <div
               className="group rounded-2xl p-5 cursor-pointer transition-[border-color,box-shadow,transform] duration-300 hover:shadow-[0_4px_16px_rgba(0,0,0,0.06)]"
               style={{
@@ -218,8 +225,55 @@ export default function BlogPost() {
   const [contentText, setContentText] = useState<string | undefined>(undefined);
   const [contentLang, setContentLang] = useState<SupportedLang | undefined>(undefined);
   const [contentReady, setContentReady] = useState(false);
+  const articleRef = useRef<HTMLDivElement>(null);
 
   const postSlugForLoad = post?.slug;
+
+  useEffect(() => {
+    if (!post) return;
+    const others = BLOG_POSTS.filter(p => p.slug !== post.slug);
+    const sameCat = others.filter(p => p.category === post.category);
+    const otherCat = others.filter(p => p.category !== post.category);
+    const topSlugs = [...sameCat, ...otherCat].slice(0, 5).map(p => p.slug);
+    if (topSlugs.length === 0) return;
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 400));
+    const cancel = w.cancelIdleCallback ?? window.clearTimeout;
+    const id = schedule(() => {
+      for (const s of topSlugs) prefetchBlogContent(s, lang);
+    }, { timeout: 3000 });
+    return () => cancel(id as number);
+  }, [post, lang]);
+
+  useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+    const pattern = new RegExp(`^/([a-z]{2})/blog/([^/?#]+)`);
+    const handle = (ev: Event) => {
+      const target = ev.target as HTMLElement | null;
+      const anchor = target?.closest?.("a[href]") as HTMLAnchorElement | null;
+      if (!anchor) return;
+      const href = anchor.getAttribute("href") || "";
+      const m = href.match(pattern);
+      if (!m) return;
+      const linkLang = m[1] as SupportedLang;
+      const translatedSlug = m[2];
+      if (!SUPPORTED_LANGS.includes(linkLang)) return;
+      const canonical = resolveToSpanishSlug(translatedSlug, linkLang) ?? translatedSlug;
+      void loadBlogContent(canonical, linkLang);
+    };
+    el.addEventListener("mouseover", handle);
+    el.addEventListener("focusin", handle);
+    el.addEventListener("touchstart", handle, { passive: true });
+    return () => {
+      el.removeEventListener("mouseover", handle);
+      el.removeEventListener("focusin", handle);
+      el.removeEventListener("touchstart", handle);
+    };
+  }, [contentText]);
 
   useEffect(() => {
     if (!postSlugForLoad) return;
@@ -407,6 +461,7 @@ export default function BlogPost() {
                 )}
 
                 <div
+                  ref={articleRef}
                   className="blog-content sm:pl-4"
                   dangerouslySetInnerHTML={{ __html: sanitizeHtml(articleHtml) }}
                 />
