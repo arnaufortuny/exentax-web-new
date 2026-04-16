@@ -2,7 +2,7 @@ export default `Le Common Reporting Standard (CRS) est la pièce maîtresse de l
 
   ## Ce qu'est le CRS
 
-  Approuvé par le Conseil de l'OCDE en juillet 2014, le CRS impose aux administrations fiscales des plus de 100 juridictions adhérentes l'échange automatique annuel d'informations sur les comptes financiers de non-résidents. Au sein de l'UE il est intégré par la **Directive 2014/107/UE (DAC2)**. L'Espagne l'a transposé via le **Décret royal 1021/2015** et la **Ordonnance HAP/1695/2016** (Modelo 289). En Amérique latine il est appliqué par le Mexique (depuis 2017), l'Argentine, la Colombie, le Chili, le Brésil, l'Uruguay, le Panama, le Pérou et d'autres. **Les États-Unis n'adhèrent pas au CRS** : ils utilisent FATCA, unilatéral et seulement sortant. Voir <a href="/fr/blog/les-comptes-bancaires-aux-etats-unis-declarent-ils-vraiment-a-votre-fisc-la-verite">les comptes US déclarent-ils à votre fisc</a>.
+  Approuvé par le Conseil de l'OCDE en juillet 2014, le CRS impose aux administrations fiscales des plus de 100 juridictions adhérentes l'échange automatique annuel d'informations sur les comptes financiers de non-résidents. Au sein de l'UE il est intégré par la **Directive 2014/107/UE (DAC2)**. L'Espagne l'a transposé via le **Décret royal 1021/2015** et la **Ordonnance HAP/1695/2016** (Modelo 289). En Amérique latine il est appliqué par le Mexique (depuis 2017), l'Argentine, la Colombie, le Chili, le Brésil, l'Uruguay, le Panama, le Pérou et d'autres. **Les États-Unis n'adhèrent pas au CRS** : ils utilisent FATCA, unilatéral et seulement sortant. Voir <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre-administration-fiscale-l">les comptes US déclarent-ils à votre fisc</a>.
 
   ## Ce qui est déclaré
 

@@ -14,7 +14,7 @@ export default `Parler d'imposition de la LLC dans l'abstrait conduit à des err
 
   ## 3. SaaS et abonnements numériques
 
-  Activité économique + cession d'usage logiciel. **B2C TBE** : TVA dans le pays du conso, OSS hors UE ou Merchant of Record (Paddle, FastSpring, DoDo, Lemon Squeezy). **B2B** : auto-liquidation. Risque CFC moyen-élevé si licensing passif sans développement actif. Voir <a href="/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-saas-le-guide-complet">LLC pour devs et SaaS</a>.
+  Activité économique + cession d'usage logiciel. **B2C TBE** : TVA dans le pays du conso, OSS hors UE ou Merchant of Record (Paddle, FastSpring, DoDo, Lemon Squeezy). **B2B** : auto-liquidation. Risque CFC moyen-élevé si licensing passif sans développement actif. Voir <a href="/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs-saas-guide-complet">LLC pour devs et SaaS</a>.
 
   ## 4. Royalties et propriété intellectuelle
 

@@ -15,7 +15,7 @@ export default `Dissenyar una estructura internacional no és triar el país mé
   - **LLC check-the-box C-Corp**.
   - **SL espanyola**: activitat ES.
   - **Holding ES + filial**.
-  - **OÜ Estònia, HK, Singapur, BVI**: específics. OÜ sobrevalorada — <a href="/ca/blog/per-que-no-obrir-empresa-a-estonia-la-veritat-sobre-le-residency">per què no Estònia</a>.
+  - **OÜ Estònia, HK, Singapur, BVI**: específics. OÜ sobrevalorada — <a href="/ca/blog/per-que-no-obrir-una-empresa-a-estonia-la-llc-americana-guanya-per-a-la-majoria">per què no Estònia</a>.
 
   ## Pas 4: Substància
 
@@ -27,7 +27,7 @@ export default `Dissenyar una estructura internacional no és triar el país mé
 
   ## Pas 6: Compliance i revisió
 
-  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/ca/blog/informe-boi-2026-guia-completa-del-diposit-de-beneficial-ownership-davant-fincen">BOI</a>, <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual</a>.
+  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/ca/blog/boi-report-2026-guia-completa-per-a-la-declaracio-fincen-beneficial-ownership">BOI</a>, <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual</a>.
   **Espanya (resident)**: IRPF, IVA, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: per país.
   **Revisió anual**.

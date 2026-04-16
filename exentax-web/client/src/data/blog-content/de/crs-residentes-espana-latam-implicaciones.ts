@@ -2,7 +2,7 @@ export default `Der **Common Reporting Standard (CRS)** ist die wichtigste inter
 
   ## Was der CRS ist
 
-  Der CRS wurde im Juli 2014 vom OECD-Rat verabschiedet. Über 100 Jurisdiktionen tauschen jährlich Informationen zu Finanzkonten von Nichtansässigen aus. In der EU umgesetzt durch **Richtlinie 2014/107/EU (DAC2)**. Spanien hat ihn durch **Königliches Dekret 1021/2015** und **Anordnung HAP/1695/2016** (Modelo 289) übernommen. In LATAM angewandt durch Mexiko (seit 2017), Argentinien, Kolumbien, Chile, Brasilien u.a. Die **USA gehören dem CRS nicht an**: sie nutzen FATCA, einseitig und nur ausgehend. Siehe <a href="/de/blog/melden-us-bankkonten-tatsachlich-ihrer-steuerbehorde-die-wahrheit">melden US-Bankkonten Ihrer Steuerbehörde?</a>.
+  Der CRS wurde im Juli 2014 vom OECD-Rat verabschiedet. Über 100 Jurisdiktionen tauschen jährlich Informationen zu Finanzkonten von Nichtansässigen aus. In der EU umgesetzt durch **Richtlinie 2014/107/EU (DAC2)**. Spanien hat ihn durch **Königliches Dekret 1021/2015** und **Anordnung HAP/1695/2016** (Modelo 289) übernommen. In LATAM angewandt durch Mexiko (seit 2017), Argentinien, Kolumbien, Chile, Brasilien u.a. Die **USA gehören dem CRS nicht an**: sie nutzen FATCA, einseitig und nur ausgehend. Siehe <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die-ehrliche-antwort">melden US-Bankkonten Ihrer Steuerbehörde?</a>.
 
   ## Was gemeldet wird
 

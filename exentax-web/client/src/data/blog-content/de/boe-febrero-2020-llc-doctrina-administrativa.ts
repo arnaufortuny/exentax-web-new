@@ -20,7 +20,7 @@ export default `Wenn Sie spanisch ansässig sind und eine <a href="/de/blog/llc-
 
   - Kein "Dividendenmoment".
   - Zurechnung nach Natur: Dienstleistungen = wirtschaftliche Aktivität in Allgemeinbasis (24-47%).
-  - Keine Dividenden-Doppelbesteuerungsbefreiung; Anrechnung (Art. 80 LIRPF) auf tatsächlich gezahlte US-Steuer (typisch 0 $ bei Disregarded — siehe <a href="/de/blog/pass-through-besteuerung-fur-llcs-wie-sie-funktioniert-und-warum-sie-wichtig-ist">Pass-through</a>).
+  - Keine Dividenden-Doppelbesteuerungsbefreiung; Anrechnung (Art. 80 LIRPF) auf tatsächlich gezahlte US-Steuer (typisch 0 $ bei Disregarded — siehe <a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum-sie-wichtig-ist">Pass-through</a>).
   - Abzugsfähige Aufwendungen bleiben abzugsfähig.
 
   ## Wann LLC opak bleibt

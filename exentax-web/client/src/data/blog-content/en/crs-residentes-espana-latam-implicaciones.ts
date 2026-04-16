@@ -6,7 +6,7 @@ export default `The Common Reporting Standard (CRS) is the most important piece 
 
   Technically, CRS generalizes the prior model (FATCA) to more than 100 jurisdictions, but on a multilateral rather than bilateral basis. Spain transposed it via Royal Decree 1021/2015 and Order HAP/1695/2016, which regulate **Form 289** (the annual informative return that Spanish financial institutions submit to the AEAT, and which is received in reverse from other adhering countries).
 
-  In Latin America CRS is implemented in, among others: Mexico (since 2017), Argentina, Colombia, Chile, Brazil, Uruguay, Panama, Peru, Costa Rica, Ecuador and the Dominican Republic. The United States, importantly, is **not adhered to CRS**. It runs its own system (FATCA), which is bilateral and outbound only, not inbound. We dive deeper into this in our article on <a href="/en/blog/do-us-bank-accounts-actually-report-to-your-tax-authority-the-truth">whether US bank accounts report to your tax authority</a>.
+  In Latin America CRS is implemented in, among others: Mexico (since 2017), Argentina, Colombia, Chile, Brazil, Uruguay, Panama, Peru, Costa Rica, Ecuador and the Dominican Republic. The United States, importantly, is **not adhered to CRS**. It runs its own system (FATCA), which is bilateral and outbound only, not inbound. We dive deeper into this in our article on <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the-honest-answer">whether US bank accounts report to your tax authority</a>.
 
   ## Regulatory framework
 

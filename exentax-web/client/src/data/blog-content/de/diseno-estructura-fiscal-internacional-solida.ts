@@ -15,7 +15,7 @@ export default `Eine internationale Steuerstruktur zu gestalten ist nicht das ex
   - **LLC Check-the-Box C-Corp**: Corporate-Opazität.
   - **Spanische SL**: ES-Aktivität.
   - **ES-Holding + Auslandsfilial**: Vermögensprofile.
-  - **OÜ Estland, HK Limited, Singapur, BVI**: Spezial. OÜ überbewertet — siehe <a href="/de/blog/warum-keine-firma-in-estland-grunden-die-wahrheit-uber-die-e-residency">warum nicht Estland</a>.
+  - **OÜ Estland, HK Limited, Singapur, BVI**: Spezial. OÜ überbewertet — siehe <a href="/de/blog/warum-kein-estnisches-unternehmen-eroffnen-die-us-llc-gewinnt-fur-die-meisten">warum nicht Estland</a>.
 
   ## Schritt 4: Substanz aufbauen
 
@@ -27,7 +27,7 @@ export default `Eine internationale Steuerstruktur zu gestalten ist nicht das ex
 
   ## Schritt 6: Compliance und kontinuierliche Überprüfung
 
-  **US**: Form 5472 + 1120 pro forma, BOI, Annual Report — siehe Form 5472, <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen-meldung-der-wirtschaftlich-be">BOI</a>, <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren-konnen">jährliche Pflege</a>.
+  **US**: Form 5472 + 1120 pro forma, BOI, Annual Report — siehe Form 5472, <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen-beneficial-ownership-meldung">BOI</a>, <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren-konnen">jährliche Pflege</a>.
   **Spanien (ansässig)**: IRPF, USt, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: nach Land.
   **Jährliche Überprüfung**: Residenz, Substanz, Stack, neue Normen.

@@ -20,7 +20,7 @@ export default `Si resideixes fiscalment a Espanya i tens una <a href="/ca/blog/
 
   - Sense "moment dividend": imputació anual.
   - Per natura: serveis = activitat econòmica en base general (24-47%).
-  - Sense exempcions de dividends; deducció per doble imposició (art. 80 LIRPF) sobre impost EUA realment pagat (típic $0 — vegeu <a href="/ca/blog/tributacio-pass-through-en-llcs-com-funciona-i-per-que-es-important">pass-through</a>).
+  - Sense exempcions de dividends; deducció per doble imposició (art. 80 LIRPF) sobre impost EUA realment pagat (típic $0 — vegeu <a href="/ca/blog/tributacio-pass-through-per-a-llc-com-funciona-i-per-que-importa">pass-through</a>).
   - Despeses deduïbles continuen deduïbles.
 
   ## Quan la LLC continua opaca

@@ -2,7 +2,7 @@ export default `O **Common Reporting Standard (CRS)** é a peça mais importante
 
   ## O que é o CRS
 
-  Aprovado pelo Conselho da OCDE em julho de 2014. Mais de 100 jurisdições trocam anualmente informação sobre contas de não-residentes. Na UE incorporado pela **Diretiva 2014/107/UE (DAC2)**. Em Espanha transposto via **Real Decreto 1021/2015** e Ordem HAP/1695/2016 (Modelo 289). Em LATAM aplicado por México (desde 2017), Argentina, Colômbia, Chile, Brasil, Uruguai, etc. Os **EUA não aderiram ao CRS**: usam FATCA, unilateral e só de saída. Veja <a href="/pt/blog/as-contas-bancarias-nos-eua-realmente-reportam-a-sua-autoridade-fiscal-a-verda">contas EUA reportam à sua autoridade fiscal?</a>.
+  Aprovado pelo Conselho da OCDE em julho de 2014. Mais de 100 jurisdições trocam anualmente informação sobre contas de não-residentes. Na UE incorporado pela **Diretiva 2014/107/UE (DAC2)**. Em Espanha transposto via **Real Decreto 1021/2015** e Ordem HAP/1695/2016 (Modelo 289). Em LATAM aplicado por México (desde 2017), Argentina, Colômbia, Chile, Brasil, Uruguai, etc. Os **EUA não aderiram ao CRS**: usam FATCA, unilateral e só de saída. Veja <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade-fiscal-a-resposta-hones">contas EUA reportam à sua autoridade fiscal?</a>.
 
   ## Que se reporta
 

@@ -34,7 +34,7 @@ export default `Talking about "LLC taxation" in the abstract leads to serious mi
   - **Spanish income classification**: economic-activity income with active development; for passive licensing of pre-existing code without significant activity, debate on **CFC rules** (LIS art. 100, via LIRPF art. 91).
   - **CFC risk**: if the LLC mostly generates passive income (licensing) and lacks material/human means in the US, the AEAT can apply CFC.
 
-  More in <a href="/en/blog/us-llc-for-software-developers-and-saas-the-complete-guide">LLC for software developers and SaaS</a>.
+  More in <a href="/en/blog/us-llc-for-software-developers-and-saas-founders-the-complete-guide">LLC for software developers and SaaS</a>.
 
   ## 4. Royalties and intellectual property
 

@@ -15,7 +15,7 @@ export default `Concevoir une structure fiscale internationale n'est pas choisir
   - **LLC check-the-box C-Corp** : opacité corporate, réinvestissement.
   - **SL espagnole** : activité essentiellement ES.
   - **Holding ES + filiale étrangère** : profils patrimoniaux complexes.
-  - **OÜ Estonie, HK Limited, Singapour Pte Ltd, BVI** : véhicules spécifiques. L'OÜ est surévaluée — voir <a href="/fr/blog/pourquoi-pas-creer-une-entreprise-en-estonie">pourquoi pas l'Estonie</a>.
+  - **OÜ Estonie, HK Limited, Singapour Pte Ltd, BVI** : véhicules spécifiques. L'OÜ est surévaluée — voir <a href="/fr/blog/pourquoi-ne-pas-ouvrir-une-entreprise-en-estonie-la-llc-americaine-lemporte">pourquoi pas l'Estonie</a>.
 
   ## Étape 4 : Doter de substance
 
@@ -27,7 +27,7 @@ export default `Concevoir une structure fiscale internationale n'est pas choisir
 
   ## Étape 6 : Compliance et révision continue
 
-  **US** : Form 5472 + 1120 pro forma, BOI, Annual Report — voir Form 5472, <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-de-beneficial-ownership-aupres-de-fincen">BOI</a>, <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas-ignorer">maintenance annuelle</a>.
+  **US** : Form 5472 + 1120 pro forma, BOI, Annual Report — voir Form 5472, <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen-beneficial-ownership">BOI</a>, <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas-ignorer">maintenance annuelle</a>.
   **Espagne (résident)** : IRPF, TVA, Modelo 720, Modelo 721, 100/130, 238 (DAC7).
   **LATAM** : selon pays.
   **Révision annuelle** : résidence, substance, stack, normes nouvelles (DAC7/DAC8/MiCA).

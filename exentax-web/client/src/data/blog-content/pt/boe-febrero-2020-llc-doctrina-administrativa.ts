@@ -20,7 +20,7 @@ export default `Se reside fiscalmente em Espanha e tem uma <a href="/pt/blog/llc
 
   - Sem "momento dividendo": imputação anual.
   - Imputação por natureza: serviços = atividade económica em base geral (24-47%).
-  - Sem isenções de dividendos; dedução por dupla tributação (art. 80 LIRPF) sobre imposto efetivamente pago nos EUA (tipicamente $0 em Disregarded — veja <a href="/pt/blog/tributacao-pass-through-em-llcs-como-funciona-e-por-que-e-importante">pass-through</a>).
+  - Sem isenções de dividendos; dedução por dupla tributação (art. 80 LIRPF) sobre imposto efetivamente pago nos EUA (tipicamente $0 em Disregarded — veja <a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que-importa">pass-through</a>).
   - Despesas dedutíveis continuam dedutíveis.
 
   ## Quando a LLC continua opaca

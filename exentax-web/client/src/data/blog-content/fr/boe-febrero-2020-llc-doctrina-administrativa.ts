@@ -20,7 +20,7 @@ export default `Si vous résidez fiscalement en Espagne et possédez une <a href
 
   - Pas de "moment dividende" : revenus imputés annuellement.
   - Imputation par nature : services professionnels = activité économique en base générale (24-47%).
-  - Pas d'exonérations dividendes ; déduction double imposition (art. 80 LIRPF) sur impôt US réellement payé (souvent 0 $ pour Disregarded — voir <a href="/fr/blog/passation-des-revenus-dans-les-llc-comment-fonctionne-la-fiscalite-pass-through">pass-through</a>).
+  - Pas d'exonérations dividendes ; déduction double imposition (art. 80 LIRPF) sur impôt US réellement payé (souvent 0 $ pour Disregarded — voir <a href="/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et-pourquoi-cest-important">pass-through</a>).
   - Charges déductibles de la LLC restent déductibles.
 
   ## Quand la LLC reste opaque

@@ -15,7 +15,7 @@ export default `Desenhar uma estrutura internacional não é escolher o país ma
   - **LLC check-the-box C-Corp**.
   - **SL espanhola**: atividade ES.
   - **Holding ES + filial**.
-  - **OÜ Estónia, HK, Singapura, BVI**: específicos. OÜ sobrestimada — <a href="/pt/blog/por-que-nao-abrir-empresa-na-estonia-a-verdade-sobre-a-e-residency">porque não Estónia</a>.
+  - **OÜ Estónia, HK, Singapura, BVI**: específicos. OÜ sobrestimada — <a href="/pt/blog/por-que-nao-abrir-uma-empresa-na-estonia-a-llc-americana-vence-para-a-maioria">porque não Estónia</a>.
 
   ## Passo 4: Substância
 
@@ -27,7 +27,7 @@ export default `Desenhar uma estrutura internacional não é escolher o país ma
 
   ## Passo 6: Compliance e revisão contínua
 
-  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/pt/blog/relatorio-boi-2026-guia-completo-para-o-deposito-de-beneficial-ownership-junto-a">BOI</a>, <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual</a>.
+  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/pt/blog/boi-report-2026-guia-completo-para-a-declaracao-fincen-beneficial-ownership">BOI</a>, <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual</a>.
   **Espanha (residente)**: IRPF, IVA, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: por país.
   **Revisão anual**: residência, substância, stack, normas novas.

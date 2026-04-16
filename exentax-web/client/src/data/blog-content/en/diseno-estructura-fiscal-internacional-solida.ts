@@ -30,7 +30,7 @@ export default `Designing an international tax structure is not picking the most
   - **LLC with check-the-box election as C-Corp**: when corporate tax opacity is needed, generally for profit reinvestment or capital raising.
   - **Spanish operating S.L.**: when activity is essentially Spanish and risk of simulation/hidden PE is high.
   - **Spanish holding + foreign subsidiary**: for asset profiles with succession needs, multiple businesses or complex international operations.
-  - **Estonian OÜ, Hong Kong Limited, Singapore Pte Ltd, BVI**: specific vehicles with their own requirements and limitations. The Estonian OÜ is overhyped in social media; see <a href="/en/blog/why-not-to-form-a-company-in-estonia-the-truth-about-e-residency">why not to form a company in Estonia</a>.
+  - **Estonian OÜ, Hong Kong Limited, Singapore Pte Ltd, BVI**: specific vehicles with their own requirements and limitations. The Estonian OÜ is overhyped in social media; see <a href="/en/blog/why-not-to-open-an-estonian-company-the-us-llc-wins-for-most-non-residents">why not to form a company in Estonia</a>.
 
   The right choice depends on diagnosis × residency × activity × exit vision.
 

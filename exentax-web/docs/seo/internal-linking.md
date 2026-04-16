@@ -91,16 +91,26 @@ grep -c ']\(/es/' client/src/data/blog-posts.ts # should be ≥ 3 × post count
 
 ### 3.2 Link checker
 
-Add a script `scripts/seo-check-links.mjs` that:
+`scripts/seo-check-links.mjs` (run via `npm run seo:check`) reuses the graph
+from `scripts/link-graph.mjs` to enforce two invariants:
 
-1. Parses every `content` field in `blog-posts.ts` and `blog-posts-i18n.ts`.
-2. Extracts every `(/[a-z-]+/...)` href.
-3. Validates that each href resolves to either a known route (from `route-slugs.ts`) or an existing blog slug (from `blog-posts-slugs.ts`).
-4. Fails the build if an orphan is found.
+1. **No broken links** — every `/<lang>/blog/<slug>` href found in any per-
+   article content file under `client/src/data/blog-content/<lang>/` must
+   resolve to a known slug for that language (per `BLOG_SLUG_I18N` in
+   `client/src/data/blog-posts-slugs.ts`). Broken hrefs are reported with
+   their file, line number, and source article.
+2. **No under-linked articles** — every Spanish article must receive at least
+   three incoming contextual links from other Spanish articles (rule §1.4).
+
+The script exits non-zero if either check fails, with a human-readable list
+of every offender. Unit tests live in `scripts/seo-check-links.test.mjs`
+(`npm run test:seo-check`).
 
 ### 3.3 CI enforcement
 
-Wire `seo-check-links.mjs` into `npm run check` (or create a `seo:check` script) so PRs fail if a link is broken or a post has fewer than the required internal links.
+`npm run seo:check` is chained into `npm run check` (after `tsc`), so any push
+or PR pipeline that runs `npm run check` will fail when a link breaks or an
+article drops below the 3-incoming-links floor.
 
 ## 4. Internal-link audit — current state
 

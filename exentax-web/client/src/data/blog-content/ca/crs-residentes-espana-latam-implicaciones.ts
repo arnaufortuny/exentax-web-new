@@ -2,7 +2,7 @@ export default `El **Common Reporting Standard (CRS)** és la peça més importa
 
   ## Què és el CRS
 
-  Aprovat pel Consell de l'OCDE el juliol de 2014. Més de 100 jurisdiccions intercanvien anualment informació sobre comptes financers de no residents. A la UE incorporat per la **Directiva 2014/107/UE (DAC2)**. Espanya el va transposar via **Reial Decret 1021/2015** i Ordre HAP/1695/2016 (Modelo 289). A LATAM aplicat per Mèxic (des de 2017), Argentina, Colòmbia, Xile, Brasil, etc. Els **EUA no estan adherits al CRS**: usen FATCA, unilateral i només sortint. Vegeu <a href="/ca/blog/els-comptes-bancaris-als-eua-realment-reporten-a-hisenda-la-veritat">EUA i reporting a Hisenda</a>.
+  Aprovat pel Consell de l'OCDE el juliol de 2014. Més de 100 jurisdiccions intercanvien anualment informació sobre comptes financers de no residents. A la UE incorporat per la **Directiva 2014/107/UE (DAC2)**. Espanya el va transposar via **Reial Decret 1021/2015** i Ordre HAP/1695/2016 (Modelo 289). A LATAM aplicat per Mèxic (des de 2017), Argentina, Colòmbia, Xile, Brasil, etc. Els **EUA no estan adherits al CRS**: usen FATCA, unilateral i només sortint. Vegeu <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat-fiscal-la-resposta-h">EUA i reporting a Hisenda</a>.
 
   ## Què es reporta
 
