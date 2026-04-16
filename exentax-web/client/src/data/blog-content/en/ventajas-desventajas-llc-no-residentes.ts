@@ -5,10 +5,10 @@ Here are both sides of the coin. No filters.
 ## The real advantages
 
 ### 1. Tax optimization (the main reason)
-A Single-Member LLC with a non-resident owner pays **0% US federal tax** on foreign-source income. Combined with the correct tax structure, you can optimize effective tax burden from **40-47%** (as autónomo in Spain) down to **15-25%**: completely legally.
+A Single-Member LLC with a non-resident owner pays **0% US federal tax** on foreign-source income. Combined with the correct tax structure, you can optimize effective tax burden from the **35-47%** most sole traders end up paying (UK sole trader, Canadian self-employed, Australian sole trader, Spanish autónomo, and comparable regimes) down to **15-25%**: completely legally.
 
 ### 2. Asset protection
-Your LLC is a separate entity. If your business has a debt or legal problem, your personal assets (house, savings, car) are protected. As autónomo in Spain, that protection doesn't exist. Wyoming's charging order protections are among the strongest in the US.
+Your LLC is a separate entity. If your business has a debt or legal problem, your personal assets (house, savings, car) are protected. If you invoice as a sole trader or sole proprietor in your own name, that protection simply doesn't exist. Wyoming's charging order protections are among the strongest in the US.
 
 ### 3. Access to US banking and payments
 With an LLC you open accounts on Mercury (Column NA, FDIC, $0 wires), Relay (Thread Bank, 20 free sub-accounts), Wise Business (EMI with real exchange rates), Slash (corporate treasury, yield on idle cash), Wallester (corporate cards, granular spend control), Stripe US (2.9% + $0.30), and more.

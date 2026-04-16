@@ -1,4 +1,4 @@
-export default `If you're a self-employed professional (autónomo) in Spain, you know the financial burden firsthand. A US LLC offers a completely different structure. Here's an honest, detailed comparison with real numbers.
+export default `If you're a freelancer or sole trader billing international clients, whether you file as a US Schedule C sole proprietor, a UK sole trader, a Canadian self-employed worker, an Australian sole trader, or a Spanish autónomo, you already know how quickly income tax, self-employment tax, and social contributions eat into what you keep. A US LLC owned by a non-resident offers a very different structure. We use the Spanish autónomo regime as the reference point in this article because it's one of the most punitive, but the logic applies anywhere a freelancer is getting hit with high marginal rates and fixed social contributions. Here's an honest, detailed comparison with real numbers.
 
 ## The autónomo burden in 2026
 
@@ -146,4 +146,4 @@ To keep going on this thread, <a href="/en/blog/advantages-and-disadvantages-of-
 
 - <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us-llc">guide on leaving Spanish self-employment</a>
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
-Book your strategic consultation and we'll analyze your specific situation. current income, clients, expenses, and tell you honestly whether the switch makes financial sense for you.`;
+Book a strategic consultation and we'll look at your actual numbers (current income, clients, expenses) and tell you honestly whether switching to an LLC structure makes financial sense for you.`;

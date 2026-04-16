@@ -1,4 +1,4 @@
-export default `One of the most underrated advantages of a US LLC is its legal security and personal asset protection. If you're operating as an autónomo in Spain or as an individual in any other country, your personal assets are at risk every day. Here's how the LLC changes that.
+export default `One of the most underrated advantages of a US LLC is its legal security and personal asset protection. If you're freelancing as a US sole proprietor, a UK or Canadian sole trader, an Australian sole trader, or a Spanish autónomo (in other words, invoicing clients in your own name rather than through a company), your personal assets are on the line every single day. A properly run LLC changes that. Here's how.
 
 ## What "limited liability" actually means
 
@@ -109,4 +109,4 @@ To keep going on this thread, <a href="/en/blog/common-llc-problems-and-how-to-a
 - <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">financial separation guide</a>
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
-Book your strategic consultation to understand how the LLC protects both your business and your personal assets.`;
+Book a strategic consultation and we'll map out exactly how an LLC would protect your business and your personal assets in your jurisdiction.`;

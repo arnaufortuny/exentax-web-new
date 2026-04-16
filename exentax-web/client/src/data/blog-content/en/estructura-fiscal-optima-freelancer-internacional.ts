@@ -2,12 +2,12 @@ export default `If you're an international freelancer, your tax structure determ
 
 ## The starting point: most freelancers are overtaxed
 
-Most international freelancers operate as sole traders (autónomos) in their home country. The result:
+Most international freelancers operate as sole traders in their home country, whether that's a US Schedule C sole proprietor, a UK sole trader, a Canadian self-employed worker, an Australian sole trader, or a Spanish autónomo. Same idea, different paperwork. The result:
 
-- **Maximum taxation:** In Spain, effective rates of 40-50% when combining IRPF (19-47%) and social contributions (~€3,600+/year)
-- **Fixed monthly costs:** Social security contributions regardless of income
+- **Maximum taxation:** Effective rates of 35-50% once you stack income tax, self-employment or social contributions, and state/provincial tax. In the US, federal + self-employment tax alone can exceed 40% above the Social Security wage base; in Spain, IRPF (19-47%) plus the autónomo contribution (~€3,600+/year) pushes similar numbers; the UK, Canada and Australia land in the same ballpark once national insurance, CPP or Medicare-style levies are added
+- **Fixed monthly costs:** Social contributions regardless of income
 - **Zero personal liability protection:** If something goes wrong, your personal assets are at risk
-- **No US banking access:** Can't get Stripe US, Mercury, or full PayPal Business
+- **Limited US banking access:** Can't easily get Stripe US, Mercury, or full PayPal Business without a US entity
 
 ## Your structural options
 
