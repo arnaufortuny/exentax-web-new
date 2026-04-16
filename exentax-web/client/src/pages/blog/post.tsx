@@ -230,15 +230,23 @@ export default function BlogPost() {
   const postSlugForLoad = post?.slug;
 
   useEffect(() => {
+    if (!post) return;
+    const others = BLOG_POSTS.filter(p => p.slug !== post.slug);
+    const sameCat = others.filter(p => p.category === post.category);
+    const otherCat = others.filter(p => p.category !== post.category);
+    const topSlugs = [...sameCat, ...otherCat].slice(0, 5).map(p => p.slug);
+    if (topSlugs.length === 0) return;
     const w = window as Window & {
       requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
       cancelIdleCallback?: (id: number) => void;
     };
-    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 300));
+    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 400));
     const cancel = w.cancelIdleCallback ?? window.clearTimeout;
-    const id = schedule(() => { prefetchBlogContent(lang); }, { timeout: 2000 });
+    const id = schedule(() => {
+      for (const s of topSlugs) prefetchBlogContent(s, lang);
+    }, { timeout: 3000 });
     return () => cancel(id as number);
-  }, [lang]);
+  }, [post, lang]);
 
   useEffect(() => {
     const el = articleRef.current;

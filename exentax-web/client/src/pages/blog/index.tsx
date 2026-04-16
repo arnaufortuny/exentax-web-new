@@ -196,17 +196,6 @@ export default function BlogIndex() {
   const currentLang = (i18n.language || "es").split("-")[0] as SupportedLang;
   const lang = SUPPORTED_LANGS.includes(currentLang) ? currentLang : "es";
 
-  useEffect(() => {
-    const w = window as Window & {
-      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
-      cancelIdleCallback?: (id: number) => void;
-    };
-    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 300));
-    const cancel = w.cancelIdleCallback ?? window.clearTimeout;
-    const id = schedule(() => { prefetchBlogContent(lang); }, { timeout: 2000 });
-    return () => cancel(id as number);
-  }, [lang]);
-
   const categories = useMemo(() => {
     const cats = [...new Set(BLOG_POSTS.map(p => p.category))];
     return cats.sort();
@@ -233,6 +222,21 @@ export default function BlogIndex() {
       );
     });
   }, [search, activeCategory, lang]);
+
+  useEffect(() => {
+    const topSlugs = filteredPosts.slice(0, 5).map(p => p.slug);
+    if (topSlugs.length === 0) return;
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 400));
+    const cancel = w.cancelIdleCallback ?? window.clearTimeout;
+    const id = schedule(() => {
+      for (const s of topSlugs) prefetchBlogContent(s, lang);
+    }, { timeout: 3000 });
+    return () => cancel(id as number);
+  }, [filteredPosts, lang]);
 
   return (
     <>
