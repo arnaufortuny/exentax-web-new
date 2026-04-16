@@ -96,12 +96,18 @@ const AccordionItem = memo(function AccordionItem({
 
   return (
     <div
-      className="border-b border-[var(--border)] transition-colors duration-150"
+      className={`transition-[background-color,border-color,box-shadow,border-radius,margin] duration-300 ease-out ${
+        isOpen
+          ? "rounded-2xl my-2 border border-[rgba(0,229,16,0.28)] bg-[rgba(255,255,255,0.04)] backdrop-blur-xl supports-[backdrop-filter]:bg-[rgba(255,255,255,0.04)] shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_10px_30px_-14px_rgba(0,229,16,0.35)]"
+          : "border-b border-[var(--border)]"
+      }`}
       data-testid={`${testIdPrefix}-item-${id}`}
     >
       <button
         onClick={onToggle}
-        className="group w-full flex items-center justify-between gap-4 py-5 text-left font-body font-semibold text-[15px] sm:text-base text-[var(--text-1)] hover:text-[#00E510] transition-colors duration-150"
+        className={`group w-full flex items-center justify-between gap-4 py-5 text-left font-body font-semibold text-[15px] sm:text-base text-[var(--text-1)] hover:text-[#00E510] transition-[color,padding] duration-200 ${
+          isOpen ? "px-5 sm:px-6" : ""
+        }`}
         aria-expanded={isOpen}
         data-testid={`${testIdPrefix}-trigger-${id}`}
       >
@@ -126,7 +132,7 @@ const AccordionItem = memo(function AccordionItem({
         className="overflow-hidden transition-[max-height,opacity] duration-300 ease-out"
         style={{ maxHeight: height, opacity: isOpen ? 1 : 0 }}
       >
-        <div ref={contentRef}>
+        <div ref={contentRef} className={isOpen ? "px-5 sm:px-6" : ""}>
           {children}
         </div>
       </div>
