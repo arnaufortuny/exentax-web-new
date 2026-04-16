@@ -2963,5 +2963,20 @@ export const FAQ_SCHEMA_ENTRIES = [
     "@type": "Question" as const,
     "name": "¿Mi LLC tiene que cobrar IVA?",
     "acceptedAnswer": { "@type": "Answer" as const, "text": "No. Tu LLC americana no cobra IVA cuando provees servicios de consultoría, asesoramiento o desarrollo de software. EE.UU. no tiene IVA federal. Si tu cliente es una empresa en la UE (B2B), se aplica la inversión del sujeto pasivo y no pagas IVA. En Exentax te configuramos la facturación correctamente desde el primer día." }
+  },
+  {
+    "@type": "Question" as const,
+    "name": "¿Puedo abrir una cuenta en Interactive Brokers (IBKR) con mi LLC americana?",
+    "acceptedAnswer": { "@type": "Answer" as const, "text": "Sí. Interactive Brokers acepta cuentas a nombre de LLCs americanas aunque los socios no sean residentes en EE.UU. Necesitarás los Articles of Organization, Operating Agreement, carta del EIN, un W-8BEN-E firmado a nombre de la LLC (y normalmente el W-8BEN personal del socio), identificación del beneficiario final y extractos que justifiquen el origen de los fondos. Una cuenta de inversión no sustituye a Mercury o Relay para operar: se usa exclusivamente para invertir la tesorería de la empresa." }
+  },
+  {
+    "@type": "Question" as const,
+    "name": "¿Qué es el formulario W-8BEN-E y tiene que presentarlo mi LLC?",
+    "acceptedAnswer": { "@type": "Answer" as const, "text": "El W-8BEN-E es el formulario del IRS con el que una entidad extranjera — o una LLC considerada disregarded entity con socio no residente — certifica su situación fiscal ante un banco, broker, plataforma o cliente estadounidense. No se presenta ante el IRS: se entrega al pagador que lo solicita. Caduca cada 3 años (o antes si cambian los datos) y hay que renovarlo. En Exentax te lo preparamos cada vez que un banco, broker o plataforma te lo pida." }
+  },
+  {
+    "@type": "Question" as const,
+    "name": "¿Mi LLC tiene que pagar retención en EE.UU. por dividendos o intereses de inversiones americanas?",
+    "acceptedAnswer": { "@type": "Answer" as const, "text": "Depende del tipo de ingreso. Los ingresos pasivos de fuente estadounidense están sujetos a retención en origen: 30% por defecto sobre dividendos y royalties, y en algunos casos también sobre intereses (muchos intereses bancarios y de bonos están exentos por el régimen de portfolio interest). Si tu país de residencia tiene tratado de doble imposición con EE.UU., la retención sobre dividendos suele bajar al 15% (o incluso 10%) y la de intereses puede ser 0% si presentas un W-8BEN-E correctamente cumplimentado. Lo retenido se reporta en el Form 1042-S que te emite el broker o pagador a final de año y puedes acreditarlo en tu declaración en el país de residencia." }
   }
 ];
