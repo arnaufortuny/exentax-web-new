@@ -12,6 +12,7 @@ This folder is the single source of truth for everything SEO at exentax.com.
 | [`slug-conventions.md`](./slug-conventions.md) | URL / slug rules for new pages and posts. |
 | [`internal-linking.md`](./internal-linking.md) | Internal-link policy and implementation plan. |
 | [`publishing-checklist.md`](./publishing-checklist.md) | Pre-merge QA checklist for any SEO change. |
+| [`ranking-monitor.md`](./ranking-monitor.md) | Weekly Google ranking check script and alerting. |
 | [`changelog.md`](./changelog.md) | Log of SEO-affecting changes. |
 
 ## Where the SEO engine lives in the code
