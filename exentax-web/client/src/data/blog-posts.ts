@@ -6639,7 +6639,944 @@ No vendemos humo ni modas. Diseñamos estructuras fiscales basadas en la legisla
     metaTitle: "Estonia vs LLC en EE.UU.: por qué la e-Residency no conviene | Exentax",
     metaDescription: "OÜ Estonia: 20% distribuciones + contabilidad Estonian GAAP + IVA + registros públicos. LLC EE.UU.: $0 federal, Mercury FDIC, sin IVA, privacidad. Comparativa completa.",
   },
-];
+  {
+      slug: "crs-residentes-espana-latam-implicaciones",
+      title: "CRS para residentes en España y LATAM: implicaciones reales del intercambio automático",
+      excerpt: "Si vives en España o América Latina y tienes cuentas en el extranjero, el Common Reporting Standard de la OCDE afecta directamente a cómo se entera tu hacienda. Te contamos qué se reporta, cuándo y por qué importa para tu LLC.",
+      content: `El Common Reporting Standard (CRS) es la pieza más importante de la fiscalidad internacional de la última década, y muy poca gente entiende qué significa para alguien que tiene una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> o cuentas fuera de su país de residencia. Vamos a desmontar el tema con precisión técnica y sin alarmismos.
+
+  ## Qué es el CRS y por qué existe
+
+  El **Common Reporting Standard** lo aprobó el Consejo de la OCDE en julio de 2014 como respuesta al G20 tras la crisis financiera y los escándalos de evasión fiscal (LuxLeaks, Panama Papers). El objetivo: que las administraciones tributarias de los países adheridos intercambien automáticamente información sobre cuentas financieras de no residentes.
+
+  A nivel técnico, CRS es la generalización a más de 100 jurisdicciones del modelo previo (FATCA), pero con alcance multilateral en lugar de bilateral. España lo transpuso mediante el Real Decreto 1021/2015 y la Orden HAP/1695/2016, que regulan el **Modelo 289** (declaración informativa anual de cuentas financieras de no residentes que las entidades financieras españolas remiten a la AEAT, recibida en sentido inverso desde otros países adheridos).
+
+  En América Latina lo han implementado, entre otros: México (desde 2017), Argentina, Colombia, Chile, Brasil, Uruguay, Panamá, Perú, Costa Rica, Ecuador y República Dominicana. Estados Unidos, importante: **no está adherido al CRS**. Tiene su propio sistema (FATCA) que es bilateral y solo de salida, no de entrada. Profundizamos en esto en nuestro artículo sobre <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">si las cuentas bancarias en EE.UU. reportan a tu hacienda</a>.
+
+  ## Marco normativo
+
+  - **OCDE**: Common Reporting Standard, julio 2014. Estándar Común de Comunicación de Información (ECCI/CRS), texto consolidado y comentarios oficiales.
+  - **UE**: Directiva 2011/16/UE de cooperación administrativa (DAC), modificada por la DAC2 (Directiva 2014/107/UE) que incorpora el CRS al derecho de la Unión.
+  - **España**: Real Decreto 1021/2015, Orden HAP/1695/2016, Orden HAC/3625/2003 (Modelo 720), Orden HFP/886/2023 (Modelo 721 sobre criptoactivos en el extranjero).
+  - **OCDE Multilateral Competent Authority Agreement (MCAA)**: el instrumento por el que cada país activa el intercambio bilateral con cada uno de los demás. España tiene activado el intercambio con prácticamente toda la UE y con la mayor parte de jurisdicciones adheridas.
+
+  ## Qué información se reporta exactamente
+
+  Cada **Reporting Financial Institution** (banco, broker, fintech con licencia bancaria, fondo de inversión, compañía de seguros con productos de inversión) que detecte un titular cuya residencia fiscal sea distinta del país donde está la cuenta debe reportar:
+
+  | Categoría | Detalle |
+  | --- | --- |
+  | Datos del titular | Nombre, dirección, país de residencia fiscal, NIF/TIN, fecha y lugar de nacimiento (personas físicas) |
+  | Datos de la entidad | Nombre, NIF, país. En cuentas titularidad de **NFE pasivas**, también los datos de los **beneficiarios efectivos** controlantes |
+  | Datos de la cuenta | Número de cuenta, nombre y número identificativo de la institución financiera |
+  | Saldos | Saldo o valor a cierre del año natural (o al cierre de la cuenta si se canceló durante el año) |
+  | Rendimientos | Intereses brutos, dividendos brutos, otros ingresos generados, ingresos brutos por venta o reembolso de activos financieros (cuentas de custodia) |
+
+  Este flujo se envía cada año, normalmente entre mayo y septiembre del año siguiente al ejercicio reportado, y se cruza con las declaraciones del contribuyente (en España: IRPF, Modelo 720 y, desde 2024, Modelo 721 para criptoactivos).
+
+  ## Qué pasa con tu LLC americana: el matiz que casi nadie explica
+
+  Aquí es donde aparecen los malentendidos. Vamos a fijar conceptos:
+
+  1. **EE.UU. no envía datos por CRS.** Por tanto, ni Mercury, ni Relay, ni un banco regional americano enviarán datos directamente a la AEAT, SAT, DIAN o AFIP por CRS. Lo que sí hace EE.UU. es FATCA, que es **unilateral de salida**: pide datos a entidades extranjeras sobre cuentas de US persons, pero no envía datos equivalentes en sentido inverso de forma automática (sí lo hace en algunos casos a través de IGAs Modelo 1, pero el alcance es muy inferior a CRS).
+  2. **Tus cuentas en fintech europeas a nombre de la LLC SÍ se reportan.** Wise (Bélgica), Revolut (Lituania, Reino Unido tras Brexit con régimen propio), N26 (Alemania), Wallester (Estonia) son entidades financieras sujetas a CRS en sus jurisdicciones. Si la titular es tu LLC y tú eres el **beneficiario efectivo** residente fiscal en España o LATAM, esos datos llegan a tu administración tributaria. Lo desarrollamos a fondo en los artículos dedicados a <a href="/es/blog/revolut-business-crs-reporting-fiscal">Revolut y CRS</a> y <a href="/es/blog/wise-business-crs-reporting-fiscal">Wise y CRS</a>.
+  3. **Tu LLC es probablemente una NFE pasiva (Passive NFE)**, salvo que demuestre actividad operativa real (más del 50% de sus ingresos son operativos y no rentas pasivas como dividendos, intereses, alquileres o royalties no asociados a explotación). En el caso típico de un freelancer con una Single-Member LLC que factura servicios, hay debate doctrinal: una interpretación literal del CRS la trataría como Active NFE (negocio operativo), pero la fintech europea típicamente la clasifica como Passive NFE por prudencia, lo que **obliga al reporte de los controlling persons**. Este matiz se le escapa a casi todo el mundo.
+
+  ## Cómo se determina la residencia fiscal a efectos CRS
+
+  La entidad financiera aplica una **due diligence** (RD 1021/2015 y Anexo I del CRS) basada en autodeclaración del titular más indicios objetivos: dirección postal, número de teléfono, IP recurrente, NIF declarado, instrucción de transferencia repetida a cuentas en otro país, poderes otorgados a residentes en otro país.
+
+  Si tu autodeclaración dice "residencia fiscal en Andorra" pero tu IP, dirección de envío de tarjeta y giros recurrentes apuntan a Madrid, la entidad puede solicitar **documentación adicional** (certificado de residencia fiscal emitido por la autoridad tributaria competente, contrato de alquiler, etc.) o, en caso de duda, reportar a ambas jurisdicciones. Mentir en la autodeclaración CRS es una infracción tributaria en la mayoría de jurisdicciones y puede tener consecuencias penales si concurre con cuotas defraudadas relevantes (en España, art. 305 LGT y, según importe, art. 305 CP).
+
+  ## Implicaciones reales en España (Modelos 720 y 721)
+
+  Si eres residente fiscal en España y tienes:
+
+  - **Cuentas en el extranjero** con saldo individual o conjunto > 50.000 € a 31 de diciembre o saldo medio del último trimestre: **Modelo 720** informativo, primera presentación en marzo del año siguiente; sucesivas, solo si hay variación de + 20.000 € en cualquier rúbrica.
+  - **Criptoactivos en el extranjero** por > 50.000 € a 31 de diciembre: **Modelo 721**.
+  - **Valores, derechos, seguros, rentas en el extranjero** > 50.000 €: Modelo 720, secciones correspondientes.
+
+  El cruce CRS permite a la AEAT detectar omisiones casi en tiempo real respecto al ejercicio reportado. La sentencia del Tribunal de Justicia de la UE C-788/19 (27 de enero de 2022) anuló el régimen sancionador desproporcionado original del 720 por contrario al Derecho de la Unión, pero la obligación de informar **sigue plenamente vigente** con sanciones ordinarias (LGT art. 198) y con el matiz de que las rentas no declaradas pueden ser regularizadas como ganancia patrimonial no justificada (LIRPF art. 39, en lo no afectado por la STJUE).
+
+  ## Implicaciones reales en LATAM
+
+  - **México**: art. 32-A del CFF, RMF anual, cruce con declaración anual de personas físicas y morales. SAT mantiene programa específico de fiscalización de cuentas en el exterior detectadas por CRS.
+  - **Colombia**: la DIAN integra CRS en su sistema de información exógena. Cuentas omitidas pueden generar liquidación oficial por renta líquida gravable presuntiva.
+  - **Argentina**: AFIP recibe datos CRS y cruza con regímenes informativos propios. Régimen de exteriorización actualmente cerrado, por lo que la regularización es por declaración rectificativa con intereses y multa.
+  - **Chile**: SII recibe CRS y cruza con DJ 1929 (rentas en el exterior).
+  - **Uruguay y Panamá**: tradicionalmente jurisdicciones de planificación; ambos se han adherido al CRS y reportan saldos de no residentes.
+
+  ## Cómo planificar correctamente
+
+  La conclusión técnica es la opuesta a la que mucho influencer dice: **una LLC americana bien estructurada con banca exclusivamente en Mercury/Relay (EE.UU.) tiene una huella CRS mínima**, porque EE.UU. no exporta datos por CRS. Pero en cuanto añades una capa europea (Wise, Revolut, Wallester, N26), aceptas que esa información llegue a tu hacienda. No es bueno ni malo: simplemente es así, y planificar requiere conocerlo.
+
+  La estrategia profesional pasa por:
+
+  1. **Declarar correctamente.** El cruce ya existe; intentar ocultar es perder tiempo y exponerse a sanciones.
+  2. **Diseñar la estructura para que lo declarado sea fiscalmente eficiente.** Esto implica decidir país de residencia, instrumentos de inversión, calendario de remesas, deducciones aplicables y CDI aplicable. Ver nuestro <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">framework de diseño de estructura internacional</a>.
+  3. **Mantener documentación**: contratos, facturas, justificantes de gastos, libros contables de la LLC, autodeclaraciones CRS coherentes. Sin documentación, una inspección revierte de facto la carga de la prueba al contribuyente.
+  4. **Conocer los riesgos de no hacerlo bien.** Lo cubrimos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales de una mala estructuración internacional</a>.
+  5. **Entender tu actividad económica.** No tributa igual una LLC de servicios que una de e-commerce o royalties. Lo desarrollamos en <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación de la LLC según tu actividad económica</a>.
+
+  ## Errores típicos que vemos cada semana
+
+  - "Como Mercury está en EE.UU., no se entera nadie." Cierto para Mercury frente a CRS, pero falso para tus cuentas Wise/Revolut/Wallester/N26 a nombre de la misma LLC.
+  - "He puesto residencia fiscal en Andorra/Paraguay/Dubái pero sigo viviendo en España." La residencia fiscal no se elige; se determina por hechos (183 días, centro de intereses económicos, núcleo de intereses vitales, art. 9 LIRPF). Lo desarrollamos en nuestro artículo de <a href="/es/blog/nomada-digital-residencia-fiscal">residencia fiscal del nómada digital</a>.
+  - "Si mi LLC factura, no me pasa nada." La AEAT puede aplicar **transparencia fiscal internacional** (art. 100 LIS, aplicable a personas físicas vía art. 91 LIRPF) si tu LLC genera rentas pasivas y la sociedad está bajo tu control y en jurisdicción de baja tributación; aunque EE.UU. no es paraíso fiscal a estos efectos, una LLC pass-through puede activar la cláusula por la propia mecánica de Disregarded Entity. La planificación tiene que evitar ese supuesto, no ignorarlo.
+  - "Voy a poner la cuenta a nombre de un familiar." Es el clásico testaferro encubierto, cuyas implicaciones penales y fiscales analizamos en <a href="/es/blog/testaferros-prestanombres-llc-ilegal-riesgos">testaferros y prestanombres en LLCs</a>.
+
+  ## En resumen
+
+  CRS no se "evita" desde una jurisdicción europea. Se planifica con conocimiento. Una LLC americana sigue siendo una herramienta extraordinariamente útil, pero el diseño de tu stack bancario y de tu residencia fiscal son determinantes para que la huella informativa que generas sea coherente con lo que declaras.
+
+  ¿Quieres que revisemos cómo te afecta CRS en tu caso concreto y diseñemos el stack adecuado? Agenda tu asesoría gratuita y lo analizamos contigo.`,
+      category: "Fiscalidad",
+      readTime: 12,
+      publishedAt: "2026-04-16",
+      metaTitle: "CRS España y LATAM: qué reporta cada banco a tu hacienda | Exentax",
+      metaDescription: "Cómo afecta el CRS de la OCDE a residentes en España y LATAM con cuentas en el extranjero. Qué reporta cada banco, cuándo llega a tu hacienda y por qué EE.UU. está fuera.",
+    },
+    {
+      slug: "revolut-business-crs-reporting-fiscal",
+      title: "Revolut Business y CRS: qué reporta a tu hacienda y cómo planificarlo",
+      excerpt: "Si usas Revolut Business para tu LLC o cualquier estructura internacional, debes saber qué información reporta Revolut por CRS, a qué país, cuándo y con qué consecuencias. Análisis técnico completo.",
+      content: `Revolut Business es uno de los neobancos europeos más utilizados por emprendedores con estructuras internacionales, y en particular por dueños de <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americanas</a> que necesitan operar en EUR, GBP y otras divisas con tarjetas físicas y virtuales europeas. Pero Revolut también es una entidad financiera europea sujeta al **Common Reporting Standard (CRS)**, y eso tiene consecuencias muy concretas que casi nadie te cuenta antes de abrir la cuenta.
+
+  ## Qué entidades de Revolut son y dónde reportan
+
+  Revolut no es una sola empresa. El grupo opera mediante varias entidades reguladas según geografía y producto:
+
+  - **Revolut Bank UAB** (Lituania): banco con licencia plena del Banco Central de Lituania (Lietuvos Bankas) y pasaporte europeo. Es la entidad principal para clientes en el Espacio Económico Europeo desde 2021. Reporta CRS a la **Valstybinė mokesčių inspekcija (VMI)** lituana, que a su vez activa el intercambio bilateral con AEAT, SAT, DIAN, AFIP y demás autoridades adheridas.
+  - **Revolut Ltd** (Reino Unido): EMI (Electronic Money Institution) regulada por la FCA. Tras el Brexit, Reino Unido mantiene su régimen propio de CRS y sigue intercambiando con la UE. Reporta a HMRC.
+  - **Revolut Payments UAB**: EMI lituana para operativa de payments en EEE.
+  - Filiales en Singapur, Australia, EE.UU. y otros mercados con sus propios reguladores.
+
+  La consecuencia práctica: si abres Revolut Business como cliente español, mexicano, colombiano o argentino, tu cuenta normalmente está bajo Revolut Bank UAB (Lituania) y por tanto la información se envía vía VMI lituana al país de residencia fiscal que conste en tu autodeclaración CRS. El cruce posterior con tu hacienda es automático.
+
+  ## Marco normativo aplicable
+
+  - **OCDE**: Common Reporting Standard 2014, con comentarios oficiales actualizados.
+  - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), que internaliza CRS en derecho de la Unión.
+  - **Lituania**: Ley sobre intercambio automático de información financiera con fines fiscales (Įstatymas dėl automatinio finansinės sąskaitos informacijos mainų), implementación nacional del CRS y de la DAC2.
+  - **España receptora**: Real Decreto 1021/2015, Modelo 720, Modelo 721 desde 2024 para criptoactivos. Ver detalles en nuestro artículo sobre <a href="/es/blog/crs-residentes-espana-latam-implicaciones">CRS para residentes en España y LATAM</a>.
+
+  ## Qué información concreta envía Revolut
+
+  Como cualquier Reporting Financial Institution sujeta a CRS, Revolut Bank UAB reporta anualmente:
+
+  | Bloque | Datos transmitidos |
+  | --- | --- |
+  | Identificación titular | Nombre completo, dirección, país de residencia fiscal declarado, NIF/TIN, fecha y lugar de nacimiento (personas físicas) |
+  | Identificación entidad | Si la cuenta es titularidad de empresa (típico de Revolut Business): razón social, dirección registrada, EIN/NIF, clasificación CRS (Active NFE, Passive NFE, Investment Entity, etc.) |
+  | Beneficiarios efectivos | En cuentas titularidad de Passive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indirecto, o control efectivo por otros medios) |
+  | Datos de cuenta | IBAN, número de cuenta, identificador interno de la entidad |
+  | Saldos | Saldo a 31 de diciembre del ejercicio reportado o a fecha de cancelación |
+  | Movimientos | Para cuentas de depósito: intereses brutos abonados durante el año. Para cuentas de custodia: dividendos brutos, intereses brutos, otros ingresos brutos, e ingresos brutos por venta o reembolso de activos financieros |
+
+  Revolut **no envía detalle transacción a transacción**: envía agregados anuales. Pero el saldo a cierre es suficiente para que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si tienes saldos en cripto vinculados.
+
+  ## El caso de la LLC con cuenta Revolut Business
+
+  Aquí está el punto crítico. Si tu LLC americana abre una cuenta Revolut Business como cliente europeo (típicamente con dirección operativa europea, tarjeta enviada a Europa o representante en Europa), Revolut realizará la due diligence CRS sobre la **entidad** (la LLC) y, salvo que pueda clasificar la LLC como Active NFE con documentación robusta, la tratará como **Passive NFE**.
+
+  ¿Qué implica eso? Que Revolut está **obligada por la normativa CRS** a identificar a los controlling persons (tú, como propietario de la LLC) y reportar:
+
+  - Los datos de la LLC al país de residencia fiscal de la LLC (EE.UU., que **no participa** en CRS, por lo que el dato se queda en VMI Lituania sin destinatario activo en EE.UU.).
+  - Los datos de los controlling persons al país de residencia fiscal de cada controlling person. Es decir: a tu hacienda si eres residente en España, México, Colombia, Argentina, etc.
+
+  Esto significa que, aunque la LLC sea estadounidense, el dato sobre tu titularidad y el saldo de la cuenta llegará a tu hacienda nacional. La barrera FATCA-no-CRS de EE.UU. no protege la información si la cuenta operativa está en Europa.
+
+  ## Cómo se determina la clasificación de tu LLC
+
+  Revolut te pedirá completar un formulario de autodeclaración (CRS Self-Certification) en el alta. Ahí declaras:
+
+  - Si la LLC es Active NFE o Passive NFE.
+  - Quién es controlling person.
+  - País(es) de residencia fiscal de la entidad y de los controlling persons.
+
+  Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas pasivas (dividendos, intereses, alquileres, royalties no operativos, ganancias de inversión) y menos del 50% de sus activos producen o se mantienen para producir rentas pasivas. Una LLC de servicios profesionales típica que factura consultoría o desarrollo cumple los criterios de Active NFE.
+
+  Sin embargo, en la práctica Revolut tiende a aplicar criterios conservadores y, ante duda o documentación insuficiente, clasifica como Passive NFE. La consecuencia es la misma: reporta al beneficiario efectivo.
+
+  ## Qué pasa si declaras mal la residencia fiscal
+
+  Si declaras "residencia fiscal en Andorra" en el alta CRS pero Revolut detecta indicios de que vives en España (IP recurrente, dirección de envío de tarjeta, número de teléfono español, transferencias periódicas a cuentas en España), aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I CRS): te pedirá un certificado de residencia fiscal o, en su defecto, te reportará a ambas jurisdicciones. La autodeclaración falsa puede constituir infracción tributaria y, según el caso, delito.
+
+  ## Cómo planificar correctamente con Revolut Business
+
+  1. **No uses Revolut como cuenta principal de la LLC si quieres minimizar la huella CRS hacia tu país.** Mercury (EE.UU.) sigue siendo la opción óptima como cuenta principal. Revolut tiene sentido como cuenta secundaria para necesidades específicas (tarjetas físicas en Europa, conversión EUR/GBP rápida, débito SEPA).
+  2. **Si usas Revolut, declara correctamente y prepárate para que el dato llegue.** Es la única forma profesional. Lo desarrollamos en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">cómo diseñar una estructura internacional sólida</a>.
+  3. **Mantén coherencia documental.** Tu autodeclaración CRS, tu Modelo 720 y tu IRPF deben contar la misma historia.
+  4. **Conoce los riesgos.** Si declaras mal, las consecuencias se materializan tarde pero llegan, como explicamos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales de una mala estructuración internacional</a>.
+  5. **Revisa el calendario de saldos.** Revolut reporta el saldo a 31 de diciembre. Si no quieres triggers innecesarios del Modelo 720, gestiona el saldo de cierre con criterio operativo, no de "ocultación" (que es ilegal).
+
+  ## Comparativa rápida: Revolut vs Mercury vs Wise frente a CRS
+
+  | Plataforma | Jurisdicción reguladora | Sujeta a CRS | A quién reporta el dato del beneficiario español |
+  | --- | --- | --- | --- |
+  | Mercury | EE.UU. (Column NA) | No (FATCA solo) | Nadie por CRS; FATCA solo para US persons |
+  | Revolut Business | Lituania (Revolut Bank UAB) | Sí | AEAT vía VMI Lituania |
+  | Wise Business | Bélgica (Wise Europe SA, autoridad NBB) | Sí | AEAT vía autoridad belga |
+  | Wallester | Estonia | Sí | AEAT vía autoridad estonia |
+  | N26 Business | Alemania (BaFin) | Sí | AEAT vía Bundeszentralamt für Steuern |
+
+  Ampliamos la comparativa Wise en nuestro <a href="/es/blog/wise-business-crs-reporting-fiscal">artículo dedicado a Wise y CRS</a>, y la comparativa general de plataformas en <a href="/es/blog/bancos-vs-fintech-llc-donde-abrir-cuenta">bancos vs fintech para tu LLC</a>.
+
+  ## Consideraciones adicionales DAC7 y DAC8
+
+  Si tu LLC vende a través de plataformas digitales (Amazon, Etsy, Airbnb, marketplaces SaaS), la <a href="/es/blog/dac7-plataformas-digitales-reporting-2026">DAC7</a> añade un canal informativo paralelo y complementario al CRS: las plataformas reportan tus ingresos directamente a las autoridades fiscales europeas. Y si operas con criptoactivos a través de exchanges europeos, la <a href="/es/blog/dac8-criptomonedas-reporting-fiscal-2026">DAC8</a> activa el equivalente del CRS para cripto desde 2026.
+
+  ## En resumen
+
+  Revolut Business es una herramienta excelente, pero entender su perfil de reporting CRS es imprescindible si tienes una LLC y eres residente fiscal en un país adherido al CRS. La clave no es evitar Revolut, es declarar bien y diseñar el stack para que la información que se reporta sea coherente con lo que tributas.
+
+  ¿Quieres revisar tu stack bancario y entender qué se reporta a tu hacienda y cómo declararlo correctamente? Agenda tu asesoría gratuita y lo analizamos contigo.`,
+      category: "Compliance",
+      readTime: 11,
+      publishedAt: "2026-04-16",
+      metaTitle: "Revolut Business y CRS: qué reporta y cuándo a tu hacienda | Exentax",
+      metaDescription: "Revolut Business reporta a tu hacienda por CRS. Te explicamos qué datos envía, a qué país, cuándo y cómo planificar una estructura compatible.",
+    },
+    {
+      slug: "wise-business-crs-reporting-fiscal",
+      title: "Wise Business y CRS: qué reporta a tu hacienda y cómo encajarlo en tu estructura",
+      excerpt: "Wise Business es la fintech multidivisa más usada por emprendedores con LLC. Te contamos qué reporta por CRS, desde dónde, a qué autoridades, y cómo integrarlo sin sorpresas en tu estructura.",
+      content: `Wise Business (antes TransferWise) es la fintech multidivisa más utilizada por dueños de <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americanas</a> y por emprendedores internacionales en general. Su propuesta de valor es clara: tipo de cambio mid-market, IBAN local en EUR, GBP, USD y otras divisas, y comisiones bajas. Pero Wise también es una entidad financiera europea sujeta al **Common Reporting Standard (CRS)**, y eso tiene implicaciones reales que conviene conocer antes de integrar Wise en tu estructura.
+
+  ## Qué entidad de Wise opera tu cuenta y dónde reporta
+
+  Wise opera mediante varias entidades reguladas:
+
+  - **Wise Europe SA** (Bélgica): EMI (Electronic Money Institution) regulada por el **National Bank of Belgium (NBB)**. Es la entidad que da servicio a los clientes europeos desde la salida del Reino Unido del régimen del pasaporte europeo tras el Brexit. Reporta CRS al **Service Public Fédéral Finances** belga, que activa el intercambio bilateral con las autoridades fiscales del país de residencia del titular.
+  - **Wise Payments Limited** (Reino Unido): EMI regulada por la FCA. Mantiene servicio a clientes UK y a algunos clientes legacy.
+  - **Wise US Inc.**: regulada en EE.UU. como MSB (Money Services Business). Aquí no aplica CRS porque EE.UU. no está adherido.
+  - Filiales en Singapur, Australia, India, etc., con sus propios reguladores.
+
+  Para clientes europeos y para LLC con representación europea, lo habitual es que la cuenta esté bajo **Wise Europe SA (Bélgica)**. Por tanto, el reporting CRS sale de Bélgica y llega a tu hacienda nacional de residencia.
+
+  ## Marco normativo
+
+  - **OCDE**: Common Reporting Standard.
+  - **UE**: Directiva 2011/16/UE modificada por DAC2.
+  - **Bélgica**: ley de 16 de diciembre de 2015 que regula el intercambio automático de información financiera (LIAFI) y RD belga de aplicación.
+  - **España receptora**: Real Decreto 1021/2015, Modelo 720, Modelo 721. Ampliamos en nuestro artículo de <a href="/es/blog/crs-residentes-espana-latam-implicaciones">CRS para residentes en España y LATAM</a>.
+
+  ## Qué información envía Wise por CRS
+
+  Lo mismo que cualquier Reporting Financial Institution sujeta a CRS:
+
+  | Bloque | Detalle |
+  | --- | --- |
+  | Titular persona física | Nombre, dirección, residencia fiscal declarada, TIN, fecha y lugar de nacimiento |
+  | Titular entidad | Razón social, dirección, EIN/NIF, clasificación CRS (Active/Passive NFE, Investment Entity) |
+  | Controlling persons | Si la entidad es Passive NFE: datos de los beneficiarios efectivos (umbral 25% directo/indirecto o control efectivo) |
+  | Cuenta | IBAN(s) en cada divisa, número interno Wise |
+  | Saldo | Saldo agregado a 31 de diciembre del ejercicio (Wise gestiona pools por divisa; el reporte agrega) |
+  | Rendimientos | Intereses si aplica (Wise Interest, Assets), dividendos brutos, ingresos brutos por reembolso (cuentas de custodia, programa Assets) |
+
+  El producto **Wise Interest** y los productos de inversión de Wise sobre money market funds caen claramente bajo el reporting de cuentas de custodia, lo que añade el detalle de rendimientos brutos al saldo.
+
+  ## La clasificación CRS de tu LLC en Wise
+
+  Cuando abres una cuenta Wise Business para tu LLC, Wise aplica due diligence CRS sobre la entidad. Te pedirá completar el formulario de **CRS Self-Certification** indicando:
+
+  - Residencia fiscal de la LLC: EE.UU.
+  - Clasificación: Active NFE, Passive NFE, Investment Entity, Reporting Financial Institution, etc.
+  - Controlling persons (con sus datos: nombre, dirección, residencia fiscal, TIN, fecha y lugar de nacimiento).
+
+  En la práctica, una Single-Member LLC de servicios suele cumplir los requisitos de **Active NFE** (más del 50% de sus ingresos son operativos, no pasivos). Pero Wise tiende a aplicar criterios conservadores: si la documentación no es robusta o la actividad no se puede acreditar, clasifica como **Passive NFE** y reporta al controlling person.
+
+  La consecuencia: aunque la LLC sea estadounidense y EE.UU. no participe en CRS, **el dato de tu titularidad y de los saldos llegará a tu hacienda nacional** desde Bélgica.
+
+  ## Cuándo y cómo se reporta
+
+  - Cierre del ejercicio: 31 de diciembre.
+  - Wise envía el reporte CRS a la autoridad belga típicamente entre marzo y junio del año siguiente.
+  - Bélgica reenvía a las autoridades fiscales del país de residencia de cada titular y controlling person, normalmente antes del 30 de septiembre.
+  - Tu hacienda dispone del dato y lo cruza con tus declaraciones (en España, IRPF + Modelo 720 + Modelo 721 si aplica).
+
+  Por tanto, los saldos de Wise que tienes a 31/12/2025 se cruzan con tu IRPF 2025 (declarado en mayo-junio 2026) y con tu Modelo 720 (presentado en marzo 2026).
+
+  ## Errores frecuentes con Wise y la fiscalidad
+
+  1. **"Wise es solo una pasarela, no se entera nadie."** Falso. Wise es entidad financiera regulada y sujeta a CRS plena.
+  2. **"Si pongo la LLC, no me reportan a mí."** Falso para Passive NFE: se reporta a los controlling persons. Y la mayoría de Single-Member LLC se acaban clasificando como Passive NFE por prudencia del banco.
+  3. **"Mi saldo medio es bajo, no me reporta."** El saldo que reporta Wise es el de cierre, sin importar cómo haya fluctuado durante el año. Para CRS no hay umbral mínimo en cuentas preexistentes desde 2017 (umbrales de simplificación se eliminaron) ni en cuentas nuevas.
+  4. **"No declaré Wise en mi 720 porque era pequeño."** El umbral del 720 es agregado entre todas tus cuentas en el extranjero, no por cuenta. Si entre Wise + Mercury + Revolut + N26 superas 50.000 €, todas se declaran.
+  5. **"Voy a usar Wise solo para divisas, no para custodia."** Aunque uses Wise solo como cuenta operativa (depósito), sigue siendo cuenta financiera reportable. La distinción depósito/custodia afecta al detalle de rendimientos, no al reporte del saldo.
+
+  ## Comparativa con Revolut y Mercury
+
+  | Aspecto | Wise Europe (BE) | Revolut Bank UAB (LT) | Mercury (US) |
+  | --- | --- | --- | --- |
+  | Sujeta a CRS | Sí | Sí | No |
+  | Reporta beneficiario LLC | Sí (Passive NFE típico) | Sí (Passive NFE típico) | No |
+  | Producto inversión propio | Wise Assets, Interest | Stocks, Vault | Treasury, sweep FDIC |
+  | Multidivisa nativa | Excelente | Excelente | Solo USD principal |
+  | Idoneidad cuenta principal LLC | Secundaria | Secundaria | Principal |
+
+  Ampliamos esta comparativa en <a href="/es/blog/wise-business-llc-guia">la guía completa de Wise Business para tu LLC</a> y en <a href="/es/blog/revolut-business-crs-reporting-fiscal">el análisis dedicado a Revolut y CRS</a>.
+
+  ## Cómo planificar correctamente
+
+  1. **Declara correctamente desde el alta.** Indica con precisión la clasificación CRS de tu LLC y los controlling persons. Mentir o omitir es infracción y puede ser delito.
+  2. **Mantén Wise como cuenta secundaria operativa**, no como cuenta principal del negocio si quieres minimizar la huella CRS hacia tu país. Mercury sigue siendo la cuenta principal natural para una LLC americana.
+  3. **Asegura coherencia documental.** Tu autodeclaración CRS en Wise, tu Modelo 720 (España) o equivalente LATAM, y tu IRPF deben ser coherentes.
+  4. **Considera el saldo de cierre.** Si vas a tener un saldo elevado a 31/12, planifica que esté declarado y justificado (origen, finalidad, impuesto pagado).
+  5. **Conoce el resto del marco**: el <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño global de tu estructura</a> es lo que determina si Wise + LLC + tu residencia funciona o no.
+
+  ## En resumen
+
+  Wise Business no es un atajo para evitar reporting fiscal: es una excelente fintech regulada que reporta por CRS desde Bélgica a tu hacienda. Bien integrada en una estructura coherente con tu LLC americana, es muy útil. Mal integrada o usada con autodeclaraciones inexactas, es la fuente de los problemas fiscales más típicos que vemos.
+
+  ¿Quieres que revisemos cómo encaja Wise en tu estructura y qué se reporta a tu hacienda en tu caso concreto? Agenda tu asesoría gratuita.`,
+      category: "Compliance",
+      readTime: 10,
+      publishedAt: "2026-04-16",
+      metaTitle: "Wise Business y CRS: qué reporta a tu hacienda | Exentax",
+      metaDescription: "Wise Business reporta por CRS desde Bélgica. Qué datos envía, a qué autoridades fiscales, cuándo y cómo planificar tu LLC con Wise sin sorpresas.",
+    },
+    {
+      slug: "dac7-plataformas-digitales-reporting-2026",
+      title: "DAC7: el nuevo reporting de plataformas digitales que afecta a tu negocio en 2026",
+      excerpt: "Si vendes en Amazon, Etsy, Airbnb, Vinted o cualquier marketplace europeo, la DAC7 obliga a la plataforma a reportar tus ingresos a tu hacienda. Te explicamos cómo funciona y cómo planificarlo.",
+      content: `La **DAC7** es una de las normativas más importantes de los últimos años para cualquier persona o empresa que venda a través de plataformas digitales europeas, y es probablemente la regulación que más se ignora a día de hoy. Si vendes en Amazon, Etsy, eBay, Vinted, Airbnb, Booking, Uber, Cabify, Wallapop o cualquier marketplace europeo, te afecta. Y si tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> que opera en estas plataformas como vendedor, también.
+
+  ## Qué es la DAC7
+
+  La **DAC7** es la sexta modificación de la Directiva 2011/16/UE de cooperación administrativa en el ámbito de la fiscalidad (DAC). Formalmente: **Directiva (UE) 2021/514** del Consejo, de 22 de marzo de 2021. Establece la obligación para las **plataformas digitales** (operador de plataforma) de identificar a sus vendedores activos, recopilar información sobre sus ingresos y reportar anualmente esos datos a la administración tributaria del Estado miembro donde la plataforma esté registrada o tenga su lugar de dirección efectiva.
+
+  Esa administración fiscal, a su vez, comparte automáticamente la información con las autoridades tributarias de los demás Estados miembros donde residan los vendedores. Y, mediante acuerdos bilaterales o multilaterales paralelos, también con autoridades de terceros países.
+
+  España transpuso la DAC7 mediante la **Ley 13/2023 de 24 de mayo** (modificación de la Ley General Tributaria) y el **Real Decreto 117/2024 de 30 de enero**, que regulan la nueva obligación informativa de los operadores de plataformas digitales y crean el **Modelo 238** de declaración informativa.
+
+  ## A quién afecta
+
+  DAC7 afecta a:
+
+  - **Plataformas digitales** que faciliten una "actividad pertinente": venta de bienes, prestación de servicios personales, alquiler de bienes inmuebles, alquiler de medios de transporte. Incluye plataformas residentes en la UE y plataformas extranjeras que operen en la UE.
+  - **Vendedores** (sellers) que utilicen estas plataformas, tanto personas físicas como entidades, residentes en cualquier parte del mundo cuando vendan a usuarios en la UE o cuando la plataforma esté en la UE.
+
+  No es una norma "para grandes vendedores": el umbral de minimis es muy bajo (vendedores con menos de 30 transacciones de venta de bienes y menos de 2.000 € de contraprestación al año pueden quedar excluidos del reporte por la plataforma, pero no de la obligación tributaria personal).
+
+  ## Qué se reporta exactamente
+
+  Para cada vendedor, la plataforma reporta anualmente:
+
+  | Categoría | Detalle |
+  | --- | --- |
+  | Identificación vendedor (persona física) | Nombre, dirección principal, NIF, fecha de nacimiento |
+  | Identificación vendedor (entidad) | Razón social, dirección, EIN/NIF, número de registro mercantil, número de IVA si aplica |
+  | Identificación financiera | IBAN(s) o equivalentes en los que la plataforma abone los pagos |
+  | Datos de actividad | Estados miembros UE de residencia del vendedor, contraprestación total trimestral por actividad pertinente, número de operaciones por trimestre, comisiones/tasas retenidas por la plataforma |
+  | Inmuebles (alquiler) | Dirección del inmueble, número de catastro o equivalente, número de días alquilados por inmueble, tipo de inmueble |
+
+  El detalle es **trimestral**, no anual agregado, lo que permite a las haciendas cruzarlo con declaraciones de IVA y de IRPF/IS con mucha precisión.
+
+  ## Calendario y aplicación temporal
+
+  - **1 de enero de 2023**: aplicación efectiva en toda la UE.
+  - **31 de enero de 2024**: primer reporte anual relativo al ejercicio 2023.
+  - A partir de entonces: reporte anual recurrente. España: Modelo 238, primera presentación realizada en 2024 sobre datos 2023.
+  - **2026 (ahora)**: cuarto ejercicio de plena aplicación. Las haciendas tienen un histórico de tres años de datos cruzables. Las inspecciones derivadas comienzan a materializarse.
+
+  ## Cómo afecta a un dueño de LLC
+
+  Si tu LLC vende en Amazon Europa (Amazon EU SARL, Luxemburgo) o Etsy (Etsy Ireland UC, Irlanda) o cualquier plataforma europea:
+
+  1. La plataforma identifica a tu LLC como vendedor.
+  2. Recopila los datos de la LLC (EIN, dirección registrada en EE.UU., dirección operativa) y los de los **beneficiarios efectivos** si la plataforma sigue criterios estrictos de KYC.
+  3. Reporta los ingresos brutos trimestrales generados a través de la plataforma a la autoridad fiscal del país de la plataforma.
+  4. Esa autoridad reenvía a la autoridad fiscal del país de residencia del vendedor: si la LLC está registrada en EE.UU., el dato no se reenvía automáticamente porque EE.UU. no es Estado miembro UE; pero **si los beneficiarios efectivos son residentes en la UE**, el dato sobre ellos sí se reenvía a su Estado miembro de residencia.
+
+  Esto se complementa con el reporte CRS de los bancos que reciben los pagos de la plataforma. La combinación DAC7 + CRS deja muy poca opacidad.
+
+  ## Combinación con CRS, DAC8 y FATCA
+
+  DAC7 no opera de forma aislada. Es parte de un ecosistema regulatorio:
+
+  - **CRS / DAC2**: reporting bancario de saldos y rendimientos. Ver <a href="/es/blog/crs-residentes-espana-latam-implicaciones">CRS para residentes ES y LATAM</a>.
+  - **DAC6**: reporting obligatorio de mecanismos transfronterizos potencialmente agresivos por intermediarios fiscales.
+  - **DAC7**: reporting de plataformas digitales (lo que acabamos de explicar).
+  - **DAC8**: reporting de criptoactivos, plenamente aplicable desde 2026. Ver <a href="/es/blog/dac8-criptomonedas-reporting-fiscal-2026">DAC8 y criptomonedas</a>.
+  - **FATCA** (EE.UU.): reporting de cuentas de US persons en entidades extranjeras.
+
+  Si tu LLC vende en Amazon Europa, cobra en Wise Belgium, paga proveedores europeos y tú resides en España: DAC7 + CRS + DAC8 (si hay cripto) generan un perfil fiscal cruzado tridimensional difícil de eludir.
+
+  ## Implicaciones prácticas
+
+  1. **Tu IRPF e IVA deben coincidir con el reporte DAC7.** Si Amazon reporta 60.000 € de ingresos brutos en 2025 vinculados a tu beneficiario efectivo y tú declaras 0 €, la AEAT te abrirá expediente con altísima probabilidad.
+  2. **Régimen de IVA.** Vender en Amazon Europa desde una LLC americana te obliga a evaluar tu obligación de registro a efectos de IVA en la UE, OSS/IOSS, Marketplace Facilitator (Amazon retiene IVA en muchos casos como deemed supplier). Lo desarrollamos en nuestro artículo de <a href="/es/blog/iva-servicios-digitales-internacional">IVA en servicios digitales internacionales</a>.
+  3. **Fiscalidad de la LLC.** El reporte DAC7 evidencia ingresos: tu LLC, como Disregarded Entity, traspasa esos ingresos a ti como propietario, y tú los declaras donde residas. La doctrina española sobre LLC (ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">BOE febrero 2020 y doctrina DGT/TEAC sobre LLC</a>) trata estos ingresos como rendimientos imputables al socio.
+  4. **Riesgo de simulación.** Si interpones una LLC sin sustancia para vender en Amazon Europa siendo residente español, la AEAT puede considerar la operativa como simulación (LGT art. 16) y atribuir directamente los ingresos a la persona física residente. Lo desarrollamos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales de una mala estructuración internacional</a>.
+
+  ## Plataformas afectadas (lista no exhaustiva)
+
+  - **E-commerce de bienes**: Amazon, eBay, Etsy, AliExpress UE, Vinted, Wallapop, Milanuncios, Mano Mano.
+  - **Servicios personales**: Fiverr (entidad UE), Upwork (entidad UE), TaskRabbit, glovo, Just Eat, Deliveroo.
+  - **Alquiler inmobiliario**: Airbnb, Booking, Vrbo, Spotahome, Idealista (cuando intermedia pagos).
+  - **Movilidad**: Uber, Cabify, Bolt, Free Now.
+
+  ## Cómo planificar correctamente
+
+  1. **Declara los ingresos coherentemente.** Si vendes en Amazon Europa, esos ingresos se cruzan con tu IRPF español, mexicano o argentino mediante el dato DAC7 + CRS. La única estrategia válida es declarar bien.
+  2. **Optimiza dentro de lo legal.** Hay deducibilidad de gastos en la LLC (ver <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a>) y planificación de remesa al socio.
+  3. **Considera la sustancia.** Si vas a operar a gran escala desde una LLC, dótala de sustancia (oficina, contratos, gestores, presencia operativa real) o asume que la AEAT puede mirarla con criterios de transparencia/simulación. Marco completo en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+  4. **No dejes pasar el primer aviso.** Las haciendas suelen enviar comunicaciones de "discrepancia" antes de iniciar inspección formal; responder bien evita el procedimiento.
+
+  ## En resumen
+
+  DAC7 es el complemento natural de CRS para la economía de plataformas. No es opcional, no se evita y, combinada con CRS y DAC8, conforma el sistema de información tributaria más denso de la historia europea. La forma profesional de operar es declarar bien y diseñar la estructura para que lo declarado sea fiscalmente eficiente.
+
+  ¿Vendes en Amazon, Etsy, Airbnb o cualquier plataforma europea desde una LLC y quieres ver cómo optimizar legalmente tu carga fiscal sin riesgos? Agenda tu asesoría gratuita.`,
+      category: "Compliance",
+      readTime: 12,
+      publishedAt: "2026-04-16",
+      metaTitle: "DAC7 2026: reporting de plataformas digitales a tu hacienda | Exentax",
+      metaDescription: "DAC7 obliga a Amazon, Etsy, Airbnb y demás plataformas a reportar tus ingresos a tu hacienda desde 2024. Cómo afecta a tu LLC y cómo planificar.",
+    },
+    {
+      slug: "dac8-criptomonedas-reporting-fiscal-2026",
+      title: "DAC8 y criptomonedas: el reporting fiscal automático de criptoactivos en la UE en 2026",
+      excerpt: "DAC8 lleva el modelo CRS al mundo de los criptoactivos. Exchanges y proveedores de servicios cripto reportan a tu hacienda. Te explicamos qué cambia y cómo planificarlo.",
+      content: `La **DAC8** es la pieza que completa el sistema de información tributaria europeo en el mundo cripto. A partir de 2026, todos los proveedores de servicios sobre criptoactivos en la UE están obligados a reportar a las autoridades fiscales europeas la información de sus clientes y de sus operaciones, en línea con el modelo CRS aplicado a la banca tradicional. Si tienes cripto y resides en la UE, o tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> que opera con cripto en exchanges europeos, esto te afecta directamente.
+
+  ## Qué es la DAC8
+
+  La **DAC8** es la octava modificación de la Directiva 2011/16/UE de cooperación administrativa fiscal. Formalmente: **Directiva (UE) 2023/2226 del Consejo, de 17 de octubre de 2023**, que extiende el ámbito de la cooperación administrativa al nuevo **CARF** (Crypto-Asset Reporting Framework) desarrollado por la OCDE en 2023, y que se aplicará en los Estados miembros a partir del **1 de enero de 2026** con primer reporte en 2027 sobre datos 2026.
+
+  DAC8 es para criptoactivos lo que CRS / DAC2 es para depósitos bancarios y lo que <a href="/es/blog/dac7-plataformas-digitales-reporting-2026">DAC7</a> es para plataformas digitales: identificación obligatoria del cliente, recopilación estandarizada de información, reporte anual a la autoridad fiscal nacional e intercambio automático con las demás autoridades.
+
+  España va a transponer DAC8 mediante modificación de la Ley General Tributaria y normas complementarias, integrándose con el régimen ya existente del **Modelo 721** (declaración informativa de criptoactivos en el extranjero, vigente desde el ejercicio 2023 con primera presentación en 2024).
+
+  ## Marco normativo
+
+  - **OCDE**: Crypto-Asset Reporting Framework (CARF), publicado en marzo de 2023.
+  - **UE**: Directiva (UE) 2023/2226 (DAC8), 17 de octubre de 2023; aplicación 1 de enero de 2026.
+  - **Reglamento UE 2023/1114** (MiCA - Markets in Crypto-Assets): regulación de proveedores de servicios sobre criptoactivos en la UE; define quién está obligado a reportar bajo DAC8.
+  - **España**: Orden HFP/886/2023 (Modelo 721); ley de transposición de DAC8 (en tramitación).
+
+  ## A quién afecta
+
+  DAC8 afecta a:
+
+  - **Reporting Crypto-Asset Service Providers (RCASP)**: cualquier proveedor de servicios sobre criptoactivos regulado bajo MiCA en la UE. Incluye exchanges centralizados (Binance Spain, Coinbase Europe, Bitpanda, Kraken EU vía sus filiales), brokers cripto, custodios, plataformas DeFi con presencia legal en UE, emisores de stablecoins regulados.
+  - **Usuarios de los servicios** (clients): personas físicas y entidades, residentes en cualquier parte del mundo, cuyos datos se reportan a su jurisdicción de residencia fiscal.
+
+  A diferencia de CRS, DAC8 no aplica un umbral de minimis: cualquier cliente activo se reporta independientemente del saldo o volumen.
+
+  ## Qué se reporta
+
+  | Categoría | Detalle |
+  | --- | --- |
+  | Identificación cliente persona física | Nombre, dirección, residencia fiscal, TIN, fecha y lugar de nacimiento |
+  | Identificación cliente entidad | Razón social, dirección, EIN/NIF, clasificación, controlling persons (en línea CRS) |
+  | Saldo de criptoactivos | Saldo a 31 de diciembre por cada criptoactivo (BTC, ETH, USDC, etc.), en unidades del activo y en valor de mercado FIAT |
+  | Operaciones | Para cada criptoactivo: importes brutos pagados/recibidos por compras, ventas, intercambios cripto-cripto, transferencias a wallets externas (con ciertos requisitos), y por participación en eventos como staking, lending, airdrops |
+  | Métodos de pago | Si las operaciones se liquidaron en FIAT (EUR, USD, etc.) o en otros criptoactivos |
+
+  El detalle es muy granular: por activo, por categoría de operación, por trimestre.
+
+  ## Calendario
+
+  - **1 de enero de 2026**: aplicación efectiva en los Estados miembros.
+  - **2026**: ejercicio cubierto en su totalidad.
+  - **30 de junio de 2027** (aprox.): primer reporte anual de RCASP a la autoridad fiscal nacional.
+  - **30 de septiembre de 2027** (aprox.): primer intercambio automático entre Estados miembros y con terceros países adheridos.
+
+  ## Cómo afecta a un dueño de LLC con cripto
+
+  1. **LLC con cuenta en exchange europeo (Bitpanda, Coinbase Europe, Kraken EU)**: el RCASP identifica a la LLC y a sus beneficiarios efectivos. Reporta saldos y operaciones a la autoridad fiscal de su Estado miembro, que reenvía al país de residencia del beneficiario efectivo.
+  2. **LLC con cuenta en exchange estadounidense (Coinbase US, Kraken US, Gemini)**: estos exchanges no están sujetos a DAC8. EE.UU. está desarrollando su propio marco bajo el infrastructure act y el Form 1099-DA, pero el intercambio automático con UE no está vigente al mismo nivel. Los datos pueden llegar por requerimiento bilateral o por la futura red de intercambio CARF si EE.UU. se adhiere.
+  3. **Wallets autocustodia**: están fuera del reporte directo, pero las **transferencias entre exchange y wallet** sí se reportan, lo que permite a la hacienda detectar el movimiento.
+
+  ## Interacción con el Modelo 721 español
+
+  Si eres residente fiscal en España y tienes criptoactivos en plataformas extranjeras:
+
+  - Saldo a 31 de diciembre > 50.000 €: **Modelo 721** informativo, presentación entre el 1 de enero y el 31 de marzo del año siguiente.
+  - Saldo en exchanges españoles regulados (Bit2Me, etc.): no Modelo 721, pero sí se reporta vía régimen interno y, desde 2026, vía DAC8.
+  - DAC8 + Modelo 721 generan doble cruce: el dato llega a la AEAT por el RCASP del país del exchange y por la declaración del propio contribuyente.
+
+  ## Operaciones DeFi y wallets autogestionadas
+
+  DAC8 contempla la difícil cuestión de la **DeFi y la autocustodia**. La directiva impone obligaciones a los RCASP regulados, pero los protocolos DeFi sin sede ni operador identificable quedan fuera del reporte directo. Sin embargo:
+
+  1. La entrada y salida de fondos entre exchange regulado y wallet propia se reporta.
+  2. Los protocolos DeFi con frontend operado desde la UE pueden caer bajo MiCA y, por extensión, bajo DAC8.
+  3. La OCDE y la UE están desarrollando guías adicionales para DeFi.
+
+  En la práctica: la trazabilidad on-chain combinada con DAC8 hace que la opacidad práctica del DeFi sea mucho menor de lo que se pensaba.
+
+  ## Cómo planificar correctamente
+
+  1. **Lleva contabilidad cripto rigurosa.** Necesitas tracking por operación, valor en EUR/USD a la fecha de cada operación, FIFO o método de identificación específica según jurisdicción.
+  2. **Declara correctamente en tu IRPF (España: ganancias y pérdidas patrimoniales por transmisión, escala del ahorro 19-28%).** Lo introducimos en <a href="/es/blog/criptomonedas-trading-llc-impuestos">criptomonedas y trading con LLC</a>.
+  3. **Modelo 721 si superas el umbral.** No declarar es infracción específica.
+  4. **Coherencia con DAC8.** Lo que reporten los exchanges debe coincidir con lo que declares tú.
+  5. **Diseño de estructura.** Si la actividad cripto es relevante (trading frecuente, market making, protocolos DeFi), una LLC puede tener sentido para la separación patrimonial y operativa, pero no para "ocultar". Marco completo en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+
+  ## Riesgos típicos
+
+  - "Compré BTC en 2017 y nunca declaré." Si lo vendes ahora con ganancia, la AEAT detecta el flujo a tu cuenta bancaria y, mediante DAC8 + CRS, tiene base para regularización.
+  - "Uso wallet propia, no me ven." Cuando entras a fiat por un exchange regulado, ven el flujo. La trazabilidad on-chain es pública.
+  - "Pongo la LLC y ya está." Si la LLC carece de sustancia, la AEAT puede aplicar simulación o transparencia fiscal internacional. Lo desarrollamos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales</a>.
+
+  ## En resumen
+
+  DAC8 cierra el círculo. CRS para banca, DAC7 para plataformas, DAC8 para cripto. La opacidad fiscal del entorno digital se reduce drásticamente desde 2026. La planificación correcta no consiste en buscar agujeros, sino en diseñar una estructura coherente y declarar bien.
+
+  ¿Operas con cripto desde una LLC o quieres entender cómo te afecta DAC8 a ti como residente en España o LATAM? Agenda tu asesoría gratuita.`,
+      category: "Compliance",
+      readTime: 11,
+      publishedAt: "2026-04-16",
+      metaTitle: "DAC8 2026: reporting fiscal de criptomonedas a tu hacienda | Exentax",
+      metaDescription: "DAC8 obliga a exchanges y proveedores cripto en la UE a reportar tus operaciones a tu hacienda desde 2026. Qué se reporta, a quién y cómo planificar.",
+    },
+    {
+      slug: "boe-febrero-2020-llc-doctrina-administrativa",
+      title: "BOE de febrero 2020 y doctrina DGT/TEAC sobre la LLC americana: lo que España dice de tu LLC",
+      excerpt: "La doctrina administrativa española sobre cómo tributa una LLC americana es clave para residentes españoles. Repasamos la consulta V0443-19, la línea reforzada en febrero 2020 y sus implicaciones para tu IRPF.",
+      content: `Si eres residente fiscal en España y tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a>, la pregunta clave no es qué dice el IRS sino qué dice la **doctrina administrativa española** sobre tu LLC. Y aquí hay un cuerpo de consultas vinculantes de la Dirección General de Tributos (DGT) y resoluciones del Tribunal Económico-Administrativo Central (TEAC) que es absolutamente determinante. Vamos a analizarlo con precisión.
+
+  ## El problema fiscal de fondo
+
+  Una LLC estadounidense de un solo socio (Single-Member LLC) es por defecto una **Disregarded Entity** a efectos del IRS: no tributa como entidad propia y todos sus ingresos se atribuyen al socio. Pero España no es Estados Unidos, y la AEAT debe **calificar** la LLC con arreglo al ordenamiento español para decidir cómo tributa el socio residente.
+
+  Las preguntas técnicas clave son:
+
+  1. ¿Es la LLC una entidad con personalidad jurídica propia desde la perspectiva del derecho español o se asimila a un ente sin personalidad?
+  2. ¿Tributa la LLC en sí (Impuesto sobre Sociedades de no residente sin establecimiento permanente) o sus rentas se imputan directamente al socio (atribución de rentas, art. 87 LIRPF)?
+  3. Si la LLC se considera entidad opaca, ¿los rendimientos del socio son rendimientos del capital mobiliario (dividendos) o rendimientos del trabajo / actividades económicas?
+  4. ¿Aplica el Convenio de Doble Imposición España-EE.UU. (BOE de 22 de diciembre de 1990, modificado por Protocolo en vigor desde 27 de noviembre de 2019)?
+  5. ¿Cómo se evita la doble imposición?
+
+  La respuesta a estas preguntas tiene un impacto directo de hasta **20 puntos porcentuales** en tu carga fiscal personal.
+
+  ## La doctrina anterior: opacidad y dividendos
+
+  Durante años, la DGT venía considerando que las LLC de no residentes con personalidad jurídica propia bajo derecho americano debían tratarse como **entidades opacas** (similares a una S.L. española). Por tanto:
+
+  - La LLC no tributaba en España por sus rentas (no tenía establecimiento permanente).
+  - Cuando la LLC distribuía beneficios al socio residente español, esos beneficios se calificaban como **rendimientos del capital mobiliario** (dividendos), tributando en la base del ahorro al 19-28%.
+  - Aplicaba el Convenio España-EE.UU. y la deducción por doble imposición internacional.
+
+  Esta línea era favorable al contribuyente: 19-28% en IRPF base ahorro vs. 24-47% en base general por rendimientos de actividades económicas.
+
+  ## El giro: consulta V0443-19 y BOE febrero 2020
+
+  En 2019 y especialmente con la **Consulta Vinculante V0443-19, de 28 de febrero de 2019**, la DGT introduce un análisis más sofisticado que sienta las bases de la línea reforzada que se consolida en publicaciones doctrinales y resoluciones a partir de **febrero de 2020**:
+
+  > El elemento determinante para calificar fiscalmente una entidad extranjera no es su personalidad jurídica formal en el país de constitución, sino la **comparación funcional** con las figuras equivalentes del ordenamiento español, atendiendo al régimen sustantivo (responsabilidad de los socios, autonomía patrimonial, capacidad de obrar) y al régimen tributario aplicable en el país de origen (transparente vs opaco).
+
+  La conclusión técnica de esta línea: una **Single-Member LLC tratada como Disregarded Entity por el IRS** se asimila funcionalmente a una entidad en **régimen de atribución de rentas** del ordenamiento español. Es decir, una figura próxima a una comunidad de bienes o sociedad civil sin personalidad: las rentas se imputan directamente al socio en función de su naturaleza (rendimientos de actividades económicas, ganancias patrimoniales, etc.).
+
+  Esta línea se ha consolidado en consultas posteriores (entre otras V1631-21, V2034-22, V0863-23) y en resoluciones del TEAC sobre supuestos análogos.
+
+  ## Qué cambia para tu IRPF
+
+  Si tu LLC se califica como entidad en atribución de rentas:
+
+  - **No hay momento de "distribución de dividendos".** Los rendimientos se imputan al socio residente español en el ejercicio en que la LLC los obtiene, con independencia de que se hayan distribuido o no.
+  - **Se imputan según su naturaleza original.** Si la LLC presta servicios profesionales, son **rendimientos de actividades económicas** y tributan en la base general (24-47% en escala estatal y autonómica).
+  - **No aplican las exenciones por doble imposición de dividendos.** Aplica la **deducción por doble imposición internacional** (art. 80 LIRPF) solo por el impuesto efectivamente pagado en EE.UU., que para Disregarded Entity es típicamente **0 $** federal (ver <a href="/es/blog/tributacion-pass-through-llc-como-funciona">tributación pass-through</a>).
+  - **Los gastos deducibles de la LLC son deducibles** para el cálculo del rendimiento neto que se imputa al socio (igual que en cualquier actividad económica).
+
+  ## Cuándo la LLC sigue siendo opaca
+
+  No toda LLC se asimila automáticamente a entidad transparente. Si tu LLC:
+
+  - Tiene **varios socios** (Multi-Member LLC) y por defecto se trata como **Partnership** en EE.UU.: la línea es similar (atribución de rentas).
+  - Hace **check-the-box election** (Form 8832) para tributar como **C-Corporation** en EE.UU.: la situación es distinta. La LLC sí tributaría como entidad opaca en EE.UU. (impuesto federal del 21%) y la doctrina española sí podría calificarla como opaca también; las distribuciones serían dividendos al socio residente.
+
+  La Consulta DGT V2034-22 reitera esta lógica: **el régimen tributario en EE.UU. (transparente o opaco) es el indicio más relevante** para decidir la calificación a efectos españoles.
+
+  ## Convenio de Doble Imposición España-EE.UU.
+
+  El CDI España-EE.UU. (BOE 22-12-1990, modificado por Protocolo BOE 23-10-2019, en vigor desde 27-11-2019) regula el reparto de potestad tributaria entre ambos Estados. Puntos clave:
+
+  - **Art. 7 CDI**: beneficios empresariales tributan en el Estado de residencia salvo que haya **establecimiento permanente** (EP) en el otro Estado. Una LLC sin EP en EE.UU. y con socio residente español no tributa en EE.UU. por beneficios empresariales: tributa en España.
+  - **Art. 22 CDI**: cláusula de eliminación de la doble imposición.
+  - **Limitation on Benefits (LOB)**: el Protocolo de 2019 ha endurecido las cláusulas anti-treaty-shopping, lo que impacta especialmente a estructuras LLC opacas.
+
+  En la **Disregarded Entity**, el CDI se aplica directamente al socio (la LLC es transparente), y no hay impuesto americano que deducir; la deducción por doble imposición es testimonial.
+
+  ## Deducción de gastos: lo que sí puedes restar
+
+  Aunque el rendimiento se impute al socio español como actividad económica, los **gastos correlacionados con la obtención del ingreso** son deducibles igual que en cualquier actividad económica (art. 28 LIRPF y normas LIS de remisión):
+
+  - Software, hosting, herramientas SaaS.
+  - Subcontratación a terceros documentada.
+  - Comisiones de plataformas y procesadores de pago.
+  - Cuotas de Mercury, Wise, Wallester, agente registrado, contabilidad.
+  - Marketing, publicidad, formación.
+  - Local de trabajo (proporcional si es vivienda habitual, con criterios estrictos).
+
+  Más detalle en <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a>.
+
+  ## Implicaciones operativas
+
+  1. **Necesitas contabilidad real de la LLC.** No puedes "estimar" el rendimiento neto: necesitas libros, justificantes, conciliaciones bancarias.
+  2. **Tu IRPF debe declarar el rendimiento neto imputado**, no la "remesa" recibida en tu cuenta personal.
+  3. **Modelo 720 igualmente.** El régimen de atribución de rentas no exime de la obligación informativa sobre cuentas y participaciones en el extranjero.
+  4. **Modelo 100/130/131.** Si calificas como actividad económica, necesitas régimen de pagos fraccionados como cualquier autónomo (módulos no aplica).
+
+  ## Riesgo de regularización si llevabas años "como dividendos"
+
+  Si llevas años declarando los flujos de tu LLC como dividendos en base ahorro (19-28%) y la AEAT los recalifica como actividad económica imputada (base general 24-47%), la diferencia puede ser muy relevante. Periodo de prescripción: **4 años**. Sanciones: art. 191-195 LGT.
+
+  Lo que vemos: regularizaciones por el periodo no prescrito + intereses + sanción mínima del 50% (puede subir).
+
+  ## Cómo planificar correctamente
+
+  1. **Definir la calificación con criterio.** Caso típico de servicios profesionales con Single-Member LLC: actividad económica imputada por atribución de rentas.
+  2. **Diseñar la estructura para que tribute eficientemente.** Decisiones: aportaciones de capital, gastos asignados, retribución del socio, otras estructuras posibles (S.L. española + LLC operativa, etc.). Ver <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+  3. **Considerar tu actividad concreta.** Distinto régimen práctico para servicios, e-commerce, royalties, trading. Lo desarrollamos en <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación de la LLC según tu actividad económica</a>.
+  4. **Mantener documentación robusta.** Es lo que diferencia una estructura defendible de una vulnerable.
+  5. **Evitar la simulación.** Si la LLC carece de sustancia y los servicios los presta materialmente la persona física residente, la AEAT puede aplicar simulación (LGT art. 16), que conlleva mayor sanción y posible derivación penal según importes.
+
+  ## En resumen
+
+  La doctrina administrativa española sobre la LLC americana es muy específica: en el caso típico de Single-Member LLC, el rendimiento se imputa al socio residente español como actividad económica en base general. Esto requiere planificación seria, no improvisación. La buena noticia: bien diseñada, una LLC sigue siendo una herramienta excelente para internacionalizar tu negocio y optimizar legalmente tu carga fiscal global.
+
+  ¿Quieres revisar tu caso a la luz de la doctrina vigente y diseñar la estructura más eficiente para tu situación? Agenda tu asesoría gratuita.`,
+      category: "Fiscalidad",
+      readTime: 12,
+      publishedAt: "2026-04-16",
+      metaTitle: "Doctrina DGT y TEAC sobre LLC americana en España | Exentax",
+      metaDescription: "Cómo trata la doctrina administrativa española (DGT, TEAC, BOE feb-2020) a la LLC americana. Atribución de rentas al socio residente, IRPF, deducción por doble imposición.",
+    },
+    {
+      slug: "tributacion-llc-segun-actividad-economica",
+      title: "Tributación de tu LLC según tu actividad económica: servicios, e-commerce, SaaS, royalties y trading",
+      excerpt: "No tributa igual una LLC de consultoría que una de e-commerce, SaaS, royalties o trading. Análisis pragmático por tipo de actividad con implicaciones IVA, IRPF y CDI.",
+      content: `Hablar de "fiscalidad de la LLC" en abstracto lleva a errores graves: la fiscalidad real depende muy estrechamente del **tipo de actividad económica** que desarrolla la LLC, porque cada actividad activa reglas distintas de IVA, calificación de rentas, fuente de la renta, CDI aplicable y, sobre todo, exposición a transparencia fiscal internacional o reglas anti-elusión. Vamos a desglosar las cinco grandes familias que vemos en Exentax.
+
+  ## 1. Servicios profesionales (consultoría, desarrollo, diseño, marketing)
+
+  Es el caso más común y el más sencillo. Tu LLC factura servicios a clientes B2B internacionales (USA, UE, LATAM). Características:
+
+  - **Naturaleza renta**: actividad económica.
+  - **Calificación España (residente)**: rendimiento de actividad económica imputable al socio (vía atribución de rentas, ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina DGT/TEAC</a>).
+  - **IVA**: facturación B2B fuera de España con cliente comunitario, **inversión del sujeto pasivo** (el cliente se autoliquida el IVA en su país); con cliente USA u otro tercero, **operación no sujeta a IVA español** (regla de localización de servicios B2B). Profundizamos en <a href="/es/blog/iva-servicios-digitales-internacional">IVA en servicios digitales internacionales</a>.
+  - **IRPF España**: rendimiento neto en base general (24-47%).
+  - **Riesgo principal**: simulación si la sustancia operativa la aporta exclusivamente el socio residente español sin sustancia real en EE.UU.
+
+  **Optimización legítima**: maximizar gastos deducibles correctos en la LLC (software, herramientas, subcontratación, formación, marketing). El neto imputado al socio se reduce y el efectivo tipo medio cae sustancialmente respecto al autónomo puro español.
+
+  ## 2. E-commerce físico (Amazon, Shopify, dropshipping)
+
+  Vendes bienes físicos a consumidores finales internacionales. Características:
+
+  - **Naturaleza renta**: actividad económica de venta.
+  - **IVA y aduanas**: complejo. Si vendes a consumidores europeos, la LLC puede tener obligación de **registro IVA** en países UE individualmente o usar el **régimen OSS / IOSS**. Si superas determinados umbrales por país, debes registrarte localmente. Marketplaces como Amazon actúan como **deemed supplier** en muchos casos y retienen IVA, pero no en todos.
+  - **DAC7**: como vendedor en Amazon, Etsy, eBay europeos, Amazon Europa reportará tus ingresos a la autoridad fiscal de Luxemburgo, que reenvía a la del país de los beneficiarios efectivos. Ver <a href="/es/blog/dac7-plataformas-digitales-reporting-2026">DAC7</a>.
+  - **Aduanas**: si la LLC importa stock a la UE para distribución (FBA), necesita **EORI europeo**, importador de registro, posible IOR (Importer of Record).
+  - **Sales tax USA**: si vendes a consumidores en estados con economic nexus, posible obligación de registro y recaudación de sales tax. Más en <a href="/es/blog/amazon-ecommerce-llc-vender-online">Amazon y ecommerce con LLC</a>.
+
+  **Riesgo principal**: ignorar el IVA UE o el sales tax USA puede generar una factura retroactiva muy importante.
+
+  ## 3. SaaS y suscripciones digitales
+
+  Vendes acceso a software o contenido digital, B2C o B2B, en suscripción o pago único. Características:
+
+  - **Naturaleza renta**: actividad económica + cesión de uso de software (frontera con royalties).
+  - **Servicios prestados por vía electrónica (TBE)**: si vendes a consumidores europeos, sujetos a IVA en el país del consumidor. Régimen **OSS no UE** (la LLC se registra en un Estado miembro de identificación) o uso de plataformas que actúan como Merchant of Record (Paddle, FastSpring, DoDo Payments, Lemon Squeezy) que se encargan del IVA por ti.
+  - **B2B**: regla general de inversión del sujeto pasivo.
+  - **Calificación renta España**: rendimientos de actividad económica si hay desarrollo activo; si lo que cedes es licencia pasiva sobre código preexistente sin actividad operativa relevante, puede haber discusión sobre **transparencia fiscal internacional** (art. 100 LIS, vía art. 91 LIRPF).
+  - **Riesgo CFC/TFI**: si la LLC genera principalmente rentas pasivas (licencias) y carece de medios materiales y humanos en EE.UU., la AEAT puede aplicar transparencia fiscal internacional.
+
+  Más detalle en <a href="/es/blog/llc-desarrolladores-software-saas">LLC para desarrolladores de software y SaaS</a>.
+
+  ## 4. Royalties y propiedad intelectual
+
+  Tu LLC titulariza derechos (marca, software, contenido) y los licencia a terceros o a otra entidad relacionada. Características:
+
+  - **Naturaleza renta**: rentas pasivas (royalties).
+  - **Calificación CDI**: art. 12 CDI España-EE.UU. (royalties). Generalmente, el Estado de la fuente puede gravar (con límite del % CDI), y el Estado de residencia grava con deducción.
+  - **Riesgo CFC**: alto. Las rentas pasivas son el supuesto típico de transparencia fiscal internacional. Si tu LLC tiene mayoritariamente rentas pasivas y tú la controlas y resides en España, art. 91 LIRPF (remisión a art. 100 LIS) puede activarse.
+  - **Tributación efectiva**: si se aplica TFI, tributas en España como si las rentas fueran tuyas directas, con deducción de cualquier impuesto pagado por la LLC (típicamente 0$ federal en Disregarded Entity).
+  - **Cláusula LOB CDI 2019**: dificulta acceso a beneficios del CDI a estructuras híbridas o sin sustancia.
+
+  **Conclusión**: una LLC pura de royalties con socio residente español debe diseñarse con sustancia real (medios materiales, personal, decisiones tomadas en EE.UU.) o reconocer que estará bajo TFI.
+
+  ## 5. Trading (acciones, futuros, cripto)
+
+  Tu LLC opera mercados financieros con cuenta en Interactive Brokers, Tradovate o Kraken. Características:
+
+  - **Naturaleza renta**: depende del activo y del régimen. Trading FX y futuros: ganancias y pérdidas patrimoniales en muchos países; en España, si es habitual y profesional, puede recalificarse como actividad económica.
+  - **Acciones**: dividendos (rendimiento del capital mobiliario en base ahorro 19-28% si entidad opaca; si transparente, imputación directa) y ganancias por venta (base ahorro).
+  - **Cripto**: ganancias y pérdidas patrimoniales (base ahorro) o actividad económica si trading frecuente y profesional.
+  - **DAC8**: aplica desde 2026 si operas con exchanges europeos. Ver <a href="/es/blog/dac8-criptomonedas-reporting-fiscal-2026">DAC8 y criptomonedas</a>.
+  - **Riesgo CFC**: muy alto. Los rendimientos de cartera son el ejemplo paradigmático de renta pasiva sometida a TFI.
+  - **Convenio**: art. 10 (dividendos), art. 11 (intereses), art. 13 (ganancias capital). Las cláusulas LOB del Protocolo 2019 son especialmente restrictivas para estructuras de inversión sin sustancia.
+
+  Más detalle en <a href="/es/blog/criptomonedas-trading-llc-impuestos">criptomonedas y trading con LLC</a>.
+
+  ## Cuadro resumen por actividad
+
+  | Actividad | Calificación España (típica) | IVA | Riesgo CFC/TFI | Riesgo simulación | Idoneidad LLC pura |
+  | --- | --- | --- | --- | --- | --- |
+  | Servicios profesionales B2B | Actividad económica imputada | Inversión sujeto pasivo | Bajo | Medio | Alta |
+  | E-commerce | Actividad económica imputada | Complejo (OSS/IOSS, sales tax) | Bajo | Medio | Alta con cuidado |
+  | SaaS B2B | Actividad económica imputada | Inversión sujeto pasivo | Medio | Medio | Alta |
+  | SaaS B2C TBE | Actividad económica imputada | OSS no UE / MoR | Medio-alto | Medio | Media-alta |
+  | Royalties | Renta pasiva | Generalmente exento o ISP | Alto | Alto | Baja sin sustancia |
+  | Trading financiero | Rentas pasivas / ganancias capital | n/a | Muy alto | Alto | Baja sin sustancia |
+
+  ## Cómo decidir tu estructura óptima
+
+  La elección de LLC sin más no es siempre la respuesta correcta. Para actividades de bajo riesgo CFC (servicios, e-commerce, SaaS B2B), una **Single-Member LLC** con socio residente español, declarando bien y con sustancia razonable, es eficiente y defendible. Para actividades de alto riesgo CFC (royalties, trading), o se dota de **sustancia real en EE.UU.** o se considera estructurar de otra forma (S.L. española operativa + LLC con actividad limitada, planificación de residencia, etc.). Marco completo en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+
+  ## Errores típicos por actividad
+
+  - **Servicios**: olvidarse de IVA intracomunitario y registro ROI/VIES.
+  - **E-commerce**: ignorar OSS/IOSS y sales tax USA hasta que llega la liquidación.
+  - **SaaS**: no usar Merchant of Record y acabar con obligación de registro IVA en cada país UE.
+  - **Royalties**: no documentar la creación, titularidad y mantenimiento de los activos intangibles.
+  - **Trading**: confundir trading personal con trading desde LLC y mezclar cuentas.
+
+  Más sobre cómo evitar errores típicos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales</a>.
+
+  ## En resumen
+
+  Una LLC no tributa "de una manera": tributa según lo que hace, dónde lo hace y desde dónde se controla. La conversación seria de planificación fiscal empieza por entender tu actividad real, no por elegir un país en un mapa.
+
+  ¿Quieres que analicemos cómo tributa exactamente tu actividad y te diseñemos la estructura más eficiente y defendible? Agenda tu asesoría gratuita.`,
+      category: "Fiscalidad",
+      readTime: 11,
+      publishedAt: "2026-04-16",
+      metaTitle: "Tributación LLC según actividad: servicios, ecom, SaaS, royalties | Exentax",
+      metaDescription: "Cómo tributa tu LLC americana según tu actividad: servicios profesionales, e-commerce, SaaS, royalties, trading. IVA, IRPF, CDI y casuística real.",
+    },
+    {
+      slug: "riesgos-fiscales-mala-estructuracion-internacional",
+      title: "Riesgos fiscales de una mala estructuración internacional: simulación, transparencia y residencia",
+      excerpt: "Una estructura internacional mal diseñada puede convertirse en un infierno fiscal. Repasamos los seis riesgos principales que vemos en Exentax y cómo evitarlos sin renunciar a optimizar legalmente.",
+      content: `Una estructura internacional bien diseñada es una herramienta extraordinaria. Una mal diseñada es una bomba de relojería que estalla cuando menos te lo esperas, normalmente con un requerimiento de la AEAT, SAT, DIAN o AFIP que te pide explicar todo lo que has hecho los últimos cuatro años. En Exentax vemos casos cada semana, y los problemas se repiten. Te contamos los seis riesgos principales y cómo evitarlos.
+
+  ## Riesgo 1: Simulación
+
+  La **simulación** está regulada en el art. 16 de la Ley General Tributaria española y tiene equivalentes en todos los ordenamientos LATAM (México: art. 5-A CFF, Colombia: art. 869 ET, Argentina: art. 2 Ley 11.683).
+
+  Hay simulación cuando los actos o negocios celebrados son aparentes y no responden a la realidad de la operación. Aplicado a estructuras internacionales: si interpones una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> entre tú y tus clientes pero la actividad la sigues prestando tú materialmente desde España (mismo equipo, mismo domicilio, mismas decisiones), la AEAT puede declarar la simulación y atribuirte directamente las rentas como persona física.
+
+  **Consecuencia**: regularización por todos los ejercicios no prescritos (4 años en España, 5 en México, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posible delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP).
+
+  **Cómo evitarlo**: dotar a la LLC de **sustancia** real (decisión, operativa, infraestructura) o asumir desde el inicio que la LLC es una herramienta complementaria, no una fachada. Lo desarrollamos en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+
+  ## Riesgo 2: Transparencia Fiscal Internacional (TFI / CFC)
+
+  La **transparencia fiscal internacional** está regulada en España en el art. 100 de la Ley del Impuesto sobre Sociedades, aplicable a personas físicas vía art. 91 LIRPF. En LATAM, regímenes equivalentes en México (art. 176 LISR), Colombia (régimen ECE), Argentina (régimen ECNR) y Chile (rentas pasivas del art. 41 G LIR).
+
+  La TFI se activa cuando se cumplen tres condiciones acumuladas:
+
+  1. **Control**: el contribuyente tiene una participación, directa o indirecta, igual o superior al 50% en la entidad no residente (umbrales pueden variar; para personas físicas y entidades vinculadas, también).
+  2. **Baja tributación**: la tributación efectiva de la entidad no residente es inferior al 75% de la que correspondería en España (en el caso típico de Disregarded Entity con 0$ federal pagado, se cumple).
+  3. **Naturaleza de la renta**: la entidad obtiene principalmente rentas pasivas (intereses, dividendos, royalties, ganancias mobiliarias, alquileres no afectos) o rentas de servicios prestados a entidades vinculadas residentes.
+
+  Si se activa, las rentas se imputan al socio en España como si las hubiera obtenido directamente, perdiendo la ventaja fiscal de la estructura. La deducción por doble imposición es testimonial porque la LLC normalmente no paga impuesto americano.
+
+  **Cómo evitarlo**: si la actividad es operativa (servicios, e-commerce activo, SaaS con desarrollo continuado), normalmente no se activa por el filtro de naturaleza. Si es renta pasiva, hay que rediseñar (ver <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación LLC según actividad</a>).
+
+  ## Riesgo 3: Residencia fiscal ficticia
+
+  Es el más común. El contribuyente "se cambia" la residencia fiscal a Andorra, Paraguay, Dubái o Cabo Verde, pero **sigue viviendo materialmente en España**. La residencia fiscal en España (art. 9 LIRPF) se determina por hechos:
+
+  - Permanencia: > 183 días al año en territorio español (no es necesario que sean consecutivos; las ausencias esporádicas computan a favor de la permanencia salvo prueba en contrario).
+  - Centro de intereses económicos: que la base principal o núcleo de tus actividades empresariales o intereses económicos esté en España.
+  - Cónyuge no separado y/o hijos menores que residan en España: presunción iuris tantum de residencia.
+
+  La AEAT cruza datos: padrón municipal, IRPF anteriores, comunicaciones de cambio de domicilio, datos bancarios CRS, datos DAC7, vehículos a tu nombre, escuelas de los hijos, gimnasio, médico, propiedades inmobiliarias.
+
+  **Consecuencia**: si la AEAT declara que sigues siendo residente fiscal español, **toda tu renta mundial** vuelve a tributar en España, con regularización completa, intereses, sanciones y posible delito.
+
+  **Cómo evitarlo**: si te cambias de residencia, hazlo de verdad (más de 183 días fuera, sin centro de intereses en España, con certificado de residencia fiscal del nuevo país). Lo desarrollamos en <a href="/es/blog/nomada-digital-residencia-fiscal">residencia fiscal del nómada digital</a>.
+
+  ## Riesgo 4: Establecimiento permanente (EP) oculto
+
+  Si tu LLC americana opera materialmente desde España (oficina, representante con poderes, lugar fijo de negocio), puede constituir un **establecimiento permanente** en España (art. 13 LIRNR y art. 5 CDI España-EE.UU.). En tal caso:
+
+  - La LLC tributa por el Impuesto sobre la Renta de No Residentes (IRNR) por las rentas atribuibles al EP, con tipo del 25% (Impuesto sobre Sociedades aplicable al EP).
+  - Las cuentas se llevan separadamente y se documentan precios de transferencia con la matriz.
+  - Sanciones por no haber declarado el EP en su momento.
+
+  **Cómo evitarlo**: si la actividad se desarrolla esencialmente en España, plantearse si la LLC es la estructura adecuada o si conviene una S.L. española como entidad operativa. Análisis en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
+
+  ## Riesgo 5: Treaty shopping y abuso del CDI
+
+  El **Protocolo modificativo del CDI España-EE.UU.** firmado en 2013 y en vigor desde el 27 de noviembre de 2019 (BOE 23-10-2019) introdujo la cláusula de **Limitation on Benefits (LOB)**, que restringe el acceso a los beneficios del Convenio a las personas y entidades que cumplen determinados requisitos de sustancia y conexión real con uno de los Estados contratantes.
+
+  Una LLC americana cuyo único socio es residente español y cuya actividad real se localiza en España difícilmente cumple los tests LOB del Protocolo. Adicionalmente, la cláusula de **Principal Purpose Test (PPT)** (art. 7 BEPS, MLI) permite denegar beneficios cuando uno de los principales propósitos de la operación es obtener el beneficio convencional.
+
+  **Consecuencia**: la AEAT puede denegar la aplicación del CDI, lo que en el caso de la LLC Disregarded suele ser irrelevante porque ya tributas en España, pero sí afecta a estructuras más complejas (LLC + Holding + entidad operativa).
+
+  ## Riesgo 6: Delito fiscal
+
+  En España, el delito fiscal del art. 305 CP se activa cuando la cuota defraudada por ejercicio fiscal supera **120.000 €** (240.000 € si la administración perjudicada es la UE). Equivalentes en LATAM con umbrales propios.
+
+  Una estructura mal diseñada con varios años de impagos puede acumular cuotas que crucen ese umbral con relativa facilidad: si tu actividad genera 200.000 € anuales y deberías haber tributado al 47% pero declaraste al 0%, en dos años cruzas el umbral y entras en el ámbito penal.
+
+  Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura organizada o se utilizan paraísos fiscales.
+
+  **Cómo evitarlo**: estructura legal correcta + declaración correcta + pago correcto. Hay margen amplio de optimización **dentro** de la ley; salirse no tiene sentido.
+
+  ## Cómo se materializan estos riesgos en la práctica
+
+  El recorrido típico es:
+
+  1. Año 1-2: la persona estructura su LLC sin asesoramiento, declara mal o no declara.
+  2. Año 3: cruce CRS / DAC7 / DAC8 detecta inconsistencias.
+  3. Año 4: comunicación de "discrepancia" o requerimiento informativo de la AEAT.
+  4. Año 5: liquidación provisional, propuesta de regularización + intereses + sanción.
+  5. Año 6: si los importes superan los umbrales penales y no hay regularización voluntaria previa, traslado al Ministerio Fiscal.
+
+  La **regularización voluntaria** antes del requerimiento (art. 305.4 CP) excluye la responsabilidad penal y reduce significativamente la sanción tributaria. Es siempre la mejor opción si detectas que tu situación necesita ajuste.
+
+  ## Cómo construir una estructura sin estos riesgos
+
+  1. **Empezar por la calificación correcta** de la LLC en tu jurisdicción (ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina DGT/TEAC sobre LLC</a>).
+  2. **Diseñar conforme a la actividad real** (ver <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación LLC según actividad</a>).
+  3. **Documentar y mantener registros** que sostengan la sustancia.
+  4. **Declarar en plazo** todas las obligaciones formales (Modelo 720, Modelo 721, IRPF, IVA, retenciones, modelo 238 si aplica DAC7).
+  5. **Coherencia entre datos reportados (CRS, DAC7, DAC8) y datos declarados.**
+  6. **Asesoramiento profesional**.
+
+  ## En resumen
+
+  Los riesgos fiscales no son hipotéticos: son la realidad de las inspecciones que vemos cada mes. La buena noticia es que todos estos riesgos son **evitables** con planificación seria y honesta. La optimización fiscal legal existe y es muy potente; la opacidad como estrategia es un atajo que termina siempre en el mismo sitio.
+
+  ¿Quieres una revisión profesional de tu estructura para detectar y corregir riesgos antes de que sea la AEAT quien los detecte? Agenda tu asesoría gratuita.`,
+      category: "Fiscalidad",
+      readTime: 11,
+      publishedAt: "2026-04-16",
+      metaTitle: "Riesgos fiscales de una mala estructura internacional | Exentax",
+      metaDescription: "Simulación, transparencia fiscal internacional, residencia ficticia, EP oculto, treaty shopping y delito fiscal: los seis riesgos típicos de una mala estructura.",
+    },
+    {
+      slug: "diseno-estructura-fiscal-internacional-solida",
+      title: "Diseño de una estructura fiscal internacional sólida: framework profesional paso a paso",
+      excerpt: "Cómo diseñar una estructura internacional eficiente, defendible y a prueba de inspecciones. Framework completo en seis pasos con normativa, criterios y ejemplos por perfil.",
+      content: `Diseñar una estructura fiscal internacional no es elegir el país más exótico del mapa, ni copiar la estructura del influencer de turno. Es un ejercicio metódico que exige análisis personalizado, normativa cruzada y, sobre todo, honestidad sobre tu situación real. En Exentax llevamos años aplicando el mismo framework profesional, y aquí lo compartimos paso a paso.
+
+  ## Paso 1: Diagnóstico real (no aspiracional)
+
+  Antes de "diseñar" nada hay que entender:
+
+  - **Tu actividad económica real**: qué vendes, a quién, cómo cobras, qué gastos tienes, cuál es tu margen, qué crecimiento esperas. Esto determina la calificación fiscal y el régimen aplicable. Detalle por actividad en <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación LLC según actividad</a>.
+  - **Tu residencia fiscal real (no la deseada)**: días de presencia, centro de intereses económicos, núcleo familiar. La residencia fiscal no se elige por declaración, se determina por hechos. Lo desarrollamos en <a href="/es/blog/nomada-digital-residencia-fiscal">residencia fiscal del nómada digital</a>.
+  - **Tu situación patrimonial**: qué tienes, dónde, en qué titularidad. El diagnóstico patrimonial define qué hace falta proteger y qué hay que declarar (Modelo 720, 721 en España; equivalentes LATAM).
+  - **Tu objetivo a 5 años**: crecer, mantener, vender el negocio, retirarte. Cada objetivo lleva a estructuras distintas.
+
+  Sin este diagnóstico, cualquier "diseño" es un disparo a ciegas.
+
+  ## Paso 2: Definir la residencia fiscal objetivo
+
+  Hay tres escenarios:
+
+  1. **Mantienes residencia en España/LATAM**: la estructura debe ser eficiente con esa residencia. Es la situación de la mayoría de nuestros clientes y donde más valor añadido aporta una buena planificación.
+  2. **Cambias residencia a un país con régimen fiscal más eficiente** (Andorra, Portugal NHR/IFICI, Italia régimen 100k, Emiratos, Paraguay, Costa Rica, etc.): exige mudanza real, certificado de residencia, ruptura efectiva con el país de origen y tiempo (mínimo el ejercicio completo de cambio).
+  3. **Eres ya nómada digital con base operativa en un país sin convenio o con régimen especial**: cada caso necesita análisis.
+
+  Decidir esto **antes** del diseño evita rediseños costosos.
+
+  ## Paso 3: Elegir el vehículo correcto
+
+  No hay un vehículo "mejor". Hay un vehículo **adecuado** a cada perfil. Las opciones más habituales:
+
+  - **Single-Member LLC USA Disregarded Entity**: ideal para servicios profesionales B2B internacionales, bajo riesgo CFC, alta eficiencia operativa. Comparativa de estados en <a href="/es/blog/nuevo-mexico-vs-wyoming-vs-delaware">Nuevo México vs Wyoming vs Delaware</a>.
+  - **Multi-Member LLC USA Partnership**: cuando hay varios socios sin necesidad de tributación corporativa.
+  - **LLC con check-the-box election como C-Corp**: cuando se necesita opacidad fiscal corporativa, generalmente para reinversión de beneficios o para captar inversión.
+  - **S.L. española operativa**: cuando la actividad es esencialmente española y el riesgo de simulación o EP oculto es alto.
+  - **Holding español + filial extranjera**: para perfiles patrimoniales con necesidades de sucesión, varios negocios o operaciones internacionales complejas.
+  - **Estonian OÜ, Hong Kong Limited, Singapore Pte Ltd, BVI**: vehículos específicos con requisitos y limitaciones propios. La OÜ estonia, en particular, está sobrevalorada en redes; ver <a href="/es/blog/por-que-no-abrir-empresa-estonia">por qué no abrir empresa en Estonia</a>.
+
+  La elección correcta depende del cruce diagnóstico × residencia × actividad × visión de salida.
+
+  ## Paso 4: Dotar de sustancia
+
+  La **sustancia** (substance) es lo que diferencia una estructura defendible de una papel. Se compone de:
+
+  - **Sustancia legal**: documentos formales (Articles, Operating Agreement, BOI Report, EIN, agente registrado, dirección operativa real). Ver <a href="/es/blog/documentos-llc-cuales-necesitas">documentos de tu LLC</a>.
+  - **Sustancia operativa**: separación clara de cuentas, contabilidad real, contratos con clientes, facturas emitidas en nombre de la LLC, herramientas y servicios contratados a nombre de la LLC, presencia en marketing y comunicación a nombre de la LLC. Ver <a href="/es/blog/separar-dinero-personal-llc-por-que-importa">separar dinero personal y de tu LLC</a>.
+  - **Sustancia económica**: ingresos generados a nombre de la LLC, gastos deducibles imputados a la LLC, capital de trabajo en cuentas de la LLC. Ver <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a>.
+  - **Sustancia decisional**: decisiones estratégicas y operativas tomadas a nombre de la LLC, idealmente documentadas en actas o memos.
+
+  Sin sustancia, una estructura cae al primer requerimiento serio.
+
+  ## Paso 5: Diseñar el stack bancario coherente
+
+  El stack bancario es la otra mitad de la sustancia. Recomendaciones generales:
+
+  - **Cuenta principal**: Mercury o Relay (USA), por su solidez operativa, banca FDIC sweep y baja huella CRS. Ver <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">cómo abrir Mercury</a>.
+  - **Cuenta multidivisa secundaria**: Wise Business o Revolut Business para EUR/GBP/operativa europea, conscientes de su perfil CRS. Ver <a href="/es/blog/wise-business-crs-reporting-fiscal">Wise y CRS</a> y <a href="/es/blog/revolut-business-crs-reporting-fiscal">Revolut y CRS</a>.
+  - **Tarjetas corporativas**: Wallester o las propias de Mercury/Relay.
+  - **Pasarelas de pago**: Stripe, PayPal, Adyen o DoDo Payments según modelo. Ver <a href="/es/blog/pasarelas-pago-llc-stripe-paypal-dodo">comparativa de pasarelas</a>.
+  - **Tesorería e inversión**: Slash o Mercury Treasury para liquidez operativa; Interactive Brokers para inversión a más largo plazo.
+
+  Coherencia clave: las cuentas y tarjetas a nombre de la LLC, cobros y pagos vinculados a actividad real, ningún uso personal mezclado.
+
+  ## Paso 6: Compliance y revisión continua
+
+  El cumplimiento no es un evento, es un proceso anual:
+
+  - **EE.UU.**: Form 5472 + Form 1120 pro-forma anual, BOI Report a FinCEN, renovación agente registrado, Annual Report estatal si aplica. Ver <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report 2026</a> y <a href="/es/blog/mantenimiento-anual-llc-obligaciones">mantenimiento anual de tu LLC</a>.
+  - **España (residente)**: IRPF anual con rendimientos imputados, IVA si aplica, Modelo 720 si superas el umbral, Modelo 721 para cripto, Modelo 100/130, posible Modelo 238 (DAC7) si vendes en plataformas.
+  - **LATAM**: declaración anual + regímenes informativos de rentas en el exterior según país.
+  - **Revisión anual**: residencia fiscal, sustancia, stack bancario, normativa nueva (DAC7, DAC8, MiCA, cambios CDI), umbrales modificados.
+
+  ## Ejemplos por perfil
+
+  **Perfil 1: Consultor freelance B2B residente en España, factura 80.000-150.000 €/año, sin equipo.**
+
+  Estructura recomendada típica: Single-Member LLC en Nuevo México, Disregarded Entity, Mercury principal + Wise secundario para clientes EUR, Wallester para tarjetas, contabilidad a nombre de la LLC. Calificación España: rendimiento de actividad económica imputada al socio. Ahorro vs autónomo puro: significativo en cotización + base general gracias a deducciones de la LLC.
+
+  **Perfil 2: E-commerce en Amazon Europa, residente en España, 200.000-500.000 €/año.**
+
+  Estructura recomendada: LLC con sustancia + IOSS/OSS en un Estado UE de identificación + asesoramiento aduanero. Posiblemente filial UE para minimizar fricción de IVA si volumen lo justifica. Coordinación obligatoria con DAC7.
+
+  **Perfil 3: SaaS B2B internacional, residente en LATAM, 100.000 € arr.**
+
+  LLC + Mercury + Stripe + Merchant of Record para suscripciones internacionales. Calificación local depende del país; planificación de remesa al socio.
+
+  **Perfil 4: Trader profesional con cripto y futuros.**
+
+  LLC sin sustancia es alto riesgo (CFC). Análisis de cambio de residencia o estructura con sustancia real. Posible filial en jurisdicción con régimen específico para trading. Compliance DAC8 obligatorio.
+
+  ## El framework en una imagen
+
+  | Paso | Pregunta | Output |
+  | --- | --- | --- |
+  | 1 | ¿Quién soy fiscalmente? | Diagnóstico residencia + actividad + patrimonio |
+  | 2 | ¿Dónde voy a residir? | Decisión de residencia objetivo |
+  | 3 | ¿Qué vehículo necesito? | Forma jurídica óptima |
+  | 4 | ¿Cómo le doy sustancia? | Plan operativo y documental |
+  | 5 | ¿Cómo opera el dinero? | Stack bancario coherente |
+  | 6 | ¿Cómo lo mantengo? | Plan compliance + revisión anual |
+
+  ## Errores típicos a evitar
+
+  - Saltarte el paso 1 y abrir LLC sin diagnóstico.
+  - Cambiar de residencia "sobre el papel" sin mudanza real.
+  - Elegir vehículo por moda y no por encaje.
+  - Diseñar sin sustancia para "ahorrar tiempo y dinero".
+  - Mezclar finanzas personales y de la LLC.
+  - No planificar revisión anual.
+
+  Para evitar caer en ellos, ver el catálogo completo de riesgos en <a href="/es/blog/riesgos-fiscales-mala-estructuracion-internacional">riesgos fiscales de una mala estructuración internacional</a>.
+
+  ## En resumen
+
+  Una estructura fiscal internacional sólida es resultado de un proceso, no de un atajo. Cada paso del framework refuerza al siguiente. Saltarse uno, debilita todos los demás. La buena noticia: bien diseñada, una estructura internacional puede reducir tu carga fiscal de forma muy significativa **dentro de la ley**, con una huella documental sólida y sin sobresaltos.
+
+  ¿Quieres que diseñemos contigo tu estructura paso a paso aplicando este framework a tu caso? Agenda tu asesoría gratuita y empezamos.`,
+      category: "Fiscalidad",
+      readTime: 12,
+      publishedAt: "2026-04-16",
+      metaTitle: "Cómo diseñar una estructura fiscal internacional sólida | Exentax",
+      metaDescription: "Framework profesional en 6 pasos para diseñar tu estructura fiscal internacional. Residencia, vehículo, sustancia, banca, compliance y revisión continua.",
+    },
+  ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find(p => p.slug === slug);
