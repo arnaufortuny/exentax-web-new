@@ -16,12 +16,12 @@ The application serves three audiences:
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React 18, Vite 7, Wouter (routing), TanStack Query v5, Tailwind CSS 3, i18next |
+| Frontend | React 19, Vite 7, Wouter (routing), TanStack Query v5, Tailwind CSS 3, i18next (6 locales: es/en/fr/de/pt/ca) |
 | Backend | Express 5 (ESM), TypeScript 5.6, tsx (dev runner) |
 | Database | PostgreSQL via Drizzle ORM |
 | Email | Gmail API (service account JWT delegation via `googleapis`) with branded HTML layout |
 | Meetings | Google Calendar + Google Meet API |
-| Build | esbuild (server bundle → `dist/index.cjs`), Vite (client → `dist/public/`) |
+| Build | esbuild (server bundle → `dist/index.mjs`, ESM), Vite (client → `dist/public/`) |
 | Runtime | Node.js 20+ |
 
 ---
@@ -47,7 +47,7 @@ exentax-web/
 │       │   ├── legal/         # Terms, privacy, cookies, refunds, disclaimer
 │       │   ├── admin/         # Admin dashboard (tabs, analytics, client management)
 │       │   └── clientes/      # Client login + portal (tabs for LLC, calendar, invoices, docs)
-│       ├── i18n/              # i18next config + locale TypeScript modules (es, en, fr, de, it, pt, ca)
+│       ├── i18n/              # i18next config + locale TypeScript modules (es, en, fr, de, pt, ca)
 │       ├── lib/               # queryClient, constants, utilities
 │       └── App.tsx            # Root router
 ├── server/
@@ -93,7 +93,7 @@ exentax-web/
 │   ├── google-utils.ts        # Google API shared utilities
 │   ├── sanitize-middleware.ts # Auto-sanitise request body (XSS prevention)
 │   ├── route-helpers.ts       # Rate limiters, CSRF check, file upload (multer), reminder scheduling
-│   ├── file-encryption.ts     # AES-256-GCM encryption for uploaded documents
+│   ├── field-encryption.ts    # AES-256-GCM helpers (`encryptField`/`decryptField`) — currently used to encrypt the `phone` column in `leads` and `calculadora`
 │   ├── circuit-breaker.ts     # Circuit breaker for external service calls
 │   ├── logger.ts              # Structured logger
 │   ├── db.ts                  # Drizzle + pg pool initialisation
@@ -194,9 +194,8 @@ API endpoints are prefixed with `/api/`. A few server-rendered routes (`/sitemap
 | GET | `/api/newsletter/unsubscribe/:token` | Unsubscribe from newsletter |
 | POST | `/api/visitor` | Track page visit |
 | POST | `/api/consent` | Record GDPR consent |
-| GET | `/api/seo/page-meta` | SEO metadata for a page |
-| GET | `/sitemap.xml` | Dynamic sitemap |
-| GET | `/robots.txt` | Robots file |
+| GET | `/sitemap.xml` | Dynamic sitemap (all routes × 6 langs + blog posts, with `hreflang` + `x-default`) |
+| GET | `/robots.txt` | Robots file (blocks `/api/`, `/admin/`, UTM/tracking query duplicates) |
 
 ### Client Portal Endpoints (`/api/clientes/*`)
 
@@ -459,8 +458,7 @@ All sent alerts are recorded in `alertas_fiscales` to prevent duplicates (matche
 | `DATABASE_URL` | Always | PostgreSQL connection string |
 | `ADMIN_PASSWORD` | Always | Password for the owner admin account |
 | `SESSION_SECRET` | Production | Random 64+ character string for HMAC session signing |
-| `DOCUMENT_ENCRYPTION_KEY` | Production | 64 hex characters (32 bytes) for AES-256-GCM document encryption |
-| `FIELD_ENCRYPTION_KEY` | Production | 64 hex characters (32 bytes) for AES-256-GCM field encryption (EIN, IBAN, phone) |
+| `FIELD_ENCRYPTION_KEY` | Production | 64 hex characters (32 bytes) used by AES-256-GCM `encryptField`/`decryptField`. Currently applied to the `phone` column of `leads` and `calculadora`. Required at runtime as soon as any encrypted field is read or written (the helper throws if missing); set it in production before any traffic. |
 | `GOOGLE_SERVICE_ACCOUNT_KEY` | For email/calendar | Google service account JSON key (must include `client_email` and `private_key`) — used for Gmail API (JWT delegation) and Google Calendar/Meet |
 | `GOOGLE_CALENDAR_ID` | For calendar/Meet | Google Calendar ID for meeting events (default: `hola@exentax.com`) |
 | `NODE_ENV` | — | `development` or `production` |
@@ -511,8 +509,8 @@ The project uses Drizzle ORM with `drizzle-kit` for schema management. Tables ar
 ### Build for Production
 
 ```bash
-npm run build    # Bundles server (esbuild → dist/index.cjs) + client (Vite → dist/public/)
-npm run start    # Runs the production bundle
+npm run build    # Bundles server (esbuild → dist/index.mjs, ESM) + client (Vite → dist/public/)
+npm run start    # Runs the production bundle (node dist/index.mjs)
 ```
 
 ### Type Checking
@@ -525,12 +523,55 @@ npm run check    # tsc --noEmit
 
 ## Deployment Notes
 
-- The production build outputs a single CJS bundle (`dist/index.cjs`) that serves both the API and the static frontend from `dist/public/`.
-- `SESSION_SECRET` and `DOCUMENT_ENCRYPTION_KEY` are **required** in production; the server will exit if they are missing.
+- The production build outputs a single ESM bundle (`dist/index.mjs`) that serves both the API and the static frontend from `dist/public/`.
+- `DATABASE_URL` is hard-required and the server exits at boot if it is missing. `SESSION_SECRET` is required for HMAC-signed cookies and `FIELD_ENCRYPTION_KEY` is required for the encrypted `phone` column — both will throw on first use if absent, so set them before opening the service to traffic.
 - Sitemap pings (Google + Bing) are sent automatically on production startup.
 - The server sets `trust proxy: 1` for correct IP detection behind a reverse proxy.
 - HSTS is enabled in production with a 2-year max-age and preload.
 - Rate limiting uses in-memory maps (capped at 10,000 entries with automatic cleanup).
+
+### Hostinger VPS deployment
+
+The application is designed to run on a single Hostinger VPS (Node.js 20+). Shared hosting is not sufficient — a PostgreSQL-capable VPS is required.
+
+**1. Provision**
+- Node.js 20 LTS, PostgreSQL 14+, a reverse proxy (Nginx) terminating TLS.
+- Point the domain (`exentax.com`) and any subdomain to the VPS public IP. Install a Let's Encrypt certificate.
+
+**2. Environment**
+- Create `.env` in the app directory (or use systemd `EnvironmentFile=`). Required keys:
+  - `DATABASE_URL`, `ADMIN_PASSWORD`, `SESSION_SECRET` (≥64 chars), `FIELD_ENCRYPTION_KEY` (64 hex chars), `NODE_ENV=production`, `PORT=5000`.
+  - Optional: Google service account, Discord webhooks, `SITE_URL=https://exentax.com`.
+- Generate secrets once:
+  ```bash
+  node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"   # SESSION_SECRET
+  node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"   # FIELD_ENCRYPTION_KEY
+  ```
+
+**3. Build**
+```bash
+npm ci
+npm run build
+npm run db:push   # apply Drizzle schema
+```
+
+**4. Run as a service**
+Create `/etc/systemd/system/exentax.service` pointing `ExecStart=/usr/bin/node dist/index.mjs` with `WorkingDirectory=/var/www/exentax/exentax-web` and `EnvironmentFile=/var/www/exentax/.env`. Enable with `systemctl enable --now exentax`.
+
+**5. Nginx reverse proxy**
+- Proxy `https://exentax.com` → `http://127.0.0.1:5000` with `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for` and `X-Forwarded-Proto $scheme` (required by `trust proxy: 1`).
+- Let the Node server serve `/sitemap.xml` and `/robots.txt` directly — do not override them in Nginx.
+- Keep `Host` header untouched so CSRF origin check works.
+
+**6. Post-deploy verification**
+- `curl -I https://exentax.com` → expect `Strict-Transport-Security`, `Content-Security-Policy`, `X-Content-Type-Options: nosniff`.
+- `curl https://exentax.com/sitemap.xml | head -5` → valid XML with `hreflang` alternates.
+- `curl https://exentax.com/robots.txt` → includes `Sitemap:` directive and UTM disallows.
+- `curl https://exentax.com/api/health` → `{"status":"ok"}`.
+- Verify `/es`, `/en`, `/fr`, `/de`, `/pt`, `/ca` all render with correct `<html lang>` and canonical.
+
+**7. Updates**
+- `git pull && npm ci && npm run build && systemctl restart exentax`. The in-memory sitemap cache (TTL 1 h) warms on first request.
 
 ---
 
@@ -550,7 +591,7 @@ npm run check    # tsc --noEmit
 
 7. **Multi-tier alert scheduling**: Fiscal alerts use a tiered day-threshold system (30/10/3/1 for clients, 45/15 for internal) with deduplication to avoid alert fatigue while ensuring compliance deadlines are never missed.
 
-8. **Document encryption at rest**: Uploaded documents are encrypted with AES-256-GCM before writing to disk, with the encryption key stored as an environment variable.
+8. **Field encryption at rest**: Sensitive PII (currently the `phone` column on `leads` and `calculadora`) is encrypted with AES-256-GCM via `encryptField`/`decryptField`, using a key stored in `FIELD_ENCRYPTION_KEY`.
 
 9. **Route modularisation**: Admin routes are split across ~12 files by domain (CRM, clients, LLCs, invoicing, analytics, etc.) to keep individual files manageable while sharing auth context.
 

@@ -762,6 +762,7 @@ export type TranslationKey =
   | "calculator.marketingText"
   | "calculator.optional"
   | "calculator.calculating"
+  | "calculator.sendError"
   | "calculator.seeMyEstimate"
   | "calculator.estimatedAnnualSavings"
   | "calculator.perYearWithLLC"
