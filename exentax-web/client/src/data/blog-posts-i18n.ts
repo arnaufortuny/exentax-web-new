@@ -1,17 +1,17 @@
 type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
-  export interface BlogPostMeta {
-    title: string;
-    excerpt: string;
-    metaTitle: string;
-    metaDescription: string;
-    keywords?: string[];
-    content?: string;
-  }
+export interface BlogPostMeta {
+  title: string;
+  excerpt: string;
+  metaTitle: string;
+  metaDescription: string;
+  keywords?: string[];
+  content?: string;
+}
 
-  type BlogI18nMap = Record<string, Partial<Record<SupportedLang, BlogPostMeta>>>;
+type BlogI18nMap = Record<string, Partial<Record<SupportedLang, BlogPostMeta>>>;
 
-  export const BLOG_I18N: BlogI18nMap = {
+export const BLOG_I18N: BlogI18nMap = {
     "llc-estados-unidos-guia-completa-2026": {
     en: { title: "LLC in the United States: complete guide for non-residents in 2026", excerpt: "Everything you need to know before forming a US LLC as a foreigner. State comparison (NM vs WY vs DE), real costs, 0% federal tax structure, Mercury banking and fintech stack.", metaTitle: "LLC in the United States: guide for non-residents 2026", metaDescription: "Complete 2026 guide to forming a US LLC as a non-resident. State comparison, real cost breakdown ($0-$300/yr), fintech banking with Mercury and Wise, 0%.", keywords: ["US LLC for non-residents", "form a US LLC", "LLC for foreigners", "Mercury LLC", "LLC tax 0%"] },
     fr: { title: "LLC aux États-Unis : guide complet pour non-résidents en 2026", excerpt: "Tout ce que vous devez savoir avant de créer une LLC américaine en tant qu'étranger. États, coûts, fiscalité et erreurs à éviter.", metaTitle: "LLC aux États-Unis : guide complet pour non-résidents 2026", metaDescription: "Guide complet pour créer une LLC aux États-Unis en tant qu'étranger. États, coûts, fiscalité et comment choisir la meilleure option.", keywords: ["LLC USA non-résidents", "créer une LLC", "LLC pour étrangers", "Mercury LLC", "fiscalité LLC"] },

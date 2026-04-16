@@ -185,6 +185,15 @@ function injectMeta(html: string, reqPath: string): string {
 
   if (isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
+    const i18nMetaForKeywords = post && blogLang !== "es" ? BLOG_I18N[post.slug]?.[blogLang] : undefined;
+    const articleKeywords = i18nMetaForKeywords?.keywords || post?.keywords;
+    if (articleKeywords && articleKeywords.length > 0) {
+      const escapedKeywords = articleKeywords.join(", ").replace(/"/g, "&quot;");
+      html = html.replace(
+        /<meta name="keywords" content="[^"]*"/,
+        `<meta name="keywords" content="${escapedKeywords}"`
+      );
+    }
     const publishedTime = post?.publishedAt || "2026-03-05";
     const modifiedTime = post?.updatedAt || publishedTime;
     const artI18n = ARTICLE_META_I18N[blogLang] || ARTICLE_META_I18N.es;
