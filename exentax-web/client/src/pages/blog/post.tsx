@@ -1,12 +1,12 @@
 import { useParams, Link } from "wouter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { BRAND, CONTACT } from "@/lib/constants";
 import SEO from "@/components/SEO";
 import { useReveal } from "@/hooks/useReveal";
 import { useLangPath } from "@/hooks/useLangPath";
 import { getBlogPost, BLOG_POSTS, getLocalizedMeta, getTranslatedSlug, resolveToSpanishSlug } from "@/data/blog-posts";
-import { getLocalizedBlogContent } from "@/data/blog-posts-content";
+import { loadBlogContent } from "@/data/blog-posts-content";
 import { sanitizeHtml } from "@/lib/sanitize";
 import NotFound from "@/pages/not-found";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
@@ -215,6 +215,38 @@ export default function BlogPost() {
   const resolvedSlug = slug ? resolveToSpanishSlug(slug, lang) : slug;
   const post = resolvedSlug ? getBlogPost(resolvedSlug) : undefined;
 
+  const [contentText, setContentText] = useState<string | undefined>(undefined);
+  const [contentLang, setContentLang] = useState<SupportedLang | undefined>(undefined);
+  const [contentReady, setContentReady] = useState(false);
+
+  const postSlugForLoad = post?.slug;
+
+  useEffect(() => {
+    if (!postSlugForLoad) return;
+    let cancelled = false;
+    setContentReady(false);
+    setContentText(undefined);
+    setContentLang(undefined);
+    (async () => {
+      try {
+        const direct = await loadBlogContent(postSlugForLoad, lang);
+        if (cancelled) return;
+        if (direct) {
+          setContentText(direct);
+          setContentLang(lang);
+        } else if (lang !== "es") {
+          const fallback = await loadBlogContent(postSlugForLoad, "es");
+          if (cancelled) return;
+          setContentText(fallback);
+          setContentLang("es");
+        }
+      } finally {
+        if (!cancelled) setContentReady(true);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [postSlugForLoad, lang]);
+
   if (!post && slug) {
     const directPost = getBlogPost(slug);
     if (directPost) {
@@ -243,10 +275,8 @@ export default function BlogPost() {
     ? new Date(post.updatedAt).toLocaleDateString(dateLocale, { year: "numeric", month: "long", day: "numeric" })
     : null;
 
-  const localizedContent = lang !== "es" ? getLocalizedBlogContent(post.slug, lang) : undefined;
-  const contentToRender = localizedContent || post.content;
-  const articleHtml = parseMarkdown(contentToRender, lp("book"));
-  const isInSpanish = lang !== "es" && !localizedContent;
+  const isInSpanish = lang !== "es" && contentReady && contentLang === "es";
+  const articleHtml = contentText ? parseMarkdown(contentText, lp("book")) : "";
 
   const currentTranslatedSlug = getTranslatedSlug(post.slug, lang);
   return (

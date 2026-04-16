@@ -209,8 +209,7 @@ export default function BlogIndex() {
       return (
         searchTitle.toLowerCase().includes(q) ||
         searchExcerpt.toLowerCase().includes(q) ||
-        post.category.toLowerCase().includes(q) ||
-        post.content.toLowerCase().includes(q)
+        post.category.toLowerCase().includes(q)
       );
     });
   }, [search, activeCategory, lang]);

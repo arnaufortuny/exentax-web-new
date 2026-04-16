@@ -9,6 +9,7 @@ import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
+import { BLOG_CONTENT_ES } from "../client/src/data/blog-posts-content-es";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
 import { getRelatedPosts } from "../client/src/data/blog-related";
@@ -213,7 +214,7 @@ function injectMeta(html: string, reqPath: string): string {
       const i18nPost = blogLang !== "es" ? BLOG_I18N[post.slug]?.[blogLang] : undefined;
       const prerenderTitle = i18nPost?.title || post.title;
       const prerenderExcerpt = i18nPost?.excerpt || post.excerpt;
-      const prerenderContent = i18nPost?.content || post.content;
+      const prerenderContent = i18nPost?.content || BLOG_CONTENT_ES[post.slug] || "";
       const related = getRelatedPosts(post.slug, blogLang, 3);
       const relatedHtml = related.length > 0
         ? `<aside><h2>${RELATED_HEADING[blogLang] || RELATED_HEADING.es}</h2><ul>${related.map(r => `<li><a href="${r.href}">${r.title}</a></li>`).join("")}</ul></aside>`
@@ -377,7 +378,7 @@ function injectMeta(html: string, reqPath: string): string {
           "mainEntityOfPage": articleUrl,
           "inLanguage": blogLang,
           "articleSection": post.category || (ARTICLE_META_I18N[blogLang] || ARTICLE_META_I18N.es).section,
-          "wordCount": Math.round(post.content.split(/\s+/).length)
+          "wordCount": Math.round((BLOG_CONTENT_ES[post.slug] || "").split(/\s+/).length)
         }
       ];
     }

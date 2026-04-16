@@ -22,11 +22,17 @@ export default defineConfig({
     chunkSizeWarningLimit: 3000,
     rollupOptions: {
       output: {
-        manualChunks: {
-          "vendor-react": ["react", "react-dom"],
-          "vendor-query": ["@tanstack/react-query"],
-          "vendor-router": ["wouter"],
-          "vendor-i18n": ["i18next", "react-i18next"],
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            if (id.includes("react-dom") || id.match(/[\\/]react[\\/]/)) return "vendor-react";
+            if (id.includes("@tanstack/react-query")) return "vendor-query";
+            if (id.includes("wouter")) return "vendor-router";
+            if (id.includes("i18next")) return "vendor-i18n";
+            return undefined;
+          }
+          const m = id.match(/client[\\/]src[\\/]data[\\/]blog-posts-content-(es|en|fr|de|pt|ca)\.ts$/);
+          if (m) return `blog-content-${m[1]}`;
+          return undefined;
         },
       },
       treeshake: {
