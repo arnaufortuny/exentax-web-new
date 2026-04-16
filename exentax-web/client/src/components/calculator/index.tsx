@@ -8,6 +8,7 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { trackFormSubmit } from "@/components/Tracking";
 import CalculatorResults from "./CalculatorResults";
 import EmailGateForm from "./EmailGateForm";
+import { clientLogger } from "@/lib/clientLogger";
 
 interface CalculatorProps {
   compact?: boolean;
@@ -167,7 +168,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       marketingAccepted: marketingAccepted,
       language: i18n.language,
     }).catch((e) => {
-      console.error("[calculator] submission failed", e);
+      clientLogger.warn("[calculator] submission failed", e);
       setSendError(true);
     }).finally(() => setSending(false));
   }

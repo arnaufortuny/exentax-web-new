@@ -6,6 +6,7 @@ import { STORAGE_KEYS } from "@/lib/constants";
 import { CookieIcon } from "@/components/icons";
 import { LanguageService } from "@/i18n";
 import { useLangPath } from "@/hooks/useLangPath";
+import { clientLogger } from "@/lib/clientLogger";
 const CONSENT_KEY = STORAGE_KEYS.COOKIE_CONSENT;
 
 export type CookieConsent = "all" | "essential" | null;
@@ -69,7 +70,7 @@ export default function CookieBanner() {
 
     fetch("/api/legal/versions").then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }).then(data => {
       if (data?.versions?.cookies?.version) setCookieDocVersion(data.versions.cookies.version);
-    }).catch((e) => console.error("[cookie-banner] legal versions fetch failed", e));
+    }).catch((e) => clientLogger.warn("[cookie-banner] legal versions fetch failed", e));
 
     return () => window.removeEventListener("cookie-consent-change", handler);
   }, []);
@@ -88,7 +89,7 @@ export default function CookieBanner() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
-    }).catch((e) => console.error("[cookie-banner] consent log failed", e));
+    }).catch((e) => clientLogger.warn("[cookie-banner] consent log failed", e));
   };
 
   const accept = (choice: "all" | "essential") => {

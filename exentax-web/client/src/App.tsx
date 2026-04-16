@@ -1,5 +1,6 @@
-import { memo, lazy, Suspense, useEffect, useRef } from "react";
+import { memo, lazy, Suspense, useEffect, useRef, Component, type ReactNode } from "react";
 import { Switch, Route, useLocation } from "wouter";
+import { clientLogger } from "@/lib/clientLogger";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import Layout from "@/components/layout/Layout";
@@ -107,13 +108,48 @@ function prefetchAllPages() {
   prefetchDone = true;
   priorityPageKeys.forEach((key) => {
     const load = pageImports[key as keyof typeof pageImports];
-    if (load) load().catch((e) => console.error("[prefetch]", e));
+    if (load) load().catch((e) => clientLogger.warn("[prefetch]", e));
   });
   setTimeout(() => {
     Object.entries(pageImports)
       .filter(([key]) => key !== "home" && !priorityPageKeys.has(key))
-      .forEach(([, load]) => load().catch((e) => console.error("[prefetch]", e)));
+      .forEach(([, load]) => load().catch((e) => clientLogger.warn("[prefetch]", e)));
   }, 5000);
+}
+
+interface RouteErrorBoundaryProps {
+  children: ReactNode;
+  routeKey: string;
+}
+interface RouteErrorBoundaryState {
+  hasError: boolean;
+  key: string;
+}
+
+class RouteErrorBoundary extends Component<RouteErrorBoundaryProps, RouteErrorBoundaryState> {
+  state: RouteErrorBoundaryState = { hasError: false, key: this.props.routeKey };
+
+  static getDerivedStateFromError(): Partial<RouteErrorBoundaryState> {
+    return { hasError: true };
+  }
+
+  static getDerivedStateFromProps(props: RouteErrorBoundaryProps, state: RouteErrorBoundaryState): Partial<RouteErrorBoundaryState> | null {
+    if (props.routeKey !== state.key) {
+      return { hasError: false, key: props.routeKey };
+    }
+    return null;
+  }
+
+  componentDidCatch(error: unknown) {
+    clientLogger.error("[RouteErrorBoundary]", error);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <EmptyLoader />;
+    }
+    return this.props.children;
+  }
 }
 
 function EmptyLoader() {
@@ -160,7 +196,9 @@ function generateLocalizedRoutes() {
 const localizedRoutes = generateLocalizedRoutes();
 
 const AppRouter = memo(function AppRouter() {
+  const [location] = useLocation();
   return (
+    <RouteErrorBoundary routeKey={location}>
     <Switch>
       <Route path="/links">
         <Suspense fallback={<EmptyLoader />}><LinksPage /></Suspense>
@@ -219,6 +257,7 @@ const AppRouter = memo(function AppRouter() {
         </Layout>
       </Route>
     </Switch>
+    </RouteErrorBoundary>
   );
 });
 

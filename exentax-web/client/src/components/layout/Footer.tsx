@@ -5,6 +5,7 @@ import { clearCookieConsent } from "@/components/CookieBanner";
 import { BRAND, CONTACT, SOCIAL } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
 import { trackFormSubmit } from "@/components/Tracking";
+import { clientLogger } from "@/lib/clientLogger";
 
 function NewsletterSignup() {
   const { t, i18n } = useTranslation();
@@ -46,7 +47,7 @@ function NewsletterSignup() {
         setStatus("error");
       }
     } catch (err) {
-      console.error("[footer] newsletter subscribe failed", err);
+      clientLogger.warn("[footer] newsletter subscribe failed", err);
       setStatus("error");
     }
   };

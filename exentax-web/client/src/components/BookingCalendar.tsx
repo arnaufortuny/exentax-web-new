@@ -176,6 +176,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
     onError: (error: Error) => {
+      setStep("form");
       queryClient.invalidateQueries({ queryKey: ["/api/bookings/available-slots"] });
       const msg = error.message?.includes("429") ? t("errors.rateLimited") : t("errors.serverError");
       showMsg(msg, "error");
@@ -240,6 +241,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     }
     setPrivacyError(false);
 
+    setStep("confirming");
     bookMutation.mutate({
       name: formData.name,
       lastName: formData.lastName,

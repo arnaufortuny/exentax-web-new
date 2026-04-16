@@ -1,6 +1,7 @@
 import { useEffect, useCallback } from "react";
 import { useLocation } from "wouter";
 import { getCookieConsent } from "./CookieBanner";
+import { clientLogger } from "@/lib/clientLogger";
 
 const GA4_ID = import.meta.env.VITE_GA4_ID as string | undefined;
 const GTM_ID = import.meta.env.VITE_GTM_ID as string | undefined;
@@ -201,7 +202,7 @@ function reportVisit(path: string) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
     keepalive: true,
-  }).catch((e) => console.error("[tracking] visitor report failed", e));
+  }).catch((e) => clientLogger.warn("[tracking] visitor report failed", e));
 }
 
 export default function Tracking() {
