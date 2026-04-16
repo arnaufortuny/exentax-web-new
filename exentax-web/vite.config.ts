@@ -22,16 +22,18 @@ export default defineConfig({
     chunkSizeWarningLimit: 3000,
     rollupOptions: {
       output: {
+        experimentalMinChunkSize: 0,
         manualChunks(id) {
+          const blogContentMatch = id.match(/[\\/]client[\\/]src[\\/]data[\\/]blog-content[\\/]([a-z]{2})[\\/]([^\\/]+)\.ts$/);
+          if (blogContentMatch) {
+            return `blog-${blogContentMatch[1]}-${blogContentMatch[2]}`;
+          }
           if (id.includes("node_modules")) {
             if (id.includes("react-dom") || id.match(/[\\/]react[\\/]/)) return "vendor-react";
             if (id.includes("@tanstack/react-query")) return "vendor-query";
             if (id.includes("wouter")) return "vendor-router";
             if (id.includes("i18next")) return "vendor-i18n";
-            return undefined;
           }
-          const m = id.match(/client[\\/]src[\\/]data[\\/]blog-posts-content-(es|en|fr|de|pt|ca)\.ts$/);
-          if (m) return `blog-content-${m[1]}`;
           return undefined;
         },
       },

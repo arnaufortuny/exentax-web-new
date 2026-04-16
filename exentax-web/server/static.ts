@@ -9,7 +9,7 @@ import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
-import { BLOG_CONTENT_ES } from "../client/src/data/blog-posts-content-es";
+import { BLOG_CONTENT_ES } from "../client/src/data/blog-content/es-all";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
 import { getRelatedPosts } from "../client/src/data/blog-related";
