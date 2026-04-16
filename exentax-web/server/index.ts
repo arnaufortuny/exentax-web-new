@@ -144,6 +144,34 @@ app.use((req, res, next) => {
   next();
 });
 
+// SEO: 301-redirect legacy unprefixed Spanish URLs to their /es/... canonical.
+// This eliminates duplicate-content risk and consolidates link equity.
+// See docs/seo/audit-2026.md §2.1.
+const LEGACY_ES_REDIRECTS: Record<string, string> = {
+  "/sobre-las-llc":        "/es/sobre-las-llc",
+  "/como-trabajamos":      "/es/como-trabajamos",
+  "/nuestros-servicios":   "/es/nuestros-servicios",
+  "/servicios":            "/es/nuestros-servicios",
+  "/preguntas-frecuentes": "/es/preguntas-frecuentes",
+  "/agendar":              "/es/agendar",
+  "/blog":                 "/es/blog",
+  "/legal/terminos":       "/es/legal/terminos",
+  "/legal/privacidad":     "/es/legal/privacidad",
+  "/legal/cookies":        "/es/legal/cookies",
+  "/legal/reembolsos":     "/es/legal/reembolsos",
+  "/legal/disclaimer":     "/es/legal/disclaimer",
+};
+app.use((req, res, next) => {
+  const p = req.path;
+  const qs = req.originalUrl.includes("?") ? req.originalUrl.slice(req.originalUrl.indexOf("?")) : "";
+  const direct = LEGACY_ES_REDIRECTS[p];
+  if (direct) return res.redirect(301, direct + qs);
+  if (p.startsWith("/blog/") && p.length > 6) {
+    return res.redirect(301, `/es${p}${qs}`);
+  }
+  next();
+});
+
 app.use((req, res, next) => {
   const url = req.path.toLowerCase();
   if (url.match(/\.(ico|png|svg|webp)$/) && (url.includes("favicon") || url.includes("icon") || url.includes("apple-touch") || url === "/og-image.png")) {

@@ -35,12 +35,14 @@
     <link rel="alternate" hreflang="ca" href="https://exentax.com/ca" />
     <link rel="alternate" hreflang="x-default" href="https://exentax.com/es" />
     <link rel="sitemap" type="application/xml" href="https://exentax.com/sitemap.xml" />
-    <link rel="preload" as="image" href="/img/partner-mercury.webp" type="image/webp" />
-    <link rel="preload" as="image" href="/img/partner-relay.webp" type="image/webp" />
-    <link rel="preload" as="image" href="/img/partner-visa.webp" type="image/webp" />
-    <link rel="preload" as="image" href="/img/partner-stripe.webp" type="image/webp" />
-    <link rel="preload" as="image" href="/img/partner-wallester.webp" type="image/webp" />
-    <link rel="preload" as="image" href="/img/partner-wise.png" type="image/png" />
+    <!--
+      Below-the-fold partner-carousel logo preloads were removed in the
+      2026 SEO overhaul. They were stealing bandwidth from the real
+      LCP candidate (the hero logo/image) and inflating the critical
+      request chain without improving perceived performance. The
+      partner logos are picked up on demand by the BanksCarousel
+      component when they enter the viewport.
+    -->
 
     <meta property="og:site_name" content="Exentax" />
     <meta property="og:title" content="Exentax — Paga menos impuestos legalmente con tu LLC en EE.UU." />
@@ -371,15 +373,7 @@
       "alternateName": ["Exentax LLC", "Exentax Asesoría Fiscal", "Exentax España"],
       "url": "https://exentax.com",
       "description": "Paga menos impuestos legalmente. Optimización fiscal para autónomos, freelancers y negocios digitales. Estructuras fiscales personalizadas con carga tributaria estimada del 8-12% según tu caso.",
-      "inLanguage": "es",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://exentax.com/es/preguntas-frecuentes?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
+      "inLanguage": "es"
     }
     </script>
 

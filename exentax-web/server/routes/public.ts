@@ -917,6 +917,18 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Disallow: /start",
       "Disallow: /booking/",
       "",
+      "# Block tracking/attribution query-string duplicates",
+      "Disallow: /*?ref=",
+      "Disallow: /*?utm_source=",
+      "Disallow: /*?utm_medium=",
+      "Disallow: /*?utm_campaign=",
+      "Disallow: /*?utm_term=",
+      "Disallow: /*?utm_content=",
+      "Disallow: /*?gclid=",
+      "Disallow: /*?fbclid=",
+      "Disallow: /*?mc_cid=",
+      "Disallow: /*?mc_eid=",
+      "",
       `Sitemap: ${SITE_URL}/sitemap.xml`,
     ].join("\n");
 

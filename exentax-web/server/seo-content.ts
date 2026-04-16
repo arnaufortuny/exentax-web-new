@@ -542,7 +542,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
       es: "LLC en EE.UU. para no residentes — Guía completa 2026 | Exentax",
       en: "US LLC for non-residents · Complete guide 2026 | Exentax",
       fr: "LLC aux États-Unis pour non-résidents · Guide complet 2026 | Exentax",
-      de: "US-LLC für Nicht-Residenten · Vollständiger Leitfaden 2026 | Exentax",
+      de: "US-LLC für Nicht-Residenten · Leitfaden 2026 | Exentax",
       pt: "LLC nos EUA para não residentes · Guia completo 2026 | Exentax",
       ca: "LLC als EUA per a no residents · Guia completa 2026 | Exentax",
     },
@@ -1376,7 +1376,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Sobre las LLC", "item": `${BASE_URL}/sobre-las-llc` }
+        { "@type": "ListItem", "position": 2, "name": "Sobre las LLC", "item": `${BASE_URL}/es/sobre-las-llc` }
       ]
     },
     {
@@ -1389,7 +1389,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "datePublished": "2026-03-05",
       "dateModified": "2026-03-05",
-      "mainEntityOfPage": `${BASE_URL}/sobre-las-llc`,
+      "mainEntityOfPage": `${BASE_URL}/es/sobre-las-llc`,
       "inLanguage": "es",
       "about": [
         { "@type": "Thing", "name": "LLC en Estados Unidos" },
@@ -1410,7 +1410,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Así Trabajamos", "item": `${BASE_URL}/como-trabajamos` }
+        { "@type": "ListItem", "position": 2, "name": "Así Trabajamos", "item": `${BASE_URL}/es/como-trabajamos` }
       ]
     },
     {
@@ -1443,7 +1443,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
           "position": 2,
           "name": "Constitución de la LLC",
           "text": "Nos encargamos de todo: Articles of Organization, Operating Agreement, obtención del EIN ante el IRS, y designación de agente registrado. Todo 100% remoto en 2-4 semanas.",
-          "url": `${BASE_URL}/sobre-las-llc`
+          "url": `${BASE_URL}/es/sobre-las-llc`
         },
         {
           "@type": "HowToStep",
@@ -1468,7 +1468,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
-        { "@type": "ListItem", "position": 2, "name": "Planes y Tarifas", "item": `${BASE_URL}/servicios` }
+        { "@type": "ListItem", "position": 2, "name": "Planes y Tarifas", "item": `${BASE_URL}/es/nuestros-servicios` }
       ]
     },
     {
@@ -2092,6 +2092,789 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
   ],
+};
+
+// Per-language SEO prerender content for main pages. Spanish lives in
+// PAGE_SEO_CONTENT (legacy). This map supplies keyword-optimized H1/H2/H3
+// rewrites for non-Spanish languages. Falls back to Spanish when a
+// language is missing; see docs/seo/editorial-guide.md.
+export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record<RouteKey, string>>>> = {
+  en: {
+    home: `<article>
+<h1>Pay less tax legally with a US LLC — Exentax</h1>
+<h2>International tax optimization for freelancers and digital entrepreneurs</h2>
+<p>If you invoice international clients from Spain, Argentina, Mexico, Colombia, Chile or Peru, you are likely paying 30–47% in tax. A properly structured US LLC can bring your effective rate down to 8–12%, fully legally.</p>
+<p>At Exentax we design international tax structures so you pay only what you owe, with certainty and without guesswork. We reduce your tax burden from 40% to as low as 0% through legitimate tax planning.</p>
+<h2>How Exentax is different</h2>
+<ul>
+<li>-37% average tax reduction for our clients</li>
+<li>31+ clients with an optimized structure</li>
+<li>Strategic 30-minute video consultation</li>
+<li>100% remote — no travel to the United States required</li>
+<li>Ongoing fiscal compliance — you are never on your own</li>
+</ul>
+<h2>US LLC formation for non-residents</h2>
+<ul>
+<li>New Mexico LLC — efficient structure with no Annual Report</li>
+<li>Wyoming LLC — maximum privacy and asset protection</li>
+<li>Delaware LLC — best legal framework for investor-facing companies</li>
+</ul>
+<p>Includes: Articles of Organization, Operating Agreement, EIN (IRS tax ID), Registered Agent, Mercury business account and 12 months of support.</p>
+<h2>Who is Exentax for?</h2>
+<p>Freelancers, software engineers, designers, consultants, content creators, crypto and forex traders, e-commerce owners, SaaS founders, marketing agencies and digital nomads invoicing internationally.</p>
+<nav>
+<a href="/en/about-llc">US LLC for non-residents — 2026 guide</a>
+<a href="/en/how-we-work">How we work — step by step</a>
+<a href="/en/our-services">Services and pricing</a>
+<a href="/en/faq">Frequently asked questions</a>
+<a href="/en/book">Book a strategic tax consultation</a>
+</nav>
+</article>`,
+    about_llc: `<article>
+<h1>US LLC for non-residents — the complete 2026 guide</h1>
+<h2>What is a US LLC and why it matters for international freelancers</h2>
+<p>A Limited Liability Company (LLC) is a US business structure that combines limited liability protection with pass-through taxation. For non-resident single-member owners, a US LLC is typically classified as a Disregarded Entity and pays no federal income tax in the United States on foreign-source income.</p>
+<h2>Advantages of a US LLC for non-residents</h2>
+<ul>
+<li>No federal income tax for foreign-owned Single-Member LLCs on foreign-source income</li>
+<li>Limited liability — your personal assets are separated from the business</li>
+<li>US dollar business banking through Mercury or Relay</li>
+<li>International invoicing with no geographic restrictions</li>
+<li>Access to Stripe, PayPal and Wise Business without country limitations</li>
+<li>Privacy and anonymity depending on the state (Wyoming offers the strongest)</li>
+<li>Credibility of an incorporated US entity</li>
+<li>No US residency or visa required</li>
+</ul>
+<h2>Best US states to form your LLC in 2026</h2>
+<h3>New Mexico — efficient structure for digital entrepreneurs</h3>
+<p>No Annual Report, no state income tax, simple ongoing compliance. Ideal for founders who prioritize operational simplicity and low recurring costs.</p>
+<h3>Wyoming — maximum privacy for your LLC</h3>
+<p>No state tax, top-tier anonymity (members are not public record), strong asset protection statutes and modern business law. The right choice when privacy matters.</p>
+<h3>Delaware — best legal framework and Court of Chancery</h3>
+<p>Specialized Court of Chancery for business disputes, the preferred jurisdiction for startups seeking investors. Recommended if you plan to raise capital from US investors.</p>
+<h2>How to form your US LLC step by step</h2>
+<ol>
+<li>Strategic tax diagnosis — analysis of your situation, income and residency</li>
+<li>State selection — personalized recommendation among New Mexico, Wyoming and Delaware</li>
+<li>LLC formation — filing the Articles of Organization with the state</li>
+<li>EIN application — obtaining the IRS tax ID for your LLC</li>
+<li>Operating Agreement — drafting your LLC's internal governance contract</li>
+<li>Business bank account — opening Mercury or Relay in USD</li>
+<li>Payment processors — Stripe setup for international collections</li>
+</ol>
+<h2>Annual tax obligations of a US LLC for foreign owners</h2>
+<ul>
+<li>Form 5472 — annual information return on transactions with related parties</li>
+<li>Form 1120 — corporate return filed as a pro forma cover for Form 5472</li>
+<li>BOI Report — Beneficial Ownership Information filed with FinCEN</li>
+<li>Annual Report — only required in Wyoming and Delaware (New Mexico does not require one)</li>
+<li>Registered Agent renewal — annual, in the state of formation</li>
+</ul>
+<p>See <a href="/en/our-services">services and pricing</a> or <a href="/en/book">book a strategic tax consultation</a>.</p>
+</article>`,
+    how_we_work: `<article>
+<h1>How We Work — step-by-step tax optimization</h1>
+<h2>A clear, four-phase process with no surprises</h2>
+<p>Exentax runs a structured four-phase process to optimize your international tax position legally and safely. Everything is 100% remote — no travel to the United States required.</p>
+<h2>Phase 1 — Strategic Tax Diagnosis</h2>
+<p>A 30-minute video consultation where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
+<h2>Phase 2 — LLC Formation</h2>
+<p>We handle the full formation in the state that best fits your case: Articles of Organization, personalized Operating Agreement, IRS EIN application and Registered Agent designation. Typical completion in 2–4 weeks.</p>
+<h2>Phase 3 — Banking and Payment Setup</h2>
+<p>We open your Mercury or Relay business bank account in USD and configure Stripe and any additional payment processors you need to invoice internationally without restrictions.</p>
+<h2>Phase 4 — Ongoing Compliance</h2>
+<p>Continuous fiscal management throughout the year: Form 5472, Form 1120, BOI Report, Registered Agent renewal, Annual Report (Wyoming / Delaware) and ongoing advisory. Your LLC remains in good standing with the IRS and your country's tax authority.</p>
+<p><a href="/en/book">Book your strategic diagnosis</a> or review <a href="/en/our-services">services and pricing</a>.</p>
+</article>`,
+    our_services: `<article>
+<h1>International tax structuring — US LLC services</h1>
+<h2>Form your US LLC with a specialized team</h2>
+<h3>New Mexico LLC</h3>
+<p>Efficient structure without unnecessary complexity. No Annual Report, no state income tax. Includes: Articles of Organization, Operating Agreement, EIN, 12 months of Registered Agent and Mercury business account.</p>
+<h3>Wyoming LLC</h3>
+<p>Maximum privacy and anonymity. No state tax. Superior asset protection. Includes: Articles of Organization, Operating Agreement, EIN, 12 months of Registered Agent and Mercury business account. Ideal when privacy matters.</p>
+<h3>Delaware LLC</h3>
+<p>The strongest legal framework in the United States, with the specialized Court of Chancery. Ideal for startups and investor-facing companies. Includes: Articles of Organization, Operating Agreement, EIN, 12 months of Registered Agent and Mercury business account.</p>
+<h2>Annual maintenance — keep your LLC in good standing</h2>
+<h3>New Mexico maintenance</h3>
+<p>IRS filings (Form 1120, Form 5472), BOI Report, Registered Agent renewal, annual compliance and expert support. No Annual Report required, which keeps recurring cost down.</p>
+<h3>Wyoming maintenance</h3>
+<p>Everything in the base plan plus state Annual Report, FATCA/CRS compliance, priority support and ongoing advisory with periodic reviews.</p>
+<h3>Delaware maintenance</h3>
+<p>Premium tier with full compliance, Annual Report, Franchise Tax, ongoing tax optimization, 24/7 support, unlimited advisory and quarterly tax review.</p>
+<h2>Additional services</h2>
+<ul>
+<li>ITIN application (Individual Taxpayer Identification Number)</li>
+<li>30-minute strategic tax consultation via Google Meet</li>
+</ul>
+<p>No hidden fees. No lock-in. Cancel anytime. <a href="/en/book">Book a strategic tax consultation</a>.</p>
+</article>`,
+    faq: `<article>
+<h1>Frequently asked questions — US LLC and international tax</h1>
+<h2>About US LLCs</h2>
+<h3>What is a US LLC?</h3>
+<p>A Limited Liability Company (LLC) is a US business structure that provides limited liability and flexible taxation. For non-resident single-member owners, there is no US federal income tax on foreign-source income.</p>
+<h3>Do I need to travel to the United States to form an LLC?</h3>
+<p>No. The entire process is 100% remote. We handle formation, EIN and bank account opening without you leaving your country.</p>
+<h3>Which state is best for my LLC?</h3>
+<p>It depends on your priorities: New Mexico for cost efficiency, Wyoming for privacy, Delaware for the strongest legal framework. See <a href="/en/our-services">our services</a>.</p>
+<h3>How long does LLC formation take?</h3>
+<p>Formation takes 2–4 weeks. The EIN can take 1–8 additional weeks depending on IRS workload.</p>
+<h3>Can I own an LLC while being a salaried employee?</h3>
+<p>Yes. You can own a US LLC while being employed in your home country, as long as your LLC income comes from compatible sources and you declare it correctly in your country of tax residence.</p>
+<h2>About taxation</h2>
+<h3>Is tax optimization with a US LLC legal?</h3>
+<p>Yes. Tax optimization is not evasion. It uses international tax treaties and structures explicitly recognized by tax authorities.</p>
+<h3>Do I have to declare the LLC in my country of residence?</h3>
+<p>Yes. The LLC must be declared in your country of tax residence. We advise you on how to do it correctly.</p>
+<h3>Which IRS forms must I file?</h3>
+<p>Form 1120 with Form 5472, both due by March 15 (September 15 with an extension). BOI Report with FinCEN and the state Annual Report in Wyoming and Delaware.</p>
+<h2>About banking and payments</h2>
+<h3>Can I open a Mercury account without travelling to the US?</h3>
+<p>Yes. Mercury onboarding is fully online. You only need your formed LLC and the EIN.</p>
+<h3>Can I use Stripe with my US LLC?</h3>
+<p>Yes. A US LLC gives you full Stripe access with no country-based restrictions, across 135+ currencies.</p>
+<p>More questions? <a href="/en/book">Book a strategic tax consultation</a>.</p>
+</article>`,
+    book: `<article>
+<h1>Strategic tax consultation — 30 minutes over video</h1>
+<h2>Personalized fiscal diagnosis for your digital business</h2>
+<p>Book a 30-minute video call with an Exentax tax advisor. We analyze your current fiscal situation and tell you whether a US LLC is the right move for your digital business.</p>
+<h2>What the consultation includes</h2>
+<ul>
+<li>Full analysis of your current tax situation in your country</li>
+<li>Personalized savings estimate with an LLC structure</li>
+<li>State recommendation (New Mexico, Wyoming or Delaware)</li>
+<li>Answers to every question on international taxation</li>
+<li>Concrete, step-by-step action plan</li>
+<li>Cost simulation: formation + annual maintenance</li>
+</ul>
+<h2>How it works</h2>
+<ol>
+<li>Pick an available date and time on the calendar</li>
+<li>Fill in your details and share a short summary of your situation</li>
+<li>Receive a confirmation email with the Google Meet link</li>
+<li>Join the call at the agreed time</li>
+</ol>
+<p>If an LLC is not the right fit, we will say so directly. You can also reach us on <a href="https://wa.me/34614916910">WhatsApp</a>.</p>
+</article>`,
+  },
+  fr: {
+    home: `<article>
+<h1>Payez moins d'impôts légalement avec une LLC américaine — Exentax</h1>
+<h2>Optimisation fiscale internationale pour freelances et entrepreneurs digitaux</h2>
+<p>Si vous facturez des clients internationaux depuis l'Europe ou l'Amérique latine, vous payez probablement entre 30 % et 47 % d'impôts. Une LLC américaine bien structurée ramène votre taux effectif entre 8 % et 12 %, en toute légalité.</p>
+<p>Chez Exentax nous concevons des structures fiscales internationales pour que vous ne payiez que ce que vous devez, avec certitude et sans improvisation.</p>
+<h2>Nos différences</h2>
+<ul>
+<li>-37 % de réduction fiscale moyenne pour nos clients</li>
+<li>Consultation stratégique de 30 minutes en visioconférence</li>
+<li>100 % à distance — aucun déplacement aux États-Unis</li>
+<li>Conformité fiscale continue — vous n'êtes jamais seul</li>
+</ul>
+<h2>Constitution de LLC pour non-résidents</h2>
+<ul>
+<li>LLC Nouveau-Mexique — structure efficace, sans rapport annuel</li>
+<li>LLC Wyoming — confidentialité maximale et protection patrimoniale</li>
+<li>LLC Delaware — meilleur cadre juridique pour les startups</li>
+</ul>
+<p>Inclus : Articles of Organization, Operating Agreement, EIN (numéro fiscal IRS), agent enregistré, compte bancaire Mercury et 12 mois d'accompagnement.</p>
+<nav>
+<a href="/fr/a-propos-des-llc">LLC américaine pour non-résidents — guide 2026</a>
+<a href="/fr/comment-nous-travaillons">Comment nous travaillons</a>
+<a href="/fr/nos-services">Nos services et tarifs</a>
+<a href="/fr/questions-frequentes">Questions fréquentes</a>
+<a href="/fr/reserver">Réserver une consultation fiscale stratégique</a>
+</nav>
+</article>`,
+    about_llc: `<article>
+<h1>LLC américaine pour non-résidents — guide complet 2026</h1>
+<h2>Qu'est-ce qu'une LLC et pourquoi cela vous intéresse ?</h2>
+<p>Une LLC (Limited Liability Company) est une structure d'entreprise américaine qui combine la responsabilité limitée et la fiscalité pass-through. Pour un propriétaire unique non-résident, la LLC est classée comme Disregarded Entity et ne paie aucun impôt fédéral américain sur les revenus de source étrangère.</p>
+<h2>Avantages d'une LLC américaine pour non-résidents</h2>
+<ul>
+<li>Aucun impôt fédéral pour les Single-Member LLC détenues par un non-résident</li>
+<li>Responsabilité limitée — patrimoine personnel protégé</li>
+<li>Banque d'entreprise en dollars (Mercury, Relay)</li>
+<li>Facturation internationale sans restriction géographique</li>
+<li>Accès à Stripe, PayPal et Wise Business sans limitation pays</li>
+<li>Confidentialité selon l'État (Wyoming offre le maximum)</li>
+<li>Aucune résidence ni visa américain requis</li>
+</ul>
+<h2>Meilleurs États pour structurer votre LLC en 2026</h2>
+<h3>Nouveau-Mexique — structure efficace pour entrepreneurs digitaux</h3>
+<p>Sans rapport annuel, sans impôt d'État. Idéal pour ceux qui privilégient la simplicité opérationnelle.</p>
+<h3>Wyoming — confidentialité maximale</h3>
+<p>Sans impôt d'État, anonymat total (les membres ne sont pas publics), forte protection des actifs. Parfait si la confidentialité est prioritaire.</p>
+<h3>Delaware — meilleur cadre juridique</h3>
+<p>Court of Chancery spécialisée en droit des affaires, juridiction de référence pour les startups qui lèvent des fonds.</p>
+<h2>Étapes de constitution</h2>
+<ol>
+<li>Diagnostic fiscal stratégique</li>
+<li>Choix de l'État</li>
+<li>Dépôt des Articles of Organization</li>
+<li>Obtention de l'EIN auprès de l'IRS</li>
+<li>Operating Agreement personnalisé</li>
+<li>Ouverture du compte Mercury en USD</li>
+<li>Configuration Stripe et passerelles de paiement</li>
+</ol>
+<h2>Obligations fiscales annuelles</h2>
+<ul>
+<li>Form 5472 — déclaration d'informations auprès de l'IRS</li>
+<li>Form 1120 — déclaration corporative pro forma</li>
+<li>BOI Report — bénéficiaires effectifs auprès de FinCEN</li>
+<li>Annual Report — uniquement Wyoming et Delaware</li>
+<li>Renouvellement de l'agent enregistré chaque année</li>
+</ul>
+<p>Voir <a href="/fr/nos-services">nos services</a> ou <a href="/fr/reserver">réserver une consultation</a>.</p>
+</article>`,
+    how_we_work: `<article>
+<h1>Comment nous travaillons — optimisation fiscale étape par étape</h1>
+<h2>Un processus clair en quatre phases, sans surprises</h2>
+<p>Exentax suit un processus structuré en quatre phases pour optimiser votre situation fiscale internationale en toute légalité et sécurité. 100 % à distance.</p>
+<h2>Phase 1 — Diagnostic fiscal stratégique</h2>
+<p>Visioconférence de 30 minutes pour analyser votre situation fiscale, vos revenus, votre résidence et votre activité professionnelle. Nous déterminons si une LLC américaine convient à votre cas et estimons vos économies.</p>
+<h2>Phase 2 — Constitution de la LLC</h2>
+<p>Nous prenons en charge l'intégralité du processus dans l'État le plus adapté : Articles of Organization, Operating Agreement personnalisé, EIN auprès de l'IRS et agent enregistré. Délai typique de 2 à 4 semaines.</p>
+<h2>Phase 3 — Compte bancaire et moyens de paiement</h2>
+<p>Nous ouvrons votre compte Mercury ou Relay en USD et configurons Stripe et les passerelles de paiement dont vous avez besoin pour facturer à l'international sans restriction.</p>
+<h2>Phase 4 — Conformité continue</h2>
+<p>Gestion fiscale annuelle : Form 5472, Form 1120, BOI Report, renouvellement de l'agent enregistré, Annual Report (Wyoming/Delaware) et conseil permanent.</p>
+<p><a href="/fr/reserver">Réserver votre diagnostic</a> ou voir <a href="/fr/nos-services">services et tarifs</a>.</p>
+</article>`,
+    our_services: `<article>
+<h1>Structuration fiscale internationale — services LLC américaine</h1>
+<h2>Constituez votre LLC avec une équipe spécialisée</h2>
+<h3>LLC Nouveau-Mexique</h3>
+<p>Structure efficace sans complexité inutile. Sans rapport annuel ni impôt d'État. Inclut : Articles of Organization, Operating Agreement, EIN, agent enregistré 12 mois, compte Mercury.</p>
+<h3>LLC Wyoming</h3>
+<p>Confidentialité et anonymat maximums. Sans impôt d'État. Protection supérieure des actifs. Inclut : Articles of Organization, Operating Agreement, EIN, agent enregistré 12 mois, compte Mercury.</p>
+<h3>LLC Delaware</h3>
+<p>Le meilleur cadre juridique américain avec la Court of Chancery spécialisée. Idéal pour les startups et les investisseurs. Inclut la même offre complète.</p>
+<h2>Maintenance annuelle</h2>
+<h3>Maintenance Nouveau-Mexique</h3>
+<p>Déclarations IRS (Form 1120, Form 5472), BOI Report, renouvellement de l'agent enregistré, conformité annuelle et support expert.</p>
+<h3>Maintenance Wyoming</h3>
+<p>Tout le plan de base, plus Annual Report d'État, conformité FATCA/CRS, support prioritaire et revues périodiques.</p>
+<h3>Maintenance Delaware</h3>
+<p>Plan premium avec conformité complète, Annual Report, Franchise Tax, optimisation continue, support 24/7 et revue trimestrielle.</p>
+<h2>Services additionnels</h2>
+<ul>
+<li>Obtention de l'ITIN (Individual Taxpayer Identification Number)</li>
+<li>Consultation fiscale stratégique de 30 minutes sur Google Meet</li>
+</ul>
+<p>Pas de frais cachés. Pas d'engagement. <a href="/fr/reserver">Réserver une consultation</a>.</p>
+</article>`,
+    faq: `<article>
+<h1>Questions fréquentes — LLC américaine et fiscalité internationale</h1>
+<h2>À propos des LLC américaines</h2>
+<h3>Qu'est-ce qu'une LLC ?</h3>
+<p>Une LLC est une structure d'entreprise américaine qui offre la responsabilité limitée et une fiscalité flexible. Pour un non-résident avec une Single-Member LLC, il n'y a pas d'impôt fédéral américain sur les revenus de source étrangère.</p>
+<h3>Dois-je me déplacer aux États-Unis pour constituer une LLC ?</h3>
+<p>Non. L'ensemble du processus est 100 % à distance.</p>
+<h3>Quel est le meilleur État pour ma LLC ?</h3>
+<p>Cela dépend de vos priorités : Nouveau-Mexique pour l'efficacité, Wyoming pour la confidentialité, Delaware pour le cadre juridique. Voir <a href="/fr/nos-services">nos services</a>.</p>
+<h3>Combien de temps prend la constitution ?</h3>
+<p>La constitution prend 2 à 4 semaines. L'EIN peut prendre de 1 à 8 semaines supplémentaires.</p>
+<h2>Fiscalité</h2>
+<h3>L'optimisation fiscale avec une LLC américaine est-elle légale ?</h3>
+<p>Oui, entièrement légale. L'optimisation fiscale n'est pas de l'évasion.</p>
+<h3>Dois-je déclarer ma LLC dans mon pays de résidence ?</h3>
+<p>Oui. Nous vous accompagnons sur la façon de le faire correctement.</p>
+<h3>Quels formulaires dois-je déposer à l'IRS ?</h3>
+<p>Form 1120 avec Form 5472, avant le 15 mars (ou 15 septembre avec extension). BOI Report auprès de FinCEN et Annual Report d'État au Wyoming et au Delaware.</p>
+<h2>Banque et paiements</h2>
+<h3>Puis-je ouvrir un compte Mercury sans voyager aux États-Unis ?</h3>
+<p>Oui. L'onboarding Mercury est entièrement en ligne.</p>
+<h3>Puis-je utiliser Stripe avec ma LLC américaine ?</h3>
+<p>Oui, sans restriction géographique, dans plus de 135 devises.</p>
+<p>Plus de questions ? <a href="/fr/reserver">Réserver une consultation fiscale stratégique</a>.</p>
+</article>`,
+    book: `<article>
+<h1>Consultation fiscale stratégique — 30 minutes en visioconférence</h1>
+<h2>Diagnostic fiscal personnalisé pour votre business digital</h2>
+<p>Réservez une visioconférence de 30 minutes avec un conseiller fiscal Exentax. Nous analysons votre situation actuelle et vous disons si une LLC américaine est la bonne option pour vous.</p>
+<h2>Ce que comprend la consultation</h2>
+<ul>
+<li>Analyse complète de votre situation fiscale</li>
+<li>Estimation personnalisée des économies avec une LLC</li>
+<li>Recommandation d'État (Nouveau-Mexique, Wyoming ou Delaware)</li>
+<li>Réponses à toutes vos questions sur la fiscalité internationale</li>
+<li>Plan d'action concret, étape par étape</li>
+<li>Simulation des coûts : constitution + maintenance annuelle</li>
+</ul>
+<h2>Comment ça fonctionne</h2>
+<ol>
+<li>Choisissez un créneau disponible</li>
+<li>Remplissez vos informations</li>
+<li>Recevez le lien Google Meet par email</li>
+<li>Rejoignez l'appel à l'heure convenue</li>
+</ol>
+<p>Si la LLC n'est pas la bonne solution, nous vous le dirons directement.</p>
+</article>`,
+  },
+  de: {
+    home: `<article>
+<h1>Zahlen Sie legal weniger Steuern mit einer US-LLC — Exentax</h1>
+<h2>Internationale Steueroptimierung für Freelancer und digitale Unternehmer</h2>
+<p>Wenn Sie internationale Kunden aus Europa oder Lateinamerika abrechnen, zahlen Sie vermutlich 30–47 % Steuern. Eine richtig strukturierte US-LLC senkt Ihren effektiven Satz auf 8–12 %, vollkommen legal.</p>
+<p>Exentax gestaltet internationale Steuerstrukturen, damit Sie nur zahlen, was Sie schulden — mit Rechtssicherheit, ohne Improvisation.</p>
+<h2>Was uns unterscheidet</h2>
+<ul>
+<li>-37 % durchschnittliche Steuerreduktion für unsere Mandanten</li>
+<li>Strategische 30-Minuten-Videoberatung</li>
+<li>100 % remote — keine USA-Reise nötig</li>
+<li>Laufende steuerliche Compliance — Sie sind nie allein</li>
+</ul>
+<h2>US-LLC-Gründung für Nicht-Residenten</h2>
+<ul>
+<li>New Mexico LLC — effiziente Struktur, kein Annual Report</li>
+<li>Wyoming LLC — maximale Privatsphäre und Vermögensschutz</li>
+<li>Delaware LLC — bester Rechtsrahmen für investor-taugliche Unternehmen</li>
+</ul>
+<p>Inklusive: Articles of Organization, Operating Agreement, EIN (IRS-Steuernummer), Registered Agent, Mercury-Geschäftskonto und 12 Monate Betreuung.</p>
+<nav>
+<a href="/de/uber-llc">US-LLC für Nicht-Residenten — Leitfaden 2026</a>
+<a href="/de/wie-wir-arbeiten">Wie wir arbeiten</a>
+<a href="/de/unsere-leistungen">Leistungen und Preise</a>
+<a href="/de/haufige-fragen">Häufige Fragen</a>
+<a href="/de/buchen">Strategische Steuerberatung buchen</a>
+</nav>
+</article>`,
+    about_llc: `<article>
+<h1>US-LLC für Nicht-Residenten — vollständiger Leitfaden 2026</h1>
+<h2>Was ist eine US-LLC und warum ist sie für Sie interessant?</h2>
+<p>Eine Limited Liability Company (LLC) ist eine US-Unternehmensstruktur, die beschränkte Haftung mit Pass-through-Besteuerung verbindet. Für Single-Member LLCs in ausländischem Besitz gilt sie als Disregarded Entity und zahlt keine US-Bundeseinkommensteuer auf Auslandseinkünfte.</p>
+<h2>Vorteile einer US-LLC für Nicht-Residenten</h2>
+<ul>
+<li>Keine US-Bundessteuer für ausländisch gehaltene Single-Member LLCs</li>
+<li>Beschränkte Haftung — Privatvermögen geschützt</li>
+<li>US-Dollar-Firmenkonto (Mercury, Relay)</li>
+<li>Internationale Rechnungsstellung ohne geografische Beschränkung</li>
+<li>Zugang zu Stripe, PayPal und Wise Business ohne Länderbeschränkung</li>
+<li>Privatsphäre je nach Bundesstaat (Wyoming bietet die stärkste)</li>
+<li>Keine US-Residenz oder US-Visum erforderlich</li>
+</ul>
+<h2>Beste Bundesstaaten für Ihre LLC im Jahr 2026</h2>
+<h3>New Mexico — effiziente Struktur für digitale Unternehmer</h3>
+<p>Kein Annual Report, keine Bundesstaat-Einkommensteuer. Ideal für operative Einfachheit und niedrige laufende Kosten.</p>
+<h3>Wyoming — maximale Privatsphäre</h3>
+<p>Keine Bundesstaat-Steuer, vollständige Anonymität der Gesellschafter, starker Vermögensschutz.</p>
+<h3>Delaware — bester Rechtsrahmen</h3>
+<p>Spezialisierter Court of Chancery, bevorzugte Jurisdiktion für Startups mit Investoren.</p>
+<h2>LLC-Gründung Schritt für Schritt</h2>
+<ol>
+<li>Strategische Steueranalyse</li>
+<li>Wahl des Bundesstaats</li>
+<li>Einreichung der Articles of Organization</li>
+<li>EIN-Antrag beim IRS</li>
+<li>Operating Agreement</li>
+<li>Geschäftskonto bei Mercury oder Relay</li>
+<li>Stripe und Zahlungsabwickler einrichten</li>
+</ol>
+<h2>Jährliche Steuerpflichten</h2>
+<ul>
+<li>Form 5472 — jährliche Informationsmeldung an den IRS</li>
+<li>Form 1120 — pro-forma Körperschaftsteuererklärung</li>
+<li>BOI Report — wirtschaftlich Berechtigte bei FinCEN</li>
+<li>Annual Report — nur Wyoming und Delaware</li>
+<li>Registered Agent jährlich erneuern</li>
+</ul>
+<p>Siehe <a href="/de/unsere-leistungen">Leistungen</a> oder <a href="/de/buchen">Beratung buchen</a>.</p>
+</article>`,
+    how_we_work: `<article>
+<h1>Wie wir arbeiten — Steueroptimierung Schritt für Schritt</h1>
+<h2>Ein klarer Vier-Phasen-Prozess ohne Überraschungen</h2>
+<p>Exentax folgt einem strukturierten Vier-Phasen-Prozess, um Ihre internationale Steuersituation legal und sicher zu optimieren. Alles 100 % remote.</p>
+<h2>Phase 1 — Strategische Steueranalyse</h2>
+<p>30-minütige Videoberatung zur Analyse Ihrer aktuellen Steuersituation, Ihrer Einkünfte, Ihrer Residenz und Ihrer Tätigkeit. Wir prüfen, ob eine US-LLC passt, und schätzen Ihre Ersparnis.</p>
+<h2>Phase 2 — LLC-Gründung</h2>
+<p>Wir übernehmen die vollständige Gründung im passenden Bundesstaat: Articles of Organization, individuelles Operating Agreement, EIN beim IRS und Registered Agent. Typische Dauer 2–4 Wochen.</p>
+<h2>Phase 3 — Bankkonto und Zahlungsabwicklung</h2>
+<p>Wir eröffnen Ihr Mercury- oder Relay-Geschäftskonto in USD und richten Stripe sowie weitere Zahlungsabwickler ein.</p>
+<h2>Phase 4 — Laufende Compliance</h2>
+<p>Ganzjährige steuerliche Betreuung: Form 5472, Form 1120, BOI Report, Registered-Agent-Erneuerung, Annual Report (Wyoming/Delaware) und permanente Beratung.</p>
+<p><a href="/de/buchen">Beratung buchen</a> oder <a href="/de/unsere-leistungen">Leistungen und Preise</a> ansehen.</p>
+</article>`,
+    our_services: `<article>
+<h1>Internationale Steuerstruktur — US-LLC-Leistungen</h1>
+<h2>Gründen Sie Ihre US-LLC mit einem Spezialisten-Team</h2>
+<h3>New Mexico LLC</h3>
+<p>Effiziente Struktur ohne unnötige Komplexität. Kein Annual Report, keine Bundesstaat-Einkommensteuer. Inkl. Articles of Organization, Operating Agreement, EIN, 12 Monate Registered Agent und Mercury-Konto.</p>
+<h3>Wyoming LLC</h3>
+<p>Maximale Privatsphäre und Anonymität. Keine Bundesstaat-Steuer. Starker Vermögensschutz. Gleicher Leistungsumfang.</p>
+<h3>Delaware LLC</h3>
+<p>Bester Rechtsrahmen der USA mit spezialisierter Court of Chancery. Ideal für Startups und Investoren.</p>
+<h2>Jährliche Verwaltung</h2>
+<h3>New-Mexico-Verwaltung</h3>
+<p>IRS-Erklärungen (Form 1120, Form 5472), BOI Report, Registered-Agent-Erneuerung, jährliche Compliance und Experten-Support.</p>
+<h3>Wyoming-Verwaltung</h3>
+<p>Basispaket plus Annual Report, FATCA/CRS-Compliance, priorisierter Support und regelmäßige Reviews.</p>
+<h3>Delaware-Verwaltung</h3>
+<p>Premium mit vollständiger Compliance, Annual Report, Franchise Tax, laufender Optimierung, 24/7-Support und vierteljährlichem Review.</p>
+<h2>Zusatzleistungen</h2>
+<ul>
+<li>ITIN-Beantragung (Individual Taxpayer Identification Number)</li>
+<li>30-minütige strategische Steuerberatung per Google Meet</li>
+</ul>
+<p>Keine versteckten Kosten. Keine Bindung. <a href="/de/buchen">Beratung buchen</a>.</p>
+</article>`,
+    faq: `<article>
+<h1>Häufige Fragen — US-LLC und internationale Besteuerung</h1>
+<h2>Über US-LLCs</h2>
+<h3>Was ist eine US-LLC?</h3>
+<p>Eine US-Unternehmensstruktur mit beschränkter Haftung und flexibler Besteuerung. Für Single-Member LLCs in ausländischem Besitz fällt keine US-Bundeseinkommensteuer auf Auslandseinkünfte an.</p>
+<h3>Muss ich in die USA reisen, um eine LLC zu gründen?</h3>
+<p>Nein. Der gesamte Prozess ist 100 % remote.</p>
+<h3>Welcher Bundesstaat ist der beste für meine LLC?</h3>
+<p>Abhängig von Ihren Prioritäten: New Mexico für Kosteneffizienz, Wyoming für Privatsphäre, Delaware für den besten Rechtsrahmen.</p>
+<h3>Wie lange dauert die Gründung?</h3>
+<p>Gründung 2–4 Wochen. EIN zusätzlich 1–8 Wochen.</p>
+<h2>Besteuerung</h2>
+<h3>Ist Steueroptimierung mit einer US-LLC legal?</h3>
+<p>Ja, vollkommen legal.</p>
+<h3>Muss ich die LLC in meinem Wohnsitzland deklarieren?</h3>
+<p>Ja. Wir beraten Sie, wie Sie es korrekt deklarieren.</p>
+<h3>Welche Formulare muss ich beim IRS einreichen?</h3>
+<p>Form 1120 zusammen mit Form 5472 bis zum 15. März. BOI Report bei FinCEN sowie Annual Report in Wyoming und Delaware.</p>
+<h2>Bankkonto und Zahlungen</h2>
+<h3>Kann ich ein Mercury-Konto ohne USA-Reise eröffnen?</h3>
+<p>Ja. Mercury-Onboarding ist vollständig online.</p>
+<h3>Kann ich Stripe mit meiner US-LLC nutzen?</h3>
+<p>Ja, ohne länderbedingte Einschränkungen in über 135 Währungen.</p>
+<p>Mehr Fragen? <a href="/de/buchen">Strategische Steuerberatung buchen</a>.</p>
+</article>`,
+    book: `<article>
+<h1>Strategische Steuerberatung — 30 Minuten per Videocall</h1>
+<h2>Personalisierte steuerliche Diagnose für Ihr digitales Geschäft</h2>
+<p>Buchen Sie einen 30-minütigen Videocall mit einem Exentax-Steuerberater. Wir analysieren Ihre aktuelle Situation und sagen Ihnen, ob eine US-LLC die richtige Lösung ist.</p>
+<h2>Inhalt der Beratung</h2>
+<ul>
+<li>Vollständige Analyse Ihrer steuerlichen Situation</li>
+<li>Personalisierte Einsparungsschätzung mit einer LLC</li>
+<li>Empfehlung des Bundesstaats</li>
+<li>Antworten auf alle Fragen zur internationalen Besteuerung</li>
+<li>Konkreter Schritt-für-Schritt-Aktionsplan</li>
+<li>Kostensimulation: Gründung + jährliche Verwaltung</li>
+</ul>
+<h2>Ablauf</h2>
+<ol>
+<li>Verfügbaren Termin auswählen</li>
+<li>Ihre Angaben eintragen</li>
+<li>Bestätigung mit Google-Meet-Link erhalten</li>
+<li>Zum Termin dem Call beitreten</li>
+</ol>
+<p>Wenn eine LLC nicht passt, sagen wir es Ihnen direkt.</p>
+</article>`,
+  },
+  pt: {
+    home: `<article>
+<h1>Pague menos impostos legalmente com uma LLC americana — Exentax</h1>
+<h2>Otimização fiscal internacional para freelancers e empreendedores digitais</h2>
+<p>Se você fatura clientes internacionais do Brasil, Portugal ou da América Latina, provavelmente paga entre 30 % e 47 % em impostos. Uma LLC americana bem estruturada reduz sua carga efetiva para 8–12 %, de forma totalmente legal.</p>
+<p>Na Exentax desenhamos estruturas fiscais internacionais para que você pague apenas o que deve, com segurança e sem improviso.</p>
+<h2>O que nos diferencia</h2>
+<ul>
+<li>-37 % de redução fiscal média para nossos clientes</li>
+<li>Consultoria estratégica de 30 minutos por videochamada</li>
+<li>100 % remoto — sem viajar aos Estados Unidos</li>
+<li>Compliance fiscal contínuo</li>
+</ul>
+<h2>Constituição de LLC para não residentes</h2>
+<ul>
+<li>LLC Novo México — estrutura eficiente sem Annual Report</li>
+<li>LLC Wyoming — privacidade máxima e proteção patrimonial</li>
+<li>LLC Delaware — melhor arcabouço jurídico para empresas com investidores</li>
+</ul>
+<p>Inclui: Articles of Organization, Operating Agreement, EIN, agente registrado, conta Mercury e 12 meses de suporte.</p>
+<nav>
+<a href="/pt/sobre-llc">LLC americana para não residentes — guia 2026</a>
+<a href="/pt/como-trabalhamos">Como trabalhamos</a>
+<a href="/pt/nossos-servicos">Nossos serviços e preços</a>
+<a href="/pt/perguntas-frequentes">Perguntas frequentes</a>
+<a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>
+</nav>
+</article>`,
+    about_llc: `<article>
+<h1>LLC americana para não residentes — guia completo 2026</h1>
+<h2>O que é uma LLC e por que interessa a você?</h2>
+<p>A LLC (Limited Liability Company) é uma estrutura empresarial americana que combina responsabilidade limitada e tributação pass-through. Para Single-Member LLCs de não residentes, não há imposto federal americano sobre rendimentos de fonte estrangeira.</p>
+<h2>Vantagens de uma LLC americana para não residentes</h2>
+<ul>
+<li>Sem imposto federal para Single-Member LLCs de não residentes</li>
+<li>Responsabilidade limitada — patrimônio pessoal protegido</li>
+<li>Conta empresarial em dólares (Mercury, Relay)</li>
+<li>Faturamento internacional sem restrição geográfica</li>
+<li>Acesso a Stripe, PayPal e Wise Business sem limitações de país</li>
+<li>Privacidade conforme o estado (Wyoming é o mais forte)</li>
+<li>Sem necessidade de residência ou visto americano</li>
+</ul>
+<h2>Melhores estados para sua LLC em 2026</h2>
+<h3>Novo México — estrutura eficiente para empreendedores digitais</h3>
+<p>Sem Annual Report, sem imposto estadual. Ideal para quem prioriza simplicidade.</p>
+<h3>Wyoming — privacidade máxima</h3>
+<p>Sem imposto estadual, anonimato total, forte proteção patrimonial.</p>
+<h3>Delaware — melhor arcabouço jurídico</h3>
+<p>Court of Chancery especializada, jurisdição preferida por startups com investidores.</p>
+<h2>Passo a passo da constituição</h2>
+<ol>
+<li>Diagnóstico fiscal estratégico</li>
+<li>Escolha do estado</li>
+<li>Articles of Organization</li>
+<li>EIN junto ao IRS</li>
+<li>Operating Agreement personalizado</li>
+<li>Conta Mercury ou Relay em USD</li>
+<li>Configuração de Stripe e gateways</li>
+</ol>
+<h2>Obrigações anuais</h2>
+<ul>
+<li>Form 5472 — declaração informativa ao IRS</li>
+<li>Form 1120 — declaração corporativa pro forma</li>
+<li>BOI Report — beneficiários efetivos ao FinCEN</li>
+<li>Annual Report — apenas Wyoming e Delaware</li>
+<li>Renovação anual do agente registrado</li>
+</ul>
+<p>Veja <a href="/pt/nossos-servicos">nossos serviços</a> ou <a href="/pt/agendar">agende uma consultoria</a>.</p>
+</article>`,
+    how_we_work: `<article>
+<h1>Como trabalhamos — otimização fiscal passo a passo</h1>
+<h2>Processo claro em quatro fases, sem surpresas</h2>
+<p>A Exentax segue um processo estruturado em quatro fases para otimizar sua situação fiscal internacional de forma legal e segura. Tudo 100 % remoto.</p>
+<h2>Fase 1 — Diagnóstico fiscal estratégico</h2>
+<p>Videochamada de 30 minutos para analisar sua situação fiscal, rendimentos, residência e atividade. Determinamos se uma LLC americana é adequada e estimamos sua economia.</p>
+<h2>Fase 2 — Constituição da LLC</h2>
+<p>Cuidamos de todo o processo no estado mais adequado: Articles of Organization, Operating Agreement personalizado, EIN junto ao IRS e agente registrado. Geralmente em 2 a 4 semanas.</p>
+<h2>Fase 3 — Conta bancária e meios de pagamento</h2>
+<p>Abrimos sua conta Mercury ou Relay em USD e configuramos Stripe e gateways de pagamento.</p>
+<h2>Fase 4 — Compliance contínuo</h2>
+<p>Gestão fiscal anual: Form 5472, Form 1120, BOI Report, renovação do agente registrado, Annual Report (Wyoming/Delaware) e consultoria permanente.</p>
+<p><a href="/pt/agendar">Agende seu diagnóstico</a> ou veja <a href="/pt/nossos-servicos">serviços e preços</a>.</p>
+</article>`,
+    our_services: `<article>
+<h1>Estruturação fiscal internacional — serviços de LLC americana</h1>
+<h2>Constitua sua LLC com uma equipe especializada</h2>
+<h3>LLC Novo México</h3>
+<p>Estrutura eficiente sem complexidade desnecessária. Sem Annual Report, sem imposto estadual. Inclui Articles of Organization, Operating Agreement, EIN, agente registrado por 12 meses e conta Mercury.</p>
+<h3>LLC Wyoming</h3>
+<p>Privacidade e anonimato máximos. Sem imposto estadual. Proteção patrimonial superior.</p>
+<h3>LLC Delaware</h3>
+<p>Melhor arcabouço jurídico dos EUA com Court of Chancery. Ideal para startups e investidores.</p>
+<h2>Manutenção anual</h2>
+<h3>Manutenção Novo México</h3>
+<p>Declarações ao IRS (Form 1120, Form 5472), BOI Report, renovação de agente registrado, compliance anual e suporte especializado.</p>
+<h3>Manutenção Wyoming</h3>
+<p>Plano base + Annual Report, compliance FATCA/CRS, suporte prioritário e revisões periódicas.</p>
+<h3>Manutenção Delaware</h3>
+<p>Premium com compliance completo, Annual Report, Franchise Tax, otimização contínua, suporte 24/7 e revisão trimestral.</p>
+<h2>Serviços adicionais</h2>
+<ul>
+<li>Obtenção do ITIN</li>
+<li>Consultoria estratégica de 30 minutos por Google Meet</li>
+</ul>
+<p>Sem custos ocultos. Sem fidelidade. <a href="/pt/agendar">Agendar consultoria</a>.</p>
+</article>`,
+    faq: `<article>
+<h1>Perguntas frequentes — LLC americana e tributação internacional</h1>
+<h2>Sobre LLCs americanas</h2>
+<h3>O que é uma LLC americana?</h3>
+<p>Estrutura empresarial americana com responsabilidade limitada e tributação flexível. Para Single-Member LLCs de não residentes, não há imposto federal americano sobre rendimentos de fonte estrangeira.</p>
+<h3>Preciso viajar aos Estados Unidos para abrir uma LLC?</h3>
+<p>Não. Todo o processo é 100 % remoto.</p>
+<h3>Qual é o melhor estado para minha LLC?</h3>
+<p>Depende das suas prioridades: Novo México para eficiência, Wyoming para privacidade, Delaware para o melhor arcabouço jurídico.</p>
+<h3>Quanto tempo leva a constituição?</h3>
+<p>Constituição em 2–4 semanas. EIN adicional de 1 a 8 semanas.</p>
+<h2>Tributação</h2>
+<h3>A otimização fiscal com uma LLC americana é legal?</h3>
+<p>Sim, totalmente legal.</p>
+<h3>Preciso declarar a LLC no meu país de residência?</h3>
+<p>Sim. Assessoramos sobre como declarar corretamente.</p>
+<h3>Quais formulários devo enviar ao IRS?</h3>
+<p>Form 1120 junto com Form 5472 até 15 de março. BOI Report ao FinCEN e Annual Report estadual em Wyoming e Delaware.</p>
+<h2>Conta bancária e pagamentos</h2>
+<h3>Posso abrir conta no Mercury sem viajar aos EUA?</h3>
+<p>Sim. Totalmente online.</p>
+<h3>Posso usar Stripe com minha LLC americana?</h3>
+<p>Sim, sem restrições geográficas, em mais de 135 moedas.</p>
+<p>Mais dúvidas? <a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>.</p>
+</article>`,
+    book: `<article>
+<h1>Consultoria fiscal estratégica — 30 minutos por videochamada</h1>
+<h2>Diagnóstico fiscal personalizado para seu negócio digital</h2>
+<p>Reserve uma videochamada de 30 minutos com um consultor fiscal da Exentax. Analisamos sua situação atual e indicamos se uma LLC americana é a melhor opção.</p>
+<h2>O que a consultoria inclui</h2>
+<ul>
+<li>Análise completa da sua situação fiscal</li>
+<li>Estimativa personalizada de economia com a LLC</li>
+<li>Recomendação de estado (Novo México, Wyoming ou Delaware)</li>
+<li>Respostas a todas as suas dúvidas sobre tributação internacional</li>
+<li>Plano de ação concreto, passo a passo</li>
+<li>Simulação de custos: constituição + manutenção anual</li>
+</ul>
+<h2>Como funciona</h2>
+<ol>
+<li>Escolha um horário disponível</li>
+<li>Preencha seus dados</li>
+<li>Receba o link do Google Meet por e-mail</li>
+<li>Entre na chamada no horário combinado</li>
+</ol>
+<p>Se a LLC não for adequada, diremos diretamente.</p>
+</article>`,
+  },
+  ca: {
+    home: `<article>
+<h1>Paga menys impostos legalment amb una LLC als EUA — Exentax</h1>
+<h2>Optimització fiscal internacional per a autònoms i emprenedors digitals</h2>
+<p>Si factures clients internacionals des d'Espanya o Amèrica Llatina, probablement pagues entre un 30 % i un 47 % d'impostos. Una LLC americana ben estructurada baixa el teu tipus efectiu al 8–12 %, de manera completament legal.</p>
+<p>A Exentax dissenyem estructures fiscals internacionals perquè paguis només el que deus, amb seguretat i sense improvisacions.</p>
+<h2>Com ens diferenciem</h2>
+<ul>
+<li>-37 % de reducció fiscal mitjana per als nostres clients</li>
+<li>Assessoria estratègica de 30 minuts per videotrucada</li>
+<li>100 % remot — sense viatjar als Estats Units</li>
+<li>Compliance fiscal continu</li>
+</ul>
+<h2>Constitució de LLC per a no residents</h2>
+<ul>
+<li>LLC Nou Mèxic — estructura eficient, sense Annual Report</li>
+<li>LLC Wyoming — privacitat màxima i protecció patrimonial</li>
+<li>LLC Delaware — millor marc legal per a empreses amb inversors</li>
+</ul>
+<p>Inclou: Articles of Organization, Operating Agreement, EIN, agent registrat, compte Mercury i 12 mesos de suport.</p>
+<nav>
+<a href="/ca/sobre-les-llc">LLC als EUA per a no residents — guia 2026</a>
+<a href="/ca/com-treballem">Com treballem</a>
+<a href="/ca/els-nostres-serveis">Els nostres serveis i preus</a>
+<a href="/ca/preguntes-frequents">Preguntes freqüents</a>
+<a href="/ca/agendar">Agendar assessoria fiscal estratègica</a>
+</nav>
+</article>`,
+    about_llc: `<article>
+<h1>LLC als EUA per a no residents — guia completa 2026</h1>
+<h2>Què és una LLC i per què t'interessa?</h2>
+<p>Una LLC (Limited Liability Company) és una estructura empresarial als EUA que combina responsabilitat limitada amb fiscalitat pass-through. Per a les Single-Member LLC de no residents, es considera Disregarded Entity i no tributa a nivell federal sobre rendes de font estrangera.</p>
+<h2>Avantatges d'una LLC als EUA per a no residents</h2>
+<ul>
+<li>Sense impost federal per a Single-Member LLC de no residents</li>
+<li>Responsabilitat limitada — patrimoni personal protegit</li>
+<li>Compte empresarial en dòlars (Mercury, Relay)</li>
+<li>Facturació internacional sense restriccions geogràfiques</li>
+<li>Accés a Stripe, PayPal i Wise Business sense limitacions per país</li>
+<li>Privacitat segons l'estat (Wyoming és el més fort)</li>
+<li>Sense necessitat de residència ni visat americà</li>
+</ul>
+<h2>Millors estats per a la teva LLC el 2026</h2>
+<h3>Nou Mèxic — estructura eficient per a emprenedors digitals</h3>
+<p>Sense Annual Report, sense impost estatal. Ideal per a qui prioritza la simplicitat.</p>
+<h3>Wyoming — privacitat màxima</h3>
+<p>Sense impost estatal, anonimat total, forta protecció d'actius.</p>
+<h3>Delaware — millor marc legal</h3>
+<p>Court of Chancery especialitzada, jurisdicció preferida per startups amb inversors.</p>
+<h2>Pas a pas de la constitució</h2>
+<ol>
+<li>Diagnòstic fiscal estratègic</li>
+<li>Elecció de l'estat</li>
+<li>Articles of Organization</li>
+<li>EIN davant l'IRS</li>
+<li>Operating Agreement personalitzat</li>
+<li>Compte Mercury o Relay en USD</li>
+<li>Configuració de Stripe i passarel·les</li>
+</ol>
+<h2>Obligacions anuals</h2>
+<ul>
+<li>Form 5472 — declaració informativa a l'IRS</li>
+<li>Form 1120 — declaració corporativa pro forma</li>
+<li>BOI Report — beneficiaris efectius a FinCEN</li>
+<li>Annual Report — només Wyoming i Delaware</li>
+<li>Renovació anual de l'agent registrat</li>
+</ul>
+<p>Consulta <a href="/ca/els-nostres-serveis">els nostres serveis</a> o <a href="/ca/agendar">agenda una assessoria</a>.</p>
+</article>`,
+    how_we_work: `<article>
+<h1>Com treballem — optimització fiscal pas a pas</h1>
+<h2>Procés clar en quatre fases, sense sorpreses</h2>
+<p>Exentax segueix un procés estructurat en quatre fases per optimitzar la teva situació fiscal internacional de forma legal i segura. Tot 100 % remot.</p>
+<h2>Fase 1 — Diagnòstic fiscal estratègic</h2>
+<p>Videotrucada de 30 minuts per analitzar la teva situació fiscal, ingressos, residència i activitat. Determinem si una LLC americana és adequada i estimem el teu estalvi.</p>
+<h2>Fase 2 — Constitució de la LLC</h2>
+<p>Ens encarreguem de tot el procés a l'estat més adequat: Articles of Organization, Operating Agreement personalitzat, EIN davant l'IRS i agent registrat. En 2–4 setmanes.</p>
+<h2>Fase 3 — Compte bancari i mitjans de pagament</h2>
+<p>Obrim el teu compte Mercury o Relay en USD i configurem Stripe i altres passarel·les de pagament.</p>
+<h2>Fase 4 — Compliance continu</h2>
+<p>Gestió fiscal anual: Form 5472, Form 1120, BOI Report, renovació de l'agent registrat, Annual Report (Wyoming/Delaware) i assessoria permanent.</p>
+<p><a href="/ca/agendar">Agenda el teu diagnòstic</a> o consulta <a href="/ca/els-nostres-serveis">serveis i preus</a>.</p>
+</article>`,
+    our_services: `<article>
+<h1>Estructuració fiscal internacional — serveis de LLC als EUA</h1>
+<h2>Constitueix la teva LLC amb un equip especialitzat</h2>
+<h3>LLC Nou Mèxic</h3>
+<p>Estructura eficient sense complexitat innecessària. Sense Annual Report, sense impost estatal. Inclou Articles of Organization, Operating Agreement, EIN, 12 mesos d'agent registrat i compte Mercury.</p>
+<h3>LLC Wyoming</h3>
+<p>Privacitat i anonimat màxims. Sense impost estatal. Protecció patrimonial superior.</p>
+<h3>LLC Delaware</h3>
+<p>Millor marc legal dels EUA amb Court of Chancery. Ideal per a startups i inversors.</p>
+<h2>Manteniment anual</h2>
+<h3>Manteniment Nou Mèxic</h3>
+<p>Declaracions IRS (Form 1120, Form 5472), BOI Report, renovació d'agent registrat, compliance anual i suport expert.</p>
+<h3>Manteniment Wyoming</h3>
+<p>Pla base + Annual Report, compliance FATCA/CRS, suport prioritari i revisions periòdiques.</p>
+<h3>Manteniment Delaware</h3>
+<p>Premium amb compliance complet, Annual Report, Franchise Tax, optimització continuada, suport 24/7 i revisió trimestral.</p>
+<h2>Serveis addicionals</h2>
+<ul>
+<li>Obtenció de l'ITIN</li>
+<li>Assessoria estratègica de 30 minuts per Google Meet</li>
+</ul>
+<p>Sense costos ocults. Sense permanència. <a href="/ca/agendar">Agendar assessoria</a>.</p>
+</article>`,
+    faq: `<article>
+<h1>Preguntes freqüents — LLC als EUA i fiscalitat internacional</h1>
+<h2>Sobre LLC als EUA</h2>
+<h3>Què és una LLC?</h3>
+<p>Estructura empresarial als EUA amb responsabilitat limitada i fiscalitat flexible. Per a Single-Member LLC de no residents, no hi ha impost federal sobre rendes de font estrangera.</p>
+<h3>Necessito viatjar als EUA per constituir una LLC?</h3>
+<p>No. Tot el procés és 100 % remot.</p>
+<h3>Quin és el millor estat per a la meva LLC?</h3>
+<p>Depèn de les teves prioritats: Nou Mèxic per eficiència, Wyoming per privacitat, Delaware per millor marc legal.</p>
+<h3>Quant triga la constitució?</h3>
+<p>Constitució en 2–4 setmanes. EIN addicional d'1 a 8 setmanes.</p>
+<h2>Fiscalitat</h2>
+<h3>L'optimització fiscal amb una LLC als EUA és legal?</h3>
+<p>Sí, totalment legal.</p>
+<h3>He de declarar la LLC al meu país de residència?</h3>
+<p>Sí. T'assessorem sobre com fer-ho correctament.</p>
+<h3>Quins formularis he de presentar a l'IRS?</h3>
+<p>Form 1120 junt amb Form 5472 abans del 15 de març. BOI Report a FinCEN i Annual Report estatal a Wyoming i Delaware.</p>
+<h2>Banca i pagaments</h2>
+<h3>Puc obrir un compte Mercury sense viatjar als EUA?</h3>
+<p>Sí. Completament en línia.</p>
+<h3>Puc utilitzar Stripe amb la meva LLC americana?</h3>
+<p>Sí, sense restriccions geogràfiques, en més de 135 divises.</p>
+<p>Més preguntes? <a href="/ca/agendar">Agendar assessoria fiscal estratègica</a>.</p>
+</article>`,
+    book: `<article>
+<h1>Assessoria fiscal estratègica — 30 minuts per videotrucada</h1>
+<h2>Diagnòstic fiscal personalitzat per al teu negoci digital</h2>
+<p>Reserva una videotrucada de 30 minuts amb un assessor fiscal d'Exentax. Analitzem la teva situació actual i t'indiquem si una LLC americana és la millor opció.</p>
+<h2>Què inclou l'assessoria</h2>
+<ul>
+<li>Anàlisi completa de la teva situació fiscal</li>
+<li>Estimació personalitzada d'estalvi amb una LLC</li>
+<li>Recomanació d'estat (Nou Mèxic, Wyoming o Delaware)</li>
+<li>Respostes a tots els dubtes sobre fiscalitat internacional</li>
+<li>Pla d'acció concret, pas a pas</li>
+<li>Simulació de costos: constitució + manteniment anual</li>
+</ul>
+<h2>Com funciona</h2>
+<ol>
+<li>Tria una hora disponible</li>
+<li>Omple les teves dades</li>
+<li>Rep el link de Google Meet per correu</li>
+<li>Connecta't a la trucada a l'hora acordada</li>
+</ol>
+<p>Si una LLC no encaixa, t'ho direm directament.</p>
+</article>`,
+  },
 };
 
 export const FAQ_SCHEMA_ENTRIES = [

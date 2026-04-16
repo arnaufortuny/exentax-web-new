@@ -5,13 +5,23 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
+import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "./route-slugs";
 import type { SupportedLang } from "./server-constants";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_I18N } from "../client/src/data/blog-posts-i18n";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
+import { getRelatedPosts } from "../client/src/data/blog-related";
 import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL } from "./server-constants";
+
+const RELATED_HEADING: Record<SupportedLang, string> = {
+  es: "Artículos relacionados",
+  en: "Related articles",
+  fr: "Articles connexes",
+  de: "Verwandte Artikel",
+  pt: "Artigos relacionados",
+  ca: "Articles relacionats",
+};
 
 function markdownToHtml(md: string): string {
   const lines = md.split("\n");
@@ -28,7 +38,8 @@ function markdownToHtml(md: string): string {
   function fmtInline(t: string): string {
     return t
       .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>');
   }
 
   for (const line of lines) {
@@ -203,7 +214,11 @@ function injectMeta(html: string, reqPath: string): string {
       const prerenderTitle = i18nPost?.title || post.title;
       const prerenderExcerpt = i18nPost?.excerpt || post.excerpt;
       const prerenderContent = i18nPost?.content || post.content;
-      const prerender = `<article><h1>${prerenderTitle}</h1><p>${prerenderExcerpt}</p>${markdownToHtml(prerenderContent)}</article>`;
+      const related = getRelatedPosts(post.slug, blogLang, 3);
+      const relatedHtml = related.length > 0
+        ? `<aside><h2>${RELATED_HEADING[blogLang] || RELATED_HEADING.es}</h2><ul>${related.map(r => `<li><a href="${r.href}">${r.title}</a></li>`).join("")}</ul></aside>`
+        : "";
+      const prerender = `<article><h1>${prerenderTitle}</h1><p>${prerenderExcerpt}</p>${markdownToHtml(prerenderContent)}${relatedHtml}</article>`;
       html = html.replace(
         '<div id="root"></div>',
         `<div id="root"><div id="seo-prerender" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">${prerender}</div></div>`
@@ -252,7 +267,15 @@ function injectMeta(html: string, reqPath: string): string {
   const resolvedRoute = resolveServerRoute(cleanPath);
   const routeKey = resolvedRoute?.key ?? (cleanPath === "/" ? "home" : undefined);
   const prerenderLang = resolvedRoute?.lang ?? "es";
-  let seoContent = (routeKey && prerenderLang === "es") ? PAGE_SEO_CONTENT[routeKey] : undefined;
+  let seoContent: string | undefined;
+  if (routeKey) {
+    if (prerenderLang === "es") {
+      seoContent = PAGE_SEO_CONTENT[routeKey];
+    } else {
+      const langBucket = PAGE_SEO_CONTENT_I18N[prerenderLang as SupportedLang];
+      seoContent = (langBucket as Record<string, string> | undefined)?.[routeKey] ?? PAGE_SEO_CONTENT[routeKey];
+    }
+  }
   if (cleanPath === "/blog" || cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)) {
     const blogLang2 = (cleanPath.match(/^\/(es|en|fr|de|pt|ca)\/blog$/)?.[1] || "es") as SupportedLang;
     const blogLinks = BLOG_POSTS.map(post => {
@@ -275,7 +298,11 @@ function injectMeta(html: string, reqPath: string): string {
 
   const allJsonLd: any[] = [];
 
-  if (resolvedRoute?.key === "faq") {
+  // `resolvedRoute` is null for the unprefixed root `/` (routeKey is
+  // still "home" via the fallback on line 271). Use routeKey +
+  // prerenderLang so the home/FAQ schemas reliably fire on `/` and
+  // every `/{lang}`.
+  if (routeKey === "faq") {
     allJsonLd.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -283,7 +310,7 @@ function injectMeta(html: string, reqPath: string): string {
     });
   }
 
-  if (resolvedRoute?.key === "home") {
+  if (routeKey === "home") {
     allJsonLd.push({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
@@ -304,6 +331,18 @@ function injectMeta(html: string, reqPath: string): string {
         "contactType": "customer service",
         "availableLanguage": ["Spanish", "English", "French", "German", "Portuguese", "Catalan"]
       }
+    });
+    // WebSite schema — identifies the site to search engines and clusters
+    // language alternates. We intentionally do not claim a SearchAction /
+    // sitelinks-search-box because the blog does not yet implement a
+    // query-param-driven search endpoint; asserting it would be misleading.
+    allJsonLd.push({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": BRAND_NAME,
+      "url": BASE_URL,
+      "inLanguage": [prerenderLang, ...SUPPORTED_LANGS.filter(l => l !== prerenderLang)],
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
     });
   }
 
