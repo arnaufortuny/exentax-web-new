@@ -70,7 +70,8 @@ function NewsletterSignup() {
               placeholder={t("footer.newsletter.placeholder")}
               aria-label={t("footer.newsletter.placeholder")}
               required
-              className="flex-1 min-w-0 max-w-full sm:max-w-[260px] px-4 py-2.5 rounded-full bg-black/10 border border-white/60 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-white"
+              disabled={status === "loading"}
+              className="flex-1 min-w-0 max-w-full sm:max-w-[260px] px-4 py-2.5 rounded-full bg-black/10 border border-white/60 text-black text-sm placeholder:text-black/40 focus:outline-none focus:border-white disabled:opacity-60 disabled:cursor-not-allowed"
               data-testid="input-newsletter-email"
             />
             <button

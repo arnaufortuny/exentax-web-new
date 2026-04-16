@@ -29,7 +29,7 @@ interface BookingData {
   isPast: boolean;
 }
 
-function formatDate(d: string, locale: string = "es-ES") {
+function formatDate(d: string, locale: string) {
   if (!d) return "—";
   try {
     return new Date(d + "T12:00:00").toLocaleDateString(locale, { weekday: "long", day: "numeric", month: "long", year: "numeric" });
