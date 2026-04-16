@@ -232,7 +232,7 @@ export default function BlogPost() {
   const displayTitle = localized?.title || post.title;
   const displayMetaTitle = localized?.metaTitle || post.metaTitle;
   const displayMetaDesc = localized?.metaDescription || post.metaDescription;
-  const dateLocale = LANG_LOCALE_MAP[lang] || "es-ES";
+  const dateLocale = LANG_LOCALE_MAP[lang] ?? LANG_LOCALE_MAP.es;
   const formattedDate = new Date(post.publishedAt).toLocaleDateString(dateLocale, {
     year: "numeric",
     month: "long",

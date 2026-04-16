@@ -110,6 +110,40 @@ const CRITICALITY_LABEL: Record<Criticality, string> = {
   error:    "Error",
 };
 
+// Centralized field labels for Discord embeds. Spanish on purpose:
+// the Discord workspace is internal-team-only, single language by design.
+// Keeping them here prevents typo drift across the many notify* wrappers below.
+const LABELS = {
+  // Envelope metadata (always shown first)
+  TIPO:        "Tipo",
+  CRITICIDAD:  "Criticidad",
+  ORIGEN:      "Origen",
+  RUTA:        "Ruta",
+  IDIOMA:      "Idioma",
+  FUENTE:      "Fuente",
+  USUARIO:     "Usuario",
+  IP:          "IP",
+  REGISTRADO:  "Registrado",
+  AVISO:       "Aviso",
+  // Booking / lead common fields
+  ESTADO:      "Estado",
+  FECHA:       "Fecha",
+  HORARIO:     "Horario",
+  ZONA_HORARIA:"Zona horaria",
+  TZ_CLIENTE:  "TZ cliente",
+  NOMBRE:      "Nombre",
+  EMAIL:       "Email",
+  TELEFONO:    "Telefono",
+  ACTIVIDAD:   "Actividad",
+  PRIVACIDAD:  "Privacidad",
+  MARKETING:   "Marketing",
+  PANEL_ADMIN: "Panel admin",
+  GESTION_CLI: "Gestion cliente",
+} as const;
+
+const BOOL_YES = "Sí";
+const BOOL_NO  = "No";
+
 const TYPE_TO_CHANNEL: Record<EventType, Channel> = {
   booking_created:     "agenda",
   booking_rescheduled: "agenda",
@@ -197,7 +231,7 @@ function clampEmbed(embed: DiscordEmbed): DiscordEmbed {
   }
   if (embed.fields.length > DISCORD_FIELD_LIMIT) {
     embed.fields = embed.fields.slice(0, DISCORD_FIELD_LIMIT - 1);
-    embed.fields.push({ name: "Aviso", value: "Campos omitidos por limite de Discord.", inline: false });
+    embed.fields.push({ name: LABELS.AVISO, value: "Campos omitidos por limite de Discord.", inline: false });
   }
   for (const f of embed.fields) {
     if (f.name.length > DISCORD_FIELD_NAME_MAX) f.name = f.name.slice(0, DISCORD_FIELD_NAME_MAX - 3) + "...";
@@ -338,22 +372,22 @@ export function notifyEvent(ev: EventEnvelope): void {
   const fields: FieldList = [];
 
   // Metadatos del envelope siempre primero — formato coherente.
-  pushAlways(fields, "Tipo", ev.type, true);
-  pushAlways(fields, "Criticidad", CRITICALITY_LABEL[ev.criticality], true);
-  if (ev.origin) pushAlways(fields, "Origen", ev.origin, true);
+  pushAlways(fields, LABELS.TIPO, ev.type, true);
+  pushAlways(fields, LABELS.CRITICIDAD, CRITICALITY_LABEL[ev.criticality], true);
+  if (ev.origin) pushAlways(fields, LABELS.ORIGEN, ev.origin, true);
   if (ev.method || ev.route) {
     const r = `${ev.method ? ev.method + " " : ""}${ev.route || ""}`.trim();
-    if (r) pushAlways(fields, "Ruta", `\`${r.slice(0, 200)}\``, true);
+    if (r) pushAlways(fields, LABELS.RUTA, `\`${r.slice(0, 200)}\``, true);
   }
-  if (ev.language) pushAlways(fields, "Idioma", langLabel(ev.language), true);
-  if (ev.source) pushAlways(fields, "Fuente", ev.source.slice(0, 200), true);
-  if (ev.user) pushAlways(fields, "Usuario", ev.user, true);
-  if (ev.ip) pushAlways(fields, "IP", ev.ip, true);
+  if (ev.language) pushAlways(fields, LABELS.IDIOMA, langLabel(ev.language), true);
+  if (ev.source) pushAlways(fields, LABELS.FUENTE, ev.source.slice(0, 200), true);
+  if (ev.user) pushAlways(fields, LABELS.USUARIO, ev.user, true);
+  if (ev.ip) pushAlways(fields, LABELS.IP, ev.ip, true);
 
   // Campos específicos del evento (data) tras los metadatos.
   if (ev.fields) for (const f of ev.fields) fields.push(f);
 
-  pushAlways(fields, "Registrado", madridTimestamp(), false);
+  pushAlways(fields, LABELS.REGISTRADO, madridTimestamp(), false);
 
   send(channel, {
     title: ev.title,
@@ -392,7 +426,7 @@ function pushAlways(fields: FieldList, name: string, value: string, inline = tru
 
 function pushBool(fields: FieldList, name: string, value: boolean | null | undefined, inline = true): void {
   if (value == null) return;
-  fields.push({ name, value: value ? "Sí" : "No", inline });
+  fields.push({ name, value: value ? BOOL_YES : BOOL_NO, inline });
 }
 
 // ─── Helpers comunes para los wrappers ───────────────────────────────────────
@@ -400,8 +434,8 @@ function pushBool(fields: FieldList, name: string, value: boolean | null | undef
 function bookingLinks(bookingId: string, manageToken?: string | null): EmbedField[] {
   const out: EmbedField[] = [];
   const cl = clientLink(bookingId, manageToken);
-  if (cl) out.push({ name: "Gestion cliente", value: `[Abrir](${cl})`, inline: true });
-  out.push({ name: "Panel admin", value: `[Gestionar](${adminLink(bookingId)})`, inline: true });
+  if (cl) out.push({ name: LABELS.GESTION_CLI, value: `[Abrir](${cl})`, inline: true });
+  out.push({ name: LABELS.PANEL_ADMIN, value: `[Gestionar](${adminLink(bookingId)})`, inline: true });
   return out;
 }
 

@@ -55,6 +55,7 @@ export default function CookieBanner() {
   const [showDetails, setShowDetails] = useState(false);
   const [analyticsEnabled, setAnalyticsEnabled] = useState(true);
   const [cookieDocVersion, setCookieDocVersion] = useState("1.0");
+  const [saving, setSaving] = useState(false);
 
   useEffect(() => {
     if (getCookieConsent() === null) {
@@ -77,7 +78,7 @@ export default function CookieBanner() {
 
   if (!visible) return null;
 
-  const logConsent = (tipo: string, accepted: boolean) => {
+  const logConsent = async (tipo: string, accepted: boolean): Promise<void> => {
     const payload: Record<string, unknown> = {
       tipo,
       version: cookieDocVersion,
@@ -85,26 +86,46 @@ export default function CookieBanner() {
       idioma: LanguageService.getCurrent(),
       referrer: window.location.pathname,
     };
-    fetch("/api/consent", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    }).catch((e) => clientLogger.warn("[cookie-banner] consent log failed", e));
+    try {
+      await fetch("/api/consent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    } catch (e) {
+      clientLogger.warn("[cookie-banner] consent log failed", e);
+    }
   };
 
-  const accept = (choice: "all" | "essential") => {
-    setCookieConsent(choice);
-    logConsent("cookies_esenciales", true);
-    logConsent("cookies_analiticas", choice === "all");
-    setVisible(false);
+  const accept = async (choice: "all" | "essential") => {
+    if (saving) return;
+    setSaving(true);
+    try {
+      setCookieConsent(choice);
+      await Promise.all([
+        logConsent("cookies_esenciales", true),
+        logConsent("cookies_analiticas", choice === "all"),
+      ]);
+      setVisible(false);
+    } finally {
+      setSaving(false);
+    }
   };
 
-  const handleSavePreferences = () => {
-    const choice = analyticsEnabled ? "all" : "essential";
-    setCookieConsent(choice);
-    logConsent("cookies_esenciales", true);
-    logConsent("cookies_analiticas", analyticsEnabled);
-    setVisible(false);
+  const handleSavePreferences = async () => {
+    if (saving) return;
+    setSaving(true);
+    try {
+      const choice = analyticsEnabled ? "all" : "essential";
+      setCookieConsent(choice);
+      await Promise.all([
+        logConsent("cookies_esenciales", true),
+        logConsent("cookies_analiticas", analyticsEnabled),
+      ]);
+      setVisible(false);
+    } finally {
+      setSaving(false);
+    }
   };
 
   return (
@@ -151,7 +172,8 @@ export default function CookieBanner() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-2">
             <button
               onClick={() => accept("all")}
-              className="flex-1 bg-[#00E510] text-[#0F1A14] font-body font-semibold text-sm sm:text-xs rounded-full px-6 py-3 sm:py-2.5 hover:bg-[#00E510] active:scale-[0.97] transition-[color,background-color,border-color,opacity] duration-200 cursor-pointer"
+              disabled={saving}
+              className="flex-1 bg-[#00E510] text-[#0F1A14] font-body font-semibold text-sm sm:text-xs rounded-full px-6 py-3 sm:py-2.5 hover:bg-[#00E510] active:scale-[0.97] transition-[color,background-color,border-color,opacity] duration-200 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
               data-testid="cookie-accept-all"
             >
               {t("cookie.acceptAll")}
@@ -159,7 +181,8 @@ export default function CookieBanner() {
             <div className="flex items-center gap-2">
               <button
                 onClick={() => accept("essential")}
-                className="flex-1 border border-[var(--border)] hover:border-[#00E510]/40 text-[var(--text-2)] hover:text-[var(--text-1)] font-body font-medium text-sm sm:text-xs rounded-full px-6 py-3 sm:py-2.5 transition-[color,background-color,border-color,opacity] duration-200 cursor-pointer"
+                disabled={saving}
+                className="flex-1 border border-[var(--border)] hover:border-[#00E510]/40 text-[var(--text-2)] hover:text-[var(--text-1)] font-body font-medium text-sm sm:text-xs rounded-full px-6 py-3 sm:py-2.5 transition-[color,background-color,border-color,opacity] duration-200 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
                 data-testid="cookie-essential-only"
               >
                 {t("cookie.essentialOnly")}
@@ -167,7 +190,8 @@ export default function CookieBanner() {
               {!showDetails ? (
                 <button
                   onClick={() => setShowDetails(true)}
-                  className="text-[var(--text-3)] hover:text-[#00E510] font-body font-medium text-sm sm:text-xs rounded-full px-5 py-3 sm:py-2.5 transition-colors duration-200 cursor-pointer whitespace-nowrap"
+                  disabled={saving}
+                  className="text-[var(--text-3)] hover:text-[#00E510] font-body font-medium text-sm sm:text-xs rounded-full px-5 py-3 sm:py-2.5 transition-colors duration-200 cursor-pointer whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
                   data-testid="cookie-customize"
                 >
                   {t("cookie.customize")}
@@ -175,7 +199,8 @@ export default function CookieBanner() {
               ) : (
                 <button
                   onClick={handleSavePreferences}
-                  className="text-[#00E510] hover:text-[#2fc50f] font-body font-semibold text-sm sm:text-xs rounded-full px-5 py-3 sm:py-2.5 transition-colors duration-200 cursor-pointer whitespace-nowrap"
+                  disabled={saving}
+                  className="text-[#00E510] hover:text-[#2fc50f] font-body font-semibold text-sm sm:text-xs rounded-full px-5 py-3 sm:py-2.5 transition-colors duration-200 cursor-pointer whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
                   data-testid="cookie-save-preferences"
                 >
                   {t("cookie.save")}

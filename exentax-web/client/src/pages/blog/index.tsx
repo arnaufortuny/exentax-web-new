@@ -122,7 +122,7 @@ function BlogCard({ slug, title, excerpt, category, readTime, publishedAt }: {
   const localized = getLocalizedMeta(slug, lang);
   const displayTitle = localized?.title || title;
   const displayExcerpt = localized?.excerpt || excerpt;
-  const dateLocale = LANG_LOCALE_MAP[lang] || "es-ES";
+  const dateLocale = LANG_LOCALE_MAP[lang] ?? LANG_LOCALE_MAP.es;
   const formattedDate = new Date(publishedAt).toLocaleDateString(dateLocale, {
     year: "numeric",
     month: "short",
