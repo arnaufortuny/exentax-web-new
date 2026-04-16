@@ -70,10 +70,11 @@ export const sectionIcons: Record<string, ReactElement> = {
       <path d="M7 7l14 14M21 7L7 21" stroke="#00E510" strokeWidth="1.5" opacity="0.5" />
     </svg>
   ),
-  pricing: (
+  tax: (
     <svg width={24} height={24} viewBox="0 0 28 28" fill="none">
-      <circle cx="14" cy="14" r="10" stroke="#00E510" strokeWidth="2" />
-      <path d="M14 8v12M11 11c0-1.5 1.3-2 3-2s3 .5 3 2-1.3 2-3 2-3 .5-3 2 1.3 2 3 2 3-.5 3-2" stroke="#00E510" strokeWidth="2" strokeLinecap="round" />
+      <path d="M6 4h12l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" stroke="#00E510" strokeWidth="2" strokeLinejoin="round" />
+      <path d="M9 13l4 4 6-7" stroke="#00E510" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M9 20h10" stroke="#00E510" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
     </svg>
   ),
 };
@@ -268,17 +269,17 @@ export function useFaqSections(): FAQSection[] {
         ],
       },
       {
-        title: t("faqData.sections.pricing"),
-        icon: "pricing",
+        title: t("faqData.sections.tax"),
+        icon: "tax",
         items: [
-          { q: t("faqData.questions.pricing_0"), a: r("pricing_0") },
-          { q: t("faqData.questions.pricing_1"), a: r("pricing_1") },
-          { q: t("faqData.questions.pricing_2"), a: r("pricing_2") },
-          { q: t("faqData.questions.pricing_3"), a: r("pricing_3") },
-          { q: t("faqData.questions.pricing_4"), a: r("pricing_4") },
-          { q: t("faqData.questions.pricing_5"), a: r("pricing_5") },
-          { q: t("faqData.questions.pricing_6"), a: r("pricing_6") },
-          { q: t("faqData.questions.pricing_7"), a: r("pricing_7") },
+          { q: t("faqData.questions.tax_0"), a: r("tax_0") },
+          { q: t("faqData.questions.tax_1"), a: r("tax_1") },
+          { q: t("faqData.questions.tax_2"), a: r("tax_2") },
+          { q: t("faqData.questions.tax_3"), a: r("tax_3") },
+          { q: t("faqData.questions.tax_4"), a: r("tax_4") },
+          { q: t("faqData.questions.tax_5"), a: r("tax_5") },
+          { q: t("faqData.questions.tax_6"), a: r("tax_6") },
+          { q: t("faqData.questions.tax_7"), a: r("tax_7") },
         ],
       },
     ];

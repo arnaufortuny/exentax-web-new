@@ -96,7 +96,8 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
 
         <div>
           <div className="relative mb-6 reveal max-w-md">
-            <svg className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-3)] pointer-events-none" width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[rgba(0,229,16,0.10)] via-[rgba(0,229,16,0.03)] to-[rgba(0,229,16,0.10)] blur-[10px] opacity-60 pointer-events-none" aria-hidden="true" />
+            <svg className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--text-3)] pointer-events-none z-10" width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
               <circle cx={11} cy={11} r={8} /><path d="m21 21-4.3-4.3" />
             </svg>
             <input
@@ -104,7 +105,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               value={search}
               onChange={(e) => { setSearch(e.target.value); setOpenItem(null); }}
               placeholder={t("faqUI.searchPlaceholder")}
-              className="w-full pl-11 pr-10 py-3 rounded-full border-[1.5px] border-[rgba(0,229,16,0.3)] bg-transparent text-[var(--text-1)] placeholder-[var(--text-3)] text-sm font-body focus:outline-none focus:border-[#00E510] focus:shadow-[0_0_8px_rgba(0,229,16,0.2)] transition-all duration-200"
+              className="relative w-full pl-11 pr-10 py-3 rounded-full border border-[rgba(255,255,255,0.08)] ring-1 ring-inset ring-[rgba(0,229,16,0.18)] bg-[rgba(255,255,255,0.04)] backdrop-blur-xl supports-[backdrop-filter]:bg-[rgba(255,255,255,0.04)] text-[var(--text-1)] placeholder-[var(--text-3)] text-sm font-body shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_8px_24px_-12px_rgba(0,229,16,0.18)] focus:outline-none focus:ring-[rgba(0,229,16,0.55)] focus:border-[rgba(0,229,16,0.35)] focus:shadow-[inset_0_1px_0_rgba(255,255,255,0.10),0_0_0_3px_rgba(0,229,16,0.12),0_10px_30px_-12px_rgba(0,229,16,0.35)] transition-all duration-200"
               data-testid="input-faq-search"
             />
             {search && (
@@ -121,7 +122,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
 
           <div
             ref={tabsRef}
-            className="flex gap-2 flex-wrap mb-8 reveal"
+            className="flex gap-2 mb-8 reveal overflow-x-auto sm:flex-wrap sm:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden snap-x snap-mandatory sm:snap-none"
             role="tablist"
             aria-label={t("faqUI.allCategories")}
           >
@@ -129,10 +130,10 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               role="tab"
               aria-selected={activeCategory === ALL_CATEGORY}
               onClick={() => handleCategoryChange(ALL_CATEGORY)}
-              className={`px-4 py-2 rounded-full text-sm font-body font-medium transition-colors duration-150 ${
+              className={`flex-shrink-0 snap-start px-4 py-2 rounded-full text-sm font-body font-medium transition-all duration-200 whitespace-nowrap ${
                 activeCategory === ALL_CATEGORY
-                  ? "bg-[#00E510] text-[#0B0D0C]"
-                  : "bg-transparent text-[var(--text-3)] border border-[var(--border)] hover:border-[var(--text-3)] hover:text-[var(--text-2)]"
+                  ? "bg-[#00E510] text-[#0B0D0C] shadow-[0_8px_24px_-10px_rgba(0,229,16,0.55),inset_0_1px_0_rgba(255,255,255,0.25)]"
+                  : "text-[var(--text-2)] bg-[rgba(255,255,255,0.03)] backdrop-blur-md border border-[rgba(255,255,255,0.08)] ring-1 ring-inset ring-[rgba(0,229,16,0.10)] hover:bg-[rgba(0,229,16,0.06)] hover:ring-[rgba(0,229,16,0.30)] hover:text-[var(--text-1)]"
               }`}
               data-testid="faq-tab-all"
             >
@@ -144,10 +145,10 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
                 role="tab"
                 aria-selected={activeCategory === section.icon}
                 onClick={() => handleCategoryChange(section.icon)}
-                className={`px-4 py-2 rounded-full text-sm font-body font-medium transition-colors duration-150 ${
+                className={`flex-shrink-0 snap-start px-4 py-2 rounded-full text-sm font-body font-medium transition-all duration-200 whitespace-nowrap ${
                   activeCategory === section.icon
-                    ? "bg-[#00E510] text-[#0B0D0C]"
-                    : "bg-transparent text-[var(--text-3)] border border-[var(--border)] hover:border-[var(--text-3)] hover:text-[var(--text-2)]"
+                    ? "bg-[#00E510] text-[#0B0D0C] shadow-[0_8px_24px_-10px_rgba(0,229,16,0.55),inset_0_1px_0_rgba(255,255,255,0.25)]"
+                    : "text-[var(--text-2)] bg-[rgba(255,255,255,0.03)] backdrop-blur-md border border-[rgba(255,255,255,0.08)] ring-1 ring-inset ring-[rgba(0,229,16,0.10)] hover:bg-[rgba(0,229,16,0.06)] hover:ring-[rgba(0,229,16,0.30)] hover:text-[var(--text-1)]"
                 }`}
                 data-testid={`faq-tab-${section.icon}`}
               >
@@ -188,7 +189,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               <div key={section.icon} className="reveal">
                 <div className="flex items-center gap-3 mb-6">
                   {sectionIcons[section.icon] && (
-                    <span className="flex-shrink-0 w-10 h-10 rounded-xl bg-[rgba(0,229,16,0.08)] flex items-center justify-center" aria-hidden="true">
+                    <span className="flex-shrink-0 w-11 h-11 rounded-xl bg-[rgba(0,229,16,0.06)] backdrop-blur-md border border-[rgba(0,229,16,0.18)] ring-1 ring-inset ring-[rgba(255,255,255,0.06)] shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_8px_24px_-12px_rgba(0,229,16,0.30)] flex items-center justify-center" aria-hidden="true">
                       {sectionIcons[section.icon]}
                     </span>
                   )}
