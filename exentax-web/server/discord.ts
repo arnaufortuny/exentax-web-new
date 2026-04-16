@@ -105,43 +105,44 @@ export type Criticality = "info" | "business" | "warning" | "error";
 
 const CRITICALITY_LABEL: Record<Criticality, string> = {
   info:     "Info",
-  business: "Negocio",
-  warning:  "Advertencia",
+  business: "Business",
+  warning:  "Warning",
   error:    "Error",
 };
 
-// Centralized field labels for Discord embeds. Spanish on purpose:
-// the Discord workspace is internal-team-only, single language by design.
-// Keeping them here prevents typo drift across the many notify* wrappers below.
+// Centralized, neutral field labels for Discord embeds (English — the
+// canonical neutral choice for technical webhook content, matching the
+// language used by Discord, Sentry, GitHub, etc.). Single source of truth
+// across all notify* wrappers below.
 const LABELS = {
   // Envelope metadata (always shown first)
-  TIPO:        "Tipo",
-  CRITICIDAD:  "Criticidad",
-  ORIGEN:      "Origen",
-  RUTA:        "Ruta",
-  IDIOMA:      "Idioma",
-  FUENTE:      "Fuente",
-  USUARIO:     "Usuario",
+  TIPO:        "Type",
+  CRITICIDAD:  "Severity",
+  ORIGEN:      "Origin",
+  RUTA:        "Route",
+  IDIOMA:      "Language",
+  FUENTE:      "Source",
+  USUARIO:     "User",
   IP:          "IP",
-  REGISTRADO:  "Registrado",
-  AVISO:       "Aviso",
+  REGISTRADO:  "Logged at",
+  AVISO:       "Notice",
   // Booking / lead common fields
-  ESTADO:      "Estado",
-  FECHA:       "Fecha",
-  HORARIO:     "Horario",
-  ZONA_HORARIA:"Zona horaria",
-  TZ_CLIENTE:  "TZ cliente",
-  NOMBRE:      "Nombre",
+  ESTADO:      "Status",
+  FECHA:       "Date",
+  HORARIO:     "Time",
+  ZONA_HORARIA:"Timezone",
+  TZ_CLIENTE:  "Client TZ",
+  NOMBRE:      "Name",
   EMAIL:       "Email",
-  TELEFONO:    "Telefono",
-  ACTIVIDAD:   "Actividad",
-  PRIVACIDAD:  "Privacidad",
+  TELEFONO:    "Phone",
+  ACTIVIDAD:   "Activity",
+  PRIVACIDAD:  "Privacy",
   MARKETING:   "Marketing",
-  PANEL_ADMIN: "Panel admin",
-  GESTION_CLI: "Gestion cliente",
+  PANEL_ADMIN: "Admin panel",
+  GESTION_CLI: "Client portal",
 } as const;
 
-const BOOL_YES = "Sí";
+const BOOL_YES = "Yes";
 const BOOL_NO  = "No";
 
 const TYPE_TO_CHANNEL: Record<EventType, Channel> = {
