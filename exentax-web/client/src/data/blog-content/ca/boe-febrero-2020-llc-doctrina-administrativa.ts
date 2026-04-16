@@ -54,4 +54,7 @@ export default `Si resideixes fiscalment a Espanya i tens una <a href="/ca/blog/
 
   LLC unipersonal típica = activitat econòmica imputada en base general. Bé dissenyada continua excel·lent.
 
-  Demana la teva consulta gratuïta.`;
+  Demana la teva consulta gratuïta.
+
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia-completa">Fiscalitat internacional per a emprenedors digitals: guia completa</a> ajuda a arrodonir el context.
+`;

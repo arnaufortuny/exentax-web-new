@@ -6,7 +6,7 @@ Estos son los 7 problemas más comunes, y exactamente cómo evitarlos.
 
 ## 1. No presentar el Form 5472 a tiempo
 
-**El problema:** El <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a> es obligatorio para toda LLC con propietarios extranjeros. El plazo es el 15 de abril (con <a href="/es/blog/extension-irs-form-1120-como-solicitarla">extensión posible hasta el 15 de octubre</a>). Es un trámite que conviene tomarse en serio, y sin embargo, muchos dueños de LLC ni saben que existe. Abren la LLC con un servicio online barato, obtienen el EIN, abren Mercury, empiezan a facturar… y un año después se dan cuenta de que tienen obligaciones pendientes con el IRS.
+**El problema:** El Form 5472 es obligatorio para toda LLC con propietarios extranjeros. El plazo es el 15 de abril (con <a href="/es/blog/extension-irs-form-1120-como-solicitarla">extensión posible hasta el 15 de octubre</a>). Es un trámite que conviene tomarse en serio, y sin embargo, muchos dueños de LLC ni saben que existe. Abren la LLC con un servicio online barato, obtienen el EIN, abren Mercury, empiezan a facturar… y un año después se dan cuenta de que tienen obligaciones pendientes con el IRS.
 
 **Cómo lo evitamos:** En Exentax, la preparación y presentación del Form 5472 está incluida en el mantenimiento anual. Lo preparamos antes del plazo, revisamos todas las transacciones reportables entre tú y la LLC, y lo presentamos junto con el Form 1120 (return informativa). No tienes que recordar fechas ni entender formularios en inglés.
 
@@ -50,7 +50,7 @@ Un Operating Agreement genérico puede no reflejar tu situación real (single-me
 
 ## 6. No cumplir con el BOI Report
 
-**El problema:** Desde 2024, FinCEN exige que todas las LLCs presenten el <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> con sus propietarios beneficiarios (Beneficial Ownership Information). Los plazos y requisitos cambian con frecuencia, y no cumplir puede traer consecuencias que conviene evitar.
+**El problema:** Desde 2024, FinCEN exige que todas las LLCs presenten el BOI Report con sus propietarios beneficiarios (Beneficial Ownership Information). Los plazos y requisitos cambian con frecuencia, y no cumplir puede traer consecuencias que conviene evitar.
 
 Muchos dueños de LLC ni siquiera saben que existe esta obligación porque es relativamente nueva.
 
@@ -76,6 +76,8 @@ Para que quede claro lo que está en juego:
 - **Cuenta bancaria bloqueada:** Si Mercury congela tu cuenta mientras tienes facturas pendientes de cobro, tu operación se paraliza. Pueden pasar semanas hasta resolver el bloqueo, durante las cuales no puedes cobrar, pagar a proveedores ni hacer distributions.
 - **Corporate veil levantado:** Si un tribunal determina que mezclaste fondos personales y del negocio, la protección de responsabilidad limitada desaparece. Esto significa que tus bienes personales quedan expuestos a las deudas y obligaciones de la LLC.
 - **LLC disuelta por no renovar Registered Agent:** Si el estado disuelve tu LLC por falta de Registered Agent, necesitas un proceso de reinstalación (reinstatement) que cuesta más y tarda más que la renovación original. Mientras tanto, la LLC no puede operar legalmente.
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/cuanto-cuesta-constituir-llc">¿Cuánto cuesta constituir una LLC? (Y no, no se "crea", se constituye)</a> es una pieza útil para terminar de contextualizar el escenario.
 
 ## El patrón que vemos repetidamente
 

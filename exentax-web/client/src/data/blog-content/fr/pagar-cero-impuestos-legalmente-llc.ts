@@ -88,6 +88,8 @@ La réduction de 40% jusqu'à 0% représente déjà une économie énorme. Pour 
 
 Pour la majorité des freelances francophones : réduction significative avec déclaration partielle. Vous ne payez pas zéro, mais vous payez beaucoup moins qu'aujourd'hui, et vous le faites dans un cadre légal, documenté et durable.
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/10-erreurs-fiscales-des-freelancers-espagnols-et-comment-les-eviter">10 erreurs fiscales des freelancers espagnols (et comment les éviter)</a> aide à parachever le contexte.
+
 ## Les outils financiers qui accompagnent le 0%
 
 Optimiser la fiscalité ne sert à rien si vous n'avez pas l'infrastructure pour gérer l'argent efficacement. Les outils qui complètent votre structure LLC :

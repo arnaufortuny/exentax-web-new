@@ -78,6 +78,8 @@ Hier wird es interessant. Wenn die Mehrheit Ihrer Kunden B2B außerhalb Deutschl
 
 Das Ergebnis? Vereinfachte internationale Rechnungen, weniger vierteljährliche Bürokratie und mehr Zeit für das, was wirklich zählt: Ihr Geschäft.
 
+Zum Abschluss einige verwandte Beiträge, die unmittelbar an diesen Text anschließen: <a href="/de/blog/steuern-mit-internationalen-kunden-in-spanien-was-niemand-ihnen-sagt">Steuern mit internationalen Kunden in Spanien: Was niemand Ihnen sagt</a> und <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die-ehrliche-antwort">Melden US-Bankkonten an Ihre heimische Steuerbehörde? Die ehrliche Antwort</a> runden den Kontext ab.
+
 ## Häufige Fehler bei der internationalen Umsatzsteuer
 
 1. **Inländische Umsatzsteuer einem EU-Unternehmen berechnen.** Wenn es eine gültige USt-IdNr. hat, dürfen Sie keine Umsatzsteuer berechnen. Überprüfen Sie es immer im VIES-System der Europäischen Kommission, bevor Sie fakturieren.

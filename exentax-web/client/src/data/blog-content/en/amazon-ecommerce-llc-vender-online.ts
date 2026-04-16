@@ -175,6 +175,8 @@ For dropshipping businesses, the LLC provides critical advantages:
 - **Professional invoicing**: legitimate US business entity for supplier negotiations
 
 
+To keep going on this thread, <a href="/en/blog/iban-swift-and-routing-numbers-understanding-international-banking-codes">IBAN, SWIFT and routing numbers: understanding international banking codes</a> and <a href="/en/blog/how-to-scale-your-digital-business-with-a-us-llc">How to scale your digital business with a US LLC</a> fill in nuances this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>

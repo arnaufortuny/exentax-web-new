@@ -78,6 +78,8 @@ Aquí és on es posa interessant. Si la majoria dels teus clients són B2B fora 
 
 El resultat? Factures internacionals simplificades, menys burocràcia trimestral, i més temps per al que realment importa: el teu negoci.
 
+Per tancar, lectures relacionades que encaixen al costat d'aquest article: <a href="/ca/blog/impostos-amb-clients-internacionals-a-espanya-el-que-ningu-texplica">Impostos amb clients internacionals a Espanya: el que ningú t'explica</a> i <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat-fiscal-la-resposta-h">Els comptes bancaris americans informen a la teva autoritat fiscal? La resposta honesta</a> ajuden a arrodonir el context.
+
 ## Errors freqüents amb l'IVA internacional
 
 1. **Cobrar IVA espanyol a una empresa de la UE.** Si té VAT ID vàlid, no has de cobrar IVA. Verifica-ho sempre al sistema VIES de la Comissió Europea abans de facturar.

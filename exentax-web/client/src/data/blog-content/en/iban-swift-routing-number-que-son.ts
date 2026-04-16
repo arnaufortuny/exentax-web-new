@@ -104,6 +104,8 @@ export default `IBAN, SWIFT, and Routing numbers. international payment systems 
 4. Stripe converts to USD and deposits to Mercury in 2 business days
 5. Net received: invoice amount minus 2.9% + $0.30 (+ 1.5% for international cards)
 
+If something in this structure left you wanting more detail, <a href="/en/blog/ach-vs-wire-transfer-timelines-for-your-llc">ACH vs wire transfer: payment timelines and what they mean for your LLC cash flow</a> and <a href="/en/blog/how-to-scale-your-digital-business-with-a-us-llc">How to scale your digital business with a US LLC</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## Payment method decision matrix
 
 | Factor | Wire (Mercury) | ACH | Stripe | Wise |

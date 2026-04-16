@@ -211,13 +211,15 @@ For purely digital, non-resident businesses, New Mexico or Wyoming offers every 
 At Exentax, we recommend New Mexico for 90%+ of our clients. The combination of no annual state fees, maximum privacy, and proven compatibility with Mercury, Stripe, and other fintech platforms makes it the clear winner for digital entrepreneurs.
 
 
+To keep going on this thread, <a href="/en/blog/advantages-and-disadvantages-of-a-us-llc-for-non-residents-honest-analysis">Advantages and disadvantages of a US LLC for non-residents: honest analysis</a> and <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax-comparison">Self-employed in Spain vs LLC in the US: complete tax comparison</a> fill in nuances this guide only touched on.
+
 ## Related articles
 
-- <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>
+- step-by-step LLC formation guide
 - <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">LLC privacy guide</a>
 - <a href="/en/blog/ein-tax-number-for-your-llc-how-to-get-it">EIN guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
-- <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
+- Form 5472 guide
+- BOI Report guide
+- Mercury account guide
 - <a href="/en/blog/how-much-does-it-cost-to-form-a-us-llc-complete-cost-breakdown">LLC cost breakdown guide</a>
 Book your strategic consultation and we'll help you choose the right state for your LLC.`;

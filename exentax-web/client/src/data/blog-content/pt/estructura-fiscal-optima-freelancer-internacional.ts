@@ -79,6 +79,8 @@ A chave da otimização fiscal com uma LLC é a sua classificação como "Disreg
 4. **Configura a tua infraestrutura**: conta bancária, gateway de pagamentos, contabilidade
 5. **Migra gradualmente**: não tens de transferir tudo de uma vez
 
+Uma leitura adjacente a manter à mão: <a href="/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia-completo">Tributação internacional para empreendedores digitais: guia completo</a>, que afina precisamente os contornos do que este guia explica.
+
 ## O stack financeiro ótimo para freelancers internacionais
 
 A combinação vencedora que usamos para a maioria dos nossos clientes:

@@ -103,6 +103,8 @@ Sin LLC (autónomo estándar): tributas por tus ingresos brutos menos los gastos
 
 Con LLC: los gastos deducibles son mucho más amplios (todo lo que sea "ordinario y necesario" para el negocio según el IRS), y declaras solo los beneficios netos. La base imponible se reduce significativamente.
 
+Para seguir profundizando, <a href="/es/blog/pagar-cero-impuestos-legalmente-llc">¿Se puede pagar 0% de impuestos legalmente? La verdad sobre la optimización fiscal</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## ¿Qué debería hacer?
 
 Si facturas más de 30.000€/año a clientes internacionales, la optimización fiscal con una LLC es legal, está al alcance de cualquier freelancer, y el ahorro es real.

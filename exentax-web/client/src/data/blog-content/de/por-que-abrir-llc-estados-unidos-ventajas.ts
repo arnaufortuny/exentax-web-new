@@ -181,6 +181,8 @@ Eine LLC zu gründen und zu unterhalten muss nicht kompliziert sein. Bei Exentax
 
 Wir vergeben keine Unteraufträge, wir delegieren nicht an Dritte, wir verwenden keine generischen Vorlagen. Jede LLC, die wir gründen, erhält unsere direkte Aufmerksamkeit.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/llc-dokumente-welche-sie-brauchen-und-wie-sie-sie-organisieren">LLC-Dokumente: Welche Sie brauchen und wie Sie sie organisieren</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Ergibt es für Sie Sinn?
 
 Wenn Sie Freiberufler, Berater, Entwickler, Designer, Marketer oder ein anderer digitaler Fachmann sind, der mehr als $2.000 pro Monat an internationale Kunden in Rechnung stellt, lautet die Antwort wahrscheinlich ja.

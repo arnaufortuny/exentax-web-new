@@ -125,6 +125,8 @@ Create a secure digital system for all your LLC documents:
 - Client contracts
 
 
+To keep going on this thread, <a href="/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american-advantage">Why open a US LLC in 2026: the 5 pillars of the American advantage</a> and <a href="/en/blog/ein-vs-itin-vs-ssn-the-us-tax-identification-numbers-explained">EIN vs ITIN vs SSN: the US tax identification numbers explained</a> fill in nuances this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>

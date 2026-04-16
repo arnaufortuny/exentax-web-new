@@ -80,6 +80,8 @@ L'inverse s'applique également : si vous êtes résident et que vous quittez le
 
 La clé dans tous ces cas : **aucun d'entre eux n'a de revenus de source américaine**. Ils travaillent depuis leur pays pour des clients internationaux. La LLC paie 0 $ aux États-Unis et les bénéfices sont déclarés avec une base imposable déjà optimisée.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/10-erreurs-fiscales-des-freelancers-espagnols-et-comment-les-eviter">10 erreurs fiscales des freelancers espagnols (et comment les éviter)</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Puis-je avoir une LLC sans vivre aux États-Unis ?
 
 **Absolument.** En fait, c'est exactement pour cela qu'elles sont conçues. Vous n'avez pas besoin de :

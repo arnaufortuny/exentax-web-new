@@ -127,6 +127,8 @@ Every month you delay forming your LLC while earning $5,000+/month is a month of
 At a moderate monthly revenue, a 6-month delay costs significant lost savings. That's more than the total cost of forming and maintaining the LLC for an entire year.
 
 
+To keep going on this thread, <a href="/en/blog/us-llc-for-digital-marketing-agencies-structure-billing-and-scaling">US LLC for digital marketing agencies: structure, billing and scaling</a> and <a href="/en/blog/llc-legal-security-and-asset-protection-the-underrated-advantage">LLC legal security and asset protection: the underrated advantage</a> fill in nuances this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax-comparison">Spanish autónomo vs US LLC comparison</a>

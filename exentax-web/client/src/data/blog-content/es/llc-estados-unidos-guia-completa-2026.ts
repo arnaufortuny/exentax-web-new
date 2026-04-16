@@ -6,7 +6,7 @@ En esta guía te contamos todo lo que necesitas saber antes de dar el paso. Sin 
 
 Es una figura jurídica estadounidense que separa tus bienes personales de los del negocio. Si tu empresa tiene una deuda o un problema legal, tu patrimonio personal no se ve afectado. Tu casa, tu coche, tus ahorros, intocables.
 
-Para un no residente con una Single-Member LLC (un solo socio), el IRS la clasifica como **"Disregarded Entity"**. Esto significa que la LLC es una entidad transparente fiscalmente: no paga impuesto federal sobre la renta en EE.UU. Es lo que se conoce como **pass-through taxation**: los beneficios "pasan a través" de la LLC directamente al propietario, que los declara en su país de residencia fiscal. Si quieres entender este mecanismo en profundidad, te lo explicamos en nuestra <a href="/es/blog/tributacion-pass-through-llc-como-funciona">guía sobre tributación pass-through</a>.
+Para un no residente con una Single-Member LLC (un solo socio), el IRS la clasifica como **"Disregarded Entity"**. Esto significa que la LLC es una entidad transparente fiscalmente: no paga impuesto federal sobre la renta en EE.UU. Es lo que se conoce como **pass-through taxation**: los beneficios "pasan a través" de la LLC directamente al propietario, que los declara en su país de residencia fiscal. Si quieres entender este mecanismo en profundidad, te lo explicamos en nuestra guía sobre tributación pass-through.
 
 En la práctica: si vives en España, México, Colombia o cualquier otro país, tu LLC americana paga **$0 de impuesto federal** en Estados Unidos (siempre que no tengas ingresos de fuente estadounidense). Luego tú declaras esos beneficios en tu país, pero con los gastos de la LLC ya deducidos, lo que reduce significativamente tu base imponible.
 
@@ -31,7 +31,7 @@ Tu LLC tiene:
 - **<a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a>** que define las reglas internas
 - **<a href="/es/blog/ein-numero-fiscal-llc-como-obtenerlo">EIN</a>** (número fiscal) emitido por el IRS
 - **<a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent</a>** que recibe documentación legal oficial
-- **<a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>** presentado ante FinCEN (transparencia de titularidad)
+- **BOI Report** presentado ante FinCEN (transparencia de titularidad)
 
 Todo en regla, todo documentado, todo legal. En Exentax nos aseguramos de que cada pieza esté en su sitio desde el día uno.
 
@@ -81,7 +81,7 @@ En Exentax diseñamos todo este ecosistema financiero como parte de tu estructur
 
 La constitución incluye Articles of Organization, Operating Agreement, EIN, agente registrado y apertura de cuenta bancaria. Todo gestionado por nosotros.
 
-El mantenimiento anual incluye todas las declaraciones ante el IRS (<a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, Form 1120), BOI Report, renovación del agente registrado y compliance fiscal completo. Cero sorpresas, cero extras. Te lo detallamos en nuestra <a href="/es/blog/mantenimiento-anual-llc-obligaciones">guía de mantenimiento anual</a>.
+El mantenimiento anual incluye todas las declaraciones ante el IRS (Form 5472, Form 1120), BOI Report, renovación del agente registrado y compliance fiscal completo. Cero sorpresas, cero extras. Te lo detallamos en nuestra <a href="/es/blog/mantenimiento-anual-llc-obligaciones">guía de mantenimiento anual</a>.
 
 ## Errores frecuentes al abrir una LLC
 
@@ -90,6 +90,8 @@ El mantenimiento anual incluye todas las declaraciones ante el IRS (<a href="/es
 3. **No tener Operating Agreement.** Sin este documento, la LLC carece de estructura formal. Nosotros lo preparamos siempre.
 4. **Olvidar el Form 5472.** Es una declaración anual obligatoria. Nosotros la gestionamos por ti cada año, ni te enteras.
 5. **Mezclar cuentas personales y empresariales.** Esto puede comprometer la protección de responsabilidad limitada. Cuenta de la LLC = solo para el negocio.
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/documentos-llc-cuales-necesitas">Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno</a> es una pieza útil para terminar de contextualizar el escenario.
 
 ## ¿Es legal?
 

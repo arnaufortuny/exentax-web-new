@@ -78,6 +78,8 @@ Este fluxo minimiza as comissões e maximiza a taxa de câmbio.
 | Banco tradicional | Com margem | $15-50 + intermediários | 3-5% |
 | PayPal conversão | Com margem 3-4% | Variável | 4-6% |
 
+Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/iban-swift-e-routing-number-entendendo-os-codigos-bancarios-internacionais">IBAN, SWIFT e routing number: entendendo os códigos bancários internacionais</a> e <a href="/pt/blog/vender-na-amazon-com-sua-llc-americana-guia-completo">Vender na Amazon com sua LLC americana: guia completo</a>, que afinam precisamente os contornos do que este guia explica.
+
 ## Dicas para poupar na troca de divisas
 
 - **Consolide as suas retiradas**: faça uma ou duas transferências grandes por mês em vez de muitas pequenas

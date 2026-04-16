@@ -119,6 +119,8 @@ Mercury has $0 wire fees, both domestic and international. Your funds are held i
 5. **Not following up on pending payments**: Mercury shows pending ACH/wire; follow up if delayed
 
 
+Closing out, here are related pieces that sit naturally next to this article: <a href="/en/blog/your-first-month-with-a-us-llc-what-to-expect-week-by-week">Your first month with a US LLC: what to expect week by week</a> and <a href="/en/blog/changing-currencies-for-your-llc-best-options-and-how-to-avoid-hidden-fees">Changing currencies for your LLC: best options and how to avoid hidden fees</a> help round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

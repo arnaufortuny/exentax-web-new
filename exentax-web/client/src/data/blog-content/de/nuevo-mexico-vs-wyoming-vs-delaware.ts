@@ -90,6 +90,8 @@ Unabhängig davon, welchen Bundesstaat Sie wählen, gibt es Dinge, die sich nich
 
 Die Wahl des Bundesstaats beeinflusst hauptsächlich die Wartungskosten, das Niveau der Privatsphäre in öffentlichen Registern und den rechtlichen Schutz bei Streitigkeiten. Für 80% der digitalen Freiberufler sind diese Unterschiede gering im Vergleich zu den steuerlichen und operativen Einsparungen, die eine LLC unabhängig vom Bundesstaat bringt.
 
+Um diesen Faden weiterzuziehen, vertiefen <a href="/de/blog/vor-und-nachteile-einer-us-llc-fur-nicht-residenten-ehrliche-analyse">Vor- und Nachteile einer US LLC für Nicht-Residenten: ehrliche Analyse</a> und <a href="/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger-steuervergleich">Selbstständig in Spanien vs LLC in den USA: vollständiger Steuervergleich</a> Nuancen, die wir hier nur gestreift haben.
+
 ## Der Fehler, sich bei der Bundesstaatswahl zu verkrampfen
 
 Wir sehen das häufig: Freiberufler, die wochenlang Bundesstaaten vergleichen, Foren lesen, Videos schauen, und am Ende nichts tun. In der Zwischenzeit zahlen sie weiterhin hohe Sozialabgaben, werden zum Höchstsatz besteuert und arbeiten ohne Vermögensschutz.

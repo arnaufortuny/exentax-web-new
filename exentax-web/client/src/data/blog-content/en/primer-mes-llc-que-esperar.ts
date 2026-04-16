@@ -98,6 +98,8 @@ From day one, establish a simple but effective system for tracking everything:
 
 **Why this matters:** When Form 5472 time comes, you'll have everything organized. No scrambling, no stress, no guesswork. Your Exentax team can prepare your filings quickly because the data is clean.
 
+If something in this structure left you wanting more detail, <a href="/en/blog/ach-vs-wire-transfer-timelines-for-your-llc">ACH vs wire transfer: payment timelines and what they mean for your LLC cash flow</a> and <a href="/en/blog/how-to-scale-your-digital-business-with-a-us-llc">How to scale your digital business with a US LLC</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## First month checklist
 
 | Task | Status | Notes |

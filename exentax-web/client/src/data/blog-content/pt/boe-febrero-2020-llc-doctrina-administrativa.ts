@@ -54,4 +54,7 @@ export default `Se reside fiscalmente em Espanha e tem uma <a href="/pt/blog/llc
 
   Doutrina espanhola: LLC unipessoal típica = atividade económica imputada em base geral. Bem desenhada continua excelente.
 
-  Marque a sua consulta gratuita.`;
+  Marque a sua consulta gratuita.
+
+Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia-completo">Tributação internacional para empreendedores digitais: guia completo</a> ajuda a arredondar o contexto.
+`;

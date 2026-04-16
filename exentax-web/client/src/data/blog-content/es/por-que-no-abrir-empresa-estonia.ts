@@ -28,7 +28,7 @@ Sí, existe convenio de doble imposición entre España y Estonia que puede miti
 
 Con una Single-Member LLC en EE.UU., la situación es radicalmente distinta:
 
-- **Impuesto federal en EE.UU.: 0%.** La LLC es una "Disregarded Entity" para el IRS. Los beneficios pasan directamente al propietario sin tributar en Estados Unidos (<a href="/es/blog/tributacion-pass-through-llc-como-funciona">pass-through taxation</a>).
+- **Impuesto federal en EE.UU.: 0%.** La LLC es una "Disregarded Entity" para el IRS. Los beneficios pasan directamente al propietario sin tributar en Estados Unidos (pass-through taxation).
 - **No hay impuesto sobre distribuciones.** No existe el concepto de "distribuir dividendos" porque la LLC es transparente fiscalmente. El dinero es tuyo desde el primer momento.
 - **Sin impuesto estatal** en Nuevo México, Wyoming ni Delaware para no residentes.
 
@@ -47,7 +47,7 @@ Aquí es donde la diferencia se vuelve abismal.
 
 ### Con una LLC en Estados Unidos
 
-- **<a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a>:** Cuenta bancaria digital sin comisiones recurrentes. Wires internacionales gratuitos. Custodia en Column NA con seguro FDIC hasta $250,000. Tarjeta de débito sin coste.
+- **Mercury:** Cuenta bancaria digital sin comisiones recurrentes. Wires internacionales gratuitos. Custodia en Column NA con seguro FDIC hasta $250,000. Tarjeta de débito sin coste.
 - **Slash:** Tesorería corporativa, tu capital ocioso genera rendimiento. No es un banco: es treasury management profesional.
 - **Wallester:** Tarjetas corporativas virtuales y físicas con control granular. Una tarjeta para cada gasto, límites individuales.
 - **Relay:** Hasta 20 sub-cuentas gratuitas. Depósitos en Thread Bank. Links de pago via Adyen.
@@ -101,7 +101,7 @@ Necesitas un contable estonio. Necesitas entender la normativa estonia. Necesita
 ### LLC en Estados Unidos
 
 Una Single-Member LLC de no residente necesita:
-- <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a> + Form 1120 (declaración informativa anual, no implica pago)
+- Form 5472 + Form 1120 (declaración informativa anual, no implica pago)
 - <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> ante FinCEN
 - Renovación de <a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent</a>
 
@@ -178,6 +178,8 @@ La e-Residency de Estonia se ha convertido en un producto de marketing brillante
 
 Pero los números no mienten. Cuando sumas los costes de contabilidad obligatoria, el impuesto sobre distribuciones, la gestión de IVA, y las limitaciones bancarias, la OÜ estona es más cara, más burocrática y fiscalmente menos eficiente que una LLC americana para la inmensa mayoría de freelancers y emprendedores digitales hispanos.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/ventajas-desventajas-llc-no-residentes">Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros</a> y <a href="/es/blog/nuevo-mexico-vs-wyoming-vs-delaware">Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## En Exentax te damos la estructura que realmente funciona
 
 No vendemos humo ni modas. Diseñamos estructuras fiscales basadas en la legislación vigente, con números reales y compliance total.
@@ -186,6 +188,6 @@ No vendemos humo ni modas. Diseñamos estructuras fiscales basadas en la legisla
 - **Mantenimiento anual** consultar
 - **0% impuesto federal** en EE.UU.
 - **Banca en Mercury** con $0 comisiones y seguro FDIC
-- **Compliance total:** <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, Form 1120, <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>, <a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent</a>
+- **Compliance total:** Form 5472, Form 1120, <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>, <a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent</a>
 
 ¿Estabas pensando en Estonia? Agenda una asesoría gratuita de 30 minutos y te mostramos los números reales para tu caso. Sin compromiso, sin presión, solo datos. En 30 minutos sabrás exactamente cuánto pagarías con una LLC vs con una empresa estona.`;

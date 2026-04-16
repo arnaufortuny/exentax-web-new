@@ -128,6 +128,8 @@ If your LLC earns staking rewards (through Kraken's institutional staking or DeF
 - Never store all assets on a single exchange
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/taxes-with-international-clients-in-spain-what-nobody-tells-you">Taxes with international clients in Spain: what nobody tells you</a> helps round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>

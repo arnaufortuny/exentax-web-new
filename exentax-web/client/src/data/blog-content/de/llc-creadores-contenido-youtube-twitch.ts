@@ -79,6 +79,8 @@ Angenommen, Sie generieren Folgendes pro Monat:
 
 Diese Ersparnis entspricht zwei neuen Kameraausrüstungen oder einem ganzen Jahr Videoeditor. Oder einfach mehr Geld in Ihrer Tasche.
 
+Um diesen Faden weiterzuziehen, vertiefen <a href="/de/blog/us-llc-fur-digitale-marketingagenturen-struktur-abrechnung-und-skalierung">US LLC für digitale Marketingagenturen: Struktur, Abrechnung und Skalierung</a> und <a href="/de/blog/was-ist-der-irs-und-wie-betrifft-er-ihre-us-llc">Was ist der IRS und wie betrifft er Ihre US LLC?</a> Nuancen, die wir hier nur gestreift haben.
+
 ## Was der Service von Exentax beinhaltet
 
 Bei Exentax kümmern wir uns um alles: Gründung der LLC, Beschaffung der EIN, Eröffnung des amerikanischen Bankkontos, Konfiguration der Zahlungsabwicklung und jährliches Compliance. Sie konzentrieren sich auf die Content-Erstellung, wir kümmern uns um den langweiligen, aber notwendigen Papierkram.

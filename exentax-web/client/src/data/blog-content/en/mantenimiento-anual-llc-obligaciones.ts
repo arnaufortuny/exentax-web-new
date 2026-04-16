@@ -141,9 +141,11 @@ Most states have an online lookup tool. Search for your LLC by name on the Secre
 Contact us immediately. Many filings have grace periods or penalty abatement options for first-time non-compliance. The sooner you act, the better the outcome.
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need-to-know">Anti-money laundering compliance for your LLC: what you need to know</a> helps round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
-- <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
+- pass-through taxation guide
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
 Book your free consultation and we'll explain the complete maintenance plan for your case.`;

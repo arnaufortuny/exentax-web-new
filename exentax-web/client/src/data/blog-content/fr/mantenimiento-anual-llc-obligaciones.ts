@@ -104,6 +104,8 @@ Tout dépend de l'État :
 
 Chez Exentax, le plan de maintenance annuelle couvre tout ce qui précède. Aucune surprise, aucun supplément, aucun « ah, ça n'était pas inclus ». Un prix fixe annuel et nous nous chargeons de chaque démarche, chaque formulaire et chaque échéance.
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/conformite-aml-pour-votre-llc-ce-que-vous-devez-savoir">Conformité AML pour votre LLC : ce que vous devez savoir</a> aide à parachever le contexte.
+
 ## Que se passe-t-il si je ne fais pas la maintenance ?
 
 Soyons directs : si vous ignorez la maintenance de votre LLC, les conséquences sont réelles :

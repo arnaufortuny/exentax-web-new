@@ -81,6 +81,8 @@ Quel que soit l'État choisi, certaines choses ne changent pas :
 
 Le choix de l'État affecte principalement le coût de maintenance, le niveau de confidentialité dans les registres publics et la protection juridique en cas de litiges. Pour 80 % des freelances numériques, ces différences sont mineures comparées aux économies fiscales et opérationnelles qu'une LLC apporte quel que soit l'État.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/avantages-et-inconvenients-dune-llc-pour-non-residents-analyse-honnete">Avantages et inconvénients d'une LLC pour non-résidents : analyse honnête</a> et <a href="/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis-comparaison-fiscale">Auto-entrepreneur en Espagne vs LLC aux États-Unis : comparaison fiscale</a> complètent les nuances que nous n'avons qu'effleurées ici.
+
 ## L'erreur de se paralyser pour le choix de l'État
 
 Nous voyons cela fréquemment : des freelances qui passent des semaines à comparer les États, lire des forums, regarder des vidéos, et finalement ne font rien. Pendant ce temps, ils continuent à payer des cotisations élevées, à être imposés au taux maximum, et à opérer sans protection patrimoniale.

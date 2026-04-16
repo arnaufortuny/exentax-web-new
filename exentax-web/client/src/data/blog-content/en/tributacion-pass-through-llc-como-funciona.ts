@@ -128,9 +128,11 @@ Yes, as long as you maintain the same structure (single-member LLC, no election 
 Most states follow the federal classification. States like New Mexico and Wyoming have no state income tax on pass-through LLC income from non-residents, which is why they're ideal for formation.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/us-resident-vs-non-resident-llc-the-key-tax-differences">US resident vs non-resident LLC: the key tax differences</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where-you-live">taxation by country guide</a>
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
 - <a href="/en/blog/irs-extension-for-form-1120-how-to-file-form-7004-and-get-6-more-months">Form 7004 extension guide</a>

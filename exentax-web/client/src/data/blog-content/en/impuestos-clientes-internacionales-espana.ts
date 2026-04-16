@@ -102,6 +102,8 @@ Without a properly completed W-8BEN-E, US clients may withhold **30%** of your p
 At Exentax, we prepare your W-8BEN-E as part of our service.
 
 
+To keep going on this thread, <a href="/en/blog/pay-zero-taxes-legally-with-us-llc">Can you legally pay 0% taxes? The truth about tax optimization</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>

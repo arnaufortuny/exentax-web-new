@@ -84,6 +84,8 @@ Supongamos que generas esto al mes:
 
 Ese ahorro son dos equipos de cámara nuevos, o un año entero de editor de vídeo. O simplemente más dinero en tu bolsillo.
 
+Para seguir profundizando, <a href="/es/blog/llc-agencias-marketing-digital">LLC para agencias de marketing digital: operar sin fronteras</a> y <a href="/es/blog/que-es-irs-guia-duenos-llc">¿Qué es el IRS? Guía completa para dueños de LLC</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## Lo que incluye el servicio de Exentax
 
 En Exentax nos encargamos de todo: constitución de la LLC, obtención del EIN, apertura de cuenta bancaria americana (Mercury/Relay), configuración de tesorería (Slash), tarjetas corporativas (Wallester), pasarelas de pago (Stripe/DoDo Payments) y compliance anual. Tú te dedicas a crear contenido, nosotros nos ocupamos del aburrido pero necesario papeleo.

@@ -140,6 +140,8 @@ You can bill domestic clients through your autónomo registration and internatio
 These figures assume €72,000/year billing and grow proportionally with income. At €120,000/year, the five-year savings exceed €100,000.
 
 
+To keep going on this thread, <a href="/en/blog/advantages-and-disadvantages-of-a-us-llc-for-non-residents-honest-analysis">Advantages and disadvantages of a US LLC for non-residents: honest analysis</a> and <a href="/en/blog/why-not-to-open-an-estonian-company-the-us-llc-wins-for-most-non-residents">Why not to open an Estonian company: the US LLC wins for most non-residents</a> fill in nuances this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us-llc">guide on leaving Spanish self-employment</a>

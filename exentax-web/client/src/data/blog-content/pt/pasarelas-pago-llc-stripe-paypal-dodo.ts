@@ -101,6 +101,8 @@ Freelancers que querem uma solução tudo-em-um de banking e contabilidade sem s
 | Dodo Payments | Variável | Variável | Vendas globais com gestão de IVA automática |
 | Lili (neobanco) | Incluído | Incluído | Freelancers que querem banking + contabilidade tudo-em-um |
 
+Para continuar neste fio, <a href="/pt/blog/privacidade-com-uma-llc-americana-o-que-e-realmente-privado-e-o-que-nao-e">Privacidade com uma LLC americana: o que é realmente privado e o que não é</a> completa uma nuance que aqui apenas tocámos.
+
 ## O que preciso para configurá-las?
 
 Para verificar a sua LLC em qualquer plataforma de pagamento precisa de:

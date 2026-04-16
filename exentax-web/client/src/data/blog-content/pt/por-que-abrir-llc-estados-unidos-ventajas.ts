@@ -181,6 +181,8 @@ Constituir e manter uma LLC não precisa ser complicado. Na Exentax gerenciamos 
 
 Não subcontratamos, não delegamos a terceiros, não usamos modelos genéricos. Cada LLC que constituímos tem a nossa atenção direta.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/documentos-da-llc-quais-precisa-e-como-organiza-los">Documentos da LLC: quais precisa e como organizá-los</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Faz sentido para você?
 
 Se você é freelancer, consultor, desenvolvedor, designer, profissional de marketing ou qualquer profissional digital que fatura mais de $2,000 por mês a clientes internacionais, a resposta provavelmente é sim.

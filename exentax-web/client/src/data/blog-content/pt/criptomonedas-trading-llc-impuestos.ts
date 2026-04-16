@@ -56,6 +56,8 @@ A LLC de um único membro não residente (Disregarded Entity) não paga imposto 
 - **Separação total de patrimónios**: se uma operação correr muito mal, o seu património pessoal fica intacto. A LLC é o seu firewall.
 - **Dedução de ferramentas de trading**: TradingView, CoinTracker, cursos, hardware, subscrições de sinais.., toda despesa ordinária e necessária é dedutível.
 
+Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/impostos-com-clientes-internacionais-em-espanha-o-que-ninguem-conta">Impostos com clientes internacionais em Espanha: o que ninguém conta</a> ajuda a arredondar o contexto.
+
 ## Vale a pena a LLC para um trader?
 
 Depende do seu volume:

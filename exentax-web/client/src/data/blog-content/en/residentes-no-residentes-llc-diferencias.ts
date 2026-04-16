@@ -87,6 +87,8 @@ The reverse also applies: if you're a resident and leave the US (surrender Green
 - To speak English (that's what we're here for)
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/10-tax-mistakes-spanish-freelancers-make-and-how-to-avoid-them">10 tax mistakes Spanish freelancers make (and how to avoid them)</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>

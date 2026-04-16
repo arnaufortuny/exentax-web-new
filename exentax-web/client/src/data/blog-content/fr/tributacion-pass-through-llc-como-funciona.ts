@@ -121,6 +121,8 @@ Chez Exentax, nous ne nous contentons pas de créer votre LLC, nous concevons to
 
 Le résultat : une structure qui minimise votre charge fiscale totale de manière complètement légale, avec tous les documents en ordre et sans maux de tête.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales-cles-pour-votre-llc">Résident vs non-résident aux USA : les différences fiscales clés pour votre LLC</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Vous voulez savoir combien vous pourriez économiser ?
 
 Chaque cas est différent, mais la plupart de nos clients réduisent leur charge fiscale totale de 50 % à 70 % par rapport au fait d'opérer en tant qu'auto-entrepreneur/travailleur indépendant dans leur pays. Si vous facturez plus de 3 000 $ par mois, les chiffres commencent à devenir très intéressants.

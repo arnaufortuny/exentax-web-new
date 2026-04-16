@@ -45,4 +45,7 @@ export default `Falar da tributação da LLC em abstrato leva a erros: a tributa
 
   A LLC tributa pelo que faz, onde faz e desde onde é controlada.
 
-  Marque a sua consulta gratuita.`;
+  Marque a sua consulta gratuita.
+
+Para continuar neste fio, <a href="/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho-autonomo-por-uma-llc-ame">Por que freelancers espanhóis estão deixando o trabalho autônomo por uma LLC americana</a> completa uma nuance que aqui apenas tocámos.
+`;

@@ -104,6 +104,8 @@ Tot depèn de l'estat:
 
 A Exentax, el pla de manteniment anual cobreix tot l'anterior. Zero sorpreses, zero extres, zero "ah, això no estava inclòs". Un preu fix anual i nosaltres ens encarreguem de cada tràmit, cada formulari i cada termini.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber">Compliment AML per a la teva LLC: el que has de saber</a> ajuda a arrodonir el context.
+
 ## Què passa si no faig el manteniment?
 
 Anem a ser directes: si ignores el manteniment de la teva LLC, les conseqüències són reals:

@@ -94,6 +94,8 @@ La verificació inicial és només el principi. Les fintechs (i els bancs) fan m
 
 La clau és mantenir una operació coherent, documentada i previsible. Si les teves transaccions són coherents amb la teva activitat declarada, no tindràs cap problema.
 
+Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber">Compliment AML per a la teva LLC: el que has de saber</a>, que afina precisament els marges del que explica aquesta guia.
+
 ## Com ho coordinem a Exentax
 
 A Exentax coordinem l'obertura del teu compte Mercury com a part del procés de constitució. Preparem tota la documentació perfecta abans d'enviar la sol·licitud. Articles, EIN, Operating Agreement, passaport, tot alineat i coherent. El resultat: aprovació ràpida i sense rebuigs. Agenda la teva assessoria gratuïta.`;

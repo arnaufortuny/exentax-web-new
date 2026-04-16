@@ -69,6 +69,8 @@ Para operar a tua LLC, só precisas do EIN. O ITIN é necessário em certos caso
 
 **Na Exentax também te ajudamos com a obtenção do ITIN** se precisares. É um processo mais longo e burocrático que o EIN (requer enviar documentação certificada ao IRS), mas gerimo-lo do princípio ao fim.
 
+Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da-vantagem-americana">Por que abrir uma LLC americana em 2026: os 5 pilares da vantagem americana</a> e <a href="/pt/blog/llc-americana-para-desenvolvedores-de-software-e-fundadores-saas-guia-completo">LLC americana para desenvolvedores de software e fundadores SaaS: guia completo</a>, que afinam precisamente os contornos do que este guia explica.
+
 ## O que acontece se perderes o teu EIN?
 
 Não te preocupes. O EIN é atribuído de forma permanente à tua LLC e não caduca. Se perderes o documento de atribuição (a carta CP 575), podes solicitar uma cópia ligando ao IRS ou enviando o formulário correspondente. Também podes encontrar o teu EIN em declarações anteriores apresentadas perante o IRS. E se és nosso cliente, obviamente temo-lo arquivado.

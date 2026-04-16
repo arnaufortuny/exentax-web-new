@@ -94,6 +94,8 @@ Lo que necesitas tener listo:
 
 Si todo esto está organizado y coincide con lo declarado, el requerimiento se resuelve sin problemas. Si no lo tienes, empiezan las complicaciones.
 
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/estructura-fiscal-optima-freelancer-internacional">La estructura fiscal óptima para freelancers internacionales en 2026</a> es una pieza útil para terminar de contextualizar el escenario.
+
 ## Cómo lo gestionamos en Exentax
 
 Operamos con total transparencia. Cuando constituimos tu LLC:

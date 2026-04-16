@@ -91,4 +91,7 @@ export default `Una estructura internacional bien diseñada es una herramienta e
 
   Los riesgos fiscales no son hipotéticos: son la realidad de las inspecciones que vemos cada mes. La buena noticia es que todos estos riesgos son **evitables** con planificación seria y honesta. La optimización fiscal legal existe y es muy potente; la opacidad como estrategia es un atajo que termina siempre en el mismo sitio.
 
-  ¿Quieres una revisión profesional de tu estructura para detectar y corregir riesgos antes de que sea la AEAT quien los detecte? Agenda tu asesoría gratuita.`;
+  ¿Quieres una revisión profesional de tu estructura para detectar y corregir riesgos antes de que sea la AEAT quien los detecte? Agenda tu asesoría gratuita.
+
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/fiscalidad-internacional-emprendedores-digitales">Fiscalidad internacional para emprendedores digitales: todo lo que necesitas saber</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
+`;

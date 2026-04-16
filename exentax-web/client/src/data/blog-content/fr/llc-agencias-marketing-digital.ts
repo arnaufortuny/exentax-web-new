@@ -63,6 +63,8 @@ Si vous avez des collaborateurs en Espagne, au Mexique, en Argentine ou dans tou
 
 Avec cette économie, vous embauchez un autre designer, vous investissez dans vos propres campagnes publicitaires ou vous la gardez tout simplement pour vous.
 
+Quelques lectures voisines à garder sous la main : <a href="/fr/blog/llc-americaine-pour-createurs-de-contenu-youtube-twitch-et-au-dela">LLC américaine pour créateurs de contenu : YouTube, Twitch et au-delà</a> et <a href="/fr/blog/quest-ce-que-lirs-et-comment-affecte-t-il-votre-llc-americaine">Qu'est-ce que l'IRS et comment affecte-t-il votre LLC américaine ?</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+
 ## Ce que nous faisons pour vous
 
 Constitution complète de la LLC, EIN, compte bancaire, configuration de Stripe et de la facturation, conformité annuelle. Nous ne disparaissons pas après avoir créé l'entreprise, nous restons à vos côtés pour que tout fonctionne correctement. Support continu, toute l'année.

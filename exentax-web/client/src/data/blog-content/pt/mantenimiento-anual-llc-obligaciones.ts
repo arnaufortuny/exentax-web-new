@@ -104,6 +104,8 @@ Tudo depende do estado:
 
 Na Exentax, o plano de manutenção anual cobre tudo o anterior. Zero surpresas, zero extras, zero "ah, isto não estava incluído". Um preço fixo anual e nós encarregamo-nos de cada trâmite, cada formulário e cada prazo.
 
+Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/conformidade-anti-lavagem-de-dinheiro-para-sua-llc-o-que-precisa-saber">Conformidade anti-lavagem de dinheiro para sua LLC: o que precisa saber</a> ajuda a arredondar o contexto.
+
 ## O que acontece se não fizer a manutenção?
 
 Vamos ser diretos: se ignorares a manutenção da tua LLC, as consequências são reais:

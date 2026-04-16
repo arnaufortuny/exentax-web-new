@@ -116,6 +116,8 @@ Perquè l'operativa sigui fluida, et recomanem dedicar 30 minuts al mes a això:
 
 30 minuts. Un cop al mes. És tot el que necessites per mantenir la teva LLC impecable.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/el-teu-primer-mes-amb-una-llc-americana-el-que-esperar-setmana-a-setmana">El teu primer mes amb una LLC americana: el que esperar setmana a setmana</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Errors comuns en l'operativa diària
 
 - **Barrejar comptes personals i de negoci**: l'error més greu i més freqüent. Repeteixo: MAI

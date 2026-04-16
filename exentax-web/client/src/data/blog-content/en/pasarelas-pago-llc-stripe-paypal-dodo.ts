@@ -119,6 +119,8 @@ Connect all payment processors to your Mercury account for unified cash manageme
 3. **Payouts:** Mercury for all deposits
 
 
+To keep going on this thread, <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">Privacy with a US LLC: what is truly private and what is not</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

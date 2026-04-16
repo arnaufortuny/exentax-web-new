@@ -101,6 +101,8 @@ Freiberufler/Selbstständige, die eine All-in-One-Lösung für Banking und Buchh
 | Dodo Payments | Variabel | Variabel | Globaler Verkauf mit automatischer Umsatzsteuerverwaltung |
 | Lili (Neobank) | Inklusive | Inklusive | Freiberufler, die Banking + Buchhaltung All-in-One wünschen |
 
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/datenschutz-mit-einer-us-llc-was-wirklich-privat-ist-und-was-nicht">Datenschutz mit einer US LLC: Was wirklich privat ist und was nicht</a> eine Nuance, die wir hier nur gestreift haben.
+
 ## Was benötige ich für die Einrichtung?
 
 Um Ihre LLC bei einer Zahlungsplattform zu verifizieren, benötigen Sie:

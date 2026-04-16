@@ -181,6 +181,8 @@ Constituir i mantenir una LLC no té per què ser complicat. A Exentax gestionem
 
 No subcontractem, no deleguem en tercers, no usem plantilles genèriques. Cada LLC que constituïm té la nostra atenció directa.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/documents-de-la-llc-quins-necessites-i-com-organitzar-los">Documents de la LLC: quins necessites i com organitzar-los</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Té sentit per a tu?
 
 Si ets freelancer, consultor, desenvolupador, dissenyador, marketer o qualsevol professional digital que factura més de $2,000 al mes a clients internacionals, la resposta probablement és sí.

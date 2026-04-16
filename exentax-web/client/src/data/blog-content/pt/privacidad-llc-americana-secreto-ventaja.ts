@@ -82,6 +82,8 @@ Para além da proteção pessoal, a privacidade da sua LLC tem vantagens profiss
 
 **Proteção patrimonial:** Ao separar a sua identidade pessoal da sua atividade empresarial, reduz o risco de que problemas do negócio afetem os seus bens pessoais.
 
+Para continuar neste fio, <a href="/pt/blog/proprietarios-ficticios-para-llcs-por-que-e-ilegal-e-os-riscos-que-corre">Proprietários fictícios para LLCs: por que é ilegal e os riscos que corre</a> completa uma nuance que aqui apenas tocámos.
+
 ## Como gerimos a privacidade na Exentax
 
 Quando constituímos a sua LLC:

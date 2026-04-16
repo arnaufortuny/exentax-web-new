@@ -78,6 +78,8 @@ C'est là que ça devient intéressant. Si la majorité de vos clients sont B2B 
 
 Le résultat ? Des factures internationales simplifiées, moins de bureaucratie trimestrielle, et plus de temps pour ce qui compte vraiment : votre activité.
 
+Pour refermer, quelques lectures connexes qui s'inscrivent dans le prolongement de ce papier : <a href="/fr/blog/impots-avec-des-clients-internationaux-en-espagne-ce-que-personne-ne-vous-dit">Impôts avec des clients internationaux en Espagne : ce que personne ne vous dit</a> et <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre-administration-fiscale-l">Les comptes bancaires américains rapportent-ils à votre administration fiscale ? La réponse honnête</a> aident à parachever le contexte.
+
 ## Erreurs fréquentes avec la TVA internationale
 
 1. **Facturer la TVA française à une entreprise de l'UE.** Si elle dispose d'un numéro de TVA intracommunautaire valide, vous ne devez pas facturer de TVA. Vérifiez toujours sur le système VIES de la Commission Européenne avant de facturer.

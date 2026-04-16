@@ -92,6 +92,8 @@ Con una LLC, puedes deducir como gastos operativos todo lo que sea "ordinario y 
 
 **Diferencia:** 11.800€/año más en tu bolsillo. Cada año. Y la diferencia crece cuanto más facturas.
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/impuestos-clientes-internacionales-espana">Impuestos si tienes clientes internacionales en España: lo que nadie te cuenta</a> y <a href="/es/blog/criptomonedas-trading-llc-impuestos">Criptomonedas y trading con LLC: fiscalidad completa para traders</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## La cuota de autónomos: el impuesto más absurdo de España
 
 Merece su propio rant: la cuota de autónomos es un impuesto fijo que pagas **tanto si facturas como si no**. Con el nuevo sistema de cotización por ingresos (2023), la cuota sube cuando te va bien. Es el único sistema fiscal del mundo que te castiga por tener éxito.

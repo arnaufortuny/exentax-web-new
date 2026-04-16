@@ -102,6 +102,8 @@ You hire a freelance designer through your LLC. They claim you owe them $15,000 
 | Operating cost for protection | €0 (but unlimited risk) | a reasonable annual fee |
 
 
+To keep going on this thread, <a href="/en/blog/common-llc-problems-and-how-to-avoid-them-lessons-from-real-clients">Common LLC problems and how to avoid them: lessons from real clients</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">financial separation guide</a>

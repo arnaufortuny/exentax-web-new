@@ -38,7 +38,7 @@ export default `**DAC7** és una de les regulacions més ignorades per qui ven v
   ## Com planificar
 
   1. Coherència amb DAC7.
-  2. Optimitzar dins la llei (<a href="/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com-fer-ho-be">deduccions LLC</a>).
+  2. Optimitzar dins la llei (deduccions LLC).
   3. Substància en escala — <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas-a-pas">estructura sòlida</a>.
   4. Respondre primeres comunicacions.
 

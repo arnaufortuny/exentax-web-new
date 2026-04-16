@@ -85,6 +85,8 @@ Desde a primeira fatura que você emitir através da LLC. A economia fiscal se m
 **"E se eu me arrepender?"**
 Você pode dissolver a LLC a qualquer momento. Mas ninguém se arrependeu até agora. Uma vez que você vê a diferença nos números, não há volta atrás.
 
+Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/ach-vs-transferencia-bancaria-prazos-de-pagamento-e-impacto-no-fluxo-de-caixa-da">ACH vs transferência bancária: prazos de pagamento e impacto no fluxo de caixa da LLC</a> e <a href="/pt/blog/como-escalar-seu-negocio-digital-com-uma-llc-americana">Como escalar seu negócio digital com uma LLC americana</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
+
 ## Pronto para começar?
 
 Se quer saber como seria seu primeiro mês com uma LLC, agende uma assessoria gratuita. Explicamos o processo completo, fazemos os cálculos com seu faturamento real e esclarecemos todas as suas dúvidas. Em 30 minutos você terá clareza se a LLC é para você.

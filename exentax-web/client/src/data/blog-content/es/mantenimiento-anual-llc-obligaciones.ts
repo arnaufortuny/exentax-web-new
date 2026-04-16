@@ -43,7 +43,7 @@ Independientemente de dónde constituyas tu LLC, estas obligaciones son las mism
 
 Si tu LLC tiene un propietario extranjero (no residente), debes presentar el **<a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>** (informativo) junto con un **Form 1120 pro-forma** cada año. Es obligatorio incluso si tu LLC no tuvo ingresos.
 
-Recordatorio importante: **tu LLC paga $0 de impuesto federal.** Estos formularios son puramente informativos, el IRS quiere saber qué transacciones hubo entre tú y tu LLC, pero no te cobra nada. <a href="/es/blog/tributacion-pass-through-llc-como-funciona">Pass-through taxation</a> en estado puro.
+Recordatorio importante: **tu LLC paga $0 de impuesto federal.** Estos formularios son puramente informativos, el IRS quiere saber qué transacciones hubo entre tú y tu LLC, pero no te cobra nada. Pass-through taxation en estado puro.
 
 - **Plazo original:** 15 de abril
 - **Con extensión (Form 7004):** 15 de octubre
@@ -103,6 +103,8 @@ Todo depende del estado:
 | Soporte continuo | Incluido | Incluido | Incluido |
 
 En Exentax, el plan de mantenimiento anual cubre todo lo anterior. Cero sorpresas, cero extras, cero "ah, esto no estaba incluido". Un precio fijo anual y nosotros nos encargamos de cada trámite, cada formulario y cada plazo.
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/prevencion-blanqueo-capitales-llc">Prevención de blanqueo de capitales: lo que tu LLC necesita saber</a> es una pieza útil para terminar de contextualizar el escenario.
 
 ## ¿Qué pasa si no hago el mantenimiento?
 

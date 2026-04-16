@@ -55,4 +55,7 @@ export default `Sechs Hauptrisiken einer schlecht konzipierten internationalen S
 
   Risiken sind vermeidbar mit seriöser Planung. Legale Optimierung ist kraftvoll; Opazität endet immer am gleichen Ort.
 
-  Vereinbaren Sie Ihre kostenlose Beratung.`;
+  Vereinbaren Sie Ihre kostenlose Beratung.
+
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/internationale-besteuerung-fur-digitale-unternehmer-vollstandiger-leitfaden">Internationale Besteuerung für digitale Unternehmer: vollständiger Leitfaden</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+`;

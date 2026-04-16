@@ -96,6 +96,8 @@ No tot en la banca de la teva LLC es redueix a comptes corrents. Hi ha dues cape
 
 **Wallester** cobreix la capa de despeses i proporciona IBAN en euros per a clients Exentax. Emet targetes corporatives (virtuals i físiques) amb control individual per targeta. Una targeta per a cada subscripció, cada proveïdor, cada categoria de despesa. Si treballes amb col·laboradors, pots emetre'ls targetes amb límits específics. Tot queda documentat i categoritzat.
 
+Per continuar aquest fil, <a href="/ca/blog/propietaris-ficticis-per-a-llcs-per-que-es-illegal-i-els-riscos-que-es-corren">Propietaris ficticis per a LLCs: per què és il·legal i els riscos que es corren</a> completa un matís que aquí només hem tocat de passada.
+
 ## Quina recomanem?
 
 Per a la majoria de LLCs de no residents, la combinació ideal és:

@@ -58,4 +58,7 @@ export default `Si vous résidez fiscalement en Espagne et possédez une <a href
 
   Doctrine espagnole sur la LLC : cas typique de LLC unipersonnelle = activité économique imputée au socio en base générale. Bien conçue, la LLC reste un excellent outil ; planification sérieuse requise.
 
-  Vous voulez réviser votre cas et concevoir la structure la plus efficiente ? Réservez votre consultation gratuite.`;
+  Vous voulez réviser votre cas et concevoir la structure la plus efficiente ? Réservez votre consultation gratuite.
+
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/fiscalite-internationale-pour-entrepreneurs-numeriques-guide-complet">Fiscalité internationale pour entrepreneurs numériques : guide complet</a> aide à parachever le contexte.
+`;

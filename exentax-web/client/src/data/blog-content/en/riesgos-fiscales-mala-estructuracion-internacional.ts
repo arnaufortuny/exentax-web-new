@@ -91,4 +91,7 @@ export default `A well-designed international structure is an extraordinary tool
 
   Tax risks are not hypothetical: they're the reality of audits we see monthly. The good news: all these risks are **avoidable** with serious and honest planning. Legal tax optimization exists and is very powerful; opacity as strategy is a shortcut that always ends in the same place.
 
-  Want a professional review of your structure to detect and correct risks before the AEAT does? Book your free consultation.`;
+  Want a professional review of your structure to detect and correct risks before the AEAT does? Book your free consultation.
+
+If something in this structure left you wanting more detail, <a href="/en/blog/international-taxation-for-digital-entrepreneurs-the-complete-guide">International taxation for digital entrepreneurs: the complete guide</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+`;

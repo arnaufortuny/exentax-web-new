@@ -103,6 +103,8 @@ Sem LLC (trabalhador independente/autônomo standard): tributas pelos teus rendi
 
 Com LLC: as despesas dedutíveis são muito mais amplas (tudo o que seja "ordinário e necessário" para o negócio segundo o IRS), e declaras apenas os lucros líquidos. A base tributável reduz-se significativamente.
 
+Para continuar neste fio, <a href="/pt/blog/e-possivel-pagar-0-de-impostos-legalmente-a-verdade-sobre-otimizacao-fiscal">É possível pagar 0% de impostos legalmente? A verdade sobre otimização fiscal</a> completa uma nuance que aqui apenas tocámos.
+
 ## O que deverias fazer?
 
 Se faturas mais de 30.000€/ano a clientes internacionais, a otimização fiscal com uma LLC é legal, está ao alcance de qualquer freelancer, e a poupança é real.

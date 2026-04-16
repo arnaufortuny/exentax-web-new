@@ -108,6 +108,8 @@ At Exentax we monitor all international regulatory developments to adapt our cli
 Each country has unique rules about how LLC income is treated. At Exentax, we coordinate with local tax advisors in each country to ensure your structure is properly optimized.
 
 
+To keep going on this thread, <a href="/en/blog/optimal-tax-structure-for-international-freelancers-the-complete-framework">Optimal tax structure for international freelancers: the complete framework</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>

@@ -14,7 +14,7 @@ Hay tres grandes mecanismos por los que la información financiera viaja entre p
 
 Mercury es un Money Transmitter registrado en EE.UU. que usa Column NA como banco custodio. Opera exclusivamente dentro del sistema financiero americano.
 
-**¿Reporta Mercury al IRS?** Sí, como toda institución financiera americana, <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a> cumple con las obligaciones de reporte al IRS. Esto incluye formularios como el 1099 cuando aplica.
+**¿Reporta Mercury al IRS?** Sí, como toda institución financiera americana, Mercury cumple con las obligaciones de reporte al IRS. Esto incluye formularios como el 1099 cuando aplica.
 
 **¿Reporta Mercury a tu hacienda local?** No directamente. Como EE.UU. no participa en el CRS, no hay un flujo automático de información CRS desde Mercury hacia, por ejemplo, la AEAT en España o el SAT en México.
 
@@ -75,15 +75,17 @@ Las herramientas complementarias de tu LLC también tienen implicaciones:
 
 **3. Una LLC bien gestionada no necesita esconderse.** Tu ahorro fiscal viene de la optimización legal (<a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles</a>, <a href="/es/blog/tributacion-pass-through-llc-como-funciona">pass-through taxation</a>, estructura eficiente), no de ocultar cuentas.
 
-**4. La trazabilidad es tu mejor defensa.** Si alguna vez tu hacienda te pregunta sobre tu LLC, tener todo documentado (facturas, distributions, <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, <a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a>) es lo que te protege.
+**4. La trazabilidad es tu mejor defensa.** Si alguna vez tu hacienda te pregunta sobre tu LLC, tener todo documentado (facturas, distributions, Form 5472, <a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a>) es lo que te protege.
 
 **5. El reporte evoluciona.** Que hoy EE.UU. no participe en CRS no significa que mañana no lo haga. Construye tu estructura asumiendo transparencia total, y nunca tendrás problemas.
+
+Un matiz que quedó corto y que conviene leer aparte: <a href="/es/blog/estructura-fiscal-optima-freelancer-internacional">La estructura fiscal óptima para freelancers internacionales en 2026</a>, porque afina exactamente los bordes de lo explicado en esta guía.
 
 ## Cómo lo gestionamos en Exentax
 
 Cuando montamos tu estructura, coordinamos el compliance en ambos lados:
 
-- Preparamos el <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a> y el <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> en EE.UU.
+- Preparamos el Form 5472 y el BOI Report en EE.UU.
 - Te proporcionamos toda la documentación que tu asesor fiscal local necesita para la declaración en tu país
 - Cada movimiento de tu LLC queda documentado y trazable
 - Si tu hacienda local envía un requerimiento, tienes todo organizado para responder en días, no en semanas

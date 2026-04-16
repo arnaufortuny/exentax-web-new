@@ -129,6 +129,8 @@ Un treballador per compte propi típic amb una LLC sol tenir entre **$5,000 i $2
 
 Exemple pràctic: si factures $60,000/any i tens $15,000 en despeses deduïbles, només declares $45,000 de benefici al teu país. Si el teu tipus efectiu és del 20%, això són **$3,000 menys d'impostos** només per documentar correctament les teves despeses. Cada factura de programari, cada curs, cada membresia de coworking t'està estalviant diners.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/es-pot-pagar-0-dimpostos-legalment-la-veritat-sobre-loptimitzacio-fiscal">Es pot pagar 0% d'impostos legalment? La veritat sobre l'optimització fiscal</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## A Exentax t'ajudem amb això
 
 Part del nostre servei de manteniment inclou orientació sobre quines despeses pots deduir i com documentar-les correctament. No et deixem sol amb una llista. t'acompanyem perquè maximitzis les teves deduccions sense problemes.

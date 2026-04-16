@@ -86,6 +86,8 @@ La seqüència típica del freelancer que arriba a Exentax amb problemes:
 
 La constitució representa el 10% de la feina. El 90% restant és manteniment, compliance i operació diària. A Exentax cobrim el cicle complet.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/quant-costa-constituir-una-llc-americana-analisi-completa-dels-costos">Quant costa constituir una LLC americana? Anàlisi completa dels costos</a> ajuda a arrodonir el context.
+
 ## La diferència entre fer les coses bé i fer les coses "a mitges"
 
 El 90% dels problemes que veiem es podrien haver evitat amb un assessorament adequat des del principi. Una LLC ben constituïda, amb compliance al dia i una operació traçable, és una màquina d'eficiència fiscal. Una LLC mal gestionada és una bomba de rellotgeria.

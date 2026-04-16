@@ -129,6 +129,8 @@ Um trabalhador independente/autônomo típico com uma LLC costuma ter entre **$5
 
 Exemplo prático: se fatura $60,000/ano e tem $15,000 em gastos dedutíveis, só declara $45,000 de lucro no seu país. Se a sua taxa efetiva é de 20%, isso são **$3,000 a menos de impostos** só por documentar corretamente os seus gastos. Cada fatura de software, cada curso, cada assinatura de coworking está poupando dinheiro.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/e-possivel-pagar-0-de-impostos-legalmente-a-verdade-sobre-otimizacao-fiscal">É possível pagar 0% de impostos legalmente? A verdade sobre otimização fiscal</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Na Exentax ajudamos você com isto
 
 Parte do nosso serviço de manutenção inclui orientação sobre que gastos pode deduzir e como documentá-los corretamente. Não deixamos você sozinho com uma lista. acompanhamos para que maximize as suas deduções sem problemas.

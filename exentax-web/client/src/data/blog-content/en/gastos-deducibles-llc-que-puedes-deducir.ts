@@ -191,6 +191,8 @@ A typical freelancer with an LLC usually has between **$5,000 and $25,000** in d
 6. **Not deducting Exentax fees**: our formation and maintenance fees are legitimate business expenses
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/pay-zero-taxes-legally-with-us-llc">Can you legally pay 0% taxes? The truth about tax optimization</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

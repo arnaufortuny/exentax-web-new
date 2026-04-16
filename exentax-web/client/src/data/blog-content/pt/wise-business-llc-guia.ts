@@ -85,6 +85,8 @@ A Wise ocupa um papel específico no teu stack financeiro:
 
 Cada ferramenta tem a sua função. O erro mais comum é tentar que uma só plataforma faça tudo. O resultado é sempre pagar mais em comissões ocultas ou obter pior taxa de câmbio.
 
+Uma leitura adjacente a manter à mão: <a href="/pt/blog/como-gerir-sua-llc-no-dia-a-dia-guia-pratico-para-nao-residentes">Como gerir sua LLC no dia a dia: guia prático para não residentes</a>, que afina precisamente os contornos do que este guia explica.
+
 ## Casos de uso reais
 
 **Freelancer em Espanha que fatura em USD:** O teu cliente americano paga na tua Mercury por ACH. No final do mês, transferes a tua distribuição para a Wise, convertes para EUR à taxa real e envias para a tua conta espanhola por SEPA. Custo total da conversão: 0,4-0,6%. Com um banco tradicional pagarias 2-3%.

@@ -121,6 +121,8 @@ A Exentax no només constituïm la teva LLC. dissenyem tota l'estructura fiscal 
 
 El resultat: una estructura que minimitza la teva càrrega fiscal total de forma completament legal, amb tots els papers en ordre i sense maldecaps.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau">Resident EUA vs no resident LLC: les diferències fiscals clau</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Vols saber quant podries estalviar-te?
 
 Cada cas és diferent, però la majoria dels nostres clients redueixen la seva càrrega fiscal total entre un 50% i un 70% respecte a operar com a autònom/treballador per compte propi al seu país. Si factures més de $3,000 al mes, els números comencen a ser molt interessants.

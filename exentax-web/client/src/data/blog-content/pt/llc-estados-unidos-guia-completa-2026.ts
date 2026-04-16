@@ -93,6 +93,8 @@ A manutenção anual inclui todas as declarações perante o IRS (Form 5472, For
 4. **Esquecer o Form 5472.** É uma declaração anual obrigatória. Nós gerimo-la por ti todos os anos, nem te apercebes.
 5. **Misturar contas pessoais e empresariais.** Isto pode comprometer a proteção de responsabilidade limitada. Conta da LLC = só para o negócio.
 
+Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/documentos-da-llc-quais-precisa-e-como-organiza-los">Documentos da LLC: quais precisa e como organizá-los</a> ajuda a arredondar o contexto.
+
 ## É legal?
 
 Absolutamente. Não é evasão fiscal. É planeamento fiscal legal utilizando estruturas reconhecidas pelo IRS e as autoridades do teu país. Milhões de empresas operam assim. A chave está em declarar corretamente e manter o compliance em dia, e disso tratamos nós.

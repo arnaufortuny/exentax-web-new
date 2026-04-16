@@ -62,6 +62,8 @@ La LLC de un solo miembro no residente (Disregarded Entity) no paga impuesto fed
 - **Deducción de herramientas de trading**: TradingView, CoinTracker, cursos, hardware, suscripciones a señales, datos de mercado, colocación de servidores... todo gasto ordinario y necesario es deducible.
 - **Diversificación multi-bróker**: Con Interactive Brokers para mercados tradicionales, Tradovate para futuros y Kraken para crypto, tu LLC puede operar en todos los mercados principales desde una estructura unificada.
 
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/impuestos-clientes-internacionales-espana">Impuestos si tienes clientes internacionales en España: lo que nadie te cuenta</a> es una pieza útil para terminar de contextualizar el escenario.
+
 ## ¿Merece la pena la LLC para un trader?
 
 Depende de tu volumen:

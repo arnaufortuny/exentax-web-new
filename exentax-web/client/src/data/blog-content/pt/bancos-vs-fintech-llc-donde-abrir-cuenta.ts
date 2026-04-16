@@ -96,6 +96,8 @@ A **Slash** cobre a camada de tesouraria. Se a tua LLC acumula capital entre cob
 
 A **Wallester** cobre a camada de gastos e fornece IBAN em euros para clientes Exentax. Emite cartões corporativos (virtuais e físicos) com controlo individual por cartão. Um cartão para cada subscrição, cada fornecedor, cada categoria de gasto. Se trabalhas com colaboradores, podes emitir-lhes cartões com limites específicos. Tudo fica documentado e categorizado.
 
+Para continuar neste fio, <a href="/pt/blog/proprietarios-ficticios-para-llcs-por-que-e-ilegal-e-os-riscos-que-corre">Proprietários fictícios para LLCs: por que é ilegal e os riscos que corre</a> completa uma nuance que aqui apenas tocámos.
+
 ## Qual recomendamos?
 
 Para a maioria das LLCs de não residentes, a combinação ideal é:

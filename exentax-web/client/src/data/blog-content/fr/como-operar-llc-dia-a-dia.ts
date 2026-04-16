@@ -116,6 +116,8 @@ Pour que la gestion soit fluide, nous vous recommandons de consacrer 30 minutes 
 
 30 minutes. Une fois par mois. C'est tout ce qu'il faut pour maintenir votre LLC en parfait état.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/votre-premier-mois-avec-une-llc-ce-a-quoi-vous-attendre-semaine-par-semaine">Votre premier mois avec une LLC : ce à quoi vous attendre semaine par semaine</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Erreurs courantes dans la gestion quotidienne
 
 - **Mélanger comptes personnels et professionnels**: l'erreur la plus grave et la plus fréquente. Je répète : JAMAIS

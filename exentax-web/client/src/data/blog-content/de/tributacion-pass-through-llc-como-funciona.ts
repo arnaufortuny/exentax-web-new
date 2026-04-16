@@ -121,6 +121,8 @@ Bei Exentax gründen wir nicht nur Ihre LLC. wir gestalten die gesamte Steuerstr
 
 Das Ergebnis: eine Struktur, die Ihre Gesamtsteuerbelastung auf völlig legale Weise minimiert, mit allen Unterlagen in Ordnung und ohne Kopfschmerzen.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten-steuerunterschiede">US-Resident vs Nicht-Resident LLC: die wichtigsten Steuerunterschiede</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Möchten Sie wissen, wie viel Sie sparen könnten?
 
 Jeder Fall ist anders, aber die meisten unserer Kunden reduzieren ihre Gesamtsteuerbelastung um 50 % bis 70 % im Vergleich zur Tätigkeit als Freiberufler/Selbstständiger in ihrem Land. Wenn Sie mehr als $3.000 pro Monat in Rechnung stellen, werden die Zahlen sehr interessant.

@@ -38,7 +38,7 @@ export default `**DAC7** é uma das regulações mais ignoradas por quem vende v
   ## Como planear
 
   1. Coerência com DAC7.
-  2. Otimizar dentro da lei (<a href="/pt/blog/deducoes-fiscais-para-sua-llc-o-que-pode-deduzir-e-como-fazer-corretamente">deduções LLC</a>).
+  2. Otimizar dentro da lei (deduções LLC).
   3. Substância em escala — <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro-passo-a-passo">estrutura sólida</a>.
   4. Responder às primeiras notificações.
 

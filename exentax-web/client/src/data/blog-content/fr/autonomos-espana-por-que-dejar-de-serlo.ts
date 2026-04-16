@@ -92,6 +92,8 @@ Avec une LLC, vous pouvez déduire comme charges opérationnelles tout ce qui es
 
 **Différence :** 11 800€/an de plus dans votre poche. Chaque année. Et la différence augmente avec votre chiffre d'affaires.
 
+Quelques lectures voisines à garder sous la main : <a href="/fr/blog/impots-avec-des-clients-internationaux-en-espagne-ce-que-personne-ne-vous-dit">Impôts avec des clients internationaux en Espagne : ce que personne ne vous dit</a> et <a href="/fr/blog/cryptomonnaies-et-trading-avec-llc-guide-fiscal-complet-pour-traders">Cryptomonnaies et trading avec LLC : guide fiscal complet pour traders</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+
 ## La cotisation auto-entrepreneur : l'impôt le plus absurde d'Espagne
 
 Elle mérite sa propre critique : la cotisation auto-entrepreneur est un impôt fixe que vous payez **que vous facturiez ou non**. Avec le nouveau système de cotisation par revenus (2023), la cotisation augmente quand ça va bien. C'est le seul système fiscal au monde qui vous punit pour avoir du succès.

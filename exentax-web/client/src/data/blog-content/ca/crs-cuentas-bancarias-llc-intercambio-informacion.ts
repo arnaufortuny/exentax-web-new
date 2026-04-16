@@ -92,6 +92,8 @@ El que necessites tenir preparat:
 
 Si tot està organitzat i coincideix amb el declarat, el requeriment es resol sense problemes. Si no, comencen les complicacions.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/estructura-fiscal-optima-per-a-freelancers-internacionals-el-framework-complet">Estructura fiscal òptima per a freelancers internacionals: el framework complet</a> ajuda a arrodonir el context.
+
 ## Com ho gestionem a Exentax
 
 A Exentax operem amb total transparència. Quan constituïm la teva LLC:

@@ -80,6 +80,8 @@ L'invers també s'aplica: si ets resident i deixes els EUA (retornes la Green Ca
 
 La clau en tots aquests casos: **cap d'ells té ingressos de font estatunidenca**. Treballen des dels seus països per a clients globals. La LLC paga $0 als EUA i els beneficis es declaren amb la base imposable ja optimitzada.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/10-errors-fiscals-dels-freelancers-espanyols-i-com-evitar-los">10 errors fiscals dels freelancers espanyols (i com evitar-los)</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Puc tenir una LLC sense viure als EUA?
 
 **Absolutament.** De fet, és per al que estan dissenyades. No necessites:

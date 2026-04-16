@@ -78,6 +78,8 @@ Dieser Ablauf minimiert die Provisionen und maximiert den Wechselkurs.
 | Traditionelle Bank | Mit Aufschlag | $15-50 + Zwischenbanken | 3-5% |
 | PayPal-Umrechnung | Mit Aufschlag 3-4% | Variabel | 4-6% |
 
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/iban-swift-und-routing-nummern-internationale-bankencodes-verstehen">IBAN, SWIFT und Routing-Nummern: Internationale Bankencodes verstehen</a> und <a href="/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger-leitfaden">Auf Amazon verkaufen mit Ihrer US LLC: vollständiger Leitfaden</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+
 ## Tipps zum Sparen beim Währungswechsel
 
 - **Konsolidieren Sie Ihre Auszahlungen**: machen Sie eine oder zwei große Überweisungen pro Monat statt vieler kleiner

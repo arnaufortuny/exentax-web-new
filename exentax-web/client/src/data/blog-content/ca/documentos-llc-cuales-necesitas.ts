@@ -80,6 +80,8 @@ Document que confirma qui és el teu Registered Agent, la persona o empresa desi
 - **Passaport americà**: Qualsevol passaport vigent és vàlid
 - **Compte bancari previ als EUA**: S'obre com a part del procés de constitució
 
+Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/per-que-obrir-una-llc-americana-el-2026-els-5-pilars-del-avantatge-america">Per què obrir una LLC americana el 2026: els 5 pilars del avantatge americà</a> i <a href="/ca/blog/ein-vs-itin-vs-ssn-els-numeros-didentificacio-fiscal-americans-explicats">EIN vs ITIN vs SSN: els números d'identificació fiscal americans explicats</a>, que afinen precisament els marges del que explica aquesta guia.
+
 ## On guardar aquests documents?
 
 Recomanem tenir una còpia digital organitzada de tot:

@@ -138,6 +138,8 @@ No. Once issued, an EIN is permanent. it never expires and never changes. Even i
 Each LLC gets exactly one EIN. If you have multiple LLCs, each one has its own EIN. You cannot share EINs between entities.
 
 
+To keep going on this thread, <a href="/en/blog/common-llc-problems-and-how-to-avoid-them-lessons-from-real-clients">Common LLC problems and how to avoid them: lessons from real clients</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
 - <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>

@@ -129,6 +129,8 @@ Ein typischer Freiberufler/Selbstständiger mit einer LLC hat in der Regel zwisc
 
 Praktisches Beispiel: Wenn Sie $60.000/Jahr fakturieren und $15.000 an absetzbaren Ausgaben haben, deklarieren Sie nur $45.000 Gewinn in Ihrem Land. Wenn Ihr effektiver Steuersatz 20% beträgt, sind das **$3.000 weniger Steuern** allein durch die korrekte Dokumentation Ihrer Ausgaben. Jede Software-Rechnung, jeder Kurs, jede Coworking-Mitgliedschaft spart Ihnen Geld.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/kann-man-legal-0-steuern-zahlen-die-wahrheit-uber-steueroptimierung">Kann man legal 0% Steuern zahlen? Die Wahrheit über Steueroptimierung</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Bei Exentax helfen wir Ihnen dabei
 
 Teil unseres Wartungsservice umfasst die Beratung darüber, welche Ausgaben Sie absetzen können und wie Sie diese korrekt dokumentieren. Wir lassen Sie nicht allein mit einer Liste. wir begleiten Sie, damit Sie Ihre Abzüge maximieren, ohne Probleme.

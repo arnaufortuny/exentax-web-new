@@ -82,6 +82,8 @@ El **nexus** es el concepto que determina si debes cobrar Sales Tax en un estado
 - Sin inventario, sin riesgo
 - Ideal para creadores de contenido que quieren merch
 
+Para seguir profundizando, <a href="/es/blog/iban-swift-routing-number-que-son">IBAN, SWIFT y Routing Number: qué son y cuándo usarlos</a> y <a href="/es/blog/escalar-negocio-digital-llc-americana">Cómo escalar tu negocio digital con una LLC americana</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## Cuentas y herramientas esenciales para ecommerce
 
 | Herramienta | Para qué | Coste |

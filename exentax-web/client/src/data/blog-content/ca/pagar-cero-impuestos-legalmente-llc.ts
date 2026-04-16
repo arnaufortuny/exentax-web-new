@@ -88,6 +88,8 @@ La reducció del 40% fins a un 0% ja és un estalvi enorme. Per a algú que fact
 
 Per a la majoria dels freelancers catalanoparlants: reducció significativa amb declaració parcial. No pagues zero, però pagues molt menys que avui, i ho fas en un marc legal, documentat i sostenible.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/10-errors-fiscals-dels-freelancers-espanyols-i-com-evitar-los">10 errors fiscals dels freelancers espanyols (i com evitar-los)</a> ajuda a arrodonir el context.
+
 ## Les eines financeres que acompanyen el 0%
 
 Optimitzar la fiscalitat no serveix de res si no tens la infraestructura per gestionar els diners de manera eficient. Les eines que complementen la teva estructura LLC:

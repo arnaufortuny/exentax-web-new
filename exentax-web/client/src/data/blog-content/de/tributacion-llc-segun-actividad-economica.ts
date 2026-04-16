@@ -45,4 +45,7 @@ export default `Über LLC-Besteuerung abstrakt zu sprechen führt zu Fehlern: di
 
   Eine LLC besteuert sich nach dem, was sie tut, wo und woher sie kontrolliert wird.
 
-  Vereinbaren Sie Ihre kostenlose Beratung.`;
+  Vereinbaren Sie Ihre kostenlose Beratung.
+
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us-llc-aufgeben">Warum spanische Freelancer die Selbstständigkeit für eine US LLC aufgeben</a> eine Nuance, die wir hier nur gestreift haben.
+`;

@@ -51,4 +51,7 @@ export default `Sis riscos principals i com evitar-los.
 
   Riscos evitables amb planificació seriosa.
 
-  Demana la teva consulta gratuïta.`;
+  Demana la teva consulta gratuïta.
+
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia-completa">Fiscalitat internacional per a emprenedors digitals: guia completa</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+`;

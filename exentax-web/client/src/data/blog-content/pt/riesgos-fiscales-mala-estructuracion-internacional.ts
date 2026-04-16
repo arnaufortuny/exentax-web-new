@@ -51,4 +51,7 @@ export default `Seis riscos principais e como evitá-los.
 
   Riscos evitáveis com planeamento sério. Otimização legal é poderosa; opacidade acaba sempre mal.
 
-  Marque a sua consulta gratuita.`;
+  Marque a sua consulta gratuita.
+
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia-completo">Tributação internacional para empreendedores digitais: guia completo</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+`;

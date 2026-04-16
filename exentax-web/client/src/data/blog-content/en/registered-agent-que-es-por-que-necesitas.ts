@@ -100,6 +100,8 @@ At Exentax we work with established, reputable registered agents with clean trac
 
 Some formation services offer a "free first year" RA but then charge a standard annual fee afterward. Others include RA service but charge separately for mail forwarding, document scanning, or compliance alerts. At Exentax, the Registered Agent is included in your maintenance package. no surprise fees, no upsells.
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/us-llc-for-content-creators-youtube-twitch-and-beyond">US LLC for content creators: YouTube, Twitch and beyond</a> and <a href="/en/blog/how-much-does-it-cost-to-form-a-us-llc-complete-cost-breakdown">How much does it cost to form a US LLC? Complete cost breakdown</a>, which sharpen exactly the edges we skimmed above.
+
 ## What happens when your RA receives mail
 
 Your Registered Agent receives:

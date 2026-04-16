@@ -77,6 +77,8 @@ Wenn Ihr Registered Agent seine Adresse ändert (oder verschwindet), kann diese 
 
 **Die Lektion:** Der Registered Agent ist nicht nur ein Postempfänger. Er ist ein Knotenpunkt im Identitätsnetzwerk Ihrer LLC. Jede Stelle. Staat, IRS, Bank. erwartet, dieselbe Adresse zu sehen.
 
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/us-llc-fur-content-creator-youtube-twitch-und-mehr">US LLC für Content-Creator: YouTube, Twitch und mehr</a> und <a href="/de/blog/was-kostet-eine-us-llc-vollstandige-kostenubersicht">Was kostet eine US LLC? Vollständige Kostenübersicht</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+
 ## Wie wir es bei Exentax handhaben
 
 Wir arbeiten mit professionellen eingetragenen Vertretern in jedem Bundesstaat:

@@ -90,6 +90,8 @@ Wise (que és una EMI, no un banc) et genera comptes locals en múltiples païso
 
 Els teus clients paguen com si fos una transferència local. tu reps al teu balanç multi-divisa de Wise i després transfereixes a Mercury quan et convingui.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte-en-el-flux-de-caixa">ACH vs transferència bancària: terminis de pagament i impacte en el flux de caixa de la LLC</a> i <a href="/ca/blog/com-escalar-el-teu-negoci-digital-amb-una-llc-americana">Com escalar el teu negoci digital amb una LLC americana</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## Mercury: dades bancàries que necessites
 
 Per a Mercury, les dades que donaràs als clients són:

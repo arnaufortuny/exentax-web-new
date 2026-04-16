@@ -204,11 +204,13 @@ No. It's a genuine innovation with real use cases. It's just not the tax optimiz
 A UK LTD (Limited Company) is another option. Corporate tax is 19-25%, higher than the US LLC's 0%. Formation is quick (1-2 days), and UK Stripe is solid. But it can't compete with the LLC's tax efficiency for non-residents.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/advantages-and-disadvantages-of-a-us-llc-for-non-residents-honest-analysis">Advantages and disadvantages of a US LLC for non-residents: honest analysis</a> and <a href="/en/blog/new-mexico-vs-wyoming-vs-delaware-which-state-for-your-llc">New Mexico vs Wyoming vs Delaware: which state for your LLC</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## Related articles
 
-- <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- pass-through taxation guide
+- Mercury account guide
+- Form 5472 guide
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
 - <a href="/en/blog/crs-and-your-us-llc-bank-accounts-what-gets-shared-with-your-home-country">CRS information exchange guide</a>

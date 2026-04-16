@@ -175,6 +175,8 @@ L'e-Residency d'Estònia s'ha convertit en un producte de màrqueting brillant. 
 
 Però els números no menteixen. Quan sumes els costos de comptabilitat obligatòria, l'impost sobre distribucions, la gestió d'IVA, i les limitacions bancàries. l'OÜ estona és més cara, més burocràtica i fiscalment menys eficient que una LLC americana per a la immensa majoria de treballadors per compte propi i emprenedors digitals hispans.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/avantatges-i-desavantatges-duna-llc-americana-per-a-no-residents-analisi-honesta">Avantatges i desavantatges d'una LLC americana per a no residents: anàlisi honesta</a> i <a href="/ca/blog/nou-mexic-vs-wyoming-vs-delaware-quin-estat-per-a-la-teva-llc">Nou Mèxic vs Wyoming vs Delaware: quin estat per a la teva LLC</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## A Exentax et donem l'estructura que realment funciona
 
 No venem fum ni modes. Dissenyem estructures fiscals basades en la legislació vigent, amb números reals i compliance total.

@@ -85,6 +85,8 @@ Die Informationen des BOI Report sind nicht öffentlich. FinCEN bewahrt sie in e
 
 Ihr Name, Ihre Adresse und Ihr Ausweisdokument erscheinen durch den BOI Report in keinem öffentlichen Register. Es handelt sich um vertrauliche Informationen der Bundesregierung.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen-mussen">Anti-Geldwäsche-Compliance für Ihre LLC: Was Sie wissen müssen</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Wie wir es bei Exentax handhaben
 
 Der BOI Report ist in unseren Gründungs- und Wartungsdienstleistungen enthalten:

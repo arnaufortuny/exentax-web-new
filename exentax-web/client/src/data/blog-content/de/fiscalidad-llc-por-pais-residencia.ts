@@ -83,6 +83,8 @@ Unabhängig davon, wo Sie leben, gelten immer folgende Grundsätze:
 
 **4. Jede Situation ist anders.** Es gibt keine pauschale Antwort, Ihre endgültige Steuerlast hängt von Ihren Einkünften, Ihren Ausgaben, Ihrem Land, Ihrem Regime und Dutzenden von Variablen ab, die nur im Einzelfall analysiert werden können.
 
+Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href="/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten-steuerunterschiede">US-Resident vs Nicht-Resident LLC: die wichtigsten Steuerunterschiede</a> schärft genau die Kanten, die wir oben nur angerissen haben.
+
 ## Warum spezialisierte Beratung den Unterschied macht
 
 Auf YouTube und Twitter finden Sie Tausende von Leuten, die sagen "mit einer LLC zahlen Sie 0% Steuern". Das ist eine gefährliche Vereinfachung. Sie zahlen 0% **Bundessteuer in den USA**: aber Sie haben weiterhin Pflichten in Ihrem steuerlichen Wohnsitzland.

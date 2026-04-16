@@ -65,6 +65,8 @@ Notre recommandation :
 
 Ne dépendez jamais d'un seul compte. Si l'un est temporairement bloqué, vous devez pouvoir continuer à opérer.
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/iban-swift-et-routing-numbers-comprendre-les-codes-bancaires-internationaux">IBAN, SWIFT et routing numbers : comprendre les codes bancaires internationaux</a> et <a href="/fr/blog/changer-de-devises-pour-votre-llc-meilleures-options-et-eviter-les-frais-caches">Changer de devises pour votre LLC : meilleures options et éviter les frais cachés</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Information clé sur chaque plateforme
 
 - **Mercury** utilise Column NA comme banque dépositaire. Vos fonds sont assurés par la FDIC jusqu'à $250K par déposant. Les virements nationaux et internationaux sont à $0. C'est une plateforme fintech sérieuse, pas une structure douteuse.

@@ -71,6 +71,8 @@ La teva LLC americana és el teu passaport a mercats que abans estaven tancats:
 - **SaaS global**: Ven subscripcions a clients de qualsevol país
 - **Programes de partners**: Molts programes d'afiliats i partners només accepten empreses americanes
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte-en-el-flux-de-caixa">ACH vs transferència bancària: terminis de pagament i impacte en el flux de caixa de la LLC</a> i <a href="/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa">Vendre a Amazon amb la teva LLC americana: guia completa</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## El moment de fer el pas
 
 Si estàs facturant regularment, tens clients internacionals i sents que la teva estructura actual et limita, ja saps el que cal fer.

@@ -82,6 +82,8 @@ Der **Nexus** ist das Konzept, das bestimmt, ob Sie Sales Tax in einem Staat erh
 - Kein Bestand, kein Risiko
 - Ideal für Content-Creator, die Merchandise anbieten möchten
 
+Um diesen Faden weiterzuziehen, vertiefen <a href="/de/blog/iban-swift-und-routing-nummern-internationale-bankencodes-verstehen">IBAN, SWIFT und Routing-Nummern: Internationale Bankencodes verstehen</a> und <a href="/de/blog/ihr-digitales-unternehmen-mit-einer-us-llc-skalieren">Ihr digitales Unternehmen mit einer US LLC skalieren</a> Nuancen, die wir hier nur gestreift haben.
+
 ## Wichtige Konten und Tools für E-Commerce
 
 | Tool | Wofür | Kosten |

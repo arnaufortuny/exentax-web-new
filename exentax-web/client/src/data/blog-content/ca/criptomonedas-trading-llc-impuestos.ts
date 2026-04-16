@@ -56,6 +56,8 @@ La LLC d'un sol membre no resident (Disregarded Entity) no paga impost federal a
 - **Separació total de patrimonis**: si una operació surt molt malament, el teu patrimoni personal queda intacte. La LLC és el teu tallafocs.
 - **Deducció d'eines de trading**: TradingView, CoinTracker, cursos, maquinari, subscripcions a senyals.., tota despesa ordinària i necessària és deduïble.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/impostos-amb-clients-internacionals-a-espanya-el-que-ningu-texplica">Impostos amb clients internacionals a Espanya: el que ningú t'explica</a> ajuda a arrodonir el context.
+
 ## Val la pena la LLC per a un trader?
 
 Depèn del teu volum:

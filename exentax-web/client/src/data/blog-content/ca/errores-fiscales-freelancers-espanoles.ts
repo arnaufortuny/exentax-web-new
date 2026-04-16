@@ -113,6 +113,8 @@ Senyals que el teu assessor no entén la teva situació:
 
 No és culpa seva. simplement no és la seva especialitat. A Exentax, la fiscalitat internacional per a freelancers i emprenedors digitals és TOT el que fem. Constituïm la teva LLC, preparem el teu Operating Agreement, i t'acompanyem en tot el compliance anual.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau">Resident EUA vs no resident LLC: les diferències fiscals clau</a> ajuda a arrodonir el context.
+
 ## Quant et costen aquests errors?
 
 Per a un freelancer amb 60.000€ de facturació anual:

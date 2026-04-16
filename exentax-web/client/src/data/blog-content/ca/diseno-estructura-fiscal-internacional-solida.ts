@@ -23,11 +23,11 @@ export default `Dissenyar una estructura internacional no és triar el país mé
 
   ## Pas 5: Banking stack
 
-  Principal: Mercury/Relay (US) — <a href="/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de-qualsevol-pais">Mercury</a>. Secundària: Wise/Revolut — <a href="/ca/blog/wise-business-i-crs-que-es-reporta-a-hisenda">Wise</a> i <a href="/ca/blog/revolut-business-i-crs-que-es-reporta-a-hisenda">Revolut</a>. Targetes: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — <a href="/ca/blog/passarelles-de-pagament-per-a-la-teva-llc-stripe-paypal-i-dodo-comparats">gateways</a>. Tresoreria: Slash, Mercury Treasury, IBKR.
+  Principal: Mercury/Relay (US) — Mercury. Secundària: Wise/Revolut — <a href="/ca/blog/wise-business-i-crs-que-es-reporta-a-hisenda">Wise</a> i <a href="/ca/blog/revolut-business-i-crs-que-es-reporta-a-hisenda">Revolut</a>. Targetes: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — <a href="/ca/blog/passarelles-de-pagament-per-a-la-teva-llc-stripe-paypal-i-dodo-comparats">gateways</a>. Tresoreria: Slash, Mercury Treasury, IBKR.
 
   ## Pas 6: Compliance i revisió
 
-  **EUA**: Form 5472 + 1120, BOI, Annual Report — <a href="/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir">Form 5472</a>, <a href="/ca/blog/informe-boi-2026-guia-completa-del-diposit-de-beneficial-ownership-davant-fincen">BOI</a>, <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual</a>.
+  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/ca/blog/informe-boi-2026-guia-completa-del-diposit-de-beneficial-ownership-davant-fincen">BOI</a>, <a href="/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar">manteniment anual</a>.
   **Espanya (resident)**: IRPF, IVA, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: per país.
   **Revisió anual**.
@@ -58,4 +58,7 @@ export default `Dissenyar una estructura internacional no és triar el país mé
 
   Estructura sòlida = procés. Bé dissenyada redueix substancialment la càrrega **dins** de la llei.
 
-  Demana la teva consulta gratuïta.`;
+  Demana la teva consulta gratuïta.
+
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat-fiscal-la-resposta-h">Els comptes bancaris americans informen a la teva autoritat fiscal? La resposta honesta</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+`;

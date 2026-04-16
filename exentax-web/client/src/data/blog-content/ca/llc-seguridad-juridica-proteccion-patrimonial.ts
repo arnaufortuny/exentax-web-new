@@ -102,6 +102,8 @@ Amb una LLC a Wyoming, el creditor només pot obtenir una **charging order**: un
 
 A la pràctica, això significa que si no fas distribucions, el creditor no cobra. La teva LLC i els seus actius queden intactes. És com una caixa forta que ningú més pot obrir.
 
+Per continuar aquest fil, <a href="/ca/blog/problemes-comuns-llc-i-com-evitar-los-llicons-de-clients-reals">Problemes comuns LLC i com evitar-los: lliçons de clients reals</a> completa un matís que aquí només hem tocat de passada.
+
 ## La seguretat jurídica com a inversió
 
 Pensa en la protecció patrimonial com una assegurança: esperes no necessitar-la mai, però si la necessites, val cada cèntim. El forner del barri probablement no necessita una LLC. Però tu, que operes internacionalment, gestiones contractes amb clients de diversos països i mous diners entre jurisdiccions. tu sí.

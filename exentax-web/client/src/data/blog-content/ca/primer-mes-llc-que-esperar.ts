@@ -85,6 +85,8 @@ Des de la primera factura que emetis a través de la LLC. L'estalvi fiscal es ma
 **"I si me'n penedeixo?"**
 Pots dissoldre la LLC en qualsevol moment. Però ningú se n'ha penedit encara. Un cop veus la diferència en números, no hi ha marxa enrere.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte-en-el-flux-de-caixa">ACH vs transferència bancària: terminis de pagament i impacte en el flux de caixa de la LLC</a> i <a href="/ca/blog/com-escalar-el-teu-negoci-digital-amb-una-llc-americana">Com escalar el teu negoci digital amb una LLC americana</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## Preparat per començar?
 
 Si vols saber com seria el teu primer mes amb una LLC, agenda una assessoria gratuïta. T'expliquem el procés complet, fem els números amb la teva facturació real i resolem tots els teus dubtes. En 30 minuts tindràs clar si la LLC és per a tu.

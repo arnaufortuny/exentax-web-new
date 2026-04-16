@@ -130,6 +130,8 @@ A regra dos 183 dias é o critério principal, mas não o único. Por isso plane
 6. **Acreditar que não ser residente em lado nenhum é uma opção.** Não é. Será sempre residente fiscal nalgum país, e se não escolher você, escolhe automaticamente o sistema fiscal do seu país de origem.
 7. **Não considerar os ADT.** Os acordos de dupla tributação podem poupar-lhe milhares de euros se os conhecer e aplicar.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/e-possivel-pagar-0-de-impostos-legalmente-a-verdade-sobre-otimizacao-fiscal">É possível pagar 0% de impostos legalmente? A verdade sobre otimização fiscal</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Por onde começar?
 
 Se é nómada digital (ou está a pensar em sê-lo), a sequência ideal é:

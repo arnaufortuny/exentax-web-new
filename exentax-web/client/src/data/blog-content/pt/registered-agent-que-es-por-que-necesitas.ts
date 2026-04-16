@@ -77,6 +77,8 @@ Se o teu Registered Agent muda de morada (ou desaparece), essa inconsistência p
 
 **A lição:** o Registered Agent não é apenas um recetor de correio. É um nó na rede de identidade da tua LLC. Cada entidade. estado, IRS, banco. espera ver a mesma morada.
 
+Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/llc-americana-para-criadores-de-conteudo-youtube-twitch-e-alem">LLC americana para criadores de conteúdo: YouTube, Twitch e além</a> e <a href="/pt/blog/quanto-custa-constituir-uma-llc-americana-analise-completa-dos-custos">Quanto custa constituir uma LLC americana? Análise completa dos custos</a>, que afinam precisamente os contornos do que este guia explica.
+
 ## Como o gerimos na Exentax
 
 Trabalhamos com agentes registados profissionais em cada estado:

@@ -94,6 +94,8 @@ Ce que vous devez avoir prêt :
 
 Si tout est organisé et correspond à ce qui a été déclaré, la demande se résout sans problème. Si ce n'est pas le cas, les complications commencent.
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/structure-fiscale-optimale-pour-les-freelancers-internationaux-le-cadre-complet">Structure fiscale optimale pour les freelancers internationaux : le cadre complet</a> aide à parachever le contexte.
+
 ## Comment nous gérons cela chez Exentax
 
 Chez Exentax, nous opérons en toute transparence. Lorsque nous créons votre LLC :

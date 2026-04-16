@@ -156,6 +156,8 @@ This is beneficial. Tax treaties prevent double taxation and provide clear rules
 If your annual income exceeds $50,000 and you're seriously considering a move, professional tax residency planning can save you tens of thousands over time. The LLC provides the infrastructure; the residency strategy determines the tax outcome.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/pay-zero-taxes-legally-with-us-llc">Can you legally pay 0% taxes? The truth about tax optimization</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
 - <a href="/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where-you-live">taxation by country guide</a>

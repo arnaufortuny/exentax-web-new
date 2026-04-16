@@ -93,6 +93,8 @@ Para la mayoría de los freelancers hispanohablantes que facturen entre 30.000�
 
 Ambas opciones son legales, sostenibles y mucho mejores que el 40% que pagas hoy.
 
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/errores-fiscales-freelancers-espanoles">10 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)</a> es una pieza útil para terminar de contextualizar el escenario.
+
 ## Las herramientas financieras que acompañan al 0%
 
 Pagar 0% no es solo una cuestión fiscal, es una cuestión de infraestructura. Para que la estructura funcione de forma profesional, necesitas las herramientas correctas:

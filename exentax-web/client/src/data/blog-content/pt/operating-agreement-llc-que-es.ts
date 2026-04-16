@@ -61,6 +61,8 @@ Deves atualizar o teu Operating Agreement quando:
 
 Na Exentax também nos encarregamos das atualizações do Operating Agreement quando são necessárias. Se a tua situação muda, adaptamos o documento.
 
+Para continuar neste fio, <a href="/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da-vantagem-americana">Por que abrir uma LLC americana em 2026: os 5 pilares da vantagem americana</a> e <a href="/pt/blog/ein-vs-itin-vs-ssn-os-numeros-de-identificacao-fiscal-americanos-explicados">EIN vs ITIN vs SSN: os números de identificação fiscal americanos explicados</a> completam nuances que aqui apenas tocámos.
+
 ## O que deverias levar deste artigo
 
 O Operating Agreement é a coluna vertebral legal da tua LLC, e a sua natureza privada é uma vantagem que deves aproveitar. Na Exentax preparamo-lo como parte do processo de constituição da tua LLC. sai das nossas mãos pronto para apresentar ao Mercury, Stripe e qualquer entidade que o solicite. Agenda a tua assessoria gratuita e asseguramo-nos de que a tua LLC tem toda a documentação em ordem desde o dia um.`;

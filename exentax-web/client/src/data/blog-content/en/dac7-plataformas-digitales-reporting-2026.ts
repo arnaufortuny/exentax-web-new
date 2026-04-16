@@ -78,7 +78,7 @@ export default `**DAC7** is one of the most important regulations of the last fe
   ## How to plan correctly
 
   1. **Declare income coherently.** If you sell on Amazon Europe, those revenues are cross-checked with your IRPF (Spanish, Mexican or Argentinean) via DAC7 + CRS data. The only valid strategy is to declare correctly.
-  2. **Optimize within the law.** There is LLC expense deductibility (see <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">LLC tax deductions</a>) and remittance planning to the partner.
+  2. **Optimize within the law.** There is LLC expense deductibility (see LLC tax deductions) and remittance planning to the partner.
   3. **Consider substance.** If you'll operate at scale through an LLC, give it substance (office, contracts, real operational presence) or accept that the AEAT can look at it under transparency/simulation criteria. Full framework in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step-framework">designing a solid international structure</a>.
   4. **Don't ignore the first notice.** Tax authorities usually send "discrepancy" communications before formal audit; responding well prevents proceedings.
 

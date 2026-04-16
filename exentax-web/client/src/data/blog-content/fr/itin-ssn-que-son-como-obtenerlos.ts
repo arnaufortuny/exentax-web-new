@@ -126,6 +126,8 @@ Nous savons que le processus de l'ITIN peut sembler intimidant. formulaires, doc
 
 Nous avons géré des demandes d'ITIN pour des clients d'Espagne, du Mexique, de Colombie, d'Argentine, du Chili et de nombreux autres pays. Nous connaissons le processus dans les moindres détails et savons exactement ce dont l'IRS a besoin pour approuver votre demande du premier coup.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/problemes-courants-llc-et-comment-les-eviter-lecons-de-vrais-clients">Problèmes courants LLC et comment les éviter : leçons de vrais clients</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## Vous avez besoin de votre ITIN maintenant ?
 
 Si vous venez de créer votre LLC ou êtes sur le point de le faire, le moment de demander votre ITIN, c'est maintenant. Plus tôt vous l'obtiendrez, plus vite vous pourrez remplir toutes vos obligations fiscales sans complications.

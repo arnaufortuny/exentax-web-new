@@ -110,6 +110,8 @@ Generally no. US LLC documents don't require notarization. The Operating Agreeme
 Only the Articles of Organization are publicly searchable (varies by state). In New Mexico, member names don't appear in public records. The Operating Agreement, EIN letter, and other documents are private.
 
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/why-open-a-us-llc-in-2026-the-5-pillars-of-the-american-advantage">Why open a US LLC in 2026: the 5 pillars of the American advantage</a> and <a href="/en/blog/ein-vs-itin-vs-ssn-the-us-tax-identification-numbers-explained">EIN vs ITIN vs SSN: the US tax identification numbers explained</a>, which sharpen exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

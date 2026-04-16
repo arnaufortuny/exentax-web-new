@@ -56,6 +56,8 @@ Die Single-Member LLC eines Nicht-Residenten (Disregarded Entity) zahlt keine Bu
 - **Vollständige Vermögenstrennung**: wenn ein Trade sehr schlecht läuft, bleibt Ihr Privatvermögen unangetastet. Die LLC ist Ihre Brandmauer.
 - **Abzug von Trading-Tools**: TradingView, CoinTracker, Kurse, Hardware, Signal-Abonnements.., alle gewöhnlichen und notwendigen Ausgaben sind abzugsfähig.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/steuern-mit-internationalen-kunden-in-spanien-was-niemand-ihnen-sagt">Steuern mit internationalen Kunden in Spanien: Was niemand Ihnen sagt</a> rundet den Kontext ab.
+
 ## Lohnt sich die LLC für einen Trader?
 
 Das hängt von Ihrem Volumen ab:

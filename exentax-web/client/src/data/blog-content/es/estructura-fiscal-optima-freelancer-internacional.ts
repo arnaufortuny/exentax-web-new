@@ -76,8 +76,10 @@ La clave de la optimización fiscal con una LLC es su clasificación como "Disre
 1. **Analiza tu situación actual**: cuánto facturas, de dónde vienen tus ingresos, cuánto pagas en impuestos
 2. **Habla con Exentax**: analizamos tu caso concreto en la asesoría gratuita y te decimos exactamente qué estructura es la óptima
 3. **<a href="/es/blog/constituir-llc-proceso-paso-a-paso">Constituye tu LLC</a>**: elige el estado adecuado según tu perfil
-4. **Configura tu infraestructura**: <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">cuenta bancaria</a>, <a href="/es/blog/pasarelas-pago-llc-stripe-paypal-dodo">pasarela de pagos</a>, contabilidad
+4. **Configura tu infraestructura**: cuenta bancaria, <a href="/es/blog/pasarelas-pago-llc-stripe-paypal-dodo">pasarela de pagos</a>, contabilidad
 5. **Migra gradualmente**: no tienes que transferir todo de golpe
+
+Un matiz que quedó corto y que conviene leer aparte: <a href="/es/blog/fiscalidad-internacional-emprendedores-digitales">Fiscalidad internacional para emprendedores digitales: todo lo que necesitas saber</a>, porque afina exactamente los bordes de lo explicado en esta guía.
 
 ## El stack financiero óptimo para freelancers internacionales
 

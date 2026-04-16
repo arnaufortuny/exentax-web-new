@@ -78,6 +78,8 @@ Tu LLC americana es tu pasaporte a mercados que antes estaban cerrados:
 - **SaaS global**: Vende suscripciones a clientes de cualquier país
 - **Programas de partners**: Muchos programas de afiliados y partners solo aceptan empresas americanas
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/tiempos-pagos-ach-wire-transfer">¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales</a> y <a href="/es/blog/amazon-ecommerce-llc-vender-online">Amazon y ecommerce con LLC: cómo vender online desde cualquier país</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## El momento de dar el paso
 
 Si estás facturando regularmente, tienes clientes internacionales y sientes que tu estructura actual te limita, ya sabes lo que hay que hacer.

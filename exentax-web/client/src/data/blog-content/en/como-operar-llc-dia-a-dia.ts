@@ -230,6 +230,8 @@ The Operating Agreement is the single most important LLC document after the Arti
 At Exentax, every document is prepared, filed, and organized for you. You receive a complete LLC documentation package upon formation and annual updates as filings are completed.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/your-first-month-with-a-us-llc-what-to-expect-week-by-week">Your first month with a US LLC: what to expect week by week</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
 - <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual maintenance guide</a>

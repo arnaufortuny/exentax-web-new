@@ -80,6 +80,8 @@ Document qui confirme qui est votre Registered Agent, la personne ou l'entrepris
 - **Passeport américain**: Tout passeport en cours de validité est accepté
 - **Compte bancaire préexistant aux États-Unis**: Il est ouvert dans le cadre du processus de constitution
 
+Quelques lectures voisines à garder sous la main : <a href="/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers-de-lavantage-americ">Pourquoi ouvrir une LLC aux États-Unis en 2026 : les 5 piliers de l'avantage américain</a> et <a href="/fr/blog/ein-vs-itin-vs-ssn-les-numeros-didentification-fiscale-americains-expliques">EIN vs ITIN vs SSN : les numéros d'identification fiscale américains expliqués</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+
 ## Où conserver ces documents ?
 
 Nous recommandons d'avoir une copie numérique organisée de tout :

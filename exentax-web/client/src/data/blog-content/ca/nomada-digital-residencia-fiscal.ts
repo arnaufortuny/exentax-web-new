@@ -130,6 +130,8 @@ La regla dels 183 dies és el criteri principal, però no l'únic. Per això pla
 6. **Creure que no ser resident enlloc és una opció.** No ho és. Sempre seràs resident fiscal en algun país, i si no tries tu, ho tria automàticament el sistema fiscal del teu país d'origen.
 7. **No considerar els CDI.** Els convenis de doble imposició poden estalviar-te milers d'euros si els coneixes i els apliques.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/es-pot-pagar-0-dimpostos-legalment-la-veritat-sobre-loptimitzacio-fiscal">Es pot pagar 0% d'impostos legalment? La veritat sobre l'optimització fiscal</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Per on començar?
 
 Si ets nòmada digital (o estàs pensant a ser-ho), la seqüència ideal és:

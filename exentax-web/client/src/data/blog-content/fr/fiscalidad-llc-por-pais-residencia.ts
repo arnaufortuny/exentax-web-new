@@ -83,6 +83,8 @@ Quel que soit l'endroit où vous vivez, certains principes s'appliquent toujours
 
 **4. Chaque situation est différente.** Il n'existe pas de réponse générique. Votre charge fiscale finale dépend de vos revenus, vos dépenses, votre pays, votre régime et de dizaines de variables qui ne peuvent être analysées qu'au cas par cas.
 
+Une lecture voisine à garder sous la main : <a href="/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales-cles-pour-votre-llc">Résident vs non-résident aux USA : les différences fiscales clés pour votre LLC</a>, qui affine précisément les bords de ce qu'explique ce guide.
+
 ## Pourquoi un accompagnement spécialisé fait la différence
 
 Sur YouTube et Twitter, vous trouverez des milliers de personnes qui disent "avec une LLC, vous payez 0% d'impôts". C'est une simplification dangereuse. Vous payez 0% d'impôt **fédéral aux États-Unis**: mais vous avez toujours des obligations dans votre pays de résidence.

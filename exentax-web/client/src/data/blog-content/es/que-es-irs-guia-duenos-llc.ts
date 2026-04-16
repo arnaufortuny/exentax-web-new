@@ -94,6 +94,8 @@ El IRS persigue a quienes:
 
 Si tu LLC está bien constituida, presentas tus formularios a tiempo y tu actividad es legítima, el IRS ni sabe que existes. Eres un número más en un sistema que procesa millones de declaraciones al año.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/llc-agencias-marketing-digital">LLC para agencias de marketing digital: operar sin fronteras</a> y <a href="/es/blog/llc-desarrolladores-software-saas">LLC para desarrolladores de software y SaaS: la estructura ideal</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## En Exentax, tú no tocas nada del IRS
 
 Toda la relación con el IRS la gestionamos nosotros:

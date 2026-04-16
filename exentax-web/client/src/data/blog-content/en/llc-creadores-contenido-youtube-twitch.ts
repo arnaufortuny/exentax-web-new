@@ -97,6 +97,8 @@ As a content creator, you likely earn from multiple sources. Here's how to manag
 ### Organizing by revenue stream
 Use **Relay's 20 free sub-accounts** to organize by revenue stream: one for AdSense, one for sponsorships, one for merchandise. This makes accounting infinitely easier and Form 5472 preparation straightforward.
 
+To keep going on this thread, <a href="/en/blog/us-llc-for-digital-marketing-agencies-structure-billing-and-scaling">US LLC for digital marketing agencies: structure, billing and scaling</a> and <a href="/en/blog/what-is-the-irs-and-how-does-it-affect-your-us-llc">What is the IRS and how does it affect your US LLC?</a> fill in nuances this guide only touched on.
+
 ## Tax-deductible expenses specific to creators
 
 | Expense category | Examples | Typical annual cost |

@@ -128,6 +128,8 @@ If your US financial accounts (Mercury, Relay, Slash) have an aggregate balance 
 Every mistake on this list is preventable. The cost of professional help is a fraction of what even one penalty costs. Don't learn these lessons the hard way.
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/us-resident-vs-non-resident-llc-the-key-tax-differences">US resident vs non-resident LLC: the key tax differences</a> helps round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/vat-on-international-digital-services-when-it-applies-and-when-it-doesnt">VAT on digital services guide</a>

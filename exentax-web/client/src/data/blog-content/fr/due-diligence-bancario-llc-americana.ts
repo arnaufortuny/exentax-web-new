@@ -94,6 +94,8 @@ La vérification initiale est juste le début. Les fintechs (et les banques) fon
 
 La clé est de maintenir une opération cohérente, documentée et prévisible. Si vos transactions sont cohérentes avec votre activité déclarée, vous ne rencontrerez aucun problème.
 
+Une lecture voisine à garder sous la main : <a href="/fr/blog/conformite-aml-pour-votre-llc-ce-que-vous-devez-savoir">Conformité AML pour votre LLC : ce que vous devez savoir</a>, qui affine précisément les bords de ce qu'explique ce guide.
+
 ## Comment nous le coordonnons chez Exentax
 
 Chez Exentax, nous coordonnons l'ouverture de votre compte Mercury dans le cadre du processus de constitution. Nous préparons toute la documentation parfaitement avant d'envoyer la demande. Articles, EIN, Operating Agreement, passeport, tout aligné et cohérent. Le résultat : une approbation rapide et sans refus. Réservez votre consultation gratuite.`;

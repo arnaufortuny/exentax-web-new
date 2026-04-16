@@ -23,11 +23,11 @@ export default `Concevoir une structure fiscale internationale n'est pas choisir
 
   ## Étape 5 : Stack bancaire cohérent
 
-  Principal : Mercury/Relay (US, faible empreinte CRS) — voir <a href="/fr/blog/comment-ouvrir-un-compte-mercury-pour-votre-llc-depuis-nimporte-quel-pays">Mercury</a>. Secondaire multi-devises : Wise/Revolut Business — voir <a href="/fr/blog/wise-business-et-crs-ce-qui-est-declare-a-votre-fisc">Wise</a> et <a href="/fr/blog/revolut-business-et-crs-ce-qui-est-declare-a-votre-fisc">Revolut</a>. Cartes : Wallester. Pasarelles : Stripe/PayPal/Adyen/DoDo — voir <a href="/fr/blog/passerelles-de-paiement-pour-votre-llc-stripe-paypal-et-dodo-compares">passerelles</a>. Trésorerie : Slash, Mercury Treasury, IBKR.
+  Principal : Mercury/Relay (US, faible empreinte CRS) — voir Mercury. Secondaire multi-devises : Wise/Revolut Business — voir <a href="/fr/blog/wise-business-et-crs-ce-qui-est-declare-a-votre-fisc">Wise</a> et <a href="/fr/blog/revolut-business-et-crs-ce-qui-est-declare-a-votre-fisc">Revolut</a>. Cartes : Wallester. Pasarelles : Stripe/PayPal/Adyen/DoDo — voir <a href="/fr/blog/passerelles-de-paiement-pour-votre-llc-stripe-paypal-et-dodo-compares">passerelles</a>. Trésorerie : Slash, Mercury Treasury, IBKR.
 
   ## Étape 6 : Compliance et révision continue
 
-  **US** : Form 5472 + 1120 pro forma, BOI, Annual Report — voir <a href="/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment-se-conformer">Form 5472</a>, <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-de-beneficial-ownership-aupres-de-fincen">BOI</a>, <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas-ignorer">maintenance annuelle</a>.
+  **US** : Form 5472 + 1120 pro forma, BOI, Annual Report — voir Form 5472, <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-de-beneficial-ownership-aupres-de-fincen">BOI</a>, <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas-ignorer">maintenance annuelle</a>.
   **Espagne (résident)** : IRPF, TVA, Modelo 720, Modelo 721, 100/130, 238 (DAC7).
   **LATAM** : selon pays.
   **Révision annuelle** : résidence, substance, stack, normes nouvelles (DAC7/DAC8/MiCA).
@@ -61,4 +61,7 @@ export default `Concevoir une structure fiscale internationale n'est pas choisir
 
   Une structure solide est le résultat d'un processus, pas d'un raccourci. Bien conçue, elle réduit substantiellement la pression fiscale **dans** la loi, sans surprises.
 
-  Vous voulez concevoir votre structure étape par étape ? Réservez votre consultation gratuite.`;
+  Vous voulez concevoir votre structure étape par étape ? Réservez votre consultation gratuite.
+
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre-administration-fiscale-l">Les comptes bancaires américains rapportent-ils à votre administration fiscale ? La réponse honnête</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+`;

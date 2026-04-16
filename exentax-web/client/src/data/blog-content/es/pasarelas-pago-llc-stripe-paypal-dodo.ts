@@ -106,6 +106,8 @@ Freelancers que quieren una solución todo-en-uno de banking y contabilidad sin 
 | DoDo Payments | Variable | Variable | Ventas B2C globales con gestión de IVA/GST automática (Merchant of Record) |
 | Lili (neobanco) | Incluido | Incluido | Freelancers que quieren banking + contabilidad todo-en-uno |
 
+Para seguir profundizando, <a href="/es/blog/privacidad-llc-americana-secreto-ventaja">La privacidad de una LLC americana: qué protege, qué no y por qué importa</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## ¿Qué necesito para configurarlas?
 
 Para verificar tu LLC en cualquier pasarela de pago necesitas:

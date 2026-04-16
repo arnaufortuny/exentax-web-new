@@ -94,6 +94,8 @@ A verificação inicial é apenas o início. As fintechs (e os bancos) fazem mon
 
 A chave é manter uma operação coerente, documentada e previsível. Se as tuas transações são coerentes com a tua atividade declarada, não terás qualquer problema.
 
+Uma leitura adjacente a manter à mão: <a href="/pt/blog/conformidade-anti-lavagem-de-dinheiro-para-sua-llc-o-que-precisa-saber">Conformidade anti-lavagem de dinheiro para sua LLC: o que precisa saber</a>, que afina precisamente os contornos do que este guia explica.
+
 ## Como coordenamos na Exentax
 
 Na Exentax coordenamos a abertura da tua conta Mercury como parte do processo de constituição. Preparamos toda a documentação perfeita antes de enviar a candidatura. Articles, EIN, Operating Agreement, passaporte, tudo alinhado e coerente. O resultado: aprovação rápida e sem rejeições. Agenda a tua assessoria gratuita.`;

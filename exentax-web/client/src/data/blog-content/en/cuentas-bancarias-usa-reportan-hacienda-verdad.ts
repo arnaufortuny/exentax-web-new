@@ -100,13 +100,15 @@ Within 5-10 years, most financial account information will be exchanged automati
 The LLC advantage isn't secrecy. it's efficiency. You pay less because your structure is more efficient, not because nobody knows about it.
 
 
+One adjacent read worth having open alongside this one: <a href="/en/blog/optimal-tax-structure-for-international-freelancers-the-complete-framework">Optimal tax structure for international freelancers: the complete framework</a>, which sharpens exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/crs-and-your-us-llc-bank-accounts-what-gets-shared-with-your-home-country">CRS information exchange guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
+- Mercury account guide
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
-- <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
+- BOI Report guide
 Book your strategic consultation and we'll explain exactly how financial reporting works in your specific case.`;

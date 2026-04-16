@@ -78,6 +78,8 @@ Este flujo minimiza las comisiones y maximiza el tipo de cambio.
 | Banco tradicional | Con margen | $15-50 + intermediarios | 3-5% |
 | PayPal conversión | Con margen 3-4% | Variable | 4-6% |
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/iban-swift-routing-number-que-son">IBAN, SWIFT y Routing Number: qué son y cuándo usarlos</a> y <a href="/es/blog/amazon-ecommerce-llc-vender-online">Amazon y ecommerce con LLC: cómo vender online desde cualquier país</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## Tips para ahorrar en cambio de divisas
 
 - **Consolida tus retiros**: haz una o dos transferencias grandes al mes en lugar de muchas pequeñas

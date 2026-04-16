@@ -202,12 +202,14 @@ The LLC is flexible. You can add partners, change states, convert to a C-Corp fo
 Book the free strategic consultation. We analyze your specific income, expenses, country of residence, and client mix. We give you exact numbers, not generic promises.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/llc-documents-which-ones-you-need-and-how-to-keep-them-organized">LLC documents: which ones you need and how to keep them organized</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+
 ## Related articles
 
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
 - <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">financial separation guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Mercury account guide
+- Form 5472 guide
 - <a href="/en/blog/irs-extension-for-form-1120-how-to-file-form-7004-and-get-6-more-months">Form 7004 extension guide</a>
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
 Book your strategic consultation. no obligation, real numbers, honest advice.`;

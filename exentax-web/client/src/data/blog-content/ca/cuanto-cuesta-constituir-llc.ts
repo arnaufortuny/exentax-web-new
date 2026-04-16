@@ -95,6 +95,8 @@ Sí, n'hi ha. I fan únicament un treball mecànic: omplen un formulari i te l'e
 
 Constituir la LLC és el pas més fàcil. El difícil, i el que marca la diferència. és operar-la correctament perquè la teva estructura fiscal funcioni.
 
+Per continuar aquest fil, <a href="/ca/blog/llc-americana-per-a-agencies-de-marqueting-digital-estructura-facturacio-i-creix">LLC americana per a agències de màrqueting digital: estructura, facturació i creixement</a> i <a href="/ca/blog/seguretat-juridica-llc-i-proteccio-patrimonial-el-avantatge-infravalorat">Seguretat jurídica LLC i protecció patrimonial: el avantatge infravalorat</a> completen matisos que aquí només hem tocat de passada.
+
 ## El que inclou Exentax (sense lletra petita)
 
 Els nostres plans de constitució inclouen TOT el necessari perquè la teva LLC estigui operativa des del dia u:

@@ -82,6 +82,8 @@ Més enllà de la protecció personal, la privacitat de la teva LLC té avantatg
 
 **Protecció patrimonial:** En separar la teva identitat personal de la teva activitat empresarial, redueixes el risc que problemes del negoci afectin els teus béns personals.
 
+Per continuar aquest fil, <a href="/ca/blog/propietaris-ficticis-per-a-llcs-per-que-es-illegal-i-els-riscos-que-es-corren">Propietaris ficticis per a LLCs: per què és il·legal i els riscos que es corren</a> completa un matís que aquí només hem tocat de passada.
+
 ## Com gestionem la privacitat a Exentax
 
 Quan constituïm la teva LLC:

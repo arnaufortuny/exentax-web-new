@@ -94,6 +94,8 @@ L'IRS poursuit ceux qui :
 
 Si votre LLC est bien constituée, que vous déposez vos formulaires à temps et que votre activité est légitime, l'IRS ne sait même pas que vous existez. Vous êtes un numéro parmi d'autres dans un système qui traite des millions de déclarations par an.
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/llc-americaine-pour-agences-de-marketing-digital-structure-facturation-et-croiss">LLC américaine pour agences de marketing digital : structure, facturation et croissance</a> et <a href="/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs-saas-guide-complet">LLC américaine pour développeurs de logiciels et fondateurs SaaS : guide complet</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Chez Exentax, vous ne touchez à rien concernant l'IRS
 
 Toute la relation avec l'IRS, c'est nous qui la gérons :

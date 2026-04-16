@@ -74,6 +74,8 @@ Die Doppelbesteuerungsabkommen zwischen Ihrem Wohnsitzland und den USA können I
 
 Die OECD arbeitet am BEPS-2.0-Rahmenwerk (Pillar One und Pillar Two), um das internationale Steuersystem an die digitale Wirtschaft anzupassen. Diese Änderungen werden hauptsächlich große multinationale Unternehmen betreffen, aber es ist wichtig, dass digitale Unternehmer über die regulatorischen Entwicklungen informiert bleiben.
 
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/optimale-steuerstruktur-fur-internationale-freelancer-das-vollstandige-framework">Optimale Steuerstruktur für internationale Freelancer: das vollständige Framework</a> eine Nuance, die wir hier nur gestreift haben.
+
 ## Der Stack, der alles vereinfacht
 
 Sie müssen kein Experte für internationale Besteuerung sein, um Ihre Situation zu optimieren. Sie brauchen die richtigen Werkzeuge und ein Team, das sie zu nutzen weiß:

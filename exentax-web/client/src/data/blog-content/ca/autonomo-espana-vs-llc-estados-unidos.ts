@@ -141,6 +141,8 @@ Més enllà de l'estalvi fiscal, la LLC t'obre l'accés a eines financeres que c
 - **Passarel·les de pagament globals:** Stripe, Adyen, DoDo Payments (Merchant of Record que gestiona IVA automàticament)
 - **Inversió corporativa:** Interactive Brokers (150+ mercats), Tradovate (futurs CME/CBOT/NYMEX), Kraken (200+ cripto-actius amb liquiditat institucional)
 
+Per continuar aquest fil, <a href="/ca/blog/avantatges-i-desavantatges-duna-llc-americana-per-a-no-residents-analisi-honesta">Avantatges i desavantatges d'una LLC americana per a no residents: anàlisi honesta</a> i <a href="/ca/blog/per-que-no-obrir-una-empresa-a-estonia-la-llc-americana-guanya-per-a-la-majoria">Per què no obrir una empresa a Estònia: la LLC americana guanya per a la majoria</a> completen matisos que aquí només hem tocat de passada.
+
 ## A Exentax ens encarreguem de tot
 
 Si decideixes fer el pas, a Exentax no ens limitem a crear la teva LLC i obtenir el teu EIN. dissenyem la teva estructura completa: obertura de compte bancari, configuració de tresoreria amb Slash, targetes corporatives Wallester, integració amb Stripe o la passarel·la que necessitis, i tot el compliance anual (Form 5472, BOI Report, renovació d'agent registrat). No som venedors de LLCs: som dissenyadors d'estructures.

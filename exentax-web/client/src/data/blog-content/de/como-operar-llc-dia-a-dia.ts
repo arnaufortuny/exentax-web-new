@@ -116,6 +116,8 @@ Damit der Betrieb reibungslos läuft, empfehlen wir, monatlich 30 Minuten dafür
 
 30 Minuten. Einmal im Monat. Das ist alles, was Sie brauchen, um Ihre LLC tadellos zu führen.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/ihr-erster-monat-mit-einer-us-llc-woche-fur-woche-was-erwartet-sie">Ihr erster Monat mit einer US LLC: Woche für Woche was erwartet Sie</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Häufige Fehler im täglichen Betrieb
 
 - **Persönliche und geschäftliche Konten vermischen**: der schwerwiegendste und häufigste Fehler. Ich wiederhole: NIEMALS

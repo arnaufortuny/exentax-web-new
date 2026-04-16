@@ -84,6 +84,8 @@ Wise no usa la red SWIFT para la mayoría de transferencias. Usa cuentas locales
 - **Consolida envíos internacionales**: un wire grande sale más barato que varios pequeños. Y con Mercury, los wires son $0 de todas formas
 - **Usa Wise para pagos recurrentes**: más rápido y barato que wires tradicionales para montos medianos, gracias a su red de cuentas locales
 
+Cierro con lecturas relacionadas que encajan con el hilo de este artículo: <a href="/es/blog/primer-mes-llc-que-esperar">Tu primer mes con una LLC: qué esperar paso a paso</a> y <a href="/es/blog/cambiar-divisas-llc-mejores-opciones">Cómo cambiar divisas en tu LLC: las mejores opciones</a> son piezas útiles para terminar de contextualizar el escenario.
+
 ## El dato que cambia todo: Mercury $0 wire fees
 
 La mayoría de bancos cobran entre $15-50 por wire transfer. Mercury no cobra nada. Cero. Ni nacionales ni internacionales. Esto cambia completamente cómo planificas tus pagos:

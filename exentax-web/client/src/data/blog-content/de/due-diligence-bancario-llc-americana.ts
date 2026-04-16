@@ -94,6 +94,8 @@ Die anfängliche Überprüfung ist nur der Anfang. Fintechs (und Banken) führen
 
 Der Schlüssel ist eine kohärente, dokumentierte und vorhersehbare Geschäftstätigkeit. Wenn Ihre Transaktionen mit Ihrer deklarierten Tätigkeit übereinstimmen, werden Sie keinerlei Probleme haben.
 
+Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href="/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen-mussen">Anti-Geldwäsche-Compliance für Ihre LLC: Was Sie wissen müssen</a> schärft genau die Kanten, die wir oben nur angerissen haben.
+
 ## Wie wir es bei Exentax koordinieren
 
 Bei Exentax koordinieren wir die Eröffnung Ihres Mercury-Kontos als Teil des Gründungsprozesses. Wir bereiten die gesamte Dokumentation perfekt vor, bevor wir den Antrag einreichen. Articles, EIN, Operating Agreement, Reisepass, alles aufeinander abgestimmt und konsistent. Das Ergebnis: schnelle Genehmigung ohne Ablehnungen. Vereinbaren Sie Ihre kostenlose Beratung.`;

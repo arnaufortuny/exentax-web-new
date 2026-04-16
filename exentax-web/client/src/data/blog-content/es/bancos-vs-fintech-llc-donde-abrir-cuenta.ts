@@ -98,6 +98,8 @@ No todo en la banca de tu LLC es cuentas corrientes. Hay dos capas adicionales q
 
 **Wallester** cubre la capa de gastos. Emite tarjetas corporativas (virtuales y físicas) con control individual por tarjeta. Una tarjeta para cada suscripción, cada proveedor, cada categoría de gasto. Si trabajas con colaboradores, puedes emitirles tarjetas con límites específicos. Todo queda documentado y categorizado.
 
+Para seguir profundizando, <a href="/es/blog/testaferros-prestanombres-llc-ilegal-riesgos">Testaferros y prestanombres en LLCs: por qué es ilegal y cómo hacerlo bien</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## ¿Cuál recomendamos?
 
 Para la mayoría de LLCs de no residentes, la combinación ideal es:

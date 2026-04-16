@@ -181,6 +181,8 @@ Créer et maintenir une LLC n'a pas à être compliqué. Chez Exentax, nous gér
 
 Nous ne sous-traitons pas, nous ne déléguons pas à des tiers, nous n'utilisons pas de modèles génériques. Chaque LLC que nous créons bénéficie de notre attention directe.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/documents-llc-ceux-dont-vous-avez-besoin-et-comment-les-organiser">Documents LLC : ceux dont vous avez besoin et comment les organiser</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Est-ce pertinent pour vous ?
 
 Si vous êtes freelance, consultant, développeur, designer, marketeur ou tout professionnel du digital qui facture plus de 2 000 $ par mois à des clients internationaux, la réponse est probablement oui.

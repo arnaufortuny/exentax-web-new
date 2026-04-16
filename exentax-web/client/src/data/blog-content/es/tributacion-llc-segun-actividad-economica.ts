@@ -90,4 +90,7 @@ export default `Hablar de "fiscalidad de la LLC" en abstracto lleva a errores gr
 
   Una LLC no tributa "de una manera": tributa según lo que hace, dónde lo hace y desde dónde se controla. La conversación seria de planificación fiscal empieza por entender tu actividad real, no por elegir un país en un mapa.
 
-  ¿Quieres que analicemos cómo tributa exactamente tu actividad y te diseñemos la estructura más eficiente y defendible? Agenda tu asesoría gratuita.`;
+  ¿Quieres que analicemos cómo tributa exactamente tu actividad y te diseñemos la estructura más eficiente y defendible? Agenda tu asesoría gratuita.
+
+Para seguir profundizando, <a href="/es/blog/autonomos-espana-por-que-dejar-de-serlo">Por qué dejar de ser autónomo en España (y qué alternativas tienes)</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+`;

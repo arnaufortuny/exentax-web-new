@@ -85,6 +85,8 @@ A informação do BOI Report não é pública. O FinCEN mantém-na numa base de 
 
 O seu nome, morada e documento de identidade não aparecem em nenhum registo público por causa do BOI Report. É informação confidencial do governo federal.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/conformidade-anti-lavagem-de-dinheiro-para-sua-llc-o-que-precisa-saber">Conformidade anti-lavagem de dinheiro para sua LLC: o que precisa saber</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Como gerimos na Exentax
 
 O BOI Report está incluído nos nossos serviços de constituição e manutenção:

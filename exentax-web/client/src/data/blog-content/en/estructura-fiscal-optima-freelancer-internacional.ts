@@ -119,12 +119,14 @@ Not necessarily. Mercury's dashboard provides transaction categorization and rep
 **What happens to my local social security contributions?**
 This depends on your country. In Spain, deregistering as autónomo means losing access to public healthcare through Social Security. In Mexico, IMSS coverage changes. We coordinate with your local advisor to evaluate the implications.
 
+One adjacent read worth having open alongside this one: <a href="/en/blog/international-taxation-for-digital-entrepreneurs-the-complete-guide">International taxation for digital entrepreneurs: the complete guide</a>, which sharpens exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
 - <a href="/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your-account">banks vs fintech comparison</a>
 - <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
+- Mercury account guide
 - <a href="/en/blog/payment-gateways-for-your-llc-stripe-paypal-and-dodo-compared">payment gateways guide</a>
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
 

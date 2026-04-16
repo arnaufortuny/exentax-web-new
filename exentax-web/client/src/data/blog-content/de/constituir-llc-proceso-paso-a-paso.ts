@@ -99,6 +99,8 @@ Die häufigsten Fehler, wenn Leute es selbst machen:
 
 Jeder Fehler kostet Sie Wochen Verzögerung und in manchen Fällen Geld.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/haufige-llc-probleme-und-wie-man-sie-vermeidet-lektionen-aus-echten-fallen">Häufige LLC-Probleme und wie man sie vermeidet: Lektionen aus echten Fällen</a> und <a href="/de/blog/ein-was-ist-die-steuernummer-ihrer-llc-und-wie-sie-sie-erhalten">EIN: Was ist die Steuernummer Ihrer LLC und wie Sie sie erhalten</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Mit Exentax machen Sie nichts (buchstäblich)
 
 Bei Exentax kümmern wir uns um den gesamten Gründungsprozess von Anfang bis Ende. Sie geben uns Ihren Reisepass, sagen uns, wie Ihre LLC heißen soll, und wir erledigen den Rest:

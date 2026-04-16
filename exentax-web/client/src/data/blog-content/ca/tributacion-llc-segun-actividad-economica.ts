@@ -45,4 +45,7 @@ export default `Parlar de la tributació de la LLC en abstracte porta a errors: 
 
   La LLC tributa pel que fa, on i des d'on es controla.
 
-  Demana la teva consulta gratuïta.`;
+  Demana la teva consulta gratuïta.
+
+Per continuar aquest fil, <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per-una-llc-americana">Per què els freelancers espanyols estan deixant l'autònom per una LLC americana</a> completa un matís que aquí només hem tocat de passada.
+`;

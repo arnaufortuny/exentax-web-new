@@ -103,6 +103,8 @@ As autónomo, your deduction options are limited and heavily scrutinized by Haci
 - Marketing and advertising
 - Insurance premiums
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/taxes-with-international-clients-in-spain-what-nobody-tells-you">Taxes with international clients in Spain: what nobody tells you</a> and <a href="/en/blog/cryptocurrency-and-trading-with-llc-complete-tax-guide-for-traders">Cryptocurrency and trading with LLC: complete tax guide for traders</a>, which sharpen exactly the edges we skimmed above.
+
 ## What "dejar de ser autónomo" actually means
 
 It means restructuring, not disappearing. You're not hiding from Hacienda. You're:

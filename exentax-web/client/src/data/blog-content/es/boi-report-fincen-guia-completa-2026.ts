@@ -83,6 +83,8 @@ La información del BOI Report no es pública. FinCEN la mantiene en una base de
 
 Tu nombre, dirección y documento de identidad no aparecen en ningún registro público por culpa del BOI Report. Es información confidencial del gobierno federal.
 
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/prevencion-blanqueo-capitales-llc">Prevención de blanqueo de capitales: lo que tu LLC necesita saber</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
+
 ## Cómo lo gestionamos en Exentax
 
 El BOI Report está incluido en nuestros servicios de constitución y mantenimiento:

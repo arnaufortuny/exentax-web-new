@@ -104,6 +104,8 @@ Alles hängt vom Bundesstaat ab:
 
 Bei Exentax deckt der jährliche Wartungsplan alles oben Genannte ab. Null Überraschungen, null Extras, null "ach, das war nicht enthalten". Ein fester Jahrespreis und wir kümmern uns um jede Formalität, jedes Formular und jede Frist.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/anti-geldwasche-compliance-fur-ihre-llc-was-sie-wissen-mussen">Anti-Geldwäsche-Compliance für Ihre LLC: Was Sie wissen müssen</a> rundet den Kontext ab.
+
 ## Was passiert, wenn ich die Wartung nicht durchführe?
 
 Wir sind direkt: Wenn Sie die Wartung Ihrer LLC ignorieren, sind die Konsequenzen real:

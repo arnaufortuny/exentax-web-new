@@ -99,6 +99,8 @@ Els errors més comuns quan la gent ho fa sola:
 
 Cada error et costa setmanes de retard i, en alguns casos, diners.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/problemes-comuns-llc-i-com-evitar-los-llicons-de-clients-reals">Problemes comuns LLC i com evitar-los: lliçons de clients reals</a> i <a href="/ca/blog/ein-que-es-el-numero-fiscal-de-la-teva-llc-i-com-obtenir-lo">EIN: què és el número fiscal de la teva LLC i com obtenir-lo</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## Amb Exentax, tu no fas res (literalment)
 
 A Exentax ens encarreguem de tot el procés de constitució de principi a fi. Tu ens dones el teu passaport, ens dius com vols que es digui la teva LLC, i nosaltres fem la resta:

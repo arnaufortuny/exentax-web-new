@@ -53,4 +53,7 @@ export default `Parler d'imposition de la LLC dans l'abstrait conduit à des err
 
   Une LLC ne s'impose pas "d'une seule façon" : elle s'impose selon ce qu'elle fait, où et depuis où elle est contrôlée. La planification sérieuse commence par comprendre votre activité réelle.
 
-  Vous voulez analyser votre activité et concevoir la structure la plus efficiente ? Réservez votre consultation gratuite.`;
+  Vous voulez analyser votre activité et concevoir la structure la plus efficiente ? Réservez votre consultation gratuite.
+
+Pour poursuivre sur ce fil, <a href="/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto-entrepreneur-pour-un">Pourquoi les freelancers espagnols quittent le statut d'auto-entrepreneur pour une LLC</a> complète les nuances que nous n'avons qu'effleurées ici.
+`;

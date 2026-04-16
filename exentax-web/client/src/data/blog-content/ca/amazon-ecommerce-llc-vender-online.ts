@@ -82,6 +82,8 @@ El **nexus** és el concepte que determina si has de cobrar Sales Tax en un esta
 - Sense inventari, sense risc
 - Ideal per a creadors de contingut que volen merch
 
+Per continuar aquest fil, <a href="/ca/blog/iban-swift-i-routing-number-entendre-els-codis-bancaris-internacionals">IBAN, SWIFT i routing number: entendre els codis bancaris internacionals</a> i <a href="/ca/blog/com-escalar-el-teu-negoci-digital-amb-una-llc-americana">Com escalar el teu negoci digital amb una LLC americana</a> completen matisos que aquí només hem tocat de passada.
+
 ## Comptes i eines essencials per a ecommerce
 
 | Eina | Per a què | Cost |

@@ -101,6 +101,8 @@ Treballadors per compte propi que volen una solució tot-en-un de banking i comp
 | Dodo Payments | Variable | Variable | Vendes globals amb gestió d'IVA automàtica |
 | Lili (neobanc) | Inclòs | Inclòs | Treballadors per compte propi que volen banking + comptabilitat tot-en-un |
 
+Per continuar aquest fil, <a href="/ca/blog/privadesa-amb-una-llc-americana-el-que-es-realment-privat-i-el-que-no">Privadesa amb una LLC americana: el que és realment privat i el que no</a> completa un matís que aquí només hem tocat de passada.
+
 ## Què necessito per configurar-les?
 
 Per verificar la teva LLC a qualsevol passarel·la de pagament necessites:

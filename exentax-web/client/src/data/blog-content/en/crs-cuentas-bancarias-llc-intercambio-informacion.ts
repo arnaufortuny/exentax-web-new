@@ -118,6 +118,8 @@ Stripe and PayPal are payment processors, not banks. They report to the IRS when
 Through formal tax treaty mechanisms (mutual legal assistance), yes, but this requires a specific investigation, formal request, and legal process. This is not automatic bulk reporting.
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/optimal-tax-structure-for-international-freelancers-the-complete-framework">Optimal tax structure for international freelancers: the complete framework</a> helps round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

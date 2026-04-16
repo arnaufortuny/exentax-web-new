@@ -57,4 +57,7 @@ export default `Une structure internationale bien conçue est extraordinaire ; m
 
   Risques évitables avec planification sérieuse et honnête. L'optimisation fiscale légale existe et est puissante ; l'opacité finit toujours mal.
 
-  Vous voulez une révision professionnelle ? Réservez votre consultation gratuite.`;
+  Vous voulez une révision professionnelle ? Réservez votre consultation gratuite.
+
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/fiscalite-internationale-pour-entrepreneurs-numeriques-guide-complet">Fiscalité internationale pour entrepreneurs numériques : guide complet</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+`;

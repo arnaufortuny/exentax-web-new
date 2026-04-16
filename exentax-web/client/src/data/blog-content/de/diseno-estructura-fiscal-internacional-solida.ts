@@ -23,11 +23,11 @@ export default `Eine internationale Steuerstruktur zu gestalten ist nicht das ex
 
   ## Schritt 5: Kohärenter Banking-Stack
 
-  Primär: Mercury/Relay (US, niedrige CRS-Spur) — siehe <a href="/de/blog/mercury-konto-fur-ihre-llc-eroffnen-aus-jedem-land">Mercury</a>. Sekundär: Wise/Revolut Business — siehe <a href="/de/blog/wise-business-und-crs-was-ihrer-steuerbehorde-gemeldet-wird">Wise</a> und <a href="/de/blog/revolut-business-und-crs-was-ihrer-steuerbehorde-gemeldet-wird">Revolut</a>. Karten: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — siehe <a href="/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo-verglichen">Gateways</a>. Treasury: Slash, Mercury Treasury, IBKR.
+  Primär: Mercury/Relay (US, niedrige CRS-Spur) — siehe Mercury. Sekundär: Wise/Revolut Business — siehe <a href="/de/blog/wise-business-und-crs-was-ihrer-steuerbehorde-gemeldet-wird">Wise</a> und <a href="/de/blog/revolut-business-und-crs-was-ihrer-steuerbehorde-gemeldet-wird">Revolut</a>. Karten: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — siehe <a href="/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo-verglichen">Gateways</a>. Treasury: Slash, Mercury Treasury, IBKR.
 
   ## Schritt 6: Compliance und kontinuierliche Überprüfung
 
-  **US**: Form 5472 + 1120 pro forma, BOI, Annual Report — siehe <a href="/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es-erfullt">Form 5472</a>, <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen-meldung-der-wirtschaftlich-be">BOI</a>, <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren-konnen">jährliche Pflege</a>.
+  **US**: Form 5472 + 1120 pro forma, BOI, Annual Report — siehe Form 5472, <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen-meldung-der-wirtschaftlich-be">BOI</a>, <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren-konnen">jährliche Pflege</a>.
   **Spanien (ansässig)**: IRPF, USt, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: nach Land.
   **Jährliche Überprüfung**: Residenz, Substanz, Stack, neue Normen.
@@ -61,4 +61,7 @@ export default `Eine internationale Steuerstruktur zu gestalten ist nicht das ex
 
   Eine solide Struktur ist Ergebnis eines Prozesses, nicht einer Abkürzung. Gut konzipiert reduziert sie die Steuerlast erheblich **innerhalb des Gesetzes**.
 
-  Vereinbaren Sie Ihre kostenlose Beratung.`;
+  Vereinbaren Sie Ihre kostenlose Beratung.
+
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die-ehrliche-antwort">Melden US-Bankkonten an Ihre heimische Steuerbehörde? Die ehrliche Antwort</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+`;

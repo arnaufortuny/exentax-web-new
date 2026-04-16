@@ -90,6 +90,8 @@ Wise (qui est un EMI, pas une banque) vous génère des comptes locaux dans plus
 
 Vos clients paient comme s'il s'agissait d'un virement local, vous recevez sur votre solde multidevise Wise puis transférez vers Mercury quand cela vous convient.
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/ach-vs-virement-delais-de-paiement-et-impact-sur-la-tresorerie-de-votre-llc">ACH vs virement : délais de paiement et impact sur la trésorerie de votre LLC</a> et <a href="/fr/blog/comment-developper-votre-activite-numerique-avec-une-llc-americaine">Comment développer votre activité numérique avec une LLC américaine</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Mercury : coordonnées bancaires dont vous avez besoin
 
 Pour Mercury, les informations que vous donnerez à vos clients sont :

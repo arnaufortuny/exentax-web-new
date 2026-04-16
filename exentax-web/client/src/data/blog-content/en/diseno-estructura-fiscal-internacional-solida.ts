@@ -49,7 +49,7 @@ export default `Designing an international tax structure is not picking the most
 
   Banking stack is the other half of substance. General recommendations:
 
-  - **Primary account**: Mercury or Relay (US), for operational solidity, FDIC sweep banking and low CRS footprint. See <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">how to open Mercury</a>.
+  - **Primary account**: Mercury or Relay (US), for operational solidity, FDIC sweep banking and low CRS footprint. See how to open Mercury.
   - **Multi-currency secondary**: Wise Business or Revolut Business for EUR/GBP/EU operations, aware of their CRS profile. See <a href="/en/blog/wise-business-and-crs-what-it-reports-to-your-tax-authority">Wise and CRS</a> and <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax-authority">Revolut and CRS</a>.
   - **Corporate cards**: Wallester or Mercury/Relay's own.
   - **Payment gateways**: Stripe, PayPal, Adyen or DoDo Payments per model. See <a href="/en/blog/payment-gateways-for-your-llc-stripe-paypal-and-dodo-compared">gateways comparison</a>.
@@ -61,7 +61,7 @@ export default `Designing an international tax structure is not picking the most
 
   Compliance isn't an event, it's an annual process:
 
-  - **US**: Form 5472 + pro-forma Form 1120 annually, BOI Report to FinCEN, registered-agent renewal, state Annual Report if applicable. See <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472</a>, <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report 2026</a> and <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual LLC maintenance</a>.
+  - **US**: Form 5472 + pro-forma Form 1120 annually, BOI Report to FinCEN, registered-agent renewal, state Annual Report if applicable. See Form 5472, BOI Report 2026 and <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual LLC maintenance</a>.
   - **Spain (resident)**: annual IRPF with imputed income, VAT if applicable, Form 720 if threshold crossed, Form 721 for crypto, Form 100/130, possible Form 238 (DAC7) if selling on platforms.
   - **LATAM**: annual return + foreign-income reporting regimes per country.
   - **Annual review**: residency, substance, banking stack, new regulation (DAC7, DAC8, MiCA, DTT changes), modified thresholds.
@@ -110,4 +110,7 @@ export default `Designing an international tax structure is not picking the most
 
   A solid international tax structure is the result of a process, not a shortcut. Each framework step reinforces the next. Skipping one weakens all the others. The good news: well-designed, an international structure can substantially reduce your tax burden **within the law**, with a solid documentary footprint and no surprises.
 
-  Want us to design your structure step by step applying this framework to your case? Book your free consultation and we'll start.`;
+  Want us to design your structure step by step applying this framework to your case? Book your free consultation and we'll start.
+
+If something in this structure left you wanting more detail, <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the-honest-answer">Do US bank accounts report to your home tax authority? The honest answer</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+`;

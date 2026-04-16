@@ -57,6 +57,8 @@ Independentment del que reportin o deixin de reportar les fintechs, la majoria d
 
 **4. La traçabilitat és la teva millor defensa.** Si alguna vegada la teva hisenda et pregunta sobre la teva LLC, tenir-ho tot documentat. factures, distributions, Form 5472, Operating Agreement. és el que et protegeix.
 
+Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/estructura-fiscal-optima-per-a-freelancers-internacionals-el-framework-complet">Estructura fiscal òptima per a freelancers internacionals: el framework complet</a>, que afina precisament els marges del que explica aquesta guia.
+
 ## Com ho gestionem a Exentax
 
 Quan muntem la teva estructura, ens assegurem que:

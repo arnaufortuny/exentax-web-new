@@ -92,6 +92,8 @@ Vor dem 15. April stellen wir sicher, dass Ihre Verlängerung eingereicht ist. D
 | Einreichung | Elektronisch oder per Post |
 | Häufigkeit | Jedes Jahr, ohne Limit |
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/10-steuerfehler-spanischer-freelancer-und-wie-man-sie-vermeidet">10 Steuerfehler spanischer Freelancer (und wie man sie vermeidet)</a> rundet den Kontext ab.
+
 ## Haben Sie Fragen?
 
 Wenn Sie Ihre LLC gerade erst gegründet haben oder es Ihr erstes Geschäftsjahr ist, sind Fragen zu Fristen und Formularen normal. Bei Exentax kümmern wir uns um alles, von der Verlängerung bis zur endgültigen Erklärung. Vereinbaren Sie Ihre kostenlose Beratung und wir erklären Ihnen genau, was Sie brauchen und wann.`;

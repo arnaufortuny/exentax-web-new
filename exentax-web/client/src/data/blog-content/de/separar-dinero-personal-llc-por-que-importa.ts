@@ -215,6 +215,8 @@ Um sicherzustellen, dass Sie alles richtig machen, überprüfen Sie diese Liste:
 - Form 5472 jedes Jahr korrekt eingereicht
 - Kapitaleinlagen dokumentiert
 
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/ihr-erster-monat-mit-einer-us-llc-woche-fur-woche-was-erwartet-sie">Ihr erster Monat mit einer US LLC: Woche für Woche was erwartet Sie</a> und <a href="/de/blog/wie-man-kontosperrungen-bei-mercury-wise-und-revolut-vermeidet">Wie man Kontosperrungen bei Mercury, Wise und Revolut vermeidet</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+
 ## Fazit
 
 Ihr persönliches Geld vom Geld Ihrer LLC zu trennen, ist kein administratives Detail, es ist die Grundlage, auf der der gesamte rechtliche und steuerliche Schutz ruht, den Ihnen Ihre LLC bietet. Ohne finanzielle Trennung ist Ihre LLC nur ein Name auf einem Stück Papier.

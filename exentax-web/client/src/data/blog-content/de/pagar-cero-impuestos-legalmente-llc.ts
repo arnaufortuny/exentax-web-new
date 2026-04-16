@@ -88,6 +88,8 @@ Die Reduzierung von 40% auf potenziell 0% stellt bereits eine enorme Ersparnis d
 
 Für die Mehrheit der deutschsprachigen Freiberufler: signifikante Reduzierung mit Teilerklärung. Sie zahlen nicht null, aber deutlich weniger als heute, und das in einem legalen, dokumentierten und nachhaltigen Rahmen.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/10-steuerfehler-spanischer-freelancer-und-wie-man-sie-vermeidet">10 Steuerfehler spanischer Freelancer (und wie man sie vermeidet)</a> rundet den Kontext ab.
+
 ## Die Finanztools, die die 0% begleiten
 
 Die Steueroptimierung ist nutzlos, wenn Sie nicht die Infrastruktur haben, um das Geld effizient zu verwalten. Die Tools, die Ihre LLC-Struktur ergänzen:

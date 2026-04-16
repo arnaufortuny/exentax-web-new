@@ -79,6 +79,8 @@ Suponhamos que você gera isto por mês:
 
 Essa economia são dois equipamentos de câmera novos, ou um ano inteiro de editor de vídeo. Ou simplesmente mais dinheiro no seu bolso.
 
+Para continuar neste fio, <a href="/pt/blog/llc-americana-para-agencias-de-marketing-digital-estrutura-faturamento-e-escalab">LLC americana para agências de marketing digital: estrutura, faturamento e escalabilidade</a> e <a href="/pt/blog/o-que-e-o-irs-e-como-afeta-a-sua-llc-americana">O que é o IRS e como afeta a sua LLC americana?</a> completam nuances que aqui apenas tocámos.
+
 ## O que inclui o serviço da Exentax
 
 Na Exentax cuidamos de tudo: constituição da LLC, obtenção do EIN, abertura de conta bancária americana, configuração de gateways de pagamento e compliance anual. Você dedica-se a criar conteúdo, nós ocupamo-nos do chato mas necessário papelório.

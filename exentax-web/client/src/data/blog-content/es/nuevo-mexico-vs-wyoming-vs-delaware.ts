@@ -1,6 +1,6 @@
 export default `Elegir el estado de constitución de tu LLC es una de las decisiones más importantes, y una de las que más confusión genera. Internet está lleno de vídeos diciendo "Delaware es el mejor" o "Wyoming es obligatorio". La realidad es más matizada, y aquí te la contamos sin humo.
 
-Vamos a comparar los tres estados más elegidos por no residentes: Nuevo México, Wyoming y Delaware. Spoiler: para la mayoría de freelancers y emprendedores digitales, Nuevo México gana de calle. Si necesitas primero entender el proceso completo de constitución, revisa nuestra <a href="/es/blog/constituir-llc-proceso-paso-a-paso">guía paso a paso para constituir una LLC</a>.
+Vamos a comparar los tres estados más elegidos por no residentes: Nuevo México, Wyoming y Delaware. Spoiler: para la mayoría de freelancers y emprendedores digitales, Nuevo México gana de calle. Si necesitas primero entender el proceso completo de constitución, revisa nuestra guía paso a paso para constituir una LLC.
 
 ## Nuevo México: el favorito de los no residentes
 
@@ -80,11 +80,13 @@ Independientemente del estado que elijas, hay cosas que no varían:
 
 - **La tributación federal es la misma**: $0 de impuesto federal para Disregarded Entity de no residente, en los tres estados
 - **El <a href="/es/blog/ein-numero-fiscal-llc-como-obtenerlo">EIN</a> es el mismo tipo de número**: lo emite el IRS, no el estado
-- **Las obligaciones fiscales federales son idénticas**: <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, Form 1120, <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>
-- **El acceso a banca es el mismo**: <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a>, Relay, Wise aceptan LLCs de cualquier estado
+- **Las obligaciones fiscales federales son idénticas**: Form 5472, Form 1120, BOI Report
+- **El acceso a banca es el mismo**: Mercury, Relay, Wise aceptan LLCs de cualquier estado
 - **Las pasarelas de pago no discriminan por estado**: Stripe, PayPal, Adyen funcionan igual
 
 La elección de estado afecta principalmente al coste de mantenimiento, al nivel de privacidad en registros públicos y a la protección jurídica en caso de disputas. Para el 80% de freelancers digitales, estas diferencias son menores comparadas con el ahorro fiscal y operativo que la LLC aporta independientemente del estado.
+
+Para seguir profundizando, <a href="/es/blog/ventajas-desventajas-llc-no-residentes">Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros</a> y <a href="/es/blog/autonomo-espana-vs-llc-estados-unidos">Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
 
 ## El error de paralizarse por la elección de estado
 

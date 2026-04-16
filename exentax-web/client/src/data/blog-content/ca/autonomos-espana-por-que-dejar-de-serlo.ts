@@ -92,6 +92,8 @@ Amb una LLC, pots deduir com a despeses operatives tot el que sigui "ordinari i 
 
 **Diferència:** 11.800€/any més a la teva butxaca. Cada any. I la diferència creix com més factures.
 
+Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/impostos-amb-clients-internacionals-a-espanya-el-que-ningu-texplica">Impostos amb clients internacionals a Espanya: el que ningú t'explica</a> i <a href="/ca/blog/criptomonedes-i-trading-amb-llc-guia-fiscal-completa-per-a-traders">Criptomonedes i trading amb LLC: guia fiscal completa per a traders</a>, que afinen precisament els marges del que explica aquesta guia.
+
 ## La quota d'autònoms: l'impost més absurd d'Espanya
 
 Mereix el seu propi rant: la quota d'autònoms és un impost fix que pagues **tant si factures com si no**. Amb el nou sistema de cotització per ingressos (2023), la quota puja quan et va bé. És l'únic sistema fiscal del món que et castiga per tenir èxit.

@@ -97,6 +97,8 @@ Los errores más comunes cuando la gente lo hace sola:
 
 Cada error te cuesta semanas de retraso y, en algunos casos, dinero.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/problemas-comunes-llc-como-evitarlos">7 problemas reales de tener una LLC en EE.UU. y cómo evitar cada uno</a> y <a href="/es/blog/ein-numero-fiscal-llc-como-obtenerlo">EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## Con Exentax, tú no haces nada (literalmente)
 
 En Exentax nos encargamos de todo el proceso de constitución de principio a fin. Tú nos das tu pasaporte, nos dices cómo quieres que se llame tu LLC, y nosotros hacemos el resto:

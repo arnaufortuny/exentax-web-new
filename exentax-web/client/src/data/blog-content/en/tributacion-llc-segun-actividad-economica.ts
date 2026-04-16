@@ -90,4 +90,7 @@ export default `Talking about "LLC taxation" in the abstract leads to serious mi
 
   An LLC doesn't tax "in one way": it taxes by what it does, where it does it, and from where it is controlled. Serious tax planning starts by understanding your real activity, not picking a country on a map.
 
-  Want to analyze how your activity is taxed exactly and design the most efficient and defensible structure? Book your free consultation.`;
+  Want to analyze how your activity is taxed exactly and design the most efficient and defensible structure? Book your free consultation.
+
+To keep going on this thread, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us-llc">Why Spanish freelancers are leaving self-employment for a US LLC</a> fills in a nuance this guide only touched on.
+`;

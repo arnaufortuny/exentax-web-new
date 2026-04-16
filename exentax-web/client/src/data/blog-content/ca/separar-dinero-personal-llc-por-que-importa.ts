@@ -215,6 +215,8 @@ Per assegurar-te que estàs fent tot correctament, revisa aquesta llista:
 - Form 5472 presentat correctament cada any
 - Aportacions de capital documentades
 
+Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/el-teu-primer-mes-amb-una-llc-americana-el-que-esperar-setmana-a-setmana">El teu primer mes amb una LLC americana: el que esperar setmana a setmana</a> i <a href="/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i-revolut">Com evitar els bloquejos de compte a Mercury, Wise i Revolut</a>, que afinen precisament els marges del que explica aquesta guia.
+
 ## Conclusió
 
 Separar els teus diners personals dels diners de la teva LLC no és un detall administratiu. és la base sobre la qual se sosté tota la protecció legal i fiscal que la teva LLC t'ofereix. Sense separació financera, la teva LLC és només un nom en un paper.

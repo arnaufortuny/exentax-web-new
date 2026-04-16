@@ -74,4 +74,7 @@ export default `The Common Reporting Standard (CRS) is the most important piece 
 
   CRS is not "avoided" from a European jurisdiction. It is planned for, with knowledge. A US LLC remains an extraordinarily useful tool, but the design of your banking stack and your tax residency are decisive for the informational footprint you generate to be consistent with what you declare.
 
-  Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyze it with you.`;
+  Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyze it with you.
+
+If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us-llc">Why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+`;

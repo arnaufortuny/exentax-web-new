@@ -118,6 +118,8 @@ Most Exentax clients use this configuration:
 
 Total monthly cost for this entire infrastructure: **$0**. (Wise charges only on conversions, Wallester has per-card fees, everything else is free.)
 
+To keep going on this thread, <a href="/en/blog/nominee-owners-for-llcs-why-it-is-illegal-and-the-risks-you-take">Nominee owners for LLCs: why it is illegal and the risks you take</a> fills in a nuance this guide only touched on.
+
 ## Account opening success rates
 
 Based on our experience with hundreds of clients:

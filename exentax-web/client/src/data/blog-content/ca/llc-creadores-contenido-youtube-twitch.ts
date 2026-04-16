@@ -79,6 +79,8 @@ Suposem que generes això al mes:
 
 Aquest estalvi són dos equips de càmera nous, o un any sencer d'editor de vídeo. O simplement més diners a la teva butxaca.
 
+Per continuar aquest fil, <a href="/ca/blog/llc-americana-per-a-agencies-de-marqueting-digital-estructura-facturacio-i-creix">LLC americana per a agències de màrqueting digital: estructura, facturació i creixement</a> i <a href="/ca/blog/que-es-lirs-i-com-afecta-la-teva-llc-americana">Què és l'IRS i com afecta la teva LLC americana?</a> completen matisos que aquí només hem tocat de passada.
+
 ## El que inclou el servei d'Exentax
 
 A Exentax ens encarreguem de tot: constitució de la LLC, obtenció de l'EIN, obertura de compte bancari americà, configuració de passarel·les de pagament i compliance anual. Tu et dediques a crear contingut, nosaltres ens ocupem de l'avorrit però necessari paperassa.

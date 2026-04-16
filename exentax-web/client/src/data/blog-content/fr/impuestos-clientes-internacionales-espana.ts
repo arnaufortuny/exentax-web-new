@@ -103,6 +103,8 @@ Sans LLC (auto-entrepreneur standard) : vous êtes imposé sur vos revenus bruts
 
 Avec LLC : les charges déductibles sont beaucoup plus larges (tout ce qui est "ordinaire et nécessaire" pour l'activité selon l'IRS), et vous ne déclarez que les bénéfices nets. La base imposable se réduit significativement.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/peut-on-payer-0-dimpots-legalement-la-verite-sur-loptimisation-fiscale">Peut-on payer 0% d'impôts légalement ? La vérité sur l'optimisation fiscale</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## Que devriez-vous faire ?
 
 Si vous facturez plus de 30 000€/an à des clients internationaux, l'optimisation fiscale avec une LLC est légale, accessible à tout freelance, et les économies sont réelles.

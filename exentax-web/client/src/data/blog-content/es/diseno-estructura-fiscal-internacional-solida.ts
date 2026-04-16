@@ -49,7 +49,7 @@ export default `Diseñar una estructura fiscal internacional no es elegir el pa�
 
   El stack bancario es la otra mitad de la sustancia. Recomendaciones generales:
 
-  - **Cuenta principal**: Mercury o Relay (USA), por su solidez operativa, banca FDIC sweep y baja huella CRS. Ver <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">cómo abrir Mercury</a>.
+  - **Cuenta principal**: Mercury o Relay (USA), por su solidez operativa, banca FDIC sweep y baja huella CRS. Ver cómo abrir Mercury.
   - **Cuenta multidivisa secundaria**: Wise Business o Revolut Business para EUR/GBP/operativa europea, conscientes de su perfil CRS. Ver <a href="/es/blog/wise-business-crs-reporting-fiscal">Wise y CRS</a> y <a href="/es/blog/revolut-business-crs-reporting-fiscal">Revolut y CRS</a>.
   - **Tarjetas corporativas**: Wallester o las propias de Mercury/Relay.
   - **Pasarelas de pago**: Stripe, PayPal, Adyen o DoDo Payments según modelo. Ver <a href="/es/blog/pasarelas-pago-llc-stripe-paypal-dodo">comparativa de pasarelas</a>.
@@ -61,7 +61,7 @@ export default `Diseñar una estructura fiscal internacional no es elegir el pa�
 
   El cumplimiento no es un evento, es un proceso anual:
 
-  - **EE.UU.**: Form 5472 + Form 1120 pro-forma anual, BOI Report a FinCEN, renovación agente registrado, Annual Report estatal si aplica. Ver <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report 2026</a> y <a href="/es/blog/mantenimiento-anual-llc-obligaciones">mantenimiento anual de tu LLC</a>.
+  - **EE.UU.**: Form 5472 + Form 1120 pro-forma anual, BOI Report a FinCEN, renovación agente registrado, Annual Report estatal si aplica. Ver Form 5472, BOI Report 2026 y <a href="/es/blog/mantenimiento-anual-llc-obligaciones">mantenimiento anual de tu LLC</a>.
   - **España (residente)**: IRPF anual con rendimientos imputados, IVA si aplica, Modelo 720 si superas el umbral, Modelo 721 para cripto, Modelo 100/130, posible Modelo 238 (DAC7) si vendes en plataformas.
   - **LATAM**: declaración anual + regímenes informativos de rentas en el exterior según país.
   - **Revisión anual**: residencia fiscal, sustancia, stack bancario, normativa nueva (DAC7, DAC8, MiCA, cambios CDI), umbrales modificados.
@@ -110,4 +110,7 @@ export default `Diseñar una estructura fiscal internacional no es elegir el pa�
 
   Una estructura fiscal internacional sólida es resultado de un proceso, no de un atajo. Cada paso del framework refuerza al siguiente. Saltarse uno, debilita todos los demás. La buena noticia: bien diseñada, una estructura internacional puede reducir tu carga fiscal de forma muy significativa **dentro de la ley**, con una huella documental sólida y sin sobresaltos.
 
-  ¿Quieres que diseñemos contigo tu estructura paso a paso aplicando este framework a tu caso? Agenda tu asesoría gratuita y empezamos.`;
+  ¿Quieres que diseñemos contigo tu estructura paso a paso aplicando este framework a tu caso? Agenda tu asesoría gratuita y empezamos.
+
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">¿Las cuentas bancarias en EE.UU. reportan a tu hacienda? La verdad completa</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
+`;

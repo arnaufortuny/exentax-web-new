@@ -65,6 +65,8 @@ A nossa recomendação:
 
 Nunca dependas de uma única conta. Se uma for bloqueada temporariamente, precisas de poder continuar a operar.
 
+Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/iban-swift-e-routing-number-entendendo-os-codigos-bancarios-internacionais">IBAN, SWIFT e routing number: entendendo os códigos bancários internacionais</a> e <a href="/pt/blog/trocar-divisas-para-sua-llc-melhores-opcoes-e-como-evitar-taxas-ocultas">Trocar divisas para sua LLC: melhores opções e como evitar taxas ocultas</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
+
 ## Dado chave sobre cada plataforma
 
 - **Mercury** usa a Column NA como banco custodiante. Os teus fundos têm seguro FDIC até $250K por depositante. Os wires nacionais e internacionais são $0. É uma plataforma fintech séria, não uma brincadeira.

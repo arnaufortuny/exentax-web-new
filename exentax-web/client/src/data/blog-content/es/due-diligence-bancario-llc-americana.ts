@@ -94,6 +94,8 @@ Muchos freelancers creen que una vez abierta la cuenta, el compliance se acabó.
 
 La clave para no tener problemas: mantén un flujo de operaciones coherente con lo que declaraste al abrir la cuenta. Si tu negocio crece significativamente, actualiza tu perfil proactivamente.
 
+Un matiz que quedó corto y que conviene leer aparte: <a href="/es/blog/prevencion-blanqueo-capitales-llc">Prevención de blanqueo de capitales: lo que tu LLC necesita saber</a>, porque afina exactamente los bordes de lo explicado en esta guía.
+
 ## Cómo lo coordinamos en Exentax
 
 Preparamos toda la documentación antes de enviar la solicitud a Mercury. Articles, EIN, Operating Agreement, pasaporte: todo alineado y coherente. El resultado es una aprobación rápida y sin rechazos.

@@ -80,6 +80,8 @@ O inverso também se aplica: se é residente e deixa os EUA (devolve a Green Car
 
 A chave em todos estes casos: **nenhum tem rendimentos de fonte americana**. Trabalham a partir dos seus países para clientes globais. A LLC paga $0 nos EUA e os lucros são declarados com a base tributável já otimizada.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/10-erros-fiscais-de-freelancers-espanhois-e-como-evita-los">10 erros fiscais de freelancers espanhóis (e como evitá-los)</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Posso ter uma LLC sem morar nos EUA?
 
 **Absolutamente.** Na verdade, é para isso que são desenhadas. Não precisa de:

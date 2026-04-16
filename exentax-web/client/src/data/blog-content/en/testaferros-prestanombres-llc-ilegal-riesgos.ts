@@ -89,9 +89,9 @@ Privacy yes. Anonymity before authorities, no. Fraud, never.
 
 ## Related articles
 
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
+- Mercury account guide
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
 - <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">LLC privacy guide</a>

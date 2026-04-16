@@ -96,6 +96,8 @@ Tout dans la banque de votre LLC ne se résume pas aux comptes courants. Il y a 
 
 **Wallester** couvre la couche de dépenses et fournit un IBAN en euros pour les clients Exentax. Il émet des cartes corporatives (virtuelles et physiques) avec un contrôle individuel par carte. Une carte pour chaque abonnement, chaque fournisseur, chaque catégorie de dépense. Si vous travaillez avec des collaborateurs, vous pouvez leur émettre des cartes avec des limites spécifiques. Tout est documenté et catégorisé.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/proprietaires-fictifs-pour-llc-pourquoi-cest-illegal-et-les-risques">Propriétaires fictifs pour LLC : pourquoi c'est illégal et les risques</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## Que recommandons-nous ?
 
 Pour la majorité des LLCs de non-résidents, la combinaison idéale est :

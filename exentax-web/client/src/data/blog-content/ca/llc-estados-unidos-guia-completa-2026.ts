@@ -93,6 +93,8 @@ El manteniment anual inclou totes les declaracions davant l'IRS (Form 5472, Form
 4. **Oblidar el Form 5472.** És una declaració anual obligatòria. Nosaltres la gestionem per tu cada any, ni t'assabentes.
 5. **Barrejar comptes personals i empresarials.** Això pot comprometre la protecció de responsabilitat limitada. Compte de la LLC = només per al negoci.
 
+Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/documents-de-la-llc-quins-necessites-i-com-organitzar-los">Documents de la LLC: quins necessites i com organitzar-los</a> ajuda a arrodonir el context.
+
 ## És legal?
 
 Absolutament. No és evasió fiscal. És planificació fiscal legal utilitzant estructures reconegudes per l'IRS i les autoritats del teu país. Milions d'empreses operen així. La clau està a declarar correctament i mantenir el compliance al dia, i d'això ens encarreguem nosaltres.

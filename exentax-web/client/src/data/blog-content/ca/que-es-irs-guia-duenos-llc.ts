@@ -94,6 +94,8 @@ L'IRS persegueix els qui:
 
 Si la teva LLC està ben constituïda, presentes els teus formularis a temps i la teva activitat és legítima, l'IRS ni sap que existeixes. Ets un número més en un sistema que processa milions de declaracions a l'any.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/llc-americana-per-a-agencies-de-marqueting-digital-estructura-facturacio-i-creix">LLC americana per a agències de màrqueting digital: estructura, facturació i creixement</a> i <a href="/ca/blog/llc-americana-per-a-desenvolupadors-de-programari-i-fundadors-saas-guia-completa">LLC americana per a desenvolupadors de programari i fundadors SaaS: guia completa</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## A Exentax, tu no toques res de l'IRS
 
 Tota la relació amb l'IRS la gestionem nosaltres:

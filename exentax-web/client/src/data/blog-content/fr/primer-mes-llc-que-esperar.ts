@@ -85,6 +85,8 @@ Dès la première facture que vous émettez via la LLC. L'économie fiscale se c
 **« Et si je regrette ? »**
 Vous pouvez dissoudre la LLC à tout moment. Mais personne ne l'a encore regretté. Une fois que vous voyez la différence en chiffres, il n'y a pas de retour en arrière.
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/ach-vs-virement-delais-de-paiement-et-impact-sur-la-tresorerie-de-votre-llc">ACH vs virement : délais de paiement et impact sur la trésorerie de votre LLC</a> et <a href="/fr/blog/comment-developper-votre-activite-numerique-avec-une-llc-americaine">Comment développer votre activité numérique avec une LLC américaine</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Prêt à commencer ?
 
 Si vous voulez savoir à quoi ressemblerait votre premier mois avec une LLC, prenez rendez-vous pour une consultation gratuite. Nous vous expliquons le processus complet, nous faisons les calculs avec votre chiffre d'affaires réel et nous répondons à toutes vos questions. En 30 minutes, vous saurez clairement si la LLC est faite pour vous.

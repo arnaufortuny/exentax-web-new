@@ -94,6 +94,8 @@ Der IRS verfolgt diejenigen, die:
 
 Wenn Ihre LLC ordnungsgemäß gegründet ist, Sie Ihre Formulare rechtzeitig einreichen und Ihre Tätigkeit legitim ist, weiß der IRS nicht einmal, dass Sie existieren. Sie sind eine Nummer unter Millionen von Erklärungen, die jährlich verarbeitet werden.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/us-llc-fur-digitale-marketingagenturen-struktur-abrechnung-und-skalierung">US LLC für digitale Marketingagenturen: Struktur, Abrechnung und Skalierung</a> und <a href="/de/blog/us-llc-fur-software-entwickler-und-saas-grunder-vollstandiger-leitfaden">US LLC für Software-Entwickler und SaaS-Gründer: vollständiger Leitfaden</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Bei Exentax rühren Sie nichts beim IRS an
 
 Die gesamte Beziehung mit dem IRS übernehmen wir:

@@ -92,6 +92,8 @@ Antes de 15 de abril, garantimos que a sua extensão esteja apresentada. Depois,
 | Apresentação | Eletrônica ou por correio |
 | Frequência | Todo ano, sem limite |
 
+Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/10-erros-fiscais-de-freelancers-espanhois-e-como-evita-los">10 erros fiscais de freelancers espanhóis (e como evitá-los)</a> ajuda a arredondar o contexto.
+
 ## Tem dúvidas?
 
 Se você acabou de constituir a sua LLC ou é o seu primeiro ano fiscal, é normal ter perguntas sobre prazos e formulários. Na Exentax cuidamos de tudo, desde a extensão até a declaração final. Agende a sua assessoria gratuita e explicamos exatamente o que você precisa e quando.`;

@@ -90,6 +90,8 @@ Independentment de l'estat que triïs, hi ha coses que no varien:
 
 L'elecció de l'estat afecta principalment el cost de manteniment, el nivell de privacitat en registres públics i la protecció jurídica en cas de disputes. Per al 80% dels freelancers digitals, aquestes diferències són menors comparades amb l'estalvi fiscal i operatiu que la LLC aporta independentment de l'estat.
 
+Per continuar aquest fil, <a href="/ca/blog/avantatges-i-desavantatges-duna-llc-americana-per-a-no-residents-analisi-honesta">Avantatges i desavantatges d'una LLC americana per a no residents: anàlisi honesta</a> i <a href="/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa">Autònom a Espanya vs LLC als EUA: comparativa fiscal completa</a> completen matisos que aquí només hem tocat de passada.
+
 ## L'error de paralitzar-se per l'elecció d'estat
 
 Ho veiem amb freqüència: freelancers que passen setmanes comparant estats, llegint fòrums, mirant vídeos, i al final no fan res. Mentrestant, continuen pagant quotes elevades, tributant al tipus màxim, i operant sense protecció patrimonial.

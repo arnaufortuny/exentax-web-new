@@ -91,6 +91,8 @@ This flow minimizes fees and maximizes the exchange rate.
 - **Set rate alerts**: Wise and Revolut let you set alerts when rates reach your target
 
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/iban-swift-and-routing-numbers-understanding-international-banking-codes">IBAN, SWIFT and routing numbers: understanding international banking codes</a> and <a href="/en/blog/selling-on-amazon-with-your-us-llc-complete-guide-for-international-sellers">Selling on Amazon with your US LLC: complete guide for international sellers</a>, which sharpen exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your-account">banks vs fintech comparison</a>

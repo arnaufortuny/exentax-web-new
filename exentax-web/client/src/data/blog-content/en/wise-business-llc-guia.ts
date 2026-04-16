@@ -126,6 +126,8 @@ Compare these to your local bank's exchange rate markup (typically 2-4%) and you
 At Exentax, we provide step-by-step guidance for Wise Business setup as part of our financial stack configuration.
 
 
+One adjacent read worth having open alongside this one: <a href="/en/blog/how-to-run-your-llc-day-to-day-practical-guide-for-non-residents">How to run your LLC day to day: practical guide for non-residents</a>, which sharpens exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>

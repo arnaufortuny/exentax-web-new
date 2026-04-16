@@ -96,6 +96,8 @@ Nicht alles im Banking Ihrer LLC dreht sich um Girokonten. Es gibt zwei zusätzl
 
 **Wallester** deckt die Ausgabenebene ab und stellt für Exentax-Kunden eine Euro-IBAN bereit. Es gibt Firmenkarten (virtuell und physisch) mit individueller Kontrolle pro Karte aus. Eine Karte für jedes Abonnement, jeden Lieferanten, jede Ausgabenkategorie. Wenn Sie mit Mitarbeitern arbeiten, können Sie ihnen Karten mit spezifischen Limits ausstellen. Alles wird dokumentiert und kategorisiert.
 
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/strohmanneigentumer-fur-llcs-warum-es-illegal-ist-und-die-risiken">Strohmanneigentümer für LLCs: warum es illegal ist und die Risiken</a> eine Nuance, die wir hier nur gestreift haben.
+
 ## Was empfehlen wir?
 
 Für die meisten LLCs von Nichtansässigen ist die ideale Kombination:

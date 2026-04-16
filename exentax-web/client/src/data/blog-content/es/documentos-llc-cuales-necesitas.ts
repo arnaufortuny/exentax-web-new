@@ -80,6 +80,8 @@ Documento que confirma quién es tu Registered Agent, la persona o empresa desig
 - **Pasaporte americano**: Cualquier pasaporte vigente es válido
 - **Cuenta bancaria previa en EE.UU.**: Se abre como parte del proceso de constitución
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/por-que-abrir-llc-estados-unidos-ventajas">Por qué abrir una LLC en Estados Unidos: privacidad, seguridad y ventajas fiscales</a> y <a href="/es/blog/itin-ssn-que-son-como-obtenerlos">ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## ¿Dónde guardar estos documentos?
 
 Recomendamos tener una copia digital organizada de todo:

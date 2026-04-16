@@ -38,7 +38,7 @@ export default `**DAC7** ist eine der wichtigsten und am meisten ignorierten Reg
   ## Korrekte Planung
 
   1. Kohärenz mit DAC7-Bericht.
-  2. Innerhalb des Gesetzes optimieren (siehe <a href="/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen">LLC-Abzüge</a>).
+  2. Innerhalb des Gesetzes optimieren (siehe LLC-Abzüge).
   3. Substanz bei Skalierung — siehe <a href="/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur-schritt-fur-schritt-rahmen">solide Struktur</a>.
   4. Erste Anfragen ernst nehmen.
 

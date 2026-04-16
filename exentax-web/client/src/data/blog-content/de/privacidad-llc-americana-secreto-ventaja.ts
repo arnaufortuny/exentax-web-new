@@ -82,6 +82,8 @@ Für die meisten Freiberufler und digitalen Unternehmer, die Datenschutz + niedr
 
 **Vermögensschutz:** Durch die Trennung Ihrer persönlichen Identität von Ihrer geschäftlichen Tätigkeit verringern Sie das Risiko, dass Geschäftsprobleme Ihr Privatvermögen beeinflussen.
 
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/strohmanneigentumer-fur-llcs-warum-es-illegal-ist-und-die-risiken">Strohmanneigentümer für LLCs: warum es illegal ist und die Risiken</a> eine Nuance, die wir hier nur gestreift haben.
+
 ## Wie wir den Datenschutz bei Exentax handhaben
 
 Wenn wir Ihre LLC gründen:

@@ -92,6 +92,8 @@ Was Sie bereithalten müssen:
 
 Wenn alles organisiert ist und mit dem Deklarierten übereinstimmt, löst sich die Anfrage problemlos. Wenn nicht, beginnen die Komplikationen.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/optimale-steuerstruktur-fur-internationale-freelancer-das-vollstandige-framework">Optimale Steuerstruktur für internationale Freelancer: das vollständige Framework</a> rundet den Kontext ab.
+
 ## Wie wir das bei Exentax handhaben
 
 Bei Exentax arbeiten wir mit vollständiger Transparenz. Wenn wir Ihre LLC gründen:

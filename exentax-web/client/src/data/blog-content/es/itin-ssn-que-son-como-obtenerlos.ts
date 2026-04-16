@@ -126,6 +126,8 @@ Sabemos que el proceso del ITIN puede parecer intimidante, formularios, document
 
 Hemos gestionado solicitudes de ITIN para clientes de España, México, Colombia, Argentina, Chile y muchos más países. Conocemos el proceso al detalle y sabemos exactamente qué necesita el IRS para aprobar tu solicitud a la primera.
 
+Para seguir profundizando, <a href="/es/blog/problemas-comunes-llc-como-evitarlos">7 problemas reales de tener una LLC en EE.UU. y cómo evitar cada uno</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## ¿Necesitas tu ITIN ya?
 
 Si acabas de <a href="/es/blog/constituir-llc-proceso-paso-a-paso">constituir tu LLC</a> o estás a punto de hacerlo, el momento de solicitar tu ITIN es ahora. Cuanto antes lo tengas, antes podrás abrir tu <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">cuenta en Mercury</a> y cumplir con todas tus <a href="/es/blog/mantenimiento-anual-llc-obligaciones">obligaciones fiscales</a> sin complicaciones.

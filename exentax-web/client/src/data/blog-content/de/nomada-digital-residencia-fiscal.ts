@@ -130,6 +130,8 @@ Die 183-Tage-Regel ist das Hauptkriterium, aber nicht das einzige. Deshalb ist e
 6. **Glauben, dass es eine Option ist, nirgendwo ansässig zu sein.** Das ist es nicht. Sie werden immer in einem Land steuerlich ansässig sein, und wenn Sie nicht selbst wählen, wählt es automatisch das Steuersystem Ihres Herkunftslandes.
 7. **Die DBA nicht berücksichtigen.** Doppelbesteuerungsabkommen können Ihnen Tausende von Euro sparen, wenn Sie sie kennen und anwenden.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/kann-man-legal-0-steuern-zahlen-die-wahrheit-uber-steueroptimierung">Kann man legal 0% Steuern zahlen? Die Wahrheit über Steueroptimierung</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Wie fangen Sie an?
 
 Wenn Sie digitaler Nomade sind (oder darüber nachdenken, einer zu werden), ist die ideale Reihenfolge:

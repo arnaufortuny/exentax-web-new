@@ -80,6 +80,8 @@ Documento que confirma quem é o teu Registered Agent, a pessoa ou empresa desig
 - **Passaporte americano**: Qualquer passaporte válido é aceite
 - **Conta bancária prévia nos EUA**: Abre-se como parte do processo de constituição
 
+Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da-vantagem-americana">Por que abrir uma LLC americana em 2026: os 5 pilares da vantagem americana</a> e <a href="/pt/blog/ein-vs-itin-vs-ssn-os-numeros-de-identificacao-fiscal-americanos-explicados">EIN vs ITIN vs SSN: os números de identificação fiscal americanos explicados</a>, que afinam precisamente os contornos do que este guia explica.
+
 ## Onde guardar estes documentos?
 
 Recomendamos ter uma cópia digital organizada de tudo:

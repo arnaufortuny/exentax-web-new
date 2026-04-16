@@ -73,6 +73,8 @@ Der Schlüssel ist zu verstehen, dass die Meldepflichten für Finanzkonten gelte
 
 **4. Nachvollziehbarkeit ist Ihre beste Verteidigung.** Wenn Ihr Finanzamt Sie jemals nach Ihrer LLC fragt, schützt Sie eine vollständige Dokumentation. Rechnungen, Ausschüttungen, Form 5472, Operating Agreement.
 
+Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href="/de/blog/optimale-steuerstruktur-fur-internationale-freelancer-das-vollstandige-framework">Optimale Steuerstruktur für internationale Freelancer: das vollständige Framework</a> schärft genau die Kanten, die wir oben nur angerissen haben.
+
 ## Wie wir es bei Exentax handhaben
 
 Wenn wir Ihre Struktur aufsetzen, stellen wir sicher, dass:

@@ -332,10 +332,12 @@ Follow this checklist every month to maintain clean separation:
 This routine takes 15 minutes per month and saves you hours of stress when Form 5472 preparation time arrives. At Exentax, we review your records as part of the annual filing process and flag any issues before they become problems.
 
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/your-first-month-with-a-us-llc-what-to-expect-week-by-week">Your first month with a US LLC: what to expect week by week</a> and <a href="/en/blog/how-to-avoid-account-freezes-at-mercury-wise-and-revolut">How to avoid account freezes at Mercury, Wise and Revolut</a>, which sharpen exactly the edges we skimmed above.
+
 ## Related articles
 
 - <a href="/en/blog/llc-legal-security-and-asset-protection-the-underrated-advantage">asset protection guide</a>
 - <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
 - <a href="/en/blog/how-to-run-your-llc-day-to-day-practical-guide-for-non-residents">day-to-day LLC operations guide</a>
-- <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
+- deductible expenses guide
 Book your strategic consultation and we'll show you exactly how to set up your financial structure from day one.`;

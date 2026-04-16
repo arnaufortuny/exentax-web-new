@@ -90,6 +90,8 @@ Si tu Operating Agreement no coincide con la información que proporcionas en la
 
 **Incluir información inconsistente.** Si el Operating Agreement dice una cosa y los Articles of Organization dicen otra (nombre de la LLC, dirección, miembros), se genera una inconsistencia que puede levantar banderas en due diligence bancario.
 
+Para seguir profundizando, <a href="/es/blog/por-que-abrir-llc-estados-unidos-ventajas">Por qué abrir una LLC en Estados Unidos: privacidad, seguridad y ventajas fiscales</a> y <a href="/es/blog/itin-ssn-que-son-como-obtenerlos">ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## Lo que deberías llevarte de este artículo
 
 El Operating Agreement es la columna vertebral legal de tu LLC, y su naturaleza privada es una ventaja que debes aprovechar. En Exentax lo preparamos como parte del proceso de constitución de tu LLC, sale de nuestras manos listo para presentar a Mercury, Stripe y cualquier entidad que lo solicite. Está adaptado para no residentes, con la clasificación fiscal correcta, las cláusulas de privacidad y la estructura que las entidades financieras necesitan. Agenda tu asesoría gratuita y nos aseguramos de que tu LLC tiene toda la documentación en orden desde el día uno.`;

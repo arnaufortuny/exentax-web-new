@@ -143,6 +143,8 @@ Más allá del ahorro fiscal, la LLC te abre el acceso a herramientas financiera
 
 Como autónomo en España, tu único "ecosistema" es el banco de siempre con sus comisiones, un TPV con condiciones mediocres y un asesor que te dice que no hay nada que hacer. Con una LLC y Exentax, tienes acceso a infraestructura financiera de primer nivel mundial.
 
+Para seguir profundizando, <a href="/es/blog/ventajas-desventajas-llc-no-residentes">Ventajas y desventajas de una LLC para no residentes: la verdad sin filtros</a> y <a href="/es/blog/por-que-no-abrir-empresa-estonia">Por qué no abrir una empresa en Estonia: la verdad sobre la e-Residency</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## En Exentax nos encargamos de todo
 
 Si decides dar el paso, en Exentax no solo constituimos tu LLC y obtenemos tu EIN, diseñamos tu estructura completa: apertura de cuenta bancaria, configuración de tesorería con Slash, tarjetas corporativas Wallester, integración con Stripe o la pasarela que necesites, y todo el compliance anual (Form 5472, BOI Report, renovación de agente registrado). No somos vendedores de LLCs: somos diseñadores de estructuras.

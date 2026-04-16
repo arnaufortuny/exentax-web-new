@@ -77,9 +77,11 @@ Independientemente de dónde vivas, hay principios que aplican siempre:
 
 **2. La documentación lo es todo.** Facturas, contratos, registros de gastos, distributions documentadas. Sin documentación, no hay deducción posible.
 
-**3. El compliance americano te protege.** Presentar el <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, mantener el <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> al día y operar con trazabilidad no solo cumple con el IRS, también demuestra ante tu hacienda local que tu estructura es legítima y transparente.
+**3. El compliance americano te protege.** Presentar el Form 5472, mantener el <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> al día y operar con trazabilidad no solo cumple con el IRS, también demuestra ante tu hacienda local que tu estructura es legítima y transparente.
 
 **4. Cada situación es diferente.** No existe una respuesta genérica. Tu carga fiscal final depende de tus ingresos, tus gastos, tu país, tu régimen y docenas de variables que solo se pueden analizar caso por caso.
+
+Un matiz que quedó corto y que conviene leer aparte: <a href="/es/blog/residentes-no-residentes-llc-diferencias">LLC para residentes y no residentes de EE.UU.: diferencias clave</a>, porque afina exactamente los bordes de lo explicado en esta guía.
 
 ## Por qué el asesoramiento especializado marca la diferencia
 

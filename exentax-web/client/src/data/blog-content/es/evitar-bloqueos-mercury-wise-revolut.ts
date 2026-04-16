@@ -68,6 +68,8 @@ Nuestra recomendación:
 
 Nunca dependas de una sola cuenta. Si una se bloquea temporalmente, necesitas poder seguir operando. Y con herramientas como Slash y Wallester complementando tu banca principal, tu operativa es más profesional y resiliente.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/iban-swift-routing-number-que-son">IBAN, SWIFT y Routing Number: qué son y cuándo usarlos</a> y <a href="/es/blog/cambiar-divisas-llc-mejores-opciones">Cómo cambiar divisas en tu LLC: las mejores opciones</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## Dato clave sobre cada plataforma
 
 - **Mercury** usa Column NA como banco custodio. Tus fondos tienen seguro FDIC hasta $250K por depositante. Los wires nacionales e internacionales son $0. Es una plataforma fintech seria, no un chiringuito.

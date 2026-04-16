@@ -234,6 +234,8 @@ Para asegurarte de que estás haciendo todo correctamente, revisa esta lista:
 - ✓ Form 5472 presentado correctamente cada año
 - ✓ Aportaciones de capital documentadas
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/primer-mes-llc-que-esperar">Tu primer mes con una LLC: qué esperar paso a paso</a> y <a href="/es/blog/evitar-bloqueos-mercury-wise-revolut">Cómo evitar bloqueos en Mercury, Wise y Revolut Business</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## Conclusión
 
 Separar tu dinero personal del dinero de tu LLC no es un detalle administrativo, es la base sobre la que se sostiene toda la protección legal y fiscal que tu LLC te ofrece. Sin separación financiera, tu LLC es solo un nombre en un papel.
@@ -242,4 +244,4 @@ La buena noticia es que implementar esta separación es sencillo si lo haces des
 
 En Exentax nos encargamos de que tu LLC esté correctamente estructurada desde el día uno, incluyendo la apertura de tu cuenta bancaria, la configuración de tu contabilidad y la presentación de todos los formularios ante el IRS. Si quieres asegurarte de que tu separación financiera es correcta, puedes agendar una asesoría gratuita donde revisamos tu situación sin compromiso.
 
-¿Quieres asegurarte de que tu LLC está bien separada desde el primer día? Agenda tu asesoría gratuita de 30 minutos y te ayudamos a configurar tu estructura correctamente. También te recomendamos leer nuestra <a href="/es/blog/como-operar-llc-dia-a-dia">guía práctica para operar tu LLC en el día a día</a> y nuestra guía sobre <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a>.`;
+¿Quieres asegurarte de que tu LLC está bien separada desde el primer día? Agenda tu asesoría gratuita de 30 minutos y te ayudamos a configurar tu estructura correctamente. También te recomendamos leer nuestra <a href="/es/blog/como-operar-llc-dia-a-dia">guía práctica para operar tu LLC en el día a día</a> y nuestra guía sobre gastos deducibles en tu LLC.`;

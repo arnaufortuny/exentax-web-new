@@ -71,6 +71,8 @@ Votre LLC américaine est votre passeport vers des marchés auparavant fermés :
 - **SaaS global**: Vendez des abonnements à des clients de n'importe quel pays
 - **Programmes de partenaires**: De nombreux programmes d'affiliation et de partenariat n'acceptent que des entreprises américaines
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/ach-vs-virement-delais-de-paiement-et-impact-sur-la-tresorerie-de-votre-llc">ACH vs virement : délais de paiement et impact sur la trésorerie de votre LLC</a> et <a href="/fr/blog/vendre-sur-amazon-avec-votre-llc-guide-complet-pour-vendeurs-internationaux">Vendre sur Amazon avec votre LLC : guide complet pour vendeurs internationaux</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Le moment de passer à l'action
 
 Si vous facturez régulièrement, si vous avez des clients internationaux et si vous sentez que votre structure actuelle vous limite, vous savez ce qu'il vous reste à faire.

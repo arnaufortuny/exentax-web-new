@@ -102,6 +102,8 @@ Avec une LLC au Wyoming, le créancier ne peut obtenir qu'une **charging order**
 
 Dans la pratique, cela signifie que si vous ne faites pas de distributions, le créancier ne reçoit rien. Votre LLC et ses actifs restent intacts. C'est comme un coffre-fort que personne d'autre ne peut ouvrir.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/problemes-courants-llc-et-comment-les-eviter-lecons-de-vrais-clients">Problèmes courants LLC et comment les éviter : leçons de vrais clients</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## La sécurité juridique comme investissement
 
 Pensez à la protection patrimoniale comme une assurance : vous espérez ne jamais en avoir besoin, mais si vous en avez besoin, elle vaut chaque centime. Le boulanger du quartier n'a probablement pas besoin d'une LLC. Mais vous, qui opérez à l'international, gérez des contrats avec des clients de plusieurs pays et transférez de l'argent entre juridictions. vous, oui.

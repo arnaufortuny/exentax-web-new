@@ -130,6 +130,8 @@ La règle des 183 jours est le critère principal, mais pas le seul. C'est pourq
 6. **Croire que ne pas être résident nulle part est une option.** Ce n'est pas le cas. Vous serez toujours résident fiscal dans un pays, et si vous ne choisissez pas, c'est automatiquement le système fiscal de votre pays d'origine qui décide.
 7. **Ne pas prendre en compte les CDI.** Les conventions de double imposition peuvent vous faire économiser des milliers d'euros si vous les connaissez et les appliquez.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/peut-on-payer-0-dimpots-legalement-la-verite-sur-loptimisation-fiscale">Peut-on payer 0% d'impôts légalement ? La vérité sur l'optimisation fiscale</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Par où commencer ?
 
 Si vous êtes nomade digital (ou si vous envisagez de le devenir), la séquence idéale est :

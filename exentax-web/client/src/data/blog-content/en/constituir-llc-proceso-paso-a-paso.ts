@@ -120,6 +120,8 @@ We handle the entire formation process from start to finish. You give us your pa
 7. **We leave you operational**: ready to invoice, collect, and start working
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/common-llc-problems-and-how-to-avoid-them-lessons-from-real-clients">Common LLC problems and how to avoid them: lessons from real clients</a> and <a href="/en/blog/ein-tax-number-for-your-llc-how-to-get-it">EIN: what is your LLC's tax number and how to get it step by step</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## Related articles
 
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>

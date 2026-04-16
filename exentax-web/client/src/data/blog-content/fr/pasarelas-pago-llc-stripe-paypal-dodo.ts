@@ -101,6 +101,8 @@ Freelances qui veulent une solution tout-en-un de banking et comptabilité sans 
 | Dodo Payments | Variable | Variable | Ventes mondiales avec gestion de TVA automatique |
 | Lili (néobanque) | Inclus | Inclus | Freelances qui veulent banking + comptabilité tout-en-un |
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/confidentialite-avec-une-llc-americaine-ce-qui-est-vraiment-prive-et-ce-qui-ne-l">Confidentialité avec une LLC américaine : ce qui est vraiment privé et ce qui ne l'est pas</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## De quoi ai-je besoin pour les configurer ?
 
 Pour vérifier votre LLC auprès de n'importe quelle passerelle de paiement, vous avez besoin de :

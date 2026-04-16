@@ -142,6 +142,8 @@ Tax laws evolve. The LLC structure is flexible enough to adapt. If your country 
 Yes. Depending on your country and situation, the LLC can be combined with tax residency planning, treaty optimization, retirement account strategies, and other legitimate approaches. We discuss all options during the consultation.
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/10-tax-mistakes-spanish-freelancers-make-and-how-to-avoid-them">10 tax mistakes Spanish freelancers make (and how to avoid them)</a> helps round off the context.
+
 ## Related articles
 
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>

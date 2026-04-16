@@ -107,6 +107,8 @@ This information is available to the IRS and, under certain circumstances, can b
 We serve as the buffer between you and the IRS. All communication, all filings, all deadlines. handled by us. You never need to call the IRS, navigate their website, or mail a form. We handle Form 7004 (automatic extension), Form 5472 + 1120 (annual filing), FBAR (if applicable), and respond to any IRS notices on your behalf.
 
 
+If something in this structure left you wanting more detail, <a href="/en/blog/us-llc-for-digital-marketing-agencies-structure-billing-and-scaling">US LLC for digital marketing agencies: structure, billing and scaling</a> and <a href="/en/blog/us-llc-for-software-developers-and-saas-founders-the-complete-guide">US LLC for software developers and SaaS founders: the complete guide</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## Related articles
 
 - <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>

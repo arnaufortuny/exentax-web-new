@@ -118,9 +118,11 @@ No. Form 7004 provides a maximum 6-month extension. If you need more time due to
 | **December** | Year-end review + planning | Exentax |
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/10-tax-mistakes-spanish-freelancers-make-and-how-to-avoid-them">10 tax mistakes Spanish freelancers make (and how to avoid them)</a> helps round off the context.
+
 ## Related articles
 
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
 - <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>
 - <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual maintenance guide</a>

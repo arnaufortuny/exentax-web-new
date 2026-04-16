@@ -82,6 +82,8 @@ Anem a ser honestos amb els desavantatges, però també realistes:
 - **"Pot haver-hi bloquejos bancaris"** → Només si operes malament. Amb bona documentació i coherència, els bloquejos són raríssims. I nosaltres t'assessorem per prevenir-los.
 - **"Segueixes pagant impostos al teu país"** → Sí, però amb una base imposable optimitzada gràcies a les despeses deduïbles de la LLC. L'impost federal als EUA és 0%.
 
+Per tancar, lectures relacionades que encaixen al costat d'aquest article: <a href="/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa">Autònom a Espanya vs LLC als EUA: comparativa fiscal completa</a> i <a href="/ca/blog/per-que-no-obrir-una-empresa-a-estonia-la-llc-americana-guanya-per-a-la-majoria">Per què no obrir una empresa a Estònia: la LLC americana guanya per a la majoria</a> ajuden a arrodonir el context.
+
 ## La clau: analitza ABANS de decidir
 
 No constitueixis una LLC perquè vas veure un reel d'Instagram que et prometia pagar 0% d'impostos. Analitza la teva situació real: ingressos, tipus de clients, país de residència, plans a mig termini.

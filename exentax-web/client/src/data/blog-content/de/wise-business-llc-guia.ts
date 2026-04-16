@@ -85,6 +85,8 @@ Wise nimmt eine spezifische Rolle in Ihrem Finanz-Stack ein:
 
 Jedes Tool hat seine Funktion. Der häufigste Fehler ist zu versuchen, dass eine einzige Plattform alles macht. Das Ergebnis ist immer, mehr an versteckten Gebühren zu zahlen oder einen schlechteren Wechselkurs zu bekommen.
 
+Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href="/de/blog/llc-im-alltag-betreiben-leitfaden-fur-nicht-residenten">LLC im Alltag betreiben: Leitfaden für Nicht-Residenten</a> schärft genau die Kanten, die wir oben nur angerissen haben.
+
 ## Praxisbeispiele
 
 **Freiberufler in Spanien, der in USD fakturiert:** Ihr amerikanischer Kunde zahlt per ACH auf Ihr Mercury-Konto. Am Monatsende überweisen Sie Ihre Ausschüttung auf Wise, konvertieren in EUR zum Realkurs und senden per SEPA auf Ihr spanisches Konto. Gesamtkosten der Konvertierung: 0,4-0,6%. Mit einer traditionellen Bank würden Sie 2-3% zahlen.

@@ -92,6 +92,8 @@ Mit einer LLC können Sie als Betriebsausgaben alles absetzen, was "gewöhnlich 
 
 **Differenz:** 11.800 €/Jahr mehr in Ihrer Tasche. Jedes Jahr. Und die Differenz wächst, je mehr Sie fakturieren.
 
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/steuern-mit-internationalen-kunden-in-spanien-was-niemand-ihnen-sagt">Steuern mit internationalen Kunden in Spanien: Was niemand Ihnen sagt</a> und <a href="/de/blog/kryptowahrungen-und-trading-mit-llc-vollstandiger-steuerleitfaden">Kryptowährungen und Trading mit LLC: vollständiger Steuerleitfaden</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+
 ## Der Selbstständigenbeitrag: die absurdeste Steuer Spaniens
 
 Dies verdient eine eigene Erwähnung: Der Selbstständigenbeitrag ist eine feste Abgabe, die Sie zahlen, **ob Sie fakturieren oder nicht**. Mit dem neuen einkommensabhängigen Beitragssystem (2023) steigt der Beitrag, wenn es Ihnen gut geht. Es ist das einzige Steuersystem der Welt, das Sie für Erfolg bestraft.

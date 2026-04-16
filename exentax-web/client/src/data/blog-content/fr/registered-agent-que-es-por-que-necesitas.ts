@@ -77,6 +77,8 @@ Si votre Registered Agent change d'adresse (ou disparaît), cette incohérence p
 
 **La leçon :** le Registered Agent n'est pas seulement un récepteur de courrier. C'est un nœud dans le réseau d'identité de votre LLC. Chaque entité. État, IRS, banque. s'attend à voir la même adresse.
 
+Quelques lectures voisines à garder sous la main : <a href="/fr/blog/llc-americaine-pour-createurs-de-contenu-youtube-twitch-et-au-dela">LLC américaine pour créateurs de contenu : YouTube, Twitch et au-delà</a> et <a href="/fr/blog/combien-coute-la-creation-dune-llc-americaine-decomposition-complete-des-couts">Combien coûte la création d'une LLC américaine ? Décomposition complète des coûts</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+
 ## Comment nous le gérons chez Exentax
 
 Nous travaillons avec des agents enregistrés professionnels dans chaque État :

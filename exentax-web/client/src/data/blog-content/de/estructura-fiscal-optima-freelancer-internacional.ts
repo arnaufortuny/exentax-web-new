@@ -79,6 +79,8 @@ Der Schlüssel zur Steueroptimierung mit einer LLC liegt in ihrer Klassifizierun
 4. **Richten Sie Ihre Infrastruktur ein**: Bankkonto, Zahlungsgateway, Buchhaltung
 5. **Migrieren Sie schrittweise**: Sie müssen nicht alles auf einmal übertragen
 
+Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href="/de/blog/internationale-besteuerung-fur-digitale-unternehmer-vollstandiger-leitfaden">Internationale Besteuerung für digitale Unternehmer: vollständiger Leitfaden</a> schärft genau die Kanten, die wir oben nur angerissen haben.
+
 ## Der optimale Finanz-Stack für internationale Freiberufler
 
 Die Gewinnerkombination, die wir für die Mehrheit unserer Kunden einsetzen:

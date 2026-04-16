@@ -85,6 +85,8 @@ La informació del BOI Report no és pública. FinCEN la manté en una base de d
 
 El teu nom, adreça i document d'identitat no apareixen en cap registre públic per culpa del BOI Report. És informació confidencial del govern federal.
 
+Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber">Compliment AML per a la teva LLC: el que has de saber</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+
 ## Com ho gestionem a Exentax
 
 El BOI Report està inclòs en els nostres serveis de constitució i manteniment:

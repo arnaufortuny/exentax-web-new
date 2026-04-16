@@ -23,11 +23,11 @@ export default `Desenhar uma estrutura internacional não é escolher o país ma
 
   ## Passo 5: Banking stack
 
-  Principal: Mercury/Relay (US) — <a href="/pt/blog/como-abrir-uma-conta-mercury-para-sua-llc-de-qualquer-pais">Mercury</a>. Secundária: Wise/Revolut — <a href="/pt/blog/wise-business-e-crs-o-que-e-reportado-a-sua-autoridade-fiscal">Wise</a> e <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade-fiscal">Revolut</a>. Cartões: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — <a href="/pt/blog/gateways-de-pagamento-para-sua-llc-stripe-paypal-e-dodo-comparados">gateways</a>. Tesouraria: Slash/Mercury Treasury/IBKR.
+  Principal: Mercury/Relay (US) — Mercury. Secundária: Wise/Revolut — <a href="/pt/blog/wise-business-e-crs-o-que-e-reportado-a-sua-autoridade-fiscal">Wise</a> e <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade-fiscal">Revolut</a>. Cartões: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo — <a href="/pt/blog/gateways-de-pagamento-para-sua-llc-stripe-paypal-e-dodo-comparados">gateways</a>. Tesouraria: Slash/Mercury Treasury/IBKR.
 
   ## Passo 6: Compliance e revisão contínua
 
-  **EUA**: Form 5472 + 1120, BOI, Annual Report — <a href="/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir">Form 5472</a>, <a href="/pt/blog/relatorio-boi-2026-guia-completo-para-o-deposito-de-beneficial-ownership-junto-a">BOI</a>, <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual</a>.
+  **EUA**: Form 5472 + 1120, BOI, Annual Report — Form 5472, <a href="/pt/blog/relatorio-boi-2026-guia-completo-para-o-deposito-de-beneficial-ownership-junto-a">BOI</a>, <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual</a>.
   **Espanha (residente)**: IRPF, IVA, Modelo 720, 721, 100/130, 238 (DAC7).
   **LATAM**: por país.
   **Revisão anual**: residência, substância, stack, normas novas.
@@ -58,4 +58,7 @@ export default `Desenhar uma estrutura internacional não é escolher o país ma
 
   Estrutura sólida = processo, não atalho. Bem desenhada reduz substancialmente a carga fiscal **dentro** da lei.
 
-  Marque a sua consulta gratuita.`;
+  Marque a sua consulta gratuita.
+
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade-fiscal-a-resposta-hones">As contas bancárias americanas reportam à sua autoridade fiscal? A resposta honesta</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+`;

@@ -129,6 +129,8 @@ Un freelancer típico con una LLC suele tener entre **$5,000 y $20,000** en gast
 
 Ejemplo práctico: si facturas $60,000/año y tienes $15,000 en gastos deducibles, solo declaras $45,000 de beneficio en tu país. Si tu tipo efectivo es del 20%, eso son **$3,000 menos de impuestos** solo por documentar correctamente tus gastos. Cada factura de software, cada curso, cada membresía de coworking te está ahorrando dinero.
 
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/pagar-cero-impuestos-legalmente-llc">¿Se puede pagar 0% de impuestos legalmente? La verdad sobre la optimización fiscal</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
+
 ## En Exentax te ayudamos con esto
 
 Parte de nuestro servicio de mantenimiento incluye orientación sobre qué gastos puedes deducir y cómo documentarlos correctamente. No te dejamos solo con una lista, te acompañamos para que maximices tus deducciones sin problemas.

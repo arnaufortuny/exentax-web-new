@@ -77,6 +77,8 @@ Si el teu Registered Agent canvia d'adreça (o desapareix), aquesta inconsistèn
 
 **La lliçó:** el Registered Agent no és només un receptor de correu. És un node a la xarxa d'identitat de la teva LLC. Cada entitat. estat, IRS, banc. espera veure la mateixa adreça.
 
+Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/llc-americana-per-a-creadors-de-contingut-youtube-twitch-i-mes">LLC americana per a creadors de contingut: YouTube, Twitch i més</a> i <a href="/ca/blog/quant-costa-constituir-una-llc-americana-analisi-completa-dels-costos">Quant costa constituir una LLC americana? Anàlisi completa dels costos</a>, que afinen precisament els marges del que explica aquesta guia.
+
 ## Com ho gestionem a Exentax
 
 Treballem amb agents registrats professionals a cada estat:

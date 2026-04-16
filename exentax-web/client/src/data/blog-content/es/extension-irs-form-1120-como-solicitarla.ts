@@ -1,4 +1,4 @@
-export default `Si tienes una LLC en Estados Unidos, cada año debes presentar el Form 1120 (junto con el <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>) antes del 15 de abril. Pero aquí va una noticia que te va a encantar: puedes extender ese plazo 6 meses completos, hasta el 15 de octubre, sin dar explicaciones. Así de fácil.
+export default `Si tienes una LLC en Estados Unidos, cada año debes presentar el Form 1120 (junto con el Form 5472) antes del 15 de abril. Pero aquí va una noticia que te va a encantar: puedes extender ese plazo 6 meses completos, hasta el 15 de octubre, sin dar explicaciones. Así de fácil.
 
 ¿Cómo? Con el Form 7004. Y en Exentax lo presentamos automáticamente por todos nuestros clientes, porque es lo más inteligente que puedes hacer.
 
@@ -91,6 +91,8 @@ Antes del 15 de abril, nos aseguramos de que tu extensión esté presentada. Des
 | Pago de impuestos | Debe hacerse antes del 15 de abril (generalmente $0 para LLCs de no residentes) |
 | Presentación | Electrónica o por correo |
 | Frecuencia | Cada año, sin límite |
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/errores-fiscales-freelancers-espanoles">10 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)</a> es una pieza útil para terminar de contextualizar el escenario.
 
 ## ¿Tienes dudas?
 

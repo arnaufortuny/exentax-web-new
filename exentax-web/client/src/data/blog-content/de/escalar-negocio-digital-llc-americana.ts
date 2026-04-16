@@ -71,6 +71,8 @@ Ihre amerikanische LLC ist Ihr Pass zu Märkten, die zuvor verschlossen waren:
 - **Globales SaaS**: Verkaufen Sie Abonnements an Kunden aus jedem Land
 - **Partner-Programme**: Viele Affiliate- und Partner-Programme akzeptieren nur amerikanische Unternehmen
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/ach-vs-bankuberweisung-zahlungsfristen-und-auswirkungen-auf-den-llc-cashflow">ACH vs Banküberweisung: Zahlungsfristen und Auswirkungen auf den LLC-Cashflow</a> und <a href="/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger-leitfaden">Auf Amazon verkaufen mit Ihrer US LLC: vollständiger Leitfaden</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Der richtige Moment für den Schritt
 
 Wenn Sie regelmäßig Umsätze erzielen, internationale Kunden haben und spüren, dass Ihre aktuelle Struktur Sie einschränkt, wissen Sie bereits, was zu tun ist.

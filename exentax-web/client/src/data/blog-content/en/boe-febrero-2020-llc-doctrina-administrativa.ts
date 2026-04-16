@@ -87,4 +87,7 @@ export default `If you are a Spanish tax resident and you have a <a href="/en/bl
 
   Spanish administrative doctrine on the US LLC is very specific: in the typical single-member LLC case, the result is imputed to the Spanish-resident partner as economic activity in the general base. This requires serious planning, not improvisation. Good news: well-designed, an LLC remains an excellent tool to internationalize your business and legally optimize your global tax burden.
 
-  Want to review your case in light of current doctrine and design the most efficient structure for your situation? Book your free consultation.`;
+  Want to review your case in light of current doctrine and design the most efficient structure for your situation? Book your free consultation.
+
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/international-taxation-for-digital-entrepreneurs-the-complete-guide">International taxation for digital entrepreneurs: the complete guide</a> helps round off the context.
+`;

@@ -71,6 +71,8 @@ Sua LLC americana é seu passaporte para mercados que antes estavam fechados:
 - **SaaS global**: Venda assinaturas a clientes de qualquer país
 - **Programas de parceiros**: Muitos programas de afiliados e parceiros só aceitam empresas americanas
 
+Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/ach-vs-transferencia-bancaria-prazos-de-pagamento-e-impacto-no-fluxo-de-caixa-da">ACH vs transferência bancária: prazos de pagamento e impacto no fluxo de caixa da LLC</a> e <a href="/pt/blog/vender-na-amazon-com-sua-llc-americana-guia-completo">Vender na Amazon com sua LLC americana: guia completo</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
+
 ## O momento de dar o passo
 
 Se você está faturando regularmente, tem clientes internacionais e sente que sua estrutura atual o limita, já sabe o que precisa fazer.

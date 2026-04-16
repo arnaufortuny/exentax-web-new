@@ -65,6 +65,8 @@ La nostra recomanació:
 
 Mai depenguis d'un sol compte. Si un es bloqueja temporalment, necessites poder seguir operant.
 
+Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <a href="/ca/blog/iban-swift-i-routing-number-entendre-els-codis-bancaris-internacionals">IBAN, SWIFT i routing number: entendre els codis bancaris internacionals</a> i <a href="/ca/blog/canviar-divises-per-a-la-teva-llc-millors-opcions-i-com-evitar-les-comissions-oc">Canviar divises per a la teva LLC: millors opcions i com evitar les comissions ocultes</a> aprofundeixen en peces veïnes que normalment reservem per a articles a part.
+
 ## Dada clau sobre cada plataforma
 
 - **Mercury** utilitza Column NA com a banc custodi. Els teus fons tenen assegurança FDIC fins a $250K per dipositant. Els wires nacionals i internacionals són $0. És una plataforma fintech seriosa, no un xiringuito.

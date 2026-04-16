@@ -84,6 +84,8 @@ El mercado de Registered Agents está lleno de opciones a tarifas muy reducidas.
 
 **Upselling agresivo.** Te cobran una tarifa muy baja por el Registered Agent y luego intentan venderte Annual Report filing, compliance monitoring y mail forwarding como extras. Al final pagas más que con un servicio integrado.
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/llc-creadores-contenido-youtube-twitch">LLC para creadores de contenido: YouTube, Twitch, podcasts y redes sociales</a> y <a href="/es/blog/cuanto-cuesta-constituir-llc">¿Cuánto cuesta constituir una LLC? (Y no, no se "crea", se constituye)</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## Registered Agent y tu cuenta bancaria: la conexión invisible
 
 Cuando solicitas tu cuenta en Mercury, uno de los datos que proporcionas es la dirección de tu LLC. Para no residentes, esa dirección suele ser la del Registered Agent. Mercury (y otras entidades financieras) hacen due diligence sobre esa dirección.

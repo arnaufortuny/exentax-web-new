@@ -36,4 +36,7 @@ export default `Der **Common Reporting Standard (CRS)** ist die wichtigste inter
 
   CRS wird nicht "vermieden", sondern geplant. Eine US-LLC bleibt extrem nützlich; Banking-Stack und Steuerdomizil bestimmen die Informationsspur.
 
-  Möchten Sie Ihren Fall analysieren lassen? Vereinbaren Sie Ihre kostenlose Beratung.`;
+  Möchten Sie Ihren Fall analysieren lassen? Vereinbaren Sie Ihre kostenlose Beratung.
+
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us-llc-aufgeben">Warum spanische Freelancer die Selbstständigkeit für eine US LLC aufgeben</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+`;

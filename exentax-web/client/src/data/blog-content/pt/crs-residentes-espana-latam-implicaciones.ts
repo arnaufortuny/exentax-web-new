@@ -36,4 +36,7 @@ export default `O **Common Reporting Standard (CRS)** é a peça mais importante
 
   CRS planeia-se, não se evita. Uma LLC continua extraordinariamente útil; o desenho do banking stack e a residência determinam a coerência informacional.
 
-  Marque a sua consulta gratuita.`;
+  Marque a sua consulta gratuita.
+
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho-autonomo-por-uma-llc-ame">Por que freelancers espanhóis estão deixando o trabalho autônomo por uma LLC americana</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+`;

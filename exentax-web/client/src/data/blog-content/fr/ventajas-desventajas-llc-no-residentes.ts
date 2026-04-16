@@ -82,6 +82,8 @@ Soyons honnêtes avec les inconvénients, mais aussi réalistes :
 - **« Il peut y avoir des blocages bancaires »** → Seulement si vous opérez mal. Avec une bonne documentation et de la cohérence, les blocages sont extrêmement rares. Et nous vous conseillons pour les prévenir.
 - **« Vous continuez à payer des impôts dans votre pays »** → Oui, mais avec une base imposable optimisée grâce aux charges déductibles de la LLC. L'impôt fédéral aux États-Unis est de 0%.
 
+Pour refermer, quelques lectures connexes qui s'inscrivent dans le prolongement de ce papier : <a href="/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis-comparaison-fiscale">Auto-entrepreneur en Espagne vs LLC aux États-Unis : comparaison fiscale</a> et <a href="/fr/blog/pourquoi-ne-pas-ouvrir-une-entreprise-en-estonie-la-llc-americaine-lemporte">Pourquoi ne pas ouvrir une entreprise en Estonie : la LLC américaine l'emporte</a> aident à parachever le contexte.
+
 ## La clé : analysez AVANT de décider
 
 Ne constituez pas une LLC parce que vous avez vu un reel Instagram qui vous promettait de payer 0% d'impôts. Analysez votre situation réelle : revenus, type de clients, pays de résidence, projets à moyen terme.

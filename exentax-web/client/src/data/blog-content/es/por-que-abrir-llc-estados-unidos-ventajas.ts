@@ -63,7 +63,7 @@ El ecosistema bancario y fintech de Estados Unidos es, probablemente, el mejor d
 
 ### Bancos y plataformas disponibles:
 
-**<a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a> (respaldado por Column NA)**
+**Mercury (respaldado por Column NA)**
 - Sin comisiones mensuales ni mínimos de saldo
 - Transferencias wire nacionales e internacionales sin coste
 - Tarjetas de débito virtuales y físicas
@@ -109,7 +109,7 @@ Para una Single-Member LLC con propietario no residente y sin ingresos de fuente
 - **Impuesto federal sobre la renta: $0**
 - La LLC es una Disregarded Entity (entidad transparente fiscalmente)
 - Los ingresos "pasan" al propietario (tributación pass-through)
-- **Obligaciones informativas:** Form 1120 + <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, fecha límite 15 de abril (con <a href="/es/blog/extension-irs-form-1120-como-solicitarla">extensión hasta 15 de octubre mediante Form 7004</a>)
+- **Obligaciones informativas:** Form 1120 + Form 5472, fecha límite 15 de abril (con <a href="/es/blog/extension-irs-form-1120-como-solicitarla">extensión hasta 15 de octubre mediante Form 7004</a>)
 - **<a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>:** reporte de beneficiarios finales ante FinCEN
 - **Annual Report estatal:** dependiendo del estado (Nuevo México no lo requiere)
 
@@ -171,15 +171,17 @@ Constituir y mantener una LLC no tiene por qué ser complicado. En Exentax gesti
 
 - **Constitución de la LLC** en el estado que mejor encaje contigo
 - **Obtención del EIN** ante el IRS
-- **Apertura de cuenta bancaria** en <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a> o Relay
+- **Apertura de cuenta bancaria** en Mercury o Relay
 - **Preparación del <a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a>**
-- **Declaraciones anuales** (Form 1120, <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, Form 7004)
+- **Declaraciones anuales** (Form 1120, Form 5472, Form 7004)
 - **<a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>** ante FinCEN
 - **Annual Report estatal** (donde aplique)
 - **Agente registrado** incluido
 - **Soporte continuo** durante todo el año
 
 No subcontratamos, no delegamos en terceros, no usamos plantillas genéricas. Cada LLC que constituimos tiene nuestra atención directa.
+
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/documentos-llc-cuales-necesitas">Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
 
 ## ¿Tiene sentido para ti?
 

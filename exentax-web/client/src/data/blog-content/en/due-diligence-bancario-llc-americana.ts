@@ -124,6 +124,8 @@ We also coordinate verification for each additional tool: Slash, Wallester, Wise
 4. Reduce chargeback rate to below 1% to prevent future issues
 5. Contact Stripe support through Dashboard (not phone/email)
 
+One adjacent read worth having open alongside this one: <a href="/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need-to-know">Anti-money laundering compliance for your LLC: what you need to know</a>, which sharpens exactly the edges we skimmed above.
+
 ## The prevention matrix
 
 | Risk factor | Low risk | Medium risk | High risk |

@@ -92,6 +92,8 @@ Avant le 15 avril, nous nous assurons que votre prolongation est déposée. Ensu
 | Dépôt | Électronique ou par courrier |
 | Fréquence | Chaque année, sans limite |
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/10-erreurs-fiscales-des-freelancers-espagnols-et-comment-les-eviter">10 erreurs fiscales des freelancers espagnols (et comment les éviter)</a> aide à parachever le contexte.
+
 ## Vous avez des questions ?
 
 Si vous venez de créer votre LLC ou si c'est votre premier exercice fiscal, il est normal d'avoir des questions sur les délais et les formulaires. Chez Exentax, nous nous occupons de tout. de la prolongation à la déclaration finale. Prenez rendez-vous pour une consultation gratuite et nous vous expliquerons exactement ce dont vous avez besoin et quand.`;

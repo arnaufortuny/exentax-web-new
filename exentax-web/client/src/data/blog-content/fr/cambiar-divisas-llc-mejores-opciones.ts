@@ -78,6 +78,8 @@ Ce flux minimise les commissions et maximise le taux de change.
 | Banque traditionnelle | Avec marge | 15-50 $ + intermédiaires | 3-5% |
 | PayPal conversion | Avec marge 3-4% | Variable | 4-6% |
 
+Quelques lectures voisines à garder sous la main : <a href="/fr/blog/iban-swift-et-routing-numbers-comprendre-les-codes-bancaires-internationaux">IBAN, SWIFT et routing numbers : comprendre les codes bancaires internationaux</a> et <a href="/fr/blog/vendre-sur-amazon-avec-votre-llc-guide-complet-pour-vendeurs-internationaux">Vendre sur Amazon avec votre LLC : guide complet pour vendeurs internationaux</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+
 ## Conseils pour économiser sur le change de devises
 
 - **Regroupez vos retraits**: faites un ou deux gros virements par mois au lieu de plusieurs petits

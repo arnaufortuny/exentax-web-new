@@ -108,6 +108,8 @@ Agencies have unique cash flow patterns: you collect client retainers, but also 
 
 This separation makes accounting clean, Form 5472 simple, and client trust maintained.
 
+A couple of adjacent reads worth having open alongside this one: <a href="/en/blog/us-llc-for-content-creators-youtube-twitch-and-beyond">US LLC for content creators: YouTube, Twitch and beyond</a> and <a href="/en/blog/what-is-the-irs-and-how-does-it-affect-your-us-llc">What is the IRS and how does it affect your US LLC?</a>, which sharpen exactly the edges we skimmed above.
+
 ## Agency growth milestones with your LLC
 
 | Revenue | Next step |

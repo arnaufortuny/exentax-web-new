@@ -99,6 +99,8 @@ Os erros mais comuns quando as pessoas fazem sozinhas:
 
 Cada erro custa semanas de atraso e, em alguns casos, dinheiro.
 
+Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/problemas-comuns-da-llc-e-como-evita-los-licoes-de-clientes-reais">Problemas comuns da LLC e como evitá-los: lições de clientes reais</a> e <a href="/pt/blog/ein-o-que-e-o-numero-fiscal-da-sua-llc-e-como-obte-lo">EIN: o que é o número fiscal da sua LLC e como obtê-lo</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
+
 ## Com a Exentax, você não faz nada (literalmente)
 
 Na Exentax cuidamos de todo o processo de constituição do início ao fim. Você nos dá seu passaporte, nos diz como quer que sua LLC se chame, e nós fazemos o resto:

@@ -109,6 +109,8 @@ A Merchant of Record is a company that becomes the legal seller of your product 
 - Physical goods (requires different logistics)
 - Selling only to clients in your own country
 
+Closing out, here are related pieces that sit naturally next to this article: <a href="/en/blog/taxes-with-international-clients-in-spain-what-nobody-tells-you">Taxes with international clients in Spain: what nobody tells you</a> and <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the-honest-answer">Do US bank accounts report to your home tax authority? The honest answer</a> help round off the context.
+
 ## VAT rates reference (digital services)
 
 | Country/Region | Standard VAT rate | Digital services rate | Notes |

@@ -78,6 +78,8 @@ Aquest flux minimitza les comissions i maximitza el tipus de canvi.
 | Banc tradicional | Amb marge | $15-50 + intermediaris | 3-5% |
 | PayPal conversió | Amb marge 3-4% | Variable | 4-6% |
 
+Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/iban-swift-i-routing-number-entendre-els-codis-bancaris-internacionals">IBAN, SWIFT i routing number: entendre els codis bancaris internacionals</a> i <a href="/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa">Vendre a Amazon amb la teva LLC americana: guia completa</a>, que afinen precisament els marges del que explica aquesta guia.
+
 ## Consells per estalviar en canvi de divises
 
 - **Consolida les teves retirades**: fes una o dues transferències grans al mes en lloc de moltes petites

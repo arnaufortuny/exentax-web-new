@@ -83,6 +83,8 @@ Independentment d'on visquis, hi ha principis que s'apliquen sempre:
 
 **4. Cada situació és diferent.** No existeix una resposta genèrica. La teva càrrega fiscal final depèn dels teus ingressos, les teves despeses, el teu país, el teu règim i dotzenes de variables que només es poden analitzar cas per cas.
 
+Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/resident-eua-vs-no-resident-llc-les-diferencies-fiscals-clau">Resident EUA vs no resident LLC: les diferències fiscals clau</a>, que afina precisament els marges del que explica aquesta guia.
+
 ## Per què l'assessorament especialitzat marca la diferència
 
 A YouTube i Twitter trobaràs milers de persones dient "amb una LLC pagues 0% d'impostos". És una simplificació perillosa. Pagues 0% d'impost **federal als EUA**: però segueixes tenint obligacions al teu país de residència.

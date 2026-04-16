@@ -172,6 +172,8 @@ Die e-Residency Estlands ist zu einem brillanten Marketingprodukt geworden. Eine
 
 Aber die Zahlen lügen nicht. Wenn man die Kosten für Pflichtbuchhaltung, die Steuer auf Ausschüttungen, die USt.-Verwaltung und die Einschränkungen im Bankwesen zusammenrechnet. ist die estnische OÜ teurer, bürokratischer und steuerlich weniger effizient als eine amerikanische LLC für die überwiegende Mehrheit der Freiberufler und digitalen Selbstständigen im deutschsprachigen Raum.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/vor-und-nachteile-einer-us-llc-fur-nicht-residenten-ehrliche-analyse">Vor- und Nachteile einer US LLC für Nicht-Residenten: ehrliche Analyse</a> und <a href="/de/blog/new-mexico-vs-wyoming-vs-delaware-welchen-bundesstaat-fur-ihre-llc">New Mexico vs Wyoming vs Delaware: Welchen Bundesstaat für Ihre LLC</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Bei Exentax geben wir Ihnen die Struktur, die wirklich funktioniert
 
 Wir verkaufen weder heiße Luft noch Modetrends. Wir entwerfen Steuerstrukturen auf Basis der geltenden Gesetzgebung, mit realen Zahlen und vollständiger Compliance.

@@ -175,6 +175,8 @@ A e-Residency da Estónia tornou-se num produto de marketing brilhante. Um gover
 
 Mas os números não mentem. Quando soma os custos de contabilidade obrigatória, o imposto sobre distribuições, a gestão de IVA, e as limitações bancárias, a OÜ estoniana é mais cara, mais burocrática e fiscalmente menos eficiente do que uma LLC americana para a imensa maioria dos trabalhadores independentes/autônomos e empreendedores digitais de língua hispana e portuguesa.
 
+Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/vantagens-e-desvantagens-de-uma-llc-americana-para-nao-residentes-analise-honest">Vantagens e desvantagens de uma LLC americana para não residentes: análise honesta</a> e <a href="/pt/blog/novo-mexico-vs-wyoming-vs-delaware-qual-estado-para-sua-llc">Novo México vs Wyoming vs Delaware: qual estado para sua LLC</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
+
 ## Na Exentax damos-lhe a estrutura que realmente funciona
 
 Não vendemos fumo nem modas. Desenhamos estruturas fiscais baseadas na legislação vigente, com números reais e compliance total.

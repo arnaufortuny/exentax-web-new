@@ -118,9 +118,11 @@ The key takeaway: your ownership is private from **casual searches, competitors,
 5. **Asset protection:** Combined with the LLC shield, privacy adds another layer of protection
 
 
+To keep going on this thread, <a href="/en/blog/nominee-owners-for-llcs-why-it-is-illegal-and-the-risks-you-take">Nominee owners for LLCs: why it is illegal and the risks you take</a> fills in a nuance this guide only touched on.
+
 ## Related articles
 
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
 - <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
 - <a href="/en/blog/wise-business-with-your-llc-the-complete-guide-to-multi-currency-management">Wise Business guide</a>

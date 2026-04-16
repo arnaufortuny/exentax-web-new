@@ -82,6 +82,8 @@ Le **nexus** est le concept qui détermine si vous devez facturer le Sales Tax d
 - Pas d'inventaire, pas de risque
 - Idéal pour les créateurs de contenu qui veulent du merch
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/iban-swift-et-routing-numbers-comprendre-les-codes-bancaires-internationaux">IBAN, SWIFT et routing numbers : comprendre les codes bancaires internationaux</a> et <a href="/fr/blog/comment-developper-votre-activite-numerique-avec-une-llc-americaine">Comment développer votre activité numérique avec une LLC américaine</a> complètent les nuances que nous n'avons qu'effleurées ici.
+
 ## Comptes et outils essentiels pour le e-commerce
 
 | Outil | Utilité | Coût |

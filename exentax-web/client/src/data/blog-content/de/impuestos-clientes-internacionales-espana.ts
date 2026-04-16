@@ -103,6 +103,8 @@ Ohne LLC (Standard-Selbstständiger): Sie werden auf Ihre Bruttoeinnahmen abzüg
 
 Mit LLC: Die abzugsfähigen Ausgaben sind wesentlich umfangreicher (alles, was für das Geschäft laut IRS „gewöhnlich und notwendig" ist), und Sie erklären nur die Nettogewinne. Die Bemessungsgrundlage wird erheblich reduziert.
 
+Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/kann-man-legal-0-steuern-zahlen-die-wahrheit-uber-steueroptimierung">Kann man legal 0% Steuern zahlen? Die Wahrheit über Steueroptimierung</a> eine Nuance, die wir hier nur gestreift haben.
+
 ## Was sollten Sie tun?
 
 Wenn Sie mehr als 30.000€/Jahr an internationale Kunden abrechnen, ist die Steueroptimierung mit einer LLC legal, für jeden Freiberufler erreichbar, und die Ersparnis ist real.

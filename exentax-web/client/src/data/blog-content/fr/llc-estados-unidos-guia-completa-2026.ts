@@ -93,6 +93,8 @@ La maintenance annuelle comprend toutes les déclarations auprès de l'IRS (Form
 4. **Oublier le Form 5472.** C'est une déclaration annuelle obligatoire. Nous la gérons pour vous chaque année, vous n'avez même pas à y penser.
 5. **Mélanger les comptes personnels et professionnels.** Cela peut compromettre la protection de la responsabilité limitée. Le compte de la LLC = uniquement pour l'entreprise.
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/documents-llc-ceux-dont-vous-avez-besoin-et-comment-les-organiser">Documents LLC : ceux dont vous avez besoin et comment les organiser</a> aide à parachever le contexte.
+
 ## Est-ce légal ?
 
 Absolument. Ce n'est pas de l'évasion fiscale. C'est de la planification fiscale légale utilisant des structures reconnues par l'IRS et les autorités de votre pays. Des millions d'entreprises fonctionnent ainsi. La clé est de déclarer correctement et de maintenir la conformité à jour, et c'est de cela que nous nous occupons.

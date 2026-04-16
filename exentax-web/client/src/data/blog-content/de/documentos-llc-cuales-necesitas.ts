@@ -80,6 +80,8 @@ Dokument, das bestätigt, wer Ihr Registered Agent ist, die Person oder das Unte
 - **Amerikanischer Reisepass**: Jeder gültige Reisepass ist akzeptabel
 - **Vorhandenes Bankkonto in den USA**: Es wird als Teil des Gründungsprozesses eröffnet
 
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/warum-2026-eine-us-llc-eroffnen-die-5-saulen-des-amerikanischen-vorteils">Warum 2026 eine US LLC eröffnen: die 5 Säulen des amerikanischen Vorteils</a> und <a href="/de/blog/ein-vs-itin-vs-ssn-us-steueridentifikationsnummern-erklart">EIN vs ITIN vs SSN: US-Steueridentifikationsnummern erklärt</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+
 ## Wo sollten Sie diese Dokumente aufbewahren?
 
 Wir empfehlen, eine organisierte digitale Kopie von allem zu haben:

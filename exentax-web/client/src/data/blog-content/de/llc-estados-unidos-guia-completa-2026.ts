@@ -93,6 +93,8 @@ Die jährlichen Unterhaltskosten umfassen alle Erklärungen beim IRS (Form 5472,
 4. **Das Form 5472 vergessen.** Es ist eine jährliche Pflichtmeldung. Wir kümmern uns jedes Jahr darum. Sie bekommen davon nichts mit.
 5. **Persönliche und geschäftliche Konten mischen.** Dies kann den Schutz der beschränkten Haftung gefährden. Das Konto der LLC = nur für das Geschäft.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/llc-dokumente-welche-sie-brauchen-und-wie-sie-sie-organisieren">LLC-Dokumente: Welche Sie brauchen und wie Sie sie organisieren</a> rundet den Kontext ab.
+
 ## Ist es legal?
 
 Absolut. Es ist keine Steuerhinterziehung. Es ist legale Steuerplanung unter Nutzung von Strukturen, die vom IRS und den Behörden Ihres Landes anerkannt sind. Millionen von Unternehmen arbeiten so. Der Schlüssel liegt in der korrekten Deklaration und der Einhaltung der Compliance, und darum kümmern wir uns.

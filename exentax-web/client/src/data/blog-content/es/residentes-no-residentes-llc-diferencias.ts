@@ -80,6 +80,8 @@ Lo inverso también aplica: si eres residente y dejas EE.UU. (devuelves la Green
 
 La clave en todos estos casos: **ninguno tiene ingresos de fuente estadounidense**. Trabajan desde sus países para clientes globales. La LLC paga $0 en EE.UU. y los beneficios se declaran con la base imponible ya optimizada.
 
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/errores-fiscales-freelancers-espanoles">10 errores fiscales que cometen los freelancers españoles (y cómo evitarlos)</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
+
 ## ¿Puedo tener una LLC sin vivir en EE.UU.?
 
 **Absolutamente.** De hecho, es para lo que están diseñadas. No necesitas:

@@ -86,6 +86,8 @@ Desde la primera factura que emitas a través de la LLC. El ahorro fiscal se mat
 **"¿Y si me arrepiento?"**
 Puedes disolver la LLC en cualquier momento. Pero nadie se ha arrepentido todavía. Una vez que ves la diferencia en números, no hay vuelta atrás.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/tiempos-pagos-ach-wire-transfer">¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales</a> y <a href="/es/blog/escalar-negocio-digital-llc-americana">Cómo escalar tu negocio digital con una LLC americana</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## ¿Listo para empezar?
 
 Si quieres saber cómo sería tu primer mes con una LLC, agenda una asesoría gratuita. Te explicamos el proceso completo, hacemos los números con tu facturación real y resolvemos todas tus dudas. En 30 minutos tendrás claro si la LLC es para ti.

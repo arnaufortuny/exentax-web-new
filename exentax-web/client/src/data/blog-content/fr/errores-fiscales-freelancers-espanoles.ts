@@ -113,6 +113,8 @@ Signes que votre conseiller ne comprend pas votre situation :
 
 Ce n'est pas de sa faute, ce n'est tout simplement pas sa spécialité. Chez Exentax, la fiscalité internationale pour les freelances et les entrepreneurs du numérique est TOUT ce que nous faisons. Nous constituons votre LLC, préparons votre Operating Agreement et vous accompagnons dans toute la conformité annuelle.
 
+Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier : <a href="/fr/blog/resident-vs-non-resident-aux-usa-les-differences-fiscales-cles-pour-votre-llc">Résident vs non-résident aux USA : les différences fiscales clés pour votre LLC</a> aide à parachever le contexte.
+
 ## Combien vous coûtent ces erreurs ?
 
 Pour un freelance avec 60 000 € de chiffre d'affaires annuel :

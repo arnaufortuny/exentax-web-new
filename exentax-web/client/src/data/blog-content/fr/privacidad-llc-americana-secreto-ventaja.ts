@@ -82,6 +82,8 @@ Au-delà de la protection personnelle, la confidentialité de votre LLC offre de
 
 **Protection patrimoniale :** En séparant votre identité personnelle de votre activité professionnelle, vous réduisez le risque que des problèmes liés à l'entreprise affectent vos biens personnels.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/proprietaires-fictifs-pour-llc-pourquoi-cest-illegal-et-les-risques">Propriétaires fictifs pour LLC : pourquoi c'est illégal et les risques</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## Comment nous gérons la confidentialité chez Exentax
 
 Lorsque nous constituons votre LLC :

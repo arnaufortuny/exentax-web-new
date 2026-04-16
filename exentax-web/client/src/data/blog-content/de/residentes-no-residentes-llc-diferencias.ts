@@ -80,6 +80,8 @@ Das Umgekehrte gilt ebenfalls: Wenn Sie Ansässiger sind und die USA verlassen (
 
 Der Schlüssel in all diesen Fällen: **Keiner hat Einkünfte aus US-amerikanischer Quelle**. Sie arbeiten von ihren Ländern aus für globale Kunden. Die LLC zahlt $0 in den USA und die Gewinne werden mit einer bereits optimierten Bemessungsgrundlage deklariert.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/10-steuerfehler-spanischer-freelancer-und-wie-man-sie-vermeidet">10 Steuerfehler spanischer Freelancer (und wie man sie vermeidet)</a> genau den Nachbaraspekt, den wir normalerweise in einen eigenen Text auslagern.
+
 ## Kann ich eine LLC haben, ohne in den USA zu leben?
 
 **Absolut.** Tatsächlich ist es genau dafür gedacht. Sie benötigen nicht:

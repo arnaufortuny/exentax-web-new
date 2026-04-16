@@ -72,6 +72,8 @@ Si tu agencia vende cursos, templates o productos digitales directamente a consu
 
 Con ese ahorro contratas otro diseñador, inviertes en ads propios o simplemente te lo llevas a casa.
 
+Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/llc-creadores-contenido-youtube-twitch">LLC para creadores de contenido: YouTube, Twitch, podcasts y redes sociales</a> y <a href="/es/blog/que-es-irs-guia-duenos-llc">¿Qué es el IRS? Guía completa para dueños de LLC</a>, porque afinan exactamente los bordes de lo explicado en esta guía.
+
 ## Lo que hacemos por ti
 
 Constitución completa de la LLC, EIN, cuenta bancaria (Mercury/Relay), tesorería (Slash), tarjetas corporativas (Wallester), configuración de Stripe/Adyen y facturación, compliance anual. No desaparecemos después de montar la empresa, nos quedamos contigo para que todo funcione correctamente. Soporte continuo, todo el año.

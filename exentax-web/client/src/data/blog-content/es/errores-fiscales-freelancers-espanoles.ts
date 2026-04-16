@@ -114,6 +114,8 @@ Señales de que tu asesor no entiende tu situación:
 
 No es culpa suya, simplemente no es su especialidad. En Exentax, la fiscalidad internacional para freelancers y emprendedores digitales es TODO lo que hacemos. Constituimos tu LLC, preparamos tu Operating Agreement, y te acompañamos en todo el compliance anual.
 
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/residentes-no-residentes-llc-diferencias">LLC para residentes y no residentes de EE.UU.: diferencias clave</a> es una pieza útil para terminar de contextualizar el escenario.
+
 ## ¿Cuánto te cuestan estos errores?
 
 Para un freelancer con 60.000€ de facturación anual:

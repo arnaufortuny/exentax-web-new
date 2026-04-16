@@ -86,6 +86,8 @@ Die typische Abfolge beim Freiberufler, der mit Problemen zu Exentax kommt:
 
 Die Gründung macht 10% der Arbeit aus. Die restlichen 90% sind Wartung, Compliance und der tägliche Betrieb. Bei Exentax decken wir den kompletten Zyklus ab.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/was-kostet-eine-us-llc-vollstandige-kostenubersicht">Was kostet eine US LLC? Vollständige Kostenübersicht</a> rundet den Kontext ab.
+
 ## Der Unterschied zwischen Dinge richtig machen und Dinge "halb" machen
 
 90% der Probleme, die wir sehen, hätten mit einer angemessenen Beratung von Anfang an vermieden werden können. Eine gut gegründete LLC mit aktuellem Compliance und rückverfolgbarem Betrieb ist eine Maschine für steuerliche Effizienz. Eine schlecht geführte LLC ist eine tickende Zeitbombe.

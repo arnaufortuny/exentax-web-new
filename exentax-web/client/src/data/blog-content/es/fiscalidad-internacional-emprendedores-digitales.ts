@@ -74,6 +74,8 @@ Los tratados de doble imposición entre tu país de residencia y EE.UU. pueden o
 
 La OCDE está trabajando en el marco BEPS 2.0 (Pillar One y Pillar Two) para adaptar el sistema fiscal internacional a la economía digital. Estos cambios afectarán principalmente a grandes multinacionales, pero es importante que los emprendedores digitales estén al tanto de las evoluciones normativas.
 
+Para seguir profundizando, <a href="/es/blog/estructura-fiscal-optima-freelancer-internacional">La estructura fiscal óptima para freelancers internacionales en 2026</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
+
 ## El stack que lo simplifica todo
 
 No necesitas ser experto en fiscalidad internacional para optimizar tu situación. Necesitas las herramientas correctas y un equipo que sepa usarlas:

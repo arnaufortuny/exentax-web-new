@@ -85,6 +85,8 @@ Ab der ersten Rechnung, die Sie über die LLC ausstellen. Die Steuerersparnis ma
 **"Und wenn ich es bereue?"**
 Sie können die LLC jederzeit auflösen. Aber bisher hat es noch niemand bereut. Sobald Sie den Unterschied in den Zahlen sehen, gibt es kein Zurück mehr.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/ach-vs-bankuberweisung-zahlungsfristen-und-auswirkungen-auf-den-llc-cashflow">ACH vs Banküberweisung: Zahlungsfristen und Auswirkungen auf den LLC-Cashflow</a> und <a href="/de/blog/ihr-digitales-unternehmen-mit-einer-us-llc-skalieren">Ihr digitales Unternehmen mit einer US LLC skalieren</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Bereit loszulegen?
 
 Wenn Sie wissen möchten, wie Ihr erster Monat mit einer LLC aussehen würde, vereinbaren Sie eine kostenlose Beratung. Wir erklären Ihnen den gesamten Prozess, rechnen mit Ihren realen Umsatzzahlen und klären alle Ihre Fragen. In 30 Minuten wissen Sie, ob die LLC das Richtige für Sie ist.

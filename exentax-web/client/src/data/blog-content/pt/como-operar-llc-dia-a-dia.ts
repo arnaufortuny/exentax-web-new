@@ -116,6 +116,8 @@ Para que a operativa seja fluida, recomendamos dedicar 30 minutos por mês a ist
 
 30 minutos. Uma vez por mês. É tudo o que precisas para manter a tua LLC impecável.
 
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/seu-primeiro-mes-com-uma-llc-americana-o-que-esperar-semana-a-semana">Seu primeiro mês com uma LLC americana: o que esperar semana a semana</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+
 ## Erros comuns na operativa diária
 
 - **Misturar contas pessoais e de negócio**: o erro mais grave e mais frequente. Repito: NUNCA

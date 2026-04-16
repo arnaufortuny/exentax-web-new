@@ -129,6 +129,8 @@ Un travailleur indépendant typique avec une LLC a généralement entre **5 000 
 
 Exemple pratique : si vous facturez 60 000 $/an et que vous avez 15 000 $ de dépenses déductibles, vous ne déclarez que 45 000 $ de bénéfice dans votre pays. Si votre taux effectif est de 20%, cela représente **3 000 $ d'impôts en moins** simplement en documentant correctement vos dépenses. Chaque facture de logiciel, chaque cours, chaque abonnement de coworking vous fait économiser de l'argent.
 
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/peut-on-payer-0-dimpots-legalement-la-verite-sur-loptimisation-fiscale">Peut-on payer 0% d'impôts légalement ? La vérité sur l'optimisation fiscale</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+
 ## Chez Exentax, nous vous accompagnons
 
 Notre service de maintenance inclut des conseils sur les dépenses que vous pouvez déduire et comment les documenter correctement. Nous ne vous laissons pas seul avec une liste, nous vous accompagnons pour que vous maximisiez vos déductions sans problème.

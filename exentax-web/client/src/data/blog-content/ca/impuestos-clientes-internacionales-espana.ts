@@ -103,6 +103,8 @@ Sense LLC (autònom estàndard): tributes pels teus ingressos bruts menys les de
 
 Amb LLC: les despeses deduïbles són molt més àmplies (tot el que sigui "ordinari i necessari" per al negoci segons l'IRS), i declares només els beneficis nets. La base imposable es redueix significativament.
 
+Per continuar aquest fil, <a href="/ca/blog/es-pot-pagar-0-dimpostos-legalment-la-veritat-sobre-loptimitzacio-fiscal">Es pot pagar 0% d'impostos legalment? La veritat sobre l'optimització fiscal</a> completa un matís que aquí només hem tocat de passada.
+
 ## Què hauria de fer?
 
 Si factures més de 30.000€/any a clients internacionals, l'optimització fiscal amb una LLC és legal, està a l'abast de qualsevol freelancer, i l'estalvi és real.

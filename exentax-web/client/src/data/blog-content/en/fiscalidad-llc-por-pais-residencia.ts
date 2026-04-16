@@ -145,9 +145,11 @@ Argentina has one of the highest effective tax rates in the region.
 These scenarios are simplified illustrations. Your specific numbers depend on your exact income level, deduction profile, and tax situation. Book a consultation for a personalized analysis.
 
 
+One adjacent read worth having open alongside this one: <a href="/en/blog/us-resident-vs-non-resident-llc-the-key-tax-differences">US resident vs non-resident LLC: the key tax differences</a>, which sharpens exactly the edges we skimmed above.
+
 ## Related articles
 
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
 - <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">deductible expenses guide</a>
 - <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>

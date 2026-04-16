@@ -113,6 +113,8 @@ Anzeichen, dass Ihr Berater Ihre Situation nicht versteht:
 
 Es ist nicht seine Schuld, es ist einfach nicht sein Spezialgebiet. Bei Exentax ist die internationale Besteuerung für Freiberufler und digitale Unternehmer ALLES, was wir tun. Wir gründen Ihre LLC, erstellen Ihr Operating Agreement und begleiten Sie beim gesamten jährlichen Compliance.
 
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/us-resident-vs-nicht-resident-llc-die-wichtigsten-steuerunterschiede">US-Resident vs Nicht-Resident LLC: die wichtigsten Steuerunterschiede</a> rundet den Kontext ab.
+
 ## Was kosten Sie diese Fehler?
 
 Für einen Freiberufler mit 60.000 € Jahresumsatz:

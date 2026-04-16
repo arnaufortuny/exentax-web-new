@@ -38,7 +38,7 @@ export default `**DAC7** est la régulation la plus ignorée par celles et ceux 
   ## Comment planifier
 
   1. Déclarer cohérence avec DAC7.
-  2. Optimiser dans la légalité (déductions, voir <a href="/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez-deduire">déductions LLC</a>).
+  2. Optimiser dans la légalité (déductions, voir déductions LLC).
   3. Substance si opération à grande échelle. Voir <a href="/fr/blog/conception-dune-structure-fiscale-internationale-solide-cadre-etape-par-etape">conception d'une structure solide</a>.
   4. Répondre aux premières communications de divergence.
 

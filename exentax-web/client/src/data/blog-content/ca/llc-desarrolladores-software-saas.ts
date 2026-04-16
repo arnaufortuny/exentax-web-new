@@ -63,6 +63,8 @@ El teu codi, la teva marca, els teus algoritmes, el teu disseny, tot és propiet
 - **Llicències i royalties**: pots llicenciar el teu programari a través de la LLC amb estructures fiscals optimitzades
 - **Valoració**: si algun dia vols vendre la teva empresa o captar inversió, tenir la IP en una LLC americana facilita enormement el procés
 
+Per tancar, lectures relacionades que encaixen al costat d'aquest article: <a href="/ca/blog/llc-americana-per-a-creadors-de-contingut-youtube-twitch-i-mes">LLC americana per a creadors de contingut: YouTube, Twitch i més</a> i <a href="/ca/blog/seguretat-juridica-llc-i-proteccio-patrimonial-el-avantatge-infravalorat">Seguretat jurídica LLC i protecció patrimonial: el avantatge infravalorat</a> ajuden a arrodonir el context.
+
 ## A partir de quant té sentit?
 
 Per a desenvolupadors freelance, a partir de 3.000€/mes de facturació l'estructura sol compensar. Per a SaaS amb MRR (Monthly Recurring Revenue), fins i tot amb imports menors pot tenir sentit per les avantatges operatives (accés a Stripe, cobrament en dòlars, credibilitat).

@@ -92,6 +92,8 @@ Com uma LLC, pode deduzir como gastos operacionais tudo o que seja "ordinário e
 
 **Diferença:** 11.800€/ano a mais no seu bolso. Cada ano. E a diferença cresce quanto mais fatura.
 
+Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/impostos-com-clientes-internacionais-em-espanha-o-que-ninguem-conta">Impostos com clientes internacionais em Espanha: o que ninguém conta</a> e <a href="/pt/blog/criptomoedas-e-trading-com-llc-guia-fiscal-completo-para-traders">Criptomoedas e trading com LLC: guia fiscal completo para traders</a>, que afinam precisamente os contornos do que este guia explica.
+
 ## A quota de autônomo: o imposto mais absurdo da Espanha
 
 Merece seu próprio desabafo: a quota de autônomo é um imposto fixo que paga **tanto se fatura como se não**. Com o novo sistema de cotização por rendimentos (2023), a quota sobe quando as coisas vão bem. É o único sistema fiscal do mundo que castiga pelo sucesso.

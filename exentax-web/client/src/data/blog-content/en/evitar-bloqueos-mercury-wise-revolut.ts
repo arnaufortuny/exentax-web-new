@@ -75,6 +75,8 @@ Never depend on a single account. If one gets temporarily blocked, you need to k
 | **Slash** | Treasury platform | N/A | N/A | Yield on cash |
 | **Wallester** | Card issuer | N/A | N/A | Card management |
 
+If something in this structure left you wanting more detail, <a href="/en/blog/iban-swift-and-routing-numbers-understanding-international-banking-codes">IBAN, SWIFT and routing numbers: understanding international banking codes</a> and <a href="/en/blog/changing-currencies-for-your-llc-best-options-and-how-to-avoid-hidden-fees">Changing currencies for your LLC: best options and how to avoid hidden fees</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## Related articles
 
 - <a href="/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and-how-to-pass">banking due diligence guide</a>

@@ -90,6 +90,8 @@ Wise (que es una EMI, no un banco) te genera cuentas locales en múltiples país
 
 Tus clientes pagan como si fuera una transferencia local, tú recibes en tu balance multi-divisa de Wise y luego transfieres a Mercury cuando te convenga.
 
+Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/tiempos-pagos-ach-wire-transfer">¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales</a> y <a href="/es/blog/escalar-negocio-digital-llc-americana">Cómo escalar tu negocio digital con una LLC americana</a> explican en detalle varios aspectos colindantes que solemos dejar apuntados para otro día.
+
 ## Mercury: datos bancarios que necesitas
 
 Para Mercury, los datos que darás a clientes son:

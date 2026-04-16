@@ -65,6 +65,8 @@ Unsere Empfehlung:
 
 Verlassen Sie sich nie auf ein einziges Konto. Wenn eines vorübergehend gesperrt wird, müssen Sie weiter operieren können.
 
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/iban-swift-und-routing-nummern-internationale-bankencodes-verstehen">IBAN, SWIFT und Routing-Nummern: Internationale Bankencodes verstehen</a> und <a href="/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und-versteckte-gebuhren-vermeiden">Währungen für Ihre LLC wechseln: beste Optionen und versteckte Gebühren vermeiden</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+
 ## Wichtige Fakten zu jeder Plattform
 
 - **Mercury** nutzt Column NA als Depotbank, Ihre Gelder sind bis zu $250K pro Einleger FDIC-versichert. Nationale und internationale Wire-Überweisungen kosten $0. Es ist eine seriöse Fintech-Plattform, kein Hinterhofunternehmen.

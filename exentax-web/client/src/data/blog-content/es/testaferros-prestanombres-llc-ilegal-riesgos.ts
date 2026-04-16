@@ -15,7 +15,7 @@ En el contexto de las LLCs americanas, esto suele ocurrir cuando alguien:
 
 **1. Fraude ante el IRS**
 
-Cuando solicitas un EIN, declaras quién es el "responsible party" de la LLC. Cuando presentas el <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, reportas transacciones entre la LLC y su propietario. Si el propietario declarado no es el propietario real, estás presentando información falsa al IRS. Eso es fraude fiscal federal.
+Cuando solicitas un EIN, declaras quién es el "responsible party" de la LLC. Cuando presentas el Form 5472, reportas transacciones entre la LLC y su propietario. Si el propietario declarado no es el propietario real, estás presentando información falsa al IRS. Eso es fraude fiscal federal.
 
 **2. Violación del <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a>**
 
@@ -23,7 +23,7 @@ El BOI Report ante FinCEN exige que declares a los "beneficial owners", los prop
 
 **3. Fraude bancario**
 
-Cuando abres una cuenta en <a href="/es/blog/cuenta-bancaria-mercury-llc-extranjero">Mercury</a>, Relay o cualquier plataforma financiera, el proceso de KYC verifica la identidad del propietario. Si el KYC lo pasa tu primo pero tú operas la cuenta, estás cometiendo fraude bancario. La cuenta puede ser cerrada, los fondos congelados y se puede reportar a las autoridades.
+Cuando abres una cuenta en Mercury, Relay o cualquier plataforma financiera, el proceso de KYC verifica la identidad del propietario. Si el KYC lo pasa tu primo pero tú operas la cuenta, estás cometiendo fraude bancario. La cuenta puede ser cerrada, los fondos congelados y se puede reportar a las autoridades.
 
 **4. Evasión fiscal en tu país**
 

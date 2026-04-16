@@ -178,14 +178,16 @@ Yes. Dissolution is straightforward: file dissolution documents with the state a
 Not for standard formation and operation. Exentax handles all the legal and tax documentation. You may want a local tax advisor for your country-specific situation.
 
 
+Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/llc-documents-which-ones-you-need-and-how-to-keep-them-organized">LLC documents: which ones you need and how to keep them organized</a> helps round off the context.
+
 ## Related articles
 
-- <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it-matters">pass-through taxation guide</a>
+- pass-through taxation guide
 - <a href="/en/blog/operating-agreement-what-it-is-and-why-your-llc-needs-one">Operating Agreement guide</a>
 - <a href="/en/blog/ein-tax-number-for-your-llc-how-to-get-it">EIN guide</a>
 - <a href="/en/blog/registered-agent-what-it-is-and-why-its-mandatory-for-your-llc">Registered Agent guide</a>
-- <a href="/en/blog/boi-report-2026-complete-guide-to-fincen-beneficial-ownership-filing">BOI Report guide</a>
+- BOI Report guide
 - <a href="/en/blog/new-mexico-vs-wyoming-vs-delaware-which-state-for-your-llc">state comparison guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
+- Form 5472 guide
 - <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual maintenance guide</a>
 Book your strategic consultation and discover how a properly structured US LLC can transform your business.`;

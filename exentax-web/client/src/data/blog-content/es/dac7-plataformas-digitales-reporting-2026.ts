@@ -78,7 +78,7 @@ export default `La **DAC7** es una de las normativas más importantes de los úl
   ## Cómo planificar correctamente
 
   1. **Declara los ingresos coherentemente.** Si vendes en Amazon Europa, esos ingresos se cruzan con tu IRPF español, mexicano o argentino mediante el dato DAC7 + CRS. La única estrategia válida es declarar bien.
-  2. **Optimiza dentro de lo legal.** Hay deducibilidad de gastos en la LLC (ver <a href="/es/blog/gastos-deducibles-llc-que-puedes-deducir">gastos deducibles en tu LLC</a>) y planificación de remesa al socio.
+  2. **Optimiza dentro de lo legal.** Hay deducibilidad de gastos en la LLC (ver gastos deducibles en tu LLC) y planificación de remesa al socio.
   3. **Considera la sustancia.** Si vas a operar a gran escala desde una LLC, dótala de sustancia (oficina, contratos, gestores, presencia operativa real) o asume que la AEAT puede mirarla con criterios de transparencia/simulación. Marco completo en <a href="/es/blog/diseno-estructura-fiscal-internacional-solida">diseño de estructura internacional sólida</a>.
   4. **No dejes pasar el primer aviso.** Las haciendas suelen enviar comunicaciones de "discrepancia" antes de iniciar inspección formal; responder bien evita el procedimiento.
 

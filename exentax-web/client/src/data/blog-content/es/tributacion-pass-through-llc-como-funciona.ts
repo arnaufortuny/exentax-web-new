@@ -37,7 +37,7 @@ En tu país de residencia fiscal. Aquí es donde el pass-through cobra sentido c
 Imagina que eres diseñador web, vives en Madrid y facturas $6,000 al mes a clientes internacionales a través de tu LLC.
 
 **En Estados Unidos:**
-- Tu LLC presenta el Form 1120 + <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a> (informativo)
+- Tu LLC presenta el Form 1120 + Form 5472 (informativo)
 - Impuesto federal: $0
 - La LLC es una Disregarded Entity, transparente fiscalmente
 
@@ -113,11 +113,13 @@ En Exentax no solo constituimos tu LLC, diseñamos toda la estructura fiscal par
 - **Analizamos tu situación fiscal** en tu país de residencia
 - **Elegimos el estado de constitución** que mejor encaje con tu perfil
 - **Configuramos la contabilidad** para maximizar gastos deducibles legítimos
-- **Preparamos todas las declaraciones** ante el IRS (Form 1120, <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, <a href="/es/blog/extension-irs-form-1120-como-solicitarla">Form 7004</a>)
+- **Preparamos todas las declaraciones** ante el IRS (Form 1120, Form 5472, <a href="/es/blog/extension-irs-form-1120-como-solicitarla">Form 7004</a>)
 - **Te orientamos sobre la declaración** en tu país de residencia
 - **Mantenemos todo el <a href="/es/blog/mantenimiento-anual-llc-obligaciones">compliance al día</a>** para que no tengas sorpresas
 
 El resultado: una estructura que minimiza tu carga fiscal total de forma completamente legal, con todos los papeles en orden y sin dolores de cabeza.
+
+Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/residentes-no-residentes-llc-diferencias">LLC para residentes y no residentes de EE.UU.: diferencias clave</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
 
 ## ¿Quieres saber cuánto podrías ahorrarte?
 

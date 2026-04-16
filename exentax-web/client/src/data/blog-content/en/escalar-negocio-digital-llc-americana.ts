@@ -73,6 +73,8 @@ Your US LLC is your passport to markets that were previously closed:
 - **Global SaaS**: Sell subscriptions to clients in any country
 - **Partner programs**: Many affiliate and partner programs only accept US companies
 
+If something in this structure left you wanting more detail, <a href="/en/blog/ach-vs-wire-transfer-timelines-for-your-llc">ACH vs wire transfer: payment timelines and what they mean for your LLC cash flow</a> and <a href="/en/blog/selling-on-amazon-with-your-us-llc-complete-guide-for-international-sellers">Selling on Amazon with your US LLC: complete guide for international sellers</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
+
 ## When to take the next step
 
 If you're billing consistently, have international clients, and feel your current structure is limiting your growth. the LLC isn't just a cost-saver, it's a growth accelerator.

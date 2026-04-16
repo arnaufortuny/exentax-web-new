@@ -172,6 +172,8 @@ L'e-Residency d'Estonie est devenue un produit marketing brillant. Un gouverneme
 
 Mais les chiffres ne mentent pas. Quand vous additionnez les coûts de comptabilité obligatoire, l'impôt sur les distributions, la gestion de la TVA et les limitations bancaires. l'OÜ estonienne est plus chère, plus bureaucratique et fiscalement moins efficiente qu'une LLC américaine pour l'immense majorité des freelances et auto-entrepreneurs numériques.
 
+Si certains aspects de cette structure méritent d'être creusés, <a href="/fr/blog/avantages-et-inconvenients-dune-llc-pour-non-residents-analyse-honnete">Avantages et inconvénients d'une LLC pour non-résidents : analyse honnête</a> et <a href="/fr/blog/nouveau-mexique-vs-wyoming-vs-delaware-quel-etat-pour-votre-llc">Nouveau-Mexique vs Wyoming vs Delaware : quel état pour votre LLC</a> détaillent des points adjacents que nous réservons d'habitude à des articles dédiés.
+
 ## Chez Exentax, nous vous offrons la structure qui fonctionne vraiment
 
 Nous ne vendons ni de la fumée ni des tendances. Nous concevons des structures fiscales basées sur la législation en vigueur, avec des chiffres réels et une conformité totale.

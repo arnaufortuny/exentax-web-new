@@ -71,6 +71,8 @@ A chave é compreender que as obrigações de declaração incidem sobre contas 
 
 **4. A rastreabilidade é a sua melhor defesa.** Se alguma vez o seu fisco lhe perguntar sobre a sua LLC, ter tudo documentado. faturas, distributions, Form 5472, Operating Agreement. é o que o protege.
 
+Uma leitura adjacente a manter à mão: <a href="/pt/blog/estrutura-fiscal-otima-para-freelancers-internacionais-o-framework-completo">Estrutura fiscal ótima para freelancers internacionais: o framework completo</a>, que afina precisamente os contornos do que este guia explica.
+
 ## Como gerimos isto na Exentax
 
 Quando montamos a sua estrutura, asseguramo-nos de que:

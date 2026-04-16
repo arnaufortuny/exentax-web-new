@@ -83,6 +83,8 @@ Independentemente de onde viva, há princípios que se aplicam sempre:
 
 **4. Cada situação é diferente.** Não existe uma resposta genérica. A sua carga fiscal final depende dos seus rendimentos, das suas despesas, do seu país, do seu regime e de dezenas de variáveis que só podem ser analisadas caso a caso.
 
+Uma leitura adjacente a manter à mão: <a href="/pt/blog/residente-eua-vs-nao-residente-llc-as-diferencas-fiscais-principais">Residente EUA vs não residente LLC: as diferenças fiscais principais</a>, que afina precisamente os contornos do que este guia explica.
+
 ## Por que o assessoramento especializado faz a diferença
 
 No YouTube e no Twitter encontrará milhares de pessoas a dizer "com uma LLC pagas 0% de impostos". É uma simplificação perigosa. Paga 0% de imposto **federal nos EUA**: mas continua a ter obrigações no seu país de residência.

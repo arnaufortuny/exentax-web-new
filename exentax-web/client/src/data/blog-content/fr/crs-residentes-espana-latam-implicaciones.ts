@@ -42,4 +42,7 @@ export default `Le Common Reporting Standard (CRS) est la pièce maîtresse de l
 
   Le CRS ne s'évite pas depuis une juridiction européenne, il se planifie. Une LLC américaine reste un outil extraordinairement utile, mais la conception de votre stack bancaire et de votre résidence détermine la cohérence entre l'empreinte informationnelle et ce que vous déclarez.
 
-  Vous voulez que nous examinions comment le CRS vous affecte et que nous concevions le bon stack ? Réservez votre consultation gratuite.`;
+  Vous voulez que nous examinions comment le CRS vous affecte et que nous concevions le bon stack ? Réservez votre consultation gratuite.
+
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto-entrepreneur-pour-un">Pourquoi les freelancers espagnols quittent le statut d'auto-entrepreneur pour une LLC</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+`;

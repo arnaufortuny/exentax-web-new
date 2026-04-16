@@ -71,6 +71,8 @@ La clé est de comprendre que les obligations de déclaration portent sur les co
 
 **4. La traçabilité est votre meilleure défense.** Si un jour votre administration fiscale vous interroge sur votre LLC, avoir tout documenté. factures, distributions, Form 5472, Operating Agreement, c'est ce qui vous protège.
 
+Une lecture voisine à garder sous la main : <a href="/fr/blog/structure-fiscale-optimale-pour-les-freelancers-internationaux-le-cadre-complet">Structure fiscale optimale pour les freelancers internationaux : le cadre complet</a>, qui affine précisément les bords de ce qu'explique ce guide.
+
 ## Comment nous le gérons chez Exentax
 
 Quand nous mettons en place votre structure, nous nous assurons que :

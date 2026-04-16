@@ -74,6 +74,8 @@ Les conventions de double imposition entre votre pays de résidence et les État
 
 L'OCDE travaille sur le cadre BEPS 2.0 (Pillar One et Pillar Two) pour adapter le système fiscal international à l'économie numérique. Ces changements affecteront principalement les grandes multinationales, mais il est important que les entrepreneurs digitaux soient au courant des évolutions réglementaires.
 
+Pour poursuivre sur ce fil, <a href="/fr/blog/structure-fiscale-optimale-pour-les-freelancers-internationaux-le-cadre-complet">Structure fiscale optimale pour les freelancers internationaux : le cadre complet</a> complète les nuances que nous n'avons qu'effleurées ici.
+
 ## Le stack qui simplifie tout
 
 Vous n'avez pas besoin d'être expert en fiscalité internationale pour optimiser votre situation. Vous avez besoin des bons outils et d'une équipe qui sait les utiliser :

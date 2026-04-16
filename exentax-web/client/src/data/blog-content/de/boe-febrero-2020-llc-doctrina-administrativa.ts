@@ -54,4 +54,7 @@ export default `Wenn Sie spanisch ansässig sind und eine <a href="/de/blog/llc-
 
   Spanische Doktrin: Single-Member-LLC = wirtschaftliche Aktivität zugerechnet in Allgemeinbasis. Erfordert seriöse Planung; gut konzipiert bleibt LLC ein exzellentes Werkzeug.
 
-  Vereinbaren Sie Ihre kostenlose Beratung.`;
+  Vereinbaren Sie Ihre kostenlose Beratung.
+
+Zum Abschluss ein verwandter Beitrag, der unmittelbar an diesen Text anschließt: <a href="/de/blog/internationale-besteuerung-fur-digitale-unternehmer-vollstandiger-leitfaden">Internationale Besteuerung für digitale Unternehmer: vollständiger Leitfaden</a> rundet den Kontext ab.
+`;

@@ -102,6 +102,8 @@ Com uma LLC em Wyoming, o credor só pode obter uma **charging order**: um direi
 
 Na prática, isso significa que se você não faz distribuições, o credor não cobra. A sua LLC e os seus ativos ficam intactos. É como um cofre que ninguém mais pode abrir.
 
+Para continuar neste fio, <a href="/pt/blog/problemas-comuns-da-llc-e-como-evita-los-licoes-de-clientes-reais">Problemas comuns da LLC e como evitá-los: lições de clientes reais</a> completa uma nuance que aqui apenas tocámos.
+
 ## A segurança jurídica como investimento
 
 Pense na proteção patrimonial como um seguro: espera não precisar dele nunca, mas se precisar, vale cada centavo. O padeiro do bairro provavelmente não precisa de uma LLC. Mas você, que opera internacionalmente, lida com contratos com clientes de vários países e movimenta dinheiro entre jurisdições, você sim.

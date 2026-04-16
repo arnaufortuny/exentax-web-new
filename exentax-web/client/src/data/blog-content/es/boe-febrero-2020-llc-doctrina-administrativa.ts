@@ -100,4 +100,7 @@ export default `Si eres residente fiscal en España y tienes una <a href="/es/bl
 
   La doctrina administrativa española sobre la LLC americana es muy específica: en el caso típico de Single-Member LLC, el rendimiento se imputa al socio residente español como actividad económica en base general. Esto requiere planificación seria, no improvisación. La buena noticia: bien diseñada, una LLC sigue siendo una herramienta excelente para internacionalizar tu negocio y optimizar legalmente tu carga fiscal global.
 
-  ¿Quieres revisar tu caso a la luz de la doctrina vigente y diseñar la estructura más eficiente para tu situación? Agenda tu asesoría gratuita.`;
+  ¿Quieres revisar tu caso a la luz de la doctrina vigente y diseñar la estructura más eficiente para tu situación? Agenda tu asesoría gratuita.
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/fiscalidad-internacional-emprendedores-digitales">Fiscalidad internacional para emprendedores digitales: todo lo que necesitas saber</a> es una pieza útil para terminar de contextualizar el escenario.
+`;

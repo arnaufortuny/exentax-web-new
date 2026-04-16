@@ -10,7 +10,7 @@ export default `Una de las razones por las que muchos emprendedores eligen estad
 
 ## Qué NO protege
 
-**Ante el IRS:** El IRS sabe quién es el propietario de tu LLC. Cuando solicitas el EIN, declaras quién es el responsible party. Cuando presentas el <a href="/es/blog/form-5472-que-es-como-presentarlo">Form 5472</a>, reportas las transacciones entre tú y la LLC. La privacidad estatal no tiene efecto ante el servicio de impuestos federal.
+**Ante el IRS:** El IRS sabe quién es el propietario de tu LLC. Cuando solicitas el EIN, declaras quién es el responsible party. Cuando presentas el Form 5472, reportas las transacciones entre tú y la LLC. La privacidad estatal no tiene efecto ante el servicio de impuestos federal.
 
 **Ante FinCEN:** El <a href="/es/blog/boi-report-fincen-guia-completa-2026">BOI Report</a> (Beneficial Ownership Information Report) requiere que declares quién son los propietarios beneficiarios de la LLC, incluyendo nombre, fecha de nacimiento, dirección y número de identificación. Esta información no es pública, pero está en manos del gobierno federal.
 
@@ -84,6 +84,8 @@ Más allá de la protección personal, la privacidad de tu LLC tiene ventajas pr
 **Negociación desde la fuerza:** Un cliente que negocia con "TuNombre LLC" percibe más solidez que negociar con "tunombre@gmail.com". La LLC da estructura y profesionalismo sin exponer tu información personal.
 
 **Protección patrimonial:** Al separar tu identidad personal de tu actividad empresarial, reduces el riesgo de que problemas del negocio afecten tus bienes personales.
+
+Para seguir profundizando, <a href="/es/blog/testaferros-prestanombres-llc-ilegal-riesgos">Testaferros y prestanombres en LLCs: por qué es ilegal y cómo hacerlo bien</a> complementa lo que hemos visto aquí con detalles que merecían su propio artículo.
 
 ## Cómo gestionamos la privacidad en Exentax
 
