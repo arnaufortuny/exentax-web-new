@@ -10,7 +10,8 @@
     "check": "tsc",
     "i18n:validate": "tsx scripts/validate-i18n.ts",
     "i18n:generate-types": "tsx scripts/generate-i18n-types.ts",
-    "i18n:check": "tsx scripts/generate-i18n-types.ts && tsx scripts/validate-i18n.ts"
+    "i18n:check": "tsx scripts/generate-i18n-types.ts && tsx scripts/validate-i18n.ts",
+    "lint:blog": "node scripts/blog-content-lint.mjs"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",
