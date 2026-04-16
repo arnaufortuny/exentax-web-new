@@ -327,12 +327,12 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const isPast = row.meetingDate ? row.meetingDate < todayStr : false;
     return apiOk(res, {
       id: row.id,
-      nombre: row.name || "",
-      fecha: row.meetingDate || "",
-      horaInicio: row.startTime || "",
-      horaFin: row.endTime || "",
+      name: row.name || "",
+      date: row.meetingDate || "",
+      startTime: row.startTime || "",
+      endTime: row.endTime || "",
       googleMeet: row.googleMeet || null,
-      estado: row.status || AGENDA_STATUSES.PENDING,
+      status: row.status || AGENDA_STATUSES.PENDING,
       isPast,
     });
   }));

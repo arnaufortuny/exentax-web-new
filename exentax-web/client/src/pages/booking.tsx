@@ -20,12 +20,12 @@ const STATUS = {
 
 interface BookingData {
   id: string;
-  nombre: string;
-  fecha: string;
-  horaInicio: string;
-  horaFin: string;
+  name: string;
+  date: string;
+  startTime: string;
+  endTime: string;
   googleMeet: string | null;
-  estado: string;
+  status: string;
   isPast: boolean;
 }
 
@@ -38,11 +38,11 @@ function formatDate(d: string, locale: string = "es-ES") {
   }
 }
 
-function StatusBadge({ estado, isPast }: { estado: string; isPast: boolean }) {
+function StatusBadge({ status, isPast }: { status: string; isPast: boolean }) {
   const { t } = useTranslation();
-  if (estado === STATUS.CANCELLED) return <span data-testid="badge-status-cancelled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.cancelled")}</span>;
-  if (estado === STATUS.NO_SHOW) return <span data-testid="badge-status-noshow" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.noShow")}</span>;
-  if (estado === STATUS.RESCHEDULED) return <span data-testid="badge-status-rescheduled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400"><CalendarClockIcon className="w-3.5 h-3.5" />{t("agenda.status.rescheduled")}</span>;
+  if (status === STATUS.CANCELLED) return <span data-testid="badge-status-cancelled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.cancelled")}</span>;
+  if (status === STATUS.NO_SHOW) return <span data-testid="badge-status-noshow" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400"><XCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.noShow")}</span>;
+  if (status === STATUS.RESCHEDULED) return <span data-testid="badge-status-rescheduled" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400"><CalendarClockIcon className="w-3.5 h-3.5" />{t("agenda.status.rescheduled")}</span>;
   if (isPast) return <span data-testid="badge-status-completed" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[var(--bg-2)] text-[var(--muted)]"><CheckCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.completed")}</span>;
   return <span data-testid="badge-status-confirmed" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold" style={{ background: "rgba(0,229,16,0.08)", color: "#00E510" }}><CheckCircleIcon className="w-3.5 h-3.5" />{t("agenda.status.confirmed")}</span>;
 }
@@ -61,8 +61,7 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
   const { data: availableSlots, isLoading: slotsLoading, isError: slotsError } = useQuery<Array<{ time: string; endTime: string }>>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
     queryFn: async () => {
-      const res = await fetch(`/api/bookings/available-slots?date=${selectedDate}`, { credentials: "include" });
-      if (!res.ok) throw new Error("Failed to load slots");
+      const res = await apiRequest("GET", `/api/bookings/available-slots?date=${selectedDate}`);
       const data = await res.json();
       const slots: string[] = data?.slots || [];
       return slots.map(s => ({ time: s, endTime: getEndTimeClient(s) }));
@@ -179,7 +178,7 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
     },
   });
 
-  const isCancelled = booking.estado === STATUS.CANCELLED || actionDone === "cancelled";
+  const isCancelled = booking.status === STATUS.CANCELLED || actionDone === "cancelled";
   const canManage = !booking.isPast && !isCancelled;
 
   if (actionDone === "rescheduled") {
@@ -216,14 +215,14 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
           <CalendarIcon className="w-4 h-4 text-[var(--muted)] mt-0.5 flex-shrink-0" />
           <div>
             <p className="text-xs text-[var(--muted)] mb-0.5">{t("agenda.date")}</p>
-            <p data-testid="text-meeting-date" className="text-sm font-semibold text-[var(--text-1)] capitalize">{formatDate(booking.fecha, dateLocale)}</p>
+            <p data-testid="text-meeting-date" className="text-sm font-semibold text-[var(--text-1)] capitalize">{formatDate(booking.date, dateLocale)}</p>
           </div>
         </div>
         <div className="flex items-start gap-3">
           <ClockCircleIcon className="w-4 h-4 text-[var(--muted)] mt-0.5 flex-shrink-0" />
           <div>
             <p className="text-xs text-[var(--muted)] mb-0.5">{t("agenda.time")}</p>
-            <p data-testid="text-meeting-time" className="text-sm font-semibold text-[var(--text-1)]">{booking.horaInicio} — {booking.horaFin}</p>
+            <p data-testid="text-meeting-time" className="text-sm font-semibold text-[var(--text-1)]">{booking.startTime} — {booking.endTime}</p>
             <p className="text-[11px] text-[var(--muted)] mt-0.5">{t("agenda.timezone")}</p>
           </div>
         </div>
@@ -324,8 +323,7 @@ export default function MiAgendaPage() {
   const { data: booking, isLoading, isError } = useQuery<BookingData>({
     queryKey: ["/api/booking", bookingId],
     queryFn: async () => {
-      const res = await fetch(`/api/booking/${bookingId}${tokenQs}`, { credentials: "include" });
-      if (!res.ok) throw new Error("Booking not found");
+      const res = await apiRequest("GET", `/api/booking/${bookingId}${tokenQs}`);
       return res.json();
     },
     enabled: !!bookingId,
@@ -381,10 +379,10 @@ export default function MiAgendaPage() {
               <div className="flex items-start justify-between">
                 <div className="flex-1 min-w-0">
                   <p className="text-xs text-[var(--muted)] font-medium uppercase tracking-wider mb-0.5">{t("agenda.yourSession")}</p>
-                  <h1 data-testid="text-client-name" className="text-lg font-bold text-[var(--text-1)]">{booking.nombre}</h1>
+                  <h1 data-testid="text-client-name" className="text-lg font-bold text-[var(--text-1)]">{booking.name}</h1>
                   <p className="text-[11px] text-[var(--muted)] mt-0.5">{t("agenda.sessionType")}</p>
                 </div>
-                <StatusBadge estado={booking.estado} isPast={booking.isPast} />
+                <StatusBadge status={booking.status} isPast={booking.isPast} />
               </div>
             </div>
 

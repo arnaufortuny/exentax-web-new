@@ -373,6 +373,7 @@ httpServer.listen(
       try {
         const { getFutureAgenda } = await import("./storage");
         const { scheduleReminderEmail, getMeetingTimestampMs, getEndTime } = await import("./route-helpers");
+        const { SITE_URL } = await import("./server-constants");
         const now = Date.now();
         const allMeetings = await getFutureAgenda();
         let scheduled = 0;
@@ -385,6 +386,7 @@ httpServer.listen(
           const reminderMs = meetingMs - 3 * 60 * 60 * 1000;
           if (reminderMs <= now) continue;
           const endTime = m.endTime || getEndTime(m.startTime);
+          const manageUrl = m.manageToken ? `${SITE_URL}/booking/${m.id}?token=${m.manageToken}` : null;
           scheduleReminderEmail({
             clientName: m.name,
             clientEmail: m.email,
@@ -392,8 +394,8 @@ httpServer.listen(
             startTime: m.startTime,
             endTime,
             meetLink: m.googleMeet || null,
-            manageUrl: null,
-            language: null,
+            manageUrl,
+            language: m.language || null,
             agendaId: m.id,
           });
           scheduled++;
