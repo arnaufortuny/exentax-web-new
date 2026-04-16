@@ -25,6 +25,7 @@ import {
 } from "../discord";
 import { sheetsLogBookingUpdate } from "../google-sheets";
 import { apiOk, apiFail, apiNotFound, apiValidationFail } from "./api-response";
+import { backendLabel, resolveRequestLang } from "./shared";
 
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "";
 
@@ -51,7 +52,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.get("/api/admin/agenda/:bookingId", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     const manageUrl = row.manageToken
@@ -91,10 +92,10 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/reschedule", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
-    if (isCancelledStatus(row.status)) return apiFail(res, 400, "No se puede reagendar una reserva cancelada", "BOOKING_CANCELLED");
+    if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
 
     const parseSchema = z.object({
       date: z.string().regex(ISO_DATE_RE).refine(isValidISODate),
@@ -104,16 +105,16 @@ export function registerAdminRoutes(app: Express) {
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { date, startTime } = parsed.data;
 
-    if (row.meetingDate === date && row.startTime === startTime) return apiFail(res, 400, "Mismo horario actual", "SAME_SLOT");
+    if (row.meetingDate === date && row.startTime === startTime) return apiFail(res, 400, backendLabel("sameSlot", resolveRequestLang(req)), "SAME_SLOT");
 
-    if (!isWeekday(date)) return apiFail(res, 400, "Solo días laborables", "INVALID_DATE");
+    if (!isWeekday(date)) return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");
     const todayStr = todayMadridISO();
-    if (date < todayStr) return apiFail(res, 400, "No se puede reagendar a una fecha pasada", "PAST_DATE");
+    if (date < todayStr) return apiFail(res, 400, backendLabel("cannotReschedulePastDate", resolveRequestLang(req)), "PAST_DATE");
     const blockedDay = await getBlockedDay(date);
-    if (blockedDay) return apiFail(res, 400, "Día bloqueado", "BLOCKED_DATE");
+    if (blockedDay) return apiFail(res, 400, backendLabel("dateBlocked", resolveRequestLang(req)), "BLOCKED_DATE");
     const endTime = getEndTime(startTime);
     const validSlots = generateTimeSlots();
-    if (!validSlots.includes(startTime)) return apiFail(res, 400, "Horario no válido", "INVALID_TIME");
+    if (!validSlots.includes(startTime)) return apiFail(res, 400, backendLabel("invalidTimeSlot", resolveRequestLang(req)), "INVALID_TIME");
 
     const slotKey = `${date}T${startTime}`;
     const newRescheduleCount = (row.rescheduleCount ?? 0) + 1;
@@ -138,8 +139,8 @@ export function registerAdminRoutes(app: Express) {
         return { error: false as const };
       })
     );
-    if (claimResult.error === "CANCELLED") return apiFail(res, 400, "Reserva cancelada durante la operación", "BOOKING_CANCELLED");
-    if (claimResult.error === "SLOT_TAKEN") return apiFail(res, 409, "Horario ya ocupado", "SLOT_TAKEN");
+    if (claimResult.error === "CANCELLED") return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
+    if (claimResult.error === "SLOT_TAKEN") return apiFail(res, 409, backendLabel("slotAlreadyBooked", resolveRequestLang(req)), "SLOT_TAKEN");
 
     if (row.meetingDate && row.startTime && row.email) {
       cancelReminderTimer(row.meetingDate, row.startTime, row.email);
@@ -226,10 +227,10 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/cancel", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
-    if (isCancelledStatus(row.status)) return apiFail(res, 400, "Ya está cancelada", "ALREADY_CANCELLED");
+    if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
 
     const cancelResult = await withBookingLock(bookingId, async () => {
       const freshRow = await getAgendaById(bookingId);
@@ -238,7 +239,7 @@ export function registerAdminRoutes(app: Express) {
       await updateAgenda(bookingId, { status: AGENDA_STATUSES.CANCELLED, cancelledAt });
       return { error: false as const, row: freshRow };
     });
-    if (cancelResult.error) return apiFail(res, 400, "Ya está cancelada", "ALREADY_CANCELLED");
+    if (cancelResult.error) return apiFail(res, 400, backendLabel("alreadyCancelled", resolveRequestLang(req)), "ALREADY_CANCELLED");
     const confirmedRow = cancelResult.row!;
 
     if (confirmedRow.meetingDate && confirmedRow.startTime && confirmedRow.email) {
@@ -277,11 +278,11 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/no-show", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
     if (row.status === "no_show") return apiFail(res, 400, "Ya marcada como no-show", "ALREADY_NO_SHOW");
-    if (isCancelledStatus(row.status)) return apiFail(res, 400, "No se puede marcar cancelada como no-show", "BOOKING_CANCELLED");
+    if (isCancelledStatus(row.status)) return apiFail(res, 400, backendLabel("cannotRescheduleCancelled", resolveRequestLang(req)), "BOOKING_CANCELLED");
 
     await updateAgenda(bookingId, { status: AGENDA_STATUSES.NO_SHOW });
 
@@ -307,7 +308,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/send-noshow", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
 
@@ -322,7 +323,7 @@ export function registerAdminRoutes(app: Express) {
 
   app.post("/api/admin/agenda/:bookingId/resend-confirmation", adminAuth, asyncHandler(async (req, res) => {
     const bookingId = String(req.params.bookingId || "");
-    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, "ID inválido", "INVALID_ID");
+    if (!bookingId || bookingId.length > 100) return apiFail(res, 400, backendLabel("invalidInput", resolveRequestLang(req)), "INVALID_ID");
     const row = await getAgendaById(bookingId);
     if (!row) return apiNotFound(res, "Reserva no encontrada");
 

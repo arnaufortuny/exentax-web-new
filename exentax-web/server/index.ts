@@ -10,6 +10,7 @@ import { sql } from "drizzle-orm";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
 import { notifyCriticalError } from "./discord";
+import { SITE_URL } from "./server-constants";
 
 const REQUIRED_ENV_VARS: Array<{ name: string; prodOnly?: boolean; hint: string }> = [
   { name: "DATABASE_URL", hint: "PostgreSQL connection string" },
@@ -321,12 +322,12 @@ httpServer.listen(
       await serveStatic(app);
 
       setTimeout(() => {
+        const sitemapEnc = encodeURIComponent(`${SITE_URL}/sitemap.xml`);
         const urls = [
-          "https://www.google.com/ping?sitemap=https%3A%2F%2Fexentax.com%2Fsitemap.xml",
-          "https://www.bing.com/ping?sitemap=https%3A%2F%2Fexentax.com%2Fsitemap.xml",
+          `https://www.bing.com/ping?sitemap=${sitemapEnc}`,
         ];
         urls.forEach(url => fetch(url).catch(e => logger.info(`Sitemap ping failed for ${url}: ${e instanceof Error ? e.message : String(e)}`, "express")));
-        logger.info("Sitemap pings sent (Google + Bing)", "express");
+        logger.info("Sitemap ping sent (Bing). Note: Google deprecated sitemap pings in 2023; rely on Search Console.", "express");
       }, 5000);
     } else {
       const { setupVite } = await import("./vite");

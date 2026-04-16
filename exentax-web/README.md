@@ -105,8 +105,6 @@ exentax-web/
 │   └── schema.ts              # Drizzle table definitions, Zod insert schemas, TypeScript types
 ├── script/
 │   └── build.ts               # Production build script (esbuild + Vite)
-├── app-settings.json          # Persisted admin settings (booking hours, notify emails, etc.)
-├── company-entities.json      # Invoicing company/entity definitions
 ├── tailwind.config.ts
 ├── vite.config.ts
 ├── tsconfig.json
@@ -316,8 +314,6 @@ All admin endpoints require the `exentax_admin` session cookie. Access levels va
 | GET | `/api/admin/invoices/:id/pdf` | Generate invoice PDF |
 | POST | `/api/admin/invoices/batch-pdf` | Batch PDF generation |
 | POST | `/api/admin/invoices/:id/send-reminder` | Send payment reminder email |
-| Various | `/api/admin/company-entities/*` | CRUD for invoicing company entities |
-
 **Analytics, Settings & Exports:**
 
 | Method | Path | Description |
