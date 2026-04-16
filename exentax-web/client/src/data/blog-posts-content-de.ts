@@ -42,7 +42,7 @@ Die drei gängigsten Bundesstaaten für Nichtansässige sind:
 
 **New Mexico**: Der beliebteste unter unseren Kunden, und das aus guten Gründen. Es wird kein Annual Report verlangt, was die jährlichen Kosten reduziert. Die Daten der Gesellschafter sind nicht öffentlich, sodass Sie echte Privatsphäre haben, ohne extra zu zahlen. Keine staatliche Steuer. Es ist die direkteste Option mit der geringsten Bürokratie.
 
-**Wyoming**: Ebenfalls hervorragend für Privatsphäre. Überlegener Vermögensschutz und moderne Unternehmensgesetze. Kostet jedoch mehr als New Mexico und erfordert einen jährlichen Annual Report (\$60).
+**Wyoming**: Ebenfalls hervorragend für Privatsphäre. Überlegener Vermögensschutz und moderne Unternehmensgesetze. Kostet jedoch mehr als New Mexico und erfordert einen jährlichen Annual Report mit staatlicher Gebühr.
 
 **Delaware**: Der Bundesstaat mit dem besten rechtlichen Rahmen und bevorzugt von großen Unternehmen, C-Corps und Startups, die Venture-Capital-Investitionen suchen. Sein Court of Chancery ist weltweit führend im Unternehmensrecht. Aber er ist der teuerste und hat eine Franchise Tax. Für einen Freiberufler in der Regel überflüssig.
 
@@ -236,7 +236,7 @@ Wyoming hat einen hervorragenden Ruf in Sachen Privatsphäre und Vermögensschut
 - Überlegener Vermögensschutz, die Gesetze von Wyoming sind in dieser Hinsicht besonders robust
 - Moderne und gut etablierte Unternehmensgesetze
 
-**Erfordert:** Jährlichen Annual Report beim Bundesstaat + \$60 Gebühr (\$300, wenn das gemeldete Vermögen \$300.000 übersteigt). In unserem Verwaltungsplan enthalten.
+**Erfordert:** Jährlichen Annual Report beim Bundesstaat + staatliche Gebühr. In unserem Verwaltungsplan enthalten.
 
 **Ideal für:** Fachleute, die verstärkten Vermögensschutz benötigen, Trader mit bedeutendem Vermögen oder Unternehmer, die Wyoming wegen seines historischen Rufs bevorzugen. Wenn Ihr Budget es erlaubt und Sie den zusätzlichen Vermögensschutz schätzen, ist es eine gute Option.
 
@@ -255,7 +255,7 @@ Aber seien wir ehrlich: **Für einen Freiberufler oder digitalen Unternehmer, de
 - Bevorzugt von Investoren und Venture Capital. nahezu obligatorisch, wenn Sie Finanzierungsrunden planen
 - Umfangreiche Rechtsprechungshistorie
 
-**Erfordert:** Annual Report + Franchise Tax von \$300/Jahr (in unserem Verwaltungsplan enthalten).
+**Erfordert:** Annual Report + Franchise Tax (in unserem Verwaltungsplan enthalten).
 
 **Ideal für:** Startups, die sich als C-Corp gründen und Venture-Capital-Investitionen suchen wollen. Wenn ein Investmentfonds Geld in Ihr Unternehmen stecken will, wird er verlangen, dass Sie in Delaware registriert sind. Für alles andere: New Mexico oder Wyoming.
 
@@ -265,7 +265,7 @@ Aber seien wir ehrlich: **Für einen Freiberufler oder digitalen Unternehmer, de
 |---|---|---|---|
 | Gründung | Auf Anfrage | Auf Anfrage | Auf Anfrage |
 | Verwaltung/Jahr | Auf Anfrage | Auf Anfrage | Auf Anfrage |
-| Annual Report | Nein | Ja (\$60) | Ja + Franchise Tax (\$300) |
+| Annual Report | Nein | Ja (jährliche staatliche Gebühr) | Ja + Franchise Tax (jährliche staatliche Gebühr) |
 | Privatsphäre Gesellschafter | Hoch (nicht öffentlich) | Hoch (nicht öffentlich) | Mittel (können öffentlich sein) |
 | Rechtsrahmen | Standard | Modern | Premium |
 | Staatliche Steuer | Nein | Nein | Nein |
@@ -417,7 +417,7 @@ Als Eigentümer einer Single-Member LLC erhalten Sie kein „Gehalt" im traditio
 Nehmen wir an, Ihre LLC stellt monatlich \$8.000 in Rechnung. Eine gut strukturierte Ausschüttung könnte sein:
 
 - **\$2.000** → Steuerkonto (25% Rücklage)
-- **\$1.500** → Betriebsausgabenkonto (Tools, Dienstleistungen, Registered Agent)
+- **Betriebsbudget** → Betriebsausgabenkonto (Tools, Dienstleistungen, Registered Agent)
 - **\$500** → Reservefonds der LLC
 - **\$4.000** → Ausschüttung an den Eigentümer (Überweisung auf Ihr persönliches Konto)
 
@@ -775,8 +775,8 @@ Wenn Sie keine Einkünfte aus US-amerikanischen Quellen haben (Ihre Kunden sind 
 Hängt vom Gründungsstaat ab:
 
 - **New Mexico:** 0% Staatssteuer für LLCs von Nicht-Ansässigen. Kein Annual Report.
-- **Wyoming:** 0% Staatssteuer. Annual Report von \$60/Jahr.
-- **Delaware:** 0% Staatssteuer auf Einkünfte außerhalb von Delaware. Franchise Tax von \$300/Jahr.
+- **Wyoming:** 0% Staatssteuer. Jährlicher Annual Report mit staatlicher Gebühr.
+- **Delaware:** 0% Staatssteuer auf Einkünfte außerhalb von Delaware. Jährliche Franchise Tax.
 
 ### Steuerliche Pflichten (Compliance)
 
@@ -1505,7 +1505,7 @@ Wenn Sie ihn selbst beauftragen würden:
 
 - **Basisdienste:** \$50-100/Jahr
 - **Standarddienste:** \$100-200/Jahr (einschließlich Dokumentenscan und E-Mail-Benachrichtigungen)
-- **Premiumdienste:** \$200-350/Jahr (einschließlich Compliance, Annual Report-Erinnerungen, Postweiterleitung)
+- **Premiumdienste:** Premium-Tarif jährlich (einschließlich Compliance, Annual Report-Erinnerungen und Postweiterleitung)
 
 **Bei Exentax ist der Registered Agent in allen unseren Paketen enthalten.** Sowohl bei der Gründung als auch bei der jährlichen Wartung. Sie zahlen keinen Aufpreis, beauftragen ihn nicht separat und müssen ihn nicht selbst verlängern. Wir verwalten und verlängern ihn jedes Jahr automatisch.
 
@@ -1523,7 +1523,7 @@ Die Lehre daraus: Der Registered Agent ist keine überflüssige Ausgabe. Er ist 
 
 ## Kann ich den Registered Agent wechseln?
 
-Ja, jederzeit. Es wird ein Änderungsformular beim Secretary of State eingereicht (\$5-25 staatliche Gebühr je nach Bundesstaat). Wenn Sie von einem anderen Dienst kommen und möchten, dass Exentax Ihren Registered Agent verwaltet, kümmern wir uns um den Wechsel.
+Ja, jederzeit. Es wird ein Änderungsformular beim Secretary of State eingereicht (eine moderate staatliche Gebühr je nach Bundesstaat). Wenn Sie von einem anderen Dienst kommen und möchten, dass Exentax Ihren Registered Agent verwaltet, kümmern wir uns um den Wechsel.
 
 ## Ist der Registered Agent meine Geschäftsadresse?
 
@@ -1543,7 +1543,7 @@ Es gibt Registered-Agent-Dienste für 49\$/Jahr oder sogar weniger. Das Problem 
 - **Keine automatische Verlängerung:** Wenn Sie die Verlängerung vergessen, verliert Ihre LLC ihren Status. Das Reinstatement-Verfahren ist teurer und dauert länger
 - **Kein Support:** Wenn der IRS eine dringende Benachrichtigung schickt, wird Sie niemand warnen
 
-Ein zuverlässiger Registered Agent ist kein Luxus. Er ist eine Betriebsversicherung. Die \$50-100 Differenz zwischen einem Minimaldienst und einem professionellen Service sind vernachlässigbar im Vergleich zu den Kosten eines nicht rechtzeitig erkannten Problems.
+Ein zuverlässiger Registered Agent ist kein Luxus. Er ist eine Betriebsversicherung. Der Aufpreis zwischen einem Minimaldienst und einem professionellen Service sind vernachlässigbar im Vergleich zu den Kosten eines nicht rechtzeitig erkannten Problems.
 
 ## Die Verbindung zwischen Registered Agent und Bankzugang
 
@@ -1648,7 +1648,7 @@ Viele Freiberufler denken erst im März–Juni an die Steuern, wenn es bereits z
 
 ## Fehler 8: Das Pass-Through-Besteuerungsverfahren nicht verstehen
 
-Wenn Sie eine LLC in den Vereinigten Staaten haben (oder erwägen), gibt es ein Konzept, das Sie gut verstehen müssen: **Pass-Through Taxation.** Ihre Single-Member LLC als Nicht-Resident ist eine "Disregarded Entity" für den IRS, das bedeutet, dass die LLC keine Bundessteuer in den USA zahlt (\$0). Die Gewinne "fließen direkt durch" zu Ihnen als Eigentümer.
+Wenn Sie eine LLC in den Vereinigten Staaten haben (oder erwägen), gibt es ein Konzept, das Sie gut verstehen müssen: **Pass-Through Taxation.** Ihre Single-Member LLC als Nicht-Resident ist eine "Disregarded Entity" für den IRS, das bedeutet, dass die LLC keine Bundessteuer in den USA zahlt. Die Gewinne "fließen direkt durch" zu Ihnen als Eigentümer.
 
 Was bedeutet das? Sie deklarieren die Nettogewinne Ihrer LLC in Ihrem Wohnsitzland. Aber bevor Sie versteuern, ziehen Sie ALLE legitimen Ausgaben der LLC ab: Software, Hardware, Marketing, Fortbildung, professionelle Dienstleistungen, Bankgebühren, Coworking, Geschäftsreisen... Die verbleibende Bemessungsgrundlage ist deutlich geringer, als wenn Sie direkt als Selbstständiger fakturieren würden.
 
@@ -2036,7 +2036,7 @@ Den Good Standing aufrechtzuerhalten ist einfach, wenn Sie die Pflichten rechtze
 ## Jährliche Pflichten nach Bundesstaat
 
 ### New Mexico
-- **Annual Report:** Nicht erforderlich (ja, Sie haben richtig gelesen. \$0 und null staatliche Formalitäten)
+- **Annual Report:** Nicht erforderlich (ja, Sie haben richtig gelesen: null staatliche Formalitäten)
 - **Jährliche Staatsgebühr:** \$0
 - **Ergebnis:** Die einfachste Wartung der drei Bundesstaaten. Deshalb ist es unser Favorit
 
@@ -2048,7 +2048,7 @@ Den Good Standing aufrechtzuerhalten ist einfach, wenn Sie die Pflichten rechtze
 
 ### Delaware
 - **Annual Report:** Ja, jedes Jahr
-- **Jährliche Gebühr:** \$300 (feste Franchise Tax für LLCs)
+- **Jährliche Gebühr:** (feste Franchise Tax für LLCs)
 - **Frist:** 1. Juni jedes Jahres
 - **Bei Exentax:** Im Wartungsplan enthalten
 
@@ -2872,7 +2872,7 @@ Hier erklären wir Ihnen den Prozess Schritt für Schritt. damit Sie genau verst
 
 Der erste Schritt besteht darin, in welchem Bundesstaat Sie Ihre LLC gründen möchten. Die drei beliebtesten für Nichtansässige:
 
-- **New Mexico**: Kein Annual Report und keine jährlichen Gebühren ($0/Jahr an staatlicher Wartung)
+- **New Mexico**: Kein Annual Report und keine jährlichen Gebühren (keine jährlichen Staatsgebühren)
 - **Wyoming**: Maximale Privatsphäre. Mitgliederdaten sind nicht öffentlich
 - **Delaware**: Bester rechtlicher Rahmen. Empfohlen, wenn Sie Investoren suchen
 
@@ -3446,32 +3446,32 @@ Die anfänglichen Kosten hängen vom gewählten Bundesstaat ab:
 ### New Mexico
 | Posten | Kosten |
 |---|---|
-| Staatliche Filing-Gebühr | \$50 |
-| Registered Agent (erstes Jahr) | \$50-150 |
-| Beantragung der EIN | Inklusive oder \$0-50 |
-| Operating Agreement | Inklusive oder \$50-200 |
-| BOI Report | Inklusive oder \$0-50 |
-| **Gesamtkosten Gründung** | **\$150-500** |
+| Staatliche Filing-Gebühr | Anwendbare staatliche Gebühr |
+| Registered Agent (erstes Jahr) | Im Service enthalten |
+| Beantragung der EIN | Im Service enthalten |
+| Operating Agreement | Maßgeschneidert, enthalten |
+| BOI Report | Pflichteinreichung, enthalten |
+| **Komplette Gründung** | Pauschale Servicegebühr |
 
 ### Wyoming
 | Posten | Kosten |
 |---|---|
-| Staatliche Filing-Gebühr | \$100 |
-| Registered Agent (erstes Jahr) | \$50-150 |
-| Beantragung der EIN | Inklusive oder \$0-50 |
-| Operating Agreement | Inklusive oder \$50-200 |
-| BOI Report | Inklusive oder \$0-50 |
-| **Gesamtkosten Gründung** | **\$200-550** |
+| Staatliche Filing-Gebühr | Anwendbare staatliche Gebühr |
+| Registered Agent (erstes Jahr) | Im Service enthalten |
+| Beantragung der EIN | Im Service enthalten |
+| Operating Agreement | Maßgeschneidert, enthalten |
+| BOI Report | Pflichteinreichung, enthalten |
+| **Komplette Gründung** | Pauschale Servicegebühr |
 
 ### Delaware
 | Posten | Kosten |
 |---|---|
-| Staatliche Filing-Gebühr | \$90 |
-| Registered Agent (erstes Jahr) | \$50-200 |
-| Beantragung der EIN | Inklusive oder \$0-50 |
-| Operating Agreement | Inklusive oder \$50-200 |
-| BOI Report | Inklusive oder \$0-50 |
-| **Gesamtkosten Gründung** | **\$190-590** |
+| Staatliche Filing-Gebühr | Anwendbare staatliche Gebühr |
+| Registered Agent (erstes Jahr) | Im Service enthalten |
+| Beantragung der EIN | Im Service enthalten |
+| Operating Agreement | Maßgeschneidert, enthalten |
+| BOI Report | Pflichteinreichung, enthalten |
+| **Komplette Gründung** | Pauschale Servicegebühr |
 
 ## Laufende Kosten (jährlich)
 
@@ -3480,27 +3480,27 @@ Sobald Ihre LLC gegründet ist, fallen wiederkehrende Kosten an:
 ### New Mexico: keine jährlichen Gebühren
 | Posten | Jährliche Kosten |
 |---|---|
-| Annual Report | Nicht erforderlich (\$0) |
-| Jährliche Staatsgebühr | \$0 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 (professionelle Erstellung) |
-| **Gesamtkosten Unterhalt** | **\$200-650/Jahr** |
+| Annual Report | Nicht erforderlich |
+| Jährliche Staatsgebühr | Entfällt |
+| Registered Agent | Im Service enthalten |
+| Form 5472 + 1120 | Professionelle Erstellung enthalten |
+| **Komplette Verwaltung** | Pauschale Jahresgebühr |
 
 ### Wyoming
 | Posten | Jährliche Kosten |
 |---|---|
-| Annual Report + Gebühr | \$60 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 |
-| **Gesamtkosten Unterhalt** | **\$260-710/Jahr** |
+| Annual Report | Pflichteinreichung mit Jahresgebühr |
+| Registered Agent | Im Service enthalten |
+| Form 5472 + 1120 | Professionelle Erstellung enthalten |
+| **Komplette Verwaltung** | Pauschale Jahresgebühr |
 
 ### Delaware. am teuersten
 | Posten | Jährliche Kosten |
 |---|---|
-| Franchise Tax + Annual Report | \$300 |
-| Registered Agent | \$50-200 |
-| Form 5472 + 1120 | \$150-500 |
-| **Gesamtkosten Unterhalt** | **\$500-1.000/Jahr** |
+| Franchise Tax + Annual Report | Jahresgebühr + Franchise Tax |
+| Registered Agent | Im Service enthalten |
+| Form 5472 + 1120 | Professionelle Erstellung enthalten |
+| **Komplette Verwaltung** | Pauschale Jahresgebühr |
 
 ## Was kostet es mit Exentax?
 
@@ -3526,7 +3526,7 @@ Die Differenz: **16.800-19.200€ pro Jahr**. Die Kosten der LLC amortisieren si
 
 ## „Aber gibt es nicht Dienste, die das für \$49 machen?"
 
-Ja, die gibt es. Und sie machen genau das, was \$49 wert ist: ein Formular ausfüllen und es Ihnen schicken. Ohne steuerliche Beratung, ohne an Ihre Situation angepasstes Operating Agreement, ohne Betreuung nach der Gründung, ohne Erstellung von Steuererklärungen, ohne dass Ihnen jemand erklärt, was Sie danach tun müssen.
+Ja, die gibt es. Und sie machen rein mechanische Arbeit: ein Formular ausfüllen und es Ihnen schicken. Ohne steuerliche Beratung, ohne an Ihre Situation angepasstes Operating Agreement, ohne Betreuung nach der Gründung, ohne Erstellung von Steuererklärungen, ohne dass Ihnen jemand erklärt, was Sie danach tun müssen.
 
 Die LLC zu gründen ist der einfachste Schritt. Das Schwierige, und das, was den Unterschied macht. ist, sie korrekt zu betreiben, damit Ihre Steuerstruktur funktioniert.
 

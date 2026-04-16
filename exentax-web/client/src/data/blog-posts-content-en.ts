@@ -45,8 +45,8 @@ The three most popular states for non-residents are:
 
 | Feature | New Mexico | Wyoming | Delaware |
 |---|---|---|---|
-| State filing fee | $50 | $100 | $90 |
-| Annual report | None ($0) | $60/year | $300/year |
+| State filing fee | Required | Required | Required |
+| Annual report | Not required | Required annually | Required + Franchise Tax |
 | Member privacy | Full | Full | Limited |
 | Asset protection | Strong | Strongest | Strong |
 | Best for | Most freelancers | Asset protection | VC investment |
@@ -82,7 +82,7 @@ Once your LLC is formed, you have annual obligations:
 - **Form 5472 + Form 1120**: filed with the IRS each year (we handle this). Penalty for non-filing: **$25,000 per form per year** (IRC §6038A)
 - **BOI Report**: beneficial ownership information filed with FinCEN. Penalty: **$591/day** for non-compliance, up to $10,000 + 2 years criminal
 - **Registered Agent renewal**: maintaining your US address
-- **State annual report**: where applicable (New Mexico: $0, Wyoming: $60, Delaware: $300)
+- **State annual report**: where applicable (varies by state)
 - **FBAR (FinCEN Form 114)**: if your US financial accounts exceed $10,000 at any point during the year
 
 ## Real numbers: the savings
@@ -129,7 +129,7 @@ If you want to know whether a US LLC makes sense for your specific situation, bo
 | Currency conversion | Bank markups (2-4%) | Wise real rates (0.4-1.5%) |
 | International credibility | Individual freelancer | US business entity |
 | Compliance burden | Local only | US filings handled by Exentax |
-| Annual maintenance | N/A | ~$1,000-1,500/year |
+| Annual maintenance | N/A | a reasonable annual fee |
 | **Net annual benefit** | — | **$8,000-20,000+** |
 
 The numbers speak for themselves. For most digital entrepreneurs earning $3,000+/month with international clients, the LLC is the most impactful financial decision you can make.
@@ -167,7 +167,7 @@ We don't just file paperwork. We build your complete business infrastructure:
 Yes. The entire process is 100% remote. You never need to visit the United States.
 
 **How much does it cost in total?**
-Formation costs vary by state ($50-100 state fee + Exentax service fee). Annual maintenance is a fixed fee covering all filings and support. Book a consultation for exact pricing.
+Formation costs vary by state (state filing fee plus our service fee). Annual maintenance is a fixed fee covering all filings and support. Book a consultation for exact pricing.
 
 **What if I already have an LLC from another service?**
 We can take over your annual maintenance, including Registered Agent transfer, if your existing LLC is properly structured. If it needs corrections, we can help restructure.
@@ -326,10 +326,10 @@ All three states are excellent choices. The right one depends on your specific s
 New Mexico is the best-kept secret among US LLC formations. It offers:
 
 **Advantages:**
-- No annual report required; zero ongoing state fees ($0/year)
+- No annual report required; no ongoing state fees
 - Complete privacy; member names are not in any public database
 - No publication requirement (unlike some states like New York)
-- Very low formation cost ($50 state filing fee)
+- Very low formation cost (state filing fee)
 - Excellent for most digital businesses and freelancers
 - Fastest and simplest annual maintenance
 
@@ -346,13 +346,13 @@ Wyoming has been a leader in LLC law for decades. It invented the LLC structure 
 **Advantages:**
 - Some of the strongest asset protection laws in the US
 - Strong privacy; no public member disclosure required
-- Low annual fees ($60/year)
+- Low annual fees (state-level annual report)
 - "Charging order" protection is very strong; creditors can only get a charging order on distributions, they cannot seize your LLC membership or force distributions
 - Well recognized globally
 - Strong case law supporting LLC protections
 
 **Considerations:**
-- Annual report required ($60 filing fee, due on the anniversary date)
+- Annual report required (due on the anniversary date)
 - Slightly higher than New Mexico for ongoing costs
 
 **Best for:** Entrepreneurs with significant assets to protect, those who want maximum asset protection, anyone facing potential litigation risks, or those with higher-value businesses.
@@ -369,7 +369,7 @@ Delaware is where most Fortune 500 companies and startups incorporate. It has th
 - Most extensive body of corporate case law
 
 **Considerations:**
-- Annual franchise tax of $300 flat for LLCs (non-negotiable)
+- Flat annual franchise tax for LLCs (non-negotiable)
 - Less privacy than New Mexico or Wyoming
 - Higher overall annual costs
 - Overkill for most freelancers and small businesses
@@ -380,8 +380,8 @@ Delaware is where most Fortune 500 companies and startups incorporate. It has th
 
 | Cost item | New Mexico | Wyoming | Delaware |
 |---|---|---|---|
-| State filing fee | $50 | $100 | $90 |
-| Annual report | $0 (none required) | $60/year | $300/year (franchise tax) |
+| State filing fee | Required | Required | Required |
+| Annual report | None required | Required annually | Required + Franchise Tax |
 | Registered Agent | Included | Included | Included |
 | Form 5472 + 1120 | Included | Included | Included |
 | FBAR | Included | Included | Included |
@@ -419,8 +419,8 @@ We analyze your situation during the strategic consultation and recommend the op
 
 | Factor | New Mexico | Wyoming | Delaware | Florida |
 |---|---|---|---|---|
-| **Formation fee** | $50 | $100 | $90 | $125 |
-| **Annual report** | NONE ($0) | $60/year | $300/year | $138.75/year |
+| **Formation fee** | State filing | State filing | State filing | State filing |
+| **Annual report** | Not required | Required annually | Required + Franchise Tax | Required annually |
 | **State income tax** | Yes (but N/A for non-residents without nexus) | NONE | NONE | NONE |
 | **Owner privacy** | High (no names on filings) | High | Medium | Low |
 | **Franchise tax** | None | None | None | None for LLCs |
@@ -433,14 +433,14 @@ We analyze your situation during the strategic consultation and recommend the op
 
 For 90% of non-resident digital entrepreneurs, **New Mexico** is the optimal choice:
 
-1. **$0/year annual maintenance** (no annual report required, ever)
+1. **no annual state maintenance** (no annual report required, ever)
 2. **Maximum privacy** (owner names never appear on public record)
 3. **No state income tax** on foreign-source service income
 4. **Fast formation** (1-2 business days)
 5. **Clean track record** with Mercury, Stripe, Wise, and other fintech platforms
-6. **Total annual state cost: $0** (vs. $60 Wyoming, $300 Delaware)
+6. **No annual state cost** (vs. Wyoming annual report and Delaware franchise tax)
 
-Over 5 years, choosing New Mexico over Delaware saves you **$1,500 in state fees alone**: and that's before considering the time saved by not filing annual reports.
+Over 5 years, choosing New Mexico over Delaware saves significant state fees, and that's before considering the time saved by not filing annual reports.
 
 ## Frequently asked state questions
 
@@ -448,13 +448,13 @@ Over 5 years, choosing New Mexico over Delaware saves you **$1,500 in state fees
 Yes, through a process called "domestication" or by forming a new LLC in the target state and dissolving the old one. However, it involves new filing fees, new EIN (potentially), and updating all banking relationships. Better to choose correctly the first time.
 
 **"Does the state affect my taxes?"**
-For non-residents with no US-source income: no. Your federal tax obligation ($0) doesn't change by state. The state choice affects annual fees, privacy, and legal framework, not your tax bill.
+For non-residents with no US-source income: no. Your federal tax obligation doesn't change by state. The state choice affects annual fees, privacy, and legal framework, not your tax bill.
 
 **"Does Mercury care which state I choose?"**
 Mercury accepts LLCs from all 50 states. However, they're most familiar with New Mexico, Wyoming, and Delaware LLCs from non-residents. These states have the smoothest approval process.
 
 **"What about Nevada?"**
-Nevada markets itself as a business-friendly state, but its advantages (no state income tax, strong privacy) are matched by Wyoming and New Mexico at lower cost. Nevada's annual fees ($350/year) make it less attractive than New Mexico ($0/year) or Wyoming ($60/year).
+Nevada markets itself as a business-friendly state, but its advantages (no state income tax, strong privacy) are matched by Wyoming and New Mexico at lower cost. Nevada's higher annual fees make it less attractive than New Mexico or Wyoming.
 
 **"Can I form in one state and operate in another?"**
 Yes, this is called "foreign qualification." Your LLC can operate anywhere regardless of where it's formed. For digital businesses with no physical US presence, this is rarely relevant.
@@ -476,23 +476,22 @@ Yes, this is called "foreign qualification." Your LLC can operate anywhere regar
 
 | Year | New Mexico | Wyoming | Delaware | Florida |
 |---|---|---|---|---|
-| Year 1 | $50 | $100 | $90 | $125 |
-| Year 2 | $0 | $60 | $300 | $138.75 |
-| Year 3 | $0 | $60 | $300 | $138.75 |
-| Year 4 | $0 | $60 | $300 | $138.75 |
-| Year 5 | $0 | $60 | $300 | $138.75 |
-| **5-year total** | **$50** | **$340** | **$1,290** | **$680** |
-| **Savings vs. Delaware** | **$1,240** | **$950** | **—** | **$610** |
+| Year 1 | One-time formation | One-time formation | One-time formation | One-time formation |
+| Year 2 | None | Annual report | Annual report + Franchise Tax | Annual report |
+| Year 3 | None | Annual report | Annual report + Franchise Tax | Annual report |
+| Year 4 | None | Annual report | Annual report + Franchise Tax | Annual report |
+| Year 5 | None | Annual report | Annual report + Franchise Tax | Annual report |
+| **5-year cost profile** | **Lowest** | **Low + annual report** | **Highest (franchise tax)** | **Mandatory annual report** |
 
 These are just state costs. Add Registered Agent fees, professional filing fees, and professional service costs, and the gap grows even larger.
 
 ## The state nobody talks about: Florida
 
 Florida is a popular choice for LLC formation because of its zero state income tax and business-friendly reputation. However, for non-residents:
-- **Annual report:** $138.75/year (mandatory, or your LLC gets dissolved)
-- **Late filing penalty:** $400 penalty if filed after May 1
+- **Annual report:** mandatory annual report (failure dissolves the LLC)
+- **Late filing penalty:** state-level penalty if filed after May 1
 - **Privacy:** LOW. officer/member names appear on public Sunbiz.org record
-- **Formation speed:** 1-3 days (standard), same day (expedited: $50 extra)
+- **Formation speed:** 1-3 days (standard), same day available (expedited surcharge applies)
 - **Best for:** Entrepreneurs with physical US presence or operations in Florida
 
 For purely digital, non-resident businesses, New Mexico or Wyoming offers every advantage of Florida at a fraction of the cost with much better privacy.
@@ -501,7 +500,7 @@ For purely digital, non-resident businesses, New Mexico or Wyoming offers every 
 
 | Your profile | Best state | Why |
 |---|---|---|
-| Solo freelancer, services only | New Mexico | $0/year, max privacy, simplest |
+| Solo freelancer, services only | New Mexico | no state annual fees, max privacy, simplest |
 | Freelancer wanting asset protection | Wyoming | Strongest charging order protection |
 | Planning to seek VC investment | Delaware | Chancery Court, investor-familiar |
 | Amazon FBA seller | New Mexico or Wyoming | Cost-effective, privacy |
@@ -518,7 +517,7 @@ For purely digital, non-resident businesses, New Mexico or Wyoming offers every 
 4. **Is cost minimization your top priority?** → New Mexico
 5. **All other cases?** → New Mexico (default recommendation)
 
-At Exentax, we recommend New Mexico for 90%+ of our clients. The combination of $0 annual fees, maximum privacy, and proven compatibility with Mercury, Stripe, and other fintech platforms makes it the clear winner for digital entrepreneurs.
+At Exentax, we recommend New Mexico for 90%+ of our clients. The combination of no annual state fees, maximum privacy, and proven compatibility with Mercury, Stripe, and other fintech platforms makes it the clear winner for digital entrepreneurs.
 
 
 ## Related articles
@@ -538,11 +537,11 @@ Book your strategic consultation and we'll help you choose the right state for y
 
 | Cost item | Amount | Notes |
 |---|---|---|
-| State filing fee | $50-$300 | New Mexico: $50, Wyoming: $100, Delaware: $90 |
-| EIN application | $0 | Free from the IRS (Form SS-4) |
-| Registered Agent (year 1) | $0-$200 | Included with most formation services |
-| Operating Agreement | $0-$500 | Included with Exentax formation |
-| BOI Report filing | $0 | Included with Exentax formation |
+| State filing fee | Required | Varies by state |
+| EIN application | Free filing | Form SS-4 with IRS |
+| Registered Agent (year 1) | Included | With most formation services |
+| Operating Agreement | Tailored draft | Included with Exentax formation |
+| BOI Report filing | No government fee | Included with Exentax formation |
 | **Formation service fee** | **Varies** | Exentax: all-inclusive package |
 
 ### What's included with Exentax formation:
@@ -559,7 +558,7 @@ Book your strategic consultation and we'll help you choose the right state for y
 | Obligation | Cost | Frequency |
 |---|---|---|
 | Registered Agent renewal | Included | Annual |
-| Annual state report | $0 (NM) / $60 (WY) / $300 (DE) | Annual |
+| Annual state report | NM none / WY annual / DE franchise tax | Annual |
 | Form 5472 + 1120 filing | Included with maintenance | Annual |
 | Form 7004 extension | Included | Annual |
 | FBAR filing (if applicable) | Included | Annual |
@@ -586,7 +585,7 @@ For a freelancer earning $60,000/year:
 | Gross revenue | $60,000 | $60,000 |
 | Tax rate (Spain example) | ~35% effective | ~20% effective |
 | Annual tax | $21,000 | $12,000 |
-| LLC maintenance cost | $0 | ~$1,500 |
+| LLC maintenance cost | None | Annual fee |
 | **Net after tax + costs** | **$39,000** | **$46,500** |
 | **Annual benefit** | — | **$7,500** |
 
@@ -594,46 +593,46 @@ The LLC pays for itself 5x over in the first year alone. And the benefit scales 
 
 ## Hidden costs to watch out for
 
-1. **Rush filing fees:** Some states charge extra for expedited processing ($50-$500). Plan ahead to avoid these.
-2. **Additional state registrations:** If you sell physical goods in certain states, you may need sales tax permits ($0-$50 each).
-3. **ITIN application:** If you need one for Amazon or PayPal, budget $0 for the IRS filing but $150-$350 for CAA certification.
-4. **Professional insurance:** E&O or general liability ($500-$2,000/year), optional but recommended for service providers.
-5. **Bookkeeping software:** QuickBooks, Wave, or similar ($0-$30/month), helps organize for Form 5472.
+1. **Rush filing fees:** Some states charge extra for expedited processing. Plan ahead to avoid these.
+2. **Additional state registrations:** If you sell physical goods in certain states, you may need sales tax permits (state fees apply).
+3. **ITIN application:** If you need one for Amazon or PayPal, the IRS filing itself is free but CAA certification has a third-party cost.
+4. **Professional insurance:** E&O or general liability (third-party premium varies), optional but recommended for service providers.
+5. **Bookkeeping software:** QuickBooks, Wave, or similar (free or low-cost tiers), helps organize for Form 5472.
 
 ## Cost comparison: formation services
 
 | Service | Formation fee | What's included | Annual RA cost | Hidden fees |
 |---|---|---|---|---|
 | **Exentax** | All-inclusive | EIN, OA, BOI, RA, Mercury coordination | Included | None |
-| **Northwest RA** | $39 | State filing only | $125/year | EIN: $50, OA: $100 |
-| **ZenBusiness** | $0-$199 | State filing + basic docs | $199/year | Upsells on every step |
-| **LegalZoom** | $0-$299 | State filing + basic docs | $299/year | Heavy upsells, add-ons |
-| **Incfile (now ZenBusiness)** | $0-$199 | State filing | $119/year | Limited support |
-| **DIY (direct with state)** | $50-$300 | Just state filing | $0 (you are RA) | Must be in US |
+| **Northwest RA** | Service fee | State filing only | Annual fee | EIN and OA available separately |
+| **ZenBusiness** | Service fee | State filing + basic docs | Annual fee | Frequent upsells |
+| **LegalZoom** | Service fee | State filing + basic docs | Annual fee | Heavy upsells |
+| **Incfile (now ZenBusiness)** | Service fee | State filing | Annual fee | Limited support |
+| **DIY (direct with state)** | State only | Just state filing | Self-act as RA | Must be in US |
 
 ### What "free formation" really costs
-Services advertising "$0 formation" charge $0 for the state filing, but charge full price for everything else:
-- Operating Agreement: $99-299
-- EIN filing: $50-99
-- BOI Report: $49-99
-- Registered Agent (after year 1): $99-299
-- Compliance alerts: $49-99/year
-- Rush processing: $50-200
+Services advertising "free formation" do not charge for the state filing itself, but charge full price for everything else:
+- Operating Agreement: drafting service
+- EIN filing: third-party fee
+- BOI Report: third-party fee
+- Registered Agent (after year 1): annual service
+- Compliance alerts: extra annual fee
+- Rush processing: surcharge applies
 
-**True total "free" formation:** $297-$995 in the first year, plus annual RA and compliance fees.
+**True total "free" formation:** several hundred to nearly a thousand dollars in the first year, plus annual RA and compliance fees.
 
 ## The 5-year cost projection
 
 | Year | New Mexico (Exentax) | Wyoming (Exentax) | Delaware (DIY) |
 |---|---|---|---|
-| Year 1 | Formation + maintenance | Formation + maintenance | $90 + $300 + RA + EIN |
-| Year 2 | Maintenance only | Maintenance + $60 | $300 + RA + accountant |
-| Year 3 | Maintenance only | Maintenance + $60 | $300 + RA + accountant |
-| Year 4 | Maintenance only | Maintenance + $60 | $300 + RA + accountant |
-| Year 5 | Maintenance only | Maintenance + $60 | $300 + RA + accountant |
-| **State fees total** | **$50 (one-time)** | **$100 + $240 = $340** | **$90 + $1,200 = $1,290** |
+| Year 1 | Formation + maintenance | Formation + maintenance | Formation fee + Franchise Tax + RA + EIN |
+| Year 2 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 3 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 4 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 5 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| **State fees total** | **One-time formation** | **Annual report add-on** | **Franchise Tax add-on** |
 
-New Mexico saves you **$1,240 in state fees alone** over 5 years compared to Delaware. That's money that stays in your Mercury account generating yield through Slash.
+New Mexico saves you a meaningful amount in state fees over 5 years compared to Delaware. That's money that stays in your Mercury account generating yield through Slash.
 
 ## When the LLC doesn't make financial sense (yet)
 
@@ -641,7 +640,7 @@ Be honest with yourself about the numbers. The LLC doesn't make sense for everyo
 
 | Revenue level | Savings potential | Recommendation |
 |---|---|---|
-| < $1,500/month | Savings may not cover costs | Wait until revenue grows |
+| Low monthly billing | Savings may not cover costs | Wait until revenue grows |
 | $1,500-$3,000/month | Break-even to modest savings | Depends on growth trajectory |
 | $3,000-$5,000/month | Clear savings ($3,000-6,000/year) | Good time to form |
 | $5,000-$10,000/month | Significant savings ($6,000-15,000/year) | Definitely form |
@@ -658,7 +657,7 @@ Every month you delay forming your LLC while earning $5,000+/month is a month of
 - Paying currency conversion markups (2-4% vs 0.4-1.5%)
 - Missing deduction opportunities
 
-At $5,000/month revenue, a 6-month delay costs approximately $3,000-$7,500 in lost savings. That's more than the total cost of forming and maintaining the LLC for an entire year.
+At a moderate monthly revenue, a 6-month delay costs significant lost savings. That's more than the total cost of forming and maintaining the LLC for an entire year.
 
 
 ## Related articles
@@ -902,7 +901,7 @@ The IRS recommends **7 years** for LLC records. However, given that Form 5472 ha
 | Google Drive | Receipt storage, document organization | Free |
 | Mercury exports | Bank statement archive | Free |
 | Wise exports | Currency conversion records | Free |
-| QuickBooks Self-Employed | Full accounting (optional) | $15/month |
+| QuickBooks Self-Employed | Full accounting (optional) | monthly fee |
 
 ## Common mistakes entrepreneurs make
 
@@ -1637,7 +1636,7 @@ No corporate-level tax in the US means no double taxation. the income is only ta
 - Deductible expenses: ~$12,000
 - Net declared: ~$48,000
 - ISR on $48,000 (optimized structure): ~$7,000
-- LLC costs: ~$1,500
+- LLC costs: reasonable
 - Total: ~$8,500
 
 **Savings: ~$9,500/year**
@@ -1651,7 +1650,7 @@ No corporate-level tax in the US means no double taxation. the income is only ta
 - Deductible expenses: ~$8,000
 - Net declared: ~$37,000
 - Colombia income tax (optimized): ~$5,000
-- LLC costs: ~$1,500
+- LLC costs: reasonable
 - Total: ~$6,500
 
 **Savings: ~$4,750/year**
@@ -1691,7 +1690,7 @@ At Exentax, every deadline is tracked, every filing is prepared in advance, and 
 | Missed FBAR (willful) | $129,210 | 50% of account balance |
 | State dissolution + reinstatement | $200-500 | $500+ plus back fees |
 
-Compare these to the annual cost of professional maintenance (~$1,000-1,500) and the decision is obvious. Professional compliance isn't an expense. it's insurance against financial catastrophe.
+Compare these to the annual cost of professional maintenance and the decision is obvious. Professional compliance isn't an expense. it's insurance against financial catastrophe.
 
 ## Frequently asked questions
 
@@ -2180,9 +2179,9 @@ For a non-resident living in Spain, Mexico, Colombia, or any other country, bein
 
 If you hired one independently:
 
-- **Basic services:** $50-100/year
-- **Standard services:** $100-200/year (includes document scanning and email notifications)
-- **Premium services:** $200-350/year (includes compliance, Annual Report reminders, postal forwarding)
+- **Basic services:** a basic annual fee
+- **Standard services:** standard annual tier (includes document scanning and email notifications)
+- **Premium services:** higher annual tier (includes compliance, Annual Report reminders, postal forwarding)
 
 **At Exentax, the Registered Agent is included in all our plans.** Both in formation and annual maintenance. You don't pay extra, you don't hire it separately, you don't have to renew it yourself. We manage and renew it automatically every year.
 
@@ -2200,7 +2199,7 @@ The bottom line: the Registered Agent is not a superfluous expense. It's a funda
 
 ## Can I change my Registered Agent?
 
-Yes, at any time. You file a change form with the Secretary of State ($5-25 state fee depending on the state). If you're coming from another service and want Exentax to manage your Registered Agent, we handle the change.
+Yes, at any time. You file a change form with the Secretary of State (modest state fee depending on the state). If you're coming from another service and want Exentax to manage your Registered Agent, we handle the change.
 
 ## Is the Registered Agent my business address?
 
@@ -2213,7 +2212,7 @@ That said, as a non-resident it's the only physical address you have in the US, 
 
 ## The things nobody tells you about cheap Registered Agents
 
-The Registered Agent market is full of $10-25/year options. Sounds like a bargain, but there are consequences nobody explains:
+The Registered Agent market is full of bargain-priced options. Sounds like a bargain, but there are consequences nobody explains:
 
 **They don't remind about renewal.** Ultra-cheap services don't send reminders. One day you discover your LLC is in "Not in Good Standing" because your Registered Agent expired months ago. By then, Mercury may have frozen your account.
 
@@ -2221,7 +2220,7 @@ The Registered Agent market is full of $10-25/year options. Sounds like a bargai
 
 **No support for non-residents.** Most cheap services are designed for American residents. They don't understand that your LLC has a foreign owner, don't know what Form 5472 is, and can't guide you if the state sends something you don't understand.
 
-**Aggressive upselling.** They charge $25 for the Registered Agent but then want to sell you Annual Report filing at $150, compliance monitoring at $200, and mail forwarding at $100. You end up paying more than with an integrated service.
+**Aggressive upselling.** They charge a very low rate for the Registered Agent but then upsell Annual Report filing, compliance monitoring, and mail forwarding. You end up paying more than with an integrated service.
 
 ## Registered Agent and your bank account: the invisible connection
 
@@ -2236,14 +2235,14 @@ At Exentax we work with established, reputable registered agents with clean trac
 | RA Service Type | Cost | Pros | Cons |
 |---|---|---|---|
 | **Included with formation (Exentax)** | Included | Coordinated with all filings, no separate vendor | — |
-| **Commercial RA (Northwest, etc.)** | $100-300/year | Established, reliable | Separate from your LLC manager |
+| **Commercial RA (Northwest, etc.)** | Established annual fee | Established, reliable | Separate from your LLC manager |
 | **Individual (friend/family in US)** | $0 | Free | Must be available at address during business hours, every business day |
-| **Your own US address** | $0 | No extra cost | You'd need a physical US office (not viable for most non-residents) |
-| **Virtual office RA** | $50-200/year | Cheap | Some states don't accept virtual offices for RA |
+| **Your own US address** | DIY | Self-managed | You'd need a physical US office (not viable for most non-residents) |
+| **Virtual office RA** | Lower-cost option | Cheap | Some states don't accept virtual offices for RA |
 
 ### Why "free" Registered Agents are risky
 
-Some formation services offer a "free first year" RA but then charge $200-300/year afterward. Others include RA service but charge separately for mail forwarding, document scanning, or compliance alerts. At Exentax, the Registered Agent is included in your maintenance package. no surprise fees, no upsells.
+Some formation services offer a "free first year" RA but then charge a standard annual fee afterward. Others include RA service but charge separately for mail forwarding, document scanning, or compliance alerts. At Exentax, the Registered Agent is included in your maintenance package. no surprise fees, no upsells.
 
 ## What happens when your RA receives mail
 
@@ -2319,9 +2318,9 @@ Many LLC owners have never heard of the BOI Report. Since 2024, it's required fo
 
 ## Mistake #8: Choosing the wrong state
 
-Some people choose Delaware because they've heard it's "the best." For a freelancer with no US investors, Delaware's $300/year franchise tax and reporting requirements are unnecessary costs.
+Some people choose Delaware because they've heard it's "the best." For a freelancer with no US investors, Delaware's franchise tax and reporting requirements are unnecessary overhead.
 
-**Fix:** Choose based on your actual needs. For most freelancers: **New Mexico** ($0 annual state fees) or **Wyoming** ($60/year, strongest asset protection).
+**Fix:** Choose based on your actual needs. For most freelancers: **New Mexico** (no annual state fees) or **Wyoming** (strongest asset protection (with annual report)).
 
 ## Mistake #9: Not maintaining an Operating Agreement
 
@@ -2908,18 +2907,18 @@ Without Good Standing:
 ## Annual obligations by state
 
 ### New Mexico
-- **Annual Report:** Not required (yes, you read that right. $0 and zero state filings)
-- **Annual state fee:** $0
+- **Annual Report:** Not required (yes, you read that right: zero state filings)
+- **Annual state fee:** none
 - **Result:** The simplest maintenance of the three states. That's why it's our favorite
 
 ### Wyoming
 - **Annual Report:** Yes, every year on the anniversary date of the LLC
-- **Annual fee:** $60 minimum (increases if reported assets in Wyoming exceed $300,000)
+- **Annual fee:** standard annual fee (higher if reported Wyoming assets are large)
 - **Deadline:** 60 days before the formation anniversary
 
 ### Delaware
 - **Annual Report:** Yes, every year
-- **Annual fee:** $300 (flat franchise tax for LLCs)
+- **Annual fee:** flat franchise tax for LLCs
 - **Deadline:** June 1 each year
 
 ## Federal tax obligations (apply to ALL states)
@@ -2967,7 +2966,7 @@ The Beneficial Ownership Information Report must be kept current. Any changes mu
 
 | Item | New Mexico | Wyoming | Delaware |
 |---|---|---|---|
-| State fee | $0 | $60 | $300 |
+| State fee | Not required | Annual filing required | Annual + Franchise Tax |
 | Annual Report | N/A | Included | Included |
 | Form 5472 + 1120 | Included | Included | Included |
 | FBAR | Included | Included | Included |
@@ -3354,7 +3353,7 @@ Selling on Amazon US (amazon.com) as an individual or foreign company creates un
 
 ## Sales tax on Amazon
 
-Amazon collects and remits sales tax for most states automatically ("Marketplace Facilitator" laws). For states where Amazon doesn't handle this, you may have obligations. Services like TaxJar ($19/month) integrate with Amazon and handle this automatically.
+Amazon collects and remits sales tax for most states automatically ("Marketplace Facilitator" laws). For states where Amazon doesn't handle this, you may have obligations. Services like TaxJar (monthly fee) integrate with Amazon and handle this automatically.
 
 ## For digital product sellers: the MoR alternative
 
@@ -3668,7 +3667,7 @@ A typical freelancer with an LLC usually has between **$5,000 and $25,000** in d
 
 ## Common deduction mistakes
 
-1. **Not claiming expenses because "they're too small"**: even a $10/month subscription is $120/year deducted from your taxable base
+1. **Not claiming expenses because "they're too small"**: even a small monthly subscription adds up to a meaningful annual deduction from your taxable base
 2. **Not keeping receipts**: without documentation, the deduction doesn't count
 3. **Claiming personal expenses as business**: this is fraud, not optimization
 4. **Not separating business and personal portions** of mixed-use expenses
@@ -3790,7 +3789,7 @@ When your local bank receives a dollar transfer, it converts to your local curre
 - **Reception fees** ($15-50 per SWIFT transfer)
 - **Intermediary bank fees** ($10-25 additional)
 
-In total, you can lose **3-5% on each transfer**. If you move $5,000 per month, that's $150-250/month in hidden costs. more than **$2,000 per year**.
+In total, you can lose **3-5% on each transfer**. If you move significant monthly volume, that is hundreds of dollars in hidden monthly costs and thousands per year.
 
 ## The best options for currency conversion
 
@@ -3884,9 +3883,9 @@ Here's the complete step-by-step process.
 
 The first step is deciding which state to form your LLC in. The three most popular for non-residents:
 
-- **New Mexico**: No Annual Report or annual fees ($0/year in state maintenance)
-- **Wyoming**: Maximum privacy. Strongest asset protection. $60/year
-- **Delaware**: Best legal framework. Recommended only if seeking investors. $300/year
+- **New Mexico**: No Annual Report or annual fees (no state maintenance fee)
+- **Wyoming**: Maximum privacy. Strongest asset protection.
+- **Delaware**: Best legal framework. Recommended only if seeking investors.
 
 Most freelancers and digital entrepreneurs choose **New Mexico** for its simplicity and low cost, or **Wyoming** for its privacy and asset protection.
 
@@ -4163,7 +4162,7 @@ The fintech ecosystem provides everything you need:
 
 - **Banking partner:** Thread Bank (FDIC insured)
 - **Account types:** Up to 20 individual checking accounts (sub-accounts), 2 savings accounts
-- **Monthly fees:** $0 (basic) or $30/month (Pro with additional features)
+- **Monthly fees:** $0 (basic) or monthly fee (Pro with additional features)
 - **Wire transfers:** Free on Pro, $5 on free plan
 - **ACH:** Free
 - **Best feature:** 20 free checking accounts. perfect for organizing money by client, project, or purpose
@@ -4541,7 +4540,7 @@ No need for board meetings, no board of directors, no publishing annual accounts
 Your LLC has annual obligations: Form 5472 + 1120 ($25,000 penalty for non-filing), FBAR (if applicable), Annual Report (depending on state), BOI Report ($591/day for non-compliance). Important to keep current, but with Exentax, we handle everything.
 
 ### 2. Maintenance cost
-Maintaining an LLC costs between $200 and $1,000/year depending on state and services. Not free.
+Maintaining an LLC has a reasonable annual cost depending on state and services. Not free.
 
 ### 3. Tax complexity
 Your tax situation becomes more complex. You have obligations in the US AND in your country of residence. You need professional advice, this isn't something you can handle with a YouTube tutorial.
@@ -4553,7 +4552,7 @@ The LLC doesn't pay in the US, but **you still have tax obligations in your coun
 If you don't operate correctly (mix accounts, don't document, make suspicious movements), Mercury or Wise can restrict your account. Not common if you do things right, but it's a real risk. That's why redundancy matters (Mercury + Relay + Wise).
 
 ### 6. Not viable for all profiles
-If you bill less than $1,500-2,000/month, or all your clients are domestic, an LLC probably doesn't pay off. The tax savings don't cover maintenance costs.
+If your monthly billing is low, or all your clients are domestic, an LLC probably doesn't pay off. The tax savings don't cover maintenance costs.
 
 ## Who SHOULD seriously consider it
 
@@ -4566,7 +4565,7 @@ If you bill less than $1,500-2,000/month, or all your clients are domestic, an L
 ## Who should NOT
 
 - Autónomos with **100% domestic clients**: if all your clients are local, the LLC adds no tax advantage
-- Income below **$1,500-2,000/month**: savings don't cover maintenance costs
+- Low monthly billing: savings don't cover maintenance costs
 - Regulated professions requiring local licensing (doctors, lawyers, architects practicing locally)
 - People looking to "disappear from the radar". the LLC is tax transparency, not invisibility
 
@@ -4866,9 +4865,9 @@ This makes Wyoming especially attractive for:
 - Businesses with higher litigation risk
 - Those in industries prone to disputes
 
-**New Mexico's** protections are solid but not as extensively tested in case law as Wyoming's. The main advantage is $0 annual state fees.
+**New Mexico's** protections are solid but not as extensively tested in case law as Wyoming's. The main advantage is no annual state fees.
 
-**Delaware** has strong legal protections and the most developed corporate case law, but at $300/year in franchise tax.
+**Delaware** has strong legal protections and the most developed corporate case law, but at state franchise tax.
 
 ## Intellectual property protection
 
@@ -4921,7 +4920,7 @@ You hire a freelance designer through your LLC. They claim you owe them $15,000 
 | Creditor access to personal savings | Yes | No (with proper separation) |
 | Charging order protection | N/A | Yes (strongest in WY) |
 | IP protection framework | Local | US law (one of the strongest) |
-| Operating cost for protection | €0 (but unlimited risk) | ~$1,000-1,500/year |
+| Operating cost for protection | €0 (but unlimited risk) | a reasonable annual fee |
 
 
 ## Related articles
@@ -5737,7 +5736,7 @@ The winning combination we use for most of our clients:
 **With LLC:**
 - Deductible expenses: ~$12,000
 - ISR on $48,000 (optimized): ~$7,000
-- LLC costs: ~$1,500
+- LLC costs: reasonable
 - Total: ~$8,500 (14.2% effective)
 - **Annual savings: ~$9,500**
 
@@ -6556,7 +6555,7 @@ Yes. The entire process. formation, EIN, bank account, annual compliance, is don
 Typically 2-4 weeks from start to finish: LLC formation (1-3 days), EIN (1-2 weeks), Mercury account (1-2 weeks), Stripe setup (1-3 days).
 
 **What happens if I close my LLC?**
-You can dissolve the LLC at any time by filing dissolution documents with the state and a final tax return with the IRS. Cost is minimal ($0-$100 depending on the state).
+You can dissolve the LLC at any time by filing dissolution documents with the state and a final tax return with the IRS. Cost is minimal (varies by state).
 
 **Can I have partners in my LLC?**
 Yes. A multi-member LLC is possible, though tax treatment changes. For most international entrepreneurs, a single-member Disregarded Entity is the optimal structure.
@@ -6603,7 +6602,7 @@ When you form your LLC with Exentax, you get a complete ecosystem, not just a pi
 | International credibility | Individual freelancer | US business entity |
 | Currency management | Bank markups (2-4%) | Wise real rates (0.4-1.5%) |
 | Payment processing | Limited features | Stripe US full features |
-| Annual compliance cost | N/A | ~$1,000-1,500 |
+| Annual compliance cost | N/A | Reasonable annual fee |
 | Net benefit | — | $8,000-20,000+/year |
 
 The LLC pays for itself many times over for the right profile.
@@ -6694,9 +6693,9 @@ If rejected, Relay (Thread Bank, FDIC) and Wise Business are alternatives.
 
 ## Problem 7: Choosing the wrong state
 
-**What happens:** Owner chooses Delaware because it "sounds prestigious," then discovers $300/year franchise tax. unnecessary for a simple freelancer business.
+**What happens:** Owner chooses Delaware because it "sounds prestigious," then discovers franchise tax. unnecessary for a simple freelancer business.
 
-**Prevention:** Choose based on actual needs. For most freelancers: **New Mexico** ($0/year state fees) or **Wyoming** ($60/year, strongest asset protection).
+**Prevention:** Choose based on actual needs. For most freelancers: **New Mexico** (no state annual fees) or **Wyoming** (strongest asset protection (with annual report)).
 
 ## Problem 8: Not updating platforms after changes
 
@@ -6906,7 +6905,7 @@ Argentina has one of the highest effective tax rates in the region.
 | ISR (up to 35%) | $29,760 | — |
 | LLC expenses deducted | — | $20,000 |
 | Mexican ISR on net LLC income | — | $16,800 |
-| LLC maintenance | — | $1,500 |
+| LLC maintenance | — | Annual fee |
 | **Total cost** | **$29,760 (31.0%)** | **$18,300 (19.1%)** |
 | **Annual savings** | — | **$11,460** |
 
@@ -6917,7 +6916,7 @@ Argentina has one of the highest effective tax rates in the region.
 | Renta (up to 39%) | $16,200 | — |
 | LLC expenses deducted | — | $12,000 |
 | Colombian tax on net LLC income | — | $8,400 |
-| LLC maintenance | — | $1,500 |
+| LLC maintenance | — | Annual fee |
 | **Total cost** | **$16,200 (27.0%)** | **$9,900 (16.5%)** |
 | **Annual savings** | — | **$6,300** |
 
@@ -6929,7 +6928,7 @@ Argentina has one of the highest effective tax rates in the region.
 | BCRA exchange rate loss (~30%) | $8,640 | $0 (keeps USD at real rate) |
 | LLC expenses deducted | — | $14,000 |
 | Argentine tax on net LLC income | — | $12,000 |
-| LLC maintenance | — | $1,500 |
+| LLC maintenance | — | Annual fee |
 | **Total cost** | **$30,240 (42.0%)** | **$13,500 (18.8%)** |
 | **Annual savings** | — | **$16,740** |
 
@@ -7242,13 +7241,13 @@ Attempting to use LLC privacy for any of these purposes is illegal and counterpr
 | Member names in public records | No | No | Yes (some filings) |
 | Manager names in public records | No | No | Yes |
 | Annual report discloses members | No report required | No | Some information |
-| State annual fee | $0 | $60 | $300 |
+| State annual fee | Not required | Annual filing required | Annual + Franchise Tax |
 | BOI Report required | Yes | Yes | Yes |
 | Banking KYC required | Yes | Yes | Yes |
 
 **New Mexico:** Strongest casual-search privacy, lowest cost. No annual report means no additional public disclosure.
 
-**Wyoming:** Also strong privacy, plus the strongest asset protection (charging order protections). $60/year.
+**Wyoming:** Also strong privacy, plus the strongest asset protection (charging order protections). annual report.
 
 **Delaware:** Less privacy than either option. Choose for other reasons (VC investment, sophisticated corporate law), not privacy.
 
@@ -7272,10 +7271,10 @@ The privacy you don't get (and shouldn't want): hiding from the IRS, FinCEN, or 
 |---|---|---|---|
 | Owner name on public record | NO | NO | YES (some filings) |
 | Member names on Articles | NO | NO | NO |
-| Annual report with owner names | N/A ($0/no report) | NO | YES |
+| Annual report with owner names | N/A (no report required) | NO | YES |
 | Registered Agent public | YES | YES | YES |
-| State formation fee | $50 | $100 | $90 |
-| Annual maintenance | $0 | $60/year | $300/year |
+| State formation fee | Variable | Variable | Variable |
+| Annual maintenance | None | Annual report | Annual report + franchise tax |
 | Overall privacy level | HIGH | HIGH | MEDIUM |
 
 ### New Mexico's unique privacy advantage
@@ -7613,7 +7612,7 @@ One of the least discussed aspects of the Estonia vs. US LLC comparison is the o
 - Form 5472 + 1120: one annual informational filing
 - FBAR: one annual filing (if accounts > $10K)
 - BOI Report: updates only when changes occur
-- State annual report: varies ($0 NM, $60 WY)
+- State annual report: varies by state
 - No quarterly filings, no VAT returns, no accrual accounting
 - **Total time for owner: ~2 hours/year** (providing transaction info to Exentax)
 
@@ -7644,11 +7643,11 @@ For a remote digital entrepreneur living in Spain, Mexico, Colombia, or Argentin
 
 | Cost item | US LLC (New Mexico) | Estonian OÜ |
 |---|---|---|
-| Formation | ~$200-500 | ~€200-500 |
-| Annual state fee | $0 | €0 (but requires local accountant) |
-| Annual accountant | Included (Exentax) | €100-300/month (local Estonian) |
-| Banking fees | $0 (Mercury) | Variable (depends on bank) |
-| Wire fees | $0 (Mercury) | Variable |
+| Formation | One-time bundled fee (Exentax) | One-time fee + e-Residency card |
+| Annual state fee | None in NM | None (but local accountant required) |
+| Annual accountant | Included (Exentax) | Recurring local Estonian accountant |
+| Banking fees | None with Mercury | Variable (depends on bank) |
+| Wire fees | None with Mercury | Variable |
 | Tax filing | Included (Exentax) | Additional cost (local accountant) |
 
 ## The honest comparison
@@ -7666,7 +7665,7 @@ Estonia's e-Residency is an interesting innovation with real advantages for spec
 | Feature | US LLC (NM/WY) | Estonian e-Residency | UK LTD | Estonian OÜ | Spanish SL |
 |---|---|---|---|---|---|
 | Corporate tax | 0% (pass-through, no US-source) | 0% (undistributed) → 20% (distributed) | 19-25% | 0% → 20% | 25% |
-| Annual maintenance cost | $0-$60/year (state) | €100/year (e-Residency) + accounting | £13/year | €100/year + accounting | €1,000+/year |
+| Annual maintenance cost | State varies (none in NM) | e-Residency + accounting | Companies House fee | Accounting service | Annual maintenance |
 | Banking quality | Excellent (Mercury, Stripe) | Limited (LHV, Wise) | Good (Starling, Wise) | Limited (LHV) | Good (local banks) |
 | Stripe access | Full US Stripe | EU Stripe | UK Stripe | EU Stripe | EU Stripe |
 | Global payment acceptance | 135+ currencies | EU-focused | UK + EU | EU-focused | EU-focused |

@@ -42,7 +42,7 @@ Els tres estats més habituals per a no residents són:
 
 **Nou Mèxic**: El més popular entre els nostres clients, i per bones raons. No exigeix Annual Report, cosa que redueix el cost anual. Les dades dels membres no són públiques, així que tens privacitat real sense pagar extra. Sense impost estatal. És l'opció més directa i amb menys burocràcia.
 
-**Wyoming**: També excel·lent per a privacitat. Protecció d'actius superior i lleis empresarials modernes. Però costa més que Nou Mèxic i requereix Annual Report anual (\$60).
+**Wyoming**: També excel·lent per a privacitat. Protecció d'actius superior i lleis empresarials modernes. Però costa més que Nou Mèxic i requereix Annual Report anual amb taxa estatal aplicable.
 
 **Delaware**: L'estat amb millor marc legal i el preferit per grans empreses, C-Corps i startups que busquen inversió de venture capital. La seva Court of Chancery és referència mundial en dret empresarial. Però és el més car i té Franchise Tax. Per a un freelancer, sol ser innecessari.
 
@@ -236,7 +236,7 @@ Wyoming té una reputació excel·lent en privacitat i protecció d'actius. No o
 - Protecció d'actius superior, les lleis de Wyoming són especialment robustes en aquest aspecte
 - Lleis empresarials modernes i ben establertes
 
-**Requereix:** Annual Report anual davant l'estat + \$60 de taxa (\$300 si els actius reportats superen \$300,000). Inclòs en el nostre pla de manteniment.
+**Requereix:** Annual Report anual davant l'estat + taxa estatal aplicable. Inclòs en el nostre pla de manteniment.
 
 **Ideal per a:** professionals que necessiten protecció d'actius reforçada, traders amb patrimonis significatius, o emprenedors que prefereixen Wyoming per la seva reputació històrica. Si el teu pressupost ho permet i valores la protecció d'actius extra, és una bona opció.
 
@@ -255,7 +255,7 @@ Però siguem honestos: **per a un freelancer o emprenedor digital que opera amb 
 - Preferit per inversors i venture capital. gairebé obligatori si planeges aixecar rondes de finançament
 - Historial jurisprudencial extens
 
-**Requereix:** Annual Report + Franchise Tax de \$300/any (inclosos en el nostre pla de manteniment).
+**Requereix:** Annual Report + Franchise Tax (inclosos en el nostre pla de manteniment).
 
 **Ideal per a:** startups que planegen constituir-se com a C-Corp i buscar inversió de venture capital. Si un fons d'inversió posarà diners a la teva empresa, voldrà que estiguis a Delaware. Per a tot la resta, Nou Mèxic o Wyoming.
 
@@ -265,7 +265,7 @@ Però siguem honestos: **per a un freelancer o emprenedor digital que opera amb 
 |---|---|---|---|
 | Constitució | Consultar | Consultar | Consultar |
 | Manteniment/any | Consultar | Consultar | Consultar |
-| Annual Report | No | Sí (\$60) | Sí + Franchise Tax (\$300) |
+| Annual Report | No | Sí (taxa estatal anual) | Sí + Franchise Tax (taxa estatal anual) |
 | Privacitat membres | Alta (no públics) | Alta (no públics) | Mitjana (poden ser públics) |
 | Marc legal | Estàndard | Modern | Premium |
 | Impost estatal | No | No | No |
@@ -417,7 +417,7 @@ Com a propietari d'una Single-Member LLC, no reps un "salari" en el sentit tradi
 Suposem que la teva LLC factura \$8,000 al mes. Una distribució ben estructurada podria ser:
 
 - **\$2,000** → Compte d'impostos (25% de reserva)
-- **\$1,500** → Compte de despeses operatives (eines, serveis, agent registrat)
+- **Assignació operativa** → Compte de despeses operatives (eines, serveis, agent registrat)
 - **\$500** → Fons de reserva de la LLC
 - **\$4,000** → Distribució al propietari (transferència al teu compte personal)
 
@@ -775,8 +775,8 @@ Si no tens ingressos de font nord-americana (els teus clients estan fora dels EU
 Depèn de l'estat de constitució:
 
 - **Nou Mèxic:** 0% impost estatal per a LLCs de no residents. Sense Annual Report.
-- **Wyoming:** 0% impost estatal. Annual Report de \$60/any.
-- **Delaware:** 0% impost estatal sobre ingressos fora de Delaware. Franchise Tax de \$300/any.
+- **Wyoming:** 0% impost estatal. Annual Report amb taxa anual estatal.
+- **Delaware:** 0% impost estatal sobre ingressos fora de Delaware. Franchise Tax anual.
 
 ### Obligacions fiscals (compliance)
 
@@ -1503,9 +1503,9 @@ Per a un no resident que viu a Espanya, Mèxic, Colòmbia o qualsevol altre paí
 
 Si el contractessis pel teu compte:
 
-- **Serveis bàsics:** \$50-100/any
-- **Serveis estàndard:** \$100-200/any (inclouen escaneig de documents i notificacions per email)
-- **Serveis premium:** \$200-350/any (inclouen compliment, recordatoris d'Annual Report, correu postal)
+- **Serveis bàsics:** tarifa bàsica anual
+- **Serveis estàndard:** tarifa estàndard anual (inclouen escaneig de documents i notificacions per email)
+- **Serveis premium:** escala anual superior (inclouen compliment, recordatoris d'Annual Report i correu postal)
 
 **A Exentax, el Registered Agent està inclòs a tots els nostres plans.** Tant a la constitució com al manteniment anual. No pagues extra, no el contractes a part, no l'has de renovar tu. Nosaltres ho gestionem i renovem cada any automàticament.
 
@@ -1523,7 +1523,7 @@ La moral: el Registered Agent no és una despesa supèrflua. És una peça fonam
 
 ## Puc canviar de Registered Agent?
 
-Sí, en qualsevol moment. Es presenta un formulari de canvi davant la Secretaria d'Estat (\$5-25 de taxa estatal segons l'estat). Si véns d'un altre servei i vols que Exentax gestioni el teu Registered Agent, ens encarreguem del canvi.
+Sí, en qualsevol moment. Es presenta un formulari de canvi davant la Secretaria d'Estat (s'aplica una taxa estatal modesta segons l'estat). Si véns d'un altre servei i vols que Exentax gestioni el teu Registered Agent, ens encarreguem del canvi.
 
 ## El Registered Agent és la meva adreça comercial?
 
@@ -1543,7 +1543,7 @@ Hi ha serveis de Registered Agent a 49\$/any o fins i tot menys. El problema no 
 - **Renovació no automàtica:** Si t'oblides de renovar, la teva LLC perd l'estatus. El procés de reinstatement costa més i triga més
 - **Sense suport:** Si l'IRS envia una notificació urgent, ningú t'avisa
 
-Un Registered Agent fiable no és un luxe. És una assegurança operacional. Els \$50-100 de diferència entre un servei mínim i un servei professional són negligibles davant del cost d'un problema no detectat a temps.
+Un Registered Agent fiable no és un luxe. És una assegurança operacional. La diferència entre un servei mínim i un servei professional és negligible davant del cost d'un problema no detectat a temps.
 
 ## La connexió entre Registered Agent i accés bancari
 
@@ -1648,7 +1648,7 @@ Molts freelancers es recorden dels impostos al març-juny, quan ja és tard per 
 
 ## Error 8: No entendre el pass-through taxation
 
-Si tens (o estàs considerant) una LLC als Estats Units, hi ha un concepte que has d'entendre bé: **pass-through taxation.** La teva Single-Member LLC de no resident és una "Disregarded Entity" per a l'IRS, això significa que la LLC no paga impost federal als EUA (\$0). Els beneficis "passen a través" directament a tu com a propietari.
+Si tens (o estàs considerant) una LLC als Estats Units, hi ha un concepte que has d'entendre bé: **pass-through taxation.** La teva Single-Member LLC de no resident és una "Disregarded Entity" per a l'IRS, això significa que la LLC no paga impost federal als EUA. Els beneficis "passen a través" directament a tu com a propietari.
 
 Què implica? Que tu declares els beneficis nets de la teva LLC al teu país de residència. Però abans de tributar, restes TOTS els gastos legítims de la LLC: programari, maquinari, màrqueting, formació, serveis professionals, comissions bancàries, coworking, viatges de negoci... La base imposable que queda és molt menor que si facturessis directament com a autònom/treballador per compte propi.
 
@@ -2016,7 +2016,7 @@ Mantenir el Good Standing és fàcil si compleixes amb les obligacions a temps. 
 ## Obligacions anuals segons l'estat
 
 ### Nou Mèxic
-- **Annual Report:** No en requereix (sí, has llegit bé. \$0 i zero tràmits estatals)
+- **Annual Report:** No en requereix (sí, has llegit bé: zero tràmits estatals)
 - **Taxa anual estatal:** \$0
 - **Resultat:** El manteniment més barat i senzill dels tres estats. Per això és el nostre favorit
 
@@ -2028,7 +2028,7 @@ Mantenir el Good Standing és fàcil si compleixes amb les obligacions a temps. 
 
 ### Delaware
 - **Annual Report:** Sí, cada any
-- **Taxa anual:** \$300 (franchise tax fixa per a LLCs)
+- **Taxa anual:** franchise tax fixa anual per a LLCs
 - **Termini:** 1 de juny de cada any
 - **A Exentax:** Inclòs en el pla de manteniment
 
@@ -2852,7 +2852,7 @@ Aquí t'expliquem el procés pas a pas. perquè entenguis exactament què implic
 
 El primer pas és decidir en quin estat constituir la teva LLC. Els tres més populars per a no residents:
 
-- **Nou Mèxic**: Sense Annual Report ni taxes anuals ($0/any en manteniment estatal)
+- **Nou Mèxic**: Sense Annual Report ni taxes anuals (sense manteniment estatal)
 - **Wyoming**: Màxima privacitat. Les dades dels membres no són públiques
 - **Delaware**: Millor marc legal. Recomanat si busques inversors
 
@@ -3426,32 +3426,32 @@ Els costos inicials depenen de l'estat que triïs:
 ### Nou Mèxic
 | Concepte | Cost |
 |---|---|
-| Filing fee estatal | \$50 |
-| Registered Agent (primer any) | \$50-150 |
-| Obtenció de l'EIN | Inclòs o \$0-50 |
-| Operating Agreement | Inclòs o \$50-200 |
-| BOI Report | Inclòs o \$0-50 |
-| **Total constitució** | **\$150-500** |
+| Filing fee estatal | Taxa estatal aplicable |
+| Registered Agent (primer any) | Servei inclòs |
+| Obtenció de l'EIN | Inclosa al servei |
+| Operating Agreement | Personalitzat, inclòs |
+| BOI Report | Presentació obligatòria, inclosa |
+| **Constitució completa** | Servei integral amb tarifa única |
 
 ### Wyoming
 | Concepte | Cost |
 |---|---|
-| Filing fee estatal | \$100 |
-| Registered Agent (primer any) | \$50-150 |
-| Obtenció de l'EIN | Inclòs o \$0-50 |
-| Operating Agreement | Inclòs o \$50-200 |
-| BOI Report | Inclòs o \$0-50 |
-| **Total constitució** | **\$200-550** |
+| Filing fee estatal | Taxa estatal aplicable |
+| Registered Agent (primer any) | Servei inclòs |
+| Obtenció de l'EIN | Inclosa al servei |
+| Operating Agreement | Personalitzat, inclòs |
+| BOI Report | Presentació obligatòria, inclosa |
+| **Constitució completa** | Servei integral amb tarifa única |
 
 ### Delaware
 | Concepte | Cost |
 |---|---|
-| Filing fee estatal | \$90 |
-| Registered Agent (primer any) | \$50-200 |
-| Obtenció de l'EIN | Inclòs o \$0-50 |
-| Operating Agreement | Inclòs o \$50-200 |
-| BOI Report | Inclòs o \$0-50 |
-| **Total constitució** | **\$190-590** |
+| Filing fee estatal | Taxa estatal aplicable |
+| Registered Agent (primer any) | Servei inclòs |
+| Obtenció de l'EIN | Inclosa al servei |
+| Operating Agreement | Personalitzat, inclòs |
+| BOI Report | Presentació obligatòria, inclosa |
+| **Constitució completa** | Servei integral amb tarifa única |
 
 ## Costos de manteniment (anuals)
 
@@ -3460,27 +3460,27 @@ Un cop constituïda, la teva LLC té despeses recurrents:
 ### Nou Mèxic: sense taxes anuals
 | Concepte | Cost anual |
 |---|---|
-| Annual Report | No requereix (\$0) |
-| Taxa estatal anual | \$0 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 (preparació professional) |
-| **Total manteniment** | **\$200-650/any** |
+| Annual Report | No requerit |
+| Taxa estatal anual | No aplica |
+| Registered Agent | Servei inclòs |
+| Form 5472 + 1120 | Preparació professional inclosa |
+| **Manteniment integral** | Quota única anual |
 
 ### Wyoming
 | Concepte | Cost anual |
 |---|---|
-| Annual Report + taxa | \$60 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 |
-| **Total manteniment** | **\$260-710/any** |
+| Annual Report obligatori | Taxa anual estatal |
+| Registered Agent | Servei inclòs |
+| Form 5472 + 1120 | Preparació professional inclosa |
+| **Manteniment integral** | Quota única anual |
 
 ### Delaware, el més car
 | Concepte | Cost anual |
 |---|---|
-| Franchise Tax + Annual Report | \$300 |
-| Registered Agent | \$50-200 |
-| Form 5472 + 1120 | \$150-500 |
-| **Total manteniment** | **\$500-1.000/any** |
+| Franchise Tax + Annual Report | Taxa anual + franchise tax |
+| Registered Agent | Servei inclòs |
+| Form 5472 + 1120 | Preparació professional inclosa |
+| **Manteniment integral** | Quota única anual |
 
 ## Quant costa amb Exentax?
 
@@ -3504,9 +3504,9 @@ Amb una LLC ben estructurada, pagues **0% d'impost federal als EUA** sobre aques
 
 La diferència: **16.800-19.200€ a l'any**. El cost de la LLC s'amortitza en el **primer mes**.
 
-## "Però no hi ha serveis que ho fan per \$49?"
+## "Però no hi ha serveis molt barats que ho fan?"
 
-Sí, n'hi ha. I fan exactament el que costa \$49: omplen un formulari i te l'envien. Sense assessoria fiscal, sense Operating Agreement adaptat a la teva situació, sense suport post-constitució, sense preparació de declaracions, sense que ningú t'expliqui què fer després.
+Sí, n'hi ha. I fan únicament un treball mecànic: omplen un formulari i te l'envien. Sense assessoria fiscal, sense Operating Agreement adaptat a la teva situació, sense suport post-constitució, sense preparació de declaracions, sense que ningú t'expliqui què fer després.
 
 Constituir la LLC és el pas més fàcil. El difícil, i el que marca la diferència. és operar-la correctament perquè la teva estructura fiscal funcioni.
 
@@ -3570,7 +3570,7 @@ Pots operar des de qualsevol país, cobrar en qualsevol divisa, i treballar amb 
 La teva LLC té obligacions anuals: Form 5472 + 1120, FBAR (si aplica), Annual Report (segons estat), BOI Report. És important mantenir-les al dia, i amb un servei de manteniment professional com el nostre, ens encarreguem de tot per tu.
 
 ### 2. Cost de manteniment
-Mantenir una LLC costa entre \$200 i \$1,000/any depenent de l'estat i els serveis que contractis. No és gratis.
+Mantenir una LLC té un cost anual raonable depenent de l'estat i els serveis que contractis. No és gratis.
 
 ### 3. Complexitat fiscal
 La teva situació fiscal es torna més complexa. Tens obligacions als EUA i al teu país de residència. Necessites assessoria professional. no és una cosa que puguis fer amb un tutorial de YouTube.
@@ -5939,12 +5939,12 @@ Els tres estats ofereixen un bon nivell de privacitat, però amb matisos:
 **Wyoming:**
 - No requereix nom del propietari en els Articles of Organization
 - Té Annual Report, però sense requisit de revelar propietaris
-- \$60/any d'Annual Report
+- Taxa anual estatal d'Annual Report
 - Legislació pro-empresa molt desenvolupada
 
 **Delaware:**
 - No requereix nom del propietari en el Certificate of Formation
-- Té Franchise Tax (\$300/any) més Annual Report (\$50/any)
+- Té Franchise Tax anual més Annual Report anual
 - El Court of Chancery és especialitzat en dret corporatiu
 - Més car però amb més jurisprudència disponible
 

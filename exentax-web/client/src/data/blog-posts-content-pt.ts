@@ -42,7 +42,7 @@ Os três estados mais habituais para não residentes são:
 
 **Novo México**: O mais popular entre os nossos clientes, e por boas razões. Não exige Annual Report, o que reduz o custo anual. Os dados dos membros não são públicos, por isso tens privacidade real sem pagar extra. Sem imposto estadual. É a opção mais direta e com menor burocracia.
 
-**Wyoming**: Também excelente para privacidade. Proteção de ativos superior e leis empresariais modernas. Mas custa mais que Novo México e requer Annual Report anual (\$60).
+**Wyoming**: Também excelente para privacidade. Proteção de ativos superior e leis empresariais modernas. Mas custa mais que Novo México e requer Annual Report anual com taxa estatal aplicável.
 
 **Delaware**: O estado com melhor enquadramento legal e o preferido por grandes empresas, C-Corps e startups que procuram investimento de venture capital. O seu Court of Chancery é referência mundial em direito empresarial. Mas é o mais caro e tem Franchise Tax. Para um freelancer, costuma ser desnecessário.
 
@@ -256,7 +256,7 @@ Wyoming tem uma reputação excelente em privacidade e proteção de ativos. No 
 - Proteção de ativos superior, as leis de Wyoming são especialmente robustas neste aspeto
 - Leis empresariais modernas e bem estabelecidas
 
-**Requer:** Annual Report anual perante o estado + \$60 de taxa (\$300 se os ativos reportados superarem \$300,000). Incluído no nosso plano de manutenção.
+**Requer:** Annual Report anual perante o estado + taxa estatal aplicable. Incluído no nosso plano de manutenção.
 
 **Ideal para:** profissionais que necessitam proteção de ativos reforçada, traders com patrimónios significativos, ou empreendedores que preferem Wyoming pela sua reputação histórica. Se o teu orçamento o permite e valorizas a proteção de ativos extra, é uma boa opção.
 
@@ -275,7 +275,7 @@ Mas sejamos honestos: **para um freelancer ou empreendedor digital que opera com
 - Preferido por investidores e venture capital. quase obrigatório se planeias levantar rondas de financiamento
 - Historial jurisprudencial extenso
 
-**Requer:** Annual Report + Franchise Tax de \$300/ano (incluídos no nosso plano de manutenção).
+**Requer:** Annual Report + Franchise Tax (incluídos no nosso plano de manutenção).
 
 **Ideal para:** startups que planeiam constituir-se como C-Corp e procurar investimento de venture capital. Se um fundo de investimento vai pôr dinheiro na tua empresa, vai querer que estejas em Delaware. Para tudo o resto, Novo México ou Wyoming.
 
@@ -285,7 +285,7 @@ Mas sejamos honestos: **para um freelancer ou empreendedor digital que opera com
 |---|---|---|---|
 | Constituição | Consultar | Consultar | Consultar |
 | Manutenção/ano | Consultar | Consultar | Consultar |
-| Annual Report | Não | Sim (\$60) | Sim + Franchise Tax (\$300) |
+| Annual Report | Não | Sim (taxa estatal anual) | Sim + Franchise Tax (taxa estatal anual) |
 | Privacidade membros | Alta (não públicos) | Alta (não públicos) | Média (podem ser públicos) |
 | Enquadramento legal | Standard | Moderno | Premium |
 | Imposto estadual | Não | Não | Não |
@@ -437,7 +437,7 @@ Como proprietário de uma Single-Member LLC, não recebes um "salário" no senti
 Supõe que a tua LLC fatura \$8,000 por mês. Uma distribuição bem estruturada poderia ser:
 
 - **\$2,000** → Conta de impostos (25% de reserva)
-- **\$1,500** → Conta de despesas operacionais (ferramentas, serviços, agente registado)
+- **Verba operacional** → Conta de despesas operacionais (ferramentas, serviços, agente registado)
 - **\$500** → Fundo de reserva da LLC
 - **\$4,000** → Distribuição ao proprietário (transferência para a tua conta pessoal)
 
@@ -795,8 +795,8 @@ Se não tens rendimentos de fonte americana (os teus clientes estão fora dos EU
 Depende do estado de constituição:
 
 - **Novo México:** 0% imposto estadual para LLCs de não residentes. Sem Annual Report.
-- **Wyoming:** 0% imposto estadual. Annual Report de \$60/ano.
-- **Delaware:** 0% imposto estadual sobre rendimentos fora de Delaware. Franchise Tax de \$300/ano.
+- **Wyoming:** 0% imposto estadual. Annual Report com taxa anual estadual.
+- **Delaware:** 0% imposto estadual sobre rendimentos fora de Delaware. Franchise Tax anual.
 
 ### Obrigações fiscais (compliance)
 
@@ -1525,7 +1525,7 @@ Se o contratasse por sua conta:
 
 - **Serviços básicos:** \$50-100/ano
 - **Serviços standard:** \$100-200/ano (incluem digitalização de documentos e notificações por email)
-- **Serviços premium:** \$200-350/ano (incluem cumprimento, lembretes de Annual Report, correio postal)
+- **Serviços premium:** escalão anual mais alto (incluem cumprimento, lembretes de Annual Report e correio postal)
 
 **Na Exentax, o Registered Agent está incluído em todos os nossos planos.** Tanto na constituição como na manutenção anual. Não paga extra, não o contrata à parte, não tem de o renovar. Nós gerimos e renovamos todos os anos automaticamente.
 
@@ -1543,7 +1543,7 @@ A moral da história: o Registered Agent não é uma despesa supérflua. É uma 
 
 ## Posso mudar de Registered Agent?
 
-Sim, a qualquer momento. Apresenta-se um formulário de alteração junto da Secretaria de Estado (\$5-25 de taxa estadual conforme o estado). Se vem de outro serviço e quer que a Exentax gira o seu Registered Agent, tratamos da mudança.
+Sim, a qualquer momento. Apresenta-se um formulário de alteração junto da Secretaria de Estado (uma taxa estadual modesta conforme o estado). Se vem de outro serviço e quer que a Exentax gira o seu Registered Agent, tratamos da mudança.
 
 ## O Registered Agent é a minha morada comercial?
 
@@ -1563,7 +1563,7 @@ Existem serviços de Registered Agent a 49\$/ano ou até menos. O problema não 
 - **Renovação não automática:** Se te esqueces de renovar, a tua LLC perde o estatuto. O processo de reinstatement custa mais e demora mais
 - **Sem suporte:** Se o IRS envia uma notificação urgente, ninguém te avisa
 
-Um Registered Agent fiável não é um luxo. É um seguro operacional. Os \$50-100 de diferença entre um serviço mínimo e um serviço profissional são negligenciáveis face ao custo de um problema não detetado a tempo.
+Um Registered Agent fiável não é um luxo. É um seguro operacional. A pequena diferença entre um serviço mínimo e um serviço profissional são negligenciáveis face ao custo de um problema não detetado a tempo.
 
 ## A conexão entre Registered Agent e acesso bancário
 
@@ -1668,7 +1668,7 @@ Muitos freelancers lembram-se dos impostos em março-junho, quando já é tarde 
 
 ## Erro 8: Não entender o pass-through taxation
 
-Se tens (ou estás a considerar) uma LLC nos Estados Unidos, há um conceito que deves entender bem: **pass-through taxation.** A tua Single-Member LLC de não residente é uma "Disregarded Entity" para o IRS, isso significa que a LLC não paga imposto federal nos EUA (\$0). Os benefícios "passam diretamente" para ti como proprietário.
+Se tens (ou estás a considerar) uma LLC nos Estados Unidos, há um conceito que deves entender bem: **pass-through taxation.** A tua Single-Member LLC de não residente é uma "Disregarded Entity" para o IRS, isso significa que a LLC não paga imposto federal nos EUA. Os benefícios "passam diretamente" para ti como proprietário.
 
 O que implica? Que tu declaras os benefícios líquidos da tua LLC no teu país de residência. Mas antes de tributar, subtrais TODAS as despesas legítimas da LLC: software, hardware, marketing, formação, serviços profissionais, comissões bancárias, coworking, viagens de negócio... A base tributável que resta é muito menor do que se faturasses diretamente como trabalhador independente/autônomo.
 
@@ -2036,7 +2036,7 @@ Manter o Good Standing é fácil se cumprires com as obrigações a tempo. E com
 ## Obrigações anuais segundo o estado
 
 ### Novo México
-- **Annual Report:** Não requer (sim, leste bem. \$0 e zero trâmites estatais)
+- **Annual Report:** Não requer (sim, leste bem: zero trâmites estatais)
 - **Taxa anual estatal:** \$0
 - **Resultado:** A manutenção mais barata e simples dos três estados. Por isso é o nosso favorito
 
@@ -2048,7 +2048,7 @@ Manter o Good Standing é fácil se cumprires com as obrigações a tempo. E com
 
 ### Delaware
 - **Annual Report:** Sim, a cada ano
-- **Taxa anual:** \$300 (franchise tax fixa para LLCs)
+- **Taxa anual:** franchise tax fixa anual para LLCs
 - **Prazo:** 1 de junho de cada ano
 - **Na Exentax:** Incluído no plano de manutenção
 
@@ -2872,7 +2872,7 @@ Aqui explicamos o processo passo a passo, para que você entenda exatamente o qu
 
 O primeiro passo é decidir em qual estado constituir sua LLC. Os três mais populares para não residentes:
 
-- **Novo México**: Sem Annual Report nem taxas anuais ($0/ano em manutenção estadual)
+- **Novo México**: Sem Annual Report nem taxas anuais (sem manutenção estadual)
 - **Wyoming**: Máxima privacidade. Dados dos membros não são públicos
 - **Delaware**: Melhor estrutura legal. Recomendado se você busca investidores
 
@@ -3446,32 +3446,32 @@ Os custos iniciais dependem do estado que escolheres:
 ### Novo México
 | Conceito | Custo |
 |---|---|
-| Filing fee estadual | \$50 |
-| Registered Agent (primeiro ano) | \$50-150 |
-| Obtenção do EIN | Incluído ou \$0-50 |
-| Operating Agreement | Incluído ou \$50-200 |
-| BOI Report | Incluído ou \$0-50 |
-| **Total constituição** | **\$150-500** |
+| Filing fee estadual | Tarifa estadual aplicável |
+| Registered Agent (primeiro ano) | Serviço incluído |
+| Obtenção do EIN | Incluída no serviço |
+| Operating Agreement | Personalizado, incluído |
+| BOI Report | Apresentação obrigatória, incluída |
+| **Constituição completa** | Serviço integral com tarifa única |
 
 ### Wyoming
 | Conceito | Custo |
 |---|---|
-| Filing fee estadual | \$100 |
-| Registered Agent (primeiro ano) | \$50-150 |
-| Obtenção do EIN | Incluído ou \$0-50 |
-| Operating Agreement | Incluído ou \$50-200 |
-| BOI Report | Incluído ou \$0-50 |
-| **Total constituição** | **\$200-550** |
+| Filing fee estadual | Tarifa estadual aplicável |
+| Registered Agent (primeiro ano) | Serviço incluído |
+| Obtenção do EIN | Incluída no serviço |
+| Operating Agreement | Personalizado, incluído |
+| BOI Report | Apresentação obrigatória, incluída |
+| **Constituição completa** | Serviço integral com tarifa única |
 
 ### Delaware
 | Conceito | Custo |
 |---|---|
-| Filing fee estadual | \$90 |
-| Registered Agent (primeiro ano) | \$50-200 |
-| Obtenção do EIN | Incluído ou \$0-50 |
-| Operating Agreement | Incluído ou \$50-200 |
-| BOI Report | Incluído ou \$0-50 |
-| **Total constituição** | **\$190-590** |
+| Filing fee estadual | Tarifa estadual aplicável |
+| Registered Agent (primeiro ano) | Serviço incluído |
+| Obtenção do EIN | Incluída no serviço |
+| Operating Agreement | Personalizado, incluído |
+| BOI Report | Apresentação obrigatória, incluída |
+| **Constituição completa** | Serviço integral com tarifa única |
 
 ## Custos de manutenção (anuais)
 
@@ -3480,27 +3480,27 @@ Uma vez constituída, a tua LLC tem custos recorrentes:
 ### Novo México: sem taxas anuais
 | Conceito | Custo anual |
 |---|---|
-| Annual Report | Não requer (\$0) |
-| Taxa estadual anual | \$0 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 (preparação profissional) |
-| **Total manutenção** | **\$200-650/ano** |
+| Annual Report | Não requerido |
+| Taxa estadual anual | Não aplica |
+| Registered Agent | Serviço incluído |
+| Form 5472 + 1120 | Preparação profissional incluída |
+| **Manutenção integral** | Mensalidade anual única |
 
 ### Wyoming
 | Conceito | Custo anual |
 |---|---|
-| Annual Report + taxa | \$60 |
-| Registered Agent | \$50-150 |
-| Form 5472 + 1120 | \$150-500 |
-| **Total manutenção** | **\$260-710/ano** |
+| Annual Report obrigatório | Tarifa anual estadual |
+| Registered Agent | Serviço incluído |
+| Form 5472 + 1120 | Preparação profissional incluída |
+| **Manutenção integral** | Mensalidade anual única |
 
 ### Delaware, o mais caro
 | Conceito | Custo anual |
 |---|---|
-| Franchise Tax + Annual Report | \$300 |
-| Registered Agent | \$50-200 |
-| Form 5472 + 1120 | \$150-500 |
-| **Total manutenção** | **\$500-1.000/ano** |
+| Franchise Tax + Annual Report | Tarifa anual + franchise tax |
+| Registered Agent | Serviço incluído |
+| Form 5472 + 1120 | Preparação profissional incluída |
+| **Manutenção integral** | Mensalidade anual única |
 
 ## Quanto custa com a Exentax?
 
@@ -3526,7 +3526,7 @@ A diferença: **16.800-19.200€ por ano**. O custo da LLC amortiza-se no **prim
 
 ## "Mas não há serviços que o fazem por \$49?"
 
-Sim, há. E fazem exatamente o que custa \$49: preenchem um formulário e enviam-to. Sem assessoria fiscal, sem Operating Agreement adaptado à tua situação, sem suporte pós-constituição, sem preparação de declarações, sem que ninguém te explique o que fazer depois.
+Sim, há. E fazem apenas um trabalho mecânico: preenchem um formulário e enviam-to. Sem assessoria fiscal, sem Operating Agreement adaptado à tua situação, sem suporte pós-constituição, sem preparação de declarações, sem que ninguém te explique o que fazer depois.
 
 Constituir a LLC é o passo mais fácil. O difícil, e o que faz a diferença. é operá-la corretamente para que a tua estrutura fiscal funcione.
 
@@ -5967,12 +5967,12 @@ Os três estados oferecem um bom nível de privacidade, mas com nuances:
 **Wyoming:**
 - Não requer nome do proprietário nos Articles of Organization
 - Tem Annual Report, mas sem requisito de revelar proprietários
-- \$60/ano de Annual Report
+- Taxa anual estadual de Annual Report
 - Legislação pró-empresa muito desenvolvida
 
 **Delaware:**
 - Não requer nome do proprietário no Certificate of Formation
-- Tem Franchise Tax (\$300/ano) mais Annual Report (\$50/ano)
+- Tem Franchise Tax anual mais Annual Report anual
 - O Court of Chancery é especializado em direito corporativo
 - Mais caro mas com mais jurisprudência disponível
 
