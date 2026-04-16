@@ -58,6 +58,37 @@ CSV columns: `date, slug, lang, keyword, page_url, impressions, clicks, ctr, pos
 
 Weekly diff logic: for every `(slug, lang)` pair with data in both snapshots, alert when `position_today − position_previous >= --alert-drop`. Higher position numbers are worse, so a drop from 8 → 14 is a 6-slot loss.
 
+## Alert delivery (Slack / email)
+
+The `alerts-<date>.txt` file is the canonical record, but on its own nobody sees it unless they SSH into the box. When the env vars below are set, `check-rankings.ts` also pushes a digest of the worst drops to Slack or email via `scripts/seo/alert-channels.ts`. With nothing configured the script still writes the alerts file and just logs that the digest was not delivered (silent fallback).
+
+The digest contains:
+
+- A header with the run timestamp and the total number of drops.
+- The **worst 10 drops**, sorted by how many positions were lost (articles that fell out of the top 100 are treated as the most severe).
+- Each row shows the article (lang/slug), the tracked keyword, previous → current position, and a link to the article.
+
+### Common env vars
+
+| Var | Required | Notes |
+| --- | --- | --- |
+| `SEO_ALERTS_CHANNEL` | yes, to deliver | `slack` or `email`. Anything else = silent fallback. |
+| `SEO_SITE_BASE_URL` | optional | e.g. `https://exentax.com`. Used to turn the per-row `page_url` into a clickable link in the digest. |
+
+### Slack channel
+
+| Var | Required | Notes |
+| --- | --- | --- |
+| `SEO_ALERTS_SLACK_WEBHOOK_URL` | yes | Incoming-webhook URL for the channel that should receive the digest. |
+
+### Email channel (SendGrid)
+
+| Var | Required | Notes |
+| --- | --- | --- |
+| `SENDGRID_API_KEY` | yes | API key with Mail Send permission. |
+| `SEO_ALERTS_EMAIL_TO` | yes | Comma-separated list of recipients. |
+| `SEO_ALERTS_EMAIL_FROM` | yes | A verified sender in your SendGrid account. |
+
 ## Scheduling
 
 Any weekly scheduler works. A minimal cron entry on a box with the credentials mounted:
@@ -67,7 +98,7 @@ Any weekly scheduler works. A minimal cron entry on a box with the credentials m
 0 7 * * 1 cd /opt/exentax-web && tsx scripts/seo/check-rankings.ts --source=gsc >> logs/seo-rankings.log 2>&1
 ```
 
-For Replit Deployments, add a Scheduled Deployment that runs the same command; pipe the alerts file into Slack or email as a follow-up.
+For Replit Deployments, add a Scheduled Deployment that runs the same command. With `SEO_ALERTS_CHANNEL` configured, the digest is delivered automatically — no extra piping step needed.
 
 ## Adjusting which keyword an article targets
 

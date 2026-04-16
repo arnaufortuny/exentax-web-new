@@ -13,6 +13,12 @@
  *   seo-rankings/<YYYY-MM-DD>.csv       fresh snapshot
  *   seo-rankings/latest.csv             symlink-style copy of the newest snapshot
  *   seo-rankings/alerts-<YYYY-MM-DD>.txt  (only when drops exceed threshold)
+ *
+ * Alert delivery:
+ *   When `SEO_ALERTS_CHANNEL` is set to `slack` or `email`, the same digest is
+ *   pushed to the configured destination so the alerts file isn't the only
+ *   place drops show up. See `alert-channels.ts` and `docs/seo/ranking-monitor.md`
+ *   for the full env-var reference.
  */
 
 import fs from "node:fs";
@@ -20,6 +26,11 @@ import path from "node:path";
 import url from "node:url";
 
 import { buildArticleKeywords, summarizeCoverage, type ArticleKeyword } from "./keywords";
+import {
+  type RankingDrop,
+  sendRankingDropDigest,
+  sortDropsBySeverity,
+} from "./alert-channels";
 
 interface CliArgs {
   source: "gsc" | "mock";
@@ -247,24 +258,39 @@ function findPreviousSnapshot(dir: string, todayFile: string): string | undefine
   return files.at(-1);
 }
 
+interface DiffResult {
+  /** Human-readable lines for the alerts-<date>.txt file. */
+  lines: string[];
+  /** Structured drops used to build the Slack/email digest. */
+  drops: RankingDrop[];
+}
+
 function diffAlerts(
   current: RankingRow[],
   prev: Map<string, { position: number; impressions: number; clicks: number }>,
   threshold: number,
-): string[] {
-  const alerts: string[] = [];
+): DiffResult {
+  const lines: string[] = [];
+  const drops: RankingDrop[] = [];
   for (const r of current) {
     if (!r.hasData) continue;
     const p = prev.get(`${r.slug}::${r.lang}`);
     if (!p || !p.position) continue;
     const drop = r.position - p.position; // higher number = worse ranking
     if (drop >= threshold) {
-      alerts.push(
+      lines.push(
         `[DROP ${drop.toFixed(1)}] ${r.lang}/${r.slug} — "${r.keyword}": ${p.position.toFixed(1)} → ${r.position.toFixed(1)}`,
       );
+      drops.push({
+        title: `${r.lang}/${r.slug}`,
+        url: r.pageUrl,
+        keyword: r.keyword,
+        previousPosition: Math.round(p.position),
+        currentPosition: Math.round(r.position),
+      });
     }
   }
-  return alerts;
+  return { lines, drops: sortDropsBySeverity(drops) };
 }
 
 async function main() {
@@ -310,13 +336,25 @@ async function main() {
   const prevFile = findPreviousSnapshot(outDir, todayFile);
   if (prevFile) {
     const prev = parseCsv(fs.readFileSync(path.join(outDir, prevFile), "utf8"));
-    const alerts = diffAlerts(results, prev, args.alertDrop);
-    console.log(`[seo] compared against ${prevFile} — ${alerts.length} alert(s) over threshold ${args.alertDrop}`);
-    if (alerts.length > 0) {
+    const { lines, drops } = diffAlerts(results, prev, args.alertDrop);
+    console.log(`[seo] compared against ${prevFile} — ${lines.length} alert(s) over threshold ${args.alertDrop}`);
+    if (lines.length > 0) {
       const alertsPath = path.join(outDir, `alerts-${today()}.txt`);
-      fs.writeFileSync(alertsPath, alerts.join("\n") + "\n", "utf8");
-      for (const line of alerts) console.log(`  ⚠  ${line}`);
+      fs.writeFileSync(alertsPath, lines.join("\n") + "\n", "utf8");
+      for (const line of lines) console.log(`  ⚠  ${line}`);
       console.log(`[seo] wrote alerts → ${path.relative(process.cwd(), alertsPath)}`);
+
+      const delivery = await sendRankingDropDigest({
+        generatedAt: new Date(),
+        drops,
+      });
+      if (delivery.delivered) {
+        console.log(`[seo] digest delivered via ${delivery.channel}.`);
+      } else {
+        console.log(
+          `[seo] digest not delivered (${delivery.channel}): ${delivery.reason ?? "unknown"}`,
+        );
+      }
     }
   } else {
     console.log("[seo] no previous snapshot — baseline written.");
