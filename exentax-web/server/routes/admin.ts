@@ -1,5 +1,7 @@
 import type { Express, Request, Response, NextFunction } from "express";
 import crypto from "crypto";
+import fs from "node:fs";
+import path from "node:path";
 import { z } from "zod";
 import { logger } from "../logger";
 import {
@@ -340,4 +342,100 @@ export function registerAdminRoutes(app: Express) {
     logger.info(`[admin] Confirmation email resent for ${bookingId}`, "admin");
     return apiOk(res, { sent: true });
   }));
+
+  app.get("/api/admin/seo/snapshots", adminAuth, asyncHandler(async (req, res) => {
+    const weeks = Math.max(1, Math.min(52, Number(req.query.weeks) || 12));
+    const dir = process.env.SEO_RANKINGS_DIR
+      ? path.resolve(process.env.SEO_RANKINGS_DIR)
+      : path.resolve(process.cwd(), "seo-rankings");
+    if (!fs.existsSync(dir)) {
+      return apiOk(res, { dates: [], series: [], message: "no snapshots directory" });
+    }
+    const files = fs.readdirSync(dir)
+      .filter((f) => /^\d{4}-\d{2}-\d{2}\.csv$/.test(f))
+      .sort();
+    const recent = files.slice(-weeks);
+    const dates = recent.map((f) => f.replace(/\.csv$/, ""));
+
+    type Point = { date: string; position: number; impressions: number; clicks: number; hasData: boolean };
+    type Key = string;
+    const seriesMap = new Map<Key, {
+      slug: string; lang: string; keyword: string; pageUrl: string; points: Point[];
+    }>();
+
+    for (const file of recent) {
+      const date = file.replace(/\.csv$/, "");
+      const text = fs.readFileSync(path.join(dir, file), "utf8");
+      const lines = text.split(/\r?\n/).filter(Boolean);
+      if (lines.length <= 1) continue;
+      const header = splitCsvLine(lines[0]);
+      const idx = {
+        slug: header.indexOf("slug"),
+        lang: header.indexOf("lang"),
+        keyword: header.indexOf("keyword"),
+        pageUrl: header.indexOf("page_url"),
+        impressions: header.indexOf("impressions"),
+        clicks: header.indexOf("clicks"),
+        position: header.indexOf("position"),
+        hasData: header.indexOf("has_data"),
+      };
+      for (let i = 1; i < lines.length; i++) {
+        const cols = splitCsvLine(lines[i]);
+        const slug = cols[idx.slug] ?? "";
+        const lang = cols[idx.lang] ?? "";
+        if (!slug || !lang) continue;
+        const key = `${slug}::${lang}`;
+        let entry = seriesMap.get(key);
+        if (!entry) {
+          entry = {
+            slug, lang,
+            keyword: cols[idx.keyword] ?? "",
+            pageUrl: cols[idx.pageUrl] ?? "",
+            points: [],
+          };
+          seriesMap.set(key, entry);
+        }
+        entry.keyword = cols[idx.keyword] ?? entry.keyword;
+        entry.pageUrl = cols[idx.pageUrl] ?? entry.pageUrl;
+        entry.points.push({
+          date,
+          position: Number(cols[idx.position] ?? 0),
+          impressions: Number(cols[idx.impressions] ?? 0),
+          clicks: Number(cols[idx.clicks] ?? 0),
+          hasData: cols[idx.hasData] === "1",
+        });
+      }
+    }
+
+    const series = Array.from(seriesMap.values()).map((s) => {
+      const dataPoints = s.points.filter((p) => p.hasData && p.position > 0);
+      const latest = dataPoints.at(-1) ?? null;
+      const previous = dataPoints.length >= 2 ? dataPoints.at(-2) ?? null : null;
+      const first = dataPoints[0] ?? null;
+      const delta = latest && first ? latest.position - first.position : null;
+      return { ...s, latest, previous, delta };
+    });
+
+    return apiOk(res, { dates, series });
+  }));
+}
+
+function splitCsvLine(line: string): string[] {
+  const out: string[] = [];
+  let cur = "";
+  let inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (inQ) {
+      if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; }
+      else if (c === '"') inQ = false;
+      else cur += c;
+    } else {
+      if (c === '"') inQ = true;
+      else if (c === ",") { out.push(cur); cur = ""; }
+      else cur += c;
+    }
+  }
+  out.push(cur);
+  return out;
 }
