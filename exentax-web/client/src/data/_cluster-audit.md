@@ -193,35 +193,37 @@ restating the shared paragraph.
 
 ## 4. Required internal-link edits (per language content files)
 
-When the next content pass touches `blog-posts-content-{lang}.ts`, replace
-duplicated paragraphs with a one-sentence summary + link to the canonical:
+Replace duplicated explainers with a one-sentence summary + link to the canonical.
+Status as of 2026-04-16:
 
-| In article | Section that currently duplicates | Replace with link to |
-| --- | --- | --- |
-| `como-operar-llc-dia-a-dia` | Mercury / Wise / Slash setup paragraphs | `cuenta-bancaria-mercury-llc-extranjero`, `wise-business-llc-guia` |
-| `primer-mes-llc-que-esperar` | Mercury onboarding week | `cuenta-bancaria-mercury-llc-extranjero` |
-| `escalar-negocio-digital-llc-americana` | Banking stack listing | `bancos-vs-fintech-llc-donde-abrir-cuenta` |
-| `llc-creadores-contenido-youtube-twitch` | Pass-through explainer | `tributacion-pass-through-llc-como-funciona` |
-| `llc-agencias-marketing-digital` | Pass-through explainer + Mercury setup | pass-through canonical + Mercury canonical |
-| `llc-desarrolladores-software-saas` | Pass-through + Stripe | pass-through canonical + `pasarelas-pago-llc-stripe-paypal-dodo` |
-| `amazon-ecommerce-llc-vender-online` | Pass-through + Mercury | pass-through canonical + Mercury canonical |
-| `criptomonedas-trading-llc-impuestos` | Pass-through restatement | pass-through canonical |
-| `por-que-abrir-llc-estados-unidos-ventajas` | Mercury/Relay/Wise inventory | `bancos-vs-fintech-llc-donde-abrir-cuenta` |
-| `ventajas-desventajas-llc-no-residentes` | 0% federal explainer | `tributacion-pass-through-llc-como-funciona` |
-| `residentes-no-residentes-llc-diferencias` | Pass-through paragraph | pass-through canonical |
-| `autonomo-espana-vs-llc-estados-unidos` | Autónomo cuota table | (keep, this is the canonical for the comparison) |
-| `errores-fiscales-freelancers-espanoles` | Autónomo cuota table | `autonomo-espana-vs-llc-estados-unidos` |
-| `impuestos-clientes-internacionales-espana` | Autónomo cuota table | `autonomo-espana-vs-llc-estados-unidos` |
-| `crs-residentes-espana-latam-implicaciones` | CRS primer paragraph | `crs-cuentas-bancarias-llc-intercambio-informacion` |
-| `cuentas-bancarias-usa-reportan-hacienda-verdad` | CRS primer paragraph | same as above |
-| `revolut-business-crs-reporting-fiscal` | CRS primer paragraph | same as above |
-| `wise-business-crs-reporting-fiscal` | CRS primer paragraph | same as above |
-| `evitar-bloqueos-mercury-wise-revolut` | Mercury onboarding tips | Mercury canonical |
-| `due-diligence-bancario-llc-americana` | Mercury onboarding tips | Mercury canonical |
-| `separar-dinero-personal-llc-por-que-importa` | Mercury/Relay/Slash/Wallester product tour | Mercury canonical + `bancos-vs-fintech-llc-donde-abrir-cuenta` |
+| In article | Section that currently duplicates | Replaced with link to | Status (ES) |
+| --- | --- | --- | --- |
+| `por-que-abrir-llc-estados-unidos-ventajas` | Mercury/Relay/Wise inventory + 0% federal explainer + deductibles list | Mercury canonical, `bancos-vs-fintech-llc-donde-abrir-cuenta`, pass-through canonical, `pagar-cero-impuestos-legalmente-llc`, `gastos-deducibles-llc-no-residentes` | ✅ done |
+| `ventajas-desventajas-llc-no-residentes` | §1 0% federal claim + §3 & §9 banking inventory | pass-through canonical + `pagar-cero-impuestos-legalmente-llc`, Mercury canonical, `bancos-vs-fintech-llc-donde-abrir-cuenta` | ✅ done |
+| `errores-fiscales-freelancers-espanoles` | "Error 8: pass-through" full explainer | pass-through canonical + `gastos-deducibles-llc-no-residentes` | ✅ done |
+| `autonomo-espana-vs-llc-estados-unidos` | "Impuesto federal $0" pass-through restatement | pass-through canonical | ✅ done |
+| `criptomonedas-trading-llc-impuestos` | "La clave: fiscalidad de la LLC para trading" pass-through restatement | pass-through canonical | ✅ done |
+| `separar-dinero-personal-llc-por-que-importa` | Mercury product tour | Mercury canonical | ✅ done |
+| `como-operar-llc-dia-a-dia` | Mercury / Wise / Slash setup paragraphs | Mercury canonical, `wise-business-llc-guia` | ⏳ pending (deferred — see §6) |
+| `primer-mes-llc-que-esperar` | Mercury onboarding week | Mercury canonical | ⏳ pending |
+| `escalar-negocio-digital-llc-americana` | Banking stack listing | `bancos-vs-fintech-llc-donde-abrir-cuenta` | ⏳ pending |
+| `llc-creadores-contenido-youtube-twitch` | Pass-through explainer | pass-through canonical | ⏳ pending |
+| `llc-agencias-marketing-digital` | Pass-through explainer + Mercury setup | pass-through canonical + Mercury canonical | ⏳ pending |
+| `llc-desarrolladores-software-saas` | Pass-through + Stripe | pass-through canonical + `pasarelas-pago-llc-stripe-paypal-dodo` | ⏳ pending |
+| `amazon-ecommerce-llc-vender-online` | Pass-through + Mercury | pass-through canonical + Mercury canonical | ⏳ pending |
+| `residentes-no-residentes-llc-diferencias` | Pass-through paragraph | pass-through canonical | ⏳ pending |
+| `impuestos-clientes-internacionales-espana` | Autónomo cuota table | `autonomo-espana-vs-llc-estados-unidos` | ⏳ pending |
+| `crs-residentes-espana-latam-implicaciones` | CRS primer paragraph | `crs-cuentas-bancarias-llc-intercambio-informacion` | ✅ already cross-linked (no change needed) |
+| `cuentas-bancarias-usa-reportan-hacienda-verdad` | CRS primer paragraph | same as above | ✅ already cross-linked |
+| `revolut-business-crs-reporting-fiscal` | CRS primer paragraph | same as above | ✅ already cross-linked |
+| `wise-business-crs-reporting-fiscal` | CRS primer paragraph | same as above | ✅ already cross-linked |
+| `evitar-bloqueos-mercury-wise-revolut` | Mercury onboarding tips | Mercury canonical | ✅ kept (canonical for blocks-prevention angle, mentions are integral) |
+| `due-diligence-bancario-llc-americana` | Mercury onboarding tips | Mercury canonical | ✅ kept (canonical for due-diligence angle) |
 
-These edits apply to all 6 languages. Update them in
-`blog-posts-content-{es,en,fr,de,pt,ca}.ts` together.
+These edits apply to all 6 languages. The Spanish file is the source of truth;
+the EN/FR/DE/PT/CA mirrors should be updated in the next pass when the pending
+rows are tackled (currently EN-DE-FR-PT-CA still carry the verbatim duplicates
+the Spanish source had before this pass). Tracked as follow-up #28.
 
 ---
 
@@ -262,10 +264,13 @@ defined in `blog-posts-slugs.ts`.
 
 ## 6. Out of scope for this audit (follow-up work)
 
-- Rewriting overlapping body paragraphs in `blog-posts-content-*.ts` to
-  actually replace them with the link recommended in §4. This is content
-  surgery across ~50,000 lines and is best done as a focused follow-up.
-- Updating translated `metaTitle` / `metaDescription` in
-  `blog-posts-i18n.ts` to mirror the deconfliction edits made here in
-  Spanish. Those translations should be updated next time the metadata
-  refresh task runs.
+- Completing the ⏳ pending rows in §4 for the Spanish content file
+  (`como-operar-llc-dia-a-dia`, `primer-mes-llc-que-esperar`,
+  `escalar-negocio-digital-llc-americana`, the 4 vertical articles,
+  `residentes-no-residentes-llc-diferencias`,
+  `impuestos-clientes-internacionales-espana`).
+- Mirroring all §4 paragraph consolidations from Spanish into the EN, FR,
+  DE, PT and CA content files.
+- The translated `metaTitle` / `metaDescription` in `blog-posts-i18n.ts`
+  for the 7 deconflicted slugs were aligned in this task; remaining slugs
+  whose Spanish meta is still generic can be tightened in the next pass.
