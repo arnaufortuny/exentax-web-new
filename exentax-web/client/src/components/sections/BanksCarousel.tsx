@@ -14,9 +14,9 @@ const BANKS: Bank[] = [
   { name: "Stripe", src: "/img/partner-stripe.webp", height: "h-7 sm:h-9" },
   { name: "Wallester", src: "/img/partner-wallester.webp", height: "h-5 sm:h-7" },
   { name: "Wise", src: "/img/partner-wise.png", height: "h-20 sm:h-24" },
-  { name: "Slash", src: "/img/partner-slash.png", height: "h-14 sm:h-[4.5rem]" },
+  { name: "Slash", src: "/img/partner-slash.webp", height: "h-14 sm:h-[4.5rem]" },
   { name: "Interactive Brokers", src: "/img/partner-interactive-brokers.png", height: "h-7 sm:h-8" },
-  { name: "Kraken", src: "/img/partner-kraken.png", height: "h-8 sm:h-10" },
+  { name: "Kraken", src: "/img/partner-kraken.webp", height: "h-8 sm:h-10" },
 ];
 
 const DUPLICATED = [...BANKS, ...BANKS];
@@ -124,7 +124,9 @@ export default function BanksCarousel() {
             <img
               src={b.src}
               alt={b.name}
-              loading="eager"
+              width={140}
+              height={56}
+              loading={i < BANKS.length ? "eager" : "lazy"}
               decoding="async"
               fetchPriority={i < BANKS.length ? "high" : "low"}
               className={`${b.height} w-auto object-contain opacity-60 dark:opacity-50 brightness-0 dark:invert`}

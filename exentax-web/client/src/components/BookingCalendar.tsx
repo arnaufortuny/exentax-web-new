@@ -8,6 +8,11 @@ import { InlineMessage } from "@/components/InlineMessage";
 import { trackFormSubmit } from "@/components/Tracking";
 import PhoneInput from "@/components/PhoneInput";
 import { useLangPath } from "@/hooks/useLangPath";
+import {
+  isWeekdayYMD as isWeekday,
+  todayMadridParts,
+  todayMadridISO,
+} from "@shared/madrid-time";
 
 function getMonthDays(year: number, month: number): (number | null)[] {
   const firstDay = new Date(year, month, 1);
@@ -23,27 +28,6 @@ function getMonthDays(year: number, month: number): (number | null)[] {
 
 function formatDateISO(year: number, month: number, day: number): string {
   return `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-}
-
-function isWeekday(year: number, month: number, day: number): boolean {
-  const d = new Date(year, month, day);
-  return d.getDay() >= 1 && d.getDay() <= 5;
-}
-
-const MADRID_TZ = "Europe/Madrid";
-
-function todayMadridParts(): { year: number; month: number; day: number } {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: MADRID_TZ,
-    year: "numeric", month: "2-digit", day: "2-digit",
-  }).formatToParts(new Date());
-  const get = (t: string) => +(parts.find((p) => p.type === t)?.value ?? "0");
-  return { year: get("year"), month: get("month"), day: get("day") };
-}
-
-function todayMadridISO(): string {
-  const { year, month, day } = todayMadridParts();
-  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
 function nowMadrid(): Date {

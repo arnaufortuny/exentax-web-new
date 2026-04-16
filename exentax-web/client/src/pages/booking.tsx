@@ -336,7 +336,7 @@ export default function MiAgendaPage() {
       <>{seoTag}
       <div className="min-h-screen bg-[var(--bg-0)] flex items-center justify-center">
         <div className="flex flex-col items-center">
-          <img src="/logo-tight.png" alt={BRAND.NAME} className="w-[120px] h-auto mb-6 opacity-60" data-testid="img-logo-booking-loading" />
+          <img src="/logo-tight.png" alt={BRAND.NAME} width={120} height={32} loading="eager" decoding="async" className="w-[120px] h-auto mb-6 opacity-60" data-testid="img-logo-booking-loading" />
           <SpinnerIcon className="w-8 h-8 animate-spin text-[var(--muted)]" />
         </div>
       </div>
@@ -349,7 +349,7 @@ export default function MiAgendaPage() {
       <>{seoTag}
       <div className="min-h-screen bg-[var(--bg-0)] flex items-center justify-center p-4">
         <div className="max-w-sm text-center">
-          <img src="/logo-tight.png" alt={BRAND.NAME} className="w-[120px] h-auto mx-auto mb-6 opacity-60" data-testid="img-logo-booking-error" />
+          <img src="/logo-tight.png" alt={BRAND.NAME} width={120} height={32} loading="eager" decoding="async" className="w-[120px] h-auto mx-auto mb-6 opacity-60" data-testid="img-logo-booking-error" />
           <div className="w-14 h-14 rounded-full bg-red-50 dark:bg-red-950/40 flex items-center justify-center mx-auto mb-4">
             <XCircleIcon className="w-7 h-7 text-red-400" />
           </div>
@@ -371,7 +371,7 @@ export default function MiAgendaPage() {
       <div className="min-h-screen bg-[var(--bg-0)] flex items-center justify-center p-4 sm:p-6">
         <div className="w-full max-w-md">
           <div className="flex flex-col items-center mb-8">
-            <img src="/logo-tight.png" alt={BRAND.NAME} className="w-[140px] h-auto mb-2" data-testid="img-logo-booking" />
+            <img src="/logo-tight.png" alt={BRAND.NAME} width={140} height={37} loading="eager" decoding="async" fetchPriority="high" className="w-[140px] h-auto mb-2" data-testid="img-logo-booking" />
           </div>
 
           <div className="bg-[var(--card-bg)] rounded-3xl shadow-xl shadow-black/5 dark:shadow-black/20 border border-[var(--border)] overflow-hidden">

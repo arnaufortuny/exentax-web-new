@@ -13,6 +13,17 @@
  *   DISCORD_WEBHOOK_CONSENTIMIENTOS → Privacidad / cookies
  *   DISCORD_WEBHOOK_ERRORES         → Errores críticos + validaciones (fallback: registros)
  *
+ * Identity (Exentax brand):
+ *   - Every payload sets `username: "Exentax"`.
+ *   - Every payload sets `avatar_url` to the public icon `ex-icon-green.png`,
+ *     served from `SITE_URL`. This overrides any per-webhook avatar set
+ *     in Discord, so all messages render with the same neon-green identity.
+ *   - `send()` forces the Exentax neon green color (`0x00E510`) on every
+ *     embed, regardless of any color requested by callers. The legacy
+ *     palette (TEAL/RED/ORANGE/PURPLE/BLUE/GREY) survives only as
+ *     internal documentation; status is conveyed through title,
+ *     description and field content.
+ *
  * Helper único: `notifyEvent(envelope)` — todos los `notify*` lo usan internamente.
  *
  * Payload normalizado (envelope):
@@ -34,6 +45,12 @@
 
 import { logger } from "./logger";
 import { SITE_URL, DEFAULT_TIMEZONE } from "./server-constants";
+
+// ─── Brand identity ──────────────────────────────────────────────────────────
+
+const EXENTAX_NEON = 0x00E510;
+const EXENTAX_USERNAME = "Exentax";
+const EXENTAX_AVATAR_URL = `${SITE_URL.replace(/\/$/, "")}/ex-icon-green.png`;
 
 // ─── Link builders ───────────────────────────────────────────────────────────
 
@@ -107,7 +124,12 @@ const TYPE_TO_CHANNEL: Record<EventType, Channel> = {
   system_error:        "errores",
 };
 
-// ─── Color palette (Exentax brand) ──────────────────────────────────────────
+// ─── Color palette (legacy — kept for internal mapping; brand override applies) ─
+//
+// `send()` always overrides the embed color to `EXENTAX_NEON` to guarantee a
+// consistent brand identity across every Discord channel. These constants
+// remain so existing callers and `CRITICALITY_COLOR` keep type-checking
+// without any noise; the actual color rendered in Discord is always neon.
 
 const COLOR = {
   GREEN:       0x00E510,
@@ -146,15 +168,20 @@ function madridISO(): string {
 
 interface EmbedField { name: string; value: string; inline?: boolean }
 
+interface EmbedFooter { text: string; icon_url?: string }
+
 interface DiscordEmbed {
   title: string;
   description?: string;
   color: number;
   fields: EmbedField[];
+  footer?: EmbedFooter;
   timestamp: string;
 }
 
 interface DiscordPayload {
+  username: string;
+  avatar_url: string;
   embeds: DiscordEmbed[];
 }
 
@@ -162,6 +189,7 @@ const DISCORD_FIELD_LIMIT = 25;
 const DISCORD_FIELD_NAME_MAX = 256;
 const DISCORD_FIELD_VALUE_MAX = 1024;
 const DISCORD_DESC_MAX = 4096;
+const DISCORD_FOOTER_MAX = 2048;
 
 function clampEmbed(embed: DiscordEmbed): DiscordEmbed {
   if (embed.description && embed.description.length > DISCORD_DESC_MAX) {
@@ -174,6 +202,9 @@ function clampEmbed(embed: DiscordEmbed): DiscordEmbed {
   for (const f of embed.fields) {
     if (f.name.length > DISCORD_FIELD_NAME_MAX) f.name = f.name.slice(0, DISCORD_FIELD_NAME_MAX - 3) + "...";
     if (f.value.length > DISCORD_FIELD_VALUE_MAX) f.value = f.value.slice(0, DISCORD_FIELD_VALUE_MAX - 3) + "...";
+  }
+  if (embed.footer && embed.footer.text.length > DISCORD_FOOTER_MAX) {
+    embed.footer.text = embed.footer.text.slice(0, DISCORD_FOOTER_MAX - 3) + "...";
   }
   return embed;
 }
@@ -256,9 +287,13 @@ function send(channel: Channel, embed: DiscordEmbed): void {
     logger.debug(`Discord webhook missing for channel '${channel}' — event dropped`, "discord");
     return;
   }
+  // Force the Exentax neon brand color on every embed regardless of caller.
+  embed.color = EXENTAX_NEON;
   enqueueItem({
     url,
     payload: {
+      username: EXENTAX_USERNAME,
+      avatar_url: EXENTAX_AVATAR_URL,
       embeds: [clampEmbed(embed)],
     },
     attempt: 0,
@@ -288,6 +323,7 @@ export interface EventEnvelope {
   user?: string | null;       // identificador del usuario (email)
   ip?: string | null;
   fields?: EmbedField[];      // campos específicos del evento (orden preservado)
+  footer?: EmbedFooter;       // override del footer (por defecto: branded footer)
 }
 
 const CRITICALITY_COLOR: Record<Criticality, number> = {
@@ -324,6 +360,7 @@ export function notifyEvent(ev: EventEnvelope): void {
     description: ev.description,
     color: ev.color ?? CRITICALITY_COLOR[ev.criticality],
     fields,
+    footer: ev.footer ?? brandFooter(channel),
     timestamp: madridISO(),
   });
 }
@@ -341,13 +378,21 @@ function fmt(n: number): string {
 
 type FieldList = EmbedField[];
 
+/** Pushes a field only when the value is meaningful. Empty/nullish values are silently dropped. */
 function push(fields: FieldList, name: string, value: string | null | undefined, inline = true): void {
-  if (!value || !value.trim()) return;
-  fields.push({ name, value: value.trim(), inline });
+  if (value == null) return;
+  const trimmed = String(value).trim();
+  if (!trimmed) return;
+  fields.push({ name, value: trimmed, inline });
 }
 
 function pushAlways(fields: FieldList, name: string, value: string, inline = true): void {
   fields.push({ name, value, inline });
+}
+
+function pushBool(fields: FieldList, name: string, value: boolean | null | undefined, inline = true): void {
+  if (value == null) return;
+  fields.push({ name, value: value ? "Sí" : "No", inline });
 }
 
 // ─── Helpers comunes para los wrappers ───────────────────────────────────────
@@ -358,6 +403,10 @@ function bookingLinks(bookingId: string, manageToken?: string | null): EmbedFiel
   if (cl) out.push({ name: "Gestion cliente", value: `[Abrir](${cl})`, inline: true });
   out.push({ name: "Panel admin", value: `[Gestionar](${adminLink(bookingId)})`, inline: true });
   return out;
+}
+
+function brandFooter(extra?: string): EmbedFooter {
+  return { text: extra ? `Exentax · ${extra}` : "Exentax", icon_url: EXENTAX_AVATAR_URL };
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -386,30 +435,49 @@ export function notifyBookingCreated(opts: {
   shareNote?: string | null;
   privacyAccepted?: boolean;
   marketingAccepted?: boolean;
+  source?: string | null;
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  utmCampaign?: string | null;
+  utmContent?: string | null;
+  page?: string | null;
+  referrer?: string | null;
+  clientTimezone?: string | null;
 }): void {
-  const fullName = `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`;
+  const fullName = `${opts.name}${opts.lastName ? " " + opts.lastName : ""}`.trim();
   const fields: FieldList = [];
 
-  pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Confirmada", true);
   pushAlways(fields, "Fecha", `**${opts.date}**`, true);
   pushAlways(fields, "Horario", `${opts.startTime} — ${opts.endTime}`, true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
+  push(fields, "TZ cliente", opts.clientTimezone);
+
   pushAlways(fields, "Nombre", fullName, true);
-  pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
+  pushAlways(fields, "Email", opts.email, true);
+  push(fields, "Telefono", opts.phone);
 
   if (opts.meetLink) pushAlways(fields, "Google Meet", `[Unirse](${opts.meetLink})`, true);
   push(fields, "Actividad", opts.activity);
-  if (opts.monthlyProfit != null) pushAlways(fields, "Beneficio mensual", String(opts.monthlyProfit), true);
-  if (opts.globalClients != null) pushAlways(fields, "Clientes internacionales", opts.globalClients ? "Si" : "No", true);
-  if (opts.digitalOperation != null) pushAlways(fields, "Operacion digital", opts.digitalOperation ? "Si" : "No", true);
+  if (opts.monthlyProfit != null && String(opts.monthlyProfit).trim()) {
+    pushAlways(fields, "Beneficio mensual", String(opts.monthlyProfit), true);
+  }
+  pushBool(fields, "Clientes internacionales", opts.globalClients);
+  pushBool(fields, "Operacion digital", opts.digitalOperation);
 
-  if (opts.notes) pushAlways(fields, "Notas del cliente", opts.notes.slice(0, 500), false);
-  if (opts.context) pushAlways(fields, "Contexto", opts.context.slice(0, 500), false);
-  if (opts.shareNote) pushAlways(fields, "Nota adicional", opts.shareNote.slice(0, 300), false);
+  push(fields, "Ruta", opts.page);
+  push(fields, "Referrer", opts.referrer ? opts.referrer.slice(0, 200) : null);
+  push(fields, "UTM Source", opts.utmSource);
+  push(fields, "UTM Medium", opts.utmMedium);
+  push(fields, "UTM Campaign", opts.utmCampaign ? opts.utmCampaign.slice(0, 100) : null);
+  push(fields, "UTM Content", opts.utmContent ? opts.utmContent.slice(0, 100) : null);
 
-  pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
-  pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
+  if (opts.notes) pushAlways(fields, "Notas del cliente", opts.notes.slice(0, 800), false);
+  if (opts.context) pushAlways(fields, "Contexto", opts.context.slice(0, 800), false);
+  if (opts.shareNote) pushAlways(fields, "Nota adicional", opts.shareNote.slice(0, 400), false);
+
+  pushBool(fields, "Privacidad", opts.privacyAccepted);
+  pushBool(fields, "Marketing", opts.marketingAccepted);
 
   for (const f of bookingLinks(opts.bookingId, opts.manageToken)) fields.push(f);
 
@@ -423,6 +491,7 @@ export function notifyBookingCreated(opts: {
     route: "/api/bookings/book",
     method: "POST",
     language: opts.language || null,
+    source: opts.source || null,
     user: opts.email,
     ip: opts.ip || null,
     fields,
@@ -445,20 +514,24 @@ export function notifyBookingRescheduled(opts: {
   rescheduleCount?: number | null;
   ip?: string | null;
   source?: string | null;
+  page?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
   const fields: FieldList = [];
 
-  pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Reagendada", true);
   pushAlways(fields, "Fecha anterior", opts.oldDate ? `~~${opts.oldDate}${opts.oldStartTime ? " " + opts.oldStartTime : ""}~~` : "—", true);
   pushAlways(fields, "Nueva fecha", `**${opts.newDate}**`, true);
   pushAlways(fields, "Nuevo horario", `**${opts.newStartTime} — ${opts.newEndTime}**`, true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
+
   pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
-  pushAlways(fields, "Google Meet", opts.newMeetLink ? `[Unirse](${opts.newMeetLink})` : "Sin cambios", true);
+  pushAlways(fields, "Email", opts.email, true);
+  push(fields, "Telefono", opts.phone);
+
+  if (opts.newMeetLink) pushAlways(fields, "Google Meet", `[Unirse](${opts.newMeetLink})`, true);
   pushAlways(fields, "Reagendamientos", String(opts.rescheduleCount ?? 1), true);
+  push(fields, "Ruta", opts.page);
 
   for (const f of bookingLinks(opts.bookingId, opts.manageToken)) fields.push(f);
 
@@ -466,7 +539,7 @@ export function notifyBookingRescheduled(opts: {
     type: EVENT_TYPES.BOOKING_RESCHEDULED,
     criticality: "business",
     title: `Asesoria reagendada — ${opts.newDate} ${opts.newStartTime}`,
-    description: `**${opts.name}** ha cambiado la fecha de su asesoria.`,
+    description: `**${opts.name}** ha cambiado la fecha de su asesoria. Origen: **${sourceLabel}**.`,
     color: COLOR.TEAL,
     origin: opts.source === "admin" ? "admin/agenda" : "public/booking",
     route: opts.source === "admin"
@@ -494,26 +567,29 @@ export function notifyBookingCancelled(opts: {
   ip?: string | null;
   reason?: string | null;
   source?: string | null;
+  page?: string | null;
 }): void {
   const sourceLabel = opts.source === "admin" ? "Admin" : "Cliente";
   const fields: FieldList = [];
 
-  pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "Cancelada", true);
   pushAlways(fields, "Fecha", opts.date || "—", true);
   pushAlways(fields, "Horario", opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "—", true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
-  pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
 
-  if (opts.reason) pushAlways(fields, "Motivo", opts.reason.slice(0, 300), false);
+  pushAlways(fields, "Cliente", opts.name, true);
+  pushAlways(fields, "Email", opts.email, true);
+  push(fields, "Telefono", opts.phone);
+
+  if (opts.reason) pushAlways(fields, "Motivo", opts.reason.slice(0, 400), false);
+  push(fields, "Ruta", opts.page);
   pushAlways(fields, "Panel admin", `[Ver reserva](${adminLink(opts.bookingId)})`, true);
 
   notifyEvent({
     type: EVENT_TYPES.BOOKING_CANCELLED,
     criticality: "warning",
     title: `Asesoria cancelada — ${opts.date || "sin fecha"}`,
-    description: `**${opts.name}** ha cancelado su asesoria.`,
+    description: `**${opts.name}** ha cancelado su asesoria. Origen: **${sourceLabel}**.`,
     color: COLOR.RED,
     origin: opts.source === "admin" ? "admin/agenda" : "public/booking",
     route: opts.source === "admin"
@@ -542,16 +618,18 @@ export function notifyNoShow(opts: {
 }): void {
   const fields: FieldList = [];
 
-  pushAlways(fields, "ID Reserva", `\`${opts.bookingId}\``, true);
   pushAlways(fields, "Estado", "No-show", true);
   pushAlways(fields, "Fecha", opts.date || "—", true);
   pushAlways(fields, "Horario", opts.startTime ? `${opts.startTime}${opts.endTime ? " — " + opts.endTime : ""}` : "—", true);
   pushAlways(fields, "Zona horaria", DEFAULT_TIMEZONE, true);
+
   pushAlways(fields, "Cliente", opts.name, true);
-  pushAlways(fields, "Telefono", opts.phone?.trim() || "—", true);
+  pushAlways(fields, "Email", opts.email, true);
+  push(fields, "Telefono", opts.phone);
 
   if (opts.meetLink) pushAlways(fields, "Google Meet", `[Enlace](${opts.meetLink})`, true);
-  pushAlways(fields, "Panel admin", `[Gestionar](${adminLink(opts.bookingId)})`, true);
+
+  for (const f of bookingLinks(opts.bookingId, opts.manageToken)) fields.push(f);
 
   notifyEvent({
     type: EVENT_TYPES.BOOKING_NO_SHOW,
@@ -587,12 +665,19 @@ export function notifyCalculatorLead(opts: {
   privacyAccepted?: boolean;
   userAgent?: string | null;
   referrer?: string | null;
+  page?: string | null;
+  source?: string | null;
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  utmCampaign?: string | null;
+  utmContent?: string | null;
 }): void {
   const fields: FieldList = [];
 
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
-  pushAlways(fields, "Pais", opts.country?.trim() || "No especificado", true);
-  pushAlways(fields, "Regimen fiscal", opts.regime?.trim() || "No especificado", true);
+  pushAlways(fields, "Email", opts.email, true);
+  push(fields, "Pais", opts.country);
+  push(fields, "Regimen fiscal", opts.regime);
   push(fields, "Actividad", opts.activity);
 
   if (opts.monthlyIncome != null) pushAlways(fields, "Ingresos mensuales", fmt(opts.monthlyIncome), true);
@@ -604,22 +689,29 @@ export function notifyCalculatorLead(opts: {
   push(fields, "Nombre", opts.name);
   push(fields, "Telefono", opts.phone);
 
-  pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
-  pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
+  push(fields, "Ruta", opts.page);
+  push(fields, "Referrer", opts.referrer ? opts.referrer.slice(0, 200) : null);
+  push(fields, "UTM Source", opts.utmSource);
+  push(fields, "UTM Medium", opts.utmMedium);
+  push(fields, "UTM Campaign", opts.utmCampaign ? opts.utmCampaign.slice(0, 100) : null);
+  push(fields, "UTM Content", opts.utmContent ? opts.utmContent.slice(0, 100) : null);
+
+  pushBool(fields, "Privacidad", opts.privacyAccepted);
+  pushBool(fields, "Marketing", opts.marketingAccepted);
 
   notifyEvent({
     type: EVENT_TYPES.LEAD_CALCULATOR,
     criticality: "business",
     title: `Calculadora — ${fmt(opts.ahorro)} ahorro`,
     description: opts.country
-      ? `Nuevo calculo desde **${opts.country}** (${opts.regime || "regimen no especificado"}).`
-      : undefined,
+      ? `Nuevo calculo desde **${opts.country}**${opts.regime ? ` (${opts.regime})` : ""}.`
+      : "Nuevo calculo de ahorro fiscal.",
     color: COLOR.GREEN,
     origin: "public/calculator",
     route: "/api/calculator-leads",
     method: "POST",
     language: opts.language || null,
-    source: opts.referrer ? opts.referrer.slice(0, 200) : null,
+    source: opts.source || (opts.referrer ? opts.referrer.slice(0, 200) : null),
     user: opts.email,
     ip: opts.ip || null,
     fields,
@@ -633,15 +725,32 @@ export function notifyNewsletterSubscribe(opts: {
   ip?: string | null;
   privacyAccepted?: boolean;
   marketingAccepted?: boolean;
+  page?: string | null;
+  leadId?: string | null;
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  utmCampaign?: string | null;
+  utmContent?: string | null;
 }): void {
   const fields: FieldList = [];
-  pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No", true);
-  pushAlways(fields, "Marketing", opts.marketingAccepted ? "Aceptado" : "No", true);
+
+  pushAlways(fields, "Email", opts.email, true);
+  if (opts.leadId) pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
+
+  push(fields, "Ruta", opts.page);
+  push(fields, "UTM Source", opts.utmSource);
+  push(fields, "UTM Medium", opts.utmMedium);
+  push(fields, "UTM Campaign", opts.utmCampaign ? opts.utmCampaign.slice(0, 100) : null);
+  push(fields, "UTM Content", opts.utmContent ? opts.utmContent.slice(0, 100) : null);
+
+  pushBool(fields, "Privacidad", opts.privacyAccepted);
+  pushBool(fields, "Marketing", opts.marketingAccepted);
 
   notifyEvent({
     type: EVENT_TYPES.LEAD_NEWSLETTER,
     criticality: "business",
     title: "Nueva suscripcion newsletter",
+    description: `**${opts.email}** se ha suscrito a la newsletter.`,
     color: COLOR.TEAL,
     origin: "public/newsletter",
     route: "/api/newsletter/subscribe",
@@ -664,12 +773,17 @@ export function notifyNewLead(opts: {
   ip?: string | null;
   activity?: string | null;
   bookingId?: string | null;
+  page?: string | null;
 }): void {
   const fields: FieldList = [];
+
   pushAlways(fields, "ID Lead", `\`${opts.leadId}\``, true);
   pushAlways(fields, "Nombre", opts.name, true);
+  pushAlways(fields, "Email", opts.email, true);
   push(fields, "Telefono", opts.phone);
   push(fields, "Actividad", opts.activity);
+  push(fields, "Ruta", opts.page);
+
   if (opts.bookingId) {
     pushAlways(fields, "Panel admin", `[Ver](${adminLink(opts.bookingId)})`, true);
   }
@@ -724,10 +838,10 @@ export function notifyWebVisit(opts: {
   }
   push(fields, "Navegador", browser);
 
-  if (opts.utmSource) pushAlways(fields, "UTM Source", opts.utmSource, true);
-  if (opts.utmMedium) pushAlways(fields, "UTM Medium", opts.utmMedium, true);
-  if (opts.utmCampaign) pushAlways(fields, "UTM Campaign", opts.utmCampaign.slice(0, 100), true);
-  if (opts.utmContent) pushAlways(fields, "UTM Content", opts.utmContent.slice(0, 100), true);
+  push(fields, "UTM Source", opts.utmSource);
+  push(fields, "UTM Medium", opts.utmMedium);
+  push(fields, "UTM Campaign", opts.utmCampaign ? opts.utmCampaign.slice(0, 100) : null);
+  push(fields, "UTM Content", opts.utmContent ? opts.utmContent.slice(0, 100) : null);
 
   if (opts.sessionId) pushAlways(fields, "Sesion", `\`${opts.sessionId.slice(0, 16)}\``, true);
 
@@ -735,6 +849,7 @@ export function notifyWebVisit(opts: {
     type: EVENT_TYPES.USER_ACTIVITY,
     criticality: "info",
     title: `Visita — ${page}`,
+    description: opts.isNew ? "Visitante nuevo." : "Visitante recurrente.",
     color: opts.isNew ? COLOR.GREEN : COLOR.GREY,
     origin: "public/visitor",
     route: page,
@@ -754,20 +869,24 @@ export function notifyConsent(opts: {
   source?: string | null;
   privacyVersion?: string | null;
   ip?: string | null;
+  page?: string | null;
 }): void {
   const isCookie = opts.formType.startsWith("cookies:");
   const typeLabel = isCookie ? opts.formType.replace("cookies:", "") : opts.formType;
   const fields: FieldList = [];
 
   pushAlways(fields, "Formulario", typeLabel, true);
-  pushAlways(fields, "Privacidad", opts.privacyAccepted ? "Aceptada" : "No aceptada", true);
-  pushAlways(fields, "Marketing", opts.marketingAccepted === true ? "Aceptado" : opts.marketingAccepted === false ? "Rechazado" : "N/A", true);
+  pushBool(fields, "Privacidad", opts.privacyAccepted ?? null);
+  pushBool(fields, "Marketing", opts.marketingAccepted ?? null);
   push(fields, "Version politica", opts.privacyVersion);
+  push(fields, "Ruta", opts.page);
+  push(fields, "Email", opts.email);
 
   notifyEvent({
     type: EVENT_TYPES.CONSENT_LOGGED,
     criticality: "info",
     title: isCookie ? `Consentimiento cookies — ${typeLabel}` : `Consentimiento — ${typeLabel}`,
+    description: `Registro de consentimiento (${typeLabel}).`,
     color: isCookie ? COLOR.ORANGE : COLOR.BLUE,
     origin: isCookie ? "public/cookies" : `public/${typeLabel}`,
     language: opts.language || null,

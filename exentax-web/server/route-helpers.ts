@@ -37,11 +37,7 @@ export function getEndTime(startTime: string): string {
   return `${endH.toString().padStart(2, "0")}:${endM.toString().padStart(2, "0")}`;
 }
 
-export function isWeekday(dateStr: string): boolean {
-  const d = new Date(dateStr + "T12:00:00");
-  const day = d.getDay();
-  return day >= 1 && day <= 5;
-}
+export { isWeekdayISO as isWeekday } from "../shared/madrid-time";
 
 function getMeetingTimestampMs(date: string, startTime: string): number {
   const [year, month, day] = date.split("-").map(Number);

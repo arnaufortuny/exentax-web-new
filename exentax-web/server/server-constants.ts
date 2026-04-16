@@ -1,3 +1,5 @@
+import { MADRID_TZ, DATE_LOCALE_ISO as SHARED_DATE_LOCALE_ISO, nowMadrid as sharedNowMadrid, todayMadridISO as sharedTodayMadridISO } from "../shared/madrid-time";
+
 export const SUPPORTED_LANGS: readonly string[] = ["es", "en", "fr", "de", "pt", "ca"];
 export type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
@@ -33,14 +35,9 @@ export const TIKTOK_URL = process.env.TIKTOK_URL || "https://www.tiktok.com/@exe
 export const YOUTUBE_URL = process.env.YOUTUBE_URL || "https://youtube.com/@exentax";
 export const FACEBOOK_URL = process.env.FACEBOOK_URL || "https://www.facebook.com/share/1Auhteo8Ad/?mibextid=wwXIfr";
 export const LINKEDIN_URL = process.env.LINKEDIN_URL || "https://www.linkedin.com/company/exentax";
-export const DEFAULT_TIMEZONE = "Europe/Madrid";
-export const DATE_LOCALE_ISO = "en-CA";
+export const DEFAULT_TIMEZONE = MADRID_TZ;
+export const DATE_LOCALE_ISO = SHARED_DATE_LOCALE_ISO;
 export const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "arnau@exentax.com";
 
-export function nowMadrid(): Date {
-  return new Date(new Date().toLocaleString("en-US", { timeZone: DEFAULT_TIMEZONE }));
-}
-
-export function todayMadridISO(): string {
-  return new Date().toLocaleDateString(DATE_LOCALE_ISO, { timeZone: DEFAULT_TIMEZONE });
-}
+export const nowMadrid = sharedNowMadrid;
+export const todayMadridISO = sharedTodayMadridISO;
