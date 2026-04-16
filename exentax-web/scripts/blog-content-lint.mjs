@@ -199,6 +199,35 @@ function format(filePath, finding) {
   return `${rel}:${finding.line}  ${detail}\n    ${finding.text}`;
 }
 
+/**
+ * Analyze a raw text body line-by-line and return the findings the guard
+ * would report for it. Exported so the unit test can feed synthetic
+ * fixtures without touching the real blog data files.
+ */
+export function analyzeText(text) {
+  const findings = [];
+  const lines = text.split("\n");
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
+    const price = lineHasForbiddenAmount(line);
+    if (price) findings.push({ line: i + 1, text: line.trim(), ...price });
+    const address = lineHasForbiddenAddress(line);
+    if (address) findings.push({ line: i + 1, text: line.trim(), ...address });
+  }
+  return findings;
+}
+
+export {
+  ALLOWED_AMOUNT_PATTERNS,
+  ALLOWED_LINE_MARKERS,
+  FORBIDDEN_CONTEXT,
+  FORBIDDEN_ADDRESS,
+  isAllowedAmount,
+  lineIsAllowlisted,
+  lineHasForbiddenAmount,
+  lineHasForbiddenAddress,
+};
+
 function main() {
   const files = listBlogFiles();
   if (files.length === 0) {
@@ -230,4 +259,8 @@ function main() {
   );
 }
 
-main();
+// Only auto-run when invoked as a CLI script, so unit tests can import
+// the module without triggering a real scan of the blog data files.
+if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {
+  main();
+}

@@ -36,6 +36,22 @@ async function buildAll() {
     );
   }
 
+  // Unit tests for the guard itself (Task #25). Runs fixtures through
+  // blog-content-lint.mjs so a regression in its own regexes (allowlist
+  // drift, locale keyword gaps) blocks the deploy before the client build.
+  console.log("running blog guard unit tests (test:lint-blog)...");
+  const lintTest = spawnSync(
+    process.execPath,
+    [path.resolve(ROOT, "scripts/blog-content-lint.test.mjs")],
+    { stdio: "inherit" },
+  );
+  if (lintTest.status !== 0) {
+    throw new Error(
+      `blog-content-lint.test failed with exit code ${lintTest.status}. ` +
+        `The blog guard's own regexes regressed — fix them before deploying.`,
+    );
+  }
+
   console.log("building client...");
   await viteBuild({
     configFile: path.resolve(ROOT, "vite.config.ts"),
