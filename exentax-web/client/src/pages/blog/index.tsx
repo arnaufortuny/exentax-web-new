@@ -1,9 +1,10 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import SEO from "@/components/SEO";
 import { useReveal } from "@/hooks/useReveal";
 import { BLOG_POSTS, getLocalizedMeta, getTranslatedSlug } from "@/data/blog-posts";
+import { loadBlogContent, prefetchBlogContent } from "@/data/blog-posts-content";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
 import { BRAND } from "@/lib/constants";
 
@@ -129,8 +130,16 @@ function BlogCard({ slug, title, excerpt, category, readTime, publishedAt }: {
     day: "numeric",
   });
 
+  const prefetch = () => { void loadBlogContent(slug, lang); };
+
   return (
-    <Link href={`/${lang}/blog/${getTranslatedSlug(slug, lang)}`} data-testid={`card-blog-${slug}`}>
+    <Link
+      href={`/${lang}/blog/${getTranslatedSlug(slug, lang)}`}
+      data-testid={`card-blog-${slug}`}
+      onMouseEnter={prefetch}
+      onFocus={prefetch}
+      onTouchStart={prefetch}
+    >
       <article
         className="group relative rounded-2xl flex flex-col h-full cursor-pointer overflow-hidden transition-[border-color,box-shadow,transform] duration-300 hover:-translate-y-1"
         style={{
@@ -186,6 +195,17 @@ export default function BlogIndex() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const currentLang = (i18n.language || "es").split("-")[0] as SupportedLang;
   const lang = SUPPORTED_LANGS.includes(currentLang) ? currentLang : "es";
+
+  useEffect(() => {
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const schedule = w.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 300));
+    const cancel = w.cancelIdleCallback ?? window.clearTimeout;
+    const id = schedule(() => { prefetchBlogContent(lang); }, { timeout: 2000 });
+    return () => cancel(id as number);
+  }, [lang]);
 
   const categories = useMemo(() => {
     const cats = [...new Set(BLOG_POSTS.map(p => p.category))];
