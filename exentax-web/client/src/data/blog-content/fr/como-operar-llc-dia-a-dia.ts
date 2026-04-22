@@ -1,0 +1,257 @@
+export default `Une fois que votre LLC est constituée, la vraie question n'est plus « comment on la crée » mais « comment on la fait tourner sans faire d'erreur ». Et c'est précisément là que la plupart des nouveaux propriétaires francophones trébuchent: mélange de comptes, factures rédigées comme s'ils étaient auto-entrepreneurs, dépenses perso passées sur la carte Mercury.
+
+La gestion quotidienne d'une LLC n'est pas compliquée. en fait, une fois que vous avez établi les bonnes habitudes, tout fonctionne presque en pilote automatique. Mais il y a des règles du jeu qu'il vaut mieux connaître dès le premier jour. Allons-y.
+
+## La première chose: séparez le personnel du professionnel
+
+C'est LE principe. Le commandement numéro un. La règle d'or. Votre LLC est une entité distincte de vous, et cette séparation doit être réelle, pas seulement sur le papier.
+
+En pratique:
+
+- **Tous les revenus de votre activité** entrent sur le compte de la LLC chez Mercury (ou Relay)
+- **Toutes les dépenses professionnelles** sortent de ce même compte
+- **Jamais, au grand jamais** ne mélangez les dépenses personnelles avec celles de la LLC
+
+Pourquoi insister autant? Parce que si vous mélangez les fonds, un juge peut « lever le voile social » (piercing the corporate veil) et votre protection patrimoniale disparaît. C'est comme avoir un airbag débranché, il est là mais il ne vous servira pas quand vous en aurez besoin.
+## Votre écosystème financier: les outils du quotidien
+
+### Mercury: votre plateforme financière principale
+
+Mercury est là où réside l'argent de votre LLC. C'est votre compte bancaire professionnel, opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités) (banque avec licence fédérale et assurance FDIC jusqu'à $250,000). Ce qui le rend spécial:
+
+- **aucuns frais récurrents** sur tout: maintenance, ACH, virements nationaux et internationaux
+- **Carte de débit** (physique et virtuelle) pour les dépenses de la LLC
+- **Sous-comptes** pour organiser votre argent (opérationnel, impôts, réserve)
+- **Tableau de bord clair** avec catégorisation automatique des transactions
+- **Facturation intégrée**: vous pouvez envoyer des factures directement depuis Mercury
+
+Un détail que peu de gens connaissent: Mercury ne facture pas les virements internationaux. Ni à l'envoi ni à la réception. $0. C'est un avantage considérable par rapport à n'importe quelle banque traditionnelle.
+
+### Wise Business: votre outil de conversion de devises
+
+Wise (attention: c'est une EMI. Établissement de Monnaie Électronique, pas une banque) est parfait lorsque vous devez convertir des dollars en euros, en pesos ou en toute autre devise. Il vous donne le taux de change réel (mid-market rate) sans marge cachée.
+
+Le flux typique: Le client paie → Mercury (USD) → Wise (conversion) → Votre compte personnel (EUR/MXN/COP).
+
+### Stripe et PayPal: pour encaisser les paiements clients
+
+Stripe pour les paiements par carte, les abonnements et le checkout professionnel. PayPal Business pour les clients qui préfèrent cette méthode. Les deux se connectent à votre compte Mercury sans problème.
+## Comment facturer avec votre LLC
+
+Quand vous facturez un client, vous le faites en tant que LLC, pas en tant que personne physique. La facture doit inclure:
+
+- **La dénomination légale de la LLC** (telle qu'elle apparaît dans les Articles of Organization)
+- **L'adresse du Registered Agent** (ou l'adresse commerciale si vous en avez une)
+- **L'EIN** (certains clients le demandent, notamment les clients américains)
+- **Les coordonnées bancaires** du compte de la LLC (routing + account number pour les clients US, SWIFT pour les internationaux)
+
+Vous n'avez pas besoin d'un format de facture spécifique aux États-Unis. Vous pouvez utiliser Mercury Invoicing (intégré à votre compte), Stripe Invoicing, ou des outils comme FreshBooks, Wave ou même un PDF bien conçu.
+
+**Astuce pro:** Créez un modèle de facture avec toutes les informations de votre LLC et réutilisez-le. Incluez vos conditions de paiement (Net 15, Net 30) et les méthodes de paiement acceptées. Un freelance qui envoie des factures professionnelles est payé plus rapidement, c'est un fait avéré.
+### Encaissements: comment recevoir l'argent?
+
+Vous avez plusieurs options (et il convient d'utiliser la plus adaptée selon le client):
+
+- **ACH**: pour les clients américains. C'est gratuit chez Mercury et la méthode la plus courante aux États-Unis.
+- **Virement bancaire**: pour les paiements importants ou urgents. $0 chez Mercury (oui, tant à l'envoi qu'à la réception).
+- **Stripe**: pour les paiements par carte, abonnements ou paiements en ligne (2.9 % + $0.30 par transaction)
+- **PayPal Business**: une alternative largement acceptée
+- **Wise Business**: idéal pour recevoir en plusieurs devises (EUR, GBP, etc.) et convertir en USD
+
+La règle d'or: tout l'argent de l'activité entre sur le compte de la LLC. Si un client vous demande « puis-je vous payer sur votre compte personnel? », la réponse est toujours non.
+### Dépenses: que puis-je payer avec la LLC?
+
+La LLC peut payer toute dépense qui est **ordinaire et nécessaire** pour l'activité:
+
+- Logiciels et outils (hébergement, domaines, SaaS, licences)
+- Services professionnels (comptabilité, juridique, marketing, design)
+- Publicité et marketing numérique
+- Matériel de travail (ordinateur, écran, clavier, chaise ergonomique)
+- Formation professionnelle (cours, conférences, livres techniques)
+- Coworking ou espace de travail
+- Déplacements professionnels (s'ils sont directement liés à votre activité)
+- Frais bancaires et frais de processeurs de paiement
+- Services d'Exentax (oui, nos honoraires sont déductibles)
+
+Les dépenses déductibles réduisent votre base imposable, et comme vos bénéfices « passent à travers » la LLC (pass-through taxation) vers votre déclaration personnelle, chaque dépense légitime déduite est de l'argent sur lequel vous ne payez pas d'impôt. Mais attention: chaque dépense doit être documentée et véritablement liée à l'activité. N'essayez pas de faire passer le dîner du samedi soir entre amis comme un « networking dinner ».
+## Comment transférer l'argent de la LLC vers votre compte personnel
+
+En tant que Single-Member LLC, les bénéfices vous appartiennent. Vous pouvez vous transférer de l'argent quand vous le souhaitez. C'est ce qu'on appelle un **Owner's Draw** (retrait du propriétaire).
+
+Ce n'est pas un salaire, vous n'avez pas à vous faire de fiche de paie. Vous effectuez simplement un virement du compte de la LLC vers votre compte personnel. L'important:
+
+- **Documentez chaque retrait** avec une note claire (« Owner's Draw - [date] - [montant] »)
+- **Ne retirez pas plus que ce qu'il y a** (ça semble évident, mais ça arrive)
+- **Maintenez un coussin** sur le compte pour les dépenses opérationnelles et la conformité
+- **Consolidez vos retraits**: mieux vaut un retrait mensuel documenté que 47 petits virements
+
+**Astuce pro:** Établissez un « jour de paie » mensuel. Le premier de chaque mois, par exemple, vous faites un Owner's Draw du montant que vous avez décidé. Cela simplifie la comptabilité et crée une habitude propre.
+### Registres et comptabilité: votre futur vous remerciera
+
+Vous n'avez pas besoin d'une comptabilité complexe (vous n'êtes pas une multinationale), mais vous avez besoin d'ordre:
+
+- **Registre des revenus et dépenses**: Mercury le fait automatiquement avec son tableau de bord, mais tenez aussi votre propre fichier de suivi
+- **Conserver toutes les factures** émises et reçues. créez un dossier sur Google Drive organisé par mois
+- **Conserver les justificatifs de dépenses**: numériques ou photos des reçus papier. Sans justificatif, pas de déduction possible
+- **Enregistrer les Owner's Draws**: date, montant, méthode de transfert
+- **Exporter les relevés de compte** de Mercury trimestriellement. conservez-les dans votre dossier LLC
+
+Ces registres sont essentiels pour vos déclarations fiscales (Form 5472 + 1120) et pour démontrer que votre LLC fonctionne comme une véritable entreprise. Quand vient le moment de préparer la déclaration annuelle, chez Exentax nous vous demandons ces informations et nous nous occupons du reste.
+### Routine mensuelle recommandée
+
+Pour que la gestion soit fluide, nous vous recommandons de consacrer 30 minutes par mois à ceci:
+
+1. **Vérifiez votre relevé de compte** sur Mercury, tout est en ordre?
+2. **Catégorisez les dépenses** qui n'ont pas été catégorisées automatiquement
+3. **Archivez les factures et reçus** en attente dans votre dossier
+4. **Faites votre Owner's Draw** mensuel (le cas échéant)
+5. **Vérifiez votre solde**: avez-vous un coussin suffisant pour le mois suivant?
+
+30 minutes. Une fois par mois. C'est tout ce qu'il faut pour maintenir votre LLC en parfait état.
+
+Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/votre-premier-mois-avec-une-llc-ce-a-quoi-vous-attendre">Votre premier mois avec une LLC: ce à quoi vous attendre semaine par semaine</a> détaille un point adjacent que nous réservons d'habitude à un article dédié.
+## Erreurs courantes dans la gestion quotidienne
+
+- **Mélanger comptes personnels et professionnels**: l'erreur la plus grave et la plus fréquente. Je répète: JAMAIS
+- **Ne pas conserver les reçus**: sans justificatif, vous ne pouvez pas déduire la dépense et vous perdez de l'argent
+- **Utiliser la carte Mercury pour des dépenses personnelles**: cela compromet la séparation des entités
+- **Ne pas enregistrer les Owner's Draws**: cela crée des problèmes dans la déclaration annuelle
+- **Oublier la maintenance annuelle**: Annual Report, Form 5472+1120, renouvellement du Registered Agent
+- **Ne pas avoir de routine**: la négligence s'accumule et en fin d'année vous avez un chaos comptable
+- **Demander aux clients de payer sur votre compte personnel**: chaque paiement doit aller sur le compte de la LLC
+
+Chez Exentax, on accompagne l'opérationnel quotidien de centaines de LLC tenues depuis la France, la Belgique et le Luxembourg. Prenez votre consultation gratuite et on vous montre exactement comment structurer votre mois 1 pour que le mois 12 soit un simple copier-coller.
+## Références légales et réglementaires
+
+Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+
+- **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
+- **Convention Espagne–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
+- **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
+- **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
+
+L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
+
+<!-- exentax:bank-balance-v1 -->
+## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+
+Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+
+- **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
+- **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
+- **Slash** (adossé à Column N.A. (établissement à charte fédérale, FDIC)). Banque pensée pour les opérateurs en ligne: émission instantanée de cartes virtuelles par fournisseur, contrôles de dépenses granulaires, cashback sur la publicité numérique. Le complément naturel quand vous gérez Meta Ads, Google Ads ou des abonnements SaaS.
+- **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
+- **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+
+<!-- exentax:banking-facts-v1 -->
+## Faits bancaires et fiscaux à préciser
+
+L'information sur les fintechs et le CRS évolue; voici l'état actuel:
+
+<!-- exentax:calc-cta-v1 -->
+> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notes par fournisseur
+
+- **Mercury** opère avec plusieurs banques partenaires sous charte fédérale et couverture **FDIC** via sweep network: principalement **Choice Financial Group** et **Evolve Bank & Trust**, et encore **Column N.A.** sur certains comptes hérités. Mercury n'est pas une banque; c'est une plateforme fintech adossée à ces partner banks. Si Mercury ferme un compte, le solde est généralement renvoyé **par chèque papier à l'adresse enregistrée du titulaire**, ce qui peut être un vrai problème opérationnel pour un non-résident; gardez un compte secondaire (Relay, Wise Business, etc.) comme contingence.
+- **Wise** propose deux produits distincts: **Wise Personal** et **Wise Business**. Pour une LLC, on doit ouvrir **Wise Business**, pas le compte personnel. Nuance CRS importante: un **Wise Business détenu par une LLC américaine reste hors CRS** car le titulaire est une entité US et les États-Unis ne sont pas dans le CRS; le volet USD passe par Wise US Inc. (périmètre FATCA, pas CRS). En revanche, un **Wise Personal ouvert par une personne physique résidente fiscale en Espagne** ou autre juridiction CRS **déclenche bien une déclaration CRS** via Wise Europe SA (Belgique) sur cette personne. Ouvrir Wise pour votre LLC ne vous fait pas entrer dans le CRS via la LLC; un Wise Personal séparé à votre nom de résident CRS, oui.
+- **Wallester** (Estonie) est une entité financière européenne avec licence EMI/banque émettrice de cartes. Ses comptes IBAN européens **entrent dans le Standard Commun de Déclaration (CRS)** et déclenchent un échange automatique vers l'administration fiscale du pays de résidence.
+- **Payoneer** opère via des entités européennes (Payoneer Europe Ltd, Irlande) elles aussi **dans le périmètre CRS** pour les clients résidant dans une juridiction participante.
+- **Revolut Business**: quand il est associé à une **LLC américaine**, le montage habituel passe par Revolut Payments USA; les IBAN européens (lituaniens, BE) **ne sont pas émis par défaut** à une LLC; ils le sont à des clients européens de la banque européenne du groupe. Si on vous propose un IBAN européen, vérifiez à quelle entité juridique il est rattaché et sous quel régime elle déclare.
+- **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
+
+<!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
+## Les sept habitudes opérationnelles qui maintiennent une LLC en bonne santé
+
+Bien faire tourner une LLC est une question d'habitudes, pas de talent comptable. Les LLCs qui arrivent chez Exentax avec des problèmes ont presque toujours violé au moins trois de ces sept. Les tenir transforme la LLC en actif géré en moins de deux heures par mois.
+
+- **Un seul compte opérationnel.** Tout flux passe par Mercury (ou équivalent). Pour payer une dépense personnelle avec l'argent de la LLC, transférez d'abord à Wise personnel comme member draw puis payez. Mélanger les opérations est la racine de toute complication.
+- **Calendrier fiscal ancré.** 5472 + 1120 pro forma avant le 15 avril (extension au 15 octobre via Form 7004); annual report de l'État dans son mois; BOI report dans les 30 jours suivant tout changement. Ces trois points dans votre agenda avec deux semaines d'avance.
+- **Réconciliation mensuelle.** Le 5 de chaque mois, réconcilier le relevé du mois précédent avec la comptabilité. Marque récurrente dans l'agenda. Sans cela, la comptabilité s'accumule et avril devient douloureux.
+- **Document par transaction.** Chaque encaissement a une facture émise (numérotée). Chaque dépense a une facture reçue (PDF dans le dossier du mois). Chaque mouvement entre comptes a une note. Cette couche documentaire soutient toute demande ultérieure.
+- **Compte de secours.** Mercury principal + Wise Business ou Relay en backup actif, avec au moins une transaction mensuelle pour garder l'historique. Un seul compte est un point unique de défaillance opérationnelle.
+- **Solde cible et réserves.** Garder au moins 3 mois de dépenses fixes sur le compte opérationnel. Le surplus va à Wise multidevises ou compte d'investissement personnel selon une politique définie. Sans politique, l'argent stagne ou se dépense sans réflexion.
+- **Revue trimestrielle honnête.** Tous les 90 jours, 30 minutes pour revoir P&L, ratio de marge, concentration client et prévision fiscale annuelle. Repérer les dérives tôt, tant qu'elles se corrigent encore.
+
+### Ce qu'on nous demande le plus
+
+**Combien de temps mensuel demande une LLC bien tenue?** Entre 90 minutes et 3 heures par mois pour une LLC avec 5-30 transactions mensuelles. La clôture annuelle (5472, réconciliation finale, BOI si changements) ajoute 4-8 heures en avril.
+
+**Puis-je tout déléguer au conseiller et me déconnecter?** Pas totalement. La réconciliation comptable mensuelle, l'émission des factures et les décisions de member draws ne se délèguent pas sans risque. Ce que nous prenons en charge chez Exentax est la clôture annuelle, le calendrier fiscal et la réponse aux requêtes.
+
+Chez Exentax nous laissons au client un manuel opérationnel de sa LLC adapté à son flux, des calendriers synchronisés et un point de contact fixe pour les questions de l'année.
+<!-- /exentax:execution-v2 -->
+
+## Faits légaux & de procédure
+
+Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+
+### Points clés
+
+- **BOI / Corporate Transparency Act.** Après la **interim final rule de FinCEN de mars 2025**, l'obligation de déposer le BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées hors des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US par un non-résident est, à ce jour, hors de cette obligation**. Le statut peut encore évoluer: **re-vérifier sur FinCEN.gov au moment du dépôt**. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé et surveillez les mises à jour.
+- **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
+- **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
+- **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
+### Lectures complémentaires
+
+Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitables sur ce point précis viennent de l'oubli de la documentation, pas de la logique fiscale sous-jacente.
+### Slash: rendement sur votre capital dormant
+
+Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
+
+### Wallester: cartes corporate pour les dépenses du quotidien
+
+Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
+
+### Revolut Business: complément multi-devises
+
+Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
+
+### Stripe, PayPal et plus: pour encaisser auprès des clients
+
+Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
+
+### Comment facturer avec votre LLC
+
+Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Une%20fois%20que%20votre%20LLC%20est%20constitu%C3%A9e%2C%20la%20vraie%20question%20n'est%20plus%20%C2%AB%20comment%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+
+Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
+<!-- /exentax:cta-conv-v1 -->
+
+Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">250,000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…heredadas) (banco con licencia federal y seguro FDIC hasta $250,000). Lo que lo hace espec…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">9%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…*: para cobros con tarjeta, suscripciones o pagos online (2.9% + $0.30 por transacción) - …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…s registros son esenciales para tus declaraciones fiscales (Form 5472 + 1120) y para demos…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

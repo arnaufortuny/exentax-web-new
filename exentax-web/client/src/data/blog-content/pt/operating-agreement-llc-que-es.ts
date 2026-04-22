@@ -1,0 +1,208 @@
+export default `Para um empreendedor em Portugal habituado ao pacto social da Lda registado na conservatória, o Operating Agreement pode parecer quase informal, documento privado, não registado, sem escritura. É um erro de leitura clássico: perante um juiz americano, o Operating Agreement pesa mais do que os próprios Articles of Organization.
+
+E aqui vem uma das coisas mais interessantes: **o Operating Agreement é um documento privado.** Não se regista perante nenhuma autoridade estatal, não é de acesso público, e ninguém exceto tu (e as entidades que tu decidires) pode vê-lo. Esta privacidade é uma vantagem enorme para a tua estrutura empresarial.
+
+## O que é o Operating Agreement?
+
+É o contrato interno que define como funciona a tua LLC. Pensa nele como a "constituição" da tua empresa, as regras do jogo que tu defines. Na maioria dos estados não é obrigatório registá-lo perante nenhuma autoridade, o que significa que **o seu conteúdo permanece completamente privado.** Só tu e as partes que tu escolheres (banco, processador de pagamentos) o veem.
+
+Compara-o com a escritura de constituição de uma SL espanhola, que é um documento notarial e público. Com uma LLC, as tuas regras internas, a tua participação e a tua classificação fiscal ficam entre ti e a tua empresa. Privacidade real.
+### Por que é tão importante?
+
+Sem Operating Agreement, a tua LLC rege-se pelas leis genéricas do estado onde está registada. Isso significa que perdes o controlo sobre decisões-chave do teu negócio.
+
+Mas a importância vai além:
+
+- **Reforça a separação entre ti e a LLC**: crucial para manter a proteção patrimonial. Sem este documento, o "véu corporativo" é mais fácil de levantar
+- **É requerido por bancos e processadores de pagamento**: Mercury, Stripe e PayPal pedem-no para verificar a tua LLC. Sem ele, não abres conta
+- **Define a estrutura fiscal**: estabelece que a tua LLC é uma Disregarded Entity para o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, o que te garante o pass-through taxation ($0 imposto federal)
+- **Protege ante disputas**: se no futuro adicionares sócios, as regras já estão escritas
+- **Privacidade**: ao ser um documento privado, os teus dados como proprietário e as regras financeiras da LLC não são públicas
+### O que inclui um Operating Agreement?
+
+Um Operating Agreement completo deve cobrir:
+
+- **Dados da LLC**: nome legal, estado de constituição, endereço do Registered Agent
+- **Dados do membro**: nome completo, percentagem de participação (100% para Single-Member)
+- **Propósito da LLC**: descrição geral da atividade comercial
+- **Classificação fiscal**: declaração explícita de que a LLC se trata como Disregarded Entity perante o IRS
+- **Capital inicial**: contribuição inicial do membro (pode ser $0)
+- **Distribuição de benefícios**: como se repartem os benefícios (100% ao único membro na Single-Member LLC)
+- **Gestão**: quem toma as decisões (Member-Managed vs Manager-Managed)
+- **Contas bancárias**: autorização para abrir e operar contas em nome da LLC
+- **Indemnização**: proteção do membro face a reclamações derivadas da atividade da LLC
+- **Dissolução**: condições sob as quais a LLC pode dissolver-se
+- **Emendas**: como se modifica o acordo se as circunstâncias mudarem
+### Member-Managed ou Manager-Managed?
+
+Para uma Single-Member LLC de um freelancer ou empreendedor digital, o mais habitual é **Member-Managed**: tu como único membro tomas todas as decisões. É a opção mais direta e a que usamos por defeito na Exentax.
+
+**Manager-Managed** usa-se quando queres designar alguém que gira a LLC em teu nome. É menos comum para trabalhadores independentes/autónomos, mas pode ser útil em estruturas mais complexas ou se planeias escalar com empregados.
+### Preciso de um advogado para redigi-lo?
+
+Não. O que precisas é que esteja bem feito e adaptado à tua situação real. Um Operating Agreement mal redigido, ou pior, um modelo genérico descarregado da internet. pode ser pior do que não ter nenhum.
+
+Na Exentax, o Operating Agreement vem incluído em todos os nossos planos de constituição. Está adaptado especificamente para não residentes com Single-Member LLCs: inclui a classificação fiscal correta (Disregarded Entity), as cláusulas de privacidade necessárias e a estrutura que Mercury e Stripe precisam de ver para aprovar a tua conta. Não é um template. é um documento preparado para o teu caso concreto.
+## Quando preciso de o atualizar?
+
+Deves atualizar o teu Operating Agreement quando:
+
+- Adicionas um novo membro à LLC
+- Mudas a estrutura de gestão (de Member-Managed para Manager-Managed ou vice-versa)
+- Modificas a classificação fiscal
+- Mudas de Registered Agent ou endereço
+- Há uma mudança significativa na atividade da LLC
+- Realizas uma contribuição de capital importante
+
+Na Exentax também nos encarregamos das atualizações do Operating Agreement quando são necessárias. Se a tua situação muda, adaptamos o documento.
+
+Para continuar neste fio, <a href="/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da">Por que abrir uma LLC americana atualmente: os 5 pilares da vantagem americana</a> e <a href="/pt/blog/ein-vs-itin-vs-ssn-os-numeros-de-identificacao-fiscal">EIN vs ITIN vs SSN: os números de identificação fiscal americanos explicados</a> completam nuances que aqui apenas tocámos.
+### O que deverias levar deste artigo
+
+Na Exentax redigimos Operating Agreements alinhados com o direito da família e das sucessões português. Marca a tua consultoria gratuita: verificamos se o teu aguenta.
+### Próximos passos
+
+Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
+## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
+
+Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
+
+### Por jurisdição
+
+- **Espanha (LIRPF/LIS).** Se a LLC for uma *Single-Member Disregarded Entity* operacional (serviços reais, sem passividade significativa), o fisco trata-a normalmente por **atribuição de rendimentos (art. 87 LIRPF)**: os lucros líquidos são imputados ao sócio no exercício em que se geram e integram-se na base geral do IRPF. Se a LLC optar por tributar como *corporation* (Form 8832) e ficar controlada por residente espanhol com rendimentos maioritariamente passivos, pode ativar-se a **transparência fiscal internacional (art. 91 LIRPF para pessoas singulares, art. 100 LIS para sociedades)**. A diferença não é opcional: depende da substância económica, não do nome.
+- **Declarações informativas.** Contas bancárias nos EUA com saldo médio ou final >50.000 € no exercício: **Modelo 720** (Lei 5/2022 após o acórdão TJUE C-788/19, 27/01/2022, sanções agora no regime geral LGT). Operações vinculadas com a LLC e dividendos repatriados: **Modelo 232**. Criptoativos custodiados nos EUA: **Modelo 721**.
+- **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
+- **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
+
+Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
+
+Na Exentax, montamos a estrutura para encaixar no primeiro cenário e documentamos cada passo para que a sua declaração local seja defensável perante uma eventual revisão.
+
+<!-- exentax:legal-refs-v1 -->
+## Referências legais e regulamentares
+
+Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
+
+- **EUA.** Treas. Reg. §301.7701-3 (classificação de entidades / *check-the-box*); IRC §882 (imposto sobre rendimentos de estrangeiros conexos com US trade or business); IRC §871 (FDAP e retenções a não residentes); IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* e *foreign-owned disregarded entities*); IRC §7701(b) (residência fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report perante a <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Espanha.** Lei 35/2006 (LIRPF), arts. 8, 9 (residência), 87 (atribuição de rendimentos), 91 (CFC pessoas singulares); Lei 27/2014 (LIS), art. 100 (CFC sociedades); Lei 58/2003 (LGT), arts. 15 e 16; Lei 5/2022 (regime sancionatório do Modelo 720 após TJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 e 720); Ordem HFP/887/2023 (Modelo 721 cripto).
+- **Convenção Espanha–EUA.** BOE de 22/12/1990 (CDT original); Protocolo em vigor desde 27/11/2019 (rendimento passivo, *limitation on benefits*).
+- **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
+- **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
+
+A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
+
+<!-- exentax:bank-balance-v1 -->
+## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+
+Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+
+- **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
+- **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
+- **Slash** (suportada pela Column N.A. (banco com licença federal, FDIC)). Banca desenhada para operadores online: emissão instantânea de cartões virtuais por fornecedor, controlos de gasto granulares, cashback em publicidade digital. É o complemento natural quando gere Meta Ads, Google Ads ou subscrições SaaS.
+- **Wise Business** (EMI multi-divisa, não é banco). Para receber e pagar em EUR, GBP, USD e outras divisas com dados bancários locais e conversão à *mid-market rate*. Não substitui uma conta US real, mas é imbatível para tesouraria internacional.
+- **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais a precisar
+
+A informação sobre fintechs e CRS evolui; este é o estado atual:
+
+<!-- exentax:calc-cta-v1 -->
+> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notas por provedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
+- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:legal-facts-v1 -->
+## Factos legais e de procedimento
+
+As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+
+### Pontos-chave
+
+- **BOI / Corporate Transparency Act.** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida a "foreign reporting companies"** (entidades constituídas fora dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA por um não residente está, hoje, fora dessa obrigação**. O estado regulatório pode mudar de novo: **reverificar em FinCEN.gov no momento da submissão**. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo e monitoriza atualizações.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
+- **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
+## Montamos para si sem perder um fim de semana
+
+Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+## Como trabalhamos na Exentax
+
+A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
+
+<!-- exentax:overhaul-hoje-v1 -->
+## Atualização Exentax hoje: Operating Agreement, o que a realidade hoje exige
+
+O OA deixou de ser opcional na prática: bancos, IRS e compradores pedem-no. Chaves vigentes:
+
+- **KYC bancário hoje.** Mercury, Relay, Wise Business e quase todas as fintech dos EUA pedem o OA assinado no onboarding. Sem OA assinado e datado, a conta não abre.
+- **Conteúdo mínimo SMLLC.** Identificação do *member* e morada, capital aportado, gestão (member-managed), distribuição de lucros, transferibilidade da *membership interest*, lei aplicável (estado de constituição). 6-10 páginas chegam.
+- **Validade e custódia.** Não se regista publicamente; assina-se com data e guarda-se digitalmente (PDF assinado ou e-signature com carimbo temporal). Para tribunal ou venda, mantenha também cópia em papel assinada.
+
+### Perguntas frequentes hoje
+
+**Preciso de notarizar o OA?** Não é obrigatório em nenhum estado. Notarizar acrescenta rastreabilidade temporal mas não validade jurídica adicional. A e-signature com carimbo basta geralmente.
+
+**Vale um modelo genérico?** Para SMLLC de não residente sim, ajustando *member*, capital e morada. Para multi-member ou cláusulas especiais, revisão jurídica recomendada.
+
+**E se nunca o assinei?** A LLC continua a existir mas rege-se pelas regras supletivas do estado, normalmente menos favoráveis. Bancos e compradores irão pedi-lo mais cedo ou mais tarde.
+<!-- exentax:overhaul-hoje-v1 end -->
+
+<!-- exentax:execution-v2 -->
+## Porque é que o Operating Agreement importa, método Exentax
+
+Um Operating Agreement não é papel decorativo: é o que abre a conta bancária, o que blinda a separação patrimonial e o que evita que um single-member responda com o seu património pessoal num litígio. Na Exentax redigimo-lo sempre antes de tocar na banca.
+
+- **Cláusulas operativas reais**: governance, capital contributions, distribuições, cessão de membership e exit; não templates genéricos da internet.
+- **Coerência com BOI e SS-4**: identidades, moradas e percentagens idênticas para que nenhum KYC posterior as marque como inconsistência.
+- **Versão assinada e arquivada** no repositório do cliente, cópia acessível para Mercury, Relay ou Wise sem ter de regenerar.
+
+Se a sua LLC opera sem OA ou com um descarregado, abra a <strong>calculadora Exentax</strong> ou marque trinta minutos: enviamos a redacção adaptada ao seu uso real.
+<!-- /exentax:execution-v2 -->
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20empreendedor%20em%20Portugal%20habituado%20ao%20pacto%20social%20da%20Lda%20registado%20n%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+
+Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com preços, prazos e entregáveis.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Constituição, EIN, BOI, banca e manutenção: uma única equipa que entende o seu caso do início ao fim. <a href="/pt/servicos">Ver todos os serviços</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…el miembro**: nombre completo, porcentaje de participación (100% para Single-Member) - **P…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">50.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…ones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-ow…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

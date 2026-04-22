@@ -1,0 +1,214 @@
+export default `
+
+Abrir una LLC en Estados Unidos como no residente es una de las mejores decisiones que puedes tomar como freelancer o emprendedor digital. Pero no es magia. Como cualquier estructura empresarial, tiene obligaciones, riesgos y trampas que, si no se gestionan bien, pueden costarte dinero, tiempo y tranquilidad.
+
+En Exentax hemos visto de todo. Clientes que nos llegan con multas del <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> por no presentar el Form 5472. Cuentas de Mercury congeladas por patrones de transacciones sospechosos. LLCs que llevan dos años sin renovar el Registered Agent. Operating Agreements copiados de internet que no protegen nada.
+
+Estos son los 7 problemas más comunes, y exactamente cómo evitarlos.
+
+## Puntos clave
+
+### 1. No presentar el Form 5472 a tiempo
+
+**El problema:** El <a href="/es/blog/documentos-llc-cuales-necesitas">Form 5472</a> es obligatorio para toda LLC con propietarios extranjeros. El plazo es el 15 de abril (con <a href="/es/blog/extension-irs-form-1120-como-solicitarla">extensión posible hasta el 15 de octubre</a>). Es un trámite que conviene tomarse en serio, y sin embargo, muchos dueños de LLC ni saben que existe. Abren la LLC con un servicio online barato, obtienen el EIN, abren Mercury, empiezan a facturar… y un año después se dan cuenta de que tienen obligaciones pendientes con el IRS.
+
+**Cómo lo evitamos:** En Exentax, la preparación y presentación del Form 5472 está incluida en el mantenimiento anual. Lo preparamos antes del plazo, revisamos todas las transacciones reportables entre tú y la LLC, y lo presentamos junto con el Form 1120 (return informativa). No tienes que recordar fechas ni entender formularios en inglés.
+### 2. Bloqueo o cierre de cuenta bancaria
+
+**El problema:** Mercury, Relay, Wise, cualquier fintech con programa de compliance puede congelar tu cuenta si detecta actividad que no puede verificar. Consulta nuestra guía sobre <a href="/es/blog/evitar-bloqueos-mercury-wise-revolut">cómo evitar bloqueos bancarios</a> para más detalles. Las causas más frecuentes:
+
+- Ingresos grandes sin facturas que los respalden
+- Transferencias frecuentes a cuentas personales sin etiquetar como distributions
+- Pagos a países de alto riesgo sin documentación
+- Uso de la tarjeta de débito para gastos personales
+- No responder a tiempo a las solicitudes de verificación del equipo de compliance
+
+
+**Cómo lo evitamos:** En la asesoría inicial explicamos las reglas del juego. Configuramos tu operación para que el flujo de dinero sea limpio desde el primer día: facturas para cada ingreso, distributions documentadas, separación estricta de fondos personales y del negocio. En Exentax revisamos tu caso con datos reales: <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos.
+### 3. Mezclar dinero personal y del negocio
+
+**El problema:** Usar la cuenta de la LLC para pagar Netflix, la compra del supermercado o el alquiler. Es fundamental <a href="/es/blog/separar-dinero-personal-llc-por-que-importa">separar el dinero personal del de la LLC</a>. Esto no solo viola la separación legal entre tú y la empresa (el "corporate veil"), sino que también levanta alertas en compliance y complica la preparación fiscal.
+
+Si un tribunal determina que has mezclado fondos consistentemente, pueden "levantar el velo corporativo" y considerar que la LLC no es una entidad separada de ti. En ese momento, pierdes la protección de responsabilidad limitada, que es una de las razones principales por las que abriste la LLC.
+
+**Cómo lo evitamos:** Desde el primer día, definimos las reglas de uso de la cuenta. Los gastos del negocio van por la cuenta de la LLC. Los pagos personales, por tu cuenta personal. Las transferencias entre ambas se hacen como owner's draws o distributions, documentadas y con una frecuencia razonable (mensual o quincenal, no diaria).
+### 4. No renovar el Registered Agent
+
+**El problema:** Toda LLC necesita un Registered Agent activo en su estado de registro. Si no renuevas el servicio, tu LLC pierde su representante legal oficial. Esto puede resultar en:
+
+- Pérdida de notificaciones legales importantes
+- El estado puede marcar tu LLC como "not in good standing"
+- En algunos estados, la LLC puede ser disuelta administrativamente
+
+**Cómo lo evitamos:** El Registered Agent está incluido en todos nuestros planes, tanto de constitución como de mantenimiento anual. Lo renovamos automáticamente. No tienes que recordar nada.
+### 5. Operating Agreement genérico o inexistente
+
+**El problema:** El <a href="/es/blog/operating-agreement-llc-que-es">Operating Agreement</a> es el documento interno que define cómo funciona tu LLC: quién toma decisiones, cómo se distribuyen los beneficios, qué pasa si quieres cerrar la empresa. Muchos freelancers usan una plantilla de internet o directamente no tienen ninguno.
+
+Un Operating Agreement genérico puede no reflejar tu situación real (single-member vs multi-member, cómo manejas distribuciones, reglas de disolución). Y si algún día tienes una disputa legal o una auditoría, es el primer documento que van a pedir.
+
+**Cómo lo evitamos:** Preparamos un Operating Agreement personalizado para cada LLC que constituimos. Refleja tu estructura real, incluye las cláusulas que protegen al propietario extranjero, y cumple con los requisitos del estado de registro.
+### 6. No cumplir con el BOI Report
+
+**El problema:** Desde la entrada en vigor de la CTA, <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> exige que todas las LLCs presenten el <a href="/es/blog/prevencion-blanqueo-capitales-llc">BOI Report</a> con sus propietarios beneficiarios (Beneficial Ownership Information). Los plazos y requisitos cambian con frecuencia, y no cumplir puede traer consecuencias que conviene evitar.
+
+Muchos dueños de LLC ni siquiera saben que existe esta obligación porque es relativamente nueva.
+
+**Cómo lo evitamos:** El BOI Report está incluido en nuestros servicios de constitución y mantenimiento. Lo presentamos durante la constitución y lo actualizamos cada año. Monitorizamos los cambios regulatorios para que siempre estés en cumplimiento.
+### 7. No declarar ingresos en tu país de residencia fiscal
+
+**El problema:** Que tu LLC pague $0 de impuestos federales en EE.UU. no significa que no tengas obligaciones en tu país de residencia fiscal. Si vives en España, los ingresos de la LLC tributan por IRPF. Si vives en México, por ISR. Cada país tiene sus reglas.
+
+Algunos freelancers creen que con una LLC "desaparecen" del radar fiscal de su país. Esto es falso y peligroso. Los acuerdos de <a href="/es/blog/crs-cuentas-bancarias-llc-intercambio-informacion">intercambio de información fiscal entre países (CRS)</a> hacen que tu actividad sea visible para tu hacienda local.
+
+**Cómo lo evitamos:** En la asesoría inicial analizamos tu situación fiscal completa, incluyendo tus obligaciones en tu país de residencia. Te explicamos exactamente qué debes declarar, cómo hacerlo y cuánto puedes deducir legalmente. No dejamos cabos sueltos.
+### La diferencia entre hacer las cosas bien y hacer las cosas "a medias"
+
+El 90% de los problemas que vemos podrían haberse evitado con un asesoramiento adecuado desde el principio. Una LLC bien constituida, con compliance al día y una operación trazable, es una máquina de eficiencia fiscal. Una LLC mal gestionada es una bomba de relojería.
+## Cuánto cuestan estos problemas en la práctica
+
+Para que quede claro lo que está en juego:
+
+- **Form 5472 no presentado:** La multa por no presentación según IRS §6038A es de $25,000 por formulario, por año. Si llevas dos años sin presentar, son $50,000. Y el IRS no necesita demostrarte nada: la carga de la prueba es tuya.
+- **Cuenta bancaria bloqueada:** Si Mercury congela tu cuenta mientras tienes facturas pendientes de cobro, tu operación se paraliza. Pueden pasar semanas hasta resolver el bloqueo, durante las cuales no puedes cobrar, pagar a proveedores ni hacer distributions.
+- **Corporate veil levantado:** Si un tribunal determina que mezclaste fondos personales y del negocio, la protección de responsabilidad limitada desaparece. Esto significa que tus bienes personales quedan expuestos a las deudas y obligaciones de la LLC.
+- **LLC disuelta por no renovar Registered Agent:** Si el estado disuelve tu LLC por falta de Registered Agent, necesitas un proceso de reinstalación (reinstatement) que cuesta más y tarda más que la renovación original. Mientras tanto, la LLC no puede operar legalmente.
+
+Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/cuanto-cuesta-constituir-llc">¿Cuánto cuesta constituir una LLC? (Y no, no se "crea", se constituye)</a> es una pieza útil para terminar de contextualizar el escenario.
+## El patrón que vemos repetidamente
+
+La secuencia típica del freelancer que llega a Exentax con problemas es:
+
+1. Constituyó la LLC con un servicio barato que solo hace el trámite de registro
+2. Obtuvo el EIN y abrió Mercury
+3. Empezó a facturar y cobrar
+4. Nadie le dijo que tenía que presentar Form 5472, BOI Report, o renovar el Registered Agent
+5. Pasaron uno o dos años
+6. Recibió una notificación del IRS, un bloqueo de cuenta, o descubrió que su LLC estaba en "not in good standing"
+
+La constitución es el 10% del trabajo. El 90% restante es el mantenimiento, el compliance y la operativa diaria. Si tu proveedor solo cubre el 10%, el resto queda en tus manos. Y si no sabes lo que no sabes, los problemas llegan sin aviso.
+
+En Exentax cubrimos el ciclo completo. Constitución, mantenimiento, compliance, operativa bancaria y soporte continuo. Si quieres una LLC que funcione sin sorpresas, habla con nuestro equipo.
+
+Y si llegado el momento decides que ya no necesitas la LLC, hazlo bien: aquí tienes la <a href="/es/blog/como-disolver-cerrar-llc-paso-a-paso">guía completa para disolverla y cerrarla paso a paso</a> sin dejar cabos sueltos con el IRS ni con tu estado.
+## Referencias legales y normativas
+
+Este artículo se apoya en normativa vigentes actualmente. Citamos las fuentes principales para que puedas verificarlo:
+
+- **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report ante FinCEN).
+- **España.** Ley 35/2006 (LIRPF), arts. 8, 9 (residencia), 87 (atribución de rentas), 91 (transparencia fiscal internacional para personas físicas); Ley 27/2014 (LIS), art. 100 (transparencia fiscal internacional para sociedades); Ley 58/2003 (LGT), arts. 15 (conflicto en aplicación de la norma) y 16 (simulación); Ley 5/2022 (régimen sancionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 720); Orden HFP/887/2023 (Modelo 721 cripto).
+- **Convenio España–EE. UU.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de 22/12/1990 (CDI original); Protocolo en vigor desde 27/11/2019 (renta pasiva, *limitation on benefits*).
+- **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetrías híbridas); Estándar Común de Reporte (CRS) de la OCDE.
+- **Marco internacional.** Modelo de Convenio OCDE, art. 5 (establecimiento permanente) y comentarios; Acción 5 BEPS (sustancia económica); FATF Recommendation 24 (titularidad real).
+
+La aplicación concreta de cualquiera de estas normas a tu caso depende de tu residencia fiscal, la actividad de la LLC y la documentación que mantengas. Este contenido es informativo y no sustituye al asesoramiento profesional personalizado.
+
+<!-- exentax:bank-balance-v1 -->
+## Stack bancario equilibrado: Mercury, Relay, Slash y Wise
+
+No existe la cuenta perfecta para una LLC. Existe el **stack** correcto, donde cada herramienta cubre un rol:
+
+- **Mercury** (operada como fintech con bancos asociados (Choice Financial Group y Evolve Bank & Trust principalmente; Column N.A. en cuentas heredadas), FDIC vía sweep network hasta el límite vigente). Cuenta principal operativa para no residentes con buena UX, ACH y wires. Sigue siendo una de las opciones más probadas para abrir desde fuera de EE. UU.
+- **Relay** (respaldada por Thread Bank, FDIC). Excelente como **cuenta de respaldo** y para gestión "envelope budgeting": permite crear hasta 20 sub-cuentas y 50 tarjetas de débito, integración profunda con QuickBooks y Xero. Si Mercury bloquea o pide revisión KYC, Relay evita que tu operativa se pare.
+- **Slash** (respaldada por Column N.A. (banco federalmente registrado, con cobertura FDIC)). Banca diseñada para operadores online: emisión instantánea de tarjetas virtuales por proveedor, controles de gasto granulares, *cashback* en publicidad digital. Es el complemento natural cuando gestionas Meta Ads, Google Ads o suscripciones SaaS.
+- **Wise Business** (EMI multi-divisa, no es banco). Para cobrar y pagar en EUR, GBP, USD y otras divisas con datos bancarios locales y conversión a *mid-market rate*. No sustituye una cuenta US real, pero es imbatible para tesorería internacional.
+- **Wallester / Revolut Business.** Wallester aporta tarjetas corporativas con BIN propio para alto volumen. Revolut Business funciona como complemento europeo, no como cuenta principal de la LLC.
+La recomendación realista: **Mercury + Relay como respaldo + Slash para operativa publicitaria + Wise para tesorería FX**. Es la configuración que minimiza riesgo de bloqueo y reduce coste real. En Exentax abrimos y configuramos este stack como parte de la constitución.
+
+<!-- exentax:banking-facts-v1 -->
+## Hechos bancarios y fiscales que conviene precisar
+
+La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
+
+<!-- exentax:calc-cta-v1 -->
+> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notas por proveedor
+
+- **Mercury** opera con varios bancos asociados con licencia federal y cobertura **FDIC** vía sweep network: principalmente **Choice Financial Group** y **Evolve Bank & Trust**, además de **Column N.A.** en algunos casos heredados. Mercury no es un banco; es una plataforma fintech respaldada por esos partner banks. Si Mercury cierra una cuenta, el saldo se devuelve normalmente **mediante cheque a la dirección registrada del titular** y eso puede ser un problema operativo serio para no residentes; conviene tener una cuenta secundaria activa (Relay, Wise Business, etc.) como contingencia.
+- **Wise** distribuye dos productos distintos: **Wise Personal** (cuenta personal) y **Wise Business** (cuenta para empresas, incluida tu LLC). Para una LLC se debe abrir **Wise Business**, no la personal. Matiz importante de CRS: una **Wise Business titularidad de una LLC estadounidense queda fuera del CRS** porque la titular es una entidad de EE. UU. y EE. UU. no es jurisdicción CRS; el lado USD opera vía Wise US Inc. (perímetro FATCA, no CRS). En cambio, una **Wise Personal abierta por un individuo residente fiscal en España** u otra jurisdicción CRS **sí genera reporte CRS** vía Wise Europe SA (Bélgica) sobre ese individuo. Si abres Wise para tu LLC, esa cuenta no te incluye en CRS por la LLC; si además mantienes una Wise Personal a tu nombre como residente en CRS, esa segunda sí reporta.
+- **Wallester** (Estonia) es una entidad financiera europea con licencia EMI/banco emisor de tarjetas. Sus cuentas IBAN europeas **están dentro del Estándar Común de Comunicación de Información (CRS)** y, por tanto, generan reporte automático a la administración tributaria del país de residencia del titular.
+- **Payoneer** opera con entidades europeas (Payoneer Europe Ltd, Irlanda) que también **están dentro de CRS** para clientes residentes en jurisdicciones que aplican el estándar.
+- **Revolut Business**: cuando se asocia a una **LLC estadounidense**, lo habitual es operar bajo Revolut Payments USA; los IBAN europeos (lituanos, BE) **no se emiten por defecto** a una LLC: se emiten a clientes europeos del banco europeo del grupo. Si te ofrecen un IBAN europeo, asegúrate de a qué entidad jurídica está asociada esa cuenta y bajo qué régimen reporta.
+- **Tributación cero**: ninguna estructura LLC consigue "cero impuestos" si vives en un país con CFC/transparencia fiscal o atribución de rentas. Lo que se consigue es **no duplicar tributación** y **declarar correctamente en residencia**, no eliminarla.
+
+<!-- exentax:legal-facts-v1 -->
+## Hechos legales y de procedimiento
+
+La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
+
+### Puntos clave
+
+- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
+- **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+
+<!-- exentax:execution-v2 -->
+## Los problemas más comunes con una LLC y cómo evitarlos antes de que ocurran
+
+Después de años llevando LLCs de no residentes, los problemas que vemos son siempre los mismos cuatro o cinco. Ninguno es exótico, todos son evitables con planificación, y todos son caros si llegan a materializarse. Esta es la lista honesta de lo que se rompe y cómo blindarlo desde el setup.
+
+- **Olvidarse del 5472 + 1120 anual.** Es la multa más cara y la más fácil de evitar. $25.000 mínimo por no presentar el 5472 cuando es exigible (single-member LLC con propietario extranjero y operaciones reportables - casi siempre). Plazo: 15 de abril, prorrogable a 15 de octubre con Form 7004. Solución: contratar bookkeeping desde el día 1 que incluya la presentación. No "lo hago el año que viene cuando tenga tiempo".
+- **No presentar el BOI Report al FinCEN.** Sanción $591/día (con tope sobre $10k). Aplica a casi toda LLC nueva: tienes 30 días desde la formación para reportar. Cambios posteriores (cambio de dirección, transferencia de membership, nuevo manager) tienen 30 días desde el cambio. Solución: incluir BOI inicial en el setup y revisión anual de cambios.
+- **Mezclar dinero personal y de la LLC.** Romper la separación patrimonial ("piercing the corporate veil") permite a un acreedor demandarte personalmente y elimina la protección de responsabilidad limitada. Solución: cuenta separada estricta, sueldos/draws documentados como tales, no usar la tarjeta de la LLC para gastos personales nunca, contabilidad mensual con conciliación.
+- **No declarar la LLC en residencia.** España (Modelo 720 si >50k EUR + IRPF por atribución), Francia (IR + 3916 cuenta extranjera), Alemania (ESt + AStG si CFC), Portugal (IRS), Italia (IRPEF + RW). Sanción típica: 50%-150% del impuesto eludido + intereses. Solución: en el momento de abrir la LLC, planificar la declaración en residencia con asesor del país.
+
+### Lo que más nos preguntan
+
+**Si no he facturado nada, ¿debo presentar 5472 igual?** Sí, salvo excepción muy limitada. La obligación se gatilla por "reportable transactions", y casi cualquier movimiento entre el owner y la LLC (aportación inicial de capital, préstamo, retirada) es reportable. Por defecto: presentar siempre.
+
+**¿Puedo arreglar años pasados sin presentar?** Sí, mediante presentación tardía (los 5472 se pueden presentar fuera de plazo) y, si procede, programa de delinquent submission. La multa es la misma que si no presentas, pero presentar voluntariamente reduce la probabilidad de auditoría agresiva.
+
+En Exentax llevamos compliance integral (5472/1120 + BOI + bookkeeping + asesoría en residencia) y, cuando heredamos LLCs con histórico roto, regularizamos primero y planificamos después - el orden importa.
+<!-- /exentax:execution-v2 -->
+
+## Hablemos de tu estructura
+
+Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde están tus clientes, si haces inversión o trading, si vendes a particulares o a empresas. En Exentax revisamos tu situación, diseñamos la estructura LLC que encaja contigo y te acompañamos cada año en el mantenimiento. Reserva una consulta con nuestro equipo y empezamos por entender tus números reales.
+
+
+¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22problemas%20comunes%20llc%20como%20evitarlos%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+
+Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">90%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…entre hacer las cosas bien y hacer las cosas &quot;a medias&quot; El 90% de los problemas que vemos …»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">25,000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ado:** La multa por no presentación según IRS §6038A es de $25,000 por formulario, por año…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">50,000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…formulario, por año. Si llevas dos años sin presentar, son $50,000. Y el IRS no necesita d…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">10%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…LLC estaba en &quot;not in good standing&quot; La constitución es el 10% del trabajo. El 90% restant…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">50%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…CFC), Portugal (IRS), Italia (IRPEF + RW). Sanción típica: 50%-150% del impuesto eludido +…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">150%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…), Portugal (IRS), Italia (IRPEF + RW). Sanción típica: 50%-150% del impuesto eludido + in…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; por no presentar el Form 5472. Cuentas de Mercury c…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eportables entre tú y la LLC, y lo presentamos junto con el Form 1120 (return informativa)…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

@@ -1,0 +1,151 @@
+export default `Für einen DACH-Unternehmer gibt es kaum Schlimmeres, als direkt nach der LLC-Gründung ein blockiertes Mercury-Konto mit 15.000 $ drauf zu haben, zehn Tage vor der Subunternehmer-Zahlung. Und anders als auf Reddit zu lesen ist, ist es fast nie Zufall: es gibt klare Muster, die bei Mercury, Wise und Revolut Business Alarme auslösen.
+
+Die gute Nachricht: Die überwiegende Mehrheit der Sperrungen lässt sich verhindern. Die schlechte: Wenn Sie die Spielregeln nicht kennen, können Sie unbeabsichtigt in eine hineingeraten.
+
+## Warum werden Konten gesperrt?
+
+Banken und Fintechs haben **KYC**-Pflichten (Know Your Customer) und **AML**-Pflichten (Anti-Money Laundering). Sie sind gesetzlich verpflichtet, Transaktionen zu überwachen und verdächtige Aktivitäten zu melden. Wenn etwas eine rote Flagge auslöst, sperren sie das Konto zuerst und fragen danach.
+## Die häufigsten Gründe für Sperrungen:
+
+1. **Bewegungen, die nicht zu Ihrem Profil passen**: wenn Sie angegeben haben, dass Ihre LLC $5K/Monat umsetzt und plötzlich $50K eingehen, schlägt das System Alarm
+2. **Überweisungen in Hochrisikoländer**: bestimmte Länder stehen auf Sanktionslisten (OFAC)
+3. **Vermischung von privaten und geschäftlichen Geldern**: das ist ein wichtiges Warnsignal
+4. **Unterlagen nicht in Ordnung**: wenn zusätzliche Verifizierung verlangt wird und Sie nicht rechtzeitig antworten
+5. **Mehrere verdächtige Konten**: Eröffnung mehrerer Konten ohne Begründung
+6. **Runde und repetitive Transaktionen**: Muster, die wie Strukturierung aussehen (Aufteilen von Beträgen, um Meldungen zu vermeiden)
+7. **Aktivitäten in Hochrisikobranchen**: Kryptowährungen, Glücksspiel, Cannabis, Waffen
+## Wie Sie Sperrungen verhindern
+
+### Bei Mercury
+
+- **Vervollständigen Sie Ihr Profil zu 100%**: laden Sie alle angeforderten Dokumente hoch (Articles, EIN, Operating Agreement, Reisepass)
+- **Beschreiben Sie Ihre Tätigkeit korrekt**: seien Sie spezifisch darüber, was Ihre LLC macht und woher die Einkünfte stammen
+- **Skalieren Sie schrittweise**: gehen Sie nicht von $0 auf $50K von einem Monat auf den anderen ohne Kontext
+- **Antworten Sie schnell** auf Anfragen zur zusätzlichen Verifizierung
+- **Verwenden Sie das Konto nicht für private Ausgaben**: nur Geschäftsausgaben
+- **Bewahren Sie Dokumentation Ihrer Transaktionen auf**: Rechnungen, Verträge, E-Mails mit Kunden
+
+### Bei Wise Business
+
+- **Verifizieren Sie Ihre Identität vollständig** vom ersten Tag an
+- **Erklären Sie die Herkunft der Gelder** wenn Wise Sie fragt (und Wise wird fragen)
+- **Verwenden Sie Wise nicht als Hauptkonto**: nutzen Sie es für Währungsumrechnungen und Überweisungen, nicht zur Aufbewahrung großer Summen
+- **Vermeiden Sie Sendungen an persönliche Konten Dritter**: Wise kann das als Zahlung an nicht deklarierte Begünstigte interpretieren
+- **Dokumentieren Sie jede Überweisung**: insbesondere internationale
+
+### Bei Revolut Business
+
+- **Aktivieren Sie die erweiterte Verifizierung** so früh wie möglich
+- **Deklarieren Sie die Geldquelle** korrekt während des Onboardings
+- **Halten Sie die Bewegungen konsistent** mit der deklarierten Tätigkeit
+- **Machen Sie keine Überweisungen zwischen mehreren Revolut-Konten** ohne Begründung
+### Was tun, wenn Ihr Konto gesperrt wird?
+
+1. **Ruhe bewahren**: eine Sperrung bedeutet nicht, dass Sie etwas Falsches getan haben
+2. **Prüfen Sie Ihre E-Mails**: normalerweise wird Ihnen mitgeteilt, welche Dokumentation benötigt wird
+3. **Antworten Sie schnell und vollständig**: Rechnungen, Verträge, Erklärung der Tätigkeit
+4. **Seien Sie professionell und klar**: erklären Sie Ihr Geschäft auf einfache Weise
+5. **Haben Sie einen Plan B**: deshalb empfehlen wir, mindestens zwei Konten zu haben (Mercury + Wise als Minimum)
+### Die goldene Regel: Transparenz
+
+Sperrungen geschehen fast immer wegen fehlender Informationen, nicht weil etwas Falsches getan wurde. Wenn Ihre LLC legitim operiert, Sie ordentliche Dokumentation führen und Ihre Tätigkeit mit dem übereinstimmt, was Sie bei der Kontoeröffnung angegeben haben, sind die Wahrscheinlichkeiten einer Sperrung minimal.
+
+Das Problem entsteht, wenn Leute versuchen, „unter dem Radar" zu operieren, und da wird es kompliziert.
+### Diversifizieren Sie Ihre Konten
+
+Unsere Empfehlung:
+- **Mercury** als Hauptkonto (Treasury, Einnahmen, Ausgaben)
+- **Wise Business** für Währungsumrechnungen und internationale Zahlungen
+- **Relay** als Backup-Konto (falls Mercury ein temporäres Problem hat)
+
+Verlassen Sie sich nie auf ein einziges Konto. Wenn eines vorübergehend gesperrt wird, müssen Sie weiter operieren können.
+
+Wer hier mehr Tiefe vermisst, findet in <a href="/de/blog/iban-swift-und-routing-nummern-internationale-bankencodes">IBAN, SWIFT und Routing-Nummern: Internationale Bankencodes verstehen</a> und <a href="/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und">Währungen für Ihre LLC wechseln: beste Optionen und versteckte Gebühren vermeiden</a> genau die Nachbaraspekte, die wir normalerweise in eigene Texte auslagern.
+## Wichtige Fakten zu jeder Plattform
+
+- **Mercury** nutzt Column NA als Depotbank, Ihre Gelder sind bis zu $250K pro Einleger FDIC-versichert. Nationale und internationale Wire-Überweisungen kosten $0. Es ist eine seriöse Fintech-Plattform, kein Hinterhofunternehmen.
+- **Wise Business** ist eine EMI (Electronic Money Institution), keine Bank. Es gibt keine Einlagensicherung wie bei einer traditionellen Bank, aber die Kundengelder sind segregiert. Nutzen Sie es für Umrechnungen und Überweisungen, nicht als Haupt-Treasury.
+- **Relay** nutzt Thread Bank als zugrundeliegende Bank. Eine gute Option als Backup-Konto mit bis zu 20 kostenlosen Unterkonten.
+Bei Exentax lösen wir solche Situationen jede Woche für DACH-Kunden. Buchen Sie Ihre kostenlose Beratung: wir identifizieren die Signale, die Ihre Bank triggern, und bringen den Zahlungsfluss wieder in Gang.
+### Nächste Schritte
+
+Wenn Sie prüfen wollen, ob diese Strategie zu Ihrer konkreten Situation passt, prüfen wir bei Exentax Ihren Fall persönlich und schlagen Ihnen die legale und effiziente Struktur vor, die wirklich zu Ihnen passt. Buchen Sie eine unverbindliche Erstsession über unsere Kontaktseite.
+
+<!-- exentax:banking-facts-v1 -->
+## Bank- und Steuerfakten zur Präzisierung
+
+Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
+
+<!-- exentax:calc-cta-v1 -->
+> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+<!-- /exentax:calc-cta-v1 -->
+
+### Hinweise nach Anbieter
+
+- **Mercury** arbeitet mit mehreren bundesweit lizenzierten Partnerbanken mit **FDIC**-Deckung über Sweep-Netzwerk: hauptsächlich **Choice Financial Group** und **Evolve Bank & Trust**, sowie **Column N.A.** in einigen Altkonten. Mercury ist selbst keine Bank; es ist eine Fintech-Plattform, die durch diese Partnerbanken getragen wird. Wenn Mercury ein Konto schließt, wird der Saldo in der Regel **per Papierscheck an die hinterlegte Adresse des Kontoinhabers** zurückgesandt, was für Nicht-Residenten ein ernsthaftes operatives Problem darstellen kann; ein sekundäres Konto (Relay, Wise Business etc.) sollte als Reserve aktiv sein.
+- **Wise** bietet zwei klar getrennte Produkte: **Wise Personal** und **Wise Business**. Für eine LLC ist **Wise Business** zu eröffnen, nicht das persönliche Konto. Wichtige CRS-Nuance: Ein **Wise Business im Namen einer US-LLC liegt außerhalb des CRS**, weil Kontoinhaberin eine US-Entität ist und die USA kein CRS-Teilnehmer sind; die USD-Seite läuft über Wise US Inc. (FATCA-Perimeter, nicht CRS). Dagegen löst ein **Wise Personal, eröffnet von einer in Spanien** oder einem anderen CRS-Land steuerlich ansässigen Person, sehr wohl eine **CRS-Meldung über Wise Europe SA (Belgien)** zu dieser Person aus. Wise für die LLC zu öffnen bringt Sie nicht über die LLC ins CRS; ein separates Wise Personal auf Ihren Namen als in einem CRS-Land Ansässiger schon.
+- **Wallester** (Estland) ist ein europäisches Finanzinstitut mit EMI-/Karten-Emittentenlizenz. Seine europäischen IBAN-Konten **fallen unter den Gemeinsamen Meldestandard (CRS)** und lösen daher den automatischen Informationsaustausch an die Steuerverwaltung des Wohnsitzlands aus.
+- **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
+- **Revolut Business**: in Verbindung mit einer **US-LLC** läuft die übliche Konfiguration über Revolut Payments USA; europäische IBANs (litauisch, BE) **werden einer LLC nicht standardmäßig ausgegeben**, sie werden europäischen Kunden der europäischen Bank des Konzerns ausgegeben. Wird Ihnen ein europäischer IBAN angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
+- **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+## Wir richten es ein, ohne dass Sie ein Wochenende verlieren
+
+Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.<!-- exentax:execution-v2 -->
+## Warum Mercury, Wise oder Revolut sperren: und wie Sie es ab Tag eins vermeiden
+
+Mercury, Wise Business und Revolut Business sind Fintechs, keine traditionellen Banken. Ihr Risk-Team prüft jedes Konto mit Mustererkennung und jede Anomalie löst Hold, Info-Anfrage oder Schließung mit 60 Tagen aus. Gute Nachricht: 90% der Sperren sind vermeidbar, wenn Sie das angewandte Pattern-Matching kennen.
+
+- **Jurisdiktionale Kohärenz.** Mercury sperrt, wenn das Transaktionsmuster dem deklarierten Profil widerspricht: Wyoming-LLC als SaaS deklariert mit regelmäßigen Wires Lagos-Madrid in Krypto-Exchanges wirkt seltsam. Wise schränkt ein, wenn der "intended use" des Onboardings (EU-Kundenzahlungen) abrupt zu Krypto-Off-Ramps wird. Realistisch deklarieren und im Profil wachsen erhält das Konto.
+- **Volumen und kohärente Spitzen.** Von 5k/Monat auf 50k/Monat in einer Woche ohne Vorwarnung löst erweiterte KYC-Prüfung aus. Legitime Spitze geplant (Launch, Großauftrag)? Risk vorab informieren - die meisten Fintechs haben Support-Kanäle und proaktive Profil-Aktualisierung vermeidet den Hold.
+- **Problematische Gegenparteien.** Zahlungen zu/von OFAC- oder FATF-Schwarze-Liste-Jurisdiktionen lösen automatischen Hold aus. Revolut Business hält eine interne, konservativere Liste (bestimmte Länder Afrika, Zentralasien, Karibik). Wise unter EU-Banklizenz, strengere Liste. Mercury hängt vom unterliegenden Bankpartner ab (Choice, Evolve, Column).
+- **Dokumentation bereit für die erste erweiterte KYC.** Unterzeichnetes Operating Agreement, BOI-Bestätigung, letzte 5472 falls anwendbar, aktueller Adressnachweis und Screenshots oder Rechnungen des geprüften Eingangs. Unterschied zwischen 24h-Antwort mit organisierten Papieren und 5 Tagen mit losen Dateien = Konto behalten vs Schließung.
+
+### Was wir am häufigsten gefragt werden
+
+**Mercury hat mich ohne Vorwarnung geschlossen, was tun?** Mercury benachrichtigt typischerweise mit 60-Tage-Frist. In dieser Zeit: Konto leeren, ausstehende Zahlungen prioritär auf anderes Konto (Relay/Wise/traditionelle Bank), wiederkehrende Zahlungen mit Kunden und Lieferanten anpassen und parallel über Support zu Customer Success Rep eskalieren. ~30% der Fälle revidieren die Entscheidung mit vollständiger Dokumentation.
+
+**Welche der drei ist als Hauptkonto am sichersten?** Non-Resident-US-LLC: Mercury bleibt primär (Integrationen, Support, vernünftiges Risk); Relay als Backup; Wise für Multi-Währung. Revolut Business für EU-Residenten mit primärer EU-Nutzung.
+
+Bei Exentax bauen wir die Kaskade ab Tag eins (Mercury + Relay + Wise) mit kohärent deklariertem Profil und bereitgestellter Dokumentation und beantworten erweiterte KYC im Retainer.
+<!-- /exentax:execution-v2 -->
+
+## Referenzen: Quellen zu Strukturen und Jurisdiktionen
+
+Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren auf offiziellen Quellen, aktualisiert bis aktuell:
+
+- **Vereinigte Staaten.** Delaware General Corporation Law und Limited Liability Company Act, Wyoming Limited Liability Company Act (Title 17, Chapter 29), IRS-Anleitung zum Form 5472 und IRC §7701 (Entitätsklassifikation).
+- **Andorra.** Llei 95/2010 de l'Impost sobre Societats (10% IS), Llei 5/2014 del IRPF und aktive/passive Aufenthaltsregelung der Govern d'Andorra.
+- **Estland.** Estnisches Einkommensteuergesetz (aufgeschobene Körperschaftsteuer auf ausgeschüttete Gewinne, 20/22%) und offizielle Dokumentation des e-Residency-Programms.
+- **Spanien.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, Art. 8-9 zur Ansässigkeit und Art. 100 zur Hinzurechnungsbesteuerung) sowie Sonderregelung für Zuzügler (Art. 93 LIRPF, "Beckham-Gesetz").
+- **<a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Pillar Two (GloBE) und OECD-Musterabkommen mit Kommentaren.
+
+Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansässigkeit des Inhabers und von der wirtschaftlichen Substanz der Tätigkeit ab; prüfen Sie Ihren konkreten Fall vor jeder strukturellen Entscheidung.
+
+<!-- exentax:cross-refs-v1 -->
+### Weiterführende Lektüre
+
+- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20einen%20DACH-Unternehmer%20gibt%20es%20kaum%20Schlimmeres%2C%20als%20direkt%20nach%20der%20LLC-%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+
+Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
+<!-- /exentax:cta-conv-v1 -->
+
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…revenir bloqueos ### En Mercury - **Completa tu perfil al 100%**: sube todos los documento…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">90%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…t de información o cierre con 60 días. La buena noticia: el 90% de los bloqueos son evitab…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…paralelo escala via support a un Customer Success rep. En ~30% de los casos, con documenta…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

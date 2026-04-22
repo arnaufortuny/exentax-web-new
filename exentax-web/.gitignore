@@ -1,0 +1,25 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Google credentials — never commit real keys
+# If you need to restore real credentials locally, copy them into this file
+# but do NOT commit. The app reads from GOOGLE_SERVICE_ACCOUNT_KEY env var.
+# server/google-credentials.ts
+
+# Audit / Playwright outputs (regenerable, never tracked)
+reports/
+# Exception: the blog source-URL ping cache MUST be tracked. The structural
+# validator (scripts/blog-sources-validate.mjs, rule 5) reads it offline in
+# CI and fails critical if it is missing or older than 14 days. Refresh it
+# with `node scripts/blog-verify-source-urls.mjs`.
+!reports/seo/
+!reports/seo/source-url-verification.json
+test-results/
+.local-audit/
+playwright-report/
+blog-test.spec.ts
+seo-meta-report.json

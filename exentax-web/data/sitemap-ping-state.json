@@ -1,0 +1,24 @@
+{
+  "last": {
+    "status": "skipped",
+    "reason": "INDEXNOW_KEY not set; cannot submit sitemap to IndexNow",
+    "at": "2026-04-22T08:22:15.176Z",
+    "google": {
+      "status": "skipped",
+      "reason": "GOOGLE_SERVICE_ACCOUNT_KEY not set; cannot submit sitemap to Google Search Console",
+      "at": "2026-04-22T08:22:15.254Z"
+    }
+  },
+  "history": [
+    {
+      "status": "skipped",
+      "reason": "INDEXNOW_KEY not set; cannot submit sitemap to IndexNow",
+      "at": "2026-04-22T08:22:15.176Z",
+      "google": {
+        "status": "skipped",
+        "reason": "GOOGLE_SERVICE_ACCOUNT_KEY not set; cannot submit sitemap to Google Search Console",
+        "at": "2026-04-22T08:22:15.254Z"
+      }
+    }
+  ]
+}

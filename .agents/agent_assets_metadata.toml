@@ -1,0 +1,32 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "CmYE_guRXtG2TbKHHs3Kq"
+uri = "file://exentax-full-logic-export.md"
+type = "text"
+title = "Exentax — Lógica completa Admin + Clientes (10,880 líneas)"
+
+[[outputs]]
+id = "uIiZUhRDtc1VRL6W5mqb7"
+uri = "file://.local/revision-exhaustiva-exentax.md"
+type = "text"
+title = "Revisión Exhaustiva del Sistema Exentax"
+
+[[outputs]]
+id = "HsYsTeaohczZzkpDRdxRl"
+uri = "file://DATABASE_AUDIT_REPORT.md"
+type = "text"
+title = "Full Database & LLC Audit Report"
+
+[[outputs]]
+id = "XcRplck3pXkcBlQQvDDHv"
+uri = "file://exentax-web/AUDIT.md"
+type = "text"
+title = "Auditoría Final Exentax — i18n + Cierre Producción (29 secciones)"
+
+[[outputs]]
+id = "5Q3nZelw7qx-IcdJ0yTNJ"
+uri = "file://INFORME_EXENTAX.md"
+type = "text"
+title = "Informe de Estado Completo — Exentax"

@@ -1,0 +1,43 @@
+name: Blog audits
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  blog-audit:
+    name: Editorial structure, SEO, and i18n sync
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Blog structure audit (single H1, section length, heading order, next-step closing)
+        run: node scripts/blog-structure-audit.mjs
+
+      - name: Blog i18n sync check (ES baseline vs EN/CA/DE/FR/PT)
+        run: node scripts/blog-i18n-sync-check.mjs
+
+      - name: SEO blog audit (titles, descriptions, headings, duplicates)
+        run: node scripts/seo-blog-audit.mjs
+
+      - name: Blog sources gate (every article must declare SOURCES_BY_SLUG entry)
+        working-directory: ${{ github.workspace }}
+        run: node scripts/audit-blog-sources.mjs --check

@@ -1,0 +1,115 @@
+{
+  "audit": "codigo-muerto",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "scope": ["exentax-web/client/src", "exentax-web/server", "exentax-web/shared", "exentax-web/scripts"],
+  "metricas_baseline": {
+    "archivos_ts_tsx_client": 778,
+    "archivos_ts_server": 44,
+    "archivos_ts_shared": 6,
+    "tamano_blog_content": "19M",
+    "tamano_blog_i18n": "368K",
+    "tamano_locales_total_aprox": "1.5M",
+    "errores_typescript": 0,
+    "console_logs_client": 15,
+    "todos_fixmes_client_src": 0
+  },
+  "issues": [
+    {
+      "id": "DC-001",
+      "categoria": "candidato_dead_code_descartado",
+      "ruta": "client/src/data/blog-content/es-all.ts",
+      "hallazgo": "Reportado inicialmente como huerfano. Verificacion: importado por server/static.ts (BLOG_CONTENT_ES) para prerender SEO de blog y wordCount en JSON-LD.",
+      "prioridad": "baja",
+      "estado": "no_aplica",
+      "accion": "Conservar; documentar en README que es generado/aggregado y consumido solo por SSR."
+    },
+    {
+      "id": "DC-002",
+      "categoria": "candidato_dead_code_descartado",
+      "ruta": "client/src/components/FlagImg.tsx vs client/src/components/CountryFlagImg.tsx",
+      "hallazgo": "No son duplicados: FlagImg renderiza banderas de IDIOMA (LanguageSwitcher, Navbar). CountryFlagImg renderiza banderas de PAIS (CountryDropdown del blog). Distintos sets de assets, distintas semanticas.",
+      "prioridad": "baja",
+      "estado": "no_aplica",
+      "accion": "Conservar separados. Opcionalmente extraer un primitivo <FlagBase> compartido en futuro."
+    },
+    {
+      "id": "DC-003",
+      "categoria": "candidato_dead_code_descartado",
+      "ruta": "client/src/components/sections/HomeFAQ.tsx",
+      "hallazgo": "Reportado como duplicado de FAQ.tsx pero esta en uso desde home.tsx con dataset propio (preguntas resumidas para landing).",
+      "prioridad": "baja",
+      "estado": "no_aplica",
+      "accion": "Posible refactor futuro: parametrizar FAQ.tsx con prop 'limit'/'variant' para colapsar ambos (~120 LOC ahorro). No bloqueante."
+    },
+    {
+      "id": "DC-004",
+      "categoria": "comentarios_obsoletos",
+      "ruta": "client/src/pages/services-sections.tsx",
+      "hallazgo": "509 LOC con 4 bloques comentados. Componente todavia en uso por home.tsx y services.tsx.",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Revisar bloques comentados y eliminar los obsoletos en una pasada manual."
+    },
+    {
+      "id": "DC-005",
+      "categoria": "console_logs",
+      "ruta": "client/src",
+      "hallazgo": "15 console.* en cliente. Concentrados en main.tsx (boundary), clientLogger.ts (instrumentacion), tests, i18n y blog-posts-i18n. Justificados por instrumentacion controlada con clientLogger.",
+      "prioridad": "baja",
+      "estado": "verificado",
+      "accion": "Sin cambio. clientLogger.init() canaliza errores al backend; los console.* restantes son fallbacks de diagnostico."
+    },
+    {
+      "id": "DC-006",
+      "categoria": "scripts_legacy",
+      "ruta": "scripts/audit-2026-04-*.mjs y scripts/blog-task*-*.mjs",
+      "hallazgo": "28 scripts puntuales de auditorias y migraciones de tareas pasadas (task5, task9, task16, task25, task28, audit-2026-04-*). No estan en npm scripts de CI.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Movidos a scripts/archive/2026-04-task4/ (28 archivos). blog-restructure-non-es.mjs y blog-no-inline-related.mjs se conservan en scripts/ por dependencias activas (npm script blog:restructure y tests/blog-no-inline-related.test.ts)."
+    },
+    {
+      "id": "DC-007",
+      "categoria": "candidato_dead_code_descartado",
+      "ruta": "client/src/components/sections/faq-data.tsx#extractText",
+      "hallazgo": "Reportado inicialmente como export redundante. Verificacion: usado por faq-page.tsx (JSON-LD FAQPage) y FAQ.tsx (busqueda).",
+      "prioridad": "baja",
+      "estado": "no_aplica",
+      "accion": "Conservar export."
+    },
+    {
+      "id": "DC-008",
+      "categoria": "imports_no_usados",
+      "ruta": "global",
+      "hallazgo": "tsc --noEmit limpio (0 errores). TypeScript con noUnusedLocals/noUnusedParameters detectaria imports muertos: ninguno reportado.",
+      "prioridad": "baja",
+      "estado": "verificado",
+      "accion": "Sin cambio."
+    },
+    {
+      "id": "DC-009",
+      "categoria": "dependencias_npm",
+      "ruta": "package.json",
+      "hallazgo": "Todas las deps en package.json se referencian en codigo o scripts (verificado por grep selectivo: helmet, compression, dompurify, googleapis, ioredis, pg, drizzle-*, react-icons, react-i18next, wouter, zod). Sin dependencias huerfanas evidentes.",
+      "prioridad": "baja",
+      "estado": "verificado",
+      "accion": "Sin cambio."
+    },
+    {
+      "id": "DC-010",
+      "categoria": "claves_i18n_borrador",
+      "ruta": "client/src/data/blog-content/ca/cuotas-autonomos-2026-guia-completa.ts",
+      "hallazgo": "Marcadores '[REVISIO MANUAL]' o similares pendientes en contenido catalan.",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Cubierto por tarea separada 'Localizar terminologia fiscal en FAQs (PT y CA) y limpiar archivos huerfanos'. No duplicar aqui."
+    }
+  ],
+  "resumen": {
+    "candidatos_descartados_tras_verificacion": 4,
+    "issues_pendientes": 2,
+    "issues_verificados_sin_accion": 3,
+    "tipos_typescript_clean": true
+  }
+}

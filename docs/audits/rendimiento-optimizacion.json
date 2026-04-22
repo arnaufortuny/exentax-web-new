@@ -1,0 +1,92 @@
+{
+  "audit": "rendimiento-optimizacion",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "code_splitting": {
+    "lazy_routes": true,
+    "evidencia": "App.tsx usa React.lazy() para cada pagina (home, services, blog, legales, etc). Suspense con EmptyLoader.",
+    "prefetch_strategy": "requestIdleCallback prioriza our_services/book/how_we_work/about_llc/faq y luego diferido 5s para el resto."
+  },
+  "memoizacion": {
+    "uso": "Activo en 16 archivos (useMemo/useCallback/React.memo).",
+    "componentes_clave": ["AppRouter (memo)", "Calculator (7 memos)", "Navbar (6)", "FAQ (4)", "BookingCalendar (4)"]
+  },
+  "imagenes": {
+    "publicas_png": ["apple-touch-icon", "ex-author-icon", "ex-icon-green", "favicon-*", "icon-192", "icon-512", "logo-tight", "og-image", "partner-trustpilot", "partner-wise", "partner-interactive-brokers", "flags/*"],
+    "publicas_webp": ["partner-kraken", "partner-mercury", "partner-relay", "partner-slash", "partner-stripe", "partner-visa", "partner-wallester"],
+    "loading_lazy_count": 21,
+    "observaciones": [
+      "Mayor parte de partners ya en WebP. Quedan PNG: trustpilot, wise, interactive-brokers + flags.",
+      "og-image.png se mantiene en PNG por compatibilidad con scrapers (correcto)."
+    ]
+  },
+  "issues": [
+    {
+      "id": "PERF-001",
+      "categoria": "imagenes",
+      "hallazgo": "partner-trustpilot.png, partner-wise.png, partner-interactive-brokers.png en PNG.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Convertidos a WebP (calidad 85) con cwebp. Referencias actualizadas en BanksCarousel.tsx, Testimonials.tsx, Footer.tsx, go.tsx. PNGs originales eliminados. Reduccion ~50% bytes (trustpilot 7857 -> 3032, wise 5675 -> 3048, interactive-brokers 11790 -> 5154)."
+    },
+    {
+      "id": "PERF-002",
+      "categoria": "imagenes",
+      "hallazgo": "client/public/img/flags/*.png (8 banderas) podrian ser SVG o WebP comprimido.",
+      "prioridad": "baja",
+      "estado": "pendiente",
+      "accion": "Migrar a SVG/WebP. Tamano agregado pequeno; impacto bajo."
+    },
+    {
+      "id": "PERF-003",
+      "categoria": "alt_traducidos",
+      "hallazgo": "21 etiquetas <img> con loading=lazy. Validar que todos los alt esten traducidos via t() y no en duro.",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Auditar alt='...' por componente; reemplazar literales por t('...alt')."
+    },
+    {
+      "id": "PERF-004",
+      "categoria": "fuentes",
+      "hallazgo": "Inter no estaba en preload (Space Grotesk si). Ambas con display=swap.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Anadido <link rel='preload' as='style'> para Inter en client/index.html. Ambas familias quedan en preload + display=swap."
+    },
+    {
+      "id": "PERF-005",
+      "categoria": "bundle",
+      "hallazgo": "Blog content total 19M en client/src/data/blog-content/. Cada idioma carga en demanda mediante import dinamico (blog-posts-content.ts) y solo el slug solicitado.",
+      "prioridad": "alta",
+      "estado": "verificado",
+      "accion": "Sin cambio. Lazy loading por slug ya implementado; build de Vite genera chunks individuales."
+    },
+    {
+      "id": "PERF-006",
+      "categoria": "renders",
+      "hallazgo": "AppRouter memoizado, RouteErrorBoundary se reinicia por routeKey. ScrollToTop separado para evitar re-renders innecesarios.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "PERF-007",
+      "categoria": "blog_helpers",
+      "hallazgo": "SEO.tsx carga blog helpers via import() solo cuando hay blogSlug, evitando ~80KB en bundle inicial.",
+      "prioridad": "alta",
+      "estado": "verificado",
+      "accion": "Sin cambio."
+    },
+    {
+      "id": "PERF-008",
+      "categoria": "compresion",
+      "hallazgo": "compression middleware activo en server (server/index.ts). Helmet con CSP. Esbuild minifica build.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    }
+  ],
+  "resumen": {
+    "issues_pendientes": 4,
+    "issues_verificados": 4,
+    "estado_general": "rendimiento optimizado; mejoras incrementales en imagenes y fuentes"
+  }
+}

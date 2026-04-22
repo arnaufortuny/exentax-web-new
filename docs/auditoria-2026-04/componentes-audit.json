@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-04-22",
+  "scope": "client/src/components/**/*.tsx + client/src/pages/**/*.tsx",
+  "method": "tsc --noEmit + grep estático sobre `: any`, data-testid, role=, aria-*, lazy()",
+  "anyTypedProps": {
+    "count": 0,
+    "details": "Ninguna prop tipada como `any` en componentes ni páginas."
+  },
+  "lazyLoading": {
+    "pagesLazy": "100% — todas las rutas en App.tsx están envueltas con lazy().",
+    "candidates": []
+  },
+  "missingTestIds": {
+    "previousFinding": "Reportado por audit subagent inicial",
+    "verifiedAfterReview": "BookingCalendar, PhoneInput, EmailGateForm, CookieBanner, Navbar, LanguageSwitcher YA tienen data-testid en sus elementos interactivos clave. Falso positivo."
+  },
+  "i18nKeys": {
+    "previousFinding": "Posible mismatch booking.privacyPolicy / booking.termsConditions",
+    "verifiedAfterReview": "Las claves existen en los 6 locales y están declaradas en client/src/i18n/keys.generated.ts:722-726. Falso positivo."
+  },
+  "ariaIssuesFixed": [
+    {
+      "component": "client/src/components/CookieBanner.tsx",
+      "before": "Banner overlay sin role/aria-modal/aria-labelledby/aria-describedby.",
+      "after": "Añadido role=\"dialog\", aria-modal=\"false\" (no bloquea contenido), aria-labelledby=\"cookie-banner-title\", aria-describedby=\"cookie-banner-desc\" y data-testid=\"dialog-cookie-banner\"."
+    }
+  ],
+  "ariaPreviouslyOk": [
+    {
+      "component": "Navbar.tsx",
+      "details": "Mobile menu toggle ya tiene aria-expanded + aria-controls (líneas 357-381). Servicios dropdown tiene aria-expanded, role=menu, role=menuitem (líneas 267-303)."
+    },
+    {
+      "component": "LanguageSwitcher.tsx",
+      "details": "Trigger tiene aria-expanded, listbox/option roles correctos (líneas 47-73)."
+    },
+    {
+      "component": "BookingCalendar.tsx",
+      "details": "Errores de campo con role=\"alert\". Botones del calendario y slots con data-testid completos (button-prev-month, button-next-month, day-X, slot-X)."
+    }
+  ],
+  "blockerCount": 0,
+  "verdict": "OK — typecheck limpio, lazy loading 100%, ARIA reforzado en CookieBanner; resto del audit subagent eran falsos positivos."
+}

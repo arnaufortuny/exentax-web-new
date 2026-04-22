@@ -1,0 +1,255 @@
+export default `
+
+Bulgaria aparece de manera recurrente cuando alguien busca "país europeo con baja fiscalidad". El argumento es siempre el mismo: 10% de impuesto de sociedades, 10% de IRPF, dentro de la Unión Europea, sin restricciones de movimiento. Sobre el papel parece imbatible. La realidad, como casi siempre, tiene matices importantes.
+
+En Exentax atendemos a clientes que han constituido empresas en Sofía y nos cuentan, dos años después, por qué están considerando migrar a una LLC americana. Esta guía resume lo que conviene saber antes de tomar la decisión.
+
+## Tipos societarios disponibles
+
+La estructura más común para emprendedores extranjeros es la **OOD** (Дружество с ограничена отговорност), equivalente a una sociedad de responsabilidad limitada. Existe también la **EOOD** (versión unipersonal) y la **AD** (sociedad anónima), esta última reservada a proyectos de mayor tamaño.
+
+Capital social mínimo: 2 BGN (poco más de 1 EUR) tras la última reforma. Constitución en 1-2 semanas. Coste aproximado de constitución: 500-1.500 EUR según el despacho.
+## Fiscalidad real, sin titulares simplificados
+
+El **impuesto de sociedades** es del **10% lineal**. Es uno de los más bajos de la UE y aplica sobre el beneficio neto contable después de ajustes fiscales.
+
+El **IRPF** sobre rendimientos del trabajo y dividendos es también del **10%** (5% específicamente sobre dividendos), pero solo afecta a residentes fiscales en Bulgaria.
+
+Aquí aparece el primer matiz importante: el 10% solo es relevante si tú, como propietario, también te haces residente fiscal en Bulgaria. Si mantienes tu residencia fiscal en España u otro país de la UE, los dividendos repartidos por la OOD tributan en tu país de residencia según las reglas del convenio de doble imposición.
+
+Para un residente español, esto significa:
+
+- Convenio España-Bulgaria limita la retención en origen al 5%.
+- Los dividendos se incorporan en la base del ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 EUR, 27% hasta 300.000 EUR, 28% por encima.
+- Se aplica deducción por la retención búlgara, pero la carga combinada termina en torno al 25-28%.
+
+Es decir, sin trasladar tu residencia fiscal, el "10% Bulgaria" desaparece.
+### Hacerse residente fiscal en Bulgaria: lo que implica
+
+Para tributar al 10% real necesitas convertirte en residente fiscal búlgaro. Esto implica:
+
+- Vivir más de 183 días al año en el país, o tener allí tu centro de intereses vitales.
+- Empadronamiento, vivienda alquilada o en propiedad, contrato de servicios.
+- Causar baja real en tu país anterior. Si eres español, supone abandonar la residencia fiscal en España, lo que implica el régimen de "exit tax" sobre plusvalías latentes superiores a determinados umbrales y la salida del IRPF.
+- Adaptarte a vivir en Bulgaria: idioma, sanidad, escolarización, redes profesionales.
+
+No es un trámite menor. Mucha gente que escucha "10%" no se da cuenta de que el 10% exige mudarse de verdad.
+### Costes recurrentes y obligaciones contables
+
+Una OOD bulgara tiene una carga administrativa considerable comparada con una LLC americana:
+
+- Contabilidad mensual obligatoria llevada por contable local: 100-300 EUR/mes.
+- Declaraciones de IVA mensuales o trimestrales si superas el umbral (166.000 BGN, unos 85.000 EUR).
+- Declaración anual de impuesto de sociedades.
+- Cuentas anuales depositadas en el registro mercantil.
+- Auditoría externa si superas determinados umbrales.
+
+Suelo realista anual: 2.000 a 4.500 EUR solo en honorarios y tasas. Muy por encima de los ~600 USD anuales de una LLC.
+### Banca: mejor que Hong Kong, peor que EE.UU.
+
+La banca búlgara funciona, pero abrir cuenta como extranjero exige normalmente presencia física en Sofía, contrato de alquiler, comprobantes de actividad y, en muchos casos, una cuenta personal previa. UniCredit Bulbank, DSK Bank, Postbank y Raiffeisenbank son las opciones habituales.
+
+Wise Business y Revolut Business funcionan también, pero como EMI. Para Stripe y otros procesadores, una empresa búlgara con IBAN BG es elegible, pero el ecosistema fintech europeo no es tan amplio ni tan ágil como el americano.
+## Comparación honesta con la LLC americana
+
+Para el perfil mayoritario que asesoramos en Exentax (freelance, agencia digital, SaaS, creador de contenido, ecommerce):
+
+- **Fiscalidad efectiva**: una LLC en EE.UU. permite 0% federal para no residentes y reparto de beneficios sin impuesto adicional en EE.UU. (<a href="/es/blog/tributacion-pass-through-llc-como-funciona">pass-through</a>). El total a pagar depende solo de tu país de residencia.
+- **Sin necesidad de mudarse**: la LLC se opera desde cualquier país. Bulgaria solo es óptima si estás dispuesto a vivir allí.
+- **Coste anual**: 500-800 USD frente a 2.000-4.500 EUR en Bulgaria.
+- **Banca y pagos**: Mercury, Wise, Wallester, Stripe USA y Adyen, sin necesidad de presencia física, frente al ecosistema más limitado búlgaro.
+- **Reputación internacional**: una LLC americana es percibida como neutral y profesional en cualquier mercado.
+
+¿Cuándo sí tiene sentido Bulgaria? Cuando quieres mudarte realmente al país, integrarte en su mercado y aprovechar el coste de vida, los costes laborales bajos y el acceso al mercado único europeo desde dentro. Para perfiles operativos que se mantienen en su país de origen, no compensa.
+## Trampas y errores frecuentes
+
+- **Confiar en que el 10% aplica sin mudarse**: el error más caro. Acabas pagando dos veces (Bulgaria y tu país).
+- **Subestimar la contabilidad obligatoria**: muchos descubren tarde que no pueden gestionar la OOD por su cuenta.
+- **Pagarse sueldo en lugar de dividendos sin entender la seguridad social**: los costes laborales búlgaros son bajos, pero no nulos. Una nómina de director conlleva cotizaciones específicas.
+- **Olvidar el control efectivo (POEM)**: si tomas las decisiones desde España, Hacienda puede argumentar que la sede de dirección efectiva está en España y reclamar el impuesto allí.
+### Riesgos reales
+
+- **Inspecciones fiscales** del NRA (Agencia Tributaria búlgara): poco frecuentes, pero si llegan piden documentación detallada en búlgaro.
+- **Sanciones por contabilidad incorrecta**: el sistema sanciona errores formales con multas relevantes.
+- **Cambios regulatorios en la UE**: la presión BEPS Pilar 2 y la armonización fiscal europea pueden erosionar la ventaja del 10% en los próximos años.
+### Casos típicos donde aplica
+
+**Caso 1: emprendedor que factura 80.000 EUR/año desde España sin mudarse.**
+Bulgaria no aporta nada. Sin residencia búlgara, los beneficios tributan en España al tipo correspondiente más sanciones potenciales. La LLC americana es alternativa más simple y eficiente.
+
+**Caso 2: empresario europeo que se traslada a Sofía con familia.**
+Bulgaria sí compensa. Residencia personal con tipo plano del 10% IRPF, sociedad búlgara para operar dentro de la UE con factura intracomunitaria, calidad de vida razonable a coste bajo. Combinación sólida.
+
+**Caso 3: agencia con 5 empleados de los cuales 3 están en Bulgaria.**
+Tiene sentido constituir filial búlgara para los empleados locales y aprovechar costes laborales bajos. La sociedad principal puede mantenerse donde resida el fundador. Estructura mixta legítima y eficiente.
+## Preguntas frecuentes
+
+**¿El 10% es realmente la única carga?**
+
+No. El 10% es solo el impuesto de sociedades. Si retiras dividendos pagas un 5% adicional. Si te pagas salario como administrador, hay cotizaciones sociales y IRPF búlgaro. La carga total realista en mano del propietario está entre el 14% y el 22%.
+
+**¿Necesito vivir en Bulgaria para mantener la sociedad?**
+
+No para mantenerla, pero sí para que tenga sentido fiscal. Sin residencia búlgara, tu Hacienda local puede aplicar dirección efectiva y reclasificar todos los beneficios como propios.
+
+**¿Cómo es la banca búlgara para no residentes?**
+
+Compleja y conservadora. UniCredit Bulbank, DSK y Raiffeisen exigen presencia física, contratos firmados y justificación de la actividad. Las EMIs europeas (Wise, Revolut) son la alternativa más operativa.
+
+**¿Bulgaria está en CRS?**
+
+Sí. Es miembro de la UE y aplica DAC. Las cuentas búlgaras se reportan automáticamente a tu país de residencia, igual que cualquier otra cuenta europea.
+
+**¿Cuándo elegir Bulgaria sobre una LLC americana?**
+
+Cuando vas a residir en Bulgaria, tienes equipo local o vendes principalmente al mercado europeo y necesitas factura intracomunitaria. Para el resto, la LLC americana ofrece mejor combinación de coste y carga efectiva.
+
+**¿Qué tipo cambio EUR-BGN aplica a una sociedad búlgara?**
+
+El lev búlgaro está vinculado al euro mediante currency board fijo en 1,95583 BGN/EUR desde 1997. Sin riesgo cambiario relevante para operaciones EUR. Bulgaria está en proceso de adopción del euro previsto a corto plazo.
+### Conclusión
+
+Bulgaria con su 10% es una opción válida si quieres mudarte a Bulgaria. No es un atajo fiscal para mantener tu vida en España, México o Argentina. Para ese caso, una LLC americana ofrece mejor combinación de fiscalidad, costes operativos y flexibilidad bancaria.
+
+Si quieres analizar tu caso concreto sin compromiso, en Exentax te ayudamos a comparar números reales antes de constituir nada. Puedes contactarnos y te explicamos qué encaja con tu actividad, tus clientes y tu situación de residencia.
+
+La decisión final no es comparar tipos nominales, sino estimar la carga real combinada con sustancia, banca y costes de cumplimiento. Cuando ese cálculo se hace bien, Bulgaria puede ser excelente o totalmente inadecuada según tu perfil concreto.
+## Compliance fiscal en tu país: CFC, TFI y atribución de rentas
+
+Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero el cumplimiento no termina al constituirla: como propietario residente fiscal en otro país, tu administración tributaria sigue teniendo derecho a gravar lo que la LLC genera. Lo importante es saber **bajo qué régimen** aplica esa tributación.
+
+### Por jurisdicción
+
+- **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
+- **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
+- **CDI España–EE. UU.** El convenio (BOE 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
+- **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
+
+La regla práctica: una LLC operativa, con sustancia, declarada correctamente en residencia, es **planificación fiscal legítima**. Una LLC que se usa para ocultar ingresos, simular no residencia o desplazar rentas pasivas sin justificación económica entra en el terreno del **art. 15 LGT (conflicto en aplicación de la norma)** o, en el peor caso, del **art. 16 LGT (simulación)**. La diferencia la marcan los hechos, no el papel.
+
+<!-- exentax:calc-cta-v1 -->
+> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+<!-- /exentax:calc-cta-v1 -->
+
+En Exentax montamos la estructura para que encaje en el primer escenario y documentamos cada paso para que tu declaración local sea defendible ante una eventual revisión.
+
+<!-- exentax:legal-refs-v1 -->
+## Referencias legales y normativas
+
+Este artículo se apoya en normativa vigentes actualmente. Citamos las fuentes principales para que puedas verificarlo:
+
+- **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report ante FinCEN).
+- **España.** Ley 35/2006 (LIRPF), arts. 8, 9 (residencia), 87 (atribución de rentas), 91 (transparencia fiscal internacional para personas físicas); Ley 27/2014 (LIS), art. 100 (transparencia fiscal internacional para sociedades); Ley 58/2003 (LGT), arts. 15 (conflicto en aplicación de la norma) y 16 (simulación); Ley 5/2022 (régimen sancionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 720); Orden HFP/887/2023 (Modelo 721 cripto).
+- **Convenio España–EE. UU.** BOE de 22/12/1990 (CDI original); Protocolo en vigor desde 27/11/2019 (renta pasiva, *limitation on benefits*).
+- **UE / OCDE.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetrías híbridas); Estándar Común de Reporte (CRS) de la OCDE.
+- **Marco internacional.** Modelo de Convenio OCDE, art. 5 (establecimiento permanente) y comentarios; Acción 5 BEPS (sustancia económica); FATF Recommendation 24 (titularidad real).
+La aplicación concreta de cualquiera de estas normas a tu caso depende de tu residencia fiscal, la actividad de la LLC y la documentación que mantengas. Este contenido es informativo y no sustituye al asesoramiento profesional personalizado.
+
+<!-- exentax:banking-facts-v1 -->
+## Hechos bancarios y fiscales que conviene precisar
+
+La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
+
+### Notas por proveedor
+
+- **Mercury** opera con varios bancos asociados con licencia federal y cobertura **FDIC** vía sweep network: principalmente **Choice Financial Group** y **Evolve Bank & Trust**, además de **Column N.A.** en algunos casos heredados. Mercury no es un banco; es una plataforma fintech respaldada por esos partner banks. Si Mercury cierra una cuenta, el saldo se devuelve normalmente **mediante cheque a la dirección registrada del titular** y eso puede ser un problema operativo serio para no residentes; conviene tener una cuenta secundaria activa (Relay, Wise Business, etc.) como contingencia.
+- **Wise** distribuye dos productos distintos: **Wise Personal** (cuenta personal) y **Wise Business** (cuenta para empresas, incluida tu LLC). Para una LLC se debe abrir **Wise Business**, no la personal. Matiz importante de CRS: una **Wise Business titularidad de una LLC estadounidense queda fuera del CRS** porque la titular es una entidad de EE. UU. y EE. UU. no es jurisdicción CRS; el lado USD opera vía Wise US Inc. (perímetro FATCA, no CRS). En cambio, una **Wise Personal abierta por un individuo residente fiscal en España** u otra jurisdicción CRS **sí genera reporte CRS** vía Wise Europe SA (Bélgica) sobre ese individuo. Si abres Wise para tu LLC, esa cuenta no te incluye en CRS por la LLC; si además mantienes una Wise Personal a tu nombre como residente en CRS, esa segunda sí reporta.
+- **Wallester** (Estonia) es una entidad financiera europea con licencia EMI/banco emisor de tarjetas. Sus cuentas IBAN europeas **están dentro del Estándar Común de Comunicación de Información (CRS)** y, por tanto, generan reporte automático a la administración tributaria del país de residencia del titular.
+- **Payoneer** opera con entidades europeas (Payoneer Europe Ltd, Irlanda) que también **están dentro de CRS** para clientes residentes en jurisdicciones que aplican el estándar.
+- **Revolut Business**: cuando se asocia a una **LLC estadounidense**, lo habitual es operar bajo Revolut Payments USA; los IBAN europeos (lituanos, BE) **no se emiten por defecto** a una LLC: se emiten a clientes europeos del banco europeo del grupo. Si te ofrecen un IBAN europeo, asegúrate de a qué entidad jurídica está asociada esa cuenta y bajo qué régimen reporta.
+- **Tributación cero**: ninguna estructura LLC consigue "cero impuestos" si vives en un país con CFC/transparencia fiscal o atribución de rentas. Lo que se consigue es **no duplicar tributación** y **declarar correctamente en residencia**, no eliminarla.
+
+<!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
+## Bulgaria al 10%: lo que el folleto no cuenta y lo que sí compensa
+
+Bulgaria tiene corporate tax flat del 10% — el más bajo de la UE — y un IRPF del 10%, dentro de la UE, con OSS, sin restricciones de servicios y con cuentas bancarias accesibles. Suena perfecto. Lo que el folleto no cuenta: sustancia económica, residencia personal real y aplicación del convenio España-Bulgaria. Esto es lo que sí compensa.
+
+- **Tributación efectiva real.** 10% corporate sobre beneficio + 5% retención en dividendos = ~14,5% efectivo si extraes todo el beneficio. Bajo, pero no "0". Si tu residencia personal sigue siendo España, los dividendos los integras al ahorro español (19-28%) con crédito fiscal por la retención búlgara — la ventaja se diluye notablemente.
+- **Sustancia económica obligatoria.** Bulgaria está en lista UE pero el país de residencia del UBO aplica reglas TFI (España: art. 100 LIRPF / art. 91 LIS): si la EOOD no tiene oficina, empleados ni gestión local real, sus rentas pasivas se imputan directamente al socio. Una shell búlgara facturada desde tu casa en Madrid no funciona.
+- **Banca y operativa.** Cuentas accesibles en DSK Bank, UniCredit Bulbank, Postbank con KYC estándar — más fáciles que las búlgaras de hace 5 años. Gestoría local obligatoria para mensual VAT y TBI, coste 200-400 EUR/mes. Idioma: documentación oficial en búlgaro, facturas en EN/BG aceptadas.
+- **Convenio España-Bulgaria 1990.** Activo, con MLI ratificado: dividendos 5/15%, intereses 0%, cánones 0%. Permite mitigar doble imposición pero requiere cláusula PPT (propósito principal) — si la única razón de la EOOD es fiscal, AEAT puede negar la aplicación del convenio.
+
+### Lo que más nos preguntan
+
+**¿Bulgaria es alternativa a una LLC US para freelancer digital con clientes UE?** Si los clientes son UE y necesitas IVA OSS, sí — la EOOD lo cubre nativamente. Si los clientes son globales y no necesitas IVA en cada país, la LLC US suele ser más eficiente operativamente. Decisión por mercado, no por tipo nominal de impuesto.
+
+**¿Puedo vivir en España y operar EOOD?** Sí, pero la EOOD seguirá tributando en España como residente fiscal española (ley 27/2014: gestión efectiva en España = residencia fiscal española) más TFI sobre rentas pasivas. La estructura sólo libera potencial fiscal si te trasladas físicamente.
+
+En Exentax modelamos Bulgaria con tus clientes, residencia y volumen reales — y te decimos si compensa el coste de mantener estructura allí o si una LLC US o tu autónomo actual ya cubren mejor el caso.
+<!-- /exentax:execution-v2 -->
+
+## Hechos legales y de procedimiento
+
+La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
+
+### Puntos clave
+
+- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
+- **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
+- **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
+
+<!-- exentax:cross-refs-v1 -->
+### Más lecturas relacionadas
+
+- [Empresa en Panamá: fiscalidad, residencia y realidad actualmente](/es/blog/empresa-panama-fiscalidad-residencia)
+- [Crear empresa en Andorra: ventajas reales y requisitos para residir](/es/blog/crear-empresa-andorra-ventajas)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22empresa%20bulgaria%2010%20tributacion%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+
+Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">10%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…peo con baja fiscalidad&quot;. El argumento es siempre el mismo: 10% de impuesto de sociedades,…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ución en 1-2 semanas. Coste aproximado de constitución: 500-1.500 EUR según el despacho. #…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">5%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ndimientos del trabajo y dividendos es también del **10%** (5% específicamente sobre divid…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">19%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…os dividendos se incorporan en la base del ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">6.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…dos se incorporan en la base del ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EU…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…rporan en la base del ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EUR, 23% hast…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…la base del ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">23%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ahorro del IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 EUR, 27% has…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">200.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…IRPF: 19% hasta 6.000 EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 EUR, 27% hasta 300.000 …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">27%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…sta 6.000 EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 EUR, 27% hasta 300.000 EUR, 28% por…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">300.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…EUR, 21% hasta 50.000 EUR, 23% hasta 200.000 EUR, 27% hasta 300.000 EUR, 28% por encima. -…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">28%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a 50.000 EUR, 23% hasta 200.000 EUR, 27% hasta 300.000 EUR, 28% por encima. - Se aplica de…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">166.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…iones de IVA mensuales o trimestrales si superas el umbral (166.000 BGN, unos 85.000 EUR).…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">85.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ales o trimestrales si superas el umbral (166.000 BGN, unos 85.000 EUR). - Declaración anu…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…na si superas determinados umbrales. Suelo realista anual: 2.000 a 4.500 EUR solo en honor…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">4.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…peras determinados umbrales. Suelo realista anual: 2.000 a 4.500 EUR solo en honorarios y …»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">0%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…rce): - **Fiscalidad efectiva**: una LLC en EE.UU. permite 0% federal para no residentes y…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">80.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…sos típicos donde aplica **Caso 1: emprendedor que factura 80.000 EUR/año desde España sin…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">14%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…carga total realista en mano del propietario está entre el 14% y el 22%. **¿Necesito vivir…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">22%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…tal realista en mano del propietario está entre el 14% y el 22%. **¿Necesito vivir en Bulg…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">1,955</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…garo está vinculado al euro mediante currency board fijo en 1,95583 BGN/EUR desde 1997. Si…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">15%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a-Bulgaria 1990.** Activo, con MLI ratificado: dividendos 5/15%, intereses 0%, cánones 0%.…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-ow…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-04-22T09:27:26.291Z",
+  "summary": {
+    "total_findings": 8,
+    "by_status": {
+      "ok": 8
+    }
+  },
+  "findings": [
+    {
+      "area": "fallback-chain",
+      "status": "ok",
+      "detail": "fallbackLng configurado en client/src/i18n/index.ts: ca→[es,en], pt→[es,en], fr→[en,es], de→[en,es], es→[en], default→[en].",
+      "recommendation": "Revisar si la cadena CA/PT→ES introduce «leaks» indeseados de español; alternativa: CA→ES,EN como ahora, o CA→EN para forzar revisión humana."
+    },
+    {
+      "area": "missing-key-handler",
+      "status": "ok",
+      "detail": "parseMissingKeyHandler implementado: 1) lookupEsEmergency, 2) humaniseKey. Garantiza que el usuario nunca ve la clave dotted.",
+      "recommendation": "Cubierto por client/src/i18n/fallback.test.ts (18 asserts). Mantener."
+    },
+    {
+      "area": "lazy-loading",
+      "status": "ok",
+      "detail": "Locales no-ES cargados perezosamente vía import dinámico — reduce el bundle inicial.",
+      "recommendation": "Validar tras cada release que los chunks /assets/locale-*.js se sirven con cache headers correctos."
+    },
+    {
+      "area": "locale-tags-for-intl",
+      "status": "ok",
+      "detail": "LanguageService.getLocaleTag mapea SupportedLang a etiquetas BCP-47 (es-ES, en-US, fr-FR, de-DE, pt-BR, ca-ES).",
+      "recommendation": "Considerar pt-PT vs pt-BR (ver follow-up #16 docs internos). El mapeo actual usa pt-BR — confirmar audiencia objetivo."
+    },
+    {
+      "area": "pluralization",
+      "status": "ok",
+      "detail": "Bundle ES contiene 4 sufijos plurales (_one/_other/...).",
+      "recommendation": "Mantener — la auditoría previa reportó 0 mismatches de placeholders entre lenguas."
+    },
+    {
+      "area": "interpolation",
+      "status": "ok",
+      "detail": "Bundle ES contiene 97 ocurrencias de {{var}}. Validador previo (deep-audit) reporta 0 desajustes entre lenguas.",
+      "recommendation": "Seguir ejecutando `npm run i18n:check` antes de cada merge."
+    },
+    {
+      "area": "duplicate-and-empty-keys",
+      "status": "ok",
+      "detail": "Auditoría previa (i18n-deep-audit-2026-04, sección 1) reporta 0 claves duplicadas y 0 valores vacíos en las 6 lenguas.",
+      "recommendation": "Mantener `scripts/validate-i18n.ts` como gate de CI."
+    },
+    {
+      "area": "type-safety",
+      "status": "ok",
+      "detail": "client/src/i18n/keys.generated.ts mantiene la unión TranslationKey actualizada (regenerar con `npm run i18n:generate-types`).",
+      "recommendation": "Asegurar que el script de generación se ejecuta en pre-commit o CI."
+    }
+  ]
+}

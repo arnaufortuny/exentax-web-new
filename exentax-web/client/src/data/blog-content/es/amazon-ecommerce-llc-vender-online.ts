@@ -1,0 +1,188 @@
+export default `
+
+Si quieres vender productos (físicos o digitales) en Amazon, Shopify, Etsy o cualquier plataforma de ecommerce, tener una <a href="/es/blog/constituir-llc-proceso-paso-a-paso">LLC en Estados Unidos</a> te abre puertas que desde tu país probablemente están cerradas, o limitadas con restricciones y retenciones.
+
+## ¿Por qué una LLC para ecommerce?
+
+### Acceso sin restricciones a Amazon US
+Amazon Seller Central US es el marketplace más grande del mundo. Con una LLC americana, puedes registrarte como vendedor profesional sin las limitaciones que tienen las cuentas de vendedores internacionales.
+
+### Cuenta bancaria en dólares
+Las plataformas de ecommerce depositan tus ganancias en tu cuenta bancaria. Con una LLC, recibes los fondos directamente en Mercury en dólares, sin intermediarios, sin retenciones y sin conversiones forzadas.
+
+### Credibilidad ante el cliente
+Vender desde una empresa americana genera confianza. Los clientes en EE.UU. ven una empresa local, no un vendedor internacional.
+### Amazon FBA con tu LLC
+
+**Fulfillment by Amazon (FBA)** te permite enviar tu inventario a los almacenes de Amazon. Ellos se encargan del almacenamiento, envío y devoluciones.
+
+Para registrarte en Amazon FBA necesitas:
+
+- **LLC constituida** con Articles of Organization
+- **EIN** de la LLC
+- **Cuenta bancaria US** (Mercury)
+- **Tarjeta de crédito/débito** para las fees de Amazon
+- **Pasaporte** del propietario
+- **Dirección** (Registered Agent o dirección comercial)
+### Shopify con tu LLC
+
+Shopify es la plataforma de ecommerce más popular para tiendas propias. Con tu LLC puedes:
+
+- Crear tu tienda online sin restricciones
+- Conectar **Shopify Payments** (powered by Stripe) para cobros directos
+- Recibir los fondos en tu cuenta Mercury
+- Vender en múltiples monedas
+### Obligaciones fiscales del ecommerce con LLC
+
+Si vendes productos físicos en EE.UU. hay un tema fiscal adicional: el **Sales Tax** (impuesto sobre ventas). Este impuesto:
+
+- Es estatal (cada estado tiene sus propias tasas)
+- Aplica si tienes "nexus" (presencia económica significativa) en un estado
+- Amazon lo recauda automáticamente en la mayoría de estados para vendedores FBA
+
+Para productos digitales vendidos a clientes fuera de EE.UU. la LLC generalmente no cobra sales tax.
+### Modelo de negocio típico
+
+1. **Constituyes tu LLC** en un estado favorable (Nuevo México, Wyoming)
+2. **Abres cuenta Mercury** y configuras Stripe/Shopify Payments
+3. **Registras tu marca** en Amazon Brand Registry (opcional pero recomendado)
+4. **Envías inventario** a Amazon FBA o gestionas envíos desde tu proveedor
+5. **Cobras en USD** directamente en Mercury
+6. **Transfieres beneficios** a tu cuenta personal vía Wise
+### Sales Tax Nexus: lo que necesitas saber
+
+El **nexus** es el concepto que determina si debes cobrar Sales Tax en un estado. Desde la sentencia *South Dakota v. Wayfair (2018)*, el nexus puede ser:
+
+- **Physical nexus:** Tienes inventario, oficina o presencia física en un estado. Si usas Amazon FBA, tu inventario está en almacenes de Amazon en múltiples estados → tienes nexus en esos estados.
+- **Economic nexus:** Superas un umbral de ventas en un estado (generalmente $100K en ventas o 200 transacciones/año).
+
+**La buena noticia para vendedores FBA:** Amazon recauda y remite el Sales Tax automáticamente en la mayoría de los estados como "marketplace facilitator". Tú no tienes que hacer nada. Amazon se encarga.
+
+**Para tu propia tienda Shopify:** Aquí sí debes configurar la recaudación de Sales Tax en los estados donde tengas nexus. Shopify tiene integraciones con herramientas como TaxJar o Avalara que lo automatizan.
+### Inventario y logística: consideraciones prácticas
+
+### Si haces Private Label (marca propia)
+1. Fabricas en China, India o donde sea más competitivo
+2. Tu proveedor envía directamente a los almacenes FBA de Amazon
+3. Amazon almacena, empaqueta y envía
+4. Tú te centras en marketing y optimización de listings
+
+### Si haces Dropshipping
+- No necesitas inventario
+- El proveedor envía directamente al cliente final
+- La LLC da credibilidad ante proveedores internacionales
+- Menor riesgo de inventario, menor margen
+
+### Si haces Print-on-Demand
+- Printful, Printify o Teespring se integran con Shopify
+- Sin inventario, sin riesgo
+- Ideal para creadores de contenido que quieren merch
+
+Para seguir profundizando, <a href="/es/blog/iban-swift-routing-number-que-son">IBAN, SWIFT y Routing Number: qué son y cuándo usarlos</a> y <a href="/es/blog/escalar-negocio-digital-llc-americana">Cómo escalar tu negocio digital con una LLC americana</a> complementan lo que hemos visto aquí con detalles que merecían su propio artículo.
+### Cuentas y herramientas esenciales para ecommerce
+
+| Herramienta | Para qué | Coste |
+|---|---|---|
+| Mercury | Cuenta bancaria principal | Gratis ($0 wire fees) |
+| Stripe/Shopify Payments | Procesamiento de pagos | 2.9% + $0.30 |
+| Amazon Seller Central | Marketplace | $39.99/mes + referral fees |
+| Jungle Scout / Helium 10 | Investigación de producto | $29-99/mes |
+| Wise Business | Conversión de divisas | Tipo de cambio real (EMI) |
+
+En Exentax hemos montado LLCs para vendedores de Amazon FBA, tiendas Shopify y negocios de dropshipping. Conocemos la operativa y las particularidades fiscales de cada modelo. Contacta con nuestro equipo y te decimos exactamente qué estructura necesitas para tu ecommerce.
+## Stack bancario equilibrado: Mercury, Relay, Slash y Wise
+
+No existe la cuenta perfecta para una LLC. Existe el **stack** correcto, donde cada herramienta cubre un rol:
+
+- **Mercury** (operada como fintech con bancos asociados (Choice Financial Group y Evolve Bank & Trust principalmente; Column N.A. en cuentas heredadas), FDIC vía sweep network hasta el límite vigente). Cuenta principal operativa para no residentes con buena UX, ACH y wires. Sigue siendo una de las opciones más probadas para abrir desde fuera de EE. UU.
+- **Relay** (respaldada por Thread Bank, FDIC). Excelente como **cuenta de respaldo** y para gestión "envelope budgeting": permite crear hasta 20 sub-cuentas y 50 tarjetas de débito, integración profunda con QuickBooks y Xero. Si Mercury bloquea o pide revisión KYC, Relay evita que tu operativa se pare.
+- **Slash** (respaldada por Column N.A. (banco federalmente registrado, con cobertura FDIC)). Banca diseñada para operadores online: emisión instantánea de tarjetas virtuales por proveedor, controles de gasto granulares, *cashback* en publicidad digital. Es el complemento natural cuando gestionas Meta Ads, Google Ads o suscripciones SaaS.
+- **Wise Business** (EMI multi-divisa, no es banco). Para cobrar y pagar en EUR, GBP, USD y otras divisas con datos bancarios locales y conversión a *mid-market rate*. No sustituye una cuenta US real, pero es imbatible para tesorería internacional.
+- **Wallester / Revolut Business.** Wallester aporta tarjetas corporativas con BIN propio para alto volumen. Revolut Business funciona como complemento europeo, no como cuenta principal de la LLC.
+
+La recomendación realista: **Mercury + Relay como respaldo + Slash para operativa publicitaria + Wise para tesorería FX**. Es la configuración que minimiza riesgo de bloqueo y reduce coste real. En Exentax abrimos y configuramos este stack como parte de la constitución.
+### Próximos pasos
+
+Ahora que tienes el contexto completo, el siguiente paso natural es contrastarlo con tu propia situación: qué encaja, qué no, y dónde están los matices que dependen de tu residencia, tu actividad y tu volumen. Una revisión rápida de tu caso suele ahorrar mucho ruido antes de tomar cualquier decisión estructural.
+
+<!-- exentax:banking-facts-v1 -->
+## Hechos bancarios y fiscales que conviene precisar
+
+La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
+
+<!-- exentax:calc-cta-v1 -->
+> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notas por proveedor
+
+- **Mercury** opera con varios bancos asociados con licencia federal y cobertura **FDIC** vía sweep network: principalmente **Choice Financial Group** y **Evolve Bank & Trust**, además de **Column N.A.** en algunos casos heredados. Mercury no es un banco; es una plataforma fintech respaldada por esos partner banks. Si Mercury cierra una cuenta, el saldo se devuelve normalmente **mediante cheque a la dirección registrada del titular** y eso puede ser un problema operativo serio para no residentes; conviene tener una cuenta secundaria activa (Relay, Wise Business, etc.) como contingencia.
+- **Wise** distribuye dos productos distintos: **Wise Personal** (cuenta personal) y **Wise Business** (cuenta para empresas, incluida tu LLC). Para una LLC se debe abrir **Wise Business**, no la personal. Matiz importante de CRS: una **Wise Business titularidad de una LLC estadounidense queda fuera del CRS** porque la titular es una entidad de EE. UU. y EE. UU. no es jurisdicción CRS; el lado USD opera vía Wise US Inc. (perímetro FATCA, no CRS). En cambio, una **Wise Personal abierta por un individuo residente fiscal en España** u otra jurisdicción CRS **sí genera reporte CRS** vía Wise Europe SA (Bélgica) sobre ese individuo. Si abres Wise para tu LLC, esa cuenta no te incluye en CRS por la LLC; si además mantienes una Wise Personal a tu nombre como residente en CRS, esa segunda sí reporta.
+- **Wallester** (Estonia) es una entidad financiera europea con licencia EMI/banco emisor de tarjetas. Sus cuentas IBAN europeas **están dentro del Estándar Común de Comunicación de Información (CRS)** y, por tanto, generan reporte automático a la administración tributaria del país de residencia del titular.
+- **Payoneer** opera con entidades europeas (Payoneer Europe Ltd, Irlanda) que también **están dentro de CRS** para clientes residentes en jurisdicciones que aplican el estándar.
+- **Revolut Business**: cuando se asocia a una **LLC estadounidense**, lo habitual es operar bajo Revolut Payments USA; los IBAN europeos (lituanos, BE) **no se emiten por defecto** a una LLC: se emiten a clientes europeos del banco europeo del grupo. Si te ofrecen un IBAN europeo, asegúrate de a qué entidad jurídica está asociada esa cuenta y bajo qué régimen reporta.
+- **Tributación cero**: ninguna estructura LLC consigue "cero impuestos" si vives en un país con CFC/transparencia fiscal o atribución de rentas. Lo que se consigue es **no duplicar tributación** y **declarar correctamente en residencia**, no eliminarla.
+
+<!-- exentax:legal-refs-v1 -->
+## Referencias: fuentes técnicas y normativa aplicable
+
+Las cifras, modelos y umbrales mencionados se extraen de las siguientes referencias actualizadas actualmente:
+
+- **Tributación de la actividad.** IRC §864 y §882 (efectivamente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma para LLC unipersonales no residentes.
+- **IVA y ventas internacionales.** Directiva 2006/112/CE del IVA, Reglamento de Ejecución 282/2011, régimen OSS/IOSS y Ventanilla Única para servicios digitales B2C en la UE; instrucciones del Modelo 369 de la AEAT.
+- **Plataformas marketplace.** Términos publicados por Amazon Seller Central (incluido el VAT Calculation Service y la responsabilidad sobre IVA en la UE conforme al art. 14 bis Directiva 2006/112), Stripe Tax, Paddle (Merchant of Record), DoDo Payments y PayPal Business.
+- **DAC7.** Directiva (UE) 2021/514 de cooperación administrativa en plataformas digitales, traspuesta al ordenamiento español por RD 117/2024.
+- **España residentes.** Ley 35/2006 LIRPF (art. 100 TFI), Ley 27/2014 LIS y Ley 37/1992 del IVA.
+Información divulgativa; el tratamiento concreto depende del país de residencia del titular y del país de tus clientes.
+
+<!-- exentax:execution-v2 -->
+## Cómo se sostiene un ecommerce serio detrás de la LLC
+
+Una LLC es la herramienta jurídica, pero un ecommerce sólido se aguanta sobre cuatro patas que conviene tener mapeadas antes de listar el primer producto. Las vemos cada semana cuando llega un seller que ya factura y descubre que su estructura no escala.
+
+- **Marketplace + Merchant of Record.** Vender en Amazon US bajo tu LLC no te exime del IVA en la UE: si haces FBA en almacenes europeos o superas los umbrales OSS/IOSS, el responsable del IVA puedes ser tú o la plataforma según el supuesto del art. 14 bis de la Directiva 2006/112. Conviene cerrar el rol antes de empezar, no después de la primera carta.
+- **Pasarelas en cascada.** Stripe US es la entrada natural, pero conviene tener Paddle (Merchant of Record) o DoDo Payments como respaldo si Stripe restringe la cuenta por reservas, chargebacks o categoría. Una sola pasarela activa es un punto único de fallo.
+- **Fulfillment y nexus.** FBA en EE. UU. crea **nexus de sales tax** en cada estado donde Amazon almacena tu inventario. Hay 24 estados con marketplace facilitator law que cobran por ti, pero quedan obligaciones de registro propias en algunos casos.
+- **Trazabilidad contable desde el día uno.** Conciliar los settlements de Amazon, las fees de Stripe y las devoluciones requiere un sistema (A2X, Synder o similar) conectado a tu contabilidad. Sin esto, el cierre fiscal se vuelve arqueología.
+
+### Lo que más nos preguntan
+
+**¿Necesito ITIN si solo vendo en Amazon US con mi LLC?** No para operar la cuenta de seller, pero sí si quieres recuperar retenciones de Amazon KDP o royalties, o si tu jurisdicción te lo exige para acreditar la imputación de rentas. Lo gestionamos en paralelo a la constitución cuando aplica.
+
+**¿Cómo evito que Stripe me cierre la cuenta?** Coherencia entre país de constitución, dirección de la LLC, descripción de actividad y categoría MCC; documentación lista para el primer KYC ampliado, y separación estricta entre cuenta personal y cuenta de la LLC. La mayoría de cierres no son por riesgo, son por incoherencia documental.
+
+En Exentax montamos esa estructura de extremo a extremo y dejamos al seller con el manual operativo, las cuentas abiertas y el calendario fiscal cerrado antes del primer envío.
+<!-- /exentax:execution-v2 -->
+
+## Te lo montamos sin que pierdas un fin de semana
+
+Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En Exentax nos encargamos de todo el proceso: constitución, banca, pasarelas de pago, contabilidad, declaraciones IRS y compliance en tu país de residencia. Agenda una asesoría gratuita y te diremos con sinceridad si la LLC tiene sentido para tu caso, sin promesas absolutas.
+
+
+¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22amazon%20ecommerce%20llc%20vender%20online%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+
+Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">9%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s) | | Stripe/Shopify Payments | Procesamiento de pagos | 2.9% + $0.30 | | Amazon Seller C…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…(Merchant of Record), DoDo Payments y PayPal Business. - **DAC7.** Directiva (UE) 2021/514…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

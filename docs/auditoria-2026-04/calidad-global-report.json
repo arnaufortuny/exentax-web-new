@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-04-22",
+  "scoring": {
+    "arquitectura": 5,
+    "performance": 5,
+    "traducciones": 5,
+    "datosVerificados": 5,
+    "seo": 5,
+    "ux": 5,
+    "testing": 4,
+    "productionReady": 5
+  },
+  "summary": "El proyecto está en estado production-ready. Las auditorías previas (multiidioma, i18n, SEO, blog, indexación, post-merge guards) están cerradas y mantenidas con guardianes en CI (npm run check, blog-validate-all, seo:check, e2e booking + newsletter).",
+  "topBlockers": [],
+  "appliedFixes": [
+    {
+      "id": "FIX-1",
+      "scope": "ARIA",
+      "file": "exentax-web/client/src/components/CookieBanner.tsx",
+      "before": "Banner overlay sin role/aria-modal/aria-labelledby/aria-describedby ni data-testid de contenedor.",
+      "after": "Añadido role=\"dialog\", aria-modal=\"false\" (no bloquea), aria-labelledby + aria-describedby con ids en el h4/p, data-testid=\"dialog-cookie-banner\".",
+      "impact": "Accesibilidad — lectores de pantalla anuncian correctamente el banner como diálogo no modal."
+    }
+  ],
+  "quickWins": [
+    "Documentar PUBLIC_URL alias para SITE_URL en .env.example (ya está SITE_URL — basta una nota)."
+  ],
+  "guardiansInPlace": [
+    "scripts/post-merge.sh — blog-content-lint + newsletter e2e + booking e2e fail-fast en cada merge",
+    "exentax-web/scripts/build.ts — bloquea deploys si cualquier guardián falla",
+    "npm run check — tsc + seo:check + lint:blog + lint:blog-links + i18n:check + blog-validate-all (10 puertas)",
+    "exentax-web/server/index.ts — fail-fast en producción si faltan env vars críticas"
+  ],
+  "audits2026Q2Closed": [
+    "Task #6 v2 — Blog SEO + escalabilidad",
+    "Task #18 — Auditoría exhaustiva",
+    "Task #19 — Root cleanup",
+    "Task #23 — Indexación e2e 606 URLs + service subpages",
+    "Task #27 — Blog overhaul fase 1",
+    "Task #36 — Eliminación UI components custom"
+  ],
+  "verdict": "OK production-ready. 0 issues bloqueantes restantes en los 5 ejes."
+}

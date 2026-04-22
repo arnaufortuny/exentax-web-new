@@ -1,0 +1,263 @@
+name: Quality pipeline
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+# Permisos mínimos: `pull-requests: write` permite que el step de
+# "Comment bundle regression on PR" publique el delta como comentario.
+# `contents: read` es el default para checkout.
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    name: npm run check (full quality pipeline)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: exentax
+          POSTGRES_PASSWORD: exentax
+          POSTGRES_DB: exentax_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U exentax -d exentax_ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+
+    env:
+      DATABASE_URL: postgres://exentax:exentax@localhost:5432/exentax_ci
+      NODE_ENV: test
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Bootstrap database schema
+        run: |
+          # drizzle.config.ts is not committed; write an ephemeral one so
+          # drizzle-kit can push the @shared/schema.ts tables required by
+          # the newsletter / booking E2E steps. The file is gitignored in
+          # CI's working copy and never persisted to the repo.
+          cat > drizzle.config.ts <<'EOF'
+          import { defineConfig } from "drizzle-kit";
+          export default defineConfig({
+            schema: "./shared/schema.ts",
+            out: "./.drizzle-ci",
+            dialect: "postgresql",
+            dbCredentials: { url: process.env.DATABASE_URL! },
+            strict: false,
+            verbose: false,
+          });
+          EOF
+          npx drizzle-kit push --force
+          rm -f drizzle.config.ts
+          rm -rf .drizzle-ci
+
+      - name: Run full quality pipeline
+        id: pipeline
+        run: |
+          # Replays `npm run check` script-by-script so that, on failure,
+          # we know which sub-script broke. The list is read from package.json
+          # so it stays in sync with `npm run check` automatically.
+          node -e 'process.stdout.write(require("./package.json").scripts.check.split("&&").map(s=>s.trim()).join("\n"))' > .pipeline-scripts.txt
+          while IFS= read -r cmd; do
+            [ -z "$cmd" ] && continue
+            echo "▶ $cmd"
+            if ! eval "$cmd"; then
+              echo "failed_script=$cmd" >> "$GITHUB_OUTPUT"
+              rm -f .pipeline-scripts.txt
+              exit 1
+            fi
+          done < .pipeline-scripts.txt
+          rm -f .pipeline-scripts.txt
+
+      # ---------------------------------------------------------------
+      # Bundle diff vs commit anterior (Task #50)
+      # ---------------------------------------------------------------
+      # `npm run audit:bundle` (parte de `npm run check`) ya añadió la
+      # entrada del commit actual al histórico
+      # `docs/auditoria-2026-04/bundle-audit-history.json`. Comparamos esa
+      # entrada con la del commit anterior y bloqueamos el job si algún
+      # chunk creció más del 5% (mismo umbral que el CLI por defecto).
+      #
+      # Capturamos el JSON con `--json` para reutilizarlo en el notifier
+      # de Discord y, si el job falla, también para el comentario de PR.
+      - name: Bundle diff (commit anterior)
+        id: bundle_diff
+        if: success()
+        run: |
+          mkdir -p docs/auditoria-2026-04
+          set +e
+          npm run --silent audit:bundle:diff -- --json > docs/auditoria-2026-04/bundle-diff.json
+          code=$?
+          set -e
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          # Eco legible al log del job para depuración rápida.
+          npm run --silent audit:bundle:diff || true
+          if [ "$code" -ne 0 ] && [ "$code" -ne 1 ]; then
+            # 0 = OK, 1 = regresión. Cualquier otro código es un fallo
+            # estructural (histórico ilegible, etc.); propágalo tal cual.
+            exit "$code"
+          fi
+          # Conservamos el código 1 para el step de fail explícito de abajo
+          # (necesitamos primero notificar a Discord / PR).
+          exit 0
+
+      - name: Notify Discord on bundle regression
+        # Solo en push a main, igual que el resto de notificaciones de
+        # auditoría, para no spamear con cada PR en revisión.
+        if: >
+          always() &&
+          steps.bundle_diff.outputs.exit_code == '1' &&
+          github.event_name == 'push' &&
+          github.ref == 'refs/heads/main'
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+        run: node scripts/audit-bundle-diff-notify-discord.mjs
+
+      - name: Comment bundle regression on PR
+        # En pull_request publicamos (o actualizamos) un comentario con el
+        # delta para que el revisor lo vea sin descargar el JSON. Usamos
+        # un marcador HTML invisible (BUNDLE_DIFF_MARKER) para encontrar
+        # el comentario previo del bot y editarlo en vez de duplicarlo,
+        # de modo que un PR con N pushes deja un único comentario vivo.
+        #
+        # En PRs originados desde un fork, `secrets.GITHUB_TOKEN` es de
+        # solo lectura por seguridad: la llamada a la API devolverá 403.
+        # Capturamos ese caso y emitimos un warning para no enmascarar
+        # el fallo real del gate (`Fail job on bundle regression` sigue
+        # siendo el que bloquea CI).
+        if: >
+          always() &&
+          steps.bundle_diff.outputs.exit_code == '1' &&
+          github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const MARKER = '<!-- bundle-diff-comment:task-50 -->';
+            const path = 'exentax-web/docs/auditoria-2026-04/bundle-diff.json';
+            if (!fs.existsSync(path)) {
+              core.warning(`No se encontró ${path}, saltando comentario.`);
+              return;
+            }
+            let diff;
+            try {
+              diff = JSON.parse(fs.readFileSync(path, 'utf8'));
+            } catch (err) {
+              core.warning(`No se pudo parsear ${path}: ${err.message}`);
+              return;
+            }
+            const threshold = diff.thresholdPct ?? 5;
+            const fmtKb = (v) => v == null ? 'n/a' : `${v.toFixed(1)} KB`;
+            const fmtPct = (p) => {
+              if (p == null || Number.isNaN(p)) return 'n/a';
+              const sign = p > 0 ? '+' : '';
+              return `${sign}${p.toFixed(1)}%`;
+            };
+            const lines = [];
+            lines.push(MARKER);
+            lines.push(`### Regresión de bundle detectada (umbral \`+${threshold}%\`)`);
+            lines.push('');
+            if (diff.previous && diff.current) {
+              lines.push(`- **Anterior:** \`${diff.previous.commit ?? '?'}\` (${diff.previous.generatedAt})`);
+              lines.push(`- **Actual:** \`${diff.current.commit ?? '?'}\` (${diff.current.generatedAt})`);
+              lines.push('');
+              lines.push('| Métrica | Anterior | Actual | Δ |');
+              lines.push('| --- | ---: | ---: | ---: |');
+              lines.push(`| total | ${fmtKb(diff.previous.totalKb)} | ${fmtKb(diff.current.totalKb)} | ${fmtPct(diff.deltas?.totalPct)} |`);
+              lines.push(`| total (gzip) | — | — | ${fmtPct(diff.deltas?.gzipPct)} |`);
+              lines.push(`| entry-index | ${fmtKb(diff.previous.entryIndexKb)} | ${fmtKb(diff.current.entryIndexKb)} | ${fmtPct(diff.deltas?.entryIndexPct)} |`);
+              lines.push('');
+            }
+            const regressions = Array.isArray(diff.regressions) ? diff.regressions : [];
+            if (regressions.length > 0) {
+              lines.push('**Chunks por encima del umbral:**');
+              for (const r of regressions) {
+                const label = r.kind === 'chunk' ? `${r.category}/${r.base}` : r.kind;
+                lines.push(`- \`${label}\`: ${fmtKb(r.prevKb)} → ${fmtKb(r.currKb)} (${fmtPct(r.pct)})`);
+              }
+              lines.push('');
+            }
+            lines.push('Si la regresión está justificada, documenta el motivo en `docs/auditoria-2026-04/RESUMEN.md` y, si procede, sube el presupuesto en `scripts/audit-bundle.mjs` (`BUDGETS_KB`).');
+            const body = lines.join('\n');
+            try {
+              // Buscar comentario previo del bot (paginado).
+              const existing = await github.paginate(
+                github.rest.issues.listComments,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  per_page: 100,
+                },
+              );
+              const prev = existing.find((c) => (c.body || '').includes(MARKER));
+              if (prev) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: prev.id,
+                  body,
+                });
+                core.info(`Bundle diff comment actualizado (id=${prev.id}).`);
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body,
+                });
+                core.info('Bundle diff comment creado.');
+              }
+            } catch (err) {
+              // Forks → 403; no enmascarar el fallo real del gate.
+              core.warning(`No se pudo publicar el comentario de PR: ${err.status || ''} ${err.message}`);
+            }
+
+      - name: Fail job on bundle regression
+        # Replicamos el comportamiento del guard de presupuesto absoluto:
+        # si `audit:bundle:diff` salió 1, el job entero falla aunque
+        # las notificaciones se hayan enviado correctamente.
+        if: always() && steps.bundle_diff.outputs.exit_code == '1'
+        run: |
+          echo "::error::Bundle diff: regresión por encima del umbral. Ver docs/auditoria-2026-04/bundle-diff.json"
+          exit 1
+
+      - name: Upload bundle diff report
+        if: always() && steps.bundle_diff.outputs.exit_code != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-diff-report
+          path: exentax-web/docs/auditoria-2026-04/bundle-diff.json
+          if-no-files-found: warn
+          retention-days: 30
+

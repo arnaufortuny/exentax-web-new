@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-04-22",
+  "scope": "exentax-web/server/discord.ts + discord-bot.ts + discord-bot-commands.ts + register-discord-commands.ts",
+  "method": "Inspección estática del flujo de envío, queue/retry/rate-limit, comportamiento sin token y mapeo evento→canal",
+  "eventCatalog": [
+    {"type": "booking_created", "channel": "agenda", "envVar": "DISCORD_CHANNEL_AGENDA"},
+    {"type": "booking_rescheduled", "channel": "agenda", "envVar": "DISCORD_CHANNEL_AGENDA"},
+    {"type": "booking_cancelled", "channel": "agenda", "envVar": "DISCORD_CHANNEL_AGENDA"},
+    {"type": "booking_no_show", "channel": "agenda", "envVar": "DISCORD_CHANNEL_AGENDA"},
+    {"type": "lead_new", "channel": "registros", "envVar": "DISCORD_CHANNEL_REGISTROS"},
+    {"type": "lead_newsletter", "channel": "registros", "envVar": "DISCORD_CHANNEL_REGISTROS"},
+    {"type": "lead_calculator", "channel": "calculadora", "envVar": "DISCORD_CHANNEL_CALCULADORA"},
+    {"type": "consent_logged", "channel": "consentimientos", "envVar": "DISCORD_CHANNEL_CONSENTIMIENTOS"},
+    {"type": "user_activity", "channel": "actividad", "envVar": "DISCORD_CHANNEL_ACTIVIDAD"},
+    {"type": "validation_failed", "channel": "errores", "envVar": "DISCORD_CHANNEL_ERRORES"},
+    {"type": "system_error", "channel": "errores", "envVar": "DISCORD_CHANNEL_ERRORES"},
+    {"type": "seo_indexing", "channel": "errores", "envVar": "DISCORD_CHANNEL_ERRORES"},
+    {"type": "admin_action", "channel": "auditoria", "envVar": "DISCORD_CHANNEL_AUDITORIA"}
+  ],
+  "retryConfig": {
+    "implementation": "server/discord.ts:475-540",
+    "maxRetries": 3,
+    "backoff": "exponencial (DRAIN_INTERVAL_MS * 2^attempt, capped 30s)",
+    "retryOn": ["network", "429", "5xx"]
+  },
+  "rateLimit": {
+    "implementation": "server/discord.ts:473-493 (queue producer-consumer)",
+    "drainIntervalMs": 1500,
+    "queueCapacity": 80,
+    "overflowBehavior": "drop oldest"
+  },
+  "missingTokenBehavior": {
+    "implementation": "server/discord.ts:497-503 + server/discord-bot.ts:62,145-148",
+    "behavior": "Graceful degrade — log warn + drop payload (envíos); 503 en endpoint de interactions; skip slash command registration."
+  },
+  "embedConsistency": {
+    "color": "Forzado a EXENTAX_NEON 0x00E510 en send() helper.",
+    "icons": "Sin emojis (política de marca). Severidad vía prefijos [INFO]/[ERROR].",
+    "longContent": "Particionado automático para no exceder límites de Discord."
+  },
+  "envVars": {
+    "required": [
+      "DISCORD_BOT_TOKEN",
+      "DISCORD_PUBLIC_KEY",
+      "DISCORD_APP_ID",
+      "DISCORD_GUILD_ID",
+      "ADMIN_DISCORD_ROLE_ID",
+      "DISCORD_CHANNEL_REGISTROS",
+      "DISCORD_CHANNEL_AGENDA",
+      "DISCORD_CHANNEL_CONSENTIMIENTOS"
+    ],
+    "optional": [
+      "DISCORD_CHANNEL_CALCULADORA",
+      "DISCORD_CHANNEL_ACTIVIDAD",
+      "DISCORD_CHANNEL_ERRORES",
+      "DISCORD_CHANNEL_AUDITORIA"
+    ],
+    "documentedIn": "replit.md (sección Required environment variables)"
+  },
+  "blockerCount": 0,
+  "verdict": "OK — retry, rate-limit, fallback sin token y catálogo de eventos cubierto. No requiere cambios."
+}

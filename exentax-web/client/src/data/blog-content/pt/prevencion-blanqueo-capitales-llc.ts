@@ -1,0 +1,176 @@
+export default `A legislação anti-branqueamento em Portugal (Lei 83/2017, Banco de Portugal, AT) foi fortemente apertada nos últimos anos, e do lado dos EUA, o Corporate Transparency Act obriga toda a LLC ao BOI Report. Para um empreendedor português, os dois regimes somam-se, e ignorar um deles abre a porta a sanções pesadas.
+
+A boa notícia: cumprir com estas regulamentações é simples se entendes o que se espera de ti e manténs boas práticas desde o primeiro dia.
+
+## Por que existem as regulamentações AML?
+
+O sistema financeiro global precisa de mecanismos para prevenir que seja usado para atividades ilícitas. As regulamentações AML obrigam as instituições financeiras a:
+
+- **Verificar a identidade dos seus clientes** (KYC. Know Your Customer)
+- **Monitorizar transações** em busca de padrões suspeitos
+- **Reportar atividades suspeitas** às autoridades correspondentes
+- **Manter registos** de todas as transações durante um período determinado
+### Como te afetam como proprietário de LLC
+
+### 1. Abertura de contas bancárias
+
+Quando abres uma conta bancária para a tua LLC, o banco realiza um processo de due diligence que inclui verificar a tua identidade, a legalidade da tua empresa e a natureza do teu negócio. Este processo é mais exaustivo para proprietários estrangeiros.
+
+### 2. Monitorização de transações
+
+O teu banco monitoriza as transações da tua conta de forma contínua. Se detetar padrões incomuns, pode pedir-te documentação adicional ou, em casos extremos, restringir temporariamente a tua conta até esclarecer a situação.
+
+### 3. Relatórios regulatórios
+
+Dependendo do volume e tipo de transações, o teu banco pode estar obrigado a apresentar relatórios perante o <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> (Financial Crimes Enforcement Network). Isto não significa que estejas sob investigação. é um procedimento de rotina.
+### O BSA: Bank Secrecy Act
+
+O Bank Secrecy Act (BSA) é a lei federal que estabelece as obrigações de compliance financeiro nos Estados Unidos. Os seus principais requisitos para LLCs são:
+
+### CTR (Currency Transaction Report)
+Gera-se automaticamente quando se realizam transações em numerário superiores a $10,000 num mesmo dia. Para a maioria dos negócios digitais, isto não é relevante.
+
+### SAR (Suspicious Activity Report)
+O banco apresenta um SAR quando deteta uma transação que considera suspeita. Tu não recebes notificação quando isto ocorre. É um processo interno do banco.
+
+### Registo de transações
+Os bancos estão obrigados a manter registos de certas transações durante pelo menos 5 anos.
+## Boas práticas para a tua LLC
+
+### 1. Mantém coerência na tua atividade
+
+A tua atividade bancária deve ser coerente com o que declaraste ao abrir a conta. Se o teu negócio evolui, atualiza o teu perfil junto do banco.
+
+### 2. Documenta tudo
+
+Cada transação significativa deve poder justificar-se com documentação: contratos, faturas, recibos, e-mails. Isto não é apenas bom para o compliance. também simplifica a tua contabilidade.
+
+### 3. Evita transações em numerário
+
+Os negócios digitais praticamente não lidam com numerário. Mantém todas as tuas transações digitais e documentadas.
+
+### 4. Não faças "structuring"
+
+O structuring (dividir deliberadamente uma transação grande em múltiplas pequenas para evitar limiares de reporte) é ilegal. Se precisas fazer um pagamento grande, faz-lo diretamente.
+
+### 5. Responde a solicitações do banco
+
+Se o teu banco te pede informação adicional, responde com prontidão e transparência. É um processo de rotina que demonstra a tua profissionalidade.
+### O BOI Report e a prevenção do branqueamento
+
+O Beneficial Ownership Information (BOI) Report que apresentas perante o FinCEN é parte do esforço global contra o branqueamento de capitais. Ao reportar quem são os proprietários reais da tua LLC, contribuis para a transparência do sistema corporativo.
+### FATCA e CRS: intercâmbio de informação fiscal
+
+Se és residente fiscal fora dos EUA, é importante conhecer dois marcos de intercâmbio de informação:
+
+### FATCA (Foreign Account Tax Compliance Act)
+Obriga as instituições financeiras estrangeiras a reportar contas de cidadãos norte-americanos. Como não residente, isto não te afeta diretamente, mas afeta as instituições onde tens contas.
+
+### CRS (Common Reporting Standard)
+É o padrão global de intercâmbio automático de informação fiscal entre países. O teu país de residência e os EUA podem trocar informação sobre as tuas contas financeiras.
+### A tua LLC como sinal de profissionalidade
+
+Paradoxalmente, ter uma LLC bem constituída e manter um compliance impecável posiciona-te como um profissional sério perante bancos e instituições financeiras. Os que têm problemas de compliance costumam ser os que operam de forma informal, sem estrutura legal nem documentação.
+
+A tua LLC, com o seu EIN, as suas declarações em dia e a sua conta bancária dedicada no Mercury (Column NA, FDIC, tudo em ordem), é exatamente o que o sistema espera ver de um profissional que opera internacionalmente.
+
+Na Exentax alinhamos BOI + Registo Central de Beneficiário Efetivo + Anexo J para clientes lusófonos. Marca a tua consultoria gratuita e pomos a tua LLC em conformidade dos dois lados do Atlântico.
+## Referências legais e regulamentares
+
+Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
+
+- **EUA.** Treas. Reg. §301.7701-3 (classificação de entidades / *check-the-box*); IRC §882 (imposto sobre rendimentos de estrangeiros conexos com US trade or business); IRC §871 (FDAP e retenções a não residentes); IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* e *foreign-owned disregarded entities*); IRC §7701(b) (residência fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report perante a FinCEN).
+- **Espanha.** Lei 35/2006 (LIRPF), arts. 8, 9 (residência), 87 (atribuição de rendimentos), 91 (CFC pessoas singulares); Lei 27/2014 (LIS), art. 100 (CFC sociedades); Lei 58/2003 (LGT), arts. 15 e 16; Lei 5/2022 (regime sancionatório do Modelo 720 após TJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 e 720); Ordem HFP/887/2023 (Modelo 721 cripto).
+- **Convenção Espanha–EUA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de 22/12/1990 (CDT original); Protocolo em vigor desde 27/11/2019 (rendimento passivo, *limitation on benefits*).
+- **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
+- **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
+
+<!-- exentax:calc-cta-v1 -->
+> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+<!-- /exentax:calc-cta-v1 -->
+
+A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais a precisar
+
+A informação sobre fintechs e CRS evolui; este é o estado atual:
+
+### Notas por provedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
+- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:legal-facts-v1 -->
+## Factos legais e de procedimento
+
+As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram em recent years; eis o estado atual:
+### Pontos-chave
+
+- **BOI / Corporate Transparency Act.** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida a "foreign reporting companies"** (entidades constituídas fora dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA por um não residente está, hoje, fora dessa obrigação**. O estado regulatório pode mudar de novo: **reverificar em FinCEN.gov no momento da submissão**. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo e monitoriza atualizações.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
+- **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.<!-- exentax:execution-v2 -->
+## Prevenção de branqueamento de capitais e a sua LLC: o que o banco vê e porque pode fechar a conta
+
+Mercury, Wise, Relay, Brex e praticamente todos os bancos US que abrem a não residentes operam sob normativa AML/KYC do FinCEN. Entender que sinais activam o AML é a diferença entre três anos sem incidentes e perder a conta em duas semanas.
+
+- **O triângulo KYC na abertura.** Identidade do beneficial owner (passaporte + utility bill), origem dos fundos (contrato/factura/extracto de actividade real prévia), e consistência da actividade declarada com o site e fluxos.
+- **Cinco red flags que disparam revisão imediata.** Movimentos circulares, transferências para/de jurisdições de alto risco (Irão, Coreia do Norte, RDC), fragmentação sob limiares (vários pagamentos de 9.500$ para evitar CTR de 10k$), picos de actividade sem justificação, discrepância declarada vs real.
+- **O SAR e porque nunca avisam.** O banco apresenta um Suspicious Activity Report ao FinCEN e NÃO PODE informá-lo (tipping-off é crime). O que vê: conta fechada com 30 dias para retirar, sem explicação.
+- **Como proteger a sua LLC.** Documentação exaustiva de cada cliente, bookkeeping mensal real com reconciliação, evitar mover para pessoal sem conceito claro, nunca operar de IP de país sancionado.
+
+### O que mais nos perguntam
+
+**Receber cripto na LLC é problemático?** Depende. Cripto de exchanges reguladas (Coinbase, Kraken) com KYC documentado é aceitável; de wallets anónimas ou mixers é sinal AML imediato.
+
+**Se a Mercury me fechar posso abrir Wise?** Normalmente sim. Mas se fecharam por actividade real, outros também fecharão. Corrigir a causa.
+
+Na Exentax estruturamos AML compliance para LLCs não residentes e mediamos quando um banco pede informação.
+<!-- /exentax:execution-v2 -->
+
+## Montamos para si sem perder um fim de semana
+
+Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20legisla%C3%A7%C3%A3o%20anti-branqueamento%20em%20Portugal%20(Lei%2083%2F2017%2C%20Banco%20de%20Portugal%2C%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+
+Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">10,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…cuando se realizan transacciones en efectivo superiores a $10,000 en un mismo día. Para la…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">9.500</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…t), fragmentación bajo umbrales de reporte (varios pagos de 9.500$ para evitar el CTR de 1…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…bre el &lt;a href=&quot;/es/blog/form-5472-que-es-como-presentarlo&quot;&gt;Form 5472&lt;/a&gt; para entender la…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

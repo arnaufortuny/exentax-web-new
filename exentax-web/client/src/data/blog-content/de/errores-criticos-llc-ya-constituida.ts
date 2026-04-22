@@ -1,0 +1,286 @@
+export default `Wenn Sie bereits eine US-LLC besitzen, ist dieser Artikel für Sie. Er richtet sich nicht an jemanden, der über die Gründung nachdenkt: Er richtet sich an jemanden, der bereits operiert und langsam ahnt, dass ihm nicht alles erzählt wurde.
+
+Bei Exentax sehen wir wöchentlich Personen mit aktiver LLC, die Jahre nach der Gründung kritische Fehler entdecken. Nicht aus bösem Willen, sondern weil das Modell vieler Anbieter "ich gründe und verschwinde" lautet. Hier die zehn häufigsten Fehler, ihre tatsächlichen Kosten und wie sie zu beheben sind.
+
+## Warum Ihnen das niemand erklärt hat
+
+LLC-Gründung ist zu einem billigen, schnellen Produkt geworden: Sie zahlen, erhalten Articles of Organization und EIN, und die Beziehung endet. Was **nicht verkauft** wird, ist die laufende Verwaltung: jährliche Compliance, grenzüberschreitende Besteuerung, Banking, automatisches Reporting und Koordination mit Ihrem Wohnsitzland.
+
+Ergebnis: Tausende LLC-Inhaber operieren im Glauben, alles richtig zu machen, während sie still Verbindlichkeiten anhäufen. Niemand hat es erklärt, weil es nicht zum gekauften Produkt gehörte.
+## Die 10 kritischen Fehler, die wir wöchentlich sehen
+
+### Fehler 1. "LLC = 0 % Steuer" überall
+
+Eine Single-Member LLC eines Nicht-Residenten zahlt **keine US-Bundeseinkommensteuer** auf Einkünfte ohne effektive Verbindung zu den USA. So weit korrekt. Der Fehler ist anzunehmen, dass das auch heißt, **Sie** zahlten zuhause nichts.
+
+Realität: Sind Sie steuerlich ansässig in Deutschland, Österreich, der Schweiz, Spanien oder fast jedem europäischen Land, werden die LLC-Einkünfte Ihrer persönlichen Erklärung zugerechnet. Sie nicht zu deklarieren ist keine "Optimierung", sondern **Unterlassung**, und mit CRS/DAC live aktuell kommt sie ans Licht.
+
+**Typische Folge:** mehrjährige Nacherklärung + Zuschläge + Zinsen + wahrscheinliche Steuersanktion.
+
+### Fehler 2. Form 5472 nicht einreichen (oder gar nicht kennen)
+
+Sind Sie Nicht-Resident mit Single-Member LLC und gab es irgendeine Bewegung zwischen Ihnen und der LLC (Entnahmen, Einlagen, Zahlungen), müssen Sie **Form 5472 + pro-forma Form 1120 jährlich** einreichen. Keine Ausnahmen für das typische Profil.
+
+Viele Mandanten kennen das Formular nicht einmal. Grundsanktion bei Nichtabgabe: **25.000 USD pro Formular und Jahr**, kumulativ.
+
+**Typische Folge:** 25k × 3-5 Jahre = 75.000 bis 125.000 USD potenzielle Sanktionen, bevor wir Ihre tatsächliche Aktivität anschauen. Details im <a href="/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es">Form-5472-Leitfaden</a>.
+
+### Fehler 3. BOI Report überspringen oder nicht aktualisieren
+
+Der **Beneficial Ownership Information Report** an <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> ist seit Januar 2024 verpflichtend. Und es ist keine einmalige Einreichung: Jede Änderung (Adresse, Ausweis, Berechtigter) erfordert Aktualisierung in 30 Tagen.
+
+**Typische Folge:** bis zu **591 USD pro Tag Verzug** plus strafrechtliche Sanktionen in schweren Fällen.
+
+### Fehler 4. Privatkonto und LLC vermischen
+
+Häufigster und langfristig gefährlichster Fehler. Kassieren Sie LLC-Rechnungen auf Ihr Privatkonto oder zahlen Privates mit der LLC-Karte, **brechen Sie den Corporate Veil**. Vermögenstrennung weg, LLC schützt nicht mehr.
+
+Zusätzlich wird Form 5472 zum Albtraum: Jede Bewegung zwischen Ihnen und der LLC muss dokumentiert und gemeldet werden. Mehr in <a href="/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist">privates und LLC-Geld trennen</a>.
+
+**Typische Folge:** Verlust des LLC-Schutzes + schlecht vorbereitetes Form 5472 + anfechtbare Rechnungen im lokalen Audit.
+
+### Fehler 5. Registered Agent oder Annual Report verfallen lassen
+
+Ihre LLC braucht einen **aktiven Registered Agent** und je nach Bundesstaat einen **Annual Report** oder eine **Franchise Tax**. Wenn Sie das laufen lassen, wird die LLC "delinquent" und dann **dissolved**.
+
+Was bedeutet "dissolved"? **Sie existiert rechtlich nicht mehr.** Jede mit ihrer EIN erstellte Rechnung ist exponiert. Reaktivierung kostet, in manchen Bundesstaaten verlieren Sie Namen oder Historie.
+
+**Typische Folge:** rechtlich anfechtbare Rechnungen, gefährdete Verträge, Reinstatement-Kosten 300-1.500 USD je Bundesstaat, und bei zu viel verstrichener Zeit Neugründung.
+
+### Fehler 6. LLC-Einkünfte im Wohnsitzland nicht erklären
+
+In Deutschland, Österreich und der Schweiz wird die LLC im Regelfall, abhängig von Struktur, als hybride oder transparente Einheit behandelt; die Einkünfte sind beim Gesellschafter zu erklären. Ähnliche Zurechnungsregeln gelten in den meisten EU-Ländern.
+
+Dem Steuerberater zu sagen "deklariere nichts, das wird in den USA besteuert" ist das Rezept für eine schmerzhafte Nacherklärung, sobald CRS/DAC-Abgleich kommt.
+
+**Typische Folge:** mehrjährige Nachveranlagung + Zuschlag + Zinsen + Sanktion.
+
+### Fehler 7. Falsche Steueransässigkeit bei Wise, Mercury oder Brokern
+
+Bei Kontoeröffnung bei Wise, Mercury, Relay oder Interactive Brokers wird Ihre **Steueransässigkeit** abgefragt. Falsche Angabe (vorsätzlich oder aus Unkenntnis) führt dazu, dass der CRS-Report ans falsche Land geht, oder gar nicht.
+
+Beim Datenabgleich Jahre später wird eine **automatische Inkohärenz** ausgelöst: Ihr Wohnsitzland erkennt nicht deklarierte Auslandskonten.
+
+**Typische Folge:** automatische Meldung ans Finanzamt + Verfahrenseröffnung + spezifische Sanktion für nicht deklarierte Auslandsvermögen.
+
+### Fehler 8. LLC mit Krypto vermischen ohne CRS/DAC8 zu verstehen
+
+Wenn Sie Krypto über zentrale Exchanges handeln (Coinbase, Kraken, Binance), tritt aktuell **DAC8** in Kraft und erweitert das CRS-Modell auf Krypto-Assets. Exchanges melden automatisch an Ihr Finanzamt.
+
+Wenn Sie zudem Krypto über die LLC kanalisieren und mit Self-Custody mischen, wird die Kette steuerbarer Ereignisse extrem schwer zu rekonstruieren. Die Folge schlechter Dokumentation: **Besteuerung auf Brutto** ohne Anschaffungskosten abzuziehen.
+
+**Typische Folge:** Veranlagung auf Bruttobetrag + Bußgelder + Stunden Buchhaltungsrekonstruktion zu Kanzleisätzen.
+
+### Fehler 9. Kein unterzeichnetes Operating Agreement
+
+Das **Operating Agreement** ist das interne Governance-Dokument der LLC: wer entscheidet, wie Gewinne verteilt werden, was bei neuem Mitglied passiert. Es wird in keinem öffentlichen Register hinterlegt, ist aber **unverzichtbar**: Mercury verlangt es, Stripe fordert es, in jedem Streit oder Erbfall ist es das zentrale Beweisstück.
+
+**Typische Folge:** Probleme bei Kontoeröffnung, blockierte Zahlungs-Processoren, kein juristischer Schutz bei internen Konflikten oder Erbschaft.
+
+### Fehler 10. Foren und Social Media statt verifizierter Daten vertrauen
+
+"Auf YouTube hieß es, mit LLC wird nichts gemeldet", "auf Reddit las ich, 5472 sei optional", "in einer Telegram-Gruppe sagten sie, CRS gelte nicht für die USA". Wir hören das jede Woche.
+
+Realität aktuell: CRS aktiv, DAC7 meldet digitale Plattformen, DAC8 meldet Krypto, USA haben bilaterales FATCA mit den meisten Ländern, US-Banken melden ebenfalls Berechtigte. **Mit veralteten Informationen zu operieren ist der schnellste Weg in Schwierigkeiten.**
+
+**Typische Folge:** Jahre ruhig operieren, bis der erste abgeglichene Brief kommt. Ab da Nacherklärung mit dem vollen Gewicht der akkumulierten Kosten.
+### Was jeder Fehler kostet
+
+| Fehler | Geschätzte Sanktion/Kosten |
+|---|---|
+| Form 5472 nicht eingereicht | 25.000 USD pro Formular pro Jahr (kumulativ) |
+| BOI Report nicht aktualisiert | Bis zu 591 USD/Tag + strafrechtliche Sanktionen |
+| LLC in Status dissolved | Reaktivierung 300-1.500 USD + anfechtbare Rechnungen |
+| LLC-Einkünfte nicht deklariert | Steuer + 50-150 % Zuschlag + Zinsen |
+| Nicht deklarierte Auslandskonten | Spezifische Sanktion + Steuer |
+| Krypto undokumentiert (DAC8) | Brutto-Besteuerung ohne Anschaffungskosten |
+| Privates und LLC-Geld vermischt | Verlust des LLC-Schutzes |
+| Kein Operating Agreement | Banken/Processoren blockieren; kein interner Schutz |
+
+Das ist keine Panikmache. Das sind Situationen, die wir bei Exentax monatlich mit Mandanten in Bereinigung abschließen.
+### Was heute zu tun ist (nicht morgen)
+
+Wenn Sie sich in einem oder mehreren Fehlern erkennen, ist die vernünftige Reihenfolge:
+
+1. **Reale Diagnose**: Jahr für Jahr, was wurde eingereicht, was nicht. Aktueller Status von LLC und Registered Agent. Konten und Plattformen mit deklarierter Steueransässigkeit.
+2. **Verspätete Einreichungen**: 5472, BOI und Annual Reports mit passender Strategie (voluntary disclosure, reasonable cause).
+3. **Operations neu ordnen**: sauberes LLC-Konto, echte Trennung vom Privaten, unterzeichnetes und gespeichertes Operating Agreement.
+4. **Koordination mit lokalem Berater**: betroffene Erklärungen vor dem CRS/DAC-Abgleich bereinigen.
+5. **Stabile Pflege**: <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren">Jahreskalender der Pflichten</a> und delegieren, was Sie nicht selbst kontrollieren können.
+
+Kernaussage: **Eine unregelmäßige Situation ist freiwillig korrigiert günstiger als bei Audit entdeckt.** Fast immer.
+### Wie man das von Anfang an vermeidet
+
+Die meisten Fehler entstehen nicht aus Dummheit, sondern aus **veralteter Information und fehlendem Follow-up**. Wenn Ihr LLC-Anbieter mit Ausstellung der EIN verschwand, ist die Lösung nicht ein neuer Anbieter, der ebenfalls verschwindet: Es ist jemand, der die gesamte Operation versteht.
+
+Bei Exentax decken wir den ganzen Zyklus ab: Struktur, Banking, Zahlungs-Processoren, Investment, Krypto wo zutreffend, jährliche <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>- und FinCEN-Compliance, Koordination mit Ihrem lokalen Berater. Wir gründen keine LLCs und verschwinden: wir verwalten sie.
+### Was Sie mitnehmen sollten
+
+Eine schlecht verwaltete LLC zu haben ist **teurer** als gar keine. Der Unterschied zwischen "in Ordnung" und "nicht in Ordnung" misst sich in vermeidbaren Sanktionen, Behördenstress und dem Verlust des LLC-Schutzes.
+
+Wenn Sie sich in drei oder mehr Fehlern erkennen, sind die Kosten des Stillstands höher als die der Überprüfung. **Wir prüfen sie mit Ihnen** in einer kostenlosen 30-minütigen Beratung: Diagnose, Reihenfolge, Priorität. Besser heute erkennen, als auf den Brief vom IRS oder Finanzamt zu warten.
+## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+
+### Nach Rechtsordnung
+
+- **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **DBA Spanien–USA.** Das Abkommen (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
+- **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
+
+Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
+
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+
+<!-- exentax:legal-refs-v1 -->
+## Rechtliche und regulatorische Quellen
+
+Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft sind. Hauptquellen zur Verifikation:
+
+- **USA.** Treas. Reg. §301.7701-3 (Entity Classification / *check-the-box*); IRC §882 (Steuer auf mit US-Geschäft effektiv verbundene Einkünfte Ausländer); IRC §871 (FDAP und Quellensteuer bei Nicht-Residenten); IRC §6038A und Treas. Reg. §1.6038A-2 (Form 5472 für *25% foreign-owned* und *foreign-owned disregarded entities*); IRC §7701(b) (Steuerwohnsitz, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report bei FinCEN).
+- **Spanien.** Gesetz 35/2006 (LIRPF), Artt. 8, 9 (Wohnsitz), 87 (Einkünftezurechnung), 91 (Hinzurechnungsbesteuerung natürliche Personen); Gesetz 27/2014 (LIS), Art. 100 (Hinzurechnungsbesteuerung Gesellschaften); Gesetz 58/2003 (LGT), Artt. 15 und 16; Gesetz 5/2022 (Sanktionsregime Modelo 720 nach EuGH C-788/19 vom 27.01.2022); RD 1065/2007 (Modelos 232 und 720); Anordnung HFP/887/2023 (Modelo 721 Krypto).
+- **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
+- **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
+- **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
+
+<!-- exentax:calc-cta-v1 -->
+> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+<!-- /exentax:calc-cta-v1 -->
+
+Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+
+<!-- exentax:bank-balance-v1 -->
+## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+
+- **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
+- **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay deinen Betrieb am Laufen.
+- **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn du Meta Ads, Google Ads oder SaaS-Abos verwaltest.
+- **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
+- **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+
+<!-- exentax:banking-facts-v1 -->
+## Bank- und Steuerfakten zur Präzisierung
+
+Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
+
+### Hinweise nach Anbieter
+
+- **Mercury** arbeitet mit mehreren bundesweit lizenzierten Partnerbanken mit **FDIC**-Deckung über Sweep-Netzwerk: hauptsächlich **Choice Financial Group** und **Evolve Bank & Trust**, sowie **Column N.A.** in einigen Altkonten. Mercury ist selbst keine Bank; es ist eine Fintech-Plattform, die durch diese Partnerbanken getragen wird. Wenn Mercury ein Konto schließt, wird der Saldo in der Regel **per Papierscheck an die hinterlegte Adresse des Kontoinhabers** zurückgesandt, was für Nicht-Residenten ein ernsthaftes operatives Problem darstellen kann; ein sekundäres Konto (Relay, Wise Business etc.) sollte als Reserve aktiv sein.
+- **Wise** bietet zwei klar getrennte Produkte: **Wise Personal** und **Wise Business**. Für eine LLC ist **Wise Business** zu eröffnen, nicht das persönliche Konto. Wichtige CRS-Nuance: Ein **Wise Business im Namen einer US-LLC liegt außerhalb des CRS**, weil Kontoinhaberin eine US-Entität ist und die USA kein CRS-Teilnehmer sind; die USD-Seite läuft über Wise US Inc. (FATCA-Perimeter, nicht CRS). Dagegen löst ein **Wise Personal, eröffnet von einer in Spanien** oder einem anderen CRS-Land steuerlich ansässigen Person, sehr wohl eine **CRS-Meldung über Wise Europe SA (Belgien)** zu dieser Person aus. Wise für die LLC zu öffnen bringt Sie nicht über die LLC ins CRS; ein separates Wise Personal auf Ihren Namen als in einem CRS-Land Ansässiger schon.
+- **Wallester** (Estland) ist ein europäisches Finanzinstitut mit EMI-/Karten-Emittentenlizenz. Seine europäischen IBAN-Konten **fallen unter den Gemeinsamen Meldestandard (CRS)** und lösen daher den automatischen Informationsaustausch an die Steuerverwaltung des Wohnsitzlands aus.
+- **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
+- **Revolut Business**: in Verbindung mit einer **US-LLC** läuft die übliche Konfiguration über Revolut Payments USA; europäische IBANs (litauisch, BE) **werden einer LLC nicht standardmäßig ausgegeben**, sie werden europäischen Kunden der europäischen Bank des Konzerns ausgegeben. Wird Ihnen ein europäischer IBAN angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
+- **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:legal-facts-v1 -->
+## Rechts- und Verfahrensfakten
+
+Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+
+### Kernpunkte
+
+- **BOI / Corporate Transparency Act.** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC fällt heute außerhalb dieser Pflicht**. Der Regelstatus kann erneut wechseln: **Bei Einreichung auf FinCEN.gov prüfen**. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren und Updates beobachten.
+- **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
+- **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+## Referenzen: Quellen zu Strukturen und Jurisdiktionen
+
+Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren auf offiziellen Quellen, aktualisiert bis aktuell:
+
+- **Vereinigte Staaten.** Delaware General Corporation Law und Limited Liability Company Act, Wyoming Limited Liability Company Act (Title 17, Chapter 29), IRS-Anleitung zum Form 5472 und IRC §7701 (Entitätsklassifikation).
+- **Andorra.** Llei 95/2010 de l'Impost sobre Societats (10% IS), Llei 5/2014 del IRPF und aktive/passive Aufenthaltsregelung der Govern d'Andorra.
+- **Estland.** Estnisches Einkommensteuergesetz (aufgeschobene Körperschaftsteuer auf ausgeschüttete Gewinne, 20/22%) und offizielle Dokumentation des e-Residency-Programms.
+- **Spanien.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, Art. 8-9 zur Ansässigkeit und Art. 100 zur Hinzurechnungsbesteuerung) sowie Sonderregelung für Zuzügler (Art. 93 LIRPF, "Beckham-Gesetz").
+- **OECD.** Pillar Two (GloBE) und OECD-Musterabkommen mit Kommentaren.
+
+Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansässigkeit des Inhabers und von der wirtschaftlichen Substanz der Tätigkeit ab; prüfen Sie Ihren konkreten Fall vor jeder strukturellen Entscheidung.
+
+<!-- exentax:cross-refs-v1 -->
+### Weiterführende Lektüre
+
+- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:overhaul-aktuell-v1 -->
+## Exentax-Update aktuell: Fehler-Radar
+
+Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen, folgen erkennbaren Mustern mit begrenzten Folgen bei früher Entdeckung:
+
+- **Vermischung privater und LLC-Mittel.** Ursache Nr. 1 für den Verlust der Haftungsbeschränkung (*piercing the corporate veil*). Jede Überweisung zwischen Konten braucht einen expliziten Verwendungszweck („Owner Draw aktuell-04", „Capital Contribution"). Mercury erlaubt Memos auf jedem Wire; immer nutzen.
+- **Ohne unterschriebenes Operating Agreement operieren.** Banken und Zahlungsdienstleister fordern es im wachsenden KYC seit Januar 2024. Ohne fehlt jeder dokumentarische Beleg interner Entscheidungen. Auch als SMLLC unterschreiben.
+- **BOI nicht aktualisieren, wenn einschlägig.** Foreign reporting company + Adress-/Dokumenten-/Beneficial-Owner-Änderung ohne Update binnen 30 Tagen: 591 USD/Tag. [das offizielle FinCEN-Portal für den BOI](https://boiefiling.fincen.gov) dauert 10 Minuten.
+- **5472 vergessen.** Teuerster Fehler: 25.000 USD pro Formular und Jahr. Häufigste Ursache: irgendeine Bewegung (Transfer zwischen Inhaber und LLC) ohne Wissen um die Pflicht.
+- **Veraltete Adresse beim Secretary of State.** IRS- und Staatspost geht verloren, Bußgelder häufen sich und kommen per Einschreiben an eine abgelaufene Adresse.
+
+### 30-Minuten-Triage
+
+1. Mercury öffnen, letzte 6 Monate prüfen: Transfers ohne Memo? Notieren.
+2. Letztes signiertes Operating Agreement suchen. Falls keines, heute unterschreiben.
+3. BOI bei FinCEN prüfen, falls Foreign Entity.
+4. Bestätigen, dass das letzte 5472 eingereicht wurde (sonst „nein" annehmen).
+
+### FAQ aktuell
+
+**Ohne Berater behebbar?** Operating Agreement und BOI ja. Verspätetes 5472 mit Berater wegen *reasonable cause*.
+
+**Am meisten unterschätzter Fehler?** Mittelherkunft bei Einlage nicht dokumentieren. In KYC-2. Runde dauert Sperre wochenlang.
+
+**Erkennt die IRS automatisch?** Zunehmend. Cross-Check 1099/1042-S/Form 5472/CRS ist aktuell stärker automatisiert als 2020.
+<!-- exentax:overhaul-aktuell-v1 end -->
+
+<!-- exentax:execution-v2 -->
+## Wie wir eine bereits gegründete LLC bei Exentax reparieren
+
+Über 70% der LLCs, die zur Prüfung kommen, haben dasselbe Profil: korrekt gegründet, aber binnen Monaten durch Vernachlässigung von BOI, 5472, Banking oder Operating Agreement gebrochen. Die Exentax-Methode setzt sie wieder zusammen, ohne neu zu gründen.
+
+- **12-Punkte-Diagnose**, die markiert, was überfällig ist, was per voluntary disclosure regularisiert werden kann und was vor der nächsten IRS-Mitteilung dringend ist.
+- **Regularisierung in der richtigen Reihenfolge**: zuerst Dokumentation, dann Banking, dann Steuern - nicht umgekehrt, weil das die Fristen sprengt.
+- **Kalender neu aufgesetzt**, mit den nächsten 12 Monaten verriegelt, damit die Lücke nicht wieder aufgeht.
+
+Wenn Ihre LLC Lücken hat und Sie die realen Kosten für deren Schließung kennen wollen, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten.
+<!-- /exentax:execution-v2 -->
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20Sie%20bereits%20eine%20US-LLC%20besitzen%2C%20ist%20dieser%20Artikel%20f%C3%BCr%20Sie%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+
+Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
+<!-- /exentax:cta-conv-v1 -->
+
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">150 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…nables | | No declarar ingresos LLC en tu país | Cuota + 50-150 % de recargo según infracc…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">50.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">70%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…# Cómo reparamos una LLC ya constituida en Exentax Más del 70% de las LLCs que recibimos p…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…es + posible sanción tributaria. ### Error 2. No presentar Form 5472 (o no saber que exist…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…rtaciones, pagos), estás obligado a presentar **Form 5472 + Form 1120 pro-forma cada año**…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…). ### Error 8. Mezclar la LLC con cripto sin entender CRS/DAC8 Si operas cripto a través …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…versiones de esto. Realidad actualmente: CRS está activo, DAC7 reporta plataformas digital…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

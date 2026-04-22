@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-04-22T09:27:26.226Z",
+  "methodology": "Lectura del glosario interno (docs/i18n-glossary.md, docs/audits/glossary-i18n.md) + barrido literal sobre los 6 bundles i18n.",
+  "summary": {
+    "total_terms": 14,
+    "total_variant_violations_in_locales": 1,
+    "glossary_lint_status": "PASS (0/0/0/0/0/0) según scripts/i18n-glossary-lint.ts en deep-audit 2026-04"
+  },
+  "glossary": [
+    {
+      "term_es": "LLC",
+      "canonical": {
+        "es": "LLC",
+        "en": "LLC",
+        "fr": "LLC",
+        "de": "LLC",
+        "pt": "LLC",
+        "ca": "LLC"
+      },
+      "forbidden_variants": [
+        "L.L.C.",
+        "Llc",
+        "L L C"
+      ]
+    },
+    {
+      "term_es": "EIN",
+      "canonical": {
+        "es": "EIN",
+        "en": "EIN",
+        "fr": "EIN",
+        "de": "EIN",
+        "pt": "EIN",
+        "ca": "EIN"
+      },
+      "forbidden_variants": [
+        "E.I.N.",
+        "Ein"
+      ]
+    },
+    {
+      "term_es": "ITIN",
+      "canonical": {
+        "es": "ITIN",
+        "en": "ITIN",
+        "fr": "ITIN",
+        "de": "ITIN",
+        "pt": "ITIN",
+        "ca": "ITIN"
+      },
+      "forbidden_variants": [
+        "I.T.I.N.",
+        "Itin"
+      ]
+    },
+    {
+      "term_es": "IRS",
+      "canonical": {
+        "es": "IRS",
+        "en": "IRS",
+        "fr": "IRS",
+        "de": "IRS",
+        "pt": "IRS",
+        "ca": "IRS"
+      },
+      "forbidden_variants": [
+        "I.R.S.",
+        "Irs"
+      ]
+    },
+    {
+      "term_es": "FinCEN",
+      "canonical": {
+        "es": "FinCEN",
+        "en": "FinCEN",
+        "fr": "FinCEN",
+        "de": "FinCEN",
+        "pt": "FinCEN",
+        "ca": "FinCEN"
+      },
+      "forbidden_variants": [
+        "Fincen",
+        "FINCEN",
+        "fincen"
+      ]
+    },
+    {
+      "term_es": "FATCA",
+      "canonical": {
+        "es": "FATCA",
+        "en": "FATCA",
+        "fr": "FATCA",
+        "de": "FATCA",
+        "pt": "FATCA",
+        "ca": "FATCA"
+      },
+      "forbidden_variants": [
+        "Fatca",
+        "fatca"
+      ]
+    },
+    {
+      "term_es": "BOI / BOIR",
+      "canonical": {
+        "es": "BOI / BOIR",
+        "en": "BOI / BOIR",
+        "fr": "BOI / BOIR",
+        "de": "BOI / BOIR",
+        "pt": "BOI / BOIR",
+        "ca": "BOI / BOIR"
+      },
+      "forbidden_variants": [
+        "Boi",
+        "Boir",
+        "BOIr"
+      ]
+    },
+    {
+      "term_es": "Form 5472",
+      "canonical": {
+        "es": "Form 5472",
+        "en": "Form 5472",
+        "fr": "Form 5472",
+        "de": "Form 5472",
+        "pt": "Form 5472",
+        "ca": "Form 5472"
+      },
+      "forbidden_variants": [
+        "form 5472",
+        "Form5472",
+        "F-5472"
+      ]
+    },
+    {
+      "term_es": "Form 1120",
+      "canonical": {
+        "es": "Form 1120",
+        "en": "Form 1120",
+        "fr": "Form 1120",
+        "de": "Form 1120",
+        "pt": "Form 1120",
+        "ca": "Form 1120"
+      },
+      "forbidden_variants": [
+        "form 1120",
+        "Form1120"
+      ]
+    },
+    {
+      "term_es": "W-8BEN / W-8BEN-E",
+      "canonical": {
+        "es": "W-8BEN / W-8BEN-E",
+        "en": "W-8BEN / W-8BEN-E",
+        "fr": "W-8BEN / W-8BEN-E",
+        "de": "W-8BEN / W-8BEN-E",
+        "pt": "W-8BEN / W-8BEN-E",
+        "ca": "W-8BEN / W-8BEN-E"
+      },
+      "forbidden_variants": [
+        "W8BEN",
+        "W 8 BEN",
+        "W-8 BEN"
+      ]
+    },
+    {
+      "term_es": "autónomo",
+      "canonical": {
+        "es": "autónomo",
+        "en": "self-employed (Spain) — keep «autónomo» when referring to the Spanish RETA scheme",
+        "fr": "travailleur indépendant / autónomo (RETA)",
+        "de": "Selbstständiger / Autónomo (RETA)",
+        "pt": "trabalhador autónomo / autónomo (RETA)",
+        "ca": "autònom"
+      },
+      "forbidden_variants": [
+        "autonomo (sin acento) en es/ca/pt"
+      ]
+    },
+    {
+      "term_es": "IRPF",
+      "canonical": {
+        "es": "IRPF",
+        "en": "IRPF (Spanish personal income tax)",
+        "fr": "IRPF (impôt sur le revenu espagnol)",
+        "de": "IRPF (spanische Einkommensteuer)",
+        "pt": "IRPF (imposto sobre o rendimento espanhol)",
+        "ca": "IRPF"
+      },
+      "forbidden_variants": [
+        "I.R.P.F.",
+        "Irpf"
+      ]
+    },
+    {
+      "term_es": "Registered Agent",
+      "canonical": {
+        "es": "Registered Agent",
+        "en": "Registered Agent",
+        "fr": "Registered Agent",
+        "de": "Registered Agent",
+        "pt": "Registered Agent",
+        "ca": "Registered Agent"
+      },
+      "forbidden_variants": [
+        "registered agent (minúsculas en titulares)",
+        "agente registrado (cuando se prefiere mantener anglicismo)"
+      ]
+    },
+    {
+      "term_es": "Operating Agreement",
+      "canonical": {
+        "es": "Operating Agreement",
+        "en": "Operating Agreement",
+        "fr": "Operating Agreement",
+        "de": "Operating Agreement",
+        "pt": "Operating Agreement",
+        "ca": "Operating Agreement"
+      },
+      "forbidden_variants": [
+        "operating agreement (minúsculas)"
+      ]
+    }
+  ],
+  "violations_in_locales": [
+    {
+      "term": "EIN",
+      "variant": "Ein",
+      "lang": "de",
+      "file": "exentax-web/client/src/i18n/locales/de.ts"
+    }
+  ]
+}

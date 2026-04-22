@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-04-22T09:27:26.275Z",
+  "methodology": "Inspección de client/index.html, client/src/components/SEO.tsx, longitud de seoTitle/metaTitle/metaDescription en bundles i18n y blog-i18n.",
+  "summary": {
+    "total_findings": 15,
+    "by_severity": {
+      "ok": 7,
+      "media": 3,
+      "informativo": 5
+    }
+  },
+  "findings": [
+    {
+      "page": "client/index.html (shell)",
+      "issue": "OK",
+      "severity": "ok",
+      "languages": [
+        "es",
+        "en",
+        "fr",
+        "de",
+        "pt",
+        "ca"
+      ],
+      "recommendation": "Verificar que <SEO> emita link[rel=alternate][hreflang] para las 6 lenguas + x-default en todas las páginas."
+    },
+    {
+      "page": "client/src/components/SEO.tsx",
+      "issue": "Componente <SEO> emite hreflang.",
+      "severity": "ok",
+      "languages": [
+        "es",
+        "en",
+        "fr",
+        "de",
+        "pt",
+        "ca"
+      ],
+      "recommendation": "Validar que se incluyan las 6 lenguas + x-default en cada página y que las URLs alternates apunten al equivalente real."
+    },
+    {
+      "page": "locales/es.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (32 car.; ideal 50-60)",
+      "severity": "ok",
+      "languages": [
+        "es"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "locales/en.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (30 car.; ideal 50-60)",
+      "severity": "ok",
+      "languages": [
+        "en"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "locales/fr.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (30 car.; ideal 50-60)",
+      "severity": "ok",
+      "languages": [
+        "fr"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "locales/de.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (41 car.; ideal 50-60)",
+      "severity": "ok",
+      "languages": [
+        "de"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "locales/pt.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (28 car.; ideal 50-60)",
+      "severity": "media",
+      "languages": [
+        "pt"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "locales/ca.ts (legal.terminos.seoTitle muestra)",
+      "issue": "seoTitle corto (29 car.; ideal 50-60)",
+      "severity": "media",
+      "languages": [
+        "ca"
+      ],
+      "recommendation": "Mantener seoTitle entre 50-60 caracteres por idioma (puede variar al traducir)."
+    },
+    {
+      "page": "client/src/data/blog-i18n/en.ts (blog metas, 111 artículos)",
+      "issue": "metaTitle: max=58 car. (0 > 60, 0 < 30) | metaDescription: max=150 car. (0 > 160, 11 < 120 car.)",
+      "severity": "informativo",
+      "languages": [
+        "en"
+      ],
+      "recommendation": "Aprovechar mejor el espacio: 11 metaDescription < 120 car. en en dejan «aire» en el SERP. Recomendable extender hacia 140-155 car. para captar más CTR.",
+      "evidence": {
+        "titles_count": 111,
+        "max_title_len": 58,
+        "max_desc_len": 150,
+        "long_titles": 0,
+        "short_titles": 0,
+        "long_descs": 0,
+        "short_descs": 11
+      }
+    },
+    {
+      "page": "client/src/data/blog-i18n/fr.ts (blog metas, 111 artículos)",
+      "issue": "metaTitle: max=60 car. (0 > 60, 0 < 30) | metaDescription: max=150 car. (0 > 160, 24 < 120 car.)",
+      "severity": "informativo",
+      "languages": [
+        "fr"
+      ],
+      "recommendation": "Aprovechar mejor el espacio: 24 metaDescription < 120 car. en fr dejan «aire» en el SERP. Recomendable extender hacia 140-155 car. para captar más CTR.",
+      "evidence": {
+        "titles_count": 111,
+        "max_title_len": 60,
+        "max_desc_len": 150,
+        "long_titles": 0,
+        "short_titles": 0,
+        "long_descs": 0,
+        "short_descs": 24
+      }
+    },
+    {
+      "page": "client/src/data/blog-i18n/de.ts (blog metas, 111 artículos)",
+      "issue": "metaTitle: max=58 car. (0 > 60, 0 < 30) | metaDescription: max=150 car. (0 > 160, 45 < 120 car.)",
+      "severity": "informativo",
+      "languages": [
+        "de"
+      ],
+      "recommendation": "Aprovechar mejor el espacio: 45 metaDescription < 120 car. en de dejan «aire» en el SERP. Recomendable extender hacia 140-155 car. para captar más CTR.",
+      "evidence": {
+        "titles_count": 111,
+        "max_title_len": 58,
+        "max_desc_len": 150,
+        "long_titles": 0,
+        "short_titles": 0,
+        "long_descs": 0,
+        "short_descs": 45
+      }
+    },
+    {
+      "page": "client/src/data/blog-i18n/pt.ts (blog metas, 111 artículos)",
+      "issue": "metaTitle: max=60 car. (0 > 60, 0 < 30) | metaDescription: max=149 car. (0 > 160, 53 < 120 car.)",
+      "severity": "informativo",
+      "languages": [
+        "pt"
+      ],
+      "recommendation": "Aprovechar mejor el espacio: 53 metaDescription < 120 car. en pt dejan «aire» en el SERP. Recomendable extender hacia 140-155 car. para captar más CTR.",
+      "evidence": {
+        "titles_count": 111,
+        "max_title_len": 60,
+        "max_desc_len": 149,
+        "long_titles": 0,
+        "short_titles": 0,
+        "long_descs": 0,
+        "short_descs": 53
+      }
+    },
+    {
+      "page": "client/src/data/blog-i18n/ca.ts (blog metas, 111 artículos)",
+      "issue": "metaTitle: max=58 car. (0 > 60, 0 < 30) | metaDescription: max=150 car. (0 > 160, 53 < 120 car.)",
+      "severity": "informativo",
+      "languages": [
+        "ca"
+      ],
+      "recommendation": "Aprovechar mejor el espacio: 53 metaDescription < 120 car. en ca dejan «aire» en el SERP. Recomendable extender hacia 140-155 car. para captar más CTR.",
+      "evidence": {
+        "titles_count": 111,
+        "max_title_len": 58,
+        "max_desc_len": 150,
+        "long_titles": 0,
+        "short_titles": 0,
+        "long_descs": 0,
+        "short_descs": 53
+      }
+    },
+    {
+      "page": "client/src/pages/home.tsx",
+      "issue": "Home emite JSON-LD",
+      "severity": "ok",
+      "languages": [
+        "es",
+        "en",
+        "fr",
+        "de",
+        "pt",
+        "ca"
+      ],
+      "recommendation": "Mantener Schema.org (WebPage, Service, ItemList) y verificar que las traducciones de claves homePage.jsonLd.* sean completas."
+    },
+    {
+      "page": "(global)",
+      "issue": "No se ha verificado en esta auditoría que cada slug del blog tenga las 6 alternates URL apuntando a versiones realmente publicadas.",
+      "severity": "media",
+      "languages": [
+        "es",
+        "en",
+        "fr",
+        "de",
+        "pt",
+        "ca"
+      ],
+      "recommendation": "Ejecutar `node scripts/seo-sitemap-check.mjs` y `node scripts/seo-related-validate.mjs` para garantizar que el sitemap multiidioma incluye las 6 variantes por slug."
+    }
+  ]
+}

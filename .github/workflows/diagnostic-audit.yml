@@ -1,0 +1,167 @@
+name: Diagnostic audit (routes / components / Discord / emails)
+
+# Runs the cross-cutting diagnostic audit script against a freshly
+# booted dev server. It crawls every localized route declared in
+# `shared/routes.ts`, parses sitemap.xml, scans React components for
+# missing data-testid / i18n issues, inspects the Discord notification
+# layer, and checks the email templates for spam triggers and broken
+# links.
+#
+# The job fails when any of the following regressions appear:
+#   - a route returns 404 or a 5xx
+#   - sitemap.xml exposes URLs that do not resolve to a known page
+#   - email templates regain spam-trigger words
+#   - email templates contain localhost / unresolved-template links
+#   - Discord EVENT_TYPES gain orphan entries (no notify* wrapper)
+#   - internal nav (Navbar / Footer) links come back broken
+#
+# Soft warnings (sitemap drift, untested Discord events, http:// links)
+# are surfaced but do not block the build. Resulting JSON reports +
+# RESUMEN.md are uploaded as a build artifact for inspection.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  diagnostic-audit:
+    name: Routes / components / Discord / emails audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: exentax
+          POSTGRES_PASSWORD: exentax
+          POSTGRES_DB: exentax_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U exentax -d exentax_ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+
+    env:
+      DATABASE_URL: postgres://exentax:exentax@localhost:5432/exentax_ci
+      NODE_ENV: development
+      PORT: "5000"
+      AUDIT_BASE_URL: http://127.0.0.1:5000
+      # Disable the in-process indexing audit so the dev server boots
+      # without spawning extra child processes that could race the audit.
+      INDEXING_AUDIT_DISABLE: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Bootstrap database schema
+        run: |
+          # The dev server requires DATABASE_URL to be a real Postgres
+          # instance, so push the @shared/schema.ts tables into the
+          # ephemeral CI database before booting it.
+          cat > drizzle.config.ts <<'EOF'
+          import { defineConfig } from "drizzle-kit";
+          export default defineConfig({
+            schema: "./shared/schema.ts",
+            out: "./.drizzle-ci",
+            dialect: "postgresql",
+            dbCredentials: { url: process.env.DATABASE_URL! },
+            strict: false,
+            verbose: false,
+          });
+          EOF
+          npx drizzle-kit push --force
+          rm -f drizzle.config.ts
+          rm -rf .drizzle-ci
+
+      - name: Start dev server
+        run: |
+          mkdir -p .ci-logs
+          nohup npm run dev > .ci-logs/server.log 2>&1 &
+          echo $! > .ci-logs/server.pid
+          echo "Started dev server with PID $(cat .ci-logs/server.pid)"
+
+      - name: Wait for sitemap.xml to respond
+        run: |
+          for i in $(seq 1 60); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "${AUDIT_BASE_URL}/sitemap.xml" || true)
+            if [ "$code" = "200" ]; then
+              echo "Server ready after ${i}s (sitemap.xml -> 200)."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::Dev server did not respond at ${AUDIT_BASE_URL}/sitemap.xml after 120s"
+          echo "── server.log (tail) ──"
+          tail -n 200 .ci-logs/server.log || true
+          exit 1
+
+      - name: Run diagnostic audit
+        run: node scripts/auditoria-rutas-componentes-discord-emails.mjs all
+
+      - name: Verify hreflang BCP-47 region tags (static + live sitemaps)
+        env:
+          BASE_URL: http://127.0.0.1:5000
+        run: node scripts/seo-sitemap-bcp47.test.mjs
+
+      - name: Enforce regression gates
+        id: gate
+        run: node scripts/auditoria-ci-gate.mjs
+
+      - name: Notify Discord on audit failure
+        # Solo dispara cuando el gate de regresión falla explícitamente
+        # (no por fallos de boot del server u otros pasos previos), y
+        # solo en push a main. PRs no notifican para evitar spam.
+        if: always() && steps.gate.outcome == 'failure' && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+        run: node scripts/auditoria-ci-notify-discord.mjs
+
+      - name: Stop dev server
+        if: always()
+        run: |
+          if [ -f .ci-logs/server.pid ]; then
+            pid=$(cat .ci-logs/server.pid)
+            if kill -0 "$pid" 2>/dev/null; then
+              kill "$pid" || true
+              sleep 2
+              kill -9 "$pid" 2>/dev/null || true
+            fi
+          fi
+
+      - name: Upload diagnostic audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-audit-reports
+          path: |
+            exentax-web/docs/auditoria-2026-04/*.json
+            exentax-web/docs/auditoria-2026-04/RESUMEN.md
+            exentax-web/.ci-logs/server.log
+          if-no-files-found: warn
+          retention-days: 30

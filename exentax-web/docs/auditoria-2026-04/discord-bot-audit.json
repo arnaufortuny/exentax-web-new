@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-04-22T09:02:57.169Z",
+  "files": {
+    "server/discord.ts": 1613,
+    "server/discord-bot.ts": 387,
+    "server/discord-bot-commands.ts": 863
+  },
+  "eventCatalog": [
+    {
+      "constant": "BOOKING_CREATED",
+      "value": "booking_created"
+    },
+    {
+      "constant": "BOOKING_RESCHEDULED",
+      "value": "booking_rescheduled"
+    },
+    {
+      "constant": "BOOKING_CANCELLED",
+      "value": "booking_cancelled"
+    },
+    {
+      "constant": "BOOKING_NO_SHOW",
+      "value": "booking_no_show"
+    },
+    {
+      "constant": "LEAD_NEW",
+      "value": "lead_new"
+    },
+    {
+      "constant": "LEAD_CALCULATOR",
+      "value": "lead_calculator"
+    },
+    {
+      "constant": "LEAD_NEWSLETTER",
+      "value": "lead_newsletter"
+    },
+    {
+      "constant": "CONSENT_LOGGED",
+      "value": "consent_logged"
+    },
+    {
+      "constant": "USER_ACTIVITY",
+      "value": "user_activity"
+    },
+    {
+      "constant": "VALIDATION_FAILED",
+      "value": "validation_failed"
+    },
+    {
+      "constant": "SYSTEM_ERROR",
+      "value": "system_error"
+    },
+    {
+      "constant": "SEO_INDEXING",
+      "value": "seo_indexing"
+    },
+    {
+      "constant": "ADMIN_ACTION",
+      "value": "admin_action"
+    }
+  ],
+  "channelRouting": {
+    "booking_created": "agenda",
+    "booking_rescheduled": "agenda",
+    "booking_cancelled": "agenda",
+    "booking_no_show": "agenda",
+    "lead_new": "registros",
+    "lead_calculator": "calculadora",
+    "lead_newsletter": "registros",
+    "consent_logged": "consentimientos",
+    "user_activity": "actividad",
+    "validation_failed": "errores",
+    "system_error": "errores",
+    "seo_indexing": "errores",
+    "admin_action": "auditoria"
+  },
+  "notifyFunctions": [
+    "notifyEvent",
+    "notifyBookingCreated",
+    "notifyBookingRescheduled",
+    "notifyBookingCancelled",
+    "notifyNoShow",
+    "notifyCalculatorLead",
+    "notifyNewsletterSubscribe",
+    "notifyNewLead",
+    "notifyWebVisit",
+    "notifyConsent",
+    "notifyValidationFailed",
+    "notifyCriticalError",
+    "notifySeoIndexing",
+    "notifyAdminAction"
+  ],
+  "eventsUsedByNotifyFns": [
+    "BOOKING_CREATED",
+    "BOOKING_RESCHEDULED",
+    "BOOKING_CANCELLED",
+    "BOOKING_NO_SHOW",
+    "LEAD_CALCULATOR",
+    "LEAD_NEWSLETTER",
+    "LEAD_NEW",
+    "USER_ACTIVITY",
+    "CONSENT_LOGGED",
+    "VALIDATION_FAILED",
+    "SYSTEM_ERROR",
+    "SEO_INDEXING",
+    "ADMIN_ACTION"
+  ],
+  "orphanEvents": [],
+  "untestedEvents": [
+    "BOOKING_CREATED",
+    "BOOKING_RESCHEDULED",
+    "BOOKING_CANCELLED",
+    "BOOKING_NO_SHOW",
+    "LEAD_NEW",
+    "LEAD_CALCULATOR",
+    "LEAD_NEWSLETTER",
+    "CONSENT_LOGGED",
+    "USER_ACTIVITY",
+    "VALIDATION_FAILED",
+    "SYSTEM_ERROR",
+    "SEO_INDEXING",
+    "ADMIN_ACTION"
+  ],
+  "retryConfig": {
+    "maxRetries": 3,
+    "drainIntervalMs": 1500,
+    "backoff": "exponential (DRAIN_INTERVAL_MS * 2^attempt, capped 30s)",
+    "retryableConditions": [
+      "HTTP 429",
+      "HTTP 5xx",
+      "network error"
+    ]
+  },
+  "rateLimit": {
+    "note": "Discord enforces 5 req/sec/webhook; client backoff via setTimeout-driven queue with DRAIN_INTERVAL_MS.",
+    "rateLimitMentions": 1,
+    "drainIntervalMs": 1500
+  },
+  "referencedEnvVars": [
+    "ADMIN_DISCORD_ROLE_ID",
+    "DISCORD_APP_ID",
+    "DISCORD_BOT_TOKEN",
+    "DISCORD_PUBLIC_KEY",
+    "NODE_ENV"
+  ],
+  "discordRelatedEnvVars": [
+    "DISCORD_BOT_TOKEN",
+    "DISCORD_PUBLIC_KEY",
+    "DISCORD_APP_ID",
+    "ADMIN_DISCORD_ROLE_ID"
+  ],
+  "presentEnvVars": [],
+  "missingEnvVars": [
+    "DISCORD_BOT_TOKEN",
+    "DISCORD_PUBLIC_KEY",
+    "DISCORD_APP_ID",
+    "ADMIN_DISCORD_ROLE_ID"
+  ],
+  "embedIssues": [
+    {
+      "fn": "notifyEvent",
+      "issue": "no title"
+    },
+    {
+      "fn": "notifyEvent",
+      "issue": "no fields array"
+    }
+  ],
+  "tests": {
+    "total": 1,
+    "files": [
+      "tests/discord-no-token-leak.test.ts"
+    ],
+    "eventsCovered": []
+  }
+}

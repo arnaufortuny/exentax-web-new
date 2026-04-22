@@ -1,0 +1,69 @@
+{
+  "audit": "componentes-audit",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "inventario": {
+    "componentes_top": ["SEO", "Layout", "Navbar", "NavbarFunnel", "Footer", "FloatingMobileCTA", "FloatingWhatsApp", "ThemeProvider", "Tracking", "BookingCalendar", "PhoneInput", "InlineMessage", "CookieBanner", "LanguageSwitcher", "FlagImg", "CountryFlagImg"],
+    "secciones": ["Hero", "HeroStats", "WhyUs", "ForWho", "HowItWorks", "Origin", "Problem", "Services", "Testimonials", "BanksCarousel", "FAQ", "HomeFAQ", "AccordionItem", "FaqAccordionList", "ExistingLlcCallout"],
+    "blog": ["AiSummaryButtons", "ArticleCTA", "CategoryBadge", "CountryDropdown"],
+    "calculator": ["index", "AnimatedNumber", "BrandIcons", "CalculatorResults", "EmailGateForm", "IrpfBracketsTable"],
+    "hooks": ["useCountUp", "useInlineMessage", "useLangPath", "useReveal", "useScrolled", "useStats"]
+  },
+  "tipado": {
+    "strict": true,
+    "props_tipadas": "Todos los componentes inspeccionados usan interfaces TS o tipos inline. SEO.tsx, ServiceSubpage.tsx, post.tsx con interfaces explicitas."
+  },
+  "issues": [
+    {
+      "id": "CO-001",
+      "hallazgo": "Listas con key={i} o key={idx}: Testimonials.tsx, about-llc.tsx, ServiceSubpage.tsx (varios usos en parrafos generados desde markdown/i18n).",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Reemplazar por key estable (ej. testimonio.id, slug, hash de texto). Actualmente las listas son estaticas, asi que no causan bugs, pero conviene normalizar."
+    },
+    {
+      "id": "CO-002",
+      "hallazgo": "Uso correcto de data-testid en componentes interactivos clave (button-reload, ServiceSubpage tracking keys).",
+      "prioridad": "alta",
+      "estado": "verificado_parcial",
+      "accion": "Cubierto por tarea separada 'Aplicar correcciones derivadas de la auditoria 2026-04 (data-testid + lazy loading)'."
+    },
+    {
+      "id": "CO-003",
+      "hallazgo": "Accesibilidad: buttons del banner de cookies, navbar y CTAs flotantes con aria-label / role apropiados (verificacion visual).",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Pasar axe-core en CI. Anadir aria-label faltantes (FloatingWhatsApp si tiene solo icono)."
+    },
+    {
+      "id": "CO-004",
+      "hallazgo": "Componentes reutilizables sin logica duplicada significativa. AccordionItem usado por FAQ, HomeFAQ, FaqAccordionList.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "CO-005",
+      "hallazgo": "Estilos: tailwind unificado; design tokens en index.css (CSS vars HSL). Modo oscuro definido.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "CO-006",
+      "hallazgo": "ThemeProvider y CookieBanner inicializados en Layout.tsx; sin race conditions con SSR (verificado por absence de hydration warnings).",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "CO-007",
+      "hallazgo": "PhoneInput y BookingCalendar son los componentes mas complejos: bien aislados, con pruebas e2e en scripts/run-booking-e2e.ts y scripts/run-newsletter-e2e.ts.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    }
+  ],
+  "resumen": {
+    "issues_pendientes": 2,
+    "issues_verificados": 4,
+    "issues_cubiertos_por_otras_tareas": 1,
+    "estado_general": "componentes maduros, tipados y reutilizables; pendiente normalizar keys y completar accesibilidad"
+  }
+}

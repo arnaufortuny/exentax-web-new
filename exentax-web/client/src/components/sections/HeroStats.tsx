@@ -1,0 +1,84 @@
+import { useRef } from "react";
+import { useCountUp } from "@/hooks/useCountUp";
+import { useStatsHome as _useStatsHome, type StatDef } from "@/hooks/useStats";
+export { useStatsHome, useStatsPrecios } from "@/hooks/useStats";
+
+function fmtCount(n: number): string {
+  return n >= 1000 ? n.toLocaleString() : String(n);
+}
+
+function StatCard({ value, suffix, prefix, label, target, duration, href, decimals }: StatDef) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { count, ref: countRef } = useCountUp(target ?? 0, duration ?? 1400);
+
+  const displayed = value ?? (decimals ? (count / 10).toFixed(1) : fmtCount(count));
+  const isGold = suffix === "★";
+
+  const inner = (
+    <div className="flex flex-col items-center text-center group">
+      <span
+        className="font-heading font-extrabold leading-none tracking-tight mb-1.5"
+        style={{ fontSize: "clamp(30px, 5vw, 44px)", color: isGold ? "#FFD700" : "#00E510" }}
+      >
+        {prefix}{displayed}{suffix}
+      </span>
+      <span className="font-body text-[12px] sm:text-[13px] text-[var(--text-2)] font-medium leading-snug max-w-[160px]">
+        {label}
+      </span>
+    </div>
+  );
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        ref={(el) => {
+          (containerRef as React.MutableRefObject<HTMLElement | null>).current = el;
+          (countRef as React.MutableRefObject<HTMLElement | null>).current = el;
+        }}
+        className="hover:scale-[1.03] transition-transform duration-200 block"
+        data-testid={`stat-${label.toLowerCase().replace(/\s+/g, "-")}`}
+      >
+        {inner}
+      </a>
+    );
+  }
+
+  return (
+    <div
+      ref={(el) => {
+        (containerRef as React.MutableRefObject<HTMLDivElement | null>).current = el;
+        (countRef as React.MutableRefObject<HTMLElement | null>).current = el;
+      }}
+      data-testid={`stat-${label.toLowerCase().replace(/\s+/g, "-")}`}
+    >
+      {inner}
+    </div>
+  );
+}
+
+export default function HeroStats({
+  align = "center",
+  stats,
+}: {
+  align?: "left" | "center";
+  stats?: StatDef[];
+}) {
+  const defaultStats = _useStatsHome();
+  const finalStats = stats ?? defaultStats;
+
+  return (
+    <div
+      className={`grid grid-cols-3 gap-3 sm:gap-4 w-full ${
+        align === "left" ? "max-w-[520px] mx-auto lg:mx-0" : "max-w-[520px] mx-auto"
+      }`}
+      data-testid="hero-stats"
+    >
+      {finalStats.map((s) => (
+        <StatCard key={s.label} {...s} />
+      ))}
+    </div>
+  );
+}

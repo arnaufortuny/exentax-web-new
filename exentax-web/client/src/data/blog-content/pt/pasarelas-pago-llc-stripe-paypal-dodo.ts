@@ -1,0 +1,195 @@
+export default `Quem já tentou Stripe Portugal ou PayPal Business local num SaaS B2B global conhece o teto: retenções em cada pagamento não-EUR, rolling reserve, KYC repetido e comissões que comem a margem. Stripe US sob LLC muda a paisagem por completo, desde que não se cometa os três erros clássicos de configuração.
+
+## Stripe
+
+Stripe é a plataforma de pagamento preferida por startups, SaaS e negócios digitais. Com a sua LLC pode aceder ao **Stripe US**: a versão mais completa.
+
+### Vantagens
+- Aceita mais de 135 moedas
+- Checkout embutido, links de pagamento, faturação automática
+- API poderosa para integrações personalizadas
+- Assinaturas e pagamentos recorrentes
+- Dashboard completo com analytics
+
+### Comissões
+- **2.9% + $0.30** por transação doméstica (cartão US)
+- **3.9% + $0.30** por transação internacional
+- Sem custos mensais fixos
+
+### Ideal para
+Negócios digitais, SaaS, freelancers com volume, marketplaces
+### PayPal Business
+
+PayPal continua a ser a plataforma mais reconhecida pelos consumidores. Com a sua LLC, acede ao **PayPal Business US** sem as restrições de contas pessoais ou de países com limitações.
+
+### Vantagens
+- Reconhecimento de marca, os clientes confiam no PayPal
+- Checkout, botões de pagamento, assinaturas, faturação
+- Proteção ao vendedor incluída
+- Integração fácil com a maioria das plataformas
+
+### Comissões
+- **2.99% + $0.49** por transação doméstica
+- **4.49% + $0.49** por transação internacional
+- Sem custos mensais para o plano standard
+
+### Ideal para
+Freelancers que trabalham com clientes que preferem PayPal, serviços B2B
+### Adyen
+
+### Vantagens
+- Processamento unificado: aquisição, gateway e gestão de risco numa única plataforma
+- Métodos de pagamento locais (iDEAL, Bancontact, Boleto, OXXO...)
+- Analítica avançada e gestão de fraude
+- Alimenta os links de pagamento do Relay. se usas Relay como conta bancária, os teus links de faturação são processados via Adyen
+
+### Ideal para
+Empresas com volume significativo, marketplaces, e-commerce enterprise
+## Dodo Payments
+
+**Dodo Payments** é uma alternativa emergente pensada para negócios digitais que vendem a nível global. A sua proposta é simplificar o cumprimento fiscal internacional.
+
+### Vantagens
+- Merchant of Record. Dodo encarrega-se do IVA/GST internacional
+- Checkout otimizado para conversão
+- Suporta múltiplos métodos de pagamento globais
+- Ideal para venda de produtos digitais
+
+### Ideal para
+Criadores digitais, SaaS com clientes globais, venda de cursos ou software
+### Comparação rápida
+
+| Plataforma | Comissão US | Comissão internacional | Melhor para |
+|---|---|---|---|
+| Stripe | 2.9% + $0.30 | 3.9% + $0.30 | SaaS, produtos digitais |
+| PayPal | 2.99% + $0.49 | 4.49% + $0.49 | Freelancers, B2B |
+| Dodo Payments | Variável | Variável | Vendas globais com IVA |
+### Posso usar várias ao mesmo tempo?
+
+Sim, e na verdade é recomendável. Muitos negócios usam:
+
+- **Stripe** como plataforma principal (checkout, assinaturas)
+- **PayPal** como alternativa para clientes que o preferem
+- **Wise Business** para faturas com pagamento por transferência
+
+Todas podem ser ligadas à mesma conta bancária da LLC no Mercury (que tem $0 em comissões de wire, já agora).
+### Lili
+
+**Lili** é um neobanco (fintech com licença bancária) desenhado especificamente para freelancers e pequenos negócios. Não é uma plataforma de pagamentos. é um banco digital completo que combina conta corrente, ferramentas de contabilidade e faturação numa só plataforma.
+
+### Vantagens
+- Conta bancária completa com licença bancária (não é uma EMI)
+- Ferramentas de contabilidade e categorização automática de despesas integradas
+- Preparação de impostos simplificada
+- Desenhada especificamente para freelancers e small businesses
+
+### Ideal para
+Freelancers que querem uma solução tudo-em-um de banking e contabilidade sem se complicar com múltiplas ferramentas.
+### Comparação alargada
+
+| Plataforma | Comissão US | Comissão internacional | Melhor para |
+|---|---|---|---|
+| Stripe | 2.9% + $0.30 | 3.9% + $0.30 | SaaS, produtos digitais, e-commerce |
+| PayPal | 2.99% + $0.49 | 4.49% + $0.49 | Freelancers, B2B, clientes que preferem PayPal |
+| Dodo Payments | Variável | Variável | Vendas globais com gestão de IVA automática |
+| Lili (neobanco) | Incluído | Incluído | Freelancers que querem banking + contabilidade tudo-em-um |
+
+Para continuar neste fio, <a href="/pt/blog/privacidade-com-uma-llc-americana-o-que-e-realmente-privado">Privacidade com uma LLC americana: o que é realmente privado e o que não é</a> completa uma nuance que aqui apenas tocámos.
+## O que preciso para configurá-las?
+
+Para verificar a sua LLC em qualquer plataforma de pagamento precisa de:
+
+- **EIN** da LLC, a Exentax obtém-no por si
+- **Articles of Organization**: preparamo-los nós
+- **Operating Agreement**: personalizado, não um template da internet
+- **Documento de identidade** do proprietário (passaporte)
+- **Conta bancária** da LLC (Mercury. abrimo-la nós)
+
+O processo de verificação costuma demorar 1-5 dias úteis. Na Exentax coordenamos toda a configuração para que não tenha de lidar com formulários de verificação em inglês nem carregar documentos um por um. decide que plataformas precisa, nós deixamo-las prontas.
+
+<!-- exentax:calc-cta-v1 -->
+> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+<!-- /exentax:calc-cta-v1 -->
+
+Na Exentax cablamos Stripe, PayPal Business US e Dodo Payments todas as semanas para clientes lusófonos. Marca a tua consultoria gratuita: analisamos o teu fluxo e dizemos-te o que ligar onde.
+### Próximos passos
+
+Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
+
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais a precisar
+
+A informação sobre fintechs e CRS evolui; este é o estado atual:
+### Notas por provedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
+- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+## Montamos para si sem perder um fim de semana
+
+Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.<!-- exentax:execution-v2 -->
+## Gateways de pagamento para a sua LLC: Stripe, PayPal, Dodo e quando usar cada um
+
+O gateway define a sua disponibilidade de cobrança, custo por transacção e, sobretudo, risco de freeze de fundos. Para uma LLC não residente com clientes globais, nenhum gateway é óptimo em todo cenário: o correcto é combinar Stripe + PayPal + alternativo (Dodo, Lemon Squeezy ou Paddle).
+
+- **Stripe (US, via LLC + EIN).** Standard para SaaS, subscrições e e-commerce profissional. Tarifa 2,9% + $0,30 US doméstico, +1% internacional, +1% conversão. Aprova LLCs não residentes com EIN + banco US (Mercury, Wise) + site operacional. Risco principal: freeze por chargebacks ou actividade alto risco.
+- **PayPal Business (US).** Imprescindível para B2C em LATAM e Europa onde o cliente "exige" PayPal. Comissão mais alta (~3,49%) e pior experiência de subscrição. Risco de hold 21 dias em contas novas.
+- **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** O MoR trata IVA e compliance para vendas digitais UE/UK/AU. Comissão 5%-8% mas remove OSS, MOSS, IVA UK, GST AU. Ideal para SaaS multi-jurisdição.
+- **Stack recomendado.** SaaS B2B global: Stripe + Paddle. Infoprodutos B2C UE: Lemon Squeezy/Dodo. Consultoria: Stripe + Wise + PayPal opcional. NUNCA depender de um único gateway.
+
+### O que mais nos perguntam
+
+**A Stripe fecha-me por ser LLC não residente?** Não por defeito. Fecha por descrições vagas, taxa chargeback alta (>1%), produtos restritos ou discrepâncias site/actividade.
+
+**Dodo/LS livra-me do IVA digital UE?** Sim, como Merchant of Record. Factura a Dodo/LS (B2B sem IVA com W-8BEN-E), eles ao cliente final com IVA do país correcto.
+
+Na Exentax modelamos o stack adequado e abrimos Stripe + Mercury + MoR - para que um freeze nunca o pare.
+<!-- /exentax:execution-v2 -->
+
+## Referências: fontes sobre estruturas e jurisdições
+
+As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se em fontes oficiais atualizadas a hoje:
+
+- **Estados Unidos.** Delaware General Corporation Law e Limited Liability Company Act, Wyoming Limited Liability Company Act (Title 17, Chapter 29), instruções do IRS para o Form 5472 e IRC §7701 (classificação de entidades).
+- **Andorra.** Llei 95/2010 de l'Impost sobre Societats (IS a 10%), Llei 5/2014 del IRPF e regime de residência ativa/passiva do Govern d'Andorra.
+- **Estónia.** Income Tax Act estónio (imposto diferido sobre lucros distribuídos a 20/22%) e documentação oficial do programa e-Residency.
+- **Espanha.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, arts. 8-9 sobre residência e art. 100 sobre TFI) e regime especial de impatriados (art. 93 LIRPF, "Lei Beckham").
+- **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dois (GloBE) e Modelo de Convenção OCDE com Comentários.
+
+A escolha de jurisdição depende sempre da residência fiscal real do titular e da substância económica da atividade; analise o seu caso específico antes de qualquer decisão estrutural.
+
+<!-- exentax:cross-refs-v1 -->
+### Leituras adicionais
+
+- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
+<!-- /exentax:cross-refs-v1 -->
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20j%C3%A1%20tentou%20Stripe%20Portugal%20ou%20PayPal%20Business%20local%20num%20SaaS%20B2B%20global%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+
+Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">9%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">99%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">49%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">1%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">5%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">8%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

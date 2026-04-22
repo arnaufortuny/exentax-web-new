@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-04-22T09:33:04.493Z",
+  "summary": {
+    "routeKeys": 16,
+    "pageFilesScanned": 24,
+    "componentsScanned": 44,
+    "localesScanned": 6,
+    "issuesByCriticality": {},
+    "issuesByArea": {},
+    "totalIssues": 0
+  },
+  "issues": []
+}

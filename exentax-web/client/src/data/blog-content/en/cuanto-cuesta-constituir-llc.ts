@@ -1,0 +1,239 @@
+export default `Understanding the real costs of forming and maintaining a US LLC is essential for making an informed decision. Here's a complete cost breakdown: formation, banking setup, and ongoing maintenance, so you know exactly what to budget.
+
+## Formation costs: what you pay upfront
+
+| Cost item | Amount | Notes |
+|---|---|---|
+| State filing fee | Required | Varies by state |
+| EIN application | Free filing | Form SS-4 with <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> |
+| Registered Agent (year 1) | Included | With most formation services |
+| Operating Agreement | Tailored draft | Included with Exentax formation |
+| BOI Report filing | No government fee | Included with Exentax formation |
+| **Formation service fee** | **Varies** | Exentax: all-inclusive package |
+
+### What's included with Exentax formation:
+- State filing and Articles of Organization
+- EIN application and follow-up
+- Customized Operating Agreement
+- BOI Report filing
+- Mercury banking coordination
+- Financial stack setup guidance (Stripe, Wise, Wallester, Slash)
+- 12 months of Registered Agent service
+### Annual maintenance costs
+
+| Obligation | Cost | Frequency |
+|---|---|---|
+| Registered Agent renewal | Included | Annual |
+| Annual state report | NM none / WY annual / DE franchise tax | Annual |
+| Form 5472 + 1120 filing | Included with maintenance | Annual |
+| Form 7004 extension | Included | Annual |
+| FBAR filing (if applicable) | Included | Annual |
+| BOI Report updates | Included | As needed |
+### Banking and fintech costs
+
+| Platform | Monthly cost | Transaction fees | Notes |
+|---|---|---|---|
+| **Mercury** | $0 | $0 domestic wires, $0 ACH | Free checking, free cards |
+| **Relay** | $0 | $0 ACH, some wire fees | 20 free sub-accounts |
+| **Wise Business** | $0 | 0.4-1.5% on conversions | No monthly fee |
+| **Wallester** | Varies | Per-card fees | Virtual and physical cards |
+| **Slash** | $0 | None | Yield on idle cash |
+| **Stripe** | $0 | 2.9% + $0.30 per card charge | Standard pricing |
+| **DoDo Payments** | $0 | Commission-based | MoR handles VAT/GST |
+### The ROI calculation
+
+For a freelancer earning $60,000/year:
+
+| Factor | Without LLC | With LLC |
+|---|---|---|
+| Gross revenue | $60,000 | $60,000 |
+| Tax rate (Spain example) | ~35% effective | ~20% effective |
+| Annual tax | $21,000 | $12,000 |
+| LLC maintenance cost | None | Annual fee |
+| **Net after tax + costs** | **$39,000** | **$46,500** |
+| **Annual benefit** | – | **$7,500** |
+
+The LLC pays for itself 5x over in the first year alone. And the benefit scales with your revenue; the more you earn, the bigger the savings.
+### Hidden costs to watch out for
+
+1. **Rush filing fees:** Some states charge extra for expedited processing. Plan ahead to avoid these.
+2. **Additional state registrations:** If you sell physical goods in certain states, you may need sales tax permits (state fees apply).
+3. **ITIN application:** If you need one for Amazon or PayPal, the IRS filing itself is free but CAA certification has a third-party cost.
+4. **Professional insurance:** E&O or general liability (third-party premium varies), optional but recommended for service providers.
+5. **Bookkeeping software:** QuickBooks, Wave, or similar (free or low-cost tiers), helps organize for Form 5472.
+## Cost comparison: formation services
+
+| Service | Formation fee | What's included | Annual RA cost | Hidden fees |
+|---|---|---|---|---|
+| **Exentax** | All-inclusive | EIN, OA, BOI, RA, Mercury coordination | Included | None |
+| **Northwest RA** | Service fee | State filing only | Annual fee | EIN and OA available separately |
+| **ZenBusiness** | Service fee | State filing + basic docs | Annual fee | Frequent upsells |
+| **LegalZoom** | Service fee | State filing + basic docs | Annual fee | Heavy upsells |
+| **Incfile (now ZenBusiness)** | Service fee | State filing | Annual fee | Limited support |
+| **DIY (direct with state)** | State only | Just state filing | Self-act as RA | Must be in US |
+
+### What "free formation" really costs
+Services advertising "free formation" do not charge for the state filing itself, but charge full price for everything else:
+- Operating Agreement: drafting service
+- EIN filing: third-party fee
+- BOI Report: third-party fee
+- Registered Agent (after year 1): annual service
+- Compliance alerts: extra annual fee
+- Rush processing: surcharge applies
+
+**True total "free" formation:** several hundred to nearly a thousand dollars in the first year, plus annual RA and compliance fees.
+### The 5-year cost projection
+
+| Year | New Mexico (Exentax) | Wyoming (Exentax) | Delaware (DIY) |
+|---|---|---|---|
+| Year 1 | Formation + maintenance | Formation + maintenance | Formation fee + Franchise Tax + RA + EIN |
+| Year 2 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 3 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 4 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| Year 5 | Maintenance only | Maintenance + annual report | Franchise Tax + RA + accountant |
+| **State fees total** | **One-time formation** | **Annual report add-on** | **Franchise Tax add-on** |
+
+New Mexico saves you a meaningful amount in state fees over 5 years compared to Delaware. That's money that stays in your Mercury account generating yield through Slash.
+### When the LLC doesn't make financial sense (yet)
+
+Be honest with yourself about the numbers. The LLC doesn't make sense for everyone:
+
+| Revenue level | Savings potential | Recommendation |
+|---|---|---|
+| Low monthly billing | Savings may not cover costs | Wait until revenue grows |
+| $1,500-$3,000/month | Break-even to modest savings | Depends on growth trajectory |
+| $3,000-$5,000/month | Clear savings ($3,000-6,000/year) | Good time to form |
+| $5,000-$10,000/month | Significant savings ($6,000-15,000/year) | Definitely form |
+| $10,000+/month | Substantial savings ($15,000+/year) | Not forming is leaving money on the table |
+
+If you're below $1,500/month but growing rapidly, it can still make sense to form now; the setup takes time, and you want everything ready when revenue scales.
+### The true cost of delay
+
+Every month you delay forming your LLC while earning $5,000+/month is a month of:
+- Higher taxes (15-25% savings lost)
+- No asset protection
+- No US banking benefits (Mercury, Stripe)
+- Paying currency conversion markups (2-4% vs 0.4-1.5%)
+- Missing deduction opportunities
+
+At a moderate monthly revenue, a 6-month delay costs significant lost savings. That's more than the total cost of forming and maintaining the LLC for an entire year.
+
+To keep going on this thread, <a href="/en/blog/us-llc-for-digital-marketing-agencies-structure-billing-and">US LLC for digital marketing agencies: structure, billing and scaling</a> and <a href="/en/blog/llc-legal-security-and-asset-protection-the-underrated">LLC legal security and asset protection: the underrated advantage</a> fill in nuances this guide only touched on.
+## Legal and regulatory references
+
+This article relies on rules currently in force. Main sources for verification:
+
+- **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
+- **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
+- **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
+Applying any of these rules to your specific case depends on your tax residency, the LLC's activity and the documentation you keep. This content is informational and does not replace personalized professional advice.
+### Next steps
+
+Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
+
+<!-- exentax:banking-facts-v1 -->
+## Banking and tax facts worth clarifying
+
+Fintech and CRS information evolves; here is the current state:
+
+<!-- exentax:calc-cta-v1 -->
+> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notes by provider
+
+- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
+- **Wise** ships two clearly different products: **Wise Personal** and **Wise Business**. For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS participant; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; a separate Wise Personal in your own name as a CRS-resident individual does report.
+- **Wallester** (Estonia) is a European financial entity with an EMI/issuing-bank licence. Its European IBAN accounts **are within the Common Reporting Standard (CRS)** and therefore trigger automatic reporting to the tax administration of the holder's country of residence.
+- **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
+- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, BE) **are not issued by default** to a US LLC, they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity it sits with and which regime it reports under.
+- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:legal-facts-v1 -->
+## Legal & procedural facts
+
+FinCEN and IRS reporting requirements moved recently; the current state is:
+
+- **BOI / Corporate Transparency Act.** After **FinCEN's March 2025 interim final rule**, the BOI Report requirement was **narrowed to "foreign reporting companies"** (entities formed outside the US and registered to do business in a state). A **US-formed LLC owned by a non-resident is, as of today, outside that obligation**. The regulatory status can change again: **re-verify at FinCEN.gov at filing time**. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement and monitor future updates.
+- **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
+- **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+## We set it up without you losing a weekend
+
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+
+<!-- exentax:overhaul-today-v1 -->
+## Exentax today update: how much it really costs today
+
+The real cost of forming an LLC is predictable if you split formation vs maintenance:
+
+- **Initial setup today (DIY).** Wyoming filing **USD 100** + RA year 1 ~USD 125 = ~USD 225. New Mexico filing **USD 50** + RA ~USD 125 = ~USD 175. Delaware filing **USD 110** + RA ~USD 150 = ~USD 260. EIN is always **free** via SS-4 by fax.
+- **Setup via "all-in-one" service.** Typical ranges **USD 300-700** depending on provider, includes filing + year-1 RA + OA template. Useful for non-residents who do not want to handle the SS-4 fax and postal follow-up.
+- **Annual maintenance.** Wyoming ~USD 225/yr (RA + USD 60 AR), Delaware ~USD 450/yr (RA + USD 300 Franchise Tax), New Mexico ~USD 125/yr (RA only). Add a tax service for 5472 + pro forma 1120 → **USD 300-700/yr** depending on advisor.
+
+### today FAQ
+
+**Realistic minimum year-1 total cost?** Wyoming DIY ~USD 225. If delegated: ~USD 600. Mercury and Wise add no opening cost.
+
+**Hidden costs people forget?** Year-2 Registered Agent renewal (cheap packs raise it), one-off Annual Report, and Mercury Plus if you want the IO card with cashback.
+
+**Does OECD Pillar Two raise LLC cost?** No for single-member LLCs with normal turnover. GloBE only applies to groups ≥ EUR 750M.
+<!-- exentax:overhaul-today-v1 end -->
+
+<!-- exentax:execution-v2 -->
+## The real cost of forming an LLC, the Exentax way
+
+What most pages skip is the gap between formation price and the actual yearly cost - registered agent, state maintenance, BOI, 5472, banking and home-country compliance. At Exentax we quote both numbers from day one.
+
+- **One-off formation cost**: Articles of Organization + EIN + Operating Agreement + initial BOI; closed range in writing before we start.
+- **Recurring yearly cost**: registered agent, state annual report, 5472 + pro-forma 1120, banking maintenance and residency reporting.
+- **Avoided costs**: USD 25,000 penalty for a missed 5472, BOI fines for late updates and bank fees from documentary inconsistency.
+
+To see your exact figure with no surprises, run the <strong>Exentax calculator</strong> or book thirty minutes: we end the call with a closed quote and a calendar.
+<!-- /exentax:execution-v2 -->
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Understanding%20the%20real%20costs%20of%20forming%20and%20maintaining%20a%20US%20LLC%20is%20essential%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+
+If you want to see the full process in detail, check our <a href="/en/services">services page</a> with prices, timelines and deliverables.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Formation from €2,000 and maintenance from €1,400/year. The initial consultation is free. <a href="/en/services">Book a free consultation</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">60.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…**no tener una LLC** cuando deberías tenerla. Si facturas 60.000€/año como autónomo en Esp…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">40%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…o en España con clientes internacionales y estás pagando un 40% efectivo, eso son **24.000…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">24.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…internacionales y estás pagando un 40% efectivo, eso son **24.000€ en impuestos**. Con una…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">0%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…00€ en impuestos**. Con una LLC bien estructurada, pagas **0% de impuesto federal en EE.UU…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">16.800</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…federal en EE.UU.** sobre esos ingresos. La diferencia: **16.800-19.200€ al año**. El cost…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">19.200</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…l en EE.UU.** sobre esos ingresos. La diferencia: **16.800-19.200€ al año**. El coste de l…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…al | No aplica | | Registered Agent | Servicio incluido | | Form 5472 + 1120 | Preparación…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ento anual: - ✓ Preparación y presentación del Form 5472 + Form 1120 - ✓ Solicitud automát…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…orm 5472 + Form 1120 - ✓ Solicitud automática de extensión (Form 7004) - ✓ Renovación del …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…*). - **UE / OCDE.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

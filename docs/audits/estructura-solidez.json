@@ -1,0 +1,92 @@
+{
+  "audit": "estructura-solidez",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "areas": {
+    "separacion_concerns": {
+      "estado": "solida",
+      "evidencia": [
+        "client/ (UI), server/ (API + SSR), shared/ (esquemas y rutas) bien delimitados.",
+        "shared/routes.ts centraliza rutas localizadas; consumido por App.tsx y SEO.tsx.",
+        "shared/schema.ts y shared/calculator.ts comparten tipos cliente/servidor."
+      ]
+    },
+    "rutas_logicas": {
+      "estado": "ok",
+      "evidencia": [
+        "ROUTE_SLUGS y ALL_ROUTE_KEYS generan rutas en App.tsx para 6 idiomas x N paginas.",
+        "Sitemap (server/routes/public.ts) y SEO (client/components/SEO.tsx) reutilizan los mismos slugs."
+      ]
+    },
+    "state_management": {
+      "estado": "ok",
+      "evidencia": [
+        "TanStack Query v5 para datos remotos (cache + invalidacion).",
+        "i18next + LanguageService para idioma.",
+        "Sin context provider gigante; props drilling local y acotado."
+      ]
+    },
+    "organizacion_componentes": {
+      "estado": "ok",
+      "evidencia": [
+        "components/{layout,sections,blog,calculator} bien tipificados por dominio.",
+        "pages/ refleja estructura de rutas (services/, legal/, blog/).",
+        "hooks/ (6 hooks) reutilizables: useCountUp, useInlineMessage, useLangPath, useReveal, useScrolled, useStats."
+      ]
+    }
+  },
+  "issues": [
+    {
+      "id": "ES-001",
+      "categoria": "consolidacion",
+      "hallazgo": "Logica de sincronizacion de idioma entre URL y storage repartida entre LangSyncEffect, BlogLangEffect (App.tsx) y LanguageService.",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Extraer a hook useLanguageSync(lang, options?) que acepte modo 'transient' vs 'persistent'."
+    },
+    {
+      "id": "ES-002",
+      "categoria": "consolidacion",
+      "hallazgo": "FAQ.tsx y HomeFAQ.tsx comparten render de acordeon. Diferencia: dataset y limite.",
+      "prioridad": "baja",
+      "estado": "pendiente",
+      "accion": "Anadir prop 'items' y 'limit' a FAQ.tsx y reemplazar HomeFAQ por <FAQ items={...} variant='compact' />."
+    },
+    {
+      "id": "ES-003",
+      "categoria": "props_drilling",
+      "hallazgo": "Sin casos relevantes detectados. Layout, Navbar y secciones leen estado i18n directo desde i18next, no desde props.",
+      "prioridad": "baja",
+      "estado": "verificado"
+    },
+    {
+      "id": "ES-004",
+      "categoria": "scripts_organizacion",
+      "hallazgo": "scripts/ tiene 50+ archivos mezclando auditorias activas, migraciones puntuales y tests.",
+      "prioridad": "media",
+      "estado": "parcialmente_aplicado",
+      "accion": "Movidos 28 scripts legacy task#/audit-2026-04 a scripts/archive/2026-04-task4/. Reorganizacion completa por dominios queda como tarea futura."
+    },
+    {
+      "id": "ES-005",
+      "categoria": "modularidad_servidor",
+      "hallazgo": "server/routes/public.ts contiene mas de 1300 LOC (incluye sitemap, robots, contact, etc).",
+      "prioridad": "media",
+      "estado": "pendiente",
+      "accion": "Extraer sitemap-* a server/routes/sitemap.ts; mantener public.ts solo para endpoints de marketing."
+    },
+    {
+      "id": "ES-006",
+      "categoria": "boundary_errores",
+      "hallazgo": "ErrorBoundary global (main.tsx) + RouteErrorBoundary (App.tsx) cubren chunk loading y errores por ruta. Reload throttling de 10s anti-loop.",
+      "prioridad": "alta",
+      "estado": "verificado",
+      "accion": "Sin cambio."
+    }
+  ],
+  "resumen": {
+    "issues_pendientes": 4,
+    "issues_verificados": 2,
+    "arquitectura_general": "saludable y mantenible"
+  }
+}

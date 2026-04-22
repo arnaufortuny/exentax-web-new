@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-04-22T09:02:57.158Z",
+  "totals": {
+    "components": 42,
+    "pages": 24,
+    "total": 66,
+    "missingTestIds": 2,
+    "ariaIssues": 0,
+    "i18nIssues": 0,
+    "anyTypes": 0,
+    "duplicateNames": 1,
+    "lazyLoadingCandidates": 18
+  },
+  "duplicates": [
+    {
+      "name": "index",
+      "files": [
+        "client/src/components/calculator/index.tsx",
+        "client/src/pages/blog/index.tsx"
+      ]
+    }
+  ],
+  "missingTestIds": [
+    {
+      "file": "client/src/components/layout/Layout.tsx",
+      "interactiveTags": 1
+    },
+    {
+      "file": "client/src/components/sections/faq-data.tsx",
+      "interactiveTags": 1
+    }
+  ],
+  "i18nIssues": [],
+  "ariaIssues": [],
+  "lazyLoadingCandidates": [
+    {
+      "file": "client/src/components/BookingCalendar.tsx",
+      "lines": 943
+    },
+    {
+      "file": "client/src/components/SEO.tsx",
+      "lines": 294
+    },
+    {
+      "file": "client/src/components/Tracking.tsx",
+      "lines": 270
+    },
+    {
+      "file": "client/src/components/calculator/CalculatorResults.tsx",
+      "lines": 405
+    },
+    {
+      "file": "client/src/components/calculator/index.tsx",
+      "lines": 679
+    },
+    {
+      "file": "client/src/components/layout/Footer.tsx",
+      "lines": 284
+    },
+    {
+      "file": "client/src/components/layout/Navbar.tsx",
+      "lines": 500
+    },
+    {
+      "file": "client/src/components/sections/FAQ.tsx",
+      "lines": 283
+    },
+    {
+      "file": "client/src/components/sections/Testimonials.tsx",
+      "lines": 275
+    },
+    {
+      "file": "client/src/pages/about-llc.tsx",
+      "lines": 412
+    },
+    {
+      "file": "client/src/pages/blog/index.tsx",
+      "lines": 451
+    },
+    {
+      "file": "client/src/pages/blog/post.tsx",
+      "lines": 988
+    },
+    {
+      "file": "client/src/pages/book.tsx",
+      "lines": 464
+    },
+    {
+      "file": "client/src/pages/booking.tsx",
+      "lines": 419
+    },
+    {
+      "file": "client/src/pages/how-we-work.tsx",
+      "lines": 602
+    },
+    {
+      "file": "client/src/pages/services/ServiceSubpage.tsx",
+      "lines": 555
+    },
+    {
+      "file": "client/src/pages/services-sections.tsx",
+      "lines": 510
+    },
+    {
+      "file": "client/src/pages/start.tsx",
+      "lines": 367
+    }
+  ],
+  "anyTypes": [],
+  "byComponent": [
+    {
+      "file": "client/src/components/BookingCalendar.tsx",
+      "name": "BookingCalendar",
+      "lines": 943,
+      "usesI18n": true,
+      "buttonsOrInputs": 29,
+      "dataTestIds": 34,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/CookieBanner.tsx",
+      "name": "CookieBanner",
+      "lines": 227,
+      "usesI18n": true,
+      "buttonsOrInputs": 5,
+      "dataTestIds": 4,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/FlagImg.tsx",
+      "name": "FlagImg",
+      "lines": 28,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/InlineMessage.tsx",
+      "name": "InlineMessage",
+      "lines": 52,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/LanguageSwitcher.tsx",
+      "name": "LanguageSwitcher",
+      "lines": 95,
+      "usesI18n": true,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 2,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/PhoneInput.tsx",
+      "name": "PhoneInput",
+      "lines": 249,
+      "usesI18n": true,
+      "buttonsOrInputs": 4,
+      "dataTestIds": 4,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/SEO.tsx",
+      "name": "SEO",
+      "lines": 294,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/ThemeProvider.tsx",
+      "name": "ThemeProvider",
+      "lines": 17,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/Tracking.tsx",
+      "name": "Tracking",
+      "lines": 270,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/blog/AiSummaryButtons.tsx",
+      "name": "AiSummaryButtons",
+      "lines": 122,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 3,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/blog/ArticleCTA.tsx",
+      "name": "ArticleCTA",
+      "lines": 111,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 5,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/blog/CategoryBadge.tsx",
+      "name": "CategoryBadge",
+      "lines": 105,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/AnimatedNumber.tsx",
+      "name": "AnimatedNumber",
+      "lines": 29,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/BrandIcons.tsx",
+      "name": "BrandIcons",
+      "lines": 20,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/CalculatorResults.tsx",
+      "name": "CalculatorResults",
+      "lines": 405,
+      "usesI18n": true,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 19,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/EmailGateForm.tsx",
+      "name": "EmailGateForm",
+      "lines": 163,
+      "usesI18n": true,
+      "buttonsOrInputs": 6,
+      "dataTestIds": 9,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/IrpfBracketsTable.tsx",
+      "name": "IrpfBracketsTable",
+      "lines": 26,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/calculator/index.tsx",
+      "name": "index",
+      "lines": 679,
+      "usesI18n": true,
+      "buttonsOrInputs": 13,
+      "dataTestIds": 19,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/icons.tsx",
+      "name": "icons",
+      "lines": 120,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/FloatingMobileCTA.tsx",
+      "name": "FloatingMobileCTA",
+      "lines": 78,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/FloatingWhatsApp.tsx",
+      "name": "FloatingWhatsApp",
+      "lines": 64,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/Footer.tsx",
+      "name": "Footer",
+      "lines": 284,
+      "usesI18n": true,
+      "buttonsOrInputs": 7,
+      "dataTestIds": 15,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/Layout.tsx",
+      "name": "Layout",
+      "lines": 26,
+      "usesI18n": false,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/LegalLayout.tsx",
+      "name": "LegalLayout",
+      "lines": 42,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/Navbar.tsx",
+      "name": "Navbar",
+      "lines": 500,
+      "usesI18n": true,
+      "buttonsOrInputs": 7,
+      "dataTestIds": 19,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/layout/NavbarFunnel.tsx",
+      "name": "NavbarFunnel",
+      "lines": 32,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 3,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/AccordionItem.tsx",
+      "name": "AccordionItem",
+      "lines": 145,
+      "usesI18n": false,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 4,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/BanksCarousel.tsx",
+      "name": "BanksCarousel",
+      "lines": 144,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 2,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/ExistingLlcCallout.tsx",
+      "name": "ExistingLlcCallout",
+      "lines": 185,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 7,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/FAQ.tsx",
+      "name": "FAQ",
+      "lines": 283,
+      "usesI18n": true,
+      "buttonsOrInputs": 6,
+      "dataTestIds": 9,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/FaqAccordionList.tsx",
+      "name": "FaqAccordionList",
+      "lines": 61,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/ForWho.tsx",
+      "name": "ForWho",
+      "lines": 175,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 4,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/Hero.tsx",
+      "name": "Hero",
+      "lines": 116,
+      "usesI18n": true,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 7,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/HeroStats.tsx",
+      "name": "HeroStats",
+      "lines": 85,
+      "usesI18n": false,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 3,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/HomeFAQ.tsx",
+      "name": "HomeFAQ",
+      "lines": 72,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 2,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/HowItWorks.tsx",
+      "name": "HowItWorks",
+      "lines": 196,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 4,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/Origin.tsx",
+      "name": "Origin",
+      "lines": 141,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 1,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/Problem.tsx",
+      "name": "Problem",
+      "lines": 145,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 2,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/Services.tsx",
+      "name": "Services",
+      "lines": 182,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 5,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/Testimonials.tsx",
+      "name": "Testimonials",
+      "lines": 275,
+      "usesI18n": true,
+      "buttonsOrInputs": 4,
+      "dataTestIds": 8,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/WhyUs.tsx",
+      "name": "WhyUs",
+      "lines": 110,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 3,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/components/sections/faq-data.tsx",
+      "name": "faq-data",
+      "lines": 330,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/about-llc.tsx",
+      "name": "about-llc",
+      "lines": 412,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 7,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/blog/index.tsx",
+      "name": "index",
+      "lines": 451,
+      "usesI18n": true,
+      "buttonsOrInputs": 6,
+      "dataTestIds": 15,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/blog/post.tsx",
+      "name": "post",
+      "lines": 988,
+      "usesI18n": true,
+      "buttonsOrInputs": 10,
+      "dataTestIds": 20,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/book.tsx",
+      "name": "book",
+      "lines": 464,
+      "usesI18n": true,
+      "buttonsOrInputs": 7,
+      "dataTestIds": 10,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/booking.tsx",
+      "name": "booking",
+      "lines": 419,
+      "usesI18n": true,
+      "buttonsOrInputs": 13,
+      "dataTestIds": 25,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/faq-page.tsx",
+      "name": "faq-page",
+      "lines": 44,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/go.tsx",
+      "name": "go",
+      "lines": 232,
+      "usesI18n": true,
+      "buttonsOrInputs": 15,
+      "dataTestIds": 17,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/home.tsx",
+      "name": "home",
+      "lines": 127,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/how-we-work.tsx",
+      "name": "how-we-work",
+      "lines": 602,
+      "usesI18n": true,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 10,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/legal/cookies.tsx",
+      "name": "cookies",
+      "lines": 18,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/legal/disclaimer.tsx",
+      "name": "disclaimer",
+      "lines": 18,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/legal/privacy.tsx",
+      "name": "privacy",
+      "lines": 18,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/legal/refunds.tsx",
+      "name": "refunds",
+      "lines": 18,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/legal/terms.tsx",
+      "name": "terms",
+      "lines": 18,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/not-found.tsx",
+      "name": "not-found",
+      "lines": 71,
+      "usesI18n": true,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 6,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/ServiceSubpage.tsx",
+      "name": "ServiceSubpage",
+      "lines": 555,
+      "usesI18n": true,
+      "buttonsOrInputs": 2,
+      "dataTestIds": 27,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/itin.tsx",
+      "name": "itin",
+      "lines": 6,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/llc-delaware.tsx",
+      "name": "llc-delaware",
+      "lines": 6,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/llc-florida.tsx",
+      "name": "llc-florida",
+      "lines": 6,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/llc-new-mexico.tsx",
+      "name": "llc-new-mexico",
+      "lines": 6,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services/llc-wyoming.tsx",
+      "name": "llc-wyoming",
+      "lines": 6,
+      "usesI18n": false,
+      "buttonsOrInputs": 0,
+      "dataTestIds": 0,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services-sections.tsx",
+      "name": "services-sections",
+      "lines": 510,
+      "usesI18n": true,
+      "buttonsOrInputs": 4,
+      "dataTestIds": 8,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/services.tsx",
+      "name": "services",
+      "lines": 137,
+      "usesI18n": true,
+      "buttonsOrInputs": 1,
+      "dataTestIds": 6,
+      "anyTypes": 0
+    },
+    {
+      "file": "client/src/pages/start.tsx",
+      "name": "start",
+      "lines": 367,
+      "usesI18n": true,
+      "buttonsOrInputs": 3,
+      "dataTestIds": 9,
+      "anyTypes": 0
+    }
+  ]
+}

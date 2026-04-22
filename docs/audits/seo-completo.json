@@ -1,0 +1,82 @@
+{
+  "audit": "seo-completo",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "complementa": "Task #3 (SEO, sitemap y FAQs)",
+  "cobertura_idiomas": ["es", "en", "fr", "de", "pt", "ca"],
+  "componente_central": "client/src/components/SEO.tsx",
+  "checks": {
+    "meta_tags_unicos_por_pagina_idioma": {
+      "estado": "ok",
+      "evidencia": "SEO.tsx usa i18n.t() para titulo/descripcion/keywords. ServiceSubpage.tsx carga seo.title/description por servicio. Blog post.tsx usa metadata localizada por slug+lang."
+    },
+    "canonical": {
+      "estado": "ok",
+      "evidencia": "Canonical resuelto via resolveRoute + getLocalizedPath. Para blog: BASE_URL + /lang/blog/slug. Tag <link rel='canonical'> en index.html actualizado dinamicamente."
+    },
+    "hreflang_y_xdefault": {
+      "estado": "ok",
+      "evidencia": "SEO.tsx genera 6 alternates + x-default(es). Para blog usa loadBlogHelpers().getAvailableLangsForSlug(slug) para no emitir hreflang invalidos."
+    },
+    "open_graph": {
+      "estado": "ok",
+      "campos": ["og:title", "og:description", "og:type", "og:url", "og:image (1200x630)", "og:image:width/height/type", "og:locale", "og:site_name"],
+      "article_extras": ["article:author", "article:publisher", "article:published_time", "article:modified_time", "article:section", "article:tag (multi)"]
+    },
+    "twitter_card": {
+      "estado": "ok",
+      "campos": ["twitter:card=summary_large_image", "twitter:title", "twitter:description", "twitter:image", "twitter:image:alt", "twitter:site"]
+    },
+    "json_ld": {
+      "Organization": {"estado": "ok", "ubicacion": "client/index.html (estatico) + referencias publisher/provider"},
+      "Service": {"estado": "ok", "ubicacion": "ServiceSubpage.tsx genera Service por servicio LLC/ITIN"},
+      "Article/BlogPosting": {"estado": "ok", "ubicacion": "blog/post.tsx + server/seo-content.ts (SSR)"},
+      "FAQPage": {"estado": "ok", "ubicacion": "faq-page.tsx (global) + ServiceSubpage.tsx (por servicio) + blog/post.tsx (extractFaqQA)"},
+      "BreadcrumbList": {"estado": "ok", "ubicacion": "SEO.tsx prop breadcrumbs + blog/post.tsx"},
+      "AggregateRating": {"estado": "ok", "ubicacion": "home.tsx (Trustpilot)"}
+    },
+    "robots_meta": {
+      "estado": "ok",
+      "evidencia": "SEO.tsx setea 'index, follow' por defecto y 'noindex, nofollow' si noindex=true. /booking/:token y /start excluidos en robots.txt."
+    },
+    "ssr_fallback": {
+      "estado": "ok",
+      "evidencia": "server/seo-content.ts y server/static.ts emiten meta + JSON-LD inicial para crawlers; cliente hidrata."
+    }
+  },
+  "issues": [
+    {
+      "id": "SEO-001",
+      "hallazgo": "ogTitle y ogDescription se reciben opcionales pero algunas paginas no aprovechan stripBrandSuffix; verificar que ningun og:title supere 60 chars en los 6 idiomas.",
+      "prioridad": "media",
+      "estado": "cubierto_parcial",
+      "accion": "Cubierto por tarea separada 'Auditoria y optimizacion social previews 6 idiomas' (no duplicar)."
+    },
+    {
+      "id": "SEO-002",
+      "hallazgo": "Service paginas LLC e ITIN cubiertas por ServiceSubpage. Comprobar que SEO.title se renderiza por idioma sin fallback al ES en EN/PT/CA/DE/FR.",
+      "prioridad": "alta",
+      "estado": "cubierto",
+      "accion": "Cubierto por tarea 'Generar metadatos SEO en servidor para todas las paginas de servicios LLC e ITIN (6 idiomas)'."
+    },
+    {
+      "id": "SEO-003",
+      "hallazgo": "JSON-LD Organization solo en index.html (estatico). Considerar mover a SEO.tsx para idioma dinamico de description.",
+      "prioridad": "baja",
+      "estado": "pendiente",
+      "accion": "Anadir Organization JSON-LD desde SEO.tsx con t('seo.orgDescription') por idioma."
+    },
+    {
+      "id": "SEO-004",
+      "hallazgo": "alt traducido en imagenes de articulos del blog: ausente en muchos contenidos (markdown sin alt).",
+      "prioridad": "alta",
+      "estado": "pendiente",
+      "accion": "Auditar markdown en client/src/data/blog-content/*/*.ts y anadir alt-texts traducidos por idioma."
+    }
+  ],
+  "resumen": {
+    "componentes_seo_correctos": 8,
+    "issues_pendientes": 2,
+    "issues_cubiertos_por_otras_tareas": 2
+  }
+}

@@ -1,0 +1,255 @@
+export default `Quem vem do Regime Simplificado em Portugal ou do MEI no Brasil conhece a frustração: nada é realmente deduzido, é tudo por coeficiente ou por alíquota fixa. Uma LLC funciona ao contrário: cada despesa de negócio legítima reduz o resultado. Mas „legítima” tem uma definição <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> muito concreta, não a dos grupos de Telegram.
+
+## A regra de ouro: ordinário e necessário
+
+Para que um gasto seja dedutível, deve cumprir duas condições:
+
+- **Ordinário:** É comum e aceite na sua indústria
+- **Necessário:** É útil e apropriado para o seu negócio (não precisa ser indispensável)
+
+Por exemplo: um hosting web é um gasto ordinário e necessário para um designer web. Um jantar num restaurante pode ser dedutível se for uma reunião de negócios, mas não se for um jantar pessoal.
+## Gastos dedutíveis comuns numa LLC
+
+Aqui é onde a coisa fica interessante. A lista é muito mais ampla do que a maioria pensa. Vamos categoria por categoria:
+
+## Tecnologia e software
+- **Hosting e servidores:** AWS, Vercel, DigitalOcean, Google Cloud, Heroku
+- **Domínios e DNS:** Cloudflare, Namecheap, GoDaddy
+- **Assinaturas SaaS:** Notion, Slack, Figma, Adobe Creative Cloud, Canva Pro, Miro, Trello, Asana, Linear, Monday.com
+- **Ferramentas de desenvolvimento:** GitHub Pro, GitLab, JetBrains, VS Code extensões premium, APIs de terceiros
+- **Ferramentas de IA:** ChatGPT Plus, Claude, Midjourney, Copilot
+- **Armazenamento cloud:** Google Workspace, Dropbox Business, iCloud+
+- **VPN e segurança:** NordVPN, 1Password, LastPass
+- **Comunicações:** Zoom Pro, Google Meet, Loom, Calendly
+
+### Hardware e equipamento
+- **Computador:** portátil ou desktop (se usado para o negócio)
+- **Monitor(es):** ecrãs externas
+- **Periféricos:** teclado, mouse, trackpad, hub USB, dock station
+- **Áudio/vídeo:** fones de ouvido, microfone, câmera web, ring light
+- **Tablet:** iPad ou similar se usado para trabalho
+- **Telefone telemóvel:** percentual de uso profissional
+- **Impressora e scanner**
+- **Discos rígidos externos e armazenamento**
+
+### Serviços profissionais
+- **Contabilidade e preparação de impostos** (como os serviços da Exentax)
+- **Serviços legais:** advogados, contratos, propriedade intelectual
+- **Consultoria de negócio:** mentores, coaches, assessores estratégicos
+- **Registered Agent:** o seu agente registado nos EUA
+- **Design e branding:** logo, identidade visual, design web
+- **Tradução e copywriting**
+
+### Marketing e vendas
+- **Publicidade online:** Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, TikTok Ads, Twitter/X Ads
+- **SEO e conteúdo:** ferramentas SEO (Ahrefs, SEMrush, Surfer), redação de conteúdo
+- **Email marketing:** Mailchimp, ConvertKit, Beehiiv, Resend, Brevo
+- **Redes sociais:** ferramentas de gestão (Buffer, Hootsuite, Later)
+- **CRM:** HubSpot, Pipedrive, Close
+- **Landing pages:** Framer, Webflow, Carrd
+- **Relações públicas e imprensa**
+
+### Escritório e espaço de trabalho
+- **Coworking:** assinaturas mensais ou passes diários (WeWork, espaços locais)
+- **Aluguer de escritório:** se tem um espaço dedicado
+- **Material de escritório:** papelaria, tinta, pastas, organizadores
+- **Mobiliário:** mesa, cadeira ergonômica, estante (se for para o espaço de trabalho)
+- **Café e bebidas:** se o seu coworking as inclui como serviço
+
+### Home office (escritório em casa)
+Se trabalha de casa, pode deduzir a parte proporcional dos gastos da sua moradia que corresponde ao espaço de trabalho. Isto inclui:
+- **Aluguer:** proporção do espaço dedicado ao trabalho (ex: se o seu escritório ocupa 20% da sua moradia, deduz 20% do aluguer)
+- **Internet:** percentual de uso profissional
+- **Eletricidade:** percentual de uso profissional
+- **Telefone:** percentual de uso profissional
+- **Seguro residencial:** parte proporcional
+- **Água, gás, aquecimento:** parte proporcional
+
+Na Exentax ajudamos a calcular o percentual correto e a documentá-lo para que a dedução seja sólida.
+
+### Formação e desenvolvimento profissional
+- **Cursos online:** Udemy, Coursera, Platzi, Domestika, cursos especializados do seu setor
+- **Livros profissionais:** técnicos, de negócio, de marketing (sim, os livros da Amazon também)
+- **Conferências e eventos:** ingressos, inscrições, meetups profissionais
+- **Certificações profissionais:** AWS, Google, HubSpot, etc.
+- **Coaching e mentoria:** sessões com mentores da sua indústria
+
+### Viagens de negócio
+- **Passagens aéreas:** para reuniões com clientes, conferências, eventos do setor
+- **Hospedagem:** hotéis, Airbnb durante viagens de trabalho
+- **Transporte local:** Uber, táxis, aluguer de carros durante viagens de negócio
+- **Refeições de negócio:** com clientes, sócios ou em conferências (50% dedutível geralmente)
+- **Vistos e trâmites de viagem:** se a viagem é por negócio
+- **Seguro viagem:** apólices para viagens de trabalho
+
+### Comissões, fees e custos financeiros
+- **Comissões do Stripe:** por cada transação processada
+- **Comissões do PayPal:** fees de recepção de pagamentos
+- **Comissões de outros processadores:** Dodo Payments, etc.
+- **Fees bancárias:** embora Mercury tenha $0 em quase tudo, outros serviços podem ter custos
+- **Comissões do Wise:** por conversão de divisas
+- **Fees do estado:** Annual Report, Franchise Tax (Delaware)
+- **Fees de constituição:** o custo de criar a sua LLC é dedutível
+
+### Seguros
+- **Seguro de responsabilidade civil profissional** (Errors & Omissions)
+- **Seguro de saúde:** se contratado através da LLC
+- **Seguro de equipamentos:** para proteger o seu hardware
+
+### Assinaturas e membresias profissionais
+- **Associações profissionais:** membresias da sua indústria
+- **Plataformas de networking:** LinkedIn Premium, comunidades pagas
+- **Bases de dados e recursos:** acesso a bibliotecas profissionais, APIs, datasets
+### Gastos NÃO dedutíveis
+
+Aqui a linha é clara:
+
+- **Gastos pessoais**: roupa (a menos que seja uniforme de trabalho), alimentação diária, entretenimento pessoal, Netflix, Spotify pessoal
+- **Multas e sanções**: multas de trânsito, sanções do IRS
+- **Contribuições políticas**
+- **Gastos supérfluos** sem justificação de negócio. aquele relógio de luxo não é um "gasto de representação"
+- **Retiradas pessoais** (Owner's Draws), não são gastos, são distribuições de lucros
+- **Roupa pessoal**: a sua roupa do dia a dia não é dedutível mesmo que a use para trabalhar
+### Como documentar os seus gastos
+
+Para que um gasto seja dedutível, precisa de prova de três coisas:
+
+1. **Foi pago com fundos da LLC**: a partir da conta bancária ou cartão da LLC (Mercury, Relay)
+2. **Tem uma fatura ou recibo**: que mostre o conceito, data e valor
+3. **É do negócio**: pode justificar a sua relação com a atividade da LLC
+
+Guarde todos os recibos e faturas. Use ferramentas como QuickBooks, Xero ou até uma pasta organizada no Google Drive. A chave é a consistência: se o faz desde o primeiro dia, nunca é um problema.
+### O impacto real no seu bolso
+
+Um trabalhador independente/autónomo típico com uma LLC costuma ter entre **$5,000 e $20,000** em gastos dedutíveis por ano. Isso pode reduzir a sua base tributável no seu país de residência de forma significativa.
+
+Exemplo prático: se fatura $60,000/ano e tem $15,000 em gastos dedutíveis, só declara $45,000 de lucro no seu país. Se a sua taxa efetiva é de 20%, isso são **$3,000 a menos de impostos** só por documentar corretamente os seus gastos. Cada fatura de software, cada curso, cada assinatura de coworking está a poupar dinheiro.
+
+Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/e-possivel-pagar-0-de-impostos-legalmente-a-verdade-sobre">É possível pagar 0% de impostos legalmente? A verdade sobre otimização fiscal</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
+### Na Exentax ajudamos com isto
+
+Parte do nosso serviço de manutenção inclui orientação sobre que gastos pode deduzir e como documentá-los corretamente. Não deixamos sozinho com uma lista. acompanhamos para que maximize as suas deduções sem problemas.
+
+Na Exentax fazemos mensalmente a contabilidade dedutível de dezenas de LLCs lusófonas. Marca a tua consultoria gratuita: mostramos-te exatamente o que passa, o que não passa e como documentar sem deixar pontas soltas.
+## Referências legais e regulamentares
+
+Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
+
+- **EUA.** Treas. Reg. §301.7701-3 (classificação de entidades / *check-the-box*); IRC §882 (imposto sobre rendimentos de estrangeiros conexos com US trade or business); IRC §871 (FDAP e retenções a não residentes); IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* e *foreign-owned disregarded entities*); IRC §7701(b) (residência fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report perante a <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Espanha.** Lei 35/2006 (LIRPF), arts. 8, 9 (residência), 87 (atribuição de rendimentos), 91 (CFC pessoas singulares); Lei 27/2014 (LIS), art. 100 (CFC sociedades); Lei 58/2003 (LGT), arts. 15 e 16; Lei 5/2022 (regime sancionatório do Modelo 720 após TJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 e 720); Ordem HFP/887/2023 (Modelo 721 cripto).
+- **Convenção Espanha–EUA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de 22/12/1990 (CDT original); Protocolo em vigor desde 27/11/2019 (rendimento passivo, *limitation on benefits*).
+- **UE / <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
+- **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
+
+A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
+
+<!-- exentax:bank-balance-v1 -->
+## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+
+Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+
+- **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
+- **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
+- **Slash** (suportada pela Column N.A. (banco com licença federal, FDIC)). Banca desenhada para operadores online: emissão instantânea de cartões virtuais por fornecedor, controlos de gasto granulares, cashback em publicidade digital. É o complemento natural quando gere Meta Ads, Google Ads ou subscrições SaaS.
+- **Wise Business** (EMI multi-divisa, não é banco). Para receber e pagar em EUR, GBP, USD e outras divisas com dados bancários locais e conversão à *mid-market rate*. Não substitui uma conta US real, mas é imbatível para tesouraria internacional.
+- **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais a precisar
+
+A informação sobre fintechs e CRS evolui; este é o estado atual:
+
+<!-- exentax:calc-cta-v1 -->
+> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notas por provedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
+- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:legal-facts-v1 -->
+## Factos legais e de procedimento
+
+As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+
+### Pontos-chave
+
+- **BOI / Corporate Transparency Act.** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida a "foreign reporting companies"** (entidades constituídas fora dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA por um não residente está, hoje, fora dessa obrigação**. O estado regulatório pode mudar de novo: **reverificar em FinCEN.gov no momento da submissão**. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo e monitoriza atualizações.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
+- **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.<!-- exentax:execution-v2 -->
+## Despesas dedutíveis numa LLC: o que entra mesmo e o que vai defender numa inspecção
+
+A regra do IRS é enganosamente simples: "ordinary and necessary" para a sua actividade. Mas o detalhe está na documentação, no método de pagamento e na coerência. Eis o que uma LLC bem operada realmente deduz - e os erros que vemos quase semanalmente.
+
+- **Claramente dedutível.** Software (Notion, Figma, taxas Stripe, hosting), publicidade (Meta, Google, LinkedIn), subcontratados com W-9 ou W-8BEN, comissões de plataformas, subscrições profissionais, equipamento informático 100% empresarial, contabilidade e consultoria. Pagamento da conta da LLC, factura em nome da LLC, arquivada no Drive ou semelhante, etiquetada por categoria.
+- **Dedutível com condições.** Coworking e escritório (totalmente), home office (percentagem do espaço dedicado exclusivamente, com documentação), viagens de negócio (bilhete, hotel, ajudas razoáveis; "eu e a família em Bali" não), formação específica da actividade, refeições com clientes (50% dedutível federal).
+- **Problemático sem substância.** Carro pessoal, roupa não-uniforme, despesas pessoais misturadas, "consultoria" paga a familiares sem serviço real ou W-9, viagens sem agenda documentada. A LLC é transparente para o IRS e opaca para o banco - ambos cruzam em inspecção.
+- **Disregarded vs C-Corp: a nuance.** Em disregarded, as despesas reduzem o Schedule C ou rendimento atribuído. Em C-Corp via form 8832, reduzem o lucro corporativo tributado a 21% federal. A documentação é idêntica.
+
+### O que mais nos perguntam
+
+**Tenho de guardar todas as facturas?** Sim, formato digital chega. Política IRS: 3 anos desde a declaração, 6 se subdeclarou >25%, indefinido se não declarou. Drive organizado por ano/categoria.
+
+**Posso deduzir a renda toda como home office?** Não, só a percentagem do espaço usado exclusiva e regularmente para trabalho. Documentação: planta, fotos, registo de uso.
+
+Na Exentax montamos a contabilidade da sua LLC desde o primeiro mês com plano de contas, política de despesas e ficheiro digital - para que a dedução seja defensável e não aspiracional.
+<!-- /exentax:execution-v2 -->
+
+## Montamos para si sem perder um fim de semana
+
+Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20vem%20do%20Regime%20Simplificado%20em%20Portugal%20ou%20do%20MEI%20no%20Brasil%20conhece%20a%20fru%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+
+Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">20%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…del espacio dedicado a trabajo (ej: si tu oficina ocupa el 20% de tu vivienda, deduces el …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">50%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…midas de negocio:** con clientes, socios o en conferencias (50% deducible generalmente) - …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">5,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…illo Un freelancer típico con una LLC suele tener entre **$5,000 y $20,000** en gastos ded…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">20,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…freelancer típico con una LLC suele tener entre **$5,000 y $20,000** en gastos deducibles …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">60,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…cia de forma significativa. Ejemplo práctico: si facturas $60,000/año y tienes $15,000 en …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">15,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ativa. Ejemplo práctico: si facturas $60,000/año y tienes $15,000 en gastos deducibles, so…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">45,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…0/año y tienes $15,000 en gastos deducibles, solo declaras $45,000 de beneficio en tu país…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">3,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…icio en tu país. Si tu tipo efectivo es del 20%, eso son **$3,000 menos de impuestos** sol…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">0%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…s/blog/pagar-cero-impuestos-legalmente-llc&quot;&gt;¿Se puede pagar 0% de impuestos legalmente? La…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…as, suscripciones profesionales, equipo informático con uso 100% empresarial, contabilidad…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">21%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…con form 8832, reducen el beneficio corporativo gravado al 21% federal. El control documen…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…ones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-ow…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…en tu Schedule C / income atribuido. Si elegiste C-Corp con form 8832, reducen el benefici…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

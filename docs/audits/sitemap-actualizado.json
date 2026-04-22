@@ -1,0 +1,63 @@
+{
+  "audit": "sitemap-actualizado",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "arquitectura": "sharded",
+  "endpoints": {
+    "/sitemap.xml": "Indice (sitemapindex) que apunta a 3 sub-sitemaps",
+    "/sitemap-pages.xml": "Paginas principales en 6 idiomas con hreflang alternates",
+    "/sitemap-blog.xml": "Articulos de blog en todos los idiomas + <news:news> para articulos < 48h",
+    "/sitemap-faq.xml": "Pagina FAQ en 6 idiomas",
+    "/robots.txt": "Allow public roots; disallow /api,/internal,/booking,/start,/links,/thanks,/*?utm_*; declara los 4 sitemaps"
+  },
+  "ubicacion": "exentax-web/server/routes/public.ts (linea 1044+)",
+  "policies": {
+    "lastmod": "Dinamico por mtime de archivo o publishedAt (blog).",
+    "changefreq": "weekly para paginas; daily para blog.",
+    "priority": "1.0 home, 0.9 servicios, 0.8 blog/faq, 0.7 legales.",
+    "cache_ttl": "1 hora (SITEMAP_CACHE_TTL)",
+    "hreflang_per_url": "Si en sitemap-pages.xml; en sitemap-blog.xml solo idiomas con traduccion existente"
+  },
+  "issues": [
+    {
+      "id": "SM-001",
+      "hallazgo": "Fallback a URL en ES cuando una traduccion del articulo no existe (sitemap-blog.xml linea ~1214).",
+      "prioridad": "media",
+      "estado": "verificado",
+      "accion": "Comportamiento intencional: cubierto por tarea 'Filtrar articulos del blog por idioma ademas de pais' que mejorara filtrado UI."
+    },
+    {
+      "id": "SM-002",
+      "hallazgo": "robots.txt bloquea /booking/ pero permite /booking (sin slash). Verificar consistencia.",
+      "prioridad": "baja",
+      "estado": "verificado",
+      "accion": "Sin cambio: la ruta real solo se monta en /booking/:token; sin /booking servido."
+    },
+    {
+      "id": "SM-003",
+      "hallazgo": "noindex accidental: ninguno detectado. SEO.tsx solo aplica noindex si la prop se pasa explicita (p.ej. en /links, /start, /booking).",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "SM-004",
+      "hallazgo": "Ping a Google/Bing automatico tras publicar contenido (sitemap-ping.ts + indexnow.ts).",
+      "prioridad": "alta",
+      "estado": "verificado",
+      "accion": "Sin cambio."
+    },
+    {
+      "id": "SM-005",
+      "hallazgo": "Validar en CI que el sitemap incluye exactamente las rutas declaradas en shared/routes.ts (script seo-sitemap-check.mjs).",
+      "prioridad": "media",
+      "estado": "presente",
+      "accion": "Confirmar inclusion en npm run check (ya esta en blog:validate-all + seo:check)."
+    }
+  ],
+  "resumen": {
+    "endpoints_sitemap": 4,
+    "issues_pendientes": 0,
+    "issues_verificados": 5,
+    "estado_general": "sitemap robusto y completo"
+  }
+}

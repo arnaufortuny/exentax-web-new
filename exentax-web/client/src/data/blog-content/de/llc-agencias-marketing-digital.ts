@@ -1,0 +1,203 @@
+export default `Für eine deutschsprachige Digitalagentur, die US-, UK- oder Golf-Kunden bedient, erstickt die Kombination GmbH + Umsatzsteuer + Reverse Charge irgendwann die Marge. Eine LLC erlaubt direkte USD-Fakturierung ohne Quellensteuern und vereinfacht Deals mit US-Agenturen radikal, die unter deutschem Vehikel oft gar nicht erst unterschreiben.
+
+## Warum Agenturen sich für eine LLC entscheiden
+
+Wenn Sie Google Ads-, Meta Ads-, SEO- oder Social-Media-Kampagnen für internationale Kunden verwalten, kann eine lokale Struktur zum Engpass werden. Eine amerikanische LLC bietet Ihnen:
+
+- **Saubere internationale Fakturierung.** Sie stellen Rechnungen von einem amerikanischen Unternehmen aus, was die Beziehung zu Kunden aus jedem Land enorm vereinfacht.
+- **Reibungsloses Kassieren in Dollar.** Konten bei Mercury oder Relay mit direktem Zugang zu ACH und Überweisungen.
+- **Zugang zu Werbetools.** Viele Plattformen bieten amerikanischen Unternehmen bessere Konditionen. Sie können Werbekonten direkt auf den Namen Ihrer LLC eröffnen.
+- **Sofortige Glaubwürdigkeit.** Wenn ein potenzieller Kunde sieht, dass Sie mit einer amerikanischen Struktur arbeiten, steigt die Wahrnehmung von Professionalität automatisch.
+- **Skalierbarkeit.** Sie können internationale Freiberufler beauftragen, Dienstleistungen auslagern und alles über Ihre LLC verwalten, ohne die Einschränkungen einer lokalen Struktur.
+### Wie es in der Praxis funktioniert
+
+Der Alltag mit einer LLC ist einfacher als es scheint:
+
+1. **Ihre Kunden bezahlen Sie** auf Ihr amerikanisches Bankkonto (Mercury, Relay).
+2. **Sie bezahlen Ihr Team und Ihre Lieferanten** vom selben Konto oder per internationaler Überweisung.
+3. **Sie verwalten Ihre Werbeausgaben** direkt über die Debitkarte Ihrer LLC.
+4. **Am Jahresende** kümmern wir uns um die Erklärungen beim <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
+
+Sie müssen nicht in die Vereinigten Staaten reisen, Sie brauchen kein physisches Büro, und der gesamte Gründungsprozess ist 100% remote.
+### Wann lohnt es sich für eine Agentur?
+
+Wenn Ihre Agentur mehr als 3.000-5.000€ pro Monat fakturiert und mindestens ein paar internationale Kunden hat, ist es sehr wahrscheinlich, dass die LLC-Struktur Ihnen Vorteile bringt. Je höher Ihre Fakturierung, desto größer kann der Unterschied sein.
+
+Wenn Sie weniger fakturieren oder nur lokale Kunden haben, ist eine LLC möglicherweise noch nicht die beste Option. In der kostenlosen Beratung analysieren wir Ihren spezifischen Fall und geben Ihnen eine ehrliche Antwort.
+## Wichtige Integrationen für Agenturen
+
+### Stripe zum Kassieren bei internationalen Kunden
+Mit Stripe US, verknüpft mit Ihrer LLC, können Sie:
+- Monatliche Retainer per Kreditkarte kassieren
+- Zahlungslinks für einzelne Projekte erstellen
+- Wiederkehrende Dienstleistungen automatisch fakturieren
+- Zahlungen in mehr als 135 Währungen akzeptieren
+- Transparente Gebühren: 2,9% + $0,30 pro inländische Transaktion
+
+### Mercury als Finanzzentrale
+Mercury mit $0 Gebühren für Überweisungen (national und international) ist ideal für Agenturen, die ständig Geld bewegen:
+- Zahlungen an Team und internationale Freiberufler (per Wire oder ACH)
+- Werbeausgaben direkt über die Mercury-Debitkarte
+- Unterkonten zur Trennung von Geldern nach Kunde oder Projekt
+- Ihre Gelder bei den Partnerbanken von Mercury (Choice Financial Group / Evolve Bank & Trust) mit FDIC-Versicherung über Sweep-Netzwerk verwahrt
+
+### Wise Business für Zahlungen an internationales Team
+Wenn Sie Mitarbeiter in Spanien, Mexiko, Argentinien oder einem anderen Land haben, ermöglicht Ihnen Wise (als EMI mit realem Wechselkurs) die Bezahlung in deren lokaler Währung zu den besten Kursen. Wesentlich günstiger als internationale Überweisungen von traditionellen Banken.
+### Praxisbeispiel: Performance-Marketing-Agentur
+
+**Ohne LLC (Selbstständige in Spanien):**
+- Fakturierung: 120.000€/Jahr
+- Einkommensteuer ~37% + Sozialversicherungsbeiträge = ~48.000€ an Steuern und Abgaben
+- Fakturierung an US-Kunden mit Quellensteuern und Einschränkungen
+
+**Mit LLC:**
+- Gleiche Fakturierung über die LLC kanalisiert
+- $0 US-Bundessteuer
+- Optimierte Besteuerung im Wohnsitzland: ~14.000-17.000€
+- LLC-Kosten: ~1.400 €/Jahr (Jahr 1 ≈ 2.000 € durch die Gründung)
+- **Jährliche Ersparnis: ~29.000-32.000€**
+
+Mit dieser Ersparnis stellen Sie einen weiteren Designer ein, investieren in eigene Werbung oder nehmen es einfach mit nach Hause.
+
+Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a href="/de/blog/us-llc-fur-content-creator-youtube-twitch-und-mehr">US LLC für Content-Creator: YouTube, Twitch und mehr</a> und <a href="/de/blog/was-ist-der-irs-und-wie-betrifft-er-ihre-us-llc">Was ist der IRS und wie betrifft er Ihre US LLC?</a> schärfen genau die Kanten, die wir oben nur angerissen haben.
+### Was wir für Sie tun
+
+Komplette LLC-Gründung, EIN, Bankkonto, Stripe-Konfiguration und Fakturierung, jährliches Compliance. Wir verschwinden nicht, nachdem wir das Unternehmen aufgebaut haben. wir bleiben an Ihrer Seite, damit alles korrekt funktioniert. Kontinuierlicher Support, das ganze Jahr über.
+
+Vereinbaren Sie eine kostenlose Beratung und wir erklären Ihnen, wie es für Ihre Agentur funktionieren könnte. In 30 Minuten rechnen wir mit Ihren realen Zahlen.
+
+Bei Exentax strukturieren wir DACH-Agenturen, die zwischen Berlin, Wien und New York operieren. Buchen Sie Ihre kostenlose Beratung und wir zeigen Ihnen, wie Sie zwischen GmbH und LLC sauber splitten, ohne Risiko mit dem Finanzamt.
+## Rechtliche und regulatorische Quellen
+
+Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft sind. Hauptquellen zur Verifikation:
+
+- **USA.** Treas. Reg. §301.7701-3 (Entity Classification / *check-the-box*); IRC §882 (Steuer auf mit US-Geschäft effektiv verbundene Einkünfte Ausländer); IRC §871 (FDAP und Quellensteuer bei Nicht-Residenten); IRC §6038A und Treas. Reg. §1.6038A-2 (Form 5472 für *25% foreign-owned* und *foreign-owned disregarded entities*); IRC §7701(b) (Steuerwohnsitz, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report bei <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Spanien.** Gesetz 35/2006 (LIRPF), Artt. 8, 9 (Wohnsitz), 87 (Einkünftezurechnung), 91 (Hinzurechnungsbesteuerung natürliche Personen); Gesetz 27/2014 (LIS), Art. 100 (Hinzurechnungsbesteuerung Gesellschaften); Gesetz 58/2003 (LGT), Artt. 15 und 16; Gesetz 5/2022 (Sanktionsregime Modelo 720 nach EuGH C-788/19 vom 27.01.2022); RD 1065/2007 (Modelos 232 und 720); Anordnung HFP/887/2023 (Modelo 721 Krypto).
+- **DBA Spanien–USA.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
+- **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
+- **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
+
+<!-- exentax:calc-cta-v1 -->
+> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+<!-- /exentax:calc-cta-v1 -->
+
+Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+
+<!-- exentax:banking-facts-v1 -->
+## Bank- und Steuerfakten zur Präzisierung
+
+Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
+
+### Hinweise nach Anbieter
+
+- **Mercury** arbeitet mit mehreren bundesweit lizenzierten Partnerbanken mit **FDIC**-Deckung über Sweep-Netzwerk: hauptsächlich **Choice Financial Group** und **Evolve Bank & Trust**, sowie **Column N.A.** in einigen Altkonten. Mercury ist selbst keine Bank; es ist eine Fintech-Plattform, die durch diese Partnerbanken getragen wird. Wenn Mercury ein Konto schließt, wird der Saldo in der Regel **per Papierscheck an die hinterlegte Adresse des Kontoinhabers** zurückgesandt, was für Nicht-Residenten ein ernsthaftes operatives Problem darstellen kann; ein sekundäres Konto (Relay, Wise Business etc.) sollte als Reserve aktiv sein.
+- **Wise** bietet zwei klar getrennte Produkte: **Wise Personal** und **Wise Business**. Für eine LLC ist **Wise Business** zu eröffnen, nicht das persönliche Konto. Wichtige CRS-Nuance: Ein **Wise Business im Namen einer US-LLC liegt außerhalb des CRS**, weil Kontoinhaberin eine US-Entität ist und die USA kein CRS-Teilnehmer sind; die USD-Seite läuft über Wise US Inc. (FATCA-Perimeter, nicht CRS). Dagegen löst ein **Wise Personal, eröffnet von einer in Spanien** oder einem anderen CRS-Land steuerlich ansässigen Person, sehr wohl eine **CRS-Meldung über Wise Europe SA (Belgien)** zu dieser Person aus. Wise für die LLC zu öffnen bringt Sie nicht über die LLC ins CRS; ein separates Wise Personal auf Ihren Namen als in einem CRS-Land Ansässiger schon.
+- **Wallester** (Estland) ist ein europäisches Finanzinstitut mit EMI-/Karten-Emittentenlizenz. Seine europäischen IBAN-Konten **fallen unter den Gemeinsamen Meldestandard (CRS)** und lösen daher den automatischen Informationsaustausch an die Steuerverwaltung des Wohnsitzlands aus.
+- **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
+- **Revolut Business**: in Verbindung mit einer **US-LLC** läuft die übliche Konfiguration über Revolut Payments USA; europäische IBANs (litauisch, BE) **werden einer LLC nicht standardmäßig ausgegeben**, sie werden europäischen Kunden der europäischen Bank des Konzerns ausgegeben. Wird Ihnen ein europäischer IBAN angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
+- **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:legal-facts-v1 -->
+## Rechts- und Verfahrensfakten
+
+Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+### Kernpunkte
+
+- **BOI / Corporate Transparency Act.** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC fällt heute außerhalb dieser Pflicht**. Der Regelstatus kann erneut wechseln: **Bei Einreichung auf FinCEN.gov prüfen**. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren und Updates beobachten.
+- **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
+- **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
+## LLC für Digital-Marketing-Agenturen: das Setup, das ohne Reibung skaliert
+
+Eine Digital-Marketing-Agentur ist eines der Profile, in dem die US-LLC fast immer funktioniert: B2B-internationale Kunden, saubere Rechnung ohne USt-Überschneidung, dollar-freundliches Banking und ein Stack, der von Solo-Freelance auf 8-15-Personen-Team skaliert. Das funktioniert in echten Agenturen mit 200k-2M jährlich.
+
+- **Warum die LLC zur Agentur passt.** Ihre Kunden sind Unternehmen (B2B), zahlen in USD oder EUR ohne Einbehaltspflicht, schätzen die Rechnung aus internationaler Entität statt Solo-Selbständigem. Mercury + Stripe + Wise löst USD/EUR-Empfang, Umrechnung und Kartenausgabe für Meta, Google, Notion. Keine USt-Überschneidung.
+- **Empfohlene typische Struktur.** Single-member LLC in Wyoming oder New Mexico, EIN, Mercury Business als Hauptkonto, Wise Business für EUR/GBP, Stripe US für Karten, Contractor Agreements (W-9 oder W-8BEN je Land). Wartungskosten: 1.500-2.500 USD jährlich all-in.
+- **Was in Ihrem Wohnsitzland besteuert wird.** In Deutschland werden der LLC zugerechnete Gewinne als gewerbliche/selbständige Einkünfte besteuert. In LATAM ist die LLC meist opak, nur Ausschüttungen besteuert. Die LLC befreit Sie nicht von der ESt - spart aber operative Reibung, USt-Überschneidung und gibt internationale Skala.
+- **Häufiger Fehler.** Alles über die LLC laufen lassen, nichts im Heimatland zu fakturieren ohne Erklärung. Das Finanzamt erkennt den Fluss (CRS, Wise, Stripe) und die Prüfung kommt mit 50-150% Zuschlag.
+
+### Was am häufigsten gefragt wird
+
+**Besser LLC oder GmbH für meine Agentur?** Abhängig vom Mix: >70% internationale Kunden, LLC meist operativer und günstiger. >70% deutsche Kunden, GmbH sinnvoller wegen lokalem Banking, USt OSS und flexibleren Abzügen.
+
+**Kann ich Freelancer von der LLC unterauftragen?** Ja, mit Contractor Agreement und Steuerformular: W-9 für US-Freelancer, W-8BEN für Nicht-US-Person, W-8BEN-E für Nicht-US-Entität. Zahlungen via ACH oder Wire/Wise. 100% abzugsfähig.
+
+Bei Exentax bauen wir das komplette LLC-Setup einer Digital-Marketing-Agentur in 4-6 Wochen (Gründung + EIN + Mercury + Stripe + Wise + Contractor-Templates), bereit für den ersten Kunden.
+<!-- /exentax:execution-v2 -->
+
+## Referenzen: Quellen zu Strukturen und Jurisdiktionen
+
+Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren auf offiziellen Quellen, aktualisiert bis aktuell:
+
+- **Vereinigte Staaten.** Delaware General Corporation Law und Limited Liability Company Act, Wyoming Limited Liability Company Act (Title 17, Chapter 29), IRS-Anleitung zum Form 5472 und IRC §7701 (Entitätsklassifikation).
+- **Andorra.** Llei 95/2010 de l'Impost sobre Societats (10% IS), Llei 5/2014 del IRPF und aktive/passive Aufenthaltsregelung der Govern d'Andorra.
+- **Estland.** Estnisches Einkommensteuergesetz (aufgeschobene Körperschaftsteuer auf ausgeschüttete Gewinne, 20/22%) und offizielle Dokumentation des e-Residency-Programms.
+- **Spanien.** Ley 27/2014 (IS), Ley 35/2006 (IRPF, Art. 8-9 zur Ansässigkeit und Art. 100 zur Hinzurechnungsbesteuerung) sowie Sonderregelung für Zuzügler (Art. 93 LIRPF, "Beckham-Gesetz").
+- **OECD.** Pillar Two (GloBE) und OECD-Musterabkommen mit Kommentaren.
+
+Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansässigkeit des Inhabers und von der wirtschaftlichen Substanz der Tätigkeit ab; prüfen Sie Ihren konkreten Fall vor jeder strukturellen Entscheidung.
+
+<!-- exentax:cross-refs-v1 -->
+### Weiterführende Lektüre
+
+- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
+<!-- /exentax:cross-refs-v1 -->
+### Praktischer Hinweis
+
+Jede steuerliche Situation hängt von Ihrer Ansässigkeit, der ausgeübten Tätigkeit und den geltenden Verträgen ab. Die hier dargestellten Informationen sind allgemein und ersetzen keine individuelle Beratung; prüfen Sie Ihren konkreten Fall, bevor Sie strukturelle Entscheidungen treffen.
+### Redaktioneller Hinweis
+
+Dieser Artikel wird jährlich an die regulatorischen Änderungen angepasst, die die behandelten Strukturen betreffen. Wenn Sie einen veralteten Verweis entdecken, schreiben Sie uns, und wir werden ihn im nächsten redaktionellen Zyklus überarbeiten; wir halten das Veröffentlichungsdatum oben in jedem Beitrag sichtbar, um volle Transparenz zu gewährleisten.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20eine%20deutschsprachige%20Digitalagentur%2C%20die%20US-%2C%20UK-%20oder%20Golf-Kunden%20bedie%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+
+Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
+<!-- /exentax:cta-conv-v1 -->
+
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…esitas oficina física, y todo el proceso de constitución es 100% remoto. ### ¿Cuándo tiene…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">3.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ene sentido para una agencia? Si tu agencia factura más de 3.000-5.000€ al mes y tienes al…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">5.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ntido para una agencia? Si tu agencia factura más de 3.000-5.000€ al mes y tienes al menos…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">9%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…Aceptar pagos en más de 135 divisas - Comisiones claras: 2.9% + $0.30 por transacción domé…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">120.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…arketing **Sin LLC (autónomos en España):** - Facturación: 120.000€/año - IRPF ~37% + cuot…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">37%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…autónomos en España):** - Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.00…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">48.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.000€ entre impuestos y cuota…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
+<li><span class="font-mono">14.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ral EE.UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">17.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">1.400</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">29.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…año (año 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorr…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">32.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…o 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorro contr…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…u equipo (W-9 o W-8BEN según país). Coste de mantenimiento: 1.500-2.500 USD anuales todo i…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">2.500</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…po (W-9 o W-8BEN según país). Coste de mantenimiento: 1.500-2.500 USD anuales todo incluid…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">150%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…pe puede reportar) y la inspección llega con recargo del 50-150%. La LLC se declara, no se…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">70%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…iedad española (SL) para mi agencia?** Depende del mix: si &gt;70% clientes internacionales (…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-ow…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

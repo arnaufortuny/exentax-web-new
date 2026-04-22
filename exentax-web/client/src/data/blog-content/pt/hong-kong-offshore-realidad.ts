@@ -1,0 +1,237 @@
+export default `Hong Kong foi durante décadas a jurisdição offshore preferida de empreendedores asiáticos e europeus. Uma empresa lá era sinónimo de prestígio internacional, fiscalidade territorial e banca séria. atualmente essa imagem continua a rondar fóruns e vídeos do YouTube, mas a realidade é muito diferente do postal dos anos 2000.
+
+Na Exentax recebemos todos os meses perguntas de pessoas que estão prestes a constituir uma Hong Kong Limited atraídas pelo "0 % offshore". Antes de dar o passo, vale a pena entender o que está realmente por trás.
+
+## O que é uma Hong Kong Limited
+
+A estrutura habitual é a "Private Company Limited by Shares", uma sociedade de responsabilidade limitada conceptualmente equivalente a uma Lda. portuguesa. Para constituí-la é necessário um nome aprovado, um diretor (pode ser estrangeiro), um secretário residente em Hong Kong, um domicílio social em Hong Kong e um capital social mínimo simbólico (basta 1 HKD).
+
+A constituição faz-se em poucos dias com qualquer escritório local. O custo vai de 800 a 2.000 USD consoante o prestador, mais quotas anuais detalhadas mais abaixo.
+## O mito da fiscalidade offshore
+
+O sistema fiscal de Hong Kong é **territorial**: só tributa lucros "obtidos em Hong Kong". Em teoria, se a sua empresa fatura a clientes fora de Hong Kong, não realiza operações em Hong Kong e não tem escritórios lá, poderia aplicar a "offshore claim" e tributar a 0 %.
+
+Soa perfeito. A realidade é mais complicada:
+
+- A Inland Revenue Department (IRD) examina cada pedido de offshore claim caso a caso. Não é automática.
+- Os critérios endureceram nos últimos anos, sobretudo desde a pressão <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>/BEPS e as mudanças introduzidas recentemente sobre rendimentos passivos estrangeiros (regime FSIE).
+- Conseguir o reconhecimento offshore pode demorar entre 12 e 24 meses, durante os quais a sua empresa está em limbo fiscal.
+- A apresentação da offshore claim exige documentação detalhada: contratos, faturas, evidência de que as decisões são tomadas fora de Hong Kong, etc.
+- Se a IRD rejeitar a offshore claim, paga 8,25 % sobre os primeiros 2 milhões de HKD e 16,5 % sobre o restante.
+
+Na prática, conseguir e manter o estatuto offshore exige assessoria contínua e documentação sofisticada. Para uma empresa pequena, os honorários anuais podem superar o benefício fiscal.
+### Custos reais de manter uma Hong Kong Limited
+
+Antes da fiscalidade, existe um piso de custos que não desaparece:
+
+- **Business Registration Certificate**: aproximadamente 2.150 HKD anuais (cerca de 270 USD).
+- **Annual Return** ao Companies Registry: 105 HKD.
+- **Company Secretary** residente: 600 a 1.500 USD anuais.
+- **Domicílio social** registado: 300 a 800 USD anuais.
+- **Auditoria obrigatória** por um Hong Kong CPA: desde 1.500 USD para empresas pequenas, em muitos casos 2.500 a 5.000 USD.
+- **Profits Tax Return** anual: gestão por um consultor entre 500 e 1.500 USD.
+- **Offshore claim** (se solicitada): 2.000 a 5.000 USD adicionais em honorários na primeira vez.
+
+O piso realista para manter uma empresa básica é 4.000 a 7.000 USD por ano. Muito longe do custo de manutenção de uma <a href="/pt/blog/quanto-custa-constituir-uma-llc-americana-analise-completa">LLC americana</a>, que ronda os 500 a 800 USD anuais.
+### A realidade bancária: o muro invisível
+
+A mudança mais drástica desde a era dourada de Hong Kong é a bancária. Os grandes bancos (HSBC, Standard Chartered, Hang Seng) endureceram tanto as suas políticas KYC que abrir uma conta corporativa para uma Hong Kong Limited propriedade de um não residente é, hoje, uma odisseia:
+
+- Costumam exigir presença física do diretor na sucursal.
+- Pedem plano de negócios detalhado, contratos com clientes, evidência de atividade real.
+- Saldos mínimos elevados: 50.000 HKD a 1 milhão de HKD consoante o banco.
+- Taxas de rejeição elevadas, sem reembolso das gestões.
+
+Como alternativa surgiram neobancos como Airwallex, Statrys ou Currenxie. Funcionam, mas cobram comissões (50 a 200 USD/mês) e não são bancos propriamente ditos: são EMIs (instituições de moeda eletrónica). Não há seguro de depósitos.
+
+Comparado com a facilidade de abrir uma conta Mercury para uma LLC a partir de qualquer país, a diferença é abissal.
+### Reputação internacional e CRS
+
+Hong Kong continua a fazer parte da troca automática de informação (CRS). Se é residente fiscal em Portugal, no Brasil ou em qualquer país que aplique o CRS, os saldos e rendimentos da sua empresa de Hong Kong são reportados à sua autoridade fiscal local. A ideia de "esconder" dinheiro lá é, simplesmente, inviável.
+
+A isto soma-se o contexto geopolítico: muitos bancos europeus e americanos olham com crescente desconfiança para operações com contraparte em Hong Kong, sobretudo desde 2020. Não é raro um cliente português pedir o cancelamento de um fornecedor pelo simples facto de ter a sua empresa em Hong Kong.
+## Comparação honesta com a LLC americana
+
+Para o perfil habitual da Exentax (freelancer, agência, e-commerce, SaaS, criador de conteúdo), a LLC americana cobre tudo o que Hong Kong prometia e elimina o que Hong Kong complica:
+
+- **Fiscalidade**: 0 % federal nos EUA para não residentes, sem pedidos nem claims a gerir ano após ano (<a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">pass-through</a>).
+- **Custo anual**: 500-800 USD versus 4.000-7.000 USD de Hong Kong.
+- **Banca**: Mercury, Wise, Wallester, Slash, Relay, abrem remoto e operam em USD desde o primeiro dia.
+- **Reputação**: nenhum cliente ou fornecedor levanta objeções a uma empresa americana.
+- **Sem auditoria obrigatória**: a LLC não tem de auditar contas. Basta um Form 5472 anual.
+
+Há casos em que Hong Kong continua a fazer sentido? Sim: empresas com presença operacional real na Ásia, comércio internacional com a China continental, fundos ou estruturas complexas com assessoria dedicada. Para o resto, a resposta sincera é não.
+### Riscos reais a conhecer
+
+Para além do custo, os riscos práticos:
+
+- **Encerramento bancário sem aviso prévio**: muitos titulares relatam encerramentos unilaterais com 30 dias de prazo e bloqueio de fundos.
+- **Auditoria obrigatória**: se não a apresenta, a IRD impõe multas e o Companies Registry pode pedir a dissolução.
+- **Strike-off involuntário**: o incumprimento de Annual Returns pode provocar o striking-off e a perda da sociedade sem possibilidade de recuperar fundos.
+- **Endurecimento BEPS Pillar Two**: a partir de recent years, multinacionais médias podem ver a vantagem territorial erodida.
+### Casos típicos onde se aplica
+
+**Caso 1: consultor europeu com clientes em Singapura e Tóquio.**
+Hong Kong faz sentido se passa vários meses por ano na região. A conta bancária local facilita cobranças asiáticas e o regime territorial pode aplicar-se se a atividade for exterior e bem documentada.
+
+**Caso 2: ecommerce que vende a clientes ocidentais mas com fornecedores chineses.**
+Hong Kong pode aportar conta operacional para pagamentos a fábricas, mas a fiscalidade real depende do país de residência do proprietário. A LLC americana costuma ser mais eficiente para a faturação ao Ocidente.
+
+**Caso 3: nómada digital sem residência clara.**
+Hong Kong é má escolha. Sem substância real nem residência local, expõe a estrutura a requalificação por qualquer autoridade fiscal com vinculação. A LLC com residência em Andorra, Panamá ou Dubai é estrutura mais limpa e económica.
+## Perguntas frequentes
+
+**Hong Kong continua a ser offshore atualmente?**
+
+Apenas formalmente. A adesão ao BEPS, a pressão da UE e a assinatura de acordos CRS reduziram a opacidade real. Se o seu fisco local detetar substância inexistente, a requalificação é muito provável.
+
+**Posso abrir conta bancária sem viajar?**
+
+É cada vez mais difícil. HSBC, Hang Seng e Standard Chartered exigem visita presencial. Algumas EMIs (Airwallex, Currenxie, Statrys) permitem abertura remota, mas com limites operacionais.
+
+**Quanto custa manter uma Hong Kong Limited por ano?**
+
+Entre 2.500 e 5.000 USD: secretário corporativo, escritório virtual, auditoria obrigatória e declaração fiscal. Uma ordem de grandeza acima de uma LLC americana.
+
+**Serve para vender em mercados ocidentais?**
+
+Sim, mas a perceção é mista. Para clientes asiáticos é positiva; para europeus e americanos pode despertar revisões KYC e due diligence mais rigorosas.
+
+**Quando escolheria Hong Kong em vez de LLC americana?**
+
+Apenas quando a operativa real está na Ásia: clientes maioritariamente em HK, China ou Singapura, equipa presente na zona e banca local imprescindível. Para o caso médio internacional, a LLC americana é mais eficiente.
+
+**O que acontece se a China mudar a sua política sobre Hong Kong?**
+
+É um risco geopolítico real. Qualquer endurecimento legal ou restrição de capitais pode afetar a operativa bancária e a convertibilidade. Diversificar com conta secundária fora da região é prudente para qualquer estrutura HK.
+### Conclusão
+
+Hong Kong continua a ser uma jurisdição séria, mas já não é a solução offshore mágica que alguns continuam a vender. Para empreendedores não residentes que querem simplicidade, banca operacional, custo razoável e fiscalidade limpa, a LLC americana oferece hoje uma melhor combinação.
+
+Se está a hesitar entre as duas opções, na Exentax podemos analisar o seu caso concreto antes de assumir custos depois difíceis de reverter. Pode contactar-nos e explicamos-lhe o que faz sentido para a sua atividade e o seu país de residência.
+## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
+
+Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
+
+### Por jurisdição
+
+- **Espanha (LIRPF/LIS).** Se a LLC for uma *Single-Member Disregarded Entity* operacional (serviços reais, sem passividade significativa), o fisco trata-a normalmente por **atribuição de rendimentos (art. 87 LIRPF)**: os lucros líquidos são imputados ao sócio no exercício em que se geram e integram-se na base geral do IRPF. Se a LLC optar por tributar como *corporation* (Form 8832) e ficar controlada por residente espanhol com rendimentos maioritariamente passivos, pode ativar-se a **transparência fiscal internacional (art. 91 LIRPF para pessoas singulares, art. 100 LIS para sociedades)**. A diferença não é opcional: depende da substância económica, não do nome.
+- **Declarações informativas.** Contas bancárias nos EUA com saldo médio ou final >50.000 € no exercício: **Modelo 720** (Lei 5/2022 após o acórdão TJUE C-788/19, 27/01/2022, sanções agora no regime geral LGT). Operações vinculadas com a LLC e dividendos repatriados: **Modelo 232**. Criptoativos custodiados nos EUA: **Modelo 721**.
+- **CDT Espanha–EUA.** A convenção (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo em vigor 27/11/2019) regula a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável em Espanha não constitui por si só EE do sócio, mas a direção efetiva pode criá-lo se toda a gestão for feita a partir de território espanhol.
+- **México, Colômbia, Argentina e outros LATAM.** Cada jurisdição tem o seu próprio regime CFC (México: Refipres; Argentina: rendimentos passivos do exterior; Chile: art. 41 G LIR). Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
+
+Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
+
+<!-- exentax:calc-cta-v1 -->
+> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+<!-- /exentax:calc-cta-v1 -->
+
+Na Exentax, montamos a estrutura para encaixar no primeiro cenário e documentamos cada passo para que a sua declaração local seja defensável perante uma eventual revisão.
+
+<!-- exentax:legal-refs-v1 -->
+## Referências legais e regulamentares
+
+Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
+
+- **EUA.** Treas. Reg. §301.7701-3 (classificação de entidades / *check-the-box*); IRC §882 (imposto sobre rendimentos de estrangeiros conexos com US trade or business); IRC §871 (FDAP e retenções a não residentes); IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* e *foreign-owned disregarded entities*); IRC §7701(b) (residência fiscal, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report perante a <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
+- **Espanha.** Lei 35/2006 (LIRPF), arts. 8, 9 (residência), 87 (atribuição de rendimentos), 91 (CFC pessoas singulares); Lei 27/2014 (LIS), art. 100 (CFC sociedades); Lei 58/2003 (LGT), arts. 15 e 16; Lei 5/2022 (regime sancionatório do Modelo 720 após TJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 e 720); Ordem HFP/887/2023 (Modelo 721 cripto).
+- **Convenção Espanha–EUA.** BOE de 22/12/1990 (CDT original); Protocolo em vigor desde 27/11/2019 (rendimento passivo, *limitation on benefits*).
+- **UE / OCDE.** Diretiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Diretiva (UE) 2021/514, plataformas digitais) e DAC8 (Diretiva (UE) 2023/2226, criptoativos); Diretiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Padrão Comum de Comunicação (CRS) da OCDE.
+- **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
+A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
+
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais a precisar
+
+A informação sobre fintechs e CRS evolui; este é o estado atual:
+
+### Notas por provedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
+- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
+
+<!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
+## Hong Kong como base offshore: a realidade para lá do marketing
+
+Hong Kong continua a vender-se como "0% sobre rendimentos de fonte estrangeira", mas a fotografia actual é muito diferente da de há uma década. Banca restritiva, FSIE Regime endurecido, escrutínio CRS e mudanças geopolíticas tornaram HK válida apenas para perfis muito específicos.
+
+- **O mito da isenção offshore.** O regime FSIE já não é automático: rendimentos passivos (juros, dividendos, royalties, mais-valias) tributam a 16,5% se a entidade não demonstrar substância económica em HK (escritório, empregados, despesa operacional).
+- **Banca: a barreira real.** HSBC, Bank of China, Standard Chartered fecham contas a empresas sem operativa local. Onboarding actual: 3-6 meses, KYC reforçado, exigência de director residente ou presença física documentada.
+- **CRS e reporte automático.** HK assinou CRS e partilha com 70+ jurisdições, incluindo Portugal e toda a UE. Qualquer conta HK Limited cujo UBO seja residente português é reportada automaticamente à AT.
+- **Quando ainda faz sentido.** Operativa real com cliente asiático, import-export com presença física HK, IP holding com royalties asiáticos consolidados, expansão de grupo asiático. Para freelance digital europeu ou ecommerce DTC, raramente compensa face a uma LLC US ou EOOD UE.
+
+### O que mais nos perguntam
+
+**Vale ainda a pena montar uma HK Limited?** Para perfil específico (cliente asiático, presença local, volume >500k), sim; para genérico digital europeu, quase nunca. Custo de manutenção (auditoria obrigatória, secretário corporativo, registered office): 6-12k anuais mínimo.
+
+**Posso abrir conta HSBC HK sem viajar?** Na prática, não para não residentes sem escritório. O stack realista é Statrys ou Airwallex (fintech), com onboarding documental pesado.
+
+Na Exentax revemos casos HK existentes e comparamos com alternativas (LLC US, EOOD Bulgária, Singapura) com os seus números reais - para decidir manter, migrar ou liquidar a estrutura.
+<!-- /exentax:execution-v2 -->
+
+## Factos legais e de procedimento
+
+As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram em recent years; eis o estado atual:
+
+### Pontos-chave
+
+- **BOI / Corporate Transparency Act.** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida a "foreign reporting companies"** (entidades constituídas fora dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA por um não residente está, hoje, fora dessa obrigação**. O estado regulatório pode mudar de novo: **reverificar em FinCEN.gov no momento da submissão**. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo e monitoriza atualizações.
+- **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
+- **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
+- **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
+### Lembrete prático
+
+Cada situação fiscal depende da sua residência, da atividade exercida e dos contratos em vigor. As informações aqui apresentadas são gerais e não substituem aconselhamento personalizado; analise o seu caso específico antes de tomar decisões estruturais.
+
+
+Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Hong%20Kong%20foi%20durante%20d%C3%A9cadas%20a%20jurisdi%C3%A7%C3%A3o%20offshore%20preferida%20de%20empreendedor%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+
+Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">0%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…punto de constituir una Hong Kong Limited atraídas por el &quot;0% offshore&quot;. Antes de dar el p…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…cos días con cualquier despacho local. El coste va de 800 a 2.000 USD según el proveedor, …»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ong, etc. - Si la IRD rechaza la offshore claim, pagas el 8,25% sobre los primeros 2 millo…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">5%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…pagas el 8,25% sobre los primeros 2 millones de HKD y el 16,5% sobre el resto. En la práct…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">2.150</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…: - **Business Registration Certificate**: aproximadamente 2.150 HKD anuales (unos 270 USD…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…Registry: 105 HKD. - **Company Secretary** residente: 600 a 1.500 USD anuales. - **Domicil…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">2.500</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…PA: desde 1.500 USD para empresas pequeñas, en muchos casos 2.500 a 5.000 USD. - **Profits…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">5.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…e 1.500 USD para empresas pequeñas, en muchos casos 2.500 a 5.000 USD. - **Profits Tax Ret…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">4.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ez. El suelo realista para mantener una empresa básica son 4.000 a 7.000 USD al año. Muy l…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">7.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…suelo realista para mantener una empresa básica son 4.000 a 7.000 USD al año. Muy lejos de…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">50.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…entes, evidencia de actividad real. - Saldos mínimos altos: 50.000 HKD a 1 millón de HKD s…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NÃO VERIFICADO]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…atoria**: la LLC no tiene que auditar cuentas. Basta con un Form 5472 anual. ¿Hay casos en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…*). - **UE / OCDE.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

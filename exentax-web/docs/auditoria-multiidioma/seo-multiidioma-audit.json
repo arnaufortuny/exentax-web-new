@@ -1,0 +1,73 @@
+{
+  "task": "Task #7 — Verificar que las URLs alternates por idioma se emiten correctamente en todas las páginas",
+  "verifiedAt": "2026-04-22T08:11:17Z",
+  "scope": [
+    "client/src/components/SEO.tsx (per-page <link rel=alternate hreflang>)",
+    "server/routes/public.ts (/sitemap-pages.xml, /sitemap-blog.xml, /sitemap-faq.xml)",
+    "client/src/data/blog-i18n/{en,fr,de,pt,ca}.ts (metaTitle/metaDescription lengths)",
+    "client/src/i18n/language-service.ts, client/src/lib/lang-utils.ts, client/src/components/SEO.tsx (locale tag mapping)"
+  ],
+  "results": {
+    "hreflangPerPage": {
+      "status": "OK",
+      "evidence": "SEO.tsx emits 6 lang alternates + x-default for non-blog routes via SUPPORTED_LANGS + getLocalizedPath, and per-available-lang alternates + x-default for blog posts via getAvailableLangsForSlug. document.documentElement.lang is set on every render."
+    },
+    "sitemapBlogVariants": {
+      "status": "OK",
+      "expectedPosts": 111,
+      "expectedLangs": 6,
+      "expectedTotal": 666,
+      "observedBlogPostUrls": 666,
+      "observedBlogIndexUrls": 6,
+      "observedOtherUrls": 96,
+      "perLangCounts": { "es": 111, "en": 111, "fr": 111, "de": 111, "pt": 111, "ca": 111 },
+      "httpStatusChecked": 768,
+      "httpStatusFailures": 0,
+      "evidence": "scripts/seo-sitemap-check.mjs against http://localhost:5000 — \"OK — sitemap and hreflang checks passed.\" Hreflang reciprocity validated, no duplicate <loc>, every URL 2xx."
+    },
+    "metaLengths": {
+      "status": "OK",
+      "rules": { "metaTitleMax": 60, "metaDescriptionMax": 160 },
+      "perLangMax": {
+        "en": { "metaTitle": 58, "metaDescription": 150 },
+        "fr": { "metaTitle": 60, "metaDescription": 150 },
+        "de": { "metaTitle": 58, "metaDescription": 150 },
+        "pt": { "metaTitle": 60, "metaDescription": 149 },
+        "ca": { "metaTitle": 58, "metaDescription": 150 }
+      },
+      "evidence": "scripts/seo-blog-i18n-meta-lengths.test.mjs — \"OK — blog-i18n meta lengths within limits (555 entries across 5 langs)\". scripts/seo-meta-audit.mjs — \"SEO META AUDIT — OK (111 posts × 6 langs, 22 public pages)\"."
+    },
+    "ptLocaleTag": {
+      "status": "FIXED",
+      "previous": "pt-BR / pt_BR",
+      "current": "pt-PT / pt_PT",
+      "rationale": "Content in client/src/data/blog-i18n/pt.ts is European Portuguese (\"não residentes\", \"constituir\", \"obter\"); the language switcher uses the Portugal flag (FLAG_CODES.pt = \"pt\"). Audience is Portugal-resident, not Brazil.",
+      "filesUpdated": [
+        "client/src/components/SEO.tsx",
+        "client/src/i18n/language-service.ts",
+        "client/src/lib/lang-utils.ts",
+        "client/index.html"
+      ]
+    }
+  },
+  "automatedChecks": [
+    {
+      "name": "scripts/seo-sitemap-check.mjs",
+      "purpose": "End-to-end sitemap + hreflang reciprocity + HTTP 2xx for every URL",
+      "lastRun": "2026-04-22T08:10Z",
+      "result": "PASS"
+    },
+    {
+      "name": "scripts/seo-blog-i18n-meta-lengths.test.mjs",
+      "purpose": "Asserts every non-ES blog metaTitle <= 60 and metaDescription <= 160",
+      "lastRun": "2026-04-22T08:11Z",
+      "result": "PASS"
+    },
+    {
+      "name": "scripts/seo-meta-audit.mjs",
+      "purpose": "Public pages + blog meta audit",
+      "lastRun": "2026-04-22T08:11Z",
+      "result": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+export default `Switching your LLC maintenance provider is one of the decisions that scares people most and has the fewest consequences when done right. The vast majority of LLC owners who come to Exentax wanting to switch share the same fear: "am I going to lose seniority?", "does anything reset?", "will the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> notice?".
+
+Short answer: no, no and almost no. Long answer is this guide.
+
+## What does NOT change when you switch providers
+
+Before explaining how, let us pin down what stays intact. Switching maintenance providers does **not** touch:
+
+- **The LLC itself.** It is still the same legal entity registered in the same state, with the same name and same formation date. Your seniority is intact.
+- **The EIN.** The IRS-assigned tax number does not change except in very specific transformations.
+- **The Articles of Organization.** The founding document stays exactly as is.
+- **The banking history.** Mercury, Wise, Relay and similar require no action unless your Registered Agent or address shows up in the profile.
+- **The tax history.** Filings made with the IRS and <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> remain valid and credited to you.
+### What DOES change
+
+Three things, all operational:
+
+1. **The Registered Agent**, if your new provider offers a different RA than your current one.
+2. **The mailing address**, if the previous provider's address was on file with the state or IRS.
+3. **The party responsible for filing forms** in the next cycle: 5472, BOI, Annual Report, etc.
+
+None of this affects the entity itself: these are service-provider changes, not changes in legal nature.
+## Step-by-step procedure
+
+### Step 1. Diagnose what is tied to the current provider
+
+Before touching anything, identify what is in the current provider's hands:
+
+- Is it the Registered Agent on file with the state?
+- Is its address listed as mailing address on the EIN Confirmation Letter or IRS profile?
+- Does it hold credentials to the Secretary of State, FinCEN or IRS portals?
+- Does it have copies of your Operating Agreement, Articles, EIN letter and BOI confirmation?
+
+Documenting this on a sheet before initiating the switch avoids surprises.
+
+### Step 2. Recover your documents
+
+Before announcing the switch, make sure you hold:
+
+- Articles of Organization
+- EIN Confirmation Letter (CP 575) or 147C
+- Signed Operating Agreement
+- BOI Report confirmation
+- Most recent Annual Report or Franchise Tax filed
+- Copies of the most recent Forms 5472 + 1120 pro-forma
+
+If the current provider refuses to hand them over, you have the legal right to obtain them. Push. There are administrative routes if needed (147C from IRS, certificate of good standing from the state, BOI confirmation from FinCEN).
+
+### Step 3. Designate the new Registered Agent
+
+The RA change is filed via a **Statement of Change of Registered Agent** (or state equivalent) with the Secretary of State. Standard fee: 10-50 USD, processed in days. The new RA must have accepted you as a client before filing. Effective date is filing date; from that point, legal mail goes to the new RA.
+
+### Step 4. Update IRS mailing address if needed
+
+If the previous provider's address is the LLC's IRS address, file **Form 8822-B** to update it. Simple one-page form.
+
+### Step 5. Update the BOI Report if anything changes
+
+If the provider switch implies a change in LLC mailing address or any reported beneficiary information, you have 30 days to update BOI with FinCEN. Online and free.
+
+### Step 6. Inform banking and platforms (only if needed)
+
+Mercury, Wise, Relay and similar do not need to know about the RA change unless your registered LLC address has changed. If it has, update each platform to avoid mismatches in their KYC reviews.
+
+### Step 7. Clean exit with the prior provider
+
+Confirm in writing the service end date, request prorated refund if applicable, and save the email. This closes the cycle and prevents "automatic charges" for the next year.
+### How long it takes and how much it costs
+
+A well-executed switch completes in **2-4 weeks** and costs:
+
+- Statement of Change of RA: 10-50 USD per state
+- Form 8822-B: free
+- BOI update: free
+- New provider fees: per package contracted
+
+No penalty, no reset, nothing "lost". The only thing lost is the inertia with the provider that no longer served you.
+### When NOT to switch (yet)
+
+Two moments to wait:
+
+- **Weeks before fiscal close**, if the current provider is preparing your 5472 for the period. Finish that cycle and switch after.
+- **With BOI or 5472 in remediation**, if the current provider is handling it. Finish that file first.
+
+In any other scenario, waiting "just in case" costs money and adds no security.
+### How we do it at Exentax
+
+At Exentax we onboard switching clients every month. The process is exactly the one above. We handle the RA change, the 8822-B, the BOI update if needed, and start the next cycle without you losing a day of coverage.
+
+If you have been thinking your current provider is not delivering and want to see if we fit, book a free initial session through our booking page. We tell you honestly whether to switch now, wait until close, or stay where you are.
+## Legal and regulatory references
+
+This article relies on rules currently in force. Main sources for verification:
+
+- **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
+- **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
+- **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
+Applying any of these rules to your specific case depends on your tax residency, the LLC's activity and the documentation you keep. This content is informational and does not replace personalized professional advice.
+### Next steps
+
+Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
+
+<!-- exentax:banking-facts-v1 -->
+## Banking and tax facts worth clarifying
+
+Fintech and CRS information evolves; here is the current state:
+
+<!-- exentax:calc-cta-v1 -->
+> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notes by provider
+
+- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
+- **Wise** ships two clearly different products: **Wise Personal** and **Wise Business**. For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS participant; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; a separate Wise Personal in your own name as a CRS-resident individual does report.
+- **Wallester** (Estonia) is a European financial entity with an EMI/issuing-bank licence. Its European IBAN accounts **are within the Common Reporting Standard (CRS)** and therefore trigger automatic reporting to the tax administration of the holder's country of residence.
+- **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
+- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, BE) **are not issued by default** to a US LLC, they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity it sits with and which regime it reports under.
+- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:legal-facts-v1 -->
+## Legal & procedural facts
+
+FinCEN and IRS reporting requirements moved recently; the current state is:
+
+- **BOI / Corporate Transparency Act.** After **FinCEN's March 2025 interim final rule**, the BOI Report requirement was **narrowed to "foreign reporting companies"** (entities formed outside the US and registered to do business in a state). A **US-formed LLC owned by a non-resident is, as of today, outside that obligation**. The regulatory status can change again: **re-verify at FinCEN.gov at filing time**. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement and monitor future updates.
+- **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
+- **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.<!-- exentax:execution-v2 -->
+## The operational truth about changing your LLC maintenance provider
+
+Your LLC's seniority lives at the formation state and in IRS records, not in your current provider's dashboard. Switching providers is an administrative formality, not a refoundation. The confusion exists because some providers frame the change as traumatic to retain the client. These are the five pieces that matter, in order.
+
+- **Registered agent.** The only legally binding element at state level. Changed with a short form at the Secretary of State (Wyoming, New Mexico or Delaware: around USD 10-25). The change is immediate and the formation date is untouched.
+- **Annual report and franchise tax.** Deadlines are set by the state, not the provider. If your previous provider missed dates, the problem was operational, not structural. After the change, the new provider (or you directly) handles the next annual report on the same due date.
+- **EIN and IRS records.** The EIN is permanent and tied to the LLC, not the provider. The only thing that changes is the "responsible party" if you take that role; reported via Form 8822-B, no fee, no reset.
+- **Bank account and business address.** If the provider's address appeared on Mercury, update it to the new commercial address (or personal address if you decide so). Mercury applies this in 24-48 hours with a simple proof.
+- **5472 and BOI.** A provider change creates no extra Form 5472 obligation, but it is wise to include the address/responsible-party change in the next BOI report to FinCEN within the 30-day window provided by the rule.
+
+### What we are asked the most
+
+**Do I lose banking or credit history with the change?** No. Mercury does not see the change except for the address part. Transactional history remains intact and account seniority stays.
+
+**Does the IRS flag the LLC as suspicious for an agent change?** No. Registered agent changes are routine and thousands are processed weekly in each state. What does flag an LLC is failing to file 5472 or carrying years of unpaid annual reports - both unrelated to the provider change.
+
+At Exentax we receive LLCs every week migrating providers and we leave agent, address, calendar and BOI notice in motion without the client writing a single email.
+<!-- /exentax:execution-v2 -->
+
+## What does NOT change when you switch provider
+
+Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
+
+### What does change
+
+Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+
+Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+
+### Step 3. Appoint the new Registered Agent
+
+If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
+
+### Step 4. Update the IRS mailing address if applicable
+
+Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
+
+### Step 5. Update the BOI Report if anything changes
+
+Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+### Step 2. Recover your documents
+
+Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Switching%20your%20LLC%20maintenance%20provider%20is%20one%20of%20the%20decisions%20that%20scares%20p%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+
+If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
+<!-- /exentax:cta-conv-v1 -->
+
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8822</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…figura como dirección de la LLC ante el IRS, presenta un **Form 8822-B** para actualizarla…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-ow…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

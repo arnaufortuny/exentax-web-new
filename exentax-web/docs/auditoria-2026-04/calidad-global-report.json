@@ -1,0 +1,99 @@
+{
+  "generatedAt": "2026-04-22T09:02:57.193Z",
+  "inputs": {
+    "routes": "slugs-rutas-audit.json",
+    "components": "componentes-audit.json",
+    "discord": "discord-bot-audit.json",
+    "emails": "emails-audit.json"
+  },
+  "scoring": {
+    "architecture": 4,
+    "performance": 3,
+    "translations": 4,
+    "verifiedData": 4,
+    "seo": 3,
+    "ux": 4,
+    "testing": 3,
+    "productionReady": 3
+  },
+  "blockers": [
+    "3 rutas faltan en sitemap.xml",
+    "Env vars Discord faltantes: DISCORD_BOT_TOKEN, DISCORD_PUBLIC_KEY, DISCORD_APP_ID, ADMIN_DISCORD_ROLE_ID",
+    "Cumplimiento GDPR de emails incompleto: {\"unsubscribeLink\":true,\"physicalAddress\":true,\"legalFooter\":false,\"brandingLogo\":true}",
+    "Env vars Google Service Account faltantes: GOOGLE_SERVICE_ACCOUNT_KEY, GMAIL_FROM_EMAIL",
+    "2 componentes con elementos interactivos sin data-testid"
+  ],
+  "quickWins": [
+    "Renombrar componentes duplicados (1)",
+    "Lazy-load 18 componentes >250 líneas",
+    "Ampliar cobertura de tests Discord (actualmente 1)",
+    "(sin acción adicional sugerida en este ciclo)",
+    "(sin acción adicional sugerida en este ciclo)"
+  ],
+  "snapshot": {
+    "routes": {
+      "expected": 105,
+      "fromSharedRoutes": 96,
+      "fromAppTsx": 9,
+      "ok": 104,
+      "redirects": 1,
+      "notFound": 0,
+      "errors": 0,
+      "missingHreflang": 0,
+      "duplicateContent": 0
+    },
+    "sitemap": {
+      "status": 200,
+      "isIndex": true,
+      "indexChildren": [
+        "https://exentax.com/sitemap-pages.xml",
+        "https://exentax.com/sitemap-blog.xml",
+        "https://exentax.com/sitemap-faq.xml"
+      ],
+      "totalUrls": 768,
+      "inAppNotInSitemap": [
+        "/links",
+        "/start",
+        "/blog"
+      ],
+      "inSitemapNotInApp": []
+    },
+    "missingHreflang": 0,
+    "duplicateContent": 0,
+    "internalNav": {
+      "ssrLinks": 6,
+      "navFooterRefs": 17,
+      "broken": 0
+    },
+    "components": {
+      "components": 42,
+      "pages": 24,
+      "total": 66,
+      "missingTestIds": 2,
+      "ariaIssues": 0,
+      "i18nIssues": 0,
+      "anyTypes": 0,
+      "duplicateNames": 1,
+      "lazyLoadingCandidates": 18
+    },
+    "discord": {
+      "events": 13,
+      "orphanEvents": 0,
+      "untestedEvents": 13,
+      "missingEnvVars": 4,
+      "tests": 1
+    },
+    "emails": {
+      "templates": 7,
+      "spamTriggers": 0,
+      "brokenLinks": 0,
+      "missingEnvVars": 2,
+      "gdpr": {
+        "unsubscribeLink": true,
+        "physicalAddress": true,
+        "legalFooter": false,
+        "brandingLogo": true
+      }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+export default `
+
+Wenn Sie außerhalb der Vereinigten Staaten leben, der IRS aber etwas von Ihnen erwartet, Quellensteuer zur Rückerstattung, anstehende US-Bundessteuern, US-Dividenden, eine LLC mit offenem Form 1040-NR, ein Immobilienverkauf in Florida mit FIRPTA-Einbehalt, Tantiemen aus einem Amazon-KDP-Buch, gibt es einen Vorgang, dem Sie nicht entkommen können: die **ITIN**. Sie ist das steuerliche Element, das Sie gegenüber dem IRS identifiziert, wenn Sie kein Resident sind und folglich keine Social Security Number (SSN) haben können. Ohne ITIN schließt sich der Kreis nicht: keine Rückerstattungen, keine saubere Anwendung des US-Spanien-Doppelbesteuerungsabkommens, keine vollständige Einreichung der US-Formulare, die das System verlangt, sobald Ihr Name als Steuerpflichtiger erscheint.
+
+Gleichzeitig ist es einer der am schlechtesten erklärten Vorgänge im gesamten US-System. Die IRS-Website verweist auf ein PDF, das PDF auf ein weiteres PDF, unterwegs werden Originalpässe verlangt, von einem Certifying Acceptance Agent (CAA) gesprochen, TAC-Büros mit Termin erscheinen, Dokumente landen in Austin (Texas), und wenn Sie ein Kästchen im **Form W-7** falsch ausfüllen, erhalten Sie sechs Monate später eine **CP-566 Notice** mit abgelehntem Antrag. Keine ITIN, keine Rückerstattung und in vielen Fällen keine praktische Möglichkeit, das benötigte US-Formular einzureichen.
+
+Bei **Exentax** haben wir Hunderte von ITIN-Verfahren für Residents in Spanien und Lateinamerika abgeschlossen. Dieser Leitfaden ist die echte Version: wofür sie dient, wann Sie sie brauchen, wie sie beantragt wird, wie lange sie dauert, welches die typischen Fehler sind und warum ein US-Team, das den W-7 verwaltet, die meisten Ablehnungen verhindert. Wenn Sie nach der Lektüre wissen, dass Sie eine brauchen, übernehmen wir den Vorgang von Anfang bis Ende für Sie.
+
+## Was die ITIN genau ist
+
+Die **ITIN (Individual Taxpayer Identification Number)** ist eine neunstellige Steuernummer, Format **9XX-XX-XXXX**, die der **IRS** an natürliche Personen ausstellt, die eine **Pflicht oder ein Recht haben, eine US-Steuererklärung oder ein US-Formular einzureichen**, und die **nicht berechtigt** sind, eine Social Security Number zu erhalten. Sie liegt in der **TIN**-Datenbank des IRS neben der SSN und der **EIN** (letztere ist für juristische Personen, also Ihre LLC).
+
+Was die ITIN **nicht** ist:
+
+- Sie erlaubt keine legale Arbeit in den USA.
+- Sie gewährt keine Sozialleistungen (Social Security, Medicare).
+- Sie ist weder Aufenthaltstitel noch Visum.
+- Sie befreit Ihre ausländisch gehaltene LLC nicht vom Form 5472.
+
+Was die ITIN **leistet**:
+
+- Sie identifiziert Sie als natürlichen Steuerpflichtigen vor dem IRS.
+- Sie ermöglicht das Einreichen des **Form 1040-NR** (Nichtresidenten-Erklärung).
+- Sie erlaubt **Rückerstattungsanträge** für überhöhte Quellensteuer (z. B. die 30 % auf Dividenden, Tantiemen, Immobilienverkäufe oder Preisgelder).
+- Sie ermöglicht US-Banken, Brokern und Plattformen, Ihren **W-8BEN** korrekt anzuwenden.
+- Sie ist die Nummer, die auf jedem **K-1** erscheint, das Ihre LLC mit ausländischen Partnern ausstellt.
+- Sie ist verpflichtend für **dependents/spouses**, die in einer US-Erklärung angegeben werden.
+
+> Wenn Sie die Rolle des W-8BEN verstehen wollen und warum er so gut zu einer korrekt ausgestellten ITIN passt, lesen Sie den <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">vollständigen W-8BEN- und W-8BEN-E-Leitfaden</a>.
+## Wann Sie eine ITIN brauchen: die sechs typischen Fälle
+
+Nicht jeder braucht eine ITIN. Bevor Sie Zeit und Geld investieren, sollten Sie prüfen, ob Ihre Situation in einen der folgenden sechs Fälle passt. Das sind die, die wir bei Exentax wöchentlich sehen:
+
+### Die typischen Fälle im Detail
+
+1. **Rückforderung überhöhter Quellensteuer auf US-Dividenden.** Sie leben in Spanien, halten US-Aktien über einen Broker (IBKR, Charles Schwab, Fidelity) und erhalten Dividenden. Ohne funktionierenden W-8BEN mit gültiger ausländischer TIN behält der Broker 30 % ein. Mit ITIN und W-8BEN sinken Sie typischerweise auf 15 % per Abkommen. Wenn bereits zu viel einbehalten wurde, läuft die Rückerstattung über Form 1040-NR + W-7.
+2. **Tantiemen von Amazon KDP, Apple, SaaS-Plattformen oder YouTube.** Plattformen wie Amazon KDP, Apple Books, Adobe Stock oder einige US-Affiliate-Programme behalten 30 % ein, wenn sie keinen gültigen W-8BEN mit TIN erhalten. Eine korrekt ausgestellte ITIN senkt die Quellensteuer je nach Einkunftsart und Abkommen auf 0 %, 5 % oder 10 %.
+3. **Verkauf einer US-Immobilie mit FIRPTA-Einbehalt.** Beim Verkauf einer US-Immobilie als Nichtresident behält FIRPTA 15 % vom Bruttoverkaufspreis ein. Um die Differenz zwischen Einbehalt und tatsächlicher Steuer (oft Tausende oder Zehntausende USD) zurückzuholen, wird Form 1040-NR eingereicht. Ohne ITIN keine Einreichung.
+4. **Ausländischer Partner in einer US-Gesellschaft mit K-1.** Wenn Sie Teil einer **multi-member LLC** oder einer US-**Partnership** sind, erhalten Sie jährlich ein Schedule K-1 mit Ihrem Gewinnanteil, und die Gesellschaft muss Quellensteuer einbehalten (Form 8804/8805). Für die korrekte Meldung und ggf. Rückforderung brauchen Sie eine ITIN.
+5. **Ehepartner oder Angehörige in einer US-Erklärung.** Wenn jemand in den USA erklärt und einen nicht residenten Ehepartner oder Kinder einbeziehen möchte, braucht dieser Ehepartner/dieses Kind eine ITIN.
+6. **Preise, Stipendien, in den USA bezahlte Vorträge.** Wenn Sie einen Preis, ein Stipendium eines US-Universitätsprogramms oder einmalige Einnahmen aus Vorträgen erhalten haben, ist es wahrscheinlich, dass 30 % einbehalten wurden und Sie eine ITIN brauchen, um zurückzuholen, was möglich ist.
+
+Es gibt ein subtileres siebtes Profil: den **Single-Member-LLC-Eigentümer**, der streng genommen **keine ITIN braucht, um Form 5472 + 1120 pro forma einzureichen** (die LLC wird über die EIN identifiziert, im Foreign-Owner-Feld genügen Name, Adresse und Land der Steueransässigkeit). Sobald dieselbe Person aber persönliche Aktivitäten hat, die einen Form 1040-NR auslösen (FIRPTA, Dividenden, K-1 aus einer anderen Struktur), ist die ITIN nicht mehr optional.
+## Der Dokumenten-Stack: W-7, Steuererklärung, Identifikation
+
+Der ITIN-Prozess dreht sich um drei Elemente. Eines davon zu überspringen ist praktisch eine Garantie für Ablehnung:
+
+- **Form W-7 (Application for IRS Individual Taxpayer Identification Number).** Der eigentliche Antrag. Er enthält ein entscheidendes Feld, das **Reason for submitting**, das mit dem korrekten Code (a, b, c, d, e, f, g, h) markiert sein muss. Jedem Grund liegt eine andere Stützdokumentation bei. Das falsche Kästchen ist der häufigste Fehler.
+- **US-Steuererklärung, die die ITIN rechtfertigt.** Außer bei eng definierten Ausnahmen (typisch: Anwendung eines Abkommens auf passive Einkünfte über W-8BEN bei einem US-Zahler) wird das W-7 **gemeinsam mit** der Steuererklärung eingereicht, die den Antrag begründet (1040-NR, gemeinsames 1040 mit US-Ehepartner, 1042-S, 8288 FIRPTA usw.). Ohne diese Erklärung wird die ITIN mangels Grund abgelehnt.
+- **Identität durch Originaldokument oder beglaubigte Kopie.** Der IRS verlangt eine Identitätsprüfung mit Reisepass (das einzige Einzeldokument, das beides nachweist: Identität und „foreign status"). Drei Wege sind gültig: (a) Original per Post nach Austin (Texas), (b) Besuch eines US-TAC-Büros oder (c) Verfahren über einen autorisierten **CAA (Certifying Acceptance Agent)**, der den Pass physisch prüft und ein Certificate of Accuracy ausstellt.
+
+Hier scheitern die meisten in Spanien lebenden Antragsteller. Den Originalpass wochenlang nach Texas zu schicken ist für fast niemanden zumutbar. In die USA zu einem TAC zu reisen ebenfalls nicht. Deshalb ist der **CAA-Weg** sinnvoll.
+## So machen wir es bei Exentax: schlüsselfertige ITIN
+
+Bei Exentax arbeiten wir mit dem **CAA-Netzwerk** und führen die ITIN als geschlossenen Prozess. Ihre einzige Aufgabe besteht darin, uns die angeforderten Dokumente zu liefern und das W-7 zu unterschreiben, sobald es bereit ist. Den Rest übernehmen wir:
+
+1. **Vorab-Diagnose.** Bevor irgendetwas passiert, prüfen wir, ob Sie tatsächlich eine ITIN brauchen (nicht jeder Fall) und vor allem **unter welchem Grund** des W-7 der Antrag läuft. Das richtige „Reason for submitting"-Feld trennt einen genehmigten Antrag von einer CP-566 Notice sechs Monate später.
+2. **Vorbereitung der Stützerklärung.** Wenn Ihr Grund Form 1040-NR erfordert (FIRPTA, Dividenden, K-1 usw.), bereiten wir es vor. Wenn Ihr Fall einer der außergewöhnlichen W-8BEN-Wege ist, dokumentieren wir ihn korrekt.
+3. **Identitätsprüfung durch CAA.** Wir koordinieren die Passprüfung über das CAA-Netzwerk. Sie schicken Ihren Originalpass nicht nach Texas. Die Prüfung erfolgt sicher.
+4. **Einreichung und Nachverfolgung.** Wir bündeln W-7 + Erklärung + Certificate of Accuracy + Stützdokumente und senden alles an den IRS. Wir verfolgen den Vorgang und benachrichtigen Sie, sobald die ITIN ausgestellt ist.
+5. **IRS-Mitteilungen.** Trifft eine CP-566, CP-567 oder andere IRS-Mitteilung ein, beantworten wir sie für Sie.
+6. **Anwendung der ITIN nach Erhalt.** Sobald ausgestellt, übergeben wir Ihnen einen kurzen Aktionsplan: wie Sie sie bei Ihrem Broker, bei Amazon KDP, bei Stripe, in Ihrem W-8BEN und in jedem Formular anwenden, wo Sie zuvor „applied for" oder „N/A" eingetragen haben.
+## Tatsächliche Bearbeitungszeit aktuell
+
+Die offizielle IRS-Frist beträgt **7 bis 11 Wochen** ab Eingang. Die Realität der letzten zwölf Monate, besonders zwischen Januar und Juni (Hochsaison), liegt eher bei **3 bis 5 Monaten**. Anträge zwischen Juli und November laufen schneller, dann sind wir wieder im Bereich 8-12 Wochen.
+
+Drei Faktoren beschleunigen oder verlangsamen den Prozess:
+
+- **Qualität des W-7.** Ein vollständiger Antrag mit korrektem Grund, gut vorbereiteter Erklärung und CAA-Prüfung erhält fast nie eine Nachforderung. Ein W-7 mit falsch markierten Kästchen ist Verzögerungsgrund Nummer eins.
+- **Einreichungssaison.** Februar bis April bedeutet Schlange.
+- **Physische Dokumente.** Wenn Sie den Pass per Post schicken, kommen Wochen für den Postweg dazu. Deshalb empfehlen wir immer den CAA-Weg.
+## Kosten und häufige Fehler
+
+Der IRS **erhebt keine Gebühr** für die Ausstellung einer ITIN. Im Prozess fallen die CAA-Kosten und ggf. die Kosten für den 1040-NR-Vorbereiter an. Bei Exentax arbeiten wir mit einem geschlossenen Preis für den schlüsselfertigen ITIN-Prozess, den wir vorab kommunizieren, ohne Überraschungen. Die sechs typischsten Fehler bei Eigenversuchen sind immer dieselben:
+
+1. Falscher Grund auf dem W-7 (besonders Verwechslung von Grund „b" mit „h" oder Anwendung von „a" ohne anwendbares Abkommen).
+2. W-7 ohne die zwingend erforderliche Stützerklärung einreichen.
+3. Einfache Pass-Fotokopien statt Original oder beglaubigter Kopie.
+4. Schlecht formatierte Auslandsadresse (Nicht-US-PLZ, nicht-standardisierte Länderkürzel).
+5. W-7 nicht handschriftlich, in Tinte, mit korrektem Datum unterschrieben.
+6. ITIN für Profile beantragt, die keine brauchen (typisch: Single-Member-LLC-Eigentümer ohne persönliche US-Aktivität).
+
+Jeder dieser Fehler führt zu einer **CP-566** oder **CP-567 Notice** und schlimmstenfalls dazu, den Prozess im Folgejahr von vorne machen zu müssen.
+## ITIN, Banking und operativer LLC-Stack
+
+Sobald Sie eine ITIN haben, funktioniert das gesamte US-Ökosystem besser: Broker wie Interactive Brokers wenden das Abkommen auf Ihre Dividenden an, Plattformen wie Amazon KDP behalten korrekt ein, und Gateways mit aktualisiertem W-8BEN behalten nicht mehr standardmäßig 30 % ein. Auf der LLC-Seite integrieren Sie sich natürlich in den von uns empfohlenen Banking-Stack: **Wise Business**, **Relay** und **Slash** als operative Hauptkonten, **Mercury** als sekundäres Backup und **Wallester** nur, wenn Sie eine europäische IBAN auf den Namen der LLC brauchen, stets unter Berücksichtigung der CRS-Behandlung und des möglichen Reportings an die spanische Steuerbehörde.
+
+Wenn Sie noch am Anfang stehen und die LLC nicht eingerichtet haben, ist es logisch, beide Stränge parallel zu bearbeiten: <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">die LLC als Alternative zur Selbständigkeit</a>, die <a href="/de/blog/ein-was-ist-die-steuernummer-ihrer-llc-und-wie-sie-sie">EIN</a> und, wo persönlich anwendbar, die ITIN. Wenn Sie bereits eine LLC haben, aber US-Quellensteuer erhalten, die Sie nicht verstehen, ist das fehlende Teil zur Bereinigung fast immer dieses.
+### Erneuerung und Ablauf: Vorsicht vor schlafenden ITINs
+
+Eine ITIN kann **ablaufen**. Die historische IRS-Regel lautet: Eine ITIN, die **drei aufeinanderfolgende Jahre** nicht in einer Steuererklärung verwendet wird, wird inaktiv. ITINs vor 2013 wurden in Blöcken nach den mittleren Ziffern erneuert. Wenn Ihre ITIN jahrelang geschlafen hat und Sie sie wieder brauchen (Immobilienverkauf, neue US-Dividenden), prüfen Sie vorher den Status. Falls inaktiv, wird sie mit einem W-7 mit „renew an existing ITIN" reaktiviert.
+## Warum Exentax im Rücken den Unterschied macht
+
+Die ITIN wirkt wie ein kleiner Vorgang, bis man ihn allein versucht und merkt, dass der IRS keine Anrufe zurückgibt, das Formular Feinheiten hat, die man nur nach Dutzenden Fällen kennt, und eine Ablehnung Sie ein weiteres Jahr ohne Rückerstattung kosten kann. Was unser Team mitbringt ist genau das Gegenteil: ein bekannter Prozess, eine sichere CAA-Prüfung, eine von US-Buchhaltern vorbereitete Stützerklärung und die Gewissheit, dass jede Notice fristgerecht beantwortet wird.
+
+Wenn Sie glauben, eine ITIN zu brauchen, für Ihren Broker, Amazon, einen FIRPTA-Verkauf, eine K-1, eine offene Rückerstattung oder zur endgültigen Bereinigung Ihrer IRS-Situation, vereinbaren Sie eine kostenlose Beratung und wir prüfen Ihren Fall in 30 Minuten. Macht es nach dem Gespräch Sinn weiterzugehen, senden wir Ihnen ein Festpreisangebot und starten den Prozess noch in derselben Woche. Möchten Sie zuerst die tatsächlichen Steuerkosten von Selbständigkeit gegenüber dem Betrieb über eine LLC mit korrektem W-8BEN/ITIN vergleichen, testen Sie unseren <strong>Steuerrechner</strong>: in zwei Minuten sehen Sie die Zahlen Ihres eigenen Szenarios.
+
+Jeder Fall ist individuell. US-Recht ändert sich, und der IRS verschärft die Prüfungen alle paar Jahre. Aber das Prinzip bleibt: **ohne ITIN schließt sich der Steuerkreis mit den USA nicht**, und ihn richtig zu schließen trennt diejenigen, die ihre Quellensteuer zurückholen, von denen, die sie still und leise jedes Jahr verlieren.
+## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+
+### Nach Rechtsordnung
+
+- **Spanien (LIRPF/LIS).** Eine operative *Single-Member Disregarded* LLC (echte Dienstleistungen, ohne erhebliche Passivität) wird in der Regel nach **Einkünftezurechnung (Art. 87 LIRPF)** behandelt: die Nettogewinne werden dem Gesellschafter im Erzielungsjahr zugerechnet und in die allgemeine IRPF-Bemessungsgrundlage integriert. Optiert die LLC dagegen zur Besteuerung als *Corporation* (Form 8832) und steht sie unter Kontrolle eines spanischen Residenten mit überwiegend passiven Einkünften, kann die **internationale Hinzurechnungsbesteuerung (Art. 91 LIRPF für natürliche Personen, Art. 100 LIS für Gesellschaften)** greifen. Die Wahl ist nicht optional: sie hängt von der wirtschaftlichen Substanz ab, nicht vom Namen.
+- **Meldepflichten.** US-Bankkonten mit Durchschnitts- oder Endbestand >50.000 € im Geschäftsjahr: **Modelo 720** (Gesetz 5/2022 nach EuGH-Urteil C-788/19 vom 27.01.2022, Sanktionen jetzt im allgemeinen LGT-Regime). Verbundene Geschäfte mit der LLC und repatriierte Dividenden: **Modelo 232**. In den USA verwahrte Kryptowerte: **Modelo 721**.
+- **DBA Spanien–USA.** Das Abkommen (BOE 22.12.1990, Protokoll in Kraft seit 27.11.2019) regelt die Doppelbesteuerung von Dividenden, Zinsen und Lizenzgebühren. Eine LLC ohne Betriebsstätte in Spanien begründet für sich genommen keine Betriebsstätte des Gesellschafters, aber die effektive Geschäftsleitung kann eine entstehen lassen, wenn die gesamte Verwaltung von spanischem Gebiet aus erfolgt.
+- **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
+
+<!-- exentax:calc-cta-v1 -->
+> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+<!-- /exentax:calc-cta-v1 -->
+
+Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+
+<!-- exentax:legal-refs-v1 -->
+## Rechtliche und regulatorische Quellen
+
+Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft sind. Hauptquellen zur Verifikation:
+
+- **USA.** Treas. Reg. §301.7701-3 (Entity Classification / *check-the-box*); IRC §882 (Steuer auf mit US-Geschäft effektiv verbundene Einkünfte Ausländer); IRC §871 (FDAP und Quellensteuer bei Nicht-Residenten); IRC §6038A und Treas. Reg. §1.6038A-2 (Form 5472 für *25% foreign-owned* und *foreign-owned disregarded entities*); IRC §7701(b) (Steuerwohnsitz, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report bei FinCEN).
+- **Spanien.** Gesetz 35/2006 (LIRPF), Artt. 8, 9 (Wohnsitz), 87 (Einkünftezurechnung), 91 (Hinzurechnungsbesteuerung natürliche Personen); Gesetz 27/2014 (LIS), Art. 100 (Hinzurechnungsbesteuerung Gesellschaften); Gesetz 58/2003 (LGT), Artt. 15 und 16; Gesetz 5/2022 (Sanktionsregime Modelo 720 nach EuGH C-788/19 vom 27.01.2022); RD 1065/2007 (Modelos 232 und 720); Anordnung HFP/887/2023 (Modelo 721 Krypto).
+- **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
+- **EU / OECD.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
+- **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
+
+Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+
+<!-- exentax:banking-facts-v1 -->
+## Bank- und Steuerfakten zur Präzisierung
+
+Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
+
+### Hinweise nach Anbieter
+
+- **Mercury** arbeitet mit mehreren bundesweit lizenzierten Partnerbanken mit **FDIC**-Deckung über Sweep-Netzwerk: hauptsächlich **Choice Financial Group** und **Evolve Bank & Trust**, sowie **Column N.A.** in einigen Altkonten. Mercury ist selbst keine Bank; es ist eine Fintech-Plattform, die durch diese Partnerbanken getragen wird. Wenn Mercury ein Konto schließt, wird der Saldo in der Regel **per Papierscheck an die hinterlegte Adresse des Kontoinhabers** zurückgesandt, was für Nicht-Residenten ein ernsthaftes operatives Problem darstellen kann; ein sekundäres Konto (Relay, Wise Business etc.) sollte als Reserve aktiv sein.
+- **Wise** bietet zwei klar getrennte Produkte: **Wise Personal** und **Wise Business**. Für eine LLC ist **Wise Business** zu eröffnen, nicht das persönliche Konto. Wichtige CRS-Nuance: Ein **Wise Business im Namen einer US-LLC liegt außerhalb des CRS**, weil Kontoinhaberin eine US-Entität ist und die USA kein CRS-Teilnehmer sind; die USD-Seite läuft über Wise US Inc. (FATCA-Perimeter, nicht CRS). Dagegen löst ein **Wise Personal, eröffnet von einer in Spanien** oder einem anderen CRS-Land steuerlich ansässigen Person, sehr wohl eine **CRS-Meldung über Wise Europe SA (Belgien)** zu dieser Person aus. Wise für die LLC zu öffnen bringt Sie nicht über die LLC ins CRS; ein separates Wise Personal auf Ihren Namen als in einem CRS-Land Ansässiger schon.
+- **Wallester** (Estland) ist ein europäisches Finanzinstitut mit EMI-/Karten-Emittentenlizenz. Seine europäischen IBAN-Konten **fallen unter den Gemeinsamen Meldestandard (CRS)** und lösen daher den automatischen Informationsaustausch an die Steuerverwaltung des Wohnsitzlands aus.
+- **Payoneer** operiert über europäische Einheiten (Payoneer Europe Ltd, Irland), die ebenfalls **unter CRS fallen**, wenn der Kunde in einer teilnehmenden Jurisdiktion ansässig ist.
+- **Revolut Business**: in Verbindung mit einer **US-LLC** läuft die übliche Konfiguration über Revolut Payments USA; europäische IBANs (litauisch, BE) **werden einer LLC nicht standardmäßig ausgegeben**, sie werden europäischen Kunden der europäischen Bank des Konzerns ausgegeben. Wird Ihnen ein europäischer IBAN angeboten, prüfen Sie, an welche Rechtsperson er gebunden ist und unter welchem Regime diese meldet.
+- **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
+
+<!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
+## Das ITIN-Verfahren, das die häufigsten Ablehnungen vermeidet
+
+Die ITIN wird mit Form W-7 plus Identitätsnachweis und einem von der IRS anerkannten gültigen Grund beantragt. Was die meisten Anträge ablehnt, ist nicht das Formular, sondern drei wiederkehrende Dokumenten-Fehler. Das ist die Leitlinie, mit der wir den Erstantrag durchbringen.
+
+- **Gut begründeter gültiger Grund.** Das W-7 verlangt einen ITIN-Grund aus den Optionen a-h. Am häufigsten sind "b) Non-resident alien filing a U.S. tax return" (wenn 1040-NR wegen Immobilienverkauf, Lizenzen oder quellensteuerpflichtigen Einkünften eingereicht wird) und "h) Other" mit detaillierter Begründung (Quellensteuer-Rückerstattung, Abkommens-Befreiung). Falsche Markierung ist Ablehnungsgrund #1.
+- **Apostillierte Identitätsdokumentation.** Die IRS akzeptiert einen Reisepass (allein ausreichend) oder Personalausweis + Versorger-Rechnung. Wird eine Kopie gesandt, muss sie eine Certified Copy der ausstellenden Passbehörde sein (in Spanien: Polizeistation oder US-Botschaft). Spanische notarielle "copias compulsadas" reichen nicht - Ablehnungsgrund #2.
+- **Beigefügter Tax Return, wenn erforderlich.** Für Gründe a, b und c ist der vollständige 1040-NR in derselben Einreichung beizufügen. Nur d (Dependent), e (Spouse), f (Student Treaty), g (Renewal) und h (mit spezifischer Befreiung) erlauben W-7 ohne Tax Return. W-7 allein zu senden, wenn 1040-NR mitgehen sollte, ist Ablehnungsgrund #3.
+- **Einreichungsweg.** Drei Optionen: Post an Austin TX, über Certifying Acceptance Agent (CAA - empfohlen, validiert lokal ohne Pass-Versand), oder Vor-Ort-Termin im IRS TAC. Zeiten: CAA 7-12 Wochen, Direktpost 9-14 Wochen, TAC vor Ort 6-9 Wochen, Termine knapp.
+
+### Was wir am häufigsten gefragt werden
+
+**Brauche ich eine ITIN, wenn ich nur eine LLC und Steuerwohnsitz in Europa habe?** Nicht automatisch. Sie brauchen sie für eigenes 1040-NR (Immobilienverkauf, effectively connected income, Lizenzen), nicht für den bloßen LLC-Besitz. Die 5472-Responsible-Party kann ohne ITIN per Pass identifiziert werden.
+
+**Verfällt die ITIN?** Ja: wenn 3 Jahre nicht in einer Steuererklärung benutzt oder wenn sie in bestimmten Nummernkreisen liegt. Erneuerung per W-7 mit "Renewal" - schneller als beim ersten Mal.
+
+Bei Exentax bereiten wir W-7, apostillierte Unterlagen und Einreichung über unseren eigenen CAA vor, damit die ITIN in der ersten Runde ankommt, ohne Reise und ohne Versand des Originalpasses.
+<!-- /exentax:execution-v2 -->
+
+## Rechts- und Verfahrensfakten
+
+Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+
+### Kernpunkte
+
+- **BOI / Corporate Transparency Act.** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC fällt heute außerhalb dieser Pflicht**. Der Regelstatus kann erneut wechseln: **Bei Einreichung auf FinCEN.gov prüfen**. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren und Updates beobachten.
+- **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
+- **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
+- **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
+
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+
+Wenn Sie noch keine ITIN haben, lesen Sie unseren Service-Leitfaden <a href="/de/leistungen/hol-deine-itin">ITIN beantragen Schritt für Schritt</a> und starten Sie den Antrag heute.
+<!-- /exentax:cta-conv-v1 -->
+
+<!-- exentax:cta-v1 -->
+Wir reichen Ihre ITIN beim IRS über einen Certifying Acceptance Agent ein — Ihr Original-Reisepass bleibt bei Ihnen. <a href="/de/leistungen/hol-deine-itin">Meine ITIN beantragen</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…amar reembolsos** de retenciones excesivas (por ejemplo, el 30% retenido en dividendos, ro…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">15%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…e retiene 30%. Con un ITIN y el W-8BEN, normalmente bajas a 15% por convenio. Si ya te ret…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">0%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…N válido con TIN. Un ITIN bien emitido baja la retención al 0%, 5% o 10% según el tipo de …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…lido con TIN. Un ITIN bien emitido baja la retención al 0%, 5% o 10% según el tipo de rent…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">10%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…con TIN. Un ITIN bien emitido baja la retención al 0%, 5% o 10% según el tipo de renta y e…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">50.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1040</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…derales que declarar, dividendos americanos, una LLC con un Form 1040-NR pendiente; una ve…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…es un permiso de residencia ni un visado. - No te exime del Form 5472 si tienes una LLC un…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8804</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…rticipación en los beneficios, y la entidad debe retenerte (Form 8804/8805). Para reportar…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…2011/16, modificada por DAC6 (mecanismos transfronterizos), DAC7 (Directive (EU) 2021/514,…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+
+`;

@@ -1,0 +1,159 @@
+name: Blog source-URL health (weekly)
+
+# Weekly external health check for the 27 canonical authority URLs cited
+# across the blog (IRS, FinCEN, OECD, EUR-Lex, BOE, AEAT, etc.).
+#
+# This is the opt-in `--with-external` branch of the validate-all suite. It
+# is intentionally *not* wired into PRs because third-party uptime is flaky
+# and we don't want a Cloudflare blip on irs.gov to block a merge. Running
+# it on a schedule lets us catch link-rot in citations before users do.
+#
+# Schedule: every Monday 06:00 UTC (~07:00 CET / 08:00 CEST).
+# Manual: workflow_dispatch is exposed for ad-hoc reruns.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  external-source-health:
+    name: blog-validate-all --with-external
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run blog-validate-all with external source ping
+        id: validate
+        run: node scripts/blog-validate-all.mjs --with-external
+
+      - name: Upload source-URL verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-url-verification
+          path: |
+            exentax-web/reports/seo/source-url-verification.json
+            exentax-web/docs/seo/blog-sources-canonical.md
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Open GitHub issue with dead URLs
+        # Only fire when the validation step itself ran and produced a
+        # report. This keeps unrelated failures (e.g. `npm ci` outage,
+        # GitHub Actions runner blip, or a regression in one of the 10
+        # mandatory non-external steps) out of the link-rot issue queue —
+        # those still surface as a red workflow run + uploaded artifact.
+        if: always() && steps.validate.conclusion == 'failure' && hashFiles('exentax-web/reports/seo/source-url-verification.json') != ''
+        uses: actions/github-script@v7
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'exentax-web/reports/seo/source-url-verification.json';
+
+            let report = null;
+            try {
+              report = JSON.parse(fs.readFileSync(path, 'utf8'));
+            } catch (err) {
+              core.warning(`Could not read ${path}: ${err.message}`);
+            }
+
+            const today = new Date().toISOString().slice(0, 10);
+            const dead = report
+              ? report.results.filter(r => !r.ok)
+              : [];
+
+            // If the orchestrator failed but the external step itself was
+            // green (i.e. a non-source-URL step regressed), don't open a
+            // link-rot issue — that's noise. The pipeline failure is still
+            // visible in the Actions tab and via the artifact upload above.
+            if (report && dead.length === 0) {
+              core.info('External source ping was green; failure came from another step. Skipping issue creation.');
+              return;
+            }
+
+            const title = `[blog] Dead authority URLs detected (${today})`;
+
+            const body = [
+              `The weekly external source-URL health check failed.`,
+              ``,
+              `- Workflow run: ${process.env.RUN_URL}`,
+              `- Script: \`node scripts/blog-validate-all.mjs --with-external\``,
+              report
+                ? `- Sources checked: ${report.total} · OK: ${report.ok} · FAIL: ${report.fail}`
+                : `- Report file missing — see workflow logs for the failing step.`,
+              ``,
+              `## Dead URLs`,
+              ``,
+              dead.length === 0
+                ? `_No structured report available; inspect the run logs._`
+                : [
+                    `| # | Citation | Status | URL | Error |`,
+                    `|---:|---|---:|---|---|`,
+                    ...dead.map((r, i) =>
+                      `| ${i + 1} | ${r.citation} | ${r.status || 'n/a'} | ${r.url} | ${r.error || ''} |`
+                    ),
+                  ].join('\n'),
+              ``,
+              `## Next steps`,
+              ``,
+              `1. Re-run the workflow once to rule out a transient outage (Cloudflare challenges count as alive, true 4xx/5xx do not).`,
+              `2. If still dead, find the new canonical URL on the issuing authority's site and update \`exentax-web/scripts/blog-verify-source-urls.mjs\`.`,
+              `3. If the citation is also referenced inline in any article body, update those links too (\`rg "<old-url>" exentax-web/client\`).`,
+              `4. Close this issue once \`node scripts/blog-validate-all.mjs --with-external\` is green locally.`,
+              ``,
+              `_Auto-filed by \`.github/workflows/blog-source-health-weekly.yml\`._`,
+            ].join('\n');
+
+            // De-duplicate: if there's already an open issue with the same
+            // title prefix, comment on it instead of opening a new one.
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'blog-link-rot',
+              per_page: 50,
+            });
+
+            const prior = existing.find(i => i.title.startsWith('[blog] Dead authority URLs detected'));
+
+            if (prior) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prior.number,
+                body,
+              });
+              core.info(`Commented on existing issue #${prior.number}.`);
+            } else {
+              const { data: created } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['blog-link-rot', 'seo', 'automated'],
+              });
+              core.info(`Opened issue #${created.number}.`);
+            }

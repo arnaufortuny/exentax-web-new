@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-04-22",
+  "scope": "6 idiomas (es/en/fr/de/pt/ca) — rutas canónicas declaradas en shared/routes.ts y registradas en client/src/App.tsx",
+  "method": "Inspección estática de ROUTE_SLUGS + crawl HTTP de los homes en localhost + verificación de canonical/hreflang en SEO.tsx",
+  "languages": ["es", "en", "fr", "de", "pt", "ca"],
+  "routeKeys": [
+    "home", "how_we_work", "our_services", "about_llc", "faq", "book",
+    "service_llc_nm", "service_llc_wy", "service_llc_de", "service_llc_fl", "service_itin",
+    "legal_terms", "legal_privacy", "legal_cookies", "legal_legal", "legal_avisos"
+  ],
+  "homeStatus": {
+    "es": 200, "en": 200, "fr": 200, "de": 200, "pt": 200, "ca": 200
+  },
+  "sitemap": {
+    "url": "/sitemap.xml",
+    "status": 200,
+    "split": ["sitemap-pages.xml", "sitemap-faq.xml", "sitemap-blog.xml"],
+    "noindexExcluded": ["/links", "/start", "/booking/:token", "/admin/agenda/:bookingId"]
+  },
+  "duplicates": [],
+  "notFound": [],
+  "hreflang": {
+    "implementation": "client/src/components/SEO.tsx:117-177",
+    "alternatesEmittedPerPage": 6,
+    "xDefault": "es",
+    "blogFallbackBehavior": "Posts solo emiten hreflang para locales donde existe traducción real (no enlaza a 404)."
+  },
+  "canonical": {
+    "implementation": "client/src/components/SEO.tsx:120 + server header en server/routes.ts:62",
+    "consistencyAcrossLanguages": "OK"
+  },
+  "legacyRedirects": {
+    "config": "server/index.ts → LEGACY_ES_REDIRECTS (36 entradas)",
+    "consolidationMap": "server/routes/public.ts:202 (_consolidationRedirects, vacío pero preparado)"
+  },
+  "blockerCount": 0,
+  "issues": [],
+  "verdict": "OK — 0 404s, 0 duplicados, hreflang/canonical correctos en los 6 idiomas, sitemap completo."
+}

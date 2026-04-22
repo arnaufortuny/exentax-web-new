@@ -1,0 +1,228 @@
+export default `Having the right payment gateways connected to your LLC makes the difference between smooth cash flow and constant friction. Here's a complete comparison of your options.
+
+## Stripe US: the developer's choice
+
+Stripe is the gold standard for online payment processing. With a US LLC:
+
+**What you can do:**
+- Accept credit and debit cards from 195+ countries
+- Process payments in 135+ currencies (auto-converted to USD)
+- Set up recurring subscriptions with Stripe Billing
+- Create payment links (no code required)
+- Build custom checkout flows via API
+- Use Stripe Connect for marketplace payments
+
+**Fees:** 2.9% + $0.30 per successful card charge. International cards add 1.5%. Currency conversion adds 1%.
+
+**Best for:** Freelancers, agencies, SaaS businesses, e-commerce, anyone who accepts card payments.
+
+**Setup requirements:** LLC documents (Articles of Organization), EIN, Mercury bank account, business description, website or online presence.
+### PayPal Business US: the consumer-friendly option
+
+PayPal is everywhere. With a US PayPal Business account:
+
+**Important:** PayPal Business requires the owner's **ITIN** for personal identity verification, in addition to the LLC's EIN. Getting an ITIN requires filing Form W-7 with the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
+
+**What you can do:**
+- Accept PayPal payments from 200+ countries
+- Accept credit cards without a PayPal account (via PayPal's card processing)
+- Send and receive invoices
+- Access PayPal Credit and Working Capital financing
+
+**Fees:** Variable by transaction type. Standard: 3.49% + $0.49 for PayPal checkout, 2.99% + $0.49 for card processing.
+
+**Best for:** When your clients prefer PayPal, B2C transactions, marketplaces, consumer-facing businesses.
+## DoDo Payments: the global compliance solution
+
+DoDo is a **Merchant of Record (MoR)** service specifically designed for digital products and SaaS businesses.
+
+**What makes it different:**
+- Acts as the seller of record. DoDo is legally the entity selling to the end customer
+- Handles global **VAT, sales tax, and GST automatically** in 100+ countries
+- You don't need to register for tax compliance in dozens of jurisdictions
+- Accepts payment methods from every major market (cards, wallets, bank transfers)
+- Handles invoicing, refunds, and tax remittance
+- Compliance burden shifts from your LLC to DoDo
+
+**Fees:** Typically 5% + payment processing fees. Higher than Stripe alone, but includes complete tax compliance.
+
+**Best for:** SaaS businesses, digital product sellers, course creators who sell globally to consumers (B2C).
+### Relay Payment Links (powered by Adyen)
+
+If you use **Relay** as your backup banking, you get access to payment links powered by **Adyen**: one of the world's largest payment processors:
+
+- Create professional payment links to send to clients
+- Clients can pay by card instantly
+- Funds deposit directly to your Relay account
+- Simple, no-code solution for quick invoicing
+- Great for one-off project payments
+### Comparing the options
+
+| Feature | Stripe | PayPal | DoDo | Relay/Adyen |
+|---|---|---|---|---|
+| Global card acceptance | Yes | Yes | Yes | Yes |
+| Subscription billing | Excellent | Good | Yes | No |
+| Tax compliance | Manual | Manual | Automatic | Manual |
+| Developer-friendly | Excellent | Moderate | Good | Simple |
+| Consumer recognition | High | Very high | Low | Low |
+| Personal ID required | No | ITIN needed | No | No |
+| Fees | 2.9% + $0.30 | 3.49% + $0.49 | ~5% + processing | Varies |
+| Best for | Services/SaaS | B2C/Marketplaces | Global digital products | Quick invoicing |
+### Our recommendation
+
+**For most service businesses:** Stripe as primary, PayPal as alternative for clients who prefer it.
+
+**For SaaS with global customers:** Stripe + DoDo (Stripe for B2B, DoDo for B2C with automatic VAT compliance).
+
+**For B2C digital products:** DoDo Payments provides automatic compliance and eliminates worry about tax registration worldwide.
+
+**For quick client payments:** Relay payment links for simple, professional invoicing.
+
+Connect all payment processors to your Mercury account for unified cash management.
+### Payment platform comparison: the complete matrix
+
+| Feature | Stripe US | DoDo Payments | PayPal Business | Wise (incoming) |
+|---|---|---|---|---|
+| Card processing | 2.9% + $0.30 | Commission-based | 2.9% + $0.30 | No card processing |
+| International cards | +1.5% | Included | +1.5% | N/A |
+| VAT/GST handling | Manual (you handle) | Automatic (MoR) | Manual | N/A |
+| Payout to Mercury | Yes (2 days) | Yes | Yes (slower) | Yes (instant) |
+| Subscription billing | Yes (Stripe Billing) | Yes | Limited | No |
+| Checkout pages | Yes (Stripe Checkout) | Yes | Yes | No |
+| API quality | Excellent | Good | Adequate | Limited |
+| LLC onboarding | EIN + passport | EIN + passport | EIN + ITIN required | EIN + passport |
+| Currency support | 135+ | 100+ | 25+ | 40+ |
+| Chargeback protection | Radar (AI fraud detection) | MoR handles disputes | Basic | N/A |
+| **Best for** | B2B and B2C | B2C digital (handles VAT) | Marketplace sellers | Wire/ACH collection |
+### Setting up your complete payment stack
+
+### For B2B services (consulting, dev, design):
+1. **Primary:** Mercury wire details (share routing + account number). $0 fees
+2. **Backup:** Stripe payment links (for clients who prefer cards)
+3. **International:** Wise multi-currency account (for EUR/GBP-paying clients)
+
+### For B2C digital products (courses, SaaS, downloads):
+1. **Primary:** DoDo Payments (handles VAT/GST globally as MoR)
+2. **Backup:** Stripe (if you want more control and handle VAT yourself)
+3. **Subscriptions:** Stripe Billing (best recurring payment infrastructure)
+
+### For marketplaces and platforms:
+1. **Primary:** Stripe Connect (marketplace payments)
+2. **International:** PayPal (if platform requires it. need ITIN)
+3. **Payouts:** Mercury for all deposits
+
+<!-- exentax:calc-cta-v1 -->
+> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+<!-- /exentax:calc-cta-v1 -->
+
+To keep going on this thread, <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">Privacy with a US LLC: what is truly private and what is not</a> fills in a nuance this guide only touched on.
+### Conclusion and next steps
+
+### Related articles
+
+- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
+- <a href="/en/blog/changing-currencies-for-your-llc-best-options-and-how-to">currency exchange guide</a>
+Book your strategic consultation and we'll configure your complete payment infrastructure.
+### Next steps
+
+If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.
+
+<!-- exentax:banking-facts-v1 -->
+## Banking and tax facts worth clarifying
+
+Fintech and CRS information evolves; here is the current state:
+### Notes by provider
+
+- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
+- **Wise** ships two clearly different products: **Wise Personal** and **Wise Business**. For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS participant; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; a separate Wise Personal in your own name as a CRS-resident individual does report.
+- **Wallester** (Estonia) is a European financial entity with an EMI/issuing-bank licence. Its European IBAN accounts **are within the Common Reporting Standard (CRS)** and therefore trigger automatic reporting to the tax administration of the holder's country of residence.
+- **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
+- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, BE) **are not issued by default** to a US LLC, they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity it sits with and which regime it reports under.
+- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+## References: sources and banking regulation
+
+What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
+
+<!-- exentax:execution-v2 -->
+## Payment gateways for your LLC: Stripe, PayPal, Dodo and when to use each
+
+The gateway defines your collection availability, your cost per transaction and, above all, your risk of fund freeze. For a non-resident LLC with global clients no gateway is optimal in every scenario: the right thing is to combine Stripe + PayPal + an alternative (Dodo, Lemon Squeezy or Paddle) by product, market and volume.
+
+- **Stripe (US, via LLC + EIN).** The standard for SaaS, subscriptions and professional e-commerce. Standard fee 2.9% + $0.30 for US domestic, +1% international, +1% currency conversion. Approves non-resident LLCs with EIN + US bank (Mercury, Wise) + operational website + clear product description. Main risk: freeze due to chargebacks or activity profiled as high risk (coaching, infoproducts, crypto, adult).
+- **PayPal Business (US).** Essential for B2C in LATAM and Europe where customers "demand" PayPal for trust. Higher fee (~3.49% + fixed) and worse subscription experience. Risk of 21-day hold on new accounts and rolling reserves. Useful as second method, not only.
+- **Dodo Payments / Lemon Squeezy / Paddle (Merchant of Record).** The MoR handles VAT and tax compliance for digital sales in EU/UK/AU; you sell to them, they sell to the end customer. Fee 5%-8% but removes OSS, MOSS, UK VAT, AU GST and country-by-country reporting. Ideal for SaaS and digital products across many jurisdictions.
+- **Recommended stack by model.** Global B2B SaaS: Stripe + Paddle. EU B2C infoproducts: Lemon Squeezy or Dodo (MoR covers digital VAT). Consulting services: Stripe + Wise/transfer + optional PayPal. US physical e-commerce: Stripe + Shop Pay. NEVER rely on a single gateway: a freeze without alternative is operational risk #1.
+
+### What we are asked the most
+
+**Does Stripe close my account for being non-resident LLC?** Not by default. Closes due to vague descriptions, high chargeback rate (>1%), restricted-list products or discrepancies between site and actual activity. Clean setup + correct onboarding = low probability.
+
+**Does Dodo or Lemon Squeezy free me from EU digital VAT?** Yes, as Merchant of Record. You invoice Dodo/LS (B2B, no VAT with W-8BEN-E), they invoice the end customer with the correct country VAT.
+
+At Exentax we model which stack suits you by margin, market and product and open Stripe + Mercury + MoR alternative - so a freeze never stops you.
+<!-- /exentax:execution-v2 -->
+
+## We set it up without you losing a weekend
+
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+
+### Further related reading
+
+Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
+### Advantages
+
+The numbers and the calendar matter - get either wrong and the rest unravels.
+
+### Fees
+
+Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
+
+### Ideal for
+
+If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
+
+### Advantages
+
+The numbers and the calendar matter - get either wrong and the rest unravels.
+
+### Fees
+
+Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
+
+### Ideal for
+
+If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
+
+### Advantages
+
+The numbers and the calendar matter - get either wrong and the rest unravels.
+## Stripe
+
+Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Having%20the%20right%20payment%20gateways%20connected%20to%20your%20LLC%20makes%20the%20difference%20%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+
+If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
+<!-- /exentax:cta-conv-v1 -->
+
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">9%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">99%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">49%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">1%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">5%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">8%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

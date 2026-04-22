@@ -1,0 +1,78 @@
+{
+  "audit": "blog-calidad",
+  "task": 4,
+  "fecha": "2026-04-22",
+  "metricas": {
+    "slugs_unicos": 111,
+    "idiomas_cubiertos": 6,
+    "modulos_contenido_total": 666,
+    "cobertura_porcentaje": 100,
+    "fuente_de_verdad": "es",
+    "carga": "lazy via import() por slug+lang en blog-posts-content.ts y blog-posts-i18n.ts"
+  },
+  "schemas_y_seo": {
+    "BlogPosting": "blog/post.tsx lineas 802-835 (headline, description, datePublished, dateModified, author, publisher)",
+    "FAQPage": "extractFaqQA parsea seccion FAQ del markdown y emite FAQPage JSON-LD",
+    "BreadcrumbList": "Generado dinamicamente por idioma y categoria",
+    "hreflang_blog": "SEO.tsx llama getAvailableLangsForSlug; emite x-default=es"
+  },
+  "fuentes_oficiales": {
+    "registry": "client/src/data/blog-sources.ts",
+    "internas": "DOC_REGISTRY (banking-facts-2026.md, etc)",
+    "externas": "OFFICIAL_SOURCES (IRS, FinCEN, OECD, etc)",
+    "asignadas_a_articulos": "111/111 con SOURCES_BY_SLUG"
+  },
+  "issues": [
+    {
+      "id": "BL-001",
+      "hallazgo": "Imagenes en cuerpo de articulos: alt-text no estandarizado en los modulos markdown. UI fuera del contenido (avatar, banderas) si traducido.",
+      "prioridad": "alta",
+      "estado": "pendiente",
+      "accion": "Anadir convencion alt='...' en cada ![](url) y traducir por idioma."
+    },
+    {
+      "id": "BL-002",
+      "hallazgo": "Calidad traduccion PT-PT y CA: variaciones de tono y terminologia fiscal.",
+      "prioridad": "alta",
+      "estado": "cubierto",
+      "accion": "Cubierto por tareas 'Localizar terminologia fiscal en FAQs (PT y CA)' y 'Revisar tono y consistencia del portugues (PT-PT)'."
+    },
+    {
+      "id": "BL-003",
+      "hallazgo": "Sanitizacion: blog/post.tsx aplica sanitizeHtml sobre dangerouslySetInnerHTML antes de inyectar markdown procesado.",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "BL-004",
+      "hallazgo": "Validaciones automatizadas: blog-validate-all, blog-link-locale-lint, blog-sources-validate, blog-i18n-sync-check, blog-content-lint y seo-faq-jsonld-check.",
+      "prioridad": "alta",
+      "estado": "verificado",
+      "accion": "Mantener en npm run check."
+    },
+    {
+      "id": "BL-005",
+      "hallazgo": "CTAs y enlaces internos: cubierto por tareas separadas (CTAs blog + Florida).",
+      "prioridad": "media",
+      "estado": "cubierto"
+    },
+    {
+      "id": "BL-006",
+      "hallazgo": "Prefetch de articulos relacionados via requestIdleCallback (no bloquea main thread).",
+      "prioridad": "alta",
+      "estado": "verificado"
+    },
+    {
+      "id": "BL-007",
+      "hallazgo": "URLs oficiales 2026: en mantenimiento por tareas 'Refrescar cache de URLs oficiales' y 'Mostrar fuentes oficiales tambien en otros articulos'.",
+      "prioridad": "media",
+      "estado": "cubierto"
+    }
+  ],
+  "resumen": {
+    "issues_pendientes_propios": 1,
+    "issues_cubiertos_por_otras_tareas": 4,
+    "issues_verificados": 3,
+    "estado_general": "blog completo en 6 idiomas con SEO y schema robustos; falta normalizar alt en imagenes del cuerpo"
+  }
+}

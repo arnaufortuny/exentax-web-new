@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-04-22",
+  "scope": "exentax-web/server/email.ts + email-i18n.ts + email-layout.ts + email-retry-queue.ts",
+  "templates": [
+    {"id": "booking", "purpose": "Confirmación de asesoría", "languages": 6},
+    {"id": "reminder", "purpose": "Recordatorio previo", "languages": 6},
+    {"id": "calculator", "purpose": "Resultado calculadora (lead magnet)", "languages": 6},
+    {"id": "reschedule", "purpose": "Reagendamiento", "languages": 6},
+    {"id": "cancellation", "purpose": "Cancelación", "languages": 6},
+    {"id": "noShow", "purpose": "No-show", "languages": 6}
+  ],
+  "i18nCoverage": {
+    "es": "OK", "en": "OK", "fr": "OK", "de": "OK", "pt": "OK", "ca": "OK",
+    "details": "Todas las claves presentes en email-i18n.ts:113-917; verificado por inspección estructural."
+  },
+  "responsive": {
+    "maxWidth": "600px",
+    "mediaQuery": "@media only screen and (max-width:600px) presente en email-layout.ts:90-95",
+    "msoFallback": "Conditional MSO CSS para Outlook (líneas 68, 97, 168)"
+  },
+  "branding": {
+    "logo": "/ex-icon-green.png servido desde SITE_URL",
+    "color": "Neon green único (#00E510 / #00C80E) según política",
+    "footer": "Logo + redes sociales + copyright + dirección física"
+  },
+  "gdprCompliance": {
+    "legalAddress": "Incluida vía COMPANY_ADDRESS_SHORT (email-layout.ts:135).",
+    "reasonForSending": "unsubNote por template (email-i18n.ts) explica por qué se envió.",
+    "unsubscribe": {
+      "header": "List-Unsubscribe + List-Unsubscribe-Post: One-Click presentes en email.ts:104-126.",
+      "newsletterRoute": "GET /api/newsletter/unsubscribe/:token (server/routes/public.ts:1358) operativo en 6 idiomas.",
+      "transactionalNote": "Emails transaccionales (booking/reminder/etc) muestran texto unsubNote pero no enlace clicable: aceptable para transaccional bajo GDPR (no son marketing)."
+    }
+  },
+  "spamTriggers": {
+    "subjects": "Limpios — sin FREE/$$$/ALL CAPS. Subjects descriptivos basados en datos del usuario."
+  },
+  "absoluteUrls": {
+    "envVar": "SITE_URL (server-constants.ts:27, fallback https://exentax.com)",
+    "localhost": "Ningún hardcode en flujo de producción."
+  },
+  "fallbackWhenGmailNotConfigured": {
+    "implementation": "email-retry-queue.ts + circuit-breaker.ts",
+    "behavior": "Logs warn `gmail_not_configured`, no rompe flujo; reintento al recuperar credenciales."
+  },
+  "blockerCount": 0,
+  "verdict": "OK — 6 idiomas completos, responsive, GDPR cubierto (List-Unsubscribe header + ruta newsletter), sin spam triggers."
+}

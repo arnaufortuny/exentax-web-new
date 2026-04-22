@@ -1,0 +1,225 @@
+export default `Designing an international tax structure is not picking the most exotic country on the map, or copying the structure of the influencer of the day. It's a methodical exercise demanding personalized analysis, cross-cutting regulation and, above all, honesty about your real situation. At Exentax we've applied the same professional framework for years, and here we share it step by step.
+
+## Step-by-step process
+
+### Step 1: Real (not aspirational) diagnosis
+
+Before designing anything, you must understand:
+
+- **Your real economic activity**: what you sell, to whom, how you collect, your expenses, your margin, expected growth. This determines tax classification and regime. Activity-by-activity detail in <a href="/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas">LLC taxation by activity</a>.
+- **Your real (not desired) tax residency**: days of presence, centre of economic interests, family core. Tax residency is not chosen by declaration; it's determined by facts. Developed in <a href="/en/blog/digital-nomad-where-to-pay-taxes-and-how-to-choose-your-tax">digital nomad tax residency</a>.
+- **Your asset situation**: what you have, where, in whose name. The asset diagnosis defines what to protect and what to declare (Form 720, 721 in Spain; LATAM equivalents).
+- **Your 5-year objective**: grow, maintain, sell the business, retire. Each leads to different structures.
+
+Without this diagnosis, any "design" is shooting blind.
+### Step 2: Define target tax residency
+
+Three scenarios:
+
+1. **Maintain Spanish/LATAM residency**: structure must be efficient with that residency. Most of our clients, where good planning adds the most value.
+2. **Move residency to a country with more efficient tax regime** (Andorra, Portugal NHR/IFICI, Italy 100k regime, UAE, Paraguay, Costa Rica): requires real move, residency certificate, effective break with country of origin and time (minimum a full year of change).
+3. **You're already a digital nomad with operational base in a country without DTT or with special regime**: each case needs analysis.
+
+Deciding this **before** design saves costly redesigns.
+### Step 3: Choose the right vehicle
+
+There is no "best" vehicle. There is a **suitable** vehicle for each profile. Most common options:
+
+- **US Single-Member LLC Disregarded Entity**: ideal for B2B professional services, low CFC risk, high operational efficiency. State comparison in <a href="/en/blog/new-mexico-vs-wyoming-vs-delaware-which-state-for-your-llc">New Mexico vs Wyoming vs Delaware</a>.
+- **US Multi-Member LLC Partnership**: when several partners without need for corporate taxation.
+- **LLC with check-the-box election as C-Corp**: when corporate tax opacity is needed, generally for profit reinvestment or capital raising.
+- **Spanish operating S.L.**: when activity is essentially Spanish and risk of simulation/hidden PE is high.
+- **Spanish holding + foreign subsidiary**: for asset profiles with succession needs, multiple businesses or complex international operations.
+- **Estonian OÜ, Hong Kong Limited, Singapore Pte Ltd, BVI**: specific vehicles with their own requirements and limitations. The Estonian OÜ is overhyped in social media; see <a href="/en/blog/why-not-to-open-an-estonian-company-the-us-llc-wins-for-most">why not to form a company in Estonia</a>.
+
+The right choice depends on diagnosis × residency × activity × exit vision.
+### Step 4: Build substance
+
+**Substance** distinguishes a defensible structure from paper. It comprises:
+
+- **Legal substance**: formal documents (Articles, Operating Agreement, BOI Report, EIN, registered agent, real operational address). See <a href="/en/blog/llc-documents-which-ones-you-need-and-how-to-keep-them">LLC documents</a>.
+- **Operational substance**: clear account separation, real bookkeeping, customer contracts, invoices in LLC's name, tools and services contracted in LLC's name, marketing in LLC's name. See <a href="/en/blog/separating-personal-and-llc-finances-why-it-matters">separating personal and LLC money</a>.
+- **Economic substance**: revenues generated in LLC's name, deductible expenses imputed to LLC, working capital in LLC accounts. See <a href="/en/blog/tax-deductions-for-your-llc-complete-guide">LLC deductible expenses</a>.
+- **Decisional substance**: strategic and operational decisions made in LLC's name, ideally documented in minutes or memos.
+
+Without substance, a structure falls at the first serious request.
+### Step 5: Design a coherent banking stack
+
+Banking stack is the other half of substance. General recommendations:
+
+- **Primary account**: Mercury or Relay (US), for operational solidity, FDIC sweep banking and low CRS footprint. See <a href="/en/blog/how-to-avoid-account-freezes-at-mercury-wise-and-revolut">how to open Mercury</a>.
+- **Multi-currency secondary**: Wise Business or Revolut Business for EUR/GBP/EU operations, aware of their CRS profile. See <a href="/en/blog/wise-business-and-crs-what-it-reports-to-your-tax-authority">Wise and CRS</a> and <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut and CRS</a>.
+- **Corporate cards**: Wallester or Mercury/Relay's own.
+- **Payment gateways**: Stripe, PayPal, Adyen or DoDo Payments per model. See <a href="/en/blog/payment-gateways-for-your-llc-stripe-paypal-and-dodo">gateways comparison</a>.
+- **Treasury and investment**: Slash or Mercury Treasury for operational liquidity; Interactive Brokers for longer-term investment.
+
+Coherence: accounts and cards in LLC's name, collections and payments tied to real activity, no mixed personal use.
+### Step 6: Compliance and ongoing review
+
+Compliance isn't an event, it's an annual process:
+
+- **US**: <a href="/en/blog/what-is-the-irs-and-how-does-it-affect-your-us-llc">Form 5472</a> + pro-forma Form 1120 annually, BOI Report to <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>, registered-agent renewal, state Annual Report if applicable. See Form 5472, <a href="/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need">BOI Report today</a> and <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual LLC maintenance</a>.
+- **Spain (resident)**: annual IRPF with imputed income, VAT if applicable, Form 720 if threshold crossed, Form 721 for crypto, Form 100/130, possible Form 238 (DAC7) if selling on platforms.
+- **LATAM**: annual return + foreign-income reporting regimes per country.
+- **Annual review**: residency, substance, banking stack, new regulation (DAC7, DAC8, MiCA, DTT changes), modified thresholds.
+## Examples by profile
+
+**Profile 1: B2B freelance consultant resident in Spain, invoices €80,000-€150,000/year, no team.**
+
+Typical recommended structure: Single-Member LLC in New Mexico, Disregarded Entity, Mercury primary + Wise secondary for EUR clients, Wallester for cards, bookkeeping in LLC's name. Spanish classification: economic-activity income imputed to partner. Savings vs pure self-employed: significant.
+
+**Profile 2: Amazon Europe e-commerce, Spanish resident, €200,000-€500,000/year.**
+
+Recommended: LLC with substance + IOSS/OSS in EU MS of identification + customs advisory. Possibly EU subsidiary to minimize VAT friction if volume justifies. Mandatory DAC7 coordination.
+
+**Profile 3: International B2B SaaS, LATAM resident, €100,000 ARR.**
+
+LLC + Mercury + Stripe + Merchant of Record for international subscriptions. Local classification depends on country; partner remittance planning.
+
+**Profile 4: Professional trader with crypto and futures.**
+
+LLC without substance is high-risk (CFC). Analysis of residency change or structure with real substance. Possible subsidiary in jurisdiction with specific trading regime. Mandatory DAC8 compliance.
+### Framework in one image
+
+| Step | Question | Output |
+| --- | --- | --- |
+| 1 | Who am I fiscally? | Diagnosis: residency + activity + assets |
+| 2 | Where will I reside? | Target residency decision |
+| 3 | What vehicle do I need? | Optimal legal form |
+| 4 | How do I give it substance? | Operational and documentary plan |
+| 5 | How does the money flow? | Coherent banking stack |
+| 6 | How do I maintain it? | Compliance + annual review plan |
+### Common mistakes to avoid
+
+- Skipping step 1 and opening an LLC without diagnosis.
+- Changing residency "on paper" without real move.
+- Picking vehicle by trend, not fit.
+- Designing without substance to "save time and money".
+- Mixing personal and LLC finances.
+- Not planning annual review.
+
+To avoid them, see the full risks catalogue in <a href="/en/blog/tax-risks-of-bad-international-structuring-simulation-cfc">tax risks of bad international structuring</a>.
+### In summary
+
+A solid international tax structure is the result of a process, not a shortcut. Each framework step reinforces the next. Skipping one weakens all the others. The good news: well-designed, an international structure can substantially reduce your tax burden **within the law**, with a solid documentary footprint and no surprises.
+
+Want us to design your structure step by step applying this framework to your case? Book your free consultation and we'll start.
+
+If something in this structure left you wanting more detail, <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">Do US bank accounts report to your home tax authority? The honest answer</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+## Legal and regulatory references
+
+This article relies on rules currently in force. Main sources for verification:
+
+- **United States.** Treas. Reg. §301.7701-3 (entity classification / *check-the-box*); IRC §882 (tax on foreign income effectively connected with a US trade or business); IRC §871 (FDAP and withholding on non-residents); IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472 for *25% foreign-owned* and *foreign-owned disregarded entities*); IRC §7701(b) (tax residency, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report to FinCEN).
+- **Spain.** Law 35/2006 (LIRPF), arts. 8, 9 (residency), 87 (income attribution), 91 (CFC for individuals); Law 27/2014 (LIS), art. 100 (CFC for companies); Law 58/2003 (LGT), arts. 15 (anti-abuse) and 16 (simulation); Law 5/2022 (Form 720 penalty regime after CJEU C-788/19 of 27/01/2022); RD 1065/2007 (Forms 232 and 720); Order HFP/887/2023 (Form 721 crypto).
+- **Spain–US treaty.** <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> of 22/12/1990 (original DTT); Protocol in force since 27/11/2019 (passive income, *limitation on benefits*).
+- **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Directive (EU) 2011/16, amended by DAC6 (cross-border arrangements), DAC7 (Directive (EU) 2021/514, digital platforms) and DAC8 (crypto-assets); Directive (EU) 2016/1164 (ATAD: CFC, exit tax, hybrid mismatches); OECD Common Reporting Standard (CRS).
+- **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
+
+Applying any of these rules to your specific case depends on your tax residency, the LLC's activity and the documentation you keep. This content is informational and does not replace personalized professional advice.
+
+<!-- exentax:bank-balance-v1 -->
+## A balanced banking stack: Mercury, Relay, Slash and Wise
+
+There is no perfect account for an LLC. There is the right **stack**, where each tool plays a role:
+
+- **Mercury** (operated as a fintech with partner banks (Choice Financial Group and Evolve Bank & Trust primarily; Column N.A. on legacy accounts), FDIC via sweep network up to the current limit). Main operating account for non-residents with strong UX, ACH and wires. Still one of the most proven options to open from outside the US.
+- **Relay** (backed by Thread Bank, FDIC). Excellent **backup account** and for envelope-style budgeting: up to 20 sub-accounts and 50 debit cards, deep QuickBooks and Xero integration. If Mercury blocks or asks for KYC review, Relay keeps your operations running.
+- **Slash** (backed by Column N.A. (federally chartered, FDIC)). Banking built for online operators: instant virtual cards by vendor, granular spend controls, cashback on digital advertising. The natural complement when you manage Meta Ads, Google Ads or SaaS subscriptions.
+- **Wise Business** (multi-currency EMI, not a bank). To collect and pay in EUR, GBP, USD and other currencies with local bank details and mid-market FX. Does not replace a real US account but is unbeatable for international treasury.
+- **Wallester / Revolut Business.** Wallester provides corporate cards on a dedicated BIN for high volume. Revolut Business works as a European complement, not as the LLC's main account.
+The realistic recommendation: **Mercury + Relay as backup + Slash for ad operations + Wise for FX treasury**. This setup minimizes block risk and reduces real cost. At Exentax we open and configure this stack as part of incorporation.
+
+<!-- exentax:banking-facts-v1 -->
+## Banking and tax facts worth clarifying
+
+Fintech and CRS information evolves; here is the current state:
+
+<!-- exentax:calc-cta-v1 -->
+> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+<!-- /exentax:calc-cta-v1 -->
+
+### Notes by provider
+
+- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
+- **Wise** ships two clearly different products: **Wise Personal** and **Wise Business**. For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS participant; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; a separate Wise Personal in your own name as a CRS-resident individual does report.
+- **Wallester** (Estonia) is a European financial entity with an EMI/issuing-bank licence. Its European IBAN accounts **are within the Common Reporting Standard (CRS)** and therefore trigger automatic reporting to the tax administration of the holder's country of residence.
+- **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
+- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, BE) **are not issued by default** to a US LLC, they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity it sits with and which regime it reports under.
+- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:legal-facts-v1 -->
+## Legal & procedural facts
+
+FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> reporting requirements moved recently; the current state is:
+
+- **BOI / Corporate Transparency Act.** After **FinCEN's March 2025 interim final rule**, the BOI Report requirement was **narrowed to "foreign reporting companies"** (entities formed outside the US and registered to do business in a state). A **US-formed LLC owned by a non-resident is, as of today, outside that obligation**. The regulatory status can change again: **re-verify at FinCEN.gov at filing time**. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement and monitor future updates.
+- **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
+- **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
+- **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
+
+<!-- exentax:execution-v2 -->
+## The Exentax framework to design an international tax structure
+
+A sound international tax structure is not bought; it is designed from five layers in the right order. Skipping the order is the most common cause of structures that fail at the first inquiry. This is the framework we work with at Exentax on every case.
+
+- **Layer 1 - Honest personal diagnosis.** Inventory of current tax residency, citizenship, assets by jurisdiction, income sources and dependents. The structure of a single person with digital income does not look like that of a married parent with school-age children or someone with concentrated real-estate assets. Designing without this is blind engineering.
+- **Layer 2 - Residency jurisdiction selection.** The most impactful lever of the five. Andorra, Portugal with NHR-IFICI, Italy with impatriate regime, UAE, Paraguay, Uruguay, Cyprus, Malta. Each with its regime, demanded substance, treaty with your origin country and real operations. Without closing this layer, the corporate structure is secondary.
+- **Layer 3 - Corporate structure.** US LLC for international operational flow, Andorran or UAE holding for accumulation, local operating company when there is physical substance, Spanish ETVE in qualified cases. The criterion: the company serves the resident, not the reverse. A pretty company with a misaligned resident is a flawed structure.
+- **Layer 4 - Banking and payment rails.** Mercury + Wise Business as USD-EUR operating pair, local bank in the residency jurisdiction for daily spend, FX broker if volume justifies, Stripe/Paddle/DoDo gateways based on client mix. Every money movement across layers must be explainable against a treaty clause.
+- **Layer 5 - Recurring compliance.** 5472 + 1120 pro forma, BOI report, state annual report, residency filings (IRPF/local CIT), implicit CRS/DAC7/DAC8, Spanish Modelos 720/721 when applicable. Without an integrated calendar, the most elegant structure collapses within 3 years.
+
+### What we are asked the most
+
+**How long does designing a full structure take?** Between 6 and 16 weeks based on complexity. Layer 1 (diagnosis) takes 1-2 weeks; layer 2 (residency) may take 3-9 months when actual relocation is required; layers 3-4 (incorporation and banking) run in parallel for 4-8 weeks; layer 5 (compliance) is handed as a closed manual to the client.
+
+**What if my situation changes in 3 years?** The structure is designed with exit clauses and relocation hinges so a change (marriage, children, sale of company, partial retirement) does not mean redoing everything. Modularity is built in from layer 1, not added later.
+
+At Exentax we have applied this framework for years with clients from Europe and Latin America. We do not sell off-the-shelf structures; we execute five layers in the right order and leave the client with a documentary-defensible design that is operative from day one.
+<!-- /exentax:execution-v2 -->
+
+## We set it up without you losing a weekend
+
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+
+<!-- exentax:cta-v1 -->
+<!-- exentax:cta-conv-v1 -->
+<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Designing%20an%20international%20tax%20structure%20is%20not%20picking%20the%20most%20exotic%20count%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+
+If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
+<!-- /exentax:cta-conv-v1 -->
+
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+<!-- /exentax:cta-v1 -->
+
+<!-- exentax:review-anchor-v1 -->
+<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
+<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li><span class="font-mono">80.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…fil 1: Consultor freelance B2B residente en España, factura 80.000-150.000 €/año, sin equi…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">150.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…Consultor freelance B2B residente en España, factura 80.000-150.000 €/año, sin equipo.** E…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">200.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…Perfil 2: E-commerce en Amazon Europa, residente en España, 200.000-500.000 €/año.** Estru…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">500.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…: E-commerce en Amazon Europa, residente en España, 200.000-500.000 €/año.** Estructura re…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">100.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…7. **Perfil 3: SaaS B2B internacional, residente en LATAM, 100.000 € arr.** LLC + Mercury …»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">25.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">21 %</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
+<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…- **EE.UU.**: &lt;a href=&quot;/es/blog/que-es-irs-guia-duenos-llc&quot;&gt;Form 5472&lt;/a&gt; + Form 1120 pro-…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…href=&quot;/es/blog/que-es-irs-guia-duenos-llc&quot;&gt;Form 5472&lt;/a&gt; + Form 1120 pro-forma anual, BOI …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
+<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
+<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…Modelo 721 para cripto, Modelo 100/130, posible Modelo 238 (DAC7) si vendes en plataformas…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…a fiscal, sustancia, stack bancario, normativa nueva (DAC7, DAC8, MiCA, cambios CDI), umbr…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+<li><span class="font-mono">DAC6</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
+</ul>
+</aside>
+<!-- /exentax:review-anchor-v1 -->
+`;

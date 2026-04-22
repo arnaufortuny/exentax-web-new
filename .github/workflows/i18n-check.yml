@@ -1,0 +1,33 @@
+name: i18n check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  i18n-check:
+    name: Validate translation bundles
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run i18n check
+        run: npm run i18n:check

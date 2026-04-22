@@ -1,0 +1,289 @@
+# Discord Bot — Agenda Exentax
+
+The agenda is operated **end-to-end from Discord**. There is no web admin
+panel: all booking lifecycle actions (view, confirm, cancel, reschedule,
+no-show, create, block days, send manual emails) are exposed as Discord
+slash commands and as buttons attached to every booking notification
+published in `#agenda`.
+
+---
+
+## 1. Required environment variables
+
+| Variable                        | Purpose                                                                           |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| `DISCORD_APP_ID`                | Discord application ID — used to register global slash commands                   |
+| `DISCORD_BOT_TOKEN`             | Bot token — used to register slash commands and (optionally) call the REST API   |
+| `DISCORD_PUBLIC_KEY`            | Application public key — verifies Ed25519 signature of every interaction         |
+| `ADMIN_DISCORD_ROLE_ID`         | Role ID — only members carrying this role may invoke any agenda command/button    |
+| `DISCORD_CHANNEL_AUDITORIA`     | Channel ID for `#sistema-auditoria` — every admin action is mirrored here via the bot |
+| `DISCORD_CHANNEL_AGENDA`        | Channel ID for `#agenda` — booking notifications (delivered as bot messages by `discord.ts`) |
+
+> **No webhooks are used anywhere.** Every notification (registros, calculadora, actividad, agenda, consentimientos, errores, auditoría) is published as a bot message via `POST /channels/{id}/messages`. After an admin acts on a booking, the original `#agenda` embed is updated in place via `PATCH /channels/{id}/messages/{id}` (see `editChannelMessage` in `server/discord.ts`).
+
+When any of `DISCORD_APP_ID`, `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`
+or `ADMIN_DISCORD_ROLE_ID` is missing the bot is automatically disabled:
+the interactions endpoint is not mounted and command sync is skipped. A
+warning is logged at startup.
+
+---
+
+## 2. Discord application setup
+
+1. Create an application at <https://discord.com/developers/applications>.
+2. Copy the **Application ID**, **Public Key** and (under *Bot*) the
+   **Bot Token** into the env vars above.
+3. **Interactions Endpoint URL**: set it to
+   `https://exentax.com/api/discord/interactions`. Discord will validate
+   the URL by sending a `PING` — make sure the env vars are deployed
+   before saving.
+4. Invite the bot to the server with the `applications.commands` scope
+   and the `bot` scope. Required permissions: **Send Messages**,
+   **Embed Links** and **Read Message History** in every channel listed
+   in §1 — the bot itself posts every operational notification (and
+   later edits its own `#agenda` messages) via `POST /channels/{id}/messages`
+   and `PATCH /channels/{id}/messages/{id}`. There are no Discord
+   webhooks left in the system.
+5. Capture the role ID of the team role that should be allowed to use
+   the agenda (right-click → *Copy Role ID* with developer mode on) and
+   set `ADMIN_DISCORD_ROLE_ID`.
+
+Slash commands are registered **globally** at server startup. Discord
+caches them for ~1 hour after the first publish; subsequent restarts
+are no-ops.
+
+### Standalone registration script (idempotent)
+
+For deploys where bouncing the server just to refresh the manifest is
+undesirable — or for inspecting what is currently published — use:
+
+```
+npm run discord:register          # publish (PUT)
+npm run discord:register:dry      # print local manifest, no network call
+npm run discord:register:diff     # show local vs live (read-only)
+```
+
+The script (`exentax-web/scripts/register-discord-commands.ts`) is
+fully idempotent: Discord's `PUT /applications/{id}/commands` replaces
+the manifest atomically and no-ops when the payload is byte-equal to
+what is already registered. Requires `DISCORD_APP_ID` and
+`DISCORD_BOT_TOKEN`; signature/role vars are not needed for publishing.
+
+---
+
+## 3. Slash command reference
+
+### `/ayuda`
+
+Single ephemeral embed listing every command, button and select option.
+Always available. Logged in `agenda_admin_actions` with `action = "ayuda"`
+so we can audit who consulted the help (useful for onboarding).
+
+### `/agenda`
+
+| Subcommand                          | Effect                                                                                  |
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
+| `/agenda hoy`                       | Lists today's bookings (Madrid time)                                                    |
+| `/agenda semana`                    | Lists bookings for the next 7 days                                                      |
+| `/agenda buscar q:<text>`           | Finds bookings by **booking ID, name or email** (substring on each)                     |
+| `/agenda libre fecha:YYYY-MM-DD`    | Lists free time slots for that date                                                     |
+| `/agenda bloquear fecha:YYYY-MM-DD motivo:<text>` | Marks the day as unavailable                                              |
+| `/agenda desbloquear fecha:YYYY-MM-DD`            | Removes a day block                                                       |
+
+### `/cita`
+
+| Subcommand                          | Effect                                                                                  |
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
+| `/cita ver id:<bookingId>`          | Shows the full booking card with the action buttons + email select                      |
+| `/cita confirmar id:<bookingId>`    | Marks status = `contacted`, no email sent                                               |
+| `/cita cancelar id:<bookingId> motivo:<text>` | Cancels booking, frees the slot, sends cancellation email                     |
+| `/cita noshow id:<bookingId>`       | Marks status = `no_show` and sends the no-show / reschedule invitation email            |
+| `/cita reprogramar id:<bookingId>`  | Opens a modal asking for new date/time, then reschedules + sends reschedule email       |
+| `/cita email id:<bookingId> tipo:<confirmation\|recordatorio\|noshow\|seguimiento>` | Re-sends the chosen email template manually          |
+| `/cita nueva …`                     | Creates a booking from scratch (name, email, date, time, optional phone, notas, idioma `es/en/fr/de/pt/ca`) |
+
+**Booking identity.** Bookings are addressed by their short, public-safe
+`bookingId` (e.g. `bk_a1b2c3d4`) in every command, button, audit row and
+notification — never by the manage token. The `manage_token` column is
+strictly the **client-facing** secret used to render the public
+`/booking/:id?token=…` self-service page in the confirmation email; it
+must never appear in Discord, logs or admin UI.
+
+---
+
+## 4. Interactive components
+
+Every booking notification posted to `#agenda`
+(`notifyBookingCreated`, `notifyBookingRescheduled`,
+`notifyBookingCancelled`) carries **two action rows** built by
+`bookingActionRows(bookingId)`:
+
+**Brand policy**: NO emojis or icons anywhere — buttons, options, embeds,
+status fields and titles are all plain text. Severity is conveyed via the
+ASCII tags `[INFO]`, `[AVISO]`, `[ERROR]` prefixed to each event title.
+Discord's native button colour-styles (success / primary / danger /
+secondary) provide enough visual differentiation on their own.
+
+There is no "Ver" button — `/cita ver` is the only entry point for the
+booking detail card (it returns the same card with these same two rows
+as components). Keeping the button set lean avoids accidentally
+re-issuing a non-mutating action that would only spam the channel.
+
+**Row 1 — state mutation buttons** (custom_id pattern `agenda:<verb>:<bookingId>`):
+
+| Button       | Verb         | Style          | Behaviour                                                |
+| ------------ | ------------ | -------------- | -------------------------------------------------------- |
+| Confirmar    | `confirm`    | success/green  | Same as `/cita confirmar`                                |
+| Reprogramar  | `reschedule` | primary/blue   | Opens the reschedule modal (date + time)                 |
+| Cancelar     | `cancel`     | danger/red     | Cancels the booking with reason `Cancelada desde Discord`|
+| No-show      | `noshow`     | secondary/grey | Same as `/cita noshow`                                   |
+
+**Row 2 — email select menu** (custom_id `agenda:email_select:<bookingId>`):
+
+| Option                | `value`        | Sends                                            |
+| --------------------- | -------------- | ------------------------------------------------ |
+| Confirmación          | `confirmation` | Booking confirmation (re-send) with manage URL   |
+| Recordatorio          | `recordatorio` | 24-hour reminder with Meet link                  |
+| No-show / reagenda    | `noshow`       | No-show + invitation to reschedule               |
+| Seguimiento           | `seguimiento`  | Post-meeting follow-up                           |
+
+The select menu replaces the earlier single "Email" button — operators
+must now pick the template explicitly so an email type can never be
+sent by accident on an active booking.
+
+After any successful action the original `#agenda` embed is patched in
+place (`PATCH /channels/{id}/messages/{id}` via `editChannelMessage`):
+a "Última acción" field is added with the new status, the operator and
+the timestamp, and the components row is dropped so the action cannot
+be triggered twice.
+
+Authorisation: every interaction (slash command, button, select,
+modal submit) is gated by `ADMIN_DISCORD_ROLE_ID` — interactions from
+members without the role receive an ephemeral "no autorizado" reply
+and are **not** logged as actions.
+
+---
+
+## 5. Audit trail
+
+Two parallel audit channels exist:
+
+1. **Database** — every successful action inserts a row in
+   `agenda_admin_actions` (`id`, `actor_discord_id`, `actor_name`,
+   `action`, `booking_id`, `payload`, `created_at`). Useful for
+   forensic queries (`who cancelled booking X?`).
+2. **Discord** — every action is mirrored to `#sistema-auditoria` via
+   `notifyAdminAction`, brand-styled like every other event. Useful for
+   real-time visibility.
+
+Failures of side-effects (email send, Google Meet event create) never
+abort the action — they are logged but the booking state is updated
+either way, since the source of truth is the database.
+
+---
+
+## 6. Endpoint contract
+
+`POST /api/discord/interactions`
+
+* Mounted **before** `express.json` so the raw body is preserved on
+  `req.rawBody`. Ed25519 signature is verified against
+  `DISCORD_PUBLIC_KEY` using Node's native `crypto.createPublicKey`.
+* Returns `401` on bad signature, `200` with `type: 1 (PONG)` for
+  `PING`, and `200` with the appropriate interaction response for
+  every other type.
+* Excluded from CSRF origin check (Discord does not send `Origin`,
+  the Ed25519 signature is a strictly stronger proof of authenticity).
+
+---
+
+## 7. Automated end-to-end harness
+
+Manual exercise of every command + button against a real staging guild
+remains the gold standard, but for fast regression coverage there is an
+in-process harness that drives `handleInteractionRequest` directly with
+locally-generated Ed25519 signatures and intercepts every outbound
+`discord.com/api/v10/*` HTTP call:
+
+```
+tsx exentax-web/scripts/test-discord-bot-e2e.ts
+```
+
+Requires `DATABASE_URL`. The harness:
+
+* generates a fresh Ed25519 keypair and exposes the public half via
+  `DISCORD_PUBLIC_KEY`, so signature verification is exercised end-to-end
+  (PING + valid + invalid + tampered body all asserted)
+* exercises every slash command in § 3 (`/ayuda`, all `/agenda *` and all
+  `/cita *` subcommands including `cancelar`, `noshow`, `reprogramar`,
+  and `email` for every `tipo`), every button + select-menu in § 4 and
+  the reschedule modal — 68 assertions
+* verifies (a) HTTP response shape, (b) DB-side effects in `agenda` and
+  `agenda_admin_actions`, (c) outbound REST POSTs to the audit channel
+  and PATCHes to the originating `#agenda` message
+* tags every test row with `e2e-discord-bot-<timestamp>` and removes
+  them on exit (success or failure)
+
+What the harness still does NOT cover (genuine staging Discord required):
+real signature checks against the live URL, real slash-command publish
+round-trip, real button rendering / clicks in a Discord client, and real
+Gmail / Google Meet side-effects (those are no-op'd by leaving
+`GOOGLE_SERVICE_ACCOUNT_KEY` unset for the test process).
+
+## 8. Operational notes
+
+* Slash command publication takes up to 1 hour to propagate globally
+  the first time. For faster iteration during development, register
+  guild-scoped commands by uncommenting the guild branch in
+  `registerSlashCommands` and setting a `DISCORD_GUILD_ID` env var.
+* Booking reads use the `IStorage` interface directly. There is no
+  REST admin surface — the bot is the only way to read or mutate
+  bookings outside the public booking flow. Any inbound `/api/admin/*`
+  request hits the catch-all `apiNotFound` (404).
+* The bot module is fully idempotent at startup: re-running the
+  process re-publishes the manifest (Discord deduplicates) and
+  re-mounts the interactions route on a fresh Express instance.
+* **No webhooks anywhere.** All notification channels (registros,
+  calculadora, actividad, agenda, consentimientos, errores,
+  auditoría) are delivered as bot messages via
+  `POST /channels/{id}/messages` with `Authorization: Bot <DISCORD_BOT_TOKEN>`.
+  The bot identity (username + avatar) is configured once in the
+  Discord developer portal — payloads no longer carry `username` /
+  `avatar_url` overrides. Embed colour is forced to Exentax neon
+  green (`#00E510`) on every send for brand consistency.
+
+---
+
+## 9. How to add a new slash command
+
+Single source of truth: `exentax-web/server/discord-bot.ts::buildSlashCommandManifest`.
+Every command you add MUST be wired in **all three** layers below — the
+e2e harness asserts there are zero orphan handlers and zero registered
+commands without a handler:
+
+1. **Manifest** — append the command (or subcommand) to
+   `buildSlashCommandManifest()` in `discord-bot.ts`. Keep the option
+   schema strict (`required: true` where applicable, `choices` for
+   enums) so Discord validates input client-side.
+2. **Dispatcher** — in `discord-bot-commands.ts::dispatchSlashCommand`,
+   route the new top-level name to a handler. For new subcommands,
+   add a `case` in the existing top-level handler (e.g. `handleCitaCommand`).
+3. **Handler** — implement the action. Every handler MUST:
+   - Validate inputs with `zod` or the same `ISO_DATE_RE` / regex
+     helpers used by existing handlers.
+   - Persist an audit row via `logAdminAction({ action, actor, ... })`.
+   - Echo the action to `#sistema-auditoria` via `notifyAdminAction(...)`.
+   - Reply ephemerally (`replyEphemeral` or `deferEphemeral` + `followupEphemeral`).
+4. **Docs** — update §3 of this file and the `/ayuda` embed in
+   `handleHelpCommand` so operators can discover the command.
+5. **Publish** — `npm run discord:register:diff` to verify the local
+   manifest, then `npm run discord:register` to push it. Discord
+   propagates global commands within ~1h.
+6. **Tests** — add an assertion block to
+   `exentax-web/scripts/test-discord-bot-e2e.ts` (signature, response
+   shape, audit row, side effect). Run `tsx scripts/test-discord-bot-e2e.ts`.
+
+Buttons and select options follow the same pattern — register the
+custom ID under `bookingActionRows()` in `server/discord.ts`, add a
+`case` in `dispatchComponent`, and assert the round-trip in
+`test-discord-bot-buttons.ts` + `test-discord-bot-e2e.ts`.
