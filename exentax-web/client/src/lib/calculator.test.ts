@@ -543,6 +543,56 @@ record(
 );
 
 // ---------------------------------------------------------------------------
+// Edge cases — defensive input handling.
+// These assertions lock in the documented behavior of `calculateSavings()`
+// against malformed inputs (regla nº 1: si funciona, que siga funcionando).
+// Verified manually 2026-04 before writing the test.
+// ---------------------------------------------------------------------------
+{
+  const zeroIncome = calculateSavings(0, "espana", "autonomo", "general");
+  record(
+    "monthlyIncome=0 returns finite values (no NaN, no Infinity)",
+    Number.isFinite(zeroIncome.sinLLC) && Number.isFinite(zeroIncome.conLLC) && Number.isFinite(zeroIncome.ahorro),
+    `sinLLC=${zeroIncome.sinLLC} conLLC=${zeroIncome.conLLC} ahorro=${zeroIncome.ahorro}`,
+  );
+  record(
+    "monthlyIncome=0 · España autónomo · sinLLC = SS mínima 2400€/año",
+    zeroIncome.sinLLC === 2400,
+    `expected 2400, got ${zeroIncome.sinLLC}`,
+  );
+
+  const nanIncome = calculateSavings(NaN, "espana", "autonomo", "general");
+  record(
+    "monthlyIncome=NaN clamped to 0 (no NaN propagation)",
+    Number.isFinite(nanIncome.sinLLC) && nanIncome.sinLLC === 2400,
+  );
+
+  const infIncome = calculateSavings(Infinity, "espana", "autonomo", "general");
+  record(
+    "monthlyIncome=Infinity clamped to sanity max (no Infinity in output)",
+    Number.isFinite(infIncome.sinLLC) && infIncome.sinLLC > 0,
+  );
+
+  const negIncome = calculateSavings(-1000, "espana", "autonomo", "general");
+  record(
+    "monthlyIncome=-1000 clamped to 0",
+    negIncome.sinLLC === 2400,
+  );
+
+  const unknownCountry = calculateSavings(5000, "atlantida", "autonomo", "general");
+  record(
+    "country unknown · sinLLC=0 graceful fallback (no throw)",
+    unknownCountry.sinLLC === 0 && unknownCountry.conLLC === 1400,
+  );
+
+  const huge = calculateSavings(1_000_000_000, "espana", "autonomo", "general");
+  record(
+    "monthlyIncome=1e9 saturates without NaN/Infinity",
+    Number.isFinite(huge.sinLLC) && Number.isFinite(huge.effectiveRate),
+  );
+}
+
+// ---------------------------------------------------------------------------
 // Report
 // ---------------------------------------------------------------------------
 const passed = results.filter((r) => r.ok).length;

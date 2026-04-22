@@ -86,10 +86,18 @@ aditivo, no reescribe lo que ya pasa los linters. Fuera de esa lista,
 
 | Archivo | Comando | Output |
 |---|---|---|
-| `exentax-web/client/src/lib/calculator.ts` (921 LoC) | `DATABASE_URL=postgresql://test:test@localhost/test npx tsx exentax-web/client/src/lib/calculator.test.ts` | `116/116 assertions passed.` |
+| `exentax-web/client/src/lib/calculator.ts` (921 LoC) | `DATABASE_URL=postgresql://test:test@localhost/test npx tsx exentax-web/client/src/lib/calculator.test.ts` | `123/123 assertions passed.` |
 | `exentax-web/client/src/lib/calculator-config.ts` | idem | OK |
-| `exentax-web/client/src/lib/calculator.test.ts` | idem | 116/116 |
+| `exentax-web/client/src/lib/calculator.test.ts` | idem | 123/123 (incluye edge cases NaN/Infinity/negativo/país desconocido) |
 | `exentax-web/client/src/components/calculator/*` | tsc + test | OK |
+
+**Verificado 2026-04-22 (sesión 10)**:
+- IRPF brackets 2026 alineados con BOE + blog `tramos-irpf-2026.ts`.
+- SS autónomo 15 tramos oficiales + tarifa plana 80 €/mes 2026.
+- LLC costs: `LLC_FORMATION_COST = 2000 €`, `LLC_ANNUAL_COST = 1400 €` (alineado con branding "desde 2.000 € / desde 1.400 €/año").
+- 8 países cubiertos: España, México, Chile, Reino Unido, Francia, Bélgica, Italia, Austria. Países no cubiertos → fallback elegante (`sinLLC = 0`, no throw).
+- Edge cases testeados: monthlyIncome = 0 / NaN / -1000 / Infinity / 1e9 → todos clampeados sin NaN propagation.
+- Opt-in `calcSpainIrpfWithLLC`: calcula escenario conservador con IRPF imputado si Hacienda marca la LLC como transparente (honesto, defendible).
 
 ## 8. Discord integración
 
