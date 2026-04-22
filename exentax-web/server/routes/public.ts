@@ -1050,7 +1050,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   }));
 
 
-  app.get("/api/legal/versions", asyncHandler(async (_req, res) => {
+  app.get("/api/legal/versions", asyncHandler(async (req, res) => {
+    // Rate-limited: public DB lookup (1 SELECT per call). Without a limiter
+    // an attacker can bombard this endpoint to exhaust DB connections or
+    // probe legal-document versions. The shared `publicDataLimiter` (60
+    // req/min/IP) is the right granularity — generous enough for normal
+    // page loads that resolve current versions, restrictive enough to
+    // block bursts.
+    const ip = getClientIp(req);
+    if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
     const { getActiveVersionsByType } = await import("../storage/legal");
     const versions = await getActiveVersionsByType();
     const result: Record<string, { version: string; effectiveDate: string }> = {};
@@ -1377,8 +1385,16 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   });
 
   app.get("/api/newsletter/unsubscribe/:token", asyncHandler(async (req, res) => {
-    const token = (req.params.token as string || "").trim();
+    // Rate-limited to stop brute-force token enumeration and DoS over the
+    // newsletter table (1 SELECT per call, 1 UPDATE per hit). Applies before
+    // any DB hit. `publicDataLimiter` (60/min/IP) is fine — real unsubscribe
+    // links are clicked once; anything past that is abusive.
+    const ip = getClientIp(req);
     const lang = resolveRequestLang(req);
+    if (!(await checkPublicDataRateLimit(ip))) {
+      return res.status(429).send(unsubscribeHtml(backendLabel("unsubError", lang), backendLabel("rateLimited", lang), lang));
+    }
+    const token = (req.params.token as string || "").trim();
     if (!token || token.length > 200) {
       return res.status(400).send(unsubscribeHtml(backendLabel("unsubError", lang), backendLabel("unsubInvalidLink", lang), lang));
     }
