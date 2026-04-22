@@ -954,7 +954,7 @@ const ca = {
     steps: [{"title":"Entenem la teva situació","intro":"Abans de fer res, parlem.","points":["On resideixes fiscalment.","Com generes ingressos.","Quin volum gestiones.","Què vols construir."],"footer":"Aquí decidim si una LLC té sentit i en quin estat hauria d'estar."},{"title":"Constituïm l'estructura","intro":"Quan tot està clar:","points":["Registrem la LLC","Nomenem el Registered Agent","Sol·licitem l'EIN a l'IRS","Presentem els informes inicials obligatoris"],"footer":"T'entreguem la documentació organitzada i llesta per fer servir."},{"title":"Activem el compte bancari","intro":"Treballem amb Relay perquè la teva LLC tingui compte operatiu als EUA.","desc":"T'acompanyem en la sol·licitud i configuració fins que puguis facturar amb normalitat."},{"title":"Deixem clar el següent pas","intro":"","points":["T'expliquem quines obligacions tindràs cada any.","Quins formularis s'apliquen.","Quins terminis no pots ignorar."],"footer":"Perquè entenguis com funciona la teva estructura i no depenguis de suposicions."}],
     stepCta: "Reserva la teva assessoria fiscal estratègica",
     bottomText: "Si el teu negoci és internacional, la teva estructura també hauria d'estar a aquest nivell.",
-    bottomCta: "Vull estructurar el meu negoci",
+    bottomCta: "Estructurar el meu negoci",
     whatsappMsg: "Hola, he vist com funciona el vostre procés. M'agradaria començar i saber si encaixo amb el perfil de clients que busqueu. Quan podem parlar?"
   },
   services: {
@@ -1234,7 +1234,7 @@ const ca = {
       h1: "Triar una estructura fiscal no hauria de generar dubtes.",
       h2green: "I tampoc sorpreses.",
       subtitle: "Si estàs comparant opcions. Avaluant estats. O intentant entendre costos reals. Aquí veus exactament què inclou cada configuració, quant costa i quan té sentit triar-la per al teu model de negoci.",
-      btnAgendar: "Vull optimitzar la meva fiscalitat",
+      btnAgendar: "Optimitzar la meva fiscalitat",
       btnWhatsapp: "Parla amb nosaltres",
       waText: "Hola. He vist els vostres plans i vull entendre quin encaixa millor amb la meva situació fiscal. Podem parlar?",
     },
@@ -1361,7 +1361,7 @@ const ca = {
       h2: "Ja coneixes les opcions. Ara tria la que encaixa amb tu.",
       p1: "En una trucada de 30 minuts revisem la teva situació, et confirmem quina estructura té sentit i resolem qualsevol dubte abans que prenguis una decisió.",
       p2: "Sense compromís. Si no necessites una LLC, t'ho direm.",
-      btnAgendar: "Vull triar la meva estructura →",
+      btnAgendar: "Triar la meva estructura →",
       btnWhatsapp: "Escriu-nos per WhatsApp",
       waText: "Hola. He vist els vostres plans i vull entendre quin encaixa millor amb la meva situació fiscal. Podem parlar?",
     }

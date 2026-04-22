@@ -950,7 +950,7 @@ const fr = {
     steps: [{"title":"Nous comprenons votre situation","intro":"Avant de faire quoi que ce soit, nous parlons.","points":["Où vous résidez fiscalement.","Comment vous générez des revenus.","Quel volume vous gérez.","Ce que vous voulez construire."],"footer":"Ici nous décidons si une LLC a du sens et dans quel état elle devrait être."},{"title":"Nous constituons la structure","intro":"Quand tout est clair :","points":["Nous enregistrons la LLC","Nous nommons le Registered Agent","Nous demandons l'EIN à l'IRS","Nous déposons les rapports initiaux obligatoires"],"footer":"Nous vous remettons la documentation organisée et prête à l'emploi."},{"title":"Nous activons le compte bancaire","intro":"Nous travaillons avec Relay pour que votre LLC ait un compte opérationnel aux États-Unis.","desc":"Nous vous accompagnons dans la demande et la configuration jusqu'à ce que vous puissiez facturer normalement."},{"title":"Nous clarifions l'étape suivante","intro":"","points":["Nous vous expliquons quelles obligations annuelles vous aurez.","Quels formulaires s'appliquent.","Quels délais vous ne pouvez pas ignorer."],"footer":"Pour que vous compreniez comment fonctionne votre structure et ne dépendiez pas de suppositions."}],
     stepCta: "Réservez votre consultation stratégique",
     bottomText: "Si votre entreprise est internationale, votre structure devrait être à ce niveau aussi.",
-    bottomCta: "Je veux structurer mon entreprise",
+    bottomCta: "Structurer mon entreprise",
     whatsappMsg: "Bonjour, j'ai vu comment fonctionne votre processus. J'aimerais commencer et savoir si je corresponds au profil que vous recherchez. Quand pouvons-nous parler ?"
   },
   services: {
@@ -1116,7 +1116,7 @@ const fr = {
       h1: "Choisir une structure fiscale ne devrait pas soulever de doutes.",
       h2green: "Et pas de surprises non plus.",
       subtitle: "Si vous comparez des options, évaluez des États ou essayez de comprendre les coûts réels, ici vous voyez exactement ce que chaque configuration inclut, combien elle coûte et quand il est judicieux de la choisir.",
-      btnAgendar: "Je veux optimiser ma fiscalité",
+      btnAgendar: "Optimiser ma fiscalité",
       btnWhatsapp: "Discutez avec nous",
       waText: "Bonjour. J'ai vu vos plans et je veux comprendre lequel correspond le mieux à ma situation fiscale. Pouvons-nous parler ?",
     },
@@ -1243,7 +1243,7 @@ const fr = {
       h2: "Vous connaissez les options. Choisissez maintenant celle qui vous convient.",
       p1: "En 30 minutes d'appel, nous examinons votre situation, confirmons quelle structure fait sens et répondons à toutes vos questions avant que vous preniez une décision.",
       p2: "Sans engagement. Si vous n'avez pas besoin d'une LLC, nous vous le dirons.",
-      btnAgendar: "Je veux choisir ma structure →",
+      btnAgendar: "Choisir ma structure →",
       btnWhatsapp: "Écrivez-nous sur WhatsApp",
       waText: "Bonjour. J'ai vu vos plans et je veux comprendre lequel correspond le mieux à ma situation fiscale. Pouvons-nous parler ?",
     }

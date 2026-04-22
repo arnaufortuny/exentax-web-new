@@ -948,7 +948,7 @@ const en = {
     steps: [{"title":"We understand your situation","intro":"Before doing anything, we talk.","points":["Where you are tax resident.","How you generate income.","What volume you handle.","What you want to build."],"footer":"Here we decide if an LLC makes sense and in which state it should be."},{"title":"We set up the structure","intro":"When everything is clear:","points":["We register the LLC","We appoint the Registered Agent","We request the EIN from the IRS","We file the initial mandatory reports"],"footer":"We deliver organized documentation ready to use."},{"title":"We activate the bank account","intro":"We work with Relay so your LLC has an operating account in the US.","desc":"We accompany you through the application and setup until you can invoice normally."},{"title":"We clarify the next step","intro":"","points":["We explain what annual obligations you'll have.","Which forms apply.","Which deadlines you can't ignore."],"footer":"So you understand how your structure works and don't rely on assumptions."}],
     stepCta: "Book your strategic consultation",
     bottomText: "If your business is international, your structure should be at that level too.",
-    bottomCta: "I want to structure my business",
+    bottomCta: "Structure my business",
     whatsappMsg: "Hi, I've seen how your process works. I'd like to start and know if I fit the profile you're looking for. When can we talk?"
   },
   services: {
@@ -1114,7 +1114,7 @@ const en = {
       h1: "Choosing a tax structure shouldn't raise doubts.",
       h2green: "And no surprises either.",
       subtitle: "Whether you're comparing options, evaluating states, or trying to understand real costs, here you see exactly what each configuration includes, how much it costs and when it makes sense for your business model.",
-      btnAgendar: "I want to optimise my tax situation",
+      btnAgendar: "Optimize my tax setup",
       btnWhatsapp: "Talk to us",
       waText: "Hello. I've seen your plans and want to understand which one fits my tax situation best. Can we talk?"
     },
@@ -1241,7 +1241,7 @@ const en = {
       h2: "You know the options. Now choose the one that fits you.",
       p1: "In a 30-minute call we review your situation, confirm which structure makes sense and answer any questions before you make a decision.",
       p2: "No commitment. If you don't need an LLC, we'll tell you.",
-      btnAgendar: "I want to choose my structure →",
+      btnAgendar: "Choose my structure →",
       btnWhatsapp: "Write to us on WhatsApp",
       waText: "Hello. I've seen your plans and want to understand which one fits my tax situation best. Can we talk?"
     }

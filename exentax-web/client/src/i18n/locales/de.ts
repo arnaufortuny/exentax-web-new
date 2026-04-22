@@ -949,7 +949,7 @@ const de = {
     steps: [{"title":"Wir verstehen Ihre Situation","intro":"Bevor wir etwas tun, sprechen wir.","points":["Wo Sie steuerlich ansässig sind.","Wie Sie Einkünfte erzielen.","Welches Volumen Sie handhaben.","Was Sie aufbauen möchten."],"footer":"Hier entscheiden wir, ob eine LLC Sinn macht und in welchem Staat sie sein sollte."},{"title":"Wir richten die Struktur ein","intro":"Wenn alles klar ist:","points":["Wir registrieren die LLC","Wir benennen den Registered Agent","Wir beantragen die EIN beim IRS","Wir reichen die obligatorischen Erstberichte ein"],"footer":"Wir liefern organisierte Dokumentation, die sofort einsatzbereit ist."},{"title":"Wir aktivieren das Bankkonto","intro":"Wir arbeiten mit Relay, damit Ihre LLC ein operatives Konto in den USA hat.","desc":"Wir begleiten Sie bei der Antragstellung und Einrichtung, bis Sie normal fakturieren können."},{"title":"Wir klären den nächsten Schritt","intro":"","points":["Wir erklären Ihnen, welche jährlichen Pflichten Sie haben.","Welche Formulare gelten.","Welche Fristen Sie nicht ignorieren können."],"footer":"Damit Sie verstehen, wie Ihre Struktur funktioniert und nicht von Annahmen abhängen."}],
     stepCta: "Buchen Sie Ihre strategische Beratung",
     bottomText: "Wenn Ihr Unternehmen international ist, sollte Ihre Struktur auch auf diesem Niveau sein.",
-    bottomCta: "Ich möchte mein Unternehmen strukturieren",
+    bottomCta: "Unternehmen strukturieren",
     whatsappMsg: "Hallo, ich habe gesehen, wie euer Prozess funktioniert. Ich würde gerne anfangen und wissen, ob ich zum gesuchten Profil passe. Wann können wir sprechen?"
   },
   services: {
@@ -1115,7 +1115,7 @@ const de = {
       h1: "Die Wahl einer Steuerstruktur sollte keine Zweifel aufwerfen.",
       h2green: "Und auch keine Überraschungen.",
       subtitle: "Ob Sie Optionen vergleichen, Bundesstaaten evaluieren oder echte Kosten verstehen möchten, hier sehen Sie genau, was jede Konfiguration beinhaltet, was sie kostet und wann sie für Ihr Geschäftsmodell sinnvoll ist.",
-      btnAgendar: "Ich möchte meine Steuer optimieren",
+      btnAgendar: "Steuern jetzt optimieren",
       btnWhatsapp: "Sprechen Sie mit uns",
       waText: "Hallo. Ich habe Ihre Pläne gesehen und möchte verstehen, welcher am besten zu meiner Steuersituation passt. Können wir sprechen?",
     },
@@ -1242,7 +1242,7 @@ const de = {
       h2: "Sie kennen die Optionen. Wählen Sie jetzt die, die zu Ihnen passt.",
       p1: "In einem 30-minütigen Anruf überprüfen wir Ihre Situation, bestätigen welche Struktur sinnvoll ist und beantworten alle Fragen, bevor Sie eine Entscheidung treffen.",
       p2: "Ohne Verpflichtung. Wenn Sie keine LLC brauchen, sagen wir Ihnen das.",
-      btnAgendar: "Ich möchte meine Struktur wählen →",
+      btnAgendar: "Meine Struktur wählen →",
       btnWhatsapp: "Schreiben Sie uns auf WhatsApp",
       waText: "Hallo. Ich habe Ihre Pläne gesehen und möchte verstehen, welcher am besten passt. Können wir sprechen?",
     }
