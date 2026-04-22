@@ -28,6 +28,27 @@ import type {
 } from "../shared/email";
 
 const SENDER_EMAIL = CONTACT_EMAIL;
+
+/**
+ * Mask an email for log output: keep first 3 chars of local part + first
+ * char of domain TLD, redact the rest. Avoids exposing PII in logs while
+ * keeping enough signal to debug ("did THIS user receive the email?").
+ *
+ *   maskEmail("alice.long@example.com") → "ali***@e***.com"
+ *   maskEmail("a@b.co")                 → "a***@b***.co"
+ */
+function maskEmail(email: string | null | undefined): string {
+  if (!email) return "(no-email)";
+  const at = email.indexOf("@");
+  if (at < 0) return "(invalid-email)";
+  const local = email.slice(0, at);
+  const domain = email.slice(at + 1);
+  const dot = domain.lastIndexOf(".");
+  const tld = dot >= 0 ? domain.slice(dot) : "";
+  const localMasked = local.length <= 3 ? local[0] + "***" : local.slice(0, 3) + "***";
+  const domainMasked = domain.length <= 1 ? "***" : domain[0] + "***";
+  return `${localMasked}@${domainMasked}${tld}`;
+}
 const REPLY_TO_EMAIL = CONTACT_EMAIL;
 const FROM_NAME = BRAND_NAME;
 
@@ -151,7 +172,7 @@ async function sendEmail(to: string, subject: string, html: string, replyTo?: st
   return emailBreaker.execute(
     () => _sendEmailInternal(to, subject, html, replyTo, fromName, attachments, bcc, rawOpts),
     () => {
-      logger.warn(`Circuit breaker open | email to ${to} not sent`, "email");
+      logger.warn(`Circuit breaker open | email to ${maskEmail(to)} not sent`, "email");
       return false;
     },
   );
@@ -175,7 +196,7 @@ async function _sendEmailInternal(to: string, subject: string, html: string, rep
         await new Promise(r => setTimeout(r, delay));
         continue;
       }
-      logger.error(`Failed to send email to ${to} after ${attempt + 1} attempt(s):`, "email", err);
+      logger.error(`Failed to send email to ${maskEmail(to)} after ${attempt + 1} attempt(s):`, "email", err);
       throw err;
     }
   }
@@ -264,7 +285,7 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     // Circuit breaker open or transient send failed even after in-process retries.
     throw new Error("circuit_breaker_or_transient_failure");
   }
-  logger.info(`Booking sent → ${data.clientEmail}`, "email");
+  logger.info(`Booking sent → ${maskEmail(data.clientEmail)}`, "email");
 }
 
 /**
@@ -280,7 +301,7 @@ export async function sendBookingConfirmation(data: BookingEmailData): Promise<v
   } catch (err) {
     const reason = err instanceof Error ? err.message : String(err);
     if (reason !== "gmail_not_configured") {
-      logger.error(`Booking email failed for ${data.clientEmail}: ${reason}`, "email");
+      logger.error(`Booking email failed for ${maskEmail(data.clientEmail)}: ${reason}`, "email");
     } else {
       logger.error("BOOKING (no Gmail config): enqueuing for retry queue", "email");
     }
@@ -457,10 +478,10 @@ export async function sendCalculatorEmail(data: CalculatorEmailData) {
   if (gmail) {
     try {
       const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL);
-      logger.info(`Calculator lead sent → ${data.email}`, "email");
+      logger.info(`Calculator lead sent → ${maskEmail(data.email)}`, "email");
       logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     } catch (err) {
-      logger.error(`Calculator email failed for ${data.email}:`, "email", err);
+      logger.error(`Calculator email failed for ${maskEmail(data.email)}:`, "email", err);
       logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: String(err), clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     }
   } else {
@@ -517,7 +538,7 @@ export async function sendReminderEmail(data: ReminderEmailData) {
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL);
-      logger.info(`Reminder sent → ${data.clientEmail}`, "email");
+      logger.info(`Reminder sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {
       logger.error("Reminder send failed:", "email", err);
@@ -571,7 +592,7 @@ export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
-      logger.info(`Reschedule confirmation sent → ${data.clientEmail}`, "email");
+      logger.info(`Reschedule confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {
       logger.error("Reschedule confirmation send failed:", "email", err);
@@ -625,7 +646,7 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
-      logger.info(`Cancellation confirmation sent → ${data.clientEmail}`, "email");
+      logger.info(`Cancellation confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {
       logger.error("Cancellation confirmation send failed:", "email", err);
@@ -688,7 +709,7 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
   })();
 
   const clientBody = `
-    ${heading(`👋 ${firstName}`)}
+    ${heading(`Hola, ${firstName}`)}
 
     ${bodyText(intro)}
 
@@ -702,7 +723,7 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
-      logger.info(`Follow-up sent → ${data.clientEmail}`, "email");
+      logger.info(`Follow-up sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {
       logger.error("Follow-up send failed:", "email", err);
@@ -751,7 +772,7 @@ export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
   if (gmail) {
     try {
       await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
-      logger.info(`No-show reschedule sent → ${data.clientEmail}`, "email");
+      logger.info(`No-show reschedule sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {
       logger.error("No-show reschedule send failed:", "email", err);

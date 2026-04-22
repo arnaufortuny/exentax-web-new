@@ -105,7 +105,11 @@ newsletter, Discord o indexing.
 
 ## 🟠 Media prioridad — SEO long-tail
 
-### [S1] 78 issues `keyword-positioning` P2 (reescritura comercial)
+### [S1] 34 issues `keyword-positioning` P2 restantes (legales/booking)
+
+**Estado**: 78 → 35 (44 resueltos en Sesión 7; ver `CHANGELOG-SESSION.md`).
+Lo que queda son páginas legales (terms/privacy/cookies/refunds/
+disclaimer) + booking (`agendar`/`book`).
 
 **Reproducir**:
 ```
@@ -114,25 +118,19 @@ python3 -c "
 import json
 d=json.load(open('docs/auditoria-sistema-seo-faqs/seo-audit.json'))
 kp=[i for i in d['issues'] if i.get('area')=='keyword-positioning']
-print(f'Total: {len(kp)} (todas P2)')
-for i in kp[:10]:
-    print(f\"  [{i['languages'][0]}] {i['location']}: {i['evidence'][:100]}\")
+print(f'Total: {len(kp)}')
+for i in kp[:5]:
+    print(f\"  [{i['languages'][0]}] {i['location']}\")
 "
 ```
-**Output**: 78 rutas con ≥ 50 % de keywords long-tail declaradas ausentes
-del title o description. Ejemplos:
-- `/es/servicios/llc-nuevo-mexico`: faltan "llc new mexico no residentes",
-  "nm llc sin informe anual".
-- `/fr/legal/conditions`: falta "Exentax mentions légales".
-- etc.
-**Archivo afectado**: `exentax-web/server/seo-content.ts` —
-`buildI18nMeta()` → `PAGE_TITLES` + `PAGE_DESCS`.
-**Impacto**: medio (SEO CTR long-tail). No bloquea deploy, no bloquea
-build.
-**Fix**: en sesión dedicada, reescribir titles/descriptions **preservando
-el límite de 160 chars** y el tono comercial, incluyendo las keywords
-long-tail donde hacen sentido. ~15 min por (ruta × idioma) × 13
-rutas únicas ≈ **1-2 h de trabajo editorial**.
+**Archivo afectado**: `exentax-web/server/seo-content.ts` — descriptions
+de las 5 rutas `legal_*` × 5-6 idiomas + `book` × 3 idiomas.
+**Impacto**: **bajo**. Nadie busca en Google "Exentax mentions légales"
+o "política de cookies Exentax" como query orgánica. Las páginas legales
+se llegan desde footer interno; CTR SEO marginal.
+**Fix**: opcional. Si se hace, reescribir cada description añadiendo el
+nombre de la página (ej. "Política de cookies", "Términos y condiciones")
+y "Exentax" en orden natural. ~30 min editorial.
 **Dependencias**: ninguna.
 
 ---

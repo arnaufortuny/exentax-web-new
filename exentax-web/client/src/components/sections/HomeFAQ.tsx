@@ -5,7 +5,7 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { sanitizeHtml } from "@/lib/sanitize";
 import { CONTACT } from "@/lib/constants";
 import { trackWhatsAppClick } from "@/components/Tracking";
-import { SiWhatsapp } from "react-icons/si";
+import { WhatsAppIcon } from "@/components/icons";
 import FaqAccordionList from "./FaqAccordionList";
 
 export default function HomeFAQ() {
@@ -61,7 +61,7 @@ export default function HomeFAQ() {
             className="inline-flex items-center justify-center gap-2 btn-wa font-body font-semibold px-8 py-3.5 text-base rounded-full whitespace-nowrap w-full sm:w-auto"
             data-testid="button-home-faq-whatsapp"
           >
-            <SiWhatsapp className="w-5 h-5" />
+            <WhatsAppIcon className="w-5 h-5" />
             {t("homeFaq.cta.whatsapp")}
           </a>
         </div>

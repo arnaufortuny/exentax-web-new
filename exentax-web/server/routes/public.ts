@@ -928,9 +928,12 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     };
     // Cookies endpoint: log + notify in parallel-friendly order. The notify
     // is fire-and-forget but receives the persisted consent ID for traceability.
+    // The .catch is mandatory: an unhandled rejection here was the only
+    // floating promise in this file, sibling endpoints (booking, calculator,
+    // newsletter) all wrap the same pattern with .catch + logger.warn.
     logConsent(consentData).then((consentId) => {
       notifyConsent({ ...consentData, consentId });
-    });
+    }).catch(err => logger.warn(`Cookies consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res);
   }));
 
