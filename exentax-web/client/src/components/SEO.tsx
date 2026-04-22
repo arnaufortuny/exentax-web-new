@@ -23,6 +23,7 @@ function loadBlogHelpers(): Promise<BlogSlugHelpers> {
   return blogHelpersPromise;
 }
 
+// og:locale uses underscore per OpenGraph spec (es_ES).
 const LOCALE_MAP: Record<string, string> = {
   es: "es_ES",
   en: "en_US",
@@ -30,6 +31,20 @@ const LOCALE_MAP: Record<string, string> = {
   de: "de_DE",
   pt: "pt_PT",
   ca: "ca_ES",
+};
+
+// hreflang uses the BCP-47 hyphen form (es-ES) — Google strongly prefers
+// this over bare 2-letter codes for country-specific targeting. Server-side
+// sitemaps already emit BCP-47 (`server/routes/public.ts` HREFLANG_BCP47);
+// this map keeps the client tags in lockstep so auditors never see two
+// different formats for the same page.
+const HREFLANG_BCP47: Record<string, string> = {
+  es: "es-ES",
+  en: "en-US",
+  fr: "fr-FR",
+  de: "de-DE",
+  pt: "pt-PT",
+  ca: "ca-ES",
 };
 
 function t(key: string): string {
@@ -149,7 +164,7 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
           for (const lang of langsForHreflang) {
             const link = document.createElement("link");
             link.rel = "alternate";
-            link.hreflang = lang;
+            link.hreflang = HREFLANG_BCP47[lang] || lang;
             link.href = `${BASE_URL}/${lang}/blog/${helpers.getTranslatedSlug(blogSlug!, lang)}`;
             document.head.appendChild(link);
           }
@@ -163,7 +178,7 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
         for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
           const link = document.createElement("link");
           link.rel = "alternate";
-          link.hreflang = lang;
+          link.hreflang = HREFLANG_BCP47[lang] || lang;
           if (resolved) {
             link.href = `${BASE_URL}${getLocalizedPath(resolved.key, lang)}`;
           } else {
