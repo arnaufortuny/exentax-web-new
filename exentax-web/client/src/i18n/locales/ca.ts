@@ -1961,7 +1961,7 @@ const ca = {
     keyMsg: {
       zeroUS: "0% federal EUA si no operes en territori nord-americà (disregarded entity).",
       noFixed: "Sense quota fixa mensual: 2.000 € de setup i 1.400 €/any de manteniment (Registered Agent + Forms 5472/1120).",
-      banking: "Accés a banca i passarel·les EUA (Mercury, Wise, Stripe, etc.).",
+      banking: "Accés a banca i passarel·les EUA (Relay, Slash, Wise, Mercury, Wallester, Revolut Business, Airwallex, Stripe, etc.).",
       liability: "Responsabilitat limitada real per a la teva activitat digital internacional.",
       noTravel: "No requereix viatjar ni tenir SSN/ITIN per començar, Exentax també obté l'ITIN.",
       amortizes: "El setup s'amortitza ràpidament quan hi ha estalvi fiscal recurrent.",

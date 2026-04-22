@@ -145,7 +145,7 @@ The recovery procedure for late 5472 and BOI changed in small but important ways
 3. Attach a single *reasonable cause* letter signed by the owner.
 4. If applicable, file late BOI at [FinCEN's official BOI filing portal](https://boiefiling.fincen.gov) the same month.
 
-### today FAQ
+### Frequently asked questions
 
 **How long does the IRS take to respond?** 4 to 10 months. Do not assume reasonable cause was accepted until then.
 

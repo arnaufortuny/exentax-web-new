@@ -172,7 +172,7 @@ Pass-through taxation is the tax core of an SMLLC; nail it down with today data:
 - **Exceptions.** Filing **Form 8832** electing *check-the-box* to C-Corp shifts the LLC to **21% federal** taxation and substantive 1120. Irrevocable for 60 months.
 - **Mandatory reporting even when disregarded.** A non-resident SMLLC must file **Form 5472 + pro forma 1120** annually for any *reportable transaction* (base penalty USD 25,000/yr, IRC §6038A). Reporting is informational; it does not mean paying federal tax.
 
-### today FAQ
+### Frequently asked questions
 
 **Does pass-through mean I declare nothing?** No. The LLC is not a taxpayer; you are. Report the allocated profit in your country IRPF/EStG/IRPEF as appropriate.
 

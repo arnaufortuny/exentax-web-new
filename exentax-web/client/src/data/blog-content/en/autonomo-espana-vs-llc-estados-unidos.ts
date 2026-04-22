@@ -203,7 +203,7 @@ The real comparison hinges on three levers: contributions, effective rates and a
 - **SMLLC + Spain tax residence.** A disregarded LLC pays **no federal corporate tax** (unless C-Corp election). The non-resident reports allocated profits in Spanish IRPF (income attribution, LIRPF art. 88). Annual structure cost: **~USD 225 WY / 450 DE / 125 NM**.
 - **Realistic hybrid setup.** Keep autónomo in Spain for Spanish clients (invoice with VAT and withholding) + LLC for international clients in USD. The LLC does not exempt you from Social Security in Spain if your main activity is there.
 
-### today FAQ
+### Frequently asked questions
 
 **Does the LLC save me self-employed contributions?** Not automatically. Living and habitually working in Spain, TGSS requires self-employed registration. The LLC reduces VAT only on invoices to non-EU clients.
 

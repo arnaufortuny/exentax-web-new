@@ -2188,7 +2188,7 @@ calculator: {
     keyMsg: {
       zeroUS: "0 % US-Bundessteuer, wenn Sie nicht auf US-Gebiet tätig sind (Disregarded Entity).",
       noFixed: "Keine feste monatliche Gebühr: 2.000 € Setup und 1.400 €/Jahr Wartung (Registered Agent + Forms 5472/1120).",
-      banking: "Zugang zu US-Banking und Zahlungs-Gateways (Mercury, Wise, Stripe usw.).",
+      banking: "Zugang zu US-Banking und Zahlungs-Gateways (Relay, Slash, Wise, Mercury, Wallester, Revolut Business, Airwallex, Stripe usw.).",
       liability: "Echte beschränkte Haftung für Ihre internationale digitale Tätigkeit.",
       noTravel: "Kein Reisen oder SSN/ITIN erforderlich, Exentax beschafft auch die ITIN.",
       amortizes: "Das Setup amortisiert sich schnell bei wiederkehrenden Steuerersparnissen.",

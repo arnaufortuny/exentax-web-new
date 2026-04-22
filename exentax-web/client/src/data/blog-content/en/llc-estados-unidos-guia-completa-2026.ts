@@ -235,7 +235,7 @@ Three data points change how to read this guide today:
 - **Form 5472 + pro forma 1120.** Still mandatory for non-resident SMLLCs with any *reportable transaction*. Base penalty **USD 25,000 per form per year** (IRC §6038A). FY2025 → due **April 15, today**, extension via **Form 7004** to **October 15, today**.
 - **State fees today.** Wyoming keeps the Annual Report at **USD 60**, Delaware Franchise Tax at **USD 300** (due June 1), New Mexico still has **no Annual Report**. Confirm any change with the Secretary of State before budgeting.
 
-### today FAQ
+### Frequently asked questions
 
 **Is the guide still valid if I live in Spain?** Yes, but add Modelo 720/721 and IRPF income attribution. A disregarded LLC does not remove the residence-country reporting duty.
 

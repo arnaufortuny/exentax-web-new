@@ -193,7 +193,7 @@ The formation flow stabilized recently; the three operational keys are:
 - **EIN without SSN.** The IRS still processes **Form SS-4 by fax to +1-855-215-1627** in **4-6 weeks**. Online is reserved for applicants with SSN/ITIN. Keep the original **CP 575**; if lost, request a **147C** by calling the IRS Business Line.
 - **Operating Agreement signed on day 1.** Banks (Mercury, Relay) have asked for it during onboarding KYC since January 2024. Without an OA, account opening stalls. Use a non-resident SMLLC template, signed and stored digitally.
 
-### today FAQ
+### Frequently asked questions
 
 **What is the optimal order?** Articles → EIN (fax SS-4) → signed OA → Mercury/Relay → bookkeeping. Skipping steps delays the first invoice collected in USD.
 

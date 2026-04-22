@@ -31,6 +31,49 @@ mismatches, 0 phantom keys) · `seo:meta 0 errors 0 warnings` · `seo:check 0 br
 links` · `audit-pt-pt PASS` (113 ficheros PT-PT limpios) · `blog-content-lint PASS
 (670 files)` · `blog-cta-position-check PASS 0 warnings` · `calculator.test 116/116`.
 
+## Sesión 4 · Pricing framing + banca + FAQ EN (2026-04-22)
+
+### Pricing `cuanto-cuesta-constituir-llc` (6 idiomas)
+Bloque "DIY ~$225 / delegando ~$600" eliminado y sustituido por "qué incluye el
+precio Exentax desde 2.000 €" + "coste del error" (25 000 USD por 5472 omitida,
+591 USD/día BOI, ITIN rechazado = meses sin banca) + FAQ "qué cubre 2.000 €" /
+"qué cubre 1.400 €/año" en los 6 locales ES/EN/FR/DE/PT/CA. Las 2 únicas
+referencias `DIY` que quedan en EN son tablas comparativas que descalifican DIY
+("Must be in US", DIY como opción inferior). Bullet "acompañamiento bancario"
+posicionado como **profesional vs low-cost**: "guiamos hasta tener cuenta
+operativa, en vez de dejarte abandonado tras el onboarding como hacen los
+servicios low-cost".
+
+### Orden canónico de banca
+Aplicado en `BanksCarousel.tsx`, en `keyMsg.banking` de los 6 locales y en los
+bullets bancarios de los 6 `cuanto-cuesta-constituir-llc`:
+**Relay → Slash → Wise → Mercury → Wallester → Revolut Business → Airwallex → Stripe**.
+
+### FAQ EN (rich snippets Schema FAQPage)
+`scripts/audit-system-seo-faqs.mjs` reportaba 20 artículos EN sin sección
+`### Frequently asked questions` (tenían `### today FAQ`, que la regex
+`BLOG_FAQ_HEADINGS.en` no matcheaba). Rename mecánico a `### Frequently asked
+questions` en los 20 ficheros. Post-fix: **faqs-audit.json 20 → 0 issues**.
+Total global del audit: 607 → 587 issues (-20).
+
+### Fase D (expansión 47 artículos cortados) — ABANDONADA
+Dos tandas de subagentes paralelos (4 con scope "3 artículos por agente" + 6
+con scope "1 artículo por agente") terminaron con `Stream idle timeout` sin
+persistir cambios. Baseline `wc -w` idéntico pre/post. Marcado en PENDING §0
+como "requiere enfoque alternativo (expansión manual o revisor humano)".
+
+Verificaciones post-sesión (sin regresiones):
+- tsc `--noEmit` exit 0
+- `i18n:check`: PASS 1552 × 6
+- `seo:meta`: 0 errors / 0 warnings
+- `seo:check`: 0 broken links
+- `audit-pt-pt`: PASS 113 ficheros
+- `blog-content-lint`: PASS 670 ficheros
+- `blog-cta-position-check`: PASS 0 warnings
+- `blog-translation-quality-audit`: 0 PT-BR hits, 0 dups
+- `calculator.test`: 116/116
+- `audit-system-seo-faqs`: faqs-audit 0 issues (antes 20)
+
 ---
 
 ---

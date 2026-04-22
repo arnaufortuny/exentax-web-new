@@ -166,21 +166,28 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
 
 <!-- exentax:overhaul-aktuell-v1 -->
-## Exentax-Update aktuell: was es aktuell wirklich kostet
+## Exentax-Update: was der Preis abdeckt und was er Ihnen erspart
 
-Die echten Kosten einer LLC sind planbar, wenn Gründung und Erhalt getrennt werden:
+Der Exentax-Gründungspreis **ab 2.000 €** deckt alles ab, was Ihre LLC braucht, um vom ersten Tag an einsatzbereit zu sein — mit professioneller Verantwortung und ohne dass Sie selbst in US-Juristenenglisch Formulare ausfüllen müssen:
 
-- **Gründung aktuell (DIY).** Wyoming Filing **100 USD** + RA Jahr 1 ~125 USD = ~225 USD. New Mexico Filing **50 USD** + RA ~125 USD = ~175 USD. Delaware Filing **110 USD** + RA ~150 USD = ~260 USD. EIN immer **kostenlos** via SS-4 per Fax.
-- **Gründung über "All-in-one"-Service.** Typisch **300-700 USD** je Anbieter, enthält Filing + RA Jahr 1 + OA-Vorlage. Sinnvoll für Nicht-Residenten, die SS-4-Fax und Postnachverfolgung nicht selbst machen wollen.
-- **Jahresunterhalt.** Wyoming ~225 USD/Jahr (RA + 60 USD AR), Delaware ~450 USD/Jahr (RA + 300 USD Franchise Tax), New Mexico ~125 USD/Jahr (nur RA). Steuerservice für 5472 + Pro-forma-1120 → **300-700 USD/Jahr** je Berater.
+- **Rechtliche Gründung** im optimalen Bundesstaat für Ihr Profil (Wyoming, New Mexico, Delaware oder Florida), inklusive Articles of Organization und staatlicher Gebühren an den Secretary of State.
+- **Federal EIN** beim IRS via SS-4 beantragt — keine Warteschlangen, keine Formulare, die verlangen, dass Sie dem IRS erklären, was ein Nicht-Resident ist.
+- **Registered Agent** im 1. Jahr inklusive. Ab Jahr 2 deckt die Jahreswartung **ab 1.400 €/Jahr** die Verlängerung ab.
+- **Operating Agreement** auf Ihren Fall zugeschnitten, keine generische Blog-Vorlage.
+- **BOI Report** beim FinCEN, wo anwendbar, mit Nachverfolgung von Änderungen innerhalb der gesetzlichen Frist.
+- **Form 5472 + 1120 pro forma** in jedem Steuerjahr erstellt und eingereicht.
+- **Professionelles Bank-Onboarding** mit Relay, Slash, Wise Business und Mercury — wir begleiten Sie, bis Ihr Konto und die Zahlungs-Gateways aktiv sind, statt Sie wie bei Low-Cost-Anbietern nach der ersten Überweisung allein zu lassen.
+- **ITIN** per W-7 beantragt, wenn Ihre Bank oder Zahlungsplattform ihn fordert.
 
-### FAQ aktuell
+Es selbst zu machen wirkt billig, wenn man nur die Staatsgebühren betrachtet, aber es wird teuer in Zeit und in Fehlern, die der IRS nicht verzeiht: ein **falsch eingereichtes 5472 kostet 25.000 USD pro Formular und Jahr** (IRC §6038A), ein **verspäteter BOI kostet 591 USD/Tag**, und ein abgelehnter ITIN lässt Sie monatelang ohne operatives Banking. Der Exentax-Preis ist nicht der Preis, die Formalitäten auszuführen — es ist der Preis dafür, dass es beim ersten Mal richtig läuft und ein verantwortlicher Berater einspringt, wenn IRS oder Finanzamt nachfragen.
 
-**Realistische Mindestkosten Jahr 1?** Wyoming DIY ~225 USD. Delegiert: ~600 USD. Mercury und Wise ohne Eröffnungskosten.
+### Häufige Fragen
 
-**Versteckte Kosten?** RA-Verlängerung Jahr 2 (günstige Pakete steigen), einmaliger Annual Report, Mercury Plus für IO-Karte mit Cashback.
+**Was deckt der Preis ab 2.000 € genau ab?** Komplette Gründung: Staat + EIN + Operating Agreement + Ersterfassung BOI + Bank-Onboarding + ITIN, falls nötig. Festpreis schriftlich vor Start, keine Überraschungen am Ende.
 
-**Verteuert OECD Pillar Two die LLC?** Nein bei Single-Member-LLCs mit üblichem Umsatz. GloBE gilt nur für Gruppen ≥ 750 Mio. EUR.
+**Und die Jahreswartung ab 1.400 €?** Registered Agent, staatlicher Annual Report, 5472 + 1120 pro forma beim IRS eingereicht, BOI-Überwachung und Abstimmung mit Ihrem Steuerberater am Wohnsitz. Kompletter Jahreskalender abgedeckt.
+
+**Verteuert OECD Pillar Two die LLC?** Nein bei Single-Member-LLCs mit üblichem Umsatz. GloBE gilt nur für konsolidierte Konzerne ≥ 750 Mio. EUR.
 <!-- exentax:overhaul-aktuell-v1 end -->
 
 <!-- exentax:execution-v2 -->

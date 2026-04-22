@@ -213,7 +213,7 @@ today no serious setup promises "zero tax". What you achieve is no double tax an
 - **Tax residency.** If you live in Spain, Italy or Germany, IRPF/IRPEF/EStG income attribution applies unless there is a PE in the other jurisdiction. CFC rules and exit tax cap purely "offshore" setups.
 - **OECD Pillar Two (GloBE).** In force since January 2024, sets a **15% effective minimum** for groups with ≥ EUR 750M turnover. Does not affect single-member LLCs with normal billing, but worth knowing for scale.
 
-### today FAQ
+### Frequently asked questions
 
 **Is there a true "zero" jurisdiction today?** Some (UAE, Bahamas, certain Cyprus non-dom setups) have zero or low individual rates, but require actual effective residence, not just paper.
 

@@ -174,7 +174,7 @@ Without an active Registered Agent there is no viable LLC; the current operation
 - **today cost.** Stable market at **USD 100-150/yr** for standard services (Northwest, Harvard Business, IncFile/Bizee). "First year free" packs typically rise to **USD 125-200** from year 2; compute the real 3-year cost.
 - **Switching RA.** Simple filing with the Secretary of State, typical fee **USD 25-50**. New RA usually manages the change at no cost. Formal notice is required; just stopping payment to the prior one is not enough.
 
-### today FAQ
+### Frequently asked questions
 
 **Can I act as my own Registered Agent?** Only with a physical address in the LLC state and weekday business-hours availability. Not practical for non-residents; a professional RA is the reasonable choice.
 

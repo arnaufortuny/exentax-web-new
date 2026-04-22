@@ -163,7 +163,7 @@ The recommended banking stack for an LLC today has consolidated three pieces wit
 3. **Migration.** Re-point clients (new signed wire instructions), update pending invoices, redirect Stripe payouts.
 4. **Preventive KYC.** Before the first large movement in the new account, proactively upload: Articles, EIN Letter, signed OA and proof of address.
 
-### today FAQ
+### Frequently asked questions
 
 **Is Mercury still the default today?** Yes. FDIC sweep coverage and USD 0 domestic wires still have no clear competitor for non-resident LLCs.
 

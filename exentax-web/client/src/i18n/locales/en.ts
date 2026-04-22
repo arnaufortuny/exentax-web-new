@@ -2186,7 +2186,7 @@ const en = {
     keyMsg: {
       zeroUS: "0% US federal tax if you don't operate in US territory (disregarded entity).",
       noFixed: "No fixed monthly fee: €2,000 setup and €1,400/year maintenance (Registered Agent + Forms 5472/1120).",
-      banking: "Access to US banking and payment gateways (Mercury, Wise, Stripe, etc.).",
+      banking: "Access to US banking and payment gateways (Relay, Slash, Wise, Mercury, Wallester, Revolut Business, Airwallex, Stripe, etc.).",
       liability: "Real limited liability for your international digital business.",
       noTravel: "No travel or SSN/ITIN required to start, Exentax also obtains the ITIN.",
       amortizes: "The setup pays for itself quickly when there is recurring tax saving.",

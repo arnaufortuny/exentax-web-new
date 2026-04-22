@@ -181,7 +181,7 @@ A clean annual maintenance for an LLC today fits in six milestones.
 - **April.** Deadline **April 15, today** for FY2025 Form 5472 + pro forma 1120. If you cannot make it, **Form 7004** before that same date moves the deadline to **October 15, today**.
 - **Rest of year.** Renew the **state Annual Report** (Wyoming the day before anniversary, Delaware **June 1**, NM does not apply), renew the **Registered Agent** (~USD 125/yr) and, if your LLC is a *foreign reporting company*, monitor BOI on any change (USD 591/day penalty).
 
-### today FAQ
+### Frequently asked questions
 
 **What if I skip the Annual Report?** The state moves the entity to *Delinquent* and, after 60-90 days, to *Forfeited*. Reinstatement is possible with fees and paperwork. Not worth the lapse.
 

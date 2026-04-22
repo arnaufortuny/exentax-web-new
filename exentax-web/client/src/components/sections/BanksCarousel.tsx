@@ -8,13 +8,13 @@ interface Bank {
 }
 
 const BANKS: Bank[] = [
-  { name: "Mercury", src: "/img/partner-mercury.webp", height: "h-7 sm:h-8" },
   { name: "Relay", src: "/img/partner-relay.webp", height: "h-8 sm:h-10" },
-  { name: "Visa", src: "/img/partner-visa.webp", height: "h-5 sm:h-6" },
-  { name: "Stripe", src: "/img/partner-stripe.webp", height: "h-7 sm:h-9" },
-  { name: "Wallester", src: "/img/partner-wallester.webp", height: "h-5 sm:h-7" },
-  { name: "Wise", src: "/img/partner-wise.webp", height: "h-20 sm:h-24" },
   { name: "Slash", src: "/img/partner-slash.webp", height: "h-14 sm:h-[4.5rem]" },
+  { name: "Wise", src: "/img/partner-wise.webp", height: "h-20 sm:h-24" },
+  { name: "Mercury", src: "/img/partner-mercury.webp", height: "h-7 sm:h-8" },
+  { name: "Wallester", src: "/img/partner-wallester.webp", height: "h-5 sm:h-7" },
+  { name: "Stripe", src: "/img/partner-stripe.webp", height: "h-7 sm:h-9" },
+  { name: "Visa", src: "/img/partner-visa.webp", height: "h-5 sm:h-6" },
   { name: "Interactive Brokers", src: "/img/partner-interactive-brokers.webp", height: "h-7 sm:h-8" },
   { name: "Kraken", src: "/img/partner-kraken.webp", height: "h-8 sm:h-10" },
 ];

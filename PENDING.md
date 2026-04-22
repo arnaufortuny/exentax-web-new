@@ -8,8 +8,17 @@ Actualiza este documento al cerrar cada ítem.
 
 ## 🔴 Alta prioridad
 
-### 0. Artículos de blog con traducción cortada (ratio palabras <70 % vs ES)
-**Esfuerzo estimado:** 10-20 min por artículo × 43 casos = **10-15 h de escritura**.
+### 0. Artículos de blog con traducción cortada (ratio palabras <70 % vs ES) — EN CURSO
+**Esfuerzo estimado:** 10-20 min por artículo × 47 casos restantes.
+
+**Histórico de intentos en esta sesión:**
+- 2 tandas de subagentes paralelos lanzados (4 + 6 invocaciones con scope "3 artículos por agente"
+  y "1 artículo por agente"). Todas ellas acabaron con `Stream idle timeout - partial response
+  received` **sin persistir ningún cambio** (verificado con `git status` y `wc -w` idéntico al
+  baseline). El enfoque subagent-based para generar ~2000-3000 palabras de contenido técnico por
+  invocación **no es viable en este entorno** con los límites de idle timeout actuales.
+- **Propuesta alternativa**: expansión manual en sesiones dedicadas (1 artículo por sesión, ~20-30
+  min cada uno), o uso de un editor humano con el documento ES como guía estructural.
 **Bloqueante producción:** no · **Impacto SEO y conversión:** alto (contenido truncado penaliza ranking).
 
 Medido con script que cuenta palabras del `body` de cada `client/src/data/blog-content/<lang>/*.ts`

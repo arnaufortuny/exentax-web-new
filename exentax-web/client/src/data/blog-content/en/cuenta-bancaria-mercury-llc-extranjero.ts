@@ -254,7 +254,7 @@ Mercury is still the default option for a non-resident LLC; the relevant today d
 - **today operating fees.** Domestic wires at **USD 0**, international **inbound USD 0 / outbound USD 5** (depends on the corridor), 20+ free sub-accounts. IO card with 1.5% cashback on *Mercury Plus* upgrade (USD 35/month).
 - **today KYC.** Initial docs: Articles, EIN Letter (CP 575 or 147C), signed Operating Agreement, passport, proof of address. If Mercury closes an account, the balance is returned **by check to the registered address**: keeping a live secondary account (Relay, Wise) is mandatory contingency.
 
-### today FAQ
+### Frequently asked questions
 
 **Does Mercury still accept non-resident LLCs today?** Yes. Complete docs and source-of-funds traceability remain the main filter. Without a signed OA, KYC stalls.
 

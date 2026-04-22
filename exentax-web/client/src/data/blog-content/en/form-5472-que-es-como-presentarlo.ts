@@ -162,7 +162,7 @@ Form 5472 is still the most expensive obligation to overlook for a non-resident 
 - **Exact procedure.** Pro forma Form 1120 (header only: name, address, EIN, fiscal year) with Form 5472 attached. Send by **certified mail or fax to the IRS Service Center in Ogden, Utah**, **not via MeF/e-file**. Keep the shipping receipt as proof of filing.
 - **today deadlines.** FY2025 → due **April 15, today**. Extension via **Form 7004** → **October 15, today**. The extension is also mailed or faxed and must arrive before April 15.
 
-### today FAQ
+### Frequently asked questions
 
 **What counts as a *reportable transaction*?** Any movement between the LLC and its sole non-resident member: capital contributions, draws, loans, service payments. If there was movement, you must file.
 

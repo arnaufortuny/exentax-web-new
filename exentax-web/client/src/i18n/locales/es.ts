@@ -2382,7 +2382,7 @@ const es = {
  keyMsg: {
   zeroUS:"0% federal USA si no operas en territorio estadounidense (disregarded entity).",
   noFixed:"Sin cuota fija mensual: 2.000 € de setup y 1.400 €/año de mantenimiento (Registered Agent + Forms 5472/1120).",
-  banking:"Acceso a banca y pasarelas USA (Mercury, Wise, Stripe, etc.).",
+  banking:"Acceso a banca y pasarelas USA (Relay, Slash, Wise, Mercury, Wallester, Revolut Business, Airwallex, Stripe, etc.).",
   liability:"Responsabilidad limitada real para tu actividad digital internacional.",
   noTravel:"No requiere viajar ni tener SSN/ITIN para empezar, Exentax obtiene también el ITIN.",
   amortizes:"El setup se amortiza rápidamente cuando hay ahorro fiscal recurrente.",

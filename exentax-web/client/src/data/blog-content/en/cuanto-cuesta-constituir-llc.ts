@@ -65,7 +65,7 @@ The LLC pays for itself 5x over in the first year alone. And the benefit scales 
 
 | Service | Formation fee | What's included | Annual RA cost | Hidden fees |
 |---|---|---|---|---|
-| **Exentax** | All-inclusive | EIN, OA, BOI, RA, Mercury coordination | Included | None |
+| **Exentax** | All-inclusive | EIN, OA, BOI, RA, professional banking coordination (Relay/Slash/Wise/Mercury) | Included | None |
 | **Northwest RA** | Service fee | State filing only | Annual fee | EIN and OA available separately |
 | **ZenBusiness** | Service fee | State filing + basic docs | Annual fee | Frequent upsells |
 | **LegalZoom** | Service fee | State filing + basic docs | Annual fee | Heavy upsells |
@@ -166,21 +166,28 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- exentax:overhaul-today-v1 -->
-## Exentax today update: how much it really costs today
+## Exentax today update: what the price covers and what it saves you
 
-The real cost of forming an LLC is predictable if you split formation vs maintenance:
+The Exentax formation price **from EUR 2,000** covers everything needed for your LLC to be operational from day one, with professional liability included and without you having to file anything in US legal English:
 
-- **Initial setup today (DIY).** Wyoming filing **USD 100** + RA year 1 ~USD 125 = ~USD 225. New Mexico filing **USD 50** + RA ~USD 125 = ~USD 175. Delaware filing **USD 110** + RA ~USD 150 = ~USD 260. EIN is always **free** via SS-4 by fax.
-- **Setup via "all-in-one" service.** Typical ranges **USD 300-700** depending on provider, includes filing + year-1 RA + OA template. Useful for non-residents who do not want to handle the SS-4 fax and postal follow-up.
-- **Annual maintenance.** Wyoming ~USD 225/yr (RA + USD 60 AR), Delaware ~USD 450/yr (RA + USD 300 Franchise Tax), New Mexico ~USD 125/yr (RA only). Add a tax service for 5472 + pro forma 1120 → **USD 300-700/yr** depending on advisor.
+- **Legal formation** in the optimal state for your profile (Wyoming, New Mexico, Delaware or Florida), including Articles of Organization and state fees paid to the Secretary of State.
+- **Federal EIN** processed with the IRS via SS-4 — no queues, no forms that force you to explain to the IRS what a non-resident is.
+- **Registered Agent** year 1 included. From year 2 onward, renewal covered by annual maintenance **from EUR 1,400/yr**.
+- **Operating Agreement** tailored to your case, not a generic template downloaded from a blog.
+- **BOI Report** with FinCEN where it applies, with change-tracking within the legal window.
+- **Form 5472 + pro-forma 1120** prepared and filed each tax year.
+- **Professional banking onboarding** with Relay, Slash, Wise Business and Mercury — we walk you through until you have an operational account and payment gateways live, instead of leaving you stranded the way low-cost formation services do once they cash the filing fee.
+- **ITIN** filed via W-7 whenever your bank or payment processor requires it.
 
-### today FAQ
+Doing it alone looks cheap if you only count state fees, but it gets expensive in time and in mistakes the IRS does not forgive: a **mis-filed 5472 is USD 25,000 per form per year** (IRC §6038A), a **BOI filed late is USD 591/day**, and a rejected ITIN leaves you without operational banking for months. The Exentax price is not the price of running the paperwork, it is the price of getting it right the first time and having an accountable advisor when the IRS or your local tax authority asks questions.
 
-**Realistic minimum year-1 total cost?** Wyoming DIY ~USD 225. If delegated: ~USD 600. Mercury and Wise add no opening cost.
+### Frequently asked questions
 
-**Hidden costs people forget?** Year-2 Registered Agent renewal (cheap packs raise it), one-off Annual Report, and Mercury Plus if you want the IO card with cashback.
+**What exactly is included in the EUR 2,000 price?** Full setup: state + EIN + Operating Agreement + initial BOI + banking onboarding + ITIN when it applies. Closed quote in writing before we start, with no surprises at the end.
 
-**Does OECD Pillar Two raise LLC cost?** No for single-member LLCs with normal turnover. GloBE only applies to groups ≥ EUR 750M.
+**And the EUR 1,400/yr annual maintenance?** Registered Agent, state Annual Report, 5472 + pro-forma 1120 filed with the IRS, BOI monitoring and coordination with your residence-country tax advisor. Full annual calendar covered.
+
+**Does OECD Pillar Two raise LLC cost?** No for single-member LLCs with normal turnover. GloBE only applies to groups with consolidated revenue ≥ EUR 750M.
 <!-- exentax:overhaul-today-v1 end -->
 
 <!-- exentax:execution-v2 -->

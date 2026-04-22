@@ -194,7 +194,7 @@ The OA stopped being optional in practice: banks, the IRS and buyers all ask for
 - **Minimum content for SMLLC.** Member identification and address, capital contributed, management (member-managed), profit distribution, transferability of membership interest, governing law (state of formation). 6-10 pages are enough.
 - **Validity and storage.** Not publicly registered; sign with date and store digitally (signed PDF or e-signature with timestamp). For court or sale use, keep a paper-signed copy too.
 
-### today FAQ
+### Frequently asked questions
 
 **Do I need to notarize the OA?** Not mandatory in any state. Notarizing adds time evidence but no extra legal validity. E-signature with timestamp is usually enough.
 

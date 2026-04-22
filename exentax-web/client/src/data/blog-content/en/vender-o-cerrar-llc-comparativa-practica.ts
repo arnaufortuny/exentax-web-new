@@ -125,7 +125,7 @@ Choosing between **selling** and **closing** an LLC has different tax and operat
 | Change of members | Restructure (don't close) |
 | Geographic relocation of activity | Dissolve and open a new one in optimal state |
 
-### today FAQ
+### Frequently asked questions
 
 **Can an inactive SMLLC just be "let go"?** No. Without Annual Report and Registered Agent it ends *Forfeited*, but the IRS obligations (5472 if there were movements) remain alive and trigger cascading penalties.
 

@@ -164,21 +164,28 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 Cada situação fiscal depende da sua residência, da atividade exercida e dos contratos em vigor. As informações aqui apresentadas são gerais e não substituem aconselhamento personalizado; analise o seu caso específico antes de tomar decisões estruturais.
 
 <!-- exentax:overhaul-hoje-v1 -->
-## Atualização Exentax hoje: quanto custa de verdade atualmente
+## Atualização Exentax: o que o preço cobre e o que lhe poupa
 
-O custo real de constituir uma LLC é previsível se separar abertura vs manutenção:
+O preço de constituição Exentax **a partir de 2.000 €** cobre tudo o que a sua LLC precisa para estar operacional desde o primeiro dia, com responsabilidade profissional incluída e sem que tenha de tratar de nada em inglês jurídico:
 
-- **Abertura hoje (DIY).** Wyoming filing **100 USD** + RA ano 1 ~125 USD = ~225 USD. New Mexico filing **50 USD** + RA ~125 USD = ~175 USD. Delaware filing **110 USD** + RA ~150 USD = ~260 USD. EIN sempre **gratuito** via SS-4 por fax.
-- **Abertura via serviço "tudo-em-um".** Faixas típicas **300-700 USD** consoante provider, inclui filing + RA ano 1 + modelo OA. Útil para não residentes que não querem gerir o fax SS-4 e o seguimento postal.
-- **Manutenção anual.** Wyoming ~225 USD/ano (RA + 60 USD AR), Delaware ~450 USD/ano (RA + 300 USD Franchise Tax), New Mexico ~125 USD/ano (só RA). Serviço fiscal anual para 5472 + 1120 pro forma → **300-700 USD/ano** consoante consultor.
+- **Constituição legal** no estado ótimo para o seu perfil (Wyoming, New Mexico, Delaware ou Florida), com Articles of Organization e taxas estaduais pagas ao Secretary of State.
+- **EIN federal** tratado junto ao IRS via SS-4 — sem filas nem formulários que exigem explicar a Washington o que é um não residente.
+- **Registered Agent** do primeiro ano incluído. A partir do ano 2, a renovação é coberta pela manutenção anual **a partir de 1.400 €/ano**.
+- **Operating Agreement** personalizado para o seu caso, não um modelo genérico descarregado de um blog.
+- **BOI Report** junto ao FinCEN quando aplicável, com acompanhamento de atualizações dentro do prazo legal.
+- **Form 5472 + 1120 pro forma** preparados e submetidos em cada exercício fiscal.
+- **Acompanhamento bancário profissional** com Relay, Slash, Wise Business e Mercury — guiamo-lo até ter conta operacional e gateways ativos, em vez de o deixar abandonado após o onboarding, como fazem os serviços low-cost.
+- **ITIN** tratado via W-7 quando o seu banco ou gateway o exigir.
 
-### Perguntas frequentes hoje
+Fazê-lo sozinho parece barato se olhar só para as taxas estaduais, mas sai caro em tempo e em erros que o IRS não perdoa: um **5472 mal submetido são 25.000 USD por formulário por ano** (IRC §6038A), um **BOI fora de prazo são 591 USD/dia** e um ITIN rejeitado deixa-o sem banca operacional durante meses. O preço Exentax não é o preço de fazer o trâmite, é o preço de tudo correr bem à primeira vez e de haver um consultor responsável quando o IRS ou a AT pedirem contas.
 
-**Custo mínimo realista total ano 1?** Wyoming DIY ~225 USD. Se delegar: ~600 USD. Mercury e Wise não adicionam custo de abertura.
+### Perguntas frequentes
 
-**Custos ocultos esquecidos?** Renovação Registered Agent ano 2 (packs baratos sobem), Annual Report pontual, e Mercury Plus se quiser cartão IO com cashback.
+**O que cobre exatamente o preço a partir de 2.000 €?** Constituição completa: estado + EIN + Operating Agreement + BOI inicial + acompanhamento bancário + ITIN quando aplicável. Orçamento fechado por escrito antes de começar, sem surpresas no final.
 
-**Pillar Two da OCDE encarece a LLC?** Não para LLC unipessoais com faturação normal. GloBE só se aplica a grupos ≥ 750 M EUR.
+**E a manutenção anual a partir de 1.400 €?** Registered Agent, Annual Report do estado, 5472 + 1120 pro forma submetidos ao IRS, monitorização BOI e coordenação com o seu consultor fiscal no país de residência. Calendário anual completo coberto.
+
+**Pillar Two da OCDE encarece a LLC?** Não para LLC unipessoais com faturação normal. GloBE aplica-se apenas a grupos consolidados ≥ 750 M EUR.
 <!-- exentax:overhaul-hoje-v1 end -->
 
 <!-- exentax:execution-v2 -->

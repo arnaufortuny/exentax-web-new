@@ -164,21 +164,28 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
 <!-- exentax:overhaul-avui-v1 -->
-## Actualització Exentax avui: quant costa de debò actualment
+## Actualització Exentax: què inclou el preu i què t'estalvia
 
-El cost real de constituir una LLC és previsible si separes alta vs manteniment:
+El preu de constitució Exentax **des de 2.000 €** cobreix tot el que la teva LLC necessita per operar des del primer dia, amb responsabilitat professional inclosa i sense que hagis de tramitar res en anglès jurídic:
 
-- **Alta inicial avui (DIY).** Wyoming filing **100 USD** + RA any 1 ~125 USD = ~225 USD. New Mexico filing **50 USD** + RA ~125 USD = ~175 USD. Delaware filing **110 USD** + RA ~150 USD = ~260 USD. EIN sempre **gratuït** via SS-4 per fax.
-- **Alta via servei "tot en u".** Rangs típics **300-700 USD** segons provider, inclou filing + RA any 1 + plantilla OA. Útil per a no residents que no volen gestionar el fax SS-4 ni el seguiment postal.
-- **Manteniment anual.** Wyoming ~225 USD/any (RA + 60 USD AR), Delaware ~450 USD/any (RA + 300 USD Franchise Tax), New Mexico ~125 USD/any (només RA). Servei fiscal anual per a 5472 + 1120 pro forma → **300-700 USD/any** segons assessor.
+- **Constitució legal** a l'estat òptim per al teu perfil (Wyoming, New Mexico, Delaware o Florida), amb Articles of Organization i taxes estatals pagades al Secretary of State.
+- **EIN federal** tramitat davant l'IRS via SS-4 — sense cues ni formularis que t'obliguin a explicar a Washington què és un no resident.
+- **Registered Agent** del primer any inclòs. A partir de l'any 2, renovació coberta pel manteniment anual **des de 1.400 €/any**.
+- **Operating Agreement** personalitzat per al teu cas, no una plantilla genèrica descarregada d'un blog.
+- **BOI Report** al FinCEN quan apliqui, amb seguiment d'actualitzacions dins del termini legal.
+- **Form 5472 + 1120 pro forma** preparats i presentats cada exercici fiscal.
+- **Acompanyament bancari professional** amb Relay, Slash, Wise Business i Mercury — et guiem fins que tinguis compte operatiu i passarel·les actives, en comptes de deixar-te abandonat després de l'onboarding com fan els serveis low-cost.
+- **ITIN** tramitat per W-7 quan el teu banc o passarel·la ho exigeixi.
 
-### Preguntes freqüents avui
+Fer-ho pel teu compte sembla barat si només mires les taxes estatals, però surt car en temps i en errors que l'IRS no perdona: un **5472 mal presentat són 25.000 USD per formulari i any** (IRC §6038A), un **BOI fora de termini són 591 USD/dia**, i un ITIN rebutjat et deixa sense banca operativa durant mesos. El preu Exentax no és el preu de fer el tràmit, és el preu de fer-ho bé a la primera i de tenir un assessor responsable quan l'IRS o l'AEAT preguntin.
 
-**Cost mínim realista total any 1?** Wyoming DIY ~225 USD. Si delegues: ~600 USD. Mercury i Wise no afegeixen cost d'obertura.
+### Preguntes freqüents
 
-**Costos ocults oblidats?** Renovació Registered Agent any 2 (packs barats pugen), Annual Report puntual, i Mercury Plus si vols targeta IO amb cashback.
+**Què cobreix exactament el preu des de 2.000 €?** Alta completa: estat + EIN + Operating Agreement + BOI inicial + acompanyament bancari + ITIN quan apliqui. Pressupost tancat per escrit abans de començar, sense sorpreses al final.
 
-**L’OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només aplica a grups ≥ 750 M EUR.
+**I el manteniment anual des de 1.400 €?** Registered Agent, Annual Report de l'estat, 5472 + 1120 pro forma presentats a l'IRS, monitorització BOI i coordinació amb el teu assessor fiscal al país de residència. Calendari anual complet cobert.
+
+**L'OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només s'aplica a grups consolidats ≥ 750 M EUR.
 <!-- exentax:overhaul-avui-v1 end -->
 
 <!-- exentax:execution-v2 -->

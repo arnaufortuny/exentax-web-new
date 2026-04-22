@@ -215,7 +215,7 @@ Keeping an LLC well-managed today requires an operational calendar worth pinning
 4. Invoices issued and received (PDF + ledger).
 5. Owner draw evidence (transfers with explicit memo).
 
-### today FAQ
+### Frequently asked questions
 
 **Do I need formal local-GAAP accounting?** No. An LLC does not require Spanish PGC. You do need a clean single ledger that supports the 5472 and potential bank KYC.
 

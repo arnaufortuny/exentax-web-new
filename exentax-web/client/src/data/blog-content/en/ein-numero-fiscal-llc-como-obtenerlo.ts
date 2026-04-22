@@ -159,7 +159,7 @@ Getting an EIN as a non-resident is a solved process but with timing and nuances
 - **Document returned.** The IRS issues the **CP 575** once by postal mail. If lost, request a **147C** by calling the IRS Business Line **+1-267-941-1099** (Mon-Fri 6:00-23:00 ET). Without CP 575/147C, banks reject account opening.
 - **SS-4 line 10.** "Reason for applying" → tick "Started new business" or "Banking purpose only". The reason affects how the IRS classifies the entity and whether it triggers expectations of future filings.
 
-### today FAQ
+### Frequently asked questions
 
 **Do I need an ITIN as well as the EIN?** No for running the LLC or banking. ITIN only if you file a personal U.S. return (1040-NR) or must sign a specific W-8BEN.
 

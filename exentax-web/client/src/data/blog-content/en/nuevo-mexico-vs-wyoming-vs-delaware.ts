@@ -260,7 +260,7 @@ The three states remain the reasonable choice for a non-resident LLC; the today 
 - **Delaware:** USD 110 filing, **USD 300 annual Franchise Tax** (due June 1), Court of Chancery with consolidated case law. Higher cost but the preferred read for VC investors and corporate buyers.
 - **New Mexico:** USD 50 filing, **no Annual Report**, **no state income tax**, maximum public privacy. Minimum annual cost (RA only, ~USD 125). Ideal for side-projects, minimalist profiles and testing.
 
-### today FAQ
+### Frequently asked questions
 
 **Which one if I sell international SaaS?** Wyoming by default. Delaware only if you plan to raise VC in the U.S. within 24 months.
 

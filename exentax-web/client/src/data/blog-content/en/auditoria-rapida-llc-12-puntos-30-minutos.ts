@@ -125,7 +125,7 @@ Three concrete changes from the past year change how to score this audit today:
 2. **High (30 days):** unsigned Operating Agreement, lapsed Registered Agent, broken fund separation.
 3. **Medium (90 days):** missing bookkeeping trail, no document backups, BOI not verified in affected jurisdiction.
 
-### today FAQ
+### Frequently asked questions
 
 **Does this audit replace professional review?** No. It covers 90% of visible operational issues but does not catch subtle tax exposures (PE, ECI, economic residency) that need case-by-case analysis.
 

@@ -211,7 +211,7 @@ The errors we keep seeing in already-formed LLCs recently follow recognizable pa
 3. Verify BOI at FinCEN if your entity is foreign.
 4. Confirm last year's 5472 was filed (if unsure, assume not).
 
-### today FAQ
+### Frequently asked questions
 
 **Can these errors be fixed without an advisor?** Operating Agreement and BOI yes. Late 5472 always benefits from an advisor to build proper *reasonable cause*.
 

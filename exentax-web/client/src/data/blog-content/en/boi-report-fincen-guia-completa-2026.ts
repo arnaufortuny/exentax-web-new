@@ -158,7 +158,7 @@ BOI has been the most volatile obligation of the past 24 months; the current ver
 - **Current penalties.** **USD 591/day** inflation-adjusted for civil violations, up to **USD 10,000** and/or **2 years** in prison for willful violations (31 U.S.C. §5336).
 - **Filing operation.** If applicable, free filing at [FinCEN's official BOI filing portal](https://boiefiling.fincen.gov), **10-15 minutes** process, initial filing + **30-day update** for any change of address, document or beneficial owner.
 
-### today FAQ
+### Frequently asked questions
 
 **When could the duty re-apply if the rule changes?** The day FinCEN issues a new rule. Usually 60-90 days of transition. Subscribe to alerts at fincen.gov/boi.
 

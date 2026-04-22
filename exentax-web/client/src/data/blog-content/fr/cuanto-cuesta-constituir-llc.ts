@@ -166,21 +166,28 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
 <!-- exentax:overhaul-actuellement-v1 -->
-## Mise à jour Exentax actuellement: combien ça coûte vraiment actuellement
+## Mise à jour Exentax : ce que couvre le prix et ce qu'il vous évite
 
-Le coût réel de constitution d'une LLC est prévisible en séparant ouverture et maintenance:
+Le prix de constitution Exentax **à partir de 2 000 €** couvre tout ce dont votre LLC a besoin pour être opérationnelle dès le premier jour, avec une responsabilité professionnelle incluse et sans que vous ayez à remplir quoi que ce soit dans un anglais juridique incompréhensible :
 
-- **Ouverture actuellement (DIY).** Wyoming filing **100 USD** + RA an 1 ~125 USD = ~225 USD. New Mexico filing **50 USD** + RA ~125 USD = ~175 USD. Delaware filing **110 USD** + RA ~150 USD = ~260 USD. EIN toujours **gratuit** via SS-4 par fax.
-- **Ouverture via service "tout-en-un".** Fourchettes typiques **300-700 USD** selon prestataire, inclut filing + RA an 1 + modèle OA. Utile pour non-résidents qui ne veulent pas gérer le fax SS-4 et le suivi postal.
-- **Maintenance annuelle.** Wyoming ~225 USD/an (RA + 60 USD AR), Delaware ~450 USD/an (RA + 300 USD Franchise Tax), New Mexico ~125 USD/an (RA seul). Service fiscal annuel pour 5472 + 1120 pro forma → **300-700 USD/an** selon conseiller.
+- **Constitution légale** dans l'État optimal pour votre profil (Wyoming, New Mexico, Delaware ou Florida), avec Articles of Organization et taxes d'État réglées au Secretary of State.
+- **EIN fédéral** obtenu auprès de l'IRS via SS-4 — sans files d'attente ni formulaires qui vous obligent à expliquer à Washington ce qu'est un non-résident.
+- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle **à partir de 1 400 €/an**.
+- **Operating Agreement** adapté à votre cas, pas un modèle générique téléchargé sur un blog.
+- **BOI Report** au FinCEN quand il s'applique, avec suivi des mises à jour dans le délai légal.
+- **Form 5472 + 1120 pro forma** préparés et déposés chaque exercice fiscal.
+- **Onboarding bancaire professionnel** avec Relay, Slash, Wise Business et Mercury — nous vous accompagnons jusqu'à ce que votre compte soit opérationnel et vos passerelles actives, au lieu de vous laisser seul après l'encaissement comme le font les services low-cost.
+- **ITIN** obtenu par W-7 quand votre banque ou passerelle l'exige.
 
-### FAQ actuellement
+Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, mais ça devient cher en temps et en erreurs que l'IRS ne pardonne pas : un **5472 mal déposé coûte 25 000 USD par formulaire et par an** (IRC §6038A), un **BOI en retard coûte 591 USD/jour**, et un ITIN rejeté vous laisse sans banque opérationnelle pendant des mois. Le prix Exentax n'est pas le prix de faire la démarche, c'est le prix que tout soit correct dès la première fois et qu'il y ait un conseiller responsable quand l'IRS ou votre administration fiscale demandent des comptes.
 
-**Coût minimal réaliste de la 1re année?** Wyoming DIY ~225 USD. En délégué: ~600 USD. Mercury et Wise n'ajoutent pas de coût d'ouverture.
+### Questions fréquentes
 
-**Coûts cachés oubliés?** Renouvellement RA année 2 (packs bon marché augmentent), Annual Report ponctuel, Mercury Plus si carte IO avec cashback souhaitée.
+**Que couvre exactement le prix à partir de 2 000 € ?** Constitution complète : État + EIN + Operating Agreement + BOI initial + onboarding bancaire + ITIN si nécessaire. Devis fermé par écrit avant de commencer, sans surprises à la fin.
 
-**Pillar Two de l’OCDE renchérit-il la LLC?** Non pour LLC unipersonnelles à chiffre d'affaires normal. GloBE concerne les groupes ≥ 750 M€.
+**Et la maintenance annuelle à partir de 1 400 € ?** Registered Agent, Annual Report de l'État, 5472 + 1120 pro forma déposés auprès de l'IRS, suivi BOI et coordination avec votre conseiller fiscal dans votre pays de résidence. Calendrier annuel complet couvert.
+
+**Pillar Two de l'OCDE renchérit-il la LLC ?** Non pour les LLC unipersonnelles à chiffre d'affaires normal. GloBE concerne uniquement les groupes consolidés ≥ 750 M€.
 <!-- exentax:overhaul-actuellement-v1 end -->
 
 <!-- exentax:execution-v2 -->
