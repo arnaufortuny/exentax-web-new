@@ -1,15 +1,39 @@
 # PENDING — Exentax Web
 
 Lista priorizada de trabajo que quedó fuera de esta sesión de auditoría.
-Fecha: 2026-04-22 (actualizado con mediciones reales de scripts oficiales).
+Fecha: 2026-04-22 (actualizado Sesión 5: revisión completa + readiness Hostinger).
 Actualiza este documento al cerrar cada ítem.
+
+---
+
+## 🟢 Pre-deploy Hostinger VPS — checklist operativo
+
+Ver guía completa en `exentax-web/docs/deploy/HOSTINGER-VPS.md`. Lo que debe
+hacerse **fuera del repositorio** antes de encender el VPS:
+
+| # | Acción | Dónde | Tiempo |
+|---|---|---|---|
+| 1 | Contratar Hostinger VPS KVM 2 (Ubuntu 22.04 LTS) | panel Hostinger | 10 min |
+| 2 | Apuntar DNS `exentax.com` + `www.exentax.com` A/AAAA → IP VPS | panel DNS actual | 5 min + propagación |
+| 3 | Generar `FIELD_ENCRYPTION_KEY` (`openssl rand -hex 32`) | local | 1 min |
+| 4 | Crear Discord application, bot, canales y rol admin | Discord Developer Portal | 30 min |
+| 5 | Crear Google Cloud project, Service Account con Calendar+Meet+Gmail APIs | Google Cloud Console | 30 min |
+| 6 | Provisión inicial VPS (§4 de la guía: Node 22, PostgreSQL 16, PM2, Nginx, Certbot) | VPS ssh | 30 min |
+| 7 | Rsync código + crear `.env` + `npm run db:push` + `pm2 start` | VPS ssh | 15 min |
+| 8 | Configurar Nginx + Certbot SSL | VPS ssh | 10 min |
+| 9 | UptimeRobot monitor → `https://exentax.com/api/health` | uptimerobot.com | 5 min |
+
+Bugs de build **ya resueltos** en Sesión 5 (ver `AUDIT-REPORT.md §Sesión 5`):
+- ✅ `seo-meta-audit.mjs` ahora detecta lazy imports (ya no falla `faq-page.tsx`).
+- ✅ `build.ts` ya no referencia scripts archivados (`audit-2026-04-*`).
+- ✅ `SKIP_BUILD_E2E=1 npm run build` exit 0 con `dist/index.mjs` 5.9 MB + `dist/public/` 24 MB.
 
 ---
 
 ## 🔴 Alta prioridad
 
 ### 0. Artículos de blog con traducción cortada (ratio palabras <70 % vs ES) — EN CURSO
-**Esfuerzo estimado:** 10-20 min por artículo × 47 casos restantes.
+**Esfuerzo estimado:** 10-20 min por artículo × 44 casos (DE 16, PT 12, CA 10, FR 6, EN 0).
 
 **Histórico de intentos en esta sesión:**
 - 2 tandas de subagentes paralelos lanzados (4 + 6 invocaciones con scope "3 artículos por agente"

@@ -73,14 +73,14 @@ async function buildAll() {
   // client build so a regression in SEO meta coverage, related-slug
   // integrity, or public-route 301 behavior blocks the deploy with the
   // failing script's own output.
+  // Runtime audits during build. Only active scripts — archived Task #4
+  // one-shot audits were removed to comply with the repo convention
+  // "never reference an archived script from a runtime script" (see
+  // replit.md "Repo conventions"). The artefacts they produced
+  // (ctas-changelog.md, ctas-rewrite.md) are frozen in docs/audits/2026-04/.
   for (const [label, file] of [
     ["seo-meta-audit", "scripts/seo-meta-audit.mjs"],
     ["seo-related-validate", "scripts/seo-related-validate.mjs"],
-    ["cta-conversion-audit", "scripts/audit-2026-04-cta-conversion.mjs"],
-    ["inline-review-markers", "scripts/audit-2026-04-inline-markers.mjs"],
-    ["cta-changelog", "scripts/audit-2026-04-cta-changelog.mjs"],
-    ["ctas-rewrite-md", "scripts/audit-2026-04-ctas-rewrite-md.mjs"],
-    ["related-articles-non-404", "scripts/audit-2026-04-related-validate.mjs"],
   ] as const) {
     console.log(`running ${label}...`);
     const r = spawnSync(process.execPath, [path.resolve(ROOT, file)], { stdio: "inherit" });

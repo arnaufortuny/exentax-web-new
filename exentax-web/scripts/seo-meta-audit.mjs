@@ -159,8 +159,15 @@ for (const rel of pageFiles) {
   const importedNames = [...txt.matchAll(/import\s+(?:\{\s*([\w,\s]+)\s*\}|(\w+))\s+from\s+["']([^"']+)["']/g)]
     .flatMap(m => (m[1] ? m[1].split(",").map(s => s.trim()) : [m[2]]))
     .filter(Boolean);
-  const importedH1 = importedNames.some(name => H1_PROVIDERS.has(name));
-  const importedSEO = importedNames.some(name => SEO_PROVIDERS.has(name));
+  // Also detect lazy dynamic imports: `const Foo = lazy(() => import("..."))`.
+  // Without this, lazy-loaded H1 providers (e.g. `FAQ` in faq-page.tsx) are
+  // treated as absent and the audit blocks the build.
+  const lazyImportedNames = [...txt.matchAll(/const\s+(\w+)\s*=\s*lazy\s*\(\s*\(\s*\)\s*=>\s*import\s*\(/g)]
+    .map(m => m[1])
+    .filter(Boolean);
+  const allImportedNames = [...importedNames, ...lazyImportedNames];
+  const importedH1 = allImportedNames.some(name => H1_PROVIDERS.has(name));
+  const importedSEO = allImportedNames.some(name => SEO_PROVIDERS.has(name));
   const hasSEO = directSEO || importedSEO;
   const h1Effective = directH1 + (importedH1 ? 1 : 0);
   if (!hasSEO) errors.push(`${rel} [page] — missing <SEO> component (canonical / og / twitter not set; SEO_PROVIDERS=${[...SEO_PROVIDERS].join("/")})`);
