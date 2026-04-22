@@ -414,6 +414,10 @@ El servidor escucha en `0.0.0.0:$PORT`, sirve el frontend estático de `exentax-
 
 > `replit.md` y `.replit` solo se usan en Replit; en Hostinger se ignoran.
 
+**Guía detallada end-to-end para Hostinger VPS** (KVM 2, Ubuntu 22.04, Node 22, PostgreSQL 16, Nginx + Certbot, PM2, backups, UptimeRobot, troubleshooting y costes): ver `exentax-web/docs/deploy/HOSTINGER-VPS.md`.
+
+**Setup profesional de Discord** (7 canales, rol admin, mapping `EVENT_TYPES → TYPE_TO_CHANNEL`, slash commands `/agenda` `/cita`, rate limits y back-pressure): ver `exentax-web/docs/deploy/DISCORD-SETUP.md`.
+
 ---
 
 ## Arquitectura

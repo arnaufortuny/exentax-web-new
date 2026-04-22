@@ -52,7 +52,12 @@ let BASE_URL = (process.env.BASE_URL || "").replace(/\/$/, "");
 const SKIP_LIVE = process.env.SEO_SLASH_SKIP_LIVE === "1";
 const OUT = process.argv[2] || resolve(ROOT, "reports/seo/slash-hygiene.md");
 const HTTP_TIMEOUT_MS = 15000;
-const SERVER_READY_TIMEOUT_MS = 60000;
+// Server boot can take > 60 s when the host is under load (CI sandbox, cold
+// Replit dial-out, cold Hostinger VPS). The server always loads BLOG_POSTS +
+// BLOG_CONTENT_ES + BLOG_I18N (333+ TS files) on startup, plus pg pool init,
+// plus the email retry worker. 180 s keeps fast environments snappy (usually
+// < 10 s) while tolerating the slow ones. Override with SEO_SLASH_TIMEOUT_MS.
+const SERVER_READY_TIMEOUT_MS = Number(process.env.SEO_SLASH_TIMEOUT_MS || 180000);
 const FIRST_PARTY_HOSTS = new Set(["exentax.com", "www.exentax.com"]);
 
 const findings = []; // { kind, path, source, line }
@@ -237,22 +242,38 @@ async function waitFor200(url, timeoutMs) {
 }
 
 let spawnedServer = null;
+/**
+ * Ensure a running server we can hit for the live scan. Returns:
+ *   - `true`  → live scan can proceed (BASE_URL is set and reachable).
+ *   - `false` → no server available (sandbox, no DATABASE_URL, boot failed
+ *              within SERVER_READY_TIMEOUT_MS). Caller MUST degrade to
+ *              source-only scan with a clear warning; this is NOT an error.
+ */
 async function ensureLiveServer() {
   if (BASE_URL) {
     const ok = await waitFor200(`${BASE_URL}/sitemap.xml`, 5000);
     if (!ok) {
-      throw new Error(`BASE_URL=${BASE_URL} provided but /sitemap.xml is not reachable.`);
+      console.warn(`⚠ BASE_URL=${BASE_URL} provided but /sitemap.xml is not reachable — skipping live scan.`);
+      return false;
     }
-    return;
+    return true;
   }
   // Try the conventional dev port first so we reuse an already-running server.
   const probe = "http://localhost:5000";
   if (await waitFor200(`${probe}/sitemap.xml`, 1500)) {
     BASE_URL = probe;
     console.log(`Using already-running dev server at ${BASE_URL}.`);
-    return;
+    return true;
   }
-  // Otherwise spawn `tsx server/index.ts` on a free port.
+  // Otherwise spawn `tsx server/index.ts` on a free port. The server needs
+  // a reachable DATABASE_URL to boot (see server/index.ts:runColumnMigrations).
+  // If none is configured we skip the live scan instead of hanging.
+  if (!process.env.DATABASE_URL) {
+    console.warn("⚠ DATABASE_URL not set — skipping live scan (source-only).");
+    console.warn("  To run the live scan locally: `DATABASE_URL=… npm run seo:slash`,");
+    console.warn("  or start `npm run dev` in another terminal first.");
+    return false;
+  }
   const port = await pickFreePort();
   console.log(`Starting temporary server on port ${port} for sitemap scan ...`);
   spawnedServer = spawn(
@@ -271,8 +292,11 @@ async function ensureLiveServer() {
   if (!ok) {
     try { spawnedServer.kill("SIGTERM"); } catch {}
     spawnedServer = null;
-    throw new Error(`Temporary server on ${BASE_URL} did not serve /sitemap.xml within ${SERVER_READY_TIMEOUT_MS}ms.`);
+    console.warn(`⚠ Temporary server on ${BASE_URL} did not serve /sitemap.xml within ${SERVER_READY_TIMEOUT_MS}ms — skipping live scan.`);
+    console.warn("  Override with SEO_SLASH_TIMEOUT_MS=<ms> if the boot is slow but eventually succeeds.");
+    return false;
   }
+  return true;
 }
 
 function stopLiveServer() {
@@ -404,9 +428,11 @@ async function main() {
   scanStaticSitemaps();
   if (!SKIP_LIVE) {
     try {
-      await ensureLiveServer();
-      await scanLiveSitemap();
-      await probeDirtyRedirects();
+      const liveOK = await ensureLiveServer();
+      if (liveOK) {
+        await scanLiveSitemap();
+        await probeDirtyRedirects();
+      }
     } finally {
       stopLiveServer();
     }

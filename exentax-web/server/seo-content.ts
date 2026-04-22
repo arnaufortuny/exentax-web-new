@@ -652,20 +652,20 @@ function buildI18nMeta(): Record<string, PageMeta> {
 
   const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
     home: {
-      es: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en Estados Unidos. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido. Asesoría estratégica personalizada.",
+      es: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en EE.UU. Constitución en 2 días, EIN, cuenta bancaria y compliance incluido. Asesoría estratégica.",
       en: "Reduce your tax burden from 40% to 8-12% with a US LLC. Formation in 2 days, EIN, bank account and compliance included. Strategic consultation.",
-      fr: "Réduisez votre charge fiscale de 40% à 8-12% avec une LLC aux États-Unis. Constitution en 2 jours, EIN, compte bancaire et conformité inclus. Consultation stratégique.",
+      fr: "Réduisez votre charge fiscale de 40% à 8-12% avec une LLC aux USA. Constitution en 2 jours, EIN, compte bancaire et conformité inclus. Consultation stratégique.",
       de: "Reduzieren Sie Ihre Steuerlast von 40% auf 8-12% mit einer US-LLC. Gründung in 2 Tagen, EIN, Bankkonto und Compliance inklusive. Strategische Beratung.",
-      pt: "Reduza sua carga tributária de 40% para 8-12% com uma LLC nos Estados Unidos. Constituição em 2 dias, EIN, conta bancária e compliance incluídos. Consultoria estratégica.",
-      ca: "Redueix la teva càrrega fiscal del 40% al 8-12% amb una LLC als Estats Units. Constitució en 2 dies, EIN, compte bancari i compliance inclòs. Assessoria estratègica.",
+      pt: "Reduza sua carga tributária de 40% para 8-12% com uma LLC nos EUA. Constituição em 2 dias, EIN, conta bancária e compliance incluídos. Consultoria estratégica.",
+      ca: "Redueix la teva càrrega fiscal del 40% al 8-12% amb una LLC als EUA. Constitució en 2 dies, EIN, compte bancari i compliance inclòs. Assessoria estratègica.",
     },
     our_services: {
       es: "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta Mercury, compliance y soporte 12 meses. Consulta nuestros planes.",
       en: "Form and manage your US LLC with expert support. Includes EIN, bank account, annual compliance and guidance on your international tax structure.",
-      fr: "Constituez et gérez votre LLC américaine avec un support expert. Inclut EIN, compte bancaire, conformité annuelle et accompagnement dans votre structure fiscale internationale.",
-      de: "Gründen und verwalten Sie Ihre US-LLC mit Expertenunterstützung. Beinhaltet EIN, Bankkonto, jährliche Compliance und Beratung zu Ihrer internationalen Steuerstruktur.",
-      pt: "Constitua e gerencie sua LLC americana com suporte especializado. Inclui EIN, conta bancária, conformidade anual e acompanhamento na sua estrutura fiscal internacional.",
-      ca: "Constitueix i gestiona la teva LLC als EUA amb suport expert. Inclou EIN, compte bancari, compliance anual i acompanyament en la teva estructura fiscal internacional.",
+      fr: "Constituez et gérez votre LLC US avec un support expert. Inclut EIN, compte bancaire, conformité annuelle et accompagnement de votre structure fiscale.",
+      de: "Gründen und verwalten Sie Ihre US-LLC mit Expertenunterstützung. Beinhaltet EIN, Bankkonto, jährliche Compliance und Beratung zur Steuerstruktur.",
+      pt: "Constitua e gerencie sua LLC americana com suporte especializado. Inclui EIN, conta bancária, compliance anual e acompanhamento da estrutura fiscal.",
+      ca: "Constitueix i gestiona la teva LLC als EUA amb suport expert. Inclou EIN, compte bancari, compliance anual i acompanyament de l'estructura fiscal.",
     },
     how_we_work: {
       es: "Asesoría estratégica, estructura personalizada, constitución en 2-4 días y compliance anual. Proceso claro, sin letra pequeña.",
@@ -686,7 +686,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     faq: {
       es: "¿Es legal? ¿Cuánto cuesta? ¿Qué impuestos pago? Respondemos todas las dudas sobre LLC en Estados Unidos para freelancers y autónomos.",
       en: "We answer all questions about US LLCs: legality, real savings, Wyoming/Delaware/New Mexico differences and tax obligations for freelancers.",
-      fr: "Nous répondons à toutes les questions sur les LLC américaines : légalité, économies réelles, différences Wyoming/Delaware/Nouveau-Mexique et obligations fiscales.",
+      fr: "Nous répondons à toutes les questions sur les LLC US : légalité, économies, différences Wyoming/Delaware/Nouveau-Mexique et obligations fiscales.",
       de: "Wir beantworten alle Fragen zu US-LLCs: Legalität, reale Einsparungen, Wyoming/Delaware/New-Mexico-Unterschiede und Steuerpflichten für Freelancer.",
       pt: "Respondemos todas as dúvidas sobre LLCs americanas: legalidade, economia real, diferenças Wyoming/Delaware/Novo México e obrigações fiscais.",
       ca: "Responem totes les preguntes sobre LLC als EUA: legalitat, estalvi real, diferències Wyoming/Delaware/Nou Mèxic i obligacions fiscals.",
@@ -1631,6 +1631,19 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL }
       ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": BRAND_NAME,
+      "url": BASE_URL,
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": `${BASE_URL}/blog?q={search_term_string}`,
+        "query-input": "required name=search_term_string"
+      }
     }
   ],
   "about_llc": [
@@ -2354,6 +2367,126 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       { "@type": "ListItem", "position": 3, "name": "LLC seguridad jurídica", "item": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial` }
     ]},
     { "@context": "https://schema.org", "@type": "Article", "headline": "LLC y seguridad jurídica: cómo protege tu patrimonio personal", "description": "Una LLC separa tu patrimonio personal del negocio. Cómo funciona la protección y cómo mantenerla fuerte.", "image": `${BASE_URL}/og-image.png`, "author": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL }, "publisher": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } }, "datePublished": "2026-03-05", "mainEntityOfPage": `${BASE_URL}/blog/llc-seguridad-juridica-proteccion-patrimonial`, "inLanguage": "es", "articleSection": "Guías", "wordCount": 1200 }
+  ],
+
+  // Service subpages — one Service schema each. All five delegate the UI to
+  // `client/src/pages/services/ServiceSubpage.tsx`, but each route needs its
+  // own JSON-LD so Google understands the specific service offered at the
+  // specific URL (otherwise the SEO audit flags `schema-service-missing`).
+  "service_llc_nm": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Constitución de LLC en Nuevo México",
+      "description": "Constitución y gestión de LLC en Nuevo México para no residentes. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "serviceType": "Formación de LLC",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
+      "url": `${BASE_URL}/es/servicios/llc-nuevo-mexico`,
+      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-nuevo-mexico` }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": `${BASE_URL}/es/servicios` },
+        { "@type": "ListItem", "position": 3, "name": "LLC en Nuevo México", "item": `${BASE_URL}/es/servicios/llc-nuevo-mexico` }
+      ]
+    }
+  ],
+  "service_llc_wy": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Constitución de LLC en Wyoming",
+      "description": "Constitución y gestión de LLC en Wyoming para no residentes. Privacidad reforzada, sin impuesto estatal sobre beneficios. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "serviceType": "Formación de LLC",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
+      "url": `${BASE_URL}/es/servicios/llc-wyoming`,
+      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-wyoming` }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": `${BASE_URL}/es/servicios` },
+        { "@type": "ListItem", "position": 3, "name": "LLC en Wyoming", "item": `${BASE_URL}/es/servicios/llc-wyoming` }
+      ]
+    }
+  ],
+  "service_llc_de": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Constitución de LLC en Delaware",
+      "description": "Constitución y gestión de LLC en Delaware para no residentes. Jurisdicción preferida por inversores y estructuras holding. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "serviceType": "Formación de LLC",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
+      "url": `${BASE_URL}/es/servicios/llc-delaware`,
+      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-delaware` }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": `${BASE_URL}/es/servicios` },
+        { "@type": "ListItem", "position": 3, "name": "LLC en Delaware", "item": `${BASE_URL}/es/servicios/llc-delaware` }
+      ]
+    }
+  ],
+  "service_llc_fl": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Constitución de LLC en Florida",
+      "description": "Constitución y gestión de LLC en Florida para no residentes. Óptima para operaciones con clientes estadounidenses y presencia física USA. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "serviceType": "Formación de LLC",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
+      "url": `${BASE_URL}/es/servicios/llc-florida`,
+      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-florida` }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": `${BASE_URL}/es/servicios` },
+        { "@type": "ListItem", "position": 3, "name": "LLC en Florida", "item": `${BASE_URL}/es/servicios/llc-florida` }
+      ]
+    }
+  ],
+  "service_itin": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Obtención de ITIN para no residentes",
+      "description": "Tramitación del ITIN (Individual Taxpayer Identification Number) ante el IRS para no residentes sin SSN. Incluye preparación del W-7, gestión vía CAA y seguimiento hasta la emisión del número fiscal.",
+      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "serviceType": "Obtención de identificador fiscal IRS",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU. sin SSN" },
+      "url": `${BASE_URL}/es/servicios/obten-tu-itin`,
+      "offers": { "@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/obten-tu-itin` }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Servicios", "item": `${BASE_URL}/es/servicios` },
+        { "@type": "ListItem", "position": 3, "name": "Obtén tu ITIN", "item": `${BASE_URL}/es/servicios/obten-tu-itin` }
+      ]
+    }
   ],
 };
 

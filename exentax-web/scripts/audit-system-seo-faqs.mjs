@@ -159,7 +159,13 @@ if (SOT) {
 }
 function sotMetaForPath(p) {
   if (!SOT) return null;
-  return SOT.PAGE_META[p] || SOT.PAGE_META_I18N[p] || null;
+  // Prefer PAGE_META_I18N (richer, populated by buildI18nMeta with keywords
+  // for every route × language) over the legacy PAGE_META (ES-anchored map
+  // without keywords). Previously the legacy source shadowed the I18N one,
+  // producing false-positive `keyword-map-partial` issues for ~11 ES routes
+  // and ~6 routes per other language whose keywords were correctly declared
+  // in PAGE_META_I18N but never surfaced by the audit.
+  return SOT.PAGE_META_I18N[p] || SOT.PAGE_META[p] || null;
 }
 function sotSchemasForRouteKey(key) {
   if (!SOT) return [];

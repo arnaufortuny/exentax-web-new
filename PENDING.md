@@ -1,8 +1,139 @@
 # PENDING — Exentax Web
 
 Lista priorizada de trabajo que quedó fuera de esta sesión de auditoría.
-Fecha: 2026-04-22 (actualizado Sesión 5: revisión completa + readiness Hostinger).
+Fecha: 2026-04-22 (actualizado Sesión 6: cierre y limpieza con regla
+"lo que funciona no se toca"; ver `DEFINITIVE-STATUS.md` y
+`CHANGELOG-SESSION.md` para el detalle medido).
 Actualiza este documento al cerrar cada ítem.
+
+Cada ítem lleva **comando exacto para reproducirlo**, archivo:línea si
+aplica, e impacto (alto/medio/bajo). Sin items vagos.
+
+---
+
+## 🟡 Gris ambiental — no es bug de código, verificar en entorno real
+
+### [G1] `blog:validate-all` sources → 33 URLs externas 403 desde sandbox
+
+**Reproducir**:
+```
+cd exentax-web && npm run blog:validate-all
+```
+**Output baseline actual**:
+```
+✖ 33 critical sources issue(s):
+  external-ping-dead — IRS — Instructions for Form 5472 → status=403
+  external-ping-dead — IRS — About Form 1120 → status=403
+  (... 31 más del mismo tipo: IRS, FinCEN, OECD, EU, BOE, AEAT, BOE, etc.)
+```
+**Archivo:línea**: `reports/seo/source-url-verification.json` (regenerado),
+afecta el step `blog-sources-validate` vía `scripts/blog-verify-source-urls.mjs`.
+**Impacto**: bajo en prod (artefacto de la IP sandbox, no del código).
+**Fix**: ejecutar en Replit o Hostinger real (IP con reputación normal);
+las URLs devolverán 200 y el cache pasa. Si alguna 404 real, actualizar
+la entrada en el registro canónico de fuentes.
+**Dependencias**: IP pública con reputación normal (Replit / Hostinger).
+
+### [G2] `blog:validate-all` sitemap → ECONNREFUSED 127.0.0.1:5000
+
+**Reproducir**:
+```
+cd exentax-web && npm run blog:validate-all 2>&1 | grep -A3 "Fetching http"
+```
+**Output**:
+```
+Fetching http://localhost:5000/sitemap.xml ...
+Error: connect ECONNREFUSED 127.0.0.1:5000
+```
+**Archivo:línea**: `scripts/seo-sitemap-check.mjs:141`.
+**Impacto**: bajo (el step necesita dev server; no afecta build ni
+deploy).
+**Fix**: iniciar dev server (`npm run dev`) en otra terminal antes de
+correr `blog:validate-all` localmente. En Replit el workflow de "Start
+application" ya lo levanta.
+
+### [G3] `audit-system-seo-faqs` live-fetch artifacts sin dev server
+
+**Reproducir**:
+```
+cd exentax-web && node scripts/audit-system-seo-faqs.mjs
+```
+**Output**: 384 issues (96×4) de `canonical-mismatch`,
+`hreflang-incomplete`, `open-graph`, `twitter-card`.
+**Archivo:línea**: `scripts/audit-system-seo-faqs.mjs:104` (el
+`fetch(url, ...)` timeout).
+**Impacto**: informativo. Todos los issues desaparecen cuando el audit
+tiene un server respondiendo.
+**Fix**: ejecutar con dev server corriendo, o añadir `BASE_URL` real.
+
+### [G4] `seo-audit.json` → `robots-empty` (1 issue)
+
+**Reproducir**:
+```
+cd exentax-web && node scripts/audit-system-seo-faqs.mjs
+python3 -c "import json; d=json.load(open('docs/auditoria-sistema-seo-faqs/seo-audit.json')); print([i for i in d['issues'] if i.get('area')=='robots-empty'])"
+```
+**Archivo:línea**: `server/routes/public.ts` handler robots.txt (verificar).
+**Impacto**: P0 según audit, pero probable artefacto live-fetch.
+**Fix**:
+```
+# En Replit, con server corriendo:
+curl http://localhost:5000/robots.txt
+# Debe devolver al menos "User-agent: *" + "Sitemap: ..."
+```
+Si el handler devuelve vacío, es bug real; si devuelve correcto, es
+artefacto de G3.
+
+### [G5] E2E tests (5) requieren Postgres real
+
+**Reproducir** (en Replit / Hostinger con DB):
+```
+cd exentax-web
+npm run test:newsletter   # newsletter + RGPD consent log
+npm run test:booking      # booking + reschedule + cancel
+npm run test:discord-neon # Discord embed no leaks tokens
+npm run test:indexnow     # IndexNow ping
+npm run test:calculator   # (ya VERDE 116/116 con DB dummy, no requiere real)
+```
+**Impacto**: alto (son el contrato e2e del golden path). Task #8 los dejó
+verdes en Replit con DB real; no reverificados en sandbox porque no hay
+Postgres.
+**Fix**: ejecutar en Replit tras cualquier cambio que toque booking,
+newsletter, Discord o indexing.
+
+---
+
+## 🟠 Media prioridad — SEO long-tail
+
+### [S1] 78 issues `keyword-positioning` P2 (reescritura comercial)
+
+**Reproducir**:
+```
+cd exentax-web && node scripts/audit-system-seo-faqs.mjs
+python3 -c "
+import json
+d=json.load(open('docs/auditoria-sistema-seo-faqs/seo-audit.json'))
+kp=[i for i in d['issues'] if i.get('area')=='keyword-positioning']
+print(f'Total: {len(kp)} (todas P2)')
+for i in kp[:10]:
+    print(f\"  [{i['languages'][0]}] {i['location']}: {i['evidence'][:100]}\")
+"
+```
+**Output**: 78 rutas con ≥ 50 % de keywords long-tail declaradas ausentes
+del title o description. Ejemplos:
+- `/es/servicios/llc-nuevo-mexico`: faltan "llc new mexico no residentes",
+  "nm llc sin informe anual".
+- `/fr/legal/conditions`: falta "Exentax mentions légales".
+- etc.
+**Archivo afectado**: `exentax-web/server/seo-content.ts` —
+`buildI18nMeta()` → `PAGE_TITLES` + `PAGE_DESCS`.
+**Impacto**: medio (SEO CTR long-tail). No bloquea deploy, no bloquea
+build.
+**Fix**: en sesión dedicada, reescribir titles/descriptions **preservando
+el límite de 160 chars** y el tono comercial, incluyendo las keywords
+long-tail donde hacen sentido. ~15 min por (ruta × idioma) × 13
+rutas únicas ≈ **1-2 h de trabajo editorial**.
+**Dependencias**: ninguna.
 
 ---
 
