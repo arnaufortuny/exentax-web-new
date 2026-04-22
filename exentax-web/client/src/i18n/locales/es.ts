@@ -950,8 +950,8 @@ const es = {
  channelTitle:"No importa el canal.",
  structureMatters:"Importa la estructura.",
  bookNow:"Agenda tu asesoría ahora",
- whatsappMsg1:"Hola He visto vuestro perfil de clientes y creo que encajo perfectamente. Me gustaría explorar opciones para optimizar mi fiscalidad. ¿Podemos agendar una llamada esta semana?",
- whatsappMsg2:"Hola Soy profesional digital y busco optimizar mi estructura fiscal de forma legal. ¿Cuándo podríamos hablar para valorar mi caso concreto?",
+ whatsappMsg1:"Hola, he visto vuestro perfil de clientes y creo que encajo perfectamente. Me gustaría explorar opciones para optimizar mi fiscalidad. ¿Podemos agendar una llamada esta semana?",
+ whatsappMsg2:"Hola, soy profesional digital y busco optimizar mi estructura fiscal de forma legal. ¿Cuándo podríamos hablar para valorar mi caso concreto?",
  fitsYou:"Esto encaja contigo si…",
  profiles: [
  { title:"Clientes internacionales", desc:"Facturas online, cobras en varias divisas y tu estructura actual empieza a quedarse corta frente a la dimensión real de tu actividad." },

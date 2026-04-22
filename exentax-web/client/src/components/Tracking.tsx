@@ -148,6 +148,15 @@ export function trackContactFormSubmitted(formName: string, params?: Record<stri
   trackEvent("form_submit", { form_name: formName, ...(params || {}) });
 }
 
+// Newsletter subscribe — emits both the generic `form_submit` for
+// funnel-level dashboards AND a dedicated `newsletter_subscribe` event
+// so GA4 can mark it as a conversion and segment by source/language
+// without relying on a param filter on `form_submit`.
+export function trackNewsletterSubscribe(source: string, params?: Record<string, unknown>) {
+  trackEvent("newsletter_subscribe", { source, ...(params || {}) });
+  trackEvent("form_submit", { form_name: `newsletter_${source}`, ...(params || {}) });
+}
+
 export function trackWhatsAppClick(location: string, params?: Record<string, unknown>) {
   trackEvent("whatsapp_click", { cta_location: location, ...(params || {}) });
 }

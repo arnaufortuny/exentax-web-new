@@ -886,7 +886,7 @@ const en = {
     subtitle: "Low-cost privacy for solo founders, gold-standard asset protection in Wyoming and a VC-ready Delaware on tap — plus Florida as your gateway into the Latin American market. At Exentax we design legal US LLCs so you scale globally with ITIN, banking and compliance handled end-to-end.",
     cta: "Optimize my tax setup",
     talkToUs: "Talk to an advisor",
-    whatsappMsg: "Hi — I'd like to optimize my tax setup. I saw what you do at Exentax and want to understand whether a US LLC makes sense for my case. Got a minute to talk?"
+    whatsappMsg: "Hi, I'd like to optimize my tax setup. I saw what you do at Exentax and want to understand whether a US LLC makes sense for my case. Got a minute to talk?"
   },
   heroStats: {
     reductionLabel: "Average tax burden reduction",

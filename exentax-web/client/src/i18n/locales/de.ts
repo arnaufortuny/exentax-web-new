@@ -935,7 +935,7 @@ const de = {
     tags: ["Freelancer","SaaS","Agenturen","Creators","Internationale Berater"],
     channelTitle: "Der Kanal ist nicht wichtig.",
     structureMatters: "Die Struktur zählt.",
-    bookNow: "Buchen Sie jetzt Ihre Beratung",
+    bookNow: "Beratungstermin buchen",
     whatsappMsg1: "Hallo, ich glaube, ich passe zum Profil, das Sie beschreiben. Können wir ein kurzes Gespräch führen, um zu sehen, ob es Verbesserungsspielraum bei meiner Steuersituation gibt?",
     whatsappMsg2: "Hallo, ich schreibe, weil ich glaube, zum Profil Ihrer Kunden zu passen. Ich möchte verstehen, ob ich meine Steuerlast reduzieren kann. Wann könnten wir sprechen?",
     fitsYou: "Das passt zu Ihnen, wenn…",
@@ -973,7 +973,7 @@ const de = {
       ctaTitle: "Wir sind nicht hier, um Ihnen eine LLC zu verkaufen.",
     ctaSubtitle: "Wir sind hier, um Ihnen zu helfen, eine Struktur zu haben, die kohärent mit dem Geschäft ist, das Sie bereits aufbauen.",
     ctaDesc: "Wenn Ihre Tätigkeit international ist, sollte Ihre Besteuerung es auch sein. Und das erfordert Urteilsvermögen, Erfahrung und Umsetzung.",
-    bookNow: "Buchen Sie jetzt Ihre Beratung",
+    bookNow: "Beratungstermin buchen",
     whatsappMsg: "Hallo, ich habe gesehen, warum man Exentax wählen sollte, und bin vom Ansatz überzeugt. Ich würde gerne erkunden, ob ich mit euch meine Steuern optimieren kann. Können wir sprechen?"
   },
   origin: {

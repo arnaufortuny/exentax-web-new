@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import { clearCookieConsent } from "@/components/CookieBanner";
 import { BRAND, CONTACT, SOCIAL } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
-import { trackFormSubmit, trackWhatsAppClick } from "@/components/Tracking";
+import { trackNewsletterSubscribe, trackWhatsAppClick } from "@/components/Tracking";
 import { clientLogger } from "@/lib/clientLogger";
 
 function NewsletterSignup() {
@@ -32,7 +32,7 @@ function NewsletterSignup() {
       if (res.ok) {
         setStatus("success");
         setEmail("");
-        trackFormSubmit("newsletter_footer");
+        trackNewsletterSubscribe("footer", { language: i18n.language });
       } else {
         setStatus("error");
       }
