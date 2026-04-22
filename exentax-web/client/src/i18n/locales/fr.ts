@@ -883,11 +883,11 @@ const fr = {
     helpfulLinks: "Liens utiles",
   },
   hero: {
-    h1: "Vous payez plus d'impôts que nécessaire.",
-    h1Green: "Et ça n'a pas à être comme ça.",
+    h1: "Vous payez plus d'impôts qu'il ne faut.",
+    h1Green: "Et ça peut changer dès maintenant.",
     subtitle: "Zéro paperasse annuelle, bouclier patrimonial américain et structure prête pour la levée de fonds, sans bouger de chez vous. Que vous visiez la sécurité juridique du Delaware ou un accès direct au marché latino de Miami, Exentax monte votre LLC et obtient votre ITIN sans passer par l'ambassade.",
-    cta: "Je veux optimiser ma fiscalité",
-    talkToUs: "Parlez-nous",
+    cta: "Optimiser ma fiscalité",
+    talkToUs: "Parler à un conseiller",
     whatsappMsg: "Bonjour, je souhaite optimiser ma fiscalité. J'ai vu ce que vous faites chez Exentax et j'aimerais comprendre si une LLC a du sens pour mon cas. Peut-on en parler ?"
   },
   heroStats: {

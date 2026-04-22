@@ -886,12 +886,12 @@ const pt = {
     helpfulLinks: "Links úteis",
   },
   hero: {
-    h1: "está a pagar mais impostos do que o necessário.",
-    h1Green: "E não precisa ser assim.",
-    subtitle: "Estrutura enxuta e barata, blindagem patrimonial premium e uma LLC pronta para investidores e M&A. De Wyoming até a ponte para o mercado hispano de Miami, na Exentax montamos a sua estrutura e tiramos o ITIN sem que precise viajar aos EUA.",
-    cta: "Quero otimizar minha fiscalidade",
-    talkToUs: "Fale conosco",
-    whatsappMsg: "Olá, tenho interesse em otimizar minha situação fiscal. Vi o que fazem na Exentax e gostaria de entender se uma LLC faz sentido para o meu caso. Podemos conversar?"
+    h1: "Está a pagar mais impostos do que o necessário.",
+    h1Green: "E não tem de ser assim.",
+    subtitle: "Estrutura enxuta e barata, blindagem patrimonial premium e uma LLC pronta para investidores e M&A. De Wyoming até à ponte para o mercado hispano de Miami, na Exentax montamos a sua estrutura e tratamos do ITIN sem que precise de viajar aos EUA.",
+    cta: "Otimizar a minha fiscalidade",
+    talkToUs: "Falar com um consultor",
+    whatsappMsg: "Olá, tenho interesse em otimizar a minha situação fiscal. Vi o que fazem na Exentax e gostaria de perceber se uma LLC faz sentido para o meu caso. Podemos conversar?"
   },
   heroStats: {
     reductionLabel: "Redução média da carga fiscal",
@@ -954,7 +954,7 @@ const pt = {
     stepCta: "Agende sua consultoria estratégica",
     bottomText: "Se seu negócio é internacional, sua estrutura também deveria estar nesse nível.",
     bottomCta: "Quero estruturar meu negócio",
-    whatsappMsg: "Olá, vi como funciona o processo de. Gostaria de começar e saber se me encaixo no perfil que buscam. Quando podemos conversar?"
+    whatsappMsg: "Olá, vi como funciona o vosso processo. Gostaria de começar e perceber se me encaixo no perfil que procuram. Quando podemos falar?"
   },
   services: {
     tag: "SERVIÇOS",
@@ -978,7 +978,7 @@ const pt = {
     ctaSubtitle: "Estamos aqui para ajudá-lo a ter uma estrutura coerente com o negócio que já está a construir.",
     ctaDesc: "Se sua atividade é internacional, sua fiscalidade também deveria ser. E isso requer julgamento, experiência e execução.",
     bookNow: "Agende sua consultoria agora",
-    whatsappMsg: "Olá, vi o porquê escolher a Exentax e estou convencido(a) pela abordagem. Gostaria de explorar se posso otimizar minha fiscalidade com. Podemos conversar?"
+    whatsappMsg: "Olá, vi porque escolher a Exentax e estou convencido(a) pela abordagem. Gostaria de perceber se posso otimizar a minha fiscalidade convosco. Podemos falar?"
   },
   origin: {
     tag: "NOSSA EXPERIÊNCIA",

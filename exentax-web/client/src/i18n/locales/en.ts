@@ -881,12 +881,12 @@ const en = {
     helpfulLinks: "Helpful links"
   },
   hero: {
-    h1: "You're paying more taxes than necessary.",
-    h1Green: "And it doesn't have to be that way.",
+    h1: "You're paying more taxes than you need to.",
+    h1Green: "And it doesn't have to stay that way.",
     subtitle: "Low-cost privacy for solo founders, gold-standard asset protection in Wyoming and a VC-ready Delaware on tap — plus Florida as your gateway into the Latin American market. At Exentax we design legal US LLCs so you scale globally with ITIN, banking and compliance handled end-to-end.",
-    cta: "I want to optimize my taxes",
-    talkToUs: "Talk to us",
-    whatsappMsg: "Hi, I'm interested in optimizing my tax situation. I've seen what you do at Exentax and I'd like to understand if an LLC makes sense for my case. Can we talk?"
+    cta: "Optimize my tax setup",
+    talkToUs: "Talk to an advisor",
+    whatsappMsg: "Hi — I'd like to optimize my tax setup. I saw what you do at Exentax and want to understand whether a US LLC makes sense for my case. Got a minute to talk?"
   },
   heroStats: {
     reductionLabel: "Average tax burden reduction",

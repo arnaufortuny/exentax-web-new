@@ -890,8 +890,8 @@ const ca = {
     h1: "Estàs pagant més impostos dels necessaris.",
     h1Green: "I no ha de ser així.",
     subtitle: "Cost mínim, sense paperasses i amb el blindatge patrimonial dels EUA per a autònoms catalans. Tant si vols aixecar capital VC com obrir un pont català cap al mercat llatí de Miami, a Exentax dissenyem la teva LLC i gestionem ITIN, banca i compliment sense que viatgis als EUA.",
-    cta: "Vull optimitzar la meva fiscalitat",
-    talkToUs: "Parla amb nosaltres",
+    cta: "Optimitzar la meva fiscalitat",
+    talkToUs: "Parlar amb un assessor",
     whatsappMsg: "Hola, m'interessa optimitzar la meva situació fiscal. He vist el que feu a Exentax i m'agradaria entendre si una LLC té sentit per al meu cas. Podem parlar?"
   },
   heroStats: {

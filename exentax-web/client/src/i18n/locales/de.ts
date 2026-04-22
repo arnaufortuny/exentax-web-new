@@ -885,8 +885,8 @@ const de = {
     h1: "Sie zahlen mehr Steuern als nötig.",
     h1Green: "Und das muss nicht so sein.",
     subtitle: "Steueroptimiert für Selbstständige, mit Vermögensschutz nach US-Standard und Rechtssicherheit für Investoren. Ob Wyoming als Schutzschild, Delaware für VC-Runden oder Florida als Tor zum lateinamerikanischen Markt — Exentax gründet Ihre LLC und beantragt Ihren ITIN ganz ohne Botschaftstermin.",
-    cta: "Ich möchte meine Steuern optimieren",
-    talkToUs: "Sprechen Sie mit uns",
+    cta: "Steuern jetzt optimieren",
+    talkToUs: "Mit einem Berater sprechen",
     whatsappMsg: "Hallo, ich möchte meine Steuersituation optimieren. Ich habe gesehen, was ihr bei Exentax macht, und würde gerne verstehen, ob eine LLC für meinen Fall sinnvoll ist. Können wir sprechen?"
   },
   heroStats: {
