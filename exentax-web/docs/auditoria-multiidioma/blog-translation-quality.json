@@ -3,13 +3,8 @@
     {
       "lang": "pt",
       "slug": "amazon-ecommerce-llc-vender-online",
-      "count": 4,
+      "count": 2,
       "issues": [
-        {
-          "id": "pode-se-registrar",
-          "sample": "pode se registrar",
-          "hint": "PT-PT prefere 'pode registar-se' (mesóclise/ênclise)"
-        },
         {
           "id": "mais-grande",
           "sample": "mais grande",
@@ -19,40 +14,6 @@
           "id": "nao-precisa-fazer",
           "sample": "não precisa fazer",
           "hint": "PT-BR; PT-PT 'não precisa de fazer'"
-        },
-        {
-          "id": "registrar-verbo",
-          "sample": "registrar",
-          "hint": "PT-BR; PT-PT 'registar(-se)'"
-        }
-      ]
-    },
-    {
-      "lang": "pt",
-      "slug": "constituir-llc-proceso-paso-a-paso",
-      "count": 2,
-      "issues": [
-        {
-          "id": "pode-se-registrar",
-          "sample": "pode se registrar",
-          "hint": "PT-PT prefere 'pode registar-se' (mesóclise/ênclise)"
-        },
-        {
-          "id": "registrar-verbo",
-          "sample": "registrar",
-          "hint": "PT-BR; PT-PT 'registar(-se)'"
-        }
-      ]
-    },
-    {
-      "lang": "pt",
-      "slug": "empresa-reino-unido-uk-ltd",
-      "count": 1,
-      "issues": [
-        {
-          "id": "registrar-verbo",
-          "sample": "Registrar",
-          "hint": "PT-BR; PT-PT 'registar(-se)'"
         }
       ]
     },
@@ -79,18 +40,6 @@
           "hint": "PT-BR; PT-PT 'não precisa de fazer'"
         }
       ]
-    },
-    {
-      "lang": "pt",
-      "slug": "w8-ben-y-w8-ben-e-guia-completa",
-      "count": 1,
-      "issues": [
-        {
-          "id": "registrar-verbo",
-          "sample": "registrar",
-          "hint": "PT-BR; PT-PT 'registar(-se)'"
-        }
-      ]
     }
   ],
   "duplicates": [
@@ -100,7 +49,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 39,
+          "index": 38,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
         }
       ]
@@ -111,7 +60,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 33,
+          "index": 32,
           "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
         }
       ]
@@ -141,12 +90,8 @@
     {
       "lang": "en",
       "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
-      "count": 5,
+      "count": 4,
       "dups": [
-        {
-          "index": 34,
-          "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
-        },
         {
           "index": 47,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
@@ -171,11 +116,11 @@
       "count": 2,
       "dups": [
         {
-          "index": 44,
+          "index": 43,
           "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
         },
         {
-          "index": 45,
+          "index": 44,
           "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
         }
       ]
@@ -186,7 +131,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 47,
+          "index": 46,
           "sample": "The numbers and the calendar matter - get either wrong and the rest unravels."
         }
       ]
@@ -197,7 +142,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 38,
+          "index": 37,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
         }
       ]
@@ -208,7 +153,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 40,
+          "index": 39,
           "sample": "The numbers and the calendar matter - get either wrong and the rest unravels."
         }
       ]
@@ -219,15 +164,15 @@
       "count": 3,
       "dups": [
         {
-          "index": 43,
+          "index": 42,
           "sample": "The numbers and the calendar matter - get either wrong and the rest unravels."
         },
         {
-          "index": 45,
+          "index": 44,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
         },
         {
-          "index": 48,
+          "index": 47,
           "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
         }
       ]
@@ -238,7 +183,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 36,
+          "index": 35,
           "sample": "Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files"
         }
       ]
@@ -260,11 +205,11 @@
       "count": 2,
       "dups": [
         {
-          "index": 33,
+          "index": 32,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
         },
         {
-          "index": 38,
+          "index": 37,
           "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
         }
       ]
@@ -286,15 +231,15 @@
       "count": 3,
       "dups": [
         {
+          "index": 41,
+          "sample": "Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chif"
+        },
+        {
           "index": 42,
           "sample": "Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chif"
         },
         {
-          "index": 43,
-          "sample": "Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chif"
-        },
-        {
-          "index": 45,
+          "index": 44,
           "sample": "Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui cas"
         }
       ]
@@ -302,15 +247,11 @@
     {
       "lang": "fr",
       "slug": "crs-residentes-espana-latam-implicaciones",
-      "count": 2,
+      "count": 1,
       "dups": [
         {
-          "index": 17,
+          "index": 16,
           "sample": "Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la str"
-        },
-        {
-          "index": 19,
-          "sample": "Notre position ici est délibérément prudente: nous optimisons pour ce qui résiste à un contrôle, pas pour le chiffre le "
         }
       ]
     },
@@ -407,17 +348,6 @@
       "count": 1,
       "dups": [
         {
-          "index": 23,
-          "sample": "Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la str"
-        }
-      ]
-    },
-    {
-      "lang": "fr",
-      "slug": "riesgos-fiscales-mala-estructuracion-internacional",
-      "count": 1,
-      "dups": [
-        {
           "index": 22,
           "sample": "Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la str"
         }
@@ -429,7 +359,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 67,
+          "index": 66,
           "sample": "Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chif"
         }
       ]
@@ -466,11 +396,11 @@
       "count": 2,
       "dups": [
         {
-          "index": 31,
+          "index": 30,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
         },
         {
-          "index": 32,
+          "index": 31,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
         }
       ]
@@ -489,14 +419,10 @@
     {
       "lang": "de",
       "slug": "documentar-separacion-fondos-llc-historial",
-      "count": 3,
+      "count": 2,
       "dups": [
         {
           "index": 7,
-          "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
-        },
-        {
-          "index": 8,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
         },
         {
@@ -553,7 +479,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 30,
+          "index": 29,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
         }
       ]
@@ -586,17 +512,6 @@
     },
     {
       "lang": "de",
-      "slug": "reorganizar-banca-llc-mercury-relay-wise",
-      "count": 1,
-      "dups": [
-        {
-          "index": 12,
-          "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
-        }
-      ]
-    },
-    {
-      "lang": "de",
       "slug": "revolut-business-crs-reporting-fiscal",
       "count": 1,
       "dups": [
@@ -612,7 +527,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 42,
+          "index": 41,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
         }
       ]
@@ -710,14 +625,10 @@
     {
       "lang": "pt",
       "slug": "revolut-business-crs-reporting-fiscal",
-      "count": 2,
+      "count": 1,
       "dups": [
         {
-          "index": 21,
-          "sample": "O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis c"
-        },
-        {
-          "index": 22,
+          "index": 20,
           "sample": "O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis c"
         }
       ]
@@ -728,7 +639,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 66,
+          "index": 65,
           "sample": "Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operaci"
         }
       ]
@@ -750,7 +661,7 @@
       "count": 1,
       "dups": [
         {
-          "index": 41,
+          "index": 40,
           "sample": "Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC tr"
         }
       ]
@@ -830,14 +741,10 @@
     {
       "lang": "ca",
       "slug": "revolut-business-crs-reporting-fiscal",
-      "count": 3,
+      "count": 2,
       "dups": [
         {
-          "index": 20,
-          "sample": "Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd f"
-        },
-        {
-          "index": 21,
+          "index": 19,
           "sample": "Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd f"
         },
         {

@@ -1,9 +1,23 @@
 # AUDIT-REPORT — Exentax Web
 
-**Fecha:** 2026-04-22
+**Fecha:** 2026-04-22 (revisión 2, metodología medir→analizar→actuar estricta)
 **Branch:** `main`
-**Commit base revisado:** `3f39e95` (`Exentax web — snapshot production-ready`)
+**Commit base revisado:** `56e85ec` (post auditoría 1) → HEAD (esta sesión)
 **Autor auditor:** Arnau Fortuny (via Claude Code)
+
+## Fixes adicionales sesión 2 (datos medidos antes/después)
+
+| # | Fix | Antes medido | Después medido | Script |
+|---|---|---|---|---|
+| 1 | FR meta title `cuotas-autonomos-2026-guia-completa` | 60 chars (soft limit 58) | 58 chars | seo:meta |
+| 2 | PT meta title `holding-empresarial-como-funciona` | 60 chars (soft limit 58) | 51 chars | seo:meta |
+| 3 | PT-BR leakage en 3 ficheros (mais grande, não precisa fazer) | 4 hits en 3 ficheros | **0 hits** | blog-translation-quality-audit |
+
+Verificación global post-fix: `tsc exit 0` · `i18n:check PASS` (1552×6) ·
+`seo:meta 0 errors 0 warnings` · `seo:check 0 broken links` · `audit-pt-pt PASS` ·
+`blog-content-lint PASS (670 files)` · `calculator.test 116/116`.
+
+---
 
 ---
 

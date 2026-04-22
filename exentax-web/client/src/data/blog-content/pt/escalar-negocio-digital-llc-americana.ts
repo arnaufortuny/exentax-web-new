@@ -60,7 +60,7 @@ Se seu negócio digital chega ao ponto de precisar de investimento externo, a LL
 
 Sua LLC americana é seu passaporte para mercados que antes estavam fechados:
 
-- **Amazon FBA**: Venda produtos físicos no marketplace mais grande do mundo
+- **Amazon FBA**: Venda produtos físicos no maior marketplace do mundo
 - **Shopify com Stripe US**: Loja online sem restrições geográficas
 - **SaaS global**: Venda assinaturas a clientes de qualquer país
 - **Programas de parceiros**: Muitos programas de afiliados e parceiros só aceitam empresas americanas

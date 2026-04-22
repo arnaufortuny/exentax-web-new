@@ -3,7 +3,7 @@ export default `Vender na Amazon, Shopify ou Etsy a partir de Portugal ou do Bra
 ## Por que uma LLC para ecommerce?
 
 ### Acesso sem restrições à Amazon US
-Amazon Seller Central US é o marketplace mais grande do mundo. Com uma LLC americana, pode se registar como vendedor profissional sem as limitações que têm as contas de vendedores internacionais.
+Amazon Seller Central US é o maior marketplace do mundo. Com uma LLC americana, pode registar-se como vendedor profissional sem as limitações que têm as contas de vendedores internacionais.
 
 ### Conta bancária em dólares
 As plataformas de ecommerce depositam seus ganhos na sua conta bancária. Com uma LLC, recebe os fundos diretamente na Mercury em dólares, sem intermediários, sem retenções e sem conversões forçadas.
@@ -54,7 +54,7 @@ O **nexus** é o conceito que determina se deve cobrar Sales Tax num estado. Des
 - **Physical nexus:** tem inventário, escritório ou presença física num estado. Se usa Amazon FBA, o seu inventário está em armazéns da Amazon em múltiplos estados → tem nexus nesses estados.
 - **Economic nexus:** Supera um limite de vendas num estado (geralmente $100K em vendas ou 200 transações/ano).
 
-**A boa notícia para vendedores FBA:** A Amazon recolhe e remete o Sales Tax automaticamente na maioria dos estados como "marketplace facilitator". não precisa fazer nada. A Amazon cuida de tudo.
+**A boa notícia para vendedores FBA:** A Amazon recolhe e remete o Sales Tax automaticamente na maioria dos estados como "marketplace facilitator". Não precisa de fazer nada. A Amazon cuida de tudo.
 
 **Para a sua própria loja Shopify:** Aqui sim deve configurar a recolha de Sales Tax nos estados onde tenha nexus. Shopify tem integrações com ferramentas como TaxJar ou Avalara que o automatizam.
 ### Inventário e logística: considerações práticas

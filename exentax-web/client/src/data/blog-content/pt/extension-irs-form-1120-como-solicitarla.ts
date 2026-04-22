@@ -61,7 +61,7 @@ A solução mais fácil? Pedir a extensão. É gratuita, é automática e dá 6 
 **Sim.** Não há limite. pode apresentar o Form 7004 todo ano fiscal sem nenhum problema. Na verdade, muitos contadores nos Estados Unidos apresentam extensão para todos os seus clientes como prática padrão. É o mais profissional.
 ### Na Exentax fazemos isso automaticamente
 
-Isso é algo que nos diferencia: **na Exentax apresentamos o Form 7004 automaticamente para todos os nossos clientes de manutenção anual.** não precisa pedir, não precisa lembrar, não precisa fazer nada.
+Isso é algo que nos diferencia: **na Exentax apresentamos o Form 7004 automaticamente para todos os nossos clientes de manutenção anual.** Não precisa de pedir, não precisa de se lembrar, não precisa de fazer nada.
 
 Antes de 15 de abril, garantimos que a sua extensão esteja apresentada. Depois, com calma e sem pressa, preparamos o seu Form 1120 e Form 5472 com toda a documentação em ordem. Assim trabalhamos, sem surpresas nem urgências de última hora.
 

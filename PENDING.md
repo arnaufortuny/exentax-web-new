@@ -1,13 +1,57 @@
 # PENDING — Exentax Web
 
 Lista priorizada de trabajo que quedó fuera de esta sesión de auditoría.
-Fecha: 2026-04-22. Actualiza este documento al cerrar cada ítem.
+Fecha: 2026-04-22 (actualizado con mediciones reales de scripts oficiales).
+Actualiza este documento al cerrar cada ítem.
 
 ---
 
 ## 🔴 Alta prioridad
 
-### 1. Revisión de traducciones profesional por nativos (EN/FR/DE/PT/CA)
+### 0. Artículos de blog con traducción cortada (ratio palabras <70 % vs ES)
+**Esfuerzo estimado:** 10-20 min por artículo × 43 casos = **10-15 h de escritura**.
+**Bloqueante producción:** no · **Impacto SEO y conversión:** alto (contenido truncado penaliza ranking).
+
+Medido con script que cuenta palabras del `body` de cada `client/src/data/blog-content/<lang>/*.ts`
+y compara con ES. 43 casos donde la traducción tiene **<70 %** de las palabras del ES:
+
+| Ratio | # |
+|---|---|
+| 0.49 – 0.55 | 10 casos (traducciones severamente cortadas) |
+| 0.56 – 0.65 | 18 casos |
+| 0.66 – 0.69 | 15 casos |
+
+Muestra de los 10 más graves (ratio ≤ 0.55):
+
+| Slug | Idioma | Palabras | ES | Ratio |
+|---|---|---|---|---|
+| `riesgos-fiscales-mala-estructuracion-internacional` | pt | 1311 | 2659 | 0.49 |
+| `riesgos-fiscales-mala-estructuracion-internacional` | ca | 1334 | 2659 | 0.50 |
+| `wise-business-crs-reporting-fiscal` | de | 1243 | 2470 | 0.50 |
+| `wise-business-crs-reporting-fiscal` | pt | 1245 | 2470 | 0.50 |
+| `dac7-plataformas-digitales-reporting-2026` | pt | 1615 | 3144 | 0.51 |
+| `dac7-plataformas-digitales-reporting-2026` | de | 1648 | 3144 | 0.52 |
+| `riesgos-fiscales-mala-estructuracion-internacional` | de | 1409 | 2659 | 0.53 |
+| `dac7-plataformas-digitales-reporting-2026` | ca | 1660 | 3144 | 0.53 |
+| `tributacion-llc-segun-actividad-economica` | de | 1185 | 2252 | 0.53 |
+| `tributacion-llc-segun-actividad-economica` | pt | 1203 | 2252 | 0.53 |
+
+Lista completa regenerable con:
+```bash
+cd exentax-web && node -e '/* snippet wc en docs/auditoria-multiidioma */'
+```
+
+### 1. Párrafos consecutivos duplicados en blog (93 en 52 ficheros)
+**Esfuerzo estimado:** 2-4 h · **Bloqueante producción:** no (el propio script está marcado
+como REPORT-ONLY por Task #52 y documenta que es deuda editorial de Task #35).
+
+Detalle exacto del script: 93 ocurrencias en 52 ficheros. Peor caso:
+`fr/exit-tax-espana-llc-cripto-interactive-brokers` con **7 duplicados**.
+Reporte completo en `docs/auditoria-multiidioma/blog-translation-quality.md`.
+
+Criterio de cierre: reducir a 0 ocurrencias (el script ya existe y re-corre).
+
+### 2. Revisión de traducciones profesional por nativos (EN/FR/DE/PT/CA)
 **Esfuerzo estimado:** 20-40 h por idioma · **Bloqueante producción:** no · **Impacto conversión:** alto.
 
 La cobertura i18n es del 100 % (1552 claves × 6 idiomas, sin placeholders rotos),
