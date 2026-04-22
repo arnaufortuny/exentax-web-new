@@ -148,8 +148,6 @@ Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme 
 
 ### Report conditionnel en cas de transfert hors UE/EEE
 
-Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent — se tromper sur l'un ou l'autre fait s'effondrer le reste.
-
 ### Cas 1: Vous avez une LLC avec activité réelle et votre portefeuille est chez IBKR
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
@@ -160,11 +158,7 @@ Note de terrain après avoir piloté cela mois après mois pour des clients: la 
 
 ### Cas 3: Investissement personnel direct en crypto (sans LLC)
 
-Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
-
 ### Cas 4: Portefeuille mixte (actions IBKR + participation LLC + crypto)
-
-Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### 1. Se transférer dans l'UE ou l'EEE
 
@@ -176,15 +170,11 @@ C'est l'un des points que nous auditons en premier lorsque nous reprenons un dos
 
 ### 3. Conserver le portefeuille au sein de la LLC avant de transférer la crypto vers une autre structure
 
-C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
-
 ### 4. Planifier le moment du changement de résidence
 
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### 5. Tirer parti de la règle de retour si le transfert est temporaire
-
-Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### Erreur 1: Croire que la crypto personnelle est soumise à l'exit tax
 
@@ -195,8 +185,6 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
 ### Erreur 3: Ne pas demander le report en cas de transfert hors UE/EEE
-
-C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
 ### Erreur 4: Confondre perte de résidence fiscale et radiation du registre municipal
 
@@ -211,8 +199,6 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### Les cryptomonnaies sont-elles imposées au titre de l'Exit Tax?
-
-C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
 ### Si je pars au Portugal, dois-je payer l'Exit Tax?
 

@@ -139,11 +139,7 @@ Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos ne
 
 ### Passo 1. Ler o e-mail com calma e em detalhe
 
-Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos neste ponto vem de saltar a documentação, não da lógica fiscal subjacente.
-
 ### Passo 2. Reunir o seu pacote atual
-
-Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
 
 ### Passo 3. Preparar a descrição do negócio numa página
 

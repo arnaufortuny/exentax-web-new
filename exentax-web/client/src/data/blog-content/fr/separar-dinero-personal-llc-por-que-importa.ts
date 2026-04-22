@@ -293,8 +293,6 @@ C'est l'un des points que nous auditons en premier lorsque nous reprenons un dos
 
 ### Wallester: cartes corporate avec contrôle granulaire
 
-Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
-
 ### Revolut Business: opérationnel multi-devises
 
 Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.

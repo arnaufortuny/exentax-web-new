@@ -111,6 +111,49 @@ cercano-técnico-persuasivo de Exentax.
 
 ---
 
+## 6b. Patrones PT-BR vs PT-PT (descubiertos en sesión 2026-04)
+
+El lint `scripts/audit-pt-pt.mjs` bloquea una lista concreta de brasileñismos
+pero **no captura todo**. Patrones adicionales que debe vigilar el revisor:
+
+| BR-style (prohibido) | PT-PT (correcto) | Dónde apareció |
+|---|---|---|
+| `conosco` | `connosco` (doble N) | `footer.companyLinks.talk`, `booking.whatsappConfirmCta`, varios CTAs |
+| `Nossos serviço` (sin artículo) | `Os nossos serviços` | Páginas de servicios |
+| `minha fiscalidade` (sin artículo) | `a minha fiscalidade` | CTAs y WhatsApp msgs |
+| `meu património` | `o meu património` | FAQs, heroes |
+| `precisa fazer X` | `precisa de fazer X` | Transactional content |
+| `até a X` | `até à X` (preposição contraída) | Geographical references |
+| `tiramos o ITIN` | `tratamos do ITIN` | Service descriptions |
+| `Fale conosco` (BR) | `Fale connosco` / `Falar connosco` | CTAs |
+| `... situação. receberá...` | `... situação. Receberá...` (capital tras punto) | Emails/booking confirmations |
+| `Quero otimizar minha X` | `Otimizar a minha X` (infinitivo + artigo) | CTAs |
+| `para si começar` (odd) | `para começar a operar` | FAQs |
+| `pode se registar` (ênclise BR) | `pode registar-se` (ênclise PT-PT) | Transactional content |
+
+Todos estos patrones se aplicaron en la sesión de limpieza lingüística
+de 2026-04 (commits `08b5d9f` y `8a63855`). Cuando se añada contenido
+nuevo PT, revisar contra esta tabla **antes** de ejecutar `npm run check`.
+
+## 6c. Patrones de calcos en CTAs (los 5 idiomas no-ES)
+
+El copywriting publicitario moderno usa **infinitivo o imperativo**, nunca
+declarativo en primera persona. El calco del ES "Quiero X" es la trampa
+más frecuente en CTAs traducidos por IA:
+
+| Idioma | Calco (prohibido) | Natural (correcto) |
+|---|---|---|
+| EN | `I want to optimize my taxes` | `Optimize my tax setup` |
+| EN | `I want to structure my business` | `Structure my business` |
+| FR | `Je veux optimiser ma fiscalité` | `Optimiser ma fiscalité` |
+| DE | `Ich möchte meine Steuern optimieren` | `Steuern jetzt optimieren` |
+| DE | `Ich möchte mein Unternehmen strukturieren` | `Unternehmen strukturieren` |
+| PT | `Quero otimizar minha fiscalidade` | `Otimizar a minha fiscalidade` |
+| CA | `Vull optimitzar la meva fiscalitat` | `Optimitzar la meva fiscalitat` |
+
+Regla nemotécnica: si la cadena empieza con el equivalente de "Yo quiero…" / "I want to…",
+está mal. Cambiar a infinitivo o imperativo.
+
 ## 7. Checklist del revisor nativo
 
 Antes de aprobar una locale:

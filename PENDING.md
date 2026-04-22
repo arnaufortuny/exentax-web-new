@@ -41,15 +41,11 @@ Lista completa regenerable con:
 cd exentax-web && node -e '/* snippet wc en docs/auditoria-multiidioma */'
 ```
 
-### 1. Párrafos consecutivos duplicados en blog (93 en 52 ficheros)
-**Esfuerzo estimado:** 2-4 h · **Bloqueante producción:** no (el propio script está marcado
-como REPORT-ONLY por Task #52 y documenta que es deuda editorial de Task #35).
-
-Detalle exacto del script: 93 ocurrencias en 52 ficheros. Peor caso:
-`fr/exit-tax-espana-llc-cripto-interactive-brokers` con **7 duplicados**.
-Reporte completo en `docs/auditoria-multiidioma/blog-translation-quality.md`.
-
-Criterio de cierre: reducir a 0 ocurrencias (el script ya existe y re-corre).
+### 1. Párrafos consecutivos duplicados en blog ~~(93 en 52 ficheros)~~ **CERRADO**
+**Resuelto en commit `8a63855` y continuación.** Script
+`scripts/dedup-consecutive-paragraphs.mjs` con lógica CTA-buffer-aware
+eliminó los 93 duplicados en 2 pasadas. Estado final: **0 dups en 0 ficheros**.
+Re-ejecutable si reaparecen (idempotente, no-op sobre ficheros limpios).
 
 ### 2. Revisión de traducciones profesional por nativos (EN/FR/DE/PT/CA)
 **Esfuerzo estimado:** 20-40 h por idioma · **Bloqueante producción:** no · **Impacto conversión:** alto.

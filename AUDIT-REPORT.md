@@ -12,7 +12,7 @@
 | 1 | FR meta title `cuotas-autonomos-2026-guia-completa` | 60 chars (soft limit 58) | 58 chars | seo:meta |
 | 2 | PT meta title `holding-empresarial-como-funciona` | 60 chars (soft limit 58) | 51 chars | seo:meta |
 | 3 | PT-BR leakage en 3 ficheros (mais grande, não precisa fazer) | 4 hits en 3 ficheros | **0 hits** | blog-translation-quality-audit |
-| 4 | **Párrafos duplicados consecutivos en blog** (automático) | **93 dups en 52 ficheros** | **31 dups en 12 ficheros** | blog-translation-quality-audit |
+| 4 | **Párrafos duplicados consecutivos en blog** (automático, 2 pasadas) | **93 dups en 52 ficheros** | **0 dups en 0 ficheros** | blog-translation-quality-audit |
 | 5 | EN hero calcos/imperativos CTA | `I want to optimize my taxes` + `Talk to us` | `Optimize my tax setup` + `Talk to an advisor` | revisión manual con criterio |
 | 6 | FR hero calcos/CTA imperativo | `Je veux optimiser ma fiscalité` + calco `Et ça n'a pas à être comme ça` | `Optimiser ma fiscalité` + `Et ça peut changer dès maintenant` | revisión manual |
 | 7 | DE hero CTA calco | `Ich möchte meine Steuern optimieren` + `Sprechen Sie mit uns` | `Steuern jetzt optimieren` + `Mit einem Berater sprechen` | revisión manual |
@@ -20,10 +20,11 @@
 | 9 | CA hero CTA calco | `Vull optimitzar la meva fiscalitat` + `Parla amb nosaltres` | `Optimitzar la meva fiscalitat` + `Parlar amb un assessor` | revisión manual |
 
 **Dedup automatizado**: creado `exentax-web/scripts/dedup-consecutive-paragraphs.mjs`.
-Mirror exacto de la lógica del audit. Elimina párrafos ≥60 chars que aparecen
-consecutivos. 12 ficheros revertidos tras el dedup por causar regresión en
-`blog-cta-position-check` (glued_to_heading_above). Reducción neta: **-62 dups
-(-67 %) con 0 regresiones**.
+1ª pasada: mirror exacto del audit — removió 62/93 pero causó regresiones en
+12 ficheros donde el dup servía de buffer entre heading y CTA marker. 2ª pasada:
+script ampliado con **CTA-buffer-aware logic** (look-ahead a CTA markers; si el
+dup a dropear es el buffer del CTA, se dropea la instancia anterior en su lugar).
+Resultado: **93 dups → 0** con **0 regresiones** en `blog-cta-position-check`.
 
 Verificación global post-fix: `tsc exit 0` · `i18n:check PASS` (1552×6, 0 placeholder
 mismatches, 0 phantom keys) · `seo:meta 0 errors 0 warnings` · `seo:check 0 broken

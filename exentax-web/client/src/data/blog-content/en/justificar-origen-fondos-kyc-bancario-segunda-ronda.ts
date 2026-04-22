@@ -182,8 +182,6 @@ Field note from running this for clients month after month: the rule is straight
 
 ### Step 2. Compile your current package
 
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
-
 ### Step 3. Prepare a one-page business description
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.

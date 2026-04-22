@@ -139,11 +139,7 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 
 ### Schritt 1. Die E-Mail in Ruhe und im Detail lesen
 
-Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
-
 ### Schritt 2. Ihr aktuelles Paket zusammenstellen
-
-Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen - wer eines davon falsch setzt, bringt den Rest ins Wanken.
 
 ### Schritt 3. Eine einseitige Geschäftsbeschreibung vorbereiten
 

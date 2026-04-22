@@ -54,8 +54,6 @@ Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a h
 **Posem números al teu cas.** Reserva 30 minuts i veiem si «Riscos fiscals d'una mala estructuració internacional: simulació, TFI i residència» encaixa amb la teva situació real.
 ## Referències: marc legal i normativa
 
-Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
-
 ## El teu pròxim pas amb Exentax
 
 Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.

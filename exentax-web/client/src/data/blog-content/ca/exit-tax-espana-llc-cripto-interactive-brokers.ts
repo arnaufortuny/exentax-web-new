@@ -102,8 +102,6 @@ El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta
 
 ## Base legal: art. 95 bis LIRPF en detall
 
-El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
-
 ### Supòsits d'aplicació
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
@@ -148,8 +146,6 @@ Apunt concret dels nostres expedients: així passa de debò, no com ho descriu u
 
 ### Ajornament condicionat per trasllat fora de la UE/EEE
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen — fallar en un fa desmuntar la resta.
-
 ### Cas 1: Tens una LLC amb activitat real i la teva cartera d'inversió és a IBKR
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
@@ -163,8 +159,6 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 ### Cas 4: Portfoli mixt (accions a IBKR + participació en LLC + cripto)
-
-Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 ### 1. Traslladar-se a la UE o a l'EEE
 
@@ -180,15 +174,11 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 
 ### 4. Planificar el moment del canvi de residència
 
-Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
-
 ### 5. Aprofitar la regla del retorn si el trasllat és temporal
 
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
 
 ### Error 1: Creure que la cripto personal està subjecta a l'exit tax
-
-Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
 
 ### Error 2: Ignorar els llindars i suposar que el 95 bis sempre s'aplica
 
@@ -200,8 +190,6 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 ### Error 4: Confondre la pèrdua de residència amb l'abandonament del padró
 
-Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
-
 ### Error 5: No planificar amb prou antelació
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
@@ -211,8 +199,6 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
 
 ### Les criptomonedes tributen per l'Exit Tax?
-
-Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
 
 ### Si me'n vaig a Portugal, he de pagar l'Exit Tax?
 

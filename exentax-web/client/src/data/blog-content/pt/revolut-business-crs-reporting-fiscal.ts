@@ -77,8 +77,6 @@ Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo d
 
 ## Referências: fontes e regulamentação bancária
 
-O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
-
 ## O seu próximo passo com a Exentax
 
 O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.

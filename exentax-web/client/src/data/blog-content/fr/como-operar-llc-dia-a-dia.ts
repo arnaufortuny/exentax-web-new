@@ -204,15 +204,9 @@ Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme 
 
 ### Wallester: cartes corporate pour les dépenses du quotidien
 
-Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
-
 ### Revolut Business: complément multi-devises
 
-Constat tiré de nos dossiers: voilà comment cela se passe vraiment, pas comme une page commerciale le présente. Les chiffres et le calendrier comptent - se tromper sur l'un ou l'autre fait s'effondrer le reste.
-
 ### Stripe, PayPal et plus: pour encaisser auprès des clients
-
-Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### Comment facturer avec votre LLC
 

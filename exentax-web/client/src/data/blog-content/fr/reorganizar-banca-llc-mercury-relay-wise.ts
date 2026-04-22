@@ -81,8 +81,6 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.
 ## Faits juridiques et de procédure
 
-Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
-
 ## Références: sources et réglementation bancaire
 
 Lisez cette section comme une checklist exigeante: chaque point signale un mode de défaillance que nous avons constaté sur des dossiers LLC transfrontaliers. N'en sautez aucun - la plupart des redressements et clôtures de comptes que nous récupérons remontent à l'un de ces éléments.
@@ -106,8 +104,6 @@ Notre position ici est délibérément prudente: nous optimisons pour ce qui ré
 Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### Étape 1. Ouvrir le nouveau compte sans toucher à l'actuel
-
-Note de terrain après avoir piloté cela mois après mois pour des clients: la règle est simple, c'est l'exécution qui casse. Planifiez l'opérationnel avant le juridique.
 
 ### Étape 2. Effectuer un test fonctionnel avec un petit mouvement
 

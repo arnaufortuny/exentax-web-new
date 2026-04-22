@@ -68,8 +68,6 @@ Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" r
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
 ## Wie wir es bei Exentax angehen
 
-Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
-
 ## Bank- und Steuerfakten, die es zu präzisieren gilt
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
@@ -116,8 +114,6 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
 
 ### Schritt 2. Vollständige Kontoauszüge zusammentragen
-
-Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
 
 ### Schritt 3. Jede Transaktion klassifizieren
 
