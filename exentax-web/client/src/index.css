@@ -1091,7 +1091,7 @@ a, button {
 
 /* ── Dark mode overrides ─────────────────────────────────── */
 
-/* Navbar glass — white border in dark mode (not green) */
+/* Navbar glass — white border (navbar siempre usa glass claro) */
 
 /* ── Focus styles ────────────────────────────────────────────
    Single source of truth: an outline-based ring that follows the
@@ -1559,7 +1559,7 @@ input[type="range"]::-moz-range-thumb {
   -webkit-backdrop-filter: blur(28px) saturate(1.6) !important;
 }
 
-/* 8 — Quitar fondo bg-1 en secciones para no romper aurora dark */
+/* 8 — Quitar fondo bg-1 en secciones para no romper aurora */
 
 /* === Hero floating glass cards === */
 @keyframes hero-float-a {
@@ -1735,7 +1735,7 @@ section#para-quien .reveal.max-w-3xl .flex.flex-wrap {
 [class*="section-number"],
 [class*="step-index-mono"] { display: none !important; }
 
-/* 4) Unify all card styles to the liquid-glass neon look in dark mode */
+/* 4) Unify all card styles to the liquid-glass neon look */
 
 /* 5) Section spacing — tighter, centered rhythm */
 .section-padding {
@@ -1986,28 +1986,6 @@ a[class*="rounded-2xl"][class*="btn-primary"] {
   text-decoration-color: currentColor;
 }
 
-/* Dark mode mirror */
-.dark .blog-content .article-sources {
-  border-color: rgba(255, 255, 255, 0.08);
-  background:
-    linear-gradient(180deg, rgba(0, 229, 16, 0.05) 0%, rgba(255, 255, 255, 0.0) 60%),
-    rgba(20, 24, 22, 0.45);
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.06) inset,
-    0 18px 40px -24px rgba(0, 0, 0, 0.55);
-}
-.dark .blog-content .article-sources::before {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
-}
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .dark .blog-content .article-sources {
-    background: rgba(20, 24, 22, 0.96);
-  }
-}
-.dark .blog-content .article-sources__heading {
-  -webkit-text-stroke: 1px var(--text-1);
-  text-shadow: 0 1px 0 rgba(0, 229, 16, 0.08);
-}
 @media (max-width: 480px) {
   .blog-content .article-sources {
     padding: 1.25rem 1.1rem;

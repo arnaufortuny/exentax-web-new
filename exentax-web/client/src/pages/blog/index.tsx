@@ -384,8 +384,8 @@ export default function BlogIndex() {
               <p className="mb-6 text-[var(--text-3)] text-[13px] font-body text-center" data-testid="text-search-results">
                 {t("blogPost.articlesFound", { count: filteredPosts.length })}
                 {search && <> {t("blogPost.forQuery")} "<span className="text-[var(--text-2)]">{search}</span>"</>}
-                {activeCategory && <> {t("blogPost.inCategory")} <span className="text-[#00B70D] dark:text-[#4DFF5A] font-medium">{t(`blogPost.categories.${activeCategory}`, activeCategory)}</span></>}
-                {activeCountry && <> {t("blogPost.inCountry")} <span className="text-[#00B70D] dark:text-[#4DFF5A] font-medium">{t(`blogPost.countries.${activeCountry}`, activeCountry)}</span></>}
+                {activeCategory && <> {t("blogPost.inCategory")} <span className="text-[#00B70D] font-medium">{t(`blogPost.categories.${activeCategory}`, activeCategory)}</span></>}
+                {activeCountry && <> {t("blogPost.inCountry")} <span className="text-[#00B70D] font-medium">{t(`blogPost.countries.${activeCountry}`, activeCountry)}</span></>}
               </p>
             )}
           </div>

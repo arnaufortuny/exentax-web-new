@@ -25,13 +25,13 @@ export default function Hero() {
 
         <div className="text-center mx-auto" style={{ maxWidth: 980 }}>
           <h1
-            className="display-wise text-black dark:text-white mb-4"
+            className="display-wise text-black mb-4"
             data-testid="heading-hero"
           >
             {t("hero.h1")}
           </h1>
           <p
-            className="font-heading mx-auto mb-7 text-black/85 dark:text-white/85"
+            className="font-heading mx-auto mb-7 text-black/85"
             style={{
               fontSize: "clamp(1rem, 1.4vw, 1.35rem)",
               lineHeight: 1.2,
@@ -47,7 +47,7 @@ export default function Hero() {
           </p>
 
           <p
-            className="font-body text-black/75 dark:text-white/75 mx-auto mb-10"
+            className="font-body text-black/75 mx-auto mb-10"
             style={{ fontSize: "clamp(1rem, 1.4vw, 1.25rem)", lineHeight: 1.55, maxWidth: 660, textWrap: "balance" as never }}
             data-testid="subtitle-hero"
           >
@@ -93,7 +93,7 @@ export default function Hero() {
                     </span>
                   </div>
                 );
-                const cls = !isLast ? "border-r border-white/8 dark:border-white/8" : "";
+                const cls = !isLast ? "border-r border-white/8" : "";
                 return s.href ? (
                   <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" className={`${cls} hover:bg-white/[0.02] transition-colors`}>{inner}</a>
                 ) : (

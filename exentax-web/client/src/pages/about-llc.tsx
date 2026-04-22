@@ -36,16 +36,16 @@ function HeroSection() {
       <section className="relative section-padding" ref={ref}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal">
           <div className="text-center max-w-[800px] mx-auto">
-            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black dark:text-white mb-6">
+            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black mb-6">
               {t("llcUsPage.heroTitle")}{" "}
               <span className="text-[#00E510]">
                 {t("llcUsPage.heroTitleAccent")}
               </span>
             </h1>
-            <p className="text-base lg:text-lg text-black dark:text-white leading-relaxed mb-4 font-medium">
+            <p className="text-base lg:text-lg text-black leading-relaxed mb-4 font-medium">
               {t("llcUsPage.heroSubtitle")}
             </p>
-            <p className="text-base lg:text-lg text-black/90 dark:text-white/80 leading-relaxed mb-10 max-w-[680px] mx-auto">
+            <p className="text-base lg:text-lg text-black/90 leading-relaxed mb-10 max-w-[680px] mx-auto">
               {t("llcUsPage.heroDesc")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -31,14 +31,14 @@ function PreciosHero() {
         <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
           <div className="text-center max-w-[800px] mx-auto">
             <div className="reveal">
-              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black dark:text-white mb-2" data-testid="heading-precios-hero">
+              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid="heading-precios-hero">
                 {t("precios.hero.h1")}
               </h1>
               <p className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] mb-6 text-[#00E510]">
                 {t("precios.hero.h2green")}
               </p>
 
-              <p className="max-w-[680px] text-base lg:text-lg text-black/90 dark:text-white/80 leading-relaxed mb-8 mx-auto" data-testid="subtitle-precios-hero">
+              <p className="max-w-[680px] text-base lg:text-lg text-black/90 leading-relaxed mb-8 mx-auto" data-testid="subtitle-precios-hero">
                 {t("precios.hero.subtitle")}
               </p>
 
@@ -91,7 +91,7 @@ function ServiceSubpagesGrid() {
         <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">
           {t("serviciosPage.subpagesGrid.kicker")}
         </p>
-        <h2 id="services-subpages-heading" className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black dark:text-white" data-testid="heading-services-subpages">
+        <h2 id="services-subpages-heading" className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid="heading-services-subpages">
           {t("serviciosPage.subpagesGrid.h2")}
         </h2>
       </div>
@@ -104,10 +104,10 @@ function ServiceSubpagesGrid() {
             data-testid={`card-services-subpage-${c.tag}`}
           >
             <p className="font-heading text-[11px] tracking-[0.16em] uppercase text-[var(--text-2)] mb-2">{t(`${c.i18n}.cardKicker`)}</p>
-            <h3 className="font-heading font-bold text-[19px] sm:text-[20px] leading-tight text-black dark:text-white mb-2">
+            <h3 className="font-heading font-bold text-[19px] sm:text-[20px] leading-tight text-black mb-2">
               {t(`${c.i18n}.cardTitle`)}
             </h3>
-            <p className="text-[14px] sm:text-[15px] text-black/75 dark:text-white/75 leading-relaxed mb-4">
+            <p className="text-[14px] sm:text-[15px] text-black/75 leading-relaxed mb-4">
               {t(`${c.i18n}.cardDesc`)}
             </p>
             <span className="inline-flex items-center gap-1 font-body font-semibold text-[14px] text-[#00B80D]">

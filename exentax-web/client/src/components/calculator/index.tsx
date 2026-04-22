@@ -513,7 +513,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                             <div className="flex-1 min-w-0">
                               <div className="flex items-center gap-1.5">
                                 <span className="text-[10px] text-[var(--text-2)] truncate">{t(`calculator.expenseLabels.${cat.id}`, { defaultValue: cat.label })}</span>
-                                <span className={`text-[9px] font-bold px-1 py-px rounded ${cat.deductPct === 100 ? "bg-[rgba(var(--green-rgb),0.1)] text-[var(--green)]" : cat.deductPct >= 80 ? "bg-blue-50 dark:bg-blue-950/40 text-blue-600 dark:text-blue-400" : cat.deductPct === 0 ? "bg-red-50 dark:bg-red-950/40 text-red-500" : "bg-[var(--bg-2)] text-[var(--text-3)]"}`}>
+                                <span className={`text-[9px] font-bold px-1 py-px rounded ${cat.deductPct === 100 ? "bg-[rgba(var(--green-rgb),0.1)] text-[var(--green)]" : cat.deductPct >= 80 ? "bg-blue-50 text-blue-600" : cat.deductPct === 0 ? "bg-red-50 text-red-500" : "bg-[var(--bg-2)] text-[var(--text-3)]"}`}>
                                   {cat.deductPct}%
                                 </span>
                               </div>

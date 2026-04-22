@@ -118,13 +118,13 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
             <p className="font-heading text-[12px] sm:text-[13px] tracking-[0.18em] uppercase text-[var(--text-2)] mb-3" data-testid={`kicker-${trackingKey}`}>
               {t(k("hero.kicker"))}
             </p>
-            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,46px)] leading-[1.1] tracking-[-0.025em] text-black dark:text-white mb-2" data-testid={`heading-${trackingKey}-hero`}>
+            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,46px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid={`heading-${trackingKey}-hero`}>
               {t(k("hero.h1"))}
             </h1>
             <p className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[clamp(30px,3vw,40px)] leading-[1.15] tracking-[-0.025em] mb-6 text-[#00E510]">
               {t(k("hero.h1green"))}
             </p>
-            <p className="max-w-[680px] text-base lg:text-lg text-black/90 dark:text-white/80 leading-relaxed mb-8 mx-auto" data-testid={`subtitle-${trackingKey}-hero`}>
+            <p className="max-w-[680px] text-base lg:text-lg text-black/90 leading-relaxed mb-8 mx-auto" data-testid={`subtitle-${trackingKey}-hero`}>
               {t(k("hero.subtitle"))}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-2 justify-center">
@@ -158,11 +158,11 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
           <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">
             {t(k("intro.kicker"))}
           </p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black dark:text-white" data-testid={`heading-${trackingKey}-intro`}>
+          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-intro`}>
             {t(k("intro.h2"))}
           </h2>
         </div>
-        <div className="space-y-4 text-[15px] sm:text-base text-black/85 dark:text-white/80 leading-relaxed">
+        <div className="space-y-4 text-[15px] sm:text-base text-black/85 leading-relaxed">
           {arr<string>("intro.paragraphs").map((p, i) => (
             <p key={i} data-testid={`text-${trackingKey}-intro-${i}`}>{p}</p>
           ))}
@@ -174,7 +174,7 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
         <section className="py-14 sm:py-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black dark:text-white" data-testid={`heading-${trackingKey}-features`}>
+              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-features`}>
                 {t(k("features.h2"))}
               </h2>
             </div>
@@ -185,8 +185,8 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
                   className="glass-card p-6"
                   data-testid={`card-${trackingKey}-feature-${i}`}
                 >
-                  <h3 className="font-heading font-bold text-[17px] sm:text-[18px] mb-2 text-black dark:text-white">{f.title}</h3>
-                  <p className="text-[14px] sm:text-[15px] text-black/75 dark:text-white/75 leading-relaxed">{f.desc}</p>
+                  <h3 className="font-heading font-bold text-[17px] sm:text-[18px] mb-2 text-black">{f.title}</h3>
+                  <p className="text-[14px] sm:text-[15px] text-black/75 leading-relaxed">{f.desc}</p>
                 </div>
               ))}
             </div>
@@ -200,14 +200,14 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {bestFor.length > 0 && (
               <div data-testid={`block-${trackingKey}-bestfor`}>
-                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black dark:text-white mb-6">
+                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black mb-6">
                   {t(k("bestFor.h2"))}
                 </h2>
                 <ul className="space-y-3">
                   {bestFor.map((item, i) => (
                     <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-bestfor-${i}`}>
                       <GreenCheck />
-                      <span className="text-[15px] sm:text-base text-black/85 dark:text-white/80 leading-relaxed">{item}</span>
+                      <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -215,14 +215,14 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
             )}
             {includes.length > 0 && (
               <div data-testid={`block-${trackingKey}-includes`}>
-                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black dark:text-white mb-6">
+                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black mb-6">
                   {t(k("whatsIncluded.h2"))}
                 </h2>
                 <ul className="space-y-3">
                   {includes.map((item, i) => (
                     <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-includes-${i}`}>
                       <GreenCheck />
-                      <span className="text-[15px] sm:text-base text-black/85 dark:text-white/80 leading-relaxed">{item}</span>
+                      <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -240,10 +240,10 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
               <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">
                 {t(k("comparison.kicker"))}
               </p>
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black dark:text-white mb-3" data-testid={`heading-${trackingKey}-comparison`}>
+              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid={`heading-${trackingKey}-comparison`}>
                 {t(k("comparison.h2"))}
               </h2>
-              <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 dark:text-white/75 leading-relaxed">
+              <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">
                 {t(k("comparison.intro"))}
               </p>
             </div>
@@ -261,15 +261,15 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[640px] border-collapse text-left text-[14px] sm:text-[15px]">
                   <thead>
-                    <tr className="bg-[rgba(0,0,0,0.025)] dark:bg-white/[0.03]">
-                      <th className="px-5 py-4 font-heading text-[12px] tracking-[0.12em] uppercase text-black/55 dark:text-white/55 border-b border-[var(--glass-border-strong)]" />
+                    <tr className="bg-[rgba(0,0,0,0.025)]">
+                      <th className="px-5 py-4 font-heading text-[12px] tracking-[0.12em] uppercase text-black/55 border-b border-[var(--glass-border-strong)]" />
                       {cmpColumns.map((col, i) => {
                         const isHl = i === cmpHighlight;
                         return (
                           <th
                             key={i}
                             scope="col"
-                            className={`px-5 py-4 font-heading font-bold text-[15px] sm:text-[16px] border-b border-[var(--glass-border-strong)] ${isHl ? "text-[#00E510] bg-[rgba(0,229,16,0.10)]" : "text-black dark:text-white"}`}
+                            className={`px-5 py-4 font-heading font-bold text-[15px] sm:text-[16px] border-b border-[var(--glass-border-strong)] ${isHl ? "text-[#00E510] bg-[rgba(0,229,16,0.10)]" : "text-black"}`}
                             data-testid={`col-${trackingKey}-comparison-${i}`}
                           >
                             <span className="inline-flex items-center gap-2">
@@ -287,10 +287,10 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
                     {cmpRows.map((row, ri) => {
                       const isLast = ri === cmpRows.length - 1;
                       const cellBorder = isLast ? "" : "border-b border-[var(--glass-border-strong)]";
-                      const zebra = ri % 2 === 1 ? "bg-black/[0.015] dark:bg-white/[0.015]" : "";
+                      const zebra = ri % 2 === 1 ? "bg-black/[0.015]" : "";
                       return (
                         <tr key={ri} className={`align-top ${zebra}`} data-testid={`row-${trackingKey}-comparison-${ri}`}>
-                          <th scope="row" className={`px-5 py-4 font-body font-semibold text-[14px] sm:text-[15px] text-black/85 dark:text-white/85 ${cellBorder}`}>
+                          <th scope="row" className={`px-5 py-4 font-body font-semibold text-[14px] sm:text-[15px] text-black/85 ${cellBorder}`}>
                             {row.label}
                           </th>
                           {row.values.map((val, vi) => {
@@ -303,11 +303,11 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
                                 key={vi}
                                 className={`px-5 py-4 ${cellBorder} ${isHl ? "bg-[rgba(0,229,16,0.08)]" : ""}`}
                               >
-                                <div className={`text-[14px] sm:text-[15px] leading-snug ${isHl ? "font-semibold text-black dark:text-white" : "font-medium text-black/85 dark:text-white/85"}`}>
+                                <div className={`text-[14px] sm:text-[15px] leading-snug ${isHl ? "font-semibold text-black" : "font-medium text-black/85"}`}>
                                   {primary}
                                 </div>
                                 {detail && (
-                                  <div className="mt-1 text-[12px] sm:text-[12.5px] leading-snug text-black/55 dark:text-white/55">
+                                  <div className="mt-1 text-[12px] sm:text-[12.5px] leading-snug text-black/55">
                                     {detail}
                                   </div>
                                 )}
@@ -323,7 +323,7 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
             </div>
             )}
             {cmpNote && (
-              <p className="mt-4 text-[12px] sm:text-[13px] text-black/60 dark:text-white/55 text-center">
+              <p className="mt-4 text-[12px] sm:text-[13px] text-black/60 text-center">
                 {cmpNote}
               </p>
             )}
@@ -336,7 +336,7 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
         <section className="py-14 sm:py-20">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black dark:text-white" data-testid={`heading-${trackingKey}-faq`}>
+              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-faq`}>
                 {t(k("faq.h2"))}
               </h2>
             </div>
@@ -354,10 +354,10 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
 
       {/* CTA */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
-        <h2 className="font-heading font-bold text-[26px] sm:text-3xl lg:text-[36px] leading-tight tracking-[-0.02em] text-black dark:text-white mb-4" data-testid={`heading-${trackingKey}-cta`}>
+        <h2 className="font-heading font-bold text-[26px] sm:text-3xl lg:text-[36px] leading-tight tracking-[-0.02em] text-black mb-4" data-testid={`heading-${trackingKey}-cta`}>
           {t(k("cta.h2"))}
         </h2>
-        <p className="text-[15px] sm:text-base lg:text-lg text-black/80 dark:text-white/75 leading-relaxed max-w-[640px] mx-auto mb-8">
+        <p className="text-[15px] sm:text-base lg:text-lg text-black/80 leading-relaxed max-w-[640px] mx-auto mb-8">
           {t(k("cta.p"))}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -411,14 +411,14 @@ function LlcStateComparator({
         <div
           className={`text-[14px] sm:text-[15px] leading-snug ${
             accent
-              ? "font-semibold text-black dark:text-white"
-              : "font-medium text-black/85 dark:text-white/85"
+              ? "font-semibold text-black"
+              : "font-medium text-black/85"
           }`}
         >
           {primary}
         </div>
         {detail && (
-          <div className="mt-1 text-[12px] sm:text-[12.5px] leading-snug text-black/55 dark:text-white/55">
+          <div className="mt-1 text-[12px] sm:text-[12.5px] leading-snug text-black/55">
             {detail}
           </div>
         )}
@@ -439,10 +439,10 @@ function LlcStateComparator({
       data-testid={`comparator-${trackingKey}-${extraTestId}`}
     >
       <div className="mb-5">
-        <span className="block font-body text-[12px] sm:text-[13px] text-black/55 dark:text-white/55 mb-1">
+        <span className="block font-body text-[12px] sm:text-[13px] text-black/55 mb-1">
           {kicker}
         </span>
-        <span className="font-heading text-[20px] sm:text-[22px] font-bold leading-tight text-black dark:text-white inline-flex items-center gap-2">
+        <span className="font-heading text-[20px] sm:text-[22px] font-bold leading-tight text-black inline-flex items-center gap-2">
           {accent && (
             <span
               aria-hidden="true"
@@ -464,20 +464,20 @@ function LlcStateComparator({
               className="py-3 first:pt-0 last:pb-0"
               data-testid={`comparator-${trackingKey}-${extraTestId}-row-${ri}`}
             >
-              <div className="font-body text-[12.5px] sm:text-[13px] text-black/55 dark:text-white/55 mb-1">
+              <div className="font-body text-[12.5px] sm:text-[13px] text-black/55 mb-1">
                 {row.label}
               </div>
               <div
                 className={`font-body text-[14.5px] sm:text-[15px] leading-snug ${
                   accent
-                    ? "font-semibold text-black dark:text-white"
-                    : "font-medium text-black/85 dark:text-white/85"
+                    ? "font-semibold text-black"
+                    : "font-medium text-black/85"
                 }`}
               >
                 {primary}
               </div>
               {detail && (
-                <div className="mt-1 font-body text-[12.5px] sm:text-[13px] leading-snug text-black/55 dark:text-white/55">
+                <div className="mt-1 font-body text-[12.5px] sm:text-[13px] leading-snug text-black/55">
                   {detail}
                 </div>
               )}
@@ -500,7 +500,7 @@ function LlcStateComparator({
           <span className="font-body text-[12px] sm:text-[13px] text-[#00E510]">
             {youLabel}
           </span>
-          <span className="font-heading text-[18px] sm:text-[20px] font-bold leading-tight text-black dark:text-white inline-flex items-center gap-2">
+          <span className="font-heading text-[18px] sm:text-[20px] font-bold leading-tight text-black inline-flex items-center gap-2">
             <span aria-hidden="true" className="inline-block w-1.5 h-1.5 rounded-full bg-[#00E510] shadow-[0_0_8px_rgba(0,229,16,0.6)]" />
             {columns[fixedIndex]}
           </span>
@@ -509,7 +509,7 @@ function LlcStateComparator({
           className="glass-strong rounded-[var(--radius-lg)] px-5 py-4 flex flex-col gap-2"
           data-testid={`comparator-${trackingKey}-picker`}
         >
-          <span className="font-body text-[12px] sm:text-[13px] text-black/55 dark:text-white/55">
+          <span className="font-body text-[12px] sm:text-[13px] text-black/55">
             {compareLabel}
           </span>
           <div className="flex flex-wrap gap-2" role="tablist" aria-label={compareLabel}>
@@ -524,8 +524,8 @@ function LlcStateComparator({
                   onClick={() => setOtherIndex(i)}
                   className={`font-body text-[13px] sm:text-[14px] font-semibold rounded-full px-4 py-1.5 border transition-colors ${
                     active
-                      ? "bg-[rgba(0,229,16,0.12)] border-[#00E510] text-black dark:text-white"
-                      : "bg-transparent border-[var(--glass-border-strong)] text-black/70 dark:text-white/70 hover:border-[#00E510] hover:text-black dark:hover:text-white"
+                      ? "bg-[rgba(0,229,16,0.12)] border-[#00E510] text-black"
+                      : "bg-transparent border-[var(--glass-border-strong)] text-black/70 hover:border-[#00E510] hover:text-black:text-white"
                   }`}
                   data-testid={`comparator-${trackingKey}-option-${i}`}
                 >

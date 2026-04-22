@@ -369,7 +369,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
           role="menu"
           aria-label={t("nav.menuLabel")}
           style={{ zIndex: 300 }}
-          className={`xl:hidden absolute left-0 right-0 mt-2 bg-[rgba(255,255,255,0.55)] dark:bg-[rgba(18,22,20,0.55)] backdrop-blur-[18px] border border-[var(--glass-border)] rounded-[20px] shadow-[0_12px_40px_rgba(0,0,0,0.10)] overflow-hidden transition-all duration-300 origin-top ${
+          className={`xl:hidden absolute left-0 right-0 mt-2 bg-[rgba(255,255,255,0.55)] backdrop-blur-[18px] border border-[var(--glass-border)] rounded-[20px] shadow-[0_12px_40px_rgba(0,0,0,0.10)] overflow-hidden transition-all duration-300 origin-top ${
             menuOpen
               ? "visible opacity-100 scale-y-100 pointer-events-auto"
               : "invisible opacity-0 scale-y-95 pointer-events-none"

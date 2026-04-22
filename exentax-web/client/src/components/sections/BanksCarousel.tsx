@@ -131,7 +131,7 @@ export default function BanksCarousel() {
               loading="lazy"
               decoding="async"
               fetchPriority="low"
-              className={`${b.height} w-auto object-contain opacity-60 dark:opacity-50 brightness-0 dark:invert`}
+              className={`${b.height} w-auto object-contain opacity-60 brightness-0`}
               data-testid={`img-bank-${b.name.toLowerCase()}`}
             />
           </div>

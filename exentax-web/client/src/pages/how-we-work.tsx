@@ -86,13 +86,13 @@ function ProcessHero() {
         <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
           <div className="text-center max-w-[800px] mx-auto">
             <div className="reveal">
-              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black dark:text-white mb-2" data-testid="heading-at-hero">
+              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid="heading-at-hero">
                 {t("comoFunciona.hero.h1")}
               </h1>
               <p className="font-heading font-bold text-2xl sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] mb-6 text-[#00E510]">
                 {t("comoFunciona.hero.h2")}
               </p>
-              <p className="max-w-[680px] text-base lg:text-lg text-black/90 dark:text-white/80 leading-relaxed mb-8 mx-auto">
+              <p className="max-w-[680px] text-base lg:text-lg text-black/90 leading-relaxed mb-8 mx-auto">
                 {t("comoFunciona.hero.desc")}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">

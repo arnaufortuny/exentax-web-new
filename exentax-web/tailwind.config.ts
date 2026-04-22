@@ -6,7 +6,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default {
-  darkMode: ["class"],
+  // Project uses a single light/cream theme (see AGENT-RULES.md §3).
+  // `darkMode` is not enabled — no `dark:` variant classes should compile
+  // into the bundle. ThemeProvider.tsx forces `light` at mount for safety.
   content: [
     join(__dirname, "client/index.html"),
     join(__dirname, "client/src/**/*.{js,jsx,ts,tsx}"),

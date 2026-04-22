@@ -153,8 +153,8 @@ export default function CalculatorResults({ result, income, country, regime, get
 
       {/* Honesty disclosure when LLC isn't the cheapest */}
       {allStructures && !llcIsBest && (
-        <div className="rounded-xl border border-amber-500/30 bg-amber-50/40 dark:bg-amber-950/20 p-4 mb-5" data-testid="llc-not-best-warning">
-          <p className="font-body text-[12px] font-semibold text-amber-700 dark:text-amber-400 mb-1">
+        <div className="rounded-xl border border-amber-500/30 bg-amber-50/40 p-4 mb-5" data-testid="llc-not-best-warning">
+          <p className="font-body text-[12px] font-semibold text-amber-700 mb-1">
             {t("calculator.llcNotBestHeader", { defaultValue: "En tu escenario, la LLC no es la opción más barata" })}
           </p>
           <p className="font-body text-[11px] text-[var(--text-2)] leading-relaxed">
@@ -222,8 +222,8 @@ export default function CalculatorResults({ result, income, country, regime, get
       </div>
 
       {/* Transparent warnings */}
-      <div className="rounded-xl border border-amber-500/20 bg-amber-50/30 dark:bg-amber-950/10 p-4 mb-5" data-testid="warnings-block">
-        <p className="font-body text-[12px] font-semibold text-amber-700 dark:text-amber-400 mb-2">
+      <div className="rounded-xl border border-amber-500/20 bg-amber-50/30 p-4 mb-5" data-testid="warnings-block">
+        <p className="font-body text-[12px] font-semibold text-amber-700 mb-2">
           {t("calculator.warningsTitle", { defaultValue: "Antes de decidir, ten esto en cuenta" })}
         </p>
         <ul className="space-y-1 text-[11px] text-[var(--text-2)] leading-snug list-disc list-inside">
