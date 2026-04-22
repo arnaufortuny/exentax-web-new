@@ -2191,7 +2191,7 @@ errors: {
     keyMessagesTitle: "Por que Exentax + LLC EUA",
     keyMsg: {
       zeroUS: "0% de imposto federal dos EUA se não opera em território americano (disregarded entity).",
-      noFixed: "Sem mensalidade fixa: ~€2.000 de setup e ~€1.500/ano de manutenção (Registered Agent + Forms 5472/1120).",
+      noFixed: "Sem mensalidade fixa: €2.000 de setup e €1.400/ano de manutenção (Registered Agent + Forms 5472/1120).",
       banking: "Acesso a bancos e gateways de pagamento dos EUA (Mercury, Wise, Stripe, etc.).",
       liability: "Responsabilidade limitada real para a sua atividade digital internacional.",
       noTravel: "Não exige viajar nem ter SSN/ITIN para começar, a Exentax também obtém o ITIN.",

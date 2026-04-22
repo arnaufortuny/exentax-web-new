@@ -2381,7 +2381,7 @@ const es = {
  keyMessagesTitle:"Por qué Exentax + LLC USA",
  keyMsg: {
   zeroUS:"0% federal USA si no operas en territorio estadounidense (disregarded entity).",
-  noFixed:"Sin cuota fija mensual: ~2.000 € de setup y ~1.500 €/año de mantenimiento (Registered Agent + Forms 5472/1120).",
+  noFixed:"Sin cuota fija mensual: 2.000 € de setup y 1.400 €/año de mantenimiento (Registered Agent + Forms 5472/1120).",
   banking:"Acceso a banca y pasarelas USA (Mercury, Wise, Stripe, etc.).",
   liability:"Responsabilidad limitada real para tu actividad digital internacional.",
   noTravel:"No requiere viajar ni tener SSN/ITIN para empezar, Exentax obtiene también el ITIN.",

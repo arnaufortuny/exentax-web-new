@@ -23,3 +23,6 @@ test-results/
 playwright-report/
 blog-test.spec.ts
 seo-meta-report.json
+
+# Regenerable audit artifacts (scripts/audit-markdown-quality.mjs, etc.)
+audits/

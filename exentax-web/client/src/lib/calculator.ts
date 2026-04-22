@@ -146,7 +146,7 @@ export function calcDeductibleTotal(items: ExpenseItem[]): number {
 import {
   PERSONAL_DEDUCTION_ES,
   IRPF_BRACKETS,
-  SS_AUTONOMO_BRACKETS_2025,
+  SS_AUTONOMO_BRACKETS_2026,
   TARIFA_PLANA_MONTHLY_ES,
   SPAIN_DIVIDEND_BRACKETS,
   SPAIN_SOCIEDAD_ADMIN_BASE_MIN,
@@ -277,7 +277,7 @@ function calcSpanishSS(monthlyNetIncome: number, tarifaPlana: boolean = false): 
       bracket: { limit: Infinity, monthly: TARIFA_PLANA_MONTHLY_ES },
     };
   }
-  const bracket = SS_AUTONOMO_BRACKETS_2025.find((b) => monthlyNetIncome <= b.limit) ?? SS_AUTONOMO_BRACKETS_2025[SS_AUTONOMO_BRACKETS_2025.length - 1];
+  const bracket = SS_AUTONOMO_BRACKETS_2026.find((b) => monthlyNetIncome <= b.limit) ?? SS_AUTONOMO_BRACKETS_2026[SS_AUTONOMO_BRACKETS_2026.length - 1];
   return { annual: bracket.monthly * 12, monthly: bracket.monthly, bracket };
 }
 

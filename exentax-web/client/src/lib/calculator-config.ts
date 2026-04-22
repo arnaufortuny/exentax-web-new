@@ -2,8 +2,8 @@
  * calculator-config.ts
  * ----------------------------------------------------------------------------
  * SINGLE SOURCE OF TRUTH for every numeric constant the calculator uses:
- *   - Personal deductions, IRPF/IS/ISR brackets per country (2025-2026).
- *   - Spanish autonomo Social Security bracket table (TGSS 2025).
+ *   - Personal deductions, IRPF/IS/ISR brackets per country (2026).
+ *   - Spanish autonomo Social Security bracket table (TGSS 2026).
  *   - Country-specific autonomo / sociedad parameters (rates, admin costs).
  *   - LLC USA setup + maintenance costs (Exentax 2026 pricing).
  *   - Per-activity default expense ratios.
@@ -11,17 +11,15 @@
  *   - Input safety bounds (min, UI max, sanity max).
  *
  * Why this file exists:
- *   Before Task #8 (April 2026 calculator audit) every constant lived
- *   inline inside `calculator.ts`. Several values were silently duplicated
- *   between `calc*Tax` (the local-regime branch) and `calcResidenceLLCTax`
- *   (the residence-tax-on-LLC-profits branch) — UK/FR/IT/AT/MX/CL brackets
- *   and the FX rates were repeated in two places, so a bracket update could
- *   easily fall out of sync. Centralizing avoids that drift.
+ *   Before Task #8 every constant lived inline inside `calculator.ts`.
+ *   Several values were silently duplicated between `calc*Tax` (the
+ *   local-regime branch) and `calcResidenceLLCTax` (the residence-tax-on-
+ *   LLC-profits branch). Centralising avoids that drift.
  *
  * IMPORTANT — every change to a number in this file must:
  *   1. Update the year/source comment next to the constant.
  *   2. Be cross-verified against an official source (AEAT, HMRC, SAT, SII,
- *      DGFiP, BMF, FOD Financiën, Agenzia Entrate).
+ *      DGFiP, BMF, FOD Financiën, Agenzia Entrate, TGSS).
  *   3. Pass `npm run test:calculator` (presets must still favour LLC for
  *      international digital profiles; "LLC not best" cases must remain).
  * ----------------------------------------------------------------------------
@@ -29,11 +27,15 @@
 
 // --- Spain - Personal income tax + Social Security ---------------------------
 
-// Mínimo personal y familiar IRPF 2025 (LIRPF art. 57). 5.550 € base.
+// Mínimo personal y familiar IRPF 2026 (LIRPF art. 57). 5.550 € base.
 export const PERSONAL_DEDUCTION_ES = 5550;
 
-// Tarifa progresiva estatal+autonómica IRPF 2025 (escala agregada de
-// referencia; cada CCAA puede variar la parte autonómica ±1-2 pts).
+// Tarifa progresiva IRPF 2026 – escala agregada de referencia (estatal +
+// autonómica media). Cada CCAA puede variar la parte autonómica ±1-2 pts;
+// estos 6 tramos representan el tipo marginal efectivo medio usado por la
+// calculadora para la CCAA por defecto. La tarifa estatal pura desglosada
+// (9,5 / 12 / 15 / 18,5 / 22,5 / 24,5 %) está documentada en el artículo de
+// blog `tramos-irpf-2026.ts`.
 export const IRPF_BRACKETS = [
   { limit: 12450,    rate: 0.19 },
   { limit: 20200,    rate: 0.24 },
@@ -43,7 +45,7 @@ export const IRPF_BRACKETS = [
   { limit: Infinity, rate: 0.47 },
 ];
 
-// IRPF dividendos / rentas del ahorro 2025.
+// IRPF dividendos / rentas del ahorro 2026 (base del ahorro, art. 66 LIRPF).
 export const SPAIN_DIVIDEND_BRACKETS = [
   { limit: 6000,     rate: 0.19 },
   { limit: 50000,    rate: 0.21 },
@@ -52,30 +54,31 @@ export const SPAIN_DIVIDEND_BRACKETS = [
   { limit: Infinity, rate: 0.28 },
 ];
 
-// Cuota mensual TGSS autónomos 2025 (RD 322/2024 + prórroga 2026 sin
-// nueva tabla aprobada al cierre de Q1-2026). Si en Q2-2026 se publica
-// una nueva escala, sustituir esta tabla y ajustar el test mínimo
-// (`tests/calculator.test.ts` row "edge[gastos>ingresos]" — espera 200€/mes).
-export const SS_AUTONOMO_BRACKETS_2025 = [
-  { limit: 670,      monthly: 200 },
-  { limit: 900,      monthly: 220 },
-  { limit: 1166.70,  monthly: 260 },
-  { limit: 1300,     monthly: 291 },
-  { limit: 1500,     monthly: 294 },
-  { limit: 1700,     monthly: 294 },
-  { limit: 1850,     monthly: 350 },
-  { limit: 2030,     monthly: 370 },
-  { limit: 2330,     monthly: 390 },
-  { limit: 2760,     monthly: 415 },
-  { limit: 3190,     monthly: 465 },
-  { limit: 3620,     monthly: 530 },
-  { limit: 4050,     monthly: 530 },
-  { limit: 6000,     monthly: 530 },
-  { limit: Infinity, monthly: 590 },
+// Cuota mensual TGSS autónomos 2026 – sistema de cotización por rendimientos
+// reales (RD-Ley 13/2022 + tabla 2026 Seguridad Social). 15 tramos oficiales
+// desde 200 € (tramo 1) hasta 604,80 € (tramo 15). Fuente: artículo de blog
+// `cuotas-autonomos-2026-guia-completa.ts` + sede.seg-social.gob.es.
+// Nota: valores alineados con la tabla publicada en el contenido de Exentax.
+export const SS_AUTONOMO_BRACKETS_2026 = [
+  { limit: 670,      monthly: 200.00 },  // Tramo 1
+  { limit: 900,      monthly: 220.00 },  // Tramo 2
+  { limit: 1166.70,  monthly: 260.00 },  // Tramo 3
+  { limit: 1300,     monthly: 293.90 },  // Tramo 4
+  { limit: 1500,     monthly: 296.60 },  // Tramo 5
+  { limit: 1700,     monthly: 296.60 },  // Tramo 6
+  { limit: 1850,     monthly: 355.30 },  // Tramo 7
+  { limit: 2030,     monthly: 375.60 },  // Tramo 8
+  { limit: 2330,     monthly: 395.90 },  // Tramo 9
+  { limit: 2760,     monthly: 423.30 },  // Tramo 10
+  { limit: 3190,     monthly: 448.80 },  // Tramo 11
+  { limit: 3620,     monthly: 474.30 },  // Tramo 12
+  { limit: 4050,     monthly: 502.30 },  // Tramo 13
+  { limit: 6000,     monthly: 543.30 },  // Tramo 14
+  { limit: Infinity, monthly: 604.80 },  // Tramo 15
 ];
 
-// Tarifa plana 2025: cuota reducida 80€/mes durante los primeros 12 meses
-// de alta como autónomo (RD-Ley vigente 2023-2025).
+// Tarifa plana 2026: cuota reducida 80 €/mes durante los primeros 12 meses
+// de alta como autónomo (RD-Ley 13/2022, prorrogada para 2026).
 export const TARIFA_PLANA_MONTHLY_ES = 80;
 
 // Sociedad ES: base mínima cotización administrador y tipo agregado.

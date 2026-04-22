@@ -231,7 +231,7 @@ for (const c of llcNotBestCases) {
 
 // Row 10 — gastos > ingresos (España autónomo). Acceptance: base
 // imponible se trata como 0, no se produce IRPF negativo, y la cuota de
-// SS respeta el tramo mínimo (`SS_AUTONOMO_BRACKETS_2025[0]` → 200 €/mes
+// SS respeta el tramo mínimo (`SS_AUTONOMO_BRACKETS_2026[0]` → 200 €/mes
 // → 2.400 €/año).
 {
   const huge: ExpenseItem[] = [
@@ -256,7 +256,7 @@ for (const c of llcNotBestCases) {
     !!ssEntry && ssEntry.amount >= 0,
     `ss=${ssEntry?.amount}`,
   );
-  // SS minimum bracket per SS_AUTONOMO_BRACKETS_2025: 200 €/mes → 2.400 €/año.
+  // SS minimum bracket per SS_AUTONOMO_BRACKETS_2026: 200 €/mes → 2.400 €/año.
   record(
     "edge[gastos>ingresos] SS === minimum bracket (200€/mes · 2.400€/año)",
     !!ssEntry && ssEntry.amount === 2400,

@@ -89,6 +89,13 @@ export default function SEO({ title, description, path, keywords, image, jsonLd,
     setMeta('property', 'og:image:type', 'image/png');
 
     setMeta('property', 'og:locale', LOCALE_MAP[currentLang] || 'es_ES');
+    setMultiMeta(
+      'property',
+      'og:locale:alternate',
+      SUPPORTED_LANGS
+        .filter((l) => l !== currentLang)
+        .map((l) => LOCALE_MAP[l] || 'es_ES'),
+    );
     setMeta('property', 'og:site_name', BRAND.NAME);
 
     if (ogType === 'article') {
