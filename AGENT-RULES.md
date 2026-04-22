@@ -87,19 +87,31 @@ Aplicado en:
 
 ### 3. Colores
 
-- Paleta oficial: verde neón `#00E510`, negro `#000000`, grises CSS
-  vars.
+- **Paleta base es tema CLARO/CREMA**, no dark:
+  - Body background: `var(--bg-0) = #F8F7F4` (crema claro).
+  - Paneles/cards: `var(--bg-1) = #F0EEE9`, `var(--bg-2) = #E8E5DF`
+    (cremas escalonados).
+  - Texto principal: `var(--text-1) = #0A0F0C` (casi negro) sobre
+    crema → contraste WCAG AAA.
+  - Verde neón `var(--green) = #00E510` usado como **acento**
+    (CTAs, links, highlights), nunca como fondo dominante.
+  - Footer es la única superficie con fondo negro `var(--bg-dark)`
+    (contraste intencional vs. body crema).
 - **Usar CSS variables** (`var(--green)`, `var(--text-1)`, etc.)
   definidas en `client/src/index.css:102-128`. No hardcodear hexes en
   componentes `.tsx`.
 - Excepciones legítimas:
   - `client/src/main.tsx` ErrorBoundary fallback (debe funcionar si
-    CSS bundle falla).
+    CSS bundle falla) — usa `#F7F6F2` (crema neutro) + `#0F1A14`
+    (casi negro) alineado con el tema.
   - Email templates (`server/email-layout.ts`) — inline colors para
     clientes de email compatibilidad.
   - Colores de marca externa (`#25D366` WhatsApp).
-- `prefers-color-scheme: dark`: el proyecto es **dark permanente**. No
-  implementar light-mode sin aprobación explícita.
+- `prefers-color-scheme: dark`: el proyecto **NO implementa dark mode
+  dinámico**. El tema base es claro y es intencional. Si un elemento
+  usa `dark:` prefix de Tailwind, es legacy y no afecta el render
+  (hasta que se activa el dark mode del documento). No implementar
+  toggle light/dark sin aprobación explícita.
 
 ### 4. Border radius
 
