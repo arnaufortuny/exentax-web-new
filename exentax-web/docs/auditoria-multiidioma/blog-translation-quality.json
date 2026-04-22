@@ -1,47 +1,5 @@
 {
-  "ptBr": [
-    {
-      "lang": "pt",
-      "slug": "amazon-ecommerce-llc-vender-online",
-      "count": 2,
-      "issues": [
-        {
-          "id": "mais-grande",
-          "sample": "mais grande",
-          "hint": "PT-PT usa 'maior'"
-        },
-        {
-          "id": "nao-precisa-fazer",
-          "sample": "não precisa fazer",
-          "hint": "PT-BR; PT-PT 'não precisa de fazer'"
-        }
-      ]
-    },
-    {
-      "lang": "pt",
-      "slug": "escalar-negocio-digital-llc-americana",
-      "count": 1,
-      "issues": [
-        {
-          "id": "mais-grande",
-          "sample": "mais grande",
-          "hint": "PT-PT usa 'maior'"
-        }
-      ]
-    },
-    {
-      "lang": "pt",
-      "slug": "extension-irs-form-1120-como-solicitarla",
-      "count": 1,
-      "issues": [
-        {
-          "id": "nao-precisa-fazer",
-          "sample": "não precisa fazer",
-          "hint": "PT-BR; PT-PT 'não precisa de fazer'"
-        }
-      ]
-    }
-  ],
+  "ptBr": [],
   "duplicates": [
     {
       "lang": "en",
@@ -51,28 +9,6 @@
         {
           "index": 38,
           "sample": "Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underly"
-        }
-      ]
-    },
-    {
-      "lang": "en",
-      "slug": "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad",
-      "count": 1,
-      "dups": [
-        {
-          "index": 32,
-          "sample": "Field note from running this for clients month after month: the rule is straightforward, the execution is where it break"
-        }
-      ]
-    },
-    {
-      "lang": "en",
-      "slug": "crs-residentes-espana-latam-implicaciones",
-      "count": 1,
-      "dups": [
-        {
-          "index": 24,
-          "sample": "We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure"
         }
       ]
     },
@@ -216,17 +152,6 @@
     },
     {
       "lang": "fr",
-      "slug": "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad",
-      "count": 1,
-      "dups": [
-        {
-          "index": 31,
-          "sample": "C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute h"
-        }
-      ]
-    },
-    {
-      "lang": "fr",
       "slug": "como-operar-llc-dia-a-dia",
       "count": 3,
       "dups": [
@@ -344,17 +269,6 @@
     },
     {
       "lang": "fr",
-      "slug": "revolut-business-crs-reporting-fiscal",
-      "count": 1,
-      "dups": [
-        {
-          "index": 22,
-          "sample": "Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la str"
-        }
-      ]
-    },
-    {
-      "lang": "fr",
       "slug": "separar-dinero-personal-llc-por-que-importa",
       "count": 1,
       "dups": [
@@ -378,14 +292,10 @@
     {
       "lang": "de",
       "slug": "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad",
-      "count": 2,
+      "count": 1,
       "dups": [
         {
-          "index": 31,
-          "sample": "Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelag"
-        },
-        {
-          "index": 33,
+          "index": 32,
           "sample": "Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitpla"
         }
       ]
@@ -402,17 +312,6 @@
         {
           "index": 31,
           "sample": "Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzübe"
-        }
-      ]
-    },
-    {
-      "lang": "de",
-      "slug": "crs-residentes-espana-latam-implicaciones",
-      "count": 1,
-      "dups": [
-        {
-          "index": 19,
-          "sample": "Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wisse"
         }
       ]
     },
@@ -512,17 +411,6 @@
     },
     {
       "lang": "de",
-      "slug": "revolut-business-crs-reporting-fiscal",
-      "count": 1,
-      "dups": [
-        {
-          "index": 22,
-          "sample": "Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Str"
-        }
-      ]
-    },
-    {
-      "lang": "de",
       "slug": "wise-bancos-llc-stack-bancaria-completa",
       "count": 1,
       "dups": [
@@ -546,26 +434,11 @@
     {
       "lang": "pt",
       "slug": "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad",
-      "count": 2,
+      "count": 1,
       "dups": [
         {
           "index": 29,
           "sample": "Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operaci"
-        },
-        {
-          "index": 30,
-          "sample": "Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operaci"
-        }
-      ]
-    },
-    {
-      "lang": "pt",
-      "slug": "crs-residentes-espana-latam-implicaciones",
-      "count": 1,
-      "dups": [
-        {
-          "index": 19,
-          "sample": "A nossa posição aqui é deliberadamente conservadora: optimizamos para o que sobrevive a uma inspecção, não para o número"
         }
       ]
     },

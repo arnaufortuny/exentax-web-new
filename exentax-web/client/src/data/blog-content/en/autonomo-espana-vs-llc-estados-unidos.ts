@@ -178,8 +178,6 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 
 ### VAT
 
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
-
 ### Typical outcome
 
 If it is not clean here, every downstream assumption becomes negotiable in front of the authority.

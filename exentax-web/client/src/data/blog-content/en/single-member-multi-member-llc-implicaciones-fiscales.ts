@@ -179,8 +179,6 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 
 ### In the non-resident member's country of residence
 
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
-
 ### For the incoming partner
 
 The numbers and the calendar matter - get either wrong and the rest unravels.
@@ -198,8 +196,6 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
 ### 4. Notification to the IRS
-
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Going%20from%20single-member%20LLC%20to%20multi-member%20LLC%20sounds%20like%20a%20minor%20procedure%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

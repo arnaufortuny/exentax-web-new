@@ -137,8 +137,6 @@ Apunt concret dels nostres expedients: així passa de debò, no com ho descriu u
 
 ### Pas 2. Recuperar els teus documents
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.
-
 ### Pas 3. Designar el nou Registered Agent
 
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.

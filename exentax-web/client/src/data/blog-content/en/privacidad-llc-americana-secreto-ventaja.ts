@@ -172,8 +172,6 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 
 ## Legal and procedural facts
 
-Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
-
 <!-- exentax:execution-v2 -->
 ## Privacy of the American LLC: where it is a real advantage and where it is a myth sold by gurus
 

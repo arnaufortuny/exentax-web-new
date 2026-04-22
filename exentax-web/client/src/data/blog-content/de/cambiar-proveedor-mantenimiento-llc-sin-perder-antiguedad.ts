@@ -143,15 +143,11 @@ Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine
 
 Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelagerte Annahme gegenüber der Behörde verhandelbar.
 
-Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelagerte Annahme gegenüber der Behörde verhandelbar.
-
 ### Schritt 2. Ihre Dokumente zurückholen
 
 Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen - wer eines davon falsch setzt, bringt den Rest ins Wanken.
 
 ### Schritt 3. Den neuen Registered Agent benennen
-
-Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen - wer eines davon falsch setzt, bringt den Rest ins Wanken.
 
 ### Schritt 4. Die IRS-Postanschrift aktualisieren, falls zutreffend
 

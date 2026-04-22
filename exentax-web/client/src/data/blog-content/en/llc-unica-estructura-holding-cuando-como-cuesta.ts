@@ -163,8 +163,6 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 
 ### 2. Asymmetric risk between lines
 
-The numbers and the calendar matter - get either wrong and the rest unravels.
-
 ### 3. Estate planning and inheritance
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.

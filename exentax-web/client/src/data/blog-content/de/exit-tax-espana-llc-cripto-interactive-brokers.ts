@@ -110,8 +110,6 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 
 ### Vermögensschwellen: wann 95 bis greift
 
-Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
-
 ### Welche Vermögenswerte zählen: fällt Ihr Portfolio darunter?
 
 Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen — wer eines davon falsch setzt, bringt den Rest ins Wanken.
@@ -152,8 +150,6 @@ Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist
 
 ### Fall 1: Sie haben eine aktive LLC und Ihr Anlageportfolio liegt bei IBKR
 
-Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelagerte Annahme gegenüber der Behörde verhandelbar.
-
 ### Fall 2: Krypto-Trading über die LLC mit Konto bei Kraken oder Coinbase
 
 Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
@@ -176,11 +172,7 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 
 ### 3. Das Portfolio in der LLC halten, bevor Krypto in eine andere Struktur verschoben wird
 
-Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
-
 ### 4. Den Zeitpunkt des Wohnsitzwechsels planen
-
-Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
 
 ### 5. Die Rückkehrregel nutzen, wenn der Wegzug nur vorübergehend ist
 
@@ -200,11 +192,7 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 
 ### Fehler 4: Verlust der steuerlichen Ansässigkeit mit Abmeldung verwechseln
 
-Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
-
 ### Fehler 5: Nicht mit ausreichend Vorlauf planen
-
-Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
 
 ### Gilt die Exit Tax, wenn ich nur ein Jahr weggehe?
 

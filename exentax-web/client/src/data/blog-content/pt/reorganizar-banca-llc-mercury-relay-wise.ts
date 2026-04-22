@@ -107,8 +107,6 @@ Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos ne
 
 ### Passo 1. Abrir a nova conta sem mexer na atual
 
-Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos neste ponto vem de saltar a documentação, não da lógica fiscal subjacente.
-
 ### Passo 2. Fazer um teste funcional com um movimento pequeno
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.

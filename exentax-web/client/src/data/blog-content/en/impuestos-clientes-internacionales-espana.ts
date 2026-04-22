@@ -188,11 +188,7 @@ Field note from running this for clients month after month: the rule is straight
 
 ### Without optimisation (plain autónomo):
 
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
-
 ### With an optimised LLC structure:
-
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
 ### Option 1: Stay as a Spanish autónomo
 

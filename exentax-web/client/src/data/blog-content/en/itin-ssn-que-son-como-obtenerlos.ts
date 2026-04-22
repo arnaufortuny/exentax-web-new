@@ -200,8 +200,6 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 
 ### Why you need an ITIN if you own an LLC
 
-The numbers and the calendar matter - get either wrong and the rest unravels.
-
 ### Step 1: Prepare Form W-7
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.

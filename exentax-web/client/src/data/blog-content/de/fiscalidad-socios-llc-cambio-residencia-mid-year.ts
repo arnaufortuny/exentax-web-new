@@ -113,8 +113,6 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 
 ## Rechtliche und verfahrenstechnische Fakten
 
-Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
-
 <!-- exentax:execution-v2 -->
 ## Wohnsitzwechsel mitten im Jahr mit einer LLC: was kaum jemand sauber plant
 

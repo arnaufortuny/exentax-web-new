@@ -158,8 +158,6 @@ If it is not clean here, every downstream assumption becomes negotiable in front
 
 ### Step 3. Classify each transaction
 
-If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
-
 ### Step 4. Generate the correct accounting entries
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.

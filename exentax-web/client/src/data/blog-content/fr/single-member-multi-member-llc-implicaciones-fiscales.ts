@@ -139,8 +139,6 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 
 ### Aux États-Unis
 
-Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitables sur ce point précis viennent de l'oubli de la documentation, pas de la logique fiscale sous-jacente.
-
 ### Dans le pays de résidence du membre non-résident
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.

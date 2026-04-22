@@ -148,8 +148,6 @@ Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se n�
 
 ### Diferimento condicionado por transferência para fora da UE/EEE
 
-Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
-
 ### A regra do regresso
 
 Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos neste ponto vem de saltar a documentação, não da lógica fiscal subjacente.
@@ -160,15 +158,11 @@ Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, �
 
 ### Caso 2: Trading de criptomoedas através da LLC com conta na Kraken ou Coinbase
 
-Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.
-
 ### Caso 3: Investimento direto pessoal em cripto (sem LLC)
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam — falhar num deles desfaz o resto.
 
 ### Caso 4: Portefólio misto (acções na IBKR + participação na LLC + cripto)
-
-Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam — falhar num deles desfaz o resto.
 
 ### 1. Mudar para a UE ou para o EEE
 
@@ -200,11 +194,7 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 
 ### Erro 3: Não solicitar o diferimento quando a mudança é para fora da UE/EEE
 
-Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam — falhar num deles desfaz o resto.
-
 ### Erro 4: Confundir a perda de residência com o abandono do registo
-
-Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam — falhar num deles desfaz o resto.
 
 ### Erro 5: Não planear com antecedência suficiente
 

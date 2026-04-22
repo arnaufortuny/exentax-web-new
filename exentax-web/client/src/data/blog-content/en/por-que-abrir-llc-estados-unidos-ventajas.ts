@@ -258,15 +258,11 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 
 ### How does it work?
 
-The numbers and the calendar matter - get either wrong and the rest unravels.
-
 ### Why does privacy matter?
 
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
 ### 2. Legal certainty: real asset protection
-
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
 ### What does it mean in practice?
 
@@ -277,8 +273,6 @@ If it is not clean here, every downstream assumption becomes negotiable in front
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
 ### 3. A solid structure: global professional image
-
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
 ### Image and operational advantages:
 

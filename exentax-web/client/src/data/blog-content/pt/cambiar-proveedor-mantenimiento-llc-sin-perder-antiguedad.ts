@@ -139,10 +139,6 @@ Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, �
 
 ### Como fazemos na Exentax
 
-Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.
-
-Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.
-
 ### Passo 2. Recuperar os seus documentos
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.

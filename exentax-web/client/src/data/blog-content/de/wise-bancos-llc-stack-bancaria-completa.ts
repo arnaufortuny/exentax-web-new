@@ -179,8 +179,6 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 
 ## Rechtliche und verfahrenstechnische Fakten
 
-Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
-
 <!-- exentax:execution-v2 -->
 ## Wise + Banken für LLC: der komplette Banken-Stack für jeden Nichtansässigen
 

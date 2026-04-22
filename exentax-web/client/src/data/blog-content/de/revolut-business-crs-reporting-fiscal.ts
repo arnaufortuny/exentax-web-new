@@ -87,8 +87,6 @@ Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses
 
 Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
 
-Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strategie: ein Fehler hier und der Rest der Struktur verliert Steuern, Bankzugang oder Compliance. Die folgenden Hinweise spiegeln wider, was wir mit Mandanten in genau diesem Fall tatsächlich tun, mit Priorität auf den Variablen, die das Ergebnis bewegen.
-
 ## Welche konkreten Informationen Revolut übermittelt
 
 Unsere Haltung hier ist bewusst konservativ: wir optimieren für das, was eine Prüfung übersteht, nicht für die aggressivste Schlagzahl. Die folgenden Punkte sind diejenigen, die wir schriftlich verteidigen.<!-- exentax:execution-v2 -->

@@ -147,8 +147,6 @@ Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple,
 
 ### 3. Acceptació formal del membre entrant
 
-Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
-
 ### 4. Comunicació a l'IRS
 
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
@@ -158,8 +156,6 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 ### 6. Actualització a la banca i plataformes
-
-Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Passar%20de%20single-member%20LLC%20a%20multi-member%20LLC%20sembla%20un%20tr%C3%A0mit%20menor%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>

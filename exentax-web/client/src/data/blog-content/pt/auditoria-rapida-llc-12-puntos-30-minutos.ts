@@ -131,8 +131,6 @@ Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se n�
 
 ### 8. Conta bancária da LLC sem mistura
 
-Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
-
 ### 9. Residência fiscal correta em cada plataforma
 
 Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.

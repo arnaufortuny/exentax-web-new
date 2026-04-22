@@ -163,8 +163,6 @@ Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple,
 
 ### 2. Risc asimètric entre línies
 
-Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
-
 ### 3. Planificació patrimonial i herència
 
 Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.

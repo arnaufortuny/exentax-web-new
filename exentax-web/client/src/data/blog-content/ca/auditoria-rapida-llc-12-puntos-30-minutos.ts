@@ -123,8 +123,6 @@ Detall pràctic per fixar abans d'actuar. La major part del dany evitable que ve
 
 ### 6. BOI Report presentat i actualitzat
 
-Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
-
 ### 7. Operating Agreement signat i guardat
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
@@ -146,8 +144,6 @@ Apunt concret dels nostres expedients: així passa de debò, no com ho descriu u
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 ### 12. Calendari i proveïdor per al pròxim any
-
-Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.
 
 ## Fets bancaris i fiscals que convé precisar
 

@@ -156,8 +156,6 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
-
 ### Step 3. Appoint the new Registered Agent
 
 If it is not clean here, every downstream assumption becomes negotiable in front of the authority.

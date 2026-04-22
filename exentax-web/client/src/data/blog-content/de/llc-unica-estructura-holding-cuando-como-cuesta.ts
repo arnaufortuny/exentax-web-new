@@ -165,8 +165,6 @@ Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchzi
 
 ### 2. Asymmetrisches Risiko zwischen Geschäftsbereichen
 
-Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
-
 ### 3. Vermögensplanung und Erbschaft
 
 Dies ist einer der Punkte, die wir bei einer Aktenübernahme zuerst prüfen. Ist er hier nicht sauber, wird jede nachgelagerte Annahme gegenüber der Behörde verhandelbar.

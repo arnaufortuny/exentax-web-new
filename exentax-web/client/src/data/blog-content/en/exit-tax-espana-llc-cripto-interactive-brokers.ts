@@ -187,11 +187,7 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 
 ### Case 3: Direct personal investment in crypto (without LLC)
 
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
-
 ### Case 4: Mixed portfolio (IBKR equities + LLC interest + crypto)
-
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
 ### 1. Move to the EU or EEA
 
@@ -207,8 +203,6 @@ The numbers and the calendar matter — get either wrong and the rest unravels.
 
 ### 4. Plan the timing of the residence change
 
-The numbers and the calendar matter — get either wrong and the rest unravels.
-
 ### 5. Leverage the return rule if the move is temporary
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
@@ -218,8 +212,6 @@ Field note from running this for clients month after month: the rule is straight
 Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
 ### Error 2: Ignoring the thresholds and assuming 95 bis always applies
-
-Most of the avoidable damage we see in this exact point comes from skipping the documentation step, not from the underlying tax logic.
 
 ### Error 3: Not requesting deferral when moving outside the EU/EEA
 

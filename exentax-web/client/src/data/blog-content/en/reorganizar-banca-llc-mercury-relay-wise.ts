@@ -134,8 +134,6 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 
 ### Step 1. Open the new account without touching the current one
 
-The numbers and the calendar matter - get either wrong and the rest unravels.
-
 ### Step 2. Run a functional test with a small transaction
 
 Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.

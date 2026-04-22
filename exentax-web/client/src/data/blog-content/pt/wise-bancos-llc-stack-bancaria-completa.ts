@@ -175,8 +175,6 @@ Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo d
 
 ## Factos bancários e fiscais que convém precisar
 
-Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
-
 ## Factos jurídicos e processuais
 
 A nossa posição aqui é deliberadamente conservadora: optimizamos para o que sobrevive a uma inspecção, não para o número mais agressivo. Os pontos abaixo são aqueles que estamos dispostos a defender por escrito.

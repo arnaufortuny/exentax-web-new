@@ -293,8 +293,6 @@ Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, �
 
 ### Slash: rendimento sobre capital ocioso
 
-Nota de campo de quem corre isto mês a mês com clientes: a regra é simples, é na execução que rebenta. Planeie o operacional antes do jurídico.
-
 ### Wallester: cartões corporativos com controlo granular
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.
