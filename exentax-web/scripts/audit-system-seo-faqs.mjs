@@ -1079,16 +1079,36 @@ const seo = { generatedAt: new Date().toISOString(), summary: {}, pages: [], iss
     }
   }
 
-  // Robots.txt sanity
-  if (robotsParsed.userAgents.length === 0) {
+  // Robots.txt sanity. Three mutually-exclusive cases:
+  //   1. Live server not reachable → skip (would be a false-positive in
+  //      sandbox / CI without a dev server). Audit reports `robotsAudit.fetched=false`
+  //      in the rollup for traceability, but no issue is emitted.
+  //   2. Live server reachable but /robots.txt returns !ok → P0
+  //      `robots-unreachable` (real regression: handler crashed, redirect
+  //      loop, missing registration in `server/routes/public.ts:1312`).
+  //   3. /robots.txt returns 200 but body has 0 parseable User-agent → P0
+  //      `robots-empty` (real regression: handler served a truncated or
+  //      malformed body).
+  // The previous version of this block fired case 3 indiscriminately
+  // whenever the server was down, flooding the report with a P0 false
+  // positive on every sandbox run.
+  if (liveAvailable && !liveRobots?.ok) {
     seo.issues.push(makeIssue({
-      criticality: "P0", area: "robots-empty", location: "/robots.txt",
-      description: "robots.txt vacío o no accesible",
+      criticality: "P0", area: "robots-unreachable", location: "/robots.txt",
+      description: `Live server reachable pero /robots.txt no responde 2xx/3xx (status=${liveRobots?.status ?? "n/a"})`,
       evidence: JSON.stringify({ ok: liveRobots?.ok, status: liveRobots?.status }),
-      suggestion: "Verificar handler en server/routes/public.ts",
+      suggestion: "Verificar handler `app.get('/robots.txt', ...)` en server/routes/public.ts:1312 y middleware upstream.",
       languages: ALL_LANGS,
     }));
-  } else {
+  } else if (liveAvailable && liveRobots?.ok && robotsParsed.userAgents.length === 0) {
+    seo.issues.push(makeIssue({
+      criticality: "P0", area: "robots-empty", location: "/robots.txt",
+      description: "robots.txt servido pero vacío (sin User-agent parseable)",
+      evidence: JSON.stringify({ ok: liveRobots?.ok, status: liveRobots?.status, bodyLen: liveRobots?.body?.length ?? 0 }),
+      suggestion: "Verificar handler en server/routes/public.ts:1312 (robotsCache build).",
+      languages: ALL_LANGS,
+    }));
+  } else if (robotsParsed.userAgents.length > 0) {
     const expectedSitemaps = ["/sitemap.xml", "/sitemap-pages.xml", "/sitemap-blog.xml", "/sitemap-faq.xml"];
     const declared = robotsParsed.sitemaps.map(s => { try { return new URL(s).pathname; } catch { return s; } });
     for (const e of expectedSitemaps) {
