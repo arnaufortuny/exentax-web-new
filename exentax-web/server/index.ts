@@ -78,7 +78,16 @@ app.use(helmet({
       workerSrc: ["'self'", "blob:"],
       baseUri: ["'self'"],
       formAction: ["'self'"],
-      scriptSrcAttr: ["'unsafe-inline'"],
+      // scriptSrcAttr controls inline HTML event handlers (onclick=, onerror=,
+      // onload=, ...). The codebase does NOT use any — React uses camelCase
+      // onClick compiled to JS, and all HTML injection (dangerouslySetInnerHTML)
+      // goes through client/src/lib/sanitize.ts (DOMPurify) which strips
+      // handler attributes by default. Verified 2026-04 with
+      // `grep -rnE 'onclick=|onerror=|onload=' client/src/` → 0 matches.
+      // So `'none'` in production is strictly safer than `'unsafe-inline'`
+      // and does not regress any feature. Dev keeps `'unsafe-inline'` so
+      // browser extensions / React devtools aren't blocked.
+      scriptSrcAttr: isProd ? ["'none'"] : ["'unsafe-inline'"],
       ...(isProd ? { upgradeInsecureRequests: [] } : {}),
     },
   },

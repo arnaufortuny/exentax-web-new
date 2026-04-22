@@ -183,6 +183,9 @@ export default function PhoneInput({
           type="button"
           onClick={() => setOpen(!open)}
           data-testid={`${testId}-prefix`}
+          aria-label={`Select country code (current: ${selected.label} ${selected.prefix})`}
+          aria-haspopup="listbox"
+          aria-expanded={open}
           className={`flex items-center gap-1.5 px-3 border-r border-[var(--border)] bg-transparent cursor-pointer flex-shrink-0 hover:bg-[var(--bg-2)] transition-colors ${padY}`}
         >
           <img

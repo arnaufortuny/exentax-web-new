@@ -36,7 +36,16 @@ export default defineConfig({
     chunkSizeWarningLimit: 3000,
     rollupOptions: {
       output: {
-        experimentalMinChunkSize: 0,
+        // 20_000 bytes (20 kB) as a conservative minimum. Rollup's default
+        // is 1 byte (basically disabled); 0 is our previous value, which
+        // produced 725+ JS chunks after the per-article blog split — each
+        // chunk carries HTTP request overhead that outweighs the benefit of
+        // fine-grained caching once the page needs more than a handful.
+        // 20 kB keeps the blog split (chunks are already ≥ 20 kB each) but
+        // collapses the small tail of sub-2kB fragments that currently
+        // pollute the waterfall. Tune via measurement on the resulting
+        // `dist/public/assets/` file count if needed.
+        experimentalMinChunkSize: 20_000,
         manualChunks(id) {
           const blogContentMatch = id.match(/[\\/]client[\\/]src[\\/]data[\\/]blog-content[\\/]([a-z]{2})[\\/]([^\\/]+)\.ts$/);
           if (blogContentMatch) {

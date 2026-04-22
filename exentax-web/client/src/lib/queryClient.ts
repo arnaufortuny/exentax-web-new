@@ -7,12 +7,37 @@ async function throwIfResNotOk(res: Response) {
   }
 }
 
+// Default request timeout. Without this, a flaky network / hanged server
+// could keep React Query pending forever and the user sees a spinner that
+// never resolves. 15s is well above p99 real latency for our endpoints
+// (typical p99 is ~500ms for booking and ~200ms for consent/visitor).
+const DEFAULT_FETCH_TIMEOUT_MS = 15_000;
+
+function fetchWithTimeout(input: RequestInfo | URL, init: RequestInit = {}, timeoutMs = DEFAULT_FETCH_TIMEOUT_MS): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  const signal = init.signal ? combineSignals(init.signal, controller.signal) : controller.signal;
+  return fetch(input, { ...init, signal }).finally(() => clearTimeout(timer));
+}
+
+// Combine an external AbortSignal (e.g. React Query's own cancellation) with
+// our timeout signal so either can abort the request.
+function combineSignals(a: AbortSignal, b: AbortSignal): AbortSignal {
+  if (a.aborted) return a;
+  if (b.aborted) return b;
+  const ctrl = new AbortController();
+  const onAbort = (reason: unknown) => ctrl.abort(reason);
+  a.addEventListener("abort", () => onAbort(a.reason), { once: true });
+  b.addEventListener("abort", () => onAbort(b.reason), { once: true });
+  return ctrl.signal;
+}
+
 export async function apiRequest(
   method: string,
   url: string,
   data?: unknown | undefined,
 ): Promise<Response> {
-  const res = await fetch(url, {
+  const res = await fetchWithTimeout(url, {
     method,
     headers: data ? { "Content-Type": "application/json" } : {},
     body: data ? JSON.stringify(data) : undefined,
@@ -43,9 +68,10 @@ export const getQueryFn: <T>(options: {
   on401: UnauthorizedBehavior;
 }) => QueryFunction<T> =
   ({ on401: unauthorizedBehavior }) =>
-  async ({ queryKey }) => {
-    const res = await fetch(queryKey.join("/") as string, {
+  async ({ queryKey, signal }) => {
+    const res = await fetchWithTimeout(queryKey.join("/") as string, {
       credentials: "include",
+      signal,
     });
 
     if (unauthorizedBehavior === "returnNull" && res.status === 401) {
