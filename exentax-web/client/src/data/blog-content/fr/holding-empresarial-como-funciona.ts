@@ -183,7 +183,7 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22holding%20empresarial%20como%20funciona%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22holding%20empresarial%20como%20funciona%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si votre projet est de créer la LLC au Wyoming, consultez notre page de service <a href="/fr/services/llc-wyoming">LLC au Wyoming</a> avec coûts, délais et prochaines étapes concrètes.
 <!-- /exentax:cta-conv-v1 -->

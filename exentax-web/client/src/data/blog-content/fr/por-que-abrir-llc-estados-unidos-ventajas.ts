@@ -246,7 +246,7 @@ Chez Exentax nous ouvrons la LLC avec le stack complet (formation, EIN, banque, 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Pourquoi%20une%20LLC%20am%C3%A9ricaine%20plut%C3%B4t%20que%20de%20rester%20en%20SASU%2C%20en%20micro-entreprise%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Pourquoi%20une%20LLC%20am%C3%A9ricaine%20plut%C3%B4t%20que%20de%20rester%20en%20SASU%2C%20en%20micro-entreprise%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->

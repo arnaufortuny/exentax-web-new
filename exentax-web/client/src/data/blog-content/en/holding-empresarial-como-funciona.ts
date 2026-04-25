@@ -184,7 +184,7 @@ At Exentax we model whether a holding actually saves you money in your specific 
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22holding%20empresarial%20como%20funciona%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22holding%20empresarial%20como%20funciona%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in Wyoming, check our service page <a href="/en/services/llc-wyoming">LLC in Wyoming</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

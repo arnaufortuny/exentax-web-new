@@ -141,7 +141,7 @@ Na Exentax apresentamos a 7004 sistematicamente cada Abril dentro do retainer e 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 <!-- /exentax:cta-conv-v1 -->

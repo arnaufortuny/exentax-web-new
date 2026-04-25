@@ -204,7 +204,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Quan%20alg%C3%BA%20pregunta%20Hisenda%20veu%20el%20que%20pago%20amb%20la%20targeta%3F%2C%20la%20resposta%20curta%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Quan%20alg%C3%BA%20pregunta%20Hisenda%20veu%20el%20que%20pago%20amb%20la%20targeta%3F%2C%20la%20resposta%20curta%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
 <!-- /exentax:cta-conv-v1 -->

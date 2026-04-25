@@ -99,7 +99,7 @@ Si vous voulez passer du calcul au plan, réservez 30 minutes avec Exentax et no
 Pour approfondir : <a href="/fr/blog/cotisation-autonomo-espagne-2026-tranches">la cotisation d'autónomo par tranches de revenus</a>, <a href="/fr/blog/tranches-irpf-2026-bareme-explication">les tranches d'IRPF 2026 mises à jour</a>, <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">la LLC américaine comme alternative à l'autónomo</a>, <a href="/fr/blog/depenses-deductibles-autonomo-espagne-2026">les charges déductibles pour autónomos</a>, <a href="/fr/blog/societe-limitee-espagne-sl-couts-avantages">constituer une SL en Espagne : coûts et avantages</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Pour%20la%20plupart%20des%20freelances%20espagnols%2C%20la%20cotisation%20mensuelle%20d'aut%C3%B3nomo%20%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Pour%20la%20plupart%20des%20freelances%20espagnols%2C%20la%20cotisation%20mensuelle%20d'aut%C3%B3nomo%20%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
 <!-- /exentax:cta-conv-v1 -->

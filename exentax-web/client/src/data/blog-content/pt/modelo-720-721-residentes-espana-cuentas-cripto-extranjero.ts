@@ -207,7 +207,7 @@ Para a camada bancária a montante do 720 leia <a href="/pt/blog/as-contas-banca
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9s%20residente%20fiscal%20em%20Espanha%20e%20tens%20uma%20LLC%20americana%2C%20uma%20conta%20Wise%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9s%20residente%20fiscal%20em%20Espanha%20e%20tens%20uma%20LLC%20americana%2C%20uma%20conta%20Wise%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

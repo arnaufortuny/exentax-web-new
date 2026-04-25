@@ -197,7 +197,7 @@ Field note from running this for clients month after month: the rule is straight
 If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22There's%20a%20phrase%20that%20gets%20repeated%20in%20every%20YouTube%20video%20and%20every%20open%20you%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22There's%20a%20phrase%20that%20gets%20repeated%20in%20every%20YouTube%20video%20and%20every%20open%20you%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in New Mexico, check our service page <a href="/en/services/llc-new-mexico">LLC in New Mexico</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

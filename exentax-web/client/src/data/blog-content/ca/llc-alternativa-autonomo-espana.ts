@@ -234,7 +234,7 @@ No t'eximeix del Model 720, no amaga res gràcies a FATCA, no et lleva la cotitz
 Si l'objectiu principal és minimitzar la càrrega fiscal continua amb <a href="/ca/blog/camins-legals-per-minimitzar-impostos">els camins legals per pagar el mínim possible</a>, i si l'actiu principal és en cripto o brokers estrangers completa amb <a href="/ca/blog/model-720-i-model-721-guia-per-a-residents-a-espanya-amb">la guia Model 720 i 721</a>. Per revisar el teu cas <strong>reserva una sessió amb Exentax</strong>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20ets%20aut%C3%B2nom%20a%20Espanya%20i%20la%20teva%20feina%20es%20pot%20fer%20des%20d'un%20port%C3%A0til%2C%20segura%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20ets%20aut%C3%B2nom%20a%20Espanya%20i%20la%20teva%20feina%20es%20pot%20fer%20des%20d'un%20port%C3%A0til%2C%20segura%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->

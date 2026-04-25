@@ -203,7 +203,7 @@ Una **LLC als EUA** no figura a cap llista no cooperativa. Estats com Wyoming, N
 Per a l'ecosistema complet i el lloc de la LLC continua amb <a href="/ca/blog/camins-legals-per-minimitzar-impostos">els camins legals per pagar el mínim</a>, i si l'actiu principal són comptes o cripto fora del país consulta <a href="/ca/blog/model-720-i-model-721-guia-per-a-residents-a-espanya-amb">la guia Model 720 i 721</a>. Per dissenyar l'estructura <a href="/ca/agendar">reserva una sessió amb Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22La%20paraula%20offshore%20arrossega%20un%20pes%20enorme%3A%20per%20a%20alguns%20significa%20llibertat%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22La%20paraula%20offshore%20arrossega%20un%20pes%20enorme%3A%20per%20a%20alguns%20significa%20llibertat%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
 <!-- /exentax:cta-conv-v1 -->

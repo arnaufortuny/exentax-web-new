@@ -171,7 +171,7 @@ Détail pratique à verrouiller avant d'agir. La majorité des dégâts évitabl
 ### Comment structurer un holding bien monté
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Quand%20une%20LLC%20fonctionne%2C%20la%20question%20change%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Quand%20une%20LLC%20fonctionne%2C%20la%20question%20change%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si votre projet est de créer la LLC au Wyoming, consultez notre page de service <a href="/fr/services/llc-wyoming">LLC au Wyoming</a> avec coûts, délais et prochaines étapes concrètes.
 <!-- /exentax:cta-conv-v1 -->

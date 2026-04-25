@@ -208,7 +208,7 @@ Para ver o custo exacto e o calendário antes de decidir, abra a <strong>calcula
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Decidiste%20abrir%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20queres%20ver%20o%20proc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Decidiste%20abrir%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20queres%20ver%20o%20proc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 <!-- /exentax:cta-conv-v1 -->

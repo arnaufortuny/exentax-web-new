@@ -185,7 +185,7 @@ Um vor der Entscheidung Kosten und Plan zu sehen, starten Sie den <strong>Exenta
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Sie%20rechnen%20aus%20Deutschland%2C%20%C3%96sterreich%20oder%20der%20Schweiz%20f%C3%BCr%20internationale%20K%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Sie%20rechnen%20aus%20Deutschland%2C%20%C3%96sterreich%20oder%20der%20Schweiz%20f%C3%BCr%20internationale%20K%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->

@@ -184,7 +184,7 @@ Na Exentax constituímos e mantemos LLCs de não residentes diariamente: escolha
 Queres aplicar este protocolo ao teu caso? <a href="/pt/agendar">Reserva uma sessão com a equipa Exentax</a> e revemos a tua LLC com números reais em trinta minutos, sem compromisso. Levamos para a sessão um diagnóstico inicial: residência fiscal aplicável, qualificação da LLC na tua jurisdição, estimativa de carga fiscal anual integrada (federal e estadual nos EUA mais IRS/IRPF/IRPJ/IRT na residência), obrigações declarativas obrigatórias e calendário realista de constituição ou de regularização caso a tua estrutura actual precise de ser corrigida. Saímos da chamada com um plano de acção concreto, escrito e priorizado, e não com generalidades de marketing nem promessas vagas que não resistem a uma inspecção.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Precisas de falar já? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20venho%20do%20artigo%20%22BOE%20fevereiro%202020%20LLC%20doutrina%20administrativa%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje mesmo.</p>
+<p data-testid="cta-action-row">Precisas de falar já? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20venho%20do%20artigo%20%22BOE%20fevereiro%202020%20LLC%20doutrina%20administrativa%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje mesmo.</p>
 
 Se preferes falar directamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

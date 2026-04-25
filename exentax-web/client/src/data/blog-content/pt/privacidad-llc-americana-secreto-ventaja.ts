@@ -170,7 +170,7 @@ Na Exentax estruturamos LLCs com privacidade real vs terceiros e compliance tota
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20qualquer%20pessoa%20pode%20ir%20%C3%A0%20certid%C3%A3o%20permanente%20e%20ver%20a%20tua%20Lda%2C%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20qualquer%20pessoa%20pode%20ir%20%C3%A0%20certid%C3%A3o%20permanente%20e%20ver%20a%20tua%20Lda%2C%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Novo México, vê a nossa página de serviço <a href="/pt/servicos/llc-novo-mexico">LLC em Novo México</a> com custos, prazos e próximos passos concretos.
 <!-- /exentax:cta-conv-v1 -->

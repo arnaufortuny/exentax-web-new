@@ -99,7 +99,7 @@ Se quer passar do cálculo ao plano, agende 30 minutos com Exentax e saímos da 
 Para aprofundar: <a href="/pt/blog/quota-autonomo-espanha-2026-escaloes">a quota de autónomo por escalões de rendimentos</a>, <a href="/pt/blog/escaloes-irpf-2026-explicacao-espanha">os escalões do IRPF 2026 atualizados</a>, <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">a LLC americana como alternativa ao autónomo</a>, <a href="/pt/blog/despesas-dedutiveis-autonomo-espanha-2026">despesas dedutíveis para autónomos</a>, <a href="/pt/blog/sociedade-limitada-espanha-sl-custos-vantagens">constituir uma SL em Espanha: custos e vantagens</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20a%20maioria%20dos%20freelancers%20espanh%C3%B3is%2C%20a%20quota%20mensal%20de%20aut%C3%B3nomo%20(RETA)%20%C3%A9%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20a%20maioria%20dos%20freelancers%20espanh%C3%B3is%2C%20a%20quota%20mensal%20de%20aut%C3%B3nomo%20(RETA)%20%C3%A9%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

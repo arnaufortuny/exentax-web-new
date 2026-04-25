@@ -180,7 +180,7 @@ Wenn Ihre LLC ohne OA oder mit heruntergeladenem operiert, starten Sie den <stro
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20einen%20DACH-Unternehmer%2C%20der%20den%20notariell%20beurkundeten%20GmbH-Gesellschafts%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20einen%20DACH-Unternehmer%2C%20der%20den%20notariell%20beurkundeten%20GmbH-Gesellschafts%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->

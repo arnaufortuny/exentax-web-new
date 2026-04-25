@@ -172,7 +172,7 @@ Field note from running this for clients month after month: the rule is straight
 If it is not clean here, every downstream assumption becomes negotiable in front of the authority.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22When%20an%20LLC%20works%2C%20the%20question%20changes%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22When%20an%20LLC%20works%2C%20the%20question%20changes%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in Wyoming, check our service page <a href="/en/services/llc-wyoming">LLC in Wyoming</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

@@ -145,7 +145,7 @@ A Exentax muntem el stack complet de LLC per a desenvolupadors/SaaS (LLC + EIN +
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Un%20desenvolupador%20SaaS%20catal%C3%A0%20que%20factura%20en%20USD%20via%20Stripe%20acaba%20topant%20semp%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Un%20desenvolupador%20SaaS%20catal%C3%A0%20que%20factura%20en%20USD%20via%20Stripe%20acaba%20topant%20semp%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Delaware, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-delaware">LLC a Delaware</a> amb costos, terminis i propers passos concrets.
 <!-- /exentax:cta-conv-v1 -->

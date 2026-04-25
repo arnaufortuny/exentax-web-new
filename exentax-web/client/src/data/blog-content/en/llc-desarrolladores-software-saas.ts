@@ -177,7 +177,7 @@ Fintech and CRS information evolves; here is the current state:
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Software%20developers%20and%20SaaS%20founders%20are%20among%20the%20best%20fits%20for%20a%20US%20LLC%20st%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Software%20developers%20and%20SaaS%20founders%20are%20among%20the%20best%20fits%20for%20a%20US%20LLC%20st%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in Delaware, check our service page <a href="/en/services/llc-delaware">LLC in Delaware</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

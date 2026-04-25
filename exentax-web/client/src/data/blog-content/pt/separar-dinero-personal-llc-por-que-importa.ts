@@ -306,7 +306,7 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20vens%20de%20recibos%20verdes%20ou%20de%20MEI%2C%20provavelmente%20habituaste-te%20a%20usar%20a%20con%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20vens%20de%20recibos%20verdes%20ou%20de%20MEI%2C%20provavelmente%20habituaste-te%20a%20usar%20a%20con%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

@@ -155,7 +155,7 @@ At Exentax we prepare and file your LLC's 1120 + 5472 on time, keep the filing r
 Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Two%20a%20href%3Dhttps%3A%2F%2Fwww%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Two%20a%20href%3Dhttps%3A%2F%2Fwww%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->

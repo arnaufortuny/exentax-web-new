@@ -202,7 +202,7 @@ Pour le plan légal avec votre chiffre réel, lancez la <strong>calculatrice Exe
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Soyons%20honn%C3%AAtes%20d%C3%A8s%20la%20premi%C3%A8re%20ligne%3A%20%C2%AB%20z%C3%A9ro%20imp%C3%B4t%20%C2%BB%20en%20%C3%A9tant%20r%C3%A9sident%20fisca%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Soyons%20honn%C3%AAtes%20d%C3%A8s%20la%20premi%C3%A8re%20ligne%3A%20%C2%AB%20z%C3%A9ro%20imp%C3%B4t%20%C2%BB%20en%20%C3%A9tant%20r%C3%A9sident%20fisca%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
 <!-- /exentax:cta-conv-v1 -->

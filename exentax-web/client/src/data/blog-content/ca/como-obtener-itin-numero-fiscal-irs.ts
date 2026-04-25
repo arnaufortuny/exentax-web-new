@@ -174,7 +174,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si encara no tens ITIN, mira la nostra guia de servei <a href="/ca/serveis/obte-el-teu-itin">obté el teu ITIN pas a pas</a> i comença el tràmit avui.
 <!-- /exentax:cta-conv-v1 -->

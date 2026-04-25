@@ -190,7 +190,7 @@ Each tax situation depends on your specific residency, the activity carried out 
 This article is updated yearly with regulatory changes that affect the structures discussed. If you spot an outdated reference, write to us and we will revise it in the next editorial cycle; we keep the publication date visible at the top of every post for full transparency.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22You've%20formed%20your%20LLC%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22You've%20formed%20your%20LLC%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->

@@ -1,12 +1,17 @@
-# AUDIT FINAL REPORT — Sesión de consolidación 2026-04-25
+# AUDIT FINAL REPORT — Sesión de consolidación 2026-04-25 (rev. phone-CTA)
 
 **Estado global**: ✅ **PRODUCTION READY** — 0 regresiones, todos los linters
 verde, build limpio.
 
-**Fecha cierre**: 2026-04-25
+**Última revisión**: 2026-04-25 · post-eliminación phone-CTA + sitemap-check graceful-degrade
 **Branch**: `main`
 **Author**: Arnau Fortuny
-**Scope sesión**: pricing definitivo (1.400 eliminado, desde 2000 / desde
+**Scope última pasada**:
+- ✅ Eliminación completa de `tel:+34614916910` como CTA en 657 artículos blog (6 idiomas, 4 variantes de fraseo). Solo queda WhatsApp + agendar como CTAs.
+- ✅ `seo-sitemap-check.mjs` ahora graceful-degrade cuando dev server no está arriba (ECONNREFUSED → skip con exit 0). Antes fallaba duro CI sin server.
+- ✅ `npm run blog:validate-all`: 13/13 steps OK (antes 12/13 con sitemap fallando).
+
+**Scope sesión completa**: pricing definitivo (1.400 eliminado, desde 2000 / desde
 1500), legal pages Liquid Glass tema crema, docs reorganización a
 `docs/internal/`, documentación operativa.
 

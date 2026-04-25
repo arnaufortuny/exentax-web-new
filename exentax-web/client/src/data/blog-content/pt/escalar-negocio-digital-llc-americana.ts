@@ -152,7 +152,7 @@ Na Exentax acompanhamos o escalar faixa a faixa, antecipamos os estrangulamentos
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20um%20neg%C3%B3cio%20digital%20de%205%20000%20para%2050%20000%20%E2%82%AC%20por%20m%C3%AAs%20a%20partir%20de%20Portugal%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20um%20neg%C3%B3cio%20digital%20de%205%20000%20para%2050%20000%20%E2%82%AC%20por%20m%C3%AAs%20a%20partir%20de%20Portugal%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Delaware, vê a nossa página de serviço <a href="/pt/servicos/llc-delaware">LLC em Delaware</a> com custos, prazos e próximos passos concretos.
 <!-- /exentax:cta-conv-v1 -->

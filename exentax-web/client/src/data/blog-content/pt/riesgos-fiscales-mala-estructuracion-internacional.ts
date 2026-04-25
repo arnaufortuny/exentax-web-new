@@ -154,7 +154,7 @@ Na Exentax constituímos e mantemos LLCs de não residentes diariamente: estado,
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20casos%20mais%20dolorosos%20que%20vemos%20n%C3%A3o%20v%C3%AAm%20de%20gente%20que%20n%C3%A3o%20fez%20nada%2C%20v%C3%AAm%20de%20g%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20casos%20mais%20dolorosos%20que%20vemos%20n%C3%A3o%20v%C3%AAm%20de%20gente%20que%20n%C3%A3o%20fez%20nada%2C%20v%C3%AAm%20de%20g%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

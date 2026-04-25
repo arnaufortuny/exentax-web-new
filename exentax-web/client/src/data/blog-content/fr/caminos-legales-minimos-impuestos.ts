@@ -218,7 +218,7 @@ Une LLC bien déclarée permet de séparer le patrimoine, de professionnaliser l
 Pour voir comment la LLC s'intègre à votre vie en Espagne continuez avec <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">le guide LLC face à autónomo</a>, et si l'idée d'expatriation vous tente regardez <a href="/fr/blog/nomade-numerique-ou-payer-ses-impots-et-comment-choisir-sa">la stratégie nomade numérique et résidence fiscale</a>. Pour dessiner votre plan <strong>réservez un échange avec Exentax</strong>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22caminos%20legales%20minimos%20impuestos%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22caminos%20legales%20minimos%20impuestos%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
 <!-- /exentax:cta-conv-v1 -->

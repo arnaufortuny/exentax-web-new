@@ -198,7 +198,7 @@ Na Exentax modelamos a sua situação completa (LLC + residência actual + poss�
 Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20frase%20que%20se%20repete%20em%20cada%20v%C3%ADdeo%20do%20YouTube%20e%20em%20cada%20an%C3%BAncio%20de%20abre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20frase%20que%20se%20repete%20em%20cada%20v%C3%ADdeo%20do%20YouTube%20e%20em%20cada%20an%C3%BAncio%20de%20abre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Novo México, vê a nossa página de serviço <a href="/pt/servicos/llc-novo-mexico">LLC em Novo México</a> com custos, prazos e próximos passos concretos.
 <!-- /exentax:cta-conv-v1 -->

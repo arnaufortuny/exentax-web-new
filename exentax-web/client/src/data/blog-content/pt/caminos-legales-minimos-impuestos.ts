@@ -225,7 +225,7 @@ Uma LLC bem declarada permite separar património, profissionalizar a gestão e,
 Para ver como a LLC encaixa na sua vida em Espanha continue com <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">o guia LLC vs autónomo</a>, e se o pensamento é mudar de país veja <a href="/pt/blog/nomade-digital-onde-pagar-impostos-e-como-escolher-a">a estratégia de nómada digital e residência fiscal</a>. Para desenhar o plano <a href="/pt/agendar">agende uma sessão com a Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pagar%20poucos%20impostos%20de%20forma%20legal%20%C3%A9%20poss%C3%ADvel%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pagar%20poucos%20impostos%20de%20forma%20legal%20%C3%A9%20poss%C3%ADvel%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->

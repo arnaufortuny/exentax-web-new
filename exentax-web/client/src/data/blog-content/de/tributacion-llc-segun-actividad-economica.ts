@@ -154,7 +154,7 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/termin">Reservieren Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, unverbindlich.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Rufen Sie uns an unter <a href="tel:+34614916910">+34 614 916 910</a> oder schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22tributacion%20llc%20segun%20actividad%20economica%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
+<p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22tributacion%20llc%20segun%20actividad%20economica%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->

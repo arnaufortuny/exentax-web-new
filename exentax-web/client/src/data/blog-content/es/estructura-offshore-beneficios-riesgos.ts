@@ -205,7 +205,7 @@ Una **LLC en Estados Unidos** no figura en ninguna lista de jurisdicciones no co
 Para entender el ecosistema completo y dónde encaja la LLC sigue con <a href="/es/blog/caminos-legales-minimos-impuestos">los caminos legales para pagar el mínimo de impuestos</a>, y si tu activo principal son cuentas o cripto fuera de España revisa <a href="/es/blog/modelo-720-721-residentes-espana-cuentas-cripto-extranjero">la guía Modelo 720 y 721</a>. Para diseñar la estructura <a href="/es/agendar">agenda una sesión con Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22La%20palabra%20offshore%20arrastra%20un%20peso%20enorme%3A%20para%20algunos%20significa%20libertad%20%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22La%20palabra%20offshore%20arrastra%20un%20peso%20enorme%3A%20para%20algunos%20significa%20libertad%20%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
 <!-- /exentax:cta-conv-v1 -->

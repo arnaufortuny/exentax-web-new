@@ -177,7 +177,7 @@ A Exentax avaluem primer si realment necessites ITIN per a la teva activitat - i
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Per%20a%20un%20resident%20a%20Catalunya%20que%20monta%20la%20seva%20primera%20LLC%2C%20la%20difer%C3%A8ncia%20en%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Per%20a%20un%20resident%20a%20Catalunya%20que%20monta%20la%20seva%20primera%20LLC%2C%20la%20difer%C3%A8ncia%20en%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si encara no tens ITIN, mira la nostra guia de servei <a href="/ca/serveis/obte-el-teu-itin">obté el teu ITIN pas a pas</a> i comença el tràmit avui.
 <!-- /exentax:cta-conv-v1 -->

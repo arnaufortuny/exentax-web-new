@@ -153,7 +153,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 Vol aplicar aquest protocol al seu cas? <a href="/ca/agendar">Reservi una sessió amb l'equip d'Exentax</a> i revisem la seva LLC amb números reals en trenta minuts, sense compromís.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Necessita parlar-ne ja? Truqui'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escrigui'ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l'article%20%22tributacion%20llc%20segun%20actividad%20economica%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
+<p data-testid="cta-action-row">Necessita parlar-ne ja? Escrigui'ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l'article%20%22tributacion%20llc%20segun%20actividad%20economica%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
 
 Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->

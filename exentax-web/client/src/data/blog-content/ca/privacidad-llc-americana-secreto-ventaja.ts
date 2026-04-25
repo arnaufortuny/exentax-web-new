@@ -170,7 +170,7 @@ A Exentax estructurem LLC amb privadesa real vs tercers i compliment total.
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22A%20l'estat%20espanyol%2C%20qualsevol%20persona%20pot%20entrar%20al%20Registre%20Mercantil%20i%20veur%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22A%20l'estat%20espanyol%2C%20qualsevol%20persona%20pot%20entrar%20al%20Registre%20Mercantil%20i%20veur%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Nou Mèxic, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-nou-mexic">LLC a Nou Mèxic</a> amb costos, terminis i propers passos concrets.
 <!-- /exentax:cta-conv-v1 -->

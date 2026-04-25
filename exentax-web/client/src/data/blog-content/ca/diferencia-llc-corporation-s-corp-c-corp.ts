@@ -113,7 +113,7 @@ Si vols passar del dubte al pla, agenda 30 minuts amb Exentax i sortim de la tru
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Necessites parlar-ho ja? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l%27article%20%22Difer%C3%A8ncia%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20i%20C-Corp%22%20i%20vull%20parlar%20amb%20un%20assessor.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Necessites parlar-ho ja? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l%27article%20%22Difer%C3%A8ncia%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20i%20C-Corp%22%20i%20vull%20parlar%20amb%20un%20assessor.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Delaware, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-delaware">LLC a Delaware</a> amb costos, terminis i pròxims passos concrets.
 <!-- /exentax:cta-conv-v1 -->

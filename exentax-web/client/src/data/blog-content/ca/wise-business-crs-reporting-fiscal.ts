@@ -152,7 +152,7 @@ A efectes informatius; cada cas bancari requereix una anàlisi específica de KY
 Vol aplicar aquest protocol al seu cas? <a href="/ca/agendar">Reservi una sessió amb l'equip d'Exentax</a> i revisem la seva LLC amb números reals en trenta minuts, sense compromís.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vol parlar-ne ara? Truqui'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escrigui'ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22wise%20business%20crs%20reporting%20fiscal%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
+<p data-testid="cta-action-row">Vol parlar-ne ara? Escrigui'ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22wise%20business%20crs%20reporting%20fiscal%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
 
 Si prefereix parlar-ne directament, <a href="/ca/agendar">reservi una sessió gratuïta</a> i revisem el seu cas real en trenta minuts.
 <!-- /exentax:cta-conv-v1 -->

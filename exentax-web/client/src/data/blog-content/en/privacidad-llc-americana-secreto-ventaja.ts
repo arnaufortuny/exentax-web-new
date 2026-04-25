@@ -195,7 +195,7 @@ At Exentax we structure LLCs with real privacy vs third parties and total compli
 Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Some%20US%20states%20don't%20publish%20the%20owner's%20name%20on%20LLC%20records%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Some%20US%20states%20don't%20publish%20the%20owner's%20name%20on%20LLC%20records%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in New Mexico, check our service page <a href="/en/services/llc-new-mexico">LLC in New Mexico</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

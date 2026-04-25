@@ -160,7 +160,7 @@ Jeder Fall hat Nuancen: Ihr Wohnsitzland, die Art der Tätigkeit, wo Ihre Kunden
 Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Reservieren Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, unverbindlich.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Rufen Sie uns an unter <a href="tel:+34614916910">+34 614 916 910</a> oder schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22crs%20fur%20ansassige%20in%20spanien%20und%20lateinamerika%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
+<p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22crs%20fur%20ansassige%20in%20spanien%20und%20lateinamerika%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
 
 Wenn Sie es lieber direkt besprechen möchten, <a href="/de/buchen">reservieren Sie eine kostenlose Sitzung</a> und wir prüfen Ihren echten Fall in dreißig Minuten.
 <!-- /exentax:cta-conv-v1 -->

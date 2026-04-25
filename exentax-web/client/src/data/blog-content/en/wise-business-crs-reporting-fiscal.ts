@@ -151,7 +151,7 @@ For information purposes; every banking case needs its own analysis of KYC, resi
 Want to apply this protocol to your own case? <a href="/en/book">Book a session with the Exentax team</a> and we will go through your LLC with real numbers in thirty minutes, no commitment.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to talk now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22wise%20business%20crs%20reporting%20fiscal%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we will get back to you the same day.</p>
+<p data-testid="cta-action-row">Want to talk now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22wise%20business%20crs%20reporting%20fiscal%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we will get back to you the same day.</p>
 
 If you would rather discuss it live, <a href="/en/book">book a free session</a> and we will review your real case in thirty minutes.
 <!-- /exentax:cta-conv-v1 -->

@@ -264,7 +264,7 @@ Constituir la LLC en Wyoming, Nuevo México, Delaware o Florida no afecta tu res
 Para no entrar en zonas grises sigue con <a href="/es/blog/estructura-offshore-beneficios-riesgos">la guía de paraísos fiscales y jurisdicciones no cooperativas</a>, y si tu plan es quedarte en España aprovechando palancas legales revisa <a href="/es/blog/caminos-legales-minimos-impuestos">los caminos legales para minimizar impuestos</a>. Para diseñar tu setup <a href="/es/agendar">agenda una sesión con Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Si%20eres%20n%C3%B3mada%20digital%20y%20trabajas%20desde%20Bali%20un%20mes%2C%20Lisboa%20el%20siguiente%20y%20Me%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Si%20eres%20n%C3%B3mada%20digital%20y%20trabajas%20desde%20Bali%20un%20mes%2C%20Lisboa%20el%20siguiente%20y%20Me%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
 <!-- /exentax:cta-conv-v1 -->

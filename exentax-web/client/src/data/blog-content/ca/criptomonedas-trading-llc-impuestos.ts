@@ -129,7 +129,7 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20fas%20trading%20de%20cripto%20des%20de%20Catalunya%2C%20ja%20saps%20com%20est%C3%A0%20el%20joc%3A%20guanys%20pa%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20fas%20trading%20de%20cripto%20des%20de%20Catalunya%2C%20ja%20saps%20com%20est%C3%A0%20el%20joc%3A%20guanys%20pa%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
 <!-- /exentax:cta-conv-v1 -->

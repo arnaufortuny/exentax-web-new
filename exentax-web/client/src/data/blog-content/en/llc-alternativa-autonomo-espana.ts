@@ -232,7 +232,7 @@ It does not waive your Modelo 720, does not hide anything from Hacienda thanks t
 If your main goal is minimising tax, continue with <a href="/en/blog/legal-paths-to-minimize-your-taxes">the legal paths to pay the minimum possible</a>, and if your main asset sits in crypto or foreign brokers complete with <a href="/en/blog/modelo-720-and-modelo-721-guide-for-spanish-residents-with">the Modelo 720 and 721 guide</a>. To review your case, <strong>book a session with Exentax</strong>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you're%20a%20freelancer%20in%20Spain%20and%20your%20work%20runs%20entirely%20on%20a%20laptop%2C%20you'%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you're%20a%20freelancer%20in%20Spain%20and%20your%20work%20runs%20entirely%20on%20a%20laptop%2C%20you'%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->

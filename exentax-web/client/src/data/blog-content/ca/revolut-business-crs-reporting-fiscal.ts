@@ -128,7 +128,7 @@ Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: err
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Revolut%20Business%20s'opera%20des%20de%20Litu%C3%A0nia%20per%20a%20la%20UE%20i%20aplica%20el%20CRS%20per%20defe%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Revolut%20Business%20s'opera%20des%20de%20Litu%C3%A0nia%20per%20a%20la%20UE%20i%20aplica%20el%20CRS%20per%20defe%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
 <!-- /exentax:cta-conv-v1 -->

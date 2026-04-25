@@ -174,7 +174,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se ainda não tens ITIN, vê o nosso guia de serviço <a href="/pt/servicos/obtenha-seu-itin">obtém o teu ITIN passo a passo</a> e começa o processo hoje.
 <!-- /exentax:cta-conv-v1 -->

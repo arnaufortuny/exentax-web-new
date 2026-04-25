@@ -152,7 +152,7 @@ Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blan
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22En%20el%20dret%20espanyol%2C%20la%20protecci%C3%B3%20patrimonial%20es%20canalitza%20via%20SL%2C%20capitulaci%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22En%20el%20dret%20espanyol%2C%20la%20protecci%C3%B3%20patrimonial%20es%20canalitza%20via%20SL%2C%20capitulaci%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Wyoming, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-wyoming">LLC a Wyoming</a> amb costos, terminis i propers passos concrets.
 <!-- /exentax:cta-conv-v1 -->

@@ -152,7 +152,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Many%20entrepreneurs%20think%20of%20the%20US%20LLC%20purely%20as%20a%20tax%20tool%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Many%20entrepreneurs%20think%20of%20the%20US%20LLC%20purely%20as%20a%20tax%20tool%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in Delaware, check our service page <a href="/en/services/llc-delaware">LLC in Delaware</a> with real costs, timelines, and the concrete next steps.
 <!-- /exentax:cta-conv-v1 -->

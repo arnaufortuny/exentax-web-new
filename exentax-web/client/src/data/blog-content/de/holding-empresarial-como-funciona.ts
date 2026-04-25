@@ -187,7 +187,7 @@ Bei Exentax modellieren wir, ob eine Holding in Ihrem Fall echte Steuerersparnis
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Das%20Wort%20Holding%20wird%20in%20vielen%20Kontexten%20verwendet%2C%20fast%20immer%20mit%20Verwirrung%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Das%20Wort%20Holding%20wird%20in%20vielen%20Kontexten%20verwendet%2C%20fast%20immer%20mit%20Verwirrung%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie Ihre LLC in Wyoming gründen möchten, sehen Sie sich unsere Service-Seite <a href="/de/leistungen/llc-wyoming">LLC in Wyoming</a> mit Kosten, Fristen und konkreten nächsten Schritten an.
 <!-- /exentax:cta-conv-v1 -->

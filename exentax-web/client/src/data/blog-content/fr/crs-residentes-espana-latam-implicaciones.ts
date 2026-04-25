@@ -161,7 +161,7 @@ Chaque cas a ses nuances : votre pays de résidence, le type d'activité, où so
 Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous examinons votre LLC avec des chiffres réels en trente minutes, sans engagement.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20viens%20de%20l'article%20%22crs%20pour%20residents%20en%20espagne%20et%20latam%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui même.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20viens%20de%20l'article%20%22crs%20pour%20residents%20en%20espagne%20et%20latam%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui même.</p>
 
 Si vous préférez en parler en direct, <a href="/fr/reserver">réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
 <!-- /exentax:cta-conv-v1 -->

@@ -185,7 +185,7 @@ Bei Exentax übernehmen wir 5472-Spät-Regularisierungen.
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Es%20gibt%20eine%20Erkl%C3%A4rung%20im%20steuerlichen%20Leben%20einer%20Single-Member-LLC%20mit%20ausl%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Es%20gibt%20eine%20Erkl%C3%A4rung%20im%20steuerlichen%20Leben%20einer%20Single-Member-LLC%20mit%20ausl%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->

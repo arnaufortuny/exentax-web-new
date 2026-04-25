@@ -269,7 +269,7 @@ Las cuatro plataformas exigen, como base: Articles of Organization de la LLC, EI
 Para profundizar en estructura completa de banca lee <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">qué reportan realmente los bancos USA</a>, y si quieres delegar la apertura <a href="/es/agendar">agenda una sesión con Exentax</a> y la coordinamos paso a paso desde la constitución.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Si%20tienes%20una%20LLC%20en%20Estados%20Unidos%20vas%20a%20necesitar%20una%20cuenta%20operativa%20en%20EE%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Si%20tienes%20una%20LLC%20en%20Estados%20Unidos%20vas%20a%20necesitar%20una%20cuenta%20operativa%20en%20EE%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
 <!-- /exentax:cta-conv-v1 -->

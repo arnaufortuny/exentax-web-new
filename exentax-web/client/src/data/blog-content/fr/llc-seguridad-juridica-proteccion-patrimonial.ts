@@ -152,7 +152,7 @@ Chez Exentax nous concevons la structure LLC adaptée à votre profil de risque 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22En%20droit%20fran%C3%A7ais%2C%20la%20protection%20du%20patrimoine%20personnel%20passe%20par%20la%20d%C3%A9clara%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
+<p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22En%20droit%20fran%C3%A7ais%2C%20la%20protection%20du%20patrimoine%20personnel%20passe%20par%20la%20d%C3%A9clara%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si votre projet est de créer la LLC au Wyoming, consultez notre page de service <a href="/fr/services/llc-wyoming">LLC au Wyoming</a> avec coûts, délais et prochaines étapes concrètes.
 <!-- /exentax:cta-conv-v1 -->
