@@ -5,27 +5,34 @@
  * Verifies the editorial CTA contract for every blog article in every
  * supported locale.
  *
- * Contract (Task #6 v2 — step 2; refined by Task #11):
+ * Contract (Task #6 v2 — step 2; refined by Task #11; tightened post
+ * Task #6 closure when `pricing_quote` was retired):
  *
- *  1. Articles whose mid-article CTA pattern resolves to `pricing_quote`
- *     (the calc_savings variant) MUST contain at least one anchor pointing
- *     to the locale-correct calculator hash, i.e. /<lang>#calculadora.
- *     Articles assigned to any of the other four approved mid-CTA variants
- *     route to /servicios, /agendar or /contacto instead and are NOT
- *     required to carry a calculator anchor (Task #11 normalised mid-CTAs
- *     to one of five approved phrasings, only one of which is the calc).
+ *  1. (RETIRED) The `pricing_quote` CTA pattern and its `calc_savings`
+ *     mid-CTA variant were removed because their copy was deemed
+ *     price-adjacent under Task #6's strict reading. As a consequence,
+ *     no article is required to anchor to /<lang>#calculadora anymore.
+ *     The four remaining approved mid-CTA variants (`free_consult`,
+ *     `start_today`, `talk_to_team`, `discover_llc`) route to /servicios,
+ *     /agendar or /contacto and intentionally do not link to the
+ *     calculator hash.
  *
  *  2. CTAs must NEVER point to a different language hash. An EN article
  *     pointing to /es#calculadora is a critical bug because it sends the
- *     reader to a Spanish landing page mid-funnel.
+ *     reader to a Spanish landing page mid-funnel. (The localised
+ *     calculator hash on each /<lang> home page still exists and may be
+ *     linked by editorial discretion; this rule only forbids the wrong
+ *     locale.)
  *
  *  3. CTAs must NEVER point to legacy or unlocalised paths
  *     ("/calculadora", "/contact", "/contacto" without lang prefix, etc.).
  *
- *  4. As an editorial signal, an article should also expose at least one
- *     contextual conversion entry — either the in-body calculator CTA OR a
- *     contact link of the shape /<lang>/contacto. Articles that lack both
- *     are flagged as a warning (not fatal) so the editor can review them.
+ *  4. As an editorial signal, an article should expose at least one
+ *     contextual conversion entry — either an in-body calculator-hash
+ *     anchor OR a contact link of the shape /<lang>/contacto. Articles
+ *     that lack both are flagged as a warning (not fatal) so the editor
+ *     can review them. (Calculator-hash anchors remain a valid editorial
+ *     conversion signal even after the `pricing_quote` retirement.)
  *
  *  5. Trailing-paragraph contract (Task #47): the trailing line inside
  *     EVERY `<!-- exentax:cta-v1 -->` block (after stripping the optional
