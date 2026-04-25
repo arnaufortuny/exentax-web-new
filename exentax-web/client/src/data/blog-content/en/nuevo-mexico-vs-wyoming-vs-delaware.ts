@@ -1,4 +1,7 @@
-export default `When forming a US LLC as a non-resident, one of the first decisions you'll face is which state to choose. New Mexico, Wyoming, and Delaware are the three most popular options. Here's an honest comparison with real numbers.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+When forming a US LLC as a non-resident, one of the first decisions you'll face is which state to choose. New Mexico, Wyoming, and Delaware are the three most popular options. Here's an honest comparison with real numbers.
 
 ## Why does the state matter?
 

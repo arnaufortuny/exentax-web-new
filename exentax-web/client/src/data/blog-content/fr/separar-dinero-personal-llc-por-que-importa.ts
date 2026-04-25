@@ -1,4 +1,7 @@
-export default `Si vous venez de la micro-entreprise française, vous avez probablement pris l'habitude de piocher sur le compte pro pour payer les courses. Avec une LLC, ce même réflexe détruit la protection juridique: un juge américain peut lever le voile (« pierce the corporate veil ») en trois transactions suspectes. Et la DGFiP, de son côté, peut requalifier ces flux en revenus personnels non déclarés.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+Si vous venez de la micro-entreprise française, vous avez probablement pris l'habitude de piocher sur le compte pro pour payer les courses. Avec une LLC, ce même réflexe détruit la protection juridique: un juge américain peut lever le voile (« pierce the corporate veil ») en trois transactions suspectes. Et la DGFiP, de son côté, peut requalifier ces flux en revenus personnels non déclarés.
 
 Dans cet article, nous vous expliquons pourquoi c'est si important, quelles sont les conséquences du mélange des fonds, et comment mettre en place une séparation financière solide dès le premier jour.
 

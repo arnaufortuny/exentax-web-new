@@ -1,4 +1,7 @@
-export default `Im deutschsprachigen Raum gibt es kein echtes Äquivalent zum Registered Agent, es ist eine Mischung aus ladungsfähiger Geschäftsanschrift, Treuhänder und Zustellungsbevollmächtigtem. Jeder US-Bundesstaat verlangt einen, physisch vor Ort und zu Geschäftszeiten erreichbar. Und nein, Ihr Registered Agent ist nicht Ihre Bankadresse.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA im Jahr 2026</a>.</p>
+Im deutschsprachigen Raum gibt es kein echtes Äquivalent zum Registered Agent, es ist eine Mischung aus ladungsfähiger Geschäftsanschrift, Treuhänder und Zustellungsbevollmächtigtem. Jeder US-Bundesstaat verlangt einen, physisch vor Ort und zu Geschäftszeiten erreichbar. Und nein, Ihr Registered Agent ist nicht Ihre Bankadresse.
 
 ## Was ist ein Registered Agent?
 

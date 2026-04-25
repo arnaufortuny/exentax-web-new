@@ -15,12 +15,15 @@ import WhyUs from "@/components/sections/WhyUs";
 import Origin from "@/components/sections/Origin";
 const Testimonials = lazy(() => import("@/components/sections/Testimonials"));
 import HomeFAQ from "@/components/sections/HomeFAQ";
-import { TRUSTPILOT_REVIEWS } from "@/data/reviewsData";
+import { TRUSTPILOT_REVIEWS, TRUSTPILOT_AGGREGATE } from "@/data/reviewsData";
 
 function buildReviewsJsonLd(siteUrl: string) {
   const reviews = TRUSTPILOT_REVIEWS;
-  const ratingSum = reviews.reduce((acc, r) => acc + r.rating, 0);
-  const ratingValue = (ratingSum / reviews.length).toFixed(1);
+  // We expose the *full* Trustpilot aggregate (TRUSTPILOT_AGGREGATE) — not the
+  // count of the curated `TRUSTPILOT_REVIEWS` sample below — so this graph
+  // stays consistent with the static Organization block in `index.html` and
+  // with `server/seo-content.ts`. The sample reviews are still emitted so an
+  // LLM crawler has individual review bodies to quote from.
   const itemReviewedRef = { "@id": `${siteUrl}/#organization` };
   return {
     "@context": "https://schema.org",
@@ -29,10 +32,10 @@ function buildReviewsJsonLd(siteUrl: string) {
         "@type": "AggregateRating",
         "@id": `${siteUrl}/#aggregateRating`,
         "itemReviewed": itemReviewedRef,
-        "ratingValue": ratingValue,
-        "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": String(reviews.length),
+        "ratingValue": TRUSTPILOT_AGGREGATE.ratingValue,
+        "bestRating": TRUSTPILOT_AGGREGATE.bestRating,
+        "worstRating": TRUSTPILOT_AGGREGATE.worstRating,
+        "reviewCount": String(TRUSTPILOT_AGGREGATE.reviewCount),
       },
       ...reviews.map((r) => ({
         "@type": "Review",

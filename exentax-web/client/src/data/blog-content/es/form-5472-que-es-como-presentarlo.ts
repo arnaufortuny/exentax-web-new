@@ -1,5 +1,8 @@
 export default `
 
+<p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
+
+
 Si tienes una LLC en Estados Unidos como no residente, el Form 5472 es una declaración informativa que el IRS solicita cada año. Suena intimidante, pero tranquilo: es papeleo informativo, no es un pago de impuestos, y en Exentax nos encargamos de todo por ti. Literalmente no tienes que hacer nada.
 
 ## ¿Qué es el Form 5472?

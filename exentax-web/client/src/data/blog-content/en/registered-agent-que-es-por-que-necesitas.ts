@@ -1,4 +1,7 @@
-export default `Every US LLC must have a Registered Agent. This is not optional. it's a legal requirement in all 50 states. Here's what it is, why it matters, and what happens if you don't have one.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+Every US LLC must have a Registered Agent. This is not optional. it's a legal requirement in all 50 states. Here's what it is, why it matters, and what happens if you don't have one.
 
 ## What is a Registered Agent?
 

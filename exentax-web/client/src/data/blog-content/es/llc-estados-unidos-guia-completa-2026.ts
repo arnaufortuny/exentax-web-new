@@ -1,5 +1,8 @@
 export default `
 
+<p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
+
+
 Una LLC (Limited Liability Company) es la estructura empresarial más utilizada por freelancers y emprendedores digitales no residentes que operan desde fuera de Estados Unidos. Combina protección patrimonial con una fiscalidad favorable, y lo más importante: es completamente legal. Miles de profesionales hispanohablantes ya la usan para facturar a clientes globales, cobrar en dólares y dejar de regalar la mitad de lo que ganan al fisco.
 
 En esta guía te contamos todo lo que necesitas saber antes de dar el paso. Sin rodeos, sin letra pequeña, sin el típico "consulta con tu asesor". En Exentax nos encargamos de todo, así que te lo explicamos como si ya fueras cliente.

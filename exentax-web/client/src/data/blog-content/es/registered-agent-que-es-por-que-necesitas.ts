@@ -1,5 +1,8 @@
 export default `
 
+<p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
+
+
 Si estás constituyendo una LLC en Estados Unidos, uno de los requisitos obligatorios es designar un Registered Agent (agente registrado). No es opcional, sin él, no puedes constituir ni mantener tu LLC en ningún estado. Pero tranquilo: en Exentax el Registered Agent viene incluido en todos nuestros planes. No tienes que buscarlo, contratarlo ni renovarlo. Nos encargamos de todo.
 
 ## ¿Qué es un Registered Agent?

@@ -1,4 +1,7 @@
-export default `Quando começas a pesquisar sobre LLCs a partir de Lisboa, Porto ou de qualquer cidade do Brasil, aparece sempre a mesma pergunta nos fóruns: Novo México, Wyoming ou Delaware? Aviso: o "melhor estado" do YouTube é quase nunca o melhor para um não residente lusófono. O Delaware, por exemplo, só faz mesmo sentido se planeias levantar capital com fundos americanos, o que não é o teu caso se faturas os teus clientes a partir de casa em Portugal ou no Brasil.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA em 2026</a>.</p>
+Quando começas a pesquisar sobre LLCs a partir de Lisboa, Porto ou de qualquer cidade do Brasil, aparece sempre a mesma pergunta nos fóruns: Novo México, Wyoming ou Delaware? Aviso: o "melhor estado" do YouTube é quase nunca o melhor para um não residente lusófono. O Delaware, por exemplo, só faz mesmo sentido se planeias levantar capital com fundos americanos, o que não é o teu caso se faturas os teus clientes a partir de casa em Portugal ou no Brasil.
 
 Nesta comparação pomos lado a lado os três estados mais populares com números reais (taxas anuais, fiscalidade, privacidade do sócio) e dizemos-te com honestidade qual escolher segundo o teu perfil.
 

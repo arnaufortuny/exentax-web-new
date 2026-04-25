@@ -1,4 +1,7 @@
-export default `Vous facturez des clients à l'étranger depuis la France ou la Belgique, et chaque trimestre l'URSSAF vous rappelle qu'environ 45 % de ce que vous gagnez part en cotisations et impôts? Vous n'êtes pas seul. De plus en plus de freelances francophones, qu'ils soient développeurs, consultants ou créateurs de contenu, structurent désormais leur activité internationale via une LLC américaine.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+Vous facturez des clients à l'étranger depuis la France ou la Belgique, et chaque trimestre l'URSSAF vous rappelle qu'environ 45 % de ce que vous gagnez part en cotisations et impôts? Vous n'êtes pas seul. De plus en plus de freelances francophones, qu'ils soient développeurs, consultants ou créateurs de contenu, structurent désormais leur activité internationale via une LLC américaine.
 
 Une LLC (Limited Liability Company) bien montée n'a rien à voir avec un schéma offshore: c'est une société américaine reconnue par l'IRS, parfaitement légale, qui combine protection du patrimoine et fiscalité pass-through. Ce guide vous explique, sans langue de bois, comment elle fonctionne actuellement, ce qu'elle change pour un non-résident et où elle a réellement du sens.
 

@@ -1,4 +1,7 @@
-export default `Faturas a clientes lá fora a partir de Portugal ou do Brasil e, no fim do ano, sentes que entregas metade ao Estado entre <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, derrama e Segurança Social? Não és exceção. Cada vez mais freelancers, programadores e criadores lusófonos passaram a estruturar a sua atividade internacional através de uma LLC americana.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA em 2026</a>.</p>
+Faturas a clientes lá fora a partir de Portugal ou do Brasil e, no fim do ano, sentes que entregas metade ao Estado entre <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, derrama e Segurança Social? Não és exceção. Cada vez mais freelancers, programadores e criadores lusófonos passaram a estruturar a sua atividade internacional através de uma LLC americana.
 
 Uma LLC (Limited Liability Company) bem constituída não é um esquema offshore: é uma sociedade dos Estados Unidos reconhecida pelo IRS, totalmente legal, que combina proteção patrimonial e tributação pass-through (0 % federal nos EUA para não residentes). Este guia explica, sem rodeios, como funciona atualmente, o que muda para quem vive em Lisboa, Porto, São Paulo ou Lisboa fiscal, e quando faz mesmo sentido dar o salto.
 

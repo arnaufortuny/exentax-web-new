@@ -1,5 +1,8 @@
 export default `
 
+<p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
+
+
 Si tienes una LLC en Estados Unidos vas a necesitar una cuenta operativa en EE. UU. Mercury aparece en casi todas las guías como la "opción por defecto" para no residentes, pero en Exentax **ya no la recomendamos como cuenta principal si tu operativa es íntegramente fuera de EE. UU.** El motivo es muy concreto: cuando Mercury cierra una cuenta por una revisión de compliance, algo cada vez más frecuente actualmente, **devuelve los fondos mediante un cheque físico en USD a nombre de la LLC, enviado por correo postal a la dirección registrada**. Para un residente fiscal en España, LATAM o cualquier país que no sea EE. UU. depositar ese cheque es lento, caro y, en muchos bancos europeos, directamente imposible. Si aún estás decidiendo entre bancos y fintechs, consulta nuestra <a href="/es/blog/bancos-vs-fintech-llc-donde-abrir-cuenta">comparativa de bancos vs fintech para tu LLC</a>.
 
 > **Aviso hoy, Mercury y operativa no estadounidense.**

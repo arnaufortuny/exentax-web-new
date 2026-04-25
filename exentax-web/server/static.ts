@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS } from "./seo-content";
+import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS, PAGE_SCHEMAS_I18N } from "./seo-content";
 import { FAQ_SCHEMA_ENTRIES_I18N } from "./faq-schema-i18n";
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
@@ -401,7 +401,16 @@ function injectMeta(html: string, reqPath: string): string {
     });
   }
 
-  let pageSchemas: JsonLdSchema[] | undefined = routeKey ? (PAGE_SCHEMAS[routeKey] as JsonLdSchema[] | undefined) : undefined;
+  // Task #14 (GEO): prefer the per-language schema bucket when present,
+  // so the pillar page (and any future locale-specific routes) ships
+  // bot-visible Article/HowTo/FAQPage in the correct language; fall back
+  // to PAGE_SCHEMAS otherwise.
+  let pageSchemas: JsonLdSchema[] | undefined;
+  if (routeKey) {
+    const i18nBucket = PAGE_SCHEMAS_I18N[routeKey];
+    pageSchemas = (i18nBucket?.[prerenderLang as SupportedLang] as JsonLdSchema[] | undefined)
+      ?? (PAGE_SCHEMAS[routeKey] as JsonLdSchema[] | undefined);
+  }
   if (!pageSchemas && isBlogArticle && blogSlug) {
     const post = BLOG_POSTS.find(p => p.slug === blogSlug);
     if (post) {

@@ -1,4 +1,7 @@
-export default `L'EIN (Employer Identification Number) és, per a la teva LLC, l'equivalent al NIF de l'empresa a Espanya. L'emet l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i, sense ell, la teva LLC existeix sobre el paper però no pot fer absolutament res a la pràctica: ni compte Mercury, ni Stripe US, ni declaració anual, ni rebre transferències de clients americans.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+L'EIN (Employer Identification Number) és, per a la teva LLC, l'equivalent al NIF de l'empresa a Espanya. L'emet l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i, sense ell, la teva LLC existeix sobre el paper però no pot fer absolutament res a la pràctica: ni compte Mercury, ni Stripe US, ni declaració anual, ni rebre transferències de clients americans.
 
 La bona notícia és que aconseguir l'EIN com a no resident català sense SSN és un procés estàndard que fem desenes de vegades al mes a Exentax. Aquí t'expliquem com funciona, quant triga realment actualment i per què aquest pas és el que ho desbloqueja tot.
 

@@ -1,4 +1,7 @@
-export default `Si véns de l'autònom, probablement t'has acostumat a fer servir el compte professional per pagar el súper. Amb una LLC, aquest reflex destrueix la protecció jurídica: un jutge americà travessa el vel („pierce the corporate veil”) en tres moviments sospitosos. I l'AEAT pot requalificar aquests fluxos com a rendiments personals no declarats.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+Si véns de l'autònom, probablement t'has acostumat a fer servir el compte professional per pagar el súper. Amb una LLC, aquest reflex destrueix la protecció jurídica: un jutge americà travessa el vel („pierce the corporate veil”) en tres moviments sospitosos. I l'AEAT pot requalificar aquests fluxos com a rendiments personals no declarats.
 
 En aquest article t'expliquem per què és tan important, quines conseqüències té barrejar fons, i com implementar una separació financera sòlida des del primer dia.
 

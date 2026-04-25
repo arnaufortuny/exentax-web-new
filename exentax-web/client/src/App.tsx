@@ -22,6 +22,7 @@ const pageImports = {
   service_llc_de: () => import("@/pages/services/llc-delaware"),
   service_llc_fl: () => import("@/pages/services/llc-florida"),
   service_itin: () => import("@/pages/services/itin"),
+  pillar_open_llc: () => import("@/pages/abrir-llc"),
   legal_terms: () => import("@/pages/legal/terms"),
   legal_privacy: () => import("@/pages/legal/privacy"),
   legal_cookies: () => import("@/pages/legal/cookies"),
@@ -46,6 +47,7 @@ const ServiceLlcWyPage = lazy(pageImports.service_llc_wy);
 const ServiceLlcDePage = lazy(pageImports.service_llc_de);
 const ServiceLlcFlPage = lazy(pageImports.service_llc_fl);
 const ServiceItinPage  = lazy(pageImports.service_itin);
+const PillarOpenLlcPage = lazy(pageImports.pillar_open_llc);
 const TerminosPage     = lazy(pageImports.legal_terms);
 const PrivacidadPage   = lazy(pageImports.legal_privacy);
 const CookiesPage      = lazy(pageImports.legal_cookies);
@@ -68,6 +70,7 @@ const PAGE_COMPONENTS: Record<RouteKey, React.LazyExoticComponent<React.Componen
   service_llc_de: ServiceLlcDePage,
   service_llc_fl: ServiceLlcFlPage,
   service_itin: ServiceItinPage,
+  pillar_open_llc: PillarOpenLlcPage,
   legal_terms: TerminosPage,
   legal_privacy: PrivacidadPage,
   legal_cookies: CookiesPage,

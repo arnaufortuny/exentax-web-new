@@ -70,19 +70,27 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
   const seoOgDesc = t(k("seo.ogDescription"), { defaultValue: "" }) as string;
   const breadcrumbName = t(k("breadcrumb"));
 
+  // Task #14 (GEO): we emit a `ProfessionalService` (a more specific schema.org
+  // type than `Service`) and reference the canonical Organization node defined
+  // in `client/index.html` via `provider.@id`. This keeps a single
+  // Organization entity across the graph so AI engines and Google merge the
+  // signals (aggregateRating, sameAs, knowsAbout, contactPoint) onto the same
+  // brand instead of treating every service page as a stand-alone vendor.
   const serviceJsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": ["Service", "ProfessionalService"],
     name: t(k("jsonLd.name")),
     serviceType: t(k("jsonLd.serviceType")),
-    provider: {
-      "@type": "Organization",
-      name: "Exentax",
-      url: `${CONTACT.SITE_URL}${lp("home")}`,
-    },
+    provider: { "@id": `${CONTACT.SITE_URL}/#organization` },
+    brand: { "@id": `${CONTACT.SITE_URL}/#organization` },
     areaServed: { "@type": "Country", name: "United States" },
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "Non-resident freelancers, autonomos, digital nomads, SaaS founders, e-commerce sellers and online businesses",
+    },
     description: seoDesc,
     url: `${CONTACT.SITE_URL}${lp(routeKey)}`,
+    inLanguage: lp(routeKey).split("/")[1] || "es",
   };
 
   const faqJsonLd: Record<string, unknown> | null = faqItems.length > 0 ? {

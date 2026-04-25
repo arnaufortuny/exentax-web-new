@@ -1,4 +1,7 @@
-export default `Wenn Sie aus Deutschland, Österreich oder der Schweiz eine LLC gründen wollen, stoßen Sie sehr schnell auf dieselbe Frage in allen Foren: New Mexico, Wyoming oder Delaware? Spoiler: Der „beste Bundesstaat" aus YouTube-Videos ist für deutschsprachige Nichtansässige in den meisten Fällen die falsche Wahl. Delaware ergibt zum Beispiel nur dann Sinn, wenn Sie US-Investoren ins Boot holen wollen, und das ist meist nicht der Fall, wenn Sie Ihre Kunden ohnehin aus München, Wien oder Zürich heraus betreuen.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA im Jahr 2026</a>.</p>
+Wenn Sie aus Deutschland, Österreich oder der Schweiz eine LLC gründen wollen, stoßen Sie sehr schnell auf dieselbe Frage in allen Foren: New Mexico, Wyoming oder Delaware? Spoiler: Der „beste Bundesstaat" aus YouTube-Videos ist für deutschsprachige Nichtansässige in den meisten Fällen die falsche Wahl. Delaware ergibt zum Beispiel nur dann Sinn, wenn Sie US-Investoren ins Boot holen wollen, und das ist meist nicht der Fall, wenn Sie Ihre Kunden ohnehin aus München, Wien oder Zürich heraus betreuen.
 
 In diesem Vergleich stellen wir die drei beliebtesten Bundesstaaten mit realen Zahlen gegenüber (Jahresgebühren, Besteuerung, Privatsphäre des Inhabers) und sagen Ihnen ehrlich, welcher zu Ihrem Profil passt.
 

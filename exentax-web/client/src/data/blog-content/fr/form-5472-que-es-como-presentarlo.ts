@@ -1,4 +1,7 @@
-export default `Vous avez créé votre LLC américaine depuis la France, la Belgique ou le Québec, et quelqu'un sur Reddit vous a parlé du « Form 5472 » avec une amende de 25 000 $ à la clé? Respirez. Le Form 5472 n'est qu'une déclaration informative que l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demande chaque année à toute LLC détenue par un non-résident, au même titre qu'un simple imprimé d'information à l'administration fiscale française. Ce n'est ni un avis d'imposition, ni un contrôle.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+Vous avez créé votre LLC américaine depuis la France, la Belgique ou le Québec, et quelqu'un sur Reddit vous a parlé du « Form 5472 » avec une amende de 25 000 $ à la clé? Respirez. Le Form 5472 n'est qu'une déclaration informative que l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demande chaque année à toute LLC détenue par un non-résident, au même titre qu'un simple imprimé d'information à l'administration fiscale française. Ce n'est ni un avis d'imposition, ni un contrôle.
 
 Chez Exentax, nous le préparons et le déposons pour vous chaque année dans le cadre de la maintenance annuelle. Voici, en clair, à quoi il sert, qui doit le déposer et pourquoi il ne doit pas vous empêcher de dormir.
 

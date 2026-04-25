@@ -1,4 +1,7 @@
-export default `Has constituït la teva LLC americana des de Catalunya i algú t'ha parlat del "Form 5472" amb una multa de 25.000 USD si te'l descuides? Tranquil. El Form 5472 és només una declaració informativa que l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demana cada any a qualsevol LLC amb soci estranger, com una simple comunicació informativa a l'AEAT. No és cap liquidació d'impostos ni cap inspecció.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+Has constituït la teva LLC americana des de Catalunya i algú t'ha parlat del "Form 5472" amb una multa de 25.000 USD si te'l descuides? Tranquil. El Form 5472 és només una declaració informativa que l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> demana cada any a qualsevol LLC amb soci estranger, com una simple comunicació informativa a l'AEAT. No és cap liquidació d'impostos ni cap inspecció.
 
 A Exentax el preparem i el presentem per tu cada any dins del manteniment anual de la teva LLC. Aquí t'expliquem, sense drames, per a què serveix, qui l'ha de presentar i per què no et mereix treure't la son.
 

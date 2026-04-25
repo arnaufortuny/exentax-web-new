@@ -1,4 +1,7 @@
-export default `Sie haben Ihre US-LLC aus Deutschland, Österreich oder der Schweiz gegründet und plötzlich liest man von einem mysteriösen „Form 5472" mit einer Strafe von 25.000 USD bei Versäumnis? Bitte ruhig bleiben. Das Form 5472 ist eine reine Informationsmeldung, die der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> jedes Jahr von jeder LLC mit ausländischem Eigentümer verlangt, vergleichbar mit einer Mitteilungspflicht an das Finanzamt. Es ist weder ein Steuerbescheid noch eine Prüfung.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA im Jahr 2026</a>.</p>
+Sie haben Ihre US-LLC aus Deutschland, Österreich oder der Schweiz gegründet und plötzlich liest man von einem mysteriösen „Form 5472" mit einer Strafe von 25.000 USD bei Versäumnis? Bitte ruhig bleiben. Das Form 5472 ist eine reine Informationsmeldung, die der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> jedes Jahr von jeder LLC mit ausländischem Eigentümer verlangt, vergleichbar mit einer Mitteilungspflicht an das Finanzamt. Es ist weder ein Steuerbescheid noch eine Prüfung.
 
 Bei Exentax bereiten wir das Form 5472 für Sie vor und reichen es jedes Jahr im Rahmen der jährlichen Wartung Ihrer LLC ein. Im Folgenden erklären wir Ihnen klar, wofür es da ist, wer es abgeben muss und warum es kein Grund zur Sorge sein sollte.
 

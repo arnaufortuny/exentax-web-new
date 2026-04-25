@@ -1,4 +1,7 @@
-export default `If you own a US LLC as a non-resident, the Form 5472 is an informational return the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> requires every year. It sounds intimidating, but rest assured: it's informational paperwork, not a tax payment, and at Exentax we handle everything for you. You literally don't have to do anything.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+If you own a US LLC as a non-resident, the Form 5472 is an informational return the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> requires every year. It sounds intimidating, but rest assured: it's informational paperwork, not a tax payment, and at Exentax we handle everything for you. You literally don't have to do anything.
 
 ### What is Form 5472?
 

@@ -1,4 +1,7 @@
-export default `Sie rechnen aus Deutschland, Österreich oder der Schweiz für internationale Kunden ab und sehen jedes Jahr, wie Finanzamt, Soli und Krankenkasse einen Großteil Ihres Gewinns auffressen? Damit sind Sie nicht allein. Immer mehr deutschsprachige Freiberufler, Entwickler und Online-Unternehmer strukturieren ihr internationales Geschäft heute über eine US-LLC.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA im Jahr 2026</a>.</p>
+Sie rechnen aus Deutschland, Österreich oder der Schweiz für internationale Kunden ab und sehen jedes Jahr, wie Finanzamt, Soli und Krankenkasse einen Großteil Ihres Gewinns auffressen? Damit sind Sie nicht allein. Immer mehr deutschsprachige Freiberufler, Entwickler und Online-Unternehmer strukturieren ihr internationales Geschäft heute über eine US-LLC.
 
 Eine LLC (Limited Liability Company) ist kein Offshore-Konstrukt, sondern eine vom IRS anerkannte US-Gesellschaft. Sie verbindet Haftungsbegrenzung mit der sogenannten Pass-Through-Besteuerung und ist für Nichtansässige in den USA föderal mit 0 % belastet. Dieser Leitfaden erklärt aktuell Punkt für Punkt, was die LLC wirklich kann, wo sie sich für deutschsprachige Unternehmer rechnet und wo nicht.
 

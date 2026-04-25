@@ -1,4 +1,7 @@
-export default `A Catalunya no hi ha un equivalent directe al Registered Agent: és una barreja de domicili social, representant fiscal i procurador. Cada estat dels EUA exigeix que la LLC en nomeni un, físicament a l'estat, disponible en horari comercial. I no, el teu Registered Agent no és la teva adreça bancària.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+A Catalunya no hi ha un equivalent directe al Registered Agent: és una barreja de domicili social, representant fiscal i procurador. Cada estat dels EUA exigeix que la LLC en nomeni un, físicament a l'estat, disponible en horari comercial. I no, el teu Registered Agent no és la teva adreça bancària.
 
 ## Què és un Registered Agent?
 

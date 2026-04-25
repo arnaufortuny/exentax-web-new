@@ -1,4 +1,7 @@
-export default `Quan comences a investigar sobre LLCs des de Catalunya, sempre acaba apareixent la mateixa pregunta als fòrums: Nou Mèxic, Wyoming o Delaware? Avís: el "millor estat" del YouTube quasi mai és el millor per a un no resident català. Delaware, per exemple, només té sentit si vols aixecar capital amb fons americans, cosa que no és el teu cas si factures els teus clients des de casa a Barcelona o Girona.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+Quan comences a investigar sobre LLCs des de Catalunya, sempre acaba apareixent la mateixa pregunta als fòrums: Nou Mèxic, Wyoming o Delaware? Avís: el "millor estat" del YouTube quasi mai és el millor per a un no resident català. Delaware, per exemple, només té sentit si vols aixecar capital amb fons americans, cosa que no és el teu cas si factures els teus clients des de casa a Barcelona o Girona.
 
 En aquesta comparativa posem costat a costat els tres estats més populars amb números reals (taxes anuals, fiscalitat, privacitat del soci) i et diem amb honestedat quin triar segons el teu perfil.
 

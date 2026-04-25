@@ -179,9 +179,37 @@ for (const rel of pageFiles) {
   pagesChecked++;
 }
 
+// ---------------------------------------------------------------------------
+// Task #14 (GEO) — pillar pages must ship a visible atomic-answer block.
+// The atomic answer is the first thing AI engines and SERPs lift, so any
+// pillar that drops it silently is treated as a hard error here. We scan
+// the file for the canonical `data-testid="atomic-answer-callout"` marker
+// and a HowTo JSON-LD signal — if either is missing the build fails.
+// ---------------------------------------------------------------------------
+const PILLAR_FILES = [
+  "abrir-llc.tsx",
+];
+for (const rel of PILLAR_FILES) {
+  const p = path.join(PAGES_DIR, rel);
+  if (!exists(p)) {
+    errors.push(`${rel} [pillar] — pillar page file missing (Task #14 GEO requires it)`);
+    continue;
+  }
+  const txt = read(p);
+  if (!/data-testid="atomic-answer-callout"/.test(txt)) {
+    errors.push(`${rel} [pillar] — missing atomic-answer-callout block (required for AI engine / featured-snippet pickup)`);
+  }
+  if (!/"@type":\s*"HowTo"/.test(txt)) {
+    errors.push(`${rel} [pillar] — missing HowTo JSON-LD (required for "abrir LLC" thematic authority)`);
+  }
+  if (!/PILLAR_CONTENT/.test(txt)) {
+    errors.push(`${rel} [pillar] — missing PILLAR_CONTENT locale map (one entry per supported language)`);
+  }
+}
+
 if (errors.length) {
   console.error(`SEO META AUDIT — ${errors.length} violation(s):`);
   for (const e of errors) console.error("  ✗ " + e);
   process.exit(1);
 }
-console.log(`SEO META AUDIT — OK (${posts.length} posts × ${1 + LANGS_T.length} langs, ${pagesChecked} public pages).`);
+console.log(`SEO META AUDIT — OK (${posts.length} posts × ${1 + LANGS_T.length} langs, ${pagesChecked} public pages, ${PILLAR_FILES.length} pillar(s)).`);

@@ -1,4 +1,7 @@
-export default `En France, on n'a pas vraiment d'équivalent au Registered Agent: c'est le cocktail d'une adresse de siège social + un commissaire aux comptes + un huissier de justice. Chaque État américain exige qu'une LLC en désigne un, physiquement situé sur place, disponible aux heures ouvrables. Et non, votre Registered Agent n'est pas votre adresse bancaire.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+En France, on n'a pas vraiment d'équivalent au Registered Agent: c'est le cocktail d'une adresse de siège social + un commissaire aux comptes + un huissier de justice. Chaque État américain exige qu'une LLC en désigne un, physiquement situé sur place, disponible aux heures ouvrables. Et non, votre Registered Agent n'est pas votre adresse bancaire.
 
 ## Qu'est-ce qu'un Registered Agent?
 

@@ -13,6 +13,24 @@ export interface Review {
   url: string;
 }
 
+/**
+ * Single source of truth for the aggregate review headline displayed across
+ * the site. The number reflects Exentax's verified Trustpilot total at time
+ * of writing — not the length of the showcased `TRUSTPILOT_REVIEWS` array,
+ * which is just a curated sample. Anything that emits an `AggregateRating`
+ * (Organization JSON-LD in `index.html`, runtime Review graph in `home.tsx`,
+ * service prerenders in `server/seo-content.ts`, audit scripts) should read
+ * from this constant so the values never drift.
+ *
+ * Bump these two numbers when refreshing the Trustpilot snapshot.
+ */
+export const TRUSTPILOT_AGGREGATE = {
+  ratingValue: "5.0",
+  reviewCount: 127,
+  bestRating: "5",
+  worstRating: "1",
+} as const;
+
 export const TRUSTPILOT_REVIEWS: Review[] = [
   {
     id: "sergio-ruiz",

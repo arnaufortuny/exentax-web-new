@@ -1,4 +1,7 @@
-export default `O EIN (Employer Identification Number) é, para a tua LLC, o equivalente ao NIF da empresa em Portugal ou ao CNPJ no Brasil. É o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> que o emite e, sem ele, a tua LLC existe no papel mas não pode fazer absolutamente nada na prática: nem conta Mercury, nem Stripe US, nem declaração anual, nem receber transferências de clientes americanos.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA em 2026</a>.</p>
+O EIN (Employer Identification Number) é, para a tua LLC, o equivalente ao NIF da empresa em Portugal ou ao CNPJ no Brasil. É o <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> que o emite e, sem ele, a tua LLC existe no papel mas não pode fazer absolutamente nada na prática: nem conta Mercury, nem Stripe US, nem declaração anual, nem receber transferências de clientes americanos.
 
 A boa notícia é que obter o EIN sendo não residente lusófono e sem SSN é um processo padrão que tratamos dezenas de vezes por mês na Exentax. Aqui mostramos como funciona, quanto demora realmente atualmente e porque é este o passo que destranca tudo o resto.
 

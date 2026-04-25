@@ -807,6 +807,10 @@ export default function BlogPost() {
   const faqPairs = contentText ? extractFaqQA(contentText, lang) : [];
   const faqJsonLd = buildFaqJsonLd(faqPairs, articleUrl, lang);
 
+  // Task #14 (GEO): BlogPosting now uses a Person author (Exentax editorial
+  // team byline) and a publisher referenced by `@id` to the canonical
+  // Organization in `index.html`. Authoritative entity authoring is one of
+  // the strongest signals AI engines use when deciding which source to cite.
   const blogPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -815,18 +819,13 @@ export default function BlogPost() {
     "datePublished": post.publishedAt,
     "dateModified": post.updatedAt || post.publishedAt,
     "author": {
-      "@type": "Organization",
-      "name": BRAND.NAME,
-      "url": CONTACT.SITE_URL,
+      "@type": "Person",
+      "name": "Exentax Editorial Team",
+      "jobTitle": "International tax & US LLC compliance specialists",
+      "worksFor": { "@id": `${CONTACT.SITE_URL}/#organization` },
+      "url": `${CONTACT.SITE_URL}/${lang}`,
     },
-    "publisher": {
-      "@type": "Organization",
-      "name": BRAND.NAME,
-      "logo": {
-        "@type": "ImageObject",
-        "url": `${CONTACT.SITE_URL}/og-image.png`,
-      },
-    },
+    "publisher": { "@id": `${CONTACT.SITE_URL}/#organization` },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": articleUrl,
@@ -842,8 +841,66 @@ export default function BlogPost() {
     },
   };
 
+  // Task #14 (GEO): atomic-answer source. Every post's `excerpt` (or its
+  // metaDescription fallback) is already a 1-paragraph summary written for
+  // SERP/social share contexts. We surface it both as a visible callout at
+  // the top of the article (so an LLM crawler reading rendered HTML lifts a
+  // clean answer) and as the `description`/HowTo step text in JSON-LD.
+  const atomicAnswerText: string = (
+    (localized?.excerpt && localized.excerpt.trim()) ||
+    (post.excerpt && post.excerpt.trim()) ||
+    displayMetaDesc ||
+    ""
+  );
+
+  // Task #14 (GEO): a curated allow-list of procedural posts that genuinely
+  // describe a step-by-step how-to. We deliberately keep the list short so
+  // we never emit HowTo schema for opinion pieces or country-overview posts
+  // (Google penalises HowTo on non-procedural content). Slugs are the
+  // canonical Spanish slugs from `client/src/data/blog-posts.ts`.
+  const HOWTO_PROCEDURAL_SLUGS: ReadonlySet<string> = new Set([
+    "constituir-llc-proceso-paso-a-paso",
+    "ein-numero-fiscal-llc-como-obtenerlo",
+    "cuenta-bancaria-mercury-llc-extranjero",
+    "form-5472-que-es-como-presentarlo",
+    "extension-irs-form-1120-como-solicitarla",
+    "boi-report-fincen-guia-completa-2026",
+    "wise-business-llc-guia",
+    "como-operar-llc-dia-a-dia",
+    "registered-agent-que-es-por-que-necesitas",
+    "operating-agreement-llc-que-es",
+  ]);
+
+  // Build a HowTo from the article's H2 headings (already extracted into
+  // `tocItems` for the table-of-contents). We keep at most 12 steps and
+  // require at least 3, otherwise the schema would mislead crawlers.
+  const howToJsonLd: Record<string, unknown> | null = (() => {
+    if (!HOWTO_PROCEDURAL_SLUGS.has(post.slug)) return null;
+    const steps = parsed.toc
+      .filter((i) => i.level === 2)
+      .slice(0, 12)
+      .map((s, idx) => ({
+        "@type": "HowToStep",
+        position: idx + 1,
+        name: s.text,
+        url: `${articleUrl}#${s.id}`,
+      }));
+    if (steps.length < 3) return null;
+    return {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: displayTitle,
+      description: atomicAnswerText || displayMetaDesc,
+      totalTime: "P30D",
+      inLanguage: lang,
+      mainEntityOfPage: { "@id": articleUrl },
+      step: steps,
+    };
+  })();
+
   const allJsonLd: Record<string, unknown>[] = [blogPostingJsonLd];
   if (faqJsonLd) allJsonLd.push(faqJsonLd);
+  if (howToJsonLd) allJsonLd.push(howToJsonLd);
 
   return (
     <>
@@ -944,6 +1001,32 @@ export default function BlogPost() {
                 )}
 
                 <AiSummaryButtons title={displayTitle} slug={post.slug} lang={lang} />
+
+                {/* Task #14 (GEO): "atomic answer" callout — the post excerpt
+                    rendered as a quotable summary at the top of the article.
+                    AI engines that fetch the rendered HTML lift this block as
+                    the canonical 1-paragraph answer and pair it with the
+                    BlogPosting + HowTo JSON-LD below. */}
+                {atomicAnswerText && (
+                  <aside
+                    className="mb-10 rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--bg-1)]/40 p-5 sm:p-6"
+                    aria-label={t("blogPost.atomicAnswerLabel", { defaultValue: "Quick answer" }) as string}
+                    data-testid="atomic-answer-callout"
+                  >
+                    <p
+                      className="font-heading text-[11.5px] sm:text-[12px] tracking-[0.16em] uppercase text-[var(--text-3)] mb-2"
+                      data-testid="atomic-answer-label"
+                    >
+                      {t("blogPost.atomicAnswerLabel", { defaultValue: "Quick answer" })}
+                    </p>
+                    <p
+                      className="text-[15px] sm:text-base leading-relaxed text-[var(--text-1)]"
+                      data-testid="atomic-answer-body"
+                    >
+                      {atomicAnswerText}
+                    </p>
+                  </aside>
+                )}
 
                 <div
                   ref={articleRef}

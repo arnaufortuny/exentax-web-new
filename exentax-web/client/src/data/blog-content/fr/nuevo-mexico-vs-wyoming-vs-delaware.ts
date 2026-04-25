@@ -1,4 +1,7 @@
-export default `Au moment de constituer votre LLC depuis la France, vous tombez vite sur la même question sur tous les forums: Nouveau-Mexique, Wyoming ou Delaware? Spoiler: pour la majorité des freelances francophones non-résidents, le « meilleur État » de YouTube n'est presque jamais le bon. Delaware, par exemple, n'a d'intérêt réel que si vous visez un fonds d'investissement américain, ce qui n'est pas votre cas si vous facturez vos clients depuis Paris, Bruxelles ou Montréal.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+Au moment de constituer votre LLC depuis la France, vous tombez vite sur la même question sur tous les forums: Nouveau-Mexique, Wyoming ou Delaware? Spoiler: pour la majorité des freelances francophones non-résidents, le « meilleur État » de YouTube n'est presque jamais le bon. Delaware, par exemple, n'a d'intérêt réel que si vous visez un fonds d'investissement américain, ce qui n'est pas votre cas si vous facturez vos clients depuis Paris, Bruxelles ou Montréal.
 
 Dans ce comparatif, nous mettons côte à côte les trois États les plus populaires avec des chiffres réels (frais annuels, fiscalité, vie privée du gérant) et nous vous disons honnêtement lequel choisir selon votre profil.
 

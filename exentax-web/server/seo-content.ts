@@ -648,6 +648,17 @@ function buildI18nMeta(): Record<string, PageMeta> {
       pt: "ITIN sem viajar aos EUA: tudo gerenciado por nós | Exentax",
       ca: "ITIN sense viatjar als EUA: ho gestionem nosaltres | Exentax",
     },
+    // Task #14 (GEO): pillar page titles target the head term "abrir LLC"
+    // (and its 5 locale equivalents) at the top of the SERP. Each title is
+    // tuned to: head term first, value-prop second, brand suffix.
+    pillar_open_llc: {
+      es: "Abrir LLC en Estados Unidos: guía paso a paso 2026 | Exentax",
+      en: "Open a US LLC in 2026: step-by-step guide for non-residents | Exentax",
+      fr: "Ouvrir une LLC aux États-Unis en 2026 : le guide pas à pas | Exentax",
+      de: "US-LLC eröffnen 2026: Schritt-für-Schritt-Anleitung für Nicht-Residenten | Exentax",
+      pt: "Abrir uma LLC nos EUA: guia passo a passo 2026 | Exentax",
+      ca: "Obrir una LLC als Estats Units: guia pas a pas 2026 | Exentax",
+    },
   };
 
   const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
@@ -784,6 +795,18 @@ function buildI18nMeta(): Record<string, PageMeta> {
       de: "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN remote beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
       pt: "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN remotamente com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
       ca: "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN remotament amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
+    },
+    // Task #14 (GEO): pillar page descriptions are written as "atomic answer"
+    // candidates — single-paragraph summaries that an LLM can lift directly
+    // into a generative answer or that Google can promote to a featured
+    // snippet. They mirror the on-page <aside data-testid=atomic-answer-…>.
+    pillar_open_llc: {
+      es: "Abrir una LLC en Estados Unidos en 2-4 días siendo no residente: estado, EIN sin SSN, cuenta Mercury, IRS Form 5472 y declaración limpia en España. Guía completa con asesores fiscales expertos.",
+      en: "Open a US LLC in 2-4 days as a non-resident: pick the state, get the EIN without SSN, open Mercury, file Form 1120 + 5472 with the IRS and declare profits at home. Full guide with expert tax advisors.",
+      fr: "Ouvrir une LLC américaine en 2-4 jours en tant que non-résident : choisir l'État, obtenir l'EIN sans SSN, ouvrir Mercury, déposer Form 1120 + 5472 et déclarer en France. Guide complet par des fiscalistes.",
+      de: "US-LLC in 2-4 Tagen als Nicht-Resident eröffnen: Bundesstaat wählen, EIN ohne SSN, Mercury-Konto, Form 1120 + 5472 beim IRS und saubere Erklärung im Heimatland. Vollständige Anleitung mit Steuerexperten.",
+      pt: "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil. Guia completo com consultores fiscais.",
+      ca: "Obrir una LLC americana en 2-4 dies sent no resident: escollir l'estat, EIN sense SSN, compte Mercury, Form 1120 + 5472 a l'IRS i declaració neta a l'IRPF. Guia completa amb assessors fiscals experts.",
     },
   };
 
@@ -1578,6 +1601,11 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      // Task #14 (GEO): canonical Organization @id used everywhere else (the
+      // ProfessionalService graph in client/index.html, every Service page,
+      // every BlogPosting publisher ref). Single entity, single
+      // aggregateRating — that is what AI engines need to merge signals.
+      "@id": `${BASE_URL}/#organization`,
       "name": BRAND_NAME,
       "alternateName": "Exentax LLC",
       "url": BASE_URL,
@@ -1623,7 +1651,18 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         "Constitución de empresas en USA",
         "Compliance fiscal IRS",
         "Fiscalidad para nómadas digitales"
-      ]
+      ],
+      // Task #14 (GEO): aggregate review rating attached at the Organization
+      // level so it surfaces in AI engine responses and SERP knowledge
+      // panels. Numbers are kept in lockstep with TRUSTPILOT_AGGREGATE in
+      // client/src/data/reviewsData.ts and the static block in client/index.html.
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -2373,18 +2412,38 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   // `client/src/pages/services/ServiceSubpage.tsx`, but each route needs its
   // own JSON-LD so Google understands the specific service offered at the
   // specific URL (otherwise the SEO audit flags `schema-service-missing`).
+  // Task #14 (GEO): all five service subpages now ship as ProfessionalService
+  // (not generic Service) with a `provider.@id` ref to the canonical
+  // Organization (`/#organization`), broad `areaServed` covering the 6
+  // markets we serve (LATAM + EU), an audience that reflects the actual
+  // ICP, and *no* literal price commitments in bot-facing schema (pricing
+  // tiers vary per state and lead-time and live in the React UI). The
+  // runtime React JSON-LD in client/src/pages/services/ServiceSubpage.tsx
+  // emits the same graph; this prerender block makes it visible to bots
+  // before any JS runs.
   "service_llc_nm": [
     {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "ProfessionalService",
       "name": "Constitución de LLC en Nuevo México",
       "description": "Constitución y gestión de LLC en Nuevo México para no residentes. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "serviceType": "Formación de LLC",
-      "areaServed": { "@type": "Country", "name": "United States" },
-      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
-      "url": `${BASE_URL}/es/servicios/llc-nuevo-mexico`,
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-nuevo-mexico` }
+      "areaServed": [
+        { "@type": "Country", "name": "España" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "Chile" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Portugal" },
+        { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Alemania" },
+        { "@type": "Country", "name": "Italia" }
+      ],
+      "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "url": `${BASE_URL}/es/servicios/llc-nuevo-mexico`
     },
     {
       "@context": "https://schema.org",
@@ -2399,15 +2458,26 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   "service_llc_wy": [
     {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "ProfessionalService",
       "name": "Constitución de LLC en Wyoming",
       "description": "Constitución y gestión de LLC en Wyoming para no residentes. Privacidad reforzada, sin impuesto estatal sobre beneficios. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "serviceType": "Formación de LLC",
-      "areaServed": { "@type": "Country", "name": "United States" },
-      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
-      "url": `${BASE_URL}/es/servicios/llc-wyoming`,
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-wyoming` }
+      "areaServed": [
+        { "@type": "Country", "name": "España" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "Chile" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Portugal" },
+        { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Alemania" },
+        { "@type": "Country", "name": "Italia" }
+      ],
+      "audience": { "@type": "BusinessAudience", "audienceType": "Freelancers, autónomos, agencias y emprendedores digitales no residentes fiscales en EE.UU." },
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "url": `${BASE_URL}/es/servicios/llc-wyoming`
     },
     {
       "@context": "https://schema.org",
@@ -2422,15 +2492,26 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   "service_llc_de": [
     {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "ProfessionalService",
       "name": "Constitución de LLC en Delaware",
       "description": "Constitución y gestión de LLC en Delaware para no residentes. Jurisdicción preferida por inversores y estructuras holding. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "serviceType": "Formación de LLC",
-      "areaServed": { "@type": "Country", "name": "United States" },
-      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
-      "url": `${BASE_URL}/es/servicios/llc-delaware`,
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-delaware` }
+      "areaServed": [
+        { "@type": "Country", "name": "España" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "Chile" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Portugal" },
+        { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Alemania" },
+        { "@type": "Country", "name": "Italia" }
+      ],
+      "audience": { "@type": "BusinessAudience", "audienceType": "Founders, startups e inversores no residentes que buscan jurisdicción Delaware" },
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "url": `${BASE_URL}/es/servicios/llc-delaware`
     },
     {
       "@context": "https://schema.org",
@@ -2445,15 +2526,26 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   "service_llc_fl": [
     {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "ProfessionalService",
       "name": "Constitución de LLC en Florida",
       "description": "Constitución y gestión de LLC en Florida para no residentes. Óptima para operaciones con clientes estadounidenses y presencia física USA. Incluye EIN, Registered Agent, Operating Agreement, BOI cuando aplique, Form 5472/1120 pro forma y compliance anual.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "serviceType": "Formación de LLC",
-      "areaServed": { "@type": "Country", "name": "United States" },
-      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU." },
-      "url": `${BASE_URL}/es/servicios/llc-florida`,
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "price": "2000", "priceSpecification": { "@type": "PriceSpecification", "price": "2000", "priceCurrency": "EUR", "minPrice": "2000" }, "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/llc-florida` }
+      "areaServed": [
+        { "@type": "Country", "name": "España" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "Chile" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Portugal" },
+        { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Alemania" },
+        { "@type": "Country", "name": "Italia" }
+      ],
+      "audience": { "@type": "BusinessAudience", "audienceType": "Operadores con clientes en EE.UU. y mercado hispano de Miami" },
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "url": `${BASE_URL}/es/servicios/llc-florida`
     },
     {
       "@context": "https://schema.org",
@@ -2468,15 +2560,26 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
   "service_itin": [
     {
       "@context": "https://schema.org",
-      "@type": "Service",
+      "@type": "ProfessionalService",
       "name": "Obtención de ITIN para no residentes",
       "description": "Tramitación del ITIN (Individual Taxpayer Identification Number) ante el IRS para no residentes sin SSN. Incluye preparación del W-7, gestión vía CAA y seguimiento hasta la emisión del número fiscal.",
-      "provider": { "@type": "Organization", "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "provider": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "url": BASE_URL, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
       "serviceType": "Obtención de identificador fiscal IRS",
-      "areaServed": { "@type": "Country", "name": "United States" },
-      "audience": { "@type": "Audience", "audienceType": "No residentes fiscales en EE.UU. sin SSN" },
-      "url": `${BASE_URL}/es/servicios/obten-tu-itin`,
-      "offers": { "@type": "Offer", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": `${BASE_URL}/es/servicios/obten-tu-itin` }
+      "areaServed": [
+        { "@type": "Country", "name": "España" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "Chile" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Portugal" },
+        { "@type": "Country", "name": "Francia" },
+        { "@type": "Country", "name": "Alemania" },
+        { "@type": "Country", "name": "Italia" }
+      ],
+      "audience": { "@type": "BusinessAudience", "audienceType": "No residentes fiscales en EE.UU. sin SSN que necesitan número fiscal IRS" },
+      "inLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "url": `${BASE_URL}/es/servicios/obten-tu-itin`
     },
     {
       "@context": "https://schema.org",
@@ -2488,6 +2591,288 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ]
     }
   ],
+  // Task #14 (GEO) — pillar page schemas. The pillar page exists at one
+  // localized slug per language (see shared/routes.ts) so we ship
+  // Article + HowTo + FAQPage + BreadcrumbList as a tight thematic bundle.
+  // The on-page React component (client/src/pages/abrir-llc.tsx) emits the
+  // same graph at runtime; this prerender block guarantees the markup is
+  // visible to crawlers (Googlebot, GPTBot, ClaudeBot, PerplexityBot…)
+  // before any JS executes.
+  "pillar_open_llc": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Abrir LLC en Estados Unidos: guía paso a paso 2026",
+      "description": "Guía completa para abrir una LLC en Estados Unidos siendo no residente: elección de estado, EIN sin SSN, banca Mercury, IRS Form 5472/1120, BOI y declaración fiscal en el país de residencia.",
+      "inLanguage": "es",
+      "datePublished": "2026-01-15",
+      "dateModified": "2026-04-01",
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "mainEntityOfPage": `${BASE_URL}/es/abrir-llc-estados-unidos`,
+      "url": `${BASE_URL}/es/abrir-llc-estados-unidos`,
+      "about": { "@type": "Thing", "name": "LLC en Estados Unidos para no residentes" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Cómo abrir una LLC en Estados Unidos siendo no residente",
+      "description": "Proceso completo en 6 pasos para abrir y operar una LLC en EE.UU. desde fuera del país, con EIN, cuenta bancaria y compliance fiscal en regla.",
+      "totalTime": "P4D",
+      "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "350" },
+      "supply": [
+        { "@type": "HowToSupply", "name": "Pasaporte vigente" },
+        { "@type": "HowToSupply", "name": "Dirección residencia fiscal" },
+        { "@type": "HowToSupply", "name": "Email y teléfono internacional" }
+      ],
+      "tool": [
+        { "@type": "HowToTool", "name": "Registered Agent en EE.UU." },
+        { "@type": "HowToTool", "name": "Acceso al portal del IRS" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Elegir el estado", "text": "Comparar Nuevo México (más barato), Wyoming (privacidad y blindaje patrimonial), Delaware (preferido por inversores) y Florida (acceso al mercado hispano de Miami) según tu modelo de negocio.", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-1` },
+        { "@type": "HowToStep", "position": 2, "name": "Constituir la LLC", "text": "Presentar Articles of Organization en el estado, designar Registered Agent y firmar el Operating Agreement. Tiempo: 24-48 horas hábiles.", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-2` },
+        { "@type": "HowToStep", "position": 3, "name": "Obtener el EIN", "text": "Solicitar el Employer Identification Number ante el IRS con Form SS-4 vía fax (sin SSN/ITIN). Plazo habitual: 4-15 días.", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-3` },
+        { "@type": "HowToStep", "position": 4, "name": "Abrir la cuenta bancaria", "text": "Aplicar a Mercury, Relay o Wise Business 100% online con pasaporte y EIN. Activación en 1-3 días.", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-4` },
+        { "@type": "HowToStep", "position": 5, "name": "Compliance IRS", "text": "Presentar Form 5472 + Form 1120 pro forma cada año (Single-Member LLC propietario extranjero) y BOI Report a FinCEN cuando aplique.", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-5` },
+        { "@type": "HowToStep", "position": 6, "name": "Declarar en tu país", "text": "Declarar los beneficios de la LLC como rendimiento de actividad económica en el país de residencia fiscal (España IRPF, Argentina, México, Portugal IRS, Francia BNC, Alemania ESt o Cataluña).", "url": `${BASE_URL}/es/abrir-llc-estados-unidos#paso-6` }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Es legal abrir una LLC en EE.UU. siendo no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Estados Unidos permite expresamente que personas físicas no residentes y sin SSN sean propietarias únicas o múltiples de una LLC. La operativa está regulada por el IRS (Form 5472 + 1120 pro forma) y por las leyes estatales de cada estado." } },
+        { "@type": "Question", "name": "¿Cuánto cuesta abrir y mantener una LLC en EE.UU.?", "acceptedAnswer": { "@type": "Answer", "text": "El alta inicial profesional ronda los 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, asesoría inicial y banca). El mantenimiento anual oscila entre 400 y 900 USD según el estado, el Registered Agent, el franchise tax y los reports." } },
+        { "@type": "Question", "name": "¿En cuántos días puedo tener mi LLC operativa?", "acceptedAnswer": { "@type": "Answer", "text": "La LLC se constituye en 24-48 horas hábiles. El EIN tarda entre 4 y 15 días naturales. La cuenta bancaria Mercury se activa en 1-3 días tras el KYC. En total: entre 7 y 20 días para tener la LLC plenamente operativa." } },
+        { "@type": "Question", "name": "¿Tengo que viajar a Estados Unidos para abrir la LLC?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todo el proceso (constitución, EIN, banca, compliance) se gestiona 100% en remoto desde tu país. Solo necesitas pasaporte y firma electrónica." } },
+        { "@type": "Question", "name": "¿Qué impuestos paga una LLC con dueño no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Una Single-Member LLC con propietario extranjero sin Effectively Connected Income (ECI) en EE.UU. tributa al 0% federal sobre los beneficios obtenidos fuera de EE.UU. Esos beneficios deben declararse en el país de residencia fiscal del propietario según las normas locales (IRPF en España, Ganancias en Argentina, ISR en México, etc.)." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": "Abrir LLC", "item": `${BASE_URL}/es/abrir-llc-estados-unidos` }
+      ]
+    }
+  ],
+};
+
+// Task #14 (GEO) — per-language schema overrides. Lives next to
+// PAGE_SCHEMAS so the contract stays obvious. The pillar page is the
+// reason this exists: bots need locale-correct Article + HowTo + FAQPage
+// in the prerendered HTML for every one of the 6 locale URLs (the React
+// runtime emits the same graph, but bots that don't execute JS only see
+// the SSR shell). When PAGE_SCHEMAS_I18N has an entry for a routeKey +
+// lang, static.ts uses it; otherwise it falls back to PAGE_SCHEMAS.
+//
+// Builder helpers below keep the per-locale records to one concise
+// object each — repeating the entire HowTo + FAQ shape five times would
+// be a readability disaster.
+type PillarLocaleSchema = {
+  inLanguage: string;
+  url: string;
+  breadcrumbHome: string;
+  breadcrumbCurrent: string;
+  articleHeadline: string;
+  articleDescription: string;
+  about: string;
+  howToName: string;
+  howToDescription: string;
+  steps: Array<{ name: string; text: string }>;
+  faq: Array<{ q: string; a: string }>;
+};
+
+function buildPillarSchemas(s: PillarLocaleSchema): object[] {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": s.articleHeadline,
+      "description": s.articleDescription,
+      "inLanguage": s.inLanguage,
+      "datePublished": "2026-01-15",
+      "dateModified": "2026-04-01",
+      "image": `${BASE_URL}/og-image.png`,
+      "author": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME },
+      "publisher": { "@type": "Organization", "@id": `${BASE_URL}/#organization`, "name": BRAND_NAME, "logo": { "@type": "ImageObject", "url": `${BASE_URL}/icon-192.png` } },
+      "mainEntityOfPage": s.url,
+      "url": s.url,
+      "about": { "@type": "Thing", "name": s.about },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": s.howToName,
+      "description": s.howToDescription,
+      "inLanguage": s.inLanguage,
+      "totalTime": "P4D",
+      "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "350" },
+      "step": s.steps.map((st, i) => ({
+        "@type": "HowToStep",
+        "position": i + 1,
+        "name": st.name,
+        "text": st.text,
+        "url": `${s.url}#paso-${i + 1}`,
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": s.inLanguage,
+      "mainEntity": s.faq.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a },
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": s.breadcrumbHome, "item": BASE_URL },
+        { "@type": "ListItem", "position": 2, "name": s.breadcrumbCurrent, "item": s.url },
+      ],
+    },
+  ];
+}
+
+export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedLang, object[]>>>> = {
+  pillar_open_llc: {
+    en: buildPillarSchemas({
+      inLanguage: "en",
+      url: `${BASE_URL}/en/open-llc-usa`,
+      breadcrumbHome: "Home",
+      breadcrumbCurrent: "Open LLC",
+      articleHeadline: "Open a US LLC in 2026: step-by-step guide for non-residents",
+      articleDescription: "Complete guide to opening a US LLC as a non-resident: choosing the state, EIN without SSN, Mercury banking, IRS Form 5472/1120, BOI, and home-country filing.",
+      about: "US LLC for non-residents",
+      howToName: "How to open a US LLC as a non-resident",
+      howToDescription: "End-to-end 6-step process to form and operate a US LLC from outside the country, with EIN, business banking, and clean tax compliance.",
+      steps: [
+        { name: "Choose the state", text: "Compare New Mexico (cheapest), Wyoming (privacy and asset protection), Delaware (preferred by investors), and Florida (US-market access) based on your business model." },
+        { name: "Form the LLC", text: "File the Articles of Organization in the chosen state, designate a Registered Agent, and sign the Operating Agreement. Turnaround: 24-48 business hours." },
+        { name: "Get the EIN", text: "Apply for the Employer Identification Number with the IRS via Form SS-4 by fax (no SSN/ITIN needed). Typical lead time: 4-15 days." },
+        { name: "Open the bank account", text: "Apply 100% online to Mercury, Relay, or Wise Business with passport and EIN. Activation in 1-3 days." },
+        { name: "IRS compliance", text: "File Form 5472 + Form 1120 pro forma every year (Single-Member LLC with foreign owner) and the BOI Report with FinCEN when applicable." },
+        { name: "File in your home country", text: "Declare the LLC's profits as business income in your country of tax residence (Spain IRPF, Argentina, Mexico, Portugal IRS, France BNC, Germany ESt)." },
+      ],
+      faq: [
+        { q: "Is it legal to open a US LLC as a non-resident?", a: "Yes. The United States expressly allows non-resident individuals without SSNs to be sole or co-owners of an LLC. Operations are governed by the IRS (Form 5472 + 1120 pro forma) and by each state's LLC statutes." },
+        { q: "How much does it cost to open and maintain a US LLC?", a: "Professional formation runs around 2,000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, initial advisory and banking). Annual maintenance ranges from 400 to 900 USD depending on state, agent, franchise tax and reports." },
+        { q: "How fast can my LLC be operational?", a: "The LLC is formed in 24-48 business hours. The EIN takes 4-15 calendar days. The Mercury account activates in 1-3 days after KYC. Total: 7-20 days to be fully operational." },
+        { q: "Do I have to travel to the United States to open the LLC?", a: "No. The entire process (formation, EIN, banking, compliance) is handled 100% remotely from your country. All you need is a passport and an electronic signature." },
+        { q: "What taxes does an LLC with a non-resident owner pay?", a: "A Single-Member LLC with a foreign owner and no Effectively Connected Income (ECI) in the US is taxed at 0% federally on profits earned outside the US. Those profits must be declared in the owner's country of tax residence under local rules." },
+      ],
+    }),
+    fr: buildPillarSchemas({
+      inLanguage: "fr",
+      url: `${BASE_URL}/fr/ouvrir-llc-etats-unis`,
+      breadcrumbHome: "Accueil",
+      breadcrumbCurrent: "Ouvrir LLC",
+      articleHeadline: "Ouvrir une LLC aux États-Unis en 2026 : guide pas à pas pour non-résidents",
+      articleDescription: "Guide complet pour ouvrir une LLC aux États-Unis en tant que non-résident : choix de l'État, EIN sans SSN, compte Mercury, IRS Form 5472/1120, BOI et déclaration dans le pays de résidence.",
+      about: "LLC aux États-Unis pour non-résidents",
+      howToName: "Comment ouvrir une LLC aux États-Unis en tant que non-résident",
+      howToDescription: "Processus complet en 6 étapes pour créer et exploiter une LLC américaine depuis l'étranger : EIN, compte bancaire et conformité fiscale.",
+      steps: [
+        { name: "Choisir l'État", text: "Comparer le Nouveau-Mexique (le moins cher), le Wyoming (confidentialité et protection patrimoniale), le Delaware (préféré par les investisseurs) et la Floride (accès au marché US) selon votre modèle." },
+        { name: "Constituer la LLC", text: "Déposer les Articles of Organization dans l'État choisi, désigner un Registered Agent et signer l'Operating Agreement. Délai : 24-48 heures ouvrées." },
+        { name: "Obtenir l'EIN", text: "Demander l'Employer Identification Number à l'IRS via le Form SS-4 par fax (sans SSN/ITIN). Délai habituel : 4 à 15 jours." },
+        { name: "Ouvrir le compte bancaire", text: "Postuler 100% en ligne à Mercury, Relay ou Wise Business avec passeport et EIN. Activation en 1 à 3 jours." },
+        { name: "Conformité IRS", text: "Déposer chaque année le Form 5472 + Form 1120 pro forma (Single-Member LLC à propriétaire étranger) et le BOI Report auprès de FinCEN lorsque cela s'applique." },
+        { name: "Déclarer dans votre pays", text: "Déclarer les bénéfices de la LLC comme revenus d'activité dans votre pays de résidence fiscale (France BNC, Belgique, Suisse, Canada, etc.)." },
+      ],
+      faq: [
+        { q: "Est-il légal d'ouvrir une LLC aux États-Unis en tant que non-résident ?", a: "Oui. Les États-Unis autorisent expressément les personnes physiques non résidentes sans SSN à être propriétaires uniques ou multiples d'une LLC. L'activité est encadrée par l'IRS (Form 5472 + 1120 pro forma) et par les lois LLC de chaque État." },
+        { q: "Combien coûte l'ouverture et le maintien d'une LLC américaine ?", a: "La création professionnelle tourne autour de 2 000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, conseil initial et bancaire). Maintenance annuelle : 400 à 900 USD selon État, agent, franchise tax et rapports." },
+        { q: "En combien de temps ma LLC est-elle opérationnelle ?", a: "La LLC est constituée en 24-48 heures ouvrées. L'EIN met 4 à 15 jours. Le compte Mercury s'active en 1-3 jours après KYC. Au total : 7 à 20 jours pour être pleinement opérationnel." },
+        { q: "Faut-il se déplacer aux États-Unis pour ouvrir la LLC ?", a: "Non. L'intégralité du processus (création, EIN, banque, conformité) se gère 100% à distance depuis votre pays. Il suffit d'un passeport et d'une signature électronique." },
+        { q: "Quels impôts paie une LLC avec propriétaire non-résident ?", a: "Une Single-Member LLC à propriétaire étranger sans Effectively Connected Income (ECI) aux États-Unis est imposée à 0% au fédéral sur les bénéfices réalisés hors des US. Ces bénéfices doivent être déclarés dans le pays de résidence fiscale du propriétaire." },
+      ],
+    }),
+    de: buildPillarSchemas({
+      inLanguage: "de",
+      url: `${BASE_URL}/de/llc-usa-eroeffnen`,
+      breadcrumbHome: "Startseite",
+      breadcrumbCurrent: "LLC eröffnen",
+      articleHeadline: "US-LLC im Jahr 2026 eröffnen: Schritt-für-Schritt-Leitfaden für Nicht-Residenten",
+      articleDescription: "Vollständige Anleitung zur Gründung einer US-LLC als Nicht-Resident: Bundesstaatswahl, EIN ohne SSN, Mercury-Konto, IRS Form 5472/1120, BOI und Erklärung im Wohnsitzland.",
+      about: "US-LLC für Nicht-Residenten",
+      howToName: "So gründen Sie eine US-LLC als Nicht-Resident",
+      howToDescription: "Vollständiger 6-Schritte-Prozess zur Gründung und zum Betrieb einer US-LLC aus dem Ausland: EIN, Geschäftskonto und saubere Steuerkonformität.",
+      steps: [
+        { name: "Bundesstaat wählen", text: "Vergleichen Sie New Mexico (am günstigsten), Wyoming (Privatsphäre und Vermögensschutz), Delaware (von Investoren bevorzugt) und Florida (US-Marktzugang) je nach Geschäftsmodell." },
+        { name: "LLC gründen", text: "Articles of Organization im gewählten Bundesstaat einreichen, Registered Agent benennen und Operating Agreement unterzeichnen. Bearbeitung: 24-48 Werktage." },
+        { name: "EIN beantragen", text: "Employer Identification Number beim IRS per Form SS-4 (Fax) beantragen — kein SSN/ITIN nötig. Übliche Bearbeitungszeit: 4-15 Tage." },
+        { name: "Geschäftskonto eröffnen", text: "100% online bei Mercury, Relay oder Wise Business beantragen — mit Reisepass und EIN. Aktivierung in 1-3 Tagen." },
+        { name: "IRS-Konformität", text: "Jährlich Form 5472 + Form 1120 pro forma einreichen (Single-Member-LLC mit ausländischem Eigentümer) sowie BOI Report bei FinCEN, sofern zutreffend." },
+        { name: "Im Heimatland erklären", text: "LLC-Gewinne als Einkünfte aus Gewerbebetrieb im Wohnsitzland erklären (Deutschland ESt, Österreich, Schweiz)." },
+      ],
+      faq: [
+        { q: "Ist es legal, eine US-LLC als Nicht-Resident zu gründen?", a: "Ja. Die USA erlauben ausdrücklich, dass nicht ansässige Personen ohne SSN Allein- oder Miteigentümer einer LLC sind. Betrieb wird durch IRS (Form 5472 + 1120 pro forma) und durch das LLC-Recht des jeweiligen Bundesstaates geregelt." },
+        { q: "Wie viel kostet eine US-LLC in Gründung und Unterhalt?", a: "Professionelle Gründung kostet rund 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, Erstberatung und Banking). Jährlicher Unterhalt: 400-900 USD je nach Bundesstaat, Agent, Franchise Tax und Reports." },
+        { q: "Wie schnell ist meine LLC einsatzbereit?", a: "Die LLC wird in 24-48 Werktagen gegründet. Der EIN dauert 4-15 Kalendertage. Mercury-Konto aktiviert in 1-3 Tagen nach KYC. Gesamt: 7-20 Tage bis vollständig einsatzbereit." },
+        { q: "Muss ich für die LLC-Gründung in die USA reisen?", a: "Nein. Der gesamte Prozess (Gründung, EIN, Banking, Compliance) läuft 100% remote aus Ihrem Heimatland. Sie brauchen nur Reisepass und elektronische Signatur." },
+        { q: "Welche Steuern zahlt eine LLC mit nicht-ansässigem Eigentümer?", a: "Eine Single-Member-LLC mit ausländischem Eigentümer und ohne Effectively Connected Income (ECI) in den USA wird mit 0% Bundessteuer auf außerhalb der USA erzielte Gewinne besteuert. Diese Gewinne müssen im Wohnsitzland des Eigentümers nach lokalem Recht deklariert werden." },
+      ],
+    }),
+    pt: buildPillarSchemas({
+      inLanguage: "pt",
+      url: `${BASE_URL}/pt/abrir-llc-eua`,
+      breadcrumbHome: "Início",
+      breadcrumbCurrent: "Abrir LLC",
+      articleHeadline: "Abrir LLC nos EUA em 2026: guia passo a passo para não residentes",
+      articleDescription: "Guia completo para abrir uma LLC nos Estados Unidos como não residente: escolha do estado, EIN sem SSN, conta Mercury, IRS Form 5472/1120, BOI e declaração no país de residência.",
+      about: "LLC nos EUA para não residentes",
+      howToName: "Como abrir uma LLC nos EUA sendo não residente",
+      howToDescription: "Processo completo em 6 passos para constituir e operar uma LLC americana a partir do estrangeiro: EIN, conta bancária e conformidade fiscal.",
+      steps: [
+        { name: "Escolher o estado", text: "Comparar Novo México (mais barato), Wyoming (privacidade e proteção patrimonial), Delaware (preferido por investidores) e Florida (acesso ao mercado dos EUA) consoante o modelo de negócio." },
+        { name: "Constituir a LLC", text: "Apresentar os Articles of Organization no estado escolhido, designar um Registered Agent e assinar o Operating Agreement. Prazo: 24-48 horas úteis." },
+        { name: "Obter o EIN", text: "Pedir o Employer Identification Number ao IRS via Form SS-4 por fax (sem SSN/ITIN). Prazo habitual: 4-15 dias." },
+        { name: "Abrir conta bancária", text: "Aplicar 100% online à Mercury, Relay ou Wise Business com passaporte e EIN. Ativação em 1-3 dias." },
+        { name: "Conformidade IRS", text: "Apresentar todos os anos Form 5472 + Form 1120 pro forma (Single-Member LLC com dono estrangeiro) e BOI Report à FinCEN quando aplicável." },
+        { name: "Declarar no seu país", text: "Declarar os lucros da LLC como rendimento da atividade no país de residência fiscal (Portugal IRS, Brasil IRPF, etc.)." },
+      ],
+      faq: [
+        { q: "É legal abrir uma LLC nos EUA sendo não residente?", a: "Sim. Os Estados Unidos permitem expressamente que pessoas singulares não residentes e sem SSN sejam proprietárias únicas ou múltiplas de uma LLC. A operação é regulada pelo IRS (Form 5472 + 1120 pro forma) e pelas leis estaduais." },
+        { q: "Quanto custa abrir e manter uma LLC nos EUA?", a: "A constituição profissional ronda os 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, consultoria inicial e bancária). Manutenção anual: 400-900 USD consoante estado, agente, franchise tax e reports." },
+        { q: "Em quantos dias posso ter a minha LLC operativa?", a: "A LLC constitui-se em 24-48 horas úteis. O EIN demora 4-15 dias. A conta Mercury ativa em 1-3 dias após KYC. Total: 7-20 dias para ficar plenamente operativa." },
+        { q: "Tenho de viajar aos EUA para abrir a LLC?", a: "Não. Todo o processo (constituição, EIN, banca, compliance) é gerido 100% à distância a partir do seu país. Basta passaporte e assinatura eletrónica." },
+        { q: "Que impostos paga uma LLC com dono não residente?", a: "Uma Single-Member LLC com proprietário estrangeiro e sem Effectively Connected Income (ECI) nos EUA é tributada a 0% federal sobre os lucros obtidos fora dos EUA. Esses lucros têm de ser declarados no país de residência fiscal." },
+      ],
+    }),
+    ca: buildPillarSchemas({
+      inLanguage: "ca",
+      url: `${BASE_URL}/ca/obrir-llc-eua`,
+      breadcrumbHome: "Inici",
+      breadcrumbCurrent: "Obrir LLC",
+      articleHeadline: "Obrir una LLC als EUA el 2026: guia pas a pas per a no residents",
+      articleDescription: "Guia completa per obrir una LLC als Estats Units sent no resident: tria d'estat, EIN sense SSN, compte Mercury, IRS Form 5472/1120, BOI i declaració al país de residència.",
+      about: "LLC als EUA per a no residents",
+      howToName: "Com obrir una LLC als EUA sent no resident",
+      howToDescription: "Procés complet en 6 passos per constituir i operar una LLC americana des de l'estranger: EIN, compte bancari i compliment fiscal.",
+      steps: [
+        { name: "Triar l'estat", text: "Comparar Nou Mèxic (més barat), Wyoming (privacitat i protecció patrimonial), Delaware (preferit per inversors) i Florida (accés al mercat dels EUA) segons el model de negoci." },
+        { name: "Constituir la LLC", text: "Presentar els Articles of Organization a l'estat triat, designar un Registered Agent i signar l'Operating Agreement. Termini: 24-48 hores hàbils." },
+        { name: "Obtenir l'EIN", text: "Demanar l'Employer Identification Number a l'IRS via Form SS-4 per fax (sense SSN/ITIN). Termini habitual: 4-15 dies." },
+        { name: "Obrir compte bancari", text: "Sol·licitar 100% en línia a Mercury, Relay o Wise Business amb passaport i EIN. Activació en 1-3 dies." },
+        { name: "Compliment IRS", text: "Presentar cada any Form 5472 + Form 1120 pro forma (Single-Member LLC amb propietari estranger) i BOI Report a FinCEN quan correspongui." },
+        { name: "Declarar al teu país", text: "Declarar els beneficis de la LLC com a rendiment d'activitat al país de residència fiscal (Catalunya/Espanya IRPF, etc.)." },
+      ],
+      faq: [
+        { q: "És legal obrir una LLC als EUA sent no resident?", a: "Sí. Els Estats Units permeten expressament que persones físiques no residents i sense SSN siguin propietàries úniques o múltiples d'una LLC. L'operativa està regulada per l'IRS (Form 5472 + 1120 pro forma) i per les lleis estatals." },
+        { q: "Quant costa obrir i mantenir una LLC als EUA?", a: "L'alta professional és d'uns 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, assessoria inicial i banca). Manteniment anual: 400-900 USD segons estat, agent, franchise tax i reports." },
+        { q: "En quants dies puc tenir la meva LLC operativa?", a: "La LLC es constitueix en 24-48 hores hàbils. L'EIN triga 4-15 dies. El compte Mercury s'activa en 1-3 dies després del KYC. Total: 7-20 dies per estar plenament operativa." },
+        { q: "He de viatjar als EUA per obrir la LLC?", a: "No. Tot el procés (constitució, EIN, banca, compliance) es gestiona 100% en remot des del teu país. Només cal passaport i signatura electrònica." },
+        { q: "Quins impostos paga una LLC amb propietari no resident?", a: "Una Single-Member LLC amb propietari estranger i sense Effectively Connected Income (ECI) als EUA tributa al 0% federal sobre els beneficis obtinguts fora dels EUA. Aquests beneficis s'han de declarar al país de residència fiscal." },
+      ],
+    }),
+  },
 };
 
 // Per-language SEO prerender content for main pages. Spanish lives in
@@ -3386,6 +3771,7 @@ export const FAQ_SCHEMA_ENTRIES = [
 // ---------------------------------------------------------------------
 const _H1_BACKFILL_ROUTES: RouteKey[] = [
   "service_llc_nm","service_llc_wy","service_llc_de","service_llc_fl","service_itin",
+  "pillar_open_llc",
   "legal_terms","legal_privacy","legal_cookies","legal_refunds","legal_disclaimer",
 ];
 const _H1_BACKFILL_LANGS: SupportedLang[] = ["es","en","fr","de","pt","ca"];

@@ -1,5 +1,8 @@
 export default `
 
+<p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
+
+
 Elegir el estado de constitución de tu LLC es una de las decisiones más importantes, y una de las que más confusión genera. Internet está lleno de vídeos diciendo "Delaware es el mejor" o "Wyoming es obligatorio". La realidad es más matizada, y aquí te la contamos sin humo.
 
 Vamos a comparar los tres estados más elegidos por no residentes: Nuevo México, Wyoming y Delaware. Spoiler: para la mayoría de freelancers y emprendedores digitales, Nuevo México gana de calle. Si necesitas primero entender el proceso completo de constitución, revisa nuestra <a href="/es/blog/primer-mes-llc-que-esperar">guía paso a paso para constituir una LLC</a>.

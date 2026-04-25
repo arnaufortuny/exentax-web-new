@@ -1,4 +1,7 @@
-export default `L'EIN (Employer Identification Number) est l'équivalent américain du numéro SIREN/SIRET pour votre LLC. C'est l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> qui le délivre, et sans lui, votre société existe sur le papier mais ne peut rien faire concrètement: pas de compte Mercury, pas de Stripe US, pas de déclaration annuelle, pas de paiement par virement de vos clients américains.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis en 2026</a>.</p>
+L'EIN (Employer Identification Number) est l'équivalent américain du numéro SIREN/SIRET pour votre LLC. C'est l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> qui le délivre, et sans lui, votre société existe sur le papier mais ne peut rien faire concrètement: pas de compte Mercury, pas de Stripe US, pas de déclaration annuelle, pas de paiement par virement de vos clients américains.
 
 La bonne nouvelle, c'est que l'obtention de l'EIN pour un non-résident sans SSN est un processus standard que nous traitons des dizaines de fois par mois chez Exentax. Voici comment cela fonctionne, combien de temps cela prend réellement actuellement, et pourquoi cette étape conditionne tout le reste.
 

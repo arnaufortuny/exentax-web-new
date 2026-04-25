@@ -1,4 +1,7 @@
-export default `Wer aus dem Einzelunternehmen oder der Kleinunternehmerregelung kommt, nutzt das Geschäftskonto oft wie das Private. Bei einer LLC zerstört genau dieses Verhalten den Haftungsschutz: ein US-Gericht hebt in drei auffälligen Bewegungen den Schleier („pierce the corporate veil”), und das Finanzamt kann die Flüsse zugleich als nicht erklärtes privates Einkommen umqualifizieren.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar-Leitfaden:</strong> Für den vollständigen Schritt-für-Schritt-Ablauf lesen Sie unseren <a href="/de/llc-usa-eroeffnen">definitiven Leitfaden zur LLC-Gründung in den USA im Jahr 2026</a>.</p>
+Wer aus dem Einzelunternehmen oder der Kleinunternehmerregelung kommt, nutzt das Geschäftskonto oft wie das Private. Bei einer LLC zerstört genau dieses Verhalten den Haftungsschutz: ein US-Gericht hebt in drei auffälligen Bewegungen den Schleier („pierce the corporate veil”), und das Finanzamt kann die Flüsse zugleich als nicht erklärtes privates Einkommen umqualifizieren.
 
 In diesem Artikel erklären wir Ihnen, warum es so wichtig ist, welche Konsequenzen die Vermischung von Geldern hat und wie Sie vom ersten Tag an eine solide finanzielle Trennung umsetzen.
 

@@ -8,6 +8,7 @@ export type RouteKey =
   | "about_llc"
   | "faq"
   | "book"
+  | "pillar_open_llc"
   | "service_llc_nm"
   | "service_llc_wy"
   | "service_llc_de"
@@ -26,6 +27,7 @@ export const ROUTE_SLUGS: Record<RouteKey, Record<SupportedLang, string>> = {
   about_llc:        { es: "sobre-las-llc",             en: "about-llc",                  fr: "a-propos-des-llc",              de: "uber-llc",              pt: "sobre-llc",                ca: "sobre-les-llc" },
   faq:              { es: "preguntas-frecuentes",      en: "faq",                        fr: "questions-frequentes",          de: "haufige-fragen",        pt: "perguntas-frequentes",     ca: "preguntes-frequents" },
   book:             { es: "agendar",                   en: "book",                       fr: "reserver",                      de: "buchen",                pt: "agendar",                  ca: "agendar" },
+  pillar_open_llc:  { es: "abrir-llc-estados-unidos",  en: "open-llc-usa",               fr: "ouvrir-llc-etats-unis",         de: "llc-usa-eroeffnen",     pt: "abrir-llc-eua",            ca: "obrir-llc-eua" },
   service_llc_nm:   { es: "servicios/llc-nuevo-mexico",     en: "services/llc-new-mexico",      fr: "services/llc-nouveau-mexique",     de: "leistungen/llc-new-mexico",     pt: "servicos/llc-novo-mexico",  ca: "serveis/llc-nou-mexic" },
   service_llc_wy:   { es: "servicios/llc-wyoming",          en: "services/llc-wyoming",         fr: "services/llc-wyoming",             de: "leistungen/llc-wyoming",        pt: "servicos/llc-wyoming",      ca: "serveis/llc-wyoming" },
   service_llc_de:   { es: "servicios/llc-delaware",         en: "services/llc-delaware",        fr: "services/llc-delaware",            de: "leistungen/llc-delaware",       pt: "servicos/llc-delaware",     ca: "serveis/llc-delaware" },

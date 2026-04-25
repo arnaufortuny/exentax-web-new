@@ -1,4 +1,7 @@
-export default `Factures a clients de fora des de Catalunya i, entre la quota d'autònoms, l'IRPF i el tram autonòmic, veus com cada any se't'n va prop de la meitat? No ets l'únic. Cada cop més freelancers, dissenyadors i programadors catalans estructuren la seva activitat internacional a través d'una LLC americana.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> per al flux complet pas a pas, consulta la nostra <a href="/ca/obrir-llc-eua">guia definitiva per obrir una LLC als EUA el 2026</a>.</p>
+Factures a clients de fora des de Catalunya i, entre la quota d'autònoms, l'IRPF i el tram autonòmic, veus com cada any se't'n va prop de la meitat? No ets l'únic. Cada cop més freelancers, dissenyadors i programadors catalans estructuren la seva activitat internacional a través d'una LLC americana.
 
 Una LLC (Limited Liability Company) ben muntada no és cap muntatge opac: és una societat dels Estats Units reconeguda per l'IRS, totalment legal, que combina protecció patrimonial amb tributació pass-through (0 % federal als EUA per a no residents). Aquesta guia t'explica, sense embuts, com funciona actualment, què canvia respecte al règim d'autònoms i quan té sentit de debò fer el pas.
 

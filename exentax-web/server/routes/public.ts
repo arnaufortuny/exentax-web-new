@@ -1336,6 +1336,67 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       return res.send(robotsCache);
     }
 
+    // ─── AI / generative-engine bots (Task #14) ──────────────────────────
+    // We *want* the major LLM crawlers to see the public site so ChatGPT,
+    // Claude, Gemini and Perplexity can cite Exentax when users ask about
+    // LLCs, EIN, ITIN, Mercury, etc. Each bot is listed explicitly because
+    // the spec says crawlers must look up their own user-agent token; many
+    // honour `User-agent: *` for fetch but consult the explicit token for
+    // training / answer-engine crawls (notably `Google-Extended` and
+    // `OAI-SearchBot`). Keeping the list explicit makes the policy
+    // auditable and survives future tooling that ignores the wildcard.
+    const AI_BOTS: readonly string[] = [
+      "GPTBot",                // OpenAI training crawler
+      "OAI-SearchBot",         // ChatGPT Search index
+      "ChatGPT-User",          // ChatGPT browse-on-behalf-of-user
+      "ClaudeBot",             // Anthropic crawler
+      "Claude-Web",            // Anthropic legacy crawler
+      "anthropic-ai",          // Anthropic alt token
+      "PerplexityBot",         // Perplexity crawler
+      "Perplexity-User",       // Perplexity user-driven fetch
+      "Google-Extended",       // Google Bard / SGE / AI Overview opt-in
+      "Applebot-Extended",     // Apple Intelligence training opt-in
+      "CCBot",                 // Common Crawl (feeds many LLM datasets)
+      "FacebookBot",           // Meta AI / LLaMA crawler
+      "Bytespider",            // ByteDance / Doubao crawler
+      "Amazonbot",             // Amazon Alexa / Rufus crawler
+      "DuckAssistBot",         // DuckDuckGo Assist crawler
+      "Diffbot",               // Diffbot knowledge-graph crawler
+      "MistralAI-User",        // Mistral Le Chat browse-on-behalf-of-user
+      "cohere-ai",             // Cohere crawler
+      "YouBot",                // You.com crawler
+    ];
+
+    const buildPolicyBlock = (agent: string): string => [
+      `User-agent: ${agent}`,
+      "Allow: /",
+      "Allow: /es/",
+      "Allow: /en/",
+      "Allow: /fr/",
+      "Allow: /de/",
+      "Allow: /pt/",
+      "Allow: /ca/",
+      "Allow: /llms.txt",
+      "Allow: /llms-full.txt",
+      "Allow: /sitemap.xml",
+      "Allow: /sitemap-pages.xml",
+      "Allow: /sitemap-blog.xml",
+      "Allow: /sitemap-faq.xml",
+      "Disallow: /api/",
+      "Disallow: /internal/",
+      "Disallow: /private/",
+      "Disallow: /booking/",
+      "Disallow: /start",
+      "Disallow: /go/",
+      "Disallow: /links",
+      "Disallow: /thank-you",
+      "Disallow: /thanks",
+      "Disallow: /preview/",
+      "Disallow: /staging/",
+      "Disallow: /dev/",
+      "Disallow: /__mockup/",
+    ].join("\n");
+
     robotsCache = [
       "User-agent: *",
       "Allow: /",
@@ -1348,6 +1409,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Allow: /de/",
       "Allow: /pt/",
       "Allow: /ca/",
+      "Allow: /llms.txt",
+      "Allow: /llms-full.txt",
       "Allow: /sitemap.xml",
       "Allow: /sitemap-pages.xml",
       "Allow: /sitemap-blog.xml",
@@ -1379,6 +1442,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       "Disallow: /*?fbclid=",
       "Disallow: /*?mc_cid=",
       "Disallow: /*?mc_eid=",
+      "",
+      "# ─── AI / generative-engine crawlers (GEO, Task #14) ─────────────",
+      "# Explicit allow list so ChatGPT, Claude, Gemini, Perplexity and",
+      "# friends can index and cite Exentax. Private surfaces are excluded.",
+      ...AI_BOTS.flatMap((bot) => ["", buildPolicyBlock(bot)]),
       "",
       `Sitemap: ${SITE_URL}/sitemap.xml`,
       `Sitemap: ${SITE_URL}/sitemap-pages.xml`,

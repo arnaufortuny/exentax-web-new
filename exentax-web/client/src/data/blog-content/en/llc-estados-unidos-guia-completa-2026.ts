@@ -1,4 +1,7 @@
-export default `If you are a freelancer, digital entrepreneur, or self-employed professional outside the United States, forming a US LLC may be one of the best decisions you make for your business. This guide covers everything you need to know today.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+If you are a freelancer, digital entrepreneur, or self-employed professional outside the United States, forming a US LLC may be one of the best decisions you make for your business. This guide covers everything you need to know today.
 
 ## What is a US LLC?
 

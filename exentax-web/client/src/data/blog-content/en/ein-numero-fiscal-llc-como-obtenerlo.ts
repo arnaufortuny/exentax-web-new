@@ -1,4 +1,7 @@
-export default `The EIN (Employer Identification Number) is the tax identification number for your US LLC. Without it, you can't open a bank account, file taxes, or set up payment processors. Here's everything you need to know.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+The EIN (Employer Identification Number) is the tax identification number for your US LLC. Without it, you can't open a bank account, file taxes, or set up payment processors. Here's everything you need to know.
 
 ## What is an EIN?
 

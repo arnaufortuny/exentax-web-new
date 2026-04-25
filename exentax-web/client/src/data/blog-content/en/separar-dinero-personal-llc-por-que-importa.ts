@@ -1,4 +1,7 @@
-export default `One of the most critical rules of operating a US LLC is maintaining strict separation between your personal finances and your business finances. This isn't bureaucratic formality; it's what makes your LLC work legally and financially.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Pillar guide:</strong> for the full step-by-step flow, see our <a href="/en/open-llc-usa">definitive guide to opening a US LLC in 2026</a>.</p>
+One of the most critical rules of operating a US LLC is maintaining strict separation between your personal finances and your business finances. This isn't bureaucratic formality; it's what makes your LLC work legally and financially.
 
 ## Why separation matters
 

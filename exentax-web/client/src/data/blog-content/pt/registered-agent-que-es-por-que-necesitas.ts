@@ -1,4 +1,7 @@
-export default `Em Portugal não há bem um equivalente ao Registered Agent: é uma mistura de sede social, mandatário fiscal e oficial de diligências. Cada estado dos EUA exige que a LLC nomeie um, fisicamente presente no estado, disponível em horário comercial. E não, o Registered Agent não é a tua morada bancária.
+export default `
+
+<p class="text-sm opacity-80 italic"><strong>Guia pilar:</strong> para o fluxo completo passo a passo, consulta o nosso <a href="/pt/abrir-llc-eua">guia definitivo para abrir uma LLC nos EUA em 2026</a>.</p>
+Em Portugal não há bem um equivalente ao Registered Agent: é uma mistura de sede social, mandatário fiscal e oficial de diligências. Cada estado dos EUA exige que a LLC nomeie um, fisicamente presente no estado, disponível em horário comercial. E não, o Registered Agent não é a tua morada bancária.
 
 ## O que é um Registered Agent?
 
