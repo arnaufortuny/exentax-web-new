@@ -50,7 +50,10 @@ const LANGS = ["es", "en", "fr", "de", "pt", "ca"];
 const LANG_RE = LANGS.join("|");
 let BASE_URL = (process.env.BASE_URL || "").replace(/\/$/, "");
 const SKIP_LIVE = process.env.SEO_SLASH_SKIP_LIVE === "1";
-const OUT = process.argv[2] || resolve(ROOT, "reports/seo/slash-hygiene.md");
+// Ignore CLI flags (--check, --strict, etc.) so they aren't mistaken as the
+// output path. argv[2] is only honored when it's a real path (no leading "-").
+const OUT_ARG = process.argv.slice(2).find((a) => a && !a.startsWith("-"));
+const OUT = OUT_ARG || resolve(ROOT, "reports/seo/slash-hygiene.md");
 const HTTP_TIMEOUT_MS = 15000;
 // Server boot can take > 60 s when the host is under load (CI sandbox, cold
 // Replit dial-out, cold Hostinger VPS). The server always loads BLOG_POSTS +
