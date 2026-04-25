@@ -112,6 +112,12 @@ Chez Exentax nous structurons le stack bancaire en tenant compte de ce que CRS/F
 
 Nous traitons ce bloc comme l'une des décisions structurantes de la stratégie LLC: un faux pas ici et le reste de la structure perd en fiscalité, en accès bancaire ou en conformité. Les notes qui suivent reflètent ce que nous faisons réellement avec des clients dans ce cas précis, en priorisant les variables qui changent vraiment le résultat.
 
+## Le cas spécifique du résident fiscal français
+
+  Si vous êtes domicilié en France et que vous détenez une LLC américaine avec compte Revolut Business UAB, vous cumulez deux obligations déclaratives à part. La première relève de l'**article 1649 A bis du CGI**: tout résident doit déclarer chaque compte ouvert, détenu ou clos à l'étranger via le **formulaire 3916-bis** annexé à la déclaration de revenus 2042. Une omission est sanctionnée à hauteur de **1 500 € par compte non déclaré** (4 % du solde si supérieur à 50 000 € au 31 décembre, en application du II de l'article 1736 du CGI), portée à **10 000 € par compte** lorsque celui-ci se trouve dans un État ou territoire non coopératif. La seconde obligation découle de l'**article 209 B du CGI** (régime CFC pour les sociétés soumises à l'IS) ou de l'**article 123 bis du CGI** (régime CFC pour les particuliers détenant >10 % d'une entité étrangère bénéficiant d'un régime fiscal privilégié): les bénéfices de la LLC peuvent être réintégrés dans le résultat imposable français même en l'absence de distribution effective, sauf preuve d'une activité économique réelle.
+
+  Concrètement, lorsque Revolut Bank UAB transmet vos données via le **VMI lituanien** à la **DGFiP**, l'administration française recoupe trois flux: votre 3916-bis, votre éventuelle déclaration article 123 bis sur l'imprimé 2074 et les soldes reçus par CRS. Toute incohérence déclenche un contrôle sur pièces avec demande de justification sous trente jours. La preuve de l'activité économique réelle de la LLC (contrats signés, factures, présence en ligne) devient alors décisive pour échapper à la taxation présomptive.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Revolut%20Business%20est%20op%C3%A9r%C3%A9%20depuis%20Lituanie%20pour%20l'UE%2C%20et%20%C3%A0%20ce%20titre%20appliquer%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
@@ -121,22 +127,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ssive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indir…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ra que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…persons. Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…, aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…dos. - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…vs fintech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a través …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -61,12 +61,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">BOE-A-1992-28740</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…vo está en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740&quot;&gt;Ley 37/1992 …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

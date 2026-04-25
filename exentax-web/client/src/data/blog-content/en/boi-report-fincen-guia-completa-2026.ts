@@ -1,23 +1,22 @@
-export default `The BOI Report is one of the most important compliance obligations for US LLCs since the CTA took effect. Here's the complete today guide. updated with the latest requirements.
+export default `The BOI Report has been the most volatile compliance topic for US LLCs since the CTA took effect. Here's the complete today guide. updated for the **March 2025 FinCEN interim final rule** that re-scoped the obligation.
 
 ## What the BOI Report is and why it was created
 
-The Beneficial Ownership Information (BOI) Report was mandated by the **Corporate Transparency Act (CTA)**, enacted in 2020 and effective January 1, 2024. Its purpose: create a federal registry of who actually owns and controls US companies, to combat money laundering, tax evasion, and financial crime.
+The Beneficial Ownership Information (BOI) Report was mandated by the **Corporate Transparency Act (CTA)**, enacted in 2020 and originally effective January 1, 2024. Its purpose: create a federal registry of who actually owns and controls certain US-connected companies, to combat money laundering, tax evasion, and financial crime.
 
-Before the CTA, it was possible to form a US LLC with no federal disclosure of ownership. The BOI Report changes this, now <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> (Financial Crimes Enforcement Network) maintains a database of beneficial owners. This database is NOT public. it's only accessible to law enforcement and authorized entities.
+Before the CTA, it was possible to form a US LLC with no federal disclosure of ownership. The BOI Report was meant to change that, but after **FinCEN's March 2025 interim final rule** the scope was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> (Financial Crimes Enforcement Network) maintains the database of beneficial owners for entities still in scope. The database is NOT public. it's only accessible to law enforcement and authorized entities.
 ### Who must file
 
-**Reporting companies include:**
-- US LLCs (regardless of whether the owner is a US citizen or foreign national)
-- US corporations
-- Other similar entities formed in the US or registered to do business in the US
+**Reporting companies in the current (post-March 2025) scope:**
+- **Foreign reporting companies**: entities formed outside the US and registered to do business in a US state
+- They identify their beneficial owners (≥ 25 % ownership or substantial control)
 
-**Exemptions include:**
-- Companies with 20+ full-time US employees, $5M+ in US revenue, AND physical US office
-- Banks, credit unions, registered securities entities, and other regulated entities
-- Large operating companies meeting specific criteria
+**Out of scope (no BOIR filing required today):**
+- **Domestic US LLCs**, including single-member LLCs owned by non-residents (Wyoming, Delaware, New Mexico, Florida, Texas or any state)
+- US corporations formed in any state
+- Entities already exempt under the CTA (banks, large operating companies with 20+ US employees + $5M+ US revenue + physical US office, regulated securities issuers, etc.)
 
-**For most of our clients**: foreign-owned single-member LLCs. filing is required. No exemption applies.
+**For most of our clients**: foreign-owned **US-formed** single-member LLCs are **NOT required** to file the BOI Report under the current rule. We monitor FinCEN.gov on every engagement and, if the scope expands again, we file at no extra cost.
 ### What information must be reported
 
 ### About the reporting company:
@@ -137,7 +136,7 @@ If you want to validate whether this strategy fits your specific situation, at E
 
 FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> reporting requirements moved recently; the current state is:
 
-- **BOI / Corporate Transparency Act.** After **FinCEN's March 2025 interim final rule**, the BOI Report requirement was **narrowed to "foreign reporting companies"** (entities formed outside the US and registered to do business in a state). A **US-formed LLC owned by a non-resident is, as of today, outside that obligation**. The regulatory status can change again: **re-verify at FinCEN.gov at filing time**. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement and monitor future updates.
+- **BOI / Corporate Transparency Act: your LLC is NOT required to file (a competitive advantage).** After **FinCEN's March 2025 interim final rule**, the BOI Report obligation was **narrowed to "foreign reporting companies"** (entities formed OUTSIDE the US and registered to do business in a state). A **US-formed LLC owned by a non-resident does NOT file the BOI Report**: one fewer filing on your calendar, less paperwork, and a cleaner structure than ever. If your LLC was formed before March 2025 and you already filed BOI, keep the acknowledgement. The regulatory status can change again: **we monitor FinCEN.gov on every filing** and, if the obligation comes back, we handle it at no extra cost. Current status verifiable at [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + pro-forma 1120.** For a **Single-Member LLC owned by a non-resident**, the final regulations of Treas. Reg. §1.6038A-1 (in force since 2017) treat the LLC as a corporation for 5472 purposes. Procedure: **pro-forma Form 1120** (header only: name, address, EIN, tax year) with **Form 5472 attached**. It is filed **by certified mail or fax to the IRS Service Center in Ogden, Utah**, **not e-filed via standard MeF**. Due date: **April 15**; extension via **Form 7004** to **October 15**. **Penalty: $25,000 per form per year, plus $25,000 per additional 30 days** of non-filing after IRS notice.
 - **Substantive Form 1120.** Only applies if the LLC has filed a check-the-box election to C-Corp (Form 8832): it then pays 21 % federal corporate tax and files a substantive 1120. A standard disregarded LLC **does not file a substantive 1120 and does not pay federal corporate tax**.
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
@@ -149,23 +148,25 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
 
-<!-- exentax:overhaul-today-v1 -->
 ## Exentax today update: BOI Report at end-today
 
 BOI has been the most volatile obligation of the past 24 months; the current version:
 
-- **Current status.** After the *FinCEN interim final rule of March 21, 2025*, the duty is restricted to **foreign reporting companies** (entities formed outside the U.S. and registered in a state). U.S.-formed LLCs with non-U.S. beneficial owners **do not file**, unless the rule changes.
-- **Current penalties.** **USD 591/day** inflation-adjusted for civil violations, up to **USD 10,000** and/or **2 years** in prison for willful violations (31 U.S.C. §5336).
-- **Filing operation.** If applicable, free filing at [FinCEN's official BOI filing portal](https://boiefiling.fincen.gov), **10-15 minutes** process, initial filing + **30-day update** for any change of address, document or beneficial owner.
+- **Current status.** The BOI Report is **NOT required for US-formed LLCs owned by non-residents** after FinCEN's March 2025 interim final rule. The current scope covers only **foreign reporting companies** (entities formed outside the US and registered to do business in a state). If your entity falls in that bucket, it must identify the beneficial owner (anyone holding **≥ 25 %** ownership or **substantial control**), be filed electronically and free of charge at **boiefiling.fincen.gov**, and be on time: **30 days** from state registration and **30 days** for any change of address, document or beneficial owner.
+- **Current penalties if in scope.** **USD 591/day** inflation-adjusted for civil violations, up to **USD 10,000** and/or **2 years** in prison for willful violations (31 U.S.C. §5336). Only relevant when your entity is a foreign reporting company or if FinCEN re-expands the scope.
+- **Filing operation if in scope.** Free initial filing at [FinCEN's official BOI filing portal](https://boiefiling.fincen.gov), **10-15 minutes** process, initial filing + **30-day update** for any change of address, document or beneficial owner. Keep the **BOIR Confirmation Number** as proof.
 
 ### Frequently asked questions
 
-**When could the duty re-apply if the rule changes?** The day FinCEN issues a new rule. Usually 60-90 days of transition. Subscribe to alerts at fincen.gov/boi.
+**Does my U.S.-formed LLC with a Spanish member have to file the BOIR?** **No, not under the current rule.** After FinCEN's March 2025 interim final rule, every US-formed LLC (Wyoming, Delaware, New Mexico or any other state) owned by a non-resident is **out of scope** of the BOI Report. Only foreign reporting companies file. We monitor FinCEN.gov on every filing and, if the obligation comes back, we handle it at no extra cost.
 
-**Is my U.S.-formed LLC with a Spanish member exempt?** Under the March 2025 rule, yes. But verify the day you file; the regulatory landscape is still moving.
+**What is the penalty if I am in scope and file late?** Up to **USD 591 per day** of delay (civil amount adjusted annually for inflation) and, for willful non-compliance, up to **USD 10,000 and 2 years' imprisonment** under 31 U.S.C. §5336. That is why, if you qualify as a foreign reporting company, filing on time matters and, if you have late BOIRs, you should regularize before any FinCEN notice arrives.
 
-**What do I keep as evidence?** Receipt of the last filing and a screenshot of your entity status in the portal. In a future audit, also document the date of the regulatory check.
-<!-- exentax:overhaul-today-v1 end -->
+**What do I keep as evidence?** The **BOIR Confirmation Number** that the **boiefiling.fincen.gov** portal returns once you submit, plus the transmission PDF. That is the standard proof in any future audit.
+
+**Who exactly is a beneficial owner?** Any individual who, directly or indirectly, owns **≥ 25 %** of the LLC or exercises **substantial control** (such as a senior officer or a person with authority to bind the entity). For each one you must file legal name, date of birth, residential address and a current passport or government-issued ID number.
+
+**How does the 30-day update window work in practice?** Any change to the data on file (new passport, new residential address, new member crossing the 25 % threshold, change of LLC name) opens a **30-day window** to refile through **boiefiling.fincen.gov**. Skipping that update is treated by FinCEN like skipping the initial filing and exposes you to the same civil and criminal penalties.
 
 <!-- exentax:execution-v2 -->
 ## How we file the BOI Report at Exentax without surprises
@@ -188,22 +189,4 @@ If you want to see the full process in detail, check our <a href="/en/services">
 <!-- exentax:cta-v1 -->
 We review BOI, EIN, registered agent and federal obligations so a fine never catches you by surprise. <a href="/en/services">Request a compliance review</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es cualquier persona que directa o indirectamente posea el 25% o más de la empresa, o que …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ajustado a inflación para incumplimientos civiles, hasta **10.000 USD** y/o **2 años** de …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…o prueba de cumplimiento. ### Diferencia entre BOI Report y Form 5472 Es una confusión hab…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

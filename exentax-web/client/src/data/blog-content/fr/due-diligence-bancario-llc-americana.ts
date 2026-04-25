@@ -167,15 +167,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…tu LLC y tus datos personales. En Mercury, este proceso es 100% online. ### 2. Verificació…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">250,000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…regulado por la FDIC. Tus depósitos están asegurados hasta $250,000, con cobertura extendi…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -1,83 +1,160 @@
-export default `„Eine LLC zahlt keine Steuern in den USA”, richtig, solange es sich um einen Nichtansässigen ohne US-Source-Income und ohne ETBUS handelt. Sobald Ihre LLC einen Mitarbeiter in den USA, ein Lager oder einen in Miami unterzeichneten Vertrag hat, kippt das Bild sofort. Entscheidend ist die Tätigkeit, nicht das Label „LLC”.
+export default `
 
-## Kernpunkte
+Über die „Besteuerung der LLC" abstrakt zu sprechen führt zu schweren Fehlern: Die tatsächliche Besteuerung hängt sehr eng von der **Art der wirtschaftlichen Tätigkeit** ab, die die LLC ausübt, weil jede Tätigkeit unterschiedliche Regeln zur Umsatzsteuer, zur Einkunftsqualifikation, zur Einkunftsquelle, zum anwendbaren Doppelbesteuerungsabkommen und vor allem zur Gefährdung durch internationale Hinzurechnungsbesteuerung und Anti-Missbrauchsregeln auslöst. Schauen wir uns die fünf großen Familien an, die wir bei Exentax sehen.
 
-### 1. Professionelle B2B-Dienstleistungen
+## Wesentliche Punkte
 
-Einfachster Fall. **Spanien**: wirtschaftliche Aktivität zugerechnet (siehe <a href="/de/blog/spanische-verwaltungsdoktrin-zur-us-llc-feb-2020">Doktrin</a>). **USt**: B2B-EU Reverse Charge, B2B-Nicht-EU nicht steuerbar (siehe <a href="/de/blog/mwst-auf-internationale-digitale-dienstleistungen-wann-sie">USt internationale Digital-Services</a>). IRPF Allgemeinbasis 24-47%. Hauptrisiko: Simulation ohne US-Substanz.
-### 2. Physisches E-Commerce (Amazon, Shopify)
+### 1. Professionelle Dienstleistungen (Beratung, Entwicklung, Design, Marketing)
 
-Wirtschaftliche Aktivität. **EU-USt komplex** (OSS/IOSS, Marketplace Facilitator). **DAC7** (siehe <a href="/de/blog/dac7-die-neue-meldung-digitaler-plattformen-die-ihr-geschaft">DAC7</a>). Zoll (EORI EU). US Sales Tax bei Nexus. Siehe <a href="/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger">Amazon mit LLC</a>.
-### 3. SaaS und digitale Abos
+Das ist der häufigste und einfachste Fall. Ihre LLC stellt internationalen B2B-Kunden Rechnungen (USA, EU, Lateinamerika). Merkmale:
 
-Wirtschaftliche Aktivität + Lizenzgrenzfall. **B2C-TBE**: USt im Konsumland (Non-EU OSS oder MoR wie Paddle, FastSpring, DoDo). **B2B**: Reverse Charge. CFC-Risiko mittel-hoch bei passiver Lizenzierung.
-### 4. Royalties und IP
+- **Charakter der Einkünfte**: gewerbliche Tätigkeit.
+- **Qualifikation in Deutschland (Wohnsitz)**: Einkünfte aus selbstständiger oder gewerblicher Tätigkeit, dem Gesellschafter über den steuerlich transparenten Charakter der Single-Member-LLC zugerechnet (vergleichbar mit der <a href="/de/blog/spanische-verwaltungsdoktrin-zur-us-llc-feb-2020">Verwaltungspraxis DGT/TEAC in Spanien</a> für den Nachbarn auf der Halbinsel).
+- **Umsatzsteuer**: B2B-Rechnung an EU-Kunden, **Reverse Charge** (der Kunde rechnet die Umsatzsteuer in seinem Land selbst ab); bei US-Kunden oder anderen Drittstaatenkunden, **nicht steuerbarer Umsatz** in Deutschland (Ortsregel für B2B-Dienstleistungen). Vertieft in <a href="/de/blog/mwst-auf-internationale-digitale-dienstleistungen-wann-sie">USt bei internationalen digitalen Dienstleistungen</a>.
+- **Einkommensteuer in Deutschland**: Einbeziehung in das zu versteuernde Einkommen mit progressivem Tarif (14 % bis 45 % zuzüglich Solidaritätszuschlag und gegebenenfalls Kirchensteuer und Gewerbesteuer mit Anrechnung).
+- **Hauptrisiko**: Scheinkonstruktion, wenn die operative Substanz ausschließlich vom in Deutschland ansässigen Gesellschafter ohne reale Substanz in den USA erbracht wird.
 
-**Passive Einkünfte**. Art. 12 DBA Spanien-USA. **CFC-Risiko hoch**. **LOB DBA 2019** restriktiv. Reine Royalty-LLC mit ES-Gesellschafter ohne Substanz = unter CFC.
+**Legitime Optimierung**: korrekte Betriebsausgaben in der LLC maximieren (Software, Tools, Subunternehmer, Fortbildung, Marketing). Das dem Gesellschafter zugerechnete Nettoergebnis sinkt, und der effektive Durchschnittssteuersatz fällt deutlich niedriger aus als bei einem reinen deutschen Selbstständigen.
+
+### 2. Physischer E-Commerce (Amazon, Shopify, Dropshipping)
+
+Sie verkaufen physische Waren an internationale Endverbraucher. Merkmale:
+
+- **Charakter der Einkünfte**: gewerbliche Tätigkeit Verkauf.
+- **Umsatzsteuer und Zoll**: komplex. Wenn Sie an europäische Verbraucher verkaufen, kann die LLC verpflichtet sein, sich in einzelnen EU-Ländern **zur USt zu registrieren** oder das **OSS / IOSS-Verfahren** zu nutzen. Bei Überschreiten bestimmter Schwellenwerte pro Land wird die lokale Registrierung obligatorisch. Marktplätze wie Amazon agieren in vielen Fällen als **deemed supplier** und behalten die USt ein, aber nicht in allen Fällen.
+- **DAC7**: als Verkäufer auf europäischen Amazon, Etsy oder eBay übermittelt Amazon Europa Ihre Einnahmen an die luxemburgische Steuerbehörde, die sie an die des Landes der wirtschaftlich Berechtigten weiterleitet. Siehe <a href="/de/blog/dac7-die-neue-meldung-digitaler-plattformen-die-ihr-geschaft">DAC7</a>.
+- **Zoll**: Wenn die LLC Lagerbestand zur Verteilung in die EU einführt (FBA), benötigt sie eine **europäische EORI-Nummer**, einen offiziellen Importeur und gegebenenfalls einen IOR (Importer of Record).
+- **Sales Tax in den USA**: Wenn Sie an Verbraucher in Bundesstaaten mit Economic Nexus verkaufen, kann sich eine Pflicht zur Registrierung und zur Erhebung der Sales Tax ergeben. Mehr in <a href="/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger">Amazon und E-Commerce mit LLC</a>.
+
+**Hauptrisiko**: USt-EU oder US-Sales-Tax zu ignorieren kann eine sehr hohe rückwirkende Rechnung auslösen.
+
+### 3. SaaS und digitale Abonnements
+
+Sie verkaufen den Zugriff auf Software oder digitalen Inhalt, B2C oder B2B, im Abonnement oder als Einmalzahlung. Merkmale:
+
+- **Charakter der Einkünfte**: gewerbliche Tätigkeit + Nutzungsüberlassung von Software (Grenze zu Lizenzgebühren).
+- **Auf elektronischem Weg erbrachte Dienstleistungen (TBE)**: Verkauf an europäische Verbraucher unterliegt der USt im Land des Verbrauchers. Verfahren **OSS Nicht-EU** (die LLC registriert sich in einem Mitgliedstaat der Identifizierung) oder Nutzung von Plattformen, die als Merchant of Record auftreten (Paddle, FastSpring, DoDo Payments, Lemon Squeezy) und die USt für Sie übernehmen.
+- **B2B**: allgemeine Reverse-Charge-Regel.
+- **Qualifikation in Deutschland**: Einkünfte aus gewerblicher Tätigkeit bei aktiver Entwicklung; wenn Sie eine passive Lizenz auf vorhandenen Code ohne nennenswerte operative Tätigkeit überlassen, kann es Diskussion über die **Hinzurechnungsbesteuerung** geben (§§ 7 ff. AStG).
+- **CFC/Hinzurechnungsrisiko**: Wenn die LLC überwiegend passive Einkünfte (Lizenzen) erzeugt und ihr in den USA materielle und personelle Mittel fehlen, kann die Finanzverwaltung die Hinzurechnungsbesteuerung anwenden.
+
+Detail in <a href="/de/blog/us-llc-fur-software-entwickler-und-saas-grunder">LLC für Softwareentwickler und SaaS</a>.
+
+### 4. Lizenzgebühren und geistiges Eigentum
+
+Ihre LLC hält Rechte (Marke, Software, Inhalte) und lizenziert sie an Dritte oder an eine verbundene Einheit. Merkmale:
+
+- **Charakter der Einkünfte**: passive Einkünfte (Royalties).
+- **DBA-Qualifikation**: Art. 12 DBA Deutschland-USA (Lizenzgebühren). In der Regel kann der Quellenstaat besteuern (mit der DBA-Grenze in Prozent), und der Wohnsitzstaat besteuert mit Anrechnung.
+- **CFC-Risiko**: hoch. Passive Einkünfte sind der typische Fall der Hinzurechnungsbesteuerung. Wenn Ihre LLC überwiegend passive Einkünfte erwirtschaftet und Sie sie kontrollieren und in Deutschland ansässig sind, können §§ 7 bis 14 AStG greifen.
+- **Effektive Besteuerung**: Greift die Hinzurechnungsbesteuerung, werden Sie in Deutschland besteuert, als wären die Einkünfte direkt Ihre, mit Anrechnung jeglicher Steuer, die die LLC gezahlt hat (typischerweise 0$ Bundessteuer als Disregarded Entity).
+- **LOB-Klausel im DBA**: erschwert hybriden oder substanzlosen Strukturen den Zugang zu DBA-Vorteilen.
+
+**Schlussfolgerung**: Eine reine Royalty-LLC mit in Deutschland ansässigem Gesellschafter muss mit echter Substanz konzipiert werden (materielle Mittel, Personal, in den USA getroffene Entscheidungen), oder es muss anerkannt werden, dass sie unter die Hinzurechnungsbesteuerung fällt.
+
 ### 5. Trading (Aktien, Futures, Krypto)
 
-Je nach Asset/Regime: Kapitalgewinne oder wirtschaftliche Aktivität. **DAC8** aktuell (siehe <a href="/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche">DAC8</a>). **CFC-Risiko sehr hoch**. Siehe <a href="/de/blog/kryptowahrungen-und-trading-mit-llc-vollstandiger">Krypto und Trading</a>.
-### Übersichtstabelle
+Ihre LLC handelt an den Finanzmärkten mit einem Konto bei Interactive Brokers, Tradovate oder Kraken. Merkmale:
 
-| Aktivität | ES-Klassifikation | USt | CFC-Risiko | Simulation | LLC-Eignung |
+- **Charakter der Einkünfte**: hängt vom Vermögenswert und Regime ab. FX- und Futures-Trading: Veräußerungsgewinne und -verluste in vielen Ländern; in Deutschland kann es bei gewerbsmäßiger und professioneller Ausübung als gewerbliche Tätigkeit umqualifiziert werden.
+- **Aktien**: Dividenden (Einkünfte aus Kapitalvermögen mit Abgeltungsteuer 25 % zuzüglich Solidaritätszuschlag bei opaker Einheit; bei transparenter Einheit, direkte Zurechnung) und Veräußerungsgewinne (ebenfalls Abgeltungsteuer).
+- **Krypto**: private Veräußerungsgeschäfte nach § 23 EStG mit Spekulationsfrist von einem Jahr für Privatpersonen, oder gewerbliche Tätigkeit bei häufigem und professionellem Trading.
+- **DAC8**: gilt seit Kurzem, wenn Sie über europäische Börsen handeln. Siehe <a href="/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche">DAC8 und Kryptowährungen</a>.
+- **CFC-Risiko**: sehr hoch. Portfolioeinkünfte sind das paradigmatische Beispiel passiver Einkünfte unter Hinzurechnungsbesteuerung.
+- **DBA**: Art. 10 (Dividenden), Art. 11 (Zinsen), Art. 13 (Veräußerungsgewinne). Die LOB-Klauseln des Protokolls 2019 sind besonders restriktiv für Investitionsstrukturen ohne Substanz.
+
+Detail in <a href="/de/blog/kryptowahrungen-und-trading-mit-llc-vollstandiger">Kryptowährungen und Trading mit LLC</a>.
+
+### Übersicht nach Tätigkeit
+
+| Tätigkeit | Qualifikation Deutschland (typisch) | Umsatzsteuer | CFC/Hinzurechnungsrisiko | Scheinrisiko | Eignung reine LLC |
 | --- | --- | --- | --- | --- | --- |
-| B2B-Services | Aktivität zugerechnet | RC | Niedrig | Mittel | Hoch |
-| E-Commerce | Aktivität zugerechnet | OSS/IOSS, sales tax | Niedrig | Mittel | Hoch mit Sorgfalt |
-| SaaS B2B | Aktivität zugerechnet | RC | Mittel | Mittel | Hoch |
-| SaaS B2C TBE | Aktivität zugerechnet | Non-EU OSS / MoR | Mittel-hoch | Mittel | Mittel-hoch |
-| Royalties | Passiv | Steuerfrei/RC | Hoch | Hoch | Niedrig ohne Substanz |
-| Trading | Passiv/Kapital | n/a | Sehr hoch | Hoch | Niedrig ohne Substanz |
-### Optimale Struktur wählen
+| Professionelle B2B-Dienstleistungen | Gewerbliche/selbstständige Tätigkeit zugerechnet | Reverse Charge Kunde | Niedrig | Mittel | Hoch |
+| E-Commerce | Gewerbliche Tätigkeit zugerechnet | Komplex (OSS/IOSS, Sales Tax) | Niedrig | Mittel | Hoch mit Vorsicht |
+| SaaS B2B | Gewerbliche Tätigkeit zugerechnet | Reverse Charge Kunde | Mittel | Mittel | Hoch |
+| SaaS B2C TBE | Gewerbliche Tätigkeit zugerechnet | OSS Nicht-EU / MoR | Mittel-hoch | Mittel | Mittel-hoch |
+| Lizenzgebühren | Passive Einkünfte | Meistens steuerfrei oder Reverse Charge | Hoch | Hoch | Niedrig ohne Substanz |
+| Finanztrading | Passive Einkünfte / Veräußerungsgewinne | n/a | Sehr hoch | Hoch | Niedrig ohne Substanz |
 
-Bei niedrigem CFC-Risiko (Services, E-Commerce, SaaS B2B): Single-Member-LLC effizient. Bei hohem CFC-Risiko: reale US-Substanz oder andere Struktur. Vollrahmen: <a href="/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur">solide Struktur</a>.
-### Typische Fehler nach Aktivität
+### Wie Sie Ihre optimale Struktur entscheiden
 
-Services: EU-Innergemeinschafts-USt ignorieren. E-Commerce: OSS/IOSS und US-Sales-Tax übersehen. SaaS: kein MoR. Royalties: IP-Erstellung nicht dokumentieren. Trading: persönliches und LLC-Trading mischen.
+Die LLC ohne Weiteres zu wählen ist nicht immer die richtige Antwort. Für Tätigkeiten mit niedrigem CFC-Risiko (Dienstleistungen, E-Commerce, SaaS B2B) ist eine **Single-Member-LLC** mit in Deutschland ansässigem Gesellschafter, korrekt erklärt und mit angemessener Substanz, effizient und verteidigbar. Für Tätigkeiten mit hohem CFC-Risiko (Lizenzgebühren, Trading) muss entweder die LLC mit **echter Substanz in den USA** ausgestattet werden oder eine andere Architektur in Betracht gezogen werden (operative deutsche GmbH + LLC mit begrenzter Tätigkeit, Wohnsitzplanung usw.). Vollständiger Rahmen in <a href="/de/blog/gestaltung-einer-soliden-internationalen-steuerstruktur">Aufbau einer soliden internationalen Struktur</a>.
 
-Siehe <a href="/de/blog/steuerrisiken-bei-mangelhafter-internationaler">Risiken</a>.
+### Typische Fehler nach Tätigkeit
+
+- **Dienstleistungen**: USt innergemeinschaftlich und Eintragung im VIES vergessen.
+- **E-Commerce**: OSS/IOSS und US-Sales-Tax ignorieren, bis die Nachzahlung kommt.
+- **SaaS**: keinen Merchant of Record nutzen und mit USt-Registrierung in jedem EU-Land enden.
+- **Lizenzgebühren**: Erstellung, Inhaberschaft und Pflege der immateriellen Vermögenswerte nicht dokumentieren.
+- **Trading**: persönliches Trading mit Trading aus der LLC verwechseln und Konten vermischen.
+
+Mehr zur Vermeidung typischer Fehler in <a href="/de/blog/steuerrisiken-bei-mangelhafter-internationaler">Steuerrisiken</a>.
+
 ### Zusammenfassung
 
-Eine LLC besteuert sich nach dem, was sie tut, wo und woher sie kontrolliert wird.
-
-Um diesen Faden weiterzuziehen, vertieft <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us">Warum spanische Freelancer die Selbstständigkeit für eine US LLC aufgeben</a> eine Nuance, die wir hier nur gestreift haben.
-
-<!-- exentax:cta-mid -->
-**Möchten Sie sehen, wie das auf Sie angewendet wird?** So <a href="/de/wie-wir-arbeiten">arbeiten wir</a> bei „LLC-Besteuerung nach wirtschaftlicher Aktivität: Dienstleistungen, E-Commerce, SaaS, Royalties, Trading" mit jedem Mandanten.
-
-<!-- exentax:cta-final -->
-**Reden wir über Ihren Fall, nicht über das Lehrbuch.** Buchen Sie ein 30-minütiges Gespräch und wir passen „LLC-Besteuerung nach wirtschaftlicher Aktivität: Dienstleistungen, E-Commerce, SaaS, Royalties, Trading" an Ihr Geschäft an.
-## Wir richten es ein, ohne dass Sie ein Wochenende verlieren
-
-Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.<!-- exentax:execution-v2 -->
-## LLC-Besteuerung nach wirtschaftlicher Aktivität: warum SaaS, Agentur und E-Commerce nicht gleich sind
-
-Die US-Bundesbesteuerung einer nicht-ansässigen LLC hängt auch davon ab, was die LLC tut.
-
-- **SaaS und Software.** Einkünfte sourced, wo Software entwickelt und betrieben wird. Wenn Founder nicht US-ansässig und Server nicht zwingend US, default = foreign-source → 0% Bund.
-- **Digitalagentur.** Sourced, wo Dienste physisch erbracht. In DE für US-Kunden = DE-Quelle, 0% Bund.
-- **E-Commerce.** US-Inventar (FBA, US-3PL) kann ETBUS schaffen. Inventar außerhalb US dropshipped: foreign-source und 0%.
-- **Investition und Trading.** US-Aktien-Gewinne für nicht-ansässige LLC: 0% Bund per Ausnahme. US-Dividenden: 30% Standard, 15%/0% unter Abkommen.
-
-### Was am häufigsten gefragt wird
-
-**Wenn ich digitale Kurse an US-Kunden verkaufe, ist es US-source?** Nicht standardmäßig. Sourced, wo entwickelt.
-
-**Macht Amazon FBA automatisch ETBUS?** Technische Debatte. Konservativ: ja.
-
-Bei Exentax modellieren wir jede Aktivität nach Sourcing vor Gründung.
-<!-- /exentax:execution-v2 -->
-## Wie wir bei Exentax arbeiten
-
-Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
+Eine LLC wird nicht „auf eine einzige Weise" besteuert: Sie wird besteuert nach dem, was sie tut, wo sie es tut und von wo aus sie kontrolliert wird. Das ernsthafte Gespräch über Steuerplanung beginnt damit, Ihre tatsächliche Tätigkeit zu verstehen, nicht damit, ein Land auf einer Karte auszuwählen.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Konkret prüfen wir den Sourcing-Mix Ihrer Einnahmen Mandant für Mandant: Welche Kunden sitzen wirklich in den USA, welche in Europa und welche in Lateinamerika, welche Plattformen halten Bestand vor Ort, welche Verträge sind dem US-Markt zuzuordnen und welche Marketingausgaben werden mit US-Vermögen erbracht. Aus dieser Analyse lässt sich begründet entscheiden, ob die LLC ETBUS-Risiken trägt oder ob die Aktivität sauber außerhalb des US-Steuersystems bleibt. Wir dokumentieren jede Annahme schriftlich, behalten Quittungen und Verträge in einem einzigen Mandanten-Repository und übergeben Ihnen am Jahresende ein Memo, das jeden Audit überleben kann, ohne dass Sie suchen müssen, wo etwas liegt. Dieses Memo ist auch die Grundlage, mit der Ihr lokaler Berater im Wohnsitzland die Erklärung kohärent macht und mit der Ihre Bank Sicherheitsfragen beantwortet, bevor sie zu KYC-Eskalationen werden.
+Möchten Sie, dass wir genau analysieren, wie Ihre Tätigkeit besteuert wird, und Ihnen die effizienteste und verteidigbarste Struktur entwerfen? Vereinbaren Sie Ihre kostenlose Beratung.
+
+Zur Vertiefung ergänzt <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us">Warum den Selbstständigenstatus in Spanien aufgeben (und welche Alternativen Sie haben)</a> das gerade Gesehene mit Punkten, die einen eigenen Artikel verdient haben.
+
+<!-- exentax:cta-mid -->
+**Bevor Sie eine LLC für Ihre Tätigkeit gründen, sehen Sie, wie wir arbeiten.** <a href="/de/wie-wir-arbeiten">Unsere Methode</a> beschreibt, was wir prüfen und in welcher Reihenfolge, von der Tätigkeitsanalyse bis zum am besten geeigneten Routing für USt und CFC.
+
+<!-- exentax:cta-final -->
+**Sprechen wir über Ihren Fall, nicht über das Handbuch.** Reservieren Sie 30 Minuten und wir passen „Besteuerung der LLC nach wirtschaftlicher Tätigkeit" an Ihre konkrete Tätigkeit an.
+
+<!-- exentax:legal-refs-v1 -->
+## Quellen: technische Referenzen und anwendbare Vorschriften
+
+Die genannten Zahlen, Formulare und Schwellenwerte stützen sich auf folgende derzeit geltende Quellen:
+
+- **Besteuerung der Tätigkeit.** IRC §864 und §882 (effektiv mit Tätigkeit in den USA verbunden, ECI), Treas. Reg. §301.7701-3 (Klassifikation der LLC) sowie Form 5472 + 1120 pro forma für nicht ansässige Single-Member-LLCs.
+- **Umsatzsteuer und internationaler Verkauf.** Richtlinie 2006/112/EG zur Umsatzsteuer, Durchführungsverordnung 282/2011, OSS/IOSS-Verfahren und One-Stop-Shop für digitale B2C-Dienstleistungen in der EU; Anweisungen zum Modelo 369 der AEAT in Spanien und entsprechende Meldung in Deutschland (BZSt-Online-Portal für OSS/IOSS).
+- **Marketplace-Plattformen.** Bedingungen veröffentlicht von Amazon Seller Central (einschließlich VAT Calculation Service und USt-Verantwortung in der EU gemäß Art. 14 bis Richtlinie 2006/112), Stripe Tax, Paddle (Merchant of Record), DoDo Payments und PayPal Business.
+- **DAC7.** Richtlinie (EU) 2021/514 über die Verwaltungszusammenarbeit bei digitalen Plattformen, in deutsches Recht umgesetzt durch das Plattformen-Steuertransparenzgesetz (PStTG) und in spanisches Recht durch RD 117/2024.
+- **Deutschland Wohnsitz.** AStG §§ 7 bis 14 (Hinzurechnungsbesteuerung), EStG §§ 1, 15, 18, 23 und 49, KStG, GewStG, UStG §§ 3a und 18; DBA Deutschland-USA und entsprechendes Protokoll 2019.
+- **Spanien Wohnsitz (Vergleichsreferenz).** Ley 35/2006 LIRPF (art. 100 TFI), Ley 27/2014 LIS und Ley 37/1992 zum IVA.
+
+Informativer Charakter; die konkrete Behandlung hängt vom Wohnsitzland des Inhabers und vom Land Ihrer Kunden ab.
+
+<!-- exentax:execution-v2 -->
+## Besteuerung der LLC nach wirtschaftlicher Tätigkeit: warum SaaS, Agentur und E-Commerce nicht dasselbe sind
+
+Die US-Bundesbesteuerung einer LLC eines Nichtansässigen hängt nicht nur von Ihrem Wohnsitz ab, sondern auch davon, was die LLC tut. Die Regel „non-effectively connected = 0 %" gilt nicht einheitlich: Der <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> wendet je nach Einkunftsart unterschiedliche Sourcing-Regeln an, und das klassifiziert Ihre LLC als ETBUS (engaged in trade or business in US) oder als passive foreign vehicle. So sieht jede typische Tätigkeit aus.
+
+- **SaaS und Software (digitale Abonnements).** Einkommen klassifiziert als business income, sourced danach, wo die Software entwickelt und betrieben wird. Wenn der Founder nicht in den USA wohnt und die Server nicht zwingend US sind (regional indistinkte Cloud), default = foreign-source income → 0 % federal. Risiko: Wenn Sie einen dependent agent in den USA einstellen (VP of Sales angestellt in den USA, kein unabhängiger Contractor), wird die LLC zu ETBUS.
+- **Digitale Agentur (professionelle Dienstleistungen).** Einkommen klassifiziert als personal services income, sourced dort, wo die Dienstleistungen physisch erbracht werden. Wenn Sie in Deutschland sind und für US-Kunden arbeiten, liegt die Quelle in Deutschland (wo der Dienst ausgeführt wird), NICHT in den USA, auch wenn der Kunde US ist. Default: 0 % federal. Ausnahme: Wenn Ihr Team in den USA ist oder Sie ein Office in den USA haben, sourcing US und Wechsel zu ETBUS.
+- **E-Commerce (physische Produkte).** Dreifache Analyse: (1) Bestand in den USA (Amazon FBA, 3PL US): kann ETBUS schaffen je nach Substanz. (2) Bestand außerhalb USA dropshipped in die USA: in der Regel foreign-source und 0 %. (3) Marketplaces (Amazon Seller US): Sie erhalten bereits netto nach Sales Tax, die Amazon einbehält, aber das federal income folgt Ihrem Sourcing. FBA + dependent agent = sehr hohes ETBUS-Risiko.
+- **Investition und Trading (capital gains, Dividenden).** Veräußerungsgewinne aus US-Börse für eine LLC eines Nichtansässigen: 0 % federal nach spezifischer Ausnahme (Capital Gains aus Portfolio Investment für Nichtansässige ohne trade or business steuerfrei). US-Dividenden: 30 % Quellensteuer als Default, reduziert auf 15 %/0 % unter Treaty mit W-8BEN-E. Krypto: behandelt als Property, gleiche Regeln wie Capital Gains; foreign-source und 0 %, wenn nicht ETBUS.
+
+### Was wir am häufigsten gefragt werden
+
+**Wenn ich digitale Kurse an US-Kunden verkaufe, ist das US-source income?** Nicht standardmäßig. Digitale Kurse sind personal services + intellectual property licence, sourced dort, wo sie entwickelt werden (Ihr Wohnsitz). Verkauf an einen US-Kunden macht das Einkommen nicht US-source. Es bleibt 0 % federal, sofern kein ETBUS vorliegt.
+
+**Macht mich Amazon FBA automatisch zu ETBUS?** Es gibt eine technische Debatte. Konservative Position: Ja, weil der Bestand im Amazon-US-Warehouse als dependent agent + fixed place of business interpretiert werden kann. Permissive Position: Es hängt von der effektiven Kontrolle ab. Die seriöse Praxis besteht darin, ETBUS anzunehmen und entsprechend zu planen oder auf Fulfillment außerhalb der USA zu wechseln.
+
+Bei Exentax modellieren wir jede Tätigkeit nach Sourcing-Regeln und ETBUS-Test vor der Gründung, um nicht nach zwei Jahren festzustellen, dass Sie 21 % federal zahlen, obwohl Sie 0 % glaubten.
+<!-- /exentax:execution-v2 -->
+
+## Wir bauen es Ihnen auf, ohne dass Sie ein Wochenende verlieren
+
+Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
+
+<!-- exentax:cross-refs-v1 -->
+### Vertiefung
+
+- [Steuerrisiken bei mangelhafter internationaler Strukturierung](/de/blog/steuerrisiken-bei-mangelhafter-internationaler)
+<!-- /exentax:cross-refs-v1 -->
+
+Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/termin">Reservieren Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, unverbindlich.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22%E2%80%9EEine%20LLC%20zahlt%20keine%20Steuern%20in%20den%20USA%E2%80%9D%2C%20richtig%2C%20solange%20es%20sich%20um%20einen%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Rufen Sie uns an unter <a href="tel:+34614916910">+34 614 916 910</a> oder schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22tributacion%20llc%20segun%20actividad%20economica%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->
@@ -86,24 +163,4 @@ Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a
 Gründung, EIN, BOI, Banking und laufender Betrieb — ein Team, das Ihren Fall von Anfang bis Ende versteht. <a href="/de/leistungen">Alle Leistungen ansehen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">47%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…a&gt;. - **IRPF España**: rendimiento neto en base general (24-47%). - **Riesgo principal**: …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…endos (rendimiento del capital mobiliario en base ahorro 19-28% si entidad opaca; si trans…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…n de qué hace la LLC. La regla &quot;non-effectively connected = 0%&quot; no es uniforme: el &lt;a href…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s para no residentes sin trade or business). Dividendos US: 30% retención por defecto, red…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ness). Dividendos US: 30% retención por defecto, reducida a 15%/0% bajo treaty con W-8BEN-…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s de constituir, para no descubrir a los dos años que pagas 21% federal cuando creías 0%. …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ier** en muchos casos y retienen IVA, pero no en todos. - **DAC7**: como vendedor en Amazo…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…actividad económica si trading frecuente y profesional. - **DAC8**: aplica recientemente s…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -162,20 +162,4 @@ Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita<
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">5%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…cambio real. La comisión es transparente (normalmente 0.4-1.5% según el par de divisas). #…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">3%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…-|---| | Tipo de cambio | Real (mid-market) | Con margen (1-3%) | | Comisión | Transparent…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">250,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…e estar en Mercury (custodiada en Column NA con FDIC hasta $250,000). Wise es la capa de c…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">6%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…enta española por SEPA. Coste total de la conversión: 0.4-0.6%. Con un banco tradicional p…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">1,000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…et, que puede suponer un ahorro de miles de pesos por cada $1,000 convertidos frente a la …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">4%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…a SEPA: gratis. Conversión FX (markup sobre tipo medio): ~0.4% USD↔EUR (vs 1%-3% bancos tr…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…Conversión FX (markup sobre tipo medio): ~0.4% USD↔EUR (vs 1%-3% bancos tradicionales). Ta…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

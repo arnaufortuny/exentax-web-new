@@ -126,7 +126,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               value={search}
               onChange={(e) => { setSearch(e.target.value); setOpenItem(null); }}
               placeholder={t("faqUI.searchPlaceholder")}
-              className="glass relative w-full pl-11 pr-10 py-3 rounded-full ring-1 ring-inset ring-[rgba(0,229,16,0.18)] text-[var(--text-1)] placeholder-[var(--text-3)] text-sm font-body shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_8px_24px_-12px_rgba(0,229,16,0.18)] focus:outline-none focus:ring-[rgba(0,229,16,0.55)] focus:shadow-[inset_0_1px_0_rgba(255,255,255,0.10),0_0_0_3px_rgba(0,229,16,0.12),0_10px_30px_-12px_rgba(0,229,16,0.35)] transition-all duration-200"
+              className="glass relative w-full pl-11 pr-10 py-3 rounded-full ring-1 ring-inset ring-[rgba(0,229,16,0.18)] text-[var(--text-1)] placeholder-[var(--text-3)] text-sm font-body shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_8px_24px_-12px_rgba(0,229,16,0.18)] focus:outline-none focus:ring-[rgba(0,229,16,0.35)] transition-colors duration-200"
               data-testid="input-faq-search"
             />
             {search && (

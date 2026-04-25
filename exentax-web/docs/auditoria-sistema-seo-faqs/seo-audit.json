@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T09:33:05.294Z",
+  "generatedAt": "2026-04-25T13:43:10.595Z",
   "summary": {
     "routes": 16,
     "languages": 6,
@@ -21,14 +21,9 @@
     ],
     "keywordPositioningRollupAvailable": true,
     "robotsAuditRollupAvailable": true,
-    "issuesByCriticality": {
-      "P2": 48
-    },
-    "issuesByArea": {
-      "keyword-positioning": 42,
-      "keyword-map-partial": 6
-    },
-    "totalIssues": 48
+    "issuesByCriticality": {},
+    "issuesByArea": {},
+    "totalIssues": 0
   },
   "pages": [
     {
@@ -39,14 +34,15 @@
       "sotPresent": true,
       "title": "Paga menos impuestos legalmente con LLC en EE.UU. | Exentax",
       "titleLength": 59,
-      "metaDescription": "Reduce tu carga fiscal del 40% al 8-12% con una LLC en EE.UU. Constitución en 2 días, EIN, cuenta Mercury y compliance incluido. Asesoría gratuita 30 min.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "LLC Estados Unidos para freelancers y autónomos: paga menos impuestos legalmente. Constitución en 2 días, EIN sin viajar, Mercury y compliance incluido.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/es",
-      "sotKeywords": null,
+      "sotKeywords": "paga, impuestos, LLC Estados Unidos, paga menos impuestos legalmente, optimización fiscal autónomos, LLC para freelancers, asesoría fiscal LLC, fiscalidad internacional, EIN sin viajar, Mercury cuenta empresa",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -84,11 +80,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "paga",
+        "impuestos",
+        "llc estados unidos",
+        "paga menos impuestos legalmente",
+        "optimización fiscal autónomos"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "optimización fiscal autónomos"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -102,14 +108,15 @@
       "sotPresent": true,
       "title": "Pay less taxes legally with your US LLC | Exentax",
       "titleLength": 49,
-      "metaDescription": "Reduce your tax burden from 40% to 8-12% with a US LLC. Formation in 2 days, EIN, bank account and compliance included. Personalized strategic consulting.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "US LLC for non-residents and freelancers: legally pay less tax. Formation in 2 days, EIN without travel, Mercury business account and full compliance included.",
+      "metaDescriptionLength": 159,
       "canonical": "https://exentax.com/en",
-      "sotKeywords": null,
+      "sotKeywords": "less, taxes, US LLC for non-residents, legally pay less tax, freelancer LLC formation, international tax optimization, EIN without travel, Mercury business account, US LLC for digital nomads, foreign-owned LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -147,11 +154,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "less",
+        "taxes",
+        "us llc for non-residents",
+        "legally pay less tax",
+        "freelancer llc formation"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "freelancer llc formation"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -165,14 +182,15 @@
       "sotPresent": true,
       "title": "Payez moins d'impôts avec votre LLC aux USA | Exentax",
       "titleLength": 53,
-      "metaDescription": "Réduisez votre charge fiscale de 40% à 8-12% avec une LLC aux États-Unis. Constitution en 2 jours, EIN, compte bancaire et compliance inclus.",
-      "metaDescriptionLength": 141,
+      "metaDescription": "LLC États-Unis pour freelances et nomades numériques : payer moins d'impôts légalement. Constitution en 2 jours, EIN sans déplacement, Mercury inclus.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/fr",
-      "sotKeywords": null,
+      "sotKeywords": "payez, moins, LLC États-Unis, payer moins d'impôts légalement, LLC pour freelances, optimisation fiscale internationale, EIN sans déplacement, compte Mercury, LLC nomades numériques, fiscalité freelances",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -210,11 +228,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "payez",
+        "moins",
+        "llc états-unis",
+        "payer moins d'impôts légalement",
+        "llc pour freelances"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc pour freelances"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -228,14 +256,15 @@
       "sotPresent": true,
       "title": "Zahlen Sie legal weniger Steuern mit Ihrer US-LLC | Exentax",
       "titleLength": 59,
-      "metaDescription": "Reduzieren Sie Ihre Steuerlast von 40% auf 8-12% mit einer LLC in den USA. Gründung in 2 Tagen, EIN, Bankkonto und Compliance inklusive.",
-      "metaDescriptionLength": 136,
+      "metaDescription": "US LLC für Nicht-Residenten und Freelancer: legal weniger Steuern zahlen. Gründung in 2 Tagen, EIN ohne Reise, Mercury Geschäftskonto und Compliance inklusive.",
+      "metaDescriptionLength": 159,
       "canonical": "https://exentax.com/de",
-      "sotKeywords": null,
+      "sotKeywords": "zahlen, legal, US LLC für Nicht-Residenten, legal weniger Steuern zahlen, LLC für Freelancer, internationale Steueroptimierung, EIN ohne Reise, Mercury Geschäftskonto, US LLC digitale Nomaden",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -273,11 +302,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "zahlen",
+        "legal",
+        "us llc für nicht-residenten",
+        "legal weniger steuern zahlen",
+        "llc für freelancer"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc für freelancer"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -291,14 +330,15 @@
       "sotPresent": true,
       "title": "Pague menos impostos com sua LLC nos EUA | Exentax",
       "titleLength": 50,
-      "metaDescription": "Reduza sua carga tributária de 40% para 8-12% com uma LLC nos Estados Unidos. Constituição em 2 dias, EIN, conta bancária e compliance incluídos.",
-      "metaDescriptionLength": 145,
+      "metaDescription": "LLC Estados Unidos para freelancers: pagar menos impostos legalmente. Constituição em 2 dias, EIN sem viajar, conta Mercury e compliance incluídos.",
+      "metaDescriptionLength": 147,
       "canonical": "https://exentax.com/pt",
-      "sotKeywords": null,
+      "sotKeywords": "pague, impostos, LLC Estados Unidos, pagar menos impostos legalmente, LLC para freelancers, otimização fiscal internacional, EIN sem viajar, conta Mercury, LLC nômades digitais, LLC estrangeiros",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -336,11 +376,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "pague",
+        "impostos",
+        "llc estados unidos",
+        "pagar menos impostos legalmente",
+        "llc para freelancers"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc para freelancers"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -354,14 +404,15 @@
       "sotPresent": true,
       "title": "Paga menys impostos amb la teva LLC als EUA | Exentax",
       "titleLength": 53,
-      "metaDescription": "Redueix la teva càrrega fiscal del 40% al 8-12% amb una LLC als Estats Units. Constitució en 2 dies, EIN, compte bancari i compliance inclòs.",
-      "metaDescriptionLength": 141,
+      "metaDescription": "LLC Estats Units per a autònoms: pagar menys impostos legalment. Constitució en 2 dies, EIN sense viatjar, compte Mercury i compliance inclòs.",
+      "metaDescriptionLength": 142,
       "canonical": "https://exentax.com/ca",
-      "sotKeywords": null,
+      "sotKeywords": "paga, menys, LLC Estats Units, pagar menys impostos legalment, LLC per a autònoms, optimització fiscal internacional, EIN sense viatjar, compte Mercury, LLC nòmades digitals",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "Organization",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "WebSite"
       ],
       "fetched": true,
       "httpStatus": 200,
@@ -399,11 +450,21 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "paga",
+        "menys",
+        "llc estats units",
+        "pagar menys impostos legalment",
+        "llc per a autònoms"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc per a autònoms"
+      ],
       "effectiveJsonLdTypes": [
         "Organization",
         "BreadcrumbList",
-        "ProfessionalService",
         "WebSite",
+        "ProfessionalService",
         "ItemList",
         "WebApplication",
         "SiteNavigationElement"
@@ -417,10 +478,10 @@
       "sotPresent": true,
       "title": "Cómo funciona: tu LLC lista en 4 pasos | Exentax",
       "titleLength": 48,
-      "metaDescription": "Asesoría estratégica → estructura personalizada → constitución en 2-4 días → compliance anual. Proceso claro, sin letra pequeña.",
-      "metaDescriptionLength": 128,
+      "metaDescription": "Cómo trabajamos LLC: asesoría fiscal estratégica, plan personalizado LLC y proceso constitución LLC en 2-4 días con compliance anual. Sin letra pequeña.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/es/como-trabajamos",
-      "sotKeywords": null,
+      "sotKeywords": "cómo, funciona, cómo trabajamos LLC, proceso constitución LLC, asesoría fiscal estratégica, plan personalizado LLC, compliance anual LLC, soporte LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -462,6 +523,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "cómo",
+        "funciona",
+        "cómo trabajamos llc",
+        "proceso constitución llc",
+        "asesoría fiscal estratégica"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -479,12 +548,12 @@
       "path": "/en/how-we-work",
       "canonicalExpected": "https://exentax.com/en/how-we-work",
       "sotPresent": true,
-      "title": "How it works: your LLC ready in 4 steps | Exentax",
+      "title": "How It Works: Your LLC Ready in 4 Steps | Exentax",
       "titleLength": 49,
-      "metaDescription": "Strategic consulting → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
-      "metaDescriptionLength": 148,
+      "metaDescription": "LLC formation process: strategic tax consultation, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
+      "metaDescriptionLength": 154,
       "canonical": "https://exentax.com/en/how-we-work",
-      "sotKeywords": null,
+      "sotKeywords": "works, ready, LLC formation process, strategic tax consultation, personalized LLC plan, annual LLC compliance, ongoing LLC support",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -526,6 +595,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "works",
+        "ready",
+        "llc formation process",
+        "strategic tax consultation",
+        "personalized llc plan"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -543,12 +620,12 @@
       "path": "/fr/comment-nous-travaillons",
       "canonicalExpected": "https://exentax.com/fr/comment-nous-travaillons",
       "sotPresent": true,
-      "title": "Comment ça marche : votre LLC prête en 4 étapes | Exentax",
-      "titleLength": 57,
-      "metaDescription": "Conseil stratégique → structure personnalisée → constitution en 2-4 jours → compliance annuel. Processus clair, sans petits caractères.",
-      "metaDescriptionLength": 135,
+      "title": "Comment ça marche : votre LLC en 4 étapes | Exentax",
+      "titleLength": 51,
+      "metaDescription": "Processus constitution LLC : consultation fiscale stratégique, plan LLC personnalisé et constitution en 2-4 jours avec conformité annuelle. Sans surprises.",
+      "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/fr/comment-nous-travaillons",
-      "sotKeywords": null,
+      "sotKeywords": "comment, marche, processus constitution LLC, consultation fiscale stratégique, plan LLC personnalisé, conformité annuelle LLC, support LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -590,6 +667,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "comment",
+        "marche",
+        "processus constitution llc",
+        "consultation fiscale stratégique",
+        "plan llc personnalisé"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -607,12 +692,12 @@
       "path": "/de/wie-wir-arbeiten",
       "canonicalExpected": "https://exentax.com/de/wie-wir-arbeiten",
       "sotPresent": true,
-      "title": "So funktioniert's: Ihre LLC in 4 Schritten | Exentax",
-      "titleLength": 52,
-      "metaDescription": "Strategische Beratung → individuelle Struktur → Gründung in 2-4 Tagen → jährliche Compliance. Klarer Prozess, ohne Kleingedrucktes.",
-      "metaDescriptionLength": 131,
+      "title": "So funktioniert es: Ihre LLC in 4 Schritten | Exentax",
+      "titleLength": 53,
+      "metaDescription": "LLC Gründungsprozess: strategische Steuerberatung, individueller LLC Plan und Gründung in 2-4 Tagen mit jährlicher LLC Compliance. Ohne Überraschungen.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/de/wie-wir-arbeiten",
-      "sotKeywords": null,
+      "sotKeywords": "funktioniert, ihre, LLC Gründungsprozess, strategische Steuerberatung, individueller LLC Plan, jährliche LLC Compliance, LLC Support",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -654,6 +739,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "funktioniert",
+        "ihre",
+        "llc gründungsprozess",
+        "strategische steuerberatung",
+        "individueller llc plan"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -673,10 +766,10 @@
       "sotPresent": true,
       "title": "Como funciona: sua LLC pronta em 4 passos | Exentax",
       "titleLength": 51,
-      "metaDescription": "Consultoria estratégica → estrutura personalizada → constituição em 2-4 dias → compliance anual. Processo claro, sem letras miúdas.",
-      "metaDescriptionLength": 131,
+      "metaDescription": "Processo constituição LLC: consultoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
+      "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/pt/como-trabalhamos",
-      "sotKeywords": null,
+      "sotKeywords": "funciona, pronta, processo constituição LLC, consultoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -718,6 +811,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "funciona",
+        "pronta",
+        "processo constituição llc",
+        "consultoria fiscal estratégica",
+        "plano llc personalizado"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -735,12 +836,12 @@
       "path": "/ca/com-treballem",
       "canonicalExpected": "https://exentax.com/ca/com-treballem",
       "sotPresent": true,
-      "title": "Com funciona: la teva LLC llesta en 4 passos | Exentax",
-      "titleLength": 54,
-      "metaDescription": "Assessoria estratègica → estructura personalitzada → constitució en 2-4 dies → compliance anual. Procés clar, sense lletra petita.",
-      "metaDescriptionLength": 130,
+      "title": "Com funciona: la teva LLC en 4 passos | Exentax",
+      "titleLength": 47,
+      "metaDescription": "Procés constitució LLC: assessoria fiscal estratègica, pla LLC personalitzat i constitució en 2-4 dies amb compliance anual. Sense lletra petita.",
+      "metaDescriptionLength": 145,
       "canonical": "https://exentax.com/ca/com-treballem",
-      "sotKeywords": null,
+      "sotKeywords": "funciona, teva, procés constitució LLC, assessoria fiscal estratègica, pla LLC personalitzat, compliance anual LLC, suport LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -782,6 +883,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "funciona",
+        "teva",
+        "procés constitució llc",
+        "assessoria fiscal estratègica",
+        "pla llc personalitzat"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "HowTo",
@@ -799,12 +908,12 @@
       "path": "/es/servicios",
       "canonicalExpected": "https://exentax.com/es/servicios",
       "sotPresent": true,
-      "title": "Servicios de constitución LLC en EE.UU. | Exentax",
+      "title": "Constitución y gestión de LLC en EE.UU. | Exentax",
       "titleLength": 49,
-      "metaDescription": "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta Mercury, compliance y soporte 12 meses. Consulta nuestros planes.",
-      "metaDescriptionLength": 147,
+      "metaDescription": "Servicios LLC Estados Unidos: constitución LLC, mantenimiento LLC, EIN, Operating Agreement, Mercury y compliance LLC. Planes para no residentes.",
+      "metaDescriptionLength": 145,
       "canonical": "https://exentax.com/es/servicios",
-      "sotKeywords": null,
+      "sotKeywords": "constitución, gestión, servicios LLC Estados Unidos, constitución LLC, mantenimiento LLC, EIN, Operating Agreement, Mercury, compliance LLC, planes constitución LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -849,6 +958,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "constitución",
+        "gestión",
+        "servicios llc estados unidos",
+        "constitución llc",
+        "mantenimiento llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -866,12 +983,12 @@
       "path": "/en/services",
       "canonicalExpected": "https://exentax.com/en/services",
       "sotPresent": true,
-      "title": "US LLC formation services | Exentax",
-      "titleLength": 35,
-      "metaDescription": "LLC in New Mexico, Wyoming or Delaware. Includes EIN, Operating Agreement, Mercury account, compliance and 12-month support. Check our plans.",
-      "metaDescriptionLength": 141,
+      "title": "US LLC Formation & Management for Non-Residents | Exentax",
+      "titleLength": 57,
+      "metaDescription": "US LLC services: LLC formation and LLC maintenance with EIN, Operating Agreement, Mercury bank and full LLC compliance. Plans for non-residents.",
+      "metaDescriptionLength": 144,
       "canonical": "https://exentax.com/en/services",
-      "sotKeywords": null,
+      "sotKeywords": "formation, management, US LLC services, LLC formation, LLC maintenance, EIN, Operating Agreement, Mercury bank, LLC compliance, LLC plans non-residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -916,6 +1033,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "formation",
+        "management",
+        "us llc services",
+        "llc formation",
+        "llc maintenance"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -933,12 +1058,12 @@
       "path": "/fr/services",
       "canonicalExpected": "https://exentax.com/fr/services",
       "sotPresent": true,
-      "title": "Services de constitution de LLC aux États-Unis | Exentax",
-      "titleLength": 56,
-      "metaDescription": "LLC au Nouveau-Mexique, Wyoming ou Delaware. Inclut EIN, Operating Agreement, compte Mercury, compliance et support 12 mois.",
-      "metaDescriptionLength": 124,
+      "title": "Constitution et gestion de LLC aux USA | Exentax",
+      "titleLength": 48,
+      "metaDescription": "Services LLC USA : constitution LLC et maintenance LLC avec EIN, Operating Agreement, Mercury et conformité LLC. Forfaits LLC non-résidents.",
+      "metaDescriptionLength": 140,
       "canonical": "https://exentax.com/fr/services",
-      "sotKeywords": null,
+      "sotKeywords": "constitution, gestion, services LLC USA, constitution LLC, maintenance LLC, EIN, Operating Agreement, Mercury, conformité LLC, forfaits LLC non-résidents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -983,6 +1108,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "constitution",
+        "gestion",
+        "services llc usa",
+        "constitution llc",
+        "maintenance llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1000,12 +1133,12 @@
       "path": "/de/leistungen",
       "canonicalExpected": "https://exentax.com/de/leistungen",
       "sotPresent": true,
-      "title": "LLC-Gründungsservices in den USA | Exentax",
-      "titleLength": 42,
-      "metaDescription": "LLC in New Mexico, Wyoming oder Delaware. Inklusive EIN, Operating Agreement, Mercury-Konto, Compliance und 12 Monate Support.",
-      "metaDescriptionLength": 126,
+      "title": "US-LLC Gründung & Verwaltung für Nicht-Residenten | Exentax",
+      "titleLength": 59,
+      "metaDescription": "US-LLC Dienstleistungen: LLC Gründung, LLC Verwaltung mit EIN, Operating Agreement, Mercury und LLC Compliance. Pakete für Nicht-Residenten.",
+      "metaDescriptionLength": 140,
       "canonical": "https://exentax.com/de/leistungen",
-      "sotKeywords": null,
+      "sotKeywords": "us-llc, gründung, US-LLC Dienstleistungen, LLC Gründung, LLC Verwaltung, EIN, Operating Agreement, Mercury, LLC Compliance, LLC Pakete Nicht-Residenten",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1050,6 +1183,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "us-llc",
+        "gründung",
+        "us-llc dienstleistungen",
+        "llc gründung",
+        "llc verwaltung"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1067,12 +1208,12 @@
       "path": "/pt/servicos",
       "canonicalExpected": "https://exentax.com/pt/servicos",
       "sotPresent": true,
-      "title": "Serviços de constituição de LLC nos EUA | Exentax",
-      "titleLength": 49,
-      "metaDescription": "LLC no Novo México, Wyoming ou Delaware. Inclui EIN, Operating Agreement, conta Mercury, compliance e suporte 12 meses.",
-      "metaDescriptionLength": 119,
+      "title": "Constituição e gestão de LLC nos EUA | Exentax",
+      "titleLength": 46,
+      "metaDescription": "Serviços LLC EUA: constituição LLC e manutenção LLC com EIN, Operating Agreement, Mercury e compliance LLC. Planos LLC para não residentes.",
+      "metaDescriptionLength": 139,
       "canonical": "https://exentax.com/pt/servicos",
-      "sotKeywords": null,
+      "sotKeywords": "constituição, gestão, serviços LLC EUA, constituição LLC, manutenção LLC, EIN, Operating Agreement, Mercury, compliance LLC, planos LLC não residentes",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1117,6 +1258,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "constituição",
+        "gestão",
+        "serviços llc eua",
+        "constituição llc",
+        "manutenção llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1134,12 +1283,12 @@
       "path": "/ca/serveis",
       "canonicalExpected": "https://exentax.com/ca/serveis",
       "sotPresent": true,
-      "title": "Serveis de constitució de LLC als EUA | Exentax",
-      "titleLength": 47,
-      "metaDescription": "LLC a Nou Mèxic, Wyoming o Delaware. Inclou EIN, Operating Agreement, compte Mercury, compliance i suport 12 mesos.",
-      "metaDescriptionLength": 115,
+      "title": "Constitució i gestió de LLC als EUA | Exentax",
+      "titleLength": 45,
+      "metaDescription": "Serveis LLC EUA: constitució LLC i manteniment LLC amb EIN, Operating Agreement, Mercury i compliance LLC. Plans LLC no residents.",
+      "metaDescriptionLength": 130,
       "canonical": "https://exentax.com/ca/serveis",
-      "sotKeywords": null,
+      "sotKeywords": "constitució, gestió, serveis LLC EUA, constitució LLC, manteniment LLC, EIN, Operating Agreement, Mercury, compliance LLC, plans LLC no residents",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1184,6 +1333,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "constitució",
+        "gestió",
+        "serveis llc eua",
+        "constitució llc",
+        "manteniment llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Product",
@@ -1203,10 +1360,10 @@
       "sotPresent": true,
       "title": "LLC en EE.UU. para no residentes: Guía 2026 | Exentax",
       "titleLength": 53,
-      "metaDescription": "Todo sobre LLC en Estados Unidos: ventajas fiscales, cómo constituirla paso a paso, banca en dólares, Stripe, obligaciones IRS y errores a evitar.",
-      "metaDescriptionLength": 146,
+      "metaDescription": "Qué es una LLC y ventajas LLC: LLC para no residentes, fiscalidad LLC, banca dólares LLC, Stripe LLC, obligaciones IRS LLC y errores a evitar.",
+      "metaDescriptionLength": 142,
       "canonical": "https://exentax.com/es/sobre-las-llc",
-      "sotKeywords": null,
+      "sotKeywords": "ee.uu., residentes, qué es una LLC, ventajas LLC, LLC para no residentes, fiscalidad LLC, banca dólares LLC, Stripe LLC, IRS LLC obligaciones",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1248,6 +1405,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "ee.uu.",
+        "residentes",
+        "qué es una llc",
+        "ventajas llc",
+        "llc para no residentes"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1267,10 +1432,10 @@
       "sotPresent": true,
       "title": "US LLC for non-residents: Complete guide 2026 | Exentax",
       "titleLength": 55,
-      "metaDescription": "Everything about US LLCs: tax advantages, step-by-step formation, dollar banking, Stripe, IRS obligations and mistakes to avoid.",
-      "metaDescriptionLength": 128,
+      "metaDescription": "What is a US LLC and LLC benefits: LLC for non-residents, LLC taxation, dollar banking LLC, Stripe LLC and IRS LLC obligations explained.",
+      "metaDescriptionLength": 137,
       "canonical": "https://exentax.com/en/about-llc",
-      "sotKeywords": null,
+      "sotKeywords": "non-residents, complete, what is a US LLC, LLC benefits, LLC for non-residents, LLC taxation, dollar banking LLC, Stripe LLC, IRS LLC obligations",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1312,6 +1477,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "non-residents",
+        "complete",
+        "what is a us llc",
+        "llc benefits",
+        "llc for non-residents"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1331,10 +1504,10 @@
       "sotPresent": true,
       "title": "LLC aux USA pour non-résidents: Guide 2026 | Exentax",
       "titleLength": 52,
-      "metaDescription": "Tout sur les LLC aux États-Unis : avantages fiscaux, constitution étape par étape, banque en dollars, Stripe, obligations IRS et erreurs à éviter.",
-      "metaDescriptionLength": 146,
+      "metaDescription": "Qu'est-ce qu'une LLC et avantages LLC : LLC pour non-résidents, fiscalité LLC, banque en dollars LLC, Stripe LLC et obligations IRS LLC.",
+      "metaDescriptionLength": 136,
       "canonical": "https://exentax.com/fr/a-propos-des-llc",
-      "sotKeywords": null,
+      "sotKeywords": "non-résidents, guide, qu'est-ce qu'une LLC, avantages LLC, LLC pour non-résidents, fiscalité LLC, banque en dollars LLC, Stripe LLC, obligations IRS LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1376,6 +1549,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "non-résidents",
+        "guide",
+        "qu'est-ce qu'une llc",
+        "avantages llc",
+        "llc pour non-résidents"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1395,10 +1576,10 @@
       "sotPresent": true,
       "title": "US-LLC für Nicht-Residenten: Leitfaden 2026 | Exentax",
       "titleLength": 53,
-      "metaDescription": "Alles über US-LLCs: Steuervorteile, Schritt-für-Schritt-Gründung, Dollar-Banking, Stripe, IRS-Pflichten und Fehler die man vermeiden sollte.",
-      "metaDescriptionLength": 140,
+      "metaDescription": "Was ist eine US-LLC und LLC Vorteile: LLC für Nicht-Residenten, LLC Besteuerung, Dollar-Banking LLC, Stripe LLC und IRS LLC Pflichten.",
+      "metaDescriptionLength": 134,
       "canonical": "https://exentax.com/de/uber-llc",
-      "sotKeywords": null,
+      "sotKeywords": "us-llc, nicht-residenten, Was ist eine US-LLC, LLC Vorteile, LLC für Nicht-Residenten, LLC Besteuerung, Dollar-Banking LLC, Stripe LLC, IRS LLC Pflichten",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1440,6 +1621,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "us-llc",
+        "nicht-residenten",
+        "was ist eine us-llc",
+        "llc vorteile",
+        "llc für nicht-residenten"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1459,10 +1648,10 @@
       "sotPresent": true,
       "title": "LLC nos EUA para não residentes: Guia 2026 | Exentax",
       "titleLength": 52,
-      "metaDescription": "Tudo sobre LLC nos Estados Unidos: vantagens fiscais, como constituir passo a passo, banco em dólares, Stripe, obrigações IRS e erros a evitar.",
-      "metaDescriptionLength": 143,
+      "metaDescription": "O que é uma LLC e vantagens LLC: LLC para não residentes, tributação LLC, conta dólar LLC, Stripe LLC e obrigações IRS LLC explicadas.",
+      "metaDescriptionLength": 134,
       "canonical": "https://exentax.com/pt/sobre-llc",
-      "sotKeywords": null,
+      "sotKeywords": "residentes, guia, o que é uma LLC, vantagens LLC, LLC para não residentes, tributação LLC, conta dólar LLC, Stripe LLC, obrigações IRS LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1504,6 +1693,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "residentes",
+        "guia",
+        "o que é uma llc",
+        "vantagens llc",
+        "llc para não residentes"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1523,10 +1720,10 @@
       "sotPresent": true,
       "title": "LLC als EUA per a no residents: Guia 2026 | Exentax",
       "titleLength": 51,
-      "metaDescription": "Tot sobre LLC als Estats Units: avantatges fiscals, com constituir-la pas a pas, banca en dòlars, Stripe, obligacions IRS i errors a evitar.",
-      "metaDescriptionLength": 140,
+      "metaDescription": "Què és una LLC i avantatges LLC: LLC per a no residents, fiscalitat LLC, banca en dòlars LLC, Stripe LLC i obligacions IRS LLC explicades.",
+      "metaDescriptionLength": 138,
       "canonical": "https://exentax.com/ca/sobre-les-llc",
-      "sotKeywords": null,
+      "sotKeywords": "residents, guia, què és una LLC, avantatges LLC, LLC per a no residents, fiscalitat LLC, banca en dòlars LLC, Stripe LLC, obligacions IRS LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -1568,6 +1765,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "residents",
+        "guia",
+        "què és una llc",
+        "avantatges llc",
+        "llc per a no residents"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Article",
@@ -1587,10 +1792,10 @@
       "sotPresent": true,
       "title": "Preguntas frecuentes sobre LLC en EE.UU. | Exentax",
       "titleLength": 50,
-      "metaDescription": "¿Es legal? ¿Cuánto cuesta? ¿Qué impuestos pago? Respondemos todas las dudas sobre LLC en Estados Unidos para freelancers y autónomos.",
-      "metaDescriptionLength": 133,
+      "metaDescription": "Preguntas frecuentes LLC Estados Unidos: dudas LLC freelancers sobre legalidad, costes LLC, impuestos LLC y diferencias Wyoming Delaware Nuevo México.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/es/preguntas-frecuentes",
-      "sotKeywords": null,
+      "sotKeywords": "preguntas, frecuentes, preguntas frecuentes LLC, FAQ LLC Estados Unidos, dudas LLC freelancers, costes LLC, impuestos LLC, legalidad LLC, FAQ Wyoming Delaware Nuevo México",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1631,6 +1836,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "preguntas",
+        "frecuentes",
+        "preguntas frecuentes llc",
+        "faq llc estados unidos",
+        "dudas llc freelancers"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "faq llc estados unidos"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1648,12 +1863,12 @@
       "path": "/en/faq",
       "canonicalExpected": "https://exentax.com/en/faq",
       "sotPresent": true,
-      "title": "Frequently asked questions about US LLCs | Exentax",
-      "titleLength": 50,
-      "metaDescription": "Is it legal? How much does it cost? What taxes do I pay? We answer all questions about US LLCs for freelancers and self-employed professionals.",
-      "metaDescriptionLength": 143,
+      "title": "Frequently asked questions about US LLC | Exentax",
+      "titleLength": 49,
+      "metaDescription": "US LLC FAQ: frequently asked questions LLC for freelancers — LLC costs, LLC taxes, LLC legality and Wyoming Delaware New Mexico differences.",
+      "metaDescriptionLength": 140,
       "canonical": "https://exentax.com/en/faq",
-      "sotKeywords": null,
+      "sotKeywords": "frequently, asked, US LLC FAQ, frequently asked questions LLC, LLC freelancer questions, LLC costs, LLC taxes, LLC legality, Wyoming Delaware New Mexico FAQ",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1694,6 +1909,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "frequently",
+        "asked",
+        "us llc faq",
+        "frequently asked questions llc",
+        "llc freelancer questions"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc freelancer questions"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1711,12 +1936,12 @@
       "path": "/fr/questions-frequentes",
       "canonicalExpected": "https://exentax.com/fr/questions-frequentes",
       "sotPresent": true,
-      "title": "Questions fréquentes sur les LLC aux USA | Exentax",
-      "titleLength": 50,
-      "metaDescription": "Est-ce légal ? Combien ça coûte ? Quels impôts je paie ? Toutes les réponses sur les LLC aux États-Unis pour freelances et indépendants.",
-      "metaDescriptionLength": 136,
+      "title": "Questions fréquentes sur les LLC aux États-Unis | Exentax",
+      "titleLength": 57,
+      "metaDescription": "FAQ LLC USA : questions fréquentes LLC pour freelances — coûts LLC, fiscalité LLC, légalité LLC et différences Wyoming Delaware Nouveau-Mexique.",
+      "metaDescriptionLength": 144,
       "canonical": "https://exentax.com/fr/questions-frequentes",
-      "sotKeywords": null,
+      "sotKeywords": "questions, fréquentes, FAQ LLC USA, questions fréquentes LLC, LLC freelances questions, coûts LLC, fiscalité LLC, légalité LLC, FAQ Wyoming Delaware Nouveau-Mexique",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1757,6 +1982,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "questions",
+        "fréquentes",
+        "faq llc usa",
+        "questions fréquentes llc",
+        "llc freelances questions"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc freelances questions"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1774,12 +2009,12 @@
       "path": "/de/haufige-fragen",
       "canonicalExpected": "https://exentax.com/de/haufige-fragen",
       "sotPresent": true,
-      "title": "Häufige Fragen zu US-LLCs | Exentax",
-      "titleLength": 35,
-      "metaDescription": "Ist es legal? Was kostet es? Welche Steuern zahle ich? Alle Antworten zu LLCs in den USA für Freelancer und Selbständige.",
-      "metaDescriptionLength": 121,
+      "title": "Häufig gestellte Fragen zur US-LLC | Exentax",
+      "titleLength": 44,
+      "metaDescription": "LLC FAQ USA: häufige Fragen LLC für Freelancer — LLC Kosten, LLC Steuern, LLC Legalität und Wyoming Delaware New Mexico Unterschiede.",
+      "metaDescriptionLength": 133,
       "canonical": "https://exentax.com/de/haufige-fragen",
-      "sotKeywords": null,
+      "sotKeywords": "häufig, gestellte, LLC FAQ USA, häufige Fragen LLC, LLC Freelancer Fragen, LLC Kosten, LLC Steuern, LLC Legalität, Wyoming Delaware New Mexico FAQ",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1820,6 +2055,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "häufig",
+        "gestellte",
+        "llc faq usa",
+        "häufige fragen llc",
+        "llc freelancer fragen"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc freelancer fragen"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1839,10 +2084,10 @@
       "sotPresent": true,
       "title": "Perguntas frequentes sobre LLC nos EUA | Exentax",
       "titleLength": 48,
-      "metaDescription": "É legal? Quanto custa? Quais impostos pago? Respondemos todas as dúvidas sobre LLC nos Estados Unidos para freelancers e autônomos.",
-      "metaDescriptionLength": 131,
+      "metaDescription": "FAQ LLC EUA: perguntas frequentes LLC para freelancers — custos LLC, impostos LLC, legalidade LLC e diferenças Wyoming Delaware Novo México.",
+      "metaDescriptionLength": 140,
       "canonical": "https://exentax.com/pt/perguntas-frequentes",
-      "sotKeywords": null,
+      "sotKeywords": "perguntas, frequentes, FAQ LLC EUA, perguntas frequentes LLC, LLC freelancers dúvidas, custos LLC, impostos LLC, legalidade LLC, FAQ Wyoming Delaware Novo México",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1883,6 +2128,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "perguntas",
+        "frequentes",
+        "faq llc eua",
+        "perguntas frequentes llc",
+        "llc freelancers dúvidas"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc freelancers dúvidas"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1902,10 +2157,10 @@
       "sotPresent": true,
       "title": "Preguntes freqüents sobre LLC als EUA | Exentax",
       "titleLength": 47,
-      "metaDescription": "És legal? Quant costa? Quins impostos pago? Responem tots els dubtes sobre LLC als Estats Units per a freelancers i autònoms.",
-      "metaDescriptionLength": 125,
+      "metaDescription": "FAQ LLC EUA: preguntes freqüents LLC per a autònoms — costos LLC, impostos LLC, legalitat LLC i diferències Wyoming Delaware Nou Mèxic.",
+      "metaDescriptionLength": 135,
       "canonical": "https://exentax.com/ca/preguntes-frequents",
-      "sotKeywords": null,
+      "sotKeywords": "preguntes, freqüents, FAQ LLC EUA, preguntes freqüents LLC, LLC autònoms dubtes, costos LLC, impostos LLC, legalitat LLC, FAQ Wyoming Delaware Nou Mèxic",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList"
@@ -1946,6 +2201,16 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "preguntes",
+        "freqüents",
+        "faq llc eua",
+        "preguntes freqüents llc",
+        "llc autònoms dubtes"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [
+        "llc autònoms dubtes"
+      ],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "ProfessionalService",
@@ -1965,10 +2230,10 @@
       "sotPresent": true,
       "title": "Asesoría fiscal estratégica 30 min | Exentax",
       "titleLength": 44,
-      "metaDescription": "Reserva tu asesoría fiscal estratégica. En 30 minutos analizamos tu situación fiscal real y calculamos cuánto puedes ahorrar con una LLC.",
-      "metaDescriptionLength": 137,
+      "metaDescription": "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu consultoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/es/agendar",
-      "sotKeywords": null,
+      "sotKeywords": "asesoría, fiscal, agendar asesoría fiscal, llamada estratégica LLC, consultoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2010,6 +2275,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "asesoría",
+        "fiscal",
+        "agendar asesoría fiscal",
+        "llamada estratégica llc",
+        "consultoría fiscal 30 minutos"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2029,10 +2302,10 @@
       "sotPresent": true,
       "title": "30-min strategic tax consultation | Exentax",
       "titleLength": 43,
-      "metaDescription": "Book your strategic tax consultation. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
-      "metaDescriptionLength": 135,
+      "metaDescription": "Book tax consultation Exentax: strategic LLC call of 30 min. We deliver a 30-min tax consultation and calculate your savings with a US LLC.",
+      "metaDescriptionLength": 139,
       "canonical": "https://exentax.com/en/book",
-      "sotKeywords": null,
+      "sotKeywords": "strategic, consultation, book tax consultation, strategic LLC call, 30-min tax consultation, free LLC advisory, book Exentax call",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2074,6 +2347,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "strategic",
+        "consultation",
+        "book tax consultation",
+        "strategic llc call",
+        "30-min tax consultation"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2091,12 +2372,12 @@
       "path": "/fr/reserver",
       "canonicalExpected": "https://exentax.com/fr/reserver",
       "sotPresent": true,
-      "title": "Consultation fiscale stratégique 30 min | Exentax",
-      "titleLength": 49,
-      "metaDescription": "Réservez votre consultation fiscale stratégique. En 30 minutes nous analysons votre situation fiscale et calculons vos économies avec une LLC.",
-      "metaDescriptionLength": 142,
+      "title": "Consultation fiscale gratuite 30 min | Exentax",
+      "titleLength": 46,
+      "metaDescription": "Réserver consultation fiscale Exentax : appel stratégique LLC de 30 min. Nous menons votre consultation fiscale 30 min et calculons vos économies LLC.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/fr/reserver",
-      "sotKeywords": null,
+      "sotKeywords": "consultation, fiscale, réserver consultation fiscale, appel stratégique LLC, consultation fiscale 30 min, conseil LLC gratuit, réserver appel Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2138,6 +2419,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "consultation",
+        "fiscale",
+        "réserver consultation fiscale",
+        "appel stratégique llc",
+        "consultation fiscale 30 min"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2155,12 +2444,12 @@
       "path": "/de/buchen",
       "canonicalExpected": "https://exentax.com/de/buchen",
       "sotPresent": true,
-      "title": "30-min strategische Steuerberatung | Exentax",
-      "titleLength": 44,
-      "metaDescription": "Buchen Sie Ihre strategische Steuerberatung. In 30 Minuten analysieren wir Ihre Steuersituation und berechnen Ihre Ersparnis mit einer LLC.",
-      "metaDescriptionLength": 139,
+      "title": "Kostenlose 30-Min-Steuerberatung | Exentax",
+      "titleLength": 42,
+      "metaDescription": "Steuerberatung buchen Exentax: strategischer LLC Anruf von 30 Min. 30-min Steuerberatung mit Berechnung Ihrer Ersparnis mit einer US-LLC.",
+      "metaDescriptionLength": 137,
       "canonical": "https://exentax.com/de/buchen",
-      "sotKeywords": null,
+      "sotKeywords": "kostenlose, min-steuerberatung, Steuerberatung buchen, strategischer LLC Anruf, 30-Min Steuerberatung, kostenlose LLC Beratung, Exentax Termin",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2202,6 +2491,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "kostenlose",
+        "min-steuerberatung",
+        "steuerberatung buchen",
+        "strategischer llc anruf",
+        "30-min steuerberatung"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2219,12 +2516,12 @@
       "path": "/pt/agendar",
       "canonicalExpected": "https://exentax.com/pt/agendar",
       "sotPresent": true,
-      "title": "Consultoria fiscal estratégica 30 min | Exentax",
-      "titleLength": 47,
-      "metaDescription": "Agende sua consultoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
-      "metaDescriptionLength": 146,
+      "title": "Consultoria fiscal gratuita 30 min | Exentax",
+      "titleLength": 44,
+      "metaDescription": "Agendar consultoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a consultoria fiscal 30 min e calculamos a economia com uma LLC.",
+      "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/pt/agendar",
-      "sotKeywords": null,
+      "sotKeywords": "consultoria, fiscal, agendar consultoria fiscal, chamada estratégica LLC, consultoria fiscal 30 min, consultoria LLC grátis, reservar Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2266,6 +2563,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "consultoria",
+        "fiscal",
+        "agendar consultoria fiscal",
+        "chamada estratégica llc",
+        "consultoria fiscal 30 min"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2283,12 +2588,12 @@
       "path": "/ca/agendar",
       "canonicalExpected": "https://exentax.com/ca/agendar",
       "sotPresent": true,
-      "title": "Assessoria fiscal estratègica 30 min | Exentax",
-      "titleLength": 46,
-      "metaDescription": "Reserva la teva assessoria fiscal estratègica. En 30 minuts analitzem la teva situació fiscal real i calculem quant pots estalviar amb una LLC.",
+      "title": "Assessoria fiscal gratuïta 30 min | Exentax",
+      "titleLength": 43,
+      "metaDescription": "Reservar assessoria fiscal Exentax: trucada estratègica LLC de 30 min. Fem l'assessoria fiscal 30 min i calculem l'estalvi amb una LLC als EUA.",
       "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/ca/agendar",
-      "sotKeywords": null,
+      "sotKeywords": "assessoria, fiscal, reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, consultoria LLC gratuïta, reservar Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [
         "BreadcrumbList",
@@ -2330,6 +2635,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "assessoria",
+        "fiscal",
+        "reservar assessoria fiscal",
+        "trucada estratègica llc",
+        "assessoria fiscal 30 min"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "BreadcrumbList",
         "Service",
@@ -2349,12 +2662,15 @@
       "sotPresent": true,
       "title": "Nuevo México: 0% impuesto estatal para tu LLC | Exentax",
       "titleLength": 55,
-      "metaDescription": "Cero impuesto estatal sobre la renta, sin informe anual y con anonimato real para nómadas digitales. EIN, banca y BOI llave en mano. Reserva tu llamada.",
-      "metaDescriptionLength": 152,
+      "metaDescription": "LLC en Nuevo México para no residentes: cero impuesto estatal, NM LLC sin informe anual y anonimato real. EIN, Mercury y BOI incluidos. Reserva tu llamada.",
+      "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/es/servicios/llc-nuevo-mexico",
       "sotKeywords": "nuevo, méxico, LLC Nuevo México, LLC New Mexico no residentes, NM LLC sin informe anual, NM LLC privacidad, LLC barata Estados Unidos",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2400,10 +2716,11 @@
       ],
       "keywordTokensMissingInTitleOrDesc": [
         "llc nuevo méxico",
-        "llc new mexico no residentes",
-        "nm llc sin informe anual"
+        "llc new mexico no residentes"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2420,12 +2737,15 @@
       "sotPresent": true,
       "title": "New Mexico LLC: low-cost privacy for solo founders | Exentax",
       "titleLength": 60,
-      "metaDescription": "The lowest-maintenance U.S. LLC for solo founders: no annual report, no franchise tax and full member anonymity. EIN, U.S. bank and BOI included. Get started.",
-      "metaDescriptionLength": 158,
+      "metaDescription": "New Mexico LLC for non-residents: low-cost US LLC with no annual report, no franchise tax and full member anonymity. EIN, US bank and BOI included. Get started.",
+      "metaDescriptionLength": 160,
       "canonical": "https://exentax.com/en/services/llc-new-mexico",
       "sotKeywords": "mexico, low-cost, New Mexico LLC, NM LLC non-resident, low-cost US LLC, no annual report LLC, NM LLC privacy, NM LLC formation",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2470,10 +2790,11 @@
         "low-cost us llc"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "nm llc non-resident",
-        "low-cost us llc"
+        "nm llc non-resident"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2490,12 +2811,15 @@
       "sotPresent": true,
       "title": "LLC au Nouveau-Mexique : zéro paperasse annuelle | Exentax",
       "titleLength": 58,
-      "metaDescription": "Zéro déclaration annuelle, zéro franchise tax et anonymat total pour les freelances et nomades : la LLC la plus légère des USA. EIN inclus. Réservez un appel.",
-      "metaDescriptionLength": 158,
+      "metaDescription": "LLC Nouveau-Mexique pour non-résidents : LLC US bas coût, NM LLC sans rapport annuel ni franchise tax, anonymat total. EIN, banque et BOI inclus. Réservez.",
+      "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/fr/services/llc-nouveau-mexique",
       "sotKeywords": "nouveau-mexique, zéro, LLC Nouveau-Mexique, NM LLC non-résident, LLC US bas coût, LLC sans rapport annuel, NM LLC confidentialité",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2540,11 +2864,11 @@
         "llc us bas coût"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc nouveau-mexique",
-        "nm llc non-résident",
-        "llc us bas coût"
+        "nm llc non-résident"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2561,12 +2885,15 @@
       "sotPresent": true,
       "title": "New Mexico LLC: steueroptimiert für Selbstständige | Exentax",
       "titleLength": 60,
-      "metaDescription": "Steueroptimiert für deutsche Selbstständige: keine State Income Tax, kein Jahresbericht und volle Gesellschafter-Anonymität. Mit EIN, Bank, BOI. Termin sichern.",
-      "metaDescriptionLength": 160,
+      "metaDescription": "New Mexico LLC für Nicht-Residenten: günstige US-LLC ohne Jahresbericht, ohne Franchise Tax und mit voller Anonymität. EIN, Bank und BOI inklusive.",
+      "metaDescriptionLength": 147,
       "canonical": "https://exentax.com/de/leistungen/llc-new-mexico",
       "sotKeywords": "mexico, steueroptimiert, New Mexico LLC, NM LLC Nicht-Residenten, günstige US-LLC, LLC ohne Jahresbericht, NM LLC Anonymität",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2611,10 +2938,11 @@
         "günstige us-llc"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "nm llc nicht-residenten",
-        "günstige us-llc"
+        "nm llc nicht-residenten"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2631,12 +2959,15 @@
       "sotPresent": true,
       "title": "LLC no Novo México: estrutura enxuta e barata | Exentax",
       "titleLength": 55,
-      "metaDescription": "A LLC americana mais enxuta para freelancers brasileiros: sem relatório anual, sem franchise tax e com anonimato real. EIN, banco e BOI inclusos. Comece hoje.",
+      "metaDescription": "LLC Novo México para não residentes: LLC EUA baixo custo, sem relatório anual, sem franchise tax e com anonimato real. EIN, banco e BOI inclusos. Comece hoje.",
       "metaDescriptionLength": 158,
       "canonical": "https://exentax.com/pt/servicos/llc-novo-mexico",
       "sotKeywords": "novo, méxico, LLC Novo México, NM LLC não residentes, LLC EUA baixo custo, LLC sem relatório anual, NM LLC privacidade",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2681,11 +3012,11 @@
         "llc eua baixo custo"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc novo méxico",
-        "nm llc não residentes",
-        "llc eua baixo custo"
+        "nm llc não residentes"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2702,12 +3033,15 @@
       "sotPresent": true,
       "title": "LLC a Nou Mèxic: cost mínim i sense paperasses | Exentax",
       "titleLength": 56,
-      "metaDescription": "La LLC americana més lleugera per a autònoms catalans: sense informe anual, sense franchise tax i amb anonimat. EIN, banc i BOI inclosos. Comença avui.",
-      "metaDescriptionLength": 151,
+      "metaDescription": "LLC Nou Mèxic per a no residents: LLC EUA baix cost, NM LLC sense informe anual ni franchise tax i anonimat. EIN, banc i BOI inclosos. Comença avui.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/ca/serveis/llc-nou-mexic",
       "sotKeywords": "mèxic, cost, LLC Nou Mèxic, NM LLC no residents, LLC EUA baix cost, LLC sense informe anual, NM LLC privacitat",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2752,11 +3086,11 @@
         "llc eua baix cost"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc nou mèxic",
-        "nm llc no residents",
-        "llc eua baix cost"
+        "nm llc no residents"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2773,12 +3107,15 @@
       "sotPresent": true,
       "title": "Wyoming: blindaje patrimonial líder en EE. UU. | Exentax",
       "titleLength": 56,
-      "metaDescription": "Blinda tu patrimonio con la única charging order exclusiva del país y anonimato societario probado. Compliance mínimo y caso law sólido. Habla con un experto.",
+      "metaDescription": "LLC Wyoming para no residentes: blindaje patrimonial con charging order exclusiva del país y WY LLC con anonimato real. Caso law sólido. Habla con un experto.",
       "metaDescriptionLength": 158,
       "canonical": "https://exentax.com/es/servicios/llc-wyoming",
       "sotKeywords": "wyoming, blindaje, LLC Wyoming, Wyoming LLC blindaje patrimonial, WY LLC anonimato, charging order Wyoming, LLC Wyoming no residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2823,11 +3160,12 @@
         "wy llc anonimato"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc wyoming",
         "wyoming llc blindaje patrimonial",
         "wy llc anonimato"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2844,12 +3182,15 @@
       "sotPresent": true,
       "title": "Wyoming LLC: gold-standard U.S. asset protection | Exentax",
       "titleLength": 58,
-      "metaDescription": "Shield your wealth with America's strongest charging-order statute and decades of pro-LLC case law. Anonymous filings and minimal compliance. Talk to an expert.",
-      "metaDescriptionLength": 160,
+      "metaDescription": "Wyoming LLC for non-residents: WY LLC asset protection with the strongest charging-order statute in the US and full member anonymity. Talk to an expert.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/en/services/llc-wyoming",
       "sotKeywords": "wyoming, gold-standard, Wyoming LLC, WY LLC asset protection, WY LLC anonymity, Wyoming charging order, Wyoming LLC for non-residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2894,10 +3235,11 @@
         "wy llc anonymity"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "wy llc asset protection",
         "wy llc anonymity"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2914,12 +3256,15 @@
       "sotPresent": true,
       "title": "LLC au Wyoming : bouclier patrimonial américain | Exentax",
       "titleLength": 57,
-      "metaDescription": "Protégez vos actifs avec la charging order la plus solide des USA et une jurisprudence décennale favorable aux associés. Confidentialité totale. À discuter.",
-      "metaDescriptionLength": 156,
+      "metaDescription": "LLC Wyoming non-résidents : WY LLC protection patrimoniale avec la charging order la plus solide des USA et anonymat. Jurisprudence solide. À discuter.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/fr/services/llc-wyoming",
       "sotKeywords": "wyoming, bouclier, LLC Wyoming, WY LLC protection patrimoniale, WY LLC anonymat, charging order Wyoming, LLC Wyoming non-résidents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -2964,11 +3309,11 @@
         "wy llc anonymat"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc wyoming",
-        "wy llc protection patrimoniale",
         "wy llc anonymat"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -2985,12 +3330,15 @@
       "sotPresent": true,
       "title": "Wyoming LLC: Vermögensschutz nach US-Standard | Exentax",
       "titleLength": 55,
-      "metaDescription": "Vermögensschutz auf höchstem US-Niveau: exklusive Charging-Order-Regelung und gesellschafterfreundliche Rechtsprechung seit Jahrzehnten. Jetzt anfragen.",
-      "metaDescriptionLength": 152,
+      "metaDescription": "Wyoming LLC für Nicht-Residenten: WY LLC Vermögensschutz mit exklusiver Charging Order und voller Anonymität. Solide Rechtsprechung. Jetzt anfragen.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/de/leistungen/llc-wyoming",
       "sotKeywords": "wyoming, vermögensschutz, Wyoming LLC, WY LLC Vermögensschutz, WY LLC Anonymität, Wyoming Charging Order, Wyoming LLC Nicht-Residenten",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3035,10 +3383,11 @@
         "wy llc anonymität"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "wy llc vermögensschutz",
         "wy llc anonymität"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3055,12 +3404,15 @@
       "sotPresent": true,
       "title": "LLC no Wyoming: blindagem patrimonial premium | Exentax",
       "titleLength": 55,
-      "metaDescription": "Blindagem patrimonial premium dos EUA: charging order exclusiva, jurisprudência consolidada e anonimato societário para seus ativos. Fale com especialista.",
+      "metaDescription": "LLC Wyoming não residentes: WY LLC blindagem patrimonial com charging order exclusiva dos EUA e anonimato societário. Jurisprudência sólida. Fale connosco.",
       "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/pt/servicos/llc-wyoming",
       "sotKeywords": "wyoming, blindagem, LLC Wyoming, WY LLC blindagem patrimonial, WY LLC anonimato, charging order Wyoming, LLC Wyoming não residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3105,11 +3457,11 @@
         "wy llc anonimato"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc wyoming",
-        "wy llc blindagem patrimonial",
         "wy llc anonimato"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3126,12 +3478,15 @@
       "sotPresent": true,
       "title": "LLC a Wyoming: el blindatge patrimonial dels EUA | Exentax",
       "titleLength": 58,
-      "metaDescription": "El blindatge patrimonial més fort dels EUA: charging order exclusiva, jurisprudència consolidada i anonimat societari per als teus actius. Parla amb un expert.",
-      "metaDescriptionLength": 159,
+      "metaDescription": "LLC Wyoming no residents: WY LLC blindatge patrimonial amb charging order exclusiva dels EUA i anonimat. Jurisprudència sòlida. Parla amb un expert.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/ca/serveis/llc-wyoming",
       "sotKeywords": "wyoming, blindatge, LLC Wyoming, WY LLC blindatge patrimonial, WY LLC anonimat, charging order Wyoming, LLC Wyoming no residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3176,11 +3531,11 @@
         "wy llc anonimat"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc wyoming",
-        "wy llc blindatge patrimonial",
         "wy llc anonimat"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3197,12 +3552,15 @@
       "sotPresent": true,
       "title": "Delaware: la LLC favorita de los inversores | Exentax",
       "titleLength": 53,
-      "metaDescription": "La jurisdicción que exigen fondos VC, business angels y compradores B2B en EE. UU.: contratos sólidos, Court of Chancery y series LLC. Habla con un experto.",
-      "metaDescriptionLength": 156,
+      "metaDescription": "LLC Delaware para no residentes y startups: la jurisdicción que exigen DE LLC inversores, VC, business angels y B2B. Court of Chancery y series LLC.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/es/servicios/llc-delaware",
       "sotKeywords": "delaware, favorita, LLC Delaware, Delaware LLC inversores, DE LLC startup, Delaware LLC venture capital, LLC Delaware no residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3247,11 +3605,12 @@
         "de llc startup"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc delaware",
         "delaware llc inversores",
         "de llc startup"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3268,12 +3627,15 @@
       "sotPresent": true,
       "title": "Delaware LLC: the choice of VCs and B2B buyers | Exentax",
       "titleLength": 56,
-      "metaDescription": "Built for founders raising capital: the jurisdiction VCs, angels and Fortune 500 buyers expect, with the famed Court of Chancery on your side. Get started.",
-      "metaDescriptionLength": 155,
+      "metaDescription": "Delaware LLC for non-residents and startups: the jurisdiction DE LLC investors, VCs and Fortune 500 buyers expect, with Court of Chancery on your side.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/en/services/llc-delaware",
       "sotKeywords": "delaware, choice, Delaware LLC, Delaware LLC for startups, DE LLC investors, Delaware LLC venture capital, Delaware LLC non-residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3318,10 +3680,11 @@
         "de llc investors"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "delaware llc for startups",
-        "de llc investors"
+        "delaware llc for startups"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3338,12 +3701,15 @@
       "sotPresent": true,
       "title": "LLC au Delaware : prête pour la levée de fonds | Exentax",
       "titleLength": 56,
-      "metaDescription": "La structure attendue par les fonds américains et les acheteurs B2B : Court of Chancery, séries LLC et contrats reconnus mondialement. Prenez rendez-vous.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "LLC Delaware startup non-résidents : la structure attendue par DE LLC investisseurs, VC et acheteurs B2B. Court of Chancery et séries LLC. Rendez-vous.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/fr/services/llc-delaware",
       "sotKeywords": "delaware, prête, LLC Delaware, Delaware LLC startup, DE LLC investisseurs, Delaware LLC capital-risque, LLC Delaware non-résidents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3388,11 +3754,11 @@
         "de llc investisseurs"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc delaware",
-        "delaware llc startup",
-        "de llc investisseurs"
+        "delaware llc startup"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3409,12 +3775,15 @@
       "sotPresent": true,
       "title": "Delaware LLC: Rechtssicherheit für Investoren | Exentax",
       "titleLength": 55,
-      "metaDescription": "Maximale Rechtssicherheit für Wachstumsunternehmen: Delawares Court of Chancery, Series LLC und der Standard, den jeder US-Investor erwartet. Jetzt starten.",
-      "metaDescriptionLength": 156,
+      "metaDescription": "Delaware LLC für Startups und Nicht-Residenten: die Struktur, die DE LLC Investoren, VCs und Fortune-500-Käufer erwarten. Court of Chancery, Series LLC.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/de/leistungen/llc-delaware",
       "sotKeywords": "delaware, rechtssicherheit, Delaware LLC, Delaware LLC für Startups, DE LLC Investoren, Delaware LLC Venture Capital, Delaware LLC Nicht-Residenten",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3458,11 +3827,10 @@
         "delaware llc für startups",
         "de llc investoren"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "delaware llc für startups",
-        "de llc investoren"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3479,12 +3847,15 @@
       "sotPresent": true,
       "title": "LLC em Delaware: pronta para investidores e M&A | Exentax",
       "titleLength": 57,
-      "metaDescription": "A jurisdição esperada por VCs, anjos e compradores B2B nos EUA: Court of Chancery e Series LLC para founders que vão captar. Fale com um especialista.",
+      "metaDescription": "LLC Delaware startups não residentes: a jurisdição esperada por DE LLC investidores, VCs e B2B nos EUA. Court of Chancery e Series LLC. Fale connosco.",
       "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/pt/servicos/llc-delaware",
       "sotKeywords": "delaware, pronta, LLC Delaware, Delaware LLC startups, DE LLC investidores, Delaware LLC venture capital, LLC Delaware não residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3529,11 +3900,11 @@
         "de llc investidores"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc delaware",
-        "delaware llc startups",
-        "de llc investidores"
+        "delaware llc startups"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3550,12 +3921,15 @@
       "sotPresent": true,
       "title": "LLC a Delaware: pensada per aixecar capital VC | Exentax",
       "titleLength": 56,
-      "metaDescription": "La jurisdicció que demanen fons VC i compradors B2B als EUA: Court of Chancery, series LLC i contractes reconeguts arreu del món. Reserva la teva trucada.",
-      "metaDescriptionLength": 154,
+      "metaDescription": "LLC Delaware startups no residents: la jurisdicció que demanen DE LLC inversors, VC i B2B als EUA. Court of Chancery i series LLC. Reserva la trucada.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/ca/serveis/llc-delaware",
       "sotKeywords": "delaware, pensada, LLC Delaware, Delaware LLC startups, DE LLC inversors, Delaware LLC venture capital, LLC Delaware no residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3600,11 +3974,11 @@
         "de llc inversors"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "llc delaware",
-        "delaware llc startups",
-        "de llc inversors"
+        "delaware llc startups"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3621,12 +3995,15 @@
       "sotPresent": true,
       "title": "Florida LLC: tu puerta al mercado hispano de Miami | Exentax",
       "titleLength": 60,
-      "metaDescription": "Tu puerta de entrada al mercado hispano de Miami con presencia física real, banca en español y 0% de impuesto estatal. Con EIN y BOI. Reserva tu llamada.",
-      "metaDescriptionLength": 153,
+      "metaDescription": "LLC Florida para no residentes: tu puerta al Florida LLC mercado hispano de Miami LLC con presencia real, banca en español y 0% de impuesto estatal.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/es/servicios/llc-florida",
       "sotKeywords": "florida, puerta, LLC Florida, Florida LLC mercado hispano, Miami LLC, FL LLC e-commerce, LLC Florida no residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3670,12 +4047,10 @@
         "florida llc mercado hispano",
         "miami llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "llc florida",
-        "florida llc mercado hispano",
-        "miami llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3692,12 +4067,15 @@
       "sotPresent": true,
       "title": "Florida LLC: your gateway to Miami's Latin market | Exentax",
       "titleLength": 59,
-      "metaDescription": "Land in Miami with a real U.S. footprint: bilingual banking, 0% state income tax and direct access to the Latin American consumer market. Book a call.",
-      "metaDescriptionLength": 150,
+      "metaDescription": "Florida LLC for non-residents: a real Miami LLC footprint with bilingual banking, 0% state income tax and direct access to the Florida LLC Latin market.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/en/services/llc-florida",
       "sotKeywords": "florida, gateway, Florida LLC, Florida LLC Latin market, Miami LLC, FL LLC e-commerce, Florida LLC non-residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3741,11 +4119,10 @@
         "florida llc latin market",
         "miami llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "florida llc latin market",
-        "miami llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3762,12 +4139,15 @@
       "sotPresent": true,
       "title": "LLC en Floride : accès direct au marché latino | Exentax",
       "titleLength": 56,
-      "metaDescription": "Posez le pied à Miami avec une vraie présence américaine, banque francophone et accès direct au marché latino-américain le plus dynamique. Réservez votre appel.",
-      "metaDescriptionLength": 160,
+      "metaDescription": "LLC Floride non-résidents : Miami LLC avec vraie présence américaine, banque francophone et accès au Floride LLC marché latino. Avec EIN et BOI inclus.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/fr/services/llc-floride",
       "sotKeywords": "floride, accès, LLC Floride, Floride LLC marché latino, Miami LLC, FL LLC e-commerce, LLC Floride non-résidents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3811,12 +4191,10 @@
         "floride llc marché latino",
         "miami llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "llc floride",
-        "floride llc marché latino",
-        "miami llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3833,12 +4211,15 @@
       "sotPresent": true,
       "title": "Florida LLC: Tor zum lateinamerikanischen Markt | Exentax",
       "titleLength": 57,
-      "metaDescription": "Ihr Zugang zum lateinamerikanischen Markt über Miami: physische Präsenz, spanischsprachiges Banking und 0% State Income Tax. Mit EIN und BOI. Jetzt anfragen.",
-      "metaDescriptionLength": 157,
+      "metaDescription": "Florida LLC für Nicht-Residenten: Miami LLC mit physischer Präsenz, spanischsprachigem Banking und Zugang zum Florida LLC lateinamerikanischen Markt.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/de/leistungen/llc-florida",
       "sotKeywords": "florida, lateinamerikanischen, Florida LLC, Florida LLC lateinamerikanischer Markt, Miami LLC, FL LLC E-Commerce, Florida LLC Nicht-Residenten",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3883,10 +4264,11 @@
         "miami llc"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "florida llc lateinamerikanischer markt",
-        "miami llc"
+        "florida llc lateinamerikanischer markt"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3903,12 +4285,15 @@
       "sotPresent": true,
       "title": "LLC na Flórida: ponte para o mercado de Miami | Exentax",
       "titleLength": 55,
-      "metaDescription": "Sua ponte para o mercado hispano de Miami com presença real, banco em português e dolarização da receita americana. Inclui EIN e BOI. Agende sua chamada.",
+      "metaDescription": "LLC Flórida não residentes: Miami LLC com presença real, banco em português e acesso ao Flórida LLC mercado latino. Inclui EIN e BOI. Agende sua chamada.",
       "metaDescriptionLength": 153,
       "canonical": "https://exentax.com/pt/servicos/llc-florida",
       "sotKeywords": "flórida, ponte, LLC Flórida, Flórida LLC mercado latino, Miami LLC, FL LLC e-commerce, LLC Flórida não residentes",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -3952,12 +4337,10 @@
         "flórida llc mercado latino",
         "miami llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "llc flórida",
-        "flórida llc mercado latino",
-        "miami llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -3974,12 +4357,15 @@
       "sotPresent": true,
       "title": "LLC a Florida: pont català cap al mercat llatí | Exentax",
       "titleLength": 56,
-      "metaDescription": "El teu pont entre Catalunya i el mercat llatí de Miami: presència física, banca en castellà i 0% d'impost estatal. Inclou EIN i BOI. Reserva la teva trucada.",
-      "metaDescriptionLength": 157,
+      "metaDescription": "LLC Florida no residents: Miami LLC amb presència real, banca en castellà i accés al Florida LLC mercat llatí. Inclou EIN i BOI. Reserva la teva trucada.",
+      "metaDescriptionLength": 153,
       "canonical": "https://exentax.com/ca/serveis/llc-florida",
       "sotKeywords": "florida, pont, LLC Florida, Florida LLC mercat llatí, Miami LLC, FL LLC e-commerce, LLC Florida no residents",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4023,12 +4409,10 @@
         "florida llc mercat llatí",
         "miami llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "llc florida",
-        "florida llc mercat llatí",
-        "miami llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4045,12 +4429,15 @@
       "sotPresent": true,
       "title": "ITIN sin viajar a EE. UU.: lo gestionamos por ti | Exentax",
       "titleLength": 58,
-      "metaDescription": "Olvídate del consulado y del envío del pasaporte: nuestro Certifying Acceptance Agent tramita tu ITIN ante el IRS con seguimiento real. Empieza hoy.",
-      "metaDescriptionLength": 148,
+      "metaDescription": "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN remoto con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
+      "metaDescriptionLength": 155,
       "canonical": "https://exentax.com/es/servicios/obten-tu-itin",
       "sotKeywords": "itin, viajar, ITIN sin viajar, ITIN no residentes, obtener ITIN remoto, ITIN para LLC, ITIN W-7 gestión, ITIN IRS",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4095,10 +4482,11 @@
         "obtener itin remoto"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin no residentes",
-        "obtener itin remoto"
+        "itin no residentes"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4115,12 +4503,15 @@
       "sotPresent": true,
       "title": "ITIN without leaving home: skip the IRS in person | Exentax",
       "titleLength": 59,
-      "metaDescription": "Skip the IRS office and the embassy queue: our Certifying Acceptance Agent files your ITIN remotely with no original passport mailed. Start today.",
-      "metaDescriptionLength": 146,
+      "metaDescription": "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN remotely with our Certifying Acceptance Agent and W-7 ITIN service.",
+      "metaDescriptionLength": 154,
       "canonical": "https://exentax.com/en/services/get-your-itin",
       "sotKeywords": "itin, leaving, ITIN without travel, ITIN for non-residents, get ITIN remotely, ITIN for LLC, W-7 ITIN service, IRS ITIN",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4165,11 +4556,11 @@
         "get itin remotely"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin without travel",
-        "itin for non-residents",
-        "get itin remotely"
+        "itin for non-residents"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4186,12 +4577,15 @@
       "sotPresent": true,
       "title": "ITIN sans ambassade : nous le gérons à distance | Exentax",
       "titleLength": 57,
-      "metaDescription": "Évitez l'ambassade et l'envoi de votre passeport : notre Certifying Acceptance Agent dépose votre ITIN auprès de l'IRS et vous suit. Commencez ici.",
-      "metaDescriptionLength": 147,
+      "metaDescription": "ITIN sans voyager pour non-résidents : évitez l'ambassade et le passeport. Obtenir ITIN à distance avec notre Certifying Acceptance Agent et service W-7.",
+      "metaDescriptionLength": 153,
       "canonical": "https://exentax.com/fr/services/obtiens-ton-itin",
       "sotKeywords": "itin, ambassade, ITIN sans voyager, ITIN non-résidents, obtenir ITIN à distance, ITIN pour LLC, service ITIN W-7, IRS ITIN",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4236,11 +4630,11 @@
         "obtenir itin à distance"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin sans voyager",
-        "itin non-résidents",
-        "obtenir itin à distance"
+        "itin non-résidents"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4257,12 +4651,15 @@
       "sotPresent": true,
       "title": "ITIN ohne Botschaft: alles aus einer Hand erledigt | Exentax",
       "titleLength": 60,
-      "metaDescription": "Kein Botschaftstermin, kein Reisepassversand: unser Certifying Acceptance Agent reicht Ihre ITIN beim IRS ein und begleitet Sie bis zur Vergabe. Termin sichern.",
-      "metaDescriptionLength": 160,
+      "metaDescription": "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN remote beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/de/leistungen/hol-deine-itin",
       "sotKeywords": "itin, botschaft, ITIN ohne Reise, ITIN für Nicht-Residenten, ITIN remote beantragen, ITIN für LLC, W-7 ITIN Service, IRS ITIN",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4307,11 +4704,11 @@
         "itin remote beantragen"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin ohne reise",
-        "itin für nicht-residenten",
-        "itin remote beantragen"
+        "itin für nicht-residenten"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4328,12 +4725,15 @@
       "sotPresent": true,
       "title": "ITIN sem viajar aos EUA: tudo gerenciado por nós | Exentax",
       "titleLength": 58,
-      "metaDescription": "Evite o consulado e o envio do passaporte original: nosso Certifying Acceptance Agent registra seu ITIN no IRS e acompanha até a emissão. Solicite orçamento.",
-      "metaDescriptionLength": 157,
+      "metaDescription": "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN remotamente com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
+      "metaDescriptionLength": 154,
       "canonical": "https://exentax.com/pt/servicos/obtenha-seu-itin",
       "sotKeywords": "itin, viajar, ITIN sem viajar, ITIN não residentes, obter ITIN remotamente, ITIN para LLC, serviço ITIN W-7, IRS ITIN",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4378,10 +4778,11 @@
         "obter itin remotamente"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin não residentes",
-        "obter itin remotamente"
+        "itin não residentes"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4398,12 +4799,15 @@
       "sotPresent": true,
       "title": "ITIN sense viatjar als EUA: ho gestionem nosaltres | Exentax",
       "titleLength": 60,
-      "metaDescription": "Sense consolat ni enviar el passaport original: el nostre Certifying Acceptance Agent presenta el teu ITIN davant l'IRS i et segueix sempre. Demana pressupost.",
-      "metaDescriptionLength": 159,
+      "metaDescription": "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN remotament amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
+      "metaDescriptionLength": 154,
       "canonical": "https://exentax.com/ca/serveis/obte-el-teu-itin",
       "sotKeywords": "itin, viatjar, ITIN sense viatjar, ITIN no residents, obtenir ITIN remotament, ITIN per a LLC, servei ITIN W-7, IRS ITIN",
       "sotNoindex": false,
-      "sotJsonLdTypes": [],
+      "sotJsonLdTypes": [
+        "Service",
+        "BreadcrumbList"
+      ],
       "fetched": true,
       "httpStatus": 200,
       "ogTitle": "Constituye tu LLC en EE.UU. con asesores fiscales expertos | Exentax",
@@ -4448,10 +4852,11 @@
         "obtenir itin remotament"
       ],
       "keywordTokensMissingInTitleOrDesc": [
-        "itin no residents",
-        "obtenir itin remotament"
+        "itin no residents"
       ],
       "effectiveJsonLdTypes": [
+        "Service",
+        "BreadcrumbList",
         "ProfessionalService",
         "Organization",
         "WebSite",
@@ -4468,10 +4873,10 @@
       "sotPresent": true,
       "title": "Términos y condiciones | Exentax",
       "titleLength": 32,
-      "metaDescription": "Términos y condiciones de Exentax. Constitución y gestión de LLC en EE.UU., planificación fiscal internacional y asesoría continua para autónomos.",
-      "metaDescriptionLength": 146,
+      "metaDescription": "Términos y condiciones Exentax: condiciones servicio LLC y términos LLC para la constitución y gestión de LLC en EE.UU. y asesoría fiscal internacional.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/es/legal/terminos",
-      "sotKeywords": null,
+      "sotKeywords": "términos, condiciones, términos y condiciones Exentax, condiciones servicio LLC, términos LLC, Exentax legal",
       "sotNoindex": false,
       "sotJsonLdTypes": [],
       "fetched": true,
@@ -4510,6 +4915,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "términos",
+        "condiciones",
+        "términos y condiciones exentax",
+        "condiciones servicio llc",
+        "términos llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4527,8 +4940,8 @@
       "sotPresent": true,
       "title": "Terms and Conditions | Exentax",
       "titleLength": 30,
-      "metaDescription": "Terms and conditions of Exentax. US LLC formation and management, international tax planning, and ongoing advisory for freelancers and entrepreneurs.",
-      "metaDescriptionLength": 149,
+      "metaDescription": "Exentax terms and conditions: LLC service terms and LLC terms for US LLC formation, management and international tax advisory services.",
+      "metaDescriptionLength": 135,
       "canonical": "https://exentax.com/en/legal/terms",
       "sotKeywords": "terms, conditions, Exentax terms and conditions, LLC service terms, LLC terms, Exentax legal",
       "sotNoindex": false,
@@ -4576,11 +4989,7 @@
         "llc service terms",
         "llc terms"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax terms and conditions",
-        "llc service terms",
-        "llc terms"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4598,8 +5007,8 @@
       "sotPresent": true,
       "title": "Conditions générales | Exentax",
       "titleLength": 30,
-      "metaDescription": "Conditions générales d'Exentax. Constitution et gestion de LLC aux États-Unis, planification fiscale internationale et conseil continu pour indépendants.",
-      "metaDescriptionLength": 153,
+      "metaDescription": "Conditions générales Exentax : conditions de service LLC et termes LLC pour la constitution et gestion de LLC aux États-Unis et conseil fiscal.",
+      "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/fr/legal/conditions",
       "sotKeywords": "conditions, générales, conditions générales Exentax, conditions de service LLC, termes LLC, Exentax mentions légales",
       "sotNoindex": false,
@@ -4647,11 +5056,7 @@
         "conditions de service llc",
         "termes llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "conditions générales exentax",
-        "conditions de service llc",
-        "termes llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4669,8 +5074,8 @@
       "sotPresent": true,
       "title": "Allgemeine Geschäftsbedingungen | Exentax",
       "titleLength": 41,
-      "metaDescription": "AGB von Exentax. Gründung und Verwaltung von US-LLCs, internationale Steuerplanung und laufende Beratung für Freiberufler und Unternehmer.",
-      "metaDescriptionLength": 138,
+      "metaDescription": "Exentax AGB: LLC Dienstleistungsbedingungen und LLC Bedingungen für die Gründung, Verwaltung von US-LLCs und internationale Steuerberatung.",
+      "metaDescriptionLength": 139,
       "canonical": "https://exentax.com/de/legal/agb",
       "sotKeywords": "allgemeine, geschäftsbedingungen, Exentax AGB, LLC Dienstleistungsbedingungen, LLC Bedingungen, Exentax rechtlich",
       "sotNoindex": false,
@@ -4718,11 +5123,7 @@
         "llc dienstleistungsbedingungen",
         "llc bedingungen"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax agb",
-        "llc dienstleistungsbedingungen",
-        "llc bedingungen"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4740,8 +5141,8 @@
       "sotPresent": true,
       "title": "Termos e condições | Exentax",
       "titleLength": 28,
-      "metaDescription": "Termos e condições da Exentax. Constituição e gestão de LLC nos EUA, planeamento fiscal internacional e assessoria contínua para freelancers.",
-      "metaDescriptionLength": 141,
+      "metaDescription": "Termos e condições Exentax: condições serviço LLC e termos LLC para constituição e gestão de LLC nos EUA e assessoria fiscal internacional.",
+      "metaDescriptionLength": 139,
       "canonical": "https://exentax.com/pt/legal/termos",
       "sotKeywords": "termos, condições, termos e condições Exentax, condições serviço LLC, termos LLC, Exentax legal",
       "sotNoindex": false,
@@ -4789,11 +5190,7 @@
         "condições serviço llc",
         "termos llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "termos e condições exentax",
-        "condições serviço llc",
-        "termos llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4811,8 +5208,8 @@
       "sotPresent": true,
       "title": "Termes i condicions | Exentax",
       "titleLength": 29,
-      "metaDescription": "Termes i condicions d'Exentax. Constitució i gestió de LLC als EUA, planificació fiscal internacional i assessoria contínua per a autònoms.",
-      "metaDescriptionLength": 139,
+      "metaDescription": "Termes i condicions Exentax: condicions servei LLC i termes LLC per a la constitució i gestió de LLC als EUA i assessoria fiscal internacional.",
+      "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/ca/legal/termes",
       "sotKeywords": "termes, condicions, termes i condicions Exentax, condicions servei LLC, termes LLC, Exentax legal",
       "sotNoindex": false,
@@ -4860,11 +5257,7 @@
         "condicions servei llc",
         "termes llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "termes i condicions exentax",
-        "condicions servei llc",
-        "termes llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4882,10 +5275,10 @@
       "sotPresent": true,
       "title": "Política de privacidad | Exentax",
       "titleLength": 32,
-      "metaDescription": "Política de privacidad de Exentax. Cómo recopilamos, usamos y protegemos tus datos personales en los servicios de optimización fiscal.",
-      "metaDescriptionLength": 134,
+      "metaDescription": "Política privacidad Exentax: RGPD Exentax y protección datos LLC. Cómo recopilamos, usamos y protegemos tus datos en la asesoría fiscal internacional.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/es/legal/privacidad",
-      "sotKeywords": null,
+      "sotKeywords": "política, privacidad, política privacidad Exentax, RGPD Exentax, protección datos LLC, privacidad clientes Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [],
       "fetched": true,
@@ -4924,6 +5317,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "política",
+        "privacidad",
+        "política privacidad exentax",
+        "rgpd exentax",
+        "protección datos llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -4941,8 +5342,8 @@
       "sotPresent": true,
       "title": "Privacy Policy | Exentax",
       "titleLength": 24,
-      "metaDescription": "Exentax privacy policy. How we collect, use, and protect your personal data in our tax optimization services.",
-      "metaDescriptionLength": 109,
+      "metaDescription": "Exentax privacy policy: GDPR Exentax and LLC data protection. How we collect, use, and protect your personal data in our tax advisory services.",
+      "metaDescriptionLength": 143,
       "canonical": "https://exentax.com/en/legal/privacy",
       "sotKeywords": "privacy, policy, Exentax privacy policy, GDPR Exentax, LLC data protection, customer privacy Exentax",
       "sotNoindex": false,
@@ -4990,10 +5391,7 @@
         "gdpr exentax",
         "llc data protection"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "gdpr exentax",
-        "llc data protection"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5011,8 +5409,8 @@
       "sotPresent": true,
       "title": "Politique de confidentialité | Exentax",
       "titleLength": 38,
-      "metaDescription": "Politique de confidentialité d'Exentax. Comment nous collectons, utilisons et protégeons vos données personnelles dans nos services d'optimisation fiscale.",
-      "metaDescriptionLength": 155,
+      "metaDescription": "Politique confidentialité Exentax : RGPD Exentax et protection données LLC. Comment nous collectons et protégeons vos données en conseil fiscal.",
+      "metaDescriptionLength": 144,
       "canonical": "https://exentax.com/fr/legal/confidentialite",
       "sotKeywords": "politique, confidentialité, politique confidentialité Exentax, RGPD Exentax, protection données LLC, confidentialité client Exentax",
       "sotNoindex": false,
@@ -5060,11 +5458,7 @@
         "rgpd exentax",
         "protection données llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "politique confidentialité exentax",
-        "rgpd exentax",
-        "protection données llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5082,8 +5476,8 @@
       "sotPresent": true,
       "title": "Datenschutzrichtlinie | Exentax",
       "titleLength": 31,
-      "metaDescription": "Datenschutzrichtlinie von Exentax. Wie wir Ihre personenbezogenen Daten in unseren Steueroptimierungsdiensten erheben, verwenden und schützen.",
-      "metaDescriptionLength": 142,
+      "metaDescription": "Exentax Datenschutz: DSGVO Exentax und LLC Datenschutz. Wie wir personenbezogene Daten in der internationalen Steuerberatung verarbeiten.",
+      "metaDescriptionLength": 137,
       "canonical": "https://exentax.com/de/legal/datenschutz",
       "sotKeywords": "datenschutzrichtlinie, exentax, Exentax Datenschutz, DSGVO Exentax, LLC Datenschutz, Kundendatenschutz Exentax",
       "sotNoindex": false,
@@ -5131,11 +5525,7 @@
         "dsgvo exentax",
         "llc datenschutz"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax datenschutz",
-        "dsgvo exentax",
-        "llc datenschutz"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5153,8 +5543,8 @@
       "sotPresent": true,
       "title": "Política de privacidade | Exentax",
       "titleLength": 33,
-      "metaDescription": "Política de privacidade da Exentax. Como coletamos, usamos e protegemos seus dados pessoais nos serviços de otimização fiscal.",
-      "metaDescriptionLength": 126,
+      "metaDescription": "Política privacidade Exentax: RGPD Exentax e proteção dados LLC. Como recolhemos, usamos e protegemos os seus dados na assessoria fiscal.",
+      "metaDescriptionLength": 137,
       "canonical": "https://exentax.com/pt/legal/privacidade",
       "sotKeywords": "política, privacidade, política privacidade Exentax, RGPD Exentax, proteção dados LLC, privacidade clientes Exentax",
       "sotNoindex": false,
@@ -5202,11 +5592,7 @@
         "rgpd exentax",
         "proteção dados llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política privacidade exentax",
-        "rgpd exentax",
-        "proteção dados llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5224,8 +5610,8 @@
       "sotPresent": true,
       "title": "Política de privacitat | Exentax",
       "titleLength": 32,
-      "metaDescription": "Política de privacitat d'Exentax. Com recopilem, utilitzem i protegim les teves dades personals als serveis d'optimització fiscal.",
-      "metaDescriptionLength": 130,
+      "metaDescription": "Política privacitat Exentax: RGPD Exentax i protecció dades LLC. Com recopilem, utilitzem i protegim les teves dades en l'assessoria fiscal.",
+      "metaDescriptionLength": 140,
       "canonical": "https://exentax.com/ca/legal/privacitat",
       "sotKeywords": "política, privacitat, política privacitat Exentax, RGPD Exentax, protecció dades LLC, privacitat clients Exentax",
       "sotNoindex": false,
@@ -5273,11 +5659,7 @@
         "rgpd exentax",
         "protecció dades llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política privacitat exentax",
-        "rgpd exentax",
-        "protecció dades llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5295,10 +5677,10 @@
       "sotPresent": true,
       "title": "Política de cookies | Exentax",
       "titleLength": 29,
-      "metaDescription": "Información sobre el uso de cookies en exentax.com. Asesoría especializada en optimización fiscal legal para autónomos y freelancers.",
-      "metaDescriptionLength": 133,
+      "metaDescription": "Política cookies Exentax: gestión cookies LLC en cookies exentax.com. Qué cookies usamos y cómo configurarlas en nuestra asesoría fiscal internacional.",
+      "metaDescriptionLength": 151,
       "canonical": "https://exentax.com/es/legal/cookies",
-      "sotKeywords": null,
+      "sotKeywords": "política, cookies, política cookies Exentax, cookies exentax.com, gestión cookies LLC",
       "sotNoindex": false,
       "sotJsonLdTypes": [],
       "fetched": true,
@@ -5337,6 +5719,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "política",
+        "cookies",
+        "política cookies exentax",
+        "cookies exentax.com",
+        "gestión cookies llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5354,8 +5744,8 @@
       "sotPresent": true,
       "title": "Cookie Policy | Exentax",
       "titleLength": 23,
-      "metaDescription": "Information about the use of cookies on exentax.com. Specialized advisory on legal tax optimization for freelancers.",
-      "metaDescriptionLength": 116,
+      "metaDescription": "Exentax cookie policy: LLC cookie management at cookies exentax.com. Which cookies we use and how to configure them in our tax advisory services.",
+      "metaDescriptionLength": 145,
       "canonical": "https://exentax.com/en/legal/cookies",
       "sotKeywords": "cookie, policy, Exentax cookie policy, cookies exentax.com, LLC cookie management",
       "sotNoindex": false,
@@ -5403,11 +5793,7 @@
         "cookies exentax.com",
         "llc cookie management"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax cookie policy",
-        "cookies exentax.com",
-        "llc cookie management"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5425,8 +5811,8 @@
       "sotPresent": true,
       "title": "Politique de cookies | Exentax",
       "titleLength": 30,
-      "metaDescription": "Informations sur l'utilisation des cookies sur exentax.com. Conseil spécialisé en optimisation fiscale légale pour indépendants.",
-      "metaDescriptionLength": 128,
+      "metaDescription": "Politique cookies Exentax : gestion cookies LLC sur cookies exentax.com. Quels cookies nous utilisons et comment les configurer en conseil fiscal.",
+      "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/fr/legal/cookies",
       "sotKeywords": "politique, cookies, politique cookies Exentax, cookies exentax.com, gestion cookies LLC",
       "sotNoindex": false,
@@ -5474,11 +5860,7 @@
         "cookies exentax.com",
         "gestion cookies llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "politique cookies exentax",
-        "cookies exentax.com",
-        "gestion cookies llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5496,8 +5878,8 @@
       "sotPresent": true,
       "title": "Cookie-Richtlinie | Exentax",
       "titleLength": 27,
-      "metaDescription": "Informationen über die Verwendung von Cookies auf exentax.com. Spezialisierte Beratung zur legalen Steueroptimierung für Freelancer.",
-      "metaDescriptionLength": 132,
+      "metaDescription": "Exentax Cookie-Richtlinie: LLC Cookie-Verwaltung auf cookies exentax.com. Welche Cookies wir verwenden und wie Sie sie in der Steuerberatung steuern.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/de/legal/cookies",
       "sotKeywords": "cookie-richtlinie, exentax, Exentax Cookie-Richtlinie, Cookies exentax.com, LLC Cookie-Verwaltung",
       "sotNoindex": false,
@@ -5545,11 +5927,7 @@
         "cookies exentax.com",
         "llc cookie-verwaltung"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax cookie-richtlinie",
-        "cookies exentax.com",
-        "llc cookie-verwaltung"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5567,8 +5945,8 @@
       "sotPresent": true,
       "title": "Política de cookies | Exentax",
       "titleLength": 29,
-      "metaDescription": "Informações sobre o uso de cookies em exentax.com. Assessoria especializada em otimização fiscal legal para freelancers.",
-      "metaDescriptionLength": 120,
+      "metaDescription": "Política cookies Exentax: gestão cookies LLC em cookies exentax.com. Quais cookies usamos e como configurá-los na assessoria fiscal internacional.",
+      "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/pt/legal/cookies",
       "sotKeywords": "política, cookies, política cookies Exentax, cookies exentax.com, gestão cookies LLC",
       "sotNoindex": false,
@@ -5616,11 +5994,7 @@
         "cookies exentax.com",
         "gestão cookies llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política cookies exentax",
-        "cookies exentax.com",
-        "gestão cookies llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5638,8 +6012,8 @@
       "sotPresent": true,
       "title": "Política de galetes | Exentax",
       "titleLength": 29,
-      "metaDescription": "Informació sobre l'ús de galetes a exentax.com. Assessoria especialitzada en optimització fiscal legal per a autònoms.",
-      "metaDescriptionLength": 118,
+      "metaDescription": "Política galetes Exentax: gestió galetes LLC a galetes exentax.com. Quines galetes usem i com configurar-les a l'assessoria fiscal internacional.",
+      "metaDescriptionLength": 145,
       "canonical": "https://exentax.com/ca/legal/cookies",
       "sotKeywords": "política, galetes, política galetes Exentax, galetes exentax.com, gestió galetes LLC",
       "sotNoindex": false,
@@ -5687,11 +6061,7 @@
         "galetes exentax.com",
         "gestió galetes llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política galetes exentax",
-        "galetes exentax.com",
-        "gestió galetes llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5709,10 +6079,10 @@
       "sotPresent": true,
       "title": "Política de reembolsos | Exentax",
       "titleLength": 32,
-      "metaDescription": "Política de reembolsos de Exentax. Cancelaciones, devoluciones y garantías en los servicios de constitución LLC y optimización fiscal.",
-      "metaDescriptionLength": 134,
+      "metaDescription": "Política reembolsos Exentax: devoluciones LLC y cancelación servicio LLC con garantía Exentax. Condiciones claras en constitución LLC y optimización fiscal.",
+      "metaDescriptionLength": 156,
       "canonical": "https://exentax.com/es/legal/reembolsos",
-      "sotKeywords": null,
+      "sotKeywords": "política, reembolsos, política reembolsos Exentax, devoluciones LLC, cancelación servicio LLC, garantía Exentax",
       "sotNoindex": false,
       "sotJsonLdTypes": [],
       "fetched": true,
@@ -5751,6 +6121,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "política",
+        "reembolsos",
+        "política reembolsos exentax",
+        "devoluciones llc",
+        "cancelación servicio llc"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5768,8 +6146,8 @@
       "sotPresent": true,
       "title": "Refund Policy | Exentax",
       "titleLength": 23,
-      "metaDescription": "Exentax refund policy. Cancellations, refunds, and guarantees for LLC formation and tax optimization services.",
-      "metaDescriptionLength": 110,
+      "metaDescription": "Exentax refund policy: LLC refunds and LLC service cancellation with Exentax guarantee. Clear terms for LLC formation and tax optimization services.",
+      "metaDescriptionLength": 148,
       "canonical": "https://exentax.com/en/legal/refunds",
       "sotKeywords": "refund, policy, Exentax refund policy, LLC refunds, LLC service cancellation, Exentax guarantee",
       "sotNoindex": false,
@@ -5817,10 +6195,7 @@
         "llc refunds",
         "llc service cancellation"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "llc refunds",
-        "llc service cancellation"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5838,8 +6213,8 @@
       "sotPresent": true,
       "title": "Politique de remboursement | Exentax",
       "titleLength": 36,
-      "metaDescription": "Politique de remboursement d'Exentax. Annulations, remboursements et garanties pour les services de constitution LLC et d'optimisation fiscale.",
-      "metaDescriptionLength": 143,
+      "metaDescription": "Politique remboursement Exentax : remboursements LLC et annulation service LLC avec garantie Exentax. Conditions claires pour constitution LLC et fiscalité.",
+      "metaDescriptionLength": 156,
       "canonical": "https://exentax.com/fr/legal/remboursements",
       "sotKeywords": "politique, remboursement, politique remboursement Exentax, remboursements LLC, annulation service LLC, garantie Exentax",
       "sotNoindex": false,
@@ -5887,11 +6262,7 @@
         "remboursements llc",
         "annulation service llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "politique remboursement exentax",
-        "remboursements llc",
-        "annulation service llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5909,8 +6280,8 @@
       "sotPresent": true,
       "title": "Erstattungsrichtlinie | Exentax",
       "titleLength": 31,
-      "metaDescription": "Erstattungsrichtlinie von Exentax. Stornierungen, Erstattungen und Garantien für LLC-Gründungs- und Steueroptimierungsdienste.",
-      "metaDescriptionLength": 126,
+      "metaDescription": "Exentax Erstattungsrichtlinie: LLC Erstattungen und LLC Servicekündigung mit Exentax Garantie. Klare Bedingungen für LLC-Gründung und Steueroptimierung.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/de/legal/erstattungen",
       "sotKeywords": "erstattungsrichtlinie, exentax, Exentax Erstattungsrichtlinie, LLC Erstattungen, LLC Servicekündigung, Exentax Garantie",
       "sotNoindex": false,
@@ -5958,11 +6329,7 @@
         "llc erstattungen",
         "llc servicekündigung"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax erstattungsrichtlinie",
-        "llc erstattungen",
-        "llc servicekündigung"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -5980,8 +6347,8 @@
       "sotPresent": true,
       "title": "Política de reembolso | Exentax",
       "titleLength": 31,
-      "metaDescription": "Política de reembolso da Exentax. Cancelamentos, reembolsos e garantias nos serviços de constituição LLC e otimização fiscal.",
-      "metaDescriptionLength": 125,
+      "metaDescription": "Política reembolso Exentax: reembolsos LLC e cancelamento serviço LLC com garantia Exentax. Termos claros na constituição LLC e otimização fiscal.",
+      "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/pt/legal/reembolsos",
       "sotKeywords": "política, reembolso, política reembolso Exentax, reembolsos LLC, cancelamento serviço LLC, garantia Exentax",
       "sotNoindex": false,
@@ -6029,11 +6396,7 @@
         "reembolsos llc",
         "cancelamento serviço llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política reembolso exentax",
-        "reembolsos llc",
-        "cancelamento serviço llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6051,8 +6414,8 @@
       "sotPresent": true,
       "title": "Política de reemborsament | Exentax",
       "titleLength": 35,
-      "metaDescription": "Política de reemborsament d'Exentax. Cancel·lacions, devolucions i garanties als serveis de constitució LLC i optimització fiscal.",
-      "metaDescriptionLength": 130,
+      "metaDescription": "Política reemborsament Exentax: reemborsaments LLC i cancel·lació servei LLC amb garantia Exentax. Termes clars en constitució LLC i fiscalitat.",
+      "metaDescriptionLength": 144,
       "canonical": "https://exentax.com/ca/legal/reemborsaments",
       "sotKeywords": "política, reemborsament, política reemborsament Exentax, reemborsaments LLC, cancel·lació servei LLC, garantia Exentax",
       "sotNoindex": false,
@@ -6100,11 +6463,7 @@
         "reemborsaments llc",
         "cancel·lació servei llc"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "política reemborsament exentax",
-        "reemborsaments llc",
-        "cancel·lació servei llc"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6122,10 +6481,10 @@
       "sotPresent": true,
       "title": "Disclaimer legal y fiscal | Exentax",
       "titleLength": 35,
-      "metaDescription": "Disclaimer legal y fiscal de Exentax. Información sobre la naturaleza de nuestros servicios, limitaciones de responsabilidad y obligaciones del cliente.",
-      "metaDescriptionLength": 152,
+      "metaDescription": "Disclaimer Exentax: aviso legal LLC y limitación responsabilidad Exentax. Información: no asesoramiento legal sin contrato firmado ni análisis previo.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/es/legal/disclaimer",
-      "sotKeywords": null,
+      "sotKeywords": "disclaimer, legal, disclaimer Exentax, aviso legal LLC, limitación responsabilidad Exentax, no asesoramiento legal",
       "sotNoindex": false,
       "sotJsonLdTypes": [],
       "fetched": true,
@@ -6164,6 +6523,14 @@
         "SiteNavigationElement"
       ],
       "slashHygiene": true,
+      "keywordTokens": [
+        "disclaimer",
+        "legal",
+        "disclaimer exentax",
+        "aviso legal llc",
+        "limitación responsabilidad exentax"
+      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6181,8 +6548,8 @@
       "sotPresent": true,
       "title": "Legal and Tax Disclaimer | Exentax",
       "titleLength": 34,
-      "metaDescription": "Exentax legal and tax disclaimer. Information about the nature of our services, liability limitations, and client obligations.",
-      "metaDescriptionLength": 126,
+      "metaDescription": "Exentax disclaimer: LLC legal disclaimer and Exentax liability limitations. This is not legal advice without signed engagement or prior fact analysis.",
+      "metaDescriptionLength": 150,
       "canonical": "https://exentax.com/en/legal/disclaimer",
       "sotKeywords": "legal, disclaimer, Exentax disclaimer, LLC legal disclaimer, Exentax liability limitations, not legal advice",
       "sotNoindex": false,
@@ -6230,11 +6597,7 @@
         "llc legal disclaimer",
         "exentax liability limitations"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax disclaimer",
-        "llc legal disclaimer",
-        "exentax liability limitations"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6252,8 +6615,8 @@
       "sotPresent": true,
       "title": "Avertissement juridique et fiscal | Exentax",
       "titleLength": 43,
-      "metaDescription": "Avertissement juridique et fiscal d'Exentax. Informations sur la nature de nos services, limitations de responsabilité et obligations du client.",
-      "metaDescriptionLength": 144,
+      "metaDescription": "Avertissement Exentax : disclaimer LLC et limitations responsabilité Exentax. Pas de conseil juridique sans contrat signé ni analyse de faits préalable.",
+      "metaDescriptionLength": 152,
       "canonical": "https://exentax.com/fr/legal/avertissement",
       "sotKeywords": "avertissement, juridique, avertissement Exentax, disclaimer LLC, limitations responsabilité Exentax, pas de conseil juridique",
       "sotNoindex": false,
@@ -6301,11 +6664,7 @@
         "disclaimer llc",
         "limitations responsabilité exentax"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "avertissement exentax",
-        "disclaimer llc",
-        "limitations responsabilité exentax"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6323,7 +6682,7 @@
       "sotPresent": true,
       "title": "Rechts- und Steuerhaftungsausschluss | Exentax",
       "titleLength": 46,
-      "metaDescription": "Rechts- und Steuerhaftungsausschluss von Exentax. Informationen über die Art unserer Dienstleistungen, Haftungsbeschränkungen und Kundenpflichten.",
+      "metaDescription": "Exentax Haftungsausschluss: LLC Disclaimer und Exentax Haftungsbeschränkungen. Keine Rechtsberatung ohne Mandat und vorherige Sachverhaltsanalyse.",
       "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/de/legal/haftungsausschluss",
       "sotKeywords": "rechts-, steuerhaftungsausschluss, Exentax Haftungsausschluss, LLC Disclaimer, Exentax Haftungsbeschränkungen, keine Rechtsberatung",
@@ -6372,11 +6731,7 @@
         "llc disclaimer",
         "exentax haftungsbeschränkungen"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "exentax haftungsausschluss",
-        "llc disclaimer",
-        "exentax haftungsbeschränkungen"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6394,8 +6749,8 @@
       "sotPresent": true,
       "title": "Aviso legal e fiscal | Exentax",
       "titleLength": 30,
-      "metaDescription": "Aviso legal e fiscal da Exentax. Informações sobre a natureza dos nossos serviços, limitações de responsabilidade e obrigações do cliente.",
-      "metaDescriptionLength": 138,
+      "metaDescription": "Aviso Exentax: disclaimer LLC e limitações responsabilidade Exentax. Não é aconselhamento jurídico sem contrato assinado e análise prévia dos factos.",
+      "metaDescriptionLength": 149,
       "canonical": "https://exentax.com/pt/legal/aviso-legal",
       "sotKeywords": "aviso, legal, aviso Exentax, disclaimer LLC, limitações responsabilidade Exentax, não é aconselhamento jurídico",
       "sotNoindex": false,
@@ -6443,11 +6798,7 @@
         "disclaimer llc",
         "limitações responsabilidade exentax"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "aviso exentax",
-        "disclaimer llc",
-        "limitações responsabilidade exentax"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6465,8 +6816,8 @@
       "sotPresent": true,
       "title": "Avís legal i fiscal | Exentax",
       "titleLength": 29,
-      "metaDescription": "Avís legal i fiscal d'Exentax. Informació sobre la naturalesa dels nostres serveis, limitacions de responsabilitat i obligacions del client.",
-      "metaDescriptionLength": 140,
+      "metaDescription": "Avís Exentax: disclaimer LLC i limitacions responsabilitat Exentax. No és assessorament jurídic sense contracte signat i anàlisi prèvia dels fets.",
+      "metaDescriptionLength": 146,
       "canonical": "https://exentax.com/ca/legal/avis-legal",
       "sotKeywords": "avís, legal, avís Exentax, disclaimer LLC, limitacions responsabilitat Exentax, no és assessorament jurídic",
       "sotNoindex": false,
@@ -6514,11 +6865,7 @@
         "disclaimer llc",
         "limitacions responsabilitat exentax"
       ],
-      "keywordTokensMissingInTitleOrDesc": [
-        "avís exentax",
-        "disclaimer llc",
-        "limitacions responsabilitat exentax"
-      ],
+      "keywordTokensMissingInTitleOrDesc": [],
       "effectiveJsonLdTypes": [
         "ProfessionalService",
         "Organization",
@@ -6529,585 +6876,56 @@
       ]
     }
   ],
-  "issues": [
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/es/servicios/llc-nuevo-mexico",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc nuevo méxico\",\"llc new mexico no residentes\",\"nm llc sin informe anual\"],\"presentTokens\":[\"nuevo\",\"méxico\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/services/llc-nouveau-mexique",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc nouveau-mexique\",\"nm llc non-résident\",\"llc us bas coût\"],\"presentTokens\":[\"nouveau-mexique\",\"zéro\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/servicos/llc-novo-mexico",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc novo méxico\",\"nm llc não residentes\",\"llc eua baixo custo\"],\"presentTokens\":[\"novo\",\"méxico\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/serveis/llc-nou-mexic",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc nou mèxic\",\"nm llc no residents\",\"llc eua baix cost\"],\"presentTokens\":[\"mèxic\",\"cost\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/es/servicios/llc-wyoming",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc wyoming\",\"wyoming llc blindaje patrimonial\",\"wy llc anonimato\"],\"presentTokens\":[\"wyoming\",\"blindaje\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/services/llc-wyoming",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc wyoming\",\"wy llc protection patrimoniale\",\"wy llc anonymat\"],\"presentTokens\":[\"wyoming\",\"bouclier\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/servicos/llc-wyoming",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc wyoming\",\"wy llc blindagem patrimonial\",\"wy llc anonimato\"],\"presentTokens\":[\"wyoming\",\"blindagem\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/serveis/llc-wyoming",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc wyoming\",\"wy llc blindatge patrimonial\",\"wy llc anonimat\"],\"presentTokens\":[\"wyoming\",\"blindatge\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/es/servicios/llc-delaware",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc delaware\",\"delaware llc inversores\",\"de llc startup\"],\"presentTokens\":[\"delaware\",\"favorita\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/services/llc-delaware",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc delaware\",\"delaware llc startup\",\"de llc investisseurs\"],\"presentTokens\":[\"delaware\",\"prête\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/servicos/llc-delaware",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc delaware\",\"delaware llc startups\",\"de llc investidores\"],\"presentTokens\":[\"delaware\",\"pronta\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/serveis/llc-delaware",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc delaware\",\"delaware llc startups\",\"de llc inversors\"],\"presentTokens\":[\"delaware\",\"pensada\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/es/servicios/llc-florida",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc florida\",\"florida llc mercado hispano\",\"miami llc\"],\"presentTokens\":[\"florida\",\"puerta\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/services/llc-floride",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc floride\",\"floride llc marché latino\",\"miami llc\"],\"presentTokens\":[\"floride\",\"accès\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/servicos/llc-florida",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc flórida\",\"flórida llc mercado latino\",\"miami llc\"],\"presentTokens\":[\"flórida\",\"ponte\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/serveis/llc-florida",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"llc florida\",\"florida llc mercat llatí\",\"miami llc\"],\"presentTokens\":[\"florida\",\"pont\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/en/services/get-your-itin",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"itin without travel\",\"itin for non-residents\",\"get itin remotely\"],\"presentTokens\":[\"itin\",\"leaving\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/services/obtiens-ton-itin",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"itin sans voyager\",\"itin non-résidents\",\"obtenir itin à distance\"],\"presentTokens\":[\"itin\",\"ambassade\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/leistungen/hol-deine-itin",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"itin ohne reise\",\"itin für nicht-residenten\",\"itin remote beantragen\"],\"presentTokens\":[\"itin\",\"botschaft\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/en/legal/terms",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax terms and conditions\",\"llc service terms\",\"llc terms\"],\"presentTokens\":[\"terms\",\"conditions\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/legal/conditions",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"conditions générales exentax\",\"conditions de service llc\",\"termes llc\"],\"presentTokens\":[\"conditions\",\"générales\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/legal/agb",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax agb\",\"llc dienstleistungsbedingungen\",\"llc bedingungen\"],\"presentTokens\":[\"allgemeine\",\"geschäftsbedingungen\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/legal/termos",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"termos e condições exentax\",\"condições serviço llc\",\"termos llc\"],\"presentTokens\":[\"termos\",\"condições\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/legal/termes",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"termes i condicions exentax\",\"condicions servei llc\",\"termes llc\"],\"presentTokens\":[\"termes\",\"condicions\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/legal/confidentialite",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"politique confidentialité exentax\",\"rgpd exentax\",\"protection données llc\"],\"presentTokens\":[\"politique\",\"confidentialité\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/legal/datenschutz",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax datenschutz\",\"dsgvo exentax\",\"llc datenschutz\"],\"presentTokens\":[\"datenschutzrichtlinie\",\"exentax\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/legal/privacidade",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política privacidade exentax\",\"rgpd exentax\",\"proteção dados llc\"],\"presentTokens\":[\"política\",\"privacidade\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/legal/privacitat",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política privacitat exentax\",\"rgpd exentax\",\"protecció dades llc\"],\"presentTokens\":[\"política\",\"privacitat\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/en/legal/cookies",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax cookie policy\",\"cookies exentax.com\",\"llc cookie management\"],\"presentTokens\":[\"cookie\",\"policy\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/legal/cookies",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"politique cookies exentax\",\"cookies exentax.com\",\"gestion cookies llc\"],\"presentTokens\":[\"politique\",\"cookies\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/legal/cookies",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax cookie-richtlinie\",\"cookies exentax.com\",\"llc cookie-verwaltung\"],\"presentTokens\":[\"cookie-richtlinie\",\"exentax\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/legal/cookies",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política cookies exentax\",\"cookies exentax.com\",\"gestão cookies llc\"],\"presentTokens\":[\"política\",\"cookies\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/legal/cookies",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política galetes exentax\",\"galetes exentax.com\",\"gestió galetes llc\"],\"presentTokens\":[\"política\",\"galetes\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/legal/remboursements",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"politique remboursement exentax\",\"remboursements llc\",\"annulation service llc\"],\"presentTokens\":[\"politique\",\"remboursement\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/legal/erstattungen",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax erstattungsrichtlinie\",\"llc erstattungen\",\"llc servicekündigung\"],\"presentTokens\":[\"erstattungsrichtlinie\",\"exentax\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/legal/reembolsos",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política reembolso exentax\",\"reembolsos llc\",\"cancelamento serviço llc\"],\"presentTokens\":[\"política\",\"reembolso\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/legal/reemborsaments",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"política reemborsament exentax\",\"reemborsaments llc\",\"cancel·lació servei llc\"],\"presentTokens\":[\"política\",\"reemborsament\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/en/legal/disclaimer",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax disclaimer\",\"llc legal disclaimer\",\"exentax liability limitations\"],\"presentTokens\":[\"legal\",\"disclaimer\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/fr/legal/avertissement",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"avertissement exentax\",\"disclaimer llc\",\"limitations responsabilité exentax\"],\"presentTokens\":[\"avertissement\",\"juridique\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/de/legal/haftungsausschluss",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"exentax haftungsausschluss\",\"llc disclaimer\",\"exentax haftungsbeschränkungen\"],\"presentTokens\":[\"rechts-\",\"steuerhaftungsausschluss\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/pt/legal/aviso-legal",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"aviso exentax\",\"disclaimer llc\",\"limitações responsabilidade exentax\"],\"presentTokens\":[\"aviso\",\"legal\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-positioning",
-      "location": "/ca/legal/avis-legal",
-      "description": "3/5 keywords sin presencia en title o description",
-      "evidence": "{\"missing\":[\"avís exentax\",\"disclaimer llc\",\"limitacions responsabilitat exentax\"],\"presentTokens\":[\"avís\",\"legal\"]}",
-      "suggestion": "Reforzar la keyword principal en title; secundarias en description",
-      "languages": [
-        "ca"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[es]",
-      "description": "11/16 rutas en es sin keywords declaradas",
-      "evidence": "{\"withKeywords\":5,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "es"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[en]",
-      "description": "6/16 rutas en en sin keywords declaradas",
-      "evidence": "{\"withKeywords\":10,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[fr]",
-      "description": "6/16 rutas en fr sin keywords declaradas",
-      "evidence": "{\"withKeywords\":10,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "fr"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[de]",
-      "description": "6/16 rutas en de sin keywords declaradas",
-      "evidence": "{\"withKeywords\":10,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "de"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[pt]",
-      "description": "6/16 rutas en pt sin keywords declaradas",
-      "evidence": "{\"withKeywords\":10,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "pt"
-      ]
-    },
-    {
-      "criticality": "P2",
-      "area": "keyword-map-partial",
-      "location": "server/seo-content.ts › PAGE_META_I18N[ca]",
-      "description": "6/16 rutas en ca sin keywords declaradas",
-      "evidence": "{\"withKeywords\":10,\"total\":16}",
-      "suggestion": "Completar keywords[] en las rutas restantes",
-      "languages": [
-        "ca"
-      ]
-    }
-  ],
+  "issues": [],
   "keywordPositioning": {
     "note": "Mapa keyword→página objetivo declarado en server/seo-content.ts vía PAGE_META.keywords. Auditoría cruza tokens contra title+description del SSR.",
     "byLang": {
       "es": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 5,
-        "routesWithoutKeywords": 11,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 5,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "en": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 10,
-        "routesWithoutKeywords": 6,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 10,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "fr": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 10,
-        "routesWithoutKeywords": 6,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 10,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "de": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 10,
-        "routesWithoutKeywords": 6,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 10,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "pt": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 10,
-        "routesWithoutKeywords": 6,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 10,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       },
       "ca": {
         "routesTotal": 16,
-        "routesWithKeywordsDeclared": 10,
-        "routesWithoutKeywords": 6,
-        "routesWithFullKeywordCoverage": 0,
-        "routesWithPartialKeywordCoverage": 10,
+        "routesWithKeywordsDeclared": 16,
+        "routesWithoutKeywords": 0,
+        "routesWithFullKeywordCoverage": 10,
+        "routesWithPartialKeywordCoverage": 6,
         "routesWithNoKeywordInTitleOrDesc": 0
       }
     }

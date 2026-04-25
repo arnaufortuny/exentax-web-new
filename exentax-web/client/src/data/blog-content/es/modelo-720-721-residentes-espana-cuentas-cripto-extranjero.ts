@@ -215,7 +215,6 @@ Caso de un freelancer residente en Madrid con: Wise EUR balance 18.400 €, Merc
 
 > **¿Tu stack roza los 50.000 € por bloque?** Pasa tus saldos por la <strong>calculadora fiscal Exentax</strong> y mira si el cambio a estructura LLC declarada y limpia compensa la complejidad operativa actual.
 
-
 Para profundizar en el reporting bancario que precede al 720 conviene leer <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">qué reporta de verdad cada banco USA a Hacienda</a>, y si tu objetivo es minimizar la carga global, el camino lo tienes en <a href="/es/blog/caminos-legales-minimos-impuestos">los caminos legales para pagar el mínimo de impuestos</a>. Si prefieres delegar la presentación, <a href="/es/agendar">agenda una sesión con el equipo Exentax</a> y la dejamos hecha en una semana.
 
 <!-- exentax:cta-conv-v1 -->
@@ -228,7 +227,6 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -261,5 +259,4 @@ Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos
 <li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Conve…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

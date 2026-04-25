@@ -113,7 +113,6 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
 
-<!-- exentax:overhaul-avui-v1 -->
 ## Actualització Exentax avui: stack bancari al dia
 
 L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb funcions complementàries:
@@ -145,7 +144,6 @@ L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb 
 **Quan convé un compte tradicional?** A partir de ~1 M USD anuals o quan treballes amb clients corporate USA que paguen exclusivament via ACH des de bancs tradicionals.
 
 **Wise reporta via CRS?** Wise Europe SA (Bèlgica) sí està subjecta a CRS per a residents europeus. Documenta correctament la teva residència fiscal.
-<!-- exentax:overhaul-avui-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Com reorganitzem la banca d'una LLC a Exentax quan ja no escala
@@ -159,6 +157,10 @@ Quan una LLC comença a rebre pagaments seriosos, el stack inicial (de vegades n
 Si el teu stack actual ja no aguanta, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts: lliurem el pla de migració per escrit abans de tocar res.
 <!-- /exentax:execution-v2 -->
 
+## El cas específic del resident fiscal a Catalunya o l'Estat espanyol i a Andorra
+
+  **A l'Estat espanyol**, la reorganització bancària suposa actualització del **Model 720** si el saldo agregat de les noves entitats supera 50 000 € al tancament o saldo mitjà del quart trimestre, en aplicació de la **Disposició Addicional 18a de la LGT** (modificada per la Llei 5/2022). El nou règim sancionador (articles 198 i 199 LGT) substitueix l'anterior declarat contrari al dret UE pel TJUE en el cas C-788/19.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20la%20teva%20banca%20de%20la%20LLC%20%C3%A9s%20Mercury%20per%20a%20tot%20perqu%C3%A8%20%C3%A9s%20el%20que%20em%20van%20dir%2C%20%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
@@ -168,23 +170,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">5 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n 50+ divisas a tipo medio interbancario, FX típico **0,4-1,5 %**, datos locales en 10+ pa…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8822</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt;, ni Form 8822-B ni nada análogo, s…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…nservar el acuse y monitorizar futuras actualizaciones. - **Form 5472 + 1120 pro-forma.** …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

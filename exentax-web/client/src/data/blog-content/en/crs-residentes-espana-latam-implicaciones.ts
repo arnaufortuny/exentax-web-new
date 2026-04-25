@@ -1,161 +1,172 @@
-export default `The Common Reporting Standard (CRS) is the most important piece of international tax compliance of the last decade, and very few people understand what it actually means for someone who owns a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> or holds accounts outside their country of residence. Let's break it down with technical precision and without alarmism.
+export default `
+The Common Reporting Standard (CRS) is the most important piece of international tax compliance of the last decade, and very few people understand what it actually means for someone who owns a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> or holds bank accounts outside their country of residence. Let's break it down with technical precision and without alarmism.
 
 ## What CRS is and why it exists
 
-The **Common Reporting Standard** was approved by the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> Council in July 2014 in response to the G20 mandate after the financial crisis and the major tax-evasion scandals (LuxLeaks, Panama Papers). The objective: tax authorities of adhering countries automatically exchange information about financial accounts held by non-residents.
+The **Common Reporting Standard** was approved by the OECD Council in July 2014 in response to the G20 mandate after the financial crisis and the major tax-evasion scandals (LuxLeaks, Panama Papers). The objective is straightforward: tax authorities of adhering countries automatically exchange information about financial accounts held by non-residents.
 
-Technically, CRS generalizes the prior model (FATCA) to more than 100 jurisdictions, but on a multilateral rather than bilateral basis. Spain transposed it via Royal Decree 1021/2015 and Order HAP/1695/2016, which regulate **Form 289** (the annual informative return that Spanish financial institutions submit to the AEAT, and which is received in reverse from other adhering countries).
+Technically, CRS generalizes the previous model (FATCA) to more than one hundred jurisdictions, but on a multilateral rather than bilateral basis. Spain transposed it via Royal Decree 1021/2015 and Order HAP/1695/2016, which regulate **Form 289** (the annual informative return that Spanish financial institutions submit to the AEAT, and which Spain receives in reverse from other adhering countries).
 
-In Latin America CRS is implemented in, among others: Mexico (since 2017), Argentina, Colombia, Chile, Brazil, Uruguay, Panama, Peru, Costa Rica, Ecuador and the Dominican Republic. The United States, importantly, is **not adhered to CRS**. It runs its own system (FATCA), which is bilateral and outbound only, not inbound. We dive deeper into this in our article on <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">whether US bank accounts report to your tax authority</a>.
+In Latin America CRS has been implemented, among others, in: Mexico (since 2017), Argentina, Colombia, Chile, Brazil, Uruguay, Panama, Peru, Costa Rica, Ecuador and the Dominican Republic. The United States, importantly, is **not adhered to CRS**. It runs its own system (FATCA), which is bilateral and outbound only, not inbound. We dive deeper into this in our article on <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">whether US bank accounts report to your tax authority</a> and, to understand why the US will not sign the new version either, in <a href="/en/blog/crs-2-0-carf-why-the-us-will-never-sign-llc-impact">CRS 2.0 and CARF: why the US will never sign</a>.
+
 ### Regulatory framework
 
 - **OECD**: Common Reporting Standard, July 2014. Consolidated text and official commentaries.
 - **EU**: Council Directive 2011/16/EU on administrative cooperation (DAC), amended by DAC2 (Directive 2014/107/EU), which incorporates CRS into Union law.
-- **Spain**: Royal Decree 1021/2015, Order HAP/1695/2016, Order HAC/3625/2003 (Form 720), Order HFP/886/2023 (Form 721 for crypto-assets held abroad).
-- **Multilateral Competent Authority Agreement (MCAA)**: the OECD instrument by which each country activates bilateral exchange with each of the others.
-### What is reported
+- **Spain**: Royal Decree 1021/2015, Order HAP/1695/2016, Order HAC/3625/2003 (Modelo 720), Order HFP/886/2023 (Modelo 721 for crypto-assets held abroad).
+- **Multilateral Competent Authority Agreement (MCAA)**: the OECD instrument by which each country activates bilateral exchange with each of the others. Spain has activated exchange with virtually every EU country and with most adhering jurisdictions.
+
+## What information is reported exactly
 
 Each **Reporting Financial Institution** (bank, broker, fintech with banking license, investment fund, insurance company with investment products) that detects an account holder whose tax residence differs from the country where the account is held must report:
 
 | Category | Detail |
 | --- | --- |
 | Account holder data | Name, address, country of tax residence, TIN, date and place of birth (individuals) |
-| Entity data | Name, TIN, country. For accounts held by **passive NFEs**, also data of the **controlling persons** |
+| Entity data | Name, TIN, country. For accounts held by **passive NFEs**, also the data of the **controlling persons** |
 | Account data | Account number, name and identifier of the financial institution |
 | Balances | Year-end balance (or balance at closure if the account was closed during the year) |
 | Income | Gross interest, gross dividends, other gross income, gross proceeds from sale or redemption of financial assets (custodial accounts) |
 
-The flow is annual, typically between May and September of the year following the reported period, and is then cross-checked against the taxpayer's filings.
-## What happens with your US LLC
+The flow is annual, typically between May and September of the year following the reported period, and is then cross-checked against the taxpayer's filings (in Spain: IRPF, Modelo 720 and, after the latest reform, Modelo 721 for crypto-assets).
+
+## What happens with your US LLC: the nuance almost no one explains
 
 Here is where the misunderstandings begin. Let's nail down the concepts:
 
-1. **The US does not send data via CRS.** Mercury, Relay or any US regional bank will not directly send data to AEAT, SAT, DIAN or AFIP through CRS. What the US does is FATCA, which is **unilateral outbound**: it requests data from foreign institutions about US-person accounts, but does not automatically send equivalent data the other way (it does in some cases through Model 1 IGAs, but at far smaller scope than CRS).
-2. **Your accounts at European fintechs in your LLC's name ARE reported.** Wise (Belgium), Revolut (Lithuania), N26 (Germany), Wallester (Estonia) are financial institutions subject to CRS in their jurisdictions. If the holder is your LLC and you are the **beneficial owner** resident in Spain or LATAM, that data reaches your tax authority. We develop this further in our dedicated articles on <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut and CRS</a> and <a href="/en/blog/wise-business-and-crs-what-it-reports-to-your-tax-authority">Wise and CRS</a>.
-3. **Your LLC is most likely a passive NFE**, unless it can demonstrate real operational activity (more than 50% of income is operational and not passive: dividends, interest, rents, non-active royalties). For the typical single-member LLC providing services, the European fintech tends to classify it as a passive NFE out of caution, which **triggers reporting of the controlling persons**.
+1. **The US does not send data via CRS.** Mercury, Relay or any US regional bank will not directly send data to AEAT, SAT, DIAN or AFIP through CRS. What the US runs is FATCA, which is **unilateral outbound**: it requests data from foreign institutions about US-person accounts, but does not automatically send equivalent data the other way (it does in some cases through Model 1 IGAs, but at far smaller scope than CRS).
+2. **Your accounts at European fintechs in your LLC's name ARE reported.** Wise (Belgium), Revolut (Lithuania, with the United Kingdom on its own post-Brexit regime), N26 (Germany) and Wallester (Estonia) are financial institutions subject to CRS in their jurisdictions. If the holder is your LLC and you are the **beneficial owner** tax-resident in Spain or LATAM, that data reaches your tax authority. We develop this further in our dedicated articles on <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut and CRS</a> and <a href="/en/blog/wise-business-and-crs-what-it-reports-to-your-tax-authority">Wise and CRS</a>.
+3. **Your LLC is most likely a passive NFE**, unless it can demonstrate real operational activity (more than 50% of income is operational and not passive items such as dividends, interest, rents or royalties unconnected to a business). For the typical freelancer with a single-member LLC invoicing services, there is room for debate: a literal CRS reading would treat the LLC as an active NFE (operating business), but the European fintech typically classifies it as a passive NFE out of caution, which **triggers reporting of the controlling persons**. This nuance escapes almost everyone.
+
 ### How CRS tax residence is determined
 
 The financial institution applies a **due diligence procedure** (RD 1021/2015 and CRS Annex I) based on the holder's self-certification plus objective indicia: postal address, phone number, recurring IP, declared TIN, repeated transfer instruction to accounts in another country, powers of attorney granted to residents in another country.
 
-If your self-certification says "tax resident in Andorra" but your IP, card delivery address and recurring transfers point to Madrid, the institution may request **additional documentation** (tax residence certificate, lease, etc.) or, in case of doubt, report to both jurisdictions. False CRS self-certification is a tax offence in most jurisdictions and can have criminal consequences depending on the amounts involved.
-### Real implications in Spain (Forms 720 and 721)
+If your self-certification states "tax resident in Andorra" but your IP, card delivery address and recurring transfers point to Madrid, the institution may request **additional documentation** (tax residence certificate issued by the competent tax authority, lease agreement, etc.) or, in case of doubt, report to both jurisdictions. False CRS self-certification is a tax offence in most jurisdictions and may carry criminal consequences if it concurs with material undeclared liabilities (in Spain, art. 305 of the Spanish Criminal Code if thresholds are crossed).
+
+## Real implications in Spain (Modelo 720 and Modelo 721)
 
 If you are a Spanish tax resident and you have:
 
-- **Foreign accounts** with individual or aggregate balance > €50,000 at 31 December or average balance in the last quarter: **Form 720** informative return.
-- **Foreign crypto-assets** > €50,000 at 31 December: **Form 721**.
-- **Foreign securities, rights, insurance, income** > €50,000: Form 720 corresponding sections.
+- **Foreign accounts** with individual or aggregate balance above €50,000 at 31 December or as average balance in the last quarter: **Modelo 720** informative return (see our <a href="/en/blog/modelo-720-and-modelo-721-guide-for-spanish-residents-with">complete guide to Modelo 720 and 721</a>), first filing in March of the following year; subsequent filings only if there is a variation of more than €20,000 in any heading.
+- **Foreign crypto-assets** above €50,000 at 31 December: **Modelo 721**.
+- **Foreign securities, rights, insurance, income** above €50,000: Modelo 720, corresponding sections.
 
-The CJEU judgment C-788/19 (27 January 2022) struck down the originally disproportionate sanction regime for Form 720, but the obligation to report **remains fully in force** with ordinary penalties (LGT art. 198) and with the qualifier that undeclared income may be regularised as unjustified capital gains (LIRPF art. 39, in what is not affected by the CJEU ruling).
+The CRS cross-check allows the AEAT to detect omissions almost in real time relative to the reported period. The CJEU judgment C-788/19 (27 January 2022) struck down the originally disproportionate sanction regime of Modelo 720 for being contrary to Union law, but the obligation to report **remains fully in force** with ordinary penalties (LGT art. 198) and with the qualifier that undeclared income may be regularised as unjustified capital gains (LIRPF art. 39, in what is not affected by the CJEU ruling).
+
+### Real implications in LATAM
+
+- **Mexico**: art. 32-A of the CFF, annual RMF, cross-check with the annual return of individuals and corporates. SAT runs a specific audit programme on foreign accounts surfaced by CRS.
+- **Colombia**: DIAN integrates CRS into its exogenous information system. Omitted accounts may trigger an official assessment based on presumptive taxable income.
+- **Argentina**: AFIP receives CRS data and crosses it against its own informative regimes. The voluntary disclosure window is currently closed, so regularisation has to be done through a corrective return with interest and penalties.
+- **Chile**: SII receives CRS data and crosses it with affidavit DJ 1929 (foreign-source income).
+- **Uruguay and Panama**: traditionally planning-friendly jurisdictions; both have adhered to CRS and report balances of non-residents.
+
 ## How to plan correctly
 
-The technical conclusion is the opposite of what many influencers say: **a properly structured US LLC banking solely with Mercury/Relay (US) has minimal CRS footprint**, because the US does not export CRS data. But as soon as you add a European layer (Wise, Revolut, Wallester, N26), you accept that the information will reach your tax authority. It is neither good nor bad: it just is, and planning requires knowing it.
+The technical conclusion is the opposite of what many influencers say: **a properly structured US LLC banking solely with Mercury or Relay (US) has minimal CRS footprint**, because the US does not export CRS data. But as soon as you add a European layer (Wise, Revolut, Wallester, N26), you accept that the information will reach your tax authority. It is neither good nor bad: it just is, and planning requires knowing it.
 
 The professional approach involves:
 
 1. **Filing correctly.** The cross-check already exists; trying to hide is a waste of time and exposes you to penalties.
-2. **Designing the structure for the declared activity to be tax-efficient.** This means deciding country of residence, investment instruments, remittance schedule, deductions and applicable DTT. See our <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">framework for designing a solid international structure</a>.
-3. **Maintaining documentation**: contracts, invoices, expense receipts, LLC books, consistent CRS self-certifications.
+2. **Designing the structure for the declared activity to be tax-efficient.** This means deciding country of residence, investment instruments, remittance schedule, applicable deductions and the relevant Double Taxation Treaty. See our <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">framework for designing a solid international structure</a>.
+3. **Maintaining documentation**: contracts, invoices, expense receipts, the LLC's books, consistent CRS self-certifications. Without documentation, an audit effectively shifts the burden of proof to the taxpayer.
 4. **Knowing the risks of getting it wrong.** We cover them in <a href="/en/blog/tax-risks-of-bad-international-structuring-simulation-cfc">tax risks of bad international structuring</a>.
-### Common mistakes we see every week
+5. **Understanding your economic activity.** A services LLC is not taxed the same way as an e-commerce or royalties LLC. We develop this in <a href="/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas">LLC taxation by economic activity</a>.
 
-- "Since Mercury is in the US, no one finds out." True for Mercury vs CRS, but false for your Wise/Revolut/Wallester/N26 accounts in the same LLC's name.
-- "I declared tax residence in Andorra/Paraguay/Dubai but I still live in Spain." Tax residence is not chosen; it is determined by facts (183 days, centre of economic interests, core of vital interests).
-- "If my LLC invoices, nothing happens to me." The AEAT can apply **CFC rules** (LIS art. 100, applicable to individuals via LIRPF art. 91) if your LLC generates passive income and the entity is under your control. Planning must avoid this scenario, not ignore it.
+## Common mistakes we see every week
+
+- "Since Mercury is in the US, no one finds out." True for Mercury versus CRS, but false for your Wise, Revolut, Wallester or N26 accounts in the same LLC's name.
+- "I declared tax residence in Andorra, Paraguay or Dubai but I still live in Spain." Tax residence is not chosen; it is determined by facts (183 days, centre of economic interests, core of vital interests, art. 9 LIRPF). We develop this in our article on the <a href="/en/blog/digital-nomad-where-to-pay-taxes-and-how-to-choose-your-tax">tax residency of the digital nomad</a>.
+- "If my LLC invoices, nothing happens to me." The AEAT may apply **CFC rules** (LIS art. 100, applicable to individuals via LIRPF art. 91) if your LLC generates passive income and the entity is under your control and located in a low-tax jurisdiction; the US is not a tax haven for these purposes, yet a pass-through LLC can still trigger the rule by the very mechanics of being a Disregarded Entity. Planning has to avoid that scenario, not ignore it.
+- "I'll put the account in a relative's name." This is the classic disguised nominee, whose criminal and tax implications we analyse in <a href="/en/blog/nominee-owners-for-llcs-why-it-is-illegal-and-the-risks-you">nominee owners and prestanombres in LLCs</a>.
+
 ## In summary
 
 CRS is not "avoided" from a European jurisdiction. It is planned for, with knowledge. A US LLC remains an extraordinarily useful tool, but the design of your banking stack and your tax residency are decisive for the informational footprint you generate to be consistent with what you declare.
-
-Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyze it with you.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
-If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
+Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyse it with you.
+If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle that we usually keep for a separate write-up.
+
+### Related reading
+
+- [Panama company: tax and residency](/en/blog/panama-company-tax-and-residency-2026)
+
 ### Next steps
 
-If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.
+If you want to validate whether this strategy fits your specific situation, at Exentax we review your case in person and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.
 
 <!-- exentax:banking-facts-v1 -->
 ## Banking and tax facts worth clarifying
 
-Fintech and CRS information evolves; here is the current state:
+Fintech and CRS information evolves; here is the current state, exactly as it stands today:
 
 ### Notes by provider
 
-- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account (Relay, Wise Business, etc.) as contingency.
-- **Wise** ships two clearly different products: **Wise Personal** and **Wise Business**. For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS participant; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; a separate Wise Personal in your own name as a CRS-resident individual does report.
+- **Mercury** operates with several federally chartered partner banks and **FDIC** coverage via sweep network: mainly **Choice Financial Group** and **Evolve Bank & Trust**, with **Column N.A.** still in some legacy accounts. Mercury is not itself a bank; it is a fintech platform backed by those partner banks. If Mercury closes an account, the balance is typically returned **by paper check mailed to the account holder's registered address**, which can be a serious operational problem for non-residents; keep a secondary account active (Relay, Wise Business, etc.) as contingency.
+- **Wise** ships two clearly different products: **Wise Personal** (individual account) and **Wise Business** (business account, including for your LLC). For an LLC you must open **Wise Business**, not the personal account. Important CRS nuance: a **Wise Business held by a US LLC sits outside CRS** because the account holder is a US entity and the US is not a CRS jurisdiction; the USD side operates via Wise US Inc. (FATCA perimeter, not CRS). In contrast, a **Wise Personal opened by an individual tax-resident in Spain** or another CRS jurisdiction **does trigger CRS reporting** via Wise Europe SA (Belgium) on that individual. Opening Wise for your LLC does not bring you into CRS through the LLC; if you also keep a Wise Personal in your own name as a CRS-resident individual, that second one does report.
 - **Wallester** (Estonia) is a European financial entity with an EMI/issuing-bank licence. Its European IBAN accounts **are within the Common Reporting Standard (CRS)** and therefore trigger automatic reporting to the tax administration of the holder's country of residence.
 - **Payoneer** operates through European entities (Payoneer Europe Ltd, Ireland) that are also **in scope for CRS** for clients resident in participating jurisdictions.
-- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, BE) **are not issued by default** to a US LLC, they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity it sits with and which regime it reports under.
-- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+- **Revolut Business**: when paired with a **US LLC**, the usual setup runs through Revolut Payments USA; European IBANs (Lithuanian, Belgian) **are not issued by default** to a US LLC; they are issued to European clients of the group's European bank. If you are offered a European IBAN, confirm exactly which legal entity holds that account and which regime it reports under.
+- **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC, tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
+
+<!-- exentax:legal-refs-v1 -->
 ## References: legal framework and regulation
 
-Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
+The reasoning of this article rests on the following regulation and doctrine, currently in force:
 
-## Let's talk about your structure
+- **Spain.** Personal Income Tax Law 35/2006 (arts. 8, 9 and 91 on tax residence and CFC rules), Corporate Income Tax Law 27/2014 (art. 100 on CFC), General Tax Law 58/2003, Law 5/2022 which reformed Modelo 720 after CJEU C-788/19 of 27/01/2022, RD 1065/2007 (Modelos 232 and 720) and Order HFP/887/2023 (Modelo 721 on crypto-assets held abroad).
+- **Administrative doctrine.** TEAC resolutions and binding consultations from the DGT on single-member LLCs (among others V0443-08, V1631-17, V1147-22), interpreted in light of the BOE notice of February 2020 on the classification of foreign transparent entities.
+- **Treaties and international rules.** Spain–US Double Taxation Treaty signed in 1990 with the 2013 Protocol in force since 2019, Directive 2011/16/EU as amended by DAC6, DAC7 and DAC8, and the OECD Model Convention with its Commentaries.
+- **United States.** Treas. Reg. §301.7701-3 (check-the-box classification), IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) and FBAR rules (31 CFR 1010.350).
 
-We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure leaks tax, banking access or compliance. The notes below distil what we actually do with clients facing this exact case, prioritising the variables that move the needle.
+This content is informational and does not replace personalised advice for your specific tax situation.
 
-## What happens with your US LLC: the nuance almost no one explains
+<!-- exentax:execution-v2 -->
+## What CRS means today for residents in Spain and Latin America
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+CRS runs on autopilot: more than 110 jurisdictions exchange data every September on year-end balances of the prior year. If you are tax resident in Spain, Mexico, Colombia, Chile, Peru, Argentina or Uruguay, the banks where you hold foreign accounts are already reporting or will be soon. This is what really matters, with no paranoia.
 
-## Real implications in Spain (Modelos 720 and 721)
-
-Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.<!-- exentax:execution-v2 -->
-## What CRS means today for residents of Spain and Latin America
-
-CRS runs on autopilot: 110+ jurisdictions exchange data every September on year-end balances of the prior year. If you are tax resident in Spain, Mexico, Colombia, Chile, Peru, Argentina or Uruguay, the banks where you hold foreign accounts are already reporting or will be soon. This is what matters, no paranoia.
-
-- **What is reported.** Account balances at December 31, gross annual income (interest, dividends), holder's name, tax residency declared to the bank and, for transparent entities, controlling person data. The information lands at the residence country and is crossed with the taxpayer's filing.
+- **What is reported.** Account balances at 31 December, gross annual income (interest, dividends), holder's name, tax residence declared to the bank and, for transparent entities, controlling person data. The information lands at the residence country and is crossed with the taxpayer's filing.
 - **What is not reported.** Detailed account movements, specific counterparties, transactional information. CRS is balances + gross income + identification; it is not transaction traceability. The "they know everything" perception is exaggerated literally but right in consequence: with balances and gross income they build enough presumption to open an inquiry.
-- **Spain, Modelo 720 and Modelo 721.** The Spain tax resident has an own duty to declare foreign accounts (>50,000 € combined, Modelo 720) and foreign crypto assets (>50,000 €, Modelo 721). Independent of CRS, dependent on your duty. CRS only helps AEAT cross and detect omissions.
-- **Latin America - different rhythms.** Mexico (SAT) exchanges since 2018 with extensive coverage; Colombia (DIAN) since 2017 with progressive cleanup; Chile (SII) since 2018; Argentina (AFIP) since 2018 but with operational use still under construction; Uruguay active but with tax-haven regime nuancing the flow both ways. Use intensity varies but data availability is now generalised.
+- **Spain, Modelo 720 and Modelo 721.** A Spanish tax resident has an own duty to declare foreign accounts (above €50,000 combined, Modelo 720) and foreign crypto-assets (above €50,000, Modelo 721). It does not depend on CRS, it depends on your duty. CRS only helps the AEAT to cross-check and detect omissions.
+- **LATAM — different rhythms.** Mexico (SAT) exchanges since 2018 with extensive coverage; Colombia (DIAN) since 2017 with progressive cleanup; Chile (SII) since 2018; Argentina (AFIP) since 2018 but with operational use still under construction; Uruguay active but with a tax-haven regime that nuances the flow in both directions. Use intensity varies but data availability is now generalised.
 
 ### What we are asked the most
 
-**If I have Mercury in my LLC, does my country know via CRS?** Not directly: the US does not participate in CRS. What does enter is Wise accounts (via Belgium) and, if the LLC operated from a European or Asian bank, those do. Mercury sits outside the automatic flow, not outside every declarative duty.
+**If I have Mercury in my LLC, does my country know via CRS?** Not directly: the US does not participate in CRS. What does enter the flow is the Wise account (via Belgium) and, if the LLC operated from a European or Asian bank, those would too. Mercury sits outside the automatic flow, not outside every declarative duty.
 
-**How do I regularise if I have been unfiled for years?** With a complementary 720/721 filing before an inquiry hits. CJEU ruling C-788/19 capped Spanish fines; you can regularise far cheaper than 5 years ago. We assess each case.
+**How do I regularise if I have been unfiled for years?** With a complementary 720 or 721 filing before an inquiry hits. CJEU ruling C-788/19 capped Spanish fines; you can regularise far more cheaply than five years ago. We assess each case.
 
-At Exentax we map which of your accounts enter CRS, what declarative duties each triggers and design the clean entry or the orderly regularisation when applicable.
+At Exentax we map which of your accounts enter CRS, what declarative duties each one triggers and design the clean entry or the orderly regularisation when applicable.
 <!-- /exentax:execution-v2 -->
 
-## What information is reported exactly
+## Let's talk about your structure
 
-Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
+Every case has nuances: your country of residence, the type of activity, where your clients are, whether you do investment or trading, whether you sell to consumers or to businesses. At Exentax we review your situation, design the LLC structure that fits you and accompany you each year on maintenance. Book a session with our team and we'll start from your real numbers.
 
-<!-- exentax:cta-v1 -->
+<!-- exentax:cross-refs-v1 -->
+### Further related reading
+
+- [Offshore structures: real benefits and honest risks](/en/blog/offshore-structures-benefits-and-real-risks)
+- [From single-member to multi-member LLC: real tax implications before taking the step](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications)
+- [Exit Tax in Spain: departure tax for crypto investors, LLC owners and Interactive Brokers users](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
+<!-- /exentax:cross-refs-v1 -->
+
+Want to apply this protocol to your case? <a href="/en/book">Book a session with the Exentax team</a> and we will review your LLC with real numbers in thirty minutes, no commitment.
+
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22The%20Common%20Reporting%20Standard%20(CRS)%20is%20the%20most%20important%20piece%20of%20internatio%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I%20just%20read%20%22crs%20for%20residents%20in%20spain%20and%20latam%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we will get back to you today.</p>
 
 If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…E)**, salvo que demuestre actividad operativa real (más del 50% de sus ingresos son operat…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…uentas en el extranjero** con saldo individual o conjunto &gt; 50.000 € a 31 de diciembre o s…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">20.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…zo del año siguiente; sucesivas, solo si hay variación de + 20.000 € en cualquier rúbrica.…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…nvenio OCDE con sus Comentarios. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación chec…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §77…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…U.** Treas. Reg. §301.7701-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y normativa F…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…os CRS La entidad financiera aplica una **due diligence** (RD 1021/2015 y Anexo I del CRS)…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…reformó el Modelo 720 tras la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…6/UE de cooperación administrativa (DAC), modificada por la DAC2 (Directiva 2014/107/UE) q…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…13 en vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Conve…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…esde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Convenio OCD…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

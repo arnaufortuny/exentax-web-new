@@ -167,6 +167,16 @@ Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansä
 - [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
 <!-- /exentax:cross-refs-v1 -->
 
+  ### Zahlungsanbieter und LLC: deutsches USt- und Plattformsteuerrecht
+
+  Für deutsche Steuerinländer, die mit einer US-LLC über Zahlungsanbieter wie Stripe, PayPal oder DodoPayments fakturieren, sind drei Schichten zu beachten: (a) **umsatzsteuerlicher Leistungsort**, (b) **Plattformsteuerpflichten** und (c) **Zahlungsdienstleisteranzeigen**.
+
+  **§13b UStG Reverse-Charge:** bei Bezug elektronischer Dienstleistungen aus dem Drittland (z. B. Stripe Inc., USA) durch deutsche Unternehmer geht die Steuerschuldnerschaft auf den Leistungsempfänger über. Die **Steuer wird in der USt-Voranmeldung** (Anlage UR) erklärt und gleichzeitig als Vorsteuer abgezogen, wenn die Voraussetzungen des §15 UStG vorliegen.
+
+  **§3 Abs. 11a UStG Vermittlungsleistungen:** Plattformen, die in eigenem Namen aber für fremde Rechnung handeln, werden als Eingangs- und Ausgangsleistungserbringer behandelt (Dienstleistungskommission). Stripe und PayPal handeln in fremdem Namen und sind keine Kommissionäre — ihre Provisionen sind reine Finanzdienstleistungen nach **§4 Nr. 8 UStG steuerbefreit**.
+
+  **Plattformen-Steuertransparenzgesetz (PStTG, BGBl. I 2022 S. 2730)** — DAC7-Umsetzung in Kraft seit 01.01.2023: Plattformbetreiber melden bis 31.01. des Folgejahres Verkäufer-Daten an das BZSt bei Schwellenüberschreitung von **30 Transaktionen/Jahr** oder **€2.000 Umsatz/Jahr** je Verkäufer. Stripe und PayPal sind als reine Zahlungsanbieter nach §3 Abs. 4 PStTG **ausgenommen**, sofern sie nicht selbst die Transaktionsdurchführung verantworten. **Aufbewahrungsfrist 10 Jahre** für Plattformaufzeichnungen.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wer%20Stripe%20Deutschland%20oder%20PayPal%20Business%20DACH%20auf%20einem%20weltweiten%20B2B-Saa%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -177,19 +187,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">99%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">49%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">8%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -67,7 +67,7 @@ Tu <a href="/es/blog/registered-agent-que-es-por-que-necesitas">Registered Agent
 **En Exentax:** El Registered Agent está incluido en todos nuestros planes. Lo renovamos automáticamente cada año. Cero riesgo de que expire.
 ### BOI Report (si hay cambios)
 
-Si tu LLC entra en el ámbito vigente del BOI Report (tras la interim final rule de FinCEN de marzo de 2025, el BOI sólo aplica a "foreign reporting companies": entidades constituidas fuera de EE. UU. y registradas en un estado; verifica en FinCEN.gov) y cambia algún dato de los propietarios reales (nombre, dirección, pasaporte, porcentaje de participación), debes actualizar el reporte ante FinCEN en un plazo de 30 días. Si tu LLC se constituyó en EE. UU. queda hoy fuera de la obligación; en Exentax monitorizamos cambios normativos y, si vuelve a aplicar, presentamos en plazo.
+Tras la **interim final rule de FinCEN de marzo de 2025**, el **BOI Report NO aplica a las LLC formadas en EE. UU. propiedad de no residentes** ante FinCEN: solo presentan las **foreign reporting companies** (entidades constituidas fuera de EE. UU. y registradas para operar en un estado). Si tu entidad encaja en ese supuesto y cambia algún dato de los propietarios reales (nombre, dirección, pasaporte, porcentaje de participación) o cualquier dato del beneficiario efectivo con **≥ 25 %** de participación o **control sustancial**, debes actualizar el BOIR en **boiefiling.fincen.gov** en un plazo de **30 días** desde el cambio. El portal es gratuito y la actualización dura **10-15 minutos**. La sanción civil por no actualizar llega a **591 USD/día** y la penal hasta **10.000 USD y 2 años de prisión** (31 U.S.C. §5336). En Exentax monitorizamos FinCEN.gov en cada presentación y, si la regla cambia o ya estás en ámbito, presentamos cualquier actualización dentro de plazo, conservando el **BOIR Confirmation Number** en tu archivo legal.
 ### Calendario completo de mantenimiento anual
 
 Aquí tienes el calendario que seguimos en Exentax para cada cliente. Imprímelo, ponlo en tu nevera, o simplemente confía en que nosotros lo llevamos por ti:
@@ -152,7 +152,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 
 ### Puntos clave
 
-- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
 - **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
@@ -167,7 +167,6 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 - [IRS 1120 y 5472: qué son realmente y cuándo aplican a tu LLC](/es/blog/irs-1120-5472-que-son-cuando-aplican)
 <!-- /exentax:cross-refs-v1 -->
 
-<!-- exentax:overhaul-hoy-v1 -->
 ## Actualización Exentax hoy: calendario anual hoy sin huecos
 
 El mantenimiento ordenado de una LLC actualmente cabe en seis hitos por año.
@@ -183,7 +182,6 @@ El mantenimiento ordenado de una LLC actualmente cabe en seis hitos por año.
 **¿Necesito contabilidad formal?** Para presentar el 5472 sí, aunque sea libro caja simplificado. Mercury + hoja de cálculo basta hasta ~150 k USD/año; por encima conviene Quickbooks o Wave.
 
 **¿Qué hago si cambio de país de residencia?** Notifica al Registered Agent (cambio de dirección postal), actualiza Mercury (KYC) y, si tu nueva residencia es CRS, declara la cuenta donde corresponda.
-<!-- exentax:overhaul-hoy-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo cerramos el mantenimiento anual en Exentax
@@ -197,7 +195,6 @@ El mantenimiento anual de una LLC son seis bloques que se cruzan: estatal, feder
 Si quieres que llevemos tu mantenimiento anual o auditar el último ejercicio cerrado, lanza la <strong>calculadora Exentax</strong> o reserva treinta minutos.
 <!-- /exentax:execution-v2 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -210,7 +207,6 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 Revisamos BOI, EIN, agente registrado y obligaciones federales para que no te sorprenda una multa. <a href="/es/servicios">Pedir revisión de compliance</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -236,5 +232,4 @@ Revisamos BOI, EIN, agente registrado y obligaciones federales para que no te so
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

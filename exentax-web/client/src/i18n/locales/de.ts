@@ -1744,6 +1744,7 @@ const de = {
   },
   blogPost: {
     articlesFound: "Artikel gefunden",
+    atomicAnswerLabel: "Kurzantwort",
     share: "Teilen",
     backToBlog: "Zurück zum Blog",
     minRead: "Min. Lesezeit",

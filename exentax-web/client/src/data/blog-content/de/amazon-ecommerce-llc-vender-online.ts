@@ -127,6 +127,7 @@ Die LLC ist das juristische Werkzeug; ein echtes Ecommerce-Geschäft steht auf v
 - **Zahlungsschienen in Kaskade.** Stripe US ist der natürliche Einstieg; planen Sie Paddle (Merchant of Record) oder DoDo Payments als Backup, falls Stripe das Konto beschränkt (Reserven, Chargebacks, Kategorie). Ein einziges aktives Gateway ist ein Single Point of Failure.
 - **Fulfillment und Nexus.** FBA in den USA erzeugt **Sales-Tax-Nexus** in jedem Bundesstaat, in dem Amazon Ihren Bestand lagert. 24 Staaten haben Marketplace-Facilitator-Gesetze, doch einige fordern weiterhin Ihre eigene Registrierung.
 - **Buchhalterische Nachvollziehbarkeit ab Tag eins.** Amazon-Settlements, Stripe-Gebühren und Erstattungen abzustimmen erfordert ein System (A2X, Synder o. ä.), das in Ihre Buchhaltung greift. Ohne das wird der Jahresabschluss zur Ausgrabung.
+- **DAC7-Meldepflicht.** Die EU-Richtlinie 2021/514 (DAC7) verpflichtet Plattformen wie Amazon, Etsy oder Shopify dazu, Verkäuferdaten und Erlöse jährlich an die Steuerbehörden zu melden. Wenn Sie als deutscher oder österreichischer Steuerresident über Ihre US-LLC auf diesen Plattformen verkaufen, gehen die Daten direkt an Ihr Finanzamt: planen Sie die Einkünftezurechnung sauber, bevor die erste Anfrage kommt.
 
 ### Was wir am häufigsten gefragt werden
 
@@ -164,19 +165,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s) | | Stripe/Shopify Payments | Procesamiento de pagos | 2.9% + $0.30 | | Amazon Seller C…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…(Merchant of Record), DoDo Payments y PayPal Business. - **DAC7.** Directiva (UE) 2021/514…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -1,133 +1,173 @@
-export default `Este artigo foi escrito a pensar em Espanha e América Latina, mas toca numa ferida que afeta diretamente quem vive em Portugal ou no Brasil: a partir do momento em que tens uma LLC com conta em USD, apareçem obrigações acessórias (Anexo J do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, Modelo 58 do Banco de Portugal, DIRF/e-Financeira no Brasil) que muita gente só descobre com o primeiro aviso.
+export default `
+O Common Reporting Standard (CRS) é a peça mais importante da fiscalidade internacional da última década, e muito poucas pessoas compreendem o que significa para alguém que tenha uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> ou contas fora do seu país de residência. Vamos desmontar o tema com precisão técnica e sem alarmismo.
 
-## O que é o CRS
+Este artigo foi pensado a partir de Espanha e América Latina, mas toca numa ferida que afeta diretamente quem vive em **Portugal** ou no **Brasil**: a partir do momento em que tem uma LLC com conta em USD ou uma conta aberta fora do seu país de residência, surgem obrigações acessórias que muita gente só descobre com o primeiro aviso. Em Portugal são, no mínimo, o **Anexo J do IRS** (rendimentos obtidos no estrangeiro, incluindo juros, dividendos e mais-valias da LLC), o **Modelo 58 do Banco de Portugal** (comunicação de operações e posições com o exterior), a indicação obrigatória das contas de depósito ou de títulos abertas em entidades não residentes no Anexo J e, conforme o caso, a inclusão de criptoativos detidos no estrangeiro. Para quem reside no **Brasil**, soma-se a Declaração de Capitais Brasileiros no Exterior (DCBE) do Banco Central, a Declaração do Imposto sobre a Renda da Pessoa Física com a ficha de Bens e Direitos no exterior e o regime e-Financeira/DIRF nos casos aplicáveis. A lógica CRS que descrevemos aqui é a mesma; o que muda é o formulário local que tem de preencher para estar em ordem.
 
-Aprovado pelo Conselho da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> em julho de 2014. Mais de 100 jurisdições trocam anualmente informação sobre contas de não-residentes. Na UE incorporado pela **Diretiva 2014/107/UE (DAC2)**. Em Espanha transposto via **Real Decreto 1021/2015** e Ordem HAP/1695/2016 (Modelo 289). Em LATAM aplicado por México (desde 2017), Argentina, Colômbia, Chile, Brasil, Uruguai, etc. Os **EUA não aderiram ao CRS**: usam FATCA, unilateral e só de saída. Veja <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">contas EUA reportam à sua autoridade fiscal?</a>.
-### Que se reporta
+## O que é o CRS e porque existe
 
-Anualmente cada Instituição Financeira Reportante reporta: identificação do titular (nome, morada, residência fiscal, NIF/TIN), de entidade (com **beneficiários efetivos** se NFE passiva), número de conta, **saldo a 31 de dezembro** e rendimentos brutos.
-## A sua LLC americana
+O **Common Reporting Standard** foi aprovado pelo Conselho da OCDE em julho de 2014, em resposta ao G20, depois da crise financeira e dos grandes escândalos de evasão fiscal (LuxLeaks, Panama Papers). O objetivo é claro: as administrações fiscais dos países aderentes trocam automaticamente informação sobre contas financeiras de não residentes.
 
-1. **Os EUA não enviam dados via CRS.** Mercury, Relay não comunicam à AT, AEAT, SAT, DIAN.
-2. **Contas em fintechs europeias** (Wise BE, Revolut LT, N26 DE, Wallester EE) em nome da LLC **são reportadas**. Veja <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade">Revolut e CRS</a> e <a href="/pt/blog/wise-business-e-crs-o-que-e-reportado-a-sua-autoridade">Wise e CRS</a>.
-3. **A sua LLC é provavelmente classificada como NFE passiva** e a fintech reporta os **controlling persons** ao seu país de residência.
-### Determinação da residência fiscal
+A nível técnico, o CRS generaliza a mais de cem jurisdições o modelo anterior (FATCA), mas em base multilateral em vez de bilateral. Espanha transpô-lo através do Real Decreto 1021/2015 e da Orden HAP/1695/2016, que regulam o **Modelo 289** (declaração informativa anual de contas financeiras de não residentes que as instituições financeiras espanholas remetem à AEAT, e que Espanha recebe em sentido inverso a partir dos restantes países aderentes).
 
-A instituição aplica due diligence (auto-certificação + indícios objetivos: morada, IP, NIF, transferências recorrentes). Falsa auto-certificação é infração e pode ser crime.
-### Implicações em Espanha
+Na América Latina foi implementado, entre outros, no México (desde 2017), Argentina, Colômbia, Chile, Brasil, Uruguai, Panamá, Peru, Costa Rica, Equador e República Dominicana. Os Estados Unidos, ponto essencial, **não aderiram ao CRS**. Têm o seu próprio sistema (FATCA), bilateral e apenas de saída, não de entrada. Aprofundamos isto no nosso artigo sobre <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">se as contas bancárias americanas reportam à sua autoridade fiscal</a> e, para perceber porque também não assinarão a nova versão, em <a href="/pt/blog/crs-2-0-carf-por-que-os-eua-nunca-vao-assinar-llc">CRS 2.0 e CARF: porque os EUA nunca vão assinar</a>.
 
-Contas estrangeiras > 50.000 € em fim de ano: **Modelo 720**. Cripto > 50.000 €: **Modelo 721**. O acórdão do TJUE C-788/19 anulou o regime sancionatório desproporcionado mas a obrigação de declarar continua plena.
-### Como planear corretamente
+### Quadro normativo
 
-Uma LLC bem estruturada com banca exclusivamente Mercury/Relay (US) tem **pegada CRS mínima**. Adicionar camada europeia significa que a informação chega à autoridade. Estratégia profissional: declarar corretamente, conceber estrutura eficiente (veja <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">quadro de desenho</a>), manter documentação, conhecer riscos (<a href="/pt/blog/riscos-fiscais-de-uma-ma-estruturacao-internacional">riscos</a>).
-### Erros típicos
+- **OCDE**: Common Reporting Standard, julho de 2014. Texto consolidado e comentários oficiais.
+- **UE**: Diretiva 2011/16/UE de cooperação administrativa (DAC), alterada pela DAC2 (Diretiva 2014/107/UE), que incorpora o CRS no direito da União.
+- **Espanha**: Real Decreto 1021/2015, Orden HAP/1695/2016, Orden HAC/3625/2003 (Modelo 720), Orden HFP/886/2023 (Modelo 721 sobre criptoativos detidos no estrangeiro).
+- **Multilateral Competent Authority Agreement (MCAA)**: o instrumento da OCDE pelo qual cada país ativa a troca bilateral com cada um dos restantes. Espanha tem ativada a troca com praticamente toda a UE e com a maior parte das jurisdições aderentes.
 
-- "Mercury é nos EUA", falso para Wise/Revolut/N26 da mesma LLC.
-- "Residência em Andorra" mas vive em Espanha, residência determina-se por factos.
-- "Se a LLC factura, estou seguro", **transparência fiscal internacional** (art. 100 LIS via art. 91 LIRPF) ativa-se com rendimentos passivos.
-### Conclusão e próximos passos
+## Que informação é exatamente reportada
 
-### Em resumo
+Cada **Reporting Financial Institution** (banco, broker, fintech com licença bancária, fundo de investimento, companhia de seguros com produtos de investimento) que detete um titular cuja residência fiscal seja diferente do país onde a conta está aberta deve reportar:
 
-CRS planeia-se, não se evita. Uma LLC continua extraordinariamente útil; o desenho do banking stack e a residência determinam a coerência informacional.
+| Categoria | Detalhe |
+| --- | --- |
+| Dados do titular | Nome, morada, país de residência fiscal, NIF/TIN, data e local de nascimento (pessoas singulares) |
+| Dados da entidade | Nome, NIF, país. Em contas tituladas por **NFE passivas**, também os dados dos **beneficiários efetivos** controladores |
+| Dados da conta | Número de conta, nome e número identificativo da instituição financeira |
+| Saldos | Saldo ou valor ao fim do ano civil (ou ao fecho da conta se cancelada durante o ano) |
+| Rendimentos | Juros brutos, dividendos brutos, outros rendimentos, receitas brutas por venda ou reembolso de ativos financeiros (contas de custódia) |
 
-Na Exentax encaixamos estas obrigações logo na constituição. Marca a tua consultoria gratuita: identificamos as declarações acessórias que realmente te afetam e deixamo-las em ordem.
+Este fluxo é anual, normalmente entre maio e setembro do ano seguinte ao exercício reportado, e é cruzado com as declarações do contribuinte (em Espanha: IRPF, Modelo 720 e, após a última reforma, Modelo 721 para criptoativos; em Portugal: IRS com Anexo J e Modelo 58 do BdP).
 
-Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho">Por que freelancers espanhóis estão a deixar o trabalho autónomo por uma LLC americana</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
-### Próximos passos
+## O que se passa com a sua LLC americana: a nuance que quase ninguém explica
 
-Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
+É aqui que aparecem os mal-entendidos. Vamos fixar conceitos:
 
-<!-- exentax:banking-facts-v1 -->
-## Factos bancários e fiscais a precisar
+1. **Os EUA não enviam dados via CRS.** Nem a Mercury, nem a Relay, nem um banco regional americano enviarão dados diretamente à AEAT, ao SAT, à DIAN, à AFIP ou à AT portuguesa via CRS. O que os EUA fazem é FATCA, que é **unilateral de saída**: pede dados a entidades estrangeiras sobre contas de US persons, mas não envia automaticamente dados equivalentes em sentido inverso (fá-lo nalguns casos via IGAs Modelo 1, mas com alcance muito inferior ao do CRS).
+2. **As suas contas em fintech europeias em nome da LLC SÃO reportadas.** Wise (Bélgica), Revolut (Lituânia, e Reino Unido com regime próprio pós-Brexit), N26 (Alemanha) e Wallester (Estónia) são entidades financeiras sujeitas a CRS nas respetivas jurisdições. Se a titular é a sua LLC e o **beneficiário efetivo** é residente fiscal em Portugal, Espanha ou na América Latina, esses dados chegam à sua administração fiscal. Desenvolvemo-lo a fundo nos artigos dedicados a <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade">Revolut e CRS</a> e <a href="/pt/blog/wise-business-e-crs-o-que-e-reportado-a-sua-autoridade">Wise e CRS</a>.
+3. **A sua LLC é provavelmente uma NFE passiva (Passive NFE)**, salvo se demonstrar atividade operativa real (mais de 50% dos seus rendimentos são operativos e não rendas passivas como dividendos, juros, rendas ou royalties não associados a uma exploração). No caso típico de um trabalhador independente com uma Single-Member LLC que fatura serviços, há debate doutrinal: uma leitura literal do CRS classificá-la-ia como Active NFE (negócio operativo), mas a fintech europeia típica classifica-a como Passive NFE por prudência, o que **obriga ao reporte dos controlling persons**. Esta nuance escapa a quase toda a gente.
 
-A informação sobre fintechs e CRS evolui; este é o estado atual:
+### Como se determina a residência fiscal para efeitos de CRS
 
-### Notas por provedor
+A instituição financeira aplica uma **due diligence** (RD 1021/2015 e Anexo I do CRS) baseada na autodeclaração do titular mais indícios objetivos: morada postal, número de telefone, IP recorrente, NIF declarado, instrução de transferência repetida para contas noutro país, procurações outorgadas a residentes noutro país.
 
-- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, e ainda **Column N.A.** em algumas contas legadas. Mercury não é um banco; é uma plataforma fintech suportada por esses partner banks. Se a Mercury encerrar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária (Relay, Wise Business, etc.) como contingência.
-- **Wise** tem dois produtos claramente distintos: **Wise Personal** e **Wise Business**. Para uma LLC abre-se **Wise Business**, não a conta pessoal. A entidade europeia é **Wise Europe SA (Bélgica)**, que emite IBAN BE para EUR; os IBAN lituanos só persistem em contas europeias herdadas. **Wise Business titularidade de uma LLC dos EUA fica FORA do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição participante do CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Apenas uma **Wise Personal aberta por um indivíduo residente fiscal numa jurisdição CRS** (p. ex. Espanha) é reportada via Wise Europe SA (Bélgica) sobre esse indivíduo.
-- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro da Norma Comum de Comunicação (CRS)** e geram, por isso, troca automática de informação para a administração fiscal do país de residência.
-- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) também **no âmbito do CRS** para clientes residentes em jurisdições participantes.
-- **Revolut Business**: quando associado a uma **LLC norte-americana**, o esquema típico passa pela Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC, são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, confirme a que entidade jurídica está associada e sob que regime essa entidade reporta.
-- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vives num país com regras CFC/transparência fiscal ou atribuição de rendimentos. O que se consegue é **não duplicar tributação** e **declarar corretamente na residência**, não eliminá-la.
-## Como planificar corretamente
+Se a sua autodeclaração diz "residência fiscal em Andorra" mas o seu IP, morada de envio do cartão e transferências recorrentes apontam para Lisboa ou Madrid, a instituição pode pedir **documentação adicional** (certificado de residência fiscal emitido pela autoridade competente, contrato de arrendamento, etc.) ou, em caso de dúvida, reportar a ambas as jurisdições. Mentir na autodeclaração CRS é uma infração tributária na maioria das jurisdições e pode ter consequências penais se concorrer com quotas defraudadas relevantes.
 
-Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
+## Implicações reais em Portugal (Anexo J do IRS e Modelo 58 do Banco de Portugal)
+
+Se for residente fiscal em Portugal nos termos do art. 16.º do CIRS (mais de 183 dias no território nacional, ou habitação que faça presumir intenção de residência habitual) e tiver:
+
+- **Contas de depósito ou de títulos abertas em instituição financeira não residente** (incluindo as IBAN europeias da Wise, Revolut, N26, Wallester ou as contas USD da sua LLC na Mercury, Relay, Choice Financial Group): obrigação de **identificar a existência da conta** no Anexo J da declaração Modelo 3 do IRS, com indicação do IBAN/identificador, do código de país e do saldo a 31 de dezembro. Não há limiar mínimo: é obrigatório a partir do primeiro euro.
+- **Rendimentos da sua LLC americana** (juros das contas Mercury/Wise, dividendos, mais-valias, rendimentos da actividade): Categoria E (capitais), F (prediais se houver imóvel), G (mais-valias) ou B (independentes, se a LLC realizar a sua actividade profissional como trabalhador independente português) consoante a qualificação. A LLC unipessoal é tratada pela AT como entidade fiscalmente transparente; os rendimentos são imputados directamente ao sócio residente, com **crédito de imposto** pelo IRS retido nos EUA, nos termos da Convenção para Evitar a Dupla Tributação entre Portugal e os EUA (CDT 1994) e do art. 81.º do CIRS.
+- **Comunicações ao Banco de Portugal — Modelo 58**: se realizar operações com o exterior superiores a determinados limiares (atualmente 100 000 € por transação ou posição agregada superior a 1 000 000 €), tem obrigação de comunicar mensalmente ao **Banco de Portugal** as operações e posições com o exterior através do Sistema COPE (Comunicação de Operações e Posições com o Exterior). Verifique os limiares vigentes no Aviso do BdP correspondente.
+- **Contribuição extraordinária e regime do RNH**: Após a reforma do regime fiscal do **Residente Não Habitual (RNH)** em 2024 (com fim do regime para novos inscritos a partir de 2024 e transição para o IFICI), os rendimentos da LLC americana passam a tributar nos termos gerais do CIRS para a maioria dos contribuintes, sem a taxa fixa de 20% que se aplicava sob o RNH clássico. Para inscritos antes de 31/03/2025 com direitos adquiridos, validar o tratamento caso a caso.
+
+A AT cruza os ficheiros CRS recebidos via DGCI com a declaração Modelo 3 do IRS e com as comunicações do Banco de Portugal. As omissões deixaram de passar despercebidas. A **denúncia espontânea** prevista no art. 22.º do **RGIT** (Regime Geral das Infrações Tributárias) antes de qualquer ato inspetivo da AT permite reduzir a coima e excluir a responsabilidade penal por fraude fiscal (art. 103.º do RGIT) se o imposto em falta for pago.
+
+### Implicações reais no Brasil
+
+- **Declaração de Capitais Brasileiros no Exterior (DCBE)**: o residente fiscal brasileiro com posição de **valor igual ou superior a USD 1 000 000** em ativos no exterior a 31 de dezembro está obrigado a declarar anualmente ao **Banco Central do Brasil (BACEN)** via sistema CBE. Posições superiores a USD 100 milhões obrigam a declaração trimestral. Multas por omissão podem chegar aos 250 000 BRL (Resolução BCB 278/2022).
+- **Declaração do Imposto sobre a Renda da Pessoa Física (DIRPF)**: a ficha **Bens e Direitos** exige listar a participação na LLC, o saldo das contas no exterior e os ativos detidos pela LLC, em BRL convertidos pela taxa do Banco Central a 31 de dezembro. Os rendimentos são tributados na **ficha de Rendimentos Recebidos do Exterior** com aplicação do **carnê-leão mensal** sobre o ganho.
+- **e-Financeira e DIRF**: as instituições financeiras brasileiras reportam à RFB via e-Financeira; reciprocamente, a RFB recebe o flow CRS desde 2018 e cruza-o com a DIRPF. As omissões geram lançamento de ofício com multa de 75% (ou 150% nos casos qualificados) sobre o imposto devido.
+
+## Como planear corretamente
+
+A conclusão técnica é o oposto do que muito influencer diz: **uma LLC americana bem estruturada com banca exclusivamente em Mercury ou Relay (EUA) tem uma pegada CRS mínima**, porque os EUA não exportam dados via CRS. Mas a partir do momento em que adiciona uma camada europeia (Wise, Revolut, Wallester, N26), aceita que essa informação chegue à sua autoridade fiscal. Não é bom nem mau: simplesmente é assim, e planear exige conhecê-lo.
+
+A estratégia profissional passa por:
+
+1. **Declarar corretamente.** O cruzamento já existe; tentar esconder é perder tempo e expor-se a sanções.
+2. **Desenhar a estrutura para que o declarado seja fiscalmente eficiente.** Implica decidir país de residência, instrumentos de investimento, calendário de remessas, deduções aplicáveis e Convenção para Evitar a Dupla Tributação aplicável. Veja o nosso <a href="/pt/blog/desenho-de-uma-estrutura-fiscal-internacional-solida-quadro">framework de desenho de estrutura internacional</a>.
+3. **Manter documentação**: contratos, faturas, justificativos de despesa, livros contabilísticos da LLC, autodeclarações CRS coerentes. Sem documentação, uma inspeção inverte de facto o ónus da prova para o contribuinte.
+4. **Conhecer os riscos de não o fazer bem.** Cobrimo-lo em <a href="/pt/blog/riscos-fiscais-de-uma-ma-estruturacao-internacional">riscos fiscais de uma má estruturação internacional</a>.
+5. **Compreender a sua atividade económica.** Não tributa igual uma LLC de serviços que uma de e-commerce ou royalties. Desenvolvemo-lo em <a href="/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos">tributação da LLC segundo a atividade económica</a>.
+
+## Erros típicos que vemos todas as semanas em Portugal e no Brasil
+
+- "Como a Mercury está nos EUA, ninguém fica a saber." Verdade para a Mercury face ao CRS — os EUA não exportam dados por CRS — mas falso para as suas contas Wise (Bélgica), Revolut (Lituânia), Wallester (Estónia) ou N26 (Alemanha) em nome da mesma LLC, que chegam à AT portuguesa ou à RFB brasileira via fluxo CRS automático.
+- "Coloquei residência fiscal no Dubai, em Andorra ou no regime fiscal de uma jurisdição de baixa tributação mas continuo a viver em Lisboa ou em São Paulo." A residência fiscal não se escolhe; determina-se por factos objectivos: em **Portugal**, art. 16.º do CIRS (mais de 183 dias, ou habitação habitual em Portugal); no **Brasil**, art. 12 da Lei 9.250/95 (residência habitual em território brasileiro, ou exercício de actividade profissional em carácter estável). Desenvolvemo-lo no nosso artigo sobre a <a href="/pt/blog/nomade-digital-onde-pagar-impostos-e-como-escolher-a">residência fiscal do nómada digital</a>.
+- "Se a minha LLC fatura, não me acontece nada." A **AT portuguesa** pode aplicar a **cláusula geral anti-abuso (CGAA, art. 38.º LGT)** ou requalificar a LLC como estabelecimento estável de facto se for gerida desde Portugal sem substância nos EUA. No **Brasil**, a RFB aplica a **Lei 12.973/2014 (regime de tributação de lucros no exterior, TBU)** que tributa os lucros da controlada estrangeira independentemente da distribuição. Embora os EUA não sejam jurisdição de tributação favorecida nos termos da IN RFB 1.037/2010, a LLC pass-through pode ativar requalificações pela mecânica de Disregarded Entity. O planeamento tem de evitar esse caso, não ignorá-lo.
+- "Vou pôr a conta em nome de um familiar." É o clássico testa-de-ferro disfarçado, qualificado em Portugal como fraude fiscal (art. 103.º do RGIT) e no Brasil como sonegação fiscal (Lei 8.137/90), com implicações penais e fiscais que analisamos em <a href="/pt/blog/proprietarios-ficticios-para-llcs-por-que-e-ilegal-e-os">testas-de-ferro e proprietários fictícios em LLC</a>.
 
 ## Em resumo
 
-O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
-## Factos bancários e fiscais que convém precisar
-
-Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
+O CRS não se "evita" a partir de uma jurisdição europeia. Planeia-se com conhecimento. Uma LLC americana continua a ser uma ferramenta extraordinariamente útil, mas o desenho do seu stack bancário e da sua residência fiscal são determinantes para que a pegada informativa que gera seja coerente com aquilo que declara.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-## Referências: enquadramento legal e regulamentação
+Quer que vejamos como o CRS o afeta no seu caso concreto e desenhemos o stack adequado? Reserve a sua consulta gratuita e analisamo-lo consigo.
+Se ainda tiver dúvidas sobre as nuances desta estrutura, <a href="/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho">porque deixar de ser trabalhador independente em Espanha (e que alternativas tem)</a> explica em detalhe um aspeto adjacente que costumamos deixar para outro dia.
 
-Tratamos este bloco como uma das decisões estruturais da estratégia LLC: errar aqui e o resto da estrutura perde fiscalidade, acesso bancário ou conformidade. As notas seguintes traduzem o que fazemos efetivamente com clientes neste caso, priorizando as variáveis que mexem o resultado.
+### Leituras relacionadas
 
-## Falemos sobre a sua estrutura
+- [empresa no Panamá: fiscalidade e residência](/pt/blog/empresa-no-panama-fiscalidade-e-residencia-2026)
 
-A nossa posição aqui é deliberadamente conservadora: optimizamos para o que sobrevive a uma inspecção, não para o número mais agressivo. Os pontos abaixo são aqueles que estamos dispostos a defender por escrito.
+### Próximos passos
 
-## Que informação se reporta exatamente
+Se quiser validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
 
-O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.<!-- exentax:execution-v2 -->
-## O que o CRS significa hoje para residentes em Espanha e Latam
+<!-- exentax:banking-facts-v1 -->
+## Factos bancários e fiscais que convém precisar
 
-O CRS funciona em piloto automático: 110+ jurisdições trocam dados todos os Setembros sobre saldos a 31 de Dezembro do ano anterior. Se é residente fiscal em Espanha, México, Colômbia, Chile, Peru, Argentina, Uruguai ou Brasil, os bancos onde tem contas no estrangeiro já estão a reportar ou farão em breve. Isto é o que importa, sem paranoia.
+A informação sobre fintech e CRS evolui; aqui o estado atual, tal como está hoje:
 
-- **O que se reporta.** Saldos a 31 de Dezembro, rendimentos brutos do ano (juros, dividendos), nome do titular, residência fiscal declarada ao banco e, para entidades transparentes, dados da controlling person. A informação chega ao país de residência e cruza-se com a declaração fiscal.
-- **O que não se reporta.** Movimentos detalhados da conta, contrapartes específicas, informação transaccional. CRS = saldos + rendimentos brutos + identificação; não rastreabilidade de cada operação. A percepção "sabem tudo" é exagerada literalmente mas certa em consequência: com saldos e rendimentos brutos constrói-se presunção suficiente para abrir requerimento.
-- **Espanha, Modelo 720 e Modelo 721.** O residente fiscal espanhol tem obrigação própria de declarar contas no estrangeiro (>50.000 € combinado, Modelo 720) e cripto-activos no estrangeiro (>50.000 €, Modelo 721). Independente do CRS, dependente da sua obrigação. O CRS só ajuda a AEAT a cruzar e detectar omissões.
-- **Latam - ritmos diferentes.** México (SAT) troca desde 2018 com cobertura extensa; Colômbia (DIAN) desde 2017 com depuração progressiva; Chile (SII) desde 2018; Argentina (AFIP) desde 2018 mas com uso operacional em construção; Uruguai activo mas com regime tax-haven nuançando o fluxo. A intensidade do uso varia, a disponibilidade do dado é generalizada.
+### Notas por fornecedor
+
+- **Mercury** opera com vários bancos parceiros com licença federal e cobertura **FDIC** via sweep network: principalmente **Choice Financial Group** e **Evolve Bank & Trust**, além de **Column N.A.** em alguns casos herdados. A Mercury não é um banco; é uma plataforma fintech apoiada nesses partner banks. Se a Mercury fechar uma conta, o saldo é normalmente devolvido **por cheque em papel enviado para a morada registada do titular**, o que pode ser um problema operacional sério para não residentes; convém manter uma conta secundária ativa (Relay, Wise Business, etc.) como contingência.
+- **Wise** distribui dois produtos claramente diferentes: **Wise Personal** (conta pessoal) e **Wise Business** (conta de empresa, incluindo para a sua LLC). Para uma LLC deve abrir **Wise Business**, não a conta pessoal. Nuance CRS importante: uma **Wise Business titulada por uma LLC americana fica fora do CRS** porque a titular é uma entidade dos EUA e os EUA não são jurisdição CRS; o lado USD opera via Wise US Inc. (perímetro FATCA, não CRS). Em contrapartida, uma **Wise Personal aberta por um residente fiscal em Portugal**, em Espanha ou noutra jurisdição CRS **gera reporte CRS** via Wise Europe SA (Bélgica) sobre essa pessoa. Abrir Wise para a sua LLC não o inclui no CRS pela LLC; se mantiver adicionalmente uma Wise Personal em seu nome como residente CRS, essa segunda conta reporta.
+- **Wallester** (Estónia) é uma entidade financeira europeia com licença EMI/banco emissor de cartões. As suas contas IBAN europeias **estão dentro do Common Reporting Standard (CRS)** e geram, portanto, reporte automático à administração tributária do país de residência do titular.
+- **Payoneer** opera através de entidades europeias (Payoneer Europe Ltd, Irlanda) que também estão **no perímetro CRS** para clientes residentes em jurisdições participantes.
+- **Revolut Business**: quando associada a uma **LLC americana**, o habitual é operar via Revolut Payments USA; os IBAN europeus (lituanos, BE) **não são emitidos por defeito** a uma LLC: são emitidos a clientes europeus do banco europeu do grupo. Se lhe oferecerem um IBAN europeu, certifique-se a que entidade jurídica essa conta está associada e sob que regime reporta.
+- **Tributação zero**: nenhuma estrutura LLC consegue "zero impostos" se vive num país com CFC, transparência fiscal ou imputação de rendimentos. O que consegue é **não duplicar tributação** e **declarar corretamente em residência**, não eliminá-la.
+
+<!-- exentax:legal-refs-v1 -->
+## Referências: quadro legal e regulamentação
+
+A argumentação deste artigo assenta na seguinte regulamentação e doutrina, atualmente em vigor:
+
+- **Espanha.** Lei 35/2006 do IRPF (arts. 8, 9 e 91 sobre residência fiscal e transparência fiscal internacional), Lei 27/2014 do Imposto sobre Sociedades (art. 100 sobre TFI), Lei 58/2003 Geral Tributária, Lei 5/2022 que reformou o Modelo 720 após o acórdão TJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 e 720) e Orden HFP/887/2023 (Modelo 721 sobre criptoativos no estrangeiro).
+- **Doutrina administrativa.** Resoluções do TEAC e consultas vinculativas da DGT relativas a LLC unipessoais (entre outras V0443-08, V1631-17, V1147-22), interpretadas à luz do BOE de fevereiro de 2020 sobre classificação de entidades estrangeiras transparentes.
+- **Convenções e regulamentação internacional.** Convenção para Evitar a Dupla Tributação entre Espanha e EUA, assinada em 1990 com Protocolo de 2013 em vigor desde 2019, Diretiva 2011/16/UE alterada pela DAC6, DAC7 e DAC8, e Modelo de Convenção da OCDE com os seus Comentários.
+- **EUA.** Treas. Reg. §301.7701-3 (classificação check-the-box), IRC §6038A e Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) e regulamentação FBAR (31 CFR 1010.350).
+
+Este conteúdo é divulgativo e não substitui aconselhamento personalizado para a sua situação fiscal concreta.
+
+<!-- exentax:execution-v2 -->
+## O que o CRS significa hoje para residentes em Portugal e no Brasil
+
+O CRS funciona em piloto automático: mais de 110 jurisdições trocam dados todos os setembros sobre saldos a 31 de dezembro do ano anterior. Se for residente fiscal em Portugal ou no Brasil, os bancos onde tem contas no estrangeiro já estão a reportar à AT portuguesa via DGCI ou à Receita Federal do Brasil via e-Financeira/CRS. Isto é o que importa entender, sem paranoia.
+
+- **O que se reporta.** Saldos de conta a 31 de dezembro, rendimentos brutos do ano (juros, dividendos), nome do titular, residência fiscal declarada ao banco e, para entidades transparentes, dados do controlling person. A informação chega ao país de residência e é cruzada com a declaração fiscal do contribuinte.
+- **O que não se reporta.** Movimentos detalhados da conta, contrapartes específicas, informação transacional. CRS é saldos + rendimentos brutos + identificação; não é rastreabilidade de cada operação. A perceção de "sabem tudo" é exagerada à letra mas certa em consequência: com saldos e rendimentos brutos constrói-se a presunção suficiente para abrir um pedido de informação.
+- **Espanha, Modelo 720 e Modelo 721.** O residente fiscal espanhol tem obrigação própria de declarar contas no estrangeiro (>50 000 € combinado, Modelo 720) e criptoativos no estrangeiro (>50 000 €, Modelo 721). Não depende do CRS, depende da sua obrigação. O CRS apenas ajuda a AEAT a cruzar e a detetar omissões.
+- **LATAM — ritmos diferentes.** O México (SAT) troca desde 2018 com cobertura extensa; a Colômbia (DIAN) desde 2017 com depuração progressiva; o Chile (SII) desde 2018; a Argentina (AFIP) desde 2018, com uso operacional ainda em construção; o Uruguai ativo, mas com regime de tax haven que matiza o fluxo nos dois sentidos. A intensidade do uso do dado varia, mas a disponibilidade é hoje generalizada.
 
 ### O que mais nos perguntam
 
-**Se tenho Mercury na minha LLC, o meu país sabe via CRS?** Não directamente: os EUA não participam no CRS. O que entra são contas Wise (via Bélgica) e, se a LLC operasse via banco europeu ou asiático, esses sim. A Mercury fica fora do fluxo automático, não fora de toda obrigação declarativa.
+**Se tenho a Mercury na minha LLC, o meu país sabe via CRS?** Não diretamente: os EUA não participam no CRS. O que entra no fluxo são as contas Wise (via Bélgica) e, se a LLC operasse a partir de um banco europeu ou asiático, esses também. A Mercury fica fora do fluxo automático, não fora de toda a obrigação declarativa.
 
-**Como regularizo se tenho anos sem declarar?** Com declaração complementar 720/721 antes que chegue requerimento. O Acórdão TJUE C-788/19 limitou as multas espanholas; regulariza-se com custo muito menor que há 5 anos. Avaliamos caso a caso.
+**Como regularizo se passei anos sem declarar?** Com declaração complementar do 720 ou 721 antes que chegue um pedido de informação. O acórdão TJUE C-788/19 limitou as multas espanholas; pode regularizar a um custo muito menor do que há cinco anos. Avaliamos caso a caso.
 
-Na Exentax mapeamos que contas suas entram no CRS, que obrigações declarativas dispara cada uma e desenhamos a entrada limpa ou a regularização ordenada quando aplicável.
+Na Exentax mapeamos quais das suas contas entram no CRS, que obrigações declarativas cada uma ativa e desenhamos a entrada limpa ou a regularização ordenada, quando aplicável.
 <!-- /exentax:execution-v2 -->
 
-## O que é o CRS e porque existe
+## Vamos falar da sua estrutura
 
-O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
+Cada caso tem nuances: o seu país de residência, o tipo de atividade, onde estão os seus clientes, se faz investimento ou trading, se vende a particulares ou a empresas. Na Exentax revemos a sua situação, desenhamos a estrutura LLC que lhe encaixa e acompanhamo-lo todos os anos na manutenção. Reserve uma consulta com a nossa equipa e começamos por entender os seus números reais.
 
-<!-- exentax:cta-v1 -->
+<!-- exentax:cross-refs-v1 -->
+### Mais leituras relacionadas
+
+- [Estruturas offshore: benefícios reais e riscos honestos](/pt/blog/estruturas-offshore-beneficios-e-riscos-reais)
+- [De single-member a multi-member LLC: implicações fiscais reais antes de dar o passo](/pt/blog/de-single-member-a-multi-member-llc-implicacoes-fiscais)
+- [Exit Tax em Espanha: imposto de saída para investidores em cripto, LLC e Interactive Brokers](/pt/blog/exit-tax-espanha-llc-cripto-interactive-brokers)
+<!-- /exentax:cross-refs-v1 -->
+
+Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
+
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Este%20artigo%20foi%20escrito%20a%20pensar%20em%20Espanha%20e%20Am%C3%A9rica%20Latina%2C%20mas%20toca%20numa%20f%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Precisa falar agora? Ligue-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreva-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20venho%20do%20artigo%20%22crs%20para%20residentes%20em%20espanha%20e%20latam%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje mesmo.</p>
 
-Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+Se preferir falar em direto, <a href="/pt/agendar">reserve uma sessão gratuita</a> e revemos o seu caso real em trinta minutos.
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…E)**, salvo que demuestre actividad operativa real (más del 50% de sus ingresos son operat…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…uentas en el extranjero** con saldo individual o conjunto &gt; 50.000 € a 31 de diciembre o s…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">20.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…zo del año siguiente; sucesivas, solo si hay variación de + 20.000 € en cualquier rúbrica.…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…nvenio OCDE con sus Comentarios. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación chec…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §77…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…U.** Treas. Reg. §301.7701-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y normativa F…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…cación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…os CRS La entidad financiera aplica una **due diligence** (RD 1021/2015 y Anexo I del CRS)…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…reformó el Modelo 720 tras la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…6/UE de cooperación administrativa (DAC), modificada por la DAC2 (Directiva 2014/107/UE) q…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…13 en vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Conve…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…esde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Convenio OCD…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

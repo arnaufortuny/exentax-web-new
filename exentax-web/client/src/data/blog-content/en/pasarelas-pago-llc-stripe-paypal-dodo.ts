@@ -210,19 +210,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">99%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">49%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">8%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -184,7 +184,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 
 ### Kernpunkte
 
-- **BOI / Corporate Transparency Act.** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC fällt heute außerhalb dieser Pflicht**. Der Regelstatus kann erneut wechseln: **Bei Einreichung auf FinCEN.gov prüfen**. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren und Updates beobachten.
+- **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
@@ -206,7 +206,6 @@ Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansä
 - [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
 <!-- /exentax:cross-refs-v1 -->
 
-<!-- exentax:overhaul-aktuell-v1 -->
 ## Exentax-Update aktuell: Fehler-Radar
 
 Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen, folgen erkennbaren Mustern mit begrenzten Folgen bei früher Entdeckung:
@@ -231,7 +230,6 @@ Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen,
 **Am meisten unterschätzter Fehler?** Mittelherkunft bei Einlage nicht dokumentieren. In KYC-2. Runde dauert Sperre wochenlang.
 
 **Erkennt die IRS automatisch?** Zunehmend. Cross-Check 1099/1042-S/Form 5472/CRS ist aktuell stärker automatisiert als 2020.
-<!-- exentax:overhaul-aktuell-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Wie wir eine bereits gegründete LLC bei Exentax reparieren
@@ -255,7 +253,6 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -282,5 +279,4 @@ Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fa
 <li><span class="font-mono">DAC6</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

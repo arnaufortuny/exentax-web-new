@@ -172,6 +172,10 @@ Bei Exentax strukturieren wir Wise nach Bedarf und deklarieren korrekt.
 
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
 
+  ### Was der belgische Wise-IBAN für deutsche Steuerpflichtige konkret bedeutet
+
+  Wise Business stellt allen Geschäftskunden in der Eurozone seit 2024 einen **belgischen IBAN (BE)** aus, weil die Wise Europe SA in Brüssel als belgische E-Geld-Institution unter NBB-Aufsicht (Nationale Bank von Belgien) firmiert. Für deutsche LLC-Inhaber heißt das: das Wise-Konto unterliegt dem **belgischen CRS-Reporting** nach DAC2 (Dir. 2014/107/EU), das automatisch jährlich an das **deutsche Bundeszentralamt für Steuern (BZSt)** und damit an das zuständige Wohnsitzfinanzamt weitergeleitet wird. Zusätzlich besteht die nationale Meldepflicht nach **§138 Abs. 2 AO** ans Finanzamt innerhalb von 5 Monaten nach Jahresende, wenn der Saldo durchschnittlich €100.000 übersteigt.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Sobald%20das%20Gespr%C3%A4ch%20auf%20Wise%2C%20ausl%C3%A4ndische%20IBANs%20und%20US-LLCs%20kommt%2C%20tauchen%20z%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -182,7 +186,6 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -205,5 +208,4 @@ Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fa
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

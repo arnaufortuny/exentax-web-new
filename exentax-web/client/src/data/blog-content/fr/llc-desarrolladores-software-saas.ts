@@ -153,24 +153,4 @@ Si votre projet est de créer la LLC au Delaware, consultez notre page de servic
 Nous comparons le Nouveau-Mexique, le Wyoming, le Delaware et la Floride sur votre cas réel — sans vous vendre l'État à la mode. <a href="/fr/services/llc-delaware">Comparer mon cas avec un conseiller</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…con una LLC americana. El motivo es simple: tu producto es 100% digital, tus clientes está…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">9%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ation automático para ciertos países - Comisiones claras: 2.9% + $0.30 por transacción US …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…tiene sentido? Para desarrolladores freelance, a partir de 3.000€/mes de facturación la es…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…nts con desarrolladores W-9/W-8BEN. Coste de mantenimiento: 1.500-2.500 USD anuales. - **S…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">2.500</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…n desarrolladores W-9/W-8BEN. Coste de mantenimiento: 1.500-2.500 USD anuales. - **Si plan…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…(Merchant of Record), DoDo Payments y PayPal Business. - **DAC7.** Directiva (UE) 2021/514…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
-
 `;

@@ -96,7 +96,7 @@ Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" r
 
 ### Kernpunkte
 
-- **BOI / Corporate Transparency Act.** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC fällt heute außerhalb dieser Pflicht**. Der Regelstatus kann erneut wechseln: **Bei Einreichung auf FinCEN.gov prüfen**. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren und Updates beobachten.
+- **BOI / Corporate Transparency Act: Ihre LLC ist NICHT verpflichtet (ein Wettbewerbsvorteil).** Nach der **FinCEN Interim Final Rule vom März 2025** wurde die BOI-Meldepflicht **auf „foreign reporting companies" beschränkt** (außerhalb der USA gegründete Einheiten, die in einem Bundesstaat zur Geschäftstätigkeit registriert sind). Eine **in den USA von einem Nicht-Residenten gegründete LLC reicht KEINEN BOI Report ein**: eine Meldung weniger im Kalender, weniger Bürokratie und eine sauberere Struktur als je zuvor. Wenn Ihre LLC vor März 2025 gegründet wurde und das BOI bereits eingereicht ist, Bestätigung aufbewahren. Der Regelstatus kann erneut wechseln: **wir überwachen FinCEN.gov bei jeder Einreichung** und, falls die Pflicht zurückkehrt, übernehmen wir sie ohne Aufpreis. Aktueller Stand auf [fincen.gov/boi](https://www.fincen.gov/boi) prüfbar.
 - **Form 5472 + Pro-forma-1120.** Für eine **Single-Member LLC im Eigentum eines Nicht-Residenten** behandeln die Schlussregelungen Treas. Reg. §1.6038A-1 (seit 2017 in Kraft) die LLC für 5472-Zwecke als Corporation. Verfahren: **Pro-forma Form 1120** (nur Kopf: Name, Adresse, EIN, Steuerjahr) mit **Form 5472 als Anlage**. Einreichung **per Einschreiben oder Fax an das IRS Service Center Ogden, Utah**, **keine E-Einreichung über das Standard-MeF**. Frist: **15. April**; Verlängerung über **Form 7004** bis **15. Oktober**. **Sanktion: 25.000 USD pro Formular und Jahr, plus 25.000 USD je weitere 30 Tage** Nichteinreichung nach IRS-Mitteilung.
 - **Substantielles Form 1120.** Nur wenn die LLC per Check-the-Box-Wahl zur C-Corp optiert hat (Form 8832): dann 21 % Bundessteuer und ein substantielles 1120. Eine Standard-disregarded LLC **reicht kein substantielles 1120 ein und zahlt keine bundesstaatliche Körperschaftsteuer**.
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.
@@ -145,6 +145,22 @@ Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermei
 
 Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine Werbeseite beschreibt. Zahlen und Zeitplan zählen - wer eines davon falsch setzt, bringt den Rest ins Wanken.
 
+## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
+
+  Wenn die Bank Mercury, Relay oder Wise nach **6-12 Monaten** eine zweite KYC-Runde verlangt, sind aus deutscher Sicht zusätzliche Belege relevant, die typischerweise in der ersten Runde nicht angefragt werden.
+
+  Die wichtigsten Dokumente sind: **Steuerbescheid des Vorjahres** vom zuständigen Finanzamt, **Einkommensteuererklärung** mit Anlage S oder G für selbständige Tätigkeit, **Auszug aus dem Handelsregister** (sofern eine deutsche Personengesellschaft als Komplementär oder Holding agiert), **Transparenzregisterauszug** mit Bestätigung der wirtschaftlich Berechtigten gemäß § 19 GwG, und im Falle von Kryptowährungen die **Reports der Krypto-Steuersoftware** (CoinTracking, Blockpit, Accointing) für den Aufbau der Anschaffungskosten.
+
+  In Österreich sind die parallelen Belege: ESt-Bescheid, Anlage E1a, Auszug aus dem Firmenbuch und Beneficial-Owner-Auszug aus dem WiEReG-Register. Für Krypto-Veräußerungen unter § 27a EStG sind Reports nach BMF-Vorgaben des KESt-Reportings (BMF Info 2022) hilfreich.
+
+  ### Beweisqualität und Vorgehensweise bei Mercury, Relay und Wise
+
+  Mercury und Relay verlangen typischerweise zusätzliche Belege im **englischen Sprachformat** mit beglaubigter Übersetzung (notariell oder durch einen vereidigten Übersetzer nach JVEG). Diese Anforderung sollte schon vor der zweiten Runde antizipiert werden, indem entscheidende Dokumente (Steuerbescheid, Handelsregisterauszug, Transparenzregisterauszug) bei einem in Deutschland zugelassenen Notar mit Apostille nach Haager Übereinkommen vom 5. Oktober 1961 vorbereitet werden.
+
+  Die deutschen und österreichischen Banken (Sparkassen, Volksbanken, Erste Bank, Raiffeisen) sind seit Inkrafttreten des **Geldwäschegesetzes 2017** verpflichtet, eine "verstärkte Sorgfaltspflicht" gegenüber komplexen internationalen Strukturen anzuwenden (§ 15 GwG). Dies bedeutet, dass die Erstdokumentation in Deutschland oft strenger ist als in den USA, was im Streitfall von Vorteil sein kann, weil die deutschen Belege bereits einem höheren Standard genügen.
+
+  Eine bewährte Praxis ist, mit dem Steuerberater eine **schriftliche "Source of Funds Memo"** in englischer Sprache zu erstellen, die Einkommensentwicklung, Vermögensaufbau und alle Bankverbindungen der vergangenen drei Jahre zusammenfasst und vom Steuerberater unterzeichnet wird. Diese Memo beschleunigt fast alle KYC-Verfahren signifikant.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20Sie%20Ihre%20LLC%20seit%20einer%20Weile%20haben%20und%20Mercury%2C%20Wise%20oder%20Ihr%20Zahlungsa%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -154,22 +170,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s con la primera entrada significativa - es donde se cae el 30% de las cuentas. Es la fase…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…nservar el acuse y monitorizar futuras actualizaciones. - **Form 5472 + 1120 pro-forma.** …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -1,38 +1,91 @@
 export default `
 
-Cuando alguien dice empresa americana muchos imaginan LLC, otros corporación. La realidad es que en EE.UU. existen cuatro vehículos principales para hacer negocios: LLC, Corporation general, S-Corporation y C-Corporation. Cada uno tiene su propio régimen fiscal, sus restricciones de propiedad y sus casos de uso. Para un no residente, no todas son accesibles ni convenientes. Esta guía aterriza la diferencia real entre las cuatro figuras, qué encaja con cada perfil y por qué la LLC sigue siendo, hoy, la elección por defecto para emprendedores extranjeros que no buscan inversores institucionales.
+Cuando alguien dice "empresa americana", la mayoría imagina una LLC; otros, una "corporation". La realidad es que en EE. UU. existen cuatro vehículos principales para hacer negocios: **LLC**, **Corporation**, **S-Corporation** y **C-Corporation**. Cada uno tiene su propio régimen fiscal federal y estatal, sus restricciones de propiedad y sus casos de uso. Para un emprendedor extranjero no residente, no todas son accesibles ni convenientes. Esta guía aterriza la diferencia real entre las cuatro figuras, qué encaja con cada perfil y por qué la LLC sigue siendo, hoy, la elección por defecto para freelancers, agencias y proyectos digitales que no buscan inversores institucionales.
 
 ## LLC: la opción flexible y por defecto para no residentes
 
-La LLC (Limited Liability Company) es una figura híbrida: legalmente es una entidad con responsabilidad limitada y fiscalmente, por defecto, es transparente (disregarded entity en single-member, partnership en multi-member). Esto significa que la LLC no paga impuesto federal sobre la renta: los beneficios pasan al propietario, que tributa donde resida. Para un no residente sin actividad económica conectada con EE.UU. (ETBUS) la LLC paga 0% federal y 0% estatal en estados sin income tax como Wyoming o Nuevo México. Es la elección por defecto del 90% de los emprendedores extranjeros que constituyen empresa en EE.UU.
-## Corporation general (C-Corporation por defecto)
+La **LLC (Limited Liability Company)** es una figura híbrida creada por las leyes estatales de EE. UU. (cada estado tiene su propio LLC Act; Wyoming fue el primero, en 1977). Legalmente es una entidad con responsabilidad limitada que protege el patrimonio personal de sus miembros frente a las deudas y responsabilidades del negocio. Fiscalmente, **por defecto es transparente**: la **Treas. Reg. §301.7701-3 ("check-the-box")** trata a la single-member LLC como **"disregarded entity"** y a la multi-member LLC como **partnership** salvo que se elija otra cosa con el **Form 8832** (election to be classified as an association taxable as a corporation).
 
-Una corporación constituida en EE.UU. es por defecto una C-Corporation: paga impuesto federal sobre sus beneficios al 21%, además del impuesto estatal correspondiente. Cuando reparte dividendos, los socios tributan otra vez en su renta personal. Es la doble imposición clásica. La C-Corp es obligatoria para quien quiera levantar capital de venture capital o salir a bolsa: los inversores institucionales casi siempre exigen esta forma jurídica. Permite emitir varias clases de acciones, planes de stock options y accionariado complejo. No tiene límite de número de socios ni restricciones de nacionalidad.
+Para un no residente sin **ETBUS** (Effectively Connected Trade or Business in the United States) y sin **US-source FDAP income**, la LLC disregarded **no genera obligación de Form 1040-NR sustantivo** ni paga impuesto federal sobre la renta: la regla básica de **IRC §871 y §882** somete a no residentes solo por (a) US-source FDAP con retención del 30 % (o tasa de tratado) y (b) renta efectivamente conectada a un trade or business en EE. UU. Sin esos dos elementos, la LLC paga **0 % federal**. A nivel estatal, **Wyoming, Nuevo México, Florida, Texas y Dakota del Sur** no tienen impuesto sobre la renta corporativa estatal, lo que añade un **0 % estatal** cuando no hay nexus.
+
+La obligación práctica que sí queda: **Form 5472 + Form 1120 pro-forma** anual (Treas. Reg. §1.6038A-1 desde 2017) para SMLLC propiedad de un no residente con cualquier *reportable transaction* con su único miembro. Sanción base: **25.000 USD por formulario y año** (IRC §6038A(d)) más **25.000 USD por cada 30 días adicionales** tras notificación del IRS.
+
+## Corporation general: por defecto C-Corporation
+
+Cuando alguien constituye una "Inc." o "Corp." al amparo de la *General Corporation Law* de un estado (por ejemplo, **Delaware General Corporation Law** o **Nevada Revised Statutes Chapter 78**), por defecto se trata fiscalmente como **C-Corporation**: paga impuesto federal sobre sus beneficios al **21 % (IRC §11(b), tipo único introducido por la Tax Cuts and Jobs Act de 2017)**, además del impuesto estatal correspondiente (Delaware grava 8,7 % a la renta efectiva en el estado, California 8,84 %, Texas 0 % de income tax pero franchise tax). Cuando reparte dividendos, los socios tributan **otra vez** en su renta personal: dividendos **calificados** al 0 %/15 %/20 % federal para residentes US (IRC §1(h)(11)); para socios extranjeros, retención FDAP del **30 %** salvo CDI aplicable (la mayoría de tratados España–EE. UU. y similares la reducen a **15 % o 5 %** según porcentaje de participación). Es la doble imposición clásica.
+
+La C-Corp es **obligatoria de facto** para quien quiera levantar capital de venture capital o salir a bolsa: los inversores institucionales (fondos VC, family offices, plataformas como AngelList) casi siempre exigen una **Delaware C-Corp** porque conocen su jurisprudencia (Court of Chancery), puede emitir varias clases de acciones (preferentes con liquidation preference, Series A/B/C), permite stock options para empleados (planes 409A) y permite ofertas públicas. No tiene límite de número de accionistas ni restricciones de nacionalidad.
 
 ## S-Corporation: la opción que un no residente no puede usar
 
-La S-Corporation es una corporación que ha optado por tributar como entidad transparente (parecida a la LLC): no paga impuesto federal corporativo, los beneficios pasan a los socios. Suena bien hasta que ves los requisitos: máximo 100 accionistas, todos deben ser personas físicas residentes o ciudadanos estadounidenses (no se admiten extranjeros, sociedades ni LLC), una sola clase de acciones. Por estos requisitos, una S-Corp es inviable para un emprendedor no residente. La mencionamos para que entiendas que cuando lees S-Corp en foros norteamericanos, casi nunca aplica a tu caso.
+La **S-Corporation** no es una forma jurídica nueva: es una **elección fiscal** definida en el **subcapítulo S del Internal Revenue Code (IRC §§1361-1378)** que una corporación o LLC puede solicitar mediante **Form 2553**. Una vez aceptada la S-election, la entidad **no paga impuesto federal corporativo**; los beneficios pasan a los socios y se reportan en sus declaraciones personales (Schedule K-1). A diferencia de la LLC, los socios pueden cobrar un **salario razonable** (W-2) y recibir el resto como **distribuciones no sujetas a self-employment tax** (15,3 %), lo que reduce la carga FICA para residentes US. Esta es la razón principal por la que los americanos eligen S-Corp.
+
+El problema para no residentes: **IRC §1361(b)** establece requisitos estrictos. Máximo **100 accionistas**, todos deben ser **personas físicas residentes o ciudadanos estadounidenses** (no se admiten extranjeros, ni *non-resident aliens*, ni sociedades, ni LLCs como accionistas), una sola clase de acciones (con la única excepción de diferencias en derechos de voto). Por estos requisitos, una S-Corp es **completamente inviable para un emprendedor no residente**. La mencionamos para que entiendas que cuando lees "S-Corp" en foros norteamericanos o en libros de tax planning de Robert Kiyosaki o Mark Kohler, casi nunca aplica a tu caso.
 
 ## Cuándo una C-Corp tiene sentido para un no residente
 
-Una C-Corp encaja cuando vas a buscar inversión venture capital, cuando planeas salir a bolsa, cuando vas a tener empleados con stock options en EE.UU., o cuando tu negocio tiene ETBUS y por tanto pagaría impuesto federal igualmente. También para startups SaaS B2B que apuntan al mercado americano y necesitan estructura corporativa estándar para clientes y partners. La doble imposición se atenúa con planificación: salarios al fundador, retención de beneficios para reinvertir en lugar de repartir dividendos, y aprovechamiento del Qualified Small Business Stock (QSBS) que puede dar exención fiscal en venta tras cinco años.
+Una C-Corp puede compensar para un no residente en escenarios concretos:
+
+- **Vas a buscar inversión venture capital**: los fondos exigen Delaware C-Corp con cap table limpio.
+- **Planeas salir a bolsa** o ser adquirido por una empresa cotizada (M&A típicamente exige C-Corp).
+- **Vas a tener empleados con stock options** en EE. UU. (planes ISO/NSO requieren corporación).
+- **Tu negocio tiene ETBUS** (oficina, empleados, servidores propios, almacén) y por tanto pagaría impuesto federal igualmente bajo IRC §882: el diferencial fiscal frente a una LLC desaparece y la C-Corp aporta gobernanza más sólida.
+- **Quieres aprovechar el QSBS (Qualified Small Business Stock)** definido en **IRC §1202**: si mantienes acciones de una C-Corp cualificada (activos ≤50 M USD al emitir las acciones, actividad operativa, no servicios profesionales) durante **5 años**, puedes excluir hasta el **mayor de 10 M USD o 10x base** en ganancia capital al venderlas. Es uno de los incentivos fiscales más potentes del sistema US para fundadores de startups.
+
+La doble imposición se atenúa con planificación: salarios al fundador (deducibles para la corp, gravados como ordinary income al individuo), retención de beneficios para reinvertir en lugar de repartir dividendos, planes de compensación diferida y buen aprovechamiento del QSBS si encajas.
 
 ## Tabla comparativa de tributación efectiva
 
-Para un beneficio de 100.000 USD generado por un no residente sin ETBUS: una LLC paga 0 USD federales y el dueño tributa donde resida. Una C-Corp paga 21.000 USD federales (21%) más el estatal aplicable; si reparte el resto como dividendo, los 79.000 USD restantes pueden sufrir retención del 30% por FDAP, dejando unos 55.000 USD netos al socio. La diferencia es enorme: para perfiles operativos sin pretensión de inversión institucional, la LLC es claramente más eficiente. La C-Corp solo gana cuando el plan estratégico requiere venture capital o salida a bolsa.
+Para un beneficio de **100.000 USD** generado por un no residente sin ETBUS, sin US-source income, residente fiscal en España:
+
+| Vehículo | Federal US | Estatal US | Retención dividendos | Total US | Tributación España |
+|---|---|---|---|---|---|
+| **LLC disregarded** (WY/NM) | 0 USD | 0 USD | N/A | **0 USD** | IRPF por atribución de rentas (art. 87 LIRPF) sobre beneficio neto |
+| **C-Corp Delaware** sin reparto | 21.000 USD | 0 USD si no opera en DE | 0 USD | **21.000 USD** | Sin tributación inmediata si no reparte (salvo TFI art. 91 LIRPF) |
+| **C-Corp Delaware** con reparto | 21.000 USD | 0 USD | 11.850 USD (15 % CDI ESP-USA) | **32.850 USD** | IRPF sobre dividendo bruto + crédito por impuesto soportado |
+| **S-Corp** | No aplicable a no residentes (IRC §1361(b)) |
+
+La diferencia es enorme: para perfiles operativos sin pretensión de inversión institucional, **la LLC es claramente más eficiente**. La C-Corp solo gana cuando el plan estratégico requiere venture capital, salida a bolsa o aprovechamiento de QSBS.
 
 ## Qué elegir según tu perfil
 
-Freelancer, agencia, consultor, infoproducto, ecommerce pequeño o SaaS bootstrapped: <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC</a>, sin duda. Startup con ronda seed o serie A planificada: C-Corp de Delaware, asumiendo la doble tributación como coste de acceso a capital. Negocio físico en EE.UU. con empleados y operativa local: probablemente C-Corp si esperas crecer mucho, LLC si vas a operar como pequeño negocio. Si ya tienes una LLC y necesitas convertirla en C-Corp, es posible vía conversión estatal y elección de check-the-box (Form 8832), pero requiere planificación cuidadosa porque dispara hechos imponibles.
+- **Freelancer, agencia digital, consultor, infoproducto, ecommerce pequeño, SaaS bootstrapped, trader por cuenta propia**: **LLC**, sin duda. Wyoming o Nuevo México por coste; Delaware si prevés crecer mucho y posible conversión futura.
+- **Startup con ronda seed o serie A planificada**: **Delaware C-Corp** desde el día uno, asumiendo la doble tributación como coste de acceso a capital. Constituir la C-Corp directamente evita la conversión LLC→C-Corp, que es un evento imponible que dispara *built-in gains*.
+- **Negocio físico en EE. UU. con empleados y operativa local**: probablemente C-Corp si esperas crecer mucho; LLC si vas a operar como pequeño negocio sin necesidad de levantar capital institucional.
+- **Profesional regulado (abogado, médico, arquitecto)**: muchos estados exigen **Professional LLC (PLLC)** o **Professional Corporation (PC)** con licencia estatal. La S-election puede compensar para residentes US, no para extranjeros.
 
-El marco regulatorio fundamental son el <a href="https://www.irs.gov/businesses">portal del IRS para empresas</a> y el <a href="https://www.law.cornell.edu/uscode/text/26">Internal Revenue Code (Title 26 USC)</a>. Para no residentes, la LLC sigue siendo la opción más común, mientras que la C-Corp se reserva para quien busca capital institucional o salida a bolsa.
+Si ya tienes una LLC y necesitas convertirla en C-Corp, es posible vía **statutory conversion** (estados como DE, NV, WY) o vía **check-the-box election (Form 8832)** que reclasifica fiscalmente la LLC como corporation. Ambas requieren planificación cuidadosa porque, bajo **IRC §351**, la incorporación puede ser tax-free si se cumplen requisitos (control 80 % post-incorporation, exclusivamente activos por acciones), pero cualquier desviación dispara hechos imponibles inmediatos.
 
+## Marco regulatorio aplicable
+
+- **Internal Revenue Code (Title 26 USC)**: §11(b) tipo C-Corp 21 %; §1361-1378 régimen S-Corp; §1202 QSBS; §§871, 881, 882, 1441 tributación de no residentes; §6038A Form 5472; §351 incorporaciones tax-free.
+- **Treasury Regulations**: §301.7701-3 check-the-box; §1.6038A-1/2 Form 5472 disregarded entities; §1.871-10 substantial presence.
+- **IRS Publications**: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/business-structures">Business Structures</a>; Pub. 519 (US Tax Guide for Aliens); Pub. 542 (Corporations).
+- **Marco estatal**: Delaware General Corporation Law; Wyoming Business Corporation Act; New Mexico Limited Liability Company Act; Nevada Revised Statutes Chapter 78.
+
+Para no residentes, la LLC sigue siendo la opción más común porque combina protección patrimonial, fiscalidad limpia (0 % federal sin ETBUS) y carga administrativa baja. La C-Corp se reserva para quien busca capital institucional o salida a bolsa.
+
+## Compliance fiscal en tu país: CFC, TFI y atribución de rentas
+
+Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero el cumplimiento no termina al constituirla: como propietario residente fiscal en otro país, tu administración tributaria sigue teniendo derecho a gravar lo que la LLC genera. En España (LIRPF/LIS), si la LLC es una *Single-Member Disregarded Entity* operativa, Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica.
+
+El convenio España–EE. UU. (BOE 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties; reduce la retención FDAP del 30 % al 15 % o 5 % en dividendos según participación. Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022). Operaciones vinculadas y dividendos repatriados: **Modelo 232**.
+
+### Errores frecuentes al elegir vehículo
+
+- **Pensar que la S-Corp es "una LLC mejorada"**: no lo es. Es una elección fiscal exclusiva para US persons. Si eres no residente, ni la consideres.
+- **Constituir una C-Corp "porque suena más serio"** sin necesidad real de capital: pagas 21 % federal innecesariamente y complicas el cumplimiento sin contrapartida.
+- **Convertir LLC a C-Corp sin asesoría**: si no se cumple IRC §351, la conversión dispara hechos imponibles inmediatos sobre el valor de mercado de la LLC.
+- **Elegir Delaware "porque es famoso"** cuando una WY/NM cuesta 5 veces menos en mantenimiento anual y aporta el mismo blindaje fiscal para un freelancer no residente.
+
+La elección correcta depende de tu plan a 3-5 años, no de la moda del foro de turno.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/servicios">Descubre si una LLC es para ti</a>
 <!-- /exentax:calc-cta-v1 -->
 
-En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
+En Exentax revisamos tu caso con datos reales y te decimos si compensa LLC, C-Corp o ninguna estructura US. <a href="/es/agendar">Agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
+
 **Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/sociedad-limitada-espana-costes-ventajas">constituir una SL en España: costes y ventajas</a>, <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/tramos-irpf-2026">los tramos del IRPF actualizados</a>.
 
 <!-- exentax:execution-v2 -->
@@ -54,7 +107,7 @@ Si quieres pasar de la duda al plan, agenda 30 minutos con Exentax y salimos de 
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Cuando%20alguien%20dice%20empresa%20americana%20muchos%20imaginan%20LLC%2C%20otros%20corporaci%C3%B3n%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
+<p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Diferencia%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20y%20C-Corp%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si tu plan es montar la LLC en Delaware, repasa nuestra página de servicio <a href="/es/servicios/llc-delaware">LLC en Delaware</a> con costes, plazos y siguientes pasos concretos.
 <!-- /exentax:cta-conv-v1 -->
@@ -62,21 +115,4 @@ Si tu plan es montar la LLC en Delaware, repasa nuestra página de servicio <a h
 <!-- exentax:cta-v1 -->
 Comparamos Nuevo México, Wyoming, Delaware y Florida sobre tu caso real, sin venderte el estado de moda. <a href="/es/servicios/llc-delaware">Comparar mi caso con un asesor</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">0%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ctividad económica conectada con EE.UU. (ETBUS) la LLC paga 0% federal y 0% estatal en est…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…como Wyoming o Nuevo México. Es la elección por defecto del 90% de los emprendedores extra…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…-Corporation: paga impuesto federal sobre sus beneficios al 21%, además del impuesto estat…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a comparativa de tributación efectiva Para un beneficio de 100.000 USD generado por un no …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…federales y el dueño tributa donde resida. Una C-Corp paga 21.000 USD federales (21%) más …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">79.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…estatal aplicable; si reparte el resto como dividendo, los 79.000 USD restantes pueden suf…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…dendo, los 79.000 USD restantes pueden sufrir retención del 30% por FDAP, dejando unos 55.…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">55.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ntes pueden sufrir retención del 30% por FDAP, dejando unos 55.000 USD netos al socio. La …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…posible vía conversión estatal y elección de check-the-box (Form 8832), pero requiere plan…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

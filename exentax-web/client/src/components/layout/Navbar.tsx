@@ -333,7 +333,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
               <Link
                 href={lp("book")}
                 onMouseEnter={() => prefetchPage("book")}
-                className="inline-flex items-center gap-1.5 bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-4 xl:px-5 2xl:px-7 py-2 xl:py-2.5 2xl:py-3 text-[12px] xl:text-[13px] 2xl:text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-95 whitespace-nowrap focus:ring-4 focus:ring-[rgba(0,229,16,0.22)]"
+                className="inline-flex items-center gap-1.5 bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-4 xl:px-5 2xl:px-7 py-2 xl:py-2.5 2xl:py-3 text-[12px] xl:text-[13px] 2xl:text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-95 whitespace-nowrap"
                 data-testid="button-agendar-nav"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-shrink-0">

@@ -2665,6 +2665,7 @@ const es = {
  },
  blogPost: {
   articlesFound: "artículos encontrados",
+  atomicAnswerLabel: "Respuesta rápida",
   share: "Compartir",
   backToBlog: "Volver al blog",
   minRead: "min de lectura",

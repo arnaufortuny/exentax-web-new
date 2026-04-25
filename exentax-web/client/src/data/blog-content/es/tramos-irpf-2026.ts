@@ -63,33 +63,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">12.450</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…tramos progresivos sobre la base liquidable general: hasta 12.450 euros tributa al 9,5%; d…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…la base liquidable general: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%;…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">20.200</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…le general: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">12%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">35.200</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.000 al 18,…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">60.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.000 al 18,5%; de 60.000 a 3…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…0 a 35.200 al 15%; de 35.200 a 60.000 al 18,5%; de 60.000 a 300.000 al 22,5%; y a partir d…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…activos. La base del ahorro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hast…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…La base del ahorro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000,…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…horro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 20…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…e tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27%…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 30…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 2…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">27%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 28% por en…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 28% por encima. Entender que u…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…iles muy normales. El primero es no aprovechar el límite de 1.500 euros anuales de aportac…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">8.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es de aportación a planes de pensiones individuales más los 8.500 a planes de empleo: el a…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…8.500 a planes de empleo: el ahorro fiscal puede llegar al 47%. El segundo es no planifica…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…en dos ejercicios fiscales evita saltar al tramo del 27% o 30%. El tercero, en autónomos, …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…1% sobre el resto en 2026; ERD 1-10 M€ al 23%; tipo general 25%) más el coste de repatriar…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…l coste de repatriar beneficio vía dividendo. Para perfiles 100% digitales con clientes in…»</span> <strong>[NO VERIFICADO]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

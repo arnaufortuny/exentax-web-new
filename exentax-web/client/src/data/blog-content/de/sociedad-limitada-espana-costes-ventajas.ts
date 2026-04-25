@@ -30,7 +30,6 @@ Das Rechtsregime steht im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-20
 
 Drei Fehler kommen in der Praxis besonders oft vor und führen zu unnötigen Kosten oder Konflikten mit der Steuer- und Sozialversicherungsbehörde. Erstens: die Vergütung des arbeitenden Gesellschafter-Geschäftsführers willkürlich anzusetzen — sie muss marktüblich sein (Art. 18 Körperschaftsteuergesetz), sonst wird der Differenzbetrag als verdeckte Gewinnausschüttung umqualifiziert mit doppelter Steuerlast. Zweitens: keine Trennung zwischen privaten und gesellschaftsrechtlichen Konten zu führen — bei Mischverwendung kann die AEAT die Trennung des Vermögens infrage stellen und dem Gesellschafter Aufwendungen aberkennen. Drittens: das Modelo 232 zu vergessen, wenn Geschäfte mit verbundenen Personen 100.000 Euro pro Jahr und Gegenpartei überschreiten — die Sanktion beträgt mindestens 1.000 Euro pro nicht erklärter Gegenpartei.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -65,32 +64,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…as muy serias, especialmente la LLC americana para perfiles 100% digitales internacionales…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…con notario tradicional y asesoría externa, el coste sube a 1.000-1.500 euros. Capital soc…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…tario tradicional y asesoría externa, el coste sube a 1.000-1.500 euros. Capital social: d…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…les que un autónomo no tiene: gestoría especializada (1.500-3.000 euros año por contabilid…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…l coste mínimo realista de mantener una SL pequeña roza los 6.000-9.000 euros anuales, ant…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">9.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…e mínimo realista de mantener una SL pequeña roza los 6.000-9.000 euros anuales, antes de …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.000.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…cidos por la Ley 7/2024 — microempresas (cifra de negocio &lt; 1.000.000 €) al 19% sobre los …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…7/2024 — microempresas (cifra de negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 €…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…(cifra de negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 € y 21% sobre el resto e…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 € y 21% sobre el resto en 2026; en…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…resto en 2026; entidades de reducida dimensión (1-10 M€) al 23%; tipo general 25%; especia…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…idades de reducida dimensión (1-10 M€) al 23%; tipo general 25%; especialmente útil cuando…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">60.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…cialmente útil cuando tu base anual supera holgadamente los 60.000 euros y reinviertes par…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…socio, este lo declara en su IRPF como renta del ahorro (19-28% según importe). El tipo co…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">45%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…9-28% según importe). El tipo combinado puede superar el 40-45% del beneficio bruto. Exist…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">80.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ndiciones a la vez: facturación anual estable por encima de 80.000-100.000 euros, varios s…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es a la vez: facturación anual estable por encima de 80.000-100.000 euros, varios socios, …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">2.500</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…nada suele ganar el partido: coste anual mucho menor (1.500-2.500 euros frente a 6.000-9.0…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ho menor (1.500-2.500 euros frente a 6.000-9.000 de la SL), 0% federal en EE.UU. para no r…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">BOE-A-2010-10544</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…co está en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544&quot;&gt;Ley de Socie…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">BOE-A-2014-12328</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…fiscal en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328&quot;&gt;Ley 27/2014 d…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

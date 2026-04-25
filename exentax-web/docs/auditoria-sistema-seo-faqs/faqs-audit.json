@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T09:33:05.319Z",
+  "generatedAt": "2026-04-25T13:43:10.624Z",
   "summary": {
     "totalFaqs": 79,
     "sectionCount": 8,
@@ -8,19 +8,15 @@
     "blogPostsScanned": 111,
     "blogPostsWithFaqByLang": {
       "es": 20,
-      "en": 0,
+      "en": 20,
       "fr": 20,
       "de": 20,
       "pt": 20,
       "ca": 20
     },
-    "issuesByCriticality": {
-      "P1": 20
-    },
-    "issuesByArea": {
-      "blog-faq-section-missing": 20
-    },
-    "totalIssues": 20
+    "issuesByCriticality": {},
+    "issuesByArea": {},
+    "totalIssues": 0
   },
   "structure": [
     {
@@ -3915,7 +3911,7 @@
         "pt": {
           "present": true,
           "questionLength": 64,
-          "answerLength": 1281,
+          "answerLength": 1282,
           "identicalToEs": false,
           "containsTodo": false,
           "containsSpanishTells": false,
@@ -4898,7 +4894,7 @@
       "postsScanned": 111,
       "postsWithFaq": {
         "es": 20,
-        "en": 0,
+        "en": 20,
         "fr": 20,
         "de": 20,
         "pt": 20,
@@ -4957,9 +4953,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Does this audit replace professional review?",
+            "How often should I run it?",
+            "Does it apply to a dormant LLC?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -5015,9 +5015,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Does the LLC save me self-employed contributions?",
+            "When does the LLC really pay off?",
+            "What if I am thinking of leaving Spain?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -5054,7 +5058,7 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "La LLC m’estalvia quotes d’autònoms?",
+            "La LLC m'estalvia quotes d'autònoms?",
             "Quan compensa de debò la LLC?",
             "I si penso deixar Espanya?"
           ]
@@ -5187,16 +5191,20 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "When could the duty re-apply if the rule changes?",
+            "Is my U.S.-formed LLC with a Spanish member exempt?",
+            "What do I keep as evidence?"
+          ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Quand l’obligation peut-elle revenir si la rule change?",
+            "Quand l'obligation peut-elle revenir si la rule change?",
             "Ma LLC US avec associé espagnol est-elle exemptée?",
             "Que conserver comme preuve?"
           ]
@@ -5226,7 +5234,7 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Quan torna a aplicar-me l’obligació si canvia la rule?",
+            "Quan torna a aplicar-me l'obligació si canvia la rule?",
             "La meva LLC formada als EUA amb soci espanyol està exempta?",
             "Què guardo com a prova?"
           ]
@@ -5511,16 +5519,20 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "What is the optimal order?",
+            "Do I need BOI after the March 2025 rule?",
+            "What annual cost should I budget?"
+          ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Quel est l’ordre optimal?",
+            "Quel est l'ordre optimal?",
             "Le BOI est-il nécessaire après la rule de mars 2025?",
             "Quels coûts annuels prévoir?"
           ]
@@ -5550,7 +5562,7 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Quin és l’ordre òptim?",
+            "Quin és l'ordre òptim?",
             "Necessito BOI després de la rule de març de 2025?",
             "Quins costos anuals he de pressupostar?"
           ]
@@ -5752,25 +5764,29 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "¿Cuál es el coste mínimo realista total año 1?",
-            "¿Hay costes ocultos que la gente olvida?",
-            "¿<a href=\"https://www.oecd.org\" target=\"_blank\" rel=\"noopener\">OECD</a> Pillar Two encarece la LLC?"
+            "¿Qué cubre exactamente el precio desde 2.000 €?",
+            "¿Y el mantenimiento anual desde 1.500 €?",
+            "¿OECD Pillar Two encarece mi LLC?"
           ]
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "What exactly is included in the EUR 2,000 price?",
+            "And the EUR 1,500/yr annual maintenance?",
+            "Does OECD Pillar Two raise LLC cost?"
+          ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Coût minimal réaliste de la 1re année?",
-            "Coûts cachés oubliés?",
-            "Pillar Two de l’OCDE renchérit-il la LLC?"
+            "Que couvre exactement le prix à partir de 2 000 € ?",
+            "Et la maintenance annuelle à partir de 1 500 € ?",
+            "Pillar Two de l'OCDE renchérit-il la LLC ?"
           ]
         },
         "de": {
@@ -5778,8 +5794,8 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Realistische Mindestkosten Jahr 1?",
-            "Versteckte Kosten?",
+            "Was deckt der Preis ab 2.000 € genau ab?",
+            "Und die Jahreswartung ab 1.500 €?",
             "Verteuert OECD Pillar Two die LLC?"
           ]
         },
@@ -5788,8 +5804,8 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Custo mínimo realista total ano 1?",
-            "Custos ocultos esquecidos?",
+            "O que cobre exatamente o preço a partir de 2.000 €?",
+            "E a manutenção anual a partir de 1.500 €?",
             "Pillar Two da OCDE encarece a LLC?"
           ]
         },
@@ -5798,9 +5814,9 @@
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Cost mínim realista total any 1?",
-            "Costos ocults oblidats?",
-            "L’OCDE Pillar Two encareix la LLC?"
+            "Què cobreix exactament el preu des de 2.000 €?",
+            "I el manteniment anual des de 1.500 €?",
+            "L'OCDE Pillar Two encareix la LLC?"
           ]
         }
       },
@@ -5817,9 +5833,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Does Mercury still accept non-resident LLCs today?",
+            "What backup do you recommend?",
+            "Does the Mercury account report via CRS?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -6293,17 +6313,21 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Do I need an ITIN as well as the EIN?",
+            "Can an agency get it faster?",
+            "Does the EIN expire?"
+          ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
           "qaCount": 3,
           "questions": [
-            "Ai-je besoin d’un ITIN en plus de l’EIN?",
-            "Une agence peut-elle l’obtenir plus vite?",
+            "Ai-je besoin d'un ITIN en plus de l’EIN?",
+            "Une agence peut-elle l'obtenir plus vite?",
             "L’EIN expire-t-il?"
           ]
         },
@@ -6465,9 +6489,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Can these errors be fixed without an advisor?",
+            "Most underrated error?",
+            "Does the IRS detect errors automatically?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -6978,16 +7006,19 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 2,
+          "questions": [
+            "What if I have not filed for years?",
+            "Does Form 7004 cover the 5472?"
+          ]
         },
         "fr": {
           "postPresent": true,
           "hasFaqSection": true,
           "qaCount": 2,
           "questions": [
-            "Et si je n’ai pas déposé depuis des années?",
+            "Et si je n'ai pas déposé depuis des années?",
             "Le Form 7004 couvre-t-il le 5472?"
           ]
         },
@@ -7015,7 +7046,7 @@
           "qaCount": 2,
           "questions": [
             "I si fa anys que no presento?",
-            "L’extensió 7004 cobreix el 5472?"
+            "L'extensió 7004 cobreix el 5472?"
           ]
         }
       },
@@ -7602,9 +7633,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Is the guide still valid if I live in Spain?",
+            "Does OECD Pillar Two affect my LLC?",
+            "What changed in banking currently?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -7613,7 +7648,7 @@
           "questions": [
             "Le guide est-il valable si je vis en Espagne?",
             "L’OCDE Pillar Two concerne-t-il ma LLC?",
-            "Qu’est-ce qui a changé côté banque actuellement?"
+            "Qu'est-ce qui a changé côté banque actuellement?"
           ]
         },
         "de": {
@@ -7812,9 +7847,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "What if I skip the Annual Report?",
+            "Do I need formal bookkeeping?",
+            "What if I change country of residence?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -7984,9 +8023,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Which one if I sell international SaaS?",
+            "Does New Mexico block Mercury or Stripe?",
+            "Can I redomicile from one state to another?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -7995,7 +8038,7 @@
           "questions": [
             "Lequel choisir pour un SaaS international?",
             "Le New Mexico bloque-t-il Mercury ou Stripe?",
-            "Puis-je redomicilier d’un État à un autre?"
+            "Puis-je redomicilier d'un État à un autre?"
           ]
         },
         "de": {
@@ -8025,7 +8068,7 @@
           "questions": [
             "Quin escullo si venc SaaS internacional?",
             "New Mexico bloqueja Mercury o Stripe?",
-            "Puc redomiciliar d’un estat a un altre?"
+            "Puc redomiciliar d'un estat a un altre?"
           ]
         }
       },
@@ -8042,9 +8085,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Do I need to notarize the OA?",
+            "Does a generic template work?",
+            "What if I never signed it?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -8053,7 +8100,7 @@
           "questions": [
             "Faut-il notarier l’OA?",
             "Un modèle générique convient-il?",
-            "Et si je ne l’ai jamais signé?"
+            "Et si je ne l'ai jamais signé?"
           ]
         },
         "de": {
@@ -8083,7 +8130,7 @@
           "questions": [
             "Cal notaritzar l’OA?",
             "Val una plantilla genèrica?",
-            "Què passa si mai no l’he signat?"
+            "Què passa si mai no l'he signat?"
           ]
         }
       },
@@ -8100,9 +8147,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Is there a true \"zero\" jurisdiction today?",
+            "Does the LLC make me U.S. tax resident?",
+            "Most underrated risk?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -8500,9 +8551,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "How long does the IRS take to respond?",
+            "Should I regularize before dissolving the LLC?",
+            "Do I need an ITIN to regularize?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -8558,9 +8613,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Can I act as my own Registered Agent?",
+            "What if the RA closes or vanishes?",
+            "Different RA per state if the LLC operates in several?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -8616,9 +8675,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Is Mercury still the default today?",
+            "When does a traditional account make sense?",
+            "Does Wise report via CRS?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -8940,9 +9003,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Do I need formal local-GAAP accounting?",
+            "What if the year closed without operations?",
+            "Can I run it solo or do I need an advisor?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -9150,9 +9217,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Does pass-through mean I declare nothing?",
+            "When does the C-Corp election make sense?",
+            "Does multi-member change anything?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -9190,7 +9261,7 @@
           "qaCount": 3,
           "questions": [
             "Pass-through vol dir que no declaro res?",
-            "Quan convé l’elecció C-Corp?",
+            "Quan convé l'elecció C-Corp?",
             "Multi-member canvia alguna cosa?"
           ]
         }
@@ -9208,9 +9279,13 @@
         },
         "en": {
           "postPresent": true,
-          "hasFaqSection": false,
-          "qaCount": 0,
-          "questions": []
+          "hasFaqSection": true,
+          "qaCount": 3,
+          "questions": [
+            "Can an inactive SMLLC just be \"let go\"?",
+            "How do you value an LLC for sale?",
+            "Does dissolution trigger tax in my country?"
+          ]
         },
         "fr": {
           "postPresent": true,
@@ -9521,226 +9596,5 @@
       }
     }
   },
-  "issues": [
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/auditoria-rapida-llc-12-puntos-30-minutos.ts",
-      "description": "Blog \"auditoria-rapida-llc-12-puntos-30-minutos\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/autonomo-espana-vs-llc-estados-unidos.ts",
-      "description": "Blog \"autonomo-espana-vs-llc-estados-unidos\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/boi-report-fincen-guia-completa-2026.ts",
-      "description": "Blog \"boi-report-fincen-guia-completa-2026\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/constituir-llc-proceso-paso-a-paso.ts",
-      "description": "Blog \"constituir-llc-proceso-paso-a-paso\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/cuanto-cuesta-constituir-llc.ts",
-      "description": "Blog \"cuanto-cuesta-constituir-llc\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/cuenta-bancaria-mercury-llc-extranjero.ts",
-      "description": "Blog \"cuenta-bancaria-mercury-llc-extranjero\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/ein-numero-fiscal-llc-como-obtenerlo.ts",
-      "description": "Blog \"ein-numero-fiscal-llc-como-obtenerlo\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/errores-criticos-llc-ya-constituida.ts",
-      "description": "Blog \"errores-criticos-llc-ya-constituida\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/form-5472-que-es-como-presentarlo.ts",
-      "description": "Blog \"form-5472-que-es-como-presentarlo\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 2 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 2 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/llc-estados-unidos-guia-completa-2026.ts",
-      "description": "Blog \"llc-estados-unidos-guia-completa-2026\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/mantenimiento-anual-llc-obligaciones.ts",
-      "description": "Blog \"mantenimiento-anual-llc-obligaciones\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/nuevo-mexico-vs-wyoming-vs-delaware.ts",
-      "description": "Blog \"nuevo-mexico-vs-wyoming-vs-delaware\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/operating-agreement-llc-que-es.ts",
-      "description": "Blog \"operating-agreement-llc-que-es\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/pagar-cero-impuestos-legalmente-llc.ts",
-      "description": "Blog \"pagar-cero-impuestos-legalmente-llc\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
-      "description": "Blog \"recuperar-llc-boi-5472-atrasados-procedimiento\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/registered-agent-que-es-por-que-necesitas.ts",
-      "description": "Blog \"registered-agent-que-es-por-que-necesitas\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/reorganizar-banca-llc-mercury-relay-wise.ts",
-      "description": "Blog \"reorganizar-banca-llc-mercury-relay-wise\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/tengo-llc-checklist-gestion-correcta.ts",
-      "description": "Blog \"tengo-llc-checklist-gestion-correcta\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/tributacion-pass-through-llc-como-funciona.ts",
-      "description": "Blog \"tributacion-pass-through-llc-como-funciona\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    },
-    {
-      "criticality": "P1",
-      "area": "blog-faq-section-missing",
-      "location": "client/src/data/blog-content/en/vender-o-cerrar-llc-comparativa-practica.ts",
-      "description": "Blog \"vender-o-cerrar-llc-comparativa-practica\" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A)",
-      "evidence": "regex BLOG_FAQ_HEADINGS[en] no coincide",
-      "suggestion": "Añadir sección \"### Frequently asked questions\" con 3 Q/A",
-      "languages": [
-        "en"
-      ]
-    }
-  ]
+  "issues": []
 }

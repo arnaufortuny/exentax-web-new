@@ -186,7 +186,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 
 ### Puntos clave
 
-- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
 - **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
@@ -201,7 +201,6 @@ Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100
 - [Tengo una LLC en EE.UU., ¿la estoy gestionando bien? Checklist real](/es/blog/tengo-llc-checklist-gestion-correcta)
 <!-- /exentax:cross-refs-v1 -->
 
-<!-- exentax:overhaul-hoy-v1 -->
 ## Actualización Exentax hoy: radar de errores
 
 Los errores que vemos repetirse en LLC ya constituidas durante recent years tienen patrones reconocibles y consecuencias acotadas si se detectan a tiempo:
@@ -226,7 +225,6 @@ Los errores que vemos repetirse en LLC ya constituidas durante recent years tien
 **¿Cuál es el error más infravalorado?** No documentar el origen de los fondos al ingresar capital. Cuando el banco hace KYC en segunda ronda, sin justificante el bloqueo dura semanas.
 
 **¿Detecta el IRS los errores automáticamente?** Cada vez más. El cruce 1099/1042-S/Form 5472/CRS está más automatizado actualmente que en 2020.
-<!-- exentax:overhaul-hoy-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo reparamos una LLC ya constituida en Exentax
@@ -240,7 +238,6 @@ Más del 70% de las LLCs que recibimos para revisión tienen el mismo perfil: co
 Si tu LLC tiene huecos y quieres saber el coste real de cerrarlos, lanza la <strong>calculadora Exentax</strong> o reserva treinta minutos.
 <!-- /exentax:execution-v2 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -253,7 +250,6 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -280,5 +276,4 @@ Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos
 <li><span class="font-mono">DAC6</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -20,7 +20,7 @@ export default function NavbarFunnel() {
         <Link
           href={lp("book")}
           data-testid="link-funnel-consultation"
-          className="inline-flex items-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-6 py-3 text-[13px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 active:scale-95 whitespace-nowrap focus:ring-4 focus:ring-[rgba(0,229,16,0.22)]"
+          className="inline-flex items-center bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-6 py-3 text-[13px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,box-shadow,opacity,transform] duration-200 active:scale-95 whitespace-nowrap"
         >
           {t("nav.freeConsultation")}
         </Link>

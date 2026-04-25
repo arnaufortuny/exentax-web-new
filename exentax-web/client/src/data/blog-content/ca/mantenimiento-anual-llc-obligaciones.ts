@@ -148,7 +148,7 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
 ### Punts clau
 
-- **BOI / Corporate Transparency Act.** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a "foreign reporting companies"** (entitats constituïdes fora dels EUA i registrades per operar en un estat). Una **LLC formada als EUA per un no resident està, avui, fora d'aquesta obligació**. L'estat normatiu pot tornar a canviar: **cal re-verificar a FinCEN.gov en el moment de la presentació**. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament i monitoritza actualitzacions.
+- **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Per a una **Single-Member LLC propietat d'un no resident**, les regulacions finals Treas. Reg. §1.6038A-1 (vigents des de 2017) tracten la LLC com a corporation a efectes del 5472. Procediment: **Form 1120 pro-forma** (només capçalera: nom, adreça, EIN, exercici) amb **Form 5472 annexat**. Enviament **per correu certificat o fax a l'IRS Service Center d'Ogden, Utah**, **no via MeF/e-file** estàndard. Venciment: **15 d'abril**; pròrroga via **Form 7004** fins al **15 d'octubre**. **Sanció: 25.000 USD per formulari i any, més 25.000 USD per cada 30 dies addicionals** de no presentació després de notificació de l'IRS.
 - **Form 1120 substantiu.** Només aplica si la LLC ha fet check-the-box election a C-Corp (Form 8832): tributa al 21 % federal i presenta un 1120 amb xifres reals. La LLC disregarded estàndard **no presenta un 1120 substantiu i no paga corporate tax federal**.
 - **EIN i notificacions.** Sense EIN no es pot presentar el 5472 ni el BOI. L'IRS no avisa abans de sancionar; es descobreix quan l'EIN queda bloquejat o una presentació posterior és rebutjada.
@@ -159,7 +159,6 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.
 
-<!-- exentax:overhaul-avui-v1 -->
 ## Actualització Exentax avui: calendari anual avui sense buits
 
 El manteniment ordenat d'una LLC actualment cap en sis fites a l'any.
@@ -175,7 +174,6 @@ El manteniment ordenat d'una LLC actualment cap en sis fites a l'any.
 **Necessito comptabilitat formal?** Per presentar el 5472 sí, encara que sigui llibre caixa simplificat. Mercury + full de càlcul fins a ~150 k USD/any; per sobre, Quickbooks o Wave.
 
 **Què faig si canvio de país de residència?** Notifica al Registered Agent (canvi d'adreça), actualitza Mercury (KYC) i, si la nova residència és CRS, declara el compte on correspongui.
-<!-- exentax:overhaul-avui-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Com tanquem el manteniment anual a Exentax
@@ -199,7 +197,6 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 Revisem BOI, EIN, agent registrat i obligacions federals perquè cap multa et pugui sorprendre. <a href="/ca/serveis">Demanar revisió de compliance</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -225,5 +222,4 @@ Revisem BOI, EIN, agent registrat i obligacions federals perquè cap multa et pu
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

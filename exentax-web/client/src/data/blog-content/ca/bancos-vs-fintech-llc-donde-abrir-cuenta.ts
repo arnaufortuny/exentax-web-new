@@ -173,17 +173,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">250,000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…**Tu dinero en Mercury está asegurado por el FDIC** hasta $250,000 a través de Column NA. …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…el equivalente al Fondo de Garantía de Depósitos de España (100.000€) o al IPAB de México.…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…te problema. Mercury, Relay y Wise permiten abrir cuentas **100% online** desde cualquier …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">250.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…banks con sweep network FDIC (Mercury, Relay). El límite es 250.000 USD por banco asociado…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -112,6 +112,28 @@ Bei Exentax strukturieren wir den Banken-Stack unter Berücksichtigung von CRS/F
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
+## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
+
+  Wenn Sie in Deutschland steuerpflichtig sind und ein Revolut-Business-Konto Ihrer LLC bei Revolut Bank UAB führen, treffen Sie auf vier separate Pflichten, die parallel laufen müssen.
+
+  Die erste ist die **Anzeigepflicht für Auslandsbeteiligungen** nach **§ 138 Absatz 2 der Abgabenordnung (AO)**: Wer eine ausländische Personengesellschaft (LLC, die als Personengesellschaft qualifiziert wird) gründet oder erwirbt, muss dies dem zuständigen Finanzamt **innerhalb von zwei Monaten** melden. Bei einem Beteiligungserwerb ab 10 % oder mit Anschaffungskosten über 150 000 € gilt dieselbe Frist und ein gesondertes Formular ist abzugeben.
+
+  Die zweite Pflicht ist die **Hinzurechnungsbesteuerung nach §§ 7 bis 14 des Außensteuergesetzes (AStG)** in der seit dem ATAD-Umsetzungsgesetz (BGBl. I 2021 Nr. 37) geltenden Fassung: Eine US-LLC, die in den USA steuerlich transparent ist und passive Einkünfte erzielt, fällt unter die deutsche Hinzurechnung. Die Niedrigbesteuerungsschwelle wurde durch das Mindestbesteuerungsrichtlinie-Umsetzungsgesetz (MinBestRL-UmsG) zum 1. Januar 2024 von 25 % auf **15 %** gesenkt, was den Anwendungsbereich erweitert.
+
+  Die dritte Pflicht ist das **Transparenzregister** nach **§§ 19, 20 Geldwäschegesetz (GwG)**: Wirtschaftlich Berechtigte (mehr als 25 % der Anteile oder Kontrolle) einer ausländischen Gesellschaft mit Geschäftstätigkeit in Deutschland sind im deutschen Transparenzregister einzutragen.
+
+  Die vierte Pflicht ergibt sich aus dem **Finanzkonten-Informationsaustauschgesetz (FKAustG)** vom 21. Dezember 2015: Die Daten Ihres Revolut-Kontos werden vom litauischen VMI über das Bundeszentralamt für Steuern (BZSt) an Ihr Wohnsitzfinanzamt weitergeleitet, üblicherweise im September des Folgejahres.
+
+  Für Österreich gilt parallel: die Hinzurechnungsbesteuerung nach **§ 10a KStG** (in Kraft seit 1. Januar 2019, BGBl. I Nr. 62/2018) erfasst beherrschte ausländische Körperschaften mit überwiegend passiven Einkünften, deren Effektivbesteuerung unter **12,5 %** liegt. Eine US-LLC mit Disregarded-Status, deren Einkünfte einem in Österreich ansässigen Alleingesellschafter zugerechnet werden, kann zudem nach **§ 27 EStG** als ausländische Kapitalanlage behandelt werden, wenn ein Check-the-Box-Antrag (Form 8832) zur Körperschaftsbesteuerung eingereicht wurde. Das österreichische Bundesministerium für Finanzen (BMF) erteilt hierzu im EAS-Verfahren regelmäßig Auskünfte (vgl. EAS 3401, EAS 3422).
+
+  ### Praktische Folgen für deutsche und österreichische Mandanten
+
+  In der täglichen Praxis bedeutet diese Konstellation, dass Sie Ihre Buchhaltung und Ihre Steuerveranlagung quartalsweise abstimmen müssen, sobald die Umsätze auf dem Revolut-Konto bestimmte Schwellen überschreiten. Das Bundeszentralamt für Steuern (BZSt) führt seit 2017 einen automatisierten Abgleich zwischen den eingehenden CRS-Daten und den Steuererklärungen der natürlichen Personen durch; Diskrepanzen lösen ein Auskunftsersuchen nach **§ 93 AO** aus, mit einer Antwortfrist von vier Wochen. Werden die geforderten Unterlagen nicht beigebracht, kann das Finanzamt eine Schätzung nach **§ 162 AO** vornehmen.
+
+  Ein zweiter, oft übersehener Punkt ist die **Mehrwertsteuer**. Wenn Ihre LLC digitale Dienstleistungen an deutsche oder österreichische Endverbraucher (B2C) erbringt, fällt sie unter die EU-Regelung **One-Stop-Shop (OSS)** für Drittlandsunternehmen (Non-Union OSS, Art. 358a–369x MwStSystRL). Eine Registrierung in einem EU-Mitgliedstaat ist erforderlich; viele wählen dafür Irland oder die Niederlande wegen englischsprachiger Behördenkommunikation. Die fehlende Registrierung wird im Rahmen einer Umsatzsteuer-Sonderprüfung in der Regel sofort erkannt, weil die Stripe- oder PayPal-Abrechnungen die Endkundenadressen ausweisen.
+
+  Die strategisch wichtigste Empfehlung lautet daher: Halten Sie Revolut nicht als Hauptkonto Ihrer LLC, wenn Sie die CRS-Datenspur minimieren wollen. Mercury, Relay oder Wise USD bleiben in dieser Hinsicht überlegen. Wenn Sie Revolut Business dennoch nutzen, dokumentieren Sie die Active-NFE-Klassifizierung mit Verträgen, Rechnungen und einer schriftlichen Begründung, die ein Finanzamtsprüfer in fünf Minuten verstehen kann.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Revolut%20Business%20wird%20f%C3%BCr%20die%20EU%20aus%20Litauen%20betrieben%20und%20wendet%20CRS%20voll%20an%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -121,22 +143,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ssive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indir…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ra que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…persons. Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…, aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…dos. - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…vs fintech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a través …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

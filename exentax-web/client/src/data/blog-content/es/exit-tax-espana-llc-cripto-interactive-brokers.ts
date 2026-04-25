@@ -29,8 +29,8 @@ El exit tax **no aplica a todos los residentes** que se van. Existen dos umbrale
 
 | Umbral | Condición |
 |--------|-----------|
-| **Umbral 1** | Valor de mercado de las acciones/participaciones **≥ 4.000.000<!-- [REVISIÓN MANUAL: cifra "4.000.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> €** |
-| **Umbral 2** | Porcentaje de participación **≥ 25%<!-- [REVISIÓN MANUAL: cifra "25%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] -->** en una entidad **Y** valor de mercado **≥ 1.000.000<!-- [REVISIÓN MANUAL: cifra "1.000.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> €** |
+| **Umbral 1** | Valor de mercado de las acciones/participaciones **≥ 4.000.000 €** |
+| **Umbral 2** | Porcentaje de participación **≥ 25%** en una entidad **Y** valor de mercado **≥ 1.000.000 €** |
 
 Si no se supera ninguno de estos dos umbrales, no hay obligación de tributar por el exit tax. Esto es relevante para la mayoría de inversores individuales con patrimonio por debajo de estos límites.
 
@@ -58,13 +58,13 @@ La ganancia resultante se integra en la **base imponible del ahorro** del IRPF y
 
 | Tramo | Tipo |
 |---|---|
-| Hasta 6.000<!-- [REVISIÓN MANUAL: cifra "6.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € | 19%<!-- [REVISIÓN MANUAL: cifra "19%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> |
-| 6.000 € – 50.000<!-- [REVISIÓN MANUAL: cifra "50.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € | 21%<!-- [REVISIÓN MANUAL: cifra "21%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> |
-| 50.000 € – 200.000<!-- [REVISIÓN MANUAL: cifra "200.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € | 23%<!-- [REVISIÓN MANUAL: cifra "23%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> |
-| 200.000 € – 300.000<!-- [REVISIÓN MANUAL: cifra "300.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € | 27%<!-- [REVISIÓN MANUAL: cifra "27%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> |
-| Más de 300.000 € | 28%<!-- [REVISIÓN MANUAL: cifra "28%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> |
+| Hasta 6.000 € | 19% |
+| 6.000 € – 50.000 € | 21% |
+| 50.000 € – 200.000 € | 23% |
+| 200.000 € – 300.000 € | 27% |
+| Más de 300.000 € | 28% |
 
-**Ejemplo práctico:** Un residente en España que tiene una cartera en Interactive Brokers con coste de adquisición de 300.000 € y valor de mercado de 1.200.000<!-- [REVISIÓN MANUAL: cifra "1.200.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € al abandonar España, con más de un 25% de participación en alguna entidad, tendría una ganancia latente de 900.000<!-- [REVISIÓN MANUAL: cifra "900.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> €. Al tipo marginal del ahorro (28% sobre el exceso de 300.000 €), la factura fiscal puede superar los **200.000 €**.
+**Ejemplo práctico:** Un residente en España que tiene una cartera en Interactive Brokers con coste de adquisición de 300.000 € y valor de mercado de 1.200.000 € al abandonar España, con más de un 25% de participación en alguna entidad, tendría una ganancia latente de 900.000 €. Al tipo marginal del ahorro (28% sobre el exceso de 300.000 €), la factura fiscal puede superar los **200.000 €**.
 
 ## Opciones de aplazamiento: la clave para planificar
 
@@ -94,7 +94,7 @@ Si el contribuyente se va de España, paga el exit tax, y **regresa a España an
 
 Si tu LLC factura servicios o gestiona operaciones y además has acumulado inversiones en Interactive Brokers (acciones, ETFs, bonos), debes separar conceptualmente dos situaciones:
 
-- **Participación en la LLC**: computa para el umbral del 95 bis si tienes ≥25% de participación (que en una SMLLC siempre tienes: 100%<!-- [REVISIÓN MANUAL: cifra "100%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] -->) **y** el valor de la LLC supera 1.000.000 €. El valor de la LLC se determina por su patrimonio neto o valor económico real.
+- **Participación en la LLC**: computa para el umbral del 95 bis si tienes ≥25% de participación (que en una SMLLC siempre tienes: 100%) **y** el valor de la LLC supera 1.000.000 €. El valor de la LLC se determina por su patrimonio neto o valor económico real.
 - **Cartera en IBKR a nombre personal**: computa directamente si su valor de mercado supera 4.000.000 € o si junto con otras participaciones superas el umbral.
 
 Si la cartera de IBKR está a nombre de la LLC (no tuyo personal), entonces lo que computa es tu participación en la LLC, no directamente los valores individuales.
@@ -103,11 +103,11 @@ Si la cartera de IBKR está a nombre de la LLC (no tuyo personal), entonces lo q
 
 Las criptomonedas que posee la LLC (a través de Kraken Pro, Coinbase Prime u otros exchanges) son activos de la LLC, no tuyos directamente. Lo que computa para el exit tax es el **valor de tu participación en la LLC**, no los criptoactivos en sí.
 
-Si la LLC vale 800.000<!-- [REVISIÓN MANUAL: cifra "800.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € (todo en cripto) y tienes el 100%, estás por debajo del umbral de 1.000.000 € del segundo supuesto. Si la LLC vale 1.200.000 €, sí superas el umbral y el 95 bis aplica sobre la plusvalía latente de tu participación en la LLC.
+Si la LLC vale 800.000 € (todo en cripto) y tienes el 100%, estás por debajo del umbral de 1.000.000 € del segundo supuesto. Si la LLC vale 1.200.000 €, sí superas el umbral y el 95 bis aplica sobre la plusvalía latente de tu participación en la LLC.
 
 ### Caso 3: Inversión directa personal en cripto (sin LLC)
 
-Reitero el punto clave: **las criptomonedas directas no están sujetas al exit tax en la normativa actual**. Si tienes 2.000.000<!-- [REVISIÓN MANUAL: cifra "2.000.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € en BTC en tu wallet personal o en Binance, ese patrimonio **no genera obligación de exit tax** al cambiar de residencia. Sí genera otras obligaciones (Modelo 721, declaración en IRPF de las ganancias realizadas), pero no el impuesto de salida del art. 95 bis.
+Reitero el punto clave: **las criptomonedas directas no están sujetas al exit tax en la normativa actual**. Si tienes 2.000.000 € en BTC en tu wallet personal o en Binance, ese patrimonio **no genera obligación de exit tax** al cambiar de residencia. Sí genera otras obligaciones (Modelo 721, declaración en IRPF de las ganancias realizadas), pero no el impuesto de salida del art. 95 bis.
 
 ### Caso 4: Portfolio mixto (acciones en IBKR + participación en LLC + cripto)
 
@@ -161,7 +161,7 @@ Ya lo hemos aclarado, pero es el error más frecuente. Las criptomonedas directa
 
 ### Error 2: Ignorar los umbrales y suponer que el 95 bis siempre aplica
 
-Muchos inversores con patrimonios de 200.000-500.000<!-- [REVISIÓN MANUAL: cifra "500.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> € asumen que el exit tax les afecta. Si no superan los umbrales (4M€ o 1M€ con ≥25%), el artículo 95 bis no se aplica.
+Muchos inversores con patrimonios de 200.000-500.000 € asumen que el exit tax les afecta. Si no superan los umbrales (4M€ o 1M€ con ≥25%), el artículo 95 bis no se aplica.
 
 ### Error 3: No solicitar el aplazamiento cuando traslado es fuera de UE/EEE
 
@@ -222,7 +222,7 @@ Transferir participaciones de la LLC a otra entidad o a otra persona podría ser
 
 Si el valor de mercado de la participación en la LLC en la fecha de salida es **inferior** al coste de adquisición, no hay ganancia latente y, por tanto, no hay exit tax. Tampoco se puede computar esa pérdida como pérdida deducible (solo las pérdidas realizadas son computables fiscalmente).
 
-### ¿Afecta el DAC8<!-- [REVISIÓN MANUAL: ref legal "DAC8" — verificar contra https://eur-lex.europa.eu — fecha: 2026-04-21] --> a la situación cripto en el contexto del Exit Tax?
+### ¿Afecta el DAC8 a la situación cripto en el contexto del Exit Tax?
 
 El DAC8 (Directiva 2023/2226/UE, aplicable recientemente) establece un régimen de reporte automático de información sobre criptoactivos entre autoridades fiscales de la UE. Afecta a la capacidad de la AEAT de detectar posiciones en cripto de residentes, lo que refuerza la importancia de declarar correctamente. Más detalle en nuestro artículo sobre <a href="/es/blog/dac8-criptomonedas-reporting-fiscal-2026">DAC8 y el reporting fiscal de criptomonedas actualmente</a>.
 
@@ -276,7 +276,7 @@ En Exentax modelamos el impacto del Exit Tax con tu cartera real y país destino
 
 ## Tu siguiente paso con Exentax
 
-En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN, Operating Agreement, BOI cuando aplique, banca con Mercury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472<!-- [REVISIÓN MANUAL: ref legal "Form 5472" — verificar contra https://www.irs.gov — fecha: 2026-04-21] --> y 1120 pro-forma cada año, y coordinación con tu fiscalidad en residencia. Si quieres validar tu caso con datos reales, agenda una asesoría con nuestro equipo y te explicamos paso a paso cómo encajaría en tu situación concreta.
+En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN, Operating Agreement, BOI cuando aplique, banca con Mercury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cada año, y coordinación con tu fiscalidad en residencia. Si quieres validar tu caso con datos reales, agenda una asesoría con nuestro equipo y te explicamos paso a paso cómo encajaría en tu situación concreta.
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
@@ -287,36 +287,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">4.000.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…1** | Valor de mercado de las acciones/participaciones **≥ 4.000.000 €** | | **Umbral 2** …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «….000 €** | | **Umbral 2** | Porcentaje de participación **≥ 25%** en una entidad **Y** val…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.000.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ipación **≥ 25%** en una entidad **Y** valor de mercado **≥ 1.000.000 €** | Si no se super…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a los tipos del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…| |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «….000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">27%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…| | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% | **Ejemplo práctico:** Un …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.200.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…con coste de adquisición de 300.000 € y valor de mercado de 1.200.000 € al abandonar Españ…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">900.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…cipación en alguna entidad, tendría una ganancia latente de 900.000 €. Al tipo marginal de…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…nes ≥25% de participación (que en una SMLLC siempre tienes: 100%) **y** el valor de la LLC…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">800.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ón en la LLC**, no los criptoactivos en sí. Si la LLC vale 800.000 € (todo en cripto) y ti…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">2.000.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…tán sujetas al exit tax en la normativa actual**. Si tienes 2.000.000 € en BTC en tu walle…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">500.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…iempre aplica Muchos inversores con patrimonios de 200.000-500.000 € asumen que el exit ta…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ibutaria con las sanciones del art. 191 LGT (sanción del 50-150% de la cuota) además de in…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…e la vía penal del art. 305 CP (cuota defraudada superior a 120.000 €). ### ¿Cómo se valor…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…2/12/1990, Protocolo en vigor 27/11/2019). - **Treas. Reg. §301.7701-3** (clasificación de…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…donaciones intervivos previas) es donde se gana o pierde el 90% del impacto. ### Lo que má…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…as realizadas son computables fiscalmente). ### ¿Afecta el DAC8 a la situación cripto en e…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

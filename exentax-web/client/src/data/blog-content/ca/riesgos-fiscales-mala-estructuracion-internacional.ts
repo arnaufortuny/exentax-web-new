@@ -1,99 +1,155 @@
-export default `Els casos més dolorosos que veiem no vénen de gent que no ha fet res, vénen de gent que va seguir un tutorial de YouTube sense entendre l'impacte a l'AEAT. Resultat: LLC oberta amb presses, residència fiscal mai realment mòguda, ni 5472, ni Model 720, i una primera inspecció que recalifica tot com a establiment permanent.
+export default `
+
+Una estructura internacional ben dissenyada és una eina extraordinària. Una de mal dissenyada és una bomba de rellotgeria que esclata quan vostè menys s'ho espera, normalment amb un requeriment de l'AEAT, el SAT, la DIAN o l'AFIP que li demana explicar tot el que ha fet els darrers quatre anys. A Exentax veiem casos d'aquests cada setmana, i els errors es repeteixen. Li expliquem els sis riscos principals i com evitar-los a la pràctica.
 
 ## Risc 1: Simulació
 
-Art. 16 LGT Espanya. Si interposes una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC</a> però l'activitat segueix a Espanya, l'AEAT declara simulació.
+La **simulació** està regulada en l'art. 16 de la Ley General Tributaria espanyola i té equivalents en tots els ordenaments de l'Amèrica Llatina (Mèxic: art. 5-A CFF, Colòmbia: art. 869 ET, Argentina: art. 2 Llei 11.683). En el règim català, encara que la matèria tributària central és estatal, conviuen normes autonòmiques d'IRPF i regulacions complementàries que reforcen els mateixos principis antifrau.
 
-Conseqüència: regularització anys no prescrits + interessos + sanció 50-150% + delicte si > 120.000 € (art. 305 CP).
+Hi ha simulació quan els actes o negocis celebrats són aparents i no responen a la realitat de l'operació. Aplicat a estructures internacionals: si vostè interposa una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> entre vostè i els seus clients però l'activitat la continua prestant materialment des de Catalunya o des d'un altre punt d'Espanya (mateix equip, mateix domicili, mateixes decisions), l'AEAT pot declarar la simulació i atribuir-li directament les rendes com a persona física.
 
-Evitar: substància real. <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">estructura sòlida</a>.
-### Risc 2: TFI (CFC)
+**Conseqüència**: regularització de tots els exercicis no prescrits (4 anys a Espanya, 5 a Mèxic, 5 a Colòmbia) + interessos de demora + sanció del 50-150% (art. 191-195 LGT) + possible delicte fiscal si la quota defraudada per exercici supera 120.000 € (art. 305 CP).
 
-Art. 100 LIS via 91 LIRPF. Tres condicions: control ≥ 50%, tributació efectiva < 75% espanyola, ingressos passius. Imputació directa al soci.
+**Com evitar-ho**: dotar la LLC de **substància** real (decisió, operativa, infraestructura) o assumir des de l'inici que la LLC és una eina complementària, no una façana. Ho desenvolupem a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional sòlida</a>.
 
-Evitar: activitat operativa. <a href="/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis">tributació per activitat</a>.
-### Risc 3: Residència fictícia
+## Risc 2: Transparència Fiscal Internacional (TFI / CFC)
 
-Més comú. Canvi a Andorra/Paraguai/Dubai però vida a Espanya. Art. 9 LIRPF: > 183 dies, centre d'interessos, cònjuge/fills.
+La **transparència fiscal internacional** està regulada a Espanya en l'art. 100 de la Ley del Impuesto sobre Sociedades, aplicable a persones físiques via art. 91 LIRPF. A l'Amèrica Llatina hi ha règims equivalents a Mèxic (art. 176 LISR), Colòmbia (règim ECE), Argentina (règim ECNR) i Xile (rendes passives de l'art. 41 G LIR). A escala europea, la Directiva ATAD imposa estàndards mínims que cada estat ha transposat.
 
-Evitar: canvi real. <a href="/ca/blog/nomada-digital-on-pagar-impostos-i-com-triar-la-residencia">residència nòmada</a>.
-### Risc 4: EP ocult
+La TFI s'activa quan es compleixen tres condicions acumulades:
 
-Si la LLC opera materialment des d'Espanya: **EP** (art. 13 LIRNR, art. 5 CDT). LLC tributa IRNR 25%.
-### Risc 5: Treaty shopping
+1. **Control**: el contribuent té una participació, directa o indirecta, igual o superior al 50% en l'entitat no resident (els llindars poden variar; per a persones físiques i entitats vinculades, també).
+2. **Baixa tributació**: la tributació efectiva de l'entitat no resident és inferior al 75% de la que correspondria a Espanya (en el cas típic de Disregarded Entity amb 0$ federal pagat, es compleix sense dificultat).
+3. **Naturalesa de la renda**: l'entitat obté principalment rendes passives (interessos, dividends, royalties, guanys de valors mobiliaris, lloguers no afectes a activitat) o rendes de serveis prestats a entitats vinculades residents.
 
-Protocol 2019 amb **LOB**. LLC sense substància no passa.
-### Risc 6: Delicte fiscal
+Si s'activa, les rendes s'imputen al soci a Espanya com si les hagués obtingut directament, perdent l'avantatge fiscal de l'estructura. La deducció per doble imposició és testimonial perquè la LLC normalment no paga impost americà.
 
-Art. 305 CP > **120.000 €**. Penes 1-5 anys + multa 100-600%. Agreujat (2-6 anys) > 600.000 €.
-### Materialització
+**Com evitar-ho**: si l'activitat és operativa (serveis, e-commerce actiu, SaaS amb desenvolupament continuat), normalment no s'activa pel filtre de naturalesa. Si és renda passiva, cal redissenyar (vegeu <a href="/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis">tributació LLC segons l'activitat</a>).
 
-Any 1-2 sense consell. Any 3 encreuament CRS/DAC7/DAC8. Any 4 notificació. Any 5 liquidació. Any 6 penal.
+## Risc 3: Residència fiscal fictícia
 
-**Regularització voluntària** (305.4 CP) abans del requeriment exclou penal.
-### Construir sense riscos
+És el més comú de tots. El contribuent "es canvia" la residència fiscal a Andorra, Paraguai, Dubai o Cap Verd, però **continua vivint materialment a Catalunya o a un altre punt d'Espanya**. La residència fiscal a Espanya (art. 9 LIRPF) es determina per fets, no pel segell administratiu:
 
-1. Qualificació correcta (<a href="/ca/blog/doctrina-administrativa-espanyola-sobre-la-llc-americana">doctrina</a>).
-2. Activitat real.
-3. Documentació.
-4. Compliment de terminis.
-5. Coherència dades reportades/declarades.
-6. Consell professional.
-### En resum
+- **Permanència**: més de 183 dies l'any en territori espanyol (no cal que siguin consecutius; les absències esporàdiques computen a favor de la permanència llevat de prova en contra).
+- **Centre d'interessos econòmics**: que la base principal o nucli de les seves activitats empresarials o interessos econòmics estigui a Espanya.
+- **Cònjuge no separat i/o fills menors que resideixin a Espanya**: presumpció iuris tantum de residència que cal desmuntar amb proves.
 
-Riscos evitables amb planificació seriosa.
+L'AEAT creua totes les dades disponibles: padró municipal, IRPF anteriors, comunicacions de canvi de domicili, dades bancàries CRS, dades DAC7, vehicles a nom seu, escoles dels fills, gimnàs, metge, propietats immobiliàries.
 
-A Exentax traiem clients catalans d'aquest tipus de situació regularment. Reserva la teva assessoria gratuïta: mesurem el mal real i et proposem el camí de regularització més net.
+**Conseqüència**: si l'AEAT declara que vostè continua sent resident fiscal espanyol, **tota la seva renda mundial** torna a tributar a Espanya, amb regularització completa, interessos, sancions i possible delicte.
 
-Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia">Fiscalitat internacional per a emprenedors digitals: guia completa</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
+**Com evitar-ho**: si es canvia de residència, faci-ho de debò (més de 183 dies fora, sense centre d'interessos a Espanya, amb certificat de residència fiscal del nou país). Ho desenvolupem a <a href="/ca/blog/nomada-digital-on-pagar-impostos-i-com-triar-la-residencia">residència fiscal del nòmada digital</a>.
 
-<!-- exentax:cta-mid -->
-**Abans de tocar res de «Riscos fiscals d'una mala estructuració internacional: simulació, TFI i residència», mira com treballem.** A <a href="/ca/com-treballem">la nostra metodologia</a> veuràs què revisem i en quin ordre.
+## Risc 4: Establiment permanent (EP) ocult
 
-<!-- exentax:cta-final -->
-**Posem números al teu cas.** Reserva 30 minuts i veiem si «Riscos fiscals d'una mala estructuració internacional: simulació, TFI i residència» encaixa amb la teva situació real.
-## Referències: marc legal i normativa
+Si la seva LLC americana opera materialment des de Catalunya o des d'Espanya (oficina, representant amb poders, lloc fix de negoci), pot constituir un **establiment permanent** a Espanya (art. 13 LIRNR i art. 5 CDI Espanya-EUA). En aquest cas:
 
-## El teu pròxim pas amb Exentax
+- La LLC tributa per l'Impost sobre la Renda de No Residents (IRNR) per les rendes atribuïbles a l'EP, amb tipus del 25% (Impost sobre Societats aplicable a l'EP).
+- La comptabilitat es porta separada i es documenten preus de transferència amb la matriu, segons els principis de l'OCDE i l'art. 16 del TRLIS.
+- Sancions per no haver declarat l'EP en el seu moment, que se sumen a la quota i als interessos.
 
-Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
+**Com evitar-ho**: si l'activitat es desenvolupa essencialment a Catalunya o a Espanya, plantejar-se honestament si la LLC és l'estructura adequada o si convé una S.L. espanyola com a entitat operativa. Anàlisi completa a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional sòlida</a>.
+
+## Risc 5: Treaty shopping i abús de la CDI
+
+El **Protocol modificatiu de la CDI Espanya-EUA** signat el 2013 i en vigor des del 27 de novembre del 2019 (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de 23-10-2019) va introduir la clàusula de **Limitation on Benefits (LOB)**, que restringeix l'accés als beneficis del Conveni a les persones i entitats que compleixen determinats requisits de substància i connexió real amb un dels estats contractants.
+
+Una LLC americana l'únic soci de la qual sigui resident espanyol i l'activitat real es localitzi a Espanya difícilment compleix els tests LOB del Protocol. A més, la clàusula del **Principal Purpose Test (PPT)** (art. 7 BEPS, MLI) permet a l'administració denegar beneficis convencionals quan un dels propòsits principals de l'operació és precisament obtenir el benefici convencional.
+
+**Conseqüència**: l'AEAT pot denegar l'aplicació de la CDI. En el cas de la LLC Disregarded simple sol ser irrellevant perquè ja tributa a Espanya, però sí que afecta estructures més complexes (LLC + Holding + entitat operativa), on la negativa del CDI sumada a la TFI converteix l'estructura en una trampa.
+
+## Risc 6: Delicte fiscal
+
+A Espanya, el delicte fiscal de l'art. 305 CP s'activa quan la quota defraudada per exercici fiscal supera **120.000 €** (240.000 € si l'administració perjudicada és la Unió Europea). A l'Amèrica Llatina hi ha equivalents amb llindars propis en cada ordenament.
+
+Una estructura mal dissenyada amb diversos anys d'impagaments pot acumular quotes que travessen aquests llindars amb relativa facilitat: si la seva activitat genera 200.000 € anuals i hauria d'haver tributat al 47% però va declarar al 0%, en dos anys creua el llindar i entra en l'àmbit penal.
+
+Penes a Espanya: d'1 a 5 anys de presó i multa del 100% al 600% de la quota defraudada. Tipus agreujat (de 2 a 6 anys) quan la quota supera 600.000 €, hi ha estructura organitzada o s'utilitzen paradisos fiscals.
+
+**Com evitar-ho**: estructura legal correcta + declaració correcta + pagament correcte. Hi ha marge ampli d'optimització **dins** de la llei; sortir-se'n no té cap sentit pràctic.
+
+## Com es materialitzen aquests riscos a la pràctica
+
+El recorregut típic que veiem és aquest:
+
+1. Any 1-2: la persona estructura la seva LLC sense assessorament, declara malament o no declara.
+2. Any 3: encreuament CRS / DAC7 / DAC8 detecta inconsistències entre els fluxos bancaris reportats i les rendes declarades.
+3. Any 4: comunicació de "discrepància" o requeriment informatiu de l'AEAT.
+4. Any 5: liquidació provisional, proposta de regularització + interessos + sanció.
+5. Any 6: si els imports superen els llindars penals i no hi ha hagut regularització voluntària prèvia, trasllat al Ministeri Fiscal.
+
+La **regularització voluntària** abans de qualsevol requeriment (art. 305.4 CP) exclou la responsabilitat penal i redueix significativament la sanció tributària. És sempre la millor opció quan vostè detecta una situació que necessita ajust.
+
+## Com construir una estructura sense aquests riscos
+
+1. **Començar per la qualificació correcta** de la LLC en la seva jurisdicció (vegeu <a href="/ca/blog/doctrina-administrativa-espanyola-sobre-la-llc-americana">doctrina DGT/TEAC sobre LLC</a> i la consulta a <a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">PETETE</a>).
+2. **Dissenyar conforme l'activitat real** (vegeu <a href="/ca/blog/tributacio-de-la-llc-segons-lactivitat-economica-serveis">tributació LLC segons l'activitat</a>).
+3. **Documentar i mantenir registres** que sostinguin la substància operativa.
+4. **Declarar dins de termini** totes les obligacions formals (Model 720, Model 721, IRPF, IVA, retencions, model 238 si DAC7 s'aplica).
+5. **Coherència absoluta** entre les dades reportades (CRS, DAC7, DAC8) i les dades declarades en residència.
+6. **Assessorament professional** des del primer disseny, no només quan arriba la carta.
+
+## En resum
+
+Els riscos fiscals no són hipotètics: són la realitat de les inspeccions que veiem cada mes. La bona notícia és que tots aquests riscos són **evitables** amb planificació seriosa i honesta. L'optimització fiscal legal existeix i és molt potent; l'opacitat com a estratègia és una drecera que acaba sempre al mateix lloc.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-## Risc 2: Transparència Fiscal Internacional (TFI / CFC)
+Vol una revisió professional de la seva estructura per detectar i corregir riscos abans que sigui l'AEAT qui els detecti? Reservi la seva assessoria gratuïta.
 
-El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
-## Risc 3: Residència fiscal fictícia
+Si algun aspecte d'aquesta estructura li ha deixat ganes de més detall, <a href="/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia">Fiscalitat internacional per a emprenedors digitals: guia completa</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
 
-Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
+<!-- exentax:cta-mid -->
+**Abans de tocar res de la seva estructura, miri com treballem.** A <a href="/ca/com-treballem">la nostra metodologia</a> veurà què revisem i en quin ordre, des del diagnòstic dels sis riscos fins a la regularització voluntària si cal.
+
+<!-- exentax:cta-final -->
+**Posem números reals al seu cas.** Reservi 30 minuts i mirem junts quin dels sis riscos pesa més en el seu expedient i com neutralitzar-lo sense haver de tirar tota l'estructura a terra.
+
+<!-- exentax:legal-refs-v1 -->
+## Referències: marc legal i normativa
+
+L'argumentació d'aquest article es basa en la normativa i doctrina actualment vigent:
+
+- **Espanya.** Llei 35/2006 IRPF (arts. 8, 9 i 91 sobre residència fiscal i transparència fiscal internacional), Llei 27/2014 IS (art. 100 sobre TFI), Llei 58/2003 LGT, Llei 5/2022 que va reformar el Model 720 després de la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Models 232 i 720) i Ordre HFP/887/2023 (Model 721 sobre criptoactius a l'estranger).
+- **Doctrina administrativa.** Resolucions del <a href="https://serviciostelematicosext.hacienda.gob.es/TEAC/DYCTEA" target="_blank" rel="noopener">TEAC</a> i consultes vinculants de la DGT relatives a LLC unipersonals (entre altres V0443-08, V1631-17, V1147-22), interpretades a la llum del BOE de febrer del 2020 sobre classificació d'entitats estrangeres transparents.
+- **Catalunya i àmbit autonòmic.** Tram autonòmic de l'IRPF segons la normativa de la Generalitat de Catalunya, normativa pròpia sobre l'Impost sobre el Patrimoni i sobre Successions i Donacions, i procediments d'aplicació coordinats amb l'AEAT.
+- **Convenis i normativa internacional.** Conveni de Doble Imposició entre Espanya i EUA signat el 1990 amb Protocol del 2013 en vigor des del 2019, Directiva 2011/16/UE modificada per DAC6, DAC7 i DAC8, i Model de Conveni <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> amb els seus Comentaris i l'Instrument Multilateral BEPS.
+- **EUA.** Treas. Reg. §301.7701-3 (classificació check-the-box), IRC §6038A i Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) i normativa FBAR (31 CFR 1010.350).
+
+Aquest contingut és divulgatiu i no substitueix l'assessorament personalitzat per a la seva situació fiscal concreta.
 
 <!-- exentax:execution-v2 -->
 ## Riscos fiscals d'una mala estructuració internacional: els sis errors que disparen expedient
 
-Una estructura mal montada falla per errors de disseny que confonen optimització legítima amb simulació.
+Una estructura internacional mal muntada no falla per l'estructura: falla per errors de disseny que confonen optimització legítima amb simulació. Quan una autoritat fiscal mira el teu setup i troba qualsevol d'aquests sis patrons, obre expedient i la càrrega de la prova és teva, no seva. El barat surt sempre caríssim.
 
-- **Falta de substància econòmica.** LLC US sense oficina, sense empleats, totes les decisions des d'Espanya. Seu de direcció efectiva és a Espanya i l'entitat és resident fiscal espanyola.
-- **Estructures circulars sense propòsit comercial.** GAAR (Espanya art. 15 LGT, UE ATAD) desfà la cadena quan l'únic propòsit és fiscal.
-- **Preus de transferència inexistents o ficticis.** Ajust amb sanció fins al 100% de la diferència.
-- **Beneficial ownership ocultat.** Tres jurisdiccions cooperen: BOI (US), UBO (UE), CRS (global). Amagar és blanqueig agreujat.
-- **No declaració a la residència.** Espanya (720 + 721 + IRPF), França (3916 + IR), Itàlia (RW), Alemanya (AStG). Sanció 50%-150% + interessos.
-- **Barrejar diners personals i societaris.** Trenca responsabilitat limitada, en inspecció interpretat com a simulació.
+- **Falta de substància econòmica.** LLC US sense oficina, sense empleats i amb totes les decisions preses des d'Espanya. Per a Hisenda espanyola, la seu de direcció efectiva és a Espanya (LIS art. 8) i l'entitat és resident fiscal espanyola tot i estar constituïda a Wyoming. Resultat: tributació íntegra com a societat espanyola + sancions per no haver presentat IS des de l'origen.
+- **Estructures circulars sense propòsit comercial.** Espanya → LLC US → Societat Estònia → Compte als EAU → Tornada a Espanya com a dividend. La regla antiabús GAAR (Espanya: art. 15 LGT, UE: ATAD) desfà la cadena quan l'únic propòsit és fiscal i no hi ha substància operativa real en cada baula. Hisenda recalifica com a renda directa des del primer dia i aplica les sancions màximes.
+- **Preus de transferència inexistents o ficticis.** Si la teva LLC US factura a la teva societat espanyola quantitats que no se sostenen en mercat (overcharging per buidar la base espanyola) o si la teva societat als EAU factura a la teva LLC serveis que no es presten, l'ajust de preus de transferència (Espanya: TRLIS art. 16) recalifica amb sanció de fins al 100% de la diferència.
+- **Beneficial ownership ocultat.** Nominee director sense operating control real, fideïcomisos opacs sense substance trustee, prestanoms familiars per esquivar el BOI. Tres jurisdiccions cooperen ja: BOI (US), Registre UBO (UE), CRS (global). Amagar l'UBO real és delicte de blanqueig agreujat, no infracció tributària. La presó és opció.
+- **No declaració a la residència.** Espanya (Model 720 + 721 + IRPF), França (3916 + IR), Itàlia (RW), Alemanya (AStG). La sanció per no declarar pot ser superior a l'impost degut (50%-150% + interessos). I, si Hisenda ho descobreix via CRS abans de la teva regularització voluntària, no hi ha rebaixa per confessió.
+- **Barrejar diners personals i societaris sense traçabilitat.** Targeta de la LLC per a despeses personals, transferències a la família sense concepte, draws sense document. Trenca responsabilitat limitada, complica la comptabilitat i, en inspecció, s'interpreta com a simulació de l'activitat empresarial.
 
 ### El que més ens pregunten
 
-**Com sé si la meva estructura té risc?** Substància, preus de mercat, declaració a la residència, propòsit comercial. Qualsevol "no" = risc.
+**Com sé si la meva estructura actual té risc?** Quatre indicadors senzills: (1) hi ha substància operativa real en cada entitat? (2) els preus entre entitats són de mercat? (3) està tot declarat a la residència? (4) el flux té propòsit comercial més enllà del fiscal? Si alguna resposta és no, hi ha risc.
 
-**Com es regularitza?** Auditoria interna, regularització voluntària per jurisdicció, reestructuració.
+**Com es regularitza una estructura mal muntada?** Auditoria interna primer (què es va incomplir i quan), regularització voluntària amb assessor en cada jurisdicció (filings tardans + reasonable cause + abatement programs), i restructuració cap a un setup tècnicament correcte. L'ordre importa tant com les accions.
 
-A Exentax fem due diligence i redissenyem cap a setups que passen inspecció.
+A Exentax fem due diligence d'estructures heretades, regularitzem i redissenyem cap a setups que passen inspecció — perquè l'optimització legítima existeix, però no s'assembla mai al que ven un canal de Telegram.
 <!-- /exentax:execution-v2 -->
 
-## Risc 5: Treaty shopping i abús del CDI
+## El teu pròxim pas amb Exentax
 
-El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
+A Exentax constituïm i mantenim LLC de no residents diàriament: estat, EIN, Operating Agreement, BOI quan s'aplica, banca amb Mercury i Wise, passarel·les Stripe i Adyen, comptabilitat mensual, Form 5472 i 1120 pro-forma cada any, i coordinació amb la teva fiscalitat al país de residència. Si vols validar el teu cas amb dades reals, agenda una assessoria amb el nostre equip i t'expliquem pas a pas com encaixaria en la teva situació concreta.
 
+<!-- exentax:cross-refs-v1 -->
+### Més lectures relacionades
+
+- [Estructures offshore: beneficis reals i riscos honestos](/ca/blog/estructures-offshore-beneficis-i-riscos-reals)
+<!-- /exentax:cross-refs-v1 -->
 
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
@@ -107,33 +163,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">11.683</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…art. 5-A CFF, Colombia: art. 869 ET, Argentina: art. 2 Ley 11.683). Hay simulación cuando …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…xico, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posi…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…e delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP). **Cóm…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…una participación, directa o indirecta, igual o superior al 50% en la entidad no residente…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">75%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…butación efectiva de la entidad no residente es inferior al 75% de la que correspondería e…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…entes (IRNR) por las rentas atribuibles al EP, con tipo del 25% (Impuesto sobre Sociedades…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">240.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…cuota defraudada por ejercicio fiscal supera **120.000 €** (240.000 € si la administración…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n ese umbral con relativa facilidad: si tu actividad genera 200.000 € anuales y deberías h…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…idad genera 200.000 € anuales y deberías haber tributado al 47% pero declaraste al 0%, en …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…nuales y deberías haber tributado al 47% pero declaraste al 0%, en dos años cruzas el umbr…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ámbito penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraud…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">600%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Ti…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…udada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura orga…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…r&quot;&gt;OCDE&lt;/a&gt; con sus Comentarios. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación chec…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §77…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…U.** Treas. Reg. §301.7701-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y normativa F…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…cación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…reformó el Modelo 720 tras la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…caciones de cambio de domicilio, datos bancarios CRS, datos DAC7, vehículos a tu nombre, e…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…nto, declara mal o no declara. 2. Año 3: cruce CRS / DAC7 / DAC8 detecta inconsistencias. …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…13 en vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

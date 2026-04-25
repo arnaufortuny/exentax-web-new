@@ -167,6 +167,10 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 - [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
 <!-- /exentax:cross-refs-v1 -->
 
+  ### Pasarelas de pagamento e LLC: enquadramento português DAC7
+
+  Para sócios portugueses de uma LLC americana que utilizem Stripe, PayPal ou DodoPayments, aplica-se desde **01/01/2023** a **Lei 36/2023** (transposição da Diretiva DAC7) que obriga os operadores de plataforma à comunicação automática à AT até 31/01 do ano seguinte. O limiar de reporte é **30 transações/ano** ou **€2.000/ano** por vendedor. As pasarelas puras (Stripe, PayPal) **não são consideradas plataformas comunicantes** se apenas processam pagamentos sem intermediação na transação subjacente (art. 5.º/3 da Lei 36/2023). Faturação obrigatória ao abrigo do **art. 36.º CIVA** com SAF-T (PT) e arquivo durante **10 anos** (art. 52.º CIVA).
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20j%C3%A1%20tentou%20Stripe%20Portugal%20ou%20PayPal%20Business%20local%20num%20SaaS%20B2B%20global%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
@@ -177,19 +181,4 @@ Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita<
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">99%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">49%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">8%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

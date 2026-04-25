@@ -1,153 +1,163 @@
 export default `
 
-Wise Business (formerly TransferWise) is the most-used multi-currency fintech among owners of <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLCs</a> and international entrepreneurs in general. Its value proposition is clear: mid-market FX, local IBAN in EUR, GBP, USD and other currencies, and low fees. But Wise is also a European financial institution subject to the **Common Reporting Standard (CRS)**, with real implications worth knowing before integrating Wise into your structure.
+Wise Business (formerly TransferWise) is the multi-currency fintech most owners of <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLCs</a> set up first, alongside any international entrepreneur who needs to move money across borders. The pitch is straightforward: mid-market FX, local IBANs in EUR, GBP, USD and a dozen other currencies, and fees so low they barely register. What most people miss is that Wise is also a fully regulated European financial institution under the **Common Reporting Standard (CRS)**, and that piece of the puzzle has very real implications you want to understand before you wire your LLC's money through it.
 
-## Which Wise entity operates your account and where it reports
+## Which Wise entity actually holds your account and where it reports
 
-Wise operates through several regulated entities:
+Wise does not operate as a single global company. It operates through several regulated entities, and the one that holds your account decides which tax authority sees your data:
 
-- **Wise Europe SA** (Belgium): EMI regulated by the **National Bank of Belgium (NBB)**. The entity that serves European clients since the loss of EU passporting after Brexit. Reports CRS to the **Service Public Fédéral Finances** in Belgium, which activates bilateral exchange with the holder's country of residence.
-- **Wise Payments Limited** (UK): EMI regulated by the FCA. Continues serving UK and some legacy clients.
-- **Wise US Inc.**: regulated in the US as MSB (Money Services Business). CRS does not apply because the US is not adhered.
-- Subsidiaries in Singapore, Australia, India, etc., with their own regulators.
+- **Wise Europe SA** (Belgium): an Electronic Money Institution (EMI) regulated by the **National Bank of Belgium (NBB)**. It has been the entity serving European clients ever since the UK lost EU passporting rights after Brexit. It reports CRS to the **Service Public Fédéral Finances** in Belgium, which then triggers the bilateral information exchange with the tax authority of the holder's country of residence.
+- **Wise Payments Limited** (United Kingdom): EMI regulated by the FCA. Still serves UK customers and a handful of legacy accounts.
+- **Wise US Inc.**: regulated in the United States as a Money Services Business (MSB). CRS does not apply here because the United States never signed up to it.
+- Subsidiaries in Singapore, Australia, India and other markets, each with its own local regulator and its own reporting rules.
 
-For European clients and for LLCs with European representation, the typical setup is the account being held with **Wise Europe SA (Belgium)**. Therefore, CRS reporting flows out of Belgium and reaches your country of residence.
+For European clients and for any LLC opened with European representation in the KYC, the default setup is that the account sits with **Wise Europe SA (Belgium)**. Net result: the CRS report leaves Belgium and lands at your home country's tax office every year, no matter where the LLC was formed.
+
 ### Regulatory framework
 
-- **<a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>**: Common Reporting Standard.
+- **<a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>**: the Common Reporting Standard.
 - **EU**: Directive 2011/16/EU as amended by DAC2.
-- **Belgium**: Law of 16 December 2015 on automatic exchange of financial information (LIAFI) and implementing royal decrees.
-- **Spain (receiving)**: Royal Decree 1021/2015, Form 720, Form 721. We expand in our article on <a href="/en/blog/crs-for-residents-in-spain-and-latam-real-implications">CRS for residents in Spain and LATAM</a>.
-### What information Wise sends via CRS
+- **Belgium**: Law of 16 December 2015 governing the automatic exchange of financial information (LIAFI) and the implementing royal decrees.
+- **Spain on the receiving end**: Royal Decree 1021/2015, **Modelo 720** (the Spanish foreign-asset return for accounts, securities and real estate held outside Spain) and **Modelo 721** (the equivalent for crypto assets held abroad). We dig into the receiving side in our piece on <a href="/en/blog/crs-for-residents-in-spain-and-latam-real-implications">CRS for residents in Spain and LATAM</a>.
 
-Same as any Reporting Financial Institution under CRS:
+### What information Wise sends under CRS
+
+The same information any Reporting Financial Institution sends under CRS, no more, no less:
 
 | Block | Detail |
 | --- | --- |
 | Individual holder | Name, address, declared tax residence, TIN, date and place of birth |
-| Entity holder | Legal name, address, EIN/TIN, CRS classification (Active/Passive NFE, Investment Entity) |
-| Controlling persons | If the entity is Passive NFE: beneficial-owner data (25% direct/indirect threshold or effective control) |
-| Account | IBAN(s) in each currency, internal Wise number |
-| Balance | Aggregated balance at 31 December (Wise manages pools per currency; the report aggregates) |
-| Income | Interest if applicable (Wise Interest, Assets), gross dividends, gross redemption proceeds (custodial accounts, Assets program) |
+| Entity holder | Legal name, address, EIN/TIN, CRS classification (Active NFE, Passive NFE, Investment Entity) |
+| Controlling persons | If the entity is Passive NFE: beneficial-owner data (25% direct or indirect ownership threshold, or any other form of effective control) |
+| Account | Every IBAN you hold by currency, plus the internal Wise reference |
+| Balance | Aggregated balance as of 31 December (Wise pools money by currency; the report aggregates across pools) |
+| Income | Interest if any (Wise Interest, Wise Assets), gross dividends, gross redemption proceeds (treated as custodial-account income, with the Assets program in mind) |
 
-The **Wise Interest** product and Wise's investment products on money-market funds clearly fall under custodial-account reporting, which adds gross-income detail to the balance.
-### CRS classification of your LLC at Wise
+Both the **Wise Interest** product and the Wise investment products built on money-market funds clearly fall under custodial-account reporting. That means gross income detail is added on top of the closing balance, not as a substitute.
 
-When you open a Wise Business account for your LLC, Wise applies CRS due diligence to the entity. It will ask you to complete the **CRS Self-Certification** form indicating:
+### How Wise classifies your LLC under CRS
 
-- LLC tax residence: US.
-- Classification: Active NFE, Passive NFE, Investment Entity, Reporting Financial Institution, etc.
-- Controlling persons (with their data: name, address, residence, TIN, date and place of birth).
+When you set up a Wise Business account for your LLC, Wise runs CRS due diligence on the entity itself. You will be asked to fill out the **CRS Self-Certification** form and to confirm:
 
-In practice, a single-member services LLC usually meets the **Active NFE** criteria (more than 50% of income is operational, not passive). However, Wise tends to apply conservative criteria: if documentation is not robust or the activity cannot be evidenced, it classifies as **Passive NFE** and reports to the controlling person.
+- The LLC's tax residence: United States.
+- Its classification: Active NFE, Passive NFE, Investment Entity, Reporting Financial Institution, etc.
+- The controlling persons (full data set: name, address, tax residence, TIN, date and place of birth).
 
-The consequence: even though the LLC is American and the US does not participate in CRS, **the data on your ownership and balances will reach your national tax authority** from Belgium.
-### When and how reporting happens
+In practice, a single-member services LLC normally meets the **Active NFE** test (more than 50% of its income is operating income, not passive). But Wise plays it conservative: if your documentation is thin or the activity cannot be evidenced cleanly, it will classify the LLC as **Passive NFE** and report the controlling person directly.
 
-- Year-end: 31 December.
+The bottom line you cannot dodge: even though the LLC is American and the United States never joined CRS, **the data on who owns it and how much sits in the account will reach your home tax authority** through Belgium.
+
+### When and how reporting actually happens
+
+- Year-end snapshot: 31 December.
 - Wise sends the CRS report to the Belgian authority typically between March and June of the following year.
-- Belgium forwards to the tax authorities of the residence country of each holder and controlling person, normally before 30 September.
-- Your tax authority has the data and cross-checks it against your filings.
+- Belgium forwards the data to the tax authorities of each holder's and controlling person's country of residence, normally before 30 September.
+- Your tax office sits on the data and cross-checks it against your filings (in Spain, that means IRPF plus Modelo 720, plus Modelo 721 if you also hold crypto abroad).
 
-So balances at Wise as of 31/12/2025 are cross-checked with your current-year IRPF (filed May-June today) and your Form 720 (filed March today).
-### Common mistakes with Wise and tax
+So the Wise balance you carried on 31/12/2025 is matched against the IRPF return you file in May–June and against the Modelo 720 you file in March of the following year. Two different forms, one single reconciliation.
 
-1. **"Wise is just a payment processor, nobody finds out."** False. Wise is a regulated financial institution fully subject to CRS.
-2. **"If I put the LLC, I'm not personally reported."** False for Passive NFE: controlling persons are reported. And most single-member LLCs end up classified as Passive NFE out of bank caution.
-3. **"My average balance is low, no reporting."** Wise reports the year-end balance regardless of fluctuations. CRS has no minimum threshold for pre-existing accounts since 2017 or for new accounts.
-4. **"I didn't declare Wise on my Form 720 because it was small."** The Form 720 threshold is aggregate across all your foreign accounts, not per account.
-5. **"I'll only use Wise for FX, not custody."** Even using Wise only as an operational deposit account, it remains a reportable financial account. The deposit/custody distinction affects income detail, not the balance report.
-### Comparison with Revolut and Mercury
+## The most common mistakes we see with Wise and tax
+
+1. **"Wise is just a payment rail, nobody really sees this."** Wrong. Wise is a regulated financial institution and is fully subject to CRS, just like a high-street bank.
+2. **"If I put the LLC on the form, my name doesn't appear."** Wrong for any Passive NFE: the controlling persons get reported by name. And most single-member LLCs end up classified as Passive NFE, simply because the bank prefers caution.
+3. **"My average balance was tiny, so I won't be reported."** Wise reports the closing balance on 31 December, regardless of how it moved during the year. CRS has no minimum threshold for pre-existing accounts since 2017, and none for new accounts either.
+4. **"I left Wise off my Modelo 720 because it was small."** The Modelo 720 threshold is the aggregate across every foreign account you hold, not a per-account limit. If Wise plus Mercury plus Revolut plus N26 together cross 50,000 €, every one of them needs to be declared.
+5. **"I'll only use Wise for FX, not as custody."** Even when you only use Wise as an operating deposit account, it is still a reportable financial account. The deposit-versus-custody distinction changes the income-detail block, not the balance report itself.
+
+### How Wise compares with Revolut and Mercury
 
 | Aspect | Wise Europe (BE) | Revolut Bank UAB (LT) | Mercury (US) |
 | --- | --- | --- | --- |
 | Subject to CRS | Yes | Yes | No |
-| Reports LLC beneficial owner | Yes (typical Passive NFE) | Yes (typical Passive NFE) | No |
-| Native investment product | Wise Assets, Interest | Stocks, Vault | Treasury, FDIC sweep |
+| Reports the LLC's beneficial owner | Yes (typical Passive NFE) | Yes (typical Passive NFE) | No |
+| Native investment product | Wise Assets, Wise Interest | Stocks, Vault | Treasury, FDIC sweep |
 | Native multi-currency | Excellent | Excellent | Mainly USD |
-| Suitability as LLC primary account | Secondary | Secondary | Primary |
+| Suitability as the LLC's primary account | Secondary | Secondary | Primary |
 
-Expanded comparison in <a href="/en/blog/wise-business-with-your-llc-the-complete-guide-to-multi">the complete guide to Wise Business for your LLC</a> and in <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut and CRS</a>.
-### How to plan correctly
+We expand the comparison in <a href="/en/blog/wise-business-with-your-llc-the-complete-guide-to-multi">the complete guide to Wise Business for your LLC</a>, in <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">our dedicated Revolut and CRS piece</a> and, specifically for the Belgian IBAN, in <a href="/en/blog/wise-iban-and-llc-what-actually-gets-reported-to-the-tax">what the Wise IBAN tied to your LLC actually reports to your tax office</a>.
 
-1. **Declare correctly from the start.** Indicate your LLC's CRS classification and controlling persons accurately. Lying or omitting is an infringement and can be a crime.
-2. **Keep Wise as a secondary operational account**, not as the LLC's primary, if you want to minimize CRS footprint to your country. Mercury remains the natural primary.
-3. **Ensure documentary consistency.** Your Wise CRS self-certification, your Form 720 (Spain) or LATAM equivalent, and your IRPF must align.
-4. **Consider the closing balance.** If you'll have a high balance at 31/12, plan for it to be declared and justified (origin, purpose, taxes paid).
-5. **Know the wider framework**: <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">your overall structure design</a> determines whether Wise + LLC + your residency works or not.
-### In summary
+### How to set this up properly
 
-Wise Business is not a shortcut to avoid tax reporting: it's an excellent regulated fintech that reports via CRS from Belgium to your tax authority. Well-integrated into a coherent structure with your US LLC, it's very useful. Misintegrated or used with inaccurate self-certifications, it's the source of the most typical tax problems we see.
+1. **Get your self-certification right from day one.** Be precise about the LLC's CRS classification and about who the controlling persons are. Lying or omitting is an infraction and, in some jurisdictions, a crime.
+2. **Use Wise as a secondary operating account**, not as your LLC's main account, if you want to keep the CRS footprint to your country to a minimum. Mercury remains the natural primary for a US LLC.
+3. **Keep your paperwork consistent.** Your CRS self-certification at Wise, your Modelo 720 (Spain) or its LATAM equivalent, and your IRPF must all tell the same story.
+4. **Plan your closing balance.** If you know you will hit 31/12 with a high balance, plan for it to be properly declared and properly justified (origin of funds, business purpose, taxes already paid).
+5. **Zoom out to the rest of the framework**: <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">your overall structure design</a> is what decides whether Wise plus LLC plus your residency holds together or falls apart.
+
+### The summary
+
+Wise Business is not a shortcut around tax reporting. It is an excellent regulated fintech that reports through CRS from Belgium to your home tax office. Used inside a coherent structure with your US LLC, it is genuinely useful. Used badly, or with self-certifications that do not match reality, it becomes the single most common source of the tax problems we end up cleaning up.
+
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
-A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
+A US LLC is a fully legal, internationally recognized vehicle. But compliance does not stop at formation: as an owner who is tax-resident somewhere else, your local tax authority still has the right to tax whatever the LLC earns. The real question is **under which regime** that taxation happens.
 
 ### By jurisdiction
 
-- **Spain (LIRPF/LIS).** An operative single-member disregarded LLC (real services, no significant passive income) is generally treated under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and integrated into the general IRPF base. If instead the LLC elects corporation treatment (Form 8832) and is controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** can apply. The choice is not optional: it depends on economic substance, not on the label.
-- **Information returns.** US bank accounts with average or year-end balance >€50,000: **Form 720** (Law 5/2022 after CJEU C-788/19, 27/01/2022, penalties now under the general LGT regime). Related-party transactions and dividend repatriation: **Form 232**. US-custodied crypto: **Form 721**.
-- **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force 27/11/2019) governs double taxation on dividends, interest and royalties. An LLC without a permanent establishment in Spain does not by itself create a PE for the member, but effective management can if all activity is run from Spanish territory.
-- **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
-Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
+- **Spain (LIRPF/LIS).** When the LLC is an operating *Single-Member Disregarded Entity* (real services, no significant passive income), the Spanish tax office normally treats it under **income attribution (art. 87 LIRPF)**: the LLC's net profits are attributed to the member in the year they arise and folded into the general IRPF base. If instead the LLC elects corporation tax treatment via Form 5472 paired with **Form 8832** (the IRS election form) and ends up controlled by a Spanish resident with mostly passive income, the **CFC regime (art. 91 LIRPF for individuals, art. 100 LIS for companies)** kicks in. The choice is not optional: it follows the economic substance, not the label on the paperwork.
+- **Information returns.** US bank accounts whose average or year-end balance crosses 50,000 €: **Modelo 720** (the Spanish foreign-asset return, updated by Law 5/2022 after the CJEU ruling C-788/19 of 27/01/2022; penalties now sit inside the general LGT regime). Related-party transactions with the LLC and any dividends sent home: **Modelo 232**. Crypto assets custodied in the US: **Modelo 721**.
+- **Spain–US tax treaty.** The treaty (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol in force from 27/11/2019) governs the double-taxation rules on dividends, interest and royalties. An LLC with no permanent establishment in Spain does not by itself create a PE for the member, but effective management absolutely can if the entire business is run from Spanish territory.
+- **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). The shared logic: profits parked inside the LLC are treated as received by the member whenever the entity is considered transparent or controlled.
+
+The practical rule: an operating LLC with real substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic basis lands inside **art. 15 LGT (anti-abuse)** or, in the worst case, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
-At Exentax we structure the entity to fit the first scenario and document every step so your local return can be defended in case of review.
+At Exentax we set up the structure so it lands in the first scenario, and we document every step so your local return holds up cleanly under any future review.
 
 <!-- exentax:cta-mid -->
-**Sounds heavy?** <a href="/en/services">Our services</a> already cover "Wise Business and CRS: what it reports to your tax authority and how to fit it in your structure", filed on time, with nothing for you to touch.
+**Sounds heavy?** <a href="/en/services">Our services</a> already cover "Wise Business and CRS: what it reports to your tax authority and how to fit it into your structure", filed on time, with nothing left for you to touch.
 
 <!-- exentax:cta-final -->
-**Tell us your situation and we'll tell you where to start.** Book a 30-minute call about "Wise Business and CRS: what it reports to your tax authority and how to fit it in your structure" and we'll go through it.
-## We set it up without you losing a weekend
+**Tell us your situation and we will tell you where to start.** Book a 30-minute call about "Wise Business and CRS: what it reports to your tax authority and how to fit it into your structure" and we will walk through it together.
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
-## Wise Business and CRS: how it reports to your tax authority and why to always declare
+<!-- exentax:legal-refs-v1 --><!-- exentax:execution-v2 -->
+## Wise Business and CRS: how it reports to your tax authority and why you should always declare
 
-Wise Business for your LLC is operationally excellent - multi-currency, cheap FX, local IBANs in several countries - and for fiscal reporting it is a fully CRS-subject financial institution. If tax-resident in Spain, France, Italy, Germany, Portugal or any CRS country, your tax office receives data every year. Worth knowing exactly what arrives and how it cross-checks.
+Wise Business is operationally excellent for your LLC — multi-currency, cheap FX, local IBANs in several jurisdictions — and from a reporting standpoint it is a financial institution fully subject to CRS. If you are tax-resident in Spain, France, Italy, Germany, Portugal or any other CRS country, your tax office gets the data every single year. It pays to know exactly what arrives and how it gets cross-checked.
 
-- **Regulatory status of Wise Business.** Wise operates with multiple licences: Wise Payments Limited (UK FCA), Wise Europe SA (Belgium NBB), Wise USD Inc (US <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>), among others. Each regional entity reports per its jurisdiction regime. For European Wise Business users, CRS reporting is by Wise Europe SA to the National Bank of Belgium, sharing with rest of CRS jurisdictions - including UBO residence.
-- **Exact data transmitted.** UBO identification per KYC (name, ID/passport, address, declared tax residence at onboarding), 31 December balance per currency (Wise multi-currency reports per USD/EUR/GBP balance), total annual gross movements, account identifiers (Belgian BE IBAN for EUR, USD routing for USD, etc.). NO individual transactions, aggregates yes.
-- **Automatic cross-check with your IRPF/IS.** Spain links CRS data with your tax ID to cross with: (1) Form 720 if last-quarter average or 31/12 balance exceeds €50k, (2) Form 721 if crypto > thresholds, (3) IRPF in LLC income attribution. If numbers do not match, automatic alert. Typical: information request followed by verification procedure if you do not reply with documentation.
-- **What changes if LLC has Wise Business.** Wise Business EUR (Belgian account) reports faster and more completely than Wise USD (US sub-licence account). If you have both (Wise multi-currency) both report, through different channels (Belgium → CRS, US → FATCA-IGA). Practical consequence: fiscal visibility is the same, only latency changes.
+- **Wise Business regulatory status.** Wise operates under multiple licences: Wise Payments Limited (UK, FCA), Wise Europe SA (Belgium, NBB), Wise USD Inc. (US, <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>), and others. Each regional entity reports under its own jurisdiction's rules. For European Wise Business users, CRS reporting flows from Wise Europe SA to the National Bank of Belgium, which forwards to every other CRS jurisdiction — including the country where the ultimate beneficial owner lives.
+- **The exact data transmitted.** Identification of the beneficial owner from the KYC file (full name, ID or passport, address, declared tax residence at onboarding), balance on 31 December broken down by currency (Wise multi-currency reports each USD, EUR and GBP balance separately), total gross movement for the year, and the account identifiers (Belgian BE IBAN for EUR, US routing number for USD, etc.). Individual transactions are NOT transmitted; aggregates are.
+- **The automatic cross-check with your IRPF or corporate return.** Spain links the CRS data to your tax ID and crosses it against: (1) Modelo 720 if the last-quarter average balance or the 31/12 balance exceeds 50,000 €; (2) Modelo 721 if your crypto holdings cross the threshold; (3) IRPF in the income-attribution box for the LLC. If the numbers do not line up, an automatic flag fires. Typical chain: information request, then a verification procedure if you do not respond with documentation.
+- **What changes when your LLC adds Wise Business.** Wise Business EUR (the Belgian account) reports faster and more completely than Wise USD (the US sub-licence account). If you have both (Wise multi-currency), both get reported, but through different channels (Belgium → CRS, US → FATCA-IGA). Practical consequence: the fiscal visibility is identical, only the latency changes.
 
-### What we are asked the most
+### What we get asked the most
 
-**If I open Wise Business as LLC, does it report to US or my country?** Reports to UBO's tax residence (the individual). If you said Spain at KYC, goes to Spain via CRS. LLC is transparent for UBO identification.
+**If I open Wise Business as the LLC, does it report to the US or to my country?** It reports to the tax residence of the ultimate beneficial owner — the individual behind the entity. If you said "Spain" at KYC, the data goes to Spain via CRS. The LLC is treated as transparent for the purpose of identifying the UBO; CRS looks at the human behind it.
 
-**Can I declare LLC at residence without declaring Wise specifically?** No. LLC is one thing (income attribution or dividend per country), Wise is LLC's bank account and you must declare it in corresponding form (720 Spain, 3916 France, RW Italy). Two different obligations with two automatic cross-checks.
+**Can I declare the LLC at residence without specifically declaring Wise?** No. The LLC is one obligation (income attribution or dividend treatment, depending on country). Wise is the LLC's bank account and you must declare it on the corresponding form (Modelo 720 in Spain, Form 3916 in France, RW in Italy). They are two different obligations and both cross-checks fire automatically.
 
-At Exentax we structure Wise + Mercury + Stripe accounts considering what CRS and FATCA report, and plan declarations (720, 721, 3916, RW) - so automatic cross-check generates no request or imputation sanction.
+At Exentax we set up Wise + Mercury + Stripe accounts with CRS and FATCA reporting in mind from day one, and we plan the local filings (720, 721, 3916, RW) so the automatic cross-check never triggers an information request or an attribution penalty.
 <!-- /exentax:execution-v2 -->
 
-## How we work at Exentax
+## References: sources and banking framework
 
-Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+The banking operations described above rest on public documentation and on the policies currently in force at each platform:
 
-<!-- exentax:cta-v1 -->
+- **Bank Secrecy Act and FinCEN.** 31 U.S.C. §5318 (mandatory KYC/AML programs for financial institutions), 31 CFR Part 1010 (CIP, customer identification) and 31 U.S.C. §5336 with the FinCEN Reporting Rule effective 1 January 2024 (Beneficial Ownership Information Report).
+- **FATCA and CRS.** IRC §1471–1474 (FATCA and the W-8/W-9 forms), the Model 1 Intergovernmental Agreements signed by the United States with Spain and several LATAM countries, and the OECD Common Reporting Standard (CRS), which the US does not participate in but which still applies to fintechs holding European licences (Wise Europe SA in Belgium, Revolut Bank UAB in Lithuania).
+- **Specific platforms.** Published terms of service, privacy policies and regulatory FAQs of Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN MSB in the US; Wise Europe SA in the EU; Wise Payments Ltd. in the UK), Revolut Business and Payoneer.
+
+For information purposes; every banking case needs its own analysis of KYC, residency jurisdiction and operational volume.
+
+<!-- exentax:cross-refs-v1 -->
+### Further reading
+
+- [Visa and Mastercard: what tax authorities really see of your card spending](/en/blog/visa-mastercard-reporting-what-tax-authorities-see-from-card)
+<!-- /exentax:cross-refs-v1 -->
+
+Want to apply this protocol to your own case? <a href="/en/book">Book a session with the Exentax team</a> and we will go through your LLC with real numbers in thirty minutes, no commitment.
+
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22wise%20business%20crs%20reporting%20fiscal%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
+<p data-testid="cta-action-row">Want to talk now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22wise%20business%20crs%20reporting%20fiscal%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we will get back to you the same day.</p>
 
-If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
+If you would rather discuss it live, <a href="/en/book">book a free session</a> and we will review your real case in thirty minutes.
 <!-- /exentax:cta-conv-v1 -->
 
+<!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…s Passive NFE: datos de los beneficiarios efectivos (umbral 25% directo/indirecto o contro…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ios suele cumplir los requisitos de **Active NFE** (más del 50% de sus ingresos son operat…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…por cuenta. Si entre Wise + Mercury + Revolut + N26 superas 50.000 €, todas se declaran. 5…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ing Standard. - **UE**: Directiva 2011/16/UE modificada por DAC2. - **Bélgica**: ley de 16…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

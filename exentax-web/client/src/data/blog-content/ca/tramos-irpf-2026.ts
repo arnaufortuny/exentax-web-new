@@ -26,7 +26,6 @@ Hi ha tres errors que cada any fan pagar de més a contribuents amb perfils molt
 Si la teva base general supera de forma estable els 60.000 euros i la font d'ingressos és una activitat econòmica que pots facturar des d'una societat, convé comparar l'IRPF d'autònom (tipus marginal 45-47%) amb l'Impost sobre Societats (Llei 7/2024: microempreses amb xifra <1 M€ tributen al 19% en els primers 50.000 € i 21% sobre la resta el 2026; ERD 1-10 M€ al 23%; tipus general 25%) més el cost de repatriar benefici via dividend. Per a perfils 100% digitals amb clients internacionals, també val la pena modelar l'<a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">alternativa de la LLC americana</a>, que en molts casos redueix la càrrega combinada respecte a continuar com a autònom espanyol als trams alts de l'IRPF.
 Per verificar les tarifes, consulta el <a href="https://sede.agenciatributaria.gob.es/">portal de l'Agència Tributària espanyola</a> i la <a href="https://www.boe.es/">Llei 35/2006 de l'IRPF al BOE</a>. La planificació fiscal real combina conèixer la tarifa, ordenar les teves rendes entre base general i estalvi, esgotar deduccions legítimes i, quan els números ho justifiquen, valorar un canvi d'estructura.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -61,33 +60,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">12.450</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…tramos progresivos sobre la base liquidable general: hasta 12.450 euros tributa al 9,5%; d…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…la base liquidable general: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%;…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">20.200</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…le general: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">12%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…: hasta 12.450 euros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">35.200</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ros tributa al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a al 9,5%; de 12.450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.000 al 18,…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">60.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…450 a 20.200 al 12%; de 20.200 a 35.200 al 15%; de 35.200 a 60.000 al 18,5%; de 60.000 a 3…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…0 a 35.200 al 15%; de 35.200 a 60.000 al 18,5%; de 60.000 a 300.000 al 22,5%; y a partir d…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…activos. La base del ahorro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hast…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…La base del ahorro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000,…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…horro tiene tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 20…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…e tarifa propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27%…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…propia más suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 30…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…s suave: 19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 2…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">27%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…19% hasta 6.000 euros, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 28% por en…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…s, 21% hasta 50.000, 23% hasta 200.000, 27% hasta 300.000 y 28% por encima. Entender que u…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…iles muy normales. El primero es no aprovechar el límite de 1.500 euros anuales de aportac…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">8.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…es de aportación a planes de pensiones individuales más los 8.500 a planes de empleo: el a…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…8.500 a planes de empleo: el ahorro fiscal puede llegar al 47%. El segundo es no planifica…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…en dos ejercicios fiscales evita saltar al tramo del 27% o 30%. El tercero, en autónomos, …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…1% sobre el resto en 2026; ERD 1-10 M€ al 23%; tipo general 25%) más el coste de repatriar…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…l coste de repatriar beneficio vía dividendo. Para perfiles 100% digitales con clientes in…»</span> <strong>[NO VERIFICAT]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

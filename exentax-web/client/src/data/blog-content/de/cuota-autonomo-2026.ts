@@ -26,7 +26,6 @@ Jedes Jahr gleicht die TGSS die vorläufig gezahlten Beiträge mit dem realen, i
 Für rein digitale Profile mit überwiegend internationalen Kunden ermöglicht eine <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">gut strukturierte US-LLC</a>, das RETA abzumelden und als juristische Person aus den USA zu operieren, mit Jahres-Wartungskosten weit unter der Autonomo-Jahresquote. Bedingung ist, dass Tätigkeit und Rechnungsstellung tatsächlich über die LLC laufen, nicht als bloße Fassade. Liegt Ihre Monatsbemessung bei rund 6.000 Euro und nähert sich der Mindestbeitrag 607 Euro (während das Maximum der Stufe 1.607 Euro erreicht), kann die Nettoersparnis sogar die Koordinationskosten mit Ihrem spanischen Steuerberater übersteigen.
 Prüfen Sie die geltende offizielle Tabelle im <a href="https://www.seg-social.es/">Portal der spanischen Sozialversicherung</a> und das <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960">Königliche Gesetzesdekret 1/1994</a>, das RETA regelt. Heute zu wenig zu zahlen kann morgen teuer werden; unnötig zu viel zu zahlen schmälert Ihre Ersparnisse. Der Schlüssel ist eine realistische Bemessung und vierteljährliche Überprüfung.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -61,27 +60,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.607</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…nos 607 euros mensuales para rendimientos por encima de los 6.000 euros. Esta guía recoge …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…vas como la LLC americana, especialmente si tu actividad es 100% digital y la mayor parte …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.700</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s netos) cotizan unos 205-225 euros al mes; el tramo medio (1.700-2.030 euros netos, donde…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">2.030</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…s) cotizan unos 205-225 euros al mes; el tramo medio (1.700-2.030 euros netos, donde se co…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.275</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…se máxima de tu tramo, la cuota puede dispararse hasta unos 1.275 euros mensuales en los t…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">7%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…encia entre ingresos íntegros y gastos deducibles, menos un 7% para autónomos personales y…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">3%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…stos deducibles, menos un 7% para autónomos personales y un 3% para autónomos societarios …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ón real. Sobre esa base se aplica un tipo conjunto del **31,5%** (cubre contingencias comu…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">33%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…xisten bonificaciones específicas: discapacidad superior al 33%, víctimas de violencia de …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">4.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…oste fiscal-laboral del autónomo. Un freelancer que factura 4.000 euros netos al mes y eli…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">6.050</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…la base mínima paga del orden de 504 euros mensuales (unos 6.050 euros anuales solo de RET…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.seg-social.es" rel="nofollow noopener" target="_blank">www.seg-social.es</a>]</strong></li>
-<li><span class="font-mono">15.300</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ra a la base máxima de su tramo la cuota anual rondaría los 15.300 euros, más un IRPF efec…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…nual rondaría los 15.300 euros, más un IRPF efectivo del 25-30% sobre rendimiento neto. El…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">40%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…sobre rendimiento neto. El total combinado puede superar el 40% de lo facturado. Comparado…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">BOE-A-1994-14960</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…y consulta el &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960&quot;&gt;Real Decreto…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

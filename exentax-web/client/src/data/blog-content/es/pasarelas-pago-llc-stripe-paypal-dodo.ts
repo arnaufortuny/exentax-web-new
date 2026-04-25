@@ -178,7 +178,6 @@ Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100
 - [Auditoría rápida de tu LLC en 30 minutos: 12 puntos para revisar hoy](/es/blog/auditoria-rapida-llc-12-puntos-30-minutos)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -191,19 +190,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">99%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">49%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">8%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

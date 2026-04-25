@@ -221,19 +221,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…s) | | Stripe/Shopify Payments | Procesamiento de pagos | 2.9% + $0.30 | | Amazon Seller C…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…(Merchant of Record), DoDo Payments y PayPal Business. - **DAC7.** Directiva (UE) 2021/514…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

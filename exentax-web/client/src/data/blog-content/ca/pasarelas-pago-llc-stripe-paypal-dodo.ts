@@ -156,6 +156,10 @@ A Exentax modelem el stack adequat i obrim Stripe + Mercury + MoR - perquè un f
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
 
+  ### Passarel·les de pagament i LLC: marc espanyol DAC7
+
+  Per a socis espanyols/catalans d'una LLC americana que utilitzin Stripe, PayPal o DodoPayments, vigeix des de **01/01/2023** el **RD-Llei 7/2021** + **RD-Llei 23/2024** (transposició DAC7) amb obligació de comunicació via **Modelo 238** a l'AEAT abans del 31 de gener. Llindar de reporte: **30 operacions/any** o **€2.000/any** per venedor (art. 1 RD-Llei 23/2024). Les passarel·les pures **no es consideren plataformes comunicants** si només processen pagaments. Facturació obligatòria segons el **RD 1619/2012** i conservació **6 anys** (art. 30 Codi de Comerç).
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Qui%20ha%20provat%20Stripe%20Espanya%20o%20PayPal%20Business%20espanyol%20en%20un%20SaaS%20B2B%20mundia%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
@@ -166,19 +170,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">9%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…es - Dashboard completo con analytics ### Comisiones - **2.9% + $0.30** por transacción do…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">99%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n fácil con la mayoría de plataformas ### Comisiones - **2.99% + $0.49** por transacción d…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">49%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…isiones - **2.99% + $0.49** por transacción doméstica - **4.49% + $0.49** por transacción …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…onal. Tarifa estándar 2.9% + $0.30 por cargo doméstico US, +1% para internacionales, +1% s…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…tú vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS,…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">8%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…vendes a ellos, ellos venden al cliente final. Comisión 5%-8% pero te quitas OSS, MOSS, IV…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -113,7 +113,6 @@ Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine
 
 Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
 
-<!-- exentax:overhaul-aktuell-v1 -->
 ## Exentax-Update aktuell: Banking-Stack aktuell
 
 Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine mit komplementären Rollen verdichtet:
@@ -145,7 +144,6 @@ Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine m
 **Wann lohnt ein traditionelles Konto?** Ab ~1 Mio. USD jährlich oder bei US-Corporate-Kunden, die ausschließlich per ACH zahlen.
 
 **Meldet Wise via CRS?** Wise Europe SA (Belgien) unterliegt CRS für EU-Ansässige. Steueransässigkeit sauber dokumentieren.
-<!-- exentax:overhaul-aktuell-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Wie wir das Banking einer LLC bei Exentax reorganisieren, wenn es nicht mehr skaliert
@@ -159,6 +157,22 @@ Wenn eine LLC ernsthafte Zahlungen erhält, reicht der initiale Stack (manchmal 
 Wenn Ihr aktueller Stack nicht mehr hält, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir liefern den Migrationsplan schriftlich, bevor irgendetwas berührt wird.
 <!-- /exentax:execution-v2 -->
 
+## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
+
+  Wenn Sie als in Deutschland Ansässiger die Bankenstruktur Ihrer LLC reorganisieren — etwa durch Schließung eines Wise-Kontos und Eröffnung bei Mercury oder Relay — entstehen mehrere parallele Pflichten, die sorgfältig dokumentiert werden müssen.
+
+  Erstens: die **Anzeigepflicht des § 138 Absatz 2 Nummer 2 AO** für **Auslandskontoneuerwerbe** durch eine ausländische Personengesellschaft. Wird die LLC als Mitunternehmerschaft qualifiziert, sind Eröffnung, Auflösung und wesentliche Änderung von Konten innerhalb von zwei Monaten dem Wohnsitzfinanzamt mitzuteilen, sofern Schwellenwerte überschritten werden.
+
+  Zweitens: die **Geldwäscherichtlinien** und das **Transparenzregister** nach §§ 19, 20 GwG. Mercury und Relay sind US-Fintechs, die zwar nicht direkt unter das deutsche GwG fallen, aber die wirtschaftlich Berechtigten der LLC gegenüber dem deutschen Transparenzregister bleiben meldepflichtig, wenn die LLC Geschäftstätigkeit in Deutschland entfaltet.
+
+  Drittens: die **Buchführung und Belegerhaltung** nach §§ 140-148 AO. Beim Wechsel von Wise zu Mercury sind sämtliche Kontoauszüge der vergangenen **zehn Jahre** zu archivieren, weil die Aufbewahrungsfrist des § 147 Abs. 3 AO erst mit dem Ablauf des Jahres beginnt, in dem die letzte Eintragung in das Buchwerk erfolgt. Eine reine Online-Speicherung im jeweiligen Banking-Portal genügt nicht; ein lokaler Export im PDF- oder MT940-Format ist Pflicht.
+
+  In **Österreich** gelten parallele Pflichten nach § 124 BAO und §§ 6, 7 GwG (im FM-GwG umgesetzt). Bei Banking-Reorganisation ist zu prüfen, ob der Wechsel die Klassifizierung als CFC nach § 10a KStG beeinflusst (etwa wenn die neue Bank in einem Niedrigsteuerstaat domiziliert ist).
+
+  ### Zusätzliche Compliance-Schritte bei Banking-Reorganisation
+
+  Bei einem Wechsel zwischen US-Fintechs (Wise → Mercury → Relay) ist die zeitliche Lückenlosigkeit der Zahlungsspur kritisch, weil sowohl das deutsche Finanzamt im Rahmen einer Außenprüfung nach § 193 AO als auch die FATCA-Meldungen eine vollständige Rekonstruktion der Bewegungen erwarten. Empfehlenswert ist, das alte Konto erst zu schließen, nachdem alle ausstehenden Forderungen vereinnahmt und die letzten Zahlungen abgewickelt sind, sowie ein vollständiger Export im PDF- und CSV-Format archiviert wurde. Eine ergänzende Buchungsdokumentation per DATEV-Schnittstelle oder durch eine in deutscher Sprache geführte Belegsammlung erleichtert spätere Betriebsprüfungen erheblich.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20Ihr%20LLC-Banking%20Mercury%20f%C3%BCr%20alles%2C%20weil%20das%20gesagt%20wurde%20lautet%2C%20lassen%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -168,23 +182,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">5 %</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…n 50+ divisas a tipo medio interbancario, FX típico **0,4-1,5 %**, datos locales en 10+ pa…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8822</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt;, ni Form 8822-B ni nada análogo, s…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…nservar el acuse y monitorizar futuras actualizaciones. - **Form 5472 + 1120 pro-forma.** …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -204,6 +204,18 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
 
+## El cas específic del resident fiscal a Catalunya o l'Estat espanyol i a Andorra
+
+  L'**impost de sortida (exit tax) espanyol** està regulat a l'**article 95 bis de la Llei 35/2006 de l'IRPF**, introduït per la Llei 26/2014. S'aplica al contribuent que perd la seva residència fiscal a Espanya després d'haver estat resident durant **almenys deu dels últims quinze períodes impositius** i que té accions o participacions en entitats el valor de mercat de les quals supera **4 milions d'euros**, o bé el **25 % de l'entitat** si el valor supera **1 milió d'euros**.
+
+  L'imposició recau sobre la diferència entre el valor de mercat i el valor d'adquisició, tractada com a guany patrimonial al darrer període impositiu de residència fiscal a Espanya, gravat amb les escales de l'estalvi (19 %, 21 %, 23 %, 27 % i 30 % des del 2025). Si el desplaçament és a un estat de la **Unió Europea o de l'EEE amb intercanvi d'informació**, es pot optar per l'**ajornament** fins a la transmissió efectiva, sempre que es comuniqui a l'AEAT en el termini reglamentari. La sentència del **TJUE C-503/14** confirma aquesta exigència de proporcionalitat.
+
+  Per a una **LLC americana** mantinguda per resident espanyol, l'aplicació del 95 bis depèn de la qualificació de la LLC: si és transparent (default), no hi ha participació en entitat amb personalitat jurídica diferenciada des de l'òptica fiscal espanyola; si va optar per Form 8832 a *corporation*, sí que s'aplica el 95 bis si es compleixen els llindars.
+
+  Els **criptoactius** detinguts via Interactive Brokers o wallet privada queden subjectes a l'IRPF com a guanys patrimonials integrats a la base de l'estalvi des de la **Llei 35/2006 art. 33 i seg.** i estan obligats a la declaració al **Model 721** (RD 249/2023, BOE 8/4/2023) per a saldos superiors a **50 000 €** al tancament. El canvi de residència obliga també a actualitzar la situació censal mitjançant **Model 030** i, si escau, a presentar el darrer IRPF en règim de residència fins a la data de sortida.
+
+  Per a residents que es traslladen a **Andorra**, l'**article 11 de la Llei 5/2014 de l'IRPF andorrà** estableix la submissió a tributació mundial sobre la base de la residència fiscal, amb tipus marginal màxim del 10 %. El **Conveni de doble imposició Andorra-Espanya** signat el 8 de gener de 2015 (BOE 7/12/2015) i en vigor des del 26 de febrer de 2016 permet eliminar la doble imposició sobre rendes i guanys patrimonials. El **Conveni Andorra-Estats Units**, signat el 8 de febrer de 2023, **va entrar en vigor l'1 de gener de 2024**, fet que clarifica el tractament dels rendiments d'origen americà i facilita l'aplicació de credits per impostos satisfets als EUA.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Si%20est%C3%A0s%20planificant%20deixar%20Espanya%2C%20o%20ja%20ho%20has%20fet%2C%20i%20tens%20un%20patrimoni%20rel%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
@@ -213,36 +225,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">4.000.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…1** | Valor de mercado de las acciones/participaciones **≥ 4.000.000 €** | | **Umbral 2** …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «….000 €** | | **Umbral 2** | Porcentaje de participación **≥ 25%** en una entidad **Y** val…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1.000.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ipación **≥ 25%** en una entidad **Y** valor de mercado **≥ 1.000.000 €** | Si no se super…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a los tipos del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…s del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…| |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «….000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">27%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…| | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% | **Ejemplo práctico:** Un …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1.200.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…con coste de adquisición de 300.000 € y valor de mercado de 1.200.000 € al abandonar Españ…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">900.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…cipación en alguna entidad, tendría una ganancia latente de 900.000 €. Al tipo marginal de…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…nes ≥25% de participación (que en una SMLLC siempre tienes: 100%) **y** el valor de la LLC…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">800.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ón en la LLC**, no los criptoactivos en sí. Si la LLC vale 800.000 € (todo en cripto) y ti…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">2.000.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…tán sujetas al exit tax en la normativa actual**. Si tienes 2.000.000 € en BTC en tu walle…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">500.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…iempre aplica Muchos inversores con patrimonios de 200.000-500.000 € asumen que el exit ta…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ibutaria con las sanciones del art. 191 LGT (sanción del 50-150% de la cuota) además de in…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…e la vía penal del art. 305 CP (cuota defraudada superior a 120.000 €). ### ¿Cómo se valor…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…2/12/1990, Protocolo en vigor 27/11/2019). - **Treas. Reg. §301.7701-3** (clasificación de…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…donaciones intervivos previas) es donde se gana o pierde el 90% del impacto. ### Lo que má…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…as realizadas son computables fiscalmente). ### ¿Afecta el DAC8 a la situación cripto en e…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

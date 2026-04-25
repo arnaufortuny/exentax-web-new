@@ -61,20 +61,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…stos que sabe documentar. La diferencia entre quien declara 50.000 euros de rendimiento ne…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">35.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…en declara 50.000 euros de rendimiento neto y quien declara 35.000 con la misma facturació…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…do aplique. Los pagos en efectivo por importes superiores a 1.000 euros entre profesionale…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…los gastos más vigilados. La AEAT solo admite deducción del 50% del IVA y del gasto en aut…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…transportistas, autoescuelas y similares pueden deducir el 100%. Las dietas en desplazamie…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…a vivienda Si trabajas desde casa, puedes deducir hasta el 30% del porcentaje de la vivien…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…a la AEAT que afectas 20 m² (un despacho), el 30% sobre el 20% del recibo es deducible. La…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…da como uniforme sin serlo, regalos a clientes superiores a 1% de la cifra de negocios y, …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">BOE-A-2006-20764</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ecogido en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764&quot;&gt;Ley 35/2006 …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

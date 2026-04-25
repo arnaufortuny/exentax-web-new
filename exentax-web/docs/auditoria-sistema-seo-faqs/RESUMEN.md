@@ -1,6 +1,6 @@
 # Auditoría sistema, SEO, sitemap y FAQs — Resumen ejecutivo
 
-Generado: 2026-04-22T09:33:06.434Z
+Generado: 2026-04-25T13:43:11.759Z
 Servidor analizado: http://localhost:5000 (origin sitemap: https://exentax.com)
 
 ## Conteos por área
@@ -8,11 +8,11 @@ Servidor analizado: http://localhost:5000 (origin sitemap: https://exentax.com)
 |---|---:|---:|---:|---:|
 | Sistema (consistencia) | 0 | 0 | 0 | 0 |
 | Documentos legales | 0 | 0 | 0 | 0 |
-| SEO técnico | 48 | 0 | 0 | 48 |
+| SEO técnico | 0 | 0 | 0 | 0 |
 | Sitemap | 0 | 0 | 0 | 0 |
-| FAQs (contenido) | 20 | 0 | 20 | 0 |
+| FAQs (contenido) | 0 | 0 | 0 | 0 |
 | FAQs indexación | 0 | 0 | 0 | 0 |
-| **Total** | **68** | **0** | **20** | **48** |
+| **Total** | **0** | **0** | **0** | **0** |
 
 ## Inventario de URLs (sitemap real)
 - sitemap-pages.xml: 96 URLs
@@ -33,16 +33,7 @@ Servidor analizado: http://localhost:5000 (origin sitemap: https://exentax.com)
 > Nota arquitectónica: el JSON-LD FAQPage se construye **client-side** en `client/src/pages/faq-page.tsx` y agrupa todas las `useFaqSections()` en `mainEntity`. Una única URL por idioma (`/xx/faq`) cubre las 79 Q/A; los anchors `#id` son fragments SPA. El estado por celda se valida cruzando la traducción i18n, la presencia en `mainEntity` del JSON-LD renderizado, la presencia en `sitemap-faq.xml`, las reglas de `robots.txt`, el `canonical` real y los enlaces internos entrantes.
 
 ## Top 10 hallazgos
-1. **[P1] blog-faq-section-missing** — Blog "auditoria-rapida-llc-12-puntos-30-minutos" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/auditoria-rapida-llc-12-puntos-30-minutos.ts`)_
-2. **[P1] blog-faq-section-missing** — Blog "autonomo-espana-vs-llc-estados-unidos" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/autonomo-espana-vs-llc-estados-unidos.ts`)_
-3. **[P1] blog-faq-section-missing** — Blog "boi-report-fincen-guia-completa-2026" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/boi-report-fincen-guia-completa-2026.ts`)_
-4. **[P1] blog-faq-section-missing** — Blog "constituir-llc-proceso-paso-a-paso" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/constituir-llc-proceso-paso-a-paso.ts`)_
-5. **[P1] blog-faq-section-missing** — Blog "cuanto-cuesta-constituir-llc" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/cuanto-cuesta-constituir-llc.ts`)_
-6. **[P1] blog-faq-section-missing** — Blog "cuenta-bancaria-mercury-llc-extranjero" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/cuenta-bancaria-mercury-llc-extranjero.ts`)_
-7. **[P1] blog-faq-section-missing** — Blog "ein-numero-fiscal-llc-como-obtenerlo" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/ein-numero-fiscal-llc-como-obtenerlo.ts`)_
-8. **[P1] blog-faq-section-missing** — Blog "errores-criticos-llc-ya-constituida" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/errores-criticos-llc-ya-constituida.ts`)_
-9. **[P1] blog-faq-section-missing** — Blog "form-5472-que-es-como-presentarlo" (en): post existe pero no tiene sección FAQ traducida (ES tiene 2 Q/A) _(`client/src/data/blog-content/en/form-5472-que-es-como-presentarlo.ts`)_
-10. **[P1] blog-faq-section-missing** — Blog "llc-estados-unidos-guia-completa-2026" (en): post existe pero no tiene sección FAQ traducida (ES tiene 3 Q/A) _(`client/src/data/blog-content/en/llc-estados-unidos-guia-completa-2026.ts`)_
+
 
 ## Plan de corrección priorizado
 

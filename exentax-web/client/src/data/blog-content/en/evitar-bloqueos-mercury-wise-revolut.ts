@@ -144,15 +144,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…revenir bloqueos ### En Mercury - **Completa tu perfil al 100%**: sube todos los documento…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…t de información o cierre con 60 días. La buena noticia: el 90% de los bloqueos son evitab…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…paralelo escala via support a un Customer Success rep. En ~30% de los casos, con documenta…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

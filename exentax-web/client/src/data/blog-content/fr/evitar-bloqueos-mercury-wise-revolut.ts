@@ -137,15 +137,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…revenir bloqueos ### En Mercury - **Completa tu perfil al 100%**: sube todos los documento…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…t de información o cierre con 60 días. La buena noticia: el 90% de los bloqueos son evitab…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…paralelo escala via support a un Customer Success rep. En ~30% de los casos, con documenta…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

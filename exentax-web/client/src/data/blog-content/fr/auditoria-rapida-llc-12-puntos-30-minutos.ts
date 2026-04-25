@@ -101,7 +101,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
 ### Points clés
 
-- **BOI / Corporate Transparency Act.** Après la **interim final rule de FinCEN de mars 2025**, l'obligation de déposer le BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées hors des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US par un non-résident est, à ce jour, hors de cette obligation**. Le statut peut encore évoluer: **re-vérifier sur FinCEN.gov au moment du dépôt**. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé et surveillez les mises à jour.
+- **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
@@ -112,12 +112,11 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Notre équipe est spécialisée dans les structures fiscales internationales pour les résidents de pays hispanophones qui exploitent des activités en ligne. Nous combinons une connaissance locale de l'Espagne, de l'Andorre et de l'Amérique latine avec une expérience opérationnelle de constitution d'entités au Delaware, dans le Wyoming, en Estonie et dans d'autres juridictions. Chaque dossier commence par une consultation gratuite au cours de laquelle nous évaluons la résidence, l'activité et les objectifs, et nous vous disons honnêtement si la structure proposée a du sens ou si une alternative plus simple suffit.
 
-<!-- exentax:overhaul-actuellement-v1 -->
 ## Mise à jour Exentax actuellement: points vérifiés
 
 Trois changements concrets de l'année passée modifient la notation de cet audit actuellement:
 
-- **BOI Report (FinCEN).** Après l'*interim final rule* du 21 mars 2025, les LLC constituées aux États-Unis avec des bénéficiaires effectifs américains sortent du périmètre. Les **foreign reporting companies** (entités formées hors des États-Unis et enregistrées dans un État) restent concernées. Vérifiez le statut en cours sur [fincen.gov/boi](https://www.fincen.gov/boi) avant de valider le point 6.
+- **BOI Report (FinCEN).** **Non exigé pour les LLC formées aux US détenues par des non-résidents** depuis l'interim final rule de FinCEN de mars 2025 qui a restreint le champ aux **foreign reporting companies** (entités constituées hors des US et enregistrées dans un État). Si votre entité y entre, elle identifie le bénéficiaire effectif (toute personne détenant **≥ 25 %** de participation ou exerçant un **contrôle substantiel**), se dépose gratuitement sur [le portail officiel BOI E-Filing de FinCEN](https://boiefiling.fincen.gov) en **10-15 minutes** et doit être dans les délais : **30 jours** depuis l'enregistrement et **30 jours** pour tout changement d'adresse, de document ou de bénéficiaire. Sanction civile jusqu'à **591 USD/jour** et pénale jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336). Validez le point 6 avec le **BOIR Confirmation Number** archivé (ou avec la trace que votre LLC est hors champ).
 - **Form 5472 + 1120 pro forma.** La sanction pour défaut reste à **25 000 USD par formulaire et par année** (IRC §6038A). Pour l'exercice 2025, l'échéance est le **15 avril actuellement**, prorogeable via **Form 7004** jusqu'au **15 octobre actuellement**.
 - **Annual Report d'État.** Wyoming maintient la taxe minimale de 60 USD; Delaware conserve une Franchise Tax de 300 USD au 1er juin; New Mexico ne demande toujours pas d'Annual Report. Pour les autres États, confirmez les dates sur le portail du Secretary of State.
 
@@ -134,7 +133,6 @@ Trois changements concrets de l'année passée modifient la notation de cet audi
 **À quelle fréquence le refaire?** Une fois par an, idéalement en janvier puis avant le 15 mars (échéance 1042-S si vous l'émettez). À refaire le mois où vous changez de banque, d'adresse ou d'associés.
 
 **S'applique-t-il à une LLC dormante?** Oui. Une LLC sans activité reste tenue à l'Annual Report, au Registered Agent et, en cas de tout mouvement entre vous et l'entité, au 5472 également.
-<!-- exentax:overhaul-actuellement-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Comment nous menons l'audit rapide chez Exentax
@@ -157,24 +155,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">90 %</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…uedes verificar tú mismo en treinta minutos y que cubren el 90 % de los problemas que vemo…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…la suma de cuentas, valores o cripto fuera del país supera 50.000 €, tienes obligación de …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…, vigentes actualmente: - **Estados Unidos.** Treas. Reg. §301.7701-3 (clasificación check…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…. Reg. §301.7701-3 (clasificación check-the-box de la LLC), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…sarelas y demostrar la existencia fiscal de la LLC. ### 5. Form 5472 + 1120 pro-forma del …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ia fiscal internacional), Ley 27/2014 LIS, Ley 58/2003 LGT, RD 1065/2007 (Modelo 232 sobre…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

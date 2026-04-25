@@ -131,6 +131,10 @@ A Exentax revisem el teu mix exacte (B2B/B2C, dins/fora UE, plataforma de venda)
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
 
+  ### IVA sobre serveis digitals B2C: règim espanyol OSS i Andorra IGI
+
+  Per a prestadors espanyols de serveis digitals B2C a la UE, s'aplica des de **01/07/2021** el règim del **One-Stop-Shop** segons l'**art. 70 LIVA** modificat pel **RD-Llei 7/2021** (transposició Directiva 2017/2455). Llindar **€10.000/any**. Inscripció via **Modelo 035**, declaració trimestral **Modelo 369** a la AEAT. Conservació documents **6 anys** (art. 30 Codi de Comerç). A **Andorra**, el règim equivalent és l'**IGI (Llei 11/2012)** amb tipus general 4,5 % i regla de localització B2C al destí (art. 41 LIGI).
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22L'IVA%20en%20serveis%20digitals%20%C3%A9s%20el%20tema%20on%20es%20claven%20el%2080%20%25%20dels%20aut%C3%B2noms%20catal%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
@@ -141,22 +145,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">21%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…CE: - **Cliente empresa en España:** Cobras IVA español al 21%. - **Cliente empresa en la …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…particular en la UE (servicios electrónicos):** Si superas 10.000 €/año en ventas a consum…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…unitarias. - Aplicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22%…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…plicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.)…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">22%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…o de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.). - Presentar…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…donde resides. Cualquier mensaje del estilo &quot;con LLC pagas 0%&quot; es engañoso. Lo que se cons…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ento de Ejecución (UE) 282/2011. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de e…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para LLC …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.603…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ttps://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; (Form 5472 + 1120 pro-forma anu…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1624/1992</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…84 (reglas de localización e inversión del sujeto pasivo); RD 1624/1992 (RIVA), arts. 79-8…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

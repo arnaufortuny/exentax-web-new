@@ -231,8 +231,8 @@ a, button {
    rectangle on focus (inheriting 0 from a plain-div parent),
    which produced the visible "rectangular halo" regression. */
 :where(a, button, [role="button"], input, select, textarea, [tabindex]:not([tabindex="-1"])):focus-visible {
-  outline: 2px solid var(--green);
-  outline-offset: 2px;
+  outline: 1.5px solid rgba(0, 229, 16, 0.45);
+  outline-offset: 1px;
 }
 /* Suppress the redundant default ring on Webkit when our ring is on. */
 :where(a, button, [role="button"]):focus-visible { -webkit-tap-highlight-color: transparent; }

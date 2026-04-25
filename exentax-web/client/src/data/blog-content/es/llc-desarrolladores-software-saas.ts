@@ -147,7 +147,6 @@ En Exentax montamos el stack completo de LLC para developers/SaaS (LLC + EIN + M
 
 Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En Exentax nos encargamos de todo el proceso: constitución, banca, pasarelas de pago, contabilidad, declaraciones <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> y compliance en tu país de residencia. Agenda una asesoría gratuita y te diremos con sinceridad si la LLC tiene sentido para tu caso, sin promesas absolutas.
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -160,23 +159,4 @@ Si tu plan es montar la LLC en Delaware, repasa nuestra página de servicio <a h
 Comparamos Nuevo México, Wyoming, Delaware y Florida sobre tu caso real, sin venderte el estado de moda. <a href="/es/servicios/llc-delaware">Comparar mi caso con un asesor</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…con una LLC americana. El motivo es simple: tu producto es 100% digital, tus clientes está…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">9%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ation automático para ciertos países - Comisiones claras: 2.9% + $0.30 por transacción US …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…tiene sentido? Para desarrolladores freelance, a partir de 3.000€/mes de facturación la es…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…nts con desarrolladores W-9/W-8BEN. Coste de mantenimiento: 1.500-2.500 USD anuales. - **S…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">2.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…n desarrolladores W-9/W-8BEN. Coste de mantenimiento: 1.500-2.500 USD anuales. - **Si plan…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…(Merchant of Record), DoDo Payments y PayPal Business. - **DAC7.** Directiva (UE) 2021/514…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

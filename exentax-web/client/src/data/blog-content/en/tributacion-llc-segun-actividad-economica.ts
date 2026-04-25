@@ -123,29 +123,12 @@ Our team specialises in international tax structures for residents of Spanish-sp
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->
 
+  ### LLC taxation by activity: UK and Irish residents perspective
+
+  For UK resident members of a US LLC, HMRC's longstanding position (**Statement of Practice SP 1/09** and confirmed in the **Anson v HMRC** [2015] UKSC 44 ruling) treats the LLC as **fiscally opaque** by default unless specific facts demonstrate transparency. This means LLC profits are typically taxed in the UK only when **distributed as dividend-equivalent**, reportable on **SA106 (Foreign pages)** of the Self Assessment with credit for US tax under the **UK/US Double Taxation Convention 2001 (SI 2002/2848), Article 24**. Activity-driven nexus rules apply for US **sales tax** under **South Dakota v. Wayfair, 138 S.Ct. 2080 (2018)** with a typical economic threshold of USD 100.000 or 200 transactions per state. For **trade or business** classification under **IRC §864(b)** and **ECI** under **IRC §864(c)**, the activity matters for whether US-source income triggers Form **1040-NR** filing.
+
 <!-- exentax:cta-v1 -->
 Formation, EIN, BOI, banking and ongoing maintenance — one team that understands your case end to end. <a href="/en/services">Explore all services</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">47%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…a&gt;. - **IRPF España**: rendimiento neto en base general (24-47%). - **Riesgo principal**: …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…endos (rendimiento del capital mobiliario en base ahorro 19-28% si entidad opaca; si trans…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n de qué hace la LLC. La regla &quot;non-effectively connected = 0%&quot; no es uniforme: el &lt;a href…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…s para no residentes sin trade or business). Dividendos US: 30% retención por defecto, red…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ness). Dividendos US: 30% retención por defecto, reducida a 15%/0% bajo treaty con W-8BEN-…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…s de constituir, para no descubrir a los dos años que pagas 21% federal cuando creías 0%. …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…ier** en muchos casos y retienen IVA, pero no en todos. - **DAC7**: como vendedor en Amazo…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…actividad económica si trading frecuente y profesional. - **DAC8**: aplica recientemente s…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 
 `;

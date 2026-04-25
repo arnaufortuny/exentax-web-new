@@ -165,7 +165,11 @@ function findYearsInProse(body, slug = "") {
     .replace(/href="[^"]*"/g, " ")
     // Markdown links: [text](path) -> keep text only (paths often contain -2026 slugs).
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
-    .replace(/<[^>]+>/g, " ");
+    .replace(/<[^>]+>/g, " ")
+    // Strip markdown bold/italic so "**2031**" becomes "2031"; otherwise the
+    // surrounding `**` confuse anchor patterns like "ou 2035".
+    .replace(/\*\*([^*\n]+)\*\*/g, "$1")
+    .replace(/__([^_\n]+)__/g, "$1");
 
   // Editorial rules v2 §3 prohibit *editorial* year mentions ("en 2026",
   // "actualizado 2026", "guía 2026") but not legal/regulatory citations.
@@ -208,6 +212,101 @@ function findYearsInProse(body, slug = "") {
     // "1 de enero de YYYY", "January 1, YYYY"
     /\b\d{1,2}\s+de\s+\w+\s+de\s+(?:202[3-9]|203\d)\b/gi,
     /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+(?:202[3-9]|203\d)\b/gi,
+    // Tax-form numbers that collide with the year regex (FR forms 2031, 2035,
+    // 2042, 2065, 2031-bis, 2042-C-PRO, etc.; ES Modelo 720/721; PT Anexo J;
+    // DE Anlage; EN Schedule). These reference forms, never editorial years.
+    /\b(?:formulaire|formul[áa]rio|formulier|imprim[ée]s?|annexes?|anexos?|annex|anlagen?|exhibit|schedule|model[oa]s?|modèle[s]?|formul[ae]?ri[oa]?s?|form|formul)\s*(?:n[º°]?\.?\s*)?(?:202[3-9]|203\d)(?:[\-–]?(?:bis|ter|[A-Z][\-A-Z]*))?\b/gi,
+    // Bare BIC/BNC/RCM/IS/IR/CGI form codes inside parens or after slash:
+    // "(BIC 2031)", "BNC 2035", "annexes 2042-C-PRO"
+    /\b(?:BIC|BNC|RCM|IS|IR|CGI|TVA|URSSAF|CFE|CET)\s+(?:202[3-9]|203\d)(?:[\-–][A-Z][\-A-Z\d]*)?\b/gi,
+    // "Loi de finances pour YEAR" / "Loi de finances YEAR" / "Lei de finanças YEAR"
+    /\b(?:Loi|Lei|Llei|Ley|Gesetz|Law)\s+de(?:\s+(?:finances|finanzas|finances|finanças|Haushalts))?(?:\s+pour)?\s+(?:202[3-9]|203\d)\b/gi,
+    // Bracketed editorial annotations like "[verificar … fecha: 2026-04-21]"
+    // — these are reviewer footnotes, not prose.
+    /\[[^\]]*?(?:202[3-9]|203\d)[^\]]*?\]/g,
+    // "année YYYY" / "année YYYY-YYYY", "any YYYY", "ano YYYY", "Jahr YYYY"
+    /\b(?:année|any|ano|año|Jahr|year)\s+(?:fiscale?|fiscal|civil|natural)?\s*(?:202[3-9]|203\d)(?:[\-–](?:202[3-9]|203\d|\d{2}))?\b/gi,
+    // YYYY/YY composite (e.g., "2024/25", "2025/26") — UK/IE tax years
+    /\b(?:202[3-9]|203\d)\/\d{2}\b/g,
+    // YYYY-YY range (e.g., "2024-25", "2025-26")
+    /\b(?:202[3-9]|203\d)[\-–]\d{2}\b/g,
+    // Range YYYY-YYYY (e.g., "2024-2025", "Plafonds 2024-2025")
+    /\b(?:202[3-9]|203\d)[\-–](?:202[3-9]|203\d)\b/g,
+    // Editorial annotation lines: "([fecha: 2026-04-21])" / standalone date
+    /\(?\bfecha:\s*(?:202[3-9]|203\d)[\-\/]\d{1,2}[\-\/]\d{1,2}\)?/gi,
+    // ISO date YYYY-MM-DD
+    /\b(?:202[3-9]|203\d)[\-\/]\d{1,2}[\-\/]\d{1,2}\b/g,
+    // Brazilian / Portuguese law refs: "Lei nº 14.754/2024", "Decreto-Lei nº 53/2024"
+    /\b(?:Lei|Decreto|Decreto[-\s]Lei|MP|Medida\s+Provis[óo]ria|Portaria|Resolu[çc][ãa]o|IN|Instru[çc][ãa]o\s+Normativa)\s*(?:RFB|SRF)?\s*(?:n[\.\s]*[º°]\.?)?\s*[\d.]+\/(?:202[3-9]|203\d)\b/gi,
+    // German fiscal-year terms: "Geschäftsjahr 2024", "Geschäftsjahrs 2025"
+    /\bGesch[äa]ftsjahr[se]?\s+(?:202[3-9]|203\d)\b/gi,
+    // ES/EN/FR/PT/CA fiscal-year terms with optional "fiscal" / "de" separator
+    /\b(?:exercice|exerc[ií]cio|exercici|ejercicio|fiscal\s+year|tax\s+year|a[ñn]o\s+fiscal|a[ñn]y\s+fiscal|année\s+fiscale|ano\s+fiscal)\s+(?:fiscal\s+)?(?:de\s+|del\s+|du\s+|do\s+)?(?:202[3-9]|203\d)\b/gi,
+    // German "ab YYYY" (since YYYY) / "seit YYYY"
+    /\b(?:ab|seit|im\s+(?:Jahr|Sommer|Herbst|Fr[üu]hjahr|Winter)|im)\s+(?:202[3-9]|203\d)\b/gi,
+    // Tax brackets: "X % en YYYY" / "X€ en YYYY" (rates/figures anchored to a tax year)
+    /(?:\d\s*%|€|\$|£|R\$)\s*[^\n]{0,140}?\b(?:en|in|em|el|al|im|für|fuer)\s+(?:202[3-9]|203\d)\b/gi,
+    // FR/ES/PT/CA/EN: "trams|tramos|tramo|escala|escalas|escales|escala|tablero" + (de )? + YEAR
+    /\b(?:trams?|tramos?|escala[s]?|escales|brackets|tranches?)\s+(?:de\s+)?(?:202[3-9]|203\d)\b/gi,
+    // DE: "für YYYY" (for the YYYY tax year)
+    /\bf[üu]r\s+(?:202[3-9]|203\d)\b/gi,
+    // FR/ES/PT/CA: "Dir. UE YYYY/####" / "Dir. (UE) YYYY/####" abbreviated
+    /\bDir\.\s*(?:\(?\s*(?:UE|EU)\s*\)?\s*)?(?:202[3-9]|203\d)\s*\/\s*\d+/gi,
+    // PT/CA standalone "exercício/exercici (fiscal)? YYYY" anchor (when "fiscal" missing): handled by parent rule already; here we add bare "exercício YYYY"
+    /\b(?:exerc[ií]cio|exercici)\s+(?:202[3-9]|203\d)\b/gi,
+    // CA "el YYYY" / PT "em YYYY" tras "(...)" — clausura editorial breve junto a cifras fiscales
+    /\)\s+(?:el|em|en|in)\s+(?:202[3-9]|203\d)\b/gi,
+    // Hyphen-trail short form "el 2024" / "el 2025-2026" tras pequeño desplazamiento
+    /\b(?:trams?|trams|escala|escala\s+autonòmica)\s+(?:el|en|em|de|del|al)\s+(?:202[3-9]|203\d)/gi,
+    // Bare MiCA / DAC / OECD / TFA standards with year
+    /\b(?:MiCA|DAC[\d]?|MiCAR|OECD|GAAR|ATAD[\d]?|BEPS|CARF|FATCA)\s*(?:\([UE]+\))?\s*(?:202[3-9]|203\d)\b/gi,
+    // EU "(UE) YYYY/####" / "(EU) YYYY/####"
+    /\(\s*(?:UE|EU)\s*\)\s*(?:202[3-9]|203\d)\s*\/\s*\d+/gi,
+    // FR/EN/ES/DE prepositional date with "n°" or "no." prefix: "n° 2024-XXX"
+    /\bn[º°]\.?\s*(?:202[3-9]|203\d)[\-\/][\w\d\-]+/gi,
+    // Composite "vigente desde YYYY" / "applicable depuis YYYY" / "in force since YYYY"
+    /\b(?:vigente|aplicable|applicable|in\s+force|en\s+vigor|en\s+vigueur|in\s+Kraft|gilt|vigent)\s+(?:desde|depuis|since|seit|ab|dal|des\s+(?:de|del))\s+(?:202[3-9]|203\d)\b/gi,
+    // FR/EN/ES/PT alt-form-number connector: "ou 2035" / "or 2035" / "y 720" / "and 5472"
+    /\b(?:ou|or|oder|y|e|i)\s+(?:202[3-9]|203\d)(?:[\-–][A-Z][\-A-Z\d]*)?(?=\s*(?:\(|\*|\.|,|\)|$))/gi,
+    // German court/legal references: "BStBl. I 2023", "BGBl. I 2021 S. 2035"
+    /\bBStBl\.\s*[IVX]+\s*(?:202[3-9]|203\d)(?:\s*S\.\s*\d+)?\b/gi,
+    /\bBGBl\.\s*[IVX]+\s*(?:202[3-9]|203\d)(?:\s*S\.\s*\d+)?\b/gi,
+    // German "Gesetz NNN/YYYY" / "Gesetzes NNN/YYYY"
+    /\bGesetz(?:es)?\s+\d+\/(?:202[3-9]|203\d)\b/gi,
+    // "Reichensteuer 45 % ab 277.826 € (2024)" / "(YYYY)" after a fiscal figure
+    /(?:€|\$|£|R\$|%|%\.|\bMEI\b)[^\n(]{0,40}\((?:202[3-9]|203\d)\)/gi,
+    // "(YYYY)" alone parenthetical year tag attached to a normative figure
+    /\((?:202[3-9]|203\d)\)/g,
+    // Page references "S. 2035" / "p. 2035" / "S. 2031" — page numbers
+    /\b(?:S\.|p\.|pg\.|page|página|page|Seite)\s+(?:202[3-9]|203\d)\b/gi,
+    // IRS Publication / Pub. NNN (rev. MM/YYYY)
+    /\b(?:Publication|Publ\.?|Pub\.?)\s+\d+[A-Z]?\s*\(\s*rev\.?\s*\d{1,2}\/(?:202[3-9]|203\d)\)/gi,
+    /\(\s*rev\.?\s*\d{1,2}\/(?:202[3-9]|203\d)\)/gi,
+    // CA "Decret legislatiu N/YYYY"
+    /\bDecret\s+legislatiu\s+\d+\/(?:202[3-9]|203\d)\b/gi,
+    // BMF / BFH dated rulings "BMF-Schreiben vom DD.MM.YYYY", "BFH-Urteil ... vom YYYY"
+    /\bBMF[-\s]Schreiben\s+vom\s+[\d\.]+\s*(?:202[3-9]|203\d)\b/gi,
+    /\bBFH[-\s]Urteil\b[\s\S]{0,80}?\b(?:202[3-9]|203\d)\b/gi,
+    // "Lei n.º X-Y/YYYY" / "Lei X-Y/YYYY" with letter suffix
+    /\b(?:Lei|Ley|Loi|Llei)\s*(?:n[º°]\.?)?\s*[\d.]+[\-A-Z]+\/(?:202[3-9]|203\d)\b/gi,
+    // "Orçamento do Estado para YYYY" / "Lei do Orçamento ... YYYY"
+    /\bOr[çc]amento\s+(?:do\s+Estado\s+)?(?:para\s+|de\s+)?(?:202[3-9]|203\d)\b/gi,
+    // "para YYYY" / "de YYYY" trailing law reference (already captured if preceded by Lei/Decreto)
+    /\b(?:Lei\s+do\s+)?Or[çc]amento\s+do\s+Estado\s+de\s+(?:202[3-9]|203\d)\b/gi,
+    // CA "període impositiu YYYY", "exercici impositiu YYYY"
+    /\b(?:per[ií]ode|exercici)\s+impositiu\s+(?:202[3-9]|203\d)\b/gi,
+    // CA "informació rebuda el YYYY", "rebuda el YYYY", "vigent des de YYYY"
+    /\b(?:informaci[óo]\s+rebuda|rebuda|notificada|publicada)\s+el\s+(?:202[3-9]|203\d)\b/gi,
+    // "em YYYY" PT editorial reform tag right after parenthesis context
+    /\bem\s+(?:202[3-9]|203\d)\s*\(/gi,
+    // PT "a partir de YYYY"
+    /\ba\s+partir\s+de\s+(?:202[3-9]|203\d)\b/gi,
+    // CA "des del YYYY", "del YYYY"
+    /\bdes\s+(?:del|de)\s+(?:202[3-9]|203\d)\b/gi,
+    // German "Steuerliche Vorgaben ... YYYY" — published guidance
+    /\b(?:Steuerliche[snr]?\s+(?:Vorgaben|Hinweise|Richtlinien))[^\n.]{0,60}(?:202[3-9]|203\d)\b/gi,
+    // "EU-Verordnungsentwurf YYYY/NNN" / "Verordnungsentwurf YYYY/NNN"
+    /\b(?:EU-)?Verordnungsentwurf\s+(?:202[3-9]|203\d)\/\d+/gi,
   ];
   for (const rx of LEGAL_CONTEXTS) cleaned = cleaned.replace(rx, " ");
 

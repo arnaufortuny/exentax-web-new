@@ -15,7 +15,7 @@ La consecuencia práctica: si abres Revolut Business como cliente español, mexi
 ### Marco normativo aplicable
 
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>**: Common Reporting Standard 2014, con comentarios oficiales actualizados.
-- **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2<!-- [REVISIÓN MANUAL: ref legal "DAC2" — verificar contra https://eur-lex.europa.eu — fecha: 2026-04-21] --> (Directiva 2014/107/UE), que internaliza CRS en derecho de la Unión.
+- **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), que internaliza CRS en derecho de la Unión.
 - **Lituania**: Ley sobre intercambio automático de información financiera con fines fiscales (Įstatymas dėl automatinio finansinės sąskaitos informacijos mainų), implementación nacional del CRS y de la DAC2.
 - **España receptora**: Real Decreto 1021/2015, <a href="/es/blog/modelo-720-721-residentes-espana-cuentas-cripto-extranjero">Modelo 720 y Modelo 721</a> en vigor para criptoactivos. Ver detalles en nuestro artículo sobre <a href="/es/blog/crs-residentes-espana-latam-implicaciones">CRS para residentes en España y LATAM</a>.
 ## Qué información concreta envía Revolut
@@ -26,12 +26,12 @@ Como cualquier Reporting Financial Institution sujeta a CRS, Revolut Bank UAB re
 | --- | --- |
 | Identificación titular | Nombre completo, dirección, país de residencia fiscal declarado, NIF/TIN, fecha y lugar de nacimiento (personas físicas) |
 | Identificación entidad | Si la cuenta es titularidad de empresa (típico de Revolut Business): razón social, dirección registrada, EIN/NIF, clasificación CRS (Active NFE, Passive NFE, Investment Entity, etc.) |
-| Beneficiarios efectivos | En cuentas titularidad de Passive NFE: datos de los **controlling persons** (umbral del 25%<!-- [REVISIÓN MANUAL: cifra "25%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> de control directo o indirecto, o control efectivo por otros medios) |
+| Beneficiarios efectivos | En cuentas titularidad de Passive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indirecto, o control efectivo por otros medios) |
 | Datos de cuenta | IBAN, número de cuenta, identificador interno de la entidad |
 | Saldos | Saldo a 31 de diciembre del ejercicio reportado o a fecha de cancelación |
 | Movimientos | Para cuentas de depósito: intereses brutos abonados durante el año. Para cuentas de custodia: dividendos brutos, intereses brutos, otros ingresos brutos, e ingresos brutos por venta o reembolso de activos financieros |
 
-Revolut **no envía detalle transacción a transacción**: envía agregados anuales. Pero el saldo a cierre es suficiente para que la AEAT detecte si superas el umbral del Modelo 720 (50.000<!-- [REVISIÓN MANUAL: cifra "50.000" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> €) o del Modelo 721 si tienes saldos en cripto vinculados.
+Revolut **no envía detalle transacción a transacción**: envía agregados anuales. Pero el saldo a cierre es suficiente para que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si tienes saldos en cripto vinculados.
 ## El caso de la LLC con cuenta Revolut Business
 
 Aquí está el punto crítico. Si tu LLC americana abre una cuenta Revolut Business como cliente europeo (típicamente con dirección operativa europea, tarjeta enviada a Europa o representante en Europa), Revolut realizará la due diligence CRS sobre la **entidad** (la LLC) y, salvo que pueda clasificar la LLC como Active NFE con documentación robusta, la tratará como **Passive NFE**.
@@ -50,12 +50,12 @@ Revolut te pedirá completar un formulario de autodeclaración (CRS Self-Certifi
 - Quién es controlling person.
 - País(es) de residencia fiscal de la entidad y de los controlling persons.
 
-Una **Active NFE** es aquella en la que menos del 50%<!-- [REVISIÓN MANUAL: cifra "50%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> de sus ingresos son rentas pasivas (dividendos, intereses, alquileres, royalties no operativos, ganancias de inversión) y menos del 50% de sus activos producen o se mantienen para producir rentas pasivas. Una LLC de servicios profesionales típica que factura consultoría o desarrollo cumple los criterios de Active NFE.
+Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas pasivas (dividendos, intereses, alquileres, royalties no operativos, ganancias de inversión) y menos del 50% de sus activos producen o se mantienen para producir rentas pasivas. Una LLC de servicios profesionales típica que factura consultoría o desarrollo cumple los criterios de Active NFE.
 
 Sin embargo, en la práctica Revolut tiende a aplicar criterios conservadores y, ante duda o documentación insuficiente, clasifica como Passive NFE. La consecuencia es la misma: reporta al beneficiario efectivo.
 ### Qué pasa si declaras mal la residencia fiscal
 
-Si declaras "residencia fiscal en Andorra" en el alta CRS pero Revolut detecta indicios de que vives en España (IP recurrente, dirección de envío de tarjeta; número de teléfono español; transferencias periódicas a cuentas en España), aplicará el procedimiento de **change in circumstances** (RD 1021/2015<!-- [REVISIÓN MANUAL: ref legal "RD 1021/2015" — verificar contra https://www.boe.es — fecha: 2026-04-21] -->, art. 4 y Anexo I CRS): te pedirá un certificado de residencia fiscal o, en su defecto, te reportará a ambas jurisdicciones. La autodeclaración falsa puede constituir infracción tributaria y, según el caso, delito.
+Si declaras "residencia fiscal en Andorra" en el alta CRS pero Revolut detecta indicios de que vives en España (IP recurrente, dirección de envío de tarjeta; número de teléfono español; transferencias periódicas a cuentas en España), aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I CRS): te pedirá un certificado de residencia fiscal o, en su defecto, te reportará a ambas jurisdicciones. La autodeclaración falsa puede constituir infracción tributaria y, según el caso, delito.
 ## Cómo planificar correctamente con Revolut Business
 
 1. **No uses Revolut como cuenta principal de la LLC si quieres minimizar la huella CRS hacia tu país.** Mercury (EE.UU.) sigue siendo la opción óptima como cuenta principal. Revolut tiene sentido como cuenta secundaria para necesidades específicas (tarjetas físicas en Europa, conversión EUR/GBP rápida, débito SEPA).
@@ -88,7 +88,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 
 ### Por jurisdicción
 
-- **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832<!-- [REVISIÓN MANUAL: ref legal "Form 8832" — verificar contra https://www.irs.gov — fecha: 2026-04-21] -->) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
+- **España (LIRPF/LIS).** Si la LLC es una *Single-Member Disregarded Entity* operativa (servicios reales, sin pasividad significativa), Hacienda suele tratarla por **atribución de rentas (art. 87 LIRPF)**: los beneficios netos se imputan al socio en el ejercicio en que se generan, integrándose en la base general del IRPF. Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada por residente español con rentas mayoritariamente pasivas, puede activarse el régimen de **transparencia fiscal internacional (art. 91 LIRPF para personas físicas, art. 100 LIS para sociedades)**. La diferencia entre uno u otro régimen no es opcional: depende de la sustancia económica, no del nombre.
 - **Modelos informativos.** Cuentas bancarias en EE. UU. con saldo medio o final >50.000 € en el ejercicio: **Modelo 720** (Ley 5/2022 tras STJUE C-788/19, 27/01/2022; sanciones ahora dentro del régimen general LGT). Operaciones vinculadas con la LLC y dividendos repatriados: **Modelo 232**. Criptoactivos custodiados en EE. UU.: **Modelo 721**.
 - **CDI España–EE. UU.** El convenio (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocolo en vigor 27/11/2019) ordena la doble imposición sobre dividendos, intereses y royalties. Una LLC sin establecimiento permanente en España no constituye, por sí sola, EP del socio, pero la dirección efectiva sí puede crearlo si toda la gestión se hace desde territorio español.
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
@@ -120,7 +120,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 Toda la operativa bancaria descrita se apoya en documentación pública y políticas vigentes de cada plataforma actualmente:
 
 - **Bank Secrecy Act y <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>.** 31 U.S.C. §5318 (programas KYC/AML obligatorios para instituciones financieras), 31 CFR Part 1010 (CIP, identificación del cliente) y 31 U.S.C. §5336 con su Reporting Rule de FinCEN del 1 de enero de 2024 (Beneficial Ownership Information Report).
-- **FATCA y CRS.** IRC §1471<!-- [REVISIÓN MANUAL: ref legal "IRC §1471" — verificar contra https://www.irs.gov — fecha: 2026-04-21] -->-1474 (FATCA y formularios W-8/W-9), Acuerdos Intergubernamentales Modelo 1 firmados por EE. UU. con España y otros países LATAM, y el Estándar Común de Reporte (CRS) de la OCDE en el que EE. UU. no participa pero que sí aplica a fintech con licencia europea (Wise Europe SA en Bélgica, Revolut Bank UAB en Lituania).
+- **FATCA y CRS.** IRC §1471-1474 (FATCA y formularios W-8/W-9), Acuerdos Intergubernamentales Modelo 1 firmados por EE. UU. con España y otros países LATAM, y el Estándar Común de Reporte (CRS) de la OCDE en el que EE. UU. no participa pero que sí aplica a fintech con licencia europea (Wise Europe SA en Bélgica, Revolut Bank UAB en Lituania).
 - **Plataformas concretas.** Términos de servicio publicados, política de privacidad y FAQ regulatoria de Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN MSB en EE. UU.; Wise Europe SA en EU; Wise Payments Ltd. en UK), Revolut Business y Payoneer.
 
 Información a efectos divulgativos; cada caso bancario requiere análisis específico de KYC, jurisdicción de residencia y volumen operado.
@@ -154,7 +154,6 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 - [Visa y Mastercard: qué ven realmente las haciendas de tu gasto con tarjeta](/es/blog/visa-mastercard-reporting-tarjetas-hacienda)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -166,22 +165,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ssive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indir…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ra que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…persons. Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…, aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…dos. - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…vs fintech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a través …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

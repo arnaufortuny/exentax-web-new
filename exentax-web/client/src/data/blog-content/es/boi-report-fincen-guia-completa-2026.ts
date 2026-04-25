@@ -1,6 +1,6 @@
 export default `
 
-El BOI Report (Beneficial Ownership Information Report) es una declaración obligatoria ante FinCEN (Financial Crimes Enforcement Network) que identifica a los propietarios beneficiarios de empresas registradas en Estados Unidos. Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación quedó **restringida a las "foreign reporting companies"**: si tu LLC se constituyó en un estado de EE. UU. **a día de hoy estás fuera del requisito**, aunque seas no residente. Si tu entidad se constituyó fuera de EE. UU. y la registraste para operar en un estado, sí entras. Aquí te explicamos todo, con el estado normativo vigente.
+El BOI Report (Beneficial Ownership Information Report o BOIR) es una declaración ante FinCEN (Financial Crimes Enforcement Network) que identifica a los propietarios beneficiarios reales de determinadas empresas registradas en Estados Unidos. Aquí está la **buena noticia para no residentes**: tras la **interim final rule de FinCEN de marzo de 2025**, la obligación quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO está obligada a presentar BOI Report a día de hoy**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. La obligación nace del **Corporate Transparency Act (31 U.S.C. §5336)** y los plazos y sanciones (presentación electrónica gratuita en **boiefiling.fincen.gov** en 10-15 minutos, **30 días** desde la constitución para LLC en ámbito y **30 días** ante cambios, sanción civil de **591 USD/día** ajustada por inflación y penal hasta **10.000 USD y 2 años de prisión** por incumplimiento doloso) siguen aplicando si la regla vuelve a ampliar el ámbito o si tu entidad encaja como foreign reporting company. Aquí te explicamos el escenario actual, qué guardar, qué monitorizar y cómo lo hacemos en Exentax para que estés cubierto si la norma cambia de nuevo.
 
 ## Qué es FinCEN y por qué pide esta información
 
@@ -9,9 +9,9 @@ FinCEN es una agencia del Departamento del Tesoro de Estados Unidos especializad
 Antes de que existiera esta obligación, era posible <a href="/es/blog/constituir-llc-proceso-paso-a-paso">crear LLCs</a> sin que ninguna agencia federal tuviera un registro centralizado de quién era el propietario real. Eso cambiaba con el Corporate Transparency Act (Public Law 116-283 §6403), cuya regla de reporte de FinCEN entró en vigor el 1 de enero de 2024.
 ### Quién debe presentar el BOI Report
 
-La obligación de BOI Report **fue restringida por la interim final rule de FinCEN de marzo de 2025 a las "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas en un estado). Las **LLC formadas en EE. UU. aunque sean propiedad de no residentes, quedan hoy fuera de esa obligación**. Antes de marzo de 2025 sí era obligatorio para todas; ahora **debes verificar el estado vigente en FinCEN.gov antes de presentar**, porque la regla puede volver a cambiar.
+Tras la **interim final rule de FinCEN de marzo de 2025**, el BOI Report **solo lo presentan las "foreign reporting companies"**: entidades constituidas FUERA de EE. UU. (por ejemplo, una sociedad española, mexicana o argentina) que se registran ante el Secretary of State de un estado para hacer negocios en EE. UU. Una **LLC formada en cualquier estado de EE. UU.** —Wyoming, Delaware, New Mexico, Florida, Texas u otros— **queda fuera del ámbito vigente del BOIR**, sin importar si el propietario es residente, no residente o ciudadano estadounidense. Toda **Single-Member LLC** y toda **Multi-Member LLC** doméstica está, a día de hoy, exenta.
 
-Si tu Single-Member LLC se constituyó **dentro de EE. UU.**, **hoy no estás obligado** a presentar el BOI Report (interim final rule de FinCEN, marzo 2025). Si la entidad se constituyó **fuera de EE. UU.** y la registraste para operar en un estado, sí. **Verifica el estado en FinCEN.gov antes de presentar**, porque la regla puede volver a cambiar.
+Si tu Single-Member LLC se constituyó dentro de EE. UU. y eres no residente, **no estás obligado** a presentar el BOI Report en el ámbito vigente. Si en cambio operas a través de una entidad constituida fuera de EE. UU. y la registraste para operar en un estado, sí entras en ámbito: el plazo es de **30 días** desde la fecha de registro estatal y **30 días** adicionales para comunicar cualquier cambio del beneficiario efectivo (titulares con **≥ 25 % de participación** o **control sustancial**). El portal **boiefiling.fincen.gov** es gratuito y la presentación dura unos 10-15 minutos. Si encajas en ese supuesto, la sanción civil por no presentar llega a **591 USD/día** y la penal a **10.000 USD y 2 años de prisión** (31 U.S.C. §5336); conserva el **BOIR Confirmation Number** en tu archivo legal como prueba de cumplimiento. En Exentax monitorizamos FinCEN.gov en cada presentación: si la regla vuelve a ampliar el ámbito a las LLC domésticas, lo gestionamos sin coste adicional.
 ### Qué información se reporta
 
 El BOI Report incluye datos de la empresa y de cada propietario beneficiario:
@@ -37,15 +37,15 @@ Para una Single-Member LLC, eso eres tú.
 
 Los plazos dependen de cuándo se constituyó la LLC:
 
-**LLCs creadas a partir del 1 de enero de 2024:**
-- 90 días desde la fecha de constitución para presentar el BOI Report inicial
+**LLCs nuevas:**
+- **30 días** desde la fecha de constitución (o de registro estatal para entidades extranjeras) para presentar el BOI Report inicial.
 
-**LLCs creadas antes del 1 de enero de 2024:**
-- Plazo extendido; consultar las fechas vigentes en FinCEN
+**LLCs ya constituidas que aún no han presentado el BOIR:**
+- Presentación inmediata; cada día de retraso devenga sanción civil de hasta **591 USD/día** (cuantía ajustada anualmente por inflación).
 
 **Actualizaciones:**
-- Si cambia algún dato del propietario (dirección, documento, etc.): 30 días para actualizar
-- Si cambia la estructura de propiedad: 30 días para actualizar
+- Si cambia algún dato del propietario (dirección, documento, nombre, etc.): **30 días** para actualizar.
+- Si cambia la estructura de propiedad o entra/sale un beneficiario con ≥ 25 %: **30 días** para actualizar.
 ### Cómo se presenta
 
 El BOI Report se presenta electrónicamente a través del sistema BOI E-Filing de FinCEN. No se presenta al IRS, es un reporte separado a una agencia distinta.
@@ -66,10 +66,10 @@ Es una confusión habitual. Son dos cosas diferentes, y necesitas cumplir con am
 | **Agencia** | FinCEN | IRS |
 | **Propósito** | Identificar propietarios | Reportar transacciones |
 | **Frecuencia** | Inicial + actualizaciones | Anual |
-| **Plazo** | 90 días desde constitución | 15 de abril (con extensión) |
+| **Plazo** | 30 días desde constitución | 15 de abril (con extensión) |
 | **Información** | Datos personales del owner | Transacciones LLC-owner |
 
-El Form 5472 sigue siendo obligatorio para tu Single-Member LLC con transacciones con partes relacionadas extranjeras. El BOI Report, en cambio, **a día de hoy solo aplica a foreign reporting companies** tras la regla de marzo 2025; verifica tu situación en FinCEN.gov.
+El Form 5472 sigue siendo obligatorio para tu Single-Member LLC con transacciones con partes relacionadas extranjeras. El BOI Report, en cambio, **NO aplica a las LLC formadas en EE. UU. propiedad de no residentes** tras la interim final rule de FinCEN de marzo de 2025: el ámbito quedó limitado a las foreign reporting companies (entidades constituidas fuera de EE. UU. y registradas para operar en un estado). Si tu entidad encaja en ese supuesto, identifica al beneficiario efectivo con ≥ 25 % de participación o control sustancial y presenta de forma gratuita en **boiefiling.fincen.gov** en los **30 días** siguientes al registro estatal y ante cualquier cambio posterior; si no, monitorizamos FinCEN.gov por ti.
 ### Qué pasa con la privacidad
 
 La información del BOI Report no es pública. FinCEN la mantiene en una base de datos segura y solo la comparte con:
@@ -85,14 +85,14 @@ Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/
 El BOI Report está incluido en nuestros servicios de constitución y mantenimiento:
 
 **En la constitución:**
-- Verificamos si tu LLC entra en el ámbito vigente del BOI Report (foreign reporting companies tras la regla de marzo 2025) y, si aplica, lo preparamos y presentamos dentro de plazo
+- Preparamos y presentamos tu BOI Report ante FinCEN dentro de los **30 días** siguientes a la constitución de la LLC, identificando correctamente al beneficiario efectivo con ≥ 25 % o control sustancial
 - Recopilamos toda la documentación necesaria de forma segura
 - Verificamos que toda la información sea correcta antes de enviar
 
 **En el mantenimiento anual:**
-- Monitorizamos el estado normativo del BOI Report y, si tu LLC vuelve a estar en ámbito o cambian los datos, lo actualizamos
-- Si cambias de dirección, pasaporte o cualquier dato, lo actualizamos
-- Monitorizamos cambios regulatorios que puedan afectar los requisitos
+- Monitorizamos los datos del beneficiario efectivo y presentamos la actualización ante FinCEN dentro del plazo de **30 días** ante cualquier cambio
+- Si cambias de dirección, pasaporte o cualquier dato del beneficiario, lo actualizamos en el portal **boiefiling.fincen.gov**
+- Custodiamos el **BOIR Confirmation Number** y el acuse de cada presentación en tu archivo legal
 
 No tienes que entrar a ningún portal gubernamental, llenar formularios en inglés ni preocuparte por plazos. Nos encargamos de todo.
 
@@ -108,7 +108,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 
 ### Puntos clave
 
-- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
 - **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
@@ -131,23 +131,21 @@ Información a efectos divulgativos; cada caso bancario requiere análisis espec
 
 En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN, Operating Agreement, BOI cuando aplique, banca con Mercury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cada año, y coordinación con tu fiscalidad en residencia. Si quieres validar tu caso con datos reales, agenda una asesoría con nuestro equipo y te explicamos paso a paso cómo encajaría en tu situación concreta.
 
-<!-- exentax:overhaul-hoy-v1 -->
 ## Actualización Exentax hoy: BOI Report al cierre hoy
 
 El BOI ha sido la obligación más cambiante de los últimos 24 meses; la versión vigente:
 
-- **Estado actual.** Tras la *interim final rule de FinCEN del 21 de marzo de 2025*, la obligación queda restringida a **foreign reporting companies** (entidades formadas fuera de EE. UU. y registradas en un estado). Las LLC formadas en EE. UU. con beneficial owners no estadounidenses **no presentan**, salvo que la regla cambie.
-- **Sanciones vigentes.** **591 USD/día** ajustado a inflación para incumplimientos civiles, hasta **10.000 USD** y/o **2 años** de prisión por incumplimientos dolosos (31 U.S.C. §5336).
-- **Operativa de presentación.** Si aplica, alta gratuita en [el portal oficial de FinCEN para el BOI](https://boiefiling.fincen.gov), proceso de **10-15 minutos**, alta inicial + actualización **en 30 días** ante cualquier cambio de dirección, documento o beneficiario.
+- **Estado actual.** El BOI Report **NO es obligatorio para las LLC formadas en EE. UU. propiedad de no residentes** tras la interim final rule de FinCEN de marzo de 2025. El ámbito vigente cubre únicamente a las **foreign reporting companies** (entidades constituidas fuera de EE. UU. y registradas para operar en un estado). Si tu entidad encaja en ese supuesto, identifica al beneficiario efectivo (titulares con **≥ 25 %** de participación o **control sustancial**), se presenta de forma electrónica y gratuita en **boiefiling.fincen.gov** y debe estar dentro de plazo: **30 días** desde el registro estatal y **30 días** ante cualquier cambio.
+- **Sanciones vigentes si aplica.** **591 USD/día** ajustado a inflación para incumplimientos civiles, hasta **10.000 USD** y/o **2 años** de prisión por incumplimientos dolosos (31 U.S.C. §5336). Solo relevantes si tu entidad cae dentro del ámbito vigente del BOIR o si la regla vuelve a ampliarse.
+- **Operativa de presentación si aplica.** Alta gratuita en [el portal oficial de FinCEN para el BOI](https://boiefiling.fincen.gov), proceso de **10-15 minutos**, alta inicial + actualización **en 30 días** ante cualquier cambio de dirección, documento o beneficiario.
 
 ### Preguntas frecuentes hoy
 
-**¿Cuándo vuelve a aplicarme la obligación si cambia la rule?** En el momento en que FinCEN publique nueva regla. Suele dar 60-90 días de transición. Suscribe alertas a fincen.gov/boi.
+**¿Mi LLC formada en EE. UU. con socio español tiene que presentar BOIR?** **No, en el ámbito vigente.** Tras la interim final rule de FinCEN de marzo de 2025, toda LLC formada en EE. UU. (Wyoming, Delaware, New Mexico u otro) propiedad de un no residente queda fuera del ámbito del BOI Report. Solo presentan las foreign reporting companies. En Exentax monitorizamos FinCEN.gov en cada presentación y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional.
 
-**¿Mi LLC formada en EE. UU. con socio español está exenta?** Bajo la rule de marzo de 2025 sí. Pero verifica el día de la presentación; el escenario regulatorio sigue moviéndose.
+**¿Cuál es la sanción si caigo en el ámbito y me retraso?** Hasta **591 USD por cada día** de retraso (cuantía civil ajustada anualmente por inflación) y, en casos de incumplimiento doloso, hasta **10.000 USD y 2 años de prisión** según 31 U.S.C. §5336. Por eso, si encajas como foreign reporting company, conviene presentar dentro de plazo y, si tienes BOIR atrasados, regularizar antes de que llegue el requerimiento.
 
-**¿Qué guardo como prueba?** Acuse del último filing y captura del estado de tu entidad en el portal. En caso de auditoría futura, documenta también la fecha de la consulta normativa.
-<!-- exentax:overhaul-hoy-v1 end -->
+**¿Qué guardo como prueba?** El **BOIR Confirmation Number** que entrega el portal **boiefiling.fincen.gov** al finalizar la presentación, más el PDF de transmisión. Es la prueba estándar ante una eventual auditoría.
 
 <!-- exentax:execution-v2 -->
 ## Cómo presentamos el BOI Report en Exentax sin sobresaltos
@@ -161,7 +159,6 @@ El BOI Report ante FinCEN parece sencillo y lo es, pero los errores que vemos ca
 Si quieres que lo gestionemos extremo a extremo o solo verificar el tuyo, lanza la <strong>calculadora Exentax</strong> o reserva treinta minutos.
 <!-- /exentax:execution-v2 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -173,22 +170,4 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 <!-- exentax:cta-v1 -->
 Revisamos BOI, EIN, agente registrado y obligaciones federales para que no te sorprenda una multa. <a href="/es/servicios">Pedir revisión de compliance</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es cualquier persona que directa o indirectamente posea el 25% o más de la empresa, o que …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ajustado a inflación para incumplimientos civiles, hasta **10.000 USD** y/o **2 años** de …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…o prueba de cumplimiento. ### Diferencia entre BOI Report y Form 5472 Es una confusión hab…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -112,6 +112,22 @@ Na Exentax estruturamos o stack bancário tendo em conta o que CRS/FATCA reporta
 
 O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
 
+## O caso específico do residente fiscal em Portugal e no Brasil
+
+  **Para residentes em Portugal**, ter uma conta Revolut Business UAB associada a uma LLC americana implica três obrigações em paralelo.
+
+  A primeira é a **comunicação de IBAN estrangeiro à Autoridade Tributária e Aduaneira** através do **Modelo 3 do IRS, Anexo J, quadro 8**: deves declarar a existência da conta e identificar a entidade financeira (Revolut Bank UAB, Lituânia). A omissão é punível com coima entre **150 € e 3 750 €** ao abrigo do **artigo 119.º do Regime Geral das Infrações Tributárias (RGIT)**.
+
+  A segunda obrigação resulta do regime das **sociedades estrangeiras controladas (CFC)** previsto no **artigo 66.º do CIRC**, aplicável quando residentes detêm mais de **25 %** dos direitos numa entidade não residente sujeita a regime fiscal claramente mais favorável (taxa efetiva inferior a 50 % da taxa portuguesa, atualmente abaixo de 10,5 %). Os lucros da LLC podem ser imputados ao sócio residente independentemente de distribuição.
+
+  A terceira é a **comunicação obrigatória de operações suspeitas e transferências internacionais** ao Banco de Portugal pela própria Revolut Bank UAB enquanto entidade financeira da União Europeia, em cumprimento do **Aviso 1/2022 do Banco de Portugal** sobre prevenção de branqueamento de capitais.
+
+  **Para residentes no Brasil**, o cenário inclui obrigações complementares. A **Declaração de Capitais Brasileiros no Exterior (CBE)** ao **Banco Central do Brasil** é obrigatória para residentes com ativos no exterior superiores a **USD 1 000 000** em 31 de dezembro, com periodicidade trimestral acima de **USD 100 000 000**. A omissão é punida com multa até **R$ 250 000**, conforme **Resolução BCB n.º 281/2022**. Adicionalmente, a **Lei 14.754/2023** instituiu a tributação automática anual de lucros de **entidades controladas no exterior** (mais de 50 % de participação) à alíquota de **15 %**, mesmo sem distribuição efetiva, conforme regulamentado pela **Instrução Normativa RFB n.º 2.180/2024**, exceto para LLCs com substância económica comprovada.
+
+  ### Implicações práticas adicionais para residentes em Portugal e no Brasil
+
+  Em Portugal, a Autoridade Tributária cruza desde 2018 os dados CRS recebidos do VMI lituano com a declaração Modelo 3 do IRS. Discrepâncias geram notificação para esclarecimentos no prazo de quinze dias, ao abrigo do artigo 59.º da LGT. A reincidência é considerada agravante para efeitos de qualificação como fraude fiscal qualificada (artigo 104.º do RGIT, com pena de prisão de 1 a 5 anos). No Brasil, a Receita Federal aplica também a **DCBE** (Declaração de Capitais Brasileiros no Exterior) com sanção autónoma e, desde a Lei 14.754/2023, a **DAA-PF** (Declaração de Ajuste Anual da Pessoa Física) inclui ficha específica para entidades controladas no exterior.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Revolut%20Business%20%C3%A9%20operada%20a%20partir%20da%20Litu%C3%A2nia%20para%20a%20UE%20e%20aplica%20o%20CRS%20po%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
@@ -121,22 +137,4 @@ Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita<
 
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ssive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indir…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ra que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…persons. Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…, aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…dos. - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…vs fintech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…ech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a través …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

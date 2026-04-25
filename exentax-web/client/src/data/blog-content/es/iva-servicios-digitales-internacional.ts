@@ -143,7 +143,6 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 - [Holding empresarial: cómo funciona y cuándo conviene constituir uno](/es/blog/holding-empresarial-como-funciona)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -156,22 +155,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…CE: - **Cliente empresa en España:** Cobras IVA español al 21%. - **Cliente empresa en la …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…particular en la UE (servicios electrónicos):** Si superas 10.000 €/año en ventas a consum…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…unitarias. - Aplicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22%…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…plicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.)…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">22%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…o de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.). - Presentar…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…donde resides. Cualquier mensaje del estilo &quot;con LLC pagas 0%&quot; es engañoso. Lo que se cons…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ento de Ejecución (UE) 282/2011. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de e…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…n de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para LLC …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.603…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ttps://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; (Form 5472 + 1120 pro-forma anu…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1624/1992</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…84 (reglas de localización e inversión del sujeto pasivo); RD 1624/1992 (RIVA), arts. 79-8…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

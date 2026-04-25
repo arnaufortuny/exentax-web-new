@@ -57,24 +57,12 @@ Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax u
 Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
 <!-- /exentax:cta-conv-v1 -->
 
+  ### Vergleich für DACH-Gewerbetreibende: §4 EStG Betriebsausgaben
+
+  Aus deutscher Sicht entspricht das spanische Konzept "gastos deducibles" für autónomos den **Betriebsausgaben nach §4 Abs. 4 EStG** (alle durch den Betrieb veranlassten Aufwendungen). Abzugsbeschränkungen ergeben sich aus **§4 Abs. 5 EStG** (z. B. Geschenke ≤ €35, Bewirtung 70 %), Pauschalen für häusliches Arbeitszimmer **€1.260/Jahr** ohne Mittelpunktsnachweis (§4 Abs. 5 Satz 1 Nr. 6b EStG i.d.F. JStG 2022). AfA gemäß **§7 EStG**, Investitionsabzugsbetrag **§7g EStG** für KMU.
+
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…stos que sabe documentar. La diferencia entre quien declara 50.000 euros de rendimiento ne…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">35.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…en declara 50.000 euros de rendimiento neto y quien declara 35.000 con la misma facturació…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…do aplique. Los pagos en efectivo por importes superiores a 1.000 euros entre profesionale…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…los gastos más vigilados. La AEAT solo admite deducción del 50% del IVA y del gasto en aut…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…transportistas, autoescuelas y similares pueden deducir el 100%. Las dietas en desplazamie…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…a vivienda Si trabajas desde casa, puedes deducir hasta el 30% del porcentaje de la vivien…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…a la AEAT que afectas 20 m² (un despacho), el 30% sobre el 20% del recibo es deducible. La…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…da como uniforme sin serlo, regalos a clientes superiores a 1% de la cifra de negocios y, …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">BOE-A-2006-20764</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ecogido en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764&quot;&gt;Ley 35/2006 …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

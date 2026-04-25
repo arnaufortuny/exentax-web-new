@@ -26,7 +26,6 @@ La SL est rentable quand plusieurs conditions sont réunies : chiffre d'affaires
 Pour les profils 100% numériques avec une clientèle majoritairement hors d'Espagne, une <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC américaine</a> bien gérée gagne souvent : coût annuel bien moindre (1 500-2 500 euros contre 6 000-9 000 pour la SL), 0% fédéral aux USA pour non-résidents, et imposition uniquement en résidence par attribution des revenus, sans double imposition sociétaire. La SL gagne encore si votre activité est physiquement espagnole, avec clients locaux ou besoin d'embaucher en Espagne. La <a href="/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide">différence entre LLC et Corporation</a> compte aussi selon votre plan.
 Le régime juridique est dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">Loi sur les sociétés de capital</a> et le régime fiscal dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Loi 27/2014 sur l'impôt sur les sociétés</a>. Si vous envisagez une SL, calculez le coût total combiné sur trois ans avant de constituer.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -61,32 +60,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…as muy serias, especialmente la LLC americana para perfiles 100% digitales internacionales…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…con notario tradicional y asesoría externa, el coste sube a 1.000-1.500 euros. Capital soc…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…tario tradicional y asesoría externa, el coste sube a 1.000-1.500 euros. Capital social: d…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…les que un autónomo no tiene: gestoría especializada (1.500-3.000 euros año por contabilid…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…l coste mínimo realista de mantener una SL pequeña roza los 6.000-9.000 euros anuales, ant…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">9.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…e mínimo realista de mantener una SL pequeña roza los 6.000-9.000 euros anuales, antes de …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.000.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…cidos por la Ley 7/2024 — microempresas (cifra de negocio &lt; 1.000.000 €) al 19% sobre los …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…7/2024 — microempresas (cifra de negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 €…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…(cifra de negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 € y 21% sobre el resto e…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…negocio &lt; 1.000.000 €) al 19% sobre los primeros 50.000 € y 21% sobre el resto en 2026; en…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…resto en 2026; entidades de reducida dimensión (1-10 M€) al 23%; tipo general 25%; especia…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…idades de reducida dimensión (1-10 M€) al 23%; tipo general 25%; especialmente útil cuando…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">60.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…cialmente útil cuando tu base anual supera holgadamente los 60.000 euros y reinviertes par…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…socio, este lo declara en su IRPF como renta del ahorro (19-28% según importe). El tipo co…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">45%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…9-28% según importe). El tipo combinado puede superar el 40-45% del beneficio bruto. Exist…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">80.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ndiciones a la vez: facturación anual estable por encima de 80.000-100.000 euros, varios s…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…es a la vez: facturación anual estable por encima de 80.000-100.000 euros, varios socios, …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">2.500</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…nada suele ganar el partido: coste anual mucho menor (1.500-2.500 euros frente a 6.000-9.0…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ho menor (1.500-2.500 euros frente a 6.000-9.000 de la SL), 0% federal en EE.UU. para no r…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">BOE-A-2010-10544</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…co está en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544&quot;&gt;Ley de Socie…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">BOE-A-2014-12328</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…fiscal en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328&quot;&gt;Ley 27/2014 d…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

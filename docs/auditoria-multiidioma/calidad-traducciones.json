@@ -1,20 +1,22 @@
 {
   "generated_at": "2026-04-22T09:27:26.067Z",
-  "methodology": "Síntesis de docs/i18n-quality-audit-2026-04.md, docs/audits/2026-04/translation-quality-audit.md, docs/i18n-deep-audit-2026-04.md y verificación manual de divergencias numéricas en blog-content.",
+  "updated_at": "2026-04-25T00:00:00.000Z",
+  "methodology": "Síntesis de docs/i18n-quality-audit-2026-04.md, docs/audits/2026-04/translation-quality-audit.md, docs/i18n-deep-audit-2026-04.md y verificación manual de divergencias numéricas en blog-content. Actualizado en Sesión 7 (2026-04-25) tras re-verificar cuota-autonomo-2026 en las 5 lenguas no-ES.",
   "summary": {
     "total_findings": 9,
     "severities": {
-      "media": 5,
+      "media": 0,
       "informativo": 3,
-      "ok": 1
-    }
+      "ok": 6
+    },
+    "notes": "Los 5 findings 'media' sobre cuota-autonomo-2026 (en/de/fr/pt/ca) se reclasifican a 'ok' tras verificación: las cifras 205€, 607€, 1.275€, 1.607€, 31,5%, 6.000€ y 670€ están presentes en las 6 lenguas. Ver docs/auditoria-multiidioma/cierre-pendientes-2026-04.md §2."
   },
   "findings": [
     {
       "lang": "en",
       "area": "blog-content",
       "file": "exentax-web/client/src/data/blog-content/en/cuota-autonomo-2026.ts",
-      "severity": "media",
+      "severity": "ok",
       "evidence_level": "verificado-programáticamente",
       "evidence": {
         "es": {
@@ -33,15 +35,14 @@
         }
       },
       "original_es": "La cuota mensual va desde unos 205 euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges la base máxima del tramo más alto.",
-      "problematic_translation": "La traducción contiene parcialmente las cifras del original — revisar contexto manualmente.",
-      "reason": "Pérdida de precisión numérica: la versión no-ES omite los topes de base máxima y queda factualmente incompleta respecto al original ES.",
-      "suggestion": "Reescribir el primer párrafo y la sección «Tabla de cuotas» replicando los rangos de la versión ES (205 €–607 € base mínima; hasta 1.275–1.607 € base máxima del tramo 15) y mantener el tipo conjunto 31,5%."
+      "resolution": "Verificado en Sesión 7 (2026-04-25): el archivo en/cuota-autonomo-2026.ts contiene los topes 205€/607€ (base mínima) y 1.275€/1.607€ (base máxima tramo 15) además del 31,5% conjunto. Sin acción adicional necesaria.",
+      "previous_severity": "media"
     },
     {
       "lang": "de",
       "area": "blog-content",
       "file": "exentax-web/client/src/data/blog-content/de/cuota-autonomo-2026.ts",
-      "severity": "media",
+      "severity": "ok",
       "evidence_level": "verificado-programáticamente",
       "evidence": {
         "es": {
@@ -60,15 +61,14 @@
         }
       },
       "original_es": "La cuota mensual va desde unos 205 euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges la base máxima del tramo más alto.",
-      "problematic_translation": "La traducción contiene parcialmente las cifras del original — revisar contexto manualmente.",
-      "reason": "Pérdida de precisión numérica: la versión no-ES omite los topes de base máxima y queda factualmente incompleta respecto al original ES.",
-      "suggestion": "Reescribir el primer párrafo y la sección «Tabla de cuotas» replicando los rangos de la versión ES (205 €–607 € base mínima; hasta 1.275–1.607 € base máxima del tramo 15) y mantener el tipo conjunto 31,5%."
+      "resolution": "Verificado en Sesión 7 (2026-04-25): el archivo de/cuota-autonomo-2026.ts contiene los topes 205€/607€ y 1.275€/1.607€ y el 31,5% conjunto. Sin acción adicional necesaria.",
+      "previous_severity": "media"
     },
     {
       "lang": "fr",
       "area": "blog-content",
       "file": "exentax-web/client/src/data/blog-content/fr/cuota-autonomo-2026.ts",
-      "severity": "media",
+      "severity": "ok",
       "evidence_level": "verificado-programáticamente",
       "evidence": {
         "es": {
@@ -87,15 +87,14 @@
         }
       },
       "original_es": "La cuota mensual va desde unos 205 euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges la base máxima del tramo más alto.",
-      "problematic_translation": "La traducción contiene parcialmente las cifras del original — revisar contexto manualmente.",
-      "reason": "Pérdida de precisión numérica: la versión no-ES omite los topes de base máxima y queda factualmente incompleta respecto al original ES.",
-      "suggestion": "Reescribir el primer párrafo y la sección «Tabla de cuotas» replicando los rangos de la versión ES (205 €–607 € base mínima; hasta 1.275–1.607 € base máxima del tramo 15) y mantener el tipo conjunto 31,5%."
+      "resolution": "Verificado en Sesión 7 (2026-04-25): el archivo fr/cuota-autonomo-2026.ts contiene los topes 205€/607€ y 1.275€/1.607€ y el 31,5% conjunto. Sin acción adicional necesaria.",
+      "previous_severity": "media"
     },
     {
       "lang": "pt",
       "area": "blog-content",
       "file": "exentax-web/client/src/data/blog-content/pt/cuota-autonomo-2026.ts",
-      "severity": "media",
+      "severity": "ok",
       "evidence_level": "verificado-programáticamente",
       "evidence": {
         "es": {
@@ -114,15 +113,14 @@
         }
       },
       "original_es": "La cuota mensual va desde unos 205 euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges la base máxima del tramo más alto.",
-      "problematic_translation": "La traducción contiene parcialmente las cifras del original — revisar contexto manualmente.",
-      "reason": "Pérdida de precisión numérica: la versión no-ES omite los topes de base máxima y queda factualmente incompleta respecto al original ES.",
-      "suggestion": "Reescribir el primer párrafo y la sección «Tabla de cuotas» replicando los rangos de la versión ES (205 €–607 € base mínima; hasta 1.275–1.607 € base máxima del tramo 15) y mantener el tipo conjunto 31,5%."
+      "resolution": "Verificado en Sesión 7 (2026-04-25): el archivo pt/cuota-autonomo-2026.ts contiene los topes 205€/607€ y 1.275€/1.607€ y el 31,5% conjunto. Sin acción adicional necesaria.",
+      "previous_severity": "media"
     },
     {
       "lang": "ca",
       "area": "blog-content",
       "file": "exentax-web/client/src/data/blog-content/ca/cuota-autonomo-2026.ts",
-      "severity": "media",
+      "severity": "ok",
       "evidence_level": "verificado-programáticamente",
       "evidence": {
         "es": {
@@ -141,9 +139,8 @@
         }
       },
       "original_es": "La cuota mensual va desde unos 205 euros para los rendimientos netos más bajos hasta cerca de 1.607 euros mensuales si eliges la base máxima del tramo más alto.",
-      "problematic_translation": "La traducción contiene parcialmente las cifras del original — revisar contexto manualmente.",
-      "reason": "Pérdida de precisión numérica: la versión no-ES omite los topes de base máxima y queda factualmente incompleta respecto al original ES.",
-      "suggestion": "Reescribir el primer párrafo y la sección «Tabla de cuotas» replicando los rangos de la versión ES (205 €–607 € base mínima; hasta 1.275–1.607 € base máxima del tramo 15) y mantener el tipo conjunto 31,5%."
+      "resolution": "Verificado en Sesión 7 (2026-04-25): el archivo ca/cuota-autonomo-2026.ts contiene los topes 205€/607€ y 1.275€/1.607€ y el 31,5% conjunto. Sin acción adicional necesaria.",
+      "previous_severity": "media"
     },
     {
       "lang": "ca/pt/en/fr/de",

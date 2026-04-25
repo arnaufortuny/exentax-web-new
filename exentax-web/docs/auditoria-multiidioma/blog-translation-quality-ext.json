@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-04-25T11:17:39.560Z",
+    "generatedAt": "2026-04-25T21:11:25.031Z",
     "languageLeakage": 0,
-    "deRegisterIssues": 90,
+    "deRegisterIssues": 87,
     "frRegisterIssues": 1,
     "mtTells": 11,
-    "lowRatioArticles": 58,
+    "lowRatioArticles": 0,
     "untranslatedParagraphs": 0
   },
   "findings": {
@@ -34,14 +34,6 @@
           "deinem",
           "deine",
           "dir"
-        ]
-      },
-      {
-        "slug": "boe-febrero-2020-llc-doctrina-administrativa",
-        "count": 2,
-        "samples": [
-          "deinem",
-          "deine"
         ]
       },
       {
@@ -179,14 +171,6 @@
           "deinem",
           "dir",
           "dich"
-        ]
-      },
-      {
-        "slug": "dac7-plataformas-digitales-reporting-2026",
-        "count": 2,
-        "samples": [
-          "deinem",
-          "deine"
         ]
       },
       {
@@ -529,11 +513,12 @@
       },
       {
         "slug": "modelo-720-721-residentes-espana-cuentas-cripto-extranjero",
-        "count": 3,
+        "count": 5,
         "samples": [
           "du",
           "deinem",
-          "deine"
+          "deine",
+          "Dir"
         ]
       },
       {
@@ -795,14 +780,6 @@
         ]
       },
       {
-        "slug": "wise-business-crs-reporting-fiscal",
-        "count": 2,
-        "samples": [
-          "deinem",
-          "deine"
-        ]
-      },
-      {
         "slug": "wise-business-llc-guia",
         "count": 2,
         "samples": [
@@ -812,11 +789,12 @@
       },
       {
         "slug": "wise-iban-llc-que-reporta-hacienda",
-        "count": 3,
+        "count": 4,
         "samples": [
           "deinem",
           "deine",
-          "dir"
+          "dir",
+          "Dir"
         ]
       }
     ],
@@ -952,414 +930,7 @@
         ]
       }
     ],
-    "lowRatio": [
-      {
-        "lang": "fr",
-        "slug": "boe-febrero-2020-llc-doctrina-administrativa",
-        "ratio": 0.68,
-        "esWords": 3156,
-        "langWords": 2135
-      },
-      {
-        "lang": "fr",
-        "slug": "crs-residentes-espana-latam-implicaciones",
-        "ratio": 0.66,
-        "esWords": 3160,
-        "langWords": 2087
-      },
-      {
-        "lang": "fr",
-        "slug": "dac7-plataformas-digitales-reporting-2026",
-        "ratio": 0.57,
-        "esWords": 3079,
-        "langWords": 1769
-      },
-      {
-        "lang": "fr",
-        "slug": "dac8-criptomonedas-reporting-fiscal-2026",
-        "ratio": 0.68,
-        "esWords": 2492,
-        "langWords": 1700
-      },
-      {
-        "lang": "fr",
-        "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
-        "ratio": 0.64,
-        "esWords": 3864,
-        "langWords": 2478
-      },
-      {
-        "lang": "fr",
-        "slug": "reorganizar-banca-llc-mercury-relay-wise",
-        "ratio": 0.67,
-        "esWords": 3043,
-        "langWords": 2048
-      },
-      {
-        "lang": "fr",
-        "slug": "revolut-business-crs-reporting-fiscal",
-        "ratio": 0.67,
-        "esWords": 3195,
-        "langWords": 2130
-      },
-      {
-        "lang": "fr",
-        "slug": "riesgos-fiscales-mala-estructuracion-internacional",
-        "ratio": 0.54,
-        "esWords": 2424,
-        "langWords": 1314
-      },
-      {
-        "lang": "fr",
-        "slug": "single-member-multi-member-llc-implicaciones-fiscales",
-        "ratio": 0.63,
-        "esWords": 2851,
-        "langWords": 1790
-      },
-      {
-        "lang": "fr",
-        "slug": "tributacion-llc-segun-actividad-economica",
-        "ratio": 0.52,
-        "esWords": 2248,
-        "langWords": 1167
-      },
-      {
-        "lang": "fr",
-        "slug": "vender-o-cerrar-llc-comparativa-practica",
-        "ratio": 0.68,
-        "esWords": 2437,
-        "langWords": 1654
-      },
-      {
-        "lang": "fr",
-        "slug": "wise-business-crs-reporting-fiscal",
-        "ratio": 0.59,
-        "esWords": 2614,
-        "langWords": 1534
-      },
-      {
-        "lang": "de",
-        "slug": "boe-febrero-2020-llc-doctrina-administrativa",
-        "ratio": 0.5,
-        "esWords": 3156,
-        "langWords": 1571
-      },
-      {
-        "lang": "de",
-        "slug": "convenio-doble-imposicion-usa-espana-llc",
-        "ratio": 0.65,
-        "esWords": 4025,
-        "langWords": 2617
-      },
-      {
-        "lang": "de",
-        "slug": "crs-residentes-espana-latam-implicaciones",
-        "ratio": 0.52,
-        "esWords": 3160,
-        "langWords": 1638
-      },
-      {
-        "lang": "de",
-        "slug": "dac7-plataformas-digitales-reporting-2026",
-        "ratio": 0.48,
-        "esWords": 3079,
-        "langWords": 1466
-      },
-      {
-        "lang": "de",
-        "slug": "dac8-criptomonedas-reporting-fiscal-2026",
-        "ratio": 0.57,
-        "esWords": 2492,
-        "langWords": 1426
-      },
-      {
-        "lang": "de",
-        "slug": "diseno-estructura-fiscal-internacional-solida",
-        "ratio": 0.64,
-        "esWords": 3370,
-        "langWords": 2151
-      },
-      {
-        "lang": "de",
-        "slug": "documentar-separacion-fondos-llc-historial",
-        "ratio": 0.53,
-        "esWords": 2623,
-        "langWords": 1398
-      },
-      {
-        "lang": "de",
-        "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
-        "ratio": 0.55,
-        "esWords": 3864,
-        "langWords": 2144
-      },
-      {
-        "lang": "de",
-        "slug": "fiscalidad-socios-llc-cambio-residencia-mid-year",
-        "ratio": 0.54,
-        "esWords": 3182,
-        "langWords": 1713
-      },
-      {
-        "lang": "de",
-        "slug": "justificar-origen-fondos-kyc-bancario-segunda-ronda",
-        "ratio": 0.61,
-        "esWords": 3029,
-        "langWords": 1853
-      },
-      {
-        "lang": "de",
-        "slug": "reorganizar-banca-llc-mercury-relay-wise",
-        "ratio": 0.6,
-        "esWords": 3043,
-        "langWords": 1831
-      },
-      {
-        "lang": "de",
-        "slug": "revolut-business-crs-reporting-fiscal",
-        "ratio": 0.55,
-        "esWords": 3195,
-        "langWords": 1748
-      },
-      {
-        "lang": "de",
-        "slug": "riesgos-fiscales-mala-estructuracion-internacional",
-        "ratio": 0.43,
-        "esWords": 2424,
-        "langWords": 1054
-      },
-      {
-        "lang": "de",
-        "slug": "single-member-multi-member-llc-implicaciones-fiscales",
-        "ratio": 0.58,
-        "esWords": 2851,
-        "langWords": 1653
-      },
-      {
-        "lang": "de",
-        "slug": "tributacion-llc-segun-actividad-economica",
-        "ratio": 0.45,
-        "esWords": 2248,
-        "langWords": 1022
-      },
-      {
-        "lang": "de",
-        "slug": "vender-o-cerrar-llc-comparativa-practica",
-        "ratio": 0.59,
-        "esWords": 2437,
-        "langWords": 1439
-      },
-      {
-        "lang": "de",
-        "slug": "w8-ben-y-w8-ben-e-guia-completa",
-        "ratio": 0.67,
-        "esWords": 4407,
-        "langWords": 2950
-      },
-      {
-        "lang": "de",
-        "slug": "wise-bancos-llc-stack-bancaria-completa",
-        "ratio": 0.67,
-        "esWords": 4388,
-        "langWords": 2935
-      },
-      {
-        "lang": "de",
-        "slug": "wise-business-crs-reporting-fiscal",
-        "ratio": 0.46,
-        "esWords": 2614,
-        "langWords": 1202
-      },
-      {
-        "lang": "pt",
-        "slug": "boe-febrero-2020-llc-doctrina-administrativa",
-        "ratio": 0.54,
-        "esWords": 3156,
-        "langWords": 1708
-      },
-      {
-        "lang": "pt",
-        "slug": "crs-residentes-espana-latam-implicaciones",
-        "ratio": 0.56,
-        "esWords": 3160,
-        "langWords": 1785
-      },
-      {
-        "lang": "pt",
-        "slug": "dac7-plataformas-digitales-reporting-2026",
-        "ratio": 0.51,
-        "esWords": 3079,
-        "langWords": 1581
-      },
-      {
-        "lang": "pt",
-        "slug": "dac8-criptomonedas-reporting-fiscal-2026",
-        "ratio": 0.63,
-        "esWords": 2492,
-        "langWords": 1582
-      },
-      {
-        "lang": "pt",
-        "slug": "diseno-estructura-fiscal-internacional-solida",
-        "ratio": 0.68,
-        "esWords": 3370,
-        "langWords": 2284
-      },
-      {
-        "lang": "pt",
-        "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
-        "ratio": 0.63,
-        "esWords": 3864,
-        "langWords": 2430
-      },
-      {
-        "lang": "pt",
-        "slug": "justificar-origen-fondos-kyc-bancario-segunda-ronda",
-        "ratio": 0.68,
-        "esWords": 3029,
-        "langWords": 2071
-      },
-      {
-        "lang": "pt",
-        "slug": "reorganizar-banca-llc-mercury-relay-wise",
-        "ratio": 0.66,
-        "esWords": 3043,
-        "langWords": 2000
-      },
-      {
-        "lang": "pt",
-        "slug": "revolut-business-crs-reporting-fiscal",
-        "ratio": 0.58,
-        "esWords": 3195,
-        "langWords": 1845
-      },
-      {
-        "lang": "pt",
-        "slug": "riesgos-fiscales-mala-estructuracion-internacional",
-        "ratio": 0.42,
-        "esWords": 2424,
-        "langWords": 1015
-      },
-      {
-        "lang": "pt",
-        "slug": "single-member-multi-member-llc-implicaciones-fiscales",
-        "ratio": 0.6,
-        "esWords": 2851,
-        "langWords": 1711
-      },
-      {
-        "lang": "pt",
-        "slug": "tributacion-llc-segun-actividad-economica",
-        "ratio": 0.5,
-        "esWords": 2248,
-        "langWords": 1127
-      },
-      {
-        "lang": "pt",
-        "slug": "vender-o-cerrar-llc-comparativa-practica",
-        "ratio": 0.65,
-        "esWords": 2437,
-        "langWords": 1583
-      },
-      {
-        "lang": "pt",
-        "slug": "wise-business-crs-reporting-fiscal",
-        "ratio": 0.5,
-        "esWords": 2614,
-        "langWords": 1318
-      },
-      {
-        "lang": "ca",
-        "slug": "boe-febrero-2020-llc-doctrina-administrativa",
-        "ratio": 0.54,
-        "esWords": 3156,
-        "langWords": 1698
-      },
-      {
-        "lang": "ca",
-        "slug": "crs-residentes-espana-latam-implicaciones",
-        "ratio": 0.57,
-        "esWords": 3160,
-        "langWords": 1788
-      },
-      {
-        "lang": "ca",
-        "slug": "dac7-plataformas-digitales-reporting-2026",
-        "ratio": 0.51,
-        "esWords": 3079,
-        "langWords": 1568
-      },
-      {
-        "lang": "ca",
-        "slug": "dac8-criptomonedas-reporting-fiscal-2026",
-        "ratio": 0.63,
-        "esWords": 2492,
-        "langWords": 1564
-      },
-      {
-        "lang": "ca",
-        "slug": "diseno-estructura-fiscal-internacional-solida",
-        "ratio": 0.69,
-        "esWords": 3370,
-        "langWords": 2314
-      },
-      {
-        "lang": "ca",
-        "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
-        "ratio": 0.62,
-        "esWords": 3864,
-        "langWords": 2384
-      },
-      {
-        "lang": "ca",
-        "slug": "reorganizar-banca-llc-mercury-relay-wise",
-        "ratio": 0.68,
-        "esWords": 3043,
-        "langWords": 2077
-      },
-      {
-        "lang": "ca",
-        "slug": "revolut-business-crs-reporting-fiscal",
-        "ratio": 0.56,
-        "esWords": 3195,
-        "langWords": 1801
-      },
-      {
-        "lang": "ca",
-        "slug": "riesgos-fiscales-mala-estructuracion-internacional",
-        "ratio": 0.4,
-        "esWords": 2424,
-        "langWords": 974
-      },
-      {
-        "lang": "ca",
-        "slug": "single-member-multi-member-llc-implicaciones-fiscales",
-        "ratio": 0.6,
-        "esWords": 2851,
-        "langWords": 1718
-      },
-      {
-        "lang": "ca",
-        "slug": "tributacion-llc-segun-actividad-economica",
-        "ratio": 0.51,
-        "esWords": 2248,
-        "langWords": 1140
-      },
-      {
-        "lang": "ca",
-        "slug": "vender-o-cerrar-llc-comparativa-practica",
-        "ratio": 0.67,
-        "esWords": 2437,
-        "langWords": 1633
-      },
-      {
-        "lang": "ca",
-        "slug": "wise-business-crs-reporting-fiscal",
-        "ratio": 0.51,
-        "esWords": 2614,
-        "langWords": 1344
-      }
-    ],
+    "lowRatio": [],
     "untranslated": []
   }
 }

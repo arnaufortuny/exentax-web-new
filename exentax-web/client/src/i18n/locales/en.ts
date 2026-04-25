@@ -1743,6 +1743,7 @@ const en = {
   },
   blogPost: {
     articlesFound: "articles found",
+    atomicAnswerLabel: "Quick answer",
     share: "Share",
     backToBlog: "Back to blog",
     minRead: "min read",

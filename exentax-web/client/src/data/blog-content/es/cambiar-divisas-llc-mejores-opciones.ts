@@ -159,7 +159,6 @@ Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100
 - [Justificar el origen de los fondos en una segunda ronda de KYC bancario](/es/blog/justificar-origen-fondos-kyc-bancario-segunda-ronda)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -172,23 +171,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">3%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…eda local aplicando: - Un **tipo de cambio con margen** (1-3% peor que el tipo real) - **C…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ediario** ($10-25 adicionales) En total, puedes perder **3-5% en cada transferencia**. Si …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">4%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…l (evitar para conversiones) PayPal aplica un margen del 3-4% sobre el tipo de cambio. Es …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">6%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…3-5% | | PayPal conversión | Con margen 3-4% | Variable | 4-6% | Algunos matices quedaron …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">8.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ambio de divisa no es un detalle: en un negocio que factura 8.000 USD/mes, una mala estrat…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a 8.000 USD/mes, una mala estrategia FX se come entre 800 y 1.500 USD al año. Y la mayoría…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">7 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…l tipo medio interbancario con comisión transparente (0,3-0,7 % en USD-EUR) y libera fondo…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">20.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…sin SWIFT. - **Brokers FX para volumen alto.** A partir de 20.000 USD/mes en conversiones,…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">250.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…untos. Compensa abrir cuenta cuando el volumen anual supera 250.000 USD; por debajo, el ah…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">1 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…* Sí: el spread de Mercury en FX directo está alrededor del 1 % más comisión, lo que dupli…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

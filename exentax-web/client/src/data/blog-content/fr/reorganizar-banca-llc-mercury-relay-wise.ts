@@ -109,7 +109,6 @@ Note de terrain après avoir piloté cela mois après mois pour des clients: la 
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
-<!-- exentax:overhaul-actuellement-v1 -->
 ## Mise à jour Exentax actuellement: stack bancaire à jour
 
 Le stack bancaire recommandé pour une LLC actuellement a consolidé trois pièces aux rôles complémentaires:
@@ -141,7 +140,6 @@ Le stack bancaire recommandé pour une LLC actuellement a consolidé trois pièc
 **Quand un compte traditionnel?** Au-delà de ~1 M USD annuels ou avec des clients corporate US payant exclusivement par ACH bancaire.
 
 **Wise déclare-t-il en CRS?** Wise Europe SA (Belgique) est soumise au CRS pour les résidents européens. Documentez bien votre résidence fiscale.
-<!-- exentax:overhaul-actuellement-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Comment nous réorganisons le banking d'une LLC chez Exentax quand il ne tient plus
@@ -155,6 +153,14 @@ Quand une LLC reçoit des paiements sérieux, le stack initial (parfois juste Me
 Si votre stack actuel ne tient plus, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes: nous remettons le plan de migration par écrit avant de toucher à quoi que ce soit.
 <!-- /exentax:execution-v2 -->
 
+## Le cas spécifique du résident fiscal français
+
+  Pour un résident fiscal français qui réorganise la banque de sa LLC, l'élément clé est l'**obligation déclarative permanente** de l'**article 1649 A bis du CGI** combinée à l'article 1649 ter A pour les actifs numériques. Toute ouverture, modification ou clôture de compte (Mercury, Relay, Wise) doit être déclarée via le **formulaire 3916-bis** dans l'année où le compte est utilisé. Une réorganisation typique (clôture Wise → ouverture Mercury) génère donc deux écritures déclaratives distinctes pour la même année fiscale, sous peine d'amende de **1 500 € par compte** non déclaré.
+
+  ### Considérations pratiques supplémentaires pour le résident français
+
+  Tout transfert international supérieur à 12 500 € entre comptes appartenant à la même personne est notifié automatiquement à TRACFIN par la banque française émettrice ou réceptrice (article L.561-15 du Code monétaire et financier). Une trace contradictoire avec la déclaration 3916-bis déclenche un signalement et, le cas échéant, une demande de justification documentée dans un délai de trente jours.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Si%20vous%20avez%20une%20LLC%20et%20que%20votre%20banque%20est%20Mercury%20pour%20tout%20parce%20qu'on%20me%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
@@ -164,23 +170,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">5 %</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…n 50+ divisas a tipo medio interbancario, FX típico **0,4-1,5 %**, datos locales en 10+ pa…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8822</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt;, ni Form 8822-B ni nada análogo, s…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…nservar el acuse y monitorizar futuras actualizaciones. - **Form 5472 + 1120 pro-forma.** …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

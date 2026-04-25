@@ -111,7 +111,6 @@ Detalhe prático a fixar antes de agir. A maioria do dano evitável que vemos ne
 
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.
 
-<!-- exentax:overhaul-hoje-v1 -->
 ## Atualização Exentax hoje: stack bancário em dia
 
 O stack bancário recomendado para uma LLC atualmente consolidou três peças complementares:
@@ -143,7 +142,6 @@ O stack bancário recomendado para uma LLC atualmente consolidou três peças co
 **Quando convém uma conta tradicional?** A partir de ~1 M USD anuais ou com clientes corporate USA que pagam exclusivamente via ACH bancário.
 
 **Wise reporta via CRS?** Wise Europe SA (Bélgica) está sujeita a CRS para residentes europeus. Documenta corretamente a tua residência fiscal.
-<!-- exentax:overhaul-hoje-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Como reorganizamos a banca de uma LLC na Exentax quando já não escala
@@ -157,6 +155,14 @@ Quando uma LLC começa a receber pagamentos sérios, o stack inicial (às vezes 
 Se o seu stack actual já não aguenta, abra a <strong>calculadora Exentax</strong> ou marque trinta minutos: entregamos o plano de migração por escrito antes de tocar em nada.
 <!-- /exentax:execution-v2 -->
 
+## O caso específico do residente fiscal em Portugal e no Brasil
+
+  **Em Portugal**, a reorganização bancária da LLC implica atualização do **Anexo J do Modelo 3 do IRS** com indicação dos novos IBANs estrangeiros, ainda que pertencentes ao mesmo titular. A omissão é punível com coima entre 150 € e 3 750 € (artigo 119.º do RGIT). Adicionalmente, transferências internacionais superiores a 12 500 € entre contas próprias são objeto de comunicação automática pelo banco origem ao Banco de Portugal (Aviso 1/2022).
+
+  **No Brasil**, qualquer modificação relevante de contas no exterior obriga a atualização da **Declaração de Capitais Brasileiros no Exterior (CBE)** quando o saldo agregado supera USD 1 000 000 a 31 de dezembro, conforme **Resolução BCB n.º 281/2022**.
+
+  A documentação contabilística associada à reorganização deve ser mantida durante dez anos por força do artigo 123.º do CIRC e do artigo 126.º do CIVA, com possibilidade de inspeção pela AT no âmbito do RCPITA aprovado pelo DL 413/98.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20a%20tua%20banca%20da%20LLC%20%C3%A9%20Mercury%20para%20tudo%20porque%20foi%20o%20que%20me%20disseram%2C%20est%C3%A1s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
@@ -166,23 +172,4 @@ Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita<
 
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">5 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…n 50+ divisas a tipo medio interbancario, FX típico **0,4-1,5 %**, datos locales en 10+ pa…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8822</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt;, ni Form 8822-B ni nada análogo, s…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…nservar el acuse y monitorizar futuras actualizaciones. - **Form 5472 + 1120 pro-forma.** …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…C como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo ca…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…a si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa a…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

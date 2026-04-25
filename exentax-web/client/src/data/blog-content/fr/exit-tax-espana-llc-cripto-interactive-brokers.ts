@@ -204,6 +204,16 @@ Note de terrain après avoir piloté cela mois après mois pour des clients: la 
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
+## Le cas spécifique du résident fiscal français qui quitte la France
+
+  L'**exit tax française**, codifiée à l'**article 167 bis du CGI** depuis la Loi de finances rectificative pour 2011 (et profondément réformée par la Loi de finances pour 2019), s'applique aux contribuables qui transfèrent leur domicile fiscal hors de France après y avoir été résidents pendant **au moins six des dix années précédentes** et qui détiennent des participations sociales d'une valeur globale supérieure à **800 000 €** ou représentant au moins **50 %** des bénéfices d'une société.
+
+  L'imposition latente porte sur les plus-values constatées au jour du transfert. Le contribuable peut bénéficier d'un **sursis automatique de paiement** s'il s'installe dans un État membre de l'UE ou de l'EEE ayant signé une convention d'assistance administrative et de recouvrement; le sursis devient sur demande et avec garantie pour les autres destinations. Le **dégrèvement** intervient au bout de **deux ans** (titres détenus pour moins de 50 % du capital) ou **cinq ans** (au-delà) en l'absence de cession.
+
+  Pour une LLC américaine **détenue par un résident français**, deux scénarios se croisent: si la LLC est qualifiée de société de personnes au sens de l'article 8 du CGI, l'article 167 bis ne s'applique pas en tant que tel, mais les articles 244 bis B et 244 bis A peuvent s'appliquer aux cessions ultérieures. Si la LLC a opté pour la qualification de société de capitaux (Form 8832 en C-Corp), l'article 167 bis s'applique pleinement.
+
+  Pour les **cryptoactifs détenus via Interactive Brokers ou un wallet personnel**, la fiscalité française les traite comme des biens meubles incorporels relevant du **régime des plus-values sur actifs numériques** de l'**article 150 VH bis du CGI** (taux forfaitaire de **30 %** pour les cessions occasionnelles, ou barème progressif sur option). Le transfert de résidence ne déclenche pas en lui-même l'imposition des cryptoactifs, mais l'obligation déclarative annuelle des comptes ouverts à l'étranger sur Interactive Brokers reste due via le **formulaire 3916-bis** tant que le contribuable est résident français.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Si%20vous%20envisagez%20de%20quitter%20l'Espagne%2C%20ou%20si%20vous%20l'avez%20d%C3%A9j%C3%A0%20fait%2C%20et%20que%20v%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
@@ -213,36 +223,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">4.000.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…1** | Valor de mercado de las acciones/participaciones **≥ 4.000.000 €** | | **Umbral 2** …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «….000 €** | | **Umbral 2** | Porcentaje de participación **≥ 25%** en una entidad **Y** val…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.000.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ipación **≥ 25%** en una entidad **Y** valor de mercado **≥ 1.000.000 €** | Si no se super…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…a los tipos del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…s del ahorro: | Tramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ramo | Tipo | |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…| |---|---| | Hasta 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…a 6.000 € | 19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">23%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…19% | | 6.000 € – 50.000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «….000 € | 21% | | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">27%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…| | 50.000 € – 200.000 € | 23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…23% | | 200.000 € – 300.000 € | 27% | | Más de 300.000 € | 28% | **Ejemplo práctico:** Un …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.200.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…con coste de adquisición de 300.000 € y valor de mercado de 1.200.000 € al abandonar Españ…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">900.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…cipación en alguna entidad, tendría una ganancia latente de 900.000 €. Al tipo marginal de…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…nes ≥25% de participación (que en una SMLLC siempre tienes: 100%) **y** el valor de la LLC…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">800.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ón en la LLC**, no los criptoactivos en sí. Si la LLC vale 800.000 € (todo en cripto) y ti…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">2.000.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…tán sujetas al exit tax en la normativa actual**. Si tienes 2.000.000 € en BTC en tu walle…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">500.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…iempre aplica Muchos inversores con patrimonios de 200.000-500.000 € asumen que el exit ta…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ibutaria con las sanciones del art. 191 LGT (sanción del 50-150% de la cuota) además de in…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…e la vía penal del art. 305 CP (cuota defraudada superior a 120.000 €). ### ¿Cómo se valor…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…2/12/1990, Protocolo en vigor 27/11/2019). - **Treas. Reg. §301.7701-3** (clasificación de…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…donaciones intervivos previas) es donde se gana o pierde el 90% del impacto. ### Lo que má…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…as realizadas son computables fiscalmente). ### ¿Afecta el DAC8 a la situación cripto en e…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

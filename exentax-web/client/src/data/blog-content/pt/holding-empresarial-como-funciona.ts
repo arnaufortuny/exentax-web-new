@@ -192,7 +192,6 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 - [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
 <!-- /exentax:cross-refs-v1 -->
 
-
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -205,34 +204,4 @@ Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/p
 Constituição, EIN, BOI, banca e manutenção: uma única equipa que entende o seu caso do início ao fim. <a href="/pt/servicos/llc-wyoming">Ver todos os serviços</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…vidades en España: - **Holding (S.L. patrimonial)**: posee 100% de las filiales. - **Filia…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…iscal aplicable: - Las filiales tributan por sociedades al 25% sobre sus beneficios. - Cua…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">95%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…lding, opera la **exención por doble imposición interna del 95%** (artículo 21 LIS), siemp…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…del 95%** (artículo 21 LIS), siempre que el holding posea ≥5% de la filial y ≥1 año de ant…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…físicas, esos dividendos tributan en el IRPF del ahorro (19-28% según tramo). El ahorro fi…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…recurrente que conviene presupuestar: - Constitución: 500-3.000 EUR según jurisdicción. - …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…UR según jurisdicción. - Domicilio social y secretaría: 500-2.000 EUR/año. - Contabilidad …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">1.500</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…taría: 500-2.000 EUR/año. - Contabilidad y cuentas anuales: 1.500-5.000 EUR/año. - Auditor…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">5.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…500-2.000 EUR/año. - Contabilidad y cuentas anuales: 1.500-5.000 EUR/año. - Auditoría si s…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…1.500-5.000 EUR/año. - Auditoría si supera umbrales: 3.000-10.000 EUR/año. - Asesoría fisc…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">8.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «….000-10.000 EUR/año. - Asesoría fiscal especializada: 2.000-8.000 EUR/año. Suelo realista …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">4.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…especializada: 2.000-8.000 EUR/año. Suelo realista anual: 4.000-12.000 EUR para un holding…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">12.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ializada: 2.000-8.000 EUR/año. Suelo realista anual: 4.000-12.000 EUR para un holding inte…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…plica **Caso 1: empresa familiar con beneficios anuales de 300.000 EUR.** Holding clásica …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">40%</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…edio y profesionaliza la sucesión. Ahorro real estimado: 25-40% del impacto fiscal sin hol…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…go plazo. **Caso 2: emprendedor con SaaS en crecimiento de 100.000 EUR/año.** Holding aún …»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…consolidar la operativa primero y replantear cuando supere 200.000 EUR. **Caso 3: profesio…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NÃO VERIFICADO]</strong></li>
-<li><span class="font-mono">10 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…*Andorra.** Llei 95/2010 de l'Impost sobre Societats (IS al 10 %), Llei 5/2014 del IRPF y …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">22 %</span> <span class="opacity-70">(valor)</span> <span class="text-xs italic">— «…ma de impuesto diferido sobre beneficios distribuidos al 20/22 %) y documentación oficial …»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; del Form 5472 e IRC §7701 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; del Form 5472 e IRC §7701 (clasifi…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

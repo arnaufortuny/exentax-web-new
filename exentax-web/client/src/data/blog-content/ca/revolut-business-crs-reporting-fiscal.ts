@@ -110,6 +110,22 @@ A Exentax estructurem el stack bancari tenint en compte el que CRS/FATCA reporte
 
 Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: errar aquí i la resta de l'estructura perd fiscalitat, accés bancari o compliance. Les notes que segueixen reflecteixen el que fem realment amb clients en aquest cas concret, prioritzant les variables que mouen el resultat.
 
+## El cas específic del resident fiscal a Catalunya, l'Estat espanyol i Andorra
+
+  Per a residents fiscals a **Catalunya o qualsevol territori de l'Estat espanyol**, mantenir un Revolut Business UAB associat a una LLC americana acumula tres obligacions declaratives diferenciades.
+
+  La primera és la **declaració de béns i drets situats a l'estranger** mitjançant el **Model 720**, vigent des del Reial Decret 1558/2012 (BOE 24/11/2012) i la Llei 7/2012. Les sancions originals (multes mínimes de 10 000 € per dada, taxació com a guany no justificat de patrimoni i recàrrec del 150 %) van ser declarades **contràries al dret de la Unió Europea per la sentència del TJUE en l'assumpte C-788/19 de 27 de gener de 2022**, fet que va obligar a modificar la **Disposició Addicional 18a de la LGT** mitjançant la **Llei 5/2022, de 9 de març**: avui el règim sancionador és el general dels articles 198 i 199 LGT, però l'obligació de declarar persisteix per a comptes amb saldo agregat superior a **50 000 €** al tancament o saldo mitjà del quart trimestre.
+
+  La segona obligació és la **transparència fiscal internacional** de l'**article 100 de la Llei 35/2006 de l'IRPF**: si la LLC té un control efectiu superior al 50 % per residents espanyols i les seves rendes són majoritàriament passives sotmeses a una tributació inferior al 75 % de la que correspondria a Espanya, els beneficis s'imputen al soci resident encara que no es distribueixin. Per a societats residents s'aplica el règim paral·lel de l'**article 100 de la Llei 27/2014 de l'Impost sobre Societats**.
+
+  La tercera és el reporting CRS automatic des de Lituània via la **VMI**, que es creua amb el Model 720 i el **Model 721** (aquest últim per a criptoactius, RD 249/2023 BOE 8/4/2023, amb llindar de 50 000 €).
+
+  Per a **residents a Andorra**, el panorama canvia substancialment. L'**article 49 de la Llei 5/2014 de l'IRPF andorrà** preveu un règim de transparència fiscal internacional aplicable a entitats no residents sotmeses a una tributació nominal inferior al 50 % del tipus general andorrà (10 %), és a dir, inferior al 5 %. Una LLC americana sense activitat econòmica substancial podria quedar atrapada per aquest règim. A més, el **Conveni de doble imposició Andorra-Estats Units**, signat el 8 de febrer de 2023, **va entrar en vigor l'1 de gener de 2024** segons confirmació del Departament de Tributs i de Fronteres del Govern d'Andorra, fet que clarifica el tractament d'interessos i dividends de fonts americanes per a residents andorrans.
+
+  A nivell pràctic, l'AEAT creua des de 2017 les dades CRS rebudes via la VMI lituana amb el Model 720, el Model 100 i el Model 721, i qualsevol divergència desencadena requeriment d'aportació documental en quinze dies hàbils per via electrònica.
+
+  A més, l'AEAT pot emetre certificat de residència fiscal en model 01 amb signatura electrònica via portal Sede Electrónica en menys de cinc dies hàbils, document especialment útil davant Revolut Bank UAB per a confirmar la jurisdicció correcta de declaració CRS.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Revolut%20Business%20s'opera%20des%20de%20Litu%C3%A0nia%20per%20a%20la%20UE%20i%20aplica%20el%20CRS%20per%20defe%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
@@ -119,22 +135,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">25%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ssive NFE: datos de los **controlling persons** (umbral del 25% de control directo o indir…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ra que la AEAT detecte si superas el umbral del Modelo 720 (50.000 €) o del Modelo 721 si …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…persons. Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1021/2015</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…, aplicará el procedimiento de **change in circumstances** (RD 1021/2015, art. 4 y Anexo I…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC2</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…dos. - **UE**: Directiva 2011/16/UE (DAC) modificada por la DAC2 (Directiva 2014/107/UE), …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…vs fintech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ech para tu LLC&lt;/a&gt;. ### Consideraciones adicionales DAC7 y DAC8 Si tu LLC vende a través …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

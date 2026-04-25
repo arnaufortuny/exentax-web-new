@@ -153,6 +153,10 @@ Bei Exentax eröffnen wir Wise + Mercury im Paket mit optimierter Konfiguration.
 
 Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses Muster oft genug umgesetzt, um zu wissen, welche Variablen unter der Prüfung einer Steuerbehörde oder einer Bank-Compliance zuerst nachgeben - und in dieser Reihenfolge gehen wir vor.
 
+  ### Wise Business für eine US-LLC: rechtlicher Rahmen aus DACH-Sicht
+
+  **Wise Business Europe SA** ist in Belgien unter BCE 0708.022.075 registriert und wird von der **Nationalbank von Belgien** als E-Geld-Institut nach der **PSD2-Richtlinie 2015/2366** (in Deutschland umgesetzt durch das **Zahlungsdiensteaufsichtsgesetz, ZAG, BGBl. I 2017 S. 2446**, in Österreich durch das **ZaDiG 2018**, in der Schweiz durch das **FINIG**) überwacht. Wichtig: Wise ist kein Einlagenkreditinstitut — Kundengelder werden nach **Art. 10 EMD II** segregiert auf Treuhandkonten bei der **Lloyds Bank plc** (London) gehalten und unterliegen daher nicht der FDIC- oder Einlagensicherung, sondern einer **insolvenzfesten Trennungsmasse**.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wise%20Business%20ist%20keine%20US-Bank%3A%20Es%20ist%20ein%20europ%C3%A4isches%20E-Geld-Institut%20mit%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -163,20 +167,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…cambio real. La comisión es transparente (normalmente 0.4-1.5% según el par de divisas). #…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">3%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…-|---| | Tipo de cambio | Real (mid-market) | Con margen (1-3%) | | Comisión | Transparent…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">250,000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…e estar en Mercury (custodiada en Column NA con FDIC hasta $250,000). Wise es la capa de c…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">6%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…enta española por SEPA. Coste total de la conversión: 0.4-0.6%. Con un banco tradicional p…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1,000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…et, que puede suponer un ahorro de miles de pesos por cada $1,000 convertidos frente a la …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">4%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…a SEPA: gratis. Conversión FX (markup sobre tipo medio): ~0.4% USD↔EUR (vs 1%-3% bancos tr…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…Conversión FX (markup sobre tipo medio): ~0.4% USD↔EUR (vs 1%-3% bancos tradicionales). Ta…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ury y Wise, pasarelas Stripe y Adyen, contabilidad mensual, Form 5472 y 1120 pro-forma cad…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -61,20 +61,4 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…stos que sabe documentar. La diferencia entre quien declara 50.000 euros de rendimiento ne…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">35.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…en declara 50.000 euros de rendimiento neto y quien declara 35.000 con la misma facturació…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…do aplique. Los pagos en efectivo por importes superiores a 1.000 euros entre profesionale…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…los gastos más vigilados. La AEAT solo admite deducción del 50% del IVA y del gasto en aut…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…transportistas, autoescuelas y similares pueden deducir el 100%. Las dietas en desplazamie…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…a vivienda Si trabajas desde casa, puedes deducir hasta el 30% del porcentaje de la vivien…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…a la AEAT que afectas 20 m² (un despacho), el 30% sobre el 20% del recibo es deducible. La…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…da como uniforme sin serlo, regalos a clientes superiores a 1% de la cifra de negocios y, …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">BOE-A-2006-20764</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…ecogido en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764&quot;&gt;Ley 35/2006 …»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

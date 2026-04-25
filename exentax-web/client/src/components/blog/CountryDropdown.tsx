@@ -104,7 +104,7 @@ export default function CountryDropdown({ value, onChange }: Props) {
         aria-activedescendant={open && activeIndex >= 0 ? `${listboxId}-opt-${activeIndex}` : undefined}
         onClick={() => setOpen((o) => !o)}
         onKeyDown={handleButtonKey}
-        className="appearance-none w-full sm:w-auto inline-flex items-center gap-2 pl-4 pr-10 py-3 rounded-full border border-[var(--border)] bg-[var(--card-bg-solid,#FFFFFF)] text-[var(--text-1)] text-sm font-body font-medium shadow-[0_1px_2px_rgba(11,13,12,0.06)] hover:border-[rgba(0,229,16,0.55)] focus:outline-none focus:border-[#00E510] focus:shadow-[0_0_0_3px_rgba(0,229,16,0.12)] transition-all duration-200 cursor-pointer"
+        className="appearance-none w-full sm:w-auto inline-flex items-center gap-2 pl-4 pr-10 py-3 rounded-full border border-[var(--border)] bg-[var(--card-bg-solid,#FFFFFF)] text-[var(--text-1)] text-sm font-body font-medium shadow-[0_1px_2px_rgba(11,13,12,0.06)] hover:border-[rgba(0,229,16,0.55)] focus:outline-none focus:border-[rgba(0,229,16,0.55)] transition-colors duration-200 cursor-pointer"
         data-testid="select-country"
       >
         {current.code && (

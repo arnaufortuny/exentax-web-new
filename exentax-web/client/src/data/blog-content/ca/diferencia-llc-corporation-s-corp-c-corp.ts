@@ -1,80 +1,124 @@
 export default `
 
-Quan algú diu empresa americana molts imaginen LLC, altres corporació. La realitat és que als EUA existeixen quatre vehicles principals per fer negocis: LLC, Corporation general, S-Corporation i C-Corporation. Cadascun té el seu propi règim fiscal, les seves restriccions de propietat i els seus casos d'ús. Per a un no resident, no totes són accessibles ni convenients. Aquesta guia aterra la diferència real entre les quatre figures, quina encaixa amb cada perfil i per què la LLC continua sent, avui, l'elecció per defecte per a emprenedors estrangers que no busquen inversors institucionals.
+Quan algú diu "empresa americana", la majoria imagina una LLC; d'altres, una "corporation". La realitat és que als EUA existeixen quatre vehicles principals per fer negocis: **LLC**, **Corporation**, **S-Corporation** i **C-Corporation**. Cadascun té el seu propi règim fiscal federal i estatal, restriccions de propietat i casos d'ús. Per a un emprenedor català resident fiscal a Catalunya o a la resta d'Espanya, no totes són accessibles ni convenients. Aquesta guia aterra la diferència real entre les quatre figures, què encaixa amb cada perfil i per què la LLC continua sent, avui, l'elecció per defecte per a freelancers, agències i projectes digitals que no busquen inversors institucionals.
 
 ## LLC: l'opció flexible i per defecte per a no residents
 
-La LLC (Limited Liability Company) és una figura híbrida: legalment és una entitat amb responsabilitat limitada i fiscalment, per defecte, és transparent (disregarded entity en single-member, partnership en multi-member). Això significa que la LLC no paga impost federal sobre la renda: els beneficis passen al propietari, que tributa on resideixi. Per a un no resident sense activitat econòmica connectada amb els EUA (ETBUS) la LLC paga 0% federal i 0% estatal en estats sense income tax com Wyoming o Nou Mèxic. És l'elecció per defecte del 90% dels emprenedors estrangers que constitueixen empresa als EUA.
-## Corporation general (C-Corporation per defecte)
+La **LLC (Limited Liability Company)** és una figura híbrida creada per les lleis estatals dels EUA (cada estat té la seva pròpia LLC Act; **Wyoming va ser el primer, el 1977**, amb el Wyoming LLC Act). Jurídicament és una entitat amb responsabilitat limitada que protegeix el patrimoni personal dels seus membres davant els deutes i responsabilitats del negoci. Fiscalment, **per defecte és transparent**: la **Treas. Reg. §301.7701-3 ("check-the-box")** tracta la single-member LLC com a **"disregarded entity"** i la multi-member LLC com a **partnership** llevat que s'opti pel contrari amb el **Form 8832** (election to be classified as an association taxable as a corporation).
 
-Una corporació constituïda als EUA és per defecte una C-Corporation: paga impost federal sobre els seus beneficis al 21%, a més de l'impost estatal corresponent. Quan reparteix dividends, els socis tributen una altra vegada en la seva renda personal. És la doble imposició clàssica. La C-Corp és obligatòria per a qui vulgui aixecar capital de venture capital o sortir a borsa: els inversors institucionals gairebé sempre exigeixen aquesta forma jurídica. Permet emetre diverses classes d'accions, plans de stock options i accionariat complex. No té límit de nombre de socis ni restriccions de nacionalitat.
+Per a un no resident sense **ETBUS** (Effectively Connected Trade or Business in the United States) i sense **US-source FDAP income**, la LLC disregarded **no genera obligació de Form 1040-NR substantiu** ni paga impost federal sobre la renda: la regla bàsica del **IRC §§871 i 882** sotmet els no residents només a (a) US-source FDAP amb retenció del 30 % (o tipus de tractat) i (b) rendes efectivament connectades a un trade or business als EUA. Sense aquests dos elements, la LLC paga **0 % federal**. A nivell estatal, **Wyoming, Nou Mèxic, Florida, Texas i Dakota del Sud** no tenen impost sobre la renda corporativa estatal, cosa que afegeix **0 % estatal** quan no hi ha nexus.
+
+L'obligació pràctica que sí queda: anual **Form 5472 + Form 1120 pro-forma** (Treas. Reg. §1.6038A-1, en vigor des del 2017) per a SMLLC propietat d'un no resident amb qualsevol *reportable transaction* amb el seu únic membre. Sanció base: **25.000 USD per formulari i any** (IRC §6038A(d)) més **25.000 USD per cada 30 dies addicionals** després de la notificació de l'IRS.
+
+## Corporation: per defecte C-Corporation
+
+Quan algú constitueix una "Inc." o "Corp." sota la *General Corporation Law* d'un estat (per exemple, **Delaware General Corporation Law** o **Nevada Revised Statutes Chapter 78**), per defecte es tracta fiscalment com a **C-Corporation**: paga impost federal sobre els seus beneficis al **21 % (IRC §11(b), tipus únic introduït per la Tax Cuts and Jobs Act de 2017)**, més l'impost estatal corresponent (Delaware grava 8,7 % sobre la renda generada a l'estat, Califòrnia 8,84 %, Texas 0 % d'income tax però franchise tax). Quan reparteix dividends, els socis són gravats **una segona vegada** en la seva renda personal: per a US persons, dividends qualificats al 0 % / 15 % / 20 % federal (IRC §1(h)(11)); per a socis estrangers, retenció FDAP del **30 %** llevat de CDI aplicable (la **Convenció Espanya-EUA, BOE 22/12/1990, amb Protocol en vigor 27/11/2019** redueix la retenció sobre dividends al **15 % o 5 %** segons participació). És la doble imposició clàssica.
+
+La C-Corp és **obligatòria de facto** per a qui vulgui aixecar capital de venture capital o sortir a borsa: els inversors institucionals (fons VC, family offices, plataformes com AngelList, Y Combinator) gairebé sempre exigeixen una **Delaware C-Corp** perquè coneixen la seva jurisprudència (Court of Chancery), pot emetre diverses classes d'accions (preferents amb liquidation preferences, Series A/B/C), permet stock options per a empleats (plans 409A) i permet ofertes públiques. No té límit de nombre d'accionistes ni restriccions de nacionalitat.
 
 ## S-Corporation: l'opció que un no resident no pot fer servir
 
-La S-Corporation és una corporació que ha optat per tributar com a entitat transparent (semblant a la LLC): no paga impost federal corporatiu, els beneficis passen als socis. Sona bé fins que veus els requisits: màxim 100 accionistes, tots han de ser persones físiques residents o ciutadans estatunidencs (no s'admeten estrangers, societats ni LLC), una sola classe d'accions. Per aquests requisits, una S-Corp és inviable per a un emprenedor no resident. La mencionem perquè entenguis que quan llegeixes S-Corp en fòrums nord-americans, gairebé mai aplica al teu cas.
+La **S-Corporation** no és una forma jurídica nova: és una **elecció fiscal federal** definida al **subcapítol S de l'Internal Revenue Code (IRC §§1361-1378)** que una corporation o LLC pot sol·licitar mitjançant **Form 2553**. Un cop acceptada la S-election, l'entitat **no paga impost federal corporatiu**; els beneficis passen als socis i es reporten a les declaracions personals (Schedule K-1). A diferència de la LLC, els socis poden cobrar un **salari raonable** (W-2) i rebre la resta com a **distribucions no subjectes a self-employment tax** (15,3 %), cosa que redueix la càrrega FICA per a residents US. Aquesta és la raó principal per la qual els americans trien S-Corp.
+
+El problema per a no residents: **IRC §1361(b)** estableix requisits estrictes. Màxim **100 accionistes**, tots han de ser **persones físiques residents o ciutadans americans** (no s'admeten estrangers, ni *non-resident aliens*, ni societats, ni LLCs com a accionistes), una sola classe d'accions (amb l'única excepció de diferències en drets de vot). Per aquests requisits, una **S-Corp és completament inviable per a un emprenedor no resident**. La mencionem perquè entenguis que quan llegeixes "S-Corp" en fòrums nord-americans o en llibres de tax planning de Robert Kiyosaki o Mark Kohler, gairebé mai aplica al teu cas.
 
 ## Quan una C-Corp té sentit per a un no resident
 
-Una C-Corp encaixa quan vas a buscar inversió venture capital, quan planeges sortir a borsa, quan tindràs empleats amb stock options als EUA, o quan el teu negoci té ETBUS i per tant pagaria impost federal igualment. També per a startups SaaS B2B que apunten al mercat americà i necessiten estructura corporativa estàndard per a clients i partners. La doble imposició s'atenua amb planificació: sous al fundador, retenció de beneficis per reinvertir en lloc de repartir dividends, i aprofitament del Qualified Small Business Stock (QSBS) que pot donar exempció fiscal en venda després de cinc anys.
+Una C-Corp pot compensar per a un no resident en escenaris concrets:
+
+- **Vas a buscar inversió venture capital**: els fons exigeixen Delaware C-Corp amb cap table neta.
+- **Planeges sortir a borsa** o ser adquirit per una empresa cotitzada (M&A típicament exigeix C-Corp).
+- **Vas a tenir empleats amb stock options** als EUA (plans ISO/NSO requereixen corporation).
+- **El teu negoci té ETBUS** (oficina, empleats, servidors propis, magatzem) i per tant pagaria impost federal igualment sota IRC §882: el diferencial fiscal vs LLC desapareix i la C-Corp aporta governança més sòlida.
+- **Vols aprofitar el QSBS (Qualified Small Business Stock)** definit a **IRC §1202**: si mantens accions d'una C-Corp qualificada (actius ≤ 50 M USD a l'emissió, activitat operativa, no serveis professionals) durant **5 anys**, pots excloure fins al **major de 10 M USD o 10x base** en plusvàlua a la venda.
+
+La doble imposició s'atenua amb planificació: salaris al fundador (deduïbles per a la corp, gravats com a ordinary income a l'individu), retenció de beneficis per reinvertir en lloc de repartir dividends, plans de compensació diferida i bon aprofitament del QSBS si encaixa.
 
 ## Taula comparativa de tributació efectiva
 
-Per a un benefici de 100.000 USD generat per un no resident sense ETBUS: una LLC paga 0 USD federals i l'amo tributa on resideixi. Una C-Corp paga 21.000 USD federals (21%) més l'estatal aplicable; si reparteix la resta com a dividend, els 79.000 USD restants poden patir retenció del 30% per FDAP, deixant uns 55.000 USD nets al soci. La diferència és enorme: per a perfils operatius sense pretensió d'inversió institucional, la LLC és clarament més eficient. La C-Corp només guanya quan el pla estratègic requereix venture capital o sortida a borsa.
+Per a un benefici de **100.000 USD** generat per un no resident sense ETBUS, sense US-source income, resident fiscal a Catalunya:
+
+| Vehicle | Federal US | Estatal US | Retenció dividends | Total US | Tributació Catalunya |
+|---|---|---|---|---|---|
+| **LLC disregarded** (WY/NM) | 0 USD | 0 USD | N/A | **0 USD** | IRPF per atribució de rendes (art. 87 LIRPF) sobre benefici net + tram autonòmic català (escala fins al **25,5 %** a partir de 175.000 €) |
+| **C-Corp Delaware** sense repartiment | 21.000 USD | 0 USD si no opera a DE | 0 USD | **21.000 USD** | Sense tributació immediata si no reparteix (llevat TFI art. 91 LIRPF) |
+| **C-Corp Delaware** amb repartiment complet | 21.000 USD | 0 USD | 11.850 USD (15 % CDI ESP-USA) | **32.850 USD** | IRPF estalvi (19/21/23/27/28/30 % segons base) sobre dividend brut + crèdit per impost suportat |
+| **S-Corp** | No disponible per a no residents (IRC §1361(b)) |
+
+La diferència és enorme: per a perfils operatius sense pretensió d'inversió institucional, **la LLC és clarament més eficient**. La C-Corp només guanya quan el pla estratègic requereix venture capital, sortida a borsa o aprofitament de QSBS.
+
+## LLC US vs alternatives a Catalunya: quan encaixa cadascuna?
+
+Si estàs basat a Catalunya o a la resta d'Espanya, les teves opcions locals principals són:
+
+- **Empresari individual (autònom RETA)**: alta a Hisenda i Seguretat Social, sense entitat jurídica separada, responsabilitat personal il·limitada. IRPF progressiu del 19 % al 47 % (estatal + autonòmic; a Catalunya, **escala autonòmica fins al 25,5 % a partir de 175.000 €**, segons Llei 5/2020 del Parlament de Catalunya). Cotització RETA per ingressos reals (Reial decret-llei 13/2022): de **230 €/mes** (ingressos fins a 670 €) fins a **590 €/mes** (ingressos > 6.000 €) el 2024, i **200 €/mes a 590 €/mes** segons trams el 2025-2026. IVA: declaració trimestral (model 303).
+- **Societat Limitada Unipersonal (SLU)**: forma jurídica per a un sol soci amb responsabilitat limitada. Capital mínim **3.000 €** (Reial decret legislatiu 1/2010, Llei de societats de capital, art. 4.1). **Llei 18/2022 (Llei Crea i Creix)** introdueix la possibilitat de constituir-la amb **1 € de capital** (modalitat de "constitució successiva"), però amb obligació de dotar reserva legal del 20 % dels beneficis fins arribar als 3.000 €. Impost de Societats **25 %** (tipus general) o **15 %** per a empreses de nova creació els dos primers exercicis amb beneficis (art. 29.1 LIS). Distribucions tributen a IRPF estalvi del soci (19-30 %).
+- **Societat Limitada (SL) plurisocial**: capital mínim 3.000 €, mínim dos socis.
+- **Societat Anònima (SA)**: per a projectes grans, capital mínim 60.000 €.
+- **Cooperativa**: figura específica a Catalunya (Llei 12/2015 de cooperatives), amb règim fiscal particular i tipus d'IS reduït (20 % per a cooperatives protegides).
+
+Una LLC US detinguda des de Catalunya és tractada per **Hisenda Espanyola** com a entitat en règim d'atribució de rendes (art. 87 LIRPF), seguint la consulta vinculant **DGT V0290-20** (febrer 2020): els beneficis de la LLC es declaren a l'IRPF del soci com a rendiments de l'activitat econòmica. **Una LLC US és vantatjosa per a un resident fiscal català amb forta facturació internacional** (>40.000 €/any), però exigeix complir totes les obligacions declaratives locals: **Modelo 720** per a comptes bancaris als EUA amb saldo mig o final >50.000 €, **Modelo 232** per a operacions vinculades, **Modelo 100** (declaració de la renda) amb els ingressos atribuïts.
 
 ## Què triar segons el teu perfil
 
-Freelancer, agència, consultor, infoproducte, ecommerce petit o SaaS bootstrapped: <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC</a>, sens dubte. Startup amb ronda seed o sèrie A planificada: C-Corp de Delaware, assumint la doble tributació com a cost d'accés a capital. Negoci físic als EUA amb empleats i operativa local: probablement C-Corp si esperes créixer molt, LLC si vas a operar com a petit negoci. Si ja tens una LLC i necessites convertir-la en C-Corp, és possible via conversió estatal i elecció de check-the-box (Form 8832), però requereix planificació acurada perquè dispara fets imposables.
+- **Freelancer, agència digital, consultor, infoproducte, ecommerce petit, SaaS bootstrapped**: **LLC** sense dubte si factures majoritàriament a internacional. Wyoming o Nou Mèxic pel cost; Delaware si preveus créixer molt.
+- **Startup amb ronda seed o sèrie A planificada**: **Delaware C-Corp** des del primer dia, assumint la doble imposició com a cost d'accés a capital.
+- **Negoci físic als EUA amb empleats i operativa local**: probablement C-Corp si esperes créixer molt; LLC si vas a operar com a petit negoci.
+- **Professional regulat (advocat, metge, arquitecte col·legiat)**: molts estats exigeixen **Professional LLC (PLLC)** o **Professional Corporation (PC)** amb llicència estatal.
 
-El marc regulador fonamental són el <a href="https://www.irs.gov/businesses">portal de l'IRS per a empreses</a> i l'<a href="https://www.law.cornell.edu/uscode/text/26">Internal Revenue Code (Title 26 USC)</a>. Per a no residents, la LLC continua sent l'opció més comuna, mentre que la C-Corp es reserva per a qui busca capital institucional o sortida a borsa.
+Si ja tens una LLC i necessites convertir-la en C-Corp, és possible via **statutory conversion** (DE, NV, WY) o via **check-the-box election (Form 8832)**. Sota **IRC §351**, la incorporació pot ser tax-free si es compleixen requisits (control 80 % post-incorporation, exclusivament actius per accions), però qualsevol desviació dispara fets imposables immediats.
+
+## Marc regulatori aplicable
+
+- **Internal Revenue Code (Title 26 USC)**: §11(b) C-Corp 21 %; §§1361-1378 règim S-Corp; §1202 QSBS; §§871, 881, 882, 1441 fiscalitat de no residents; §6038A Form 5472; §351 incorporacions tax-free.
+- **Treasury Regulations**: §301.7701-3 check-the-box; §1.6038A-1/2 Form 5472 disregarded entities.
+- **IRS Publications**: <a href="https://www.irs.gov/businesses/small-businesses-self-employed/business-structures">Business Structures</a>; Pub. 519 (US Tax Guide for Aliens); Pub. 542 (Corporations).
+- **Marc estatal US**: Delaware General Corporation Law; Wyoming Business Corporation Act; New Mexico Limited Liability Company Act.
+- **Marc espanyol**: Llei 35/2006 (LIRPF), arts. 8, 9, 87, 91; Llei 27/2014 (LIS), arts. 29.1, 100; Reial decret legislatiu 1/2010 (Llei de societats de capital); Llei 18/2022 (Llei Crea i Creix); Reial decret-llei 13/2022 (cotitzacions RETA per ingressos reals); Llei 5/2022 (sancionador Modelo 720 post STJUE C-788/19, 27/01/2022); RD 1065/2007 (Modelos 232 i 720); Convenció Espanya-EUA (BOE 22/12/1990 + Protocol 27/11/2019); <a href="https://petete.tributos.hacienda.gob.es">DGT V0290-20</a>.
+- **Marc català**: Llei 12/2015 de cooperatives de Catalunya; Llei 5/2020 de mesures fiscals de la Generalitat (escala autonòmica IRPF).
+
+Per a no residents, la LLC continua sent l'opció més comuna perquè combina protecció patrimonial, fiscalitat neta (0 % federal sense ETBUS) i càrrega administrativa baixa. La C-Corp es reserva per a qui busca capital institucional o sortida a borsa.
+
+## Errors freqüents al triar vehicle
+
+- **Pensar que la S-Corp és "una LLC millorada"**: no ho és. És una elecció fiscal exclusiva per a US persons. Si ets no resident, ni la consideris.
+- **Constituir una C-Corp "perquè sona més seriós"** sense necessitat real de capital: pagues 21 % federal innecessàriament.
+- **Convertir LLC a C-Corp sense assessorament**: si no es compleix IRC §351, dispara fets imposables immediats.
+- **Triar Delaware "perquè és famós"** quan WY/NM costen cinc vegades menys en manteniment anual i aporten el mateix blindatge fiscal per a un freelancer no resident.
+
+L'elecció correcta depèn del teu pla a 3-5 anys, no de la moda del fòrum del torn.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
+> <a href="/ca/agendar">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->
 
-A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.
+A Exentax revisem el teu cas amb dades reals i et diem si compensa LLC, C-Corp o cap estructura US. <a href="/ca/agendar">Agenda una consulta gratuïta</a> de 30 minuts i sortim amb un pla clar.
 
 <!-- exentax:execution-v2 -->
-## Com tanquem això amb el mètode Exentax
+## Com ho resolem amb el mètode Exentax
 
-El que veiem cada setmana en els casos que ens arriben és sempre el mateix patró: el dubte es queda en idees soltes, la decisió s'ajorna i, quan arriba el tancament de l'exercici, es paguen més impostos dels necessaris o s'assumeixen riscos que no compensen. El problema rarament és la norma; és la manca d'un pla escrit amb números reals, assumit per algú que entengui el cas de punta a punta.
+El que veiem cada setmana en els casos que ens arriben és el mateix patró: el dubte es queda en idees soltes, la decisió s'ajorna i, quan arriba el tancament de l'exercici, es paguen més impostos dels necessaris o s'assumeixen riscos que no compensen. El problema gairebé mai és la norma; és la falta d'un pla per escrit amb números reals, signat per algú que entengui el teu cas de cap a cap.
 
 **El que la gent fa malament**
-- Copia estructures vistes a les xarxes sense modelar el seu propi cas amb ingressos, residència i cartera de clients a la mà.
-- Barreja diners personals amb els de l'activitat i perd el rastre documental que qualsevol inspecció exigirà.
-- Deixa l'execució en mans de gestories genèriques que només presenten formularis, sense pensar l'estratègia anual ni el cost total.
+- Copia estructures vistes a xarxes sense modelar el seu propi cas amb ingressos, residència i clients a la mà.
+- Barreja diners personals amb els de l'activitat i perd la traça documental que qualsevol inspecció exigeix.
+- Confia l'operativa a gestories que només omplen models, sense pensar en l'estratègia anual ni en el cost total.
 
 **El que funciona de veritat**
-- Modelar la situació a la <strong>calculadora Exentax</strong> abans de moure cap peça, per veure el cost anual total i no només la factura d'avui.
-- Separar des del primer dia els fluxos personals i professionals, amb comptes diferents i una checklist viva dels justificants.
-- Treballar amb un assessor que miri les peces juntes: estructura, banca, compliment i residència, no cada una pel seu compte.
+- Modelar la teva situació a la <strong>calculadora Exentax</strong> abans de moure una sola peça, per veure el cost total anual i no només la factura d'avui.
+- Separar des del primer dia els fluxos de diners, amb comptes diferents i una checklist viva de justificants.
+- Treballar amb un assessor que miri les peces juntes: estructura, banca, compliment i residència — no cadascuna pel seu compte.
 
-Si vols passar del dubte al pla, reserva 30 minuts amb Exentax i sortim de la trucada amb els números tancats i un calendari operatiu.
+Si vols passar del dubte al pla, agenda 30 minuts amb Exentax i sortim de la trucada amb els números tancats i el calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Quan%20alg%C3%BA%20diu%20empresa%20americana%20molts%20imaginen%20LLC%2C%20altres%20corporaci%C3%B3%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Necessites parlar-ho ja? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l%27article%20%22Difer%C3%A8ncia%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20i%20C-Corp%22%20i%20vull%20parlar%20amb%20un%20assessor.">WhatsApp</a> i et responem avui mateix.</p>
 
-Si el teu pla és muntar la LLC a Delaware, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-delaware">LLC a Delaware</a> amb costos, terminis i propers passos concrets.
+Si el teu pla és muntar la LLC a Delaware, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-delaware">LLC a Delaware</a> amb costos, terminis i pròxims passos concrets.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
 Comparem Nou Mèxic, Wyoming, Delaware i Florida sobre el teu cas real, sense vendre't l'estat de moda. <a href="/ca/serveis/llc-delaware">Comparar el meu cas amb un assessor</a>.
 <!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">0%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ctividad económica conectada con EE.UU. (ETBUS) la LLC paga 0% federal y 0% estatal en est…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…como Wyoming o Nuevo México. Es la elección por defecto del 90% de los emprendedores extra…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…-Corporation: paga impuesto federal sobre sus beneficios al 21%, además del impuesto estat…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a comparativa de tributación efectiva Para un beneficio de 100.000 USD generado por un no …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">21.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…federales y el dueño tributa donde resida. Una C-Corp paga 21.000 USD federales (21%) más …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">79.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…estatal aplicable; si reparte el resto como dividendo, los 79.000 USD restantes pueden suf…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…dendo, los 79.000 USD restantes pueden sufrir retención del 30% por FDAP, dejando unos 55.…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">55.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ntes pueden sufrir retención del 30% por FDAP, dejando unos 55.000 USD netos al socio. La …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…posible vía conversión estatal y elección de check-the-box (Form 8832), pero requiere plan…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

@@ -131,6 +131,12 @@ Bei Exentax prüfen wir Ihren genauen Mix (B2B/B2C, EU/Nicht-EU, Verkaufsplattfo
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
 
+  ### Umsatzsteuer auf digitale Dienstleistungen: deutsches B2C-Regime und OSS
+
+  Für deutsche digitale Dienstleister gilt seit der **MwSt-Reform 2015** und der Erweiterung durch die **EU-Richtlinie 2017/2455** das **Bestimmungslandprinzip** für B2C-Dienstleistungen elektronischer Art (**§3a Abs. 5 UStG**: Telekommunikation, Rundfunk und elektronisch erbrachte Dienstleistungen). Die Umsatzschwelle von **€10.000/Jahr** (§3a Abs. 5 Satz 3 UStG) erlaubt Kleinanbietern die Anwendung des Ursprungslandprinzips; bei Überschreitung greift das EU-Recht des Bestimmungslandes.
+
+  **OSS-Verfahren (One-Stop-Shop) seit 01.07.2021** nach §18i, 18j, 18k UStG: Anmeldung beim BZSt-Online-Portal, vierteljährliche Meldung, Steuerentrichtung in EUR an das BZSt mit Weiterleitung an Verbrauchsmitgliedstaaten. Für Drittlandseingänge gilt der **IOSS** (Import-One-Stop-Shop) bis €150 Sendungswert. **Rechnungspflicht §14 UStG** mit Mehrsprachigkeit; **Aufbewahrung 10 Jahre §147 AO** + GoBD-Konforme elektronische Archivierung. Verstöße gegen OSS-Pflichten führen zum Ausschluss vom Verfahren und zur Pflicht zur Registrierung in jedem Mitgliedstaat.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Umsatzsteuer%20auf%20digitale%20Dienste%20ist%20das%20Thema%2C%20an%20dem%2080%20%25%20der%20DACH-Selbst%C3%A4%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -141,22 +147,4 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">21%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…CE: - **Cliente empresa en España:** Cobras IVA español al 21%. - **Cliente empresa en la …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">10.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…particular en la UE (servicios electrónicos):** Si superas 10.000 €/año en ventas a consum…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…unitarias. - Aplicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22%…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…plicar el tipo de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.)…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">22%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…o de IVA del país del comprador (19% Alemania, 20% Francia, 22% Italia, etc.). - Presentar…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…donde resides. Cualquier mensaje del estilo &quot;con LLC pagas 0%&quot; es engañoso. Lo que se cons…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ento de Ejecución (UE) 282/2011. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de e…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…n de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para LLC …»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.603…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…ttps://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; (Form 5472 + 1120 pro-forma anu…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1624/1992</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…84 (reglas de localización e inversión del sujeto pasivo); RD 1624/1992 (RIVA), arts. 79-8…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

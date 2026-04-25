@@ -148,7 +148,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
 ### Pontos-chave
 
-- **BOI / Corporate Transparency Act.** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida a "foreign reporting companies"** (entidades constituídas fora dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA por um não residente está, hoje, fora dessa obrigação**. O estado regulatório pode mudar de novo: **reverificar em FinCEN.gov no momento da submissão**. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo e monitoriza atualizações.
+- **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para uma **Single-Member LLC detida por um não residente**, as regulamentações finais Treas. Reg. §1.6038A-1 (em vigor desde 2017) tratam a LLC como corporation para efeitos do 5472. Procedimento: **Form 1120 pro-forma** (apenas cabeçalho: nome, morada, EIN, exercício) com **Form 5472 anexado**. Envio **por correio certificado ou fax para o IRS Service Center em Ogden, Utah**, **não via MeF/e-file** padrão. Prazo: **15 de abril**; prorrogação via **Form 7004** até **15 de outubro**. **Sanção: 25.000 USD por formulário e ano, mais 25.000 USD por cada 30 dias adicionais** de não submissão após notificação do IRS.
 - **Form 1120 substantivo.** Só se aplica se a LLC tiver feito check-the-box election para C-Corp (Form 8832): tributa a 21 % federal e apresenta 1120 com valores reais. A LLC disregarded padrão **não apresenta 1120 substantivo e não paga corporate tax federal**.
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.
@@ -159,7 +159,6 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 Cada situação fiscal depende da sua residência, da atividade exercida e dos contratos em vigor. As informações aqui apresentadas são gerais e não substituem aconselhamento personalizado; analise o seu caso específico antes de tomar decisões estruturais.
 
-<!-- exentax:overhaul-hoje-v1 -->
 ## Atualização Exentax hoje: calendário anual hoje sem lacunas
 
 A manutenção anual ordenada de uma LLC atualmente cabe em seis marcos.
@@ -175,7 +174,6 @@ A manutenção anual ordenada de uma LLC atualmente cabe em seis marcos.
 **Preciso de contabilidade formal?** Sim, mesmo livro caixa simplificado, para submeter o 5472. Mercury + folha de cálculo basta até ~150 k USD/ano; acima usa Quickbooks ou Wave.
 
 **E se mudar de país de residência?** Notifique o Registered Agent (mudança de morada), atualize Mercury (KYC) e, se a nova residência for CRS, declare a conta onde aplicável.
-<!-- exentax:overhaul-hoje-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Como fechamos a manutenção anual na Exentax
@@ -199,7 +197,6 @@ Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">pá
 Revemos BOI, EIN, agente registado e obrigações federais para que nenhuma multa o apanhe de surpresa. <a href="/pt/servicos">Pedir revisão de compliance</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisão editorial pendente</strong> — As referências seguintes requerem verificação manual contra a fonte oficial vigente. Se identificares uma divergência, escreve à equipa e corrigimos em menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -225,5 +222,4 @@ Revemos BOI, EIN, agente registado e obrigações federais para que nenhuma mult
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(referência legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fonte sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

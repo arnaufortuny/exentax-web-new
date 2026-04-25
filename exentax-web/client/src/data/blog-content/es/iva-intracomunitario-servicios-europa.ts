@@ -27,7 +27,6 @@ Para freelancers cuyos clientes son mayoritariamente empresas estadounidenses o 
 
 El marco normativo está en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Ley 37/1992 del IVA</a> y la <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0112">Directiva 2006/112/CE</a>. Para validar VIES en tiempo real puedes usar el <a href="https://ec.europa.eu/taxation_customs/vies/">portal de la Comisión Europea</a>.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -63,12 +62,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">BOE-A-1992-28740</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…vo está en la &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740&quot;&gt;Ley 37/1992 …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

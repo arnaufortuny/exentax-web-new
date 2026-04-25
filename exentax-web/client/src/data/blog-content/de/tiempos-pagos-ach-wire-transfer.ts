@@ -147,6 +147,16 @@ Bei Exentax bauen wir den Banken-Stack nach Use Case auf.
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.
 
+  ### SEPA, Target2 und Sonderfälle für DACH-LLC-Inhaber
+
+  Wer von Deutschland, Österreich oder der Schweiz aus eine US-LLC betreibt, kombiniert in der Praxis ACH/Wire mit **SEPA-Überweisungen** (Single Euro Payments Area). Die wichtigsten Geschwindigkeitsunterschiede sind: **SEPA Credit Transfer (SCT)** dauert 1 Bankarbeitstag (D+1), **SEPA Instant Credit Transfer (SCT Inst)** unter 10 Sekunden 24/7 — seit dem **EU-Verordnungsentwurf 2024/886 (Instant Payments Regulation)** ist die Annahme von Sofortüberweisungen für alle Eurozonen-Banken **bis 9. Oktober 2025 obligatorisch** (Empfang) und **bis 9. April 2026** (Versand), ohne Aufpreis gegenüber Standard-SCT.
+
+  Für **größere USD-Beträge** über USD 100.000 nutzen DACH-LLC-Inhaber typischerweise: (a) **Wise Business** (multi-divisa, ca. 0,4–0,7 % FX-Markup, IBAN belgisch BE bei Wise Europe SA — was zur **CRS-Meldepflicht nach Belgien** führt, das die Daten dann an Deutschland/Österreich automatisch weiterleitet); (b) **Mercury Wire International** (USD 5 fee outgoing, 1–3 Bankarbeitstage über SWIFT MT103); (c) deutsche **Hausbank-Devisenkonto** (Deutsche Bank, Commerzbank, Sparkasse) mit USD-Unterkonto, höhere Spreads (1,5–2,5 %) aber direkter Reporting-Komfort für die Anlage AUS und §138 AO.
+
+  In der **Schweiz** ist die **FINMA-Lizenz** der Wise Schweiz AG begrenzt — viele Schweizer LLC-Inhaber führen ihre USD-Operationen über UBS/Raiffeisen-Devisenkonten oder direkt über das Mercury-Konto, wobei die Stempelsteuer bei Wertschriftengeschäften (1,5 ‰ inländisch / 3 ‰ ausländisch) zu beachten ist. Die schweizerische Mehrwertsteuer (8,1 % Normalsatz seit 1.1.2024) wird auf Wechselgebühren grundsätzlich nicht erhoben (Art. 21 Abs. 2 Ziff. 19 MWSTG).
+
+  Praktischer Hinweis: deutsche Steuerpflichtige müssen bei **Konten im Drittland mit Saldo > €100.000** im Jahresdurchschnitt das **Formular „Anzeige nach §138 Abs. 2 AO"** beim zuständigen Finanzamt einreichen, **innerhalb von 5 Monaten** nach Ablauf des Kalenderjahres (Frist: 31. Mai). Das gilt auch für Mercury-, Relay- und Column-N.A.-Konten. Verstöße werden mit Verspätungszuschlag bis €25.000 nach §379 AO sanktioniert.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Aus%20deutschsprachiger%20Sicht%20kennt%20man%20SEPA-%C3%9Cberweisungen%20in%201%20Bankarbeitstag%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -157,7 +167,6 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -168,5 +177,4 @@ Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fa
 <li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

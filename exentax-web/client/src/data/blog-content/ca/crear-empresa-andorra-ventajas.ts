@@ -138,7 +138,6 @@ Andorra és una opció seriosa, no un truc. Per a emprenedors i professionals am
 
 Per a perfils que no volen mudar-se, una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> resol l'optimització corporativa sense necessitat de canviar de país. Per a qui sí està disposat a fer el pas, la combinació residència andorrana + LLC americana és una de les estructures més eficients que veiem.
 
-
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
@@ -193,7 +192,6 @@ L'elecció de jurisdicció depèn sempre de la residència fiscal real del titul
 - [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)
 <!-- /exentax:cross-refs-v1 -->
 
-
 Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
 
 <!-- exentax:cta-conv-v1 -->
@@ -206,43 +204,4 @@ Si prefereixes parlar-ne directament, <a href="/ca/agendar">reserva una sessió 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">3.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a proyectos de mayor tamaño. Capital social mínimo: - SL: 3.000 EUR. - SA: 60.000 EUR. Con…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">60.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…yor tamaño. Capital social mínimo: - SL: 3.000 EUR. - SA: 60.000 EUR. Constitución: 4-8 se…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">2.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…te habitual entre escritura, registro, asesoría y trámites: 2.500-6.000 EUR. La constituci…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">6.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…itual entre escritura, registro, asesoría y trámites: 2.500-6.000 EUR. La constitución exi…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">10%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…de sociedades andorrano (IS)** tiene un tipo general del **10%**. Existen tipos reducidos …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…eral del **10%**. Existen tipos reducidos para los primeros 50.000 EUR de base imponible y…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…Indirecte)**, equivalente al IVA, con tipo general del **4,5%** (uno de los más bajos del …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…* (uno de los más bajos del mundo). Hay tipos reducidos del 1% (alimentación, medicamentos…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…dos del 1% (alimentación, medicamentos) y superreducido del 0%. ### Fiscalidad personal: e…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">24.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…tiene una estructura muy sencilla: - 0% sobre los primeros 24.000 EUR de renta. - 5% entre…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">24.001</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a: - 0% sobre los primeros 24.000 EUR de renta. - 5% entre 24.001 y 40.000 EUR. - 10% sobr…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">40.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…sobre los primeros 24.000 EUR de renta. - 5% entre 24.001 y 40.000 EUR. - 10% sobre lo que…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">22%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…&quot;noopener&quot;&gt;Seguridad Social&lt;/a&gt; andorrana): aproximadamente 22% sobre la base de cotizació…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…r en Andorra al menos 90 días al año. - Inversión mínima de 600.000 EUR en activos andorra…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">47.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…paciones en sociedades andorranas). - Depósito adicional de 47.500 EUR ante el AFA (más 9.…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">9.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ranas). - Depósito adicional de 47.500 EUR ante el AFA (más 9.500 EUR por familiar). - Dem…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1.200</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…y LatAm: - **Vivienda**: alquiler de 2 habitaciones desde 1.200-2.500 EUR/mes en zonas hab…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">4.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ales (Escaldes, Andorra la Vella, La Massana). Compra desde 4.000 EUR/m² hacia arriba. - *…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">5.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…rativamente, mantener una SL andorrana cuesta entre 2.500 y 5.000 EUR/año en gestoría, ase…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">80.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…# Riesgos reales y honestos - **Vida en un país pequeño**: 80.000 habitantes, opciones lim…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…sos típicos donde aplica **Caso 1: profesional digital con 200.000 EUR/año dispuesto a viv…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">100.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…gualable en Europa. **Caso 2: jubilado con renta pasiva de 100.000 EUR/año.** Residencia p…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">10 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…y residencia a Andorra Andorra ofrece tipos efectivos del 10 % en sociedades y entre 0 % y…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">0 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…dorra ofrece tipos efectivos del 10 % en sociedades y entre 0 % y 10 % en IRPF, con CASS (…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">550.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…nversión mínima de 600.000 € (depósito 50.000 € + inversión 550.000 € en activos andorrano…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">2 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ocietats es 10 %; la holding andorrana puede acceder a tipo 2 % cumpliendo requisitos de p…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">25 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n cartera de valores cualificada (&gt;4 M€ valor de mercado o &gt;25 % participación en sociedad…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">300.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…irme?** No automáticamente, pero un perfil con facturación &gt;300.000 €/año y residencia pre…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">22 %</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ma de impuesto diferido sobre beneficios distribuidos al 20/22 %) y documentación oficial …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; del Form 5472 e IRC §7701 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…Si en cambio la LLC se opta a tributar como *corporation* (Form 8832) y queda controlada p…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…s://www.irs.gov&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRS&lt;/a&gt; del Form 5472 e IRC §7701 (clasifi…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

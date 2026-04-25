@@ -10,7 +10,6 @@ Simulation occurs when acts or transactions are apparent and do not respond to o
 
 **How to avoid**: give the LLC real **substance** (decision-making, operations, infrastructure) or accept from the start that the LLC is a complementary tool, not a façade. Developed in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">designing a solid international structure</a>.
 
-
 ## Risk 2: Controlled Foreign Company (CFC)
 
 **CFC** is regulated in Spain in art. 100 of the Corporate Income Tax Law, applicable to individuals via art. 91 LIRPF. LATAM equivalents in Mexico (art. 176 LISR), Colombia (ECE regime), Argentina (ECNR regime), Chile (passive income art. 41 G LIR).
@@ -133,6 +132,10 @@ Choosing a jurisdiction always depends on the holder's actual tax residency and 
 - [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)
 <!-- /exentax:cross-refs-v1 -->
 
+  ### International tax structuring risks: UK and US enforcement perspective
+
+  From a UK angle, the **Diverted Profits Tax (DPT)** introduced by **Finance Act 2015 ss. 77-116** at a 25 % rate (rising to 31 % from April 2023) penalises structures lacking economic substance. **HMRC's GAAR** (general anti-abuse rule, **FA 2013 ss. 206-215**) plus the **Targeted Anti-Avoidance Rules (TAARs)** scattered across CTA 2010 cover specific structuring abuses. From the US side, **IRC §482 transfer pricing**, **§7701(o) economic substance doctrine** (codified by Health Care Act 2010 with 20-40 % strict-liability penalty under §6662(b)(6)), and **GILTI under §951A** (10.5-13.125 % effective rate post-TCJA) limit aggressive offshore structuring.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22A%20well-designed%20international%20structure%20is%20an%20extraordinary%20tool%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
@@ -143,33 +146,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">11.683</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…art. 5-A CFF, Colombia: art. 869 ET, Argentina: art. 2 Ley 11.683). Hay simulación cuando …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…xico, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posi…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…e delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP). **Cóm…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…una participación, directa o indirecta, igual o superior al 50% en la entidad no residente…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">75%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…butación efectiva de la entidad no residente es inferior al 75% de la que correspondería e…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…entes (IRNR) por las rentas atribuibles al EP, con tipo del 25% (Impuesto sobre Sociedades…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">240.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…cuota defraudada por ejercicio fiscal supera **120.000 €** (240.000 € si la administración…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n ese umbral con relativa facilidad: si tu actividad genera 200.000 € anuales y deberías h…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…idad genera 200.000 € anuales y deberías haber tributado al 47% pero declaraste al 0%, en …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…nuales y deberías haber tributado al 47% pero declaraste al 0%, en dos años cruzas el umbr…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…ámbito penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraud…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">600%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Ti…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…udada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura orga…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…r&quot;&gt;OCDE&lt;/a&gt; con sus Comentarios. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación chec…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §77…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…U.** Treas. Reg. §301.7701-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y normativa F…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…reformó el Modelo 720 tras la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…caciones de cambio de domicilio, datos bancarios CRS, datos DAC7, vehículos a tu nombre, e…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…nto, declara mal o no declara. 2. Año 3: cruce CRS / DAC7 / DAC8 detecta inconsistencias. …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…13 en vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

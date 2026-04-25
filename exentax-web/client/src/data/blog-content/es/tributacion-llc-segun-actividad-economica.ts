@@ -9,7 +9,7 @@ Hablar de "fiscalidad de la LLC" en abstracto lleva a errores graves: la fiscali
 Es el caso más común y el más sencillo. Tu LLC factura servicios a clientes B2B internacionales (USA, UE, LATAM). Características:
 
 - **Naturaleza renta**: actividad económica.
-- **Calificación España (residente)**: rendimiento de actividad económica imputable al socio (vía atribución de rentas, ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina <a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>/TEAC</a>).
+- **Calificación España (residente)**: rendimiento de actividad económica imputable al socio (vía atribución de rentas, ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina DGT/TEAC</a>).
 - **IVA**: facturación B2B fuera de España con cliente comunitario, **inversión del sujeto pasivo** (el cliente se autoliquida el IVA en su país); con cliente USA u otro tercero, **operación no sujeta a IVA español** (regla de localización de servicios B2B). Profundizamos en <a href="/es/blog/iva-servicios-digitales-internacional">IVA en servicios digitales internacionales</a>.
 - **IRPF España**: rendimiento neto en base general (24-47%).
 - **Riesgo principal**: simulación si la sustancia operativa la aporta exclusivamente el socio residente español sin sustancia real en EE.UU.
@@ -129,7 +129,6 @@ En Exentax modelamos cada actividad por reglas de sourcing y ETBUS test antes de
 
 Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En Exentax nos encargamos de todo el proceso: constitución, banca, pasarelas de pago, contabilidad, declaraciones IRS y compliance en tu país de residencia. Agenda una asesoría gratuita y te diremos con sinceridad si la LLC tiene sentido para tu caso, sin promesas absolutas.
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -142,24 +141,4 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 Constitución, EIN, BOI, banca y mantenimiento: un único equipo que entiende tu caso de principio a fin. <a href="/es/servicios">Ver todos los servicios</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">47%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…a&gt;. - **IRPF España**: rendimiento neto en base general (24-47%). - **Riesgo principal**: …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…endos (rendimiento del capital mobiliario en base ahorro 19-28% si entidad opaca; si trans…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…n de qué hace la LLC. La regla &quot;non-effectively connected = 0%&quot; no es uniforme: el &lt;a href…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s para no residentes sin trade or business). Dividendos US: 30% retención por defecto, red…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ness). Dividendos US: 30% retención por defecto, reducida a 15%/0% bajo treaty con W-8BEN-…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…s de constituir, para no descubrir a los dos años que pagas 21% federal cuando creías 0%. …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…ier** en muchos casos y retienen IVA, pero no en todos. - **DAC7**: como vendedor en Amazo…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…actividad económica si trading frecuente y profesional. - **DAC8**: aplica recientemente s…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

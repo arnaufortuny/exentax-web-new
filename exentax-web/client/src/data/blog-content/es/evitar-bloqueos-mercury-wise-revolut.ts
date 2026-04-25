@@ -135,7 +135,6 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 - [Wise, bancos y LLC: la stack bancaria completa que nadie te explica](/es/blog/wise-bancos-llc-stack-bancaria-completa)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -148,15 +147,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…revenir bloqueos ### En Mercury - **Completa tu perfil al 100%**: sube todos los documento…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…t de información o cierre con 60 días. La buena noticia: el 90% de los bloqueos son evitab…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…paralelo escala via support a un Customer Success rep. En ~30% de los casos, con documenta…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

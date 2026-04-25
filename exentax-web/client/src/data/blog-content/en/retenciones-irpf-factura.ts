@@ -61,23 +61,4 @@ If you'd rather discuss it live, <a href="/en/book">book a free session</a> and 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Editorial review pending</strong> — The following references require manual verification against the official current source. If you spot a discrepancy, write to us and we will correct it within 24 hours.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">15%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…donde la AEAT cruza datos automáticamente. ## Porcentajes: 15% general y 7% para nuevos au…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">7%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…cruza datos automáticamente. ## Porcentajes: 15% general y 7% para nuevos autónomos El por…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…esta circunstancia al pagador. Hay porcentajes especiales: 1% para módulos en algunas acti…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">19%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…entajes especiales: 1% para módulos en algunas actividades, 19% para arrendamientos urbano…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1.000</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…bre la base sin IVA y total a percibir. Ejemplo: factura de 1.000 euros + 21% IVA - 15% re…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n IVA y total a percibir. Ejemplo: factura de 1.000 euros + 21% IVA - 15% retención = 1.00…»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">1.060</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…1.000 euros + 21% IVA - 15% retención = 1.000 + 210 - 150 = 1.060 euros que tu cliente te …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">20%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…rofesional o empresarial que no esté en módulos. Calcula el 20% sobre el rendimiento neto …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">70%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…n facturas. Si tus clientes ya retuvieron el equivalente al 70% o más de tus ingresos, no …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(figure)</span> <span class="text-xs italic">— «…bligación de presentar el 130. Por eso muchos profesionales 100% B2B (que retienen al 15% …»</span> <strong>[NOT VERIFIED]</strong></li>
-<li><span class="font-mono">RD 439/2007</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…detalladas de retenciones están en el Reglamento del IRPF (RD 439/2007, accesible en el &lt;a…»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">BOE-A-2007-6820</span> <span class="opacity-70">(legal reference)</span> <span class="text-xs italic">— «…cesible en el &lt;a href=&quot;https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820&quot;&gt;BOE&lt;/a&gt;). La …»</span> <strong>[REVISIÓN MANUAL — suggested source: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

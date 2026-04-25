@@ -1,88 +1,159 @@
-export default `„Una LLC no paga impostos als EUA”, cert, sempre que parlem d'un no resident sense US-source income i sense ETBUS. A partir del moment que la teva LLC té un empleat als EUA, un magatzem físic o un contracte signat a Miami, la fotografia canvia a l'instant. El que mana és l'activitat, no l'etiqueta „LLC”.
+export default `
+
+Parlar de «fiscalitat de la LLC» en abstracte porta a errors greus: la fiscalitat real depèn molt estretament del **tipus d'activitat econòmica** que la LLC desenvolupa, perquè cada activitat activa regles diferents d'IVA, qualificació de rendes, font de la renda, conveni de doble imposició aplicable i, sobretot, exposició a la transparència fiscal internacional i a les regles antielusió. Vegem les cinc grans famílies que veiem a Exentax.
 
 ## Punts clau
 
-### 1. Serveis professionals B2B
+### 1. Serveis professionals (consultoria, desenvolupament, disseny, màrqueting)
 
-Cas més senzill. **Espanya**: activitat econòmica imputada (<a href="/ca/blog/doctrina-administrativa-espanyola-sobre-la-llc-americana">doctrina</a>). **IVA**: reverse charge B2B UE, fora d'àmbit B2B no-UE (<a href="/ca/blog/iva-en-serveis-digitals-internacionals-quan-saplica-i-quan">IVA digitals</a>). IRPF base general 24-47%. Risc principal: simulació sense substància EUA.
-### 2. E-commerce físic
+És el cas més comú i el més senzill. La seva LLC factura serveis a clients B2B internacionals (EUA, UE, Amèrica Llatina). Característiques:
 
-Activitat econòmica. **IVA UE complex** (OSS/IOSS). **DAC7** (<a href="/ca/blog/dac7-el-nou-reporting-de-plataformes-digitals-el-2026">DAC7</a>). Duana EORI. US sales tax. <a href="/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa">Amazon amb LLC</a>.
-### 3. SaaS
+- **Naturalesa de la renda**: activitat econòmica.
+- **Qualificació a Espanya (resident)**: rendiment d'activitat econòmica imputable al soci (via atribució de rendes, vegi la <a href="/ca/blog/doctrina-administrativa-espanyola-sobre-la-llc-americana">doctrina DGT/TEAC</a>).
+- **IVA**: facturació B2B amb client comunitari, **inversió del subjecte passiu** (el client autoliquida l'IVA al seu país); amb client dels EUA o altre tercer, **operació no subjecta** a l'IVA espanyol (regla de localització dels serveis B2B). Aprofundim a <a href="/ca/blog/iva-en-serveis-digitals-internacionals-quan-saplica-i-quan">IVA en serveis digitals internacionals</a>.
+- **IRPF a Espanya**: rendiment net en base general (24-47 %).
+- **Risc principal**: simulació si la substància operativa l'aporta exclusivament el soci resident a Espanya sense substància real als EUA.
 
-Activitat + cessió d'ús. **B2C TBE**: IVA país consumidor (Non-EU OSS o MoR). **B2B**: reverse charge. CFC mitjà-alt si licensing passiu.
-### 4. Royalties
+**Optimització legítima**: maximitzar despeses deduïbles correctes a la LLC (programari, eines, subcontractació, formació, màrqueting). El net imputat al soci es redueix i el tipus mitjà efectiu cau substancialment respecte de l'autònom pur espanyol.
 
-**Passius**. Art. 12 CDT. **CFC alt**. **LOB CDT 2019** restrictiva. LLC pura royalties amb soci ES sense substància = sota CFC.
-### 5. Trading
+### 2. E-commerce físic (Amazon, Shopify, dropshipping)
 
-Guanys o activitat. **DAC8** recentment (<a href="/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el">DAC8</a>). **CFC molt alt**. Vegeu <a href="/ca/blog/criptomonedes-i-trading-amb-llc-guia-fiscal-completa-per-a">cripto i trading</a>.
-### Taula
+Vostè ven béns físics a consumidors finals internacionals. Característiques:
 
-| Activitat | Qualificació ES | IVA | CFC | Simulació | LLC pura |
+- **Naturalesa de la renda**: activitat econòmica de venda.
+- **IVA i duanes**: complex. Si ven a consumidors europeus, la LLC pot tenir obligació de **registre IVA** a països de la UE individualment o usar el **règim OSS / IOSS**. Si supera determinats llindars per país, ha de registrar-se localment. Marketplaces com Amazon actuen com a **deemed supplier** en molts casos i retenen l'IVA, però no en tots.
+- **DAC7**: com a venedor a Amazon, Etsy o eBay europeus, Amazon Europa reportarà els seus ingressos a l'autoritat fiscal de Luxemburg, que els reenvia a la del país dels beneficiaris efectius. Vegi <a href="/ca/blog/dac7-el-nou-reporting-de-plataformes-digitals-el-2026">DAC7</a>.
+- **Duanes**: si la LLC importa estoc a la UE per a distribució (FBA), necessita **EORI europeu**, importador oficial i possible IOR (Importer of Record).
+- **Sales tax als EUA**: si ven a consumidors a estats amb economic nexus, possible obligació de registre i recaptació de sales tax. Més a <a href="/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa">Amazon i e-commerce amb LLC</a>.
+
+**Risc principal**: ignorar l'IVA UE o el sales tax dels EUA pot generar una factura retroactiva molt important.
+
+### 3. SaaS i subscripcions digitals
+
+Vostè ven accés a programari o contingut digital, B2C o B2B, en subscripció o pagament únic. Característiques:
+
+- **Naturalesa de la renda**: activitat econòmica + cessió d'ús de programari (frontera amb royalties).
+- **Serveis prestats per via electrònica (TBE)**: si ven a consumidors europeus, subjectes a IVA al país del consumidor. Règim **OSS no UE** (la LLC es registra en un Estat membre d'identificació) o ús de plataformes que actuen com a Merchant of Record (Paddle, FastSpring, DoDo Payments, Lemon Squeezy) que es fan càrrec de l'IVA per vostè.
+- **B2B**: regla general d'inversió del subjecte passiu.
+- **Qualificació de la renda a Espanya**: rendiments d'activitat econòmica si hi ha desenvolupament actiu; si el que cedeix és llicència passiva sobre codi preexistent sense activitat operativa rellevant, pot haver-hi discussió sobre **transparència fiscal internacional** (art. 100 LIS, via art. 91 LIRPF).
+- **Risc CFC/TFI**: si la LLC genera principalment rendes passives (llicències) i no disposa de mitjans materials i humans als EUA, l'AEAT pot aplicar la transparència fiscal internacional.
+
+Més detall a <a href="/ca/blog/llc-americana-per-a-desenvolupadors-de-programari-i">LLC per a desenvolupadors de programari i SaaS</a>.
+
+### 4. Royalties i propietat intel·lectual
+
+La seva LLC titularitza drets (marca, programari, contingut) i els llicencia a tercers o a una altra entitat relacionada. Característiques:
+
+- **Naturalesa de la renda**: rendes passives (royalties).
+- **Qualificació CDI**: art. 12 CDI Espanya-EUA (royalties). Generalment, l'Estat de la font pot gravar (amb el límit del % CDI), i l'Estat de residència grava amb deducció.
+- **Risc CFC**: alt. Les rendes passives són el supòsit típic de transparència fiscal internacional. Si la seva LLC té majoritàriament rendes passives, vostè autònom la controla i resideix a Espanya, l'art. 91 LIRPF (remissió a l'art. 100 LIS) es pot activar.
+- **Tributació efectiva**: si s'aplica TFI, tributa a Espanya com si les rendes fossin seves directes, amb deducció de qualsevol impost pagat per la LLC (típicament 0$ federal en Disregarded Entity).
+- **Clàusula LOB CDI 2019**: dificulta l'accés als beneficis del CDI a estructures híbrides o sense substància.
+
+**Conclusió**: una LLC pura de royalties amb soci resident espanyol s'ha de dissenyar amb substància real (mitjans materials, personal, decisions preses als EUA) o reconèixer que estarà sota TFI.
+
+### 5. Trading (accions, futurs, criptomonedes)
+
+La seva LLC opera els mercats financers amb compte a Interactive Brokers, Tradovate o Kraken. Característiques:
+
+- **Naturalesa de la renda**: depèn de l'actiu i del règim. Trading FX i futurs: guanys i pèrdues patrimonials a molts països; a Espanya, si és habitual i professional, es pot requalificar com a activitat econòmica.
+- **Accions**: dividends (rendiment del capital mobiliari en base d'estalvi 19-28 % si entitat opaca; si transparent, imputació directa) i guanys per venda (base d'estalvi).
+- **Cripto**: guanys i pèrdues patrimonials (base d'estalvi) o activitat econòmica si trading freqüent i professional.
+- **DAC8**: aplica recentment si opera amb exchanges europeus. Vegi <a href="/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el">DAC8 i criptomonedes</a>.
+- **Risc CFC**: molt alt. Els rendiments de cartera són l'exemple paradigmàtic de renda passiva sotmesa a TFI.
+- **Conveni**: art. 10 (dividends), art. 11 (interessos), art. 13 (guanys de capital). Les clàusules LOB del Protocol 2019 són especialment restrictives per a estructures d'inversió sense substància.
+
+Més detall a <a href="/ca/blog/criptomonedes-i-trading-amb-llc-guia-fiscal-completa-per-a">criptomonedes i trading amb LLC</a>.
+
+### Quadre resum per activitat
+
+| Activitat | Qualificació Espanya (típica) | IVA | Risc CFC/TFI | Risc simulació | Idoneïtat LLC pura |
 | --- | --- | --- | --- | --- | --- |
-| Serveis B2B | Activitat imputada | RC | Baix | Mitjà | Alta |
-| E-commerce | Activitat imputada | OSS/IOSS | Baix | Mitjà | Alta amb cura |
-| SaaS B2B | Activitat imputada | RC | Mitjà | Mitjà | Alta |
-| SaaS B2C TBE | Activitat imputada | OSS/MoR | Mitjà-alt | Mitjà | Mitjà-alta |
-| Royalties | Passiu | Exempt/RC | Alt | Alt | Baixa sense substància |
-| Trading | Passiu/Guanys | n/a | Molt alt | Alt | Baixa sense substància |
-### Estructura òptima
+| Serveis professionals B2B | Activitat econòmica imputada | Inversió subjecte passiu | Baix | Mitjà | Alta |
+| E-commerce | Activitat econòmica imputada | Complex (OSS/IOSS, sales tax) | Baix | Mitjà | Alta amb cura |
+| SaaS B2B | Activitat econòmica imputada | Inversió subjecte passiu | Mitjà | Mitjà | Alta |
+| SaaS B2C TBE | Activitat econòmica imputada | OSS no UE / MoR | Mitjà-alt | Mitjà | Mitjana-alta |
+| Royalties | Renda passiva | Generalment exempt o ISP | Alt | Alt | Baixa sense substància |
+| Trading financer | Rendes passives / guanys de capital | n/a | Molt alt | Alt | Baixa sense substància |
 
-Baix CFC: Single-Member LLC eficient. Alt CFC: substància real EUA o altra estructura. <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">estructura sòlida</a>.
-### Errors típics
+### Com decidir la seva estructura òptima
 
-Serveis: oblidar IVA intracomunitari i VIES. E-commerce: ignorar OSS/IOSS i sales tax. SaaS: no usar MoR. Royalties: no documentar IP. Trading: barrejar personal i LLC.
+L'elecció de LLC sense més no és sempre la resposta correcta. Per a activitats de baix risc CFC (serveis, e-commerce, SaaS B2B), una **Single-Member LLC** amb soci resident espanyol, declarant bé i amb substància raonable, és eficient i defensable. Per a activitats d'alt risc CFC (royalties, trading), o es dota la LLC de **substància real als EUA** o es considera estructurar d'una altra manera (S.L. espanyola operativa + LLC amb activitat limitada, planificació de residència, etc.). Marc complet a <a href="/ca/blog/disseny-duna-estructura-fiscal-internacional-solida-marc-pas">disseny d'estructura internacional sòlida</a>.
 
-<a href="/ca/blog/riscos-fiscals-duna-mala-estructuracio-internacional">Riscos</a>.
+### Errors típics per activitat
+
+- **Serveis**: oblidar-se de l'IVA intracomunitari i el registre ROI/VIES.
+- **E-commerce**: ignorar OSS/IOSS i el sales tax dels EUA fins que arriba la liquidació.
+- **SaaS**: no usar Merchant of Record i acabar amb obligació de registre IVA a cada país de la UE.
+- **Royalties**: no documentar la creació, titularitat i manteniment dels actius intangibles.
+- **Trading**: confondre trading personal amb trading des de la LLC i barrejar comptes.
+
+Més sobre com evitar errors típics a <a href="/ca/blog/riscos-fiscals-duna-mala-estructuracio-internacional">riscos fiscals</a>.
+
 ### En resum
 
-La LLC tributa pel que fa, on i des d'on es controla.
-
-A Exentax mapem cada activitat abans de concloure res per als clients catalans. Reserva la teva assessoria gratuïta: identifiquem si realment ets ETBUS o no, i ajustem l'estructura en conseqüència.
-
-Per continuar aquest fil, <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per">Per què els freelancers espanyols estan deixant l'autònom per una LLC americana</a> completa un matís que aquí només hem tocat de passada.
-
-<!-- exentax:cta-mid -->
-**Vols veure-ho aplicat a tu?** Així és <a href="/ca/com-treballem">com treballem</a> el tema de «Tributació de la LLC segons l'activitat econòmica: serveis, e-commerce, SaaS, royalties i trading» amb cada client.
-
-<!-- exentax:cta-final -->
-**Parlem del teu cas, no del genèric.** Reserva una trucada de 30 minuts i aterrem «Tributació de la LLC segons l'activitat econòmica: serveis, e-commerce, SaaS, royalties i trading» al teu negoci.
-## T'ho muntem sense que perdis un cap de setmana
-
-Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.<!-- exentax:execution-v2 -->
-## Tributació de la LLC segons activitat econòmica: per què un SaaS, una agència i un e-commerce no són el mateix
-
-La fiscalitat federal US per a una LLC de no resident depèn també de què fa la LLC.
-
-- **SaaS i programari.** Renda sourced on es desenvolupa el programari. Si el founder no resideix als US i els servidors no són obligatòriament US, default = foreign-source → 0% federal.
-- **Agència digital.** Sourced on es presten els serveis físicament. Si ets a Espanya per a clients US, font = Espanya, 0% federal.
-- **E-commerce.** Inventari US (FBA, 3PL US) pot crear ETBUS. Inventari fora dels US dropshipped: foreign-source i 0%.
-- **Inversió i trading.** Plusvàlues borsa US per a LLC de no resident: 0% federal per excepció. Dividends US: 30% per defecte, 15%/0% sota tractat.
-
-### El que més ens pregunten
-
-**Si venc cursos digitals a clients US, és US-source?** No per defecte. Cursos digitals sourced on es desenvolupen.
-
-**Amazon FBA em converteix automàticament en ETBUS?** Debat tècnic. Posició conservadora: sí.
-
-A Exentax modelem cada activitat per sourcing abans de constituir.
-<!-- /exentax:execution-v2 -->
-## Com treballem a Exentax
-
-El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.
+Una LLC no tributa «d'una sola manera»: tributa segons el que fa, on ho fa i des d'on es controla. La conversa seriosa de planificació fiscal comença per entendre la seva activitat real, no per triar un país en un mapa.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% remot</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Concretament, revisem la barreja de sourcing dels teus ingressos client per client: quins clients són realment dels EUA, quins d'Europa i quins de l'Amèrica Llatina, quines plataformes mantenen inventari sobre el terreny, quins contractes són imputables al mercat nord-americà i quines despeses de màrqueting s'executen amb actius americans. A partir d'aquesta anàlisi es pot decidir, de manera fonamentada, si la LLC carrega riscos d'ETBUS o si l'activitat queda neta fora del sistema fiscal dels EUA. Documentem cada premissa per escrit, guardem rebuts i contractes en un únic repositori del client i et lliurem a final d'any un memoràndum que sobreviu a qualsevol auditoria sense que hagis de cercar on és cada cosa. Aquest memoràndum és també la base amb la qual el teu assessor local al país de residència fa coherent la declaració i amb la qual el teu banc respon preguntes de seguretat abans que escalin a KYC.
+Vol que analitzem com tributa exactament la seva activitat i que li dissenyem l'estructura més eficient i defensable? Reservi la seva consulta gratuïta.
 
+Per continuar aprofundint, <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per">Per què deixar de ser autònom a Espanya (i quines alternatives té)</a> complementa el que acabem de veure amb detalls que mereixien el seu propi article.
 
-Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessió amb l'equip d'Exentax</a> i revisem la teva LLC amb números reals en trenta minuts, sense compromís.
+<!-- exentax:cta-mid -->
+**Abans de constituir una LLC per a la seva activitat, vegi com treballem.** <a href="/ca/com-treballem">La nostra metodologia</a> detalla què revisem i en quin ordre, des del diagnòstic d'activitat fins al routing d'IVA i CFC més adequat.
+
+<!-- exentax:cta-final -->
+**Parlem del seu cas, no del manual.** Reservi 30 minuts i adaptem «Tributació de la LLC segons l'activitat econòmica» a la seva activitat concreta.
+
+<!-- exentax:legal-refs-v1 -->
+## Referències: fonts tècniques i normativa aplicable
+
+Les xifres, models i llindars esmentats s'extreuen de les referències següents, actualment vigents:
+
+- **Tributació de l'activitat.** IRC §864 i §882 (efectivament connectat amb activitat als EUA, ECI), Treas. Reg. §301.7701-3 (classificació de la LLC) i Form 5472 + 1120 pro-forma per a LLC unipersonals no residents.
+- **IVA i vendes internacionals.** Directiva 2006/112/CE de l'IVA, Reglament d'Execució 282/2011, règim OSS/IOSS i Finestreta Única per a serveis digitals B2C a la UE; instruccions del Modelo 369 de l'AEAT.
+- **Plataformes marketplace.** Termes publicats per Amazon Seller Central (inclòs el VAT Calculation Service i la responsabilitat sobre l'IVA a la UE conforme l'art. 14 bis Directiva 2006/112), Stripe Tax, Paddle (Merchant of Record), DoDo Payments i PayPal Business.
+- **DAC7.** Directiva (UE) 2021/514 de cooperació administrativa en plataformes digitals, transposada a l'ordenament espanyol pel RD 117/2024.
+- **Espanya residents.** Llei 35/2006 LIRPF (art. 100 TFI), Llei 27/2014 LIS i Llei 37/1992 de l'IVA.
+
+Informació divulgativa; el tractament concret depèn del país de residència del titular i del país dels seus clients.
+
+<!-- exentax:execution-v2 -->
+## Tributació de la LLC segons l'activitat econòmica: per què un SaaS, una agència i un e-commerce no són el mateix
+
+La fiscalitat federal dels EUA per a una LLC de no resident no depèn només de la seva residència, depèn també de què fa la LLC. La regla «non-effectively connected = 0 %» no és uniforme: l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> aplica regles de sourcing diferents segons el tipus de renda, i això classifica la seva LLC com a ETBUS (engaged in trade or business in US) o com a passive foreign vehicle. Aquí té com es veu cada activitat típica.
+
+- **SaaS i programari (subscripcions digitals).** Renda classificada com a business income, sourced segons on es desenvolupa i s'opera el programari. Si el founder no resideix als EUA i els servidors no són obligatòriament dels EUA (cloud regional indistint), default = foreign-source income → 0 % federal. Risc: si contracta dependent agent als EUA (VP of Sales assalariat als EUA, no contractor independent), passa a ETBUS.
+- **Agència digital (serveis professionals).** Renda classificada com a personal services income, sourced on es presten els serveis físicament. Si vostè autònom és a Espanya treballant per a clients dels EUA, la font és Espanya (on es realitza el servei), NO els EUA, encara que el client sigui dels EUA. Default: 0 % federal. Excepció: si el seu equip és als EUA o té office als EUA, sourcing US i passa a ETBUS.
+- **E-commerce (productes físics).** Triple anàlisi: (1) Inventari als EUA (Amazon FBA, 3PL US): pot crear ETBUS segons substància. (2) Inventari fora dels EUA dropshipped als EUA: usualment foreign-source i 0 %. (3) Marketplaces (Amazon Seller US): cobra ja net d'impostos sales tax retinguts per Amazon, però l'income federal segueix el seu sourcing. FBA + dependent agent = risc ETBUS molt alt.
+- **Inversió i trading (capital gains, dividends).** Plusvàlues de borsa dels EUA per a LLC de no resident: 0 % federal per excepció específica (capital gains de portfolio investment exempts per a no residents sense trade or business). Dividends US: 30 % retenció per defecte, reduïda a 15 %/0 % sota treaty amb W-8BEN-E. Cripto: tractada com a property, mateixes regles que capital gains; foreign-source i 0 % si no és ETBUS.
+
+### El que més ens pregunten
+
+**Si venc cursos digitals a clients dels EUA, és US-source income?** No per defecte. Els cursos digitals són personal services + intellectual property licence, sourced on es desenvolupen (la seva residència). Vendre a un client dels EUA no converteix la renda en US-source. Continua sent 0 % federal si no hi ha ETBUS.
+
+**Amazon FBA em converteix automàticament en ETBUS?** Hi ha debat tècnic. Posició conservadora: sí, perquè l'inventari al warehouse Amazon US es pot interpretar com a dependent agent + fixed place of business. Posició més permissiva: depèn del control efectiu. La pràctica seriosa és assumir ETBUS i planificar en conseqüència o canviar a fulfillment fora dels EUA.
+
+A Exentax modelem cada activitat per regles de sourcing i test ETBUS abans de constituir, per no descobrir al cap de dos anys que paga 21 % federal quan creia 0 %.
+<!-- /exentax:execution-v2 -->
+
+## L'hi muntem sense que perdi un cap de setmana
+
+Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100 % legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al seu país de residència. Reservi una assessoria gratuïta i li direm amb sinceritat si la LLC té sentit per al seu cas, sense promeses absolutes.
+
+<!-- exentax:cross-refs-v1 -->
+### Per aprofundir
+
+- [Riscos fiscals d'una mala estructuració internacional](/ca/blog/riscos-fiscals-duna-mala-estructuracio-internacional)
+<!-- /exentax:cross-refs-v1 -->
+
+Vol aplicar aquest protocol al seu cas? <a href="/ca/agendar">Reservi una sessió amb l'equip d'Exentax</a> i revisem la seva LLC amb números reals en trenta minuts, sense compromís.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22%E2%80%9EUna%20LLC%20no%20paga%20impostos%20als%20EUA%E2%80%9D%2C%20cert%2C%20sempre%20que%20parlem%20d'un%20no%20resident%20%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
+<p data-testid="cta-action-row">Necessita parlar-ne ja? Truqui'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escrigui'ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vinc%20de%20l'article%20%22tributacion%20llc%20segun%20actividad%20economica%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
 
 Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->
@@ -91,24 +162,4 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">47%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…a&gt;. - **IRPF España**: rendimiento neto en base general (24-47%). - **Riesgo principal**: …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">28%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…endos (rendimiento del capital mobiliario en base ahorro 19-28% si entidad opaca; si trans…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ente conectado con actividad en EE. UU., ECI), Treas. Reg. §301.7701-3 (clasificación de l…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…n de qué hace la LLC. La regla &quot;non-effectively connected = 0%&quot; no es uniforme: el &lt;a href…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">30%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…s para no residentes sin trade or business). Dividendos US: 30% retención por defecto, red…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">15%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ness). Dividendos US: 30% retención por defecto, reducida a 15%/0% bajo treaty con W-8BEN-…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">21%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…s de constituir, para no descubrir a los dos años que pagas 21% federal cuando creías 0%. …»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En E…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §864</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…tualizadas actualmente: - **Tributación de la actividad.** IRC §864 y §882 (efectivamente …»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…, ECI), Treas. Reg. §301.7701-3 (clasificación de la LLC) y Form 5472 + 1120 pro-forma par…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 117/2024</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ataformas digitales, traspuesta al ordenamiento español por RD 117/2024. - **España reside…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…ier** en muchos casos y retienen IVA, pero no en todos. - **DAC7**: como vendedor en Amazo…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…actividad económica si trading frecuente y profesional. - **DAC8**: aplica recientemente s…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

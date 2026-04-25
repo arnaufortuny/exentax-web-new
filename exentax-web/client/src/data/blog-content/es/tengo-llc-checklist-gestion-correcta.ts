@@ -40,12 +40,12 @@ Revisa nuestra <a href="/es/blog/form-5472-que-es-como-presentarlo">guía comple
 
 ### 3. ¿Tienes BOI Report al día con FinCEN?
 
-El **Beneficial Ownership Information Report** es la declaración a FinCEN sobre quién es el beneficiario real de tu LLC. Es obligatorio desde la entrada en vigor de la CTA para la inmensa mayoría de LLCs y el régimen sancionador es agresivo: hasta **591 USD por día de retraso** más sanciones penales en casos graves.
+El **Beneficial Ownership Information Report** es la declaración a FinCEN sobre el beneficiario real de las entidades en ámbito. Tras la **interim final rule de FinCEN de marzo de 2025**, el ámbito quedó limitado a las **foreign reporting companies** (entidades constituidas fuera de EE. UU. y registradas para operar en un estado), por lo que las LLC formadas en EE. UU. propiedad de no residentes están fuera de la obligación. Si tu entidad sí encaja, el régimen sancionador es agresivo: hasta **591 USD por día de retraso** más sanciones penales en casos graves.
 
 Pregúntate:
-- ¿Tu LLC entra en el ámbito vigente del BOI Report (tras la interim final rule de FinCEN de marzo de 2025, el BOI sólo aplica a "foreign reporting companies": entidades constituidas fuera de EE. UU. y registradas en un estado; verifica en FinCEN.gov)? Si tu LLC se constituyó en EE. UU. a día de hoy queda fuera; si es una entidad extranjera registrada para operar en un estado, sí entra.
-- Si entra en ámbito: ¿presentaste el BOI inicial y has actualizado ante cualquier cambio (dirección, documento de identidad, beneficiario)?
-- ¿Sabes quién monitoriza esos cambios por ti?
+- ¿Has presentado el **BOI Report inicial** ante FinCEN en **boiefiling.fincen.gov** si tu entidad encaja como foreign reporting company? Tras la **interim final rule de FinCEN de marzo de 2025**, el BOIR **NO aplica a las LLC formadas en EE. UU. propiedad de no residentes**: solo presentan las entidades constituidas fuera de EE. UU. y registradas para operar en un estado, dentro de los **30 días** siguientes a la inscripción.
+- ¿Has actualizado el BOIR (también en **30 días**) ante cualquier cambio de dirección, documento de identidad o beneficiario con ≥ 25 % o control sustancial?
+- ¿Conservas el **BOIR Confirmation Number** de cada presentación y sabes quién monitoriza esos cambios por ti?
 
 Si no recuerdas haberlo hecho, revísalo hoy. No es papeleo opcional.
 
@@ -191,7 +191,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 
 ### Puntos clave
 
-- **BOI / Corporate Transparency Act.** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación de presentar el BOI Report quedó **restringida a "foreign reporting companies"** (entidades constituidas fuera de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. por un no residente queda, a día de hoy, fuera de esa obligación**. El estado normativo puede volver a cambiar: hay que **re-verificar en FinCEN.gov en el momento de la presentación**. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, se recomienda conservar el acuse y monitorizar futuras actualizaciones.
+- **BOI / Corporate Transparency Act: tu LLC NO está obligada (ventaja competitiva).** Tras la **interim final rule de FinCEN de marzo de 2025**, la obligación del BOI Report quedó **restringida a las "foreign reporting companies"** (entidades constituidas FUERA de EE. UU. y registradas para hacer negocios en un estado). Una **LLC formada en EE. UU. propiedad de un no residente NO presenta BOI Report**: un trámite menos en tu calendario, menos burocracia y una estructura más limpia que nunca. Si tu LLC se constituyó antes de marzo de 2025 y ya presentaste BOI, conserva el acuse. El estado normativo puede cambiar: **monitorizamos FinCEN.gov en cada presentación** y, si la obligación vuelve a aplicar, la gestionamos sin coste adicional. Estado vigente verificable en [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Para una **Single-Member LLC propiedad de un no residente**, las regulaciones finales de Treas. Reg. §1.6038A-1 (vigentes desde 2017) tratan a la LLC como una corporación a efectos del 5472. Procedimiento: **Form 1120 pro-forma** (solo cabecera: nombre, dirección, EIN, ejercicio fiscal) con el **Form 5472 anexado**. Se envía **por correo certificado o fax al IRS Service Center de Ogden, Utah**, **no se presenta vía MeF/e-file** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y año, más 25.000 USD por cada 30 días adicionales** sin presentación tras notificación del IRS.
 - **Form 1120 sustantivo.** Solo aplica si la LLC ha realizado *check-the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 1120 con cifras reales. La LLC disregarded estándar **no presenta un 1120 sustantivo y no paga corporate tax federal**.
 - **EIN y notificaciones.** Sin EIN no se puede presentar 5472 ni BOI. El IRS no avisa antes de sancionar; las multas se descubren al actuar contra el EIN o al rechazar una próxima presentación.
@@ -208,14 +208,13 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 - [Documentar bien la separación de fondos en tu LLC con historial: procedimiento real](/es/blog/documentar-separacion-fondos-llc-historial)
 <!-- /exentax:cross-refs-v1 -->
 
-<!-- exentax:overhaul-hoy-v1 -->
 ## Actualización Exentax hoy: checklist viva
 
 Mantener una LLC bien gestionada actualmente implica un calendario operativo que conviene fijar en tu agenda:
 
 - **Mensual.** Conciliación bancaria Mercury/Slash (cierre del mes), categorización de gastos, copia de seguridad de extractos en almacenamiento cifrado, revisión de Stripe/PayPal/DoDo (disputas, retenciones).
 - **Trimestral.** Revisión de subscripciones (eliminar las inactivas reduce ruido en el 5472), pago a uno mismo (*owner draw*) documentado con concepto y referencia, comprobación de fondos disponibles para impuestos.
-- **Anual (calendario fiscal hoy).** **15 de enero**: reserva una asesoría con tu asesor para preparar 5472. **15 de febrero**: cierre contable del año. **15 de marzo**: 1042-S si emites pagos a relacionados (poco habitual SMLLC). **15 de abril**: 5472 + 1120 pro forma o **Form 7004** para extender al 15 de octubre. **Mes de aniversario**: Annual Report estatal + renovación Registered Agent. **30 días tras cualquier cambio**: BOI Update si tu LLC sigue en ámbito (foreign reporting company).
+- **Anual (calendario fiscal hoy).** **15 de enero**: reserva una asesoría con tu asesor para preparar 5472. **15 de febrero**: cierre contable del año. **15 de marzo**: 1042-S si emites pagos a relacionados (poco habitual SMLLC). **15 de abril**: 5472 + 1120 pro forma o **Form 7004** para extender al 15 de octubre. **Mes de aniversario**: Annual Report estatal + renovación Registered Agent. **30 días tras cualquier cambio**: BOIR Update obligatorio en **boiefiling.fincen.gov** ante FinCEN para reflejar el cambio de dirección, documento o beneficiario.
 
 ### Documentación a conservar 7 años
 
@@ -232,7 +231,6 @@ Mantener una LLC bien gestionada actualmente implica un calendario operativo que
 **¿Y si el ejercicio cierra sin operaciones?** El 5472 sólo es obligatorio si hubo *reportable transactions* entre tú y la LLC. Aun así, conviene declarar si hubo aportación inicial o pago de Registered Agent desde fondos propios.
 
 **¿Puedo gestionarlo solo o necesito asesor?** Solo, si entiendes 5472, BOI y Annual Report. Asesor, si tu volumen supera ~50 facturas/año o si vendes a EE. UU. (riesgo PE/ECI).
-<!-- exentax:overhaul-hoy-v1 end -->
 
 <!-- exentax:execution-v2 -->
 ## Checklist anual operativa de la LLC, según el método Exentax
@@ -246,7 +244,6 @@ Tener LLC es tener calendario; sin calendario, tarde o temprano caen 5472 o BOI.
 Si quieres llevar tu LLC con esta checklist o que la operemos por ti, lanza la <strong>calculadora Exentax</strong> o reserva treinta minutos.
 <!-- /exentax:execution-v2 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -259,29 +256,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ntes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25% foreign-owned* y *foreign-…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">25.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ga con **Form 7004** hasta el **15 de octubre**. **Sanción: 25.000 USD por formulario y añ…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">21 %</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…the-box election* a C-Corp (Form 8832): entonces tributa al 21 % federal y presenta un 112…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §882</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…§301.7701-3 (clasificación de entidades / *check-the-box*); IRC §882 (impuesto sobre renta…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §871</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…rentas de extranjeros conectadas con US trade or business); IRC §871 (FDAP y retenciones a…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…r business); IRC §871 (FDAP y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…25% foreign-owned* y *foreign-owned disregarded entities*); IRC §7701(b) (residencia fisca…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 8832</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…- ¿Algún momento se ha hecho una elección S-Corp o C-Corp (Form 8832 / 2553) sin que lo se…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…enes claro, no asumas: revísalo. ### 2. ¿Estás presentando Form 5472 + Form 1120 cada año?…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 1120</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…no asumas: revísalo. ### 2. ¿Estás presentando Form 5472 + Form 1120 cada año? Si eres no …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 7004</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…le** estándar. Vencimiento: **15 de abril**; prórroga con **Form 7004** hasta el **15 de o…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…cionador del Modelo 720 tras STJUE C-788/19 de 27/01/2022); RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…rada de tu patrimonio personal - Reportes automáticos (CRS, DAC7, DAC8) que ya están en ma…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…e tu patrimonio personal - Reportes automáticos (CRS, DAC7, DAC8) que ya están en marcha S…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…oopener&quot;&gt;OCDE&lt;/a&gt;.** Directiva (UE) 2011/16, modificada por DAC6 (mecanismos transfronteri…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

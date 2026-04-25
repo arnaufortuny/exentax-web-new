@@ -205,6 +205,16 @@ Madrid-ansässiger Freelancer mit: Wise EUR Saldo 18.400 EUR, Mercury Personal S
 
 Für die Bankberichts-Schicht vor dem Modelo 720 lesen Sie <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">was US-Banken wirklich an Ihre Heimat-Steuerbehörde melden</a>, und für die Gesamtsteuerstrategie <a href="/de/blog/legale-wege-um-ihre-steuern-zu-minimieren">die legalen Wege zur Steuerminimierung</a>. Wenn Sie die Einreichung delegieren möchten, <strong>vereinbaren Sie ein Gespräch mit dem Exentax-Team</strong> und wir schließen sie in einer Woche ab.
 
+  ### Vergleich für DACH-Steuerpflichtige mit spanischer Steuerresidenz
+
+  Wer aus Deutschland, Österreich oder der Schweiz nach Spanien verzogen ist und dort die Steuerresidenz nach Art. 9 LIRPF (Ley 35/2006) erlangt hat (über 183 Tage Aufenthalt oder Lebensmittelpunkt in Spanien), unterliegt automatisch den spanischen Meldepflichten **Modelo 720** (Auslandsvermögen über €50.000 in Konten/Wertpapieren/Immobilien) und **Modelo 721** (Krypto-Bestände über €50.000), auch wenn das Vermögen im Heimatland verwaltet wird. Die Frist ist der **31. März** des Folgejahres für beide Formulare.
+
+  Der **EuGH-Urteilsspruch C-788/19 vom 27. Januar 2022** zwang Spanien zur Reform der Strafhöhe (vorher €5.000 pro nicht gemeldetem Datenfeld plus 150 % Vermögensteuer): die **Ley 5/2022 vom 9. März** ersetzte das Sanktionsregime durch ordentliche Säumniszuschläge nach Art. 198–199 LGT. Wer also vor 2022 wegen Modelo-720-Versäumnissen sanktioniert wurde, kann eine **Rückerstattung der Strafe** gemäß der überarbeiteten DA 18.ª LGT beantragen — die spanische Generaldirektion für Steuern hat hierzu mehrere Konsultationen veröffentlicht (DGT V0497-22, V1066-22).
+
+  Für deutsche Steuerresidenten in Spanien gilt zusätzlich: das **deutsche Konto bei Sparkasse oder Volksbank** muss in Modelo 720 deklariert werden, auch wenn es zugleich gemäß **CRS (DAC2, Dir. 2014/107/EU)** vom deutschen BZSt automatisch nach Spanien gemeldet wird. Die Doppelmeldung ist Pflicht — das Modelo 720 ersetzt die CRS-Meldung nicht, sondern ist eine eigenständige nationale Pflicht. Gleiches gilt für Österreicher mit Erste-Bank-Konten und Schweizer mit UBS/PostFinance-Konten (Schweiz nimmt seit 2018 am AEOI/CRS teil).
+
+  Bei Krypto-Beständen auf in **Deutschland regulierten Plattformen** (BaFin-Lizenz nach KMAG, z. B. Coinbase Germany GmbH, Bitvavo) oder in der **Schweiz** (FINMA-lizenziert, z. B. Bitcoin Suisse) entsteht die Modelo-721-Meldepflicht trotzdem in Spanien. Die spanische Verwaltung fordert den Stichtagswert zum 31. Dezember in EUR (Wechselkurs nach EZB-Referenzkurs). Mit der **CARF-Verordnung (OECD Crypto-Asset Reporting Framework)** und **DAC8 (Dir. UE 2023/2226)** ab 2026 wird der Datenaustausch zwischen den Krypto-Plattformen und der spanischen AEAT systematisch — Nicht-Deklaration wird damit für die Steuerverwaltung praktisch lückenlos sichtbar.
+
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20Sie%20steuerlich%20in%20Spanien%20ans%C3%A4ssig%20sind%20und%20eine%20US-LLC%2C%20ein%20Wise-%20oder%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
@@ -215,7 +225,6 @@ Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -248,5 +257,4 @@ Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fa
 <li><span class="font-mono">DAC7</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de Conve…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

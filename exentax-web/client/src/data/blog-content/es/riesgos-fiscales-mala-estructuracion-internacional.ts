@@ -75,7 +75,7 @@ El recorrido típico es:
 La **regularización voluntaria** antes del requerimiento (art. 305.4 CP) excluye la responsabilidad penal y reduce significativamente la sanción tributaria. Es siempre la mejor opción si detectas que tu situación necesita ajuste.
 ### Cómo construir una estructura sin estos riesgos
 
-1. **Empezar por la calificación correcta** de la LLC en tu jurisdicción (ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina <a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>/TEAC sobre LLC</a>).
+1. **Empezar por la calificación correcta** de la LLC en tu jurisdicción (ver <a href="/es/blog/boe-febrero-2020-llc-doctrina-administrativa">doctrina DGT/TEAC sobre LLC</a>).
 2. **Diseñar conforme a la actividad real** (ver <a href="/es/blog/tributacion-llc-segun-actividad-economica">tributación LLC según actividad</a>).
 3. **Documentar y mantener registros** que sostengan la sustancia.
 4. **Declarar en plazo** todas las obligaciones formales (Modelo 720, Modelo 721, IRPF, IVA, retenciones, modelo 238 si aplica DAC7).
@@ -135,7 +135,6 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 - [Estructura offshore: beneficios reales y riesgos honestos](/es/blog/estructura-offshore-beneficios-riesgos)
 <!-- /exentax:cross-refs-v1 -->
 
-
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 
 <!-- exentax:cta-conv-v1 -->
@@ -148,33 +147,4 @@ Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión grat
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">11.683</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…art. 5-A CFF, Colombia: art. 869 ET, Argentina: art. 2 Ley 11.683). Hay simulación cuando …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">150%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…xico, 5 en Colombia) + intereses de demora + sanción del 50-150% (art. 191-195 LGT) + posi…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">120.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…e delito fiscal si la cuota defraudada por ejercicio supera 120.000 € (art. 305 CP). **Cóm…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">50%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…una participación, directa o indirecta, igual o superior al 50% en la entidad no residente…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">75%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…butación efectiva de la entidad no residente es inferior al 75% de la que correspondería e…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">25%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…entes (IRNR) por las rentas atribuibles al EP, con tipo del 25% (Impuesto sobre Sociedades…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">240.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…cuota defraudada por ejercicio fiscal supera **120.000 €** (240.000 € si la administración…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">200.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…n ese umbral con relativa facilidad: si tu actividad genera 200.000 € anuales y deberías h…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…idad genera 200.000 € anuales y deberías haber tributado al 47% pero declaraste al 0%, en …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">0%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…nuales y deberías haber tributado al 47% pero declaraste al 0%, en dos años cruzas el umbr…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ámbito penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraud…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">600%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…penal. Penas: de 1 a 5 años de prisión y multa del 100% al 600% de la cuota defraudada. Ti…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…udada. Tipo agravado (de 2 a 6 años) cuando la cuota supera 600.000 €, hay estructura orga…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…r&quot;&gt;OCDE&lt;/a&gt; con sus Comentarios. - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación chec…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §77…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §6038</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…U.** Treas. Reg. §301.7701-3 (clasificación check-the-box), IRC §6038A y Treas. Reg. §1.60…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">IRC §7701</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y normativa F…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">Form 5472</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…cación check-the-box), IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) y…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-<li><span class="font-mono">RD 1065/2007</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…reformó el Modelo 720 tras la STJUE C-788/19 de 27/01/2022, RD 1065/2007 (Modelos 232 y 72…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-<li><span class="font-mono">DAC7</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…caciones de cambio de domicilio, datos bancarios CRS, datos DAC7, vehículos a tu nombre, e…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…nto, declara mal o no declara. 2. Año 3: cruce CRS / DAC7 / DAC8 detecta inconsistencias. …»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-<li><span class="font-mono">DAC6</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…13 en vigor desde 2019, Directiva 2011/16/UE modificada por DAC6, DAC7 y DAC8, y Modelo de…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
 `;

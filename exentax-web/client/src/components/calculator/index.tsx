@@ -352,7 +352,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                 <select
                   value={regime}
                   onChange={(e) => setRegime(e.target.value)}
-                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[var(--green)] focus:outline-none transition-colors focus:shadow-[0_0_0_2px_rgba(var(--green-rgb),0.12)] ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
                   data-testid="select-regime"
                 >
                   <option value="" disabled>{t("calculator.selectRegime")}</option>
@@ -369,7 +369,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                 <select
                   value={activity}
                   onChange={(e) => setActivity(e.target.value)}
-                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[var(--green)] focus:outline-none transition-colors focus:shadow-[0_0_0_2px_rgba(var(--green-rgb),0.12)] ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                  className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
                   data-testid="select-activity"
                 >
                   {activities.map((a) => (
