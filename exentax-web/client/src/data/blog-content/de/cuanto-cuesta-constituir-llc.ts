@@ -131,7 +131,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de#calculadora">Berechnen Sie, wie viel Sie sparen — kostenlos</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
@@ -206,7 +206,7 @@ Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos. <a href="/de/leistungen">Meine Ersparnisse berechnen</a>.
+Gründung, EIN, BOI, Banking und laufender Betrieb — ein Team, das Ihren Fall von Anfang bis Ende versteht. <a href="/de/leistungen">Alle Leistungen ansehen</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

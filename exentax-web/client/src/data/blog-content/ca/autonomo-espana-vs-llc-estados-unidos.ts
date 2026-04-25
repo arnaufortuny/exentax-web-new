@@ -157,7 +157,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **UE i passarel·la regulatòria.** Sigui quina sigui la residència dins la UE, l'intercanvi automàtic d'informació financera (DAC2/CRS) i les directives DAC6 (estructures transfrontereres potencialment agressives), DAC7 (plataformes digitals com Stripe, Amazon, Booking) i DAC8 (criptoactius vigent des de 2026) creen el perímetre de transparència que cap LLC pot eludir: la planificació consisteix a declarar bé i mantenir el dossier de substància actualitzat, no a amagar.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca#calculadora">Calcula quant estalvies (és gratis)</a>
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
@@ -244,6 +244,6 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta. <a href="/ca/serveis">Calcular el meu estalvi</a>.
+Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 `;

@@ -155,7 +155,7 @@ La aplicación concreta de cualquiera de estas normas a tu caso depende de tu re
 La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es#calculadora">Calcula cuánto ahorras (es gratis)</a>
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por proveedor
@@ -243,6 +243,6 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita. <a href="/es/servicios">Calcular mi ahorro</a>.
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/servicios">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 `;

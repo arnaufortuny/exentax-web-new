@@ -40,7 +40,7 @@ const MAP: Record<string, BlogCtaTarget> = {
 
   // --- Wyoming-anchored deep-dives ----------------------------------------
   "llc-seguridad-juridica-proteccion-patrimonial":    { route: "service_llc_wy", secondaryRoute: "our_services", pattern: "llc_state_compare" },
-  "llc-unica-estructura-holding-cuando-como-cuesta":  { route: "service_llc_wy", secondaryRoute: "our_services", pattern: "pricing_quote" },
+  "llc-unica-estructura-holding-cuando-como-cuesta":  { route: "service_llc_wy", secondaryRoute: "our_services", pattern: "book_consultation" },
   "holding-empresarial-como-funciona":                { route: "service_llc_wy", pattern: "services_overview" },
 
   // --- Delaware-anchored deep-dives ---------------------------------------
@@ -61,7 +61,7 @@ const MAP: Record<string, BlogCtaTarget> = {
   "itin-ssn-que-son-como-obtenerlos":                 { route: "service_itin", pattern: "itin_help" },
 
   // --- Pricing / process / "what is X" — services hub --------------------
-  "cuanto-cuesta-constituir-llc":                     { route: "our_services", pattern: "pricing_quote" },
+  "cuanto-cuesta-constituir-llc":                     { route: "our_services", pattern: "services_overview" },
   "constituir-llc-proceso-paso-a-paso":               { route: "our_services", pattern: "services_overview" },
   "primer-mes-llc-que-esperar":                       { route: "our_services", pattern: "services_overview" },
   "documentos-llc-cuales-necesitas":                  { route: "our_services", pattern: "services_overview" },
@@ -83,8 +83,8 @@ const MAP: Record<string, BlogCtaTarget> = {
   "ventajas-desventajas-llc-no-residentes":           { route: "our_services", pattern: "book_consultation" },
   "por-que-abrir-llc-estados-unidos-ventajas":        { route: "our_services", pattern: "book_consultation" },
   "llc-estados-unidos-guia-completa-2026":            { route: "our_services", pattern: "services_overview" },
-  "llc-alternativa-autonomo-espana":                  { route: "our_services", pattern: "pricing_quote" },
-  "autonomo-espana-vs-llc-estados-unidos":            { route: "our_services", pattern: "pricing_quote" },
+  "llc-alternativa-autonomo-espana":                  { route: "our_services", pattern: "book_consultation" },
+  "autonomo-espana-vs-llc-estados-unidos":            { route: "our_services", pattern: "book_consultation" },
 
   // --- CRS / FATCA / international info-exchange deep-dives --------------
   "crs-2-0-carf-por-que-usa-no-firmara-llc":          { route: "book", pattern: "book_consultation" },

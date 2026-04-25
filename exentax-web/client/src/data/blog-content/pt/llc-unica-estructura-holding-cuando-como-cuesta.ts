@@ -98,7 +98,7 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt#calculadora">Calcula quanto poupas (é grátis)</a>
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax, montamos a estrutura para encaixar no primeiro cenário e documentamos cada passo para que a sua declaração local seja defensável perante uma eventual revisão.
@@ -185,7 +185,7 @@ Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/p
   A **convenção PT-EUA aprovada pelo DR 152/95 de 1 de julho** evita a dupla tributação dos rendimentos remetidos. Para participações em sociedades subsidiárias detidas através da LLC holding, aplica-se o regime de **participation exemption do art. 51.º do CIRC** (95 % de isenção das mais-valias e dividendos), desde que cumpridos os requisitos de detenção mínima de 10 % por pelo menos 12 meses e que a subsidiária não esteja em paraíso fiscal listado na **Portaria 150/2004**. O **CFC português (art. 66.º CIRC)** pode aplicar-se se a LLC for considerada entidade não residente sujeita a regime fiscal claramente mais favorável.
 
 <!-- exentax:cta-v1 -->
-Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita. <a href="/pt/servicos/llc-wyoming">Calcular a minha poupança</a>.
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/servicos/llc-wyoming">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

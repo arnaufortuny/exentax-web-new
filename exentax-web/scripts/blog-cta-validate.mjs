@@ -68,7 +68,6 @@ const CTA_PATTERNS = [
   "llc_florida_specific",
   "llc_state_compare",
   "itin_help",
-  "pricing_quote",
   "services_overview",
   "compliance_checkup",
 ];
@@ -225,24 +224,22 @@ function checkArticle(lang, slug, file) {
   const criticals = [];
   const warnings = [];
 
+  // Note (post Task #6): the `pricing_quote` pattern and its
+  // `calc_savings` mid-CTA variant were retired, so the per-locale gate
+  // that used to *require* a `/${lang}${CALC_HASH}` anchor for
+  // `pricing_quote` articles was removed. The four remaining approved
+  // mid-CTA variants (`free_consult`, `start_today`, `talk_to_team`,
+  // `discover_llc`) route to /servicios, /agendar or /contacto and
+  // intentionally do not link to the calculator hash. We still tally
+  // calculator-hash anchors here because:
+  //   (a) the editorial signal "no-conversion-entry" warning below
+  //       counts a calc-hash link as a valid conversion entry alongside
+  //       /contacto, and
+  //   (b) the cross-language leak guard checks for wrong-locale calc
+  //       anchors — the calculator hash itself still exists on the
+  //       localised home pages.
   const calcRx = new RegExp(`href=\"/${lang}${CALC_HASH}\"`, "g");
   const calcMatches = src.match(calcRx) || [];
-  // Task #11: only articles whose mid-CTA variant is `calc_savings`
-  // (pattern `pricing_quote`) are required to carry a calculator anchor.
-  // The other four approved variants route to /servicios, /agendar or
-  // /contacto and intentionally do not link to the calculator hash.
-  const { routes: routesForCalcGate } = getContract();
-  const targetForCalcGate = getTarget(routesForCalcGate, slug);
-  const calcAnchorRequired = targetForCalcGate.pattern === "pricing_quote";
-  if (calcAnchorRequired && calcMatches.length === 0) {
-    criticals.push({
-      lang,
-      slug,
-      file: rel(file),
-      kind: "missing-calculator-cta",
-      message: `No anchor to /${lang}${CALC_HASH} found in this article.`,
-    });
-  }
 
   // Cross-language calculator hash leak (e.g. /es#calculadora inside an EN
   // article).

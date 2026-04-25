@@ -100,7 +100,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de#calculadora">Berechnen Sie, wie viel Sie sparen — kostenlos</a>
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
@@ -188,7 +188,7 @@ Wenn Sie Ihre LLC in Wyoming gründen möchten, sehen Sie sich unsere Service-Se
   In **Österreich** greift §10 KStG für internationale Schachtelbeteiligungen ab 10 % und einjähriger Behaltefrist (Befreiung 100 %, sofern keine Niedrigbesteuerung der LLC nach §10 Abs. 4 KStG vorliegt). Die österreichische **CFC-Regelung nach §10a KStG** entspricht weitgehend der deutschen Hinzurechnungsbesteuerung. Für Schweizer Gesellschafter gilt das **Beteiligungsabzug nach Art. 69–70 DBG** (Reduktion der Bundessteuer im Verhältnis Beteiligungsertrag zu Gesamtertrag) bei Beteiligungen ≥ 10 % oder Verkehrswert ≥ CHF 1 Mio., kombiniert mit der **DBA Schweiz–USA vom 02.10.1996** (BGBl. III Nr. 6/1998 in Österreich, SR 0.672.933.61 in der Schweiz).
 
 <!-- exentax:cta-v1 -->
-Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos. <a href="/de/leistungen/llc-wyoming">Meine Ersparnisse berechnen</a>.
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/leistungen/llc-wyoming">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

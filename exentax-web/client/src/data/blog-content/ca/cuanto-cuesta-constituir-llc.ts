@@ -130,7 +130,7 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 - **Marc internacional.** Model de Conveni OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); FATF Recommendation 24 (titularitat real).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca#calculadora">Calcula quant estalvies (és gratis)</a>
+> <a href="/ca/serveis">Comença avui, 100% remot</a>
 <!-- /exentax:calc-cta-v1 -->
 
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
@@ -205,7 +205,7 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta. <a href="/ca/serveis">Calcular el meu estalvi</a>.
+Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

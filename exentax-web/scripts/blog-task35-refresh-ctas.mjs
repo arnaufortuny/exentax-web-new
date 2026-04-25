@@ -99,7 +99,6 @@ const PATTERNS = [
   "llc_florida_specific",
   "llc_state_compare",
   "itin_help",
-  "pricing_quote",
   "services_overview",
   "compliance_checkup",
 ];

@@ -158,7 +158,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Praktische Schritte für DACH-Mandanten.** Drei nicht verhandelbare Bausteine: (1) klare schriftliche Klassifikation der LLC mit dem örtlichen Steuerberater fixieren (transparent oder opak), möglichst vor dem ersten Geschäftsjahr; (2) ein vollständiges Substanzdossier führen — Verträge auf den LLC-Namen, separates Banking, Registered Agent, EIN, jährliche Form-5472-Abgabe, BOI-Report wo noch anwendbar; (3) jährliche Selbstdeklaration synchronisieren: Anlage AUS in Deutschland (Frist 31. Juli mit Steuerberater bis 28. Februar Folgejahr), Anlage E1kv in Österreich (30. Juni elektronisch), Wertschriftenverzeichnis und kantonale Steuererklärung in der Schweiz. Erst danach ist die Struktur prüfungsfest, sowohl gegenüber der Finanzverwaltung als auch im Falle einer DAC6-Meldepflicht des Beraters.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de#calculadora">Berechnen Sie, wie viel Sie sparen — kostenlos</a>
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
@@ -245,6 +245,6 @@ Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos. <a href="/de/leistungen">Meine Ersparnisse berechnen</a>.
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/leistungen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 `;

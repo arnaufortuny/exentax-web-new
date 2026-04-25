@@ -150,7 +150,7 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt#calculadora">Calcula quanto poupas (é grátis)</a>
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por provedor
@@ -246,6 +246,6 @@ Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">pá
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita. <a href="/pt/servicos">Calcular a minha poupança</a>.
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/servicos">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 `;

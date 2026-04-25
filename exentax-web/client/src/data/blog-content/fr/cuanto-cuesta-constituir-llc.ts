@@ -131,7 +131,7 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr#calculadora">Calculez combien vous économisez (c'est gratuit)</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
 <!-- /exentax:calc-cta-v1 -->
 
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
@@ -206,7 +206,7 @@ Si vous souhaitez voir le processus complet en détail, consultez notre <a href=
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite. <a href="/fr/services">Calculer mes économies</a>.
+Création, EIN, BOI, banque et maintenance : une seule équipe qui comprend votre dossier de bout en bout. <a href="/fr/services">Voir tous les services</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

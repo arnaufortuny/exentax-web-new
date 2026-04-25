@@ -103,7 +103,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Mexico, Colombia, Argentina and other LATAM jurisdictions.** Each has its own CFC regime (Mexico: Refipres; Argentina: foreign passive income; Chile: art. 41 G LIR). Common principle: profits retained inside the LLC are deemed received by the member if the entity is treated as transparent or controlled.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en#calculadora">Calculate how much you save — it is free</a>
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
@@ -178,7 +178,7 @@ If your plan is to set up the LLC in Wyoming, check our service page <a href="/e
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free. <a href="/en/services/llc-wyoming">Calculate my savings</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

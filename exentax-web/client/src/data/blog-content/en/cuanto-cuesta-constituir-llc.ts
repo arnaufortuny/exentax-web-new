@@ -139,7 +139,7 @@ Now that you have the full context, the natural next step is to map it against y
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en#calculadora">Calculate how much you save — it is free</a>
+> <a href="/en/services">Start today, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider
@@ -207,7 +207,7 @@ If you want to see the full process in detail, check our <a href="/en/services">
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free. <a href="/en/services">Calculate my savings</a>.
+Formation, EIN, BOI, banking and ongoing maintenance — one team that understands your case end to end. <a href="/en/services">Explore all services</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

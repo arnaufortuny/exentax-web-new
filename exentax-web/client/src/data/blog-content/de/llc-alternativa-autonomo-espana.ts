@@ -151,7 +151,7 @@ Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwoh
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de#calculadora">Berechnen Sie, wie viel Sie sparen — kostenlos</a>
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Hinweise nach Anbieter
@@ -251,6 +251,6 @@ Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos. <a href="/de/leistungen">Meine Ersparnisse berechnen</a>.
+Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/leistungen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
 `;

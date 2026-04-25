@@ -158,7 +158,7 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **Boa prática transversal lusófona.** Três passos comuns para Portugal, Brasil e Angola: (1) confirmar com o gabinete local se a LLC é tratada como transparente ou opaca antes do primeiro exercício; (2) consolidar substância — contratos em nome da LLC, banca separada (Mercury, Relay, Wise Business), Registered Agent, EIN, Form 5472 anual, BOI Report quando aplicável; (3) sincronizar prazos: IRS US (15 abril, prorrogável para 15 outubro com Form 7004), IRS PT (junho, com Anexo J e Modelo 58 paralelos), DIRPF Brasil (até 31 maio com Lei 14.754), declaração anual angolana (até 31 maio do exercício seguinte). Erros típicos: omitir o Modelo 58 quando há crédito intra-grupo, ou esquecer a CBE trimestral no Brasil quando a LLC ultrapassa US$ 100 mil em ativos.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt#calculadora">Calcula quanto poupas (é grátis)</a>
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Regra prática: uma LLC operacional, com substância, declarada corretamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no campo do **art. 15 LGT (abuso de direito)** ou, no pior cenário, do **art. 16 LGT (simulação)**. Os factos decidem, não o papel.
@@ -245,6 +245,6 @@ Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">pá
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita. <a href="/pt/servicos">Calcular a minha poupança</a>.
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/servicos">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 `;

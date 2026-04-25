@@ -100,7 +100,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr#calculadora">Calculez combien vous économisez (c'est gratuit)</a>
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier scénario et documentons chaque étape pour que votre déclaration locale soit défendable en cas de contrôle.
@@ -181,7 +181,7 @@ Si votre projet est de créer la LLC au Wyoming, consultez notre page de service
   Pour un résident fiscal français, la LLC holding unique est en pratique traitée comme une **société transparente** au sens du BOI-INT-DG-20-20-100 et de la jurisprudence du Conseil d'État (CE 391396 du 27/06/2018) si elle a opté pour le régime "disregarded entity" ou "partnership". Les revenus remontent au résident français et sont imposés à l'IR au taux marginal (jusqu'à 45 %) plus 17,2 % de prélèvements sociaux, avec crédit d'impôt USA selon la **convention franco-américaine du 31/08/1994** (art. 24).
 
 <!-- exentax:cta-v1 -->
-Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite. <a href="/fr/services/llc-wyoming">Calculer mes économies</a>.
+Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/services/llc-wyoming">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

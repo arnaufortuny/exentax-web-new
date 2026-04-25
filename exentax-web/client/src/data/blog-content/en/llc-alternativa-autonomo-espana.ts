@@ -153,7 +153,7 @@ Applying any of these rules to your specific case depends on your tax residency,
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en#calculadora">Calculate how much you save — it is free</a>
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider
@@ -238,6 +238,6 @@ If you want to see the full process in detail, check our <a href="/en/services">
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free. <a href="/en/services">Calculate my savings</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 `;

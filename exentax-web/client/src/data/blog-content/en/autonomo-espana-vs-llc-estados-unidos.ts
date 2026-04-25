@@ -149,7 +149,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - **Practical takeaway across jurisdictions.** Whatever your residence, the chain of decisions is the same: (1) confirm how your local tax authority classifies a US single-member LLC (transparent vs opaque); (2) check whether your local CFC or attribution regime catches the LLC's profits (active vs passive income tests, control thresholds, low-tax safe harbours); (3) map out the relevant tax-treaty provisions on PE, dividends, interest and royalties; (4) document a tangible operating substance trail (contracts in the LLC's name, separate banking, US registered agent, EIN, Form 5472 filings); (5) align disclosure forms in your country (Form 720 in Spain, Form 11 in Ireland, T1135 in Canada, IDS in Australia, SA106 in the UK). Skipping any of these creates downside risk that no amount of US-side tax efficiency can compensate. Exentax handles the US-side compliance and coordinates with your local advisor on the rest so the structure stays defensible end to end.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en#calculadora">Calculate how much you save — it is free</a>
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
@@ -233,6 +233,6 @@ If you want to see the full process in detail, check our <a href="/en/services">
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free. <a href="/en/services">Calculate my savings</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 `;

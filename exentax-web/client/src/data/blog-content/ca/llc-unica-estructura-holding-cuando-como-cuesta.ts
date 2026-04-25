@@ -98,7 +98,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca#calculadora">Calcula quant estalvies (és gratis)</a>
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax muntem l'estructura perquè encaixi al primer escenari i documentem cada pas perquè la teva declaració local sigui defensable davant d'una eventual revisió.
@@ -184,7 +184,7 @@ Si el teu pla és muntar la LLC a Wyoming, repassa la nostra pàgina de servei <
   Per a residents a **Andorra**, la **Llei 95/2010 de l'Impost sobre Societats** preveu un règim de **participation exemption** semblant al de Luxemburg per a holdings amb participacions ≥ 5 % o cost ≥ €250.000 i un any de tinença mínima. El **conveni Andorra-EUA en vigor des de l'1 de gener de 2024** elimina la doble imposició sobre dividends i interessos qualificats.
 
 <!-- exentax:cta-v1 -->
-Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta. <a href="/ca/serveis/llc-wyoming">Calcular el meu estalvi</a>.
+Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis/llc-wyoming">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

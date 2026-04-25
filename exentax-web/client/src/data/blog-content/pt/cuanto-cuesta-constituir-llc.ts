@@ -130,7 +130,7 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt#calculadora">Calcula quanto poupas (é grátis)</a>
+> <a href="/pt/servicos">Começa hoje, 100% remoto</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
@@ -205,7 +205,7 @@ Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">pá
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita. <a href="/pt/servicos">Calcular a minha poupança</a>.
+Constituição, EIN, BOI, banca e manutenção: uma única equipa que entende o seu caso do início ao fim. <a href="/pt/servicos">Ver todos os serviços</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

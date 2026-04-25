@@ -157,7 +157,7 @@ Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero
 - **México, Colombia, Argentina y otros LATAM.** Cada jurisdicción tiene su propio régimen CFC (México: Refipres; Argentina: rentas pasivas del exterior; Chile: art. 41 G LIR). El principio común: lo que la LLC retiene como beneficio se considera percibido por el socio si la entidad se considera transparente o controlada.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es#calculadora">Calcula cuánto ahorras (es gratis)</a>
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La regla práctica: una LLC operativa, con sustancia, declarada correctamente en residencia, es **planificación fiscal legítima**. Una LLC que se usa para ocultar ingresos, simular no residencia o desplazar rentas pasivas sin justificación económica entra en el terreno del **art. 15 LGT (conflicto en aplicación de la norma)** o, en el peor caso, del **art. 16 LGT (simulación)**. La diferencia la marcan los hechos, no el papel.
@@ -254,6 +254,6 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita. <a href="/es/servicios">Calcular mi ahorro</a>.
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/servicios">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 `;

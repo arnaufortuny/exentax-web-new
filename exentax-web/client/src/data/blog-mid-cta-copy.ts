@@ -6,13 +6,17 @@
  * Before Task #11 each article rolled its own micro-pitch ("Pon números a tu
  * caso", "Mettez des chiffres sur votre cas", etc.) which drifted across
  * locales and was awkward to lint. Task #11 normalises every mid-article CTA
- * to one of the 5 approved phrasings:
+ * to one of the 4 approved phrasings:
  *
- *   1. calc_savings  → "Calcula cuánto ahorras (es gratis)"
- *   2. free_consult  → "Consulta gratuita sin compromiso"
- *   3. start_today   → "Empieza hoy 100% remoto"
- *   4. talk_to_team  → "Habla con nuestro equipo"
- *   5. discover_llc  → "Descubre si una LLC es para ti"
+ *   1. free_consult  → "Consulta gratuita sin compromiso"
+ *   2. start_today   → "Empieza hoy 100% remoto"
+ *   3. talk_to_team  → "Habla con nuestro equipo"
+ *   4. discover_llc  → "Descubre si una LLC es para ti"
+ *
+ * (A 5th variant `calc_savings` existed before the `pricing_quote`
+ * pattern was retired post Task #6; it pointed to the calculator hash
+ * and is no longer used by any pattern, so it was dropped to keep the
+ * bundle clean.)
  *
  * Each phrasing carries a destination route key (resolved per locale via
  * `ROUTE_SLUGS`) and an optional hash. The variant chosen for each article
@@ -41,14 +45,13 @@ import { getBlogCtaTarget } from "@/data/blog-cta-routes";
 import type { BlogCtaPatternId } from "@/data/blog-cta-library";
 
 export type BlogMidCtaVariantId =
-  | "calc_savings"
   | "free_consult"
   | "start_today"
   | "talk_to_team"
   | "discover_llc";
 
 export interface BlogMidCtaCopy {
-  /** Visible label on the inline link — exactly one of the 5 approved phrasings. */
+  /** Visible label on the inline link — exactly one of the 4 approved phrasings. */
   label: string;
   /** Destination route key, resolved per locale via `ROUTE_SLUGS`. */
   route: RouteKey;
@@ -60,15 +63,6 @@ export const BLOG_MID_CTA_COPY: Record<
   BlogMidCtaVariantId,
   Record<SupportedLang, BlogMidCtaCopy>
 > = {
-  calc_savings: {
-    es: { label: "Calcula cuánto ahorras (es gratis)", route: "home", hash: "#calculadora" },
-    en: { label: "Calculate how much you save — it is free", route: "home", hash: "#calculadora" },
-    fr: { label: "Calculez combien vous économisez (c'est gratuit)", route: "home", hash: "#calculadora" },
-    de: { label: "Berechnen Sie, wie viel Sie sparen — kostenlos", route: "home", hash: "#calculadora" },
-    pt: { label: "Calcula quanto poupas (é grátis)", route: "home", hash: "#calculadora" },
-    ca: { label: "Calcula quant estalvies (és gratis)", route: "home", hash: "#calculadora" },
-  },
-
   free_consult: {
     es: { label: "Consulta gratuita sin compromiso", route: "book" },
     en: { label: "Free consultation, no strings attached", route: "book" },
@@ -112,7 +106,6 @@ export const BLOG_MID_CTA_COPY: Record<
  * closing card without per-slug duplication.
  */
 export const MID_CTA_PATTERN_TO_VARIANT: Record<BlogCtaPatternId, BlogMidCtaVariantId> = {
-  pricing_quote: "calc_savings",
   book_consultation: "free_consult",
   services_overview: "start_today",
   compliance_checkup: "talk_to_team",

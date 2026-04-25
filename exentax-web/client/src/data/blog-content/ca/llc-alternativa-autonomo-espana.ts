@@ -153,7 +153,7 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca#calculadora">Calcula quant estalvies (és gratis)</a>
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes per proveïdor
@@ -240,6 +240,6 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta. <a href="/ca/serveis">Calcular el meu estalvi</a>.
+Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/serveis">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 `;

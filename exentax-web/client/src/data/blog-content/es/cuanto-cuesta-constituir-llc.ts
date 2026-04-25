@@ -132,7 +132,7 @@ Este artículo se apoya en normativa vigentes actualmente. Citamos las fuentes p
 - **Marco internacional.** Modelo de Convenio OCDE, art. 5 (establecimiento permanente) y comentarios; Acción 5 BEPS (sustancia económica); FATF Recommendation 24 (titularidad real).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es#calculadora">Calcula cuánto ahorras (es gratis)</a>
+> <a href="/es/servicios">Empieza hoy 100% remoto</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La aplicación concreta de cualquiera de estas normas a tu caso depende de tu residencia fiscal, la actividad de la LLC y la documentación que mantengas. Este contenido es informativo y no sustituye al asesoramiento profesional personalizado.
@@ -212,7 +212,7 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita. <a href="/es/servicios">Calcular mi ahorro</a>.
+Constitución, EIN, BOI, banca y mantenimiento: un único equipo que entiende tu caso de principio a fin. <a href="/es/servicios">Ver todos los servicios</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

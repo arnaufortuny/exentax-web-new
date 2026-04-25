@@ -151,7 +151,7 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr#calculadora">Calculez combien vous économisez (c'est gratuit)</a>
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes par fournisseur
@@ -249,6 +249,6 @@ Si vous souhaitez voir le processus complet en détail, consultez notre <a href=
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite. <a href="/fr/services">Calculer mes économies</a>.
+Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/services">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 `;

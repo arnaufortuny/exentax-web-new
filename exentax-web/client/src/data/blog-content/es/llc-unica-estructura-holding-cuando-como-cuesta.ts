@@ -142,7 +142,7 @@ Las comparativas y datos cuantitativos de jurisdicciones citadas se basan en fue
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dos (GloBE) y Modelo de Convenio OCDE con Comentarios.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es#calculadora">Calcula cuánto ahorras (es gratis)</a>
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La elección de jurisdicción depende siempre de la residencia fiscal real del titular y del sustrato económico de la actividad; consulta tu caso específico antes de tomar decisiones estructurales.
@@ -185,7 +185,7 @@ Si tu plan es montar la LLC en Wyoming, repasa nuestra página de servicio <a hr
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita. <a href="/es/servicios/llc-wyoming">Calcular mi ahorro</a>.
+Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/servicios/llc-wyoming">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

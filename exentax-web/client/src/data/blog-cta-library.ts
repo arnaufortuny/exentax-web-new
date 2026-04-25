@@ -22,8 +22,6 @@
  *   llc_florida_specific — Florida LLC deep-dives (Miami, US presence).
  *   llc_state_compare    — state comparators (NM vs WY vs DE etc.).
  *   itin_help            — ITIN / W-7 / Certifying Acceptance Agent posts.
- *   pricing_quote        — pricing / cost / "is it worth it" posts; carries
- *                          the canonical price reference.
  *   services_overview    — "how we work", process, EIN, BOI, registered
  *                          agent — sends the reader to the services hub.
  *   compliance_checkup   — BOI / CTA / annual filings / IRS notice posts.
@@ -36,7 +34,6 @@ export type BlogCtaPatternId =
   | "llc_florida_specific"
   | "llc_state_compare"
   | "itin_help"
-  | "pricing_quote"
   | "services_overview"
   | "compliance_checkup";
 
@@ -203,45 +200,6 @@ export const BLOG_CTA_LIBRARY: LibraryShape = {
       desc: "Tramitem el teu ITIN davant l'IRS amb un Certifying Acceptance Agent: l'original es queda amb tu.",
       primary: "Tramitar el meu ITIN",
       whatsappMsg: "Hola, necessito tramitar el meu ITIN. Podem parlar?",
-    },
-  },
-
-  pricing_quote: {
-    es: {
-      title: "Calcula cuánto ahorras antes de decidir",
-      desc: "Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita.",
-      primary: "Calcular mi ahorro",
-      whatsappMsg: "Hola, me gustaría calcular el ahorro real con una LLC en mi caso. ¿Podemos hablar?",
-    },
-    en: {
-      title: "Calculate your savings before you decide",
-      desc: "No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free.",
-      primary: "Calculate my savings",
-      whatsappMsg: "Hi, I'd like to calculate the real savings with an LLC in my case. Can we talk?",
-    },
-    fr: {
-      title: "Calculez vos économies avant de décider",
-      desc: "Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite.",
-      primary: "Calculer mes économies",
-      whatsappMsg: "Bonjour, j'aimerais calculer les économies réelles avec une LLC dans mon cas. Pouvons-nous en parler ?",
-    },
-    de: {
-      title: "Berechnen Sie Ihre Ersparnisse, bevor Sie entscheiden",
-      desc: "Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos.",
-      primary: "Meine Ersparnisse berechnen",
-      whatsappMsg: "Hallo, ich möchte die realen Ersparnisse mit einer LLC in meinem Fall berechnen. Können wir sprechen?",
-    },
-    pt: {
-      title: "Calcula a tua poupança antes de decidir",
-      desc: "Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita.",
-      primary: "Calcular a minha poupança",
-      whatsappMsg: "Olá, gostaria de calcular a poupança real com uma LLC no meu caso. Podemos falar?",
-    },
-    ca: {
-      title: "Calcula el teu estalvi abans de decidir",
-      desc: "Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta.",
-      primary: "Calcular el meu estalvi",
-      whatsappMsg: "Hola, m'agradaria calcular l'estalvi real amb una LLC en el meu cas. Podem parlar?",
     },
   },
 
