@@ -67,7 +67,9 @@ Aterrando o que vimos em decisões concretas que tomamos com clientes da Exentax
 - **O estado de constituição importa por motivos operacionais, não fiscais**. Wyoming e Novo México continuam a ganhar para perfis freelancer e de serviços; Delaware continua a ganhar para SaaS com vocação de levantar capital ou para holdings; Florida tem encaixe para residentes hispânicos com nexus físico nos EUA. Nenhuma decisão depende do CRS.
 - **Residência fiscal do titular como variável-mestra**. A residência não se escolhe, determina-se por factos (dias de presença, centro de interesses económicos, núcleo familiar). Pretender ocultar a residência real ao abrigo da assimetria FATCA-CRS é, além de um erro técnico, uma infração tipificada na maioria das jurisdições europeias e latino-americanas, com sanções severas.
 
+<!-- exentax:calc-cta-v1 -->
 > **Ponha números no seu caso.** Se quiser ver como a sua situação encaixa nesta lógica, abra a <a href="/pt#calculadora">calculadora Exentax</a> e compare com a sua carga fiscal atual antes de avançar.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Erros típicos que vemos todas as semanas
 
@@ -110,12 +112,4 @@ Cada estrutura tem nuances: o país de residência, o tipo de atividade, a prese
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-### Leituras relacionadas
-
-- [CRS para residentes em Espanha e LATAM: implicações reais](/pt/blog/crs-para-residentes-em-espanha-e-latam-implicacoes-reais)
-- [DAC8 e reporting de criptoativos](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
-- [DAC7 e plataformas digitais](/pt/blog/dac7-o-novo-reporting-de-plataformas-digitais-em-2026)
-- [Contas dos EUA: o que cada instituição reporta](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
-- [Form 5472: o que é e como apresentá-lo](/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir)
 `;

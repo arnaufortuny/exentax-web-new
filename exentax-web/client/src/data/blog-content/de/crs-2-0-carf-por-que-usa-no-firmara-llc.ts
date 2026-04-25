@@ -67,7 +67,9 @@ Aus den drei Ebenen ergibt sich für Washington eine sehr positive Rechnung: ger
 - **Der Bundesstaat zählt aus operativen, nicht aus Steuergründen**. Wyoming und New Mexico bleiben gewinner für Freelancer- und Service-Profile; Delaware bleibt der Gewinner für SaaS mit Kapitalaufnahme oder für Holdings; Florida passt für Fälle mit physischer US-Präsenz. Keine Entscheidung hängt am CRS.
 - **Steuerliche Ansässigkeit als Hauptvariable**. Ansässigkeit wird nicht gewählt, sondern festgestellt (Aufenthaltstage, Mittelpunkt der Lebensinteressen, Familie). Die reale Ansässigkeit hinter der FATCA-CRS-Asymmetrie zu verbergen ist neben einem technischen Fehler in den meisten europäischen und lateinamerikanischen Jurisdiktionen ein gesetzlicher Tatbestand mit harten Sanktionen.
 
+<!-- exentax:calc-cta-v1 -->
 > **Bringen Sie Zahlen in Ihren Fall.** Wenn Sie sehen wollen, wie Ihre Situation in diese Logik passt, öffnen Sie den <a href="/de#calculadora">Exentax-Rechner</a> und vergleichen Sie ihn mit Ihrer aktuellen Steuerlast, bevor Sie weitergehen.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Typische Fehler, die wir wöchentlich sehen
 
@@ -110,12 +112,4 @@ Jede Struktur hat Nuancen: Wohnsitzland, Tätigkeitsart, Krypto oder nicht, Volu
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->
-
-### Weiterführende Lektüre
-
-- [CRS für Ansässige in Spanien und Lateinamerika: reale Implikationen](/de/blog/crs-fur-ansassige-in-spanien-und-lateinamerika-reale)
-- [DAC8 und Krypto-Reporting](/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche)
-- [DAC7 und digitale Plattformen](/de/blog/dac7-die-neue-meldung-digitaler-plattformen-die-ihr-geschaft)
-- [US-Konten: was jede Stelle tatsächlich meldet](/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die)
-- [Form 5472: was es ist und wie man es einreicht](/de/blog/form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es)
 `;

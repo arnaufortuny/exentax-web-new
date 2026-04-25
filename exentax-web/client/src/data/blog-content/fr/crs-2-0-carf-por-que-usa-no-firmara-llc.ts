@@ -67,7 +67,9 @@ En atterrissant sur les décisions concrètes que nous prenons chaque semaine av
 - **L'État de constitution compte pour des raisons opérationnelles, pas fiscales**. Wyoming et Nouveau-Mexique restent gagnants pour les profils freelance et services ; Delaware reste gagnant pour SaaS visant la levée de fonds ou pour des holdings ; la Floride convient aux résidents avec présence physique aux USA. Aucune décision ne dépend du CRS, toutes dépendent de comment votre activité et votre banque s'articulent avec la juridiction.
 - **Résidence fiscale du titulaire comme variable maîtresse**. La résidence ne se choisit pas, elle se constate (jours de présence, centre des intérêts économiques, foyer familial). Tenter de masquer la résidence réelle à l'abri de l'asymétrie FATCA-CRS est, au-delà d'une erreur technique, une infraction qualifiée dans la plupart des juridictions européennes et latino-américaines, avec des sanctions sévères.
 
+<!-- exentax:calc-cta-v1 -->
 > **Mettez des chiffres sur votre cas.** Si vous voulez voir comment votre situation s'inscrit dans cette logique, ouvrez la <a href="/fr#calculadora">calculatrice Exentax</a> et comparez-la avec votre charge fiscale actuelle avant d'aller plus loin.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Erreurs typiques que nous voyons chaque semaine
 
@@ -110,12 +112,4 @@ Chaque structure a ses nuances : pays de résidence, type d'activité, présence
 <!-- exentax:cta-v1 -->
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
-
-### Pour aller plus loin
-
-- [CRS pour résidents en Espagne et LATAM : implications réelles](/fr/blog/crs-pour-residents-en-espagne-et-latam-implications-reelles)
-- [DAC8 et reporting des cryptoactifs](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
-- [DAC7 et plateformes numériques](/fr/blog/dac7-le-nouveau-reporting-des-plateformes-numeriques-en-2026)
-- [Comptes US : ce que chaque institution rapporte vraiment](/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre)
-- [Form 5472 : qu'est-ce que c'est et comment le déposer](/fr/blog/form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment)
 `;

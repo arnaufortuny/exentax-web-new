@@ -67,7 +67,9 @@ Bringing the above down to actual decisions we take with Exentax clients every w
 - **The state of formation matters for non-tax reasons but operational ones**. Wyoming and New Mexico keep winning for freelancer and services profiles; Delaware keeps winning for SaaS aimed at raising capital or for holdings; Florida fits cases with US physical nexus. None of these decisions hinges on CRS — all of them hinge on how your activity and your banking match the jurisdiction. We cover this in <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax">self-employed vs LLC</a>.
 - **Tax residence of the owner is the master variable.** Residence is not chosen, it is determined by facts (days of physical presence, centre of economic interests, family nucleus). Trying to hide your real residence under cover of the FATCA-CRS asymmetry is, beyond a technical mistake, a defined infraction in most European and Latin American jurisdictions with severe penalties. Any professional design starts from real residence and structures around it.
 
+<!-- exentax:calc-cta-v1 -->
 > **Put numbers on your case.** If you want to see how your situation maps to this logic, open the <a href="/en#calculadora">Exentax calculator</a> and compare it with your current tax bill before going further.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Common mistakes we see every week
 
@@ -110,12 +112,4 @@ Every structure has nuances: the country of residence, the type of activity, whe
 <!-- exentax:cta-v1 -->
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
-
-### Related reading
-
-- [CRS for residents in Spain and LATAM: real implications](/en/blog/crs-for-residents-in-spain-and-latam-real-implications)
-- [DAC8 and crypto-asset reporting](/en/blog/dac8-and-cryptocurrencies-the-automatic-tax-reporting-of)
-- [DAC7 and digital platforms reporting](/en/blog/dac7-the-new-digital-platform-reporting-affecting-your)
-- [What each US institution actually reports to your tax authority](/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the)
-- [Form 5472: what it is and how to file it](/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply)
 `;

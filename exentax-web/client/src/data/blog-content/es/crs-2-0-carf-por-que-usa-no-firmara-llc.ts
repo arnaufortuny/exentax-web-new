@@ -67,7 +67,9 @@ Aterrizamos lo anterior en decisiones concretas que tomamos cada semana con clie
 - **El estado de constitución importa por motivos no fiscales**, pero sí operativos. Wyoming y Nuevo México siguen ganando para perfiles de freelancer y servicios; Delaware sigue ganando para SaaS con vocación de levantar capital o para holdings; Florida tiene encaje claro para residentes hispanos en EE. UU. con nexus físico. Ninguna decisión depende del CRS, todas dependen de cómo encaja tu actividad y banca con la jurisdicción. Lo abordamos en <a href="/es/blog/llc-alternativa-autonomo-espana">LLC como alternativa al autónomo en España</a> y en <a href="/es/blog/autonomo-espana-vs-llc-estados-unidos">autónomo vs LLC</a>.
 - **Residencia fiscal del titular como variable maestra**. La residencia no se elige, se determina por hechos (días de presencia, centro de intereses económicos, núcleo familiar). Pretender ocultar la residencia real al amparo de la asimetría FATCA-CRS es, además de un error técnico, una infracción tipificada en la mayoría de jurisdicciones europeas y latinoamericanas con sanciones severas. Cualquier diseño profesional parte de la residencia real y diseña la estructura encima.
 
+<!-- exentax:calc-cta-v1 -->
 > **Pon números a tu caso.** Si quieres ver cómo encaja tu situación con esta lógica, abre la <a href="/es#calculadora">calculadora Exentax</a> y compáralo con tu carga fiscal actual antes de seguir.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Errores típicos que vemos cada semana
 
@@ -110,13 +112,4 @@ Cada estructura tiene matices: el país de residencia, el tipo de actividad, la 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
-
-### Lecturas relacionadas
-
-- [CRS para residentes en España y LATAM: implicaciones reales del intercambio automático](/es/blog/crs-residentes-espana-latam-implicaciones)
-- [DAC8 y criptomonedas: reporting fiscal automático](/es/blog/dac8-criptomonedas-reporting-fiscal-2026)
-- [DAC7 y plataformas digitales: reporting actualizado](/es/blog/dac7-plataformas-digitales-reporting-2026)
-- [Modelo 720 y 721 para residentes en España: cuentas y cripto en el extranjero](/es/blog/modelo-720-721-residentes-espana-cuentas-cripto-extranjero)
-- [Cuentas bancarias en EE. UU.: qué reporta cada entidad](/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad)
-- [Form 5472: qué es y cómo presentarlo](/es/blog/form-5472-que-es-como-presentarlo)
 `;

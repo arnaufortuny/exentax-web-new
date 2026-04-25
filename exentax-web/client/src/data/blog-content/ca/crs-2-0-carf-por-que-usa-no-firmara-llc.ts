@@ -67,7 +67,9 @@ Aterrant l'anterior en decisions concretes que prenem cada setmana amb clients d
 - **L'estat de constitució importa per motius operatius, no fiscals**. Wyoming i Nou Mèxic continuen guanyant per a perfils freelance i serveis; Delaware continua guanyant per a SaaS amb vocació d'aixecar capital o per a holdings; Florida té encaix per a residents amb nexus físic als EUA. Cap decisió depèn del CRS.
 - **Residència fiscal del titular com a variable mestra**. La residència no s'escull, es determina per fets (dies de presència, centre d'interessos econòmics, nucli familiar). Pretendre amagar la residència real a l'empara de l'asimetria FATCA-CRS és, a més d'un error tècnic, una infracció tipificada a la majoria de jurisdiccions europees i llatinoamericanes amb sancions severes.
 
+<!-- exentax:calc-cta-v1 -->
 > **Posa números al teu cas.** Si vols veure com encaixa la teva situació amb aquesta lògica, obre la <a href="/ca#calculadora">calculadora Exentax</a> i compara-la amb la teva càrrega fiscal actual abans d'avançar.
+<!-- /exentax:calc-cta-v1 -->
 
 ## Errors típics que veiem cada setmana
 
@@ -110,12 +112,4 @@ Cada estructura té matisos: el país de residència, el tipus d'activitat, la p
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
-
-### Lectures relacionades
-
-- [CRS per a residents a Espanya i LATAM: implicacions reals](/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions)
-- [DAC8 i criptomonedes](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
-- [DAC7 i plataformes digitals](/ca/blog/dac7-el-nou-reporting-de-plataformes-digitals-el-2026)
-- [Comptes dels EUA: què reporta cada entitat](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
-- [Form 5472: què és i com presentar-lo](/ca/blog/form-5472-que-es-qui-lha-de-presentar-i-com-complir)
 `;
