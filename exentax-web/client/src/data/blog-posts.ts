@@ -2237,7 +2237,11 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedSlugs: [
       "crs-residentes-espana-latam-implicaciones",
       "dac8-criptomonedas-reporting-fiscal-2026",
+      "dac7-plataformas-digitales-reporting-2026",
       "cuentas-bancarias-usa-reportan-hacienda-verdad",
+      "modelo-720-721-residentes-espana-cuentas-cripto-extranjero",
+      "autonomo-espana-vs-llc-estados-unidos",
+      "llc-estados-unidos-guia-completa-2026",
     ],
   },
   ];

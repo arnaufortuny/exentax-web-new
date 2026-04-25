@@ -1,6 +1,6 @@
 # Blog source-URL verification
 
-- Generated: 2026-04-22T09:55:13.124Z
+- Generated: 2026-04-25T14:12:49.906Z
 - Total: 33
 - OK (2xx/3xx): 33
 - FAIL: 0
@@ -26,7 +26,7 @@
 | 17 | EU — VAT Directive 2006/112/EC (consolidated) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006L0112-20240101 |
 | 18 | AEAT — Modelo 349 (operaciones intracomunitarias) | 200 | https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G415.shtml |
 | 19 | Seguridad Social — Cotización del RETA (autónomos) | 200 | https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/36537 |
-| 20 | AEAT — Convenios para evitar la doble imposición firmados por España | 200 | https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/CDI.aspx |
+| 20 | Hacienda — Convenios para evitar la doble imposición firmados por España | 200 | https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/cdi.aspx |
 | 21 | BOE — Ley 35/2006 IRPF | 200 | https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764 |
 | 22 | BOE — Ley 27/2014 Impuesto sobre Sociedades | 200 | https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328 |
 | 23 | BOE — Ley 58/2003 General Tributaria | 200 | https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186 |

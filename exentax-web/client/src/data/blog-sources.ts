@@ -531,6 +531,18 @@ export const OFFICIAL_SOURCES: Record<string, ExternalSource> = {
       ca: "U.S. Treasury — FATCA i acords intergovernamentals (IGAs)",
     },
   },
+  "delaware-doc": {
+    id: "delaware-doc",
+    url: "https://corp.delaware.gov/",
+    label: {
+      es: "Delaware Division of Corporations — registro oficial de entidades",
+      en: "Delaware Division of Corporations — official entity registry",
+      fr: "Delaware Division of Corporations — registre officiel des entités",
+      de: "Delaware Division of Corporations — offizielles Unternehmensregister",
+      pt: "Delaware Division of Corporations — registo oficial de entidades",
+      ca: "Delaware Division of Corporations — registre oficial d'entitats",
+    },
+  },
   "oecd-carf": {
     id: "oecd-carf",
     url: "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm",
@@ -926,6 +938,7 @@ export const SOURCES_BY_SLUG: Record<string, SourceRef[]> = {
     { external: "irs-fatca" },
     { external: "treasury-fatca-igas" },
     { external: "eu-dac" },
+    { external: "delaware-doc" },
   ],
 };
 

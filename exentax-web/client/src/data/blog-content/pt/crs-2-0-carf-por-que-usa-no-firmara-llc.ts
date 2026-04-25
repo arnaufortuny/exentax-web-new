@@ -108,7 +108,7 @@ Para aplicar este método ao seu caso, abra a <a href="/pt#calculadora">calculad
 Cada estrutura tem nuances: o país de residência, o tipo de atividade, a presença ou não de cripto, o volume, a antiguidade da LLC, as obrigações acumuladas. Na Exentax revemos a sua situação, dimensionamos a exposição real ao CRS 2.0 e ao CARF e desenhamos a estrutura LLC e o stack bancário que encaixam consigo. Acompanhamo-lo todos os anos na manutenção para que o calendário e as declarações continuem coerentes com a realidade do seu negócio.
 
 <!-- exentax:cta-v1 -->
-Marque uma consulta gratuita sem compromisso: revemos o seu caso real, identificamos a exposição ao CRS 2.0 e ao CARF e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
+Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
 ### Leituras relacionadas

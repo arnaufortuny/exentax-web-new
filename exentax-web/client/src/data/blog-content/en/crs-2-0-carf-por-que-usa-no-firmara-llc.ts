@@ -108,7 +108,7 @@ To apply this method to your own case, open the <a href="/en#calculadora">Exenta
 Every structure has nuances: the country of residence, the type of activity, whether crypto is in the picture, the volume, the age of the LLC, the obligations accumulated. At Exentax we review your situation, size up real exposure to CRS 2.0 and CARF, and design the LLC structure and banking stack that fit you. We stay with you year after year on maintenance so the calendar and filings stay coherent with the reality of your business.
 
 <!-- exentax:cta-v1 -->
-Book a free consultation with no commitment: we review your real case, identify the exposure to CRS 2.0 and CARF and tell you what makes sense. <a href="/en/agendar">Book a free consultation</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
 ### Related reading
