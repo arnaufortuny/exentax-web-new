@@ -106,6 +106,14 @@ Glosario terminológico ES/EN/FR/DE/PT/CA. Reglas por idioma
 (formal Sie DE, vous FR, tu CA, PT-PT estricto). Términos
 invariables (LLC, EIN, ITIN, etc.).
 
+### `STACK.md` (sesión 2026-04-25 post phone-CTA)
+Inventario consolidado del stack tecnológico actual: frontend
+(React 19 + Vite 7 + Tailwind + i18next), backend (Express 5 +
+Drizzle 0.45 + PostgreSQL), integraciones (Google Calendar/Meet/Gmail,
+Discord, IndexNow, GA4), 7 linters específicos verde, 9 tests E2E
+verde, 25 páginas/44 componentes/29 API routes/76 scripts/112 blog ×
+6 langs. Env vars requeridas/opcionales y build artifacts.
+
 ### `ARCHITECTURE.md` (248 líneas)
 Arquitectura completa (frontend, backend, DB, integraciones,
 deploy).

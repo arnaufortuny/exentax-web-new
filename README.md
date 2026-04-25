@@ -2,14 +2,14 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-22):** Task #8 — cierre total production-ready en verde. `npm run check` EXIT 0 (TS + lints + 10 puertas SEO/blog + i18n + 5 e2e). Reportes en `.local/reports/` y `docs/internal/PRODUCTION-READY-REPORT.md`. Detalle en `replit.md`, `exentax-web/docs/CHANGELOG.md` y `exentax-web/docs/`. Para agentes automatizados: leer `docs/internal/AGENT-RULES.md` antes de cualquier sesión.
+> **Estado (2026-04-25):** Production-ready. `npm run check` EXIT 0 (TS + 13 puertas SEO/blog + i18n + 9 E2E). Última pasada: phone-CTA eliminado de 657 artículos blog (CTAs humanos vía WhatsApp + agendar), `seo-sitemap-check` graceful-degrade, AES-256-GCM E2E 45/45 asserts, calculator 123/123, blog:validate-all 13/13. Stack actual en [`docs/internal/STACK.md`](docs/internal/STACK.md). Para agentes automatizados: leer [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md) antes de cualquier sesión.
 
 ---
 
 ## Stack
 
-- **Frontend:** React 19 · Vite 7 · Wouter (routing) · TanStack Query v5 · Tailwind CSS 3 · i18next + react-i18next
-- **Backend:** Node.js 20 + Express 5 (ESM) · TypeScript 5.9 · Drizzle ORM · PostgreSQL (`pg`) · Helmet · Compression
+- **Frontend:** React 19.2 · Vite 7.3 · Wouter 3.9 (routing) · TanStack Query 5.90 · Tailwind CSS 3.4 · i18next 25.8 + react-i18next 16.5 · zod 3.24
+- **Backend:** Node.js 22 + Express 5.2 (ESM) · TypeScript strict · Drizzle ORM 0.45 · PostgreSQL 16 · Helmet 8.1 · AES-256-GCM field encryption · tsx 4.21 (dev runner)
 - **Integraciones:** Google APIs (Gmail send + Calendar/Meet + Search Console + Indexing API) · Discord Bot REST API (notificaciones + slash commands + interactions Ed25519) · Redis (opcional, rate limiting/locks)
 - **Validación:** Zod + drizzle-zod
 - **Build:** tsx (dev) · esbuild + Vite (prod)
