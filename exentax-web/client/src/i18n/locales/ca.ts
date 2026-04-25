@@ -2011,7 +2011,7 @@ const ca = {
  bd: {
    espana: {
      irpf: "IRPF (trams 2025)",
-     irpf_note: "Base liquidable ~{{base}}k€ · Mín. personal {{personal}}",
+     irpf_note: "Base liquidable ~{{base}}k€ · Mínim personal {{personal}}",
      cuotaSS: "Quota Seg. Social autònoms",
      cuotaSS_note: "Tram ≤{{limit}}/mes → {{monthly}}/mes",
      is23: "Impost de Societats (IS 23%)",
@@ -2084,7 +2084,7 @@ const ca = {
      est: "Einkommensteuer (ESt)",
      est_note: "Trams BMF 2025",
      svs: "Sozialversicherung (SVS)",
-     svs_note: "~26,8% sobre base neta",
+     svs_note: "~26,8% sobre la base neta",
      koest: "Körperschaftsteuer (KöSt 23%)",
      kest: "Kapitalertragsteuer dividends (KESt 27,5%)",
      steuerberater: "Steuerberater i administració",
