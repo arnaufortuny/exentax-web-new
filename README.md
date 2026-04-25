@@ -2,7 +2,7 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-22):** Task #8 — cierre total production-ready en verde. `npm run check` EXIT 0 (TS + lints + 10 puertas SEO/blog + i18n + 5 e2e). Reportes en `.local/reports/` y `PRODUCTION-READY-REPORT.md` en la raíz. Detalle en `replit.md`, `exentax-web/docs/CHANGELOG.md` y `exentax-web/docs/`.
+> **Estado (2026-04-22):** Task #8 — cierre total production-ready en verde. `npm run check` EXIT 0 (TS + lints + 10 puertas SEO/blog + i18n + 5 e2e). Reportes en `.local/reports/` y `docs/internal/PRODUCTION-READY-REPORT.md`. Detalle en `replit.md`, `exentax-web/docs/CHANGELOG.md` y `exentax-web/docs/`. Para agentes automatizados: leer `docs/internal/AGENT-RULES.md` antes de cualquier sesión.
 
 ---
 

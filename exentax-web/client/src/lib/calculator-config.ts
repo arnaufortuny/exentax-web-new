@@ -86,7 +86,7 @@ export const SPAIN_SOCIEDAD_ADMIN_BASE_MIN = 1000;
 export const SPAIN_SOCIEDAD_ADMIN_RATE = 0.3130;
 // Coste anual gestoría sociedad ES (estimación pragmática Exentax 2026).
 export const SPAIN_SOCIEDAD_ADMIN_ANNUAL_COSTS = 3500;
-// IS reducido / general 2025.
+// IS reducido / general 2026 (Ley 27/2014 IS + Ley de Presupuestos 2026).
 export const SPAIN_IS_RATE_REDUCED = 0.23;
 export const SPAIN_IS_RATE_GENERAL = 0.25;
 export const SPAIN_IS_REDUCED_REVENUE_CAP = 1_000_000;

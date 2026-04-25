@@ -137,8 +137,8 @@ aditivo, no reescribe lo que ya pasa los linters. Fuera de esa lista,
 | `exentax-web/docs/deploy/HOSTINGER-VPS.md` | Nuevo (Sesión 5), completo |
 | `exentax-web/docs/deploy/DISCORD-SETUP.md` | Nuevo (Sesión 6), completo |
 | `exentax-web/docs/blog/CONTENT-IMPROVEMENT-PLAN.md` | Nuevo (Sesión 6), completo |
-| `exentax-web/docs/TRANSLATION-GUIDE.md` (y raíz) | Referencia lingüística, estable |
-| `AUDIT-REPORT.md` (raíz) | Historia de auditorías; apender nuevas sesiones con datos medidos, no reescribir las anteriores |
+| `exentax-web/docs/TRANSLATION-GUIDE.md` y `docs/internal/TRANSLATION-GUIDE.md` | Referencia lingüística, estable |
+| `docs/internal/AUDIT-REPORT.md` | Historia de auditorías; apender nuevas sesiones con datos medidos, no reescribir las anteriores |
 
 ---
 
