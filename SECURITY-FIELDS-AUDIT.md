@@ -22,7 +22,12 @@ are documented in §0 (executive summary) and §8 (full observations).
 **Validation after fixes:** `npx tsc -p tsconfig.json --noEmit` → EXIT 0;
 all live curl checks above pass; the workflow `Start application`
 restarts cleanly. Field-encryption test (45/45) and indexnow test (10/10)
-were not affected by the changes and continue to pass.
+were not affected by the changes and continue to pass. A focused
+regression test for F1 was also added at
+`exentax-web/server/client-errors-csrf.test.ts` — run with
+`npx tsx server/client-errors-csrf.test.ts`, **3/3 pass**, covering the
+no-Origin / spoofed-Origin / allowed-Origin cases. This guards against
+a future mount-order refactor silently re-opening the CSRF gap.
 
 ---
 
@@ -578,6 +583,12 @@ $ npx tsx exentax-web/scripts/test-field-encryption.ts
 
 $ npx tsx exentax-web/server/indexnow.test.ts
 … 10/10 pass …                   # EXIT 0
+
+$ npx tsx exentax-web/server/client-errors-csrf.test.ts   # F1 regression test
+[OK  ] POST /api/client-errors with no Origin -> 403 — status=403 body={"ok":false,"code":"FORBIDDEN"}
+[OK  ] POST /api/client-errors with spoofed Origin -> 403 — status=403 body={"ok":false,"code":"FORBIDDEN"}
+[OK  ] POST /api/client-errors with allowed Origin -> 200 ok — status=200 body={"ok":true}
+3/3 passed, 0 failed.            # EXIT 0
 
 $ cd exentax-web && npx tsc -p tsconfig.json --noEmit
                                 # EXIT 0 (no diagnostics)
