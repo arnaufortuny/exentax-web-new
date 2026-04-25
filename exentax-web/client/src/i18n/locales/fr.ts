@@ -8,6 +8,7 @@ const fr = {
     mainNavigation: "Navigation principale",
     banksCarousel: "Carrousel de banques",
     banksCarouselLabel: "Partenaires avec qui nous travaillons",
+    skipToMain: "Aller au contenu principal",
   },
   seo: {
     defaultSubtitle: "Votre structure fiscale aux États-Unis",

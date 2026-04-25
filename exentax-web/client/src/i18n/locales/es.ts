@@ -8,6 +8,7 @@ const es = {
   mainNavigation: "Navegación principal",
   banksCarousel: "Carrusel de bancos",
   banksCarouselLabel: "Partners con los que trabajamos",
+  skipToMain: "Saltar al contenido principal",
  },
  seo: {
  defaultSubtitle:"Tu estructura fiscal en EE.UU.",

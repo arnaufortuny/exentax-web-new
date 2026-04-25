@@ -9,6 +9,7 @@ export type TranslationKey =
   | "common.mainNavigation"
   | "common.banksCarousel"
   | "common.banksCarouselLabel"
+  | "common.skipToMain"
   | "seo.defaultSubtitle"
   | "seo.breadcrumbHome"
   | "seo.twitterAlt"
