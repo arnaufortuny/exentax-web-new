@@ -117,7 +117,7 @@ Closing out, here are related pieces that sit naturally next to this article: <a
 | Canada | 5% (GST) + provincial | Varies | Federal + provincial |
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Without a MoR, managing compliance across all these jurisdictions is a full-time job. With DoDo Payments connected to your Mercury account, it's automatic.

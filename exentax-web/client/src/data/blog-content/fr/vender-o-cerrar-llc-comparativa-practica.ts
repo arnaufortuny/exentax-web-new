@@ -106,7 +106,7 @@ Choisir entre **vendre** et **fermer** une LLC a des conséquences fiscales et o
 **Une SMLLC sans activité peut-elle être « abandonnée »?** Non. Sans Annual Report ni Registered Agent elle finit *Forfeited*, mais les obligations IRS (5472 si mouvements) restent vivantes avec sanctions en cascade.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Comment valoriser une LLC à vendre?** En digital, multiples typiques de **2-4× SDE annuel** ou **3-5× EBITDA** selon le niche. La cession exige la réattribution des comptes (Mercury relance le KYC) et des passerelles (revue Stripe).

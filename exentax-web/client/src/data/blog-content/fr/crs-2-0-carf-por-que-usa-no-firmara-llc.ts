@@ -68,7 +68,7 @@ En atterrissant sur les décisions concrètes que nous prenons chaque semaine av
 - **Résidence fiscale du titulaire comme variable maîtresse**. La résidence ne se choisit pas, elle se constate (jours de présence, centre des intérêts économiques, foyer familial). Tenter de masquer la résidence réelle à l'abri de l'asymétrie FATCA-CRS est, au-delà d'une erreur technique, une infraction qualifiée dans la plupart des juridictions européennes et latino-américaines, avec des sanctions sévères.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Si vous voulez voir comment votre situation s'inscrit dans cette logique, ouvrez la <a href="/fr#calculadora">calculatrice Exentax</a> et comparez-la avec votre charge fiscale actuelle avant d'aller plus loin.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Erreurs typiques que nous voyons chaque semaine

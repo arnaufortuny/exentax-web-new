@@ -28,7 +28,7 @@ Comprueba la tabla oficial vigente en el <a href="https://www.seg-social.es/">po
 
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.

@@ -28,7 +28,7 @@ Para freelancers cujos clientes são maioritariamente empresas americanas ou de 
 O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Lei espanhola 37/1992 do IVA</a> e na <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32006L0112">Diretiva 2006/112/CE</a>. Para validar VIES em tempo real use o <a href="https://ec.europa.eu/taxation_customs/vies/">portal da Comissão Europeia</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.

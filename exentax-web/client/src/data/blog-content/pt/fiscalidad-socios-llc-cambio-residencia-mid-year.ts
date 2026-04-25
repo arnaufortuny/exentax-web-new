@@ -123,7 +123,7 @@ As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dois (GloBE) e Modelo de Convenção OCDE com Comentários.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A escolha de jurisdição depende sempre da residência fiscal real do titular e da substância económica da atividade; analise o seu caso específico antes de qualquer decisão estrutural.

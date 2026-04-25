@@ -137,7 +137,7 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Pillar Two (GloBE) and OECD Model Tax Convention with Commentaries.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Choosing a jurisdiction always depends on the holder's actual tax residency and on the economic substance of the activity; review your specific case before taking any structural decision.

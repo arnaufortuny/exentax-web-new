@@ -28,7 +28,7 @@ Freelancer, agència, consultor, infoproducte, ecommerce petit o SaaS bootstrapp
 El marc regulador fonamental són el <a href="https://www.irs.gov/businesses">portal de l'IRS per a empreses</a> i l'<a href="https://www.law.cornell.edu/uscode/text/26">Internal Revenue Code (Title 26 USC)</a>. Per a no residents, la LLC continua sent l'opció més comuna, mentre que la C-Corp es reserva per a qui busca capital institucional o sortida a borsa.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.

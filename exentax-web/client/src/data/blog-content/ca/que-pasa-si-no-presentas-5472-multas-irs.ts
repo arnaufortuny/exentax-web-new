@@ -119,7 +119,7 @@ Per acabar amb el concret, aquests són els errors que a Exentax veiem repetir m
 El Form 5472 és un dels pocs casos on el cost de **no fer res** és geomètricament superior al cost de fer-ho bé. La base de 25.000 USD per any no es discuteix; el que es discuteix és **com regularitzes, en quin ordre, amb quina argumentació i quins riscos col·laterals tanques alhora**.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Si tens una LLC i creus que pots estar en qualsevol dels tres perfils, no he presentat, he presentat tard, he presentat malament, el raonable és **mapejar la situació amb números reals abans no ho faci l'IRS**. En una assessoria gratuïta de 30 minuts ho revisem amb tu, et diem en quin perfil estàs, quina exposició tens i quina ruta de regularització és realista. És el moviment més barat que pots fer avui sobre aquest tema.

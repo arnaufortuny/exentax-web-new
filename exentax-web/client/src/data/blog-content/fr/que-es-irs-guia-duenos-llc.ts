@@ -105,7 +105,7 @@ Vous n'appelez pas l'IRS, vous ne remplissez pas de formulaires, vous ne vous so
 Réservez une consultation gratuite et nous vous expliquons exactement comment fonctionne votre relation avec l'IRS en tant que propriétaire de LLC. Spoiler: c'est bien plus simple qu'il n'y paraît.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax on parle à l'IRS pour nos clients francophones tous les jours. Réservez votre consultation gratuite: on vous dit quels formulaires vous concernent, lesquels vous pouvez ignorer, et quand il faut paniquer (rarement).

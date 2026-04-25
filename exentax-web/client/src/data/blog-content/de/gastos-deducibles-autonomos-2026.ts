@@ -28,7 +28,7 @@ Die Fehler, die die meisten Sanktionen erzeugen: Familienessen als Tagesspesen g
 Das offizielle Kriterium zu absetzbaren Ausgaben steht im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Gesetz 35/2006 zur IRPF</a> und in den verbindlichen Auskünften der <a href="https://petete.tributos.hacienda.gob.es/">spanischen Steuerdirektion</a>. Heute gut zu dokumentieren spart morgen viel: jede archivierte Rechnung ist ein Euro weniger für den Fiskus.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.

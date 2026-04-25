@@ -68,7 +68,7 @@ Bringing the above down to actual decisions we take with Exentax clients every w
 - **Tax residence of the owner is the master variable.** Residence is not chosen, it is determined by facts (days of physical presence, centre of economic interests, family nucleus). Trying to hide your real residence under cover of the FATCA-CRS asymmetry is, beyond a technical mistake, a defined infraction in most European and Latin American jurisdictions with severe penalties. Any professional design starts from real residence and structures around it.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** If you want to see how your situation maps to this logic, open the <a href="/en#calculadora">Exentax calculator</a> and compare it with your current tax bill before going further.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Common mistakes we see every week

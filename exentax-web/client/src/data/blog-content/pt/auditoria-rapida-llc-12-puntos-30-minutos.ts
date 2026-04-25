@@ -110,7 +110,7 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 Apontamento concreto dos nossos casos: é assim que acontece de facto, não como uma página comercial descreve. Os números e o calendário pesam - falhar num deles desfaz o resto.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### 4. EIN intacto e em seu nome

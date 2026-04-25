@@ -108,7 +108,7 @@ Para verificar a sua LLC em qualquer plataforma de pagamento precisa de:
 O processo de verificação costuma demorar 1-5 dias úteis. Na Exentax coordenamos toda a configuração para que não tenha de lidar com formulários de verificação em inglês nem carregar documentos um por um. decide que plataformas precisa, nós deixamo-las prontas.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax cablamos Stripe, PayPal Business US e Dodo Payments todas as semanas para clientes lusófonos. Marca a tua consultoria gratuita: analisamos o teu fluxo e dizemos-te o que ligar onde.

@@ -83,7 +83,7 @@ Zum Abschluss einige verwandte Beiträge, die unmittelbar an diesen Text anschli
 5. **B2B mit B2C verwechseln.** Die Regeln sind völlig unterschiedlich. Wenn Sie an eine Privatperson in Frankreich verkaufen, ist es nicht dasselbe wie an eine französische SAS zu verkaufen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax sorgen wir dafür, dass Ihre steuerliche Struktur für Ihren Kundentyp die richtige ist. Wenn Sie genug von vierteljährlichen Formularen haben und Ihr Leben vereinfachen möchten, vereinbaren Sie eine kostenlose Beratung. Wir erklären Ihnen, wie die LLC 90% Ihrer steuerlichen Bürokratie beseitigen kann.

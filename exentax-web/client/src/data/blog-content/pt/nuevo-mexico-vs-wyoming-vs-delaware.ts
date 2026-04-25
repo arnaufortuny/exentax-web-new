@@ -140,7 +140,7 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por provedor

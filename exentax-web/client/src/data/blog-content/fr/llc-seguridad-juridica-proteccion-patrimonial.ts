@@ -103,7 +103,7 @@ Pensez à la protection patrimoniale comme une assurance: vous espérez ne jamai
 Le coût de maintien d'une LLC est une fraction de ce que vous perdriez si un problème juridique affectait vos biens personnels. Un procès peut coûter des dizaines de milliers d'euros. Votre LLC coûte une fraction de cela par an. Le calcul est simple.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax on combine LLC et droit français pour blinder le patrimoine de clients en France et en Belgique. Réservez votre consultation gratuite et on regarde ce que votre situation personnelle exige vraiment.

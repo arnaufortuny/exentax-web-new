@@ -107,7 +107,7 @@ Si vous voulez valider si cette stratégie convient à votre situation concrète
 Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Points clés

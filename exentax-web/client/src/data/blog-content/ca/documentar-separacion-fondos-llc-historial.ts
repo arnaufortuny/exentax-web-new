@@ -88,7 +88,7 @@ Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode d
 Aquest és un dels punts que auditem primer quan assumim un expedient. Si no està net aquí, qualsevol hipòtesi posterior esdevé negociable davant de l'autoritat.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Fets bancaris i fiscals que convé precisar

@@ -60,7 +60,7 @@ A vantagem fiscal é igualmente clara: sem dupla tributação societária e, com
 **Caso 3. Autónomo alto rendimento.** Fatura 100.000 €, despesas 15.000 €. Rendimento líquido 85.000 € (7.083 €/mês, escalão 15). Quota mensal 604,80 €, anual 7.257,60 € (7,3%). IRPF estimado: 35.000 €. Total 42.257,60 € (42,3%). Líquido 57.742,40 €. Com LLC: quota 0 €, IRPF 35.000 €, total 35.000 € (35%), líquido 65.000 €. **Poupança anual: 7.257,60 €.**
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Caso 4. Autónomo sem rendimentos (pior caso).** Rendimentos 0 €, rendimento líquido 0 €. Atribuem-lhe o escalão 1 com quota mínima de 200 €/mês, 2.400 €/ano que paga sem ter faturado um cêntimo. IRPF 0 €; perda líquida: −2.400 €. Com LLC, quota SS 0 €; manutenção LLC ~1.500 €/ano; perda líquida: −1.500 €. **Com a LLC perde 900 € menos por ano, mesmo sem atividade.**

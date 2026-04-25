@@ -78,7 +78,7 @@ La estrategia profesional pasa por:
 CRS no se "evita" desde una jurisdicción europea. Se planifica con conocimiento. Una LLC americana sigue siendo una herramienta extraordinariamente útil, pero el diseño de tu stack bancario y de tu residencia fiscal son determinantes para que la huella informativa que generas sea coherente con lo que declaras.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ¿Quieres que revisemos cómo te afecta CRS en tu caso concreto y diseñemos el stack adecuado? Agenda tu asesoría gratuita y lo analizamos contigo.

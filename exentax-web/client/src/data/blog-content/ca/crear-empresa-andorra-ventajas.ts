@@ -140,7 +140,7 @@ Per a perfils que no volen mudar-se, una <a href="/ca/blog/llc-als-estats-units-
 
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax podem ajudar-te a analitzar el teu cas, calcular nombres reals abans i després de la mudança, i dissenyar l'estructura corporativa que millor encaixi amb la teva vida a Andorra. A Exentax revisem el teu cas amb dades reals: <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts.

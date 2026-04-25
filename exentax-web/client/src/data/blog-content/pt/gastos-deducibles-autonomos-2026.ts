@@ -28,7 +28,7 @@ Os erros que mais sanções geram: pretender deduzir refeições familiares como
 O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Lei 35/2006 do IRPF</a> e nas consultas vinculativas da <a href="https://petete.tributos.hacienda.gob.es/">Direção Geral de Tributos espanhola</a>. Documentar bem hoje poupa muito amanhã: cada fatura arquivada é um euro a menos para o fisco.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.

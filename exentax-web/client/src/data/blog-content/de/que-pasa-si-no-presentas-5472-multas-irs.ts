@@ -119,7 +119,7 @@ Zum konkreten Abschluss: Fehler, die wir bei Exentax Monat für Monat sehen und 
 Form 5472 ist einer der wenigen Fälle, in denen die Kosten des **Nichtstuns** geometrisch über den Kosten des Richtigmachens liegen. Die Basis von 25.000 USD pro Jahr ist nicht verhandelbar; verhandelbar ist **wie Sie regularisieren, in welcher Reihenfolge, mit welcher Argumentation und welche Kollateralrisiken Sie gleichzeitig schließen**.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Haben Sie eine LLC und glauben, in einem der drei Profile zu sein, nie eingereicht, verspätet eingereicht, falsch eingereicht, ist die rationale Bewegung, die Lage **mit realen Zahlen zu kartieren, bevor das IRS es tut**. In einer kostenlosen 30-Minuten-Beratung schauen wir es mit Ihnen durch, sagen Ihnen, in welchem Profil Sie sind, welche Exposition Sie haben und welche Regularisierungsroute realistisch ist. Es ist die günstigste Bewegung, die Sie heute zu diesem Thema machen können.

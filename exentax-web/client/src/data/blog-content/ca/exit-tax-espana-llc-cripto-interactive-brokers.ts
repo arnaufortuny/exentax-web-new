@@ -137,7 +137,7 @@ A Exentax modelem l'impacte de l'Exit Tax amb la teva cartera real i país dest�
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Ajornament per trasllat a un Estat de la UE o de l'EEE

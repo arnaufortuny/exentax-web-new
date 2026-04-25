@@ -164,7 +164,7 @@ Legal weniger Steuern zu zahlen ist kein Trick, sondern eine kohärente Kombinat
 **Ist 0 % Steuer legal möglich?** Nur in sehr wenigen Fällen: effektive Residenz in einer Null-Steuer-Jurisdiktion auf Auslandseinkünfte (VAE, Monaco, Andorra für bestimmte Profile), mit strikter Einhaltung der Anti-Missbrauchs-Regeln des Herkunftslandes. Das "0 % vom Sofa", das in sozialen Medien verkauft wird, ist Betrug.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Was kostet eine legal optimierte Struktur?** Zwischen 1.500 € und 8.000 € jährlich für Profile zwischen 80.000 € und 500.000 € Umsatz. Die Kosten rechtfertigen sich über wiederkehrende Steuerersparnis, nicht über Einzeltricks. Ein 50.000 €-Setup, das 0 % verspricht, ist meist heiße Luft.

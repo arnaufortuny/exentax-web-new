@@ -68,7 +68,7 @@ Si alguns aspectes d'aquesta estructura t'han deixat amb ganes de més detall, <
 - **Relay** utilitza Thread Bank com a banc subjacent. Bona opció com a compte de respatller amb fins a 20 subcomptes gratuïts.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax desbloquegem aquest tipus de situació cada setmana per a clients catalans. Reserva la teva assessoria gratuïta: detectem els senyals que bloquegen el teu banc i restablim el flux.

@@ -108,7 +108,7 @@ Ara que tens el context complet, el pas següent natural és contrastar-lo amb l
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes per proveïdor

@@ -26,7 +26,7 @@
     "i18n:validate": "tsx scripts/validate-i18n.ts",
     "i18n:generate-types": "tsx scripts/generate-i18n-types.ts",
     "i18n:check": "tsx scripts/generate-i18n-types.ts && tsx scripts/validate-i18n.ts",
-    "lint:blog": "node scripts/blog-content-lint.mjs && node scripts/blog-cta-position-check.mjs && node scripts/blog-translation-quality-audit.mjs --check",
+    "lint:blog": "node scripts/blog-content-lint.mjs && node scripts/blog-cta-position-check.mjs && node scripts/blog-mid-cta-check.mjs && node scripts/blog-translation-quality-audit.mjs --check",
     "test:lint-blog": "node scripts/blog-content-lint.test.mjs",
     "test:orphan-detect": "node scripts/orphan-detect.test.mjs",
     "test:audit-faqs": "node scripts/audit-system-seo-faqs.test.mjs",

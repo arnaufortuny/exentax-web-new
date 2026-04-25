@@ -154,7 +154,7 @@ La palabra "offshore" arrastra connotaciones de los años 90 que ya no aplican. 
 **¿Cuándo sí compensa una jurisdicción "offshore" clásica?** Casos específicos: holding intermedia para un grupo internacional con flujos transfronterizos significativos, IP holding con royalties consolidados, o residente real en la jurisdicción. Para freelance digital o ecommerce solo, casi nunca.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax modelamos opciones offshore vs onshore con tus números reales, te enseñamos el coste total de cada una y descartamos las que en tu caso solo añaden riesgo sin aportar.

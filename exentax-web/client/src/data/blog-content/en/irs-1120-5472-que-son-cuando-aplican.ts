@@ -94,7 +94,7 @@ That's why at Exentax we treat these forms as the **natural by-product** of good
 - The most expensive mistake is filling them out poorly or arriving at year-end without the documentation backing what is reported.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 If you have doubts about whether your case is properly set up, about prior years, or about how to regularise late filings, **we'll review it with you** in a free 30-minute consultation. Better to understand it well once than to pay avoidable penalties every year.

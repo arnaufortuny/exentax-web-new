@@ -28,7 +28,7 @@ Per a freelancers els clients dels quals són majoritàriament empreses dels EUA
 El marc normatiu està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Llei 37/1992 de l'IVA</a> i a la <a href="https://eur-lex.europa.eu/legal-content/CA/TXT/?uri=CELEX:32006L0112">Directiva 2006/112/CE</a>. Per validar VIES en temps real pots fer servir el <a href="https://ec.europa.eu/taxation_customs/vies/">portal de la Comissió Europea</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.

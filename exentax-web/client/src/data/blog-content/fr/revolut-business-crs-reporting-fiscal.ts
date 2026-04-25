@@ -64,7 +64,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes par fournisseur

@@ -80,7 +80,7 @@ Regardless of path:
 At Exentax we accompany all three paths. Before proposing one, we validate with the client what is really there to liquidate or transfer, what real demand exists, and what the net result would be in each scenario.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 If you are evaluating exiting your LLC and not sure which path, book a free initial session through our booking page. We help you choose and execute.

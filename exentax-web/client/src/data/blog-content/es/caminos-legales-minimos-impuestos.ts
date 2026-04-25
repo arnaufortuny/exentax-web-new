@@ -169,7 +169,7 @@ Pagar menos impuestos legalmente no es un truco, es una combinación coherente d
 **¿Es legal pagar 0 % impuestos?** Solo en muy pocos casos: residencia efectiva en jurisdicción de tributación nula sobre rentas extranjeras (Emiratos, Mónaco, Andorra para ciertos perfiles), con cumplimiento estricto de las reglas anti-abuso del país de origen. Lo "0 % desde tu sofá" que circula en redes es fraude.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **¿Cuánto cuesta una estructura legal optimizada?** Entre 1.500 € y 8.000 € de coste anual para perfiles entre 80.000 € y 500.000 € de facturación. El coste se justifica por ahorro fiscal recurrente, no por trucos puntuales. Si una propuesta cuesta 50.000 € de setup y promete 0 %, normalmente es vendedora de humo.

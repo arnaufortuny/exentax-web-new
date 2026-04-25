@@ -109,7 +109,7 @@ No. Form 7004 provides a maximum 6-month extension. If you need more time due to
 | **December** | Year-end review + planning | Exentax |
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/10-tax-mistakes-spanish-freelancers-make-and-how-to-avoid">10 tax mistakes Spanish freelancers make (and how to avoid them)</a> helps round off the context.

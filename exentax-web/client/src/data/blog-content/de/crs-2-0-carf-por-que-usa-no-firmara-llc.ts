@@ -68,7 +68,7 @@ Aus den drei Ebenen ergibt sich für Washington eine sehr positive Rechnung: ger
 - **Steuerliche Ansässigkeit als Hauptvariable**. Ansässigkeit wird nicht gewählt, sondern festgestellt (Aufenthaltstage, Mittelpunkt der Lebensinteressen, Familie). Die reale Ansässigkeit hinter der FATCA-CRS-Asymmetrie zu verbergen ist neben einem technischen Fehler in den meisten europäischen und lateinamerikanischen Jurisdiktionen ein gesetzlicher Tatbestand mit harten Sanktionen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Bringen Sie Zahlen in Ihren Fall.** Wenn Sie sehen wollen, wie Ihre Situation in diese Logik passt, öffnen Sie den <a href="/de#calculadora">Exentax-Rechner</a> und vergleichen Sie ihn mit Ihrer aktuellen Steuerlast, bevor Sie weitergehen.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Typische Fehler, die wir wöchentlich sehen

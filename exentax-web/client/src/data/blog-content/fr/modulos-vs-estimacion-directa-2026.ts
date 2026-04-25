@@ -28,7 +28,7 @@ Si votre activité est 100% numérique, internationale et avec clientèle majori
 La réglementation détaillée est dans le règlement IRPF (RD 439/2007) et dans l'arrêté annuel des modules publié chaque novembre au <a href="https://www.boe.es/">BOE</a>. Pour vérifier votre épigraphe IAE, consultez le <a href="https://sede.agenciatributaria.gob.es/">portail du fisc</a> avant de décider.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

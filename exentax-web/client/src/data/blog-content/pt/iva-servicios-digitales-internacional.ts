@@ -85,7 +85,7 @@ Para fechar, leituras relacionadas que encaixam naturalmente ao lado deste artig
 Na Exentax encarregamo-nos de que a sua estrutura fiscal seja a correta para o seu tipo de clientes. Se está cheio de modelos trimestrais e quer simplificar a sua vida, agende uma assessoria gratuita. Explicamos-lhe como a LLC pode eliminar 90% da sua burocracia fiscal.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax configuramos IVA / Sales Tax para clientes lusófonos que vendem digital mundialmente. Marca a tua consultoria gratuita: mapeamos os teus fluxos e dizemos-te onde cobrar, onde não cobrar e onde declarar.

@@ -139,7 +139,7 @@ Andorra é uma opção séria, não um truque. Para empreendedores e profissiona
 Para perfis que não querem mudar-se, uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> resolve a otimização corporativa sem necessidade de mudar de país. Para quem sim está disposto a dar o passo, a combinação residência andorrana + LLC americana é uma das estruturas mais eficientes que vemos.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax podemos ajudar a analisar o seu caso, calcular números reais antes e depois da mudança, e desenhar a estrutura corporativa que melhor encaixa com a sua vida em Andorra. Na Exentax analisamos o teu caso com dados reais: <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos.

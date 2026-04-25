@@ -60,7 +60,7 @@ La ventaja fiscal es igualmente notable: sin doble imposición societaria y, si 
 **Caso 3. Autónomo alto ingreso.** Facturas 100.000 €, gastos 15.000 €. Rendimiento neto 85.000 € (7.083 €/mes, tramo 15). Cuota mensual 604,80 €, cuota anual 7.257,60 € (7,3%). IRPF estimado: 35.000 €. Total 42.257,60 € (42,3%). Neto 57.742,40 €. Con LLC: cuota 0 €, IRPF 35.000 €, total 35.000 € (35%), neto 65.000 €. **Ahorro anual: 7.257,60 €.**
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Caso 4. Autónomo sin ingresos (peor caso).** Facturas 0 €, rendimiento 0 €. Te asignan el tramo 1 con cuota mínima de 200 € al mes, 2.400 € al año que pagas aunque no hayas ingresado un euro. IRPF 0 €; pérdida neta: −2.400 €. Con LLC, la cuota de SS es 0 €; mantienes la LLC por unos 1.500 € al año; pérdida neta: −1.500 €. **Con la LLC pierdes 900 € menos al año, incluso sin generar actividad.**

@@ -30,7 +30,7 @@ El criterio oficial sobre gastos deducibles está recogido en la <a href="https:
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/modulos-vs-estimacion-directa-2026">módulos frente a estimación directa</a>, <a href="/es/blog/iva-intracomunitario-servicios-europa">el IVA intracomunitario en servicios a Europa</a> y la <a href="/es/blog/cuotas-autonomos-2026-guia-completa">guía completa de cuotas de autónomos 2026 con cifras oficiales</a>.

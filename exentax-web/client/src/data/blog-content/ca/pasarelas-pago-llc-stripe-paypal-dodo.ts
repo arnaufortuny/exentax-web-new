@@ -108,7 +108,7 @@ Per verificar la teva LLC a qualsevol passarel·la de pagament necessites:
 El procés de verificació sol trigar 1-5 dies hàbils. A Exentax coordinem tota la configuració perquè no hagis de bregar amb formularis de verificació en anglès ni pujar documents un per un. Tu decideixes quines passarel·les necessites, nosaltres les deixem llestes.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax cablegem Stripe, PayPal Business US i Dodo Payments cada setmana per a clients catalans. Reserva la teva assessoria gratuïta: analitzem el teu flux i et diem què endollar on.

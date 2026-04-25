@@ -76,7 +76,7 @@ In practice: on-chain traceability combined with DAC8 makes DeFi opacity much sm
 DAC8 closes the loop. CRS for banking, DAC7 for platforms, DAC8 for crypto. Tax opacity in the digital environment drops drastically from today. Proper planning is not about looking for loopholes; it's about designing a coherent structure and declaring well.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Operating with crypto from an LLC or want to understand how DAC8 affects you as a resident in Spain or LATAM? Book your free consultation.

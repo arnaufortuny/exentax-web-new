@@ -108,7 +108,7 @@ Um Ihre LLC bei einer Zahlungsplattform zu verifizieren, benötigen Sie:
 Der Verifizierungsprozess dauert in der Regel 1-5 Werktage. Bei Exentax koordinieren wir die gesamte Einrichtung, damit Sie sich nicht mit Verifizierungsformularen auf Englisch herumschlagen oder Dokumente einzeln hochladen müssen. Sie entscheiden, welche Zahlungsplattformen Sie benötigen, wir richten sie betriebsbereit ein.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax verdrahten wir Stripe, PayPal Business US und Dodo Payments jede Woche für DACH-Kunden. Buchen Sie Ihre kostenlose Beratung: wir analysieren Ihren Zahlungsfluss und sagen Ihnen, was wo reingehört.

@@ -138,7 +138,7 @@ Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwoh
 Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Kernpunkte

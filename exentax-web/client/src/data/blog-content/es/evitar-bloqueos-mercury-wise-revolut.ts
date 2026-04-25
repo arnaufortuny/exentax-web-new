@@ -74,7 +74,7 @@ Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/
 - **Relay** usa Thread Bank como banco subyacente. Buena opción como cuenta de respaldo con hasta 20 subcuentas gratuitas.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax configuramos tus cuentas desde el principio para minimizar el riesgo de bloqueos. Preparamos toda la documentación que Mercury necesita, te asesoramos sobre cómo operar correctamente, y si alguna vez tienes un problema, te ayudamos a resolverlo.

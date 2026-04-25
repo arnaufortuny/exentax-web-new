@@ -216,7 +216,7 @@ Separar o teu dinheiro pessoal do dinheiro da tua LLC não é um detalhe adminis
 A boa notícia é que implementar esta separação é simples se o fizeres desde o princípio. Uma conta bancária dedicada, um sistema de contabilidade básico e disciplina nas tuas distribuições é tudo o que precisas.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax encarregamo-nos de que a tua LLC esteja corretamente estruturada desde o dia um. incluindo a abertura da tua conta bancária, a configuração da tua contabilidade e a apresentação de todos os formulários perante o IRS. Se queres assegurar-te de que a tua separação financeira está correta, podes agendar uma assessoria gratuita onde revemos a tua situação sem compromisso.

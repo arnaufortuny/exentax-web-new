@@ -109,7 +109,7 @@ Este artículo se apoya en normativa vigentes actualmente:
 - **AEAT.** Manual práctico del IVA (edición vigente) y consultas vinculantes <a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a> V0297-22, V1543-21 sobre tributación de LLC desde España.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La aplicación concreta de cualquier norma a tu caso depende de tu residencia fiscal, la actividad y el tipo de cliente. Este contenido es informativo y no sustituye al asesoramiento profesional personalizado.

@@ -28,7 +28,7 @@ Resumen práctico: ingresos puntuales bajos (menos de 3.000 euros año en total)
 Los criterios de habitualidad están consolidados en sentencias del <a href="https://www.poderjudicial.es/">Tribunal Supremo</a> y en la doctrina de la <a href="https://www.seg-social.es/">TGSS</a>. Antes de operar sin RETA, modela tu situación con asesoría seria; los falsos atajos terminan siendo caros.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.

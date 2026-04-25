@@ -140,7 +140,7 @@ España con régimen ETVE es competitiva si la actividad lo justifica. Holanda y
 Un holding bien diseñado es una herramienta poderosa de centralización, eficiencia fiscal y planificación. Mal diseñado o aplicado por moda, es complejidad cara que no aporta. La decisión depende del tamaño y madurez de tu negocio, no del titular del último vídeo viral.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/servicios">Empieza hoy 100% remoto</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Para emprendedores no residentes con un único negocio operativo internacional, una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> suele cubrir el caso sin necesidad de holding. Cuando el negocio crece y aparecen varias actividades, podemos analizar contigo si un holding (americano, español o internacional) tiene sentido. En Exentax revisamos tu caso con datos reales: <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos.

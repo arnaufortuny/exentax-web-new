@@ -119,7 +119,7 @@ Na Exentax preparamos o dossier de Source of Wealth/Funds antes da primeira oper
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Factos jurídicos e processuais

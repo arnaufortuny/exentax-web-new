@@ -117,7 +117,7 @@ La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opér
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes par fournisseur

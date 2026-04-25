@@ -124,7 +124,7 @@ Toda la operativa bancaria descrita se apoya en documentación pública y polít
 Información a efectos divulgativos; cada caso bancario requiere análisis específico de KYC, jurisdicción de residencia y volumen operado.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Habla con nuestro equipo</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Tu siguiente paso con Exentax

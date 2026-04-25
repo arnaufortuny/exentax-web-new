@@ -28,7 +28,7 @@ Für Freelancer mit überwiegend US- oder nicht-EU-Kunden vereinfacht eine <a hr
 Der rechtliche Rahmen findet sich im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">spanischen MwSt-Gesetz 37/1992</a> und in der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32006L0112">Richtlinie 2006/112/EG</a>. Zur Echtzeit-VIES-Prüfung nutzen Sie das <a href="https://ec.europa.eu/taxation_customs/vies/">Portal der Europäischen Kommission</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.

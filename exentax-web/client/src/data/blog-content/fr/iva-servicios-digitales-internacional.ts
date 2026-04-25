@@ -99,7 +99,7 @@ Les comparaisons et données quantitatives sur les juridictions citées s'appuie
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilier Deux (GloBE) et Modèle de Convention OCDE avec Commentaires.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Le choix de la juridiction dépend toujours de la résidence fiscale réelle du titulaire et de la substance économique de l'activité; étudiez votre cas spécifique avant toute décision structurelle.

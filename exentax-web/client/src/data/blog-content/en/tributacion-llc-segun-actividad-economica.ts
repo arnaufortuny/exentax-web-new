@@ -89,7 +89,7 @@ Want to analyze how your activity is taxed exactly and design the most efficient
 To keep going on this thread, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> fills in a nuance this guide only touched on.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/services">Start today, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## We set it up without you losing a weekend

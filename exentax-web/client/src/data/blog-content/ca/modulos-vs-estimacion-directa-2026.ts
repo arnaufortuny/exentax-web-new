@@ -28,7 +28,7 @@ Si la teva activitat és 100% digital, internacional i amb clients majoritàriam
 La regulació detallada està al Reglament de l'IRPF (RD 439/2007) i a l'Ordre anual de mòduls publicada cada novembre al <a href="https://www.boe.es/">BOE</a>. Per verificar el teu epígraf IAE consulta el <a href="https://sede.agenciatributaria.gob.es/">portal de l'AEAT</a> abans de prendre la decisió.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.

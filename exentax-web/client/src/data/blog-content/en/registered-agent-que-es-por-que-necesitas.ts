@@ -134,7 +134,7 @@ There is no perfect account for an LLC. There is the right **stack**, where each
 The realistic recommendation: **Mercury + Relay as backup + Slash for ad operations + Wise for FX treasury**. This setup minimizes block risk and reduces real cost. At Exentax we open and configure this stack as part of incorporation.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Next steps

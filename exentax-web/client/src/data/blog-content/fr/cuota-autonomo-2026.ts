@@ -28,7 +28,7 @@ Consultez la table officielle en vigueur sur le <a href="https://www.seg-social.
 
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

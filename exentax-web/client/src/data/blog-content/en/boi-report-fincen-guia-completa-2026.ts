@@ -114,7 +114,7 @@ Some entities are exempt from BOI reporting:
 - Tax-exempt entities
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Your LLC is almost certainly NOT exempt.** Single-member LLCs owned by non-residents must file.

@@ -69,7 +69,7 @@ CRS is not "avoided" from a European jurisdiction. It is planned for, with knowl
 Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyze it with you.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.

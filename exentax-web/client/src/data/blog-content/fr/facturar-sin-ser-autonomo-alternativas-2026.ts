@@ -28,7 +28,7 @@ Résumé pratique : revenus ponctuels faibles (moins de 3 000 euros par an au to
 Les critères d'habitualité sont consolidés dans les arrêts de la <a href="https://www.poderjudicial.es/">Cour suprême</a> et dans la doctrine de la <a href="https://www.seg-social.es/">Trésorerie générale espagnole</a>. Avant d'opérer sans RETA, modélisez votre situation avec un conseil sérieux ; les faux raccourcis finissent par coûter cher.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

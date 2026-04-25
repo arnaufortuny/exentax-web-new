@@ -114,7 +114,7 @@ Para verificar tu LLC en cualquier pasarela de pago necesitas:
 
 El proceso de verificación suele tardar 1-5 días hábiles. En Exentax coordinamos toda la configuración para que no tengas que lidiar con formularios de verificación en inglés ni subir documentos uno por uno. Tú decides qué pasarelas necesitas, nosotros las dejamos listas.
 
-Habla con nuestro equipo y te recomendamos la combinación de pasarelas que mejor encaja con tu tipo de negocio.
+Cuéntanos tu modelo y te recomendamos la combinación de pasarelas que mejor encaja con tu tipo de negocio.
 
 El W-8BEN-E no es un requisito por defecto en Mercury, Relay o Wise: solo lo firmarás si la plataforma te lo pide expresamente. Donde sí es obligatorio firmarlo desde el alta es en brokers como Interactive Brokers. Aquí tienes la <a href="/es/blog/w8-ben-y-w8-ben-e-guia-completa">guía completa de los formularios W-8BEN y W-8BEN-E</a> para saber cuándo aplica y cómo rellenarlo correctamente.
 ### Próximos pasos
@@ -127,7 +127,7 @@ Si quieres validar si esta estrategia encaja con tu situación concreta, en Exen
 La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por proveedor

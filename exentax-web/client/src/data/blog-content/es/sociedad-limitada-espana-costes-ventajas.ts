@@ -28,7 +28,7 @@ Para perfiles 100% digitales con clientes mayoritariamente fuera de España, una
 El régimen jurídico está en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">Ley de Sociedades de Capital</a> y el régimen fiscal en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Ley 27/2014 del Impuesto sobre Sociedades</a>. Si te planteas una SL, calcula el coste total combinado a tres años antes de constituir.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.

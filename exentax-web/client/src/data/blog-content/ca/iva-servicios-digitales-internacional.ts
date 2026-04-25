@@ -85,7 +85,7 @@ Per tancar, lectures relacionades que encaixen al costat d'aquest article: <a hr
 A Exentax ens encarreguem que la teva estructura fiscal sigui la correcta per al teu tipus de clients. Si estàs fins a dalt de models trimestrals i vols simplificar la teva vida, agenda una assessoria gratuïta. T'expliquem com la LLC pot eliminar el 90% de la teva burocràcia fiscal.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax configurem IVA / Sales Tax per a clients catalans que venen digital arreu del món. Reserva la teva assessoria gratuïta: mapem els teus fluxos i et diem on cobrar, on no, i on declarar.

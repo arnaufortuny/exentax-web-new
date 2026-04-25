@@ -112,7 +112,7 @@ Connect all payment processors to your Mercury account for unified cash manageme
 3. **Payouts:** Mercury for all deposits
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 To keep going on this thread, <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">Privacy with a US LLC: what is truly private and what is not</a> fills in a nuance this guide only touched on.

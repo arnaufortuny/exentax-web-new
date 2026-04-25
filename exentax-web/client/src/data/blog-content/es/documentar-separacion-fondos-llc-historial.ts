@@ -148,7 +148,7 @@ La operativa diaria descrita se apoya en las siguientes obligaciones formales y 
 - **Banca y trazabilidad.** Términos de Mercury, Relay y Wise Business; obligaciones KYC del Bank Secrecy Act (31 CFR Part 1010).
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Este artículo es divulgativo; cada checklist debe adaptarse al perfil fiscal y operativo concreto de tu LLC.

@@ -28,7 +28,7 @@ Freelance, agence, consultant, infoproduit, petit ecommerce ou SaaS bootstrappé
 Le cadre réglementaire fondamental est le <a href="https://www.irs.gov/businesses">portail entreprises de l'IRS</a> et l'<a href="https://www.law.cornell.edu/uscode/text/26">Internal Revenue Code (Title 26 USC)</a>. Pour les non-résidents, la LLC reste l'option la plus courante, tandis que la C-Corp est réservée à ceux qui cherchent du capital institutionnel ou une entrée en bourse.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

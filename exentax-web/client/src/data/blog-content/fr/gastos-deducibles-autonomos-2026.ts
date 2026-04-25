@@ -28,7 +28,7 @@ Les erreurs qui génèrent le plus de sanctions : prétendre déduire des repas 
 Le critère officiel sur les charges déductibles figure dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Loi 35/2006 sur l'IRPF</a> et les consultations contraignantes de la <a href="https://petete.tributos.hacienda.gob.es/">Direction Générale des Impôts espagnole</a>. Bien documenter aujourd'hui fait économiser demain : chaque facture archivée est un euro de moins pour le fisc.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

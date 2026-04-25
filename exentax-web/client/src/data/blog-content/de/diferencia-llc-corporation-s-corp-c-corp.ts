@@ -28,7 +28,7 @@ Freelancer, Agentur, Berater, Infoprodukt, kleiner E-Commerce oder bootstrapped 
 Der grundlegende Regulierungsrahmen ist das <a href="https://www.irs.gov/businesses">IRS-Unternehmensportal</a> und der <a href="https://www.law.cornell.edu/uscode/text/26">Internal Revenue Code (Title 26 USC)</a>. Für Nichtansässige bleibt die LLC die häufigste Wahl, während die C-Corp für jene reserviert ist, die institutionelles Kapital suchen oder an die Börse gehen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/leistungen">Finden Sie heraus, ob eine LLC zu Ihnen passt</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.

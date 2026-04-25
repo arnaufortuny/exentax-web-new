@@ -68,7 +68,7 @@ If the audit comes out clean, file the exercise in your LLC folder with date. Re
 If you find red flags, the sensible order is: legal first (state, RA, BOI), then federal tax (back-filed 5472 with the right strategy), then country (voluntary remediation if needed), and operations last (banking and platforms). Doing it all at once is rarely a good idea; sequencing it over 60-90 days almost always is.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review cases like this every week. If you want us to validate the result of your quick audit and prioritize the red flags without drama, book a free 30-minute initial session through our contact page.

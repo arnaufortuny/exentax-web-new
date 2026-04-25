@@ -28,7 +28,7 @@ The mistakes that generate most penalties: claiming family meals as per diems, p
 The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding consultations of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.

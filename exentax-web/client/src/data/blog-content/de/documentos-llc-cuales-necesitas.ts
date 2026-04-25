@@ -117,7 +117,7 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Hinweise nach Anbieter

@@ -60,7 +60,7 @@ Der steuerliche Vorteil ist ebenso klar: keine körperschaftliche Doppelbesteuer
 **Fall 3. Autónomo mit hohem Einkommen.** Sie fakturieren 100.000 €, Ausgaben 15.000 €. Nettoertrag 85.000 € (7.083 €/Monat, Stufe 15). Monatsbeitrag 604,80 €, Jahresbeitrag 7.257,60 € (7,3%). Geschätzte IRPF: 35.000 €. Gesamt 42.257,60 € (42,3%). Netto 57.742,40 €. Mit LLC: Beitrag 0 €, IRPF 35.000 €, gesamt 35.000 € (35%), netto 65.000 €. **Jahresersparnis: 7.257,60 €.**
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Fall 4. Autónomo ohne Einnahmen (Worst Case).** Umsatz 0 €, Nettoertrag 0 €. Sie werden Stufe 1 mit Mindestbeitrag 200 €/Monat zugewiesen, 2.400 €/Jahr, die Sie auch ohne einen einzigen Euro Umsatz zahlen. IRPF 0 €; Nettoverlust: −2.400 €. Mit LLC, SS-Beitrag 0 €; LLC-Erhalt ~1.500 €/Jahr; Nettoverlust: −1.500 €. **Mit LLC verlieren Sie 900 € weniger pro Jahr, auch ohne Aktivität.**

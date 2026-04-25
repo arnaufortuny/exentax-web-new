@@ -121,7 +121,7 @@ Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/resid
 Chaque cas est différent, mais la plupart de nos clients réduisent leur charge fiscale totale de 50 % à 70 % par rapport au fait d'opérer en tant qu'auto-entrepreneur/travailleur indépendant dans leur pays. Si vous facturez plus de 3 000 $ par mois, les chiffres commencent à devenir très intéressants.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Vous voulez savoir comment la fiscalité pass-through s'applique précisément à votre cas, en fonction de votre résidence (France, Belgique, Suisse, Québec) et de votre type de clients? Réservez une consultation pour votre consultation gratuite et nous regardons votre situation en détail.

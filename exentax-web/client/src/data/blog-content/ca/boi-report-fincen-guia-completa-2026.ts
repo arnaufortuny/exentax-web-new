@@ -107,7 +107,7 @@ Si vols validar si aquesta estratègia encaixa amb la teva situació concreta, a
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Punts clau

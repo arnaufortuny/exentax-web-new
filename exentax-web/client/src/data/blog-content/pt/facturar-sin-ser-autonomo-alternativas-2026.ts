@@ -28,7 +28,7 @@ Resumo prático: rendimentos pontuais baixos (menos de 3.000 euros por ano no to
 Os critérios de habitualidade estão consolidados em acórdãos do <a href="https://www.poderjudicial.es/">Supremo Tribunal</a> e na doutrina da <a href="https://www.seg-social.es/">TGSS</a>. Antes de operar sem RETA, modele a sua situação com aconselhamento sério; os falsos atalhos acabam por sair caros.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.

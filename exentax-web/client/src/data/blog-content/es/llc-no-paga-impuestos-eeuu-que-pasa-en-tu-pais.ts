@@ -116,7 +116,7 @@ La aplicación concreta de cualquiera de estas normas a tu caso depende de tu re
 La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Habla con nuestro equipo</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por proveedor

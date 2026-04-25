@@ -146,7 +146,7 @@ Für nicht ansässige Unternehmer mit einem einzigen internationalen operativen 
 Die Holdingstruktur ist im deutschsprachigen Raum sehr etabliert und sinnvoll ab einer bestimmten Größe. Eine GmbH-Holding über einer operativen GmbH erlaubt steuerneutrale Veräußerungsgewinne unter bestimmten Voraussetzungen, professionelle Vermögensbündelung und elegante Nachfolgegestaltung. Die Standard-Empfehlung in DACH-Ländern liegt bei einem operativen Gewinn ab etwa 200.000 EUR pro Jahr.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die Beteiligungsertragsbefreiung nach Paragraph 8b KStG in Deutschland macht 95 Prozent der Dividenden zwischen Tochter und Holding steuerfrei. In Österreich gilt ein vergleichbares System über die internationale Schachtelbeteiligung. In der Schweiz wirkt der Beteiligungsabzug auf Bundesebene.

@@ -68,7 +68,7 @@ Aterrizamos lo anterior en decisiones concretas que tomamos cada semana con clie
 - **Residencia fiscal del titular como variable maestra**. La residencia no se elige, se determina por hechos (días de presencia, centro de intereses económicos, núcleo familiar). Pretender ocultar la residencia real al amparo de la asimetría FATCA-CRS es, además de un error técnico, una infracción tipificada en la mayoría de jurisdicciones europeas y latinoamericanas con sanciones severas. Cualquier diseño profesional parte de la residencia real y diseña la estructura encima.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** Si quieres ver cómo encaja tu situación con esta lógica, abre la <a href="/es#calculadora">calculadora Exentax</a> y compáralo con tu carga fiscal actual antes de seguir.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Errores típicos que vemos cada semana

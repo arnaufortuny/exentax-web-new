@@ -109,7 +109,7 @@ The reasonable conclusion is not "Wise is bad" or "the LLC is dangerous". The co
 At Exentax we work exactly on that frontier: structuring the <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a>, choosing <a href="/en/blog/traditional-banks-vs-fintech-for-your-llc-where-to-open-your">which bank or fintech</a> makes sense as primary and which as secondary, anticipating what gets reported via <a href="/en/blog/crs-for-residents-in-spain-and-latam-real-implications">CRS</a> back to your home tax authority, and engineering the whole so that the Wise piece (or <a href="/en/blog/revolut-business-and-crs-what-it-reports-to-your-tax">Revolut Business</a>, or any other) fits without surprises. We expand on this in <a href="/en/blog/designing-a-solid-international-tax-structure-step-by-step">Designing a solid international tax structure</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 If you are not sure how Wise fits into your structure, or whether you are exposed to a data cross-check you do not control, we are happy to review it with you and tell you what to fix before the tax authority sets the pace.

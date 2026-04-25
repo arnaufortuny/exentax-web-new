@@ -216,7 +216,7 @@ Ihr persönliches Geld vom Geld Ihrer LLC zu trennen, ist kein administratives D
 Die gute Nachricht ist, dass die Umsetzung dieser Trennung einfach ist, wenn Sie es von Anfang an tun. Ein dediziertes Bankkonto, ein grundlegendes Buchhaltungssystem und Disziplin bei Ihren Ausschüttungen sind alles, was Sie brauchen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax sorgen wir dafür, dass Ihre LLC vom ersten Tag an korrekt strukturiert ist. einschließlich der Eröffnung Ihres Bankkontos, der Einrichtung Ihrer Buchhaltung und der Einreichung aller Formulare beim IRS. Wenn Sie sicherstellen möchten, dass Ihre finanzielle Trennung korrekt ist, können Sie eine kostenlose Beratung vereinbaren, in der wir Ihre Situation unverbindlich prüfen.

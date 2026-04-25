@@ -103,7 +103,7 @@ Denken Sie an den Vermögensschutz wie an eine Versicherung: Sie hoffen, ihn nie
 Die Kosten für die Aufrechterhaltung einer LLC sind ein Bruchteil dessen, was Sie verlieren würden, wenn ein rechtliches Problem Ihre persönlichen Vermögenswerte beträfe. Ein Rechtsstreit kann Zehntausende von Euro kosten, Ihre LLC kostet einen Bruchteil davon pro Jahr. Die Rechnung ist einfach.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/leistungen">Finden Sie heraus, ob eine LLC zu Ihnen passt</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax kombinieren wir LLC und deutsches bzw. österreichisches Recht, um das Vermögen unserer Kunden abzusichern. Buchen Sie Ihre kostenlose Beratung und wir prüfen, was Ihr persönlicher Fall wirklich braucht.

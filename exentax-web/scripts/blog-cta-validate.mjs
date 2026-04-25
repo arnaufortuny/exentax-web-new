@@ -5,11 +5,15 @@
  * Verifies the editorial CTA contract for every blog article in every
  * supported locale.
  *
- * Contract (Task #6 v2 — step 2):
+ * Contract (Task #6 v2 — step 2; refined by Task #11):
  *
- *  1. Every article file under client/src/data/blog-content/<lang>/*.ts MUST
- *     contain at least one anchor pointing to the locale-correct calculator
- *     hash, i.e. /<lang>#calculadora.
+ *  1. Articles whose mid-article CTA pattern resolves to `pricing_quote`
+ *     (the calc_savings variant) MUST contain at least one anchor pointing
+ *     to the locale-correct calculator hash, i.e. /<lang>#calculadora.
+ *     Articles assigned to any of the other four approved mid-CTA variants
+ *     route to /servicios, /agendar or /contacto instead and are NOT
+ *     required to carry a calculator anchor (Task #11 normalised mid-CTAs
+ *     to one of five approved phrasings, only one of which is the calc).
  *
  *  2. CTAs must NEVER point to a different language hash. An EN article
  *     pointing to /es#calculadora is a critical bug because it sends the
@@ -223,7 +227,14 @@ function checkArticle(lang, slug, file) {
 
   const calcRx = new RegExp(`href=\"/${lang}${CALC_HASH}\"`, "g");
   const calcMatches = src.match(calcRx) || [];
-  if (calcMatches.length === 0) {
+  // Task #11: only articles whose mid-CTA variant is `calc_savings`
+  // (pattern `pricing_quote`) are required to carry a calculator anchor.
+  // The other four approved variants route to /servicios, /agendar or
+  // /contacto and intentionally do not link to the calculator hash.
+  const { routes: routesForCalcGate } = getContract();
+  const targetForCalcGate = getTarget(routesForCalcGate, slug);
+  const calcAnchorRequired = targetForCalcGate.pattern === "pricing_quote";
+  if (calcAnchorRequired && calcMatches.length === 0) {
     criticals.push({
       lang,
       slug,

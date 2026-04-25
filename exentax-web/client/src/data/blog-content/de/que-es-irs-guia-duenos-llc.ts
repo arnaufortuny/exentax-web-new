@@ -105,7 +105,7 @@ Sie rufen nicht beim IRS an, Sie füllen keine Formulare aus, Sie machen sich ke
 Vereinbaren Sie eine kostenlose Beratung und wir erklären Ihnen genau, wie Ihre Beziehung zum IRS als LLC-Eigentümer funktioniert. Spoiler: Es ist viel einfacher, als es scheint.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax sprechen wir täglich mit der IRS für DACH-Kunden. Buchen Sie Ihre kostenlose Beratung: wir sagen Ihnen, welche Formulare Sie betreffen, welche Sie ignorieren können und wann tatsächlich Eile geboten ist (selten).

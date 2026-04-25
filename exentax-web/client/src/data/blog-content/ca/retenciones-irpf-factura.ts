@@ -28,7 +28,7 @@ Els errors més comuns: aplicar el 7% sense haver comunicat formalment al pagado
 Les normes detallades de retencions estan al Reglament de l'IRPF (RD 439/2007, accessible al <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). L'AEAT ofereix simulador de retencions a la seva <a href="https://sede.agenciatributaria.gob.es/">seu electrònica</a>; convé revisar-lo cada inici d'any.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.

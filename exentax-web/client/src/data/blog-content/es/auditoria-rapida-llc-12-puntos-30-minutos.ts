@@ -101,7 +101,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Puntos clave

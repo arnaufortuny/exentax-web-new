@@ -52,7 +52,7 @@ Voir <a href="/fr/blog/risques-fiscaux-dune-mauvaise-structuration-international
 Une LLC ne s'impose pas "d'une seule façon": elle s'impose selon ce qu'elle fait, où et depuis où elle est contrôlée. La planification sérieuse commence par comprendre votre activité réelle.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Pour poursuivre sur ce fil, <a href="/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto">Pourquoi les freelancers espagnols quittent le statut d'auto-entrepreneur pour une LLC</a> complète les nuances que nous n'avons qu'effleurées ici.

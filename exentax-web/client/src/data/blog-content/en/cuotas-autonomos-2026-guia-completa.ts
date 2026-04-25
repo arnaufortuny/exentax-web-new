@@ -60,7 +60,7 @@ The tax advantage is equally meaningful: no corporate double taxation and, as a 
 **Case 3. High-income autónomo.** You bill €100,000, expenses €15,000. Net income €85,000 (€7,083/month, tier 15). Monthly quota €604.80, annual quota €7,257.60 (7.3%). Estimated IRPF: €35,000. Total €42,257.60 (42.3%). Net €57,742.40. With an LLC: quota €0, IRPF €35,000, total €35,000 (35%), net €65,000. **Annual saving: €7,257.60.**
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Case 4. Zero-income autónomo (worst case).** Revenue €0, net income €0. You're assigned tier 1 with a minimum quota of €200/month, €2,400/year you pay even without a single euro coming in. IRPF €0; net loss: −€2,400. With an LLC, SS quota is €0; you keep the LLC for roughly €1,500/year; net loss: −€1,500. **The LLC loses €900 less per year even without generating activity.**

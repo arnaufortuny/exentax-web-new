@@ -86,7 +86,7 @@ La **regularización voluntaria** antes del requerimiento (art. 305.4 CP) excluy
 Los riesgos fiscales no son hipotéticos: son la realidad de las inspecciones que vemos cada mes. La buena noticia es que todos estos riesgos son **evitables** con planificación seria y honesta. La optimización fiscal legal existe y es muy potente; la opacidad como estrategia es un atajo que termina siempre en el mismo sitio.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ¿Quieres una revisión profesional de tu estructura para detectar y corregir riesgos antes de que sea la AEAT quien los detecte? Agenda tu asesoría gratuita.

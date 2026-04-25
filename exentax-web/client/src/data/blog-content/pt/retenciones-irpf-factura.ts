@@ -28,7 +28,7 @@ Os erros mais comuns: aplicar o 7% sem ter comunicado formalmente ao pagador a s
 As regras detalhadas de retenção estão no Regulamento do IRPF (RD 439/2007, acessível no <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). A agência tributária oferece simulador de retenções na sua <a href="https://sede.agenciatributaria.gob.es/">sede eletrónica</a>; convém revê-lo no início de cada ano.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.

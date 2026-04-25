@@ -103,7 +103,7 @@ Pensa en la protecció patrimonial com una assegurança: esperes no necessitar-l
 El cost de mantenir una LLC és una fracció del que perdries si un problema legal afectés els teus béns personals. Un judici pot costar desenes de milers d'euros. La teva LLC costa una fracció d'això a l'any. Els comptes són fàcils.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax combinem LLC i dret espanyol per blindar el patrimoni dels nostres clients. Reserva la teva assessoria gratuïta i mirem què necessita realment el teu cas personal.

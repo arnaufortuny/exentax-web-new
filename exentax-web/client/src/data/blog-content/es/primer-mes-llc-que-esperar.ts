@@ -86,7 +86,7 @@ Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/
 
 Si quieres saber cómo sería tu primer mes con una LLC, agenda una asesoría gratuita. Te explicamos el proceso completo, hacemos los números con tu facturación real y resolvemos todas tus dudas. En 30 minutos tendrás claro si la LLC es para ti.
 
-Acabas de constituir tu LLC o estás a punto de hacerlo? Habla con nuestro equipo y te guiamos paso a paso durante tu primer mes.
+Acabas de constituir tu LLC o estás a punto de hacerlo? Cuenta con nosotros para guiarte paso a paso durante tu primer mes.
 ## Referencias legales y normativas
 
 Este artículo se apoya en normativa vigentes actualmente. Citamos las fuentes principales para que puedas verificarlo:
@@ -131,7 +131,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/servicios">Empieza hoy 100% remoto</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Puntos clave

@@ -28,7 +28,7 @@ Die häufigsten Fehler: 7% anwenden, ohne dem Zahler den Status als neuer Autono
 Die detaillierten Quellensteuerregeln stehen in der spanischen IRPF-Verordnung (Königliches Dekret 439/2007, abrufbar im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). Die Steuerbehörde bietet einen Quellensteuer-Simulator auf ihrem <a href="https://sede.agenciatributaria.gob.es/">Online-Portal</a>; Anfang jedes Jahres prüfen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.

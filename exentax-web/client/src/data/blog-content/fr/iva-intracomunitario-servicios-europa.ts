@@ -28,7 +28,7 @@ Pour les freelances dont les clients sont majoritairement américains ou hors UE
 Le cadre juridique se trouve dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Loi 37/1992 sur la TVA</a> et la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32006L0112">Directive 2006/112/CE</a>. Pour valider VIES en temps réel, utilisez le <a href="https://ec.europa.eu/taxation_customs/vies/">portail de la Commission européenne</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Mettez des chiffres sur votre cas.** Le <a href="/fr#calculadora">simulateur fiscal Exentax</a> compare votre charge fiscale actuelle à celle que vous paieriez en exploitant une LLC américaine correctement déclarée dans votre pays de résidence.
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous étudions votre cas avec des données réelles et vous disons si changer de structure est rentable. <a href="/fr/reserver">reserve une consultation gratuite</a> de 30 minutes et vous repartez avec un plan clair.

@@ -68,7 +68,7 @@ Aterrant l'anterior en decisions concretes que prenem cada setmana amb clients d
 - **Residència fiscal del titular com a variable mestra**. La residència no s'escull, es determina per fets (dies de presència, centre d'interessos econòmics, nucli familiar). Pretendre amagar la residència real a l'empara de l'asimetria FATCA-CRS és, a més d'un error tècnic, una infracció tipificada a la majoria de jurisdiccions europees i llatinoamericanes amb sancions severes.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa números al teu cas.** Si vols veure com encaixa la teva situació amb aquesta lògica, obre la <a href="/ca#calculadora">calculadora Exentax</a> i compara-la amb la teva càrrega fiscal actual abans d'avançar.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Errors típics que veiem cada setmana

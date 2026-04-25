@@ -28,7 +28,7 @@ If your activity is 100% digital, international and with mostly non-Spanish clie
 Detailed regulation is in Spain's IRPF Regulation (RD 439/2007) and in the annual modulos Order published every November in the <a href="https://www.boe.es/">BOE</a>. To verify your IAE epigraph, consult the <a href="https://sede.agenciatributaria.gob.es/">Tax Agency portal</a> before deciding.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.

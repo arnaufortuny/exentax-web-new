@@ -28,7 +28,7 @@ For freelancers whose clients are mostly US-based or outside the EU, a <a href="
 The legal framework is set out in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Spain's VAT Law 37/1992</a> and <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112">Directive 2006/112/EC</a>. For real-time VIES validation, use the <a href="https://ec.europa.eu/taxation_customs/vies/">European Commission portal</a>.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.

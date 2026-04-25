@@ -216,7 +216,7 @@ Separar els teus diners personals dels diners de la teva LLC no és un detall ad
 La bona notícia és que implementar aquesta separació és senzill si ho fas des del principi. Un compte bancari dedicat, un sistema de comptabilitat bàsic i disciplina en les teves distribucions és tot el que necessites.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax ens encarreguem que la teva LLC estigui correctament estructurada des del dia u. incloent-hi l'obertura del teu compte bancari, la configuració de la teva comptabilitat i la presentació de tots els formularis davant l'IRS. Si vols assegurar-te que la teva separació financera és correcta, pots agendar una assessoria gratuïta on revisem la teva situació sense compromís.

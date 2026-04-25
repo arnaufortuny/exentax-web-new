@@ -86,7 +86,7 @@ The typical path:
 Tax risks are not hypothetical: they're the reality of audits we see monthly. The good news: all these risks are **avoidable** with serious and honest planning. Legal tax optimization exists and is very powerful; opacity as strategy is a shortcut that always ends in the same place.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Want a professional review of your structure to detect and correct risks before the AEAT does? Book your free consultation.

@@ -28,7 +28,7 @@ Praktische Zusammenfassung: niedrige einmalige Einkünfte (unter 3.000 Euro pro 
 Die Gewohnheitsmäßigkeitskriterien sind in Urteilen des <a href="https://www.poderjudicial.es/">Obersten Gerichts</a> und in der Lehre der spanischen <a href="https://www.seg-social.es/">Sozialversicherungskasse</a> konsolidiert. Bevor Sie ohne RETA operieren, modellieren Sie Ihre Situation mit seriöser Beratung; falsche Abkürzungen kommen am Ende teuer.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Daten und sagen Ihnen, ob sich ein Strukturwechsel lohnt. <a href="/de/buchen">buche eine kostenlose Beratung</a> von 30 Minuten, und Sie gehen mit einem klaren Plan.

@@ -193,7 +193,7 @@ Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwoh
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Hinweise nach Anbieter

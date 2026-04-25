@@ -147,7 +147,7 @@ Andorra ist für deutschsprachige Unternehmer eine der attraktivsten Optionen in
 Der Schlüssel liegt im realen Umzug: Sie brauchen einen Mietvertrag oder Kaufvertrag in Andorra, eine Krankenversicherung beim CASS, eine Aufenthaltsgenehmigung (passiv oder aktiv) und eine echte Verlagerung des Lebensmittelpunkts. Das deutsche, österreichische oder schweizerische Finanzamt prüft Wegzüge nach Andorra erfahrungsgemäß genau, weil das Land lange als Steueroase galt und auch heute auf der Beobachtungsliste bleibt.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Für Online-Unternehmer mit einem Jahresgewinn ab etwa 150.000 EUR ist Andorra ab dem zweiten oder dritten Jahr meist deutlich profitabler als jede DACH-Konstruktion. Wer nicht umziehen will, sollte gar nicht erst über Andorra nachdenken: Eine reine Briefkastenstruktur ohne Substanz wird zuverlässig erkannt und führt zu Steuernachzahlungen plus Strafzuschlägen im Heimatland.

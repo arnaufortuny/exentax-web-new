@@ -106,7 +106,7 @@ Die Wahl zwischen **Verkauf** und **Schließung** einer LLC hat aktuell untersch
 **Kann eine inaktive SMLLC einfach „liegen gelassen" werden?** Nein. Ohne Annual Report und Registered Agent endet sie *Forfeited*, aber IRS-Pflichten (5472 bei Bewegungen) bleiben mit kaskadierenden Sanktionen bestehen.
 
 <!-- exentax:calc-cta-v1 -->
-> **Rechnen Sie Ihren Fall durch.** Der <a href="/de#calculadora">Exentax-Steuerrechner</a> vergleicht Ihre aktuelle Steuerlast mit dem, was Sie zahlen würden, wenn Sie eine US-LLC korrekt in Ihrem Wohnsitzland deklarieren.
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Wie wird eine LLC für den Verkauf bewertet?** Im Digitalgeschäft typische Multiplikatoren **2-4× jährliches SDE** oder **3-5× EBITDA** je Nische. Übertragung verlangt Kontoumzug (Mercury erneuert KYC) und Gateway-Prüfung (Stripe).

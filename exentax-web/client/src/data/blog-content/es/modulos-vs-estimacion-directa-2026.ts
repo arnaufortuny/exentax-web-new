@@ -30,7 +30,7 @@ La regulación detallada está en el Reglamento del IRPF (RD 439/2007) y en la O
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>.

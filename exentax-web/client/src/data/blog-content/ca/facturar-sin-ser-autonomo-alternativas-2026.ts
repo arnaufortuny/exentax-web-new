@@ -28,7 +28,7 @@ Resum pràctic: ingressos puntuals baixos (menys de 3.000 euros any en total) i 
 Els criteris d'habitualitat estan consolidats en sentències del <a href="https://www.poderjudicial.es/">Tribunal Suprem</a> i en la doctrina de la <a href="https://www.seg-social.es/">TGSS</a>. Abans d'operar sense RETA, modela la teva situació amb assessoria seriosa; les falses dreceres acaben sent cares.
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa canviar d'estructura. <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts i surts amb un pla clar.

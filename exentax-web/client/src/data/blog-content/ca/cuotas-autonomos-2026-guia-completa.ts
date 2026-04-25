@@ -60,7 +60,7 @@ L'avantatge fiscal és igualment notable: sense doble imposició societària i, 
 **Cas 3. Autònom alt ingrés.** Factures 100.000 €, despeses 15.000 €. Rendiment net 85.000 € (7.083 €/mes, tram 15). Quota mensual 604,80 €, anual 7.257,60 € (7,3%). IRPF estimat: 35.000 €. Total 42.257,60 € (42,3%). Net 57.742,40 €. Amb LLC: quota 0 €, IRPF 35.000 €, total 35.000 € (35%), net 65.000 €. **Estalvi anual: 7.257,60 €.**
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Cas 4. Autònom sense ingressos (pitjor cas).** Ingressos 0 €, rendiment 0 €. T'assignen el tram 1 amb quota mínima de 200 €/mes, 2.400 €/any que pagues encara que no hagis ingressat un euro. IRPF 0 €; pèrdua neta: −2.400 €. Amb LLC, quota SS 0 €; mantenir la LLC ~1.500 €/any; pèrdua neta: −1.500 €. **Amb la LLC perds 900 € menys l'any, fins i tot sense generar activitat.**

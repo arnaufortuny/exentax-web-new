@@ -28,7 +28,7 @@ Se a sua atividade é 100% digital, internacional e com clientes maioritariament
 A regulamentação detalhada está no Regulamento do IRPF (RD 439/2007) e na Ordem anual de módulos publicada todos os anos em novembro no <a href="https://www.boe.es/">BOE</a>. Para verificar o seu epígrafe IAE consulte o <a href="https://sede.agenciatributaria.gob.es/">portal da agência</a> antes de decidir.
 
 <!-- exentax:calc-cta-v1 -->
-> **Coloque números no seu caso.** A <a href="/pt#calculadora">calculadora fiscal Exentax</a> compara a sua carga tributária atual com o que pagaria operando uma LLC norte-americana corretamente declarada no seu país de residência.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Na Exentax analisamos o teu caso com dados reais e dizemos-te se compensa mudar de estrutura. <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos e sais com um plano claro.

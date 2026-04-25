@@ -157,7 +157,7 @@ The word "offshore" carries 1990s connotations that no longer apply. Today a com
 **When does a classic offshore jurisdiction actually pay off?** Specific cases: intermediate holding for an international group with significant cross-border flows, IP holding with consolidated royalties, or real residence in the jurisdiction. For solo digital freelance or ecommerce, almost never.
 
 <!-- exentax:calc-cta-v1 -->
-> **Put numbers on your case.** The <a href="/en#calculadora">Exentax tax calculator</a> compares your current tax burden with what you would pay running a US LLC properly declared in your country of residence.
+> <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we model offshore vs onshore options with your real numbers, show you the total cost of each and rule out those that in your case only add risk without contributing.

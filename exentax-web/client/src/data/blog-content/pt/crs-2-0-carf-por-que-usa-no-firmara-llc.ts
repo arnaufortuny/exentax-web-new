@@ -68,7 +68,7 @@ Aterrando o que vimos em decisões concretas que tomamos com clientes da Exentax
 - **Residência fiscal do titular como variável-mestra**. A residência não se escolhe, determina-se por factos (dias de presença, centro de interesses económicos, núcleo familiar). Pretender ocultar a residência real ao abrigo da assimetria FATCA-CRS é, além de um erro técnico, uma infração tipificada na maioria das jurisdições europeias e latino-americanas, com sanções severas.
 
 <!-- exentax:calc-cta-v1 -->
-> **Ponha números no seu caso.** Se quiser ver como a sua situação encaixa nesta lógica, abra a <a href="/pt#calculadora">calculadora Exentax</a> e compare com a sua carga fiscal atual antes de avançar.
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## Erros típicos que vemos todas as semanas

@@ -121,7 +121,7 @@ La aplicación concreta de cualquiera de estas normas a tu caso depende de tu re
 La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
 
 <!-- exentax:calc-cta-v1 -->
-> **Pon números a tu caso.** La <a href="/es#calculadora">calculadora fiscal Exentax</a> compara tu carga fiscal actual con la que pagarías operando una LLC americana correctamente declarada en tu país de residencia.
+> <a href="/es/servicios">Empieza hoy 100% remoto</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Puntos clave

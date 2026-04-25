@@ -152,7 +152,7 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 <!-- exentax:calc-cta-v1 -->
-> **Posa xifres al teu cas.** La <a href="/ca#calculadora">calculadora fiscal Exentax</a> compara la teva càrrega fiscal actual amb el que pagaries operant una LLC nord-americana correctament declarada al teu país de residència.
+> <a href="/ca/serveis">Comença avui, 100% remot</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes per proveïdor
