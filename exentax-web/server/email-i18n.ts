@@ -106,6 +106,19 @@ interface EmailTranslations {
     closing: string;
     unsubNote: string;
   };
+  newsletterWelcome: {
+    subject: string;
+    heading: string;
+    intro: string;
+    aboutTitle: string;
+    aboutItems: string[];
+    cadenceNote: string;
+    ctaIntro: string;
+    ctaButton: string;
+    ctaDesc: string;
+    closing: string;
+    unsubNote: string;
+  };
   dateFormatter: (dateStr: string) => string;
   currencyFormatter: (amount: number) => string;
 }
@@ -241,6 +254,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Quedamos atentos.",
       unsubNote: "Has recibido este email porque contactaste con exentax.com.",
     },
+    newsletterWelcome: {
+      subject: "Bienvenido a Exentax — empezamos contigo",
+      heading: "Hola,",
+      intro: "Gracias por suscribirte. A partir de ahora recibirás nuestros análisis sobre cómo estructurar bien una actividad internacional, sin teoría innecesaria y sin promesas vacías.",
+      aboutTitle: "Qué te vamos a enviar",
+      aboutItems: [
+        "Cambios reales en regulación internacional (CRS, FATCA, DAC) y qué implican para tu LLC",
+        "Cómo organizar la operativa para cobrar y mover dinero sin fricción",
+        "Casos prácticos de no residentes que ya operan con estructura en EE.UU.",
+        "Errores comunes que conviene evitar desde el principio",
+      ],
+      cadenceNote: "Solo te escribiremos cuando tengamos algo útil que aportar. Sin saturar la bandeja de entrada.",
+      ctaIntro: "Si quieres ver cuanto antes cómo encajaría todo en tu caso:",
+      ctaButton: "Reservar asesoría",
+      ctaDesc: "Lo revisamos contigo y te decimos directamente qué tiene sentido y qué no.",
+      closing: "Bienvenido a bordo,",
+      unsubNote: "Has recibido este email porque te suscribiste a nuestro boletín en exentax.com.",
+    },
     dateFormatter: formatDateEs,
     currencyFormatter: (amount) => new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -374,6 +405,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "If you'd prefer to discuss it before rebooking, you can also reach us directly on WhatsApp:",
       closing: "We'll be here.",
       unsubNote: "You received this email because you contacted exentax.com.",
+    },
+    newsletterWelcome: {
+      subject: "Welcome to Exentax — let's get started",
+      heading: "Hi,",
+      intro: "Thanks for subscribing. From now on you'll receive our analysis on how to properly structure an international activity, with no unnecessary theory and no empty promises.",
+      aboutTitle: "What we'll be sending",
+      aboutItems: [
+        "Real changes in international regulation (CRS, FATCA, DAC) and what they mean for your LLC",
+        "How to set up operations to collect and move money without friction",
+        "Practical cases of non-residents already operating with a US structure",
+        "Common mistakes worth avoiding from the start",
+      ],
+      cadenceNote: "We only write when we have something genuinely useful to share. No inbox flooding.",
+      ctaIntro: "If you'd rather see how it would all fit your case sooner:",
+      ctaButton: "Book a consultation",
+      ctaDesc: "We'll review it with you and tell you straight what makes sense and what doesn't.",
+      closing: "Welcome on board,",
+      unsubNote: "You received this email because you subscribed to our newsletter at exentax.com.",
     },
     dateFormatter: formatDateEn,
     currencyFormatter: (amount) => new Intl.NumberFormat("en-US", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -509,6 +558,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Nous restons à votre disposition.",
       unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
     },
+    newsletterWelcome: {
+      subject: "Bienvenue chez Exentax — on démarre avec vous",
+      heading: "Bonjour,",
+      intro: "Merci pour votre inscription. À partir de maintenant, vous recevrez nos analyses sur la manière de bien structurer une activité internationale, sans théorie inutile et sans promesses vides.",
+      aboutTitle: "Ce que nous allons vous envoyer",
+      aboutItems: [
+        "Changements réels de la réglementation internationale (CRS, FATCA, DAC) et leurs implications pour votre LLC",
+        "Comment préparer l'opérationnel pour encaisser et déplacer des fonds sans friction",
+        "Cas pratiques de non-résidents qui opèrent déjà avec une structure aux États-Unis",
+        "Erreurs courantes qu'il vaut mieux éviter dès le départ",
+      ],
+      cadenceNote: "Nous n'écrivons que lorsque nous avons quelque chose de réellement utile à partager. Pas de boîte de réception saturée.",
+      ctaIntro: "Si vous préférez voir rapidement comment cela s'appliquerait à votre cas :",
+      ctaButton: "Réserver une consultation",
+      ctaDesc: "Nous le revoyons avec vous et vous disons clairement ce qui a du sens et ce qui n'en a pas.",
+      closing: "Bienvenue à bord,",
+      unsubNote: "Vous avez reçu cet email car vous vous êtes inscrit à notre newsletter sur exentax.com.",
+    },
     dateFormatter: formatDateFr,
     currencyFormatter: (amount) => new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -642,6 +709,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "Wenn Sie es lieber vorher besprechen möchten, bevor Sie erneut buchen, können Sie uns auch direkt über WhatsApp erreichen:",
       closing: "Wir sind für Sie da.",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
+    },
+    newsletterWelcome: {
+      subject: "Willkommen bei Exentax — wir starten mit Ihnen",
+      heading: "Hallo,",
+      intro: "Vielen Dank für Ihre Anmeldung. Ab sofort erhalten Sie unsere Analysen dazu, wie sich eine internationale Tätigkeit sauber strukturieren lässt — ohne überflüssige Theorie und ohne leere Versprechungen.",
+      aboutTitle: "Was Sie von uns bekommen",
+      aboutItems: [
+        "Reale Änderungen der internationalen Regulierung (CRS, FATCA, DAC) und ihre Auswirkungen auf Ihre LLC",
+        "Wie der Betrieb für reibungslosen Zahlungseingang und Geldtransfer vorbereitet wird",
+        "Praxisfälle von Nichtansässigen, die bereits mit einer US-Struktur arbeiten",
+        "Häufige Fehler, die sich von Anfang an vermeiden lassen",
+      ],
+      cadenceNote: "Wir schreiben Ihnen nur, wenn wir wirklich etwas Nützliches beizutragen haben. Kein überfülltes Postfach.",
+      ctaIntro: "Wenn Sie zügig sehen möchten, wie das auf Ihren Fall passt:",
+      ctaButton: "Beratung buchen",
+      ctaDesc: "Wir besprechen es mit Ihnen und sagen Ihnen klar, was Sinn ergibt und was nicht.",
+      closing: "Willkommen an Bord,",
+      unsubNote: "Sie haben diese E-Mail erhalten, weil Sie unseren Newsletter auf exentax.com abonniert haben.",
     },
     dateFormatter: formatDateDe,
     currencyFormatter: (amount) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -777,6 +862,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Ficamos atentos.",
       unsubNote: "Recebeu este email porque contactou exentax.com.",
     },
+    newsletterWelcome: {
+      subject: "Bem-vindo à Exentax — começamos consigo",
+      heading: "Olá,",
+      intro: "Obrigado por se subscrever. A partir de agora vai receber as nossas análises sobre como estruturar bem uma atividade internacional, sem teoria desnecessária e sem promessas vazias.",
+      aboutTitle: "O que lhe vamos enviar",
+      aboutItems: [
+        "Alterações reais na regulação internacional (CRS, FATCA, DAC) e o que implicam para a sua LLC",
+        "Como preparar a operação para receber e mover dinheiro sem fricção",
+        "Casos práticos de não residentes que já operam com estrutura nos EUA",
+        "Erros comuns que convém evitar desde o início",
+      ],
+      cadenceNote: "Só lhe escrevemos quando tivermos algo realmente útil para partilhar. Sem encher a caixa de entrada.",
+      ctaIntro: "Se quiser ver quanto antes como tudo encaixaria no seu caso:",
+      ctaButton: "Marcar consultoria",
+      ctaDesc: "Revemos consigo e dizemos-lhe diretamente o que faz sentido e o que não.",
+      closing: "Bem-vindo a bordo,",
+      unsubNote: "Recebeu este email porque se subscreveu na nossa newsletter em exentax.com.",
+    },
     dateFormatter: formatDatePt,
     currencyFormatter: (amount) => new Intl.NumberFormat("pt-PT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
   },
@@ -910,6 +1013,24 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "Si prefereixes comentar-ho abans de tornar a reservar, també pots escriure'ns directament per WhatsApp:",
       closing: "Quedem atents.",
       unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
+    },
+    newsletterWelcome: {
+      subject: "Benvingut a Exentax — comencem amb tu",
+      heading: "Hola,",
+      intro: "Gràcies per subscriure't. A partir d'ara rebràs les nostres anàlisis sobre com estructurar bé una activitat internacional, sense teoria innecessària ni promeses buides.",
+      aboutTitle: "Què t'enviarem",
+      aboutItems: [
+        "Canvis reals en regulació internacional (CRS, FATCA, DAC) i què impliquen per a la teva LLC",
+        "Com deixar l'operativa preparada per cobrar i moure diners sense fricció",
+        "Casos pràctics de no residents que ja operen amb estructura als EUA",
+        "Errors comuns que convé evitar des del principi",
+      ],
+      cadenceNote: "Només t'escriurem quan tinguem alguna cosa realment útil a aportar. Sense saturar la safata d'entrada.",
+      ctaIntro: "Si vols veure ben aviat com encaixaria tot en el teu cas:",
+      ctaButton: "Reservar assessoria",
+      ctaDesc: "Ho revisem amb tu i et diem directament què té sentit i què no.",
+      closing: "Benvingut a bord,",
+      unsubNote: "Has rebut aquest email perquè t'has subscrit al nostre butlletí a exentax.com.",
     },
     dateFormatter: formatDateCa,
     currencyFormatter: (amount) => new Intl.NumberFormat("ca-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),

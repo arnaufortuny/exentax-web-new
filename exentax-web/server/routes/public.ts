@@ -16,7 +16,7 @@ import {
   SlotConflictError,
 } from "../storage";
 import { encryptField } from "../field-encryption";
-import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail } from "../email";
+import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail } from "../email";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -955,6 +955,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const normalizedEmail = email.trim().toLowerCase();
     await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
+    sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
+      .catch((err) => logger.warn(`Newsletter welcome send error: ${err instanceof Error ? err.message : String(err)}`, "email"));
     getCachedPrivacyVersion().then(async (privacyVersion) => {
       const consentId = await logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });
       notifyConsent({ consentId, formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });

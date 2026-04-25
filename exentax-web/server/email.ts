@@ -736,6 +736,65 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
   }
 }
 
+/**
+ * Newsletter welcome email — sent after a successful POST /api/newsletter/subscribe.
+ * No prices, no urgency tokens; CTA points to the localized booking page (the
+ * approved no-price CTA shared across the rest of the transactional set).
+ *
+ * The fire-and-forget caller is responsible for deciding whether to await
+ * the result (we typically do not, to keep the subscribe response fast).
+ */
+export interface NewsletterWelcomeEmailData {
+  email: string;
+  language: string | null;
+}
+export async function sendNewsletterWelcomeEmail(data: NewsletterWelcomeEmailData) {
+  const lang = resolveEmailLang(data.language);
+  const t = getEmailTranslations(lang);
+  const nw = t.newsletterWelcome;
+  const gmail = getGmailClient();
+
+  const clientBody = `
+    ${heading(nw.heading)}
+
+    ${bodyText(nw.intro)}
+
+    ${divider()}
+
+    ${greenPanel(nw.aboutTitle, bulletList(nw.aboutItems))}
+
+    ${bodyText(nw.cadenceNote)}
+
+    ${divider()}
+
+    ${bodyText(nw.ctaIntro)}
+
+    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, nw.ctaButton)}
+
+    ${bodyText(nw.ctaDesc)}
+
+    ${brandSignature(lang, nw.closing)}
+    ${unsubNote(nw.unsubNote)}
+  `;
+
+  const subject = nw.subject;
+  const html = emailHtml(clientBody, subject, lang);
+
+  if (gmail) {
+    try {
+      await sendEmail(data.email, subject, html, REPLY_TO_EMAIL);
+      logger.info(`Newsletter welcome sent → ${maskEmail(data.email)}`, "email");
+      logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "enviado", clientLanguage: lang });
+    } catch (err) {
+      logger.error("Newsletter welcome send failed:", "email", err);
+      logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "fallido", error: String(err) });
+    }
+  } else {
+    logger.debug("NEWSLETTER WELCOME (no Gmail): " + JSON.stringify({ email: data.email, lang }), "email");
+    logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "fallido", error: "Gmail not configured", clientLanguage: lang });
+  }
+}
+
 export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
