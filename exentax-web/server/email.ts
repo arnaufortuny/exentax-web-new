@@ -37,7 +37,7 @@ const SENDER_EMAIL = CONTACT_EMAIL;
  *   maskEmail("alice.long@example.com") → "ali***@e***.com"
  *   maskEmail("a@b.co")                 → "a***@b***.co"
  */
-function maskEmail(email: string | null | undefined): string {
+export function maskEmail(email: string | null | undefined): string {
   if (!email) return "(no-email)";
   const at = email.indexOf("@");
   if (at < 0) return "(invalid-email)";

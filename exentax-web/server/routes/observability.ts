@@ -15,6 +15,7 @@ import { snapshot, renderPrometheus, setEmailRetryQueueSize, incClientError } fr
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
 import { getDiscordQueueSize } from "../discord";
+import { checkCsrfOrigin } from "../route-helpers";
 
 interface ReadinessResult {
   status: "ready" | "degraded";
@@ -157,6 +158,16 @@ export function registerObservabilityRoutes(
   // the browser; this endpoint persists nothing and just emits a structured
   // log line with the correlationId already added by middleware.
   app.post("/api/client-errors", (req, res) => {
+    // Same-origin check. The global CSRF middleware lives in `routes.ts`
+    // which is registered AFTER this module in `server/index.ts`, so the
+    // outer middleware never fires for /api/client-errors. We re-apply
+    // the same `checkCsrfOrigin` helper here to close the gap.
+    if (!checkCsrfOrigin(req)) {
+      if (process.env.NODE_ENV !== "production") {
+        logger.warn(`[csrf] /api/client-errors blocked: origin="${req.headers.origin}" referer="${req.headers.referer}"`, "auth");
+      }
+      return res.status(403).json({ ok: false, code: "FORBIDDEN" });
+    }
     const ip = ipFromReq(req);
     if (!clientErrAllowed(ip)) {
       // Match the global limiter's contract: include `Retry-After` so the

@@ -938,7 +938,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
   }));
 
   const newsletterSubscribeSchema = z.object({
-    email: z.string().email().max(255),
+    email: z.string().email("zodInvalidEmail").max(254, "zodEmailTooLong"),
     source: z.string().max(50).optional(),
     privacyAccepted: z.boolean(),
     marketingAccepted: z.boolean().optional().default(false),

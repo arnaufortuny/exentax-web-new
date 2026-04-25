@@ -1,4 +1,4 @@
-import { sendReminderEmail } from "./email";
+import { sendReminderEmail, maskEmail } from "./email";
 import { logger } from "./logger";
 import { AGENDA_STATUSES, isCancelledStatus } from "./server-constants";
 import { madridWallTimeToUtcMs } from "../shared/madrid-time";
@@ -64,13 +64,13 @@ export function scheduleReminderEmail(data: {
   const delay = reminderMs - Date.now();
 
   if (delay <= 0) {
-    logger.info(`Meeting in less than 3h — skipping reminder for ${data.clientEmail}`, "reminder");
+    logger.info(`Meeting in less than 3h — skipping reminder for ${maskEmail(data.clientEmail)}`, "reminder");
     return;
   }
 
   const MAX_TIMEOUT = 2_147_483_647;
   if (delay > MAX_TIMEOUT) {
-    logger.info(`Delay too large (${Math.round(delay / 86_400_000)}d) — will be picked up by cron checker for ${data.clientEmail}`, "reminder");
+    logger.info(`Delay too large (${Math.round(delay / 86_400_000)}d) — will be picked up by cron checker for ${maskEmail(data.clientEmail)}`, "reminder");
     return;
   }
 
@@ -80,7 +80,7 @@ export function scheduleReminderEmail(data: {
   }
 
   const reminderAt = new Date(reminderMs).toISOString();
-  logger.info(`Scheduled for ${reminderAt} → ${data.clientEmail}`, "reminder");
+  logger.info(`Scheduled for ${reminderAt} → ${maskEmail(data.clientEmail)}`, "reminder");
 
   const timer = setTimeout(async () => {
     activeTimers.delete(timerKey);

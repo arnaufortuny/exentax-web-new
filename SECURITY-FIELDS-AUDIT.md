@@ -3,9 +3,26 @@
 **Date:** 2026-04-25
 **Scope:** Field-level encryption, Helmet CSP, CSRF, rate limiting, input
 sanitisation, log PII hygiene, form Zod validation and 6-locale error coverage.
-**Verdict:** **PASS** — every check item from `task-4.md` is met. Five
-non-blocking observations are recorded in §8 (none are defects; one
-sharpens the production-vs-dev PII boundary called out below).
+**Verdict:** **PASS (with three remediations applied during the audit).**
+The audit surfaced three real defects on the first pass. All three were
+fixed in the same commit and re-verified live; the codebase as it now
+stands meets every check item from `task-4.md`. Defects + fix evidence
+are documented in §0 (executive summary) and §8 (full observations).
+
+---
+
+## 0. Findings & remediations (applied in this audit)
+
+| # | Defect | Severity | Fix | Verified |
+|---|---|---|---|---|
+| F1 | `POST /api/client-errors` was **not** behind the global CSRF middleware. `registerObservabilityRoutes` is mounted in `server/index.ts:477`, **before** `registerRoutes` (which contains the CSRF middleware) at line 493 — so cross-origin POSTs to the error sink were silently accepted. | High (CSRF bypass on a mutating endpoint) | Imported `checkCsrfOrigin` from `../route-helpers` into `server/routes/observability.ts` and applied the same Origin check at the top of the `/api/client-errors` handler (lines 163–173). Returns the same `403 / code: "FORBIDDEN"` semantics as the global middleware (the local handler returns `{ok:false, code:"FORBIDDEN"}` without a translated `error` string, since the error sink has no localised UI surface). | `curl -X POST /api/client-errors` (no Origin) → **403 FORBIDDEN**; with valid Origin → **200 OK**. |
+| F2 | `server/route-helpers.ts` lines 67, 73, 83 logged raw `${data.clientEmail}` at **`info`** level inside `scheduleReminderEmail()`. `MIN_LEVEL=info` in production, so plaintext recipient emails would land in production logs every time a meeting was scheduled. | High (PII leakage in production logs) | Exported `maskEmail` from `server/email.ts` (changed function visibility), imported into `route-helpers.ts`, wrapped all three log lines: `${data.clientEmail}` → `${maskEmail(data.clientEmail)}`. | Future reminder schedule logs render `ali***@e***.com` instead of plaintext. Re-grep on the affected lines shows zero remaining `${data.clientEmail}` references in `logger.*(info\|warn\|error)` calls in `route-helpers.ts`. |
+| F3 | The newsletter Zod schema (`server/routes/public.ts` line 941) used the bare default `z.string().email().max(255)` — no translated error keys. `apiValidationFail` runs `backendLabel(issue.message)` and so was returning the raw English Zod default ("Invalid email", "String must contain at most 255 character(s)") instead of a 6-locale translation. | Medium (i18n gap on a public form) | Replaced with `z.string().email("zodInvalidEmail").max(254, "zodEmailTooLong")` to match the booking and calculator schemas. Also tightened `max(255)` → `max(254)` (RFC 5321 mailbox limit) for consistency. | `curl /api/newsletter/subscribe` with `Accept-Language: es` and `email: "not-an-email"` → `{"details":{"email":"Correo electronico no valido"}}` (was: `"Invalid email"`). |
+
+**Validation after fixes:** `npx tsc -p tsconfig.json --noEmit` → EXIT 0;
+all live curl checks above pass; the workflow `Start application`
+restarts cleanly. Field-encryption test (45/45) and indexnow test (10/10)
+were not affected by the changes and continue to pass.
 
 ---
 
@@ -171,7 +188,7 @@ endpoint is listed below with its CSRF and rate-limit posture.
 | `POST /api/consent`                  | ✅ global | ✅ `consentLimiter` 20 / min — **silent-200 by design** | Zod `cookieConsentSchema.strict()` | Cookie banner cannot be UX-blocked |
 | `POST /api/newsletter/subscribe`     | ✅ global | ✅ `newsletterLimiter` 3 / hr → 429 | Zod `newsletterSubscribeSchema.strict()` | Welcome email is `isNew`-gated |
 | `POST /api/visitor`                  | ✅ global | ✅ `visitorLimiter` 30 / min | Zod `visitorSchema.strict()` | Beacon endpoint, errors swallowed |
-| `POST /api/client-errors`            | ✅ global | ✅ global `/api/` 200 / min limiter | own size guard | Browser error sink |
+| `POST /api/client-errors`            | ✅ local (see §0 F1 — fixed in audit) | ✅ in-handler 30/min/IP + global `/api/` 200/min | Zod `clientErrorSchema` (own size guard) | Browser error sink. CSRF protection added in this audit because the route module is mounted before the global middleware. |
 | `POST /api/discord/interactions`     | ⛔ exempt — see §3.1 | — | Ed25519 signature verify on raw body | Stronger auth than CSRF |
 
 In addition, every `/api/*` request is subject to the **global limiter**
@@ -259,18 +276,25 @@ dev HTTP log would expose it; the prod HTTP log still would not (body
 attach is prod-disabled). Recorded as a future hardening micro-task in
 §8.
 
-**(C) Email module (`server/email.ts`).**
+**(C) Email module (`server/email.ts`) and reminder scheduler (`server/route-helpers.ts`).**
 Every `logger.info` / `logger.warn` / `logger.error` line that mentions a
 recipient routes the address through `maskEmail()` (`alice.long@x.com`
-→ `ali***@x***.com`). 12 such call sites verified by grep (full evidence
-in §9):
+→ `ali***@x***.com`). After the F2 remediation (§0), 12 callsites in
+`email.ts` and 3 callsites in `route-helpers.ts` use `maskEmail()`:
 
 ```text
-maskEmail() in server/email.ts → 12 callsites, all in info/warn/error paths
+maskEmail() in server/email.ts        → 12 callsites in info/warn/error paths
   lines 175, 199, 288, 304, 481, 484, 541, 595, 649, 726, 786, 834
-  (+ 2 jsdoc examples on lines 37–38 and 1 function definition on line 40
+  (+ 2 jsdoc examples on lines 37–38 and 1 function definition on line 43
    = 15 raw occurrences in the file)
+
+maskEmail() in server/route-helpers.ts → 3 callsites added by F2 remediation
+  lines 70, 76, 86 (scheduleReminderEmail() — was previously raw)
 ```
+
+Originally `maskEmail` was a private function inside `email.ts`. The F2
+fix changed it to `export function maskEmail(...)` so the reminder
+scheduler can re-use the same masking logic without code duplication.
 
 The `logEmail()` audit-channel helper (`server/email.ts` line 68) emits
 plaintext `to` via **`logger.debug`** only. `MIN_LEVEL` is `info` in
@@ -382,7 +406,7 @@ explicitly:
 | `POST /api/bookings/book` | `zodInvalidEmail`, `zodEmailTooLong`, `zodPhoneTooLong`, `zodPhoneMinDigits`, `zodNameTooShort`, `zodNameTooLong`, `zodLastNameTooLong`, `zodNotesTooLong`, `zodContextTooLong`, `zodActivityTooLong`, `zodInvalidDateShort`, `zodInvalidDate`, `zodInvalidTimeFormat`, `zodMonthlyProfitRequired`, `zodNoteTooLong`, `zodMustCommitAttendance`, `zodMustAcceptPrivacy` | ✅ all 17 keys present in `BACKEND_I18N` |
 | `POST /api/booking/:id/reschedule` | `zodInvalidDate`, `zodInvalidTime` | ✅ |
 | `POST /api/calculator-leads` | `zodInvalidEmail`, `zodEmailTooLong`, `zodPhoneTooLong`, `zodPhoneMinDigits`, `zodMustAcceptPrivacy` | ✅ |
-| `POST /api/newsletter/subscribe` | `zodInvalidEmail`, `zodMustAcceptPrivacy` | ✅ |
+| `POST /api/newsletter/subscribe` | `zodInvalidEmail`, `zodEmailTooLong`, `zodMustAcceptPrivacy` | ✅ (after F3 remediation — was previously default Zod messages) |
 | `POST /api/consent` | (silent — never user-facing) | n/a |
 | `POST /api/visitor` | (silent — beacon, errors swallowed) | n/a |
 
@@ -495,14 +519,19 @@ all form-error labels surfaced from the backend reach the user via the
 
 ---
 
-**Audit verdict: PASS.** Encryption is correct AES-256-GCM with key
-validation; CSP is the union of every fetched host; CSRF is enforced on
-every mutating endpoint with one signed-request exemption; rate limiting
-trips correctly on the public surface; sanitisation is mounted globally;
-logs do not leak PII (request bodies are response-only and only in dev,
-emails are masked, sensitive keys are auto-redacted); every server-side
-form has a `.strict()` Zod schema and every error key has 6/6 locale
-coverage.
+**Audit verdict: PASS (after three remediations applied during this
+audit — see §0).** Encryption is correct AES-256-GCM with key validation;
+CSP is the union of every fetched host; CSRF is enforced on every
+mutating endpoint with one signed-request exemption (the
+`/api/client-errors` gap was closed in this audit by adding the same
+`checkCsrfOrigin` check inside the handler); rate limiting trips
+correctly on the public surface; sanitisation is mounted globally;
+logs do not leak PII in production (the three plaintext-email
+`logger.info` lines in `route-helpers.ts` were wrapped with `maskEmail`
+in this audit); every server-side form has a `.strict()` Zod schema and
+every error key has 6/6 locale coverage (the newsletter schema was
+tightened in this audit to use `zodInvalidEmail` and `zodEmailTooLong`
+keys instead of the bare Zod defaults).
 
 ---
 
@@ -525,6 +554,24 @@ $ rg "@" /tmp/logs/Start_application_20260425_144508_375.log
 2:44:11 PM [DEBUG] [email] NEWSLETTER WELCOME (no Gmail): {"email":"audit-trip-test@exentax.com","lang":"es"}
 2:44:11 PM [DEBUG] [email] email fallido: newsletter_welcome → audit-trip-test@exentax.com | err=Gmail not configured
                                 # both DEBUG-level — filtered at MIN_LEVEL=info in prod
+
+$ # F1 verification — CSRF on /api/client-errors after remediation
+$ curl -sX POST http://localhost:5000/api/client-errors \
+       -H 'Content-Type: application/json' -d '{"message":"test"}'
+{"ok":false,"code":"FORBIDDEN"}                       # 403 — was 200 before fix
+
+$ curl -sX POST http://localhost:5000/api/client-errors \
+       -H 'Origin: http://localhost:5000' \
+       -H 'Content-Type: application/json' -d '{"message":"audit"}'
+{"ok":true}                                            # 200 — same-origin still works
+
+$ # F3 verification — newsletter zod label is now translated
+$ curl -sX POST http://localhost:5000/api/newsletter/subscribe \
+       -H 'Origin: http://localhost:5000' \
+       -H 'Content-Type: application/json' -H 'Accept-Language: es' \
+       -d '{"email":"not-an-email","privacyAccepted":true}'
+{"ok":false,"error":"Error de validacion","code":"VALIDATION_ERROR",
+ "details":{"email":"Correo electronico no valido"}}   # was "Invalid email" before fix
 
 $ npx tsx exentax-web/scripts/test-field-encryption.ts
 … 45/45 assertions pass …       # EXIT 0
