@@ -122,18 +122,22 @@ Spam-filter checklist applied to every subject:
 ## 5. Wiring — `POST /api/newsletter/subscribe`
 
 ```ts
+// exentax-web/server/storage/marketing.ts — upsertNewsletterSubscriber
+.returning({
+  id: s.newsletterSubscribers.id,
+  email: s.newsletterSubscribers.email,
+  // ...all existing fields preserved...
+  isNew: sql<boolean>`(xmax = 0)`.as("is_new"),
+});
+
 // exentax-web/server/routes/public.ts (line ~959)
 const subscriber = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
 notifyNewsletterSubscribe({ email: normalizedEmail, ... });
 
-// Idempotency guard: upsert preserves the original `subscribedAt` on UPDATE
-// (only `unsubscribedAt`/name/interests are touched in the conflict SET),
-// so a fresh insert returns `subscribedAt = now`, while a duplicate submit
-// returns the original (older) timestamp. We use that to avoid resending
-// the welcome to already-subscribed users.
-const subscribedAtMs = subscriber?.subscribedAt ? new Date(subscriber.subscribedAt).getTime() : 0;
-const isNewSubscription = subscribedAtMs > 0 && (Date.now() - subscribedAtMs) < 30_000;
-if (isNewSubscription) {
+// Idempotency guard: `isNew` comes straight from PostgreSQL's `xmax = 0`
+// system column on the upsert RETURNING — true only for fresh INSERTs,
+// false for ON CONFLICT DO UPDATE rows. Race-free (atomic per row).
+if (subscriber?.isNew) {
   sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
     .catch((err) => logger.warn(`Newsletter welcome send error: ${err.message}`, "email"));
 }
@@ -144,9 +148,10 @@ return apiOk(res, { subscribed: true });
 
 **Properties:**
 - **Fire-and-forget** — does not block the API response. Mirrors the existing `notifyNewsletterSubscribe` pattern.
-- **Idempotent** — duplicate POSTs (page reload, double-click, retry) do **not** trigger a second welcome email; the 30-second freshness window is wide enough to cover any plausible UX retry but tight enough that a re-subscribe weeks later still flows through normally if the upsert resets `subscribedAt`.
+- **Race-free idempotency** — duplicate POSTs (page reload, double-click, browser retry, network retry, two concurrent submits within the same second) do **not** trigger a second welcome email. The signal is PostgreSQL's `xmax` system column which is `0` only on a fresh INSERT and non-zero on `ON CONFLICT DO UPDATE`. This is evaluated atomically per row inside the upsert transaction — there is no observable window during which two concurrent submits could both see `isNew === true`. This replaces the earlier 30-second timestamp-window guard, which had a theoretical race for near-simultaneous submits.
 - **Failures** are logged at WARN level via `logger`, surfaced as `type: "newsletter_welcome"` / `channel: "transactional"` rows in the email log table (status `enviado` / `fallido`).
-- **Edge case** (intentional): a user who unsubscribed long ago and re-subscribes today will not receive a welcome email, because the upsert preserves the original `subscribedAt` (only clears `unsubscribedAt`). This is acceptable — they were a subscriber before and already saw the welcome. Reversing this would require the upsert to also reset `subscribedAt`, which would be a behaviour change in the storage layer beyond the scope of this audit.
+- **Edge case** (intentional): a user who unsubscribed long ago and re-subscribes today does NOT receive a welcome email, because the upsert path is taken (`xmax != 0`) and we treat that as "returning subscriber". This is acceptable — they were a subscriber before and already saw the welcome. Reversing this would require explicit detection of *previously-unsubscribed* state in the storage layer (e.g., comparing `unsubscribedAt` before/after), which is beyond the scope of this audit.
+- **Backward-compatible** — `upsertNewsletterSubscriber()` still returns the row shape the existing callers expect (`unsubscribeToken`, `email`, etc.); the `isNew` field is purely additive. Verified against the e2e test script (`scripts/test-newsletter-e2e.ts`) and the calculator-subscribe call site.
 
 ---
 
@@ -154,7 +159,7 @@ return apiOk(res, { subscribed: true });
 
 | Check | Command | Result |
 |---|---|---|
-| TypeScript — full project typecheck | `npx tsc -p exentax-web/tsconfig.json --noEmit` | ✅ **EXIT 0** — all 6 locales validated against the `EmailTranslations` interface; the new `newsletterWelcome` field is structurally complete in es/en/fr/de/pt/ca |
+| TypeScript — full project typecheck | `npx tsc -p exentax-web/tsconfig.json --noEmit` | ✅ **EXIT 0** — all 6 locales validated against the `EmailTranslations` interface; the new `newsletterWelcome` field is structurally complete in es/en/fr/de/pt/ca; the storage `RETURNING` shape change is also clean |
 | Site/blog validation suite | `npm run blog:validate-all` | ✅ **OK (11/11 steps)** — consistency, content-lint, internal-links, locale-link-leak, cta, data, sources, faq-jsonld, sitemap, sitemap-bcp47, masterpiece-audit |
 | Workflow boot smoke test | `restart_workflow Start application` (×3) | ✅ Clean boot — `[express] listening on port 5000`, `[express] fully initialized`, no compile errors (logs `/tmp/logs/Start_application_*.log`) |
 | Price sweep | `rg -i "precio\|price\|prix\|preis\|preço\|preu\|€\|2\.000\|1\.500" server/email*.ts` | ✅ Zero matches in source content (only 2 hits in a code comment that literally says *"No prices, no urgency tokens"*) |
@@ -174,7 +179,8 @@ return apiOk(res, { subscribed: true });
 |---|---|
 | `exentax-web/server/email-i18n.ts` | Added `newsletterWelcome` field to `EmailTranslations` interface; added 6 locale entries (es/en/fr/de/pt/ca). |
 | `exentax-web/server/email.ts` | Added `NewsletterWelcomeEmailData` interface + `sendNewsletterWelcomeEmail()` function. |
-| `exentax-web/server/routes/public.ts` | Imported `sendNewsletterWelcomeEmail`; fire-and-forget wired into `POST /api/newsletter/subscribe` with timestamp-based idempotency guard against duplicate sends. |
+| `exentax-web/server/routes/public.ts` | Imported `sendNewsletterWelcomeEmail`; fire-and-forget wired into `POST /api/newsletter/subscribe`, gated on the `isNew` flag from the upsert (race-free idempotency). |
+| `exentax-web/server/storage/marketing.ts` | `upsertNewsletterSubscriber` now returns an additional `isNew: boolean` field derived from PostgreSQL's `xmax = 0` system column. All existing fields preserved — backward compatible with existing callers. |
 | `EMAIL-TEMPLATES-AUDIT.md` | This deliverable. |
 
 No edits to `package.json`, no schema migration, no environment variable additions.

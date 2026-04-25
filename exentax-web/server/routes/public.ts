@@ -955,15 +955,12 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const normalizedEmail = email.trim().toLowerCase();
     const subscriber = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
-    // Idempotency guard: upsertNewsletterSubscriber preserves the original
-    // `subscribedAt` on UPDATE (only `unsubscribedAt` / name / interests are
-    // touched in the conflict SET clause). So a fresh insert returns a
-    // `subscribedAt` of "now", while a duplicate submit returns the original
-    // (older) timestamp — we use that to avoid resending the welcome email
-    // to already-subscribed users.
-    const subscribedAtMs = subscriber?.subscribedAt ? new Date(subscriber.subscribedAt).getTime() : 0;
-    const isNewSubscription = subscribedAtMs > 0 && (Date.now() - subscribedAtMs) < 30_000;
-    if (isNewSubscription) {
+    // Idempotency guard: `isNew` comes straight from PostgreSQL's `xmax = 0`
+    // system column on the upsert RETURNING — true only for fresh INSERTs,
+    // false for ON CONFLICT DO UPDATE rows. Race-free (atomic per row), so
+    // duplicate submits / page reloads / retries cannot trigger a second
+    // welcome email even when they arrive concurrently.
+    if (subscriber?.isNew) {
       sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
         .catch((err) => logger.warn(`Newsletter welcome send error: ${err instanceof Error ? err.message : String(err)}`, "email"));
     }

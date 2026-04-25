@@ -77,7 +77,12 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
     const id = generateId("NS");
     const unsubToken = crypto.randomBytes(24).toString("hex");
     const interestsLiteral = interests && interests.length > 0 ? toPgTextArrayLiteral(interests) : null;
-    const [row] = await db.insert(s.newsletterSubscribers).values({
+    // We add `isNew` via PostgreSQL's `xmax` system column: rows produced by
+    // a fresh INSERT have xmax = 0; rows produced by ON CONFLICT DO UPDATE
+    // have a non-zero xmax (the row's previous version). This is the
+    // standard idiomatic insert-vs-update signal in Postgres and is
+    // race-free (it's evaluated atomically per row).
+    const rows = await db.insert(s.newsletterSubscribers).values({
       id,
       email,
       name: name || null,
@@ -99,8 +104,18 @@ export async function upsertNewsletterSubscriber(email: string, name: string, so
           )`,
         } : {}),
       },
-    }).returning();
-    return row;
+    }).returning({
+      id: s.newsletterSubscribers.id,
+      email: s.newsletterSubscribers.email,
+      name: s.newsletterSubscribers.name,
+      source: s.newsletterSubscribers.source,
+      interests: s.newsletterSubscribers.interests,
+      unsubscribeToken: s.newsletterSubscribers.unsubscribeToken,
+      subscribedAt: s.newsletterSubscribers.subscribedAt,
+      unsubscribedAt: s.newsletterSubscribers.unsubscribedAt,
+      isNew: sql<boolean>`(xmax = 0)`.as("is_new"),
+    });
+    return rows[0];
   } catch (err) { throw wrapStorageError("upsertNewsletterSubscriber", err); }
 }
 
