@@ -334,6 +334,21 @@ if (codeContent) {
   // template-literal patterns like t(`prefix.${variable}`) and therefore
   // cannot be detected by static grep of t("literal.key") calls.
   // Each prefix corresponds to a page/section namespace consumed dynamically.
+  //
+  // The 5 `subpages.{llcNm,llcWy,llcDe,llcFl,itin}.` entries cover the
+  // service detail pages. They all render through the shared
+  // client/src/pages/services/ServiceSubpage.tsx component, which receives
+  // the namespace as an `i18nKey` prop ("subpages.llcNm" etc.) and looks
+  // up every leaf via `t(`${i18nKey}.${suffix}`)`. The grep-based scanner
+  // cannot resolve these template literals, so without these entries the
+  // ~200 live keys that power these subpages would be reported as unused.
+  // Each subpage file is wired into client/src/App.tsx and reachable from
+  // the localized `service_llc_*` / `service_itin` routes in
+  // shared/routes.ts — so the keys really are in use, the scanner just
+  // can't see them statically. We list each subpage explicitly (rather
+  // than whitelisting the whole `subpages.` prefix) so that genuinely
+  // dead keys under any future or unused subpage namespace would still
+  // be flagged.
   const dynamicPrefixes = [
     "seo.",
     "legal.",
@@ -370,6 +385,11 @@ if (codeContent) {
     "notFound.",
     "common.",
     "errors.",
+    "subpages.llcNm.",
+    "subpages.llcWy.",
+    "subpages.llcDe.",
+    "subpages.llcFl.",
+    "subpages.itin.",
   ];
 
   const genuinelyUnused = unusedKeys.filter(
