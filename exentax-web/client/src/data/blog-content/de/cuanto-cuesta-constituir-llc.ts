@@ -172,7 +172,7 @@ Der Exentax-Gründungspreis **ab 2.000 €** deckt alles ab, was Ihre LLC brauch
 
 - **Rechtliche Gründung** im optimalen Bundesstaat für Ihr Profil (Wyoming, New Mexico, Delaware oder Florida), inklusive Articles of Organization und staatlicher Gebühren an den Secretary of State.
 - **Federal EIN** beim IRS via SS-4 beantragt — keine Warteschlangen, keine Formulare, die verlangen, dass Sie dem IRS erklären, was ein Nicht-Resident ist.
-- **Registered Agent** im 1. Jahr inklusive. Ab Jahr 2 deckt die Jahreswartung **ab 1.400 €/Jahr** die Verlängerung ab.
+- **Registered Agent** im 1. Jahr inklusive. Ab Jahr 2 deckt die Jahreswartung **ab 1.500 €/Jahr** die Verlängerung ab.
 - **Operating Agreement** auf Ihren Fall zugeschnitten, keine generische Blog-Vorlage.
 - **BOI Report** beim FinCEN, wo anwendbar, mit Nachverfolgung von Änderungen innerhalb der gesetzlichen Frist.
 - **Form 5472 + 1120 pro forma** in jedem Steuerjahr erstellt und eingereicht.
@@ -185,7 +185,7 @@ Es selbst zu machen wirkt billig, wenn man nur die Staatsgebühren betrachtet, a
 
 **Was deckt der Preis ab 2.000 € genau ab?** Komplette Gründung: Staat + EIN + Operating Agreement + Ersterfassung BOI + Bank-Onboarding + ITIN, falls nötig. Festpreis schriftlich vor Start, keine Überraschungen am Ende.
 
-**Und die Jahreswartung ab 1.400 €?** Registered Agent, staatlicher Annual Report, 5472 + 1120 pro forma beim IRS eingereicht, BOI-Überwachung und Abstimmung mit Ihrem Steuerberater am Wohnsitz. Kompletter Jahreskalender abgedeckt.
+**Und die Jahreswartung ab 1.500 €?** Registered Agent, staatlicher Annual Report, 5472 + 1120 pro forma beim IRS eingereicht, BOI-Überwachung und Abstimmung mit Ihrem Steuerberater am Wohnsitz. Kompletter Jahreskalender abgedeckt.
 
 **Verteuert OECD Pillar Two die LLC?** Nein bei Single-Member-LLCs mit üblichem Umsatz. GloBE gilt nur für konsolidierte Konzerne ≥ 750 Mio. EUR.
 <!-- exentax:overhaul-aktuell-v1 end -->

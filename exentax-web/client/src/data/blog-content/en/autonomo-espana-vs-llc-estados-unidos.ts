@@ -60,7 +60,7 @@ With an LLC, you can deduct as operational expenses everything that is "ordinary
 **Net profit (pass-through):** €54,000/year
 **Tax burden in Spain on €54,000:** ~€12,000 (effective rate ~22%)
 
-**Total paid:** €12,000 + €1,400 (LLC maintenance) = **€13,400 → 18.6% effective rate**
+**Total paid:** €12,000 + €1,500 (LLC maintenance) = **€13,500 → 18.75% effective rate**
 
 **As autónomo:** €72,000 - limited expenses = taxable base ~€62,000
 **IRPF ~35%:** ~€21,700 + autónomo contribution €3,600 = **€25,300 → 35.1% effective rate**

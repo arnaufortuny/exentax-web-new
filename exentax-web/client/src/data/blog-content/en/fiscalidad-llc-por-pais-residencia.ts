@@ -31,7 +31,7 @@ If you live in Spain, LLC profits are subject to IRPF as income from economic ac
 - **Modelo 720** for foreign assets exceeding €50,000 (bank accounts, investments, real estate)
 - Compliance with IRPF declaration requirements
 
-**Example:** €72,000 gross income → €18,000 deductions → €54,000 declared → ~€12,000 IRPF + €1,400 LLC maintenance = €13,400 total (18.6% effective vs. 35.1% as autónomo)
+**Example:** €72,000 gross income → €18,000 deductions → €54,000 declared → ~€12,000 IRPF + €1,500 LLC maintenance = €13,500 total (18.75% effective vs. 35.1% as autónomo)
 ### Mexico: ISR and applicable regime
 
 For tax residents in Mexico, LLC income is subject to **ISR** (Impuesto Sobre la Renta).
@@ -97,7 +97,7 @@ Argentina has one of the highest effective tax rates in the region.
 | IRPF (up to 47%) | €28,000 | – |
 | LLC expenses deducted | – | €15,000 |
 | Spanish tax on net LLC income | – | €16,100 |
-| LLC maintenance | – | €1,400 |
+| LLC maintenance | – | €1,500 |
 | **Total cost** | **€32,200 (38.3%)** | **€17,600 (21.0%)** |
 | **Annual savings** | – | **€14,600** |
 

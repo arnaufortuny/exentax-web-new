@@ -54,7 +54,7 @@ Wenn Sie Mitarbeiter in Spanien, Mexiko, Argentinien oder einem anderen Land hab
 - Gleiche Fakturierung über die LLC kanalisiert
 - $0 US-Bundessteuer
 - Optimierte Besteuerung im Wohnsitzland: ~14.000-17.000€
-- LLC-Kosten: ~1.400 €/Jahr (Jahr 1 ≈ 2.000 € durch die Gründung)
+- LLC-Kosten: ~1.500 €/Jahr (Jahr 1 ≈ 2.000 € durch die Gründung)
 - **Jährliche Ersparnis: ~29.000-32.000€**
 
 Mit dieser Ersparnis stellen Sie einen weiteren Designer ein, investieren in eigene Werbung oder nehmen es einfach mit nach Hause.
@@ -171,9 +171,9 @@ Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fa
 <li><span class="font-mono">37%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…autónomos en España):** - Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.00…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">48.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.000€ entre impuestos y cuota…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">14.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ral EE.UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">17.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1.400</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">17.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
 <li><span class="font-mono">29.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…año (año 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorr…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
 <li><span class="font-mono">32.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…o 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorro contr…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
 <li><span class="font-mono">301.770</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>

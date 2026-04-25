@@ -70,7 +70,7 @@ Suponhamos que gera isto por mês:
 **Com LLC:**
 - $0 federal nos EUA (Disregarded Entity)
 - Imposto federal EUA: 0% (Single-Member LLC não residente)
-- Custos LLC: ~1.400€/ano (ano 1 ≈ 2.000€ pela constituição)
+- Custos LLC: ~1.500€/ano (ano 1 ≈ 2.000€ pela constituição)
 - **Total: ~$9.500-11.500 → economia de ~$16.500-18.500/ano**
 
 Essa economia são dois equipamentos de câmera novos, ou um ano inteiro de editor de vídeo. Ou simplesmente mais dinheiro no seu bolso.

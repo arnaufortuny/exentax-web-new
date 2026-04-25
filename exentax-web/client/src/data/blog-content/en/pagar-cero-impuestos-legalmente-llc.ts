@@ -54,7 +54,7 @@ No corporate-level tax in the US means no double taxation. the income is only ta
 - LLC deductible expenses: ~€15,000/year (real expenses, fully documented)
 - Net profit declared in Spain: ~€65,000
 - IRPF (no Social Security if not registered autónomo): ~€17,500
-- Exentax annual costs: ~€1,400 (year 1 ≈ €2,000 with formation)
+- Exentax annual costs: ~€1,500 (year 1 ≈ €2,000 with formation)
 - Total: ~€19,000 (23.8% effective rate)
 
 **Savings: ~€9,800/year**

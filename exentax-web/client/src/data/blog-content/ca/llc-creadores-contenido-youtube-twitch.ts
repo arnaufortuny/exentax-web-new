@@ -71,7 +71,7 @@ Suposem que generes això al mes:
 **Amb LLC:**
 - $0 federal als EUA (Disregarded Entity)
 - Impost federal EUA: 0% (Single-Member LLC no resident)
-- Costos LLC: ~1.400€/any (any 1 ≈ 2.000€ per la constitució)
+- Costos LLC: ~1.500€/any (any 1 ≈ 2.000€ per la constitució)
 - **Total: ~$9.500-11.500 → estalvi de ~$16.500-18.500/any**
 
 Aquest estalvi són dos equips de càmera nous, o un any sencer d'editor de vídeo. O simplement més diners a la teva butxaca.

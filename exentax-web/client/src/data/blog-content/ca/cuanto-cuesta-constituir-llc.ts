@@ -170,7 +170,7 @@ El preu de constitució Exentax **des de 2.000 €** cobreix tot el que la teva 
 
 - **Constitució legal** a l'estat òptim per al teu perfil (Wyoming, New Mexico, Delaware o Florida), amb Articles of Organization i taxes estatals pagades al Secretary of State.
 - **EIN federal** tramitat davant l'IRS via SS-4 — sense cues ni formularis que t'obliguin a explicar a Washington què és un no resident.
-- **Registered Agent** del primer any inclòs. A partir de l'any 2, renovació coberta pel manteniment anual **des de 1.400 €/any**.
+- **Registered Agent** del primer any inclòs. A partir de l'any 2, renovació coberta pel manteniment anual **des de 1.500 €/any**.
 - **Operating Agreement** personalitzat per al teu cas, no una plantilla genèrica descarregada d'un blog.
 - **BOI Report** al FinCEN quan apliqui, amb seguiment d'actualitzacions dins del termini legal.
 - **Form 5472 + 1120 pro forma** preparats i presentats cada exercici fiscal.
@@ -183,7 +183,7 @@ Fer-ho pel teu compte sembla barat si només mires les taxes estatals, però sur
 
 **Què cobreix exactament el preu des de 2.000 €?** Alta completa: estat + EIN + Operating Agreement + BOI inicial + acompanyament bancari + ITIN quan apliqui. Pressupost tancat per escrit abans de començar, sense sorpreses al final.
 
-**I el manteniment anual des de 1.400 €?** Registered Agent, Annual Report de l'estat, 5472 + 1120 pro forma presentats a l'IRS, monitorització BOI i coordinació amb el teu assessor fiscal al país de residència. Calendari anual complet cobert.
+**I el manteniment anual des de 1.500 €?** Registered Agent, Annual Report de l'estat, 5472 + 1120 pro forma presentats a l'IRS, monitorització BOI i coordinació amb el teu assessor fiscal al país de residència. Calendari anual complet cobert.
 
 **L'OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només s'aplica a grups consolidats ≥ 750 M EUR.
 <!-- exentax:overhaul-avui-v1 end -->

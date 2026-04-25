@@ -55,7 +55,7 @@ María is a UX designer in Barcelona. She bills €8,000/month (€96,000/year),
 - LLC deductible expenses: €20,000/year (software, tools, hardware, Exentax fees, coworking, training)
 - Net LLC profit: €76,000/year
 - Declared in Spain, IRPF on €76,000: ~€21,000 (effective ~27.6%)
-- LLC costs (formation amortized + annual maintenance): ~€1,400/year (year 1 ≈ €2,000 with formation)
+- LLC costs (formation amortized + annual maintenance): ~€1,500/year (year 1 ≈ €2,000 with formation)
 - Total burden: ~€22,400 (23.3% effective)
 - **Net after taxes: ~€73,600**
 

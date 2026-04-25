@@ -54,7 +54,7 @@ Si vous avez des collaborateurs en Espagne, au Mexique, en Argentine ou dans tou
 - Même chiffre d'affaires canalisé par la LLC
 - 0 $ d'impôt fédéral US
 - Fiscalité optimisée dans le pays de résidence: ~14 000-17 000 €
-- Coûts LLC: ~1 400 €/an (année 1 ≈ 2 000 € avec la constitution)
+- Coûts LLC: ~1 500 €/an (année 1 ≈ 2 000 € avec la constitution)
 - **Économie annuelle: ~29 000-32 000 €**
 
 Avec cette économie, vous embauchez un autre designer, vous investissez dans vos propres campagnes publicitaires ou vous la gardez tout simplement pour vous.
@@ -164,9 +164,9 @@ Réservez une consultation gratuite de 30 minutes : nous analysons votre cas ré
 <li><span class="font-mono">37%</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…autónomos en España):** - Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.00…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">48.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.000€ entre impuestos y cuota…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">14.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…ral EE.UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">17.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">1.400</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">17.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NON VÉRIFIÉ]</strong></li>
 <li><span class="font-mono">29.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…año (año 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorr…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
 <li><span class="font-mono">32.000</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…o 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorro contr…»</span> <strong>[NON VÉRIFIÉ]</strong></li>
 <li><span class="font-mono">301.770</span> <span class="opacity-70">(chiffre)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>

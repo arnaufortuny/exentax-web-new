@@ -70,7 +70,7 @@ Angenommen, Sie generieren Folgendes pro Monat:
 **Mit LLC:**
 - $0 Bundessteuer in den USA (Disregarded Entity)
 - US-Bundessteuer: 0% (Single-Member LLC, nicht ansässig)
-- LLC-Kosten: ~1.400 €/Jahr (Jahr 1 ≈ 2.000 € durch die Gründung)
+- LLC-Kosten: ~1.500 €/Jahr (Jahr 1 ≈ 2.000 € durch die Gründung)
 - **Gesamt: ~$9.500-11.500 → Ersparnis von ~$16.500-18.500/Jahr**
 
 Diese Ersparnis entspricht zwei neuen Kameraausrüstungen oder einem ganzen Jahr Videoeditor. Oder einfach mehr Geld in Ihrer Tasche.

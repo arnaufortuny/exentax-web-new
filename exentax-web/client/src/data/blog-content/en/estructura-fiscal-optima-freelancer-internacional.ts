@@ -72,7 +72,7 @@ The winning combination we use for most of our clients:
 - LLC deductible expenses: ~€18,000 (real documented expenses)
 - Net declared in Spain: ~€62,000
 - IRPF on €62,000: ~€16,500
-- LLC costs: ~€1,400/year (year 1 ≈ €2,000 with formation)
+- LLC costs: ~€1,500/year (year 1 ≈ €2,000 with formation)
 - Total: ~€18,000 (22.5% effective)
 - **Annual savings: ~€12,800**
 

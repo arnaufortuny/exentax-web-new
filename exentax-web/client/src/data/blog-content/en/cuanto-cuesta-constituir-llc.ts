@@ -172,7 +172,7 @@ The Exentax formation price **from EUR 2,000** covers everything needed for your
 
 - **Legal formation** in the optimal state for your profile (Wyoming, New Mexico, Delaware or Florida), including Articles of Organization and state fees paid to the Secretary of State.
 - **Federal EIN** processed with the IRS via SS-4 — no queues, no forms that force you to explain to the IRS what a non-resident is.
-- **Registered Agent** year 1 included. From year 2 onward, renewal covered by annual maintenance **from EUR 1,400/yr**.
+- **Registered Agent** year 1 included. From year 2 onward, renewal covered by annual maintenance **from EUR 1,500/yr**.
 - **Operating Agreement** tailored to your case, not a generic template downloaded from a blog.
 - **BOI Report** with FinCEN where it applies, with change-tracking within the legal window.
 - **Form 5472 + pro-forma 1120** prepared and filed each tax year.
@@ -185,7 +185,7 @@ Doing it alone looks cheap if you only count state fees, but it gets expensive i
 
 **What exactly is included in the EUR 2,000 price?** Full setup: state + EIN + Operating Agreement + initial BOI + banking onboarding + ITIN when it applies. Closed quote in writing before we start, with no surprises at the end.
 
-**And the EUR 1,400/yr annual maintenance?** Registered Agent, state Annual Report, 5472 + pro-forma 1120 filed with the IRS, BOI monitoring and coordination with your residence-country tax advisor. Full annual calendar covered.
+**And the EUR 1,500/yr annual maintenance?** Registered Agent, state Annual Report, 5472 + pro-forma 1120 filed with the IRS, BOI monitoring and coordination with your residence-country tax advisor. Full annual calendar covered.
 
 **Does OECD Pillar Two raise LLC cost?** No for single-member LLCs with normal turnover. GloBE only applies to groups with consolidated revenue ≥ EUR 750M.
 <!-- exentax:overhaul-today-v1 end -->

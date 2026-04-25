@@ -70,7 +70,7 @@ Supposons que vous générez ceci par mois:
 **Avec LLC:**
 - 0 $ d'impôt fédéral aux États-Unis (Disregarded Entity)
 - Impôt fédéral US: 0 % (Single-Member LLC non-résident)
-- Coûts LLC: ~1 400 €/an (année 1 ≈ 2 000 € avec la constitution)
+- Coûts LLC: ~1 500 €/an (année 1 ≈ 2 000 € avec la constitution)
 - **Total: ~9 500-11 500 $ → économie de ~16 500-18 500 $/an**
 
 Cette économie représente deux kits caméra neufs, ou une année entière de monteur vidéo. Ou simplement plus d'argent dans votre poche.

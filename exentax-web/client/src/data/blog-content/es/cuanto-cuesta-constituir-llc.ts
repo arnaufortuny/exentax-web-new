@@ -173,7 +173,7 @@ El precio de constitución Exentax **desde 2.000 €** cubre todo lo necesario p
 
 - **Constitución legal** en el estado óptimo para tu perfil (Wyoming, New Mexico, Delaware o Florida), incluyendo Articles of Organization y tasas estatales al Secretary of State.
 - **EIN federal** tramitado ante el IRS vía SS-4 — sin colas ni formularios que obligan a explicarle a Hacienda americana qué es un no residente.
-- **Registered Agent** del primer año incluido. A partir del año 2, renovación cubierta por el mantenimiento anual **desde 1.400 €/año**.
+- **Registered Agent** del primer año incluido. A partir del año 2, renovación cubierta por el mantenimiento anual **desde 1.500 €/año**.
 - **Operating Agreement** personalizado para tu caso, no plantilla genérica descargada de un blog.
 - **BOI Report** al FinCEN cuando aplique, con seguimiento de actualizaciones dentro del plazo legal.
 - **Form 5472 + 1120 pro forma** preparadas y presentadas cada ejercicio fiscal.
@@ -186,7 +186,7 @@ Intentar montarlo por tu cuenta parece barato cuando lo miras solo como tasas es
 
 **¿Qué cubre exactamente el precio desde 2.000 €?** Alta completa: estado + EIN + Operating Agreement + BOI inicial + acompañamiento bancario + ITIN cuando aplique. Presupuesto cerrado por escrito antes de empezar, sin sorpresas al final.
 
-**¿Y el mantenimiento anual desde 1.400 €?** Registered Agent, Annual Report del estado, 5472 + 1120 pro forma presentadas al IRS, monitorización BOI y coordinación con tu asesor fiscal de residencia. Calendario anual completo cubierto.
+**¿Y el mantenimiento anual desde 1.500 €?** Registered Agent, Annual Report del estado, 5472 + 1120 pro forma presentadas al IRS, monitorización BOI y coordinación con tu asesor fiscal de residencia. Calendario anual completo cubierto.
 
 **¿OECD Pillar Two encarece mi LLC?** No para LLC unipersonales con facturación normal. GloBE solo aplica a grupos con facturación consolidada ≥ 750 M EUR.
 <!-- exentax:overhaul-hoy-v1 end -->

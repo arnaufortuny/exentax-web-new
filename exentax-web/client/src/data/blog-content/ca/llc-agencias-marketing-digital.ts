@@ -54,7 +54,7 @@ Si tens col·laboradors a Espanya, Mèxic, Argentina o qualsevol altre país, Wi
 - Mateixa facturació canalitzada per la LLC
 - $0 federal EUA
 - Tributació optimitzada al país de residència: ~14.000-17.000€
-- Costos LLC: ~1.400€/any (any 1 ≈ 2.000€ per la constitució)
+- Costos LLC: ~1.500€/any (any 1 ≈ 2.000€ per la constitució)
 - **Estalvi anual: ~29.000-32.000€**
 
 Amb aquest estalvi contractes un altre dissenyador, inverteixes en ads propis o simplement te'ls emportes a casa.
@@ -160,9 +160,9 @@ Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem q
 <li><span class="font-mono">37%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…autónomos en España):** - Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.00…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">48.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…Facturación: 120.000€/año - IRPF ~37% + cuota autónomos = ~48.000€ entre impuestos y cuota…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
 <li><span class="font-mono">14.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ral EE.UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">17.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1.400</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.400€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NO VERIFICAT]</strong></li>
+<li><span class="font-mono">17.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…UU. - Tributación optimizada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/…»</span> <strong>[NO VERIFICAT]</strong></li>
+<li><span class="font-mono">1.500</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…izada en país de residencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por…»</span> <strong>[NO VERIFICAT]</strong></li>
+<li><span class="font-mono">2.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…idencia: ~14.000-17.000€ - Costes LLC: ~1.500€/año (año 1 ≈ 2.000€ por la constitución) - …»</span> <strong>[NO VERIFICAT]</strong></li>
 <li><span class="font-mono">29.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…año (año 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorr…»</span> <strong>[NO VERIFICAT]</strong></li>
 <li><span class="font-mono">32.000</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…o 1 ≈ 2.000€ por la constitución) - **Ahorro anual: ~29.000-32.000€** Con ese ahorro contr…»</span> <strong>[NO VERIFICAT]</strong></li>
 <li><span class="font-mono">301.770</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>

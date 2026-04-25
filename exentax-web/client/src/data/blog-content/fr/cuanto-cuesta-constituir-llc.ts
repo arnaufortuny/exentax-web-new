@@ -172,7 +172,7 @@ Le prix de constitution Exentax **à partir de 2 000 €** couvre tout ce dont v
 
 - **Constitution légale** dans l'État optimal pour votre profil (Wyoming, New Mexico, Delaware ou Florida), avec Articles of Organization et taxes d'État réglées au Secretary of State.
 - **EIN fédéral** obtenu auprès de l'IRS via SS-4 — sans files d'attente ni formulaires qui vous obligent à expliquer à Washington ce qu'est un non-résident.
-- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle **à partir de 1 400 €/an**.
+- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle **à partir de 1 500 €/an**.
 - **Operating Agreement** adapté à votre cas, pas un modèle générique téléchargé sur un blog.
 - **BOI Report** au FinCEN quand il s'applique, avec suivi des mises à jour dans le délai légal.
 - **Form 5472 + 1120 pro forma** préparés et déposés chaque exercice fiscal.
@@ -185,7 +185,7 @@ Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, 
 
 **Que couvre exactement le prix à partir de 2 000 € ?** Constitution complète : État + EIN + Operating Agreement + BOI initial + onboarding bancaire + ITIN si nécessaire. Devis fermé par écrit avant de commencer, sans surprises à la fin.
 
-**Et la maintenance annuelle à partir de 1 400 € ?** Registered Agent, Annual Report de l'État, 5472 + 1120 pro forma déposés auprès de l'IRS, suivi BOI et coordination avec votre conseiller fiscal dans votre pays de résidence. Calendrier annuel complet couvert.
+**Et la maintenance annuelle à partir de 1 500 € ?** Registered Agent, Annual Report de l'État, 5472 + 1120 pro forma déposés auprès de l'IRS, suivi BOI et coordination avec votre conseiller fiscal dans votre pays de résidence. Calendrier annuel complet couvert.
 
 **Pillar Two de l'OCDE renchérit-il la LLC ?** Non pour les LLC unipersonnelles à chiffre d'affaires normal. GloBE concerne uniquement les groupes consolidés ≥ 750 M€.
 <!-- exentax:overhaul-actuellement-v1 end -->

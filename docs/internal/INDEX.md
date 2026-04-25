@@ -1,6 +1,6 @@
 # docs/internal · Índice maestro de documentación operativa
 
-**Última revisión: 2026-04-22**
+**Última revisión: 2026-04-25**
 
 Esta carpeta contiene la documentación interna del proyecto Exentax Web
 para agentes automatizados, desarrolladores y operaciones. Los `.md` que
@@ -109,6 +109,24 @@ invariables (LLC, EIN, ITIN, etc.).
 ### `ARCHITECTURE.md` (248 líneas)
 Arquitectura completa (frontend, backend, DB, integraciones,
 deploy).
+
+### `AUDIT-FINAL-REPORT.md` (sesión 2026-04-25)
+Reporte final de la sesión de consolidación: pricing definitivo
+(eliminación 1.400 → desde 2000 / desde 1500 en 6 idiomas, 3 formatos
+numéricos), legal pages Liquid Glass tema crema, todos los linters
+verde, build exit 0. Lista pendientes ambientales (Bloques 6/7) y
+tareas para agente Replit (env vars, E2E cifrado, GA4 real-time).
+
+### `CALCULATOR-AUDIT.md`
+Auditoría calculadora 11 secciones: tests 123/123, IRPF brackets
+2026, SS Autónomos 15 tramos, dividendos LIRPF art. 66, 8 países, edge
+cases blindados.
+
+### `DISCORD-AUDIT.md`
+Auditoría bot Discord 11 secciones: 14 subcomandos slash, Ed25519
+signature verification, role gate `ADMIN_DISCORD_ROLE_ID`, retry
+exponencial 429/5xx cap 30s, dedupe SHA-256, 13 events → 7 canales,
+brand color `#00E510` enforced.
 
 ---
 
