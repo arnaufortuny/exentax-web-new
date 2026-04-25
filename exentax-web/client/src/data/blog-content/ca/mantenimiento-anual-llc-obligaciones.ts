@@ -96,7 +96,7 @@ Tot depèn de l'estat:
 | BOI Report (actualització) | Inclòs | Inclòs | Inclòs |
 | Suport continu | Inclòs | Inclòs | Inclòs |
 
-A Exentax, el pla de manteniment anual cobreix tot l'anterior. Zero sorpreses, zero extres, zero "ah, això no estava inclòs". Un preu fix anual i nosaltres ens encarreguem de cada tràmit, cada formulari i cada termini.
+A Exentax, el pla de manteniment anual cobreix tot l'anterior. Zero sorpreses, zero extres, zero "ah, això no estava inclòs". Un pressupost tancat anual i nosaltres ens encarreguem de cada tràmit, cada formulari i cada termini.
 
 Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a href="/ca/blog/compliment-aml-per-a-la-teva-llc-el-que-has-de-saber">Compliment AML per a la teva LLC: el que has de saber</a> ajuda a arrodonir el context.
 ## Què passa si no faig el manteniment?
@@ -192,7 +192,7 @@ Si vols que portem el teu manteniment anual o auditar l'últim exercici tancat, 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Molts%20clients%20catalans%20arriben%20a%20nosaltres%20amb%20LLCs%20obertes%20fa%2018%20mesos%20al%20Le%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
-Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb preus, terminis i lliurables.
+Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

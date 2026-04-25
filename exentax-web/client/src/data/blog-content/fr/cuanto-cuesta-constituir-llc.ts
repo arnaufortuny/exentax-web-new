@@ -116,7 +116,7 @@ Et pour la maintenance annuelle:
 - FBAR (si applicable)
 - Assistance continue toute l'année
 
-Zéro extras, zéro « ah, ça n'était pas inclus », zéro surprises sur la facture. Un prix fixe, tout inclus, et nous nous occupons de chaque démarche.
+Zéro extras, zéro « ah, ça n'était pas inclus », zéro surprises sur la facture. Un devis fermé par écrit, tout inclus, et nous nous occupons de chaque démarche.
 
 Réservez une consultation gratuite et nous vous donnerons les chiffres exacts pour votre cas concret.
 
@@ -166,26 +166,26 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
 <!-- exentax:overhaul-actuellement-v1 -->
-## Mise à jour Exentax : ce que couvre le prix et ce qu'il vous évite
+## Mise à jour Exentax : ce que couvre le service et ce qu'il vous évite
 
-Le prix de constitution Exentax **à partir de 2 000 €** couvre tout ce dont votre LLC a besoin pour être opérationnelle dès le premier jour, avec une responsabilité professionnelle incluse et sans que vous ayez à remplir quoi que ce soit dans un anglais juridique incompréhensible :
+Le service de constitution Exentax couvre tout ce dont votre LLC a besoin pour être opérationnelle dès le premier jour, avec une responsabilité professionnelle incluse et sans que vous ayez à remplir quoi que ce soit dans un anglais juridique incompréhensible :
 
 - **Constitution légale** dans l'État optimal pour votre profil (Wyoming, New Mexico, Delaware ou Florida), avec Articles of Organization et taxes d'État réglées au Secretary of State.
 - **EIN fédéral** obtenu auprès de l'IRS via SS-4 — sans files d'attente ni formulaires qui vous obligent à expliquer à Washington ce qu'est un non-résident.
-- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle **à partir de 1 500 €/an**.
+- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle Exentax.
 - **Operating Agreement** adapté à votre cas, pas un modèle générique téléchargé sur un blog.
 - **BOI Report** au FinCEN quand il s'applique, avec suivi des mises à jour dans le délai légal.
 - **Form 5472 + 1120 pro forma** préparés et déposés chaque exercice fiscal.
 - **Onboarding bancaire professionnel** avec Relay, Slash, Wise Business et Mercury — nous vous accompagnons jusqu'à ce que votre compte soit opérationnel et vos passerelles actives, au lieu de vous laisser seul après l'encaissement comme le font les services low-cost.
 - **ITIN** obtenu par W-7 quand votre banque ou passerelle l'exige.
 
-Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, mais ça devient cher en temps et en erreurs que l'IRS ne pardonne pas : un **5472 mal déposé coûte 25 000 USD par formulaire et par an** (IRC §6038A), un **BOI en retard coûte 591 USD/jour**, et un ITIN rejeté vous laisse sans banque opérationnelle pendant des mois. Le prix Exentax n'est pas le prix de faire la démarche, c'est le prix que tout soit correct dès la première fois et qu'il y ait un conseiller responsable quand l'IRS ou votre administration fiscale demandent des comptes.
+Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, mais ça devient cher en temps et en erreurs que l'IRS ne pardonne pas : un **5472 mal déposé coûte 25 000 USD par formulaire et par an** (IRC §6038A), un **BOI en retard coûte 591 USD/jour**, et un ITIN rejeté vous laisse sans banque opérationnelle pendant des mois. La valeur Exentax n'est pas juste de faire la démarche, c'est que tout soit correct dès la première fois et qu'il y ait un conseiller responsable quand l'IRS ou votre administration fiscale demandent des comptes.
 
 ### Questions fréquentes
 
-**Que couvre exactement le prix à partir de 2 000 € ?** Constitution complète : État + EIN + Operating Agreement + BOI initial + onboarding bancaire + ITIN si nécessaire. Devis fermé par écrit avant de commencer, sans surprises à la fin.
+**Que couvre exactement le service ?** Constitution complète : État + EIN + Operating Agreement + BOI initial + onboarding bancaire + ITIN si nécessaire. Devis fermé par écrit avant de commencer, sans surprises à la fin.
 
-**Et la maintenance annuelle à partir de 1 500 € ?** Registered Agent, Annual Report de l'État, 5472 + 1120 pro forma déposés auprès de l'IRS, suivi BOI et coordination avec votre conseiller fiscal dans votre pays de résidence. Calendrier annuel complet couvert.
+**Et que couvre la maintenance annuelle ?** Registered Agent, Annual Report de l'État, 5472 + 1120 pro forma déposés auprès de l'IRS, suivi BOI et coordination avec votre conseiller fiscal dans votre pays de résidence. Calendrier annuel complet couvert.
 
 **Pillar Two de l'OCDE renchérit-il la LLC ?** Non pour les LLC unipersonnelles à chiffre d'affaires normal. GloBE concerne uniquement les groupes consolidés ≥ 750 M€.
 <!-- exentax:overhaul-actuellement-v1 end -->
@@ -193,7 +193,7 @@ Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, 
 <!-- exentax:execution-v2 -->
 ## Le coût réel de constituer une LLC, méthode Exentax
 
-Ce que la plupart des pages ne disent pas, c'est l'écart entre le prix de constitution et le coût annuel réel - registered agent, maintenance étatique, BOI, 5472, banking et conformité en résidence. Chez Exentax nous chiffrons les deux dès le départ.
+Ce que lécart entre la constitution et le coût annuel réel - registered agent, maintenance étatique, BOI, 5472, banking et conformité en résidence. Chez Exentax nous chiffrons les deux dès le départ.
 
 - **Coût ponctuel de constitution**: Articles of Organization + EIN + Operating Agreement + BOI initial; fourchette fermée par écrit avant de commencer.
 - **Coût annuel récurrent**: registered agent, annual report étatique, 5472 + 1120 pro-forma, maintenance banking et reporting de résidence.
@@ -205,7 +205,7 @@ Pour voir votre chiffre exact sans surprise, lancez la <strong>calculatrice Exen
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Parlons%20argent%2C%20directement%2C%20sans%20d%C3%A9tour%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
-Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec prix, délais et livrables.
+Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

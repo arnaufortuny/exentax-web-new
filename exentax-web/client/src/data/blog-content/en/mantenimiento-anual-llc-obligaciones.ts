@@ -79,7 +79,7 @@ The Beneficial Ownership Information Report must be kept current. Any changes mu
 | BOI Report (update) | Included | Included | Included |
 | Ongoing support | Included | Included | Included |
 
-At Exentax, the annual maintenance plan covers everything above. Zero surprises, zero extras, zero "oh, that wasn't included." One fixed annual price and we handle every filing, every form, and every deadline.
+At Exentax, the annual maintenance plan covers everything above. Zero surprises, zero extras, zero "oh, that wasn't included." One closed annual quote and we handle every filing, every form, and every deadline.
 ### What happens if you skip maintenance?
 
 Let's be direct: if you ignore your LLC maintenance, the consequences are real:
@@ -205,7 +205,7 @@ If you want us to run your annual maintenance or audit the last closed year, run
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Forming%20an%20LLC%20is%20just%20the%20first%20step%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
-If you want to see the full process in detail, check our <a href="/en/services">services page</a> with prices, timelines and deliverables.
+If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

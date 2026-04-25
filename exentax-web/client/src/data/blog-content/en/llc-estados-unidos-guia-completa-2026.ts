@@ -259,7 +259,7 @@ To see the exact cost and the plan before deciding, run the <strong>Exentax calc
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you%20are%20a%20freelancer%2C%20digital%20entrepreneur%2C%20or%20self-employed%20professional%20%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
-If you want to see the full process in detail, check our <a href="/en/services">services page</a> with prices, timelines and deliverables.
+If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

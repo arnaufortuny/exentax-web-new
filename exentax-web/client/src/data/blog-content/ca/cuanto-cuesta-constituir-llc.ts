@@ -114,7 +114,7 @@ I en el manteniment anual:
 - FBAR (si aplica)
 - Suport continu tot l'any
 
-Zero extres, zero "ah, això no estava inclòs", zero sorpreses a la factura. Un preu fix, tot inclòs, i nosaltres ens encarreguem de cada tràmit.
+Zero extres, zero "ah, això no estava inclòs", zero sorpreses a la factura. Un pressupost tancat per escrit, tot inclòs, i nosaltres ens encarreguem de cada tràmit.
 
 Agenda una assessoria gratuïta i et donem els números exactes per al teu cas concret.
 
@@ -164,26 +164,26 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions IRS i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.
 
 <!-- exentax:overhaul-avui-v1 -->
-## Actualització Exentax: què inclou el preu i què t'estalvia
+## Actualització Exentax: què inclou el servei i què t'estalvia
 
-El preu de constitució Exentax **des de 2.000 €** cobreix tot el que la teva LLC necessita per operar des del primer dia, amb responsabilitat professional inclosa i sense que hagis de tramitar res en anglès jurídic:
+El servei de constitució Exentax cobreix tot el que la teva LLC necessita per operar des del primer dia, amb responsabilitat professional inclosa i sense que hagis de tramitar res en anglès jurídic:
 
 - **Constitució legal** a l'estat òptim per al teu perfil (Wyoming, New Mexico, Delaware o Florida), amb Articles of Organization i taxes estatals pagades al Secretary of State.
 - **EIN federal** tramitat davant l'IRS via SS-4 — sense cues ni formularis que t'obliguin a explicar a Washington què és un no resident.
-- **Registered Agent** del primer any inclòs. A partir de l'any 2, renovació coberta pel manteniment anual **des de 1.500 €/any**.
+- **Registered Agent** del primer any inclòs. A partir de l'any 2, renovació coberta pel manteniment anual d'Exentax.
 - **Operating Agreement** personalitzat per al teu cas, no una plantilla genèrica descarregada d'un blog.
 - **BOI Report** al FinCEN quan apliqui, amb seguiment d'actualitzacions dins del termini legal.
 - **Form 5472 + 1120 pro forma** preparats i presentats cada exercici fiscal.
 - **Acompanyament bancari professional** amb Relay, Slash, Wise Business i Mercury — et guiem fins que tinguis compte operatiu i passarel·les actives, en comptes de deixar-te abandonat després de l'onboarding com fan els serveis low-cost.
 - **ITIN** tramitat per W-7 quan el teu banc o passarel·la ho exigeixi.
 
-Fer-ho pel teu compte sembla barat si només mires les taxes estatals, però surt car en temps i en errors que l'IRS no perdona: un **5472 mal presentat són 25.000 USD per formulari i any** (IRC §6038A), un **BOI fora de termini són 591 USD/dia**, i un ITIN rebutjat et deixa sense banca operativa durant mesos. El preu Exentax no és el preu de fer el tràmit, és el preu de fer-ho bé a la primera i de tenir un assessor responsable quan l'IRS o l'AEAT preguntin.
+Fer-ho pel teu compte sembla barat si només mires les taxes estatals, però surt car en temps i en errors que l'IRS no perdona: un **5472 mal presentat són 25.000 USD per formulari i any** (IRC §6038A), un **BOI fora de termini són 591 USD/dia**, i un ITIN rebutjat et deixa sense banca operativa durant mesos. El valor Exentax no és només fer el tràmit, és fer-ho bé a la primera i de tenir un assessor responsable quan l'IRS o l'AEAT preguntin.
 
 ### Preguntes freqüents
 
-**Què cobreix exactament el preu des de 2.000 €?** Alta completa: estat + EIN + Operating Agreement + BOI inicial + acompanyament bancari + ITIN quan apliqui. Pressupost tancat per escrit abans de començar, sense sorpreses al final.
+**Què cobreix exactament el servei?** Alta completa: estat + EIN + Operating Agreement + BOI inicial + acompanyament bancari + ITIN quan apliqui. Pressupost tancat per escrit abans de començar, sense sorpreses al final.
 
-**I el manteniment anual des de 1.500 €?** Registered Agent, Annual Report de l'estat, 5472 + 1120 pro forma presentats a l'IRS, monitorització BOI i coordinació amb el teu assessor fiscal al país de residència. Calendari anual complet cobert.
+**I què cobreix el manteniment anual?** Registered Agent, Annual Report de l'estat, 5472 + 1120 pro forma presentats a l'IRS, monitorització BOI i coordinació amb el teu assessor fiscal al país de residència. Calendari anual complet cobert.
 
 **L'OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només s'aplica a grups consolidats ≥ 750 M EUR.
 <!-- exentax:overhaul-avui-v1 end -->
@@ -191,7 +191,7 @@ Fer-ho pel teu compte sembla barat si només mires les taxes estatals, però sur
 <!-- exentax:execution-v2 -->
 ## El cost real de constituir una LLC, mètode Exentax
 
-El que la majoria de pàgines no diu és la diferència entre el preu de constitució i el cost anual real - registered agent, manteniment estatal, BOI, 5472, banca i compliment en residència. A Exentax pressupostem els dos des del principi.
+El que la majoria de pàgines no diu és la diferència entre la constitució i el cost anual real - registered agent, manteniment estatal, BOI, 5472, banca i compliment en residència. A Exentax pressupostem els dos des del principi.
 
 - **Cost únic de constitució**: Articles of Organization + EIN + Operating Agreement + BOI inicial; rang tancat per escrit abans de començar.
 - **Cost anual recurrent**: registered agent, annual report estatal, 5472 + 1120 pro-forma, manteniment bancari i reporting de residència.
@@ -203,7 +203,7 @@ Per veure la teva xifra exacta sense sorpreses, obre la <strong>calculadora Exen
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Parlem%20de%20diners%2C%20directament%20i%20sense%20embuts%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
-Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb preus, terminis i lliurables.
+Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

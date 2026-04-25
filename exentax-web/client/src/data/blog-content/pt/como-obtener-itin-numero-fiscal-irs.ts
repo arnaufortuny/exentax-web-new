@@ -71,7 +71,7 @@ Três factores aceleram ou atrasam o processo:
 - **Documentos físicos.** Se for pela via de enviar passaporte por correio, some o tempo de ida e volta (semanas). Por isso recomendamos sempre a via CAA.
 ## Custos e erros comuns
 
-O IRS **não cobra taxa** para emitir um ITIN. Os custos no processo são os do CAA e, se aplicável, os do preparador do 1040-NR. Na Exentax trabalhamos com preço fechado para o processo ITIN chave na mão, comunicado antes de começar, sem surpresas. Os seis erros típicos quando alguém tenta sozinho são sempre os mesmos:
+O IRS **não cobra taxa** para emitir um ITIN. Os custos no processo são os do CAA e, se aplicável, os do preparador do 1040-NR. Na Exentax trabalhamos com orçamento fechado para o processo ITIN chave na mão, comunicado antes de começar, sem surpresas. Os seis erros típicos quando alguém tenta sozinho são sempre os mesmos:
 
 1. Marcar o motivo errado no W-7 (especialmente confundir motivo "b" com "h" ou aplicar "a" sem convenção aplicável).
 2. Enviar o W-7 sem a declaração de suporte quando esta era obrigatória.

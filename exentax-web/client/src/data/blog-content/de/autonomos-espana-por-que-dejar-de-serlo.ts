@@ -92,7 +92,7 @@ Ein paar angrenzende Beiträge, die man neben diesem geöffnet lassen sollte: <a
 Dies verdient eine eigene Erwähnung: Der Selbstständigenbeitrag ist eine feste Abgabe, die Sie zahlen, **ob Sie fakturieren oder nicht**. Mit dem neuen einkommensabhängigen Beitragssystem steigt der Beitrag, wenn es Ihnen gut geht. Es ist das einzige Steuersystem der Welt, das Sie für Erfolg bestraft.
 
 Mit einer LLC gibt es kein Äquivalent. Es gibt keinen festen monatlichen Beitrag, Ihre Kosten sind:
-- Jährliche LLC-Wartung (Festpreis, alles inklusive)
+- Jährliche LLC-Wartung (alles inklusive, schriftliches Festangebot)
 - Die entsprechenden Steuern in Ihrem Wohnsitzland (auf Nettogewinne, nicht auf Bruttoeinnahmen)
 
 Wir sagen nicht, dass es schlecht ist, selbstständig zu sein. Wir sagen, dass es, wenn Ihr Profil digital ist und Ihre Kunden international sind, viel bessere Optionen gibt. Und dass jeder Monat, in dem Sie aus Gewohnheit zu viel zahlen, Geld ist, das Sie nicht zurückbekommen.

@@ -84,7 +84,7 @@ Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessi
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Truca'ns al <a href="tel:+34614916910">+34 614 916 910</a> o escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22%E2%80%9EUna%20LLC%20no%20paga%20impostos%20als%20EUA%E2%80%9D%2C%20cert%2C%20sempre%20que%20parlem%20d'un%20no%20resident%20%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
-Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb preus, terminis i lliurables.
+Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

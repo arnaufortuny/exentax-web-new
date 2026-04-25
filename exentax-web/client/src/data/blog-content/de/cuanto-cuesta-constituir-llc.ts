@@ -67,7 +67,7 @@ Sobald Ihre LLC gegründet ist, fallen wiederkehrende Kosten an:
 | **Komplette Verwaltung** | Pauschale Jahresgebühr |
 ### Was kostet es mit Exentax?
 
-Bei Exentax bieten wir Pakete an, die alles Notwendige für die Gründung und den Unterhalt Ihrer LLC beinhalten. Keine versteckten Kosten, keine Überraschungen. Unsere aktuellen Tarife finden Sie auf der Seite für Pläne und Preise.
+Bei Exentax bieten wir Pakete an, die alles Notwendige für die Gründung und den Unterhalt Ihrer LLC beinhalten. Keine versteckten Kosten, keine Überraschungen. Den vollständigen Leistungsumfang finden Sie auf unserer Leistungsseite.
 
 Was immer enthalten ist:
 - Vollständige Gründung im gewählten Bundesstaat
@@ -116,7 +116,7 @@ Und im jährlichen Unterhalt:
 - FBAR (falls zutreffend)
 - Laufende Betreuung das ganze Jahr über
 
-Keine Extras, kein „ach, das war nicht enthalten", keine Überraschungen auf der Rechnung. Ein Festpreis, alles inklusive, und wir kümmern uns um jeden Vorgang.
+Keine Extras, kein „ach, das war nicht enthalten", keine Überraschungen auf der Rechnung. Ein schriftliches Festangebot, alles inklusive, und wir kümmern uns um jeden Vorgang.
 
 Vereinbaren Sie eine kostenlose Beratung und wir geben Ihnen die genauen Zahlen für Ihren konkreten Fall.
 
@@ -166,26 +166,26 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollständig legal und dokumentiert. Bei Exentax kümmern wir uns um den gesamten Prozess: Gründung, Banking, Zahlungsabwicklung, Buchhaltung, IRS-Erklärungen und Compliance in Ihrem Wohnsitzland. Buchen Sie eine kostenlose Beratung, und wir sagen Ihnen ehrlich, ob die LLC für Ihren Fall sinnvoll ist, ohne absolute Versprechen.
 
 <!-- exentax:overhaul-aktuell-v1 -->
-## Exentax-Update: was der Preis abdeckt und was er Ihnen erspart
+## Exentax-Update: was der Service abdeckt und was er Ihnen erspart
 
-Der Exentax-Gründungspreis **ab 2.000 €** deckt alles ab, was Ihre LLC braucht, um vom ersten Tag an einsatzbereit zu sein — mit professioneller Verantwortung und ohne dass Sie selbst in US-Juristenenglisch Formulare ausfüllen müssen:
+Der Exentax-Gründungsservice deckt alles ab, was Ihre LLC braucht, um vom ersten Tag an einsatzbereit zu sein — mit professioneller Verantwortung und ohne dass Sie selbst in US-Juristenenglisch Formulare ausfüllen müssen:
 
 - **Rechtliche Gründung** im optimalen Bundesstaat für Ihr Profil (Wyoming, New Mexico, Delaware oder Florida), inklusive Articles of Organization und staatlicher Gebühren an den Secretary of State.
 - **Federal EIN** beim IRS via SS-4 beantragt — keine Warteschlangen, keine Formulare, die verlangen, dass Sie dem IRS erklären, was ein Nicht-Resident ist.
-- **Registered Agent** im 1. Jahr inklusive. Ab Jahr 2 deckt die Jahreswartung **ab 1.500 €/Jahr** die Verlängerung ab.
+- **Registered Agent** im 1. Jahr inklusive. Ab Jahr 2 deckt die Jahreswartung von Exentax die Verlängerung ab.
 - **Operating Agreement** auf Ihren Fall zugeschnitten, keine generische Blog-Vorlage.
 - **BOI Report** beim FinCEN, wo anwendbar, mit Nachverfolgung von Änderungen innerhalb der gesetzlichen Frist.
 - **Form 5472 + 1120 pro forma** in jedem Steuerjahr erstellt und eingereicht.
 - **Professionelles Bank-Onboarding** mit Relay, Slash, Wise Business und Mercury — wir begleiten Sie, bis Ihr Konto und die Zahlungs-Gateways aktiv sind, statt Sie wie bei Low-Cost-Anbietern nach der ersten Überweisung allein zu lassen.
 - **ITIN** per W-7 beantragt, wenn Ihre Bank oder Zahlungsplattform ihn fordert.
 
-Es selbst zu machen wirkt billig, wenn man nur die Staatsgebühren betrachtet, aber es wird teuer in Zeit und in Fehlern, die der IRS nicht verzeiht: ein **falsch eingereichtes 5472 kostet 25.000 USD pro Formular und Jahr** (IRC §6038A), ein **verspäteter BOI kostet 591 USD/Tag**, und ein abgelehnter ITIN lässt Sie monatelang ohne operatives Banking. Der Exentax-Preis ist nicht der Preis, die Formalitäten auszuführen — es ist der Preis dafür, dass es beim ersten Mal richtig läuft und ein verantwortlicher Berater einspringt, wenn IRS oder Finanzamt nachfragen.
+Es selbst zu machen wirkt billig, wenn man nur die Staatsgebühren betrachtet, aber es wird teuer in Zeit und in Fehlern, die der IRS nicht verzeiht: ein **falsch eingereichtes 5472 kostet 25.000 USD pro Formular und Jahr** (IRC §6038A), ein **verspäteter BOI kostet 591 USD/Tag**, und ein abgelehnter ITIN lässt Sie monatelang ohne operatives Banking. Der Exentax-Wert besteht nicht nur darin, die Formalitäten auszuführen — es geht darum, dass es beim ersten Mal richtig läuft und ein verantwortlicher Berater einspringt, wenn IRS oder Finanzamt nachfragen.
 
 ### Häufige Fragen
 
-**Was deckt der Preis ab 2.000 € genau ab?** Komplette Gründung: Staat + EIN + Operating Agreement + Ersterfassung BOI + Bank-Onboarding + ITIN, falls nötig. Festpreis schriftlich vor Start, keine Überraschungen am Ende.
+**Was deckt der Service genau ab?** Komplette Gründung: Staat + EIN + Operating Agreement + Ersterfassung BOI + Bank-Onboarding + ITIN, falls nötig. Schriftliches Festangebot vor Start, keine Überraschungen am Ende.
 
-**Und die Jahreswartung ab 1.500 €?** Registered Agent, staatlicher Annual Report, 5472 + 1120 pro forma beim IRS eingereicht, BOI-Überwachung und Abstimmung mit Ihrem Steuerberater am Wohnsitz. Kompletter Jahreskalender abgedeckt.
+**Und was deckt die Jahreswartung ab?** Registered Agent, staatlicher Annual Report, 5472 + 1120 pro forma beim IRS eingereicht, BOI-Überwachung und Abstimmung mit Ihrem Steuerberater am Wohnsitz. Kompletter Jahreskalender abgedeckt.
 
 **Verteuert OECD Pillar Two die LLC?** Nein bei Single-Member-LLCs mit üblichem Umsatz. GloBE gilt nur für konsolidierte Konzerne ≥ 750 Mio. EUR.
 <!-- exentax:overhaul-aktuell-v1 end -->
@@ -193,7 +193,7 @@ Es selbst zu machen wirkt billig, wenn man nur die Staatsgebühren betrachtet, a
 <!-- exentax:execution-v2 -->
 ## Die echten Kosten einer LLC-Gründung, Exentax-Methode
 
-Was die meisten Seiten verschweigen, ist die Lücke zwischen Gründungspreis und realen Jahreskosten - Registered Agent, Bundesstaats-Pflege, BOI, 5472, Banking und Wohnsitz-Compliance. Bei Exentax beziffern wir beides von Anfang an.
+Was die meisten Seiten verschweigen, ist die Lücke zwischen Gründung und realen Jahreskosten - Registered Agent, Bundesstaats-Pflege, BOI, 5472, Banking und Wohnsitz-Compliance. Bei Exentax beziffern wir beides von Anfang an.
 
 - **Einmalige Gründungskosten**: Articles of Organization + EIN + Operating Agreement + initiales BOI; geschlossene Spanne schriftlich vor Start.
 - **Wiederkehrende Jahreskosten**: Registered Agent, Annual Report des Staates, 5472 + 1120 pro-forma, Banking-Pflege und Wohnsitz-Reporting.
@@ -205,7 +205,7 @@ Für Ihre exakte Zahl ohne Überraschungen starten Sie den <strong>Exentax-Rechn
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Rufen Sie uns unter <a href="tel:+34614916910">+34 614 916 910</a> an oder schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Sprechen%20wir%20%C3%BCber%20Geld%2C%20direkt%20und%20ohne%20Umschweife%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
-Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit Preisen, Fristen und Leistungen an.
+Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

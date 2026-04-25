@@ -71,7 +71,7 @@ Tres factores aceleran o ralentizan el proceso:
 - **Documentos físicos.** Si vas por la vía de enviar pasaporte por correo, súmale el tiempo de ida y vuelta del documento (semanas). Por eso recomendamos siempre la vía CAA.
 ## Costes y errores comunes
 
-El IRS **no cobra tasa** por emitir un ITIN. Los costes que aparecen en el proceso son los del CAA y, en su caso, los del preparador de la declaración 1040-NR. En Exentax trabajamos con un precio cerrado por proceso ITIN llave en mano que comunicamos antes de empezar, sin sorpresas. Los seis errores más típicos que vemos cuando alguien intenta hacer el ITIN por su cuenta son siempre los mismos:
+El IRS **no cobra tasa** por emitir un ITIN. Los costes que aparecen en el proceso son los del CAA y, en su caso, los del preparador de la declaración 1040-NR. En Exentax trabajamos con un presupuesto cerrado por proceso ITIN llave en mano que comunicamos antes de empezar, sin sorpresas. Los seis errores más típicos que vemos cuando alguien intenta hacer el ITIN por su cuenta son siempre los mismos:
 
 1. Marcar el motivo equivocado en el W-7 (especialmente confundir motivo "b" con motivo "h" o aplicar el motivo "a" sin convenio aplicable).
 2. Mandar el W-7 sin la declaración fiscal de soporte cuando esta era obligatoria.

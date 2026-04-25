@@ -143,7 +143,7 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22L'a%20href%3Dhttps%3A%2F%2Fwww%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
-Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec prix, délais et livrables.
+Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

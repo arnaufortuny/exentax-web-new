@@ -153,7 +153,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20distin%C3%A7%C3%A3o%20%E2%80%9Eresidente%20%2F%20n%C3%A3o%20residente%E2%80%9D%20do%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
-Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com preços, prazos e entregáveis.
+Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

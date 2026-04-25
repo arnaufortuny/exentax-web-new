@@ -71,7 +71,7 @@ Three factors speed up or slow down the process:
 - **Physical documents.** If you go through the mail-your-passport route, add weeks for the document to travel. That is why we always recommend the CAA route.
 ## Costs and common mistakes
 
-The IRS **does not charge a fee** to issue an ITIN. The costs in the process are the CAA fee and, where applicable, the 1040-NR preparer fee. At Exentax we work with a closed price for the turnkey ITIN process communicated upfront, with no surprises. The six most typical mistakes we see when someone tries to do the ITIN alone are always the same:
+The IRS **does not charge a fee** to issue an ITIN. The costs in the process are the CAA fee and, where applicable, the 1040-NR preparer fee. At Exentax we work with a closed quote for the turnkey ITIN process communicated upfront, with no surprises. The six most typical mistakes we see when someone tries to do the ITIN alone are always the same:
 
 1. Ticking the wrong reason on the W-7 (especially confusing reason "b" with reason "h" or applying reason "a" without an applicable treaty).
 2. Sending the W-7 without the supporting return when one was mandatory.

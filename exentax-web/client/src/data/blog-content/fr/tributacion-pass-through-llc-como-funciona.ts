@@ -187,7 +187,7 @@ Pour votre chiffre exact de taxation combinée, lancez la <strong>calculatrice E
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22%C2%AB%20Une%20LLC%20am%C3%A9ricaine%20paie%200%20%24%20d'imp%C3%B4t%20f%C3%A9d%C3%A9ral%20aux%20%C3%89tats-Unis%20%C2%BB%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
-Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec prix, délais et livrables.
+Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

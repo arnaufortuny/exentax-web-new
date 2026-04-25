@@ -73,7 +73,7 @@ The LLC pays for itself 5x over in the first year alone. And the benefit scales 
 | **DIY (direct with state)** | State only | Just state filing | Self-act as RA | Must be in US |
 
 ### What "free formation" really costs
-Services advertising "free formation" do not charge for the state filing itself, but charge full price for everything else:
+Services advertising "free formation" do not charge for the state filing itself, but charge for everything else:
 - Operating Agreement: drafting service
 - EIN filing: third-party fee
 - BOI Report: third-party fee
@@ -166,26 +166,26 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- exentax:overhaul-today-v1 -->
-## Exentax today update: what the price covers and what it saves you
+## Exentax today update: what the service covers and what it saves you
 
-The Exentax formation price **from EUR 2,000** covers everything needed for your LLC to be operational from day one, with professional liability included and without you having to file anything in US legal English:
+The Exentax formation service covers everything needed for your LLC to be operational from day one, with professional liability included and without you having to file anything in US legal English:
 
 - **Legal formation** in the optimal state for your profile (Wyoming, New Mexico, Delaware or Florida), including Articles of Organization and state fees paid to the Secretary of State.
 - **Federal EIN** processed with the IRS via SS-4 — no queues, no forms that force you to explain to the IRS what a non-resident is.
-- **Registered Agent** year 1 included. From year 2 onward, renewal covered by annual maintenance **from EUR 1,500/yr**.
+- **Registered Agent** year 1 included. From year 2 onward, renewal covered by Exentax annual maintenance.
 - **Operating Agreement** tailored to your case, not a generic template downloaded from a blog.
 - **BOI Report** with FinCEN where it applies, with change-tracking within the legal window.
 - **Form 5472 + pro-forma 1120** prepared and filed each tax year.
 - **Professional banking onboarding** with Relay, Slash, Wise Business and Mercury — we walk you through until you have an operational account and payment gateways live, instead of leaving you stranded the way low-cost formation services do once they cash the filing fee.
 - **ITIN** filed via W-7 whenever your bank or payment processor requires it.
 
-Doing it alone looks cheap if you only count state fees, but it gets expensive in time and in mistakes the IRS does not forgive: a **mis-filed 5472 is USD 25,000 per form per year** (IRC §6038A), a **BOI filed late is USD 591/day**, and a rejected ITIN leaves you without operational banking for months. The Exentax price is not the price of running the paperwork, it is the price of getting it right the first time and having an accountable advisor when the IRS or your local tax authority asks questions.
+Doing it alone looks cheap if you only count state fees, but it gets expensive in time and in mistakes the IRS does not forgive: a **mis-filed 5472 is USD 25,000 per form per year** (IRC §6038A), a **BOI filed late is USD 591/day**, and a rejected ITIN leaves you without operational banking for months. The Exentax value is not just running the paperwork, it is getting it right the first time and having an accountable advisor when the IRS or your local tax authority asks questions.
 
 ### Frequently asked questions
 
-**What exactly is included in the EUR 2,000 price?** Full setup: state + EIN + Operating Agreement + initial BOI + banking onboarding + ITIN when it applies. Closed quote in writing before we start, with no surprises at the end.
+**What exactly is included in the service?** Full setup: state + EIN + Operating Agreement + initial BOI + banking onboarding + ITIN when it applies. Closed quote in writing before we start, with no surprises at the end.
 
-**And the EUR 1,500/yr annual maintenance?** Registered Agent, state Annual Report, 5472 + pro-forma 1120 filed with the IRS, BOI monitoring and coordination with your residence-country tax advisor. Full annual calendar covered.
+**And what does the annual maintenance cover?** Registered Agent, state Annual Report, 5472 + pro-forma 1120 filed with the IRS, BOI monitoring and coordination with your residence-country tax advisor. Full annual calendar covered.
 
 **Does OECD Pillar Two raise LLC cost?** No for single-member LLCs with normal turnover. GloBE only applies to groups with consolidated revenue ≥ EUR 750M.
 <!-- exentax:overhaul-today-v1 end -->
@@ -193,7 +193,7 @@ Doing it alone looks cheap if you only count state fees, but it gets expensive i
 <!-- exentax:execution-v2 -->
 ## The real cost of forming an LLC, the Exentax way
 
-What most pages skip is the gap between formation price and the actual yearly cost - registered agent, state maintenance, BOI, 5472, banking and home-country compliance. At Exentax we quote both numbers from day one.
+What most pages skip is the gap between formation and the actual yearly cost - registered agent, state maintenance, BOI, 5472, banking and home-country compliance. At Exentax we quote both numbers from day one.
 
 - **One-off formation cost**: Articles of Organization + EIN + Operating Agreement + initial BOI; closed range in writing before we start.
 - **Recurring yearly cost**: registered agent, state annual report, 5472 + pro-forma 1120, banking maintenance and residency reporting.
@@ -205,7 +205,7 @@ To see your exact figure with no surprises, run the <strong>Exentax calculator</
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Understanding%20the%20real%20costs%20of%20forming%20and%20maintaining%20a%20US%20LLC%20is%20essential%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
-If you want to see the full process in detail, check our <a href="/en/services">services page</a> with prices, timelines and deliverables.
+If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

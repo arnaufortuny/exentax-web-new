@@ -183,7 +183,7 @@ If you want us to file yours or audit one already issued, run the <strong>Exenta
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Call us at <a href="tel:+34614916910">+34 614 916 910</a> or message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22The%20EIN%20(Employer%20Identification%20Number)%20is%20the%20tax%20identification%20number%20for%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
-If you want to see the full process in detail, check our <a href="/en/services">services page</a> with prices, timelines and deliverables.
+If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

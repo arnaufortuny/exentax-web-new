@@ -92,7 +92,7 @@ Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/impostos-com-cli
 Merece seu próprio desabafo: a quota de autónomo é um imposto fixo que paga **tanto se fatura como se não**. Com o novo sistema de cotização por rendimentos, a quota sobe quando as coisas vão bem. É o único sistema fiscal do mundo que castiga pelo sucesso.
 
 Com uma LLC, não existe equivalente. Não há quota fixa mensal. Seus custos são:
-- Manutenção anual da LLC (preço fixo, tudo incluído)
+- Manutenção anual da LLC (tudo incluído, orçamento fechado por escrito)
 - Os impostos que correspondam no seu país de residência (sobre benefícios líquidos, não sobre rendimentos brutos)
 
 Não estamos a dizer que ser trabalhador autónomo esteja errado. Estamos a dizer que, se o seu perfil é digital e seus clientes são internacionais, há opções muito melhores. E que cada mês que continua a pagar a mais por inércia, é dinheiro que não recupera.

@@ -116,7 +116,7 @@ Y en el mantenimiento anual:
 - ✓ FBAR (si aplica)
 - ✓ Soporte continuo todo el año
 
-Cero extras, cero "ah, esto no estaba incluido", cero sorpresas en la factura. Un precio fijo, todo incluido, y nosotros nos encargamos de cada trámite.
+Cero extras, cero "ah, esto no estaba incluido", cero sorpresas en la factura. Un presupuesto cerrado por escrito, todo incluido, y nosotros nos encargamos de cada trámite.
 
 Agenda una asesoría gratuita y te damos los números exactos para tu caso concreto.
 
@@ -167,26 +167,26 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En Exentax nos encargamos de todo el proceso: constitución, banca, pasarelas de pago, contabilidad, declaraciones IRS y compliance en tu país de residencia. Agenda una asesoría gratuita y te diremos con sinceridad si la LLC tiene sentido para tu caso, sin promesas absolutas.
 
 <!-- exentax:overhaul-hoy-v1 -->
-## Actualización Exentax hoy: qué incluye el precio y qué te ahorras
+## Actualización Exentax hoy: qué incluye el servicio y qué te ahorras
 
-El precio de constitución Exentax **desde 2.000 €** cubre todo lo necesario para que tu LLC nazca operativa desde el primer día, con responsabilidad profesional cubierta y sin que tengas que tramitar nada en inglés jurídico:
+El servicio de constitución Exentax cubre todo lo necesario para que tu LLC nazca operativa desde el primer día, con responsabilidad profesional cubierta y sin que tengas que tramitar nada en inglés jurídico:
 
 - **Constitución legal** en el estado óptimo para tu perfil (Wyoming, New Mexico, Delaware o Florida), incluyendo Articles of Organization y tasas estatales al Secretary of State.
 - **EIN federal** tramitado ante el IRS vía SS-4 — sin colas ni formularios que obligan a explicarle a Hacienda americana qué es un no residente.
-- **Registered Agent** del primer año incluido. A partir del año 2, renovación cubierta por el mantenimiento anual **desde 1.500 €/año**.
+- **Registered Agent** del primer año incluido. A partir del año 2, renovación cubierta por el mantenimiento anual de Exentax.
 - **Operating Agreement** personalizado para tu caso, no plantilla genérica descargada de un blog.
 - **BOI Report** al FinCEN cuando aplique, con seguimiento de actualizaciones dentro del plazo legal.
 - **Form 5472 + 1120 pro forma** preparadas y presentadas cada ejercicio fiscal.
 - **Acompañamiento bancario profesional** con Relay, Slash, Wise Business y Mercury — te guiamos hasta tener cuenta operativa y pasarelas activas, sin que te abandonen tras el onboarding como ocurre con los servicios low-cost.
 - **ITIN** tramitado por W-7 cuando tu banco o pasarela lo exija.
 
-Intentar montarlo por tu cuenta parece barato cuando lo miras solo como tasas estatales, pero sale caro en tiempo y en errores que el IRS no perdona: una **5472 mal presentada son 25.000 USD de multa** (IRC §6038A), un **BOI fuera de plazo son 591 USD/día** y un ITIN rechazado te deja sin banca operativa durante meses. El precio Exentax no es el precio de hacer el trámite, es el precio de que salga bien la primera vez y de que haya un asesor responsable cuando el IRS o la AEAT pregunten.
+Intentar montarlo por tu cuenta parece barato cuando lo miras solo como tasas estatales, pero sale caro en tiempo y en errores que el IRS no perdona: una **5472 mal presentada son 25.000 USD de multa** (IRC §6038A), un **BOI fuera de plazo son 591 USD/día** y un ITIN rechazado te deja sin banca operativa durante meses. El valor Exentax no es solo hacer el trámite, es que salga bien a la primera y de que haya un asesor responsable cuando el IRS o la AEAT pregunten.
 
 ### Preguntas frecuentes
 
-**¿Qué cubre exactamente el precio desde 2.000 €?** Alta completa: estado + EIN + Operating Agreement + BOI inicial + acompañamiento bancario + ITIN cuando aplique. Presupuesto cerrado por escrito antes de empezar, sin sorpresas al final.
+**¿Qué cubre exactamente el servicio?** Alta completa: estado + EIN + Operating Agreement + BOI inicial + acompañamiento bancario + ITIN cuando aplique. Presupuesto cerrado por escrito antes de empezar, sin sorpresas al final.
 
-**¿Y el mantenimiento anual desde 1.500 €?** Registered Agent, Annual Report del estado, 5472 + 1120 pro forma presentadas al IRS, monitorización BOI y coordinación con tu asesor fiscal de residencia. Calendario anual completo cubierto.
+**¿Y qué cubre el mantenimiento anual?** Registered Agent, Annual Report del estado, 5472 + 1120 pro forma presentadas al IRS, monitorización BOI y coordinación con tu asesor fiscal de residencia. Calendario anual completo cubierto.
 
 **¿OECD Pillar Two encarece mi LLC?** No para LLC unipersonales con facturación normal. GloBE solo aplica a grupos con facturación consolidada ≥ 750 M EUR.
 <!-- exentax:overhaul-hoy-v1 end -->
@@ -194,7 +194,7 @@ Intentar montarlo por tu cuenta parece barato cuando lo miras solo como tasas es
 <!-- exentax:execution-v2 -->
 ## El coste real de constituir una LLC, según el método Exentax
 
-Lo que la mayoría de páginas no cuenta es la diferencia entre el precio de constitución y el coste anual real, que incluye registered agent, mantenimiento estatal, BOI, 5472, banking y cumplimiento en residencia. En Exentax presupuestamos los dos números desde el principio.
+Lo que la mayoría de páginas no cuenta es la diferencia entre la constitución y el coste anual real, que incluye registered agent, mantenimiento estatal, BOI, 5472, banking y cumplimiento en residencia. En Exentax presupuestamos los dos números desde el principio.
 
 - **Coste único de constitución**: Articles of Organization + EIN + Operating Agreement + BOI inicial; rango cerrado por escrito antes de empezar.
 - **Coste anual recurrente**: registered agent, annual report estatal, 5472 + 1120 pro-forma, mantenimiento de banking y reporting de residencia.
@@ -212,7 +212,7 @@ Para ver tu cifra exacta sin sorpresas, lanza la <strong>calculadora Exentax</st
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22cuanto%20cuesta%20constituir%20llc%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
-Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/servicios">página de servicios</a> con precios, plazos y entregables.
+Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/servicios">página de servicios</a> con todo lo que incluimos.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

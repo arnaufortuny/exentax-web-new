@@ -94,7 +94,7 @@ Algunos matices quedaron cortos y conviene leerlos aparte: <a href="/es/blog/imp
 Merece su propio rant: la cuota de autónomos es un impuesto fijo que pagas **tanto si facturas como si no**. Con el nuevo sistema de cotización por ingresos, la cuota sube cuando te va bien. Es el único sistema fiscal del mundo que te castiga por tener éxito.
 
 Con una LLC, no existe equivalente. No hay cuota fija mensual. Tus costes son:
-- Mantenimiento anual de la LLC (precio fijo, todo incluido)
+- Mantenimiento anual de la LLC (todo incluido, presupuesto cerrado por escrito)
 - Los impuestos que correspondan en tu país de residencia (sobre beneficios netos, no sobre ingresos brutos)
 
 No te decimos que ser autónomo esté mal. Te decimos que, si tu perfil es digital y tus clientes son internacionales, hay opciones mucho mejores. Y que cada mes que sigues pagando de más por inercia, es dinero que no recuperas.

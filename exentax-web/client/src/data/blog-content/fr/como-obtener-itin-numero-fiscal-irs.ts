@@ -71,7 +71,7 @@ Trois facteurs accélèrent ou freinent le processus:
 - **Documents physiques.** Si vous passez par l'envoi du passeport, ajoutez le délai aller-retour (semaines). C'est pourquoi nous recommandons toujours la voie CAA.
 ## Coûts et erreurs courantes
 
-L'IRS **ne facture aucun frais** pour émettre un ITIN. Les coûts du processus sont ceux du CAA et, le cas échéant, du préparateur du 1040-NR. Chez Exentax, prix fermé pour le processus ITIN clé en main, communiqué d'avance, sans surprise. Les six erreurs typiques en autonomie sont toujours les mêmes:
+L'IRS **ne facture aucun frais** pour émettre un ITIN. Les coûts du processus sont ceux du CAA et, le cas échéant, du préparateur du 1040-NR. Chez Exentax, devis fermé pour le processus ITIN clé en main, communiqué d'avance, sans surprise. Les six erreurs typiques en autonomie sont toujours les mêmes:
 
 1. Cocher le mauvais motif sur le W-7 (notamment confondre motif « b » avec « h » ou appliquer « a » sans convention applicable).
 2. Envoyer le W-7 sans la déclaration support quand elle était obligatoire.

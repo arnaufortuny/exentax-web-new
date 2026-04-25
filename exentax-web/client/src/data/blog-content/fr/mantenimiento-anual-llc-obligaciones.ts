@@ -96,7 +96,7 @@ Tout dépend de l'État:
 | BOI Report (mise à jour) | Inclus | Inclus | Inclus |
 | Support continu | Inclus | Inclus | Inclus |
 
-Chez Exentax, le plan de maintenance annuelle couvre tout ce qui précède. Aucune surprise, aucun supplément, aucun « ah, ça n'était pas inclus ». Un prix fixe annuel et nous nous chargeons de chaque démarche, chaque formulaire et chaque échéance.
+Chez Exentax, le plan de maintenance annuelle couvre tout ce qui précède. Aucune surprise, aucun supplément, aucun « ah, ça n'était pas inclus ». Un devis fermé annuel et nous nous chargeons de chaque démarche, chaque formulaire et chaque échéance.
 
 Pour refermer, une lecture connexe qui s'inscrit dans le prolongement de ce papier: <a href="/fr/blog/conformite-aml-pour-votre-llc-ce-que-vous-devez-savoir">Conformité AML pour votre LLC: ce que vous devez savoir</a> aide à parachever le contexte.
 ## Que se passe-t-il si je ne fais pas la maintenance?
@@ -192,7 +192,7 @@ Pour que nous tenions votre maintenance annuelle ou auditer le dernier exercice 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Appelez-nous au <a href="tel:+34614916910">+34 614 916 910</a> ou écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Beaucoup%20d'entrepreneurs%20fran%C3%A7ais%20nous%20arrivent%20avec%20des%20LLC%20cr%C3%A9%C3%A9es%20il%20y%20a%2018%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
-Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec prix, délais et livrables.
+Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

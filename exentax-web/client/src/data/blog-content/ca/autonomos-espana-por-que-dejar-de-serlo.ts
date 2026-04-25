@@ -92,7 +92,7 @@ Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/i
 Mereix el seu propi rant: la quota d'autònoms és un impost fix que pagues **tant si factures com si no**. Amb el nou sistema de cotització per ingressos, la quota puja quan et va bé. És l'únic sistema fiscal del món que et castiga per tenir èxit.
 
 Amb una LLC, no existeix equivalent. No hi ha quota fixa mensual. Els teus costos són:
-- Manteniment anual de la LLC (preu fix, tot inclòs)
+- Manteniment anual de la LLC (tot inclòs, pressupost tancat per escrit)
 - Els impostos que corresponguin al teu país de residència (sobre beneficis nets, no sobre ingressos bruts)
 
 No et diem que ser autònom estigui malament. Et diem que, si el teu perfil és digital i els teus clients són internacionals, hi ha opcions molt millors. I que cada mes que segueixes pagant de més per inèrcia, són diners que no recuperes.

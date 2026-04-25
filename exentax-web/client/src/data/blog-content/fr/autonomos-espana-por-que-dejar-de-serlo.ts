@@ -92,7 +92,7 @@ Quelques lectures voisines à garder sous la main: <a href="/fr/blog/impots-avec
 Elle mérite sa propre critique: la cotisation auto-entrepreneur est un impôt fixe que vous payez **que vous facturiez ou non**. Avec le nouveau système de cotisation par revenus, la cotisation augmente quand ça va bien. C'est le seul système fiscal au monde qui vous punit pour avoir du succès.
 
 Avec une LLC, il n'y a pas d'équivalent. Pas de cotisation fixe mensuelle. Vos coûts sont:
-- Maintenance annuelle de la LLC (prix fixe, tout compris)
+- Maintenance annuelle de la LLC (tout compris, devis fermé par écrit)
 - Les impôts correspondants dans votre pays de résidence (sur les bénéfices nets, pas sur les revenus bruts)
 
 Nous ne disons pas qu'être auto-entrepreneur est une mauvaise chose. Nous disons que, si votre profil est digital et que vos clients sont internationaux, il existe des options bien meilleures. Et que chaque mois où vous continuez à trop payer par inertie, c'est de l'argent que vous ne récupérez pas.

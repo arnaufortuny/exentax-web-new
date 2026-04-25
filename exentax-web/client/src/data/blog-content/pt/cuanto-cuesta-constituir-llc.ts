@@ -114,7 +114,7 @@ E na manutenção anual:
 - FBAR (se aplicável)
 - Suporte contínuo todo o ano
 
-Zero extras, zero "ah, isto não estava incluído", zero surpresas na fatura. Um preço fixo, tudo incluído, e nós tratamos de cada trâmite.
+Zero extras, zero "ah, isto não estava incluído", zero surpresas na fatura. Um orçamento fechado por escrito, tudo incluído, e nós tratamos de cada trâmite.
 
 Agenda uma assessoria gratuita e damos-te os números exatos para o teu caso concreto.
 
@@ -164,26 +164,26 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 Cada situação fiscal depende da sua residência, da atividade exercida e dos contratos em vigor. As informações aqui apresentadas são gerais e não substituem aconselhamento personalizado; analise o seu caso específico antes de tomar decisões estruturais.
 
 <!-- exentax:overhaul-hoje-v1 -->
-## Atualização Exentax: o que o preço cobre e o que lhe poupa
+## Atualização Exentax: o que o serviço cobre e o que lhe poupa
 
-O preço de constituição Exentax **a partir de 2.000 €** cobre tudo o que a sua LLC precisa para estar operacional desde o primeiro dia, com responsabilidade profissional incluída e sem que tenha de tratar de nada em inglês jurídico:
+O serviço de constituição Exentax cobre tudo o que a sua LLC precisa para estar operacional desde o primeiro dia, com responsabilidade profissional incluída e sem que tenha de tratar de nada em inglês jurídico:
 
 - **Constituição legal** no estado ótimo para o seu perfil (Wyoming, New Mexico, Delaware ou Florida), com Articles of Organization e taxas estaduais pagas ao Secretary of State.
 - **EIN federal** tratado junto ao IRS via SS-4 — sem filas nem formulários que exigem explicar a Washington o que é um não residente.
-- **Registered Agent** do primeiro ano incluído. A partir do ano 2, a renovação é coberta pela manutenção anual **a partir de 1.500 €/ano**.
+- **Registered Agent** do primeiro ano incluído. A partir do ano 2, a renovação é coberta pela manutenção anual Exentax.
 - **Operating Agreement** personalizado para o seu caso, não um modelo genérico descarregado de um blog.
 - **BOI Report** junto ao FinCEN quando aplicável, com acompanhamento de atualizações dentro do prazo legal.
 - **Form 5472 + 1120 pro forma** preparados e submetidos em cada exercício fiscal.
 - **Acompanhamento bancário profissional** com Relay, Slash, Wise Business e Mercury — guiamo-lo até ter conta operacional e gateways ativos, em vez de o deixar abandonado após o onboarding, como fazem os serviços low-cost.
 - **ITIN** tratado via W-7 quando o seu banco ou gateway o exigir.
 
-Fazê-lo sozinho parece barato se olhar só para as taxas estaduais, mas sai caro em tempo e em erros que o IRS não perdoa: um **5472 mal submetido são 25.000 USD por formulário por ano** (IRC §6038A), um **BOI fora de prazo são 591 USD/dia** e um ITIN rejeitado deixa-o sem banca operacional durante meses. O preço Exentax não é o preço de fazer o trâmite, é o preço de tudo correr bem à primeira vez e de haver um consultor responsável quando o IRS ou a AT pedirem contas.
+Fazê-lo sozinho parece barato se olhar só para as taxas estaduais, mas sai caro em tempo e em erros que o IRS não perdoa: um **5472 mal submetido são 25.000 USD por formulário por ano** (IRC §6038A), um **BOI fora de prazo são 591 USD/dia** e um ITIN rejeitado deixa-o sem banca operacional durante meses. O valor Exentax não é apenas fazer o trâmite, é que tudo corra bem à primeira vez e de haver um consultor responsável quando o IRS ou a AT pedirem contas.
 
 ### Perguntas frequentes
 
-**O que cobre exatamente o preço a partir de 2.000 €?** Constituição completa: estado + EIN + Operating Agreement + BOI inicial + acompanhamento bancário + ITIN quando aplicável. Orçamento fechado por escrito antes de começar, sem surpresas no final.
+**O que cobre exatamente o serviço?** Constituição completa: estado + EIN + Operating Agreement + BOI inicial + acompanhamento bancário + ITIN quando aplicável. Orçamento fechado por escrito antes de começar, sem surpresas no final.
 
-**E a manutenção anual a partir de 1.500 €?** Registered Agent, Annual Report do estado, 5472 + 1120 pro forma submetidos ao IRS, monitorização BOI e coordenação com o seu consultor fiscal no país de residência. Calendário anual completo coberto.
+**E o que cobre a manutenção anual?** Registered Agent, Annual Report do estado, 5472 + 1120 pro forma submetidos ao IRS, monitorização BOI e coordenação com o seu consultor fiscal no país de residência. Calendário anual completo coberto.
 
 **Pillar Two da OCDE encarece a LLC?** Não para LLC unipessoais com faturação normal. GloBE aplica-se apenas a grupos consolidados ≥ 750 M EUR.
 <!-- exentax:overhaul-hoje-v1 end -->
@@ -191,7 +191,7 @@ Fazê-lo sozinho parece barato se olhar só para as taxas estaduais, mas sai car
 <!-- exentax:execution-v2 -->
 ## O custo real de constituir uma LLC, método Exentax
 
-O que a maioria das páginas omite é a diferença entre o preço de constituição e o custo anual real - registered agent, manutenção estadual, BOI, 5472, banca e cumprimento em residência. Na Exentax orçamos os dois desde o início.
+O que a maioria das páginas omite é a diferença entre a constituição e o custo anual real - registered agent, manutenção estadual, BOI, 5472, banca e cumprimento em residência. Na Exentax orçamos os dois desde o início.
 
 - **Custo único de constituição**: Articles of Organization + EIN + Operating Agreement + BOI inicial; intervalo fechado por escrito antes de começar.
 - **Custo anual recorrente**: registered agent, annual report estadual, 5472 + 1120 pro-forma, manutenção bancária e reporting de residência.
@@ -203,7 +203,7 @@ Para ver o seu número exacto sem surpresas, abra a <strong>calculadora Exentax<
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Queres falar agora? Liga-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Vamos%20falar%20de%20dinheiro%2C%20diretamente%20e%20sem%20rodeios%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
-Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com preços, prazos e entregáveis.
+Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

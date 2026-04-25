@@ -98,7 +98,7 @@ Todo depende del estado:
 | BOI Report (actualización) | Incluido | Incluido | Incluido |
 | Soporte continuo | Incluido | Incluido | Incluido |
 
-En Exentax, el plan de mantenimiento anual cubre todo lo anterior. Cero sorpresas, cero extras, cero "ah, esto no estaba incluido". Un precio fijo anual y nosotros nos encargamos de cada trámite, cada formulario y cada plazo.
+En Exentax, el plan de mantenimiento anual cubre todo lo anterior. Cero sorpresas, cero extras, cero "ah, esto no estaba incluido". Un presupuesto cerrado anual y nosotros nos encargamos de cada trámite, cada formulario y cada plazo.
 
 Cierro con una lectura relacionada que encaja con el hilo de este artículo: <a href="/es/blog/prevencion-blanqueo-capitales-llc">Prevención de blanqueo de capitales: lo que tu LLC necesita saber</a> es una pieza útil para terminar de contextualizar el escenario.
 ## ¿Qué pasa si no hago el mantenimiento?
@@ -203,7 +203,7 @@ Si quieres que llevemos tu mantenimiento anual o auditar el último ejercicio ce
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Llámanos al <a href="tel:+34614916910">+34 614 916 910</a> o escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22mantenimiento%20anual%20llc%20obligaciones%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
-Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/servicios">página de servicios</a> con precios, plazos y entregables.
+Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/servicios">página de servicios</a> con todo lo que incluimos.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
