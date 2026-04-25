@@ -178,7 +178,7 @@ If your plan is to set up the LLC in Wyoming, check our service page <a href="/e
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Formation from €2,000 and maintenance from €1,500/year. The initial consultation is free. <a href="/en/services/llc-wyoming">Book a free consultation</a>.
+No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free. <a href="/en/services/llc-wyoming">Calculate my savings</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

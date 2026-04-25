@@ -13,7 +13,7 @@
  *   - PT is European Portuguese (vocabulary + spelling).
  *   - CA is Catalan (eastern variety, formal but warm).
  *   - Pricing references follow the canonical formula
- *     "desde 2.000 € constitución / 1.500 € mantenimiento" (or its locale
+ *     "calcula tu ahorro" / "consulta gratuita" (or its locale
  *     equivalent) — never invented, never approximated.
  *
  * Pattern → editorial intent
@@ -208,40 +208,40 @@ export const BLOG_CTA_LIBRARY: LibraryShape = {
 
   pricing_quote: {
     es: {
-      title: "Cifras claras antes de decidir",
-      desc: "Constitución desde 2.000 € y mantenimiento desde 1.500 €/año. La consulta inicial es gratuita.",
-      primary: "Pedir consulta gratuita",
-      whatsappMsg: "Hola, me gustaría conocer el coste real de constituir y mantener mi LLC. ¿Podemos hablar?",
+      title: "Calcula cuánto ahorras antes de decidir",
+      desc: "Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita.",
+      primary: "Calcular mi ahorro",
+      whatsappMsg: "Hola, me gustaría calcular el ahorro real con una LLC en mi caso. ¿Podemos hablar?",
     },
     en: {
-      title: "Clear numbers before you decide",
-      desc: "Formation from €2,000 and maintenance from €1,500/year. The initial consultation is free.",
-      primary: "Book a free consultation",
-      whatsappMsg: "Hi, I'd like to understand the real cost of forming and maintaining my LLC. Can we talk?",
+      title: "Calculate your savings before you decide",
+      desc: "No mandatory monthly fee, 100% remote process, real support when you need it. The initial consultation is free.",
+      primary: "Calculate my savings",
+      whatsappMsg: "Hi, I'd like to calculate the real savings with an LLC in my case. Can we talk?",
     },
     fr: {
-      title: "Des chiffres clairs avant de décider",
-      desc: "Création à partir de 2 000 € et maintenance à partir de 1 500 €/an. La première consultation est gratuite.",
-      primary: "Réserver une consultation gratuite",
-      whatsappMsg: "Bonjour, j'aimerais connaître le coût réel de création et de maintenance de ma LLC. Pouvons-nous en parler ?",
+      title: "Calculez vos économies avant de décider",
+      desc: "Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite.",
+      primary: "Calculer mes économies",
+      whatsappMsg: "Bonjour, j'aimerais calculer les économies réelles avec une LLC dans mon cas. Pouvons-nous en parler ?",
     },
     de: {
-      title: "Klare Zahlen, bevor Sie entscheiden",
-      desc: "Gründung ab 2.000 € und laufender Betrieb ab 1.500 €/Jahr. Das Erstgespräch ist kostenlos.",
-      primary: "Kostenloses Erstgespräch buchen",
-      whatsappMsg: "Hallo, ich möchte die realen Kosten für Gründung und Betrieb meiner LLC kennen. Können wir sprechen?",
+      title: "Berechnen Sie Ihre Ersparnisse, bevor Sie entscheiden",
+      desc: "Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos.",
+      primary: "Meine Ersparnisse berechnen",
+      whatsappMsg: "Hallo, ich möchte die realen Ersparnisse mit einer LLC in meinem Fall berechnen. Können wir sprechen?",
     },
     pt: {
-      title: "Números claros antes de decidir",
-      desc: "Constituição desde 2.000 € e manutenção desde 1.500 €/ano. A consulta inicial é gratuita.",
-      primary: "Marcar consulta gratuita",
-      whatsappMsg: "Olá, gostaria de conhecer o custo real de constituir e manter a minha LLC. Podemos falar?",
+      title: "Calcula a tua poupança antes de decidir",
+      desc: "Sem mensalidade obrigatória, processo 100% remoto, suporte real quando precisares. A consulta inicial é gratuita.",
+      primary: "Calcular a minha poupança",
+      whatsappMsg: "Olá, gostaria de calcular a poupança real com uma LLC no meu caso. Podemos falar?",
     },
     ca: {
-      title: "Xifres clares abans de decidir",
-      desc: "Constitució des de 2.000 € i manteniment des de 1.500 €/any. La consulta inicial és gratuïta.",
-      primary: "Demanar consulta gratuïta",
-      whatsappMsg: "Hola, m'agradaria conèixer el cost real de constituir i mantenir la meva LLC. Podem parlar?",
+      title: "Calcula el teu estalvi abans de decidir",
+      desc: "Sense quota mensual obligatòria, procés 100% remot, suport real quan el necessitis. La consulta inicial és gratuïta.",
+      primary: "Calcular el meu estalvi",
+      whatsappMsg: "Hola, m'agradaria calcular l'estalvi real amb una LLC en el meu cas. Podem parlar?",
     },
   },
 

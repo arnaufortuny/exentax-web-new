@@ -242,7 +242,7 @@ Si vous souhaitez voir le processus complet en détail, consultez notre <a href=
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Création à partir de 2 000 € et maintenance à partir de 1 500 €/an. La première consultation est gratuite. <a href="/fr/services">Réserver une consultation gratuite</a>.
+Sans cotisation mensuelle obligatoire, processus 100% à distance, support réel quand vous en avez besoin. La première consultation est gratuite. <a href="/fr/services">Calculer mes économies</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

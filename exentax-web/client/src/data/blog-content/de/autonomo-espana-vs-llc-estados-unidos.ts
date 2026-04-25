@@ -242,7 +242,7 @@ Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Gründung ab 2.000 € und laufender Betrieb ab 1.500 €/Jahr. Das Erstgespräch ist kostenlos. <a href="/de/leistungen">Kostenloses Erstgespräch buchen</a>.
+Keine monatlichen Pflichtbeiträge, 100% remoter Prozess, echte Betreuung wenn Sie sie brauchen. Das Erstgespräch ist kostenlos. <a href="/de/leistungen">Meine Ersparnisse berechnen</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

@@ -244,7 +244,7 @@ Si quieres ver el detalle del proceso completo, repasa nuestra <a href="/es/serv
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Constitución desde 2.000 € y mantenimiento desde 1.500 €/año. La consulta inicial es gratuita. <a href="/es/servicios">Pedir consulta gratuita</a>.
+Sin cuota mensual obligatoria, proceso 100% remoto, soporte real cuando lo necesites. La consulta inicial es gratuita. <a href="/es/servicios">Calcular mi ahorro</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->
