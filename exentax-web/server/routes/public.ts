@@ -1225,6 +1225,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             `    <loc>${SITE_URL}/${lang}/blog/${escapeXml(locSlug)}</loc>\n`,
           ];
           if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
+          parts.push(`    <changefreq>monthly</changefreq>\n`);
+          parts.push(`    <priority>0.8</priority>\n`);
           // Always emit all 6 hreflang alternates + x-default. When a locale
           // does not have its own translation yet, fall back to the ES URL
           // (Google's recommended interim behavior) so the matrix stays
