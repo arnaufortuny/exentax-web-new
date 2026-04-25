@@ -56,7 +56,7 @@ Les fintechs van resoldre aquest problema. Mercury, Relay i Wise permeten obrir 
 | Tipus | Money Transmitter | Fintech | EMI | EMI |
 | Banc subjacent | Column NA | Thread Bank | N/A (safeguarding) | Banc partner |
 | FDIC | Sí (fins a $5M) | Sí ($250K) | No | Sí ($250K) |
-| Obertura remota | Sí | Sí | Sí | Sí |
+| Obertura online | Sí | Sí | Sí | Sí |
 | Targeta | Virtual + física | Virtual + física | Virtual + física | Virtual + física |
 | Multidivisa | No (només USD) | No (només USD) | Sí (40+) | Sí (30+) |
 | ACH gratis | Sí | Sí | Sí | Sí |
@@ -130,7 +130,7 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 Milers de freelancers i emprenedors ja operen amb la seva LLC americana de manera 100% legal i documentada. A Exentax ens encarreguem de tot el procés: constitució, banca, passarel·les de pagament, comptabilitat, declaracions <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> i compliance al teu país de residència. Reserva una assessoria gratuïta i et direm amb sinceritat si la LLC té sentit per al teu cas, sense promeses absolutes.<!-- exentax:execution-v2 -->
 ## Com decidir entre banc tradicional i fintech per a la teva LLC
 
-La pregunta "banc o fintech?" té una resposta menys romàntica del que diu LinkedIn: depèn del perfil de risc de la teva activitat, del país des d'on operes i de quant valor dones a la disponibilitat remota davant la robustesa en un KYC ampliat. Aquests són els eixos amb què decidim a cada cas.
+La pregunta "banc o fintech?" té una resposta menys romàntica del que diu LinkedIn: depèn del perfil de risc de la teva activitat, del país des d'on operes i de quant valor dones a la disponibilitat online davant la robustesa en un KYC ampliat. Aquests són els eixos amb què decidim a cada cas.
 
 - **Disponibilitat real per a no residents.** Mercury, Relay i Wise Business són les tres opcions que accepten no residents amb ràtio raonable d'aprovació. Els bancs federals (Chase, BofA, Citibank) requereixen visita presencial als EUA i, en moltes sucursals, adreça americana pròpia. Si ets fora, la fintech és l'entrada pràctica.
 - **Robustesa en KYC ampliat.** Mercury opera via Choice Financial, Evolve Bank & Trust i Column N.A. amb cobertura FDIC en sweep network. En un tancament, el saldo es retorna per xec a l'adreça registrada - operativament difícil per a no residents. Tenir un segon compte actiu (Relay o Wise Business) és contingència, no paranoia.

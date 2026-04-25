@@ -939,7 +939,7 @@ const de = {
     whatsappMsg1: "Hallo, ich glaube, ich passe zum Profil, das Sie beschreiben. Können wir ein kurzes Gespräch führen, um zu sehen, ob es Verbesserungsspielraum bei meiner Steuersituation gibt?",
     whatsappMsg2: "Hallo, ich schreibe, weil ich glaube, zum Profil Ihrer Kunden zu passen. Ich möchte verstehen, ob ich meine Steuerlast reduzieren kann. Wann könnten wir sprechen?",
     fitsYou: "Das passt zu Ihnen, wenn…",
-    profiles: [{"title":"Internationale Kunden","desc":"Sie stellen online Rechnungen, empfangen Zahlungen in mehreren Währungen und Ihre aktuelle Struktur wird der realen Dimension Ihrer Tätigkeit nicht mehr gerecht."},{"title":"Finanzmärkte","desc":"Trading, Investitionen oder Krypto mit wachsendem Volumen. Alles im persönlichen Bereich zu behalten ist keine strategische Entscheidung mehr."},{"title":"Sie monetarisieren Ihr eigenes Publikum","desc":"YouTube, Affiliate, Sponsoring oder Training. Mehrere Einkommensquellen erfordern eine kohärente Steuerarchitektur."},{"title":"Digitale Produkte","desc":"Abonnements, internationale Kunden und wiederkehrende Zahlungen. Stabiles Wachstum erfordert eine gut konzipierte Basis."},{"title":"Sie leiten eine Agentur oder ein Remote-Team","desc":"Globale Einkünfte, Mitarbeiter in verschiedenen Ländern und ständiger Operationsfluss. Sie brauchen Struktur, keine temporären Lösungen."},{"title":"Sie arbeiten international","desc":"Sie arbeiten online, reisen oder diversifizieren Ihren Wohnsitz. Ihre Unternehmensstruktur sollte sich an Ihre internationale Realität anpassen."}]
+    profiles: [{"title":"Internationale Kunden","desc":"Sie stellen online Rechnungen, empfangen Zahlungen in mehreren Währungen und Ihre aktuelle Struktur wird der realen Dimension Ihrer Tätigkeit nicht mehr gerecht."},{"title":"Finanzmärkte","desc":"Trading, Investitionen oder Krypto mit wachsendem Volumen. Alles im persönlichen Bereich zu behalten ist keine strategische Entscheidung mehr."},{"title":"Sie monetarisieren Ihr eigenes Publikum","desc":"YouTube, Affiliate, Sponsoring oder Training. Mehrere Einkommensquellen erfordern eine kohärente Steuerarchitektur."},{"title":"Digitale Produkte","desc":"Abonnements, internationale Kunden und wiederkehrende Zahlungen. Stabiles Wachstum erfordert eine gut konzipierte Basis."},{"title":"Sie leiten eine Agentur oder ein digitales Team","desc":"Globale Einkünfte, Mitarbeiter in verschiedenen Ländern und ständiger Operationsfluss. Sie brauchen Struktur, keine temporären Lösungen."},{"title":"Sie arbeiten international","desc":"Sie arbeiten online, reisen oder diversifizieren Ihren Wohnsitz. Ihre Unternehmensstruktur sollte sich an Ihre internationale Realität anpassen."}]
   },
   howItWorks: {
     tag: "PROZESS",
@@ -1451,7 +1451,7 @@ const de = {
     keyBenefits: ["Schutz des Privatvermögens vor Geschäftsschulden","Legale Steueroptimierung: 0 % Bundessteuer ohne physische Präsenz in den USA","Dollar-Bankkonto bei Mercury oder Relay mit physischen und virtuellen Karten","Zugang zu Stripe, PayPal Business und internationalen Zahlungsgateways","Professionelle Glaubwürdigkeit bei internationalen Kunden und Anbietern","Totale Flexibilität: kein Vorstand, keine Aktionäre, keine Bürokratie"],
     whyLabel: "VORTEILE",
     whyTitle: "Warum eine LLC, wenn Sie nicht in den USA leben",
-    whyDesc: "Sie müssen nicht in den USA wohnen, ein Visum haben oder US-Bürger sein. Jede Person jeder Nationalität kann eine amerikanische LLC vollständig remote gründen und betreiben.",
+    whyDesc: "Sie müssen nicht in den USA wohnen, ein Visum haben oder US-Bürger sein. Jede Person jeder Nationalität kann eine amerikanische LLC vollständig online gründen und betreiben.",
     benefitTaxTitle: "Steueroptimierung",
     benefitTaxDesc: "Eine Single-Member LLC zahlt keine Körperschaftssteuer in den USA, wenn Sie keine physische Präsenz haben. Die Bundessteuer beträgt 0 %. Sie deklarieren Gewinne in Ihrem Wohnsitzland mit der Möglichkeit, die Besteuerung aufzuschieben.",
     benefitBankTitle: "Internationaler Bankzugang",
@@ -1918,7 +1918,7 @@ const de = {
     whoItem2: "Sie Inhalte, Schulungen oder Software monetarisieren",
     whoItem3: "Sie Zahlungen in mehreren Währungen erhalten",
     whoItem4: "Ihr Umsatz wächst und Sie Unordnung spüren",
-    whoItem5: "Sie reisen oder remote arbeiten",
+    whoItem5: "Sie reisen oder online arbeiten",
     whoItem6: "Sie das Richtige zahlen möchten, ohne in Zweifeln zu leben",
     whoNote1: "Der Kanal spielt keine Rolle.",
     whoNote2: "Wichtig ist, dass die Struktur Sinn ergibt.",
@@ -2090,7 +2090,7 @@ calculator: {
       digitalAgency: "Digitalagentur",
       outsourcing: "Outsourcing",
       virtualAssistant: "Virtueller Assistent",
-      remoteTeam: "Remote-Team-Management",
+      remoteTeam: "Digital-Team-Management",
       cryptoInvestments: "Krypto- / DeFi-Investitionen",
       nftDigitalAssets: "NFT / digitale Assets",
       onlineBetting: "Online-Wetten / Arbitrage",

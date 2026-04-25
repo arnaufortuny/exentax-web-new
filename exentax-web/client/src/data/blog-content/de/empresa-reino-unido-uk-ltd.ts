@@ -127,7 +127,7 @@ Für reine Steueroptimierung ohne britische Präsenz löst die US-LLC den Durchs
 
 - Internationale Tätigkeit mit Kunden in mehreren Ländern.
 - Reine Unternehmenssteueroptimierung ohne lokale Präsenz.
-- Notwendiges Remote-Banking.
+- Notwendiges Online-Banking.
 - Niedrige Betriebskosten und minimale Compliance.
 - Internationale Zahlungsanbieter (Stripe USA, DoDo, Adyen).
 ### Typische Anwendungsfälle

@@ -153,7 +153,7 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 
 Es gibt keine universal optimale Struktur. Was für einen Digital-Freelancer mit EU-Kunden in Spanien optimal ist, ist katastrophal für einen Amazon-Seller in LatAm. Bevor wir LLC, EOOD, UK Ltd oder Selbstständigkeit vorschlagen, stellen wir immer diese drei Fragen - und die Antworten treiben die Entscheidung.
 
-- **Wo ist Ihre echte Steueransässigkeit, nicht die administrative?** Festgelegt durch Tage, Lebensmittelpunkt und, bei Doppelansässigkeit, durch DBA. Leben Sie mit Familie in Berlin und arbeiten remote, sind Sie deutscher Steueransässiger trotz Wohnsitz andernorts. Das legt persönliche Besteuerung und oft Hinzurechnung fest.
+- **Wo ist Ihre echte Steueransässigkeit, nicht die administrative?** Festgelegt durch Tage, Lebensmittelpunkt und, bei Doppelansässigkeit, durch DBA. Leben Sie mit Familie in Berlin und arbeiten online, sind Sie deutscher Steueransässiger trotz Wohnsitz andernorts. Das legt persönliche Besteuerung und oft Hinzurechnung fest.
 - **Wer sind Ihre Kunden und wo sind sie?** B2B in EU verlangt Reverse-Charge oder lokale Registrierungen je Dienst; B2C in EU löst OSS/IOSS aus; globale B2B und B2C ohne EU-Konzentration lassen sich mit US-LLC ohne USt vereinfachen. Die Struktur folgt der kommerziellen Realität, nicht umgekehrt.
 - **Welches Volumen und welche 24-Monats-Prognose?** Unter 50k EUR jährlich ist die einfache Selbstständigkeit oft optimal; 50-150k hängt vom Kundenmix ab; über 150k werden internationale Optionen kosten-nutzen-mäßig wettbewerbsfähig. Jährliche Strukturwechsel zerstören mehr Wert als Nominalersparnis bringt.
 

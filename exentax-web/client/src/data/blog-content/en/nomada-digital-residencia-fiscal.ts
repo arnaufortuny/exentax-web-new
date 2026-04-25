@@ -1,4 +1,4 @@
-export default `If you work remotely while traveling between countries, your tax situation is one of the most complex, and most misunderstood, in modern entrepreneurship. Here's a clear, practical guide.
+export default `If you work online while traveling between countries, your tax situation is one of the most complex, and most misunderstood, in modern entrepreneurship. Here's a clear, practical guide.
 
 ## The fundamental question: where are you a tax resident?
 

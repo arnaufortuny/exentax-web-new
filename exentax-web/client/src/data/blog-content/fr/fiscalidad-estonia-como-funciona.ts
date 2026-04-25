@@ -6,7 +6,7 @@ Ici nous nous concentrons sur le "comment ça fonctionne": ce qu'est l'e-Residen
 
 ## L'e-Residency: ce que c'est et ce que ce n'est pas
 
-L'e-Residency est un programme du gouvernement estonien qui offre à toute personne dans le monde une identité numérique émise par l'Estonie. Elle permet de signer des documents électroniquement avec validité légale en Estonie et dans l'UE, de constituer et gérer une entreprise estonienne (OÜ) entièrement à distance, et d'opérer avec des services estoniens en ligne.
+L'e-Residency est un programme du gouvernement estonien qui offre à toute personne dans le monde une identité numérique émise par l'Estonie. Elle permet de signer des documents électroniquement avec validité légale en Estonie et dans l'UE, de constituer et gérer une entreprise estonienne (OÜ) entièrement en ligne, et d'opérer avec des services estoniens en ligne.
 
 Ce qu'elle **n'est pas**:
 
@@ -88,7 +88,7 @@ Opérable mais limité. Stripe et PayPal fonctionnent avec OÜ.
 ### Cas typiques où cela s'applique
 
 **Cas 1: SaaS bootstrappé qui réinvestit 100 % des bénéfices dans le produit et le marketing.**
-L'Estonie est parfaite. Imposition zéro jusqu'à distribution, logiciel bancaire et fiscal entièrement numérique, e-Residency facilite la gestion à distance. Le réinvestissement soutenu amplifie la valeur du régime.
+L'Estonie est parfaite. Imposition zéro jusqu'à distribution, logiciel bancaire et fiscal entièrement numérique, e-Residency facilite la gestion en ligne. Le réinvestissement soutenu amplifie la valeur du régime.
 
 **Cas 2: consultant européen avec 80 000 EUR/an qui a besoin de l'argent pour vivre.**
 L'Estonie est un mauvais choix. Chaque distribution est imposée à 22 % effectif plus impôt dans votre pays de résidence. La charge totale dépasse celle d'autres structures européennes ou de la LLC américaine.
@@ -171,7 +171,7 @@ Le système fiscal estonien a été vendu des années comme "0% corporate" - tec
 
 - **Mécanique réelle du 0%.** Si l'OÜ réinvestit 100% du bénéfice (produit, marketing, embauche, R&D, achats d'actifs), corporate tax 0%. Distribuer en dividende active 22% (ou 14% si régulier sur 3 ans, sur la part distribuable régulière). Société qui doit extraire cash annuellement: avantage devient différé, pas élimination.
 - **Résidence personnelle et SEC.** OÜ avec associé résident France: SEC applique si imposition effective estonienne <50% française et société sans substance. Sans bureau ni salariés en Estonie, l'administration peut imputer revenus passifs directement. Substance minimale (bureau virtuel + directeur estonien) réduit risque sans l'éliminer.
-- **e-Residency: identité numérique, pas résidence fiscale.** L'e-Residency permet de gérer l'OÜ à distance via portail numérique, signer contrats et déclarations électroniquement. NE confère PAS de résidence fiscale estonienne, NE donne PAS le droit de vivre en Estonie, NE réduit PAS votre obligation fiscale en résidence. Outil opérationnel, pas structure fiscale.
+- **e-Residency: identité numérique, pas résidence fiscale.** L'e-Residency permet de gérer l'OÜ en ligne via portail numérique, signer contrats et déclarations électroniquement. NE confère PAS de résidence fiscale estonienne, NE donne PAS le droit de vivre en Estonie, NE réduit PAS votre obligation fiscale en résidence. Outil opérationnel, pas structure fiscale.
 - **Banque opérationnelle accessible.** Wise Business et LHV ouvrent à OÜ avec e-resident sans présence physique, KYC modéré. Swedbank et SEB (banques traditionnelles) exigent visite présentielle pour non-résidents. Stripe et Paddle acceptent OÜ sans friction particulière.
 
 ### Ce qu'on nous demande le plus

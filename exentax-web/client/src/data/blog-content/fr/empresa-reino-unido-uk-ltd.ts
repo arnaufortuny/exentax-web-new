@@ -129,7 +129,7 @@ Pour de l'optimisation fiscale pure sans présence britannique réelle, la LLC a
 
 - Activité internationale avec clients dans plusieurs pays.
 - Optimisation fiscale corporate pure sans présence locale.
-- Banque à distance indispensable.
+- Banque en ligne indispensable.
 - Coûts opérationnels bas et compliance minimale.
 - Passerelles de paiement internationales (Stripe USA, DoDo, Adyen).
 ### Cas typiques où cela s'applique

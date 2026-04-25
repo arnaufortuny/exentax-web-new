@@ -6,7 +6,7 @@ Mas quando se vai além da superfície, a realidade é muito diferente. Falemos 
 
 ## O que é a e-Residency da Estónia
 
-A e-Residency é um programa do governo estoniano que permite a qualquer pessoa do mundo criar uma empresa (OÜ. Osaühing, equivalente a uma Lda.) na Estónia de forma remota. Obtém uma identidade digital, acesso a serviços governamentais online e a possibilidade de operar uma empresa europeia.
+A e-Residency é um programa do governo estoniano que permite a qualquer pessoa do mundo criar uma empresa (OÜ. Osaühing, equivalente a uma Lda.) na Estónia de forma online. Obtém uma identidade digital, acesso a serviços governamentais online e a possibilidade de operar uma empresa europeia.
 
 Soa bem. Mas uma empresa europeia implica fiscalidade europeia. E aí começam os problemas.
 ## O mito: "Na Estónia não se pagam impostos sobre lucros não distribuídos"

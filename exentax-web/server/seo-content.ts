@@ -643,7 +643,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     service_itin: {
       es: "ITIN sin viajar a EE. UU.: lo gestionamos por ti | Exentax",
       en: "ITIN without leaving home: skip the IRS in person | Exentax",
-      fr: "ITIN sans ambassade : nous le gérons à distance | Exentax",
+      fr: "ITIN sans ambassade : nous le gérons en ligne | Exentax",
       de: "ITIN ohne Botschaft: alles aus einer Hand erledigt | Exentax",
       pt: "ITIN sem viajar aos EUA: tudo gerenciado por nós | Exentax",
       ca: "ITIN sense viatjar als EUA: ho gestionem nosaltres | Exentax",
@@ -789,12 +789,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "LLC Florida no residents: Miami LLC amb presència real, banca en castellà i accés al Florida LLC mercat llatí. Inclou EIN i BOI. Reserva la teva trucada.",
     },
     service_itin: {
-      es: "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN remoto con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
-      en: "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN remotely with our Certifying Acceptance Agent and W-7 ITIN service.",
-      fr: "ITIN sans voyager pour non-résidents : évitez l'ambassade et le passeport. Obtenir ITIN à distance avec notre Certifying Acceptance Agent et service W-7.",
-      de: "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN remote beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
-      pt: "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN remotamente com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
-      ca: "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN remotament amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
+      es: "ITIN sin viajar para no residentes: olvídate del consulado y del pasaporte. Obtener ITIN online con Certifying Acceptance Agent ante el IRS y W-7 incluido.",
+      en: "ITIN without travel for non-residents: skip the IRS office and embassy queue. Get ITIN online with our Certifying Acceptance Agent and W-7 ITIN service.",
+      fr: "ITIN sans voyager pour non-résidents : évitez l'ambassade et le passeport. Obtenir ITIN en ligne avec notre Certifying Acceptance Agent et service W-7.",
+      de: "ITIN ohne Reise für Nicht-Residenten: kein Botschaftstermin nötig. ITIN online beantragen mit unserem Certifying Acceptance Agent und W-7 ITIN Service.",
+      pt: "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN online com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
+      ca: "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN online amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
     },
     // Task #14 (GEO): pillar page descriptions are written as "atomic answer"
     // candidates — single-paragraph summaries that an LLM can lift directly
@@ -897,12 +897,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "LLC Florida, Florida LLC mercat llatí, Miami LLC, FL LLC e-commerce, LLC Florida no residents",
     },
     service_itin: {
-      es: "ITIN sin viajar, ITIN no residentes, obtener ITIN remoto, ITIN para LLC, ITIN W-7 gestión, ITIN IRS",
-      en: "ITIN without travel, ITIN for non-residents, get ITIN remotely, ITIN for LLC, W-7 ITIN service, IRS ITIN",
-      fr: "ITIN sans voyager, ITIN non-résidents, obtenir ITIN à distance, ITIN pour LLC, service ITIN W-7, IRS ITIN",
-      de: "ITIN ohne Reise, ITIN für Nicht-Residenten, ITIN remote beantragen, ITIN für LLC, W-7 ITIN Service, IRS ITIN",
-      pt: "ITIN sem viajar, ITIN não residentes, obter ITIN remotamente, ITIN para LLC, serviço ITIN W-7, IRS ITIN",
-      ca: "ITIN sense viatjar, ITIN no residents, obtenir ITIN remotament, ITIN per a LLC, servei ITIN W-7, IRS ITIN",
+      es: "ITIN sin viajar, ITIN no residentes, obtener ITIN online, ITIN para LLC, ITIN W-7 gestión, ITIN IRS",
+      en: "ITIN without travel, ITIN for non-residents, get ITIN online, ITIN for LLC, W-7 ITIN service, IRS ITIN",
+      fr: "ITIN sans voyager, ITIN non-résidents, obtenir ITIN en ligne, ITIN pour LLC, service ITIN W-7, IRS ITIN",
+      de: "ITIN ohne Reise, ITIN für Nicht-Residenten, ITIN online beantragen, ITIN für LLC, W-7 ITIN Service, IRS ITIN",
+      pt: "ITIN sem viajar, ITIN não residentes, obter ITIN online, ITIN para LLC, serviço ITIN W-7, IRS ITIN",
+      ca: "ITIN sense viatjar, ITIN no residents, obtenir ITIN online, ITIN per a LLC, servei ITIN W-7, IRS ITIN",
     },
     legal_terms: {
       es: "términos y condiciones Exentax, condiciones servicio LLC, términos LLC, Exentax legal",
@@ -1036,7 +1036,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <li>-37% reducción fiscal media para nuestros clientes</li>
 <li>+31 clientes con estructura optimizada</li>
 <li>Asesoría fiscal estratégica de 30 minutos por videollamada </li>
-<li>Todo 100% remoto: sin necesidad de viajar a Estados Unidos</li>
+<li>Todo 100% online: sin necesidad de viajar a Estados Unidos</li>
 <li>Compliance fiscal continuo: nunca estás solo</li>
 </ul>
 <h2>Estructuración fiscal con LLC en Estados Unidos</h2>
@@ -1118,7 +1118,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
   "how_we_work": `<article>
 <h1>Así Trabajamos: Optimización fiscal paso a paso</h1>
 <h2>Un proceso claro, sin sorpresas</h2>
-<p>En Exentax seguimos un proceso estructurado en 4 fases para optimizar tu fiscalidad de forma legal y segura. Todo 100% remoto, sin necesidad de viajar a Estados Unidos.</p>
+<p>En Exentax seguimos un proceso estructurado en 4 fases para optimizar tu fiscalidad de forma legal y segura. Todo 100% online, sin necesidad de viajar a Estados Unidos.</p>
 <h2>Fase 1: Diagnóstico Fiscal Estratégico </h2>
 <p>Videollamada de 30 minutos donde analizamos tu situación fiscal actual, tus ingresos, tu país de residencia fiscal y tu tipo de actividad profesional. Determinamos si una LLC americana es la mejor opción para tu caso concreto y calculamos tu ahorro estimado.</p>
 <h2>Fase 2: Constitución de la LLC</h2>
@@ -1174,7 +1174,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h3>¿Qué es una LLC?</h3>
 <p>Una LLC (Limited Liability Company) es una estructura empresarial estadounidense que ofrece protección de responsabilidad limitada y flexibilidad fiscal. Para no residentes con Single-Member LLC, no hay impuesto federal sobre la renta en EE.UU.</p>
 <h3>¿Necesito viajar a Estados Unidos para abrir una LLC?</h3>
-<p>No. Todo el proceso es 100% remoto. Nos encargamos de la constitución, obtención del EIN, y apertura de cuenta bancaria sin que tengas que salir de tu país.</p>
+<p>No. Todo el proceso es 100% online. Nos encargamos de la constitución, obtención del EIN, y apertura de cuenta bancaria sin que tengas que salir de tu país.</p>
 <h3>¿Cuál es el mejor estado para mi LLC?</h3>
 <p>Depende de tus prioridades: Nuevo México para menor coste, Wyoming para máxima privacidad, Delaware para el mejor marco legal (ideal si buscas inversores). <a href="/es/servicios">Consulta los planes disponibles</a>.</p>
 <h3>¿Cuánto tarda constituir una LLC?</h3>
@@ -1284,7 +1284,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Qué es una LLC?</h2>
 <p>Es una figura jurídica estadounidense que separa tus bienes personales de los del negocio. Para no residentes con una Single-Member LLC, el IRS la clasifica como Disregarded Entity: no paga impuesto federal en EE.UU.</p>
 <h2>¿Por qué tantos freelancers eligen una LLC?</h2>
-<ul><li>Fiscalidad optimizada: del 40-47% hasta un 0%</li><li>Protección patrimonial</li><li>Banca en dólares con Mercury</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% remoto</li></ul>
+<ul><li>Fiscalidad optimizada: del 40-47% hasta un 0%</li><li>Protección patrimonial</li><li>Banca en dólares con Mercury</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
 <h2>Mejores estados para tu LLC</h2>
 <p>Nuevo México (estructura eficiente), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
 <p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
@@ -1757,7 +1757,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
           "@type": "HowToStep",
           "position": 2,
           "name": "Constitución de la LLC",
-          "text": "Nos encargamos de todo: Articles of Organization, Operating Agreement, obtención del EIN ante el IRS, y designación de agente registrado. Todo 100% remoto en 2-4 semanas.",
+          "text": "Nos encargamos de todo: Articles of Organization, Operating Agreement, obtención del EIN ante el IRS, y designación de agente registrado. Todo 100% online en 2-4 semanas.",
           "url": `${BASE_URL}/es/sobre-las-llc`
         },
         {
@@ -2646,7 +2646,7 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
         { "@type": "Question", "name": "¿Es legal abrir una LLC en EE.UU. siendo no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Estados Unidos permite expresamente que personas físicas no residentes y sin SSN sean propietarias únicas o múltiples de una LLC. La operativa está regulada por el IRS (Form 5472 + 1120 pro forma) y por las leyes estatales de cada estado." } },
         { "@type": "Question", "name": "¿Cuánto cuesta abrir y mantener una LLC en EE.UU.?", "acceptedAnswer": { "@type": "Answer", "text": "El alta inicial profesional ronda los 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, asesoría inicial y banca). El mantenimiento anual oscila entre 400 y 900 USD según el estado, el Registered Agent, el franchise tax y los reports." } },
         { "@type": "Question", "name": "¿En cuántos días puedo tener mi LLC operativa?", "acceptedAnswer": { "@type": "Answer", "text": "La LLC se constituye en 24-48 horas hábiles. El EIN tarda entre 4 y 15 días naturales. La cuenta bancaria Mercury se activa en 1-3 días tras el KYC. En total: entre 7 y 20 días para tener la LLC plenamente operativa." } },
-        { "@type": "Question", "name": "¿Tengo que viajar a Estados Unidos para abrir la LLC?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todo el proceso (constitución, EIN, banca, compliance) se gestiona 100% en remoto desde tu país. Solo necesitas pasaporte y firma electrónica." } },
+        { "@type": "Question", "name": "¿Tengo que viajar a Estados Unidos para abrir la LLC?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todo el proceso (constitución, EIN, banca, compliance) se gestiona 100% online desde tu país. Solo necesitas pasaporte y firma electrónica." } },
         { "@type": "Question", "name": "¿Qué impuestos paga una LLC con dueño no residente?", "acceptedAnswer": { "@type": "Answer", "text": "Una Single-Member LLC con propietario extranjero sin Effectively Connected Income (ECI) en EE.UU. tributa al 0% federal sobre los beneficios obtenidos fuera de EE.UU. Esos beneficios deben declararse en el país de residencia fiscal del propietario según las normas locales (IRPF en España, Ganancias en Argentina, ISR en México, etc.)." } }
       ]
     },
@@ -2764,7 +2764,7 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "Is it legal to open a US LLC as a non-resident?", a: "Yes. The United States expressly allows non-resident individuals without SSNs to be sole or co-owners of an LLC. Operations are governed by the IRS (Form 5472 + 1120 pro forma) and by each state's LLC statutes." },
         { q: "How much does it cost to open and maintain a US LLC?", a: "Professional formation runs around 2,000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, initial advisory and banking). Annual maintenance ranges from 400 to 900 USD depending on state, agent, franchise tax and reports." },
         { q: "How fast can my LLC be operational?", a: "The LLC is formed in 24-48 business hours. The EIN takes 4-15 calendar days. The Mercury account activates in 1-3 days after KYC. Total: 7-20 days to be fully operational." },
-        { q: "Do I have to travel to the United States to open the LLC?", a: "No. The entire process (formation, EIN, banking, compliance) is handled 100% remotely from your country. All you need is a passport and an electronic signature." },
+        { q: "Do I have to travel to the United States to open the LLC?", a: "No. The entire process (formation, EIN, banking, compliance) is handled 100% online from your country. All you need is a passport and an electronic signature." },
         { q: "What taxes does an LLC with a non-resident owner pay?", a: "A Single-Member LLC with a foreign owner and no Effectively Connected Income (ECI) in the US is taxed at 0% federally on profits earned outside the US. Those profits must be declared in the owner's country of tax residence under local rules." },
       ],
     }),
@@ -2790,7 +2790,7 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "Est-il légal d'ouvrir une LLC aux États-Unis en tant que non-résident ?", a: "Oui. Les États-Unis autorisent expressément les personnes physiques non résidentes sans SSN à être propriétaires uniques ou multiples d'une LLC. L'activité est encadrée par l'IRS (Form 5472 + 1120 pro forma) et par les lois LLC de chaque État." },
         { q: "Combien coûte l'ouverture et le maintien d'une LLC américaine ?", a: "La création professionnelle tourne autour de 2 000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, conseil initial et bancaire). Maintenance annuelle : 400 à 900 USD selon État, agent, franchise tax et rapports." },
         { q: "En combien de temps ma LLC est-elle opérationnelle ?", a: "La LLC est constituée en 24-48 heures ouvrées. L'EIN met 4 à 15 jours. Le compte Mercury s'active en 1-3 jours après KYC. Au total : 7 à 20 jours pour être pleinement opérationnel." },
-        { q: "Faut-il se déplacer aux États-Unis pour ouvrir la LLC ?", a: "Non. L'intégralité du processus (création, EIN, banque, conformité) se gère 100% à distance depuis votre pays. Il suffit d'un passeport et d'une signature électronique." },
+        { q: "Faut-il se déplacer aux États-Unis pour ouvrir la LLC ?", a: "Non. L'intégralité du processus (création, EIN, banque, conformité) se gère 100% en ligne depuis votre pays. Il suffit d'un passeport et d'une signature électronique." },
         { q: "Quels impôts paie une LLC avec propriétaire non-résident ?", a: "Une Single-Member LLC à propriétaire étranger sans Effectively Connected Income (ECI) aux États-Unis est imposée à 0% au fédéral sur les bénéfices réalisés hors des US. Ces bénéfices doivent être déclarés dans le pays de résidence fiscale du propriétaire." },
       ],
     }),
@@ -2816,7 +2816,7 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "Ist es legal, eine US-LLC als Nicht-Resident zu gründen?", a: "Ja. Die USA erlauben ausdrücklich, dass nicht ansässige Personen ohne SSN Allein- oder Miteigentümer einer LLC sind. Betrieb wird durch IRS (Form 5472 + 1120 pro forma) und durch das LLC-Recht des jeweiligen Bundesstaates geregelt." },
         { q: "Wie viel kostet eine US-LLC in Gründung und Unterhalt?", a: "Professionelle Gründung kostet rund 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, Erstberatung und Banking). Jährlicher Unterhalt: 400-900 USD je nach Bundesstaat, Agent, Franchise Tax und Reports." },
         { q: "Wie schnell ist meine LLC einsatzbereit?", a: "Die LLC wird in 24-48 Werktagen gegründet. Der EIN dauert 4-15 Kalendertage. Mercury-Konto aktiviert in 1-3 Tagen nach KYC. Gesamt: 7-20 Tage bis vollständig einsatzbereit." },
-        { q: "Muss ich für die LLC-Gründung in die USA reisen?", a: "Nein. Der gesamte Prozess (Gründung, EIN, Banking, Compliance) läuft 100% remote aus Ihrem Heimatland. Sie brauchen nur Reisepass und elektronische Signatur." },
+        { q: "Muss ich für die LLC-Gründung in die USA reisen?", a: "Nein. Der gesamte Prozess (Gründung, EIN, Banking, Compliance) läuft 100% online aus Ihrem Heimatland. Sie brauchen nur Reisepass und elektronische Signatur." },
         { q: "Welche Steuern zahlt eine LLC mit nicht-ansässigem Eigentümer?", a: "Eine Single-Member-LLC mit ausländischem Eigentümer und ohne Effectively Connected Income (ECI) in den USA wird mit 0% Bundessteuer auf außerhalb der USA erzielte Gewinne besteuert. Diese Gewinne müssen im Wohnsitzland des Eigentümers nach lokalem Recht deklariert werden." },
       ],
     }),
@@ -2868,7 +2868,7 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
         { q: "És legal obrir una LLC als EUA sent no resident?", a: "Sí. Els Estats Units permeten expressament que persones físiques no residents i sense SSN siguin propietàries úniques o múltiples d'una LLC. L'operativa està regulada per l'IRS (Form 5472 + 1120 pro forma) i per les lleis estatals." },
         { q: "Quant costa obrir i mantenir una LLC als EUA?", a: "L'alta professional és d'uns 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, assessoria inicial i banca). Manteniment anual: 400-900 USD segons estat, agent, franchise tax i reports." },
         { q: "En quants dies puc tenir la meva LLC operativa?", a: "La LLC es constitueix en 24-48 hores hàbils. L'EIN triga 4-15 dies. El compte Mercury s'activa en 1-3 dies després del KYC. Total: 7-20 dies per estar plenament operativa." },
-        { q: "He de viatjar als EUA per obrir la LLC?", a: "No. Tot el procés (constitució, EIN, banca, compliance) es gestiona 100% en remot des del teu país. Només cal passaport i signatura electrònica." },
+        { q: "He de viatjar als EUA per obrir la LLC?", a: "No. Tot el procés (constitució, EIN, banca, compliance) es gestiona 100% online des del teu país. Només cal passaport i signatura electrònica." },
         { q: "Quins impostos paga una LLC amb propietari no resident?", a: "Una Single-Member LLC amb propietari estranger i sense Effectively Connected Income (ECI) als EUA tributa al 0% federal sobre els beneficis obtinguts fora dels EUA. Aquests beneficis s'han de declarar al país de residència fiscal." },
       ],
     }),
@@ -2891,7 +2891,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>-37% average tax reduction for our clients</li>
 <li>31+ clients with an optimized structure</li>
 <li>Strategic 30-minute video consultation</li>
-<li>100% remote: no travel to the United States required</li>
+<li>100% online: no travel to the United States required</li>
 <li>Ongoing fiscal compliance: you are never on your own</li>
 </ul>
 <h2>US LLC formation for non-residents</h2>
@@ -2956,7 +2956,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
     how_we_work: `<article>
 <h1>How We Work: step-by-step tax optimization</h1>
 <h2>A clear, four-phase process with no surprises</h2>
-<p>Exentax runs a structured four-phase process to optimize your international tax position legally and safely. Everything is 100% remote: no travel to the United States required.</p>
+<p>Exentax runs a structured four-phase process to optimize your international tax position legally and safely. Everything is 100% online: no travel to the United States required.</p>
 <h2>Phase 1: Strategic Tax Diagnosis</h2>
 <p>A 30-minute video consultation where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
 <h2>Phase 2: LLC Formation</h2>
@@ -2996,7 +2996,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h3>What is a US LLC?</h3>
 <p>A Limited Liability Company (LLC) is a US business structure that provides limited liability and flexible taxation. For non-resident single-member owners, there is no US federal income tax on foreign-source income.</p>
 <h3>Do I need to travel to the United States to form an LLC?</h3>
-<p>No. The entire process is 100% remote. We handle formation, EIN and bank account opening without you leaving your country.</p>
+<p>No. The entire process is 100% online. We handle formation, EIN and bank account opening without you leaving your country.</p>
 <h3>Which state is best for my LLC?</h3>
 <p>It depends on your priorities: New Mexico for cost efficiency, Wyoming for privacy, Delaware for the strongest legal framework. See <a href="/en/services">our services</a>.</p>
 <h3>How long does LLC formation take?</h3>
@@ -3050,7 +3050,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <ul>
 <li>-37 % de réduction fiscale moyenne pour nos clients</li>
 <li>Consultation stratégique de 30 minutes en visioconférence</li>
-<li>100 % à distance: aucun déplacement aux États-Unis</li>
+<li>100 % en ligne: aucun déplacement aux États-Unis</li>
 <li>Conformité fiscale continue: vous n'êtes jamais seul</li>
 </ul>
 <h2>Constitution de LLC pour non-résidents</h2>
@@ -3112,7 +3112,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
     how_we_work: `<article>
 <h1>Comment nous travaillons: optimisation fiscale étape par étape</h1>
 <h2>Un processus clair en quatre phases, sans surprises</h2>
-<p>Exentax suit un processus structuré en quatre phases pour optimiser votre situation fiscale internationale en toute légalité et sécurité. 100 % à distance.</p>
+<p>Exentax suit un processus structuré en quatre phases pour optimiser votre situation fiscale internationale en toute légalité et sécurité. 100 % en ligne.</p>
 <h2>Phase 1: Diagnostic fiscal stratégique</h2>
 <p>Visioconférence de 30 minutes pour analyser votre situation fiscale, vos revenus, votre résidence et votre activité professionnelle. Nous déterminons si une LLC américaine convient à votre cas et estimons vos économies.</p>
 <h2>Phase 2: Constitution de la LLC</h2>
@@ -3152,7 +3152,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h3>Qu'est-ce qu'une LLC ?</h3>
 <p>Une LLC est une structure d'entreprise américaine qui offre la responsabilité limitée et une fiscalité flexible. Pour un non-résident avec une Single-Member LLC, il n'y a pas d'impôt fédéral américain sur les revenus de source étrangère.</p>
 <h3>Dois-je me déplacer aux États-Unis pour constituer une LLC ?</h3>
-<p>Non. L'ensemble du processus est 100 % à distance.</p>
+<p>Non. L'ensemble du processus est 100 % en ligne.</p>
 <h3>Quel est le meilleur État pour ma LLC ?</h3>
 <p>Cela dépend de vos priorités : Nouveau-Mexique pour l'efficacité, Wyoming pour la confidentialité, Delaware pour le cadre juridique. Voir <a href="/fr/services">nos services</a>.</p>
 <h3>Combien de temps prend la constitution ?</h3>
@@ -3204,7 +3204,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <ul>
 <li>-37 % durchschnittliche Steuerreduktion für unsere Mandanten</li>
 <li>Strategische 30-Minuten-Videoberatung</li>
-<li>100 % remote: keine USA-Reise nötig</li>
+<li>100 % online: keine USA-Reise nötig</li>
 <li>Laufende steuerliche Compliance: Sie sind nie allein</li>
 </ul>
 <h2>US-LLC-Gründung für Nicht-Residenten</h2>
@@ -3266,7 +3266,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
     how_we_work: `<article>
 <h1>Wie wir arbeiten: Steueroptimierung Schritt für Schritt</h1>
 <h2>Ein klarer Vier-Phasen-Prozess ohne Überraschungen</h2>
-<p>Exentax folgt einem strukturierten Vier-Phasen-Prozess, um Ihre internationale Steuersituation legal und sicher zu optimieren. Alles 100 % remote.</p>
+<p>Exentax folgt einem strukturierten Vier-Phasen-Prozess, um Ihre internationale Steuersituation legal und sicher zu optimieren. Alles 100 % online.</p>
 <h2>Phase 1: Strategische Steueranalyse</h2>
 <p>30-minütige Videoberatung zur Analyse Ihrer aktuellen Steuersituation, Ihrer Einkünfte, Ihrer Residenz und Ihrer Tätigkeit. Wir prüfen, ob eine US-LLC passt, und schätzen Ihre Ersparnis.</p>
 <h2>Phase 2: LLC-Gründung</h2>
@@ -3306,7 +3306,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h3>Was ist eine US-LLC?</h3>
 <p>Eine US-Unternehmensstruktur mit beschränkter Haftung und flexibler Besteuerung. Für Single-Member LLCs in ausländischem Besitz fällt keine US-Bundeseinkommensteuer auf Auslandseinkünfte an.</p>
 <h3>Muss ich in die USA reisen, um eine LLC zu gründen?</h3>
-<p>Nein. Der gesamte Prozess ist 100 % remote.</p>
+<p>Nein. Der gesamte Prozess ist 100 % online.</p>
 <h3>Welcher Bundesstaat ist der beste für meine LLC?</h3>
 <p>Abhängig von Ihren Prioritäten: New Mexico für Kosteneffizienz, Wyoming für Privatsphäre, Delaware für den besten Rechtsrahmen.</p>
 <h3>Wie lange dauert die Gründung?</h3>
@@ -3358,7 +3358,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <ul>
 <li>-37 % de redução fiscal média para nossos clientes</li>
 <li>Consultoria estratégica de 30 minutos por videochamada</li>
-<li>100 % remoto: sem viajar aos Estados Unidos</li>
+<li>100 % online: sem viajar aos Estados Unidos</li>
 <li>Compliance fiscal contínuo</li>
 </ul>
 <h2>Constituição de LLC para não residentes</h2>
@@ -3420,7 +3420,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
     how_we_work: `<article>
 <h1>Como trabalhamos: otimização fiscal passo a passo</h1>
 <h2>Processo claro em quatro fases, sem surpresas</h2>
-<p>A Exentax segue um processo estruturado em quatro fases para otimizar sua situação fiscal internacional de forma legal e segura. Tudo 100 % remoto.</p>
+<p>A Exentax segue um processo estruturado em quatro fases para otimizar sua situação fiscal internacional de forma legal e segura. Tudo 100 % online.</p>
 <h2>Fase 1: Diagnóstico fiscal estratégico</h2>
 <p>Videochamada de 30 minutos para analisar sua situação fiscal, rendimentos, residência e atividade. Determinamos se uma LLC americana é adequada e estimamos sua economia.</p>
 <h2>Fase 2: Constituição da LLC</h2>
@@ -3460,7 +3460,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h3>O que é uma LLC americana?</h3>
 <p>Estrutura empresarial americana com responsabilidade limitada e tributação flexível. Para Single-Member LLCs de não residentes, não há imposto federal americano sobre rendimentos de fonte estrangeira.</p>
 <h3>Preciso viajar aos Estados Unidos para abrir uma LLC?</h3>
-<p>Não. Todo o processo é 100 % remoto.</p>
+<p>Não. Todo o processo é 100 % online.</p>
 <h3>Qual é o melhor estado para minha LLC?</h3>
 <p>Depende das suas prioridades: Novo México para eficiência, Wyoming para privacidade, Delaware para o melhor arcabouço jurídico.</p>
 <h3>Quanto tempo leva a constituição?</h3>
@@ -3512,7 +3512,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <ul>
 <li>-37 % de reducció fiscal mitjana per als nostres clients</li>
 <li>Assessoria estratègica de 30 minuts per videotrucada</li>
-<li>100 % remot: sense viatjar als Estats Units</li>
+<li>100 % online: sense viatjar als Estats Units</li>
 <li>Compliance fiscal continu</li>
 </ul>
 <h2>Constitució de LLC per a no residents</h2>
@@ -3574,7 +3574,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
     how_we_work: `<article>
 <h1>Com treballem: optimització fiscal pas a pas</h1>
 <h2>Procés clar en quatre fases, sense sorpreses</h2>
-<p>Exentax segueix un procés estructurat en quatre fases per optimitzar la teva situació fiscal internacional de forma legal i segura. Tot 100 % remot.</p>
+<p>Exentax segueix un procés estructurat en quatre fases per optimitzar la teva situació fiscal internacional de forma legal i segura. Tot 100 % online.</p>
 <h2>Fase 1: Diagnòstic fiscal estratègic</h2>
 <p>Videotrucada de 30 minuts per analitzar la teva situació fiscal, ingressos, residència i activitat. Determinem si una LLC americana és adequada i estimem el teu estalvi.</p>
 <h2>Fase 2: Constitució de la LLC</h2>
@@ -3614,7 +3614,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h3>Què és una LLC?</h3>
 <p>Estructura empresarial als EUA amb responsabilitat limitada i fiscalitat flexible. Per a Single-Member LLC de no residents, no hi ha impost federal sobre rendes de font estrangera.</p>
 <h3>Necessito viatjar als EUA per constituir una LLC?</h3>
-<p>No. Tot el procés és 100 % remot.</p>
+<p>No. Tot el procés és 100 % online.</p>
 <h3>Quin és el millor estat per a la meva LLC?</h3>
 <p>Depèn de les teves prioritats: Nou Mèxic per eficiència, Wyoming per privacitat, Delaware per millor marc legal.</p>
 <h3>Quant triga la constitució?</h3>
@@ -3667,7 +3667,7 @@ export const FAQ_SCHEMA_ENTRIES = [
   {
     "@type": "Question" as const,
     "name": "¿Necesito viajar a Estados Unidos para abrir una LLC?",
-    "acceptedAnswer": { "@type": "Answer" as const, "text": "No. Todo el proceso es 100% remoto. En Exentax nos encargamos de la constitución, obtención del EIN, y apertura de cuenta bancaria sin que tengas que salir de tu país." }
+    "acceptedAnswer": { "@type": "Answer" as const, "text": "No. Todo el proceso es 100% online. En Exentax nos encargamos de la constitución, obtención del EIN, y apertura de cuenta bancaria sin que tengas que salir de tu país." }
   },
   {
     "@type": "Question" as const,

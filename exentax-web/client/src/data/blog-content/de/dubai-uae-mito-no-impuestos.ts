@@ -81,7 +81,7 @@ Stripe **funktioniert** in den VAE seit Januar 2024, mit Einschränkungen bei Za
 Die wichtige Frage: Was lösen die VAE, was eine US-LLC nicht löst?
 
 - **Wenn Sie in den VAE leben**: echte 0% persönliche Einkommensteuer (bei erfüllter Ansässigkeit). Das leistet die LLC nicht; es hängt vom Wohnsitzland ab.
-- **Wenn Sie nicht in den VAE leben**: Der "Dubai-Vorteil" verschwindet. Eine US-LLC bietet die gleiche effektive Unternehmensbesteuerung (<a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum">0% pass-through</a>) bei 10x niedrigeren Jahreskosten, Remote-Banking und vergleichbarem Ruf.
+- **Wenn Sie nicht in den VAE leben**: Der "Dubai-Vorteil" verschwindet. Eine US-LLC bietet die gleiche effektive Unternehmensbesteuerung (<a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum">0% pass-through</a>) bei 10x niedrigeren Jahreskosten, Online-Banking und vergleichbarem Ruf.
 
 Die VAE machen Sinn, wenn:
 

@@ -65,7 +65,7 @@ For freelancers, consultants, digital agencies, SaaS, ecommerce and creators res
 
 - 0% federal tax through <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">pass-through</a>.
 - Annual cost of USD 500-800.
-- Working remote banking (Mercury, Wise, Wallester, Slash).
+- Working online banking (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accessible.
 - Neutral and professional reputation in any market.
 - No mandatory audit.

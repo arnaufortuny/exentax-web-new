@@ -144,7 +144,7 @@ This article relies on rules currently in force. Main sources for verification:
 - **International framework.** OECD Model Convention, art. 5 (permanent establishment) and Commentaries; BEPS Action 5 (economic substance); FATF Recommendation 24 (beneficial ownership).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Applying any of these rules to your specific case depends on your tax residency, the LLC's activity and the documentation you keep. This content is informational and does not replace personalized professional advice.

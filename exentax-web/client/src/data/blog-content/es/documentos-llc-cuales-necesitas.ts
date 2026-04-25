@@ -72,7 +72,7 @@ Documento que confirma quién es tu Registered Agent, la persona o empresa desig
 ### Documentos que NO necesitas
 
 - **Número de Seguro Social (SSN)**: No es necesario para no residentes. El EIN sustituye al SSN para efectos fiscales de la LLC
-- **Visa o permiso de trabajo**: No necesitas estar autorizado a trabajar en EE.UU. para tener una LLC. Todo es 100% remoto
+- **Visa o permiso de trabajo**: No necesitas estar autorizado a trabajar en EE.UU. para tener una LLC. Todo es 100% online
 - **Dirección física en EE.UU.**: El Registered Agent proporciona la dirección legal
 - **Pasaporte americano**: Cualquier pasaporte vigente es válido
 - **Cuenta bancaria previa en EE.UU.**: Se abre como parte del proceso de constitución
@@ -119,7 +119,7 @@ La recomendación realista: **Mercury + Relay como respaldo + Slash para operati
 La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es/servicios">Empieza hoy 100% remoto</a>
+> <a href="/es/servicios">Empieza hoy 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por proveedor

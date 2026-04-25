@@ -88,7 +88,7 @@ El setup més eficient per a la majoria dels nòmades digitals és:
 4. **Wise Business** per a conversió de divises al tipus de canvi real (és una EMI, no un banc. complementa Mercury)
 5. **Stripe/PayPal** per cobrar a clients globals
 
-Amb aquest setup, la teva càrrega fiscal total pot ser del 0% al 10%, depenent del país de residència triat. I el millor: tot es gestiona 100% en remot.
+Amb aquest setup, la teva càrrega fiscal total pot ser del 0% al 10%, depenent del país de residència triat. I el millor: tot es gestiona 100% online.
 
 A Exentax dissenyem aquesta estructura completa per a tu. Analitzem la teva situació, el teu país d'origen, els teus plans de viatge, i et proposem la combinació òptima de LLC + residència fiscal + eines financeres. No és un template genèric. és un pla fet a mida.
 ### Com canviar la teva residència fiscal

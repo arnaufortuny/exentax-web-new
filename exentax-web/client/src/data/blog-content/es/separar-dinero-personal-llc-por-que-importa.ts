@@ -78,7 +78,7 @@ Relay es otra excelente opción, especialmente si necesitas organizar tu dinero 
 - **Sin comisiones mensuales** ni mínimos
 - **Tarjetas de débito** asignables a cuentas específicas
 - **Integración con software contable**
-- **Apertura remota** para no residentes
+- **Apertura online** para no residentes
 
 Relay destaca por su sistema de sub-cuentas, que facilita enormemente la organización financiera y la separación de fondos por categoría. Además, ofrece la posibilidad de generar links de pago procesados por Adyen, lo que permite cobrar a clientes de manera profesional directamente desde la plataforma.
 

@@ -140,7 +140,7 @@ Spain with the ETVE regime is competitive when activity justifies it. Netherland
 A well-designed holding is a powerful tool for centralization, tax efficiency and planning. Poorly designed or applied as a fad, it is expensive complexity that adds nothing. The decision depends on the size and maturity of your business, not on the headline of the latest viral video.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 For non-resident entrepreneurs with a single international operating business, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> usually covers the case without needing a holding. When the business grows and several activities appear, we can analyze together whether a holding (US, Spanish or international) makes sense. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.

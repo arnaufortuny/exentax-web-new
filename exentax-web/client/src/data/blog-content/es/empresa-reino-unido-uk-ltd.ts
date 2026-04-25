@@ -129,7 +129,7 @@ Para optimización fiscal pura sin presencia británica real, la LLC americana r
 
 - Operativa internacional con clientes en varios países.
 - Optimización fiscal corporativa pura sin presencia local.
-- Banca remota imprescindible.
+- Banca online imprescindible.
 - Costes operativos bajos y compliance mínimo.
 - Pasarelas de pago internacionales (Stripe USA, DoDo, Adyen).
 ### Casos típicos donde aplica

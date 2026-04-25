@@ -56,7 +56,7 @@ As fintechs resolveram este problema. Mercury, Relay e Wise permitem abrir conta
 | Tipo | Money Transmitter | Fintech | EMI | EMI |
 | Banco subjacente | Choice Financial Group / Evolve Bank & Trust (Column NA em legados) | Thread Bank | N/A (safeguarding) | Banco parceiro |
 | FDIC | Sim (até $5M) | Sim ($250K) | Não | Sim ($250K) |
-| Abertura remota | Sim | Sim | Sim | Sim |
+| Abertura online | Sim | Sim | Sim | Sim |
 | Cartão | Virtual + físico | Virtual + físico | Virtual + físico | Virtual + físico |
 | Multi-moeda | Não (apenas USD) | Não (apenas USD) | Sim (40+) | Sim (30+) |
 | ACH grátis | Sim | Sim | Sim | Sim |
@@ -130,7 +130,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.<!-- exentax:execution-v2 -->
 ## Como decidir entre banco tradicional e fintech para a sua LLC
 
-A pergunta "banco ou fintech?" tem uma resposta menos romântica do que sugere o LinkedIn: depende do perfil de risco da sua actividade, do país onde opera e do peso que dá à disponibilidade remota face à robustez num KYC alargado. Estes são os eixos que usamos em cada caso.
+A pergunta "banco ou fintech?" tem uma resposta menos romântica do que sugere o LinkedIn: depende do perfil de risco da sua actividade, do país onde opera e do peso que dá à disponibilidade online face à robustez num KYC alargado. Estes são os eixos que usamos em cada caso.
 
 - **Disponibilidade real para não residentes.** Mercury, Relay e Wise Business são as três opções que aceitam não residentes com rácio razoável de aprovação. Os bancos federais (Chase, BofA, Citibank) exigem visita presencial nos EUA e, em muitas agências, morada americana própria. Se está fora, a fintech é a porta de entrada prática.
 - **Robustez em KYC alargado.** A Mercury opera via Choice Financial, Evolve Bank & Trust e Column N.A. com cobertura FDIC em sweep network. Num encerramento, o saldo é devolvido por cheque para a morada registada - operacionalmente difícil para não residentes. Ter uma segunda conta activa (Relay ou Wise Business) é contingência, não paranoia.

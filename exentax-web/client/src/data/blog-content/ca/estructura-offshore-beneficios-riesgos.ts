@@ -63,7 +63,7 @@ Per a freelancers, consultors, agències digitals, SaaS, ecommerce i creadors qu
 
 - 0 % impost federal per <a href="/ca/blog/tributacio-pass-through-per-a-llc-com-funciona-i-per-que">pass-through</a>.
 - Cost anual de 500-800 USD.
-- Banca operativa remota (Mercury, Wise, Wallester, Slash).
+- Banca operativa online (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accessibles.
 - Reputació neutra i professional a qualsevol mercat.
 - Sense auditoria obligatòria.

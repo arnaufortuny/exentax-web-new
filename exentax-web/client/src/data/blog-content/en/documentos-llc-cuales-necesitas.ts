@@ -55,7 +55,7 @@ Document confirming who your Registered Agent is. the person or company designat
 ### Documents you do NOT need
 
 - **Social Security Number (SSN)**: Not required for non-residents. The EIN replaces the SSN for LLC tax purposes
-- **Visa or work permit**: You don't need authorization to work in the US to have an LLC. Everything is 100% remote
+- **Visa or work permit**: You don't need authorization to work in the US to have an LLC. Everything is 100% online
 - **Physical US address**: The Registered Agent provides the legal address
 - **US passport**: Any valid passport works
 - **Pre-existing US bank account**: Opened as part of the formation process
@@ -136,7 +136,7 @@ Now that you have the full context, the natural next step is to map it against y
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider

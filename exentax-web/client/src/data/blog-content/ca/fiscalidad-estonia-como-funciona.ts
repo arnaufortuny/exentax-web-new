@@ -4,7 +4,7 @@ Aquí ens centrem en el "com funciona": què és l'e-Residency, què grava Estò
 
 ## L'e-Residency: què és i què no és
 
-L'e-Residency és un programa del govern estonià que ofereix a qualsevol persona del món una identitat digital emesa per Estònia. Permet signar documents electrònicament amb validesa legal a Estònia i la UE, constituir i gestionar una empresa estoniana (OÜ) totalment en remot, i operar amb serveis estonians en línia.
+L'e-Residency és un programa del govern estonià que ofereix a qualsevol persona del món una identitat digital emesa per Estònia. Permet signar documents electrònicament amb validesa legal a Estònia i la UE, constituir i gestionar una empresa estoniana (OÜ) totalment online, i operar amb serveis estonians en línia.
 
 El que **no** és:
 
@@ -86,7 +86,7 @@ Els grans bancs estonians (LHV, SEB, Swedbank) obren compte corporatiu només a 
 ### Casos típics on aplica
 
 **Cas 1: SaaS bootstrapped que reinverteix el 100 % de beneficis en producte i màrqueting.**
-Estònia és perfecta. Tributació zero fins que distribueixis, programari de gestió bancària i fiscal totalment digital, e-Residency facilita gestió remota. Reinversió sostinguda amplifica el valor del règim.
+Estònia és perfecta. Tributació zero fins que distribueixis, programari de gestió bancària i fiscal totalment digital, e-Residency facilita gestió online. Reinversió sostinguda amplifica el valor del règim.
 
 **Cas 2: consultor europeu amb 80.000 EUR/any que necessita els diners per viure.**
 Estònia és mala elecció. Cada distribució tributa al 22 % efectiu més impost al teu país de residència. La càrrega total supera la d'altres estructures europees o la LLC americana.
@@ -165,7 +165,7 @@ El sistema fiscal estonià es va vendre durant anys com a "0% corporate" - tècn
 
 - **Mecànica real del 0%.** Si l'OÜ reinverteix el 100% del benefici (producte, màrqueting, contractació, R&D, compres d'actius), el corporate tax és 0%. Distribuir com a dividend activa el 22% (o 14% si és regular durant 3 anys, sobre la part distribuïble regular). Per a empresa que necessita extreure cash anualment, l'avantatge es converteix en diferiment, no eliminació.
 - **Residència personal i CFC.** OÜ amb soci resident a Espanya: TFI/CFC aplica si tributació efectiva estoniana és <50% de l'espanyola i la societat no té substància. Sense oficina i empleats a Estònia, AEAT pot imputar rendes passives directament. Amb substància mínima (oficina virtual + director estonià) es redueix el risc, però no s'elimina.
-- **e-Residency: identitat digital, no residència fiscal.** L'e-Residency permet gestionar l'OÜ remotament via portal digital, signar contractes i declaracions electrònicament. NO confereix residència fiscal estoniana, NO dona dret a viure a Estònia, NO redueix la teva obligació tributària en residència. És eina operativa, no estructura fiscal.
+- **e-Residency: identitat digital, no residència fiscal.** L'e-Residency permet gestionar l'OÜ online via portal digital, signar contractes i declaracions electrònicament. NO confereix residència fiscal estoniana, NO dona dret a viure a Estònia, NO redueix la teva obligació tributària en residència. És eina operativa, no estructura fiscal.
 - **Banca operativa accessible.** Wise Business i LHV obren a OÜ amb e-resident sense presència física, KYC moderat. Swedbank i SEB (bancs tradicionals) requereixen visita presencial per a non-residents. Stripe i Paddle accepten OÜ sense fricció especial.
 
 ### Què ens pregunten més

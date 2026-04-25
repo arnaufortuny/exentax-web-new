@@ -24,7 +24,7 @@ Há razões muito concretas (e muito convincentes):
 - **Banca em dólares.** Acesso a contas no Mercury (respaldado pelo Column NA, com seguro FDIC) ou Relay (respaldado pelo Thread Bank), sem restrições. Transferências internacionais a $0 com Mercury. Sem comissões de manutenção.
 - **Gateways de pagamento sem restrições.** Stripe, PayPal, processadores de pagamento, todos funcionam sem problema com uma LLC americana. Adeus às limitações que têm as contas pessoais ou empresas de outros países.
 - **Credibilidade internacional.** Faturar a partir de uma empresa americana gera confiança imediata em clientes globais. Não é o mesmo enviar uma fatura de "João Silva, trabalhador independente/autónomo" que de "A Tua Empresa LLC".
-- **Sem necessidade de viajar.** Todo o processo é 100% remoto. Não precisas de visto, não precisas de pisar solo americano, não precisas de SSN.
+- **Sem necessidade de viajar.** Todo o processo é 100% online. Não precisas de visto, não precisas de pisar solo americano, não precisas de SSN.
 ## Segurança jurídica e legal
 
 A LLC não é uma invenção do YouTube nem um truque fiscal. É uma estrutura empresarial reconhecida pelo governo federal dos Estados Unidos, regulada por cada estado e utilizada por milhões de empresas, desde freelancers até multinacionais.
@@ -122,7 +122,7 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 - **Quadro internacional.** Modelo de Convenção OCDE, art. 5 (estabelecimento estável) e Comentários; Ação 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiário efetivo).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt/servicos">Começa hoje, 100% remoto</a>
+> <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.

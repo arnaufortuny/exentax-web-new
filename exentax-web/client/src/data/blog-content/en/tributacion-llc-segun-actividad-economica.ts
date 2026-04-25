@@ -89,7 +89,7 @@ Want to analyze how your activity is taxed exactly and design the most efficient
 To keep going on this thread, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> fills in a nuance this guide only touched on.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ## We set it up without you losing a weekend

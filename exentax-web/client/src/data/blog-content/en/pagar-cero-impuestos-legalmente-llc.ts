@@ -6,7 +6,7 @@ Yes, a US LLC owned by a non-resident can pay **$0 in US federal income tax**. T
 
 - The LLC is treated as a "Disregarded Entity" (fiscally transparent)
 - All income flows through to the owner
-- If the owner is a non-resident with no US source income (working remotely outside the US), no US federal tax applies
+- If the owner is a non-resident with no US source income (working online outside the US), no US federal tax applies
 - Legal basis: IRC §871 (taxation of non-resident aliens) and IRC §882 (taxation of foreign corporations)
 
 **Key condition:** Your income must have no US source. If you work from the UK, Canada, Australia, Spain, Colombia, Mexico, or anywhere else outside the US, and your clients pay for services you perform from there, the income is foreign-sourced and the US doesn't tax it. The source of income is determined by where the services are performed, not where the client is located.

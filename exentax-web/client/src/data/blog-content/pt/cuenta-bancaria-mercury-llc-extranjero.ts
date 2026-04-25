@@ -16,7 +16,7 @@ O que significa isto na prática? Que o teu dinheiro está depositado de forma s
 
 As suas vantagens principais para donos de LLC:
 
-- **Abertura 100% remota.** Não precisas de SSN nem de presença física nos EUA. Passaporte e EIN, e pronto.
+- **Abertura 100% online.** Não precisas de SSN nem de presença física nos EUA. Passaporte e EIN, e pronto.
 - **$0 comissões.** Sem manutenção, sem saldos mínimos, sem surpresas no final do mês.
 - **Wire transfers gratuitos.** Tanto envio como receção de wires nacionais e internacionais: $0. Sim, leste bem. Zero. Nada. Grátis. Isto é quase inédito no setor.
 - **ACH gratuito.** Transferências domésticas sem custo.
@@ -236,7 +236,7 @@ Mercury é a escolha por defeito, mas não a única, e vale a pena saber onde ca
 | Critério | Mercury | Relay Financial | Wise Business | Banca tradicional (Bank of America, Chase, Wells Fargo) |
 |---|---|---|---|---|
 | Tipo de entidade | Fintech sobre Choice e Column N.A. (FDIC pass-through) | Fintech sobre Thread Bank (FDIC pass-through) | EMI (Wise US Inc., FinCEN MSB) | Banco comercial (FDIC direto) |
-| Abertura 100 % remota para não residentes | Sim | Sim | Sim | Não, exige presença física e SSN ou ITIN do signatário |
+| Abertura 100 % online para não residentes | Sim | Sim | Sim | Não, exige presença física e SSN ou ITIN do signatário |
 | Tempo médio de aprovação | 2 a 7 dias | 3 a 10 dias | 1 a 3 dias | 4 a 8 semanas se chegar a abrir |
 | Wires domésticos | Grátis | Grátis até 20 por mês | Pagos | Pagos |
 | Wires internacionais SWIFT | Saída paga, entrada grátis | Saída competitiva | Muito barato, câmbio mid-market | Caro e câmbio pior |

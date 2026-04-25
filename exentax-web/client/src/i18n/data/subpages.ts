@@ -101,7 +101,7 @@ const es: SubpagesBase = {
       kicker: "POR QUÉ NUEVO MÉXICO",
       h2: "El estado más eficiente para una LLC unipersonal",
       paragraphs: [
-        "Nuevo México es, hoy, el estado más usado por freelancers, agencias remotas y creadores de contenido que viven fuera de Estados Unidos. La razón es simple: no exige informe anual, no cobra franchise tax, y permite no listar públicamente a los miembros de la LLC.",
+        "Nuevo México es, hoy, el estado más usado por freelancers, agencias digitales y creadores de contenido que viven fuera de Estados Unidos. La razón es simple: no exige informe anual, no cobra franchise tax, y permite no listar públicamente a los miembros de la LLC.",
         "Para un no residente que factura servicios desde el extranjero, esto se traduce en una estructura legal real, con EIN y cuenta bancaria estadounidense, manteniendo el coste anual al mínimo y evitando burocracia recurrente.",
       ],
     },
@@ -117,7 +117,7 @@ const es: SubpagesBase = {
     bestFor: {
       h2: "Es para ti si...",
       items: [
-        "Eres freelancer o consultor remoto facturando a clientes fuera de EE. UU.",
+        "Eres freelancer o consultor digital facturando a clientes fuera de EE. UU.",
         "Quieres una estructura limpia, barata de mantener y sin papeleo estatal recurrente.",
         "Te importa que tu nombre no aparezca de forma pública en el registro de la LLC.",
         "Operas como nómada digital y necesitas una entidad legal con EIN y cuenta bancaria.",
@@ -496,7 +496,7 @@ const en: SubpagesBase = {
       kicker: "WHY NEW MEXICO",
       h2: "The most efficient state for a single-member LLC",
       paragraphs: [
-        "Low-cost privacy for solo founders is exactly what makes New Mexico the state most used today by freelancers, remote agencies and content creators living outside the United States: no annual report, no franchise tax, and members can be kept off the public record.",
+        "Low-cost privacy for solo founders is exactly what makes New Mexico the state most used today by freelancers, digital agencies and content creators living outside the United States: no annual report, no franchise tax, and members can be kept off the public record.",
         "For a non-resident invoicing services from abroad, this means a real legal structure with EIN and a U.S. bank account, while keeping the annual cost minimal and avoiding recurring paperwork.",
       ],
     },
@@ -512,7 +512,7 @@ const en: SubpagesBase = {
     bestFor: {
       h2: "It fits you if...",
       items: [
-        "You are a remote freelancer or consultant invoicing clients outside the U.S.",
+        "You are an online freelancer or consultant invoicing clients outside the U.S.",
         "You want a clean structure, cheap to maintain and free of recurring state filings.",
         "You care that your name does not appear in the public LLC record.",
         "You operate as a digital nomad and need a legal entity with EIN and bank account.",
@@ -834,7 +834,7 @@ const en: SubpagesBase = {
       h2: "Frequently asked questions",
       items: [
         { q: "How long does the IRS take to issue the ITIN?", a: "The current official timeline is 8 to 11 weeks from receipt of the file, although it may vary with IRS workload. It's notified by mail to the address indicated on Form W-7." },
-        { q: "Do I need to travel to the United States to get it?", a: "No. Working with a Certifying Acceptance Agent you can do the entire process remotely from your country of residence." },
+        { q: "Do I need to travel to the United States to get it?", a: "No. Working with a Certifying Acceptance Agent you can do the entire process online from your country of residence." },
         { q: "Does the ITIN expire?", a: "Yes. The ITIN expires if it isn't used in a tax return for three consecutive years, or according to the IRS renewal schedule. In those cases, it must be renewed." },
         { q: "Can I open a personal bank account with the ITIN?", a: "Some institutions accept it, especially for clients with U.S. ties (LLC, real estate, partial residency). It is not a substitute for the SSN, but it opens doors that are closed without an ITIN." },
       ],
@@ -847,7 +847,7 @@ const en: SubpagesBase = {
     },
     seo: {
       title: "ITIN without leaving home: skip the IRS in person | Exentax",
-      description: "Skip the IRS office and the embassy queue: our Certifying Acceptance Agent files your ITIN remotely with no original passport mailed. Start today.",
+      description: "Skip the IRS office and embassy queue: our Certifying Acceptance Agent files your ITIN fully online with no original passport mailed. Start today.",
       keywords: "ITIN, get ITIN, ITIN for non-residents, Certifying Acceptance Agent, W-7, IRS tax number",
       ogTitle: "ITIN without travel to the US: we file it for you",
       ogDescription: "We file your ITIN with the IRS via a Certifying Acceptance Agent—no original passport mailed. End-to-end Exentax support for non-resident LLC owners.",
@@ -892,7 +892,7 @@ const fr: SubpagesBase = {
     bestFor: {
       h2: "C'est pour vous si...",
       items: [
-        "Vous êtes freelance ou consultant à distance facturant des clients hors des États-Unis.",
+        "Vous êtes freelance ou consultant en ligne facturant des clients hors des États-Unis.",
         "Vous voulez une structure propre, peu coûteuse à maintenir, sans démarches récurrentes.",
         "Vous tenez à ce que votre nom n'apparaisse pas publiquement dans le registre.",
         "Vous travaillez en nomade digital et avez besoin d'une entité avec EIN et compte bancaire.",
@@ -1177,7 +1177,7 @@ const fr: SubpagesBase = {
       kicker: "QU'EST-CE QUE L'ITIN",
       h2: "Le numéro fiscal américain pour ceux sans SSN",
       paragraphs: [
-        "Sans ambassade et géré à distance : l'ITIN (Individual Taxpayer Identification Number) est le numéro fiscal délivré par l'IRS aux personnes tenues de déposer des déclarations fiscales américaines mais inéligibles au Social Security Number (SSN). Il est indispensable pour de nombreux non-résidents avec LLC, revenus immobiliers ou retenues sur plateformes américaines.",
+        "Sans ambassade et géré en ligne : l'ITIN (Individual Taxpayer Identification Number) est le numéro fiscal délivré par l'IRS aux personnes tenues de déposer des déclarations fiscales américaines mais inéligibles au Social Security Number (SSN). Il est indispensable pour de nombreux non-résidents avec LLC, revenus immobiliers ou retenues sur plateformes américaines.",
         "Le processus officiel exige d'envoyer le passeport original à l'IRS ou de le faire valider par un Certifying Acceptance Agent (CAA). Nous travaillons avec des CAA accrédités pour que vous n'ayez ni à vous séparer de votre passeport, ni à assumer le risque postal.",
       ],
     },
@@ -1214,7 +1214,7 @@ const fr: SubpagesBase = {
       h2: "Questions fréquentes",
       items: [
         { q: "Combien de temps l'IRS met-il pour émettre l'ITIN ?", a: "Le délai officiel actuel est de 8 à 11 semaines à compter de la réception du dossier, mais il peut varier selon la charge de l'IRS. Notification par courrier à l'adresse indiquée sur le W-7." },
-        { q: "Dois-je voyager aux États-Unis pour l'obtenir ?", a: "Non. En passant par un Certifying Acceptance Agent, vous pouvez tout faire à distance depuis votre pays de résidence." },
+        { q: "Dois-je voyager aux États-Unis pour l'obtenir ?", a: "Non. En passant par un Certifying Acceptance Agent, vous pouvez tout faire en ligne depuis votre pays de résidence." },
         { q: "L'ITIN expire-t-il ?", a: "Oui. L'ITIN expire s'il n'est pas utilisé dans une déclaration pendant trois années consécutives, ou selon le calendrier de renouvellement publié par l'IRS." },
         { q: "Puis-je ouvrir un compte bancaire personnel avec l'ITIN ?", a: "Certaines banques l'acceptent, surtout pour les clients ayant un lien réel avec les États-Unis (LLC, immobilier, résidence partielle). Ce n'est pas un substitut au SSN, mais cela ouvre des portes qui resteraient sinon fermées." },
       ],
@@ -1226,7 +1226,7 @@ const fr: SubpagesBase = {
       btnSecondary: "Voir tous les services",
     },
     seo: {
-      title: "ITIN sans ambassade : nous le gérons à distance | Exentax",
+      title: "ITIN sans ambassade : nous le gérons en ligne | Exentax",
       description: "Évitez l'ambassade et l'envoi de votre passeport : notre Certifying Acceptance Agent dépose votre ITIN auprès de l'IRS et vous suit. Commencez ici.",
       keywords: "ITIN, obtenir ITIN, ITIN non-résidents, Certifying Acceptance Agent, W-7, numéro fiscal IRS",
       ogTitle: "ITIN sans voyager aux USA : on s'en charge pour vous",
@@ -1256,7 +1256,7 @@ const de: SubpagesBase = {
       kicker: "WARUM NEW MEXICO",
       h2: "Der effizienteste Bundesstaat für eine Single-Member-LLC",
       paragraphs: [
-        "Steueroptimiert für deutschsprachige Selbstständige: genau deshalb ist New Mexico heute der von Freelancern, Remote-Agenturen und Content Creators außerhalb der USA meistgenutzte Bundesstaat — kein Jahresbericht, keine Franchise Tax und Mitglieder müssen nicht öffentlich gelistet werden.",
+        "Steueroptimiert für deutschsprachige Selbstständige: genau deshalb ist New Mexico heute der von Freelancern, digitalen Agenturen und Content Creators außerhalb der USA meistgenutzte Bundesstaat — kein Jahresbericht, keine Franchise Tax und Mitglieder müssen nicht öffentlich gelistet werden.",
         "Für Nicht-Ansässige, die Dienstleistungen aus dem Ausland fakturieren, bedeutet das eine echte juristische Struktur mit EIN und US-Bankkonto, bei minimalen Jahreskosten und ohne wiederkehrende Bürokratie.",
       ],
     },
@@ -1272,7 +1272,7 @@ const de: SubpagesBase = {
     bestFor: {
       h2: "Passend für Sie, wenn...",
       items: [
-        "Sie als Remote-Freelancer oder Berater Kunden außerhalb der USA fakturieren.",
+        "Sie als Online-Freelancer oder Berater Kunden außerhalb der USA fakturieren.",
         "Sie eine saubere, günstig zu pflegende Struktur ohne wiederkehrende Bundesstaatsmeldungen wollen.",
         "Sie Wert darauf legen, dass Ihr Name nicht öffentlich im LLC-Register erscheint.",
         "Sie als Digitalnomade arbeiten und eine Rechtsform mit EIN und Bankkonto brauchen.",
@@ -1636,7 +1636,7 @@ const pt: SubpagesBase = {
       kicker: "POR QUE NOVO MÉXICO",
       h2: "O estado mais eficiente para uma LLC unipessoal",
       paragraphs: [
-        "Estrutura enxuta e barata: por isso o Novo México é hoje o estado mais usado por freelancers, agências remotas e criadores de conteúdo que vivem fora dos Estados Unidos — não exige relatório anual, não cobra franchise tax e permite não listar publicamente os membros da LLC.",
+        "Estrutura enxuta e barata: por isso o Novo México é hoje o estado mais usado por freelancers, agências digitais e criadores de conteúdo que vivem fora dos Estados Unidos — não exige relatório anual, não cobra franchise tax e permite não listar publicamente os membros da LLC.",
         "Para um não residente que fatura serviços do exterior, isso se traduz em uma estrutura legal real, com EIN e conta bancária americana, mantendo o custo anual ao mínimo e evitando burocracia recorrente.",
       ],
     },
@@ -1652,7 +1652,7 @@ const pt: SubpagesBase = {
     bestFor: {
       h2: "É para si se...",
       items: [
-        "É freelancer ou consultor remoto faturando para clientes fora dos EUA.",
+        "É freelancer ou consultor digital faturando para clientes fora dos EUA.",
         "Quer uma estrutura limpa, barata de manter e sem papelada estadual recorrente.",
         "Faz questão de que seu nome não apareça publicamente no registo da LLC.",
         "Opera como nómada digital e precisa de uma entidade legal com EIN e conta bancária.",
@@ -2016,7 +2016,7 @@ const ca: SubpagesBase = {
       kicker: "PER QUÈ NOU MÈXIC",
       h2: "L'estat més eficient per a una LLC unipersonal",
       paragraphs: [
-        "Cost mínim i sense paperasses recurrents: per això Nou Mèxic s'ha convertit en l'estat més usat per freelancers, agències remotes i creadors de contingut que viuen fora dels Estats Units — no exigeix informe anual, no cobra franchise tax i permet no llistar públicament els membres de la LLC.",
+        "Cost mínim i sense paperasses recurrents: per això Nou Mèxic s'ha convertit en l'estat més usat per freelancers, agències digitals i creadors de contingut que viuen fora dels Estats Units — no exigeix informe anual, no cobra franchise tax i permet no llistar públicament els membres de la LLC.",
         "Per a un no resident que factura serveis des de l'estranger, això es tradueix en una estructura legal real, amb EIN i compte bancari nord-americà, mantenint el cost anual al mínim i evitant burocràcia recurrent.",
       ],
     },
@@ -2032,7 +2032,7 @@ const ca: SubpagesBase = {
     bestFor: {
       h2: "És per a tu si...",
       items: [
-        "Ets freelance o consultor remot facturant a clients fora dels EUA.",
+        "Ets freelance o consultor digital facturant a clients fora dels EUA.",
         "Vols una estructura neta, barata de mantenir i sense paperassa estatal recurrent.",
         "Vols que el teu nom no aparegui públicament al registre de la LLC.",
         "Operes com a nòmada digital i necessites una entitat legal amb EIN i compte bancari.",
@@ -2406,7 +2406,7 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     rows: [
       { label: "Privacy", values: ["High — no public member registry", "Very high — true owner anonymity", "Medium — agent and address public", "Low — members and managers on file"] },
       { label: "Asset protection", values: ["Strong — charging order as sole remedy", "Excellent — strongest in the US", "Good — solid corporate case law", "Standard — typical LLC protection"] },
-      { label: "Typical assets", values: ["Online services and remote income", "Holding, real estate, investments", "Startups, equity, institutional investors", "Local operations, e-commerce, FL real estate"] },
+      { label: "Typical assets", values: ["Online services and digital income", "Holding, real estate, investments", "Startups, equity, institutional investors", "Local operations, e-commerce, FL real estate"] },
       { label: "Ideal profile", values: ["Digital nomad or freelancer billing outside the US", "Investor or asset-holding vehicle", "Startup planning to raise US capital", "Founder with clients or presence in Florida"] },
       { label: "Standout feature", values: ["Zero annual report — minimal friction", "Top-tier privacy and protection", "Recognized corporate prestige", "Direct access to local market and banking"] },
     ],
@@ -2438,7 +2438,7 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     rows: [
       { label: "Privatsphäre", values: ["Hoch — kein öffentliches Mitgliederregister", "Sehr hoch — echte Anonymität des Inhabers", "Mittel — Agent und Adresse öffentlich", "Niedrig — Mitglieder und Geschäftsführer im Register"] },
       { label: "Vermögensschutz", values: ["Solide — Charging Order als einziges Rechtsmittel", "Exzellent — der stärkste in den USA", "Gut — gefestigte Corporate-Rechtsprechung", "Standard — typischer LLC-Schutz"] },
-      { label: "Typische Aktiva", values: ["Online-Dienste und Remote-Einkommen", "Holding, Immobilien, Beteiligungen", "Startups, Equity, institutionelle Investoren", "Lokales Geschäft, E-Commerce, Immobilien in FL"] },
+      { label: "Typische Aktiva", values: ["Online-Dienste und digitales Einkommen", "Holding, Immobilien, Beteiligungen", "Startups, Equity, institutionelle Investoren", "Lokales Geschäft, E-Commerce, Immobilien in FL"] },
       { label: "Ideales Profil", values: ["Digitaler Nomade oder Freelancer mit Rechnungen außerhalb der USA", "Investor oder Vermögensholding", "Startup, das US-Kapital aufnehmen will", "Unternehmer mit Kunden oder Präsenz in Florida"] },
       { label: "Besondere Stärke", values: ["Kein Jahresbericht — minimale Bürokratie", "Spitzen-Privatsphäre und -Schutz", "Anerkanntes Renommee im Gesellschaftsrecht", "Direkter Zugang zu lokalem Markt und Banking"] },
     ],

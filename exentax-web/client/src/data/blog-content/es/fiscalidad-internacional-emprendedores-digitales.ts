@@ -14,7 +14,7 @@ Tu residencia fiscal determina en qué país tributas por tu renta mundial. No e
 
 ### 2. Fuente del ingreso
 
-La fuente del ingreso determina si un país puede gravar una renta específica. Para servicios digitales prestados remotamente, la fuente suele ser el lugar donde se realiza el trabajo, no donde está el cliente.
+La fuente del ingreso determina si un país puede gravar una renta específica. Para servicios digitales prestados online, la fuente suele ser el lugar donde se realiza el trabajo, no donde está el cliente.
 
 ### 3. Doble imposición
 
@@ -30,12 +30,12 @@ Vives en España, tienes una LLC en EE.UU. y tus clientes están en Alemania, Re
 
 2. **En tu país de residencia:** Como residente fiscal, tributas por renta mundial. Los beneficios netos de tu LLC tributan en tu país, pero sobre la base reducida por los gastos deducibles de la LLC.
 
-3. **En los países de tus clientes:** Generalmente no tienes obligación fiscal en los países de tus clientes si prestas servicios remotamente desde tu país de residencia.
+3. **En los países de tus clientes:** Generalmente no tienes obligación fiscal en los países de tus clientes si prestas servicios online desde tu país de residencia.
 ### Conceptos fiscales clave
 
 ### Establecimiento permanente
 
-Un establecimiento permanente (EP) es una presencia fija de negocio en un país que puede generar obligación fiscal. Para emprendedores digitales que trabajan remotamente, generalmente NO tienen EP en los países de sus clientes.
+Un establecimiento permanente (EP) es una presencia fija de negocio en un país que puede generar obligación fiscal. Para emprendedores digitales que trabajan online, generalmente NO tienen EP en los países de sus clientes.
 
 ### Transfer pricing (precios de transferencia)
 

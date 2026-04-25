@@ -81,7 +81,7 @@ Estonia's OÜ genuinely makes sense when:
 - You need an EU regulatory framework for your specific industry
 - You sell exclusively within the EU and need simplified intra-community VAT handling
 
-For a remote digital entrepreneur living in Spain, Mexico, Colombia, or Argentina? The US LLC provides more practical advantages, better banking, lower compliance friction, cleaner taxation, and higher international credibility.
+For an online digital entrepreneur living in Spain, Mexico, Colombia, or Argentina? The US LLC provides more practical advantages, better banking, lower compliance friction, cleaner taxation, and higher international credibility.
 ### The cost comparison
 
 | Cost item | US LLC (New Mexico) | Estonian OÜ |
@@ -266,7 +266,7 @@ Estonia was sold as the digital entrepreneur's paradise with e-Residency. The te
 
 **I'm freelance in Spain with EU clients, do I open OÜ?** Almost never. OÜ does not exempt you from Spanish IRPF if you control it alone and do not live in Estonia. You pay Estonian + Spanish. A US LLC is usually superior by Stripe USD access and fiscal simplicity when attributed.
 
-**Does e-Residency give me tax residence in Estonia?** No. E-Residency is only digital identity to sign and open a company remotely.
+**Does e-Residency give me tax residence in Estonia?** No. E-Residency is only digital identity to sign and open a company online.
 
 At Exentax we review existing OÜs and, when they do not add value, help migrate to simpler structure (US LLC or local company) without losing history or breaking contracts.
 <!-- /exentax:execution-v2 -->

@@ -58,7 +58,7 @@ Para el perfil habitual de Exentax (freelance, agencia, ecommerce, SaaS, creador
 
 - **Fiscalidad**: 0% federal en EE.UU. para no residentes, sin solicitudes ni claims que gestionar año tras año (<a href="/es/blog/tributacion-pass-through-llc-como-funciona">pass-through</a>).
 - **Coste anual**: 500-800 USD frente a 4.000-7.000 USD de Hong Kong.
-- **Banca**: Mercury, Wise, Wallester, Slash, Relay, abren remoto y operan en USD desde el día uno.
+- **Banca**: Mercury, Wise, Wallester, Slash, Relay, abren online y operan en USD desde el día uno.
 - **Reputación**: ningún cliente o proveedor pone reparos a una empresa americana.
 - **Sin auditoría obligatoria**: la LLC no tiene que auditar cuentas. Basta con un Form 5472 anual.
 
@@ -89,7 +89,7 @@ Solo formalmente. La adhesión al BEPS, la presión de la UE y la firma de acuer
 
 **¿Puedo abrir cuenta bancaria sin viajar?**
 
-Cada vez es más difícil. HSBC, Hang Seng y Standard Chartered exigen visita presencial. Algunas EMIs (Airwallex, Currenxie, Statrys) permiten apertura remota, pero con límites operativos.
+Cada vez es más difícil. HSBC, Hang Seng y Standard Chartered exigen visita presencial. Algunas EMIs (Airwallex, Currenxie, Statrys) permiten apertura online, pero con límites operativos.
 
 **¿Cuánto cuesta mantener una Hong Kong Limited al año?**
 

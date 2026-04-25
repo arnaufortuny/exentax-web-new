@@ -23,7 +23,7 @@ Premier changement mental: **un compte n'est pas le compte. C'est un fournisseur
 Si cela paraît excessif: ça l'est pour le premier mois. C'est **strictement le minimum** pour ne pas perdre l'opérationnel quand quelque chose lâche. Et quelque chose lâche toujours.
 ## Pourquoi Mercury seul ne suffit pas
 
-Mercury est sans doute le meilleur produit du marché pour une LLC de non-résident: onboarding remote, sans frais mensuel, intégration correcte avec la compta et un support raisonnable. Mais Mercury **n'est pas une banque**: c'est une couche logicielle au-dessus de banques partenaires (Choice Financial, Column N.A., Evolve). Si l'une coupe le cordon avec vous, Mercury **ne peut pas vous rouvrir le compte** ni déplacer les fonds vers un autre partenaire sans votre intervention.
+Mercury est sans doute le meilleur produit du marché pour une LLC de non-résident: onboarding online, sans frais mensuel, intégration correcte avec la compta et un support raisonnable. Mais Mercury **n'est pas une banque**: c'est une couche logicielle au-dessus de banques partenaires (Choice Financial, Column N.A., Evolve). Si l'une coupe le cordon avec vous, Mercury **ne peut pas vous rouvrir le compte** ni déplacer les fonds vers un autre partenaire sans votre intervention.
 
 Ce que nous voyons à Exentax presque chaque semaine:
 

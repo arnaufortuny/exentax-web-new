@@ -7,7 +7,7 @@ Major US banks like Chase, Bank of America, Wells Fargo, and Citibank offer busi
 **The problem:**
 - Most require in-person account opening at a US branch
 - Many require a US SSN or ITIN from the applicant
-- They're not designed for international remote businesses
+- They're not designed for international online businesses
 - Monthly fees: $15-30/month minimum
 - Wire transfer fees: $15-45 per wire (sending), $15-25 per wire (receiving)
 - Minimum balance requirements: often $1,500-5,000
@@ -92,7 +92,7 @@ Never depend on a single account. If Mercury has a temporary compliance review, 
 | Decision factor | Traditional bank wins | Fintech wins |
 |---|---|---|
 | You need physical branch access | ✅ | |
-| You're applying from outside the US | | ✅ (Mercury, Relay. fully remote) |
+| You're applying from outside the US | | ✅ (Mercury, Relay. fully online) |
 | You need FDIC insurance > $250K | ✅ (multiple accounts) | ✅ (Mercury via Column NA, up to $5M) |
 | You need international wires | | ✅ ($0 at Mercury vs. $25-50 at banks) |
 | You need sub-accounts for clients | | ✅ (Relay: 20 free) |
@@ -123,7 +123,7 @@ Based on our experience with hundreds of clients:
 | Mercury | 90%+ | 1-5 days | Inconsistent documentation |
 | Relay | 95%+ | 1-3 days | Rarely rejected |
 | Wise Business | 85%+ | 1-5 days | High-risk country, unclear business |
-| Traditional bank (remote) | 30-40% | 2-6 weeks | Non-resident, no US address |
+| Traditional bank (online) | 30-40% | 2-6 weeks | Non-resident, no US address |
 | Traditional bank (in-person) | 70%+ | Same day | Requires US visit |
 
 This is why we recommend the fintech path. With properly prepared documentation (which Exentax provides), you can be fully banked within a week, without visiting the US.
@@ -158,7 +158,7 @@ What follows is the operational view, not the textbook one. We have run this pla
 We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure leaks tax, banking access or compliance. The notes below distil what we actually do with clients facing this exact case, prioritising the variables that move the needle.<!-- exentax:execution-v2 -->
 ## How to decide between a traditional bank and a fintech for your LLC
 
-The "bank or fintech?" question has a less romantic answer than LinkedIn suggests: it depends on your activity risk profile, the country you operate from and how much weight you give to remote availability over robustness in an extended KYC. These are the axes we use in every case.
+The "bank or fintech?" question has a less romantic answer than LinkedIn suggests: it depends on your activity risk profile, the country you operate from and how much weight you give to online availability over robustness in an extended KYC. These are the axes we use in every case.
 
 - **Real availability for non-residents.** Mercury, Relay and Wise Business are the three options that accept non-residents with a reasonable approval ratio. Federal banks (Chase, BofA, Citibank) require an in-person US visit and, in many branches, your own US address. If you sit abroad, fintech is the practical entry point.
 - **Robustness in extended KYC.** Mercury runs through Choice Financial, Evolve Bank & Trust and Column N.A. with FDIC sweep coverage. On closure, the balance is sent by cheque to the registered address - operationally hard for non-residents. Keeping a second live account (Relay or Wise Business) is a contingency, not paranoia.

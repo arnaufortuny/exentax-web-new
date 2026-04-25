@@ -133,7 +133,7 @@ Oui, par apport ou échange de titres. En France et en Espagne il existe des ré
 Oui, tant que les bénéfices restent dans la holding (pas de distribution de dividendes à la personne physique). Cela permet de réinvestir, prêter et professionnaliser la gestion patrimoniale sans déclencher l'IR jusqu'au retrait effectif.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
 **Holding en France vs Pays-Bas vs Luxembourg?**

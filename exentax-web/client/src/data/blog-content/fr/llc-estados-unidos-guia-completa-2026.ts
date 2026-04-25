@@ -24,7 +24,7 @@ Il y a des raisons très concrètes (et très convaincantes):
 - **Compte bancaire en dollars.** Accès à des comptes chez Mercury (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), avec assurance FDIC) ou Relay (adossé à Thread Bank), sans restrictions. Virements internationaux à 0 $ avec Mercury. Sans frais de maintenance.
 - **Passerelles de paiement sans restrictions.** Stripe, PayPal, processeurs de paiement: tout fonctionne sans problème avec une LLC américaine. Adieu les limitations des comptes personnels ou des entreprises d'autres pays.
 - **Crédibilité internationale.** Facturer depuis une entreprise américaine génère une confiance immédiate auprès des clients internationaux. Ce n'est pas la même chose d'envoyer une facture au nom de « Jean Dupont, auto-entrepreneur » que depuis « Votre Entreprise LLC ».
-- **Sans besoin de voyager.** Tout le processus est 100 % à distance. Pas besoin de visa, pas besoin de fouler le sol américain, pas besoin de SSN.
+- **Sans besoin de voyager.** Tout le processus est 100 % en ligne. Pas besoin de visa, pas besoin de fouler le sol américain, pas besoin de SSN.
 ### Sécurité juridique et légale
 
 La LLC n'est pas une invention de YouTube ni une astuce fiscale. C'est une structure d'entreprise reconnue par le gouvernement fédéral des États-Unis, réglementée par chaque État et utilisée par des millions d'entreprises, des freelances aux multinationales.
@@ -108,7 +108,7 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 - **Mexique, Colombie, Argentine et autres LATAM.** Chaque juridiction a son propre régime CFC (Mexique: Refipres; Argentine: revenus passifs étrangers; Chili: art. 41 G LIR). Principe commun: ce que la LLC retient comme bénéfice est considéré comme perçu par l'associé si l'entité est jugée transparente ou contrôlée.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Règle pratique: une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**art. 15 LGT (abus de droit)** ou, au pire, de l'**art. 16 LGT (simulation)**. Ce sont les faits qui décident, pas le papier.

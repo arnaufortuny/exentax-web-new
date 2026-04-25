@@ -23,7 +23,7 @@ A partir do segundo ano de actividade real, a stack mínima de uma LLC bem gerid
 Se parece exagerado: é, no primeiro mês. É **estritamente o mínimo** para não perder operativa quando algo falha. E algo falha sempre.
 ## Por que Mercury sozinho não chega
 
-Mercury é provavelmente o melhor produto do mercado para uma LLC de não residente: onboarding remoto, sem custo mensal, integração decente com contabilidade e suporte razoável. Mas Mercury **não é um banco**: é uma camada software por cima de bancos partner (Choice Financial, Column N.A., Evolve). Se um partner decide cortar contigo, Mercury **não pode reabrir-te a conta** nem mover os fundos para outro partner sem a tua intervenção.
+Mercury é provavelmente o melhor produto do mercado para uma LLC de não residente: onboarding online, sem custo mensal, integração decente com contabilidade e suporte razoável. Mas Mercury **não é um banco**: é uma camada software por cima de bancos partner (Choice Financial, Column N.A., Evolve). Se um partner decide cortar contigo, Mercury **não pode reabrir-te a conta** nem mover os fundos para outro partner sem a tua intervenção.
 
 O que vemos na Exentax quase semanalmente:
 

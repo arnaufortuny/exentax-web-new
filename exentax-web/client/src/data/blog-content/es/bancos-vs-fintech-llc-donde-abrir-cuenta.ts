@@ -58,7 +58,7 @@ Las fintechs resolvieron este problema. Mercury, Relay y Wise permiten abrir cue
 | Tipo | Money Transmitter | Fintech | EMI | EMI |
 | Banco subyacente | Column NA | Thread Bank | N/A (safeguarding) | Banco partner |
 | FDIC | Sí (hasta $5M) | Sí ($250K) | No | Sí ($250K) |
-| Apertura remota | Sí | Sí | Sí | Sí |
+| Apertura online | Sí | Sí | Sí | Sí |
 | Tarjeta | Virtual + física | Virtual + física | Virtual + física | Virtual + física |
 | Multi-divisa | No (solo USD) | No (solo USD) | Sí (40+) | Sí (30+) |
 | ACH gratis | Sí | Sí | Sí | Sí |

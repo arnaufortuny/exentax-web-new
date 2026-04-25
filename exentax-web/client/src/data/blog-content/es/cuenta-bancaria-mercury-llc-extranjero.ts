@@ -15,7 +15,7 @@ Aquí hay un matiz importante que mucha gente confunde: **Mercury no es un banco
 
 Sus ventajas principales para dueños de LLC:
 
-- **Apertura 100% remota.** No necesitas SSN ni presencia física en EE.UU. Pasaporte y EIN, y listo.
+- **Apertura 100% online.** No necesitas SSN ni presencia física en EE.UU. Pasaporte y EIN, y listo.
 - **$0 comisiones.** Ni mantenimiento, ni mínimos de saldo, ni sorpresas a final de mes.
 - **Wire transfers gratuitos.** Tanto envío como recepción de wires nacionales e internacionales: $0. Sí, has leído bien. Cero. Nada. Gratis. Esto es casi inaudito en el sector.
 - **ACH gratuito.** Transferencias domésticas sin coste.
@@ -238,7 +238,7 @@ Mercury es la opción de cabecera, pero no es la única, y conviene saber dónde
 | Criterio | Mercury | Relay Financial | Wise Business | Banca tradicional (Bank of America, Chase, Wells Fargo) |
 |---|---|---|---|---|
 | Tipo de entidad | Fintech sobre Choice y Column N.A. (FDIC pass-through) | Fintech sobre Thread Bank (FDIC pass-through) | EMI (Wise US Inc., FinCEN MSB) | Banco comercial (FDIC directo) |
-| Apertura 100 % remota para no residentes | Sí | Sí | Sí | No, exige presencia física y SSN o ITIN del firmante |
+| Apertura 100 % online para no residentes | Sí | Sí | Sí | No, exige presencia física y SSN o ITIN del firmante |
 | Tiempo medio aprobación | 2 a 7 días | 3 a 10 días | 1 a 3 días | 4 a 8 semanas si llegas a abrirla |
 | Wires domésticos | Gratis | Gratis hasta 20 al mes | De pago | De pago |
 | Wires internacionales SWIFT | Salida con coste, entrada gratis | Salida con coste competitivo | Coste muy bajo y conversión a media de mercado | Coste alto y peor tipo de cambio |

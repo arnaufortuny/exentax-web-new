@@ -169,7 +169,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 
   ### Pasarelas de pagamento e LLC: enquadramento português DAC7
 
-  Para sócios portugueses de uma LLC americana que utilizem Stripe, PayPal ou DodoPayments, aplica-se desde **01/01/2023** a **Lei 36/2023** (transposição da Diretiva DAC7) que obriga os operadores de plataforma à comunicação automática à AT até 31/01 do ano seguinte. O limiar de reporte é **30 transações/ano** ou **€2.000/ano** por vendedor. As pasarelas puras (Stripe, PayPal) **não são consideradas plataformas comunicantes** se apenas processam pagamentos sem intermediação na transação subjacente (art. 5.º/3 da Lei 36/2023). Faturação obrigatória ao abrigo do **art. 36.º CIVA** com SAF-T (PT) e arquivo durante **10 anos** (art. 52.º CIVA).
+  Para sócios portugueses de uma LLC americana que utilizem Stripe, PayPal ou DodoPayments, aplica-se desde **01/01/2023** a **Lei 36/2023** (transposição da Diretiva DAC7) que obriga os operadores de plataforma à comunicação automática à AT até 31/01 do ano seguinte. O limiar de reporte é **30 transações/ano** ou **€2.000/ano** por vendedor. As pasarelas puras (Stripe, PayPal) **não são consideradas plataformas comunicantes** se apenas processam pagamentos sem intermediação na transação subjacente (art. 5.º/3 da Lei 36/2023). Faturação obrigatória ao abrigo do **art. 36.º CIVA** com SAF-T (PT) e arquivamento durante **10 anos** (art. 52.º CIVA).
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

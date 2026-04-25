@@ -129,7 +129,7 @@ For pure tax optimization without real British presence, the US LLC solves the a
 
 - International operations with clients in multiple countries.
 - Pure corporate tax optimization without local presence.
-- Essential remote banking.
+- Essential online banking.
 - Low operating costs and minimal compliance.
 - International payment gateways (Stripe USA, DoDo, Adyen).
 ### Typical scenarios where it applies

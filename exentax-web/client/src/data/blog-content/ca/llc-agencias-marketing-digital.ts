@@ -18,7 +18,7 @@ El dia a dia amb una LLC és més senzill del que sembla:
 3. **Gestiones les teves despeses d'ads** directament des de la targeta de dèbit de la teva LLC.
 4. **Al final de l'any**, nosaltres ens encarreguem de les declaracions davant l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
 
-No necessites viatjar als Estats Units, no necessites oficina física, i tot el procés de constitució és 100% remot.
+No necessites viatjar als Estats Units, no necessites oficina física, i tot el procés de constitució és 100% online.
 ### Quan té sentit per a una agència?
 
 Si la teva agència factura més de 3.000-5.000€ al mes i tens almenys un parell de clients internacionals, és molt probable que l'estructura LLC et beneficiï. Com més gran sigui la teva facturació, més gran pot ser la diferència.

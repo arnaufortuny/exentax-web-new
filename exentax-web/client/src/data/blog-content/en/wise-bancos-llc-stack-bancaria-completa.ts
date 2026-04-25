@@ -23,7 +23,7 @@ From the second year of real activity (i.e. invoicing and collecting regularly),
 If this looks excessive: it is for month one. It's **strictly the minimum** to keep operating when something fails. And something always fails.
 ## Why Mercury alone isn't enough
 
-Mercury is arguably the best product on the market for a non-resident's LLC: remote onboarding, no monthly fee, decent integration with accounting software and a reasonable support team. But Mercury **isn't a bank**: it's a software layer on top of partner banks (Choice Financial, Column N.A., Evolve). If one of those partners decides to cut you off, Mercury **can't reopen your account** or move funds to another partner without your intervention.
+Mercury is arguably the best product on the market for a non-resident's LLC: online onboarding, no monthly fee, decent integration with accounting software and a reasonable support team. But Mercury **isn't a bank**: it's a software layer on top of partner banks (Choice Financial, Column N.A., Evolve). If one of those partners decides to cut you off, Mercury **can't reopen your account** or move funds to another partner without your intervention.
 
 What we see at Exentax almost weekly:
 

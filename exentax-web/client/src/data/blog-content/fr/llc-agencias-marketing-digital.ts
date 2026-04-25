@@ -18,7 +18,7 @@ Le quotidien avec une LLC est plus simple qu'il n'y paraît:
 3. **Vous gérez vos dépenses publicitaires** directement depuis la carte de débit de votre LLC.
 4. **En fin d'année**, nous nous occupons des déclarations auprès de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
 
-Vous n'avez pas besoin de voyager aux États-Unis, pas besoin de bureau physique, et tout le processus de constitution est 100 % à distance.
+Vous n'avez pas besoin de voyager aux États-Unis, pas besoin de bureau physique, et tout le processus de constitution est 100 % en ligne.
 ### Quand cela a-t-il du sens pour une agence?
 
 Si votre agence facture plus de 3 000-5 000 €/mois et que vous avez au moins quelques clients internationaux, il est très probable que la structure LLC vous soit bénéfique. Plus votre chiffre d'affaires est élevé, plus la différence peut être importante.

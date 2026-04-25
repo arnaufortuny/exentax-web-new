@@ -114,7 +114,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.

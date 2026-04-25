@@ -81,7 +81,7 @@ A Stripe **sim opera** nos EAU desde janeiro de 2024, mas com limitações de m�
 A pergunta importante: o que é que os EAU resolvem que uma LLC americana não resolve?
 
 - **Se vive nos EAU**: 0 % IRS pessoal real (desde que cumpra residência). Isto a LLC não faz por si só, depende do seu país de residência.
-- **Se não vive nos EAU**: a "vantagem Dubai" desaparece. Uma LLC americana oferece a mesma fiscalidade corporativa efetiva (<a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">0 % pass-through</a>), com custo anual 10x menor, banca remota e reputação internacional comparável.
+- **Se não vive nos EAU**: a "vantagem Dubai" desaparece. Uma LLC americana oferece a mesma fiscalidade corporativa efetiva (<a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">0 % pass-through</a>), com custo anual 10x menor, banca online e reputação internacional comparável.
 
 Os EAU fazem sentido quando:
 

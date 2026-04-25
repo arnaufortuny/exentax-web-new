@@ -139,7 +139,7 @@ Now that you have the full context, the natural next step is to map it against y
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider

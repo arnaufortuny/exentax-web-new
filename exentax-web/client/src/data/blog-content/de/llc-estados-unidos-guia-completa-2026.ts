@@ -24,7 +24,7 @@ Es gibt sehr konkrete (und sehr überzeugende) Gründe:
 - **Bankkonten in Dollar.** Zugang zu Konten bei Mercury (gestützt durch Column NA, mit FDIC-Versicherung) oder Relay (gestützt durch Thread Bank), ohne Einschränkungen. Internationale Überweisungen für $0 mit Mercury. Keine Kontoführungsgebühren.
 - **Zahlungsabwicklung ohne Einschränkungen.** Stripe, PayPal, Zahlungsanbieter, alle funktionieren problemlos mit einer amerikanischen LLC. Schluss mit den Einschränkungen, die persönliche Konten oder Unternehmen aus anderen Ländern haben.
 - **Internationale Glaubwürdigkeit.** Von einem amerikanischen Unternehmen aus abzurechnen, schafft sofortiges Vertrauen bei internationalen Kunden. Es ist ein Unterschied, ob Sie eine Rechnung als „Max Mustermann, Freiberufler" oder als „Ihr Unternehmen LLC" senden.
-- **Ohne Reisen.** Der gesamte Prozess ist 100% remote. Sie benötigen kein Visum, müssen keinen amerikanischen Boden betreten und brauchen keine SSN.
+- **Ohne Reisen.** Der gesamte Prozess ist 100% online. Sie benötigen kein Visum, müssen keinen amerikanischen Boden betreten und brauchen keine SSN.
 ## Rechtssicherheit und Legalität
 
 Die LLC ist keine YouTube-Erfindung und kein Steuertrick. Es ist eine Unternehmensstruktur, die von der US-Bundesregierung anerkannt, von jedem Bundesstaat reguliert und von Millionen von Unternehmen genutzt wird, von Freiberuflern bis hin zu multinationalen Konzernen.
@@ -108,7 +108,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.

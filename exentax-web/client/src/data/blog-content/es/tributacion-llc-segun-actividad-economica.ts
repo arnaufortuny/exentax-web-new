@@ -87,7 +87,7 @@ Más sobre cómo evitar errores típicos en <a href="/es/blog/riesgos-fiscales-m
 Una LLC no tributa "de una manera": tributa según lo que hace, dónde lo hace y desde dónde se controla. La conversación seria de planificación fiscal empieza por entender tu actividad real, no por elegir un país en un mapa.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es/servicios">Empieza hoy 100% remoto</a>
+> <a href="/es/servicios">Empieza hoy 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ¿Quieres que analicemos cómo tributa exactamente tu actividad y te diseñemos la estructura más eficiente y defendible? Agenda tu asesoría gratuita.

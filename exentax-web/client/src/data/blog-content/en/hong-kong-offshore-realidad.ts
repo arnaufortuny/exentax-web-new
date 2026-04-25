@@ -58,7 +58,7 @@ For the typical Exentax profile (freelancer, agency, ecommerce, SaaS, content cr
 
 - **Taxation**: 0% federal in the US for non-residents, with no claims to manage year after year (<a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">pass-through</a>).
 - **Annual cost**: USD 500-800 vs USD 4,000-7,000 in Hong Kong.
-- **Banking**: Mercury, Wise, Wallester, Slash, Relay, all opened remotely and operating in USD from day one.
+- **Banking**: Mercury, Wise, Wallester, Slash, Relay, all opened online and operating in USD from day one.
 - **Reputation**: no client or vendor objects to a US company.
 - **No mandatory audit**: the LLC does not have to audit accounts. A yearly Form 5472 is enough.
 
@@ -89,7 +89,7 @@ Only formally. BEPS adherence, EU pressure and CRS agreements have eroded real o
 
 **Can I open a bank account without traveling?**
 
-It is increasingly hard. HSBC, Hang Seng and Standard Chartered require an in-person visit. Some EMIs (Airwallex, Currenxie, Statrys) allow remote onboarding, but with operational limits.
+It is increasingly hard. HSBC, Hang Seng and Standard Chartered require an in-person visit. Some EMIs (Airwallex, Currenxie, Statrys) allow online onboarding, but with operational limits.
 
 **How much does it cost to maintain a Hong Kong Limited per year?**
 

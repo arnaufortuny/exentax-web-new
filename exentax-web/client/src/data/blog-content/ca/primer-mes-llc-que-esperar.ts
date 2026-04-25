@@ -114,7 +114,7 @@ La recomanació realista: **Mercury + Relay com a respatller + Slash per a opera
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Comença avui, 100% remot</a>
+> <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes per proveïdor

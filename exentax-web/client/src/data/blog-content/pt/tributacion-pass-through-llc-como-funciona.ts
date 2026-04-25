@@ -138,7 +138,7 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt/servicos">Começa hoje, 100% remoto</a>
+> <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Pontos-chave

@@ -83,7 +83,7 @@ Stripe **does operate** in the UAE since January 2024, but with payment method l
 The important question: what does the UAE solve that a US LLC does not solve?
 
 - **If you live in the UAE**: real 0% personal income tax (provided you meet residency rules). The LLC does not do this on its own; it depends on your country of residence.
-- **If you do not live in the UAE**: the "Dubai advantage" disappears. A US LLC offers the same effective corporate taxation (<a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">0% pass-through</a>), with annual cost 10x lower, remote banking and comparable international reputation.
+- **If you do not live in the UAE**: the "Dubai advantage" disappears. A US LLC offers the same effective corporate taxation (<a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">0% pass-through</a>), with annual cost 10x lower, online banking and comparable international reputation.
 
 The UAE makes sense when:
 

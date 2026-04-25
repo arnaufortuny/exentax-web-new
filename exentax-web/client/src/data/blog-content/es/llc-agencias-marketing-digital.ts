@@ -20,7 +20,7 @@ El día a día con una LLC es más sencillo de lo que parece:
 3. **Gestionas tus gastos de ads** directamente desde la tarjeta de débito de tu LLC.
 4. **Al final del año**, nosotros nos encargamos de las declaraciones ante el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
 
-No necesitas viajar a Estados Unidos, no necesitas oficina física, y todo el proceso de constitución es 100% remoto.
+No necesitas viajar a Estados Unidos, no necesitas oficina física, y todo el proceso de constitución es 100% online.
 ### ¿Cuándo tiene sentido para una agencia?
 
 Si tu agencia factura más de 3.000-5.000€ al mes y tienes al menos un par de clientes internacionales, es muy probable que la estructura LLC te beneficie. Cuanto mayor sea tu facturación, mayor puede ser la diferencia.

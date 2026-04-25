@@ -70,7 +70,7 @@ Dokument, das bestätigt, wer Ihr Registered Agent ist, die Person oder das Unte
 ### Dokumente, die Sie NICHT brauchen
 
 - **Social Security Number (SSN)**: Nicht erforderlich für Nicht-Residenten. Die EIN ersetzt die SSN für steuerliche Zwecke der LLC
-- **Visum oder Arbeitserlaubnis**: Sie brauchen keine Arbeitserlaubnis in den USA, um eine LLC zu besitzen. Alles ist 100 % remote
+- **Visum oder Arbeitserlaubnis**: Sie brauchen keine Arbeitserlaubnis in den USA, um eine LLC zu besitzen. Alles ist 100 % online
 - **Physische Adresse in den USA**: Der Registered Agent stellt die rechtliche Adresse bereit
 - **Amerikanischer Reisepass**: Jeder gültige Reisepass ist akzeptabel
 - **Vorhandenes Bankkonto in den USA**: Es wird als Teil des Gründungsprozesses eröffnet
@@ -117,7 +117,7 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Hinweise nach Anbieter

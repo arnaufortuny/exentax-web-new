@@ -124,7 +124,7 @@ Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Ope
 Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Hinweise nach Anbieter

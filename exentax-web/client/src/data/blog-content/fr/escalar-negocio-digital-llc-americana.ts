@@ -106,7 +106,7 @@ L'application concrète de ces règles à votre cas dépend de votre résidence 
 L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes par fournisseur

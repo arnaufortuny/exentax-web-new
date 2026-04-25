@@ -56,7 +56,7 @@ Les fintechs ont résolu ce problème. Mercury, Relay et Wise permettent d'ouvri
 | Type | Money Transmitter | Fintech | EMI | EMI |
 | Banque sous-jacente | Column NA | Thread Bank | N/A (safeguarding) | Banque partenaire |
 | FDIC | Oui (jusqu'à $5M) | Oui ($250K) | Non | Oui ($250K) |
-| Ouverture à distance | Oui | Oui | Oui | Oui |
+| Ouverture en ligne | Oui | Oui | Oui | Oui |
 | Carte | Virtuelle + physique | Virtuelle + physique | Virtuelle + physique | Virtuelle + physique |
 | Multi-devises | Non (USD uniquement) | Non (USD uniquement) | Oui (40+) | Oui (30+) |
 | ACH gratuit | Oui | Oui | Oui | Oui |
@@ -127,7 +127,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 - **Fiscalité zéro**: aucune structure LLC ne donne « zéro impôt » si vous vivez dans un pays avec règles CFC, transparence fiscale ou attribution de revenus. Ce que l'on obtient, c'est **éviter la double imposition** et **déclarer correctement en résidence**, pas l'éliminer.<!-- exentax:execution-v2 -->
 ## Comment choisir entre banque traditionnelle et fintech pour votre LLC
 
-La question "banque ou fintech?" a une réponse moins romantique que ne le suggère LinkedIn: elle dépend du profil de risque de votre activité, du pays d'où vous opérez et du poids que vous accordez à la disponibilité à distance face à la robustesse en KYC élargi. Voici les axes que nous utilisons dans chaque cas.
+La question "banque ou fintech?" a une réponse moins romantique que ne le suggère LinkedIn: elle dépend du profil de risque de votre activité, du pays d'où vous opérez et du poids que vous accordez à la disponibilité en ligne face à la robustesse en KYC élargi. Voici les axes que nous utilisons dans chaque cas.
 
 - **Disponibilité réelle pour non-résidents.** Mercury, Relay et Wise Business sont les trois options qui acceptent les non-résidents avec un taux d'approbation raisonnable. Les banques fédérales (Chase, BofA, Citibank) exigent une visite physique aux États-Unis et, dans beaucoup d'agences, une adresse américaine personnelle. Si vous êtes à l'étranger, la fintech est la porte d'entrée pratique.
 - **Robustesse en KYC élargi.** Mercury opère via Choice Financial, Evolve Bank & Trust et Column N.A. avec couverture FDIC en sweep network. En cas de clôture, le solde est renvoyé par chèque à l'adresse enregistrée - opérationnellement difficile pour des non-résidents. Garder un second compte actif (Relay ou Wise Business) est de la contingence, pas de la paranoïa.

@@ -8,7 +8,7 @@ Your tax residency determines which country can tax your worldwide income. Key c
 - **Habitual residence:** Where you regularly live
 
 ### 2. Source of income
-The income source determines if a country can tax specific income. For remote digital services, the source is typically where the work is performed, not where the client is.
+The income source determines if a country can tax specific income. For online digital services, the source is typically where the work is performed, not where the client is.
 
 ### 3. Double taxation
 When two countries both claim the right to tax the same income, double taxation occurs. Tax treaties (CDIs. Convenios de Doble Imposición) between countries prevent this.
@@ -21,11 +21,11 @@ You live in Spain, have a US LLC, and clients in Germany, the US, and Mexico.
 
 **In your country of residence:** As a tax resident, you declare worldwide income. LLC profits (after expense deductions) are declared and subject to local income tax.
 
-**In client countries:** Generally no tax obligation for remote digital services (no permanent establishment).
+**In client countries:** Generally no tax obligation for online digital services (no permanent establishment).
 ### Key tax concepts
 
 ### Permanent establishment
-A permanent establishment (PE) is a fixed place of business in a country that creates tax obligations. For remote digital entrepreneurs, you generally don't have a PE in your clients' countries. You work from your home or coworking space, not from your client's office.
+A permanent establishment (PE) is a fixed place of business in a country that creates tax obligations. For online digital entrepreneurs, you generally don't have a PE in your clients' countries. You work from your home or coworking space, not from your client's office.
 
 ### Transfer pricing
 If you have multiple entities (LLC + local company), transactions between them must be at arm's length market prices. This means the prices charged between your entities must reflect real market conditions.

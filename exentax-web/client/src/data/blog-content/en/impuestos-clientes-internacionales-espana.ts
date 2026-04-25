@@ -38,7 +38,7 @@ Spain and the United States have a Double Taxation Convention (DTC). This means:
 - You won't pay taxes in both countries on the same income
 - The treaty provides rules for which country has taxing rights on different types of income
 - It may provide tax credits for taxes paid in one country against your liability in the other
-- Article 7 (Business Profits) generally gives taxing rights to the country of residence for services performed remotely
+- Article 7 (Business Profits) generally gives taxing rights to the country of residence for services performed online
 ## Practical example with real numbers
 
 María is a UX designer in Barcelona. She bills €8,000/month (€96,000/year), all to US and UK companies.

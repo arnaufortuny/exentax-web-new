@@ -56,7 +56,7 @@ Für das typische Exentax-Profil (Freelancer, Agentur, E-Commerce, SaaS, Content
 
 - **Besteuerung**: 0% Bund in den USA für Nicht-Residenten, ohne jährliche Anträge (<a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum">pass-through</a>).
 - **Jahreskosten**: 500-800 USD vs. 4.000-7.000 USD in Hong Kong.
-- **Banking**: Mercury, Wise, Wallester, Slash, Relay – alle remote, in USD ab dem ersten Tag.
+- **Banking**: Mercury, Wise, Wallester, Slash, Relay – alle online, in USD ab dem ersten Tag.
 - **Reputation**: Kein Kunde oder Lieferant beanstandet eine US-Gesellschaft.
 - **Keine Pflichtprüfung**: Die LLC muss keine Bilanzen prüfen lassen. Ein jährliches Form 5472 reicht.
 
@@ -87,7 +87,7 @@ Nur formal. Der BEPS-Beitritt, der Druck der EU und CRS-Abkommen haben die reale
 
 **Kann ich ein Bankkonto eröffnen, ohne zu reisen?**
 
-Es wird immer schwieriger. HSBC, Hang Seng und Standard Chartered verlangen einen persönlichen Besuch. Einige EMIs (Airwallex, Currenxie, Statrys) erlauben Remote-Onboarding, aber mit operativen Grenzen.
+Es wird immer schwieriger. HSBC, Hang Seng und Standard Chartered verlangen einen persönlichen Besuch. Einige EMIs (Airwallex, Currenxie, Statrys) erlauben Online-Onboarding, aber mit operativen Grenzen.
 
 **Wie viel kostet die jährliche Pflege einer Hong Kong Limited?**
 

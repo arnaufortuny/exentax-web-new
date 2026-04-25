@@ -131,7 +131,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 La normativa de información a FinCEN y al IRS se ha movido en recent years; la versión vigente es esta:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es/servicios">Empieza hoy 100% remoto</a>
+> <a href="/es/servicios">Empieza hoy 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Puntos clave

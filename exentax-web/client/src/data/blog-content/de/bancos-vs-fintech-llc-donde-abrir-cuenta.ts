@@ -56,7 +56,7 @@ Fintechs haben dieses Problem gelöst. Mercury, Relay und Wise ermöglichen die 
 | Typ | Money Transmitter | Fintech | EMI | EMI |
 | Zugrunde liegende Bank | Column NA | Thread Bank | N/A (Safeguarding) | Partnerbank |
 | FDIC | Ja (bis $5M) | Ja ($250K) | Nein | Ja ($250K) |
-| Remote-Eröffnung | Ja | Ja | Ja | Ja |
+| Online-Eröffnung | Ja | Ja | Ja | Ja |
 | Karte | Virtuell + physisch | Virtuell + physisch | Virtuell + physisch | Virtuell + physisch |
 | Multi-Währung | Nein (nur USD) | Nein (nur USD) | Ja (40+) | Ja (30+) |
 | ACH kostenlos | Ja | Ja | Ja | Ja |

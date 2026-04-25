@@ -16,7 +16,7 @@ Was bedeutet das in der Praxis? Dass Ihr Geld sicher bei einer echten Bank mit B
 
 Die wichtigsten Vorteile für LLC-Inhaber:
 
-- **100% Remote-Eröffnung.** Sie benötigen weder eine SSN noch physische Anwesenheit in den USA. Reisepass und EIN genügen.
+- **100% Online-Eröffnung.** Sie benötigen weder eine SSN noch physische Anwesenheit in den USA. Reisepass und EIN genügen.
 - **$0 Gebühren.** Keine Kontoführungsgebühren, keine Mindestguthaben, keine Überraschungen am Monatsende.
 - **Kostenlose Wire Transfers.** Sowohl Senden als auch Empfangen von nationalen und internationalen Überweisungen: $0. Ja, Sie haben richtig gelesen. Null. Nichts. Kostenlos. Das ist in der Branche nahezu unerhört.
 - **Kostenloses ACH.** Inlandsüberweisungen ohne Kosten.
@@ -247,7 +247,7 @@ Mercury ist die Standardwahl, aber nicht die einzige, und es lohnt sich zu wisse
 | Kriterium | Mercury | Relay Financial | Wise Business | Klassische Bank (Bank of America, Chase, Wells Fargo) |
 |---|---|---|---|---|
 | Entitätstyp | Fintech auf Choice und Column N.A. (FDIC Pass-through) | Fintech auf Thread Bank (FDIC Pass-through) | EMI (Wise US Inc., FinCEN MSB) | Geschäftsbank (FDIC direkt) |
-| 100 % Remote-Eröffnung für Nicht-Residenten | Ja | Ja | Ja | Nein, persönliche Präsenz und SSN oder ITIN nötig |
+| 100 % Online-Eröffnung für Nicht-Residenten | Ja | Ja | Ja | Nein, persönliche Präsenz und SSN oder ITIN nötig |
 | Durchschnittliche Genehmigungsdauer | 2 bis 7 Tage | 3 bis 10 Tage | 1 bis 3 Tage | 4 bis 8 Wochen, falls die Eröffnung überhaupt gelingt |
 | Inlandsüberweisungen | Kostenlos | Kostenlos bis 20 im Monat | Kostenpflichtig | Kostenpflichtig |
 | Internationale SWIFT-Überweisungen | Ausgehend kostenpflichtig, eingehend kostenlos | Ausgehend wettbewerbsfähig | Sehr günstig, Mid-Market-Kurs | Teuer und schlechterer Kurs |

@@ -68,13 +68,13 @@ L'ecosistema bancari i fintech dels Estats Units és, probablement, el millor de
 - Targetes de dèbit virtuals i físiques
 - Integracions amb QuickBooks, Xero, Stripe
 - Protecció FDIC fins a $250,000
-- Obertura 100% remota
+- Obertura 100% online
 
 **Relay (recolzat per Thread Bank)**
 - Fins a 20 comptes corrents sense cost
 - Targetes assignables a comptes específics
 - Excel·lent per organitzar fons per categories
-- Obertura remota per a no residents
+- Obertura online per a no residents
 - Protecció FDIC
 
 **Wise Business**

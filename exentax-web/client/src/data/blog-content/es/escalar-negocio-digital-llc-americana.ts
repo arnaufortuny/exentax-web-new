@@ -115,7 +115,7 @@ La aplicación concreta de cualquiera de estas normas a tu caso depende de tu re
 La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual está hoy:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/es/servicios">Empieza hoy 100% remoto</a>
+> <a href="/es/servicios">Empieza hoy 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por proveedor

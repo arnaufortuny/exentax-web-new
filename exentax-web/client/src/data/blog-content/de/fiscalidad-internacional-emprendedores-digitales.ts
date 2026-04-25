@@ -33,7 +33,7 @@ Sie leben in Deutschland, haben eine LLC in den USA und Ihre Kunden befinden sic
 
 ### Betriebsstätte
 
-Eine Betriebsstätte (PE. Permanent Establishment) ist eine feste Geschäftseinrichtung in einem Land, die eine Steuerpflicht auslösen kann. Für digitale Unternehmer, die remote arbeiten, liegt in der Regel KEINE Betriebsstätte in den Ländern ihrer Kunden vor.
+Eine Betriebsstätte (PE. Permanent Establishment) ist eine feste Geschäftseinrichtung in einem Land, die eine Steuerpflicht auslösen kann. Für digitale Unternehmer, die online arbeiten, liegt in der Regel KEINE Betriebsstätte in den Ländern ihrer Kunden vor.
 
 ### Transfer Pricing (Verrechnungspreise)
 

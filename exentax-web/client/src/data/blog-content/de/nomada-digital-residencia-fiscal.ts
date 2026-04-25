@@ -88,7 +88,7 @@ Das effizienteste Setup für die meisten digitalen Nomaden ist:
 4. **Wise Business** für die Währungsumrechnung zum echten Wechselkurs (es handelt sich um ein EMI, keine Bank. ergänzt Mercury)
 5. **Stripe/PayPal** um Zahlungen von globalen Kunden zu empfangen
 
-Mit diesem Setup kann Ihre gesamte Steuerlast 0% bis 10% betragen, abhängig vom gewählten Wohnsitzland. Und das Beste: Alles wird zu 100% remote verwaltet.
+Mit diesem Setup kann Ihre gesamte Steuerlast 0% bis 10% betragen, abhängig vom gewählten Wohnsitzland. Und das Beste: Alles wird zu 100% online verwaltet.
 
 Bei Exentax entwerfen wir diese komplette Struktur für Sie. Wir analysieren Ihre Situation, Ihr Herkunftsland, Ihre Reisepläne und schlagen Ihnen die optimale Kombination aus LLC + steuerlichem Wohnsitz + Finanztools vor. Es ist keine generische Vorlage, es ist ein maßgeschneiderter Plan.
 ### So ändern Sie Ihren steuerlichen Wohnsitz

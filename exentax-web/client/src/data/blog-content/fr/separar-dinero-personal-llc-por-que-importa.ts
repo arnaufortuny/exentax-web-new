@@ -77,7 +77,7 @@ Relay est une autre excellente option, particulièrement si vous avez besoin d'o
 - **Sans frais mensuels** ni minimum
 - **Cartes de débit** attribuables à des comptes spécifiques
 - **Intégration avec un logiciel comptable**
-- **Ouverture à distance** pour les non-résidents
+- **Ouverture en ligne** pour les non-résidents
 
 Relay se distingue par son système de sous-comptes, qui facilite énormément l'organisation financière et la séparation des fonds par catégorie.
 

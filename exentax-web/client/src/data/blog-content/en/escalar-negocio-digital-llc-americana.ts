@@ -108,7 +108,7 @@ Applying any of these rules to your specific case depends on your tax residency,
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider

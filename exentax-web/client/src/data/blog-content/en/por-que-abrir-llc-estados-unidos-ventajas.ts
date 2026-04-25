@@ -108,7 +108,7 @@ It's important to be transparent about limitations:
 ## Frequently asked questions
 
 **Can I open a US LLC from my country without traveling?**
-Yes. The entire process. formation, EIN, bank account, annual compliance, is done 100% remotely. You never need to visit the United States.
+Yes. The entire process. formation, EIN, bank account, annual compliance, is done 100% online. You never need to visit the United States.
 
 **How long does it take to have everything operational?**
 Typically 2-4 weeks from start to finish: LLC formation (1-3 days), EIN (1-2 weeks), Mercury account (1-2 weeks), Stripe setup (1-3 days).

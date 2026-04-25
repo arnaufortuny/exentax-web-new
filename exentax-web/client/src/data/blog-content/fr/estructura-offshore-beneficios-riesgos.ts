@@ -65,7 +65,7 @@ Pour les freelances, consultants, agences numériques, SaaS, e-commerce et créa
 
 - 0 % d'impôt fédéral par <a href="/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et">pass-through</a>.
 - Coût annuel de 500-800 USD.
-- Banque opérationnelle à distance (Mercury, Wise, Wallester, Slash).
+- Banque opérationnelle en ligne (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments accessibles.
 - Réputation neutre et professionnelle sur tout marché.
 - Sans audit obligatoire.

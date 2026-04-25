@@ -206,7 +206,7 @@ Die Reform verschob das Gewicht vom Privat- zum Betriebsplan. Wer eine eigene LL
 
 ### Hebel 3: Beckham-Regime für Zuzügler
 
-Die Ley 28/2022 weitete das Beckham-Regime auf digitale Fachkräfte mit Remote-Work-Visum aus und deckt sechs volle Steuerjahre ab. Sie zahlen **24 %** bis 600.000 EUR Arbeitseinkünfte; nicht spanische Einkünfte bleiben aus der allgemeinen Bemessungsgrundlage. Zu beantragen innerhalb von sechs Monaten nach der Anmeldung in der Sozialversicherung; in den fünf Jahren davor darf keine spanische Residenz bestanden haben.
+Die Ley 28/2022 weitete das Beckham-Regime auf digitale Fachkräfte mit Online-Work-Visum aus und deckt sechs volle Steuerjahre ab. Sie zahlen **24 %** bis 600.000 EUR Arbeitseinkünfte; nicht spanische Einkünfte bleiben aus der allgemeinen Bemessungsgrundlage. Zu beantragen innerhalb von sechs Monaten nach der Anmeldung in der Sozialversicherung; in den fünf Jahren davor darf keine spanische Residenz bestanden haben.
 
 ### Hebel 4: US-LLC als legitimes Planungswerkzeug
 

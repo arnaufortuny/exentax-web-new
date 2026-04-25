@@ -58,7 +58,7 @@ Specialised verticals
 - Digital marketing agencies.
 - Crypto and forex traders.
 - E-commerce sellers (Amazon, Shopify, Etsy).
-- International consultants and remote workers.
+- International consultants and online workers.
 
 ────────────────────────────────────────────────────────────────────────────
 3. Why a US LLC for non-residents
@@ -74,7 +74,7 @@ A US LLC owned by a non-resident with no US trade or business and no US-source i
 The structure is most useful for owners who:
 - Live in a country where local entity costs are very high (Spain's autonomo regime, with social security ~300–500 €/month, is a typical trigger).
 - Bill international clients in USD or EUR.
-- Operate fully remotely / have no physical office or staff in the US.
+- Operate fully online / have no physical office or staff in the US.
 - Want the credibility, banking access and payment-rails of a US entity (Stripe US, Mercury, USD wires).
 
 ────────────────────────────────────────────────────────────────────────────

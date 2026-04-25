@@ -63,7 +63,7 @@ Para freelancers, consultores, agências digitais, SaaS, e-commerce e criadores 
 
 - 0 % imposto federal por <a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">pass-through</a>.
 - Custo anual de 500-800 USD.
-- Banca operacional remota (Mercury, Wise, Wallester, Slash).
+- Banca operacional online (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments acessíveis.
 - Reputação neutra e profissional em qualquer mercado.
 - Sem auditoria obrigatória.

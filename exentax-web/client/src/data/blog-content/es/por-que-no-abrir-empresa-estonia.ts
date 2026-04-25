@@ -6,7 +6,7 @@ Pero cuando rascas la superficie, la realidad es muy diferente. Hablemos con dat
 
 ## Qué es la e-Residency de Estonia
 
-La e-Residency es un programa del gobierno estonio que permite a cualquier persona del mundo crear una empresa (OÜ. Osaühing, equivalente a una SL) en Estonia de forma remota. Obtienes una identidad digital, acceso a servicios gubernamentales online y la posibilidad de operar una empresa europea.
+La e-Residency es un programa del gobierno estonio que permite a cualquier persona del mundo crear una empresa (OÜ. Osaühing, equivalente a una SL) en Estonia de forma online. Obtienes una identidad digital, acceso a servicios gubernamentales online y la posibilidad de operar una empresa europea.
 
 Suena bien. Pero una empresa europea implica fiscalidad europea. Y ahí empiezan los problemas.
 ## El mito: "En Estonia no pagas impuestos sobre beneficios no distribuidos"
@@ -252,7 +252,7 @@ Estonia se vendió como el paraíso del emprendedor digital con el e-Residency. 
 
 **Soy autónomo en España con clientes europeos, ¿abro OÜ?** Casi nunca. La OÜ no te exime del IRPF español si la controlas tú solo y no vives en Estonia. Pagas estonio + español. Una LLC US suele ser superior por acceso a Stripe USD y simplicidad fiscal cuando se atribuye.
 
-**¿El e-Residency me da residencia fiscal en Estonia?** No. El e-Residency es solo identidad digital para firmar y abrir empresa remotamente. Tu residencia fiscal sigue siendo donde vives físicamente.
+**¿El e-Residency me da residencia fiscal en Estonia?** No. El e-Residency es solo identidad digital para firmar y abrir empresa online. Tu residencia fiscal sigue siendo donde vives físicamente.
 
 En Exentax revisamos OÜ existentes y, cuando no aportan, ayudamos a migrar a estructura más simple (LLC US o sociedad local) sin perder histórico ni romper contratos.
 <!-- /exentax:execution-v2 -->

@@ -12,7 +12,7 @@ La teva residència fiscal determina en quin país tributes per la teva renda mu
 
 ### 2. Font de l'ingrés
 
-La font de l'ingrés determina si un país pot gravar una renda específica. Per a serveis digitals prestats remotament, la font sol ser el lloc on es realitza el treball, no on està el client.
+La font de l'ingrés determina si un país pot gravar una renda específica. Per a serveis digitals prestats online, la font sol ser el lloc on es realitza el treball, no on està el client.
 
 ### 3. Doble imposició
 
@@ -28,12 +28,12 @@ Vius a Espanya, tens una LLC als EUA i els teus clients estan a Alemanya, Regne 
 
 2. **Al teu país de residència:** Com a resident fiscal, tributes per renda mundial. Els beneficis nets de la teva LLC tributen al teu país, però sobre la base reduïda per les despeses deduïbles de la LLC.
 
-3. **Als països dels teus clients:** Generalment no tens obligació fiscal als països dels teus clients si prestes serveis remotament des del teu país de residència.
+3. **Als països dels teus clients:** Generalment no tens obligació fiscal als països dels teus clients si prestes serveis online des del teu país de residència.
 ### Conceptes fiscals clau
 
 ### Establiment permanent
 
-Un establiment permanent (EP) és una presència fixa de negoci en un país que pot generar obligació fiscal. Per a emprenedors digitals que treballen remotament, generalment NO tenen EP als països dels seus clients.
+Un establiment permanent (EP) és una presència fixa de negoci en un país que pot generar obligació fiscal. Per a emprenedors digitals que treballen online, generalment NO tenen EP als països dels seus clients.
 
 ### Transfer pricing (preus de transferència)
 

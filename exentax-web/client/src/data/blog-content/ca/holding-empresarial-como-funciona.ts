@@ -138,7 +138,7 @@ Espanya amb règim ETVE és competitiva si l'activitat ho justifica. Holanda i L
 Una holding ben dissenyada és una eina poderosa de centralització, eficiència fiscal i planificació. Mal dissenyada o aplicada per moda, és complexitat cara que no aporta. La decisió depèn de la mida i maduresa del teu negoci, no del titular del darrer vídeo viral.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Comença avui, 100% remot</a>
+> <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Per a emprenedors no residents amb un únic negoci operatiu internacional, una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> sol cobrir el cas sense necessitat de holding. Quan el negoci creix i apareixen diverses activitats, podem analitzar amb tu si una holding (americana, espanyola o internacional) té sentit. A Exentax revisem el teu cas amb dades reals: <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts.

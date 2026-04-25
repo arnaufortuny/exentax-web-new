@@ -6,7 +6,7 @@ Here we focus on the "how it works": what e-Residency is, what Estonia taxes, wh
 
 ## e-Residency: what it is and what it is not
 
-e-Residency is an Estonian government program that offers anyone in the world a digital identity issued by Estonia. It allows you to electronically sign documents with legal validity in Estonia and the EU, incorporate and manage an Estonian company (OÜ) entirely remotely, and use Estonian online services.
+e-Residency is an Estonian government program that offers anyone in the world a digital identity issued by Estonia. It allows you to electronically sign documents with legal validity in Estonia and the EU, incorporate and manage an Estonian company (OÜ) entirely online, and use Estonian online services.
 
 What it is **not**:
 
@@ -88,7 +88,7 @@ It is workable but limited. Stripe and PayPal work with OÜ.
 ### Typical scenarios where it applies
 
 **Case 1: bootstrapped SaaS reinvesting 100% of profits in product and marketing.**
-Estonia is perfect. Zero tax until distribution, fully digital banking and tax software, e-Residency eases remote management. Sustained reinvestment amplifies the regime's value.
+Estonia is perfect. Zero tax until distribution, fully digital banking and tax software, e-Residency eases online management. Sustained reinvestment amplifies the regime's value.
 
 **Case 2: European consultant earning 80,000 EUR/year who needs the money to live.**
 Estonia is a poor choice. Each distribution is taxed at 22% effective plus tax in your country of residence. The total burden exceeds other European structures or a US LLC.
@@ -169,7 +169,7 @@ The Estonian tax system was sold for years as "0% corporate" - technically not f
 
 - **Real mechanics of the 0%.** If the OÜ reinvests 100% of profit (product, marketing, hiring, R&D, asset purchases), corporate tax is 0%. Distributing as a dividend triggers 22% (or 14% if regular over 3 years, on the regular distributable portion). For a company that needs to extract cash yearly, the advantage becomes a deferral, not elimination.
 - **Personal residency and CFC.** OÜ with a partner resident in Spain: CFC applies if Estonian effective taxation is <50% of Spanish and the company lacks substance. Without office and employees in Estonia, AEAT can attribute passive income directly. Minimum substance (virtual office + Estonian director) reduces risk, but does not eliminate it.
-- **e-Residency: digital identity, not tax residency.** e-Residency lets you manage the OÜ remotely through a digital portal, sign contracts and declarations electronically. It does NOT grant Estonian tax residency, does NOT give you the right to live in Estonia, does NOT reduce your tax obligation in residency. Operational tool, not a tax structure.
+- **e-Residency: digital identity, not tax residency.** e-Residency lets you manage the OÜ online through a digital portal, sign contracts and declarations electronically. It does NOT grant Estonian tax residency, does NOT give you the right to live in Estonia, does NOT reduce your tax obligation in residency. Operational tool, not a tax structure.
 - **Accessible operational banking.** Wise Business and LHV open for OÜ with e-resident without physical presence, moderate KYC. Swedbank and SEB (traditional banks) require in-person visit for non-residents. Stripe and Paddle accept OÜ without special friction.
 
 ### What we are asked the most

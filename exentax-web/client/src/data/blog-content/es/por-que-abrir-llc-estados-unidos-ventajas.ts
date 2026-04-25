@@ -70,13 +70,13 @@ El ecosistema bancario y fintech de Estados Unidos es, probablemente, el mejor d
 - Tarjetas de débito virtuales y físicas
 - Integraciones con QuickBooks, Xero, Stripe
 - Protección FDIC hasta $250,000
-- Apertura 100% remota
+- Apertura 100% online
 
 **Relay (respaldado por Thread Bank)**
 - Hasta 20 cuentas corrientes sin coste
 - Tarjetas asignables a cuentas específicas
 - Excelente para organizar fondos por categorías
-- Apertura remota para no residentes
+- Apertura online para no residentes
 - Protección FDIC
 
 **Wise Business**

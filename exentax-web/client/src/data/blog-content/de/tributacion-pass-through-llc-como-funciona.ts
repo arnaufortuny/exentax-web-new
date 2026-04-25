@@ -138,7 +138,7 @@ Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwoh
 Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Kernpunkte

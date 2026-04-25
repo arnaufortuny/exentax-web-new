@@ -88,7 +88,7 @@ O setup mais eficiente para a maioria dos nómadas digitais é:
 4. **Wise Business** para conversão de divisas ao câmbio real (é uma EMI, não um banco. complementa o Mercury)
 5. **Stripe/PayPal** para cobrar a clientes globais
 
-Com este setup, a sua carga fiscal total pode ser de 0% a 10%, dependendo do país de residência escolhido. E o melhor: tudo se gere 100% remotamente.
+Com este setup, a sua carga fiscal total pode ser de 0% a 10%, dependendo do país de residência escolhido. E o melhor: tudo se gere 100% online.
 
 Na Exentax desenhamos esta estrutura completa para si. Analisamos a sua situação, o seu país de origem, os seus planos de viagem, e propomos-lhe a combinação ótima de LLC + residência fiscal + ferramentas financeiras. Não é um template genérico. é um plano feito à medida.
 ### Como mudar a sua residência fiscal

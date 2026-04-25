@@ -109,7 +109,7 @@ A recomendação realista: **Mercury + Relay como backup + Slash para operativa 
 A informação sobre fintechs e CRS evolui; este é o estado atual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt/servicos">Começa hoje, 100% remoto</a>
+> <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notas por provedor

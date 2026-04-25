@@ -33,7 +33,7 @@ Income is generally "foreign source" if:
 - The property generating income is outside the US
 - The income doesn't fit US-source income categories defined by the IRS
 
-For most of our clients (remote workers in Spain, Mexico, Colombia, Argentina serving global clients): your income is foreign-source **even if your clients are US companies**. The key is where YOU perform the work, not where the client is.
+For most of our clients (online workers in Spain, Mexico, Colombia, Argentina serving global clients): your income is foreign-source **even if your clients are US companies**. The key is where YOU perform the work, not where the client is.
 ### Where you DO pay tax
 
 Pass-through doesn't mean tax-free forever. The income that passes through the LLC is:
@@ -138,7 +138,7 @@ Now that you have the full context, the natural next step is to map it against y
 Fintech and CRS information evolves; here is the current state:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes by provider

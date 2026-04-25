@@ -95,7 +95,7 @@ Mehr zur Vermeidung typischer Fehler in <a href="/de/blog/steuerrisiken-bei-mang
 Eine LLC wird nicht „auf eine einzige Weise" besteuert: Sie wird besteuert nach dem, was sie tut, wo sie es tut und von wo aus sie kontrolliert wird. Das ernsthafte Gespräch über Steuerplanung beginnt damit, Ihre tatsächliche Tätigkeit zu verstehen, nicht damit, ein Land auf einer Karte auszuwählen.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/leistungen">Starten Sie heute, 100% remote</a>
+> <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Möchten Sie, dass wir genau analysieren, wie Ihre Tätigkeit besteuert wird, und Ihnen die effizienteste und verteidigbarste Struktur entwerfen? Vereinbaren Sie Ihre kostenlose Beratung.

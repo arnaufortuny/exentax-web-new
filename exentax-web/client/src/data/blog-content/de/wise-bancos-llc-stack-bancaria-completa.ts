@@ -23,7 +23,7 @@ Ab dem zweiten Jahr realer Aktivität (regelmäßiges Fakturieren und Vereinnahm
 Wirkt es übertrieben? Im ersten Monat ja. Es ist **strikt das Minimum**, um operativ zu bleiben, wenn etwas ausfällt. Und etwas fällt immer aus.
 ### Warum Mercury allein nicht reicht
 
-Mercury ist wahrscheinlich das beste Produkt am Markt für eine Nicht-Resident-LLC: Remote-Onboarding, keine Monatsgebühr, brauchbare Buchhaltungs-Integration, vernünftiges Support-Team. Aber Mercury **ist keine Bank**: es ist eine Software-Schicht über Partnerbanken (Choice Financial, Column N.A., Evolve). Schneidet ein Partner Sie ab, kann Mercury **das Konto nicht wieder öffnen** noch die Gelder ohne Ihr Zutun zu einem anderen Partner schieben.
+Mercury ist wahrscheinlich das beste Produkt am Markt für eine Nicht-Resident-LLC: Online-Onboarding, keine Monatsgebühr, brauchbare Buchhaltungs-Integration, vernünftiges Support-Team. Aber Mercury **ist keine Bank**: es ist eine Software-Schicht über Partnerbanken (Choice Financial, Column N.A., Evolve). Schneidet ein Partner Sie ab, kann Mercury **das Konto nicht wieder öffnen** noch die Gelder ohne Ihr Zutun zu einem anderen Partner schieben.
 
 Was wir bei Exentax fast wöchentlich sehen:
 

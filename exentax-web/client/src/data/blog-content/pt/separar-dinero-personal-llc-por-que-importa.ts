@@ -77,7 +77,7 @@ Relay é outra excelente opção, especialmente se precisas de organizar o teu d
 - **Sem comissões mensais** nem mínimos
 - **Cartões de débito** atribuíveis a contas específicas
 - **Integração com software contabilístico**
-- **Abertura remota** para não residentes
+- **Abertura online** para não residentes
 
 Relay destaca-se pelo seu sistema de sub-contas, que facilita enormemente a organização financeira e a separação de fundos por categoria.
 

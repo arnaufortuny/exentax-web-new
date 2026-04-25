@@ -24,7 +24,7 @@ Hi ha raons molt concretes (i molt convincents):
 - **Banca en dòlars.** Accés a comptes a Mercury (operat com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), amb assegurança FDIC) o Relay (recolzat per Thread Bank), sense restriccions. Transferències internacionals a $0 amb Mercury. Sense comissions de manteniment.
 - **Passarel·les de pagament sense restriccions.** Stripe, PayPal, processadors de pagament, tots funcionen sense problema amb una LLC americana. Adeu a les limitacions que tenen els comptes personals o empreses d'altres països.
 - **Credibilitat internacional.** Facturar des d'una empresa americana genera confiança immediata en clients globals. No és el mateix enviar una factura des de "Joan García, autònom/treballador per compte propi" que des de "La Teva Empresa LLC".
-- **Sense necessitat de viatjar.** Tot el procés és 100% remot. No necessites visat, no necessites trepitjar sòl americà, no necessites SSN.
+- **Sense necessitat de viatjar.** Tot el procés és 100% online. No necessites visat, no necessites trepitjar sòl americà, no necessites SSN.
 ## Seguretat jurídica i legal
 
 La LLC no és un invent de YouTube ni un truc fiscal. És una estructura empresarial reconeguda pel govern federal dels Estats Units, regulada per cada estat i utilitzada per milions d'empreses, des de freelancers fins a multinacionals.
@@ -110,7 +110,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que s'utilitza per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor cas, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Comença avui, 100% remot</a>
+> <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax muntem l'estructura perquè encaixi al primer escenari i documentem cada pas perquè la teva declaració local sigui defensable davant d'una eventual revisió.

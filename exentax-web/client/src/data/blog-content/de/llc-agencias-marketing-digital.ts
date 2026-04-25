@@ -18,7 +18,7 @@ Der Alltag mit einer LLC ist einfacher als es scheint:
 3. **Sie verwalten Ihre Werbeausgaben** direkt über die Debitkarte Ihrer LLC.
 4. **Am Jahresende** kümmern wir uns um die Erklärungen beim <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>.
 
-Sie müssen nicht in die Vereinigten Staaten reisen, Sie brauchen kein physisches Büro, und der gesamte Gründungsprozess ist 100% remote.
+Sie müssen nicht in die Vereinigten Staaten reisen, Sie brauchen kein physisches Büro, und der gesamte Gründungsprozess ist 100% online.
 ### Wann lohnt es sich für eine Agentur?
 
 Wenn Ihre Agentur mehr als 3.000-5.000€ pro Monat fakturiert und mindestens ein paar internationale Kunden hat, ist es sehr wahrscheinlich, dass die LLC-Struktur Ihnen Vorteile bringt. Je höher Ihre Fakturierung, desto größer kann der Unterschied sein.

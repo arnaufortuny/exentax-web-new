@@ -131,7 +131,7 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 - **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.

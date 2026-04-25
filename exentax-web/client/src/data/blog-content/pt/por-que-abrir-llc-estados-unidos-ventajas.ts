@@ -68,13 +68,13 @@ O ecossistema bancário e fintech dos Estados Unidos é, provavelmente, o melhor
 - Cartões de débito virtuais e físicos
 - Integrações com QuickBooks, Xero, Stripe
 - Proteção FDIC até $250,000
-- Abertura 100% remota
+- Abertura 100% online
 
 **Relay (respaldado pelo Thread Bank)**
 - Até 20 contas correntes sem custo
 - Cartões atribuíveis a contas específicas
 - Excelente para organizar fundos por categorias
-- Abertura remota para não residentes
+- Abertura online para não residentes
 - Proteção FDIC
 
 **Wise Business**

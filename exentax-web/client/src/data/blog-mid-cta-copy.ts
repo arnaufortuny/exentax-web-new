@@ -9,7 +9,7 @@
  * to one of the 4 approved phrasings:
  *
  *   1. free_consult  → "Consulta gratuita sin compromiso"
- *   2. start_today   → "Empieza hoy 100% remoto"
+ *   2. start_today   → "Empieza hoy 100% online"
  *   3. talk_to_team  → "Habla con nuestro equipo"
  *   4. discover_llc  → "Descubre si una LLC es para ti"
  *
@@ -73,12 +73,12 @@ export const BLOG_MID_CTA_COPY: Record<
   },
 
   start_today: {
-    es: { label: "Empieza hoy 100% remoto", route: "our_services" },
-    en: { label: "Start today, 100% remote", route: "our_services" },
-    fr: { label: "Lancez-vous aujourd'hui, 100% à distance", route: "our_services" },
-    de: { label: "Starten Sie heute, 100% remote", route: "our_services" },
-    pt: { label: "Começa hoje, 100% remoto", route: "our_services" },
-    ca: { label: "Comença avui, 100% remot", route: "our_services" },
+    es: { label: "Empieza hoy 100% online", route: "our_services" },
+    en: { label: "Start today, 100% online", route: "our_services" },
+    fr: { label: "Lancez-vous aujourd'hui, 100% en ligne", route: "our_services" },
+    de: { label: "Starten Sie heute, 100% online", route: "our_services" },
+    pt: { label: "Começa hoje, 100% online", route: "our_services" },
+    ca: { label: "Comença avui, 100% online", route: "our_services" },
   },
 
   talk_to_team: {

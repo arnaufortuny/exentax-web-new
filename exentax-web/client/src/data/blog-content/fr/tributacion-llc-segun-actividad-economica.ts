@@ -95,7 +95,7 @@ Plus sur la manière d'éviter les erreurs typiques dans <a href="/fr/blog/risqu
 Une LLC ne se taxe pas « d'une seule manière » : elle se taxe selon ce qu'elle fait, où elle le fait et d'où elle est contrôlée. La conversation sérieuse de planification fiscale commence par la compréhension de votre activité réelle, pas par le choix d'un pays sur une carte.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/services">Lancez-vous aujourd'hui, 100% à distance</a>
+> <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Vous voulez que nous analysions exactement comment se taxe votre activité et que nous vous concevions la structure la plus efficiente et défendable ? Réservez votre consultation gratuite.

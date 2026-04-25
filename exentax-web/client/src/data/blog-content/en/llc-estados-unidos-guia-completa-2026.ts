@@ -23,7 +23,7 @@ A US LLC solves all these problems simultaneously.
 
 The key is the tax classification. The IRS classifies a single-member LLC owned by a non-resident as a "Disregarded Entity", meaning the LLC itself pays no federal income tax. Instead, the income flows through to the owner (you), who declares it in their country of residence.
 
-If your income has no US source (you work remotely from another country), the LLC effectively pays $0 in US federal taxes.
+If your income has no US source (you work online from another country), the LLC effectively pays $0 in US federal taxes.
 
 ### The pass-through taxation mechanism
 
@@ -152,7 +152,7 @@ We don't just file paperwork. We build your complete business infrastructure:
 ## Frequently asked questions
 
 **Can I form an LLC from outside the US?**
-Yes. The entire process is 100% remote. You never need to visit the United States.
+Yes. The entire process is 100% online. You never need to visit the United States.
 
 **How much does it cost in total?**
 Formation costs vary by state (state filing fee plus our service fee). Annual maintenance is a fixed fee covering all filings and support. Book a consultation for exact pricing.
@@ -181,7 +181,7 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 Practical rule: an operative LLC with substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic justification falls within **art. 15 LGT (anti-abuse)** or, worse, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/en/services">Start today, 100% remote</a>
+> <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we structure the entity to fit the first scenario and document every step so your local return can be defended in case of review.

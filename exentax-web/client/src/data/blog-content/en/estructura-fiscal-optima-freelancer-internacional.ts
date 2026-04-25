@@ -165,7 +165,7 @@ Fintech and CRS information evolves; here is the current state:
 
 There is no universal optimal structure. What is optimal for a digital freelancer with EU clients living in Spain is a disaster for an Amazon seller living in LatAm. Before proposing LLC, EOOD, UK Ltd or autónomo, we always ask these three questions - and the answers drive the decision.
 
-- **Where is your real tax residency, not the administrative one?** Real tax residency is set by days, centre of vital interests and, in dual-residency cases, by treaty. If you live in Madrid with your family and work remote, you are a Spanish tax resident even with legal residency elsewhere. This pins down personal taxation and, often, CFC attribution.
+- **Where is your real tax residency, not the administrative one?** Real tax residency is set by days, centre of vital interests and, in dual-residency cases, by treaty. If you live in Madrid with your family and work online, you are a Spanish tax resident even with legal residency elsewhere. This pins down personal taxation and, often, CFC attribution.
 - **Who are your clients and where are they?** B2B in EU requires reverse-charge VAT or local registrations depending on service; B2C in EU triggers OSS/IOSS; global B2B and B2C without EU concentration can simplify with a US LLC and no VAT. The structure must align with commercial reality, not the other way around.
 - **What is your volume and 24-month forecast?** Under EUR 50k a year, autónomo + flat rate is usually optimal in Spain; 50-150k depends on client mix; above 150k, international options start to compete with clear cost-benefit. Changing structure every year destroys more value than nominal savings.
 

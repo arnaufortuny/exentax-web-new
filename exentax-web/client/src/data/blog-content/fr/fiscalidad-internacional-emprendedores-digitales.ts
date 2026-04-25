@@ -12,7 +12,7 @@ Votre résidence fiscale détermine dans quel pays vous êtes imposé sur vos re
 
 ### 2. Source du revenu
 
-La source du revenu détermine si un pays peut imposer un revenu spécifique. Pour les services numériques prestés à distance, la source est généralement le lieu où le travail est effectué, et non l'endroit où se trouve le client.
+La source du revenu détermine si un pays peut imposer un revenu spécifique. Pour les services numériques prestés en ligne, la source est généralement le lieu où le travail est effectué, et non l'endroit où se trouve le client.
 
 ### 3. Double imposition
 
@@ -28,12 +28,12 @@ Vous vivez en France, vous avez une LLC aux États-Unis et vos clients sont en A
 
 2. **Dans votre pays de résidence:** En tant que résident fiscal, vous êtes imposé sur vos revenus mondiaux. Les bénéfices nets de votre LLC sont imposés dans votre pays, mais sur la base réduite par les charges déductibles de la LLC.
 
-3. **Dans les pays de vos clients:** Généralement, vous n'avez pas d'obligation fiscale dans les pays de vos clients si vous fournissez des services à distance depuis votre pays de résidence.
+3. **Dans les pays de vos clients:** Généralement, vous n'avez pas d'obligation fiscale dans les pays de vos clients si vous fournissez des services en ligne depuis votre pays de résidence.
 ### Concepts fiscaux clés
 
 ### Établissement stable
 
-Un établissement stable (ES) est une installation fixe d'affaires dans un pays qui peut générer une obligation fiscale. Pour les entrepreneurs digitaux qui travaillent à distance, ils n'ont généralement PAS d'établissement stable dans les pays de leurs clients.
+Un établissement stable (ES) est une installation fixe d'affaires dans un pays qui peut générer une obligation fiscale. Pour les entrepreneurs digitaux qui travaillent en ligne, ils n'ont généralement PAS d'établissement stable dans les pays de leurs clients.
 
 ### Transfer pricing (prix de transfert)
 

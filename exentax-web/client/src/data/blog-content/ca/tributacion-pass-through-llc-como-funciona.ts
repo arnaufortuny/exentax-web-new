@@ -138,7 +138,7 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Comença avui, 100% remot</a>
+> <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Punts clau

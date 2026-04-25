@@ -68,13 +68,13 @@ L'écosystème bancaire et fintech des États-Unis est probablement le meilleur 
 - Cartes de débit virtuelles et physiques
 - Intégrations avec QuickBooks, Xero, Stripe
 - Protection FDIC jusqu'à 250 000 $
-- Ouverture 100 % à distance
+- Ouverture 100 % en ligne
 
 **Relay (adossé à Thread Bank)**
 - Jusqu'à 20 comptes courants sans frais
 - Cartes assignables à des comptes spécifiques
 - Excellent pour organiser les fonds par catégories
-- Ouverture à distance pour les non-résidents
+- Ouverture en ligne pour les non-résidents
 - Protection FDIC
 
 **Wise Business**

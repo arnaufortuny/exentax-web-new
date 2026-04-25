@@ -86,7 +86,7 @@ Os grandes bancos estónios (LHV, SEB, Swedbank) abrem conta corporativa só a O
 ### Casos típicos onde se aplica
 
 **Caso 1: SaaS bootstrapped que reinveste 100 % dos lucros em produto e marketing.**
-A Estónia é perfeita. Tributação zero até distribuir, software de gestão bancária e fiscal totalmente digital, e-Residency facilita gestão remota. Reinvestimento sustentado amplifica o valor do regime.
+A Estónia é perfeita. Tributação zero até distribuir, software de gestão bancária e fiscal totalmente digital, e-Residency facilita gestão online. Reinvestimento sustentado amplifica o valor do regime.
 
 **Caso 2: consultor europeu com 80.000 EUR/ano que precisa do dinheiro para viver.**
 A Estónia é má escolha. Cada distribuição tributa a 22 % efetivo mais imposto no seu país de residência. A carga total supera a de outras estruturas europeias ou da LLC americana.
@@ -165,7 +165,7 @@ O sistema fiscal estónio vendeu-se durante anos como "0% corporate" - tecnicame
 
 - **Mecânica real do 0%.** Se a OÜ reinvestir 100% do lucro (produto, marketing, contratação, I&D, compras de activos), corporate tax é 0%. Distribuir como dividendo activa 22% (ou 14% se regular durante 3 anos, sobre a parte distribuível regular). Para empresa que precisa extrair cash anualmente, a vantagem converte-se em diferimento, não eliminação.
 - **Residência pessoal e CFC.** OÜ com sócio residente em Portugal: CFC aplica se tributação efectiva estónia for <50% da portuguesa e a sociedade não tiver substância. Sem escritório e empregados na Estónia, AT pode imputar rendimentos passivos directamente. Substância mínima (escritório virtual + director estónio) reduz risco, não o elimina.
-- **e-Residency: identidade digital, não residência fiscal.** A e-Residency permite gerir a OÜ remotamente via portal digital, assinar contratos e declarações electronicamente. NÃO confere residência fiscal estónia, NÃO dá direito a viver na Estónia, NÃO reduz a sua obrigação tributária em residência. Ferramenta operativa, não estrutura fiscal.
+- **e-Residency: identidade digital, não residência fiscal.** A e-Residency permite gerir a OÜ online via portal digital, assinar contratos e declarações electronicamente. NÃO confere residência fiscal estónia, NÃO dá direito a viver na Estónia, NÃO reduz a sua obrigação tributária em residência. Ferramenta operativa, não estrutura fiscal.
 - **Banca operativa acessível.** Wise Business e LHV abrem a OÜ com e-resident sem presença física, KYC moderado. Swedbank e SEB (bancos tradicionais) exigem visita presencial para non-residents. Stripe e Paddle aceitam OÜ sem fricção especial.
 
 ### O que mais nos perguntam

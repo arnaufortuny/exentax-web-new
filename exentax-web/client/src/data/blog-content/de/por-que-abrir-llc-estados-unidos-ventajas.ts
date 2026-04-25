@@ -68,13 +68,13 @@ Das Bank- und Fintech-Ökosystem der Vereinigten Staaten ist wahrscheinlich das 
 - Virtuelle und physische Debitkarten
 - Integrationen mit QuickBooks, Xero, Stripe
 - FDIC-Absicherung bis $250.000
-- 100 % Remote-Eröffnung
+- 100 % Online-Eröffnung
 
 **Relay (unterstützt von Thread Bank)**
 - Bis zu 20 kostenlose Girokonten
 - Karten, die bestimmten Konten zugeordnet werden können
 - Hervorragend für die Kategorisierung von Geldern
-- Remote-Eröffnung für Nichtansässige
+- Online-Eröffnung für Nichtansässige
 - FDIC-Absicherung
 
 **Wise Business**

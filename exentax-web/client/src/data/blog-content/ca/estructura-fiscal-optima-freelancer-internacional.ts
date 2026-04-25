@@ -153,7 +153,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
 No hi ha estructura òptima universal. El que és òptim per a un freelance digital amb clients UE residint a Espanya és desastrós per a un seller Amazon residint a LatAm. Abans de proposar LLC, EOOD, UK Ltd o autònom, sempre fem aquestes tres preguntes - i la resposta determina la decisió.
 
-- **On és la teva residència fiscal real, no l'administrativa?** Definida per dies, centre d'interessos vitals i, en cas de doble residència, per conveni. Si vius a Madrid amb la família i treballes remot, ets resident fiscal espanyol encara que tinguis residència legal en un altre país. Això fixa la fiscalitat personal i, freqüentment, la imputació TFI/CFC.
+- **On és la teva residència fiscal real, no l'administrativa?** Definida per dies, centre d'interessos vitals i, en cas de doble residència, per conveni. Si vius a Madrid amb la família i treballes online, ets resident fiscal espanyol encara que tinguis residència legal en un altre país. Això fixa la fiscalitat personal i, freqüentment, la imputació TFI/CFC.
 - **Qui són els teus clients i on són?** B2B a UE exigeix IVA invers o registres locals segons servei; B2C a UE dispara OSS/IOSS; B2B i B2C globals sense concentració UE poden simplificar-se amb LLC US sense IVA. L'estructura ha d'alinear amb la realitat comercial, no a la inversa.
 - **Quin és el teu volum i previsió a 24 mesos?** Sota 50k EUR anuals, autònom + tarifa plana sol ser òptim a Espanya; entre 50-150k, depèn del mix de clients; sobre 150k, les opcions internacionals comencen a competir amb cost-benefici clar. Canviar d'estructura cada any destrueix més valor que l'estalvi nominal.
 

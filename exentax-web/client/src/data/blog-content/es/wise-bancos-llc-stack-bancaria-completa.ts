@@ -25,7 +25,7 @@ A partir del segundo año de actividad real (es decir: facturando y cobrando con
 Si te parece excesivo: lo es para el primer mes. Es **estrictamente lo mínimo** para no quedarte sin operativa cuando algo falla. Y algo siempre falla.
 ## Por qué Mercury solo no basta
 
-Mercury es probablemente el mejor producto del mercado para una LLC de no residente: onboarding remoto, sin coste mensual, integración decente con software contable y un equipo de soporte razonable. Pero Mercury **no es un banco**: es una capa software encima de varios bancos partner (Choice Financial, Column N.A. Evolve). Si uno de esos partners decide cortar el cable contigo, Mercury **no puede reabrirte la cuenta** ni mover los fondos a otro partner sin tu intervención.
+Mercury es probablemente el mejor producto del mercado para una LLC de no residente: onboarding online, sin coste mensual, integración decente con software contable y un equipo de soporte razonable. Pero Mercury **no es un banco**: es una capa software encima de varios bancos partner (Choice Financial, Column N.A. Evolve). Si uno de esos partners decide cortar el cable contigo, Mercury **no puede reabrirte la cuenta** ni mover los fondos a otro partner sin tu intervención.
 
 Lo que vemos en Exentax casi todas las semanas:
 

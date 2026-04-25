@@ -153,7 +153,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 Não há estrutura óptima universal. O que é óptimo para um freelancer digital com clientes UE residindo em Portugal é desastroso para um seller Amazon residindo na América Latina. Antes de propor LLC, EOOD, UK Ltd ou recibos verdes, fazemos sempre estas três perguntas - e a resposta determina a decisão.
 
-- **Onde está a sua residência fiscal real, não a administrativa?** Definida por dias, centro de interesses vitais e, em dupla residência, por convenção. Se vive em Lisboa com a família e trabalha remoto, é residente fiscal português mesmo com residência legal noutro país. Isto fixa a fiscalidade pessoal e, frequentemente, a imputação CFC.
+- **Onde está a sua residência fiscal real, não a administrativa?** Definida por dias, centro de interesses vitais e, em dupla residência, por convenção. Se vive em Lisboa com a família e trabalha online, é residente fiscal português mesmo com residência legal noutro país. Isto fixa a fiscalidade pessoal e, frequentemente, a imputação CFC.
 - **Quem são os seus clientes e onde estão?** B2B na UE exige IVA inverso ou registos locais conforme serviço; B2C na UE dispara OSS/IOSS; B2B e B2C globais sem concentração UE podem simplificar-se com LLC US sem IVA. A estrutura deve alinhar com a realidade comercial, não o contrário.
 - **Qual o seu volume e previsão a 24 meses?** Abaixo de 50k EUR anuais, recibos verdes simplificado costuma ser óptimo em Portugal; 50-150k depende do mix de clientes; acima de 150k, as opções internacionais começam a competir com custo-benefício claro. Mudar de estrutura todos os anos destrói mais valor do que a poupança nominal.
 

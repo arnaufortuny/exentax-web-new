@@ -213,7 +213,7 @@ The reform shifted weight from individual to employment pension plans. If you ru
 
 ### Lever 3: Beckham regime for inbound taxpayers
 
-Ley 28/2022 expanded the Beckham regime to digital professionals with a remote work visa and covers six full tax years. You are taxed at **24 %** up to EUR 600,000 of employment income and non Spanish income is left out of the general base. Apply within six months of registering with social security; you must not have been a Spanish resident for the previous five years.
+Ley 28/2022 expanded the Beckham regime to digital professionals with an online work visa and covers six full tax years. You are taxed at **24 %** up to EUR 600,000 of employment income and non Spanish income is left out of the general base. Apply within six months of registering with social security; you must not have been a Spanish resident for the previous five years.
 
 ### Lever 4: US LLC as a legitimate planning tool
 

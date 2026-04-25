@@ -91,7 +91,7 @@ El setup más eficiente para la mayoría de los nómadas digitales es:
 7. **Stripe, Adyen o DoDo Payments** para cobrar a clientes globales (DoDo actúa como Merchant of Record y gestiona IVA/GST automáticamente)
 8. **Interactive Brokers** si quieres invertir la tesorería de tu LLC en mercados globales (150+ mercados) o **Kraken** para exposición a criptoactivos desde cuenta corporativa
 
-Con este setup, tu carga fiscal total puede ser del 0% al 10%, dependiendo del país de residencia elegido. Y lo mejor: todo se gestiona 100% en remoto.
+Con este setup, tu carga fiscal total puede ser del 0% al 10%, dependiendo del país de residencia elegido. Y lo mejor: todo se gestiona 100% online.
 
 En Exentax diseñamos esta estructura completa para ti, no solo la LLC, sino toda la operativa financiera: banca, tesorería, tarjetas, pasarelas de pago e inversión. Analizamos tu situación, tu país de origen, tus planes de viaje, y te proponemos la combinación óptima. No es un template genérico, es un plan hecho a medida.
 ### Cómo cambiar tu residencia fiscal
@@ -283,7 +283,7 @@ Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos
 <li><span class="font-mono">500.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…rgia - &quot;Small Business Status&quot;: 1% sobre facturación hasta 500.000 GEL (~170.000€) - Fácil…»</span> <strong>[NO VERIFICADO]</strong></li>
 <li><span class="font-mono">170.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…Business Status&quot;: 1% sobre facturación hasta 500.000 GEL (~170.000€) - Fácil obtener resid…»</span> <strong>[NO VERIFICADO]</strong></li>
 <li><span class="font-mono">10%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…de días mínimos para el estatus fiscal ### 4. Paraguay - 10% IRPF máximo sobre rentas de f…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…el país de residencia elegido. Y lo mejor: todo se gestiona 100% en remoto. En Exentax dis…»</span> <strong>[NO VERIFICADO]</strong></li>
+<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…el país de residencia elegido. Y lo mejor: todo se gestiona 100% online. En Exentax dis…»</span> <strong>[NO VERIFICADO]</strong></li>
 <li><span class="font-mono">50.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…os.** Cuentas bancarias en EE. UU. con saldo medio o final &gt;50.000 € en el ejercicio: **Mo…»</span> <strong>[NO VERIFICADO]</strong></li>
 <li><span class="font-mono">301.770</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…es para que puedas verificarlo: - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de en…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
 <li><span class="font-mono">1.603</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…P y retenciones a no residentes); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para *25%…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>

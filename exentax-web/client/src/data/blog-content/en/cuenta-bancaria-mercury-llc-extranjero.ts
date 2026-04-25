@@ -15,7 +15,7 @@ Mercury offers extended FDIC coverage through its sweep program that can extend 
 
 **100% online application:** You never need to visit a branch or be physically in the US. The entire process happens online.
 
-**Designed for remote businesses:** Mercury understands that many of its customers are running global businesses remotely. Their onboarding is built for non-residents.
+**Designed for online businesses:** Mercury understands that many of its customers are running global businesses online. Their onboarding is built for non-residents.
 
 **$0 monthly fees:** No minimum balance, no monthly maintenance fees. You pay nothing just to keep the account open.
 
@@ -285,7 +285,7 @@ Mercury is the default, but not the only option, and it pays to know where each 
 | Criterion | Mercury | Relay Financial | Wise Business | Traditional bank (Bank of America, Chase, Wells Fargo) |
 |---|---|---|---|---|
 | Entity type | Fintech on Choice and Column N.A. (FDIC pass-through) | Fintech on Thread Bank (FDIC pass-through) | EMI (Wise US Inc., FinCEN MSB) | Commercial bank (FDIC direct) |
-| 100 % remote opening for non residents | Yes | Yes | Yes | No, demands in person presence and signer SSN or ITIN |
+| 100 % online opening for non residents | Yes | Yes | Yes | No, demands in person presence and signer SSN or ITIN |
 | Average approval time | 2 to 7 days | 3 to 10 days | 1 to 3 days | 4 to 8 weeks if you reach an opening at all |
 | Domestic wires | Free | Free up to 20 a month | Paid | Paid |
 | International SWIFT wires | Outbound paid, inbound free | Outbound competitive | Very low cost, mid market FX | High cost and worse FX |

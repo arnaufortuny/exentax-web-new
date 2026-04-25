@@ -153,7 +153,7 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Il n'y a pas de structure optimale universelle. Ce qui est optimal pour un freelance digital à clients UE résidant en France est désastreux pour un seller Amazon résidant en LatAm. Avant de proposer LLC, EOOD, UK Ltd ou micro-entreprise, nous posons toujours ces trois questions - et les réponses déterminent la décision.
 
-- **Où est votre résidence fiscale réelle, pas l'administrative?** Définie par jours, centre des intérêts vitaux et, en cas de double résidence, par convention. Vivre à Paris en famille et travailler en remote = résident fiscal français même avec résidence légale ailleurs. Cela fixe la fiscalité personnelle et, souvent, l'imputation SEC.
+- **Où est votre résidence fiscale réelle, pas l'administrative?** Définie par jours, centre des intérêts vitaux et, en cas de double résidence, par convention. Vivre à Paris en famille et travailler en online = résident fiscal français même avec résidence légale ailleurs. Cela fixe la fiscalité personnelle et, souvent, l'imputation SEC.
 - **Qui sont vos clients et où sont-ils?** B2B UE exige TVA inversée ou enregistrements locaux selon service; B2C UE déclenche OSS/IOSS; B2B et B2C globaux sans concentration UE peuvent se simplifier avec LLC US sans TVA. La structure suit la réalité commerciale, pas l'inverse.
 - **Quel volume et prévision à 24 mois?** Sous 50k EUR/an, micro-entreprise est souvent optimale en France; 50-150k dépend du mix clients; au-delà de 150k, les options internationales deviennent compétitives. Changer de structure chaque année détruit plus de valeur que l'épargne nominale.
 

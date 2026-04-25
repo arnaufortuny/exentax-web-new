@@ -77,7 +77,7 @@ Relay és una altra excel·lent opció, especialment si necessites organitzar el
 - **Sense comissions mensuals** ni mínims
 - **Targetes de dèbit** assignables a comptes específics
 - **Integració amb programari comptable**
-- **Obertura remota** per a no residents
+- **Obertura online** per a no residents
 
 Relay destaca pel seu sistema de subcomptes, que facilita enormement l'organització financera i la separació de fons per categoria.
 

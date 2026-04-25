@@ -16,7 +16,7 @@ Qu'est-ce que cela signifie en pratique? Que votre argent est déposé de maniè
 
 Ses principaux avantages pour les propriétaires de LLC:
 
-- **Ouverture 100% à distance.** Pas besoin de SSN ni de présence physique aux États-Unis. Passeport et EIN, et c'est parti.
+- **Ouverture 100% en ligne.** Pas besoin de SSN ni de présence physique aux États-Unis. Passeport et EIN, et c'est parti.
 - **Aucun frais.** Ni maintenance, ni solde minimum, ni surprises en fin de mois.
 - **Virements bancaires gratuits.** Tant l'envoi que la réception de virements nationaux et internationaux: $0. Oui, vous avez bien lu. Zéro. Rien. Gratuit. C'est presque inédit dans le secteur.
 - **ACH gratuit.** Transferts domestiques sans frais.
@@ -236,7 +236,7 @@ Mercury est le choix par défaut, mais pas le seul, et il vaut la peine de savoi
 | Critère | Mercury | Relay Financial | Wise Business | Banque traditionnelle (Bank of America, Chase, Wells Fargo) |
 |---|---|---|---|---|
 | Type d'entité | Fintech sur Choice et Column N.A. (FDIC pass-through) | Fintech sur Thread Bank (FDIC pass-through) | EMI (Wise US Inc., FinCEN MSB) | Banque commerciale (FDIC direct) |
-| Ouverture 100 % à distance pour non-résidents | Oui | Oui | Oui | Non, exige présence physique et SSN ou ITIN du signataire |
+| Ouverture 100 % en ligne pour non-résidents | Oui | Oui | Oui | Non, exige présence physique et SSN ou ITIN du signataire |
 | Délai moyen d'approbation | 2 à 7 jours | 3 à 10 jours | 1 à 3 jours | 4 à 8 semaines si l'ouverture aboutit |
 | Virements domestiques | Gratuits | Gratuits jusqu'à 20 par mois | Payants | Payants |
 | Virements internationaux SWIFT | Sortants payants, entrants gratuits | Sortants compétitifs | Très peu cher et taux mid-market | Coût élevé et taux moins bon |

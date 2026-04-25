@@ -63,7 +63,7 @@ Für Freelancer, Berater, digitale Agenturen, SaaS, E-Commerce und Creator mit W
 
 - 0% Bundessteuer durch <a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum">pass-through</a>.
 - Jahreskosten 500-800 USD.
-- Funktionierendes Remote-Banking (Mercury, Wise, Wallester, Slash).
+- Funktionierendes Online-Banking (Mercury, Wise, Wallester, Slash).
 - Stripe USA, PayPal, Adyen, DoDo Payments verfügbar.
 - Neutraler und professioneller Ruf in jedem Markt.
 - Keine Pflichtprüfung.

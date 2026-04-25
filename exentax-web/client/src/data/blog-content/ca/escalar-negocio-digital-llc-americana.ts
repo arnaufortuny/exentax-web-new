@@ -106,7 +106,7 @@ L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la tev
 La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/serveis">Comença avui, 100% remot</a>
+> <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
 ### Notes per proveïdor
