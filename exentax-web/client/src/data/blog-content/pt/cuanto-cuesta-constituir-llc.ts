@@ -207,7 +207,7 @@ Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">pá
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Constituição desde 2.000 € e manutenção desde 1.400 €/ano. A consulta inicial é gratuita. <a href="/pt/servicos">Marcar consulta gratuita</a>.
+Constituição desde 2.000 € e manutenção desde 1.500 €/ano. A consulta inicial é gratuita. <a href="/pt/servicos">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

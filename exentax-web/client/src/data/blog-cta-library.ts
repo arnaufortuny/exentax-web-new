@@ -13,7 +13,7 @@
  *   - PT is European Portuguese (vocabulary + spelling).
  *   - CA is Catalan (eastern variety, formal but warm).
  *   - Pricing references follow the canonical formula
- *     "desde 2.000 € constitución / 1.400 € mantenimiento" (or its locale
+ *     "desde 2.000 € constitución / 1.500 € mantenimiento" (or its locale
  *     equivalent) — never invented, never approximated.
  *
  * Pattern → editorial intent
@@ -209,37 +209,37 @@ export const BLOG_CTA_LIBRARY: LibraryShape = {
   pricing_quote: {
     es: {
       title: "Cifras claras antes de decidir",
-      desc: "Constitución desde 2.000 € y mantenimiento desde 1.400 €/año. La consulta inicial es gratuita.",
+      desc: "Constitución desde 2.000 € y mantenimiento desde 1.500 €/año. La consulta inicial es gratuita.",
       primary: "Pedir consulta gratuita",
       whatsappMsg: "Hola, me gustaría conocer el coste real de constituir y mantener mi LLC. ¿Podemos hablar?",
     },
     en: {
       title: "Clear numbers before you decide",
-      desc: "Formation from €2,000 and maintenance from €1,400/year. The initial consultation is free.",
+      desc: "Formation from €2,000 and maintenance from €1,500/year. The initial consultation is free.",
       primary: "Book a free consultation",
       whatsappMsg: "Hi, I'd like to understand the real cost of forming and maintaining my LLC. Can we talk?",
     },
     fr: {
       title: "Des chiffres clairs avant de décider",
-      desc: "Création à partir de 2 000 € et maintenance à partir de 1 400 €/an. La première consultation est gratuite.",
+      desc: "Création à partir de 2 000 € et maintenance à partir de 1 500 €/an. La première consultation est gratuite.",
       primary: "Réserver une consultation gratuite",
       whatsappMsg: "Bonjour, j'aimerais connaître le coût réel de création et de maintenance de ma LLC. Pouvons-nous en parler ?",
     },
     de: {
       title: "Klare Zahlen, bevor Sie entscheiden",
-      desc: "Gründung ab 2.000 € und laufender Betrieb ab 1.400 €/Jahr. Das Erstgespräch ist kostenlos.",
+      desc: "Gründung ab 2.000 € und laufender Betrieb ab 1.500 €/Jahr. Das Erstgespräch ist kostenlos.",
       primary: "Kostenloses Erstgespräch buchen",
       whatsappMsg: "Hallo, ich möchte die realen Kosten für Gründung und Betrieb meiner LLC kennen. Können wir sprechen?",
     },
     pt: {
       title: "Números claros antes de decidir",
-      desc: "Constituição desde 2.000 € e manutenção desde 1.400 €/ano. A consulta inicial é gratuita.",
+      desc: "Constituição desde 2.000 € e manutenção desde 1.500 €/ano. A consulta inicial é gratuita.",
       primary: "Marcar consulta gratuita",
       whatsappMsg: "Olá, gostaria de conhecer o custo real de constituir e manter a minha LLC. Podemos falar?",
     },
     ca: {
       title: "Xifres clares abans de decidir",
-      desc: "Constitució des de 2.000 € i manteniment des de 1.400 €/any. La consulta inicial és gratuïta.",
+      desc: "Constitució des de 2.000 € i manteniment des de 1.500 €/any. La consulta inicial és gratuïta.",
       primary: "Demanar consulta gratuïta",
       whatsappMsg: "Hola, m'agradaria conèixer el cost real de constituir i mantenir la meva LLC. Podem parlar?",
     },

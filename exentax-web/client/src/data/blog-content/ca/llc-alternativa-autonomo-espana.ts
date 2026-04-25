@@ -240,7 +240,7 @@ Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis"
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Constitució des de 2.000 € i manteniment des de 1.400 €/any. La consulta inicial és gratuïta. <a href="/ca/serveis">Demanar consulta gratuïta</a>.
+Constitució des de 2.000 € i manteniment des de 1.500 €/any. La consulta inicial és gratuïta. <a href="/ca/serveis">Demanar consulta gratuïta</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

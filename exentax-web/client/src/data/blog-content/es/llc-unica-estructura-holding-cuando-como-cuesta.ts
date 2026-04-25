@@ -186,7 +186,7 @@ Si tu plan es montar la LLC en Wyoming, repasa nuestra página de servicio <a hr
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Constitución desde 2.000 € y mantenimiento desde 1.400 €/año. La consulta inicial es gratuita. <a href="/es/servicios/llc-wyoming">Pedir consulta gratuita</a>.
+Constitución desde 2.000 € y mantenimiento desde 1.500 €/año. La consulta inicial es gratuita. <a href="/es/servicios/llc-wyoming">Pedir consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

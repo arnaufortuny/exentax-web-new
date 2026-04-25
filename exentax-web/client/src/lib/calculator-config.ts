@@ -269,7 +269,7 @@ export const UK_DIVIDEND_EFFECTIVE_RATE = 0.3375;
 
 // Exentax 2026 pricing benchmark.
 export const LLC_FORMATION_COST = 2000;
-export const LLC_ANNUAL_COST = 1400;
+export const LLC_ANNUAL_COST = 1500;
 
 // --- Sociedad local fixed costs (3-way comparator) ---------------------------
 

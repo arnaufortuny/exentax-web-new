@@ -207,7 +207,7 @@ export default function CalculatorResults({ result, income, country, regime, get
         <ul className="space-y-1.5">
           {[
             { id: "zeroUS", txt: t("calculator.keyMsg.zeroUS", { defaultValue: "0% federal USA si no operas en territorio estadounidense (disregarded entity)." }) },
-            { id: "noFixed", txt: t("calculator.keyMsg.noFixed", { defaultValue: "Sin cuota fija mensual: 2.000 € de setup y 1.400 €/año de mantenimiento (Registered Agent + Forms 5472/1120)." }) },
+            { id: "noFixed", txt: t("calculator.keyMsg.noFixed", { defaultValue: "Sin cuota fija mensual: 2.000 € de setup y 1.500 €/año de mantenimiento (Registered Agent + Forms 5472/1120)." }) },
             { id: "banking", txt: t("calculator.keyMsg.banking", { defaultValue: "Acceso a banca y pasarelas USA (Mercury, Wise, Stripe, etc.)." }) },
             { id: "liability", txt: t("calculator.keyMsg.liability", { defaultValue: "Responsabilidad limitada real para tu actividad digital internacional." }) },
             { id: "noTravel", txt: t("calculator.keyMsg.noTravel", { defaultValue: "No requiere viajar ni tener SSN/ITIN para empezar, Exentax obtiene también el ITIN." }) },

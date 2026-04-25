@@ -231,7 +231,7 @@ If you want to see the full process in detail, check our <a href="/en/services">
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Formation from €2,000 and maintenance from €1,400/year. The initial consultation is free. <a href="/en/services">Book a free consultation</a>.
+Formation from €2,000 and maintenance from €1,500/year. The initial consultation is free. <a href="/en/services">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

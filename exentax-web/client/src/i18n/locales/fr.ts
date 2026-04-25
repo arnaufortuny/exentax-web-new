@@ -2188,7 +2188,7 @@ errors: {
     keyMessagesTitle: "Pourquoi Exentax + LLC USA",
     keyMsg: {
       zeroUS: "0 % d'impôt fédéral US si vous n'opérez pas sur le territoire américain (disregarded entity).",
-      noFixed: "Pas de frais mensuels fixes : 2 000 € de setup et 1 400 €/an de maintenance (Registered Agent + Forms 5472/1120).",
+      noFixed: "Pas de frais mensuels fixes : 2 000 € de setup et 1 500 €/an de maintenance (Registered Agent + Forms 5472/1120).",
       banking: "Accès à la banque et aux passerelles de paiement US (Relay, Slash, Wise, Mercury, Wallester, Revolut Business, Airwallex, Stripe, etc.).",
       liability: "Responsabilité limitée réelle pour votre activité numérique internationale.",
       noTravel: "Pas besoin de voyager ni d'avoir un SSN/ITIN pour commencer, Exentax obtient aussi l'ITIN.",

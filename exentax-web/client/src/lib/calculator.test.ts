@@ -582,7 +582,7 @@ record(
   const unknownCountry = calculateSavings(5000, "atlantida", "autonomo", "general");
   record(
     "country unknown · sinLLC=0 graceful fallback (no throw)",
-    unknownCountry.sinLLC === 0 && unknownCountry.conLLC === 1400,
+    unknownCountry.sinLLC === 0 && unknownCountry.conLLC === 1500,
   );
 
   const huge = calculateSavings(1_000_000_000, "espana", "autonomo", "general");

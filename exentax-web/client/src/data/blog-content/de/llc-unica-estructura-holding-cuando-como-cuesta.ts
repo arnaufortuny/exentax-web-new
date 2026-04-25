@@ -180,7 +180,7 @@ Wenn Sie Ihre LLC in Wyoming gründen möchten, sehen Sie sich unsere Service-Se
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Gründung ab 2.000 € und laufender Betrieb ab 1.400 €/Jahr. Das Erstgespräch ist kostenlos. <a href="/de/leistungen/llc-wyoming">Kostenloses Erstgespräch buchen</a>.
+Gründung ab 2.000 € und laufender Betrieb ab 1.500 €/Jahr. Das Erstgespräch ist kostenlos. <a href="/de/leistungen/llc-wyoming">Kostenloses Erstgespräch buchen</a>.
 <!-- /exentax:cta-v1 -->
 
 <!-- exentax:review-anchor-v1 -->

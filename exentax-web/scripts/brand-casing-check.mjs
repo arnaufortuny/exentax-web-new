@@ -31,12 +31,18 @@ const SKIP_FILE_NAMES = new Set([
 ]);
 
 // Allow-list of relative paths (from REPO_ROOT) that may legitimately contain
-// the wrong-cased brand string. Currently empty by design — keep it that way
-// unless there is an explicit, documented reason (see README in scripts/).
+// the wrong-cased brand string. Add entries only when a doc legitimately
+// references the forbidden casing to teach contributors / agents NOT to use
+// it (the rule itself, lint output description, etc.).
 const ALLOWLIST = new Set([
-  // Currently empty by design. Add `repo/relative/path.md` entries here only
-  // when an external quotation truly requires the wrong casing, and document
-  // the reason next to the entry.
+  // docs/internal/* — these docs explain the brand-casing rule and the lint
+  // output, so they reference "ExenTax" verbatim to teach what NOT to write.
+  "docs/internal/AGENT-RULES.md",
+  "docs/internal/ARCHITECTURE.md",
+  "docs/internal/DEFINITIVE-STATUS.md",
+  "docs/internal/PRODUCTION-READY-REPORT.md",
+  "docs/internal/TRANSLATION-GUIDE.md",
+  "docs/internal/WHAT-NOT-TO-TOUCH.md",
 ]);
 
 const FORBIDDEN = "ExenTax";
