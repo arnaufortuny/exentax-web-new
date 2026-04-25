@@ -86,6 +86,9 @@ const MAP: Record<string, BlogCtaTarget> = {
   "llc-alternativa-autonomo-espana":                  { route: "our_services", pattern: "pricing_quote" },
   "autonomo-espana-vs-llc-estados-unidos":            { route: "our_services", pattern: "pricing_quote" },
 
+  // --- CRS / FATCA / international info-exchange deep-dives --------------
+  "crs-2-0-carf-por-que-usa-no-firmara-llc":          { route: "our_services", pattern: "compliance_checkup" },
+
   // --- Banking & ops fall back to booking ---------------------------------
   // (every slug not listed above resolves to `book` via DEFAULT)
 };

@@ -507,6 +507,42 @@ export const OFFICIAL_SOURCES: Record<string, ExternalSource> = {
       ca: "EUR-Lex — Directiva 2006/112/CE de l'IVA (consolidada)",
     },
   },
+  "irs-fatca": {
+    id: "irs-fatca",
+    url: "https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca",
+    label: {
+      es: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+      en: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+      fr: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+      de: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+      pt: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+      ca: "IRS — Foreign Account Tax Compliance Act (FATCA)",
+    },
+  },
+  "treasury-fatca-igas": {
+    id: "treasury-fatca-igas",
+    url: "https://home.treasury.gov/policy-issues/tax-policy/foreign-account-tax-compliance-act",
+    label: {
+      es: "U.S. Treasury — FATCA y acuerdos intergubernamentales (IGAs)",
+      en: "U.S. Treasury — FATCA and Intergovernmental Agreements (IGAs)",
+      fr: "U.S. Treasury — FATCA et accords intergouvernementaux (IGAs)",
+      de: "U.S. Treasury — FATCA und zwischenstaatliche Abkommen (IGAs)",
+      pt: "U.S. Treasury — FATCA e acordos intergovernamentais (IGAs)",
+      ca: "U.S. Treasury — FATCA i acords intergovernamentals (IGAs)",
+    },
+  },
+  "oecd-carf": {
+    id: "oecd-carf",
+    url: "https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm",
+    label: {
+      es: "OCDE — Crypto-Asset Reporting Framework (CARF) y enmiendas al CRS",
+      en: "OECD — Crypto-Asset Reporting Framework (CARF) and CRS amendments",
+      fr: "OCDE — Crypto-Asset Reporting Framework (CARF) et amendements au CRS",
+      de: "OECD — Crypto-Asset Reporting Framework (CARF) und CRS-Änderungen",
+      pt: "OCDE — Crypto-Asset Reporting Framework (CARF) e alterações ao CRS",
+      ca: "OCDE — Crypto-Asset Reporting Framework (CARF) i esmenes al CRS",
+    },
+  },
 };
 
 /** Reader-facing label for the whole block, per language. */
@@ -882,6 +918,15 @@ export const SOURCES_BY_SLUG: Record<string, SourceRef[]> = {
   ],
   "diferencia-llc-corporation-s-corp-c-corp": LLC_FUNDAMENTALS,
   "facturar-sin-ser-autonomo-alternativas-2026": SPAIN_TAX,
+  // CRS 2.0 + CARF deep-dive — extra primary externals beyond the CRS_FATCA bundle.
+  "crs-2-0-carf-por-que-usa-no-firmara-llc": [
+    ...CRS_FATCA,
+    { external: "oecd-crs" },
+    { external: "oecd-carf" },
+    { external: "irs-fatca" },
+    { external: "treasury-fatca-igas" },
+    { external: "eu-dac" },
+  ],
 };
 
 /** Resolve sources for a slug in a given language and return rendered HTML

@@ -58,7 +58,7 @@ Son cuentas en entidades financieras situadas en el extranjero (Bélgica, Lituan
 
 ### Mercury, Relay, banca americana
 
-Estados Unidos no está adherido a CRS, pero esto **no exime de declarar el 720**. La obligación informativa española es independiente del intercambio internacional: si tienes una cuenta Mercury con saldo o saldo medio Q4 superior a 50.000 € agregados con el resto de cuentas extranjeras, debes declararla. Que la AEAT no se entere por CRS no equivale a que no exista la obligación. Y, si en el futuro se abre una inspección por otro motivo, esa omisión sí aparecerá. Lo analizamos en <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">si las cuentas bancarias en EE.UU. reportan a Hacienda</a>.
+Estados Unidos no está adherido a CRS, pero esto **no exime de declarar el 720**. La obligación informativa española es independiente del intercambio internacional: si tienes una cuenta Mercury con saldo o saldo medio Q4 superior a 50.000 € agregados con el resto de cuentas extranjeras, debes declararla. Que la AEAT no se entere por CRS no equivale a que no exista la obligación. Y, si en el futuro se abre una inspección por otro motivo, esa omisión sí aparecerá. Lo analizamos en <a href="/es/blog/cuentas-bancarias-usa-reportan-hacienda-verdad">si las cuentas bancarias en EE.UU. reportan a Hacienda</a> y, para entender por qué CRS 2.0 tampoco cambia esa foto, en <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué USA nunca firmará</a>.
 
 ### Brokers extranjeros (Interactive Brokers, Tastytrade, etc.)
 

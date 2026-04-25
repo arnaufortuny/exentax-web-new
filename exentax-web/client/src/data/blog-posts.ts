@@ -1039,6 +1039,7 @@ export const BLOG_POSTS: BlogPost[] = [
     ogDescription: "Mercury, Wise US Inc, Slash y Relay están fuera del CRS porque EE. UU. no participa. FATCA es bilateral y no exporta automático a Europa.",
     keywords: ["cuentas USA reportan Hacienda", "Mercury Hacienda España", "FATCA España", "bancos USA información", "reporte Modelo 720", "fiscalidad cuentas USA"],
     relatedSlugs: [
+      "crs-2-0-carf-por-que-usa-no-firmara-llc",
       "crs-cuentas-bancarias-llc-intercambio-informacion",
       "crs-residentes-espana-latam-implicaciones",
       "convenio-doble-imposicion-usa-espana-llc",
@@ -1135,6 +1136,7 @@ export const BLOG_POSTS: BlogPost[] = [
       ogDescription: "Si vives en España o América Latina y tienes cuentas en el extranjero, el Common Reporting Standard de la OCDE afecta directamente a cómo se entera tu hacienda.",
     keywords: ["CRS España Latam", "CRS Hacienda España", "CRS Argentina México Colombia", "Modelo 720 CRS", "intercambio automático Latam", "fiscalidad CRS residentes"],
     relatedSlugs: [
+      "crs-2-0-carf-por-que-usa-no-firmara-llc",
       "fiscalidad-llc-por-pais-residencia",
       "cuentas-bancarias-usa-reportan-hacienda-verdad",
       "convenio-doble-imposicion-usa-espana-llc",
@@ -1252,6 +1254,7 @@ export const BLOG_POSTS: BlogPost[] = [
       ogDescription: "DAC8 lleva el modelo CRS al mundo de los criptoactivos. Exchanges y proveedores de servicios cripto reportan a tu hacienda.",
     keywords: ["DAC8 criptomonedas", "DAC8 exchanges Hacienda", "DAC8 reporting cripto", "DAC8 LLC trader cripto", "CARF DAC8", "compliance DAC8 cripto"],
     relatedSlugs: [
+      "crs-2-0-carf-por-que-usa-no-firmara-llc",
       "revolut-business-crs-reporting-fiscal",
       "wise-business-crs-reporting-fiscal",
       "dac7-plataformas-digitales-reporting-2026",
@@ -1410,6 +1413,7 @@ export const BLOG_POSTS: BlogPost[] = [
       ogDescription: "El artículo de referencia sobre Modelo 720 y Modelo 721: bloques, umbrales de 50.000 €, plazos, sanciones tras la STJUE C-788/19 y cómo encajan Wise, Mercury.",
       keywords: ["Modelo 720", "Modelo 721", "Modelo 720 LLC", "cuentas extranjero Hacienda", "criptomonedas Modelo 721", "STJUE 720", "compliance Modelo 720 721"],
       relatedSlugs: [
+        "crs-2-0-carf-por-que-usa-no-firmara-llc",
         "visa-mastercard-reporting-tarjetas-hacienda",
         "dac8-criptomonedas-reporting-fiscal-2026",
         "revolut-business-crs-reporting-fiscal",
@@ -2214,6 +2218,26 @@ export const BLOG_POSTS: BlogPost[] = [
       "cuota-autonomo-2026",
       "llc-alternativa-autonomo-espana",
       "tramos-irpf-2026",
+    ],
+  },
+  {
+    slug: "crs-2-0-carf-por-que-usa-no-firmara-llc",
+    title: "CRS 2.0 y CARF: por qué USA nunca firmará y qué significa para tu LLC",
+    excerpt: "La OCDE aprieta con CRS 2.0 y CARF, pero EE. UU. mantendrá su perímetro propio (FATCA). Por qué Washington nunca firmará el CRS, cómo gana con LLCs no residentes y qué significa todo esto para tu estructura y tu stack bancario.",
+    category: "Fiscalidad",
+    readTime: 13,
+    publishedAt: "2026-04-25",
+    updatedAt: "2026-04-25",
+    metaTitle: "CRS 2.0 y CARF: por qué USA no firmará y tu LLC",
+    metaDescription: "CRS 2.0 y CARF amplían el reporting OCDE pero EE. UU. queda fuera por diseño. Qué cambia para tu LLC, tu stack bancario y tu cripto.",
+    ogTitle: "CRS 2.0 y CARF: por qué USA no firmará y tu LLC",
+    ogDescription: "La OCDE aprieta con CRS 2.0 y CARF, pero EE. UU. mantiene FATCA. Lo que cambia para tu LLC y tu stack bancario.",
+    keywords: ["CRS 2.0 LLC", "CARF criptomonedas reporting", "USA fuera del CRS", "FATCA vs CRS LLC", "Delaware LLC capital extranjero", "CRS 2.0 hacienda España"],
+    countries: ["ES", "MX", "CO", "AR"],
+    relatedSlugs: [
+      "crs-residentes-espana-latam-implicaciones",
+      "dac8-criptomonedas-reporting-fiscal-2026",
+      "cuentas-bancarias-usa-reportan-hacienda-verdad",
     ],
   },
   ];

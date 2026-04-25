@@ -1,4 +1,6 @@
 export default `
+> Lectura recomendada para entender el marco europeo en su conjunto: <a href="/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc">CRS 2.0 y CARF: por qué USA nunca firmará y qué significa para tu LLC</a>. DAC8 es la transposición europea del paquete OCDE que tratamos allí.
+
 
 La **DAC8** es la pieza que completa el sistema de información tributaria europeo en el mundo cripto. A partir del 1 de enero de 2026, todos los proveedores de servicios sobre criptoactivos en la UE están obligados a reportar a las autoridades fiscales europeas la información de sus clientes y de sus operaciones, en línea con el modelo CRS aplicado a la banca tradicional. Si tienes cripto y resides en la UE, o tienes una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> que opera con cripto en exchanges europeos, esto te afecta directamente.
 
