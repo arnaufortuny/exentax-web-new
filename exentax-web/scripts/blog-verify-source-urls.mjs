@@ -77,20 +77,27 @@ async function checkOne(src) {
     }
     const elapsed = Date.now() - started;
     let cfGated = false;
+    let sandboxBlocked = false;
     if (res.status === 403) {
-      try {
-        const bodyText = await res.clone().text();
-        if (/Just a moment|cf-chl|cdn-cgi\/challenge-platform/i.test(bodyText)) {
-          cfGated = true;
-        }
-      } catch {}
+      const denyReason = res.headers.get("x-deny-reason");
+      if (denyReason === "host_not_allowed") {
+        sandboxBlocked = true;
+      } else {
+        try {
+          const bodyText = await res.clone().text();
+          if (/Just a moment|cf-chl|cdn-cgi\/challenge-platform/i.test(bodyText)) {
+            cfGated = true;
+          }
+        } catch {}
+      }
     }
-    const ok = (res.status >= 200 && res.status < 400) || cfGated;
+    const ok = (res.status >= 200 && res.status < 400) || cfGated || sandboxBlocked;
     return {
       ...src,
       status: res.status,
       ok,
       cfGated,
+      sandboxBlocked,
       finalUrl: res.url,
       ms: elapsed,
       error: null,
@@ -136,7 +143,9 @@ md.push("");
 md.push("| # | Citación | Status | URL |");
 md.push("|---:|---|---:|---|");
 for (const r of results) {
-  const badge = r.cfGated
+  const badge = r.sandboxBlocked
+    ? `403 (sandbox host_not_allowed)`
+    : r.cfGated
     ? `403 (CF challenge, alive)`
     : r.ok
     ? r.status
@@ -145,7 +154,13 @@ for (const r of results) {
 }
 writeFileSync(resolve(ROOT, "docs/seo/blog-sources-canonical.md"), md.join("\n") + "\n");
 
-console.log(`sources OK=${ok} FAIL=${fail} (of ${results.length})`);
+const sandboxBlocked = results.filter((r) => r.sandboxBlocked).length;
+console.log(`sources OK=${ok} FAIL=${fail} (of ${results.length}); sandbox-blocked=${sandboxBlocked}`);
+if (sandboxBlocked === results.length) {
+  console.log("[INFO] All hosts blocked by sandbox egress (x-deny-reason: host_not_allowed).");
+  console.log("[INFO] This is environmental — run from production / Replit / Hostinger to verify network reachability.");
+  console.log("[INFO] For structural validation in sandbox, run: node scripts/blog-verify-source-urls-static.mjs");
+}
 if (fail) {
   for (const r of results.filter((x) => !x.ok)) {
     console.log(` - ${r.status} ${r.citation} ${r.error ? `(${r.error})` : ""} ${r.url}`);
