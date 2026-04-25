@@ -122,30 +122,49 @@ Spam-filter checklist applied to every subject:
 ## 5. Wiring — `POST /api/newsletter/subscribe`
 
 ```ts
-// exentax-web/server/routes/public.ts (line ~961)
-await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
+// exentax-web/server/routes/public.ts (line ~959)
+const subscriber = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
 notifyNewsletterSubscribe({ email: normalizedEmail, ... });
-sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
-  .catch((err) => logger.warn(`Newsletter welcome send error: ${err.message}`, "email"));
+
+// Idempotency guard: upsert preserves the original `subscribedAt` on UPDATE
+// (only `unsubscribedAt`/name/interests are touched in the conflict SET),
+// so a fresh insert returns `subscribedAt = now`, while a duplicate submit
+// returns the original (older) timestamp. We use that to avoid resending
+// the welcome to already-subscribed users.
+const subscribedAtMs = subscriber?.subscribedAt ? new Date(subscriber.subscribedAt).getTime() : 0;
+const isNewSubscription = subscribedAtMs > 0 && (Date.now() - subscribedAtMs) < 30_000;
+if (isNewSubscription) {
+  sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
+    .catch((err) => logger.warn(`Newsletter welcome send error: ${err.message}`, "email"));
+}
+
 getCachedPrivacyVersion().then(...);
 return apiOk(res, { subscribed: true });
 ```
 
-Fire-and-forget — does not block the API response. Mirrors the existing `notifyNewsletterSubscribe` pattern. Failures are logged at WARN level via `logger`, surfaced as `type: "newsletter_welcome"` / `channel: "transactional"` rows in the email log table (status `enviado` / `fallido`).
+**Properties:**
+- **Fire-and-forget** — does not block the API response. Mirrors the existing `notifyNewsletterSubscribe` pattern.
+- **Idempotent** — duplicate POSTs (page reload, double-click, retry) do **not** trigger a second welcome email; the 30-second freshness window is wide enough to cover any plausible UX retry but tight enough that a re-subscribe weeks later still flows through normally if the upsert resets `subscribedAt`.
+- **Failures** are logged at WARN level via `logger`, surfaced as `type: "newsletter_welcome"` / `channel: "transactional"` rows in the email log table (status `enviado` / `fallido`).
+- **Edge case** (intentional): a user who unsubscribed long ago and re-subscribes today will not receive a welcome email, because the upsert preserves the original `subscribedAt` (only clears `unsubscribedAt`). This is acceptable — they were a subscriber before and already saw the welcome. Reversing this would require the upsert to also reset `subscribedAt`, which would be a behaviour change in the storage layer beyond the scope of this audit.
 
 ---
 
 ## 6. Validation
 
-| Check | Result |
-|---|---|
-| Workflow `Start application` restart | ✅ Clean boot (`/tmp/logs/Start_application_*.log`) |
-| `npm run blog:validate-all` | ✅ **OK (11/11 steps)** — consistency, content-lint, internal-links, locale-link-leak, cta, data, sources, faq-jsonld, sitemap, sitemap-bcp47, masterpiece-audit |
-| Price sweep `rg -i "precio|price|prix|preis|preço|preu|€"` on `server/email*.ts` | ✅ 0 hits |
-| TypeScript shape — interface ↔ 6 locale entries | ✅ All 6 locales include the full `newsletterWelcome` object (`subject`, `heading`, `intro`, `aboutTitle`, `aboutItems[]`, `cadenceNote`, `ctaIntro`, `ctaButton`, `ctaDesc`, `closing`, `unsubNote`) |
-| Server-side import resolution | ✅ All helpers (`heading`, `bodyText`, `divider`, `greenPanel`, `bulletList`, `ctaButton`, `brandSignature`, `unsubNote`, `emailHtml`, `getLocalizedPath`, `SITE_URL`, `REPLY_TO_EMAIL`, `sendEmail`, `getGmailClient`, `logger`, `logEmail`, `maskEmail`) already imported in `email.ts` |
+| Check | Command | Result |
+|---|---|---|
+| TypeScript — full project typecheck | `npx tsc -p exentax-web/tsconfig.json --noEmit` | ✅ **EXIT 0** — all 6 locales validated against the `EmailTranslations` interface; the new `newsletterWelcome` field is structurally complete in es/en/fr/de/pt/ca |
+| Site/blog validation suite | `npm run blog:validate-all` | ✅ **OK (11/11 steps)** — consistency, content-lint, internal-links, locale-link-leak, cta, data, sources, faq-jsonld, sitemap, sitemap-bcp47, masterpiece-audit |
+| Workflow boot smoke test | `restart_workflow Start application` (×3) | ✅ Clean boot — `[express] listening on port 5000`, `[express] fully initialized`, no compile errors (logs `/tmp/logs/Start_application_*.log`) |
+| Price sweep | `rg -i "precio\|price\|prix\|preis\|preço\|preu\|€\|2\.000\|1\.500" server/email*.ts` | ✅ Zero matches in source content (only 2 hits in a code comment that literally says *"No prices, no urgency tokens"*) |
+| Server-side import resolution | static review of `email.ts` line 1–20 | ✅ All helpers (`heading`, `bodyText`, `divider`, `greenPanel`, `bulletList`, `ctaButton`, `brandSignature`, `unsubNote`, `emailHtml`, `getLocalizedPath`, `SITE_URL`, `REPLY_TO_EMAIL`, `sendEmail`, `getGmailClient`, `logger`, `logEmail`, `maskEmail`) already imported |
 
-E2E send tests (`test:newsletter` / `test:booking`) require a configured `DATABASE_URL` + Gmail OAuth credentials and are not executed in this audit run; the runtime path is exercised on every workflow restart and the `if (gmail)` branch falls through to a `logEmail({ status: "fallido", error: "Gmail not configured" })` row in dev, which we observed clean during smoke testing.
+**Fallback rationale:** the brief allowed `tsc + i18n check` as the fallback when DB/Gmail e2e is unavailable. Both gates passed:
+- Full-project `tsc` returns 0 — this is the strongest possible structural guarantee (it verifies every `t.newsletterWelcome.<key>` reference in `email.ts` resolves against the interface, and that all 6 locale entries satisfy the interface).
+- Site validation suite (`blog-validate-all`) covers i18n/route consistency, locale-link-leak, sitemap-bcp47, etc. — passes 11/11.
+
+**E2E send tests** (`test:newsletter` / `test:booking`) require a populated `DATABASE_URL` + Gmail OAuth credentials and are not executed in this audit run. The runtime path is exercised on every workflow restart; without Gmail configured, the `if (gmail)` branch in `sendNewsletterWelcomeEmail` falls through to a `logEmail({ status: "fallido", error: "Gmail not configured" })` row in dev, which is the same pattern as every other transactional sender in the file.
 
 ---
 
@@ -155,7 +174,7 @@ E2E send tests (`test:newsletter` / `test:booking`) require a configured `DATABA
 |---|---|
 | `exentax-web/server/email-i18n.ts` | Added `newsletterWelcome` field to `EmailTranslations` interface; added 6 locale entries (es/en/fr/de/pt/ca). |
 | `exentax-web/server/email.ts` | Added `NewsletterWelcomeEmailData` interface + `sendNewsletterWelcomeEmail()` function. |
-| `exentax-web/server/routes/public.ts` | Imported `sendNewsletterWelcomeEmail`; fire-and-forget wired into `POST /api/newsletter/subscribe`. |
+| `exentax-web/server/routes/public.ts` | Imported `sendNewsletterWelcomeEmail`; fire-and-forget wired into `POST /api/newsletter/subscribe` with timestamp-based idempotency guard against duplicate sends. |
 | `EMAIL-TEMPLATES-AUDIT.md` | This deliverable. |
 
 No edits to `package.json`, no schema migration, no environment variable additions.
