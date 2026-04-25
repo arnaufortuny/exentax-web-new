@@ -122,7 +122,7 @@ Une LLC américaine est un outil légal et reconnu internationalement. Mais la c
 - **Québec (LIR fédérale + Loi sur les impôts du Québec).** Au Canada (et donc au Québec), une LLC américaine est traitée par défaut comme une corporation par l'ARC, ce qui crée souvent une double imposition non éliminée car les distributions sont des dividendes non admissibles côté canadien et l'IRS l'a vue comme transparente. Le Québec applique en miroir la position fédérale via la Loi sur les impôts. C'est la pire juridiction CSF (corporation étrangère affiliée contrôlée) au monde pour détenir une LLC américaine ; nous le détaillons dans le bloc execution-v2.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/reserver">Réservez votre consultation gratuite</a>
+> <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La règle pratique : une LLC opérationnelle, avec substance, correctement déclarée dans la résidence, c'est de la **planification fiscale légitime**. Une LLC utilisée pour cacher des revenus, simuler une non-résidence ou déplacer des revenus passifs sans justification économique tombe dans le champ de l'**abus de droit fiscal** (art. 15 LGT en Espagne, art. L. 64 LPF en France, art. 344 §1 CIR en Belgique, abus de droit luxembourgeois codifié à l'art. 6 StAnpG, Steuerumgehung en Suisse, GAAR fédérale canadienne) ou, au pire, de la **simulation** (art. 16 LGT, manœuvres frauduleuses art. 1729 CGI). Ce sont les faits qui décident, pas le papier.

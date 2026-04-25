@@ -52,6 +52,17 @@ const STEPS = [
   // sources-block, calc-cta marker presence, etc.). Non-strict by default
   // (the strict variant is wired into `npm run check` via `seo:masterpiece-strict`).
   { id: "masterpiece-audit", file: "scripts/blog-masterpiece-audit.mjs", node: "node" },
+  // GEO / LLM-discoverability surface — wired here (via the
+  // `npm run blog:validate-all` orchestrator) instead of `package.json`
+  // because the agent is not allowed to edit `package.json` directly.
+  // These two audits guard:
+  //   1. seo-llm-readiness — robots.txt AI-bot allow-listing, llms.txt /
+  //      llms-full.txt presence, Organization @id, AggregateRating, HowTo,
+  //      ProfessionalService SSR markup.
+  //   2. blog-cluster-audit — pillar-page → cluster cross-link integrity for
+  //      the `abrir-llc-*` family (42 expected internal links).
+  { id: "seo-llm-readiness", file: "scripts/seo-llm-readiness.mjs", node: "node" },
+  { id: "blog-cluster-audit", file: "scripts/blog-cluster-audit.mjs", node: "node" },
 ];
 
 const EXTRA_EXTERNAL = {

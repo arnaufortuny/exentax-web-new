@@ -167,6 +167,7 @@ Si tu plan es montar la LLC en Wyoming, repasa nuestra página de servicio <a hr
 Comparamos Nuevo México, Wyoming, Delaware y Florida sobre tu caso real, sin venderte el estado de moda. <a href="/es/servicios/llc-wyoming">Comparar mi caso con un asesor</a>.
 <!-- /exentax:cta-v1 -->
 
+<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -194,4 +195,5 @@ Comparamos Nuevo México, Wyoming, Delaware y Florida sobre tu caso real, sin ve
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
+<!-- /exentax:review-anchor-v1 -->
 `;

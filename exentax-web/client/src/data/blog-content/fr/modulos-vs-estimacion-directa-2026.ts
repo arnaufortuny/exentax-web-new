@@ -61,6 +61,7 @@ Si vous préférez en discuter de vive voix, <a href="/fr/reserver">réservez un
 Réservez une consultation gratuite de 30 minutes : nous analysons votre cas réel et vous disons ce qui a du sens. <a href="/fr/reserver">Réserver une consultation gratuite</a>.
 <!-- /exentax:cta-v1 -->
 
+<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Révision éditoriale en attente</strong> — Les références suivantes nécessitent une vérification manuelle auprès de la source officielle en vigueur. Si vous identifiez un écart, écrivez à l'équipe et nous corrigeons sous 24 heures.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -76,4 +77,5 @@ Réservez une consultation gratuite de 30 minutes : nous analysons votre cas ré
 <li><span class="font-mono">RD 439/2007</span> <span class="opacity-70">(référence légale)</span> <span class="text-xs italic">— «…s. La regulación detallada está en el Reglamento del IRPF (RD 439/2007) y en la Orden anua…»</span> <strong>[REVISIÓN MANUAL — source suggérée: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
 </ul>
 </aside>
+<!-- /exentax:review-anchor-v1 -->
 `;

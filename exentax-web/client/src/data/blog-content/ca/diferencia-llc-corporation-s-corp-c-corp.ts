@@ -89,7 +89,7 @@ Per a no residents, la LLC continua sent l'opció més comuna perquè combina pr
 L'elecció correcta depèn del teu pla a 3-5 anys, no de la moda del fòrum del torn.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/agendar">Descobreix si una LLC és per a tu</a>
+> <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A Exentax revisem el teu cas amb dades reals i et diem si compensa LLC, C-Corp o cap estructura US. <a href="/ca/agendar">Agenda una consulta gratuïta</a> de 30 minuts i sortim amb un pla clar.

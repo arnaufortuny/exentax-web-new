@@ -120,7 +120,7 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **CDT relevantes.** A CDT Portugal-EUA de 1994 (com Protocolo posterior) e a CDI Espanha-EUA (BOE 22/12/1990, Protocolo em vigor 27/11/2019) ordenam a dupla tributação sobre dividendos, juros e royalties. Uma LLC sem estabelecimento estável no país do sócio não constitui, por si só, EE desse sócio, mas a direcção efectiva pode criá-lo se toda a gestão for feita a partir do território de residência.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/pt/agendar">Agende a sua consulta gratuita</a>
+> <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
 A regra prática: uma LLC operacional, com substância, declarada correctamente na residência, é **planeamento fiscal legítimo**. Uma LLC usada para ocultar rendimentos, simular não residência ou deslocar rendimentos passivos sem justificação económica entra no terreno do **art. 38.º da LGT portuguesa (norma geral antiabuso)** e do **art. 15 da LGT espanhola (conflito na aplicação da norma)** ou, no pior cenário, do **art. 39.º da LGT portuguesa / art. 16 da LGT espanhola (simulação)**. A diferença é dada pelos factos, não pelo papel.

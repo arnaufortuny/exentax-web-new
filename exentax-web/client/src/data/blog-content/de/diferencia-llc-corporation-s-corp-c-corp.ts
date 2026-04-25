@@ -87,7 +87,7 @@ Für Nichtansässige bleibt die LLC die häufigste Option, da sie Vermögensschu
 Die richtige Wahl hängt von Ihrem 3-5-Jahres-Plan ab, nicht vom Forum-Trend des Tages.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/buchen">Erfahren Sie, ob eine US-LLC zu Ihnen passt</a>
+> <a href="/de/leistungen">Finden Sie heraus, ob eine LLC zu Ihnen passt</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Bei Exentax prüfen wir Ihren Fall mit echten Zahlen und sagen Ihnen, ob LLC, C-Corp oder gar keine US-Struktur Sinn ergibt. <a href="/de/buchen">Buchen Sie eine kostenlose Beratung</a> von 30 Minuten und gehen Sie mit einem klaren Plan heraus.

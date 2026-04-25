@@ -122,7 +122,7 @@ Eine US-amerikanische LLC ist ein legales und international anerkanntes Instrume
 - **Schweiz (DBG / StHG).** Die funktionale Qualifikation folgt dem Transparenzprinzip: Eine US-LLC vom Pass-Through-Typ wird in der Regel als transparente Personengesellschaft behandelt; die Erträge werden dem ansässigen Gesellschafter in seiner direkten Bundessteuer (DBG) sowie in der Kantons- und Gemeindesteuer (StHG) zugerechnet. Optiert die LLC zur C-Corp, ist das Regime der internationalen Transparenz weniger entwickelt, aber die Eidgenössische Steuerverwaltung (ESTV) bzw. die kantonale Steuerverwaltung kann unter dem Tatbestand der **Steuerumgehung** umqualifizieren, sofern die Substanz nichtig ist. Bei wirtschaftlicher Doppelansässigkeit greifen die Tie-Breaker-Regeln des Art. 4 DBA Schweiz–USA.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/de/buchen">Buchen Sie Ihre kostenlose Beratung</a>
+> <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Die praktische Regel: Eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Konflikt in der Normanwendung)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)** in Spanien — und im DACH-Raum unter den Tatbestand des **Gestaltungsmissbrauchs (§ 42 AO bzw. § 22 BAO bzw. Steuerumgehung gemäß bundesgerichtlicher Praxis der Schweiz)**. Den Unterschied machen die Tatsachen, nicht das Papier.

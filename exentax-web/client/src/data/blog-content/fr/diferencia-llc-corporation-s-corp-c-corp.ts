@@ -87,7 +87,7 @@ Pour les non-résidents, la LLC reste l'option la plus courante car elle combine
 Le bon choix dépend de votre plan à 3-5 ans, pas de la mode du forum du moment.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/fr/reserver">Découvrez si une LLC US est faite pour vous</a>
+> <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->
 
 Chez Exentax nous examinons votre cas avec des chiffres réels et nous vous disons si une LLC, une C-Corp ou aucune structure US a du sens. <a href="/fr/reserver">Réservez une consultation gratuite</a> de 30 minutes et repartez avec un plan clair.

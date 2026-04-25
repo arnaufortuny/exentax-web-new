@@ -161,6 +161,7 @@ Wenn Sie Ihre LLC in Wyoming gründen möchten, sehen Sie sich unsere Service-Se
 Wir vergleichen New Mexico, Wyoming, Delaware und Florida anhand Ihres konkreten Falls — ohne den gerade angesagten Bundesstaat zu pushen. <a href="/de/leistungen/llc-wyoming">Meinen Fall mit einem Berater vergleichen</a>.
 <!-- /exentax:cta-v1 -->
 
+<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -188,5 +189,6 @@ Wir vergleichen New Mexico, Wyoming, Delaware und Florida anhand Ihres konkreten
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
+<!-- /exentax:review-anchor-v1 -->
 
 `;

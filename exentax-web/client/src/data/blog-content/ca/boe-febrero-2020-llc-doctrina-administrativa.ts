@@ -120,7 +120,7 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (BOE 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a l'Estat espanyol no constitueix, per si sola, EP del soci, però la direcció efectiva sí que pot crear-lo si tota la gestió es fa des de Catalunya: oficina a Barcelona, contractació local, decisions estratègiques preses des de territori català sense cap presència material als EUA.
 
 <!-- exentax:calc-cta-v1 -->
-> <a href="/ca/agendar">Demanar consulta gratuïta</a>
+> <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
 La regla pràctica: una LLC operativa, amb substància, declarada correctament en residència, és **planificació fiscal legítima**. Una LLC que es fa servir per ocultar ingressos, simular no-residència o desplaçar rendes passives sense justificació econòmica entra al terreny de l'**art. 15 LGT (conflicte en aplicació de la norma)** o, en el pitjor dels casos, de l'**art. 16 LGT (simulació)**. La diferència la marquen els fets, no el paper.

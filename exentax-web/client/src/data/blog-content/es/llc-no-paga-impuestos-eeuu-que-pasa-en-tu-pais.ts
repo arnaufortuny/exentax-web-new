@@ -182,6 +182,7 @@ Si tu plan es montar la LLC en Nuevo México, repasa nuestra página de servicio
 Revisamos BOI, EIN, agente registrado y obligaciones federales para que no te sorprenda una multa. <a href="/es/servicios/llc-nuevo-mexico">Pedir revisión de compliance</a>.
 <!-- /exentax:cta-v1 -->
 
+<!-- exentax:review-anchor-v1 -->
 <aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
 <p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
 <ul class="list-disc pl-5 space-y-1">
@@ -213,4 +214,5 @@ Revisamos BOI, EIN, agente registrado y obligaciones federales para que no te so
 <li><span class="font-mono">DAC8</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s), DAC7 (Directive (EU) 2021/514, plataformas digitales) y DAC8 (criptoactivos); Directiv…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://eur-lex.europa.eu" rel="nofollow noopener" target="_blank">eur-lex.europa.eu</a>]</strong></li>
 </ul>
 </aside>
+<!-- /exentax:review-anchor-v1 -->
 `;
