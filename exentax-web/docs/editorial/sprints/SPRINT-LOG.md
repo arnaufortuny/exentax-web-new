@@ -94,7 +94,7 @@
 
 #### Resultado
 - **WC promedio ES:** 2992 (residentes 2549, diferencia 2533, iva 2727, llc-EE.UU. 4160).
-- **Ratios DE/ES tras edición:** slugs 1, 2 ya estaban ≥ 0.85; slug 3 = 0.885; slug 4 = 0.869. Ratio EN, FR, PT, CA / ES ya ≥ 0.85 en los 4 slugs antes del sprint.
+- **Ratios DE/ES tras edición** (palabras netas tras strip de comentarios HTML, etiquetas y formato Markdown): slugs 1, 2 ya estaban ≥ 0.85 antes del sprint; slug 3 = 0.901 (2456/2727 tras la edición + corrección Suiza del code-review); slug 4 = 0.869 (3614/4160). Ratio EN, FR, PT, CA / ES ya ≥ 0.85 en los 4 slugs antes del sprint.
 - **Gancho-objetivo cumplido:** sí (los 4 slugs ya pasaban `audit-conversion-es-2026-04` antes del sprint y siguen pasando).
 - **Verdict re-evaluado:** **PASA** (4/4 slugs + 111/111 cartera ES).
 - **Notas / desviaciones:**
