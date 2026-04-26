@@ -1,4 +1,4 @@
-export default `Wenn du oder Ihre LLC Geld aus den USA erhalten (Stripe, PayPal, Affiliate-Plattformen, AdSense, Dividenden, Royalties, Broker...), kannst du nach einem **W-8BEN** oder **W-8BEN-E** gefragt werden. Nicht jede Plattform verlangt ihn: Business-Banking wie Mercury, Relay oder Wise fordert ihn nur an, wenn eine konkrete Compliance-Prüfung das verlangt, während Broker wie Interactive Brokers ihn von Tag eins zwingend verlangen. Wo er verlangt wird und du ihn nicht (oder falsch) ausfüllst, ist das Ergebnis immer dasselbe: der US-Zahler wendet eine **Quellensteuer von 30 %** auf das, was er Ihnen schuldet, "vorsichtshalber" an. 30 %, die später sehr schwer zurückzuholen sind.
+export default `Wenn Sie oder Ihre LLC Geld aus den USA erhalten (Stripe, PayPal, Affiliate-Plattformen, AdSense, Dividenden, Royalties, Broker...), können Sie nach einem **W-8BEN** oder **W-8BEN-E** gefragt werden. Nicht jede Plattform verlangt ihn: Business-Banking wie Mercury, Relay oder Wise fordert ihn nur an, wenn eine konkrete Compliance-Prüfung das verlangt, während Broker wie Interactive Brokers ihn von Tag eins zwingend verlangen. Wo er verlangt wird und Sie ihn nicht (oder falsch) ausfüllen, ist das Ergebnis immer dasselbe: der US-Zahler wendet eine **Quellensteuer von 30 %** auf das, was er Ihnen schuldet, "vorsichtshalber" an. 30 %, die später sehr schwer zurückzuholen sind.
 
 Dieser Leitfaden ist die vollständige Version, auf Deutsch, ohne unnötigen Fachjargon aber rigoros.
 
@@ -20,7 +20,7 @@ Es gibt weitere (W-8ECI, W-8IMY, W-8EXP) für spezifischere Fälle.
 |--|--------|----------|
 | Wer unterzeichnet | Nicht-US-Steuerresident (natürliche Person) | Nicht-US-Entität |
 | Schlüsseldaten | Name, Land, Adresse, Geburtsdatum, Steuer-ID | Firmenname, Gründungsland, EIN/GIIN, Entitätstyp, FATCA-Status |
-| Seiten | 1 | 8 (du füllst nur 2-3 aus) |
+| Seiten | 1 | 8 (Sie füllen nur 2-3 aus) |
 | Abkommen | Ja, Teil II | Ja, Teil III |
 | Gültigkeit | 3 Jahre | 3 Jahre |
 
@@ -34,12 +34,12 @@ Um die **30 %-Quellensteuer** auf US-Quellzahlungen zu vermeiden. Das Abkommen z
 - **0 %** auf **Zinsen** im Allgemeinen.
 - **0-10 %** auf **Royalties** je nach Art.
 
-Ohne unterzeichnetes W-8 hält der Zahler 30 % zurück. Mit einem korrekt ausgefüllten W-8 erhältst du Zahlungen vollständig (häufigster Fall für Dienstleistungen).
+Ohne unterzeichnetes W-8 hält der Zahler 30 % zurück. Mit einem korrekt ausgefüllten W-8 erhalten Sie Zahlungen vollständig (häufigster Fall für Dienstleistungen).
 ### Wer sie einreichen muss
 
 Das Formular wird von **dem, der das Geld erhält**, eingereicht:
 
-- Du als **natürliche Person** wenn du direkt empfängst: **W-8BEN**.
+- Sie als **natürliche Person** wenn Sie direkt empfangen: **W-8BEN**.
 - Ihre **LLC** oder andere Entität wenn Zahlungen auf das Konto der Entität gehen: **W-8BEN-E**.
 ### Wann einreichen
 
@@ -73,7 +73,7 @@ Eine Seite, drei Teile.
 **Teil III, Zertifizierung:** unterschreiben, Datum, Name.
 ## Wie man ein W-8BEN-E Schritt für Schritt ausfüllt (Ihre LLC)
 
-Länger (8 Seiten), aber du füllst nur das aus, was zutrifft. Für eine **Single-Member LLC eines Nichtansässigen**:
+Länger (8 Seiten), aber Sie füllen nur das aus, was zutrifft. Für eine **Single-Member LLC eines Nichtansässigen**:
 
 **Teil I, Identifikation der Entität:**
 
@@ -119,7 +119,7 @@ Um zu verstehen, wie das mit Ihrer LLC zusammenpasst, lies auch unseren <a href=
 
 - **Stripe:** integriertes W-8BEN-E. Ergebnis: 0 % Quellensteuer auf Dienstleistungen.
 - **PayPal Business:** bei Verifizierung des Business-Kontos.
-- **Mercury / Relay / Slash:** beim Standard-Onboarding Ihrer LLC **nicht erforderlich**. Nur wenn eine punktuelle Compliance-Prüfung es verlangt; ohne entsprechende Anfrage musst du keines unterschreiben.
+- **Mercury / Relay / Slash:** beim Standard-Onboarding Ihrer LLC **nicht erforderlich**. Nur wenn eine punktuelle Compliance-Prüfung es verlangt; ohne entsprechende Anfrage müssen Sie keines unterschreiben.
 - **Wise Business:** dasselbe Kriterium wie Mercury / Relay: nur wenn ausdrücklich angefordert. Kein Standardschritt bei der Anmeldung Ihrer LLC.
 - **Interactive Brokers:** wendet 15 % auf US-Dividenden statt 30 % an.
 - **AdSense / YouTube / Amazon KDP / App Store / Twitch:** eigener Assistent.

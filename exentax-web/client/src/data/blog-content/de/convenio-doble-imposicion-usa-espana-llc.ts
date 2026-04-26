@@ -4,7 +4,7 @@ Dieser Leitfaden erklärt das Abkommen Schritt für Schritt, in klarer Sprache, 
 
 ## Was es ist und warum es existiert
 
-Ein **Doppelbesteuerungsabkommen (DBA)** ist eine bilaterale Vereinbarung zwischen zwei Ländern, um das Recht auf Besteuerung grenzüberschreitender Einkünfte aufzuteilen und zu vermeiden, dass dasselbe Einkommen zweimal besteuert wird. Ohne Abkommen würdest du in den USA zahlen (weil die LLC dort ist) **und** erneut in Spanien (weil du dort wohnst).
+Ein **Doppelbesteuerungsabkommen (DBA)** ist eine bilaterale Vereinbarung zwischen zwei Ländern, um das Recht auf Besteuerung grenzüberschreitender Einkünfte aufzuteilen und zu vermeiden, dass dasselbe Einkommen zweimal besteuert wird. Ohne Abkommen würden Sie in den USA zahlen (weil die LLC dort ist) **und** erneut in Spanien (weil Sie dort wohnen).
 
 Um dies zu vermeiden, haben die USA und Spanien **1990** ein Abkommen zur Vermeidung der Doppelbesteuerung unterzeichnet, modernisiert durch ein **2013 unterzeichnetes Protokoll**, das am **27. November 2019** in Kraft trat (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> vom 23. Oktober 2019). Dieses Protokoll aktualisierte Quellensteuersätze, Informationsaustausch und Anti-Missbrauchs-Klauseln.
 
@@ -37,7 +37,7 @@ Für den typischen Fall einer Dienstleistungs-LLC ohne Betriebsstätte in den US
 - **In den USA: 0 % Bundes-, 0 % Staatssteuer** (in NM/WY/DE für LLCs ohne lokale Tätigkeit). Nur Wartungskosten.
 - **In Spanien: IRPF auf den Nettogewinn** der LLC, in die Jahressteuererklärung als Einkünfte aus wirtschaftlicher Tätigkeit im Pass-through-Regime integriert, nach persönlichem Grenzsatz (19 % bis 47 %).
 
-Du **zahlst in Spanien, aber besser**: auf den Nettogewinn nach breiten Abzügen, ohne monatlichen autónomo-Beitrag, ohne autónomo-spezifische Vorauszahlungen.
+Sie **zahlen in Spanien, aber besser**: auf den Nettogewinn nach breiten Abzügen, ohne monatlichen autónomo-Beitrag, ohne autónomo-spezifische Vorauszahlungen.
 ### Vom Abkommen abgedeckte Einkommensarten
 
 | Einkommensart | Ohne Abkommen (USA) | Mit Abkommen USA-Spanien |
@@ -50,7 +50,7 @@ Du **zahlst in Spanien, aber besser**: auf den Nettogewinn nach breiten Abzügen
 | Renten | 30 % | Spezifische Regeln (Art. 20) |
 ### Spanisches Steuerresidenz-Zertifikat
 
-Um das Abkommen vor dem US-Zahler zu aktivieren, musst du nachweisen, dass du **spanischer Steuerresident** bist. Die AEAT stellt ein **Steuerresidenz-Zertifikat für Abkommens-Zwecke** über das elektronische Portal aus. Gültigkeit **ein Jahr**. Stets aktuell halten, vor allem bei Brokern oder Zahlern mit komplexen Quellensteuern.
+Um das Abkommen vor dem US-Zahler zu aktivieren, müssen Sie nachweisen, dass Sie **spanischer Steuerresident** sind. Die AEAT stellt ein **Steuerresidenz-Zertifikat für Abkommens-Zwecke** über das elektronische Portal aus. Gültigkeit **ein Jahr**. Stets aktuell halten, vor allem bei Brokern oder Zahlern mit komplexen Quellensteuern.
 
 Bei den meisten Einnahmen über Stripe, PayPal, AdSense fragen sie nicht aktiv danach, weil das W-8BEN-E die Arbeit macht. Aber vor einem Audit oder Broker wie Interactive Brokers ist es der harte Beweis.
 ### Erforderliche Formulare
@@ -89,7 +89,7 @@ Bei den meisten Einnahmen über Stripe, PayPal, AdSense fragen sie nicht aktiv d
 - Falls als Dienstleistung/Verkauf einer Kopie qualifiziert: Art. 7 → **0 %**.
 ### Quellensteuern und wie man sie zurückbekommt
 
-Wenn du in den USA Quellensteuern erleidest:
+Wenn Sie in den USA Quellensteuern erleiden:
 
 1. **Direkte Reklamation beim Zahler** wenn Fehler im Steuerjahr.
 2. **Rückerstattungsantrag beim IRS:** über **Form 1040-NR** oder Verfahren im Zusammenhang mit dem **1042-S**. Langsam (12-18 Monate).
@@ -97,7 +97,7 @@ Wenn du in den USA Quellensteuern erleidest:
 In Spanien werden tatsächlich in den USA gezahlte Quellensteuern innerhalb der Abkommensgrenze über den **Abzug für internationale Doppelbesteuerung (DDII)** in der IRPF angerechnet.
 ### Erklärung in Spanien: Modelo 100
 
-In der **Jahreserklärung (Modelo 100)** integrierst du die Nettogewinne der LLC als **Einkünfte aus wirtschaftlicher Tätigkeit** im Pass-through-Regime:
+In der **Jahreserklärung (Modelo 100)** integrieren Sie die Nettogewinne der LLC als **Einkünfte aus wirtschaftlicher Tätigkeit** im Pass-through-Regime:
 
 1. USD in EUR umrechnen mit dem jährlichen Durchschnittskurs oder dem des Zahlungszeitpunkts, konsistentes Kriterium.
 2. Gesamteinnahmen und abzugsfähige Ausgaben berechnen.
@@ -105,7 +105,7 @@ In der **Jahreserklärung (Modelo 100)** integrierst du die Nettogewinne der LLC
 4. **Abzug für internationale Doppelbesteuerung** anwenden.
 5. **Modelo 720/721** einreichen falls Schwellen überschritten.
 6. Gesamte Dokumentation aufbewahren.
-### Warum du einen spanischen Steuerberater brauchst
+### Warum Sie einen spanischen Steuerberater brauchen
 
 Eine in den USA gut konstituierte LLC ist nur die Hälfte der Arbeit. Die andere Hälfte ist die **korrekte Integration in Ihre spanische IRPF**:
 
@@ -127,7 +127,7 @@ Ein spanischer Steuerberater, der internationale Strukturen mit LLCs versteht, i
 - US-Quellensteuern werden in Spanien über den Abzug ausgeglichen.
 - Komplettes Setup: **Exentax + spanischer Steuerberater**.
 
-Wenn du Ihren Fall mit konkreten Zahlen prüfen möchtest, **buche eine kostenlose 30-Minuten-Beratung** mit Exentax.
+Wenn Sie Ihren Fall mit konkreten Zahlen prüfen möchten, **buche eine kostenlose 30-Minuten-Beratung** mit Exentax.
 
 Zur Vertiefung lies auch <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">LLC als Alternative zum autónomo-Status in Spanien</a> und <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">Vollständiger Leitfaden zu den Formularen W8-BEN und W8-BEN-E</a>.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung

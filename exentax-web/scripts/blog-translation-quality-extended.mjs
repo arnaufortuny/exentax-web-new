@@ -112,6 +112,11 @@ function stripMarkers(content) {
   body = body.replace(/<!--[\s\S]*?-->/g, "");
   // Strip fenced code blocks
   body = body.replace(/```[\s\S]*?```/g, "");
+  // Strip href="..." and src="..." values — URL slugs (e.g. /de/leistungen/hol-deine-itin)
+  // are SEO-anchored route identifiers defined in shared/routes.ts, not translatable text.
+  // They legitimately contain informal pronouns (deine/tu/ton/seu/teu) by design.
+  body = body.replace(/href="[^"]*"/g, "");
+  body = body.replace(/src="[^"]*"/g, "");
   return body;
 }
 
