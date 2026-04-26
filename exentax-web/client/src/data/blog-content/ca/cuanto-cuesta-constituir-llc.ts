@@ -87,7 +87,7 @@ La via "Florida" té article propi i només apareix quan hi ha presència físic
 
 ## El cost real de la seva LLC a 24 mesos
 
-La pregunta que gairebé ningú respon completament és: **quant hauràs pagat d'aquí a dos anys?** Una LLC té un pic de despesa al mes 0 (constitució, EIN, Operating Agreement, banca), un pagament anual fix al mes 12 i un altre al mes 24. Mirar només els primers 12 mesos amaga la part recurrent; a 24 mesos la fotografia és honesta.
+La pregunta que gairebé ningú respon completament és: **quant haurà pagat d'aquí a dos anys?** Una LLC té un pic de despesa al mes 0 (constitució, EIN, Operating Agreement, banca), un pagament anual fix al mes 12 i un altre al mes 24. Mirar només els primers 12 mesos amaga la part recurrent; a 24 mesos la fotografia és honesta.
 
 ### Escenari A — Freelance al Nou Mèxic (perfil auster)
 
@@ -149,7 +149,7 @@ Per anar més enllà, <a href="/ca/blog/llc-americana-per-a-agencies-de-marqueti
 - BOI Report davant la FinCEN quan apliqui segons la regla vigent (després de l'IFR de març del 2025, la majoria de LLC propietat de no residents ja no estan a l'àmbit; ho monitoritzem per vostè).
 - Registered Agent del primer any inclòs.
 - Onboarding bancari amb Mercury, Relay, Wise Business o Slash, segons l'activitat i el perfil de pagaments entrants.
-- Assessorament fiscal inicial perquè entenguis tota l'estructura abans d'operar.
+- Assessorament fiscal inicial perquè entengui tota l'estructura abans d'operar.
 - ITIN tramitat via W-7 sempre que el seu banc o passarel·la l'exigeixi.
 
 **Al manteniment anual (cada any a partir de l'any 1):**
@@ -180,7 +180,7 @@ Aquest article es recolza en normativa vigent. Citem les fonts principals perqu�
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
-L'aplicació concreta d'aquestes normes al seu cas depèn de la seva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
+L'aplicació concreta d'aquestes normes al seu cas depèn de la seva residència fiscal, l'activitat de la LLC i la documentació que mantingui. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -222,7 +222,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut recentment; aquest és l'es
 
 **Necessito ITIN per constituir la LLC o només per a algunes coses?** Per constituir, no. Per a l'EIN, no obligatòriament (es pot demanar per fax amb passaport si declara correctament la responsable party). Per obrir banca a Mercury o Wise Business, normalment no. Per a Stripe, Slash o passarel·les que demanen W-9 del responsible party, sí. Tramitem l'ITIN quan una passarel·la el bloqueja, no "per si de cas".
 
-**Què passa si perdo el termini del 15 d'abril del 5472?** Si presentes el Form 7004 abans del 15 d'abril, guanyes extensió automàtica fins al 15 d'octubre i no hi ha sanció. Si deixes passar el 15 d'abril sense extensió, la sanció s'activa: **25.000 USD per formulari per any**, més 25.000 USD per cada 30 dies addicionals si l'IRS notifica i continues sense presentar. És la sanció més cara i previsible del calendari federal — per això la pròrroga és automàtica al servei Exentax.
+**Què passa si perdo el termini del 15 d'abril del 5472?** Si presenta el Form 7004 abans del 15 d'abril, guanya extensió automàtica fins al 15 d'octubre i no hi ha sanció. Si deixa passar el 15 d'abril sense extensió, la sanció s'activa: **25.000 USD per formulari per any**, més 25.000 USD per cada 30 dies addicionals si l'IRS notifica i continua sense presentar. És la sanció més cara i previsible del calendari federal — per això la pròrroga és automàtica al servei Exentax.
 
 **La LLC m'obliga a presentar res a Catalunya, Espanya o Andorra?** Sí: com a resident fiscal europeu és vostè qui tributa per les rendes atribuïdes o distribuïdes de la LLC. A Catalunya/Espanya, Model 720 (béns a l'estranger) si els saldos l'activen, Model 232 (operacions vinculades) si factura a la seva pròpia LLC, Model 721 (cripto) si correspon, IRPF amb atribució o dividend; a Andorra, declaració d'IRPF amb participació en societat estrangera i CRS aplicable. Coordinem aquesta part amb el seu assessor de residència perquè les dues bandes encaixin.
 
