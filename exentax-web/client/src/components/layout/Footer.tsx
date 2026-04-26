@@ -81,7 +81,7 @@ function NewsletterSignup() {
         </form>
       )}
       {status === "error" && (
-        <p className="text-sm text-red-700 mt-2" data-testid="text-newsletter-error">{t("footer.newsletter.error")}</p>
+        <p className="text-sm text-[var(--error)] mt-2" data-testid="text-newsletter-error">{t("footer.newsletter.error")}</p>
       )}
     </div>
   );

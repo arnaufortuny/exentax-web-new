@@ -33,7 +33,7 @@ Les codes les plus courants pour les freelances du numérique:
 Vérifiez que votre code reflète votre activité réelle. S'il est incorrect, le changer est simple (Modelo 036/037).
 ### Erreur 3: Ne pas appliquer correctement le tarif réduit pour les auto-entrepreneurs/travailleurs indépendants
 
-Le tarif réduit pour les nouveaux auto-entrepreneurs/travailleurs indépendants permet de payer **80 €/mois pendant les 12 premiers mois** (et 160 €/mois les 12 mois suivants si les revenus nets ne dépassent pas le salaire minimum). Beaucoup de freelances:
+Le tarif réduit pour les nouveaux auto-entrepreneurs/travailleurs indépendants permet de payer **80 €/mois pendant les 12 premiers mois**, prorogeable 12 mois supplémentaires au même tarif de 80 €/mois si les revenus nets restent inférieurs au salaire minimum (SMI). Beaucoup de freelances :
 
 - Ne le demandent pas lors de leur inscription
 - Ne savent pas qu'ils peuvent en bénéficier s'ils n'ont pas été inscrits comme auto-entrepreneur/travailleur indépendant au cours des 2 dernières années
@@ -116,7 +116,7 @@ Pour un freelance avec 60 000 € de chiffre d'affaires annuel:
 |-------|-------------------|
 | Ne pas déduire les dépenses | 3 000-4 000 € |
 | Code IAE incorrect | 500-1 500 € |
-| Ne pas profiter du tarif réduit | 1 800 € (première année) |
+| Ne pas profiter du tarif réduit | 1 440 € (première année, 80 €/mois vs cuota tramo 1) |
 | TVA incorrecte | Amendes de 150-600 € |
 | Acomptes provisionnels mal calculés | Majorations de 5-20 % |
 | Ignorer l'optimisation internationale | 15 000-20 000 € |

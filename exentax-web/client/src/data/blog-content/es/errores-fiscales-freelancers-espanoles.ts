@@ -35,7 +35,7 @@ Los epígrafes más habituales para freelancers digitales:
 Verifica que tu epígrafe refleja tu actividad real. Si estás en el incorrecto, cambiarlo es sencillo (Modelo 036/037).
 ### Error 3: No aplicar la tarifa plana de autónomos correctamente
 
-La tarifa plana de autónomos para nuevas altas permite pagar **80€/mes durante los primeros 12 meses** (y 160€/mes los siguientes 12 si los ingresos netos no superan el SMI). Muchos freelancers:
+La tarifa plana de autónomos para nuevas altas permite pagar **80€/mes durante los primeros 12 meses**, prorrogable otros 12 meses adicionales con la misma cuota de 80€/mes si los rendimientos netos siguen por debajo del SMI. Muchos freelancers:
 
 - No la solicitan al darse de alta
 - No saben que pueden beneficiarse si no han estado de alta en autónomos en los últimos 2 años
@@ -118,7 +118,7 @@ Para un freelancer con 60.000€ de facturación anual:
 |-------|-------------------|
 | No deducir gastos | 3.000-4.000€ |
 | Epígrafe IAE incorrecto | 500-1.500€ |
-| No aprovechar tarifa plana | 1.800€ (primer año) |
+| No aprovechar tarifa plana | 1.440€ (primer año, 80€/mes vs cuota tramo 1) |
 | IVA incorrecto | Multas de 150-600€ |
 | Pagos fraccionados mal | Recargos del 5-20% |
 | Ignorar optimización internacional | 15.000-20.000€ |

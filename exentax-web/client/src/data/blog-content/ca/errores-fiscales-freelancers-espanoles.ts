@@ -33,7 +33,7 @@ Els epígrafs més habituals per a freelancers digitals:
 Verifica que el teu epígraf reflecteix la teva activitat real. Si estàs en l'incorrecte, canviar-lo és senzill (Model 036/037).
 ### Error 3: No aplicar la tarifa plana d'autònom/treballador per compte propi correctament
 
-La tarifa plana d'autònom/treballador per compte propi per a noves altes permet pagar **80€/mes durant els primers 12 mesos** (i 160€/mes els següents 12 si els ingressos nets no superen l'SMI). Molts freelancers:
+La tarifa plana d'autònom/treballador per compte propi per a noves altes permet pagar **80€/mes durant els primers 12 mesos**, prorrogable 12 mesos addicionals a la mateixa quota de 80€/mes si els rendiments nets continuen per sota del salari mínim (SMI). Molts freelancers:
 
 - No la sol·liciten en donar-se d'alta
 - No saben que poden beneficiar-se si no han estat d'alta com a autònoms/treballadors per compte propi en els últims 2 anys
@@ -115,7 +115,7 @@ Per a un freelancer amb 60.000€ de facturació anual:
 |-------|-------------------|
 | No deduir despeses | 3.000-4.000€ |
 | Epígraf IAE incorrecte | 500-1.500€ |
-| No aprofitar tarifa plana | 1.800€ (primer any) |
+| No aprofitar tarifa plana | 1.440€ (primer any, 80€/mes vs quota tram 1) |
 | IVA incorrecte | Multes de 150-600€ |
 | Pagaments fraccionats malament | Recàrrecs del 5-20% |
 | Ignorar optimització internacional | 15.000-20.000€ |

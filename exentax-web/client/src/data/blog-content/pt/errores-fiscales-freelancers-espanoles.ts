@@ -33,7 +33,7 @@ As epígrafes mais habituais para freelancers digitais:
 Verifica que a tua epígrafe reflete a tua atividade real. Se estás na incorreta, alterá-la é simples (Modelo 036/037).
 ### Erro 3: Não aplicar a tarifa plana de trabalhadores independentes/autónomos corretamente
 
-A tarifa plana de trabalhadores independentes/autónomos para novas altas permite pagar **80€/mês durante os primeiros 12 meses** (e 160€/mês nos seguintes 12 se os rendimentos líquidos não superarem o SMI). Muitos freelancers:
+A tarifa plana de trabalhadores independentes/autónomos para novas altas permite pagar **80€/mês durante os primeiros 12 meses**, prorrogável outros 12 meses adicionais à mesma taxa de 80€/mês se os rendimentos líquidos continuarem abaixo do salário mínimo (SMI). Muitos freelancers:
 
 - Não a solicitam ao registarem-se
 - Não sabem que podem beneficiar-se se não estiveram registados como trabalhadores independentes/autónomos nos últimos 2 anos
@@ -115,7 +115,7 @@ Para um freelancer com 60.000€ de faturação anual:
 |-------|-------------------|
 | Não deduzir despesas | 3.000-4.000€ |
 | Epígrafe IAE incorreta | 500-1.500€ |
-| Não aproveitar tarifa plana | 1.800€ (primeiro ano) |
+| Não aproveitar tarifa plana | 1.440€ (primeiro ano, 80€/mês vs cota tramo 1) |
 | IVA incorreto | Multas de 150-600€ |
 | Pagamentos fracionados mal feitos | Sobretaxas de 5-20% |
 | Ignorar otimização internacional | 15.000-20.000€ |

@@ -33,7 +33,7 @@ Die häufigsten Kategorien für digitale Freiberufler:
 Überprüfen Sie, ob Ihre Kategorie Ihre tatsächliche Tätigkeit widerspiegelt. Wenn Sie in der falschen sind, ist ein Wechsel unkompliziert (Modelo 036/037).
 ### Fehler 3: Den Gründerrabatt für Selbstständige nicht korrekt anwenden
 
-Der Gründerrabatt für Selbstständige (tarifa plana) bei Neuanmeldungen ermöglicht es, **80 €/Monat während der ersten 12 Monate** zu zahlen (und 160 €/Monat in den folgenden 12 Monaten, wenn das Nettoeinkommen den Mindestlohn nicht übersteigt). Viele Freiberufler:
+Der Gründerrabatt für Selbstständige (tarifa plana) bei Neuanmeldungen ermöglicht es, **80 €/Monat während der ersten 12 Monate** zu zahlen, mit Verlängerung um weitere 12 Monate zum gleichen Satz von 80 €/Monat, sofern das Nettoeinkommen weiterhin unter dem Mindestlohn (SMI) liegt. Viele Freiberufler:
 
 - Beantragen ihn nicht bei der Anmeldung
 - Wissen nicht, dass sie davon profitieren können, wenn sie in den letzten 2 Jahren nicht als Selbstständige gemeldet waren
@@ -115,7 +115,7 @@ Für einen Freiberufler mit 60.000 € Jahresumsatz:
 |-------|-------------------|
 | Ausgaben nicht absetzen | 3.000–4.000 € |
 | Falsche IAE-Kategorie | 500–1.500 € |
-| Gründerrabatt nicht nutzen | 1.800 € (erstes Jahr) |
+| Gründerrabatt nicht nutzen | 1.440 € (erstes Jahr, 80 €/Monat vs Stufe-1-Beitrag) |
 | Falsche Umsatzsteuer | Bußgelder von 150–600 € |
 | Falsche Vorauszahlungen | Zuschläge von 5–20 % |
 | Internationale Optimierung ignorieren | 15.000–20.000 € |
