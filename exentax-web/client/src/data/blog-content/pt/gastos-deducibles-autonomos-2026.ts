@@ -27,6 +27,56 @@ Os erros que mais sanções geram: pretender deduzir refeições familiares como
 
 O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Lei 35/2006 do IRPF</a> e nas consultas vinculativas da <a href="https://petete.tributos.hacienda.gob.es/">Direção Geral de Tributos espanhola</a>. Documentar bem hoje poupa muito amanhã: cada fatura arquivada é um euro a menos para o fisco.
 
+## Tabela detalhada de despesas dedutíveis por categoria
+
+| Categoria | Exemplos | Limite / Condição |
+|---|---|---|
+| **Serviços habitação-escritório** | Eletricidade, água, gás, internet, condomínio | 30% do gasto sobre m² afetos (declarado em registo IAE) |
+| **Veículo e deslocações** | Combustível, parqueamento, portagens, manutenção | 50% se uso misto profissional/pessoal; 100% se uso 100% profissional documentado |
+| **Material e escritório** | Computador, software, impressora, papelaria | 100% dedutível. Bens >300€ amortizam-se segundo tabela IRPF |
+| **Formação** | Cursos, livros técnicos, certificações | 100% se diretamente relacionados com a atividade |
+| **Serviços profissionais** | Consultoria fiscal, advogado, notário, contabilista | 100% dedutível com fatura |
+| **Quotas e ordens** | Ordem profissional, associações setoriais | 100% dedutível |
+| **Marketing e publicidade** | Anúncios online, alojamento, domínio, design | 100% dedutível |
+| **Comissões bancárias** | Conta profissional, TPA, Stripe, PayPal | 100% dedutível se conta profissional |
+| **Refeições e ajudas custo** | Refeições com clientes (justificadas) | Até 26,67€/dia em Espanha, 48,08€ estrangeiro. Justificação obrigatória |
+| **Seguros profissionais** | Responsabilidade civil, saúde privada (limite) | 100% RC profissional; saúde até 500€/ano (1.500€ com deficiência) |
+| **Quota autónomos** | RETA mensal | 100% dedutível como despesa da atividade |
+| **Mutualidade alternativa** | Mutualidade de profissão liberal | 100% se substitui o RETA, até ao limite anual |
+
+## Casos práticos: o que deduzir e o que não
+
+**Caso 1. Programador com escritório em casa.** Vive num apartamento de 80 m² com um escritório de 12 m² destinado à atividade (15% afeto). Serviços mensais: 200€ (eletricidade + gás + internet). Dedução: 200 × 0,15 × 0,30 = 9€/mês = 108€/ano. Se também declara renda proporcional, adiciona 15% da renda. Documentação obrigatória: registo IAE com percentagem afeta e faturas de serviços em seu nome.
+
+**Caso 2. Consultora com carro profissional.** Compra um Tesla Model 3 por 47.000€ uso 100% profissional (visitas a clientes, sem outro carro). Dedutível: amortização a 8 anos (5.875€/ano), seguro completo, manutenção, parqueamento aeroporto durante viagens, portagens. A AEAT exige livro de viagens profissionais com quilometragem e motivo. Sem livro, risco de reclassificação a uso misto (50%).
+
+**Caso 3. Designer gráfica com coworking.** Adesão coworking 250€/mês, software (Adobe + Figma) 80€/mês, formação anual 1.500€, quota autónomos 230€/mês. Total dedutível anual: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Reduz a base tributável IRPF antes de aplicar tarifas.
+
+## Erros típicos em deduções
+
+| Erro | Consequência |
+|---|---|
+| Deduzir refeições familiares como ajudas custo | Sanção + acréscimo + reclassificação |
+| Combustível pessoal sem livro de viagens | Redução a 50% no melhor caso, 0% se flagrante |
+| Roupa pessoal como "uniforme" | Não dedutível salvo serigrafia corporativa permanente |
+| Presentes a clientes >1% volume negócios | Excesso não dedutível |
+| Despesas sem fatura (talão simples) | Não dedutível, exigir fatura completa |
+| Telemóvel 100% profissional sem segundo pessoal | Redução a uso misto 50% |
+
+## Perguntas frequentes
+
+**Posso deduzir o ginásio?** Apenas se justificar que é necessário para a atividade (modelos, apresentadores TV, desportistas profissionais). Para o resto das profissões, não dedutível mesmo com melhor saúde.
+
+**E a formação universitária?** Se diretamente relacionada com a sua atividade e para ampliar conhecimentos profissionais, sim. Mestrados executivos costumam aceitar-se. Uma segunda licenciatura não relacionada, não.
+
+**Os investimentos em cripto são despesa?** Não. São investimentos, não despesas. As perdas ou ganhos declaram-se na base do aforro do IRPF, não em rendimentos de atividade económica.
+
+**O meu seguro de saúde privado?** Até 500€/ano (1.500€ com deficiência) por cada membro do agregado familiar incluído. Se a sua quota é 100€/mês (1.200€/ano), deduz os primeiros 500€.
+
+**Posso deduzir um curso pago adiantadamente para 3 anos?** Não. A despesa imputa-se ao exercício em que se devenga o serviço. Se for um curso de 3 anos, deduz 1/3 cada ano, não tudo no primeiro exercício.
+
+**O que acontece se perder uma fatura?** A AEAT admite reconstrução via extrato bancário + certificado do fornecedor + declaração sob compromisso de honra. O processo é trabalhoso e rejeita-se com frequência. Melhor: arquivo digital (Drive, Notion, gestor) atualizado mensalmente.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

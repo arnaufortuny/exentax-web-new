@@ -27,6 +27,44 @@ Per a freelancers els clients dels quals són majoritàriament empreses dels EUA
 
 El marc normatiu està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Llei 37/1992 de l'IVA</a> i a la <a href="https://eur-lex.europa.eu/legal-content/CA/TXT/?uri=CELEX:32006L0112">Directiva 2006/112/CE</a>. Per validar VIES en temps real pots fer servir el <a href="https://ec.europa.eu/taxation_customs/vies/">portal de la Comissió Europea</a>.
 
+## Casos pràctics amb números reals
+
+**Cas 1. Consultor TI espanyol amb client francès.** Factures un projecte de 5.000€ a una empresa amb seu a París. El teu NIF-IVA espanyol està actiu a VIES, el del client també. Emets factura per 5.000€ exactes amb la menció "operació amb inversió del subjecte passiu, art. 84 LIVA". Al model 349 declares 5.000€ com a prestació de serveis intracomunitaris; al model 303, casella 59 (lliuraments intracomunitaris). El client francès autoliquida IVA francès. Tu no ingresses IVA a Espanya per aquesta operació; sí declares l'ingrés a l'IRPF.
+
+**Cas 2. Dissenyadora web amb client alemany sense VIES vàlid.** El client alemany figura com a persona física, no té número d'IVA registrat. L'operació es considera B2C: localització a la seu del prestador (Espanya) fins al llindar OSS, després a la seu del client. Si les teves vendes B2C UE són inferiors a 10.000€/any, repercuteixes IVA espanyol al 21%. Si superes el llindar, tributes a Alemanya al 19% via OSS. Decisió clau: comprovar VIES sempre abans d'emetre.
+
+**Cas 3. Agència de màrqueting amb clients mixtos B2B Espanya + UE.** El 70% de la facturació és Espanya (amb IVA 21%), el 30% UE B2B (sense IVA per inversió subjecte passiu). Resultat típic: la prorata de l'IVA suportat es calcula sobre el total. L'AEAT permet operació intracomunitària amb dret a deducció, així que l'IVA suportat en despeses generals (lloguer, software, eines) es dedueix íntegrament. Quadrat obligatori entre 303 i 349 cada trimestre.
+
+## Errors que disparen inspeccions
+
+| Error | Conseqüència |
+|---|---|
+| Emetre sense VIES vàlid del client | AEAT reclassifica com B2C → IVA espanyol + sanció |
+| No declarar al model 349 una operació de 5.000€ | Sanció per omissió + recàrrec |
+| Models 303 i 349 amb xifres diferents | Paral·lela immediata, sol acabar en inspecció |
+| Oblidar la menció "reverse charge" a la factura | Client UE rebutja la factura, retard pagament |
+| Confondre B2C amb B2B en plataformes digitals | OSS mal complimentat → correccions amb recàrrecs |
+
+## Preguntes freqüents
+
+**He de cobrar IVA si el meu client és una empresa del Regne Unit post-Brexit?** No. El Regne Unit està fora del règim intracomunitari UE. L'operació es tracta com a exportació de serveis fora de la UE: factura sense IVA amb la menció "operació no subjecta art. 69.Uno LIVA". No es declara al model 349, sí al 303 (casella específica d'exportacions).
+
+**Quan és obligatori donar-se d'alta al ROI?** Quan vas a fer la primera operació intracomunitària. L'AEAT pot trigar diverses setmanes a validar l'alta i, fins que el teu NIF-IVA aparegui a VIES, no pots emetre factures amb inversió subjecte passiu. Convé sol·licitar l'alta amb marge abans del primer servei.
+
+**I si el meu client UE em reté IVA per error?** Passa amb freqüència: clients que no tenen clar el règim i apliquen IVA local pensant que l'operació és B2C. Solució: emetre nota de crèdit, retornar l'IVA cobrat i educar el client sobre el reverse charge. Conservar correspondència escrita per si l'AEAT pregunta.
+
+**La LLC americana m'allibera del model 349?** Si la LLC és no resident fiscal a Espanya, sí. La LLC factura des dels EUA i no presenta models espanyols (sí compliance americà: 5472, BOI). El resident fiscal espanyol declara els beneficis nets de la LLC al seu IRPF com a rendiment d'activitat econòmica a l'estranger. Redueix dràsticament el paperam de l'IVA UE.
+
+## Checklist operatiu abans de cada factura
+
+1. ✓ Comprovar VIES del client al <a href="https://ec.europa.eu/taxation_customs/vies/">portal CE</a> i guardar el justificant.
+2. ✓ Verificar que el teu NIF-IVA espanyol està actiu (consulta a la seu AEAT).
+3. ✓ Confirmar que el servei entra a la regla general (art. 69 LIVA): no immobles, no transport passatgers, no esdeveniments presencials.
+4. ✓ Incloure menció "operació amb inversió subjecte passiu, art. 84 LIVA".
+5. ✓ Cobrar l'import sense IVA, conservar lliurables i comunicació.
+6. ✓ Traslladar al model 349 trimestral o mensual.
+7. ✓ Quadrar el resum amb el model 303 i revisar coherència anual amb el model 390.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

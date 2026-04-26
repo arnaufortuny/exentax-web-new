@@ -26,6 +26,56 @@ Els honoraris d'assessoria fiscal, comptable i laboral són íntegrament deduïb
 Els errors que més sancions generen: pretendre deduir menjars familiars com a dietes, gasolina personal sense ús professional documentat, roba personal facturada com a uniforme sense ser-ho, regals a clients superiors a l'1% de la xifra de negoci i, sobretot, despeses sense factura. Si la teva activitat és 100% digital, una <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC americana</a> permet documentar despeses amb criteris nord-americans (ordinary and necessary), bastant més amplis i flexibles que els espanyols, mantenint la traçabilitat completa per a la teva declaració a residència.
 El criteri oficial sobre despeses deduïbles està recollit a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Llei 35/2006 de l'IRPF</a> i a les consultes vinculants de la <a href="https://petete.tributos.hacienda.gob.es/">DGT</a>. Documentar bé avui estalvia molt demà: cada factura arxivada és un euro menys per a Hisenda.
 
+## Taula detallada de despeses deduïbles per categoria
+
+| Categoria | Exemples | Límit / Condició |
+|---|---|---|
+| **Subministraments habitatge-oficina** | Llum, aigua, gas, internet, comunitat | 30% de la despesa sobre m² afectes (declarat en alta IAE) |
+| **Vehicle i desplaçaments** | Combustible, pàrquing, peatges, manteniment | 50% si ús mixt professional/personal; 100% si ús 100% professional documentat |
+| **Material i oficina** | Ordinador, software, impressora, papereria | 100% deduïble. Béns >300€ s'amortitzen segons taula IRPF |
+| **Formació** | Cursos, llibres tècnics, certificacions | 100% si estan directament relacionats amb l'activitat |
+| **Serveis professionals** | Assessoria fiscal, advocat, notari, gestoria | 100% deduïble amb factura |
+| **Quotes i col·legis** | Col·legi professional, associacions sectorials | 100% deduïble |
+| **Màrqueting i publicitat** | Anuncis online, hosting, domini, disseny | 100% deduïble |
+| **Comissions bancàries** | Compte professional, TPV, Stripe, PayPal | 100% deduïble si compte professional |
+| **Menjars i dietes** | Menjars amb clients (justificats) | Fins a 26,67€/dia Espanya, 48,08€ estranger. Justificació obligatòria |
+| **Assegurances professionals** | Responsabilitat civil, salut privada (límit) | 100% RC professional; salut fins a 500€/any (1.500€ amb discapacitat) |
+| **Quota autònoms** | RETA mensual | 100% deduïble com a despesa de l'activitat |
+| **Mutualitat alternativa** | Mutualitat de professió liberal | 100% si substitueix RETA, fins al límit anual |
+
+## Casos pràctics: què deduir i què no
+
+**Cas 1. Programador amb oficina a casa.** Vius en pis de 80 m² amb un despatx de 12 m² destinat a l'activitat (15% afecte). Subministraments mensuals: 200€ (llum + gas + internet). Deducció: 200 × 0,15 × 0,30 = 9€/mes = 108€/any. Si declares també el lloguer proporcional, afegeixes 15% del lloguer. Documentació obligatòria: alta d'IAE amb percentatge afecte i factures de subministraments al teu nom.
+
+**Cas 2. Consultora amb cotxe professional.** Compres un Tesla Model 3 per 47.000€ ús 100% professional (visites a clients, no tens un altre cotxe). Deduïble: amortització a 8 anys (5.875€/any), assegurança completa, manteniment, pàrquing aeroport durant viatges, peatges. L'AEAT exigeix llibre de viatges professionals amb quilometratge i motiu. Sense llibre, risc de reclassificació a ús mixt (50%).
+
+**Cas 3. Dissenyadora gràfica amb coworking.** Subscripció coworking 250€/mes, software (Adobe + Figma) 80€/mes, formació anual 1.500€, quota autònoms 230€/mes. Total deduïble anual: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Redueix la base imposable IRPF abans d'aplicar trams.
+
+## Errors típics en deduccions
+
+| Error | Conseqüència |
+|---|---|
+| Deduir menjars familiars com a dietes | Sanció + recàrrec + reclassificació |
+| Combustible personal sense llibre de viatges | Reducció al 50% en el millor cas, 0% si flagrant |
+| Roba personal com a "uniforme" | No deduïble llevat de serigrafia corporativa permanent |
+| Regals a clients >1% xifra negocis | Excés no deduïble |
+| Despeses sense factura (tiquet simple) | No deduïble, exigir factura completa |
+| Mòbil 100% professional sense segon personal | Reducció a ús mixt 50% |
+
+## Preguntes freqüents
+
+**Puc deduir el gimnàs?** Només si justifiques que és necessari per a l'activitat (models, presentadors TV, esportistes professionals). Per a la resta de professions, no és deduïble encara que mantinguis millor salut.
+
+**I la formació universitària?** Si està relacionada directament amb la teva activitat i és per ampliar coneixements professionals, sí. Màsters executius solen acceptar-se. Una segona carrera no relacionada, no.
+
+**Les inversions en cripto són despesa?** No. Són inversions, no despeses. Les seves pèrdues o guanys es declaren a la base de l'estalvi de l'IRPF, no en rendiments d'activitat econòmica.
+
+**La meva assegurança de salut privada?** Fins a 500€/any (1.500€ amb discapacitat) per cada membre de la unitat familiar inclòs. Si la teva quota és 100€/mes (1.200€/any), dedueixes els primers 500€.
+
+**Puc deduir un curs pagat per avançat a 3 anys?** No. La despesa s'imputa a l'exercici en què es meriti el servei. Si és un curs de 3 anys, dedueixes 1/3 cada any, no tot al primer exercici.
+
+**Què passa si perdo una factura?** Hisenda admet reconstrucció mitjançant extracte bancari + certificat del proveïdor + declaració jurada. El procés és feixuc i es rebutja amb freqüència. Millor: arxiu digital (Drive, Notion, gestor) actualitzat mensualment.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

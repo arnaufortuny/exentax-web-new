@@ -26,6 +26,59 @@ La SL compensa quan es compleixen diverses condicions alhora: facturació anual 
 Per a perfils 100% digitals amb clients majoritàriament fora d'Espanya, una <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC americana</a> ben gestionada sol guanyar el partit: cost anual molt menor (1.500-2.500 euros davant 6.000-9.000 de la SL), 0% federal als EUA per a no residents, i tributació únicament en residència per atribució de rendes, sense doble imposició societària. La SL continua guanyant si el teu negoci és físicament espanyol, amb clients locals o amb necessitat de contractar empleats a Espanya. La <a href="/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia">diferència entre LLC i Corporation</a> també importa segons el teu pla.
 El règim jurídic està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">Llei de Societats de Capital</a> i el règim fiscal a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Llei 27/2014 de l'Impost sobre Societats</a>. Si et planteges una SL, calcula el cost total combinat a tres anys abans de constituir.
 
+## Taula comparativa SL vs LLC americana vs autònom
+
+| Concepte | Autònom | SL Espanya | LLC EUA (no resident) |
+|---|---|---|---|
+| **Constitució** | Gratis (alta IAE) | 600-1.500€ + 3.000€ capital + notari | des de 2.000€ |
+| **Manteniment anual** | Quota RETA + IRPF | 6.000-9.000€ (assessoria + comptes + ISC) | des de 1.500€ |
+| **Tributació beneficis** | IRPF 19-47% progressiu | IS 23% (reduïda) o 25% (general) | 0% federal als EUA + IRPF en residència |
+| **Doble imposició** | No (pass-through) | Sí (IS + IRPF dividends) | No (atribució de rendes) |
+| **Reinversió beneficis** | Complexa (despesa IRPF) | Eficient (reté al 23-25%) | Complexa (atribució anual) |
+| **Responsabilitat** | Patrimoni personal complet | Limitada al capital social | Limitada |
+| **Empleats** | Pot contractar | Sí, amb cotitzacions SS | No (a Espanya, via contracte extern) |
+| **Tancament/dissolució** | Baixa IAE immediata | 6-12 mesos + notari + 600-1.500€ | 200-400€ + Operating Agreement |
+| **Imatge comercial** | Professional individual | Empresa nacional | Marca global EUA |
+| **Ideal per a** | Inici o <80k€/any | Negoci físic ES, equip, retenir beneficis | Digital remot, clients EUA/UE B2B |
+
+## Casos pràctics: quan SL vs LLC compensa
+
+**Cas 1. Consultor digital, 70.000€/any, client únic EUA.** Millor LLC: 0% federal, IRPF a Espanya sobre benefici net. SL aquí perd per costos fixos alts (6.000-9.000€) i doble tributació.
+
+**Cas 2. Agència màrqueting 4 socis, 250.000€/any, oficina Barcelona, 3 empleats.** Millor SL: necessites figura mercantil per a clients corporates ES, possibilitat de retenir beneficis a IS 23%, contractar plantilla amb cotització SS, distribució equilibrada de socis. LLC aquí no encaixa per barrera operativa amb clients locals.
+
+**Cas 3. E-commerce físic Espanya, 150.000€/any.** Millor SL: estoc, magatzem, devolucions, IVA intracomunitari, contractes amb missatgeria. LLC complica logística i comptabilitat de béns físics.
+
+**Cas 4. Trader cripto, 50-200k€/any, viu entre Espanya i Andorra.** Millor LLC per a asset protection + decisió de residència: amb LLC manté flexibilitat i, si decideix residir Andorra/Portugal, opera la LLC des del nou règim sense reestructurar.
+
+## Costos ocults d'una SL que pocs calculen
+
+| Cost | Import anual aprox |
+|---|---:|
+| Assessoria fiscal completa | 2.400-4.800€ |
+| Comptes anuals dipositats Registre Mercantil | 100-200€ |
+| Auditoria (si aplica límits art. 263 LSC) | 1.500-4.000€ |
+| Llibres oficials legalitzats | 50€ |
+| Model 200 IS + retencions | inclòs en assessoria |
+| Cotització autònom administrador | 4.200-7.200€ |
+| Assegurança RC professional empresa | 600-1.500€ |
+| Domiciliació social (si no oficina pròpia) | 600-1.200€ |
+| **Total típic negoci digital** | **~9.000-18.000€/any** |
+
+Per a un autònom facturant 60.000€/any, el canvi a SL freqüentment redueix ingressos nets durant 2-3 anys fins que la facturació passa de 100.000€/any.
+
+## Preguntes freqüents
+
+**El capital mínim SL és realment 1€ o continua sent 3.000€?** La Llei de creació i creixement d'empreses (juliol 2022) permet constituir SL amb capital mínim 1€. PERÒ durant els primers anys: els socis responen personalment fins a 3.000€ si la SL no arriba a tenir 3.000€ de fons propis. I molts bancs continuen exigint capital efectiu de 3.000€ per obrir compte. A la pràctica, continua convenint aportar 3.000€.
+
+**Tributo doble si em pago dividends?** Sí. La SL tributa al 23-25% (IS), i en cobrar dividends pagues una altra vegada al teu IRPF base de l'estalvi (19-28% segons tram). Total efectiu combinat: 38-46% segons situació. Per això, retirar dividends de SL petita sol ser ineficient vs autònom IRPF.
+
+**Puc passar d'autònom a SL sense tancament?** Sí, però amb costos de transició: aportació de l'activitat com a branca de negoci (aportació no dinerària que requereix informe d'expert independent, despeses notarials addicionals, valoració de fons de comerç). Cost típic: 2.000-4.000€ de transició, que s'amortitzen només si la SL et dura anys.
+
+**Puc tenir una SL I una LLC?** Sí, són estructures compatibles. Patró habitual: SL per a operació local Espanya, LLC per a clients EUA/UE B2B. Atenció a transferències entre les dues: poden constituir operacions vinculades amb obligacions documentals (Model 232).
+
+**Quan convé tancar una SL que ja no funciona?** Com més aviat, perquè la SL inactiva continua costant ~6.000€/any en manteniment. Si fa 6+ mesos sense activitat, calcula cost de tancament vs mantenir-la "per si de cas". El tancament dura 6-12 mesos i uns 600-1.500€.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

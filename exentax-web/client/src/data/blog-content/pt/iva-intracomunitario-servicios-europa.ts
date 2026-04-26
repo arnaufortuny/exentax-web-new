@@ -27,6 +27,44 @@ Para freelancers cujos clientes são maioritariamente empresas americanas ou de 
 
 O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Lei espanhola 37/1992 do IVA</a> e na <a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32006L0112">Diretiva 2006/112/CE</a>. Para validar VIES em tempo real use o <a href="https://ec.europa.eu/taxation_customs/vies/">portal da Comissão Europeia</a>.
 
+## Casos práticos com números reais
+
+**Caso 1. Consultor TI espanhol com cliente francês.** Fatura um projeto de 5.000€ a uma empresa sediada em Paris. O seu NIF-IVA espanhol está ativo no VIES, o do cliente também. Emite uma fatura de exatamente 5.000€ com a menção "operação com inversão do sujeito passivo, art. 84 LIVA". No formulário 349 espanhol declara 5.000€ como prestação de serviços intracomunitários; no formulário 303, casa 59 (entregas intracomunitárias). O cliente francês autoliquida IVA francês. Não paga IVA em Espanha por esta operação; declara o rendimento no IRPF.
+
+**Caso 2. Designer web com cliente alemão sem VIES válido.** O cliente alemão aparece como pessoa singular, sem número de IVA registado. A operação é considerada B2C: localização na sede do prestador (Espanha) até ao limiar OSS, depois na sede do cliente. Se as suas vendas B2C UE anuais forem inferiores a 10.000€, cobra IVA espanhol a 21%. Acima do limiar, tributa na Alemanha a 19% via OSS. Decisão chave: verificar VIES sempre antes de emitir.
+
+**Caso 3. Agência marketing com clientes mistos Espanha B2B + UE.** 70% da faturação é Espanha (com IVA 21%), 30% UE B2B (sem IVA por inversão sujeito passivo). Resultado típico: o pro rata do IVA suportado calcula-se sobre o total. A AEAT permite operações intracomunitárias com direito a dedução, pelo que o IVA suportado em despesas gerais (renda, software, ferramentas) é integralmente dedutível. Reconciliação obrigatória entre 303 e 349 cada trimestre.
+
+## Erros que desencadeiam inspeções
+
+| Erro | Consequência |
+|---|---|
+| Emitir sem VIES válido do cliente | AEAT reclassifica como B2C → IVA espanhol + sanção |
+| Não declarar uma operação de 5.000€ no formulário 349 | Sanção por omissão + acréscimo |
+| Formulários 303 e 349 com valores diferentes | Avaliação paralela imediata, frequentemente inspeção |
+| Esquecer a menção "reverse charge" na fatura | Cliente UE rejeita a fatura, atraso pagamento |
+| Confundir B2C com B2B em plataformas digitais | OSS mal preenchido → correções com acréscimos |
+
+## Perguntas frequentes
+
+**Tenho de cobrar IVA se o meu cliente for uma empresa do Reino Unido pós-Brexit?** Não. O Reino Unido está fora do regime intracomunitário UE. A operação é tratada como exportação de serviços para fora da UE: fatura sem IVA com a menção "operação não sujeita art. 69.Uno LIVA". Não declarada no 349, mas reportada no 303 (campo específico exportações).
+
+**Quando é obrigatória a inscrição no ROI?** Antes da primeira operação intracomunitária. A AEAT pode demorar várias semanas a validar a inscrição, e enquanto o seu NIF-IVA não aparecer no VIES, não pode emitir faturas com inversão sujeito passivo. Solicite com margem antes do primeiro serviço.
+
+**E se o meu cliente UE me retiver IVA por engano?** Frequente: clientes que não conhecem o regime aplicam IVA local pensando que a operação é B2C. Solução: emitir nota de crédito, devolver o IVA cobrado, educar o cliente sobre o reverse charge. Conservar correspondência escrita caso a AEAT pergunte.
+
+**Uma LLC americana liberta-me do formulário 349?** Se a LLC for não residente fiscal em Espanha, sim. A LLC fatura desde os EUA e não apresenta formulários espanhóis (apresenta compliance americano: 5472, BOI). O residente fiscal espanhol declara os lucros líquidos da LLC no IRPF como rendimentos de atividade no estrangeiro. Reduz drasticamente a burocracia IVA UE.
+
+## Lista operacional antes de cada fatura
+
+1. ✓ Verificar o VIES do cliente no <a href="https://ec.europa.eu/taxation_customs/vies/">portal CE</a> e guardar o comprovativo.
+2. ✓ Verificar que o seu NIF-IVA espanhol está ativo (consultar na sede AEAT).
+3. ✓ Confirmar que o serviço entra na regra geral (art. 69 LIVA): não imobiliário, não transporte de passageiros, não eventos presenciais.
+4. ✓ Incluir menção "operação com inversão sujeito passivo, art. 84 LIVA".
+5. ✓ Cobrar o montante sem IVA, conservar entregáveis e comunicação.
+6. ✓ Transferir para o formulário 349 trimestral ou mensal.
+7. ✓ Conciliar o resumo com o formulário 303 e rever coerência anual com o formulário 390.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

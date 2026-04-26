@@ -27,6 +27,72 @@ Els errors més comuns: aplicar el 7% sense haver comunicat formalment al pagado
 
 Les normes detallades de retencions estan al Reglament de l'IRPF (RD 439/2007, accessible al <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). L'AEAT ofereix simulador de retencions a la seva <a href="https://sede.agenciatributaria.gob.es/">seu electrònica</a>; convé revisar-lo cada inici d'any.
 
+## Casos pràctics: com apareix la retenció en factura
+
+**Cas 1. Dissenyador professional amb client empresa.** Factura de 2.000€ a una S.L. client:
+- Base imposable: 2.000€
+- IVA 21%: 420€
+- Retenció IRPF 15%: −300€
+- **Total a cobrar: 2.120€**
+
+El client paga 2.120€ al dissenyador i declara 300€ a Hisenda al model 111 trimestral. El dissenyador reflecteix al model 130/100 que ja ha avançat 300€ d'IRPF.
+
+**Cas 2. Nou autònom (primers 3 exercicis) amb retenció reduïda.** Factura de 2.000€ amb retenció 7%:
+- Base imposable: 2.000€
+- IVA 21%: 420€
+- Retenció IRPF 7%: −140€
+- **Total a cobrar: 2.280€**
+
+Important: l'autònom ha de comunicar formalment al pagador la seva situació de nou autònom mitjançant escrit signat. Sense aquesta comunicació, el pagador aplica el 15% per defecte.
+
+**Cas 3. Lloguer d'oficina per persona física.** Factura mensual de 800€ del propietari:
+- Base imposable: 800€
+- IVA 21%: 168€
+- Retenció IRPF 19%: −152€
+- **Total a pagar al propietari: 816€**
+
+L'arrendatari (autònom o empresa) presenta model 115 trimestral declarant els 152€ retinguts. El propietari recupera la retenció a la seva declaració anual d'IRPF com a rendiment del capital immobiliari.
+
+**Cas 4. Professional amb client particular.** Factura de 500€ a una persona física que contracta un servei puntual:
+- Base imposable: 500€
+- IVA 21%: 105€
+- **NO s'aplica retenció** (client particular no és retenidor)
+- **Total: 605€**
+
+## Taula de retencions per activitat
+
+| Tipus d'activitat | Retenció estàndard | Règim reduït |
+|---|---:|---:|
+| Professionals (mòdul 4 IAE) | 15% | 7% (primers 3 anys) |
+| Activitats empresarials (mòduls) | 1% | — |
+| Agrícoles i ramaderes | 2% | 1% (engreix porcí i avícola) |
+| Lloguer d'immobles | 19% | — |
+| Premis literaris i artístics | 15% | — |
+| Conferències, cursos, seminaris | 15% | — |
+| Drets d'autor | 15% | 7% (primers 3 anys) |
+| Capital mobiliari (interessos) | 19% | — |
+
+## Models AEAT rellevants
+
+- **Model 111**: declaració trimestral de retencions a professionals i treballadors. Termini: dies 1-20 del mes següent al trimestre.
+- **Model 115**: declaració trimestral de retencions per lloguers. Mateix termini.
+- **Model 190**: resum anual de les retencions del model 111 (presentació gener de l'any següent).
+- **Model 180**: resum anual de les retencions del model 115.
+- **Model 100**: declaració anual d'IRPF, on l'autònom regularitza la diferència entre retingut i finalment correspost.
+- **Model 130**: pagament fraccionat trimestral d'IRPF. Si al trimestre la suma de retencions supera el 70% del rendiment, l'autònom no presenta el model 130 aquest trimestre.
+
+## Preguntes freqüents
+
+**Què passa si el client paga la factura sense aplicar la retenció?** És un risc del client, no teu: ell hauria d'haver retingut i presentar el model 111. Si Hisenda detecta l'error, sanciona el client. L'autònom sí ha de declarar l'ingrés íntegre al seu IRPF.
+
+**Puc renunciar a la retenció reduïda del 7%?** Sí, però rarament convé. La retenció reduïda significa que avances menys IRPF; no implica menor tributació final. Si creus que tindràs un IRPF efectiu alt, convé mantenir el 7% i pagar la resta a la declaració.
+
+**Si tinc una LLC americana, hi ha retencions?** Les factures emeses des d'una LLC americana a clients espanyols no porten retenció IRPF a la factura (és retenció sobre rendiments del treball o professionals de l'autònom, no de l'estranger). El resident fiscal espanyol declara els rendiments nets de la LLC al seu IRPF com a rendiments de l'estranger, sense que el client espanyol retingui res.
+
+**I si sóc nou autònom al meu tercer any, quan passo al 15%?** Al quart exercici fiscal complet. Si et vas donar d'alta el març 2024, el primer exercici compta des de març 2024 a desembre 2024 (incomplet però compta). 2025 i 2026 són segon i tercer. Des de 2027 retenció al 15%.
+
+**Hisenda sap el que m'han retingut?** Sí. Cada client declara les retencions al model 111 trimestral amb el teu NIF. Abans de presentar la teva declaració anual, descarrega les dades fiscals a la seu AEAT i creua amb el teu propi registre: si hi ha diferències, exigeix al teu client la correcció abans del 30 de juny.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
