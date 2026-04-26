@@ -2172,7 +2172,6 @@ errors: {
       generic: "Votre profil d'entreprise numérique internationale est compatible avec une structure LLC. L'efficacité dépend de votre résidence et de votre stratégie de retraits.",
     },
     displayCurrency: "Devise d'affichage",
-    displayCurrencyNote: "Calculs internes en EUR ; conversion d'affichage indicative, pas de FX en temps réel.",
     useCasePreset: "Voulez-vous précharger un cas typique ?",
     presetLabels: {
       "freelancer-digital": "Freelance digital",

@@ -1019,7 +1019,6 @@ export type TranslationKey =
   | "calculator.insights.ecommerce"
   | "calculator.insights.generic"
   | "calculator.displayCurrency"
-  | "calculator.displayCurrencyNote"
   | "calculator.useCasePreset"
   | "calculator.presetLabels.freelancer-digital"
   | "calculator.presetLabels.consultor"

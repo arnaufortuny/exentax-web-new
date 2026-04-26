@@ -2169,7 +2169,6 @@ const en = {
       generic: "Your international digital business profile is compatible with an LLC structure. Efficiency depends on your residency and withdrawal strategy.",
     },
     displayCurrency: "Display currency",
-    displayCurrencyNote: "Internal calculations in EUR; display conversion is approximate, not real-time FX.",
     useCasePreset: "Want to preload a typical case?",
     presetLabels: {
       "freelancer-digital": "Digital freelancer",

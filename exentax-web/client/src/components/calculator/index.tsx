@@ -371,9 +371,6 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                     </button>
                   ))}
                 </div>
-                <p className="text-[10px] text-[var(--text-3)] mt-1">
-                  {t("calculator.displayCurrencyNote", { defaultValue: "Cálculos internos en EUR; conversión orientativa, no FX en tiempo real." })}
-                </p>
               </div>
               <div>
                 <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>

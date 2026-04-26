@@ -1943,7 +1943,6 @@ const ca = {
       generic: "El teu perfil de negoci digital internacional és compatible amb una estructura LLC. L'eficiència depèn de la teva residència i estratègia de retirades.",
     },
     displayCurrency: "Divisa de visualització",
-    displayCurrencyNote: "Càlculs interns en EUR; conversió orientativa, no FX en temps real.",
     useCasePreset: "Vols precarregar un cas típic?",
     presetLabels: {
       "freelancer-digital": "Freelancer digital",

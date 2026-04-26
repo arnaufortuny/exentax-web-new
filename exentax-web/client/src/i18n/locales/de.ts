@@ -2171,7 +2171,6 @@ calculator: {
       generic: "Ihr internationales digitales Geschäftsprofil ist mit einer LLC-Struktur kompatibel. Die Effizienz hängt von Ihrem Wohnsitz und Ihrer Entnahmestrategie ab.",
     },
     displayCurrency: "Anzeigewährung",
-    displayCurrencyNote: "Interne Berechnungen in EUR; Anzeigeumrechnung ist eine Schätzung, kein Echtzeit-Wechselkurs.",
     useCasePreset: "Möchten Sie einen typischen Fall vorladen?",
     presetLabels: {
       "freelancer-digital": "Digitaler Freelancer",
