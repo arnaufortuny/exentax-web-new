@@ -967,6 +967,17 @@ const ca = {
     approach: [{"label":"Analitzem","text":"La teva residència fiscal, el tipus d'ingressos que generes i la projecció del teu negoci. No busquem una solució ràpida, busquem que funcioni en el temps."},{"label":"Avaluem","text":"Com factures avui, des d'on operes, quines plataformes utilitzes i quines limitacions estàs tenint. Detectem riscos, bloquejos i oportunitats reals."},{"label":"Dissenyem","text":"L'estructura que encaixa amb tu: simple quan pot ser simple, robusta quan ha de ser-ho. I quan tot té sentit, la posem en marxa amb tu."},{"label":"Sense plantilles. Sense improvisació.","text":"Cada model digital exigeix decisions diferents. Aquí no repliquem fórmules d'internet ni estructures genèriques."}],
     items: [{"title":"La teva estructura fiscal","desc":"No es tracta d'\"obrir una empresa als EUA\". Es tracta que la teva configuració legal i fiscal estigui alineada amb com realment generes ingressos.","includes":["Anàlisi personalitzada de la teva residència fiscal i activitat","Selecció estratègica de l'estat més convenient (New Mexico, Wyoming o Delaware)","Constitució completa de la LLC","Obtenció de l'EIN federal","Estratègia de tributació internacional correctament documentada"],"footer":"L'objectiu no és pagar menys a qualsevol preu. És pagar el que correspon, sense ineficiències ni riscos innecessaris."},{"title":"La teva infraestructura financera","desc":"Una estructura sense accés bancari funcional no serveix. T'ajudem a obrir i configurar comptes a Mercury o Relay, segons el teu perfil, i deixem preparada la integració amb Stripe perquè puguis cobrar des del primer dia.","includes":["Compte operatiu en dòlars","Targetes físiques i virtuals","Integració amb Stripe per a facturació internacional","Accés complet des d'Espanya o Llatinoamèrica"],"footer":"Tot pensat perquè puguis operar amb normalitat, sense friccions ni bloquejos inesperats."},{"title":"El teu compliment legal","desc":"BOI, Form 1120 + 5472, Annual Report (segons estat)… No són formalitats menors. Són obligacions que s'han de fer bé. Ens encarreguem que la teva LLC estigui al dia i correctament presentada.","includes":["Gestió completa del compliance anual","Renovació del Registered Agent","Preparació del 1120 + 5472","Avisos abans de cada venciment","Suport continu per email i WhatsApp"],"footer":"No desapareixem després de la constitució. Seguim al teu costat perquè l'estructura funcioni en el temps."}]
   },
+  homeFinalCta: {
+    kicker: "ÚLTIM PAS",
+    title: "Llest per a la teva LLC?",
+    subtitle: "Constituïm la teva LLC americana amb compliance complet, banca operativa i suport fiscal al teu país. 100% remot, transparent, sense sorpreses.",
+    ctaBook: "Reservar consulta gratuïta",
+    ctaWhatsapp: "Parlar per WhatsApp",
+    waText: "Hola Exentax, vinc de la pàgina d'inici i vull parlar amb un assessor sobre el meu cas.",
+    stat1: "Remot",
+    stat2: "Països coberts",
+    stat3Value: "24h", stat3: "Temps resposta",
+  },
   homeFaq: {
     tag: "PREGUNTES FREQÜENTS",
     title: "Preguntes freqüents sobre optimització",

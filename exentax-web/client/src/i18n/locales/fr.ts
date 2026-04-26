@@ -993,6 +993,17 @@ const fr = {
     lackStructure: "C'est un manque de structure.",
     weDesign: "Et c'est exactement ce que nous concevons avec vous.",
   },
+  homeFinalCta: {
+    kicker: "DERNIÈRE ÉTAPE",
+    title: "Prêt pour votre LLC ?",
+    subtitle: "Nous constituons votre LLC américaine avec compliance complet, banque opérationnelle et support fiscal dans votre pays. 100 % à distance, transparent, sans surprise.",
+    ctaBook: "Réserver une consultation gratuite",
+    ctaWhatsapp: "Parler sur WhatsApp",
+    waText: "Bonjour Exentax, je viens de la page d'accueil et je veux parler à un conseiller sur mon cas.",
+    stat1: "Distance",
+    stat2: "Pays couverts",
+    stat3Value: "24h", stat3: "Délai réponse",
+  },
   homeFaq: {
     tag: "QUESTIONS FRÉQUENTES",
     title: "Questions fréquentes sur l'optimisation",

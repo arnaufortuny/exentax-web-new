@@ -15,6 +15,7 @@ import WhyUs from "@/components/sections/WhyUs";
 import Origin from "@/components/sections/Origin";
 const Testimonials = lazy(() => import("@/components/sections/Testimonials"));
 import HomeFAQ from "@/components/sections/HomeFAQ";
+import HomeFinalCTA from "@/components/sections/HomeFinalCTA";
 import { TRUSTPILOT_REVIEWS, TRUSTPILOT_AGGREGATE } from "@/data/reviewsData";
 
 function buildReviewsJsonLd(siteUrl: string) {
@@ -116,18 +117,32 @@ export default function Home() {
         keywords={t("homePage.seoKeywords")}
         jsonLd={homeJsonLd}
       />
+      {/* HOME — flujo de conversión profesional ordenado:
+        * 1. Hero: gancho inicial + 2 CTAs visibles above-the-fold
+        * 2. Problem: pain framing — ¿por qué estoy aquí?
+        * 3. ForWho: ¿soy yo? — perfiles target
+        * 4. Services: ¿qué me ofrecen? — cards estados USA
+        * 5. HowItWorks: ¿cómo funciona? — proceso paso a paso
+        * 6. BanksCarousel: social proof técnico (bancos partner)
+        * 7. WhyUs: diferenciación Exentax
+        * 8. Testimonials: social proof emocional (Trustpilot)
+        * 9. Origin: story del equipo
+        * 10. HomeFAQ: objeciones finales
+        * 11. HomeFinalCTA: cierre con stats + 2 CTAs (Liquid Glass accent)
+        */}
       <Hero />
-      <BanksCarousel />
       <Problem />
       <ForWho />
-      <HowItWorks />
       <Services />
+      <HowItWorks />
+      <BanksCarousel />
       <WhyUs />
-      <Origin />
       <Suspense fallback={<div style={{ minHeight: 320 }} />}>
         <Testimonials />
       </Suspense>
+      <Origin />
       <HomeFAQ />
+      <HomeFinalCTA />
     </article>
   );
 }

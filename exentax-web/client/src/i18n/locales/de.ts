@@ -992,6 +992,17 @@ const de = {
     lackStructure: "Es liegt am Mangel an Struktur.",
     weDesign: "Und genau das entwerfen wir mit Ihnen.",
   },
+  homeFinalCta: {
+    kicker: "LETZTER SCHRITT",
+    title: "Bereit für Ihre LLC?",
+    subtitle: "Wir gründen Ihre US-LLC mit vollständigem Compliance, operativer Banking-Lösung und Steuerunterstützung in Ihrem Land. 100 % remote, transparent, ohne Überraschungen.",
+    ctaBook: "Kostenlose Beratung buchen",
+    ctaWhatsapp: "Auf WhatsApp schreiben",
+    waText: "Hallo Exentax, ich komme von der Startseite und möchte mit einem Berater über meinen Fall sprechen.",
+    stat1: "Remote",
+    stat2: "Länder abgedeckt",
+    stat3Value: "24h", stat3: "Reaktionszeit",
+  },
   homeFaq: {
     tag: "HÄUFIG GESTELLTE FRAGEN",
     title: "Häufig gestellte Fragen zur Steuer",

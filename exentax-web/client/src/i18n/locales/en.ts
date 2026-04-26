@@ -991,6 +991,17 @@ const en = {
     lackStructure: "It's a lack of structure.",
     weDesign: "And that's exactly what we design with you."
   },
+  homeFinalCta: {
+    kicker: "FINAL STEP",
+    title: "Ready for your LLC?",
+    subtitle: "We form your US LLC with complete compliance, working banking and tax support in your country. 100% remote, transparent, no surprises.",
+    ctaBook: "Book a free consultation",
+    ctaWhatsapp: "Chat on WhatsApp",
+    waText: "Hi Exentax, I come from the home page and want to talk to an advisor about my case.",
+    stat1: "Remote",
+    stat2: "Countries covered",
+    stat3Value: "24h", stat3: "Response time",
+  },
   homeFaq: {
     tag: "FREQUENTLY ASKED QUESTIONS",
     title: "Frequently asked questions about tax",
