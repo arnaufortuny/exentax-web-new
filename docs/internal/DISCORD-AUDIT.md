@@ -231,3 +231,61 @@ para traceability).
 (Ed25519 + role gate + rate-limit + retry exponencial), **routing
 limpio** (13 events → 7 canales), **brand consistency** (verde neón
 forzado en todos los embeds). E2E real requiere tokens en Replit.
+
+---
+
+## Sesión 2026-04-26 · Re-verificación + tipos estrictos
+
+### Tipos estrictos: 21 any → 0 (commit `154efc95`)
+
+`server/discord-bot.ts`: añadidas 4 interfaces exportadas:
+- `DiscordCommandOption` (subcomandos + opts)
+- `DiscordInteractionData` (payload top-level)
+- `DiscordEmbedRef` (forma minimal embed)
+- `DiscordMessageComponent` (modal + select)
+
+`server/discord.ts`: añadidas 5 interfaces internas:
+- `DiscordButtonComponent`, `DiscordSelectOption`, `DiscordSelectMenuComponent`,
+  `DiscordRowChild`, `DiscordActionRow`
+
+`server/discord-bot-commands.ts`: 14 anys → 0 con signatures tipadas en
+`replyEphemeral`, `followupEphemeral`, `getSubcommand`, `getOpt`,
+`bookingDetailEmbed`, `bookingListEmbed`, `handleNewsletter/Agenda/
+Cita/CreateBooking`, modal components.
+
+### Slash commands estructura completa verificada
+
+`server/discord-bot.ts:295-431` registra:
+
+| Top-level | Subcomandos |
+|---|---|
+| `/ayuda` | — |
+| `/agenda` | hoy · semana · buscar · libre · bloquear · desbloquear |
+| `/cita` | ver · confirmar · cancelar · noshow · reprogramar · email · nueva |
+| `/newsletter` | enviar · status · cancelar |
+
+Todos con descripción ES + choices localizadas (idioma 6 langs).
+
+### Audit log presente en TODOS los handlers (verificado)
+
+Pattern consistente `discord-bot-commands.ts`:
+1. `logAdminAction({ actorDiscordId, actorDiscordName, action, payload })`
+   ANTES de operación
+2. `notifyAdminAction({ actor, action, title, fields })` AL canal AUDITORIA
+   DESPUÉS de operación exitosa
+
+Líneas verificadas: 218 (newsletter), 307 (ayuda), 395-453 (agenda subs),
+504-561+ (cita subs).
+
+### Estado tras re-verificación
+
+| Categoría | Estado | Cambio sesión |
+|---|---|---|
+| Tipos estrictos (any restantes) | ✓ 0 | -21 |
+| `server/discord*.ts` líneas | 3078 | sin cambio funcional |
+| Tests `test:discord-neon` | ✓ PASS | sin cambio |
+| Live tests con token | 🟡 sandbox SKIP | mismo G5 PENDING |
+
+**Recomendación**: ejecutar smoke test live en Replit/Hostinger con
+DISCORD_BOT_TOKEN real tras próximo deploy. Estructura ya verificada
+sin regresiones.
