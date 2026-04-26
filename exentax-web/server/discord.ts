@@ -256,6 +256,40 @@ interface DiscordEmbed {
   timestamp: string;
 }
 
+interface DiscordButtonComponent {
+  type: 2;
+  style: number;
+  label?: string;
+  emoji?: { name?: string; id?: string; animated?: boolean };
+  custom_id?: string;
+  url?: string;
+  disabled?: boolean;
+}
+
+interface DiscordSelectOption {
+  label: string;
+  value: string;
+  description?: string;
+  default?: boolean;
+}
+
+interface DiscordSelectMenuComponent {
+  type: 3;
+  custom_id: string;
+  options: DiscordSelectOption[];
+  placeholder?: string;
+  min_values?: number;
+  max_values?: number;
+  disabled?: boolean;
+}
+
+type DiscordRowChild = DiscordButtonComponent | DiscordSelectMenuComponent;
+
+interface DiscordActionRow {
+  type: 1;
+  components: DiscordRowChild[];
+}
+
 interface DiscordPayload {
   // Bot REST `POST /channels/{id}/messages` payload. The bot identity
   // (username + avatar) is fixed by the bot configuration in the Discord
@@ -265,7 +299,7 @@ interface DiscordPayload {
   // attached to the LAST message of a partitioned series so the buttons
   // appear right under the most recent embed and there is exactly one
   // canonical button group per logical event.
-  components?: any[];
+  components?: DiscordActionRow[];
 }
 
 const DISCORD_FIELD_LIMIT = 25;
@@ -580,7 +614,7 @@ export function getDiscordQueueSize(): number {
 
 // ─── Core send ───────────────────────────────────────────────────────────────
 
-function send(channel: Channel, embeds: DiscordEmbed[], components?: any[]): void {
+function send(channel: Channel, embeds: DiscordEmbed[], components?: DiscordActionRow[]): void {
   const channelId = getChannelId(channel);
   if (!channelId) {
     // No channel ID configured for this channel. For low-priority/business
@@ -703,7 +737,7 @@ export interface EventEnvelope {
   // notifications to attach the Confirmar/Reprogramar/Cancelar/No-show/
   // Email button row produced by `bookingActionRow`. Attached only to
   // the last message of a partitioned series — see `send()`.
-  components?: any[];
+  components?: DiscordActionRow[];
 }
 
 // ─── Idempotency (dedup TTL set) ─────────────────────────────────────────────
@@ -1566,12 +1600,12 @@ export function notifyAdminAction(opts: {
  * `discord-bot-commands`. The select menu uses `agenda:email_select:<id>`
  * with `values[0]` ∈ `confirmation | recordatorio | noshow | seguimiento`.
  */
-export function bookingActionRows(bookingId: string): Array<{ type: 1; components: any[] }> {
+export function bookingActionRows(bookingId: string): DiscordActionRow[] {
   const safeId = bookingId.slice(0, 60);
   // Buttons carry no emoji — Discord still colour-codes them via `style`
   // (3=success/green, 1=primary/blue, 4=danger/red, 2=secondary/grey),
   // which gives operators an unambiguous visual cue without any icon.
-  const mkBtn = (verb: string, label: string, style: number) => ({
+  const mkBtn = (verb: string, label: string, style: number): DiscordButtonComponent => ({
     type: 2,
     style,
     label,
@@ -1618,6 +1652,6 @@ export function bookingActionRows(bookingId: string): Array<{ type: 1; component
  * @deprecated Use `bookingActionRows(id)` (returns BOTH the buttons row
  * and the email select-menu row).
  */
-export function bookingActionRow(bookingId: string): { type: 1; components: any[] } {
+export function bookingActionRow(bookingId: string): DiscordActionRow {
   return bookingActionRows(bookingId)[0];
 }

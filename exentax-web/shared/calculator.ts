@@ -54,6 +54,11 @@ export type UseCasePreset = {
 export interface CalcOptions {
   tarifaPlana?: boolean;
   franceMicro?: boolean;
+  // Perfil autonómico para IRPF España 2026:
+  //   "low"    → Madrid / Andalucía / La Rioja
+  //   "medium" → escala media (default)
+  //   "high"   → Cataluña / Valencia / Asturias tramo alto
+  ccaaProfile?: "low" | "medium" | "high";
 }
 
 export interface CalcResult {

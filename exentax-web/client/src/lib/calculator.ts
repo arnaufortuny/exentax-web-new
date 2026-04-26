@@ -146,6 +146,7 @@ export function calcDeductibleTotal(items: ExpenseItem[]): number {
 import {
   PERSONAL_DEDUCTION_ES,
   IRPF_BRACKETS,
+  getIrpfBrackets,
   SS_AUTONOMO_BRACKETS_2026,
   TARIFA_PLANA_MONTHLY_ES,
   SPAIN_DIVIDEND_BRACKETS,
@@ -244,12 +245,13 @@ export { MONTHLY_INCOME_SANITY_MAX };
  * sin redondear y luego redondeábamos al final, lo que producía
  * discrepancias de ±1 € entre el total y la tabla mostrada en el UI.
  */
-function calcSpanishIRPFDetailed(taxableBase: number): { tax: number; brackets: IrpfBracketDetail[] } {
+function calcSpanishIRPFDetailed(taxableBase: number, ccaaProfile?: "low" | "medium" | "high"): { tax: number; brackets: IrpfBracketDetail[] } {
   const base = Math.max(0, taxableBase - PERSONAL_DEDUCTION_ES);
   const details: IrpfBracketDetail[] = [];
   let tax = 0;
   let prev = 0;
-  for (const b of IRPF_BRACKETS) {
+  const brackets = ccaaProfile ? getIrpfBrackets(ccaaProfile) : IRPF_BRACKETS;
+  for (const b of brackets) {
     if (base <= prev) break;
     const taxable = Math.min(base, b.limit) - prev;
     const taxInBracket = Math.round(taxable * b.rate);
@@ -265,8 +267,8 @@ function calcSpanishIRPFDetailed(taxableBase: number): { tax: number; brackets: 
   return { tax, brackets: details };
 }
 
-function calcSpanishIRPF(taxableBase: number): number {
-  return calcSpanishIRPFDetailed(taxableBase).tax;
+function calcSpanishIRPF(taxableBase: number, ccaaProfile?: "low" | "medium" | "high"): number {
+  return calcSpanishIRPFDetailed(taxableBase, ccaaProfile).tax;
 }
 
 function calcSpanishSS(monthlyNetIncome: number, tarifaPlana: boolean = false): { annual: number; monthly: number; bracket: { limit: number; monthly: number } } {
@@ -595,7 +597,7 @@ export function calculateSavings(
       const monthlyNetIncome = netAnnual / 12;
       const ssResult = calcSpanishSS(monthlyNetIncome, options.tarifaPlana === true);
       const irpfBase = Math.max(0, netAnnual - ssResult.annual);
-      const irpfResult = calcSpanishIRPFDetailed(irpfBase);
+      const irpfResult = calcSpanishIRPFDetailed(irpfBase, options.ccaaProfile);
       irpfBrackets = irpfResult.brackets;
       breakdown.push({ label: "calculator.bd.espana.irpf", amount: irpfResult.tax, note: "calculator.bd.espana.irpf_note", noteParams: { base: Math.round(irpfBase / 1000), personal: formatCurrency(PERSONAL_DEDUCTION_ES) } });
       breakdown.push({ label: "calculator.bd.espana.cuotaSS", amount: ssResult.annual, note: "calculator.bd.espana.cuotaSS_note", noteParams: { limit: formatCurrency(ssResult.bracket.limit), monthly: formatCurrency(ssResult.monthly) } });
@@ -611,7 +613,7 @@ export function calculateSavings(
       const is = Math.round(profit * isRate);
       const afterIs = profit - is;
       const dividendTax = calcSpanishDividendTax(afterIs);
-      const adminIrpf = calcSpanishIRPF(adminSalaryAnnual);
+      const adminIrpf = calcSpanishIRPF(adminSalaryAnnual, options.ccaaProfile);
       breakdown.push({ label: isLabel, amount: is, note: "calculator.bd.espana.is_note", noteParams: { profit: formatCurrency(profit) } });
       breakdown.push({ label: "calculator.bd.espana.cuotaSSAdmin", amount: adminSS.annual, note: "calculator.bd.espana.cuotaSSAdmin_note", noteParams: { salary: formatCurrency(adminSalary), monthly: formatCurrency(adminSS.monthly) } });
       breakdown.push({ label: "calculator.bd.espana.irpfAdmin", amount: adminIrpf, note: "calculator.bd.espana.irpfAdmin_note", noteParams: { salary: formatCurrency(adminSalaryAnnual) } });
@@ -683,7 +685,7 @@ export function calculateSavings(
   let spainIrpfWithLLC: CalcResult["spainIrpfWithLLC"] = undefined;
   if (calcSpainIrpfWithLLC && country === "espana") {
     const llcProfit = Math.max(0, annual - totalGastosDeducibles - conLLC);
-    const irpfLLCResult = calcSpanishIRPFDetailed(llcProfit);
+    const irpfLLCResult = calcSpanishIRPFDetailed(llcProfit, options.ccaaProfile);
     spainIrpfWithLLC = {
       irpf: irpfLLCResult.tax,
       brackets: irpfLLCResult.brackets,

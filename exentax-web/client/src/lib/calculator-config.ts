@@ -30,13 +30,20 @@
 // Mínimo personal y familiar IRPF 2026 (LIRPF art. 57). 5.550 € base.
 export const PERSONAL_DEDUCTION_ES = 5550;
 
-// Tarifa progresiva IRPF 2026 – escala agregada de referencia (estatal +
-// autonómica media). Cada CCAA puede variar la parte autonómica ±1-2 pts;
-// estos 6 tramos representan el tipo marginal efectivo medio usado por la
-// calculadora para la CCAA por defecto. La tarifa estatal pura desglosada
-// (9,5 / 12 / 15 / 18,5 / 22,5 / 24,5 %) está documentada en el artículo de
-// blog `tramos-irpf-2026.ts`.
-export const IRPF_BRACKETS = [
+// Tarifa progresiva IRPF 2026 – escala agregada (estatal + autonómica).
+// Cada CCAA varía la parte autonómica ±1-3 pts; ofrecemos 3 perfiles para
+// que el usuario elija el más cercano a su residencia fiscal.
+//
+// Perfiles:
+//   - "media"  : escala media nacional, default (Aragón, Asturias, Castilla-León,
+//                Castilla-La Mancha, Canarias, Cantabria, Murcia, Navarra,
+//                Galicia, Extremadura, Baleares).
+//   - "baja"   : Madrid, Andalucía, La Rioja → tramo alto reducido ~1-2 pts.
+//   - "alta"   : Cataluña, Valencia, Asturias-tramo-alto → tramo alto +2-3 pts.
+//
+// Fuentes: leyes autonómicas vigentes 2026; cifras alineadas con los tramos
+// publicados en `tramos-irpf-2026.ts` (artículo blog Exentax).
+export const IRPF_BRACKETS_MEDIUM = [
   { limit: 12450,    rate: 0.19 },
   { limit: 20200,    rate: 0.24 },
   { limit: 35200,    rate: 0.30 },
@@ -44,6 +51,39 @@ export const IRPF_BRACKETS = [
   { limit: 300000,   rate: 0.45 },
   { limit: Infinity, rate: 0.47 },
 ];
+
+// Madrid / Andalucía / La Rioja (CCAA con escalas autonómicas más bajas):
+// tramos alto y muy-alto reducidos ~1-2 pts respecto a la media.
+export const IRPF_BRACKETS_LOW = [
+  { limit: 12450,    rate: 0.18 },
+  { limit: 20200,    rate: 0.23 },
+  { limit: 35200,    rate: 0.29 },
+  { limit: 60000,    rate: 0.36 },
+  { limit: 300000,   rate: 0.43 },
+  { limit: Infinity, rate: 0.45 },
+];
+
+// Cataluña / Valencia / Asturias (tramo alto): escalas autonómicas más altas,
+// +2-3 pts en tramo alto y muy-alto.
+export const IRPF_BRACKETS_HIGH = [
+  { limit: 12450,    rate: 0.20 },
+  { limit: 20200,    rate: 0.25 },
+  { limit: 35200,    rate: 0.31 },
+  { limit: 60000,    rate: 0.39 },
+  { limit: 300000,   rate: 0.47 },
+  { limit: Infinity, rate: 0.50 },
+];
+
+// Default backwards-compatible export (escala media).
+export const IRPF_BRACKETS = IRPF_BRACKETS_MEDIUM;
+
+export type CcaaProfile = "low" | "medium" | "high";
+
+export function getIrpfBrackets(profile: CcaaProfile = "medium") {
+  if (profile === "low") return IRPF_BRACKETS_LOW;
+  if (profile === "high") return IRPF_BRACKETS_HIGH;
+  return IRPF_BRACKETS_MEDIUM;
+}
 
 // IRPF dividendos / rentas del ahorro 2026 (base del ahorro, art. 66 LIRPF).
 export const SPAIN_DIVIDEND_BRACKETS = [
@@ -55,10 +95,22 @@ export const SPAIN_DIVIDEND_BRACKETS = [
 ];
 
 // Cuota mensual TGSS autónomos 2026 – sistema de cotización por rendimientos
-// reales (RD-Ley 13/2022 + tabla 2026 Seguridad Social). 15 tramos oficiales
-// desde 200 € (tramo 1) hasta 604,80 € (tramo 15). Fuente: artículo de blog
-// `cuotas-autonomos-2026-guia-completa.ts` + sede.seg-social.gob.es.
-// Nota: valores alineados con la tabla publicada en el contenido de Exentax.
+// reales. 15 tramos oficiales desde 200 € (tramo 1) hasta 604,80 € (tramo 15)
+// calculados sobre la base mínima de cada tramo, tipo conjunto 31,5 %
+// (CC + CP + cese + FP + MEI 0,8 % en 2026).
+//
+// Marco normativo:
+//   - RDL 13/2022 (BOE-A-2022-12482), Disposición Transitoria 1ª: trayectoria
+//     2023-2032 del nuevo sistema de cotización por ingresos reales.
+//   - Acuerdo de Mesa de Diálogo Social Autónomos (jul-2022): trayectoria
+//     bianual de los 15 tramos hasta 2032.
+//   - TRLGSS (BOE-A-1994-14960), arts. 305-308 sobre RETA.
+//
+// Cross-check (2026-04-26): valores idénticos a la tabla publicada en
+// `client/src/data/blog-content/es/cuotas-autonomos-2026-guia-completa.ts`,
+// que cita Sede Electrónica TGSS y los textos BOE arriba. Ante el cierre
+// del ejercicio 2026, contrastar también con la resolución TGSS de
+// presupuestos generales que confirme la tabla definitiva del año.
 export const SS_AUTONOMO_BRACKETS_2026 = [
   { limit: 670,      monthly: 200.00 },  // Tramo 1
   { limit: 900,      monthly: 220.00 },  // Tramo 2

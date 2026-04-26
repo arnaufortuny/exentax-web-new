@@ -102,33 +102,18 @@ newsletter, Discord o indexing.
 
 ## 🟠 Media prioridad — SEO long-tail
 
-### [S1] 34 issues `keyword-positioning` P2 restantes (legales/booking)
+### [S1] keyword-positioning legales/booking — **CERRADO** (2026-04-26)
 
-**Estado**: 78 → 35 (44 resueltos en Sesión 7; ver `CHANGELOG-SESSION.md`).
-Lo que queda son páginas legales (terms/privacy/cookies/refunds/
-disclaimer) + booking (`agendar`/`book`).
+**Estado final**: 78 → 35 (Sesión 7) → 0 (sesión 2026-04-26 verificación).
 
-**Reproducir**:
-```
-cd exentax-web && node scripts/audit-system-seo-faqs.mjs
-python3 -c "
-import json
-d=json.load(open('docs/auditoria-sistema-seo-faqs/seo-audit.json'))
-kp=[i for i in d['issues'] if i.get('area')=='keyword-positioning']
-print(f'Total: {len(kp)}')
-for i in kp[:5]:
-    print(f\"  [{i['languages'][0]}] {i['location']}\")
-"
-```
-**Archivo afectado**: `exentax-web/server/seo-content.ts` — descriptions
-de las 5 rutas `legal_*` × 5-6 idiomas + `book` × 3 idiomas.
-**Impacto**: **bajo**. Nadie busca en Google "Exentax mentions légales"
-o "política de cookies Exentax" como query orgánica. Las páginas legales
-se llegan desde footer interno; CTR SEO marginal.
-**Fix**: opcional. Si se hace, reescribir cada description añadiendo el
-nombre de la página (ej. "Política de cookies", "Términos y condiciones")
-y "Exentax" en orden natural. ~30 min editorial.
-**Dependencias**: ninguna.
+`node scripts/audit-system-seo-faqs.mjs` + filtro `area=keyword-positioning`
+devuelve **0 issues**. Los 35 que figuraban abiertos se cerraron en sesiones
+posteriores con la actualización de descriptions de `seo-content.ts`. Verificado
+hoy contra `docs/auditoria-sistema-seo-faqs/seo-audit.json`.
+
+Los 384 issues restantes en el audit son `canonical-mismatch`,
+`hreflang-incomplete`, `open-graph`, `twitter-card` × 96 — **todos artefactos
+live-fetch sin dev server (G3 más arriba)**. No son issues de código.
 
 ---
 

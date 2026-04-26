@@ -100,6 +100,49 @@ export function verifyDiscordSignature(rawBody: Buffer, signatureHex: string, ti
   }
 }
 
+// ─── Discord API minimal shapes ──────────────────────────────────────────────
+// Tipos minimalistas que cubren los campos que realmente leemos / escribimos
+// (no instalamos `discord-api-types` para evitar peso del bundle).
+
+export interface DiscordCommandOption {
+  name: string;
+  type?: number;
+  value?: string | number | boolean;
+  options?: DiscordCommandOption[];
+  focused?: boolean;
+}
+
+export interface DiscordInteractionData {
+  id?: string;
+  name?: string;
+  type?: number;
+  custom_id?: string;
+  component_type?: number;
+  values?: string[];
+  options?: DiscordCommandOption[];
+  components?: DiscordMessageComponent[];
+}
+
+export interface DiscordEmbedRef {
+  title?: string;
+  description?: string;
+  color?: number;
+  fields?: Array<{ name: string; value: string; inline?: boolean }>;
+  footer?: { text: string; icon_url?: string };
+  timestamp?: string;
+}
+
+export interface DiscordMessageComponent {
+  type: number;
+  custom_id?: string;
+  style?: number;
+  label?: string;
+  url?: string;
+  disabled?: boolean;
+  value?: string;
+  components?: DiscordMessageComponent[];
+}
+
 // ─── Authorisation ───────────────────────────────────────────────────────────
 
 export interface InteractionMember {
@@ -112,12 +155,12 @@ export interface DiscordInteraction {
   application_id: string;
   type: number;
   token: string;
-  data?: any;
+  data?: DiscordInteractionData;
   member?: InteractionMember;
   user?: { id: string; username?: string; global_name?: string | null };
   guild_id?: string;
   channel_id?: string;
-  message?: { id: string; embeds?: any[]; components?: any[] };
+  message?: { id: string; embeds?: DiscordEmbedRef[]; components?: DiscordMessageComponent[] };
 }
 
 export interface ActorContext {

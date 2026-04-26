@@ -74,6 +74,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [showExpenseDetails, setShowExpenseDetails] = useState(false);
   const [expenseItems, setExpenseItems] = useState<ExpenseItem[]>([]);
   const [calcSpainIrpf, setCalcSpainIrpf] = useState(false);
+  const [ccaaProfile, setCcaaProfile] = useState<"low" | "medium" | "high">("medium");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
@@ -106,9 +107,9 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
 
   const calcRegime = regime === "sin-regimen" ? "autonomo" : regime;
   const result = useMemo(() => (hasCountry && hasRegime)
-    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems)
+    ? calculateSavings(income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, { ccaaProfile })
     : { sinLLC: 0, conLLC: 0, ahorro: 0, localLabel: "", breakdown: [], llcBreakdown: [], ivaNote: 0, effectiveRate: 0, llcEffectiveRate: 0, gastosDeducibles: 0 } as ReturnType<typeof calculateSavings>,
-    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime]);
+    [income, country, calcRegime, activity, expenses, calcSpainIrpf, expenseItems, hasCountry, hasRegime, ccaaProfile]);
 
   const allStructures = useMemo<AllStructuresResult | null>(() => hasCountry
     ? computeAllStructures(income, country, activity, expenses, expenseItems)
@@ -377,6 +378,24 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                   ))}
                 </select>
               </div>
+
+              {country === "espana" && (
+                <div>
+                  <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
+                    {t("calculator.ccaaProfile", { defaultValue: "Comunidad autónoma" })}
+                  </p>
+                  <select
+                    value={ccaaProfile}
+                    onChange={(e) => setCcaaProfile(e.target.value as "low" | "medium" | "high")}
+                    className={`calc-select-chevron w-full rounded-full px-4 font-medium text-[var(--text-1)] appearance-none cursor-pointer bg-[var(--bg-1)] border border-[rgba(var(--green-rgb),0.25)] focus:border-[rgba(var(--green-rgb),0.55)] focus:outline-none transition-colors ${compact ? "py-2.5 text-xs" : "py-3 text-xs sm:text-sm"}`}
+                    data-testid="select-ccaa-profile"
+                  >
+                    <option value="medium">{t("calculator.ccaaMedium", { defaultValue: "Escala media (default)" })}</option>
+                    <option value="low">{t("calculator.ccaaLow", { defaultValue: "Madrid · Andalucía · La Rioja" })}</option>
+                    <option value="high">{t("calculator.ccaaHigh", { defaultValue: "Cataluña · Valencia · Asturias" })}</option>
+                  </select>
+                </div>
+              )}
             </div>
           </div>
         )}

@@ -16,7 +16,8 @@ import type { Response } from "express";
 import { z } from "zod";
 import { logger } from "./logger";
 import {
-  ActorContext, DiscordInteraction,
+  ActorContext, DiscordInteraction, DiscordCommandOption,
+  DiscordEmbedRef, DiscordMessageComponent,
   INTERACTION_RESPONSE_TYPE, EPHEMERAL,
   editOriginalResponse,
 } from "./discord-bot";
@@ -44,12 +45,12 @@ import {
   notifyNoShow, notifyAdminAction, bookingActionRows,
   editChannelMessage,
 } from "./discord";
-import type { InsertAgenda } from "../shared/schema";
+import type { InsertAgenda, Agenda } from "../shared/schema";
 import crypto from "crypto";
 
 // ─── Reply helpers ───────────────────────────────────────────────────────────
 
-function replyEphemeral(res: Response, content: string, embeds?: any[]): void {
+function replyEphemeral(res: Response, content: string, embeds?: DiscordEmbedRef[]): void {
   res.status(200).json({
     type: INTERACTION_RESPONSE_TYPE.CHANNEL_MESSAGE_WITH_SOURCE,
     data: { flags: EPHEMERAL, content, embeds },
@@ -67,7 +68,7 @@ function deferUpdate(res: Response): void {
   res.status(200).json({ type: INTERACTION_RESPONSE_TYPE.DEFERRED_UPDATE_MESSAGE });
 }
 
-async function followupEphemeral(token: string, content: string, embeds?: any[]): Promise<void> {
+async function followupEphemeral(token: string, content: string, embeds?: DiscordEmbedRef[]): Promise<void> {
   await editOriginalResponse(token, { content, embeds: embeds || [], flags: EPHEMERAL });
 }
 
@@ -99,7 +100,7 @@ async function patchOriginatingMessage(
   const channelId = interaction.channel_id;
   const messageId = interaction.message?.id;
   if (!channelId || !messageId) return; // not a button click — nothing to update
-  const baseEmbeds = (interaction.message?.embeds || []) as any[];
+  const baseEmbeds = (interaction.message?.embeds || []) as DiscordEmbedRef[];
   const cloned = baseEmbeds.map(e => ({ ...e, fields: Array.isArray(e.fields) ? [...e.fields] : [] }));
   if (cloned.length === 0) {
     cloned.push({ title: "Reserva actualizada", color: 0x00E510, fields: [] });
@@ -113,7 +114,7 @@ async function patchOriginatingMessage(
   };
   // Replace any prior "Última acción" so consecutive clicks don't pile up.
   target.fields = [
-    ...target.fields.filter((f: any) => f?.name !== "Última acción"),
+    ...target.fields.filter((f) => f?.name !== "Última acción"),
     newField,
   ];
   await editChannelMessage(channelId, messageId, { embeds: cloned, components: [] });
@@ -121,14 +122,14 @@ async function patchOriginatingMessage(
 
 // ─── Option / id parsing ─────────────────────────────────────────────────────
 
-function getSubcommand(data: any): { name: string; options: any[] } {
+function getSubcommand(data: { name?: string; options?: DiscordCommandOption[] } | undefined): { name: string; options: DiscordCommandOption[] } {
   const sub = data?.options?.[0];
   if (sub && sub.type === 1) return { name: sub.name, options: sub.options || [] };
   return { name: data?.name || "", options: data?.options || [] };
 }
 
-function getOpt(options: any[], name: string): string | undefined {
-  const o = options?.find?.((x: any) => x.name === name);
+function getOpt(options: DiscordCommandOption[], name: string): string | undefined {
+  const o = options?.find?.((x) => x.name === name);
   if (!o) return undefined;
   return o.value == null ? undefined : String(o.value);
 }
@@ -142,7 +143,7 @@ function validBookingId(id: string | undefined): id is string {
 
 const NEON = 0x00E510;
 
-function bookingDetailEmbed(b: any): any {
+function bookingDetailEmbed(b: Agenda): DiscordEmbedRef {
   const isPhone = b.meetingType === "phone_call";
   const modality = isPhone ? "Llamada telefónica" : "Google Meet";
   return {
@@ -165,7 +166,7 @@ function bookingDetailEmbed(b: any): any {
   };
 }
 
-function bookingListEmbed(title: string, rows: any[]): any {
+function bookingListEmbed(title: string, rows: Agenda[]): DiscordEmbedRef {
   if (rows.length === 0) {
     return { color: NEON, title, description: "_Sin reservas en el rango seleccionado._" };
   }
@@ -212,7 +213,7 @@ export async function dispatchSlashCommand(
 //   4. /newsletter cancelar id:<id>        → marca campaign cancelled
 
 async function handleNewsletterCommand(
-  sub: string, options: any[], actor: ActorContext, res: Response
+  sub: string, options: DiscordCommandOption[], actor: ActorContext, res: Response
 ): Promise<void> {
   await logAdminAction({ actorDiscordId: actor.id, actorDiscordName: actor.name, action: `newsletter ${sub}` });
 
@@ -385,7 +386,7 @@ async function handleHelpCommand(actor: ActorContext, res: Response): Promise<vo
 // ─── /agenda subcommands ────────────────────────────────────────────────────
 
 async function handleAgendaCommand(
-  sub: string, options: any[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
+  sub: string, options: DiscordCommandOption[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
 ): Promise<void> {
   switch (sub) {
     case "hoy": {
@@ -464,7 +465,7 @@ async function handleAgendaCommand(
 // ─── /cita subcommands ──────────────────────────────────────────────────────
 
 async function handleCitaCommand(
-  sub: string, options: any[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
+  sub: string, options: DiscordCommandOption[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
 ): Promise<void> {
   if (sub === "nueva") return handleCreateBooking(options, interaction, actor, res);
 
@@ -757,7 +758,7 @@ async function sendManualEmail(id: string, tipo: string, actor: ActorContext, in
 }
 
 async function handleCreateBooking(
-  options: any[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
+  options: DiscordCommandOption[], interaction: DiscordInteraction, actor: ActorContext, res: Response,
 ): Promise<void> {
   const nombre = getOpt(options, "nombre") || "";
   const email = (getOpt(options, "email") || "").trim().toLowerCase();
@@ -932,7 +933,7 @@ export async function dispatchModalSubmit(
   const id = parts[2];
   if (!validBookingId(id)) { replyEphemeral(res, "Error: Booking ID inválido."); return; }
 
-  const components: any[] = interaction.data?.components || [];
+  const components: DiscordMessageComponent[] = interaction.data?.components || [];
   const flat: Record<string, string> = {};
   for (const row of components) {
     for (const c of (row.components || [])) {
