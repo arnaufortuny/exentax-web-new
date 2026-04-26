@@ -315,6 +315,27 @@ Añadir umbral duro (ej. bloquear si el bundle crece > 5 % vs último baseline).
 - Calculadora: autónomo ES → LLC con email con HTML branded.
 - Cambio de idioma + persistencia + hreflang navegable.
 
+### 15. Scripts huérfanos detectados — revisión manual antes de eliminar
+
+**Hallazgo (sesión 2026-04-26)**: scan manual reveló 2 scripts en `scripts/`
+sin referencia desde `package.json` ni desde otros scripts:
+
+- `scripts/blog-i18n-sync-check.mjs` — 0 referencias en todo el repo.
+- `scripts/audit-markdown-quality.mjs` — solo se referencia a sí mismo.
+
+**Acción**: NO eliminar todavía (regla nº 1: solo borrar con confianza alta).
+Ambos pueden ser auditorías one-off útiles para diagnóstico puntual. Verificar
+manualmente con el autor / dueño si pueden archivarse en `scripts/archive/`.
+
+**Reproducir**:
+```
+for s in blog-i18n-sync-check audit-markdown-quality; do
+  refs=$(grep -rl --include="*.json" --include="*.mjs" --include="*.ts" --include="*.sh" "$s" exentax-web 2>/dev/null | grep -v "^exentax-web/scripts/$s" | grep -v node_modules | wc -l)
+  echo "$refs $s"
+done
+```
+**Esfuerzo**: 5 min de revisión + decisión (mantener / archivar / eliminar).
+
 ---
 
 ## Criterios de cierre
