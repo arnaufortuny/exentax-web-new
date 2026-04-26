@@ -27,6 +27,56 @@ Los errores que más sanciones generan: pretender deducir comidas familiares com
 
 El criterio oficial sobre gastos deducibles está recogido en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Ley 35/2006 del IRPF</a> y en las consultas vinculantes de la <a href="https://petete.tributos.hacienda.gob.es/">DGT</a>. Documentar bien hoy ahorra mucho mañana: cada factura archivada es un euro menos a Hacienda mañana.
 
+## Tabla detallada de gastos deducibles por categoría
+
+| Categoría | Ejemplos | Límite / Condición |
+|---|---|---|
+| **Suministros vivienda-oficina** | Luz, agua, gas, internet, comunidad | 30% del gasto sobre m² afectos (mínimo declarado en alta IAE) |
+| **Vehículo y desplazamiento** | Combustible, parking, peajes, mantenimiento | 50% si uso mixto profesional/personal; 100% si uso 100% profesional documentado |
+| **Material y oficina** | Ordenador, software, impresora, papelería | 100% deducible. Bienes >300€ se amortizan según tabla de coeficientes IRPF |
+| **Formación** | Cursos, libros técnicos, certificaciones | 100% si están directamente relacionados con la actividad |
+| **Servicios profesionales** | Asesoría fiscal, abogado, notaría, gestoría | 100% deducible con factura |
+| **Cuotas y colegios** | Colegio profesional, asociaciones sectoriales | 100% deducible |
+| **Marketing y publicidad** | Anuncios online, hosting, dominio, diseño | 100% deducible |
+| **Comisiones bancarias** | Cuenta profesional, TPV, Stripe, PayPal | 100% deducible si la cuenta es profesional |
+| **Comidas y dietas** | Comidas con clientes (justificadas) | Hasta 26,67€/día en territorio español, 48,08€ extranjero. Justificación obligatoria |
+| **Seguros profesionales** | Responsabilidad civil, salud privada (límite) | 100% RC profesional; salud hasta 500€/año (1.500€ con discapacidad) |
+| **Cuota autónomos** | RETA mensual | 100% deducible como gasto de la actividad |
+| **Mutualidad alternativa** | Mutualidad de profesional liberal | 100% si sustituye al RETA, hasta el límite anual |
+
+## Casos prácticos: qué deduzco y qué no
+
+**Caso 1. Desarrollador con oficina en casa.** Vives en piso de 80 m² con un despacho de 12 m² destinado a la actividad (15% afecto). Suministros mensuales: 200€ (luz + gas + internet). Deducción: 200 × 0,15 × 0,30 = 9€/mes = 108€/año. Si declaras también el alquiler proporcional, añades 15% del alquiler. Documentación obligatoria: alta de IAE con el porcentaje afecto y facturas de suministros a tu nombre.
+
+**Caso 2. Consultora con coche profesional.** Compras un Tesla Model 3 por 47.000€ uso 100% profesional (visitas a clientes, no tienes otro coche). Deducible: amortización a 8 años (5.875€/año), seguro completo, mantenimiento, parking en aeropuertos durante viajes, peajes. Hacienda exige libro de viajes profesionales con kilometraje y motivo. Sin libro, riesgo de reclasificación a uso mixto (50%).
+
+**Caso 3. Diseñadora gráfica con coworking.** Membresía coworking 250€/mes, software (Adobe + Figma) 80€/mes, formación anual 1.500€, cuota autónomos 230€/mes. Total deducible anual: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Reduce base imponible IRPF antes de aplicar tramos.
+
+## Errores típicos en deducciones
+
+| Error | Consecuencia |
+|---|---|
+| Deducir comidas familiares como dietas | Sanción + recargo + reclasificación |
+| Gasolina personal sin libro de viajes | Reducción al 50% en mejor caso, 0% si flagrante |
+| Ropa personal como "uniforme" | No deducible salvo serigrafía corporativa permanente |
+| Regalos a clientes >1% cifra negocios | Exceso no deducible |
+| Gastos sin factura (ticket simple) | No deducible, exigir factura completa |
+| Móvil 100% profesional sin segundo personal | Reducción a uso mixto 50% |
+
+## Preguntas frecuentes
+
+**¿Puedo deducir el gimnasio?** Solo si justificas que es necesario para la actividad (modelos, presentadores TV, deportistas profesionales). Para el resto de profesiones, no es deducible aunque mantengas mejor salud.
+
+**¿Y la formación universitaria?** Si está relacionada directamente con tu actividad y es para ampliar conocimientos profesionales, sí. Másteres ejecutivos suelen aceptarse. Una segunda carrera no relacionada, no.
+
+**¿Las inversiones en cripto son gasto?** No. Son inversiones, no gastos. Sus pérdidas o ganancias se declaran en la base del ahorro del IRPF, no en rendimientos de actividad económica.
+
+**¿Mi seguro de salud privado?** Hasta 500€/año (1.500€ con discapacidad) por cada miembro de la unidad familiar incluido. Si tu cuota es 100€/mes (1.200€/año), deduces los primeros 500€.
+
+**¿Puedo deducir un curso pagado por adelantado a 3 años?** No. El gasto se imputa al ejercicio en que se devenga el servicio. Si es un curso de 3 años, deduces 1/3 cada año, no todo en el primer ejercicio.
+
+**¿Qué pasa si pierdo una factura?** Hacienda admite reconstrucción mediante extracto bancario + certificado del proveedor + declaración jurada. El proceso es engorroso y se rechaza con frecuencia. Mejor: archivo digital (Drive, Notion, gestor) actualizado mensualmente.
+
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
 <!-- exentax:calc-cta-v1 -->

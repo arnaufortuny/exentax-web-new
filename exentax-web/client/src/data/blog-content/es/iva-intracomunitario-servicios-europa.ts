@@ -27,6 +27,44 @@ Para freelancers cuyos clientes son mayoritariamente empresas estadounidenses o 
 
 El marco normativo está en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Ley 37/1992 del IVA</a> y la <a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0112">Directiva 2006/112/CE</a>. Para validar VIES en tiempo real puedes usar el <a href="https://ec.europa.eu/taxation_customs/vies/">portal de la Comisión Europea</a>.
 
+## Casos prácticos con números reales
+
+**Caso 1. Consultor TI español con cliente francés.** Facturas un proyecto de 5.000€ a una empresa con sede en París. Tu NIF-IVA español está activo en VIES, el del cliente también. Emites factura por 5.000€ exactos, mención "operación con inversión del sujeto pasivo, art. 84 LIVA". En el modelo 349 declaras 5.000€ como prestación de servicios intracomunitarios; en el modelo 303, casilla 59 (entregas intracomunitarias). El cliente francés autoliquida IVA francés. Tú no ingresas IVA en España por esta operación; sí declaras el ingreso en IRPF.
+
+**Caso 2. Diseñadora web con cliente alemán sin VIES válido.** El cliente alemán figura como persona física, no tiene número de IVA registrado. La operación se considera B2C: localización en sede del prestador (España) hasta el umbral OSS, después en sede del cliente. Si tus ventas B2C UE son inferiores a 10.000€/año, repercutes IVA español al 21%. Si superas el umbral, tributas en Alemania al 19% vía OSS. Decisión clave: comprobar VIES siempre antes de emitir.
+
+**Caso 3. Agencia de marketing con clientes mixtos B2B España + UE.** El 70% de la facturación es España (con IVA 21%), el 30% UE B2B (sin IVA por inversión sujeto pasivo). Resultado típico: prorrata del IVA soportado se calcula sobre el total. La AEAT permite operación intracomunitaria con derecho a deducción, así que el IVA soportado en gastos generales (alquiler, software, herramientas) se deduce íntegramente. Cuadre obligatorio entre 303 y 349 cada trimestre.
+
+## Errores que disparan inspecciones
+
+| Error | Consecuencia |
+|---|---|
+| Emitir sin VIES válido del cliente | AEAT reclasifica como B2C → IVA español + sanción |
+| No declarar en modelo 349 una operación de 5.000€ | Sanción por omisión + recargo |
+| Modelo 303 y 349 con cifras distintas | Paralela inmediata, suele acabar en inspección |
+| Olvidar la mención "reverse charge" en factura | Cliente UE rechaza la factura, retraso pago |
+| Confundir B2C con B2B en plataformas digitales | OSS mal cumplimentado → corrección con recargos |
+
+## Preguntas frecuentes
+
+**¿Tengo que cobrar IVA si mi cliente es una empresa de Reino Unido post-Brexit?** No. Reino Unido está fuera del régimen intracomunitario UE. La operación se trata como exportación de servicios fuera de la UE: factura sin IVA con la mención "operación no sujeta art. 69.Uno LIVA". No se declara en modelo 349, sí en 303 (casilla específica de exportaciones).
+
+**¿Cuándo es obligatorio darse de alta en el ROI?** Cuando vas a realizar la primera operación intracomunitaria. La AEAT puede tardar varias semanas en validar el alta y, hasta que aparezca tu NIF-IVA en VIES, no puedes emitir facturas con inversión sujeto pasivo. Conviene solicitar el alta con margen antes del primer servicio.
+
+**¿Y si mi cliente UE me retiene IVA por error?** Pasa con frecuencia: clientes que no tienen claro el régimen y aplican IVA local pensando que la operación es B2C. Solución: emitir nota de crédito, devolver el IVA cobrado y educar al cliente sobre el reverse charge. Conservar correspondencia escrita por si la AEAT pregunta.
+
+**¿La LLC americana me libera del modelo 349?** Si la LLC es no residente fiscal en España, sí. La LLC factura desde EE.UU. y no presenta modelos españoles (sí compliance americano: 5472, BOI). El residente fiscal español declara los beneficios netos de la LLC en su IRPF como rendimiento de actividad económica en el extranjero. Reduce drásticamente el papeleo del IVA UE.
+
+## Checklist operativo antes de cada factura
+
+1. ✓ Comprobar VIES del cliente en <a href="https://ec.europa.eu/taxation_customs/vies/">portal CE</a> y guardar el justificante.
+2. ✓ Verificar que tu NIF-IVA español está activo (consulta en sede AEAT).
+3. ✓ Confirmar que el servicio entra en regla general del art. 69 LIVA (no inmuebles, no transporte pasajeros, no eventos presenciales).
+4. ✓ Incluir mención "operación con inversión sujeto pasivo, art. 84 LIVA" o "reverse charge".
+5. ✓ Cobrar el importe sin IVA, conservar entregables y comunicación.
+6. ✓ Trasladar al modelo 349 trimestral o mensual.
+7. ✓ Cuadrar el resumen con modelo 303 y revisar coherencia anual con modelo 390.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

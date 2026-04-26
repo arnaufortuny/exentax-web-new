@@ -27,6 +27,59 @@ Para perfiles 100% digitales con clientes mayoritariamente fuera de España, una
 
 El régimen jurídico está en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">Ley de Sociedades de Capital</a> y el régimen fiscal en la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Ley 27/2014 del Impuesto sobre Sociedades</a>. Si te planteas una SL, calcula el coste total combinado a tres años antes de constituir.
 
+## Tabla comparativa SL vs LLC americana vs autónomo
+
+| Concepto | Autónomo | SL España | LLC EE.UU. (no residente) |
+|---|---|---|---|
+| **Constitución** | Gratis (alta IAE) | 600-1.500€ + 3.000€ capital + notaría | desde 2.000€ |
+| **Mantenimiento anual** | Cuota RETA + IRPF | 6.000-9.000€ (asesoría + cuentas + ISC) | desde 1.500€ |
+| **Tributación beneficios** | IRPF 19-47% progresivo | IS 23% (reducida) o 25% (general) | 0% federal en EE.UU. + IRPF en residencia |
+| **Doble imposición** | No (pass-through) | Sí (IS + IRPF dividendos) | No (atribución de rentas) |
+| **Reinversión beneficios** | Compleja (gasto IRPF) | Eficiente (retiene al 23-25%) | Compleja (atribución anual) |
+| **Responsabilidad** | Patrimonio personal completo | Limitada al capital social | Limitada |
+| **Empleados** | Puede contratar | Sí, con cotizaciones SS | No (en España, vía contrato externo) |
+| **Cierre/disolución** | Baja IAE inmediata | 6-12 meses + notaría + 600-1.500€ | 200-400€ + Operating Agreement |
+| **Imagen comercial** | Profesional individual | Empresa nacional | Marca global USA |
+| **Ideal para** | Inicio o <80k€/año | Negocio físico ES, equipo, retener beneficios | Digital remoto, clientes USA/UE B2B |
+
+## Casos prácticos: cuándo compensa SL vs LLC
+
+**Caso 1. Consultor digital, 70.000€/año, cliente único USA.** Mejor LLC: 0% federal, IRPF en España sobre beneficio neto. SL aquí pierde por costes fijos altos (6.000-9.000€) y doble tributación.
+
+**Caso 2. Agencia marketing 4 socios, 250.000€/año, oficina Barcelona, 3 empleados.** Mejor SL: necesitas figura mercantil para clientes corporates ES, posibilidad de retener beneficios a IS 23%, contratar plantilla con cotización SS, distribución equilibrada de socios. LLC aquí no encaja por barrera operativa con clientes locales.
+
+**Caso 3. E-commerce físico España, 150.000€/año.** Mejor SL: stock, almacén, devoluciones, IVA intracomunitario, contratos con couriers. LLC complica logística y contabilidad de bienes físicos.
+
+**Caso 4. Trader cripto, 50-200k€/año, vive entre España y Andorra.** Mejor LLC para asset protection + decisión de residencia: con LLC mantiene flexibilidad y, si decide residir Andorra/Portugal, opera la LLC desde nuevo régimen sin reestructurar.
+
+## Costes ocultos de una SL que pocos calculan
+
+| Coste | Importe anual aprox |
+|---|---:|
+| Asesoría fiscal completa | 2.400-4.800€ |
+| Cuentas anuales depositadas Registro Mercantil | 100-200€ |
+| Auditoría (si aplica límites art. 263 LSC) | 1.500-4.000€ |
+| Libros oficiales legalizados | 50€ |
+| Modelo 200 IS + retenciones | incluido en asesoría |
+| Cotización autónomo administrador | 4.200-7.200€ |
+| Seguro RC profesional empresa | 600-1.500€ |
+| Domiciliación social (si no oficina propia) | 600-1.200€ |
+| **Total típico negocio digital** | **~9.000-18.000€/año** |
+
+Para un autónomo facturando 60.000€/año, el cambio a SL frecuentemente reduce ingresos netos durante 2-3 años hasta que la facturación pasa de 100.000€/año.
+
+## Preguntas frecuentes
+
+**¿Capital mínimo SL es realmente 1€ o sigue siendo 3.000€?** La Ley de creación y crecimiento de empresas (julio 2022) permite constituir SL con capital mínimo 1€. PERO durante los primeros años: los socios responden personalmente hasta 3.000€ si la SL no llega a tener 3.000€ de fondos propios. Y muchos bancos siguen exigiendo capital efectivo de 3.000€ para abrir cuenta. En la práctica, sigue conviniendo aportar 3.000€.
+
+**¿Tributo doble si me pago dividendos?** Sí. La SL tributa al 23-25% (IS), y al cobrar dividendos pagas otra vez en tu IRPF base del ahorro (19-28% según tramo). Total efectivo combinado: 38-46% según situación. Por eso, retirar dividendos de SL pequeña suele ser ineficiente vs autónomo IRPF.
+
+**¿Puedo pasar de autónomo a SL sin cierre?** Sí, pero con costes de transición: aportación de la actividad como rama de negocio (aportación no dineraria que requiere informe de experto independiente, gastos notariales adicionales, valoración de fondo de comercio). Coste típico: 2.000-4.000€ de transición, que se amortizan solo si la SL te dura años.
+
+**¿Puedo tener una SL Y una LLC?** Sí, son estructuras compatibles. Patrón habitual: SL para operación local España, LLC para clientes USA/UE B2B. Ojo a transferencias entre las dos: pueden constituir operaciones vinculadas con obligaciones documentales (Modelo 232).
+
+**¿Cuándo conviene cerrar una SL que ya no funciona?** Cuanto antes, porque la SL inactiva sigue costando ~6.000€/año en mantenimiento. Si llevas 6+ meses sin actividad, calcula coste de cierre vs mantenerla "por si acaso". El cierre lleva 6-12 meses y unos 600-1.500€.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

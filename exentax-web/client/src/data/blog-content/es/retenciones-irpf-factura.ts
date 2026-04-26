@@ -27,6 +27,72 @@ Los errores más comunes: aplicar el 7% sin haber comunicado formalmente al paga
 
 Las normas detalladas de retenciones están en el Reglamento del IRPF (RD 439/2007, accesible en el <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). La AEAT ofrece simulador de retenciones en su <a href="https://sede.agenciatributaria.gob.es/">sede electrónica</a>; conviene revisarlo cada inicio de año.
 
+## Casos prácticos: cómo aparece la retención en factura
+
+**Caso 1. Diseñador profesional con cliente empresa.** Factura de 2.000€ a una S.L. cliente:
+- Base imponible: 2.000€
+- IVA 21%: 420€
+- Retención IRPF 15%: −300€
+- **Total a cobrar: 2.120€**
+
+El cliente paga 2.120€ al diseñador y declara 300€ a Hacienda en el modelo 111 trimestral. El diseñador refleja en su modelo 130/100 que ya ha adelantado 300€ de IRPF.
+
+**Caso 2. Nuevo autónomo (primeros 3 ejercicios) con retención reducida.** Factura de 2.000€ con retención 7%:
+- Base imponible: 2.000€
+- IVA 21%: 420€
+- Retención IRPF 7%: −140€
+- **Total a cobrar: 2.280€**
+
+Importante: el autónomo debe comunicar formalmente al pagador su situación de nuevo autónomo mediante escrito firmado. Sin esa comunicación, el pagador aplica el 15% por defecto.
+
+**Caso 3. Alquiler de oficina por persona física.** Factura mensual de 800€ del casero:
+- Base imponible: 800€
+- IVA 21%: 168€
+- Retención IRPF 19%: −152€
+- **Total a pagar al casero: 816€**
+
+El inquilino (autónomo o empresa) presenta modelo 115 trimestral declarando los 152€ retenidos. El casero recupera la retención en su declaración anual de IRPF como rendimiento del capital inmobiliario.
+
+**Caso 4. Profesional con cliente particular.** Factura de 500€ a una persona física que contrata un servicio puntual:
+- Base imponible: 500€
+- IVA 21%: 105€
+- **NO se aplica retención** (cliente particular no es retenedor)
+- **Total: 605€**
+
+## Tabla de retenciones por actividad
+
+| Tipo de actividad | Retención estándar | Régimen reducido |
+|---|---:|---:|
+| Profesionales (módulo 4 IAE) | 15% | 7% (primeros 3 años) |
+| Actividades empresariales (módulos) | 1% | — |
+| Agrícolas y ganaderas | 2% | 1% (engorde porcino y avícola) |
+| Alquiler de inmuebles | 19% | — |
+| Premios literarios y artísticos | 15% | — |
+| Conferencias, cursos, seminarios | 15% | — |
+| Derechos de autor | 15% | 7% (primeros 3 años) |
+| Capital mobiliario (intereses) | 19% | — |
+
+## Modelos AEAT relevantes
+
+- **Modelo 111**: declaración trimestral de retenciones a profesionales y trabajadores. Plazo: días 1-20 del mes siguiente al trimestre.
+- **Modelo 115**: declaración trimestral de retenciones por alquileres. Mismo plazo.
+- **Modelo 190**: resumen anual de las retenciones del modelo 111 (presentación enero del año siguiente).
+- **Modelo 180**: resumen anual de las retenciones del modelo 115.
+- **Modelo 100**: declaración anual de IRPF, donde el autónomo regulariza la diferencia entre lo retenido y lo que finalmente correspondía.
+- **Modelo 130**: pago fraccionado trimestral de IRPF. Si en el trimestre la suma de retenciones supera el 70% del rendimiento, el autónomo no presenta el modelo 130 ese trimestre.
+
+## Preguntas frecuentes
+
+**¿Qué pasa si el cliente paga la factura sin aplicar la retención?** Es un riesgo del cliente, no tuyo: él debería haber retenido y presentar el modelo 111. Si Hacienda detecta el error, sanciona al cliente. El autónomo sí debe declarar el ingreso íntegro en su IRPF.
+
+**¿Puedo renunciar a la retención reducida del 7%?** Sí, pero raramente conviene. La retención reducida significa que adelantas menos IRPF; no implica menor tributación final. Si crees que vas a tener un IRPF efectivo alto, conviene mantener el 7% y pagar el resto en la declaración.
+
+**¿Si tengo una LLC americana, hay retenciones?** Las facturas emitidas desde una LLC americana a clientes españoles no llevan retención IRPF en factura (es retención sobre rendimientos del trabajo o profesionales del autónomo, no del extranjero). El residente fiscal español declara los rendimientos netos de la LLC en su IRPF como rendimientos del extranjero, sin que el cliente español retenga nada.
+
+**¿Y si soy nuevo autónomo en mi tercer año, cuándo paso al 15%?** Al cuarto ejercicio fiscal completo. Si te diste de alta en marzo 2024, el primer ejercicio cuenta desde marzo 2024 a diciembre 2024 (incompleto pero cuenta). 2025 y 2026 son segundo y tercero. Desde 2027 retención al 15%.
+
+**¿Hacienda sabe lo que me han retenido?** Sí. Cada cliente declara las retenciones en el modelo 111 trimestral con tu NIF. Antes de presentar tu declaración anual, descarga los datos fiscales en sede AEAT y cruza con tu propio registro: si hay diferencias, exige a tu cliente la corrección antes del 30 de junio.
+
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
 <!-- exentax:calc-cta-v1 -->

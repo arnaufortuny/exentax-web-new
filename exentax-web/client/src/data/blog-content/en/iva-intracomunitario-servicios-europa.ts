@@ -27,6 +27,44 @@ For freelancers whose clients are mostly US-based or outside the EU, a <a href="
 
 The legal framework is set out in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Spain's VAT Law 37/1992</a> and <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112">Directive 2006/112/EC</a>. For real-time VIES validation, use the <a href="https://ec.europa.eu/taxation_customs/vies/">European Commission portal</a>.
 
+## Practical cases with real numbers
+
+**Case 1. Spanish IT consultant with French client.** You invoice a 5,000€ project to a Paris-based company. Your Spanish EU VAT number is active in VIES, so is the client's. You issue an invoice for exactly 5,000€ with the mention "reverse charge, art. 84 LIVA". On Spanish form 349 you declare 5,000€ as intra-community service supply; on form 303, box 59 (intra-community supplies). The French client self-assesses French VAT. You don't pay VAT in Spain on this transaction; you do declare the income on personal income tax.
+
+**Case 2. Web designer with German client without valid VIES.** The German client appears as an individual, with no registered VAT number. The transaction counts as B2C: localised at the supplier's seat (Spain) up to the OSS threshold, then at client's seat. If your annual EU B2C sales are below €10,000, you charge 21% Spanish VAT. Above the threshold, you tax in Germany at 19% via OSS. Key decision: always check VIES before issuing.
+
+**Case 3. Marketing agency with mixed Spain B2B + EU clients.** 70% of revenue is Spain-based (with 21% VAT), 30% EU B2B (no VAT due to reverse charge). Typical result: input VAT prorating is calculated on the total. Spain's tax authority allows intra-community transactions with right to deduct, so input VAT on overheads (rent, software, tools) is fully deductible. Mandatory reconciliation between forms 303 and 349 each quarter.
+
+## Mistakes that trigger audits
+
+| Mistake | Consequence |
+|---|---|
+| Invoicing without valid client VIES | AEAT reclassifies as B2C → Spanish VAT + penalty |
+| Not declaring a 5,000€ operation on form 349 | Penalty for omission + surcharge |
+| Forms 303 and 349 with different figures | Immediate parallel assessment, often inspection |
+| Forgetting "reverse charge" mention on invoice | EU client rejects invoice, payment delay |
+| Confusing B2C with B2B on digital platforms | OSS misfiled → corrections with surcharges |
+
+## Frequently asked questions
+
+**Do I have to charge VAT if my client is a UK company post-Brexit?** No. The UK is outside the EU intra-community regime. The transaction is treated as a service export outside the EU: invoice without VAT with the mention "operation not subject, art. 69.Uno LIVA". Not declared on form 349, but reported on form 303 (specific exports box).
+
+**When is ROI registration mandatory?** Before your first intra-community operation. The Spanish tax authority can take several weeks to validate the registration, and until your EU VAT number appears in VIES, you cannot issue reverse charge invoices. Apply with margin before your first service.
+
+**What if my EU client withholds VAT by mistake?** Common: clients unfamiliar with the regime apply local VAT thinking the transaction is B2C. Solution: issue a credit note, refund the VAT charged, and educate the client about reverse charge. Keep written correspondence in case AEAT asks.
+
+**Does a US LLC release me from form 349?** If the LLC is a non-resident for Spanish tax purposes, yes. The LLC invoices from the US and files no Spanish forms (it does file US compliance: 5472, BOI). The Spanish tax resident declares the LLC's net profits on personal income tax as foreign business income. Drastically reduces EU VAT paperwork.
+
+## Operational checklist before each invoice
+
+1. ✓ Check the client's VIES on the <a href="https://ec.europa.eu/taxation_customs/vies/">EC portal</a> and save proof.
+2. ✓ Verify your Spanish EU VAT number is active (consult AEAT).
+3. ✓ Confirm the service falls under the general rule (art. 69 LIVA): not real estate, not passenger transport, not in-person events.
+4. ✓ Include the mention "reverse charge, art. 84 LIVA".
+5. ✓ Charge the amount without VAT, keep deliverables and communications.
+6. ✓ Transfer to the quarterly or monthly form 349.
+7. ✓ Reconcile the summary with form 303 and review annual coherence with form 390.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
