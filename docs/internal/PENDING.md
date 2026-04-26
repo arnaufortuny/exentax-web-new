@@ -522,11 +522,66 @@ en `exentax-web/scripts/audit-bundle.mjs` (`BUDGETS_KB`) o el flag
 `--threshold` con justificación en `RESUMEN.md`, o label
 `bypass-perf-gate` para un merge admin puntual.
 
-### 14. Tests E2E de flujos críticos
-**Esfuerzo:** 8-12 h. Playwright ya instalado. Añadir flujos:
-- Reserva completa (book → calendar → email confirmación → reagendar → cancelar).
-- Calculadora: autónomo ES → LLC con email con HTML branded.
-- Cambio de idioma + persistencia + hreflang navegable.
+### 14. Tests E2E de flujos críticos — **CERRADO Sesión Task #16 (2026-04-26)**
+
+**Hecho:** los 3 specs Playwright están verdes (11/11 en **5 ejecuciones
+consecutivas**, ~57 s cada una) y el job `Playwright E2E (chromium)`
+queda como check requerido en CI:
+
+- `exentax-web/tests/e2e/booking-flow.spec.ts` — `/agendar` (ES) flujo
+  completo + `/book` (EN), más `/booking/:token` con reagendar y cancelar
+  contra `/api/booking/:id[/reschedule|/cancel]` stub. **Captura el
+  payload de `POST /api/bookings/book`** y valida los campos que la
+  plantilla `sendBookingConfirmation` (server/email.ts) necesita
+  (`name`, `lastName`, `email`, `phone` E.164, `meetingType`, `date`,
+  `startTime`, `privacyAccepted`) — equivalente CI-safe a "el correo de
+  confirmación se despachó con datos correctos" sin requerir Gmail.
+- `exentax-web/tests/e2e/calculator-flow.spec.ts` — calculadora `/start`
+  (lazy-mounted vía `IntersectionObserver` sobre el nuevo
+  `[data-testid="calculator-mount"]`) emite POST a
+  `/api/calculator-leads` con payload branded que el spec captura y
+  valida campo a campo. **Además, reenvía el payload capturado al
+  endpoint test-only `POST /api/__test/render-calculator-email`**
+  (gated por `NODE_ENV !== "production" || E2E_TEST_HOOKS=1` + header
+  `x-e2e-test: 1`) que invoca `renderCalculatorEmailHtml` y devuelve el
+  HTML real del correo. El spec asserta `<!DOCTYPE`, color de marca
+  (`00E510|#0E5…`), cifra de ahorro (con separadores de miles
+  tolerantes), local-part del email, y `lang ∈ {es,en,fr,de,pt,ca}`.
+- `exentax-web/tests/e2e/language-switch.spec.ts` — switch entre
+  `/es/blog/cuanto-cuesta-constituir-llc` y los 5 locales (en/fr/de/pt/ca),
+  con persistencia en `localStorage["exentax_lang"]` + presencia y
+  navegabilidad del `<link rel="alternate" hreflang>` BCP-47.
+
+Infra:
+- `playwright.config.ts` restringe `testMatch` a `tests/e2e/*.spec.ts`
+  (los `tests/ga4-events.spec.ts` y `blog-test.spec.ts` siguen en el repo
+  pero no bloquean merges) y arranca el dev server por sí mismo cuando
+  `CI=1`.
+- `.github/workflows/e2e.yml` define **dos jobs requeridos**:
+  1. `playwright` — instala chromium con `--with-deps`, ejecuta
+     `npm run test:e2e`, sube `playwright-report/` como artifact con
+     **retención 14 días** y trazas por fallo.
+  2. `prod-build-smoke` — `SKIP_BUILD_E2E=1 npm run build` para validar
+     que el bundle de producción (Vite + esbuild) compila contra el
+     árbol actual y los artefactos clave (`dist/index.mjs`,
+     `dist/index.cjs`, `dist/public/assets/`) existen. Las E2E
+     newsletter/booking del propio build script ya las cubre
+     `quality-pipeline.yml` con su Postgres dedicado.
+- `tests/e2e/_setup.ts` expone `suppressCookieBanner(page)` (sembra
+  `exentax_cookie_consent="all"` vía `addInitScript`) usado por los 3
+  specs en su `beforeEach` para evitar que el banner intercepte clics.
+- `tests/e2e/README.md` documenta cómo correr local/CI, convenciones y
+  troubleshooting.
+
+Cómo verificar:
+```bash
+cd exentax-web
+PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+  npx playwright test --project=chromium
+# → 11 passed (~57s)
+```
+Marcar `Playwright E2E (chromium)` y `Production bundle smoke build`
+como required en branch protection.
 
 ### 15. Scripts huérfanos detectados — **CERRADO 2026-04-26**
 

@@ -132,7 +132,7 @@ export default function StartPage() {
           </p>
         </div>
 
-        <div ref={calcRef}>
+        <div ref={calcRef} data-testid="calculator-mount">
           {calcVisible && (
             <Suspense fallback={<div style={{ minHeight: 320 }} />}>
               <Calculator />

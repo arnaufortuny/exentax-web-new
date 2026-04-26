@@ -74,6 +74,19 @@ export async function registerRoutes(
     // these legitimate requests. The signature is a strictly stronger
     // proof of authenticity, so we exempt the path here.
     if (req.path === "/api/discord/interactions") return next();
+    // E2E test-only routes are exempt from the same-origin CSRF check
+    // because Playwright's APIRequestContext does not set an Origin
+    // header matching the dev domain. The routes are gated behind an
+    // `x-e2e-test: 1` request header AND only mounted when either
+    // NODE_ENV !== "production" (local dev) or E2E_TEST_HOOKS=1 (CI
+    // prod-bundle smoke), so this exemption is a no-op in real
+    // production deployments.
+    if (
+      req.path.startsWith("/api/__test/") &&
+      (process.env.NODE_ENV !== "production" || process.env.E2E_TEST_HOOKS === "1")
+    ) {
+      return next();
+    }
     if (!checkCsrfOrigin(req)) {
       if (process.env.NODE_ENV !== "production") {
         logger.warn(`[csrf] blocked: origin="${req.headers.origin}" referer="${req.headers.referer}" host="${req.headers.host}"`, "auth");

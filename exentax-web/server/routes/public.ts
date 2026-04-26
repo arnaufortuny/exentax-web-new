@@ -16,7 +16,7 @@ import {
   SlotConflictError,
 } from "../storage";
 import { encryptField } from "../field-encryption";
-import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail } from "../email";
+import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail, renderCalculatorEmailHtml } from "../email";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -230,6 +230,49 @@ export function __setConsolidationRedirectForTest(from: string, to: string | nul
 }
 
 export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<typeof setInterval>[]) {
+
+  // ─────────────────────────────────────────────────────────────────────
+  // E2E test-only endpoint: render the branded calculator email HTML
+  // ─────────────────────────────────────────────────────────────────────
+  // Returns the exact HTML the user would receive after a successful
+  // /api/calculator-leads POST, WITHOUT touching the database, Gmail
+  // transport, rate limiter, or any other side-effect path. Used by
+  // `tests/e2e/calculator-flow.spec.ts` to assert the branded email
+  // payload (logo, brand color, savings figure, CTA, etc.) without
+  // requiring a live mail provider in CI.
+  //
+  // Mounted in two cases:
+  //   - NODE_ENV !== "production"  → local dev (Replit "Start application"
+  //     workflow) so the calculator-flow E2E spec can hit it without any
+  //     extra setup.
+  //   - E2E_TEST_HOOKS === "1"     → CI smoke against the prod bundle
+  //     (the bundle hard-codes NODE_ENV=production via esbuild's `define`,
+  //     so the env-var path is the only way to opt in there).
+  // Real production deployments set NODE_ENV=production and do NOT set
+  // E2E_TEST_HOOKS, so the route literally does not exist in production.
+  // Also gated behind the `x-e2e-test: 1` request header so a
+  // misconfigured staging never serves it by accident.
+  if (process.env.NODE_ENV !== "production" || process.env.E2E_TEST_HOOKS === "1") {
+    app.post("/api/__test/render-calculator-email", asyncHandler(async (req, res) => {
+      if (req.headers["x-e2e-test"] !== "1") {
+        return apiNotFound(res, "not found");
+      }
+      const parsed = calculatorLeadSchema.safeParse(req.body);
+      if (!parsed.success) {
+        return apiValidationFail(res, parsed.error);
+      }
+      const expectedAhorro = parsed.data.sinLLC - parsed.data.conLLC;
+      if (Math.abs(parsed.data.ahorro - expectedAhorro) > 1) {
+        parsed.data.ahorro = Math.max(0, expectedAhorro);
+      }
+      const { html, subject, lang } = renderCalculatorEmailHtml({
+        ...parsed.data,
+        clientIp: "0.0.0.0",
+        leadId: "TEST_LEAD_E2E",
+      });
+      return res.json({ html, subject, lang });
+    }));
+  }
 
   // 301 redirect to canonical localized blog slug (search-engine friendly).
   // Example: /en/blog/llc-estados-unidos-guia-completa-2026 -> /en/blog/llc-united-states-complete-guide-2026
