@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales". Evitar definición y "En este artículo".**
+> **ACH tarda 1-3 días business y cuesta $0-5 (NACHA rules); domestic wire llega el mismo día por $20-45; international wire 1-5 días + spread FX 1-3% del monto. Para cobrar de cliente US a tu Mercury, ACH es la opción default; para enviar a tu cuenta española, sólo wire (con o sin Wise como intermediario) funciona.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+NACHA Operating Rules 2026: ACH same-day disponible desde 2016 (cut-off 4:45pm ET) por $1-5 extra; Standard ACH 1-3 days settlement. Fedwire: SLA same-day si origen antes de 6pm ET; coste medio domestic $20-45, international $35-60 + IBAN/SWIFT relay. International wire UE: SEPA Instant gratuito intra-EUR; SWIFT global 1-5 días con spread del banco intermediario 0.5-3%.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿ACH internacional existe?" → No: ACH es exclusivo US (NACHA); para enviar fuera necesitas wire SWIFT o servicio fintech (Wise) que internamente usa ACH local + corresponsal extranjero.
+2. "¿Wire reversible?" → No: una vez settled (mismo día) el wire es final; sólo recall vía banco origen si beneficiary no ha retirado; ACH sí reversible 60 días.
+3. "¿Por qué Wise tarda 0-2 días si dice "instant"?" → El leg local (ACH US o SEPA EU) es instantáneo; el cambio de divisa y matching interno toma horas-días según el corredor.
+4. "¿Un wire de $50K levanta sospechas?" → Por encima de $10K activa CTR (Currency Transaction Report) FinCEN automático; legal pero el banco puede pedir source-of-funds.
+
 
 ## Plan de corrección del audit
 

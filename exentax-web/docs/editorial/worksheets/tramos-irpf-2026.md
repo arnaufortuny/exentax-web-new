@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Tramos del IRPF 2026 en España: tabla, cálculo y planificación". Evitar definición y "En este artículo".**
+> **El IRPF estatal 2026 tiene 6 tramos (BOE Ley 11/2020 + actualización Presupuestos): 19% hasta 12.450€, 24% hasta 20.200€, 30% hasta 35.200€, 37% hasta 60.000€, 45% hasta 300.000€, 47% por encima — más el tramo autonómico, que en Madrid baja al 8.5% mínimo y en Cataluña/Valencia sube hasta el 25.5%.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Tarifa IRPF 2026 (LIRPF art. 63 + escala estatal Ley 11/2020 + Presupuestos 2024 prorrogados): tramo estatal 9.5% hasta 12.450€, 12% hasta 20.200€, 15% hasta 35.200€, 18.5% hasta 60.000€, 22.5% hasta 300.000€, 24.5% por encima. Sumar tarifa autonómica (varía por CCAA). Mínimo personal 5.550€; mínimo familiar adicional desde art. 58 LIRPF.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿El tramo del 47% es marginal o medio?" → Marginal: sólo aplica al euro 300.001 en adelante. Tu tipo medio efectivo siempre es menor.
+2. "¿Las rentas del ahorro tributan al mismo tipo?" → No: escala separada 19% hasta 6K€, 21% hasta 50K€, 23% hasta 200K€, 27% hasta 300K€, 28% por encima (LIRPF art. 66, Ley 11/2020).
+3. "¿La deducción por maternidad se aplica al tramo?" → No: es deducción de cuota (1.200€/año por hijo < 3 años, LIRPF art. 81-bis); reduce cuota directamente.
+4. "¿Madrid o Andalucía pagan menos IRPF?" → Madrid tiene escala autonómica más baja (8.5% mínimo); Andalucía bajó al 9% mínimo en 2023; Cataluña y Valencia mantienen 10.5-12% en tramos altos.
+
 
 ## Plan de corrección del audit
 

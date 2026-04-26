@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos". Evitar definición y "En este artículo".**
+> **EE. UU. nunca adoptó IBAN: una cuenta US se identifica por routing number (9 dígitos, ABA del banco) + account number; el SWIFT/BIC sólo aparece en wires internacionales. Si tu banco europeo te exige IBAN para enviar a Mercury, no existe — pide el SWIFT de Choice Financial (CHFGUS44) y el account number.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+IBAN: estándar ISO 13616, 34 caracteres máx; obligatorio en SEPA (UE + UK + Suiza + Andorra + Mónaco). EE. UU. usa ABA routing (ANSI X9.9, 9 dígitos) + account number 8-17 dígitos; SWIFT/BIC ISO 9362 para mensajería interbancaria internacional. Mercury opera con Choice Financial (SWIFT: CHFGUS44).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Mi banco español acepta enviar wire sin IBAN?" → Sí: SEPA SWIFT permite enviar a cuenta US indicando SWIFT del beneficiary bank + account number en campo "beneficiary account"; coste 25-45€ + spread.
+2. "¿Existe IBAN para US a través de Wise?" → Sí: Wise emite IBAN belga / inglés sintético ligado a tu cuenta USD; útil para cobrar de clientes UE pero no es cuenta US real.
+3. "¿ACH y wire son lo mismo?" → No: ACH es batch interno US (1-3 días, $0-5), wire es Fedwire (mismo día, $20-45); ACH internacional no existe.
+4. "¿Routing number es igual para ACH y wire?" → A veces no: algunos bancos publican un routing distinto para ACH y otro para wire (ej. JPMorgan); confirmar con el banco antes de compartir.
+
 
 ## Plan de corrección del audit
 

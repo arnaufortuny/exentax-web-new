@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Separar dinero personal y de tu LLC: por qué importa y cómo hacerlo". Evitar definición y "En este artículo".**
+> **Mezclar 1 sólo gasto personal en la cuenta de la LLC ("commingling") basta para que un juez aplique "piercing the corporate veil" en disputa civil US — y entonces toda tu protección patrimonial desaparece. La doctrina alter ego (Walkovszky v. Carlton, NY 1966) sigue vigente y la usan en cobros judiciales contra LLCs no residentes.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Doctrina "piercing the corporate veil" / "alter ego": criterios consolidados (Walkovszky v. Carlton 18 NY 2d 414, 1966; restated en Restatement Third of Agency §7.01): commingling de fondos, falta de capitalización adecuada, no observancia de formalidades, uso para evadir obligaciones personales. Aplica a LLCs single-member en 47 estados con jurisprudencia estatal específica.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿1 cargo accidental con tarjeta personal por la LLC rompe todo?" → No automáticamente, pero suma evidencia. Documentar como "owner contribution" en libro contable y devolver al owner en el siguiente extracto reduce el riesgo.
+2. "¿Y si la LLC tiene cuenta única y yo soy single-member?" → Mantén separación funcional: la cuenta de la LLC sólo paga gastos del business; los retiros al owner se documentan como "distribution" o "owner draw" en libro contable.
+3. "¿Necesito operating agreement aunque sea single-member?" → Sí: 5 estados (CA, NY, MO, ME, DE) lo exigen estatutariamente; el resto lo recomiendan como evidencia anti-piercing.
+4. "¿La protección patrimonial de Wyoming es mayor que la de Delaware?" → Sí en charging order: Wyoming reconoce charging order como "exclusive remedy" para acreedores del miembro (WY Stat §17-29-503); Delaware sólo lo hace para multi-member LLC.
+
 
 ## Plan de corrección del audit
 

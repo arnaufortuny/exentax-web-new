@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Cómo cambiar divisas en tu LLC: las mejores opciones". Evitar definición y "En este artículo".**
+> **Mover $50,000 USD desde tu LLC a tu cuenta personal en EUR puede costarte $750 con el wire bancario tradicional, $200 con Wise Business, o $80 con un broker FX como OFX/CurrencyFair — y la diferencia se acumula cada mes en tu margen real.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Spread típico EUR/USD: bancos US tradicionales 1.5-2% sobre mid-market + $25-45 wire fee; Wise Business 0.41-0.6% + sin fee fijo en envíos < $5K; Revolut Business plan free 0.6%; brokers FX (OFX, CurrencyFair, AFEX) 0.4-0.7% para volúmenes ≥ $10K con forward contracts.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Wise es seguro para volumen alto?" → Hasta £85K en UK / $250K en US vía partner banks; por encima conviene fragmentar o usar broker FX regulado por CFTC/FCA con segregated client accounts.
+2. "¿Pago impuestos por ganancia cambiaria al convertir USD→EUR?" → En España: sí, ganancia patrimonial al cambio (LIRPF art. 33); usar tipo de cambio oficial BCE del día de cada operación.
+3. "¿Forward contract para fijar el tipo a 6 meses?" → OFX y AFEX lo ofrecen sin coste explícito (incluido en spread); útil para facturación recurrente en EUR mientras tu LLC cobra en USD.
+4. "¿Crypto stablecoin para mover USD→EUR?" → Posible vía USDC, pero la conversión USDC→EUR sigue cobrando 0.5-1.5% en Kraken/Bitstamp y suma trazabilidad fiscal extra (cada conversión es operación AEAT).
+
 
 ## Plan de corrección del audit
 

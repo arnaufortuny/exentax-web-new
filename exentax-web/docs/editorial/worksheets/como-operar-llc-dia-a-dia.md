@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Cómo operar tu LLC en el día a día: guía práctica". Evitar definición y "En este artículo".**
+> **Una LLC operativa real necesita 6 acciones recurrentes que la mayoría de servicios "all-in-one" no te explican: registered agent renewal anual, BOI updates en 30 días desde cualquier cambio, annual report estatal, separación bancaria estricta, contabilidad mensual y la presentación 1120/5472 antes del 15 de abril.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Calendario operativo mínimo LLC no residente Wyoming: annual report $60 + tax license $0 (Wyoming) o $300 NM, registered agent $50-150/año, BOI report en 30 días desde cualquier cambio (FinCEN, sanción $591/día tras Inflation Adjustment 2024), Form 5472 + 1120 pro-forma antes del 15 de abril (extensión vía 7004 hasta 15 oct), $25,000 USD si se omite (IRC §6038A).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`services_overview`).
+12. **CTA** — bloque cerrado canónico (`book_consultation`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Si no facturé este año tengo que presentar igual?" → Sí: Form 5472 se exige si hubo cualquier transacción reportable, incluido aporte inicial de capital o préstamos del owner.
+2. "¿Necesito contable US si soy disregarded entity?" → Recomendable. La pro-forma 1120 + 5472 no es trivial; un error tipográfico activa el penalty de $25K automático sin posibilidad de waiver simple.
+3. "¿Puedo tener mi LLC sin actividad un año y reactivarla después?" → Sí, manteniendo registered agent, annual report y BOI; "shelf LLC" en standing es habitual.
+4. "¿La mezcla puntual de cuentas (1 charge personal con tarjeta de la LLC) rompe la limited liability?" → Riesgo de "piercing the corporate veil"; documentar como préstamo del owner y devolverlo en el siguiente extracto reduce el riesgo.
+
 
 ## Plan de corrección del audit
 

@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas". Evitar definición y "En este artículo".**
+> **Stripe y PayPal aceptan LLC US con beneficial owner no residente (KYB con pasaporte + EIN) pero retienen 1099-K si superas $5,000/año desde 2026 (umbral antiguo $20,000 + 200 transacciones reducido por ARPA 2021); Dodo Payments (Lemon Squeezy alternativo) opera como Merchant of Record y se queda con todo IVA UE/sales tax US.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+1099-K threshold revisado: $20,000 / 200 transacciones (pre-2024) → $5,000 / cualquier nº transacciones para tax year 2026 (IRS Notice 2024-85, transición plurianual ARPA 2021). MoR (Merchant of Record): Lemon Squeezy/Dodo asumen el sales tax US y el IVA UE; Stripe Tax + Paddle son intermedios; Stripe puro deja la responsabilidad fiscal en el merchant.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Stripe me deshabilita por estar fuera de US?" → No si la LLC es US y aportas EIN + pasaporte del beneficial owner; sí puede pedir aclaraciones extra si IP de login no coincide con dirección registrada.
+2. "¿PayPal Business para LLC no residente?" → Sí, vía PayPal US Business; transferencias a Mercury / Wise sin coste extra; KYB exige documento ID + EIN.
+3. "¿MoR (Lemon Squeezy / Dodo / Paddle) me ahorra contabilidad fiscal?" → Sí: ellos remiten IVA OSS y sales tax US en tu nombre; coste 5-8% sobre ventas, justificable si vendes a UE/UK con compleja matriz IVA.
+4. "¿Stripe Tax cubre sales tax US automáticamente?" → Calcula y reporta, pero no remite por ti: tienes que registrarte en cada estado y presentar el return tú o vía contable.
+
 
 ## Plan de corrección del audit
 

@@ -34,7 +34,7 @@ C-Corp paga 21% federal flat (TCJA 2017) sobre beneficios + 15-20% adicional al 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`book_consultation`).
+12. **CTA** — bloque cerrado canónico (`llc_state_compare`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 

@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Retenciones de IRPF en la factura: cuándo, cuánto y modelos 111/115/130". Evitar definición y "En este artículo".**
+> **Como autónomo en España aplicas 7% de retención en tus 2 primeros años desde alta (RD 1804/2008) y 15% después; pero si tu cliente es persona física que no actúa como empresario (B2C) NO retienes nada, y eso suele confundir hasta a contables senior.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Retención IRPF en factura de profesional autónomo (LIRPF art. 101): 15% general; 7% durante el año de inicio + 2 años siguientes (RD 439/2007 art. 95.1); B2B obligatorio cuando cliente es empresario o profesional con obligación de retener (LGT art. 23); B2C no procede retención.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Aplico 7% si reactivo el alta tras varios años?" → Sólo si han pasado al menos 12 meses desde la baja anterior (consulta vinculante DGT V0867-12); si no, sigues con el 15%.
+2. "¿Si trabajo para cliente extranjero retengo igual?" → No: clientes no residentes sin establecimiento permanente en España no tienen obligación de retener; tú declaras el ingreso íntegro.
+3. "¿La retención cuenta como pago a cuenta de mi IRPF anual?" → Sí: la suma de retenciones aparece en tu Renta vía 190 cliente y se descuenta de la cuota total.
+4. "¿Servicios artísticos o agrarios tienen retención distinta?" → Sí: rentas de actividades profesionales agrícolas 2% (RD 439/2007 art. 95.4), determinadas actividades artísticas hasta 19%; consultar tabla específica.
+
 
 ## Plan de corrección del audit
 

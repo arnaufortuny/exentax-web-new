@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Bancos vs Fintech: dónde abrir la cuenta de tu LLC". Evitar definición y "En este artículo".**
+> **Mercury, Relay y Brex no son bancos: son fintech respaldadas por Choice Financial / Evolve / Column. La diferencia importa el día que necesitas wire internacional > $50K, prueba de fondos para visa O-1 o evitar el cierre repentino de cuenta — y entonces JPMorgan, BofA o Chase siguen ganando.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Mercury (Choice Financial), Relay (Thread Bank) y Brex (Column N.A.) son fintech con FDIC pass-through hasta $250K por banco partner; sólo bancos de balance directo (Chase, BofA, Wells Fargo) emiten cartas de referencia bancaria aceptadas por consulados y permiten cuentas de margen / líneas de crédito sin score US.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`services_overview`).
+12. **CTA** — bloque cerrado canónico (`book_consultation`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Mercury cierra cuentas sin previo aviso?" → Documentado: 2022-2024 ola de cierres a LLCs single-member no residentes por revisión KYC; mantener segundo banco como backup operativo.
+2. "¿Para qué necesito un banco real si Mercury me da ACH y wires?" → Para línea de crédito, depósito de garantía de oficina/contrato, tarjetas corporativas con APR razonable y aceptación universal de checks.
+3. "¿Puedo abrir Chase/BofA siendo no residente sin viajar?" → No: Chase Business y BofA Business exigen presencia física en sucursal con pasaporte y EIN documents; algunos branches en Miami y NYC tienen procesos para no residentes.
+4. "¿La FDIC me cubre igual en Mercury que en Chase?" → Hasta $250K sí, vía pass-through al banco partner; pero si Mercury (la fintech intermediaria) quiebra antes de que liquide al banco, hay riesgo operativo demostrado por el caso Synapse 2024.
+
 
 ## Plan de corrección del audit
 

@@ -34,7 +34,7 @@ Reverse charge (art. 196 Directiva 2006/112/CE) sólo aplica B2B con VAT number 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`services_overview`).
+12. **CTA** — bloque cerrado canónico (`book_consultation`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 

@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Amazon y ecommerce con LLC: cómo vender online desde cualquier país". Evitar definición y "En este artículo".**
+> **Vender en Amazon US con LLC no te exime del sales tax: Wayfair v. South Dakota (2018) obliga a recaudar en cualquier estado donde superes 200 transacciones o $100K — y Amazon retiene por ti en 47 estados pero NO en 3 (Alaska, Delaware, Montana, Oregón sin sales tax base, plus Missouri sólo desde 2023).**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+South Dakota v. Wayfair (2018) fijó el umbral de nexo económico en $100,000 ventas o 200 transacciones por estado/año; Amazon como Marketplace Facilitator recauda y remite en 47 estados pero no exime al seller del informe consolidado (Form 1099-K si > $5,000/año en 2026).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Si Amazon recauda el sales tax, sigo necesitando seller permit?" → Sí en algunos estados (California, Texas, Colorado) aunque Amazon facilite — porque la responsabilidad legal de registro recae en el seller residente o foreign seller con nexo.
+2. "¿Mi LLC Wyoming/NM puede vender en Amazon.com?" → Sí, pero necesitas EIN, dirección US física (no PO Box) y cuenta bancaria US; Amazon Seller Account ya no acepta IBAN europeo desde 2022.
+3. "¿Y si vendo a través de FBA con stock en almacén US?" → Triggers nexo físico inmediato en cualquier estado donde Amazon almacene; tienes que registrarte y reportar income tax estatal aunque la LLC no tenga otros vínculos.
+4. "¿Pago income tax en EE. UU. siendo no residente vendiendo en Amazon?" → Si no tienes ETBUS (Engaged in Trade or Business in US), no pagas federal income tax; pero si Amazon FBA almacena tu mercancía, IRS puede sostener que sí hay ETBUS. Consultar.
+
 
 ## Plan de corrección del audit
 

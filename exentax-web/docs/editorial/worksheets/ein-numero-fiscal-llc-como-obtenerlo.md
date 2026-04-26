@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso". Evitar definición y "En este artículo".**
+> **El EIN para LLC de no residente sin SSN/ITIN sólo se obtiene por fax (4-6 semanas) o teléfono al +1-267-941-1099 (M-F 6am-11pm ET, espera 30-90 min) — no por el portal IRS online, que sí funciona si firmas con tu SSN/ITIN/EIN previo.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Form SS-4 para LLC sin SSN/ITIN del responsible party: vía fax al +1 855-641-6935 (típico 4-6 semanas en 2026) o llamada internacional +1-267-941-1099 (recibes EIN al colgar); el portal IRS online (sa.www4.irs.gov/modiein) exige SSN/ITIN/EIN previo del responsible party.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`book_consultation`).
+12. **CTA** — bloque cerrado canónico (`compliance_checkup`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Puedo poner el EIN del registered agent como responsible party?" → No: el responsible party debe ser la persona física con control efectivo (beneficial owner), no una entidad.
+2. "¿Tarda 6 semanas siempre?" → En temporada baja (mayo-octubre) 3-4 semanas por fax; enero-abril sube a 8-10. Vía teléfono sale en 1 llamada.
+3. "¿Puedo pedir el EIN antes de tener el certificate of formation?" → No: el SS-4 línea 8a requiere fecha de formación y estado; sin filing aprobado no procede.
+4. "¿Qué pongo en SS-4 línea 10 (reason for applying)?" → "Started new business" para LLC nueva; "Banking purpose only" si planeas operar disregarded sin actividad inmediata.
+
 
 ## Plan de corrección del audit
 

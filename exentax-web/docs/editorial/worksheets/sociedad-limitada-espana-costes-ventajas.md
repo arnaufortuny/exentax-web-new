@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Sociedad limitada en España 2026: costes, ventajas y comparativa con LLC". Evitar definición y "En este artículo".**
+> **Constituir SL en España en 2026 cuesta entre 600€ (CIRCE telemático con socio único) y 1.500€ (notaría + registro + Modelo 600 + asesoría); pero el coste real es la cotización del administrador (340€/mes mínimo en RETA o nómina con SS empresa 30%) y el Impuesto Sociedades 23% del primer tramo (Ley 11/2020).**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Costes constitución SL 2026: capital mínimo 1€ desde Ley 18/2022 ("SL Express" o SLNE); notaría 80-300€, Registro Mercantil 60-150€, Modelo 600 ITP 1% (exento desde Ley 14/2013 art. 45.I.B.11 si capital ≤ 3.000€); IS tipo reducido 23% primeros 1M€ rendimiento neto (LIS art. 29.1, redacción Ley 11/2020).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿La SL me protege más que el autónomo?" → Sólo del riesgo civil empresarial; no del IRPF/IRS personal. El administrador único responde personalmente de deudas SS y AEAT en SL.
+2. "¿Capital 1€ es real o necesito 3.000€?" → 1€ legal desde Ley 18/2022 con régimen SLNE/SL Express, pero pierdes acceso a línea ICO y financiación bancaria.
+3. "¿Cuándo conviene SL frente a LLC US?" → SL si operas 100% en España con clientes españoles; LLC si > 50% facturación es internacional B2B y planificas residencia futura distinta a España.
+4. "¿Pago IS aunque no reparta dividendo?" → Sí: el IS grava el beneficio del ejercicio; el dividendo a posteriori tributa de nuevo en IRPF socio (rentas del capital mobiliario 19-28%).
+
 
 ## Plan de corrección del audit
 

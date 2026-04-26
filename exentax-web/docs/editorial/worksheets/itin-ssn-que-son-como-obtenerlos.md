@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC". Evitar definición y "En este artículo".**
+> **Sin SSN ni ITIN no puedes presentar 1040-NR ni reclamar treaty benefits: SSN sólo emitido a residentes/visados de trabajo (SSA Form SS-5), ITIN para no residentes con obligación fiscal US (Form W-7 vía CAA o por correo a Austin TX, 7-11 semanas).**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+SSN: emitido por SSA bajo SSI Act §205(c)(2)(B); requiere status migratorio válido (USC, LPR, work-authorized). ITIN: 9 dígitos formato 9XX-7X-XXXX o 9XX-8X-XXXX, gestionado por IRS bajo IRC §6109(i); Form W-7 + 1040-NR adjunto + pasaporte original o copia certificada CAA. Renovación cada 3 años si no se usa.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Necesito ITIN si mi LLC es disregarded sin actividad efectiva US?" → No: el responsible party del SS-4 puede ser identificado por nombre+pasaporte; ITIN sólo se requiere si vas a presentar 1040-NR personal.
+2. "¿Puedo solicitar ITIN online?" → No: el W-7 actual sigue requiriendo papel firmado a Austin, Texas. Los servicios "online" son intermediarios CAA.
+3. "¿Cuánto tarda realmente?" → IRS oficial 7 semanas; realista 9-11 semanas en temporada de tax filing (enero-abril).
+4. "¿Necesito enviar mi pasaporte original al IRS?" → No si usas un Certifying Acceptance Agent (CAA) reconocido; el CAA certifica copia y tú conservas el original.
+
 
 ## Plan de corrección del audit
 

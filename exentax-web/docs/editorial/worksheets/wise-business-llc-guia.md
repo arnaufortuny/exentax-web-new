@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Wise Business para tu LLC: guía completa". Evitar definición y "En este artículo".**
+> **Wise Business para LLC US no residente cuesta $33 one-time + 0.41-0.6% por conversión EUR/USD; abre cuentas en 50+ divisas con IBAN belga/británico/húngaro propio, lo que permite cobrar de clientes UE como si fueras europeo — pero NO funciona como banco US (el routing number es de Community Federal Savings, no propio).**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Wise Business: alta $33 USD one-time fee, sin monthly fees; cuentas multi-currency con IBAN BE/GB/HU/RO + ACH/SWIFT US (vía Community Federal Savings Bank, NY); spread 0.41-0.6% sobre mid-market FX (depende del corredor); FDIC pass-through hasta $250K en US accounts; FCA-regulated en UK con safeguarding (no FSCS).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Wise sustituye Mercury para mi LLC?" → No para nómina ACH ni cobros 1099-K; sí para conversión FX y cuentas en EUR/GBP/HUF.
+2. "¿IBAN belga de Wise me sirve para domiciliar en España?" → Sí: SEPA acepta IBAN BE como cualquier IBAN español para ingresos.
+3. "¿Wise reporta al IRS si soy no residente?" → Sí emite 1099-K si superas $5,000 cobrados en 2026 (Notice 2024-85); el W-8BEN-E evita la retención del 30% pero no elimina el reporte informativo.
+4. "¿Mantener Wise + Mercury es overkill?" → No: Mercury para receivables ACH US y Wise para FX y EUR/GBP es el setup estándar de freelancers internacionales.
+
 
 ## Plan de corrección del audit
 

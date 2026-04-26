@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Cómo abrir una cuenta Mercury para tu LLC desde cualquier país". Evitar definición y "En este artículo".**
+> **Mercury aprueba LLC de no residente en 5-7 días si tu solicitud cumple 4 requisitos: EIN ya emitido, dirección física US (no PO Box ni Earth Class Mail genérico), descripción de negocio en 2-3 frases concretas con clientes B2B identificables, y al menos 1 documento de identidad de país no sancionado.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Mercury (Choice Financial Group, FDIC #11707) acepta LLC formadas en cualquier estado US con beneficial owner no residente (excepto países OFAC SDN list); decisión típica 5-10 business days; sin minimum balance ni monthly fees en plan Mercury Standard; FDIC pass-through hasta $5M vía sweep network desde 2024.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Necesito viajar para abrir Mercury?" → No: 100% online, video-KYC con pasaporte; cero presencia física en US.
+2. "¿Por qué Mercury me rechazó si tengo todo en regla?" → Causas habituales: dirección registrada igual a la de registered agent (señala "shell"), descripción genérica tipo "consulting", país beneficial owner en watchlist.
+3. "¿Mercury reporta al IRS si soy no residente?" → Sí: emite 1099-INT por intereses de cuenta savings; pero no FATCA-reportable a tu país residencia (eso es por el W-8BEN-E).
+4. "¿Mercury ofrece tarjeta física?" → Sí, plan estándar; debit Visa enviada a dirección US o Earth Class Mail con reenvío.
+
 
 ## Plan de corrección del audit
 

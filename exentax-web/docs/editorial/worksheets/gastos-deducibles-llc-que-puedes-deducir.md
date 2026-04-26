@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir". Evitar definición y "En este artículo".**
+> **Una LLC de no residente disregarded sin ETBUS no deduce nada en EE. UU. (no rellena Schedule C); pero si la AEAT te recalifica los rendimientos como atribución de rentas (LIRPF art. 87-90), todos los gastos ordinarios y necesarios sí se deducen contra la base — siempre que tengas factura formal y prueba de pago bancario.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+IRC §162 ("ordinary and necessary business expenses") aplica a LLC con ETBUS; si la LLC es disregarded sin ETBUS, los gastos se trasladan al miembro y se deducen en su jurisdicción de residencia (España: LIRPF art. 28-30, atribución vía LIRPF art. 87 si la LLC se atribuye como entidad transparente).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Puedo deducir el sueldo que me pago como owner?" → No en LLC disregarded: el "owner draw" no es gasto, es retiro de patrimonio. Sí en S-Corp (W-2 reasonable salary) o multi-member LLC con guaranteed payment.
+2. "¿Gastos previos a la formación de la LLC?" → IRC §195 permite deducir hasta $5,000 de start-up costs el primer año + amortización 15 años para el resto.
+3. "¿Suscripciones SaaS pagadas con tarjeta personal?" → Deducibles si reembolsas vía cuenta de la LLC y conservas factura B2B con el EIN; documentar como expense report.
+4. "¿Comidas con cliente en US?" → Bajo IRC §274(n), sólo el 50% es deducible (excepto las 2021-2022 que fue 100% por COVID); requiere fecha, lugar, asistentes y propósito documentado.
+
 
 ## Plan de corrección del audit
 

@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Criptomonedas y trading con LLC: fiscalidad completa para traders". Evitar definición y "En este artículo".**
+> **Tradear cripto a través de una LLC US no exime del IRS: cada swap (BTC→ETH) es taxable event como capital gain, el IRS introdujo 1099-DA obligatorio para brokers desde 2025 (Form 1099-DA, Notice 2024-56), y residentes en España sumáis Modelo 721 (informativa de cripto en exchanges no españoles, sanción mínima 300€).**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+IRS Form 1099-DA obligatorio para brokers de criptoactivos a partir de operaciones realizadas desde el 1 de enero de 2025 (Notice 2024-56); en España, Modelo 721 (RD 249/2023) exige declarar saldos cripto > 50.000€ en exchanges extranjeros antes del 31 de marzo del año siguiente.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Si la LLC es disregarded el residente fiscal español tributa al 19-26% como ganancia patrimonial?" → Sí: la AEAT mira el subyacente; cada swap es alteración patrimonial computada en EUR al tipo del día.
+2. "¿Wash sale rule aplica a cripto?" → A enero 2026 sigue sin aplicar (IRC §1091 sólo cubre securities); permitido vender BTC en pérdida y recomprar inmediatamente para realizar la pérdida.
+3. "¿Staking rewards son income desde día 1?" → Sí: Rev. Rul. 2023-14 confirma que rewards de staking son ordinary income al fair market value el día que el contribuyente toma control.
+4. "¿Puedo usar Coinbase Business con LLC no residente?" → Sí (Coinbase Prime exige KYB del beneficial owner); algunas exchanges como Kraken Pro restringen a residentes US verificados.
+
 
 ## Plan de corrección del audit
 

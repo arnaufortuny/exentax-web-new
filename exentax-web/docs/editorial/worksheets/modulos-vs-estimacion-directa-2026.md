@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Módulos vs estimación directa 2026: cuál te conviene como autónomo". Evitar definición y "En este artículo".**
+> **Si facturas > 250.000€ a empresarios o > 150.000€ totales (cualquier cliente) en 2026 quedas excluido de módulos automáticamente (RD 1065/2007 art. 32-bis); el régimen de estimación directa simplificada se vuelve obligatorio y los pagos fraccionados se calculan al 20% del rendimiento neto trimestral (Modelo 130) en lugar del % fijo del módulo.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Umbrales 2026 estimación objetiva (módulos): rendimientos íntegros ≤ 250.000€ totales o 125.000€ a empresarios (Orden HFP/1115/2024); compras ≤ 250.000€/año; resto del límite mantenido en Ley 9/2017. Estimación directa simplificada: amortización tabla simplificada art. 30 RIRPF, gastos de difícil justificación 5% (máx. 2.000€).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`compliance_checkup`).
+12. **CTA** — bloque cerrado canónico (`book_consultation`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Puedo elegir estimación directa aunque cumpla módulos?" → Sí: renuncia vía Modelo 036 antes del 31 de diciembre del año previo; vinculación 3 años.
+2. "¿Módulos siempre paga menos?" → Sólo si rindes por debajo del módulo unitario; si tu margen real supera el módulo, módulos paga más que directa.
+3. "¿Qué pasa si supero el umbral en Q3?" → Sales del régimen al año siguiente, no al instante; pero declaras Q4 ya con riesgo de comprobación.
+4. "¿Estimación directa simplificada o normal?" → Simplificada hasta 600.000€/año cifra de negocios; normal obligatoria por encima.
+
 
 ## Plan de corrección del audit
 

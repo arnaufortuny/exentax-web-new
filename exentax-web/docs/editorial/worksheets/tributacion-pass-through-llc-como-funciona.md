@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Pass-Through de las LLC: qué es, cómo funciona y por qué es ventaja". Evitar definición y "En este artículo".**
+> **Pass-through significa que la LLC NO paga impuesto de sociedades federal: el income "pasa" al owner que lo declara en su 1040 (residente) o 1040-NR (no residente con ETBUS); pero si eres no residente sin ETBUS y sin US-source income, no hay pass-through fiscal en EE. UU. — toda la tributación queda en tu país residencia.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Treas. Reg. §301.7701-3 ("check-the-box"): single-member LLC clasificada por defecto como "disregarded entity" (gastos al owner directamente); multi-member LLC clasificada por defecto como partnership (Form 1065 + K-1 a cada miembro). Elección a corporation vía Form 8832; a S-Corp vía Form 2553 (sólo US persons o residentes).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`book_consultation`).
+12. **CTA** — bloque cerrado canónico (`services_overview`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Si soy no residente y la LLC factura $100K, pago algo en US?" → Sólo si hay ETBUS o US-source income (FDIC, dividendos, alquileres); si todo es servicio prestado fuera de US a clientes no-US, federal income tax 0%.
+2. "¿Multi-member LLC con 2 no residentes funciona?" → Sí: partnership por defecto; Form 1065 + K-1 a cada miembro; sin ETBUS, los miembros no rellenan 1040-NR.
+3. "¿Si elegimos corporation perdemos pass-through?" → Sí: la C-Corp tributa 21% IS federal y luego dividendo grava de nuevo (doble imposición); útil sólo si planeas reinvertir todo o atraer VCs.
+4. "¿La SMLLC de un residente puede tener pass-through a Schedule C como una de no residente?" → Sí, pero el residente paga self-employment tax (15.3%) y el no residente no.
+
 
 ## Plan de corrección del audit
 

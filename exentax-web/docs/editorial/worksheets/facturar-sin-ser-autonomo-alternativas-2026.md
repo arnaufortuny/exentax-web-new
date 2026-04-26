@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Facturar sin ser autónomo en 2026: alternativas legales reales". Evitar definición y "En este artículo".**
+> **Hay 4 vías legales en 2026 para facturar en España sin alta de autónomo: cooperativa de facturación (Smart Ibérica, Factoo), sociedad limitada unipersonal, LLC US con ATAD-compliance, y el régimen de actividad esporádica (criterio AEAT 2018: ingresos < SMI y no habitualidad) — pero sólo el último es realmente "sin alta".**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Criterio AEAT (Resolución TEAC 7950/2018 y consultas vinculantes V0917-19 / V1842-22): no es obligatoria el alta en RETA si la actividad no es habitual ni los ingresos superan el SMI anual (15.876 €/año en 2026 según RD 145/2024); pero sigue siendo obligatorio el alta censal IAE (Modelo 036/037) y la facturación con IVA cuando proceda.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿La cooperativa de facturación me ahorra realmente?" → Sólo bajo umbral SMI; cobran 6-12% de comisión y siguen reteniendo IRPF como rendimiento del trabajo. Inspección 2023-2024 abrió expedientes a varios operadores.
+2. "¿LLC US me libra del autónomo en España?" → No directamente: si operas la LLC desde España de forma habitual, AEAT puede sostener establecimiento permanente y exigir alta + IVA + IS.
+3. "¿Cuánto es el SMI 2026 de referencia?" → 15.876 €/año (RD 145/2024); umbral mensual 1.323€ x 12 pagas (1.134€ x 14 pagas).
+4. "¿Y si facturo sólo 1 cliente puntual al año por 800€?" → Considerado actividad esporádica; alta censal vía Modelo 036 obligatoria, RETA opcional, IVA aplica desde el primer euro si el cliente lo permite.
+
 
 ## Plan de corrección del audit
 

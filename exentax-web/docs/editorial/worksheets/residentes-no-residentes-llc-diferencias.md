@@ -34,7 +34,7 @@ $25,000 USD/año por Form 5472 omitido aplica solo a la LLC propiedad de no resi
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`book_consultation`).
+12. **CTA** — bloque cerrado canónico (`services_overview`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 

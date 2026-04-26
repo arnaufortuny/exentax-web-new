@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "¿Qué es el IRS? Guía completa para dueños de LLC". Evitar definición y "En este artículo".**
+> **El IRS no es Hacienda US: es la Internal Revenue Service del Department of Treasury, con jurisdicción exclusiva sobre impuestos federales (income, payroll, excise) — NO sobre sales tax (estatal) ni property tax (municipal); para LLC no residente, el IRS sólo te ve si tienes ETBUS, US-source income o eres responsible party del Form 5472.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+IRS estructura 2026: 4 divisiones operativas (LB&I large business, SB/SE small business/self-employed, W&I wage & investment, TE/GE tax-exempt); centros de procesamiento internacional para no residentes en Austin TX (1040-NR, W-7, SS-4 fax) y Ogden UT (1120, 5472); plazo respuesta carta IRS 30-60 días con derecho a CAP appeal antes de Tax Court.
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿El IRS me puede embargar cuentas en España?" → No directamente: convenios de doble imposición (España-EE. UU. de 1990, Protocolo 2019) permiten cooperación pero el IRS no tiene autoridad ejecutiva en España.
+2. "¿IRS puede revocar mi EIN?" → No revoca; lo desactiva si la LLC se disuelve o no presenta returns durante 5+ años (clasificación dormant).
+3. "¿Qué es un Notice CP-2000?" → Carta IRS que informa de inconsistencia entre tu return y datos de terceros (1099, W-2); no es auditoría todavía pero sí riesgo si no respondes en 60 días.
+4. "¿Carta del IRS en sobre azul?" → Es comunicación oficial; nunca es spam. Verificar siempre vía irs.gov o llamada al 1-800-829-1040 antes de pagar.
+
 
 ## Plan de corrección del audit
 

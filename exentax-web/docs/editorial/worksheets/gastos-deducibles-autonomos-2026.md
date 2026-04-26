@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Gastos deducibles para autónomos en 2026: la lista práctica". Evitar definición y "En este artículo".**
+> **El 30% de tu suministro doméstico (luz, agua, gas, internet) es deducible si declaras local afecto al trabajo en Modelo 036 — pero la Sentencia TS 1462/2018 limita el cómputo a la proporción de m² registrada, y la AEAT exige factura emitida a tu NIF como autónomo, no al IBI del piso.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Reforma LIRPF 2018 (Ley 6/2017 art. 11): suministros vivienda parcialmente afecta al 30% del % declarado de m² (ej. piso 100m² con 20m² afectos = 6% del recibo); manutención hasta 26,67€/día España y 48,08€/día extranjero (RD 439/2007 art. 9.A.3); kilometraje propio 0,26€/km (sin variación 2026).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -38,9 +38,11 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Móvil 100% deducible?" → No automático: AEAT exige líneas separadas o prueba de uso profesional > 50%; criterio TEAC 2453/2017.
+2. "¿Software SaaS extranjero (Notion, Zoom)?" → 100% deducible si factura B2B; si proveedor UE no tiene tu ROI registrado puede facturar con IVA local irrecuperable.
+3. "¿Comida con cliente (sin pernoctación)?" → Deducible vía art. 30 LIRPF: hasta 26,67€/día en España, justificable con ticket simplificado < 400€ + identificación del cliente en el reverso.
+4. "¿Vehículo afecto si lo uso también para personal?" → No deducible salvo afectación 100% (criterio TEAC 5957/2018); excepción taxis, autoescuela, comerciales y agencia de viajes.
+
 
 ## Plan de corrección del audit
 

@@ -15,11 +15,11 @@
 
 ## Gancho objetivo (rewrite-completo)
 
-> **Abrir con cifra concreta o pregunta-objeción del lector real sobre "Mantenimiento anual de tu LLC: obligaciones, plazos y costes". Evitar definición y "En este artículo".**
+> **Mantener una LLC en good standing cuesta entre $110/año (Wyoming: $60 annual report + $50 RA) y $850/año (Delaware: $300 franchise tax + $50 annual report + $50-150 RA + tax fees) — más el filing federal IRS Form 5472 + 1120 pro-forma con sanción de $25,000 si se omite.**
 
 ### Dato concreto a usar en los primeros 100 palabras
 
-Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año normativa) que aplique al tema del artículo. Mínimo 1 dato cuantitativo en los primeros 100 palabras.
+Annual report fees por estado 2026: Wyoming $60 (jul 1), Nuevo México $0 (sin annual report), Delaware $300 franchise + $50 annual report (jun 1), Florida $138.75 (may 1); BOI report obligatorio para "domestic reporting companies" desde 2024 en 30 días desde cualquier cambio (FinCEN, sanción $591/día tras Inflation Adjustment 2024).
 
 ## Esquema de secciones recomendado (12 bloques)
 
@@ -34,13 +34,15 @@ Reemplazar con dato verificable de fuente oficial (cifra, plazo, sanción, año 
 9. **FAQ** — 6-8 preguntas reales del cliente.
 10. **Qué incluye Exentax** — el servicio aplicable a este tema.
 11. **Referencias normativas** — bloque con BOE / IRS / FinCEN / OCDE / etc.
-12. **CTA** — bloque cerrado canónico (`book_consultation`).
+12. **CTA** — bloque cerrado canónico (`compliance_checkup`).
 
 ## Objeciones a resolver (mínimo 3, ideal 5)
 
-1. Identificar 3-5 objeciones reales que el lector formula al leer este tema (recoger de FAQ existentes, comentarios cliente y briefing comercial).
-2. Convertir cada objeción en un H2/H3 con formato "¿Y si...?" / "Lo que NO te cuentan" / "El coste de no...".
-3. Resolver cada objeción con dato concreto + fuente oficial, no con opinión.
+1. "¿Si pierdo el good standing puedo recuperarlo?" → Sí, vía reinstatement filing + back-fees + late penalty; puede tardar 4-12 semanas, durante las cuales no puedes operar.
+2. "¿Necesito pagar state income tax si no tengo nexo?" → No estados sin income tax (WY, NV, FL, TX, SD); en NM, DE etc. sí hay annual filing aunque no haya income.
+3. "¿La extensión Form 7004 es automática?" → Sí, si la presentas antes del 15 de abril; sin ella, la sanción se devenga.
+4. "¿BOI sigue vigente en 2026?" → Sí para domestic reporting companies; el alcance se redujo en marzo 2025 (excluyó a foreign reporting companies por interim rule), pero las US-formed siguen obligadas con sanción $591/día.
+
 
 ## Plan de corrección del audit
 
