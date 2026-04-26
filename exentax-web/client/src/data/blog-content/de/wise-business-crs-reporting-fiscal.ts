@@ -143,11 +143,9 @@ Die oben beschriebenen Bankoperationen stützen sich auf öffentliche Dokumentat
 
 Zu Informationszwecken; jeder Bankenfall erfordert eine eigene Analyse von KYC, Wohnsitzjurisdiktion und Volumen.
 
-<!-- exentax:cross-refs-v1 -->
-### Weiterführende Lektüre
+_Weiter dazu: [Visa und Mastercard: was die Steuerbehörden tatsächlich von Ihren Kartenausgaben sehen](/de/blog/visa-mastercard-reporting-was-die-finanzamter-von)._
 
-- [Visa und Mastercard: was die Steuerbehörden tatsächlich von Ihren Kartenausgaben sehen](/de/blog/visa-mastercard-reporting-was-die-finanzamter-von)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Möchten Sie dieses Vorgehen auf Ihren Fall anwenden? <a href="/de/buchen">Buchen Sie ein Gespräch mit dem Exentax-Team</a> und wir gehen Ihre LLC mit echten Zahlen in dreißig Minuten durch, ohne Verpflichtung.
 

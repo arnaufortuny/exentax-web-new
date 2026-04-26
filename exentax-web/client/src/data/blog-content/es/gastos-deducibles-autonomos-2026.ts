@@ -83,7 +83,9 @@ En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar d
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/modulos-vs-estimacion-directa-2026">módulos frente a estimación directa</a>, <a href="/es/blog/iva-intracomunitario-servicios-europa">el IVA intracomunitario en servicios a Europa</a> y la <a href="/es/blog/cuotas-autonomos-2026-guia-completa">guía completa de cuotas de autónomos 2026 con cifras oficiales</a>.
+_Para ampliar en la misma serie: [módulos frente a estimación directa](/es/blog/modulos-vs-estimacion-directa-2026), [el IVA intracomunitario en servicios a Europa](/es/blog/iva-intracomunitario-servicios-europa), [guía completa de cuotas de autónomos 2026 con cifras oficiales](/es/blog/cuotas-autonomos-2026-guia-completa)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

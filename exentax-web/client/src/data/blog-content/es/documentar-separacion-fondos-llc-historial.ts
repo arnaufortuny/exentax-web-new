@@ -103,11 +103,11 @@ Para periodos cortos (3-6 meses) y volúmenes pequeños, una persona con orden y
 En Exentax acompañamos clean-ups de separación de fondos con frecuencia. El procedimiento es el descrito arriba, ajustado al volumen y antigüedad de la mezcla. El producto final es siempre el mismo: una LLC con corporate veil reforzado, contabilidad coherente, 5472 preparado sin huecos y un memorando que cierra el episodio.
 
 Si llevas con esto pendiente y quieres validarlo en concreto, agenda una sesión inicial gratuita en nuestra página de contacto.
-### Lecturas relacionadas
 
-- [separar dinero personal y de la LLC: por qué importa](/es/blog/separar-dinero-personal-llc-por-que-importa)
-- [bookkeeping de la LLC paso a paso](/es/blog/bookkeeping-llc-paso-a-paso)
-- [errores críticos si ya tienes una LLC](/es/blog/errores-criticos-llc-ya-constituida)
+_Para ampliar en la misma serie: [separar dinero personal y de la LLC: por qué importa](/es/blog/separar-dinero-personal-llc-por-que-importa), [bookkeeping de la LLC paso a paso](/es/blog/bookkeeping-llc-paso-a-paso), [errores críticos si ya tienes una LLC](/es/blog/errores-criticos-llc-ya-constituida)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Próximos pasos
 
 Si quieres validar si esta estrategia encaja con tu situación concreta, en Exentax revisamos tu caso de forma personalizada y te proponemos la estructura legal y eficiente que realmente te conviene. Reserva una sesión inicial sin compromiso desde nuestra página de contacto.

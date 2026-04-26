@@ -125,9 +125,8 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 
 What follows is the operational view, not the textbook one. We have run this play enough times to know which variables collapse first under scrutiny from a tax authority or a banking compliance team, and that is the order we tackle them in.
 
-### Further related reading
+<!-- related-inline-stripped-2026-04 -->
 
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 ### Guiding principle: never cut before the operational replacement is ready
 
 The numbers and the calendar matter - get either wrong and the rest unravels.

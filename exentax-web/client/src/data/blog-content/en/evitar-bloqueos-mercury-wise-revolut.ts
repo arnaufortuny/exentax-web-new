@@ -74,11 +74,10 @@ Never depend on a single account. If one gets temporarily blocked, you need to k
 If something in this structure left you wanting more detail, <a href="/en/blog/iban-swift-and-routing-numbers-understanding-international">IBAN, SWIFT and routing numbers: understanding international banking codes</a> and <a href="/en/blog/changing-currencies-for-your-llc-best-options-and-how-to">Changing currencies for your LLC: best options and how to avoid hidden fees</a> dive into neighbouring pieces of the puzzle we usually keep for separate write-ups.
 ### Conclusion and next steps
 
-### Related articles
+_More on this topic: [banking due diligence guide](/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and)._
 
-- <a href="/en/blog/banking-due-diligence-for-your-us-llc-what-banks-check-and">banking due diligence guide</a>
+<!-- related-inline-stripped-2026-04 -->
 
-At Exentax we configure your accounts from the start to minimize the risk of blocks. We prepare all documentation Mercury needs, advise you on how to operate correctly, and if you ever have a problem, we help you resolve it.
 ### Next steps
 
 If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.

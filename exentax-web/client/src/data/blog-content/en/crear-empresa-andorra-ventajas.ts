@@ -191,11 +191,9 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 
 Choosing a jurisdiction always depends on the holder's actual tax residency and on the economic substance of the activity; review your specific case before taking any structural decision.
 
-<!-- exentax:cross-refs-v1 -->
-### Further related reading
+_More on this topic: [Bulgaria 10% corporate tax: the honest picture](/en/blog/bulgaria-10-corporate-tax-the-honest-picture)._
 
-- [Bulgaria 10% corporate tax: the honest picture](/en/blog/bulgaria-10-corporate-tax-the-honest-picture)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22crear%20empresa%20andorra%20ventajas%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

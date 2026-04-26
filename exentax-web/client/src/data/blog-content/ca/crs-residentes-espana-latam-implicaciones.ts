@@ -98,9 +98,9 @@ El CRS no s'"evita" des d'una jurisdicció europea. Es planifica amb coneixement
 Vol que revisem com l'afecta el CRS en el seu cas concret i dissenyem el stack adequat? Reservi la seva assessoria gratuïta i ho analitzem amb vostè.
 Si li ha quedat algun dubte sobre els matisos d'aquesta estructura, <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per">per què deixar de ser autònom a l'Estat espanyol (i quines alternatives té)</a> explica amb detall un aspecte adjacent que sovint deixem apuntat per a un altre dia.
 
-### Lectures relacionades
+_Per ampliar en la mateixa sèrie: [empresa a Panamà: fiscalitat i residència](/ca/blog/empresa-a-panama-fiscalitat-i-residencia-2026)._
 
-- [empresa a Panamà: fiscalitat i residència](/ca/blog/empresa-a-panama-fiscalitat-i-residencia-2026)
+<!-- related-inline-stripped-2026-04 -->
 
 ### Pròxims passos
 

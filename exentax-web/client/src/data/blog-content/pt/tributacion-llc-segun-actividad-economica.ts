@@ -145,11 +145,9 @@ Na Exentax modelamos cada atividade pelas regras de sourcing e pelo teste ETBUS 
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100 % legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
-<!-- exentax:cross-refs-v1 -->
-### Para aprofundar
+_Veja também: [Riscos fiscais de uma má estruturação internacional](/pt/blog/riscos-fiscais-de-uma-ma-estruturacao-internacional)._
 
-- [Riscos fiscais de uma má estruturação internacional](/pt/blog/riscos-fiscais-de-uma-ma-estruturacao-internacional)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 

@@ -122,11 +122,10 @@ Vendre serveis digitals (SaaS, infoproductes, subscripcions, descàrregues) a cl
 A Exentax revisem el teu mix exacte (B2B/B2C, dins/fora UE, plataforma de venda) i et configurem OSS, VIES i mencionem les factures correctament - perquè el dia de la inspecció el flux quadri sol.
 <!-- /exentax:execution-v2 -->
 
-<!-- exentax:cross-refs-v1 -->
-### Lectures relacionades
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
 
-- [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
+
 ## Com treballem a Exentax
 
 El nostre equip està especialitzat en estructures fiscals internacionals per a residents de països de parla hispana que operen negocis en línia. Combinem coneixement local d'Espanya, Andorra i l'Amèrica Llatina amb experiència operativa en la constitució d'entitats a Delaware, Wyoming, Estònia i altres jurisdiccions. Cada cas comença amb una consulta gratuïta en la qual avaluem la residència, l'activitat i els objectius, i et diem amb sinceritat si l'estructura proposada té sentit o si una alternativa més senzilla és suficient.

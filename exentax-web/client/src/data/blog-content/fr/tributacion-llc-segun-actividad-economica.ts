@@ -145,11 +145,9 @@ Chez Exentax nous modélisons chaque activité par les règles de sourcing et le
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà avec leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous prenons en charge le processus complet : constitution, banking, passerelles de paiement, comptabilité, déclarations IRS et compliance dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
-<!-- exentax:cross-refs-v1 -->
-### Pour aller plus loin
+_Dans la même série: [Risques fiscaux d'une mauvaise structuration internationale](/fr/blog/risques-fiscaux-dune-mauvaise-structuration-internationale)._
 
-- [Risques fiscaux d'une mauvaise structuration internationale](/fr/blog/risques-fiscaux-dune-mauvaise-structuration-internationale)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Vous souhaitez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
 

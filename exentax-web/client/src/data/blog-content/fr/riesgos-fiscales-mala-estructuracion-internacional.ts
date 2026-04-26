@@ -145,11 +145,9 @@ Chez Exentax, nous faisons la due diligence des structures héritées, nous rég
 
 Chez Exentax, nous constituons et maintenons des LLC de non-résidents au quotidien: État, EIN, Operating Agreement, BOI quand il s'applique, banque avec Mercury et Wise, passerelles Stripe et Adyen, comptabilité mensuelle, Form 5472 et 1120 pro-forma chaque année, et coordination avec votre fiscalité dans votre pays de résidence. Si vous voulez valider votre cas avec des chiffres réels, réservez une consultation avec notre équipe et nous vous expliquons étape par étape comment cela s'articulerait avec votre situation concrète.
 
-<!-- exentax:cross-refs-v1 -->
-### Pour aller plus loin
+_Dans la même série: [Structures offshore: bénéfices réels et risques honnêtes](/fr/blog/structures-offshore-benefices-et-risques-reels)._
 
-- [Structures offshore: bénéfices réels et risques honnêtes](/fr/blog/structures-offshore-benefices-et-risques-reels)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Vous souhaitez appliquer ce protocole à votre cas? <a href="/fr/reserver">Réservez une session avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
 

@@ -94,9 +94,9 @@ En Exentax analizamos tu caso con datos reales, estimamos cuánto pagas hoy de R
 Si quieres pasar del cálculo al plan, agenda 30 minutos con Exentax y salimos de la llamada con los números cerrados y un calendario operativo.
 <!-- /exentax:execution-v2 -->
 
-## Lecturas relacionadas
+_Para ampliar en la misma serie: [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [los tramos del IRPF 2026 actualizados](/es/blog/tramos-irpf-2026), [la LLC americana como alternativa al autónomo](/es/blog/llc-alternativa-autonomo-espana), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026), [constituir una SL en España: costes y ventajas](/es/blog/sociedad-limitada-espana-costes-ventajas)._
 
-Para profundizar, te puede interesar leer sobre <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/tramos-irpf-2026">los tramos del IRPF 2026 actualizados</a>, <a href="/es/blog/llc-alternativa-autonomo-espana">la LLC americana como alternativa al autónomo</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>, <a href="/es/blog/sociedad-limitada-espana-costes-ventajas">constituir una SL en España: costes y ventajas</a>.
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22La%20cuota%20de%20aut%C3%B3nomo%20es%2C%20para%20la%20mayor%C3%ADa%20de%20freelancers%20espa%C3%B1oles%2C%20el%20primer%20%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>

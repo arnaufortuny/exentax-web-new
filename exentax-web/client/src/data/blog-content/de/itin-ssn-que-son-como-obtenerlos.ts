@@ -181,11 +181,9 @@ Die hier zitierten Vergleiche und quantitativen Daten zu Jurisdiktionen basieren
 
 Die Wahl der Jurisdiktion hängt immer von der tatsächlichen steuerlichen Ansässigkeit des Inhabers und von der wirtschaftlichen Substanz der Tätigkeit ab; prüfen Sie Ihren konkreten Fall vor jeder strukturellen Entscheidung.
 
-<!-- exentax:cross-refs-v1 -->
-### Weiterführende Lektüre
+_Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)._
 
-- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20einen%20deutschsprachigen%20Erstgr%C3%BCnder%20ist%20der%20Unterschied%20zwischen%20ITIN%20und%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>

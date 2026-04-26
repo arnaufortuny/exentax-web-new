@@ -68,11 +68,11 @@ Si l'auditoria et surt neta, guarda l'exercici a la teva carpeta de la LLC amb d
 Si et surten punts vermells, l'ordre raonable és: primer legal (estat, RA, BOI), després fiscal IRS (5472 endarrerits amb l'estratègia adequada), després país (regularització si escau), i per últim operativa (banca i plataformes).
 
 A Exentax revisem casos així cada setmana. Si vols que validem amb tu el resultat de la teva auditoria ràpida i prioritzem els punts vermells sense alarmisme, reserva una sessió inicial gratuïta de 30 minuts a la nostra pàgina de contacte.
-### Lectures relacionades
 
-- [errors crítics si ja tens una LLC](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat)
-- [tinc una LLC, la gestiono bé? checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real)
-- [manteniment anual de la LLC](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)
+_Per ampliar en la mateixa sèrie: [errors crítics si ja tens una LLC](/ca/blog/errors-critics-si-ja-tens-una-llc-i-ningu-tho-ha-explicat), [tinc una LLC, la gestiono bé? checklist real](/ca/blog/tinc-una-llc-la-gestiono-correctament-checklist-real), [manteniment anual de la LLC](/ca/blog/manteniment-anual-de-la-llc-obligacions-que-no-pots-ignorar)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Pròxims passos
 
 Si vols validar si aquesta estratègia encaixa amb la teva situació concreta, a Exentax revisem el teu cas de forma personalitzada i et proposem l'estructura legal i eficient que realment et convé. Reserva una sessió inicial sense compromís a la nostra pàgina de contacte.

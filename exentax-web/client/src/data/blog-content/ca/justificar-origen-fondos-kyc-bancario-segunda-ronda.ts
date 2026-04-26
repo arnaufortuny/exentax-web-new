@@ -126,9 +126,8 @@ A Exentax preparem el dossier de Source of Wealth/Funds abans de la primera oper
 
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
 
-### Lectures relacionades addicionals
+<!-- related-inline-stripped-2026-04 -->
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.
 ### Pas 1. Llegir el correu amb calma i al detall
 
 Nota de camp de qui ho fa córrer mes rere mes amb clients: la regla és simple, és en l'execució que peta. Planifica l'operatiu abans del jurídic.

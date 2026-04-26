@@ -98,9 +98,8 @@ Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: err
 
 La nostra posició aquí és deliberadament conservadora: optimitzem allò que sobreviu a una inspecció, no la xifra més agressiva. Els punts següents són els que estem disposats a defensar per escrit.
 
-### Lectures relacionades addicionals
+<!-- related-inline-stripped-2026-04 -->
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.
 ### Principi rector: mai tallar abans de tenir el substitut operatiu
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.

@@ -154,9 +154,8 @@ At Exentax we model whether a single LLC is enough or holding already fits, desi
 
 We treat this block as one of the load-bearing decisions of the LLC strategy: get it wrong and the rest of the structure leaks tax, banking access or compliance. The notes below distil what we actually do with clients facing this exact case, prioritising the variables that move the needle.
 
-### Further related reading
+<!-- related-inline-stripped-2026-04 -->
 
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 ### 1. Volume and mix of business lines
 
 The numbers and the calendar matter - get either wrong and the rest unravels.

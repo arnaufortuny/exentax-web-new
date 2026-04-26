@@ -142,11 +142,9 @@ The banking operations described above rest on public documentation and on the p
 
 For information purposes; every banking case needs its own analysis of KYC, residency jurisdiction and operational volume.
 
-<!-- exentax:cross-refs-v1 -->
-### Further reading
+_More on this topic: [Visa and Mastercard: what tax authorities really see of your card spending](/en/blog/visa-mastercard-reporting-what-tax-authorities-see-from-card)._
 
-- [Visa and Mastercard: what tax authorities really see of your card spending](/en/blog/visa-mastercard-reporting-what-tax-authorities-see-from-card)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Want to apply this protocol to your own case? <a href="/en/book">Book a session with the Exentax team</a> and we will go through your LLC with real numbers in thirty minutes, no commitment.
 

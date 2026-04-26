@@ -68,11 +68,11 @@ Se a auditoria sai limpa, guarda o exercício na tua pasta da LLC com data. Repe
 Se sais com pontos vermelhos, a ordem razoável é: primeiro legal (estado, RA, BOI), depois fiscal IRS (5472 atrasados com a estratégia adequada), depois país (regularização se procede), e por último operativa (banca e plataformas).
 
 Na Exentax revemos casos assim todas as semanas. Se queres que validemos contigo o resultado da tua auditoria rápida e priorizemos os pontos vermelhos sem alarmismo, agenda uma sessão inicial gratuita de 30 minutos na nossa página de contacto.
-### Leituras relacionadas
 
-- [erros críticos se já tens uma LLC](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou)
-- [tenho uma LLC, estou a geri-la bem? checklist real](/pt/blog/tenho-uma-llc-estou-a-gerir-bem-checklist-real)
-- [manutenção anual da LLC](/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar)
+_Veja também: [erros críticos se já tens uma LLC](/pt/blog/erros-criticos-se-ja-tens-uma-llc-e-ninguem-tas-explicou), [tenho uma LLC, estou a geri-la bem? checklist real](/pt/blog/tenho-uma-llc-estou-a-gerir-bem-checklist-real), [manutenção anual da LLC](/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Próximos passos
 
 Se queres validar se esta estratégia encaixa na tua situação concreta, na Exentax revemos o teu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente te convém. Reserva uma sessão inicial sem compromisso na nossa página de contacto.

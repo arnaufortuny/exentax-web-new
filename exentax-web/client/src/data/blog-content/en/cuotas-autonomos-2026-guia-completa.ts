@@ -94,9 +94,9 @@ At Exentax we analyse your case with real data, estimate how much you pay today 
 If you want to move from calculation to plan, book 30 minutes with Exentax and we walk out of the call with the numbers closed and an operational calendar.
 <!-- /exentax:execution-v2 -->
 
-## Related reading
+_More on this topic: [the autónomo quota by income tiers](/en/blog/spain-self-employed-quota-2026-tiers-explained), [the updated 2026 IRPF brackets](/en/blog/spain-2026-irpf-tax-brackets-explained), [the US LLC as an alternative to the autónomo](/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain), [deductible expenses for autónomos](/en/blog/deductible-expenses-self-employed-spain-2026), [setting up an SL in Spain: costs and advantages](/en/blog/spanish-limited-company-sl-costs-advantages-guide)._
 
-To dive deeper, you may want to read about <a href="/en/blog/spain-self-employed-quota-2026-tiers-explained">the autónomo quota by income tiers</a>, <a href="/en/blog/spain-2026-irpf-tax-brackets-explained">the updated 2026 IRPF brackets</a>, <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">the US LLC as an alternative to the autónomo</a>, <a href="/en/blog/deductible-expenses-self-employed-spain-2026">deductible expenses for autónomos</a>, <a href="/en/blog/spanish-limited-company-sl-costs-advantages-guide">setting up an SL in Spain: costs and advantages</a>.
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22For%20most%20Spanish%20freelancers%2C%20the%20monthly%20aut%C3%B3nomo%20contribution%20(RETA)%20is%20the%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>

@@ -46,11 +46,11 @@ Jede dokumentierte Bewegung mit Kategorie verbuchen.
 ### So machen wir es bei Exentax
 
 Bei Exentax führen wir diese Übung monatlich mit Kunden mit aufgelaufener technischer Schuld durch. Buchen Sie eine kostenlose Erstsession über unsere Kontaktseite.
-### Verwandte Lektüre
 
-- [Corporate Veil durchstoßen: wie vermeiden](/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist)
-- [Buchhaltung Ihrer LLC: beste Praktiken](/de/blog/bookkeeping-fur-ihre-us-llc-schritt-fur-schritt)
-- [Form 5472: wann einreichen und welche Strafe](/de/blog/was-passiert-wenn-sie-form-5472-nicht-einreichen-irs-strafen)
+_Weiter dazu: [Corporate Veil durchstoßen: wie vermeiden](/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist), [Buchhaltung Ihrer LLC: beste Praktiken](/de/blog/bookkeeping-fur-ihre-us-llc-schritt-fur-schritt), [Form 5472: wann einreichen und welche Strafe](/de/blog/was-passiert-wenn-sie-form-5472-nicht-einreichen-irs-strafen)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Nächste Schritte
 
 Wenn Sie validieren möchten, prüfen wir bei Exentax Ihren Fall persönlich. Buchen Sie eine unverbindliche Erstsession über unsere Kontaktseite.

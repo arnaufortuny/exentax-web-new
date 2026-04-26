@@ -188,11 +188,9 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 
 Choosing a jurisdiction always depends on the holder's actual tax residency and on the economic substance of the activity; review your specific case before taking any structural decision.
 
-<!-- exentax:cross-refs-v1 -->
-### Further related reading
+_More on this topic: [Spain exit tax: departure tax for crypto, LLC and Interactive Brokers investors](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)._
 
-- [Spain exit tax: departure tax for crypto, LLC and Interactive Brokers investors](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- task9-2026-expansion -->
 ## How to pay less tax legally in Spain: IRPF deductions, pension plans, Beckham regime and US LLC as a legitimate planning tool

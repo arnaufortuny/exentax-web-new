@@ -33,7 +33,9 @@ En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar d
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>.
+_Para ampliar en la misma serie: [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

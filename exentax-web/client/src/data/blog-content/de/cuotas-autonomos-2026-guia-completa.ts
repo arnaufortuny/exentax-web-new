@@ -94,9 +94,9 @@ Bei Exentax analysieren wir Ihren Fall mit echten Daten, schätzen Ihre heutigen
 Wenn Sie vom Rechnen zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
 
-## Verwandte Lektüre
+_Weiter dazu: [der Autónomo-Beitrag nach Einkommensstufen](/de/blog/autonomo-beitrag-2026-spanien-stufen), [aktualisierte IRPF-Stufen 2026](/de/blog/irpf-tarifstufen-2026-spanien-erklart), [US-LLC als Alternative zum Autónomo](/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien), [abzugsfähige Ausgaben für Autónomos](/de/blog/absetzbare-ausgaben-autonomo-spanien-2026), [SL in Spanien gründen: Kosten und Vorteile](/de/blog/spanische-gmbh-sl-kosten-vorteile-leitfaden)._
 
-Zum Vertiefen lesenswert: <a href="/de/blog/autonomo-beitrag-2026-spanien-stufen">der Autónomo-Beitrag nach Einkommensstufen</a>, <a href="/de/blog/irpf-tarifstufen-2026-spanien-erklart">aktualisierte IRPF-Stufen 2026</a>, <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">US-LLC als Alternative zum Autónomo</a>, <a href="/de/blog/absetzbare-ausgaben-autonomo-spanien-2026">abzugsfähige Ausgaben für Autónomos</a>, <a href="/de/blog/spanische-gmbh-sl-kosten-vorteile-leitfaden">SL in Spanien gründen: Kosten und Vorteile</a>.
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22F%C3%BCr%20die%20meisten%20spanischen%20Freelancer%20ist%20der%20monatliche%20Aut%C3%B3nomo-Beitrag%20(RE%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>

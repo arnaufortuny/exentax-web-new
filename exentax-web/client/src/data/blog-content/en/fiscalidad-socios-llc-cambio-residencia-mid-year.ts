@@ -161,11 +161,10 @@ Moving residence on January 1st is clean. Doing it on June 17th with an active L
 At Exentax we plan mid-year residence changes with active LLCs by designing the optimal tax calendar, the pre-move flows and the documentation that will support the split under both audits.
 <!-- /exentax:execution-v2 -->
 
-<!-- exentax:cross-refs-v1 -->
-### Further related reading
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
 
-- [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
+
 ### Practical reminder
 
 Each tax situation depends on your specific residency, the activity carried out and the contracts in force. The information here is general and does not replace personalised advice; check your particular case before taking structural decisions.

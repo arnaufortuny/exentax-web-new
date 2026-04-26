@@ -33,7 +33,9 @@ Los criterios de habitualidad están consolidados en sentencias del <a href="htt
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/sociedad-limitada-espana-costes-ventajas">constituir una SL en España: costes y ventajas</a>.
+_Para ampliar en la misma serie: [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [constituir una SL en España: costes y ventajas](/es/blog/sociedad-limitada-espana-costes-ventajas)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

@@ -68,6 +68,14 @@ export const HEADING_RE = new RegExp(
   `^(#{1,6})\\s+(?:${escaped})\\b[^\\n]*$`,
   "i",
 );
+// Match a "bold paragraph marker" variant at the start of a line, e.g.
+// `**Lecturas relacionadas:** ...`. The italic legitimate sentence the
+// cleaner inserts (`_Para ampliar en la misma serie: ..._`) is NOT
+// caught because it starts with `_`, not `**`.
+export const BOLD_PARA_RE = new RegExp(
+  `^\\*\\*\\s*(?:${escaped})\\s*:?\\s*\\*\\*`,
+  "i",
+);
 
 export function listContentFiles() {
   const files = [];
@@ -92,6 +100,14 @@ export function findOffenders() {
           file: path.relative(ROOT, file),
           line: i + 1,
           heading: lines[i].trim(),
+          kind: "heading",
+        });
+      } else if (BOLD_PARA_RE.test(lines[i])) {
+        offenders.push({
+          file: path.relative(ROOT, file),
+          line: i + 1,
+          heading: lines[i].trim().slice(0, 200),
+          kind: "bold-paragraph",
         });
       }
     }

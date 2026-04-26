@@ -83,9 +83,11 @@ CRS no se "evita" desde una jurisdicción europea. Se planifica con conocimiento
 
 ¿Quieres que revisemos cómo te afecta CRS en tu caso concreto y diseñemos el stack adecuado? Agenda tu asesoría gratuita y lo analizamos contigo.
 Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/autonomos-espana-por-que-dejar-de-serlo">Por qué dejar de ser autónomo en España (y qué alternativas tienes)</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
-### Lecturas relacionadas
 
-- [empresa en Panamá: fiscalidad y residencia](/es/blog/empresa-panama-fiscalidad-residencia)
+_Para ampliar en la misma serie: [empresa en Panamá: fiscalidad y residencia](/es/blog/empresa-panama-fiscalidad-residencia)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Próximos pasos
 
 Si quieres validar si esta estrategia encaja con tu situación concreta, en Exentax revisamos tu caso de forma personalizada y te proponemos la estructura legal y eficiente que realmente te conviene. Reserva una sesión inicial sin compromiso desde nuestra página de contacto.

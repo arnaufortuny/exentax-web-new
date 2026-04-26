@@ -169,9 +169,8 @@ At Exentax we prepare the Source of Wealth/Funds dossier before the first signif
 
 Read this section as a checklist with teeth: each point flags a real failure mode we have seen in cross-border LLC files. Skip none of them - most reassessments and account closures we clean up later trace back to one of these items.
 
-### Further related reading
+<!-- related-inline-stripped-2026-04 -->
 
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 ### What they will typically ask you for
 
 The numbers and the calendar matter - get either wrong and the rest unravels.

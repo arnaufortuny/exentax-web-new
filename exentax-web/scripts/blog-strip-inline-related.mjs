@@ -40,6 +40,7 @@ import { fileURLToPath } from "node:url";
 import {
   FORBIDDEN_HEADINGS,
   HEADING_RE,
+  BOLD_PARA_RE,
   listContentFiles,
 } from "./blog-no-inline-related.mjs";
 
@@ -74,6 +75,15 @@ function detectLocale(filePath) {
 // Match markdown inline links `[text](/lang/blog/slug)`; used to salvage
 // internal-link equity from the removed section.
 const INLINE_LINK_RE = /\[([^\]]+)\]\((\/[a-z]{2}\/blog\/[^)\s]+)\)/g;
+// Also support raw HTML anchors `<a href="/lang/blog/slug">text</a>` which
+// are the format used in the bold-paragraph variant of the duplicate
+// "Lecturas relacionadas" section.
+const HTML_LINK_RE =
+  /<a\s+[^>]*href=["'](\/[a-z]{2}\/blog\/[^"'\s]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+
+function stripTags(s) {
+  return s.replace(/<[^>]+>/g, "").trim();
+}
 
 function extractInternalLinks(lines) {
   const seen = new Set();
@@ -84,6 +94,12 @@ function extractInternalLinks(lines) {
       if (seen.has(href)) continue;
       seen.add(href);
       out.push({ text: m[1].trim(), href });
+    }
+    for (const m of line.matchAll(HTML_LINK_RE)) {
+      const href = m[1];
+      if (seen.has(href)) continue;
+      seen.add(href);
+      out.push({ text: stripTags(m[2]) || href, href });
     }
   }
   return out;
@@ -104,26 +120,42 @@ export function stripFile(text, { filePath = "" } = {}) {
   let i = 0;
   while (i < lines.length) {
     const m = lines[i].match(HEADING_RE);
-    if (!m) { i++; continue; }
-    const depth = m[1].length;
-    let j = i + 1;
-    while (j < lines.length) {
-      const nh = lines[j].match(ANY_HEADING_RE);
-      if (nh && nh[1].length <= depth) break;
-      // Stop at start of a new exentax marker block (its content shouldn't be eaten)
-      if (OPEN_MARKER_RE.test(lines[j]) || CLOSE_MARKER_RE.test(lines[j])) {
-        // we still consume the closing marker if it belongs to a wrapper *around* us — handled below
-        // here we just stop eating prose so we don't swallow neighbouring blocks
-        // we will still drop the wrapper if appropriate via the wrapper sweep below
-        // Treat exentax markers as section boundaries.
-        // Allow to consume blank lines but not other markers.
-        // Simpler: stop here.
-        break;
+    if (m) {
+      const depth = m[1].length;
+      let j = i + 1;
+      while (j < lines.length) {
+        const nh = lines[j].match(ANY_HEADING_RE);
+        if (nh && nh[1].length <= depth) break;
+        // Stop at start of a new exentax marker block (its content shouldn't be eaten)
+        if (OPEN_MARKER_RE.test(lines[j]) || CLOSE_MARKER_RE.test(lines[j])) {
+          // Treat exentax markers as section boundaries.
+          break;
+        }
+        j++;
       }
-      j++;
+      removeRanges.push([i, j]);
+      i = j;
+      continue;
     }
-    removeRanges.push([i, j]);
-    i = j;
+    if (BOLD_PARA_RE.test(lines[i])) {
+      // Bold-paragraph variant: `**Lecturas relacionadas:** ...`. The
+      // marker line IS the entire paragraph in practice (one-liner with
+      // inline links). Consume the marker line and any continuation
+      // lines that don't start a new block, until we hit a blank line,
+      // a heading, or an exentax marker.
+      let j = i + 1;
+      while (j < lines.length) {
+        const ln = lines[j];
+        if (ln.trim() === "") break;
+        if (ANY_HEADING_RE.test(ln)) break;
+        if (OPEN_MARKER_RE.test(ln) || CLOSE_MARKER_RE.test(ln)) break;
+        j++;
+      }
+      removeRanges.push([i, j]);
+      i = j;
+      continue;
+    }
+    i++;
   }
 
   if (removeRanges.length === 0) return { text, removed: [], wrappers: [] };
@@ -179,6 +211,7 @@ export function stripFile(text, { filePath = "" } = {}) {
   const out = [];
   let prevBlank = false;
   let markerInserted = false;
+  let markerJustEmitted = false;
   for (let k = 0; k < lines.length; k++) {
     if (removeSet.has(k)) {
       if (!markerInserted && k === firstRemovedLine) {
@@ -186,17 +219,34 @@ export function stripFile(text, { filePath = "" } = {}) {
           if (out.length && out[out.length - 1].trim() !== "") out.push("");
           out.push(seeAlsoSentence);
           out.push("");
+          prevBlank = true;
         }
         out.push(STRIPPED_MARKER);
         markerInserted = true;
+        markerJustEmitted = true;
         prevBlank = false;
       }
       continue;
     }
     const isBlank = lines[k].trim() === "";
+    // Ensure a blank line follows the inserted marker so it never collides
+    // with a downstream `<!-- exentax:* -->` block or markdown heading
+    // (which would break neighbouring CTA / section linters).
+    if (markerJustEmitted) {
+      markerJustEmitted = false;
+      if (!isBlank) {
+        out.push("");
+        prevBlank = true;
+      }
+    }
     if (isBlank && prevBlank) continue;
     out.push(lines[k]);
     prevBlank = isBlank;
+  }
+  // If the marker was the last thing emitted (file ended right after the
+  // removed range), make sure there's a trailing newline-friendly blank.
+  if (markerJustEmitted) {
+    out.push("");
   }
   // Trim trailing extra blank lines we may have introduced
   while (out.length > 1 && out[out.length - 1].trim() === "" && out[out.length - 2].trim() === "") {

@@ -135,11 +135,10 @@ Wenn Sie Software bauen, SaaS verkaufen oder für internationale Kunden entwicke
 Bei Exentax bauen wir den vollständigen Developer/SaaS-LLC-Stack in 4-6 Wochen (LLC + EIN + Mercury + Stripe + Wise + AWS/Vercel-Billing-Migration + monatliche Buchhaltung), bereit für den ersten Enterprise-Kunden.
 <!-- /exentax:execution-v2 -->
 
-<!-- exentax:cross-refs-v1 -->
-### Weiterführende Lektüre
+_Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)._
 
-- [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/de/blog/llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
+
 ## Wie wir bei Exentax arbeiten
 
 Unser Team ist auf internationale Steuerstrukturen für Residenten spanischsprachiger Länder spezialisiert, die Online-Geschäfte betreiben. Wir verbinden lokales Wissen über Spanien, Andorra und Lateinamerika mit operativer Erfahrung bei der Gründung von Gesellschaften in Delaware, Wyoming, Estland und anderen Jurisdiktionen. Jeder Fall beginnt mit einer kostenlosen Beratung, in der wir Wohnsitz, Tätigkeit und Ziele bewerten, und wir sagen Ihnen ehrlich, ob die vorgeschlagene Struktur sinnvoll ist oder eine einfachere Alternative ausreicht.

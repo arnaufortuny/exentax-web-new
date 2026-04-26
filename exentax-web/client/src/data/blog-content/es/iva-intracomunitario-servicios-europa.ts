@@ -70,7 +70,10 @@ El marco normativo está en la <a href="https://www.boe.es/buscar/act.php?id=BOE
 <!-- /exentax:calc-cta-v1 -->
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/retenciones-irpf-factura">las retenciones de IRPF en factura</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>, <a href="/es/blog/facturar-sin-ser-autonomo-alternativas-2026">alternativas legales para facturar sin ser autónomo</a>.
+
+_Para ampliar en la misma serie: [las retenciones de IRPF en factura](/es/blog/retenciones-irpf-factura), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026), [alternativas legales para facturar sin ser autónomo](/es/blog/facturar-sin-ser-autonomo-alternativas-2026)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

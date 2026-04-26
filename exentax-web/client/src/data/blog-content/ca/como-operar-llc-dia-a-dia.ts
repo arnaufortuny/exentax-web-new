@@ -208,9 +208,8 @@ A Exentax deixem el client amb un manual operatiu de la seva LLC adaptat al seu 
 
 El que segueix és la visió operativa, no la dels manuals. Hem executat aquesta jugada prou vegades per saber quines variables cedeixen primer sota l'escrutini d'una autoritat fiscal o d'una compliance bancària, i és en aquest ordre que les abordem.
 
-### Lectures relacionades addicionals
+<!-- related-inline-stripped-2026-04 -->
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.
 ### Slash: rendiment sobre el teu capital ociós
 
 Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.

@@ -46,11 +46,11 @@ Cada movimento documentado registado com categoria correspondente.
 ### Como o abordamos na Exentax
 
 Na Exentax fazemos este exercício todos os meses com clientes que chegam com dívida técnica acumulada. Agenda uma sessão inicial gratuita na nossa página de contacto.
-### Leituras relacionadas
 
-- [romper o véu corporativo: como evitá-lo](/pt/blog/separar-dinheiro-pessoal-e-da-llc-por-que-e-importante)
-- [contabilidade para a tua LLC: melhores práticas](/pt/blog/bookkeeping-para-sua-llc-americana-passo-a-passo)
-- [Form 5472: quando apresentar e que sanção](/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e)
+_Veja também: [romper o véu corporativo: como evitá-lo](/pt/blog/separar-dinheiro-pessoal-e-da-llc-por-que-e-importante), [contabilidade para a tua LLC: melhores práticas](/pt/blog/bookkeeping-para-sua-llc-americana-passo-a-passo), [Form 5472: quando apresentar e que sanção](/pt/blog/o-que-acontece-se-nao-apresentar-o-form-5472-multas-irs-e)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Próximos passos
 
 Se queres validar, na Exentax revemos o teu caso de forma personalizada. Reserva uma sessão inicial sem compromisso na nossa página de contacto.

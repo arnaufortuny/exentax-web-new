@@ -99,7 +99,9 @@ En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar d
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/tramos-irpf-2026">los tramos del IRPF actualizados</a>, <a href="/es/blog/facturar-sin-ser-autonomo-alternativas-2026">alternativas legales para facturar sin ser autónomo</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>.
+_Para ampliar en la misma serie: [los tramos del IRPF actualizados](/es/blog/tramos-irpf-2026), [alternativas legales para facturar sin ser autónomo](/es/blog/facturar-sin-ser-autonomo-alternativas-2026), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

@@ -287,9 +287,8 @@ A Exentax ajudem a muntar el flux correcte des del dia 1 i reordenem històrics 
 
 Llegeix aquesta secció com una checklist exigent: cada punt assenyala un mode de fallada real que hem vist en expedients LLC transfronterers. No te'n saltis cap - la majoria de regularitzacions i tancaments de compte que netegem després provenen d'algun d'aquests ítems.
 
-### Lectures relacionades addicionals
+<!-- related-inline-stripped-2026-04 -->
 
-Apunt concret dels nostres expedients: així passa de debò, no com ho descriu una pàgina comercial. Els números i el calendari pesen - fallar en un fa desmuntar la resta.
 ### Slash: rendiment sobre capital ociós
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.

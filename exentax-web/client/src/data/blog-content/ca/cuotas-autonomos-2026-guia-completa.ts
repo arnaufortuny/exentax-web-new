@@ -94,9 +94,9 @@ A Exentax analitzem el teu cas amb dades reals, estimem quant pagues avui de RET
 Si vols passar del càlcul al pla, reserva 30 minuts amb Exentax i sortim de la trucada amb els números tancats i un calendari operatiu.
 <!-- /exentax:execution-v2 -->
 
-## Lectures relacionades
+_Per ampliar en la mateixa sèrie: [la quota d'autònom per trams d'ingressos](/ca/blog/quota-autonom-2026-trams-explicacio), [els trams de l'IRPF 2026 actualitzats](/ca/blog/trams-irpf-2026-explicacio), [la LLC americana com a alternativa a l'autònom](/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya), [les despeses deduïbles per a autònoms](/ca/blog/despeses-deduibles-autonoms-2026), [constituir una SL a Espanya: costos i avantatges](/ca/blog/societat-limitada-espanya-sl-costos-avantatges)._
 
-Per aprofundir: <a href="/ca/blog/quota-autonom-2026-trams-explicacio">la quota d'autònom per trams d'ingressos</a>, <a href="/ca/blog/trams-irpf-2026-explicacio">els trams de l'IRPF 2026 actualitzats</a>, <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">la LLC americana com a alternativa a l'autònom</a>, <a href="/ca/blog/despeses-deduibles-autonoms-2026">les despeses deduïbles per a autònoms</a>, <a href="/ca/blog/societat-limitada-espanya-sl-costos-avantatges">constituir una SL a Espanya: costos i avantatges</a>.
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22La%20quota%20d'aut%C3%B2nom%20%C3%A9s%2C%20per%20a%20la%20majoria%20de%20freelancers%20espanyols%2C%20la%20primera%20%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>

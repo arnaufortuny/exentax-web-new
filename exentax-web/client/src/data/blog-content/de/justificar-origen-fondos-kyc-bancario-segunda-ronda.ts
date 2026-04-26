@@ -130,9 +130,8 @@ Bei Exentax bereiten wir das Source-of-Wealth/Funds-Dossier vor der ersten signi
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
-### Weiterführende Lektüre
+<!-- related-inline-stripped-2026-04 -->
 
-Erfahrung aus der Praxis, in der wir das Monat für Monat für Mandanten durchziehen: die Regel ist einfach, an der Ausführung bricht es. Planen Sie das Operative vor dem Rechtlichen.
 ### Was typischerweise von Ihnen verlangt wird
 
 Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.

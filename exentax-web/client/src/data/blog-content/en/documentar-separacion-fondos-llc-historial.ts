@@ -79,11 +79,11 @@ Unrecoverable cases happen: a transfer with no concept three years ago that no o
 At Exentax we do this exercise every month with clients arriving from accumulated technical debt. The mechanics are exactly the one described. The result is a clean accounting and an LLC that survives any review without drama.
 
 If you suspect your separation history has gaps and want to put it in order before someone asks for it, book a free initial session through our contact page.
-### Related reading
 
-- [piercing the corporate veil: how to avoid it](/en/blog/separating-personal-and-llc-finances-why-it-matters)
-- [bookkeeping for your LLC: best practices](/en/blog/bookkeeping-for-your-us-llc-step-by-step)
-- [Form 5472: when to file it and what penalty applies](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)
+_More on this topic: [piercing the corporate veil: how to avoid it](/en/blog/separating-personal-and-llc-finances-why-it-matters), [bookkeeping for your LLC: best practices](/en/blog/bookkeeping-for-your-us-llc-step-by-step), [Form 5472: when to file it and what penalty applies](/en/blog/what-happens-if-you-dont-file-form-5472-irs-penalties-and)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Next steps
 
 If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that actually fits you. Book a free initial session through our contact page.

@@ -216,7 +216,9 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 - [De single-member a multi-member LLC: implicaciones fiscales reales antes de dar el paso](/es/blog/single-member-multi-member-llc-implicaciones-fiscales)
 <!-- /exentax:cross-refs-v1 -->
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/tramos-irpf-2026">los tramos del IRPF actualizados</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>, <a href="/es/blog/retenciones-irpf-factura">las retenciones de IRPF en factura</a>, <a href="/es/blog/modulos-vs-estimacion-directa-2026">módulos frente a estimación directa</a>, <a href="/es/blog/iva-intracomunitario-servicios-europa">el IVA intracomunitario en servicios a Europa</a>, <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/facturar-sin-ser-autonomo-alternativas-2026">alternativas legales para facturar sin ser autónomo</a>.
+_Para ampliar en la misma serie: [los tramos del IRPF actualizados](/es/blog/tramos-irpf-2026), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026), [las retenciones de IRPF en factura](/es/blog/retenciones-irpf-factura), [módulos frente a estimación directa](/es/blog/modulos-vs-estimacion-directa-2026), [el IVA intracomunitario en servicios a Europa](/es/blog/iva-intracomunitario-servicios-europa), [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [alternativas legales para facturar sin ser autónomo](/es/blog/facturar-sin-ser-autonomo-alternativas-2026)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 

@@ -145,11 +145,10 @@ Moure residència l'1 de gener és net. Fer-ho el 17 de juny amb una LLC operati
 A Exentax planifiquem canvis de residència amb LLC operativa dissenyant el calendari fiscal òptim, els fluxos previs al canvi i la documentació que sostindrà el split en totes dues inspeccions.
 <!-- /exentax:execution-v2 -->
 
-<!-- exentax:cross-refs-v1 -->
-### Lectures relacionades
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
 
-- [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
+
 ### Recordatori pràctic
 
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.

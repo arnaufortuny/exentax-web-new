@@ -32,7 +32,9 @@ Comprueba la tabla oficial vigente en el <a href="https://www.seg-social.es/">po
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/facturar-sin-ser-autonomo-alternativas-2026">alternativas legales para facturar sin ser autónomo</a>, <a href="/es/blog/sociedad-limitada-espana-costes-ventajas">constituir una SL en España: costes y ventajas</a> y la <a href="/es/blog/cuotas-autonomos-2026-guia-completa">guía completa de cuotas de autónomos 2026 con cifras oficiales</a>.
+_Para ampliar en la misma serie: [alternativas legales para facturar sin ser autónomo](/es/blog/facturar-sin-ser-autonomo-alternativas-2026), [constituir una SL en España: costes y ventajas](/es/blog/sociedad-limitada-espana-costes-ventajas), [guía completa de cuotas de autónomos 2026 con cifras oficiales](/es/blog/cuotas-autonomos-2026-guia-completa)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

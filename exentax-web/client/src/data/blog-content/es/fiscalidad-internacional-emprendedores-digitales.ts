@@ -176,7 +176,9 @@ En Exentax constituimos y mantenemos LLCs de no residentes a diario: estado, EIN
 - [Fiscalidad de los socios de una LLC en un cambio de residencia a mitad de año](/es/blog/fiscalidad-socios-llc-cambio-residencia-mid-year)
 <!-- /exentax:cross-refs-v1 -->
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/tramos-irpf-2026">los tramos del IRPF actualizados</a>, <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a>, <a href="/es/blog/gastos-deducibles-autonomos-2026">los gastos deducibles para autónomos</a>, <a href="/es/blog/retenciones-irpf-factura">las retenciones de IRPF en factura</a>, <a href="/es/blog/modulos-vs-estimacion-directa-2026">módulos frente a estimación directa</a>.
+_Para ampliar en la misma serie: [los tramos del IRPF actualizados](/es/blog/tramos-irpf-2026), [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026), [las retenciones de IRPF en factura](/es/blog/retenciones-irpf-factura), [módulos frente a estimación directa](/es/blog/modulos-vs-estimacion-directa-2026)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
 

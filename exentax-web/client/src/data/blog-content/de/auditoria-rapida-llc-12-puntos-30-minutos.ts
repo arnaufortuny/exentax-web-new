@@ -68,11 +68,11 @@ Wenn das Audit sauber durchläuft, die Übung mit Datum im LLC-Ordner ablegen. A
 Wenn rote Punkte auftauchen, sinnvoll ist: zuerst legal (Staat, RA, BOI), dann steuerlich IRS (rückständige 5472 mit der richtigen Strategie), dann Land (Bereinigung wenn nötig), dann operativ (Banking und Plattformen). Alles auf einmal ist selten gut; sequenziert über 60-90 Tage fast immer.
 
 Bei Exentax sehen wir solche Fälle wöchentlich. Wenn Sie möchten, dass wir Ihr Schnellaudit gemeinsam validieren und die roten Punkte ohne Drama priorisieren, buchen Sie eine kostenlose 30-minütige Erstsession über unsere Kontaktseite.
-### Verwandte Lektüre
 
-- [kritische Fehler bei bestehender LLC](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand)
-- [habe ich eine US-LLC, führe ich sie richtig?](/de/blog/ich-habe-eine-llc-verwalte-ich-sie-richtig-echte-checkliste)
-- [jährliche LLC-Pflege](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)
+_Weiter dazu: [kritische Fehler bei bestehender LLC](/de/blog/kritische-fehler-wenn-sie-bereits-eine-llc-haben-und-niemand), [habe ich eine US-LLC, führe ich sie richtig?](/de/blog/ich-habe-eine-llc-verwalte-ich-sie-richtig-echte-checkliste), [jährliche LLC-Pflege](/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Nächste Schritte
 
 Wenn Sie validieren möchten, ob diese Strategie zu Ihrer konkreten Situation passt, prüfen wir bei Exentax Ihren Fall persönlich und schlagen die rechtlich saubere und effiziente Struktur vor, die wirklich zu Ihnen passt. Buchen Sie eine unverbindliche Erstsession über unsere Kontaktseite.

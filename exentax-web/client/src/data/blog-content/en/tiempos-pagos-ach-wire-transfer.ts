@@ -179,11 +179,10 @@ Revenue: US clients pay via ACH or Stripe → Mercury/Wise USD. International cl
 At Exentax we set up the banking stack by use case (US payments, EU clients, LATAM, FX optimisation) - so you collect in 24-48h, not 7-10 days due to wrong corridor.
 <!-- /exentax:execution-v2 -->
 
-<!-- exentax:cross-refs-v1 -->
-### Further related reading
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
 
-- [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
+
 ## How we work at Exentax
 
 Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.

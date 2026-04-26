@@ -118,11 +118,10 @@ Connect all payment processors to your Mercury account for unified cash manageme
 To keep going on this thread, <a href="/en/blog/privacy-with-a-us-llc-what-is-truly-private-and-what-is-not">Privacy with a US LLC: what is truly private and what is not</a> fills in a nuance this guide only touched on.
 ### Conclusion and next steps
 
-### Related articles
+_More on this topic: [Mercury account guide](/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country), [currency exchange guide](/en/blog/changing-currencies-for-your-llc-best-options-and-how-to)._
 
-- <a href="/en/blog/how-to-open-a-mercury-account-for-your-llc-from-any-country">Mercury account guide</a>
-- <a href="/en/blog/changing-currencies-for-your-llc-best-options-and-how-to">currency exchange guide</a>
-Book your strategic consultation and we'll configure your complete payment infrastructure.
+<!-- related-inline-stripped-2026-04 -->
+
 ### Next steps
 
 If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.
@@ -166,9 +165,6 @@ At Exentax we model which stack suits you by margin, market and product and open
 
 Our position here is deliberate and conservative: we optimise for what survives an inspection, not for the most aggressive headline number. The points below are the ones we are willing to defend in writing.
 
-### Further related reading
-
-Field note from running this for clients month after month: the rule is straightforward, the execution is where it breaks. Plan the operational side before the legal side.
 ### Advantages
 
 The numbers and the calendar matter - get either wrong and the rest unravels.

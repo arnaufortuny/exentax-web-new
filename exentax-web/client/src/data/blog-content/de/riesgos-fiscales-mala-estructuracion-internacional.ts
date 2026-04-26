@@ -145,11 +145,9 @@ Bei Exentax machen wir Due Diligence ererbter Strukturen, regularisieren und ent
 
 Bei Exentax gründen und betreuen wir täglich LLCs für Nicht-Residenten: Bundesstaat, EIN, Operating Agreement, BOI wo anwendbar, Bankkonto bei Mercury und Wise, Zahlungsabwickler Stripe und Adyen, monatliche Buchhaltung, Form 5472 und 1120 pro forma jedes Jahr und Koordination mit Ihrer Besteuerung im Wohnsitzstaat. Wenn Sie Ihren Fall mit echten Zahlen prüfen möchten, buchen Sie eine Beratung mit unserem Team und wir erklären Ihnen Schritt für Schritt, wie sich das in Ihre konkrete Situation einfügt.
 
-<!-- exentax:cross-refs-v1 -->
-### Weiterführende Lektüre
+_Weiter dazu: [Offshore-Strukturen: echte Vorteile und ehrliche Risiken](/de/blog/offshore-strukturen-vorteile-und-echte-risiken)._
 
-- [Offshore-Strukturen: echte Vorteile und ehrliche Risiken](/de/blog/offshore-strukturen-vorteile-und-echte-risiken)
-<!-- /exentax:cross-refs-v1 -->
+<!-- related-inline-stripped-2026-04 -->
 
 Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Buchen Sie eine Sitzung mit dem Exentax-Team</a> und wir prüfen Ihre LLC mit echten Zahlen in dreißig Minuten, ohne Verpflichtung.
 

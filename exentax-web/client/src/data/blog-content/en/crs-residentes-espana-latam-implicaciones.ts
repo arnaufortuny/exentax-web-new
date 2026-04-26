@@ -92,9 +92,9 @@ CRS is not "avoided" from a European jurisdiction. It is planned for, with knowl
 Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyse it with you.
 If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle that we usually keep for a separate write-up.
 
-### Related reading
+_More on this topic: [Panama company: tax and residency](/en/blog/panama-company-tax-and-residency-2026), [Offshore structures: real benefits and honest risks](/en/blog/offshore-structures-benefits-and-real-risks), [From single-member to multi-member LLC: real tax implications before taking the step](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications), [Exit Tax in Spain: departure tax for crypto investors, LLC owners and Interactive Brokers users](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)._
 
-- [Panama company: tax and residency](/en/blog/panama-company-tax-and-residency-2026)
+<!-- related-inline-stripped-2026-04 -->
 
 ### Next steps
 
@@ -148,14 +148,6 @@ At Exentax we map which of your accounts enter CRS, what declarative duties each
 ## Let's talk about your structure
 
 Every case has nuances: your country of residence, the type of activity, where your clients are, whether you do investment or trading, whether you sell to consumers or to businesses. At Exentax we review your situation, design the LLC structure that fits you and accompany you each year on maintenance. Book a session with our team and we'll start from your real numbers.
-
-<!-- exentax:cross-refs-v1 -->
-### Further related reading
-
-- [Offshore structures: real benefits and honest risks](/en/blog/offshore-structures-benefits-and-real-risks)
-- [From single-member to multi-member LLC: real tax implications before taking the step](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications)
-- [Exit Tax in Spain: departure tax for crypto investors, LLC owners and Interactive Brokers users](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)
-<!-- /exentax:cross-refs-v1 -->
 
 Want to apply this protocol to your case? <a href="/en/book">Book a session with the Exentax team</a> and we will review your LLC with real numbers in thirty minutes, no commitment.
 

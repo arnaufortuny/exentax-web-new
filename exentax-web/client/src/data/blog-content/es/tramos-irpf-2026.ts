@@ -33,7 +33,9 @@ Para verificar tarifas, consulta la <a href="https://sede.agenciatributaria.gob.
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
-**Lecturas relacionadas:** Para profundizar, te puede interesar leer sobre <a href="/es/blog/retenciones-irpf-factura">las retenciones de IRPF en factura</a>, <a href="/es/blog/cuota-autonomo-2026">la cuota de autónomo por tramos de ingresos</a> y la <a href="/es/blog/cuotas-autonomos-2026-guia-completa">guía completa de cuotas de autónomos 2026 con cifras oficiales</a>.
+_Para ampliar en la misma serie: [las retenciones de IRPF en factura](/es/blog/retenciones-irpf-factura), [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [guía completa de cuotas de autónomos 2026 con cifras oficiales](/es/blog/cuotas-autonomos-2026-guia-completa)._
+
+<!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax

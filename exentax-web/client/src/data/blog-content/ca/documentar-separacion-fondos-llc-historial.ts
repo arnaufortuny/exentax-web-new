@@ -46,11 +46,11 @@ Cada moviment documentat amb la categoria corresponent.
 ### Com ho abordem a Exentax
 
 A Exentax fem aquest exercici cada mes amb clients que arriben amb deute tècnic acumulat. Reserva una sessió inicial gratuïta a la nostra pàgina de contacte.
-### Lectures relacionades
 
-- [trencar el vel corporatiu: com evitar-lo](/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important)
-- [comptabilitat per a la teva LLC: millors pràctiques](/ca/blog/bookkeeping-per-a-la-teva-llc-americana-pas-a-pas)
-- [Form 5472: quan presentar-lo i quina sanció](/ca/blog/que-passa-si-no-presentes-el-form-5472-multes-irs-i-com)
+_Per ampliar en la mateixa sèrie: [trencar el vel corporatiu: com evitar-lo](/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important), [comptabilitat per a la teva LLC: millors pràctiques](/ca/blog/bookkeeping-per-a-la-teva-llc-americana-pas-a-pas), [Form 5472: quan presentar-lo i quina sanció](/ca/blog/que-passa-si-no-presentes-el-form-5472-multes-irs-i-com)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Pròxims passos
 
 Si vols validar, a Exentax revisem el teu cas de forma personalitzada. Reserva una sessió inicial sense compromís a la nostra pàgina de contacte.

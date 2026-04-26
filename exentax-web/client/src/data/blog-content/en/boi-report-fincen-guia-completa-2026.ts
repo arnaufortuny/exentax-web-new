@@ -121,12 +121,10 @@ Some entities are exempt from BOI reporting:
 If something in this structure left you wanting more detail, <a href="/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need">Anti-money laundering compliance for your LLC: what you need to know</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
 ### Conclusion and next steps
 
-### Related articles
+_More on this topic: [step-by-step LLC formation guide](/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide), [Form 5472 guide](/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply), [annual maintenance guide](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)._
 
-- <a href="/en/blog/how-to-form-a-us-llc-step-by-step-complete-process-guide">step-by-step LLC formation guide</a>
-- <a href="/en/blog/form-5472-what-it-is-who-must-file-it-and-how-to-comply">Form 5472 guide</a>
-- <a href="/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore">annual maintenance guide</a>
-Book your strategic consultation and make sure your BOI Report is properly filed and maintained.
+<!-- related-inline-stripped-2026-04 -->
+
 ### Next steps
 
 If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that truly suits you. Book an initial no-commitment session from our contact page.

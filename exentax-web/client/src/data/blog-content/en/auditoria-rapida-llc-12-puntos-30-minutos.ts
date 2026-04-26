@@ -72,11 +72,11 @@ If you find red flags, the sensible order is: legal first (state, RA, BOI), then
 <!-- /exentax:calc-cta-v1 -->
 
 At Exentax we review cases like this every week. If you want us to validate the result of your quick audit and prioritize the red flags without drama, book a free 30-minute initial session through our contact page.
-### Related reading
 
-- [critical mistakes if you already have a US LLC](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told)
-- [I have a US LLC, am I managing it right?](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist)
-- [annual LLC maintenance](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)
+_More on this topic: [critical mistakes if you already have a US LLC](/en/blog/critical-mistakes-if-you-already-have-an-llc-and-no-one-told), [I have a US LLC, am I managing it right?](/en/blog/i-have-an-llc-am-i-managing-it-right-real-checklist), [annual LLC maintenance](/en/blog/annual-llc-maintenance-obligations-you-cannot-ignore)._
+
+<!-- related-inline-stripped-2026-04 -->
+
 ### Next steps
 
 If you want to validate whether this strategy fits your specific situation, at Exentax we review your case personally and propose the legal and efficient structure that actually fits you. Book a free initial session through our contact page.
