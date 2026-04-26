@@ -2129,7 +2129,6 @@ const ca = {
   },
   blogPost: {
     articlesFound: "articles trobats",
-    atomicAnswerLabel: "Resposta ràpida",
     share: "Comparteix",
     backToBlog: "Tornar al blog",
     minRead: "min de lectura",

@@ -1760,7 +1760,6 @@ const pt = {
   },
   blogPost: {
     articlesFound: "artigos encontrados",
-    atomicAnswerLabel: "Resposta rápida",
     share: "Partilhar",
     backToBlog: "Voltar ao blog",
     minRead: "min de leitura",

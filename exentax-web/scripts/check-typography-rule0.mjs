@@ -17,7 +17,7 @@ const TS_RULES = [
     // Allowlist: design-system "eyebrow / tag / badge" primitives. The rule
     // forbids decorative uppercase in editorial copy (blog body, prose) but
     // intentionally permits these small-cap labels used as section chips,
-    // category tags, card eyebrows and the post atomic-answer label.
+    // category tags and card eyebrows.
     // See docs/consolidation-2026-04.md §4 and
     // docs/REVISION-INTEGRAL-2026-04.md §typography.
     allow: [
@@ -26,8 +26,6 @@ const TS_RULES = [
       "client/src/pages/services/ServiceSubpage.tsx",
       // Pillar landing kickers — section eyebrows above each h2.
       "client/src/pages/abrir-llc.tsx",
-      // Atomic-answer "Quick answer" label inside the blog post body callout.
-      "client/src/pages/blog/post.tsx",
     ],
   },
   {

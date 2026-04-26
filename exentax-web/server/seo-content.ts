@@ -796,10 +796,9 @@ function buildI18nMeta(): Record<string, PageMeta> {
       pt: "ITIN sem viajar para não residentes: evite o consulado e o passaporte. Obter ITIN online com Certifying Acceptance Agent e serviço W-7 ITIN incluído.",
       ca: "ITIN sense viatjar per a no residents: evita el consolat i el passaport. Obtenir ITIN online amb Certifying Acceptance Agent i servei W-7 ITIN inclòs.",
     },
-    // Task #14 (GEO): pillar page descriptions are written as "atomic answer"
-    // candidates — single-paragraph summaries that an LLM can lift directly
-    // into a generative answer or that Google can promote to a featured
-    // snippet. They mirror the on-page <aside data-testid=atomic-answer-…>.
+    // Task #14 (GEO): pillar page descriptions are written as single-paragraph
+    // summaries that an LLM can lift directly into a generative answer or that
+    // Google can promote to a featured snippet.
     pillar_open_llc: {
       es: "Abrir una LLC en Estados Unidos en 2-4 días siendo no residente: estado, EIN sin SSN, cuenta Mercury, IRS Form 5472 y declaración limpia en España. Guía completa con asesores fiscales expertos.",
       en: "Open a US LLC in 2-4 days as a non-resident: pick the state, get the EIN without SSN, open Mercury, file Form 1120 + 5472 with the IRS and declare profits at home. Full guide with expert tax advisors.",

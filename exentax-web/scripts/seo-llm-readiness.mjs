@@ -14,10 +14,10 @@
  *      both `/llms.txt` and `/llms-full.txt`.
  *   4. `server/seo-content.ts` Organization (home) carries the canonical
  *      `@id` (`/#organization`) and an `aggregateRating`.
- *   5. `client/src/pages/blog/post.tsx` declares HOWTO_PROCEDURAL_SLUGS, a
- *      visible atomic-answer callout, and a HowTo JSON-LD generator.
- *   6. `client/src/pages/abrir-llc.tsx` (the pillar) exists and emits both a
- *      visible atomic-answer block and HowTo JSON-LD steps.
+ *   5. `client/src/pages/blog/post.tsx` declares HOWTO_PROCEDURAL_SLUGS and a
+ *      HowTo JSON-LD generator.
+ *   6. `client/src/pages/abrir-llc.tsx` (the pillar) exists and emits HowTo
+ *      JSON-LD steps.
  *
  * Exit code 0 = pass, 1 = fail. The script is intentionally read-only: it
  * never mutates files. Wired into `npm run lint:blog` so CI fails the moment
@@ -158,7 +158,7 @@ const SERVICE_PATHS = [
 }
 
 // ---------------------------------------------------------------------------
-// 5. blog/post.tsx — HOWTO_PROCEDURAL_SLUGS + atomic answer + HowTo schema
+// 5. blog/post.tsx — HOWTO_PROCEDURAL_SLUGS + HowTo schema
 // ---------------------------------------------------------------------------
 {
   const c = read("client/src/pages/blog/post.tsx");
@@ -166,29 +166,26 @@ const SERVICE_PATHS = [
     fail("blog/post.tsx", "file missing");
   } else {
     if (!/HOWTO_PROCEDURAL_SLUGS/.test(c)) fail("blog/post.tsx", "HOWTO_PROCEDURAL_SLUGS list missing");
-    if (!/atomicAnswerText/.test(c)) fail("blog/post.tsx", "atomicAnswerText derivation missing");
-    if (!/data-testid="atomic-answer-callout"/.test(c)) fail("blog/post.tsx", "atomic-answer-callout JSX block missing");
     if (!/howToJsonLd/.test(c)) fail("blog/post.tsx", "howToJsonLd builder missing");
     if (!/"@type":\s*"HowTo"/.test(c)) fail("blog/post.tsx", "HowTo @type literal missing");
     if (failures.filter((f) => f.check === "blog/post.tsx").length === 0) {
-      ok("blog/post.tsx: HOWTO + atomic answer present");
+      ok("blog/post.tsx: HOWTO present");
     }
   }
 }
 
 // ---------------------------------------------------------------------------
-// 6. Pillar page — atomic answer + HowTo schema
+// 6. Pillar page — HowTo schema
 // ---------------------------------------------------------------------------
 {
   const c = read("client/src/pages/abrir-llc.tsx");
   if (!c) {
     fail("abrir-llc.tsx", "pillar page missing");
   } else {
-    if (!/data-testid="atomic-answer-callout"/.test(c)) fail("abrir-llc.tsx", "atomic-answer-callout missing");
     if (!/"@type":\s*"HowTo"/.test(c)) fail("abrir-llc.tsx", "HowTo schema missing");
     if (!/PILLAR_CONTENT/.test(c)) warn("abrir-llc.tsx", "expected PILLAR_CONTENT locale map not found");
     if (failures.filter((f) => f.check === "abrir-llc.tsx").length === 0) {
-      ok("abrir-llc.tsx: pillar emits atomic answer + HowTo");
+      ok("abrir-llc.tsx: pillar emits HowTo");
     }
   }
 }

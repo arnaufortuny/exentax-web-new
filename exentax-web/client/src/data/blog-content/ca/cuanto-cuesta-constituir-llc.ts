@@ -249,7 +249,7 @@ Si vol veure el detall del procés complet, consulta la nostra <a href="/ca/serv
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el teu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.
+Constitució, EIN, BOI, banca i manteniment: un sol equip que entén el seu cas de cap a peus. <a href="/ca/serveis">Veure tots els serveis</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

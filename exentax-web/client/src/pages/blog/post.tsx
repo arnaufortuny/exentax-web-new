@@ -841,18 +841,6 @@ export default function BlogPost() {
     },
   };
 
-  // Task #14 (GEO): atomic-answer source. Every post's `excerpt` (or its
-  // metaDescription fallback) is already a 1-paragraph summary written for
-  // SERP/social share contexts. We surface it both as a visible callout at
-  // the top of the article (so an LLM crawler reading rendered HTML lifts a
-  // clean answer) and as the `description`/HowTo step text in JSON-LD.
-  const atomicAnswerText: string = (
-    (localized?.excerpt && localized.excerpt.trim()) ||
-    (post.excerpt && post.excerpt.trim()) ||
-    displayMetaDesc ||
-    ""
-  );
-
   // Task #14 (GEO): a curated allow-list of procedural posts that genuinely
   // describe a step-by-step how-to. We deliberately keep the list short so
   // we never emit HowTo schema for opinion pieces or country-overview posts
@@ -890,7 +878,7 @@ export default function BlogPost() {
       "@context": "https://schema.org",
       "@type": "HowTo",
       name: displayTitle,
-      description: atomicAnswerText || displayMetaDesc,
+      description: (localized?.excerpt?.trim() || post.excerpt?.trim() || displayMetaDesc),
       totalTime: "P30D",
       inLanguage: lang,
       mainEntityOfPage: { "@id": articleUrl },
@@ -1001,32 +989,6 @@ export default function BlogPost() {
                 )}
 
                 <AiSummaryButtons title={displayTitle} slug={post.slug} lang={lang} />
-
-                {/* Task #14 (GEO): "atomic answer" callout — the post excerpt
-                    rendered as a quotable summary at the top of the article.
-                    AI engines that fetch the rendered HTML lift this block as
-                    the canonical 1-paragraph answer and pair it with the
-                    BlogPosting + HowTo JSON-LD below. */}
-                {atomicAnswerText && (
-                  <aside
-                    className="mb-10 rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--bg-1)]/40 p-5 sm:p-6"
-                    aria-label={t("blogPost.atomicAnswerLabel", { defaultValue: "Quick answer" }) as string}
-                    data-testid="atomic-answer-callout"
-                  >
-                    <p
-                      className="font-heading text-[11.5px] sm:text-[12px] tracking-[0.16em] uppercase text-[var(--text-3)] mb-2"
-                      data-testid="atomic-answer-label"
-                    >
-                      {t("blogPost.atomicAnswerLabel", { defaultValue: "Quick answer" })}
-                    </p>
-                    <p
-                      className="text-[15px] sm:text-base leading-relaxed text-[var(--text-1)]"
-                      data-testid="atomic-answer-body"
-                    >
-                      {atomicAnswerText}
-                    </p>
-                  </aside>
-                )}
 
                 <div
                   ref={articleRef}

@@ -1279,7 +1279,6 @@ export type TranslationKey =
   | "errors.rateLimited"
   | "errors.serverError"
   | "blogPost.articlesFound"
-  | "blogPost.atomicAnswerLabel"
   | "blogPost.share"
   | "blogPost.backToBlog"
   | "blogPost.minRead"

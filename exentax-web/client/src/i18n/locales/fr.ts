@@ -1757,7 +1757,6 @@ const fr = {
   },
   blogPost: {
     articlesFound: "articles trouvés",
-    atomicAnswerLabel: "Réponse rapide",
     share: "Partager",
     backToBlog: "Retour au blog",
     minRead: "min de lecture",

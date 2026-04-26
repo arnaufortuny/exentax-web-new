@@ -31,7 +31,6 @@ interface PillarLocaleContent {
     ctaPrimary: string;
     ctaSecondary: string;
   };
-  atomicAnswer: { label: string; body: string };
   whatIsLLC: { kicker: string; h2: string; paragraphs: string[] };
   steps: { kicker: string; h2: string; intro: string; items: { title: string; desc: string }[] };
   states: { kicker: string; h2: string; intro: string; items: { name: string; tagline: string; pros: string; cta: string; href: RouteKey }[] };
@@ -65,11 +64,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
         "Todo lo que necesitas para constituir una LLC americana siendo no residente: el estado correcto, el EIN, la cuenta bancaria operativa, la presentación anual ante el IRS y la declaración limpia en tu país de residencia. Sin promesas mágicas, sin paraísos fiscales.",
       ctaPrimary: "Quiero abrir mi LLC",
       ctaSecondary: "Ver el proceso completo",
-    },
-    atomicAnswer: {
-      label: "Respuesta directa",
-      body:
-        "Abrir una LLC en Estados Unidos siendo no residente lleva entre 2 y 4 días. Eliges el estado (Nuevo México, Wyoming, Delaware o Florida), presentas los Articles of Organization, designas un Registered Agent, redactas el Operating Agreement y solicitas el EIN al IRS por fax (sin SSN ni ITIN). Después abres una cuenta Mercury, Wise Business o Relay y empiezas a operar. La LLC en sí no paga impuesto federal en EE.UU. si no tiene actividad ni ingresos de fuente americana, pero presenta cada año Form 1120 + Form 5472. Tú declaras los beneficios en tu país de residencia.",
     },
     whatIsLLC: {
       kicker: "QUÉ ES",
@@ -195,11 +189,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaPrimary: "I want to open my LLC",
       ctaSecondary: "See the full process",
     },
-    atomicAnswer: {
-      label: "Quick answer",
-      body:
-        "Opening a US LLC as a non-resident takes 2 to 4 days. Pick a state (New Mexico, Wyoming, Delaware or Florida), file the Articles of Organization, name a Registered Agent, draft the Operating Agreement and request the EIN from the IRS by fax (no SSN or ITIN required). Then open a Mercury, Wise Business or Relay account and start operating. The LLC itself owes $0 of US federal tax when it has no US trade or business and no US-source income, but every year you must file Form 1120 + Form 5472. You declare the profits in your country of personal tax residency.",
-    },
     whatIsLLC: {
       kicker: "WHAT IT IS",
       h2: "An LLC is a US limited-liability company",
@@ -320,11 +309,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
         "Tout ce qu'il faut pour créer une LLC américaine en tant que non-résident : le bon État, l'EIN, le compte bancaire opérationnel, les déclarations annuelles à l'IRS et une déclaration propre dans votre pays de résidence fiscale. Pas de promesses magiques, pas de paradis fiscal.",
       ctaPrimary: "Je veux ouvrir ma LLC",
       ctaSecondary: "Voir le processus complet",
-    },
-    atomicAnswer: {
-      label: "Réponse directe",
-      body:
-        "Ouvrir une LLC aux États-Unis en tant que non-résident prend 2 à 4 jours. Vous choisissez l'État (Nouveau-Mexique, Wyoming, Delaware ou Floride), déposez les Articles of Organization, désignez un Registered Agent, rédigez l'Operating Agreement et demandez l'EIN à l'IRS par fax (sans SSN ni ITIN). Vous ouvrez ensuite un compte Mercury, Wise Business ou Relay et commencez à opérer. La LLC ne paie pas d'impôt fédéral américain si elle n'a pas d'activité ni de revenus de source américaine, mais dépose chaque année Form 1120 + Form 5472. Vous déclarez les bénéfices dans votre pays de résidence fiscale.",
     },
     whatIsLLC: {
       kicker: "QU'EST-CE QUE C'EST",
@@ -447,11 +431,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaPrimary: "Ich will meine LLC eröffnen",
       ctaSecondary: "Den vollständigen Prozess sehen",
     },
-    atomicAnswer: {
-      label: "Direkte Antwort",
-      body:
-        "Eine US-LLC als Nicht-Resident zu eröffnen dauert 2 bis 4 Tage. Sie wählen den Bundesstaat (New Mexico, Wyoming, Delaware oder Florida), reichen die Articles of Organization ein, benennen einen Registered Agent, erstellen das Operating Agreement und beantragen die EIN per Fax beim IRS (ohne SSN oder ITIN). Danach öffnen Sie ein Mercury-, Wise-Business- oder Relay-Konto und legen los. Die LLC selbst zahlt 0 USD US-Bundessteuer, solange sie keine US trade or business und keine US-Quelleneinkünfte hat — aber jedes Jahr werden Form 1120 + Form 5472 eingereicht. Die Gewinne erklären Sie in Ihrem persönlichen Wohnsitzland.",
-    },
     whatIsLLC: {
       kicker: "WAS IST DAS",
       h2: "Eine LLC ist eine US-Gesellschaft mit beschränkter Haftung",
@@ -572,11 +551,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaPrimary: "Quero abrir a minha LLC",
       ctaSecondary: "Ver o processo completo",
     },
-    atomicAnswer: {
-      label: "Resposta direta",
-      body:
-        "Abrir uma LLC nos EUA sendo não-residente leva entre 2 e 4 dias. Escolhes o estado (Novo México, Wyoming, Delaware ou Flórida), apresentas os Articles of Organization, designas um Registered Agent, redigires o Operating Agreement e pedes o EIN ao IRS por fax (sem SSN nem ITIN). Depois abres uma conta Mercury, Wise Business ou Relay e começas a operar. A LLC em si não paga imposto federal nos EUA se não tiver atividade nem rendimentos de fonte americana, mas apresenta todos os anos Form 1120 + Form 5472. Tu declaras os lucros no teu país de residência.",
-    },
     whatIsLLC: {
       kicker: "O QUE É",
       h2: "Uma LLC é uma sociedade americana de responsabilidade limitada",
@@ -696,11 +670,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
         "Tot el que necessites per constituir una LLC americana sent no resident: l'estat correcte, l'EIN, el compte bancari operatiu, les declaracions anuals a l'IRS i una declaració neta al teu país de residència fiscal. Sense promeses màgiques, sense offshore.",
       ctaPrimary: "Vull obrir la meva LLC",
       ctaSecondary: "Veure el procés complet",
-    },
-    atomicAnswer: {
-      label: "Resposta directa",
-      body:
-        "Obrir una LLC als EUA sent no resident triga entre 2 i 4 dies. Tries l'estat (Nou Mèxic, Wyoming, Delaware o Florida), presentes els Articles of Organization, designes un Registered Agent, redactes l'Operating Agreement i sol·licites l'EIN a l'IRS per fax (sense SSN ni ITIN). Després obres un compte Mercury, Wise Business o Relay i comences a operar. La LLC no paga impost federal als EUA si no té activitat ni ingressos de font americana, però presenta cada any Form 1120 + Form 5472. Tu declares els beneficis al teu país de residència.",
     },
     whatIsLLC: {
       kicker: "QUÈ ÉS",
@@ -825,7 +794,7 @@ export default function PillarOpenLlcPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: c.hero.h1,
-    description: c.atomicAnswer.body,
+    description: c.metaDescription,
     inLanguage: lang,
     mainEntityOfPage: { "@type": "WebPage", "@id": pillarUrl },
     url: pillarUrl,
@@ -842,14 +811,14 @@ export default function PillarOpenLlcPage() {
       { "@type": "Thing", name: "EIN" },
       { "@type": "Thing", name: "Form 5472" },
     ],
-    speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "h2", "[data-testid=atomic-answer-body]"] },
+    speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "h2"] },
   };
 
   const howToJsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "HowTo",
     name: c.hero.h1,
-    description: c.atomicAnswer.body,
+    description: c.metaDescription,
     inLanguage: lang,
     totalTime: "P4D",
     estimatedCost: { "@type": "MonetaryAmount", currency: "USD", value: "350" },
@@ -924,18 +893,6 @@ export default function PillarOpenLlcPage() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Atomic answer (Task #14 GEO: the AI-quotable summary) */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-14">
-        <aside className="rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--bg-1)]/40 p-6 sm:p-7" data-testid="atomic-answer-callout">
-          <p className="font-heading text-[11.5px] sm:text-[12px] tracking-[0.16em] uppercase text-[var(--text-3)] mb-2" data-testid="atomic-answer-label">
-            {c.atomicAnswer.label}
-          </p>
-          <p className="text-[15px] sm:text-base leading-relaxed text-[var(--text-1)]" data-testid="atomic-answer-body">
-            {c.atomicAnswer.body}
-          </p>
-        </aside>
       </section>
 
       {/* What is an LLC */}
