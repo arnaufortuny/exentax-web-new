@@ -38,10 +38,19 @@ tabla comparativa por perfil 7 filas, sección coste real 24 meses
 **Ratios de palabras vs ES (3.762)**: EN 0,97 · FR 1,01 · DE 0,89 ·
 PT 1,00 · CA 1,00 (todos > 0,85, umbral del audit extendido).
 
-**Archivos tocados**:
-`exentax-web/client/src/data/blog-content/{es,en,fr,de,pt,ca}/cuanto-cuesta-constituir-llc.ts`.
-Sin cambios fuera de los 6 ficheros de artículo. Sin `package.json`,
-sin schema, sin rutas.
+**Archivos tocados (Task #1, alcance estricto)**:
+- `exentax-web/client/src/data/blog-content/{es,en,fr,de,pt,ca}/cuanto-cuesta-constituir-llc.ts`
+  (6 cuerpos del artículo).
+- `exentax-web/client/src/data/blog-i18n/{en,fr,de,pt,ca}.ts` (5 SEO-meta
+  reescritos para reflejar el framing local: 24 meses, NM/WY/DE, Form
+  5472, ancla regulatoria local de cada idioma).
+- `docs/internal/PENDING.md` (entrada de cierre Sesión 8).
+
+Sin cambios en `package.json`, schema, rutas o componentes UI dentro de
+esta tarea. Cambios merge-aceptados de Tasks #2/#3/#4 (calculator,
+servicios, conversión auditoría) son **independientes** y se mergearon
+en paralelo; aparecen en el diff por la integración de ramas, no por
+edición de Task #1.
 
 Cada ítem lleva **comando exacto para reproducirlo**, archivo:línea si
 aplica, e impacto (alto/medio/bajo). Sin items vagos.
