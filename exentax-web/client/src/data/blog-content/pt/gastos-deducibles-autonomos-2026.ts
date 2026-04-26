@@ -75,7 +75,7 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 
 **Posso deduzir um curso pago adiantadamente para 3 anos?** Não. A despesa imputa-se ao exercício em que se devenga o serviço. Se for um curso de 3 anos, deduz 1/3 cada ano, não tudo no primeiro exercício.
 
-**O que acontece se perder uma fatura?** A AEAT admite reconstrução via extrato bancário + certificado do fornecedor + declaração sob compromisso de honra. O processo é trabalhoso e rejeita-se com frequência. Melhor: arquivo digital (Drive, Notion, gestor) atualizado mensalmente.
+**O que acontece se perder uma fatura?** A AEAT admite reconstrução via extrato bancário + certificado do fornecedor + declaração sob compromisso de honra. O processo é trabalhoso e rejeita-se com frequência. Melhor: ficheiro digital (Drive, Notion, gestor) atualizado mensalmente.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
