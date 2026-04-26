@@ -814,9 +814,9 @@ a, button {
     background: linear-gradient(90deg, transparent, var(--border) 25%, var(--border) 75%, transparent);
   }
 
-  /* Inline code — neutral, refined */
+  /* Inline code — neutral, refined. Brand font (Inter), no monospace fallback. */
   .blog-content code {
-    font-family: var(--font-mono, ui-monospace, "SF Mono", Menlo, Consolas, monospace);
+    font-family: "Inter", sans-serif;
     font-size: 0.9em;
     padding: 2px 7px;
     border-radius: 6px;
