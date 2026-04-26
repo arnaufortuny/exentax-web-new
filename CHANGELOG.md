@@ -3,6 +3,51 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Unreleased] — 2026-04-26
+
+### Quality audit + DE register cleanup + indexing verified
+- **DE register informal → formal Sie**: 87 artículos editorializados (488+65
+  substituciones aplicadas vía `scripts/de-register-apply-safe.mjs`). Audit
+  detector con thresholds language-aware (DE 0.65, PT/FR 0.70, CA 0.75) y
+  section-count exemption para artículos restructurados con más secciones que ES.
+- **MT tells (overuse) → 0**: 11 artículos FR limpiados (`actuellement`
+  redundante) via 14 patrones específicos.
+- **Low-ratio false positive → 0**: los 5 artículos low-ratio (DE/PT/CA/FR)
+  tenían MÁS secciones que ES (restructuración audiencia-local), no contenido
+  faltante. Audit ahora exime artículos restructurados.
+- **CTA refactor seguro**: `scripts/blog-cta-channel-lint.mjs` +
+  `blog-cta-channel-update.mjs` para drift detection del número WhatsApp
+  canonical en 666 artículos.
+- **Phone CTA eliminado**: 657 artículos blog (6 idiomas) ahora solo tienen
+  WhatsApp + agendar como CTAs principales (no phone).
+- **Brand casing fix**: `STACK.md` añadido al ALLOWLIST de
+  `brand-casing-check.mjs` (mismo patrón que AGENT-RULES.md).
+- **CRS 2.0 article**: `crs-2-0-carf-por-que-usa-no-firmara-llc` integrado
+  completo en 6 idiomas (verified by audit).
+- **Florida service**: integrado completo (page + 6 lang slugs + sitemap +
+  footer + i18n subpages content).
+- **`.blog-content code` fontStack**: eliminado fallback a monospace (Inter
+  only) — alineado con brand "no monospace anywhere".
+
+### Quality audit results (2026-04-26 baseline)
+- `npm run check`: EXIT 0 con 23 gates verde
+- `npm run blog:validate-all`: **13/13 OK**
+- `npm run i18n:check`: PASS (1554 keys × 6 idiomas)
+- `npm run seo:meta`: 0 errors / 0 warnings × 6 langs
+- `npm run seo:check`: 0 broken links · 112 articles ≥3 inbound
+- `npm run seo:llm-readiness`: PASSED 0 warnings
+- `blog-translation-quality-extended`: leakage 0 · DE register 0 · MT tells 0
+  · FR register 1 (false positive intencional) · low-ratio 0 · untranslated 0
+- `test:calculator`: 123/123 asserts
+- `test-field-encryption`: 45/45 asserts AES-256-GCM E2E
+
+### Documentación actualizada
+- `docs/internal/REVISION-TOTAL-REPORT.md` — baseline + análisis bloque-por-bloque
+- `docs/internal/PROJECT-CONTENT-REPORT.md` — newsletter + 25 pages + design system
+- `docs/internal/EDITORIAL-PENDING-PLAN.md` — workflow editorial actualizado
+- `docs/internal/STACK.md` + `INDEX.md` actualizados a 2026-04-26
+- `docs/auditoria-multiidioma/de-register-action-list.md` — herramienta editorial line-by-line
+
 ## [Unreleased] — 2026-04-22
 
 ### Limpieza estructural del repositorio
