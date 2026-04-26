@@ -10,7 +10,7 @@
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Amazon y ecommerce con LLC: cómo vender online desde cual…` · `Análisis práctico de amazon y ecommerce con llc: cómo vender online desde cualquier país con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 - **Candidato metaTitle (50ch):** `Vender en Amazon US con LLC: nexo y sales tax 2026`
-- **Candidato metaDescription (145ch):** `Wayfair - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.00K/200tx por estado, FBA = nexo físico inmediato, Marketplace Facilitator en 47 estados y obligación de seller permit aunque facilite.`
+- **Candidato metaDescription (145ch):** `Wayfair $100K/200tx por estado, FBA = nexo físico inmediato, Marketplace Facilitator en 47 estados y obligación de seller permit aunque facilite.`
 
 ## Primer párrafo actual (auditoría)
 
