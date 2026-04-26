@@ -89,7 +89,7 @@ L'arrendatari (autònom o empresa) presenta model 115 trimestral declarant els 1
 
 **Si tinc una LLC americana, hi ha retencions?** Les factures emeses des d'una LLC americana a clients espanyols no porten retenció IRPF a la factura (és retenció sobre rendiments del treball o professionals de l'autònom, no de l'estranger). El resident fiscal espanyol declara els rendiments nets de la LLC al seu IRPF com a rendiments de l'estranger, sense que el client espanyol retingui res.
 
-**I si sóc nou autònom al meu tercer any, quan passo al 15%?** Al quart exercici fiscal complet. Si et vas donar d'alta el març 2024, el primer exercici compta des de març 2024 a desembre 2024 (incomplet però compta). 2025 i 2026 són segon i tercer. Des de 2027 retenció al 15%.
+**I si sóc nou autònom al meu tercer any, quan passo al 15%?** Al quart exercici fiscal complet. L'any de l'alta compta com a primer exercici tot i ser incomplet; els dos següents són segon i tercer (amb retenció reduïda del 7%). Des del quart, retenció del 15% per defecte.
 
 **Hisenda sap el que m'han retingut?** Sí. Cada client declara les retencions al model 111 trimestral amb el teu NIF. Abans de presentar la teva declaració anual, descarrega les dades fiscals a la seu AEAT i creua amb el teu propi registre: si hi ha diferències, exigeix al teu client la correcció abans del 30 de juny.
 

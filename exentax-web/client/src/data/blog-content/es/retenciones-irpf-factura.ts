@@ -89,7 +89,7 @@ El inquilino (autónomo o empresa) presenta modelo 115 trimestral declarando los
 
 **¿Si tengo una LLC americana, hay retenciones?** Las facturas emitidas desde una LLC americana a clientes españoles no llevan retención IRPF en factura (es retención sobre rendimientos del trabajo o profesionales del autónomo, no del extranjero). El residente fiscal español declara los rendimientos netos de la LLC en su IRPF como rendimientos del extranjero, sin que el cliente español retenga nada.
 
-**¿Y si soy nuevo autónomo en mi tercer año, cuándo paso al 15%?** Al cuarto ejercicio fiscal completo. Si te diste de alta en marzo 2024, el primer ejercicio cuenta desde marzo 2024 a diciembre 2024 (incompleto pero cuenta). 2025 y 2026 son segundo y tercero. Desde 2027 retención al 15%.
+**¿Y si soy nuevo autónomo en mi tercer año, cuándo paso al 15%?** Al cuarto ejercicio fiscal completo. El año del alta cuenta como primer ejercicio aunque sea incompleto; los dos siguientes son segundo y tercero (con retención reducida del 7%). Desde el cuarto, retención del 15% aplicada por defecto.
 
 **¿Hacienda sabe lo que me han retenido?** Sí. Cada cliente declara las retenciones en el modelo 111 trimestral con tu NIF. Antes de presentar tu declaración anual, descarga los datos fiscales en sede AEAT y cruza con tu propio registro: si hay diferencias, exige a tu cliente la corrección antes del 30 de junio.
 

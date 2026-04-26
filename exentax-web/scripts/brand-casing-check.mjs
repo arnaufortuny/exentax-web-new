@@ -41,6 +41,7 @@ const ALLOWLIST = new Set([
   "docs/internal/ARCHITECTURE.md",
   "docs/internal/DEFINITIVE-STATUS.md",
   "docs/internal/PRODUCTION-READY-REPORT.md",
+  "docs/internal/REVISION-TOTAL-REPORT.md",
   "docs/internal/STACK.md",
   "docs/internal/TRANSLATION-GUIDE.md",
   "docs/internal/WHAT-NOT-TO-TOUCH.md",

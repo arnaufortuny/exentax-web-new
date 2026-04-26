@@ -89,7 +89,7 @@ Le locataire (autónomo ou entreprise) dépose le formulaire 115 trimestriel dé
 
 **Si j'ai une LLC américaine, y a-t-il des retenues ?** Les factures émises depuis une LLC américaine à des clients espagnols ne portent pas de retenue IRPF (c'est une retenue sur revenus de profession ou travail de l'autónomo, pas de l'étranger). Le résident fiscal espagnol déclare les rendements nets de la LLC sur son IRPF comme revenus de l'étranger, sans que le client espagnol retienne quoi que ce soit.
 
-**Et si je suis nouvel autónomo dans ma troisième année, quand passe-je au 15% ?** Au quatrième exercice fiscal complet. Si vous vous êtes inscrit en mars 2024, le premier exercice compte de mars 2024 à décembre 2024 (incomplet mais compte). 2025 et 2026 sont deuxième et troisième. À partir de 2027, retenue à 15%.
+**Et si je suis nouvel autónomo dans ma troisième année, quand passe-je au 15% ?** Au quatrième exercice fiscal complet. L'année de l'inscription compte comme premier exercice même si elle est incomplète ; les deux suivantes sont deuxième et troisième (avec retenue réduite à 7%). À partir du quatrième, retenue à 15% par défaut.
 
 **L'AEAT sait-il ce qui m'a été retenu ?** Oui. Chaque client déclare les retenues sur le formulaire 111 trimestriel avec votre NIF. Avant de présenter votre déclaration annuelle, téléchargez les données fiscales sur le siège AEAT et croisez avec votre propre registre : s'il y a des différences, exigez la correction du client avant le 30 juin.
 

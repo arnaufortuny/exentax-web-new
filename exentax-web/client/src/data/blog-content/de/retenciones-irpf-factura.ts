@@ -89,7 +89,7 @@ Der Mieter (Autónomo oder Unternehmen) reicht das vierteljährliche Formular 11
 
 **Wenn ich eine US-LLC habe, gibt es Quellensteuern?** Rechnungen von einer US-LLC an spanische Kunden tragen keine IRPF-Quellensteuer (es ist Quellensteuer auf Berufseinkommen des Autónomos, nicht des Auslands). Der spanische Steuerresident erklärt die Nettoerträge der LLC in seiner IRPF als ausländisches Einkommen, ohne dass der spanische Kunde etwas einbehält.
 
-**Wenn ich neuer Autónomo im dritten Jahr bin, wann gehe ich auf 15% über?** Im vierten vollständigen Geschäftsjahr. Wenn Sie sich im März 2024 angemeldet haben, zählt das erste Geschäftsjahr von März 2024 bis Dezember 2024 (unvollständig, zählt aber). 2025 und 2026 sind das zweite und dritte. Ab 2027 Quellensteuer 15%.
+**Wenn ich neuer Autónomo im dritten Jahr bin, wann gehe ich auf 15% über?** Im vierten vollständigen Geschäftsjahr. Das Jahr der Anmeldung zählt als erstes Geschäftsjahr, auch wenn es unvollständig ist; die beiden folgenden sind zweites und drittes (mit reduzierter Quellensteuer von 7%). Ab dem vierten Jahr gilt standardmäßig der Satz von 15%.
 
 **Weiß die Steuerbehörde, was mir einbehalten wurde?** Ja. Jeder Kunde meldet die Quellensteuern auf vierteljährlichem Formular 111 mit Ihrer NIF. Vor Einreichung Ihrer Jahreserklärung laden Sie die Steuerdaten am AEAT-Sitz herunter und gleichen mit Ihren eigenen Aufzeichnungen ab: Bei Differenzen verlangen Sie die Korrektur des Kunden vor dem 30. Juni.
 

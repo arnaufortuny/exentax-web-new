@@ -89,7 +89,7 @@ The tenant (autónomo or company) files quarterly form 115 reporting the 152€ 
 
 **If I have a US LLC, are there withholdings?** Invoices issued from a US LLC to Spanish clients carry no IRPF withholding (it's withholding on resident professional income, not foreign). The Spanish tax resident declares the LLC's net income on IRPF as foreign income, with no Spanish client withholding anything.
 
-**And if I'm a new autónomo in my third year, when do I move to 15%?** In the fourth complete fiscal year. If you registered in March 2024, the first year counts from March 2024 to December 2024 (incomplete but counts). 2025 and 2026 are second and third. From 2027, withholding at 15%.
+**And if I'm a new autónomo in my third year, when do I move to 15%?** In the fourth complete fiscal year. The year you register counts as your first fiscal year even if it's incomplete; the two following years are second and third (with reduced 7% withholding). From the fourth year onward, the default 15% rate applies.
 
 **Does the tax authority know what's been withheld from me?** Yes. Each client declares the withholdings on quarterly form 111 with your tax ID. Before filing your annual declaration, download the tax data and cross-check with your records: if there are differences, demand client correction before June 30.
 
