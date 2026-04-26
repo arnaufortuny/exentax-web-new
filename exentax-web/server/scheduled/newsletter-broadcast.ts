@@ -260,10 +260,36 @@ async function sendCampaignJob(
   const unsubUrl = job.unsubscribe_token
     ? `${SITE_URL}/api/newsletter/unsubscribe/${job.unsubscribe_token}`
     : `${SITE_URL}/contacto`;
-  const html = (campaign.bodyHtml ?? "").replace(/{{\s*unsubscribe_url\s*}}/g, unsubUrl);
 
+  // Reemplaza placeholder {{unsubscribe_url}} en el body con la URL única
+  // del suscriptor (token no firmado pero único + lookup en DB con WHERE
+  // unsubscribed_at IS NULL para idempotencia y rate-limit per-token en
+  // server/routes/public.ts:checkUnsubscribeRateLimit).
+  let html = (campaign.bodyHtml ?? "").replace(/{{\s*unsubscribe_url\s*}}/g, unsubUrl);
+
+  // Defense-in-depth: si el HTML no incluye link visible al unsubscribe,
+  // append un footer mínimo para compliance GDPR + LGPD + CAN-SPAM.
+  // Aunque la validación al crear campaign exige el placeholder, esta capa
+  // garantiza que cualquier HTML que llegue aquí tenga link unsub visible.
+  if (!html.includes(unsubUrl)) {
+    const footerEs = `
+<hr style="margin:32px 0;border:none;border-top:1px solid #e5e5e5"/>
+<p style="font-size:12px;color:#666;text-align:center;line-height:1.5">
+  Recibes este email porque te suscribiste a la newsletter de Exentax.<br>
+  ¿No quieres recibir más? <a href="${unsubUrl}" style="color:#666;text-decoration:underline">Darse de baja</a> ·
+  <a href="${SITE_URL}/legal/privacidad" style="color:#666;text-decoration:underline">Política de privacidad</a><br>
+  Exentax — fiscalidad internacional para no residentes
+</p>`.trim();
+    html = html + "\n" + footerEs;
+  }
+
+  // Sender name "Exentax Newsletter" diferencia broadcasts de transaccionales
+  // (welcomeLead, bookingConfirmation, etc. usan "Exentax"). Esto ayuda al
+  // cliente a identificar canal y a su filtro de spam a clasificar correctamente.
+  const fromAddress = process.env.GMAIL_SENDER ?? "hola@exentax.com";
   const raw = [
-    `From: Exentax <${process.env.GMAIL_SENDER ?? "hola@exentax.com"}>`,
+    `From: Exentax Newsletter <${fromAddress}>`,
+    `Reply-To: ${fromAddress}`,
     `To: ${job.email}`,
     `Subject: ${campaign.subject}`,
     `MIME-Version: 1.0`,
