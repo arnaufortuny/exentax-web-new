@@ -253,10 +253,10 @@ export async function generateAndSendPeriodReport(
 ): Promise<void> {
   const m = await gatherMetrics(range);
 
-  const titlePrefix = type === "weekly" ? "📊 Reporte semanal" : "📈 Reporte mensual";
+  const titlePrefix = type === "weekly" ? "Reporte semanal" : "Reporte mensual";
   const title = `${titlePrefix} — ${range.label}`;
 
-  // Resumen ejecutivo en description
+  // Resumen ejecutivo en description (formato profesional, sin iconos)
   const conversionRate = m.visits.total > 0
     ? `${((m.agenda.total / m.visits.total) * 100).toFixed(2)}%`
     : "—";
@@ -264,16 +264,16 @@ export async function generateAndSendPeriodReport(
   const description = [
     `**Período**: ${formatDateES(new Date(range.startISO))} → ${formatDateES(new Date(range.endISO))}`,
     "",
-    `🌐 **${formatNumber(m.visits.total)}** visitas web · 📅 **${formatNumber(m.agenda.total)}** reservas · 🧮 **${formatNumber(m.calculator.executions)}** cálculos`,
-    `📧 **${formatNumber(m.leads.total)}** leads · 📨 **${formatNumber(m.newsletter.subscriptions)}** subs newsletter (−${formatNumber(m.newsletter.unsubscribes)} bajas)`,
-    `🎯 Tasa conversión visita→reserva: **${conversionRate}**`,
+    `**${formatNumber(m.visits.total)}** visitas · **${formatNumber(m.agenda.total)}** reservas · **${formatNumber(m.calculator.executions)}** cálculos`,
+    `**${formatNumber(m.leads.total)}** leads · **${formatNumber(m.newsletter.subscriptions)}** suscripciones newsletter (−${formatNumber(m.newsletter.unsubscribes)} bajas)`,
+    `Tasa conversión visita → reserva: **${conversionRate}**`,
   ].join("\n");
 
   const fields: Array<{ name: string; value: string; inline?: boolean }> = [];
 
   // Top 10 páginas más visitadas
   fields.push({
-    name: "🔝 Páginas más visitadas",
+    name: "Páginas más visitadas",
     value: formatTopList(m.visits.topPages, "page", 10),
     inline: false,
   });
@@ -281,16 +281,16 @@ export async function generateAndSendPeriodReport(
   // Visitas por idioma
   if (m.visits.byLanguage.length > 0) {
     fields.push({
-      name: "🌍 Visitas por idioma",
+      name: "Visitas por idioma",
       value: m.visits.byLanguage.map(x => `**${x.lang.toUpperCase()}**: ${formatNumber(x.count)}`).join(" · "),
       inline: true,
     });
   }
 
-  // Visitas por país top 5
+  // Top fuentes de tráfico (utm_source / referrer)
   if (m.visits.byCountry.length > 0) {
     fields.push({
-      name: "📍 Top países",
+      name: "Top fuentes de tráfico",
       value: m.visits.byCountry.map(x => `${x.country}: ${formatNumber(x.count)}`).join(" · "),
       inline: true,
     });
@@ -298,22 +298,22 @@ export async function generateAndSendPeriodReport(
 
   // Estado de la agenda
   fields.push({
-    name: "📅 Agenda — desglose por estado",
+    name: "Agenda — desglose por estado",
     value: [
-      `🟡 Pending: **${m.agenda.pending}**`,
-      `🟢 Confirmed: **${m.agenda.confirmed}**`,
-      `🔵 Completed: **${m.agenda.completed}**`,
-      `🔁 Rescheduled: **${m.agenda.rescheduled}**`,
-      `❌ Cancelled: **${m.agenda.cancelled}**`,
-      `👻 No-show: **${m.agenda.noShow}**`,
+      `Pending: **${m.agenda.pending}**`,
+      `Confirmed: **${m.agenda.confirmed}**`,
+      `Completed: **${m.agenda.completed}**`,
+      `Rescheduled: **${m.agenda.rescheduled}**`,
+      `Cancelled: **${m.agenda.cancelled}**`,
+      `No-show: **${m.agenda.noShow}**`,
     ].join(" · "),
     inline: false,
   });
 
-  // Origen de las reservas
+  // Origen de las reservas (idioma_booking)
   if (m.agenda.bySource.length > 0) {
     fields.push({
-      name: "🚪 Origen reservas",
+      name: "Origen reservas (por idioma)",
       value: m.agenda.bySource.map(x => `${x.source}: **${formatNumber(x.count)}**`).join(" · "),
       inline: false,
     });
@@ -322,15 +322,15 @@ export async function generateAndSendPeriodReport(
   // Leads por fuente
   if (m.leads.bySource.length > 0) {
     fields.push({
-      name: "📧 Leads por fuente",
+      name: "Leads por fuente",
       value: m.leads.bySource.map(x => `${x.source}: **${formatNumber(x.count)}**`).join(" · "),
       inline: false,
     });
   }
 
-  // SEO snapshot (artículos blog publicados, sitemap status)
+  // SEO snapshot
   fields.push({
-    name: "🔍 SEO",
+    name: "SEO snapshot",
     value: [
       `Artículos blog: 113 × 6 idiomas`,
       `Sitemap: \`/sitemap.xml\` (index → pages + blog + faq)`,

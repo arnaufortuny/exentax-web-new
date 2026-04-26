@@ -293,10 +293,10 @@ const discordEmbedSchema = z.object({
   color: z.number().int().nonnegative().optional(),
   fields: z.array(discordEmbedFieldSchema).max(DISCORD_FIELD_LIMIT),
   footer: z.object({
-    text: z.string().min(1).max(DISCORD_FOOTER_MAX)
-      .refine(t => t.includes(PAYLOAD_VERSION_TAG), {
-        message: `footer must include payload version tag '${PAYLOAD_VERSION_TAG}'`,
-      }),
+    // Footer text is now a simple timestamp (yyyy-mm-dd HH:MM Europe/Madrid).
+    // Payload schema versioning lives implicitly in code (DISCORD_PAYLOAD_VERSION
+    // constant) — no longer required in the visible footer text.
+    text: z.string().min(1).max(DISCORD_FOOTER_MAX),
     icon_url: z.string().url().optional(),
   }).optional(),
   timestamp: z.string().min(1),
@@ -870,9 +870,20 @@ function bookingIdField(bookingId: string): EmbedField {
 }
 
 function brandFooter(extra?: string): EmbedFooter {
-  // Always tag the payload version so the outbound contract is self-describing.
-  const base = extra ? `Exentax · ${extra}` : "Exentax";
-  return { text: `${base} ${PAYLOAD_VERSION_TAG}`, icon_url: EXENTAX_AVATAR_URL };
+  // Footer minimalista: solo timestamp Europe/Madrid en formato yyyy-mm-dd HH:MM.
+  // El brand identifier llega vía username del bot ("Exentax") + avatar.
+  // El parámetro `extra` se preserva para compatibilidad pero no se renderiza.
+  void extra;
+  const now = new Date();
+  const fmt = new Intl.DateTimeFormat("es-ES", {
+    timeZone: "Europe/Madrid",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hour12: false,
+  });
+  const parts = fmt.formatToParts(now);
+  const get = (t: string) => parts.find(p => p.type === t)?.value ?? "";
+  const tsPretty = `${get("year")}-${get("month")}-${get("day")} ${get("hour")}:${get("minute")}`;
+  return { text: tsPretty, icon_url: EXENTAX_AVATAR_URL };
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
