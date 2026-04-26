@@ -5,7 +5,12 @@
         "http://localhost:5000/es",
         "http://localhost:5000/en",
         "http://localhost:5000/es/blog",
-        "http://localhost:5000/es/calculadora"
+        "http://localhost:5000/es/calculadora",
+        "http://localhost:5000/es/servicios/llc-nuevo-mexico",
+        "http://localhost:5000/es/servicios/llc-wyoming",
+        "http://localhost:5000/es/servicios/llc-delaware",
+        "http://localhost:5000/es/servicios/llc-florida",
+        "http://localhost:5000/es/servicios/obten-tu-itin"
       ],
       "numberOfRuns": 3,
       "settings": {

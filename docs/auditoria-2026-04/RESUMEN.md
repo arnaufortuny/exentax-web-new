@@ -101,14 +101,37 @@ positivos (data-testids ya presentes, claves i18n ya declaradas en
 
 ## Lighthouse — gates de performance
 
-El workflow `.github/workflows/lighthouse.yml` corre **dos presets** sobre las
-mismas 4 URLs (home ES/EN, blog index, calculadora) y la mediana de 3 runs
-debe pasar ambos para mergear a `main`.
+El workflow `.github/workflows/lighthouse.yml` corre **dos presets** sobre
+**9 URLs** (home ES/EN, blog index, calculadora, y las 5 subpáginas de
+servicios en `/es`: `llc-nuevo-mexico`, `llc-wyoming`, `llc-delaware`,
+`llc-florida`, `obten-tu-itin`) y la mediana de 3 runs debe pasar ambos
+para mergear a `main`.
 
 | Preset | Config | LCP | CLS | INP | Performance | TBT |
 | --- | --- | --- | --- | --- | --- | --- |
 | Desktop (Task #15) | `.lighthouserc.json`        | ≤ 2500 ms | ≤ 0.1 | ≤ 200 ms | ≥ 0.85 | ≤ 300 ms (warn) |
 | Mobile  (Task #21) | `.lighthouserc.mobile.json` | ≤ 4000 ms | ≤ 0.1 | ≤ 200 ms | ≥ 0.70 | ≤ 600 ms (warn) |
+
+**Cobertura de servicios (Task #22, 2026-04-26):** las 5 subpáginas de
+servicios son rutas de aterrizaje SEO importantes; antes de Task #22 sólo
+se auditaban `/es`, `/en`, `/es/blog` y `/es/calculadora`, así que LCP/CLS
+podían regresionar en `/es/servicios/*` sin que CI lo detectara. Se añade
+sólo el set `/es` (no `/en` ni el resto de idiomas) porque el HTML SSR es
+estructuralmente equivalente entre idiomas: el bundle, las imágenes hero y
+los scripts diferidos son los mismos, así que cualquier regresión real se
+captura igualmente con un único locale.
+
+**Estructura del job:** se mantiene un único job que ejecuta los dos
+presets en serie (`lhci_desktop` → `lhci_mobile`) en el mismo runner,
+porque el step de aviso de bypass del gate (Task #20) necesita leer
+`steps.lhci_desktop.outcome` y `steps.lhci_mobile.outcome` en el mismo
+contexto para publicar un único comentario en el PR. Partir el job en
+matrix por preset rompería ese contrato (cada shard sólo ve su propio
+outcome y se duplicarían comentarios), así que la matrix se descartó al
+rebasar Task #22 sobre Task #20. Si el tiempo total del job se dispara
+por encima de los ~8 min razonables, reevaluar partir en matrix
+coordinando además el step de bypass-comment con `needs:` en un job
+agregador separado.
 
 **Por qué un baseline móvil más laxo:** el preset mobile de Lighthouse simula
 un Moto G Power con throttling 4G (CPU ×4, downlink 1.6 Mbps, RTT 150 ms),

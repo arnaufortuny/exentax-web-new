@@ -2,12 +2,15 @@ name: Lighthouse CI (PR)
 
 # Triggered on every pull request that targets `main`. The job builds the
 # production bundle, boots the SSR server on port 5000, and runs Lighthouse
-# CI against four representative URLs (home ES/EN, blog index, calculator
-# landing) with **two presets**: desktop (`.lighthouserc.json`) y mobile
-# (`.lighthouserc.mobile.json`). Ambos resultados son bloqueantes.
+# CI against nine representative URLs (home ES/EN, blog index, calculator
+# landing, plus the 5 ES service subpages: llc-nuevo-mexico, llc-wyoming,
+# llc-delaware, llc-florida, obten-tu-itin) with **two presets**: desktop
+# (`.lighthouserc.json`) y mobile (`.lighthouserc.mobile.json`). Ambos
+# resultados son bloqueantes.
 #
 # GATING — Task #15 (desktop, cerrado 2026-04-26, commit 945eae8) +
-# Task #21 (mobile, 2026-04-26):
+# Task #21 (mobile, 2026-04-26) + Task #22 (cobertura servicios /es,
+# 2026-04-26):
 # Este job es **bloqueante** en ambos presets. Si cualquier assertion
 # `error` falla, el check sale en rojo y bloquea el merge a `main`.
 #   • Desktop  (`.lighthouserc.json`):        LCP ≤ 2500 ms, CLS ≤ 0.1,
@@ -15,6 +18,16 @@ name: Lighthouse CI (PR)
 #   • Mobile   (`.lighthouserc.mobile.json`): LCP ≤ 4000 ms, CLS ≤ 0.1,
 #                                             INP ≤ 200 ms, perf ≥ 0.70
 # Mediana de 3 runs por URL en cada preset.
+#
+# Estructura: un único job que ejecuta los dos presets en serie en pasos
+# distintos (`lhci_desktop` y `lhci_mobile`) dentro del mismo runner.
+# Esto permite que el step de aviso de bypass (Task #20) lea ambos
+# `steps.lhci_*.outcome` y publique un único comentario en el PR sin
+# necesidad de coordinar matrix shards. Si en el futuro el tiempo total
+# del job se dispara por encima de los ~8 min razonables (Task #22 ya
+# duplicó la cobertura de URLs), reevaluar partir en matrix por preset
+# coordinando también el step de bypass-comment con `needs:` en un job
+# agregador separado.
 #
 # Override de emergencia (refactor que pesa más pero es intencional, p.ej.
 # añadir un widget de pago que sube LCP por una décima):
