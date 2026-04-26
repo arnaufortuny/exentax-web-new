@@ -1,0 +1,3358 @@
+{
+  "generatedAt": "2026-04-26T18:07:16.577Z",
+  "total": 111,
+  "pass": 37,
+  "fail": 74,
+  "results": [
+    {
+      "slug": "amazon-ecommerce-llc-vender-online",
+      "title": "Amazon y ecommerce con LLC: cómo vender online desde cualquier país",
+      "rank": 20,
+      "wordCount": 2247,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si quieres vender productos (físicos o digitales) en Amazon, Shopify, Etsy o cualquier plataforma de ecommerce, tener una <a href=\"/es/blog/constituir-llc-proceso-paso-a-paso\">LLC en Estados Unidos</a> te abre puertas qu",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2247 a ≥2.500 palabras (faltan ~253). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 10
+    },
+    {
+      "slug": "auditoria-rapida-llc-12-puntos-30-minutos",
+      "title": "Auditoría rápida de tu LLC en 30 minutos: 12 puntos para revisar hoy",
+      "rank": 90,
+      "wordCount": 2752,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si llevas tiempo con tu LLC y nunca has hecho una revisión completa, este artículo es la auditoría que deberías hacerte hoy. No requiere acceso al banco, no requiere reunión con un asesor: doce puntos que puedes verifica",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 8,
+        "authoritativeSourcesCount": 1,
+        "authoritativeDomains": [
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 1). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "autonomo-espana-vs-llc-estados-unidos",
+      "title": "Autónomo en España vs LLC en EE.UU.: comparativa fiscal completa",
+      "rank": 6,
+      "wordCount": 3411,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres autónomo en España y facturas a clientes internacionales, o tu negocio es 100% digital, seguro que ya has pensado: \"¿tiene sentido seguir pagando el 40% al fisco español?\" La respuesta corta: probablemente no, si",
+        "fillerHits": 0,
+        "objectionScore": 7,
+        "qHeaders": 2,
+        "exentaxMentions": 13,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org",
+          "petete.tributos.hacienda.gob.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 49
+    },
+    {
+      "slug": "autonomos-espana-por-que-dejar-de-serlo",
+      "title": "Por qué dejar de ser autónomo en España (y qué alternativas tienes)",
+      "rank": 25,
+      "wordCount": 3172,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Vamos a ser directos: si eres autónomo en España y la mayoría de tus ingresos vienen de fuera, clientes en EE.UU. UK, Alemania o cualquier otro país, probablemente estás pagando mucho más de lo necesario. Y no poco.",
+        "fillerHits": 0,
+        "objectionScore": 9,
+        "qHeaders": 4,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 30
+    },
+    {
+      "slug": "bancos-vs-fintech-llc-donde-abrir-cuenta",
+      "title": "Bancos vs Fintech: dónde abrir la cuenta de tu LLC",
+      "rank": 26,
+      "wordCount": 2307,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando abres tu LLC, una de las primeras decisiones es dónde abrir la cuenta bancaria. Y aquí es donde empieza la confusión: Mercury no es un banco. Wise tampoco. Relay tampoco. Pero todos te ofrecen una cuenta, una tarj",
+        "fillerHits": 0,
+        "objectionScore": 10,
+        "qHeaders": 6,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, fincen.gov, fdic.gov.",
+        "Expandir de 2307 a ≥2.500 palabras (faltan ~193). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales, comparativa multi-proveedor + KYC + casos de bloqueo."
+      ],
+      "trafficScore": 4
+    },
+    {
+      "slug": "boe-febrero-2020-llc-doctrina-administrativa",
+      "title": "BOE feb 2020 y doctrina DGT/TEAC sobre la LLC: qué dice España",
+      "rank": 62,
+      "wordCount": 3069,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si eres residente fiscal en España y tienes una <a href=\"/es/blog/llc-estados-unidos-guia-completa-2026\">LLC americana</a>, la pregunta clave no es qué dice el IRS sino qué dice la **doctrina administrativa española** so",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "boi-report-fincen-guia-completa-2026",
+      "title": "BOI Report (FinCEN): guía completa para dueños de LLC en 2026",
+      "rank": 52,
+      "wordCount": 2634,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El BOI Report (Beneficial Ownership Information Report o BOIR) es una declaración ante FinCEN (Financial Crimes Enforcement Network) que identifica a los propietarios beneficiarios reales de determinadas empresas registr",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 12,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "bookkeeping-llc-paso-a-paso",
+      "title": "Bookkeeping de tu LLC: organiza la contabilidad sin complicarte",
+      "rank": 78,
+      "wordCount": 3847,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Llevar la contabilidad de una LLC americana asusta más de lo que debería. La mayoría de los propietarios no residentes vienen acostumbrados al modelo español o latinoamericano, donde un asesor te pide papeles, presenta m",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "cambiar-divisas-llc-mejores-opciones",
+      "title": "Cómo cambiar divisas en tu LLC: las mejores opciones",
+      "rank": 23,
+      "wordCount": 2248,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si operas una LLC en Estados Unidos y vives en España, México, Colombia o cualquier otro país fuera de EE.UU. el cambio de divisas es una parte esencial de tu día a día financiero. Cobras en dólares, pero tus gastos pers",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 2248 a ≥2.500 palabras (faltan ~252). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 7
+    },
+    {
+      "slug": "cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad",
+      "title": "Cambiar de proveedor de mantenimiento LLC sin perder antigüedad",
+      "rank": 91,
+      "wordCount": 2701,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cambiar de proveedor de mantenimiento de tu LLC es una de las decisiones que más miedo dan y menos consecuencias tiene si se hace bien. La inmensa mayoría de dueños de LLC que llegan a Exentax queriendo cambiar arrastran",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "caminos-legales-minimos-impuestos",
+      "title": "Caminos legales para pagar el mínimo de impuestos posible",
+      "rank": 86,
+      "wordCount": 3644,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Pagar pocos impuestos de forma legal es posible. Pagar cero, casi nunca. La diferencia entre los dos planteamientos marca la frontera entre la planificación fiscal seria y la fantasía que circula en redes sociales. Esta ",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 5,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org",
+          "petete.tributos.hacienda.gob.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "como-disolver-cerrar-llc-paso-a-paso",
+      "title": "Cómo disolver y cerrar tu LLC: guía completa para no residentes",
+      "rank": 89,
+      "wordCount": 4404,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cerrar una LLC bien hecha es tan importante como abrirla. La mayoría de información que circula sobre LLCs habla de cómo constituirla, cómo elegir estado, cómo abrir cuenta en Mercury o Wise Business... pero casi nadie e",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "como-obtener-itin-numero-fiscal-irs",
+      "title": "Cómo obtener el ITIN: número fiscal del IRS para no residentes",
+      "rank": 77,
+      "wordCount": 4324,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si vives fuera de Estados Unidos pero el IRS espera algo de ti (retenciones que recuperar, impuestos federales que declarar, dividendos americanos, una LLC con un Form 1040-NR pendiente; una venta de inmueble en Florida ",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "como-operar-llc-dia-a-dia",
+      "title": "Cómo operar tu LLC en el día a día: guía práctica",
+      "rank": 14,
+      "wordCount": 3744,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico",
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Has dado el paso y tu LLC ya está constituida. Tienes tu EIN, tu cuenta en Mercury abierta y tus documentos en orden. Ahora empieza la parte divertida: operar tu negocio como un profesional.",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 8,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "primer párrafo sin cifra, año o pregunta-objeción"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: primer párrafo sin cifra, año o pregunta-objeción). Abrir con la objeción, cifra o pregunta más punzante del tema \"Cómo operar tu LLC en el día a día: guía práctica\" — no con definición ni con \"En este artículo\".",
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 16
+    },
+    {
+      "slug": "constituir-llc-proceso-paso-a-paso",
+      "title": "Constituir tu LLC: el proceso paso a paso",
+      "rank": 24,
+      "wordCount": 3239,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Constituir una LLC en Estados Unidos siendo no residente es un proceso 100% online que se puede completar en pocos días. No necesitas viajar, no necesitas visa, y no necesitas un abogado en EE.UU.",
+        "fillerHits": 0,
+        "objectionScore": 7,
+        "qHeaders": 2,
+        "exentaxMentions": 11,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 31
+    },
+    {
+      "slug": "convenio-doble-imposicion-usa-espana-llc",
+      "title": "Convenio de doble imposición USA-España aplicado a LLCs: guía práctica",
+      "rank": 76,
+      "wordCount": 3928,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando alguien ve por primera vez la combinación \"LLC en Estados Unidos\" y \"residente fiscal en España\", la pregunta inmediata es siempre la misma: **\"¿y entonces dónde pago impuestos?\"**. La respuesta es clara: **en Esp",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org",
+          "petete.tributos.hacienda.gob.es",
+          "serviciostelematicosext.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "crear-empresa-andorra-ventajas",
+      "title": "Crear empresa en Andorra: ventajas reales y requisitos para residir",
+      "rank": 87,
+      "wordCount": 2643,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Andorra ha pasado en quince años de ser un destino de compras a convertirse en uno de los lugares favoritos de emprendedores españoles, franceses y latinoamericanos para trasladar residencia y empresa. Su combinación de ",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "criptomonedas-trading-llc-impuestos",
+      "title": "Criptomonedas y trading con LLC: fiscalidad completa para traders",
+      "rank": 10,
+      "wordCount": 2805,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El trading de criptomonedas genera obligaciones fiscales que muchos traders ignoran, hasta que las autoridades fiscales llaman a la puerta. Si operas con Bitcoin, Ethereum, stablecoins o cualquier otro criptoactivo, nece",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 3,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 20
+    },
+    {
+      "slug": "crs-2-0-carf-por-que-usa-no-firmara-llc",
+      "title": "CRS 2.0 y CARF: por qué USA nunca firmará y qué significa para tu LLC",
+      "rank": 111,
+      "wordCount": 3038,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cada cierto tiempo aparece una versión \"definitiva\" del intercambio automático de información fiscal y, con ella, la pregunta que más recibimos en Exentax: si la OCDE aprieta más el cerco con CRS 2.0 y CARF, ¿qué le pasa",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov, eur-lex.europa.eu, oecd.org."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "crs-cuentas-bancarias-llc-intercambio-informacion",
+      "title": "CRS y tu LLC: cómo funciona el intercambio de información fiscal",
+      "rank": 49,
+      "wordCount": 2886,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos y una cuenta en Mercury, Wise o Relay, es natural preguntarse: ¿puede Hacienda en mi país ver esa cuenta? ¿Saben cuánto dinero tengo allí?",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov, eur-lex.europa.eu, oecd.org, fdic.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "crs-residentes-espana-latam-implicaciones",
+      "title": "CRS en España y LATAM: implicaciones reales del intercambio automático",
+      "rank": 55,
+      "wordCount": 3070,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El Common Reporting Standard (CRS) es la pieza más importante de la fiscalidad internacional de la última década, y muy poca gente entiende qué significa para alguien que tiene una <a href=\"/es/blog/llc-estados-unidos-gu",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: agenciatributaria.gob.es, boe.es, eur-lex.europa.eu, oecd.org."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "cuenta-bancaria-mercury-llc-extranjero",
+      "title": "Cómo abrir una cuenta Mercury para tu LLC desde cualquier país",
+      "rank": 5,
+      "wordCount": 4595,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos vas a necesitar una cuenta operativa en EE. UU. Mercury aparece en casi todas las guías como la \"opción por defecto\" para no residentes, pero en Exentax **ya no la recomendamos como cu",
+        "fillerHits": 0,
+        "objectionScore": 9,
+        "qHeaders": 3,
+        "exentaxMentions": 14,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "abre con definición o frase boilerplate sin gancho concreto"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: abre con definición o frase boilerplate sin gancho concreto). Abrir con la objeción, cifra o pregunta más punzante del tema \"Cómo abrir una cuenta Mercury para tu LLC desde cualquier país\" — no con definición ni con \"En este artículo\"."
+      ],
+      "trafficScore": 50
+    },
+    {
+      "slug": "cuentas-bancarias-usa-reportan-hacienda-verdad",
+      "title": "Cuentas bancarias US: qué reporta cada entidad y cómo ordenar tu LLC",
+      "rank": 50,
+      "wordCount": 3758,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Es la pregunta más repetida cuando un cliente cierra su LLC con nosotros: \"¿Mercury, Wise o Slash le cuentan a Hacienda lo que tengo?\". La respuesta corta no se la suele dar nadie con claridad. Aquí va: **una cuenta fina",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "cuota-autonomo-2026",
+      "title": "Cuota de autónomo 2026 en España: tabla por tramos y planificación",
+      "rank": 102,
+      "wordCount": 1247,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El régimen especial de trabajadores autónomos en España (RETA) cotiza desde su entrada en vigor por ingresos reales y, actualmente, los tramos consolidados ya no son una novedad sino un coste fijo importante de planifica",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": false,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 1247 a ≥2.500 palabras (faltan ~1253). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "cuotas-autonomos-2026-guia-completa",
+      "title": "Cuotas de autónomos 2026 en España: guía completa con cifras oficiales",
+      "rank": 103,
+      "wordCount": 2013,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "La cuota de autónomo es, para la mayoría de freelancers españoles, el primer gran gasto fijo del mes y el más rígido: se paga aunque no hayas facturado, se revisa al año siguiente con la regularización y determina en bue",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 3,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 2013 a ≥2.500 palabras (faltan ~487). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "dac7-plataformas-digitales-reporting-2026",
+      "title": "DAC7 2026: reporting de plataformas digitales que afecta a tu negocio",
+      "rank": 60,
+      "wordCount": 2962,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "La **DAC7** es una de las normativas más importantes de los últimos años para cualquier persona o empresa que venda a través de plataformas digitales europeas, y es probablemente la regulación que más se ignora a día de ",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org",
+          "serviciostelematicosext.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "dac8-criptomonedas-reporting-fiscal-2026",
+      "title": "DAC8 2026: reporting fiscal automático de criptoactivos en la UE",
+      "rank": 61,
+      "wordCount": 2435,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "> Lectura recomendada para entender el marco europeo en su conjunto: <a href=\"/es/blog/crs-2-0-carf-por-que-usa-no-firmara-llc\">CRS 2.0 y CARF: por qué USA nunca firmará y qué significa para tu LLC</a>. DAC8 es la transp",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 3,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 2435 a ≥2.500 palabras (faltan ~65). Añadir secciones específicas según el tema: flujo del reporte automático + qué llega exactamente a tu Hacienda."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "diferencia-llc-corporation-s-corp-c-corp",
+      "title": "LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no residentes",
+      "rank": 109,
+      "wordCount": 2266,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando alguien dice \"empresa americana\", la mayoría imagina una LLC; otros, una \"corporation\". La realidad es que en EE. UU. existen cuatro vehículos principales para hacer negocios: **LLC**, **Corporation**, **S-Corpora",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 1,
+        "authoritativeDomains": [
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 1). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2266 a ≥2.500 palabras (faltan ~234). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "diseno-estructura-fiscal-internacional-solida",
+      "title": "Estructura fiscal internacional sólida: framework profesional paso a paso",
+      "rank": 65,
+      "wordCount": 3276,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Diseñar una estructura fiscal internacional no es elegir el país más exótico del mapa, ni copiar la estructura del influencer de turno. Es un ejercicio metódico que exige análisis personalizado, normativa cruzada y, sobr",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "documentar-separacion-fondos-llc-historial",
+      "title": "Separación de fondos en LLC con historial: procedimiento real",
+      "rank": 95,
+      "wordCount": 2559,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si llevas tiempo con tu LLC y en algún momento mezclaste cobros, gastos personales o transferencias sin documentar, este artículo te interesa. La pregunta no es \"¿cómo evito que pase?\", sino \"¿cómo documento la separació",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "documentos-llc-cuales-necesitas",
+      "title": "Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno",
+      "rank": 16,
+      "wordCount": 2838,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Cuando constituyes una LLC en Estados Unidos, recibes un \"kit legal\" completo, varios documentos, cada uno con una función concreta. En Exentax los preparamos y entregamos todos como parte del servicio de constitución. P",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 20,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 14
+    },
+    {
+      "slug": "dubai-uae-mito-no-impuestos",
+      "title": "Dubái y EAU: el mito de los cero impuestos en 2026",
+      "rank": 82,
+      "wordCount": 3041,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "\"En Dubái no se pagan impuestos.\" Es probablemente la frase más repetida en los vídeos virales sobre fiscalidad internacional de los últimos años. Como casi todas las simplificaciones, contiene una parte de verdad y una ",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "due-diligence-bancario-llc-americana",
+      "title": "Due diligence bancario: qué verifican los bancos al abrir cuenta LLC",
+      "rank": 39,
+      "wordCount": 2535,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Cuando solicitas una cuenta bancaria empresarial para tu LLC en Estados Unidos, el banco no simplemente te abre una cuenta. Realiza un proceso de due diligence (debida diligencia) para verificar que tu empresa es legítim",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "ein-numero-fiscal-llc-como-obtenerlo",
+      "title": "EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso",
+      "rank": 4,
+      "wordCount": 2721,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El EIN (Employer Identification Number) es el número de identificación fiscal que el IRS asigna a tu LLC. Piensa en él como el NIF o CIF de tu empresa en Estados Unidos. Sin este número, tu LLC existe legalmente pero no ",
+        "fillerHits": 0,
+        "objectionScore": 11,
+        "qHeaders": 6,
+        "exentaxMentions": 11,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 51
+    },
+    {
+      "slug": "empresa-bulgaria-10-tributacion",
+      "title": "Empresa en Bulgaria al 10%: lo que el titular no te cuenta",
+      "rank": 80,
+      "wordCount": 3413,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Bulgaria aparece de manera recurrente cuando alguien busca \"país europeo con baja fiscalidad\". El argumento es siempre el mismo: 10% de impuesto de sociedades, 10% de IRPF, dentro de la Unión Europea, sin restricciones d",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, boe.es."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "empresa-panama-fiscalidad-residencia",
+      "title": "Empresa en Panamá: fiscalidad, residencia y realidad en 2026",
+      "rank": 81,
+      "wordCount": 3000,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Panamá ha sido durante décadas un nombre asociado a sociedades offshore, banca discreta y residencias fiscales blandas. Buena parte de esa imagen se construyó en los años noventa y dos mil, cuando el país era una pieza c",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "empresa-reino-unido-uk-ltd",
+      "title": "Empresa en Reino Unido (UK Ltd): cuándo tiene sentido frente a la LLC",
+      "rank": 88,
+      "wordCount": 2503,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "El Reino Unido sigue siendo, después del Brexit, una de las jurisdicciones más utilizadas del mundo para crear empresas. La combinación de constitución rápida y barata, transparencia regulatoria, banca solvente y reputac",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "errores-criticos-llc-ya-constituida",
+      "title": "Errores críticos si ya tienes una LLC y nadie te ha explicado esto",
+      "rank": 67,
+      "wordCount": 4673,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si ya tienes una LLC en Estados Unidos, este artículo te interesa. No es para alguien que está pensando en constituirla: es para quien ya está operando con una y empieza a sospechar que no se la explicaron del todo.",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 13,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 7,
+        "authoritativeSourcesCount": 5,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "errores-fiscales-freelancers-espanoles",
+      "title": "10 errores fiscales de los freelancers españoles (y cómo evitarlos)",
+      "rank": 13,
+      "wordCount": 4020,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Después de asesorar a cientos de freelancers españoles, hemos identificado un patrón claro: los mismos errores fiscales se repiten una y otra vez. Y no son errores menores, estamos hablando de miles de euros perdidos cad",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 1,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 17
+    },
+    {
+      "slug": "escalar-negocio-digital-llc-americana",
+      "title": "Cómo escalar tu negocio digital con una LLC americana",
+      "rank": 38,
+      "wordCount": 2899,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Muchos emprendedores piensan en una LLC americana solo en términos fiscales. Pero la realidad es que una LLC es mucho más que eso: es una plataforma de crecimiento que transforma la forma en que operas, vendes y escalas ",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "estructura-fiscal-optima-freelancer-internacional",
+      "title": "La estructura fiscal óptima para freelancers internacionales en 2026",
+      "rank": 40,
+      "wordCount": 2986,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres freelancer y trabajas con clientes internacionales, probablemente estés pagando más impuestos de los necesarios. No porque estés haciendo algo mal, sino porque tu estructura fiscal no está optimizada para tu real",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "estructura-offshore-beneficios-riesgos",
+      "title": "Estructura offshore: beneficios reales y riesgos honestos",
+      "rank": 84,
+      "wordCount": 3564,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "La palabra \"offshore\" arrastra un peso enorme: para algunos significa libertad financiera y planificación inteligente, para otros evasión y opacidad. La realidad es más prosaica. Una estructura offshore no es ilegal por ",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "evitar-bloqueos-mercury-wise-revolut",
+      "title": "Cómo evitar bloqueos en Mercury, Wise y Revolut Business",
+      "rank": 31,
+      "wordCount": 2132,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El bloqueo de cuenta es la pesadilla de todo propietario de LLC. Un día entras a Mercury o Wise y ves: \"Tu cuenta ha sido restringida.\" Sin previo aviso, sin explicación clara, y con tu dinero atrapado.",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 2,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, fincen.gov, fdic.gov.",
+        "Expandir de 2132 a ≥2.500 palabras (faltan ~368). Añadir secciones específicas según el tema: comparativa multi-proveedor + KYC + casos de bloqueo."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "exit-tax-espana-llc-cripto-interactive-brokers",
+      "title": "Exit Tax España: impuesto de salida con cripto, LLC e Interactive Brokers",
+      "rank": 99,
+      "wordCount": 3740,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si estás pensando en dejar España, o ya lo has hecho, y tienes un patrimonio relevante en criptomonedas, una cuenta en Interactive Brokers o participaciones en una LLC americana, necesitas conocer el **impuesto de salida",
+        "fillerHits": 0,
+        "objectionScore": 12,
+        "qHeaders": 8,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov, agenciatributaria.gob.es, boe.es."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "extension-irs-form-1120-como-solicitarla",
+      "title": "Form 7004: extensión del IRS para el Form 1120 y cómo solicitarla",
+      "rank": 43,
+      "wordCount": 2151,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos, cada año debes presentar el Form 1120 (junto con el <a href=\"/es/blog/como-operar-llc-dia-a-dia\">Form 5472</a>) antes del 15 de abril. Pero aquí va una noticia que te va a encantar: p",
+        "fillerHits": 0,
+        "objectionScore": 9,
+        "qHeaders": 7,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2151 a ≥2.500 palabras (faltan ~349). Añadir secciones específicas según el tema: procedimiento + sanciones reales + caso de regularización."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "facturar-sin-ser-autonomo-alternativas-2026",
+      "title": "Facturar sin ser autónomo en 2026: alternativas legales reales",
+      "rank": 110,
+      "wordCount": 813,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Pocas preguntas se repiten más entre quienes empiezan: ¿puedo facturar sin darme de alta como autónomo? La respuesta corta es matizada: sí en algunos supuestos puntuales, no como modo habitual de operar a partir de ciert",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "poderjudicial.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: agenciatributaria.gob.es, boe.es.",
+        "Expandir de 813 a ≥2.500 palabras (faltan ~1687). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "fiscalidad-estonia-como-funciona",
+      "title": "Fiscalidad de Estonia: cómo funciona realmente la OÜ y la e-Residency",
+      "rank": 83,
+      "wordCount": 2659,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Estonia se ha vuelto popular gracias a la e-Residency, su digitalización y la promesa de \"0% sobre beneficios reinvertidos\". Es probablemente la jurisdicción europea con mejor marketing institucional y, a la vez, una de ",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "fiscalidad-internacional-emprendedores-digitales",
+      "title": "Fiscalidad internacional para emprendedores digitales: marco completo",
+      "rank": 42,
+      "wordCount": 3025,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "La fiscalidad internacional es uno de los temas más importantes, y más malentendidos, para emprendedores digitales. Si vendes servicios o productos digitales a clientes de varios países, necesitas entender cómo funciona ",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "fiscalidad-llc-por-pais-residencia",
+      "title": "Cómo tributa tu LLC según tu país: España, México, Colombia, Argentina",
+      "rank": 48,
+      "wordCount": 2687,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una de las grandes ventajas de una Single-Member LLC americana es que no paga impuesto federal sobre la renta en Estados Unidos. El IRS la clasifica como \"Disregarded Entity\", una entidad transparente fiscalmente. Los be",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov, agenciatributaria.gob.es, boe.es."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "fiscalidad-socios-llc-cambio-residencia-mid-year",
+      "title": "Fiscalidad de los socios LLC en un cambio de residencia mid-year",
+      "rank": 98,
+      "wordCount": 3132,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cambiar de país de residencia fiscal a mitad de un ejercicio mientras eres miembro de una LLC americana es uno de los escenarios más complicados de gestionar bien. No tanto por lo americano (la LLC sigue siendo lo que er",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov, agenciatributaria.gob.es, boe.es."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "form-5472-que-es-como-presentarlo",
+      "title": "Form 5472: qué es, quién lo presenta y cómo cumplir sin líos",
+      "rank": 1,
+      "wordCount": 2907,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos como no residente, el Form 5472 es una declaración informativa que el IRS solicita cada año. Suena intimidante, pero tranquilo: es papeleo informativo, no es un pago de impuestos, y en",
+        "fillerHits": 0,
+        "objectionScore": 12,
+        "qHeaders": 8,
+        "exentaxMentions": 14,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 54
+    },
+    {
+      "slug": "gastos-deducibles-autonomos-2026",
+      "title": "Gastos deducibles para autónomos en 2026: la lista práctica",
+      "rank": 104,
+      "wordCount": 1686,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "La factura fiscal de un autónomo en España depende menos del tipo marginal y más de los gastos que sabe documentar. La diferencia entre quien declara 50.000 euros de rendimiento neto y quien declara 35.000 con la misma f",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "petete.tributos.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: agenciatributaria.gob.es, boe.es.",
+        "Expandir de 1686 a ≥2.500 palabras (faltan ~814). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "gastos-deducibles-llc-que-puedes-deducir",
+      "title": "Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir",
+      "rank": 21,
+      "wordCount": 3048,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una de las preguntas más frecuentes de los propietarios de LLCs es: \"¿qué gastos puedo deducir?\" La respuesta del IRS es clara: todo gasto que sea **ordinario y necesario** para tu negocio es deducible. Pero la línea ent",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 9
+    },
+    {
+      "slug": "holding-empresarial-como-funciona",
+      "title": "Holding empresarial: cómo funciona y cuándo conviene constituir uno",
+      "rank": 85,
+      "wordCount": 2636,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "La palabra \"holding\" se usa en muchos contextos y casi siempre con cierta confusión. Para algunos es una estructura solo apta para grandes patrimonios, para otros es un atajo fiscal milagroso. Ninguna de las dos visiones",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "hong-kong-offshore-realidad",
+      "title": "Empresa en Hong Kong: la realidad offshore en 2026",
+      "rank": 79,
+      "wordCount": 3407,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Hong Kong fue durante décadas la jurisdicción offshore favorita para emprendedores asiáticos y europeos. Una empresa ahí era sinónimo de prestigio internacional, fiscalidad territorial y banca seria. actualmente esa imag",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "iban-swift-routing-number-que-son",
+      "title": "IBAN, SWIFT y Routing Number: qué son y cuándo usarlos",
+      "rank": 28,
+      "wordCount": 2376,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando empiezas a mover dinero con tu LLC, te vas a encontrar con tres siglas que aparecen una y otra vez: **IBAN**, **SWIFT** (o BIC) y **Routing Number**. Son como la dirección postal de tu cuenta bancaria, pero para e",
+        "fillerHits": 0,
+        "objectionScore": 10,
+        "qHeaders": 7,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, boe.es.",
+        "Expandir de 2376 a ≥2.500 palabras (faltan ~124). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 2
+    },
+    {
+      "slug": "impuestos-clientes-internacionales-espana",
+      "title": "Clientes internacionales en España: la fiscalidad que nadie te cuenta",
+      "rank": 7,
+      "wordCount": 2763,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres autónomo o freelancer en España y tus clientes están en otros países, ya sea Estados Unidos, Reino Unido, Alemania o cualquier otra parte del mundo, tu situación fiscal es completamente diferente a la de alguien ",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 4,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 23
+    },
+    {
+      "slug": "irs-1120-5472-que-son-cuando-aplican",
+      "title": "IRS 1120 y 5472: qué son realmente y cuándo aplican a tu LLC",
+      "rank": 68,
+      "wordCount": 3244,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Hay dos formularios del IRS que generan más confusión que ningún otro entre dueños de LLC: el **Form 1120** y el **Form 5472**. La mayoría de personas con LLC los oye nombrar juntos, no entiende del todo qué es cada uno ",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "itin-ssn-que-son-como-obtenerlos",
+      "title": "ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC",
+      "rank": 44,
+      "wordCount": 2857,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando empiezas a moverte en el mundo de las LLC americanas, enseguida aparecen dos siglas que generan confusión: ITIN y SSN. Suenan parecido, tienen 9 dígitos los dos, y ambos sirven para identificarte ante el IRS. Pero",
+        "fillerHits": 0,
+        "objectionScore": 10,
+        "qHeaders": 7,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "iva-intracomunitario-servicios-europa",
+      "title": "IVA intracomunitario en servicios B2B: guía 2026 sin tecnicismos",
+      "rank": 105,
+      "wordCount": 1705,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si eres autónomo o pyme española y tienes clientes empresa en otros países de la UE, el IVA intracomunitario es una de las áreas que más confusión genera. La regla general en servicios B2B es sencilla: facturas sin reper",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 1705 a ≥2.500 palabras (faltan ~795). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "iva-servicios-digitales-internacional",
+      "title": "IVA en servicios digitales internacionales: cuándo aplica y cuándo no",
+      "rank": 11,
+      "wordCount": 2102,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y consultores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no u",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "irs.gov",
+          "petete.tributos.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, boe.es.",
+        "Expandir de 2102 a ≥2.500 palabras (faltan ~398). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 19
+    },
+    {
+      "slug": "justificar-origen-fondos-kyc-bancario-segunda-ronda",
+      "title": "Justificar el origen de los fondos en una segunda ronda de KYC bancario",
+      "rank": 100,
+      "wordCount": 2970,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si llevas tiempo con tu LLC y de pronto Mercury, Wise o tu pasarela de pago te piden documentación adicional sobre el origen de los fondos, no estás solo. Es una de las solicitudes que más ansiedad genera y, casi siempre",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-agencias-marketing-digital",
+      "title": "LLC para agencias de marketing digital: operar sin fronteras",
+      "rank": 35,
+      "wordCount": 2477,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Las agencias de marketing digital son uno de los negocios que mejor encajan con una LLC americana. Trabajas con clientes de múltiples países, tu equipo puede estar distribuido globalmente y tu facturación no depende de n",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 3,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2477 a ≥2.500 palabras (faltan ~23). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-alternativa-autonomo-espana",
+      "title": "LLC como alternativa al autónomo en España: guía honesta para freelancers",
+      "rank": 74,
+      "wordCount": 4598,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres autónomo en España y tu trabajo se puede hacer desde un portátil, lo más probable es que ya hayas hecho la cuenta varias veces. La cuota mensual de autónomos, el IRPF progresivo, los modelos trimestrales, los pag",
+        "fillerHits": 0,
+        "objectionScore": 8,
+        "qHeaders": 1,
+        "exentaxMentions": 11,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org",
+          "petete.tributos.hacienda.gob.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-creadores-contenido-youtube-twitch",
+      "title": "LLC para creadores: YouTube, Twitch, podcasts y redes sociales",
+      "rank": 34,
+      "wordCount": 2548,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres creador de contenido, ya sea en YouTube, Twitch, TikTok, podcasts o cualquier plataforma digital, probablemente estés generando ingresos desde múltiples países sin una estructura pensada para eso.",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-desarrolladores-software-saas",
+      "title": "LLC para desarrolladores de software y SaaS: la estructura ideal",
+      "rank": 37,
+      "wordCount": 2439,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Los desarrolladores de software y fundadores de SaaS son, junto con los creadores de contenido, el perfil que mejor encaja con una LLC americana. El motivo es simple: tu producto es 100% digital, tus clientes están en to",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 1,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2439 a ≥2.500 palabras (faltan ~61). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-estados-unidos-guia-completa-2026",
+      "title": "LLC en Estados Unidos: guía completa para no residentes en 2026",
+      "rank": 0,
+      "wordCount": 4106,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una LLC (Limited Liability Company) es la estructura empresarial más utilizada por freelancers y emprendedores digitales no residentes que operan desde fuera de Estados Unidos. Combina protección patrimonial con una fisc",
+        "fillerHits": 0,
+        "objectionScore": 11,
+        "qHeaders": 5,
+        "exentaxMentions": 13,
+        "pleadingCtaHits": 1,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "abre con definición o frase boilerplate sin gancho concreto"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: abre con definición o frase boilerplate sin gancho concreto). Abrir con la objeción, cifra o pregunta más punzante del tema \"LLC en Estados Unidos: guía completa para no residentes en 2026\" — no con definición ni con \"En este artículo\"."
+      ],
+      "trafficScore": 55
+    },
+    {
+      "slug": "llc-interactive-brokers-invertir-bolsa-usa",
+      "title": "Interactive Brokers para LLC: apertura, fiscalidad y cuándo tiene sentido",
+      "rank": 73,
+      "wordCount": 3168,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una de las preguntas más frecuentes que cierran los clientes de Exentax: \"¿puedo abrir Interactive Brokers a nombre de mi LLC para invertir desde Estados Unidos?\". La respuesta es **sí, se hace, y bien estructurado tiene",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais",
+      "title": "Tu LLC paga 0 % en EE. UU.: cómo ordenarla en tu país",
+      "rank": 70,
+      "wordCount": 4059,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "\"Mi LLC no paga impuestos en EE. UU.\" es una afirmación correcta para la inmensa mayoría de Single-Member LLCs de no residentes. El problema no está en la afirmación. Está en cómo se ordena después en tu país de residenc",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "irs.gov",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-seguridad-juridica-proteccion-patrimonial",
+      "title": "LLC y seguridad jurídica: cómo protege tu patrimonio personal",
+      "rank": 33,
+      "wordCount": 3015,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Hay una razón por la que el nombre completo de una LLC es **Limited Liability Company**: \"compañía de responsabilidad limitada\". La palabra clave es **limitada**. Tu responsabilidad personal tiene un techo.",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 1,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 5,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "llc-unica-estructura-holding-cuando-como-cuesta",
+      "title": "De una LLC a estructura holding: cuándo, cómo y cuánto cuesta dar el salto",
+      "rank": 92,
+      "wordCount": 2955,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Cuando una LLC funciona, la pregunta cambia. Ya no es \"¿debería abrir una LLC?\", es \"¿debería tener más de una?\". Y, casi siempre, \"¿debería pasar a una estructura holding?\". Este artículo responde con datos reales: cuán",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "mantenimiento-anual-llc-obligaciones",
+      "title": "Mantenimiento anual de tu LLC: obligaciones, plazos y costes",
+      "rank": 17,
+      "wordCount": 3267,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "exentax-forzado"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Constituir una LLC es solo el primer paso. Para que tu empresa siga activa, en regla y con el Good Standing intacto, hay obligaciones anuales que debes cumplir. La buena noticia: en Exentax nos encargamos de absolutament",
+        "fillerHits": 1,
+        "objectionScore": 8,
+        "qHeaders": 3,
+        "exentaxMentions": 25,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 5,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Reducir y reposicionar las 25 menciones a Exentax: dejarlas solo donde aparezcan como consecuencia lógica del argumento, no como recordatorio comercial repetido."
+      ],
+      "trafficScore": 38
+    },
+    {
+      "slug": "modelo-720-721-residentes-espana-cuentas-cripto-extranjero",
+      "title": "Modelo 720 y 721: guía para residentes en España con cuentas y cripto",
+      "rank": 69,
+      "wordCount": 4997,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si eres residente fiscal en España y tienes una <a href=\"/es/blog/llc-estados-unidos-guia-completa-2026\">LLC americana</a>, una cuenta Wise o Mercury, un broker en el extranjero o cualquier saldo significativo en criptom",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "irs.gov",
+          "oecd.org",
+          "petete.tributos.hacienda.gob.es",
+          "serviciostelematicosext.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "modulos-vs-estimacion-directa-2026",
+      "title": "Módulos vs estimación directa 2026: cuál te conviene como autónomo",
+      "rank": 108,
+      "wordCount": 1294,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El régimen de tributación que escoges como autónomo determina cómo calculas tu IRPF y tu IVA, qué documentación tienes que llevar y, sobre todo, cuánto pagas al final del año. En España coexisten dos grandes opciones: mó",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, boe.es.",
+        "Expandir de 1294 a ≥2.500 palabras (faltan ~1206). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "nomada-digital-residencia-fiscal",
+      "title": "Nómada digital: dónde tributar y cómo elegir tu residencia fiscal",
+      "rank": 9,
+      "wordCount": 5345,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si eres nómada digital y trabajas desde Bali un mes, Lisboa el siguiente y Medellín después, tienes un problema fiscal que la mayoría ignora: ¿en qué país tributas? Esta decisión afecta directamente a tu <a href=\"/es/blo",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 6,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 21
+    },
+    {
+      "slug": "nuevo-mexico-vs-wyoming-vs-delaware",
+      "title": "Nuevo México vs Wyoming vs Delaware: qué estado elegir para tu LLC",
+      "rank": 2,
+      "wordCount": 3223,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Elegir el estado de constitución de tu LLC es una de las decisiones más importantes, y una de las que más confusión genera. Internet está lleno de vídeos diciendo \"Delaware es el mejor\" o \"Wyoming es obligatorio\". La rea",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 1,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 53
+    },
+    {
+      "slug": "operating-agreement-llc-que-es",
+      "title": "Operating Agreement: qué es y por qué tu LLC lo necesita",
+      "rank": 15,
+      "wordCount": 3491,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Cuando <a href=\"/es/blog/constituir-llc-proceso-paso-a-paso\">constituyes una LLC</a>, recibes los Articles of Organization, el documento público que registra tu empresa en el estado. Pero hay otro documento igual de impo",
+        "fillerHits": 0,
+        "objectionScore": 11,
+        "qHeaders": 6,
+        "exentaxMentions": 12,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 40
+    },
+    {
+      "slug": "pagar-cero-impuestos-legalmente-llc",
+      "title": "¿Pagar 0% de impuestos es legal? La verdad sobre la optimización fiscal",
+      "rank": 8,
+      "wordCount": 3513,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "El titular suena agresivo, pero la pregunta es legítima: ¿existe alguna forma legal de pagar cero impuestos sobre tus ingresos como freelancer o emprendedor digital? La respuesta corta es sí, pero con matices importantes",
+        "fillerHits": 1,
+        "objectionScore": 9,
+        "qHeaders": 2,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 47
+    },
+    {
+      "slug": "pasarelas-pago-llc-stripe-paypal-dodo",
+      "title": "Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas",
+      "rank": 19,
+      "wordCount": 2202,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una de las mayores ventajas de tener una LLC en Estados Unidos es el acceso a las mejores pasarelas de pago del mundo. Mientras que muchos países tienen restricciones o comisiones elevadas, con una LLC americana puedes c",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 2,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2202 a ≥2.500 palabras (faltan ~298). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 11
+    },
+    {
+      "slug": "por-que-abrir-llc-estados-unidos-ventajas",
+      "title": "Por qué abrir una LLC en EE. UU.: privacidad, seguridad y fiscalidad",
+      "rank": 46,
+      "wordCount": 3174,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Hay muchos artículos en internet que te dicen \"abre una LLC\" como si fuera la solución mágica a todos tus problemas. Nosotros preferimos ser directos: una LLC no es magia, pero sí es la mejor estructura legal y fiscal di",
+        "fillerHits": 0,
+        "objectionScore": 7,
+        "qHeaders": 4,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "por-que-no-abrir-empresa-estonia",
+      "title": "Por qué no abrir una empresa en Estonia: la verdad sobre la e-Residency",
+      "rank": 54,
+      "wordCount": 3921,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si estás pensando en optimizar tu fiscalidad como freelancer o emprendedor digital, seguramente hayas oído hablar de la e-Residency de Estonia. El programa se ha viralizado en YouTube, Twitter y LinkedIn como \"la solució",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "prevencion-blanqueo-capitales-llc",
+      "title": "Prevención de blanqueo de capitales: lo que tu LLC necesita saber",
+      "rank": 41,
+      "wordCount": 2405,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Las regulaciones de prevención de blanqueo de capitales (AML. Anti-Money Laundering) son un pilar fundamental del sistema financiero internacional. Si tienes una LLC en Estados Unidos, estas regulaciones te afectan de fo",
+        "fillerHits": 0,
+        "objectionScore": 4,
+        "qHeaders": 1,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2405 a ≥2.500 palabras (faltan ~95). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "primer-mes-llc-que-esperar",
+      "title": "Tu primer mes con una LLC: qué esperar paso a paso",
+      "rank": 36,
+      "wordCount": 2857,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Has dado el paso: tu LLC está constituida, tienes tu EIN y estás listo para empezar. Pero ahora viene la pregunta que todos se hacen: ¿y ahora qué?",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 2,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "privacidad-llc-americana-secreto-ventaja",
+      "title": "La privacidad de una LLC americana: qué protege, qué no y por qué importa",
+      "rank": 51,
+      "wordCount": 2657,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Una de las razones por las que muchos emprendedores eligen estados como Nuevo México o Wyoming para su LLC es la privacidad. En estos estados, el propietario de la LLC no aparece en registros públicos. Suena bien, pero e",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "problemas-comunes-llc-como-evitarlos",
+      "title": "7 problemas reales de tener una LLC en EE.UU. y cómo evitar cada uno",
+      "rank": 47,
+      "wordCount": 3371,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Abrir una LLC en Estados Unidos como no residente es una de las mejores decisiones que puedes tomar como freelancer o emprendedor digital. Pero no es magia. Como cualquier estructura empresarial, tiene obligaciones, ries",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "que-es-irs-guia-duenos-llc",
+      "title": "¿Qué es el IRS? Guía completa para dueños de LLC",
+      "rank": 32,
+      "wordCount": 2340,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos, o estás pensando en tener una, vas a escuchar mucho sobre el **IRS**. Mucho. Es la entidad con la que tendrás más relación desde el punto de vista fiscal. Y es mejor entenderla bien d",
+        "fillerHits": 0,
+        "objectionScore": 7,
+        "qHeaders": 5,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "abre con definición o frase boilerplate sin gancho concreto"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: abre con definición o frase boilerplate sin gancho concreto). Abrir con la objeción, cifra o pregunta más punzante del tema \"¿Qué es el IRS? Guía completa para dueños de LLC\" — no con definición ni con \"En este artículo\".",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2340 a ≥2.500 palabras (faltan ~160). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "que-pasa-si-no-presentas-5472-multas-irs",
+      "title": "Qué pasa si no presentas el Form 5472: multas del IRS y cómo regularizar",
+      "rank": 72,
+      "wordCount": 3832,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Hay un trámite en la vida fiscal de una LLC con socio extranjero único que separa con claridad a quien gestiona bien de quien está caminando hacia un problema de cinco cifras: el **Form 5472**. No es un impuesto. Es una ",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "recuperar-llc-boi-5472-atrasados-procedimiento",
+      "title": "Recuperar LLC con BOI y 5472 atrasados: procedimiento y prioridades",
+      "rank": 93,
+      "wordCount": 2399,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC con BOI Report sin presentar o con Forms 5472 atrasados, este artículo es para ti. La situación es más común de lo que parece y, casi siempre, mucho más recuperable de lo que sugiere la primera lectura ",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2399 a ≥2.500 palabras (faltan ~101). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales, procedimiento + sanciones reales + caso de regularización."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "registered-agent-que-es-por-que-necesitas",
+      "title": "Registered Agent: qué es y por qué es obligatorio para tu LLC",
+      "rank": 12,
+      "wordCount": 3068,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Si estás constituyendo una LLC en Estados Unidos, uno de los requisitos obligatorios es designar un Registered Agent (agente registrado). No es opcional, sin él, no puedes constituir ni mantener tu LLC en ningún estado. ",
+        "fillerHits": 0,
+        "objectionScore": 12,
+        "qHeaders": 6,
+        "exentaxMentions": 14,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 18
+    },
+    {
+      "slug": "reorganizar-banca-llc-mercury-relay-wise",
+      "title": "Reorganizar la banca de tu LLC: cuándo combinar Mercury, Relay y Wise",
+      "rank": 94,
+      "wordCount": 2936,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Llega un momento en la vida de muchas LLCs en el que la banca con la que arrancaron deja de encajar. Mercury fue suficiente para empezar; ahora hace falta más sub-cuentas, otra divisa, otra tarjeta corporativa, otro nive",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 10,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "residentes-no-residentes-llc-diferencias",
+      "title": "LLC para residentes y no residentes de EE.UU.: diferencias clave",
+      "rank": 22,
+      "wordCount": 2363,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "No es lo mismo tener una LLC siendo residente de Estados Unidos que siendo no residente. La estructura legal es la misma, pero la **fiscalidad y las obligaciones** cambian radicalmente.",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 4,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "primer párrafo sin cifra, año o pregunta-objeción"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: primer párrafo sin cifra, año o pregunta-objeción). Abrir con la objeción, cifra o pregunta más punzante del tema \"LLC para residentes y no residentes de EE.UU.: diferencias clave\" — no con definición ni con \"En este artículo\".",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2363 a ≥2.500 palabras (faltan ~137). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 33
+    },
+    {
+      "slug": "retenciones-irpf-factura",
+      "title": "Retenciones de IRPF en la factura: cuándo, cuánto y modelos 111/115/130",
+      "rank": 106,
+      "wordCount": 1751,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Las retenciones de IRPF en factura son la manera que tiene Hacienda de cobrar a cuenta tu impuesto sin esperar al cierre del ejercicio. Si eres autónomo profesional y tu cliente es empresa o autónomo, tu factura debe inc",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: agenciatributaria.gob.es, boe.es.",
+        "Expandir de 1751 a ≥2.500 palabras (faltan ~749). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "revolut-business-crs-reporting-fiscal",
+      "title": "Revolut Business y CRS: qué reporta a tu hacienda y cómo planificarlo",
+      "rank": 56,
+      "wordCount": 3035,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Revolut Business es uno de los neobancos europeos más utilizados por emprendedores con estructuras internacionales, y en particular por dueños de <a href=\"/es/blog/llc-estados-unidos-guia-completa-2026\">LLC americanas</a",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "riesgos-fiscales-mala-estructuracion-internacional",
+      "title": "Riesgos de una mala estructura internacional: simulación y residencia",
+      "rank": 64,
+      "wordCount": 2322,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una estructura internacional bien diseñada es una herramienta extraordinaria. Una mal diseñada es una bomba de relojería que estalla cuando menos te lo esperas, normalmente con un requerimiento de la AEAT, SAT, DIAN o AF",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "oecd.org",
+          "serviciostelematicosext.hacienda.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 2322 a ≥2.500 palabras (faltan ~178). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "separar-dinero-personal-llc-por-que-importa",
+      "title": "Separar dinero personal y de tu LLC: por qué importa y cómo hacerlo",
+      "rank": 3,
+      "wordCount": 4389,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "gancho-generico"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tienes una LLC en Estados Unidos, una de las mejores prácticas que puedes adoptar desde el primer día es mantener una separación clara entre tu dinero personal y el dinero de tu empresa. Es una práctica profesional qu",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 1,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": [
+          "abre con definición o frase boilerplate sin gancho concreto"
+        ]
+      },
+      "plan": [
+        "Reescribir el primer párrafo (motivo: abre con definición o frase boilerplate sin gancho concreto). Abrir con la objeción, cifra o pregunta más punzante del tema \"Separar dinero personal y de tu LLC: por qué importa y cómo hacerlo\" — no con definición ni con \"En este artículo\"."
+      ],
+      "trafficScore": 27
+    },
+    {
+      "slug": "single-member-multi-member-llc-implicaciones-fiscales",
+      "title": "De single-member a multi-member LLC: implicaciones fiscales reales",
+      "rank": 96,
+      "wordCount": 2877,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Pasar de single-member LLC a multi-member LLC suena a trámite menor. No lo es. Es uno de los cambios estructurales con más implicaciones fiscales reales para una LLC en marcha, y casi nunca se explica con la profundidad ",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "sociedad-limitada-espana-costes-ventajas",
+      "title": "Sociedad limitada en España 2026: costes, ventajas y comparativa con LLC",
+      "rank": 107,
+      "wordCount": 701,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Constituir una sociedad limitada (SL) sigue siendo el paso natural cuando un autónomo crece y empieza a sentir que el régimen personal le queda pequeño. Pero la SL no es siempre la mejor respuesta: arrastra costes fijos,",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "seg-social.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: agenciatributaria.gob.es, boe.es.",
+        "Expandir de 701 a ≥2.500 palabras (faltan ~1799). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "tengo-llc-checklist-gestion-correcta",
+      "title": "Tengo una LLC en EE.UU., ¿la estoy gestionando bien? Checklist real",
+      "rank": 66,
+      "wordCount": 3917,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Tienes una LLC en EE.UU. y todo parece funcionar: cobras a tus clientes, mueves dinero, pagas tus gastos. Hasta aquí, perfecto. Pero hay una pregunta incómoda que pocos se hacen a tiempo: **¿está realmente bien gestionad",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 12,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 6,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 0
+    },
+    {
+      "slug": "testaferros-prestanombres-llc-ilegal-riesgos",
+      "title": "Testaferros y prestanombres en LLCs: por qué es ilegal y cómo hacerlo bien",
+      "rank": 53,
+      "wordCount": 2973,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "De vez en cuando recibimos consultas del tipo \"¿puedo poner la LLC a nombre de mi primo que vive en Miami?\" o \"¿y si mi hermano es el owner oficial?\". La respuesta es siempre la misma: no.",
+        "fillerHits": 1,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "tiempos-pagos-ach-wire-transfer",
+      "title": "¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales",
+      "rank": 27,
+      "wordCount": 2441,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Una de las preguntas más frecuentes cuando empiezas a operar tu LLC es: \"Le mandé dinero a un cliente, ¿cuándo llega?\" O al revés: \"Me van a pagar, ¿cuándo lo veo en mi cuenta?\"",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 1,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2441 a ≥2.500 palabras (faltan ~59). Añadir secciones específicas según el tema: FAQ con objeciones reales + caso real anonimizado + checklist accionable."
+      ],
+      "trafficScore": 3
+    },
+    {
+      "slug": "tramos-irpf-2026",
+      "title": "Tramos del IRPF 2026 en España: tabla, cálculo y planificación",
+      "rank": 101,
+      "wordCount": 1081,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "El Impuesto sobre la Renta de las Personas Físicas (IRPF) sigue siendo, actualmente, el tributo que más impacta tu nómina, tu factura como autónomo y tu rendimiento de capital en España. Conocer la tabla de tramos vigent",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "boe.es",
+          "sede.agenciatributaria.gob.es"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: agenciatributaria.gob.es, boe.es.",
+        "Expandir de 1081 a ≥2.500 palabras (faltan ~1419). Añadir secciones específicas según el tema: comparativa cuantitativa por tramo de ingresos + Modelo a presentar."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "tributacion-llc-segun-actividad-economica",
+      "title": "Tributación LLC: servicios, e-commerce, SaaS, royalties y trading",
+      "rank": 63,
+      "wordCount": 2117,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Hablar de \"fiscalidad de la LLC\" en abstracto lleva a errores graves: la fiscalidad real depende muy estrechamente del **tipo de actividad económica** que desarrolla la LLC, porque cada actividad activa reglas distintas ",
+        "fillerHits": 0,
+        "objectionScore": 0,
+        "qHeaders": 0,
+        "exentaxMentions": 4,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 2,
+        "authoritativeSourcesCount": 1,
+        "authoritativeDomains": [
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 1). Sugeridos según el tema: irs.gov, fincen.gov.",
+        "Expandir de 2117 a ≥2.500 palabras (faltan ~383). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "tributacion-pass-through-llc-como-funciona",
+      "title": "Pass-Through de las LLC: qué es, cómo funciona y por qué es ventaja",
+      "rank": 45,
+      "wordCount": 2392,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si alguien te ha dicho que con una LLC puedes pagar $0 de impuestos federales en Estados Unidos, no te estaba tomando el pelo. Es real, es legal, y tiene un nombre técnico: **tributación pass-through**. Es probablemente ",
+        "fillerHits": 0,
+        "objectionScore": 11,
+        "qHeaders": 7,
+        "exentaxMentions": 9,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2392 a ≥2.500 palabras (faltan ~108). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 25
+    },
+    {
+      "slug": "vender-o-cerrar-llc-comparativa-practica",
+      "title": "Vender o cerrar tu LLC: comparativa para decidir bien",
+      "rank": 97,
+      "wordCount": 2328,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Llega un momento en muchas LLCs en el que la pregunta es la misma: ¿la cierro o la vendo? Las dos opciones son legítimas, pero el coste, el calendario y el resultado fiscal son completamente distintos. Este artículo comp",
+        "fillerHits": 0,
+        "objectionScore": 3,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Expandir de 2328 a ≥2.500 palabras (faltan ~172). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "ventajas-desventajas-llc-no-residentes",
+      "title": "Ventajas y desventajas de la LLC para no residentes: sin filtros",
+      "rank": 30,
+      "wordCount": 3219,
+      "verdict": "PASA",
+      "failureCategories": [],
+      "signals": {
+        "firstParagraphPreview": "Te vamos a contar algo que la mayoría de empresas de formación de LLCs no te cuentan: una LLC **no es para todo el mundo**. Tiene ventajas enormes si tu perfil encaja, pero también tiene costes, obligaciones y situacione",
+        "fillerHits": 0,
+        "objectionScore": 5,
+        "qHeaders": 2,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 3,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [],
+      "trafficScore": 25
+    },
+    {
+      "slug": "visa-mastercard-reporting-tarjetas-hacienda",
+      "title": "Visa y Mastercard: qué ven realmente las haciendas de tu gasto con tarjeta",
+      "rank": 59,
+      "wordCount": 4633,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando alguien pregunta \"¿Hacienda ve lo que pago con la tarjeta?\" la respuesta corta es: depende de quién emite la tarjeta, dónde está domiciliado el comercio y en qué país eres residente fiscal. La respuesta larga obli",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 6,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: agenciatributaria.gob.es, boe.es."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "w8-ben-y-w8-ben-e-guia-completa",
+      "title": "Guía de los formularios W-8BEN y W-8BEN-E para LLC de no residentes",
+      "rank": 75,
+      "wordCount": 4334,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "datos-sin-fuente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Si tú o tu LLC cobráis dinero desde Estados Unidos (Stripe, PayPal, plataformas de afiliación, AdSense, dividendos, royalties, brokers...), antes o después os pueden pedir un **W8-BEN** o un **W8-BEN-E**. No todas las pl",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 7,
+        "pleadingCtaHits": 1,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 0,
+        "authoritativeDomains": [],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 0). Sugeridos según el tema: irs.gov, fincen.gov."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "wise-bancos-llc-stack-bancaria-completa",
+      "title": "Wise, bancos y LLC: la stack bancaria completa que nadie te explica",
+      "rank": 71,
+      "wordCount": 4040,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando alguien abre una LLC desde fuera de EE.UU. la conversación bancaria se reduce casi siempre a una sola pregunta: \"¿Mercury o Wise?\". Esa pregunta es **el síntoma del problema, no la solución**. Una LLC operativa no",
+        "fillerHits": 0,
+        "objectionScore": 2,
+        "qHeaders": 0,
+        "exentaxMentions": 8,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 4,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "irs.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "wise-business-crs-reporting-fiscal",
+      "title": "Wise Business y CRS: qué reporta y cómo encajarlo en tu estructura",
+      "rank": 57,
+      "wordCount": 2460,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Wise Business (antes TransferWise) es la fintech multidivisa más utilizada por dueños de <a href=\"/es/blog/llc-estados-unidos-guia-completa-2026\">LLC americanas</a> y por emprendedores internacionales en general. Su prop",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 3,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa.",
+        "Expandir de 2460 a ≥2.500 palabras (faltan ~40). Añadir secciones específicas según el tema: flujo del reporte automático + qué llega exactamente a tu Hacienda."
+      ],
+      "trafficScore": 0
+    },
+    {
+      "slug": "wise-business-llc-guia",
+      "title": "Wise Business para tu LLC: guía completa",
+      "rank": 18,
+      "wordCount": 2340,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "datos-sin-fuente",
+        "longitud-insuficiente"
+      ],
+      "signals": {
+        "firstParagraphPreview": "**Wise Business** (antes TransferWise) es una de las herramientas financieras más útiles para propietarios de LLCs que operan internacionalmente. Te permite recibir, convertir y enviar dinero en más de 40 divisas con tip",
+        "fillerHits": 0,
+        "objectionScore": 6,
+        "qHeaders": 2,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 5,
+        "authoritativeSourcesCount": 2,
+        "authoritativeDomains": [
+          "fincen.gov",
+          "oecd.org"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir citas a fuentes oficiales hasta sumar ≥3 dominios autoritativos (actualmente 2). Sugeridos según el tema: irs.gov, fincen.gov, fdic.gov.",
+        "Expandir de 2340 a ≥2.500 palabras (faltan ~160). Añadir secciones específicas según el tema: estado óptimo + costes 24m + escenarios reales."
+      ],
+      "trafficScore": 12
+    },
+    {
+      "slug": "wise-iban-llc-que-reporta-hacienda",
+      "title": "Wise, IBAN y LLC: qué se reporta realmente a Hacienda y qué no",
+      "rank": 58,
+      "wordCount": 4010,
+      "verdict": "FALLA",
+      "failureCategories": [
+        "objeciones-no-resueltas"
+      ],
+      "signals": {
+        "firstParagraphPreview": "Cuando hablamos de Wise, IBAN extranjeros y LLC en EE.UU. circulan dos extremos igual de equivocados: por un lado, el discurso de \"Wise no reporta nada y Hacienda no se entera\", y por otro, el miedo a que cualquier movim",
+        "fillerHits": 0,
+        "objectionScore": 1,
+        "qHeaders": 0,
+        "exentaxMentions": 5,
+        "pleadingCtaHits": 0,
+        "consequenceCtaHits": 4,
+        "authoritativeSourcesCount": 3,
+        "authoritativeDomains": [
+          "boe.es",
+          "eur-lex.europa.eu",
+          "irs.gov"
+        ],
+        "makesLegalClaims": true,
+        "hookReasons": []
+      },
+      "plan": [
+        "Añadir 2-3 secciones de objeción (formato \"¿Y si...?\" / \"Lo que NO te cuentan\") que resuelvan las dudas reales del lector antes de que las formule. Convertir al menos un H2/H3 en pregunta directa."
+      ],
+      "trafficScore": 0
+    }
+  ]
+}
