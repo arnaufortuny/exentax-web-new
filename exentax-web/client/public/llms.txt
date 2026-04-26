@@ -135,6 +135,7 @@ Exentax's content is fact-first, source-cited, and legal-only. Every article cit
 - VAT on international digital services: https://exentax.com/en/blog/vat-international-digital-services
 - LLC taxation by country of residence: https://exentax.com/en/blog/llc-taxation-by-country-of-residence
 - CRS / FATCA and US bank accounts: https://exentax.com/en/blog/crs-bank-accounts-llc-information-exchange
+- CRS 2.0 and CARF — why the US will never sign and what it means for your LLC: https://exentax.com/en/blog/crs-2-0-carf-why-the-us-will-never-sign-llc-impact
 - Do US banks report to your home tax authority?: https://exentax.com/en/blog/us-bank-accounts-do-they-report-to-tax-authority
 
 ## Languages

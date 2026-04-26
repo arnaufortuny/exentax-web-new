@@ -224,7 +224,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
         <div className="navbar-glass h-[76px] xl:h-[88px] 2xl:h-[92px] bg-[var(--glass-bg)] backdrop-blur-[16px] border border-[var(--glass-border)] rounded-[22px] px-4 xl:px-5 2xl:px-10 flex items-center gap-2 xl:gap-2 2xl:gap-5 shadow-[var(--shadow)]">
 
           <Link href={lp("home")} data-testid="link-home" className="flex items-center justify-center flex-shrink-0 outline-none focus-visible:ring-2 focus-visible:ring-[#00E510] focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-md mr-1 lg:mr-2 xl:mr-2 2xl:mr-4">
-            <img src="/logo-tight.png" alt={BRAND.NAME} fetchPriority="high" decoding="async" className="navbar-logo w-[120px] lg:w-[132px] xl:w-[130px] 2xl:w-[164px] h-auto object-contain block" data-testid="img-logo-navbar" />
+            <img src="/logo-tight.png" alt={BRAND.NAME} width={600} height={110} fetchPriority="high" decoding="async" className="navbar-logo w-[120px] lg:w-[132px] xl:w-[130px] 2xl:w-[164px] h-auto object-contain block" data-testid="img-logo-navbar" />
           </Link>
 
           <nav className="hidden xl:flex items-center justify-center gap-0 xl:gap-0.5 2xl:gap-2 flex-1 min-w-0 overflow-hidden" aria-label={t("common.mainNavigation")} data-testid="nav-desktop">

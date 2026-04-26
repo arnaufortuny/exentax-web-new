@@ -344,7 +344,7 @@ export default function StartPage() {
         <div className="h-px bg-gradient-to-r from-transparent via-[rgba(0,229,16,0.2)] to-transparent mb-12" />
 
         <Link href={lp("home")} className="group inline-block mb-8" data-testid="link-start-home">
-          <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-36 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity mx-auto" data-testid="img-logo-start" />
+          <img src="/ex-icon-green.png" alt={BRAND.NAME} width={144} height={144} className="h-36 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity mx-auto" data-testid="img-logo-start" />
         </Link>
 
         <p className="font-body text-base text-[var(--text-2)] leading-relaxed max-w-[500px] mx-auto mb-8">

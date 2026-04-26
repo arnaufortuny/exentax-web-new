@@ -12,7 +12,7 @@ export default function NavbarFunnel() {
       <div className="max-w-7xl mx-auto h-[72px] bg-[rgba(255,255,255,0.82)] backdrop-blur-[16px] border border-[rgba(0,0,0,0.06)] rounded-[20px] px-6 flex items-center shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
 
         <Link href={lp("home")} data-testid="link-funnel-home" className="flex items-center justify-center flex-shrink-0 outline-none focus-visible:ring-2 focus-visible:ring-[#00E510] focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-md">
-          <img src="/logo-tight.png" alt={BRAND.NAME} className="w-[148px] h-auto object-contain block" fetchPriority="high" loading="eager" decoding="async" data-testid="img-logo-funnel" />
+          <img src="/logo-tight.png" alt={BRAND.NAME} width={600} height={110} className="w-[148px] h-auto object-contain block" fetchPriority="high" loading="eager" decoding="async" data-testid="img-logo-funnel" />
         </Link>
 
         <div className="flex-1" />

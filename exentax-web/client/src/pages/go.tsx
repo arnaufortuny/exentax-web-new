@@ -7,7 +7,7 @@ import { trackWhatsAppClick } from "@/components/Tracking";
 
 function ExMark() {
   return (
-    <img src="/ex-icon-green.png" alt={BRAND.NAME} className="w-36 h-36 object-contain" data-testid="img-logo-links" />
+    <img src="/ex-icon-green.png" alt={BRAND.NAME} width={144} height={144} className="w-36 h-36 object-contain" data-testid="img-logo-links" />
   );
 }
 

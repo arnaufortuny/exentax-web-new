@@ -451,7 +451,19 @@ function WhyUsSection() {
   const { t } = useTranslation();
   const ref = useReveal();
 
-  const cards = [
+  // Heterogeneous cards: each one has paragraphs + optional list/afterList/highlight/emphasis.
+  // Explicit interface eliminates the `as any` casts in the render loop.
+  interface WhyUsCard {
+    icon: React.ReactNode;
+    title: string;
+    paragraphs: string[];
+    list?: string[];
+    afterList?: string[];
+    highlight?: string;
+    emphasis?: string;
+  }
+
+  const cards: WhyUsCard[] = [
     {
       icon: <DirectContactIcon />,
       title: t("comoFunciona.whyUs.cards.0.title"),
@@ -518,9 +530,9 @@ function WhyUsSection() {
                     <p key={p} className="text-[15px] leading-relaxed" style={{ color: 'rgba(11,13,12,0.82)' }}>{p}</p>
                   ))}
 
-                  {(card as any).list && (
+                  {card.list && (
                     <div className="space-y-2.5 pl-1">
-                      {(card as any).list.map((item: string) => (
+                      {card.list.map((item) => (
                         <div key={item} className="flex items-start gap-3">
                           <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 48 48" fill="none" className="flex-shrink-0 mt-0.5">
                             <circle cx="24" cy="24" r="19" stroke="#0B0D0C" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -532,13 +544,13 @@ function WhyUsSection() {
                     </div>
                   )}
 
-                  {(card as any).afterList?.map((p: string) => (
+                  {card.afterList?.map((p) => (
                     <p key={p} className="text-[15px] leading-relaxed" style={{ color: 'rgba(11,13,12,0.82)' }}>{p}</p>
                   ))}
                 </div>
 
-                {(card as any).highlight && (
-                  <p className="mt-5 pt-4 border-t border-[rgba(11,13,12,0.18)] font-semibold text-[15px] leading-relaxed" style={{ color: '#0B0D0C' }}>{(card as any).highlight}</p>
+                {card.highlight && (
+                  <p className="mt-5 pt-4 border-t border-[rgba(11,13,12,0.18)] font-semibold text-[15px] leading-relaxed" style={{ color: '#0B0D0C' }}>{card.highlight}</p>
                 )}
 
                 {card.emphasis && (
