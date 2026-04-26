@@ -852,7 +852,7 @@ export default function PillarOpenLlcPage() {
     description: c.atomicAnswer.body,
     inLanguage: lang,
     totalTime: "P4D",
-    estimatedCost: { "@type": "MonetaryAmount", currency: "USD", value: "1099" },
+    estimatedCost: { "@type": "MonetaryAmount", currency: "USD", value: "350" },
     mainEntityOfPage: { "@id": pillarUrl },
     step: c.steps.items.map((s, idx) => ({
       "@type": "HowToStep",
