@@ -8,6 +8,22 @@
  * doubling in size, a locale dictionary that grew unchecked — fail the
  * build instead of degrading TTFB in production.
  *
+ * Hard performance budget (PENDING.md §13, added 2026-04-26):
+ *   Two top-level budgets gate the build with a non-zero exit code:
+ *     - `dist/index.mjs`   server bundle ≤ 7 MB  (default; override via
+ *                          BUNDLE_BUDGET_SERVER_MB).
+ *     - `dist/public/`     total client output ≤ 30 MB (default; override
+ *                          via BUNDLE_BUDGET_PUBLIC_MB).
+ *   Both checks emit a single line of the form:
+ *     bundle-budget: server <X> MB / 7 MB · public <Y> MB / 30 MB → OK|FAIL
+ *   This is a HARD gate (exit 1 on FAIL); the existing per-chunk
+ *   BUDGETS_KB table and the Discord-notification logic (audit-bundle-
+ *   diff-notify-discord.mjs) remain as soft signals on top.
+ *
+ * Environment variables:
+ *   BUNDLE_BUDGET_SERVER_MB   server-bundle ceiling in MB (default 7)
+ *   BUNDLE_BUDGET_PUBLIC_MB   public-output ceiling in MB (default 30)
+ *
  * Usage:
  *   node scripts/audit-bundle.mjs              # builds and audits
  *   node scripts/audit-bundle.mjs --no-build   # audits the existing dist
@@ -39,8 +55,18 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const ASSETS_DIR = path.resolve(ROOT, "dist/public/assets");
+const SERVER_BUNDLE_PATH = path.resolve(ROOT, "dist/index.mjs");
+const PUBLIC_DIR = path.resolve(ROOT, "dist/public");
 const REPORT_DIR = path.resolve(ROOT, "docs/auditoria-2026-04");
 const REPORT_PATH = path.resolve(REPORT_DIR, "bundle-audit.json");
+
+// Hard performance budgets (PENDING.md §13). Both can be overridden via
+// environment variables, so an operator with a justified regression can run
+// the script with raised ceilings (e.g. for a one-off diagnostic) without
+// editing the file. Defaults are aligned with the 2026-04 baseline:
+// `dist/index.mjs` ~5.9 MB and `dist/public/` ~24 MB (see Sesión 5 notes).
+const HARD_BUDGET_SERVER_MB = Number(process.env.BUNDLE_BUDGET_SERVER_MB ?? 7);
+const HARD_BUDGET_PUBLIC_MB = Number(process.env.BUNDLE_BUDGET_PUBLIC_MB ?? 30);
 
 // History lives in `.local-audit/` (gitignored) instead of `docs/` so local
 // `npm run audit:bundle` runs do not dirty the repo with a new entry per
@@ -163,6 +189,66 @@ function kb(bytes) {
   return Math.round((bytes / 1024) * 10) / 10;
 }
 
+function mb(bytes) {
+  return Math.round((bytes / (1024 * 1024)) * 100) / 100;
+}
+
+// Recursively sum the sizes of every regular file under `dir`. Returns 0
+// when `dir` is missing so the caller can decide whether absence is a
+// hard error (we treat it as 0 + warning, not a budget breach: the per-
+// chunk audit above will already exit 2 if the build artefacts are gone).
+function dirTotalBytes(dir) {
+  let total = 0;
+  let entries;
+  try {
+    entries = readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return 0;
+  }
+  for (const ent of entries) {
+    const full = path.join(dir, ent.name);
+    if (ent.isDirectory()) {
+      total += dirTotalBytes(full);
+    } else if (ent.isFile()) {
+      try {
+        total += statSync(full).size;
+      } catch {
+        /* ignore unreadable files */
+      }
+    }
+  }
+  return total;
+}
+
+function fileSizeBytes(file) {
+  try {
+    return statSync(file).size;
+  } catch {
+    return 0;
+  }
+}
+
+function checkHardBudget() {
+  const serverBytes = fileSizeBytes(SERVER_BUNDLE_PATH);
+  const publicBytes = dirTotalBytes(PUBLIC_DIR);
+  const serverMb = mb(serverBytes);
+  const publicMb = mb(publicBytes);
+  const serverOk = serverBytes <= HARD_BUDGET_SERVER_MB * 1024 * 1024;
+  const publicOk = publicBytes <= HARD_BUDGET_PUBLIC_MB * 1024 * 1024;
+  const ok = serverOk && publicOk;
+  return {
+    serverBytes,
+    publicBytes,
+    serverMb,
+    publicMb,
+    serverBudgetMb: HARD_BUDGET_SERVER_MB,
+    publicBudgetMb: HARD_BUDGET_PUBLIC_MB,
+    serverOk,
+    publicOk,
+    ok,
+  };
+}
+
 // Strip Vite's content-hash suffix (e.g. `index-BeVLyp_w.js` → `index.js`)
 // so the same logical chunk can be matched across commits in the history.
 function stripHash(file) {
@@ -282,6 +368,8 @@ function main() {
   const totalKb = kb(items.reduce((s, i) => s + i.bytes, 0));
   const totalGzipKb = kb(items.reduce((s, i) => s + i.gzip, 0));
 
+  const hardBudget = checkHardBudget();
+
   const report = {
     generatedAt: new Date().toISOString(),
     totalChunks: items.length,
@@ -291,7 +379,8 @@ function main() {
     summary,
     top,
     offenders,
-    pass: offenders.length === 0,
+    hardBudget,
+    pass: offenders.length === 0 && hardBudget.ok,
   };
 
   mkdirSync(REPORT_DIR, { recursive: true });
@@ -336,9 +425,30 @@ function main() {
     }
     log("");
     log(`Reporte JSON: ${path.relative(ROOT, REPORT_PATH)}`);
+    log("");
+    log(
+      `bundle-budget: server ${hardBudget.serverMb} MB / ${hardBudget.serverBudgetMb} MB · ` +
+        `public ${hardBudget.publicMb} MB / ${hardBudget.publicBudgetMb} MB → ${hardBudget.ok ? "OK" : "FAIL"}`,
+    );
+    if (!hardBudget.ok) {
+      if (!hardBudget.serverOk) {
+        log(
+          `  - server bundle ${hardBudget.serverMb} MB > ${hardBudget.serverBudgetMb} MB ` +
+            `(override with BUNDLE_BUDGET_SERVER_MB=<n>)`,
+        );
+      }
+      if (!hardBudget.publicOk) {
+        log(
+          `  - public output ${hardBudget.publicMb} MB > ${hardBudget.publicBudgetMb} MB ` +
+            `(override with BUNDLE_BUDGET_PUBLIC_MB=<n>)`,
+        );
+      }
+    }
   }
 
-  process.exit(offenders.length === 0 ? 0 : 1);
+  // Hard gate (PENDING.md §13): exit 1 if either the per-chunk audit found
+  // offenders OR the top-level server/public budget is exceeded.
+  process.exit(offenders.length === 0 && hardBudget.ok ? 0 : 1);
 }
 
 main();

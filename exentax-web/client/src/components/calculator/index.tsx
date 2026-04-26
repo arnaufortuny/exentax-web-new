@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback, useSyncExternalStore, lazy, Suspense } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef, useSyncExternalStore, lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { resolveLocale } from "@/lib/lang-utils";
 import { calculateSavings, computeAllStructures, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES, DISPLAY_CURRENCIES, convertFromEUR, convertToEUR, USE_CASE_PRESETS, NON_DEDUCTIBLE_INFO } from "@/lib/calculator";
@@ -41,6 +41,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
   const [regime, setRegime] = useState("");
   const [displayCurrency, setDisplayCurrencyState] = useState<string>("EUR");
   const [currencyUserPicked, setCurrencyUserPicked] = useState(false);
+  const [geoPrefillApplied, setGeoPrefillApplied] = useState(false);
 
   const setDisplayCurrency = useCallback((code: string) => {
     setCurrencyUserPicked(true);
@@ -130,6 +131,45 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     setExpenseItems(items);
     setExpenses(0);
   }
+
+  // Geo-based prefill (Task #11): on mount, ask the server for the visitor's
+  // country (resolved from cf-ipcountry / x-vercel-ip-country / fly-client-ip-
+  // country / accept-language) and seed the calculator's country + display
+  // currency. Never overrides a user choice, never blocks render, never logs
+  // on network failure. The /api/geo response only ever returns "medium" for
+  // CCAA so we don't touch ccaaProfile here.
+  const countryRef = useRef(country);
+  const currencyUserPickedRef = useRef(currencyUserPicked);
+  useEffect(() => { countryRef.current = country; }, [country]);
+  useEffect(() => { currencyUserPickedRef.current = currencyUserPicked; }, [currencyUserPicked]);
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch("/api/geo");
+        if (!res.ok) return;
+        const geo = await res.json() as {
+          country?: string;
+          calculatorCountry?: string;
+          currency?: string;
+          ccaaProfile?: string;
+        };
+        if (cancelled) return;
+        if (!geo || !geo.country) return;
+        if (geo.calculatorCountry && countryRef.current === "") {
+          handleCountryChange(geo.calculatorCountry);
+        }
+        if (geo.currency && !currencyUserPickedRef.current) {
+          setDisplayCurrencyState(geo.currency);
+        }
+        setGeoPrefillApplied(true);
+      } catch (err) {
+        clientLogger.warn("[calculator] geo prefill failed", err);
+      }
+    })();
+    return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (!inputFocused) {
@@ -287,7 +327,11 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       <div className={`flex flex-col ${compact ? "gap-2.5 mb-2.5" : "gap-4 lg:gap-6 mb-4"}`}>
         <div>
           <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm lg:text-[15px] mb-2 lg:mb-3"}`}>{t("calculator.selectCountry")}</p>
-          <div className={`grid grid-cols-2 sm:grid-cols-4 ${compact ? "gap-1" : "gap-2 lg:gap-3"}`}>
+          <div
+            className={`grid grid-cols-2 sm:grid-cols-4 ${compact ? "gap-1" : "gap-2 lg:gap-3"}`}
+            data-testid="geo-prefill-applied"
+            data-geo-prefill-applied={geoPrefillApplied ? "true" : "false"}
+          >
             {countries.map((c) => (
               <button
                 key={c.id}

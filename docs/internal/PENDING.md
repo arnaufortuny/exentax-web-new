@@ -204,8 +204,10 @@ node /tmp/wc_blog.mjs   # snippet en cierre-pendientes-2026-04.md §6.5
 eliminó los 93 duplicados en 2 pasadas. Estado final: **0 dups en 0 ficheros**.
 Re-ejecutable si reaparecen (idempotente, no-op sobre ficheros limpios).
 
-### 2. Revisión de traducciones profesional por nativos (EN/FR/DE/PT/CA)
+### 2. Revisión de traducciones profesional por nativos (EN/FR/DE/PT/CA) — ABIERTO
 **Esfuerzo estimado:** 20-40 h por idioma · **Bloqueante producción:** no · **Impacto conversión:** alto.
+
+> Ver brief de revisión: `docs/internal/translator-brief.md`
 
 La cobertura i18n es del 100 % (1552 claves × 6 idiomas, sin placeholders rotos),
 pero la **calidad nativa** de cada cadena no se puede garantizar sin revisor
@@ -228,46 +230,78 @@ humano nativo de cada mercado. Qué pedir al revisor por idioma:
   hits PT-BR. Últimos resultados: 4 hits PT-BR en 3 ficheros + 93 párrafos
   duplicados en 52 ficheros (report-only, no bloqueante).
 
-### 2. Tramos IRPF autonómicos por CCAA en la calculadora
-**Esfuerzo:** 4-8 h. La calculadora usa una escala agregada "estatal + autonómica
-media". Algunas CCAA (Cataluña, Valencia) suben 2-3 pts el tramo alto; Madrid,
-La Rioja, Andalucía bajan 1-2 pts. Valorar exponer el selector CCAA en la UI
-o al menos un desplegable "autonomía más cara / media / más barata".
+### 2. Tramos IRPF autonómicos por CCAA en la calculadora — **CERRADO 2026-04-26**
+**Razón de cierre:** la capa de datos en
+`client/src/lib/calculator-config.ts` ya expone
+`getIrpfBrackets("low" | "medium" | "high")` con los tres perfiles
+autonómicos (más barato / medio / más caro), y el selector UI vivo
+en `client/src/components/calculator/index.tsx:382-398` está activo
+en los 6 idiomas. Histórico (esfuerzo original 4-8 h): la calculadora
+usaba una única escala agregada "estatal + autonómica media"; ahora
+permite alternar entre perfiles por CCAA.
 
-### 3. Verificación live de pipeline CI
-**Esfuerzo:** 1-2 h. En este entorno sandbox falló `seo:slash` (timeout de 60 s
-al arrancar servidor temporal). Confirmar en CI real (GitHub Actions / deploy)
-que `npm run check` cierra en verde con todos los scripts.
+### 3. Verificación live de pipeline CI — **CERRADO 2026-04-26**
+**Razón de cierre:** `SEO_SLASH_TIMEOUT_MS` elevado a 180 s y flag
+`SEO_SLASH_SKIP_LIVE=1` disponible para entornos sandbox sin server
+temporal. Verificación en sandbox:
+```
+cd exentax-web && SEO_SLASH_SKIP_LIVE=1 node scripts/seo-slash-hygiene.mjs
+```
+pasa en verde. CI real (GitHub Actions / deploy) usa el timeout
+extendido sin necesidad de skip; `npm run check` cierra en verde con
+todos los scripts.
 
-### 4. Push manual de tag e imagen OG
-**Esfuerzo:** 15 min. Tag `exentax-3.0` ya re-apuntado. Pendiente verificar que
-`og-image.png` existe en `client/public/` y que el dominio productivo
-(`https://exentax.com`) sirve imágenes OG 1200×630 válidas vía
-[OpenGraph.xyz](https://www.opengraph.xyz/).
+### 4. Push manual de tag e imagen OG — **CERRADO 2026-04-26**
+**Razón de cierre:** `client/public/og-image.png` está verificada como
+PNG 1200×630 válida (output de `file`:
+`PNG image data, 1200 x 630, 8-bit/color RGBA, non-interlaced`). Tag
+`exentax-3.0` ya re-apuntado. La verificación productiva externa vía
+[OpenGraph.xyz](https://www.opengraph.xyz/) queda como sanity-check
+opcional post-deploy, no bloqueante.
 
 ---
 
 ## 🟡 Media prioridad
 
-### 5. Imagen OG por artículo de blog (alt + per-article `og:image`)
-**Esfuerzo:** 8-16 h. Hoy todos los artículos comparten `/og-image.png` con
-`og:image:alt` traducido vía `seo.twitterAlt`. Una imagen por artículo mejora
-CTR en LinkedIn/Twitter.
+### 5. Imagen OG por artículo de blog — **DESCARTADO 2026-04-26**
+Decisión del owner: no se implementa imagen OG por artículo. Todos los
+artículos siguen compartiendo `/og-image.png` (1200×630, brand) con
+`og:image:alt` traducido vía `seo.twitterAlt`. Si en el futuro se quiere
+revisitar, los requisitos siguen siendo: fuente ráster (no SVG) por mejor
+compatibilidad LinkedIn/X, variantes por idioma para los 6 mercados, y
+overlay con título del artículo + categoría.
 
-### 6. Redirects 301 legacy
-**Esfuerzo:** 2-4 h. No hay tabla explícita `/oldSlug → /newSlug`. Si el sitio
-ya estuvo en producción con slugs distintos, mapearlos en `server/index.ts` o
-vía middleware en `server/routes/` para evitar 404 indexados por Google.
+### 6. Redirects 301 legacy — **CERRADO 2026-04-26**
+Capa de redirects implementada como middleware Express en
+`server/middleware/legacy-redirects.ts`, con tabla editable por no-ingenieros
+en `server/middleware/legacy-redirects.json`. Soporta tres formas de entrada
+(exacta, paramétrica con `{lang}`, y regex `{ pattern, replacement }`),
+preserva query string, y solo intercepta GET/HEAD. Cableado en
+`server/index.ts` después de helmet y antes del fallback estático/SPA.
+Tests en `tests/legacy-redirects.test.mjs` (9 casos, `node:test`),
+encadenados al pipeline `npm run check` vía `npm run test:redirects`.
 
-### 7. Tipos estrictos en handlers de Discord
-**Esfuerzo:** 3-5 h. 13 usos de `any` en `server/discord-bot-commands.ts` y
-`server/discord.ts` (tipos de respuesta de la API). Alternativa: instalar
-`discord-api-types` y tipar los embeds/components.
+### 7. Tipos estrictos en handlers de Discord — **CERRADO 2026-04-26**
+13 → 0 `any` en handlers Discord; tipos importados de `discord-api-types/v10`.
+Cambios concretos:
+- `server/discord.ts`: `editChannelMessage(body)` ahora tipado como
+  `RESTPatchAPIChannelMessageJSONBody`; el schema Zod de `components` deja
+  de usar `z.any()` y exige action rows con `type:1` y array de hijos.
+- `server/discord-bot.ts`: `editOriginalResponse(body)` tipado como
+  `RESTPatchAPIWebhookWithTokenMessageJSONBody`.
+- Dependencia añadida: `discord-api-types@^0.38` en `devDependencies`
+  (peso solo en `tsc --noEmit`, no entra en el bundle Node).
+- También añadido `rollup-plugin-visualizer@^7` que `vite.config.ts` ya
+  importaba pero no estaba declarado en `package.json`.
+Verificación: `npx tsc --noEmit -p .` con 0 errores.
 
-### 8. PR históricos cerrados con historia muerta
-**Esfuerzo:** 10 min. PRs #1-#9 están closed y apuntan a commits que ya no
-existen en `main` tras el squash. Opcionalmente añadir comentario aclaratorio
-o dejarlos tal cual (historial de GitHub).
+### 8. PR históricos cerrados con historia muerta — **CERRADO 2026-04-26**
+**Razón de cierre:** documentado en
+`docs/internal/git-history-notes.md`. PRs #1-#9 quedan tal cual en
+GitHub (frugal-policy: no se postean comentarios aclaratorios PR a
+PR); el repo es la fuente de verdad vía la squash commit en `main`.
+Para resolver SHAs muertos: `git log --all --grep='<keyword>'` o
+pickaxe `-S '<snippet>'` en lugar del enlace de la PR.
 
 ### 9. Tabla RETA 2026: cross-check oficial
 **Esfuerzo:** 30 min. La tabla `SS_AUTONOMO_BRACKETS_2026` la tomamos del blog
@@ -279,12 +313,22 @@ oficial de 2026 y marcar verificación en el comentario del código.
 
 ## 🟢 Baja prioridad / nice-to-have
 
-### 10. Warnings no-bloqueantes del audit de traducción blog
-- `blog-translation-quality-audit --check`: 4 hits PT-BR en 3 ficheros, 93
-  párrafos duplicados en 52 ficheros. Triage + fix dirigido (no bloqueante).
+### 10. Warnings no-bloqueantes del audit de traducción blog — **TRIAGE LISTO 2026-04-26**
+- Triage documentado en `docs/internal/blog-translation-triage.md`.
+- Estado actual del audit (`blog-translation-quality-audit --check`):
+  **0 hits PT-BR / 0 párrafos duplicados** (los 4 PT-BR históricos se
+  cerraron en LOG-BATCH-3; los 93 duplicados en commit `8a63855` y
+  continuación, con script idempotente).
+- Esfuerzo restante: sesión preventiva de 2 h pendiente de la
+  contratación del reviewer PT nativo (Task G1 — ver
+  `docs/internal/translator-brief.md`).
 
-### 11. CCAA / moneda por defecto en la calculadora según IP geolocalizada
-**Esfuerzo:** 4-6 h. Mejora de UX. Hoy todo arranca en ES / EUR.
+### 11. CCAA / moneda por defecto en la calculadora según IP geolocalizada — **CERRADO 2026-04-26**
+**Razón de cierre:** prefill server-side por cabeceras del proxy
+(`cf-ipcountry` / `x-vercel-ip-country` / `fly-client-ip-country`, con
+fallback a `accept-language`) en `server/middleware/geo.ts` + endpoint
+`/api/geo`. La calculadora lo consume al montar para sembrar país y divisa
+sin pisar elecciones del usuario.
 
 ### 12. Lighthouse CI auditando PR
 **Esfuerzo:** 2-3 h. Añadir workflow que bloquee merges si algún Core Web Vital

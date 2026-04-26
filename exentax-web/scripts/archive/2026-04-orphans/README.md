@@ -1,41 +1,44 @@
-# scripts/archive/2026-04-orphans
+# Archived orphan scripts — April 2026
 
-Scripts huérfanos detectados en scan dead-code 2026-04-26 (sesión consolidación).
+Date archived: **2026-04-26** (PENDING.md §15 cleanup).
 
-## Detección
+These two scripts were detected as **orphans** during the manual scan in
+session 2026-04-26: zero references from `package.json`, no callers from
+other scripts, no GitHub workflow wiring, no docs referencing them. They
+were one-off / diagnostic auditors that have already done their job and
+are not part of any current pipeline.
 
-```
+They are **archived rather than deleted** so they can be re-used as
+diagnostic tools if needed (project rule: only delete with high
+confidence). Restore by `git mv` back to `scripts/` if a use case
+re-emerges.
+
+## Reproduce the zero-reference check
+
+```bash
 for s in blog-i18n-sync-check audit-markdown-quality; do
-  refs=$(grep -rl --include="*.json" --include="*.mjs" --include="*.ts" --include="*.sh" \
-         "$s" exentax-web 2>/dev/null | grep -v "^exentax-web/scripts/$s" | grep -v node_modules | wc -l)
+  refs=$(grep -rl --include="*.json" --include="*.mjs" --include="*.ts" --include="*.sh" "$s" exentax-web 2>/dev/null \
+    | grep -v "^exentax-web/scripts/$s" \
+    | grep -v node_modules \
+    | wc -l)
   echo "$refs $s"
 done
+# Expected output (2026-04-26):
+# 0 blog-i18n-sync-check
+# 0 audit-markdown-quality
 ```
 
-## Archivados
+## Inventory
 
-| Script | Refs externos | Por qué archivado |
-|---|---:|---|
-| `blog-i18n-sync-check.mjs` | 0 | Sin uso desde package.json ni otros scripts. Audit one-off útil para diagnóstico puntual. |
-| `audit-markdown-quality.mjs` | 0 | Solo se referencia a sí mismo. Audit one-off útil para diagnóstico puntual. |
+| Script                          | Why archived                                                                                                                                                                  |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `blog-i18n-sync-check.mjs`      | One-off auditor that compared blog i18n parity across 6 idiomas. Zero references in `package.json`, scripts, workflows o docs. Kept for ad-hoc diagnostic re-use.             |
+| `audit-markdown-quality.mjs`    | One-off Markdown quality auditor. Only self-references found; no `package.json` script entry, no caller. Kept for ad-hoc diagnostic re-use.                                   |
 
-## Re-activación
+## Note about the parent archive README
 
-Si en el futuro se necesitan, mover de vuelta a `scripts/` y opcionalmente
-añadir comando en `package.json` (e.g., `"audit:i18n-sync"`,
-`"audit:markdown-quality"`).
-
-Ambos scripts son **read-only** (solo emiten reports, no modifican código),
-por lo que ejecutarlos cuando haga falta diagnóstico no tiene riesgo.
-
-## Funcionalidad reemplazada
-
-- `blog-i18n-sync-check.mjs`: la cobertura sync `blog-content/{lang}/` vs
-  `blog-i18n/{lang}.ts` está cubierta por `blog-data-validate.mjs` y
-  el step `coverage` de `blog:validate-all`.
-- `audit-markdown-quality.mjs`: las reglas (heading depth, list markers,
-  smart-quotes, broken anchors, trailing whitespace) están parcialmente
-  cubiertas por `blog-content-lint.mjs` + `blog-masterpiece-audit.mjs`.
-
-Ningún linter activo depende de estos scripts; archivarlos no rompe
-ningún workflow.
+The parent `scripts/archive/2026-04/README.md` still mentions
+`blog-i18n-sync-check.mjs` as a "reusable auditor" that lives under
+`scripts/`. That note is now historical: the script proved unused at the
+2026-04-26 audit and has been moved here. If the parent README is touched
+again, update that mention accordingly.

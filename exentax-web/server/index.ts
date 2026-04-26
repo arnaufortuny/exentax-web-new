@@ -14,6 +14,8 @@ import { SITE_URL } from "./server-constants";
 import { correlationMiddleware } from "./correlation";
 import { recordHttpRequest } from "./metrics";
 import { registerObservabilityRoutes } from "./routes/observability";
+import { geoMiddleware } from "./middleware/geo";
+import { legacyRedirects } from "./middleware/legacy-redirects";
 
 const REQUIRED_ENV_VARS: Array<{ name: string; prodOnly?: boolean; hint: string }> = [
   { name: "DATABASE_URL", hint: "PostgreSQL connection string" },
@@ -127,6 +129,11 @@ const httpServer = createServer((req: IncomingMessage, res: ServerResponse) => {
 // Correlation ID propagation runs before any handler so every log line
 // emitted while serving a request can be tagged with the inbound request id.
 app.use(correlationMiddleware);
+
+// Geo resolution from reverse-proxy headers (Task #11). Runs before API
+// routes and the SPA fallback so /api/geo and any future handler can read
+// `(req as any).geo.country`. No external geo DB; never echoes the raw IP.
+app.use(geoMiddleware);
 
 app.use(compression({
   level: 6,
@@ -277,6 +284,13 @@ app.use((req, res, next) => {
   }
   next();
 });
+
+// Legacy slug redirects (Medium #6). Map lives in
+// server/middleware/legacy-redirects.json so non-engineers can edit it. Runs
+// before the static/SPA fallback handler so renamed slugs return a clean 301
+// instead of falling through to the SPA and rendering a 404 page that Google
+// would index. See server/middleware/legacy-redirects.ts header for shape.
+app.use(legacyRedirects);
 
 app.use((req, res, next) => {
   const url = req.path.toLowerCase();

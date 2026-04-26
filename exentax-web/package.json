@@ -7,10 +7,11 @@
     "dev": "NODE_ENV=development tsx server/index.ts",
     "build": "tsx scripts/build.ts",
     "start": "NODE_ENV=production node dist/index.mjs",
-    "check": "tsc && npm run lint:typography && npm run lint:stray-reports && npm run lint:brand-casing && npm run lint:pt-pt && npm run lint:blog && npm run seo:check && npm run seo:slash && npm run seo:meta && npm run seo:masterpiece-strict && npm run blog:validate-all && npm run i18n:check && npm run test:seo-check && npm run test:seo-slash && npm run test:lint-blog && npm run test:audit-faqs && npm run test:calculator && npm run test:discord-neon && npm run test:bundle-diff-notify && npm run test:newsletter && npm run test:booking && npm run test:indexnow && npm run audit:bundle",
+    "check": "tsc && npm run lint:typography && npm run lint:stray-reports && npm run lint:brand-casing && npm run lint:pt-pt && npm run lint:blog && npm run seo:check && npm run seo:slash && npm run seo:meta && npm run seo:masterpiece-strict && npm run blog:validate-all && npm run i18n:check && npm run test:seo-check && npm run test:seo-slash && npm run test:lint-blog && npm run test:audit-faqs && npm run test:calculator && npm run test:discord-neon && npm run test:bundle-diff-notify && npm run test:newsletter && npm run test:booking && npm run test:indexnow && npm run test:redirects && npm run test:geo && npm run audit:bundle",
     "audit:bundle": "node scripts/audit-bundle.mjs",
     "audit:bundle:fast": "node scripts/audit-bundle.mjs --no-build",
     "audit:bundle:diff": "node scripts/audit-bundle-diff.mjs",
+    "audit:conversion": "node scripts/audit-conversion-112x6.mjs",
     "test:bundle-diff-notify": "node scripts/audit-bundle-diff-notify-discord.test.mjs",
     "blog:validate-all": "node scripts/blog-validate-all.mjs",
     "seo:masterpiece-strict": "tsx scripts/blog-masterpiece-audit.mjs --strict",
@@ -40,7 +41,10 @@
     "discord:register": "tsx scripts/register-discord-commands.ts",
     "discord:register:dry": "tsx scripts/register-discord-commands.ts --dry-run",
     "discord:register:diff": "tsx scripts/register-discord-commands.ts --diff",
-    "test:indexnow": "tsx server/indexnow.test.ts"
+    "test:indexnow": "tsx server/indexnow.test.ts",
+    "test:redirects": "node --import tsx tests/legacy-redirects.test.mjs",
+    "test:geo": "node tests/geo-middleware.test.mjs",
+    "test:e2e": "playwright test --project=chromium"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",
@@ -78,6 +82,8 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@playwright/test": "^1.59.1"
+    "@playwright/test": "^1.59.1",
+    "discord-api-types": "^0.38.47",
+    "rollup-plugin-visualizer": "^7.0.1"
   }
 }

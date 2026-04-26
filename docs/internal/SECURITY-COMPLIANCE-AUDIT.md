@@ -56,37 +56,21 @@ export function checkCsrfOrigin(req): boolean {
 - En `NODE_ENV !== "production"`: `localhost`, `127.0.0.1`, `::1`,
   `*.replit.dev`, `*.repl.co`
 
-**Aplicación GLOBAL** (`server/routes.ts:68-84`):
+**Aplicación**:
+- ✓ `server/routes/observability.ts:165` — `/api/client-errors`
 
-```ts
-app.use((req, res, next) => {
-  if (req.method === "GET" || req.method === "HEAD" || req.method === "OPTIONS") return next();
-  if (!req.path.startsWith("/api/")) return next();
-  // Discord signs every interaction with Ed25519 (stronger than CSRF):
-  if (req.path === "/api/discord/interactions") return next();
-  if (!checkCsrfOrigin(req)) {
-    return apiFail(res, 403, backendLabel("originNotAllowed", ...), "FORBIDDEN");
-  }
-  next();
-});
-```
+⚠️ **HALLAZGO**: solo `observability.ts` invoca `checkCsrfOrigin`. Los
+endpoints públicos POST (`/api/bookings/book`, `/api/calculator-leads`,
+`/api/consent`, `/api/newsletter/subscribe`, `/api/visitor`) NO usan
+`checkCsrfOrigin` directamente — **dependen únicamente de**:
+- Rate limiting per-IP
+- Helmet `frameAncestors: 'self'` (no embed)
+- CORS browser default no preflight (no `OPTIONS` permitido).
 
-✓ **Cubre TODOS los métodos mutativos** (POST/PUT/PATCH/DELETE) en `/api/*`.
-✓ **Excluye solo `/api/discord/interactions`** (verificación Ed25519 es prueba más fuerte).
-✓ Endpoints cubiertos: `/api/bookings/book`, `/api/booking/:id/{reschedule,cancel}`,
-  `/api/calculator-leads`, `/api/consent`, `/api/newsletter/subscribe`, `/api/visitor`.
-
-**Refuerzo redundante** en `server/routes/observability.ts:165` para
-`/api/client-errors`: este endpoint se registra ANTES de `routes.ts` en
-`server/index.ts`, así que el middleware global no llega — el handler
-ejecuta el mismo `checkCsrfOrigin` en línea para cerrar el gap.
-
-**Trusted origins** (`route-helpers.ts:290-313`):
-- Producción: `https://exentax.com`, `https://www.exentax.com`,
-  + `EXTRA_ALLOWED_ORIGINS` env var (CSV).
-- Dev: `localhost`, `127.0.0.1`, `::1`, `*.replit.dev`, `*.repl.co`.
-
-Implementación CSRF **completa y estricta**. Sin gaps.
+Esto es **defensivo pero no estricto CSRF**. Una mejora P2 sería añadir
+`checkCsrfOrigin` antes de cada handler mutativo público. Sin embargo,
+los endpoints reciben datos validados por Zod + sanitizeInput + rate-
+limited, por lo que el ataque CSRF efectivo es limitado. **No-blocker**.
 
 ---
 
@@ -279,11 +263,14 @@ crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
 | npm audit 4 moderate (drizzle-kit dev) | 🟡 P2 |
 | Drizzle ORM prepared statements | ✓ VERDE |
 | CORS same-origin only | ✓ VERDE |
-| CSRF GLOBAL middleware mutativos `/api/*` | ✓ VERDE (routes.ts:68-84) |
-| CSRF redundante `/api/client-errors` | ✓ VERDE (obs.ts:165) |
+| CSRF origin check on `/api/client-errors` | ✓ VERDE |
+| CSRF strict en endpoints mutativos públicos | 🟡 P2 mejora |
 
 ### Acciones P2 (no-blocker)
-1. Update drizzle-kit cuando upstream lance fix esbuild-kit.
+1. Considerar añadir `checkCsrfOrigin` antes de handlers mutativos
+   públicos (book, calculator-leads, consent, newsletter, visitor).
+   Defense-in-depth aunque rate-limit + Zod + CORS ya filtran.
+2. Update drizzle-kit cuando upstream lance fix esbuild-kit.
 
 ### No accionables desde sandbox
 - Test live `100 requests rápidos → 429`: requiere dev server.

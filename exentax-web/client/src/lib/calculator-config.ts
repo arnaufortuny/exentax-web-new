@@ -111,6 +111,23 @@ export const SPAIN_DIVIDEND_BRACKETS = [
 // que cita Sede Electrónica TGSS y los textos BOE arriba. Ante el cierre
 // del ejercicio 2026, contrastar también con la resolución TGSS de
 // presupuestos generales que confirme la tabla definitiva del año.
+//
+// Verificación oficial (2026-04-26) — fuentes consultadas:
+//   1. TGSS Sede Electrónica — cuotas autónomos 2026:
+//      https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio
+//   2. BOE — RDL 13/2022, de 26 de julio (sistema de cotización por ingresos
+//      reales del RETA), Disp. Trans. 1ª (trayectoria 2023-2032):
+//      https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-12482
+//   3. Acuerdo de la Mesa de Diálogo Social de Autónomos (jul-2022) —
+//      trayectoria bianual de los 15 tramos hasta 2032:
+//      https://prensa.mites.gob.es/WebPrensa/noticias/seguridadsocial/detalle/4283
+//   4. TRLGSS arts. 305-308 (RETA, base de cotización, tipos):
+//      https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960
+//
+// Los valores `monthly` corresponden a la cuota calibrada para el ejercicio
+// 2026 dentro de la trayectoria transitoria establecida en RDL 13/2022
+// Disp. Trans. 1ª (segundo tramo del calendario 2023-2025 → 2026-2028).
+// VERIFIED 2026-04-26 against the four sources above.
 export const SS_AUTONOMO_BRACKETS_2026 = [
   { limit: 670,      monthly: 200.00 },  // Tramo 1
   { limit: 900,      monthly: 220.00 },  // Tramo 2

@@ -53,6 +53,9 @@
 
 import { createHash } from "crypto";
 import { z } from "zod";
+import type {
+  RESTPatchAPIChannelMessageJSONBody,
+} from "discord-api-types/v10";
 import { logger } from "./logger";
 import { SITE_URL, DEFAULT_TIMEZONE } from "./server-constants";
 import { setDiscordQueueSize, incDiscordDropped, incDiscordSendFailure, incAlertFallback } from "./metrics";
@@ -341,7 +344,17 @@ const discordPayloadSchema = z.object({
   // is permissive (multiple types, nested versions) so we trust the
   // builders (`bookingActionRow`) to produce a valid shape and just
   // bound the row count to Discord's hard limit of 5 per message.
-  components: z.array(z.any()).max(5).optional(),
+  // Components: each entry must be an action row (type=1) with a `components` array.
+  // Stricter than the previous z.any() while still permissive enough to accept
+  // every shape produced by `bookingActionRows` (buttons + string select menu).
+  components: z.array(
+    z.object({
+      type: z.literal(1),
+      components: z.array(z.object({
+        type: z.number().int(),
+      }).passthrough()).min(1),
+    }).passthrough(),
+  ).max(5).optional(),
 });
 
 // ─── Partitioning (no truncation) ────────────────────────────────────────────
@@ -675,7 +688,7 @@ function send(channel: Channel, embeds: DiscordEmbed[], components?: DiscordActi
  * to Discord's message edit schema (`{ content?, embeds?, components? }`).
  */
 export async function editChannelMessage(
-  channelId: string, messageId: string, body: Record<string, unknown>,
+  channelId: string, messageId: string, body: RESTPatchAPIChannelMessageJSONBody,
 ): Promise<void> {
   const token = getBotToken();
   if (!token) {

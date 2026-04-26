@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-22T10:31:28.486Z",
-  "totalChunks": 726,
-  "totalKb": 20909.3,
-  "totalGzipKb": 6805.9,
+  "generatedAt": "2026-04-26T16:42:19.948Z",
+  "totalChunks": 712,
+  "totalKb": 16971.9,
+  "totalGzipKb": 6451.7,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -18,158 +18,169 @@
   },
   "summary": {
     "page": {
-      "count": 40,
-      "totalKb": 476.2,
-      "maxKb": 77.2,
-      "maxFile": "post-CyRS7JtX.js"
+      "count": 22,
+      "totalKb": 675.4,
+      "maxKb": 131.2,
+      "maxFile": "ExistingLlcCallout-jud8A6Kw.js"
     },
     "blog-post": {
-      "count": 666,
-      "totalKb": 17549.6,
-      "maxKb": 54.4,
-      "maxFile": "blog-es-llc-alternativa-autonomo-espana-C_XhxqYE.js"
+      "count": 672,
+      "totalKb": 13522.3,
+      "maxKb": 44.7,
+      "maxFile": "blog-de-nomada-digital-residencia-fiscal-BPPJwTAi.js"
     },
     "blog-shared": {
-      "count": 4,
-      "totalKb": 300.7,
-      "maxKb": 125.7,
-      "maxFile": "blog-posts-Cnhf_WYn.js"
+      "count": 2,
+      "totalKb": 175.1,
+      "maxKb": 96.3,
+      "maxFile": "blog-posts-content-CG6JtIvB.js"
     },
     "locale": {
       "count": 10,
-      "totalKb": 1702.8,
-      "maxKb": 262.3,
-      "maxFile": "fr-BR3medGI.js"
+      "totalKb": 1716.7,
+      "maxKb": 263.1,
+      "maxFile": "fr-RkTcNX_W.js"
     },
     "css": {
       "count": 1,
-      "totalKb": 112.2,
-      "maxKb": 112.2,
-      "maxFile": "index-CvvW1mQL.css"
+      "totalKb": 111.5,
+      "maxKb": 111.5,
+      "maxFile": "index-BTYi3UPa.css"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 489.5,
-      "maxKb": 489.5,
-      "maxFile": "index-DqoIJC8k.js"
+      "totalKb": 493,
+      "maxKb": 493,
+      "maxFile": "index-COvOBSgO.js"
     },
     "vendor-i18n": {
       "count": 1,
-      "totalKb": 47.7,
-      "maxKb": 47.7,
-      "maxFile": "vendor-i18n-kLp1D8lW.js"
+      "totalKb": 48.1,
+      "maxKb": 48.1,
+      "maxFile": "vendor-i18n-DbA8zss3.js"
     },
     "vendor-query": {
       "count": 1,
-      "totalKb": 38,
-      "maxKb": 38,
-      "maxFile": "vendor-query-Duapdg-x.js"
+      "totalKb": 38.4,
+      "maxKb": 38.4,
+      "maxFile": "vendor-query-OFovLVnz.js"
     },
     "vendor-react": {
       "count": 1,
       "totalKb": 188.4,
       "maxKb": 188.4,
-      "maxFile": "vendor-react-Bhby_S37.js"
+      "maxFile": "vendor-react-Dn3pgp6h.js"
     },
     "vendor-router": {
       "count": 1,
       "totalKb": 4,
       "maxKb": 4,
-      "maxFile": "vendor-router-br4GFzgB.js"
+      "maxFile": "vendor-router-DWWl8GXP.js"
     }
   },
   "top": [
     {
-      "file": "index-DqoIJC8k.js",
+      "file": "index-COvOBSgO.js",
       "category": "entry-index",
-      "bytesKb": 489.5,
-      "gzipKb": 143
+      "bytesKb": 493,
+      "gzipKb": 144.3
     },
     {
-      "file": "fr-BR3medGI.js",
+      "file": "fr-RkTcNX_W.js",
       "category": "locale",
-      "bytesKb": 262.3,
-      "gzipKb": 77.8
+      "bytesKb": 263.1,
+      "gzipKb": 78
     },
     {
-      "file": "de-C-mDmf_Q.js",
+      "file": "de-xe05nJ1J.js",
       "category": "locale",
-      "bytesKb": 256.3,
-      "gzipKb": 78.8
+      "bytesKb": 257,
+      "gzipKb": 79.1
     },
     {
-      "file": "pt-Cb1re27g.js",
+      "file": "pt-D-6u95b1.js",
       "category": "locale",
-      "bytesKb": 242.9,
-      "gzipKb": 73.3
+      "bytesKb": 243.7,
+      "gzipKb": 73.6
     },
     {
-      "file": "ca-zyONyFYs.js",
+      "file": "ca-CbwGWEFC.js",
       "category": "locale",
-      "bytesKb": 241.8,
-      "gzipKb": 74.2
+      "bytesKb": 242.6,
+      "gzipKb": 74.4
     },
     {
-      "file": "en-znLYVK_b.js",
+      "file": "en-BfVYUJ6C.js",
       "category": "locale",
-      "bytesKb": 231.8,
-      "gzipKb": 71.1
+      "bytesKb": 232.5,
+      "gzipKb": 71.4
     },
     {
-      "file": "vendor-react-Bhby_S37.js",
+      "file": "vendor-react-Dn3pgp6h.js",
       "category": "vendor-react",
       "bytesKb": 188.4,
-      "gzipKb": 59
+      "gzipKb": 59.1
     },
     {
-      "file": "blog-posts-Cnhf_WYn.js",
-      "category": "blog-shared",
-      "bytesKb": 125.7,
-      "gzipKb": 26.6
+      "file": "ExistingLlcCallout-jud8A6Kw.js",
+      "category": "page",
+      "bytesKb": 131.2,
+      "gzipKb": 28.5
     },
     {
-      "file": "index-CvvW1mQL.css",
+      "file": "index-BTYi3UPa.css",
       "category": "css",
-      "bytesKb": 112.2,
-      "gzipKb": 20.7
+      "bytesKb": 111.5,
+      "gzipKb": 20.6
     },
     {
-      "file": "fr-Bz9eCg4G.js",
+      "file": "fr-BUO5Frw2.js",
       "category": "locale",
-      "bytesKb": 95.9,
-      "gzipKb": 22.2
+      "bytesKb": 97.5,
+      "gzipKb": 22
     },
     {
-      "file": "blog-posts-content-Bx6omJQJ.js",
+      "file": "blog-posts-content-CG6JtIvB.js",
       "category": "blog-shared",
-      "bytesKb": 95.4,
+      "bytesKb": 96.3,
       "gzipKb": 12.8
     },
     {
-      "file": "en-Bjv3z5NS.js",
+      "file": "pt-UUCamYTn.js",
       "category": "locale",
-      "bytesKb": 94,
-      "gzipKb": 22.3
+      "bytesKb": 95.5,
+      "gzipKb": 20.7
     },
     {
-      "file": "pt-8UdmD2h_.js",
+      "file": "de-BZZVYKV0.js",
       "category": "locale",
-      "bytesKb": 92.9,
-      "gzipKb": 21.3
+      "bytesKb": 95.2,
+      "gzipKb": 22.1
     },
     {
-      "file": "de-DtD6TZz1.js",
+      "file": "en-B3SBuSwJ.js",
       "category": "locale",
-      "bytesKb": 92.8,
-      "gzipKb": 22.6
+      "bytesKb": 95.1,
+      "gzipKb": 22.4
     },
     {
-      "file": "ca-DZTtF177.js",
+      "file": "ca-DauSoWOg.js",
       "category": "locale",
-      "bytesKb": 92.1,
-      "gzipKb": 21.3
+      "bytesKb": 94.5,
+      "gzipKb": 21
     }
   ],
   "offenders": [],
+  "hardBudget": {
+    "serverBytes": 0,
+    "publicBytes": 18711680,
+    "serverMb": 0,
+    "publicMb": 17.84,
+    "serverBudgetMb": 999,
+    "publicBudgetMb": 999,
+    "serverOk": true,
+    "publicOk": true,
+    "ok": true
+  },
   "pass": true
 }

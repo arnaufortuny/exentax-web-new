@@ -1,0 +1,31 @@
+{
+  "_doc": [
+    "Legacy 301 redirect map consumed by ./legacy-redirects.ts.",
+    "",
+    "Three entry shapes are supported:",
+    "",
+    "  1. EXACT  — key is a literal req.path (case-insensitive match), value is a string:",
+    "       \"/blog/index\": \"/es/blog\"",
+    "",
+    "  2. PARAMETRIC — key/value contain the {lang} token; the loader auto-expands",
+    "     to six entries, one per supported language (es, en, fr, de, pt, ca):",
+    "       \"/{lang}/blog/index\": \"/{lang}/blog\"",
+    "",
+    "  3. REGEX — value is an object with `pattern` (RegExp source) and",
+    "     `replacement` ($1, $2 backrefs allowed):",
+    "       \"old-llc\": { \"pattern\": \"^/old-llc-(\\\\w+)$\", \"replacement\": \"/es/blog/llc-$1\" }",
+    "",
+    "Edit safely — non-engineers may add rows here. Keep keys lowercase (matching",
+    "is case-insensitive) and start every path with a leading slash. Keys",
+    "starting with underscore (_doc, _notes, ...) are ignored by the loader."
+  ],
+  "/blog": "/es/blog",
+  "/blog/index": "/es/blog",
+  "/{lang}/blog/index": "/{lang}/blog",
+  "/es/llc-en-wyoming": "/es/servicios/llc-wyoming",
+  "/en/llc-en-wyoming": "/en/services/llc-wyoming",
+  "/fr/llc-en-wyoming": "/fr/services/llc-wyoming",
+  "/de/llc-en-wyoming": "/de/leistungen/llc-wyoming",
+  "/pt/llc-en-wyoming": "/pt/servicos/llc-wyoming",
+  "/ca/llc-en-wyoming": "/ca/serveis/llc-wyoming"
+}

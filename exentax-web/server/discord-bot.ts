@@ -25,6 +25,7 @@
  */
 import crypto from "crypto";
 import type { Request, Response, Express } from "express";
+import type { RESTPatchAPIWebhookWithTokenMessageJSONBody } from "discord-api-types/v10";
 import { logger } from "./logger";
 import { dispatchSlashCommand, dispatchComponent, dispatchModalSubmit } from "./discord-bot-commands";
 
@@ -263,7 +264,7 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
 // agenda action (Google Meet creation, email sending, etc.).
 const DISCORD_API = "https://discord.com/api/v10";
 
-export async function editOriginalResponse(token: string, body: Record<string, unknown>): Promise<void> {
+export async function editOriginalResponse(token: string, body: RESTPatchAPIWebhookWithTokenMessageJSONBody): Promise<void> {
   const url = `${DISCORD_API}/webhooks/${DISCORD_APP_ID}/${token}/messages/@original`;
   try {
     const res = await fetch(url, {

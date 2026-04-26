@@ -278,6 +278,46 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
   });
 
+  // Calculator prefill (Task #11). Reads the country code resolved by
+  // server/middleware/geo.ts (cf-ipcountry / x-vercel-ip-country /
+  // fly-client-ip-country / accept-language fallback) and maps it to the
+  // calculator country, default display currency, and CCAA profile. Returns
+  // empty strings for unknown / unmapped countries so the client keeps its
+  // current default. The raw IP is intentionally NOT exposed.
+  app.get("/api/geo", (req, res) => {
+    const country = (req as typeof req & { geo?: { country: string } }).geo?.country || "";
+    let calculatorCountry = "";
+    let currency = "";
+    let ccaaProfile = "";
+    switch (country) {
+      case "ES":
+        calculatorCountry = "espana"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "MX":
+        calculatorCountry = "mexico"; currency = "MXN"; ccaaProfile = "medium"; break;
+      case "CL":
+        calculatorCountry = "chile"; currency = "CLP"; ccaaProfile = "medium"; break;
+      case "GB":
+      case "UK":
+        calculatorCountry = "reino-unido"; currency = "GBP"; ccaaProfile = "medium"; break;
+      case "BE":
+        calculatorCountry = "belgica"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "FR":
+        calculatorCountry = "francia"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "IT":
+        calculatorCountry = "italia"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "AT":
+        calculatorCountry = "austria"; currency = "EUR"; ccaaProfile = "medium"; break;
+      case "PT":
+      case "AD":
+        // Eurozone neighbours without a calculator preset: prefill currency only.
+        currency = "EUR"; break;
+      default:
+        break;
+    }
+    res.setHeader("Cache-Control", "private, max-age=600");
+    return res.json({ country, calculatorCountry, currency, ccaaProfile });
+  });
+
   app.get("/api/bookings/blocked-days", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
