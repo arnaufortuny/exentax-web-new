@@ -741,6 +741,16 @@ httpServer.listen(
     // reminders that exceeded MAX_TIMEOUT, and any drift between memory and DB.
     activeIntervals.push(setInterval(() => { void recoverPendingReminders("sweep"); }, 60 * 60 * 1000));
 
+    // Reportes periódicos (semanal lunes 9:00 + mensual día 1 9:00) → canal
+    // Discord #exentax-actividad. Ver server/reports/periodic-reports.ts.
+    try {
+      const { startPeriodicReportsScheduler } = await import("./scheduled/periodic-reports");
+      activeIntervals.push(startPeriodicReportsScheduler());
+      logger.info("Periodic reports scheduler started (weekly Mon 09:00, monthly day 1 09:00)", "reports");
+    } catch (err) {
+      logger.warn(`Periodic reports scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "reports");
+    }
+
   } catch (err) {
     logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);
