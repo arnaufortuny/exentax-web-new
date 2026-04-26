@@ -3,20 +3,25 @@ name: Lighthouse CI (PR)
 # Triggered on every pull request that targets `main`. The job builds the
 # production bundle, boots the SSR server on port 5000, and runs Lighthouse
 # CI against four representative URLs (home ES/EN, blog index, calculator
-# landing). Budgets and assertions live in `.lighthouserc.json` at the repo
-# root.
+# landing) with **two presets**: desktop (`.lighthouserc.json`) y mobile
+# (`.lighthouserc.mobile.json`). Ambos resultados son bloqueantes.
 #
-# GATING — Task #15 (cerrado 2026-04-26, commit 945eae8):
-# Este job es **bloqueante**. Si cualquier assertion `error` de
-# `.lighthouserc.json` falla (LCP > 2500 ms, CLS > 0.1, INP > 200 ms o
-# `categories:performance` < 0.85 en mediana de 3 runs), el check sale
-# en rojo y bloquea el merge a `main`.
+# GATING — Task #15 (desktop, cerrado 2026-04-26, commit 945eae8) +
+# Task #21 (mobile, 2026-04-26):
+# Este job es **bloqueante** en ambos presets. Si cualquier assertion
+# `error` falla, el check sale en rojo y bloquea el merge a `main`.
+#   • Desktop  (`.lighthouserc.json`):        LCP ≤ 2500 ms, CLS ≤ 0.1,
+#                                             INP ≤ 200 ms, perf ≥ 0.85
+#   • Mobile   (`.lighthouserc.mobile.json`): LCP ≤ 4000 ms, CLS ≤ 0.1,
+#                                             INP ≤ 200 ms, perf ≥ 0.70
+# Mediana de 3 runs por URL en cada preset.
 #
 # Override de emergencia (refactor que pesa más pero es intencional, p.ej.
 # añadir un widget de pago que sube LCP por una décima):
 #   1) Mantener el gate activo: si la regresión es esperada y aceptada,
-#      ajustar el `maxNumericValue` correspondiente en `.lighthouserc.json`
-#      en el mismo PR y documentar el motivo en
+#      ajustar el `maxNumericValue` correspondiente en el config relevante
+#      (`.lighthouserc.json` y/o `.lighthouserc.mobile.json`) en el mismo
+#      PR y documentar el motivo en
 #      `docs/auditoria-2026-04/RESUMEN.md` (sección "Lighthouse").
 #   2) Bypass puntual sin tocar el config: añadir el label
 #      `bypass-perf-gate` al PR y un maintainer puede mergear vía
@@ -64,9 +69,17 @@ jobs:
           # starts hitting it. 5s is plenty on GitHub-hosted runners.
           sleep 5
 
-      - name: Run Lighthouse CI
+      - name: Run Lighthouse CI (desktop preset)
         run: |
           npx -p @lhci/cli@0.13.x lhci autorun --config=./.lighthouserc.json
+
+      - name: Run Lighthouse CI (mobile preset)
+        # Runs even if the desktop step failed so the PR sees both sets of
+        # assertion errors in a single CI run instead of having to fix one
+        # preset, push, and discover the other regression on the next round.
+        if: always()
+        run: |
+          npx -p @lhci/cli@0.13.x lhci autorun --config=./.lighthouserc.mobile.json
 
       - name: Stop production server
         if: always()
@@ -75,11 +88,20 @@ jobs:
             kill "$SERVER_PID" || true
           fi
 
-      - name: Upload Lighthouse HTML reports
+      - name: Upload Lighthouse HTML reports (desktop)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: lighthouse-reports
+          name: lighthouse-reports-desktop
           path: .lighthouseci/**/*.html
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload Lighthouse HTML reports (mobile)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports-mobile
+          path: .lighthouseci-mobile/**/*.html
           if-no-files-found: warn
           retention-days: 14

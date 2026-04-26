@@ -99,6 +99,33 @@ Nota: el resto del top-10 inicial reportado por el audit subagent eran falsos
 positivos (data-testids ya presentes, claves i18n ya declaradas en
 `keys.generated.ts:722-726`). Se documenta para evitar re-trabajo.
 
+## Lighthouse — gates de performance
+
+El workflow `.github/workflows/lighthouse.yml` corre **dos presets** sobre las
+mismas 4 URLs (home ES/EN, blog index, calculadora) y la mediana de 3 runs
+debe pasar ambos para mergear a `main`.
+
+| Preset | Config | LCP | CLS | INP | Performance | TBT |
+| --- | --- | --- | --- | --- | --- | --- |
+| Desktop (Task #15) | `.lighthouserc.json`        | ≤ 2500 ms | ≤ 0.1 | ≤ 200 ms | ≥ 0.85 | ≤ 300 ms (warn) |
+| Mobile  (Task #21) | `.lighthouserc.mobile.json` | ≤ 4000 ms | ≤ 0.1 | ≤ 200 ms | ≥ 0.70 | ≤ 600 ms (warn) |
+
+**Por qué un baseline móvil más laxo:** el preset mobile de Lighthouse simula
+un Moto G Power con throttling 4G (CPU ×4, downlink 1.6 Mbps, RTT 150 ms),
+así que LCP y TBT son estructuralmente más altos que en desktop incluso con
+el mismo bundle. Los umbrales elegidos son los de "Good" de Core Web Vitals
+para móvil (LCP 2500 ms es "Good" pero exigirlo bajo throttling 4G simulado
+en CI da falsos rojos; 4000 ms es "Needs improvement" alto/borde "Good"
+real-world). Performance ≥ 0.70 es el baseline inicial; se sube a 0.80 una
+vez tengamos 2 semanas de runs verdes en `main`.
+
+**Ambos presets son bloqueantes.** Si una regresión móvil real es
+intencional, ajustar el `maxNumericValue` en `.lighthouserc.mobile.json` en
+el mismo PR y documentar el motivo aquí, o usar el label
+`bypass-perf-gate` para un override puntual sin tocar config.
+
 ## Pendientes (no bloqueantes)
 - Ampliar cobertura unit-test del bot Discord (eventos `consent_logged`,
   `seo_indexing`, `admin_action`) — propuesto como follow-up.
+- Subir el umbral móvil `categories:performance` de 0.70 → 0.80 cuando haya
+  ≥ 2 semanas de Lighthouse verde en `main` con el preset mobile.
