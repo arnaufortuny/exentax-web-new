@@ -9,6 +9,8 @@
 - **Title:** Cómo cambiar divisas en tu LLC: las mejores opciones
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo cambiar divisas en tu LLC: las mejores opciones` · `Análisis práctico de cómo cambiar divisas en tu llc: las mejores opciones con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exe…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (48ch):** `Cambiar divisas LLC: bancos vs Wise vs broker FX`
+- **Candidato metaDescription (130ch):** `Spread bancario 1,5-2% vs Wise 0,41-0,6% vs OFX/AFEX 0,4-0,7% con forward. Ganancia patrimonial AEAT y cuándo conviene fragmentar.`
 
 ## Primer párrafo actual (auditoría)
 

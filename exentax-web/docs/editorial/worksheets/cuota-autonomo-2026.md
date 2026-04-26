@@ -9,6 +9,8 @@
 - **Title:** Cuota de autónomo 2026 en España: tabla por tramos y planificación
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cuota de autónomo 2026 en España: tabla por tramos y plan…` · `Análisis práctico de cuota de autónomo 2026 en españa: tabla por tramos y planificación con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (56ch):** `Cuota de autónomo 2026: tabla por tramos y planificación`
+- **Candidato metaDescription (132ch):** `15 tramos por ingresos reales, 200€ a 590€/mes, regularización Mod. 145 y cuándo conviene saltar a LLC. Cifras BOE 2026 verificadas.`
 
 ## Primer párrafo actual (auditoría)
 

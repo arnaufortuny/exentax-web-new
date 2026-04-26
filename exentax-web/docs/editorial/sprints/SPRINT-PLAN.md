@@ -3,7 +3,7 @@
 > Plan de ejecución del programa editorial 2026.  
 > Cada sprint se propone como tarea separada (`Sprint #N — …`) tras el cierre del anterior.  
 > Sprints 1–19: rewrite-completo (verdict FALLA).  
-> **Cómputo:** 111 slugs ÷ 4 por sprint = 27,75 → 28 sprints completos imposible (74 FALLA + 37 PASA no caen en múltiplo de 4); reparto real es **19 sprints rewrite (76 slugs FALLA, último con sólo 2 slugs)** + **10 sprints polish (37 slugs PASA, último con 1 slug)** = **29 sprints**, 1 slug FALLA absorbido por re-evaluación final.  
+> **Cómputo:** 111 slugs = 74 FALLA + 37 PASA. A 4 slugs por sprint: 74÷4 = 18,5 → **19 sprints rewrite** (sprints 1–19, el último con sólo 2 slugs); 37÷4 = 9,25 → **10 sprints polish** (sprints 20–29, el último con sólo 1 slug). Total **29 sprints** alineados al recuento de `PRIORITY-QUEUE.md`.  
 > Sprints 20–29: polish-verificacion (verdict PASA).
 
 ## Reglas de ejecución

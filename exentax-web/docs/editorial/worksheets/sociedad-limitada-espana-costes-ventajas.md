@@ -9,6 +9,8 @@
 - **Title:** Sociedad limitada en España 2026: costes, ventajas y comparativa con LLC
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Sociedad limitada en España 2026: costes, ventajas y comp…` · `Análisis práctico de sociedad limitada en españa 2026: costes, ventajas y comparativa con llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura ho…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (53ch):** `Constituir SL en España 2026: costes reales y trampas`
+- **Candidato metaDescription (143ch):** `Capital 1€ con SL Express, IS 23% primer millón, cotización del administrador 340€/mes y cuándo SL pierde vs LLC US. Trámite CIRCE paso a paso.`
 
 ## Primer párrafo actual (auditoría)
 

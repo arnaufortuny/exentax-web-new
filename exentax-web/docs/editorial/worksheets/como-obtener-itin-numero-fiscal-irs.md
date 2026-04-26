@@ -9,6 +9,8 @@
 - **Title:** Cómo obtener el ITIN: número fiscal del IRS para no residentes
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo obtener el ITIN: número fiscal del IRS para no resid…` · `Análisis práctico de cómo obtener el itin: número fiscal del irs para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (47ch):** `Cómo obtener ITIN del IRS: W-7 paso a paso 2026`
+- **Candidato metaDescription (134ch):** `CAA con copia certificada o pasaporte original al Austin Service Center, plazo real 9-11 semanas y por qué online no es opción válida.`
 
 ## Primer párrafo actual (auditoría)
 

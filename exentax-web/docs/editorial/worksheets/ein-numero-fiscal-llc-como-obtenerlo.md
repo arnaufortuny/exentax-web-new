@@ -9,6 +9,8 @@
 - **Title:** EIN: qué es el número fiscal de tu LLC y cómo obtenerlo paso a paso
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `EIN: qué es el número fiscal de tu LLC y cómo obtenerlo p…` · `Análisis práctico de ein: qué es el número fiscal de tu llc y cómo obtenerlo paso a paso con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (54ch):** `EIN para LLC sin SSN/ITIN: fax 6 semanas o llamada IRS`
+- **Candidato metaDescription (131ch):** `Form SS-4 al fax 855-641-6935 o teléfono +1-267-941-1099, qué poner en línea 10 y por qué el portal online no acepta no residentes.`
 
 ## Primer párrafo actual (auditoría)
 

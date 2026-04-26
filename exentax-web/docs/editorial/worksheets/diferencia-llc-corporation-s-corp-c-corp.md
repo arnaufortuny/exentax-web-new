@@ -9,6 +9,8 @@
 - **Title:** LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no residentes
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no…` · `Análisis práctico de llc vs corporation vs s-corp vs c-corp: guía 2026 para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honest…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (52ch):** `LLC vs S-Corp vs C-Corp 2026: cuándo elegir cada una`
+- **Candidato metaDescription (143ch):** `Pass-through vs IS, doble imposición, restricción S-Corp para no residentes y por qué Sand Hill exige C-Corp Delaware. Cuadro 2026 actualizado.`
 
 ## Primer párrafo actual (auditoría)
 

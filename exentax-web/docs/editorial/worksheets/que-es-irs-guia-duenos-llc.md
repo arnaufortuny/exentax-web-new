@@ -9,6 +9,8 @@
 - **Title:** ¿Qué es el IRS? Guía completa para dueños de LLC
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `¿Qué es el IRS? Guía completa para dueños de LLC` · `Análisis práctico de ¿qué es el irs? guía completa para dueños de llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (56ch):** `IRS para dueños de LLC no residentes: qué te puede pedir`
+- **Candidato metaDescription (140ch):** `Estructura LB&I/SB-SE, centro Austin para no residentes, Notice CP-2000 y por qué federal no incluye sales tax estatal. Plazos y appeal CAP.`
 
 ## Primer párrafo actual (auditoría)
 

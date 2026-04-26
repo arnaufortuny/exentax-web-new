@@ -9,6 +9,8 @@
 - **Title:** LLC en Estados Unidos: guía completa para no residentes en 2026
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `LLC en Estados Unidos: guía completa para no residentes e…` · `Análisis práctico de llc en estados unidos: guía completa para no residentes en 2026 con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (53ch):** `LLC en EE. UU. 2026: guía completa para no residentes`
+- **Candidato metaDescription (140ch):** `Estado, EIN, ITIN, banca, Form 5472 y BOI: la hoja de ruta operativa para abrir y mantener LLC siendo no residente sin perder good standing.`
 
 ## Primer párrafo actual (auditoría)
 

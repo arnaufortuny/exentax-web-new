@@ -9,6 +9,8 @@
 - **Title:** Mantenimiento anual de tu LLC: obligaciones, plazos y costes
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Mantenimiento anual de tu LLC: obligaciones, plazos y costes` · `Análisis práctico de mantenimiento anual de tu llc: obligaciones, plazos y costes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (49ch):** `Mantenimiento anual LLC: calendario y costes 2026`
+- **Candidato metaDescription (140ch):** `Annual report Wyoming 60$, Delaware 350$, BOI en 30 días, registered agent y Form 5472/1120 antes del 15 abril. Sanciones FinCEN/IRS reales.`
 
 ## Primer párrafo actual (auditoría)
 

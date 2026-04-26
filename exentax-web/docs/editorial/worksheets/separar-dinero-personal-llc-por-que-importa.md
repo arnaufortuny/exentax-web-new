@@ -9,6 +9,8 @@
 - **Title:** Separar dinero personal y de tu LLC: por qué importa y cómo hacerlo
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Separar dinero personal y de tu LLC: por qué importa y có…` · `Análisis práctico de separar dinero personal y de tu llc: por qué importa y cómo hacerlo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (54ch):** `Separar dinero LLC vs personal: piercing the veil real`
+- **Candidato metaDescription (142ch):** `Doctrina alter ego desde Walkovszky 1966, charging order Wyoming exclusivo y por qué un cargo personal accidental ya suma evidencia en juicio.`
 
 ## Primer párrafo actual (auditoría)
 

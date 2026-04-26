@@ -9,6 +9,8 @@
 - **Title:** Criptomonedas y trading con LLC: fiscalidad completa para traders
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Criptomonedas y trading con LLC: fiscalidad completa para…` · `Análisis práctico de criptomonedas y trading con llc: fiscalidad completa para traders con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta d…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (52ch):** `Cripto en LLC US: IRS Form 1099-DA y Modelo 721 AEAT`
+- **Candidato metaDescription (137ch):** `1099-DA obligatorio desde 2025, swaps como capital gain, staking ordinary income y obligación informativa española sobre exchanges no UE.`
 
 ## Primer párrafo actual (auditoría)
 

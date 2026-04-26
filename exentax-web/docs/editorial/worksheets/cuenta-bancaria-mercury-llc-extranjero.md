@@ -9,6 +9,8 @@
 - **Title:** Cómo abrir una cuenta Mercury para tu LLC desde cualquier país
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo abrir una cuenta Mercury para tu LLC desde cualquier…` · `Análisis práctico de cómo abrir una cuenta mercury para tu llc desde cualquier país con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (50ch):** `Mercury para LLC no residente: aprobación 5-7 días`
+- **Candidato metaDescription (137ch):** `4 requisitos reales: EIN, dirección US física, descripción concreta y país no sancionado. Causas habituales de rechazo y backup bancario.`
 
 ## Primer párrafo actual (auditoría)
 

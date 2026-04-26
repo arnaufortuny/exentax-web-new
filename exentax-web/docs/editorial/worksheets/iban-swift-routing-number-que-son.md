@@ -9,6 +9,8 @@
 - **Title:** IBAN, SWIFT y Routing Number: qué son y cuándo usarlos
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `IBAN, SWIFT y Routing Number: qué son y cuándo usarlos` · `Análisis práctico de iban, swift y routing number: qué son y cuándo usarlos con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo E…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (55ch):** `IBAN, SWIFT y routing number: el mapa real EE.UU. vs UE`
+- **Candidato metaDescription (138ch):** `EE. UU. nunca adoptó IBAN: routing 9 dígitos + account, SWIFT sólo en wires, IBAN sintético de Wise y por qué ACH no existe internacional.`
 
 ## Primer párrafo actual (auditoría)
 

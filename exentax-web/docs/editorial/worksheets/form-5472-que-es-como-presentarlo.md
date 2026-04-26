@@ -9,6 +9,8 @@
 - **Title:** Form 5472: qué es, quién lo presenta y cómo cumplir sin líos
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Form 5472: qué es, quién lo presenta y cómo cumplir sin líos` · `Análisis práctico de form 5472: qué es, quién lo presenta y cómo cumplir sin líos con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (45ch):** `Form 5472 LLC no residente: $25K si lo omites`
+- **Candidato metaDescription (137ch):** `Pro-forma 1120 + 5472 antes del 15 abril, IRC §6038A, transacciones reportables (incluye aportes de capital) y por qué TurboTax no sirve.`
 
 ## Primer párrafo actual (auditoría)
 

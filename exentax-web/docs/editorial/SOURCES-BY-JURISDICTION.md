@@ -129,7 +129,8 @@
 
 | Tema | URL |
 |---|---|
-| HMRC | https://www.gov.uk/government/organisations/hm-revenue-customs |
+| HMRC home | https://www.gov.uk/government/organisations/hm-revenue-customs |
+| HMRC International Manual (índice general) | https://www.gov.uk/hmrc-internal-manuals/international-manual |
 | Anson v HMRC [2015] UKSC 44 (HMRC manual) | https://www.gov.uk/hmrc-internal-manuals/international-manual/intm180030 |
 | Self Assessment SA106 (foreign income) | https://www.gov.uk/government/publications/self-assessment-foreign-sa106 |
 | CFC rules | https://www.gov.uk/hmrc-internal-manuals/international-manual/intm190000 |

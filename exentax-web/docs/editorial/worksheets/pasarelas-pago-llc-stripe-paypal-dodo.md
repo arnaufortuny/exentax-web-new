@@ -9,6 +9,8 @@
 - **Title:** Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas` · `Análisis práctico de pasarelas de pago para tu llc: stripe, paypal y alternativas con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (55ch):** `Pasarelas LLC 2026: Stripe, PayPal, Dodo, Lemon Squeezy`
+- **Candidato metaDescription (143ch):** `1099-K rebajado a $5.000 desde 2026, MoR vs Stripe puro y cuándo Lemon Squeezy/Paddle te ahorran sales tax US y OSS UE. Comparativa por modelo.`
 
 ## Primer párrafo actual (auditoría)
 

@@ -9,6 +9,8 @@
 - **Title:** Wise Business para tu LLC: guía completa
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Wise Business para tu LLC: guía completa` · `Análisis práctico de wise business para tu llc: guía completa con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (50ch):** `Wise Business para LLC US: alta 33$ y FX 0,41-0,6%`
+- **Candidato metaDescription (134ch):** `IBAN BE/GB/HU multi-divisa, ACH/SWIFT vía Community Federal y por qué Wise + Mercury es el setup estándar del freelance internacional.`
 
 ## Primer párrafo actual (auditoría)
 

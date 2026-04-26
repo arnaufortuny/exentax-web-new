@@ -9,6 +9,8 @@
 - **Title:** Gastos deducibles para autónomos en 2026: la lista práctica
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Gastos deducibles para autónomos en 2026: la lista práctica` · `Análisis práctico de gastos deducibles para autónomos en 2026: la lista práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equ…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (53ch):** `Gastos deducibles autónomo 2026: lista real con LIRPF`
+- **Candidato metaDescription (138ch):** `Suministros 30%, manutención 26,67€/día, kilometraje 0,26€/km y los gastos que la AEAT siempre rechaza. Sentencias y consultas DGT al día.`
 
 ## Primer párrafo actual (auditoría)
 

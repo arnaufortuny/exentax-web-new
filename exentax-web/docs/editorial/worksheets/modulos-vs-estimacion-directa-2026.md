@@ -9,6 +9,8 @@
 - **Title:** Módulos vs estimación directa 2026: cuál te conviene como autónomo
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Módulos vs estimación directa 2026: cuál te conviene como…` · `Análisis práctico de módulos vs estimación directa 2026: cuál te conviene como autónomo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (51ch):** `Módulos vs estimación directa 2026: qué te conviene`
+- **Candidato metaDescription (128ch):** `Umbrales 250.000€/125.000€, simplificada 5% gastos difíciles y cuándo módulos paga más. Renuncia vía 036 con vinculación 3 años.`
 
 ## Primer párrafo actual (auditoría)
 

@@ -9,6 +9,8 @@
 - **Title:** Cómo operar tu LLC en el día a día: guía práctica
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo operar tu LLC en el día a día: guía práctica` · `Análisis práctico de cómo operar tu llc en el día a día: guía práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (54ch):** `Operar tu LLC US día a día: 6 obligaciones recurrentes`
+- **Candidato metaDescription (139ch):** `Annual report, BOI, agente registrado, separación bancaria, contabilidad mensual y 5472/1120 anual. Calendario operativo no residente 2026.`
 
 ## Primer párrafo actual (auditoría)
 

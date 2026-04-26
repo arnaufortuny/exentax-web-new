@@ -9,6 +9,8 @@
 - **Title:** Gastos deducibles en tu LLC: qué puedes y qué no puedes deducir
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Gastos deducibles en tu LLC: qué puedes y qué no puedes d…` · `Análisis práctico de gastos deducibles en tu llc: qué puedes y qué no puedes deducir con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (56ch):** `Gastos deducibles LLC no residente: qué cuenta de verdad`
+- **Candidato metaDescription (137ch):** `IRC §162 si hay ETBUS, atribución a España vía art. 87 LIRPF, start-up costs §195 hasta 5.000$ y comidas 50% bajo §274(n). Documentación.`
 
 ## Primer párrafo actual (auditoría)
 

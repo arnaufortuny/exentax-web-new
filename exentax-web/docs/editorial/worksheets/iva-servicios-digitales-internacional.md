@@ -9,6 +9,8 @@
 - **Title:** IVA en servicios digitales internacionales: cuándo aplica y cuándo no
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `IVA en servicios digitales internacionales: cuándo aplica…` · `Análisis práctico de iva en servicios digitales internacionales: cuándo aplica y cuándo no con cifras oficiales 2026, plazos IRS/AEAT y la lectura hones…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (53ch):** `IVA servicios digitales 2026: OSS UE y umbral 10.000€`
+- **Candidato metaDescription (142ch):** `B2B fuera UE no sujeto, B2C UE con OSS desde 10.000€, EE.UU. sin IVA federal pero con sales tax estatal: reglas reales para freelance digital.`
 
 ## Primer párrafo actual (auditoría)
 

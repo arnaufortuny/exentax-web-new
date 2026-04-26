@@ -9,6 +9,8 @@
 - **Title:** BOI Report (FinCEN): guía completa para dueños de LLC en 2026
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `BOI Report (FinCEN): guía completa para dueños de LLC en…` · `Análisis práctico de boi report (fincen): guía completa para dueños de llc en 2026 con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del e…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (57ch):** `BOI Report FinCEN 2026: a quién obliga y sanción $591/día`
+- **Candidato metaDescription (141ch):** `Interim rule marzo 2025 excluye foreign reporting; domestic siguen con plazo 30 días desde cualquier cambio. CTA, NSBA v Yellen y FAQ FinCEN.`
 
 ## Primer párrafo actual (auditoría)
 

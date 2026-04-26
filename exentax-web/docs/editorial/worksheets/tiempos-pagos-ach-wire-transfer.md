@@ -9,6 +9,8 @@
 - **Title:** ¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `¿Cuánto tardan los pagos ACH y Wire Transfer? Tiempos reales` · `Análisis práctico de ¿cuánto tardan los pagos ach y wire transfer? tiempos reales con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (50ch):** `ACH vs wire transfer: tiempos y costes reales 2026`
+- **Candidato metaDescription (135ch):** `ACH 1-3 días $0-5, same-day cut-off 4:45pm ET, wire same-day $20-45 y por qué a internacional sólo SWIFT funciona. Reversibilidad real.`
 
 ## Primer párrafo actual (auditoría)
 

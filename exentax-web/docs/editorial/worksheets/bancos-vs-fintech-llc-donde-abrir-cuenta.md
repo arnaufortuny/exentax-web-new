@@ -9,6 +9,8 @@
 - **Title:** Bancos vs Fintech: dónde abrir la cuenta de tu LLC
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Bancos vs Fintech: dónde abrir la cuenta de tu LLC` · `Análisis práctico de bancos vs fintech: dónde abrir la cuenta de tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (48ch):** `Bancos vs fintech US para tu LLC: cuándo cambiar`
+- **Candidato metaDescription (134ch):** `Mercury, Relay y Brex frente a Chase y BofA: cierres KYB, cartas de referencia consular y FDIC pass-through tras el caso Synapse 2024.`
 
 ## Primer párrafo actual (auditoría)
 

@@ -9,6 +9,8 @@
 - **Title:** Pass-Through de las LLC: qué es, cómo funciona y por qué es ventaja
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Pass-Through de las LLC: qué es, cómo funciona y por qué…` · `Análisis práctico de pass-through de las llc: qué es, cómo funciona y por qué es ventaja con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (52ch):** `Pass-through LLC: cómo funciona si eres no residente`
+- **Candidato metaDescription (141ch):** `Disregarded vs partnership, ETBUS y US-source income, check-the-box Form 8832 y cuándo el residente español tributa por atribución de rentas.`
 
 ## Primer párrafo actual (auditoría)
 

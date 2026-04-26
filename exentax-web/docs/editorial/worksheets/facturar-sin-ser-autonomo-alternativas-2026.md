@@ -9,6 +9,8 @@
 - **Title:** Facturar sin ser autónomo en 2026: alternativas legales reales
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Facturar sin ser autónomo en 2026: alternativas legales r…` · `Análisis práctico de facturar sin ser autónomo en 2026: alternativas legales reales con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (54ch):** `Facturar sin ser autónomo 2026: 4 alternativas legales`
+- **Candidato metaDescription (139ch):** `Cooperativas Smart/Factoo, SL unipersonal, LLC con ATAD y régimen esporádico bajo SMI 15.876€. Criterios AEAT y consultas vinculantes 2024.`
 
 ## Primer párrafo actual (auditoría)
 

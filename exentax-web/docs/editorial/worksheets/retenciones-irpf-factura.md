@@ -9,6 +9,8 @@
 - **Title:** Retenciones de IRPF en la factura: cuándo, cuánto y modelos 111/115/130
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Retenciones de IRPF en la factura: cuándo, cuánto y model…` · `Análisis práctico de retenciones de irpf en la factura: cuándo, cuánto y modelos 111/115/130 con cifras oficiales 2026, plazos IRS/AEAT y la lectura hon…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (54ch):** `Retención IRPF factura: 7% inicio, 15% general, B2C 0%`
+- **Candidato metaDescription (140ch):** `Cuándo aplicar 7% (3 primeros años) o 15%, qué clientes están obligados a retener y cómo cuenta en tu Renta. Errores típicos del primer año.`
 
 ## Primer párrafo actual (auditoría)
 

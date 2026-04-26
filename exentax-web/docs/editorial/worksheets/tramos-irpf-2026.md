@@ -9,6 +9,8 @@
 - **Title:** Tramos del IRPF 2026 en España: tabla, cálculo y planificación
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Tramos del IRPF 2026 en España: tabla, cálculo y planific…` · `Análisis práctico de tramos del irpf 2026 en españa: tabla, cálculo y planificación con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (52ch):** `Tramos IRPF 2026: 6 escalones estatales + autonómico`
+- **Candidato metaDescription (132ch):** `19% hasta 12.450€ y 47% desde 300.000€; suma del tramo autonómico Madrid vs Cataluña. Mínimos personales y rentas del ahorro 19-28%.`
 
 ## Primer párrafo actual (auditoría)
 

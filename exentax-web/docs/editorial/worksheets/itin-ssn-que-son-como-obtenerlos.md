@@ -9,6 +9,8 @@
 - **Title:** ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC
 - **Meta auto-stub (referencia bruta del audit, NO usar literal):** `ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos par…` · `Análisis práctico de itin y ssn: qué son, cuál necesitas y cómo obtenerlos para tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta d…`
 - **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
+- **Candidato metaTitle (49ch):** `ITIN vs SSN para no residentes: cuál pedir y cómo`
+- **Candidato metaDescription (136ch):** `W-7 al IRS Austin con CAA o pasaporte original, plazo real 9-11 semanas y por qué el responsible party del SS-4 puede no necesitar ITIN.`
 
 ## Primer párrafo actual (auditoría)
 
