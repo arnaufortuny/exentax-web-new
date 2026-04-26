@@ -172,6 +172,14 @@ Drei Datenpunkte verändern die Lesart dieses Leitfadens aktuell:
 
 **Was hat sich aktuell im Banking geändert?** Mercury arbeitet mit Choice, Evolve und Column NA mit FDIC-Sweep-Deckung bis 5 Mio. USD. Wise Business bleibt die Multi-Währungs-Referenz.
 
+### DACH-spezifische Compliance-Schicht: was sich für Sie konkret unterscheidet
+
+Eine US-LLC wird vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> nach Treas. Reg. §301.7701-3 standardmäßig als *disregarded entity* (single-member) oder *partnership* (multi-member) behandelt. Die deutschsprachigen Wohnsitzverwaltungen folgen dieser Einordnung **nicht automatisch** — und genau hier entstehen die teuren Missverständnisse.
+
+- **Deutschland.** Das **BMF** behandelt eine SMLLC praktisch durchgängig als steuerlich transparent: der Gewinn wird dem Gesellschafter im laufenden Jahr zugerechnet, gemeldet in **Anlage AUS zur Einkommensteuererklärung**. Bei einer Multi-Member LLC mit gewerblichen Einkünften kann **§50d Abs. 9 EStG** die Anrechnung ausländischer Quellensteuern einschränken; bei vorwiegend passiven Erträgen greifen die **AStG-Hinzurechnungsregeln §§7-14** (Außensteuergesetz, abrufbar in <a href="https://www.gesetze-im-internet.de/astg/" target="_blank" rel="noopener">gesetze-im-internet.de/astg</a>): kontrollierte ausländische Gesellschaft mit Niedrigbesteuerung (effektiv unter 15 %) und passiven Einkünften → Hinzurechnung beim deutschen Gesellschafter.
+- **Österreich.** Die maßgebliche Auslegung steht in den **EAS-Auskünften 3401 und 3422** des <a href="https://www.bmf.gv.at" target="_blank" rel="noopener">BMF Österreich</a>: SMLLC = Personengesellschaft → Gewinnzurechnung in Beilage E25/E26 zur Einkommensteuererklärung; das DBA Österreich-USA wirkt für Quellensteuern.
+- **Schweiz.** Die <a href="https://www.estv.admin.ch" target="_blank" rel="noopener">ESTV</a> verlangt die Deklaration im **Wertschriftenverzeichnis** sowie in der kantonalen Vermögensaufstellung. Praktischer Hebel: das Doppelbesteuerungsabkommen Schweiz-USA (Stand 2019) verhindert bei korrekter Anwendung die Doppelbelastung von Dividenden- und Quellensteuern.
+
 <!-- exentax:execution-v2 -->
 ## Wie wir die Exentax-Methode ab Tag eins auf Ihre LLC anwenden
 
