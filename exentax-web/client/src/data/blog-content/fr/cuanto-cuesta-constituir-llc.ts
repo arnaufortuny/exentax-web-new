@@ -1,140 +1,186 @@
-export default `Parlons argent, directement, sans détour. Quand un client français ou belge nous demande « combien coûte une LLC? », la réponse honnête est: moins qu'une SASU, bien moins qu'une BV belge, mais il faut regarder le total sur 12 mois, pas juste le ticket d'entrée que vendent les agents d'enregistrement à 49 $.
+export default `
 
-Créer, c'est ce que vous faites avec un profil Instagram ou un compte Netflix. Constituer, c'est ce que vous faites quand vous formez une entité juridique reconnue par un État souverain des États-Unis, avec des obligations fiscales, un numéro d'identification fédéral et des responsabilités envers l'IRS.
+Commençons par tirer au clair une chose qui nous fait grincer des dents dans le métier : une LLC ne se « crée » pas. Elle se **constitue**.
 
-Subtile différence, n'est-ce pas? Bon, maintenant que nous avons dit ce que nous avions sur le cœur, passons à l'essentiel: combien ça coûte?
+On crée un profil Instagram ou un compte Netflix. On constitue une entité légale reconnue par un État souverain des États-Unis, avec ses obligations fiscales, son numéro fédéral d'identification et ses devoirs de déclaration auprès de l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>. Différence subtile, jusqu'à ce que la <a href="https://www.impots.gouv.fr" target="_blank" rel="noopener">DGFiP</a>, le SPF Finances belge ou l'AED luxembourgeoise tirent le fil.
 
-## Coûts de constitution (une seule fois)
+Maintenant que c'est dit, la question qui compte : combien ça coûte ?
 
-Les coûts initiaux dépendent de l'État que vous choisissez:
+## Coûts de constitution (ponctuels)
+
+L'addition d'ouverture dépend de l'État retenu :
 
 ### Nouveau-Mexique
-| Poste | Coût |
+| Poste | Détail |
 |---|---|
-| Filing fee de l'État | Frais étatiques applicables |
-| Registered Agent (première année) | Service inclus |
+| Filing fee de l'État | Taxe étatique applicable |
+| Registered Agent (an 1) | Service inclus |
 | Obtention de l'EIN | Incluse dans le service |
 | Operating Agreement | Personnalisé, inclus |
-| BOI Report | Dépôt obligatoire, inclus |
-| **Constitution complète** | Forfait unique |
+| BOI Report | Seulement si la LLC tombe dans le périmètre actuel (foreign reporting companies après l'IFR FinCEN de mars 2025) ; si applicable, inclus |
+| **Constitution complète** | Forfait unique tout inclus |
 
 ### Wyoming
-| Poste | Coût |
+| Poste | Détail |
 |---|---|
-| Filing fee de l'État | Frais étatiques applicables |
-| Registered Agent (première année) | Service inclus |
+| Filing fee de l'État | Taxe étatique applicable |
+| Registered Agent (an 1) | Service inclus |
 | Obtention de l'EIN | Incluse dans le service |
 | Operating Agreement | Personnalisé, inclus |
-| BOI Report | Dépôt obligatoire, inclus |
-| **Constitution complète** | Forfait unique |
+| BOI Report | Seulement si la LLC tombe dans le périmètre actuel (foreign reporting companies après l'IFR FinCEN de mars 2025) ; si applicable, inclus |
+| **Constitution complète** | Forfait unique tout inclus |
 
 ### Delaware
-| Poste | Coût |
+| Poste | Détail |
 |---|---|
-| Filing fee de l'État | Frais étatiques applicables |
-| Registered Agent (première année) | Service inclus |
+| Filing fee de l'État | Taxe étatique applicable |
+| Registered Agent (an 1) | Service inclus |
 | Obtention de l'EIN | Incluse dans le service |
 | Operating Agreement | Personnalisé, inclus |
-| BOI Report | Dépôt obligatoire, inclus |
-| **Constitution complète** | Forfait unique |
-### Coûts de maintenance (annuels)
+| BOI Report | Seulement si la LLC tombe dans le périmètre actuel (foreign reporting companies après l'IFR FinCEN de mars 2025) ; si applicable, inclus |
+| **Constitution complète** | Forfait unique tout inclus |
 
-Une fois constituée, votre LLC a des frais récurrents:
+## Coûts de maintenance (annuels)
 
-### Nouveau-Mexique: sans frais annuels
-| Poste | Coût annuel |
+Une fois constituée, votre LLC a des obligations récurrentes qui méritent autant d'attention que la constitution elle-même :
+
+### Nouveau-Mexique : pas d'Annual Report étatique
+| Poste | Détail |
 |---|---|
 | Annual Report | Non requis |
-| Taxe annuelle de l'État | Sans objet |
+| Taxe étatique annuelle | Sans objet |
 | Registered Agent | Service inclus |
 | Form 5472 + 1120 | Préparation professionnelle incluse |
 | **Maintenance complète** | Forfait annuel unique |
 
 ### Wyoming
-| Poste | Coût annuel |
+| Poste | Détail |
 |---|---|
-| Annual Report obligatoire | Frais étatiques annuels |
+| Annual Report obligatoire | Taxe annuelle de l'État |
 | Registered Agent | Service inclus |
 | Form 5472 + 1120 | Préparation professionnelle incluse |
 | **Maintenance complète** | Forfait annuel unique |
 
-### Delaware, le plus cher
-| Poste | Coût annuel |
+### Delaware
+| Poste | Détail |
 |---|---|
-| Franchise Tax + Annual Report | Frais annuels + franchise tax |
+| Franchise Tax + Annual Report | Taxe annuelle + franchise tax |
 | Registered Agent | Service inclus |
 | Form 5472 + 1120 | Préparation professionnelle incluse |
 | **Maintenance complète** | Forfait annuel unique |
-### Combien ça coûte avec Exentax?
 
-Chez Exentax, nous proposons des formules qui incluent tout le nécessaire pour la constitution et la maintenance de votre LLC. Sans frais cachés, sans surprises. Vous pouvez consulter nos formules actualisées sur la page des plans et tarifs.
+## Quel État correspond à votre profil ? Comparatif honnête par cas réel
 
-Ce que nous incluons toujours:
-- Constitution complète dans l'État choisi
-- Obtention de l'EIN
-- Operating Agreement personnalisé
-- BOI Report
-- Registered Agent
-- Assistance durant tout le processus
-### Le coût de NE PAS constituer votre LLC
+Les prix de tableau ne choisissent pas l'État pour vous. Le bon État dépend de ce que vous vendez, de votre chiffre d'affaires et du fait que vous comptez ou non lever des fonds, vendre l'entreprise ou simplement opérer tranquillement. Voici la lecture franche que nous donnons à chaque appel Exentax quand un client hésite entre Nouveau-Mexique, Wyoming et Delaware :
 
-Voici le chiffre que la plupart ignorent: le coût de **ne pas avoir de LLC** quand vous devriez en avoir une.
+| Profil de client | État recommandé | Pourquoi |
+|---|---|---|
+| **Freelance / consultant B2B** facturant des clients en France, Belgique, Suisse, Québec ou US, sans salariés | Nouveau-Mexique | Pas d'Annual Report, pas de taxe annuelle d'État et confidentialité raisonnable. La structure la moins chère à entretenir sur 2-3 ans. |
+| **Agence digitale ou studio créatif** avec 1-3 associés et pas de plan de levée de fonds extérieurs | Wyoming | Charging order law solide (meilleure protection face aux créanciers personnels), Annual Report à coût contenu et réputation neutre auprès des banques. |
+| **SaaS ou startup tech** qui prévoit un VC américain, un accélérateur ou une Série A | Delaware | Standard de fait pour la Série A ; aucun VC de Sand Hill Road n'acceptera une LLC du Nouveau-Mexique sans redomiciliation coûteuse. La Franchise Tax pique, mais elle vous évite de réincorporer plus tard. |
+| **E-commerce ou dropshipping** sur Shopify, Stripe et Amazon FBA, volume moyen | Wyoming ou Nouveau-Mexique | Sans investisseur en vue, les deux marchent. Wyoming pèse plus quand l'activité accumule des actifs (stock, marques) ; Nouveau-Mexique quand l'activité est pur cash flow. |
+| **Créateur de contenu** (YouTube, Twitch, Substack, formations) monétisant via AdSense, sponsors et plateformes | Nouveau-Mexique | Le coût fixe le plus bas et zéro Annual Report l'emportent largement ; la plupart des créateurs n'ont pas besoin de la sophistication corporate du Delaware. |
+| **Consultant avec clients US** qui a besoin d'une carte corporate stable | Wyoming | Mercury et Relay traitent proprement les LLC du Wyoming, et la carte corporate est acceptée sans frottement parce que l'État a une réputation « old money ». |
+| **Structure de holding** ou détention de PI entre cofondateurs | Delaware | La Delaware Court of Chancery est la jurisprudence corporate la plus prévisible au monde ; la prime se justifie sur les contentieux. |
 
-Si vous facturez 60 000€/an en tant qu'auto-entrepreneur/travailleur indépendant en France avec des clients internationaux et que vous payez un taux effectif de 40%, cela représente **24 000€ d'impôts**.
+La voie « Floride » fait l'objet d'un article dédié et n'apparaît que si vous avez une présence physique à Miami ou si vous comptez embaucher localement. Pour 80 % des clients non-résidents que nous conseillons, le choix honnête se joue entre Nouveau-Mexique (le moins cher), Wyoming (le plus équilibré) et Delaware (quand il y a une thèse d'investissement).
 
-Avec une LLC bien structurée, vous payez **0% d'impôt fédéral aux États-Unis** sur ces revenus.
+## Le coût réel de votre LLC sur 24 mois
 
-La différence: **16 800-19 200€ par an**. Le coût de la LLC est amorti dès le **premier mois**.
-### « Mais il n'y a pas de services très bon marché? »
+La question à laquelle presque personne ne répond complètement : **combien aurez-vous dépensé dans deux ans ?** Une LLC a un pic de dépense au mois 0 (constitution, EIN, Operating Agreement, banque), un paiement annuel fixe au mois 12 et un autre au mois 24. Ne regarder que les 12 premiers mois cache la part récurrente ; à 24 mois, la photo est honnête.
 
-Oui, ils existent. Et ils font un travail purement mécanique: remplir un formulaire et vous l'envoyer. Sans conseil fiscal, sans Operating Agreement adapté à votre situation, sans accompagnement post-constitution, sans préparation des déclarations, sans que personne ne vous explique quoi faire après.
+### Scénario A — Freelance au Nouveau-Mexique (profil sobre)
 
-Constituer la LLC est l'étape la plus facile. Le plus difficile, et ce qui fait la différence, c'est de l'exploiter correctement pour que votre structure fiscale fonctionne.
+- **Mois 0** : constitution complète (forfait unique tout inclus : dépôt au Secretary of State, EIN, Operating Agreement, BOI si applicable, Registered Agent de l'an 1).
+- **Mois 1-12** : zéro charge étatique additionnelle (NM n'exige pas d'Annual Report). Travail silencieux de conformité fédérale en arrière-plan.
+- **Mois 12** : maintenance annuelle Exentax (Form 5472 + 1120 pro-forma, renouvellement Registered Agent, suivi BOI, coordination avec votre conseiller fiscal de résidence).
+- **Vers le mois 16** : dépôt effectif du 5472/1120 à l'IRS Service Center d'Ogden, Utah (échéance 15 avril, prorogation Form 7004 jusqu'au 15 octobre si nécessaire).
+- **Mois 24** : deuxième cycle de maintenance annuelle.
 
-Pour poursuivre sur ce fil, <a href="/fr/blog/llc-americaine-pour-agences-de-marketing-digital-structure">LLC américaine pour agences de marketing digital: structure, facturation et croissance</a> et <a href="/fr/blog/securite-juridique-llc-et-protection-patrimoniale-lavantage">Sécurité juridique LLC et protection patrimoniale: l'avantage sous-estimé</a> complètent les nuances que nous n'avons qu'effleurées ici.
+Total réel à 24 mois : **un forfait de constitution + deux forfaits annuels de maintenance + zéro taxe étatique additionnelle.** La structure la plus prévisible du marché.
 
-## Ce qu'inclut Exentax (sans petits caractères)
+### Scénario B — Agence au Wyoming (profil équilibré)
 
-Nos formules de constitution incluent TOUT le nécessaire pour que votre LLC soit opérationnelle dès le premier jour:
+- **Mois 0** : périmètre identique au NM, à la nuance près que le filing fee et l'Annual Report futur sont budgétés.
+- **Mois 12** : en plus de la maintenance Exentax (5472 + 1120 + Registered Agent), vous payez l'Annual Report étatique du Wyoming (taxe annuelle selon la formule en vigueur).
+- **Mois 24** : identique au mois 12, deuxième Annual Report.
 
-- Filing auprès du Secretary of State de l'État choisi
-- Obtention de l'EIN auprès de l'IRS (nous gérons toute la démarche)
-- Operating Agreement personnalisé pour votre situation
-- BOI Report auprès de FinCEN
-- Registered Agent inclus la première année
-- Ouverture de compte bancaire chez Mercury (nous coordonnons tout)
-- Assistance complète durant tout le processus
-- Conseil fiscal initial pour comprendre votre structure
+Total réel à 24 mois : **constitution + deux forfaits Exentax + deux Annual Reports étatiques.** Reste accessible et achète la charging-order law forte du Wyoming, ce que vous payez en plus par rapport au NM.
 
-Et pour la maintenance annuelle:
+### Scénario C — SaaS au Delaware (profil corporate)
 
-- Préparation et dépôt du Form 5472 + Form 1120
-- Demande automatique d'extension (Form 7004)
-- Renouvellement du Registered Agent
-- BOI Report (mises à jour en cas de changements)
-- FBAR (si applicable)
-- Assistance continue toute l'année
+- **Mois 0** : dépôt au Delaware (plus cher à l'entrée), avec Operating Agreement préparé pour héberger les futures clauses de seed round.
+- **Mois 12** : en plus du forfait Exentax, **taxe annuelle LLC** du Delaware (le Delaware n'applique pas la Franchise Tax aux LLC au sens corporate, mais la taxe annuelle LLC est fixe et non négligeable) plus le Registered Agent.
+- **Mois 24** : identique au mois 12.
 
-Zéro extras, zéro « ah, ça n'était pas inclus », zéro surprises sur la facture. Un devis fermé par écrit, tout inclus, et nous nous occupons de chaque démarche.
+Total réel à 24 mois : **constitution plus chère + deux cycles d'Annual Report + deux forfaits Exentax.** Le scénario le plus cher, justifié quand vous levez ou comptez vendre : on récupère la prime le jour où un VC ouvre votre cap table sans vous obliger à redomicilier.
 
-Réservez une consultation gratuite et nous vous donnerons les chiffres exacts pour votre cas concret.
+### Ce qui NE change PAS entre les trois scénarios
 
-Chez Exentax on décompose chaque poste (État, Registered Agent, EIN, comptabilité, BOI, 5472) pour des clients en France, en Belgique et en Suisse. Réservez votre consultation gratuite et on vous donne les chiffres exacts pour votre cas concret, en euros et en dollars, sans surprise.
+- Le Form 5472 + 1120 pro-forma se dépose à l'identique dans les trois États ; la sanction en cas d'omission est la même : 25 000 USD par formulaire et par an.
+- Le BOI Report est harmonisé au niveau fédéral ; l'État n'y change rien.
+- La banque (Mercury, Relay, Wise Business) fonctionne pareil dans les trois cas.
+- Votre obligation de déclarer la LLC en résidence (DGFiP en France, SPF Finances en Belgique, Administration des contributions directes au Luxembourg, AFC en Suisse, Revenu Québec) ne change pas avec l'État : la fiscalité effective du propriétaire dépend de la résidence, pas de Delaware vs NM.
+
+## Le coût de NE PAS avoir de LLC
+
+Voici le chiffre que l'on ignore souvent : le coût de **ne pas avoir de LLC** quand on devrait.
+
+Si vous facturez 60 000 € par an en micro-entreprise française avec une clientèle internationale et que votre charge effective (cotisations + impôt) tourne autour de 35-45 %, ce sont **21 000-27 000 €** d'impôts. Avec une LLC bien structurée et une planification de résidence propre, le côté fédéral US sort à **0 % d'impôt fédéral** sur ces flux ; ne reste que la fiscalité de résidence, qui peut s'optimiser via attribution ou dividende selon les règles locales.
+
+Le delta est réel et le coût de la LLC s'amortit dès le premier mois. Lisez notre <a href="/fr/blog/auto-entrepreneur-en-espagne-vs-llc-aux-etats-unis">comparaison auto-entrepreneur vs LLC américaine</a> pour des chiffres travaillés (le cadre s'applique aussi à la France et la Belgique avec les taux locaux).
+
+## « Mais il y a bien des services à 49 $ ? »
+
+Oui, il y en a. Et ils font exactement un travail mécanique : ils remplissent un formulaire et l'envoient. Pas de conseil fiscal, pas d'Operating Agreement adapté à votre cas, pas de support post-constitution, pas de préparation de déclarations, personne pour vous expliquer la suite.
+
+Constituer la LLC est l'étape facile. Le difficile, et ce qui fait la différence, c'est l'opérer correctement pour que la structure fiscale fonctionne réellement.
+
+Pour creuser, <a href="/fr/blog/llc-americaine-pour-agences-de-marketing-digital-structure">LLC américaine pour agences de marketing digital : structure, facturation et passage à l'échelle</a> et <a href="/fr/blog/securite-juridique-llc-et-protection-patrimoniale-lavantage">Sécurité juridique LLC et protection patrimoniale : l'avantage sous-évalué</a> complètent ce que ce guide effleure ici.
+
+## Ce que comprend Exentax (sans petits caractères ni surcoûts cachés)
+
+C'est ici qu'on referme la boucle et qu'on rassemble en un seul bloc ce que d'autres sites éparpillent en cinq puces marketing : ce que nous faisons exactement, ce que couvre le forfait annuel, ce que vous économisez et ce que nous ne vous facturerons pas en surprise. Tout au même endroit, devis fermé par écrit avant de démarrer.
+
+**À la constitution (mois 0) :**
+- Dépôt légal dans l'État optimal pour votre profil (Nouveau-Mexique, Wyoming, Delaware ou Floride) avec Articles of Organization déposés au Secretary of State et filing fee étatique réglé par nous.
+- Obtention de l'EIN fédéral via SS-4 auprès de l'IRS — sans files d'attente, sans avoir à expliquer à Washington ce qu'est un non-résident.
+- Operating Agreement personnalisé pour votre cas réel, pas un modèle téléchargé d'un blog.
+- BOI Report auprès de FinCEN quand applicable selon la règle en vigueur (après l'IFR de mars 2025, la majorité des LLC détenues par des non-résidents ne sont plus dans le champ ; nous suivons pour vous).
+- Registered Agent de l'an 1 inclus.
+- Onboarding bancaire avec Mercury, Relay, Wise Business ou Slash, selon votre activité et votre profil de paiements entrants.
+- Conseil fiscal initial pour comprendre toute la structure avant d'opérer.
+- ITIN demandé via W-7 chaque fois que votre banque ou votre passerelle l'exige.
+
+**Dans la maintenance annuelle (chaque année à partir de l'an 1) :**
+- Préparation et dépôt du Form 5472 + Form 1120 pro-forma à l'IRS Service Center d'Ogden, Utah, avec Form 7004 d'extension quand c'est utile.
+- Renouvellement du Registered Agent.
+- Annual Report étatique au Wyoming, Delaware ou Floride quand applicable.
+- Suivi du BOI Report (mises à jour si la propriété, l'adresse ou la structure change).
+- FBAR si applicable (soldes agrégés > 10 000 USD sur les comptes étrangers du titulaire).
+- Coordination avec votre conseiller fiscal de résidence pour que la déclaration locale reflète l'attribution ou le dividende correctement.
+- Support écrit continu toute l'année, avec un référent nommé pour votre dossier.
+
+**Ce que vous économisez par rapport au DIY :** un 5472 mal déposé, c'est 25 000 USD par formulaire et par an (IRC §6038A) ; un BOI en retard, quand il s'applique, c'est 591 USD/jour cumulés ; un ITIN refusé vous laisse sans banque opérationnelle pendant des mois. La valeur Exentax n'est pas seulement de faire la démarche, c'est qu'elle soit juste du premier coup et qu'il y ait un conseiller responsable quand l'IRS ou la DGFiP poseront des questions.
+
+Zéro extras, zéro « ah, ce n'était pas inclus », zéro mauvaise surprise sur la facture. Réservez une consultation gratuite et nous vous donnerons les chiffres exacts pour votre cas concret.
+
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur des textes en vigueur. Nous citons les sources principales pour que vous puissiez vérifier vous-même :
 
-- **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
-- **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
-- **Convention Espagne–USA.** BOE du 22/12/1990 (CDI original); Protocole en vigueur depuis le 27/11/2019 (revenu passif, *limitation on benefits*).
-- **UE / OCDE.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (Directive (UE) 2023/2226, crypto-actifs); Directive (UE) 2016/1164 (ATAD: CFC, *exit tax*, dispositifs hybrides); Norme commune de déclaration de l'OCDE (CRS).
-- **Cadre international.** Modèle de Convention OCDE, art. 5 (établissement permanent) et Commentaires; Action 5 BEPS (substance économique); Recommandation 24 du GAFI (bénéficiaire effectif).
+- **États-Unis.** Treas. Reg. §301.7701-3 (classification des entités / *check-the-box*) ; IRC §882 (impôt sur les revenus des étrangers connectés à un US trade or business) ; IRC §871 (FDAP et retenues pour non-résidents) ; IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25 % foreign-owned* et *foreign-owned disregarded entities*) ; IRC §7701(b) (résidence fiscale, *substantial presence test*) ; 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
+- **France.** Code général des impôts (CGI), art. 4 A et 4 B (résidence fiscale), art. 209 B (entités contrôlées étrangères, CFC), art. 155 A et art. 1649 A (comptes à l'étranger, déclaration n° 3916) ; Livre des procédures fiscales, art. L. 13 AA (prix de transfert) ; doctrine BOFiP sur la transparence fiscale internationale et la qualification des entités étrangères.
+- **Belgique, Luxembourg, Suisse.** Code des impôts sur les revenus 1992 (CIR 92, art. 5/2 transparence) ; Loi luxembourgeoise relative à l'impôt sur le revenu (LIR), §134ter ; Loi fédérale sur l'impôt fédéral direct (LIFD) Suisse, art. 10.
+- **Convention fiscale.** Convention France-États-Unis du 31 août 1994 et avenant de 2009 ; OCDE, Modèle de convention fiscale, art. 5 (établissement stable).
+- **UE / OCDE.** Directive (UE) 2011/16, modifiée par DAC6 (dispositifs transfrontaliers), DAC7 (Directive (UE) 2021/514, plateformes numériques) et DAC8 (crypto-actifs) ; Directive (UE) 2016/1164 (ATAD : CFC, *exit tax*, dispositifs hybrides) ; Norme commune de déclaration (CRS) de l'OCDE.
+- **Cadre international.** Modèle OCDE et commentaires ; Action 5 BEPS (substance économique) ; Recommandation 24 du GAFI (bénéficiaires effectifs).
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->
 
-L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
+L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et des documents que vous tenez. Ce contenu est informatif et ne remplace pas un conseil personnalisé.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -153,31 +199,14 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont bougé récemment ; voici la version en vigueur :
+
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).
 - **Form 5472 + 1120 pro-forma.** Pour une **Single-Member LLC détenue par un non-résident**, les règlements finals de Treas. Reg. §1.6038A-1 (en vigueur depuis 2017) traitent la LLC comme une corporation pour le 5472. Procédure: **Form 1120 pro-forma** (en-tête uniquement: nom, adresse, EIN, exercice) avec **Form 5472 annexé**. Dépôt **par courrier certifié ou fax à l'IRS Service Center d'Ogden, Utah**, **pas d'e-file via MeF standard**. Échéance: **15 avril**; prorogation via **Form 7004** jusqu'au **15 octobre**. **Sanction: 25 000 USD par formulaire et par an, plus 25 000 USD par tranche supplémentaire de 30 jours** de non-dépôt après notification IRS.
 - **Form 1120 substantif.** Ne s'applique que si la LLC a effectué une *check-the-box election* vers C-Corp (Form 8832): elle est alors taxée à 21 % au niveau fédéral et dépose un 1120 chiffré. Une LLC disregarded standard **ne dépose pas de 1120 substantif et ne paye pas l'impôt fédéral sur les sociétés**.
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
-## Nous l'installons sans que vous perdiez un week-end
-
-Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
-
-## Mise à jour Exentax : ce que couvre le service et ce qu'il vous évite
-
-Le service de constitution Exentax couvre tout ce dont votre LLC a besoin pour être opérationnelle dès le premier jour, avec une responsabilité professionnelle incluse et sans que vous ayez à remplir quoi que ce soit dans un anglais juridique incompréhensible :
-
-- **Constitution légale** dans l'État optimal pour votre profil (Wyoming, New Mexico, Delaware ou Florida), avec Articles of Organization et taxes d'État réglées au Secretary of State.
-- **EIN fédéral** obtenu auprès de l'IRS via SS-4 — sans files d'attente ni formulaires qui vous obligent à expliquer à Washington ce qu'est un non-résident.
-- **Registered Agent** inclus la 1re année. À partir de l'année 2, renouvellement couvert par la maintenance annuelle Exentax.
-- **Operating Agreement** adapté à votre cas, pas un modèle générique téléchargé sur un blog.
-- **BOI Report** au FinCEN quand il s'applique, avec suivi des mises à jour dans le délai légal.
-- **Form 5472 + 1120 pro forma** préparés et déposés chaque exercice fiscal.
-- **Onboarding bancaire professionnel** avec Relay, Slash, Wise Business et Mercury — nous vous accompagnons jusqu'à ce que votre compte soit opérationnel et vos passerelles actives, au lieu de vous laisser seul après l'encaissement comme le font les services low-cost.
-- **ITIN** obtenu par W-7 quand votre banque ou passerelle l'exige.
-
-Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, mais ça devient cher en temps et en erreurs que l'IRS ne pardonne pas : un **5472 mal déposé coûte 25 000 USD par formulaire et par an** (IRC §6038A), un **BOI en retard coûte 591 USD/jour**, et un ITIN rejeté vous laisse sans banque opérationnelle pendant des mois. La valeur Exentax n'est pas juste de faire la démarche, c'est que tout soit correct dès la première fois et qu'il y ait un conseiller responsable quand l'IRS ou votre administration fiscale demandent des comptes.
 
 ### Questions fréquentes
 
@@ -187,10 +216,20 @@ Le faire seul paraît bon marché si l'on regarde uniquement les frais d'État, 
 
 **Pillar Two de l'OCDE renchérit-il la LLC ?** Non pour les LLC unipersonnelles à chiffre d'affaires normal. GloBE concerne uniquement les groupes consolidés ≥ 750 M€.
 
+**Combien de temps prend réellement la constitution de bout en bout ?** Le dépôt au Secretary of State du Nouveau-Mexique ou du Wyoming est traité en 24-72 heures ouvrées ; Delaware en 24-48 heures avec dépôt accéléré payant. L'EIN prend 7-15 jours ouvrés par fax si vous avez un ITIN, et 4-8 semaines si vous ne fournissez que le passeport. Le compte bancaire chez Mercury ou Relay s'ouvre généralement en 5-10 jours ouvrés après l'EIN. Délai réaliste : votre LLC opérationnelle avec compte bancaire actif en **3-5 semaines**, pas en 24 heures comme le promettent les services low-cost.
+
+**Puis-je changer de Wyoming à Nouveau-Mexique (ou inversement) si je change d'avis ?** Oui, par *domestication* ou *conversion* : la LLC migre d'État en conservant son EIN, son historique bancaire et ses contrats. Ce n'est pas anodin (dépôts dans les deux États, mise à jour de l'Operating Agreement et notification IRS), mais c'est faisable. Bien plus propre que dissoudre et reconstituer, ce qui casse l'historique.
+
+**Faut-il un ITIN pour constituer la LLC ou seulement pour certaines choses ?** Pour constituer, non. Pour l'EIN, non strictement (on peut le demander par fax avec passeport si la case responsable party est correctement remplie). Pour ouvrir Mercury ou Wise Business, en général non. Pour Stripe, Slash ou toute passerelle qui demande le W-9 du responsible party, oui. On dépose l'ITIN quand une passerelle vous bloque, pas « au cas où » par anticipation.
+
+**Que se passe-t-il si je rate l'échéance du 15 avril du 5472 ?** Si vous déposez le Form 7004 avant le 15 avril, vous obtenez l'extension automatique au 15 octobre sans pénalité. Si vous laissez passer le 15 avril sans extension, la sanction se déclenche : **25 000 USD par formulaire et par an**, plus 25 000 USD par tranche de 30 jours supplémentaires si l'IRS notifie et que vous ne déposez toujours pas. C'est la sanction la plus chère et la plus prévisible du calendrier fédéral : c'est pour cela que la prorogation est automatique dans le service Exentax.
+
+**La LLC m'oblige-t-elle à déclarer en France, Belgique ou Suisse ?** Oui : en tant que résident fiscal européen, c'est vous qui êtes imposé sur les revenus attribués ou distribués de la LLC. Déclaration n° 3916 si vous détenez un compte ouvert hors de France pour la LLC, IFU pour vos rémunérations, possible application de l'article 209 B CGI ou des règles CFC nationales selon votre pays. Nous coordonnons cette partie avec votre conseiller fiscal de résidence pour que les deux bouts collent.
+
 <!-- exentax:execution-v2 -->
 ## Le coût réel de constituer une LLC, méthode Exentax
 
-Ce que lécart entre la constitution et le coût annuel réel - registered agent, maintenance étatique, BOI, 5472, banking et conformité en résidence. Chez Exentax nous chiffrons les deux dès le départ.
+Ce que la plupart des pages omettent, c'est l'écart entre la constitution et le coût annuel réel - registered agent, maintenance étatique, BOI, 5472, banking et conformité en résidence. Chez Exentax nous chiffrons les deux dès le départ.
 
 - **Coût ponctuel de constitution**: Articles of Organization + EIN + Operating Agreement + BOI initial; fourchette fermée par écrit avant de commencer.
 - **Coût annuel récurrent**: registered agent, annual report étatique, 5472 + 1120 pro-forma, maintenance banking et reporting de résidence.
@@ -199,10 +238,14 @@ Ce que lécart entre la constitution et le coût annuel réel - registered agent
 Pour voir votre chiffre exact sans surprise, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes: on sort de l'appel avec devis fermé et calendrier.
 <!-- /exentax:execution-v2 -->
 
+**Lectures associées :** pour creuser, consultez notre <a href="/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide">différence entre LLC, Corporation, S-Corp et C-Corp</a>.
+
+Vous voulez appliquer ce protocole à votre cas ? <a href="/fr/reserver">Réservez un créneau avec l'équipe Exentax</a> et nous passons en revue votre LLC avec des chiffres réels en trente minutes, sans engagement.
+
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Parlons%20argent%2C%20directement%2C%20sans%20d%C3%A9tour%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
-Si vous souhaitez voir le processus complet en détail, consultez notre <a href="/fr/services">page des services</a> avec tout ce que nous couvrons.
+Si vous voulez voir le détail du processus complet, consultez notre <a href="/fr/services">page services</a> avec tout ce que nous couvrons.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
