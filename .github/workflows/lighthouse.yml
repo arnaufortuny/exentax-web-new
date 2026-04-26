@@ -24,17 +24,26 @@ name: Lighthouse CI (PR)
 #      PR y documentar el motivo en
 #      `docs/auditoria-2026-04/RESUMEN.md` (sección "Lighthouse").
 #   2) Bypass puntual sin tocar el config: añadir el label
-#      `bypass-perf-gate` al PR y un maintainer puede mergear vía
-#      "Merge without waiting for requirements" (requiere admin).
-# Nunca volver a poner `continue-on-error: true` aquí: usar siempre uno
-# de los dos caminos anteriores para mantener el historial limpio.
+#      `bypass-perf-gate` al PR. La presencia del label hace que los
+#      steps `Run Lighthouse CI (desktop preset)` y
+#      `Run Lighthouse CI (mobile preset)` no bloqueen el job
+#      (`continue-on-error` condicional, aplicado a ambos presets) y el
+#      workflow publica un comentario en el PR indicando quién aplicó
+#      el label, dejando rastro auditable. No requiere admin ni
+#      "Merge without waiting for requirements".
+# Nunca volver a poner `continue-on-error: true` incondicional aquí:
+# usar siempre uno de los dos caminos anteriores para mantener el
+# historial limpio.
 on:
   pull_request:
     branches: [main]
 
 permissions:
   contents: read
-  pull-requests: read
+  # `write` en pull-requests es necesario para que el step de aviso de
+  # bypass pueda publicar un comentario en el PR cuando el label
+  # `bypass-perf-gate` esté presente.
+  pull-requests: write
 
 jobs:
   lighthouse:
@@ -69,7 +78,16 @@ jobs:
           # starts hitting it. 5s is plenty on GitHub-hosted runners.
           sleep 5
 
+      # `continue-on-error` se evalúa contra la presencia del label
+      # `bypass-perf-gate` en el PR. Si el label está, el step puede
+      # fallar (assertions rojas) sin tumbar el job — el reporte sigue
+      # subiéndose como artifact y un step posterior comenta en el PR
+      # quién aplicó el bypass. Si el label NO está, este step bloquea
+      # el merge cuando alguna assertion `error` falla, manteniendo el
+      # gate descrito en la cabecera del workflow (Task #15).
       - name: Run Lighthouse CI (desktop preset)
+        id: lhci_desktop
+        continue-on-error: ${{ contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate') }}
         run: |
           npx -p @lhci/cli@0.13.x lhci autorun --config=./.lighthouserc.json
 
@@ -77,7 +95,12 @@ jobs:
         # Runs even if the desktop step failed so the PR sees both sets of
         # assertion errors in a single CI run instead of having to fix one
         # preset, push, and discover the other regression on the next round.
+        # `continue-on-error` también se evalúa contra el label
+        # `bypass-perf-gate` (Task #20) para que el bypass cubra ambos
+        # presets de forma simétrica.
+        id: lhci_mobile
         if: always()
+        continue-on-error: ${{ contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate') }}
         run: |
           npx -p @lhci/cli@0.13.x lhci autorun --config=./.lighthouserc.mobile.json
 
@@ -105,3 +128,105 @@ jobs:
           path: .lighthouseci-mobile/**/*.html
           if-no-files-found: warn
           retention-days: 14
+
+      # ---------------------------------------------------------------
+      # Aviso de bypass del gate de performance (Task #20)
+      # ---------------------------------------------------------------
+      # Cuando el label `bypass-perf-gate` está presente Y alguno de los
+      # presets de Lighthouse falló (`steps.lhci_desktop.outcome` o
+      # `steps.lhci_mobile.outcome` == 'failure'), publicamos un
+      # comentario en el PR diciendo:
+      #   - que el gate fue bypassado intencionalmente,
+      #   - en qué presets (desktop, mobile o ambos),
+      #   - quién aplicó el label (lo recuperamos del timeline del
+      #     issue para que quede atribuido aunque el PR lo hayan
+      #     etiquetado distintos usuarios),
+      #   - y un puntero a los artifacts `lighthouse-reports-desktop` /
+      #     `lighthouse-reports-mobile` para que el reviewer pueda
+      #     revisar el reporte completo.
+      # Usamos un marcador HTML para encontrar el comentario previo y
+      # editarlo en sucesivos pushes en lugar de duplicarlo.
+      #
+      # En PRs originados desde un fork, `secrets.GITHUB_TOKEN` es de
+      # solo lectura y la llamada devolverá 403; el comentario se
+      # convierte en warning para no enmascarar el motivo real del
+      # bypass.
+      - name: Comment performance gate bypass on PR
+        if: >
+          always() &&
+          github.event_name == 'pull_request' &&
+          contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate') &&
+          (steps.lhci_desktop.outcome == 'failure' || steps.lhci_mobile.outcome == 'failure')
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const MARKER = '<!-- lighthouse-bypass-comment:task-20 -->';
+            const desktopFailed = ${{ steps.lhci_desktop.outcome == 'failure' }};
+            const mobileFailed = ${{ steps.lhci_mobile.outcome == 'failure' }};
+            const presets = [];
+            if (desktopFailed) presets.push('desktop');
+            if (mobileFailed) presets.push('mobile');
+            const presetLabel = presets.join(' + ') || 'unknown';
+            let actor = 'desconocido';
+            try {
+              const events = await github.paginate(
+                github.rest.issues.listEvents,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  per_page: 100,
+                },
+              );
+              const labeled = [...events].reverse().find(
+                (e) => e.event === 'labeled' && e.label && e.label.name === 'bypass-perf-gate',
+              );
+              if (labeled && labeled.actor && labeled.actor.login) {
+                actor = labeled.actor.login;
+              }
+            } catch (err) {
+              core.warning(`No se pudo determinar el autor del label: ${err.status || ''} ${err.message}`);
+            }
+            const lines = [
+              MARKER,
+              '### Performance gate (Lighthouse) bypassed',
+              '',
+              `El label \`bypass-perf-gate\` fue aplicado por **@${actor}**, por lo que las assertions rojas de Lighthouse no bloquearán este PR.`,
+              '',
+              `Preset(s) afectados: **${presetLabel}**.`,
+              '',
+              'Los reportes HTML completos siguen disponibles como artifacts `lighthouse-reports-desktop` y `lighthouse-reports-mobile` de este run para revisión manual. Asegúrate de documentar la razón del bypass en `docs/auditoria-2026-04/RESUMEN.md` (sección "Lighthouse").',
+            ];
+            const body = lines.join('\n');
+            try {
+              const existing = await github.paginate(
+                github.rest.issues.listComments,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  per_page: 100,
+                },
+              );
+              const prev = existing.find((c) => (c.body || '').includes(MARKER));
+              if (prev) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: prev.id,
+                  body,
+                });
+                core.info(`Lighthouse bypass comment actualizado (id=${prev.id}).`);
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body,
+                });
+                core.info('Lighthouse bypass comment creado.');
+              }
+            } catch (err) {
+              core.warning(`No se pudo publicar el comentario de PR: ${err.status || ''} ${err.message}`);
+            }

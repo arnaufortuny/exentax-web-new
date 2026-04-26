@@ -117,8 +117,13 @@ jobs:
       #      motivo en `exentax-web/docs/auditoria-2026-04/RESUMEN.md`
       #      (sección "Bundle por página") en el mismo PR.
       #   2) Bypass puntual sin tocar el config: añadir el label
-      #      `bypass-perf-gate` al PR y un maintainer puede mergear vía
-      #      "Merge without waiting for requirements" (requiere admin).
+      #      `bypass-perf-gate` al PR. La presencia del label hace que
+      #      el step `Fail job on bundle regression` se salte (el job
+      #      no falla por la regresión), pero el step
+      #      `Comment bundle regression on PR` sigue publicando el
+      #      delta para dejar evidencia, y un step adicional comenta
+      #      en el PR diciendo quién aplicó el label. No requiere
+      #      admin ni "Merge without waiting for requirements".
       # No reintroducir `|| true` aquí: usar siempre uno de los dos
       # caminos anteriores para que el delta quede registrado.
       #
@@ -267,10 +272,108 @@ jobs:
         # Replicamos el comportamiento del guard de presupuesto absoluto:
         # si `audit:bundle:diff` salió 1, el job entero falla aunque
         # las notificaciones se hayan enviado correctamente.
-        if: always() && steps.bundle_diff.outputs.exit_code == '1'
+        #
+        # Excepción (Task #20): si el PR lleva el label
+        # `bypass-perf-gate`, este step se salta para no bloquear el
+        # merge. El comentario con el delta sigue publicándose en el
+        # step de arriba (`Comment bundle regression on PR`) y el step
+        # de abajo (`Comment bundle bypass on PR`) deja constancia
+        # adicional indicando quién aplicó el label. En eventos de
+        # `push`, `pull_request.labels` es nulo y `contains` devuelve
+        # falso, por lo que el comportamiento histórico se conserva.
+        if: >
+          always() &&
+          steps.bundle_diff.outputs.exit_code == '1' &&
+          !contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate')
         run: |
           echo "::error::Bundle diff: regresión por encima del umbral. Ver docs/auditoria-2026-04/bundle-diff.json"
           exit 1
+
+      # ---------------------------------------------------------------
+      # Aviso de bypass del gate de bundle (Task #20)
+      # ---------------------------------------------------------------
+      # Cuando hay regresión de bundle (`exit_code == '1'`) Y el label
+      # `bypass-perf-gate` está presente en el PR, dejamos constancia
+      # explícita de que el gate fue bypassado intencionalmente y de
+      # quién aplicó el label (recuperado del timeline del issue para
+      # que sea atribuible aunque el PR pase por varios reviewers).
+      # Usa un marcador HTML distinto al del comentario de delta para
+      # poder coexistir / actualizarse en pushes sucesivos sin pisarlo.
+      #
+      # En forks, `secrets.GITHUB_TOKEN` es de solo lectura y la
+      # llamada devolverá 403; lo capturamos como warning para no
+      # enmascarar el motivo del bypass.
+      - name: Comment bundle bypass on PR
+        if: >
+          always() &&
+          steps.bundle_diff.outputs.exit_code == '1' &&
+          github.event_name == 'pull_request' &&
+          contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate')
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const MARKER = '<!-- bundle-bypass-comment:task-20 -->';
+            let actor = 'desconocido';
+            try {
+              const events = await github.paginate(
+                github.rest.issues.listEvents,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  per_page: 100,
+                },
+              );
+              const labeled = [...events].reverse().find(
+                (e) => e.event === 'labeled' && e.label && e.label.name === 'bypass-perf-gate',
+              );
+              if (labeled && labeled.actor && labeled.actor.login) {
+                actor = labeled.actor.login;
+              }
+            } catch (err) {
+              core.warning(`No se pudo determinar el autor del label: ${err.status || ''} ${err.message}`);
+            }
+            const lines = [
+              MARKER,
+              '### Performance gate (bundle diff) bypassed',
+              '',
+              `El label \`bypass-perf-gate\` fue aplicado por **@${actor}**, por lo que la regresión de bundle no bloqueará este PR.`,
+              '',
+              'El delta completo se publicó arriba en el comentario de `bundle-diff` y el JSON crudo está disponible como artifact `bundle-diff-report` de este run. Asegúrate de documentar la razón del bypass en `exentax-web/docs/auditoria-2026-04/RESUMEN.md` (sección "Bundle por página").',
+            ];
+            const body = lines.join('\n');
+            try {
+              const existing = await github.paginate(
+                github.rest.issues.listComments,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  per_page: 100,
+                },
+              );
+              const prev = existing.find((c) => (c.body || '').includes(MARKER));
+              if (prev) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: prev.id,
+                  body,
+                });
+                core.info(`Bundle bypass comment actualizado (id=${prev.id}).`);
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body,
+                });
+                core.info('Bundle bypass comment creado.');
+              }
+            } catch (err) {
+              core.warning(`No se pudo publicar el comentario de PR: ${err.status || ''} ${err.message}`);
+            }
 
       - name: Upload bundle diff report
         if: always() && steps.bundle_diff.outputs.exit_code != ''
