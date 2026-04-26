@@ -80,7 +80,7 @@ function resetGmailClient(): void {
   logger.warn("Client reset | will reconnect on next call.", "email");
 }
 
-function getGmailClient() {
+export function getGmailClient() {
   if (gmailClient) return gmailClient;
   const key = getGoogleServiceAccountKey();
   if (!key.private_key || !key.client_email) {

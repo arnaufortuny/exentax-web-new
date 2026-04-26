@@ -751,6 +751,17 @@ httpServer.listen(
       logger.warn(`Periodic reports scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "reports");
     }
 
+    // Newsletter broadcast worker (drena jobs de campañas in_progress).
+    // Trigger manual vía slash command /newsletter desde Discord.
+    try {
+      const { startBroadcastWorker } = await import("./scheduled/newsletter-broadcast");
+      const t = startBroadcastWorker();
+      if (t) activeIntervals.push(t);
+      logger.info("Newsletter broadcast worker started", "newsletter");
+    } catch (err) {
+      logger.warn(`Newsletter broadcast worker failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "newsletter");
+    }
+
   } catch (err) {
     logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);

@@ -171,6 +171,59 @@ export const insertNewsletterSubscriberSchema = createInsertSchema(newsletterSub
 export type InsertNewsletterSubscriber = z.infer<typeof insertNewsletterSubscriberSchema>;
 export type NewsletterSubscriber = typeof newsletterSubscribers.$inferSelect;
 
+// ─── Newsletter campaigns + jobs (broadcast a 10K+ suscriptores) ─────────────
+// Modelo: una campaña tiene N jobs (uno por destinatario). Worker drena los
+// jobs en pending respetando rate limit del proveedor SMTP. Resumible en
+// reinicios — basta con buscar campañas en estado 'in_progress'.
+
+export const newsletterCampaigns = pgTable("newsletter_campaigns", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  subject: text("subject").notNull(),
+  bodyHtml: text("body_html").notNull(),
+  bodyText: text("body_text"),
+  language: text("language"),                       // null = todos los idiomas
+  status: text("status").default("queued"),         // queued | in_progress | completed | cancelled | failed
+  totalRecipients: integer("total_recipients").default(0),
+  sentCount: integer("sent_count").default(0),
+  failedCount: integer("failed_count").default(0),
+  createdBy: text("created_by"),                    // discord user id
+  startedAt: timestamp("started_at"),
+  completedAt: timestamp("completed_at"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("newsletter_campaigns_status_idx").on(table.status),
+  index("newsletter_campaigns_created_at_idx").on(table.createdAt),
+  check("newsletter_campaigns_status_check",
+    sql`${table.status} IN ('queued','in_progress','completed','cancelled','failed')`),
+]);
+
+export const newsletterCampaignJobs = pgTable("newsletter_campaign_jobs", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  campaignId: varchar("campaign_id", { length: 64 }).notNull(),
+  subscriberId: varchar("subscriber_id", { length: 64 }).notNull(),
+  email: text("email").notNull(),
+  unsubscribeToken: text("unsubscribe_token"),
+  status: text("status").default("pending"),        // pending | sending | sent | failed | skipped
+  attempts: integer("attempts").default(0),
+  lastError: text("last_error"),
+  attemptedAt: timestamp("attempted_at"),
+  sentAt: timestamp("sent_at"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("newsletter_jobs_campaign_idx").on(table.campaignId),
+  index("newsletter_jobs_status_idx").on(table.status),
+  index("newsletter_jobs_campaign_status_idx").on(table.campaignId, table.status),
+  uniqueIndex("newsletter_jobs_campaign_subscriber_uniq")
+    .on(table.campaignId, table.subscriberId),
+  check("newsletter_jobs_status_check",
+    sql`${table.status} IN ('pending','sending','sent','failed','skipped')`),
+]);
+
+export type NewsletterCampaign = typeof newsletterCampaigns.$inferSelect;
+export type InsertNewsletterCampaign = typeof newsletterCampaigns.$inferInsert;
+export type NewsletterCampaignJob = typeof newsletterCampaignJobs.$inferSelect;
+export type InsertNewsletterCampaignJob = typeof newsletterCampaignJobs.$inferInsert;
+
 export const blockedDays = pgTable("blocked_days", {
   id: varchar("id", { length: 64 }).primaryKey(),
   date: text("fecha"),

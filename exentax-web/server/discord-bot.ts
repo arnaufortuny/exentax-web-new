@@ -347,6 +347,41 @@ export function buildSlashCommandManifest() {
         },
       ],
     },
+    {
+      name: "newsletter",
+      description: "Broadcast newsletter a suscriptores Exentax",
+      options: [
+        {
+          type: 1, name: "enviar",
+          description: "Enviar campaña a suscriptores activos (filtrable por idioma)",
+          options: [
+            { name: "asunto", description: "Subject del email (max 100 chars)", type: 3, required: true },
+            { name: "html",   description: "URL HTTPS al HTML del email (incluir {{unsubscribe_url}})", type: 3, required: true },
+            {
+              name: "idioma", description: "Filtro idioma (por defecto: todos)",
+              type: 3, required: false,
+              choices: [
+                { name: "Todos",     value: "all" },
+                { name: "Español",   value: "es" },
+                { name: "English",   value: "en" },
+                { name: "Français",  value: "fr" },
+                { name: "Deutsch",   value: "de" },
+                { name: "Português", value: "pt" },
+                { name: "Català",    value: "ca" },
+              ],
+            },
+          ],
+        },
+        {
+          type: 1, name: "status", description: "Estado de una campaña",
+          options: [{ name: "id", description: "Campaign ID (CMP_…)", type: 3, required: true }],
+        },
+        {
+          type: 1, name: "cancelar", description: "Cancelar una campaña en curso",
+          options: [{ name: "id", description: "Campaign ID (CMP_…)", type: 3, required: true }],
+        },
+      ],
+    },
   ];
 }
 
