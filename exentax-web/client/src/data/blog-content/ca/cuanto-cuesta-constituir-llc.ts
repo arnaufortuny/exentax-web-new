@@ -102,10 +102,10 @@ Total real a 24 mesos: **una quota inicial de constitució + dues quotes anuals 
 ### Escenari B — Agència al Wyoming (perfil equilibrat)
 
 - **Mes 0**: idèntic al NM en abast, amb la diferència que el filing fee i l'Annual Report futur estan pressupostats.
-- **Mes 12**: a més del manteniment Exentax (5472 + 1120 + Registered Agent), pagues l'Annual Report estatal del Wyoming (taxa anual aplicable segons la fórmula vigent).
+- **Mes 12**: a més del manteniment Exentax (5472 + 1120 + Registered Agent), paga l'Annual Report estatal del Wyoming (taxa anual aplicable segons la fórmula vigent).
 - **Mes 24**: igual que el mes 12, segon Annual Report.
 
-Total real a 24 mesos: **constitució + dues quotes Exentax + dos Annual Reports estatals.** Continua sent assolible i compra la charging-order law forta del Wyoming, és el que pagues de més respecte al NM.
+Total real a 24 mesos: **constitució + dues quotes Exentax + dos Annual Reports estatals.** Continua sent assolible i compra la charging-order law forta del Wyoming, és el que paga de més respecte al NM.
 
 ### Escenari C — SaaS al Delaware (perfil corporate)
 
@@ -216,7 +216,7 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut recentment; aquest és l'es
 
 **L'OCDE Pillar Two encareix la LLC?** No per a LLC unipersonals amb facturació normal. GloBE només s'aplica a grups consolidats ≥ 750 M EUR.
 
-**Quant triga realment la constitució de cap a cap?** El filing al Secretary of State del Nou Mèxic o del Wyoming es resol en 24-72 hores hàbils; Delaware en 24-48 hores si pagues expedició. L'EIN triga 7-15 dies hàbils per fax a l'IRS si té ITIN, i entre 4 i 8 setmanes si només aportes passaport. El compte bancari a Mercury o Relay s'obre normalment en 5-10 dies hàbils des de l'EIN. Realista: la seva LLC operativa amb compte corrent en **3-5 setmanes**, no en 24 hores com prometen els serveis low-cost.
+**Quant triga realment la constitució de cap a cap?** El filing al Secretary of State del Nou Mèxic o del Wyoming es resol en 24-72 hores hàbils; Delaware en 24-48 hores si paga expedició. L'EIN triga 7-15 dies hàbils per fax a l'IRS si té ITIN, i entre 4 i 8 setmanes si només aporta passaport. El compte bancari a Mercury o Relay s'obre normalment en 5-10 dies hàbils des de l'EIN. Realista: la seva LLC operativa amb compte corrent en **3-5 setmanes**, no en 24 hores com prometen els serveis low-cost.
 
 **Puc canviar de Wyoming a Nou Mèxic (o a la inversa) si se’n penedeix?** Sí, via *domestication* o *conversion*: la LLC migra d'estat conservant l'EIN, l'historial bancari i els contractes. No és trivial (filings als dos estats, actualització de l'Operating Agreement i notificació a l'IRS), però es fa. És més net que dissoldre i reconstituir, que trenca l'historial.
 
@@ -235,10 +235,10 @@ El que la majoria de pàgines no diu és la diferència entre la constitució i 
 - **Cost anual recurrent**: registered agent, annual report estatal, 5472 + 1120 pro-forma, manteniment bancari i reporting de residència.
 - **Costos evitats**: multa de 25 000 USD per 5472 omès, sancions BOI per actualitzacions tardanes i comissions bancàries per inconsistència documental.
 
-Per veure la seva xifra exacta sense sorpreses, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts: sortim de la trucada amb pressupost tancat i calendari.
+Per veure la seva xifra exacta sense sorpreses, obri la <strong>calculadora Exentax</strong> o reservi trenta minuts: sortim de la trucada amb pressupost tancat i calendari.
 <!-- /exentax:execution-v2 -->
 
-**Lectures relacionades:** per aprofundir, llegeix el nostre article sobre <a href="/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia">diferències entre LLC, Corporation, S-Corp i C-Corp</a>.
+**Lectures relacionades:** per aprofundir, llegeixi el nostre article sobre <a href="/ca/blog/diferencia-llc-vs-corporation-s-corp-c-corp-guia">diferències entre LLC, Corporation, S-Corp i C-Corp</a>.
 
 Vol aplicar aquest protocol al seu cas? <a href="/ca/agendar">Reservi una sessió amb l'equip d'Exentax</a> i revisem la seva LLC amb números reals en trenta minuts, sense compromís.
 
