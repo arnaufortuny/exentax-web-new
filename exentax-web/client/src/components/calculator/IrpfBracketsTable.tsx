@@ -16,7 +16,7 @@ export default function IrpfBracketsTable({ brackets }: { brackets: IrpfBracketD
               {formatCurrency(b.from)} → {b.to >= 300000 ? "+" : formatCurrency(b.to)}
             </span>
             <span className="font-body font-semibold text-[var(--text-2)]">{Math.round(b.rate * 100)}%</span>
-            <span className="font-body font-semibold text-red-500">{formatCurrency(b.taxInBracket)}</span>
+            <span className="font-body font-semibold text-[var(--error)]">{formatCurrency(b.taxInBracket)}</span>
           </div>
         ))}
       </div>

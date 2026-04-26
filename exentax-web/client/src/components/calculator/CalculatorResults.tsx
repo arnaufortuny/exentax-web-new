@@ -303,27 +303,27 @@ export default function CalculatorResults({ result, income, country, regime, get
               <div data-testid="spain-irpf-with-llc">
                 <div className="flex items-center gap-2 mb-2">
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="shrink-0">
-                    <circle cx="7" cy="7" r="6" stroke="#2563EB" strokeWidth="1.2" />
-                    <path d="M7 4v3.5M7 9.5h.01" stroke="#2563EB" strokeWidth="1.2" strokeLinecap="round" />
+                    <circle cx="7" cy="7" r="6" stroke="#0A0F0C" strokeWidth="1.2" />
+                    <path d="M7 4v3.5M7 9.5h.01" stroke="#0A0F0C" strokeWidth="1.2" strokeLinecap="round" />
                   </svg>
-                  <p className="font-body text-[11px] text-blue-500 font-semibold">
+                  <p className="font-body text-[11px] text-[var(--text-3)] font-semibold">
                     {t("calculator.irpfWithLLCTitle")}
                   </p>
                 </div>
-                <div className="rounded-lg border border-blue-200/50 bg-blue-50/30 p-3">
+                <div className="rounded-lg border border-[var(--border)] bg-[var(--bg-1)] p-3">
                   <div className="flex justify-between items-center mb-1">
                     <span className="font-body text-[12px] text-[var(--text-2)]">{t("calculator.taxableBase")}</span>
                     <span className="font-body font-semibold text-[var(--text-1)] text-[12px]">{fmt(result.spainIrpfWithLLC.baseImponible)}</span>
                   </div>
                   <div className="flex justify-between items-center mb-1">
                     <span className="font-body text-[12px] text-[var(--text-2)]">{t("calculator.irpfToPay")}</span>
-                    <span className="font-body font-bold text-blue-600 text-[13px]">{fmt(result.spainIrpfWithLLC.irpf)}</span>
+                    <span className="font-body font-bold text-[var(--text-1)] text-[13px]">{fmt(result.spainIrpfWithLLC.irpf)}</span>
                   </div>
-                  <div className="flex justify-between items-center pt-1 border-t border-blue-200/30">
-                    <span className="font-body text-[11px] font-semibold text-blue-600">{t("calculator.totalCostLLCIrpf")}</span>
-                    <span className="font-body font-bold text-blue-600 text-[12px]">{fmt(result.conLLC + result.spainIrpfWithLLC.irpf)}{t("calculator.perYear")}</span>
+                  <div className="flex justify-between items-center pt-1 border-t border-[var(--border-subtle)]">
+                    <span className="font-body text-[11px] font-semibold text-[var(--text-1)]">{t("calculator.totalCostLLCIrpf")}</span>
+                    <span className="font-body font-bold text-[var(--text-1)] text-[12px]">{fmt(result.conLLC + result.spainIrpfWithLLC.irpf)}{t("calculator.perYear")}</span>
                   </div>
-                  <p className="font-body text-[10px] text-blue-500/70 mt-2">
+                  <p className="font-body text-[10px] text-[var(--text-3)] mt-2">
                     {t("calculator.savingsVsNoLLC")}: {fmt(Math.max(0, result.sinLLC - result.conLLC - result.spainIrpfWithLLC.irpf))}{t("calculator.perYear")}
                   </p>
                 </div>

@@ -547,8 +547,8 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                   onClick={() => { setFormData({ ...formData, compromisoAsistir: false }); setCompromisoError(false); }}
                   className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
                     formData.compromisoAsistir === false
-                      ? "border-red-500 bg-red-500/10 text-red-400"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-red-500/40"
+                      ? "border-[var(--error)] bg-[rgba(220,38,38,0.10)] text-[var(--error)]"
+                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--error)]/40"
                   }`}
                   data-testid="button-compromiso-no"
                 >
@@ -556,13 +556,13 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 </button>
               </div>
               {compromisoError && (
-                <p className="text-xs text-red-400 mt-2 flex items-center gap-1.5" data-testid="text-compromiso-error">
+                <p className="text-xs text-[var(--error)] mt-2 flex items-center gap-1.5" data-testid="text-compromiso-error">
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5.5" stroke="currentColor" strokeWidth="1"/><path d="M6 4v2.5M6 8h.01" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
                   {t("booking.compromisoError")}
                 </p>
               )}
               {formData.compromisoAsistir === false && (
-                <div className="glass rounded-xl p-3 mt-3 !border-red-500/20 text-xs text-red-400 leading-relaxed" data-testid="text-compromiso-warning">
+                <div className="glass rounded-xl p-3 mt-3 !border-[var(--error)]/20 text-xs text-[var(--error)] leading-relaxed" data-testid="text-compromiso-warning">
                   {t("booking.compromisoWarning")}
                 </div>
               )}
@@ -813,7 +813,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 data-testid="input-phone"
               />
               {phoneError && (
-                <p className="text-xs text-red-500 mt-1">{t("booking.phoneError")}</p>
+                <p className="text-xs text-[var(--error)] mt-1">{t("booking.phoneError")}</p>
               )}
             </div>
 
@@ -834,7 +834,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 privacyAccepted
                   ? "border-[var(--border-active)] bg-[var(--green-soft)]"
                   : privacyError
-                  ? "border-red-500/50 bg-red-50"
+                  ? "border-[var(--error)]/50 bg-[rgba(220,38,38,0.06)]"
                   : "border-[var(--border)] bg-[var(--bg-1)] hover:border-[var(--border-active)]"
               }`}>
                 <input
@@ -845,7 +845,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                   data-testid="checkbox-privacy"
                 />
                 <span className={`mt-0.5 h-4 w-4 flex-shrink-0 rounded-md border-2 flex items-center justify-center transition-[color,background-color,border-color,opacity,transform] duration-200 ${
-                  privacyAccepted ? "bg-[var(--green)] border-[var(--green)]" : privacyError ? "border-red-500" : "border-[var(--border)] bg-transparent"
+                  privacyAccepted ? "bg-[var(--green)] border-[var(--green)]" : privacyError ? "border-[var(--error)]" : "border-[var(--border)] bg-transparent"
                 }`}>
                   {privacyAccepted && (
                     <svg width="9" height="7" viewBox="0 0 9 7" fill="none">
@@ -862,7 +862,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 </span>
               </label>
               {privacyError && (
-                <p className="text-xs text-red-400 pl-1 flex items-center gap-1.5" data-testid="text-privacy-error">
+                <p className="text-xs text-[var(--error)] pl-1 flex items-center gap-1.5" data-testid="text-privacy-error">
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5.5" stroke="currentColor" strokeWidth="1"/><path d="M6 4v2.5M6 8h.01" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
                   {t("booking.privacyError")}
                 </p>
@@ -896,7 +896,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
             </div>
 
             {bookMutation.isError && (
-              <div className="glass rounded-xl p-3 !border-red-500/30 text-red-400 text-sm" data-testid="booking-error">
+              <div className="glass rounded-xl p-3 !border-[var(--error)]/30 text-[var(--error)] text-sm" data-testid="booking-error">
                 {(bookMutation.error as Error)?.message || t("booking.bookingError")}
               </div>
             )}

@@ -178,7 +178,7 @@ export default function PhoneInput({
 
   return (
     <div ref={ref} className="relative">
-      <div className={`flex rounded-full overflow-hidden border transition-colors ${error ? "border-red-500" : "border-[var(--border)] focus-within:border-[var(--green)] focus-within:[outline:2px_solid_var(--green)] focus-within:[outline-offset:2px]"} bg-[var(--bg-1)]`}>
+      <div className={`flex rounded-full overflow-hidden border transition-colors ${error ? "border-[var(--error)]" : "border-[var(--border)] focus-within:border-[var(--green)] focus-within:[outline:2px_solid_var(--green)] focus-within:[outline-offset:2px]"} bg-[var(--bg-1)]`}>
         <button
           type="button"
           onClick={() => setOpen(!open)}
