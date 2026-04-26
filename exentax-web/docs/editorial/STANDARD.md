@@ -26,7 +26,7 @@ Un artículo **PASA** sólo si la conclusión natural del lector al terminar es 
 
 ## 3. Política de CTA
 
-- Cierre del artículo: 1 patrón canónico de `client/src/lib/blog-cta-library.ts` (book_consultation, llc_florida_specific, llc_state_compare, itin_help, services_overview, compliance_checkup).
+- Cierre del artículo: 1 patrón canónico de `client/src/data/blog-cta-library.ts` (book_consultation, llc_florida_specific, llc_state_compare, itin_help, services_overview, compliance_checkup).
 - Mid-article: bloque `<!-- exentax:calc-cta-v1 -->` con una de las 4 variantes aprobadas en `blog-mid-cta-copy.ts` (free_consult, start_today, talk_to_team, discover_llc).
 - Bloque `<!-- exentax:cta-conv-v1 -->` con WhatsApp opcional para slugs de alta intención.
 - Prohibido: redactar copy nuevo en el cuerpo del artículo.

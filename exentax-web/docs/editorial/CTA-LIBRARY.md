@@ -1,6 +1,6 @@
 # CTA-LIBRARY — Patrones canónicos de cierre y mid-article
 
-> Fuente única de verdad: `client/src/lib/blog-cta-library.ts` (post-article) y `client/src/data/blog-mid-cta-copy.ts` (mid-article).  
+> Fuente única de verdad: `client/src/data/blog-cta-library.ts` (post-article) y `client/src/data/blog-mid-cta-copy.ts` (mid-article).  
 > Este documento exporta los patrones verbatim para que el equipo editorial los copie sin re-redactar.  
 > **Prohibido inventar copy nuevo.** Si necesitas un patrón que no existe, primero abrir tarea de extender la library, después usar.
 

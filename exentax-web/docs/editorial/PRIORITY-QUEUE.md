@@ -4,7 +4,19 @@
 >
 > Generada del audit `docs/audits/2026-04/conversion/audit-es.json` (2026-04-26).  
 > Ordenada por score: `(traffic + 1) × failures` para FALLA y `traffic × 0.5` para PASA.  
+> **Justificación de la fórmula** (vs. el `traffic × failure-distance` originalmente propuesto): el campo `failure-distance` no existe en el JSON del audit; el modelo expone únicamente `traffic` (visitas mensuales estimadas) y `failures` (lista de motivos por los que el slug suspende los 7 criterios). El `+1` evita anular slugs sin tráfico medido pero con multiples FALLA críticas. Sprints aceptados por PM con esta fórmula efectiva.  
 > Asignación a sprints en `docs/editorial/sprints/SPRINT-PLAN.md`.
+
+### URL-verification provenance
+
+Las URLs de `SOURCES-BY-JURISDICTION.md` se validaron HEAD 200 al cierre de Task #26 (2026-04-26). Reemplazos aplicados en esta ronda:
+
+| URL anterior | Estado | Reemplazo |
+|---|---|---|
+| `https://www.fincen.gov/news/news-releases/notice-regarding-beneficial-ownership-information-reporting` | 404 | `https://www.fincen.gov/boi` |
+| `https://www.supremecourt.uk/cases/uksc-2014-0058.html` | 404 | `https://www.gov.uk/hmrc-internal-manuals/international-manual/intm180030` (HMRC manual cita Anson) |
+
+Antes de cada sprint, ejecutar HEAD-check sobre las URLs que se vayan a citar (ver checklist en `sprints/SPRINT-LOG.md`, bloque "Pre-flight").
 
 ## Resumen
 
