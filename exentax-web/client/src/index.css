@@ -147,6 +147,31 @@ a, button {
   --glass-blur: 20px;
   --glass-saturate: 1.5;
 
+  /* Liquid Glass refined — Apple/visionOS-inspired depth tokens */
+  --glass-specular: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.55) 0%,
+    rgba(255,255,255,0.20) 18%,
+    rgba(255,255,255,0.00) 50%
+  );
+  --glass-inner-glow: inset 0 1px 0 rgba(255,255,255,0.65),
+                     inset 0 -1px 0 rgba(0,0,0,0.04);
+  --glass-edge-light: 0 0 0 0.5px rgba(255,255,255,0.6),
+                     0 0 0 1px rgba(0,0,0,0.04);
+  --glass-shadow-elevated: 0 24px 60px -12px rgba(0,0,0,0.18),
+                          0 8px 24px -4px rgba(0,0,0,0.10),
+                          0 1px 0 rgba(255,255,255,0.7) inset;
+  --glass-shadow-hero: 0 32px 80px -16px rgba(0,0,0,0.20),
+                      0 12px 32px -6px rgba(0,0,0,0.12),
+                      0 0 0 1px rgba(0,229,16,0.08),
+                      inset 0 1px 0 rgba(255,255,255,0.8);
+  --glass-accent-tint: linear-gradient(
+    180deg,
+    rgba(0,229,16,0.06) 0%,
+    rgba(0,229,16,0.02) 60%,
+    rgba(255,255,255,0.0) 100%
+  );
+
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-button: 'Inter', sans-serif;
@@ -239,41 +264,171 @@ a, button {
 
 /* ── Utility layer ───────────────────────────────────────── */
 @layer utilities {
-  /* Liquid glass base */
+  /* Liquid glass base — refined con inner glow + edge-light layered */
   .glass {
+    position: relative;
     background: var(--glass-bg);
     backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate, 1.5));
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate, 1.5));
     border: 1px solid var(--glass-border);
-    box-shadow: var(--shadow), var(--card-inset-shadow);
+    box-shadow: var(--shadow), var(--card-inset-shadow), inset 0 1px 0 rgba(255,255,255,0.6);
     transform: translateZ(0);
     will-change: transform;
   }
 
-  /* Stronger glass — forms, calculator, key UI */
+  /* Stronger glass — forms, calculator, key UI con specular highlight */
   .glass-strong {
+    position: relative;
     background: var(--glass-bg-strong);
     backdrop-filter: blur(28px) saturate(1.6);
     -webkit-backdrop-filter: blur(28px) saturate(1.6);
     border: 1px solid var(--glass-border-strong);
-    box-shadow: var(--shadow), 0 0 0 1px rgba(0,229,16,0.04);
+    box-shadow: var(--shadow), 0 0 0 1px rgba(0,229,16,0.04),
+                inset 0 1px 0 rgba(255,255,255,0.7);
     transform: translateZ(0);
   }
 
-  /* Card — interactive glass tile */
+  /* Card — interactive glass tile con specular highlight refinado */
   .glass-card {
+    position: relative;
     background: var(--card-bg);
     backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate, 1.5));
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate, 1.5));
     border: 1px solid var(--glass-border);
-    box-shadow: var(--shadow-sm), var(--card-inset-shadow);
+    box-shadow:
+      var(--shadow-sm),
+      var(--card-inset-shadow),
+      inset 0 1px 0 rgba(255,255,255,0.65);
     border-radius: var(--radius-lg);
     transform: translateZ(0);
-    transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    transition:
+      border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      background 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .glass-card:hover {
-    border-color: rgba(0,229,16,0.18);
-    box-shadow: var(--shadow), 0 0 0 1px rgba(0,229,16,0.05);
+    border-color: rgba(0,229,16,0.22);
+    box-shadow:
+      var(--shadow),
+      0 0 0 1px rgba(0,229,16,0.06),
+      inset 0 1px 0 rgba(255,255,255,0.75);
+    transform: translateY(-1px);
+  }
+  /* Reduced motion: respect user preference, no hover translate */
+  @media (prefers-reduced-motion: reduce) {
+    .glass-card:hover { transform: none; }
+  }
+
+  /* ─── LIQUID GLASS REFINED ─────────────────────────────────
+     Sistema iOS/visionOS-inspired con specular highlight,
+     multi-layer depth y brand accent opcional.
+     Uso recomendado:
+       .glass-elevated → cards de servicios, calculator panel
+       .glass-hero     → hero panel principal (1 por página)
+       .glass-accent   → CTAs destacados con tinte verde
+       .glass-frost    → surfaces secundarias muy ligeras
+  */
+
+  /* Glass elevated — para cards principales (services, why-us) */
+  .glass-elevated {
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(24px) saturate(1.6);
+    -webkit-backdrop-filter: blur(24px) saturate(1.6);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--glass-shadow-elevated);
+    transform: translateZ(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+  .glass-elevated::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--glass-specular);
+    pointer-events: none;
+    border-radius: inherit;
+    opacity: 0.85;
+  }
+  .glass-elevated:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 32px 70px -14px rgba(0,0,0,0.22),
+                0 12px 28px -6px rgba(0,0,0,0.12),
+                0 1px 0 rgba(255,255,255,0.8) inset;
+  }
+
+  /* Glass hero — surface protagonista de la página */
+  .glass-hero {
+    position: relative;
+    background: rgba(255,255,255,0.82);
+    backdrop-filter: blur(32px) saturate(1.7);
+    -webkit-backdrop-filter: blur(32px) saturate(1.7);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--glass-shadow-hero);
+    transform: translateZ(0);
+    overflow: hidden;
+  }
+  .glass-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--glass-specular);
+    pointer-events: none;
+    border-radius: inherit;
+    opacity: 0.9;
+  }
+
+  /* Glass accent — featured/CTA con tinte verde sutil */
+  .glass-accent {
+    position: relative;
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(24px) saturate(1.6);
+    -webkit-backdrop-filter: blur(24px) saturate(1.6);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 16px 48px -10px rgba(0,229,16,0.18),
+                0 6px 18px -3px rgba(0,229,16,0.10),
+                inset 0 1px 0 rgba(255,255,255,0.75),
+                inset 0 0 0 1px rgba(0,229,16,0.20);
+    transform: translateZ(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  .glass-accent::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--glass-accent-tint);
+    pointer-events: none;
+    border-radius: inherit;
+  }
+  .glass-accent:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 20px 56px -10px rgba(0,229,16,0.24),
+                0 8px 22px -3px rgba(0,229,16,0.14),
+                inset 0 1px 0 rgba(255,255,255,0.85),
+                inset 0 0 0 1px rgba(0,229,16,0.30);
+  }
+
+  /* Glass frost — surfaces secundarias muy ligeras (background panels) */
+  .glass-frost {
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(16px) saturate(1.4);
+    -webkit-backdrop-filter: blur(16px) saturate(1.4);
+    border: 1px solid rgba(255,255,255,0.45);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 16px -4px rgba(0,0,0,0.06),
+                inset 0 1px 0 rgba(255,255,255,0.6);
+    transform: translateZ(0);
+  }
+
+  /* Reduced-motion: disable hover transforms to respect a11y preference */
+  @media (prefers-reduced-motion: reduce) {
+    .glass-elevated:hover,
+    .glass-accent:hover {
+      transform: none;
+    }
   }
 
   /* Section spacing */
