@@ -72,6 +72,7 @@ tsc → lint:typography → lint:stray-reports → lint:brand-casing → lint:pt
 | `seo:masterpiece-strict` | `blog-masterpiece-audit.mjs` | Heading hierarchy + word count | ✅ |
 | `blog:validate-all` | `blog-validate-all.mjs` | 13 sub-checks | ✅ 13/13 OK |
 | `i18n:check` | `validate-i18n.ts + find-hardcoded-strings.ts` | Keys + JSX text + attrs | ✅ PASS |
+| `blog-cta-channel-lint` | `blog-cta-channel-lint.mjs` | WhatsApp number drift detection | ✅ canonical sync |
 | `test:calculator` | `calculator.test.ts` | IRPF/SS brackets + edge cases | ✅ 123/123 |
 | `test:discord-neon` | `test-discord-neon.ts` | Brand color enforcement | ✅ 23 embeds OK |
 | `test:newsletter` | `test-newsletter-e2e.ts` | E2E newsletter flow | ✅ |
@@ -81,6 +82,36 @@ tsc → lint:typography → lint:stray-reports → lint:brand-casing → lint:pt
 | `audit:bundle` | `audit-bundle.mjs` | Bundle size baseline | ✅ |
 | `test:field-encryption` | `test-field-encryption.ts` | AES-256-GCM E2E | ✅ 45/45 |
 | `test:sitemap-e2e` | `test-sitemap-e2e.ts` | Live sitemap with server | ✅ 62/62 |
+
+## 4.5. Contact channels (single source of truth)
+
+**Source of truth**: `client/src/lib/constants.ts` exporta `CONTACT.WHATSAPP_NUMBER`,
+`CONTACT.WHATSAPP_DISPLAY`, `CONTACT.WHATSAPP_URL`, `CONTACT.EMAIL`.
+
+**Embedded in static HTML** (pre-rendered para SEO/SSR):
+- `client/src/data/blog-content/<lang>/*.ts` × 666 (1 CTA conv-v1 por artículo × 6 idiomas)
+- `client/src/data/blog-cta-library.ts` (CTAs centralizados)
+- `client/src/data/blog-mid-cta-copy.ts` (CTAs mid-article)
+- `client/src/i18n/locales/<lang>.ts` (FAQs banking_*, etc.)
+
+**Drift detection**: `node scripts/blog-cta-channel-lint.mjs` lee canonical de
+`constants.ts` y verifica que TODAS las URLs `wa.me/<digits>` coincidan. Exit
+1 si detecta drift.
+
+**Mass update** si cambia el número:
+1. Editar `WHATSAPP_NUMBER` en `client/src/lib/constants.ts`
+2. `node scripts/blog-cta-channel-update.mjs` (dry-run)
+3. `node scripts/blog-cta-channel-update.mjs --apply`
+4. `node scripts/blog-cta-channel-lint.mjs` para confirmar 0 drift
+5. Run full `npm run blog:validate-all` para verificar 0 regresiones
+
+**Razón de la arquitectura**: las URLs WhatsApp están embebidas en HTML estático
+(no inyectadas en runtime) porque son críticas para SEO — el crawler debe poder
+seguir el href. Centralizar via runtime injection requeriría SSR override que
+complicaría arquitectura sin beneficio. La estrategia de constants + lint + update
+script da maintainability sin riesgo.
+
+---
 
 ## 5. Inventario de cifras
 
