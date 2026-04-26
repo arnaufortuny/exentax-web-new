@@ -6,6 +6,43 @@ Fecha: 2026-04-22 (actualizado Sesión 6: cierre y limpieza con regla
 `CHANGELOG-SESSION.md` para el detalle medido).
 Actualiza este documento al cerrar cada ítem.
 
+---
+
+## ✅ Cerrado — Sesión 8 (2026-04-26): rewrite `cuanto-cuesta-constituir-llc` 6 idiomas
+
+**Cierre Task #1.** Rewrite del artículo en ES (canónica, 3.762 palabras)
+y refundición de las 5 nativas (EN/FR/DE/PT/CA) con marco regulatorio
+local explícito y estructura espejo (3 tablas de coste NM/WY/DE,
+tabla comparativa por perfil 7 filas, sección coste real 24 meses
+3 escenarios, bloque consolidado "Qué incluye Exentax", FAQ ampliada
++6 preguntas). Anclajes regulatorios añadidos por idioma:
+- **EN**: TIOPA 2010 Part 9A (CFC UK), IRS Form 8938 (FATCA), FBAR, Form 8865.
+- **FR**: 3916-bis (assurance-vie/cripto), BNB Point de contact central
+  (Bélgica), T1135 + TP-1097 (Canadá/Québec).
+- **DE**: KStG §10a + §16 (Austria CFC y Umgründungen).
+- **PT**: CIRC 66.º + 66.º-A, Anexo J Modelo 3 IRS, Modelo 58 BdP;
+  Brasil: DAA/DIRPF, Carnê-Leão Web, DCBE Bacen, e-Financeira.
+- **CA**: registro `vostè` formal end-to-end (conversión completa
+  desde `tu`/`teva`/`vols`); referencias a AEAT, Agència Tributària
+  de Catalunya (ATC), Departament de Tributs d'Andorra,
+  STJUE C-788/19 y Modelo 720/721.
+
+**Validadores verdes** (`exentax-web/`):
+- `npm run blog:validate-all` → 13/13 OK.
+- `npm run i18n:check` → PASS.
+- `npm run seo:meta` → 0 errors / 0 warnings (6 idiomas).
+- `node scripts/audit-pt-pt.mjs` → PASS.
+- `node scripts/blog-translation-quality-extended.mjs` → 0 leakage,
+  0 low-ratio, 0 untranslated.
+
+**Ratios de palabras vs ES (3.762)**: EN 0,97 · FR 1,01 · DE 0,89 ·
+PT 1,00 · CA 1,00 (todos > 0,85, umbral del audit extendido).
+
+**Archivos tocados**:
+`exentax-web/client/src/data/blog-content/{es,en,fr,de,pt,ca}/cuanto-cuesta-constituir-llc.ts`.
+Sin cambios fuera de los 6 ficheros de artículo. Sin `package.json`,
+sin schema, sin rutas.
+
 Cada ítem lleva **comando exacto para reproducirlo**, archivo:línea si
 aplica, e impacto (alto/medio/bajo). Sin items vagos.
 
