@@ -124,7 +124,7 @@ L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb 
 
 | Volum anual | Configuració recomanada |
 |---|---|
-| < 50 k USD | Mercury sol |
+| &lt; 50 k USD | Mercury sol |
 | 50-300 k USD | Mercury + Wise (multidivisa) |
 | 300 k-1 M USD | Mercury + Relay (buckets) + Wise (FX) |
 | > 1 M USD | Mercury + Relay + Wise + compte tradicional EUA (Bank of America/Chase) per a wires d'escala |

@@ -219,7 +219,7 @@ Cada caso tiene matices: tu país de residencia, el tipo de actividad, dónde es
 
 La comparativa real depende de tres palancas: cuotas, tipos efectivos y carga administrativa.
 
-- **Cuotas hoy autónomos España.** Sistema por tramos de rendimientos netos, cuota mínima **~205 €/mes** y máxima **~1.607 €/mes** (según tramo y base de cotización elegida) (RDL 13/2022). Tarifa plana **80 €/mes los primeros 12 meses** prorrogable 12 más si rendimientos < SMI. IRPF marginal hasta **47-50 %** según comunidad.
+- **Cuotas hoy autónomos España.** Sistema por tramos de rendimientos netos, cuota mínima **~205 €/mes** y máxima **~1.607 €/mes** (según tramo y base de cotización elegida) (RDL 13/2022). Tarifa plana **80 €/mes los primeros 12 meses** prorrogable 12 más si rendimientos &lt; SMI. IRPF marginal hasta **47-50 %** según comunidad.
 - **LLC SMLLC + residencia España.** La LLC disregarded **no paga corporate tax federal** (salvo elección C-Corp). El no residente declara los beneficios atribuidos en su IRPF en España (régimen de atribución de rentas, art. 88 LIRPF). Coste anual estructura: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Forma híbrida realista.** Mantener autónomo en España para clientes españoles (factura con IVA y retención) + LLC para clientes internacionales en USD. La LLC no exime de cotizar a la <a href="https://www.seg-social.es" target="_blank" rel="noopener">Seguridad Social</a> en España si la actividad principal es allí.
 

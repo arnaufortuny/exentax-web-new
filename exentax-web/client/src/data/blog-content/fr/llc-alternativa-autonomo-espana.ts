@@ -192,7 +192,7 @@ La question arrive presque chaque semaine: "puis-je fermer mon statut d'indépen
 - **Ce que la LLC fait économiser.** Cotisations sociales d'indépendant (~22-45% du revenu), si vous fermez votre statut. Friction opérationnelle avec clients internationaux: factures USD/EUR sans TVA croisée, encaissement instantané Mercury, cartes USD pour Meta/Google sans majoration. Image d'entreprise face à des PME préférant entités à indépendants.
 - **Ce qu'elle n'économise PAS.** L'IR sur les bénéfices. L'administration attribue les revenus LLC à votre IR personnel par les règles d'attribution (la single-member LLC est transparente). Vous serez imposé comme BIC/BNC au taux marginal (jusqu'à 45%), exactement comme indépendant.
 - **Quand le changement vaut.** >70% clients internationaux, volume annuel >40-60k, cotisations sociales élevées, activité sans inscription ordinale. Dans ce profil, la LLC économise 3-7k EUR annuels en cotisations et opérationnel.
-- **Quand ça ne vaut PAS.** Majorité de clients français (qui préfèrent facture avec TVA française), volume <30k annuels, ou activité réglementée nécessitant inscription ordinale. L'indépendant reste plus efficace.
+- **Quand ça ne vaut PAS.** Majorité de clients français (qui préfèrent facture avec TVA française), volume &lt;30k annuels, ou activité réglementée nécessitant inscription ordinale. L'indépendant reste plus efficace.
 
 ### Ce qu'on nous demande le plus
 

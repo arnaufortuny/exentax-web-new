@@ -149,7 +149,7 @@ The recommended banking stack for an LLC today has consolidated three pieces wit
 
 | Annual volume | Recommended setup |
 |---|---|
-| < USD 50k | Mercury only |
+| &lt; USD 50k | Mercury only |
 | USD 50-300k | Mercury + Wise (multi-currency) |
 | USD 300k-1M | Mercury + Relay (buckets) + Wise (FX) |
 | > USD 1M | Mercury + Relay + Wise + traditional US account (Bank of America/Chase) for scale wires |

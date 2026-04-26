@@ -138,7 +138,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 « Le Wyoming cache votre nom du public » est vrai. « Le Wyoming vous cache de l'IRS, du FinCEN, du fisc et des banques » est totalement faux.
 
 - **Ce qui EST privé: le registre étatique public.** Wyoming, New Mexico et Delaware (avec nominee) NE publient PAS le nom du beneficial owner. Recherche publique du Secretary of State montre seulement l'agent enregistré.
-- **Ce qui N'EST PAS privé: FinCEN BOI Report.** Depuis le Corporate Transparency Act, toute LLC avec <20 employés et <5M$ doit déclarer au FinCEN nom, date naissance, adresse et pièce d'identité de chaque beneficial owner. Pas public mais existe. Sanction 591$/jour.
+- **Ce qui N'EST PAS privé: FinCEN BOI Report.** Depuis le Corporate Transparency Act, toute LLC avec &lt;20 employés et &lt;5M$ doit déclarer au FinCEN nom, date naissance, adresse et pièce d'identité de chaque beneficial owner. Pas public mais existe. Sanction 591$/jour.
 - **Ce qui N'EST PAS privé: votre résidence fiscale.** France, Espagne, Italie reçoivent info via CRS, FATCA-IGA, et demande directe à l'IRS. Cacher la LLC à votre fisc est illusion.
 - **Confidentialité structurée et légale.** Wyoming + nominee + PO Box virtuelle est confidentialité légitime vs concurrents et parties contractuelles. Mais déclarée en résidence et reportée au FinCEN.
 

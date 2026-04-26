@@ -214,7 +214,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 
 A comparação real depende de três alavancas: contribuições, taxas efetivas e carga administrativa.
 
-- **Contribuições Espanha hoje.** Sistema por escalões sobre rendimento líquido, mínimo **~205 €/mês** e máximo **~1.607 €/mês** conforme escalão e base de cotização escolhida (RDL 13/2022). Tarifa plana **80 €/mês nos primeiros 12 meses**, prorrogável 12 mais se rendimento < SMI. IRPF marginal até **47-50 %** consoante região.
+- **Contribuições Espanha hoje.** Sistema por escalões sobre rendimento líquido, mínimo **~205 €/mês** e máximo **~1.607 €/mês** conforme escalão e base de cotização escolhida (RDL 13/2022). Tarifa plana **80 €/mês nos primeiros 12 meses**, prorrogável 12 mais se rendimento &lt; SMI. IRPF marginal até **47-50 %** consoante região.
 - **SMLLC + residência Espanha.** A LLC disregarded **não paga corporate tax federal** (salvo opção C-Corp). O não residente declara os lucros atribuídos no IRPF espanhol (atribuição de rendas, art. 88 LIRPF). Custo anual da estrutura: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Híbrido realista.** Manter autónomo em Espanha para clientes espanhóis (fatura com IVA e retenção) + LLC para clientes internacionais em USD. A LLC não dispensa cotizar à Segurança Social em Espanha se a atividade principal for lá.
 

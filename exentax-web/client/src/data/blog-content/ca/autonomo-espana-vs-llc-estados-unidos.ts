@@ -211,7 +211,7 @@ _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no
 
 La comparativa real depèn de tres palanques: quotes, tipus efectius i càrrega administrativa.
 
-- **Quotes avui autònoms Espanya.** Sistema per trams de rendiments nets, quota mínima **~205 €/mes** i màxima **~1.607 €/mes** (segons tram i base de cotització escollida) (RDL 13/2022). Tarifa plana **80 €/mes els primers 12 mesos**, prorrogable 12 més si rendiments < SMI. IRPF marginal fins al **47-50 %** segons comunitat.
+- **Quotes avui autònoms Espanya.** Sistema per trams de rendiments nets, quota mínima **~205 €/mes** i màxima **~1.607 €/mes** (segons tram i base de cotització escollida) (RDL 13/2022). Tarifa plana **80 €/mes els primers 12 mesos**, prorrogable 12 més si rendiments &lt; SMI. IRPF marginal fins al **47-50 %** segons comunitat.
 - **SMLLC + residència Espanya.** La LLC disregarded **no paga corporate tax federal** (excepte elecció C-Corp). El no resident declara els beneficis atribuïts al seu IRPF a Espanya (règim d'atribució de rendes, art. 88 LIRPF). Cost anual estructura: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Forma híbrida realista.** Mantenir autònom a Espanya per a clients espanyols (factura amb IVA i retenció) + LLC per a clients internacionals en USD. La LLC no eximeix de cotitzar a la Seguretat Social a Espanya si l'activitat principal hi és.
 

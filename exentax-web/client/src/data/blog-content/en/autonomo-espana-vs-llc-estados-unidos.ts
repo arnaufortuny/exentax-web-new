@@ -202,7 +202,7 @@ The numbers and the calendar matter - get either wrong and the rest unravels.
 
 The real comparison hinges on three levers: contributions, effective rates and admin burden.
 
-- **Spain today self-employed contributions.** Tiered system on net income, minimum **~EUR 225/month** and maximum **~EUR 590/month** (RDL 13/2022). Flat rate **EUR 80/month for the first 12 months**, extendable 12 more if income < SMI. Marginal IRPF up to **47-50%** depending on region.
+- **Spain today self-employed contributions.** Tiered system on net income, minimum **~EUR 225/month** and maximum **~EUR 590/month** (RDL 13/2022). Flat rate **EUR 80/month for the first 12 months**, extendable 12 more if income &lt; SMI. Marginal IRPF up to **47-50%** depending on region.
 - **SMLLC + Spain tax residence.** A disregarded LLC pays **no federal corporate tax** (unless C-Corp election). The non-resident reports allocated profits in Spanish IRPF (income attribution, LIRPF art. 88). Annual structure cost: **~USD 225 WY / 450 DE / 125 NM**.
 - **Realistic hybrid setup.** Keep autónomo in Spain for Spanish clients (invoice with VAT and withholding) + LLC for international clients in USD. The LLC does not exempt you from Social Security in Spain if your main activity is there.
 

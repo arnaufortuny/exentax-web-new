@@ -212,7 +212,7 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 
 Der reale Vergleich hängt an drei Hebeln: Beiträge, effektive Sätze und Verwaltungsaufwand.
 
-- **Beiträge Spanien aktuell.** Stufensystem auf Nettoertrag, Minimum **~205 €/Monat**, Maximum **~1.607 €/Monat** (je nach Stufe und gewählter Bemessungsgrundlage) (RDL 13/2022). Pauschale **80 €/Monat für die ersten 12 Monate**, weitere 12 verlängerbar bei Ertrag < SMI. Grenz-IRPF bis **47-50 %** je nach Region.
+- **Beiträge Spanien aktuell.** Stufensystem auf Nettoertrag, Minimum **~205 €/Monat**, Maximum **~1.607 €/Monat** (je nach Stufe und gewählter Bemessungsgrundlage) (RDL 13/2022). Pauschale **80 €/Monat für die ersten 12 Monate**, weitere 12 verlängerbar bei Ertrag &lt; SMI. Grenz-IRPF bis **47-50 %** je nach Region.
 - **SMLLC + Steueransässigkeit Spanien.** Die disregarded LLC zahlt **keine federal corporate tax** (außer C-Corp-Wahl). Der Nicht-Resident erklärt zugerechnete Gewinne in der spanischen IRPF (Zurechnung, LIRPF Art. 88). Jährliche Strukturkosten: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Realistische Hybrid-Struktur.** Autónomo in Spanien für spanische Kunden (Rechnung mit IVA und Einbehalt) + LLC für internationale Kunden in USD. Die LLC befreit nicht von der Sozialversicherung in Spanien, wenn Haupttätigkeit dort liegt.
 

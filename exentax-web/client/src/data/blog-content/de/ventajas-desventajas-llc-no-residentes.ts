@@ -179,7 +179,7 @@ US-wiederkehrende Einnahmen, Expansion in NA-Markt, Marketplace mit US-Entität,
 
 ### Wann nicht
 
-Marge <30k€/Jahr, Residenz mit aggressivem CFC ohne echte Ersparnis.
+Marge &lt;30k€/Jahr, Residenz mit aggressivem CFC ohne echte Ersparnis.
 
 ### Was am häufigsten gefragt wird
 

@@ -11,7 +11,7 @@ Eine SL bringt feste Jahreskosten mit, die ein Autonomo nicht hat: Fachberatung 
 
 ## Reale Vorteile: Schutz, Besteuerung und Professionalität
 
-Die SL bringt drei messbare Vorteile. Erstens: sie begrenzt die Haftung auf das eingezahlte Kapital und schützt Ihr persönliches Vermögen bei Insolvenz oder Klage (mit Einschränkungen, da es Durchgriffshaftungsfälle gibt). Zweitens: sie zahlt Körperschaftsteuer mit den von Gesetz 7/2024 eingeführten ermäßigten Sätzen — Mikrounternehmen (Umsatz < 1.000.000 €) 19% auf die ersten 50.000 € und 21% auf den Rest 2026; kleine Unternehmen (1-10 Mio €) 23%; Regelsatz 25%; gegen 19-47% IRPF; besonders nützlich, wenn Ihre Jahresbasis 60.000 Euro deutlich überschreitet und Sie einen Teil reinvestieren. Drittens: das Image bei Großkunden, Banken, Investoren und Behörden ist deutlich besser, mit Zugang zu Verträgen, die manche Großkonzerne Gesellschaften vorbehalten.
+Die SL bringt drei messbare Vorteile. Erstens: sie begrenzt die Haftung auf das eingezahlte Kapital und schützt Ihr persönliches Vermögen bei Insolvenz oder Klage (mit Einschränkungen, da es Durchgriffshaftungsfälle gibt). Zweitens: sie zahlt Körperschaftsteuer mit den von Gesetz 7/2024 eingeführten ermäßigten Sätzen — Mikrounternehmen (Umsatz &lt; 1.000.000 €) 19% auf die ersten 50.000 € und 21% auf den Rest 2026; kleine Unternehmen (1-10 Mio €) 23%; Regelsatz 25%; gegen 19-47% IRPF; besonders nützlich, wenn Ihre Jahresbasis 60.000 Euro deutlich überschreitet und Sie einen Teil reinvestieren. Drittens: das Image bei Großkunden, Banken, Investoren und Behörden ist deutlich besser, mit Zugang zu Verträgen, die manche Großkonzerne Gesellschaften vorbehalten.
 
 ## Doppelbesteuerung: der Nachteil, den wenige erwähnen
 
@@ -39,7 +39,7 @@ Das Rechtsregime steht im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-20
 | **Mitarbeiter** | Kann einstellen | Ja, mit SS-Beiträgen | Nein (in Spanien, via Externalvertrag) |
 | **Auflösung** | Sofortige IAE-Abmeldung | 6-12 Monate + Notar + 600-1.500€ | 200-400€ + Operating Agreement |
 | **Geschäftsbild** | Einzelner Berufstätiger | Nationales Unternehmen | Globale US-Marke |
-| **Ideal für** | Start oder <80k€/Jahr | Spanisches physisches Geschäft, Team, Gewinne behalten | Digital remote, US/EU B2B-Kunden |
+| **Ideal für** | Start oder &lt;80k€/Jahr | Spanisches physisches Geschäft, Team, Gewinne behalten | Digital remote, US/EU B2B-Kunden |
 
 ## Praxisfälle: wann SL vs LLC sich lohnt
 
@@ -106,6 +106,27 @@ Was wir jede Woche sehen in den Fällen, die uns erreichen, ist immer dasselbe M
 
 Wenn Sie vom Zweifel zum Plan kommen wollen, buchen Sie 30 Minuten mit Exentax und wir verlassen das Gespräch mit geschlossenen Zahlen und einem operativen Kalender.
 <!-- /exentax:execution-v2 -->
+
+
+<!-- exentax:defensa-fiscal-v1 -->
+## Was, wenn das Finanzamt nach meiner LLC fragt?
+
+  Das ist die Frage, die in der ersten Beratung am häufigsten gestellt wird, und die kurze Antwort lautet: Ihre LLC ist nicht intransparent, und bei korrekter Deklaration schließt eine Prüfung mit Standardformularen ab. Das deutsche Finanzamt, das österreichische Finanzamt oder die kantonale Steuerverwaltung können das Certificate of Formation des Bundesstaats (Wyoming, Delaware oder New Mexico), die vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ausgestellte EIN, das unterzeichnete Operating Agreement, die Mercury- oder Wise-Auszüge des Geschäftsjahres, den eingereichten Form 5472 mit 1120 pro-forma sowie die Buchhaltung anfordern, die Einnahmen, Ausgaben und Bewegungen abstimmt. Liegt all das geordnet vor, eskaliert die Prüfung nicht.
+
+  Was die Steuerbehörden zu Recht verfolgen, sind Strohmannstrukturen, Papier-Steueransässigkeit und nicht erklärte Auslandskonten. Eine sauber aufgesetzte LLC ist genau das Gegenteil: Sie erscheinen als **wirtschaftlich Berechtigter** im BOI Report, wenn er anwendbar ist (überprüfbar unter <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), Sie unterschreiben die Bankkonten und Sie erklären das Einkommen dort, wo Sie leben. Die Struktur ist beim Secretary of State des Bundesstaats registriert, in den IRS-Akten und, sobald eine europäische Bank im Spiel ist, innerhalb des CRS-Perimeters der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.
+
+  Der Fehler, der eine Prüfung wirklich entgleisen lässt, ist nicht die LLC selbst, sondern die fehlerhafte Zuordnung des Einkommens in der persönlichen Einkommensteuererklärung, das fehlende KAP/AUS bei deutschen Residenten oder die unterlassene Anlage A1 und Beilagen E25/E26 bei österreichischen Residenten. Diese drei Fronten schließen wir vor der Anfrage, nicht danach.
+
+  ## Was eine LLC NICHT tut
+
+  - **Sie befreit Sie nicht von der Steuerpflicht zu Hause.** Wer in Deutschland, Österreich oder der Schweiz steuerlich ansässig ist, versteuert das Welteinkommen vor Ort. Die LLC ordnet den US-Teil (null Bundesteuer für die SMLLC pass-through ohne ECI), sie schaltet die heimische Besteuerung nicht ab. Die Einkommensteuer wird auf den zugewiesenen Gewinn berechnet, nicht auf die tatsächlich ausgeschütteten Beträge.
+  - **Sie ist kein Offshore-Konstrukt und keine BEPS-Struktur.** Sie ist eine vom IRS anerkannte US-Gesellschaft, in einem konkreten Bundesstaat mit physischer Adresse, registriertem Agenten und jährlichen Informationspflichten registriert. Klassische Offshore-Standorte (BVI, Belize, Seychellen) hinterlassen keine öffentliche Spur; eine LLC hinterlässt fünf.
+  - **Sie schützt Sie nicht bei vermischten Vermögen.** Das *pierce the corporate veil* greift, sobald ein Gericht erkennt, dass LLC und Gesellschafter dieselbe Geldbörse sind: vermischte Konten, private Ausgaben aus der LLC, kein Operating Agreement, keine Buchhaltung. Drei verdächtige Bewegungen genügen.
+  - **Sie spart keine Sozialbeiträge im Inland.** Freiberufler in Deutschland, Selbständige in Österreich, AHV-Pflichtige in der Schweiz: der monatliche Beitrag bleibt identisch. Die LLC bedient die internationale Kundschaft; der persönliche Sozialbeitrag bleibt unabhängig. Siehe Bekanntmachungen im Bundesgesetzblatt sowie spanische Vergleichsregelungen im <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a>.
+  - **Sie befreit Sie nicht von der Auslandskonto-Meldepflicht.** Deutschland: KAP/AUS, ggf. § 138 AO Anzeige bei Beteiligungen über 10 %. Österreich: Beilagen E25/E26 zur Einkommensteuererklärung. Schweiz: kantonale Vermögensdeklaration. Diese Pflichten liegen bei der Person, nicht bei der LLC.
+
+  Bei Exentax schließen wir diese fünf Fronten jedes Jahr parallel zum US-Bundeskalender (Form 5472, 1120 pro-forma, FBAR, staatlicher Annual Report, BOI Report bei Anwendbarkeit). Ziel ist, dass keine Prüfung ein loses Ende findet und die Struktur einer rückwirkenden Prüfung über 5 bis 7 Jahre standhält.
+<!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>

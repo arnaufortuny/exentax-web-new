@@ -152,7 +152,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 "Wyoming oculta o seu nome do público" é verdade. "Wyoming oculta-o do IRS, FinCEN, AT e bancos" é totalmente falso.
 
 - **O que É privado: o registo estatal público.** Wyoming, New Mexico e Delaware (com nominee) NÃO publicam o nome do beneficial owner. Pesquisa pública do Secretary of State só mostra o registered agent.
-- **O que NÃO é privado: FinCEN BOI Report.** Desde o Corporate Transparency Act, toda LLC <20 empregados e <5M$ tem de reportar ao FinCEN nome, data nascimento, morada e ID de cada beneficial owner. Não público mas existe. Sanção $591/dia.
+- **O que NÃO é privado: FinCEN BOI Report.** Desde o Corporate Transparency Act, toda LLC &lt;20 empregados e &lt;5M$ tem de reportar ao FinCEN nome, data nascimento, morada e ID de cada beneficial owner. Não público mas existe. Sanção $591/dia.
 - **O que NÃO é privado: a sua residência fiscal.** PT, ES, FR recebem info via CRS, FATCA-IGA, pedido directo ao IRS. Esconder a LLC ao Fisco é ilusão.
 - **Privacidade estruturada e legal.** Wyoming + nominee + PO Box virtual é privacidade legítima vs concorrentes. Mas declarada em residência e reportada ao FinCEN.
 

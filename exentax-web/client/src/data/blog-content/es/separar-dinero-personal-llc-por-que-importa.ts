@@ -2,7 +2,7 @@ export default `
 
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos</a>.</p>
 
-Si tienes una LLC en Estados Unidos, una de las mejores prácticas que puedes adoptar desde el primer día es mantener una separación clara entre tu dinero personal y el dinero de tu empresa. Es una práctica profesional que refuerza la <a href="/es/blog/llc-seguridad-juridica-proteccion-patrimonial">protección patrimonial</a> que tu LLC te ofrece y simplifica toda tu gestión financiera.
+Tres movimientos sospechosos entre tu cuenta personal y la de tu LLC bastan para que un juez estadounidense levante el velo corporativo (*pierce the corporate veil*) y deje tu patrimonio personal expuesto. Y la AEAT, en paralelo, puede recalificar esos flujos como rendimientos personales no declarados, con sanción del 50-150 % de la cuota dejada de ingresar. Por eso mantener una separación estricta entre tu dinero personal y el de tu empresa es la primera práctica que blinda la <a href="/es/blog/llc-seguridad-juridica-proteccion-patrimonial">protección patrimonial</a> que tu LLC te ofrece y, además, simplifica toda tu gestión financiera.
 
 En este artículo te explicamos por qué es tan importante, qué consecuencias tiene mezclar fondos, y cómo implementar una separación financiera sólida desde el primer día.
 

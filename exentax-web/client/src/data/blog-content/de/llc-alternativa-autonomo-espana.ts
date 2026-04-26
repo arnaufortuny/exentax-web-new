@@ -194,7 +194,7 @@ Die Frage kommt fast jede Woche: "Kann ich mein Gewerbe abmelden und alles aus e
 - **Was die LLC spart.** Krankenkassenbeiträge bei Befreiung, Gewerbesteuer-Freibetragsspielraum, operative Reibung mit internationalen Kunden: USD/EUR-Rechnungen ohne USt-Überschneidung, sofortiger Mercury-Empfang, USD-Karten für Meta/Google ohne Aufschlag. Image als Firma gegenüber KMU.
 - **Was sie NICHT spart.** Die ESt auf Gewinne. Das Finanzamt rechnet LLC-Einkünfte Ihrer persönlichen ESt zu (single-member LLC transparent). Sie werden als gewerbliche/selbständige Einkünfte zum Grenzsteuersatz besteuert (bis 45% + Soli), wie ein Einzelunternehmer.
 - **Wann der Wechsel sich lohnt.** >70% internationale Kunden, Jahresvolumen >40-60k, hohe lokale Sozialbeiträge, Tätigkeit ohne Kammerpflicht. In diesem Profil spart die LLC 3-7k EUR jährlich.
-- **Wann sich NICHT lohnt.** Meist deutsche Kunden (bevorzugen DE-USt-Rechnung), Volumen <30k jährlich, regulierte Tätigkeit mit Kammerpflicht. Selbständiger bleibt effizienter.
+- **Wann sich NICHT lohnt.** Meist deutsche Kunden (bevorzugen DE-USt-Rechnung), Volumen &lt;30k jährlich, regulierte Tätigkeit mit Kammerpflicht. Selbständiger bleibt effizienter.
 
 ### Was am häufigsten gefragt wird
 

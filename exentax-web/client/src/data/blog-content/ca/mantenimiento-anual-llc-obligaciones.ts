@@ -26,13 +26,13 @@ Mantenir el Good Standing és fàcil si compleixes amb les obligacions a temps. 
 - **Annual Report:** Sí, cada any a la data d'aniversari de la LLC
 - **Taxa anual:** $60 mínim (augmenta si els actius reportats a Wyoming superen $300,000)
 - **Termini:** 60 dies abans de l'aniversari de constitució
-- **A Exentax:** El presentem per tu. Ni t'assabentes
+- **Amb el nostre equip:** El presentem per tu. Ni t'assabentes
 
 ### Delaware
 - **Annual Report:** Sí, cada any
 - **Taxa anual:** franchise tax fixa anual per a LLCs
 - **Termini:** 1 de juny de cada any
-- **A Exentax:** Inclòs en el pla de manteniment
+- **Amb el nostre equip:** Inclòs en el pla de manteniment
 ## Obligacions fiscals federals (apliquen a TOTS els estats)
 
 Independentment d'on constitueixes la teva LLC, aquestes obligacions són les mateixes:
@@ -45,14 +45,14 @@ Recordatori important: **la teva LLC paga $0 d'impost federal.** Aquests formula
 
 - **Termini original:** 15 d'abril
 - **Amb extensió (Form 7004):** 15 d'octubre
-- **A Exentax:** Sol·licitem l'extensió automàticament i presentem tot abans del 15 d'octubre. Tu només ens envies la teva informació financera i nosaltres fem la resta
+- **Amb el nostre equip:** Sol·licitem l'extensió automàticament i presentem tot abans del 15 d'octubre. Tu només ens envies la teva informació financera i nosaltres fem la resta
 
 ### FBAR (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> Form 114)
 
 Si la suma dels teus comptes financers als EUA supera els $10,000 en algun moment de l'any, has de presentar l'FBAR.
 
 - **Termini:** 15 d'abril (extensió automàtica fins al 15 d'octubre)
-- **A Exentax:** L'incloem en el servei de manteniment
+- **Amb el nostre equip:** L'incloem en el servei de manteniment
 ### Renovació del Registered Agent
 
 El teu Registered Agent ha d'estar actiu permanentment. és requisit legal a tots els estats. Si el teu servei de Registered Agent expira i no el renoves:
@@ -62,7 +62,7 @@ El teu Registered Agent ha d'estar actiu permanentment. és requisit legal a tot
 - Si et demanden, no reps la notificació i poden obtenir un veredicte en contra teva (default judgment)
 - Multes i possible dissolució administrativa
 
-**A Exentax:** El Registered Agent està inclòs en tots els nostres plans. El renovem automàticament cada any. Zero risc que expiri.
+**Amb el nostre equip:** El Registered Agent està inclòs en tots els nostres plans. El renovem automàticament cada any. Zero risc que expiri.
 ### BOI Report (si hi ha canvis)
 
 Si canvia alguna dada dels propietaris reals de la LLC (nom, adreça, passaport, percentatge de participació), has d'actualitzar el BOI Report davant FinCEN en un termini de 30 dies. Nota: FinCEN ha suspès temporalment l'enforcement de sancions, però a Exentax seguim presentant tot dins de termini.

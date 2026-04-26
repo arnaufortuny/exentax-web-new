@@ -183,7 +183,7 @@ La pregunta arriba gairebé cada setmana: "puc tancar la meva alta d'autònom i 
 - **El que sí estalvia la LLC.** Quotes d'autònom (300-600 EUR/mes segons base), si et dones de baixa del RETA. Friccions operatives amb clients internacionals: factures en USD/EUR sense IVA encreuat, cobrament instantani a Mercury, targetes en USD per a Meta/Google sense recàrrec. Imatge d'empresa davant pimes que prefereixen contractar entitats abans que autònoms.
 - **El que NO t'estalvia.** L'IRPF sobre els beneficis. Hisenda atribueix els rendiments de la LLC al teu IRPF personal per la regla de transparència/atribució (la LLC single-member US és desestimada). Tributaràs com a activitat econòmica al tipus marginal (24-47% segons tram), exactament igual que com a autònom.
 - **Quan compensa el canvi.** Tens >70% clients internacionals (USA, UE B2B, LATAM), volum anual >40-60k, pagues una quota d'autònom alta (segona tarifa o més), i la teva activitat no requereix alta sectorial específica. En aquest perfil, la LLC estalvia 3-7k EUR anuals en quotes i operativa.
-- **Quan NO compensa.** Majoria de clients espanyols (que prefereixen factura amb IVA i NIF espanyol), volum <30k anuals (els costos de manteniment es mengen l'estalvi), o activitat regulada que requereix alta col·legial. En aquests casos, l'autònom continua sent més eficient.
+- **Quan NO compensa.** Majoria de clients espanyols (que prefereixen factura amb IVA i NIF espanyol), volum &lt;30k anuals (els costos de manteniment es mengen l'estalvi), o activitat regulada que requereix alta col·legial. En aquests casos, l'autònom continua sent més eficient.
 
 ### Què ens pregunten més
 

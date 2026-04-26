@@ -179,7 +179,7 @@ Cobraments US recurrents, expansió al mercat nord-americà, marketplace que exi
 
 ### Quan NO convé
 
-Marge <30k€/any, residència amb CFC agressiu sense estalvi real.
+Marge &lt;30k€/any, residència amb CFC agressiu sense estalvi real.
 
 ### El que més ens pregunten
 

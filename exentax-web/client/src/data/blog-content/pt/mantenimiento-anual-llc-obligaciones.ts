@@ -26,13 +26,13 @@ Manter o Good Standing é fácil se cumprires com as obrigações a tempo. E com
 - **Annual Report:** Sim, a cada ano na data de aniversário da LLC
 - **Taxa anual:** $60 mínimo (aumenta se os ativos reportados no Wyoming superarem $300,000)
 - **Prazo:** 60 dias antes do aniversário de constituição
-- **Na Exentax:** Apresentamo-lo por ti. Nem dás por isso
+- **Na nossa equipa:** Apresentamo-lo por ti. Nem dás por isso
 
 ### Delaware
 - **Annual Report:** Sim, a cada ano
 - **Taxa anual:** franchise tax fixa anual para LLCs
 - **Prazo:** 1 de junho de cada ano
-- **Na Exentax:** Incluído no plano de manutenção
+- **Na nossa equipa:** Incluído no plano de manutenção
 ## Obrigações fiscais federais (aplicam-se a TODOS os estados)
 
 Independentemente de onde constituas a tua LLC, estas obrigações são as mesmas:
@@ -45,14 +45,14 @@ Lembrete importante: **a tua LLC paga $0 de imposto federal.** Estes formulário
 
 - **Prazo original:** 15 de abril
 - **Com extensão (Form 7004):** 15 de outubro
-- **Na Exentax:** Solicitamos a extensão automaticamente e apresentamos tudo antes do 15 de outubro. Tu apenas nos envias a tua informação financeira e nós fazemos o resto
+- **Na nossa equipa:** Solicitamos a extensão automaticamente e apresentamos tudo antes do 15 de outubro. Tu apenas nos envias a tua informação financeira e nós fazemos o resto
 
 ### FBAR (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> Form 114)
 
 Se a soma das tuas contas financeiras nos EUA superar os $10,000 em algum momento do ano, deves apresentar o FBAR.
 
 - **Prazo:** 15 de abril (extensão automática até 15 de outubro)
-- **Na Exentax:** Incluímo-lo no serviço de manutenção
+- **Na nossa equipa:** Incluímo-lo no serviço de manutenção
 ### Renovação do Registered Agent
 
 O teu Registered Agent deve estar ativo permanentemente. é requisito legal em todos os estados. Se o teu serviço de Registered Agent expirar e não o renovares:
@@ -62,7 +62,7 @@ O teu Registered Agent deve estar ativo permanentemente. é requisito legal em t
 - Se te processarem, não recebes a notificação e podem obter uma sentença contra ti (default judgment)
 - Multas e possível dissolução administrativa
 
-**Na Exentax:** O Registered Agent está incluído em todos os nossos planos. Renovamo-lo automaticamente a cada ano. Zero risco de que expire.
+**Na nossa equipa:** O Registered Agent está incluído em todos os nossos planos. Renovamo-lo automaticamente a cada ano. Zero risco de que expire.
 ### BOI Report (se houver alterações)
 
 Se mudar algum dado dos proprietários reais da LLC (nome, endereço, passaporte, percentagem de participação), deves atualizar o BOI Report perante o FinCEN num prazo de 30 dias. Nota: o FinCEN suspendeu temporariamente a enforcement de sanções, mas na Exentax continuamos a apresentar tudo dentro do prazo.

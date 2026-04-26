@@ -176,7 +176,7 @@ Encaissements US récurrents, expansion marché nord-américain, marketplace exi
 
 ### Quand non
 
-Marge <30k€/an, résidence avec CFC agressif sans économie réelle, profil sans besoin du système US.
+Marge &lt;30k€/an, résidence avec CFC agressif sans économie réelle, profil sans besoin du système US.
 
 ### Ce qu'on nous demande le plus
 

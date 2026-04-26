@@ -182,7 +182,7 @@ Cobros US recurrentes (Stripe, contratos B2B), expansión a mercado norteamerica
 
 ### Cuándo NO conviene
 
-Margen <30k EUR/año (los costes comen), residencia con CFC agresivo y sin ahorro real, perfil que no necesita el sistema US (clientes solo locales, cobros SEPA), expectativa principal "pagar menos impuestos en residencia" sin caso técnico que lo soporte.
+Margen &lt;30k EUR/año (los costes comen), residencia con CFC agresivo y sin ahorro real, perfil que no necesita el sistema US (clientes solo locales, cobros SEPA), expectativa principal "pagar menos impuestos en residencia" sin caso técnico que lo soporte.
 
 ### Lo que más nos preguntan
 

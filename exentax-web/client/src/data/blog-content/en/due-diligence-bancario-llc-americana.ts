@@ -125,7 +125,7 @@ One adjacent read worth having open alongside this one: <a href="/en/blog/anti-m
 | **Client diversity** | Multiple clients | 2-3 clients | Single client only |
 | **Documentation** | All invoices match deposits | Most documented | Little documentation |
 | **KYC status** | Fully verified | Pending updates | Expired documents |
-| **Chargeback rate** | < 0.5% | 0.5-1% | > 1% |
+| **Chargeback rate** | &lt; 0.5% | 0.5-1% | > 1% |
 
 If you're in the "high risk" column for any factor, address it immediately. At Exentax, we review your account setup during onboarding to eliminate freeze risk factors before they become problems.
 

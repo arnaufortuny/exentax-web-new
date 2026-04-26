@@ -181,7 +181,7 @@ The question lands almost every week: "can I deregister as self-employed and inv
 - **What the LLC does save.** Self-employed contributions (300-600 EUR/month depending on base), if you deregister from RETA. Operational friction with international clients: USD/EUR invoices without crossed VAT, instant Mercury collection, USD cards for Meta/Google without surcharge. Company image with SMBs preferring entities over individuals.
 - **What it does NOT save.** IRPF on profits. The tax authority attributes LLC income to your personal IRPF under the attribution rule (single-member LLC is disregarded). You will be taxed as business activity at the marginal rate (24-47%), exactly like self-employed.
 - **When the switch pays.** You have >70% international clients (USA, EU B2B, LATAM), annual volume >40-60k, you pay a high self-employed rate, and your activity does not require a sectoral registration. In this profile, the LLC saves 3-7k EUR yearly in fees and operations.
-- **When it does NOT pay.** Mostly Spanish clients (preferring Spanish-VAT invoices), volume <30k annually (maintenance eats the saving), or regulated activity requiring professional registration. Here, self-employed remains more efficient.
+- **When it does NOT pay.** Mostly Spanish clients (preferring Spanish-VAT invoices), volume &lt;30k annually (maintenance eats the saving), or regulated activity requiring professional registration. Here, self-employed remains more efficient.
 
 ### What we are asked the most
 

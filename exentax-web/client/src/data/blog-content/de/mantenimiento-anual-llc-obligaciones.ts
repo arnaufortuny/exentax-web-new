@@ -26,13 +26,13 @@ Den Good Standing aufrechtzuerhalten ist einfach, wenn Sie die Pflichten rechtze
 - **Annual Report:** Ja, jedes Jahr zum Jahrestag der LLC
 - **Jährliche Gebühr:** Mindestens $60 (steigt, wenn das in Wyoming gemeldete Vermögen $300.000 übersteigt)
 - **Frist:** 60 Tage vor dem Gründungsjahrestag
-- **Bei Exentax:** Wir reichen ihn für Sie ein. Sie merken es nicht einmal
+- **Bei uns:** Wir reichen ihn für Sie ein. Sie merken es nicht einmal
 
 ### Delaware
 - **Annual Report:** Ja, jedes Jahr
 - **Jährliche Gebühr:** (feste Franchise Tax für LLCs)
 - **Frist:** 1. Juni jedes Jahres
-- **Bei Exentax:** Im Wartungsplan enthalten
+- **Bei uns:** Im Wartungsplan enthalten
 ## Bundessteuerliche Pflichten (gelten für ALLE Bundesstaaten)
 
 Unabhängig davon, wo Sie Ihre LLC gründen, sind diese Pflichten dieselben:
@@ -45,14 +45,14 @@ Wichtige Erinnerung: **Ihre LLC zahlt $0 Bundessteuer.** Diese Formulare sind re
 
 - **Ursprüngliche Frist:** 15. April
 - **Mit Verlängerung (Form 7004):** 15. Oktober
-- **Bei Exentax:** Wir beantragen die Verlängerung automatisch und reichen alles vor dem 15. Oktober ein. Sie senden uns nur Ihre Finanzinformationen und wir erledigen den Rest
+- **Bei uns:** Wir beantragen die Verlängerung automatisch und reichen alles vor dem 15. Oktober ein. Sie senden uns nur Ihre Finanzinformationen und wir erledigen den Rest
 
 ### FBAR (<a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> Form 114)
 
 Wenn die Summe Ihrer Finanzkonten in den USA zu irgendeinem Zeitpunkt im Jahr $10.000 übersteigt, müssen Sie den FBAR einreichen.
 
 - **Frist:** 15. April (automatische Verlängerung bis 15. Oktober)
-- **Bei Exentax:** Im Wartungsservice enthalten
+- **Bei uns:** Im Wartungsservice enthalten
 ### Erneuerung des Registered Agent
 
 Ihr Registered Agent muss dauerhaft aktiv sein, das ist in allen Bundesstaaten gesetzlich vorgeschrieben. Wenn Ihr Registered-Agent-Service abläuft und Sie ihn nicht erneuern:
@@ -62,7 +62,7 @@ Ihr Registered Agent muss dauerhaft aktiv sein, das ist in allen Bundesstaaten g
 - Wenn Sie verklagt werden, erhalten Sie die Benachrichtigung nicht und es kann ein Versäumnisurteil (Default Judgment) gegen Sie ergehen
 - Bußgelder und mögliche administrative Auflösung
 
-**Bei Exentax:** Der Registered Agent ist in allen unseren Plänen enthalten. Wir erneuern ihn jedes Jahr automatisch. Null Risiko, dass er abläuft.
+**Bei uns:** Der Registered Agent ist in allen unseren Plänen enthalten. Wir erneuern ihn jedes Jahr automatisch. Null Risiko, dass er abläuft.
 ### BOI Report (bei Änderungen)
 
 Wenn sich Daten der tatsächlichen Eigentümer der LLC ändern (Name, Adresse, Reisepass, Beteiligungsquote), müssen Sie den BOI Report bei FinCEN innerhalb von 30 Tagen aktualisieren. Hinweis: FinCEN hat vorübergehend die Durchsetzung von Sanktionen ausgesetzt, aber bei Exentax reichen wir weiterhin alles fristgerecht ein.

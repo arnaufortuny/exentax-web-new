@@ -121,6 +121,52 @@ Lo que vemos cada semana en los casos que nos llegan es el mismo patrón: la dud
 Si quieres pasar de la duda al plan, agenda 30 minutos con Exentax y salimos de la llamada con los números cerrados y el calendario operativo.
 <!-- /exentax:execution-v2 -->
 
+
+<!-- exentax:defensa-fiscal-v1 -->
+## ¿Y si la AEAT me pregunta por mi LLC?
+
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+
+  Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
+
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+
+  ## Lo que NO hace una LLC
+
+  - **No te exime de tributar en España.** Si vives en España, tributas en España por la renta mundial. La LLC ordena tu fiscalidad estadounidense (cero impuesto federal en Single-Member LLC pass-through, salvo Effectively Connected Income), no la española. La cuota del IRPF se calcula sobre el beneficio atribuido, no sobre los dividendos cobrados.
+  - **No es una "offshore" ni un esquema BEPS.** Es una entidad estadounidense reconocida por el IRS, registrada en un estado concreto con dirección física, con agente registrado y con obligaciones informativas anuales. Las jurisdicciones offshore clásicas (BVI, Belice, Seychelles) no aparecen en ningún papel; una LLC sí, en cinco sitios distintos.
+  - **No te protege si hay confusión patrimonial.** El velo corporativo (*pierce the corporate veil*) se levanta en cuanto un juez detecta que la LLC y el socio son la misma persona en la práctica: cuentas mezcladas, gastos personales pagados desde la cuenta de la LLC, sin Operating Agreement firmado o sin contabilidad mínima. Tres movimientos sospechosos bastan.
+  - **No te ahorra cotizaciones a la Seguridad Social en España.** Si eres residente fiscal en España y autónomo, tu cuota mensual sigue siendo la misma. La LLC opera tu actividad económica frente a clientes internacionales; tu cotización personal en RETA es independiente y depende de tu base elegida en el <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de Seguridad Social.
+  - **No te libra de declarar las cuentas extranjeras.** Si la suma de cuentas en EE. UU. (Mercury, Relay, Wise USD) supera 50.000 € a 31/12, **Modelo 720** antes del 31 de marzo. Si tienes criptoactivos custodiados en exchanges fuera de España por más de 50.000 €, **Modelo 721** en el mismo plazo. Las dos obligaciones son del residente fiscal, no de la LLC.
+
+  En Exentax revisamos estos cinco frentes cada año junto con el calendario federal estadounidense (Form 5472, 1120 pro-forma, FBAR, Annual Report estatal y BOI Report cuando aplique). El objetivo es que ninguna inspección encuentre un cabo suelto y que la estructura sostenga revisiones a 5-7 años vista.
+<!-- /exentax:defensa-fiscal-v1 -->
+
+<!-- exentax:calendario-2026-v1 -->
+  ## Calendario fiscal 2026: las 7 fechas que importan
+
+  Ningún plan fiscal sobrevive a un calendario olvidado. Estas son las fechas que marcamos en rojo cada año para clientes con LLC americana operada desde España, y las que conviene tener apuntadas aunque solo cotices como autónomo en España:
+
+  - **31 de enero de 2026** — Plazo final para enviar formularios <a href="https://www.irs.gov" target="_blank" rel="noopener">1099-NEC</a> y <a href="https://www.irs.gov" target="_blank" rel="noopener">W-9 / W-8BEN-E</a> a contratistas y plataformas estadounidenses. Si tu LLC pagó más de 600 USD a un contratista americano, debe emitirle un 1099-NEC. Si recibiste pagos de plataformas (Upwork, Fiverr, Stripe Connect), guarda tu W-8BEN-E firmada del año.
+  - **31 de marzo de 2026** — **Modelo 720** (declaración informativa de bienes y derechos en el extranjero) si la suma de cuentas bancarias fuera de España (Mercury, Relay, Wise USD, Revolut Business) superó 50.000 € a 31/12/2025. Las sanciones por incumplimiento son proporcionales gracias a la STJUE 2022, pero el régimen general LGT sigue vigente con multas de hasta el 150 % de la cuota dejada de ingresar.
+  - **15 de abril de 2026** — Vencimiento del **Form 5472 + 1120 pro-forma** ante el IRS para Single-Member LLC con propietario extranjero. Multa automática de 25.000 USD por incumplimiento, replicada cada 30 días desde la notificación. Es el formulario que más nos llega tarde y el más caro de ignorar.
+  - **30 de junio de 2026** — **Renta 2025 (Modelo 100)** en España, con la atribución de rentas de la LLC en el apartado correspondiente (rendimientos de actividades económicas en estimación directa o, según el caso, rendimientos de capital mobiliario por dividendos asimilados). Aquí se cruza la información del 720 y el cálculo se debe sostener con la conciliación contable de la LLC.
+  - **31 de julio de 2026** — **Modelo 232** de operaciones vinculadas si has facturado más de 250.000 € entre tú (persona física) y tu LLC, o si has hecho operaciones específicas (préstamos, cesión de marca, alquileres) entre la LLC y tu otra sociedad española. Se olvida con frecuencia y la AEAT lo cruza automáticamente.
+  - **15 de octubre de 2026** — Annual Report estatal (Wyoming 60 USD, Delaware 300 USD de Franchise Tax, Nuevo México sin Annual Report). El estado disuelve administrativamente la LLC si no se presenta dos años seguidos.
+  - **31 de diciembre de 2026** — Cierre contable. Conciliación final Mercury + Wise + Stripe + PayPal + cripto (si aplica), inventario de saldos a 31/12 para el 720 del año siguiente y revisión del **BOI Report** ante FinCEN si hubo cambios de domicilio, beneficial owner o dirección postal durante el año.
+
+  ## Tres errores que vemos cada semana
+
+  **Error #1: cobrar a la cuenta personal "porque es más rápido".** Cada cobro que entra en tu cuenta personal en lugar de la LLC rompe el velo corporativo y obliga a explicarlo en una eventual inspección. La regla es simple: si la factura va a nombre de la LLC, el cobro entra en la cuenta de la LLC; lo que tú quieras como persona se transfiere después como distribución de socio, con su asiento contable.
+
+  **Error #2: confundir "0 % de impuesto en EE. UU." con "0 % de impuesto en total".** El cero federal americano solo aplica al lado estadounidense de la operación. En España, el residente fiscal tributa por la renta mundial: el beneficio atribuido de la LLC se integra en el IRPF como rendimiento de actividades económicas (estimación directa simplificada o normal según el caso). Olvidar esto es el origen del 90 % de los avisos cuando la AEAT cruza el Modelo 720 con la declaración del IRPF.
+
+  **Error #3: no documentar la separación de fondos.** Tener cuentas separadas no basta: hay que poder demostrar, factura a factura, que cada movimiento tiene una contrapartida documental. Una hoja de cálculo mensual con fecha, contraparte, concepto, importe y saldo final, archivada junto con los extractos PDF, vale más que tres asesores en una inspección. Si tu LLC opera con criptomonedas o usa Stripe en varias divisas, el cierre mensual se vuelve obligatorio: dejarlo para diciembre es perder dos semanas y arriesgarse a errores de conversión que invalidan toda la cadena.
+
+  En Exentax cerramos estos tres frentes con una rutina mensual de 45 minutos por cliente: conciliación bancaria, archivo documental, alertas de calendario y revisión cruzada España-EE. UU. Es la manera más barata de evitar requerimientos y la única que sostiene una estructura LLC + IRPF a 5-7 años vista.
+  <!-- /exentax:calendario-2026-v1 -->
+
+
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Las%20retenciones%20de%20IRPF%20en%20factura%20son%20la%20manera%20que%20tiene%20Hacienda%20de%20cobrar%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 

@@ -124,7 +124,7 @@ Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine m
 
 | Jahresvolumen | Empfohlener Aufbau |
 |---|---|
-| < 50.000 USD | Nur Mercury |
+| &lt; 50.000 USD | Nur Mercury |
 | 50-300.000 USD | Mercury + Wise (Multi-Currency) |
 | 300.000-1 Mio. USD | Mercury + Relay (Buckets) + Wise (FX) |
 | > 1 Mio. USD | Mercury + Relay + Wise + traditionelles US-Konto (Bank of America/Chase) für Skalen-Wires |

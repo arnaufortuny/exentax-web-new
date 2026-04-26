@@ -1,6 +1,6 @@
 export default `
 
-Si tienes una LLC en Estados Unidos, o estás pensando en tener una, vas a escuchar mucho sobre el **IRS**. Mucho. Es la entidad con la que tendrás más relación desde el punto de vista fiscal. Y es mejor entenderla bien desde el principio.
+¿Cuánto vas a pagar al IRS por tu LLC en 2026? Si eres no residente fiscal en EE. UU. y tu Single-Member LLC factura desde fuera del país (clientes europeos, pago vía Stripe o Wise, sin oficina ni empleados americanos), la respuesta es **0 dólares** de impuesto federal — pero sigues debiendo presentar el Form 5472 más el 1120 pro-forma cada 15 de abril, con multa automática de **25.000 USD por cada año en blanco** y otros 25.000 USD adicionales por cada 30 días de retraso una vez notificado. Esa asimetría (cero impuesto en caja, pero formularios obligatorios bajo amenaza de multa de cinco cifras) es la primera cosa que conviene entender del IRS antes de constituir nada y antes de creer a quien te diga "tu LLC no paga, así que no hay que declarar".
 
 ## ¿Qué es el IRS?
 
@@ -158,6 +158,27 @@ En Exentax actuamos como tu interlocutor con el IRS (preparación de filings, re
 Miles de freelancers y emprendedores ya operan con su LLC americana de forma 100% legal y documentada. En Exentax nos encargamos de todo el proceso: constitución, banca, pasarelas de pago, contabilidad, declaraciones IRS y compliance en tu país de residencia. Agenda una asesoría gratuita y te diremos con sinceridad si la LLC tiene sentido para tu caso, sin promesas absolutas.
 
 ¿Quieres aplicar este protocolo a tu caso? <a href="/es/agendar">Reserva una sesión con el equipo de Exentax</a> y revisamos tu LLC con números reales en treinta minutos, sin compromiso.
+
+
+<!-- exentax:defensa-fiscal-v1 -->
+## ¿Y si la AEAT me pregunta por mi LLC?
+
+  Es la pregunta que más nos hace todo el mundo en la primera consulta y tiene una respuesta corta: tu LLC no es opaca y, si está bien declarada, una inspección se cierra en formularios estándar. La <a href="https://www.agenciatributaria.gob.es" target="_blank" rel="noopener">AEAT</a> puede pedirte el certificado de constitución del estado (Wyoming, Delaware o Nuevo México), el EIN emitido por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, el Operating Agreement firmado, los extractos de Mercury o Wise del ejercicio, el Form 5472 con el 1120 pro-forma presentado y la conciliación contable que cuadra ingresos, gastos y movimientos. Si todo eso existe y se entrega ordenado, la inspección no escala.
+
+  Lo que la AEAT sí persigue, y con razón, es la titularidad simulada (testaferros, *prestanombres*, residencia fiscal de papel) y la falta de declaración del Modelo 720 / 721. Una LLC bien montada es exactamente lo contrario de eso: tú apareces como **beneficial owner** en el BOI Report cuando aplica (verificable en <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), tú firmas las cuentas bancarias y tú declaras la renta donde corresponde. La estructura está registrada en el Secretary of State del estado correspondiente, en los archivos del IRS y, si se opera con bancos europeos, también queda dentro del perímetro CRS del estándar de la <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
+
+  El error que sí hunde una inspección no es tener una LLC, es no haber atribuido la renta correctamente en el IRPF español, no haber presentado el Modelo 720 sobre las cuentas en EE. UU. cuando el saldo a 31/12 supera 50.000 € o no haber documentado las operaciones vinculadas socio-LLC en el Modelo 232 cuando proceda. Esos tres frentes son los que conviene cerrar antes de que llegue cualquier requerimiento, no después.
+
+  ## Lo que NO hace una LLC
+
+  - **No te exime de tributar en España.** Si vives en España, tributas en España por la renta mundial. La LLC ordena tu fiscalidad estadounidense (cero impuesto federal en Single-Member LLC pass-through, salvo Effectively Connected Income), no la española. La cuota del IRPF se calcula sobre el beneficio atribuido, no sobre los dividendos cobrados.
+  - **No es una "offshore" ni un esquema BEPS.** Es una entidad estadounidense reconocida por el IRS, registrada en un estado concreto con dirección física, con agente registrado y con obligaciones informativas anuales. Las jurisdicciones offshore clásicas (BVI, Belice, Seychelles) no aparecen en ningún papel; una LLC sí, en cinco sitios distintos.
+  - **No te protege si hay confusión patrimonial.** El velo corporativo (*pierce the corporate veil*) se levanta en cuanto un juez detecta que la LLC y el socio son la misma persona en la práctica: cuentas mezcladas, gastos personales pagados desde la cuenta de la LLC, sin Operating Agreement firmado o sin contabilidad mínima. Tres movimientos sospechosos bastan.
+  - **No te ahorra cotizaciones a la Seguridad Social en España.** Si eres residente fiscal en España y autónomo, tu cuota mensual sigue siendo la misma. La LLC opera tu actividad económica frente a clientes internacionales; tu cotización personal en RETA es independiente y depende de tu base elegida en el <a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> de Seguridad Social.
+  - **No te libra de declarar las cuentas extranjeras.** Si la suma de cuentas en EE. UU. (Mercury, Relay, Wise USD) supera 50.000 € a 31/12, **Modelo 720** antes del 31 de marzo. Si tienes criptoactivos custodiados en exchanges fuera de España por más de 50.000 €, **Modelo 721** en el mismo plazo. Las dos obligaciones son del residente fiscal, no de la LLC.
+
+  En Exentax revisamos estos cinco frentes cada año junto con el calendario federal estadounidense (Form 5472, 1120 pro-forma, FBAR, Annual Report estatal y BOI Report cuando aplique). El objetivo es que ninguna inspección encuentre un cabo suelto y que la estructura sostenga revisiones a 5-7 años vista.
+<!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22que%20es%20irs%20guia%20duenos%20llc%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>

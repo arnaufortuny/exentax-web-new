@@ -187,7 +187,7 @@ La pregunta llega casi cada semana: "¿puedo cerrar mi alta de autónomo y pasar
 - **Lo que sí ahorra la LLC.** Cuotas de autónomo (300-600 EUR/mes según base), si te das de baja del RETA. Friction operativa con clientes internacionales: facturas en USD/EUR sin IVA cruzado, cobro instantáneo en Mercury, tarjetas en USD para Meta/Google sin recargo. Imagen de empresa frente a pymes que prefieren contratar entidades antes que autónomos.
 - **Lo que NO te ahorra.** El IRPF sobre los beneficios. Hacienda atribuye los rendimientos de la LLC a tu IRPF personal por la regla de transparencia/atribución (la LLC single-member US es desestimada). Tributarás como actividad económica al tipo marginal (24-47% según tramo), exactamente igual que como autónomo.
 - **Cuándo compensa el cambio.** Tienes >70% clientes internacionales (USA, UE B2B, LATAM), volumen anual >40-60k, pago una cuota de autónomo alta (segunda tarifa o más), y tu actividad no requiere alta sectorial específica. En este perfil, la LLC ahorra 3-7k EUR anuales en cuotas y operativa.
-- **Cuándo NO compensa.** Mayoría de clientes españoles (que prefieren factura con IVA y NIF español), volumen <30k anuales (los costes de mantenimiento se comen el ahorro), o actividad regulada que requiere alta colegial. En estos casos, el autónomo sigue siendo más eficiente.
+- **Cuándo NO compensa.** Mayoría de clientes españoles (que prefieren factura con IVA y NIF español), volumen &lt;30k anuales (los costes de mantenimiento se comen el ahorro), o actividad regulada que requiere alta colegial. En estos casos, el autónomo sigue siendo más eficiente.
 
 ### Lo que más nos preguntan
 

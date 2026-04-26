@@ -209,7 +209,7 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 La vraie comparaison dépend de trois leviers: cotisations, taux effectifs et charge administrative.
 
-- **Cotisations Espagne.** Système par tranches sur revenu net, minimum **~205 €/mois** et maximum **~1 607 €/mois** selon la tranche et la base de cotisation choisie (RDL 13/2022). Tarif réduit **80 €/mois les 12 premiers mois**, prolongeable 12 mois si revenu < SMI. IRPF marginal jusqu’à **47-50 %** selon région.
+- **Cotisations Espagne.** Système par tranches sur revenu net, minimum **~205 €/mois** et maximum **~1 607 €/mois** selon la tranche et la base de cotisation choisie (RDL 13/2022). Tarif réduit **80 €/mois les 12 premiers mois**, prolongeable 12 mois si revenu &lt; SMI. IRPF marginal jusqu’à **47-50 %** selon région.
 - **SMLLC + résidence Espagne.** La LLC disregarded **ne paie pas de corporate tax fédéral** (sauf option C-Corp). Le non-résident déclare les bénéfices attribués dans son IRPF en Espagne (régime d'attribution, art. 88 LIRPF). Coût annuel structure: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Hybride réaliste.** Conserver l'autónomo en Espagne pour les clients espagnols (facture avec TVA et retenue) + LLC pour les clients internationaux en USD. La LLC ne dispense pas de cotiser à la Sécurité sociale espagnole si l'activité principale y est.
 

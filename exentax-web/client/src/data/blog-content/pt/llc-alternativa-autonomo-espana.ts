@@ -189,7 +189,7 @@ A pergunta chega quase semanalmente: "posso fechar a minha actividade aberta e f
 - **O que a LLC poupa.** Contribuições da Segurança Social (21,4% sobre rendimento), se cessar actividade. Fricção operacional com clientes internacionais: facturas USD/EUR sem IVA cruzado, cobrança instantânea Mercury, cartões USD para Meta/Google sem majoração. Imagem de empresa face a PMEs.
 - **O que NÃO poupa.** O IRS sobre os lucros. A AT atribui os rendimentos da LLC ao seu IRS pessoal pela regra de atribuição (single-member LLC é transparente). Tributará como rendimento de actividade ao marginal (até 48%), exactamente como independente.
 - **Quando a mudança compensa.** Tem >70% clientes internacionais, volume anual >40-60k, contribuições altas, actividade sem inscrição em ordem. Neste perfil, a LLC poupa 3-7k EUR anuais.
-- **Quando NÃO compensa.** Maioria clientes portugueses (preferem factura com IVA português), volume <30k anuais, ou actividade regulada com inscrição obrigatória. O independente continua mais eficiente.
+- **Quando NÃO compensa.** Maioria clientes portugueses (preferem factura com IVA português), volume &lt;30k anuais, ou actividade regulada com inscrição obrigatória. O independente continua mais eficiente.
 
 ### O que mais nos perguntam
 

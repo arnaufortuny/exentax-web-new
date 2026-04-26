@@ -179,7 +179,7 @@ Cobranças US recorrentes, expansão a mercado norte-americano, marketplace que 
 
 ### Quando NÃO convém
 
-Margem <30k€/ano, residência com CFC agressivo sem poupança real.
+Margem &lt;30k€/ano, residência com CFC agressivo sem poupança real.
 
 ### O que mais nos perguntam
 
