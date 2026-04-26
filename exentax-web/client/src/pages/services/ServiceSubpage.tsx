@@ -120,22 +120,36 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
       />
 
       {/* Hero */}
-      <section className="relative overflow-hidden pb-10 sm:pb-14">
-        <div ref={heroRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
-          <div className="text-center max-w-[820px] mx-auto reveal">
-            <p className="font-heading text-[12px] sm:text-[13px] tracking-[0.18em] uppercase text-[var(--text-2)] mb-3" data-testid={`kicker-${trackingKey}`}>
-              {t(k("hero.kicker"))}
-            </p>
-            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,46px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid={`heading-${trackingKey}-hero`}>
+      <section className="relative overflow-hidden" style={{ paddingBottom: 96 }}>
+        <div ref={heroRef} className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-10 sm:pt-16 lg:pt-24">
+          <div className="text-center mx-auto reveal" style={{ maxWidth: 980 }}>
+            <h1 className="display-wise text-black mb-4" data-testid={`heading-${trackingKey}-hero`}>
               {t(k("hero.h1"))}
             </h1>
-            <p className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[clamp(30px,3vw,40px)] leading-[1.15] tracking-[-0.025em] mb-6 text-[#00E510]">
+            <p
+              className="font-heading mx-auto mb-7"
+              style={{
+                fontSize: "clamp(1rem, 1.4vw, 1.35rem)",
+                lineHeight: 1.2,
+                fontWeight: 900,
+                textTransform: "uppercase",
+                letterSpacing: "-0.01em",
+                maxWidth: 760,
+                color: "#00E510",
+                textWrap: "balance" as never,
+              }}
+              data-testid={`tagline-${trackingKey}-hero`}
+            >
               {t(k("hero.h1green"))}
             </p>
-            <p className="max-w-[680px] text-base lg:text-lg text-black/90 leading-relaxed mb-8 mx-auto" data-testid={`subtitle-${trackingKey}-hero`}>
+            <p
+              className="font-body text-black/75 mx-auto mb-10"
+              style={{ fontSize: "clamp(1rem, 1.4vw, 1.25rem)", lineHeight: 1.55, maxWidth: 660, textWrap: "balance" as never }}
+              data-testid={`subtitle-${trackingKey}-hero`}
+            >
               {t(k("hero.subtitle"))}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mb-2 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href={lp("book")}
                 className="inline-flex items-center justify-center btn-primary px-8 py-3.5 text-base rounded-full"
@@ -161,28 +175,27 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
       </section>
 
       {/* Intro */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16">
-        <div className="text-center mb-8">
-          <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">
-            {t(k("intro.kicker"))}
-          </p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-intro`}>
-            {t(k("intro.h2"))}
-          </h2>
-        </div>
-        <div className="space-y-4 text-[15px] sm:text-base text-black/85 leading-relaxed">
-          {arr<string>("intro.paragraphs").map((p, i) => (
-            <p key={i} data-testid={`text-${trackingKey}-intro-${i}`}>{p}</p>
-          ))}
+      <section className="section-padding">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="section-h2" data-testid={`heading-${trackingKey}-intro`}>
+              {t(k("intro.h2"))}
+            </h2>
+          </div>
+          <div className="space-y-4 text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
+            {arr<string>("intro.paragraphs").map((p, i) => (
+              <p key={i} data-testid={`text-${trackingKey}-intro-${i}`}>{p}</p>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Features grid */}
       {features.length > 0 && (
-        <section className="py-14 sm:py-20">
+        <section className="section-padding">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-features`}>
+              <h2 className="section-h2" data-testid={`heading-${trackingKey}-features`}>
                 {t(k("features.h2"))}
               </h2>
             </div>
@@ -204,54 +217,53 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
 
       {/* Best for + What's included (two columns on desktop) */}
       {(bestFor.length > 0 || includes.length > 0) && (
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            {bestFor.length > 0 && (
-              <div data-testid={`block-${trackingKey}-bestfor`}>
-                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black mb-6">
-                  {t(k("bestFor.h2"))}
-                </h2>
-                <ul className="space-y-3">
-                  {bestFor.map((item, i) => (
-                    <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-bestfor-${i}`}>
-                      <GreenCheck />
-                      <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {includes.length > 0 && (
-              <div data-testid={`block-${trackingKey}-includes`}>
-                <h2 className="font-heading font-bold text-[22px] sm:text-[26px] lg:text-[30px] leading-tight tracking-[-0.02em] text-black mb-6">
-                  {t(k("whatsIncluded.h2"))}
-                </h2>
-                <ul className="space-y-3">
-                  {includes.map((item, i) => (
-                    <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-includes-${i}`}>
-                      <GreenCheck />
-                      <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
+        <section className="section-padding">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+              {bestFor.length > 0 && (
+                <div data-testid={`block-${trackingKey}-bestfor`}>
+                  <h2 className="section-h2 mb-6" data-testid={`heading-${trackingKey}-bestfor`}>
+                    {t(k("bestFor.h2"))}
+                  </h2>
+                  <ul className="space-y-3">
+                    {bestFor.map((item, i) => (
+                      <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-bestfor-${i}`}>
+                        <GreenCheck />
+                        <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {includes.length > 0 && (
+                <div data-testid={`block-${trackingKey}-includes`}>
+                  <h2 className="section-h2 mb-6" data-testid={`heading-${trackingKey}-includes`}>
+                    {t(k("whatsIncluded.h2"))}
+                  </h2>
+                  <ul className="space-y-3">
+                    {includes.map((item, i) => (
+                      <li key={i} className="flex items-start gap-3" data-testid={`item-${trackingKey}-includes-${i}`}>
+                        <GreenCheck />
+                        <span className="text-[15px] sm:text-base text-black/85 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
         </section>
       )}
 
       {/* Comparison */}
       {cmpColumns.length > 0 && cmpRows.length > 0 && (
-        <section className="py-14 sm:py-20" data-testid={`block-${trackingKey}-comparison`}>
+        <section className="section-padding" data-testid={`block-${trackingKey}-comparison`}>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
-              <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">
-                {t(k("comparison.kicker"))}
-              </p>
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid={`heading-${trackingKey}-comparison`}>
+              <h2 className="section-h2 mb-4" data-testid={`heading-${trackingKey}-comparison`}>
                 {t(k("comparison.h2"))}
               </h2>
-              <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">
+              <p className="max-w-[680px] mx-auto text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
                 {t(k("comparison.intro"))}
               </p>
             </div>
@@ -341,10 +353,10 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
 
       {/* FAQ */}
       {faqItems.length > 0 && (
-        <section className="py-14 sm:py-20">
+        <section className="section-padding">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid={`heading-${trackingKey}-faq`}>
+              <h2 className="section-h2" data-testid={`heading-${trackingKey}-faq`}>
                 {t(k("faq.h2"))}
               </h2>
             </div>
@@ -361,29 +373,31 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
       )}
 
       {/* CTA */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
-        <h2 className="font-heading font-bold text-[26px] sm:text-3xl lg:text-[36px] leading-tight tracking-[-0.02em] text-black mb-4" data-testid={`heading-${trackingKey}-cta`}>
-          {t(k("cta.h2"))}
-        </h2>
-        <p className="text-[15px] sm:text-base lg:text-lg text-black/80 leading-relaxed max-w-[640px] mx-auto mb-8">
-          {t(k("cta.p"))}
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href={lp("book")}
-            className="inline-flex items-center justify-center btn-primary px-8 py-3.5 text-base rounded-full"
-            data-testid={`button-${trackingKey}-cta-agendar`}
-          >
-            {t(k("cta.btn"))}
-            <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="ml-1 flex-shrink-0"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </Link>
-          <Link
-            href={lp("our_services")}
-            className="inline-flex items-center justify-center font-body font-semibold px-8 py-3.5 text-base rounded-full border border-[var(--border)] hover:border-[var(--text-3)] text-[var(--text-1)] bg-[var(--bg-0)] transition-colors"
-            data-testid={`button-${trackingKey}-cta-services`}
-          >
-            {t(k("cta.btnSecondary"))}
-          </Link>
+      <section className="section-padding">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="section-h2 mb-5" data-testid={`heading-${trackingKey}-cta`}>
+            {t(k("cta.h2"))}
+          </h2>
+          <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed max-w-[640px] mx-auto mb-8">
+            {t(k("cta.p"))}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href={lp("book")}
+              className="inline-flex items-center justify-center btn-primary px-8 py-3.5 text-base rounded-full"
+              data-testid={`button-${trackingKey}-cta-agendar`}
+            >
+              {t(k("cta.btn"))}
+              <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="ml-1 flex-shrink-0"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </Link>
+            <Link
+              href={lp("our_services")}
+              className="inline-flex items-center justify-center font-body font-semibold px-8 py-3.5 text-base rounded-full border border-[var(--border)] hover:border-[var(--text-3)] text-[var(--text-1)] bg-[var(--bg-0)] transition-colors"
+              data-testid={`button-${trackingKey}-cta-services`}
+            >
+              {t(k("cta.btnSecondary"))}
+            </Link>
+          </div>
         </div>
       </section>
     </article>

@@ -5,7 +5,6 @@ export interface ComparisonRow {
   values: string[];
 }
 export interface Comparison {
-  kicker: string;
   h2: string;
   intro: string;
   columns: string[];
@@ -24,7 +23,6 @@ export interface SubpageContent {
   cardDesc: string;
   breadcrumb: string;
   hero: {
-    kicker: string;
     h1: string;
     h1green: string;
     subtitle: string;
@@ -32,7 +30,7 @@ export interface SubpageContent {
     ctaWhatsapp: string;
     waText: string;
   };
-  intro: { kicker: string; h2: string; paragraphs: string[] };
+  intro: { h2: string; paragraphs: string[] };
   features: { h2: string; items: { title: string; desc: string }[] };
   bestFor: { h2: string; items: string[] };
   whatsIncluded: { h2: string; items: string[] };
@@ -89,7 +87,6 @@ const es: SubpagesBase = {
     cardDesc: "El estado más usado por nómadas digitales: cero impuesto estatal, sin informes anuales y privacidad por defecto.",
     breadcrumb: "LLC en Nuevo México",
     hero: {
-      kicker: "LLC EN NUEVO MÉXICO",
       h1: "Tu LLC en Nuevo México",
       h1green: "discreta, sin informes y a coste mínimo",
       subtitle: "El estado preferido por nómadas digitales y emprendedores online: 0% impuesto estatal sobre la LLC, sin informe anual y con un nivel de privacidad real para los miembros.",
@@ -98,7 +95,6 @@ const es: SubpagesBase = {
       waText: "Hola, quiero abrir una LLC en Nuevo México. ¿Podemos hablar?",
     },
     intro: {
-      kicker: "POR QUÉ NUEVO MÉXICO",
       h2: "El estado más eficiente para una LLC unipersonal",
       paragraphs: [
         "Nuevo México es, hoy, el estado más usado por freelancers, agencias digitales y creadores de contenido que viven fuera de Estados Unidos. La razón es simple: no exige informe anual, no cobra franchise tax, y permite no listar públicamente a los miembros de la LLC.",
@@ -167,7 +163,6 @@ const es: SubpagesBase = {
     cardDesc: "El estado de referencia para quienes priorizan blindaje de activos, asset protection real y máxima privacidad legal.",
     breadcrumb: "LLC en Wyoming",
     hero: {
-      kicker: "LLC EN WYOMING",
       h1: "Tu LLC en Wyoming",
       h1green: "privacidad fuerte y protección patrimonial",
       subtitle: "Wyoming es el estado de referencia para quienes priorizan blindaje patrimonial, charging order protection real para LLC unipersonales y máxima privacidad legal.",
@@ -176,7 +171,6 @@ const es: SubpagesBase = {
       waText: "Hola, quiero abrir una LLC en Wyoming. ¿Podemos hablar?",
     },
     intro: {
-      kicker: "POR QUÉ WYOMING",
       h2: "El estado con mayor protección legal para los miembros",
       paragraphs: [
         "Wyoming fue el primer estado en regular las LLC en Estados Unidos y, desde entonces, su jurisprudencia ha evolucionado hacia una de las mayores protecciones patrimoniales del país. Su charging order protection se aplica también a LLC unipersonales, algo poco común a nivel federal.",
@@ -245,7 +239,6 @@ const es: SubpagesBase = {
     cardDesc: "El estándar para startups, ronda de inversión y operaciones B2B que requieren la jurisdicción más reconocida del mundo.",
     breadcrumb: "LLC en Delaware",
     hero: {
-      kicker: "LLC EN DELAWARE",
       h1: "Tu LLC en Delaware",
       h1green: "prestigio corporativo y acceso a inversores",
       subtitle: "Delaware es la jurisdicción más reconocida del mundo en derecho corporativo. Es el estándar de facto para startups, rondas de inversión y contratos B2B serios.",
@@ -254,7 +247,6 @@ const es: SubpagesBase = {
       waText: "Hola, quiero abrir una LLC en Delaware. ¿Podemos hablar?",
     },
     intro: {
-      kicker: "POR QUÉ DELAWARE",
       h2: "La jurisdicción de referencia en derecho corporativo",
       paragraphs: [
         "Más del 65% de las empresas Fortune 500 están constituidas en Delaware. Su Court of Chancery es un tribunal especializado en derecho societario con más de 200 años de jurisprudencia, lo que ofrece máxima predictibilidad en disputas y contratos.",
@@ -323,7 +315,6 @@ const es: SubpagesBase = {
     cardDesc: "El estado ideal cuando vas a vivir, viajar o tener clientes y proveedores reales en Estados Unidos, especialmente en Miami.",
     breadcrumb: "LLC en Florida",
     hero: {
-      kicker: "LLC EN FLORIDA",
       h1: "Tu LLC en Florida",
       h1green: "presencia real, mercado hispano y dinámica de negocios",
       subtitle: "Florida es el estado natural cuando vas a viajar con frecuencia a EE. UU., tener clientes locales o construir un negocio con base en Miami y la comunidad hispana.",
@@ -332,7 +323,6 @@ const es: SubpagesBase = {
       waText: "Hola, quiero abrir una LLC en Florida. ¿Podemos hablar?",
     },
     intro: {
-      kicker: "POR QUÉ FLORIDA",
       h2: "El estado con más conexión real con el mundo hispano",
       paragraphs: [
         "Florida concentra una de las comunidades hispanas más grandes y activas de Estados Unidos. Miami es el hub financiero, comercial y tecnológico para Latinoamérica, y tener una LLC con dirección en Florida facilita relaciones con clientes, proveedores y bancos locales.",
@@ -402,7 +392,6 @@ const es: SubpagesBase = {
     cardDesc: "Tu Individual Taxpayer Identification Number gestionado de principio a fin con un Certifying Acceptance Agent.",
     breadcrumb: "Obtén tu ITIN",
     hero: {
-      kicker: "ITIN PARA NO RESIDENTES",
       h1: "Obtén tu ITIN",
       h1green: "de principio a fin, sin enviar tu pasaporte por correo",
       subtitle: "Tramitamos tu Individual Taxpayer Identification Number (ITIN) ante el IRS con un Certifying Acceptance Agent autorizado: nada de enviar el pasaporte original a Estados Unidos.",
@@ -411,7 +400,6 @@ const es: SubpagesBase = {
       waText: "Hola, necesito tramitar mi ITIN. ¿Podemos hablar?",
     },
     intro: {
-      kicker: "QUÉ ES EL ITIN",
       h2: "El número fiscal estadounidense para quienes no tienen SSN",
       paragraphs: [
         "El ITIN (Individual Taxpayer Identification Number) es el número fiscal que emite el IRS a personas que están obligadas a presentar declaraciones o formularios fiscales en EE. UU. pero no califican para un Social Security Number (SSN). Es imprescindible para muchos no residentes con LLC, ingresos inmobiliarios o retenciones en plataformas estadounidenses.",
@@ -484,7 +472,6 @@ const en: SubpagesBase = {
     cardDesc: "The state most chosen by digital nomads: zero state tax on the LLC, no annual report and real member privacy.",
     breadcrumb: "New Mexico LLC",
     hero: {
-      kicker: "NEW MEXICO LLC",
       h1: "Your New Mexico LLC",
       h1green: "lean, private and at minimum cost",
       subtitle: "Low-cost privacy for solo founders: a U.S. LLC with no annual report, no franchise tax and members kept off the public record — the leanest structure for digital nomads and online entrepreneurs.",
@@ -493,7 +480,6 @@ const en: SubpagesBase = {
       waText: "Hi, I'd like to set up an LLC in New Mexico. Can we talk?",
     },
     intro: {
-      kicker: "WHY NEW MEXICO",
       h2: "The most efficient state for a single-member LLC",
       paragraphs: [
         "Low-cost privacy for solo founders is exactly what makes New Mexico the state most used today by freelancers, digital agencies and content creators living outside the United States: no annual report, no franchise tax, and members can be kept off the public record.",
@@ -559,7 +545,6 @@ const en: SubpagesBase = {
     cardDesc: "The benchmark state for those who prioritize asset protection, real charging order shielding and maximum legal privacy.",
     breadcrumb: "Wyoming LLC",
     hero: {
-      kicker: "WYOMING LLC",
       h1: "Your Wyoming LLC",
       h1green: "strong privacy and asset protection",
       subtitle: "Gold-standard U.S. asset protection: Wyoming delivers the strongest charging order shield in the country (even for single-member LLCs) and maximum legal privacy for the members.",
@@ -568,7 +553,6 @@ const en: SubpagesBase = {
       waText: "Hi, I'd like to set up an LLC in Wyoming. Can we talk?",
     },
     intro: {
-      kicker: "WHY WYOMING",
       h2: "The state with the strongest legal protection for members",
       paragraphs: [
         "Gold-standard asset protection is Wyoming's signature: it was the first U.S. state to regulate LLCs and, since then, its case law has evolved into one of the strongest asset protections in the country, with charging order protection that also applies to single-member LLCs — uncommon at the federal level.",
@@ -634,7 +618,6 @@ const en: SubpagesBase = {
     cardDesc: "The standard for startups, fundraising rounds and B2B operations that demand the world's most recognized jurisdiction.",
     breadcrumb: "Delaware LLC",
     hero: {
-      kicker: "DELAWARE LLC",
       h1: "Your Delaware LLC",
       h1green: "corporate prestige and access to investors",
       subtitle: "The choice of VCs and B2B buyers: Delaware is the world's most recognized jurisdiction in corporate law and the de facto standard for startups, fundraising rounds and serious B2B contracts.",
@@ -643,7 +626,6 @@ const en: SubpagesBase = {
       waText: "Hi, I'd like to set up an LLC in Delaware. Can we talk?",
     },
     intro: {
-      kicker: "WHY DELAWARE",
       h2: "The benchmark jurisdiction in corporate law",
       paragraphs: [
         "Delaware is the choice of VCs and Fortune 500 B2B buyers in the U.S.: more than 65% of Fortune 500 companies are formed there, and its Court of Chancery is a court specialized in corporate law with over 200 years of case law, providing maximum predictability in disputes and contracts.",
@@ -709,7 +691,6 @@ const en: SubpagesBase = {
     cardDesc: "The right state when you'll actually live, travel or have real clients and suppliers in the United States, especially in Miami.",
     breadcrumb: "Florida LLC",
     hero: {
-      kicker: "FLORIDA LLC",
       h1: "Your Florida LLC",
       h1green: "real presence, Hispanic market and business momentum",
       subtitle: "Your gateway to Miami's Latin market: Florida is the natural state when you'll travel often to the U.S., serve local clients or build a business rooted in Miami and the Hispanic community.",
@@ -718,7 +699,6 @@ const en: SubpagesBase = {
       waText: "Hi, I'd like to set up an LLC in Florida. Can we talk?",
     },
     intro: {
-      kicker: "WHY FLORIDA",
       h2: "The state with the strongest real connection to the Hispanic world",
       paragraphs: [
         "Florida is the gateway to Miami's Latin market: it hosts one of the largest and most active Hispanic communities in the United States, and Miami acts as the financial, commercial and tech hub for Latin America — having an LLC with a Florida address makes it easier to deal with local clients, suppliers and banks.",
@@ -785,7 +765,6 @@ const en: SubpagesBase = {
     cardDesc: "Your Individual Taxpayer Identification Number handled end-to-end through a Certifying Acceptance Agent.",
     breadcrumb: "Get your ITIN",
     hero: {
-      kicker: "ITIN FOR NON-RESIDENTS",
       h1: "Get your ITIN",
       h1green: "end-to-end, without mailing your passport",
       subtitle: "Skip the IRS office and the passport courier: our authorized Certifying Acceptance Agent files your Individual Taxpayer Identification Number (ITIN) with the IRS end-to-end, so you start from anywhere in the world.",
@@ -794,7 +773,6 @@ const en: SubpagesBase = {
       waText: "Hi, I need to apply for my ITIN. Can we talk?",
     },
     intro: {
-      kicker: "WHAT THE ITIN IS",
       h2: "The U.S. tax number for those without an SSN",
       paragraphs: [
         "Skip the IRS office without leaving home: the ITIN (Individual Taxpayer Identification Number) is the tax number the IRS issues to people who must file U.S. tax returns or forms but don't qualify for a Social Security Number (SSN). It's essential for many non-residents with an LLC, U.S. real-estate income or withholding from American platforms.",
@@ -864,7 +842,6 @@ const fr: SubpagesBase = {
     cardDesc: "L'État privilégié des nomades digitaux : zéro impôt d'État sur la LLC, pas de rapport annuel et confidentialité réelle.",
     breadcrumb: "LLC au Nouveau-Mexique",
     hero: {
-      kicker: "LLC AU NOUVEAU-MEXIQUE",
       h1: "Votre LLC au Nouveau-Mexique",
       h1green: "discrète, sans rapport et à coût minimum",
       subtitle: "Zéro paperasse annuelle : une LLC américaine sans rapport annuel, sans franchise tax et avec une vraie confidentialité des membres — la structure la plus légère pour freelances et nomades digitaux.",
@@ -873,7 +850,6 @@ const fr: SubpagesBase = {
       waText: "Bonjour, je souhaite créer une LLC au Nouveau-Mexique. Pouvons-nous en parler ?",
     },
     intro: {
-      kicker: "POURQUOI LE NOUVEAU-MEXIQUE",
       h2: "L'État le plus efficace pour une LLC unipersonnelle",
       paragraphs: [
         "Zéro paperasse annuelle : c'est précisément pour cela que le Nouveau-Mexique est aujourd'hui l'État le plus utilisé par les freelances, agences distantes et créateurs de contenu vivant hors des États-Unis — pas de rapport annuel, pas de franchise tax et la possibilité de ne pas inscrire publiquement les membres de la LLC.",
@@ -939,7 +915,6 @@ const fr: SubpagesBase = {
     cardDesc: "L'État de référence pour ceux qui priorisent la protection des actifs, le charging order et la confidentialité maximale.",
     breadcrumb: "LLC au Wyoming",
     hero: {
-      kicker: "LLC AU WYOMING",
       h1: "Votre LLC au Wyoming",
       h1green: "confidentialité forte et protection patrimoniale",
       subtitle: "Bouclier patrimonial américain : le Wyoming offre le charging order le plus solide des USA (même pour les LLC unipersonnelles) et une confidentialité légale maximale pour les associés.",
@@ -948,7 +923,6 @@ const fr: SubpagesBase = {
       waText: "Bonjour, je souhaite créer une LLC au Wyoming. Pouvons-nous en parler ?",
     },
     intro: {
-      kicker: "POURQUOI LE WYOMING",
       h2: "L'État offrant la plus forte protection légale pour les membres",
       paragraphs: [
         "Le Wyoming est le bouclier patrimonial américain par excellence : premier État à avoir régulé les LLC, sa jurisprudence a évolué vers l'une des protections d'actifs les plus fortes du pays, avec une charging order qui s'applique aussi aux LLC unipersonnelles — une exception au niveau fédéral.",
@@ -1014,7 +988,6 @@ const fr: SubpagesBase = {
     cardDesc: "Le standard pour startups, levées de fonds et opérations B2B exigeant la juridiction la plus reconnue au monde.",
     breadcrumb: "LLC au Delaware",
     hero: {
-      kicker: "LLC AU DELAWARE",
       h1: "Votre LLC au Delaware",
       h1green: "prestige juridique et accès aux investisseurs",
       subtitle: "Prête pour la levée de fonds : le Delaware est la juridiction la plus reconnue au monde en droit des sociétés et le standard de fait pour startups, fonds de VC et contrats B2B sérieux.",
@@ -1023,7 +996,6 @@ const fr: SubpagesBase = {
       waText: "Bonjour, je souhaite créer une LLC au Delaware. Pouvons-nous en parler ?",
     },
     intro: {
-      kicker: "POURQUOI LE DELAWARE",
       h2: "La juridiction de référence en droit des sociétés",
       paragraphs: [
         "Une LLC prête pour la levée de fonds passe par le Delaware : plus de 65 % des entreprises Fortune 500 y sont constituées et la Court of Chancery, tribunal spécialisé en droit des sociétés, apporte plus de 200 ans de jurisprudence et une prévisibilité maximale.",
@@ -1089,7 +1061,6 @@ const fr: SubpagesBase = {
     cardDesc: "L'État idéal lorsque vous allez vivre, voyager ou avoir des clients et fournisseurs réels aux États-Unis, surtout à Miami.",
     breadcrumb: "LLC en Floride",
     hero: {
-      kicker: "LLC EN FLORIDE",
       h1: "Votre LLC en Floride",
       h1green: "présence réelle, marché hispanique et dynamique entrepreneuriale",
       subtitle: "Accès direct au marché latino : la Floride est l'État naturel quand vous voyagez fréquemment aux États-Unis, avez des clients locaux ou construisez une activité ancrée à Miami et dans la communauté hispanique.",
@@ -1098,7 +1069,6 @@ const fr: SubpagesBase = {
       waText: "Bonjour, je souhaite créer une LLC en Floride. Pouvons-nous en parler ?",
     },
     intro: {
-      kicker: "POURQUOI LA FLORIDE",
       h2: "L'État avec la plus forte connexion réelle au monde hispanique",
       paragraphs: [
         "La Floride donne un accès direct au marché latino : elle concentre l'une des plus grandes communautés hispaniques actives des États-Unis, et Miami fait office de hub financier, commercial et tech pour l'Amérique latine — une LLC avec adresse en Floride facilite les relations avec clients, fournisseurs et banques locales.",
@@ -1165,7 +1135,6 @@ const fr: SubpagesBase = {
     cardDesc: "Votre Individual Taxpayer Identification Number traité de bout en bout via un Certifying Acceptance Agent.",
     breadcrumb: "Obtenir votre ITIN",
     hero: {
-      kicker: "ITIN POUR NON-RÉSIDENTS",
       h1: "Obtenez votre ITIN",
       h1green: "de bout en bout, sans envoyer votre passeport",
       subtitle: "Sans ambassade ni envoi postal du passeport : notre Certifying Acceptance Agent agréé dépose votre Individual Taxpayer Identification Number (ITIN) auprès de l'IRS de bout en bout, pendant que vous restez chez vous.",
@@ -1174,7 +1143,6 @@ const fr: SubpagesBase = {
       waText: "Bonjour, j'ai besoin d'obtenir mon ITIN. Pouvons-nous en parler ?",
     },
     intro: {
-      kicker: "QU'EST-CE QUE L'ITIN",
       h2: "Le numéro fiscal américain pour ceux sans SSN",
       paragraphs: [
         "Sans ambassade et géré en ligne : l'ITIN (Individual Taxpayer Identification Number) est le numéro fiscal délivré par l'IRS aux personnes tenues de déposer des déclarations fiscales américaines mais inéligibles au Social Security Number (SSN). Il est indispensable pour de nombreux non-résidents avec LLC, revenus immobiliers ou retenues sur plateformes américaines.",
@@ -1244,7 +1212,6 @@ const de: SubpagesBase = {
     cardDesc: "Der von Digitalnomaden meistgewählte Bundesstaat: keine Staatssteuer auf die LLC, kein Jahresbericht, echte Privatsphäre.",
     breadcrumb: "LLC in New Mexico",
     hero: {
-      kicker: "LLC IN NEW MEXICO",
       h1: "Ihre LLC in New Mexico",
       h1green: "schlank, privat und zu minimalen Kosten",
       subtitle: "Steueroptimiert für Selbstständige: eine US-LLC ohne Jahresbericht, ohne Franchise Tax und mit echter Privatsphäre der Gesellschafter — die schlankste Struktur für Freelancer und Digitalnomaden.",
@@ -1253,7 +1220,6 @@ const de: SubpagesBase = {
       waText: "Hallo, ich möchte eine LLC in New Mexico gründen. Können wir sprechen?",
     },
     intro: {
-      kicker: "WARUM NEW MEXICO",
       h2: "Der effizienteste Bundesstaat für eine Single-Member-LLC",
       paragraphs: [
         "Steueroptimiert für deutschsprachige Selbstständige: genau deshalb ist New Mexico heute der von Freelancern, digitalen Agenturen und Content Creators außerhalb der USA meistgenutzte Bundesstaat — kein Jahresbericht, keine Franchise Tax und Mitglieder müssen nicht öffentlich gelistet werden.",
@@ -1319,7 +1285,6 @@ const de: SubpagesBase = {
     cardDesc: "Der Referenz-Bundesstaat für alle, die Vermögensschutz, echtes Charging Order und maximale juristische Privatsphäre priorisieren.",
     breadcrumb: "LLC in Wyoming",
     hero: {
-      kicker: "LLC IN WYOMING",
       h1: "Ihre LLC in Wyoming",
       h1green: "starke Privatsphäre und Vermögensschutz",
       subtitle: "Vermögensschutz nach US-Standard: Wyoming bietet den stärksten Charging-Order-Schild der USA (auch für Single-Member-LLCs) und maximale juristische Privatsphäre für die Gesellschafter.",
@@ -1328,7 +1293,6 @@ const de: SubpagesBase = {
       waText: "Hallo, ich möchte eine LLC in Wyoming gründen. Können wir sprechen?",
     },
     intro: {
-      kicker: "WARUM WYOMING",
       h2: "Der Bundesstaat mit dem stärksten rechtlichen Schutz für Mitglieder",
       paragraphs: [
         "Vermögensschutz nach US-Standard ist die Stärke Wyomings: erster Bundesstaat, der LLCs reguliert hat, mit einer Rechtsprechung, die sich zu einem der stärksten Vermögensschutz-Regime des Landes entwickelt hat — Charging Order Protection gilt auch für Single-Member-LLCs, bundesweit selten.",
@@ -1394,7 +1358,6 @@ const de: SubpagesBase = {
     cardDesc: "Der Standard für Startups, Finanzierungsrunden und B2B-Geschäfte, die die anerkannteste Jurisdiktion der Welt verlangen.",
     breadcrumb: "LLC in Delaware",
     hero: {
-      kicker: "LLC IN DELAWARE",
       h1: "Ihre LLC in Delaware",
       h1green: "höchstes Renommee im Gesellschaftsrecht und Zugang zu Investoren",
       subtitle: "Rechtssicherheit für Investoren: Delaware ist die weltweit anerkannteste Jurisdiktion im Gesellschaftsrecht und der De-facto-Standard für Startups, Finanzierungsrunden und ernsthafte B2B-Verträge.",
@@ -1403,7 +1366,6 @@ const de: SubpagesBase = {
       waText: "Hallo, ich möchte eine LLC in Delaware gründen. Können wir sprechen?",
     },
     intro: {
-      kicker: "WARUM DELAWARE",
       h2: "Die Referenz-Jurisdiktion im Gesellschaftsrecht",
       paragraphs: [
         "Maximale Rechtssicherheit für Investoren liefert Delaware: über 65 % der Fortune-500-Unternehmen sind dort gegründet, und der Court of Chancery — auf Gesellschaftsrecht spezialisiert — bringt mehr als 200 Jahre Rechtsprechung und höchste Vorhersehbarkeit.",
@@ -1469,7 +1431,6 @@ const de: SubpagesBase = {
     cardDesc: "Der richtige Bundesstaat, wenn Sie tatsächlich in den USA leben, reisen oder reale Kunden und Lieferanten haben werden, besonders in Miami.",
     breadcrumb: "LLC in Florida",
     hero: {
-      kicker: "LLC IN FLORIDA",
       h1: "Ihre LLC in Florida",
       h1green: "reale Präsenz, hispanischer Markt und Geschäftsdynamik",
       subtitle: "Tor zum lateinamerikanischen Markt: Florida ist der natürliche Bundesstaat, wenn Sie häufig in die USA reisen, lokale Kunden haben oder ein Geschäft in Miami und in der hispanischen Community aufbauen.",
@@ -1478,7 +1439,6 @@ const de: SubpagesBase = {
       waText: "Hallo, ich möchte eine LLC in Florida gründen. Können wir sprechen?",
     },
     intro: {
-      kicker: "WARUM FLORIDA",
       h2: "Der Bundesstaat mit der stärksten realen Verbindung zur hispanischen Welt",
       paragraphs: [
         "Florida ist das Tor zum lateinamerikanischen Markt: hier lebt eine der größten und aktivsten hispanischen Communities der USA, und Miami fungiert als Finanz-, Handels- und Tech-Hub für Lateinamerika — eine LLC mit Florida-Adresse erleichtert Beziehungen zu Kunden, Lieferanten und Banken vor Ort.",
@@ -1545,7 +1505,6 @@ const de: SubpagesBase = {
     cardDesc: "Ihre Individual Taxpayer Identification Number end-to-end abgewickelt über einen Certifying Acceptance Agent.",
     breadcrumb: "ITIN beantragen",
     hero: {
-      kicker: "ITIN FÜR NICHT-ANSÄSSIGE",
       h1: "Holen Sie sich Ihre ITIN",
       h1green: "end-to-end, ohne Ihren Reisepass zu verschicken",
       subtitle: "Ohne Botschaftstermin und ohne Versand des Original-Reisepasses: Unser autorisierter Certifying Acceptance Agent reicht Ihre Individual Taxpayer Identification Number (ITIN) beim IRS ein — alles aus einer Hand.",
@@ -1554,7 +1513,6 @@ const de: SubpagesBase = {
       waText: "Hallo, ich brauche meine ITIN. Können wir sprechen?",
     },
     intro: {
-      kicker: "WAS DIE ITIN IST",
       h2: "Die US-Steuernummer für Personen ohne SSN",
       paragraphs: [
         "Ohne Botschaft und alles aus einer Hand: Die ITIN (Individual Taxpayer Identification Number) ist die vom IRS vergebene Steuernummer für Personen, die US-Steuererklärungen einreichen müssen, aber keinen Anspruch auf eine Social Security Number (SSN) haben. Unverzichtbar für viele Nicht-Ansässige mit LLC, US-Immobilieneinkünften oder Quellensteuern auf US-Plattformen.",
@@ -1624,7 +1582,6 @@ const pt: SubpagesBase = {
     cardDesc: "O estado mais usado por nómadas digitais: zero imposto estadual sobre a LLC, sem relatório anual e privacidade real.",
     breadcrumb: "LLC no Novo México",
     hero: {
-      kicker: "LLC NO NOVO MÉXICO",
       h1: "Sua LLC no Novo México",
       h1green: "discreta, sem relatórios e a custo mínimo",
       subtitle: "Estrutura enxuta e barata: uma LLC americana sem relatório anual, sem franchise tax e com privacidade real dos sócios — a opção mais leve para freelancers e nómadas digitais brasileiros.",
@@ -1633,7 +1590,6 @@ const pt: SubpagesBase = {
       waText: "Olá, quero abrir uma LLC no Novo México. Podemos conversar?",
     },
     intro: {
-      kicker: "POR QUE NOVO MÉXICO",
       h2: "O estado mais eficiente para uma LLC unipessoal",
       paragraphs: [
         "Estrutura enxuta e barata: por isso o Novo México é hoje o estado mais usado por freelancers, agências digitais e criadores de conteúdo que vivem fora dos Estados Unidos — não exige relatório anual, não cobra franchise tax e permite não listar publicamente os membros da LLC.",
@@ -1699,7 +1655,6 @@ const pt: SubpagesBase = {
     cardDesc: "O estado de referência para quem prioriza blindagem patrimonial, charging order e máxima privacidade legal.",
     breadcrumb: "LLC no Wyoming",
     hero: {
-      kicker: "LLC NO WYOMING",
       h1: "Sua LLC no Wyoming",
       h1green: "privacidade forte e proteção patrimonial",
       subtitle: "Blindagem patrimonial premium: Wyoming entrega o charging order mais forte dos EUA (também para LLCs unipessoais) e máxima privacidade legal para os sócios.",
@@ -1708,7 +1663,6 @@ const pt: SubpagesBase = {
       waText: "Olá, quero abrir uma LLC no Wyoming. Podemos conversar?",
     },
     intro: {
-      kicker: "POR QUE WYOMING",
       h2: "O estado com a maior proteção legal aos membros",
       paragraphs: [
         "Blindagem patrimonial premium é o que diferencia Wyoming: foi o primeiro estado a regulamentar LLCs nos EUA e sua jurisprudência evoluiu para uma das proteções patrimoniais mais fortes do país, com charging order que se aplica também a LLCs unipessoais — algo raro a nível federal.",
@@ -1774,7 +1728,6 @@ const pt: SubpagesBase = {
     cardDesc: "O padrão para startups, rodadas de investimento e operações B2B que exigem a jurisdição mais reconhecida do mundo.",
     breadcrumb: "LLC em Delaware",
     hero: {
-      kicker: "LLC EM DELAWARE",
       h1: "Sua LLC em Delaware",
       h1green: "prestígio corporativo e acesso a investidores",
       subtitle: "Pronta para investidores e M&A: Delaware é a jurisdição mais reconhecida do mundo em direito societário e o padrão de facto para startups, rodadas de investimento e contratos B2B sérios.",
@@ -1783,7 +1736,6 @@ const pt: SubpagesBase = {
       waText: "Olá, quero abrir uma LLC em Delaware. Podemos conversar?",
     },
     intro: {
-      kicker: "POR QUE DELAWARE",
       h2: "A jurisdição de referência em direito societário",
       paragraphs: [
         "Uma LLC pronta para investidores e M&A nos EUA passa por Delaware: mais de 65% das empresas Fortune 500 estão constituídas lá, e a Court of Chancery — tribunal especializado em direito societário — soma mais de 200 anos de jurisprudência e previsibilidade máxima.",
@@ -1849,7 +1801,6 @@ const pt: SubpagesBase = {
     cardDesc: "O estado ideal quando vai morar, viajar ou ter clientes e fornecedores reais nos EUA, especialmente em Miami.",
     breadcrumb: "LLC na Flórida",
     hero: {
-      kicker: "LLC NA FLÓRIDA",
       h1: "Sua LLC na Flórida",
       h1green: "presença real, mercado hispânico e dinâmica de negócios",
       subtitle: "Sua ponte para o mercado de Miami: a Flórida é o estado natural quando viaja com frequência aos EUA, tem clientes locais ou está a construir um negócio com base em Miami e na comunidade hispânica.",
@@ -1858,7 +1809,6 @@ const pt: SubpagesBase = {
       waText: "Olá, quero abrir uma LLC na Flórida. Podemos conversar?",
     },
     intro: {
-      kicker: "POR QUE FLÓRIDA",
       h2: "O estado com mais conexão real com o mundo hispânico",
       paragraphs: [
         "A Flórida é a ponte direta para o mercado de Miami: concentra uma das maiores e mais ativas comunidades hispânicas dos EUA, e Miami funciona como hub financeiro, comercial e tecnológico para a América Latina — ter uma LLC com endereço na Flórida facilita relações com clientes, fornecedores e bancos locais.",
@@ -1925,7 +1875,6 @@ const pt: SubpagesBase = {
     cardDesc: "Seu Individual Taxpayer Identification Number gerido de ponta a ponta com um Certifying Acceptance Agent.",
     breadcrumb: "Obtenha seu ITIN",
     hero: {
-      kicker: "ITIN PARA NÃO RESIDENTES",
       h1: "Obtenha seu ITIN",
       h1green: "de ponta a ponta, sem enviar seu passaporte pelo correio",
       subtitle: "Sem viajar aos EUA e sem enviar o passaporte original: nosso Certifying Acceptance Agent autorizado tramita o seu Individual Taxpayer Identification Number (ITIN) junto ao IRS de ponta a ponta.",
@@ -1934,7 +1883,6 @@ const pt: SubpagesBase = {
       waText: "Olá, preciso obter meu ITIN. Podemos conversar?",
     },
     intro: {
-      kicker: "O QUE É O ITIN",
       h2: "O número fiscal americano para quem não tem SSN",
       paragraphs: [
         "Sem viajar aos EUA: o ITIN (Individual Taxpayer Identification Number) é o número fiscal emitido pelo IRS a pessoas obrigadas a apresentar declarações ou formulários fiscais nos EUA, mas que não se qualificam para um Social Security Number (SSN). É indispensável para muitos não residentes com LLC, renda imobiliária ou retenções em plataformas americanas.",
@@ -2004,7 +1952,6 @@ const ca: SubpagesBase = {
     cardDesc: "L'estat més usat per nòmades digitals: zero impost estatal sobre la LLC, sense informe anual i amb privacitat real.",
     breadcrumb: "LLC a Nou Mèxic",
     hero: {
-      kicker: "LLC A NOU MÈXIC",
       h1: "La teva LLC a Nou Mèxic",
       h1green: "discreta, sense informes i a cost mínim",
       subtitle: "Cost mínim i sense paperasses: una LLC dels EUA sense informe anual, sense franchise tax i amb privacitat real per als membres — l'estructura més lleugera per a autònoms i nòmades digitals.",
@@ -2013,7 +1960,6 @@ const ca: SubpagesBase = {
       waText: "Hola, vull obrir una LLC a Nou Mèxic. Podem parlar?",
     },
     intro: {
-      kicker: "PER QUÈ NOU MÈXIC",
       h2: "L'estat més eficient per a una LLC unipersonal",
       paragraphs: [
         "Cost mínim i sense paperasses recurrents: per això Nou Mèxic s'ha convertit en l'estat més usat per freelancers, agències digitals i creadors de contingut que viuen fora dels Estats Units — no exigeix informe anual, no cobra franchise tax i permet no llistar públicament els membres de la LLC.",
@@ -2079,7 +2025,6 @@ const ca: SubpagesBase = {
     cardDesc: "L'estat de referència per a qui prioritza el blindatge d'actius, el charging order i la màxima privacitat legal.",
     breadcrumb: "LLC a Wyoming",
     hero: {
-      kicker: "LLC A WYOMING",
       h1: "La teva LLC a Wyoming",
       h1green: "privacitat forta i protecció patrimonial",
       subtitle: "El blindatge patrimonial dels EUA: Wyoming et dona el charging order més fort del país (també per a LLC unipersonals) i màxima privacitat legal per als membres.",
@@ -2088,7 +2033,6 @@ const ca: SubpagesBase = {
       waText: "Hola, vull obrir una LLC a Wyoming. Podem parlar?",
     },
     intro: {
-      kicker: "PER QUÈ WYOMING",
       h2: "L'estat amb la major protecció legal per als membres",
       paragraphs: [
         "Wyoming ofereix el blindatge patrimonial més sòlid dels EUA: va ser el primer estat a regular les LLC i la seva jurisprudència ha evolucionat cap a una de les majors proteccions patrimonials del país, amb charging order que s'aplica també a LLC unipersonals — cosa rara a nivell federal.",
@@ -2154,7 +2098,6 @@ const ca: SubpagesBase = {
     cardDesc: "L'estàndard per a startups, rondes d'inversió i operacions B2B que requereixen la jurisdicció més reconeguda del món.",
     breadcrumb: "LLC a Delaware",
     hero: {
-      kicker: "LLC A DELAWARE",
       h1: "La teva LLC a Delaware",
       h1green: "prestigi corporatiu i accés a inversors",
       subtitle: "Pensada per aixecar capital VC: Delaware és la jurisdicció més reconeguda del món en dret corporatiu i l'estàndard de facto per a startups, rondes d'inversió i contractes B2B seriosos.",
@@ -2163,7 +2106,6 @@ const ca: SubpagesBase = {
       waText: "Hola, vull obrir una LLC a Delaware. Podem parlar?",
     },
     intro: {
-      kicker: "PER QUÈ DELAWARE",
       h2: "La jurisdicció de referència en dret corporatiu",
       paragraphs: [
         "Per aixecar capital VC i tancar contractes B2B als EUA, Delaware és el camí estàndard: més del 65% de les empreses Fortune 500 hi estan constituïdes i la seva Court of Chancery — tribunal especialitzat en dret societari — aporta més de 200 anys de jurisprudència i màxima predictibilitat.",
@@ -2229,7 +2171,6 @@ const ca: SubpagesBase = {
     cardDesc: "L'estat ideal quan vas a viure, viatjar o tenir clients i proveïdors reals als EUA, especialment a Miami.",
     breadcrumb: "LLC a Florida",
     hero: {
-      kicker: "LLC A FLORIDA",
       h1: "La teva LLC a Florida",
       h1green: "presència real, mercat hispà i dinàmica de negoci",
       subtitle: "El teu pont català cap al mercat llatí: Florida és l'estat natural quan vas a viatjar amb freqüència als EUA, tenir clients locals o construir un negoci amb base a Miami i la comunitat hispana.",
@@ -2238,7 +2179,6 @@ const ca: SubpagesBase = {
       waText: "Hola, vull obrir una LLC a Florida. Podem parlar?",
     },
     intro: {
-      kicker: "PER QUÈ FLORIDA",
       h2: "L'estat amb més connexió real amb el món hispà",
       paragraphs: [
         "Florida és el pont català cap al mercat llatí: concentra una de les comunitats hispanes més grans i actives dels EUA, i Miami funciona com el hub financer, comercial i tecnològic per a Llatinoamèrica — tenir una LLC amb adreça a Florida facilita relacions amb clients, proveïdors i bancs locals.",
@@ -2305,7 +2245,6 @@ const ca: SubpagesBase = {
     cardDesc: "El teu Individual Taxpayer Identification Number gestionat de principi a fi amb un Certifying Acceptance Agent.",
     breadcrumb: "Obtén el teu ITIN",
     hero: {
-      kicker: "ITIN PER A NO RESIDENTS",
       h1: "Obtén el teu ITIN",
       h1green: "de principi a fi, sense enviar el teu passaport per correu",
       subtitle: "Sense viatjar als EUA i sense enviar el passaport per correu: el nostre Certifying Acceptance Agent autoritzat tramita el teu Individual Taxpayer Identification Number (ITIN) davant l'IRS de principi a fi.",
@@ -2314,7 +2253,6 @@ const ca: SubpagesBase = {
       waText: "Hola, necessito tramitar el meu ITIN. Podem parlar?",
     },
     intro: {
-      kicker: "QUÈ ÉS L'ITIN",
       h2: "El número fiscal nord-americà per a qui no té SSN",
       paragraphs: [
         "Sense viatjar als EUA: l'ITIN (Individual Taxpayer Identification Number) és el número fiscal que emet l'IRS a les persones obligades a presentar declaracions o formularis fiscals als EUA però que no compleixen els requisits per al Social Security Number (SSN). És imprescindible per a molts no residents amb LLC, ingressos immobiliaris o retencions en plataformes nord-americanes.",
@@ -2381,7 +2319,6 @@ const ca: SubpagesBase = {
 // Columns are always in the same order: NM (0), WY (1), DE (2), FL (3).
 const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightCol">> = {
   es: {
-    kicker: "COMPARATIVA RÁPIDA",
     h2: "Nuevo México vs Wyoming vs Delaware vs Florida",
     intro: "Los cuatro estados más utilizados por no residentes para abrir una LLC. La elección depende de tu perfil, no del precio.",
     columns: ["Nuevo México", "Wyoming", "Delaware", "Florida"],
@@ -2397,7 +2334,6 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     note: "Cada estado encaja con un objetivo distinto. En Exentax te ayudamos a elegir el que mejor protege tu actividad.",
   },
   en: {
-    kicker: "QUICK COMPARISON",
     h2: "New Mexico vs Wyoming vs Delaware vs Florida",
     intro: "The four states most used by non-residents to form an LLC. The right pick depends on your profile, not on the price.",
     columns: ["New Mexico", "Wyoming", "Delaware", "Florida"],
@@ -2413,7 +2349,6 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     note: "Each state fits a different goal. At Exentax we help you pick the one that best protects your business.",
   },
   fr: {
-    kicker: "COMPARATIF RAPIDE",
     h2: "Nouveau-Mexique vs Wyoming vs Delaware vs Floride",
     intro: "Les quatre États les plus utilisés par les non-résidents pour créer une LLC. Le bon choix dépend de votre profil, pas du prix.",
     columns: ["Nouveau-Mexique", "Wyoming", "Delaware", "Floride"],
@@ -2429,7 +2364,6 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     note: "Chaque État correspond à un objectif différent. Chez Exentax, nous vous aidons à choisir celui qui protège le mieux votre activité.",
   },
   de: {
-    kicker: "SCHNELLER VERGLEICH",
     h2: "New Mexico vs Wyoming vs Delaware vs Florida",
     intro: "Die vier von Nicht-Ansässigen am häufigsten genutzten Bundesstaaten für eine LLC. Die richtige Wahl hängt von Ihrem Profil ab, nicht vom Preis.",
     columns: ["New Mexico", "Wyoming", "Delaware", "Florida"],
@@ -2445,7 +2379,6 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     note: "Jeder Bundesstaat passt zu einem anderen Ziel. Bei Exentax helfen wir Ihnen, den zu wählen, der Ihr Geschäft am besten schützt.",
   },
   pt: {
-    kicker: "COMPARATIVO RÁPIDO",
     h2: "Novo México vs Wyoming vs Delaware vs Flórida",
     intro: "Os quatro estados mais usados por não residentes para abrir uma LLC. A escolha depende do seu perfil, não do preço.",
     columns: ["Novo México", "Wyoming", "Delaware", "Flórida"],
@@ -2461,7 +2394,6 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
     note: "Cada estado se encaixa em um objetivo diferente. Na Exentax ajudamos a escolher o que melhor protege seu negócio.",
   },
   ca: {
-    kicker: "COMPARATIVA RÀPIDA",
     h2: "Nou Mèxic vs Wyoming vs Delaware vs Florida",
     intro: "Els quatre estats més utilitzats per no residents per obrir una LLC. L'elecció depèn del teu perfil, no del preu.",
     columns: ["Nou Mèxic", "Wyoming", "Delaware", "Florida"],
@@ -2480,10 +2412,11 @@ const LLC_COMPARISON_BY_LANG: Record<SupportedLang, Omit<Comparison, "highlightC
 
 const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
   es: {
-    kicker: "COMPARATIVA RÁPIDA",
     h2: "Cómo se puede tramitar el ITIN",
     intro: "Tres caminos habituales para obtener un ITIN. La diferencia real está en si tienes que enviar el pasaporte y en quién responde por ti ante el IRS.",
     columns: ["Exentax (CAA)", "Pasaporte por correo al IRS", "Otros agentes/gestores"],
+    youLabel: "Esta página",
+    compareLabel: "Comparar con",
     highlightCol: 0,
     rows: [
       { label: "Pasaporte original", values: ["No sale de tus manos", "Lo envías al IRS varias semanas", "Depende del agente"] },
@@ -2494,10 +2427,11 @@ const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
     note: "CAA = Certifying Acceptance Agent autorizado por el IRS.",
   },
   en: {
-    kicker: "QUICK COMPARISON",
     h2: "How to apply for an ITIN",
     intro: "Three common paths to get an ITIN. The real difference is whether you ship your passport and who answers to the IRS for you.",
     columns: ["Exentax (CAA)", "Mail passport to IRS", "Other agents"],
+    youLabel: "This page",
+    compareLabel: "Compare with",
     highlightCol: 0,
     rows: [
       { label: "Original passport", values: ["Stays with you", "Mailed to IRS for weeks", "Depends on the agent"] },
@@ -2508,10 +2442,11 @@ const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
     note: "CAA = Certifying Acceptance Agent authorized by the IRS.",
   },
   fr: {
-    kicker: "COMPARATIF RAPIDE",
     h2: "Comment obtenir un ITIN",
     intro: "Trois chemins habituels pour obtenir un ITIN. La vraie différence: devez-vous envoyer votre passeport et qui répond pour vous auprès de l'IRS.",
     columns: ["Exentax (CAA)", "Passeport envoyé à l'IRS", "Autres agents"],
+    youLabel: "Cette page",
+    compareLabel: "Comparer avec",
     highlightCol: 0,
     rows: [
       { label: "Passeport original", values: ["Reste chez vous", "Envoyé à l'IRS plusieurs semaines", "Dépend de l'agent"] },
@@ -2522,10 +2457,11 @@ const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
     note: "CAA = Certifying Acceptance Agent autorisé par l'IRS.",
   },
   de: {
-    kicker: "SCHNELLER VERGLEICH",
     h2: "Wege zur Beantragung der ITIN",
     intro: "Drei übliche Wege, eine ITIN zu erhalten. Der echte Unterschied: Müssen Sie Ihren Reisepass einschicken und wer haftet gegenüber dem IRS.",
     columns: ["Exentax (CAA)", "Reisepass an IRS senden", "Andere Agenten"],
+    youLabel: "Diese Seite",
+    compareLabel: "Vergleichen mit",
     highlightCol: 0,
     rows: [
       { label: "Originalpass", values: ["Bleibt bei Ihnen", "Wird wochenlang an IRS geschickt", "Hängt vom Agenten ab"] },
@@ -2536,10 +2472,11 @@ const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
     note: "CAA = vom IRS autorisierter Certifying Acceptance Agent.",
   },
   pt: {
-    kicker: "COMPARATIVO RÁPIDO",
     h2: "Como solicitar o ITIN",
     intro: "Três caminhos habituais para obter um ITIN. A diferença real está em ter de enviar o passaporte e em quem responde por si ao IRS.",
     columns: ["Exentax (CAA)", "Passaporte enviado ao IRS", "Outros agentes"],
+    youLabel: "Esta página",
+    compareLabel: "Comparar com",
     highlightCol: 0,
     rows: [
       { label: "Passaporte original", values: ["Fica consigo", "Enviado ao IRS por semanas", "Depende do agente"] },
@@ -2550,10 +2487,11 @@ const ITIN_COMPARISON_BY_LANG: Record<SupportedLang, Comparison> = {
     note: "CAA = Certifying Acceptance Agent autorizado pelo IRS.",
   },
   ca: {
-    kicker: "COMPARATIVA RÀPIDA",
     h2: "Com tramitar l'ITIN",
     intro: "Tres camins habituals per obtenir un ITIN. La diferència real és si has d'enviar el passaport i qui respon per tu davant l'IRS.",
     columns: ["Exentax (CAA)", "Passaport per correu a l'IRS", "Altres agents"],
+    youLabel: "Aquesta pàgina",
+    compareLabel: "Comparar amb",
     highlightCol: 0,
     rows: [
       { label: "Passaport original", values: ["No surt de les teves mans", "L'envies a l'IRS unes setmanes", "Depèn de l'agent"] },

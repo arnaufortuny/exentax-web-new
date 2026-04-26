@@ -1971,27 +1971,10 @@ section h3,
   line-height: 1.1 !important;
 }
 
-/* 6.bis) Service subpages opt OUT of the Relay-style block-uppercase
-   override above. The 5 service subpages (LLC NM/WY/DE/FL + ITIN)
-   carry data-page="service-…" on their <article> root and use the
-   regular Exentax heading system (Space Grotesk, sentence case,
-   tight tracking) defined per-element via Tailwind classes. */
-[data-page^="service-"] h1,
-[data-page^="service-"] h2,
-[data-page^="service-"] h3,
-[data-page^="service-"] h4 {
-  font-family: var(--font-heading), 'Inter', sans-serif !important;
-  font-weight: 700 !important;
-  text-transform: none !important;
-  letter-spacing: -0.022em !important;
-  line-height: 1.15 !important;
-  font-size: revert !important;
-}
-[data-page^="service-"] h1 {
-  font-weight: 800 !important;
-  letter-spacing: -0.025em !important;
-  line-height: 1.1 !important;
-}
+/* 6.bis) Service subpages (LLC NM/WY/DE/FL + ITIN) intentionally
+   inherit the global Relay-style typography defined above
+   (Archivo Black, uppercase, tight tracking) so they share the
+   same visual system as the Home page. No opt-out rule here. */
 
 /* 7) Kill any remaining decorative dashed connector strokes */
 .border-dashed.border-\[\#00E510\]\/40 { display: none !important; }
