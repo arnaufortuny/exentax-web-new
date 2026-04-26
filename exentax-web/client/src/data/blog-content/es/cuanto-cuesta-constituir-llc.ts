@@ -224,7 +224,7 @@ La normativa de información a FinCEN y al IRS se ha movido en recent years; la 
 
 **¿Qué pasa si pierdo el plazo del 15 de abril del 5472?** Si presentas el Form 7004 antes del 15 de abril, ganas extensión automática hasta el 15 de octubre y no hay sanción. Si dejas pasar el 15 de abril sin extensión, la sanción se devenga: **25.000 USD por formulario por año**, más 25.000 USD por cada 30 días adicionales si el IRS te notifica y sigues sin presentar. Es la sanción más cara y previsible del calendario federal: por eso la prórroga es automática en el servicio Exentax.
 
-**¿La LLC me obliga a presentar algo en España, Portugal o Cataluña?** Sí: como residente fiscal europeo eres tú quien tributa por las rentas atribuidas o distribuidas de la LLC. Modelo 720 (bienes en el extranjero) si los saldos lo activan, Modelo 232 (operaciones vinculadas) cuando facturas a tu propia LLC, Modelo 720 actualizado o IRS atribuido en IRPF. Coordinamos esa parte con tu asesor de residencia para que las dos puntas casen.
+**¿La LLC me obliga a presentar algo en España, Portugal o Cataluña?** Sí: como residente fiscal europeo eres tú quien tributa por las rentas atribuidas o distribuidas de la LLC. Modelo 720 (bienes en el extranjero) si los saldos lo activan, Modelo 232 (operaciones vinculadas) cuando facturas a tu propia LLC, Modelo 721 (cripto) si corresponde, e IRPF con atribución o dividendo según el régimen aplicable. Coordinamos esa parte con tu asesor de residencia para que las dos puntas casen.
 
 <!-- exentax:execution-v2 -->
 ## El coste real de constituir una LLC, según el método Exentax
