@@ -27,6 +27,56 @@ Die Fehler, die die meisten Sanktionen erzeugen: Familienessen als Tagesspesen g
 
 Das offizielle Kriterium zu absetzbaren Ausgaben steht im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Gesetz 35/2006 zur IRPF</a> und in den verbindlichen Auskünften der <a href="https://petete.tributos.hacienda.gob.es/">spanischen Steuerdirektion</a>. Heute gut zu dokumentieren spart morgen viel: jede archivierte Rechnung ist ein Euro weniger für den Fiskus.
 
+## Detaillierte Tabelle absetzbarer Ausgaben nach Kategorie
+
+| Kategorie | Beispiele | Grenze / Bedingung |
+|---|---|---|
+| **Wohnung-Büro Versorgung** | Strom, Wasser, Gas, Internet, Hausgeld | 30% der Kosten auf zugewiesene m² (in IAE-Anmeldung deklariert) |
+| **Fahrzeug und Reisen** | Kraftstoff, Parken, Maut, Wartung | 50% bei gemischter beruflicher/privater Nutzung; 100% bei 100% beruflicher dokumentierter Nutzung |
+| **Material und Büro** | Computer, Software, Drucker, Schreibwaren | 100% absetzbar. Güter >300€ werden nach IRPF-Koeffizientenmittel abgeschrieben |
+| **Weiterbildung** | Kurse, technische Bücher, Zertifizierungen | 100% bei direktem Bezug zur Tätigkeit |
+| **Berufliche Dienstleistungen** | Steuerberatung, Anwalt, Notar, Buchhalter | 100% absetzbar mit Rechnung |
+| **Beiträge und Kammern** | Berufskammer, Branchenverbände | 100% absetzbar |
+| **Marketing und Werbung** | Online-Anzeigen, Hosting, Domain, Design | 100% absetzbar |
+| **Bankgebühren** | Geschäftskonto, POS, Stripe, PayPal | 100% absetzbar bei Geschäftskonto |
+| **Mahlzeiten und Spesen** | Geschäftsessen (gerechtfertigt) | Bis 26,67€/Tag Spanien, 48,08€ Ausland. Begründung obligatorisch |
+| **Berufliche Versicherungen** | Haftpflicht, private Krankenversicherung (Grenze) | 100% Haftpflicht; Krankenversicherung bis 500€/Jahr (1.500€ mit Behinderung) |
+| **Autónomo-Beitrag** | Monatlicher RETA | 100% absetzbar als Aktivitätsausgabe |
+| **Alternative Versicherung** | Versicherung Liberale Berufe | 100% wenn sie RETA ersetzt, bis Jahresgrenze |
+
+## Praxisfälle: was abziehen und was nicht
+
+**Fall 1. Entwickler mit Home-Office.** Sie wohnen in einer 80 m² Wohnung mit einem 12 m² Büro für die Tätigkeit (15% zugewiesen). Monatliche Versorgung: 200€ (Strom + Gas + Internet). Abzug: 200 × 0,15 × 0,30 = 9€/Monat = 108€/Jahr. Wenn Sie auch anteilige Miete erklären, addieren Sie 15% der Miete. Pflichtdokumentation: IAE-Anmeldung mit zugewiesenem Prozentsatz und Versorgungsrechnungen auf Ihren Namen.
+
+**Fall 2. Beraterin mit Geschäftsfahrzeug.** Sie kaufen einen Tesla Model 3 für 47.000€ zur 100% beruflichen Nutzung (Kundenbesuche, kein anderes Auto). Absetzbar: Abschreibung über 8 Jahre (5.875€/Jahr), Vollkasko, Wartung, Flughafenparken bei Reisen, Maut. Die Steuerbehörde verlangt ein berufliches Reisebuch mit Kilometern und Anlass. Ohne Buch Risiko der Umqualifizierung zur gemischten Nutzung (50%).
+
+**Fall 3. Grafikdesignerin mit Coworking.** Coworking-Mitgliedschaft 250€/Monat, Software (Adobe + Figma) 80€/Monat, jährliche Weiterbildung 1.500€, Autónomo-Beitrag 230€/Monat. Jährlicher Gesamtabzug: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Reduziert die IRPF-Bemessungsgrundlage vor Anwendung der Tarife.
+
+## Typische Fehler bei Abzügen
+
+| Fehler | Folge |
+|---|---|
+| Familienessen als Spesen abziehen | Sanktion + Zuschlag + Umqualifizierung |
+| Privater Kraftstoff ohne Reisebuch | Reduzierung auf 50% im besten Fall, 0% bei klarem Verstoß |
+| Persönliche Kleidung als "Uniform" | Nicht absetzbar außer bei dauerhafter Firmenmarkierung |
+| Kundengeschenke >1% des Umsatzes | Überschuss nicht absetzbar |
+| Ausgaben ohne Rechnung (einfacher Beleg) | Nicht absetzbar, vollständige Rechnung verlangen |
+| 100% berufliches Mobiltelefon ohne zweites privates | Reduzierung auf gemischte Nutzung 50% |
+
+## Häufig gestellte Fragen
+
+**Kann ich das Fitnessstudio absetzen?** Nur wenn Sie nachweisen, dass es für die Tätigkeit notwendig ist (Models, TV-Moderatoren, Profisportler). Für andere Berufe nicht absetzbar, auch wenn die Gesundheit besser wird.
+
+**Und Universitätsausbildung?** Wenn direkt mit Ihrer Tätigkeit verbunden und zur Erweiterung beruflicher Kenntnisse, ja. Executive Master werden in der Regel akzeptiert. Ein zweites nicht verwandtes Studium nicht.
+
+**Sind Krypto-Investitionen Ausgaben?** Nein. Es sind Investitionen, keine Ausgaben. Verluste oder Gewinne werden in der IRPF-Sparbasis erklärt, nicht in Einkünften aus wirtschaftlicher Tätigkeit.
+
+**Meine private Krankenversicherung?** Bis 500€/Jahr (1.500€ mit Behinderung) pro eingeschlossenem Familienmitglied. Wenn Ihre Prämie 100€/Monat (1.200€/Jahr) beträgt, ziehen Sie die ersten 500€ ab.
+
+**Kann ich einen für 3 Jahre vorausbezahlten Kurs abziehen?** Nein. Die Ausgabe wird dem Geschäftsjahr zugewiesen, in dem die Leistung erbracht wird. Bei einem 3-Jahres-Kurs ziehen Sie 1/3 jedes Jahr ab, nicht alles im ersten Jahr.
+
+**Was passiert, wenn ich eine Rechnung verliere?** Die Steuerbehörde lässt Rekonstruktion via Kontoauszug + Lieferantenbestätigung + eidesstattliche Erklärung zu. Der Prozess ist mühsam und wird häufig abgelehnt. Besser: digitales Archiv (Drive, Notion, Manager) monatlich aktualisiert.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

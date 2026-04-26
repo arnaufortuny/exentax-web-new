@@ -26,6 +26,59 @@ La SL est rentable quand plusieurs conditions sont réunies : chiffre d'affaires
 Pour les profils 100% numériques avec une clientèle majoritairement hors d'Espagne, une <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC américaine</a> bien gérée gagne souvent : coût annuel bien moindre (1 500-2 500 euros contre 6 000-9 000 pour la SL), 0% fédéral aux USA pour non-résidents, et imposition uniquement en résidence par attribution des revenus, sans double imposition sociétaire. La SL gagne encore si votre activité est physiquement espagnole, avec clients locaux ou besoin d'embaucher en Espagne. La <a href="/fr/blog/difference-llc-vs-corporation-s-corp-c-corp-guide">différence entre LLC et Corporation</a> compte aussi selon votre plan.
 Le régime juridique est dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">Loi sur les sociétés de capital</a> et le régime fiscal dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Loi 27/2014 sur l'impôt sur les sociétés</a>. Si vous envisagez une SL, calculez le coût total combiné sur trois ans avant de constituer.
 
+## Tableau comparatif SL vs LLC américaine vs autónomo
+
+| Concept | Autónomo | SL Espagne | LLC USA (non-résident) |
+|---|---|---|---|
+| **Constitution** | Gratuit (inscription IAE) | 600-1 500€ + 3 000€ capital + notaire | dès 2 000€ |
+| **Maintenance annuelle** | Cotisation RETA + IRPF | 6 000-9 000€ (conseil + comptes + IS) | dès 1 500€ |
+| **Imposition bénéfices** | IRPF 19-47% progressif | IS 23% (réduit) ou 25% (général) | 0% fédéral USA + IRPF en résidence |
+| **Double imposition** | Non (pass-through) | Oui (IS + IRPF dividendes) | Non (attribution de revenus) |
+| **Réinvestissement bénéfices** | Complexe (charge IRPF) | Efficace (retient à 23-25%) | Complexe (attribution annuelle) |
+| **Responsabilité** | Patrimoine personnel complet | Limitée au capital social | Limitée |
+| **Employés** | Peut embaucher | Oui, avec cotisations SS | Non (en Espagne, via contrat externe) |
+| **Fermeture/dissolution** | Radiation IAE immédiate | 6-12 mois + notaire + 600-1 500€ | 200-400€ + Operating Agreement |
+| **Image commerciale** | Professionnel individuel | Entreprise nationale | Marque globale USA |
+| **Idéal pour** | Démarrage ou <80k€/an | Activité physique ES, équipe, réinvestir | Numérique distant, clients USA/UE B2B |
+
+## Cas pratiques : quand SL vs LLC
+
+**Cas 1. Consultant numérique, 70 000€/an, client unique USA.** Mieux LLC : 0% fédéral, IRPF en Espagne sur bénéfice net. SL perd ici par coûts fixes élevés (6 000-9 000€) et double imposition.
+
+**Cas 2. Agence marketing 4 associés, 250 000€/an, bureau Barcelone, 3 employés.** Mieux SL : besoin de figure mercantile pour clients corporate ES, possibilité de retenir bénéfices à IS 23%, embaucher avec cotisation SS, distribution équilibrée d'associés. LLC ici n'encaisse pas par barrière opérationnelle avec clients locaux.
+
+**Cas 3. E-commerce physique Espagne, 150 000€/an.** Mieux SL : stock, entrepôt, retours, TVA intracommunautaire, contrats avec courriers. LLC complique logistique et comptabilité de biens physiques.
+
+**Cas 4. Trader crypto, 50-200k€/an, vit entre Espagne et Andorre.** Mieux LLC pour protection d'actifs + flexibilité de décision résidence : avec LLC garde flexibilité et, si décide résider Andorre/Portugal, opère la LLC depuis nouveau régime sans restructurer.
+
+## Coûts cachés d'une SL que peu calculent
+
+| Coût | Montant annuel approx |
+|---|---:|
+| Conseil fiscal complet | 2 400-4 800€ |
+| Comptes annuels déposés Registre du commerce | 100-200€ |
+| Audit (si applique limites art. 263 LSC) | 1 500-4 000€ |
+| Livres officiels légalisés | 50€ |
+| Formulaire 200 IS + retenues | inclus dans conseil |
+| Cotisation autónomo administrateur | 4 200-7 200€ |
+| Assurance RC professionnelle entreprise | 600-1 500€ |
+| Domiciliation sociale (si pas de bureau propre) | 600-1 200€ |
+| **Total typique activité numérique** | **~9 000-18 000€/an** |
+
+Pour un autónomo facturant 60 000€/an, le passage à SL réduit fréquemment les revenus nets pendant 2-3 ans jusqu'à dépasser 100 000€/an de chiffre d'affaires.
+
+## Foire aux questions
+
+**Le capital minimum SL est-il vraiment 1€ ou toujours 3 000€ ?** La Loi de création et croissance des entreprises (juillet 2022) permet de constituer une SL avec 1€ de capital minimum. MAIS pendant les premières années : les associés répondent personnellement jusqu'à 3 000€ si la SL n'atteint pas 3 000€ de fonds propres. Et de nombreuses banques exigent toujours un capital effectif de 3 000€ pour ouvrir un compte. En pratique, mieux vaut apporter 3 000€.
+
+**Suis-je doublement imposé si je me verse des dividendes ?** Oui. La SL paie 23-25% (IS), et en encaissant des dividendes vous payez encore sur votre IRPF base d'épargne (19-28% selon tranche). Effectif combiné : 38-46% selon situation. Pour cette raison, retirer des dividendes d'une petite SL est souvent inefficace vs autónomo IRPF.
+
+**Puis-je passer d'autónomo à SL sans fermeture ?** Oui, mais avec coûts de transition : apport de l'activité comme branche d'activité (apport non monétaire nécessitant rapport d'expert indépendant, frais notariaux supplémentaires, valorisation du fonds de commerce). Coût typique : 2 000-4 000€ de transition, amortis seulement si la SL dure des années.
+
+**Puis-je avoir une SL ET une LLC ?** Oui, structures compatibles. Schéma habituel : SL pour opération locale Espagne, LLC pour clients USA/UE B2B. Attention aux transferts entre les deux : peuvent constituer opérations liées avec obligations documentaires (Formulaire 232).
+
+**Quand fermer une SL qui ne fonctionne plus ?** Le plus tôt possible, car la SL inactive coûte toujours ~6 000€/an en maintenance. Si 6+ mois sans activité, calculez coût de fermeture vs maintien « au cas où ». La fermeture prend 6-12 mois et environ 600-1 500€.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

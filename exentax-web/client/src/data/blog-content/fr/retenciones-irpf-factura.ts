@@ -27,6 +27,72 @@ Les erreurs les plus courantes : appliquer le 7% sans avoir notifié formellemen
 
 Les règles détaillées de retenue sont dans le règlement IRPF (Décret royal 439/2007, disponible au <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). L'agence fiscale propose un simulateur de retenue sur son <a href="https://sede.agenciatributaria.gob.es/">portail en ligne</a> ; à revoir chaque début d'année.
 
+## Cas pratiques : comment apparaît la retenue sur facture
+
+**Cas 1. Designer professionnel avec client entreprise.** Facture de 2 000€ à un client S.L. :
+- Base imposable : 2 000€
+- TVA 21% : 420€
+- Retenue IRPF 15% : −300€
+- **Total à encaisser : 2 120€**
+
+Le client paie 2 120€ au designer et déclare 300€ à l'agence fiscale via le formulaire 111 trimestriel. Le designer reflète sur le formulaire 130/100 que 300€ d'IRPF ont déjà été avancés.
+
+**Cas 2. Nouvel autónomo (3 premières années) avec retenue réduite.** Facture de 2 000€ avec retenue 7% :
+- Base imposable : 2 000€
+- TVA 21% : 420€
+- Retenue IRPF 7% : −140€
+- **Total à encaisser : 2 280€**
+
+Important : l'autónomo doit communiquer formellement au payeur sa situation de nouvel autónomo via lettre signée. Sans cette communication, le payeur applique 15% par défaut.
+
+**Cas 3. Location de bureau par particulier.** Facture mensuelle de 800€ du bailleur :
+- Base imposable : 800€
+- TVA 21% : 168€
+- Retenue IRPF 19% : −152€
+- **Total à payer au bailleur : 816€**
+
+Le locataire (autónomo ou entreprise) dépose le formulaire 115 trimestriel déclarant les 152€ retenus. Le bailleur récupère la retenue dans sa déclaration IRPF annuelle comme revenu du capital immobilier.
+
+**Cas 4. Professionnel avec client particulier.** Facture de 500€ à une personne physique :
+- Base imposable : 500€
+- TVA 21% : 105€
+- **Pas de retenue applicable** (client particulier n'est pas retenant)
+- **Total : 605€**
+
+## Tableau des retenues par activité
+
+| Type d'activité | Retenue standard | Régime réduit |
+|---|---:|---:|
+| Professionnels (module 4 IAE) | 15% | 7% (3 premières années) |
+| Activités commerciales (modules) | 1% | — |
+| Agricoles et élevage | 2% | 1% (engraissement porcin et avicole) |
+| Location de biens immobiliers | 19% | — |
+| Prix littéraires et artistiques | 15% | — |
+| Conférences, cours, séminaires | 15% | — |
+| Droits d'auteur | 15% | 7% (3 premières années) |
+| Capital mobilier (intérêts) | 19% | — |
+
+## Formulaires AEAT pertinents
+
+- **Formulaire 111** : déclaration trimestrielle de retenues à professionnels et travailleurs. Délai : jours 1-20 du mois suivant le trimestre.
+- **Formulaire 115** : déclaration trimestrielle de retenues sur loyers. Même délai.
+- **Formulaire 190** : résumé annuel des retenues du formulaire 111 (présentation janvier de l'année suivante).
+- **Formulaire 180** : résumé annuel des retenues du formulaire 115.
+- **Formulaire 100** : déclaration annuelle IRPF, où l'autónomo régularise la différence entre retenu et finalement dû.
+- **Formulaire 130** : paiement fractionné trimestriel IRPF. Si dans le trimestre la somme des retenues dépasse 70% du rendement, l'autónomo ne dépose pas le formulaire 130 ce trimestre.
+
+## Foire aux questions
+
+**Que se passe-t-il si le client paie la facture sans appliquer la retenue ?** C'est un risque du client, pas du vôtre : il aurait dû retenir et déposer le formulaire 111. Si l'AEAT détecte l'erreur, elle sanctionne le client. L'autónomo doit déclarer le revenu intégral sur son IRPF.
+
+**Puis-je renoncer à la retenue réduite de 7% ?** Oui, mais rarement opportun. La retenue réduite signifie que vous avancez moins d'IRPF ; n'implique pas un IRPF final inférieur. Si vous prévoyez un IRPF effectif élevé, mieux vaut maintenir le 7% et payer le reste à la déclaration.
+
+**Si j'ai une LLC américaine, y a-t-il des retenues ?** Les factures émises depuis une LLC américaine à des clients espagnols ne portent pas de retenue IRPF (c'est une retenue sur revenus de profession ou travail de l'autónomo, pas de l'étranger). Le résident fiscal espagnol déclare les rendements nets de la LLC sur son IRPF comme revenus de l'étranger, sans que le client espagnol retienne quoi que ce soit.
+
+**Et si je suis nouvel autónomo dans ma troisième année, quand passe-je au 15% ?** Au quatrième exercice fiscal complet. Si vous vous êtes inscrit en mars 2024, le premier exercice compte de mars 2024 à décembre 2024 (incomplet mais compte). 2025 et 2026 sont deuxième et troisième. À partir de 2027, retenue à 15%.
+
+**L'AEAT sait-il ce qui m'a été retenu ?** Oui. Chaque client déclare les retenues sur le formulaire 111 trimestriel avec votre NIF. Avant de présenter votre déclaration annuelle, téléchargez les données fiscales sur le siège AEAT et croisez avec votre propre registre : s'il y a des différences, exigez la correction du client avant le 30 juin.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

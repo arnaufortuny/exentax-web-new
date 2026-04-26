@@ -27,6 +27,72 @@ Die häufigsten Fehler: 7% anwenden, ohne dem Zahler den Status als neuer Autono
 
 Die detaillierten Quellensteuerregeln stehen in der spanischen IRPF-Verordnung (Königliches Dekret 439/2007, abrufbar im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). Die Steuerbehörde bietet einen Quellensteuer-Simulator auf ihrem <a href="https://sede.agenciatributaria.gob.es/">Online-Portal</a>; Anfang jedes Jahres prüfen.
 
+## Praxisfälle: wie Quellensteuer auf Rechnungen erscheint
+
+**Fall 1. Professioneller Designer mit Firmenkunden.** Rechnung von 2.000€ an einen S.L.-Kunden:
+- Bemessungsgrundlage: 2.000€
+- MwSt 21%: 420€
+- IRPF-Quellensteuer 15%: −300€
+- **Eingang: 2.120€**
+
+Der Kunde zahlt 2.120€ an den Designer und meldet 300€ der Steuerbehörde via vierteljährliches Formular 111. Der Designer reflektiert auf Formular 130/100, dass 300€ IRPF bereits vorausgezahlt wurden.
+
+**Fall 2. Neuer Autónomo (erste 3 Jahre) mit reduzierter Quellensteuer.** Rechnung von 2.000€ mit 7% Quellensteuer:
+- Bemessungsgrundlage: 2.000€
+- MwSt 21%: 420€
+- IRPF-Quellensteuer 7%: −140€
+- **Eingang: 2.280€**
+
+Wichtig: Der Autónomo muss dem Zahler seinen Status als neuer Autónomo formell per unterschriebenem Schreiben mitteilen. Ohne diese Mitteilung wendet der Zahler standardmäßig 15% an.
+
+**Fall 3. Büromiete von einer Privatperson.** Monatliche Rechnung von 800€ vom Vermieter:
+- Bemessungsgrundlage: 800€
+- MwSt 21%: 168€
+- IRPF-Quellensteuer 19%: −152€
+- **An den Vermieter zu zahlen: 816€**
+
+Der Mieter (Autónomo oder Unternehmen) reicht das vierteljährliche Formular 115 mit 152€ Quellensteuer ein. Der Vermieter erhält die Quellensteuer in seiner jährlichen IRPF-Erklärung als Einkommen aus Immobilienkapital zurück.
+
+**Fall 4. Professioneller mit Privatkunde.** Rechnung von 500€ an eine Privatperson für einmaligen Service:
+- Bemessungsgrundlage: 500€
+- MwSt 21%: 105€
+- **KEINE Quellensteuer anwendbar** (Privatkunde ist kein Quellensteuerpflichtiger)
+- **Gesamt: 605€**
+
+## Quellensteuertabelle nach Tätigkeit
+
+| Tätigkeitsart | Standard-Quellensteuer | Reduziertes Regime |
+|---|---:|---:|
+| Berufsangehörige (IAE-Modul 4) | 15% | 7% (erste 3 Jahre) |
+| Geschäftliche Tätigkeiten (Module) | 1% | — |
+| Landwirtschaft und Tierhaltung | 2% | 1% (Schweine- und Geflügelmast) |
+| Immobilienvermietung | 19% | — |
+| Literarische und künstlerische Preise | 15% | — |
+| Konferenzen, Kurse, Seminare | 15% | — |
+| Urheberrechte | 15% | 7% (erste 3 Jahre) |
+| Mobiles Kapital (Zinsen) | 19% | — |
+
+## Relevante AEAT-Formulare
+
+- **Formular 111**: vierteljährliche Erklärung von Quellensteuern an Berufstätige und Arbeitnehmer. Frist: Tage 1-20 des Folgemonats des Quartals.
+- **Formular 115**: vierteljährliche Erklärung von Quellensteuern auf Mieten. Gleiche Frist.
+- **Formular 190**: Jahreszusammenfassung der Quellensteuern aus Formular 111 (Einreichung Januar des Folgejahres).
+- **Formular 180**: Jahreszusammenfassung der Quellensteuern aus Formular 115.
+- **Formular 100**: jährliche IRPF-Erklärung, in der der Autónomo die Differenz zwischen einbehalten und endgültig geschuldet abgleicht.
+- **Formular 130**: vierteljährliche IRPF-Vorauszahlung. Übersteigt die Summe der Quellensteuern im Quartal 70% der Erträge, reicht der Autónomo das Formular 130 in diesem Quartal nicht ein.
+
+## Häufig gestellte Fragen
+
+**Was passiert, wenn der Kunde die Rechnung ohne Quellensteuer zahlt?** Es ist ein Risiko des Kunden, nicht Ihres: Er hätte einbehalten und Formular 111 einreichen müssen. Erkennt die Steuerbehörde den Fehler, sanktioniert sie den Kunden. Der Autónomo erklärt das Bruttoeinkommen in seiner IRPF.
+
+**Kann ich auf die reduzierte Quellensteuer von 7% verzichten?** Ja, aber selten ratsam. Reduzierte Quellensteuer bedeutet, weniger IRPF vorauszuzahlen; nicht weniger Endsteuer. Wenn Sie hohe effektive IRPF erwarten, lohnt es sich, 7% beizubehalten und den Rest in der Erklärung zu zahlen.
+
+**Wenn ich eine US-LLC habe, gibt es Quellensteuern?** Rechnungen von einer US-LLC an spanische Kunden tragen keine IRPF-Quellensteuer (es ist Quellensteuer auf Berufseinkommen des Autónomos, nicht des Auslands). Der spanische Steuerresident erklärt die Nettoerträge der LLC in seiner IRPF als ausländisches Einkommen, ohne dass der spanische Kunde etwas einbehält.
+
+**Wenn ich neuer Autónomo im dritten Jahr bin, wann gehe ich auf 15% über?** Im vierten vollständigen Geschäftsjahr. Wenn Sie sich im März 2024 angemeldet haben, zählt das erste Geschäftsjahr von März 2024 bis Dezember 2024 (unvollständig, zählt aber). 2025 und 2026 sind das zweite und dritte. Ab 2027 Quellensteuer 15%.
+
+**Weiß die Steuerbehörde, was mir einbehalten wurde?** Ja. Jeder Kunde meldet die Quellensteuern auf vierteljährlichem Formular 111 mit Ihrer NIF. Vor Einreichung Ihrer Jahreserklärung laden Sie die Steuerdaten am AEAT-Sitz herunter und gleichen mit Ihren eigenen Aufzeichnungen ab: Bei Differenzen verlangen Sie die Korrektur des Kunden vor dem 30. Juni.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

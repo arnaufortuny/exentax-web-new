@@ -27,6 +27,72 @@ The most common mistakes: applying the 7% without formally notifying the payer o
 
 Detailed withholding rules are in Spain's IRPF Regulation (Royal Decree 439/2007, available in the <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2007-6820">BOE</a>). The Spanish Tax Agency offers a withholding simulator on its <a href="https://sede.agenciatributaria.gob.es/">e-portal</a>; review it at the start of each year.
 
+## Practical cases: how withholding appears on invoices
+
+**Case 1. Professional designer with corporate client.** 2,000€ invoice to an S.L. client:
+- Tax base: 2,000€
+- VAT 21%: 420€
+- IRPF withholding 15%: −300€
+- **Total to collect: 2,120€**
+
+The client pays 2,120€ to the designer and reports 300€ to the tax authority on quarterly form 111. The designer reflects on form 130/100 that 300€ of IRPF was already advanced.
+
+**Case 2. New self-employed (first 3 years) with reduced withholding.** 2,000€ invoice with 7% withholding:
+- Tax base: 2,000€
+- VAT 21%: 420€
+- IRPF withholding 7%: −140€
+- **Total to collect: 2,280€**
+
+Important: the autónomo must formally communicate to the payer their new self-employed status via signed letter. Without that communication, the payer applies 15% by default.
+
+**Case 3. Office rental from individual.** Monthly invoice of 800€ from landlord:
+- Tax base: 800€
+- VAT 21%: 168€
+- IRPF withholding 19%: −152€
+- **Total to pay landlord: 816€**
+
+The tenant (autónomo or company) files quarterly form 115 reporting the 152€ withheld. The landlord recovers the withholding in their annual IRPF declaration as real estate capital income.
+
+**Case 4. Professional with individual client.** 500€ invoice to an individual contracting a one-off service:
+- Tax base: 500€
+- VAT 21%: 105€
+- **NO withholding applies** (individual client is not a withholder)
+- **Total: 605€**
+
+## Withholding rates by activity
+
+| Activity type | Standard withholding | Reduced regime |
+|---|---:|---:|
+| Professionals (IAE module 4) | 15% | 7% (first 3 years) |
+| Business activities (modules) | 1% | — |
+| Agricultural and livestock | 2% | 1% (pig and poultry fattening) |
+| Real estate rental | 19% | — |
+| Literary and artistic awards | 15% | — |
+| Conferences, courses, seminars | 15% | — |
+| Copyright royalties | 15% | 7% (first 3 years) |
+| Movable capital (interest) | 19% | — |
+
+## Relevant Spanish tax forms
+
+- **Form 111**: quarterly declaration of withholdings to professionals and workers. Deadline: days 1-20 of the month following the quarter.
+- **Form 115**: quarterly declaration of withholdings on rentals. Same deadline.
+- **Form 190**: annual summary of form 111 withholdings (filed in January of following year).
+- **Form 180**: annual summary of form 115 withholdings.
+- **Form 100**: annual IRPF declaration, where the autónomo reconciles the difference between withheld and final liability.
+- **Form 130**: quarterly IRPF advance payment. If in the quarter total withholdings exceed 70% of revenue, the autónomo doesn't file form 130 that quarter.
+
+## Frequently asked questions
+
+**What if the client pays the invoice without applying withholding?** It's the client's risk, not yours: they should have withheld and filed form 111. If the tax authority detects the error, they sanction the client. The autónomo still declares the gross income on personal tax.
+
+**Can I waive the reduced 7% withholding?** Yes, but rarely advisable. Reduced withholding means you advance less IRPF; doesn't mean lower final tax. If you expect a high effective IRPF, it's worth keeping the 7% and paying the rest in the declaration.
+
+**If I have a US LLC, are there withholdings?** Invoices issued from a US LLC to Spanish clients carry no IRPF withholding (it's withholding on resident professional income, not foreign). The Spanish tax resident declares the LLC's net income on IRPF as foreign income, with no Spanish client withholding anything.
+
+**And if I'm a new autónomo in my third year, when do I move to 15%?** In the fourth complete fiscal year. If you registered in March 2024, the first year counts from March 2024 to December 2024 (incomplete but counts). 2025 and 2026 are second and third. From 2027, withholding at 15%.
+
+**Does the tax authority know what's been withheld from me?** Yes. Each client declares the withholdings on quarterly form 111 with your tax ID. Before filing your annual declaration, download the tax data and cross-check with your records: if there are differences, demand client correction before June 30.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

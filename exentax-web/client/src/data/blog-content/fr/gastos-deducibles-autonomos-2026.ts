@@ -27,6 +27,56 @@ Les erreurs qui génèrent le plus de sanctions : prétendre déduire des repas 
 
 Le critère officiel sur les charges déductibles figure dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Loi 35/2006 sur l'IRPF</a> et les consultations contraignantes de la <a href="https://petete.tributos.hacienda.gob.es/">Direction Générale des Impôts espagnole</a>. Bien documenter aujourd'hui fait économiser demain : chaque facture archivée est un euro de moins pour le fisc.
 
+## Tableau détaillé des charges déductibles par catégorie
+
+| Catégorie | Exemples | Limite / Condition |
+|---|---|---|
+| **Charges domicile-bureau** | Électricité, eau, gaz, internet, charges communes | 30% du coût sur m² affectés (déclaré à l'inscription IAE) |
+| **Véhicule et déplacements** | Carburant, parking, péages, entretien | 50% si usage mixte ; 100% si usage 100% professionnel documenté |
+| **Matériel et bureau** | Ordinateur, logiciels, imprimante, papeterie | 100% déductible. Biens >300€ amortis selon table IRPF |
+| **Formation** | Cours, livres techniques, certifications | 100% si directement liés à l'activité |
+| **Services professionnels** | Conseil fiscal, avocat, notaire, comptable | 100% déductible avec facture |
+| **Cotisations et collèges** | Collège professionnel, associations sectorielles | 100% déductible |
+| **Marketing et publicité** | Annonces en ligne, hébergement, domaine, design | 100% déductible |
+| **Frais bancaires** | Compte professionnel, TPV, Stripe, PayPal | 100% déductible si compte professionnel |
+| **Repas et indemnités** | Repas avec clients (justifiés) | Jusqu'à 26,67€/jour Espagne, 48,08€ étranger. Justification obligatoire |
+| **Assurances professionnelles** | Responsabilité civile, santé privée (limite) | 100% RC pro ; santé jusqu'à 500€/an (1 500€ avec handicap) |
+| **Cotisation autónomo** | RETA mensuel | 100% déductible comme charge d'activité |
+| **Mutualité alternative** | Mutualité de profession libérale | 100% si remplace RETA, jusqu'au plafond annuel |
+
+## Cas pratiques : que déduire et que non
+
+**Cas 1. Développeur avec bureau à domicile.** Vous habitez dans un appartement de 80 m² avec un bureau de 12 m² dédié à l'activité (15% affecté). Charges mensuelles : 200€ (électricité + gaz + internet). Déduction : 200 × 0,15 × 0,30 = 9€/mois = 108€/an. Si vous déclarez aussi le loyer proportionnel, ajoutez 15% du loyer. Documentation obligatoire : inscription IAE avec pourcentage affecté et factures de services à votre nom.
+
+**Cas 2. Consultante avec voiture professionnelle.** Vous achetez une Tesla Model 3 à 47 000€ usage 100% professionnel (visites clients, pas d'autre voiture). Déductible : amortissement sur 8 ans (5 875€/an), assurance complète, entretien, parking aéroport pendant voyages, péages. L'AEAT exige un livre de voyages professionnels avec kilométrage et motif. Sans livre, risque de requalification en usage mixte (50%).
+
+**Cas 3. Designer graphique avec coworking.** Adhésion coworking 250€/mois, logiciels (Adobe + Figma) 80€/mois, formation annuelle 1 500€, cotisation autónomos 230€/mois. Total déductible annuel : (250+80) × 12 + 1 500 + 230 × 12 = 3 960 + 1 500 + 2 760 = 8 220€. Réduit la base imposable IRPF avant application des tranches.
+
+## Erreurs typiques en déductions
+
+| Erreur | Conséquence |
+|---|---|
+| Déduire repas familiaux comme indemnités | Sanction + majoration + requalification |
+| Carburant personnel sans livre de voyages | Réduction à 50% au mieux, 0% si flagrant |
+| Vêtements personnels comme « uniforme » | Non déductible sauf marquage corporatif permanent |
+| Cadeaux clients >1% du chiffre d'affaires | Excédent non déductible |
+| Frais sans facture (ticket simple) | Non déductible, exiger facture complète |
+| Mobile 100% professionnel sans deuxième personnel | Réduction à usage mixte 50% |
+
+## Foire aux questions
+
+**Puis-je déduire la salle de sport ?** Seulement si vous justifiez qu'elle est nécessaire à l'activité (mannequins, présentateurs TV, sportifs professionnels). Pour le reste des professions, non déductible même si meilleure santé.
+
+**Et la formation universitaire ?** Si directement liée à votre activité et pour élargir les connaissances professionnelles, oui. Les masters exécutifs sont généralement acceptés. Une seconde formation sans rapport, non.
+
+**Les investissements crypto sont-ils des charges ?** Non. Ce sont des investissements, pas des charges. Leurs pertes ou gains se déclarent sur la base d'épargne IRPF, pas en revenus d'activité économique.
+
+**Mon assurance santé privée ?** Jusqu'à 500€/an (1 500€ avec handicap) par membre du foyer fiscal inclus. Si votre prime est de 100€/mois (1 200€/an), vous déduisez les premiers 500€.
+
+**Puis-je déduire un cours payé d'avance pour 3 ans ?** Non. La charge s'impute à l'exercice où le service est rendu. Si cours sur 3 ans, déduisez 1/3 chaque année, pas tout sur le premier exercice.
+
+**Que se passe-t-il si je perds une facture ?** L'AEAT admet la reconstitution via extrait bancaire + certificat fournisseur + déclaration sur l'honneur. Le processus est lourd et fréquemment rejeté. Mieux : archive numérique (Drive, Notion, gestionnaire) actualisée mensuellement.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -27,6 +27,44 @@ Pour les freelances dont les clients sont majoritairement américains ou hors UE
 
 Le cadre juridique se trouve dans la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">Loi 37/1992 sur la TVA</a> et la <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32006L0112">Directive 2006/112/CE</a>. Pour valider VIES en temps réel, utilisez le <a href="https://ec.europa.eu/taxation_customs/vies/">portail de la Commission européenne</a>.
 
+## Cas pratiques avec chiffres réels
+
+**Cas 1. Consultant TI espagnol avec client français.** Vous facturez un projet de 5 000€ à une entreprise basée à Paris. Votre numéro NIF-TVA espagnol est actif dans VIES, celui du client aussi. Vous émettez une facture de 5 000€ exactement avec la mention « autoliquidation, art. 84 LIVA ». Sur le formulaire 349 espagnol, vous déclarez 5 000€ comme prestation de services intracommunautaires ; sur le formulaire 303, case 59 (livraisons intracommunautaires). Le client français autoliquide la TVA française. Vous ne payez pas de TVA en Espagne sur cette opération ; vous déclarez le revenu sur l'IRPF.
+
+**Cas 2. Designer web avec client allemand sans VIES valide.** Le client allemand apparaît comme un particulier, sans numéro de TVA enregistré. L'opération est considérée B2C : localisation au siège du prestataire (Espagne) jusqu'au seuil OSS, puis au siège du client. Si vos ventes B2C UE annuelles sont inférieures à 10 000€, vous facturez 21% de TVA espagnole. Au-delà du seuil, vous taxez en Allemagne à 19% via OSS. Décision clé : toujours vérifier VIES avant émission.
+
+**Cas 3. Agence marketing avec clients mixtes Espagne B2B + UE.** 70% du chiffre d'affaires est espagnol (avec TVA 21%), 30% UE B2B (sans TVA par autoliquidation). Résultat typique : le prorata de TVA déductible se calcule sur le total. L'AEAT autorise les opérations intracommunautaires avec droit à déduction, donc la TVA supportée sur frais généraux (loyer, logiciels, outils) est entièrement déductible. Réconciliation obligatoire entre 303 et 349 chaque trimestre.
+
+## Erreurs qui déclenchent des contrôles
+
+| Erreur | Conséquence |
+|---|---|
+| Facturer sans VIES valide du client | AEAT requalifie en B2C → TVA espagnole + sanction |
+| Ne pas déclarer une opération de 5 000€ sur le 349 | Sanction pour omission + majoration |
+| Formulaires 303 et 349 avec chiffres différents | Évaluation parallèle immédiate, souvent inspection |
+| Oublier la mention « reverse charge » sur la facture | Le client UE rejette la facture, retard de paiement |
+| Confondre B2C avec B2B sur plateformes numériques | OSS mal renseigné → corrections avec majorations |
+
+## Foire aux questions
+
+**Dois-je facturer la TVA si mon client est une entreprise britannique post-Brexit ?** Non. Le Royaume-Uni est hors du régime intracommunautaire UE. L'opération est traitée comme exportation de services hors UE : facture sans TVA avec la mention « opération non assujettie art. 69.Uno LIVA ». Non déclarée sur 349, mais reportée sur 303 (case spécifique exportations).
+
+**Quand l'inscription au ROI est-elle obligatoire ?** Avant votre première opération intracommunautaire. L'AEAT peut prendre plusieurs semaines pour valider l'inscription, et tant que votre NIF-TVA n'apparaît pas dans VIES, vous ne pouvez pas émettre de factures avec autoliquidation. Demandez avec marge avant le premier service.
+
+**Et si mon client UE me retient la TVA par erreur ?** Fréquent : clients ne maîtrisant pas le régime appliquent la TVA locale pensant que l'opération est B2C. Solution : émettre un avoir, rembourser la TVA facturée, éduquer le client sur l'autoliquidation. Conserver la correspondance écrite au cas où l'AEAT pose la question.
+
+**Une LLC américaine me libère-t-elle du formulaire 349 ?** Si la LLC est non-résidente fiscale en Espagne, oui. La LLC facture depuis les États-Unis et ne dépose aucun formulaire espagnol (elle dépose la conformité US : 5472, BOI). Le résident fiscal espagnol déclare les bénéfices nets de la LLC sur l'IRPF comme revenus d'activité étrangère. Réduit drastiquement la paperasserie TVA UE.
+
+## Liste opérationnelle avant chaque facture
+
+1. ✓ Vérifier le VIES du client sur le <a href="https://ec.europa.eu/taxation_customs/vies/">portail CE</a> et conserver le justificatif.
+2. ✓ Vérifier que votre NIF-TVA espagnol est actif (consultation sur le siège AEAT).
+3. ✓ Confirmer que le service relève de la règle générale (art. 69 LIVA) : pas immobilier, pas transport passagers, pas événements présentiels.
+4. ✓ Inclure la mention « autoliquidation, art. 84 LIVA ».
+5. ✓ Facturer le montant sans TVA, conserver livrables et communications.
+6. ✓ Reporter au formulaire 349 trimestriel ou mensuel.
+7. ✓ Réconcilier le résumé avec le formulaire 303 et vérifier la cohérence annuelle avec le formulaire 390.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -26,6 +26,59 @@ Die SL lohnt sich, wenn mehrere Bedingungen gleichzeitig erfüllt sind: stabiler
 Für rein digitale Profile mit überwiegend nicht-spanischen Kunden gewinnt eine gut geführte <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">US-LLC</a> meist: deutlich geringere Jahreskosten (1.500-2.500 Euro gegenüber 6.000-9.000 der SL), 0% Bundes in den USA für Nichtansässige und Besteuerung nur am Wohnsitz durch Einkommenszurechnung, ohne körperschaftliche Doppelbesteuerung. Die SL gewinnt weiterhin, wenn Ihr Geschäft physisch spanisch ist, mit lokalen Kunden oder Mitarbeitereinstellungen in Spanien. Der <a href="/de/blog/unterschied-llc-vs-corporation-s-corp-c-corp-leitfaden">Unterschied zwischen LLC und Corporation</a> zählt ebenfalls je nach Plan.
 Das Rechtsregime steht im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2010-10544">spanischen Kapitalgesellschaftsgesetz</a> und das Steuerregime im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2014-12328">Gesetz 27/2014 über die Körperschaftsteuer</a>. Wenn Sie eine SL erwägen, berechnen Sie die kombinierten Gesamtkosten über drei Jahre vor der Gründung.
 
+## Vergleichstabelle SL vs US-LLC vs Autónomo
+
+| Konzept | Autónomo | SL Spanien | US-LLC (nicht-resident) |
+|---|---|---|---|
+| **Gründung** | Kostenlos (IAE-Anmeldung) | 600-1.500€ + 3.000€ Kapital + Notar | ab 2.000€ |
+| **Jährliche Wartung** | RETA-Beitrag + IRPF | 6.000-9.000€ (Beratung + Konten + IS) | ab 1.500€ |
+| **Gewinnbesteuerung** | Progressive IRPF 19-47% | IS 23% (reduziert) oder 25% (allgemein) | 0% bundesweit + IRPF in Wohnsitz |
+| **Doppelbesteuerung** | Nein (Pass-through) | Ja (IS + IRPF Dividenden) | Nein (Einkommenszurechnung) |
+| **Gewinnreinvestition** | Komplex (IRPF-Aufwand) | Effizient (behält 23-25% ein) | Komplex (jährliche Zurechnung) |
+| **Haftung** | Volles Privatvermögen | Auf Stammkapital begrenzt | Beschränkt |
+| **Mitarbeiter** | Kann einstellen | Ja, mit SS-Beiträgen | Nein (in Spanien, via Externalvertrag) |
+| **Auflösung** | Sofortige IAE-Abmeldung | 6-12 Monate + Notar + 600-1.500€ | 200-400€ + Operating Agreement |
+| **Geschäftsbild** | Einzelner Berufstätiger | Nationales Unternehmen | Globale US-Marke |
+| **Ideal für** | Start oder <80k€/Jahr | Spanisches physisches Geschäft, Team, Gewinne behalten | Digital remote, US/EU B2B-Kunden |
+
+## Praxisfälle: wann SL vs LLC sich lohnt
+
+**Fall 1. Digitalberater, 70.000€/Jahr, einziger US-Kunde.** Besser LLC: 0% bundesweit, IRPF in Spanien auf Nettogewinn. SL verliert hier durch hohe Fixkosten (6.000-9.000€) und Doppelbesteuerung.
+
+**Fall 2. Marketingagentur 4 Partner, 250.000€/Jahr, Büro Barcelona, 3 Mitarbeiter.** Besser SL: braucht Handelsfigur für spanische Großkunden, Möglichkeit, Gewinne mit IS 23% zu behalten, Mitarbeiter mit SS-Beitrag einstellen, ausgewogene Partnerverteilung. LLC passt hier nicht durch Betriebsbarriere mit lokalen Kunden.
+
+**Fall 3. Physisches E-Commerce Spanien, 150.000€/Jahr.** Besser SL: Lager, Warenhaus, Rückgaben, innergemeinschaftliche MwSt, Kurierverträge. LLC kompliziert Logistik und Buchhaltung physischer Güter.
+
+**Fall 4. Krypto-Trader, 50-200k€/Jahr, lebt zwischen Spanien und Andorra.** Besser LLC für Vermögensschutz + Wohnsitzentscheidung-Flexibilität: mit LLC bleibt flexibel und, wenn Andorra/Portugal-Wohnsitz beschlossen wird, betreibt LLC vom neuen Regime ohne Restrukturierung.
+
+## Versteckte SL-Kosten, die wenige berechnen
+
+| Kosten | Jährliche Schätzung |
+|---|---:|
+| Vollständige Steuerberatung | 2.400-4.800€ |
+| Jahresabschluss eingereicht Handelsregister | 100-200€ |
+| Wirtschaftsprüfung (bei LSC Art. 263 Grenzen) | 1.500-4.000€ |
+| Offizielle legalisierte Bücher | 50€ |
+| Formular 200 IS + Quellensteuern | in Beratung enthalten |
+| Autónomo-Geschäftsführer Beitrag | 4.200-7.200€ |
+| Berufshaftpflicht Unternehmen | 600-1.500€ |
+| Sozialdomizil (wenn kein eigenes Büro) | 600-1.200€ |
+| **Typischer Gesamtbetrag digitales Geschäft** | **~9.000-18.000€/Jahr** |
+
+Für einen Autónomo, der 60.000€/Jahr fakturiert, reduziert der Wechsel zur SL häufig die Nettoeinnahmen für 2-3 Jahre, bis der Umsatz 100.000€/Jahr übersteigt.
+
+## Häufig gestellte Fragen
+
+**Ist das SL-Mindestkapital wirklich 1€ oder immer noch 3.000€?** Das Gesetz zur Gründung und zum Wachstum von Unternehmen (Juli 2022) erlaubt SL-Gründung mit 1€ Mindestkapital. ABER während der ersten Jahre: Partner haften persönlich bis zu 3.000€, wenn die SL nicht 3.000€ Eigenkapital erreicht. Und viele Banken verlangen weiterhin 3.000€ effektives Kapital, um ein Konto zu eröffnen. In der Praxis bleibt die Einlage von 3.000€ ratsam.
+
+**Werde ich doppelt besteuert, wenn ich Dividenden nehme?** Ja. Die SL zahlt 23-25% (IS), und beim Einnehmen von Dividenden zahlen Sie erneut auf Ihre IRPF-Sparbasis (19-28% nach Tarif). Kombiniert effektiv: 38-46% je nach Situation. Aus diesem Grund ist die Entnahme von Dividenden aus einer kleinen SL meist ineffizient vs Autónomo IRPF.
+
+**Kann ich von Autónomo zu SL ohne Schließung wechseln?** Ja, aber mit Übergangskosten: Einbringung der Tätigkeit als Geschäftszweig (Sacheinlage erfordert unabhängiges Sachverständigengutachten, zusätzliche Notarkosten, Goodwill-Bewertung). Typische Kosten: 2.000-4.000€ Übergang, amortisiert nur, wenn die SL Jahre dauert.
+
+**Kann ich eine SL UND eine LLC haben?** Ja, kompatible Strukturen. Übliches Muster: SL für lokale Spanien-Operation, LLC für US/EU B2B-Kunden. Achten Sie auf Transfers zwischen beiden: können verbundene Vorgänge mit dokumentarischen Pflichten darstellen (Formular 232).
+
+**Wann sollte man eine nicht mehr funktionierende SL schließen?** So bald wie möglich, da die inaktive SL weiterhin ~6.000€/Jahr Wartung kostet. Bei 6+ Monaten ohne Aktivität: Schließungskosten vs Aufrechterhaltung "für alle Fälle" berechnen. Schließung dauert 6-12 Monate und etwa 600-1.500€.
+
 ## Häufige Fehler bei Gründung und Betrieb einer SL
 
 Drei Fehler kommen in der Praxis besonders oft vor und führen zu unnötigen Kosten oder Konflikten mit der Steuer- und Sozialversicherungsbehörde. Erstens: die Vergütung des arbeitenden Gesellschafter-Geschäftsführers willkürlich anzusetzen — sie muss marktüblich sein (Art. 18 Körperschaftsteuergesetz), sonst wird der Differenzbetrag als verdeckte Gewinnausschüttung umqualifiziert mit doppelter Steuerlast. Zweitens: keine Trennung zwischen privaten und gesellschaftsrechtlichen Konten zu führen — bei Mischverwendung kann die AEAT die Trennung des Vermögens infrage stellen und dem Gesellschafter Aufwendungen aberkennen. Drittens: das Modelo 232 zu vergessen, wenn Geschäfte mit verbundenen Personen 100.000 Euro pro Jahr und Gegenpartei überschreiten — die Sanktion beträgt mindestens 1.000 Euro pro nicht erklärter Gegenpartei.

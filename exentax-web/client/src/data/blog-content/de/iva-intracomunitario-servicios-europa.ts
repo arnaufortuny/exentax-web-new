@@ -27,6 +27,44 @@ Für Freelancer mit überwiegend US- oder nicht-EU-Kunden vereinfacht eine <a hr
 
 Der rechtliche Rahmen findet sich im <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740">spanischen MwSt-Gesetz 37/1992</a> und in der <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32006L0112">Richtlinie 2006/112/EG</a>. Zur Echtzeit-VIES-Prüfung nutzen Sie das <a href="https://ec.europa.eu/taxation_customs/vies/">Portal der Europäischen Kommission</a>.
 
+## Praxisfälle mit echten Zahlen
+
+**Fall 1. Spanischer IT-Berater mit französischem Kunden.** Sie fakturieren ein Projekt von 5.000€ an ein in Paris ansässiges Unternehmen. Ihre spanische EU-USt-IdNr ist in VIES aktiv, die des Kunden ebenfalls. Sie stellen eine Rechnung über genau 5.000€ aus mit dem Hinweis "Reverse Charge, Art. 84 LIVA". Auf Formular 349 erklären Sie 5.000€ als innergemeinschaftliche Dienstleistung; auf Formular 303, Feld 59 (innergemeinschaftliche Lieferungen). Der französische Kunde berechnet die französische MwSt selbst. Sie zahlen in Spanien keine MwSt für diesen Vorgang; das Einkommen erklären Sie in der IRPF.
+
+**Fall 2. Webdesignerin mit deutschem Kunden ohne gültige VIES.** Der deutsche Kunde erscheint als Privatperson, ohne registrierte USt-IdNr. Der Vorgang gilt als B2C: Belegenheit am Sitz des Leistenden (Spanien) bis zur OSS-Schwelle, danach am Sitz des Kunden. Sind Ihre jährlichen B2C-EU-Umsätze unter 10.000€, berechnen Sie 21% spanische MwSt. Über der Schwelle besteuern Sie in Deutschland mit 19% via OSS. Schlüsselentscheidung: VIES immer vor Ausstellung prüfen.
+
+**Fall 3. Marketingagentur mit gemischten Spanien-B2B + EU-Kunden.** 70% des Umsatzes ist Spanien-basiert (mit 21% MwSt), 30% EU-B2B (ohne MwSt durch Reverse Charge). Typisches Ergebnis: Vorsteuerquote wird auf den Gesamtbetrag berechnet. Die spanische Steuerbehörde erlaubt innergemeinschaftliche Vorgänge mit Vorsteuerabzug, sodass die Vorsteuer auf Gemeinkosten (Miete, Software, Tools) voll abziehbar ist. Pflichtabstimmung zwischen 303 und 349 jedes Quartal.
+
+## Fehler, die Prüfungen auslösen
+
+| Fehler | Folge |
+|---|---|
+| Rechnungsstellung ohne gültige Kunden-VIES | AEAT klassifiziert um zu B2C → spanische MwSt + Sanktion |
+| Vorgang von 5.000€ nicht auf Formular 349 erklärt | Sanktion wegen Unterlassung + Zuschlag |
+| Formulare 303 und 349 mit unterschiedlichen Zahlen | Sofortige Parallelbewertung, oft Inspektion |
+| Hinweis "Reverse Charge" auf Rechnung vergessen | EU-Kunde lehnt Rechnung ab, Zahlungsverzug |
+| B2C mit B2B auf digitalen Plattformen verwechseln | OSS falsch eingereicht → Korrekturen mit Zuschlägen |
+
+## Häufig gestellte Fragen
+
+**Muss ich MwSt berechnen, wenn mein Kunde ein britisches Unternehmen post-Brexit ist?** Nein. Großbritannien ist außerhalb der EU-innergemeinschaftlichen Regelung. Der Vorgang wird als Dienstleistungsexport außerhalb der EU behandelt: Rechnung ohne MwSt mit dem Hinweis "Vorgang nicht steuerbar Art. 69.Uno LIVA". Nicht auf 349 erklärt, aber auf 303 (spezifisches Exportfeld) gemeldet.
+
+**Wann ist die ROI-Registrierung obligatorisch?** Vor dem ersten innergemeinschaftlichen Vorgang. Die spanische Steuerbehörde kann mehrere Wochen für die Validierung der Registrierung benötigen, und bis Ihre EU-USt-IdNr in VIES erscheint, können Sie keine Reverse-Charge-Rechnungen ausstellen. Mit Spielraum vor dem ersten Service beantragen.
+
+**Was, wenn mein EU-Kunde irrtümlich MwSt einbehält?** Häufig: Kunden, die das Regime nicht kennen, wenden lokale MwSt an, weil sie denken, der Vorgang sei B2C. Lösung: Gutschrift ausstellen, einbehaltene MwSt erstatten, Kunden über Reverse Charge aufklären. Schriftlichen Schriftverkehr aufbewahren, falls AEAT fragt.
+
+**Befreit mich eine US-LLC vom Formular 349?** Wenn die LLC steuerlich nicht in Spanien ansässig ist, ja. Die LLC stellt aus den USA Rechnungen aus und reicht keine spanischen Formulare ein (sie reicht US-Compliance ein: 5472, BOI). Der spanische Steuerresident erklärt die Nettoeinkünfte der LLC in der IRPF als ausländische Geschäftseinkünfte. Reduziert drastisch die EU-MwSt-Bürokratie.
+
+## Operative Checkliste vor jeder Rechnung
+
+1. ✓ Kunden-VIES auf dem <a href="https://ec.europa.eu/taxation_customs/vies/">EK-Portal</a> prüfen und Nachweis speichern.
+2. ✓ Verifizieren, dass Ihre spanische EU-USt-IdNr aktiv ist (AEAT-Sitz konsultieren).
+3. ✓ Bestätigen, dass die Dienstleistung unter die allgemeine Regel fällt (Art. 69 LIVA): keine Immobilien, kein Personentransport, keine Präsenzveranstaltungen.
+4. ✓ Hinweis "Reverse Charge, Art. 84 LIVA" einschließen.
+5. ✓ Betrag ohne MwSt berechnen, Deliverables und Kommunikation aufbewahren.
+6. ✓ Auf das vierteljährliche oder monatliche Formular 349 übertragen.
+7. ✓ Zusammenfassung mit Formular 303 abstimmen und jährliche Kohärenz mit Formular 390 überprüfen.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
