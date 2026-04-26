@@ -1,5 +1,7 @@
 # PRIORITY-QUEUE — Cola de los 111 artículos ES
 
+> **Cardinalidad confirmada (2026-04-26):** 111 slugs = 74 FALLA + 37 PASA. A 4 slugs por sprint el reparto exacto es **19 sprints rewrite** (4 slugs cada uno excepto sprint 19 con 2) + **10 sprints polish** (4 slugs cada uno excepto sprint 29 con 1) = **29 sprints**, decisión validada con PM y reflejada en `sprints/SPRINT-PLAN.md`.
+>
 > Generada del audit `docs/audits/2026-04/conversion/audit-es.json` (2026-04-26).  
 > Ordenada por score: `(traffic + 1) × failures` para FALLA y `traffic × 0.5` para PASA.  
 > Asignación a sprints en `docs/editorial/sprints/SPRINT-PLAN.md`.

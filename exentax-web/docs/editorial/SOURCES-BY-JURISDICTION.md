@@ -1,8 +1,18 @@
 # SOURCES — Biblioteca de fuentes oficiales por jurisdicción
 
-> Cada afirmación legal/fiscal de un artículo Exentax debe enlazar a una de estas URLs (o equivalente oficial superior).  
-> Formato copy-paste: `<a href="URL" target="_blank" rel="noopener">Texto ancla</a>`.  
-> Verificación: las URLs raíz se mantienen vivas; si una URL profunda muere, sustituirla por su redirección oficial — no inventar.
+> Cada afirmación legal/fiscal de un artículo Exentax debe enlazar a una de estas URLs (o equivalente oficial superior).
+>
+> **Plantilla anchor copy-paste (obligatoria al pegar en `client/src/data/blog-content/<lang>/<slug>.ts`):**
+>
+> ```html
+> <a href="URL_DE_LA_TABLA" target="_blank" rel="noopener">Texto ancla descriptivo</a>
+> ```
+>
+> Reglas mínimas:
+> - **`target="_blank" rel="noopener"`** siempre (validador `internal-links` lo exige para externos).
+> - **Texto ancla** = nombre de la institución + concepto, NO "click aquí" / "más info" (ej. `IRS — Form 5472`, `BOE — RD-Ley 13/2022`).
+> - **Verificación previa**: HEAD 200 al momento de la cita. Si una URL profunda muere, sustituirla por su redirección oficial vigente o el índice canónico (no inventar slugs nuevos del dominio).
+> - **Jurisdicción**: cada sección lista exclusivamente fuentes nativas de ese país/bloque normativo. No mezclar IRS con AEAT.
 
 ## 1. Estados Unidos — Federal
 

@@ -93,4 +93,4 @@ Umbrales 2026 estimación objetiva (módulos): rendimientos íntegros ≤ 250.00
 - [ ] CA con vostè (`i18n:check`).
 - [ ] DE con Sie/Ihr (`i18n:check`).
 - [ ] Audit re-ejecutado sobre el slug → PASA.
-- [ ] Entrada de cierre en `docs/editorial/SPRINT-LOG.md`.
+- [ ] Entrada de cierre en `docs/editorial/sprints/SPRINT-LOG.md`.

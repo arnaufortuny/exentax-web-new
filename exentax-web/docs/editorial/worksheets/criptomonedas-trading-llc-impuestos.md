@@ -94,4 +94,4 @@ IRS Form 1099-DA obligatorio para brokers de criptoactivos a partir de operacion
 - [ ] CA con vostè (`i18n:check`).
 - [ ] DE con Sie/Ihr (`i18n:check`).
 - [ ] Audit re-ejecutado sobre el slug → PASA.
-- [ ] Entrada de cierre en `docs/editorial/SPRINT-LOG.md`.
+- [ ] Entrada de cierre en `docs/editorial/sprints/SPRINT-LOG.md`.

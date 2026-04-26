@@ -93,4 +93,4 @@ $25,000 USD/año por Form 5472 omitido aplica solo a la LLC propiedad de no resi
 - [ ] CA con vostè (`i18n:check`).
 - [ ] DE con Sie/Ihr (`i18n:check`).
 - [ ] Audit re-ejecutado sobre el slug → PASA.
-- [ ] Entrada de cierre en `docs/editorial/SPRINT-LOG.md`.
+- [ ] Entrada de cierre en `docs/editorial/sprints/SPRINT-LOG.md`.

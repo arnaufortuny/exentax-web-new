@@ -92,4 +92,4 @@ Reverse charge (art. 196 Directiva 2006/112/CE) sólo aplica B2B con VAT number 
 - [ ] CA con vostè (`i18n:check`).
 - [ ] DE con Sie/Ihr (`i18n:check`).
 - [ ] Audit re-ejecutado sobre el slug → PASA.
-- [ ] Entrada de cierre en `docs/editorial/SPRINT-LOG.md`.
+- [ ] Entrada de cierre en `docs/editorial/sprints/SPRINT-LOG.md`.

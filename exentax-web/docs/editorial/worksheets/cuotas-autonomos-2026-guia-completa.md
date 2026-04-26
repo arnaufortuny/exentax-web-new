@@ -91,4 +91,4 @@ Tabla oficial 2026 RETA por ingresos reales (RD-Ley 13/2022): 15 tramos progresi
 - [ ] CA con vostè (`i18n:check`).
 - [ ] DE con Sie/Ihr (`i18n:check`).
 - [ ] Audit re-ejecutado sobre el slug → PASA.
-- [ ] Entrada de cierre en `docs/editorial/SPRINT-LOG.md`.
+- [ ] Entrada de cierre en `docs/editorial/sprints/SPRINT-LOG.md`.
