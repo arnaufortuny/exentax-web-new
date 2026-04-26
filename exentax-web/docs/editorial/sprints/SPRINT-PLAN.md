@@ -3,13 +3,14 @@
 > Plan de ejecución del programa editorial 2026.  
 > Cada sprint se propone como tarea separada (`Sprint #N — …`) tras el cierre del anterior.  
 > Sprints 1–19: rewrite-completo (verdict FALLA).  
+> **Cómputo:** 111 slugs ÷ 4 por sprint = 27,75 → 28 sprints completos imposible (74 FALLA + 37 PASA no caen en múltiplo de 4); reparto real es **19 sprints rewrite (76 slugs FALLA, último con sólo 2 slugs)** + **10 sprints polish (37 slugs PASA, último con 1 slug)** = **29 sprints**, 1 slug FALLA absorbido por re-evaluación final.  
 > Sprints 20–29: polish-verificacion (verdict PASA).
 
 ## Reglas de ejecución
 
 1. **Orden interno**: cada sprint completa el slug nº1 íntegro (ES + 5 nativas + meta + validadores) **antes** de pasar al nº2.
 2. **Validadores que gatean cierre del sprint**: `blog:validate-all`, `lint:blog`, `i18n:check`, `lint:pt-pt`, `seo:meta`, audit re-ejecutado sobre los slugs del sprint → todos PASA.
-3. **Cierre**: entrada en `docs/editorial/SPRINT-LOG.md` con palabras finales por idioma, ratio nativa/ES, fuentes citadas, commit hash.
+3. **Cierre**: entrada en `docs/editorial/sprints/SPRINT-LOG.md` con palabras finales por idioma, ratio nativa/ES, fuentes citadas, commit hash.
 4. **Worksheets**: los sprints **1–8** ya tienen worksheet generado (`docs/editorial/worksheets/<slug>.md`). Sprints 9+ generan worksheet on-demand cuando se proponen como tarea.
 5. **Dependencia**: cada sprint depende del cierre del anterior (no se ejecutan en paralelo). El master Task #26 es prerequisito común.
 

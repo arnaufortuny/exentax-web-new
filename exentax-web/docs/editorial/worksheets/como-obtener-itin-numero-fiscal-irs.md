@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Cómo obtener el ITIN: número fiscal del IRS para no residentes
-- **Meta sugerida (60ch / 140ch):** `Cómo obtener el ITIN: número fiscal del IRS para no resid…` · `Análisis práctico de cómo obtener el itin: número fiscal del irs para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo obtener el ITIN: número fiscal del IRS para no resid…` · `Análisis práctico de cómo obtener el itin: número fiscal del irs para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del …`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

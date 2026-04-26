@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Form 5472: qué es, quién lo presenta y cómo cumplir sin líos
-- **Meta sugerida (60ch / 140ch):** `Form 5472: qué es, quién lo presenta y cómo cumplir sin líos` · `Análisis práctico de form 5472: qué es, quién lo presenta y cómo cumplir sin líos con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Form 5472: qué es, quién lo presenta y cómo cumplir sin líos` · `Análisis práctico de form 5472: qué es, quién lo presenta y cómo cumplir sin líos con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

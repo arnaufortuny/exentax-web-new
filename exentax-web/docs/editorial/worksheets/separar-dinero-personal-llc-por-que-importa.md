@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Separar dinero personal y de tu LLC: por qué importa y cómo hacerlo
-- **Meta sugerida (60ch / 140ch):** `Separar dinero personal y de tu LLC: por qué importa y có…` · `Análisis práctico de separar dinero personal y de tu llc: por qué importa y cómo hacerlo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Separar dinero personal y de tu LLC: por qué importa y có…` · `Análisis práctico de separar dinero personal y de tu llc: por qué importa y cómo hacerlo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Módulos vs estimación directa 2026: cuál te conviene como autónomo
-- **Meta sugerida (60ch / 140ch):** `Módulos vs estimación directa 2026: cuál te conviene como…` · `Análisis práctico de módulos vs estimación directa 2026: cuál te conviene como autónomo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta …`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Módulos vs estimación directa 2026: cuál te conviene como…` · `Análisis práctico de módulos vs estimación directa 2026: cuál te conviene como autónomo con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta …`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

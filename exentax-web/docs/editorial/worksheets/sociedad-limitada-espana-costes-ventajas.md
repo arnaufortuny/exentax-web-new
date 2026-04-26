@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Sociedad limitada en España 2026: costes, ventajas y comparativa con LLC
-- **Meta sugerida (60ch / 140ch):** `Sociedad limitada en España 2026: costes, ventajas y comp…` · `Análisis práctico de sociedad limitada en españa 2026: costes, ventajas y comparativa con llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura ho…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Sociedad limitada en España 2026: costes, ventajas y comp…` · `Análisis práctico de sociedad limitada en españa 2026: costes, ventajas y comparativa con llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura ho…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

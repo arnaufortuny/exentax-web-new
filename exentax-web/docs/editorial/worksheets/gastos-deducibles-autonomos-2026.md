@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Gastos deducibles para autónomos en 2026: la lista práctica
-- **Meta sugerida (60ch / 140ch):** `Gastos deducibles para autónomos en 2026: la lista práctica` · `Análisis práctico de gastos deducibles para autónomos en 2026: la lista práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equ…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Gastos deducibles para autónomos en 2026: la lista práctica` · `Análisis práctico de gastos deducibles para autónomos en 2026: la lista práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equ…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

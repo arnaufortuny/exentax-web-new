@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** LLC para residentes y no residentes de EE.UU.: diferencias clave
-- **Meta sugerida (60ch / 140ch):** `LLC para residentes y no residentes de EE.UU.: diferencia…` · `Análisis práctico de llc para residentes y no residentes de ee.uu.: diferencias clave con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta de…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `LLC para residentes y no residentes de EE.UU.: diferencia…` · `Análisis práctico de llc para residentes y no residentes de ee.uu.: diferencias clave con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta de…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

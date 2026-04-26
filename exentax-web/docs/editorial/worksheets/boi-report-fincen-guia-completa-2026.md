@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** BOI Report (FinCEN): guía completa para dueños de LLC en 2026
-- **Meta sugerida (60ch / 140ch):** `BOI Report (FinCEN): guía completa para dueños de LLC en…` · `Análisis práctico de boi report (fincen): guía completa para dueños de llc en 2026 con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del e…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `BOI Report (FinCEN): guía completa para dueños de LLC en…` · `Análisis práctico de boi report (fincen): guía completa para dueños de llc en 2026 con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del e…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

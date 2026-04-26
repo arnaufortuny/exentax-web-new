@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas
-- **Meta sugerida (60ch / 140ch):** `Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas` · `Análisis práctico de pasarelas de pago para tu llc: stripe, paypal y alternativas con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Pasarelas de pago para tu LLC: Stripe, PayPal y alternativas` · `Análisis práctico de pasarelas de pago para tu llc: stripe, paypal y alternativas con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del eq…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

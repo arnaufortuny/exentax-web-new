@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Cuotas de autónomos 2026 en España: guía completa con cifras oficiales
-- **Meta sugerida (60ch / 140ch):** `Cuotas de autónomos 2026 en España: guía completa con cif…` · `Análisis práctico de cuotas de autónomos 2026 en españa: guía completa con cifras oficiales con cifras oficiales 2026, plazos IRS/AEAT y la lectura hone…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cuotas de autónomos 2026 en España: guía completa con cif…` · `Análisis práctico de cuotas de autónomos 2026 en españa: guía completa con cifras oficiales con cifras oficiales 2026, plazos IRS/AEAT y la lectura hone…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

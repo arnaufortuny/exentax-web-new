@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos para tu LLC
-- **Meta sugerida (60ch / 140ch):** `ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos par…` · `Análisis práctico de itin y ssn: qué son, cuál necesitas y cómo obtenerlos para tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta d…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `ITIN y SSN: qué son, cuál necesitas y cómo obtenerlos par…` · `Análisis práctico de itin y ssn: qué son, cuál necesitas y cómo obtenerlos para tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta d…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

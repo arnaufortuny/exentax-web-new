@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Retenciones de IRPF en la factura: cuándo, cuánto y modelos 111/115/130
-- **Meta sugerida (60ch / 140ch):** `Retenciones de IRPF en la factura: cuándo, cuánto y model…` · `Análisis práctico de retenciones de irpf en la factura: cuándo, cuánto y modelos 111/115/130 con cifras oficiales 2026, plazos IRS/AEAT y la lectura hon…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Retenciones de IRPF en la factura: cuándo, cuánto y model…` · `Análisis práctico de retenciones de irpf en la factura: cuándo, cuánto y modelos 111/115/130 con cifras oficiales 2026, plazos IRS/AEAT y la lectura hon…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

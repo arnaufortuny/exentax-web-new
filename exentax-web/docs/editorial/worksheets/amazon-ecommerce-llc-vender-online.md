@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Amazon y ecommerce con LLC: cómo vender online desde cualquier país
-- **Meta sugerida (60ch / 140ch):** `Amazon y ecommerce con LLC: cómo vender online desde cual…` · `Análisis práctico de amazon y ecommerce con llc: cómo vender online desde cualquier país con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Amazon y ecommerce con LLC: cómo vender online desde cual…` · `Análisis práctico de amazon y ecommerce con llc: cómo vender online desde cualquier país con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

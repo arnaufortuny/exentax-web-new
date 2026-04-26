@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Bancos vs Fintech: dónde abrir la cuenta de tu LLC
-- **Meta sugerida (60ch / 140ch):** `Bancos vs Fintech: dónde abrir la cuenta de tu LLC` · `Análisis práctico de bancos vs fintech: dónde abrir la cuenta de tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Bancos vs Fintech: dónde abrir la cuenta de tu LLC` · `Análisis práctico de bancos vs fintech: dónde abrir la cuenta de tu llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** ¿Qué es el IRS? Guía completa para dueños de LLC
-- **Meta sugerida (60ch / 140ch):** `¿Qué es el IRS? Guía completa para dueños de LLC` · `Análisis práctico de ¿qué es el irs? guía completa para dueños de llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `¿Qué es el IRS? Guía completa para dueños de LLC` · `Análisis práctico de ¿qué es el irs? guía completa para dueños de llc con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

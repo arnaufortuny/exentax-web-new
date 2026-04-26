@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** IVA en servicios digitales internacionales: cuándo aplica y cuándo no
-- **Meta sugerida (60ch / 140ch):** `IVA en servicios digitales internacionales: cuándo aplica…` · `Análisis práctico de iva en servicios digitales internacionales: cuándo aplica y cuándo no con cifras oficiales 2026, plazos IRS/AEAT y la lectura hones…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `IVA en servicios digitales internacionales: cuándo aplica…` · `Análisis práctico de iva en servicios digitales internacionales: cuándo aplica y cuándo no con cifras oficiales 2026, plazos IRS/AEAT y la lectura hones…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

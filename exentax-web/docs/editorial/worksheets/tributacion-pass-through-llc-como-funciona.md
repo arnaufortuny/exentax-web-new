@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Pass-Through de las LLC: qué es, cómo funciona y por qué es ventaja
-- **Meta sugerida (60ch / 140ch):** `Pass-Through de las LLC: qué es, cómo funciona y por qué…` · `Análisis práctico de pass-through de las llc: qué es, cómo funciona y por qué es ventaja con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Pass-Through de las LLC: qué es, cómo funciona y por qué…` · `Análisis práctico de pass-through de las llc: qué es, cómo funciona y por qué es ventaja con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

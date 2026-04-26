@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Cómo cambiar divisas en tu LLC: las mejores opciones
-- **Meta sugerida (60ch / 140ch):** `Cómo cambiar divisas en tu LLC: las mejores opciones` · `Análisis práctico de cómo cambiar divisas en tu llc: las mejores opciones con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exe…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo cambiar divisas en tu LLC: las mejores opciones` · `Análisis práctico de cómo cambiar divisas en tu llc: las mejores opciones con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exe…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

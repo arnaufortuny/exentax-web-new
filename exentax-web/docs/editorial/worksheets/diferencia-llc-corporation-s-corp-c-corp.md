@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no residentes
-- **Meta sugerida (60ch / 140ch):** `LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no…` · `Análisis práctico de llc vs corporation vs s-corp vs c-corp: guía 2026 para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honest…`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `LLC vs Corporation vs S-Corp vs C-Corp: guía 2026 para no…` · `Análisis práctico de llc vs corporation vs s-corp vs c-corp: guía 2026 para no residentes con cifras oficiales 2026, plazos IRS/AEAT y la lectura honest…`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 

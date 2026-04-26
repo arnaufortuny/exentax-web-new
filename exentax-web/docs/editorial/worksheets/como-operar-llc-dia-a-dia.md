@@ -7,7 +7,8 @@
 ## Título y meta SEO actuales
 
 - **Title:** Cómo operar tu LLC en el día a día: guía práctica
-- **Meta sugerida (60ch / 140ch):** `Cómo operar tu LLC en el día a día: guía práctica` · `Análisis práctico de cómo operar tu llc en el día a día: guía práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Meta auto-stub (referencia bruta del audit, NO usar literal):** `Cómo operar tu LLC en el día a día: guía práctica` · `Análisis práctico de cómo operar tu llc en el día a día: guía práctica con cifras oficiales 2026, plazos IRS/AEAT y la lectura honesta del equipo Exentax.`
+- **Objetivo de meta a redactar:** title único 50-60ch con verbo+diferencial · description 130-150ch con cifra/plazo/jurisdicción y CTA implícita. Sin truncado con `…`.
 
 ## Primer párrafo actual (auditoría)
 
