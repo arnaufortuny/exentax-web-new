@@ -123,7 +123,7 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Notre équipe est spécialisée dans les structures fiscales internationales pour les résidents de pays hispanophones qui exploitent des activités en ligne. Nous combinons une connaissance locale de l'Espagne, de l'Andorre et de l'Amérique latine avec une expérience opérationnelle de constitution d'entités au Delaware, dans le Wyoming, en Estonie et dans d'autres juridictions. Chaque dossier commence par une consultation gratuite au cours de laquelle nous évaluons la résidence, l'activité et les objectifs, et nous vous disons honnêtement si la structure proposée a du sens ou si une alternative plus simple suffit.
 
-## Mise à jour Exentax actuellement: BOI Report fin actuellement
+## Mise à jour Exentax: BOI Report actuellement
 
 Le BOI a été l'obligation la plus mouvante des 24 derniers mois; version en vigueur:
 
@@ -131,7 +131,7 @@ Le BOI a été l'obligation la plus mouvante des 24 derniers mois; version en vi
 - **Sanctions en vigueur si vous êtes dans le champ.** **591 USD/jour** ajusté à l'inflation pour infractions civiles, jusqu’à **10 000 USD** et/ou **2 ans** de prison pour infractions dolosives (31 U.S.C. §5336). Pertinent uniquement si votre entité qualifie comme foreign reporting company ou si la règle élargit à nouveau son champ.
 - **Opération de dépôt si applicable.** Dépôt initial gratuit sur [le portail officiel FinCEN pour le BOI](https://boiefiling.fincen.gov), processus de **10-15 minutes**, dépôt initial + **mise à jour sous 30 jours** pour tout changement d'adresse, document ou bénéficiaire. Conservez le **BOIR Confirmation Number** comme preuve.
 
-### FAQ actuellement
+### FAQ
 
 **Ma LLC formée aux États-Unis avec un associé français doit-elle déposer le BOIR ?** **Non, dans le champ vigent.** Depuis l'interim final rule de FinCEN de mars 2025, toute LLC américaine (Wyoming, Delaware, New Mexico ou autre) détenue par un non-résident est hors champ du BOI Report. Seules les foreign reporting companies déposent. Chez Exentax, nous surveillons FinCEN.gov à chaque dépôt et, si l'obligation revient, nous la gérons sans frais supplémentaires.
 

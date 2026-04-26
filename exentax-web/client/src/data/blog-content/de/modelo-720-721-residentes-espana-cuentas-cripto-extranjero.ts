@@ -105,9 +105,9 @@ Unser Prozess für 720/721, wenn ein Mandant mit LLC + europäischen Fintechs + 
 Modelo 720 und Modelo 721 sind Meldepflichten, keine Steuern. Sie kosten an sich nichts, ihre Unterlassung jedoch sehr wohl: Strafe nach Art. 198 LGT, Regularisierung der Steuerschulden mit Zuschlägen nach Art. 191 und – bei nicht gerechtfertigten Salden – der klassische Hebel des Art. 39 LIRPF (vom EuGH gemildert, aber nicht beseitigt). Der Abgleich mit CRS und aktuell mit DAC8 macht die Spur für die AEAT immer sichtbarer.
 
 Wenn Sie Wise, Mercury, Revolut, ausländische Broker oder Krypto außerhalb Spaniens haben und nicht 100 % sicher in Bezug auf 720/721 sind, prüfen wir es mit Ihnen und bringen Ihre Lage vor der nächsten Kampagne in Ordnung.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -118,7 +118,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:bank-balance-v1 -->
 ## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
@@ -126,7 +126,7 @@ Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, 
 Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
-- **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay deinen Betrieb am Laufen.
+- **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn du Meta Ads, Google Ads oder SaaS-Abos verwaltest.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
@@ -211,9 +211,9 @@ Für die Bankberichts-Schicht vor dem Modelo 720 lesen Sie <a href="/de/blog/mel
 
   Der **EuGH-Urteilsspruch C-788/19 vom 27. Januar 2022** zwang Spanien zur Reform der Strafhöhe (vorher €5.000 pro nicht gemeldetem Datenfeld plus 150 % Vermögensteuer): die **Ley 5/2022 vom 9. März** ersetzte das Sanktionsregime durch ordentliche Säumniszuschläge nach Art. 198–199 LGT. Wer also vor 2022 wegen Modelo-720-Versäumnissen sanktioniert wurde, kann eine **Rückerstattung der Strafe** gemäß der überarbeiteten DA 18.ª LGT beantragen — die spanische Generaldirektion für Steuern hat hierzu mehrere Konsultationen veröffentlicht (DGT V0497-22, V1066-22).
 
-  Für deutsche Steuerresidenten in Spanien gilt zusätzlich: das **deutsche Konto bei Sparkasse oder Volksbank** muss in Modelo 720 deklariert werden, auch wenn es zugleich gemäß **CRS (DAC2, Dir. 2014/107/EU)** vom deutschen BZSt automatisch nach Spanien gemeldet wird. Die Doppelmeldung ist Pflicht — das Modelo 720 ersetzt die CRS-Meldung nicht, sondern ist eine eigenständige nationale Pflicht. Gleiches gilt für Österreicher mit Erste-Bank-Konten und Schweizer mit UBS/PostFinance-Konten (Schweiz nimmt seit 2018 am AEOI/CRS teil).
+  Für deutsche Steuerresidenten in Spanien gilt zusätzlich: das **deutsche Konto bei Sparkasse oder Volksbank** muss in Modelo 720 deklariert werden, auch wenn es zugleich gemäß **CRS (DAC2, Ihnen. 2014/107/EU)** vom deutschen BZSt automatisch nach Spanien gemeldet wird. Die Doppelmeldung ist Pflicht — das Modelo 720 ersetzt die CRS-Meldung nicht, sondern ist eine eigenständige nationale Pflicht. Gleiches gilt für Österreicher mit Erste-Bank-Konten und Schweizer mit UBS/PostFinance-Konten (Schweiz nimmt seit 2018 am AEOI/CRS teil).
 
-  Bei Krypto-Beständen auf in **Deutschland regulierten Plattformen** (BaFin-Lizenz nach KMAG, z. B. Coinbase Germany GmbH, Bitvavo) oder in der **Schweiz** (FINMA-lizenziert, z. B. Bitcoin Suisse) entsteht die Modelo-721-Meldepflicht trotzdem in Spanien. Die spanische Verwaltung fordert den Stichtagswert zum 31. Dezember in EUR (Wechselkurs nach EZB-Referenzkurs). Mit der **CARF-Verordnung (OECD Crypto-Asset Reporting Framework)** und **DAC8 (Dir. UE 2023/2226)** ab 2026 wird der Datenaustausch zwischen den Krypto-Plattformen und der spanischen AEAT systematisch — Nicht-Deklaration wird damit für die Steuerverwaltung praktisch lückenlos sichtbar.
+  Bei Krypto-Beständen auf in **Deutschland regulierten Plattformen** (BaFin-Lizenz nach KMAG, z. B. Coinbase Germany GmbH, Bitvavo) oder in der **Schweiz** (FINMA-lizenziert, z. B. Bitcoin Suisse) entsteht die Modelo-721-Meldepflicht trotzdem in Spanien. Die spanische Verwaltung fordert den Stichtagswert zum 31. Dezember in EUR (Wechselkurs nach EZB-Referenzkurs). Mit der **CARF-Verordnung (OECD Crypto-Asset Reporting Framework)** und **DAC8 (Ihnen. UE 2023/2226)** ab 2026 wird der Datenaustausch zwischen den Krypto-Plattformen und der spanischen AEAT systematisch — Nicht-Deklaration wird damit für die Steuerverwaltung praktisch lückenlos sichtbar.
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

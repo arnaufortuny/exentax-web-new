@@ -40,9 +40,9 @@ Bei Vertrieb über Plattformen: <a href="/de/blog/dac7-die-neue-meldung-digitale
 Revolut Business ist exzellent; CRS-Profil zu kennen ist essentiell. Schlüssel: korrekt deklarieren, kohärenten Stack entwerfen.
 
 Bei Exentax prüfen wir fallweise, ob Revolut Business in die Struktur passt. Buchen Sie Ihre kostenlose Beratung: wir schauen auf die gesamte Banking-Landkarte und sagen Ihnen, was bleibt und was umzieht.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -57,7 +57,7 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung

@@ -127,7 +127,7 @@ Chaque cas est différent, mais la plupart de nos clients réduisent leur charge
 Vous voulez savoir comment la fiscalité pass-through s'applique précisément à votre cas, en fonction de votre résidence (France, Belgique, Suisse, Québec) et de votre type de clients? Réservez une consultation pour votre consultation gratuite et nous regardons votre situation en détail.
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -154,15 +154,15 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
-## Mise à jour Exentax actuellement: pass-through actuellement en détail
+## Mise à jour Exentax: pass-through en détail
 
-La fiscalité pass-through est le cœur fiscal d'une SMLLC; précisez-la avec les données actuellement:
+La fiscalité pass-through est le cœur fiscal d'une SMLLC; précisez-la avec les données:
 
 - **Mécanique.** Treas. Reg. §301.7701-3 traite la SMLLC comme *disregarded entity*: revenus et charges passent au *member* et sont imposés là où il est résident fiscal. La LLC n'est pas contribuable fédéral par défaut.
 - **Exceptions.** Le **Form 8832** avec *check-the-box election* à C-Corp fait passer la LLC à **21 % fédéral** et au 1120 substantif. Irrévocable 60 mois.
 - **Reporting obligatoire même disregarded.** Une SMLLC à *member* non-résident doit déposer **Form 5472 + 1120 pro forma** annuellement pour toute *reportable transaction* (sanction de base 25 000 USD/an, IRC §6038A). Le reporting est informatif; ne signifie pas payer du tax fédéral.
 
-### FAQ actuellement
+### FAQ
 
 **Pass-through veut-il dire ne rien déclarer?** Non. La LLC n'est pas contribuable; vous l’êtes. Déclarez le bénéfice attribué dans votre IRPF/EStG/IRPEF selon résidence.
 

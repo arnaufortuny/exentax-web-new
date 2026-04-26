@@ -71,7 +71,7 @@ Si vous le faites seul, oui, cela peut être fastidieux. Le formulaire nécessit
 2. **Les données du propriétaire étranger**: nom complet, pays de résidence, numéro d'identification fiscale
 3. **Les transactions déclarables**: détaillées par type et montant
 
-De plus, il est déposé en version papier (pas électroniquement) accompagné du Form 1120, envoyé par courrier à l'IRS. Oui, en plein actuellement, l'IRS demande encore du papier pour cela. Bienvenue dans la bureaucratie américaine.
+De plus, il est déposé en version papier (pas électroniquement) accompagné du Form 1120, envoyé par courrier à l'IRS. Oui, à ce jour, l'IRS demande encore du papier pour cela. Bienvenue dans la bureaucratie américaine.
 
 Mais si vous êtes client d'Exentax, tout cela est invisible pour vous. Nous collectons les informations, préparons les deux formulaires, les vérifions et les envoyons. Vous vous consacrez à votre activité et nous nous occupons de la conformité. C'est aussi simple que ça.
 ### Sanctions pour non-dépôt du Form 5472
@@ -121,7 +121,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 <!-- exentax:legal-refs-v1 -->
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -148,15 +148,15 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-## Mise à jour Exentax actuellement: Form 5472 en détail
+## Mise à jour Exentax: Form 5472 en détail
 
 Le Form 5472 reste l'obligation la plus coûteuse à oublier pour une SMLLC non-résidente:
 
 - **Sanction de base 25 000 USD par formulaire et par an** (IRC §6038A) + **25 000 USD par tranche de 30 jours** sans dépôt après notification de l’IRS. Pas de prescription tant que l'obligation est ouverte.
 - **Procédure exacte.** Form 1120 *pro forma* (en-tête seul: nom, adresse, EIN, exercice fiscal) avec Form 5472 annexé. Envoi par **courrier certifié ou fax à l’IRS Service Center d’Ogden, Utah**, **pas via MeF/e-file**. Conservez le justificatif d'envoi comme preuve.
-- **Échéances actuellement.** Exercice 2025 → **15 avril actuellement**. Prolongation via **Form 7004** → **15 octobre actuellement**. La prolongation se dépose également par courrier ou fax avant le 15 avril.
+- **Échéances.** Exercice 2025 → **15 avril**. Prolongation via **Form 7004** → **15 octobre**. La prolongation se dépose également par courrier ou fax avant le 15 avril.
 
-### FAQ actuellement
+### FAQ
 
 **Qu'est-ce qu'une *reportable transaction*?** Tout mouvement entre la LLC et son unique *member* non-résident: apports, retraits, prêts, paiements de services. S'il y a eu un mouvement, il faut déposer.
 

@@ -186,7 +186,7 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 - **EIN et notification.** Sans EIN, ni 5472 ni BOI ne peut être déposé. L'IRS ne prévient pas avant de sanctionner; on s'en aperçoit quand l'EIN est bloqué ou qu'un dépôt ultérieur est rejeté.
 ## Références: sources sur les structures et juridictions
 
-Les comparaisons et données quantitatives sur les juridictions citées s'appuient sur des sources officielles mises à jour actuellement:
+Les comparaisons et données quantitatives sur les juridictions citées s'appuient sur des sources officielles mises à jour:
 
 - **États-Unis.** Delaware General Corporation Law et Limited Liability Company Act, Wyoming Limited Liability Company Act (Title 17, Chapter 29), instructions IRS du Form 5472 et IRC §7701 (classification des entités).
 - **Andorre.** Llei 95/2010 de l'Impost sobre Societats (IS à 10%), Llei 5/2014 del IRPF et régime de résidence active/passive du Govern d'Andorra.
@@ -205,15 +205,15 @@ Le choix de la juridiction dépend toujours de la résidence fiscale réelle du 
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-## Mise à jour Exentax actuellement: auto-entrepreneur Espagne vs LLC, chiffres actuellement
+## Mise à jour Exentax: auto-entrepreneur Espagne vs LLC
 
 La vraie comparaison dépend de trois leviers: cotisations, taux effectifs et charge administrative.
 
-- **Cotisations Espagne actuellement.** Système par tranches sur revenu net, minimum **~205 €/mois** et maximum **~1 607 €/mois** selon la tranche et la base de cotisation choisie (RDL 13/2022). Tarif réduit **80 €/mois les 12 premiers mois**, prolongeable 12 mois si revenu < SMI. IRPF marginal jusqu’à **47-50 %** selon région.
+- **Cotisations Espagne.** Système par tranches sur revenu net, minimum **~205 €/mois** et maximum **~1 607 €/mois** selon la tranche et la base de cotisation choisie (RDL 13/2022). Tarif réduit **80 €/mois les 12 premiers mois**, prolongeable 12 mois si revenu < SMI. IRPF marginal jusqu’à **47-50 %** selon région.
 - **SMLLC + résidence Espagne.** La LLC disregarded **ne paie pas de corporate tax fédéral** (sauf option C-Corp). Le non-résident déclare les bénéfices attribués dans son IRPF en Espagne (régime d'attribution, art. 88 LIRPF). Coût annuel structure: **~225 USD WY / 450 USD DE / 125 USD NM**.
 - **Hybride réaliste.** Conserver l'autónomo en Espagne pour les clients espagnols (facture avec TVA et retenue) + LLC pour les clients internationaux en USD. La LLC ne dispense pas de cotiser à la Sécurité sociale espagnole si l'activité principale y est.
 
-### FAQ actuellement
+### FAQ
 
 **La LLC me dispense-t-elle de cotisations?** Non automatiquement. En vivant et travaillant habituellement en Espagne, la TGSS exige l'inscription. La LLC ne réduit la TVA que sur factures hors UE.
 

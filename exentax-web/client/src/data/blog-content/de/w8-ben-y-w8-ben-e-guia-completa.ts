@@ -1,4 +1,4 @@
-export default `Wenn du oder deine LLC Geld aus den USA erhalten (Stripe, PayPal, Affiliate-Plattformen, AdSense, Dividenden, Royalties, Broker...), kannst du nach einem **W-8BEN** oder **W-8BEN-E** gefragt werden. Nicht jede Plattform verlangt ihn: Business-Banking wie Mercury, Relay oder Wise fordert ihn nur an, wenn eine konkrete Compliance-Prüfung das verlangt, während Broker wie Interactive Brokers ihn von Tag eins zwingend verlangen. Wo er verlangt wird und du ihn nicht (oder falsch) ausfüllst, ist das Ergebnis immer dasselbe: der US-Zahler wendet eine **Quellensteuer von 30 %** auf das, was er dir schuldet, "vorsichtshalber" an. 30 %, die später sehr schwer zurückzuholen sind.
+export default `Wenn du oder Ihre LLC Geld aus den USA erhalten (Stripe, PayPal, Affiliate-Plattformen, AdSense, Dividenden, Royalties, Broker...), kannst du nach einem **W-8BEN** oder **W-8BEN-E** gefragt werden. Nicht jede Plattform verlangt ihn: Business-Banking wie Mercury, Relay oder Wise fordert ihn nur an, wenn eine konkrete Compliance-Prüfung das verlangt, während Broker wie Interactive Brokers ihn von Tag eins zwingend verlangen. Wo er verlangt wird und du ihn nicht (oder falsch) ausfüllst, ist das Ergebnis immer dasselbe: der US-Zahler wendet eine **Quellensteuer von 30 %** auf das, was er Ihnen schuldet, "vorsichtshalber" an. 30 %, die später sehr schwer zurückzuholen sind.
 
 Dieser Leitfaden ist die vollständige Version, auf Deutsch, ohne unnötigen Fachjargon aber rigoros.
 
@@ -11,7 +11,7 @@ Die allgemeine Regel in den USA ist, dass jede US-Quellzahlung an eine ausländi
 Die meistgenutzten:
 
 - **W-8BEN:** für **nicht-US-amerikanische natürliche Personen**.
-- **W-8BEN-E:** für **nicht-US-amerikanische Entitäten** (deine LLC, SL, GmbH…).
+- **W-8BEN-E:** für **nicht-US-amerikanische Entitäten** (Ihre LLC, SL, GmbH…).
 
 Es gibt weitere (W-8ECI, W-8IMY, W-8EXP) für spezifischere Fälle.
 ### Hauptunterschied zwischen W-8BEN und W-8BEN-E
@@ -40,11 +40,11 @@ Ohne unterzeichnetes W-8 hält der Zahler 30 % zurück. Mit einem korrekt ausgef
 Das Formular wird von **dem, der das Geld erhält**, eingereicht:
 
 - Du als **natürliche Person** wenn du direkt empfängst: **W-8BEN**.
-- Deine **LLC** oder andere Entität wenn Zahlungen auf das Konto der Entität gehen: **W-8BEN-E**.
+- Ihre **LLC** oder andere Entität wenn Zahlungen auf das Konto der Entität gehen: **W-8BEN-E**.
 ### Wann einreichen
 
 - Bei **Eröffnung jedes Kontos** bei einer US-Bank, Fintech oder Broker.
-- Bei **Anmeldung deines Geschäfts** auf einer Zahlungsplattform.
+- Bei **Anmeldung Ihres Geschäfts** auf einer Zahlungsplattform.
 - Wenn ein **US-Kunde** vor der ersten Zahlung danach fragt.
 - Bei der **Erneuerung** alle 3 Jahre.
 ### Wo sie abgegeben werden
@@ -56,12 +56,12 @@ Eine Seite, drei Teile.
 
 **Teil I, Identifikation des Begünstigten:**
 
-1. **Name of individual:** dein voller Name laut Reisepass.
-2. **Country of citizenship:** deine Staatsangehörigkeit.
-3. **Permanent residence address:** Adresse deines tatsächlichen steuerlichen Wohnsitzes, kein PO Box, keine US-Adresse.
+1. **Name of individual:** Ihr voller Name laut Reisepass.
+2. **Country of citizenship:** Ihre Staatsangehörigkeit.
+3. **Permanent residence address:** Adresse Ihres tatsächlichen steuerlichen Wohnsitzes, kein PO Box, keine US-Adresse.
 4. **Mailing address:** nur falls abweichend.
 5. **US TIN (SSN/ITIN):** nur falls vorhanden. Die meisten lassen leer.
-6. **Foreign tax identifying number:** deine NIF/NIE.
+6. **Foreign tax identifying number:** Ihre NIF/NIE.
 7. **Reference number:** selten genutzt.
 8. **Date of birth:** Format MM-DD-YYYY.
 
@@ -71,7 +71,7 @@ Eine Seite, drei Teile.
 10. Spezielles Detail: nur wenn ein bestimmter reduzierter Satz beansprucht wird.
 
 **Teil III, Zertifizierung:** unterschreiben, Datum, Name.
-## Wie man ein W-8BEN-E Schritt für Schritt ausfüllt (deine LLC)
+## Wie man ein W-8BEN-E Schritt für Schritt ausfüllt (Ihre LLC)
 
 Länger (8 Seiten), aber du füllst nur das aus, was zutrifft. Für eine **Single-Member LLC eines Nichtansässigen**:
 
@@ -84,7 +84,7 @@ Länger (8 Seiten), aber du füllst nur das aus, was zutrifft. Für eine **Singl
 5. **Chapter 4 status (FATCA):** markiere **"Active NFFE"** wenn die LLC Dienstleistungen oder Produkte verkauft.
 6. **Permanent residence address:** registrierte US-Adresse der LLC.
 7. **Mailing address:** optional.
-8. **US TIN (EIN):** EIN deiner LLC.
+8. **US TIN (EIN):** EIN Ihrer LLC.
 9. **GIIN:** leer lassen.
 10. **Foreign TIN:** Steuer-ID des wirtschaftlichen Endbegünstigten.
 
@@ -114,27 +114,27 @@ Das **Doppelbesteuerungsabkommen zwischen dem Königreich Spanien und den USA**,
 - **Zinsen (Art. 11):** in der Regel 0 %.
 - **Royalties (Art. 12):** zwischen 0 % und 10 %.
 
-Um zu verstehen, wie das mit deiner LLC zusammenpasst, lies auch unseren <a href="/de/blog/doppelbesteuerungsabkommen-usa-spanien-fur-llcs">Leitfaden zum US-Spanien-Abkommen für LLCs</a>.
+Um zu verstehen, wie das mit Ihrer LLC zusammenpasst, lies auch unseren <a href="/de/blog/doppelbesteuerungsabkommen-usa-spanien-fur-llcs">Leitfaden zum US-Spanien-Abkommen für LLCs</a>.
 ### Praktische Fälle nach Plattform
 
 - **Stripe:** integriertes W-8BEN-E. Ergebnis: 0 % Quellensteuer auf Dienstleistungen.
 - **PayPal Business:** bei Verifizierung des Business-Kontos.
-- **Mercury / Relay / Slash:** beim Standard-Onboarding deiner LLC **nicht erforderlich**. Nur wenn eine punktuelle Compliance-Prüfung es verlangt; ohne entsprechende Anfrage musst du keines unterschreiben.
-- **Wise Business:** dasselbe Kriterium wie Mercury / Relay: nur wenn ausdrücklich angefordert. Kein Standardschritt bei der Anmeldung deiner LLC.
+- **Mercury / Relay / Slash:** beim Standard-Onboarding Ihrer LLC **nicht erforderlich**. Nur wenn eine punktuelle Compliance-Prüfung es verlangt; ohne entsprechende Anfrage musst du keines unterschreiben.
+- **Wise Business:** dasselbe Kriterium wie Mercury / Relay: nur wenn ausdrücklich angefordert. Kein Standardschritt bei der Anmeldung Ihrer LLC.
 - **Interactive Brokers:** wendet 15 % auf US-Dividenden statt 30 % an.
 - **AdSense / YouTube / Amazon KDP / App Store / Twitch:** eigener Assistent.
 ### Wie Exentax hilft
 
-Bei Exentax bereiten wir die W-8BEN-E deiner LLC dort vor, wo sie wirklich verlangt werden: Stripe, IBKR und andere Broker, Affiliate-Plattformen, AdSense / YouTube / Amazon KDP und jeder US-Zahler, der eines anfordert. Bei Mercury, Relay, Slash oder Wise unterschreiben wir nur, wenn die Plattform ausdrücklich danach fragt. Wenn bereits eine 30%-Quellensteuer wegen eines fehlerhaften W-8 angewendet wurde, prüfen wir, ob eine Erstattung über 1042-S möglich ist, obwohl es immer viel günstiger ist, von Anfang an alles richtig zu machen.
+Bei Exentax bereiten wir die W-8BEN-E Ihrer LLC dort vor, wo sie wirklich verlangt werden: Stripe, IBKR und andere Broker, Affiliate-Plattformen, AdSense / YouTube / Amazon KDP und jeder US-Zahler, der eines anfordert. Bei Mercury, Relay, Slash oder Wise unterschreiben wir nur, wenn die Plattform ausdrücklich danach fragt. Wenn bereits eine 30%-Quellensteuer wegen eines fehlerhaften W-8 angewendet wurde, prüfen wir, ob eine Erstattung über 1042-S möglich ist, obwohl es immer viel günstiger ist, von Anfang an alles richtig zu machen.
 
 > Jeder Fall ist individuell und die Steuergesetzgebung kann sich ändern; diese Formulare und FATCA-Kriterien werden periodisch aktualisiert.
 
-Wenn du möchtest, dass wir deine Situation überprüfen, buche deine kostenlose Beratung mit Exentax.
+Wenn Sie möchten, dass wir Ihre Situation überprüfen, buche Ihre kostenlose Beratung mit Exentax.
 
 Zur Vertiefung lies auch <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">Melden US-Bankkonten an das spanische Finanzamt?</a> und <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">LLC als Alternative zum autónomo-Status in Spanien</a>.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -149,7 +149,7 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-refs-v1 -->
 ## Rechtliche und regulatorische Quellen
@@ -161,7 +161,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -233,7 +233,7 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20du%20oder%20deine%20LLC%20Geld%20aus%20den%20USA%20erhalten%20(Stripe%2C%20PayPal%2C%20Affiliate-P%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20du%20oder%20Ihre%20LLC%20Geld%20aus%20den%20USA%20erhalten%20(Stripe%2C%20PayPal%2C%20Affiliate-P%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
 <!-- /exentax:cta-conv-v1 -->

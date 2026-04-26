@@ -112,12 +112,12 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Notre équipe est spécialisée dans les structures fiscales internationales pour les résidents de pays hispanophones qui exploitent des activités en ligne. Nous combinons une connaissance locale de l'Espagne, de l'Andorre et de l'Amérique latine avec une expérience opérationnelle de constitution d'entités au Delaware, dans le Wyoming, en Estonie et dans d'autres juridictions. Chaque dossier commence par une consultation gratuite au cours de laquelle nous évaluons la résidence, l'activité et les objectifs, et nous vous disons honnêtement si la structure proposée a du sens ou si une alternative plus simple suffit.
 
-## Mise à jour Exentax actuellement: points vérifiés
+## Mise à jour Exentax: points vérifiés
 
-Trois changements concrets de l'année passée modifient la notation de cet audit actuellement:
+Trois changements concrets de l'année passée modifient la notation de cet audit:
 
 - **BOI Report (FinCEN).** **Non exigé pour les LLC formées aux US détenues par des non-résidents** depuis l'interim final rule de FinCEN de mars 2025 qui a restreint le champ aux **foreign reporting companies** (entités constituées hors des US et enregistrées dans un État). Si votre entité y entre, elle identifie le bénéficiaire effectif (toute personne détenant **≥ 25 %** de participation ou exerçant un **contrôle substantiel**), se dépose gratuitement sur [le portail officiel BOI E-Filing de FinCEN](https://boiefiling.fincen.gov) en **10-15 minutes** et doit être dans les délais : **30 jours** depuis l'enregistrement et **30 jours** pour tout changement d'adresse, de document ou de bénéficiaire. Sanction civile jusqu'à **591 USD/jour** et pénale jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336). Validez le point 6 avec le **BOIR Confirmation Number** archivé (ou avec la trace que votre LLC est hors champ).
-- **Form 5472 + 1120 pro forma.** La sanction pour défaut reste à **25 000 USD par formulaire et par année** (IRC §6038A). Pour l'exercice 2025, l'échéance est le **15 avril actuellement**, prorogeable via **Form 7004** jusqu'au **15 octobre actuellement**.
+- **Form 5472 + 1120 pro forma.** La sanction pour défaut reste à **25 000 USD par formulaire et par année** (IRC §6038A). Pour l'exercice 2025, l'échéance est le **15 avril**, prorogeable via **Form 7004** jusqu'au **15 octobre**.
 - **Annual Report d'État.** Wyoming maintient la taxe minimale de 60 USD; Delaware conserve une Franchise Tax de 300 USD au 1er juin; New Mexico ne demande toujours pas d'Annual Report. Pour les autres États, confirmez les dates sur le portail du Secretary of State.
 
 ### Comment prioriser si vous échouez à trois points ou plus
@@ -126,7 +126,7 @@ Trois changements concrets de l'année passée modifient la notation de cet audi
 2. **Élevé (30 jours):** Operating Agreement non signé, Registered Agent expiré, séparation de fonds rompue.
 3. **Moyen (90 jours):** absence de piste comptable, pas de sauvegardes, BOI non vérifié dans la juridiction concernée.
 
-### FAQ actuellement
+### FAQ
 
 **Cet audit remplace-t-il une revue professionnelle?** Non. Il couvre 90 % des problèmes opérationnels visibles mais ne détecte pas les expositions fiscales fines (PE, ECI, résidence économique) qui exigent une analyse cas par cas.
 

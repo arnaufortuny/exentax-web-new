@@ -141,9 +141,9 @@ Um diesen Faden weiterzuziehen, vertiefen <a href="/de/blog/vor-und-nachteile-ei
 Wenn Sie den Schritt wagen möchten, gründen wir bei Exentax nicht nur Ihre LLC und beantragen Ihre EIN. wir gestalten Ihre komplette Struktur: Bankkontoöffnung, Treasury-Konfiguration mit Slash, Wallester-Firmenkarten mit Euro-IBAN, Integration mit Stripe oder dem Gateway Ihrer Wahl, und die gesamte jährliche Compliance (Form 5472, BOI Report, Erneuerung des Registered Agent). Wir sind keine LLC-Verkäufer: Wir sind Strukturdesigner.
 
 Möchten Sie an Ihren eigenen Zahlen (Umsatz, Marge, Wohnsitz im DACH-Raum) sehen, was eine US-LLC für Sie statt Ihres aktuellen Setups bedeuten würde? Vereinbaren Sie Ihre kostenlose Beratung. Wir rechnen es gemeinsam durch, unverbindlich, und Sie haben am Ende eine klare Antwort.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -162,7 +162,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 <!-- /exentax:calc-cta-v1 -->
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung

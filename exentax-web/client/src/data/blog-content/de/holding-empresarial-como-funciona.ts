@@ -150,9 +150,9 @@ Die Holdingstruktur ist im deutschsprachigen Raum sehr etabliert und sinnvoll ab
 
 Die Beteiligungsertragsbefreiung nach Paragraph 8b KStG in Deutschland macht 95 Prozent der Dividenden zwischen Tochter und Holding steuerfrei. In Österreich gilt ein vergleichbares System über die internationale Schachtelbeteiligung. In der Schweiz wirkt der Beteiligungsabzug auf Bundesebene.
 Für kleinere Strukturen kann eine US-LLC als leichtgewichtige Holding fungieren, ohne den Aufwand einer eigenen GmbH-Holding. Die LLC hält Beteiligungen, Marken oder Patente, gibt diese an operative Gesellschaften lizenziert weiter und wird im Wohnsitzland korrekt deklariert. Diese Variante eignet sich besonders für digitale Unternehmer, die schrittweise Strukturen aufbauen wollen, ohne sich gleich an eine vollwertige deutsche GmbH-Holding zu binden.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -163,7 +163,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.<!-- exentax:execution-v2 -->
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.<!-- exentax:execution-v2 -->
 ## Holding-Gesellschaft: wie sie wirklich funktioniert und wann sie Geld spart (und wann nicht)
 
 Eine Holding ist kein automatischer Steuertrick: sie ist eine Gesellschaftsstruktur, die Beteiligungen bündelt, um Konzern-Dividenden, Veräußerungsgewinne und Nachfolgeplanung zu optimieren. Gut gestaltet spart sie echt Steuern; schlecht gestaltet erzeugt sie nur Buchhaltung. Hier das Wichtigste vorab.

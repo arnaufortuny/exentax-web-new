@@ -74,7 +74,7 @@ Les erreurs les plus fréquentes que nous constatons:
 - **Incohérence avec les Articles**: si le nom de la LLC ou le nom du member ne correspond pas exactement à ce qui figure dans les Articles of Organization, les entités financières le détectent
 - **Ne pas le mettre à jour**: si vous ajoutez un associé, changez la structure de gestion ou modifiez les pourcentages, l'Operating Agreement doit refléter ces changements
 
-Pour poursuivre sur ce fil, <a href="/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers">Pourquoi ouvrir une LLC aux États-Unis actuellement: les 5 piliers de l'avantage américain</a> et <a href="/fr/blog/ein-vs-itin-vs-ssn-les-numeros-didentification-fiscale">EIN vs ITIN vs SSN: les numéros d'identification fiscale américains expliqués</a> complètent les nuances que nous n'avons qu'effleurées ici.
+Pour poursuivre sur ce fil, <a href="/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers">Pourquoi ouvrir une LLC aux États-Unis: les 5 piliers de l'avantage américain</a> et <a href="/fr/blog/ein-vs-itin-vs-ssn-les-numeros-didentification-fiscale">EIN vs ITIN vs SSN: les numéros d'identification fiscale américains expliqués</a> complètent les nuances que nous n'avons qu'effleurées ici.
 ### Ce que vous devriez retenir de cet article
 
 Chez Exentax on rédige des Operating Agreements alignés sur le droit français (conventions, couple, succession) pour nos clients francophones. Réservez votre consultation gratuite: on vérifie si le vôtre tient la route.
@@ -96,7 +96,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 <!-- exentax:legal-refs-v1 -->
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -151,15 +151,15 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-## Mise à jour Exentax actuellement: Operating Agreement, ce que la réalité actuellement exige
+## Mise à jour Exentax: Operating Agreement, ce que la réalité exige
 
 L’OA n'est plus optionnel en pratique: banques, IRS et acheteurs le demandent. Clés actuelles:
 
-- **KYC bancaire actuellement.** Mercury, Relay, Wise Business et presque toutes les fintechs US demandent l’OA signé à l'onboarding. Sans OA signé et daté, le compte ne s'ouvre pas.
+- **KYC bancaire.** Mercury, Relay, Wise Business et presque toutes les fintechs US demandent l’OA signé à l'onboarding. Sans OA signé et daté, le compte ne s'ouvre pas.
 - **Contenu minimal SMLLC.** Identification du *member* et adresse, capital apporté, gestion (member-managed), distribution des bénéfices, transférabilité de la *membership interest*, droit applicable (État de formation). 6-10 pages suffisent.
 - **Validité et conservation.** Pas d'enregistrement public; signer daté et conserver en numérique (PDF signé ou e-signature horodatée). Pour usage judiciaire ou vente, conserver aussi une copie papier signée.
 
-### FAQ actuellement
+### FAQ
 
 **Faut-il notarier l’OA?** Aucun État ne l'exige. La notarisation ajoute une traçabilité temporelle mais pas de validité juridique supplémentaire. L'e-signature horodatée suffit généralement.
 

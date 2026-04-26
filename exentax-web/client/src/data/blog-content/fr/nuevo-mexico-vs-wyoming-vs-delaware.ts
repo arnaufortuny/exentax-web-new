@@ -119,7 +119,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 <!-- exentax:legal-refs-v1 -->
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -164,15 +164,15 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
-## Mise à jour Exentax actuellement: le comparatif d’États fin actuellement
+## Mise à jour Exentax: le comparatif d'États
 
-Les trois États restent le choix raisonnable pour une LLC de non-résident; nuances actuellement:
+Les trois États restent le choix raisonnable pour une LLC de non-résident; nuances:
 
 - **Wyoming:** filing 100 USD, **Annual Report 60 USD** (à payer la veille de l'anniversaire), **pas de state income tax**, confidentialité élevée. Idéal pour une activité standard et de petits holdings.
 - **Delaware:** filing 110 USD, **Franchise Tax 300 USD/an** (échéance 1er juin), Court of Chancery à la jurisprudence consolidée. Coût plus élevé mais lecture préférée des VC et acheteurs corporate.
 - **New Mexico:** filing 50 USD, **pas d’Annual Report**, **pas de state income tax**, confidentialité publique maximale. Coût annuel minimal (RA seul, ~125 USD). Idéal pour side-projects, profils minimalistes et tests.
 
-### FAQ actuellement
+### FAQ
 
 **Lequel choisir pour un SaaS international?** Wyoming par défaut. Delaware uniquement si vous prévoyez de lever du VC aux États-Unis dans les 24 mois.
 

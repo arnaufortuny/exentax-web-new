@@ -1,4 +1,4 @@
-export default `Ein Satz wiederholt sich in jedem YouTube-Video und jeder "öffne deine LLC in 5 Minuten"-Werbung: **"deine LLC zahlt keine US-Steuer"**. Technisch korrekt für viele Profile. Das Problem ist, was die Leute verstehen: "also zahle ich nirgends Steuern". Das stimmt nicht mehr.
+export default `Ein Satz wiederholt sich in jedem YouTube-Video und jeder "öffne Ihre LLC in 5 Minuten"-Werbung: **"Ihre LLC zahlt keine US-Steuer"**. Technisch korrekt für viele Profile. Das Problem ist, was die Leute verstehen: "also zahle ich nirgends Steuern". Das stimmt nicht mehr.
 
 Dieser Artikel wiederholt nicht den Pass-Through-Mechanismus und nicht die Länderliste. Dafür haben Sie unseren <a href="/de/blog/durchlaufbesteuerung-fur-llcs-wie-sie-funktioniert-und-warum">Pass-Through-Leitfaden</a> und die <a href="/de/blog/us-llc-besteuerung-nach-wohnsitzland-was-sie-wo-zahlen">LLC-Besteuerung nach Wohnsitzland</a>. Hier erklären wir, **was wirklich in Ihrem Land passiert**, in welcher Reihenfolge, und warum 80 % der Probleme bei Exentax genau hier entstehen.
 
@@ -114,9 +114,9 @@ Schluss fast immer: **freiwillige Regularisierung ist günstiger** als auf das V
 - Wohnsitzwechsel kann Option sein, nur wenn echt und vollständig.
 
 Wenn Sie eine LLC haben und nicht 100 % sicher sind, wie zu Hause zu besteuern ist, oder Jahre ohne Erklärung angehäuft haben und Exposition und Regularisierungskosten kennen wollen, **prüfen wir es mit Ihnen** in einer kostenlosen 30-minütigen Beratung. Besser einmal die ganze Karte sehen als sie über Strafen Stück für Stück zu entdecken.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -131,7 +131,7 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-refs-v1 -->
 ## Rechtliche und regulatorische Quellen
@@ -143,7 +143,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -202,7 +202,7 @@ Bei Exentax modellieren wir Ihre vollständige Situation (LLC + aktueller Wohnsi
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Ein%20Satz%20wiederholt%20sich%20in%20jedem%20YouTube-Video%20und%20jeder%20%C3%B6ffne%20deine%20LLC%20in%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Ein%20Satz%20wiederholt%20sich%20in%20jedem%20YouTube-Video%20und%20jeder%20%C3%B6ffne%20Ihre%20LLC%20in%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie Ihre LLC in New Mexico gründen möchten, sehen Sie sich unsere Service-Seite <a href="/de/leistungen/llc-new-mexico">LLC in New Mexico</a> mit Kosten, Fristen und konkreten nächsten Schritten an.
 <!-- /exentax:cta-conv-v1 -->

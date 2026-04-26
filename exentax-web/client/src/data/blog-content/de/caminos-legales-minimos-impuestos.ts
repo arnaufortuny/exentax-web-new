@@ -134,9 +134,9 @@ Die dritte Stufe ist die korrekt deklarierte internationale Struktur: LLC in den
 Die Wahl des richtigen legalen Wegs hängt stark vom konkreten Profil ab: Solopreneur mit 80.000 EUR Jahresgewinn, mittelgroßer Online-Unternehmer mit 250.000 EUR oder etablierter Investor mit Vermögen ab einer Million EUR brauchen jeweils völlig unterschiedliche Lösungen. Standardrezepte aus YouTube-Videos passen selten zur eigenen Situation.
 
 Wichtig ist auch die Berücksichtigung der eigenen Lebensplanung: Familie, Schulbildung der Kinder, Sprachpräferenzen, Klima, Sicherheit, Krankenversorgung und kultureller Anschluss spielen oft eine größere Rolle als die rein steuerliche Optimierung selbst.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -146,7 +146,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 - **Mexiko, Kolumbien, Argentinien und weitere LATAM-Länder.** Jede Jurisdiktion hat ein eigenes CFC-Regime (Mexiko: Refipres; Argentinien: passive Auslandseinkünfte; Chile: Art. 41 G LIR). Gemeinsamer Grundsatz: Die in der LLC einbehaltenen Gewinne gelten als dem Gesellschafter zugeflossen, wenn die Gesellschaft als transparent oder kontrolliert eingestuft wird.
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:banking-facts-v1 --><!-- exentax:execution-v2 -->
 ## Die vier echten legalen Hebel zur Steuerminimierung

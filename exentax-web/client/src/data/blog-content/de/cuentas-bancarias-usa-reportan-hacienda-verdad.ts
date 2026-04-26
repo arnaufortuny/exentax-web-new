@@ -73,7 +73,7 @@ Als europäisch Steueransässiger haben Sie Ihre eigenen Meldepflichten (in Span
 
 Drei reale Muster:
 
-**1. Der Kunde, der mit Angst kommt**: Er hat jahrelang auf YouTube gehört, „die kriegen dich", und beginnt das Gespräch mit vorauseilender Entschuldigung. Wir zeigen ihm, wie das System wirklich aussieht: US-Konto außerhalb des CRS, FATCA bilateral aber ohne Konto-für-Konto-Datenfluss in sein Heimatland, echte registerliche Anonymität. Er geht mit dem Verständnis nach Hause, dass die Struktur völlig solide ist.
+**1. Der Kunde, der mit Angst kommt**: Er hat jahrelang auf YouTube gehört, „die kriegen Sie", und beginnt das Gespräch mit vorauseilender Entschuldigung. Wir zeigen ihm, wie das System wirklich aussieht: US-Konto außerhalb des CRS, FATCA bilateral aber ohne Konto-für-Konto-Datenfluss in sein Heimatland, echte registerliche Anonymität. Er geht mit dem Verständnis nach Hause, dass die Struktur völlig solide ist.
 
 **2. Der Kunde, der bereits jeden Monat auf sein persönliches Konto in Spanien auszahlt**: Hier gibt es einen operativen Punkt zu korrigieren. Nicht, weil die LLC meldet (sie tut es nicht), sondern weil eingehende Überweisungen auf seinem spanischen Konto sehr wohl in das spanische CRS-System fallen. Was wir konzipieren, ist ein saubererer Fluss: Firmenkarte für Ausgaben, geplante und dokumentierte Ausschüttungen, kein wahlloses Tröpfeln auf das Lokalkonto.
 
@@ -114,7 +114,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung

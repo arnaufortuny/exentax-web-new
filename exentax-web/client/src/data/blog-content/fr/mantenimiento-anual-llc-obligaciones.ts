@@ -114,7 +114,7 @@ Ce n'est pas la peine de prendre le risque. La maintenance annuelle est un inves
 Chez Exentax on prend en charge le maintien annuel complet (Annual Report, 5472, 1120, BOI, Registered Agent) pour des clients francophones. Réservez votre consultation gratuite: on audite l'état de votre LLC et on vous propose un plan de régularisation.
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -159,15 +159,15 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 Cet article est mis à jour chaque année en fonction des changements réglementaires qui affectent les structures abordées. Si vous repérez une référence obsolète, écrivez-nous et nous la réviserons lors du prochain cycle éditorial; nous laissons la date de publication visible en haut de chaque article par souci de transparence.
 
-## Mise à jour Exentax actuellement: calendrier annuel actuellement sans trous
+## Mise à jour Exentax: calendrier annuel sans trous
 
-Une maintenance annuelle propre pour une LLC actuellement tient en six jalons.
+Une maintenance annuelle propre pour une LLC tient en six jalons.
 
-- **Janvier-mars.** Clôture comptable, rapprochement Mercury/Wise, justificatifs 5472. Si 1042-S émis à des prestataires étrangers, échéance **15 mars actuellement**.
-- **Avril.** Échéance **15 avril actuellement** pour Form 5472 + 1120 pro forma de l'exercice 2025. À défaut, **Form 7004** avant la même date et l’échéance passe au **15 octobre actuellement**.
+- **Janvier-mars.** Clôture comptable, rapprochement Mercury/Wise, justificatifs 5472. Si 1042-S émis à des prestataires étrangers, échéance **15 mars**.
+- **Avril.** Échéance **15 avril** pour Form 5472 + 1120 pro forma de l'exercice 2025. À défaut, **Form 7004** avant la même date et l’échéance passe au **15 octobre**.
 - **Reste de l'année.** Renouvellement de l’**Annual Report d’État** (Wyoming la veille de l'anniversaire, Delaware **1er juin**, NM non applicable), renouvellement du **Registered Agent** (~125 USD/an) et, si votre LLC est *foreign reporting company*, surveillance BOI à chaque changement (sanction 591 USD/jour).
 
-### FAQ actuellement
+### FAQ
 
 **Et si je saute l’Annual Report?** L’État passe l'entité à *Delinquent* puis, après 60-90 jours, à *Forfeited*. Réactivation possible avec frais. Pas la peine de risquer.
 

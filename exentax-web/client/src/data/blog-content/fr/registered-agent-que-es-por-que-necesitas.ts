@@ -91,7 +91,7 @@ Tous nos agents incluent:
 Chez Exentax on intègre un Registered Agent solide dès la constitution pour nos clients francophones. Réservez votre consultation gratuite: on valide que votre couverture est bonne et, sinon, on la remplace.
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -146,15 +146,15 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-## Mise à jour Exentax actuellement: Registered Agent fin actuellement
+## Mise à jour Exentax: Registered Agent actuellement
 
 Sans Registered Agent actif, pas de LLC viable; clés opérationnelles en vigueur:
 
 - **Rôle légal.** Recevoir les notifications du Secretary of State et de l’IRS, et le *service of process* en cas de procès. Sans RA actif, la LLC passe à *Delinquent* puis, sous 60-90 jours, à *Forfeited*.
-- **Coût actuellement.** Marché stable à **100-150 USD/an** pour services standards (Northwest, Harvard Business, IncFile/Bizee). Les packs "1re année gratuite" passent à **125-200 USD** dès la 2e année; calculer le coût réel sur 3 ans.
+- **Coût.** Marché stable à **100-150 USD/an** pour services standards (Northwest, Harvard Business, IncFile/Bizee). Les packs "1re année gratuite" passent à **125-200 USD** dès la 2e année; calculer le coût réel sur 3 ans.
 - **Changement de RA.** Démarche simple auprès du Secretary of State avec frais typiques **25-50 USD**. Le nouveau RA gère souvent le changement gratuitement. Notification formelle obligatoire; arrêter de payer l'ancien ne suffit pas.
 
-### FAQ actuellement
+### FAQ
 
 **Puis-je être mon propre Registered Agent?** Uniquement avec adresse physique dans l’État de la LLC et disponibilité aux heures ouvrables (9-17). Pas pratique pour non-résidents; RA professionnel est l'option raisonnable.
 

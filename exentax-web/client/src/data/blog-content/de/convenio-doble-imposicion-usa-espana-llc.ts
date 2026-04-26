@@ -55,7 +55,7 @@ Um das Abkommen vor dem US-Zahler zu aktivieren, musst du nachweisen, dass du **
 Bei den meisten Einnahmen über Stripe, PayPal, AdSense fragen sie nicht aktiv danach, weil das W-8BEN-E die Arbeit macht. Aber vor einem Audit oder Broker wie Interactive Brokers ist es der harte Beweis.
 ### Erforderliche Formulare
 
-- **W-8BEN-E:** von deiner LLC vor jedem US-Zahler eingereicht. Siehe unseren <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">vollständigen W-8BEN- und W-8BEN-E-Leitfaden</a>.
+- **W-8BEN-E:** von Ihrer LLC vor jedem US-Zahler eingereicht. Siehe unseren <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">vollständigen W-8BEN- und W-8BEN-E-Leitfaden</a>.
 - **W-8BEN:** für nicht-residente natürliche Personen.
 - **Form 1042-S:** vom US-Zahler ausgestellt, wenn Quellensteuer angewandt wurde.
 - **Form 5472 + Form 1120 pro forma:** jährliche Informationserklärung der LLC beim IRS.
@@ -107,7 +107,7 @@ In der **Jahreserklärung (Modelo 100)** integrierst du die Nettogewinne der LLC
 6. Gesamte Dokumentation aufbewahren.
 ### Warum du einen spanischen Steuerberater brauchst
 
-Eine in den USA gut konstituierte LLC ist nur die Hälfte der Arbeit. Die andere Hälfte ist die **korrekte Integration in deine spanische IRPF**:
+Eine in den USA gut konstituierte LLC ist nur die Hälfte der Arbeit. Die andere Hälfte ist die **korrekte Integration in Ihre spanische IRPF**:
 
 - Korrekte Qualifikation des Einkommens.
 - Anwendung des Abkommens und des Abzugs.
@@ -115,7 +115,7 @@ Eine in den USA gut konstituierte LLC ist nur die Hälfte der Arbeit. Die andere
 - Einhaltung von Modelo 720/721.
 - Dokumentation der abzugsfähigen Ausgaben.
 
-Ein spanischer Steuerberater, der internationale Strukturen mit LLCs versteht, ist **Teil des kompletten Setups**. Bei Exentax decken wir die US-Seite ab und koordinieren mit deinem spanischen Berater oder empfehlen einen.
+Ein spanischer Steuerberater, der internationale Strukturen mit LLCs versteht, ist **Teil des kompletten Setups**. Bei Exentax decken wir die US-Seite ab und koordinieren mit Ihrem spanischen Berater oder empfehlen einen.
 
 > Jeder Fall ist individuell. Die DGT-Positionen können sich entwickeln und die Abkommensprotokolle werden periodisch aktualisiert. Dieser Leitfaden ist informativ, er ersetzt nicht die individuelle Analyse durch einen qualifizierten Fachmann.
 ### Zusammenfassend
@@ -127,12 +127,12 @@ Ein spanischer Steuerberater, der internationale Strukturen mit LLCs versteht, i
 - US-Quellensteuern werden in Spanien über den Abzug ausgeglichen.
 - Komplettes Setup: **Exentax + spanischer Steuerberater**.
 
-Wenn du deinen Fall mit konkreten Zahlen prüfen möchtest, **buche eine kostenlose 30-Minuten-Beratung** mit Exentax.
+Wenn du Ihren Fall mit konkreten Zahlen prüfen möchtest, **buche eine kostenlose 30-Minuten-Beratung** mit Exentax.
 
 Zur Vertiefung lies auch <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">LLC als Alternative zum autónomo-Status in Spanien</a> und <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">Vollständiger Leitfaden zu den Formularen W8-BEN und W8-BEN-E</a>.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -146,7 +146,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 <!-- /exentax:calc-cta-v1 -->
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten

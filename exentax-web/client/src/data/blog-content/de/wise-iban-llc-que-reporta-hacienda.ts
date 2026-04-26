@@ -119,9 +119,9 @@ Wenn Sie nicht sicher sind, wie Wise in Ihre Struktur passt, oder ob Sie einer D
 Wise ist eine ausgezeichnete Multi-Währungs-Fintech, vollständig reguliert und vollständig in den automatischen Informationsaustausch eingebunden, sobald sie unter Wise Europe SA operiert. Es ist keine Abkürzung, um Geld zu verstecken, aber auch keine Kamera, die jede Bewegung live an die Steuerbehörde überträgt. Über CRS reisen Saldo, Erträge sowie die Identität von Inhaber und wirtschaftlich Berechtigtem. Was standardmäßig nicht reist, ist das operative Detail, es ist aber jederzeit verfügbar, wenn die Behörde es anfordert.
 
 Der Unterschied zwischen Problemen oder keinen Problemen liegt nicht in der Nutzung von Wise, sondern darin, wie Wise in eine Struktur passt, die mit Ihrer LLC, Ihrer Ansässigkeit und Ihren Erklärungen kohärent ist. Genau das ist das Gespräch, das man besser vorher führt als nachher.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -132,7 +132,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-refs-v1 -->
 ## Rechtliche und regulatorische Quellen
@@ -145,7 +145,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **EU / OECD.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.<!-- exentax:execution-v2 -->
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.<!-- exentax:execution-v2 -->
 ## Das belgische Wise-IBAN für Ihre LLC: was es ist, was es meldet und warum das Finanzamt es sieht
 
 Wenn Sie das EUR-Subkonto von Wise Business aktivieren, erhalten Sie ein belgisches BE-IBAN. Operativ exzellent; fiskalisch unter belgischem CRS-Regime.
@@ -174,7 +174,7 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 
   ### Was der belgische Wise-IBAN für deutsche Steuerpflichtige konkret bedeutet
 
-  Wise Business stellt allen Geschäftskunden in der Eurozone seit 2024 einen **belgischen IBAN (BE)** aus, weil die Wise Europe SA in Brüssel als belgische E-Geld-Institution unter NBB-Aufsicht (Nationale Bank von Belgien) firmiert. Für deutsche LLC-Inhaber heißt das: das Wise-Konto unterliegt dem **belgischen CRS-Reporting** nach DAC2 (Dir. 2014/107/EU), das automatisch jährlich an das **deutsche Bundeszentralamt für Steuern (BZSt)** und damit an das zuständige Wohnsitzfinanzamt weitergeleitet wird. Zusätzlich besteht die nationale Meldepflicht nach **§138 Abs. 2 AO** ans Finanzamt innerhalb von 5 Monaten nach Jahresende, wenn der Saldo durchschnittlich €100.000 übersteigt.
+  Wise Business stellt allen Geschäftskunden in der Eurozone seit 2024 einen **belgischen IBAN (BE)** aus, weil die Wise Europe SA in Brüssel als belgische E-Geld-Institution unter NBB-Aufsicht (Nationale Bank von Belgien) firmiert. Für deutsche LLC-Inhaber heißt das: das Wise-Konto unterliegt dem **belgischen CRS-Reporting** nach DAC2 (Ihnen. 2014/107/EU), das automatisch jährlich an das **deutsche Bundeszentralamt für Steuern (BZSt)** und damit an das zuständige Wohnsitzfinanzamt weitergeleitet wird. Zusätzlich besteht die nationale Meldepflicht nach **§138 Abs. 2 AO** ans Finanzamt innerhalb von 5 Monaten nach Jahresende, wenn der Saldo durchschnittlich €100.000 übersteigt.
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->

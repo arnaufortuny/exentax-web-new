@@ -1,6 +1,6 @@
-export default `Wenn du in Spanien als Selbstständiger (autónomo) arbeitest und deine Tätigkeit komplett auf einem Laptop läuft, hast du sicherlich schon mehrmals gerechnet. Der monatliche Sozialversicherungsbeitrag der autónomos, die progressive Einkommensteuer (IRPF), die vierteljährlichen Steuererklärungen, die Vorauszahlungen, die Mehrwertsteuer mit europäischen Kunden, das Reverse-Charge-Verfahren, das Modelo 349, das Modelo 720 falls du etwas im Ausland hast... Am Ende des Jahres bleibt fast die Hälfte deines Umsatzes nicht in deiner Tasche.
+export default `Wenn du in Spanien als Selbstständiger (autónomo) arbeitest und Ihre Tätigkeit komplett auf einem Laptop läuft, hast du sicherlich schon mehrmals gerechnet. Der monatliche Sozialversicherungsbeitrag der autónomos, die progressive Einkommensteuer (IRPF), die vierteljährlichen Steuererklärungen, die Vorauszahlungen, die Mehrwertsteuer mit europäischen Kunden, das Reverse-Charge-Verfahren, das Modelo 349, das Modelo 720 falls du etwas im Ausland hast... Am Ende des Jahres bleibt fast die Hälfte Ihres Umsatzes nicht in Ihrer Tasche.
 
-Deshalb suchen immer mehr Freelancer, kleine Agenturen, Entwickler, Berater, Infoprodukt-Anbieter, Trader und Content-Creator nach **echten Alternativen zum autónomo-Status in Spanien**. Und für 100 % digitale Profile mit internationalen Kunden ist die **US-LLC** die beste Lösung. Es ist keine Magie, kein Trick, kein Steuerbetrug. Es ist eine legale, von der spanischen Verwaltungsdoktrin und vom Doppelbesteuerungsabkommen zwischen USA und Spanien anerkannte Struktur, die richtig gestaltet jährlich Tausende Euro spart und es dir erlaubt, wie ein modernes internationales Unternehmen zu agieren.
+Deshalb suchen immer mehr Freelancer, kleine Agenturen, Entwickler, Berater, Infoprodukt-Anbieter, Trader und Content-Creator nach **echten Alternativen zum autónomo-Status in Spanien**. Und für 100 % digitale Profile mit internationalen Kunden ist die **US-LLC** die beste Lösung. Es ist keine Magie, kein Trick, kein Steuerbetrug. Es ist eine legale, von der spanischen Verwaltungsdoktrin und vom Doppelbesteuerungsabkommen zwischen USA und Spanien anerkannte Struktur, die richtig gestaltet jährlich Tausende Euro spart und es Ihnen erlaubt, wie ein modernes internationales Unternehmen zu agieren.
 
 Das ist die ehrliche Version. Ohne unmögliche Versprechen. Mit Zahlen, Vorteilen, Nachteilen und Profilen, für die es sich **nicht** lohnt.
 
@@ -15,14 +15,14 @@ Die Realität des autónomo-Regimes aktuell ist klar:
 - **Informationspflichten:** 347, 390, 190, 111... und 720, falls du Konten oder Vermögen über 50.000 € im Ausland hast.
 - **Kein Vermögensschutz:** wenn etwas schiefgeht, haftest du mit Haus, Auto und Ersparnissen.
 
-Emotional ist es noch schlimmer: du arbeitest wie ein globales Unternehmen, zahlst aber wie ein Eckkiosk.
+Emotional ist es noch schlimmer: Sie arbeiten wie ein globales Unternehmen, zahlst aber wie ein Eckkiosk.
 ## Was eine LLC für Nichtansässige wirklich ist
 
 Eine **LLC (Limited Liability Company)** ist eine US-Rechtsform, die den Vermögensschutz einer Gesellschaft mit der steuerlichen Einfachheit einer natürlichen Person kombiniert. Für einen Nichtansässigen ist eine **Single-Member LLC** standardmäßig eine **Disregarded Entity**: das <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> behandelt sie nicht als separaten Steuerzahler; die Gewinne fließen direkt an das einzige Mitglied. Das ist **Pass-through Taxation**.
 
-Wenn du als nicht in den USA steuerlich Ansässiger eine LLC in New Mexico, Wyoming oder Delaware gründest und deine Tätigkeit kein **ECI (Effectively Connected Income)** in den USA generiert, zahlt die LLC **keine US-Bundessteuer**. Sie zahlt auch keine Staatssteuer in diesen drei Staaten. Sie erfüllt nur Informationspflichten: **Form 5472 + Form 1120 pro forma** beim IRS und den **BOI Report** beim <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>.
+Wenn du als nicht in den USA steuerlich Ansässiger eine LLC in New Mexico, Wyoming oder Delaware gründest und Ihre Tätigkeit kein **ECI (Effectively Connected Income)** in den USA generiert, zahlt die LLC **keine US-Bundessteuer**. Sie zahlt auch keine Staatssteuer in diesen drei Staaten. Sie erfüllt nur Informationspflichten: **Form 5472 + Form 1120 pro forma** beim IRS und den **BOI Report** beim <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>.
 
-Aus spanischer Steuersicht wird diese LLC transparent behandelt: die **<a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>** hat verbindliche Auskünfte veröffentlicht (am häufigsten zitiert die **V0290-20 vom Februar 2020**), die anerkennen, dass US-LLCs in Spanien analog zu einer Pass-through-Einheit besteuert werden. Du als spanischer Steuerresident erklärst in deiner IRPF die Nettogewinne der LLC. Die Struktur verbirgt nichts vor dem Finanzamt: sie ändert nur das Vehikel, von dem aus du fakturierst.
+Aus spanischer Steuersicht wird diese LLC transparent behandelt: die **<a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>** hat verbindliche Auskünfte veröffentlicht (am häufigsten zitiert die **V0290-20 vom Februar 2020**), die anerkennen, dass US-LLCs in Spanien analog zu einer Pass-through-Einheit besteuert werden. Du als spanischer Steuerresident erklärst in Ihrer IRPF die Nettogewinne der LLC. Die Struktur verbirgt nichts vor dem Finanzamt: sie ändert nur das Vehikel, von dem aus Sie fakturieren.
 
 > Jeder Fall ist individuell. Die genaue steuerliche Qualifikation hängt davon ab, wie die LLC aufgebaut wird, welche Tätigkeit sie ausübt, wo die Kunden sind und was dokumentiert wird. Vor der Gründung sollte man den Fall mit einem spanischen Steuerberater, der internationale Strukturen kennt, und mit einem Team wie Exentax, das die US-Seite gestaltet, prüfen.
 ## Echte Steuervorteile: 0 % Bundessteuer in den USA + optimierte IRPF in Spanien
@@ -31,7 +31,7 @@ Die US-Seite ist die sauberste: **0 % Bundes-, 0 % Staatssteuer** in NM/WY und p
 
 Die spanische Seite ist, wo die echte Ersparnis liegt:
 
-- Du wirst in deiner IRPF auf die **Nettogewinne** der LLC besteuert.
+- Sie werden in Ihrer IRPF auf die **Nettogewinne** der LLC besteuert.
 - Die Liste der absetzbaren Kosten via LLC ist **viel breiter** als die des durchschnittlichen autónomo: Software, Hardware, Schulungen, Geschäftsreisen, Coworking, anteilige Home-Office-Kosten, professionelle Dienstleistungen, Stripe/PayPal-Gebühren, Abonnements, Marketing, Registered Agent, Buchhaltung usw.
 - **Der monatliche autónomo-Beitrag entfällt**: keine 300-400 €/Monat mehr nur für die Existenz.
 - **Die vierteljährlichen Erklärungen des autónomo entfallen** (303, 130, 349 hauptsächlich).
@@ -57,7 +57,7 @@ Die Zahlen sind Richtwerte. Aber die Richtung ist klar: **ab 30.000-40.000 €/J
 
 Ein weiterer Vorteil, der ohne Alarmismus verstanden werden muss. Bankkonten in den USA (Mercury, Relay, Chase, BoA…) **sind nicht Teil des CRS** (Common Reporting Standard). Die USA haben FATCA unterzeichnet, nicht CRS. Das bedeutet, dass diese Konten **nicht automatisch an das spanische Finanzamt gemeldet werden**, im Gegensatz zu Konten bei europäischen Banken oder Fintechs mit europäischem IBAN, die CRS anwenden (Wise, Revolut, N26, Wallester usw.).
 
-Das **bedeutet nicht**, dass sie undurchsichtig sind oder dass du sie nicht erklären musst. Wenn du die **Modelo 720/721**-Schwellen überschreitest (50.000 € auf ausländischen Konten, Krypto usw.), musst du sie trotzdem erklären. Und wenn du Einkünfte über deine LLC erhältst, musst du sie in deine IRPF aufnehmen. Es bedeutet, dass es keinen automatischen Datenabgleich gibt: die Information erreicht das Finanzamt **über dich**, nicht über eine Bank-Datei.
+Das **bedeutet nicht**, dass sie undurchsichtig sind oder dass du sie nicht erklären musst. Wenn du die **Modelo 720/721**-Schwellen überschreitest (50.000 € auf ausländischen Konten, Krypto usw.), musst du sie trotzdem erklären. Und wenn du Einkünfte über Ihre LLC erhältst, musst du sie in Ihre IRPF aufnehmen. Es bedeutet, dass es keinen automatischen Datenabgleich gibt: die Information erreicht das Finanzamt **über Sie**, nicht über eine Bank-Datei.
 
 Empfohlener Banking-Stack für eine moderne LLC:
 
@@ -69,18 +69,18 @@ Empfohlener Banking-Stack für eine moderne LLC:
 Die LLC funktioniert sehr gut, wenn:
 
 - Du überwiegend an **Kunden außerhalb Spaniens** fakturierst.
-- Deine Tätigkeit **100 % digital** ist: Software, SaaS, Marketing, Design, Beratung, Online-Schulungen, Infoprodukte, Content, E-Commerce.
+- Ihre Tätigkeit **100 % digital** ist: Software, SaaS, Marketing, Design, Beratung, Online-Schulungen, Infoprodukte, Content, E-Commerce.
 - Du bereit bist, in **USD zu arbeiten** und US-Tools zu integrieren.
-- Du dein **Privatvermögen vom Geschäft trennen** willst.
-- Dein Umsatz über **30.000-40.000 €/Jahr** liegt und wachsend ist.
+- Du Ihr **Privatvermögen vom Geschäft trennen** willst.
+- Ihr Umsatz über **30.000-40.000 €/Jahr** liegt und wachsend ist.
 
 Die LLC ist **keine gute Idee**, wenn:
 
-- Deine Kunden überwiegend spanische Privatpersonen oder Unternehmen sind, die eine Rechnung mit lokaler MwSt. brauchen.
+- Ihre Kunden überwiegend spanische Privatpersonen oder Unternehmen sind, die eine Rechnung mit lokaler MwSt. brauchen.
 - Du einen **regulierten Beruf** mit nationalen Kunden ausübst.
 - Du weniger als 20.000 €/Jahr fakturierst.
 - Du nicht bereit bist, die Buchhaltung der LLC zu führen oder IRS- und FinCEN-Fristen einzuhalten.
-- Du suchst, "in Spanien nichts zu erklären". Darum geht es nicht.
+- Sie suchen, "in Spanien nichts zu erklären". Darum geht es nicht.
 ### Vergleich Autónomo vs LLC
 
 | Kriterium | Autónomo in Spanien | LLC in den USA (nicht ansässig) |
@@ -94,9 +94,9 @@ Die LLC ist **keine gute Idee**, wenn:
 | Vermögensschutz | Nein | Ja |
 | Echtes Multi-Währungs-Banking | Begrenzt | Mercury + Wise + Relay + Slash |
 | Stripe/PayPal ohne Hindernisse | Einschränkungen | Vollständige US-Konten |
-| Automatisches Reporting | Ja | US-Banken nicht im CRS (du erklärst) |
+| Automatisches Reporting | Ja | US-Banken nicht im CRS (Sie erklären) |
 | Jährliche Kosten ca. | 4.000-7.000 €/Jahr | 1.500-2.500 €/Jahr |
-### Wie Exentax dich Schritt für Schritt begleitet
+### Wie Exentax Sie Schritt für Schritt begleitet
 
 Bei Exentax verkaufen wir keine Stand-alone-LLCs: wir gestalten **vollständige Strukturen**. Typischer Prozess:
 
@@ -105,22 +105,22 @@ Bei Exentax verkaufen wir keine Stand-alone-LLCs: wir gestalten **vollständige 
 3. **LLC-Gründung und EIN.**
 4. **Kontoeröffnungen:** Mercury als Hauptkonto, Wise/Relay/Slash als Ergänzung. Wallester nur bei Bedarf.
 5. **Integration mit Stripe, PayPal Business, Interactive Brokers**, etc.
-6. **Koordination mit deinem spanischen Steuerberater** (oder wir empfehlen einen).
+6. **Koordination mit Ihrem spanischen Steuerberater** (oder wir empfehlen einen).
 7. **Vollständige jährliche Compliance:** Form 5472 + 1120 pro forma, BOI Report, Registered Agent, Erinnerungen und Support.
 
 Es ist nicht plug-and-play. Es ist ein Projekt. Aber ab dem ersten Jahr siehst du den Unterschied in jedem "Eigengehalt".
 ### Bevor wir abschließen
 
-Jeder Fall ist individuell. Die Gesetzgebung ändert sich, sowohl in Spanien als auch in den USA. Das ist kein Leitfaden, um "schnell eine LLC zu eröffnen", sondern um **die Alternative gut zu verstehen**, bevor du eine Entscheidung triffst, die dein steuerliches Leben jahrelang beeinflusst.
+Jeder Fall ist individuell. Die Gesetzgebung ändert sich, sowohl in Spanien als auch in den USA. Das ist kein Leitfaden, um "schnell eine LLC zu eröffnen", sondern um **die Alternative gut zu verstehen**, bevor du eine Entscheidung triffst, die Ihr steuerliches Leben jahrelang beeinflusst.
 
-Wenn du mit deinen echten Zahlen sehen willst, wie viel du jährlich sparen würdest, probiere unseren **kostenlosen Steuerrechner** oder buche direkt eine **kostenlose 30-Minuten-Beratung** mit dem Exentax-Team. Konkrete Zahlen, kein Rauch.
+Wenn du mit Ihren echten Zahlen sehen willst, wie viel du jährlich sparen würdest, probiere unseren **kostenlosen Steuerrechner** oder buche direkt eine **kostenlose 30-Minuten-Beratung** mit dem Exentax-Team. Konkrete Zahlen, kein Rauch.
 
 Zur Vertiefung lies auch <a href="/de/blog/selbststandig-in-spanien-vs-llc-in-den-usa-vollstandiger">Autónomo in Spanien vs LLC in den USA: vollständiger Steuervergleich</a>, <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us">Warum spanische Freelancer das autónomo-Regime für eine US-LLC verlassen</a> und <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">Melden US-Bankkonten an das spanische Finanzamt?</a>.
 
-Buche deine kostenlose Beratung mit Exentax und hör auf, wie ein autónomo aus dem Jahr 2000 zu zahlen, wenn du wie ein digitales Geschäft von aktuell arbeitest.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+Buche Ihre kostenlose Beratung mit Exentax und hör auf, wie ein autónomo aus dem Jahr 2000 zu zahlen, wenn du wie ein digitales Geschäft von aktuell arbeitest.
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -131,7 +131,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-refs-v1 -->
 ## Rechtliche und regulatorische Quellen
@@ -143,7 +143,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -245,7 +245,7 @@ Sie befreit nicht vom Modelo 720, verbirgt dank FATCA nichts vor Hacienda, befre
 Ist Ihr Hauptziel die Steuerminimierung, geht es weiter mit <a href="/de/blog/legale-wege-um-ihre-steuern-zu-minimieren">den legalen Wegen zur Steuerminimierung</a>, und liegt Ihr Hauptvermögen in Krypto oder ausländischen Brokern, ergänzen Sie mit <a href="/de/blog/modelo-720-und-modelo-721-leitfaden-fur-in-spanien-ansassige">dem Modelo-720-und-721-Leitfaden</a>. Für Ihren Fall <strong>vereinbaren Sie ein Gespräch mit Exentax</strong>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20du%20in%20Spanien%20als%20Selbstst%C3%A4ndiger%20(aut%C3%B3nomo)%20arbeitest%20und%20deine%20T%C3%A4tigke%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
+<p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Wenn%20du%20in%20Spanien%20als%20Selbstst%C3%A4ndiger%20(aut%C3%B3nomo)%20arbeitest%20und%20Ihre%20T%C3%A4tigke%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, sehen Sie sich unsere <a href="/de/leistungen">Leistungsseite</a> mit allen enthaltenen Leistungen.
 <!-- /exentax:cta-conv-v1 -->

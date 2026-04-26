@@ -117,7 +117,7 @@ Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier 
 <!-- exentax:legal-refs-v1 -->
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de FinCEN).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -156,21 +156,21 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 
 Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américaine de manière 100 % légale et documentée. Chez Exentax, nous nous occupons de l'ensemble du processus: constitution, banque, passerelles de paiement, comptabilité, déclarations IRS et conformité dans votre pays de résidence. Réservez une consultation gratuite et nous vous dirons honnêtement si la LLC a du sens pour votre cas, sans promesses absolues.
 
-## Mise à jour Exentax actuellement: le guide LLC à jour
+## Mise à jour Exentax: le guide LLC à jour
 
 Trois données changent la lecture de ce guide actuellement:
 
 - **BOI Report (FinCEN).** **Non exigé pour les LLC formées aux US détenues par des non-résidents** depuis l'interim final rule de FinCEN de mars 2025 qui a restreint le champ aux **foreign reporting companies** (entités constituées hors des US et enregistrées dans un État). Si votre entité y entre, elle identifie le bénéficiaire effectif (toute personne détenant **≥ 25 %** ou exerçant un **contrôle substantiel**), se dépose gratuitement sur [le portail officiel BOI E-Filing de FinCEN](https://boiefiling.fincen.gov) en **10-15 minutes** et doit être dans les délais : **30 jours** depuis l'enregistrement et **30 jours** pour tout changement d'adresse, de document ou de bénéficiaire. Sanction civile jusqu'à **591 USD/jour** et pénale jusqu'à **10 000 USD et 2 ans de prison** (31 U.S.C. §5336) uniquement si dans le champ.
-- **Form 5472 + 1120 pro forma.** Toujours obligatoire pour une SMLLC de non-résident avec toute *reportable transaction*. Sanction de base **25 000 USD par formulaire et par an** (IRC §6038A). Exercice 2025 → échéance **15 avril actuellement**, prolongation via **Form 7004** jusqu'au **15 octobre actuellement**.
-- **Frais d’État actuellement.** Wyoming maintient l’Annual Report à **60 USD**, Delaware Franchise Tax à **300 USD** (échéance 1er juin), New Mexico n'a toujours **pas d’Annual Report**. Confirmez tout changement auprès du Secretary of State avant de budgéter.
+- **Form 5472 + 1120 pro forma.** Toujours obligatoire pour une SMLLC de non-résident avec toute *reportable transaction*. Sanction de base **25 000 USD par formulaire et par an** (IRC §6038A). Exercice 2025 → échéance **15 avril**, prolongation via **Form 7004** jusqu'au **15 octobre**.
+- **Frais d'État.** Wyoming maintient l’Annual Report à **60 USD**, Delaware Franchise Tax à **300 USD** (échéance 1er juin), New Mexico n'a toujours **pas d’Annual Report**. Confirmez tout changement auprès du Secretary of State avant de budgéter.
 
-### FAQ actuellement
+### FAQ
 
 **Le guide est-il valable si je vis en Espagne?** Oui, mais ajoutez Modelo 720/721 et l'attribution de revenus IRPF. Une LLC disregarded ne supprime pas l'obligation déclarative dans le pays de résidence.
 
 **L’OCDE Pillar Two concerne-t-il ma LLC?** Uniquement si votre groupe facture ≥ 750 M EUR. Pour une LLC d'un seul non-résident avec un chiffre d'affaires normal, GloBE ne s'applique pas.
 
-**Qu'est-ce qui a changé côté banque actuellement?** Mercury opère via Choice, Evolve et Column NA avec couverture FDIC sweep jusqu’à 5 M USD. Wise Business reste la référence multi-devises.
+**Qu'est-ce qui a changé côté banque?** Mercury opère via Choice, Evolve et Column NA avec couverture FDIC sweep jusqu’à 5 M USD. Wise Business reste la référence multi-devises.
 
 <!-- exentax:execution-v2 -->
 ## Comment nous appliquons la méthode Exentax à votre LLC dès le premier jour

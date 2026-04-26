@@ -86,7 +86,7 @@ Florida ist beliebt wegen der nicht vorhandenen State Income Tax und seines wirt
 - **Zeitrahmen:** 1-3 Werktage Standard; gleicher Tag im Express.
 - **Ideal für:** Unternehmer mit physischer Präsenz in den USA, echten Operationen oder einem Team im Bundesstaat.
 
-Für ein rein digitales Geschäft ohne US-Nexus bieten New Mexico oder Wyoming weiterhin ein besseres Verhältnis von Kosten zu Privatsphäre. Florida ergibt Sinn, wenn dort tatsächlich operative Aktivität stattfindet. Trifft das auf dich zu, schau dir unser <a href="/de/leistungen/llc-florida">LLC-Florida-Angebot</a> mit allen Details zum Annual Report und Sunbiz-Spezifika an.
+Für ein rein digitales Geschäft ohne US-Nexus bieten New Mexico oder Wyoming weiterhin ein besseres Verhältnis von Kosten zu Privatsphäre. Florida ergibt Sinn, wenn dort tatsächlich operative Aktivität stattfindet. Trifft das auf Sie zu, schau Ihnen unser <a href="/de/leistungen/llc-florida">LLC-Florida-Angebot</a> mit allen Details zum Annual Report und Sunbiz-Spezifika an.
 
 ## Was der Bundesstaat NICHT ändert
 
@@ -110,9 +110,9 @@ Die Realität ist: Jeder der drei Bundesstaaten funktioniert gut. Der Unterschie
 Bei Exentax empfehlen wir Ihnen den Bundesstaat, der zu Ihrem konkreten Profil passt. Wir verkaufen keinen Bundesstaat standardmäßig. Wir analysieren Ihre Situation und sagen Ihnen, welcher für Sie am meisten Sinn ergibt.
 
 Schwanken Sie immer noch zwischen New Mexico, Wyoming und Delaware? Vereinbaren Sie Ihre kostenlose Beratung. Wir prüfen Ihr Geschäftsmodell, Ihren Wohnsitz im DACH-Raum und Ihre Ziele und empfehlen Ihnen den Bundesstaat, der Sie langfristig am wenigsten Zeit und Geld kostet.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -123,7 +123,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:legal-refs-v1 -->
 ## Rechtliche und regulatorische Quellen
@@ -135,7 +135,7 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **DBA Spanien–USA.** BOE vom 22.12.1990 (DBA); Protokoll in Kraft seit 27.11.2019 (passive Einkünfte, *limitation on benefits*).
 - **EU / <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>.** Richtlinie (EU) 2011/16, geändert durch DAC6 (grenzüberschreitende Gestaltungen), DAC7 (Richtlinie (EU) 2021/514, digitale Plattformen) und DAC8 (Richtlinie (EU) 2023/2226, Kryptowerte); Richtlinie (EU) 2016/1164 (ATAD: CFC, Exit Tax, hybride Gestaltungen); OECD Common Reporting Standard (CRS).
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
-Die konkrete Anwendung dieser Regeln auf deinen Fall hängt von deinem Steuerwohnsitz, der Tätigkeit der LLC und der von dir geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
+Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung

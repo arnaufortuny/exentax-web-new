@@ -151,9 +151,9 @@ Der Schlüssel liegt im realen Umzug: Sie brauchen einen Mietvertrag oder Kaufve
 
 Für Online-Unternehmer mit einem Jahresgewinn ab etwa 150.000 EUR ist Andorra ab dem zweiten oder dritten Jahr meist deutlich profitabler als jede DACH-Konstruktion. Wer nicht umziehen will, sollte gar nicht erst über Andorra nachdenken: Eine reine Briefkastenstruktur ohne Substanz wird zuverlässig erkannt und führt zu Steuernachzahlungen plus Strafzuschlägen im Heimatland.
 Die Bankeröffnung in Andorra über Crèdit Andorrà, MoraBanc oder Andbank funktioniert nur mit echter Aufenthaltsgenehmigung und persönlicher Vorsprache. Die andorranischen Banken sind seit der CRS-Einführung sehr selektiv und akzeptieren keine reinen Briefkastenkonstruktionen mehr.
-## Steuer-Compliance in deinem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
+## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
-Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat deine örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
+Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.
 
 ### Nach Rechtsordnung
 
@@ -164,7 +164,7 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 
 Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erklärt, ist **legitime Steuerplanung**. Eine LLC, die zur Verschleierung von Einkünften, zur Vortäuschung der Nichtansässigkeit oder zur unbegründeten Verlagerung passiver Einkünfte dient, fällt unter **Art. 15 LGT (Missbrauch)** oder im schlimmsten Fall unter **Art. 16 LGT (Simulation)**. Den Unterschied machen die Tatsachen, nicht das Papier.
 
-Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit deine örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.<!-- exentax:execution-v2 -->
+Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.<!-- exentax:execution-v2 -->
 ## Was die Verlagerung von Firma und Wohnsitz nach Andorra wirklich bedeutet
 
 Andorra bietet effektive Sätze von 10 % bei der Körperschaftsteuer und zwischen 0 % und 10 % bei der Einkommensteuer, mit vernünftiger Sozialversicherung (CASS) und ohne Vermögensteuer. Aber Andorra ist keine Abkürzung: Der Umzug hat drei Dimensionen - administrativ, substanziell und operativ - die parallel umgesetzt werden sollten. Das sind die kritischen Punkte aus den realen Fällen bei Exentax.

@@ -3,7 +3,7 @@ export default `
 <p class="text-sm opacity-80 italic"><strong>Guide pilier :</strong> pour le parcours complet pas à pas, consultez notre <a href="/fr/ouvrir-llc-etats-unis">guide définitif pour ouvrir une LLC aux États-Unis</a>.</p>
 L'EIN (Employer Identification Number) est l'équivalent américain du numéro SIREN/SIRET pour votre LLC. C'est l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> qui le délivre, et sans lui, votre société existe sur le papier mais ne peut rien faire concrètement: pas de compte Mercury, pas de Stripe US, pas de déclaration annuelle, pas de paiement par virement de vos clients américains.
 
-La bonne nouvelle, c'est que l'obtention de l'EIN pour un non-résident sans SSN est un processus standard que nous traitons des dizaines de fois par mois chez Exentax. Voici comment cela fonctionne, combien de temps cela prend réellement actuellement, et pourquoi cette étape conditionne tout le reste.
+La bonne nouvelle, c'est que l'obtention de l'EIN pour un non-résident sans SSN est un processus standard que nous traitons des dizaines de fois par mois chez Exentax. Voici comment cela fonctionne, combien de temps cela prend réellement, et pourquoi cette étape conditionne tout le reste.
 
 ## À quoi sert l'EIN?
 
@@ -67,7 +67,7 @@ Pour faire fonctionner votre LLC, vous n'avez besoin que de l'EIN. L'ITIN est n�
 
 **Chez Exentax, nous vous aidons également à obtenir l'ITIN** si vous en avez besoin. C'est un processus plus long et plus bureaucratique que l'EIN (il nécessite l'envoi de documents certifiés à l'IRS), mais nous le gérons de bout en bout.
 
-Quelques lectures voisines à garder sous la main: <a href="/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers">Pourquoi ouvrir une LLC aux États-Unis actuellement: les 5 piliers de l'avantage américain</a> et <a href="/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs">LLC américaine pour développeurs de logiciels et fondateurs SaaS: guide complet</a>, qui affinent précisément les bords de ce qu'explique ce guide.
+Quelques lectures voisines à garder sous la main: <a href="/fr/blog/pourquoi-ouvrir-une-llc-aux-etats-unis-en-2026-les-5-piliers">Pourquoi ouvrir une LLC aux États-Unis: les 5 piliers de l'avantage américain</a> et <a href="/fr/blog/llc-americaine-pour-developpeurs-de-logiciels-et-fondateurs">LLC américaine pour développeurs de logiciels et fondateurs SaaS: guide complet</a>, qui affinent précisément les bords de ce qu'explique ce guide.
 ### Que se passe-t-il si vous perdez votre EIN?
 
 Pas d'inquiétude. L'EIN est attribué de manière permanente à votre LLC et n'expire pas. Si vous perdez le document d'attribution (la lettre CP 575), vous pouvez demander une copie en appelant l'IRS ou en envoyant le formulaire correspondant. Vous pouvez également retrouver votre EIN dans les déclarations précédemment déposées auprès de l'IRS. Et si vous êtes notre client, nous l'avons évidemment archivé.
@@ -75,7 +75,7 @@ Pas d'inquiétude. L'EIN est attribué de manière permanente à votre LLC et n'
 Vous voulez constituer votre LLC depuis la France, la Belgique ou la Suisse, et que nous nous occupions de l'EIN, de l'ITIN si nécessaire, du compte Mercury et de la déclaration annuelle? Réservez une consultation pour votre consultation gratuite et nous démarrons ensemble, sans paperasse de votre côté.
 ## Références légales et réglementaires
 
-Cet article s'appuie sur la réglementation en vigueur à la date de actuellement. Sources principales pour vérification:
+Cet article s'appuie sur la réglementation en vigueur. Sources principales pour vérification:
 
 - **États-Unis.** Treas. Reg. §301.7701-3 (classification d'entité / *check-the-box*); IRC §882 (impôt sur les revenus d'étrangers effectivement liés à un US trade or business); IRC §871 (FDAP et retenues pour non-résidents); IRC §6038A et Treas. Reg. §1.6038A-2 (Form 5472 pour *25% foreign-owned* et *foreign-owned disregarded entities*); IRC §7701(b) (résidence fiscale, *substantial presence test*); 31 U.S.C. §5336 (Corporate Transparency Act, BOI Report auprès de <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a>).
 - **Espagne.** Loi 35/2006 (LIRPF), arts. 8, 9 (résidence), 87 (attribution de revenus), 91 (CFC personnes physiques); Loi 27/2014 (LIS), art. 100 (CFC sociétés); Loi 58/2003 (LGT), arts. 15 et 16; Loi 5/2022 (régime de sanction Modelo 720 après CJUE C-788/19 du 27/01/2022); RD 1065/2007 (Modelos 232 et 720); Ordre HFP/887/2023 (Modelo 721 crypto).
@@ -120,15 +120,15 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 Chaque situation fiscale dépend de votre résidence, de l'activité exercée et des contrats en vigueur. Les informations présentées ici sont générales et ne remplacent pas un conseil personnalisé; analysez votre cas particulier avant toute décision structurelle.
 
-## Mise à jour Exentax actuellement: EIN sans SSN, la voie actuellement
+## Mise à jour Exentax: EIN sans SSN, la voie courte
 
 Obtenir un EIN en tant que non-résident est résolu, mais avec des délais et nuances à fixer:
 
-- **Voie officielle actuellement.** **SS-4 par fax au +1-855-215-1627** (IRS International). Délai typique **4-6 semaines**, pics jusqu’à 8 en février-avril. La voie en ligne n'est pas disponible sans SSN/ITIN.
+- **Voie officielle.** **SS-4 par fax au +1-855-215-1627** (IRS International). Délai typique **4-6 semaines**, pics jusqu’à 8 en février-avril. La voie en ligne n'est pas disponible sans SSN/ITIN.
 - **Document retourné.** L’IRS émet la **CP 575** une seule fois par courrier. En cas de perte, demandez une **147C** en appelant l’IRS Business Line **+1-267-941-1099** (lun-ven 6h-23h ET). Sans CP 575/147C, les banques refusent l'ouverture.
 - **Ligne 10 du SS-4.** "Reason for applying" → "Started new business" ou "Banking purpose only". Le motif influence le classement IRS et l'attente de futures déclarations.
 
-### FAQ actuellement
+### FAQ
 
 **Ai-je besoin d'un ITIN en plus de l’EIN?** Non pour la LLC ni la banque. ITIN uniquement si vous déposez une déclaration personnelle US (1040-NR) ou devez signer un W-8BEN spécifique.
 
