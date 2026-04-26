@@ -1472,22 +1472,54 @@ input[type="range"]::-moz-range-thumb {
   --neon-color: 0, 229, 16;
   position: relative;
   border-radius: var(--radius-lg);
+  overflow: hidden;
   transition:
     transform 0.45s cubic-bezier(0.16, 1, 0.3, 1),
     box-shadow 0.45s cubic-bezier(0.16, 1, 0.3, 1),
     border-color 0.3s ease;
   box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.04),
+    inset 0 1px 0 rgba(255,255,255,0.65),
+    inset 0 -1px 0 rgba(0,0,0,0.04),
     0 1px 2px rgba(0,0,0,0.06),
     0 6px 18px -8px rgba(0,0,0,0.10);
+  /* Cross-browser: backdrop-filter prefijos */
+  -webkit-backdrop-filter: blur(8px) saturate(1.2);
+  backdrop-filter: blur(8px) saturate(1.2);
+}
+/* Specular highlight superior — Liquid Glass refinado */
+.neon-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.45) 0%,
+    rgba(255,255,255,0.15) 14%,
+    rgba(255,255,255,0.00) 40%
+  );
+  pointer-events: none;
+  opacity: 0.85;
+  z-index: 0;
+}
+/* Garantiza que el contenido del card queda por encima del specular */
+.neon-card > * {
+  position: relative;
+  z-index: 1;
 }
 .neon-card:hover {
   transform: translateY(-3px);
   box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.08),
-    0 2px 6px rgba(0,0,0,0.06),
-    0 18px 38px -16px rgba(0,0,0,0.16),
-    0 0 0 1px rgba(var(--neon-color), 0.28);
+    inset 0 1px 0 rgba(255,255,255,0.75),
+    inset 0 -1px 0 rgba(0,0,0,0.05),
+    0 2px 6px rgba(0,0,0,0.08),
+    0 22px 44px -16px rgba(0,0,0,0.18),
+    0 0 0 1px rgba(var(--neon-color), 0.35),
+    0 0 24px -6px rgba(var(--neon-color), 0.20);
+}
+/* Reduced-motion: respeta preferencia accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .neon-card:hover { transform: none; }
 }
 /* Variants */
 .neon-card.is-red    { --neon-color: 255, 23, 68; }
