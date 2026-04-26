@@ -2,7 +2,127 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-25):** Production-ready. `npm run check` EXIT 0 (TS + 13 puertas SEO/blog + i18n + 9 E2E). Última pasada: phone-CTA eliminado de 657 artículos blog (CTAs humanos vía WhatsApp + agendar), `seo-sitemap-check` graceful-degrade, AES-256-GCM E2E 45/45 asserts, calculator 123/123, blog:validate-all 13/13. Stack actual en [`docs/internal/STACK.md`](docs/internal/STACK.md). Para agentes automatizados: leer [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md) antes de cualquier sesión.
+> **Estado (2026-04-26):** Production-ready. `tsc --noEmit` EXIT 0 · `lint:typography` 0 violaciones · `lint:brand-casing` clean · `lint:pt-pt` 0 brasileñismos · `seo:slash` clean · `test:redirects` 9/9 · `test:geo` 12/12 · `blog:validate-all` 10/11 OK (1 paso `sources` con egress sandbox-blocked: 33/33 estructuralmente OK, ver §"Bugs y limitaciones conocidas"). Stack actual en [`docs/internal/STACK.md`](docs/internal/STACK.md). Para agentes automatizados: leer [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md) antes de cualquier sesión.
+>
+> **Pendientes operativos:** ver [`docs/internal/PENDING.md`](docs/internal/PENDING.md) para la lista priorizada (alta/media/baja) y [`docs/internal/SOURCES-VERIFIED.md`](docs/internal/SOURCES-VERIFIED.md) para el panel de fuentes oficiales. Editorial pendiente: reescritura `cuanto-cuesta-constituir-llc.ts` ES (~3000 palabras estructura conversión) + 5 traducciones nativas adaptadas a regulador local (HMRC/URSSAF/Finanzamt/AT/ATC).
+
+---
+
+## Estado del sistema · 2026-04-26
+
+### Health check (sandbox)
+
+| Check | Resultado | Comando |
+|---|---|---|
+| TypeScript | EXIT 0 (0 errores) | `cd exentax-web && npx tsc --noEmit` |
+| Typography Regla 0 | 0 violaciones | `node scripts/check-typography-rule0.mjs` |
+| Brand casing | Clean | `node scripts/brand-casing-check.mjs` |
+| PT-PT lint (no brasileñismos) | 114 ficheros OK | `node scripts/audit-pt-pt.mjs` |
+| Slash hygiene SEO | Clean | `SEO_SLASH_SKIP_LIVE=1 node scripts/seo-slash-hygiene.mjs` |
+| Redirects 301 legacy | 9/9 | `npm run test:redirects` |
+| Geo middleware (IP→country) | 12/12 | `npm run test:geo` |
+| Blog validate-all | 10/11 (1 sandbox-egress) | `npm run blog:validate-all` |
+| Audit conversión 112×6 | 0/672 conversion-grade | `npm run audit:conversion` |
+| Calculator unit | DB-required (skip en sandbox) | `npm run test:calculator` |
+
+> Pasos que requieren red real (sandbox los degrada): `blog:validate-all sources` step (33/33 estructuralmente OK; bloqueo IP del sandbox), `seo-sitemap-check` (necesita dev server con DB), `test:newsletter` / `test:booking` / `test:indexnow` (Postgres real). Ejecutar en Replit/Hostinger.
+
+### Pendiente — vista rápida
+
+| Prioridad | Item | Ref |
+|---|---|---|
+| 🔴 ALTA | Reescritura `cuanto-cuesta-constituir-llc.ts` ES (~3000 palabras + estructura conversión: hook LegalZoom $97 → AEAT, errores 25K USD por 5472, ROI 8 meses) | PENDING.md scope editorial |
+| 🔴 ALTA | 5 traducciones nativas (EN-HMRC, FR-URSSAF, DE-Finanzamt, PT-AT, CA-ATC) del artículo anterior | PENDING.md scope editorial |
+| 🟡 MEDIA | Revisión profesional por nativos EN/FR/DE/PT/CA — brief listo en [`translator-brief.md`](docs/internal/translator-brief.md), pendiente contratar reviewer humano por idioma | PENDING.md §2 |
+| 🟢 BAJA | CCAA / moneda por defecto via IP → **CERRADO** (`/api/geo` + middleware) | PENDING.md §11 |
+| 🟢 BAJA | Lighthouse CI bloqueando PRs (Core Web Vitals) — workflow añadido con `continue-on-error: true` para rodaje, marcar gating tras primera pasada verde en CI real | PENDING.md §12 |
+| 🟢 BAJA | Tests E2E Playwright (booking/calculator/lang-switch) — specs añadidas, requieren `npm run test:e2e` con browsers + DB | PENDING.md §14 |
+
+**Cerrados en esta sesión (commit `231dcce`):**
+
+| § | Item | Verificación |
+|---|---|---|
+| §2 alta | Tramos IRPF autonómicos por CCAA (selector UI) | UI live `select-ccaa-profile` 6 idiomas + `getIrpfBrackets("low"|"medium"|"high")` |
+| §3 alta | Verificación CI seo:slash | `SEO_SLASH_TIMEOUT_MS=180000` default + `SEO_SLASH_SKIP_LIVE=1` para sandbox |
+| §4 alta | OG image 1200×630 | `client/public/og-image.png` PNG verificado |
+| §5 media | Imagen OG por artículo | **DESCARTADO** por owner (2026-04-26) |
+| §6 media | Redirects 301 legacy | `server/middleware/legacy-redirects.{ts,json}` + 9 tests |
+| §7 media | Tipos estrictos handlers Discord | `discord-api-types/v10` + 0 `any` en handlers |
+| §8 media | PRs históricos #1-9 | [`git-history-notes.md`](docs/internal/git-history-notes.md) |
+| §9 media | Cross-check oficial BOE/TGSS de `SS_AUTONOMO_BRACKETS_2026` | Footnote 4 fuentes (TGSS Sede + BOE RDL 13/2022 + Acuerdo Mesa Diálogo + TRLGSS) |
+| §10 baja | Triage warnings audit traducción | [`blog-translation-triage.md`](docs/internal/blog-translation-triage.md) (0 PT-BR + 0 dups vivos) |
+| §11 baja | CCAA / moneda por defecto IP geo | `server/middleware/geo.ts` + `/api/geo` + 12 tests |
+| §13 baja | Performance budgets duros bundle | `BUNDLE_BUDGET_SERVER_MB` / `BUNDLE_BUDGET_PUBLIC_MB` |
+| §15 baja | Scripts huérfanos | Archivados en `scripts/archive/2026-04-orphans/` |
+
+### Bugs y limitaciones conocidas
+
+- **`blog:validate-all sources` falla en sandbox** (33/33 URLs estructuralmente OK, pero todos los hosts bloqueados con `host_not_allowed`). Reproducir en producción / Replit / Hostinger para verificación de red real. No es bug de código; es limitación del entorno.
+- **`test:calculator` requiere `DATABASE_URL`** porque importa server code que valida env. Saltarse en sandbox; pasa 116/116 con DB real (último ciclo verde en Replit).
+- **5 tests E2E con Postgres real** (`test:newsletter` / `test:booking` / `test:indexnow` / `test:discord-neon` / `test:bundle-diff-notify`) requieren entorno con DB. Pasan en Replit/Hostinger; documentación en PENDING.md §G5.
+- **Lighthouse CI workflow** (`.github/workflows/lighthouse.yml`) tiene `continue-on-error: true` para la primera pasada — quitar el flag tras una corrida verde para activar el gating real.
+- **Imagen OG por artículo no implementada** — decisión del owner. Todos los posts comparten `/og-image.png` con `og:image:alt` traducido. Si se revisita, requisitos en PENDING.md §5 (raster no SVG, 6 idiomas, overlay título).
+- **Audit conversión 112×6: 0/672 fully conversion-grade** — el contrato canónico exige tel + WhatsApp action-row presente en todos los artículos (sólo 3/672 lo cumplen) y enlace a subpágina LLC en cada artículo LLC-related (109 slugs sin link). El gap se detecta en `docs/audits/2026-04/conversion-audit-112x6.md`. No bloquea producción; señaliza el siguiente trabajo editorial masivo.
+
+### Reportes y auditorías — mapa
+
+```
+docs/
+├── internal/                    ← gobernanza interna del proyecto
+│   ├── PENDING.md               ← lista priorizada de pendientes (canonical)
+│   ├── SOURCES-VERIFIED.md      ← fuentes oficiales para datos del blog
+│   ├── translator-brief.md      ← brief para revisores nativos EN/FR/DE/PT/CA
+│   ├── blog-translation-triage.md  ← PT-BR + duplicados (0/0 vivos hoy)
+│   ├── git-history-notes.md     ← contexto squash main + PRs #1-9
+│   ├── STACK.md                 ← inventario de stack y versiones
+│   ├── AGENT-RULES.md           ← reglas para subagentes Claude/automatizados
+│   ├── DEFINITIVE-STATUS.md     ← estado consolidado por capa
+│   ├── CHANGELOG-SESSION.md     ← changelog detallado por sesión
+│   └── LOG-BATCH-{1,2,3}.md     ← logs de los batches editoriales del blog
+├── audits/2026-04/              ← auditorías 2026-04 (read-only, históricas)
+│   ├── conversion-audit-112x6.md   ← baseline conversión 112×6 = 672
+│   ├── articles/<slug>.md       ← una ficha por artículo (112×)
+│   ├── cta-conversion/<slug>.md ← cobertura CTA por idioma (111×)
+│   ├── cta-audit.md, ctas-rewrite.md, ctas-changelog.md
+│   ├── content-inventory.md, duplicates.md
+│   └── SUMMARY.md
+├── auditoria-2026-04/           ← reports auto-generados (git-tracked)
+│   └── bundle-audit.json
+├── auditoria-multiidioma/       ← reports auto-generados i18n + traducción blog
+│   ├── blog-translation-quality.{json,md}
+│   └── cierre-pendientes-2026-04.md
+├── seo/                         ← política SEO + redirects + linking interno
+└── audits/                      ← carpeta superior con audits cerrados
+
+(en exentax-web/)
+docs/
+├── architecture-map.md, data-flow.md, security-audit.md, observability-audit.md
+├── seo/audit-2026.md, url-slash-policy.md, internal-linking.md, blog-overhaul-2026.md
+├── blog/audit-2026.md
+├── i18n-check.md, audit-design-system.md
+├── deploy/HOSTINGER-VPS.md, DISCORD-SETUP.md
+├── auditoria-sistema-seo-faqs/  ← seo-audit.json (live-fetch artifacts)
+├── screenshots/, blog/, seo/
+└── consolidation-2026-04.md     ← hardening end-to-end (Task #5)
+
+(en raíz, históricos no movidos por anclajes vivos)
+README.md, CHANGELOG.md, replit.md
+REWRITE-COMPLETE-REPORT.md       ← log batches editoriales blog (referenciado desde PENDING.md y LOG-BATCH-1.md)
+SECURITY-FIELDS-AUDIT.md, EMAIL-TEMPLATES-AUDIT.md, TRANSLATION-QUALITY-REPORT.md
+```
+
+### Inventario rápido
+
+| Métrica | Valor |
+|---|---|
+| Artículos blog | 112 slugs × 6 idiomas = 672 ficheros TS |
+| Páginas de servicio | 4 LLC (NM/WY/DE/FL) + 1 ITIN, todas localizadas en 6 idiomas |
+| Claves i18n | ~1552 por idioma (`client/src/i18n/locales/{lang}.ts`) |
+| Tablas BD | 10 (Drizzle ORM) |
+| Scripts npm (subproyecto) | 84 — 1 archivado, 83 vivos |
+| Tests automáticos | 9 puertas en `npm run check` + 9 specs Playwright e2e |
+| Workflows CI | Lighthouse (`continue-on-error`), GitHub Actions |
+| Auditorías docs/ | 291 ficheros .md |
 
 ---
 
@@ -361,6 +481,13 @@ npm run test:newsletter      # E2E newsletter (alta + RGPD + baja en 6 idiomas)
 npm run test:booking         # E2E booking (book → manage → reschedule → cancel)
 npm run test:discord-neon    # smoke test de la integración Discord+DB
 npm run discord:register     # registra slash commands (admite --dry-run / --diff)
+
+# Añadidos 2026-04 (no incluidos en `npm run check` salvo donde se indica)
+npm run audit:conversion     # audit conversion-grade 112×6 → docs/audits/2026-04/conversion-audit-112x6.md
+npm run audit:bundle         # bundle size + Discord notify + HARD budget (BUNDLE_BUDGET_SERVER_MB / BUNDLE_BUDGET_PUBLIC_MB)
+npm run test:redirects       # 9 tests del middleware legacy-redirects (en `check`)
+npm run test:geo             # 12 tests del geo middleware IP→country (en `check`)
+npm run test:e2e             # Playwright: booking + calculator + lang-switch (NO en `check`, lento + browsers)
 ```
 
 ### Build (qué corre `tsx exentax-web/scripts/build.ts`)
@@ -472,3 +599,20 @@ El SEO crítico se resuelve server-side en cada request HTML (sin dependencia de
 | `exentax-web/docs/blog/audit-2026.md` | Auditoría editorial blog |
 | `exentax-web/docs/i18n-check.md` | Validación i18n y CI |
 | `exentax-web/docs/audit-design-system.md` | Sistema de diseño y Regla 0 |
+| `docs/internal/PENDING.md` | Lista canónica de pendientes (alta/media/baja) |
+| `docs/internal/SOURCES-VERIFIED.md` | Fuentes oficiales verificadas (IRS / AEAT / BOE / Cornell / FinCEN / HMRC / URSSAF / BMF / AT / ATC) |
+| `docs/internal/translator-brief.md` | Brief para revisores nativos EN/FR/DE/PT/CA |
+| `docs/internal/blog-translation-triage.md` | Triage de PT-BR + duplicados (audit live: 0/0) |
+| `docs/internal/git-history-notes.md` | Contexto histórico squash main + PRs cerrados #1-9 |
+| `docs/audits/2026-04/conversion-audit-112x6.md` | Baseline conversión 112 artículos × 6 idiomas |
+
+---
+
+## Branch & git workflow
+
+- **`main`** — rama estable. Cada commit pasa por `npm run check` antes de merge.
+- **`claude/exentax-web-dev-{N}`** — ramas de trabajo de sesiones automatizadas. Squash → main al cerrar la sesión.
+- **Squash policy**: cada sesión cierra con un único commit con mensaje descriptivo. Ver `docs/internal/git-history-notes.md`.
+- **Author convention**: commits operativos firmados como `Arnau Fortuny <arnaufortuny@gmail.com>`.
+- **Push directo a `main`**: solo el owner (no automatizado). Las sesiones Claude pushean a su rama de trabajo y abren PR (o squash directo a main bajo autorización explícita por sesión).
+- **Tags**: `exentax-{version}`. La última stable está en el tag más reciente; `git tag -l` para listar.
