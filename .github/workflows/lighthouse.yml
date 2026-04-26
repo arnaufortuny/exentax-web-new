@@ -6,12 +6,23 @@ name: Lighthouse CI (PR)
 # landing). Budgets and assertions live in `.lighthouserc.json` at the repo
 # root.
 #
-# IMPORTANT — first-run bootstrap:
-# This job is currently set to `continue-on-error: true` so the very first
-# PR that ships this workflow can land without being blocked by an unknown
-# baseline. Once we have ONE green run on `main`, a maintainer should
-# remove the `continue-on-error: true` line below to make this job gating.
-# Until then it is purely informational (artifact upload still works).
+# GATING — Task #15 (cerrado 2026-04-26, commit 945eae8):
+# Este job es **bloqueante**. Si cualquier assertion `error` de
+# `.lighthouserc.json` falla (LCP > 2500 ms, CLS > 0.1, INP > 200 ms o
+# `categories:performance` < 0.85 en mediana de 3 runs), el check sale
+# en rojo y bloquea el merge a `main`.
+#
+# Override de emergencia (refactor que pesa más pero es intencional, p.ej.
+# añadir un widget de pago que sube LCP por una décima):
+#   1) Mantener el gate activo: si la regresión es esperada y aceptada,
+#      ajustar el `maxNumericValue` correspondiente en `.lighthouserc.json`
+#      en el mismo PR y documentar el motivo en
+#      `docs/auditoria-2026-04/RESUMEN.md` (sección "Lighthouse").
+#   2) Bypass puntual sin tocar el config: añadir el label
+#      `bypass-perf-gate` al PR y un maintainer puede mergear vía
+#      "Merge without waiting for requirements" (requiere admin).
+# Nunca volver a poner `continue-on-error: true` aquí: usar siempre uno
+# de los dos caminos anteriores para mantener el historial limpio.
 on:
   pull_request:
     branches: [main]
@@ -24,9 +35,6 @@ jobs:
   lighthouse:
     name: Lighthouse CI
     runs-on: ubuntu-latest
-    # See top-of-file comment: remove this line after the first green run
-    # to make Core Web Vitals regressions block the PR.
-    continue-on-error: true
 
     steps:
       - name: Checkout repository

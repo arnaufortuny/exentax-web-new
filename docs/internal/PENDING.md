@@ -376,13 +376,35 @@ fallback a `accept-language`) en `server/middleware/geo.ts` + endpoint
 `/api/geo`. La calculadora lo consume al montar para sembrar país y divisa
 sin pisar elecciones del usuario.
 
-### 12. Lighthouse CI auditando PR
-**Esfuerzo:** 2-3 h. Añadir workflow que bloquee merges si algún Core Web Vital
-retrocede por debajo del umbral (LCP<2.5s, CLS<0.1, FID<100ms).
+### 12. Lighthouse CI auditando PR — **CERRADO 2026-04-26 (Task #15, commit 945eae8)**
 
-### 13. Performance budgets
-**Esfuerzo:** 2 h. `audit-bundle.mjs` ya notifica crecimientos al Discord.
-Añadir umbral duro (ej. bloquear si el bundle crece > 5 % vs último baseline).
+`.github/workflows/lighthouse.yml` ya no usa `continue-on-error: true`;
+el job es bloqueante. `.lighthouserc.json` fija assertions `error` para
+LCP < 2500 ms, CLS < 0.1, INP < 200 ms y `categories:performance` ≥ 0.85
+(mediana de 3 runs sobre `/es`, `/en`, `/es/blog`, `/es/calculadora`,
+preset desktop). Cualquier PR que retroceda un Core Web Vital por debajo
+del umbral marca check rojo y bloquea el merge.
+
+**Override de emergencia documentado en el YAML:** ajustar el
+`maxNumericValue` correspondiente en `.lighthouserc.json` en el mismo
+PR + nota en `docs/auditoria-2026-04/RESUMEN.md`, o label
+`bypass-perf-gate` para un merge admin puntual. Nunca reintroducir
+`continue-on-error: true`.
+
+### 13. Performance budgets — **CERRADO 2026-04-26 (Task #15, commit 945eae8)**
+
+`.github/workflows/quality-pipeline.yml` invoca `audit:bundle:diff`
+(threshold 5 % vs último baseline en `.local-audit/bundle-audit-history.json`)
+y el step `Fail job on bundle regression` sale 1 cuando hay regresión.
+Ya no se silencia con `|| true`; cualquier chunk que crezca > 5 % bloquea
+el merge además de notificar a Discord (push a main) y comentar en el PR.
+Sigue activo el guard absoluto pre-existente de `audit-bundle.mjs`
+(server ≤ 7 MB / public ≤ 30 MB, exit 1 ante FAIL).
+
+**Override de emergencia documentado en el YAML:** subir el presupuesto
+en `exentax-web/scripts/audit-bundle.mjs` (`BUDGETS_KB`) o el flag
+`--threshold` con justificación en `RESUMEN.md`, o label
+`bypass-perf-gate` para un merge admin puntual.
 
 ### 14. Tests E2E de flujos críticos
 **Esfuerzo:** 8-12 h. Playwright ya instalado. Añadir flujos:

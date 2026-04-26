@@ -94,13 +94,33 @@ jobs:
           rm -f .pipeline-scripts.txt
 
       # ---------------------------------------------------------------
-      # Bundle diff vs commit anterior (Task #50)
+      # Bundle diff vs commit anterior (Task #50, endurecido en Task #15)
       # ---------------------------------------------------------------
       # `npm run audit:bundle` (parte de `npm run check`) ya añadió la
       # entrada del commit actual al histórico
       # `docs/auditoria-2026-04/bundle-audit-history.json`. Comparamos esa
       # entrada con la del commit anterior y bloqueamos el job si algún
       # chunk creció más del 5% (mismo umbral que el CLI por defecto).
+      #
+      # GATING DURO (Task #15, commit 945eae8): el step
+      # `Fail job on bundle regression` (más abajo) sale 1 cuando
+      # `audit:bundle:diff` reporta una regresión > 5% sobre el último
+      # baseline. NO se silencia con `|| true` ni con
+      # `continue-on-error`; un PR con regresión real ve el check rojo
+      # y bloquea el merge.
+      #
+      # Override de emergencia (refactor que pesa más pero es intencional,
+      # p.ej. añadir un editor de texto enriquecido que duplica un chunk):
+      #   1) Subir el presupuesto correspondiente en
+      #      `exentax-web/scripts/audit-bundle.mjs` (`BUDGETS_KB`) o el
+      #      umbral `--threshold` del paso de abajo, y documentar el
+      #      motivo en `exentax-web/docs/auditoria-2026-04/RESUMEN.md`
+      #      (sección "Bundle por página") en el mismo PR.
+      #   2) Bypass puntual sin tocar el config: añadir el label
+      #      `bypass-perf-gate` al PR y un maintainer puede mergear vía
+      #      "Merge without waiting for requirements" (requiere admin).
+      # No reintroducir `|| true` aquí: usar siempre uno de los dos
+      # caminos anteriores para que el delta quede registrado.
       #
       # Capturamos el JSON con `--json` para reutilizarlo en el notifier
       # de Discord y, si el job falla, también para el comentario de PR.
