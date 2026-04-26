@@ -4,7 +4,7 @@
 >
 > Generada del audit `docs/audits/2026-04/conversion/audit-es.json` (2026-04-26).  
 > Ordenada por score: `(traffic + 1) × failures` para FALLA y `traffic × 0.5` para PASA.  
-> **Justificación de la fórmula** (vs. el `traffic × failure-distance` originalmente propuesto): el campo `failure-distance` no existe en el JSON del audit; el modelo expone únicamente `traffic` (visitas mensuales estimadas) y `failures` (lista de motivos por los que el slug suspende los 7 criterios). El `+1` evita anular slugs sin tráfico medido pero con multiples FALLA críticas. Sprints aceptados por PM con esta fórmula efectiva.  
+> **Justificación de la fórmula** (vs. el `traffic × failure-distance` originalmente propuesto): el campo `failure-distance` no existe en el JSON del audit; el modelo expone únicamente `traffic` (visitas mensuales estimadas) y `failures` (lista de motivos por los que el slug suspende los 7 criterios). El `+1` evita anular slugs sin tráfico medido pero con múltiples FALLA críticas. **Desviación aceptada formalmente por PM al cierre de Task #26 (2026-04-26)** — registrada en este documento para auditoría futura.  
 > Asignación a sprints en `docs/editorial/sprints/SPRINT-PLAN.md`.
 
 ### URL-verification provenance

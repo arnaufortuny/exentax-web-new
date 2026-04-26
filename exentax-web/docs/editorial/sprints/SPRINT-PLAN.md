@@ -1,4 +1,4 @@
-# SPRINT-PLAN — 29 sprints, 4 slugs cada uno
+# SPRINT-PLAN — 29 sprints, 4 slugs cada uno (final operativo aprobado por PM)
 
 > Plan de ejecución del programa editorial 2026.  
 > Cada sprint se propone como tarea separada (`Sprint #N — …`) tras el cierre del anterior.  
