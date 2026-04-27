@@ -277,9 +277,56 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
                 compareLabel={cmpCompareLabel || "Compare with"}
               />
             ) : (
-            <div className="glass-strong rounded-[var(--radius-lg)] overflow-hidden">
-              <div className="overflow-x-auto">
-                <table className="w-full min-w-[640px] border-collapse text-left text-[14px] sm:text-[15px]">
+            <div>
+              {/* Mobile: stacked cards (one per comparison column) */}
+              <div className="sm:hidden space-y-4" data-testid={`comparator-mobile-${trackingKey}`}>
+                {cmpColumns.map((col, ci) => {
+                  const isHl = ci === cmpHighlight;
+                  return (
+                    <div
+                      key={ci}
+                      className={`glass-strong rounded-[var(--radius-lg)] p-5 ${isHl ? "ring-2 ring-[#00E510] bg-[rgba(0,229,16,0.04)]" : ""}`}
+                      data-testid={`col-mobile-${trackingKey}-comparison-${ci}`}
+                    >
+                      <div className="flex items-center gap-2 mb-4 pb-3 border-b border-[var(--glass-border-strong)]">
+                        {isHl && (
+                          <span aria-hidden="true" className="inline-block w-2 h-2 rounded-full bg-[#00E510] shadow-[0_0_8px_rgba(0,229,16,0.6)]" />
+                        )}
+                        <h3 className={`font-heading font-bold text-[16px] ${isHl ? "text-[#00E510]" : "text-black"}`}>
+                          {col}
+                        </h3>
+                      </div>
+                      <dl className="space-y-3">
+                        {cmpRows.map((row, ri) => {
+                          const val = row.values[ci] ?? "";
+                          const parts = val.split(" — ");
+                          const primary = parts[0];
+                          const detail = parts.length > 1 ? parts.slice(1).join(" — ") : null;
+                          return (
+                            <div key={ri} data-testid={`row-mobile-${trackingKey}-comparison-${ci}-${ri}`}>
+                              <dt className="text-[12px] font-body text-black/55 uppercase tracking-[0.06em]">
+                                {row.label}
+                              </dt>
+                              <dd className={`mt-1 text-[14px] leading-snug ${isHl ? "font-semibold text-black" : "font-medium text-black/85"}`}>
+                                {primary}
+                              </dd>
+                              {detail && (
+                                <dd className="mt-0.5 text-[12px] leading-snug text-black/55">
+                                  {detail}
+                                </dd>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </dl>
+                    </div>
+                  );
+                })}
+              </div>
+              {/* Tablet/Desktop: original table */}
+              <div className="hidden sm:block glass-strong rounded-[var(--radius-lg)] overflow-hidden">
+                <div className="overflow-x-auto">
+                  <table className="w-full min-w-[640px] border-collapse text-left text-[14px] sm:text-[15px]">
                   <thead>
                     <tr className="bg-[rgba(0,0,0,0.025)]">
                       <th className="px-5 py-4 font-heading text-[12px] tracking-[0.12em] uppercase text-black/55 border-b border-[var(--glass-border-strong)]" />
@@ -337,8 +384,9 @@ export default function ServiceSubpage({ routeKey, i18nKey, trackingKey }: Servi
                         </tr>
                       );
                     })}
-                  </tbody>
-                </table>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
             )}

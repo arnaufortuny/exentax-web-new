@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.systemd
     pkgs.freetype
     pkgs.fontconfig
     pkgs.libgbm
