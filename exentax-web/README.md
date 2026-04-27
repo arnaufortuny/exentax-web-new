@@ -238,6 +238,29 @@ Resumen — auditoría completa en `docs/observability-audit.md`.
 | `npm run i18n:check` | Generación de tipos i18n + validación de claves |
 | `npm run test:calculator` | Test unitario calculadora |
 | `npm run test:newsletter`, `test:booking` | E2E reales |
+| `npm run test:e2e` | Playwright E2E (booking + calculator + language switch) — ver `tests/e2e/README.md` |
+
+### E2E booking — cobertura
+
+`tests/e2e/booking-flow.spec.ts` cubre, sin BD ni Calendar/Gmail (todo
+stubbed con `page.route`), tanto el camino feliz como las rutas de error
+que el usuario real encuentra a diario:
+
+| Bloque | Caso |
+|--------|------|
+| Happy path | ES `/agendar` + EN `/book` (i18n + payload del POST) |
+| Manage feliz | Reschedule + cancel desde `/booking/:token` |
+| **Negative book** | 409 slot ocupado (mensaje del servidor + retry) |
+| **Negative book** | 422 validación (mensaje del servidor + retry) |
+| **Negative book** | 500 error genérico (`booking.bookingError` + retry) |
+| **Negative book** | Network abort (`route.abort` + retry) |
+| **Negative manage** | Reserva ya cancelada (badge + acciones ocultas) |
+| **Negative manage** | Reserva ya pasada (badge + CTA "reservar otra") |
+
+Cada test negativo verifica que: (1) el error se muestra al usuario en
+`booking-error`, (2) el formulario sigue siendo interactivo, y (3) un
+reintento con respuesta OK alcanza `booking-success` — es decir, el
+estado de error no envenena el formulario.
 
 ---
 

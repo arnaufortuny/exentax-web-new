@@ -45,7 +45,37 @@ interface BookCapture {
   payload: Record<string, unknown> | null;
 }
 
-async function stubBookingApis(page: Page, futureDate: string, capture?: BookCapture) {
+/**
+ * The negative-path tests need to swap how `POST /api/bookings/book`
+ * responds while keeping the calendar/slots stubs identical to the
+ * happy path. We expose a mutable handler so each test can reassign
+ * the response (409 / 422 / 500 / abort / 200) without re-routing.
+ */
+type BookHandler = (
+  request: { postDataJSON: () => unknown },
+  helpers: {
+    fulfill: (init: { status: number; body?: string }) => Promise<void>;
+    abort: () => Promise<void>;
+    successBody: () => string;
+  },
+) => Promise<void>;
+
+const SUCCESS_BOOK_BODY = (futureDate: string) =>
+  JSON.stringify({
+    date: futureDate,
+    startTime: "10:00",
+    endTime: "10:30",
+    meetLink: "https://meet.google.com/abc-defg-hij",
+    meetingType: "google_meet",
+    status: "confirmed",
+  });
+
+async function stubBookingApis(
+  page: Page,
+  futureDate: string,
+  capture?: BookCapture,
+  bookHandlerRef?: { current: BookHandler },
+) {
   await page.route("**/api/bookings/blocked-days", async (route) => {
     await route.fulfill({
       status: 200,
@@ -74,19 +104,73 @@ async function stubBookingApis(page: Page, futureDate: string, capture?: BookCap
         capture.payload = null;
       }
     }
+
+    if (bookHandlerRef) {
+      await bookHandlerRef.current(
+        { postDataJSON: () => route.request().postDataJSON() },
+        {
+          fulfill: async (init) =>
+            route.fulfill({
+              status: init.status,
+              contentType: "application/json",
+              body: init.body ?? "",
+            }),
+          abort: async () => route.abort("failed"),
+          successBody: () => SUCCESS_BOOK_BODY(futureDate),
+        },
+      );
+      return;
+    }
+
     await route.fulfill({
       status: 200,
       contentType: "application/json",
-      body: JSON.stringify({
-        date: futureDate,
-        startTime: "10:00",
-        endTime: "10:30",
-        meetLink: "https://meet.google.com/abc-defg-hij",
-        meetingType: "google_meet",
-        status: "confirmed",
-      }),
+      body: SUCCESS_BOOK_BODY(futureDate),
     });
   });
+}
+
+/**
+ * Walk the qualification + calendar + form steps on `/es/agendar`,
+ * stopping right before the user clicks `button-confirm-booking`.
+ * Used by the negative-path tests so each one can stub a different
+ * failure response and only the final click differs.
+ */
+async function fillBookingFormUpToSubmit(page: Page) {
+  await page.goto("/es/agendar");
+
+  await expect(page.getByTestId("step-negocio")).toBeVisible();
+  await page.getByTestId("select-actividad").selectOption({ index: 1 });
+  await page.getByTestId("select-facturacion").selectOption({ index: 1 });
+  await page.getByTestId("button-next").click();
+
+  await expect(page.getByTestId("step-situacion")).toBeVisible();
+  await page.getByTestId("card-situacion-0").click();
+  await page.getByTestId("input-beneficio-neto").fill("4000");
+  await page.getByTestId("card-intl-yes").click();
+  await page.getByTestId("card-digital-yes").click();
+  await page.getByTestId("card-compromiso-yes").click();
+  await page.getByTestId("button-next").click();
+
+  await expect(page.getByTestId("step-compromiso")).toBeVisible();
+  await page.getByTestId("card-inversion-0").click();
+  await page.getByTestId("card-inicio-0").click();
+  await page.getByTestId("button-next").click();
+
+  await expect(page.getByTestId("booking-calendar")).toBeVisible({ timeout: 15_000 });
+
+  await page.locator('[data-testid^="day-"]:not([disabled])').first().click();
+  await page.getByTestId("slot-1000").click();
+
+  await page.getByTestId("button-meeting-type-meet").click();
+  await page.getByTestId("input-name").fill("Ana");
+  await page.getByTestId("input-lastName").fill("García");
+  await page.getByTestId("input-email").fill("ana.garcia+e2e@example.com");
+  await page.getByTestId("input-phone").fill("612345678");
+
+  const privacyCheckbox = page.getByTestId("checkbox-privacy");
+  await privacyCheckbox.click({ force: true });
+  await expect(privacyCheckbox).toBeChecked({ timeout: 5_000 });
 }
 
 test.describe("booking flow (happy path)", () => {
@@ -353,5 +437,242 @@ test.describe("booking manage (reschedule + cancel)", () => {
 
     // After cancel, the page shows the "book another" CTA.
     await expect(page.getByTestId("link-new-booking")).toBeVisible({ timeout: 10_000 });
+  });
+});
+
+/**
+ * Negative paths on `POST /api/bookings/book` (PENDING.md §14 follow-up).
+ *
+ * The happy-path spec only proves the form works when the server agrees.
+ * Real users routinely hit:
+ *   - 409: the slot they picked got taken between page load and submit
+ *     (typical race with another concurrent visitor or with a Discord
+ *     manual booking).
+ *   - 422: the server rejected validation (e.g. email shape, missing
+ *     field after schema migration).
+ *   - 500: an internal failure (DB hiccup, Calendar/Gmail outage).
+ *   - Network abort: the request never reaches the server (offline,
+ *     transient TLS drop, DNS blip).
+ *
+ * Each test asserts that:
+ *   1. The form re-renders (step is reset back to "form" by `onError`).
+ *   2. The user sees the failure surfaced in `booking-error`.
+ *   3. After the user retries (with the stub now returning 200) the
+ *      flow reaches `booking-success` — i.e. nothing about the error
+ *      state poisons the form.
+ *
+ * These run with the same stubbed APIs as the happy path, so they need
+ * no DB / Calendar / Gmail and stay deterministic in CI.
+ */
+test.describe("booking flow (negative paths)", () => {
+  test.skip(SHOULD_SKIP, "SKIP_E2E or DB_REQUIRED set; skipping browser-dependent test.");
+
+  test.beforeEach(async ({ page }) => {
+    await suppressCookieBanner(page);
+  });
+
+  // Common assertion: the user sees the booking-error surface and the
+  // form is interactive again so they can retry. We assert visibility
+  // on the dedicated `booking-error` testid the form already exposes.
+  async function expectBookingErrorVisible(page: Page, expectedText?: RegExp | string) {
+    const err = page.getByTestId("booking-error");
+    await expect(err).toBeVisible({ timeout: 10_000 });
+    if (expectedText) {
+      await expect(err).toContainText(expectedText);
+    }
+    // Submit button must be re-enabled (no longer in `confirming` step).
+    await expect(page.getByTestId("button-confirm-booking")).toBeEnabled();
+  }
+
+  // Common retry: flip the stubbed handler to success, click confirm
+  // again, assert the success state.
+  async function retryAndAssertSuccess(page: Page, bookHandlerRef: { current: BookHandler }) {
+    bookHandlerRef.current = async (_req, h) =>
+      h.fulfill({ status: 200, body: h.successBody() });
+
+    await page.getByTestId("button-confirm-booking").click();
+    await expect(page.getByTestId("booking-success")).toBeVisible({ timeout: 15_000 });
+  }
+
+  test("409 slot conflict surfaces the server message and allows retry", async ({ page }) => {
+    const futureDate = futureWeekdayISO();
+    const bookHandlerRef: { current: BookHandler } = {
+      current: async (_req, h) =>
+        h.fulfill({
+          status: 409,
+          body: JSON.stringify({ error: "Ese horario ya no está disponible" }),
+        }),
+    };
+    await stubBookingApis(page, futureDate, undefined, bookHandlerRef);
+
+    await fillBookingFormUpToSubmit(page);
+    await page.getByTestId("button-confirm-booking").click();
+
+    // Server-supplied message is rendered verbatim by the form.
+    await expectBookingErrorVisible(page, /no está disponible/i);
+
+    await retryAndAssertSuccess(page, bookHandlerRef);
+  });
+
+  test("422 validation error surfaces the server message and allows retry", async ({ page }) => {
+    const futureDate = futureWeekdayISO();
+    const bookHandlerRef: { current: BookHandler } = {
+      current: async (_req, h) =>
+        h.fulfill({
+          status: 422,
+          body: JSON.stringify({ error: "Email no válido" }),
+        }),
+    };
+    await stubBookingApis(page, futureDate, undefined, bookHandlerRef);
+
+    await fillBookingFormUpToSubmit(page);
+    await page.getByTestId("button-confirm-booking").click();
+
+    await expectBookingErrorVisible(page, /Email no válido/i);
+
+    await retryAndAssertSuccess(page, bookHandlerRef);
+  });
+
+  test("500 server error falls back to the generic copy and allows retry", async ({ page }) => {
+    const futureDate = futureWeekdayISO();
+    const bookHandlerRef: { current: BookHandler } = {
+      // Empty body → mutationFn throws with `t("booking.bookingError")`.
+      current: async (_req, h) => h.fulfill({ status: 500, body: "" }),
+    };
+    await stubBookingApis(page, futureDate, undefined, bookHandlerRef);
+
+    await fillBookingFormUpToSubmit(page);
+    await page.getByTestId("button-confirm-booking").click();
+
+    // ES copy from booking.bookingError.
+    await expectBookingErrorVisible(page, /Error al crear la reserva/i);
+
+    await retryAndAssertSuccess(page, bookHandlerRef);
+  });
+
+  test("network failure surfaces an inline error and allows retry", async ({ page }) => {
+    const futureDate = futureWeekdayISO();
+    const bookHandlerRef: { current: BookHandler } = {
+      current: async (_req, h) => h.abort(),
+    };
+    await stubBookingApis(page, futureDate, undefined, bookHandlerRef);
+
+    await fillBookingFormUpToSubmit(page);
+    await page.getByTestId("button-confirm-booking").click();
+
+    // The exact thrown message depends on the browser ("Failed to
+    // fetch", "net::ERR_FAILED", …) so we don't assert the text — we
+    // just assert that the user-facing error surface appears and the
+    // form is interactive for retry.
+    await expectBookingErrorVisible(page);
+
+    await retryAndAssertSuccess(page, bookHandlerRef);
+  });
+});
+
+/**
+ * Negative manage-screen states (PENDING.md §14 follow-up).
+ *
+ * Two states the customer-facing manage screen has to handle but the
+ * happy-path specs never reach:
+ *   - The booking is already cancelled (link clicked after the user
+ *     already cancelled, or after admin cancel via Discord).
+ *   - The booking is in the past (link clicked after the session ended).
+ *
+ * In both cases the manage actions (reschedule / cancel) must NOT be
+ * shown, since they would either be no-ops or hit a server-side error.
+ */
+test.describe("booking manage (negative states)", () => {
+  test.skip(SHOULD_SKIP, "SKIP_E2E or DB_REQUIRED set; skipping browser-dependent test.");
+
+  test.beforeEach(async ({ page }) => {
+    await suppressCookieBanner(page);
+  });
+
+  const BOOKING_ID = "bk-stub-e2e-neg";
+
+  function farFutureWeekday(): string {
+    const d = new Date();
+    d.setDate(d.getDate() + 21);
+    while (d.getUTCDay() === 0 || d.getUTCDay() === 6) {
+      d.setDate(d.getDate() + 1);
+    }
+    return d.toISOString().slice(0, 10);
+  }
+
+  function pastWeekday(): string {
+    const d = new Date();
+    d.setDate(d.getDate() - 14);
+    while (d.getUTCDay() === 0 || d.getUTCDay() === 6) {
+      d.setDate(d.getDate() - 1);
+    }
+    return d.toISOString().slice(0, 10);
+  }
+
+  async function stubGetBooking(
+    page: Page,
+    payload: {
+      status: string;
+      isPast: boolean;
+      date: string;
+    },
+  ) {
+    await page.route(`**/api/booking/${BOOKING_ID}**`, async (route) => {
+      if (route.request().method() !== "GET") {
+        await route.continue();
+        return;
+      }
+      await route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          id: BOOKING_ID,
+          name: "Ana García",
+          date: payload.date,
+          startTime: "10:00",
+          endTime: "10:30",
+          googleMeet: "https://meet.google.com/stub-meet-link",
+          meetingType: "google_meet",
+          phone: null,
+          status: payload.status,
+          isPast: payload.isPast,
+        }),
+      });
+    });
+  }
+
+  test("already-cancelled booking shows the cancelled badge and hides manage actions", async ({ page }) => {
+    await stubGetBooking(page, {
+      status: "cancelled",
+      isPast: false,
+      date: farFutureWeekday(),
+    });
+
+    await page.goto(`/booking/${BOOKING_ID}?token=stub-token-xyz`);
+
+    // Cancelled badge is the explicit signal to the user.
+    await expect(page.getByTestId("badge-status-cancelled")).toBeVisible({ timeout: 10_000 });
+
+    // Manage actions must NOT be reachable: clicking them would call
+    // an endpoint that will fail on a cancelled booking.
+    await expect(page.getByTestId("button-reschedule")).toHaveCount(0);
+    await expect(page.getByTestId("button-cancel-booking")).toHaveCount(0);
+  });
+
+  test("past booking shows the completed badge and exposes 'book another'", async ({ page }) => {
+    await stubGetBooking(page, {
+      status: "confirmed",
+      isPast: true,
+      date: pastWeekday(),
+    });
+
+    await page.goto(`/booking/${BOOKING_ID}?token=stub-token-xyz`);
+
+    await expect(page.getByTestId("badge-status-completed")).toBeVisible({ timeout: 10_000 });
+
+    // Manage actions are hidden — the only forward path is "book another".
+    await expect(page.getByTestId("button-reschedule")).toHaveCount(0);
+    await expect(page.getByTestId("button-cancel-booking")).toHaveCount(0);
+    await expect(page.getByTestId("link-book-again")).toBeVisible();
   });
 });
