@@ -224,7 +224,12 @@ async function processCampaignBatch(campaign: typeof s.newsletterCampaigns.$infe
 
   // 2. Send each job respecting RATE_LIMIT_MS spacing
   const gmail = getGmailClient();
-  for (const job of jobs) {
+  // Snapshot baseline counter at batch start; in-loop counter (i+1) tracks
+  // jobs sent within this batch so progress notifications fire on the
+  // correct multiple of PROGRESS_NOTIFY_EVERY across batch boundaries.
+  const baseSent = campaign.sentCount ?? 0;
+  for (let i = 0; i < jobs.length; i++) {
+    const job = jobs[i];
     if (await isCampaignCancelled(campaign.id)) {
       // Release job back to pending
       await db.execute(sql`
@@ -237,8 +242,9 @@ async function processCampaignBatch(campaign: typeof s.newsletterCampaigns.$infe
     await markJobResult(job.id, ok ? "sent" : "failed", ok ? null : "send error");
     await incrementCampaignCounter(campaign.id, ok);
 
-    // Progress notify each PROGRESS_NOTIFY_EVERY
-    const sent = (campaign.sentCount ?? 0) + 1;
+    // Progress notify each PROGRESS_NOTIFY_EVERY (counts the in-batch
+    // increment, not a stale snapshot). F-1 fix.
+    const sent = baseSent + i + 1;
     if (sent > 0 && sent % PROGRESS_NOTIFY_EVERY === 0) {
       notifyProgress(campaign.id, sent, campaign.totalRecipients ?? 0);
     }
