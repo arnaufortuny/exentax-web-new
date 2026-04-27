@@ -9,11 +9,10 @@ const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
 // so we skip `webServer` to avoid port collisions.
 const useWebServer = !!process.env.CI;
 
-// `npm run test:e2e` (and CI) only runs the three blocking specs in
-// `tests/e2e/`: booking, calculator, language switch. Other Playwright
-// specs (`tests/ga4-events.spec.ts`, `blog-test.spec.ts`) live in the
-// repo for ad-hoc / future use and are NOT executed here so a regression
-// in them never blocks merges. Run them manually if needed.
+// `npm run test:e2e` (and CI) runs the three blocking specs in
+// `tests/e2e/`: booking, calculator, language switch. Any new
+// Playwright spec must live under `tests/e2e/` to be picked up by
+// the `testMatch` below.
 //
 // Browser projects: the suite runs on the seven surfaces our real users
 // reach (PENDING.md §14, tasks 29 + 39). Locally `npm run test:e2e`

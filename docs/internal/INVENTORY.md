@@ -224,7 +224,6 @@ Nunca referenciar scripts archivados desde package.json o runtime
 - `discord-event-notifications.test.ts`
 - `admin-api-removed.test.ts`
 - `blog-no-inline-related.test.ts`
-- `ga4-events.spec.ts`
 
 ---
 

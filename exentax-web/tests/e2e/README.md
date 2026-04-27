@@ -9,10 +9,11 @@ merges to `main` (PENDING.md §14):
 | `calculator-flow.spec.ts` | `/start` calculator (lazy-mounted) emits a branded `/api/calculator-leads` POST whose payload is asserted (email, phone, country, regime, activity, privacy, savings, effective rate, language, …). The captured payload is then forwarded to the test-only endpoint `POST /api/__test/render-calculator-email` (gated on `NODE_ENV !== "production" \|\| E2E_TEST_HOOKS=1` + `x-e2e-test: 1` header), which invokes the real `renderCalculatorEmailHtml` and returns the actual customer-facing HTML. The spec asserts `<!DOCTYPE`, brand color (`00E510`), the savings figure (with locale-tolerant thousands separators), the email's local-part, and `lang ∈ {es,en,fr,de,pt,ca}`. Also verifies `country=reino-unido` hides the CCAA selector. |
 | `language-switch.spec.ts` | The 5 non-Spanish locales (en/fr/de/pt/ca) each receive a switch from `/es/blog/cuanto-cuesta-constituir-llc`, persist via `localStorage["exentax_lang"]`, expose a matching `<link rel="alternate" hreflang>` (BCP-47), and survive a full reload. |
 
-Other Playwright specs in `exentax-web/tests/` (`ga4-events.spec.ts`,
-`blog-test.spec.ts`, …) live alongside this folder for ad-hoc / future
-use. They are excluded from `npm run test:e2e` via the `testMatch` in
-`playwright.config.ts` so a regression in them never blocks merges.
+Only specs inside `tests/e2e/` are picked up by `npm run test:e2e`
+(via the `testMatch` in `playwright.config.ts`). New Playwright specs
+that should gate merges must be added here. The non-Playwright files
+in `exentax-web/tests/` (`*.test.ts`, `*.test.mjs`) are run by
+`npm run test` (Vitest / node) and are unrelated to this suite.
 
 ## Browser projects
 

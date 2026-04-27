@@ -554,8 +554,8 @@ queda como check requerido en CI:
 
 Infra:
 - `playwright.config.ts` restringe `testMatch` a `tests/e2e/*.spec.ts`
-  (los `tests/ga4-events.spec.ts` y `blog-test.spec.ts` siguen en el repo
-  pero no bloquean merges) y arranca el dev server por sí mismo cuando
+  (cualquier spec de Playwright que deba bloquear merges debe vivir
+  bajo esa carpeta) y arranca el dev server por sí mismo cuando
   `CI=1`.
 - `.github/workflows/e2e.yml` define **dos jobs requeridos**:
   1. `playwright` — instala chromium con `--with-deps`, ejecuta

@@ -74,7 +74,7 @@ exentax-web/
 │   └── madrid-time.ts             # helpers de zona horaria
 ├── docs/                          # auditorías, mapas, changelogs
 ├── scripts/                       # validadores i18n, link-graph, seo-blog-audit, e2e booking/newsletter, regla 0
-└── tests/, blog-test.spec.ts      # Playwright E2E (configurado en playwright.config.ts)
+└── tests/                         # Vitest + Playwright E2E (configurado en playwright.config.ts)
 ```
 
 ---
@@ -273,7 +273,6 @@ GET /<path>
 | `client/src/pages/go.tsx`                  | EN USO      | Ruta `/links` en `App.tsx`. Linktree público. Noindex.                         |
 | `client/public/img/flags/*.png` (8)        | EN USO      | Referenciados por `lib/calculator.ts` para los selectores de país.             |
 | `.calc-results-enter`, `.calc-savings-enter` (CSS) | EN USO  | Aplicadas en `components/calculator/CalculatorResults.tsx`.                    |
-| `blog-test.spec.ts`                        | EN USO      | `playwright.config.ts` lo incluye en `testMatch`.                              |
 | `*.pdf` legales en `client/public/`        | EN USO      | Referenciados por `client/src/lib/constants.ts`.                              |
 | `client/public/img/partner-lili.webp`      | **HUÉRFANO** → eliminado | 0 referencias en TS/TSX/CSS.                                                  |
 | `AUDIT-BLOG.md`                            | **HUÉRFANO** → eliminado | 0 referencias.                                                                 |
