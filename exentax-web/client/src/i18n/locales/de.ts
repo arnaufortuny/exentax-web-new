@@ -1795,7 +1795,7 @@ const de = {
     seoKeywords: "Blog internationale Steuern, US-LLC Leitfaden, Steueroptimierung Freelancer, LLC Compliance, rechtliche Steuerstrategien, Exentax Blog, digitale Steuern, digitaler Nomade Steuern",
     aiSummary: {
       title: "Diesen Artikel mit KI zusammenfassen",
-      prompt: "Fasse diesen Artikel mit dem Titel „{{title}}“ verfügbar unter {{url}} zusammen. Extrahiere die Kernpunkte, konkrete Zahlen und praktische Schlussfolgerungen auf Deutsch.",
+      prompt: "Agiere als Experte für internationale Steuern und US-LLCs. Lies den Artikel „{{title}}“ verfügbar unter {{url}} und antworte mir auf Deutsch in genau dieser Struktur: 1) TL;DR in 3 Zeilen mit der praktischen Schlussfolgerung für einen Freelancer oder Selbstständigen; 2) 5-7 Kernpunkte mit den exakten Zahlen (Beträge, Prozentsätze, Fristen, IRS-Formulare); 3) Rechtliche Risiken und häufige Fehler, die der Artikel aufzeigt; 4) Umsetzbare Checkliste mit den nächsten konkreten Schritten. Zitiere {{url}} als Quelle am Ende.",
       openWith: "Mit {{service}} zusammenfassen",
     },
     shareOnX: "Auf X teilen",

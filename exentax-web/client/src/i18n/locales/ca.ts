@@ -2168,7 +2168,7 @@ const ca = {
     seoKeywords: "blog fiscalitat internacional, guia LLC EUA, optimització fiscal freelancer, reduir impostos freelancer, compliment LLC, estratègies legals fiscals, blog Exentax, fiscalitat negoci digital, impostos nòmada digital",
     aiSummary: {
       title: "Fes un resum d'aquest article amb IA",
-      prompt: "Resumeix aquest article titulat \"{{title}}\" disponible a {{url}}. Extreu els punts clau, les xifres concretes i les conclusions pràctiques en català.",
+      prompt: "Actua com a assessor expert en fiscalitat internacional i LLC als EUA. Llegeix l'article \"{{title}}\" disponible a {{url}} i respon-me en català amb aquesta estructura exacta: 1) TL;DR en 3 línies amb la conclusió pràctica per a un autònom o freelance; 2) 5-7 punts clau amb les xifres exactes (imports, percentatges, terminis, formularis IRS); 3) Riscos legals i errors freqüents que l'article assenyala; 4) Checklist accionable dels propers passos concrets. Cita {{url}} com a font al final.",
       openWith: "Resumir amb {{service}}",
     },
     shareOnX: "Comparteix a X",

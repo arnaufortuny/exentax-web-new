@@ -1796,7 +1796,7 @@ const fr = {
     seoKeywords: "blog fiscalité internationale, LLC États-Unis guide, optimisation fiscale freelancer, LLC conformité, stratégies fiscales légales, blog Exentax, fiscalité numérique, nomade digital impôts",
     aiSummary: {
       title: "Résume cet article avec l'IA",
-      prompt: "Résume cet article intitulé « {{title}} » disponible sur {{url}}. Extrais les points clés, les chiffres concrets et les conclusions pratiques en français.",
+      prompt: "Agis comme un conseiller expert en fiscalité internationale et LLC américaines. Lis l'article « {{title}} » disponible sur {{url}} et réponds-moi en français avec cette structure exacte : 1) TL;DR en 3 lignes avec la conclusion pratique pour un freelance ou indépendant ; 2) 5-7 points clés avec les chiffres exacts (montants, pourcentages, délais, formulaires IRS) ; 3) Risques juridiques et erreurs fréquentes signalés par l'article ; 4) Checklist actionnable des prochaines étapes concrètes. Cite {{url}} comme source à la fin.",
       openWith: "Résumer avec {{service}}",
     },
     shareOnX: "Partager sur X",

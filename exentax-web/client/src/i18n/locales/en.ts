@@ -1794,7 +1794,7 @@ const en = {
     seoKeywords: "international tax blog, US LLC guide, tax optimization freelancer, reduce taxes freelancer, LLC compliance, legal tax strategies, Exentax blog, digital business tax, digital nomad taxes",
     aiSummary: {
       title: "Summarize this article with AI",
-      prompt: "Summarize this article titled \"{{title}}\" available at {{url}}. Extract the key points, the concrete numbers and the practical takeaways in English.",
+      prompt: "Act as an expert advisor in international taxation and US LLCs. Read the article \"{{title}}\" available at {{url}} and answer me in English using this exact structure: 1) TL;DR in 3 lines with the practical takeaway for a freelancer or self-employed founder; 2) 5-7 key points with the exact numbers (amounts, percentages, deadlines, IRS forms); 3) Legal risks and frequent mistakes the article flags; 4) Actionable checklist with the next concrete steps. Cite {{url}} as the source at the end.",
       openWith: "Summarize with {{service}}",
     },
     shareOnX: "Share on X",

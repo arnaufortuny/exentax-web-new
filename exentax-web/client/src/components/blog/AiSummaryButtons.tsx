@@ -73,7 +73,7 @@ export default function AiSummaryButtons({
   const promptTemplate = t("blogPost.aiSummary.prompt", {
     title,
     url,
-    defaultValue: `Resume este artículo titulado "${title}" disponible en ${url}. Extrae los puntos clave, las cifras concretas y las conclusiones prácticas.`,
+    defaultValue: `Actúa como asesor experto en fiscalidad internacional y LLC en EE.UU. Lee el artículo "${title}" disponible en ${url} y respóndeme en español con esta estructura exacta: 1) TL;DR en 3 líneas con la conclusión práctica para un autónomo o freelancer; 2) 5-7 puntos clave con las cifras exactas (importes, porcentajes, plazos, formularios IRS); 3) Riesgos legales y errores frecuentes que el artículo señala; 4) Checklist accionable de los próximos pasos concretos. Cita ${url} como fuente al final.`,
   });
 
   return (
