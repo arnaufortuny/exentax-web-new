@@ -672,9 +672,11 @@ export interface FollowupEmailData {
   language: string | null;
 }
 export async function sendFollowupEmail(data: FollowupEmailData) {
+  // Self-contained i18n: all user-visible strings come from t.followup.
+  // No cross-template dependency on t.noShow — each email template owns
+  // its own subject, heading, intro, CTA, closing and unsubNote.
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
-  const ns = t.noShow; // re-use the friendly noShow tone for closing + unsubNote
   const fu = t.followup;
   const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
@@ -690,8 +692,8 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
 
     ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ctaLabel)}
 
-    ${brandSignature(lang, ns.closing)}
-    ${unsubNote(ns.unsubNote)}
+    ${brandSignature(lang, fu.closing)}
+    ${unsubNote(fu.unsubNote)}
   `;
   const html = emailHtml(clientBody, subject, lang);
 
