@@ -11,7 +11,7 @@ En aquesta guia t'expliquem tot el que necessites saber abans de fer el pas. Sen
 
 És una figura jurídica nord-americana que separa els teus béns personals dels del negoci. Si la teva empresa té un deute o un problema legal, el teu patrimoni personal no es veu afectat. La teva casa, el teu cotxe, els teus estalvis. intocables.
 
-Per a un no resident amb una Single-Member LLC (un sol soci), l'IRS la classifica com a **"Disregarded Entity"**. Això significa que la LLC és una entitat transparent fiscalment: no paga impost federal sobre la renda als EUA. És el que es coneix com a **pass-through taxation**: els beneficis "passen a través" de la LLC directament al propietari, que els declara al seu país de residència fiscal.
+Per a un no resident amb una Single-Member LLC (un sol soci), l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> la classifica com a **"Disregarded Entity"**. Això significa que la LLC és una entitat transparent fiscalment: no paga impost federal sobre la renda als EUA. És el que es coneix com a **pass-through taxation**: els beneficis "passen a través" de la LLC directament al propietari, que els declara al seu país de residència fiscal.
 
 A la pràctica: si vius a Espanya, Mèxic, Colòmbia o qualsevol altre país, la teva LLC americana paga **$0 d'impost federal** als Estats Units (sempre que no tinguis ingressos de font nord-americana). Després tu declares aquests beneficis al teu país, però amb les despeses de la LLC ja deduïdes, cosa que redueix significativament la teva base imposable.
 ## Per què tants freelancers trien una LLC?

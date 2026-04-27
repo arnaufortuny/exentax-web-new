@@ -134,7 +134,7 @@ L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb 
 1. **Inventari.** Llista tots els comptes actius i el seu ús real.
 2. **Decisió.** Aplica el model segons volum i tanca els comptes redundants.
 3. **Migració.** Reapunta clients (noves wire instructions signades), actualitza factures pendents, redirigeix Stripe payouts.
-4. **KYC preventiu.** Abans del primer moviment gran al nou compte, puja proactivament: Articles, EIN Letter, OA signat i prova de domicili.
+4. **KYC preventiu.** Abans del primer moviment gran al nou compte, puja proactivament: Articles, EIN Letter (emès per l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>), OA signat i prova de domicili.
 
 ### Preguntes freqüents avui
 

@@ -133,7 +133,7 @@ O stack bancário recomendado para uma LLC atualmente consolidou três peças co
 1. **Inventário.** Lista todas as contas ativas e o seu uso real.
 2. **Decisão.** Aplica o modelo por volume e fecha contas redundantes (fecho limpo: transferir saldo, cancelar subscrições, esperar 30 dias, solicitar fecho formal).
 3. **Migração.** Reorienta clientes (novas wire instructions assinadas), atualiza faturas pendentes, redireciona payouts Stripe.
-4. **KYC preventivo.** Antes do primeiro movimento grande, carrega Articles, EIN Letter, OA assinado e comprovativo de morada.
+4. **KYC preventivo.** Antes do primeiro movimento grande, carrega Articles, EIN Letter (emitido pelo <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>), OA assinado e comprovativo de morada.
 
 ### FAQ hoje
 

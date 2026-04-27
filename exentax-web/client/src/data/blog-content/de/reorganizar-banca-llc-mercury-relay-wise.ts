@@ -134,7 +134,7 @@ Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine m
 1. **Inventur.** Alle aktiven Konten und ihre tatsächliche Nutzung listen.
 2. **Entscheidung.** Modell nach Volumen anwenden, redundante Konten sauber schließen.
 3. **Migration.** Kunden umlenken (neue signierte Wire Instructions), offene Rechnungen aktualisieren, Stripe-Payouts umleiten.
-4. **Präventives KYC.** Vor erster größerer Bewegung Articles, EIN Letter, signiertes OA und Adressnachweis hochladen.
+4. **Präventives KYC.** Vor erster größerer Bewegung Articles, EIN Letter (ausgestellt vom <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>), signiertes OA und Adressnachweis hochladen.
 
 ### FAQ aktuell
 

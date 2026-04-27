@@ -159,7 +159,7 @@ The recommended banking stack for an LLC today has consolidated three pieces wit
 1. **Inventory.** List every active account and its real use (operations, savings, FX, freelancer payments).
 2. **Decision.** Apply the model by volume and close redundant accounts (clean close: transfer balance, cancel linked subscriptions, wait 30 days, request formal closure).
 3. **Migration.** Re-point clients (new signed wire instructions), update pending invoices, redirect Stripe payouts.
-4. **Preventive KYC.** Before the first large movement in the new account, proactively upload: Articles, EIN Letter, signed OA and proof of address.
+4. **Preventive KYC.** Before the first large movement in the new account, proactively upload: Articles, EIN Letter (issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>), signed OA and proof of address.
 
 ### Frequently asked questions
 

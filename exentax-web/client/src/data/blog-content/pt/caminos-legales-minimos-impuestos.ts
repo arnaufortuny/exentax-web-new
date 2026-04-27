@@ -100,7 +100,7 @@ Estruture a sua atividade através de uma LLC americana, declare-a corretamente 
 
 **E se quiser pagar realmente zero?**
 
-Precisa de mudar residência para uma jurisdição de baixa ou nula tributação (Andorra, EAU, Panamá, Mónaco) e romper completamente a sua residência prévia. Pagar zero sem se mudar é ilegal em qualquer país OCDE.
+Precisa de mudar residência para uma jurisdição de baixa ou nula tributação (Andorra, EAU, Panamá, Mónaco) e romper completamente a sua residência prévia. Pagar zero sem se mudar é ilegal em qualquer país <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.
 
 **Quanto tempo demora implementar uma estrutura legal eficiente?**
 

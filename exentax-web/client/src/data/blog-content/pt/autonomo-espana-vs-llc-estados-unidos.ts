@@ -38,7 +38,7 @@ Com uma Single-Member LLC como não residente, a situação muda radicalmente:
 
 ### Imposto federal nos EUA: $0
 
-O IRS classifica a Single-Member LLC de não residente como "Disregarded Entity". Isto é o que se conhece como **pass-through taxation**: a LLC não paga imposto federal sobre o rendimento nos Estados Unidos. Os lucros "passam através" da LLC diretamente para o proprietário.
+O <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> classifica a Single-Member LLC de não residente como "Disregarded Entity". Isto é o que se conhece como **pass-through taxation**: a LLC não paga imposto federal sobre o rendimento nos Estados Unidos. Os lucros "passam através" da LLC diretamente para o proprietário.
 
 Se não tens rendimentos de fonte americana (os teus clientes estão fora dos EUA ou tu prestas serviços de fora), a LLC paga **exatamente $0 de imposto federal**. Zero. Nada. Nem um cêntimo.
 

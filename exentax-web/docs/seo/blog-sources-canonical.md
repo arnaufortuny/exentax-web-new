@@ -1,6 +1,6 @@
 # Blog source-URL verification
 
-- Generated: 2026-04-26T18:00:41.603Z
+- Generated: 2026-04-27T09:33:56.886Z
 - Total: 33
 - OK (2xx/3xx): 33
 - FAIL: 0
@@ -19,11 +19,11 @@
 | 10 | OECD — Common Reporting Standard (CRS) | 403 (CF challenge, alive) | https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/ |
 | 11 | OECD — BEPS Project overview | 403 (CF challenge, alive) | https://www.oecd.org/tax/beps/ |
 | 12 | FATF — 40 Recommendations | 403 (CF challenge, alive) | https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html |
-| 13 | EU — DAC (Directive 2011/16/EU on Administrative Cooperation) | 200 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011L0016-20230101 |
-| 14 | EU — DAC7 (Directive (EU) 2021/514) | 200 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021L0514 |
-| 15 | EU — DAC8 (Directive (EU) 2023/2226) | 200 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 |
-| 16 | EU — ATAD (Directive 2016/1164 Anti-Tax Avoidance Directive) | 200 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L1164 |
-| 17 | EU — VAT Directive 2006/112/EC (consolidated) | 200 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006L0112-20240101 |
+| 13 | EU — DAC (Directive 2011/16/EU on Administrative Cooperation) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011L0016-20230101 |
+| 14 | EU — DAC7 (Directive (EU) 2021/514) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021L0514 |
+| 15 | EU — DAC8 (Directive (EU) 2023/2226) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 |
+| 16 | EU — ATAD (Directive 2016/1164 Anti-Tax Avoidance Directive) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L1164 |
+| 17 | EU — VAT Directive 2006/112/EC (consolidated) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006L0112-20240101 |
 | 18 | AEAT — Modelo 349 (operaciones intracomunitarias) | 200 | https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G415.shtml |
 | 19 | Seguridad Social — Cotización del RETA (autónomos) | 200 | https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/36537 |
 | 20 | Hacienda — Convenios para evitar la doble imposición firmados por España | 200 | https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/cdi.aspx |

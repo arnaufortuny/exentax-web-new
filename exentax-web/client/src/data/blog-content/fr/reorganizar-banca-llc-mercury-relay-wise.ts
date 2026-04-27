@@ -131,7 +131,7 @@ Le stack bancaire recommandé pour une LLC actuellement a consolidé trois pièc
 1. **Inventaire.** Lister tous les comptes actifs et leur usage réel.
 2. **Décision.** Appliquer le modèle par volume et fermer les comptes redondants.
 3. **Migration.** Réorienter les clients (nouvelles wire instructions signées), mettre à jour les factures en cours, rediriger les payouts Stripe.
-4. **KYC préventif.** Avant le premier gros mouvement, charger Articles, EIN Letter, OA signé et justificatif d'adresse.
+4. **KYC préventif.** Avant le premier gros mouvement, charger Articles, EIN Letter (émis par l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>), OA signé et justificatif d'adresse.
 
 ### FAQ actuellement
 

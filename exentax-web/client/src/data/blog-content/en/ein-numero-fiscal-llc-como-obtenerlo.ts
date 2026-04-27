@@ -5,7 +5,7 @@ The EIN (Employer Identification Number) is the tax identification number for yo
 
 ## What is an EIN?
 
-The EIN is a 9-digit number assigned by the IRS to identify your business for tax purposes. Think of it as the Social Security Number for your company. It follows the format XX-XXXXXXX.
+The EIN is a 9-digit number assigned by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> to identify your business for tax purposes. Think of it as the Social Security Number for your company. It follows the format XX-XXXXXXX.
 
 It's the equivalent of:
 - **NIF/CIF** in Spain
