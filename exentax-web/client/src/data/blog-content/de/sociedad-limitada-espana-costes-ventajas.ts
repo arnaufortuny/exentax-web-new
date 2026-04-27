@@ -11,7 +11,7 @@ Eine SL bringt feste Jahreskosten mit, die ein Autonomo nicht hat: Fachberatung 
 
 ## Reale Vorteile: Schutz, Besteuerung und Professionalität
 
-Die SL bringt drei messbare Vorteile. Erstens: sie begrenzt die Haftung auf das eingezahlte Kapital und schützt Ihr persönliches Vermögen bei Insolvenz oder Klage (mit Einschränkungen, da es Durchgriffshaftungsfälle gibt). Zweitens: sie zahlt Körperschaftsteuer mit den von Gesetz 7/2024 eingeführten ermäßigten Sätzen — Mikrounternehmen (Umsatz &lt; 1.000.000 €) 19% auf die ersten 50.000 € und 21% auf den Rest 2026; kleine Unternehmen (1-10 Mio €) 23%; Regelsatz 25%; gegen 19-47% IRPF; besonders nützlich, wenn Ihre Jahresbasis 60.000 Euro deutlich überschreitet und Sie einen Teil reinvestieren. Drittens: das Image bei Großkunden, Banken, Investoren und Behörden ist deutlich besser, mit Zugang zu Verträgen, die manche Großkonzerne Gesellschaften vorbehalten.
+Die SL bringt drei messbare Vorteile. Erstens: sie begrenzt die Haftung auf das eingezahlte Kapital und schützt Ihr persönliches Vermögen bei Insolvenz oder Klage (mit Einschränkungen, da es Durchgriffshaftungsfälle gibt). Zweitens: sie zahlt Körperschaftsteuer mit den von Gesetz 7/2024 eingeführten ermäßigten Sätzen — Mikrounternehmen (Umsatz &lt; 1.000.000 €) 19% auf die ersten 50.000 € und 21% auf den Rest im Steuerjahr 2026; kleine Unternehmen (1-10 Mio €) 23%; Regelsatz 25%; gegen 19-47% IRPF; besonders nützlich, wenn Ihre Jahresbasis 60.000 Euro deutlich überschreitet und Sie einen Teil reinvestieren. Drittens: das Image bei Großkunden, Banken, Investoren und Behörden ist deutlich besser, mit Zugang zu Verträgen, die manche Großkonzerne Gesellschaften vorbehalten.
 
 ## Doppelbesteuerung: der Nachteil, den wenige erwähnen
 

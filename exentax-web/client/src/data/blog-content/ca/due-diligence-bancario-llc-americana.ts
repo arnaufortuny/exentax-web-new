@@ -35,7 +35,7 @@ El banc verifica el teu passaport i la teva adreça. Poden utilitzar serveis de 
 Un equip de compliance revisa la naturalesa del teu negoci, el teu lloc web i la coherència entre el que declares i el que veuen online.
 
 ### 4. Decisió
-Si tot està en ordre, el teu compte s'aprova en 1-5 dies hàbils. Si necessiten més informació, et contactaran.
+Si tot està en ordre, el teu compte s'aprova en 1-5 dies hàbils. Si necessiten documentació addicional, et contactaran.
 ### Sectors que requereixen major due diligence
 
 Alguns sectors reben un escrutini addicional per part dels bancs:

@@ -77,14 +77,14 @@ Si quieres pasar de la duda al plan, agenda 30 minutos con Exentax y salimos de 
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:calendario-2026-v1 -->
-  ## Calendario fiscal 2026: las 7 fechas que importan
+  ## Calendario fiscal del ejercicio 2026: las 7 fechas que importan
 
   Ningún plan fiscal sobrevive a un calendario olvidado. Estas son las fechas que marcamos en rojo cada año para clientes con LLC americana operada desde España, y las que conviene tener apuntadas aunque solo cotices como autónomo en España:
 
   - **31 de enero de 2026** — Plazo final para enviar formularios <a href="https://www.irs.gov" target="_blank" rel="noopener">1099-NEC</a> y <a href="https://www.irs.gov" target="_blank" rel="noopener">W-9 / W-8BEN-E</a> a contratistas y plataformas estadounidenses. Si tu LLC pagó más de 600 USD a un contratista americano, debe emitirle un 1099-NEC. Si recibiste pagos de plataformas (Upwork, Fiverr, Stripe Connect), guarda tu W-8BEN-E firmada del año.
   - **31 de marzo de 2026** — **Modelo 720** (declaración informativa de bienes y derechos en el extranjero) si la suma de cuentas bancarias fuera de España (Mercury, Relay, Wise USD, Revolut Business) superó 50.000 € a 31/12/2025. Las sanciones por incumplimiento son proporcionales gracias a la STJUE 2022, pero el régimen general LGT sigue vigente con multas de hasta el 150 % de la cuota dejada de ingresar.
   - **15 de abril de 2026** — Vencimiento del **Form 5472 + 1120 pro-forma** ante el IRS para Single-Member LLC con propietario extranjero. Multa automática de 25.000 USD por incumplimiento, replicada cada 30 días desde la notificación. Es el formulario que más nos llega tarde y el más caro de ignorar.
-  - **30 de junio de 2026** — **Renta 2025 (Modelo 100)** en España, con la atribución de rentas de la LLC en el apartado correspondiente (rendimientos de actividades económicas en estimación directa o, según el caso, rendimientos de capital mobiliario por dividendos asimilados). Aquí se cruza la información del 720 y el cálculo se debe sostener con la conciliación contable de la LLC.
+  - **30 de junio de 2026** — **Renta del ejercicio 2025 (Modelo 100)** en España, con la atribución de rentas de la LLC en el apartado correspondiente (rendimientos de actividades económicas en estimación directa o, según el caso, rendimientos de capital mobiliario por dividendos asimilados). Aquí se cruza la información del 720 y el cálculo se debe sostener con la conciliación contable de la LLC.
   - **31 de julio de 2026** — **Modelo 232** de operaciones vinculadas si has facturado más de 250.000 € entre tú (persona física) y tu LLC, o si has hecho operaciones específicas (préstamos, cesión de marca, alquileres) entre la LLC y tu otra sociedad española. Se olvida con frecuencia y la AEAT lo cruza automáticamente.
   - **15 de octubre de 2026** — Annual Report estatal (Wyoming 60 USD, Delaware 300 USD de Franchise Tax, Nuevo México sin Annual Report). El estado disuelve administrativamente la LLC si no se presenta dos años seguidos.
   - **31 de diciembre de 2026** — Cierre contable. Conciliación final Mercury + Wise + Stripe + PayPal + cripto (si aplica), inventario de saldos a 31/12 para el 720 del año siguiente y revisión del **BOI Report** ante FinCEN si hubo cambios de domicilio, beneficial owner o dirección postal durante el año.

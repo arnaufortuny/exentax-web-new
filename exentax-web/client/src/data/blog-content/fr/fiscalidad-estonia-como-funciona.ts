@@ -178,7 +178,7 @@ Le système fiscal estonien a été vendu des années comme "0% corporate" - tec
 
 **Estonie meilleure que LLC US pour freelance digital avec clients UE?** Freelance avec extraction cash mensuelle: Estonie et LLC US équivalentes en charge fiscale totale - l'avantage "0%" estonien s'évapore avec le dividende. Entrepreneur qui réinvestit (SaaS qui scale, consultance avec bonus de fin d'exercice): Estonie différée vs LLC avec pass-through immédiat fait différence.
 
-**Et si je vis au Portugal avec NHR actif?** NHR exonère dividendes de source étrangère sous certaines conditions. NHR + OÜ a fonctionné dans beaucoup de cas, mais le régime NHR est restreint pour nouveaux arrivants après 2024 - vérifier éligibilité avant.
+**Et si je vis au Portugal avec NHR actif?** NHR exonère dividendes de source étrangère sous certaines conditions. NHR + OÜ a fonctionné dans beaucoup de cas, mais le régime NHR est restreint pour les nouveaux arrivants après sa dernière réforme — vérifier l'éligibilité avant de planifier.
 
 Chez Exentax nous modélisons Estonie OÜ avec votre résidence et plan d'extraction réels - si le différé apporte ou si LLC US ou statut indépendant couvrent mieux sans la complexité estonienne.
 <!-- /exentax:execution-v2 -->

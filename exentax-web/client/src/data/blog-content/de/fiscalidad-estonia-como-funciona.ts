@@ -178,7 +178,7 @@ Das estnische Steuersystem wurde jahrelang als "0% Körperschaft" verkauft - tec
 
 **Estland besser als US-LLC für Digital-Freelancer mit EU-Kunden?** Freelancer mit monatlicher Cash-Entnahme: Estland und US-LLC bei Gesamtsteuerlast gleichwertig - der estnische "0%"-Vorteil verdampft mit der Dividende. Unternehmer, der reinvestiert (skalierendes SaaS, Beratung mit Jahresend-Bonus): Estland aufgeschoben vs LLC mit sofortiger Pass-Through-Besteuerung macht einen Unterschied.
 
-**Und wenn ich in Portugal mit aktivem NHR lebe?** NHR befreit ausländische Dividenden unter bestimmten Bedingungen. NHR + OÜ funktionierte in vielen Fällen, aber das NHR-Regime ist für Neuankömmlinge nach 2024 eingeschränkt - Eligibilität vor Planung prüfen.
+**Und wenn ich in Portugal mit aktivem NHR lebe?** NHR befreit ausländische Dividenden unter bestimmten Bedingungen. NHR + OÜ funktionierte in vielen Fällen, aber das NHR-Regime ist für Neuankömmlinge nach seiner jüngsten Reform eingeschränkt — Eligibilität vor Planung prüfen.
 
 Bei Exentax modellieren wir Estland OÜ mit Ihrem realen Wohnsitz und Entnahmeplan - ob die Stundung Mehrwert bringt oder ob US-LLC oder Selbstständigkeit den Fall ohne estnische Komplexität besser decken.
 <!-- /exentax:execution-v2 -->

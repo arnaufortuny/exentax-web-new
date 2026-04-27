@@ -1,6 +1,6 @@
 export default `
 
-¿Cuánto vas a pagar al IRS por tu LLC en 2026? Si eres no residente fiscal en EE. UU. y tu Single-Member LLC factura desde fuera del país (clientes europeos, pago vía Stripe o Wise, sin oficina ni empleados americanos), la respuesta es **0 dólares** de impuesto federal — pero sigues debiendo presentar el Form 5472 más el 1120 pro-forma cada 15 de abril, con multa automática de **25.000 USD por cada año en blanco** y otros 25.000 USD adicionales por cada 30 días de retraso una vez notificado. Esa asimetría (cero impuesto en caja, pero formularios obligatorios bajo amenaza de multa de cinco cifras) es la primera cosa que conviene entender del IRS antes de constituir nada y antes de creer a quien te diga "tu LLC no paga, así que no hay que declarar".
+¿Cuánto vas a pagar al IRS por tu LLC en el ejercicio 2026? Si eres no residente fiscal en EE. UU. y tu Single-Member LLC factura desde fuera del país (clientes europeos, pago vía Stripe o Wise, sin oficina ni empleados americanos), la respuesta es **0 dólares** de impuesto federal — pero sigues debiendo presentar el Form 5472 más el 1120 pro-forma cada 15 de abril, con multa automática de **25.000 USD por cada año en blanco** y otros 25.000 USD adicionales por cada 30 días de retraso una vez notificado. Esa asimetría (cero impuesto en caja, pero formularios obligatorios bajo amenaza de multa de cinco cifras) es la primera cosa que conviene entender del IRS antes de constituir nada y antes de creer a quien te diga "tu LLC no paga, así que no hay que declarar".
 
 ## ¿Qué es el IRS?
 
