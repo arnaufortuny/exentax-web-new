@@ -1,4 +1,13 @@
 #!/usr/bin/env tsx
+// SEO meta verifier.
+//
+// Policy notes:
+// - Service-subpage descriptions (5 pages × 6 langs) MUST end with one of the
+//   approved per-language soft CTAs (see SUBPAGE_CTA_ENDINGS). This was
+//   originally a warning while copy was being brought into compliance; after
+//   task 3 the policy is enforced as a hard ERROR (task 5) so any future copy
+//   edit that drops the CTA fails CI immediately instead of regressing
+//   silently.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -26,7 +35,8 @@ const DESC_MIN = 70;
 
 // SERP-budget gate for the 5 service subpages.
 // Task 2 (premium SEO rollout) updated approved copy: titles 40-60 chars,
-// descriptions 140-165 chars; CTA-ending requirement softened to a warning.
+// descriptions 140-165 chars. Task 5 promoted the soft-CTA-ending check to
+// a hard error after task 3 brought all copy into compliance.
 const SUBPAGE_TITLE_MIN = 40;
 const SUBPAGE_TITLE_MAX = 60;
 const SUBPAGE_DESC_MIN = 140;
@@ -292,18 +302,19 @@ for (const item of subpageItems) {
     summary[item.lang].errors++;
   }
   if (!endsWithSoftCTA(item.lang, item.description)) {
-    warnings.push({
+    violations.push({
       scope: "page",
       lang: item.lang,
       key: `subpages.${item.page}@L${item.descLine}`,
       field: "description",
       length: dLen,
       limit: 0,
-      level: "warn",
+      level: "error",
       message: `Subpage description does not end with a soft CTA (allowed endings for ${item.lang}: ${SUBPAGE_CTA_ENDINGS[item.lang].join(" / ")})`,
       value: item.description,
     });
-    summary[item.lang].warnings++;
+    subpageSummary[item.lang].errors++;
+    summary[item.lang].errors++;
   }
 }
 // Coverage check: each lang must declare all 5 service pages.
