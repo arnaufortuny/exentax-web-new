@@ -42,7 +42,7 @@ function isPastDate(year: number, month: number, day: number): boolean {
   return dateNum < todayNum;
 }
 
-type Step = "qualify" | "date" | "time" | "form" | "confirming" | "success";
+type Step = "date" | "time" | "form" | "confirming" | "success";
 
 interface BookingCalendarProps {
   prefilledContext?: string;
@@ -68,15 +68,13 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
   const { t, i18n } = useTranslation();
   const lp = useLangPath();
   const { msg: inlineMsg, showMsg } = useInlineMessage();
-  const beneficioOptions = t("booking.beneficioOptions", { returnObjects: true }) as string[];
   const today = nowMadrid();
 
   const [currentMonth, setCurrentMonth] = useState(today.getMonth());
   const [currentYear, setCurrentYear] = useState(today.getFullYear());
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
-  const hasPrefilledQualify = !!(prefilledBeneficio && prefilledClientesMundiales !== undefined && prefilledOperaDigital !== undefined);
-  const [step, setStep] = useState<Step>(hasPrefilledQualify ? "date" : "qualify");
+  const [step, setStep] = useState<Step>("date");
 
   const [formData, setFormData] = useState({
     name: prefilledName || "",
@@ -87,12 +85,11 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
     clientesMundiales: prefilledClientesMundiales ?? null as boolean | null,
     operaDigital: prefilledOperaDigital ?? null as boolean | null,
     notaCompartir: "",
-    compromisoAsistir: hasPrefilledQualify ? true : null as boolean | null,
+    compromisoAsistir: true as boolean | null,
   });
   const [privacyAccepted, setPrivacyAccepted] = useState(false);
   const [marketingAccepted, setMarketingAccepted] = useState(false);
   const [privacyError, setPrivacyError] = useState(false);
-  const [compromisoError, setCompromisoError] = useState(false);
 
   const [meetingType, setMeetingType] = useState<"google_meet" | "phone_call">("google_meet");
 
@@ -405,12 +402,11 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       {inlineMsg.type && <div style={{ padding: "8px 16px" }}><InlineMessage msg={inlineMsg} /></div>}
       <div className="flex items-center justify-between px-6 py-4 border-b border-[var(--border-subtle)]">
         <div className="flex items-center gap-2">
-          {step !== "qualify" && (
+          {step !== "date" && (
             <button
               onClick={() => {
                 if (step === "form") { setStep("time"); setSelectedTime(null); }
                 else if (step === "time") { setStep("date"); setSelectedDate(null); }
-                else if (step === "date") { setStep("qualify"); }
               }}
               className="w-8 h-8 rounded-full hover:bg-[var(--green-soft)] flex items-center justify-center transition-colors"
               aria-label={t("booking.backStep")}
@@ -422,14 +418,12 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
             </button>
           )}
           <span className="font-heading font-semibold text-[var(--text-1)]">
-            {step === "qualify" && t("booking.qualifyTitle")}
             {step === "date" && t("booking.selectDate")}
             {step === "time" && selectedDateFormatted}
             {step === "form" && `${selectedDateFormatted} ${t("booking.atTime", { time: selectedTime })}`}
           </span>
         </div>
         <div className="flex items-center gap-1">
-          {!hasPrefilledQualify && <span className={`w-2 h-2 rounded-full ${step === "qualify" ? "bg-[var(--green)]" : "bg-[var(--ring-green)]"}`} />}
           <span className={`w-2 h-2 rounded-full ${step === "date" ? "bg-[var(--green)]" : "bg-[var(--ring-green)]"}`} />
           <span className={`w-2 h-2 rounded-full ${step === "time" ? "bg-[var(--green)]" : "bg-[var(--ring-green)]"}`} />
           <span className={`w-2 h-2 rounded-full ${step === "form" ? "bg-[var(--green)]" : "bg-[var(--ring-green)]"}`} />
@@ -437,155 +431,6 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       </div>
 
       <div className="p-6">
-        {step === "qualify" && (
-          <div className="space-y-5">
-            <div>
-              <label className="text-sm font-medium text-[var(--text-1)] mb-1 block">{t("booking.beneficioLabel")} <span className="text-[var(--green)]/70">*</span></label>
-              <select
-                required
-                value={formData.beneficioMensual}
-                onChange={(e) => setFormData({ ...formData, beneficioMensual: e.target.value })}
-                className="w-full rounded-full py-2.5 px-5 text-sm text-[var(--text-1)] bg-[var(--bg-1)] border border-[var(--border)] focus:outline-none focus:border-[var(--green)] transition-colors appearance-none cursor-pointer"
-                style={{
-                  backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.5l3 3 3-3' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundPosition: "right 16px center",
-                }}
-                data-testid="select-beneficio"
-              >
-                <option value="" disabled>{t("booking.beneficioPlaceholder")}</option>
-                {BENEFICIO_KEYS.map((key, idx) => (
-                  <option key={key} value={key}>{Array.isArray(beneficioOptions) && beneficioOptions[idx] ? beneficioOptions[idx] : key}</option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label className="text-sm font-medium text-[var(--text-1)] mb-2 block">
-                {t("booking.clientesMundialesLabel")} <span className="text-[var(--green)]/70">*</span>
-              </label>
-              <div className="flex gap-3">
-                <button
-                  type="button"
-                  onClick={() => setFormData({ ...formData, clientesMundiales: true })}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.clientesMundiales === true
-                      ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green-hover)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--border-active)]"
-                  }`}
-                  data-testid="button-clientes-mundiales-si"
-                >
-                  {t("booking.si")}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setFormData({ ...formData, clientesMundiales: false })}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.clientesMundiales === false
-                      ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green-hover)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--border-active)]"
-                  }`}
-                  data-testid="button-clientes-mundiales-no"
-                >
-                  {t("booking.no")}
-                </button>
-              </div>
-            </div>
-
-            <div>
-              <label className="text-sm font-medium text-[var(--text-1)] mb-2 block">
-                {t("booking.operaDigitalLabel")} <span className="text-[var(--green)]/70">*</span>
-              </label>
-              <div className="flex gap-3">
-                <button
-                  type="button"
-                  onClick={() => setFormData({ ...formData, operaDigital: true })}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.operaDigital === true
-                      ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green-hover)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--border-active)]"
-                  }`}
-                  data-testid="button-opera-digital-si"
-                >
-                  {t("booking.si")}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setFormData({ ...formData, operaDigital: false })}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.operaDigital === false
-                      ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green-hover)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--border-active)]"
-                  }`}
-                  data-testid="button-opera-digital-no"
-                >
-                  {t("booking.no")}
-                </button>
-              </div>
-            </div>
-
-            <div>
-              <label className="text-sm font-medium text-[var(--text-1)] mb-2 block">
-                {t("booking.compromisoLabel")} <span className="text-[var(--green)]/70">*</span>
-              </label>
-              <p className="text-xs text-[var(--text-2)] mb-3 leading-relaxed">{t("booking.compromisoDesc")}</p>
-              <div className="flex gap-3">
-                <button
-                  type="button"
-                  onClick={() => { setFormData({ ...formData, compromisoAsistir: true }); setCompromisoError(false); }}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.compromisoAsistir === true
-                      ? "border-[var(--green)] bg-[var(--green-soft)] text-[var(--green-hover)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--border-active)]"
-                  }`}
-                  data-testid="button-compromiso-si"
-                >
-                  {t("booking.compromisoSi")}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => { setFormData({ ...formData, compromisoAsistir: false }); setCompromisoError(false); }}
-                  className={`flex-1 py-2.5 rounded-full text-sm font-semibold border-2 transition-all duration-200 ${
-                    formData.compromisoAsistir === false
-                      ? "border-[var(--error)] bg-[rgba(220,38,38,0.10)] text-[var(--error)]"
-                      : "border-[var(--border)] text-[var(--text-2)] hover:border-[var(--error)]/40"
-                  }`}
-                  data-testid="button-compromiso-no"
-                >
-                  {t("booking.compromisoNo")}
-                </button>
-              </div>
-              {compromisoError && (
-                <p className="text-xs text-[var(--error)] mt-2 flex items-center gap-1.5" data-testid="text-compromiso-error">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5.5" stroke="currentColor" strokeWidth="1"/><path d="M6 4v2.5M6 8h.01" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/></svg>
-                  {t("booking.compromisoError")}
-                </p>
-              )}
-              {formData.compromisoAsistir === false && (
-                <div className="glass rounded-xl p-3 mt-3 !border-[var(--error)]/20 text-xs text-[var(--error)] leading-relaxed" data-testid="text-compromiso-warning">
-                  {t("booking.compromisoWarning")}
-                </div>
-              )}
-            </div>
-
-            <button
-              onClick={() => {
-                if (formData.compromisoAsistir !== true) {
-                  setCompromisoError(true);
-                  return;
-                }
-                setCompromisoError(false);
-                setStep("date");
-              }}
-              disabled={!formData.beneficioMensual || formData.clientesMundiales === null || formData.operaDigital === null || formData.compromisoAsistir !== true}
-              className="w-full inline-flex items-center justify-center btn-primary px-6 py-3 text-sm rounded-full disabled:opacity-50 disabled:cursor-not-allowed gap-2"
-              data-testid="button-qualify-next"
-            >
-              {t("booking.qualifyNext")}
-            </button>
-          </div>
-        )}
-
         {step === "date" && (
           <div>
             <div className="flex items-center justify-between mb-4">
