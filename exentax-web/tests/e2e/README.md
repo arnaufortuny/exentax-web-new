@@ -14,6 +14,54 @@ Other Playwright specs in `exentax-web/tests/` (`ga4-events.spec.ts`,
 use. They are excluded from `npm run test:e2e` via the `testMatch` in
 `playwright.config.ts` so a regression in them never blocks merges.
 
+## Browser projects
+
+Per task 29, the suite runs across the five surfaces our real users
+reach. Each is declared in `playwright.config.ts` and runs as its own
+parallel job in CI.
+
+| Project | Engine | Device profile | Catches |
+| --- | --- | --- | --- |
+| `chromium` | Chromium | `Desktop Chrome` | Chrome / Edge / Brave on desktop |
+| `firefox` | Firefox | `Desktop Firefox` | Gecko-only layout / form quirks |
+| `webkit` | WebKit | `Desktop Safari` | macOS Safari date inputs, JIT diffs |
+| `mobile-chrome` | Chromium | `Pixel 7` | Android viewport + touch interactions |
+| `mobile-safari` | WebKit | `iPhone 14` | iOS Safari keyboard / viewport / touch |
+
+`npm run test:e2e` defaults to `--project=chromium` so local iteration
+stays fast. To run a different surface locally, pass the project flag
+directly:
+
+```bash
+cd exentax-web
+PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+  npx playwright test --project=firefox
+# or webkit / mobile-chrome / mobile-safari
+```
+
+Run every project at once (slow — same as the CI matrix in one shell):
+
+```bash
+PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+  npx playwright test
+```
+
+If a browser engine is missing locally, install only what you need:
+
+```bash
+PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+  npx playwright install chromium firefox webkit
+```
+
+(Mobile projects re-use the chromium and webkit engines, so you do not
+need to install anything extra for `mobile-chrome` / `mobile-safari`.)
+
+To open the HTML report after a run:
+
+```bash
+npx playwright show-report
+```
+
 ## Running locally
 
 The Replit "Start application" workflow already serves the app on
@@ -28,33 +76,49 @@ PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
 
 (Or equivalently `npm run test:e2e`.)
 
-If chromium is missing:
-
-```bash
-PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
-  npx playwright install chromium
-```
-
-To open the HTML report after a run:
-
-```bash
-npx playwright show-report
-```
-
 ## Running in CI
 
 The GitHub Actions workflow `.github/workflows/e2e.yml` runs **two
-required jobs** on every push and on every PR to `main`.
+job kinds** on every push and on every PR to `main`.
 
-### `playwright` — runs the specs
+### `playwright` — runs the specs (one job per browser)
+
+A `strategy.matrix` fans out the job across the five browser projects
+listed above. Each leg:
 
 1. Installs deps via `npm ci`.
-2. Installs chromium with `npx playwright install --with-deps chromium`.
-3. Runs `npm run test:e2e`. Because `CI=1` is set, the Playwright
-   config spins up `npm run dev` itself on port 5000 — no external
-   service is required (every `/api/*` is stubbed with `page.route`).
-4. Uploads the `playwright-report` HTML report as an artifact with
-   **14-day retention**, plus per-failure traces.
+2. Installs the chromium / firefox / webkit engines with
+   `npx playwright install --with-deps chromium firefox webkit` (one
+   call covers the desktop projects + the mobile ones, which re-use
+   the same engines).
+3. Runs `npx playwright test --project=${{ matrix.project }}`. Because
+   `CI=1` is set, the Playwright config spins up `npm run dev` itself
+   on port 5000 — no external service is required (every `/api/*` is
+   stubbed with `page.route`).
+4. Uploads the `playwright-report` HTML report as
+   `playwright-report-<project>` (one artifact per browser, **14-day
+   retention**) plus per-failure traces as
+   `playwright-traces-<project>`.
+
+`fail-fast: false` is set so all five browsers always report — a Safari
+regression should not hide a Firefox one.
+
+#### Quarantining a flaky browser
+
+When a project proves chronically flaky (per task 29 brief), flip its
+`quarantined` flag in the matrix from `false` to `true`:
+
+```yaml
+- project: mobile-safari
+  quarantined: true   # non-blocking until flake is fixed
+```
+
+`continue-on-error: ${{ matrix.quarantined }}` makes that leg
+non-blocking so it stops gating merges. The spec still runs and still
+uploads its HTML report, so the regression stays visible — it just
+does not block the merge queue. Do **not** silently delete the project
+from `playwright.config.ts`; quarantine is the visible alternative to
+"disabled and forgotten".
 
 ### `prod-build-smoke` — validates the production bundle
 
@@ -66,9 +130,11 @@ end-to-end by `quality-pipeline.yml` (which provisions its own
 Postgres). After the build, the job asserts that `dist/index.mjs`,
 `dist/index.cjs` and `dist/public/assets/` all exist and are non-empty.
 
-Mark **both** `Playwright E2E (chromium)` and `Production bundle smoke
-build` as required checks in branch protection to enforce that merges
-block when any spec fails or the prod bundle stops compiling.
+Mark every non-quarantined matrix leg
+(`Playwright E2E (chromium|firefox|webkit|mobile-chrome|mobile-safari)`)
+**and** `Production bundle smoke build` as required checks in branch
+protection so merges block when any spec fails or the prod bundle
+stops compiling.
 
 ## Conventions
 
@@ -100,3 +166,10 @@ block when any spec fails or the prod bundle stops compiling.
   Playwright owns the lifecycle when `CI=1`. Locally the inverse
   applies: do not unset `CI=1` or it will try to start a second
   server on top of the running workflow.
+- *Browser-specific failure (Firefox / WebKit / mobile only)* —
+  download the per-browser artifact (`playwright-report-firefox`,
+  `playwright-traces-mobile-safari`, …) from the failed run, then
+  reproduce locally with `npx playwright test --project=<name>`. If
+  the failure is environmental (e.g. flaky on CI mobile-safari
+  emulation only), quarantine the project as documented above
+  rather than disabling it silently.

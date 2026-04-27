@@ -3,11 +3,12 @@ name: E2E (Playwright)
 # PENDING.md §14 — required Playwright check.
 #
 # Runs the three blocking E2E specs (booking, calculator, language
-# switch) in headless chromium and uploads the HTML report as an
-# artifact (14-day retention) so failures can be triaged without
-# re-running.
+# switch) across the five browser surfaces our real users reach
+# (chromium, firefox, webkit, mobile-chrome, mobile-safari) and
+# uploads one HTML report per browser as artifacts (14-day retention)
+# so failures can be triaged without re-running.
 #
-# Architecture: two jobs, both required for a green check.
+# Architecture: two job kinds, all required for a green check.
 #
 #   1. `playwright` — runs the specs against `npm run dev`. Every
 #      `/api/*` request that the specs care about is stubbed via
@@ -17,6 +18,18 @@ name: E2E (Playwright)
 #      that is gated on `NODE_ENV !== "production"`, which `npm run dev`
 #      satisfies natively.
 #
+#      Matrix: each browser project from `playwright.config.ts` runs
+#      as its own parallel job. `fail-fast: false` ensures all
+#      browsers report — one Safari regression should not hide a
+#      Firefox one. Each job uploads a per-browser report artifact.
+#
+#      Quarantine: when a browser proves chronically flaky, set
+#      `quarantined: true` on its matrix entry so the job becomes
+#      non-blocking (`continue-on-error`). The spec still runs and
+#      uploads its report, so the regression is visible — it just
+#      stops gating merges until the flake is fixed. Do NOT silently
+#      delete the project from `playwright.config.ts`.
+#
 #   2. `prod-build-smoke` — runs `SKIP_BUILD_E2E=1 npm run build` to
 #      verify the production server bundle compiles end-to-end with
 #      the same toolchain (esbuild + Vite) used by the deploy. It
@@ -25,9 +38,9 @@ name: E2E (Playwright)
 #      (Postgres, Discord bot, Calendar service-account, etc.) which
 #      `npm run check` (in quality-pipeline.yml) already exercises.
 #
-# Both jobs run on every push and every PR to `main`. Mark them
-# required in branch protection to prevent merging when the suite
-# breaks.
+# Both job kinds run on every push and every PR to `main`. Mark all
+# non-quarantined matrix legs and `prod-build-smoke` required in
+# branch protection to prevent merging when the suite breaks.
 
 on:
   push:
@@ -39,9 +52,29 @@ permissions:
 
 jobs:
   playwright:
-    name: Playwright E2E (chromium)
+    name: Playwright E2E (${{ matrix.project }})
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+
+    # Quarantined matrix entries do not gate the merge. The spec
+    # still runs and uploads its HTML report so the failure is
+    # visible — it just stops blocking until the flake is fixed.
+    continue-on-error: ${{ matrix.quarantined }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: chromium
+            quarantined: false
+          - project: firefox
+            quarantined: false
+          - project: webkit
+            quarantined: false
+          - project: mobile-chrome
+            quarantined: false
+          - project: mobile-safari
+            quarantined: false
 
     defaults:
       run:
@@ -71,29 +104,34 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright chromium browser
-        # `--with-deps` pulls in the system libraries chromium needs on
-        # ubuntu-latest (libnss3, libgbm1, etc.). We only need chromium
-        # because `playwright.config.ts` defines a single project.
-        run: npx playwright install --with-deps chromium
+      - name: Install Playwright browsers
+        # `--with-deps` pulls in the system libraries each engine
+        # needs on ubuntu-latest (libnss3, libgbm1, libgtk-3-0, …).
+        # `mobile-chrome` is a Pixel 7 emulation that runs on the
+        # chromium engine and `mobile-safari` is an iPhone 14
+        # emulation that runs on the webkit engine, so installing
+        # all three engines (chromium / firefox / webkit) is enough
+        # to cover every project in `playwright.config.ts`.
+        run: npx playwright install --with-deps chromium firefox webkit
 
-      - name: Run E2E suite
-        # `npm run test:e2e` is `playwright test --project=chromium`.
-        # The config spins up `npm run dev` automatically when CI=1.
-        run: npm run test:e2e
+      - name: Run E2E suite (${{ matrix.project }})
+        # Run only this matrix leg's project. The config spins up
+        # `npm run dev` automatically when CI=1.
+        run: npx playwright test --project=${{ matrix.project }}
 
-      - name: Upload Playwright HTML report
-        # Always upload, even on success, so the report is available for
-        # any failure triage. Retention is 14d per task brief.
+      - name: Upload Playwright HTML report (${{ matrix.project }})
+        # Always upload, even on success, so the report is available
+        # for any failure triage. One artifact per browser per task
+        # 29; 14d retention per task brief.
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report
+          name: playwright-report-${{ matrix.project }}
           path: exentax-web/playwright-report
           if-no-files-found: warn
           retention-days: 14
 
-      - name: Upload Playwright traces (failures only)
+      - name: Upload Playwright traces (${{ matrix.project }}, failures only)
         # `trace: "retain-on-failure"` (in playwright.config.ts) writes
         # a per-test `trace.zip` under `test-results/` whenever a test
         # fails. Uploading it lets reviewers replay the run with
@@ -101,7 +139,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-traces
+          name: playwright-traces-${{ matrix.project }}
           path: exentax-web/test-results
           if-no-files-found: ignore
           retention-days: 14

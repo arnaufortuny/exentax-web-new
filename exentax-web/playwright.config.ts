@@ -14,6 +14,23 @@ const useWebServer = !!process.env.CI;
 // specs (`tests/ga4-events.spec.ts`, `blog-test.spec.ts`) live in the
 // repo for ad-hoc / future use and are NOT executed here so a regression
 // in them never blocks merges. Run them manually if needed.
+//
+// Browser projects: the suite runs on the five surfaces our real users
+// reach (PENDING.md §14, task 29). Locally `npm run test:e2e` defaults
+// to `--project=chromium` for fast iteration; in CI the
+// `.github/workflows/e2e.yml` matrix runs each project in parallel and
+// uploads a per-browser HTML report.
+//
+//   - chromium       — desktop Chrome / Edge / Brave
+//   - firefox        — desktop Firefox
+//   - webkit         — desktop Safari (macOS)
+//   - mobile-chrome  — Pixel 7 emulation (Android Chrome)
+//   - mobile-safari  — iPhone 14 emulation (iOS Safari)
+//
+// To quarantine a chronically flaky project (per task 29 brief), keep
+// it in the `projects` array here so it still runs, and flip its
+// matrix entry in `.github/workflows/e2e.yml` to `quarantined: true`
+// so the job becomes non-blocking. Do NOT silently delete it.
 export default defineConfig({
   testDir: ".",
   testMatch: ["tests/e2e/*.spec.ts"],
@@ -32,6 +49,22 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
+    },
+    {
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
+    },
+    {
+      name: "webkit",
+      use: { ...devices["Desktop Safari"] },
+    },
+    {
+      name: "mobile-chrome",
+      use: { ...devices["Pixel 7"] },
+    },
+    {
+      name: "mobile-safari",
+      use: { ...devices["iPhone 14"] },
     },
   ],
   ...(useWebServer
