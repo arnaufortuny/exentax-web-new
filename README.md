@@ -70,31 +70,28 @@ Web pública de Exentax: landing, blog multilingüe, sistema de reservas de ases
 
 ```
 docs/
-├── internal/                    ← gobernanza interna del proyecto
-│   ├── PENDING.md               ← lista priorizada de pendientes (canonical)
-│   ├── SOURCES-VERIFIED.md      ← fuentes oficiales para datos del blog
-│   ├── translator-brief.md      ← brief para revisores nativos EN/FR/DE/PT/CA
-│   ├── blog-translation-triage.md  ← PT-BR + duplicados (0/0 vivos hoy)
-│   ├── git-history-notes.md     ← contexto squash main + PRs #1-9
-│   ├── STACK.md                 ← inventario de stack y versiones
-│   ├── AGENT-RULES.md           ← reglas para subagentes Claude/automatizados
-│   ├── DEFINITIVE-STATUS.md     ← estado consolidado por capa
-│   ├── CHANGELOG-SESSION.md     ← changelog detallado por sesión
-│   └── LOG-BATCH-{1,2,3}.md     ← logs de los batches editoriales del blog
-├── audits/2026-04/              ← auditorías 2026-04 (read-only, históricas)
-│   ├── conversion-audit-112x6.md   ← baseline conversión 112×6 = 672
-│   ├── articles/<slug>.md       ← una ficha por artículo (112×)
-│   ├── cta-conversion/<slug>.md ← cobertura CTA por idioma (111×)
-│   ├── cta-audit.md, ctas-rewrite.md, ctas-changelog.md
-│   ├── content-inventory.md, duplicates.md
-│   └── SUMMARY.md
-├── auditoria-2026-04/           ← reports auto-generados (git-tracked)
-│   └── bundle-audit.json
-├── auditoria-multiidioma/       ← reports auto-generados i18n + traducción blog
-│   ├── blog-translation-quality.{json,md}
-│   └── cierre-pendientes-2026-04.md
-├── seo/                         ← política SEO + redirects + linking interno
-└── audits/                      ← carpeta superior con audits cerrados
+├── internal/                          ← gobernanza interna (12 .md vivos tras limpieza 2026-04-27)
+│   ├── PENDING.md                     ← puntero histórico → PENDING-FINAL.md raíz
+│   ├── BASELINE-CIERRE.md             ← outputs reales puertas técnicas (12)
+│   ├── SOURCES-VERIFIED.md            ← fuentes oficiales verificadas
+│   ├── translator-brief.md            ← brief premium-pro (no native review masivo)
+│   ├── blog-translation-triage.md     ← PT-BR + duplicados (0/0 vivos)
+│   ├── git-history-notes.md           ← contexto squash main + PRs #1-9
+│   ├── STACK.md                       ← inventario de stack y versiones
+│   ├── AGENT-RULES.md                 ← reglas para subagentes automatizados
+│   ├── ARCHITECTURE.md                ← arquitectura del sistema
+│   ├── INDEX.md                       ← índice de docs internas
+│   ├── TRANSLATION-GUIDE.md           ← guía de traducción operativa
+│   └── WHAT-NOT-TO-TOUCH.md           ← (espejo del raíz)
+├── audits/2026-04/                    ← outputs activos auto-generados (3 .md)
+│   ├── conversion-audit-112x6.md      ← baseline conversión 112×6 = 672/672
+│   ├── ctas-changelog.md, ctas-rewrite.md   ← outputs de build.ts
+├── audits/historical/                 ← 4 reports archivados pre-limpieza
+├── auditoria-2026-04/                 ← reports auto-generados JSON (5 ficheros)
+│   ├── calidad-global-report.json     ← (CI gate)
+│   ├── componentes-audit.json, emails-audit.json, discord-bot-audit.json
+│   └── slugs-rutas-audit.json
+└── (sin docs/seo, docs/auditoria-multiidioma — eliminados en limpieza 2026-04-27)
 
 (en exentax-web/)
 docs/
