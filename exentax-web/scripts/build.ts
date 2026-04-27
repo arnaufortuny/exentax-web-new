@@ -166,7 +166,11 @@ async function buildAll() {
   });
 
   console.log("building server...");
-  const pkg = JSON.parse(await readFile(path.resolve(WORKSPACE, "package.json"), "utf-8"));
+  // Read deps from the workspace's own package.json (Task #48 dedup): the
+  // root package.json no longer carries a dependencies block, so the
+  // externals list must come from `exentax-web/package.json` where the
+  // real dep list now lives.
+  const pkg = JSON.parse(await readFile(path.resolve(ROOT, "package.json"), "utf-8"));
   const allDeps = [
     ...Object.keys(pkg.dependencies || {}),
     ...Object.keys(pkg.devDependencies || {}),
