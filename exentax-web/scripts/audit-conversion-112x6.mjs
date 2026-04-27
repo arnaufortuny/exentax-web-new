@@ -480,8 +480,20 @@ console.log(summary);
 // In strict mode, treat any missing conversion-grade pair (or any missing
 // article file) as a CI-blocking failure. Mirrors the audit→strict pattern
 // from `seo:masterpiece-strict` and is wired into `blog-validate-all.mjs`.
+//
+// Two independent gates evaluated in strict mode:
+//   1. Structural CTAs: every (slug, lang) pair must satisfy its applicable
+//      contracts (calculator, agenda, tel+WhatsApp, LLC sub, ITIN sub).
+//   2. Weak-copy phrases: zero tolerance for the generic CTAs listed in
+//      `WEAK_COPY_PHRASES` ("haz clic aquí", "learn more", "click here",
+//      "cliquez ici", etc.). Closes the door before a new article or an
+//      auto-translation can reintroduce them.
+// Both gates run regardless of which one fails first so reviewers see the
+// full picture in a single CI run.
 if (STRICT) {
   const expected = slugs.length * LANGS.length;
+  let strictFail = false;
+
   if (totals.fullyConversionGrade < expected) {
     const missingPairs = expected - totals.articles;
     console.error(
@@ -490,9 +502,34 @@ if (STRICT) {
         `tel-WA gaps: ${totals.gaps.telWa}, LLC-sub gaps: ${totals.gaps.llc}, ITIN-sub gaps: ${totals.gaps.itin}). ` +
         `See ${path.relative(WORKSPACE, CSV_PATH)} and ${path.relative(WORKSPACE, MD_PATH)} for the per-(slug,lang) breakdown.`,
     );
+    strictFail = true;
+  }
+
+  if (totals.weakCopyHits > 0) {
+    const sampleN = Math.min(weakViolations.length, 10);
+    const sample = weakViolations
+      .slice(0, sampleN)
+      .map((w) => `  - ${w.file}:${w.line} → "${w.phrase}"`)
+      .join("\n");
+    const more =
+      weakViolations.length > sampleN
+        ? `\n  …and ${weakViolations.length - sampleN} more (full list in ${path.relative(WORKSPACE, MD_PATH)}).`
+        : "";
+    console.error(
+      `audit-conversion-112x6 [--strict]: FAIL — ${totals.weakCopyHits} weak-copy hit(s) ` +
+        `across ${new Set(weakViolations.map((w) => w.slug + ":" + w.lang)).size} file(s). ` +
+        `Replace generic CTAs with concrete ones (calculadora, agenda, tel+WhatsApp, sub-LLC, sub-ITIN).\n` +
+        `${sample}${more}`,
+    );
+    strictFail = true;
+  }
+
+  if (strictFail) {
     process.exit(1);
   }
-  console.log(`audit-conversion-112x6 [--strict]: OK — ${expected}/${expected} fully conversion-grade.`);
+  console.log(
+    `audit-conversion-112x6 [--strict]: OK — ${expected}/${expected} fully conversion-grade, 0 weak-copy hits.`,
+  );
 }
 
 process.exit(0);
