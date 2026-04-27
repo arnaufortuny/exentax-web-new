@@ -1,6 +1,6 @@
 # Blog source-URL verification
 
-- Generated: 2026-04-27T15:33:21.431Z
+- Generated: 2026-04-27T16:03:28.158Z
 - Total: 33
 - OK (2xx/3xx): 33
 - FAIL: 0
@@ -18,7 +18,7 @@
 | 9 | 26 USC — Internal Revenue Code | 200 | https://www.law.cornell.edu/uscode/text/26 |
 | 10 | OECD — Common Reporting Standard (CRS) | 403 (CF challenge, alive) | https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/ |
 | 11 | OECD — BEPS Project overview | 403 (CF challenge, alive) | https://www.oecd.org/tax/beps/ |
-| 12 | FATF — 40 Recommendations | 403 (CF challenge, alive) | https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html |
+| 12 | FATF — 40 Recommendations | 200 | https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html |
 | 13 | EU — DAC (Directive 2011/16/EU on Administrative Cooperation) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02011L0016-20230101 |
 | 14 | EU — DAC7 (Directive (EU) 2021/514) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32021L0514 |
 | 15 | EU — DAC8 (Directive (EU) 2023/2226) | 202 | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023L2226 |
