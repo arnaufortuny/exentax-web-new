@@ -12,8 +12,8 @@ export interface PageMeta {
 
 export const PAGE_META: Record<string, PageMeta> = {
   "/": {
-    title: "Paga menos impuestos legalmente con LLC en EE.UU. | Exentax",
-    description: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en EE.UU. Constitución en 2 días, EIN, cuenta Mercury y compliance incluido. Asesoría gratuita 30 min.",
+    title: "Reducir carga fiscal hasta un 80% con LLC americana | Exentax",
+    description: "Reduce tu carga fiscal hasta un 80% con una LLC americana. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
     canonical: BASE_URL,
   },
   "/blog": {
@@ -304,33 +304,33 @@ export const PAGE_META: Record<string, PageMeta> = {
     noindex: true,
   },
   "/es": {
-    title: "Paga menos impuestos legalmente con LLC en EE.UU. | Exentax",
-    description: "Reduce tu carga fiscal del 40% al 8-12% con una LLC en EE.UU. Constitución en 2 días, EIN, cuenta Mercury y compliance incluido. Asesoría gratuita 30 min.",
+    title: "Reducir carga fiscal hasta un 80% con LLC americana | Exentax",
+    description: "Reduce tu carga fiscal hasta un 80% con una LLC americana. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
     canonical: `${BASE_URL}/es`,
   },
   "/en": {
-    title: "Pay less taxes legally with your US LLC | Exentax",
-    description: "Reduce your tax burden from 40% to 8-12% with a US LLC. Formation in 2 days, EIN, bank account and compliance included. Personalized strategic consulting.",
+    title: "Cut your tax burden by up to 80% with a US LLC | Exentax",
+    description: "Cut your tax burden by up to 80% with a US LLC. Setup in 2 days: EIN, US bank account (Slash, Wise, Relay, Mercury) and full compliance. Free 30-min consult.",
     canonical: `${BASE_URL}/en`,
   },
   "/fr": {
-    title: "Payez moins d'impôts avec votre LLC aux USA | Exentax",
-    description: "Réduisez votre charge fiscale de 40% à 8-12% avec une LLC aux États-Unis. Constitution en 2 jours, EIN, compte bancaire et compliance inclus.",
+    title: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US | Exentax",
+    description: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US. EIN, compte bancaire (Slash, Wise, Relay, Mercury), compliance inclus. Consultation gratuite.",
     canonical: `${BASE_URL}/fr`,
   },
   "/de": {
-    title: "Zahlen Sie legal weniger Steuern mit Ihrer US-LLC | Exentax",
-    description: "Reduzieren Sie Ihre Steuerlast von 40% auf 8-12% mit einer LLC in den USA. Gründung in 2 Tagen, EIN, Bankkonto und Compliance inklusive.",
+    title: "Steuerlast bis zu 80% senken mit US-LLC | Exentax",
+    description: "Reduzieren Sie Ihre Steuerlast um bis zu 80% mit einer US-LLC. EIN, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Kostenlose Beratung.",
     canonical: `${BASE_URL}/de`,
   },
   "/pt": {
-    title: "Pague menos impostos com sua LLC nos EUA | Exentax",
-    description: "Reduza sua carga tributária de 40% para 8-12% com uma LLC nos Estados Unidos. Constituição em 2 dias, EIN, conta bancária e compliance incluídos.",
+    title: "Reduza a sua carga fiscal até 80% com LLC americana | Exentax",
+    description: "Reduza a sua carga fiscal até 80% com uma LLC americana. EIN, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Consulta grátis 30 min.",
     canonical: `${BASE_URL}/pt`,
   },
   "/ca": {
-    title: "Paga menys impostos amb la teva LLC als EUA | Exentax",
-    description: "Redueix la teva càrrega fiscal del 40% al 8-12% amb una LLC als Estats Units. Constitució en 2 dies, EIN, compte bancari i compliance inclòs.",
+    title: "Redueix la càrrega fiscal fins un 80% amb LLC americana | Exentax",
+    description: "Redueix la teva càrrega fiscal fins a un 80% amb una LLC americana. EIN, compte USA (Slash, Wise, Relay, Mercury), compliance. Consulta gratuïta.",
     canonical: `${BASE_URL}/ca`,
   },
   "/es/como-trabajamos": {
@@ -365,32 +365,32 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   "/es/servicios": {
     title: "Servicios de constitución LLC en EE.UU. | Exentax",
-    description: "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta Mercury, compliance y soporte 12 meses. Consulta nuestros planes.",
+    description: "LLC en Nuevo México, Wyoming o Delaware. Incluye EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance 12 meses.",
     canonical: `${BASE_URL}/es/servicios`,
   },
   "/en/services": {
     title: "US LLC formation services | Exentax",
-    description: "LLC in New Mexico, Wyoming or Delaware. Includes EIN, Operating Agreement, Mercury account, compliance and 12-month support. Check our plans.",
+    description: "LLC in New Mexico, Wyoming or Delaware. Includes EIN, Operating Agreement, US bank account (Slash, Wise, Relay, Mercury) and 12-month compliance.",
     canonical: `${BASE_URL}/en/services`,
   },
   "/fr/services": {
     title: "Services de constitution de LLC aux États-Unis | Exentax",
-    description: "LLC au Nouveau-Mexique, Wyoming ou Delaware. Inclut EIN, Operating Agreement, compte Mercury, compliance et support 12 mois.",
+    description: "LLC au Nouveau-Mexique, Wyoming ou Delaware. EIN, Operating Agreement, compte US (Slash, Wise, Relay, Mercury) et compliance 12 mois.",
     canonical: `${BASE_URL}/fr/services`,
   },
   "/de/leistungen": {
     title: "LLC-Gründungsservices in den USA | Exentax",
-    description: "LLC in New Mexico, Wyoming oder Delaware. Inklusive EIN, Operating Agreement, Mercury-Konto, Compliance und 12 Monate Support.",
+    description: "LLC in New Mexico, Wyoming oder Delaware. EIN, Operating Agreement, US-Bankkonto (Slash, Wise, Relay, Mercury), 12 Monate Compliance.",
     canonical: `${BASE_URL}/de/leistungen`,
   },
   "/pt/servicos": {
     title: "Serviços de constituição de LLC nos EUA | Exentax",
-    description: "LLC no Novo México, Wyoming ou Delaware. Inclui EIN, Operating Agreement, conta Mercury, compliance e suporte 12 meses.",
+    description: "LLC no Novo México, Wyoming ou Delaware. EIN, Operating Agreement, conta USA (Slash, Wise, Relay, Mercury) e compliance 12 meses.",
     canonical: `${BASE_URL}/pt/servicos`,
   },
   "/ca/serveis": {
     title: "Serveis de constitució de LLC als EUA | Exentax",
-    description: "LLC a Nou Mèxic, Wyoming o Delaware. Inclou EIN, Operating Agreement, compte Mercury, compliance i suport 12 mesos.",
+    description: "LLC a Nou Mèxic, Wyoming o Delaware. EIN, Operating Agreement, compte USA (Slash, Wise, Relay, Mercury) i compliance 12 mesos.",
     canonical: `${BASE_URL}/ca/serveis`,
   },
   "/es/preguntas-frecuentes": {
@@ -663,20 +663,20 @@ function buildI18nMeta(): Record<string, PageMeta> {
 
   const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
     home: {
-      es: "LLC Estados Unidos para freelancers y autónomos: paga menos impuestos legalmente. Constitución en 2 días, EIN sin viajar, Mercury y compliance incluido.",
-      en: "US LLC for non-residents and freelancers: legally pay less tax. Formation in 2 days, EIN without travel, Mercury business account and full compliance included.",
-      fr: "LLC États-Unis pour freelances et nomades numériques : payer moins d'impôts légalement. Constitution en 2 jours, EIN sans déplacement, Mercury inclus.",
-      de: "US LLC für Nicht-Residenten und Freelancer: legal weniger Steuern zahlen. Gründung in 2 Tagen, EIN ohne Reise, Mercury Geschäftskonto und Compliance inklusive.",
-      pt: "LLC Estados Unidos para freelancers: pagar menos impostos legalmente. Constituição em 2 dias, EIN sem viajar, conta Mercury e compliance incluídos.",
-      ca: "LLC Estats Units per a autònoms: pagar menys impostos legalment. Constitució en 2 dies, EIN sense viatjar, compte Mercury i compliance inclòs.",
+      es: "Reduce tu carga fiscal hasta un 80% con una LLC americana. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
+      en: "Cut your tax burden by up to 80% with a US LLC. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
+      fr: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
+      de: "Reduzieren Sie Ihre Steuerlast um bis zu 80% mit einer US-LLC. EIN ohne Reise, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Für Freelancer.",
+      pt: "Reduza a sua carga fiscal até 80% com uma LLC americana. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
+      ca: "Redueix la teva càrrega fiscal fins un 80% amb una LLC americana. EIN sense viatjar, compte USA (Slash, Wise, Relay, Mercury) i compliance inclosos.",
     },
     our_services: {
-      es: "Servicios LLC Estados Unidos: constitución LLC, mantenimiento LLC, EIN, Operating Agreement, Mercury y compliance LLC. Planes para no residentes.",
-      en: "US LLC services: LLC formation and LLC maintenance with EIN, Operating Agreement, Mercury bank and full LLC compliance. Plans for non-residents.",
-      fr: "Services LLC USA : constitution LLC et maintenance LLC avec EIN, Operating Agreement, Mercury et conformité LLC. Forfaits LLC non-résidents.",
-      de: "US-LLC Dienstleistungen: LLC Gründung, LLC Verwaltung mit EIN, Operating Agreement, Mercury und LLC Compliance. Pakete für Nicht-Residenten.",
-      pt: "Serviços LLC EUA: constituição LLC e manutenção LLC com EIN, Operating Agreement, Mercury e compliance LLC. Planos LLC para não residentes.",
-      ca: "Serveis LLC EUA: constitució LLC i manteniment LLC amb EIN, Operating Agreement, Mercury i compliance LLC. Plans LLC no residents.",
+      es: "Servicios LLC Estados Unidos: constitución, EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance LLC. Planes para no residentes.",
+      en: "US LLC services: formation, EIN, Operating Agreement, US bank account (Slash, Wise, Relay, Mercury) and full LLC compliance. Plans for non-residents.",
+      fr: "Services LLC USA : constitution, EIN, Operating Agreement, compte US (Slash, Wise, Relay, Mercury) et conformité LLC. Forfaits non-résidents.",
+      de: "US-LLC Dienstleistungen: Gründung, EIN, Operating Agreement, US-Bankkonto (Slash, Wise, Relay, Mercury), LLC Compliance. Pakete für Nicht-Residenten.",
+      pt: "Serviços LLC EUA: constituição, EIN, Operating Agreement, conta USA (Slash, Wise, Relay, Mercury) e compliance LLC. Planos para não residentes.",
+      ca: "Serveis LLC EUA: constitució, EIN, Operating Agreement, compte USA (Slash, Wise, Relay, Mercury) i compliance LLC. Plans LLC no residents.",
     },
     how_we_work: {
       es: "Cómo trabajamos LLC: asesoría fiscal estratégica, plan personalizado LLC y proceso constitución LLC en 2-4 días con compliance anual. Sin letra pequeña.",
@@ -1283,7 +1283,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Qué es una LLC?</h2>
 <p>Es una figura jurídica estadounidense que separa tus bienes personales de los del negocio. Para no residentes con una Single-Member LLC, el IRS la clasifica como Disregarded Entity: no paga impuesto federal en EE.UU.</p>
 <h2>¿Por qué tantos freelancers eligen una LLC?</h2>
-<ul><li>Fiscalidad optimizada: del 40-47% hasta un 0%</li><li>Protección patrimonial</li><li>Banca en dólares con Mercury</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
+<ul><li>Fiscalidad optimizada: reduce tu carga fiscal hasta un 80%</li><li>Protección patrimonial</li><li>Banca USA en dólares (Slash, Wise, Relay, Mercury)</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
 <h2>Mejores estados para tu LLC</h2>
 <p>Nuevo México (estructura eficiente), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
 <p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
