@@ -123,7 +123,7 @@ function extractBody(raw) {
   return m ? m[1] : raw;
 }
 
-function countWords(text) {
+export function countWords(text) {
   // Strip HTML tags + markdown link URLs (keep visible text), then count.
   const stripped = text
     .replace(/<[^>]+>/g, " ")
@@ -133,12 +133,12 @@ function countWords(text) {
   return words.length;
 }
 
-function hasV2Marker(body) {
+export function hasV2Marker(body) {
   return /<!--\s*exentax:execution-v2\s*-->/i.test(body) &&
          /<!--\s*\/\s*exentax:execution-v2\s*-->/i.test(body);
 }
 
-function hasCalcCta(body, lang) {
+export function hasCalcCta(body, lang) {
   if (/<!--\s*exentax:calc-cta-v1\s*-->/i.test(body)) return true;
   // Inline link patterns by lang
   const calcRx = new RegExp(`/${lang}#(calculadora|calculator|calc)`, "i");
@@ -404,7 +404,7 @@ function loadSourcesIndex() {
   return SOURCES_BY_SLUG_INDEX;
 }
 
-function hasSourcesBlock(body, slug) {
+export function hasSourcesBlock(body, slug) {
   // Inline marker (legacy): <!-- exentax:sources-v1 --> ... <!-- /exentax:sources-v1 -->
   const inlineSeg = body.match(/<!--\s*exentax:sources-v1\s*-->([\s\S]*?)<!--\s*\/\s*exentax:sources-v1\s*-->/i);
   if (inlineSeg) {
@@ -421,7 +421,7 @@ function hasSourcesBlock(body, slug) {
   return { ok: false, count: refs, source: refs > 0 ? "runtime-partial" : "none" };
 }
 
-function hasAuthorityBlock(body) {
+export function hasAuthorityBlock(body) {
   if (AUTHORITY_PATTERNS.some((rx) => rx.test(body))) return true;
   // The v2 execution block is by design the authority block (editorial
   // rules v2 §9). Any article with a v2 marker that mentions Exentax in
