@@ -74,7 +74,6 @@ export interface NavSubpagesLabels {
 }
 
 export interface SubpagesGridLabels {
-  kicker: string;
   h2: string;
   cta: string;
 }
@@ -2612,10 +2611,10 @@ export const NAV_SUBPAGES_BY_LANG: Record<SupportedLang, NavSubpagesLabels> = {
 };
 
 export const SUBPAGES_GRID_BY_LANG: Record<SupportedLang, SubpagesGridLabels> = {
-  es: { kicker: "EXPLORA POR ESTADO", h2: "Encuentra el servicio que encaja con tu caso", cta: "Ver servicio" },
-  en: { kicker: "EXPLORE BY STATE", h2: "Find the service that fits your case", cta: "See service" },
-  fr: { kicker: "EXPLORER PAR ÉTAT", h2: "Trouvez le service adapté à votre cas", cta: "Voir le service" },
-  de: { kicker: "NACH BUNDESSTAAT", h2: "Finden Sie die passende Leistung für Ihren Fall", cta: "Leistung ansehen" },
-  pt: { kicker: "EXPLORE POR ESTADO", h2: "Encontre o serviço que se encaixa no seu caso", cta: "Ver serviço" },
-  ca: { kicker: "EXPLORA PER ESTAT", h2: "Troba el servei que encaixa amb el teu cas", cta: "Veure servei" },
+  es: { h2: "Encuentra el servicio que encaja con tu caso", cta: "Ver servicio" },
+  en: { h2: "Find the service that fits your case", cta: "See service" },
+  fr: { h2: "Trouvez le service adapté à votre cas", cta: "Voir le service" },
+  de: { h2: "Finden Sie die passende Leistung für Ihren Fall", cta: "Leistung ansehen" },
+  pt: { h2: "Encontre o serviço que se encaixa no seu caso", cta: "Ver serviço" },
+  ca: { h2: "Troba el servei que encaixa amb el teu cas", cta: "Veure servei" },
 };

@@ -1405,7 +1405,6 @@ const es = {
  waText:"Hola. He visto vuestros planes y quiero entender cuál encaja mejor con mi situación fiscal. ¿Podemos hablar?",
  },
  services: {
- label:"NUESTROS SERVICIOS",
  h2:"Servicios incluidos en cada plan",
  p1:"Cada opción incluye todo lo necesario para constituir y poner en marcha tu LLC correctamente.",
  p2:"Nos encargamos de la constitución, la documentación oficial y los trámites necesarios para que tu empresa quede operativa desde el primer día.",
@@ -1525,7 +1524,6 @@ const es = {
  },
  },
  maintenance: {
- label:"COMPLIANCE ANUAL",
  h2:"Mantenimiento anual",
  taglineGreen:"Tu LLC siempre en regla, sin tener que preocuparte por nada",
  p1:"Crear una LLC es solo el primer paso. Cada año hay obligaciones que deben presentarse correctamente ante el IRS y, en algunos casos, ante el estado donde está registrada la empresa.",
@@ -1576,7 +1574,6 @@ const es = {
  },
  },
  faq: {
- label:"PREGUNTAS FRECUENTES",
  h2:"Preguntas frecuentes sobre los planes",
  p:"Antes de constituir una LLC es normal tener algunas preguntas sobre el proceso, los costes y el mantenimiento. Aquí resolvemos las más habituales.",
  btnVerTodas:"Ver todas las preguntas →",
@@ -1922,7 +1919,6 @@ const es = {
  },
  ],
  whyUs: {
- label:"POR QUÉ EXENTAX",
  titlePrefix:"Por qué los emprendedores internacionales eligen",
  desc1:"La mayoría de servicios de \"LLC en EE.UU.\" venden un trámite. Nosotros diseñamos estructuras fiscales internacionales completas.",
  desc2:"Nuestro trabajo no consiste en registrar una empresa. Consiste en entender tu situación, analizar tu residencia fiscal, tu actividad y tu modelo de negocio, y a partir de ahí construir una estructura que tenga sentido y que puedas sostener en el tiempo.",
@@ -1993,7 +1989,6 @@ const es = {
  heroCta:"Agenda tu asesoría",
  heroWhatsapp:"Hablar por WhatsApp",
  heroWhatsappMsg:"Hola, me ha surgido interés en abrir una LLC en EE.UU. y tengo algunas dudas sobre si es lo adecuado para mi negocio. ¿Podemos hablar?",
- whatIsLabel:"QUÉ ES UNA LLC",
  whatIsTitle:"Qué es una LLC y por qué te interesa",
  whatIsDesc:"LLC significa Limited Liability Company, o Sociedad de Responsabilidad Limitada. Es la estructura empresarial más flexible y popular de Estados Unidos, especialmente para emprendedores que no residen allí.",
  whatItDoesTitle:"Lo que una LLC hace por ti",
@@ -2008,7 +2003,6 @@ const es = {
 "Credibilidad profesional ante clientes y proveedores internacionales",
 "Flexibilidad total: sin junta directiva, sin accionistas, sin burocracia"
  ],
- whyLabel:"VENTAJAS",
  whyTitle:"Por qué una LLC si no vives en EE.UU.",
  whyDesc:"No necesitas residir en Estados Unidos, ni tener visa, ni ser ciudadano americano. Cualquier persona de cualquier nacionalidad puede constituir y operar una LLC americana de forma 100% online.",
  benefitTaxTitle:"Optimización fiscal",
@@ -2019,7 +2013,6 @@ const es = {
  benefitPaymentDesc:"Stripe, PayPal Business, Wise Business, y prácticamente cualquier procesador de pagos internacional. Cobra en cualquier moneda, recibe pagos de clientes en todo el mundo, y gestiona tu flujo de caja sin las limitaciones que imponen las cuentas locales.",
  benefitProtectionTitle:"Protección patrimonial",
  benefitProtectionDesc:"Tu LLC es una entidad legal separada de ti como persona física. Tu patrimonio personal, tu casa, tus ahorros, tus inversiones, está legalmente protegido frente a cualquier contingencia de tu actividad profesional.",
- processLabel:"PROCESO",
  processTitle:"Proceso de constitución",
  processDesc:"De la primera llamada a tu LLC operativa en menos de un mes. Nos encargamos de todo para que tú no tengas que preocuparte de nada.",
  step1Title:"Asesoría estratégica",
@@ -2030,7 +2023,6 @@ const es = {
  step3Desc:"Presentamos los Articles of Organization, obtenemos tu EIN ante el IRS, activamos tu Registered Agent, coordinamos la apertura de tu cuenta bancaria en Mercury y configuramos tus pasarelas de pago.",
  step4Title:"Operativo en días",
  step4Desc:"LLC constituida en 2-4 días hábiles. Tras eso, coordinamos tu EIN, cuenta bancaria Mercury con tarjetas, y tu Stripe o pasarela de pago. Completamente operativo en 2-4 semanas.",
- complianceLabel:"COMPLIANCE",
  complianceTitle:"Obligaciones anuales de tu LLC",
  complianceDesc:"Tener una LLC implica un mantenimiento anual sencillo. Nosotros nos encargamos de todo para que tu empresa esté siempre en regla y tú puedas centrarte en lo que importa.",
  complianceNote:"Con nuestro <strong>servicio de mantenimiento</strong> nos encargamos de todas estas obligaciones por ti. Te avisamos de cada plazo, preparamos la documentación y la presentamos en tu nombre.",
@@ -2040,7 +2032,6 @@ const es = {
  obligation2Desc:"Requerido en Wyoming y Delaware. Nuevo México no lo exige. Nos encargamos de presentarlo a tiempo para que tu LLC mantenga su buen estado (good standing).",
  obligation3Title:"Renovación de Registered Agent",
  obligation3Desc:"Tu LLC necesita un Registered Agent activo en el estado de constitución en todo momento. Nuestro servicio incluye la renovación automática anual.",
- statesLabel:"ESTADOS",
  statesTitle:"Estados populares para tu LLC",
  statesDesc:"No todos los estados son iguales. Cada uno tiene sus ventajas según tu perfil, tu modelo de negocio y tus objetivos. Te ayudamos a elegir el correcto.",
  mostPopular:"Más popular",

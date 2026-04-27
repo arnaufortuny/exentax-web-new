@@ -1131,7 +1131,6 @@ const en = {
       waText: "Hello. I've seen your plans and want to understand which one fits my tax situation best. Can we talk?"
     },
     services: {
-      label: "OUR SERVICES",
       h2: "Services included in each plan",
       p1: "Each option includes everything necessary to incorporate and launch your LLC correctly.",
       p2: "We handle the incorporation, official documentation and all procedures so your company is operational from day one.",
@@ -1211,7 +1210,6 @@ const en = {
       }
     },
     maintenance: {
-      label: "ANNUAL COMPLIANCE",
       h2: "Annual maintenance",
       taglineGreen: "Your LLC always compliant, without having to worry about anything",
       p1: "Creating an LLC is just the first step. Each year there are obligations that must be correctly filed with the IRS and, in some cases, with the state where the company is registered.",
@@ -1243,7 +1241,6 @@ const en = {
       }
     },
     faq: {
-      label: "FREQUENTLY ASKED QUESTIONS",
       h2: "Frequently asked questions about the plans",
       p: "Before incorporating an LLC it's normal to have questions about the process, costs and maintenance. Here we address the most common ones.",
       btnVerTodas: "See all questions →",
@@ -1425,7 +1422,6 @@ const en = {
     },
     days: [{"day":"Day 1","title":"Legal LLC incorporation","items":["We prepare and file the Articles of Organization","We handle official fees and registered agent","You receive your Certificate of Organization"]},{"day":"Day 1–2","title":"EIN and tax documentation","items":["We apply for your EIN with the IRS","It is the tax identifier of your company and you need it to operate","We send you the official letter as soon as it arrives"]},{"day":"Day 2–3","title":"Corporate bank account","items":["We prepare the application with all documentation","We submit it to the recommended bank for your profile","Follow-up until approval","Virtual cards available from the first moment"]},{"day":"Day 3–4","title":"Operational integration and delivery","items":["Delivery of organised documentation","Tax guidance for your declaration","Resolution of operational queries","Ready to start invoicing"]}],
     whyUs: {
-      label: "WHY EXENTAX",
       titlePrefix: "Why international entrepreneurs choose",
       desc1: "Most 'US LLC' services sell a paperwork process. We design complete international tax structures.",
       desc2: "Our work is not about registering a company. It's about understanding your situation, analysing your tax residency, your activity and your business model, and from there building a structure that makes sense and that you can sustain over time.",
@@ -1452,7 +1448,6 @@ const en = {
     heroCta: "Book your consultation",
     heroWhatsapp: "Talk on WhatsApp",
     heroWhatsappMsg: "Hi, I'm interested in opening a US LLC and have some questions about whether it's right for my business. Can we talk?",
-    whatIsLabel: "WHAT IS AN LLC",
     whatIsTitle: "What is an LLC and why does it matter",
     whatIsDesc: "LLC stands for Limited Liability Company. It is the most flexible and popular business structure in the United States, especially for entrepreneurs who do not reside there.",
     whatItDoesTitle: "What an LLC does for you",
@@ -1460,7 +1455,6 @@ const en = {
     whatItDoesDesc2: "The real advantage for a Spanish-speaking digital entrepreneur is access to the entire US financial infrastructure: dollar bank accounts, physical and virtual cards, Stripe, PayPal Business, and payment processors that are simply not available with a local structure in many Spanish-speaking countries.",
     keyBenefitsTitle: "Key benefits",
     keyBenefits: ["Personal asset protection from business debts","Legal tax optimization: 0% federal tax if you have no physical presence in the US","Dollar bank account with Mercury or Relay, with physical and virtual cards","Access to Stripe, PayPal Business and international payment gateways","Professional credibility with international clients and providers","Total flexibility: no board of directors, no shareholders, no bureaucracy"],
-    whyLabel: "ADVANTAGES",
     whyTitle: "Why an LLC if you don't live in the US",
     whyDesc: "You don't need to reside in the United States, have a visa, or be an American citizen. Anyone of any nationality can establish and operate an American LLC completely online.",
     benefitTaxTitle: "Tax optimization",
@@ -1471,7 +1465,6 @@ const en = {
     benefitPaymentDesc: "Stripe, PayPal Business, Wise Business, and virtually any international payment processor. Accept payments in any currency, receive payments from clients worldwide, and manage your cash flow without the limitations imposed by local accounts.",
     benefitProtectionTitle: "Asset protection",
     benefitProtectionDesc: "Your LLC is a separate legal entity from you as an individual. Your personal assets, your home, savings, investments, are legally protected against any contingency of your professional activity.",
-    processLabel: "PROCESS",
     processTitle: "Formation process",
     processDesc: "From the first call to your operational LLC in less than a month. We handle everything so you don't have to worry about anything.",
     step1Title: "Strategic consultation",
@@ -1482,7 +1475,6 @@ const en = {
     step3Desc: "We file the Articles of Organization, obtain your EIN from the IRS, activate your Registered Agent, coordinate your Mercury bank account opening and configure your payment gateways.",
     step4Title: "Operational in days",
     step4Desc: "LLC formed in 2-4 business days. After that, we coordinate your EIN, Mercury bank account with cards, and your Stripe or payment gateway. Fully operational in 2-4 weeks.",
-    complianceLabel: "COMPLIANCE",
     complianceTitle: "Annual obligations for your LLC",
     complianceDesc: "Having an LLC requires simple annual maintenance. We handle everything so your company is always in good standing and you can focus on what matters.",
     complianceNote: "With our <strong>maintenance service</strong> we handle all these obligations for you. We notify you of every deadline, prepare the documentation and file it on your behalf.",
@@ -1492,7 +1484,6 @@ const en = {
     obligation2Desc: "Required in Wyoming and Delaware. New Mexico does not require it. We handle filing it on time so your LLC maintains good standing.",
     obligation3Title: "Registered Agent renewal",
     obligation3Desc: "Your LLC needs an active Registered Agent in the state of formation at all times. Our service includes automatic annual renewal.",
-    statesLabel: "STATES",
     statesTitle: "Popular states for your LLC",
     statesDesc: "Not all states are the same. Each one has its advantages depending on your profile, business model and objectives. We help you choose the right one.",
     mostPopular: "Most popular",

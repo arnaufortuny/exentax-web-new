@@ -1133,7 +1133,6 @@ const fr = {
       waText: "Bonjour. J'ai vu vos plans et je veux comprendre lequel correspond le mieux à ma situation fiscale. Pouvons-nous parler ?",
     },
     services: {
-      label: "NOS SERVICES",
       h2: "Services inclus dans chaque plan",
       p1: "Chaque option inclut tout le nécessaire pour constituer et lancer correctement votre LLC.",
       p2: "Nous gérons la constitution, la documentation officielle et les démarches nécessaires pour que votre entreprise soit opérationnelle dès le premier jour.",
@@ -1213,7 +1212,6 @@ const fr = {
       }
     },
     maintenance: {
-      label: "CONFORMITÉ ANNUELLE",
       h2: "Maintenance annuelle",
       taglineGreen: "Votre LLC toujours en règle, sans avoir à vous en préoccuper",
       p1: "Créer une LLC n'est que la première étape. Chaque année, il y a des obligations qui doivent être correctement déposées auprès de l'IRS et, dans certains cas, auprès de l'État.",
@@ -1245,7 +1243,6 @@ const fr = {
       }
     },
     faq: {
-      label: "QUESTIONS FRÉQUENTES",
       h2: "Questions fréquentes sur les plans",
       p: "Avant de constituer une LLC, il est normal d'avoir des questions sur le processus, les coûts et la maintenance. Voici les plus fréquentes.",
       btnVerTodas: "Voir toutes les questions →",
@@ -1427,7 +1424,6 @@ const fr = {
     },
     days: [{"day":"Jour 1","title":"Constitution légale de la LLC","items":["Nous préparons et soumettons les Articles of Organization","Nous gérons les frais officiels et l'agent enregistré","Vous recevez votre Certificate of Organization"]},{"day":"Jour 1–2","title":"EIN et documentation fiscale","items":["Nous demandons votre EIN auprès de l'IRS","C'est l'identifiant fiscal de votre entreprise et vous en avez besoin pour opérer","Nous vous envoyons la lettre officielle dès qu'elle arrive"]},{"day":"Jour 2–3","title":"Compte bancaire d'entreprise","items":["Nous préparons la demande avec toute la documentation","Nous la soumettons à la banque recommandée selon votre profil","Suivi jusqu'à approbation","Cartes virtuelles disponibles dès le premier moment"]},{"day":"Jour 3–4","title":"Intégration opérationnelle et livraison","items":["Livraison de documentation organisée","Conseils fiscaux pour votre déclaration","Résolution des questions opérationnelles","Prêt à commencer à facturer"]}],
     whyUs: {
-      label: "POURQUOI EXENTAX",
       titlePrefix: "Pourquoi les entrepreneurs internationaux choisissent",
       desc1: "La plupart des services 'LLC aux États-Unis' vendent une démarche administrative. Nous concevons des structures fiscales internationales complètes.",
       desc2: "Notre travail ne consiste pas à enregistrer une entreprise. Il consiste à comprendre votre situation, analyser votre résidence fiscale, votre activité et votre modèle d'affaires, et à partir de là construire une structure qui a du sens et que vous pouvez maintenir dans le temps.",
@@ -1454,7 +1450,6 @@ const fr = {
     heroCta: "Réservez votre consultation",
     heroWhatsapp: "Parler sur WhatsApp",
     heroWhatsappMsg: "Bonjour, je suis intéressé par l'ouverture d'une LLC aux États-Unis et j'ai quelques questions. Pouvons-nous en parler ?",
-    whatIsLabel: "QU'EST-CE QU'UNE LLC",
     whatIsTitle: "Qu'est-ce qu'une LLC et pourquoi ça vous intéresse",
     whatIsDesc: "LLC signifie Limited Liability Company. C'est la structure d'entreprise la plus flexible et populaire aux États-Unis, surtout pour les entrepreneurs qui n'y résident pas.",
     whatItDoesTitle: "Ce qu'une LLC fait pour vous",
@@ -1462,7 +1457,6 @@ const fr = {
     whatItDoesDesc2: "Le véritable avantage est l'accès à toute l'infrastructure financière américaine : comptes bancaires en dollars, cartes physiques et virtuelles, Stripe, PayPal Business et processeurs de paiement internationaux.",
     keyBenefitsTitle: "Avantages clés",
     keyBenefits: ["Protection du patrimoine personnel contre les dettes commerciales","Optimisation fiscale légale : 0 % d'impôt fédéral sans présence physique aux USA","Compte bancaire en dollars avec Mercury ou Relay, cartes physiques et virtuelles","Accès à Stripe, PayPal Business et passerelles de paiement internationales","Crédibilité professionnelle auprès des clients et fournisseurs internationaux","Flexibilité totale : pas de conseil d'administration, pas d'actionnaires, pas de bureaucratie"],
-    whyLabel: "AVANTAGES",
     whyTitle: "Pourquoi une LLC si vous ne vivez pas aux USA",
     whyDesc: "Vous n'avez pas besoin de résider aux États-Unis, d'avoir un visa ou d'être citoyen américain. Toute personne de toute nationalité peut créer et gérer une LLC américaine en ligne.",
     benefitTaxTitle: "Optimisation fiscale",
@@ -1473,7 +1467,6 @@ const fr = {
     benefitPaymentDesc: "Stripe, PayPal Business, Wise Business et pratiquement tout processeur de paiement international. Acceptez les paiements dans n'importe quelle devise et gérez votre trésorerie sans limitations.",
     benefitProtectionTitle: "Protection patrimoniale",
     benefitProtectionDesc: "Votre LLC est une entité juridique distincte. Votre patrimoine personnel, maison, épargne, investissements, est légalement protégé contre toute contingence professionnelle.",
-    processLabel: "PROCESSUS",
     processTitle: "Processus de création",
     processDesc: "Du premier appel à votre LLC opérationnelle en moins d'un mois. Nous nous occupons de tout.",
     step1Title: "Consultation stratégique",
@@ -1484,7 +1477,6 @@ const fr = {
     step3Desc: "Nous déposons les Articles of Organization, obtenons votre EIN auprès de l'IRS, activons votre Registered Agent et coordonnons l'ouverture de votre compte bancaire Mercury.",
     step4Title: "Opérationnel en quelques jours",
     step4Desc: "LLC créée en 2-4 jours ouvrables. Ensuite, nous coordonnons votre EIN, compte Mercury avec cartes et votre passerelle de paiement. Totalement opérationnel en 2-4 semaines.",
-    complianceLabel: "CONFORMITÉ",
     complianceTitle: "Obligations annuelles de votre LLC",
     complianceDesc: "Avoir une LLC implique un entretien annuel simple. Nous nous occupons de tout pour que votre entreprise soit toujours en règle.",
     complianceNote: "Avec notre <strong>service de maintenance</strong>, nous gérons toutes ces obligations pour vous. Nous vous informons de chaque échéance et déposons la documentation en votre nom.",
@@ -1494,7 +1486,6 @@ const fr = {
     obligation2Desc: "Requis au Wyoming et au Delaware. Le Nouveau-Mexique ne l'exige pas. Nous le déposons à temps pour maintenir le bon statut de votre LLC.",
     obligation3Title: "Renouvellement du Registered Agent",
     obligation3Desc: "Votre LLC a besoin d'un Registered Agent actif en permanence. Notre service inclut le renouvellement annuel automatique.",
-    statesLabel: "ÉTATS",
     statesTitle: "États populaires pour votre LLC",
     statesDesc: "Tous les états ne se valent pas. Chacun a ses avantages selon votre profil et vos objectifs. Nous vous aidons à choisir le bon.",
     mostPopular: "Le plus populaire",

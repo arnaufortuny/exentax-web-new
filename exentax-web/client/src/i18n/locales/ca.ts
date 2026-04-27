@@ -1251,7 +1251,6 @@ const ca = {
       waText: "Hola. He vist els vostres plans i vull entendre quin encaixa millor amb la meva situació fiscal. Podem parlar?",
     },
     services: {
-      label: "ELS NOSTRES SERVEIS",
       h2: "Serveis inclosos en cada pla",
       p1: "Cada opció inclou tot el necessari per constituir i posar en marxa la teva LLC correctament.",
       p2: "Ens encarreguem de la constitució, la documentació oficial i els tràmits necessaris perquè la teva empresa quedi operativa des del primer dia.",
@@ -1331,7 +1330,6 @@ const ca = {
       }
     },
     maintenance: {
-      label: "COMPLIANCE ANUAL",
       h2: "Manteniment anual",
       taglineGreen: "La teva LLC sempre en regla, sense haver de preocupar-te per res",
       p1: "Crear una LLC és només el primer pas. Cada any hi ha obligacions que s'han de presentar correctament davant l'IRS i, en alguns casos, davant l'estat on està registrada l'empresa.",
@@ -1363,7 +1361,6 @@ const ca = {
       }
     },
     faq: {
-      label: "PREGUNTES FREQÜENTS",
       h2: "Preguntes freqüents sobre els plans",
       p: "Abans de constituir una LLC és normal tenir algunes preguntes sobre el procés, els costos i el manteniment. Aquí resolem les més habituals.",
       btnVerTodas: "Veure totes les preguntes →",
@@ -1575,7 +1572,6 @@ const ca = {
     },
     days: [{"day":"Dia 1","title":"Constitució legal de la LLC","items":["Preparem i presentem els Articles of Organization","Gestionem taxes oficials i agent registrat","Reps el teu Certificate of Organization"]},{"day":"Dia 1–2","title":"EIN i documentació fiscal","items":["Sol·licitem el teu EIN davant l'IRS","És l'identificador fiscal de la teva empresa i el necessites per operar","T'enviem la carta oficial quan arriba"]},{"day":"Dia 2–3","title":"Compte bancari corporatiu","items":["Preparem la sol·licitud amb tota la documentació","La presentem al banc recomanat segons el teu perfil","Seguiment fins a l'aprovació","Targetes virtuals disponibles des del primer moment"]},{"day":"Dia 3–4","title":"Integració operativa i lliurament","items":["Lliurament de documentació organitzada","Indicacions fiscals per a la teva declaració","Resolució de dubtes operatius","Preparat per començar a facturar"]}],
     whyUs: {
-      label: "PER QUÈ EXENTAX",
       titlePrefix: "Per què els emprenedors internacionals trien",
       desc1: "La majoria de serveis de \"LLC als EUA\" venen un tràmit. Nosaltres dissenyem estructures fiscals internacionals completes.",
       desc2: "El nostre treball no consisteix a registrar una empresa. Consisteix a entendre la teva situació, analitzar la teva residència fiscal, la teva activitat i el teu model de negoci, i a partir d'aquí construir una estructura que tingui sentit i que puguis sostenir en el temps.",
@@ -1602,7 +1598,6 @@ const ca = {
     heroCta: "Agenda la teva assessoria",
     heroWhatsapp: "Parlar per WhatsApp",
     heroWhatsappMsg: "Hola, tinc interès en obrir una LLC als EUA i tinc alguns dubtes. Podem parlar?",
-    whatIsLabel: "QUÈ ÉS UNA LLC",
     whatIsTitle: "Què és una LLC i per què t'interessa",
     whatIsDesc: "LLC vol dir Limited Liability Company. És l'estructura empresarial més flexible i popular dels Estats Units, especialment per a emprenedors que no hi resideixen.",
     whatItDoesTitle: "El que una LLC fa per tu",
@@ -1610,7 +1605,6 @@ const ca = {
     whatItDoesDesc2: "El veritable avantatge és l'accés a tota la infraestructura financera dels EUA: comptes en dòlars, targetes físiques i virtuals, Stripe, PayPal Business i processadors de pagament internacionals.",
     keyBenefitsTitle: "Beneficis clau",
     keyBenefits: ["Protecció del patrimoni personal davant deutes del negoci","Optimització fiscal legal: 0% d'impost federal sense presència física als EUA","Compte bancari en dòlars amb Mercury o Relay, amb targetes físiques i virtuals","Accés a Stripe, PayPal Business i passarel·les de pagament internacionals","Credibilitat professional davant clients i proveïdors internacionals","Flexibilitat total: sense junta directiva, sense accionistes, sense burocràcia"],
-    whyLabel: "AVANTATGES",
     whyTitle: "Per què una LLC si no vius als EUA",
     whyDesc: "No necessites residir als Estats Units, ni tenir visa, ni ser ciutadà americà. Qualsevol persona de qualsevol nacionalitat pot constituir i operar una LLC americana de forma 100% online.",
     benefitTaxTitle: "Optimització fiscal",
@@ -1621,7 +1615,6 @@ const ca = {
     benefitPaymentDesc: "Stripe, PayPal Business, Wise Business i pràcticament qualsevol processador de pagaments internacional. Cobra en qualsevol moneda i gestiona el teu flux de caixa sense limitacions.",
     benefitProtectionTitle: "Protecció patrimonial",
     benefitProtectionDesc: "La teva LLC és una entitat legal separada. El teu patrimoni personal, casa, estalvis, inversions, està legalment protegit davant de qualsevol contingència professional.",
-    processLabel: "PROCÉS",
     processTitle: "Procés de constitució",
     processDesc: "De la primera trucada a la teva LLC operativa en menys d'un mes. Ens encarreguem de tot.",
     step1Title: "Assessoria estratègica",
@@ -1632,7 +1625,6 @@ const ca = {
     step3Desc: "Presentem els Articles of Organization, obtenim el teu EIN davant l'IRS, activem el teu Registered Agent i coordinem l'obertura del teu compte Mercury.",
     step4Title: "Operatiu en dies",
     step4Desc: "LLC constituïda en 2-4 dies hàbils. Després, coordinem EIN, compte Mercury amb targetes i la teva passarel·la de pagament. Completament operatiu en 2-4 setmanes.",
-    complianceLabel: "COMPLIANCE",
     complianceTitle: "Obligacions anuals de la teva LLC",
     complianceDesc: "Tenir una LLC implica un manteniment anual senzill. Ens encarreguem de tot perquè la teva empresa estigui sempre en regla.",
     complianceNote: "Amb el nostre <strong>servei de manteniment</strong> ens encarreguem de totes aquestes obligacions per tu. T'avisem de cada termini i presentem la documentació en nom teu.",
@@ -1642,7 +1634,6 @@ const ca = {
     obligation2Desc: "Requerit a Wyoming i Delaware. Nou Mèxic no l'exigeix. L'hi presentem a temps perquè la teva LLC mantingui el bon estat.",
     obligation3Title: "Renovació de Registered Agent",
     obligation3Desc: "La teva LLC necessita un Registered Agent actiu en tot moment. El nostre servei inclou la renovació anual automàtica.",
-    statesLabel: "ESTATS",
     statesTitle: "Estats populars per a la teva LLC",
     statesDesc: "No tots els estats són iguals. Cada un té els seus avantatges segons el teu perfil i objectius. T'ajudem a triar el correcte.",
     mostPopular: "Més popular",
