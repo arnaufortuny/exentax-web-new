@@ -102,10 +102,12 @@ positivos (data-testids ya presentes, claves i18n ya declaradas en
 ## Lighthouse — gates de performance
 
 El workflow `.github/workflows/lighthouse.yml` corre **dos presets** sobre
-**9 URLs** (home ES/EN, blog index, calculadora, y las 5 subpáginas de
+**15 URLs** (home ES/EN, blog index, calculadora, las 5 subpáginas de
 servicios en `/es`: `llc-nuevo-mexico`, `llc-wyoming`, `llc-delaware`,
-`llc-florida`, `obten-tu-itin`) y la mediana de 3 runs debe pasar ambos
-para mergear a `main`.
+`llc-florida`, `obten-tu-itin`, y sus 5 equivalentes en `/en`:
+`llc-new-mexico`, `llc-wyoming`, `llc-delaware`, `llc-florida`,
+`get-your-itin`) y la mediana de 3 runs debe pasar ambos para mergear a
+`main`.
 
 | Preset | Config | LCP | CLS | INP | Performance | TBT |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -115,11 +117,26 @@ para mergear a `main`.
 **Cobertura de servicios (Task #22, 2026-04-26):** las 5 subpáginas de
 servicios son rutas de aterrizaje SEO importantes; antes de Task #22 sólo
 se auditaban `/es`, `/en`, `/es/blog` y `/es/calculadora`, así que LCP/CLS
-podían regresionar en `/es/servicios/*` sin que CI lo detectara. Se añade
-sólo el set `/es` (no `/en` ni el resto de idiomas) porque el HTML SSR es
-estructuralmente equivalente entre idiomas: el bundle, las imágenes hero y
-los scripts diferidos son los mismos, así que cualquier regresión real se
-captura igualmente con un único locale.
+podían regresionar en `/es/servicios/*` sin que CI lo detectara. En aquel
+momento se cubrió sólo el set `/es` porque el HTML SSR es estructuralmente
+equivalente entre idiomas: el bundle, las imágenes hero y los scripts
+diferidos son los mismos.
+
+**Extensión a /en (Task #28, 2026-04-27):** una vez que el gate /es llevaba
+~2 semanas verde en `main`, se añadieron también las 5 subpáginas de
+servicios en `/en` (`llc-new-mexico`, `llc-wyoming`, `llc-delaware`,
+`llc-florida`, `get-your-itin`), totalizando 15 URLs por preset. El
+razonamiento de Task #22 (HTML SSR equivalente entre idiomas) sigue siendo
+válido para el 99% de regresiones, pero `/en/services/*` son las rutas SEO
+de aterrizaje principales para el mercado US/UK y conviene cubrirlas
+explícitamente para detectar regresiones específicas de copy en inglés
+(p.ej. un `<h1>` más largo que dispara LCP) o scripts cargados sólo para
+visitantes en inglés (chat, A/B test, ad pixel) que no aparecerían en el
+locale `/es`. Se mantiene `numberOfRuns: 3` en ambos configs porque el
+salto de 9 → 15 URLs deja el job todavía cómodamente por debajo del techo
+de ~8 min observado tras Task #22; si el tiempo se acerca al límite, la
+contingencia documentada en la cabecera del workflow es bajar a 2 runs
+antes de fragmentar el job en matrix.
 
 **Estructura del job:** se mantiene un único job que ejecuta los dos
 presets en serie (`lhci_desktop` → `lhci_mobile`) en el mismo runner,
