@@ -188,18 +188,4 @@ Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">p�
 <!-- /exentax:cta-conv-v1 -->
 
 Reserva una consulta gratuïta de 30 minuts: revisem el teu cas real i et diem què té sentit. <a href="/ca/agendar">Reservar consulta gratuïta</a>.
-<!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisió editorial pendent</strong> — Les referències següents requereixen verificació manual contra la font oficial vigent. Si detectes una desviació, escriu-nos i ho corregim en menys de 24 hores.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">5%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…| Pagos internacionales grandes | | Wise | 1-2 días | 0.4-1.5% | Pagos internacionales fre…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…envío + comisión bancos intermediarios + spread de cambio (~1%-3%). Llega en 1-5 días hábi…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">3%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…ío + comisión bancos intermediarios + spread de cambio (~1%-3%). Llega en 1-5 días hábiles…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">4%</span> <span class="opacity-70">(xifra)</span> <span class="text-xs italic">— «…FX), draw a personal vía Wise USD → IBAN EUR (3-5 días, ~0.4% spread). Esto minimiza coste…»</span> <strong>[NO VERIFICAT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(referència legal)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — font suggerida: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
-`;
+<!-- /exentax:cta-v1 -->`;

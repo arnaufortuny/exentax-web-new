@@ -2,9 +2,11 @@
 
 Web pública de Exentax: landing, blog multilingüe, sistema de reservas de asesoría con Google Meet, calculadora fiscal, newsletter, páginas legales y operación admin íntegramente vía bot de Discord. Aplicación full-stack en un único proceso Node que sirve frontend (SPA React) y backend (API Express) con SEO multiidioma server-side.
 
-> **Estado (2026-04-26):** Production-ready. `tsc --noEmit` EXIT 0 · `lint:typography` 0 violaciones · `lint:brand-casing` clean · `lint:pt-pt` 0 brasileñismos · `seo:slash` clean · `test:redirects` 9/9 · `test:geo` 12/12 · `blog:validate-all` 10/11 OK (1 paso `sources` con egress sandbox-blocked: 33/33 estructuralmente OK, ver §"Bugs y limitaciones conocidas"). Stack actual en [`docs/internal/STACK.md`](docs/internal/STACK.md). Para agentes automatizados: leer [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md) antes de cualquier sesión.
+> **Estado (2026-04-27):** Production-ready en código. Sprint final cerrado. Ver [`PRODUCTION-STATUS.md`](PRODUCTION-STATUS.md), [`PENDING-FINAL.md`](PENDING-FINAL.md), [`WHAT-NOT-TO-TOUCH.md`](WHAT-NOT-TO-TOUCH.md), [`PRODUCTION-CHECKLIST.md`](PRODUCTION-CHECKLIST.md), [`CIERRE-PROYECTO-FINAL.md`](CIERRE-PROYECTO-FINAL.md). Masterplan conversión blog: [`CONVERSION-MASTERPLAN-REPORT.md`](CONVERSION-MASTERPLAN-REPORT.md) (Task #6).
 >
-> **Pendientes operativos:** ver [`docs/internal/PENDING.md`](docs/internal/PENDING.md) para la lista priorizada (alta/media/baja) y [`docs/internal/SOURCES-VERIFIED.md`](docs/internal/SOURCES-VERIFIED.md) para el panel de fuentes oficiales. Editorial pendiente: reescritura `cuanto-cuesta-constituir-llc.ts` ES (~3000 palabras estructura conversión) + 5 traducciones nativas adaptadas a regulador local (HMRC/URSSAF/Finanzamt/AT/ATC).
+> **Baselines verdes hoy** (`docs/internal/BASELINE-CIERRE.md`): TS strict EXIT 0 · `blog:validate-all` 15/15 (incluye `official-source-coverage` + `conversion-strict`) · seo:check + seo:meta + seo:slash clean · test:redirects 9/9 · test:geo 12/12 · typography/brand/pt-pt 0 violaciones.
+>
+> **Repo a npm workspaces** (Task #34) — un solo `npm install` en root instala todo. **Stack actual**: [`docs/internal/STACK.md`](docs/internal/STACK.md) · **Reglas para agentes**: [`docs/internal/AGENT-RULES.md`](docs/internal/AGENT-RULES.md).
 
 ---
 
@@ -107,7 +109,7 @@ docs/
 
 (en raíz, históricos no movidos por anclajes vivos)
 README.md, CHANGELOG.md, replit.md
-REWRITE-COMPLETE-REPORT.md       ← log batches editoriales blog (referenciado desde PENDING.md y LOG-BATCH-1.md)
+docs/audits/historical/REWRITE-COMPLETE-REPORT.md   ← log batches editoriales blog
 SECURITY-FIELDS-AUDIT.md, EMAIL-TEMPLATES-AUDIT.md, TRANSLATION-QUALITY-REPORT.md
 ```
 

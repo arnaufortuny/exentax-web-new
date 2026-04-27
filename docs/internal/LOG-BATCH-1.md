@@ -124,4 +124,4 @@ Audit masterpiece: 672 artículos, score medio **99,4/100**.
 
 - Counter local de palabras debe usar regex `/<[a-zA-Z\/!][^>]*>/g` (no `/<[^>]+>/g`) para no consumir desde `< 25 %` literal hasta el siguiente `>` real, lo que da subconteos de hasta 500 palabras menos.
 - Todas las inserciones de bloques locales se hicieron con anchor explícito en el ## de cada idioma para mantener idempotencia.
-- Nadie de los 5 slugs estaba en la lista priorizada de "ratio < 0,85" de `PENDING.md §0` ni en la sub-lista de `REWRITE-COMPLETE-REPORT.md §6.1`; este lote forma parte del barrido sistemático de los 112 slugs (672 .ts) descrito en el goal del proyecto, no de la lista de fallos puntuales heredados.
+- Nadie de los 5 slugs estaba en la lista priorizada de "ratio < 0,85" de `PENDING.md §0` ni en la sub-lista de `docs/audits/historical/REWRITE-COMPLETE-REPORT.md §6.1`; este lote forma parte del barrido sistemático de los 112 slugs (672 .ts) descrito en el goal del proyecto, no de la lista de fallos puntuales heredados.

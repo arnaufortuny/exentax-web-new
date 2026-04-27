@@ -116,23 +116,4 @@ Para detalles concretos por estado, repasa nuestra <a href="/es/servicios/llc-wy
 
 <!-- exentax:cta-v1 -->
 Reserva una consulta gratuita de 30 minutos: revisamos tu caso real y te decimos qué tiene sentido. <a href="/es/agendar">Agendar consulta gratuita</a>.
-<!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Revisión editorial pendiente</strong> — Las siguientes referencias requieren verificación manual contra la fuente oficial vigente. Si encuentras una desviación, escríbenos y la corregimos en menos de 24 horas.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ón directa, en su variante simplificada (rendimientos hasta 600.000 euros) o normal (por e…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…siones. La simplificada permite una deducción adicional del 5% del rendimiento neto positi…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…de gastos de difícil justificación, con un máximo anual de 2.000 euros. Es lo que usan más…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…con un máximo anual de 2.000 euros. Es lo que usan más del 90% de los autónomos profesiona…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">250.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…excluido si tu volumen de rendimientos íntegros supera los 250.000 euros anuales (150.000 …»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">150.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…de rendimientos íntegros supera los 250.000 euros anuales (150.000 en agricultura, ganader…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…guno de los dos te encaja: alternativas Si tu actividad es 100% digital, internacional y c…»</span> <strong>[NO VERIFICADO]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ETA, modelos trimestrales y un IRPF progresivo que llega al 47%. Una &lt;a href=&quot;/es/blog/llc…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">40.000</span> <span class="opacity-70">(cifra)</span> <span class="text-xs italic">— «…ñol puro para perfiles digitales con facturación superior a 40.000 euros anuales. La regul…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">RD 439/2007</span> <span class="opacity-70">(referencia legal)</span> <span class="text-xs italic">— «…s. La regulación detallada está en el Reglamento del IRPF (RD 439/2007) y en la Orden anua…»</span> <strong>[REVISIÓN MANUAL — fuente sugerida: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
-`;
+<!-- /exentax:cta-v1 -->`;

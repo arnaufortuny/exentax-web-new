@@ -87,23 +87,4 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
-<!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">600.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ón directa, en su variante simplificada (rendimientos hasta 600.000 euros) o normal (por e…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…siones. La simplificada permite una deducción adicional del 5% del rendimiento neto positi…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">2.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…de gastos de difícil justificación, con un máximo anual de 2.000 euros. Es lo que usan más…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">90%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…con un máximo anual de 2.000 euros. Es lo que usan más del 90% de los autónomos profesiona…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">250.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…excluido si tu volumen de rendimientos íntegros supera los 250.000 euros anuales (150.000 …»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">150.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…de rendimientos íntegros supera los 250.000 euros anuales (150.000 en agricultura, ganader…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">100%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…guno de los dos te encaja: alternativas Si tu actividad es 100% digital, internacional y c…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">47%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ETA, modelos trimestrales y un IRPF progresivo que llega al 47%. Una &lt;a href=&quot;/es/blog/llc…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">40.000</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ñol puro para perfiles digitales con facturación superior a 40.000 euros anuales. La regul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://sede.agenciatributaria.gob.es" rel="nofollow noopener" target="_blank">sede.agenciatributaria.gob.es</a>]</strong></li>
-<li><span class="font-mono">RD 439/2007</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…s. La regulación detallada está en el Reglamento del IRPF (RD 439/2007) y en la Orden anua…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.boe.es" rel="nofollow noopener" target="_blank">www.boe.es</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
-`;
+<!-- /exentax:cta-v1 -->`;

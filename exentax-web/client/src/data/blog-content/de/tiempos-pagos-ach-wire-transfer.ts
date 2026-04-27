@@ -193,18 +193,4 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 <!-- /exentax:cta-conv-v1 -->
 
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
-<!-- /exentax:cta-v1 -->
-
-<!-- exentax:review-anchor-v1 -->
-<aside data-testid="review-anchor" class="text-xs text-muted-foreground border-t pt-4 mt-8">
-<p><strong>Redaktionelle Überprüfung ausstehend</strong> — Die folgenden Verweise erfordern eine manuelle Prüfung anhand der offiziellen aktuellen Quelle. Wenn Sie eine Abweichung feststellen, schreiben Sie der Redaktion — wir korrigieren innerhalb von 24 Stunden.</p>
-<ul class="list-disc pl-5 space-y-1">
-<li><span class="font-mono">5%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…| Pagos internacionales grandes | | Wise | 1-2 días | 0.4-1.5% | Pagos internacionales fre…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">1%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…envío + comisión bancos intermediarios + spread de cambio (~1%-3%). Llega en 1-5 días hábi…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">3%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…ío + comisión bancos intermediarios + spread de cambio (~1%-3%). Llega en 1-5 días hábiles…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">4%</span> <span class="opacity-70">(Kennzahl)</span> <span class="text-xs italic">— «…FX), draw a personal vía Wise USD → IBAN EUR (3-5 días, ~0.4% spread). Esto minimiza coste…»</span> <strong>[NICHT VERIFIZIERT]</strong></li>
-<li><span class="font-mono">IRC §1471</span> <span class="opacity-70">(Rechtsverweis)</span> <span class="text-xs italic">— «…eneficial Ownership Information Report). - **FATCA y CRS.** IRC §1471-1474 (FATCA y formul…»</span> <strong>[REVISIÓN MANUAL — vorgeschlagene Quelle: <a href="https://www.irs.gov" rel="nofollow noopener" target="_blank">www.irs.gov</a>]</strong></li>
-</ul>
-</aside>
-<!-- /exentax:review-anchor-v1 -->
-`;
+<!-- /exentax:cta-v1 -->`;
