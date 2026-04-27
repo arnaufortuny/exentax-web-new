@@ -275,10 +275,11 @@ async function fetchOne(path) {
       allHreflangs.push(h);
     }
     const canonicalFromHeader = headerLinks.canonical;
-    // Prefer header canonical (always present in dev + prod). Fall back to
-    // body canonical so the field stays populated even if the header is
-    // unexpectedly absent.
-    const canonicalHref = canonicalFromHeader || canonicalFromBody;
+    // Prefer body canonical: `injectMeta` runs in both dev and prod
+    // pipelines and rewrites the prerendered HTML, so the body is what
+    // crawlers actually see. Fall back to the header so the field stays
+    // populated even if a future refactor temporarily moves emission.
+    const canonicalHref = canonicalFromBody || canonicalFromHeader;
     return {
       path, status, location, xrobots, link,
       canonicalFromHeader, canonicalFromBody, canonicalHref,
@@ -459,33 +460,32 @@ async function main() {
   // pages (17 route keys × 6 langs). For every canonical URL we crawled, we
   // re-derive the expected `(hreflang, href)` set from `ROUTE_SLUGS`+
   // `HREFLANG_BCP47` and compare it against what the server *actually*
-  // returned (header-first, body fallback for dev/prod parity — see comment
-  // block below for details).
+  // returned in the prerendered HTML — i.e. exactly what Googlebot sees.
+  //
+  // Both the dev middleware (`server/vite.ts` calls `injectMeta`) and the
+  // production HTML pipeline (`server/static.ts::injectMeta`) inject the
+  // same canonical and per-locale alternates into the `<head>`, so we treat
+  // the body as the primary signal in both environments. The HTTP `Link`
+  // header is still emitted (and asserted as a redundant cross-check), but
+  // the body is what users and crawlers consume.
   const allHreflangChecks = [];
   for (let i = 0; i < canonical.length; i++) {
     const { key, lang, path } = canonical[i];
     const r = canonicalCrawl[i];
     if (!r) continue;
     const expectedCanonical = `${SITE_URL}${path}`;
-    const canonicalOk = r.canonicalFromHeader === expectedCanonical;
+    const canonicalOk = r.canonicalFromBody === expectedCanonical;
     const expected = expectedHreflangsFor(key);
     const expectedAltMap = new Map(expected.filter(h => h.hreflang !== "x-default").map(h => [h.hreflang, h.href]));
     const expectedXDefaultHref = expected.find(h => h.hreflang === "x-default").href;
 
-    // Build a {hreflang -> href} map from what the server actually served.
-    // The HTTP `Link` header is the authoritative signal in both dev (where
-    // the dev middleware emits the full set) and prod (where `injectMeta`
-    // emits the same values). The HTML body in dev still contains
-    // placeholder `<link rel="alternate">` tags pointing at the homepage —
-    // these are pre-rendered into `index.html` and rewritten by `SEO.tsx`
-    // after hydration. In production, `injectMeta` strips them before
-    // injecting the real ones (`HREFLANG_STRIP_RE`). So we only consider
-    // body alternates when no header alternate exists for that hreflang
-    // code, which gives the audit dev/prod parity without trusting stale
-    // pre-hydration placeholders.
+    // Body is authoritative (dev/prod parity now that `injectMeta` runs in
+    // both pipelines). We still merge in any header-only alternates as a
+    // fallback so the assertion stays intact even if a future refactor
+    // moves the SEO emission temporarily back into headers.
     const actualMap = new Map();
-    for (const h of r.hreflangsFromHeader || []) actualMap.set(h.hreflang, h.href);
-    for (const h of r.hreflangsFromBody || []) {
+    for (const h of r.hreflangsFromBody || []) actualMap.set(h.hreflang, h.href);
+    for (const h of r.hreflangsFromHeader || []) {
       if (!actualMap.has(h.hreflang)) actualMap.set(h.hreflang, h.href);
     }
     const actualXDefaultHref = actualMap.get("x-default") || "";
@@ -500,7 +500,7 @@ async function main() {
       key, lang, path,
       status: r.status,
       canonicalOk,
-      canonicalHref: r.canonicalFromHeader,
+      canonicalHref: r.canonicalFromBody,
       hreflangCount: actualAltCount,
       hasXDefault: actualMap.has("x-default"),
       xDefaultOk: actualXDefaultHref === expectedXDefaultHref,
@@ -525,10 +525,11 @@ async function main() {
     const c = canonical[i];
     const r = canonicalCrawl[i];
     if (!r || r.status !== 200) continue;
-    // Only check header-emitted alternates: the dev middleware (and prod
-    // `injectMeta`) is the authoritative source. Body placeholders in dev
-    // would create false positives (they all point at the homepage URL).
-    for (const h of r.hreflangsFromHeader || []) {
+    // Body alternates are the authoritative signal in both dev and prod
+    // (`injectMeta` runs in both pipelines and strips any pre-hydration
+    // placeholder hreflangs before injecting the real ones via
+    // `HREFLANG_STRIP_RE`). This is what crawlers actually consume.
+    for (const h of r.hreflangsFromBody || []) {
       // x-default is allowed to mirror an alternate; we check it separately
       // in the spot-check block above.
       if (h.hreflang === "x-default") continue;
@@ -540,13 +541,15 @@ async function main() {
 
   // Sample blog post hreflang check.
   //
-  // The dev middleware deliberately skips alternates for blog posts (their
-  // hreflang URL set varies per-post via BLOG_SLUG_I18N and per-language
-  // availability). Production `injectMeta` injects them into the prerendered
-  // HTML using the same data; here we verify the *expected* tag set against
-  // the data layer that `injectMeta` consumes, then surface the real
-  // observation count from `r.hreflangs` so the report makes the dev/prod
-  // gap explicit.
+  // Blog post hreflang sets are data-driven by BLOG_SLUG_I18N and vary
+  // per-post (some langs don't have a translation). Both the dev pipeline
+  // (`server/vite.ts` calling `injectMeta`) and the production HTML pipeline
+  // (`server/static.ts::injectMeta`) inject the per-post hreflang set into
+  // the prerendered HTML using the same data layer; we verify the *expected*
+  // tag set against that data and compare it to what the body actually
+  // shipped. The dev `Link` header deliberately skips per-post alternates
+  // (the dev middleware notes this in `server/routes.ts`) — body is the
+  // authoritative signal.
   const sampleBlogSlug = blogEsSlugs[0];
   const blogSampleSpotchecks = [];
   for (const lang of LANGS) {
@@ -561,18 +564,18 @@ async function main() {
       .filter(l => blogAvail[l].has(sampleBlogSlug))
       .map(l => ({ hreflang: HREFLANG_BCP47[l], href: `${SITE_URL}/${l}/blog/${getBlogTranslatedSlug(sampleBlogSlug, l, slugMap)}` }));
     const expectedXDefault = `${SITE_URL}/es/blog/${sampleBlogSlug}`;
-    // Same dev/prod parity rule: header is authoritative; body alternates
-    // are only consulted when the header lacks a hreflang code.
+    // Body is authoritative now that `injectMeta` runs in both pipelines.
+    // Header alternates are consulted only as a redundancy fallback.
     const actualMap = new Map();
-    for (const h of r.hreflangsFromHeader || []) actualMap.set(h.hreflang, h.href);
-    for (const h of r.hreflangsFromBody || []) {
+    for (const h of r.hreflangsFromBody || []) actualMap.set(h.hreflang, h.href);
+    for (const h of r.hreflangsFromHeader || []) {
       if (!actualMap.has(h.hreflang)) actualMap.set(h.hreflang, h.href);
     }
     blogSampleSpotchecks.push({
       esSlug: sampleBlogSlug, lang, path,
       status: r.status,
-      canonicalOk: r.canonicalFromHeader === expectedCanonical,
-      canonicalHref: r.canonicalFromHeader,
+      canonicalOk: r.canonicalFromBody === expectedCanonical,
+      canonicalHref: r.canonicalFromBody,
       expectedHreflangCount: expectedHreflangs.length,
       observedHreflangCount: [...actualMap.keys()].filter(k => k !== "x-default").length,
       hasXDefault: actualMap.has("x-default"),
@@ -731,10 +734,10 @@ async function main() {
   for (const r of reciprocityIssues) {
     issues.push({ severity: "BLOCKER", area: "hreflang-reciprocity", path: r.from, detail: `alternate hreflang="${r.hreflang}" → ${r.href} is not in the canonical inventory` });
   }
-  // Blog spot-check: header carries canonical only (alternates are injected
-  // into the prerendered HTML in production by `injectMeta`). Treat missing
-  // observed alternates as INFO when running against dev; flag any genuine
-  // canonical drift as BLOCKER.
+  // Blog spot-check: canonical and alternates are now injected into the
+  // prerendered HTML in both dev (`server/vite.ts`) and prod
+  // (`server/static.ts::injectMeta`) — body is the authoritative signal.
+  // Flag any canonical drift as BLOCKER.
   for (const s of blogSampleSpotchecks) {
     if (!s.canonicalOk) issues.push({ severity: "BLOCKER", area: "blog-canonical-href", path: s.path, detail: `expected ${SITE_URL}${s.path}, got ${s.canonicalHref}` });
   }
@@ -932,9 +935,9 @@ async function main() {
   // Hreflang & canonical: full sweep (all 102) + sample table.
   lines.push("## 6. `canonical` + `hreflang` por página (verificación exhaustiva 102/102)");
   lines.push("");
-  lines.push("Cada una de las 102 páginas canónicas (17 route keys × 6 idiomas) se verifica individualmente: se compara el set `(hreflang, href)` esperado (derivado de `ROUTE_SLUGS` + `HREFLANG_BCP47`) con el set realmente devuelto por el servidor (`Link` header + `<link rel=\"alternate\">` del HTML, con header como autoridad). Cualquier desviación se reporta como `BLOCKER` en la sección 9.");
+  lines.push("Cada una de las 102 páginas canónicas (17 route keys × 6 idiomas) se verifica individualmente: se compara el set `(hreflang, href)` esperado (derivado de `ROUTE_SLUGS` + `HREFLANG_BCP47`) con el set realmente devuelto por el servidor en el `<head>` del HTML (`<link rel=\"canonical\">` + `<link rel=\"alternate\">`). Cualquier desviación se reporta como `BLOCKER` en la sección 9.");
   lines.push("");
-  lines.push("> Nota técnica: el middleware de `server/routes.ts` emite `canonical` + 6 alternates + `x-default` en el header `Link` para todas las rutas indexables, replicando lo que `server/static.ts::injectMeta` hace en producción. El cliente (`client/src/components/SEO.tsx`) re-emite los mismos `<link rel=\"alternate\">` tras montar. Las columnas reflejan los valores **observados** en la respuesta.");
+  lines.push("> Nota técnica: `server/static.ts::injectMeta` se ejecuta tanto en producción (sobre el `index.html` build) como en desarrollo (`server/vite.ts` lo aplica tras `vite.transformIndexHtml`), por lo que el HTML servido en ambos entornos contiene el `canonical` y los 6 alternates + `x-default`. El header `Link` en `server/routes.ts` se mantiene como señal redundante. El cliente (`client/src/components/SEO.tsx`) re-emite los mismos `<link rel=\"alternate\">` tras montar. Las columnas reflejan los valores **observados** en la respuesta.");
   lines.push("");
   // Aggregate stats over the full 102 sweep.
   const totalChecks = allHreflangChecks.length;
@@ -996,7 +999,7 @@ async function main() {
   lines.push("");
   lines.push("### 6e. Spot-check blog post (`" + sampleBlogSlug + "`)");
   lines.push("");
-  lines.push("Para los posts de blog el `Link` header de dev solo trae el `canonical` (los alternates dependen de `BLOG_SLUG_I18N` y de la disponibilidad por idioma; el SSR de producción los inyecta vía `injectMeta`). La columna `expected count` es el set de hreflangs esperados según el data layer (input que consume `injectMeta` en producción); `observed count` es lo que realmente se vio en dev.");
+  lines.push("Para los posts de blog el set de hreflangs depende de `BLOG_SLUG_I18N` y de la disponibilidad por idioma; el `Link` header solo trae el `canonical`, pero `injectMeta` inyecta canonical + alternates dentro del `<head>` tanto en dev (`server/vite.ts`) como en prod (`server/static.ts`). La columna `expected count` es el set esperado según el data layer; `observed count` es lo que realmente se vio en el HTML.");
   lines.push("");
   lines.push("| lang | path | status | canonical OK | expected count | observed count | x-default observado | x-default OK |");
   lines.push("| --- | --- | --- | --- | --- | --- | --- | --- |");

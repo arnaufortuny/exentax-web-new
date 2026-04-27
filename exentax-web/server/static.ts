@@ -110,7 +110,7 @@ function injectMetaCached(html: string, reqPath: string): string {
   return result;
 }
 
-function injectMeta(html: string, reqPath: string): string {
+export function injectMeta(html: string, reqPath: string): string {
   const cleanPath = reqPath.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
 
   const SUPPORTED = SUPPORTED_LANGS as readonly string[] as SupportedLang[];

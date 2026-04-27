@@ -1,4 +1,4 @@
-# Auditoría de slugs y páginas — 2026-04-26
+# Auditoría de slugs y páginas — 2026-04-27
 
 Auditoría exhaustiva de las URLs canónicas, blog, redirecciones legacy, páginas `noindex`, sitemap, `canonical` y `hreflang` en los 6 idiomas (Task #25).
 
@@ -52,108 +52,108 @@ Crawl HTTP en runtime contra el server local. Cada celda indica el HTTP status; 
 
 | route key | lang | path | status | título (primeros 80 chars) |
 | --- | --- | --- | --- | --- |
-| `home` | es | `/es` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `home` | en | `/en` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `home` | fr | `/fr` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `home` | de | `/de` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `home` | pt | `/pt` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `home` | ca | `/ca` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | es | `/es/como-trabajamos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | en | `/en/how-we-work` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | fr | `/fr/comment-nous-travaillons` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | de | `/de/wie-wir-arbeiten` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | pt | `/pt/como-trabalhamos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `how_we_work` | ca | `/ca/com-treballem` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | es | `/es/servicios` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | en | `/en/services` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | fr | `/fr/services` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | de | `/de/leistungen` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | pt | `/pt/servicos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `our_services` | ca | `/ca/serveis` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | es | `/es/sobre-las-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | en | `/en/about-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | fr | `/fr/a-propos-des-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | de | `/de/uber-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | pt | `/pt/sobre-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `about_llc` | ca | `/ca/sobre-les-llc` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | es | `/es/preguntas-frecuentes` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | en | `/en/faq` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | fr | `/fr/questions-frequentes` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | de | `/de/haufige-fragen` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | pt | `/pt/perguntas-frequentes` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `faq` | ca | `/ca/preguntes-frequents` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | es | `/es/agendar` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | en | `/en/book` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | fr | `/fr/reserver` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | de | `/de/buchen` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | pt | `/pt/agendar` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `book` | ca | `/ca/agendar` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | es | `/es/abrir-llc-estados-unidos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | en | `/en/open-llc-usa` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | fr | `/fr/ouvrir-llc-etats-unis` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | de | `/de/llc-usa-eroeffnen` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | pt | `/pt/abrir-llc-eua` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `pillar_open_llc` | ca | `/ca/obrir-llc-eua` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | es | `/es/servicios/llc-nuevo-mexico` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | en | `/en/services/llc-new-mexico` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | fr | `/fr/services/llc-nouveau-mexique` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | de | `/de/leistungen/llc-new-mexico` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | pt | `/pt/servicos/llc-novo-mexico` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_nm` | ca | `/ca/serveis/llc-nou-mexic` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | es | `/es/servicios/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | en | `/en/services/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | fr | `/fr/services/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | de | `/de/leistungen/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | pt | `/pt/servicos/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_wy` | ca | `/ca/serveis/llc-wyoming` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | es | `/es/servicios/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | en | `/en/services/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | fr | `/fr/services/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | de | `/de/leistungen/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | pt | `/pt/servicos/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_de` | ca | `/ca/serveis/llc-delaware` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | es | `/es/servicios/llc-florida` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | en | `/en/services/llc-florida` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | fr | `/fr/services/llc-floride` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | de | `/de/leistungen/llc-florida` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | pt | `/pt/servicos/llc-florida` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_llc_fl` | ca | `/ca/serveis/llc-florida` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | es | `/es/servicios/obten-tu-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | en | `/en/services/get-your-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | fr | `/fr/services/obtiens-ton-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | de | `/de/leistungen/hol-deine-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | pt | `/pt/servicos/obtenha-seu-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `service_itin` | ca | `/ca/serveis/obte-el-teu-itin` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | es | `/es/legal/terminos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | en | `/en/legal/terms` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | fr | `/fr/legal/conditions` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | de | `/de/legal/agb` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | pt | `/pt/legal/termos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_terms` | ca | `/ca/legal/termes` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | es | `/es/legal/privacidad` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | en | `/en/legal/privacy` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | fr | `/fr/legal/confidentialite` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | de | `/de/legal/datenschutz` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | pt | `/pt/legal/privacidade` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_privacy` | ca | `/ca/legal/privacitat` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | es | `/es/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | en | `/en/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | fr | `/fr/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | de | `/de/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | pt | `/pt/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_cookies` | ca | `/ca/legal/cookies` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | es | `/es/legal/reembolsos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | en | `/en/legal/refunds` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | fr | `/fr/legal/remboursements` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | de | `/de/legal/erstattungen` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | pt | `/pt/legal/reembolsos` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_refunds` | ca | `/ca/legal/reemborsaments` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | es | `/es/legal/disclaimer` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | en | `/en/legal/disclaimer` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | fr | `/fr/legal/avertissement` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | de | `/de/legal/haftungsausschluss` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | pt | `/pt/legal/aviso-legal` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| `legal_disclaimer` | ca | `/ca/legal/avis-legal` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
+| `home` | es | `/es` | 200 | Paga menos impuestos legalmente con LLC en EE.UU. \| Exentax |
+| `home` | en | `/en` | 200 | Pay less taxes legally with your US LLC \| Exentax |
+| `home` | fr | `/fr` | 200 | Payez moins d'impôts avec votre LLC aux USA \| Exentax |
+| `home` | de | `/de` | 200 | Zahlen Sie legal weniger Steuern mit Ihrer US-LLC \| Exentax |
+| `home` | pt | `/pt` | 200 | Pague menos impostos com sua LLC nos EUA \| Exentax |
+| `home` | ca | `/ca` | 200 | Paga menys impostos amb la teva LLC als EUA \| Exentax |
+| `how_we_work` | es | `/es/como-trabajamos` | 200 | Cómo funciona: tu LLC lista en 4 pasos \| Exentax |
+| `how_we_work` | en | `/en/how-we-work` | 200 | How it works: your LLC ready in 4 steps \| Exentax |
+| `how_we_work` | fr | `/fr/comment-nous-travaillons` | 200 | Comment ça marche : votre LLC prête en 4 étapes \| Exentax |
+| `how_we_work` | de | `/de/wie-wir-arbeiten` | 200 | So funktioniert's: Ihre LLC in 4 Schritten \| Exentax |
+| `how_we_work` | pt | `/pt/como-trabalhamos` | 200 | Como funciona: sua LLC pronta em 4 passos \| Exentax |
+| `how_we_work` | ca | `/ca/com-treballem` | 200 | Com funciona: la teva LLC llesta en 4 passos \| Exentax |
+| `our_services` | es | `/es/servicios` | 200 | Servicios de constitución LLC en EE.UU. \| Exentax |
+| `our_services` | en | `/en/services` | 200 | US LLC formation services \| Exentax |
+| `our_services` | fr | `/fr/services` | 200 | Services de constitution de LLC aux États-Unis \| Exentax |
+| `our_services` | de | `/de/leistungen` | 200 | LLC-Gründungsservices in den USA \| Exentax |
+| `our_services` | pt | `/pt/servicos` | 200 | Serviços de constituição de LLC nos EUA \| Exentax |
+| `our_services` | ca | `/ca/serveis` | 200 | Serveis de constitució de LLC als EUA \| Exentax |
+| `about_llc` | es | `/es/sobre-las-llc` | 200 | LLC en EE.UU. para no residentes: Guía 2026 \| Exentax |
+| `about_llc` | en | `/en/about-llc` | 200 | US LLC for non-residents: Complete guide 2026 \| Exentax |
+| `about_llc` | fr | `/fr/a-propos-des-llc` | 200 | LLC aux USA pour non-résidents: Guide 2026 \| Exentax |
+| `about_llc` | de | `/de/uber-llc` | 200 | US-LLC für Nicht-Residenten: Leitfaden 2026 \| Exentax |
+| `about_llc` | pt | `/pt/sobre-llc` | 200 | LLC nos EUA para não residentes: Guia 2026 \| Exentax |
+| `about_llc` | ca | `/ca/sobre-les-llc` | 200 | LLC als EUA per a no residents: Guia 2026 \| Exentax |
+| `faq` | es | `/es/preguntas-frecuentes` | 200 | Preguntas frecuentes sobre LLC en EE.UU. \| Exentax |
+| `faq` | en | `/en/faq` | 200 | Frequently asked questions about US LLCs \| Exentax |
+| `faq` | fr | `/fr/questions-frequentes` | 200 | Questions fréquentes sur les LLC aux USA \| Exentax |
+| `faq` | de | `/de/haufige-fragen` | 200 | Häufige Fragen zu US-LLCs \| Exentax |
+| `faq` | pt | `/pt/perguntas-frequentes` | 200 | Perguntas frequentes sobre LLC nos EUA \| Exentax |
+| `faq` | ca | `/ca/preguntes-frequents` | 200 | Preguntes freqüents sobre LLC als EUA \| Exentax |
+| `book` | es | `/es/agendar` | 200 | Asesoría fiscal estratégica 30 min \| Exentax |
+| `book` | en | `/en/book` | 200 | 30-min strategic tax consultation \| Exentax |
+| `book` | fr | `/fr/reserver` | 200 | Consultation fiscale stratégique 30 min \| Exentax |
+| `book` | de | `/de/buchen` | 200 | 30-min strategische Steuerberatung \| Exentax |
+| `book` | pt | `/pt/agendar` | 200 | Consultoria fiscal estratégica 30 min \| Exentax |
+| `book` | ca | `/ca/agendar` | 200 | Assessoria fiscal estratègica 30 min \| Exentax |
+| `pillar_open_llc` | es | `/es/abrir-llc-estados-unidos` | 200 | Abrir LLC en Estados Unidos: guía paso a paso 2026 \| Exentax |
+| `pillar_open_llc` | en | `/en/open-llc-usa` | 200 | Open a US LLC in 2026: step-by-step guide for non-residents \| Exentax |
+| `pillar_open_llc` | fr | `/fr/ouvrir-llc-etats-unis` | 200 | Ouvrir une LLC aux États-Unis en 2026 : le guide pas à pas \| Exentax |
+| `pillar_open_llc` | de | `/de/llc-usa-eroeffnen` | 200 | US-LLC eröffnen 2026: Schritt-für-Schritt-Anleitung für Nicht-Residenten \| Exent |
+| `pillar_open_llc` | pt | `/pt/abrir-llc-eua` | 200 | Abrir uma LLC nos EUA: guia passo a passo 2026 \| Exentax |
+| `pillar_open_llc` | ca | `/ca/obrir-llc-eua` | 200 | Obrir una LLC als Estats Units: guia pas a pas 2026 \| Exentax |
+| `service_llc_nm` | es | `/es/servicios/llc-nuevo-mexico` | 200 | Nuevo México: 0% impuesto estatal para tu LLC \| Exentax |
+| `service_llc_nm` | en | `/en/services/llc-new-mexico` | 200 | New Mexico LLC: low-cost privacy for solo founders \| Exentax |
+| `service_llc_nm` | fr | `/fr/services/llc-nouveau-mexique` | 200 | LLC au Nouveau-Mexique : zéro paperasse annuelle \| Exentax |
+| `service_llc_nm` | de | `/de/leistungen/llc-new-mexico` | 200 | New Mexico LLC: steueroptimiert für Selbstständige \| Exentax |
+| `service_llc_nm` | pt | `/pt/servicos/llc-novo-mexico` | 200 | LLC no Novo México: estrutura enxuta e barata \| Exentax |
+| `service_llc_nm` | ca | `/ca/serveis/llc-nou-mexic` | 200 | LLC a Nou Mèxic: cost mínim i sense paperasses \| Exentax |
+| `service_llc_wy` | es | `/es/servicios/llc-wyoming` | 200 | Wyoming: blindaje patrimonial líder en EE. UU. \| Exentax |
+| `service_llc_wy` | en | `/en/services/llc-wyoming` | 200 | Wyoming LLC: gold-standard U.S. asset protection \| Exentax |
+| `service_llc_wy` | fr | `/fr/services/llc-wyoming` | 200 | LLC au Wyoming : bouclier patrimonial américain \| Exentax |
+| `service_llc_wy` | de | `/de/leistungen/llc-wyoming` | 200 | Wyoming LLC: Vermögensschutz nach US-Standard \| Exentax |
+| `service_llc_wy` | pt | `/pt/servicos/llc-wyoming` | 200 | LLC no Wyoming: blindagem patrimonial premium \| Exentax |
+| `service_llc_wy` | ca | `/ca/serveis/llc-wyoming` | 200 | LLC a Wyoming: el blindatge patrimonial dels EUA \| Exentax |
+| `service_llc_de` | es | `/es/servicios/llc-delaware` | 200 | Delaware: la LLC favorita de los inversores \| Exentax |
+| `service_llc_de` | en | `/en/services/llc-delaware` | 200 | Delaware LLC: the choice of VCs and B2B buyers \| Exentax |
+| `service_llc_de` | fr | `/fr/services/llc-delaware` | 200 | LLC au Delaware : prête pour la levée de fonds \| Exentax |
+| `service_llc_de` | de | `/de/leistungen/llc-delaware` | 200 | Delaware LLC: Rechtssicherheit für Investoren \| Exentax |
+| `service_llc_de` | pt | `/pt/servicos/llc-delaware` | 200 | LLC em Delaware: pronta para investidores e M&A \| Exentax |
+| `service_llc_de` | ca | `/ca/serveis/llc-delaware` | 200 | LLC a Delaware: pensada per aixecar capital VC \| Exentax |
+| `service_llc_fl` | es | `/es/servicios/llc-florida` | 200 | Florida LLC: tu puerta al mercado hispano de Miami \| Exentax |
+| `service_llc_fl` | en | `/en/services/llc-florida` | 200 | Florida LLC: your gateway to Miami's Latin market \| Exentax |
+| `service_llc_fl` | fr | `/fr/services/llc-floride` | 200 | LLC en Floride : accès direct au marché latino \| Exentax |
+| `service_llc_fl` | de | `/de/leistungen/llc-florida` | 200 | Florida LLC: Tor zum lateinamerikanischen Markt \| Exentax |
+| `service_llc_fl` | pt | `/pt/servicos/llc-florida` | 200 | LLC na Flórida: ponte para o mercado de Miami \| Exentax |
+| `service_llc_fl` | ca | `/ca/serveis/llc-florida` | 200 | LLC a Florida: pont català cap al mercat llatí \| Exentax |
+| `service_itin` | es | `/es/servicios/obten-tu-itin` | 200 | ITIN sin viajar a EE. UU.: lo gestionamos por ti \| Exentax |
+| `service_itin` | en | `/en/services/get-your-itin` | 200 | ITIN without leaving home: skip the IRS in person \| Exentax |
+| `service_itin` | fr | `/fr/services/obtiens-ton-itin` | 200 | ITIN sans ambassade : nous le gérons en ligne \| Exentax |
+| `service_itin` | de | `/de/leistungen/hol-deine-itin` | 200 | ITIN ohne Botschaft: alles aus einer Hand erledigt \| Exentax |
+| `service_itin` | pt | `/pt/servicos/obtenha-seu-itin` | 200 | ITIN sem viajar aos EUA: tudo gerenciado por nós \| Exentax |
+| `service_itin` | ca | `/ca/serveis/obte-el-teu-itin` | 200 | ITIN sense viatjar als EUA: ho gestionem nosaltres \| Exentax |
+| `legal_terms` | es | `/es/legal/terminos` | 200 | Términos y condiciones \| Exentax |
+| `legal_terms` | en | `/en/legal/terms` | 200 | Terms and Conditions \| Exentax |
+| `legal_terms` | fr | `/fr/legal/conditions` | 200 | Conditions générales \| Exentax |
+| `legal_terms` | de | `/de/legal/agb` | 200 | Allgemeine Geschäftsbedingungen \| Exentax |
+| `legal_terms` | pt | `/pt/legal/termos` | 200 | Termos e condições \| Exentax |
+| `legal_terms` | ca | `/ca/legal/termes` | 200 | Termes i condicions \| Exentax |
+| `legal_privacy` | es | `/es/legal/privacidad` | 200 | Política de privacidad \| Exentax |
+| `legal_privacy` | en | `/en/legal/privacy` | 200 | Privacy Policy \| Exentax |
+| `legal_privacy` | fr | `/fr/legal/confidentialite` | 200 | Politique de confidentialité \| Exentax |
+| `legal_privacy` | de | `/de/legal/datenschutz` | 200 | Datenschutzrichtlinie \| Exentax |
+| `legal_privacy` | pt | `/pt/legal/privacidade` | 200 | Política de privacidade \| Exentax |
+| `legal_privacy` | ca | `/ca/legal/privacitat` | 200 | Política de privacitat \| Exentax |
+| `legal_cookies` | es | `/es/legal/cookies` | 200 | Política de cookies \| Exentax |
+| `legal_cookies` | en | `/en/legal/cookies` | 200 | Cookie Policy \| Exentax |
+| `legal_cookies` | fr | `/fr/legal/cookies` | 200 | Politique de cookies \| Exentax |
+| `legal_cookies` | de | `/de/legal/cookies` | 200 | Cookie-Richtlinie \| Exentax |
+| `legal_cookies` | pt | `/pt/legal/cookies` | 200 | Política de cookies \| Exentax |
+| `legal_cookies` | ca | `/ca/legal/cookies` | 200 | Política de galetes \| Exentax |
+| `legal_refunds` | es | `/es/legal/reembolsos` | 200 | Política de reembolsos \| Exentax |
+| `legal_refunds` | en | `/en/legal/refunds` | 200 | Refund Policy \| Exentax |
+| `legal_refunds` | fr | `/fr/legal/remboursements` | 200 | Politique de remboursement \| Exentax |
+| `legal_refunds` | de | `/de/legal/erstattungen` | 200 | Erstattungsrichtlinie \| Exentax |
+| `legal_refunds` | pt | `/pt/legal/reembolsos` | 200 | Política de reembolso \| Exentax |
+| `legal_refunds` | ca | `/ca/legal/reemborsaments` | 200 | Política de reemborsament \| Exentax |
+| `legal_disclaimer` | es | `/es/legal/disclaimer` | 200 | Disclaimer legal y fiscal \| Exentax |
+| `legal_disclaimer` | en | `/en/legal/disclaimer` | 200 | Legal and Tax Disclaimer \| Exentax |
+| `legal_disclaimer` | fr | `/fr/legal/avertissement` | 200 | Avertissement juridique et fiscal \| Exentax |
+| `legal_disclaimer` | de | `/de/legal/haftungsausschluss` | 200 | Rechts- und Steuerhaftungsausschluss \| Exentax |
+| `legal_disclaimer` | pt | `/pt/legal/aviso-legal` | 200 | Aviso legal e fiscal \| Exentax |
+| `legal_disclaimer` | ca | `/ca/legal/avis-legal` | 200 | Avís legal i fiscal \| Exentax |
 
 ## 2. Blog: índices y 672 URLs de posts
 
@@ -161,12 +161,12 @@ Crawl HTTP en runtime contra el server local. Cada celda indica el HTTP status; 
 
 | lang | path | status | título |
 | --- | --- | --- | --- |
-| es | `/es/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| en | `/en/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| fr | `/fr/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| de | `/de/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| pt | `/pt/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
-| ca | `/ca/blog` | 200 | Constituye tu LLC en EE.UU. con asesores fiscales expertos \| Exentax |
+| es | `/es/blog` | 200 | Blog sobre LLC, impuestos y fiscalidad internacional \| Exentax |
+| en | `/en/blog` | 200 | Blog: US LLCs, international taxation & digital business \| Exentax |
+| fr | `/fr/blog` | 200 | Blog : LLC aux USA, fiscalité internationale et business digital \| Exentax |
+| de | `/de/blog` | 200 | Blog: US-LLC, internationale Besteuerung & digitales Business \| Exentax |
+| pt | `/pt/blog` | 200 | Blog: LLC nos EUA, tributação internacional e negócios digitais \| Exentax |
+| ca | `/ca/blog` | 200 | Blog: LLC als EUA, fiscalitat internacional i negoci digital \| Exentax |
 
 ### 2b. Posts publicados (672 URLs canónicas, una por traducción real)
 
@@ -252,8 +252,8 @@ Cada origen debe responder `301` con `Location` igual al destino esperado.
 
 | path | status | X-Robots-Tag | meta robots |
 | --- | --- | --- | --- |
-| `/links` | 200 | `noindex, nofollow` | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` |
-| `/start` | 200 | `noindex, nofollow` | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` |
+| `/links` | 200 | `noindex, nofollow` | `noindex, nofollow` |
+| `/start` | 200 | `noindex, nofollow` | `noindex, nofollow` |
 | `/booking/abc-123-fake-token` | 200 | `noindex, nofollow` | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` |
 | `/admin/agenda/non-existent` | 200 | `noindex, nofollow` | `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1` |
 
@@ -281,9 +281,9 @@ Cada origen debe responder `301` con `Location` igual al destino esperado.
 
 ## 6. `canonical` + `hreflang` por página (verificación exhaustiva 102/102)
 
-Cada una de las 102 páginas canónicas (17 route keys × 6 idiomas) se verifica individualmente: se compara el set `(hreflang, href)` esperado (derivado de `ROUTE_SLUGS` + `HREFLANG_BCP47`) con el set realmente devuelto por el servidor (`Link` header + `<link rel="alternate">` del HTML, con header como autoridad). Cualquier desviación se reporta como `BLOCKER` en la sección 9.
+Cada una de las 102 páginas canónicas (17 route keys × 6 idiomas) se verifica individualmente: se compara el set `(hreflang, href)` esperado (derivado de `ROUTE_SLUGS` + `HREFLANG_BCP47`) con el set realmente devuelto por el servidor en el `<head>` del HTML (`<link rel="canonical">` + `<link rel="alternate">`). Cualquier desviación se reporta como `BLOCKER` en la sección 9.
 
-> Nota técnica: el middleware de `server/routes.ts` emite `canonical` + 6 alternates + `x-default` en el header `Link` para todas las rutas indexables, replicando lo que `server/static.ts::injectMeta` hace en producción. El cliente (`client/src/components/SEO.tsx`) re-emite los mismos `<link rel="alternate">` tras montar. Las columnas reflejan los valores **observados** en la respuesta.
+> Nota técnica: `server/static.ts::injectMeta` se ejecuta tanto en producción (sobre el `index.html` build) como en desarrollo (`server/vite.ts` lo aplica tras `vite.transformIndexHtml`), por lo que el HTML servido en ambos entornos contiene el `canonical` y los 6 alternates + `x-default`. El header `Link` en `server/routes.ts` se mantiene como señal redundante. El cliente (`client/src/components/SEO.tsx`) re-emite los mismos `<link rel="alternate">` tras montar. Las columnas reflejan los valores **observados** en la respuesta.
 
 ### 6a. Resumen agregado (102 páginas)
 
@@ -367,16 +367,16 @@ Cada URL emitida como `hreflang` por una página canónica debe pertenecer al in
 
 ### 6e. Spot-check blog post (`amazon-ecommerce-llc-vender-online`)
 
-Para los posts de blog el `Link` header de dev solo trae el `canonical` (los alternates dependen de `BLOG_SLUG_I18N` y de la disponibilidad por idioma; el SSR de producción los inyecta vía `injectMeta`). La columna `expected count` es el set de hreflangs esperados según el data layer (input que consume `injectMeta` en producción); `observed count` es lo que realmente se vio en dev.
+Para los posts de blog el set de hreflangs depende de `BLOG_SLUG_I18N` y de la disponibilidad por idioma; el `Link` header solo trae el `canonical`, pero `injectMeta` inyecta canonical + alternates dentro del `<head>` tanto en dev (`server/vite.ts`) como en prod (`server/static.ts`). La columna `expected count` es el set esperado según el data layer; `observed count` es lo que realmente se vio en el HTML.
 
 | lang | path | status | canonical OK | expected count | observed count | x-default observado | x-default OK |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| es | `/es/blog/amazon-ecommerce-llc-vender-online` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
-| en | `/en/blog/selling-on-amazon-with-your-us-llc-complete-guide-for` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
-| fr | `/fr/blog/vendre-sur-amazon-avec-votre-llc-guide-complet-pour-vendeurs` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
-| de | `/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
-| pt | `/pt/blog/vender-na-amazon-com-sua-llc-americana-guia-completo` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
-| ca | `/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa` | 200 | ✓ | 6 | 6 | ✓ | ✗ |
+| es | `/es/blog/amazon-ecommerce-llc-vender-online` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
+| en | `/en/blog/selling-on-amazon-with-your-us-llc-complete-guide-for` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
+| fr | `/fr/blog/vendre-sur-amazon-avec-votre-llc-guide-complet-pour-vendeurs` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
+| de | `/de/blog/auf-amazon-verkaufen-mit-ihrer-us-llc-vollstandiger` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
+| pt | `/pt/blog/vender-na-amazon-com-sua-llc-americana-guia-completo` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
+| ca | `/ca/blog/vendre-a-amazon-amb-la-teva-llc-americana-guia-completa` | 200 | ✓ | 6 | 6 | ✓ | ✓ |
 
 ## 7. Higiene de slug por idioma
 
@@ -429,4 +429,4 @@ Cada llamada `lp("ROUTE_KEY")` (alias de `useLangPath` → `getLocalizedPath`) e
 - **Navegación**: parsea por regex las llamadas `lp("…")` (alias de `useLangPath` → `getLocalizedPath`) en `Navbar.tsx`, `NavbarFunnel.tsx` y `Footer.tsx`. Cada route key se valida contra `ALL_ROUTE_KEYS`; cada `(routeKey, lang)` se resuelve a su URL canónica vía `ROUTE_SLUGS` y se verifica que esté en el inventario canónico (sección 1) o, en el caso especial de `lp("/blog")`, en el inventario de blog index (sección 2).
 - **Higiene de slug**: validación de lowercase, sin diacríticos (`[\u00C0-\u024F\u1E00-\u1EFF]`), sin guiones bajos, sin dobles barras, sin codificación porcentual, sin colisiones intra-idioma.
 
-Reporte generado por `scripts/audit-slugs-paginas-2026-04.mjs` el 2026-04-26.
+Reporte generado por `scripts/audit-slugs-paginas-2026-04.mjs` el 2026-04-27.

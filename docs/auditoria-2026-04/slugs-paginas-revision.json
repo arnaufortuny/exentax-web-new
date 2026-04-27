@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26",
+  "generatedAt": "2026-04-27",
   "base": "http://localhost:5000",
   "verdict": {
     "canonicalPages": {
@@ -5037,13 +5037,13 @@
       "path": "/links",
       "status": 200,
       "xrobots": "noindex, nofollow",
-      "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      "robotsMeta": "noindex, nofollow"
     },
     {
       "path": "/start",
       "status": 200,
       "xrobots": "noindex, nofollow",
-      "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      "robotsMeta": "noindex, nofollow"
     },
     {
       "path": "/booking/abc-123-fake-token",
@@ -7165,7 +7165,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       },
       {
         "esSlug": "amazon-ecommerce-llc-vender-online",
@@ -7177,7 +7177,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       },
       {
         "esSlug": "amazon-ecommerce-llc-vender-online",
@@ -7189,7 +7189,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       },
       {
         "esSlug": "amazon-ecommerce-llc-vender-online",
@@ -7201,7 +7201,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       },
       {
         "esSlug": "amazon-ecommerce-llc-vender-online",
@@ -7213,7 +7213,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       },
       {
         "esSlug": "amazon-ecommerce-llc-vender-online",
@@ -7225,7 +7225,7 @@
         "expectedHreflangCount": 6,
         "observedHreflangCount": 6,
         "hasXDefault": true,
-        "xDefaultOk": false
+        "xDefaultOk": true
       }
     ]
   },

@@ -5,6 +5,7 @@ import viteConfig from "../vite.config";
 import fs from "fs";
 import path from "path";
 import { nanoid } from "nanoid";
+import { injectMeta } from "./static";
 
 const viteLogger = createLogger();
 
@@ -49,7 +50,20 @@ export async function setupVite(server: Server, app: Express) {
         `src="/src/main.tsx?v=${nanoid()}"`,
       );
       const page = await vite.transformIndexHtml(url, template);
-      res.status(200).set({ "Content-Type": "text/html" }).end(page);
+      // Mirror the production HTML pipeline (`server/static.ts::injectMeta`)
+      // so dev responses ship the same `<link rel="canonical">` and per-locale
+      // `<link rel="alternate" hreflang>` tags Googlebot sees in production.
+      // Without this, the audit script (and any local SEO debugging) would
+      // see the generic placeholder canonical baked into `client/index.html`.
+      // No caching here: `transformIndexHtml` re-injects HMR bookkeeping per
+      // request, so the input HTML is never identical and a cache would just
+      // burn memory.
+      // Use `req.originalUrl` (not `req.path`): with the catch-all
+      // `app.use("/{*path}", …)` mount, `req.path` strips the wildcard
+      // capture, but the meta lookup needs the full path Googlebot would
+      // request.
+      const injected = injectMeta(page, req.originalUrl);
+      res.status(200).set({ "Content-Type": "text/html" }).end(injected);
     } catch (e) {
       vite.ssrFixStacktrace(e as Error);
       next(e);
