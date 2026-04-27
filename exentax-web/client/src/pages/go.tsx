@@ -109,7 +109,7 @@ export default function GoPage() {
           <ExMark />
         </a>
 
-        <h1 className="font-heading !text-[20px] font-bold text-[var(--text-1)] mt-0 mb-1 text-center tracking-tight leading-tight">
+        <h1 className="font-heading !text-[18px] font-bold text-[var(--text-1)] mt-0 mb-1 text-center tracking-tight leading-tight">
           {t("links.h1Line1")}<br />{t("links.h1Line2")}
         </h1>
         <p className="font-body text-[13px] text-[var(--text-2)] mt-3 mb-6 text-center leading-relaxed px-2">
