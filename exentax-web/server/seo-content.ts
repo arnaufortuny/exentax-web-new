@@ -1632,6 +1632,16 @@ export const PAGE_SCHEMAS: Record<string, object[]> = {
       ],
       "foundingDate": "2024",
       "legalName": "Exentax LLC",
+      "slogan": "LLC en EE.UU. para no residentes — formación en 2–4 días, compliance IRS y banca Mercury/Wise/Relay.",
+      "numberOfEmployees": { "@type": "QuantitativeValue", "minValue": 5, "maxValue": 15 },
+      "founder": {
+        "@type": "Person",
+        "name": "Exentax Editorial Team",
+        "jobTitle": "International tax & US LLC compliance specialists",
+        "worksFor": { "@id": `${BASE_URL}/#organization` }
+      },
+      "knowsLanguage": ["es", "en", "fr", "de", "pt", "ca"],
+      "award": "Trustpilot 5.0/5 — 127+ verified reviews",
       "areaServed": [
         { "@type": "Country", "name": "España" },
         { "@type": "Country", "name": "Argentina" },

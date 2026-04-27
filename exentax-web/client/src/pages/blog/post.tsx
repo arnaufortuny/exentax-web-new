@@ -872,6 +872,13 @@ export default function BlogPost() {
       "@type": "Thing",
       "name": t("blogPost.seoAbout"),
     },
+    // GEO/AEO: Speakable spec lets Google Assistant + voice surfaces (and
+    // increasingly AI Overviews) read the article's headings + lead paragraph
+    // verbatim. CSS selectors target the visible H1, H2 anchors and the lead.
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", "h2", ".article-lead", "[data-speakable]"],
+    },
   };
 
   // Task #14 (GEO): a curated allow-list of procedural posts that genuinely
