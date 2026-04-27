@@ -36,7 +36,7 @@ function HeroSection() {
       <section className="relative section-padding" ref={ref}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal">
           <div className="text-center max-w-[800px] mx-auto">
-            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black mb-6">
+            <h1 className="display-wise text-black mb-6">
               {t("llcUsPage.heroTitle")}{" "}
               <span className="text-[#00E510]">
                 {t("llcUsPage.heroTitleAccent")}
@@ -89,8 +89,7 @@ function QueEsLLCSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("llcUsPage.whatIsLabel")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("llcUsPage.whatIsTitle")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
@@ -187,8 +186,7 @@ function PorQueLLCSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("llcUsPage.whyLabel")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("llcUsPage.whyTitle")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
@@ -233,8 +231,7 @@ function ProcesoSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("llcUsPage.processLabel")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("llcUsPage.processTitle")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
@@ -280,8 +277,7 @@ function ObligacionesSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("llcUsPage.complianceLabel")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("llcUsPage.complianceTitle")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
@@ -338,8 +334,7 @@ function EstadosSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("llcUsPage.statesLabel")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("llcUsPage.statesTitle")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">

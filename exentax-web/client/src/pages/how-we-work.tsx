@@ -86,10 +86,22 @@ function ProcessHero() {
         <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
           <div className="text-center max-w-[800px] mx-auto">
             <div className="reveal">
-              <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid="heading-at-hero">
+              <h1 className="display-wise text-black mb-4" data-testid="heading-at-hero">
                 {t("comoFunciona.hero.h1")}
               </h1>
-              <p className="font-heading font-bold text-2xl sm:text-4xl lg:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] mb-6 text-[#00E510]">
+              <p
+                className="font-heading mx-auto mb-7"
+                style={{
+                  fontSize: "clamp(1rem, 1.4vw, 1.35rem)",
+                  lineHeight: 1.2,
+                  fontWeight: 900,
+                  textTransform: "uppercase",
+                  letterSpacing: "-0.01em",
+                  maxWidth: 760,
+                  color: "#00E510",
+                  textWrap: "balance" as never,
+                }}
+              >
                 {t("comoFunciona.hero.h2")}
               </p>
               <p className="max-w-[680px] text-base lg:text-lg text-black/90 leading-relaxed mb-8 mx-auto">
@@ -123,7 +135,7 @@ function PhasesIntro() {
     <section className="pt-4 pb-0 bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="reveal flex flex-col gap-4 max-w-3xl">
-          <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.1] tracking-[-0.025em] text-[var(--text-1)]">
+          <h2 className="section-h2">
             {t("comoFunciona.intro.h2")}
           </h2>
           <p className="text-[var(--text-2)] text-lg leading-relaxed">
@@ -491,8 +503,7 @@ function WhyUsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="mb-14 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("comoFunciona.whyUs.label")}</span>
-          <h2 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[40px] leading-[1.12] text-[var(--text-1)] mb-6">
+          <h2 className="section-h2 mb-6">
             {t("comoFunciona.whyUs.titlePrefix")} <span className="text-[#00E510]">{BRAND.NAME}</span>
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-3">
@@ -575,7 +586,7 @@ function WhatWeDoNotSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="reveal bg-[rgba(255,107,107,0.03)] border border-[rgba(255,107,107,0.15)] rounded-[var(--radius-lg)] p-8 lg:p-12">
-          <h2 className="font-heading font-bold text-2xl lg:text-3xl text-[var(--text-1)] mb-8">{t("comoFunciona.whatWeDoNot.title")}</h2>
+          <h2 className="section-h2 mb-8">{t("comoFunciona.whatWeDoNot.title")}</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               {col1Items.map((item, i) => (

@@ -106,8 +106,7 @@ function LLCPlansSection() {
     <section className="py-24 lg:py-32 relative bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("precios.services.label")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("precios.services.h2")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-4">{t("precios.services.p1")}</p>
@@ -189,7 +188,7 @@ function ComparativaSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 reveal max-w-3xl">
-          <h2 className="font-heading font-bold text-[26px] sm:text-4xl lg:text-[36px] leading-[1.15] tracking-[-0.02em] text-[var(--text-1)] mb-4">
+          <h2 className="section-h2 mb-4">
             {t("precios.comparativa.h2")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed mb-3">{t("precios.comparativa.p1")}</p>
@@ -307,8 +306,7 @@ function MaintenanceSection() {
     <section id="mantenimiento" className="section-padding" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("precios.maintenance.label")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("precios.maintenance.h2")}
           </h2>
           <p className="font-heading font-semibold text-[clamp(20px,2vw,24px)] text-[#00E510] mb-6">
@@ -372,8 +370,7 @@ function PricingFAQSection() {
     <section className="section-padding bg-[var(--bg-0)]" ref={ref}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="mb-16 reveal max-w-3xl">
-          <span className="section-label mb-4 block">{t("precios.faq.label")}</span>
-          <h2 className="page-h2 mb-4">
+          <h2 className="section-h2 mb-4">
             {t("precios.faq.h2")}
           </h2>
           <p className="text-base lg:text-lg text-[var(--text-2)] leading-relaxed">
@@ -458,7 +455,7 @@ function PreciosCTAFinal() {
             <div className="absolute -bottom-[15%] -right-[5%] w-[380px] h-[380px] rounded-full bg-[radial-gradient(circle,rgba(107,207,155,0.05)_0%,transparent_65%)]" />
           </div>
           <div className="relative z-10 px-10 py-16 lg:px-20 lg:py-20 text-center max-w-[800px] mx-auto">
-            <h2 className="font-heading font-bold text-[clamp(32px,2.5vw,34px)] leading-[1.08] tracking-[-0.03em] text-[var(--text-1)] mb-8">
+            <h2 className="section-h2 mb-8">
               {t("precios.cta.h2")}
             </h2>
             <p className="text-[var(--text-2)] text-lg leading-relaxed mb-4 max-w-[600px] mx-auto">
