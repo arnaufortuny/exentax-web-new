@@ -29,13 +29,13 @@ La regulación detallada está en el Reglamento del IRPF (RD 439/2007) y en la O
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
-<!-- exentax:calc-cta-v1 -->
-> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
-<!-- /exentax:calc-cta-v1 -->
-
 _Para ampliar en la misma serie: [la cuota de autónomo por tramos de ingresos](/es/blog/cuota-autonomo-2026), [los gastos deducibles para autónomos](/es/blog/gastos-deducibles-autonomos-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
+
+<!-- exentax:calc-cta-v1 -->
+> <a href="/es/agendar">Consulta gratuita sin compromiso</a>
+<!-- /exentax:calc-cta-v1 -->
 
 <!-- exentax:execution-v2 -->
 ## Cómo lo resolvemos con el método Exentax
