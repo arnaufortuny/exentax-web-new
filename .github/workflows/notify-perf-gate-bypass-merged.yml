@@ -1,0 +1,74 @@
+name: Notify perf-gate bypass on merge
+
+# Disparo: cuando un PR a `main` se cierra. Solo notificamos si:
+#   - el PR fue realmente mergeado (`pull_request.merged == true`), y
+#   - el label `bypass-perf-gate` seguía aplicado al cierre.
+# Un PR cerrado sin merge, o sin el label, no consume minutos de runner
+# (la condición se evalúa a nivel de job, antes de levantar el runner).
+#
+# Por qué un workflow separado y no un step añadido a `lighthouse.yml`
+# o `quality-pipeline.yml`:
+#   - Esos workflows corren en `pull_request` con tipos por defecto
+#     (opened/synchronize/reopened); no se reactivan en `closed` ni
+#     conocen el `merge_commit_sha`.
+#   - Disparar este aviso desde `push` a main implicaría descubrir el
+#     PR a partir del SHA y mantener una segunda fuente de verdad
+#     sobre los labels al merge. Escuchar `pull_request: closed`
+#     elimina esa indirección y nos da `merged`/`labels` directos.
+#
+# Comportamiento existente preservado:
+#   - El notifier de bundle (`scripts/audit-bundle-diff-notify-discord.mjs`,
+#     Task #50) sigue disparándose en `push` a main desde
+#     `quality-pipeline.yml`. Ambos avisos coexisten: el de bundle
+#     habla de regresiones reales en main; este habla de gates
+#     bypassados intencionalmente al mergear.
+#
+# Forks: en `pull_request` desde un fork, los `secrets.*` del repo
+# privado no están expuestos. El script lo detecta (token vacío) y
+# sale 0 sin enviar nada, sin enmascarar el evento de merge.
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+# Permisos mínimos: lectura del PR para descubrir labels/eventos/comentarios
+# vía API. No necesitamos `write` porque no editamos el PR ni el repo.
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  notify:
+    name: Notify Discord on perf-gate bypass
+    if: >
+      github.event.pull_request.merged == true &&
+      contains(github.event.pull_request.labels.*.name, 'bypass-perf-gate')
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: exentax-web
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # No necesitamos `npm ci` aquí: el script solo usa el runtime
+      # de Node (fetch global) sin dependencias de userland.
+      - name: Notify Discord
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ERRORES: ${{ secrets.DISCORD_CHANNEL_ERRORES }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+        run: node scripts/notify-perf-gate-bypass-discord.mjs
