@@ -128,16 +128,27 @@ Last reviewed: 2026-04. Owner: Exentax editorial.
 
 ## Revolut Business
 
-- **What it is.** EMI (Lithuania for EU customers; **Lead Bank** as US
-  banking partner for US-LLC accounts).
-- **Account details for US LLCs.** **US account via Lead Bank.** No
-  EU IBAN is provided to a US LLC. Articles claiming Revolut Business
-  gives an IBAN to an LLC are wrong and must be corrected.
-- **CRS.** US account via Lead Bank: not CRS-reporting. EU-resident
-  individual accounts are CRS-reporting (separate product).
+- **What it is.** EMI (Revolut Bank UAB in Lithuania for EU customers;
+  **Revolut Technologies Inc.** as the US group entity, with **Lead Bank**
+  as US banking partner for US-LLC accounts).
+- **Group entities to name correctly.** Revolut Bank UAB (LT, EU bank
+  licence), Revolut Ltd (UK, EMI), Revolut Payments UAB (LT, EMI) and
+  **Revolut Technologies Inc. (US)** — the entity under which Revolut
+  Business is offered to clients with a US LLC, with Lead Bank as banking
+  partner. **"Revolut Payments USA" does not exist** — any prior mention
+  is a factual error and must be corrected to Revolut Technologies Inc.
+  with Lead Bank.
+- **Account details for US LLCs.** **US account via Lead Bank** (routing
+  + account number) under Revolut Technologies Inc. No EU IBAN is provided
+  to a US LLC. Articles claiming Revolut Business gives an IBAN to an LLC
+  are wrong and must be corrected.
+- **CRS.** US account via Lead Bank under Revolut Technologies Inc.: not
+  CRS-reporting. EU-resident individual accounts under Revolut Bank UAB
+  are CRS-reporting (separate product).
 - **Editorial rule.** Position Revolut Business as a US-account complement
-  for multi-currency operations. Never claim it gives an LLC a European
-  IBAN.
+  for multi-currency operations under Revolut Technologies Inc. + Lead
+  Bank. Never claim it gives an LLC a European IBAN, and never name a
+  non-existent "Revolut Payments USA" entity.
 
 ## Stripe
 

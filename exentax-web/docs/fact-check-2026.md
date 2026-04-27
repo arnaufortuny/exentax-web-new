@@ -54,7 +54,7 @@
   | **Relay** | Fintech | Thread Bank (FDIC) | No | No (US) | No | 20 sub-cuentas, 50 tarjetas |
   | **Wallester** | Emisor UE (Visa, Estonia) | — | **Sí (IBAN UE)** | **Sí (CRS)** | n/a | Disclosure CRS obligatoria |
   | **Wise Business** | EMI (no banco) | Wise Europe SA (BE) para EUR/multidivisa + Wise US Inc. (MSB) para USD | EUR vía IBAN belga | **Sí — vía Wise Europe SA (Bélgica)** | **Rechaza** | **Diferenciar Wise Personal (cuenta individual residente UE) vs Wise Business para LLC (cuenta de entidad, Active/Passive NFE).** Reporta CRS desde Bélgica |
-  | **Revolut Business** | EMI (LT) o **Lead Bank** (US) | Lead Bank para LLC US | **No para LLC US** | LT EU sí, US LLC vía Lead Bank no | n/a | Error crítico: Revolut da IBAN UE a una LLC |
+  | **Revolut Business** | EMI (LT) o **Lead Bank** (US) | **Revolut Technologies Inc.** + **Lead Bank** para LLC US | **No para LLC US** | LT EU sí, US LLC vía Lead Bank no | n/a | Errores críticos: Revolut da IBAN UE a una LLC; mencionar **"Revolut Payments USA"** (entidad inexistente) en lugar de **Revolut Technologies Inc.** con **Lead Bank** como banco partner |
   | **Stripe** | Procesador (no banco) | n/a | n/a | n/a | n/a | Requiere LLC + EIN + cuenta US |
   | **Payoneer** | Cross-border / EMI | — | Receiving accounts multidivisa | **Sí (CRS)** | n/a | Disclosure CRS obligatoria |
   | **IBKR** | Brokerage | — | n/a | n/a | n/a | Verificar onboarding LLC no residente 2026 |
@@ -94,6 +94,7 @@
 | `zero-tax-no-nuance` | "0% impuestos" sin matiz federal vs global | **8** |
 | `payoneer-no-crs` | Payoneer mencionado sin disclosure CRS | **2** |
 | `revolut-iban-llc` | Revolut afirmado dando IBAN UE/lituano a LLC | **2** |
+| `revolut-payments-usa-inexistente` | Mención de "Revolut Payments USA" (entidad inexistente) en lugar de **Revolut Technologies Inc.** con **Lead Bank** como banco partner para LLC US | **475** |
 | `1120-confused-wrong` | 1120 sustantivo confundido con pro-forma | **1** |
 
   ---
@@ -104,7 +105,7 @@
   |---|---|---|---|
   | C-01 | Partner bancario de Mercury | Choice Financial Group + Evolve Bank & Trust | 39 |
   | C-02 | Wise Business y CRS — **canonical 2026** | Wise Business reporta CRS desde Bélgica vía Wise Europe SA. Diferenciar Wise Personal (cuenta individual) vs Wise Business para LLC (cuenta de entidad clasificada como Active/Passive NFE) | menciones Wise sin disclosure CRS=52 · sin diferenciación Personal/Business=54 |
-  | C-03 | IBAN europeo para LLC US (Revolut) | Revolut Business para LLC US se abre vía Lead Bank (cuenta US, no IBAN UE) | 2 |
+  | C-03 | IBAN europeo para LLC US (Revolut) | Revolut Business para LLC US se abre bajo **Revolut Technologies Inc.** con **Lead Bank** como banco partner (cuenta US, no IBAN UE). **"Revolut Payments USA" no existe** — corregir cualquier mención previa | 475 |
   | C-04 | "0% impuestos" sin matiz | "0% federal, no 0% global. Combinar LLC + residencia favorable" | 8 |
   | C-05 | Wallester sin disclosure CRS | Toda mención de Wallester debe incluir disclosure CRS | 46 |
   | C-06 | Payoneer sin disclosure CRS | Toda mención de Payoneer debe incluir disclosure CRS | 2 |

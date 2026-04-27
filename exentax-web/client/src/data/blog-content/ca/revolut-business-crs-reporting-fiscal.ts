@@ -2,7 +2,7 @@ export default `Revolut Business s'opera des de Lituània per a la UE i aplica e
 
 ## Quines entitats Revolut i on reporten
 
-**Revolut Bank UAB** (Lituània, banc llicenciat per Lietuvos Bankas, entitat principal EEE des de 2021, reporta CRS al **VMI** lituà), que reenvía a l'AEAT/SAT/DIAN/AFIP. **Revolut Ltd** (UK, EMI FCA), **Revolut Payments UAB**.
+**Revolut Bank UAB** (Lituània, banc llicenciat per Lietuvos Bankas, entitat principal EEE des de 2021, reporta CRS al **VMI** lituà), que reenvía a l'AEAT/SAT/DIAN/AFIP. **Revolut Ltd** (UK, EMI FCA), **Revolut Payments UAB**. **Revolut Technologies Inc.** (entitat nord-americana del grup sota la qual s'ofereix **Revolut Business als clients amb LLC dels EUA**, amb **Lead Bank** com a banc partner als EUA — Lead Bank és un banc amb llicència federal dels EUA i, com a tal, queda **fora del CRS**, perímetre FATCA).
 ### Marc normatiu
 
 <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> CRS; UE Directiva 2011/16/UE amb DAC2; Lituània llei nacional CRS; Espanya RD 1021/2015. Vegeu <a href="/ca/blog/crs-per-a-residents-a-espanya-i-llatinoamerica-implicacions">CRS per a residents</a>.
@@ -66,7 +66,7 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 - **Wise** té dos productes clarament diferents: **Wise Personal** i **Wise Business**. Per a una LLC s'ha d'obrir **Wise Business**, no el personal. Matís important de CRS: una **Wise Business titularitat d'una LLC dels EUA queda fora del CRS** perquè la titular és una entitat dels EUA i els EUA no són jurisdicció CRS; el costat USD opera via Wise US Inc. (perímetre FATCA, no CRS). En canvi, una **Wise Personal oberta per un individu resident fiscal a Espanya** o una altra jurisdicció CRS **sí genera reporte CRS** via Wise Europe SA (Bèlgica) sobre aquest individu. Obrir Wise per a la teva LLC no t'inclou al CRS per la LLC; una Wise Personal separada al teu nom com a resident en CRS, sí.
 - **Wallester** (Estònia) és una entitat financera europea amb llicència EMI/banc emissor de targetes. Els seus comptes IBAN europeus **estan dins de l'Estàndard Comú de Comunicació (CRS)** i, per tant, generen intercanvi automàtic d'informació cap a l'administració fiscal del país de residència.
 - **Payoneer** opera mitjançant entitats europees (Payoneer Europe Ltd, Irlanda) també **dins de l'àmbit CRS** per a clients residents en jurisdiccions participants.
-- **Revolut Business**: quan s'associa a una **LLC nord-americana**, l'esquema habitual passa per Revolut Payments USA; els IBAN europeus (lituans, BE) **no s'emeten per defecte** a una LLC, s'emeten a clients europeus del banc europeu del grup. Si t'ofereixen un IBAN europeu, confirma a quina entitat jurídica està associat i sota quin règim reporta.
+- **Revolut Business**: quan s'associa a una **LLC nord-americana**, opera sota **Revolut Technologies Inc.** amb **Lead Bank** com a banc partner als EUA. El compte lliurat és un compte dels EUA (routing + account number); **no s'emet IBAN europeu** a una LLC. Els IBAN europeus (lituans, BE) són de **Revolut Bank UAB** i s'emeten a clients europeus del grup. Si li ofereixen un IBAN europeu associat a la seva LLC, confirma a quina entitat jurídica està associat i sota quin règim reporta.
 - **Tributació zero**: cap estructura LLC aconsegueix "zero impostos" si vius en un país amb regles CFC/transparència fiscal o atribució de rendes. El que s'aconsegueix és **no duplicar tributació** i **declarar correctament a residència**, no eliminar-la.
 ## Fets bancaris i fiscals que convé precisar
 
