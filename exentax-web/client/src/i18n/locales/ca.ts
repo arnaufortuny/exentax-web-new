@@ -1765,7 +1765,7 @@ const ca = {
     marketingText: "Accepto comunicacions d'Exentax.",
     optional: "Opcional.",
     calculating: "Calculant...",
-    sendError: "No s'ha pogut enviar la teva estimacio. Revisa la connexio i torna-ho a intentar.",
+    sendError: "No s'ha pogut enviar la teva estimació. Revisa la connexió i torna-ho a intentar.",
     seeMyEstimate: "Descobreix quant podries estalviar amb l'estructura correcta",
     estimatedAnnualSavings: "Estalvi estimat anual",
     perYearWithLLC: "a l'any amb estructura LLC",

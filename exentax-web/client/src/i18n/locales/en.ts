@@ -1959,7 +1959,7 @@ const en = {
     currentRegime: "What is your current situation?",
     selectRegime: "Choose your tax situation",
     activityType: "What do you do?",
-    ccaaProfile: "Spanish region (CCAA)",
+    ccaaProfile: "Spanish region",
     ccaaMedium: "Average regional scale (default)",
     ccaaLow: "Madrid · Andalusia · La Rioja",
     ccaaHigh: "Catalonia · Valencia · Asturias",
