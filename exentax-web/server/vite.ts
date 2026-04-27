@@ -6,6 +6,7 @@ import fs from "fs";
 import path from "path";
 import { nanoid } from "nanoid";
 import { injectMeta } from "./static";
+import { maybeInjectE2eTrackingHook } from "./e2e-hook";
 
 const viteLogger = createLogger();
 
@@ -63,7 +64,13 @@ export async function setupVite(server: Server, app: Express) {
       // capture, but the meta lookup needs the full path Googlebot would
       // request.
       const injected = injectMeta(page, req.originalUrl);
-      res.status(200).set({ "Content-Type": "text/html" }).end(injected);
+      // Task #38 — when `E2E_TEST_HOOKS=1`, inject the tiny inline
+      // flag that flips `window.__EXENTAX_E2E_TRACKING__` to true so
+      // `Tracking.tsx` actually pushes events into `window.dataLayer`
+      // (instead of short-circuiting on `import.meta.env.DEV` /
+      // localhost). No-op without the env var.
+      const withE2eHook = maybeInjectE2eTrackingHook(injected);
+      res.status(200).set({ "Content-Type": "text/html" }).end(withE2eHook);
     } catch (e) {
       vite.ssrFixStacktrace(e as Error);
       next(e);

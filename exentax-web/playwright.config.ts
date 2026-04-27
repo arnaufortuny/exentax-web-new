@@ -90,6 +90,16 @@ export default defineConfig({
           timeout: 120_000,
           env: {
             NODE_ENV: "development",
+            // Task #38 — opt the dev server into the analytics test
+            // hook so `tests/e2e/analytics-events.spec.ts` can verify
+            // that `whatsapp_click`, `calculator_used`,
+            // `booking_completed`, `newsletter_subscribe`,
+            // `language_switch`, etc. land in `window.dataLayer`.
+            // Without this, `Tracking.tsx::hasAnalyticsConsent()`
+            // short-circuits to false on the dev server. The flag is
+            // OFF by default in real production (real deploys do not
+            // set `E2E_TEST_HOOKS`).
+            E2E_TEST_HOOKS: "1",
           },
         },
       }

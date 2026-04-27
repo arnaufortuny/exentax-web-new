@@ -13,7 +13,29 @@ declare global {
     gtag?: (...args: unknown[]) => void;
     fbq: ((...args: unknown[]) => void) & { callMethod?: (...args: unknown[]) => void; queue?: unknown[]; loaded?: boolean; version?: string };
     _fbq: typeof window.fbq;
+    /**
+     * E2E test hook (task #38). When the server is started with
+     * `E2E_TEST_HOOKS=1`, `server/static.ts` / `server/vite.ts` inject
+     * a tiny inline `<script>` that sets this flag to `true` BEFORE
+     * the app bundle parses. When set, the analytics layer:
+     *   - bypasses the dev / localhost short-circuit in
+     *     `hasAnalyticsConsent()` so events actually fire,
+     *   - bypasses the cookie-consent gate (the spec sets the
+     *     localStorage key as a belt-and-brace anyway),
+     *   - initializes `window.gtag` (so `trackEvent(...)` lands in
+     *     `window.dataLayer`) but does NOT load the external GA4 /
+     *     Meta Pixel scripts, so the suite stays hermetic and never
+     *     pings googletagmanager.com / connect.facebook.net.
+     * The flag is OFF by default in production: real production
+     * deployments do not set `E2E_TEST_HOOKS`, so the inline script
+     * is never injected and this property stays `undefined`.
+     */
+    __EXENTAX_E2E_TRACKING__?: boolean;
   }
+}
+
+function isE2eTrackingMode(): boolean {
+  return typeof window !== "undefined" && window.__EXENTAX_E2E_TRACKING__ === true;
 }
 
 function initGtagBase() {
@@ -77,6 +99,15 @@ function isDevEnvironment(): boolean {
 }
 
 function hasAnalyticsConsent(): boolean {
+  // Task #38 — when the E2E test hook is enabled (server injects the
+  // inline flag only on `E2E_TEST_HOOKS=1`), bypass both the dev
+  // short-circuit AND the cookie-consent gate so the spec can assert
+  // that `whatsapp_click`, `calculator_used`, `booking_completed`,
+  // `newsletter_subscribe`, `language_switch`, etc. actually land in
+  // `window.dataLayer`. The hook never auto-enables; without the
+  // server-side injection the flag is `undefined` and behavior is
+  // unchanged.
+  if (isE2eTrackingMode()) return true;
   if (isDevEnvironment()) return false;
   return getCookieConsent() === "all";
 }
@@ -98,6 +129,15 @@ function updateGtagConsent(granted: boolean) {
 function initTrackingIfConsented() {
   const consented = hasAnalyticsConsent();
   if (consented) {
+    if (isE2eTrackingMode()) {
+      // Task #38 — initialize the gtag stub so `trackEvent(...)` lands
+      // in `window.dataLayer`, but DO NOT load the external GA4 / Meta
+      // Pixel scripts. This keeps the E2E suite hermetic (no network
+      // hops to googletagmanager.com / connect.facebook.net) while
+      // still exercising the full call-site → dataLayer pipeline.
+      initGtagBase();
+      return;
+    }
     if (GA4_ID) {
       initGA4(GA4_ID);
       updateGtagConsent(true);

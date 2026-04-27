@@ -8,6 +8,7 @@ merges to `main` (PENDING.md §14):
 | `booking-flow.spec.ts` | `/agendar` → qualification → calendar → date → slot → meeting type → form → success (ES + EN), plus `/booking/:token` reschedule + cancel happy paths. The success-path test captures the `POST /api/bookings/book` payload and asserts every field the server-side `sendBookingConfirmation` template needs (`name`, `lastName`, `email`, `phone` E.164, `meetingType`, `date`, `startTime`, `privacyAccepted`) — a CI-safe equivalent of "the confirmation email was dispatched with the right data" without bringing up Gmail. |
 | `calculator-flow.spec.ts` | `/start` calculator (lazy-mounted) emits a branded `/api/calculator-leads` POST whose payload is asserted (email, phone, country, regime, activity, privacy, savings, effective rate, language, …). The captured payload is then forwarded to the test-only endpoint `POST /api/__test/render-calculator-email` (gated on `NODE_ENV !== "production" \|\| E2E_TEST_HOOKS=1` + `x-e2e-test: 1` header), which invokes the real `renderCalculatorEmailHtml` and returns the actual customer-facing HTML. The spec asserts `<!DOCTYPE`, brand color (`00E510`), the savings figure (with locale-tolerant thousands separators), the email's local-part, and `lang ∈ {es,en,fr,de,pt,ca}`. Also verifies `country=reino-unido` hides the CCAA selector. |
 | `language-switch.spec.ts` | The 5 non-Spanish locales (en/fr/de/pt/ca) each receive a switch from `/es/blog/cuanto-cuesta-constituir-llc`, persist via `localStorage["exentax_lang"]`, expose a matching `<link rel="alternate" hreflang>` (BCP-47), and survive a full reload. |
+| `analytics-events.spec.ts` | Asserts that the six tracked GA4/Meta events (`whatsapp_click`, `language_switch`, `cta_click`, `newsletter_subscribe`, `calculator_used`, `booking_completed`) actually push into `window.dataLayer` from the real `Tracking.tsx` helpers. The dev/localhost short-circuit in `hasAnalyticsConsent()` is bypassed by a server-injected `<script>window.__EXENTAX_E2E_TRACKING__=true;</script>` (see `server/e2e-hook.ts`) that is **only** emitted when the server was started with `E2E_TEST_HOOKS=1`. The hook is OFF by default in production and OFF in the standard "Start application" workflow. CI works because the Playwright config (`playwright.config.ts`) injects `E2E_TEST_HOOKS=1` into the `webServer.env` it spawns when `CI=1`. External GA4 and Meta `<script>` loads — and outbound `wa.me` / `whatsapp.com` navigations — are blocked via `context.route` so the suite stays hermetic. |
 
 Only specs inside `tests/e2e/` are picked up by `npm run test:e2e`
 (via the `testMatch` in `playwright.config.ts`). New Playwright specs
@@ -78,6 +79,48 @@ PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
 ```
 
 (Or equivalently `npm run test:e2e`.)
+
+### `analytics-events.spec.ts` requires the E2E tracking hook
+
+`analytics-events.spec.ts` asserts that the real `Tracking.tsx`
+helpers push into `window.dataLayer`. Those helpers gate on
+`hasAnalyticsConsent()`, which short-circuits to `false` on
+`localhost` / `*.replit.dev` so devs do not inadvertently fire GA4
+beacons. The spec relies on the server-injected
+`<script>window.__EXENTAX_E2E_TRACKING__=true;</script>` (see
+`server/e2e-hook.ts`) that is emitted **only** when the server was
+started with `E2E_TEST_HOOKS=1`.
+
+The default "Start application" workflow does not set that flag (so
+the dataLayer stays inert during normal dev), so to run this spec
+locally either:
+
+1. Let Playwright spawn its own server by setting `CI=1`:
+
+   ```bash
+   cd exentax-web
+   CI=1 PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+     npx playwright test --project=chromium tests/e2e/analytics-events.spec.ts
+   ```
+
+   The `webServer.env` block in `playwright.config.ts` injects
+   `E2E_TEST_HOOKS=1` for the spawned server.
+
+2. **Or** start a second dev server in another shell with the flag set
+   and point the suite at it:
+
+   ```bash
+   cd exentax-web
+   PORT=5050 E2E_TEST_HOOKS=1 npm run dev
+   # in another shell
+   BASE_URL=http://localhost:5050 \
+     PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
+     npx playwright test --project=chromium tests/e2e/analytics-events.spec.ts
+   ```
+
+If neither is true, the spec's `ensureHookEnabled` helper throws a
+clear error pointing back here rather than silently passing on an
+empty `dataLayer`.
 
 ## Running in CI
 

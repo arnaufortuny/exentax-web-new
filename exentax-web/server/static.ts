@@ -10,6 +10,7 @@ import { FAQ_SCHEMA_ENTRIES_I18N } from "./faq-schema-i18n";
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
 import { logger } from "./logger";
+import { maybeInjectE2eTrackingHook } from "./e2e-hook";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_CONTENT_ES } from "../client/src/data/blog-content/es-all";
 import { BLOG_I18N } from "../client/src/data/blog-i18n-all";
@@ -523,6 +524,15 @@ export async function serveStatic(app: Express) {
     const isKnown = KNOWN_PATHS.has(cleanPath) || isBlogPost || isBlogIndex || isLangBlogRoute || isNoindexKnown;
 
     let injected = injectMetaCached(indexHtml, req.path);
+
+    // Task #38 — when `E2E_TEST_HOOKS=1`, inject the inline flag that
+    // flips `window.__EXENTAX_E2E_TRACKING__` to true so the analytics
+    // layer pushes events into `window.dataLayer` instead of
+    // short-circuiting on dev / localhost. No-op in real production
+    // (E2E_TEST_HOOKS is never set on real deploys). We do NOT route
+    // this through `injectMetaCached` because the cache is keyed only
+    // on `req.path` and we want to keep the cached SSR HTML pristine.
+    injected = maybeInjectE2eTrackingHook(injected);
 
     if (isNoindexKnown) {
       // Real app route — keep 200 but force noindex.
