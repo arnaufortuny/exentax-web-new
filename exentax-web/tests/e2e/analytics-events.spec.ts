@@ -360,5 +360,164 @@ test.describe("analytics events", () => {
     // funnel, not just the terminal event.
     const initiated = events.find((e) => e.event === "booking_initiated");
     expect(initiated, "booking_initiated event fired").toBeDefined();
+    // Task #69 — `trackBookingCompleted` also emits a generic
+    // `form_submit` companion (mirroring newsletter) so GA4 funnels
+    // keyed off `form_submit` capture booking conversions too.
+    const formSubmit = events.find(
+      (e) => e.event === "form_submit" && e.params.form_name === "booking",
+    );
+    expect(formSubmit, "companion form_submit(booking) fired").toBeDefined();
+    expect(formSubmit!.params.date).toBe(futureDate);
+    expect(formSubmit!.params.start_time).toBe("10:00");
+  });
+
+  // ---------------------------------------------------------------------------
+  // Task #69 — coverage for the remaining tracked GA4 events
+  // (`page_view`, `lead_qualified`, `blog_read`). The booking
+  // companion `form_submit` is asserted alongside `booking_completed`
+  // above; the newsletter companion is asserted in the existing
+  // `newsletter_subscribe` test.
+  // ---------------------------------------------------------------------------
+
+  test("page_view fires on initial load and on wouter navigation", async ({ page }) => {
+    await ensureHookEnabled(page);
+    // Initial mount: `Tracking.tsx` calls `trackPageView(location)`
+    // from a `useEffect` keyed on `location`. The hook relaxes the
+    // GA4_ID gate (task #69) so the event lands in `dataLayer`.
+    await expect.poll(async () => {
+      const events = await readDataLayerEvents(page);
+      return events.some((e) => e.event === "page_view" && e.params.page_path === "/es");
+    }, { timeout: 10_000 }).toBe(true);
+
+    // Client-side navigation via wouter — the language switcher uses
+    // `setLocation(...)`, which updates the `useLocation` value that
+    // `Tracking.tsx` watches. After the nav we expect a SECOND
+    // `page_view` for the new path (`/en` or any `/en/...` route).
+    await page.getByTestId("button-lang-switcher").click();
+    await page.getByTestId("button-lang-en").click();
+    await page.waitForURL(/\/en(\/|$)/, { timeout: 10_000 });
+
+    await expect.poll(async () => {
+      const events = await readDataLayerEvents(page);
+      return events.filter((e) => e.event === "page_view").length;
+    }, { timeout: 10_000 }).toBeGreaterThanOrEqual(2);
+
+    const events = await readDataLayerEvents(page);
+    const pageViews = events.filter((e) => e.event === "page_view");
+    expect(pageViews[0].params.page_path).toBe("/es");
+    // The post-switch view should land on an `/en…` path. Wouter may
+    // emit an intermediate path during the redirect chain, so assert
+    // that AT LEAST ONE later `page_view` is for the English locale.
+    const hasEnView = pageViews.slice(1).some(
+      (e) => typeof e.params.page_path === "string" && /^\/en(\/|$)/.test(e.params.page_path as string),
+    );
+    expect(hasEnView, "a post-navigation page_view targeted /en").toBe(true);
+    // Every `page_view` should carry the doc title + language.
+    for (const pv of pageViews) {
+      expect(typeof pv.params.page_title).toBe("string");
+      expect(typeof pv.params.language).toBe("string");
+    }
+  });
+
+  test("lead_qualified fires after the qualification questionnaire on /es/agendar", async ({ page }) => {
+    // No backend stubs needed — the qualification step is fully
+    // client-side; we only need to walk the 3-step form and click
+    // the final "Ver horarios" button which calls `next()` →
+    // `trackLeadQualified(...)` → `setShowCalendar(true)`.
+    await ensureHookEnabled(page);
+    await page.goto("/es/agendar");
+
+    await expect(page.getByTestId("step-negocio")).toBeVisible();
+    await page.getByTestId("select-actividad").selectOption({ index: 1 });
+    await page.getByTestId("select-facturacion").selectOption({ index: 1 });
+    await page.getByTestId("button-next").click();
+
+    await expect(page.getByTestId("step-situacion")).toBeVisible();
+    await page.getByTestId("card-situacion-0").click();
+    await page.getByTestId("input-beneficio-neto").fill("4000");
+    await page.getByTestId("card-intl-yes").click();
+    await page.getByTestId("card-digital-yes").click();
+    await page.getByTestId("card-compromiso-yes").click();
+    await page.getByTestId("button-next").click();
+
+    await expect(page.getByTestId("step-compromiso")).toBeVisible();
+    await page.getByTestId("card-inversion-0").click();
+    await page.getByTestId("card-inicio-0").click();
+
+    // No event yet — `lead_qualified` only fires on the FINAL `next()`
+    // that flips `showCalendar` to true. Asserting the negative here
+    // catches a regression that would emit it eagerly on every step.
+    let events = await readDataLayerEvents(page);
+    expect(
+      events.find((e) => e.event === "lead_qualified"),
+      "lead_qualified should NOT fire before the final step",
+    ).toBeUndefined();
+
+    await page.getByTestId("button-next").click();
+
+    events = await readDataLayerEvents(page);
+    const ev = events.find((e) => e.event === "lead_qualified");
+    expect(ev, "lead_qualified event fired").toBeDefined();
+    // The qualification answers we entered above should round-trip
+    // through `trackLeadQualified(...)` so GA4 can segment the funnel.
+    expect(ev!.params.monthly_profit).toBe("4000");
+    expect(ev!.params.international_clients).toBe("yes");
+    expect(ev!.params.digital).toBe("yes");
+    expect(typeof ev!.params.activity).toBe("string");
+    expect(typeof ev!.params.invoicing).toBe("string");
+  });
+
+  test("blog_read fires after the engaged-read threshold on a blog post", async ({ page }) => {
+    await ensureHookEnabled(page);
+    // Pick a real, long-enough article so the rendered DOM has room
+    // to scroll past 50% in a desktop viewport. `llc-estados-unidos-
+    // guia-completa-2026` is the canonical pillar post (always
+    // present in `BLOG_POSTS`) and ships in every locale.
+    const slug = "llc-estados-unidos-guia-completa-2026";
+    await page.goto(`/es/blog/${slug}`);
+
+    // Wait for the article shell to render — `post.tsx` mounts the
+    // scroll listener inside a `useEffect` keyed on `post?.slug`,
+    // so we need the page to actually find the post first.
+    await page.waitForSelector("article, main, [data-testid^='blog-']", { timeout: 15_000 });
+
+    // No event yet at the top of the page — the threshold is 50%
+    // scroll depth.
+    let events = await readDataLayerEvents(page);
+    expect(
+      events.find((e) => e.event === "blog_read"),
+      "blog_read should NOT fire before the scroll threshold",
+    ).toBeUndefined();
+
+    // Scroll all the way to the bottom in a single jump — this
+    // guarantees the >= 50% threshold trips. The handler is wired as
+    // a passive scroll listener, so we wait for a microtask after.
+    await page.evaluate(() => {
+      window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" as ScrollBehavior });
+    });
+    // The scroll listener is `passive` and `Tracking.tsx::trackEvent`
+    // pushes synchronously, but Chromium can defer the dispatch to
+    // the next frame on programmatic scrolls. Poll for up to 5s.
+    await expect.poll(async () => {
+      const evs = await readDataLayerEvents(page);
+      return evs.some((e) => e.event === "blog_read");
+    }, { timeout: 5_000 }).toBe(true);
+
+    events = await readDataLayerEvents(page);
+    const ev = events.find((e) => e.event === "blog_read");
+    expect(ev, "blog_read event fired").toBeDefined();
+    expect(ev!.params.slug).toBe(slug);
+    expect(ev!.params.language).toBe("es");
+    expect(typeof ev!.params.read_time).toBe("number");
+    expect(ev!.params.read_time as number).toBeGreaterThan(0);
+
+    // Fires at most once per mount — scrolling around again should
+    // not duplicate it. Catches a regression where the once-only
+    // guard inside the scroll handler is removed.
+    await page.evaluate(() => window.scrollTo({ top: 0 }));
+    await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight }));
+    const after = await readDataLayerEvents(page);
+    const blogReads = after.filter((e) => e.event === "blog_read");
+    expect(blogReads.length, "blog_read fired exactly once").toBe(1);
   });
 });

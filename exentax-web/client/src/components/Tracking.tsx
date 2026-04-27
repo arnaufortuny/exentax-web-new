@@ -205,8 +205,27 @@ export function trackBookingInitiated(params?: Record<string, unknown>) {
   trackEvent("booking_initiated", params);
 }
 
+// Booking confirm — emits the dedicated `booking_completed` conversion
+// event AND a generic `form_submit` companion (mirroring newsletter)
+// so GA4 funnels keyed off `form_submit` capture booking too. Task #69.
 export function trackBookingCompleted(params?: Record<string, unknown>) {
   trackEvent("booking_completed", params);
+  const p = params || {};
+  const formName = (p.form_name as string | undefined) || "booking";
+  trackEvent("form_submit", { ...p, form_name: formName });
+}
+
+// Lead qualified — fired when the visitor finishes the qualification
+// questionnaire on `/agendar` and proceeds to the calendar step.
+// Task #69.
+export function trackLeadQualified(params?: Record<string, unknown>) {
+  trackEvent("lead_qualified", params);
+}
+
+// Blog read — fired once per visit to a blog post when the visitor
+// crosses the engaged-read threshold (≥ 50% scroll). Task #69.
+export function trackBlogRead(params?: Record<string, unknown>) {
+  trackEvent("blog_read", params);
 }
 
 export function trackCalculatorUsed(params?: Record<string, unknown>) {
@@ -237,9 +256,15 @@ export function trackTimeOnPage(seconds: number, params?: Record<string, unknown
   trackEvent("time_on_page", { seconds: Math.round(seconds), ...(params || {}) });
 }
 
-function trackPageView(path: string) {
+// `page_view` fires whenever wouter changes `location` (see the
+// component below). Originally gated on `GA4_ID` being defined, which
+// meant the E2E suite (which does NOT set `VITE_GA4_ID`) could not
+// assert it. Task #69 relaxes the gate so the event also lands in
+// `window.dataLayer` when the test hook is on — production behavior
+// is unchanged because `isE2eTrackingMode()` is always `false` there.
+export function trackPageView(path: string) {
   if (!hasAnalyticsConsent()) return;
-  if (GA4_ID && window.gtag) {
+  if ((GA4_ID || isE2eTrackingMode()) && window.gtag) {
     window.gtag("event", "page_view", {
       page_path: path,
       page_location: window.location.origin + path,

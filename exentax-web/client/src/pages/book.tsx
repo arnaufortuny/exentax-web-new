@@ -7,6 +7,7 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { lazy, Suspense } from "react";
 const BookingCalendar = lazy(() => import("@/components/BookingCalendar"));
 import { CALC_ACTIVITY_KEYS } from "@/lib/calculator";
+import { trackLeadQualified } from "@/components/Tracking";
 
 interface FormData {
   situacion: string;
@@ -174,6 +175,22 @@ export default function ReservarPage() {
 
   const next = () => {
     if (step === totalSteps - 1) {
+      // Visitor finished the qualification questionnaire and is
+      // proceeding to the calendar — fire `lead_qualified` once with
+      // the answers GA4 needs to segment the funnel. Wrapped in
+      // try/catch because tracking is best-effort and must never
+      // block the booking flow. Task #69.
+      try {
+        trackLeadQualified({
+          activity: formData.actividad || undefined,
+          invoicing: formData.facturacion || undefined,
+          monthly_profit: formData.beneficioNeto || undefined,
+          international_clients: formData.clientesInternacionales || undefined,
+          digital: formData.operaDigital || undefined,
+          investment: formData.inversion || undefined,
+          start: formData.inicio || undefined,
+        });
+      } catch { /* tracking is best-effort */ }
       setShowCalendar(true);
       scrollUp();
     } else {

@@ -12,7 +12,7 @@ import { loadBlogI18nForLang, subscribeBlogI18n, getLocalizedBlogMeta as getLoca
 import { sanitizeHtml } from "@/lib/sanitize";
 import NotFound from "@/pages/not-found";
 import { SUPPORTED_LANGS, type SupportedLang } from "@/i18n";
-import { trackWhatsAppClick, trackScrollDepth, trackTimeOnPage } from "@/components/Tracking";
+import { trackWhatsAppClick, trackScrollDepth, trackTimeOnPage, trackBlogRead } from "@/components/Tracking";
 import AiSummaryButtons from "@/components/blog/AiSummaryButtons";
 import { renderSourcesBlockHtml } from "@/data/blog-sources";
 import { extractFaqQA, buildFaqJsonLd } from "@/lib/blog-faq-extract";
@@ -601,14 +601,30 @@ export default function BlogPost() {
     return minutes;
   }, [contentText, post?.readTime]);
   const articleRef = useRef<HTMLDivElement>(null);
+  // Tracks whether `blog_read` has already fired for the currently
+  // mounted post. We deliberately lift this OUT of the scroll effect
+  // so it survives re-runs caused by `computedReadTime` updating
+  // once the lazy article body finishes loading. Reset by the
+  // slug-keyed effect below when the visitor opens a new post.
+  // Task #69.
+  const blogReadFiredRef = useRef<string | null>(null);
 
   const postSlugForLoad = post?.slug;
 
   useEffect(() => {
     if (!post?.slug) return;
     const slugForEvent = post.slug;
+    const readTimeForEvent = computedReadTime || post.readTime || 0;
     const startedAt = Date.now();
     const fired: Record<number, boolean> = { 25: false, 50: false, 75: false, 100: false };
+    // Reset the once-per-slug guard when the visitor lands on a
+    // different post; effect re-runs caused by `computedReadTime`
+    // changing for the SAME slug keep the guard intact (the ref
+    // already holds `slugForEvent`), so `blog_read` still fires
+    // exactly once per post visit.
+    if (blogReadFiredRef.current !== slugForEvent && blogReadFiredRef.current !== `${slugForEvent}:fired`) {
+      blogReadFiredRef.current = slugForEvent;
+    }
     const onScroll = () => {
       const doc = document.documentElement;
       const total = (doc.scrollHeight || 0) - window.innerHeight;
@@ -620,6 +636,23 @@ export default function BlogPost() {
           try { trackScrollDepth(threshold, { slug: slugForEvent, language: lang }); } catch { /* best-effort */ }
         }
       });
+      // Engaged-read signal — once the visitor crosses 50% scroll on
+      // a blog post we treat it as a "read" for GA4 funnels (similar
+      // to GA4's default "scroll" engagement event but keyed off the
+      // article slug + language so per-post performance is visible).
+      // Fires at most once per post visit (the guard lives on a ref
+      // so effect re-runs from `computedReadTime` updating do not
+      // re-fire it). Task #69.
+      if (blogReadFiredRef.current === slugForEvent && pct >= 50) {
+        blogReadFiredRef.current = `${slugForEvent}:fired`;
+        try {
+          trackBlogRead({
+            slug: slugForEvent,
+            language: lang,
+            read_time: readTimeForEvent,
+          });
+        } catch { /* best-effort */ }
+      }
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
@@ -630,7 +663,7 @@ export default function BlogPost() {
         try { trackTimeOnPage(seconds, { slug: slugForEvent, language: lang }); } catch { /* best-effort */ }
       }
     };
-  }, [post?.slug, lang]);
+  }, [post?.slug, lang, computedReadTime, post?.readTime]);
 
   useEffect(() => {
     if (!post) return;
