@@ -15,9 +15,9 @@ const useWebServer = !!process.env.CI;
 // repo for ad-hoc / future use and are NOT executed here so a regression
 // in them never blocks merges. Run them manually if needed.
 //
-// Browser projects: the suite runs on the five surfaces our real users
-// reach (PENDING.md §14, task 29). Locally `npm run test:e2e` defaults
-// to `--project=chromium` for fast iteration; in CI the
+// Browser projects: the suite runs on the seven surfaces our real users
+// reach (PENDING.md §14, tasks 29 + 39). Locally `npm run test:e2e`
+// defaults to `--project=chromium` for fast iteration; in CI the
 // `.github/workflows/e2e.yml` matrix runs each project in parallel and
 // uploads a per-browser HTML report.
 //
@@ -26,6 +26,13 @@ const useWebServer = !!process.env.CI;
 //   - webkit         — desktop Safari (macOS)
 //   - mobile-chrome  — Pixel 7 emulation (Android Chrome)
 //   - mobile-safari  — iPhone 14 emulation (iOS Safari)
+//   - tablet-ipad    — iPad (gen 11) emulation (iPadOS Safari, WebKit)
+//   - tablet-android — Galaxy Tab S4 emulation (Android Chrome, Chromium)
+//
+// The two tablet projects (task 39) cover the intermediate viewports
+// where we have shipped layout regressions before (e.g. CTA stacking on
+// /agendar). Both start with `quarantined: false` in the CI matrix; flip
+// to `true` if they prove flaky rather than deleting them.
 //
 // To quarantine a chronically flaky project (per task 29 brief), keep
 // it in the `projects` array here so it still runs, and flip its
@@ -65,6 +72,14 @@ export default defineConfig({
     {
       name: "mobile-safari",
       use: { ...devices["iPhone 14"] },
+    },
+    {
+      name: "tablet-ipad",
+      use: { ...devices["iPad (gen 11)"] },
+    },
+    {
+      name: "tablet-android",
+      use: { ...devices["Galaxy Tab S4"] },
     },
   ],
   ...(useWebServer

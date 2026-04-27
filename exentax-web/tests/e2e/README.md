@@ -16,9 +16,9 @@ use. They are excluded from `npm run test:e2e` via the `testMatch` in
 
 ## Browser projects
 
-Per task 29, the suite runs across the five surfaces our real users
-reach. Each is declared in `playwright.config.ts` and runs as its own
-parallel job in CI.
+Per tasks 29 + 39, the suite runs across the seven surfaces our real
+users reach. Each is declared in `playwright.config.ts` and runs as its
+own parallel job in CI.
 
 | Project | Engine | Device profile | Catches |
 | --- | --- | --- | --- |
@@ -27,6 +27,8 @@ parallel job in CI.
 | `webkit` | WebKit | `Desktop Safari` | macOS Safari date inputs, JIT diffs |
 | `mobile-chrome` | Chromium | `Pixel 7` | Android viewport + touch interactions |
 | `mobile-safari` | WebKit | `iPhone 14` | iOS Safari keyboard / viewport / touch |
+| `tablet-ipad` | WebKit | `iPad (gen 11)` | iPadOS Safari intermediate viewport (e.g. /agendar CTA stacking) |
+| `tablet-android` | Chromium | `Galaxy Tab S4` | Android tablet intermediate viewport + touch |
 
 `npm run test:e2e` defaults to `--project=chromium` so local iteration
 stays fast. To run a different surface locally, pass the project flag
@@ -36,7 +38,7 @@ directly:
 cd exentax-web
 PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/.cache/ms-playwright \
   npx playwright test --project=firefox
-# or webkit / mobile-chrome / mobile-safari
+# or webkit / mobile-chrome / mobile-safari / tablet-ipad / tablet-android
 ```
 
 Run every project at once (slow — same as the CI matrix in one shell):
@@ -83,14 +85,14 @@ job kinds** on every push and on every PR to `main`.
 
 ### `playwright` — runs the specs (one job per browser)
 
-A `strategy.matrix` fans out the job across the five browser projects
+A `strategy.matrix` fans out the job across the seven browser projects
 listed above. Each leg:
 
 1. Installs deps via `npm ci`.
 2. Installs the chromium / firefox / webkit engines with
    `npx playwright install --with-deps chromium firefox webkit` (one
-   call covers the desktop projects + the mobile ones, which re-use
-   the same engines).
+   call covers the desktop projects + the mobile and tablet ones,
+   which re-use the same three engines).
 3. Runs `npx playwright test --project=${{ matrix.project }}`. Because
    `CI=1` is set, the Playwright config spins up `npm run dev` itself
    on port 5000 — no external service is required (every `/api/*` is
@@ -100,8 +102,8 @@ listed above. Each leg:
    retention**) plus per-failure traces as
    `playwright-traces-<project>`.
 
-`fail-fast: false` is set so all five browsers always report — a Safari
-regression should not hide a Firefox one.
+`fail-fast: false` is set so all seven browsers always report — a
+Safari regression should not hide a Firefox one.
 
 #### Quarantining a flaky browser
 
@@ -131,7 +133,7 @@ Postgres). After the build, the job asserts that `dist/index.mjs`,
 `dist/index.cjs` and `dist/public/assets/` all exist and are non-empty.
 
 Mark every non-quarantined matrix leg
-(`Playwright E2E (chromium|firefox|webkit|mobile-chrome|mobile-safari)`)
+(`Playwright E2E (chromium|firefox|webkit|mobile-chrome|mobile-safari|tablet-ipad|tablet-android)`)
 **and** `Production bundle smoke build` as required checks in branch
 protection so merges block when any spec fails or the prod bundle
 stops compiling.

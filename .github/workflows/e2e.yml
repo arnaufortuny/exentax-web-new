@@ -3,10 +3,11 @@ name: E2E (Playwright)
 # PENDING.md §14 — required Playwright check.
 #
 # Runs the three blocking E2E specs (booking, calculator, language
-# switch) across the five browser surfaces our real users reach
-# (chromium, firefox, webkit, mobile-chrome, mobile-safari) and
-# uploads one HTML report per browser as artifacts (14-day retention)
-# so failures can be triaged without re-running.
+# switch) across the seven browser surfaces our real users reach
+# (chromium, firefox, webkit, mobile-chrome, mobile-safari,
+# tablet-ipad, tablet-android) and uploads one HTML report per browser
+# as artifacts (14-day retention) so failures can be triaged without
+# re-running.
 #
 # Architecture: two job kinds, all required for a green check.
 #
@@ -75,6 +76,15 @@ jobs:
             quarantined: false
           - project: mobile-safari
             quarantined: false
+          # Tablet projects (task 39): catch intermediate-viewport
+          # regressions (e.g. /agendar CTA stacking on iPad / Android
+          # tablets) that the desktop + phone matrix misses. Start
+          # `quarantined: false` per the task brief; flip to true if
+          # they prove flaky rather than deleting them.
+          - project: tablet-ipad
+            quarantined: false
+          - project: tablet-android
+            quarantined: false
 
     defaults:
       run:
@@ -107,11 +117,13 @@ jobs:
       - name: Install Playwright browsers
         # `--with-deps` pulls in the system libraries each engine
         # needs on ubuntu-latest (libnss3, libgbm1, libgtk-3-0, …).
-        # `mobile-chrome` is a Pixel 7 emulation that runs on the
-        # chromium engine and `mobile-safari` is an iPhone 14
-        # emulation that runs on the webkit engine, so installing
-        # all three engines (chromium / firefox / webkit) is enough
-        # to cover every project in `playwright.config.ts`.
+        # The mobile + tablet projects re-use the desktop engines:
+        #   - mobile-chrome   (Pixel 7)        → chromium
+        #   - mobile-safari   (iPhone 14)      → webkit
+        #   - tablet-ipad     (iPad gen 11)    → webkit
+        #   - tablet-android  (Galaxy Tab S4)  → chromium
+        # so installing all three engines (chromium / firefox / webkit)
+        # is enough to cover every project in `playwright.config.ts`.
         run: npx playwright install --with-deps chromium firefox webkit
 
       - name: Run E2E suite (${{ matrix.project }})
