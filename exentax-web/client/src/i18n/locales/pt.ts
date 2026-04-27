@@ -29,7 +29,7 @@ const pt = {
     terminos: {
       title: "Termos e condições",
       seoTitle: "Termos e condições | Exentax",
-      seoDescription: "Termos e condições da Exentax. Constituição e gestão de LLC nos EUA, planeamento fiscal internacional e assessoria contínua para freelancers.",
+      seoDescription: "Condições de utilização dos serviços Exentax: âmbito, responsabilidades, pagamentos, cancelamentos e resolução de litígios. Leia antes de contratar.",
       ogTitle: "Termos e condições da Exentax",
       ogDescription: "Termos e condições dos serviços da Exentax: LLC nos EUA e assessoria fiscal internacional. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
       seoKeywords: "termos condições Exentax, condições serviço LLC, constituição LLC termos, Exentax legal",
@@ -97,7 +97,7 @@ const pt = {
     privacidad: {
       title: "Política de privacidade e proteção de dados",
       seoTitle: "Política de privacidade | Exentax",
-      seoDescription: "Política de privacidade da Exentax. Como recolhemos, utilizamos e protegemos os seus dados pessoais nos serviços de otimização fiscal.",
+      seoDescription: "Como a Exentax trata os seus dados pessoais: bases legais, finalidades, partilhas, prazos de conservação e os seus direitos como utilizador.",
       ogTitle: "Política de privacidade · Exentax",
       ogDescription: "Como a Exentax recolhe, usa e protege os seus dados pessoais nos serviços de assessoria fiscal. Exentax: constituição, banca e compliance da sua LLC.",
       seoKeywords: "política privacidade Exentax, proteção dados LLC, privacidade constituição LLC, Exentax privacidade",
@@ -651,8 +651,8 @@ const pt = {
     },
     cookies: {
       title: "Política de cookies",
-      seoTitle: "Política de cookies do site | Exentax",
-      seoDescription: "Informações sobre o uso de cookies no site da Exentax, assessoria especializada em otimização fiscal legal para freelancers.",
+      seoTitle: "Política de cookies | Exentax",
+      seoDescription: "Que cookies usamos em exentax.com, para que servem e como geri-las ou desativá-las no seu navegador. Política transparente e atualizada.",
       ogTitle: "Política de cookies · Exentax",
       ogDescription: "Uso de cookies no site da Exentax: tipos, finalidades e gestão do seu consentimento. Consultores fiscais Exentax para titulares de LLC não residentes.",
       seoKeywords: "política cookies Exentax, cookies LLC, Exentax cookies",
@@ -689,8 +689,8 @@ const pt = {
     },
     reembolsos: {
       title: "Política de reembolso",
-      seoTitle: "Política de reembolso | Exentax",
-      seoDescription: "Política de reembolso da Exentax. Cancelamentos, reembolsos e garantias nos serviços de constituição LLC e otimização fiscal.",
+      seoTitle: "Política de reembolsos | Exentax",
+      seoDescription: "Quando pode pedir um reembolso, prazos, situações cobertas e como iniciar o processo. Condições claras, sem letras pequenas.",
       ogTitle: "Política de reembolso · Exentax",
       ogDescription: "Política de reembolso da Exentax: cancelamentos, reembolsos e garantias de serviço. Consultores fiscais Exentax para titulares de LLC não residentes.",
       seoKeywords: "política reembolso Exentax, garantia constituição LLC, reembolso LLC, Exentax reembolsos",
@@ -742,8 +742,8 @@ const pt = {
     },
     disclaimer: {
       title: "Aviso legal e fiscal",
-      seoTitle: "Aviso legal e fiscal | Exentax",
-      seoDescription: "Aviso legal e fiscal da Exentax. Informações sobre a natureza dos nossos serviços, limitações de responsabilidade e obrigações do cliente.",
+      seoTitle: "Aviso legal e disclaimer | Exentax",
+      seoDescription: "Limitação de responsabilidade e aviso legal sobre as informações publicadas em exentax.com. O conteúdo não substitui aconselhamento personalizado.",
       ogTitle: "Aviso legal e fiscal · Exentax",
       ogDescription: "Aviso legal e fiscal da Exentax: âmbito do serviço, limites de responsabilidade e obrigações. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
       seoKeywords: "aviso Exentax, aviso legal fiscal, limitações responsabilidade, serviços LLC aviso",
@@ -1103,8 +1103,8 @@ const pt = {
     confirmingDesc: "Estamos a confirmar sua reserva. Um momento por favor.",
   },
   homePage: {
-    seoTitle: "LLC nos EUA com especialistas fiscais | Exentax",
-    seoDesc: "Consultores fiscais especialistas constituem a sua LLC americana em 48 horas. Estrutura premium, EIN, banca operacional e compliance anual garantido.",
+    seoTitle: "Consultoria fiscal de elite para a sua LLC EUA | Exentax",
+    seoDesc: "Onde o software low-cost termina, começamos nós. LLC EUA, EIN, banca americana, menos impostos, máxima privacidade e um consultor fiscal real para o seu caso.",
     ogTitle: "A sua LLC nos EUA em 48 h, sem surpresas",
     ogDesc: "Constitua a sua LLC nos EUA em 48 h com consultores fiscais. Consultoria gratuita de 30 min. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
     seoKeywords: "Exentax, LLC Estados Unidos, otimização fiscal, pagar menos impostos legalmente, LLC para freelancers, LLC autónomos, estrutura fiscal, reduzir impostos, tributação internacional, LLC Wyoming, LLC Delaware, EIN, Form 5472, compliance IRS, conta bancária EUA, faturar com LLC americana, impostos freelancer, nómada digital tributação",
@@ -1120,8 +1120,8 @@ const pt = {
   },
   serviciosPage: {
     subpagesGrid: SUBPAGES_GRID_BY_LANG.pt,
-    seoTitle: "Serviços premium de constituição de LLC EUA | Exentax",
-    seoDesc: "Constituição de LLC nos EUA com consultores fiscais: EIN, BOI, estrutura personalizada, banca operacional e compliance anual sem erros.",
+    seoTitle: "Serviços LLC EUA para founders não residentes | Exentax",
+    seoDesc: "Constituição de LLC, EIN, ITIN como CAA, banca americana e Form 5472. Serviços fiscais premium para founders não residentes: menos impostos, mais privacidade.",
     ogTitle: "Constitua a sua LLC nos EUA com consultores experts",
     ogDesc: "Constituição de LLC nos EUA: EIN, banca operacional, estrutura à medida e compliance anual. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
     seoKeywords: "serviços LLC EUA, constituir LLC, gerir LLC, EIN LLC, conta bancária LLC, conformidade anual LLC, consultoria fiscal internacional, estrutura fiscal freelancer, LLC Wyoming, LLC Delaware, Exentax",
@@ -1261,8 +1261,8 @@ const pt = {
     }
   },
   reservarPage: {
-    seoTitle: "Consultoria LLC EUA · Reserve 30 min grátis | Exentax",
-    seoDesc: "Reserve uma consultoria fiscal gratuita com consultores especialistas em LLCs americanas. Diagnóstico da sua estrutura internacional em 30 minutos.",
+    seoTitle: "Reserve a sua chamada com um consultor especialista",
+    seoDesc: "30 minutos com um consultor que abre LLC EUA para não residentes todas as semanas. Diagnóstico real, plano claro e preço fechado. Vagas limitadas.",
     ogTitle: "Consultoria LLC EUA grátis · 30 min com experts",
     ogDesc: "30 min grátis com consultores especialistas em LLCs nos EUA: diagnóstico e plano à medida. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
     seoKeywords: "Exentax agendar, Exentax consultoria fiscal, reservar consultoria fiscal, otimização fiscal freelancer, reduzir impostos freelancer, análise fiscal personalizada, consultoria fiscal LLC americana, planeamento fiscal reunião, reservar consultoria fiscal online, videochamada fiscal 30 minutos, LLC para freelancers consultoria",
@@ -1330,8 +1330,8 @@ const pt = {
     },
   },
   comoFuncionaPage: {
-    seoTitle: "Como constituímos a sua LLC em 4 fases | Exentax",
-    seoDesc: "Consultores fiscais constituem a sua LLC americana em 4 fases: diagnóstico, estrutura, banca operacional e compliance. Garantido em 48 horas.",
+    seoTitle: "Como trabalhamos: a sua LLC EUA com um consultor real",
+    seoDesc: "Diagnóstico, constituição, EIN, banca e compliance: quatro fases com prazos reais e um consultor sénior à frente. Não é chat de suporte, é consultoria real.",
     ogTitle: "A sua LLC nos EUA em 4 fases, pronta em 48 h",
     ogDesc: "Diagnóstico, estrutura, banca e compliance: a sua LLC nos EUA pronta em 48 h, sem surpresas. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
     seoKeywords: "constituir LLC EUA, processo criar LLC, etapas LLC passo a passo, como funciona Exentax, consultoria fiscal LLC, estrutura fiscal personalizada, LLC em 48 horas, LLC em 4 fases, gestão anual LLC, compliance anual, LLC para autónomos, LLC para freelancers, LLC negócios digitais",
@@ -1440,8 +1440,8 @@ const pt = {
     }
   },
   llcUsPage: {
-    seoTitle: "LLC EUA para não residentes · guia 2026 | Exentax",
-    seoDesc: "Consultores fiscais explicam o que é uma LLC americana, tributação, vantagens reais e a estrutura ideal para profissionais internacionais.",
+    seoTitle: "LLC EUA: o veículo para pagar 0% federal legalmente",
+    seoDesc: "O segredo mais bem guardado dos fundadores não residentes: LLC americana, 0% federal, banca EUA e reputação global. Mostramos-lhe quando é a sua jogada.",
     ogTitle: "LLC nos EUA: o guia 2026 para não residentes",
     ogDesc: "O que é uma LLC, como tributa e porque é a melhor estrutura para freelancers e negócios digitais internacionais. Por consultores especialistas.",
     seoKeywords: "LLC EUA não residente, o que é uma LLC, vantagens LLC, faturar com LLC, conta dólares não residente, Stripe LLC não residente, LLC Wyoming, LLC Delaware, LLC freelancer, EIN número, guia LLC 2026",
@@ -1505,8 +1505,8 @@ const pt = {
     flAdvantages: ["Acesso preferencial a bancos e gateways de pagamento US","Hub para empreendedores hispânicos e latino-americanos","Sem imposto estadual sobre a renda","Reconhecimento amplo entre fornecedores e marketplaces","Ideal para e-commerce, SaaS e serviços B2C"]
   },
   faqPage: {
-    seoTitle: "FAQ LLC EUA: 79 dúvidas respondidas pela Exentax",
-    seoDesc: "79 respostas claras da Exentax sobre LLCs nos EUA: fiscalidade internacional, residência, CRS, FATCA, BOI, banca e compliance IRS.",
+    seoTitle: "FAQ LLC EUA para não residentes · Sem rodeios",
+    seoDesc: "Impostos, EIN, ITIN, Form 5472, banca americana, que estado escolher e custos reais. Sem marketing barato: respostas diretas de consultores especializados.",
     ogTitle: "79 respostas claras sobre LLC nos EUA",
     ogDesc: "79 respostas claras sobre LLCs nos EUA: fiscalidade, residência, BOI, banca e compliance IRS. Exentax acompanha a sua LLC, do diagnóstico ao dia a dia.",
     seoKeywords: "FAQ LLC, perguntas LLC Estados Unidos, fiscalidade internacional LLC, residência fiscal LLC, CRS LLC, DAC7 LLC, DAC8 cripto, FATCA, Form 1120 5472, BOI Report, transparência fiscal internacional, dupla tributação EUA, Wyoming Delaware Novo México, banca americana LLC, Interactive Brokers LLC, W-8BEN, compliance LLC, Exentax",
@@ -1735,10 +1735,6 @@ const pt = {
     ogDescription: "WhatsApp, consultoria estratégica, calculadora fiscal e redes sociais: todos os pontos de contacto da Exentax num único link.",
     h1Line1: "As LLCs não são o problema.",
     h1Line2: "A má estruturação sim.",
-    sub1Line1: "Constituir nos EUA é uma formalidade.",
-    sub1Line2: "Operar corretamente do seu país é estratégia fiscal.",
-    sub2Line1: "Se procura atalhos, isto não é para si.",
-    sub2Line2: "Se procura estrutura séria, sim.",
     cta: "Agendar consultoria estratégica",
     whatsapp: "Falar pelo WhatsApp",
     whatsappMsg: "Olá, gostaria de falar sobre a consultoria fiscal estratégica gratuita.",
@@ -1796,8 +1792,8 @@ const pt = {
     heading: "Fiscalidade internacional e LLC",
     subtitle: "Artigos claros sobre otimização fiscal, LLCs nos EUA e tudo o que precisa para tomar decisões informadas.",
     pretitle: "BLOG",
-    seoTitle: "Blog Exentax · LLC EUA e fiscalidade internacional",
-    seoDescription: "Análises e guias de especialistas fiscais sobre LLCs americanas, tributação internacional e compliance para profissionais e negócios digitais.",
+    seoTitle: "Blog Exentax · LLC EUA, fiscalidade e banca sem rodeios",
+    seoDescription: "Os guias que o seu contabilista nunca lhe deu: LLC para não residentes, Form 5472, ITIN, banca americana e fiscalidade real. Por consultores que vivem o tema.",
     ogTitle: "Blog Exentax: LLC nos EUA e fiscalidade internacional",
     ogDescription: "Análises e guias de consultores fiscais Exentax sobre LLCs nos EUA, tributação internacional e compliance para profissionais e negócios digitais.",
     seoKeywords: "blog fiscalidade internacional, LLC EUA guia, otimização fiscal freelancer, LLC compliance, estratégias fiscais legais, blog Exentax, fiscalidade digital, nómada digital impostos",

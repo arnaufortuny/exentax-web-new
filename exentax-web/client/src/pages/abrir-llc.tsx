@@ -46,9 +46,9 @@ interface PillarLocaleContent {
 // in a single diff and makes future copy refreshes a single-file change.
 const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
   es: {
-    metaTitle: "Abrir LLC en Estados Unidos: guía paso a paso 2026 | Exentax",
+    metaTitle: "Abrir LLC en EE. UU. siendo no residente · Guía 2026",
     metaDescription:
-      "Abrir una LLC en Estados Unidos en 2-4 días: estado, EIN, cuenta Mercury, IRS Form 5472 y declaración en España. Guía completa con asesores fiscales expertos.",
+      "La guía definitiva 2026 para abrir tu LLC en EE. UU. siendo no residente: estado óptimo, EIN, banca americana y compliance. Por fiscalistas que lo hacen real.",
     ogTitle: "Abrir LLC en Estados Unidos: la guía definitiva 2026",
     ogDescription:
       "Cómo abrir una LLC americana sin SSN, qué estado elegir, cuánto cuesta de verdad y cómo declararla en tu IRPF. Asesoría gratuita de 30 minutos.",
@@ -162,9 +162,9 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
   },
   en: {
-    metaTitle: "Open a US LLC in 2026: step-by-step guide for non-residents | Exentax",
+    metaTitle: "Open a US LLC as a non-resident · 2026 guide",
     metaDescription:
-      "Open a US LLC in 2-4 days as a non-resident: pick the state, get the EIN without SSN, open Mercury, file Form 1120 + 5472 with the IRS and declare profits at home.",
+      "The definitive 2026 guide to open a US LLC as a non-resident: best state, EIN, US banking and compliance. Written by tax advisors who set up LLCs every week.",
     ogTitle: "Open a US LLC in 2026: the definitive non-resident guide",
     ogDescription:
       "How to form a US LLC without an SSN, which state to pick, what it really costs and how to declare it at home. Free 30-min strategic call.",
@@ -275,9 +275,9 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
   },
   fr: {
-    metaTitle: "Ouvrir une LLC aux États-Unis en 2026 : le guide pas à pas | Exentax",
+    metaTitle: "Ouvrir une LLC US en non-résident · Guide 2026",
     metaDescription:
-      "Ouvrir une LLC américaine en 2-4 jours en tant que non-résident : choisir l'État, obtenir l'EIN sans SSN, ouvrir Mercury, déposer Form 1120 + 5472 et déclarer en France.",
+      "Guide de référence 2026 pour ouvrir une LLC US en non-résident : meilleur état, EIN, banque US et compliance. Par des fiscalistes qui en créent chaque semaine.",
     ogTitle: "Ouvrir une LLC aux États-Unis : le guide définitif 2026",
     ogDescription:
       "Comment créer une LLC américaine sans SSN, quel État choisir, ce que ça coûte vraiment et comment la déclarer chez soi. Consultation stratégique gratuite de 30 min.",
@@ -388,9 +388,9 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
   },
   de: {
-    metaTitle: "US-LLC eröffnen 2026: Schritt-für-Schritt-Anleitung für Nicht-Residenten | Exentax",
+    metaTitle: "US-LLC als Nicht-Resident gründen · Guide 2026",
     metaDescription:
-      "US-LLC in 2-4 Tagen als Nicht-Resident eröffnen: Bundesstaat wählen, EIN ohne SSN, Mercury-Konto, Form 1120 + 5472 beim IRS und saubere Erklärung im Heimatland.",
+      "Definitiver Leitfaden 2026 zur US-LLC-Gründung als Nicht-Resident: bester Bundesstaat, EIN, US-Banking, Compliance. Von Steuerberatern mit echter Praxis.",
     ogTitle: "US-LLC eröffnen 2026: der definitive Leitfaden",
     ogDescription:
       "Wie man eine US-LLC ohne SSN gründet, welcher Bundesstaat passt, was es wirklich kostet und wie man sie zuhause deklariert. Kostenloses 30-min Strategiegespräch.",
@@ -500,9 +500,9 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
   },
   pt: {
-    metaTitle: "Abrir uma LLC nos EUA: guia passo a passo 2026 | Exentax",
+    metaTitle: "Abrir LLC nos EUA como não residente · Guia 2026",
     metaDescription:
-      "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil.",
+      "Guia definitivo 2026 para abrir uma LLC nos EUA como não residente: melhor estado, EIN, banca americana e compliance. Por consultores que o fazem cada semana.",
     ogTitle: "Abrir uma LLC nos EUA: o guia definitivo 2026",
     ogDescription:
       "Como criar uma LLC americana sem SSN, que estado escolher, quanto realmente custa e como declarar no teu país. Consultoria estratégica gratuita de 30 min.",
@@ -612,9 +612,9 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
     },
   },
   ca: {
-    metaTitle: "Obrir una LLC als Estats Units: guia pas a pas 2026 | Exentax",
+    metaTitle: "Obrir LLC als EUA com a no resident · Guia 2026",
     metaDescription:
-      "Obrir una LLC americana en 2-4 dies sent no resident: escollir l'estat, EIN sense SSN, compte Mercury, Form 1120 + 5472 a l'IRS i declaració neta a l'IRPF.",
+      "La guia definitiva 2026 per obrir una LLC als EUA com a no resident: millor estat, EIN, banca americana i compliance. Per fiscalistes que ho fan cada setmana.",
     ogTitle: "Obrir una LLC als EUA: la guia definitiva 2026",
     ogDescription:
       "Com crear una LLC americana sense SSN, quin estat triar, quant costa de debò i com declarar-la a casa. Assessoria estratègica gratuïta de 30 min.",

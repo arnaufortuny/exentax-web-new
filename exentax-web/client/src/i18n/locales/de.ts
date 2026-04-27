@@ -25,7 +25,7 @@ const de = {
     terminos: {
       title: "Allgemeine Geschäftsbedingungen",
       seoTitle: "Allgemeine Geschäftsbedingungen | Exentax",
-      seoDescription: "AGB von Exentax. Gründung und Verwaltung von US-LLCs, internationale Steuerplanung und laufende Beratung für Freiberufler und Unternehmer.",
+      seoDescription: "Nutzungsbedingungen der Exentax-Services: Leistungsumfang, Verantwortlichkeiten, Zahlungen, Stornierungen und Streitbeilegung. Vor Beauftragung lesen.",
       ogTitle: "AGB von Exentax · Exentax",
       ogDescription: "AGB von Exentax: Gründung von US-LLCs und internationale Steuerberatung. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
       seoKeywords: "AGB Exentax, Geschäftsbedingungen LLC, LLC Gründung Bedingungen, Exentax rechtlich",
@@ -93,7 +93,7 @@ const de = {
     privacidad: {
       title: "Datenschutzerklärung",
       seoTitle: "Datenschutzerklärung | Exentax",
-      seoDescription: "Datenschutzerklärung von Exentax. Wie wir Ihre personenbezogenen Daten in unseren Steueroptimierungsdiensten erheben, verwenden und schützen.",
+      seoDescription: "Wie Exentax Ihre personenbezogenen Daten verarbeitet: Rechtsgrundlagen, Zwecke, Weitergabe, Aufbewahrungsfristen und Ihre Rechte als Nutzer.",
       ogTitle: "Datenschutzerklärung · Exentax",
       ogDescription: "Wie Exentax Ihre personenbezogenen Daten in den Steuerberatungsdiensten erhebt und schützt. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
       seoKeywords: "Datenschutz Exentax, Datenschutz LLC, Datenschutzerklärung LLC Gründung, Exentax Datenschutz",
@@ -648,7 +648,7 @@ const de = {
     cookies: {
       title: "Cookie-Richtlinie",
       seoTitle: "Cookie-Richtlinie | Exentax",
-      seoDescription: "Informationen zur Verwendung von Cookies auf exentax.com. Spezialisierte Beratung zur legalen Steueroptimierung für Freiberufler.",
+      seoDescription: "Welche Cookies wir auf exentax.com einsetzen, wozu sie dienen und wie Sie sie im Browser verwalten oder deaktivieren. Transparent und aktuell.",
       ogTitle: "Cookie-Richtlinie · Exentax",
       ogDescription: "Cookie-Nutzung auf exentax.com: Arten, Zwecke und Verwaltung Ihrer Einwilligung. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
       seoKeywords: "Cookie-Richtlinie Exentax, Cookies LLC, Exentax Cookies",
@@ -685,8 +685,8 @@ const de = {
     },
     reembolsos: {
       title: "Erstattungsrichtlinie",
-      seoTitle: "Erstattungsrichtlinie | Exentax",
-      seoDescription: "Erstattungsrichtlinie von Exentax. Stornierungen, Erstattungen und Garantien für LLC-Gründungs- und Steueroptimierungsdienste.",
+      seoTitle: "Rückerstattungsrichtlinie | Exentax",
+      seoDescription: "Wann Sie eine Rückerstattung anfordern können, Fristen, abgedeckte Fälle und wie Sie den Prozess starten. Klare Bedingungen, kein Kleingedrucktes.",
       ogTitle: "Erstattungsrichtlinie · Exentax",
       ogDescription: "Erstattungsrichtlinie von Exentax: Stornierungen, Rückerstattungen und Servicegarantien. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
       seoKeywords: "Erstattungsrichtlinie Exentax, Garantie LLC Gründung, LLC Erstattung, Exentax Erstattungen",
@@ -738,8 +738,8 @@ const de = {
     },
     disclaimer: {
       title: "Rechts- und Steuerhaftungsausschluss",
-      seoTitle: "Rechts- und Steuerhaftungsausschluss | Exentax",
-      seoDescription: "Rechts- und Steuerhaftungsausschluss von Exentax: Art unserer Dienstleistungen, Haftungsbeschränkungen und Pflichten des Kunden.",
+      seoTitle: "Rechtlicher Hinweis und Disclaimer | Exentax",
+      seoDescription: "Haftungsbeschränkung und rechtlicher Hinweis zu den auf exentax.com veröffentlichten Informationen. Der Inhalt ersetzt keine persönliche Beratung.",
       ogTitle: "Rechts- und Steuerhaftungsausschluss · Exentax",
       ogDescription: "Rechts- und Steuerhaftungsausschluss von Exentax: Leistungsumfang, Haftung und Pflichten. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
       seoKeywords: "Haftungsausschluss Exentax, rechtlicher steuerlicher Haftungsausschluss, Haftungsbeschränkungen, LLC Dienste Haftungsausschluss",
@@ -1099,8 +1099,8 @@ const de = {
     confirmingDesc: "Wir bestätigen Ihre Buchung. Einen Moment bitte.",
   },
   homePage: {
-    seoTitle: "US-LLC mit Steuerexperten gründen | Exentax",
-    seoDesc: "Erfahrene Steuerexperten gründen Ihre US-LLC in 48 Stunden. Premium-Struktur, EIN, operatives Banking und garantierte jährliche Compliance für Profis.",
+    seoTitle: "Elite-Steuerberatung für Ihre US-LLC | Exentax",
+    seoDesc: "Wo Low-Cost-Software endet, beginnen wir. US-LLC, EIN, US-Banking, weniger Steuern, maximale Privatsphäre und ein echter Steuerberater für Ihren Fall.",
     ogTitle: "Ihre US-LLC in 48 Stunden – garantiert",
     ogDesc: "Gründen Sie Ihre US-LLC in 48 Stunden mit Steuerexperten. Kostenlose 30-Minuten-Beratung. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
     seoKeywords: "Exentax, US LLC, Steueroptimierung, legal weniger Steuern zahlen, LLC für Freiberufler, LLC Selbstständige, Steuerstruktur, Steuern reduzieren, internationale Besteuerung, Wyoming LLC, Delaware LLC, EIN, Form 5472, IRS Compliance, US-Bankkonto, mit US LLC fakturieren, Freiberufler Steuern, digitaler Nomade Steuern",
@@ -1116,8 +1116,8 @@ const de = {
   },
   serviciosPage: {
     subpagesGrid: SUBPAGES_GRID_BY_LANG.de,
-    seoTitle: "US-LLC-Gründung: Services und Preise | Exentax",
-    seoDesc: "US-LLC-Gründung mit erfahrenen Steuerexperten: EIN, BOI, maßgeschneiderte Steuerstruktur, operatives Banking und fehlerfreie jährliche Compliance.",
+    seoTitle: "US-LLC-Services für anspruchsvolle Gründer | Exentax",
+    seoDesc: "LLC-Gründung, EIN ohne SSN, ITIN als CAA, US-Banking und Form 5472. Premium-Steuerservices für nicht-residente Gründer: weniger Steuern, echte Privatsphäre.",
     ogTitle: "Gründen Sie Ihre US-LLC mit Steuerexperten",
     ogDesc: "US-LLC-Gründung: EIN, operatives Banking, maßgeschneiderte Struktur und jährliche Compliance. Exentax: Gründung, Banking und Compliance Ihrer US-LLC.",
     seoKeywords: "LLC-Dienstleistungen USA, LLC gründen, LLC verwalten, EIN LLC, Bankkonto LLC, jährliche Compliance LLC, internationale Steuerberatung, Steuerstruktur Freelancer, LLC Wyoming, LLC Delaware, Exentax",
@@ -1257,8 +1257,8 @@ const de = {
     }
   },
   reservarPage: {
-    seoTitle: "US-LLC-Beratung · 30 Min. kostenlos | Exentax",
-    seoDesc: "Kostenlose Steuerberatung mit US-LLC-Experten. Diagnose Ihrer internationalen Struktur und maßgeschneiderter Plan in 30 Minuten.",
+    seoTitle: "Buchen Sie Ihr Gespräch mit einem Steuerexperten",
+    seoDesc: "30 Minuten mit einem Steuerberater, der jede Woche US-LLCs für Nicht-Residenten gründet. Echte Analyse, klarer Plan, Festpreis. Wenige Slots pro Woche.",
     ogTitle: "30 Min. kostenlose US-LLC-Beratung mit Experten",
     ogDesc: "30 Min. kostenlos mit US-LLC-Experten: Diagnose Ihrer internationalen Struktur und Plan. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
     seoKeywords: "Exentax Termin, Exentax Steuerberatung, Steuerberatung buchen, Steueroptimierung Freiberufler, Steuern reduzieren Freiberufler, Steueranalyse personalisiert, LLC Steuerberatung amerikanisch, Steuerplanung Termin, Steuerberatung online buchen, Videoanruf Steuer 30 Minuten, LLC für Freiberufler Beratung",
@@ -1326,8 +1326,8 @@ const de = {
     },
   },
   comoFuncionaPage: {
-    seoTitle: "So gründen wir Ihre US-LLC in 4 Phasen | Exentax-Berater",
-    seoDesc: "Erfahrene Steuerexperten gründen Ihre US-LLC in 4 Phasen: Diagnose, Struktur, operatives Banking und Compliance. Ergebnis in 48 Stunden garantiert.",
+    seoTitle: "So arbeiten wir: Ihre US-LLC mit echtem Steuerberater",
+    seoDesc: "Analyse, Gründung, EIN, Banking und Compliance: vier Phasen, reale Zeitpläne und ein leitender Steuerberater an Ihrer Seite. Kein Chat-Support, echte Beratung.",
     ogTitle: "So gründen wir Ihre US-LLC in 4 Phasen",
     ogDesc: "Diagnose, Struktur, Banking, Compliance: Ihre US-LLC in 48 Stunden bereit – ohne Überraschungen. Steuerberater Exentax für nicht-ansässige LLC-Inhaber.",
     seoKeywords: "US-LLC gründen, LLC-Gründungsprozess, LLC Schritt für Schritt, wie Exentax funktioniert, LLC Steuerberatung, maßgeschneiderte Steuerstruktur, LLC in 48 Stunden, LLC in 4 Phasen, jährliche LLC-Verwaltung, US-LLC Compliance, LLC für Freelancer, LLC für Selbstständige, LLC digitale Unternehmen",
@@ -1436,8 +1436,8 @@ const de = {
     }
   },
   llcUsPage: {
-    seoTitle: "US-LLC für Nicht-Residenten · Leitfaden 2026 | Exentax",
-    seoDesc: "Erfahrene Steuerexperten erklären, was eine US-LLC ist, ihre Besteuerung, echte Vorteile und die optimale Struktur für internationale Profis.",
+    seoTitle: "US-LLC: das Vehikel für 0 % Bundessteuer – legal",
+    seoDesc: "Das bestgehütete Geheimnis nicht-residenter Gründer: US-LLC, 0 % Bundessteuer, US-Banking und globale Reputation. Wir zeigen Ihnen, wann es Ihr Move ist.",
     ogTitle: "US-LLC für Nicht-Residenten: der Leitfaden 2026",
     ogDesc: "Was eine US-LLC ist, wie sie besteuert wird und warum sie die beste Struktur für internationale Freelancer und digitale Unternehmen ist. Von Experten.",
     seoKeywords: "US-LLC Nicht-Resident, was ist eine LLC, LLC Vorteile, mit LLC abrechnen, Dollar-Banking Nicht-Resident, Stripe LLC Nicht-Resident, LLC Wyoming, LLC Delaware, LLC Freiberufler, EIN Nummer, LLC Leitfaden 2026",
@@ -1501,8 +1501,8 @@ const de = {
     flAdvantages: ["Bevorzugter Zugang zu US-Banking und Payment-Gateways","Hub für hispanische und lateinamerikanische Unternehmer","Keine staatliche Einkommensteuer","Breite Akzeptanz bei Anbietern und Marktplätzen","Ideal für E-Commerce, SaaS und B2C-Dienste"]
   },
   faqPage: {
-    seoTitle: "US-LLC-FAQ: 79 Fragen von Exentax beantwortet",
-    seoDesc: "79 klare Antworten von Exentax zu US-LLCs: internationale Besteuerung, Wohnsitz, CRS, FATCA, BOI, Banking und IRS-Compliance.",
+    seoTitle: "FAQ US-LLC für Nicht-Residenten · Ohne Umwege",
+    seoDesc: "Steuern, EIN, ITIN, Form 5472, US-Banking, welcher Bundesstaat, reale Kosten. Ohne Marketing-Floskeln: direkte Antworten von Spezialisten.",
     ogTitle: "79 klare Antworten zur US-LLC",
     ogDesc: "79 klare Antworten zu US-LLCs: Besteuerung, Wohnsitz, BOI, Banking und IRS-Compliance. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
     seoKeywords: "LLC FAQ, US-LLC Fragen, internationale LLC-Besteuerung, Steuersitz LLC, CRS LLC, DAC7 LLC, DAC8 Krypto, FATCA, Form 1120 5472, BOI Report, Hinzurechnungsbesteuerung, Doppelbesteuerung USA, Wyoming Delaware New Mexico, US-Geschäftskonto, Interactive Brokers LLC, W-8BEN, LLC Compliance, Exentax",
@@ -1731,10 +1731,6 @@ const de = {
     ogDescription: "WhatsApp, strategische Beratung, Steuerrechner und Social Media: alle Kontaktpunkte von Exentax in einem teilbaren Link.",
     h1Line1: "LLCs sind nicht das Problem.",
     h1Line2: "Schlechte Strukturierung schon.",
-    sub1Line1: "Eine Gründung in den USA ist eine Formalität.",
-    sub1Line2: "Korrekt aus Ihrem Land zu operieren ist Steuerstrategie.",
-    sub2Line1: "Wenn Sie Abkürzungen suchen, ist das hier nichts für Sie.",
-    sub2Line2: "Wenn Sie eine seriöse Struktur suchen, schon.",
     cta: "Strategische Beratung buchen",
     whatsapp: "Über WhatsApp sprechen",
     whatsappMsg: "Hallo, ich möchte über die kostenlose strategische Steuerberatung sprechen.",
@@ -1792,8 +1788,8 @@ const de = {
     heading: "Internationales Steuerrecht und LLC",
     subtitle: "Klare Artikel über Steueroptimierung, LLCs in den USA und alles, was Sie für fundierte Entscheidungen wissen müssen.",
     pretitle: "BLOG",
-    seoTitle: "Exentax Blog · US-LLC & internationale Steuern",
-    seoDescription: "Artikel über Steueroptimierung, US-LLCs, Compliance und rechtliche Strategien für Freelancer und digitale Unternehmer.",
+    seoTitle: "Exentax-Blog · US-LLC, Steuern und Banking, klar",
+    seoDescription: "Die Leitfäden, die Ihnen Ihr Steuerberater nie gegeben hat: US-LLCs für Nicht-Residenten, Form 5472, ITIN, US-Banking und echte Steuerpraxis. Von Profis.",
     ogTitle: "Exentax Blog: US-LLC und internationale Steuern",
     ogDescription: "Steuerlich geprägte Artikel für nicht-ansässige US-LLC-Inhaber: Bundesstaat, Mercury, Form 5472, BOI, ITIN und Compliance von Exentax-Beratern.",
     seoKeywords: "Blog internationale Steuern, US-LLC Leitfaden, Steueroptimierung Freelancer, LLC Compliance, rechtliche Steuerstrategien, Exentax Blog, digitale Steuern, digitaler Nomade Steuern",

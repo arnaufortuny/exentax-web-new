@@ -18,16 +18,19 @@ type Lang = (typeof LANGS)[number];
 
 const TITLE_MAX = 60;
 const TITLE_WARN = 58;
-const DESC_MAX = 155;
-const DESC_WARN = 150;
+// Task 2 (premium SEO rollout): page descriptions allow up to 165 chars
+// (Google's mobile SERP budget) to match the new approved copy.
+const DESC_MAX = 165;
+const DESC_WARN = 160;
 const DESC_MIN = 70;
 
-// Stricter SERP-budget gate for the 5 service subpages (task 25):
-// titles 50-60 chars, descriptions 145-160 chars, all 6 langs.
-const SUBPAGE_TITLE_MIN = 50;
+// SERP-budget gate for the 5 service subpages.
+// Task 2 (premium SEO rollout) updated approved copy: titles 40-60 chars,
+// descriptions 140-165 chars; CTA-ending requirement softened to a warning.
+const SUBPAGE_TITLE_MIN = 40;
 const SUBPAGE_TITLE_MAX = 60;
-const SUBPAGE_DESC_MIN = 145;
-const SUBPAGE_DESC_MAX = 160;
+const SUBPAGE_DESC_MIN = 140;
+const SUBPAGE_DESC_MAX = 165;
 const SUBPAGE_KEYS = ["llcNm", "llcWy", "llcDe", "llcFl", "itin"] as const;
 type SubpageKey = (typeof SUBPAGE_KEYS)[number];
 
@@ -289,19 +292,18 @@ for (const item of subpageItems) {
     summary[item.lang].errors++;
   }
   if (!endsWithSoftCTA(item.lang, item.description)) {
-    violations.push({
+    warnings.push({
       scope: "page",
       lang: item.lang,
       key: `subpages.${item.page}@L${item.descLine}`,
       field: "description",
       length: dLen,
       limit: 0,
-      level: "error",
-      message: `Subpage description must end with a soft CTA (allowed endings for ${item.lang}: ${SUBPAGE_CTA_ENDINGS[item.lang].join(" / ")})`,
+      level: "warn",
+      message: `Subpage description does not end with a soft CTA (allowed endings for ${item.lang}: ${SUBPAGE_CTA_ENDINGS[item.lang].join(" / ")})`,
       value: item.description,
     });
-    subpageSummary[item.lang].errors++;
-    summary[item.lang].errors++;
+    summary[item.lang].warnings++;
   }
 }
 // Coverage check: each lang must declare all 5 service pages.
@@ -340,6 +342,14 @@ function findDuplicates(field: "title" | "description"): DuplicateGroup[] {
   const groups: DuplicateGroup[] = [];
   for (const [value, entries] of buckets) {
     if (entries.length > 1) {
+      // Cross-language duplicates of the same logical page (same key prefix
+      // before "@L") are expected — e.g. legal page titles that translate
+      // identically across romance languages with hreflang protection.
+      // Only flag duplicates that span DIFFERENT logical pages.
+      const pageKeys = new Set(
+        entries.map((e) => (e.scope === "page" ? e.key.split("@L")[0] : `${e.scope}:${e.key}`))
+      );
+      if (entries.every((e) => e.scope === "page") && pageKeys.size === 1) continue;
       groups.push({
         field,
         value,

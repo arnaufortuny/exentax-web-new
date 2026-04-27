@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T20:42:05.273Z",
-  "totalChunks": 712,
-  "totalKb": 18637.8,
-  "totalGzipKb": 7069.5,
+  "generatedAt": "2026-04-27T15:38:59.633Z",
+  "totalChunks": 711,
+  "totalKb": 18417.5,
+  "totalGzipKb": 7105.3,
   "budgetsKb": {
     "entry-index": 560,
     "vendor-react": 220,
@@ -18,119 +18,119 @@
   },
   "summary": {
     "page": {
-      "count": 22,
-      "totalKb": 670,
+      "count": 21,
+      "totalKb": 667.4,
       "maxKb": 131.2,
-      "maxFile": "ExistingLlcCallout-CSav9kye.js"
+      "maxFile": "ExistingLlcCallout-DBIcXmyy.js"
     },
     "blog-post": {
       "count": 672,
-      "totalKb": 15195.3,
-      "maxKb": 44.7,
-      "maxFile": "blog-de-nomada-digital-residencia-fiscal-BPPJwTAi.js"
+      "totalKb": 14979.8,
+      "maxKb": 41.5,
+      "maxFile": "blog-de-boe-febrero-2020-llc-doctrina-administrativa-BGBx7w5a.js"
     },
     "blog-shared": {
       "count": 2,
       "totalKb": 175.1,
       "maxKb": 96.3,
-      "maxFile": "blog-posts-content-BLRofYaB.js"
+      "maxFile": "blog-posts-content-DBKqjE25.js"
     },
     "locale": {
       "count": 10,
-      "totalKb": 1716.5,
-      "maxKb": 262.9,
-      "maxFile": "fr-BnOJGLdo.js"
+      "totalKb": 1714.9,
+      "maxKb": 262.6,
+      "maxFile": "fr-DTBowC-q.js"
     },
     "entry-index": {
       "count": 1,
-      "totalKb": 492.1,
-      "maxKb": 492.1,
-      "maxFile": "index-CVas4LKs.js"
+      "totalKb": 491.6,
+      "maxKb": 491.6,
+      "maxFile": "index-C3bCLD39.js"
     },
     "css": {
       "count": 1,
-      "totalKb": 111.1,
-      "maxKb": 111.1,
-      "maxFile": "index-in7Toz5g.css"
+      "totalKb": 110.8,
+      "maxKb": 110.8,
+      "maxFile": "index-DnUm-HCG.css"
     },
     "vendor-i18n": {
       "count": 1,
-      "totalKb": 47.7,
-      "maxKb": 47.7,
-      "maxFile": "vendor-i18n-DanoEuTN.js"
+      "totalKb": 48.1,
+      "maxKb": 48.1,
+      "maxFile": "vendor-i18n-DbA8zss3.js"
     },
     "vendor-query": {
       "count": 1,
-      "totalKb": 38,
-      "maxKb": 38,
-      "maxFile": "vendor-query-CQ8HCEus.js"
+      "totalKb": 38.5,
+      "maxKb": 38.5,
+      "maxFile": "vendor-query-CRcz9V_E.js"
     },
     "vendor-react": {
       "count": 1,
       "totalKb": 188.4,
       "maxKb": 188.4,
-      "maxFile": "vendor-react-DQi5_VN9.js"
+      "maxFile": "vendor-react-Dn3pgp6h.js"
     },
     "vendor-router": {
       "count": 1,
       "totalKb": 4,
       "maxKb": 4,
-      "maxFile": "vendor-router-BxIgqQfW.js"
+      "maxFile": "vendor-router-DWWl8GXP.js"
     }
   },
   "top": [
     {
-      "file": "index-CVas4LKs.js",
+      "file": "index-C3bCLD39.js",
       "category": "entry-index",
-      "bytesKb": 492.1,
-      "gzipKb": 143.9
+      "bytesKb": 491.6,
+      "gzipKb": 144.1
     },
     {
-      "file": "fr-BnOJGLdo.js",
+      "file": "fr-DTBowC-q.js",
       "category": "locale",
-      "bytesKb": 262.9,
-      "gzipKb": 78
+      "bytesKb": 262.6,
+      "gzipKb": 78.2
     },
     {
-      "file": "de-B994iO9i.js",
+      "file": "de-B8OFJ42t.js",
       "category": "locale",
-      "bytesKb": 256.9,
-      "gzipKb": 79
+      "bytesKb": 256.5,
+      "gzipKb": 79.2
     },
     {
-      "file": "pt-Dmkr02ph.js",
+      "file": "pt-C6YIhNpI.js",
       "category": "locale",
-      "bytesKb": 243.5,
-      "gzipKb": 73.5
+      "bytesKb": 243.2,
+      "gzipKb": 73.7
     },
     {
-      "file": "ca-OvdpiTzf.js",
+      "file": "ca-BQ4gmcwY.js",
       "category": "locale",
-      "bytesKb": 242.5,
+      "bytesKb": 242.2,
       "gzipKb": 74.5
     },
     {
-      "file": "en-Cw-n9w7d.js",
+      "file": "en-CfWUklsW.js",
       "category": "locale",
-      "bytesKb": 232.4,
-      "gzipKb": 71.4
+      "bytesKb": 232.1,
+      "gzipKb": 71.5
     },
     {
-      "file": "vendor-react-DQi5_VN9.js",
+      "file": "vendor-react-Dn3pgp6h.js",
       "category": "vendor-react",
       "bytesKb": 188.4,
       "gzipKb": 59
     },
     {
-      "file": "ExistingLlcCallout-CSav9kye.js",
+      "file": "ExistingLlcCallout-DBIcXmyy.js",
       "category": "page",
       "bytesKb": 131.2,
       "gzipKb": 28.8
     },
     {
-      "file": "index-in7Toz5g.css",
+      "file": "index-DnUm-HCG.css",
       "category": "css",
-      "bytesKb": 111.1,
+      "bytesKb": 110.8,
       "gzipKb": 20.5
     },
     {
@@ -140,7 +140,7 @@
       "gzipKb": 22.4
     },
     {
-      "file": "blog-posts-content-BLRofYaB.js",
+      "file": "blog-posts-content-DBKqjE25.js",
       "category": "blog-shared",
       "bytesKb": 96.3,
       "gzipKb": 13
@@ -172,10 +172,10 @@
   ],
   "offenders": [],
   "hardBudget": {
-    "serverBytes": 5649592,
-    "publicBytes": 20417595,
-    "serverMb": 5.39,
-    "publicMb": 19.47,
+    "serverBytes": 0,
+    "publicBytes": 20192057,
+    "serverMb": 0,
+    "publicMb": 19.26,
     "serverBudgetMb": 7,
     "publicBudgetMb": 30,
     "serverOk": true,

@@ -25,7 +25,7 @@ const en = {
     terminos: {
       title: "Terms and Conditions",
       seoTitle: "Terms and Conditions | Exentax",
-      seoDescription: "Terms and conditions of Exentax. US LLC formation and management, international tax planning, and ongoing advisory for freelancers and entrepreneurs.",
+      seoDescription: "Terms of use for Exentax services: scope, responsibilities, payments, cancellations and dispute resolution. Read them before engaging us.",
       ogTitle: "Exentax Terms and Conditions",
       ogDescription: "Terms and conditions for Exentax services: US LLC formation and international tax advisory. Exentax: tax-led setup, banking and compliance for your US LLC.",
       seoKeywords: "Exentax terms conditions, LLC service terms, LLC formation terms, Exentax legal",
@@ -93,7 +93,7 @@ const en = {
     privacidad: {
       title: "Privacy Policy and Data Protection",
       seoTitle: "Privacy Policy | Exentax",
-      seoDescription: "Exentax privacy policy. How we collect, use, and protect your personal data in our tax optimization services.",
+      seoDescription: "How Exentax processes your personal data: legal bases, purposes, data sharing, retention periods and your rights as a user.",
       ogTitle: "Privacy policy · Exentax",
       ogDescription: "How Exentax collects, uses and protects your personal data across our tax advisory services. Exentax tax advisors for non-resident US LLC owners.",
       seoKeywords: "Exentax privacy policy, LLC data protection, privacy LLC formation, Exentax privacy",
@@ -648,7 +648,7 @@ const en = {
     cookies: {
       title: "Cookie Policy",
       seoTitle: "Cookie Policy | Exentax",
-      seoDescription: "Information about the use of cookies on exentax.com. Specialized advisory on legal tax optimization for freelancers.",
+      seoDescription: "Which cookies we use on exentax.com, what they do and how to manage or disable them from your browser. Transparent, up-to-date policy.",
       ogTitle: "Cookie policy · Exentax",
       ogDescription: "How Exentax uses cookies on its site: types, purposes and how to manage your consent. Exentax: tax-led setup, banking and compliance for your US LLC.",
       seoKeywords: "Exentax cookie policy, cookies LLC, Exentax cookies",
@@ -686,7 +686,7 @@ const en = {
     reembolsos: {
       title: "Refund Policy",
       seoTitle: "Refund Policy | Exentax",
-      seoDescription: "Exentax refund policy. Cancellations, refunds, and guarantees for LLC formation and tax optimization services.",
+      seoDescription: "When you can request a refund, deadlines, covered cases and how to start the process. Clear terms, no fine print.",
       ogTitle: "Refund policy · Exentax",
       ogDescription: "Exentax refund policy: cancellations, refunds and service guarantees explained simply. Exentax: tax-led setup, banking and compliance for your US LLC.",
       seoKeywords: "Exentax refund policy, LLC formation guarantee, LLC refund, service cancellation LLC, Exentax refunds",
@@ -738,8 +738,8 @@ const en = {
     },
     disclaimer: {
       title: "Legal and Tax Disclaimer",
-      seoTitle: "Legal and Tax Disclaimer | Exentax",
-      seoDescription: "Exentax legal and tax disclaimer. Information about the nature of our services, liability limitations, and client obligations.",
+      seoTitle: "Legal Notice and Disclaimer | Exentax",
+      seoDescription: "Limitation of liability and legal notice on the information published on exentax.com. The content does not replace personalised professional advice.",
       ogTitle: "Legal and tax disclaimer · Exentax",
       ogDescription: "Exentax legal and tax disclaimer: scope of services, liability limits and client obligations. Exentax tax advisors for non-resident US LLC owners.",
       seoKeywords: "Exentax disclaimer, legal tax disclaimer, liability limitations, LLC services disclaimer",
@@ -1098,8 +1098,8 @@ const en = {
     confirmingDesc: "We're confirming your booking. One moment please.",
   },
   homePage: {
-    seoTitle: "Set up your US LLC with expert tax advisors | Exentax",
-    seoDesc: "Expert tax advisors set up your US LLC in 48 hours. Premium structure, EIN, operational banking and guaranteed annual compliance for professionals.",
+    seoTitle: "Elite tax advisory for your US LLC | Exentax",
+    seoDesc: "Where low-cost software ends, we begin. US LLC, EIN and US banking with lower taxes, maximum privacy and a real tax advisor on your case. Book 30 min today.",
     ogTitle: "Your US LLC in 48 hours, no surprises",
     ogDesc: "Set up your US LLC in 48 h with expert tax advisors. Free 30-min consultation. Exentax: tax-led setup, banking and compliance for your US LLC.",
     seoKeywords: "Exentax, US LLC, tax optimization, pay less taxes legally, LLC for freelancers, LLC for self-employed, tax structure, reduce taxes, international taxation, Wyoming LLC, Delaware LLC, New Mexico LLC, EIN, Form 5472, IRS compliance, US bank account, invoice with US LLC, freelancer taxes, digital nomad taxation",
@@ -1115,8 +1115,8 @@ const en = {
   },
   serviciosPage: {
     subpagesGrid: SUBPAGES_GRID_BY_LANG.en,
-    seoTitle: "Premium US LLC formation services | Exentax advisors",
-    seoDesc: "US LLC formation with expert tax advisors: EIN, BOI, custom tax structure, operational banking and flawless annual compliance.",
+    seoTitle: "US LLC services for serious non-resident founders | Exentax",
+    seoDesc: "LLC formation, EIN without SSN, ITIN via CAA, US banking and Form 5472. Premium tax services for non-resident founders who want lower taxes and real privacy.",
     ogTitle: "Form your US LLC with expert tax advisors",
     ogDesc: "US LLC formation with expert advisors: EIN, banking, custom tax structure and annual compliance. Exentax tax advisors for non-resident US LLC owners.",
     seoKeywords: "US LLC services, form LLC, manage LLC, EIN LLC, LLC bank account, annual compliance LLC, international tax advice, tax structure freelancer, LLC Wyoming, LLC Delaware, Exentax services",
@@ -1256,8 +1256,8 @@ const en = {
     }
   },
   reservarPage: {
-    seoTitle: "Tax consultation with US LLC experts | Book 30 min free",
-    seoDesc: "Book a free tax consultation with expert advisors in US LLCs. Diagnosis of your international structure and a tailored plan in 30 minutes.",
+    seoTitle: "Book your call with a specialist tax advisor | Exentax",
+    seoDesc: "30 minutes with a tax advisor who forms US LLCs for non-residents every week. Real diagnosis, clear plan and fixed price. Limited slots each week.",
     ogTitle: "Free 30-min US LLC strategy call with experts",
     ogDesc: "Free 30-minute call with US LLC tax experts: diagnosis and tailored international structure plan. Exentax tax advisors for non-resident US LLC owners.",
     seoKeywords: "Exentax schedule, Exentax tax advisory, Exentax book, tax advisory tax optimization, reduce taxes freelancer, tax analysis freelancer, how much can I save on taxes, freelancer tax advisory, tax planning meeting, reduce taxes legally, pay less taxes freelancer, book tax advisory online, schedule tax meeting, 30 minute tax video call, LLC tax consultation, personalized tax analysis, LLC for freelancers book advisory"
@@ -1325,8 +1325,8 @@ const en = {
     },
   },
   comoFuncionaPage: {
-    seoTitle: "How we set up your US LLC in 4 phases | Exentax advisors",
-    seoDesc: "Expert tax advisors set up your US LLC in 4 phases: diagnosis, structure, operational banking and compliance. Guaranteed result in 48 hours.",
+    seoTitle: "How we work: your US LLC, led by a real tax advisor",
+    seoDesc: "Discovery, formation, EIN, banking and compliance: four phases with real timelines and a senior tax advisor leading your case. Not chat support, real advisory.",
     ogTitle: "How we set up your US LLC in 4 phases",
     ogDesc: "Diagnosis, structure, banking and compliance: your US LLC ready in 48 hours, no surprises. Exentax: tax-led setup, banking and compliance for your US LLC.",
     seoKeywords: "how to set up a US LLC, LLC formation process, US LLC step by step, LLC formation for non-residents, LLC tax advisory, personalised tax structure, LLC in 48 hours, 4-phase LLC formation, annual LLC management, US LLC compliance, LLC for freelancers, LLC for digital businesses, Exentax process",
@@ -1435,8 +1435,8 @@ const en = {
     }
   },
   llcUsPage: {
-    seoTitle: "US LLC for non-residents: 2026 expert tax guide | Exentax",
-    seoDesc: "Expert tax advisors explain what a US LLC is, its taxation, real benefits and the optimal structure for international professionals.",
+    seoTitle: "US LLC: the vehicle to pay 0% federal tax legally",
+    seoDesc: "The best-kept secret of non-resident founders: a US LLC, 0% federal tax, US banking and global reputation. We show you when it's your move — and when it's not.",
     ogTitle: "US LLC for non-residents: the 2026 guide",
     ogDesc: "What a US LLC is, how it's taxed and why it's the best structure for international freelancers and digital businesses. Explained by expert advisors.",
     seoKeywords: "US LLC non-resident, what is an LLC, LLC benefits, how to invoice with LLC, dollar banking non-resident, Stripe LLC non-resident, Wyoming LLC non-resident, Delaware LLC, LLC freelancer, EIN number, LLC guide 2026",
@@ -1500,8 +1500,8 @@ const en = {
     flAdvantages: ["Preferred access to US banking and payment gateways","Hub for Hispanic and Latin American entrepreneurs","No state income tax","Wide acceptance across providers and marketplaces","Great fit for e-commerce, SaaS and B2C services"]
   },
   faqPage: {
-    seoTitle: "US LLC FAQ: 79 questions answered by Exentax",
-    seoDesc: "79 clear answers from Exentax on US LLCs: international taxation, residency, CRS, FATCA, BOI, banking and IRS compliance. No jargon.",
+    seoTitle: "US LLC FAQ for non-residents · No fluff",
+    seoDesc: "Taxes, EIN, ITIN, Form 5472, US banking, which state and real costs. No marketing fluff: direct answers from specialist tax advisors who file every week.",
     ogTitle: "79 clear answers about US LLCs",
     ogDesc: "79 clear answers on US LLCs: international tax, residency, BOI, banking and IRS compliance. Exentax: tax-led setup, banking and compliance for your US LLC.",
     seoKeywords: "LLC FAQ, US LLC questions, international LLC taxation, tax residency LLC, CRS LLC, DAC7 LLC, DAC8 crypto, FATCA, Form 1120 5472, BOI Report, controlled foreign corporation, double taxation US, Wyoming Delaware New Mexico, US business banking, Interactive Brokers LLC, W-8BEN, LLC compliance, Exentax",
@@ -1730,10 +1730,6 @@ const en = {
     ogDescription: "WhatsApp, strategy calls, the tax calculator and social channels: every Exentax touchpoint gathered into one shareable link.",
     h1Line1: "LLCs are not the problem.",
     h1Line2: "Bad structuring is.",
-    sub1Line1: "Forming in the US is a formality.",
-    sub1Line2: "Operating correctly from your country is tax strategy.",
-    sub2Line1: "If you're looking for shortcuts, this isn't for you.",
-    sub2Line2: "If you're looking for serious structure, it is.",
     cta: "Book a strategic consultation",
     whatsapp: "Talk on WhatsApp",
     whatsappMsg: "Hello, I'd like to talk about the free strategic tax consultation.",
@@ -1791,8 +1787,8 @@ const en = {
     heading: "International taxation and LLC",
     subtitle: "Clear articles on tax optimization, LLCs in the United States, and everything you need to make informed decisions.",
     pretitle: "BLOG",
-    seoTitle: "Exentax Blog · International tax & US LLCs by experts",
-    seoDescription: "Articles on tax optimization, US LLCs, compliance and legal strategies for freelancers and digital entrepreneurs.",
+    seoTitle: "Exentax Blog · US LLCs, tax and banking, no fluff",
+    seoDescription: "The guides your accountant never gave you: US LLCs for non-residents, Form 5472, ITIN, US banking and real-world tax. Written by advisors who live it daily.",
     ogTitle: "Exentax Blog: US LLC and international tax expertise",
     ogDescription: "Tax-led articles for non-resident US LLC owners: state choice, Mercury, Form 5472, BOI, ITIN and end-to-end compliance written by Exentax tax advisors.",
     seoKeywords: "international tax blog, US LLC guide, tax optimization freelancer, reduce taxes freelancer, LLC compliance, legal tax strategies, Exentax blog, digital business tax, digital nomad taxes",
