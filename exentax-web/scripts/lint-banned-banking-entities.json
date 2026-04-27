@@ -1,0 +1,11 @@
+{
+  "$comment": "Forbidden banking-entity phrases that must never reappear in blog content. Loaded by scripts/lint-banned-banking-entities.mjs. Matching is case-insensitive and whitespace-flexible (any run of whitespace inside a phrase matches one or more whitespace chars). See exentax-web/docs/fact-check-2026.md (issue catalog) and exentax-web/docs/banking-facts-2026.md (Revolut Business section, SOT) for the underlying truth claims.",
+  "phrases": [
+    {
+      "phrase": "Revolut Payments USA",
+      "issue": "revolut-payments-usa-inexistente",
+      "reason": "Entity does not exist. Use 'Revolut Technologies Inc.' with 'Lead Bank' as US banking partner for US LLCs.",
+      "sot": "exentax-web/docs/banking-facts-2026.md (§Revolut Business)"
+    }
+  ]
+}
