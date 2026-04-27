@@ -114,17 +114,52 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright browsers
-        # `--with-deps` pulls in the system libraries each engine
-        # needs on ubuntu-latest (libnss3, libgbm1, libgtk-3-0, …).
-        # The mobile + tablet projects re-use the desktop engines:
+      - name: Resolve pinned Playwright version
+        # Read the exact version from `package-lock.json` so the cache
+        # key tracks the lockfile, not whatever floating tag is in
+        # `package.json`. When the lockfile bumps Playwright, the key
+        # changes and we re-download — otherwise we hit the cache.
+        id: playwright-version
+        run: |
+          version=$(node -p "require('./package-lock.json').packages['node_modules/@playwright/test'].version")
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        # The browser binaries Playwright downloads live in
+        # `~/.cache/ms-playwright` and are pinned per Playwright
+        # version, so caching them keyed on that version is safe and
+        # cuts each matrix leg's setup from minutes to seconds.
+        # System libraries (libnss3, libgbm1, …) are NOT cached here
+        # — they live under `/usr/lib` and are reinstalled cheaply by
+        # `playwright install-deps` on cache hit.
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}
+
+      - name: Install Playwright browsers (cache miss)
+        # On cache miss we download the browser binaries AND install
+        # the system libs in one shot. `--with-deps` pulls in the
+        # system libraries each engine needs on ubuntu-latest
+        # (libnss3, libgbm1, libgtk-3-0, …). The mobile + tablet
+        # projects re-use the desktop engines:
         #   - mobile-chrome   (Pixel 7)        → chromium
         #   - mobile-safari   (iPhone 14)      → webkit
         #   - tablet-ipad     (iPad gen 11)    → webkit
         #   - tablet-android  (Galaxy Tab S4)  → chromium
         # so installing all three engines (chromium / firefox / webkit)
         # is enough to cover every project in `playwright.config.ts`.
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium firefox webkit
+
+      - name: Install Playwright system deps (cache hit)
+        # The browser binaries restored from cache still need their
+        # apt-level system libraries (libnss3, libgbm1, libgtk-3-0, …)
+        # provisioned on the runner, so re-run just the deps step.
+        # This is seconds, vs. minutes for the full browser download.
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium firefox webkit
 
       - name: Run E2E suite (${{ matrix.project }})
         # Run only this matrix leg's project. The config spins up
