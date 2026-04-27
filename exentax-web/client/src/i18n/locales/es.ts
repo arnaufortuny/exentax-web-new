@@ -891,7 +891,7 @@ const es = {
  whatsappMsg:"Hola, me interesa optimizar mi fiscalidad. He visto lo que hacéis en Exentax y me gustaría entender si una LLC tiene sentido para mi situación. ¿Podemos hablar?",
  },
  heroStats: {
- reductionLabel:"Reducción fiscal de hasta",
+ reductionLabel:"IRS federal para no residentes",
  clientsLabel:"Clientes con estructura activa",
  ratingLabel:"Cómo nos valoran los clientes",
  pricingFrom:"Constitución completa desde",

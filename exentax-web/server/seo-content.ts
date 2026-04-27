@@ -12,8 +12,8 @@ export interface PageMeta {
 
 export const PAGE_META: Record<string, PageMeta> = {
   "/": {
-    title: "Reducir carga fiscal hasta un 80% con LLC americana | Exentax",
-    description: "Reduce tu carga fiscal hasta un 80% con una LLC americana. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
+    title: "Paga hasta 0% federal con una LLC americana | Exentax",
+    description: "Una LLC bien estructurada paga hasta 0% en IRS federal. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
     canonical: BASE_URL,
   },
   "/blog": {
@@ -304,33 +304,33 @@ export const PAGE_META: Record<string, PageMeta> = {
     noindex: true,
   },
   "/es": {
-    title: "Reducir carga fiscal hasta un 80% con LLC americana | Exentax",
-    description: "Reduce tu carga fiscal hasta un 80% con una LLC americana. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
+    title: "Paga hasta 0% federal con una LLC americana | Exentax",
+    description: "Una LLC bien estructurada paga hasta 0% en IRS federal. Setup en 2 días: EIN, cuenta USA (Slash, Wise, Relay, Mercury) y compliance. Consulta gratuita.",
     canonical: `${BASE_URL}/es`,
   },
   "/en": {
-    title: "Cut your tax burden by up to 80% with a US LLC | Exentax",
-    description: "Cut your tax burden by up to 80% with a US LLC. Setup in 2 days: EIN, US bank account (Slash, Wise, Relay, Mercury) and full compliance. Free 30-min consult.",
+    title: "Pay up to 0% US federal tax with a US LLC | Exentax",
+    description: "A well-structured US LLC pays up to 0% federal IRS. Setup in 2 days: EIN, US bank account (Slash, Wise, Relay, Mercury) and full compliance. Free 30-min consult.",
     canonical: `${BASE_URL}/en`,
   },
   "/fr": {
-    title: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US | Exentax",
-    description: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US. EIN, compte bancaire (Slash, Wise, Relay, Mercury), compliance inclus. Consultation gratuite.",
+    title: "LLC américaine: jusqu'à 0% d'impôt fédéral US | Exentax",
+    description: "Une LLC bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN, compte bancaire (Slash, Wise, Relay, Mercury), compliance inclus. Consultation gratuite.",
     canonical: `${BASE_URL}/fr`,
   },
   "/de": {
-    title: "Steuerlast bis zu 80% senken mit US-LLC | Exentax",
-    description: "Reduzieren Sie Ihre Steuerlast um bis zu 80% mit einer US-LLC. EIN, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Kostenlose Beratung.",
+    title: "US-LLC: bis zu 0% US-Bundessteuer zahlen | Exentax",
+    description: "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Kostenlose Beratung.",
     canonical: `${BASE_URL}/de`,
   },
   "/pt": {
-    title: "Reduza a sua carga fiscal até 80% com LLC americana | Exentax",
-    description: "Reduza a sua carga fiscal até 80% com uma LLC americana. EIN, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Consulta grátis 30 min.",
+    title: "LLC americana: até 0% de imposto federal US | Exentax",
+    description: "Uma LLC bem estruturada paga até 0% de imposto federal US. EIN, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Consulta grátis 30 min.",
     canonical: `${BASE_URL}/pt`,
   },
   "/ca": {
-    title: "Redueix la càrrega fiscal fins un 80% amb LLC americana | Exentax",
-    description: "Redueix la teva càrrega fiscal fins a un 80% amb una LLC americana. EIN, compte USA (Slash, Wise, Relay, Mercury), compliance. Consulta gratuïta.",
+    title: "LLC americana: fins a 0% d'impost federal US | Exentax",
+    description: "Una LLC ben estructurada paga fins a 0% d'impost federal US. EIN, compte USA (Slash, Wise, Relay, Mercury), compliance. Consulta gratuïta.",
     canonical: `${BASE_URL}/ca`,
   },
   "/es/como-trabajamos": {
@@ -663,12 +663,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
 
   const PAGE_DESCS: Record<RouteKey, Record<SupportedLang, string>> = {
     home: {
-      es: "Reduce tu carga fiscal hasta un 80% con una LLC americana. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
-      en: "Cut your tax burden by up to 80% with a US LLC. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
-      fr: "Réduisez votre charge fiscale jusqu'à 80% avec une LLC US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
-      de: "Reduzieren Sie Ihre Steuerlast um bis zu 80% mit einer US-LLC. EIN ohne Reise, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Für Freelancer.",
-      pt: "Reduza a sua carga fiscal até 80% com uma LLC americana. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
-      ca: "Redueix la teva càrrega fiscal fins un 80% amb una LLC americana. EIN sense viatjar, compte USA (Slash, Wise, Relay, Mercury) i compliance inclosos.",
+      es: "Una LLC americana bien estructurada paga hasta 0% en IRS federal. EIN sin viajar, cuenta USA (Slash, Wise, Relay, Mercury) y compliance incluidos. Para freelancers y autónomos.",
+      en: "A well-structured US LLC pays up to 0% federal IRS. EIN without travel, US bank account (Slash, Wise, Relay, Mercury) and full compliance included. Built for freelancers.",
+      fr: "Une LLC américaine bien structurée paie jusqu'à 0% d'impôt fédéral US. EIN sans déplacement, compte US (Slash, Wise, Relay, Mercury) et compliance inclus. Pour freelances.",
+      de: "Eine gut strukturierte US-LLC zahlt bis zu 0% US-Bundessteuer. EIN ohne Reise, US-Bankkonto (Slash, Wise, Relay, Mercury), Compliance. Für Freelancer.",
+      pt: "Uma LLC americana bem estruturada paga até 0% de imposto federal US. EIN sem viajar, conta USA (Slash, Wise, Relay, Mercury) e compliance incluídos. Para freelancers.",
+      ca: "Una LLC americana ben estructurada paga fins a 0% d'impost federal US. EIN sense viatjar, compte USA (Slash, Wise, Relay, Mercury) i compliance inclosos.",
     },
     our_services: {
       es: "Servicios LLC Estados Unidos: constitución, EIN, Operating Agreement, cuenta USA (Slash, Wise, Relay, Mercury) y compliance LLC. Planes para no residentes.",
@@ -1032,7 +1032,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Introduce tus ingresos mensuales, tu país de residencia fiscal y tu régimen actual. Compara al instante lo que pagas hoy con lo que pagarías con una LLC americana bien estructurada. Sin registro. Sin compromiso.</p>
 <h2>Cómo nos diferenciamos</h2>
 <ul>
-<li>Hasta -80% de reducción fiscal alcanzable con estructura LLC bien diseñada</li>
+<li>Hasta 0% de IRS federal con estructura LLC bien diseñada (no residentes)</li>
 <li>+50 clientes con estructura activa y optimizada</li>
 <li>Asesoría fiscal estratégica de 30 minutos por videollamada </li>
 <li>Todo 100% online: sin necesidad de viajar a Estados Unidos</li>
@@ -1283,7 +1283,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <h2>¿Qué es una LLC?</h2>
 <p>Es una figura jurídica estadounidense que separa tus bienes personales de los del negocio. Para no residentes con una Single-Member LLC, el IRS la clasifica como Disregarded Entity: no paga impuesto federal en EE.UU.</p>
 <h2>¿Por qué tantos freelancers eligen una LLC?</h2>
-<ul><li>Fiscalidad optimizada: reduce tu carga fiscal hasta un 80%</li><li>Protección patrimonial</li><li>Banca USA en dólares (Slash, Wise, Relay, Mercury)</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
+<ul><li>Fiscalidad optimizada: hasta 0% de IRS federal para no residentes</li><li>Protección patrimonial</li><li>Banca USA en dólares (Slash, Wise, Relay, Mercury)</li><li>Acceso a Stripe y PayPal sin restricciones</li><li>100% online</li></ul>
 <h2>Mejores estados para tu LLC</h2>
 <p>Nuevo México (estructura eficiente), Wyoming (máxima privacidad) y Delaware (mejor marco legal). Cada estado tiene ventajas distintas según tu situación.</p>
 <p><a href="/es/agendar">Agenda una asesoría fiscal</a> para saber cuál te conviene.</p>
@@ -2897,7 +2897,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>At Exentax we design international tax structures so you pay only what you owe, with certainty and without guesswork. We reduce your tax burden from 40% to as low as 0% through legitimate tax planning.</p>
 <h2>How Exentax is different</h2>
 <ul>
-<li>Up to -80% tax reduction achievable with a well-designed LLC structure</li>
+<li>Up to 0% US federal IRS with a well-designed LLC structure (non-residents)</li>
 <li>+50 clients with an active and optimized structure</li>
 <li>Strategic 30-minute video consultation</li>
 <li>100% online: no travel to the United States required</li>
@@ -3060,7 +3060,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Chez Exentax nous concevons des structures fiscales internationales pour que vous ne payiez que ce que vous devez, avec certitude et sans improvisation.</p>
 <h2>Nos différences</h2>
 <ul>
-<li>Jusqu'à -80 % de réduction fiscale avec une structure LLC bien conçue</li>
+<li>Jusqu'à 0 % d'impôt fédéral US avec une structure LLC bien conçue (non-résidents)</li>
 <li>+50 clients avec une structure active et optimisée</li>
 <li>Consultation stratégique de 30 minutes en visioconférence</li>
 <li>100 % en ligne: aucun déplacement aux États-Unis</li>
@@ -3218,7 +3218,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Exentax gestaltet internationale Steuerstrukturen, damit Sie nur zahlen, was Sie schulden: mit Rechtssicherheit, ohne Improvisation.</p>
 <h2>Was uns unterscheidet</h2>
 <ul>
-<li>Bis zu -80 % Steuerreduktion mit einer gut konzipierten LLC-Struktur</li>
+<li>Bis zu 0 % US-Bundessteuer mit einer gut konzipierten LLC-Struktur (Nichtansässige)</li>
 <li>+50 Mandanten mit aktiver und optimierter Struktur</li>
 <li>Strategische 30-Minuten-Videoberatung</li>
 <li>100 % online: keine USA-Reise nötig</li>
@@ -3376,7 +3376,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Na Exentax desenhamos estruturas fiscais internacionais para que você pague apenas o que deve, com segurança e sem improviso.</p>
 <h2>O que nos diferencia</h2>
 <ul>
-<li>Até -80 % de redução fiscal com uma estrutura LLC bem desenhada</li>
+<li>Até 0 % de imposto federal US com uma estrutura LLC bem desenhada (não residentes)</li>
 <li>+50 clientes com estrutura ativa e otimizada</li>
 <li>Consultoria estratégica de 30 minutos por videochamada</li>
 <li>100 % online: sem viajar aos Estados Unidos</li>
@@ -3534,7 +3534,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>A Exentax dissenyem estructures fiscals internacionals perquè paguis només el que deus, amb seguretat i sense improvisacions.</p>
 <h2>Com ens diferenciem</h2>
 <ul>
-<li>Fins a -80 % de reducció fiscal amb una estructura LLC ben dissenyada</li>
+<li>Fins a 0 % d'impost federal US amb una estructura LLC ben dissenyada (no residents)</li>
 <li>+50 clients amb estructura activa i optimitzada</li>
 <li>Assessoria estratègica de 30 minuts per videotrucada</li>
 <li>100 % online: sense viatjar als Estats Units</li>

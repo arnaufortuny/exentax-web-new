@@ -891,7 +891,7 @@ const de = {
     whatsappMsg: "Hallo, ich möchte meine Steuersituation optimieren. Ich habe gesehen, was ihr bei Exentax macht, und würde gerne verstehen, ob eine LLC für meinen Fall sinnvoll ist. Können wir sprechen?"
   },
   heroStats: {
-    reductionLabel: "Steuerlastreduktion bis zu",
+    reductionLabel: "US-Bundessteuer (Nichtansässige)",
     clientsLabel: "Kunden mit aktiver Struktur",
     ratingLabel: "Wie uns Kunden bewerten",
     pricingFrom: "Vollständige Gründung ab",
