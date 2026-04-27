@@ -674,42 +674,17 @@ export interface FollowupEmailData {
 export async function sendFollowupEmail(data: FollowupEmailData) {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
-  const ns = t.noShow; // re-use the friendly noShow tone (same translator scope)
+  const ns = t.noShow; // re-use the friendly noShow tone for closing + unsubNote
+  const fu = t.followup;
   const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
 
-  const subject = (() => {
-    switch (lang) {
-      case "en": return `${BRAND_NAME} — quick follow-up`;
-      case "fr": return `${BRAND_NAME} — petit suivi`;
-      case "de": return `${BRAND_NAME} — kurze Nachfrage`;
-      case "pt": return `${BRAND_NAME} — pequeno acompanhamento`;
-      case "ca": return `${BRAND_NAME} — seguiment ràpid`;
-      default:   return `${BRAND_NAME} — seguimiento rápido`;
-    }
-  })();
-
-  const intro = (() => {
-    switch (lang) {
-      case "en": return `Hi ${firstName}, just checking in after our recent conversation. If you have any follow-up question or want to take the next step, simply reply to this email — I'm here to help.`;
-      case "fr": return `Bonjour ${firstName}, je reviens vers vous suite à notre récent échange. Si vous avez la moindre question ou souhaitez avancer, répondez simplement à cet email — je reste à votre disposition.`;
-      case "de": return `Hallo ${firstName}, ich melde mich kurz nach unserem letzten Austausch. Wenn Sie noch Fragen haben oder den nächsten Schritt gehen möchten, antworten Sie einfach auf diese E-Mail — ich bin gerne für Sie da.`;
-      case "pt": return `Olá ${firstName}, escrevo a seguir à nossa conversa recente. Se tiver alguma dúvida ou quiser avançar, basta responder a este email — estou aqui para ajudar.`;
-      case "ca": return `Hola ${firstName}, et torno a escriure després de la nostra conversa. Si tens qualsevol dubte o vols avançar, només cal que responguis a aquest correu — sóc aquí per ajudar-te.`;
-      default:   return `Hola ${firstName}, te escribo para hacer un seguimiento de nuestra conversación. Si tienes cualquier duda o quieres dar el siguiente paso, responde a este email — estoy a tu disposición.`;
-    }
-  })();
-
-  const ctaLabel = (() => {
-    switch (lang) {
-      case "en": return "Book another session"; case "fr": return "Réserver une autre session";
-      case "de": return "Weitere Sitzung buchen"; case "pt": return "Marcar nova sessão";
-      case "ca": return "Reservar una nova sessió"; default: return "Reservar otra sesión";
-    }
-  })();
+  const subject = fu.subject;
+  const intro = fu.intro(firstName);
+  const ctaLabel = fu.ctaLabel;
 
   const clientBody = `
-    ${heading(`Hola, ${firstName}`)}
+    ${heading(fu.heading(firstName))}
 
     ${bodyText(intro)}
 

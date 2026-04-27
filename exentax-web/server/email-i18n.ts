@@ -1,4 +1,4 @@
-import { SUPPORTED_LANGS, type SupportedLang } from "./server-constants";
+import { SUPPORTED_LANGS, type SupportedLang, BRAND_NAME } from "./server-constants";
 
 export function resolveEmailLang(lang?: string | null): SupportedLang {
   if (!lang) return "es";
@@ -105,6 +105,12 @@ interface EmailTranslations {
     whatsappIntro: string;
     closing: string;
     unsubNote: string;
+  };
+  followup: {
+    subject: string;
+    heading: (firstName: string) => string;
+    intro: (firstName: string) => string;
+    ctaLabel: string;
   };
   newsletterWelcome: {
     subject: string;
@@ -253,6 +259,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "Si prefieres comentarlo antes de volver a reservar, también puedes escribirnos directamente por WhatsApp:",
       closing: "Quedamos atentos.",
       unsubNote: "Has recibido este email porque contactaste con exentax.com.",
+    },
+    followup: {
+      subject: `${BRAND_NAME} — seguimiento rápido`,
+      heading: (firstName: string) => `Hola, ${firstName}`,
+      intro: (firstName: string) => `Hola ${firstName}, te escribo para hacer un seguimiento de nuestra conversación. Si tienes cualquier duda o quieres dar el siguiente paso, responde a este email — estoy a tu disposición.`,
+      ctaLabel: "Reservar otra sesión",
     },
     newsletterWelcome: {
       subject: "Bienvenido a Exentax — empezamos contigo",
@@ -406,6 +418,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "We'll be here.",
       unsubNote: "You received this email because you contacted exentax.com.",
     },
+    followup: {
+      subject: `${BRAND_NAME} — quick follow-up`,
+      heading: (firstName: string) => `Hi, ${firstName}`,
+      intro: (firstName: string) => `Hi ${firstName}, just checking in after our recent conversation. If you have any follow-up question or want to take the next step, simply reply to this email — I'm here to help.`,
+      ctaLabel: "Book another session",
+    },
     newsletterWelcome: {
       subject: "Welcome to Exentax — let's get started",
       heading: "Hi,",
@@ -557,6 +575,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "Si vous préférez en discuter avant de réserver à nouveau, vous pouvez aussi nous écrire directement sur WhatsApp :",
       closing: "Nous restons à votre disposition.",
       unsubNote: "Vous avez reçu cet email car vous avez contacté exentax.com.",
+    },
+    followup: {
+      subject: `${BRAND_NAME} — petit suivi`,
+      heading: (firstName: string) => `Bonjour, ${firstName}`,
+      intro: (firstName: string) => `Bonjour ${firstName}, je reviens vers vous suite à notre récent échange. Si vous avez la moindre question ou souhaitez avancer, répondez simplement à cet email — je reste à votre disposition.`,
+      ctaLabel: "Réserver une autre session",
     },
     newsletterWelcome: {
       subject: "Bienvenue chez Exentax — on démarre avec vous",
@@ -710,6 +734,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Wir sind für Sie da.",
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie exentax.com kontaktiert haben.",
     },
+    followup: {
+      subject: `${BRAND_NAME} — kurze Nachfrage`,
+      heading: (firstName: string) => `Hallo, ${firstName}`,
+      intro: (firstName: string) => `Hallo ${firstName}, ich melde mich kurz nach unserem letzten Austausch. Wenn Sie noch Fragen haben oder den nächsten Schritt gehen möchten, antworten Sie einfach auf diese E-Mail — ich bin gerne für Sie da.`,
+      ctaLabel: "Weitere Sitzung buchen",
+    },
     newsletterWelcome: {
       subject: "Willkommen bei Exentax — wir starten mit Ihnen",
       heading: "Hallo,",
@@ -862,6 +892,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Ficamos atentos.",
       unsubNote: "Recebeu este email porque contactou exentax.com.",
     },
+    followup: {
+      subject: `${BRAND_NAME} — pequeno acompanhamento`,
+      heading: (firstName: string) => `Olá, ${firstName}`,
+      intro: (firstName: string) => `Olá ${firstName}, escrevo a seguir à nossa conversa recente. Se tiver alguma dúvida ou quiser avançar, basta responder a este email — estou aqui para ajudar.`,
+      ctaLabel: "Marcar nova sessão",
+    },
     newsletterWelcome: {
       subject: "Bem-vindo à Exentax — começamos consigo",
       heading: "Olá,",
@@ -1013,6 +1049,12 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       whatsappIntro: "Si prefereixes comentar-ho abans de tornar a reservar, també pots escriure'ns directament per WhatsApp:",
       closing: "Quedem atents.",
       unsubNote: "Has rebut aquest email perquè has contactat amb exentax.com.",
+    },
+    followup: {
+      subject: `${BRAND_NAME} — seguiment ràpid`,
+      heading: (firstName: string) => `Hola, ${firstName}`,
+      intro: (firstName: string) => `Hola ${firstName}, et torno a escriure després de la nostra conversa. Si tens qualsevol dubte o vols avançar, només cal que responguis a aquest correu — sóc aquí per ajudar-te.`,
+      ctaLabel: "Reservar una nova sessió",
     },
     newsletterWelcome: {
       subject: "Benvingut a Exentax — comencem amb tu",
