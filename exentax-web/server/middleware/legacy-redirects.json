@@ -22,6 +22,8 @@
   "/blog": "/es/blog",
   "/blog/index": "/es/blog",
   "/{lang}/blog/index": "/{lang}/blog",
+  "/de/haeufige-fragen": "/de/haufige-fragen",
+  "/de/ueber-llc": "/de/uber-llc",
   "/es/llc-en-wyoming": "/es/servicios/llc-wyoming",
   "/en/llc-en-wyoming": "/en/services/llc-wyoming",
   "/fr/llc-en-wyoming": "/fr/services/llc-wyoming",

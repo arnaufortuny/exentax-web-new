@@ -1056,7 +1056,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Freelancers, programadores, diseñadores, consultores, creadores de contenido, traders de criptomonedas y forex, e-commerce, SaaS, agencias de marketing y nómadas digitales que facturan internacionalmente.</p>
 <h3>Países atendidos</h3>
 <p>Trabajamos con autónomos y emprendedores de España, Argentina, México, Colombia, Chile y Perú. Nuestro equipo habla español e inglés y conoce la legislación fiscal de cada país.</p>
-<p>Contacto: <a href="mailto:hola@exentax.com">hola@exentax.com</a> | <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
+<p>Contacto: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/es/sobre-las-llc">LLC en Estados Unidos: Guía completa 2026</a>
 <a href="/es/como-trabajamos">Así trabajamos: Proceso paso a paso</a>
@@ -2912,6 +2912,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Includes: Articles of Organization, Operating Agreement, EIN (IRS tax ID), Registered Agent, Mercury business account and 12 months of support.</p>
 <h2>Who is Exentax for?</h2>
 <p>Freelancers, software engineers, designers, consultants, content creators, crypto and forex traders, e-commerce owners, SaaS founders, marketing agencies and digital nomads invoicing internationally.</p>
+<h3>Countries we serve</h3>
+<p>We work with freelancers and entrepreneurs from Spain, Argentina, Mexico, Colombia, Chile and Peru. Our team speaks Spanish and English and knows the tax law of each country.</p>
+<p>Contact: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/en/about-llc">US LLC for non-residents: 2026 guide</a>
 <a href="/en/how-we-work">How we work: step by step</a>
@@ -3069,6 +3072,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: meilleur cadre juridique pour les startups</li>
 </ul>
 <p>Inclus : Articles of Organization, Operating Agreement, EIN (numéro fiscal IRS), agent enregistré, compte bancaire Mercury et 12 mois d'accompagnement.</p>
+<h3>Pays desservis</h3>
+<p>Nous travaillons avec des freelances et entrepreneurs d'Espagne, d'Argentine, du Mexique, de Colombie, du Chili et du Pérou. Notre équipe parle espagnol et anglais et connaît la fiscalité de chaque pays.</p>
+<p>Contact: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/fr/a-propos-des-llc">LLC américaine pour non-résidents: guide 2026</a>
 <a href="/fr/comment-nous-travaillons">Comment nous travaillons</a>
@@ -3223,6 +3229,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Delaware LLC: bester Rechtsrahmen für investor-taugliche Unternehmen</li>
 </ul>
 <p>Inklusive: Articles of Organization, Operating Agreement, EIN (IRS-Steuernummer), Registered Agent, Mercury-Geschäftskonto und 12 Monate Betreuung.</p>
+<h3>Bediente Länder</h3>
+<p>Wir arbeiten mit Freelancern und Unternehmern aus Spanien, Argentinien, Mexiko, Kolumbien, Chile und Peru. Unser Team spricht Spanisch und Englisch und kennt die Steuergesetze jedes Landes.</p>
+<p>Kontakt: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/de/uber-llc">US-LLC für Nicht-Residenten: Leitfaden 2026</a>
 <a href="/de/wie-wir-arbeiten">Wie wir arbeiten</a>
@@ -3377,6 +3386,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: melhor arcabouço jurídico para empresas com investidores</li>
 </ul>
 <p>Inclui: Articles of Organization, Operating Agreement, EIN, agente registrado, conta Mercury e 12 meses de suporte.</p>
+<h3>Países atendidos</h3>
+<p>Trabalhamos com freelancers e empreendedores de Espanha, Argentina, México, Colômbia, Chile e Peru. A nossa equipa fala espanhol e inglês e conhece a legislação fiscal de cada país.</p>
+<p>Contacto: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/pt/sobre-llc">LLC americana para não residentes: guia 2026</a>
 <a href="/pt/como-trabalhamos">Como trabalhamos</a>
@@ -3531,6 +3543,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>LLC Delaware: millor marc legal per a empreses amb inversors</li>
 </ul>
 <p>Inclou: Articles of Organization, Operating Agreement, EIN, agent registrat, compte Mercury i 12 mesos de suport.</p>
+<h3>Països atesos</h3>
+<p>Treballem amb autònoms i emprenedors d'Espanya, Argentina, Mèxic, Colòmbia, Xile i Perú. El nostre equip parla castellà i anglès i coneix la legislació fiscal de cada país.</p>
+<p>Contacte: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
 <nav>
 <a href="/ca/sobre-les-llc">LLC als EUA per a no residents: guia 2026</a>
 <a href="/ca/com-treballem">Com treballem</a>
