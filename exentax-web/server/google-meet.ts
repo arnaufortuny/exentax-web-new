@@ -167,7 +167,25 @@ async function _createGoogleMeetEventInternal(params: MeetEventParams): Promise<
       const calendarEventId = response.data.id;
 
       logger.info(`Event created → ${meetLink} (eventId: ${calendarEventId})`, "meet");
-      if (!meetLink || !calendarEventId) return null;
+      if (!meetLink || !calendarEventId) {
+        logger.warn(
+          `Meet link or eventId missing — cleaning up orphan event (eventId=${calendarEventId || "none"}, meetLink=${meetLink || "none"})`,
+          "meet",
+        );
+        if (calendarEventId) {
+          try {
+            await calendar.events.delete({
+              calendarId,
+              eventId: calendarEventId,
+              sendUpdates: "none",
+            });
+            logger.info("Orphan Meet event deleted successfully", "meet");
+          } catch (cleanupErr) {
+            logger.error("Failed to delete orphan Meet event:", "meet", cleanupErr);
+          }
+        }
+        return null;
+      }
       return { meetLink, eventId: calendarEventId };
     } catch (err) {
       if (attempt === 0 && (isTransient(err) || isAuthError(err))) {

@@ -1,7 +1,7 @@
 type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
 export const BLOG_SLUG_I18N: Record<string, Partial<Record<SupportedLang, string>>> = {
-  "llc-estados-unidos-guia-completa-2026": { en: "llc-in-the-united-states-complete-guide-for-non-residents-in", fr: "llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026", de: "llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten", pt: "llc-nos-estados-unidos-guia-completo-para-nao-residentes-em", ca: "llc-als-estats-units-guia-completa-per-a-no-residents-el" },
+  "llc-estados-unidos-guia-completa-2026": { en: "llc-united-states-complete-guide-non-residents-2026", fr: "llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026", de: "llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten", pt: "llc-estados-unidos-guia-completo-nao-residentes-2026", ca: "llc-estats-units-guia-completa-no-residents-2026" },
   "form-5472-que-es-como-presentarlo": { en: "form-5472-what-it-is-who-must-file-it-and-how-to-comply", fr: "form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment", de: "form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es", pt: "form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir", ca: "form-5472-que-es-qui-lha-de-presentar-i-com-complir" },
   "nuevo-mexico-vs-wyoming-vs-delaware": { en: "new-mexico-vs-wyoming-vs-delaware-which-state-for-your-llc", fr: "nouveau-mexique-vs-wyoming-vs-delaware-quel-etat-pour-votre", de: "new-mexico-vs-wyoming-vs-delaware-welchen-bundesstaat-fur", pt: "novo-mexico-vs-wyoming-vs-delaware-qual-estado-para-sua-llc", ca: "nou-mexic-vs-wyoming-vs-delaware-quin-estat-per-a-la-teva" },
   "separar-dinero-personal-llc-por-que-importa": { en: "separating-personal-and-llc-finances-why-it-matters", fr: "separer-argent-personnel-et-llc-pourquoi-cest-essentiel", de: "personliches-geld-und-llc-trennen-warum-es-wichtig-ist", pt: "separar-dinheiro-pessoal-e-da-llc-por-que-e-importante", ca: "separar-diners-personals-i-de-la-llc-per-que-es-important" },
@@ -128,6 +128,9 @@ export const BLOG_SLUG_LEGACY_I18N: Record<string, { es: string; lang: Supported
   "llc-in-den-usa-vollstandiger-leitfaden-fur-nicht-residenten-2026": { es: "llc-estados-unidos-guia-completa-2026", lang: "de" },
   "llc-nos-estados-unidos-guia-completo-para-nao-residentes-em-2026": { es: "llc-estados-unidos-guia-completa-2026", lang: "pt" },
   "llc-als-estats-units-guia-completa-per-a-no-residents-el-2026": { es: "llc-estados-unidos-guia-completa-2026", lang: "ca" },
+  "llc-in-the-united-states-complete-guide-for-non-residents-in": { es: "llc-estados-unidos-guia-completa-2026", lang: "en" },
+  "llc-nos-estados-unidos-guia-completo-para-nao-residentes-em": { es: "llc-estados-unidos-guia-completa-2026", lang: "pt" },
+  "llc-als-estats-units-guia-completa-per-a-no-residents-el": { es: "llc-estados-unidos-guia-completa-2026", lang: "ca" },
   "form-5472-quest-ce-que-cest-qui-doit-le-deposer-et-comment-se-conformer": { es: "form-5472-que-es-como-presentarlo", lang: "fr" },
   "form-5472-was-es-ist-wer-es-einreichen-muss-und-wie-man-es-erfullt": { es: "form-5472-que-es-como-presentarlo", lang: "de" },
   "nouveau-mexique-vs-wyoming-vs-delaware-quel-etat-pour-votre-llc": { es: "nuevo-mexico-vs-wyoming-vs-delaware", lang: "fr" },

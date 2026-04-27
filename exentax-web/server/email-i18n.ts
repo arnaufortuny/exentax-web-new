@@ -1159,3 +1159,31 @@ export function resolveLocalLabel(raw: string, lang: string): string {
 }
 
 export { type EmailTranslations };
+
+// Calculator email "fidelity block": labels for the extra signals the
+// calculator UI showed (best of three structures, signed deltas vs LLC,
+// display currency, special regimes). Centralized here so all email
+// localization lives in this file.
+export interface CalculatorFidelityLabels {
+  best: string;
+  vsAuto: string;
+  vsSoc: string;
+  currency: string;
+  opts: string;
+  tarifa: string;
+  micro: string;
+  structure: Record<string, string>;
+}
+
+export const CALCULATOR_FIDELITY_I18N: Record<SupportedLang, CalculatorFidelityLabels> = {
+  es: { best: "Estructura ganadora", vsAuto: "Frente a autónomo", vsSoc: "Frente a sociedad local", currency: "Divisa de visualización", opts: "Régimen especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autónomo", sociedad: "Sociedad local", llc: "LLC US" } },
+  en: { best: "Winning structure", vsAuto: "Vs sole-trader", vsSoc: "Vs local company", currency: "Display currency", opts: "Special regime", tarifa: "Flat rate", micro: "Micro-entrepreneur", structure: { autonomo: "Sole trader", sociedad: "Local company", llc: "US LLC" } },
+  fr: { best: "Structure gagnante", vsAuto: "Vs indépendant", vsSoc: "Vs société locale", currency: "Devise d'affichage", opts: "Régime spécial", tarifa: "Tarif plat", micro: "Micro-entrepreneur", structure: { autonomo: "Indépendant", sociedad: "Société locale", llc: "LLC US" } },
+  de: { best: "Beste Struktur", vsAuto: "Vs Selbstständig", vsSoc: "Vs lokale GmbH", currency: "Anzeigewährung", opts: "Sonderregelung", tarifa: "Pauschaltarif", micro: "Micro-entrepreneur", structure: { autonomo: "Selbstständig", sociedad: "Lokale GmbH", llc: "US-LLC" } },
+  pt: { best: "Estrutura vencedora", vsAuto: "Vs autônomo", vsSoc: "Vs sociedade local", currency: "Moeda de exibição", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autônomo", sociedad: "Sociedade local", llc: "LLC US" } },
+  ca: { best: "Estructura guanyadora", vsAuto: "Davant d'autònom", vsSoc: "Davant de societat local", currency: "Divisa de visualització", opts: "Règim especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autònom", sociedad: "Societat local", llc: "LLC US" } },
+};
+
+export function getCalculatorFidelityLabels(lang?: string | null): CalculatorFidelityLabels {
+  return CALCULATOR_FIDELITY_I18N[resolveEmailLang(lang)];
+}

@@ -4,6 +4,7 @@ import { clientLogger } from "@/lib/clientLogger";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import Layout from "@/components/layout/Layout";
+import ToastHost from "@/components/Toast";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import i18n, { SUPPORTED_LANGS, LanguageService, type SupportedLang } from "@/i18n";
 import { ROUTE_SLUGS, ALL_ROUTE_KEYS, type RouteKey } from "@shared/routes";
@@ -329,6 +330,7 @@ function App() {
       <ThemeProvider>
         <ScrollToTop />
         <AppRouter />
+        <ToastHost />
       </ThemeProvider>
     </QueryClientProvider>
   );

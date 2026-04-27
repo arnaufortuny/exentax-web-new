@@ -7,6 +7,39 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { CheckCircleIcon, XCircleIcon, SpinnerIcon, CalendarIcon, ClockCircleIcon, VideoIcon, ArrowLeftIcon, CalendarXIcon, CalendarClockIcon, PhoneIcon } from "@/components/icons";
 import { BRAND } from "@/lib/constants";
 import SEO from "@/components/SEO";
+import { todayMadridISO, tomorrowMadridISO, addDaysMadridISO } from "@/lib/madrid-time";
+import { toast } from "@/components/Toast";
+import MiniCalendar from "@/components/MiniCalendar";
+
+const RESCHEDULE_ERROR_KEYS: Record<string, string> = {
+  SLOT_TAKEN: "agenda.errSlotTaken",
+  PAST_DATE: "agenda.errPastDate",
+  PAST_TIME: "agenda.errPastDate",
+  PAST_BOOKING: "agenda.errPastDate",
+  BLOCKED_DATE: "agenda.errBlocked",
+  SAME_SLOT: "agenda.errSameSlot",
+  BOOKING_CANCELLED: "agenda.errCancelled",
+  INVALID_DATE: "agenda.errInvalidDate",
+  INVALID_TIME: "agenda.errInvalidTime",
+};
+
+async function extractRescheduleErrorCode(err: unknown): Promise<string | null> {
+  try {
+    const anyErr = err as { response?: Response; status?: number; message?: string } | null;
+    if (anyErr && anyErr.response && typeof anyErr.response.json === "function") {
+      const body = await anyErr.response.json().catch(() => null);
+      const code = body && typeof body === "object" ? (body as { code?: string }).code : null;
+      if (typeof code === "string") return code;
+    }
+    const msg = (anyErr && anyErr.message) || "";
+    const m = /^(\d{3}):\s*(\{.*\})\s*$/.exec(msg);
+    if (m) {
+      const body = JSON.parse(m[2]);
+      if (body && typeof body.code === "string") return body.code;
+    }
+  } catch {}
+  return null;
+}
 
 const LANG_LOCALE_MAP: Record<string, string> = {
   es: "es-ES", en: "en-US", fr: "fr-FR", de: "de-DE", pt: "pt-PT", ca: "ca-ES",
@@ -59,8 +92,10 @@ function getEndTimeClient(startTime: string): string {
 
 function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; tokenQs: string; onSuccess: () => void }) {
   const { t } = useTranslation();
+  const qc = useQueryClient();
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedSlot, setSelectedSlot] = useState("");
+  const [rescheduleErrorKey, setRescheduleErrorKey] = useState<string>("agenda.rescheduleError");
 
   const { data: availableSlots, isLoading: slotsLoading, isError: slotsError } = useQuery<Array<{ time: string; endTime: string }>>({
     queryKey: ["/api/bookings/available-slots", selectedDate],
@@ -80,27 +115,35 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
       const res = await apiRequest("POST", `/api/booking/${bookingId}/reschedule${tokenQs}`, { date: selectedDate, startTime });
       return res.json();
     },
-    onSuccess: () => onSuccess(),
+    onSuccess: () => {
+      toast.success(t("agenda.toastRescheduleSuccess"));
+      onSuccess();
+    },
+    onError: async (err) => {
+      const code = await extractRescheduleErrorCode(err);
+      const key = (code && RESCHEDULE_ERROR_KEYS[code]) || "agenda.rescheduleError";
+      setRescheduleErrorKey(key);
+      toast.error(t(key));
+      if (code === "SLOT_TAKEN") {
+        qc.invalidateQueries({ queryKey: ["/api/bookings/available-slots", selectedDate] });
+        setSelectedSlot("");
+      }
+    },
   });
 
-  const today = new Date();
-  today.setDate(today.getDate() + 1);
-  const minDate = today.toISOString().split("T")[0];
-  const maxDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString().split("T")[0];
+  const minDate = tomorrowMadridISO();
+  const maxDate = addDaysMadridISO(todayMadridISO(), 30);
 
   return (
     <div className="space-y-4 font-body">
       <div>
         <label className="block text-sm font-body font-medium text-[var(--text-2)] mb-2">{t("agenda.selectNewDate")}</label>
-        <input
-          data-testid="input-reschedule-date"
-          type="date"
-          min={minDate}
-          max={maxDate}
+        <MiniCalendar
           value={selectedDate}
-          onChange={(e) => { setSelectedDate(e.target.value); setSelectedSlot(""); }}
-          className="w-full px-4 py-3 rounded-full border border-[var(--border)] bg-[var(--bg-input)] text-[var(--text-1)] font-body text-sm outline-none transition-all"
-          style={{ boxShadow: selectedDate ? "0 0 0 2px var(--ring-green)" : "none", borderColor: selectedDate ? "var(--border-active)" : undefined }}
+          onChange={(iso) => { setSelectedDate(iso); setSelectedSlot(""); }}
+          minDate={minDate}
+          maxDate={maxDate}
+          testIdPrefix="reschedule-calendar"
         />
       </div>
 
@@ -143,9 +186,9 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
       )}
 
       {rescheduleMutation.isError && (
-        <div className="flex items-center gap-2 p-3 rounded-token-sm font-body text-sm" style={{ background: "rgba(220,38,38,0.08)", color: "var(--error)" }}>
+        <div data-testid="text-reschedule-error" className="flex items-center gap-2 p-3 rounded-token-sm font-body text-sm" style={{ background: "rgba(220,38,38,0.08)", color: "var(--error)" }}>
           <XCircleIcon className="w-4 h-4 flex-shrink-0" />
-          {t("agenda.rescheduleError")}
+          {t(rescheduleErrorKey)}
         </div>
       )}
 
@@ -179,7 +222,11 @@ function ManageBookingContent({ booking, tokenQs, urlToken, dateLocale }: { book
     },
     onSuccess: () => {
       setActionDone("cancelled");
+      toast.success(t("agenda.toastCancelSuccess"));
       qc.invalidateQueries({ queryKey: ["/api/booking", booking.id] });
+    },
+    onError: () => {
+      toast.error(t("agenda.toastCancelError"));
     },
   });
 

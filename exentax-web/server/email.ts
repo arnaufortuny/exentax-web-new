@@ -3,7 +3,7 @@ import crypto from "crypto";
 import { logger } from "./logger";
 import { getGoogleServiceAccountKey } from "./google-credentials.js";
 import { isTransient, isAuthError } from "./google-utils";
-import { getEmailTranslations, resolveEmailLang, resolveLocalLabel } from "./email-i18n";
+import { getEmailTranslations, resolveEmailLang, resolveLocalLabel, getCalculatorFidelityLabels } from "./email-i18n";
 import { emailBreaker } from "./circuit-breaker";
 import { enqueueEmail, registerEmailRetryHandler } from "./email-retry-queue";
 import {
@@ -37,6 +37,22 @@ const SENDER_EMAIL = CONTACT_EMAIL;
  *   maskEmail("alice.long@example.com") → "ali***@e***.com"
  *   maskEmail("a@b.co")                 → "a***@b***.co"
  */
+/**
+ * Defense-in-depth email syntax validator. Each route already validates with
+ * Zod's `.email()`; this is a last-line check inside the EmailService itself
+ * so that any future caller (cron, retry queue, internal tooling) cannot
+ * trigger a Gmail API call with a malformed recipient. Conservative regex
+ * (RFC-5322 simplified) — accepts user+tag@example.co.uk, rejects spaces,
+ * missing @ or missing TLD, and addresses over 254 chars.
+ */
+const EMAIL_SYNTAX_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+export function isValidEmailSyntax(email: string | null | undefined): boolean {
+  if (!email || typeof email !== "string") return false;
+  const trimmed = email.trim();
+  if (trimmed.length < 5 || trimmed.length > 254) return false;
+  return EMAIL_SYNTAX_RE.test(trimmed);
+}
+
 export function maskEmail(email: string | null | undefined): string {
   if (!email) return "(no-email)";
   const at = email.indexOf("@");
@@ -181,6 +197,10 @@ async function sendEmail(to: string, subject: string, html: string, replyTo?: st
 const EMAIL_MAX_RETRIES = 3;
 
 async function _sendEmailInternal(to: string, subject: string, html: string, replyTo?: string, fromName = FROM_NAME, attachments?: EmailAttachment[], bcc?: string, rawOpts?: BuildRawOpts): Promise<boolean> {
+  if (!isValidEmailSyntax(to)) {
+    logger.warn(`Refusing to send email — invalid recipient syntax: ${maskEmail(to)}`, "email");
+    return false;
+  }
   for (let attempt = 0; attempt < EMAIL_MAX_RETRIES; attempt++) {
     const gmail = getGmailClient();
     if (!gmail) return false;
@@ -335,20 +355,8 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData): { html: st
   const leadRef = data.leadId || "—";
   const countryLabel = resolveLocalLabel(data.localLabel, lang);
 
-  // Localized labels for the calculator fidelity block.
-  // Audit Task #8 — Bloque 7 (fidelity). Render the extra calculator
-  // signals the UI showed (best of three structures, signed deltas vs
-  // LLC, display currency, special regimes) when present. Inline i18n
-  // keeps email-i18n.ts unchanged while still localizing.
-  const FIDELITY_I18N: Record<string, { best: string; vsAuto: string; vsSoc: string; currency: string; opts: string; tarifa: string; micro: string; structure: Record<string, string> }> = {
-    es: { best: "Estructura ganadora", vsAuto: "Frente a autónomo", vsSoc: "Frente a sociedad local", currency: "Divisa de visualización", opts: "Régimen especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autónomo", sociedad: "Sociedad local", llc: "LLC US" } },
-    en: { best: "Winning structure", vsAuto: "Vs sole-trader", vsSoc: "Vs local company", currency: "Display currency", opts: "Special regime", tarifa: "Flat rate", micro: "Micro-entrepreneur", structure: { autonomo: "Sole trader", sociedad: "Local company", llc: "US LLC" } },
-    fr: { best: "Structure gagnante", vsAuto: "Vs indépendant", vsSoc: "Vs société locale", currency: "Devise d'affichage", opts: "Régime spécial", tarifa: "Tarif plat", micro: "Micro-entrepreneur", structure: { autonomo: "Indépendant", sociedad: "Société locale", llc: "LLC US" } },
-    de: { best: "Beste Struktur", vsAuto: "Vs Selbstständig", vsSoc: "Vs lokale GmbH", currency: "Anzeigewährung", opts: "Sonderregelung", tarifa: "Pauschaltarif", micro: "Micro-entrepreneur", structure: { autonomo: "Selbstständig", sociedad: "Lokale GmbH", llc: "US-LLC" } },
-    pt: { best: "Estrutura vencedora", vsAuto: "Vs autônomo", vsSoc: "Vs sociedade local", currency: "Moeda de exibição", opts: "Regime especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autônomo", sociedad: "Sociedade local", llc: "LLC US" } },
-    ca: { best: "Estructura guanyadora", vsAuto: "Davant d'autònom", vsSoc: "Davant de societat local", currency: "Divisa de visualització", opts: "Règim especial", tarifa: "Tarifa plana", micro: "Micro-entrepreneur", structure: { autonomo: "Autònom", sociedad: "Societat local", llc: "LLC US" } },
-  };
-  const fi = FIDELITY_I18N[lang] || FIDELITY_I18N.en;
+  // Localized labels for the calculator fidelity block — centralized in email-i18n.ts.
+  const fi = getCalculatorFidelityLabels(lang);
   const fidelityRows: Array<{ label: string; value: string }> = [];
   if (data.bestStructureId) {
     const name = fi.structure[data.bestStructureId] || data.bestStructureId;
