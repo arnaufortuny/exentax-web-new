@@ -1115,7 +1115,7 @@ const en = {
   },
   serviciosPage: {
     subpagesGrid: SUBPAGES_GRID_BY_LANG.en,
-    seoTitle: "US LLC services for serious non-resident founders | Exentax",
+    seoTitle: "US LLC services for global non-resident founders | Exentax",
     seoDesc: "LLC formation, EIN without SSN, ITIN via CAA, US banking and Form 5472. Premium tax services for non-resident founders who want lower taxes and real privacy.",
     ogTitle: "Form your US LLC with expert tax advisors",
     ogDesc: "US LLC formation with expert advisors: EIN, banking, custom tax structure and annual compliance. Exentax tax advisors for non-resident US LLC owners.",

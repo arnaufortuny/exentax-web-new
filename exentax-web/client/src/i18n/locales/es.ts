@@ -1388,7 +1388,7 @@ const es = {
  },
  serviciosPage: {
  subpagesGrid: SUBPAGES_GRID_BY_LANG.es,
- seoTitle:"Servicios LLC EE. UU. para founders no residentes | Exentax",
+ seoTitle:"Servicios LLC en EE. UU. para no residentes | Exentax",
  seoDesc:"Constitución de LLC, EIN sin SSN, ITIN como CAA, banca americana y Form 5472. Servicios fiscales premium para founders no residentes. Menos impuestos.",
  ogTitle: "Constituye tu LLC en EE.UU. con asesores expertos",
  ogDesc: "Constituye tu LLC en EE.UU.: EIN, banca operativa, compliance anual y estructura fiscal a medida. Exentax acompaña tu LLC del diagnóstico al día a día.",

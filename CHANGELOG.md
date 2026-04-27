@@ -3,6 +3,22 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Unreleased] — 2026-04-27
+
+### SEO meta verifier — 0 warnings (CTA normalization + title trim)
+- **`npm run seo:meta` → 0 errors / 0 warnings** across the 6 locales
+  (es/en/ca/fr/de/pt). Resolved the 32 cosmetic warnings flagged after the
+  Task #2 premium SEO rollout.
+- **Service-subpage descriptions (5 × 6 = 30 entries)** in
+  `client/src/i18n/data/subpages.ts` rewritten so each one closes with one of
+  the locale's allowed soft CTAs (e.g. *Reserva tu llamada*, *Empieza hoy*,
+  *Book a free call*, *Get started*, *Démarrez ici*, *Jetzt starten*,
+  *Comece hoje*, *Comença avui*). All descriptions stay within the 140-165
+  char SERP budget and preserve the approved premium tone (no Mercury, no
+  boutique).
+- **`serviciosPage.seoTitle`** trimmed under the 58-char soft warn limit in
+  `client/src/i18n/locales/es.ts` (53c) and `en.ts` (58c).
+
 ## [Unreleased] — 2026-04-26
 
 ### Quality audit + DE register cleanup + indexing verified
