@@ -10,14 +10,26 @@ vite.config.ts.*
 # but do NOT commit. The app reads from GOOGLE_SERVICE_ACCOUNT_KEY env var.
 # server/google-credentials.ts
 
-# Audit / Playwright outputs (regenerable, never tracked)
-reports/
+# Audit / Playwright outputs (regenerable, never tracked).
+# Git won't list excluded directories, so to track specific files inside an
+# ignored tree we have to re-include each path segment (same pattern as
+# docs/audits/2026-04/conversion below).
+reports/*
+!reports/seo/
+reports/seo/*
 # Exception: the blog source-URL ping cache MUST be tracked. The structural
 # validator (scripts/blog-sources-validate.mjs, rule 5) reads it offline in
 # CI and fails critical if it is missing or older than 14 days. Refresh it
 # with `node scripts/blog-verify-source-urls.mjs`.
-!reports/seo/
 !reports/seo/source-url-verification.json
+# Exception: the SERP previews report (Task #4) is committed so reviewers
+# can open the visual gallery without re-running the generator. Refresh it
+# with `npx tsx scripts/seo/serp-previews.ts`.
+!reports/seo/serp-previews/
+reports/seo/serp-previews/*
+!reports/seo/serp-previews/serp-previews.html
+!reports/seo/serp-previews/serp-previews.md
+!reports/seo/serp-previews/serp-previews.json
 test-results/
 .local-audit/
 playwright-report/
