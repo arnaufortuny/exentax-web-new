@@ -17,6 +17,10 @@
  *   7. seo-faq-jsonld-check.mjs      (FAQPage schema sanity)
  *   8. seo-sitemap-check.mjs         (sitemap shape)
  *   9. seo-sitemap-bcp47.test.mjs    (hreflang BCP-47 region tags, static + live)
+ *  10. audit-conversion-112x6.mjs --strict  (post-Task #53 conversion-grade
+ *      gate: any new article or rewrite that drops a CTA contract — calc,
+ *      agenda link, tel+WhatsApp row, LLC sub-link, ITIN sub-link — breaks
+ *      `npm run check` before it can reach production).
  *
  * Optional (network):
  *   --with-external   also runs blog-verify-source-urls.mjs (HEAD/GET ping
@@ -70,6 +74,14 @@ const STEPS = [
   //      the `abrir-llc-*` family (42 expected internal links).
   { id: "seo-llm-readiness", file: "scripts/seo-llm-readiness.mjs", node: "node" },
   { id: "blog-cluster-audit", file: "scripts/blog-cluster-audit.mjs", node: "node" },
+  // Post-Task #53 conversion-grade gate. The audit script itself is
+  // read-only by default (writes the CSV + markdown report and exits 0);
+  // adding `--strict` flips it into a real CI gate that exits 1 if any
+  // (slug, lang) pair is missing one of the 5 conversion contracts. Wired
+  // here — instead of in package.json — because `npm run check` is off-limits
+  // and `blog:validate-all` is already inside `check`. Same indirection
+  // pattern as `seo-llm-readiness` and `blog-cluster-audit` above.
+  { id: "conversion-strict", file: "scripts/audit-conversion-112x6.mjs", node: "node", args: ["--strict"] },
 ];
 
 const EXTRA_EXTERNAL = {
@@ -84,7 +96,10 @@ function runStep(step) {
     return { id: step.id, status: "skip", code: 0, reason: "script missing" };
   }
   const t0 = Date.now();
-  const res = spawnSync(step.node, [abs], { cwd: ROOT, stdio: "inherit" });
+  const res = spawnSync(step.node, [abs, ...(step.args ?? [])], {
+    cwd: ROOT,
+    stdio: "inherit",
+  });
   const ms = Date.now() - t0;
   return {
     id: step.id,

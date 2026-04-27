@@ -32,7 +32,17 @@
  *     weak-copy violations list with file:line.
  *
  * Idempotent: re-running overwrites both outputs.
- * Exit code: always 0 (audit-only, never blocks).
+ *
+ * Exit code:
+ *   - default mode → always 0 (audit-only, never blocks). Outputs the CSV +
+ *     markdown report and prints a one-line summary to stdout.
+ *   - `--strict` mode → exit 1 if any (slug, lang) pair fails to be fully
+ *     conversion-grade (i.e. `fullyConversionGrade < slugs.length * LANGS.length`).
+ *     Same pattern as `seo:masterpiece-strict`. Wired into the blog
+ *     validation pipeline by `scripts/blog-validate-all.mjs` so any new
+ *     article (or any rewrite that drops a CTA contract) breaks `npm run check`
+ *     before it can reach production. The CSV + markdown report are still
+ *     written before the non-zero exit so reviewers can inspect what regressed.
  */
 
 import fs from "node:fs";
@@ -49,6 +59,12 @@ const CSV_PATH = path.join(REPORTS_DIR, "conversion-audit-112x6.csv");
 const MD_PATH = path.join(DOCS_DIR, "conversion-audit-112x6.md");
 
 const LANGS = ["es", "en", "fr", "de", "pt", "ca"];
+
+// `--strict` flips the script from audit-only (always exit 0) to a real
+// gate: any (slug, lang) pair that isn't fully conversion-grade trips a
+// non-zero exit so the failure surfaces in `npm run check` (via
+// `scripts/blog-validate-all.mjs`). Pattern mirrors `seo:masterpiece-strict`.
+const STRICT = process.argv.includes("--strict");
 
 // Localized booking slug per language (canonical paths from shared/routes.ts).
 const AGENDA_SLUG = {
@@ -460,5 +476,23 @@ const summary =
   `${totals.gaps.itin} ITIN-subpage gaps · ` +
   `${totals.weakCopyHits} weak-copy hits`;
 console.log(summary);
+
+// In strict mode, treat any missing conversion-grade pair (or any missing
+// article file) as a CI-blocking failure. Mirrors the audit→strict pattern
+// from `seo:masterpiece-strict` and is wired into `blog-validate-all.mjs`.
+if (STRICT) {
+  const expected = slugs.length * LANGS.length;
+  if (totals.fullyConversionGrade < expected) {
+    const missingPairs = expected - totals.articles;
+    console.error(
+      `audit-conversion-112x6 [--strict]: FAIL — ${totals.fullyConversionGrade}/${expected} fully conversion-grade ` +
+        `(missing files: ${missingPairs}, calc gaps: ${totals.gaps.calc}, agenda gaps: ${totals.gaps.agenda}, ` +
+        `tel-WA gaps: ${totals.gaps.telWa}, LLC-sub gaps: ${totals.gaps.llc}, ITIN-sub gaps: ${totals.gaps.itin}). ` +
+        `See ${path.relative(WORKSPACE, CSV_PATH)} and ${path.relative(WORKSPACE, MD_PATH)} for the per-(slug,lang) breakdown.`,
+    );
+    process.exit(1);
+  }
+  console.log(`audit-conversion-112x6 [--strict]: OK — ${expected}/${expected} fully conversion-grade.`);
+}
 
 process.exit(0);
