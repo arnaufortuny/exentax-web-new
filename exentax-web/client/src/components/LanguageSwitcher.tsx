@@ -50,7 +50,7 @@ export default function LanguageSwitcher() {
         aria-expanded={open}
         aria-haspopup="listbox"
         aria-label={t("common.changeLanguage")}
-        className="flex items-center gap-1.5 px-3 xl:px-3.5 py-3 xl:py-2.5 min-h-[44px] xl:min-h-0 bg-transparent border border-black/10 hover:border-black/20 rounded-full cursor-pointer transition-colors duration-150 font-body text-[12px] xl:text-[13px] 2xl:text-[14px] font-semibold text-[var(--text-2)] leading-none"
+        className="flex items-center gap-1.5 px-3 xl:px-3.5 py-3 xl:py-2.5 min-h-[44px] xl:min-h-0 bg-white border border-black/10 hover:border-black/20 rounded-full cursor-pointer transition-colors duration-150 font-body text-[12px] xl:text-[13px] 2xl:text-[14px] font-semibold text-[var(--text-2)] leading-none"
       >
         <FlagImg lang={current} size={17} />
         <span className="flex-shrink-0">{LANG_SHORT[current]}</span>

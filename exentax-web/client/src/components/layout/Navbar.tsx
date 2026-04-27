@@ -49,7 +49,7 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
         aria-expanded={open}
         aria-haspopup="listbox"
         aria-label={t("common.selectLanguage")}
-        className="flex items-center gap-1.5 px-2.5 py-1.5 bg-transparent border-[1.5px] border-black/8 rounded-full cursor-pointer leading-none font-body text-[11px] font-semibold text-[var(--text-2)]"
+        className="flex items-center gap-1.5 px-2.5 py-1.5 bg-white border-[1.5px] border-black/8 rounded-full cursor-pointer leading-none font-body text-[11px] font-semibold text-[var(--text-2)]"
       >
         <FlagImg lang={current} size={16} />
         <span>{LANG_SHORT[current]}</span>
