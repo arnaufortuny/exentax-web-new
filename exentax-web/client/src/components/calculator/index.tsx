@@ -5,7 +5,7 @@ import { calculateSavings, computeAllStructures, formatCurrency, countries, acti
 import type { ExpenseItem, AllStructuresResult } from "@/lib/calculator";
 import { apiRequest } from "@/lib/queryClient";
 import { useLangPath } from "@/hooks/useLangPath";
-import { trackCalculatorUsed } from "@/components/Tracking";
+import { trackCalculatorUsed, trackCalculatorCompleted } from "@/components/Tracking";
 import { clientLogger } from "@/lib/clientLogger";
 
 const CalculatorResults = lazy(() => import("./CalculatorResults"));
@@ -176,6 +176,26 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       setInputStr(String(displayValue));
     }
   }, [income, incomeMode, inputFocused]);
+
+  // Funnel intent — fire `calculator_completed` once per session the first
+  // time the visitor has filled in country + regime + a touched income.
+  // Independent of the email gate / `calculator_used`, so we can measure
+  // the drop-off between "ready to see results" and "submitted email".
+  // Dedupe lives in trackCalculatorCompleted (sessionStorage), so the
+  // effect can re-run safely as the dependencies change.
+  useEffect(() => {
+    if (!hasCountry || !hasRegime || !incomeTouched) return;
+    trackCalculatorCompleted({
+      country,
+      regime,
+      activity,
+      monthly_income: income,
+      annual_income: income * 12,
+      effective_rate: result.effectiveRate,
+      savings: result.ahorro,
+      display_currency: displayCurrency,
+    });
+  }, [hasCountry, hasRegime, incomeTouched, country, regime, activity, income, result.effectiveRate, result.ahorro, displayCurrency]);
 
   function handleSlider(e: React.ChangeEvent<HTMLInputElement>) {
     const valDisp = Number(e.target.value);

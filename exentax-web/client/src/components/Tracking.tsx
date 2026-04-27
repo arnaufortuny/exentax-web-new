@@ -237,6 +237,47 @@ export function trackCalculatorUsed(params?: Record<string, unknown>) {
   });
 }
 
+// Calculator completed — fired ONCE per session the first time the
+// visitor has filled in everything required to compute a result
+// (country + regime + a touched income value). This is the upper-funnel
+// counterpart to `calculator_used`: it measures intent BEFORE the email
+// gate so we can quantify the drop-off between "ready to see results"
+// and "submitted email to see them". Deduped via sessionStorage so a
+// visitor who tweaks inputs many times only emits the event once per
+// session. Independent of `calculator_used`, which keeps measuring
+// actual lead conversion.
+const CALC_COMPLETED_KEY = "exentax_calc_completed";
+export function trackCalculatorCompleted(params?: Record<string, unknown>) {
+  if (typeof window === "undefined") return;
+  // Consent FIRST — if analytics isn't allowed, do nothing AND don't
+  // burn the dedupe key. That way a visitor who completes the inputs
+  // before accepting cookies still emits the event when they accept
+  // (since cookie-consent-change re-runs trackPageView and any future
+  // dep-driven re-fire of this effect will pass through here cleanly).
+  if (!hasAnalyticsConsent()) return;
+  // Read dedupe — if already fired this session, exit quietly.
+  try {
+    if (sessionStorage.getItem(CALC_COMPLETED_KEY) === "1") return;
+  } catch {
+    // sessionStorage may be unavailable (private mode, sandboxed iframe).
+    // In that case we still emit the event — losing dedupe is preferable
+    // to losing the signal entirely.
+  }
+  const p = params || {};
+  const monthly = (p.monthly_income as number | undefined) ?? (p.income as number | undefined);
+  trackEvent("calculator_completed", {
+    ...p,
+    income: monthly,
+  });
+  // Write dedupe AFTER emit — guarantees the key is only consumed when
+  // the event actually went out, never when it was suppressed by consent.
+  try {
+    sessionStorage.setItem(CALC_COMPLETED_KEY, "1");
+  } catch {
+    // No dedupe possible — accept that next re-fire may re-emit.
+  }
+}
+
 export function trackOutboundLink(url: string) {
   trackEvent("outbound_link", { link_url: url });
 }
