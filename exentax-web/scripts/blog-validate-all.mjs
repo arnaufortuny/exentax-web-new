@@ -44,6 +44,13 @@ const STEPS = [
   { id: "cta", file: "scripts/blog-cta-validate.mjs", node: "node" },
   { id: "data", file: "scripts/blog-data-validate.mjs", node: "node" },
   { id: "sources", file: "scripts/blog-sources-validate.mjs", node: "node" },
+  // Task #41 — block any future article that ships without at least one
+  // inline anchor to a §4.2 official-authority domain (irs.gov, fincen.gov,
+  // agenciatributaria.gob.es, boe.es, hmrc.gov.uk, oecd.org, eur-lex.europa.eu,
+  // …). The `sources` step above guards the structured SOURCES_BY_SLUG
+  // registry; this one guards the article BODY so a new post cannot ship
+  // with zero inline citations to an authority and silently regress §4.2.
+  { id: "official-source-coverage", file: "scripts/blog-official-source-coverage.mjs", node: "node" },
   { id: "faq-jsonld", file: "scripts/seo-faq-jsonld-check.mjs", node: "node" },
   { id: "sitemap", file: "scripts/seo-sitemap-check.mjs", node: "node" },
   { id: "sitemap-bcp47", file: "scripts/seo-sitemap-bcp47.test.mjs", node: "node" },
