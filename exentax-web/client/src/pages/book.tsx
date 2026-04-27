@@ -239,7 +239,7 @@ export default function ReservarPage() {
         <section className="pt-14 lg:pt-20 pb-16 lg:pb-24 min-h-[calc(100svh-72px)]">
           <div className="max-w-[600px] mx-auto px-4 sm:px-6">
             <div className="text-center mb-10">
-              <h1 className="font-heading font-bold text-3xl lg:text-[42px] leading-[1.15] tracking-[-0.02em] text-[var(--text-1)] mb-4">
+              <h1 className="display-wise text-[var(--text-1)] mb-4">
                 {t("reservar.hero.h1")}{" "}
                 <span className="text-[#00E510]">
                   {t("reservar.hero.h1green")}

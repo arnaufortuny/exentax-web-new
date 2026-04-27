@@ -24,20 +24,19 @@ interface PillarLocaleContent {
   keywords: string;
   breadcrumb: string;
   hero: {
-    kicker: string;
     h1: string;
     h1green: string;
     subtitle: string;
     ctaPrimary: string;
     ctaSecondary: string;
   };
-  whatIsLLC: { kicker: string; h2: string; paragraphs: string[] };
-  steps: { kicker: string; h2: string; intro: string; items: { title: string; desc: string }[] };
-  states: { kicker: string; h2: string; intro: string; items: { name: string; tagline: string; pros: string; cta: string; href: RouteKey }[] };
-  costs: { kicker: string; h2: string; intro: string; rows: { label: string; value: string }[] };
-  compliance: { kicker: string; h2: string; intro: string; items: string[] };
-  banking: { kicker: string; h2: string; paragraphs: string[] };
-  taxResidence: { kicker: string; h2: string; paragraphs: string[] };
+  whatIsLLC: { h2: string; paragraphs: string[] };
+  steps: { h2: string; intro: string; items: { title: string; desc: string }[] };
+  states: { h2: string; intro: string; items: { name: string; tagline: string; pros: string; cta: string; href: RouteKey }[] };
+  costs: { h2: string; intro: string; rows: { label: string; value: string }[] };
+  compliance: { h2: string; intro: string; items: string[] };
+  banking: { h2: string; paragraphs: string[] };
+  taxResidence: { h2: string; paragraphs: string[] };
   faq: { h2: string; items: FaqEntry[] };
   cta: { h2: string; p: string; primary: string; secondary: string };
 }
@@ -57,7 +56,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "abrir LLC, abrir LLC Estados Unidos, abrir LLC EE.UU., LLC para no residentes, abrir LLC desde España, abrir LLC sin SSN, mejor estado LLC, LLC Wyoming, LLC Delaware, LLC Nuevo México, EIN sin SSN, cuenta Mercury extranjero, Form 5472, declarar LLC IRPF",
     breadcrumb: "Abrir LLC en EE.UU.",
     hero: {
-      kicker: "GUÍA DEFINITIVA",
       h1: "Abrir una LLC en Estados Unidos en 2026",
       h1green: "Paso a paso, sin SSN, en 2-4 días.",
       subtitle:
@@ -66,7 +64,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "Ver el proceso completo",
     },
     whatIsLLC: {
-      kicker: "QUÉ ES",
       h2: "Una LLC es una sociedad de responsabilidad limitada estadounidense",
       paragraphs: [
         "La Limited Liability Company (LLC) es la figura societaria más usada por emprendedores internacionales para operar con clientes globales desde una entidad estadounidense. Separa tu patrimonio personal del de tu negocio y, cuando la propiedad es 100% extranjera y no hay actividad económica en EE.UU., el Internal Revenue Service la trata como una entidad fiscalmente transparente.",
@@ -75,7 +72,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "EL PROCESO",
       h2: "Cómo abrir tu LLC paso a paso",
       intro:
         "El proceso real, sin atajos. Cada paso lleva entre unas horas y dos días. La mayoría de clientes está operando con su LLC en menos de una semana.",
@@ -91,7 +87,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "QUÉ ESTADO ELEGIR",
       h2: "Cuatro estados, cuatro perfiles",
       intro:
         "No existe el estado universalmente mejor: existe el estado correcto para tu situación. Esta es la matriz que usamos en la asesoría gratuita.",
@@ -103,7 +98,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "CUÁNTO CUESTA",
       h2: "Costes reales de abrir y mantener una LLC",
       intro:
         "Cifras orientativas en USD. La asesoría diagnóstica de 30 min ajusta el coste exacto a tu caso (incluida sin compromiso).",
@@ -118,7 +112,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "OBLIGACIONES ANUALES",
       h2: "Lo que tu LLC tiene que presentar cada año",
       intro:
         "Aunque la LLC no pague impuesto federal, sí mantiene obligaciones formales. Saltárselas convierte un setup limpio en una multa de cinco cifras.",
@@ -133,7 +126,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANCA",
       h2: "Mercury, Wise Business o Relay: la cuenta operativa",
       paragraphs: [
         "Una LLC sin cuenta bancaria es papel mojado. Por eso pre-validamos tu solicitud antes de enviarla: descripción de actividad, documentación, prueba de domicilio, estructura societaria. Resultado: aprobación en primera ronda en 1-3 días hábiles.",
@@ -142,7 +134,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "FISCALIDAD PERSONAL",
       h2: "Y en mi país, ¿cómo se declara?",
       paragraphs: [
         "La LLC es transparente en EE.UU. y, en la mayoría de países, también lo es para tu fisco local: los beneficios se imputan al socio y se declaran en tu IRPF (España), ISR (México), DIAN (Colombia), AFIP (Argentina) o equivalente. No es renta exenta, no es paraíso, no se esconde.",
@@ -181,7 +172,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "open US LLC, open LLC USA, LLC for non-residents, open US LLC without SSN, best state for LLC, Wyoming LLC, Delaware LLC, New Mexico LLC, EIN without SSN, Mercury account non-resident, Form 5472, US LLC tax",
     breadcrumb: "Open a US LLC",
     hero: {
-      kicker: "DEFINITIVE GUIDE",
       h1: "Open a US LLC in 2026",
       h1green: "Step by step, no SSN, in 2-4 days.",
       subtitle:
@@ -190,7 +180,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "See the full process",
     },
     whatIsLLC: {
-      kicker: "WHAT IT IS",
       h2: "An LLC is a US limited-liability company",
       paragraphs: [
         "The Limited Liability Company (LLC) is the entity international entrepreneurs use most often to operate with global clients from a US-based vehicle. It separates your personal assets from your business assets, and when the LLC is 100% foreign-owned with no US activity, the IRS treats it as a fiscally transparent entity.",
@@ -199,7 +188,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "THE PROCESS",
       h2: "How to open your LLC, step by step",
       intro:
         "The actual process, no shortcuts. Each step takes a few hours to two days. Most clients are operating with their LLC inside one week.",
@@ -215,7 +203,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "WHICH STATE",
       h2: "Four states, four profiles",
       intro: "There is no universally best state — there is the right state for your situation. This is the matrix we use during the free call.",
       items: [
@@ -226,7 +213,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "REAL COST",
       h2: "What it really costs to open and maintain an LLC",
       intro: "Indicative figures in USD. The 30-min strategic call narrows the exact number to your case (free, no commitment).",
       rows: [
@@ -240,7 +226,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "ANNUAL OBLIGATIONS",
       h2: "What your LLC has to file every year",
       intro: "Even when the LLC owes $0 of federal tax, formal obligations remain. Skipping them turns a clean setup into a five-figure penalty.",
       items: [
@@ -254,7 +239,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANKING",
       h2: "Mercury, Wise Business or Relay: the operational account",
       paragraphs: [
         "An LLC with no bank account is paper. That is why we pre-screen the application before submission: business description, documentation, proof of address, ownership structure. Result: first-round approval in 1-3 business days.",
@@ -263,7 +247,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "PERSONAL TAX",
       h2: "And how do I declare it back home?",
       paragraphs: [
         "The LLC is transparent in the US and, in most countries, also transparent for your home tax authority: profits are imputed to the owner and declared in IRPF (Spain), ISR (Mexico), DIAN (Colombia), AFIP (Argentina) or equivalent. It is not exempt income, it is not offshore, it does not get hidden.",
@@ -302,7 +285,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "ouvrir LLC, ouvrir LLC États-Unis, LLC pour non-résidents, ouvrir LLC sans SSN, meilleur État LLC, LLC Wyoming, LLC Delaware, LLC Nouveau-Mexique, EIN sans SSN, compte Mercury non-résident, Form 5472, fiscalité LLC France",
     breadcrumb: "Ouvrir une LLC américaine",
     hero: {
-      kicker: "GUIDE DÉFINITIF",
       h1: "Ouvrir une LLC aux États-Unis en 2026",
       h1green: "Pas à pas, sans SSN, en 2-4 jours.",
       subtitle:
@@ -311,7 +293,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "Voir le processus complet",
     },
     whatIsLLC: {
-      kicker: "QU'EST-CE QUE C'EST",
       h2: "Une LLC est une société américaine à responsabilité limitée",
       paragraphs: [
         "La Limited Liability Company (LLC) est la structure préférée des entrepreneurs internationaux pour opérer avec une clientèle mondiale depuis une entité américaine. Elle sépare votre patrimoine personnel de celui de l'entreprise et, lorsqu'elle appartient à 100 % à un non-résident sans activité aux États-Unis, l'IRS la traite comme une entité fiscalement transparente.",
@@ -320,7 +301,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "LE PROCESSUS",
       h2: "Comment ouvrir votre LLC, étape par étape",
       intro:
         "Le processus réel, sans raccourcis. Chaque étape dure de quelques heures à deux jours. La plupart des clients opèrent en moins d'une semaine.",
@@ -336,7 +316,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "QUEL ÉTAT",
       h2: "Quatre États, quatre profils",
       intro: "Pas d'État universellement meilleur : il y a l'État qui correspond à votre situation. Voici la matrice utilisée en consultation.",
       items: [
@@ -347,7 +326,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "COÛT RÉEL",
       h2: "Ce que coûte vraiment une LLC",
       intro: "Chiffres indicatifs en USD. La consultation stratégique de 30 min ajuste le coût exact à votre cas (gratuite).",
       rows: [
@@ -361,7 +339,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "OBLIGATIONS ANNUELLES",
       h2: "Ce que votre LLC doit déposer chaque année",
       intro: "Même sans impôt fédéral à payer, les obligations formelles demeurent. Les ignorer transforme un setup propre en pénalité à cinq chiffres.",
       items: [
@@ -375,7 +352,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANQUE",
       h2: "Mercury, Wise Business ou Relay : le compte opérationnel",
       paragraphs: [
         "Une LLC sans compte bancaire ne sert à rien. Nous pré-validons donc votre demande avant envoi : description d'activité, documentation, justificatif d'adresse, structure de propriété. Résultat : approbation en première intention en 1-3 jours ouvrés.",
@@ -384,7 +360,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "FISCALITÉ PERSONNELLE",
       h2: "Et chez moi, comment ça se déclare ?",
       paragraphs: [
         "La LLC est transparente aux USA et, dans la plupart des pays, transparente aussi pour votre fisc : les bénéfices sont imputés au propriétaire et déclarés dans votre déclaration personnelle (impôt sur le revenu BNC en France, IRPF en Espagne, etc.). Pas de revenu exonéré, pas d'offshore, rien de caché.",
@@ -423,7 +398,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "US LLC eröffnen, LLC USA gründen, LLC für Nicht-Residenten, LLC ohne SSN, bester Bundesstaat LLC, Wyoming LLC, Delaware LLC, New Mexico LLC, EIN ohne SSN, Mercury Konto Ausland, Form 5472, US LLC Steuer Deutschland",
     breadcrumb: "US-LLC eröffnen",
     hero: {
-      kicker: "DEFINITIVER LEITFADEN",
       h1: "US-LLC eröffnen 2026",
       h1green: "Schritt für Schritt, ohne SSN, in 2-4 Tagen.",
       subtitle:
@@ -432,7 +406,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "Den vollständigen Prozess sehen",
     },
     whatIsLLC: {
-      kicker: "WAS IST DAS",
       h2: "Eine LLC ist eine US-Gesellschaft mit beschränkter Haftung",
       paragraphs: [
         "Die Limited Liability Company (LLC) ist die meistverwendete Rechtsform internationaler Unternehmer, um über eine US-Entität mit globaler Kundschaft zu arbeiten. Sie trennt Ihr Privatvermögen vom Geschäftsvermögen und wird vom IRS als steuerlich transparent behandelt, wenn sie zu 100 % einem Nicht-Residenten gehört und in den USA keine Geschäftstätigkeit ausübt.",
@@ -441,7 +414,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "DER PROZESS",
       h2: "So eröffnen Sie Ihre LLC, Schritt für Schritt",
       intro: "Der echte Ablauf, ohne Abkürzungen. Jeder Schritt dauert ein paar Stunden bis zwei Tage. Die meisten Mandanten arbeiten innerhalb einer Woche mit ihrer LLC.",
       items: [
@@ -456,7 +428,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "WELCHER STAAT",
       h2: "Vier Bundesstaaten, vier Profile",
       intro: "Es gibt keinen pauschal besten Bundesstaat — es gibt den richtigen für Ihre Situation. Diese Matrix nutzen wir im Gespräch.",
       items: [
@@ -467,7 +438,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "ECHTE KOSTEN",
       h2: "Was eine LLC wirklich kostet",
       intro: "Richtwerte in USD. Das kostenlose Strategiegespräch passt die Kosten an Ihren Fall an.",
       rows: [
@@ -481,7 +451,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "JAHRESPFLICHTEN",
       h2: "Was Ihre LLC jedes Jahr einreichen muss",
       intro: "Auch ohne Bundessteuer bleiben formale Pflichten. Wer sie versäumt, riskiert fünfstellige Strafen.",
       items: [
@@ -495,7 +464,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANK",
       h2: "Mercury, Wise Business oder Relay: das operative Konto",
       paragraphs: [
         "Eine LLC ohne Bankkonto ist Papier. Wir pre-screenen den Antrag vor dem Versand: Geschäftsbeschreibung, Dokumente, Adressnachweis, Eigentümerstruktur. Ergebnis: First-Round-Approval in 1-3 Werktagen.",
@@ -504,7 +472,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "PRIVATE STEUER",
       h2: "Und wie deklariere ich das in meinem Land?",
       paragraphs: [
         "Die LLC ist in den USA transparent und in den meisten Ländern auch für die heimische Finanzverwaltung: Gewinne werden dem Inhaber zugerechnet und in der persönlichen Steuererklärung deklariert (Anlage AUS / Anlage S in Deutschland, IRPF in Spanien, etc.). Kein Offshore, nichts versteckt.",
@@ -543,7 +510,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "abrir LLC, abrir LLC EUA, LLC para não residentes, abrir LLC sem SSN, melhor estado LLC, LLC Wyoming, LLC Delaware, LLC Novo México, EIN sem SSN, conta Mercury não residente, Form 5472",
     breadcrumb: "Abrir LLC nos EUA",
     hero: {
-      kicker: "GUIA DEFINITIVO",
       h1: "Abrir uma LLC nos EUA em 2026",
       h1green: "Passo a passo, sem SSN, em 2-4 dias.",
       subtitle:
@@ -552,7 +518,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "Ver o processo completo",
     },
     whatIsLLC: {
-      kicker: "O QUE É",
       h2: "Uma LLC é uma sociedade americana de responsabilidade limitada",
       paragraphs: [
         "A Limited Liability Company (LLC) é a estrutura mais usada por empreendedores internacionais para operar globalmente a partir de uma entidade americana. Separa o teu património pessoal do do negócio e, quando 100% pertence a um não-residente sem atividade nos EUA, o IRS trata-a como entidade fiscalmente transparente.",
@@ -561,7 +526,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "O PROCESSO",
       h2: "Como abrir a tua LLC, passo a passo",
       intro: "O processo real, sem atalhos. Cada passo demora horas a dois dias. A maioria dos clientes está a operar em menos de uma semana.",
       items: [
@@ -576,7 +540,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "QUE ESTADO",
       h2: "Quatro estados, quatro perfis",
       intro: "Não existe estado universalmente melhor: existe o estado certo para a tua situação. Esta é a matriz que usamos na consultoria.",
       items: [
@@ -587,7 +550,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "CUSTO REAL",
       h2: "O que realmente custa abrir e manter uma LLC",
       intro: "Valores indicativos em USD. A consultoria gratuita de 30 min ajusta o custo exato ao teu caso.",
       rows: [
@@ -601,7 +563,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "OBRIGAÇÕES ANUAIS",
       h2: "O que a tua LLC tem de apresentar todos os anos",
       intro: "Mesmo sem imposto federal a pagar, as obrigações formais permanecem. Falhar transforma um setup limpo em multa de cinco dígitos.",
       items: [
@@ -615,7 +576,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANCA",
       h2: "Mercury, Wise Business ou Relay: a conta operacional",
       paragraphs: [
         "Uma LLC sem conta bancária é papel. Pré-validamos a tua candidatura antes do envio: descrição da atividade, documentação, comprovativo de morada, estrutura societária. Resultado: aprovação em primeira ronda em 1-3 dias úteis.",
@@ -624,7 +584,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "FISCAL PESSOAL",
       h2: "E no meu país, como se declara?",
       paragraphs: [
         "A LLC é transparente nos EUA e, na maior parte dos países, também para o teu fisco local: os lucros são imputados ao dono e declarados na tua declaração pessoal (IRS Portugal, IRPF Brasil/Espanha). Não é rendimento isento, não é offshore, não se esconde.",
@@ -663,7 +622,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       "obrir LLC, obrir LLC EUA, LLC per a no residents, obrir LLC sense SSN, millor estat LLC, LLC Wyoming, LLC Delaware, LLC Nou Mèxic, EIN sense SSN, compte Mercury no resident, Form 5472",
     breadcrumb: "Obrir LLC als EUA",
     hero: {
-      kicker: "GUIA DEFINITIVA",
       h1: "Obrir una LLC als Estats Units el 2026",
       h1green: "Pas a pas, sense SSN, en 2-4 dies.",
       subtitle:
@@ -672,7 +630,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ctaSecondary: "Veure el procés complet",
     },
     whatIsLLC: {
-      kicker: "QUÈ ÉS",
       h2: "Una LLC és una societat americana de responsabilitat limitada",
       paragraphs: [
         "La Limited Liability Company (LLC) és l'estructura més usada per emprenedors internacionals per operar amb clientela global des d'una entitat americana. Separa el teu patrimoni personal del del negoci i, quan és 100% propietat d'un no resident sense activitat als EUA, l'IRS la tracta com una entitat fiscalment transparent.",
@@ -681,7 +638,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     steps: {
-      kicker: "EL PROCÉS",
       h2: "Com obrir la teva LLC, pas a pas",
       intro: "El procés real, sense dreceres. Cada pas dura unes hores a dos dies. La majoria de clients està operant en menys d'una setmana.",
       items: [
@@ -696,7 +652,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     states: {
-      kicker: "QUIN ESTAT",
       h2: "Quatre estats, quatre perfils",
       intro: "No existeix l'estat universalment millor: existeix l'estat correcte per a la teva situació.",
       items: [
@@ -707,7 +662,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     costs: {
-      kicker: "COST REAL",
       h2: "Què costa realment obrir i mantenir una LLC",
       intro: "Xifres orientatives en USD. L'assessoria gratuïta de 30 min ajusta el cost exacte al teu cas.",
       rows: [
@@ -721,7 +675,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     compliance: {
-      kicker: "OBLIGACIONS ANUALS",
       h2: "El que la teva LLC ha de presentar cada any",
       intro: "Encara que no pagui impost federal, manté obligacions formals. Saltar-se-les converteix un setup net en multa de cinc dígits.",
       items: [
@@ -735,7 +688,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     banking: {
-      kicker: "BANCA",
       h2: "Mercury, Wise Business o Relay: el compte operatiu",
       paragraphs: [
         "Una LLC sense compte bancari és paper mullat. Pre-validem la teva sol·licitud abans d'enviar-la: descripció d'activitat, documentació, prova de domicili, estructura societària. Resultat: aprovació en primera ronda en 1-3 dies hàbils.",
@@ -744,7 +696,6 @@ const PILLAR_CONTENT: Record<SupportedLang, PillarLocaleContent> = {
       ],
     },
     taxResidence: {
-      kicker: "FISCAL PERSONAL",
       h2: "I al meu país, com es declara?",
       paragraphs: [
         "La LLC és transparent als EUA i, a la majoria de països, també per al teu fisc local: els beneficis s'imputen al soci i es declaren a l'IRPF. No és renda exempta, no és paradís, no s'amaga.",
@@ -870,10 +821,7 @@ export default function PillarOpenLlcPage() {
       <section className="relative overflow-hidden pb-10 sm:pb-14">
         <div ref={heroRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pt-8 sm:pt-10 lg:pt-20">
           <div className="text-center max-w-[820px] mx-auto reveal">
-            <p className="font-heading text-[12px] sm:text-[13px] tracking-[0.18em] uppercase text-[var(--text-2)] mb-3" data-testid="kicker-pillar-llc">
-              {c.hero.kicker}
-            </p>
-            <h1 className="font-heading font-bold text-[28px] sm:text-4xl lg:text-[clamp(36px,3.5vw,46px)] leading-[1.1] tracking-[-0.025em] text-black mb-2" data-testid="heading-pillar-llc-hero">
+            <h1 className="display-wise text-black mb-2" data-testid="heading-pillar-llc-hero">
               {c.hero.h1}
             </h1>
             <p className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[clamp(30px,3vw,40px)] leading-[1.15] tracking-[-0.025em] mb-6 text-[#00E510]">
@@ -897,8 +845,7 @@ export default function PillarOpenLlcPage() {
 
       {/* What is an LLC */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16">
-        <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3 text-center">{c.whatIsLLC.kicker}</p>
-        <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black text-center mb-6" data-testid="heading-pillar-what-is">
+        <h2 className="section-h2 text-center mb-6" data-testid="heading-pillar-what-is">
           {c.whatIsLLC.h2}
         </h2>
         <div className="space-y-4 text-[15px] sm:text-base text-black/85 leading-relaxed">
@@ -911,8 +858,7 @@ export default function PillarOpenLlcPage() {
       {/* Steps */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
         <div className="text-center mb-10">
-          <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">{c.steps.kicker}</p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid="heading-pillar-steps">
+          <h2 className="section-h2 mb-3" data-testid="heading-pillar-steps">
             {c.steps.h2}
           </h2>
           <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">{c.steps.intro}</p>
@@ -930,8 +876,7 @@ export default function PillarOpenLlcPage() {
       {/* States */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
         <div className="text-center mb-10">
-          <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">{c.states.kicker}</p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid="heading-pillar-states">
+          <h2 className="section-h2 mb-3" data-testid="heading-pillar-states">
             {c.states.h2}
           </h2>
           <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">{c.states.intro}</p>
@@ -953,8 +898,7 @@ export default function PillarOpenLlcPage() {
       {/* Costs */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
         <div className="text-center mb-8">
-          <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">{c.costs.kicker}</p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid="heading-pillar-costs">
+          <h2 className="section-h2 mb-3" data-testid="heading-pillar-costs">
             {c.costs.h2}
           </h2>
           <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">{c.costs.intro}</p>
@@ -980,8 +924,7 @@ export default function PillarOpenLlcPage() {
       {/* Compliance */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
         <div className="text-center mb-8">
-          <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3">{c.compliance.kicker}</p>
-          <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black mb-3" data-testid="heading-pillar-compliance">
+          <h2 className="section-h2 mb-3" data-testid="heading-pillar-compliance">
             {c.compliance.h2}
           </h2>
           <p className="max-w-[680px] mx-auto text-[14px] sm:text-[15px] text-black/80 leading-relaxed">{c.compliance.intro}</p>
@@ -998,8 +941,7 @@ export default function PillarOpenLlcPage() {
 
       {/* Banking */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
-        <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3 text-center">{c.banking.kicker}</p>
-        <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black text-center mb-6" data-testid="heading-pillar-banking">
+        <h2 className="section-h2 text-center mb-6" data-testid="heading-pillar-banking">
           {c.banking.h2}
         </h2>
         <div className="space-y-4 text-[15px] sm:text-base text-black/85 leading-relaxed">
@@ -1009,8 +951,7 @@ export default function PillarOpenLlcPage() {
 
       {/* Tax residence */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
-        <p className="font-heading text-[11px] sm:text-[12px] tracking-[0.18em] uppercase text-[#00E510] mb-3 text-center">{c.taxResidence.kicker}</p>
-        <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black text-center mb-6" data-testid="heading-pillar-tax-residence">
+        <h2 className="section-h2 text-center mb-6" data-testid="heading-pillar-tax-residence">
           {c.taxResidence.h2}
         </h2>
         <div className="space-y-4 text-[15px] sm:text-base text-black/85 leading-relaxed">
@@ -1022,7 +963,7 @@ export default function PillarOpenLlcPage() {
       <section className="py-14 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="font-heading font-bold text-[24px] sm:text-3xl lg:text-[34px] leading-tight tracking-[-0.02em] text-black" data-testid="heading-pillar-faq">
+            <h2 className="section-h2" data-testid="heading-pillar-faq">
               {c.faq.h2}
             </h2>
           </div>
@@ -1039,7 +980,7 @@ export default function PillarOpenLlcPage() {
 
       {/* Final CTA */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
-        <h2 className="font-heading font-bold text-[26px] sm:text-3xl lg:text-[36px] leading-tight tracking-[-0.02em] text-black mb-4" data-testid="heading-pillar-cta">
+        <h2 className="section-h2 mb-4" data-testid="heading-pillar-cta">
           {c.cta.h2}
         </h2>
         <p className="text-[15px] sm:text-base lg:text-lg text-black/80 leading-relaxed max-w-[640px] mx-auto mb-8">

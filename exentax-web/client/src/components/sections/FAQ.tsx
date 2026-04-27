@@ -95,7 +95,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
         <div className={`reveal mb-10 ${asPage ? "max-w-3xl mx-auto text-center" : "max-w-3xl"}`}>
           {asPage ? (
             <>
-              <h1 className="font-heading font-bold text-[28px] sm:text-[clamp(36px,3.5vw,44px)] leading-[1.1] tracking-[-0.025em] text-[var(--text-1)] mb-4">
+              <h1 className="display-wise text-[var(--text-1)] mb-4">
                 {t("faqUI.pageTitle")}
               </h1>
               <p className="text-[var(--text-2)] text-base sm:text-lg leading-relaxed">
@@ -210,7 +210,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               <div key={section.icon} className="reveal">
                 <div className="flex items-center gap-3 mb-6">
                   {asPage ? (
-                    <h2 className="font-heading font-semibold text-xl sm:text-2xl text-[var(--text-1)]">
+                    <h2 className="section-h2">
                       {getSectionTitle(section.icon)}
                     </h2>
                   ) : (
@@ -246,7 +246,7 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
               <div className="glass relative overflow-hidden rounded-3xl px-6 sm:px-10 py-10 sm:py-12 text-center ring-1 ring-inset ring-[rgba(0,229,16,0.22)] shadow-[inset_0_1px_0_rgba(255,255,255,0.08),0_20px_60px_-30px_rgba(0,229,16,0.45)]">
                 <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,229,16,0.10)] via-transparent to-[rgba(0,229,16,0.06)] pointer-events-none" aria-hidden="true" />
                 <div className="relative">
-                  <h2 className="font-heading font-bold text-2xl sm:text-3xl text-[var(--text-1)] mb-3" data-testid="text-faq-final-cta-title">
+                  <h2 className="section-h2 mb-3" data-testid="text-faq-final-cta-title">
                     {t("faqUI.finalCta.title")}
                   </h2>
                   <p className="text-[var(--text-2)] text-base sm:text-lg leading-relaxed max-w-xl mx-auto mb-7">

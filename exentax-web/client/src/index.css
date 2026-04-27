@@ -451,16 +451,6 @@ a, button {
     box-shadow: 0 0 30px rgba(74,222,128,0.10);
   }
 
-  /* Page-interior H2 — slightly more contained than .section-h2,
-     used in services / about-llc / how-we-work / book interior sections. */
-  .page-h2 {
-    font-family: var(--font-heading);
-    font-weight: 700;
-    font-size: clamp(28px, 2.5vw, 34px);
-    line-height: 1.12;
-    letter-spacing: -0.025em;
-    color: var(--text-1);
-  }
 
   /* Primary CTA button — consolidates the green CTA pattern repeated
      across 38+ inline declarations. Defines color, shadow, transition,
