@@ -251,12 +251,17 @@ for (const lang of LANGS) {
 }
 // slug -> { gaps:int, missing:string[] }  (gaps = unmet *applicable* contracts)
 const perSlugGaps = {};
+// (slug, lang) pairs whose article file is missing on disk. Used by --strict
+// to surface the i18n coverage holes by name (not just an aggregate count) so
+// the next person to add an article in only one language gets a useful error.
+const missingTranslations = []; // { slug, lang }
 
 for (const slug of slugs) {
   for (const lang of LANGS) {
     const fp = path.join(CONTENT, lang, slug + ".ts");
     const body = readFileSafe(fp);
     if (body == null) {
+      missingTranslations.push({ slug, lang });
       rows.push({
         slug,
         lang,
@@ -496,11 +501,39 @@ if (STRICT) {
 
   if (totals.fullyConversionGrade < expected) {
     const missingPairs = expected - totals.articles;
-    console.error(
-      `audit-conversion-112x6 [--strict]: FAIL — ${totals.fullyConversionGrade}/${expected} fully conversion-grade ` +
+    const ctaGaps =
+      totals.gaps.calc +
+      totals.gaps.agenda +
+      totals.gaps.telWa +
+      totals.gaps.llc +
+      totals.gaps.itin;
+    // If the only thing missing is article files (no CTA contract failed on
+    // any present article), say so explicitly — the author needs to know
+    // they're looking at an i18n coverage hole, not a CTA regression.
+    const onlyMissingTranslations = missingPairs > 0 && ctaGaps === 0;
+    const header = onlyMissingTranslations
+      ? `audit-conversion-112x6 [--strict]: FAIL — ${totals.fullyConversionGrade}/${expected} fully conversion-grade. ` +
+        `All present articles pass every CTA contract; the gap is i18n coverage: ${missingPairs} (slug, lang) pair(s) have no article file.`
+      : `audit-conversion-112x6 [--strict]: FAIL — ${totals.fullyConversionGrade}/${expected} fully conversion-grade ` +
         `(missing files: ${missingPairs}, calc gaps: ${totals.gaps.calc}, agenda gaps: ${totals.gaps.agenda}, ` +
-        `tel-WA gaps: ${totals.gaps.telWa}, LLC-sub gaps: ${totals.gaps.llc}, ITIN-sub gaps: ${totals.gaps.itin}). ` +
-        `See ${path.relative(WORKSPACE, CSV_PATH)} and ${path.relative(WORKSPACE, MD_PATH)} for the per-(slug,lang) breakdown.`,
+        `tel-WA gaps: ${totals.gaps.telWa}, LLC-sub gaps: ${totals.gaps.llc}, ITIN-sub gaps: ${totals.gaps.itin}).`;
+    console.error(header);
+    if (missingPairs > 0) {
+      const SAMPLE = 10;
+      const sample = missingTranslations
+        .slice(0, SAMPLE)
+        .map((m) => `  - ${m.slug} [${m.lang}]`)
+        .join("\n");
+      const overflow =
+        missingTranslations.length > SAMPLE
+          ? `\n  …(+${missingTranslations.length - SAMPLE} more)`
+          : "";
+      console.error(
+        `Missing article files (${missingTranslations.length} total, showing first ${Math.min(SAMPLE, missingTranslations.length)}):\n${sample}${overflow}`,
+      );
+    }
+    console.error(
+      `See ${path.relative(WORKSPACE, CSV_PATH)} and ${path.relative(WORKSPACE, MD_PATH)} for the per-(slug,lang) breakdown.`,
     );
     strictFail = true;
   }
