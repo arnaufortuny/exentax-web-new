@@ -1,5 +1,15 @@
 name: Quality pipeline
 
+# Bypass del gate de performance (Task #20 / Task #24): el bloque
+# "Bundle diff" más abajo permite saltarse el gate aplicando el label
+# `bypass-perf-gate` al PR. Ese bypass caduca a los 7 días de forma
+# automática vía el workflow programado
+# `.github/workflows/bypass-perf-gate-sweeper.yml`, que retira el
+# label y deja un comentario al autor pidiendo reevaluar. Para
+# extender el bypass basta con volver a aplicar el label (eso
+# reinicia el contador). Detalles en la cabecera del bloque
+# "Bundle diff" y en `lighthouse.yml`.
+
 on:
   push:
   pull_request:
@@ -124,6 +134,12 @@ jobs:
       #      delta para dejar evidencia, y un step adicional comenta
       #      en el PR diciendo quién aplicó el label. No requiere
       #      admin ni "Merge without waiting for requirements".
+      #      Caducidad (Task #24): el workflow programado
+      #      `bypass-perf-gate-sweeper.yml` retira el label
+      #      automáticamente si lleva más de 7 días aplicado y deja
+      #      un comentario al autor pidiendo reevaluar. Para extender
+      #      el bypass, basta con volver a aplicar el label (eso
+      #      reinicia el contador).
       # No reintroducir `|| true` aquí: usar siempre uno de los dos
       # caminos anteriores para que el delta quede registrado.
       #

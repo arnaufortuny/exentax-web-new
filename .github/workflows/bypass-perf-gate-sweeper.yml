@@ -1,0 +1,188 @@
+name: Bypass perf gate sweeper
+
+# Caduca automáticamente el label `bypass-perf-gate` (Task #20) para que
+# cada bypass del gate de performance (Lighthouse + bundle diff, ver
+# `lighthouse.yml` y `quality-pipeline.yml`) sea una decisión consciente
+# y reciente, no un "set & forget" que arrastre PRs durante semanas.
+#
+# COMPORTAMIENTO (Task #24):
+#   - Cron diario a las 06:00 UTC (~07:00 CET / 08:00 CEST).
+#   - Recorre todos los PRs abiertos que tengan el label
+#     `bypass-perf-gate`.
+#   - Para cada uno consulta el timeline del issue/PR y busca el
+#     evento `labeled` MÁS RECIENTE de ese label (un mismo PR puede
+#     haber sido etiquetado, deslabeleado y vuelto a etiquetar; lo
+#     que cuenta es la última vez que se aplicó).
+#   - Si han pasado más de `MAX_AGE_DAYS` días desde ese evento, el
+#     job:
+#       1) Retira el label del PR (DELETE
+#          `/repos/.../issues/{n}/labels/bypass-perf-gate`).
+#       2) Publica un comentario al autor del PR pidiéndole reevaluar
+#          si el bypass sigue siendo válido y, si lo es, volver a
+#          aplicar el label de forma explícita (re-aplicarlo reinicia
+#          el contador, porque genera un nuevo evento `labeled`).
+#       3) El comentario incluye un marcador HTML para encontrarlo
+#          y editarlo en sweeps sucesivos en lugar de duplicarlo.
+#   - Si el label lleva ≤ `MAX_AGE_DAYS` días aplicado, el PR se
+#     deja intacto (ni se retira el label ni se comenta).
+#
+# `MAX_AGE_DAYS` por defecto es 7. Es ajustable vía
+# `workflow_dispatch.inputs.max_age_days` para sweeps manuales (p.ej.
+# para validar el comportamiento sin esperar al cron).
+#
+# Permisos: necesitamos `pull-requests: write` (para retirar labels)
+# e `issues: write` (para publicar comentarios; los PRs son issues a
+# efectos de la API REST de comentarios).
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: "Máximo número de días que un label puede llevar aplicado antes de retirarlo."
+        required: false
+        default: "7"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  sweep:
+    name: Expire stale bypass-perf-gate labels
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sweep stale bypass-perf-gate labels
+        uses: actions/github-script@v7
+        env:
+          MAX_AGE_DAYS: ${{ github.event.inputs.max_age_days || '7' }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const LABEL = 'bypass-perf-gate';
+            const MARKER = '<!-- bypass-perf-gate-sweeper:task-24 -->';
+            const maxAgeDays = parseInt(process.env.MAX_AGE_DAYS, 10);
+            if (!Number.isFinite(maxAgeDays) || maxAgeDays <= 0) {
+              core.setFailed(`MAX_AGE_DAYS inválido: ${process.env.MAX_AGE_DAYS}`);
+              return;
+            }
+            const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
+            const now = Date.now();
+
+            // Listamos issues abiertos con el label en lugar de paginar todos
+            // los PRs y filtrar en cliente: la API de search-issues acepta
+            // `is:pr is:open label:...` y devuelve sólo lo que nos interesa.
+            const query = `repo:${context.repo.owner}/${context.repo.repo} is:pr is:open label:"${LABEL}"`;
+            let prs;
+            try {
+              prs = await github.paginate(github.rest.search.issuesAndPullRequests, {
+                q: query,
+                per_page: 100,
+              });
+            } catch (err) {
+              core.setFailed(`No se pudieron listar PRs con label ${LABEL}: ${err.status || ''} ${err.message}`);
+              return;
+            }
+            core.info(`PRs abiertos con label ${LABEL}: ${prs.length}`);
+
+            let expired = 0;
+            let kept = 0;
+            for (const pr of prs) {
+              const number = pr.number;
+              let events;
+              try {
+                events = await github.paginate(github.rest.issues.listEvents, {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: number,
+                  per_page: 100,
+                });
+              } catch (err) {
+                core.warning(`PR #${number}: no se pudo leer el timeline (${err.status || ''} ${err.message}); se salta.`);
+                continue;
+              }
+              // Última vez que se aplicó el label (no la primera): si el
+              // label fue retirado y vuelto a aplicar, lo que importa es
+              // la decisión consciente más reciente.
+              const lastLabeled = [...events].reverse().find(
+                (e) => e.event === 'labeled' && e.label && e.label.name === LABEL,
+              );
+              if (!lastLabeled) {
+                core.warning(`PR #${number}: tiene el label ${LABEL} pero no hay evento 'labeled' en el timeline; se salta.`);
+                continue;
+              }
+              const appliedAt = new Date(lastLabeled.created_at).getTime();
+              if (Number.isNaN(appliedAt)) {
+                core.warning(`PR #${number}: created_at inválido (${lastLabeled.created_at}); se salta.`);
+                continue;
+              }
+              const ageMs = now - appliedAt;
+              const ageDays = Math.floor(ageMs / (24 * 60 * 60 * 1000));
+              if (ageMs <= maxAgeMs) {
+                core.info(`PR #${number}: label aplicado hace ${ageDays}d (≤ ${maxAgeDays}d); se conserva.`);
+                kept += 1;
+                continue;
+              }
+              core.info(`PR #${number}: label aplicado hace ${ageDays}d (> ${maxAgeDays}d); se retira.`);
+              const actor = lastLabeled.actor && lastLabeled.actor.login
+                ? lastLabeled.actor.login
+                : 'desconocido';
+              const author = pr.user && pr.user.login ? pr.user.login : null;
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: number,
+                  name: LABEL,
+                });
+              } catch (err) {
+                // 404 = el label ya no estaba (carrera con otro actor); no es
+                // un fallo del sweep en sí, pero tampoco comentamos para no
+                // confundir al autor con un mensaje sin contexto.
+                core.warning(`PR #${number}: no se pudo retirar el label (${err.status || ''} ${err.message}); se salta el comentario.`);
+                continue;
+              }
+              const lines = [
+                MARKER,
+                '### `bypass-perf-gate` retirado por antigüedad',
+                '',
+                author ? `@${author}, el label \`bypass-perf-gate\` aplicado por **@${actor}** lleva **${ageDays} días** sobre este PR (umbral: ${maxAgeDays} días).` : `El label \`bypass-perf-gate\` aplicado por **@${actor}** lleva **${ageDays} días** sobre este PR (umbral: ${maxAgeDays} días).`,
+                '',
+                'Para que cada bypass del gate de performance sea una decisión consciente y reciente, el job programado `bypass-perf-gate-sweeper` lo ha retirado automáticamente.',
+                '',
+                'Si la regresión sigue siendo intencional y aceptada, vuelve a aplicar el label `bypass-perf-gate` (eso reinicia el contador). Si ya no procede, deja el gate activo y ajusta el código / los presupuestos según el caso.',
+              ];
+              const body = lines.join('\n');
+              try {
+                const existing = await github.paginate(github.rest.issues.listComments, {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: number,
+                  per_page: 100,
+                });
+                const prev = existing.find((c) => (c.body || '').includes(MARKER));
+                if (prev) {
+                  await github.rest.issues.updateComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: prev.id,
+                    body,
+                  });
+                  core.info(`PR #${number}: comentario de expiración actualizado (id=${prev.id}).`);
+                } else {
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: number,
+                    body,
+                  });
+                  core.info(`PR #${number}: comentario de expiración creado.`);
+                }
+              } catch (err) {
+                core.warning(`PR #${number}: no se pudo publicar el comentario (${err.status || ''} ${err.message}).`);
+              }
+              expired += 1;
+            }
+            core.info(`Sweep terminado. Expirados: ${expired}. Conservados: ${kept}.`);
