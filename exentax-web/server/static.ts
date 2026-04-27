@@ -7,10 +7,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 import { PAGE_META, PAGE_META_I18N, PAGE_SEO_CONTENT, PAGE_SEO_CONTENT_I18N, FAQ_SCHEMA_ENTRIES, PAGE_SCHEMAS, PAGE_SCHEMAS_I18N } from "./seo-content";
 import { FAQ_SCHEMA_ENTRIES_I18N } from "./faq-schema-i18n";
-import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
+import { resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import type { SupportedLang } from "./server-constants";
 import { logger } from "./logger";
 import { maybeInjectE2eTrackingHook } from "./e2e-hook";
+import { prepareSpaHtml } from "./spa-html";
 import { BLOG_POSTS } from "../client/src/data/blog-posts";
 import { BLOG_CONTENT_ES } from "../client/src/data/blog-content/es-all";
 import { BLOG_I18N } from "../client/src/data/blog-i18n-all";
@@ -496,33 +497,7 @@ export async function serveStatic(app: Express) {
 
   const indexHtml = await fsp.readFile(path.resolve(distPath, "index.html"), "utf-8");
 
-  const localizedPaths = getAllLocalizedPaths();
-  const KNOWN_PATHS = new Set([
-    ...Object.keys(PAGE_META),
-    ...Object.keys(PAGE_META_I18N),
-    ...localizedPaths,
-    "/links", "/start",
-  ]);
-  const LANG_PREFIX_RE = /^\/(es|en|fr|de|pt|ca)(\/|$)/;
-
-  // Routes that are real SPA pages but must NEVER appear in the index.
-  // They return HTTP 200 (so the SPA works) but always carry
-  // noindex/nofollow.
-  //
-  // - `/booking/:token` → user-facing booking management page.
-  const NOINDEX_KNOWN_RE = /^\/booking\/[^/]+$/;
-
   app.use((req, res) => {
-    const cleanPath = req.path.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
-    const langMatch = cleanPath.match(LANG_PREFIX_RE);
-    const basePath = langMatch ? (cleanPath.slice(langMatch[1].length + 1) || "/") : cleanPath;
-    const isBlogPost = basePath.startsWith("/blog/") && basePath !== "/blog";
-    const isBlogIndex = basePath === "/blog";
-    const isLangBlogRoute = !!langMatch && (isBlogPost || isBlogIndex);
-    const isNoindexKnown = NOINDEX_KNOWN_RE.test(cleanPath);
-
-    const isKnown = KNOWN_PATHS.has(cleanPath) || isBlogPost || isBlogIndex || isLangBlogRoute || isNoindexKnown;
-
     let injected = injectMetaCached(indexHtml, req.path);
 
     // Task #38 — when `E2E_TEST_HOOKS=1`, inject the inline flag that
@@ -534,20 +509,20 @@ export async function serveStatic(app: Express) {
     // on `req.path` and we want to keep the cached SSR HTML pristine.
     injected = maybeInjectE2eTrackingHook(injected);
 
-    if (isNoindexKnown) {
-      // Real app route — keep 200 but force noindex.
-      injected = injected.replace(
-        /<meta name="robots" content="[^"]*"/,
-        `<meta name="robots" content="noindex, nofollow"`
-      );
-      res.setHeader("X-Robots-Tag", "noindex, nofollow");
-    } else if (!isKnown) {
+    // Single source of truth (`server/spa-html.ts`) used by both the dev
+    // pipeline (`server/vite.ts`) and prod here. It:
+    //   1. Rewrites `<html lang>` so the attribute matches the URL locale
+    //      (Googlebot + screen readers see the right language for /en, /fr,
+    //      /de, /pt, /ca instead of the baked-in `lang="es"`).
+    //   2. Validates blog post slugs against the real `BLOG_POSTS` +
+    //      `BLOG_SLUG_I18N` registries — unknown slugs return 404 +
+    //      noindex instead of soft-200s that pollute the index.
+    //   3. Forces noindex on `/booking/:token` (real SPA route, must not
+    //      be indexed because the URL leaks the booking token in logs).
+    const prepared = prepareSpaHtml(injected, req.path);
+
+    if (prepared.status === 404) {
       res.status(404);
-      injected = injected.replace(
-        /<meta name="robots" content="[^"]*"/,
-        `<meta name="robots" content="noindex, nofollow"`
-      );
-      res.setHeader("X-Robots-Tag", "noindex, nofollow");
       // Server-side 404 logging — captures path + referrer (origin+path
       // only, no query/hash so we cannot accidentally leak tokens) + UA.
       // No PII: we never log query strings, cookies, or IPs here.
@@ -562,14 +537,19 @@ export async function serveStatic(app: Express) {
         }
       }
       const ua = (req.headers["user-agent"] || "") as string;
+      const cleanPath = req.path.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
       logger.info(
         `[404] path=${cleanPath} referrer=${referrer} ua="${ua.slice(0, 160)}"`,
         "static",
       );
     }
 
+    if (prepared.noindex) {
+      res.setHeader("X-Robots-Tag", "noindex, nofollow");
+    }
+
     res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
     res.setHeader("Content-Type", "text/html; charset=utf-8");
-    res.end(injected);
+    res.end(prepared.html);
   });
 }

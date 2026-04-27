@@ -7,6 +7,7 @@ import path from "path";
 import { nanoid } from "nanoid";
 import { injectMeta } from "./static";
 import { maybeInjectE2eTrackingHook } from "./e2e-hook";
+import { prepareSpaHtml } from "./spa-html";
 
 const viteLogger = createLogger();
 
@@ -70,7 +71,19 @@ export async function setupVite(server: Server, app: Express) {
       // (instead of short-circuiting on `import.meta.env.DEV` /
       // localhost). No-op without the env var.
       const withE2eHook = maybeInjectE2eTrackingHook(injected);
-      res.status(200).set({ "Content-Type": "text/html" }).end(withE2eHook);
+      // Mirror the production HTML pipeline: rewrite `<html lang>` so the
+      // attribute matches the URL locale (Googlebot + screen readers see
+      // the right language) and emit 404 + noindex for unknown routes /
+      // unknown blog slugs so soft-404s don't leak into the index even
+      // when the dev server is exposed (replit preview, e2e suites, etc).
+      const prepared = prepareSpaHtml(withE2eHook, req.originalUrl);
+      if (prepared.noindex) {
+        res.setHeader("X-Robots-Tag", "noindex, nofollow");
+      }
+      res
+        .status(prepared.status)
+        .set({ "Content-Type": "text/html" })
+        .end(prepared.html);
     } catch (e) {
       vite.ssrFixStacktrace(e as Error);
       next(e);
