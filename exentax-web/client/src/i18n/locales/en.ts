@@ -890,7 +890,7 @@ const en = {
     whatsappMsg: "Hi, I'd like to optimize my tax setup. I saw what you do at Exentax and want to understand whether a US LLC makes sense for my case. Got a minute to talk?"
   },
   heroStats: {
-    reductionLabel: "Average tax burden reduction",
+    reductionLabel: "Tax burden reduction up to",
     clientsLabel: "Clients with active structure",
     ratingLabel: "How clients rate us",
     pricingFrom: "Full formation from",

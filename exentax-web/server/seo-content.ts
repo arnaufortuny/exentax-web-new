@@ -1032,8 +1032,8 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 <p>Introduce tus ingresos mensuales, tu país de residencia fiscal y tu régimen actual. Compara al instante lo que pagas hoy con lo que pagarías con una LLC americana bien estructurada. Sin registro. Sin compromiso.</p>
 <h2>Cómo nos diferenciamos</h2>
 <ul>
-<li>-37% reducción fiscal media para nuestros clientes</li>
-<li>+31 clientes con estructura optimizada</li>
+<li>Hasta -80% de reducción fiscal alcanzable con estructura LLC bien diseñada</li>
+<li>+50 clientes con estructura activa y optimizada</li>
 <li>Asesoría fiscal estratégica de 30 minutos por videollamada </li>
 <li>Todo 100% online: sin necesidad de viajar a Estados Unidos</li>
 <li>Compliance fiscal continuo: nunca estás solo</li>
@@ -2897,8 +2897,8 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>At Exentax we design international tax structures so you pay only what you owe, with certainty and without guesswork. We reduce your tax burden from 40% to as low as 0% through legitimate tax planning.</p>
 <h2>How Exentax is different</h2>
 <ul>
-<li>-37% average tax reduction for our clients</li>
-<li>31+ clients with an optimized structure</li>
+<li>Up to -80% tax reduction achievable with a well-designed LLC structure</li>
+<li>+50 clients with an active and optimized structure</li>
 <li>Strategic 30-minute video consultation</li>
 <li>100% online: no travel to the United States required</li>
 <li>Ongoing fiscal compliance: you are never on your own</li>
@@ -3060,7 +3060,8 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Chez Exentax nous concevons des structures fiscales internationales pour que vous ne payiez que ce que vous devez, avec certitude et sans improvisation.</p>
 <h2>Nos différences</h2>
 <ul>
-<li>-37 % de réduction fiscale moyenne pour nos clients</li>
+<li>Jusqu'à -80 % de réduction fiscale avec une structure LLC bien conçue</li>
+<li>+50 clients avec une structure active et optimisée</li>
 <li>Consultation stratégique de 30 minutes en visioconférence</li>
 <li>100 % en ligne: aucun déplacement aux États-Unis</li>
 <li>Conformité fiscale continue: vous n'êtes jamais seul</li>
@@ -3217,7 +3218,8 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Exentax gestaltet internationale Steuerstrukturen, damit Sie nur zahlen, was Sie schulden: mit Rechtssicherheit, ohne Improvisation.</p>
 <h2>Was uns unterscheidet</h2>
 <ul>
-<li>-37 % durchschnittliche Steuerreduktion für unsere Mandanten</li>
+<li>Bis zu -80 % Steuerreduktion mit einer gut konzipierten LLC-Struktur</li>
+<li>+50 Mandanten mit aktiver und optimierter Struktur</li>
 <li>Strategische 30-Minuten-Videoberatung</li>
 <li>100 % online: keine USA-Reise nötig</li>
 <li>Laufende steuerliche Compliance: Sie sind nie allein</li>
@@ -3374,7 +3376,8 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Na Exentax desenhamos estruturas fiscais internacionais para que você pague apenas o que deve, com segurança e sem improviso.</p>
 <h2>O que nos diferencia</h2>
 <ul>
-<li>-37 % de redução fiscal média para nossos clientes</li>
+<li>Até -80 % de redução fiscal com uma estrutura LLC bem desenhada</li>
+<li>+50 clientes com estrutura ativa e otimizada</li>
 <li>Consultoria estratégica de 30 minutos por videochamada</li>
 <li>100 % online: sem viajar aos Estados Unidos</li>
 <li>Compliance fiscal contínuo</li>
@@ -3531,7 +3534,8 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>A Exentax dissenyem estructures fiscals internacionals perquè paguis només el que deus, amb seguretat i sense improvisacions.</p>
 <h2>Com ens diferenciem</h2>
 <ul>
-<li>-37 % de reducció fiscal mitjana per als nostres clients</li>
+<li>Fins a -80 % de reducció fiscal amb una estructura LLC ben dissenyada</li>
+<li>+50 clients amb estructura activa i optimitzada</li>
 <li>Assessoria estratègica de 30 minuts per videotrucada</li>
 <li>100 % online: sense viatjar als Estats Units</li>
 <li>Compliance fiscal continu</li>

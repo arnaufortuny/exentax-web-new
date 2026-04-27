@@ -85,7 +85,7 @@ const STATE_KEYS: Array<{ key: string; i18nKey: string; route: RouteKey }> = [
   { key: "nm", i18nKey: "llcUsPage.newMexico", route: "service_llc_nm" },
   { key: "wy", i18nKey: "llcUsPage.wyoming",   route: "service_llc_wy" },
   { key: "de", i18nKey: "llcUsPage.delaware",  route: "service_llc_de" },
-  { key: "fl", i18nKey: "florida",             route: "service_llc_fl" },
+  { key: "fl", i18nKey: "llcUsPage.florida",   route: "service_llc_fl" },
 ];
 
 function LLCPlansSection() {

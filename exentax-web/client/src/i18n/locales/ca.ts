@@ -896,7 +896,7 @@ const ca = {
     whatsappMsg: "Hola, m'interessa optimitzar la meva situació fiscal. He vist el que feu a Exentax i m'agradaria entendre si una LLC té sentit per al meu cas. Podem parlar?"
   },
   heroStats: {
-    reductionLabel: "Reducció mitjana de càrrega fiscal",
+    reductionLabel: "Reducció fiscal fins a",
     clientsLabel: "Clients amb estructura activa",
     ratingLabel: "Com ens valoren els clients",
     pricingFrom: "Constitució completa des de",

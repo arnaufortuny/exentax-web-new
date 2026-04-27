@@ -14,7 +14,7 @@ export default function Hero() {
   const lp = useLangPath();
 
   const stats = [
-    { value: "−40%", label: t("heroStats.reductionLabel") },
+    { value: "−80%", label: t("heroStats.reductionLabel") },
     { value: "+50", label: t("heroStats.clientsLabel") },
     { value: "5.0★", label: t("heroStats.ratingLabel"), href: SOCIAL.TRUSTPILOT },
   ];
