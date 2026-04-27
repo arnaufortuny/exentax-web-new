@@ -125,6 +125,13 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20DAC%208%20%C3%A9%20a%20vers%C3%A3o%20cripto%20da%20DAC%207%3A%20a%20partir%20de%20hoje%2C%20todas%20as%20plataformas%20de%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+
+<!-- exentax:conv-fill-v1 -->
+Ou liga-nos diretamente para <a href="tel:+34614916910">+34 614 916 910</a> se preferires falar.
+
+Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">página de LLC no Wyoming</a> com custos e prazos fechados.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.

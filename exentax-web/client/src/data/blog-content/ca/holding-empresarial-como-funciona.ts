@@ -216,6 +216,11 @@ Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessi
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22La%20paraula%20holding%20s'utilitza%20en%20molts%20contextos%20i%20gaireb%C3%A9%20sempre%20amb%20una%20cer%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Wyoming, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-wyoming">LLC a Wyoming</a> amb costos, terminis i propers passos concrets.
+
+<!-- exentax:conv-fill-v1 -->
+O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si prefereixes parlar.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

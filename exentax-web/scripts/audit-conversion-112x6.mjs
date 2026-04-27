@@ -57,17 +57,18 @@ const AGENDA_SLUG = {
   fr: "reserver",
   de: "buchen",
   pt: "agendar",
-  ca: "reservar",
+  ca: "agendar",
 };
 
 // Localized service-page roots (LLC + ITIN subpages live under these).
+// Canonical roots from shared/routes.ts (`our_services` key per locale).
 const SERVICES_ROOT = {
-  es: "nuestros-servicios",
-  en: "our-services",
-  fr: "nos-services",
-  de: "unsere-leistungen",
-  pt: "nossos-servicos",
-  ca: "els-nostres-serveis",
+  es: "servicios",
+  en: "services",
+  fr: "services",
+  de: "leistungen",
+  pt: "servicos",
+  ca: "serveis",
 };
 
 // LLC state slug variants accepted under any services root.
@@ -75,11 +76,12 @@ const LLC_STATE_RE =
   /llc-(?:wyoming|delaware|florida|new-mexico|nuevo-mexico|nouveau-mexique|nou-mexic|novo-mexico|floride)/i;
 
 // ITIN slug variants per language (any one of these counts as a hit).
+// Canonical slugs from shared/routes.ts (`service_itin` key per locale).
 const ITIN_SLUGS = [
   "get-your-itin",
   "obten-tu-itin",
-  "obtenir-votre-itin",
-  "itin-beantragen",
+  "obtiens-ton-itin",
+  "hol-deine-itin",
   "obtenha-seu-itin",
   "obte-el-teu-itin",
 ];

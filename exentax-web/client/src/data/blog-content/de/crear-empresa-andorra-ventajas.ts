@@ -212,6 +212,13 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Andorra%20hat%20sich%20in%20f%C3%BCnfzehn%20Jahren%20von%20einem%20Einkaufsziel%20zu%20einem%20der%20bevor%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie es lieber persönlich besprechen möchten, <a href="/de/buchen">buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
+
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming">Wyoming-LLC-Leistungsseite</a> mit festen Kosten und Fristen.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

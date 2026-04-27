@@ -176,6 +176,13 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <p data-testid="cta-action-row">Quer falar agora? Escreva-nos pelo <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22wise%20business%20crs%20reporting%20fiscal%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferir falar diretamente, <a href="/pt/agendar">marque uma sessão gratuita</a> e analisamos o seu caso real em trinta minutos.
+
+<!-- exentax:conv-fill-v1 -->
+Ou liga-nos diretamente para <a href="tel:+34614916910">+34 614 916 910</a> se preferires falar.
+
+Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">página de LLC no Wyoming</a> com custos e prazos fechados.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

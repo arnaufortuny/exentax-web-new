@@ -168,6 +168,13 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22Un%20d%C3%A9veloppeur%20SaaS%20fran%C3%A7ais%20qui%20facture%20en%20USD%20via%20Stripe%20depuis%20sa%20micro-en%E2%80%A6%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si votre projet est de créer la LLC au Delaware, consultez notre page de service <a href="/fr/services/llc-delaware">LLC au Delaware</a> avec coûts, délais et prochaines étapes concrètes.
+
+<!-- exentax:conv-fill-v1 -->
+Ou appelez-nous directement au <a href="tel:+34614916910">+34 614 916 910</a> si vous préférez la voix.
+
+Vous préférez un créneau ? <a href="/fr/reserver">Réservez une session gratuite</a> et nous examinons votre cas réel en trente minutes.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

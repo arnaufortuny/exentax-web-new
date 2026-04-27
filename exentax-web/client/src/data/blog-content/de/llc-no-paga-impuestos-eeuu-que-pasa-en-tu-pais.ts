@@ -205,6 +205,11 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Ein%20Satz%20wiederholt%20sich%20in%20jedem%20YouTube-Video%20und%20jeder%20%C3%B6ffne%20Ihre%20LLC%20in%20%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie Ihre LLC in New Mexico gründen möchten, sehen Sie sich unsere Service-Seite <a href="/de/leistungen/llc-new-mexico">LLC in New Mexico</a> mit Kosten, Fristen und konkreten nächsten Schritten an.
+
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

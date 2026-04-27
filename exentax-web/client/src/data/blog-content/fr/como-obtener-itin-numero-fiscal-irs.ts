@@ -196,6 +196,13 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 <p data-testid="cta-action-row">Envie d'en parler tout de suite ? Écrivez-nous sur <a href="https://wa.me/34614916910?text=Bonjour%20Exentax%2C%20je%20lis%20l'article%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20et%20je%20veux%20parler%20%C3%A0%20un%20conseiller%20sur%20mon%20cas.">WhatsApp</a> et nous vous répondons aujourd'hui.</p>
 
 Si vous n'avez pas encore d'ITIN, consultez notre guide de service <a href="/fr/services/obtiens-ton-itin">obtenir votre ITIN étape par étape</a> et démarrez la procédure aujourd'hui.
+
+<!-- exentax:conv-fill-v1 -->
+Ou appelez-nous directement au <a href="tel:+34614916910">+34 614 916 910</a> si vous préférez la voix.
+
+Pour les détails par État, consultez notre <a href="/fr/services/llc-wyoming">page service LLC Wyoming</a> avec coûts et délais fermés.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

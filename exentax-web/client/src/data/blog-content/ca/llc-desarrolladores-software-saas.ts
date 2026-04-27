@@ -168,6 +168,13 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Un%20desenvolupador%20SaaS%20catal%C3%A0%20que%20factura%20en%20USD%20via%20Stripe%20acaba%20topant%20semp%E2%80%A6%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si el teu pla és muntar la LLC a Delaware, repassa la nostra pàgina de servei <a href="/ca/serveis/llc-delaware">LLC a Delaware</a> amb costos, terminis i propers passos concrets.
+
+<!-- exentax:conv-fill-v1 -->
+O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si prefereixes parlar.
+
+Prefereixes agenda? <a href="/ca/agendar">Reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

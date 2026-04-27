@@ -180,6 +180,13 @@ This article is updated yearly with regulatory changes that affect the structure
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22One%20of%20the%20most%20underrated%20advantages%20of%20a%20US%20LLC%20is%20its%20legal%20security%20and%20p%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If your plan is to set up the LLC in Wyoming, check our service page <a href="/en/services/llc-wyoming">LLC in Wyoming</a> with real costs, timelines, and the concrete next steps.
+
+<!-- exentax:conv-fill-v1 -->
+Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd rather talk.
+
+Prefer a calendar slot? <a href="/en/book">Book a free session</a> and we'll review your real case in thirty minutes.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

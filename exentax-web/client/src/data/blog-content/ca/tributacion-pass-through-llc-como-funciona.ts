@@ -207,6 +207,15 @@ Per a la teva xifra exacta de tributació combinada, obre la <strong>calculadora
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Una%20LLC%20americana%20paga%200%20%24%20d'impost%20federal%20als%20Estats%20Units%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si vols veure tot el procés amb detall, repassa la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que incloem.
+
+<!-- exentax:conv-fill-v1 -->
+O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si prefereixes parlar.
+
+Prefereixes agenda? <a href="/ca/agendar">Reserva una sessió gratuïta</a> i revisem el teu cas real en trenta minuts.
+
+Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">pàgina del servei LLC a Wyoming</a> amb costos i terminis tancats.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

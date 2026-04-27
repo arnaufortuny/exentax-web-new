@@ -130,6 +130,20 @@ Jede Struktur hat Nuancen: Wohnsitzland, Tätigkeitsart, Krypto oder nicht, Volu
   Bei Exentax schließen wir diese fünf Fronten jedes Jahr parallel zum US-Bundeskalender (Form 5472, 1120 pro-forma, FBAR, staatlicher Annual Report, BOI Report bei Anwendbarkeit). Ziel ist, dass keine Prüfung ein loses Ende findet und die Struktur einer rückwirkenden Prüfung über 5 bis 7 Jahre standhält.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:cta-conv-v1 -->
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming">Wyoming-LLC-Leistungsseite</a> mit festen Kosten und Fristen.
+
+<!-- /exentax:conv-fill-v1 -->
+
+<!-- exentax:conv-fill-v1 -->
+Oder schreiben Sie uns auf <a href="https://wa.me/34614916910">WhatsApp unter +34 614 916 910</a> und wir antworten heute.
+
+<!-- /exentax:conv-fill-v1 -->
+<!-- /exentax:cta-conv-v1 -->
+
 <!-- exentax:cta-v1 -->
 Buchen Sie eine kostenlose 30-minütige Beratung. Wir prüfen Ihren konkreten Fall und sagen Ihnen, was wirklich sinnvoll ist. <a href="/de/buchen">Kostenlose Beratung buchen</a>.
 <!-- /exentax:cta-v1 -->

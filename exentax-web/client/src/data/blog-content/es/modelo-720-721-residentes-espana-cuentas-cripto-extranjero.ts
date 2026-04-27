@@ -242,6 +242,13 @@ Para profundizar en el reporting bancario que precede al 720 conviene leer <a hr
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Si%20eres%20residente%20fiscal%20en%20Espa%C3%B1a%20y%20tienes%20una%20LLC%20americana%2C%20una%20cuenta%20Wis%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
+
+<!-- exentax:conv-fill-v1 -->
+O llámanos directamente al <a href="tel:+34614916910">+34 614 916 910</a> si prefieres voz.
+
+Para detalles concretos por estado, repasa nuestra <a href="/es/servicios/llc-wyoming">página de LLC en Wyoming</a> con costes y plazos cerrados.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

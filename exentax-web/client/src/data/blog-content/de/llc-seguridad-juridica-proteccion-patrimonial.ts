@@ -155,6 +155,13 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Im%20deutschen%20Recht%20fungiert%20die%20GmbH%20als%20Haftungsfirewall%2C%20aber%20die%20Rechtspre%E2%80%A6%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie Ihre LLC in Wyoming gründen möchten, sehen Sie sich unsere Service-Seite <a href="/de/leistungen/llc-wyoming">LLC in Wyoming</a> mit Kosten, Fristen und konkreten nächsten Schritten an.
+
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+Lieber einen Termin? <a href="/de/buchen">Buchen Sie ein kostenloses Gespräch</a> und wir prüfen Ihren konkreten Fall in dreißig Minuten.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

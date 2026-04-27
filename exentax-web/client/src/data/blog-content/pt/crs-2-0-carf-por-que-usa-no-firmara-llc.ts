@@ -130,6 +130,20 @@ Cada estrutura tem nuances: o país de residência, o tipo de atividade, a prese
   Na Exentax fechamos estas cinco frentes todos os anos em paralelo com o calendário federal americano (Form 5472, 1120 pro-forma, FBAR, Annual Report estadual, BOI Report quando aplicável). O objetivo é que nenhuma inspeção encontre uma ponta solta e que a estrutura aguente uma revisão retroativa a 5-7 anos.
 <!-- /exentax:defensa-fiscal-v1 -->
 
+<!-- exentax:cta-conv-v1 -->
+<!-- exentax:conv-fill-v1 -->
+Ou liga-nos diretamente para <a href="tel:+34614916910">+34 614 916 910</a> se preferires falar.
+
+Para detalhes por estado, consulta a nossa <a href="/pt/servicos/llc-wyoming">página de LLC no Wyoming</a> com custos e prazos fechados.
+
+<!-- /exentax:conv-fill-v1 -->
+
+<!-- exentax:conv-fill-v1 -->
+Ou escreve-nos por <a href="https://wa.me/34614916910">WhatsApp para +34 614 916 910</a> e respondemos hoje mesmo.
+
+<!-- /exentax:conv-fill-v1 -->
+<!-- /exentax:cta-conv-v1 -->
+
 <!-- exentax:cta-v1 -->
 Marque uma consulta gratuita de 30 minutos: analisamos o seu caso real e dizemos-lhe o que faz sentido. <a href="/pt/agendar">Marcar consulta gratuita</a>.
 <!-- /exentax:cta-v1 -->

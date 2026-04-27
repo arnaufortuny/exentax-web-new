@@ -235,6 +235,13 @@ If your main goal is minimising tax, continue with <a href="/en/blog/legal-paths
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22If%20you're%20a%20freelancer%20in%20Spain%20and%20your%20work%20runs%20entirely%20on%20a%20laptop%2C%20you'%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
+
+<!-- exentax:conv-fill-v1 -->
+Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd rather talk.
+
+For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming LLC service page</a> with closed costs and timelines.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

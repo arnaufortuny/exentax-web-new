@@ -249,6 +249,15 @@ Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Buch
 <p data-testid="cta-action-row">Möchten Sie es jetzt besprechen? Schreiben Sie uns auf <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22Sprechen%20wir%20%C3%BCber%20Geld%2C%20direkt%20und%20ohne%20Umschweife%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a>, wir antworten heute.</p>
 
 Wenn Sie den gesamten Prozess im Detail sehen möchten, prüfen Sie unsere <a href="/de/leistungen">Leistungsseite</a> mit allem, was wir abdecken.
+
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming">Wyoming-LLC-Leistungsseite</a> mit festen Kosten und Fristen.
+
+Wenn Ihre Priorität die ITIN ist, siehe <a href="/de/leistungen/hol-deine-itin">ITIN mit Exentax beantragen</a> und wir bearbeiten sie parallel.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

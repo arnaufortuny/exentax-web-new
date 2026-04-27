@@ -199,6 +199,13 @@ Si quieres ver cómo se cruzan estos datos con la presentación del 720 sigue co
 <p data-testid="cta-action-row">¿Necesitas hablarlo ya? Escríbenos por <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20vengo%20del%20art%C3%ADculo%20%22Es%20la%20pregunta%20m%C3%A1s%20repetida%20cuando%20un%20cliente%20cierra%20su%20LLC%20con%20nosotros%3A%20%C2%BFMe%E2%80%A6%22%20y%20quiero%20hablar%20con%20un%20asesor%20sobre%20mi%20caso.">WhatsApp</a> y te respondemos hoy mismo.</p>
 
 Si prefieres hablarlo en directo, <a href="/es/agendar">reserva una sesión gratuita</a> y revisamos tu caso real en treinta minutos.
+
+<!-- exentax:conv-fill-v1 -->
+O llámanos directamente al <a href="tel:+34614916910">+34 614 916 910</a> si prefieres voz.
+
+Para detalles concretos por estado, repasa nuestra <a href="/es/servicios/llc-wyoming">página de LLC en Wyoming</a> con costes y plazos cerrados.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

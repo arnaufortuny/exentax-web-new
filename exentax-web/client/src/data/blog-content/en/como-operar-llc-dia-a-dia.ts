@@ -329,6 +329,13 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Once%20your%20LLC%20is%20formed%20and%20your%20bank%20account%20is%20open%2C%20what%20does%20daily%20operat%E2%80%A6%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you'd rather discuss it live, <a href="/en/book">book a free session</a> and we'll review your real case in thirty minutes.
+
+<!-- exentax:conv-fill-v1 -->
+Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd rather talk.
+
+For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming LLC service page</a> with closed costs and timelines.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.

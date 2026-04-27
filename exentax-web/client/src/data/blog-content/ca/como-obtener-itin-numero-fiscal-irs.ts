@@ -198,6 +198,13 @@ Vols aplicar aquest protocol al teu cas? <a href="/ca/agendar">Reserva una sessi
 <p data-testid="cta-action-row">Vols parlar-ne ara? Escriu-nos per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22como%20obtener%20itin%20numero%20fiscal%20irs%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i et responem avui mateix.</p>
 
 Si encara no tens ITIN, mira la nostra guia de servei <a href="/ca/serveis/obte-el-teu-itin">obté el teu ITIN pas a pas</a> i comença el tràmit avui.
+
+<!-- exentax:conv-fill-v1 -->
+O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si prefereixes parlar.
+
+Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">pàgina del servei LLC a Wyoming</a> amb costos i terminis tancats.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

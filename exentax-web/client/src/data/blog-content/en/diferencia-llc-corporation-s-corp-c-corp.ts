@@ -134,6 +134,13 @@ If you want to go from doubt to plan, book 30 minutes with Exentax and leave the
 <p data-testid="cta-action-row">Need to talk now? Send us a <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I%20come%20from%20the%20article%20%22Difference%20between%20LLC%2C%20Corporation%2C%20S-Corp%20and%20C-Corp%22%20and%20I%20want%20to%20speak%20with%20an%20advisor.">WhatsApp message</a> and we will reply today.</p>
 
 If your plan is to set up an LLC in Delaware, see our service page <a href="/en/services/llc-delaware">LLC in Delaware</a> with costs, timelines and concrete next steps.
+
+<!-- exentax:conv-fill-v1 -->
+Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd rather talk.
+
+Prefer a calendar slot? <a href="/en/book">Book a free session</a> and we'll review your real case in thirty minutes.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

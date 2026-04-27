@@ -173,6 +173,13 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20qualquer%20pessoa%20pode%20ir%20%C3%A0%20certid%C3%A3o%20permanente%20e%20ver%20a%20tua%20Lda%2C%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Novo México, vê a nossa página de serviço <a href="/pt/servicos/llc-novo-mexico">LLC em Novo México</a> com custos, prazos e próximos passos concretos.
+
+<!-- exentax:conv-fill-v1 -->
+Ou liga-nos diretamente para <a href="tel:+34614916910">+34 614 916 910</a> se preferires falar.
+
+Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

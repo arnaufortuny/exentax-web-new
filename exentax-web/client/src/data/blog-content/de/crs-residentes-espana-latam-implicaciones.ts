@@ -184,6 +184,13 @@ Möchten Sie dieses Protokoll auf Ihren Fall anwenden? <a href="/de/buchen">Rese
 <p data-testid="cta-action-row">Brauchen Sie sofortige Beratung? Schreiben Sie uns über <a href="https://wa.me/34614916910?text=Hallo%20Exentax%2C%20ich%20lese%20den%20Artikel%20%22crs%20fur%20ansassige%20in%20spanien%20und%20lateinamerika%22%20und%20m%C3%B6chte%20mit%20einem%20Berater%20%C3%BCber%20meinen%20Fall%20sprechen.">WhatsApp</a> und wir antworten Ihnen heute noch.</p>
 
 Wenn Sie es lieber direkt besprechen möchten, <a href="/de/buchen">reservieren Sie eine kostenlose Sitzung</a> und wir prüfen Ihren echten Fall in dreißig Minuten.
+
+<!-- exentax:conv-fill-v1 -->
+Oder rufen Sie uns direkt an: <a href="tel:+34614916910">+34 614 916 910</a>, wenn Sie lieber sprechen möchten.
+
+Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming">Wyoming-LLC-Leistungsseite</a> mit festen Kosten und Fristen.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

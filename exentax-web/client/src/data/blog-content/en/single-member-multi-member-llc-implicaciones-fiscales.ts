@@ -222,6 +222,15 @@ Field note from running this for clients month after month: the rule is straight
 <p data-testid="cta-action-row">Want to discuss it now? Message us on <a href="https://wa.me/34614916910?text=Hi%20Exentax%2C%20I'm%20reading%20%22Going%20from%20single-member%20LLC%20to%20multi-member%20LLC%20sounds%20like%20a%20minor%20procedure%22%20and%20want%20to%20talk%20to%20an%20advisor%20about%20my%20case.">WhatsApp</a> and we'll get back to you today.</p>
 
 If you want to see the full process in detail, check our <a href="/en/services">services page</a> with everything we cover.
+
+<!-- exentax:conv-fill-v1 -->
+Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd rather talk.
+
+Prefer a calendar slot? <a href="/en/book">Book a free session</a> and we'll review your real case in thirty minutes.
+
+For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming LLC service page</a> with closed costs and timelines.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->

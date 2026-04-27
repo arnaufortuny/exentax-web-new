@@ -248,6 +248,15 @@ Vol aplicar aquest protocol al seu cas? <a href="/ca/agendar">Reservi una sessi�
 <p data-testid="cta-action-row">Vol parlar-ne ara? Escrigui’ns per <a href="https://wa.me/34614916910?text=Hola%20Exentax%2C%20estic%20llegint%20%22Parlem%20de%20diners%2C%20directament%20i%20sense%20embuts%22%20i%20vull%20parlar%20amb%20un%20assessor%20sobre%20el%20meu%20cas.">WhatsApp</a> i li responem avui mateix.</p>
 
 Si vol veure el detall del procés complet, consulta la nostra <a href="/ca/serveis">pàgina de serveis</a> amb tot el que cobrim.
+
+<!-- exentax:conv-fill-v1 -->
+O truca'ns directament al <a href="tel:+34614916910">+34 614 916 910</a> si prefereixes parlar.
+
+Per a detalls per estat, consulta la nostra <a href="/ca/serveis/llc-wyoming">pàgina del servei LLC a Wyoming</a> amb costos i terminis tancats.
+
+Si la teva prioritat és l'ITIN, consulta <a href="/ca/serveis/obte-el-teu-itin">Obté el teu ITIN amb Exentax</a> i ho gestionem en paral·lel.
+
+<!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
