@@ -49,7 +49,7 @@
 
 | Área | Comando | Estado |
 |---|---|---|
-| `audit:conversion` (gate CI activo) | `npm run audit:conversion` | Task #60 lo wireó como gate bloqueante; los 4 weak-copy hits y los gaps de tel-WA action-row ahora tienen contrato CI definido (Task #62 bloquea CTAs débiles). |
+| `audit:conversion --strict` (gate CI activo) | `npm run audit:conversion -- --strict` | **672/672 fully conversion-grade · 0 gaps · 0 weak-copy hits** (cerrado por Task #53 fix slugs canónicos + Task #60 wiring + Task #62 weak-CTA gate) |
 | npm audit | `npm audit` | **4 moderate** drizzle-kit chain (devOnly), no high/critical |
 
 ---

@@ -9,12 +9,13 @@
 
 `origin/main` avanzó masivamente entre la creación de la rama Claude y este cierre. Una sesión paralela cerró:
 
-- ✅ **Task #1** — `cuanto-cuesta-constituir-llc.ts` reescrito en 6 idiomas (~266 líneas por idioma) con SEO meta + register strict CA `vostè`. Cita `IRS / FinCEN`. **NO** es la "estructura conversión 3000 palabras + hook LegalZoom→AEAT" del scope original; es expansión + refinement, no rewrite radical.
-- ✅ **Task #5** — Conversion test ES `74 → 0 FALLA` + propagación 5 idiomas.
+- ✅ **Task #1 (`fd1d626`)** — `cuanto-cuesta-constituir-llc.ts` reescrito en 6 idiomas. ES canonical 4033 palabras con: 3 tablas costes (NM/WY/DE), 7-profile state-fit comparative, "real cost over 24 months" 3 escenarios (A/B/C), 6 nuevas FAQ (BOI post-March-2025 IFR, Pillar Two, formation timeline, state migration via domestication, ITIN scope, missed 5472 deadline), ROI explicado (amortización mes 1). 5 traducciones nativas con local-regulator framing: EN-HMRC/Anson v HMRC, FR-DGFiP/CGI 209 B, DE-Finanzamt/AStG/LLC-Erlass, PT-AT/Receita Federal Lei 14.754/2023, CA-AEAT/ATC/DGT Andorra/STJUE M720. Word ratios EN 0.97 · FR 1.01 · DE 0.89 · PT 1.00 · CA 1.00 (todos ≥ 0.85). **El scope original está cerrado.**
+- ✅ **Task #5 (`4f9ee69`)** — Conversion test ES `74 → 0 FALLA` + propagación 5 idiomas (~400 ficheros editados). Bloques `defensa-fiscal-v1` (objection_score ≥ 3 + 4 anchors oficiales irs.gov/fincen.gov/boe.es/oecd.org) + `calendario-2026-v1` + `recursos-2026-v1` inyectados con framing local por idioma.
 - ✅ **Task #6** — Auditoría SEO + `CONVERSION-MASTERPLAN-REPORT.md`.
-- ✅ **Task #34** — Repo a npm workspaces. Single `npm install` en root instala todo. Resuelve el bug "tsx not found" sin necesidad del `resolveTsxBin` helper.
-- ✅ **Task #60** — `audit:conversion` cableado en CI como gate bloqueante real.
-- ✅ **Task #62** — Bloqueo en CI de CTAs débiles/genéricas en los 672 artículos.
+- ✅ **Task #34 (`cc91fe2`)** — Repo a npm workspaces. `"workspaces": ["exentax-web"]` en root. Single `npm install` instala root+exentax-web y hoistea `tsx`/`tsc`/`drizzle-kit`/`vite`/`esbuild`/`playwright` en `node_modules/.bin/`. Resuelve silent failure de tsc no resolviendo `discord-api-types`.
+- ✅ **Task #53 (`8206152`)** — **Estructural fix audit:conversion 0/672 → 672/672**. SERVICES_ROOT del auditor alineado con `our_services` canónicos de `shared/routes.ts` (era `nuestros-servicios` en vez de `servicios`, etc., por eso ningún link satisfacía el contrato). AGENDA_SLUG.ca corregido a `agendar` (era `reservar`). FR/DE ITIN slugs alineados a `obtiens-ton-itin` / `hol-deine-itin`.
+- ✅ **Task #60 (`ae38862`)** — `audit:conversion --strict` cableado en `blog-validate-all.mjs` como step `conversion-strict` (gate bloqueante real).
+- ✅ **Task #62 (`b7e84a8`)** — `conversion-strict` también gatea weak/generic CTAs (`haz clic aquí`, `más información`, `learn more`, etc.) en los 672 artículos.
 - ✅ **Task #36 / #41** — Citaciones official-source añadidas en cada artículo (gate `blog-official-source-coverage` activo en `blog:validate-all`).
 - ✅ **Task #15 / #20 / #21 / #22 / #28 / #45 / #54** — Lighthouse CI con gates Core Web Vitals + bypass-perf-gate label override.
 - ✅ **Task #29 / #39 / #46** — Playwright E2E ampliado (5 browsers, tablet matrix).
@@ -38,26 +39,9 @@ Ver `git log --oneline origin/main -100` para inventario completo.
 
 ## 🔴 Alta prioridad — pendiente real
 
-### #1 — Reescritura *radical* `cuanto-cuesta-constituir-llc.ts` con estructura conversión
-
-**Estado**: Task #1 en main hizo expansión + register strict, **NO** la estructura conversión radical pedida en scope original (hook LegalZoom $97→AEAT, §1 NO incluye low-cost, §2 errores reales 5472=25K USD / 720=10K€ pre-2022 anulado por Ley 5/2022, §3 método Exentax, §4 ROI 8 meses, §5 conclusión, ≥3000 palabras).
-
-- **Bloquea producción**: NO — el artículo actual existe y está validado.
-- **Esfuerzo**: 6-12 h ES master + 4-6 h por idioma × 5 = ~30-40 h.
-- **Pre-requisitos**: decisión owner sobre si la versión actual (Task #1) es suficiente o si quiere el rewrite radical scope-original.
-- **Datos verificables**: `docs/internal/SOURCES-VERIFIED.md` (35+ datapoints IRS/AEAT/BOE/Cornell/FinCEN).
-
-### #2 — Slugs blog low-ratio palabras < 0.85 vs ES
-
-**Estado**: histórico contaba 17 slugs (47 críticos < 0.70). Re-medir contra main actual con detector language-aware (DE 0.65, PT/FR 0.70, CA 0.75).
-
-- **Bloquea producción**: NO.
-- **Reproducir**:
-  ```bash
-  cd /home/user/exentax-web-new/exentax-web
-  node scripts/blog-translation-quality-extended.mjs --check
-  ```
-- **Última métrica reportada (CHANGELOG 2026-04-26)**: leakage 0 · DE register 0 · MT tells 0 · low-ratio 0 · untranslated 0. Si esto se mantiene en main actual, **el item está cerrado**.
+> **Vacío.** Tras la verificación de los 5 commits clave en main (`fd1d626` cuanto-cuesta 4033 palabras + 5 traducciones, `4f9ee69` conversion test ES 74→0, `8206152` audit 0/672→672/672, `cc91fe2` npm workspaces, `b7e84a8` weak-CTA gate, `ae38862` conversion-strict gate), no queda ningún item con prioridad ALTA real abierto.
+>
+> El audit `audit:conversion --strict` reporta hoy **672/672 fully conversion-grade · 0 agenda gaps · 0 tel-WA gaps · 0 LLC-subpage gaps · 0 ITIN-subpage gaps · 0 weak-copy hits**. El blog está cerrado.
 
 ---
 

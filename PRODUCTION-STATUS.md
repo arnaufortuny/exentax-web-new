@@ -23,7 +23,7 @@
 | **PT-PT (no brasileñismos)** | ✅ Clean | `node scripts/audit-pt-pt.mjs` | 114 ficheros pt + bloques pt-de-1-multilocale |
 | **Redirects 301 legacy** | ✅ 9/9 | `cd exentax-web && npm run test:redirects` | duration ~33ms · 0 fail |
 | **Geo middleware (IP→country)** | ✅ 12/12 | `cd exentax-web && npm run test:geo` | duration ~8s · 0 fail |
-| **Audit conversion 112×6** | ⚠ 0/672 baseline | `cd exentax-web && npm run audit:conversion` | 175 agenda gaps · 669 tel-WA gaps · 654 LLC-subpage gaps · 37 ITIN-subpage gaps · 4 weak-copy hits → ver [`PENDING-FINAL.md`](PENDING-FINAL.md) |
+| **Audit conversion 112×6 (--strict)** | ✅ **672/672** | `cd exentax-web && npm run audit:conversion -- --strict` | 0 agenda gaps · 0 tel-WA gaps · 0 LLC-subpage gaps · 0 ITIN-subpage gaps · 0 weak-copy hits — cerrado Task #53/#60/#62, gate CI activo |
 | **npm audit (vulnerabilities)** | ⚠ 4 moderate (devOnly) | `cd exentax-web && npm audit` | drizzle-kit → @esbuild-kit/esm-loader chain. No high/critical. `npm audit fix` requires `--force` (breaking). |
 
 ---
