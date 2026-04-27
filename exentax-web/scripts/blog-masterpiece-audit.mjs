@@ -149,7 +149,7 @@ function hasCalcCta(body, lang) {
   return false;
 }
 
-function findYearsInProse(body, slug = "") {
+export function findYearsInProse(body, slug = "") {
   // Strip URLs and HTML attributes first (slugs may contain -2026).
   let cleaned = body
     // Drop the editorial review-anchor block entirely. It is a transparency
