@@ -37,7 +37,7 @@ El banco verifica tu pasaporte y tu dirección. Pueden usar servicios de verific
 Un equipo de compliance revisa la naturaleza de tu negocio, tu sitio web y la coherencia entre lo que declaras y lo que ven online.
 
 ### 4. Decisión
-Si todo está en orden, tu cuenta se aprueba en 1-5 días hábiles. Si necesitan documentación adicional, te contactarán.
+Si todo está en orden, tu cuenta se aprueba en 1-5 días hábiles. Si necesitan documentación adicional, te contactarán; si quieres llegar al banco con el dossier ya cerrado, <a href="/es/agendar">reserva una sesión gratuita con Exentax</a> y revisamos tu caso real en 30 minutos.
 ### Sectores que requieren mayor due diligence
 
 Algunos sectores reciben un escrutinio adicional por parte de los bancos:
