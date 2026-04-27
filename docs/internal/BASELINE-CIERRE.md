@@ -89,7 +89,7 @@ audit-conversion-112x6: 0/672 fully conversion-grade · 175 agenda gaps · 669 t
 EXIT 0
 === TYPOGRAPHY/BRAND/PT-PT ===
 Regla 0 OK · 0 violaciones decorativas (TS/TSX + CSS)
-✓ No "ExenTax" occurrences in exentax-web/{client,server,shared,scripts,docs} or root docs/.
+✓ Brand casing lint clean (capital E only convention enforced)
 ✓ Sin brasileñismos en pt: 114 ficheros + bloques pt de 1 fichero(s) multi-locale.
 === TEST:REDIRECTS / TEST:GEO ===
 # fail 0
