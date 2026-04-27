@@ -15,7 +15,7 @@ import { BLOG_CONTENT_ES } from "../client/src/data/blog-content/es-all";
 import { BLOG_I18N } from "../client/src/data/blog-i18n-all";
 import { getTranslatedSlug, resolveToSpanishSlug } from "../client/src/data/blog-posts-slugs";
 import { getRelatedPosts } from "../client/src/data/blog-related";
-import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL } from "./server-constants";
+import { SITE_URL, SUPPORTED_LANGS, BRAND_NAME, INSTAGRAM_URL, TIKTOK_URL, LINKEDIN_URL, CONTACT_EMAIL, HREFLANG_BCP47 } from "./server-constants";
 
 const RELATED_HEADING: Record<SupportedLang, string> = {
   es: "Artículos relacionados",
@@ -77,20 +77,9 @@ const HREFLANG_STRIP_RE = new RegExp(
   'g'
 );
 
-/**
- * Mirror of `LanguageService.getLocaleTag()` and the sitemap helper in
- * `server/routes/public.ts`. Keep these three sources in sync so the
- * prerendered HTML, the dynamic XML sitemaps and the `<html lang>` attribute
- * all advertise the same BCP-47 region tags.
- */
-const HREFLANG_BCP47: Record<SupportedLang, string> = {
-  es: "es-ES",
-  en: "en-US",
-  fr: "fr-FR",
-  de: "de-DE",
-  pt: "pt-PT",
-  ca: "ca-ES",
-};
+// Single source of truth for BCP-47 hreflang tags lives in
+// `server/server-constants.ts::HREFLANG_BCP47`. Re-imported above so
+// `injectMeta` cannot drift from the sitemap generator or the dev middleware.
 
 const ARTICLE_META_I18N: Record<SupportedLang, { section: string; tagLLC: string; tagOptimization: string; tagFreelancers: string }> = {
   es: { section: "Fiscalidad Internacional", tagLLC: "LLC Estados Unidos", tagOptimization: "Optimización Fiscal", tagFreelancers: "Freelancers" },

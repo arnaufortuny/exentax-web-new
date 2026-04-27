@@ -2,14 +2,28 @@
   "last": {
     "status": "skipped",
     "reason": "INDEXNOW_KEY not set; cannot submit sitemap to IndexNow",
-    "at": "2026-04-22T08:22:15.176Z",
+    "at": "2026-04-26T19:10:50.470Z",
     "google": {
-      "status": "skipped",
-      "reason": "GOOGLE_SERVICE_ACCOUNT_KEY not set; cannot submit sitemap to Google Search Console",
-      "at": "2026-04-22T08:22:15.254Z"
+      "status": "failed",
+      "siteUrl": "https://exentax.com/",
+      "sitemapUrl": "https://exentax.com/sitemap.xml",
+      "error": "error:1E08010C:DECODER routines::unsupported",
+      "at": "2026-04-26T19:10:50.537Z"
     }
   },
   "history": [
+    {
+      "status": "skipped",
+      "reason": "INDEXNOW_KEY not set; cannot submit sitemap to IndexNow",
+      "at": "2026-04-26T19:10:50.470Z",
+      "google": {
+        "status": "failed",
+        "siteUrl": "https://exentax.com/",
+        "sitemapUrl": "https://exentax.com/sitemap.xml",
+        "error": "error:1E08010C:DECODER routines::unsupported",
+        "at": "2026-04-26T19:10:50.537Z"
+      }
+    },
     {
       "status": "skipped",
       "reason": "INDEXNOW_KEY not set; cannot submit sitemap to IndexNow",

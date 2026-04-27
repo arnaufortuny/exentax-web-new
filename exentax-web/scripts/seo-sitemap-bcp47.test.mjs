@@ -9,9 +9,13 @@
  * the sitemap in sync with `<html lang>` and `LanguageService.getLocaleTag`.
  *
  * Static checks (no server required):
- *   1. server/routes/public.ts — HREFLANG_BCP47 contains the expected map.
- *   2. server/static.ts        — same map mirrored for prerendered HTML.
- *   3. client/index.html       — top-level hreflang links use BCP-47 tags.
+ *   1. server/server-constants.ts — HREFLANG_BCP47 is the single source of
+ *                                   truth and contains the expected map.
+ *   2. server/routes/public.ts    — imports HREFLANG_BCP47 from
+ *                                   `../server-constants` (no local copy).
+ *   3. server/static.ts           — imports HREFLANG_BCP47 from
+ *                                   `./server-constants` (no local copy).
+ *   4. client/index.html          — top-level hreflang links use BCP-47 tags.
  *
  * Live checks (only when BASE_URL is reachable):
  *   4. /sitemap-pages.xml      — emits hreflang="pt-PT" and "ca-ES" at least
@@ -48,7 +52,7 @@ function assert(label, ok, detail) {
   if (!ok) fails.push(label);
 }
 
-// 1+2. Static maps in server source.
+// 1. The single source of truth lives in server/server-constants.ts.
 function assertMap(file, label) {
   const src = readFileSync(resolve(REPO, file), "utf8");
   for (const [lang, tag] of Object.entries(EXPECTED)) {
@@ -56,8 +60,36 @@ function assertMap(file, label) {
     assert(`${label}: ${lang} → ${tag}`, re.test(src), `pattern ${re} not found`);
   }
 }
-assertMap("server/routes/public.ts", "public.ts HREFLANG_BCP47");
-assertMap("server/static.ts", "static.ts HREFLANG_BCP47");
+assertMap("server/server-constants.ts", "server-constants.ts HREFLANG_BCP47");
+
+// 2+3. Both consumers must IMPORT HREFLANG_BCP47 from server-constants and
+// must NOT keep a local copy of the literal map (otherwise they could drift
+// from the source of truth, which is exactly what we are guarding against).
+function assertImportsHreflangFromConstants(file, importPath) {
+  const src = readFileSync(resolve(REPO, file), "utf8");
+  // Either a named import, possibly multi-line, that mentions HREFLANG_BCP47
+  // alongside other names. We accept any whitespace and trailing commas.
+  const importRe = new RegExp(
+    `import\\s*\\{[^}]*\\bHREFLANG_BCP47\\b[^}]*\\}\\s*from\\s*["']${importPath.replace(/[/.]/g, "\\$&")}["']`,
+    "s"
+  );
+  assert(
+    `${file} imports HREFLANG_BCP47 from "${importPath}"`,
+    importRe.test(src),
+    `expected named import of HREFLANG_BCP47 from "${importPath}"`
+  );
+  // Guard against a re-introduced local copy: a literal `HREFLANG_BCP47 =`
+  // assignment / declaration anywhere in the file means someone duplicated
+  // the constant locally, defeating the single-source-of-truth guarantee.
+  const localDeclRe = /(?:const|let|var)\s+HREFLANG_BCP47\s*[:=]/;
+  assert(
+    `${file} does not redeclare HREFLANG_BCP47 locally`,
+    !localDeclRe.test(src),
+    "found a local `const/let/var HREFLANG_BCP47` declaration; remove it and use the import"
+  );
+}
+assertImportsHreflangFromConstants("server/routes/public.ts", "../server-constants");
+assertImportsHreflangFromConstants("server/static.ts", "./server-constants");
 
 // 3. client/index.html top-level alternates.
 {

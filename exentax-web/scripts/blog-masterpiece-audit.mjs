@@ -177,7 +177,7 @@ function findYearsInProse(body, slug = "") {
   // truly editorial usages of the year.
   const LEGAL_CONTEXTS = [
     // Spanish/Portuguese/Catalan: month + de + YEAR (legal dates)
-    /\b(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|sept(?:iembre)?|oct(?:ubre)?|nov(?:iembre)?|dic(?:iembre)?|janeiro|fevereiro|março|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro|gener|febrer|març|abril|maig|juny|juliol|agost|setembre|octubre|novembre|desembre)\s+(?:de\s+)?(?:202[3-9]|203\d)\b/gi,
+    /\b(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|sept(?:iembre)?|oct(?:ubre)?|nov(?:iembre)?|dic(?:iembre)?|janeiro|fevereiro|março|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro|gener|febrer|març|abril|maig|juny|juliol|agost|setembre|octubre|novembre|desembre)\s+(?:(?:de|del|do|da)\s+)?(?:202[3-9]|203\d)\b/gi,
     // English: Month YEAR / of YEAR
     /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+(?:of\s+)?(?:202[3-9]|203\d)\b/gi,
     // French: mois YEAR

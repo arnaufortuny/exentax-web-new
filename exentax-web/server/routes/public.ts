@@ -18,27 +18,9 @@ import {
 import { encryptField } from "../field-encryption";
 import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail, renderCalculatorEmailHtml } from "../email";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
-import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL } from "../server-constants";
+import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL, HREFLANG_BCP47 } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
 import type { SupportedLang } from "../server-constants";
-
-/**
- * BCP-47 hreflang codes (Task #15). Google accepts both the bare
- * two-letter code and the full BCP-47 region-tagged form, but the
- * region-tagged form is the documented best practice for region-specific
- * Portuguese (we serve European Portuguese, not Brazilian) and Catalan.
- * This map mirrors `LanguageService.getLocaleTag()` on the client so
- * the sitemap, the in-page `<link rel="alternate">` tags and `<html lang>`
- * stay consistent.
- */
-const HREFLANG_BCP47: Record<SupportedLang, string> = {
-  es: "es-ES",
-  en: "en-US",
-  fr: "fr-FR",
-  de: "de-DE",
-  pt: "pt-PT",
-  ca: "ca-ES",
-};
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
@@ -158,6 +140,7 @@ const PAGE_FILES_BY_ROUTE: Record<string, string[]> = {
   legal_cookies:    ["pages/legal/cookies.tsx"],
   legal_refunds:    ["pages/legal/refunds.tsx"],
   legal_disclaimer: ["pages/legal/disclaimer.tsx"],
+  pillar_open_llc:  ["pages/abrir-llc.tsx"],
 };
 function pageLastmod(routeKey: string): string {
   const files = PAGE_FILES_BY_ROUTE[routeKey];
@@ -1207,6 +1190,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         our_services:     { priority: "0.9", changefreq: "monthly", lastmod: pageLastmod("our_services") },
         about_llc:        { priority: "0.9", changefreq: "monthly", lastmod: pageLastmod("about_llc") },
         how_we_work:      { priority: "0.9", changefreq: "monthly", lastmod: pageLastmod("how_we_work") },
+        pillar_open_llc:  { priority: "0.9", changefreq: "monthly", lastmod: pageLastmod("pillar_open_llc") },
         service_llc_nm:   { priority: "0.8", changefreq: "monthly", lastmod: pageLastmod("our_services") },
         service_llc_wy:   { priority: "0.8", changefreq: "monthly", lastmod: pageLastmod("our_services") },
         service_llc_de:   { priority: "0.8", changefreq: "monthly", lastmod: pageLastmod("our_services") },

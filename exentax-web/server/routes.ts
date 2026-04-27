@@ -6,7 +6,7 @@ import {
   checkCsrfOrigin,
 } from "./route-helpers";
 import { apiFail, apiNotFound } from "./routes/api-response";
-import { SUPPORTED_LANGS, SITE_URL } from "./server-constants";
+import { SUPPORTED_LANGS, SITE_URL, HREFLANG_BCP47, type SupportedLang } from "./server-constants";
 import { getAllLocalizedPaths, resolveServerRoute, getLocalizedPath } from "../shared/routes";
 import {
   backendLabel, resolveRequestLang,
@@ -38,7 +38,7 @@ export async function registerRoutes(
   function stripLangPrefix(path: string): string {
     const m = path.match(LANG_PREFIX_RE);
     if (!m) return path;
-    const rest = path.slice(m[1].length + 1);
+    const rest = path.slice(m[0].length);
     return rest ? `/${rest}` : '/';
   }
 
@@ -59,7 +59,28 @@ export async function registerRoutes(
         const canonicalPath = resolved
           ? getLocalizedPath(resolved.key, resolved.lang)
           : (cleanPath === '/' ? '' : cleanPath);
-        res.setHeader('Link', `<${SITE_URL}${canonicalPath}>; rel="canonical"`);
+        // Emit canonical + hreflang alternates as a single comma-separated
+        // RFC 5988 `Link` header. This mirrors what `server/static.ts::injectMeta`
+        // injects into the prerendered HTML in production, so the auditing
+        // crawler can verify hreflang reciprocity uniformly across dev and
+        // prod without depending on SSR HTML.
+        const linkParts: string[] = [`<${SITE_URL}${canonicalPath}>; rel="canonical"`];
+        if (resolved) {
+          for (const lang of SUPPORTED_LANGS) {
+            const altPath = getLocalizedPath(resolved.key, lang as SupportedLang);
+            linkParts.push(`<${SITE_URL}${altPath}>; rel="alternate"; hreflang="${HREFLANG_BCP47[lang as SupportedLang]}"`);
+          }
+          const xDefaultPath = getLocalizedPath(resolved.key, 'es');
+          linkParts.push(`<${SITE_URL}${xDefaultPath}>; rel="alternate"; hreflang="x-default"`);
+        } else if (isBlogPost || isLangBlogPost) {
+          // Blog post hreflang reciprocity is data-driven by BLOG_SLUG_I18N
+          // and varies per-post (some langs don't have a translation). The
+          // SSR-side `injectMeta` handles this with full slug knowledge; the
+          // dev middleware skips alternates here to avoid emitting URLs that
+          // would 301 to themselves and confuse Google. The audit script
+          // verifies blog hreflang via the data layer.
+        }
+        res.setHeader('Link', linkParts.join(', '));
       }
     }
     next();

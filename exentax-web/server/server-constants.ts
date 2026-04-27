@@ -3,6 +3,23 @@ import { MADRID_TZ, DATE_LOCALE_ISO as SHARED_DATE_LOCALE_ISO, nowMadrid as shar
 export const SUPPORTED_LANGS: readonly string[] = ["es", "en", "fr", "de", "pt", "ca"];
 export type SupportedLang = "es" | "en" | "fr" | "de" | "pt" | "ca";
 
+/**
+ * BCP-47 region tags advertised on every page (HTTP `Link` headers,
+ * prerendered `<link rel="alternate">` tags, sitemap `<xhtml:link>` and the
+ * client-side `SEO.tsx` re-emission). Mirrors `LanguageService.getLocaleTag()`
+ * on the client. Centralised here so the four server-side touchpoints stay in
+ * lockstep; the client copy in `client/src/components/SEO.tsx` references this
+ * file in its top-level comment so that drift is impossible to miss in review.
+ */
+export const HREFLANG_BCP47: Record<SupportedLang, string> = {
+  es: "es-ES",
+  en: "en-US",
+  fr: "fr-FR",
+  de: "de-DE",
+  pt: "pt-PT",
+  ca: "ca-ES",
+};
+
 export const AGENDA_STATUSES = {
   PENDING: "pending",
   CONTACTED: "contacted",
