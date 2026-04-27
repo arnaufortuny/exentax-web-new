@@ -12,12 +12,13 @@ name: Lighthouse CI (PR)
 # GATING — Task #15 (desktop, cerrado 2026-04-26, commit 945eae8) +
 # Task #21 (mobile, 2026-04-26) + Task #22 (cobertura servicios /es,
 # 2026-04-26) + Task #28 (cobertura servicios /en, 2026-04-27) +
-# Task #45 (apretar umbral mobile perf 0.70 → 0.80, 2026-04-27):
+# Task #45 (apretar umbral mobile perf 0.70 → 0.80, 2026-04-27) +
+# Task #54 (apretar umbral mobile LCP 4000 → 3500 ms, 2026-04-27):
 # Este job es **bloqueante** en ambos presets. Si cualquier assertion
 # `error` falla, el check sale en rojo y bloquea el merge a `main`.
 #   • Desktop  (`.lighthouserc.json`):        LCP ≤ 2500 ms, CLS ≤ 0.1,
 #                                             INP ≤ 200 ms, perf ≥ 0.85
-#   • Mobile   (`.lighthouserc.mobile.json`): LCP ≤ 4000 ms, CLS ≤ 0.1,
+#   • Mobile   (`.lighthouserc.mobile.json`): LCP ≤ 3500 ms, CLS ≤ 0.1,
 #                                             INP ≤ 200 ms, perf ≥ 0.80
 # Mediana de 3 runs por URL en cada preset.
 #
