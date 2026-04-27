@@ -15,23 +15,22 @@ import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import fs from "node:fs";
+import { createRequire } from "node:module";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const middlewarePath = path.resolve(__dirname, "../server/middleware/geo.ts");
-// tsx may live in exentax-web/node_modules/.bin (when installed locally) or
-// in the workspace root node_modules/.bin (when the workspace is hoisted).
-// Probe both to keep the test resilient to either layout.
-const tsxBin = (() => {
-  const candidates = [
-    path.resolve(__dirname, "../node_modules/.bin/tsx"),
-    path.resolve(__dirname, "../../node_modules/.bin/tsx"),
-  ];
-  for (const c of candidates) {
-    if (fs.existsSync(c)) return c;
-  }
-  return candidates[0];
-})();
+// Resolve the tsx binary via Node's module resolution. This walks up the
+// node_modules chain, so it works whether `tsx` is installed in
+// exentax-web/node_modules or hoisted to the workspace root by npm
+// workspaces — no path probing required.
+const require = createRequire(import.meta.url);
+const tsxPkgPath = require.resolve("tsx/package.json");
+const tsxPkg = require(tsxPkgPath);
+const tsxBinRel = typeof tsxPkg.bin === "string" ? tsxPkg.bin : tsxPkg.bin?.tsx;
+if (!tsxBinRel) {
+  throw new Error(`Could not locate tsx bin entry in ${tsxPkgPath}`);
+}
+const tsxBin = path.resolve(path.dirname(tsxPkgPath), tsxBinRel);
 
 // Helper script invoked once per fixture via tsx so we can import the TS
 // source without a build step. Reads the fixture from the GEO_FIXTURE env var

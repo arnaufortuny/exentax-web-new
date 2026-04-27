@@ -1,5 +1,10 @@
 #!/bin/bash
 set -e
+# Single root-level install: this repo is an npm workspace
+# (root package.json -> "workspaces": ["exentax-web"]). One install hoists
+# every dep — root + exentax-web — into the root node_modules so that scripts
+# like `cd exentax-web && npm run check` find tsx, tsc, drizzle-kit, etc.
+# Do NOT add a second `npm install` inside exentax-web/. (Task #34)
 npm install
 npm run db:push
 

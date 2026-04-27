@@ -2,6 +2,9 @@
   "name": "workspace",
   "version": "1.0.0",
   "main": "index.js",
+  "workspaces": [
+    "exentax-web"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development tsx exentax-web/server/index.ts",

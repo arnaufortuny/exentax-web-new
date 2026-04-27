@@ -15,6 +15,7 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
 ## Repo conventions (post-cleanup 2026-04)
+- The repo is an npm workspace. Root `package.json` declares `"workspaces": ["exentax-web"]`; a single `npm install` at the repo root installs both root and `exentax-web` deps and hoists every binary to the root `node_modules/.bin`. There is no separate `exentax-web/package-lock.json` — the root lockfile is canonical. Do not run `npm install` inside `exentax-web/` and do not re-create a nested lockfile (Task #34).
 - One-off / completed scripts live in `scripts/archive/<date-task>/`. Never reference an archived script from `package.json` or another runtime script.
 - Generated reports live in `reports/<topic>/` (e.g. `reports/seo/seo-meta-report.json`, `reports/seo/slash-hygiene.md`). Never commit generated artefacts to the repo root.
 - Editorial reference: `docs/EDITORIAL_GUIDE.md` (ES, canonical, binding) + `docs/seo/editorial-guide.md` (EN, voice/tone primer).
