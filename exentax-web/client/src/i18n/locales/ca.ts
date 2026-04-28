@@ -1225,8 +1225,8 @@ const ca = {
   homePage: {
     seoTitle: "La teva LLC als EUA amb fiscalista premium | Exentax",
     seoDesc: "La teva LLC als EUA amb Exentax: constitució, EIN, banca americana i compliance IRS amb un fiscalista real al telèfon. Estructura legal premium, sense dreceres.",
-    ogTitle: "La LLC que fan servir founders, fons i operadors seriosos",
-    ogDesc: "Constitució, EIN, banca americana i compliance IRS amb el respatller d'un fiscalista real. Estructura legal premium, de principi a fi. Sense software low-cost.",
+    ogTitle: "La LLC que fan servir fundadors, fons i operadors seriosos",
+    ogDesc: "Constitució, EIN, banca americana i compliance IRS amb el suport d'un fiscalista real. Estructura legal premium, de principi a fi. Sense dreceres barates.",
     seoKeywords: "Exentax, LLC Estats Units, optimització fiscal, pagar menys impostos legalment, LLC per a freelancers, LLC autònoms, estructura fiscal, reduir impostos, fiscalitat internacional, LLC Wyoming, LLC Delaware, EIN, Form 5472, compliance IRS, compte bancari USA, facturar amb LLC americana, impostos freelancer, nòmada digital fiscalitat",
     jsonLd: {
       webPageName: "La teva estructura fiscal als EUA",

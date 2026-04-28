@@ -60,7 +60,29 @@ function endsWithSoftCTA(lang: Lang, desc: string): boolean {
 }
 
 type PageItem = { ns: string; line: number; descLine: number | null; title: string; desc: string | null };
+type PageOG = { ns: string; line: number; ogTitle: string; ogDesc: string };
 type BlogItem = { slug: string; metaTitle: string; metaDescription: string };
+type BlogOG = { slug: string; ogTitle: string; ogDescription: string };
+
+// ===== Task 17: OG/Twitter anglicism gate (FR/DE/PT/CA) =====
+// Twitter Cards default to summary_large_image and fall back to OG when no
+// dedicated twitter:* tags are set, so checking OG copy covers both surfaces.
+// The denylist intentionally targets the high-signal English borrowings
+// flagged in the social-preview audit ("founders", "low-cost") that erode
+// the premium native-language brand voice when content is shared.
+const ANGLICISM_LANGS: Lang[] = ["fr", "de", "pt", "ca"];
+const ANGLICISM_PATTERNS: { token: string; re: RegExp }[] = [
+  { token: "founders", re: /\bfounders\b/i },
+  { token: "founder", re: /\bfounder\b/i },
+  { token: "low-cost", re: /\blow[-\s]?cost\b/i },
+  { token: "lowcost", re: /\blowcost\b/i },
+];
+function findAnglicisms(text: string): string[] {
+  if (!text) return [];
+  const hits: string[] = [];
+  for (const { token, re } of ANGLICISM_PATTERNS) if (re.test(text)) hits.push(token);
+  return hits;
+}
 type Violation = {
   scope: "page" | "blog";
   lang: Lang;
@@ -135,6 +157,50 @@ function extractSubpageSEO(): SubpageSEO[] {
     }
     if (!page) continue;
     items.push({ lang, page, line: i + 2, title: tMatch[1], descLine: i + 3, description: dMatch[1] });
+  }
+  return items;
+}
+
+function extractPageOG(lang: Lang): PageOG[] {
+  const src = readFileSync(join(I18N_LOC, `${lang}.ts`), "utf8");
+  const lines = src.split("\n");
+  const items: PageOG[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const mt = lines[i].match(/ogTitle\s*:\s*"((?:[^"\\]|\\.)*)"/);
+    if (!mt) continue;
+    let ogDesc = "";
+    for (let j = i + 1; j < Math.min(i + 4, lines.length); j++) {
+      const md = lines[j].match(/(?:ogDesc|ogDescription)\s*:\s*"((?:[^"\\]|\\.)*)"/);
+      if (md) {
+        ogDesc = md[1];
+        break;
+      }
+    }
+    let ns = "?";
+    for (let k = i; k >= 0; k--) {
+      const m = lines[k].match(/^\s*([a-zA-Z][a-zA-Z0-9_]*)\s*:\s*\{/);
+      if (m) {
+        ns = m[1];
+        break;
+      }
+    }
+    items.push({ ns, line: i + 1, ogTitle: mt[1], ogDesc });
+  }
+  return items;
+}
+
+function extractBlogOG(lang: Lang): BlogOG[] {
+  const items: BlogOG[] = [];
+  if (lang === "es") {
+    const src = readFileSync(BLOG_POSTS, "utf8");
+    const re = /slug:\s*"([a-z0-9-]+)"[\s\S]*?ogTitle:\s*"((?:[^"\\]|\\.)*)"[\s\S]*?ogDescription:\s*"((?:[^"\\]|\\.)*)"/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(src))) items.push({ slug: m[1], ogTitle: m[2], ogDescription: m[3] });
+  } else {
+    const src = readFileSync(join(BLOG_I18N, `${lang}.ts`), "utf8");
+    const re = /"([a-z0-9-]+)":\s*\{[^}]*?ogTitle:\s*"((?:[^"\\]|\\.)*)",\s*ogDescription:\s*"((?:[^"\\]|\\.)*)"/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(src))) items.push({ slug: m[1], ogTitle: m[2], ogDescription: m[3] });
   }
   return items;
 }
@@ -339,6 +405,63 @@ for (const lang of LANGS) {
   }
 }
 
+// ===== Task 17: OG/Twitter anglicism scan (FR/DE/PT/CA) =====
+const anglicismCounts: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
+const anglicismScanned: Record<Lang, number> = { es: 0, en: 0, ca: 0, fr: 0, de: 0, pt: 0 };
+for (const lang of ANGLICISM_LANGS) {
+  const pages = extractPageOG(lang);
+  const blog = extractBlogOG(lang);
+  anglicismScanned[lang] = pages.length + blog.length;
+  for (const p of pages) {
+    const tHits = findAnglicisms(p.ogTitle);
+    const dHits = findAnglicisms(p.ogDesc);
+    if (tHits.length) {
+      violations.push({
+        scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "title",
+        length: p.ogTitle.length, limit: 0, level: "error",
+        message: `OG/Twitter title contains anglicism(s): ${tHits.join(", ")}`,
+        value: p.ogTitle,
+      });
+      summary[lang].errors++;
+      anglicismCounts[lang]++;
+    }
+    if (dHits.length) {
+      violations.push({
+        scope: "page", lang, key: `${p.ns}@L${p.line}`, field: "description",
+        length: p.ogDesc.length, limit: 0, level: "error",
+        message: `OG/Twitter description contains anglicism(s): ${dHits.join(", ")}`,
+        value: p.ogDesc,
+      });
+      summary[lang].errors++;
+      anglicismCounts[lang]++;
+    }
+  }
+  for (const b of blog) {
+    const tHits = findAnglicisms(b.ogTitle);
+    const dHits = findAnglicisms(b.ogDescription);
+    if (tHits.length) {
+      violations.push({
+        scope: "blog", lang, key: b.slug, field: "title",
+        length: b.ogTitle.length, limit: 0, level: "error",
+        message: `OG/Twitter title contains anglicism(s): ${tHits.join(", ")}`,
+        value: b.ogTitle,
+      });
+      summary[lang].errors++;
+      anglicismCounts[lang]++;
+    }
+    if (dHits.length) {
+      violations.push({
+        scope: "blog", lang, key: b.slug, field: "description",
+        length: b.ogDescription.length, limit: 0, level: "error",
+        message: `OG/Twitter description contains anglicism(s): ${dHits.join(", ")}`,
+        value: b.ogDescription,
+      });
+      summary[lang].errors++;
+      anglicismCounts[lang]++;
+    }
+  }
+}
+
 type DuplicateGroup = { field: "title" | "description"; value: string; count: number; entries: { scope: string; lang: Lang; key: string }[] };
 
 function findDuplicates(field: "title" | "description"): DuplicateGroup[] {
@@ -413,6 +536,12 @@ const report = {
     descriptions: duplicateDescriptions,
   },
   blogContent: blogContentByLang,
+  anglicismScan: {
+    languages: ANGLICISM_LANGS,
+    patterns: ANGLICISM_PATTERNS.map((p) => p.token),
+    scannedByLang: anglicismScanned,
+    flagsByLang: anglicismCounts,
+  },
   violations,
   warnings,
 };
@@ -426,6 +555,10 @@ for (const lang of LANGS) {
   const s = summary[lang];
   const sp = subpageSummary[lang];
   console.log(`  ${lang}: pages=${s.pages} subpages=${sp.count} blog=${s.blog} errors=${s.errors} warnings=${s.warnings} dupT=${s.duplicateTitles} dupD=${s.duplicateDescriptions}`);
+}
+console.log(`[verify-meta] OG/Twitter anglicism scan (${ANGLICISM_LANGS.join("/")}):`);
+for (const lang of ANGLICISM_LANGS) {
+  console.log(`  ${lang}: scanned=${anglicismScanned[lang]} entries, anglicism flags=${anglicismCounts[lang]}`);
 }
 console.log(`[verify-meta] Report written to ${OUT}`);
 

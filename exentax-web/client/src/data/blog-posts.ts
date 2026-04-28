@@ -501,7 +501,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-04-26",
     metaTitle: "LLC residentes vs no residentes: 0% vs 50%+ efectivo",
     metaDescription: "Misma LLC, dos universos: 0% federal para no residentes sin ECI vs 37% IRPF + 15,3% Self-Employment Tax para US persons. Form 5472 vs Schedule C.",
-    ogTitle: "LLC: residentes vs no residentes EE.UU. (0% vs 50%+ efectivo)",
+    ogTitle: "LLC: residentes vs no residentes (0% vs 50%+ efectivo)",
     ogDescription: "La misma LLC tributa al 0% federal para no residentes sin ECI y supera el 50% efectivo (37% IRPF + 15,3% Self-Employment Tax) para US persons.",
     keywords: ["residente vs no residente LLC", "self-employment tax LLC", "LLC US person", "LLC ECI", "fiscalidad LLC residencia"],
     relatedSlugs: [
@@ -692,7 +692,7 @@ export const BLOG_POSTS: BlogPost[] = [
     updatedAt: "2026-04-26",
     metaTitle: "IRS para LLC: 0 USD federal vs multa 25.000 USD por 5472",
     metaDescription: "0 USD federal con SMLLC bien declarada vs multa 25.000 USD por Form 5472 fuera de plazo. EIN, Form 1120 pro-forma, BOI Report y fechas clave.",
-    ogTitle: "¿Qué es el IRS? 0 USD federal vs multa 25.000 USD por Form 5472",
+    ogTitle: "El IRS y tu LLC: 0 USD federal vs 25.000 USD multa 5472",
     ogDescription: "Una SMLLC bien declarada tributa 0 USD al IRS federal. Una mal declarada arranca con multa de 25.000 USD por no presentar Form 5472.",
     keywords: ["IRS dueños LLC extranjeros", "IRS LLC no residente", "IRS guía LLC", "compliance IRS LLC", "obligaciones IRS LLC", "guías IRS LLC"],
     relatedSlugs: [
@@ -2231,7 +2231,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaTitle: "CRS 2.0 y CARF: por qué EE.UU. no firmará y tu LLC gana",
     metaDescription: "CRS 2.0 y CARF amplían el reporting OCDE pero EE.UU. queda fuera por diseño con FATCA bilateral. Qué cambia para tu LLC, stack bancario y cripto.",
     ogTitle: "CRS 2.0 y CARF: por qué USA no firmará y tu LLC",
-    ogDescription: "La OCDE aprieta con CRS 2.0 y CARF, pero EE. UU. mantiene FATCA. Lo que cambia para tu LLC y tu stack bancario.",
+    ogDescription: "La OCDE aprieta con CRS 2.0 y CARF, pero EE. UU. mantiene FATCA. Qué cambia para tu LLC, tu banca americana y tus cripto.",
     keywords: ["CRS 2.0 LLC", "CARF criptomonedas reporting", "USA fuera del CRS", "FATCA vs CRS LLC", "Delaware LLC capital extranjero", "CRS 2.0 hacienda España"],
     countries: ["ES", "MX", "CO", "AR"],
     relatedSlugs: [
