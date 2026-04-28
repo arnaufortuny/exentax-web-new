@@ -14,6 +14,44 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - Verify structure before and after changes, all code must have error handling, debug automatically, never cause regressions
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
+## Production readiness — pase 2026-04-28
+
+End-to-end verification pass run on 2026-04-28. **Verdict: READY.**
+
+Static + lint suites (all green):
+- `tsc --noEmit`: 0 errors
+- `npm run seo:check` (internal-link audit): 0 broken links across 6 locales
+- `npm run i18n:check`: 0 hardcoded user-visible strings
+- `npm run seo:slash` (slash-hygiene): clean
+- `npm run blog:validate-all`: 15/15 sub-steps OK (sitemap-bcp47, masterpiece-audit, seo-llm-readiness, blog-cluster-audit, conversion-strict, …)
+- `npm run lint:typography`, `lint:brand-casing`, `lint:pt-pt` (114 files), `lint:banking-entities` (673 files), `lint:blog`: clean
+- `npm run seo:meta`: 0 errors across all 6 locales
+
+Test suites (all green):
+- `npm run test:calculator`: 123/123 assertions PASS (Ley 7/2024 microempresas 19/21%, ERD 23%, IRPF ahorro 19-28%, FX safety, NaN/Infinity guards)
+- `npm run test:booking`: 54/54 E2E PASS
+- `npm run test:newsletter`: 51/51 PASS
+- `npm run test:redirects`: 9/9 PASS
+- `npm run test:geo`: 12/12 PASS
+- `npm run test:indexnow`: 10/10 PASS
+- `npm run test:audit-faqs`: 57+11 PASS
+- `npm run test:masterpiece-audit`: 59/59 PASS
+
+Security + performance:
+- `npm audit --omit=dev`: 0 vulnerabilities (root + workspace)
+- `npm run audit:bundle:fast`: every chunk inside its budget. Entry 494 KB (145 KB gzip); locales 73-79 KB gzip; server bundle 5.56/7 MB; public 19.39/30 MB.
+
+Runtime smoke:
+- `Start application` workflow boots clean on `:5000` (Express + Vite).
+- `/es` homepage renders correctly (cookie banner, hero, nav, WhatsApp FAB).
+- DB connection established + column migrations applied at boot.
+- Newsletter broadcast worker + email retry worker started.
+- `email_retry_queue` drained of orphan E2E jobs (33 leftover `@e2e.exentax.test` jobs removed; `scripts/test-booking-e2e.ts` cleanup() now drains them on every run so they cannot re-accumulate).
+
+Production secret coverage (verified previously, still required at deploy time):
+- **Required for full functionality**: `DATABASE_URL`, `SESSION_SECRET`, `FIELD_ENCRYPTION_KEY`, `GOOGLE_SERVICE_ACCOUNT_KEY`, `GMAIL_SEND_AS`, `GMAIL_DELEGATED_USER`, `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`, `DISCORD_CLIENT_ID`, `DISCORD_GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`.
+- In dev these emit warning logs and the dependent feature is gracefully disabled (Discord bot, Google Calendar/Meet, Gmail send) — no crashes.
+
 ## Repo conventions (post-cleanup 2026-04)
 - The repo is an npm workspace. Root `package.json` declares `"workspaces": ["exentax-web"]`; a single `npm install` at the repo root installs both root and `exentax-web` deps and hoists every binary to the root `node_modules/.bin`. There is no separate `exentax-web/package-lock.json` — the root lockfile is canonical. Do not run `npm install` inside `exentax-web/` and do not re-create a nested lockfile (Task #34).
 - The root `package.json` carries no `dependencies` block — the workspace `exentax-web/package.json` owns the canonical dep list, and the root only keeps `overrides` (for drizzle-kit's transitive `@esbuild-kit/*`) and thin orchestration scripts that delegate via `npm run <x> --workspace exentax-web` (Task #48). Bump versions only in `exentax-web/package.json`; do not re-add a duplicate `dependencies` block to the root.
