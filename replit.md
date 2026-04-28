@@ -28,7 +28,13 @@ Static + lint suites (all green):
 - `npm run seo:meta`: 0 errors across all 6 locales
 
 Test suites (all green):
-- `npm run test:calculator`: 123/123 assertions PASS (Ley 7/2024 microempresas 19/21%, ERD 23%, IRPF ahorro 19-28%, FX safety, NaN/Infinity guards)
+- `npm run test:calculator`: 123/123 assertions PASS. Brackets verified against `client/src/lib/calculator-config.ts` and the editorial pillar `tramos-irpf-2026.ts`:
+  - **IS Ley 7/2024 (vigente 2026)**: microempresas <1 M€ → 19% primeros 50.000 € + 21% resto; ERD 1-10 M€ → 23%; tipo general → 25%.
+  - **IRPF base del ahorro 2026 (art. 66 LIRPF)**: 19% (≤6.000) / 21% (≤50.000) / 23% (≤200.000) / 27% (≤300.000) / 28% (>300.000).
+  - **IRPF base general (estatal+autonómica, perfil medio)**: 19/24/30/37/45/47% en tramos 12.450/20.200/35.200/60.000/300.000/∞ (perfiles low/medium/high por CCAA).
+  - **SS Autónomos 2026**: cuotas TGSS por rendimientos reales, 15 tramos (200 €–604,80 €/mes), MEI 0,8% incluido.
+  - **Federal US**: Form 5472 sanción 25.000 USD, BOIR multa 591 USD/día (inflation-adjusted), 31 U.S.C. §5336, FinCEN interim final rule marzo 2025 (solo "foreign reporting companies"), Form 7004 extensión 15-abr → 15-oct.
+  - FX safety, NaN/Infinity guards, country-unknown fallback.
 - `npm run test:booking`: 54/54 E2E PASS
 - `npm run test:newsletter`: 51/51 PASS
 - `npm run test:redirects`: 9/9 PASS
