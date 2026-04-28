@@ -386,11 +386,14 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                     <button
                       key={c.code}
                       onClick={() => setDisplayCurrency(c.code)}
-                      className={`inline-flex items-center gap-1 text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-2.5 py-1 border transition-colors ${displayCurrency === c.code ? "bg-[var(--green)] text-[#0B0D0C] border-[var(--green)]" : "bg-[var(--bg-1)] text-[var(--text-2)] border-[rgba(var(--green-rgb),0.18)] hover:border-[rgba(var(--green-rgb),0.4)]"}`}
+                      className={`group inline-flex items-center gap-1 text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-3 py-1.5 border-2 backdrop-blur-2xl backdrop-saturate-150 transition-all duration-200 ${displayCurrency === c.code
+                        ? "bg-[rgba(0,229,16,0.18)] text-[var(--text-1)] border-[#00E510] shadow-[inset_0_1px_0_rgba(255,255,255,0.55),inset_0_0_0_1px_rgba(0,229,16,0.35),0_10px_24px_-12px_rgba(0,229,16,0.55),0_0_18px_-8px_rgba(0,229,16,0.5)]"
+                        : "bg-[var(--glass-bg)] text-[var(--text-2)] border-[rgba(0,229,16,0.35)] shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_6px_14px_-10px_rgba(11,13,12,0.18)] hover:border-[#00E510] hover:bg-[rgba(0,229,16,0.08)] hover:text-[var(--text-1)] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_10px_22px_-12px_rgba(0,229,16,0.4)] hover:-translate-y-0.5"
+                      }`}
                       data-testid={`button-currency-${c.code}`}
                       aria-pressed={displayCurrency === c.code}
                     >
-                      <span className="opacity-70">{c.symbol}</span>
+                      <span className={displayCurrency === c.code ? "opacity-90" : "opacity-65"}>{c.symbol}</span>
                       <span>{c.code}</span>
                     </button>
                   ))}
@@ -405,7 +408,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                     <button
                       key={p.id}
                       onClick={() => applyPreset(p.id)}
-                      className="text-[12px] sm:text-[13px] font-medium leading-none rounded-full px-2.5 py-1 border border-[rgba(var(--green-rgb),0.18)] bg-[var(--bg-1)] text-[var(--text-2)] hover:border-[rgba(var(--green-rgb),0.4)] hover:text-[var(--text-1)] transition-colors"
+                      className="group inline-flex items-center text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-3 py-1.5 border-2 backdrop-blur-2xl backdrop-saturate-150 transition-all duration-200 bg-[var(--glass-bg)] text-[var(--text-2)] border-[rgba(0,229,16,0.35)] shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_6px_14px_-10px_rgba(11,13,12,0.18)] hover:border-[#00E510] hover:bg-[rgba(0,229,16,0.08)] hover:text-[var(--text-1)] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_10px_22px_-12px_rgba(0,229,16,0.4)] hover:-translate-y-0.5"
                       data-testid={`button-preset-${p.id}`}
                     >
                       {t(`calculator.presetLabels.${p.id}`, { defaultValue: p.label })}
