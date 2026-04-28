@@ -1,5 +1,5 @@
 import type { Express } from "express";
-import { logger } from "../logger";
+import { logger, maskIp } from "../logger";
 import { z } from "zod";
 import crypto from "crypto";
 import { withTransaction } from "../db";
@@ -1212,7 +1212,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     });
 
     if (isNew) {
-      logger.info(`New visitor: ${ip}`, "visitor");
+      // RGPD: never log raw IPs. The masked form keeps enough signal to
+      // distinguish "many requests from one network" vs "wildly different
+      // visitors" without retaining a personal identifier.
+      logger.info(`New visitor: ${maskIp(ip)}`, "visitor");
     }
 
     return apiOk(res);

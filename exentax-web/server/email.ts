@@ -65,6 +65,25 @@ export function maskEmail(email: string | null | undefined): string {
   const domainMasked = domain.length <= 1 ? "***" : domain[0] + "***";
   return `${localMasked}@${domainMasked}${tld}`;
 }
+
+/**
+ * Mask a personal name for log output: keep first letter + last initial.
+ *   maskName("Alice Wonderland") → "A*** W."
+ *   maskName("Bob")              → "B***"
+ * Used in dev-only fallback logs ("no Gmail") and any other diagnostic line
+ * that needs to identify a person without exposing their full name.
+ */
+export function maskName(name: string | null | undefined): string {
+  if (!name) return "(no-name)";
+  const trimmed = name.trim();
+  if (!trimmed) return "(no-name)";
+  const parts = trimmed.split(/\s+/);
+  const first = parts[0];
+  const firstMasked = first.length <= 1 ? first + "***" : first[0] + "***";
+  if (parts.length === 1) return firstMasked;
+  const last = parts[parts.length - 1];
+  return `${firstMasked} ${last[0]}.`;
+}
 const REPLY_TO_EMAIL = CONTACT_EMAIL;
 const FROM_NAME = BRAND_NAME;
 
@@ -82,8 +101,13 @@ interface LogEmailOpts {
 }
 
 function logEmail(opts: LogEmailOpts): void {
-  const parts = [`email ${opts.status}: ${opts.type} → ${opts.to}`];
-  if (opts.clientName) parts.push(`client=${opts.clientName}`);
+  // RGPD / "0 PII in logs" policy: never persist raw recipient address or
+  // full client name in any log line, even at debug level. Operators
+  // diagnosing a delivery failure get enough signal from the masked email
+  // (preserves domain + first character) and the masked name (initials)
+  // plus the related ID to grep production data for the full record.
+  const parts = [`email ${opts.status}: ${opts.type} → ${maskEmail(opts.to)}`];
+  if (opts.clientName) parts.push(`client=${maskName(opts.clientName)}`);
   if (opts.relatedId) parts.push(`ref=${opts.relatedType || "unknown"}:${opts.relatedId}`);
   if (opts.error) parts.push(`err=${opts.error.slice(0, 120)}`);
   logger.debug(parts.join(" | "), "email");
@@ -121,25 +145,47 @@ interface BuildRawOpts {
   listUnsubscribe?: string;
 }
 
+/**
+ * Strip CR/LF from any value that will be inlined into a MIME header.
+ *
+ * Defense-in-depth: every caller of `buildRaw` already validates `to` /
+ * `replyTo` via `isValidEmailSyntax` (which rejects whitespace) and the
+ * Subject is base64-encoded so it cannot break out, but we never want a
+ * future caller — or a string that came from data we don't fully control
+ * (e.g. an admin-supplied display name) — to be able to inject a header by
+ * smuggling `\r\n`. Newlines here are ALWAYS unsafe in MIME headers, so
+ * stripping them silently is the right fail-closed behaviour.
+ */
+function stripCrlf(value: string): string {
+  // Includes CR (0x0D), LF (0x0A) and the lesser-known NUL byte that some
+  // mail libraries also treat as a header terminator.
+  return value.replace(/[\r\n\u0000]+/g, "");
+}
+
 function buildRaw(to: string, subject: string, html: string, replyTo?: string, fromName = FROM_NAME, attachments?: EmailAttachment[], bcc?: string, opts?: BuildRawOpts): string {
+  const safeTo = stripCrlf(to);
+  const safeReplyTo = replyTo ? stripCrlf(replyTo) : undefined;
+  const safeBcc = bcc ? stripCrlf(bcc) : undefined;
+  const safeFromName = stripCrlf(fromName);
+  const safeListUnsub = opts?.listUnsubscribe ? stripCrlf(opts.listUnsubscribe) : undefined;
   const encodedSubject = `=?UTF-8?B?${Buffer.from(subject).toString("base64")}?=`;
   const messageId = `<${crypto.randomBytes(12).toString("hex")}@${SENDER_EMAIL.split("@")[1] || "exentax.com"}>`;
 
   if (!attachments || attachments.length === 0) {
     const htmlBase64 = Buffer.from(html).toString("base64");
     const lines = [
-      `From: "${fromName}" <${SENDER_EMAIL}>`,
-      `To: ${to}`,
+      `From: "${safeFromName}" <${SENDER_EMAIL}>`,
+      `To: ${safeTo}`,
       `Subject: ${encodedSubject}`,
       `Message-ID: ${messageId}`,
       `MIME-Version: 1.0`,
       `Content-Type: text/html; charset=UTF-8`,
       `Content-Transfer-Encoding: base64`,
     ];
-    if (bcc) lines.push(`Bcc: ${bcc}`);
-    if (replyTo) lines.push(`Reply-To: ${replyTo}`);
-    if (opts?.listUnsubscribe) {
-      lines.push(`List-Unsubscribe: <${opts.listUnsubscribe}>`);
+    if (safeBcc) lines.push(`Bcc: ${safeBcc}`);
+    if (safeReplyTo) lines.push(`Reply-To: ${safeReplyTo}`);
+    if (safeListUnsub) {
+      lines.push(`List-Unsubscribe: <${safeListUnsub}>`);
       lines.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
     }
     lines.push("", htmlBase64);
@@ -148,17 +194,17 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
 
   const boundary = `boundary_${Date.now()}_${Math.random().toString(36).slice(2)}`;
   const headers = [
-    `From: "${fromName}" <${SENDER_EMAIL}>`,
-    `To: ${to}`,
+    `From: "${safeFromName}" <${SENDER_EMAIL}>`,
+    `To: ${safeTo}`,
     `Subject: ${encodedSubject}`,
     `Message-ID: ${messageId}`,
     `MIME-Version: 1.0`,
     `Content-Type: multipart/mixed; boundary="${boundary}"`,
   ];
-  if (bcc) headers.push(`Bcc: ${bcc}`);
-  if (replyTo) headers.push(`Reply-To: ${replyTo}`);
-  if (opts?.listUnsubscribe) {
-    headers.push(`List-Unsubscribe: <${opts.listUnsubscribe}>`);
+  if (safeBcc) headers.push(`Bcc: ${safeBcc}`);
+  if (safeReplyTo) headers.push(`Reply-To: ${safeReplyTo}`);
+  if (safeListUnsub) {
+    headers.push(`List-Unsubscribe: <${safeListUnsub}>`);
     headers.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
   }
 
@@ -389,7 +435,7 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData): { html: st
   `;
 
   const clientBody = `
-    ${heading(ct.heading(data.email.split("@")[0]))}
+    ${heading(ct.heading(escapeHtml(data.email.split("@")[0])))}
 
     ${bodyText(ct.intro)}
 
@@ -493,7 +539,7 @@ export async function sendCalculatorEmail(data: CalculatorEmailData) {
       logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: String(err), clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     }
   } else {
-    logger.debug("CALCULATOR LEAD (no Gmail): " + JSON.stringify({ email: data.email, leadId: leadRef }), "email");
+    logger.debug("CALCULATOR LEAD (no Gmail): " + JSON.stringify({ email: maskEmail(data.email), leadId: leadRef }), "email");
     logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
   }
 }
@@ -554,7 +600,7 @@ export async function sendReminderEmail(data: ReminderEmailData) {
       throw err;
     }
   } else {
-    logger.debug("REMINDER (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
+    logger.debug("REMINDER (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
   }
 }
@@ -608,7 +654,7 @@ export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
       throw err;
     }
   } else {
-    logger.debug("RESCHEDULE (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
+    logger.debug("RESCHEDULE (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
   }
 }
@@ -662,7 +708,7 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
       throw err;
     }
   } else {
-    logger.debug("CANCELLATION (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
+    logger.debug("CANCELLATION (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
   }
 }
@@ -716,7 +762,7 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
       throw err;
     }
   } else {
-    logger.debug("FOLLOWUP (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>` }), "email");
+    logger.debug("FOLLOWUP (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
   }
 }
@@ -863,7 +909,7 @@ export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailDat
       throw err;
     }
   } else {
-    logger.debug("INCOMPLETE BOOKING (no Gmail): " + JSON.stringify({ email: data.clientEmail, lang }), "email");
+    logger.debug("INCOMPLETE BOOKING (no Gmail): " + JSON.stringify({ email: maskEmail(data.clientEmail), lang }), "email");
     logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "fallido", error: "Gmail not configured", clientLanguage: lang });
     throw new Error("Gmail not configured");
   }
@@ -913,7 +959,7 @@ export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
       throw err;
     }
   } else {
-    logger.debug("NO-SHOW (no Gmail): " + JSON.stringify({ client: `${data.clientName} <${data.clientEmail}>` }), "email");
+    logger.debug("NO-SHOW (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
   }
 }

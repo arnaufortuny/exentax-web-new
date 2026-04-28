@@ -292,10 +292,48 @@ const ALLOWED_ORIGINS = new Set([
   "https://www.exentax.com",
 ]);
 
+// EXTRA_ALLOWED_ORIGINS lets ops add staging / preview origins without a code
+// change. The format is a comma-separated list of fully-qualified origins
+// (scheme + host[:port], no path). We validate every entry at boot and refuse
+// to start in production if any entry is malformed — a typo here would silently
+// expose the API to unintended origins.
+function _validateExtraOrigin(origin: string): boolean {
+  try {
+    const u = new URL(origin);
+    if (u.protocol !== "https:" && u.protocol !== "http:") return false;
+    if (!u.hostname) return false;
+    // Origin must NOT contain a path / query / fragment.
+    if (u.pathname && u.pathname !== "/") return false;
+    if (u.search || u.hash) return false;
+    // Reconstruct canonical origin and require it to match input verbatim
+    // (case-insensitive on host) so that quirks like trailing slashes or
+    // userinfo are rejected.
+    const canonical = `${u.protocol}//${u.host}`;
+    return canonical.toLowerCase() === origin.toLowerCase();
+  } catch {
+    return false;
+  }
+}
 if (process.env.EXTRA_ALLOWED_ORIGINS) {
+  const bad: string[] = [];
   for (const origin of process.env.EXTRA_ALLOWED_ORIGINS.split(",")) {
     const trimmed = origin.trim();
-    if (trimmed) ALLOWED_ORIGINS.add(trimmed);
+    if (!trimmed) continue;
+    if (_validateExtraOrigin(trimmed)) {
+      ALLOWED_ORIGINS.add(trimmed);
+    } else {
+      bad.push(trimmed);
+    }
+  }
+  if (bad.length > 0) {
+    if (process.env.NODE_ENV === "production") {
+      logger.error(`FATAL: EXTRA_ALLOWED_ORIGINS contains malformed entries: ${bad.join(", ")}`, "csrf");
+      // Fail-fast: a bad entry would either be silently ignored (bad UX) or,
+      // worse, accepted and round-tripped to a permissive comparison.
+      process.exit(1);
+    } else {
+      logger.warn(`[csrf] EXTRA_ALLOWED_ORIGINS dropped malformed entries: ${bad.join(", ")}`, "csrf");
+    }
   }
 }
 

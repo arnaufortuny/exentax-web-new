@@ -95,6 +95,27 @@ function clientErrAllowed(ip: string): boolean {
   return entry.count <= CLIENT_ERR_PER_IP;
 }
 
+/**
+ * Strip the query string and fragment from a client-reported URL before
+ * logging it. Newsletter unsubscribe links and booking-management links carry
+ * security-sensitive bearer tokens in `?manage_token=…` / `?token=…`; if the
+ * client crashes on one of those pages and the token reaches our log
+ * aggregator we'd be effectively persisting credentials. The path alone is
+ * enough for triage and is much less sensitive.
+ */
+function stripUrlSecrets(rawUrl: string): string {
+  // Don't trust URL parsing for client-reported strings — some browsers
+  // send relative paths, fragments-only, or invalid URLs. Hand-roll the
+  // truncation so we always strip `?` and `#` reliably.
+  const trimmed = rawUrl.slice(0, 500);
+  const qIdx = trimmed.indexOf("?");
+  const hIdx = trimmed.indexOf("#");
+  let cut = trimmed.length;
+  if (qIdx >= 0) cut = Math.min(cut, qIdx);
+  if (hIdx >= 0) cut = Math.min(cut, hIdx);
+  return trimmed.slice(0, cut);
+}
+
 function ipFromReq(req: Request): string {
   const fwd = req.headers["x-forwarded-for"];
   if (typeof fwd === "string") {
@@ -181,8 +202,14 @@ export function registerObservabilityRoutes(
     }
     const { message, source, stack, url, userAgent, kind } = parsed.data;
     incClientError();
+    // The client-supplied URL can contain query strings with security-
+    // sensitive tokens (manage_token, unsubscribe_token, ...). Drop the
+    // query/hash before logging so an aggregated log search cannot reveal
+    // them. Path is enough for triage; the correlationId already in the log
+    // line stitches everything to the originating request.
+    const safeUrl = url ? stripUrlSecrets(url) : "";
     logger.warn(
-      `[client-error] ${kind || "generic"} :: ${message.slice(0, 500)}${url ? ` @ ${url}` : ""}`,
+      `[client-error] ${kind || "generic"} :: ${message.slice(0, 500)}${safeUrl ? ` @ ${safeUrl}` : ""}`,
       "client-error",
     );
     if (stack && process.env.NODE_ENV !== "production") {

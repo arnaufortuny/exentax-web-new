@@ -1,5 +1,36 @@
 import { getCurrentCorrelationId } from "./correlation";
 
+/**
+ * Mask a client IP for log output. Keeps just enough signal to differentiate
+ * "many requests from one network" from "many requests from different
+ * networks" while not retaining full PII per RGPD's data-minimisation
+ * principle.
+ *
+ *   maskIp("203.0.113.42")           → "203.0.113.x"
+ *   maskIp("2001:db8:abcd:1234::1")  → "2001:db8:abcd::"
+ *   maskIp("unknown")                → "unknown"
+ *
+ * IPv4: drop the last octet. IPv6: keep only the first 3 hextets (the /48
+ * routing prefix), zero the rest. Anything we can't parse cleanly is passed
+ * through as `(masked)` so we never accidentally echo a raw value.
+ */
+export function maskIp(ip: string | null | undefined): string {
+  if (!ip || typeof ip !== "string") return "(no-ip)";
+  const trimmed = ip.trim();
+  if (!trimmed || trimmed === "unknown") return "unknown";
+  // IPv4-mapped IPv6 ("::ffff:1.2.3.4") → just mask the IPv4 tail
+  const v4Match = trimmed.match(/^(?:::ffff:)?(\d{1,3}\.\d{1,3}\.\d{1,3})\.\d{1,3}$/);
+  if (v4Match) return `${v4Match[1]}.x`;
+  if (trimmed.includes(":")) {
+    const parts = trimmed.split(":");
+    if (parts.length >= 3) {
+      return `${parts[0]}:${parts[1]}:${parts[2]}::`;
+    }
+    return "(masked)";
+  }
+  return "(masked)";
+}
+
 const REDACTED_PATTERNS = [
   "password", "passwordhash", "contrasena", "otp", "otpcode",
   "secret", "managetoken", "sessiontoken", "currentpassword", "newpassword",
