@@ -1,0 +1,261 @@
+{
+  "base": "http://localhost:5000",
+  "locales": [
+    "es",
+    "en",
+    "fr",
+    "de",
+    "pt",
+    "ca"
+  ],
+  "surfaces": [
+    "home",
+    "services",
+    "faq",
+    "book",
+    "blog_index",
+    "blog_post"
+  ],
+  "seedCount": 36,
+  "seeds": [
+    {
+      "lang": "es",
+      "surface": "home",
+      "path": "/es"
+    },
+    {
+      "lang": "es",
+      "surface": "services",
+      "path": "/es/servicios"
+    },
+    {
+      "lang": "es",
+      "surface": "faq",
+      "path": "/es/preguntas-frecuentes"
+    },
+    {
+      "lang": "es",
+      "surface": "book",
+      "path": "/es/agendar"
+    },
+    {
+      "lang": "es",
+      "surface": "blog_index",
+      "path": "/es/blog"
+    },
+    {
+      "lang": "es",
+      "surface": "blog_post",
+      "path": "/es/blog/cuanto-cuesta-constituir-llc"
+    },
+    {
+      "lang": "en",
+      "surface": "home",
+      "path": "/en"
+    },
+    {
+      "lang": "en",
+      "surface": "services",
+      "path": "/en/services"
+    },
+    {
+      "lang": "en",
+      "surface": "faq",
+      "path": "/en/faq"
+    },
+    {
+      "lang": "en",
+      "surface": "book",
+      "path": "/en/book"
+    },
+    {
+      "lang": "en",
+      "surface": "blog_index",
+      "path": "/en/blog"
+    },
+    {
+      "lang": "en",
+      "surface": "blog_post",
+      "path": "/en/blog/cuanto-cuesta-constituir-llc"
+    },
+    {
+      "lang": "fr",
+      "surface": "home",
+      "path": "/fr"
+    },
+    {
+      "lang": "fr",
+      "surface": "services",
+      "path": "/fr/services"
+    },
+    {
+      "lang": "fr",
+      "surface": "faq",
+      "path": "/fr/questions-frequentes"
+    },
+    {
+      "lang": "fr",
+      "surface": "book",
+      "path": "/fr/reserver"
+    },
+    {
+      "lang": "fr",
+      "surface": "blog_index",
+      "path": "/fr/blog"
+    },
+    {
+      "lang": "fr",
+      "surface": "blog_post",
+      "path": "/fr/blog/cuanto-cuesta-constituir-llc"
+    },
+    {
+      "lang": "de",
+      "surface": "home",
+      "path": "/de"
+    },
+    {
+      "lang": "de",
+      "surface": "services",
+      "path": "/de/leistungen"
+    },
+    {
+      "lang": "de",
+      "surface": "faq",
+      "path": "/de/haufige-fragen"
+    },
+    {
+      "lang": "de",
+      "surface": "book",
+      "path": "/de/buchen"
+    },
+    {
+      "lang": "de",
+      "surface": "blog_index",
+      "path": "/de/blog"
+    },
+    {
+      "lang": "de",
+      "surface": "blog_post",
+      "path": "/de/blog/cuanto-cuesta-constituir-llc"
+    },
+    {
+      "lang": "pt",
+      "surface": "home",
+      "path": "/pt"
+    },
+    {
+      "lang": "pt",
+      "surface": "services",
+      "path": "/pt/servicos"
+    },
+    {
+      "lang": "pt",
+      "surface": "faq",
+      "path": "/pt/perguntas-frequentes"
+    },
+    {
+      "lang": "pt",
+      "surface": "book",
+      "path": "/pt/agendar"
+    },
+    {
+      "lang": "pt",
+      "surface": "blog_index",
+      "path": "/pt/blog"
+    },
+    {
+      "lang": "pt",
+      "surface": "blog_post",
+      "path": "/pt/blog/cuanto-cuesta-constituir-llc"
+    },
+    {
+      "lang": "ca",
+      "surface": "home",
+      "path": "/ca"
+    },
+    {
+      "lang": "ca",
+      "surface": "services",
+      "path": "/ca/serveis"
+    },
+    {
+      "lang": "ca",
+      "surface": "faq",
+      "path": "/ca/preguntes-frequents"
+    },
+    {
+      "lang": "ca",
+      "surface": "book",
+      "path": "/ca/agendar"
+    },
+    {
+      "lang": "ca",
+      "surface": "blog_index",
+      "path": "/ca/blog"
+    },
+    {
+      "lang": "ca",
+      "surface": "blog_post",
+      "path": "/ca/blog/cuanto-cuesta-constituir-llc"
+    }
+  ],
+  "rendered": {
+    "totalAnchors": 2654,
+    "uniqueInternal": 177,
+    "perSurface": {
+      "home": {
+        "anchors": 466,
+        "internal": 309,
+        "external": 75,
+        "whatsapp": 70,
+        "mailto": 6,
+        "anchorOnly": 6
+      },
+      "faq": {
+        "anchors": 505,
+        "internal": 389,
+        "external": 30,
+        "whatsapp": 74,
+        "mailto": 6,
+        "anchorOnly": 6
+      },
+      "blog_post": {
+        "anchors": 624,
+        "internal": 334,
+        "external": 92,
+        "whatsapp": 50,
+        "mailto": 6,
+        "anchorOnly": 137
+      },
+      "book": {
+        "anchors": 300,
+        "internal": 228,
+        "external": 30,
+        "whatsapp": 30,
+        "mailto": 6,
+        "anchorOnly": 6
+      },
+      "blog_index": {
+        "anchors": 336,
+        "internal": 264,
+        "external": 30,
+        "whatsapp": 30,
+        "mailto": 6,
+        "anchorOnly": 6
+      },
+      "services": {
+        "anchors": 423,
+        "internal": 317,
+        "external": 35,
+        "whatsapp": 59,
+        "mailto": 6,
+        "anchorOnly": 6
+      }
+    },
+    "waNumbers": {
+      "34614916910": 303
+    }
+  },
+  "canonicalWhatsappNumber": "34614916910",
+  "findings": []
+}

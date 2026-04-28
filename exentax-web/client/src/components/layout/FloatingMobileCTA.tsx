@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useScrolled } from "@/hooks/useScrolled";
 import { useLocation } from "wouter";
 import { useLangPath } from "@/hooks/useLangPath";
+import { trackCTA } from "@/components/Tracking";
 
 export default function FloatingMobileCTA() {
   const { t } = useTranslation();
@@ -65,6 +66,7 @@ export default function FloatingMobileCTA() {
           href={lp("book")}
           className="btn-primary flex items-center justify-center gap-2 w-full font-body font-semibold text-base rounded-full py-3.5"
           data-testid="button-floating-cta"
+          onClick={() => trackCTA("floating_mobile_book", lp("book"), t("floatingCta.text") as string)}
         >
           {t("floatingCta.text")}
           <svg width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">

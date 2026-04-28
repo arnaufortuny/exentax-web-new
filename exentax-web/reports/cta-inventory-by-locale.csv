@@ -1,0 +1,439 @@
+file,line,type,idioma,testid,tracking,labelKey,labelText,destinationKey,destinationUrl
+client/src/components/blog/ArticleCTA.tsx,135,link,es,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,135,link,en,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,135,link,fr,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,135,link,de,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,135,link,pt,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,135,link,ca,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,es,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,en,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,fr,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,de,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,pt,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/blog/ArticleCTA.tsx,153,link,ca,—,${pattern ?? ,—,—,—,(unresolved: —)
+client/src/components/BookingCalendar.tsx,413,whatsapp,es,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,413,whatsapp,en,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,413,whatsapp,fr,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,413,whatsapp,de,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,413,whatsapp,pt,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,413,whatsapp,ca,—,booking_success,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,es,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,en,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,fr,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,de,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,pt,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/BookingCalendar.tsx,774,whatsapp,ca,—,booking_form,—,—,"wa.me?text={t(""booking.whatsappConfirmMsg"")}",https://wa.me/34614916910?text=
+client/src/components/CookieBanner.tsx,161,link,es,—,—,—,—,legal_cookies,/es/legal/cookies
+client/src/components/CookieBanner.tsx,161,link,en,—,—,—,—,legal_cookies,/en/legal/cookies
+client/src/components/CookieBanner.tsx,161,link,fr,—,—,—,—,legal_cookies,/fr/legal/cookies
+client/src/components/CookieBanner.tsx,161,link,de,—,—,—,—,legal_cookies,/de/legal/cookies
+client/src/components/CookieBanner.tsx,161,link,pt,—,—,—,—,legal_cookies,/pt/legal/cookies
+client/src/components/CookieBanner.tsx,161,link,ca,—,—,—,—,legal_cookies,/ca/legal/cookies
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,es,button-floating-cta,floating_mobile_book,—,—,book,/es/agendar
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,en,button-floating-cta,floating_mobile_book,—,—,book,/en/book
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,fr,button-floating-cta,floating_mobile_book,—,—,book,/fr/reserver
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,de,button-floating-cta,floating_mobile_book,—,—,book,/de/buchen
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,pt,button-floating-cta,floating_mobile_book,—,—,book,/pt/agendar
+client/src/components/layout/FloatingMobileCTA.tsx,65,link,ca,button-floating-cta,floating_mobile_book,—,—,book,/ca/agendar
+client/src/components/layout/Footer.tsx,79,link,es,—,—,—,—,legal_privacy,/es/legal/privacidad
+client/src/components/layout/Footer.tsx,79,link,en,—,—,—,—,legal_privacy,/en/legal/privacy
+client/src/components/layout/Footer.tsx,79,link,fr,—,—,—,—,legal_privacy,/fr/legal/confidentialite
+client/src/components/layout/Footer.tsx,79,link,de,—,—,—,—,legal_privacy,/de/legal/datenschutz
+client/src/components/layout/Footer.tsx,79,link,pt,—,—,—,—,legal_privacy,/pt/legal/privacidade
+client/src/components/layout/Footer.tsx,79,link,ca,—,—,—,—,legal_privacy,/ca/legal/privacitat
+client/src/components/layout/Footer.tsx,158,link,es,link-footer-home,—,—,—,home,/es
+client/src/components/layout/Footer.tsx,158,link,en,link-footer-home,—,—,—,home,/en
+client/src/components/layout/Footer.tsx,158,link,fr,link-footer-home,—,—,—,home,/fr
+client/src/components/layout/Footer.tsx,158,link,de,link-footer-home,—,—,—,home,/de
+client/src/components/layout/Footer.tsx,158,link,pt,link-footer-home,—,—,—,home,/pt
+client/src/components/layout/Footer.tsx,158,link,ca,link-footer-home,—,—,—,home,/ca
+client/src/components/layout/Footer.tsx,228,mailto,es,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,228,mailto,en,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,228,mailto,fr,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,228,mailto,de,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,228,mailto,pt,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,228,mailto,ca,link-footer-email,footer_contact,—,—,mailto,mailto:
+client/src/components/layout/Footer.tsx,235,whatsapp,es,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Hola%2C%20me%20gustar%C3%ADa%20hablar%20con%20alguien%20del%20equipo.%20Quiero%20entender%20si%20hay%20margen%20para%20reducir%20lo%20que%20pago%20de%20impuestos.
+client/src/components/layout/Footer.tsx,235,whatsapp,en,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Hi%2C%20I'd%20like%20to%20talk%20to%20someone%20from%20the%20team%20about%20setting%20up%20a%20VC-ready%20US%20LLC%20with%20proper%20asset%20protection%20and%20ITIN%2C%20all%20without%20flying%20to%20the%20IRS%20office.
+client/src/components/layout/Footer.tsx,235,whatsapp,fr,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Bonjour%2C%20j'aimerais%20%C3%A9changer%20avec%20l'%C3%A9quipe%20pour%20monter%20une%20LLC%20pr%C3%AAte%20pour%20la%20lev%C3%A9e%20de%20fonds%20et%20obtenir%20mon%20ITIN%2C%20sans%20passer%20par%20l'ambassade.
+client/src/components/layout/Footer.tsx,235,whatsapp,de,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Hallo%2C%20ich%20m%C3%B6chte%20mit%20dem%20Team%20dar%C3%BCber%20sprechen%2C%20eine%20LLC%20mit%20Verm%C3%B6gensschutz%20nach%20US-Standard%20und%20ITIN%20zu%20gr%C3%BCnden%20%E2%80%94%20ganz%20ohne%20Botschaftstermin.
+client/src/components/layout/Footer.tsx,235,whatsapp,pt,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20algu%C3%A9m%20da%20equipa%20sobre%20montar%20uma%20LLC%20pronta%20para%20investidores%20e%20M%26A%2C%20com%20ITIN%20tirado%20sem%20viajar%20aos%20EUA.
+client/src/components/layout/Footer.tsx,235,whatsapp,ca,—,footer_contact,—,—,"wa.me?text={t(""whatsappFooter"")}",https://wa.me/34614916910?text=Hola%2C%20m'agradaria%20parlar%20amb%20alg%C3%BA%20de%20l'equip%20sobre%20muntar%20una%20LLC%20amb%20blindatge%20patrimonial%20i%20ITIN%2C%20sense%20haver%20de%20viatjar%20als%20EUA.
+client/src/components/layout/Navbar.tsx,226,link,es,link-home,—,—,—,home,/es
+client/src/components/layout/Navbar.tsx,226,link,en,link-home,—,—,—,home,/en
+client/src/components/layout/Navbar.tsx,226,link,fr,link-home,—,—,—,home,/fr
+client/src/components/layout/Navbar.tsx,226,link,de,link-home,—,—,—,home,/de
+client/src/components/layout/Navbar.tsx,226,link,pt,link-home,—,—,—,home,/pt
+client/src/components/layout/Navbar.tsx,226,link,ca,link-home,—,—,—,home,/ca
+client/src/components/layout/Navbar.tsx,376,whatsapp,es,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hola%2C%20acabo%20de%20ver%20Exentax%20y%20me%20interesa%20saber%20si%20puedo%20optimizar%20mi%20fiscalidad.%20%C2%BFCu%C3%A1ndo%20podr%C3%ADamos%20hablar%3F
+client/src/components/layout/Navbar.tsx,376,whatsapp,en,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hi%2C%20I%20just%20saw%20Exentax%20and%20I'm%20curious%3A%20could%20I%20be%20paying%20less%20taxes%20than%20I%20do%20now%3F%20When%20could%20we%20talk%20for%20a%20moment%3F
+client/src/components/layout/Navbar.tsx,376,whatsapp,fr,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Bonjour%2C%20je%20viens%20de%20voir%20Exentax%20et%20je%20suis%20curieux%20%3A%20pourrais-je%20payer%20moins%20d'imp%C3%B4ts%20%3F%20Quand%20pourrions-nous%20en%20parler%20%3F
+client/src/components/layout/Navbar.tsx,376,whatsapp,de,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hallo%2C%20ich%20habe%20gerade%20Exentax%20gesehen%20und%20bin%20neugierig%3A%20K%C3%B6nnte%20ich%20weniger%20Steuern%20zahlen%20als%20jetzt%3F%20Wann%20k%C3%B6nnten%20wir%20dar%C3%BCber%20sprechen%3F
+client/src/components/layout/Navbar.tsx,376,whatsapp,pt,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Ol%C3%A1%2C%20acabei%20de%20ver%20a%20Exentax%20e%20estou%20curioso%3A%20poderia%20estar%20pagando%20menos%20impostos%20do%20que%20pago%20agora%3F%20Quando%20poder%C3%ADamos%20conversar%3F
+client/src/components/layout/Navbar.tsx,376,whatsapp,ca,—,navbar,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hola%2C%20acabo%20de%20veure%20Exentax%20i%20tinc%20curiositat%3A%20podria%20pagar%20menys%20impostos%20del%20que%20pago%20ara%3F%20Quan%20podr%C3%ADem%20parlar%20un%20moment%3F
+client/src/components/layout/Navbar.tsx,388,link,es,—,navbar_book,—,—,book,/es/agendar
+client/src/components/layout/Navbar.tsx,388,link,en,—,navbar_book,—,—,book,/en/book
+client/src/components/layout/Navbar.tsx,388,link,fr,—,navbar_book,—,—,book,/fr/reserver
+client/src/components/layout/Navbar.tsx,388,link,de,—,navbar_book,—,—,book,/de/buchen
+client/src/components/layout/Navbar.tsx,388,link,pt,—,navbar_book,—,—,book,/pt/agendar
+client/src/components/layout/Navbar.tsx,388,link,ca,—,navbar_book,—,—,book,/ca/agendar
+client/src/components/layout/Navbar.tsx,504,whatsapp,es,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hola%2C%20acabo%20de%20ver%20Exentax%20y%20me%20interesa%20saber%20si%20puedo%20optimizar%20mi%20fiscalidad.%20%C2%BFCu%C3%A1ndo%20podr%C3%ADamos%20hablar%3F
+client/src/components/layout/Navbar.tsx,504,whatsapp,en,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hi%2C%20I%20just%20saw%20Exentax%20and%20I'm%20curious%3A%20could%20I%20be%20paying%20less%20taxes%20than%20I%20do%20now%3F%20When%20could%20we%20talk%20for%20a%20moment%3F
+client/src/components/layout/Navbar.tsx,504,whatsapp,fr,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Bonjour%2C%20je%20viens%20de%20voir%20Exentax%20et%20je%20suis%20curieux%20%3A%20pourrais-je%20payer%20moins%20d'imp%C3%B4ts%20%3F%20Quand%20pourrions-nous%20en%20parler%20%3F
+client/src/components/layout/Navbar.tsx,504,whatsapp,de,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hallo%2C%20ich%20habe%20gerade%20Exentax%20gesehen%20und%20bin%20neugierig%3A%20K%C3%B6nnte%20ich%20weniger%20Steuern%20zahlen%20als%20jetzt%3F%20Wann%20k%C3%B6nnten%20wir%20dar%C3%BCber%20sprechen%3F
+client/src/components/layout/Navbar.tsx,504,whatsapp,pt,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Ol%C3%A1%2C%20acabei%20de%20ver%20a%20Exentax%20e%20estou%20curioso%3A%20poderia%20estar%20pagando%20menos%20impostos%20do%20que%20pago%20agora%3F%20Quando%20poder%C3%ADamos%20conversar%3F
+client/src/components/layout/Navbar.tsx,504,whatsapp,ca,—,navbar_mobile,—,—,"wa.me?text={t(""whatsappNav"")}",https://wa.me/34614916910?text=Hola%2C%20acabo%20de%20veure%20Exentax%20i%20tinc%20curiositat%3A%20podria%20pagar%20menys%20impostos%20del%20que%20pago%20ara%3F%20Quan%20podr%C3%ADem%20parlar%20un%20moment%3F
+client/src/components/layout/Navbar.tsx,527,link,es,—,navbar_mobile_book,—,—,book,/es/agendar
+client/src/components/layout/Navbar.tsx,527,link,en,—,navbar_mobile_book,—,—,book,/en/book
+client/src/components/layout/Navbar.tsx,527,link,fr,—,navbar_mobile_book,—,—,book,/fr/reserver
+client/src/components/layout/Navbar.tsx,527,link,de,—,navbar_mobile_book,—,—,book,/de/buchen
+client/src/components/layout/Navbar.tsx,527,link,pt,—,navbar_mobile_book,—,—,book,/pt/agendar
+client/src/components/layout/Navbar.tsx,527,link,ca,—,navbar_mobile_book,—,—,book,/ca/agendar
+client/src/components/layout/NavbarFunnel.tsx,15,link,es,link-funnel-home,navbar_funnel_book,—,—,home,/es
+client/src/components/layout/NavbarFunnel.tsx,15,link,en,link-funnel-home,navbar_funnel_book,—,—,home,/en
+client/src/components/layout/NavbarFunnel.tsx,15,link,fr,link-funnel-home,navbar_funnel_book,—,—,home,/fr
+client/src/components/layout/NavbarFunnel.tsx,15,link,de,link-funnel-home,navbar_funnel_book,—,—,home,/de
+client/src/components/layout/NavbarFunnel.tsx,15,link,pt,link-funnel-home,navbar_funnel_book,—,—,home,/pt
+client/src/components/layout/NavbarFunnel.tsx,15,link,ca,link-funnel-home,navbar_funnel_book,—,—,home,/ca
+client/src/components/layout/NavbarFunnel.tsx,21,link,es,link-funnel-consultation,navbar_funnel_book,—,—,book,/es/agendar
+client/src/components/layout/NavbarFunnel.tsx,21,link,en,link-funnel-consultation,navbar_funnel_book,—,—,book,/en/book
+client/src/components/layout/NavbarFunnel.tsx,21,link,fr,link-funnel-consultation,navbar_funnel_book,—,—,book,/fr/reserver
+client/src/components/layout/NavbarFunnel.tsx,21,link,de,link-funnel-consultation,navbar_funnel_book,—,—,book,/de/buchen
+client/src/components/layout/NavbarFunnel.tsx,21,link,pt,link-funnel-consultation,navbar_funnel_book,—,—,book,/pt/agendar
+client/src/components/layout/NavbarFunnel.tsx,21,link,ca,link-funnel-consultation,navbar_funnel_book,—,—,book,/ca/agendar
+client/src/components/sections/faq-data.tsx,120,link,es,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/faq-data.tsx,120,link,en,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/faq-data.tsx,120,link,fr,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/faq-data.tsx,120,link,de,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/faq-data.tsx,120,link,pt,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/faq-data.tsx,120,link,ca,—,—,—,—,—,(unresolved: —)
+client/src/components/sections/FAQ.tsx,256,link,es,button-faq-final-cta-booking,faq_final_book,—,—,book,/es/agendar
+client/src/components/sections/FAQ.tsx,256,link,en,button-faq-final-cta-booking,faq_final_book,—,—,book,/en/book
+client/src/components/sections/FAQ.tsx,256,link,fr,button-faq-final-cta-booking,faq_final_book,—,—,book,/fr/reserver
+client/src/components/sections/FAQ.tsx,256,link,de,button-faq-final-cta-booking,faq_final_book,—,—,book,/de/buchen
+client/src/components/sections/FAQ.tsx,256,link,pt,button-faq-final-cta-booking,faq_final_book,—,—,book,/pt/agendar
+client/src/components/sections/FAQ.tsx,256,link,ca,button-faq-final-cta-booking,faq_final_book,—,—,book,/ca/agendar
+client/src/components/sections/FAQ.tsx,264,whatsapp,es,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/FAQ.tsx,264,whatsapp,en,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/FAQ.tsx,264,whatsapp,fr,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/FAQ.tsx,264,whatsapp,de,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/FAQ.tsx,264,whatsapp,pt,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/FAQ.tsx,264,whatsapp,ca,—,faq_final_cta,—,—,"wa.me?text={t(""faqUI.finalCta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,150,link,es,button-forwho-agendar,for_who_bottom,—,—,book,/es/agendar
+client/src/components/sections/ForWho.tsx,150,link,en,button-forwho-agendar,for_who_bottom,—,—,book,/en/book
+client/src/components/sections/ForWho.tsx,150,link,fr,button-forwho-agendar,for_who_bottom,—,—,book,/fr/reserver
+client/src/components/sections/ForWho.tsx,150,link,de,button-forwho-agendar,for_who_bottom,—,—,book,/de/buchen
+client/src/components/sections/ForWho.tsx,150,link,pt,button-forwho-agendar,for_who_bottom,—,—,book,/pt/agendar
+client/src/components/sections/ForWho.tsx,150,link,ca,button-forwho-agendar,for_who_bottom,—,—,book,/ca/agendar
+client/src/components/sections/ForWho.tsx,157,whatsapp,es,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,157,whatsapp,en,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,157,whatsapp,fr,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,157,whatsapp,de,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,157,whatsapp,pt,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/ForWho.tsx,157,whatsapp,ca,—,for_who_bottom,—,—,"wa.me?text={t(""forWho.whatsappMsg2"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,113,link,es,—,hero_book_consultation,—,—,book,/es/agendar
+client/src/components/sections/Hero.tsx,113,link,en,—,hero_book_consultation,—,—,book,/en/book
+client/src/components/sections/Hero.tsx,113,link,fr,—,hero_book_consultation,—,—,book,/fr/reserver
+client/src/components/sections/Hero.tsx,113,link,de,—,hero_book_consultation,—,—,book,/de/buchen
+client/src/components/sections/Hero.tsx,113,link,pt,—,hero_book_consultation,—,—,book,/pt/agendar
+client/src/components/sections/Hero.tsx,113,link,ca,—,hero_book_consultation,—,—,book,/ca/agendar
+client/src/components/sections/Hero.tsx,122,whatsapp,es,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,122,whatsapp,en,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,122,whatsapp,fr,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,122,whatsapp,de,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,122,whatsapp,pt,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Hero.tsx,122,whatsapp,ca,—,hero,—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,48,link,es,button-home-faq-ver-todas,home_faq,—,—,faq,/es/preguntas-frecuentes
+client/src/components/sections/HomeFAQ.tsx,48,link,en,button-home-faq-ver-todas,home_faq,—,—,faq,/en/faq
+client/src/components/sections/HomeFAQ.tsx,48,link,fr,button-home-faq-ver-todas,home_faq,—,—,faq,/fr/questions-frequentes
+client/src/components/sections/HomeFAQ.tsx,48,link,de,button-home-faq-ver-todas,home_faq,—,—,faq,/de/haufige-fragen
+client/src/components/sections/HomeFAQ.tsx,48,link,pt,button-home-faq-ver-todas,home_faq,—,—,faq,/pt/perguntas-frequentes
+client/src/components/sections/HomeFAQ.tsx,48,link,ca,button-home-faq-ver-todas,home_faq,—,—,faq,/ca/preguntes-frequents
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,es,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,en,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,fr,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,de,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,pt,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFAQ.tsx,56,whatsapp,ca,—,home_faq,—,—,"wa.me?text={t(""homeFaq.cta.whatsapp"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HomeFinalCTA.tsx,56,link,es,cta-final-agendar,home_final_book,—,—,book,/es/agendar
+client/src/components/sections/HomeFinalCTA.tsx,56,link,en,cta-final-agendar,home_final_book,—,—,book,/en/book
+client/src/components/sections/HomeFinalCTA.tsx,56,link,fr,cta-final-agendar,home_final_book,—,—,book,/fr/reserver
+client/src/components/sections/HomeFinalCTA.tsx,56,link,de,cta-final-agendar,home_final_book,—,—,book,/de/buchen
+client/src/components/sections/HomeFinalCTA.tsx,56,link,pt,cta-final-agendar,home_final_book,—,—,book,/pt/agendar
+client/src/components/sections/HomeFinalCTA.tsx,56,link,ca,cta-final-agendar,home_final_book,—,—,book,/ca/agendar
+client/src/components/sections/HowItWorks.tsx,170,link,es,button-howitworks-agendar,how_it_works,—,—,book,/es/agendar
+client/src/components/sections/HowItWorks.tsx,170,link,en,button-howitworks-agendar,how_it_works,—,—,book,/en/book
+client/src/components/sections/HowItWorks.tsx,170,link,fr,button-howitworks-agendar,how_it_works,—,—,book,/fr/reserver
+client/src/components/sections/HowItWorks.tsx,170,link,de,button-howitworks-agendar,how_it_works,—,—,book,/de/buchen
+client/src/components/sections/HowItWorks.tsx,170,link,pt,button-howitworks-agendar,how_it_works,—,—,book,/pt/agendar
+client/src/components/sections/HowItWorks.tsx,170,link,ca,button-howitworks-agendar,how_it_works,—,—,book,/ca/agendar
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,es,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,en,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,fr,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,de,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,pt,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/HowItWorks.tsx,177,whatsapp,ca,—,how_it_works,—,—,"wa.me?text={t(""howItWorks.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,131,link,es,`button-service-${i,services_block_${i},—,—,our_services,/es/servicios
+client/src/components/sections/Services.tsx,131,link,en,`button-service-${i,services_block_${i},—,—,our_services,/en/services
+client/src/components/sections/Services.tsx,131,link,fr,`button-service-${i,services_block_${i},—,—,our_services,/fr/services
+client/src/components/sections/Services.tsx,131,link,de,`button-service-${i,services_block_${i},—,—,our_services,/de/leistungen
+client/src/components/sections/Services.tsx,131,link,pt,`button-service-${i,services_block_${i},—,—,our_services,/pt/servicos
+client/src/components/sections/Services.tsx,131,link,ca,`button-service-${i,services_block_${i},—,—,our_services,/ca/serveis
+client/src/components/sections/Services.tsx,138,whatsapp,es,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,138,whatsapp,en,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,138,whatsapp,fr,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,138,whatsapp,de,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,138,whatsapp,pt,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/Services.tsx,138,whatsapp,ca,—,services_block_${i},—,—,"wa.me?text={t(""hero.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,82,link,es,button-whyus-agendar,why_us,—,—,book,/es/agendar
+client/src/components/sections/WhyUs.tsx,82,link,en,button-whyus-agendar,why_us,—,—,book,/en/book
+client/src/components/sections/WhyUs.tsx,82,link,fr,button-whyus-agendar,why_us,—,—,book,/fr/reserver
+client/src/components/sections/WhyUs.tsx,82,link,de,button-whyus-agendar,why_us,—,—,book,/de/buchen
+client/src/components/sections/WhyUs.tsx,82,link,pt,button-whyus-agendar,why_us,—,—,book,/pt/agendar
+client/src/components/sections/WhyUs.tsx,82,link,ca,button-whyus-agendar,why_us,—,—,book,/ca/agendar
+client/src/components/sections/WhyUs.tsx,89,whatsapp,es,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,89,whatsapp,en,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,89,whatsapp,fr,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,89,whatsapp,de,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,89,whatsapp,pt,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/components/sections/WhyUs.tsx,89,whatsapp,ca,—,why_us,—,—,"wa.me?text={t(""whyUs.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,52,link,es,button-llc-hero-agendar,about_llc_hero,—,—,book,/es/agendar
+client/src/pages/about-llc.tsx,52,link,en,button-llc-hero-agendar,about_llc_hero,—,—,book,/en/book
+client/src/pages/about-llc.tsx,52,link,fr,button-llc-hero-agendar,about_llc_hero,—,—,book,/fr/reserver
+client/src/pages/about-llc.tsx,52,link,de,button-llc-hero-agendar,about_llc_hero,—,—,book,/de/buchen
+client/src/pages/about-llc.tsx,52,link,pt,button-llc-hero-agendar,about_llc_hero,—,—,book,/pt/agendar
+client/src/pages/about-llc.tsx,52,link,ca,button-llc-hero-agendar,about_llc_hero,—,—,book,/ca/agendar
+client/src/pages/about-llc.tsx,59,whatsapp,es,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,59,whatsapp,en,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,59,whatsapp,fr,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,59,whatsapp,de,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,59,whatsapp,pt,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,59,whatsapp,ca,—,about_llc_hero,—,—,"wa.me?text={t(""llcUsPage.heroWhatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/about-llc.tsx,380,link,es,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/about-llc.tsx,380,link,en,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/about-llc.tsx,380,link,fr,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/about-llc.tsx,380,link,de,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/about-llc.tsx,380,link,pt,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/about-llc.tsx,380,link,ca,`link-estado-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,834,link,es,button-pillar-llc-hero-cta,—,—,—,book,/es/agendar
+client/src/pages/abrir-llc.tsx,834,link,en,button-pillar-llc-hero-cta,—,—,—,book,/en/book
+client/src/pages/abrir-llc.tsx,834,link,fr,button-pillar-llc-hero-cta,—,—,—,book,/fr/reserver
+client/src/pages/abrir-llc.tsx,834,link,de,button-pillar-llc-hero-cta,—,—,—,book,/de/buchen
+client/src/pages/abrir-llc.tsx,834,link,pt,button-pillar-llc-hero-cta,—,—,—,book,/pt/agendar
+client/src/pages/abrir-llc.tsx,834,link,ca,button-pillar-llc-hero-cta,—,—,—,book,/ca/agendar
+client/src/pages/abrir-llc.tsx,838,link,es,button-pillar-llc-hero-services,—,—,—,our_services,/es/servicios
+client/src/pages/abrir-llc.tsx,838,link,en,button-pillar-llc-hero-services,—,—,—,our_services,/en/services
+client/src/pages/abrir-llc.tsx,838,link,fr,button-pillar-llc-hero-services,—,—,—,our_services,/fr/services
+client/src/pages/abrir-llc.tsx,838,link,de,button-pillar-llc-hero-services,—,—,—,our_services,/de/leistungen
+client/src/pages/abrir-llc.tsx,838,link,pt,button-pillar-llc-hero-services,—,—,—,our_services,/pt/servicos
+client/src/pages/abrir-llc.tsx,838,link,ca,button-pillar-llc-hero-services,—,—,—,our_services,/ca/serveis
+client/src/pages/abrir-llc.tsx,890,link,es,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,890,link,en,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,890,link,fr,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,890,link,de,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,890,link,pt,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,890,link,ca,`link-pillar-state-${i,—,—,—,—,(unresolved: —)
+client/src/pages/abrir-llc.tsx,990,link,es,button-pillar-cta-book,—,—,—,book,/es/agendar
+client/src/pages/abrir-llc.tsx,990,link,en,button-pillar-cta-book,—,—,—,book,/en/book
+client/src/pages/abrir-llc.tsx,990,link,fr,button-pillar-cta-book,—,—,—,book,/fr/reserver
+client/src/pages/abrir-llc.tsx,990,link,de,button-pillar-cta-book,—,—,—,book,/de/buchen
+client/src/pages/abrir-llc.tsx,990,link,pt,button-pillar-cta-book,—,—,—,book,/pt/agendar
+client/src/pages/abrir-llc.tsx,990,link,ca,button-pillar-cta-book,—,—,—,book,/ca/agendar
+client/src/pages/abrir-llc.tsx,993,link,es,button-pillar-cta-services,—,—,—,our_services,/es/servicios
+client/src/pages/abrir-llc.tsx,993,link,en,button-pillar-cta-services,—,—,—,our_services,/en/services
+client/src/pages/abrir-llc.tsx,993,link,fr,button-pillar-cta-services,—,—,—,our_services,/fr/services
+client/src/pages/abrir-llc.tsx,993,link,de,button-pillar-cta-services,—,—,—,our_services,/de/leistungen
+client/src/pages/abrir-llc.tsx,993,link,pt,button-pillar-cta-services,—,—,—,our_services,/pt/servicos
+client/src/pages/abrir-llc.tsx,993,link,ca,button-pillar-cta-services,—,—,—,our_services,/ca/serveis
+client/src/pages/blog/index.tsx,42,link,es,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/index.tsx,42,link,en,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/index.tsx,42,link,fr,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/index.tsx,42,link,de,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/index.tsx,42,link,pt,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/index.tsx,42,link,ca,`card-blog-${slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,es,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,en,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,fr,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,de,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,pt,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,321,link,ca,`sidebar-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,es,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,en,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,fr,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,de,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,pt,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,367,link,ca,`bottom-related-${post.slug,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,es,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,en,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,fr,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,de,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,pt,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,964,link,ca,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,es,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,en,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,fr,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,de,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,pt,—,—,—,—,—,(unresolved: —)
+client/src/pages/blog/post.tsx,970,link,ca,—,—,—,—,—,(unresolved: —)
+client/src/pages/go.tsx,126,whatsapp,es,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,126,whatsapp,en,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,126,whatsapp,fr,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,126,whatsapp,de,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,126,whatsapp,pt,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,126,whatsapp,ca,—,links_page,—,—,"wa.me?text={t(""links.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/go.tsx,183,mailto,es,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/go.tsx,183,mailto,en,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/go.tsx,183,mailto,fr,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/go.tsx,183,mailto,de,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/go.tsx,183,mailto,pt,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/go.tsx,183,mailto,ca,icon-email,—,footer.social.email,footer.social.email,mailto,mailto:
+client/src/pages/how-we-work.tsx,111,link,es,button-at-hero-agendar,how_we_work_hero,—,—,book,/es/agendar
+client/src/pages/how-we-work.tsx,111,link,en,button-at-hero-agendar,how_we_work_hero,—,—,book,/en/book
+client/src/pages/how-we-work.tsx,111,link,fr,button-at-hero-agendar,how_we_work_hero,—,—,book,/fr/reserver
+client/src/pages/how-we-work.tsx,111,link,de,button-at-hero-agendar,how_we_work_hero,—,—,book,/de/buchen
+client/src/pages/how-we-work.tsx,111,link,pt,button-at-hero-agendar,how_we_work_hero,—,—,book,/pt/agendar
+client/src/pages/how-we-work.tsx,111,link,ca,button-at-hero-agendar,how_we_work_hero,—,—,book,/ca/agendar
+client/src/pages/how-we-work.tsx,115,whatsapp,es,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,115,whatsapp,en,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,115,whatsapp,fr,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,115,whatsapp,de,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,115,whatsapp,pt,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,115,whatsapp,ca,—,how_we_work_hero,—,—,"wa.me?text={t(""comoFunciona.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,234,link,es,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/es/agendar
+client/src/pages/how-we-work.tsx,234,link,en,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/en/book
+client/src/pages/how-we-work.tsx,234,link,fr,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/fr/reserver
+client/src/pages/how-we-work.tsx,234,link,de,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/de/buchen
+client/src/pages/how-we-work.tsx,234,link,pt,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/pt/agendar
+client/src/pages/how-we-work.tsx,234,link,ca,button-at-phase1-agendar,how_we_work_phase1,—,—,book,/ca/agendar
+client/src/pages/how-we-work.tsx,237,whatsapp,es,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,237,whatsapp,en,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,237,whatsapp,fr,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,237,whatsapp,de,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,237,whatsapp,pt,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/how-we-work.tsx,237,whatsapp,ca,—,how_we_work_phase1,—,—,"wa.me?text={t(""comoFunciona.phases.phase1.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/not-found.tsx,32,link,es,link-go-home,—,—,—,home,/es
+client/src/pages/not-found.tsx,32,link,en,link-go-home,—,—,—,home,/en
+client/src/pages/not-found.tsx,32,link,fr,link-go-home,—,—,—,home,/fr
+client/src/pages/not-found.tsx,32,link,de,link-go-home,—,—,—,home,/de
+client/src/pages/not-found.tsx,32,link,pt,link-go-home,—,—,—,home,/pt
+client/src/pages/not-found.tsx,32,link,ca,link-go-home,—,—,—,home,/ca
+client/src/pages/not-found.tsx,46,link,es,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,46,link,en,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,46,link,fr,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,46,link,de,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,46,link,pt,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,46,link,ca,`link-not-found-${q.key,—,—,—,—,(unresolved: —)
+client/src/pages/not-found.tsx,56,link,es,link-not-found-blog,—,—,—,/blog,/es/blog
+client/src/pages/not-found.tsx,56,link,en,link-not-found-blog,—,—,—,/blog,/en/blog
+client/src/pages/not-found.tsx,56,link,fr,link-not-found-blog,—,—,—,/blog,/fr/blog
+client/src/pages/not-found.tsx,56,link,de,link-not-found-blog,—,—,—,/blog,/de/blog
+client/src/pages/not-found.tsx,56,link,pt,link-not-found-blog,—,—,—,/blog,/pt/blog
+client/src/pages/not-found.tsx,56,link,ca,link-not-found-blog,—,—,—,/blog,/ca/blog
+client/src/pages/services-sections.tsx,163,link,es,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,163,link,en,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,163,link,fr,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,163,link,de,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,163,link,pt,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,163,link,ca,`button-solicitar-llc-${i,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,es,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,en,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,fr,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,de,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,pt,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,277,link,ca,button-comparativa-agendar,—,—,—,—,(unresolved: —)
+client/src/pages/services-sections.tsx,342,whatsapp,es,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,342,whatsapp,en,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,342,whatsapp,fr,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,342,whatsapp,de,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,342,whatsapp,pt,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,342,whatsapp,ca,—,services_renewal,—,—,"wa.me?text={t(""precios.maintenance.waTextRenewal"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,419,link,es,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/es/preguntas-frecuentes
+client/src/pages/services-sections.tsx,419,link,en,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/en/faq
+client/src/pages/services-sections.tsx,419,link,fr,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/fr/questions-frequentes
+client/src/pages/services-sections.tsx,419,link,de,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/de/haufige-fragen
+client/src/pages/services-sections.tsx,419,link,pt,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/pt/perguntas-frequentes
+client/src/pages/services-sections.tsx,419,link,ca,button-precios-ver-todas-preguntas,services_faq_advisor,—,—,faq,/ca/preguntes-frequents
+client/src/pages/services-sections.tsx,426,whatsapp,es,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,426,whatsapp,en,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,426,whatsapp,fr,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,426,whatsapp,de,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,426,whatsapp,pt,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,426,whatsapp,ca,—,services_faq_advisor,—,—,"wa.me?text={t(""finalCta.whatsappMsg"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,468,link,es,button-precios-cta-agendar,services_cta,—,—,book,/es/agendar
+client/src/pages/services-sections.tsx,468,link,en,button-precios-cta-agendar,services_cta,—,—,book,/en/book
+client/src/pages/services-sections.tsx,468,link,fr,button-precios-cta-agendar,services_cta,—,—,book,/fr/reserver
+client/src/pages/services-sections.tsx,468,link,de,button-precios-cta-agendar,services_cta,—,—,book,/de/buchen
+client/src/pages/services-sections.tsx,468,link,pt,button-precios-cta-agendar,services_cta,—,—,book,/pt/agendar
+client/src/pages/services-sections.tsx,468,link,ca,button-precios-cta-agendar,services_cta,—,—,book,/ca/agendar
+client/src/pages/services-sections.tsx,475,whatsapp,es,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,475,whatsapp,en,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,475,whatsapp,fr,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,475,whatsapp,de,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,475,whatsapp,pt,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services-sections.tsx,475,whatsapp,ca,—,services_cta,—,—,"wa.me?text={t(""precios.cta.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,58,link,es,button-precios-hero-agendar,services_hero,—,—,book,/es/agendar
+client/src/pages/services.tsx,58,link,en,button-precios-hero-agendar,services_hero,—,—,book,/en/book
+client/src/pages/services.tsx,58,link,fr,button-precios-hero-agendar,services_hero,—,—,book,/fr/reserver
+client/src/pages/services.tsx,58,link,de,button-precios-hero-agendar,services_hero,—,—,book,/de/buchen
+client/src/pages/services.tsx,58,link,pt,button-precios-hero-agendar,services_hero,—,—,book,/pt/agendar
+client/src/pages/services.tsx,58,link,ca,button-precios-hero-agendar,services_hero,—,—,book,/ca/agendar
+client/src/pages/services.tsx,66,whatsapp,es,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,66,whatsapp,en,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,66,whatsapp,fr,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,66,whatsapp,de,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,66,whatsapp,pt,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,66,whatsapp,ca,—,services_hero,—,—,"wa.me?text={t(""precios.hero.waText"")}",https://wa.me/34614916910?text=
+client/src/pages/services.tsx,109,link,es,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services.tsx,109,link,en,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services.tsx,109,link,fr,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services.tsx,109,link,de,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services.tsx,109,link,pt,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services.tsx,109,link,ca,`card-services-subpage-${c.tag,—,—,—,—,(unresolved: —)
+client/src/pages/services/ServiceSubpage.tsx,153,link,es,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/es/agendar
+client/src/pages/services/ServiceSubpage.tsx,153,link,en,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/en/book
+client/src/pages/services/ServiceSubpage.tsx,153,link,fr,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/fr/reserver
+client/src/pages/services/ServiceSubpage.tsx,153,link,de,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/de/buchen
+client/src/pages/services/ServiceSubpage.tsx,153,link,pt,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/pt/agendar
+client/src/pages/services/ServiceSubpage.tsx,153,link,ca,`button-${trackingKey,service_${trackingKey}_hero,—,—,book,/ca/agendar
+client/src/pages/services/ServiceSubpage.tsx,433,link,es,`button-${trackingKey,—,—,—,book,/es/agendar
+client/src/pages/services/ServiceSubpage.tsx,433,link,en,`button-${trackingKey,—,—,—,book,/en/book
+client/src/pages/services/ServiceSubpage.tsx,433,link,fr,`button-${trackingKey,—,—,—,book,/fr/reserver
+client/src/pages/services/ServiceSubpage.tsx,433,link,de,`button-${trackingKey,—,—,—,book,/de/buchen
+client/src/pages/services/ServiceSubpage.tsx,433,link,pt,`button-${trackingKey,—,—,—,book,/pt/agendar
+client/src/pages/services/ServiceSubpage.tsx,433,link,ca,`button-${trackingKey,—,—,—,book,/ca/agendar
+client/src/pages/services/ServiceSubpage.tsx,441,link,es,`button-${trackingKey,—,—,—,our_services,/es/servicios
+client/src/pages/services/ServiceSubpage.tsx,441,link,en,`button-${trackingKey,—,—,—,our_services,/en/services
+client/src/pages/services/ServiceSubpage.tsx,441,link,fr,`button-${trackingKey,—,—,—,our_services,/fr/services
+client/src/pages/services/ServiceSubpage.tsx,441,link,de,`button-${trackingKey,—,—,—,our_services,/de/leistungen
+client/src/pages/services/ServiceSubpage.tsx,441,link,pt,`button-${trackingKey,—,—,—,our_services,/pt/servicos
+client/src/pages/services/ServiceSubpage.tsx,441,link,ca,`button-${trackingKey,—,—,—,our_services,/ca/serveis
+client/src/pages/start.tsx,148,link,es,link-agendar-start,—,—,—,book,/es/agendar
+client/src/pages/start.tsx,148,link,en,link-agendar-start,—,—,—,book,/en/book
+client/src/pages/start.tsx,148,link,fr,link-agendar-start,—,—,—,book,/fr/reserver
+client/src/pages/start.tsx,148,link,de,link-agendar-start,—,—,—,book,/de/buchen
+client/src/pages/start.tsx,148,link,pt,link-agendar-start,—,—,—,book,/pt/agendar
+client/src/pages/start.tsx,148,link,ca,link-agendar-start,—,—,—,book,/ca/agendar
+client/src/pages/start.tsx,296,link,es,button-agendar-decision,start_decision,—,—,book,/es/agendar
+client/src/pages/start.tsx,296,link,en,button-agendar-decision,start_decision,—,—,book,/en/book
+client/src/pages/start.tsx,296,link,fr,button-agendar-decision,start_decision,—,—,book,/fr/reserver
+client/src/pages/start.tsx,296,link,de,button-agendar-decision,start_decision,—,—,book,/de/buchen
+client/src/pages/start.tsx,296,link,pt,button-agendar-decision,start_decision,—,—,book,/pt/agendar
+client/src/pages/start.tsx,296,link,ca,button-agendar-decision,start_decision,—,—,book,/ca/agendar
+client/src/pages/start.tsx,346,link,es,link-start-home,—,—,—,home,/es
+client/src/pages/start.tsx,346,link,en,link-start-home,—,—,—,home,/en
+client/src/pages/start.tsx,346,link,fr,link-start-home,—,—,—,home,/fr
+client/src/pages/start.tsx,346,link,de,link-start-home,—,—,—,home,/de
+client/src/pages/start.tsx,346,link,pt,link-start-home,—,—,—,home,/pt
+client/src/pages/start.tsx,346,link,ca,link-start-home,—,—,—,home,/ca
+client/src/pages/start.tsx,356,link,es,link-start-cookies,—,—,—,legal_cookies,/es/legal/cookies
+client/src/pages/start.tsx,356,link,en,link-start-cookies,—,—,—,legal_cookies,/en/legal/cookies
+client/src/pages/start.tsx,356,link,fr,link-start-cookies,—,—,—,legal_cookies,/fr/legal/cookies
+client/src/pages/start.tsx,356,link,de,link-start-cookies,—,—,—,legal_cookies,/de/legal/cookies
+client/src/pages/start.tsx,356,link,pt,link-start-cookies,—,—,—,legal_cookies,/pt/legal/cookies
+client/src/pages/start.tsx,356,link,ca,link-start-cookies,—,—,—,legal_cookies,/ca/legal/cookies
+client/src/pages/start.tsx,360,link,es,link-start-privacy,—,—,—,legal_privacy,/es/legal/privacidad
+client/src/pages/start.tsx,360,link,en,link-start-privacy,—,—,—,legal_privacy,/en/legal/privacy
+client/src/pages/start.tsx,360,link,fr,link-start-privacy,—,—,—,legal_privacy,/fr/legal/confidentialite
+client/src/pages/start.tsx,360,link,de,link-start-privacy,—,—,—,legal_privacy,/de/legal/datenschutz
+client/src/pages/start.tsx,360,link,pt,link-start-privacy,—,—,—,legal_privacy,/pt/legal/privacidade
+client/src/pages/start.tsx,360,link,ca,link-start-privacy,—,—,—,legal_privacy,/ca/legal/privacitat

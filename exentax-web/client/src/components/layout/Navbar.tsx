@@ -8,7 +8,7 @@ import { SUPPORTED_LANGS, LANG_LABELS, LanguageService, type SupportedLang } fro
 import { BRAND, CONTACT } from "@/lib/constants";
 import { useLangPath } from "@/hooks/useLangPath";
 import { getLangFromPath, getEquivalentPath, resolveRoute } from "@shared/routes";
-import { trackWhatsAppClick } from "@/components/Tracking";
+import { trackCTA, trackWhatsAppClick } from "@/components/Tracking";
 import { WhatsAppIcon } from "@/components/icons";
 
 function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
@@ -388,6 +388,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
               <Link
                 href={lp("book")}
                 onMouseEnter={() => prefetchPage("book")}
+                onClick={() => trackCTA("navbar_book", lp("book"), t("nav.bookConsultation") as string)}
                 className="inline-flex items-center gap-1.5 bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-black px-4 xl:px-5 2xl:px-7 py-2 xl:py-2.5 2xl:py-3 text-[12px] xl:text-[13px] 2xl:text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-95 whitespace-nowrap"
                 data-testid="button-agendar-nav"
               >
@@ -527,7 +528,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                 href={lp("book")}
                 onMouseEnter={() => prefetchPage("book")}
                 className="flex items-center justify-center gap-2 w-full bg-[#00E510] hover:bg-[#00E510] text-[#0B0D0C] font-body font-medium px-7 py-3.5 text-[15px] rounded-full shadow-[0_10px_30px_rgba(0,229,16,0.18)] transition-[color,background-color,border-color,opacity,transform] duration-200 active:scale-[0.98]"
-                onClick={() => setMenuOpen(false)}
+                onClick={() => { trackCTA("navbar_mobile_book", lp("book"), t("nav.bookConsultation") as string); setMenuOpen(false); }}
                 data-testid="mobile-nav-agendar"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-shrink-0">

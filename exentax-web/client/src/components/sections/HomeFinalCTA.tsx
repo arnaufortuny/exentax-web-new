@@ -17,6 +17,7 @@ import { Link } from "wouter";
 import { useReveal } from "@/hooks/useReveal";
 import { useLangPath } from "@/hooks/useLangPath";
 import { CONTACT } from "@/lib/constants";
+import { trackCTA, trackWhatsAppClick } from "@/components/Tracking";
 
 export default function HomeFinalCTA() {
   const { t } = useTranslation();
@@ -56,6 +57,7 @@ export default function HomeFinalCTA() {
                 href={lp("book")}
                 className="btn-primary inline-flex items-center justify-center gap-2 rounded-full px-7 sm:px-9 py-4 text-base sm:text-lg font-semibold w-full sm:w-auto"
                 data-testid="cta-final-agendar"
+                onClick={() => trackCTA("home_final_book", lp("book"), t("homeFinalCta.ctaBook", { defaultValue: "Reservar consulta gratuita" }) as string)}
               >
                 {t("homeFinalCta.ctaBook", { defaultValue: "Reservar consulta gratuita" })}
               </Link>
@@ -65,6 +67,7 @@ export default function HomeFinalCTA() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full px-7 sm:px-9 py-4 text-base sm:text-lg font-semibold w-full sm:w-auto bg-[var(--bg-1)] text-[var(--text-1)] border border-[var(--border)] hover:bg-[var(--bg-2)] transition-colors"
                 data-testid="cta-final-whatsapp"
+                onClick={() => trackWhatsAppClick("home_final_cta")}
               >
                 {t("homeFinalCta.ctaWhatsapp", { defaultValue: "Hablar por WhatsApp" })}
               </a>

@@ -1,0 +1,4386 @@
+{
+  "i18n": {
+    "es": [
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, me interesa optimizar mi fiscalidad. He visto lo que hacéis en Exentax y me gustaría entender si una LLC tiene sentido para mi situación. ¿Podemos hablar?",
+        "line": 891
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Hola, he visto vuestro perfil de clientes y creo que encajo perfectamente. Me gustaría explorar opciones para optimizar mi fiscalidad. ¿Podemos agendar una llamada esta semana?",
+        "line": 959
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Hola, soy profesional digital y busco optimizar mi estructura fiscal de forma legal. ¿Cuándo podríamos hablar para valorar mi caso concreto?",
+        "line": 960
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, he visto cómo funciona vuestro proceso. Me gustaría empezar y saber si encajo con el perfil de clientes que buscáis. ¿Cuándo podemos hablar?",
+        "line": 1004
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, he visto por qué elegir Exentax y me convence el enfoque. Me gustaría valorar si puedo optimizar mi fiscalidad con vosotros. ¿Podemos hablar?",
+        "line": 1074
+      },
+      {
+        "key": "waText",
+        "value": "Hola Exentax, vengo de la home y quiero hablar con un asesor sobre mi caso.",
+        "line": 1102
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Hola, facturo online y busco optimizar mi estructura fiscal de forma legal. ¿Podemos agendar una llamada para explorar opciones?",
+        "line": 1150
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Hola, acabo de ver Exentax y me interesa saber si puedo optimizar mi fiscalidad. ¿Cuándo podríamos hablar?",
+        "line": 1151
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Hola, me gustaría hablar con alguien del equipo. Quiero entender si hay margen para reducir lo que pago de impuestos.",
+        "line": 1152
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He visto vuestros planes y quiero entender cuál encaja mejor con mi situación fiscal. ¿Podemos hablar?",
+        "line": 1410
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Hola. Me interesa la renovación anual de mi LLC en {{state}}. ¿Podemos hablar?",
+        "line": 1542
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He visto vuestros planes y quiero entender cuál encaja mejor con mi situación fiscal. ¿Podemos hablar?",
+        "line": 1664
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He leído cómo trabajáis y me gustaría saber cómo empezar el proceso. ¿Podemos hablar?",
+        "line": 1773
+      },
+      {
+        "key": "waText",
+        "value": "Hola, he visto cómo trabajáis y me gustaría saber si mi situación encaja. ¿Podemos hablar un momento?",
+        "line": 1814
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Hola, acabo de reservar una asesoría fiscal. ¡Quedo a la espera de la confirmación!",
+        "line": 2135
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Hola, he usado vuestra calculadora fiscal y el resultado es muy interesante: podría ahorrar {{savings}}/año. Facturo {{monthlyIncome}}/mes ({{yearlyIncome}}/año) como {{regime}} en {{country}}. ¿Podemos agendar una llamada para valorar mi caso?",
+        "line": 2205
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, me interesa la asesoría fiscal estratégica gratuita.",
+        "line": 2521
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Hola. He visto la web de Exentax y me gustaría entender si una estructura internacional tiene sentido en mi caso.",
+        "line": 2601
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Hola, estoy considerando una LLC y me gustaría saber si tiene sentido en mi situación. ¿Podemos hablar?",
+        "line": 2686
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, me gustaría elegir la estructura que mejor encaje con mi caso. ¿Podemos tener una llamada?",
+        "line": 2754
+      }
+    ],
+    "en": [
+      {
+        "key": "whatsappMsg",
+        "value": "Hi, I'd like to optimize my tax setup. I saw what you do at Exentax and want to understand whether a US LLC makes sense for my case. Got a minute to talk?",
+        "line": 890
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Hi, I think I fit the profile you describe. Can we have a quick call to see if there's room for improvement in my tax situation?",
+        "line": 944
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Hi, I'm writing because I think I fit your client profile. I'd like to understand if I can reduce my tax burden. When could we talk?",
+        "line": 945
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hi, I've seen how your process works. I'd like to start and know if I fit the profile you're looking for. When can we talk?",
+        "line": 958
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hi, I've seen why choose Exentax and I'm convinced by the approach. I'd like to explore if I can optimize my taxes with you. Can we talk?",
+        "line": 982
+      },
+      {
+        "key": "waText",
+        "value": "Hi Exentax, I come from the home page and want to talk to an advisor about my case.",
+        "line": 1005
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Hi, I'm exploring a US LLC for low-cost privacy and gold-standard asset protection — and a path into the Latin American market. Can we talk for a moment?",
+        "line": 1021
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Hi, I just saw Exentax and I'm curious: could I be paying less taxes than I do now? When could we talk for a moment?",
+        "line": 1022
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Hi, I'd like to talk to someone from the team about setting up a VC-ready US LLC with proper asset protection and ITIN, all without flying to the IRS office.",
+        "line": 1023
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Hi, I just booked a consultation. Looking forward to it!",
+        "line": 1081
+      },
+      {
+        "key": "waText",
+        "value": "Hello. I've seen your plans and want to understand which one fits my tax situation best. Can we talk?",
+        "line": 1124
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Hello. I'm interested in the annual renewal of my LLC in {{state}}. Can we talk?",
+        "line": 1216
+      },
+      {
+        "key": "waText",
+        "value": "Hello. I've seen your plans and want to understand which one fits my tax situation best. Can we talk?",
+        "line": 1248
+      },
+      {
+        "key": "waText",
+        "value": "Hello. I've read how you work and I'd like to know how to start the process. Can we talk?",
+        "line": 1334
+      },
+      {
+        "key": "waText",
+        "value": "Hello, I've seen how you work and I'd like to know if my situation is a fit. Can we chat for a moment?",
+        "line": 1364
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hello, I'd like to talk about the free strategic tax consultation.",
+        "line": 1728
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Hi, I'm considering an LLC and would like to understand if it makes sense for my situation. Can we talk?",
+        "line": 1751
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Hi. I've seen the Exentax website and I'd like to understand if an international structure makes sense for my case.",
+        "line": 1889
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Hi. I've used your tax calculator and the result is very interesting: I could save {{savings}}/year. I invoice {{monthlyIncome}}/month ({{yearlyIncome}}/year) as {{regime}} in {{country}}. Can we schedule a call to assess my case?",
+        "line": 2017
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hi, I want a US LLC with gold-standard asset protection and a clear path into the US and Latin American market. Can we jump on a call to pick the right state?",
+        "line": 2326
+      }
+    ],
+    "fr": [
+      {
+        "key": "whatsappMsg",
+        "value": "Bonjour, je souhaite optimiser ma fiscalité. J'ai vu ce que vous faites chez Exentax et j'aimerais comprendre si une LLC a du sens pour mon cas. Peut-on en parler ?",
+        "line": 892
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Bonjour, je pense correspondre au profil que vous décrivez. Pouvons-nous avoir un appel rapide pour voir s'il y a une marge d'amélioration dans ma situation fiscale ?",
+        "line": 946
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Bonjour, je vous écris car je pense correspondre au profil de vos clients. J'aimerais comprendre si je peux réduire ma charge fiscale. Quand pourrions-nous parler ?",
+        "line": 947
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Bonjour, j'ai vu comment fonctionne votre processus. J'aimerais commencer et savoir si je corresponds au profil que vous recherchez. Quand pouvons-nous parler ?",
+        "line": 960
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Bonjour, j'ai vu pourquoi choisir Exentax et je suis convaincu(e) par votre approche. J'aimerais explorer si je peux optimiser ma fiscalité avec vous. Peut-on parler ?",
+        "line": 984
+      },
+      {
+        "key": "waText",
+        "value": "Bonjour Exentax, je viens de la page d'accueil et je veux parler à un conseiller sur mon cas.",
+        "line": 1007
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Bonjour, je cherche une LLC américaine sans paperasse, avec bouclier patrimonial et accès au marché latino de Miami. Pouvons-nous en parler ?",
+        "line": 1023
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Bonjour, je viens de voir Exentax et je suis curieux : pourrais-je payer moins d'impôts ? Quand pourrions-nous en parler ?",
+        "line": 1024
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Bonjour, j'aimerais échanger avec l'équipe pour monter une LLC prête pour la levée de fonds et obtenir mon ITIN, sans passer par l'ambassade.",
+        "line": 1025
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Bonjour, je viens de réserver une consultation. J'ai hâte !",
+        "line": 1083
+      },
+      {
+        "key": "waText",
+        "value": "Bonjour. J'ai vu vos plans et je veux comprendre lequel correspond le mieux à ma situation fiscale. Pouvons-nous parler ?",
+        "line": 1126
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Bonjour. Je suis intéressé par le renouvellement annuel de ma LLC dans {{state}}. Pouvons-nous parler ?",
+        "line": 1218
+      },
+      {
+        "key": "waText",
+        "value": "Bonjour. J'ai vu vos plans et je veux comprendre lequel correspond le mieux à ma situation fiscale. Pouvons-nous parler ?",
+        "line": 1250
+      },
+      {
+        "key": "waText",
+        "value": "Bonjour. J'ai lu comment vous travaillez et j'aimerais savoir comment commencer le processus. Pouvons-nous parler ?",
+        "line": 1336
+      },
+      {
+        "key": "waText",
+        "value": "Bonjour, j'ai vu comment vous travaillez et j'aimerais savoir si ma situation correspond. Pouvons-nous discuter un moment ?",
+        "line": 1366
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Bonjour, j'aimerais parler de la consultation fiscale stratégique gratuite.",
+        "line": 1730
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Bonjour, j'envisage une LLC et j'aimerais comprendre si cela a du sens pour ma situation. Pouvons-nous en parler ?",
+        "line": 1753
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Bonjour. J'ai vu le site d'Exentax et j'aimerais savoir si une structure internationale a du sens pour mon cas.",
+        "line": 1891
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Bonjour. J'ai utilisé votre calculateur fiscal et le résultat est très intéressant : je pourrais économiser {{savings}}/an. Je facture {{monthlyIncome}}/mois ({{yearlyIncome}}/an) en tant que {{regime}} en {{country}}. Pouvons-nous planifier un appel pour évaluer mon cas ?",
+        "line": 2020
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Bonjour, je cherche une LLC américaine avec bouclier patrimonial et accès au marché latino, sans paperasse ni passage par l'ambassade. Pouvons-nous échanger pour choisir le bon État ?",
+        "line": 2329
+      }
+    ],
+    "de": [
+      {
+        "key": "whatsappMsg",
+        "value": "Hallo, ich möchte meine Steuersituation optimieren. Ich habe gesehen, was ihr bei Exentax macht, und würde gerne verstehen, ob eine LLC für meinen Fall sinnvoll ist. Können wir sprechen?",
+        "line": 891
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Hallo, ich glaube, ich passe zum Profil, das Sie beschreiben. Können wir ein kurzes Gespräch führen, um zu sehen, ob es Verbesserungsspielraum bei meiner Steuersituation gibt?",
+        "line": 945
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Hallo, ich schreibe, weil ich glaube, zum Profil Ihrer Kunden zu passen. Ich möchte verstehen, ob ich meine Steuerlast reduzieren kann. Wann könnten wir sprechen?",
+        "line": 946
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hallo, ich habe gesehen, wie euer Prozess funktioniert. Ich würde gerne anfangen und wissen, ob ich zum gesuchten Profil passe. Wann können wir sprechen?",
+        "line": 959
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hallo, ich habe gesehen, warum man Exentax wählen sollte, und bin vom Ansatz überzeugt. Ich würde gerne erkunden, ob ich mit euch meine Steuern optimieren kann. Können wir sprechen?",
+        "line": 983
+      },
+      {
+        "key": "waText",
+        "value": "Hallo Exentax, ich komme von der Startseite und möchte mit einem Berater über meinen Fall sprechen.",
+        "line": 1006
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Hallo, ich suche eine steueroptimierte US-LLC mit Vermögensschutz und Rechtssicherheit für Investoren. Können wir kurz darüber sprechen?",
+        "line": 1022
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Hallo, ich habe gerade Exentax gesehen und bin neugierig: Könnte ich weniger Steuern zahlen als jetzt? Wann könnten wir darüber sprechen?",
+        "line": 1023
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Hallo, ich möchte mit dem Team darüber sprechen, eine LLC mit Vermögensschutz nach US-Standard und ITIN zu gründen — ganz ohne Botschaftstermin.",
+        "line": 1024
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Hallo, ich habe gerade eine Beratung gebucht. Ich freue mich darauf!",
+        "line": 1082
+      },
+      {
+        "key": "waText",
+        "value": "Hallo. Ich habe Ihre Pläne gesehen und möchte verstehen, welcher am besten zu meiner Steuersituation passt. Können wir sprechen?",
+        "line": 1125
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Hallo. Ich interessiere mich für die jährliche Verlängerung meiner LLC in {{state}}. Können wir sprechen?",
+        "line": 1217
+      },
+      {
+        "key": "waText",
+        "value": "Hallo. Ich habe Ihre Pläne gesehen und möchte verstehen, welcher am besten passt. Können wir sprechen?",
+        "line": 1249
+      },
+      {
+        "key": "waText",
+        "value": "Hallo. Ich habe gelesen, wie Sie arbeiten, und möchte wissen, wie ich den Prozess starten kann. Können wir sprechen?",
+        "line": 1335
+      },
+      {
+        "key": "waText",
+        "value": "Hallo, ich habe gesehen, wie Sie arbeiten, und möchte wissen, ob meine Situation passt. Können wir kurz sprechen?",
+        "line": 1365
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hallo, ich möchte über die kostenlose strategische Steuerberatung sprechen.",
+        "line": 1729
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Hallo, ich erwäge eine LLC und würde gerne verstehen, ob das für meine Situation sinnvoll ist. Können wir darüber sprechen?",
+        "line": 1752
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Hallo. Ich habe die Exentax-Website gesehen und möchte verstehen, ob eine internationale Struktur für meinen Fall sinnvoll ist.",
+        "line": 1890
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Hallo. Ich habe Ihren Steuerrechner benutzt und das Ergebnis ist sehr interessant: Ich könnte {{savings}}/Jahr sparen. Ich fakturiere {{monthlyIncome}}/Monat ({{yearlyIncome}}/Jahr) als {{regime}} in {{country}}. Können wir eine Beratung vereinbaren, um meinen Fall zu bewerten?",
+        "line": 2019
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hallo, ich möchte eine US-LLC mit Vermögensschutz und Rechtssicherheit für Investoren, ganz ohne Botschaftstermin. Können wir telefonieren, um den passenden Bundesstaat auszuwählen?",
+        "line": 2328
+      }
+    ],
+    "pt": [
+      {
+        "key": "whatsappMsg",
+        "value": "Olá, tenho interesse em otimizar a minha situação fiscal. Vi o que fazem na Exentax e gostaria de perceber se uma LLC faz sentido para o meu caso. Podemos conversar?",
+        "line": 895
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Olá, acho que me encaixo no perfil que descrevem. Podemos fazer uma chamada rápida para ver se há espaço para melhorar minha situação fiscal?",
+        "line": 949
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Olá, escrevo porque acho que me encaixo no perfil dos seus clientes. Gostaria de entender se posso reduzir minha carga fiscal. Quando poderíamos conversar?",
+        "line": 950
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Olá, vi como funciona o vosso processo. Gostaria de começar e perceber se me encaixo no perfil que procuram. Quando podemos falar?",
+        "line": 963
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Olá, vi porque escolher a Exentax e estou convencido(a) pela abordagem. Gostaria de perceber se posso otimizar a minha fiscalidade convosco. Podemos falar?",
+        "line": 987
+      },
+      {
+        "key": "waText",
+        "value": "Olá Exentax, venho da página inicial e quero falar com um consultor sobre o meu caso.",
+        "line": 1010
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Olá, busco uma LLC com blindagem patrimonial premium e ponte para o mercado hispano de Miami, sem viajar aos EUA. Podemos conversar?",
+        "line": 1026
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Olá, acabei de ver a Exentax e estou curioso: poderia estar pagando menos impostos do que pago agora? Quando poderíamos conversar?",
+        "line": 1027
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Olá, gostaria de falar com alguém da equipa sobre montar uma LLC pronta para investidores e M&A, com ITIN tirado sem viajar aos EUA.",
+        "line": 1028
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Olá, acabei de agendar uma consultoria. Estou ansioso!",
+        "line": 1086
+      },
+      {
+        "key": "waText",
+        "value": "Olá. Vi os seus planos e quero entender qual se encaixa melhor na minha situação fiscal. Podemos conversar?",
+        "line": 1129
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Olá. Tenho interesse na renovação anual da minha LLC em {{state}}. Podemos conversar?",
+        "line": 1221
+      },
+      {
+        "key": "waText",
+        "value": "Olá. Vi os seus planos e quero entender qual se encaixa melhor. Podemos conversar?",
+        "line": 1253
+      },
+      {
+        "key": "waText",
+        "value": "Olá. Li como trabalham e gostaria de saber como iniciar o processo. Podemos conversar?",
+        "line": 1339
+      },
+      {
+        "key": "waText",
+        "value": "Olá, vi como trabalham e gostaria de saber se minha situação se encaixa. Podemos conversar um momento?",
+        "line": 1369
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Olá, gostaria de falar sobre a consultoria fiscal estratégica gratuita.",
+        "line": 1733
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Olá, estou a considerar uma LLC e gostaria de perceber se faz sentido para a minha situação. Podemos conversar?",
+        "line": 1756
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Olá. Vi o site da Exentax e gostaria de entender se uma estrutura internacional faz sentido para o meu caso.",
+        "line": 1894
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Olá. Usei a sua calculadora fiscal e o resultado é muito interessante: poderia economizar {{savings}}/ano. Fatura {{monthlyIncome}}/mês ({{yearlyIncome}}/ano) como {{regime}} em {{country}}. Podemos agendar uma chamada para avaliar o meu caso?",
+        "line": 2023
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Olá, quero uma LLC com blindagem patrimonial premium e ponte para o mercado hispano de Miami, sem viajar aos EUA. Podemos conversar para escolher a estrutura certa?",
+        "line": 2332
+      }
+    ],
+    "ca": [
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, m'interessa optimitzar la meva situació fiscal. He vist el que feu a Exentax i m'agradaria entendre si una LLC té sentit per al meu cas. Podem parlar?",
+        "line": 896
+      },
+      {
+        "key": "whatsappMsg1",
+        "value": "Hola, crec que encaixo amb el perfil que descriviu. Podem fer una trucada ràpida per veure si hi ha marge de millora en la meva situació fiscal?",
+        "line": 950
+      },
+      {
+        "key": "whatsappMsg2",
+        "value": "Hola, us escric perquè crec que encaixo amb el perfil dels vostres clients. M'agradaria entendre si puc reduir la meva càrrega fiscal. Quan podríem parlar?",
+        "line": 951
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, he vist com funciona el vostre procés. M'agradaria començar i saber si encaixo amb el perfil de clients que busqueu. Quan podem parlar?",
+        "line": 964
+      },
+      {
+        "key": "waText",
+        "value": "Hola Exentax, vinc de la pàgina d'inici i vull parlar amb un assessor sobre el meu cas.",
+        "line": 981
+      },
+      {
+        "key": "whatsappDefault",
+        "value": "Hola, busco una LLC amb cost mínim, blindatge patrimonial dels EUA i un pont català cap al mercat llatí. Podem parlar un moment?",
+        "line": 997
+      },
+      {
+        "key": "whatsappNav",
+        "value": "Hola, acabo de veure Exentax i tinc curiositat: podria pagar menys impostos del que pago ara? Quan podríem parlar un moment?",
+        "line": 998
+      },
+      {
+        "key": "whatsappFooter",
+        "value": "Hola, m'agradaria parlar amb algú de l'equip sobre muntar una LLC amb blindatge patrimonial i ITIN, sense haver de viatjar als EUA.",
+        "line": 999
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He vist els vostres plans i vull entendre quin encaixa millor amb la meva situació fiscal. Podem parlar?",
+        "line": 1256
+      },
+      {
+        "key": "waTextRenewal",
+        "value": "Hola. M'interessa la renovació anual de la meva LLC a {{state}}. Podem parlar?",
+        "line": 1348
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He vist els vostres plans i vull entendre quin encaixa millor amb la meva situació fiscal. Podem parlar?",
+        "line": 1380
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, he vist per què triar Exentax i em convenç l'enfocament. M'agradaria valorar si puc optimitzar la meva fiscalitat amb vosaltres. Podem parlar?",
+        "line": 1396
+      },
+      {
+        "key": "waText",
+        "value": "Hola. He llegit com treballeu i m'agradaria saber com començar el procés. Podem parlar?",
+        "line": 1496
+      },
+      {
+        "key": "waText",
+        "value": "Hola, he vist com treballeu i m'agradaria saber si la meva situació encaixa. Podem parlar un moment?",
+        "line": 1526
+      },
+      {
+        "key": "whatsappConfirmMsg",
+        "value": "Hola, acabo de reservar una consulta. Estic desitjant que arribi!",
+        "line": 1713
+      },
+      {
+        "key": "whatsappMessage",
+        "value": "Hola. He calculat que podria estalviar {{savings}}/any en impostos. Facturo {{monthlyIncome}}/mes brut ({{yearlyIncome}}/any) com a {{regime}} a {{country}}. M'agradaria parlar per veure si s'aplica al meu cas.",
+        "line": 1783
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, m'agradaria parlar sobre la consulta fiscal estratègica gratuïta.",
+        "line": 2100
+      },
+      {
+        "key": "ctaWhatsappMsg",
+        "value": "Hola, estic considerant una LLC i m'agradaria entendre si té sentit per a la meva situació. Podem parlar?",
+        "line": 2123
+      },
+      {
+        "key": "waDefaultMsg",
+        "value": "Hola. He vist el web d'Exentax i m'agradaria entendre si una estructura internacional té sentit per al meu cas.",
+        "line": 2261
+      },
+      {
+        "key": "whatsappMsg",
+        "value": "Hola, vull una LLC amb blindatge patrimonial dels EUA i pont cap al mercat llatí, sense haver de viatjar. Podem parlar per triar l'estat adequat?",
+        "line": 2333
+      }
+    ]
+  },
+  "blog": {
+    "book_consultation": {
+      "es": {
+        "value": "Hola, estoy considerando una LLC y me gustaría saber si tiene sentido en mi situación. ¿Podemos hablar?",
+        "line": 55
+      },
+      "en": {
+        "value": "Hi, I'm considering a US LLC and I'd like to know if it makes sense for my situation. Can we talk?",
+        "line": 61
+      },
+      "fr": {
+        "value": "Bonjour, j'envisage une LLC américaine et j'aimerais savoir si cela a du sens pour ma situation. Pouvons-nous en parler ?",
+        "line": 67
+      },
+      "de": {
+        "value": "Hallo, ich überlege, eine US-LLC zu gründen, und möchte wissen, ob das zu meiner Situation passt. Können wir sprechen?",
+        "line": 73
+      },
+      "pt": {
+        "value": "Olá, estou a considerar uma LLC americana e gostaria de saber se faz sentido para a minha situação. Podemos falar?",
+        "line": 79
+      },
+      "ca": {
+        "value": "Hola, estic considerant una LLC americana i m'agradaria saber si té sentit en la meva situació. Podem parlar?",
+        "line": 85
+      }
+    },
+    "llc_florida_specific": {
+      "es": {
+        "value": "Hola, quiero abrir una LLC en Florida. ¿Podemos hablar?",
+        "line": 94
+      },
+      "en": {
+        "value": "Hi, I want to open a Florida LLC. Can we talk?",
+        "line": 100
+      },
+      "fr": {
+        "value": "Bonjour, je souhaite ouvrir une LLC en Floride. Pouvons-nous en parler ?",
+        "line": 106
+      },
+      "de": {
+        "value": "Hallo, ich möchte eine LLC in Florida eröffnen. Können wir sprechen?",
+        "line": 112
+      },
+      "pt": {
+        "value": "Olá, quero abrir uma LLC na Florida. Podemos falar?",
+        "line": 118
+      },
+      "ca": {
+        "value": "Hola, vull obrir una LLC a Florida. Podem parlar?",
+        "line": 124
+      }
+    },
+    "llc_state_compare": {
+      "es": {
+        "value": "Hola, dudo entre varios estados para mi LLC y me gustaría una comparativa para mi caso. ¿Podemos hablar?",
+        "line": 133
+      },
+      "en": {
+        "value": "Hi, I'm hesitating between several US states for my LLC and would love a tailored comparison. Can we talk?",
+        "line": 139
+      },
+      "fr": {
+        "value": "Bonjour, j'hésite entre plusieurs États pour ma LLC et j'aimerais une comparaison adaptée à mon cas. Pouvons-nous en parler ?",
+        "line": 145
+      },
+      "de": {
+        "value": "Hallo, ich schwanke zwischen mehreren US-Bundesstaaten für meine LLC und hätte gern einen Vergleich für meinen Fall. Können wir sprechen?",
+        "line": 151
+      },
+      "pt": {
+        "value": "Olá, estou em dúvida entre vários estados para a minha LLC e gostaria de uma comparação para o meu caso. Podemos falar?",
+        "line": 157
+      },
+      "ca": {
+        "value": "Hola, dubto entre diversos estats per a la meva LLC i m'agradaria una comparativa per al meu cas. Podem parlar?",
+        "line": 163
+      }
+    },
+    "itin_help": {
+      "es": {
+        "value": "Hola, necesito tramitar mi ITIN. ¿Podemos hablar?",
+        "line": 172
+      },
+      "en": {
+        "value": "Hi, I need to apply for my ITIN. Can we talk?",
+        "line": 178
+      },
+      "fr": {
+        "value": "Bonjour, j'ai besoin de demander mon ITIN. Pouvons-nous en parler ?",
+        "line": 184
+      },
+      "de": {
+        "value": "Hallo, ich muss meine ITIN beantragen. Können wir sprechen?",
+        "line": 190
+      },
+      "pt": {
+        "value": "Olá, preciso de pedir o meu ITIN. Podemos falar?",
+        "line": 196
+      },
+      "ca": {
+        "value": "Hola, necessito tramitar el meu ITIN. Podem parlar?",
+        "line": 202
+      }
+    },
+    "services_overview": {
+      "es": {
+        "value": "Hola, me gustaría entender cómo es vuestro proceso de constitución y mantenimiento de LLC. ¿Podemos hablar?",
+        "line": 211
+      },
+      "en": {
+        "value": "Hi, I'd like to understand how your LLC formation and maintenance process works. Can we talk?",
+        "line": 217
+      },
+      "fr": {
+        "value": "Bonjour, j'aimerais comprendre votre processus de création et de maintenance de LLC. Pouvons-nous en parler ?",
+        "line": 223
+      },
+      "de": {
+        "value": "Hallo, ich möchte verstehen, wie Ihr LLC-Gründungs- und Betriebsprozess funktioniert. Können wir sprechen?",
+        "line": 229
+      },
+      "pt": {
+        "value": "Olá, gostaria de perceber como é o vosso processo de constituição e manutenção de LLC. Podemos falar?",
+        "line": 235
+      },
+      "ca": {
+        "value": "Hola, m'agradaria entendre com és el vostre procés de constitució i manteniment de LLC. Podem parlar?",
+        "line": 241
+      }
+    },
+    "compliance_checkup": {
+      "es": {
+        "value": "Hola, quiero revisar el compliance (BOI, agente registrado, obligaciones federales) de mi LLC. ¿Podemos hablar?",
+        "line": 250
+      },
+      "en": {
+        "value": "Hi, I want to review my LLC compliance (BOI, registered agent, federal obligations). Can we talk?",
+        "line": 256
+      },
+      "fr": {
+        "value": "Bonjour, je souhaite faire le point sur la conformité (BOI, agent enregistré, obligations fédérales) de ma LLC. Pouvons-nous en parler ?",
+        "line": 262
+      },
+      "de": {
+        "value": "Hallo, ich möchte die Compliance meiner LLC (BOI, Registered Agent, Bundespflichten) überprüfen. Können wir sprechen?",
+        "line": 268
+      },
+      "pt": {
+        "value": "Olá, quero rever a compliance (BOI, agente registado, obrigações federais) da minha LLC. Podemos falar?",
+        "line": 274
+      },
+      "ca": {
+        "value": "Hola, vull revisar el compliance (BOI, agent registrat, obligacions federals) de la meva LLC. Podem parlar?",
+        "line": 280
+      }
+    }
+  },
+  "whatsappNumber": {
+    "canonical": "34614916910",
+    "totalHits": 721,
+    "mismatchHits": 0,
+    "hits": [
+      {
+        "file": "client/src/data/blog-content/ca/amazon-ecommerce-llc-vender-online.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 247,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 196,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/boi-report-fincen-guia-completa-2026.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/bookkeeping-llc-paso-a-paso.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/caminos-legales-minimos-impuestos.ts",
+        "line": 234,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 257,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/como-operar-llc-dia-a-dia.ts",
+        "line": 274,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 282,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/crear-empresa-andorra-ventajas.ts",
+        "line": 225,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/criptomonedas-trading-llc-impuestos.ts",
+        "line": 152,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 154,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 202,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cuanto-cuesta-constituir-llc.ts",
+        "line": 256,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 285,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cuota-autonomo-2026.ts",
+        "line": 81,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 129,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 145,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 281,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/documentar-separacion-fondos-llc-historial.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/documentos-llc-cuales-necesitas.ts",
+        "line": 170,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/dubai-uae-mito-no-impuestos.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/due-diligence-bancario-llc-americana.ts",
+        "line": 180,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 164,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/empresa-bulgaria-10-tributacion.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/empresa-panama-fiscalidad-residencia.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/empresa-reino-unido-uk-ltd.ts",
+        "line": 236,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/errores-criticos-llc-ya-constituida.ts",
+        "line": 257,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/errores-fiscales-freelancers-espanoles.ts",
+        "line": 227,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/escalar-negocio-digital-llc-americana.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 195,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/estructura-offshore-beneficios-riesgos.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 162,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 299,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/fiscalidad-estonia-como-funciona.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 217,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/form-5472-que-es-como-presentarlo.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/gastos-deducibles-autonomos-2026.ts",
+        "line": 131,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/holding-empresarial-como-funciona.ts",
+        "line": 235,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/hong-kong-offshore-realidad.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/iban-swift-routing-number-que-son.ts",
+        "line": 195,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/impuestos-clientes-internacionales-espana.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/iva-intracomunitario-servicios-europa.ts",
+        "line": 120,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/iva-servicios-digitales-internacional.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-agencias-marketing-digital.ts",
+        "line": 172,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-alternativa-autonomo-espana.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 160,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-desarrolladores-software-saas.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 206,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 161,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 196,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 274,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/modulos-vs-estimacion-directa-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/nomada-digital-residencia-fiscal.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/operating-agreement-llc-que-es.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 227,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 263,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/por-que-no-abrir-empresa-estonia.ts",
+        "line": 288,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/prevencion-blanqueo-capitales-llc.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/primer-mes-llc-que-esperar.ts",
+        "line": 175,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/que-es-irs-guia-duenos-llc.ts",
+        "line": 216,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 237,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/residentes-no-residentes-llc-diferencias.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/retenciones-irpf-factura.ts",
+        "line": 148,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/revolut-business-crs-reporting-fiscal.ts",
+        "line": 256,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 348,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 244,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 143,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 267,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/tramos-irpf-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/tributacion-llc-segun-actividad-economica.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 215,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 262,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 348,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 311,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/wise-business-crs-reporting-fiscal.ts",
+        "line": 176,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/wise-business-llc-guia.ts",
+        "line": 383,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/ca/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 222,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/amazon-ecommerce-llc-vender-online.ts",
+        "line": 227,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 247,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 266,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 230,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/boi-report-fincen-guia-completa-2026.ts",
+        "line": 227,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/bookkeeping-llc-paso-a-paso.ts",
+        "line": 230,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 263,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/caminos-legales-minimos-impuestos.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 317,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 270,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/como-operar-llc-dia-a-dia.ts",
+        "line": 311,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 241,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 326,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/crear-empresa-andorra-ventajas.ts",
+        "line": 266,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/criptomonedas-trading-llc-impuestos.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 237,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cuanto-cuesta-constituir-llc.ts",
+        "line": 283,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 335,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 240,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cuota-autonomo-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 137,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 200,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 254,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 155,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 324,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/documentar-separacion-fondos-llc-historial.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/documentos-llc-cuales-necesitas.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/dubai-uae-mito-no-impuestos.ts",
+        "line": 241,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/due-diligence-bancario-llc-americana.ts",
+        "line": 175,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/empresa-bulgaria-10-tributacion.ts",
+        "line": 273,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/empresa-panama-fiscalidad-residencia.ts",
+        "line": 223,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/empresa-reino-unido-uk-ltd.ts",
+        "line": 264,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/errores-criticos-llc-ya-constituida.ts",
+        "line": 310,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/errores-fiscales-freelancers-espanoles.ts",
+        "line": 254,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/escalar-negocio-digital-llc-americana.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 231,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/estructura-offshore-beneficios-riesgos.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 335,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 217,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/fiscalidad-estonia-como-funciona.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 289,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/form-5472-que-es-como-presentarlo.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/gastos-deducibles-autonomos-2026.ts",
+        "line": 148,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 300,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/holding-empresarial-como-funciona.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/hong-kong-offshore-realidad.ts",
+        "line": 225,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/iban-swift-routing-number-que-son.ts",
+        "line": 248,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/impuestos-clientes-internacionales-espana.ts",
+        "line": 217,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 202,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/iva-intracomunitario-servicios-europa.ts",
+        "line": 132,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/iva-servicios-digitales-internacional.ts",
+        "line": 202,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 289,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-agencias-marketing-digital.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-alternativa-autonomo-espana.ts",
+        "line": 290,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 204,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-desarrolladores-software-saas.ts",
+        "line": 226,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 290,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 225,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 173,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 332,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/modulos-vs-estimacion-directa-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/nomada-digital-residencia-fiscal.ts",
+        "line": 335,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 234,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/operating-agreement-llc-que-es.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 262,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/por-que-no-abrir-empresa-estonia.ts",
+        "line": 278,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/prevencion-blanqueo-capitales-llc.ts",
+        "line": 235,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/primer-mes-llc-que-esperar.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 261,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/que-es-irs-guia-duenos-llc.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 287,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 261,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 204,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 315,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/residentes-no-residentes-llc-diferencias.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/retenciones-irpf-factura.ts",
+        "line": 164,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/revolut-business-crs-reporting-fiscal.ts",
+        "line": 306,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 366,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 268,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 148,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 320,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/tramos-irpf-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/tributacion-llc-segun-actividad-economica.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 274,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 236,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 320,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 444,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 372,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/wise-business-crs-reporting-fiscal.ts",
+        "line": 174,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/wise-business-llc-guia.ts",
+        "line": 472,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/de/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 287,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/amazon-ecommerce-llc-vender-online.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 250,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 240,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/boi-report-fincen-guia-completa-2026.ts",
+        "line": 231,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/bookkeeping-llc-paso-a-paso.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/caminos-legales-minimos-impuestos.ts",
+        "line": 238,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 256,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 210,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/como-operar-llc-dia-a-dia.ts",
+        "line": 337,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 230,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 252,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/crear-empresa-andorra-ventajas.ts",
+        "line": 234,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/criptomonedas-trading-llc-impuestos.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 154,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cuanto-cuesta-constituir-llc.ts",
+        "line": 256,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 326,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cuota-autonomo-2026.ts",
+        "line": 87,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 137,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 228,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 142,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 287,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/documentar-separacion-fondos-llc-historial.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/documentos-llc-cuales-necesitas.ts",
+        "line": 180,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/dubai-uae-mito-no-impuestos.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/due-diligence-bancario-llc-americana.ts",
+        "line": 202,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/empresa-bulgaria-10-tributacion.ts",
+        "line": 223,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/empresa-panama-fiscalidad-residencia.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/empresa-reino-unido-uk-ltd.ts",
+        "line": 234,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/errores-criticos-llc-ya-constituida.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/errores-fiscales-freelancers-espanoles.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/escalar-negocio-digital-llc-americana.ts",
+        "line": 204,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/estructura-offshore-beneficios-riesgos.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 324,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/fiscalidad-estonia-como-funciona.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 247,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/form-5472-que-es-como-presentarlo.ts",
+        "line": 196,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/gastos-deducibles-autonomos-2026.ts",
+        "line": 138,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 300,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/holding-empresarial-como-funciona.ts",
+        "line": 233,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/hong-kong-offshore-realidad.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/iban-swift-routing-number-que-son.ts",
+        "line": 223,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/impuestos-clientes-internacionales-espana.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 216,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/iva-intracomunitario-servicios-europa.ts",
+        "line": 126,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/iva-servicios-digitales-internacional.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-agencias-marketing-digital.ts",
+        "line": 217,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-alternativa-autonomo-espana.ts",
+        "line": 249,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-desarrolladores-software-saas.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 234,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 180,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 215,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/modulos-vs-estimacion-directa-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/nomada-digital-residencia-fiscal.ts",
+        "line": 276,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 294,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/operating-agreement-llc-que-es.ts",
+        "line": 229,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 263,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 238,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 282,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/por-que-no-abrir-empresa-estonia.ts",
+        "line": 300,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/prevencion-blanqueo-capitales-llc.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/primer-mes-llc-que-esperar.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 249,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/que-es-irs-guia-duenos-llc.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 229,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 200,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 270,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/residentes-no-residentes-llc-diferencias.ts",
+        "line": 180,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/retenciones-irpf-factura.ts",
+        "line": 148,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/revolut-business-crs-reporting-fiscal.ts",
+        "line": 258,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 397,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 238,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 129,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 265,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/tramos-irpf-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/tributacion-llc-segun-actividad-economica.ts",
+        "line": 166,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 231,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 252,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 330,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 260,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/wise-business-crs-reporting-fiscal.ts",
+        "line": 173,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/wise-business-llc-guia.ts",
+        "line": 590,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/en/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/amazon-ecommerce-llc-vender-online.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/boi-report-fincen-guia-completa-2026.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/bookkeeping-llc-paso-a-paso.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/caminos-legales-minimos-impuestos.ts",
+        "line": 233,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 235,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/como-operar-llc-dia-a-dia.ts",
+        "line": 260,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 244,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/crear-empresa-andorra-ventajas.ts",
+        "line": 224,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/criptomonedas-trading-llc-impuestos.ts",
+        "line": 148,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 142,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 196,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 176,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cuanto-cuesta-constituir-llc.ts",
+        "line": 248,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 272,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cuota-autonomo-2026.ts",
+        "line": 104,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 123,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 174,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 156,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 133,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/documentar-separacion-fondos-llc-historial.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/documentos-llc-cuales-necesitas.ts",
+        "line": 172,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/dubai-uae-mito-no-impuestos.ts",
+        "line": 206,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/due-diligence-bancario-llc-americana.ts",
+        "line": 166,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 165,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/empresa-bulgaria-10-tributacion.ts",
+        "line": 222,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/empresa-panama-fiscalidad-residencia.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/empresa-reino-unido-uk-ltd.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/errores-criticos-llc-ya-constituida.ts",
+        "line": 244,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/errores-fiscales-freelancers-espanoles.ts",
+        "line": 226,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/escalar-negocio-digital-llc-americana.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/estructura-offshore-beneficios-riesgos.ts",
+        "line": 208,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 162,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 304,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 175,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 129,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/fiscalidad-estonia-como-funciona.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/form-5472-que-es-como-presentarlo.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/gastos-deducibles-autonomos-2026.ts",
+        "line": 155,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 237,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/holding-empresarial-como-funciona.ts",
+        "line": 223,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/hong-kong-offshore-realidad.ts",
+        "line": 200,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/iban-swift-routing-number-que-son.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/impuestos-clientes-internacionales-espana.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/iva-intracomunitario-servicios-europa.ts",
+        "line": 143,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/iva-servicios-digitales-internacional.ts",
+        "line": 170,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-agencias-marketing-digital.ts",
+        "line": 169,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-alternativa-autonomo-espana.ts",
+        "line": 240,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 162,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-desarrolladores-software-saas.ts",
+        "line": 174,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 225,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 176,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 161,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/modulos-vs-estimacion-directa-2026.ts",
+        "line": 105,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/nomada-digital-residencia-fiscal.ts",
+        "line": 267,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/operating-agreement-llc-que-es.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 210,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/por-que-no-abrir-empresa-estonia.ts",
+        "line": 273,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/prevencion-blanqueo-capitales-llc.ts",
+        "line": 168,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/primer-mes-llc-que-esperar.ts",
+        "line": 170,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/que-es-irs-guia-duenos-llc.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/residentes-no-residentes-llc-diferencias.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/retenciones-irpf-factura.ts",
+        "line": 171,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/revolut-business-crs-reporting-fiscal.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 162,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 322,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 206,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 250,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/tramos-irpf-2026.ts",
+        "line": 129,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/tributacion-llc-segun-actividad-economica.ts",
+        "line": 156,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 210,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 233,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 244,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/wise-business-crs-reporting-fiscal.ts",
+        "line": 165,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/wise-business-llc-guia.ts",
+        "line": 237,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/es/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/amazon-ecommerce-llc-vender-online.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 251,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/boi-report-fincen-guia-completa-2026.ts",
+        "line": 200,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/bookkeeping-llc-paso-a-paso.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 206,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/caminos-legales-minimos-impuestos.ts",
+        "line": 221,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 268,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/como-operar-llc-dia-a-dia.ts",
+        "line": 260,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 288,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/crear-empresa-andorra-ventajas.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/criptomonedas-trading-llc-impuestos.ts",
+        "line": 144,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 154,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cuanto-cuesta-constituir-llc.ts",
+        "line": 255,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 279,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cuota-autonomo-2026.ts",
+        "line": 81,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 123,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 143,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 274,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/documentar-separacion-fondos-llc-historial.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/documentos-llc-cuales-necesitas.ts",
+        "line": 166,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/dubai-uae-mito-no-impuestos.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/due-diligence-bancario-llc-americana.ts",
+        "line": 174,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 158,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/empresa-bulgaria-10-tributacion.ts",
+        "line": 226,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/empresa-panama-fiscalidad-residencia.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/empresa-reino-unido-uk-ltd.ts",
+        "line": 236,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/errores-criticos-llc-ya-constituida.ts",
+        "line": 245,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/errores-fiscales-freelancers-espanoles.ts",
+        "line": 222,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/escalar-negocio-digital-llc-americana.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/estructura-offshore-beneficios-riesgos.ts",
+        "line": 217,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 165,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 297,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 173,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/fiscalidad-estonia-como-funciona.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 177,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 226,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/form-5472-que-es-como-presentarlo.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/gastos-deducibles-autonomos-2026.ts",
+        "line": 126,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 240,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/holding-empresarial-como-funciona.ts",
+        "line": 226,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/hong-kong-offshore-realidad.ts",
+        "line": 203,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/iban-swift-routing-number-que-son.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/impuestos-clientes-internacionales-espana.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/iva-intracomunitario-servicios-europa.ts",
+        "line": 114,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/iva-servicios-digitales-internacional.ts",
+        "line": 182,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-agencias-marketing-digital.ts",
+        "line": 176,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-alternativa-autonomo-espana.ts",
+        "line": 258,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 163,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-desarrolladores-software-saas.ts",
+        "line": 180,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 237,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 155,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 196,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 253,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/modulos-vs-estimacion-directa-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/nomada-digital-residencia-fiscal.ts",
+        "line": 267,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 204,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/operating-agreement-llc-que-es.ts",
+        "line": 189,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 249,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/por-que-no-abrir-empresa-estonia.ts",
+        "line": 249,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/prevencion-blanqueo-capitales-llc.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/primer-mes-llc-que-esperar.ts",
+        "line": 169,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/que-es-irs-guia-duenos-llc.ts",
+        "line": 211,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 231,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 271,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/residentes-no-residentes-llc-diferencias.ts",
+        "line": 186,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/retenciones-irpf-factura.ts",
+        "line": 142,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/revolut-business-crs-reporting-fiscal.ts",
+        "line": 245,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 339,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 250,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 144,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 261,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 208,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/tramos-irpf-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/tributacion-llc-segun-actividad-economica.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 215,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 245,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 218,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 252,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 388,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 287,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/wise-business-crs-reporting-fiscal.ts",
+        "line": 175,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/wise-business-llc-guia.ts",
+        "line": 388,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/fr/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 222,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/amazon-ecommerce-llc-vender-online.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/auditoria-rapida-llc-12-puntos-30-minutos.ts",
+        "line": 229,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/autonomo-espana-vs-llc-estados-unidos.ts",
+        "line": 242,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/autonomos-espana-por-que-dejar-de-serlo.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/bancos-vs-fintech-llc-donde-abrir-cuenta.ts",
+        "line": 190,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/boe-febrero-2020-llc-doctrina-administrativa.ts",
+        "line": 216,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/boi-report-fincen-guia-completa-2026.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/bookkeeping-llc-paso-a-paso.ts",
+        "line": 215,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cambiar-divisas-llc-mejores-opciones.ts",
+        "line": 191,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/caminos-legales-minimos-impuestos.ts",
+        "line": 240,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/como-disolver-cerrar-llc-paso-a-paso.ts",
+        "line": 266,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/como-obtener-itin-numero-fiscal-irs.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/como-operar-llc-dia-a-dia.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/constituir-llc-proceso-paso-a-paso.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/convenio-doble-imposicion-usa-espana-llc.ts",
+        "line": 296,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/crear-empresa-andorra-ventajas.ts",
+        "line": 223,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/criptomonedas-trading-llc-impuestos.ts",
+        "line": 158,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/crs-2-0-carf-por-que-usa-no-firmara-llc.ts",
+        "line": 154,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/crs-cuentas-bancarias-llc-intercambio-informacion.ts",
+        "line": 202,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/crs-residentes-espana-latam-implicaciones.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cuanto-cuesta-constituir-llc.ts",
+        "line": 257,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cuenta-bancaria-mercury-llc-extranjero.ts",
+        "line": 285,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cuentas-bancarias-usa-reportan-hacienda-verdad.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cuota-autonomo-2026.ts",
+        "line": 81,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/cuotas-autonomos-2026-guia-completa.ts",
+        "line": 135,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/dac7-plataformas-digitales-reporting-2026.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/dac8-criptomonedas-reporting-fiscal-2026.ts",
+        "line": 219,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/diferencia-llc-corporation-s-corp-c-corp.ts",
+        "line": 149,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/diseno-estructura-fiscal-internacional-solida.ts",
+        "line": 279,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/documentar-separacion-fondos-llc-historial.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/documentos-llc-cuales-necesitas.ts",
+        "line": 170,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/dubai-uae-mito-no-impuestos.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/due-diligence-bancario-llc-americana.ts",
+        "line": 174,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/ein-numero-fiscal-llc-como-obtenerlo.ts",
+        "line": 164,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/empresa-bulgaria-10-tributacion.ts",
+        "line": 225,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/empresa-panama-fiscalidad-residencia.ts",
+        "line": 193,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/empresa-reino-unido-uk-ltd.ts",
+        "line": 236,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/errores-criticos-llc-ya-constituida.ts",
+        "line": 257,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/errores-fiscales-freelancers-espanoles.ts",
+        "line": 233,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/escalar-negocio-digital-llc-americana.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/estructura-fiscal-optima-freelancer-internacional.ts",
+        "line": 195,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/estructura-offshore-beneficios-riesgos.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/evitar-bloqueos-mercury-wise-revolut.ts",
+        "line": 165,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/exit-tax-espana-llc-cripto-interactive-brokers.ts",
+        "line": 303,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/extension-irs-form-1120-como-solicitarla.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/facturar-sin-ser-autonomo-alternativas-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/fiscalidad-estonia-como-funciona.ts",
+        "line": 207,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/fiscalidad-internacional-emprendedores-digitales.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/fiscalidad-llc-por-pais-residencia.ts",
+        "line": 194,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/fiscalidad-socios-llc-cambio-residencia-mid-year.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/form-5472-que-es-como-presentarlo.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/gastos-deducibles-autonomos-2026.ts",
+        "line": 132,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/gastos-deducibles-llc-que-puedes-deducir.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/holding-empresarial-como-funciona.ts",
+        "line": 233,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/hong-kong-offshore-realidad.ts",
+        "line": 199,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/iban-swift-routing-number-que-son.ts",
+        "line": 201,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/impuestos-clientes-internacionales-espana.ts",
+        "line": 187,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/irs-1120-5472-que-son-cuando-aplican.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/itin-ssn-que-son-como-obtenerlos.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/iva-intracomunitario-servicios-europa.ts",
+        "line": 120,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/iva-servicios-digitales-internacional.ts",
+        "line": 205,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/justificar-origen-fondos-kyc-bancario-segunda-ronda.ts",
+        "line": 258,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-agencias-marketing-digital.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-alternativa-autonomo-espana.ts",
+        "line": 275,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-creadores-contenido-youtube-twitch.ts",
+        "line": 169,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-desarrolladores-software-saas.ts",
+        "line": 181,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-estados-unidos-guia-completa-2026.ts",
+        "line": 206,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-interactive-brokers-invertir-bolsa-usa.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais.ts",
+        "line": 209,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-seguridad-juridica-proteccion-patrimonial.ts",
+        "line": 166,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/llc-unica-estructura-holding-cuando-como-cuesta.ts",
+        "line": 198,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/mantenimiento-anual-llc-obligaciones.ts",
+        "line": 197,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/modelo-720-721-residentes-espana-cuentas-cripto-extranjero.ts",
+        "line": 291,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/modulos-vs-estimacion-directa-2026.ts",
+        "line": 73,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/nomada-digital-residencia-fiscal.ts",
+        "line": 283,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/nuevo-mexico-vs-wyoming-vs-delaware.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/operating-agreement-llc-que-es.ts",
+        "line": 183,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/pagar-cero-impuestos-legalmente-llc.ts",
+        "line": 213,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/pasarelas-pago-llc-stripe-paypal-dodo.ts",
+        "line": 230,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/por-que-abrir-llc-estados-unidos-ventajas.ts",
+        "line": 264,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/por-que-no-abrir-empresa-estonia.ts",
+        "line": 288,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/prevencion-blanqueo-capitales-llc.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/primer-mes-llc-que-esperar.ts",
+        "line": 179,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/privacidad-llc-americana-secreto-ventaja.ts",
+        "line": 185,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/problemas-comunes-llc-como-evitarlos.ts",
+        "line": 230,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/que-es-irs-guia-duenos-llc.ts",
+        "line": 216,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/que-pasa-si-no-presentas-5472-multas-irs.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/recuperar-llc-boi-5472-atrasados-procedimiento.ts",
+        "line": 220,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/registered-agent-que-es-por-que-necesitas.ts",
+        "line": 188,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/reorganizar-banca-llc-mercury-relay-wise.ts",
+        "line": 279,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/residentes-no-residentes-llc-diferencias.ts",
+        "line": 192,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/retenciones-irpf-factura.ts",
+        "line": 142,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/revolut-business-crs-reporting-fiscal.ts",
+        "line": 254,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/riesgos-fiscales-mala-estructuracion-internacional.ts",
+        "line": 178,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/separar-dinero-personal-llc-por-que-importa.ts",
+        "line": 347,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/single-member-multi-member-llc-implicaciones-fiscales.ts",
+        "line": 244,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/sociedad-limitada-espana-costes-ventajas.ts",
+        "line": 139,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/tengo-llc-checklist-gestion-correcta.ts",
+        "line": 267,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/testaferros-prestanombres-llc-ilegal-riesgos.ts",
+        "line": 214,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/tiempos-pagos-ach-wire-transfer.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/tramos-irpf-2026.ts",
+        "line": 72,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/tributacion-llc-segun-actividad-economica.ts",
+        "line": 184,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/tributacion-pass-through-llc-como-funciona.ts",
+        "line": 215,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/vender-o-cerrar-llc-comparativa-practica.ts",
+        "line": 246,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/ventajas-desventajas-llc-no-residentes.ts",
+        "line": 212,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/visa-mastercard-reporting-tarjetas-hacienda.ts",
+        "line": 274,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/w8-ben-y-w8-ben-e-guia-completa.ts",
+        "line": 402,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/wise-bancos-llc-stack-bancaria-completa.ts",
+        "line": 336,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/wise-business-crs-reporting-fiscal.ts",
+        "line": 176,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/wise-business-llc-guia.ts",
+        "line": 392,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/data/blog-content/pt/wise-iban-llc-que-reporta-hacienda.ts",
+        "line": 222,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1134,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1135,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1136,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1137,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1138,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1139,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1140,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/ca.ts",
+        "line": 1141,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1672,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1673,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1674,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1675,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1676,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1677,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1678,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/de.ts",
+        "line": 1679,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1671,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1672,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1673,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1674,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1675,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1676,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1677,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/en.ts",
+        "line": 1678,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1287,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1288,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1289,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1290,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1291,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1292,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1293,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/es.ts",
+        "line": 1294,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1673,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1674,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1675,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1676,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1677,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1678,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1679,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/fr.ts",
+        "line": 1680,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1676,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1677,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1678,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1679,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1680,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1681,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1682,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/i18n/locales/pt.ts",
+        "line": 1683,
+        "number": "34614916910"
+      },
+      {
+        "file": "client/src/lib/constants.ts",
+        "line": 10,
+        "number": "34614916910"
+      }
+    ]
+  }
+}

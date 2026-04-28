@@ -1,0 +1,24 @@
+{
+  "base": "http://localhost:5000",
+  "locales": [
+    "es",
+    "en",
+    "fr",
+    "de",
+    "pt",
+    "ca"
+  ],
+  "routeKeyCount": 17,
+  "discoveredRouteKeyCount": 6,
+  "discoveredAbsoluteCount": 0,
+  "blogSlugCounts": {
+    "es": 112,
+    "en": 112,
+    "fr": 112,
+    "de": 112,
+    "pt": 112,
+    "ca": 112
+  },
+  "httpChecked": 126,
+  "findings": []
+}

@@ -6,7 +6,7 @@ import { useLangPath } from "@/hooks/useLangPath";
 import { useFaqSections, extractText } from "./faq-data";
 import FaqAccordionList from "./FaqAccordionList";
 import { CONTACT } from "@/lib/constants";
-import { trackWhatsAppClick } from "@/components/Tracking";
+import { trackCTA, trackWhatsAppClick } from "@/components/Tracking";
 
 
 const ALL_CATEGORY = "all";
@@ -254,9 +254,10 @@ export default function FAQ({ asPage = false }: { asPage?: boolean } = {}) {
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
                     <Link
-                      href={lp("booking")}
+                      href={lp("book")}
                       className="inline-flex items-center justify-center btn-primary px-8 py-3.5 text-base rounded-full whitespace-nowrap w-full sm:w-auto"
                       data-testid="button-faq-final-cta-booking"
+                      onClick={() => trackCTA("faq_final_book", lp("book"), t("faqUI.finalCta.button") as string)}
                     >
                       {t("faqUI.finalCta.button")}
                     </Link>

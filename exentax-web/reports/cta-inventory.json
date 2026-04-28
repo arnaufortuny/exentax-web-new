@@ -1,0 +1,659 @@
+[
+  {
+    "file": "client/src/components/blog/ArticleCTA.tsx",
+    "line": 135,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "—",
+    "tracking": "${pattern ?? "
+  },
+  {
+    "file": "client/src/components/blog/ArticleCTA.tsx",
+    "line": 153,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "—",
+    "tracking": "${pattern ?? "
+  },
+  {
+    "file": "client/src/components/BookingCalendar.tsx",
+    "line": 413,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"booking.whatsappConfirmMsg\")}",
+    "testid": "—",
+    "tracking": "booking_success"
+  },
+  {
+    "file": "client/src/components/BookingCalendar.tsx",
+    "line": 774,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"booking.whatsappConfirmMsg\")}",
+    "testid": "—",
+    "tracking": "booking_form"
+  },
+  {
+    "file": "client/src/components/CookieBanner.tsx",
+    "line": 161,
+    "type": "link",
+    "label": "—",
+    "destination": "legal_cookies",
+    "testid": "—",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/components/layout/FloatingMobileCTA.tsx",
+    "line": 65,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-floating-cta",
+    "tracking": "floating_mobile_book"
+  },
+  {
+    "file": "client/src/components/layout/Footer.tsx",
+    "line": 79,
+    "type": "link",
+    "label": "—",
+    "destination": "legal_privacy",
+    "testid": "—",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/components/layout/Footer.tsx",
+    "line": 158,
+    "type": "link",
+    "label": "—",
+    "destination": "home",
+    "testid": "link-footer-home",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/components/layout/Footer.tsx",
+    "line": 228,
+    "type": "mailto",
+    "label": "—",
+    "destination": "mailto",
+    "testid": "link-footer-email",
+    "tracking": "footer_contact"
+  },
+  {
+    "file": "client/src/components/layout/Footer.tsx",
+    "line": 235,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"whatsappFooter\")}",
+    "testid": "—",
+    "tracking": "footer_contact"
+  },
+  {
+    "file": "client/src/components/layout/Navbar.tsx",
+    "line": 226,
+    "type": "link",
+    "label": "—",
+    "destination": "home",
+    "testid": "link-home",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/components/layout/Navbar.tsx",
+    "line": 376,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"whatsappNav\")}",
+    "testid": "—",
+    "tracking": "navbar"
+  },
+  {
+    "file": "client/src/components/layout/Navbar.tsx",
+    "line": 388,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "—",
+    "tracking": "navbar_book"
+  },
+  {
+    "file": "client/src/components/layout/Navbar.tsx",
+    "line": 504,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"whatsappNav\")}",
+    "testid": "—",
+    "tracking": "navbar_mobile"
+  },
+  {
+    "file": "client/src/components/layout/Navbar.tsx",
+    "line": 527,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "—",
+    "tracking": "navbar_mobile_book"
+  },
+  {
+    "file": "client/src/components/layout/NavbarFunnel.tsx",
+    "line": 15,
+    "type": "link",
+    "label": "—",
+    "destination": "home",
+    "testid": "link-funnel-home",
+    "tracking": "navbar_funnel_book"
+  },
+  {
+    "file": "client/src/components/layout/NavbarFunnel.tsx",
+    "line": 21,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "link-funnel-consultation",
+    "tracking": "navbar_funnel_book"
+  },
+  {
+    "file": "client/src/components/sections/faq-data.tsx",
+    "line": 120,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "—",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/components/sections/FAQ.tsx",
+    "line": 256,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-faq-final-cta-booking",
+    "tracking": "faq_final_book"
+  },
+  {
+    "file": "client/src/components/sections/FAQ.tsx",
+    "line": 264,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"faqUI.finalCta.whatsapp\")}",
+    "testid": "—",
+    "tracking": "faq_final_cta"
+  },
+  {
+    "file": "client/src/components/sections/ForWho.tsx",
+    "line": 150,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-forwho-agendar",
+    "tracking": "for_who_bottom"
+  },
+  {
+    "file": "client/src/components/sections/ForWho.tsx",
+    "line": 157,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"forWho.whatsappMsg2\")}",
+    "testid": "—",
+    "tracking": "for_who_bottom"
+  },
+  {
+    "file": "client/src/components/sections/Hero.tsx",
+    "line": 113,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "—",
+    "tracking": "hero_book_consultation"
+  },
+  {
+    "file": "client/src/components/sections/Hero.tsx",
+    "line": 122,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"hero.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "hero"
+  },
+  {
+    "file": "client/src/components/sections/HomeFAQ.tsx",
+    "line": 48,
+    "type": "link",
+    "label": "—",
+    "destination": "faq",
+    "testid": "button-home-faq-ver-todas",
+    "tracking": "home_faq"
+  },
+  {
+    "file": "client/src/components/sections/HomeFAQ.tsx",
+    "line": 56,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"homeFaq.cta.whatsapp\")}",
+    "testid": "—",
+    "tracking": "home_faq"
+  },
+  {
+    "file": "client/src/components/sections/HomeFinalCTA.tsx",
+    "line": 56,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "cta-final-agendar",
+    "tracking": "home_final_book"
+  },
+  {
+    "file": "client/src/components/sections/HowItWorks.tsx",
+    "line": 170,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-howitworks-agendar",
+    "tracking": "how_it_works"
+  },
+  {
+    "file": "client/src/components/sections/HowItWorks.tsx",
+    "line": 177,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"howItWorks.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "how_it_works"
+  },
+  {
+    "file": "client/src/components/sections/Services.tsx",
+    "line": 131,
+    "type": "link",
+    "label": "—",
+    "destination": "our_services",
+    "testid": "`button-service-${i",
+    "tracking": "services_block_${i}"
+  },
+  {
+    "file": "client/src/components/sections/Services.tsx",
+    "line": 138,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"hero.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "services_block_${i}"
+  },
+  {
+    "file": "client/src/components/sections/WhyUs.tsx",
+    "line": 82,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-whyus-agendar",
+    "tracking": "why_us"
+  },
+  {
+    "file": "client/src/components/sections/WhyUs.tsx",
+    "line": 89,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"whyUs.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "why_us"
+  },
+  {
+    "file": "client/src/pages/about-llc.tsx",
+    "line": 52,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-llc-hero-agendar",
+    "tracking": "about_llc_hero"
+  },
+  {
+    "file": "client/src/pages/about-llc.tsx",
+    "line": 59,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"llcUsPage.heroWhatsappMsg\")}",
+    "testid": "—",
+    "tracking": "about_llc_hero"
+  },
+  {
+    "file": "client/src/pages/about-llc.tsx",
+    "line": 380,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`link-estado-${i",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/abrir-llc.tsx",
+    "line": 834,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-pillar-llc-hero-cta",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/abrir-llc.tsx",
+    "line": 838,
+    "type": "link",
+    "label": "—",
+    "destination": "our_services",
+    "testid": "button-pillar-llc-hero-services",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/abrir-llc.tsx",
+    "line": 890,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`link-pillar-state-${i",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/abrir-llc.tsx",
+    "line": 990,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-pillar-cta-book",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/abrir-llc.tsx",
+    "line": 993,
+    "type": "link",
+    "label": "—",
+    "destination": "our_services",
+    "testid": "button-pillar-cta-services",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/blog/index.tsx",
+    "line": 42,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`card-blog-${slug",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/blog/post.tsx",
+    "line": 321,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`sidebar-${post.slug",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/blog/post.tsx",
+    "line": 367,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`bottom-related-${post.slug",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/blog/post.tsx",
+    "line": 964,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "—",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/blog/post.tsx",
+    "line": 970,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "—",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/go.tsx",
+    "line": 126,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"links.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "links_page"
+  },
+  {
+    "file": "client/src/pages/go.tsx",
+    "line": 183,
+    "type": "mailto",
+    "label": "footer.social.email",
+    "destination": "mailto",
+    "testid": "icon-email",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/how-we-work.tsx",
+    "line": 111,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-at-hero-agendar",
+    "tracking": "how_we_work_hero"
+  },
+  {
+    "file": "client/src/pages/how-we-work.tsx",
+    "line": 115,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"comoFunciona.hero.waText\")}",
+    "testid": "—",
+    "tracking": "how_we_work_hero"
+  },
+  {
+    "file": "client/src/pages/how-we-work.tsx",
+    "line": 234,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-at-phase1-agendar",
+    "tracking": "how_we_work_phase1"
+  },
+  {
+    "file": "client/src/pages/how-we-work.tsx",
+    "line": 237,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"comoFunciona.phases.phase1.cta.waText\")}",
+    "testid": "—",
+    "tracking": "how_we_work_phase1"
+  },
+  {
+    "file": "client/src/pages/not-found.tsx",
+    "line": 32,
+    "type": "link",
+    "label": "—",
+    "destination": "home",
+    "testid": "link-go-home",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/not-found.tsx",
+    "line": 46,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`link-not-found-${q.key",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/not-found.tsx",
+    "line": 56,
+    "type": "link",
+    "label": "—",
+    "destination": "/blog",
+    "testid": "link-not-found-blog",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 163,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`button-solicitar-llc-${i",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 277,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "button-comparativa-agendar",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 342,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"precios.maintenance.waTextRenewal\")}",
+    "testid": "—",
+    "tracking": "services_renewal"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 419,
+    "type": "link",
+    "label": "—",
+    "destination": "faq",
+    "testid": "button-precios-ver-todas-preguntas",
+    "tracking": "services_faq_advisor"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 426,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"finalCta.whatsappMsg\")}",
+    "testid": "—",
+    "tracking": "services_faq_advisor"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 468,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-precios-cta-agendar",
+    "tracking": "services_cta"
+  },
+  {
+    "file": "client/src/pages/services-sections.tsx",
+    "line": 475,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"precios.cta.waText\")}",
+    "testid": "—",
+    "tracking": "services_cta"
+  },
+  {
+    "file": "client/src/pages/services.tsx",
+    "line": 58,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-precios-hero-agendar",
+    "tracking": "services_hero"
+  },
+  {
+    "file": "client/src/pages/services.tsx",
+    "line": 66,
+    "type": "whatsapp",
+    "label": "—",
+    "destination": "wa.me?text={t(\"precios.hero.waText\")}",
+    "testid": "—",
+    "tracking": "services_hero"
+  },
+  {
+    "file": "client/src/pages/services.tsx",
+    "line": 109,
+    "type": "link",
+    "label": "—",
+    "destination": "—",
+    "testid": "`card-services-subpage-${c.tag",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/services/ServiceSubpage.tsx",
+    "line": 153,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "`button-${trackingKey",
+    "tracking": "service_${trackingKey}_hero"
+  },
+  {
+    "file": "client/src/pages/services/ServiceSubpage.tsx",
+    "line": 433,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "`button-${trackingKey",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/services/ServiceSubpage.tsx",
+    "line": 441,
+    "type": "link",
+    "label": "—",
+    "destination": "our_services",
+    "testid": "`button-${trackingKey",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/start.tsx",
+    "line": 148,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "link-agendar-start",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/start.tsx",
+    "line": 296,
+    "type": "link",
+    "label": "—",
+    "destination": "book",
+    "testid": "button-agendar-decision",
+    "tracking": "start_decision"
+  },
+  {
+    "file": "client/src/pages/start.tsx",
+    "line": 346,
+    "type": "link",
+    "label": "—",
+    "destination": "home",
+    "testid": "link-start-home",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/start.tsx",
+    "line": 356,
+    "type": "link",
+    "label": "—",
+    "destination": "legal_cookies",
+    "testid": "link-start-cookies",
+    "tracking": "—"
+  },
+  {
+    "file": "client/src/pages/start.tsx",
+    "line": 360,
+    "type": "link",
+    "label": "—",
+    "destination": "legal_privacy",
+    "testid": "link-start-privacy",
+    "tracking": "—"
+  }
+]
