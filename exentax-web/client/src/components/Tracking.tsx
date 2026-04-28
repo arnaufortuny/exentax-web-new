@@ -126,6 +126,61 @@ function updateGtagConsent(granted: boolean) {
   });
 }
 
+/**
+ * Clear analytics cookies / scripts when the visitor revokes consent.
+ *
+ * The cookie banner already prevents the GA4 / Meta scripts from loading
+ * until consent is granted (see `initTrackingIfConsented`). However, if a
+ * visitor first accepts ("all"), browses for a while, and then opens the
+ * banner again to switch to "essential" or revoke entirely, the analytics
+ * cookies set during the accepted session would otherwise linger in the
+ * browser. GDPR requires that a withdrawal of consent be as easy and as
+ * effective as the original grant.
+ *
+ * Implementation:
+ *  1. Update Google's Consent Mode v2 to "denied" (already done by
+ *     `updateGtagConsent`, called separately).
+ *  2. Disable the GA4 measurement ID via the `ga-disable-<ID>` window flag
+ *     so any in-flight `gtag()` calls become no-ops.
+ *  3. Wipe the well-known GA4 (`_ga*`, `_gid`, `_gat*`) and Meta Pixel
+ *     (`_fbp`, `_fbc`) cookies for the current host AND its parent
+ *     `.exentax.com` (GA4 sets cookies on the eTLD+1 by default).
+ *  4. Detach Pixel by clearing the `fbq` queue so further calls are
+ *     silently dropped.
+ *
+ * Idempotent — safe to call on every consent-change event.
+ */
+function clearAnalyticsCookies() {
+  if (typeof document === "undefined") return;
+  if (GA4_ID) {
+    (window as unknown as Record<string, unknown>)[`ga-disable-${GA4_ID}`] = true;
+  }
+  const cookieNamePrefixes = ["_ga", "_gid", "_gat", "_fbp", "_fbc", "_gcl_au"];
+  const host = window.location.hostname;
+  const parentDomain = host.split(".").slice(-2).join(".");
+  const domains = [host, `.${host}`, parentDomain, `.${parentDomain}`];
+  const cookies = document.cookie ? document.cookie.split(";") : [];
+  for (const raw of cookies) {
+    const name = raw.split("=")[0]?.trim();
+    if (!name) continue;
+    if (!cookieNamePrefixes.some((p) => name === p || name.startsWith(p))) continue;
+    for (const d of domains) {
+      // Best-effort wipe across domain variants — browser silently ignores
+      // mismatched domain attributes, and the matching one effectively
+      // expires the cookie.
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=${d};`;
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;`;
+    }
+  }
+  if (window.fbq) {
+    try {
+      window.fbq.queue = [];
+    } catch {
+      // No-op: fbq stub may not be writable in every browser sandbox.
+    }
+  }
+}
+
 function initTrackingIfConsented() {
   const consented = hasAnalyticsConsent();
   if (consented) {
@@ -369,7 +424,15 @@ export default function Tracking() {
   const onConsentChange = useCallback(() => {
     const now = hasAnalyticsConsent();
     updateGtagConsent(now);
-    if (now) initTrackingIfConsented();
+    if (now) {
+      initTrackingIfConsented();
+    } else {
+      // Visitor revoked / downgraded consent — wipe any GA4 / Meta cookies
+      // left over from a previous accepted session and disable further
+      // measurement calls. Required by GDPR Art. 7(3): withdrawal of consent
+      // must be as easy as the original grant.
+      clearAnalyticsCookies();
+    }
   }, []);
 
   useEffect(() => {

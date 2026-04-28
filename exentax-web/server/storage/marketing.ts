@@ -14,6 +14,7 @@ export interface ConsentLogEntry {
   source?: string | null;
   privacyVersion?: string | null;
   ip?: string | null;
+  userAgent?: string | null;
 }
 
 /**
@@ -22,10 +23,20 @@ export interface ConsentLogEntry {
  * authoritative cross-reference between the `#consentimientos` channel and
  * the `consent_log` row — never lose it (used for GDPR subject-access /
  * deletion responses).
+ *
+ * IP and User-Agent are persisted to satisfy the GDPR/AEPD audit-trail
+ * requirement for proof of consent. Callers MUST pass an already-truncated
+ * IP (via `truncateIp` from `route-helpers.ts`) — `consent_log` is a
+ * compliance-log table, not an AML/KYC store, so storing the full IP would
+ * be excessive under data-minimization. The User-Agent is truncated here
+ * defensively at 300 chars to keep the row size sane.
  */
+const MAX_USER_AGENT_LEN = 300;
+
 export async function insertConsentLog(entry: ConsentLogEntry): Promise<string> {
   try {
     const id = generateId("CON");
+    const ua = entry.userAgent ? entry.userAgent.slice(0, MAX_USER_AGENT_LEN) : null;
     await db.insert(s.consentLog).values({
       id,
       formType: entry.formType,
@@ -37,6 +48,7 @@ export async function insertConsentLog(entry: ConsentLogEntry): Promise<string> 
       source: entry.source || null,
       privacyVersion: entry.privacyVersion || null,
       ip: entry.ip || null,
+      userAgent: ua,
     });
     return id;
   } catch (err) { throw wrapStorageError("insertConsentLog", err); }
@@ -271,4 +283,58 @@ export async function findActiveDripEnrollmentByEmail(email: string) {
       .limit(1);
     return rows[0] ?? null;
   } catch (err) { throw wrapStorageError("findActiveDripEnrollmentByEmail", err); }
+}
+
+// ─── GDPR retention purges ──────────────────────────────────────────────────
+/**
+ * Each helper deletes rows older than `cutoffDate` (a JS Date in UTC) and
+ * returns the number of rows removed. The cutoff is computed by the caller
+ * (`server/scheduled/retention-purge.ts`) so the retention matrix lives in
+ * one place. Each function is independent and idempotent — re-running on a
+ * quiet table is a cheap no-op.
+ *
+ * Tables NOT purged here (regulatory hold):
+ *   - `leads`     — AML/KYC requires 7-year retention.
+ *   - `agenda`    — booking record tied to lead, same 7-year hold.
+ *   - `legal_document_versions` — immutable audit trail of consent
+ *      versions; never deleted.
+ */
+export async function purgeOldVisits(cutoffDate: Date): Promise<number> {
+  try {
+    const result = await db.delete(s.visits)
+      .where(sql`${s.visits.createdAt} < ${cutoffDate}`);
+    // drizzle returns { rowCount } on pg; fallback to 0 for typing safety.
+    return (result as unknown as { rowCount?: number }).rowCount ?? 0;
+  } catch (err) { throw wrapStorageError("purgeOldVisits", err); }
+}
+
+export async function purgeOldConsentLog(cutoffDate: Date): Promise<number> {
+  try {
+    const result = await db.delete(s.consentLog)
+      .where(sql`${s.consentLog.createdAt} < ${cutoffDate}`);
+    return (result as unknown as { rowCount?: number }).rowCount ?? 0;
+  } catch (err) { throw wrapStorageError("purgeOldConsentLog", err); }
+}
+
+export async function purgeOldCalculations(cutoffDate: Date): Promise<number> {
+  try {
+    const result = await db.delete(s.calculations)
+      .where(sql`${s.calculations.createdAt} < ${cutoffDate}`);
+    return (result as unknown as { rowCount?: number }).rowCount ?? 0;
+  } catch (err) { throw wrapStorageError("purgeOldCalculations", err); }
+}
+
+export async function purgeUnsubscribedNewsletter(cutoffDate: Date): Promise<number> {
+  try {
+    // Only delete subscribers who actively unsubscribed AND whose
+    // unsubscribe happened before the cutoff. Active subscribers are
+    // retained indefinitely until they unsubscribe themselves.
+    const cutoffIso = cutoffDate.toISOString();
+    const result = await db.delete(s.newsletterSubscribers)
+      .where(and(
+        sql`${s.newsletterSubscribers.unsubscribedAt} IS NOT NULL`,
+        sql`${s.newsletterSubscribers.unsubscribedAt} < ${cutoffIso}`,
+      ));
+    return (result as unknown as { rowCount?: number }).rowCount ?? 0;
+  } catch (err) { throw wrapStorageError("purgeUnsubscribedNewsletter", err); }
 }

@@ -15,6 +15,49 @@ export function getClientIp(req: Request): string {
   return req.ip || req.socket?.remoteAddress || "unknown";
 }
 
+/**
+ * Anonymize a client IP for storage in pure-analytics or compliance-log
+ * tables (`consent_log`, `visits`). Implements the de-facto GDPR
+ * pseudonymization standard (matches Google Analytics' `anonymizeIp`):
+ *   - IPv4 → drop the last octet, replace with `0`
+ *     (e.g. `203.0.113.45` → `203.0.113.0`)
+ *   - IPv6 → keep the first /48, zero everything after
+ *     (e.g. `2001:db8:abcd:1234::1` → `2001:db8:abcd::`)
+ *
+ * Preserves the input verbatim for sentinel values (`unknown`, `localhost`,
+ * `::1`, `127.0.0.1`) so logs remain debuggable in dev and tests.
+ *
+ * IMPORTANT: do NOT use this for AML/KYC-relevant tables (`leads`,
+ * `agenda`, `calculations`) where the full IP must be retained for the
+ * 7-year regulatory window. See `docs/compliance/README.md` for the
+ * full retention matrix.
+ */
+export function truncateIp(ip: string | null | undefined): string | null {
+  if (!ip) return null;
+  const trimmed = ip.trim();
+  if (!trimmed) return null;
+  if (trimmed === "unknown" || trimmed === "localhost") return trimmed;
+  if (trimmed === "127.0.0.1" || trimmed === "::1") return trimmed;
+  // IPv4-mapped IPv6 (e.g. ::ffff:203.0.113.45) — strip the prefix and
+  // recurse so the IPv4 anonymization branch handles it.
+  const v4Mapped = trimmed.match(/^::ffff:(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$/i);
+  if (v4Mapped) return truncateIp(v4Mapped[1]);
+  if (trimmed.includes(".") && !trimmed.includes(":")) {
+    const parts = trimmed.split(".");
+    if (parts.length !== 4 || parts.some((p) => !/^\d+$/.test(p) || Number(p) > 255)) return trimmed;
+    return `${parts[0]}.${parts[1]}.${parts[2]}.0`;
+  }
+  if (trimmed.includes(":")) {
+    // Expand `::` to keep the first 3 16-bit groups, zero the rest.
+    const cleaned = trimmed.split("/")[0];
+    const head = cleaned.split("::")[0];
+    const groups = head.split(":").slice(0, 3);
+    while (groups.length < 3) groups.push("0");
+    return `${groups.join(":")}::`;
+  }
+  return trimmed;
+}
+
 const BUSINESS_HOURS_START = 8;
 const BUSINESS_HOURS_END = 20;
 const SLOT_DURATION_MINUTES = 30;

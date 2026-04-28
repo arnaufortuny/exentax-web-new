@@ -270,6 +270,7 @@ export const consentLog = pgTable("consent_log", {
   source: text("source"),
   privacyVersion: text("privacy_version"),
   ip: text("ip"),
+  userAgent: text("user_agent"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
   index("consent_log_email_idx").on(table.email),

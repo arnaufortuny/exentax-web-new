@@ -791,6 +791,18 @@ httpServer.listen(
       logger.warn(`Incomplete-booking scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "incomplete-booking");
     }
 
+    // GDPR retention purge: every 6h drops rows past their retention
+    // window (visits 180d, consent_log 36mo, calculations 24mo,
+    // unsubscribed newsletter 12mo). See `docs/compliance/README.md`
+    // for the full retention matrix.
+    try {
+      const { startRetentionPurgeScheduler } = await import("./scheduled/retention-purge");
+      activeIntervals.push(startRetentionPurgeScheduler());
+      logger.info("Retention-purge scheduler started (sweep every 6h)", "retention");
+    } catch (err) {
+      logger.warn(`Retention-purge scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "retention");
+    }
+
   } catch (err) {
     logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);

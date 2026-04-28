@@ -28,7 +28,7 @@ import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
   checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
-  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock, withBookingLock,
+  checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, truncateIp, withSlotLock, withBookingLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
 import { backendLabel, resolveRequestLang, escapeHtml } from "./shared";
@@ -689,9 +689,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
 
         notifyBookingCreated({ bookingId: bookingLeadId, name, lastName, email, phone, date, startTime, endTime, meetLink, meetingType, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
         notifyNewLead({ leadId: bookingLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
+        const bookingConsentIp = truncateIp(ip);
+        const bookingConsentUa = (req.headers["user-agent"] as string | undefined) || null;
         getCachedPrivacyVersion().then(async (privacyVersion) => {
-          const consentId = await logConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
-          notifyConsent({ consentId, formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip });
+          const consentId = await logConsent({ formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip: bookingConsentIp, userAgent: bookingConsentUa });
+          notifyConsent({ consentId, formType: "booking", email, privacyAccepted, marketingAccepted, language: language || null, source: "booking", privacyVersion, ip: bookingConsentIp });
         }).catch(err => logger.warn(`Booking consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
         return { error: false as const, date, startTime, endTime, meetLink, meetingType, status: "confirmed" };
       });
@@ -1046,14 +1048,24 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       ahorro: parsed.data.ahorro, annualIncome, monthlyIncome, localTax: parsed.data.sinLLC, llcTax: parsed.data.conLLC,
       language: parsed.data.language, ip: calcIp, marketingAccepted: parsed.data.marketingAccepted, privacyAccepted: parsed.data.privacyAccepted,
     });
+    const calcConsentIp = truncateIp(calcIp);
+    const calcConsentUa = (req.headers["user-agent"] as string | undefined) || null;
     getCachedPrivacyVersion().then(async (privacyVersion) => {
-      const consentId = await logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcIp });
-      notifyConsent({ consentId, formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcIp });
+      const consentId = await logConsent({ formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcConsentIp, userAgent: calcConsentUa });
+      notifyConsent({ consentId, formType: "calculator", email: normalizedEmail, privacyAccepted: parsed.data.privacyAccepted, marketingAccepted: parsed.data.marketingAccepted, language: parsed.data.language || null, source: "calculator", privacyVersion, ip: calcConsentIp });
     }).catch(err => logger.warn(`Calculator consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res);
   }));
 
-  // Cookie banner consent log — anonymous, no email required
+  // Cookie banner consent log — anonymous, no email required.
+  //
+  // GDPR / AEPD audit-trail requirement: every consent submission must
+  // record the document version, the truncated IP, and the User-Agent so
+  // we can reconstruct WHEN, WHICH version, and WHO consented in case of
+  // a subject-access or supervisory-authority request. The IP is
+  // truncated via `truncateIp` (data-minimization) — `consent_log` is a
+  // compliance log, NOT an AML/KYC store, so the full IP would be
+  // excessive. The User-Agent is capped at 300 chars in storage.
   const cookieConsentSchema = z.object({
     tipo: z.string().max(60),
     aceptado: z.boolean(),
@@ -1068,6 +1080,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = cookieConsentSchema.safeParse(req.body);
     if (!parsed.success) return apiOk(res); // silent — never block the client
     const { tipo, aceptado, version, idioma, referrer } = parsed.data;
+    const userAgent = (req.headers["user-agent"] as string | undefined) || null;
     const consentData = {
       formType: `cookies:${tipo}`,
       email: null as string | null,
@@ -1076,7 +1089,8 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
       language: idioma || null,
       source: referrer || null,
       privacyVersion: version || null,
-      ip,
+      ip: truncateIp(ip),
+      userAgent,
     };
     // Cookies endpoint: log + notify in parallel-friendly order. The notify
     // is fire-and-forget but receives the persisted consent ID for traceability.
@@ -1135,9 +1149,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         logger.warn(`Drip enrollment (guide) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
       }
     }
+    const newsletterConsentIp = truncateIp(ip);
+    const newsletterConsentUa = (req.headers["user-agent"] as string | undefined) || null;
     getCachedPrivacyVersion().then(async (privacyVersion) => {
-      const consentId = await logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });
-      notifyConsent({ consentId, formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });
+      const consentId = await logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip: newsletterConsentIp, userAgent: newsletterConsentUa });
+      notifyConsent({ consentId, formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip: newsletterConsentIp });
     }).catch(err => logger.warn(`Newsletter consent log error: ${err instanceof Error ? err.message : String(err)}`, "consent"));
     return apiOk(res, { subscribed: true });
   }));
@@ -1187,10 +1203,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     else if (uaLower) dispositivo = "desktop";
 
     const isNew = isNewVisitor(ip);
+    // GDPR data-minimization: `visits` is a pure analytics table. Truncate
+    // the IP before persisting (keeps city-level geo, drops the last octet).
+    // The full IP is still used for rate-limiting and `isNewVisitor` because
+    // those are in-memory and not persisted beyond the dedupe window.
+    const visitIp = truncateIp(ip);
 
     insertVisit({
       date: timestamp,
-      ip,
+      ip: visitIp,
       page,
       referrer: str(b.referrer, 500),
       userAgent: ua,
@@ -1207,7 +1228,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     );
 
     notifyWebVisit({
-      ip,
+      ip: visitIp || "unknown",
       page,
       referrer: str(b.referrer, 500),
       language: str(b.language, 10),
@@ -1225,7 +1246,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     if (isNew) {
       // RGPD: never log raw IPs. The masked form keeps enough signal to
       // distinguish "many requests from one network" vs "wildly different
-      // visitors" without retaining a personal identifier.
+      // visitors" without retaining a personal identifier. The persisted
+      // `visitIp` (truncated via `truncateIp`) is what reaches the
+      // analytics table; this log line uses the dedicated `maskIp`
+      // helper for human-readable diagnostics.
       logger.info(`New visitor: ${maskIp(ip)}`, "visitor");
     }
 
