@@ -1,6 +1,6 @@
 # Blog translation-quality EXTENDED audit (Bloque 7)
 
-Generated: 2026-04-26T18:28:53.652Z
+Generated: 2026-04-28T14:19:42.405Z
 
 > REPORT-ONLY. Heuristic findings — verify each before editing.
 
@@ -8,7 +8,7 @@ Generated: 2026-04-26T18:28:53.652Z
 
 - Language leakage (ES tokens in non-ES/CA): **0** articles
 - DE register issues (informal du/dein): **0** articles
-- FR register issues (informal tu/ton): **1** articles
+- FR register issues (informal tu/ton): **0** articles
 - MT tells per language: **0** articles
 - Low ratio (< 0.70 vs ES, ≥200 ES words): **0** articles
 - Untranslated paragraphs (identical to ES): **0** articles
@@ -23,7 +23,7 @@ _None._
 
 ## FR register (use vous/votre)
 
-- **fr/llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais** — 1 informal hits — samples: `ta LLC`
+_None._
 
 ## MT tells per language
 

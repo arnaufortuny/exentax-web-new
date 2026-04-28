@@ -1,4 +1,4 @@
-export default `Une phrase revient dans chaque vidéo YouTube et chaque pub "ouvre ta LLC en 5 minutes": **"votre LLC ne paie pas d'impôt aux États-Unis"**. Techniquement correcte pour de nombreux profils. Le problème, c'est ce que les gens comprennent: "donc je ne paie d'impôt nulle part". Ce n'est plus vrai.
+export default `Une phrase revient dans chaque vidéo YouTube et chaque pub "ouvrez votre LLC en 5 minutes": **"votre LLC ne paie pas d'impôt aux États-Unis"**. Techniquement correcte pour de nombreux profils. Le problème, c'est ce que les gens comprennent: "donc je ne paie d'impôt nulle part". Ce n'est plus vrai.
 
 Cet article ne répète pas le mécanisme du pass-through ni la liste par pays. Pour cela, vous avez déjà notre <a href="/fr/blog/fiscalite-transparente-pour-llc-comment-ca-fonctionne-et">guide pass-through</a> et la <a href="/fr/blog/fiscalite-llc-par-pays-de-residence-ce-que-vous-payez-ou">fiscalité de la LLC par pays de résidence</a>. Ici, nous expliquons **ce qui se passe vraiment dans votre pays**, dans quel ordre, et pourquoi 80 % des problèmes que nous voyons chez Exentax viennent justement de là.
 

@@ -1,6 +1,6 @@
 # Blog translation-quality audit (Task #52 follow-up)
 
-Generated: 2026-04-27T16:05:12.470Z
+Generated: 2026-04-28T14:12:40.363Z
 
 > REPORT-ONLY. Findings here are pre-existing editorial debt
 > (introduced upstream by Task #35 inline-CTA refresh) and are
