@@ -818,7 +818,7 @@ const de = {
     navigation: "Navigation",
     legal: "Rechtliches",
     contact: "Community",
-    desc: "Steueroptimierte LLC mit Vermögensschutz nach US-Standard und Rechtssicherheit für Investoren — inklusive Tor zum lateinamerikanischen Markt. Gründung, Banking, ITIN und jährliche Compliance ohne Botschaftstermin.",
+    desc: "Globale Gründer vertrauen Exentax bei Aufbau, Schutz und Pflege ihrer US-Präsenz. Expertenberatung für LLC-Gründung, internationales Steuerrecht, Investments, Krypto und rechtliche Compliance. Banking, ITIN und jährliche IRS-Erklärungen inklusive. Privacy-first. 100% online.",
     companyLinks: {
       home: "Internationale Steuerstruktur",
       services: "Dienstleistungen",

@@ -822,7 +822,7 @@ const pt = {
     navigation: "Navegação",
     legal: "Legal",
     contact: "Comunidade",
-    desc: "Estrutura enxuta com blindagem patrimonial premium e LLC pronta para investidores, M&A e ponte para o mercado hispano de Miami. Constituição, banco, ITIN e conformidade anual sem viajar aos EUA.",
+    desc: "Founders globais confiam na Exentax para estruturar, proteger e manter sua presença nos EUA. Consultoria especializada em constituição de LLC, tributação internacional, investimento, cripto e conformidade legal. Banco, ITIN e declarações anuais ao IRS inclusos. Privacidade em primeiro lugar. 100% online.",
     companyLinks: {
       home: "Estrutura fiscal internacional",
       services: "Serviços",

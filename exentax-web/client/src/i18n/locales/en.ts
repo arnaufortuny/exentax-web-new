@@ -817,7 +817,7 @@ const en = {
     navigation: "Navigation",
     legal: "Legal",
     contact: "Community",
-    desc: "Low-cost privacy, gold-standard asset protection and a VC-ready US LLC for global founders, with Florida as a gateway into the Latin American market. Formation, banking, ITIN and annual compliance — no IRS office visit required.",
+    desc: "Global founders trust Exentax to structure, protect and maintain their US presence. Expert advisory in LLC formation, international tax, investment, crypto and legal compliance. Banking, ITIN and annual IRS filings included. Privacy-first. 100% online.",
     companyLinks: {
       home: "International tax structure",
       services: "Services",

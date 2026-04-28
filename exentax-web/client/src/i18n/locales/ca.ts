@@ -823,7 +823,7 @@ const ca = {
     navigation: "Navegació",
     legal: "Legal",
     contact: "Comunitat",
-    desc: "Cost mínim, blindatge patrimonial dels EUA i una LLC preparada per a aixecar capital VC, amb un pont català cap al mercat llatí de Miami. Constitució, banca, ITIN i compliment anual sense viatjar als EUA.",
+    desc: "Founders globals confien en Exentax per estructurar, protegir i mantenir la seva presència als EUA. Assessoria experta en constitució de LLC, fiscalitat internacional, inversió, cripto i compliment legal. Banca, ITIN i declaracions anuals a l'IRS incloses. Privacitat per sobre de tot. 100% en línia.",
     companyLinks: {
       home: "Estructura fiscal internacional",
       services: "Serveis",

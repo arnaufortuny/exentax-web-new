@@ -818,7 +818,7 @@ const es = {
  navigation:"Navegación",
  legal:"Legal",
  contact:"Comunidad",
- desc:"Fiscalidad internacional para negocios digitales que operan sin fronteras. Constitución, banca y cumplimiento anual. Todo documentado. Todo claro.",
+ desc:"Founders globales confían en Exentax para estructurar, proteger y mantener su presencia en EE. UU. Asesoría experta en constitución de LLC, fiscalidad internacional, inversión, cripto y cumplimiento legal. Banca, ITIN y declaraciones anuales al IRS incluidos. Privacidad ante todo. 100% online.",
  companyLinks: {
  home:"Estructura fiscal internacional",
  services:"Servicios",

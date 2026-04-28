@@ -819,7 +819,7 @@ const fr = {
     navigation: "Navigation",
     legal: "Mentions légales",
     contact: "Communauté",
-    desc: "Zéro paperasse annuelle, bouclier patrimonial américain et LLC prête pour la levée de fonds, avec accès direct au marché latino de Miami. Constitution, banque, ITIN et conformité annuelle sans passer par l'ambassade.",
+    desc: "Les founders du monde entier font confiance à Exentax pour structurer, protéger et maintenir leur présence aux États-Unis. Conseil expert en création de LLC, fiscalité internationale, investissement, crypto et conformité juridique. Banque, ITIN et déclarations annuelles à l'IRS inclus. Confidentialité avant tout. 100% en ligne.",
     companyLinks: {
       home: "Structure fiscale internationale",
       services: "Services",
