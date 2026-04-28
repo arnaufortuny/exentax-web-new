@@ -1094,7 +1094,7 @@ const fr = {
   },
   homePage: {
     seoTitle: "Votre LLC US avec couverture fiscale premium | Exentax",
-    seoDesc: "Constitution, EIN, banque américaine, conformité IRS et un fiscaliste réel au téléphone. La structure légale qu'utilisent founders, fonds et opérateurs sérieux. Sans software low-cost.",
+    seoDesc: "Votre LLC américaine avec Exentax : constitution, EIN, banque US et conformité IRS, avec un vrai fiscaliste au téléphone. Structure premium, sans bricolage.",
     ogTitle: "La LLC qu'utilisent founders, fonds et opérateurs sérieux",
     ogDesc: "Constitution, EIN, banque américaine et conformité IRS soutenues par un fiscaliste réel. Structure légale premium, de bout en bout. Sans software low-cost.",
     seoKeywords: "Exentax, LLC États-Unis, optimisation fiscale, payer moins d'impôts légalement, LLC pour freelances, LLC auto-entrepreneur, structure fiscale, réduire les impôts, fiscalité internationale, LLC Wyoming, LLC Delaware, EIN, Form 5472, conformité IRS, compte bancaire USA, facturer avec LLC américaine, impôts freelance, nomade digital fiscalité",

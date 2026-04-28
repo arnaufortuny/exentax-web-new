@@ -1093,7 +1093,7 @@ const de = {
   },
   homePage: {
     seoTitle: "Ihre US-LLC mit Premium-Steuerbetreuung | Exentax",
-    seoDesc: "Gründung, EIN, US-Banking, IRS-Compliance und ein echter Steuerberater am Telefon. Die Rechtsstruktur, die Founder, Fonds und ernsthafte Operatoren nutzen. Ohne Low-Cost-Software.",
+    seoDesc: "Ihre US-LLC mit Exentax: Gründung, EIN, US-Banking und IRS-Compliance mit echtem Steuerberater am Telefon. Premium-Rechtsstruktur statt Billig-Software.",
     ogTitle: "Die US-LLC, die Founder, Fonds und ernsthafte Operatoren nutzen",
     ogDesc: "Gründung, EIN, US-Banking und IRS-Compliance, abgesichert durch einen echten Steuerberater. Premium-Rechtsstruktur, von Anfang bis Ende. Ohne Low-Cost-Software.",
     seoKeywords: "Exentax, US LLC, Steueroptimierung, legal weniger Steuern zahlen, LLC für Freiberufler, LLC Selbstständige, Steuerstruktur, Steuern reduzieren, internationale Besteuerung, Wyoming LLC, Delaware LLC, EIN, Form 5472, IRS Compliance, US-Bankkonto, mit US LLC fakturieren, Freiberufler Steuern, digitaler Nomade Steuern",

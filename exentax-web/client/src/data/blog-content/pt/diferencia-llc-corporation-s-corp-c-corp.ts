@@ -152,6 +152,6 @@ Se o seu plano é montar a LLC no Delaware, consulte a nossa página de serviço
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um assessor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um consultor</a>.
 <!-- /exentax:cta-v1 -->
 `;

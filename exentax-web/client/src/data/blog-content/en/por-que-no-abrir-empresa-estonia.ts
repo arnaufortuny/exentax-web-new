@@ -309,7 +309,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

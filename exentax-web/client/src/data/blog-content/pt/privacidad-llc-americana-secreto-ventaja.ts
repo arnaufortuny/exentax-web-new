@@ -203,7 +203,7 @@ Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisam
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-novo-mexico">Comparar o meu caso com um assessor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-novo-mexico">Comparar o meu caso com um consultor</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

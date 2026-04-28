@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T19:22:53.333Z",
+  "generatedAt": "2026-04-28T20:05:16.957Z",
   "budgets": {
     "DESKTOP_TITLE_PX": 580,
     "DESKTOP_DESC_PX": 990,
@@ -78,19 +78,12 @@
       "routePath": "/es",
       "lang": "es",
       "title": "Tu LLC en EE.UU. con respaldo fiscal premium | Exentax",
-      "description": "Constitución, EIN, banca americana, compliance IRS y un fiscalista real al teléfono. La estructura legal que usan founders, fondos y operadores serios. Sin software low-cost.",
+      "description": "Tu LLC en EE. UU. con Exentax: constitución, EIN, banca americana y compliance IRS con un fiscalista real al teléfono. Estructura legal premium, sin atajos.",
       "titleChars": 54,
-      "descChars": 174,
+      "descChars": 156,
       "titlePx": 433,
-      "descPx": 889,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 174 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "descPx": 793,
+      "issues": []
     },
     {
       "scope": "static",
@@ -333,19 +326,12 @@
       "routePath": "/en",
       "lang": "en",
       "title": "Your US LLC with premium tax backing | Exentax",
-      "description": "Formation, EIN, US banking, IRS compliance and a real tax advisor on the phone. The legal structure used by founders, funds and serious operators. No low-cost software.",
+      "description": "Form your US LLC with Exentax: EIN, US banking and IRS compliance with a real tax advisor on the phone. The premium legal structure, end to end. No shortcuts.",
       "titleChars": 46,
-      "descChars": 168,
+      "descChars": 158,
       "titlePx": 376,
-      "descPx": 869,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 168 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "descPx": 818,
+      "issues": []
     },
     {
       "scope": "static",
@@ -602,19 +588,12 @@
       "routePath": "/fr",
       "lang": "fr",
       "title": "Votre LLC US avec couverture fiscale premium | Exentax",
-      "description": "Constitution, EIN, banque américaine, conformité IRS et un fiscaliste réel au téléphone. La structure légale qu'utilisent founders, fonds et opérateurs sérieux. Sans software low-cost.",
+      "description": "Votre LLC américaine avec Exentax : constitution, EIN, banque US et conformité IRS, avec un vrai fiscaliste au téléphone. Structure premium, sans bricolage.",
       "titleChars": 54,
-      "descChars": 184,
+      "descChars": 156,
       "titlePx": 438,
-      "descPx": 927,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 184 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "descPx": 798,
+      "issues": []
     },
     {
       "scope": "static",
@@ -878,19 +857,12 @@
       "routePath": "/de",
       "lang": "de",
       "title": "Ihre US-LLC mit Premium-Steuerbetreuung | Exentax",
-      "description": "Gründung, EIN, US-Banking, IRS-Compliance und ein echter Steuerberater am Telefon. Die Rechtsstruktur, die Founder, Fonds und ernsthafte Operatoren nutzen. Ohne Low-Cost-Software.",
+      "description": "Ihre US-LLC mit Exentax: Gründung, EIN, US-Banking und IRS-Compliance mit echtem Steuerberater am Telefon. Premium-Rechtsstruktur statt Billig-Software.",
       "titleChars": 49,
-      "descChars": 179,
+      "descChars": 152,
       "titlePx": 411,
-      "descPx": 948,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 179 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "descPx": 807,
+      "issues": []
     },
     {
       "scope": "static",
@@ -1140,19 +1112,12 @@
       "routePath": "/pt",
       "lang": "pt",
       "title": "A sua LLC nos EUA com respaldo fiscal premium | Exentax",
-      "description": "Constituição, EIN, banca americana, compliance IRS e um assessor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.",
+      "description": "A sua LLC nos EUA com Exentax: constituição, EIN, banca americana e compliance IRS com um assessor fiscal real ao telefone. Estrutura premium, sem atalhos.",
       "titleChars": 55,
-      "descChars": 178,
+      "descChars": 155,
       "titlePx": 453,
-      "descPx": 927,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 178 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "descPx": 825,
+      "issues": []
     },
     {
       "scope": "static",
@@ -1394,20 +1359,13 @@
       "key": "home",
       "routePath": "/ca",
       "lang": "ca",
-      "title": "La teva LLC als EUA amb respatller fiscal premium | Exentax",
-      "description": "Constitució, EIN, banca americana, compliance IRS i un fiscalista real al telèfon. L'estructura legal que fan servir founders, fons i operadors seriosos. Sense software low-cost.",
-      "titleChars": 59,
-      "descChars": 178,
-      "titlePx": 468,
-      "descPx": 896,
-      "issues": [
-        {
-          "scope": "description",
-          "surface": "desktop",
-          "severity": "error",
-          "note": "Description is 178 chars, exceeds desktop cap of 165; tail will be cropped."
-        }
-      ]
+      "title": "La teva LLC als EUA amb fiscalista premium | Exentax",
+      "description": "La teva LLC als EUA amb Exentax: constitució, EIN, banca americana i compliance IRS amb un fiscalista real al telèfon. Estructura legal premium, sense dreceres.",
+      "titleChars": 52,
+      "descChars": 160,
+      "titlePx": 419,
+      "descPx": 827,
+      "issues": []
     },
     {
       "scope": "static",

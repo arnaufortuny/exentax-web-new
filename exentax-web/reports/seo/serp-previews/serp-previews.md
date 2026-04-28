@@ -1,6 +1,6 @@
 # Google SERP previews — 18 indexable pages × 6 locales
 
-_Generated 2026-04-28T19:22:53.326Z_
+_Generated 2026-04-28T20:05:16.950Z_
 
 This report follows up on Task #3 by re-checking how the refreshed copy renders in Google's desktop and mobile SERP cards. The character budgets used here are aligned with `scripts/seo/verify-meta.ts`, so a passing meta-check translates directly into clean SERP previews.
 
@@ -16,33 +16,26 @@ Open [`serp-previews.html`](./serp-previews.html) in a browser for the **visual 
 ## Summary
 
 - Total cards: **108** (6 locales × 18 indexable pages).
-- 🔴 Hard truncation errors: **6**.
+- 🔴 Hard truncation errors: **0**.
 - 🟡 Mobile / CTA warnings: **18**.
 - 🔵 Informational notes: **0**.
+
+> ✅ **No hard SERP truncations expected** on any of the 18 indexable pages across any of the 6 locales. The refreshed copy from Task #3 renders cleanly in Google's desktop card; remaining notes are mobile-only and documented per page below.
 
 ### Per-locale breakdown
 
 | Locale | Pages | 🔴 errors | 🟡 warnings | 🔵 info |
 | --- | ---: | ---: | ---: | ---: |
-| Español (es-ES) | 18 | 1 | 2 | 0 |
-| English (en-US) | 18 | 1 | 4 | 0 |
-| Français (fr-FR) | 18 | 1 | 5 | 0 |
-| Deutsch (de-DE) | 18 | 1 | 3 | 0 |
-| Português (pt-PT) | 18 | 1 | 2 | 0 |
-| Català (ca-ES) | 18 | 1 | 2 | 0 |
+| Español (es-ES) | 18 | 0 | 2 | 0 |
+| English (en-US) | 18 | 0 | 4 | 0 |
+| Français (fr-FR) | 18 | 0 | 5 | 0 |
+| Deutsch (de-DE) | 18 | 0 | 3 | 0 |
+| Português (pt-PT) | 18 | 0 | 2 | 0 |
+| Català (ca-ES) | 18 | 0 | 2 | 0 |
 
 ## Flagged cards
 
 Cards with at least one note. _Mobile-title wraps are normal Google rendering_ — only worth fixing if the wrap looks awkward in the visual gallery. _CTA-mobile flags_ mean the soft call-to-action sits past the mobile 3-line window and may not render on phones; this is acceptable when the desktop card still shows the full CTA.
-
-### `/es` · static · home (es)
-
-- **Title** (54 chars · 433 px est. desktop)
-  > Tu LLC en EE.UU. con respaldo fiscal premium | Exentax
-- **Description** (174 chars · 889 px est. desktop)
-  > Constitución, EIN, banca americana, compliance IRS y un fiscalista real al teléfono. La estructura legal que usan founders, fondos y operadores serios. Sin software low-cost.
-- Notes:
-  - 🔴 Description is 174 chars, exceeds desktop cap of 165; tail will be cropped.
 
 ### `/es/servicios/llc-delaware` · subpage · service_llcDe (es)
 
@@ -61,15 +54,6 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
   > Wyoming, el estándar de oro en privacidad y protección de activos. LLC con EIN, banca americana y agente registrado, sin viajar a EE. UU. Empieza hoy.
 - Notes:
   - 🟡 Soft CTA "empieza hoy" sits at char 139; mobile SERP usually truncates around char 130, so the CTA may not render on phones.
-
-### `/en` · static · home (en)
-
-- **Title** (46 chars · 376 px est. desktop)
-  > Your US LLC with premium tax backing | Exentax
-- **Description** (168 chars · 869 px est. desktop)
-  > Formation, EIN, US banking, IRS compliance and a real tax advisor on the phone. The legal structure used by founders, funds and serious operators. No low-cost software.
-- Notes:
-  - 🔴 Description is 168 chars, exceeds desktop cap of 165; tail will be cropped.
 
 ### `/en/services/get-your-itin` · subpage · service_itin (en)
 
@@ -106,15 +90,6 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
   > Wyoming is the gold standard in privacy and asset protection. We set up your LLC with EIN, US banking and registered agent, no US trip. Book a free call.
 - Notes:
   - 🟡 Soft CTA "book a free call" sits at char 137; mobile SERP usually truncates around char 130, so the CTA may not render on phones.
-
-### `/fr` · static · home (fr)
-
-- **Title** (54 chars · 438 px est. desktop)
-  > Votre LLC US avec couverture fiscale premium | Exentax
-- **Description** (184 chars · 927 px est. desktop)
-  > Constitution, EIN, banque américaine, conformité IRS et un fiscaliste réel au téléphone. La structure légale qu'utilisent founders, fonds et opérateurs sérieux. Sans software low-cost.
-- Notes:
-  - 🔴 Description is 184 chars, exceeds desktop cap of 165; tail will be cropped.
 
 ### `/fr/services/obtiens-ton-itin` · subpage · service_itin (fr)
 
@@ -161,15 +136,6 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
 - Notes:
   - 🟡 Soft CTA "démarrez ici" sits at char 143; mobile SERP usually truncates around char 130, so the CTA may not render on phones.
 
-### `/de` · static · home (de)
-
-- **Title** (49 chars · 411 px est. desktop)
-  > Ihre US-LLC mit Premium-Steuerbetreuung | Exentax
-- **Description** (179 chars · 948 px est. desktop)
-  > Gründung, EIN, US-Banking, IRS-Compliance und ein echter Steuerberater am Telefon. Die Rechtsstruktur, die Founder, Fonds und ernsthafte Operatoren nutzen. Ohne Low-Cost-Software.
-- Notes:
-  - 🔴 Description is 179 chars, exceeds desktop cap of 165; tail will be cropped.
-
 ### `/de/leistungen/llc-delaware` · subpage · service_llcDe (de)
 
 - **Title** (47 chars · 384 px est. desktop)
@@ -197,15 +163,6 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
 - Notes:
   - 🟡 Soft CTA "jetzt starten" sits at char 137; mobile SERP usually truncates around char 130, so the CTA may not render on phones.
 
-### `/pt` · static · home (pt)
-
-- **Title** (55 chars · 453 px est. desktop)
-  > A sua LLC nos EUA com respaldo fiscal premium | Exentax
-- **Description** (178 chars · 927 px est. desktop)
-  > Constituição, EIN, banca americana, compliance IRS e um assessor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.
-- Notes:
-  - 🔴 Description is 178 chars, exceeds desktop cap of 165; tail will be cropped.
-
 ### `/pt/servicos/llc-delaware` · subpage · service_llcDe (pt)
 
 - **Title** (50 chars · 394 px est. desktop)
@@ -223,15 +180,6 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
   > Wyoming é o padrão de ouro em privacidade e proteção de ativos. LLC com EIN, banca americana e agente registado, sem viajar aos EUA. Comece hoje.
 - Notes:
   - 🟡 Soft CTA "comece hoje" sits at char 134; mobile SERP usually truncates around char 130, so the CTA may not render on phones.
-
-### `/ca` · static · home (ca)
-
-- **Title** (59 chars · 468 px est. desktop)
-  > La teva LLC als EUA amb respatller fiscal premium | Exentax
-- **Description** (178 chars · 896 px est. desktop)
-  > Constitució, EIN, banca americana, compliance IRS i un fiscalista real al telèfon. L'estructura legal que fan servir founders, fons i operadors seriosos. Sense software low-cost.
-- Notes:
-  - 🔴 Description is 178 chars, exceeds desktop cap of 165; tail will be cropped.
 
 ### `/ca/serveis/llc-florida` · subpage · service_llcFl (ca)
 
@@ -253,7 +201,7 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
 
 ## Recommendation
 
-Hard desktop truncations were detected — review the flagged cards above and shorten copy to fit the 60-char title / 165-char description budget. Re-run `npm run seo:meta` after editing.
+No hard desktop truncations. Remaining flags are mobile-only and **acceptable as-is**: the existing copy was deliberately tuned to fit the desktop 165-char budget and Google's mobile card already truncates at ~130 chars on most phones, so the soft CTA may not appear on mobile for some descriptions. This trade-off was accepted in Task #2 in exchange for richer copy on the desktop card (where the CTA does render).
 
 ## Full inventory
 
@@ -266,7 +214,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/es/blog` | 49 | 149 | ✅ |
 | static | `/es/agendar` | 54 | 151 | ✅ |
 | static | `/es/preguntas-frecuentes` | 47 | 157 | ✅ |
-| static | `/es` | 54 | 174 | 🔴desktop-description |
+| static | `/es` | 54 | 156 | ✅ |
 | static | `/es/como-trabajamos` | 52 | 153 | ✅ |
 | static | `/es/legal/cookies` | 29 | 143 | ✅ |
 | static | `/es/legal/disclaimer` | 34 | 150 | ✅ |
@@ -289,7 +237,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/en/blog` | 49 | 156 | ✅ |
 | static | `/en/book` | 54 | 146 | ✅ |
 | static | `/en/faq` | 39 | 153 | ✅ |
-| static | `/en` | 46 | 168 | 🔴desktop-description |
+| static | `/en` | 46 | 158 | ✅ |
 | static | `/en/how-we-work` | 51 | 159 | ✅ |
 | static | `/en/legal/cookies` | 23 | 134 | ✅ |
 | static | `/en/legal/disclaimer` | 37 | 148 | ✅ |
@@ -312,7 +260,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/fr/blog` | 54 | 153 | ✅ |
 | static | `/fr/reserver` | 56 | 159 | ✅ |
 | static | `/fr/questions-frequentes` | 38 | 146 | ✅ |
-| static | `/fr` | 54 | 184 | 🔴desktop-description |
+| static | `/fr` | 54 | 156 | ✅ |
 | static | `/fr/comment-nous-travaillons` | 52 | 154 | ✅ |
 | static | `/fr/legal/cookies` | 30 | 152 | ✅ |
 | static | `/fr/legal/avertissement` | 40 | 147 | ✅ |
@@ -335,7 +283,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/de/blog` | 48 | 153 | ✅ |
 | static | `/de/buchen` | 48 | 151 | ✅ |
 | static | `/de/haufige-fragen` | 45 | 138 | ✅ |
-| static | `/de` | 49 | 179 | 🔴desktop-description |
+| static | `/de` | 49 | 152 | ✅ |
 | static | `/de/wie-wir-arbeiten` | 53 | 159 | ✅ |
 | static | `/de/legal/cookies` | 27 | 142 | ✅ |
 | static | `/de/legal/haftungsausschluss` | 44 | 146 | ✅ |
@@ -358,7 +306,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/pt/blog` | 55 | 157 | ✅ |
 | static | `/pt/agendar` | 50 | 145 | ✅ |
 | static | `/pt/perguntas-frequentes` | 45 | 154 | ✅ |
-| static | `/pt` | 55 | 178 | 🔴desktop-description |
+| static | `/pt` | 55 | 155 | ✅ |
 | static | `/pt/como-trabalhamos` | 52 | 154 | ✅ |
 | static | `/pt/legal/cookies` | 29 | 136 | ✅ |
 | static | `/pt/legal/aviso-legal` | 34 | 146 | ✅ |
@@ -381,7 +329,7 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | static | `/ca/blog` | 55 | 154 | ✅ |
 | static | `/ca/agendar` | 48 | 143 | ✅ |
 | static | `/ca/preguntes-frequents` | 45 | 154 | ✅ |
-| static | `/ca` | 59 | 178 | 🔴desktop-description |
+| static | `/ca` | 52 | 160 | ✅ |
 | static | `/ca/com-treballem` | 53 | 149 | ✅ |
 | static | `/ca/legal/cookies` | 29 | 153 | ✅ |
 | static | `/ca/legal/avis-legal` | 33 | 146 | ✅ |

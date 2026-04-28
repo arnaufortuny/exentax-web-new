@@ -214,7 +214,7 @@ Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd r
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free advisory session</a>.
+Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free consultation</a>.
 <!-- /exentax:cta-v1 -->
 
 `;
