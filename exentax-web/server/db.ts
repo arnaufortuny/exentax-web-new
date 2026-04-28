@@ -29,6 +29,67 @@ pool.on("connect", () => {
   logger.debug("New DB connection established", "db");
 });
 
+// Slow-query observability. Wraps `pool.query` (the function Drizzle calls
+// under the hood) so we can measure every statement and emit a WARN when it
+// crosses the threshold. The pool itself enforces `statement_timeout`, so
+// this is purely diagnostic — it never cancels a query, never alters its
+// result, and degrades safely if `performance.now` is unavailable.
+const SLOW_QUERY_MS = parseInt(process.env.DB_SLOW_QUERY_MS || "1000", 10);
+let _slowQueryCount = 0;
+let _totalQueryCount = 0;
+function summariseSql(sql: unknown): string {
+  if (typeof sql !== "string") {
+    if (sql && typeof (sql as { text?: string }).text === "string") {
+      return summariseSql((sql as { text: string }).text);
+    }
+    return "<non-string>";
+  }
+  // Single-line, collapsed whitespace, length-capped — never log full bodies.
+  return sql.replace(/\s+/g, " ").trim().slice(0, 160);
+}
+// Wrap `pool.query` with a slow-query timer. The cast through `unknown` is
+// intentional: pg's `Pool.query` ships nine overloads (callback + promise +
+// typed Submittable variants) and there is no public generic that lets us
+// re-emit them all from a single wrapper signature. The wrapper is a pure
+// pass-through — same args in, same return value out — so callers continue to
+// see the original overload-resolved types via `pool.query`. `wrapPoolQuery`
+// is isolated so the casting surface lives in one place and is easy to audit.
+function wrapPoolQuery(targetPool: Pool, slowMs: number): void {
+  type AnyQueryFn = (...args: unknown[]) => unknown;
+  const handle = targetPool as unknown as { query: AnyQueryFn };
+  const orig: AnyQueryFn = handle.query.bind(targetPool) as AnyQueryFn;
+  handle.query = (...args: unknown[]): unknown => {
+    const start = Date.now();
+    _totalQueryCount++;
+    const result = orig(...args);
+    if (result && typeof (result as { then?: unknown }).then === "function") {
+      (result as Promise<unknown>).then(
+        () => {
+          const ms = Date.now() - start;
+          if (ms >= slowMs) {
+            _slowQueryCount++;
+            logger.warn(`slow query ${ms}ms: ${summariseSql(args[0])}`, "db");
+          }
+        },
+        () => { /* errors surface to the caller; do not double-log here */ },
+      );
+    }
+    return result;
+  };
+}
+wrapPoolQuery(pool, SLOW_QUERY_MS);
+
+export function getPoolStats(): { total: number; idle: number; waiting: number; max: number; totalQueries: number; slowQueries: number } {
+  return {
+    total: pool.totalCount,
+    idle: pool.idleCount,
+    waiting: pool.waitingCount,
+    max: (pool.options as { max?: number }).max ?? 0,
+    totalQueries: _totalQueryCount,
+    slowQueries: _slowQueryCount,
+  };
+}
+
 export const db = drizzle(pool, { schema });
 
 export async function closePool() {

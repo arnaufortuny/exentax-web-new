@@ -351,7 +351,7 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                 data-testid={`button-country-${c.id}`}
                 aria-pressed={country === c.id}
               >
-                <img src={c.flag} alt="" className={`rounded-full flex-shrink-0 ring-1 ring-black/5 ${compact ? "w-3.5 h-3.5" : "w-5 h-5 lg:w-6 lg:h-6"}`} loading="lazy" aria-hidden="true" />
+                <img src={c.flag} alt="" width={24} height={24} className={`rounded-full flex-shrink-0 ring-1 ring-black/5 ${compact ? "w-3.5 h-3.5" : "w-5 h-5 lg:w-6 lg:h-6"}`} loading="lazy" decoding="async" aria-hidden="true" />
                 <span className="truncate">{t(`calculator.countryLabels.${c.id}`, { defaultValue: c.label })}</span>
               </button>
             ))}

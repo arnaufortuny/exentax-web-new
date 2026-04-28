@@ -198,7 +198,7 @@ export default function GoPage() {
         </div>
 
         <div className="flex items-center justify-center mt-8">
-          <img src="/img/partner-trustpilot.webp" alt={t("footer.trustpilotAlt")} loading="lazy" decoding="async" className="h-12 w-auto object-contain" data-testid="img-partner-trustpilot-links" />
+          <img src="/img/partner-trustpilot.webp" alt={t("footer.trustpilotAlt")} width={200} height={80} loading="lazy" decoding="async" className="h-12 w-auto object-contain" data-testid="img-partner-trustpilot-links" />
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 mt-5">

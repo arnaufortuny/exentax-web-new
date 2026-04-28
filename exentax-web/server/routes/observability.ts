@@ -9,9 +9,9 @@
 import type { Express, Request, Response } from "express";
 import { sql } from "drizzle-orm";
 import { z } from "zod";
-import { db } from "../db";
+import { db, getPoolStats } from "../db";
 import { logger } from "../logger";
-import { snapshot, renderPrometheus, setEmailRetryQueueSize, incClientError } from "../metrics";
+import { snapshot, renderPrometheus, setEmailRetryQueueSize, setDbPoolStats, incClientError } from "../metrics";
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
 import { getDiscordQueueSize } from "../discord";
@@ -183,6 +183,9 @@ export function registerObservabilityRoutes(
     try {
       const size = await getEmailRetryQueueSize();
       setEmailRetryQueueSize(size);
+    } catch { /* metrics path is best-effort */ }
+    try {
+      setDbPoolStats(getPoolStats());
     } catch { /* metrics path is best-effort */ }
     const accept = String(req.headers["accept"] || "");
     if (accept.includes("application/json")) {

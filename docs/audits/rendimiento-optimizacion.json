@@ -9,11 +9,38 @@
   },
   "memoizacion": {
     "uso": "Activo en 16 archivos (useMemo/useCallback/React.memo).",
-    "componentes_clave": ["AppRouter (memo)", "Calculator (7 memos)", "Navbar (6)", "FAQ (4)", "BookingCalendar (4)"]
+    "componentes_clave": [
+      "AppRouter (memo)",
+      "Calculator (7 memos)",
+      "Navbar (6)",
+      "FAQ (4)",
+      "BookingCalendar (4)"
+    ]
   },
   "imagenes": {
-    "publicas_png": ["apple-touch-icon", "ex-author-icon", "ex-icon-green", "favicon-*", "icon-192", "icon-512", "logo-tight", "og-image", "partner-trustpilot", "partner-wise", "partner-interactive-brokers", "flags/*"],
-    "publicas_webp": ["partner-kraken", "partner-mercury", "partner-relay", "partner-slash", "partner-stripe", "partner-visa", "partner-wallester"],
+    "publicas_png": [
+      "apple-touch-icon",
+      "ex-author-icon",
+      "ex-icon-green",
+      "favicon-*",
+      "icon-192",
+      "icon-512",
+      "logo-tight",
+      "og-image",
+      "partner-trustpilot",
+      "partner-wise",
+      "partner-interactive-brokers",
+      "flags/*"
+    ],
+    "publicas_webp": [
+      "partner-kraken",
+      "partner-mercury",
+      "partner-relay",
+      "partner-slash",
+      "partner-stripe",
+      "partner-visa",
+      "partner-wallester"
+    ],
     "loading_lazy_count": 21,
     "observaciones": [
       "Mayor parte de partners ya en WebP. Quedan PNG: trustpilot, wise, interactive-brokers + flags.",
@@ -82,11 +109,61 @@
       "hallazgo": "compression middleware activo en server (server/index.ts). Helmet con CSP. Esbuild minifica build.",
       "prioridad": "alta",
       "estado": "verificado"
+    },
+    {
+      "id": "PERF-009",
+      "categoria": "observabilidad",
+      "hallazgo": "Metricas /api/metrics carecian de etiquetas por ruta y percentiles. Sin route label no se pueden alertar latencias por endpoint.",
+      "prioridad": "alta",
+      "estado": "aplicado",
+      "accion": "recordHttpRequest acepta ahora `route` (req.route.path templated) y agregamos `http_route_requests_total{method,route,status}`, `http_route_request_duration_ms_{count,sum,quantile}` con cardinalidad acotada (200 + bucket __other) y percentiles p50/p95/p99 derivados del histograma."
+    },
+    {
+      "id": "PERF-010",
+      "categoria": "db",
+      "hallazgo": "Sin observabilidad de pool ni queries lentas. Saturacion del pool solo se detectaba por timeouts.",
+      "prioridad": "alta",
+      "estado": "aplicado",
+      "accion": "Wrap de pool.query mide cada statement; warn estructurado al cruzar DB_SLOW_QUERY_MS (1000ms por defecto). /api/metrics expone db_pool_connections_total/idle/max, db_pool_clients_waiting, db_queries_total y db_slow_queries_total."
+    },
+    {
+      "id": "PERF-011",
+      "categoria": "cache",
+      "hallazgo": "/api/* no tenia politica de cache por defecto; algunos clientes podian almacenar JSON sensible.",
+      "prioridad": "alta",
+      "estado": "aplicado",
+      "accion": "Middleware en server/index.ts establece `Cache-Control: no-store` por defecto en /api/* sin pisar las rutas que ya configuran la suya (sitemaps/api/geo). HTML del SPA en dev tambien forza no-cache."
+    },
+    {
+      "id": "PERF-012",
+      "categoria": "paginacion",
+      "hallazgo": "Storage methods unbounded (getFutureAgenda, getAllBlockedDays) y endpoint /api/bookings/blocked-days sin contrato de paginacion.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Hard caps con WARN log en storage (5000 / 2000 / 1000 segun tabla). /api/bookings/blocked-days acepta ?limit=&offset= con max 1000 y rechaza con HTTP 400 cualquier valor por encima."
+    },
+    {
+      "id": "PERF-013",
+      "categoria": "cls",
+      "hallazgo": "Banderas calculadora, logo footer, partner trustpilot en /go y avatar autor blog sin width/height intrinseco.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "Anadidos width/height + decoding=async. El navegador reserva el hueco antes de descargar el byte y CLS cae a ~0 en esas paginas."
+    },
+    {
+      "id": "PERF-014",
+      "categoria": "react_query",
+      "hallazgo": "staleTime unico (30s) para todos los queryKey. Los datos estaticos se refetcheaban en cada focus de ventana.",
+      "prioridad": "media",
+      "estado": "aplicado",
+      "accion": "queryClient.ts exporta STATIC_QUERY_OPTS / REFERENCE_QUERY_OPTS / LIVE_QUERY_OPTS. Convencion documentada para que callers opten por la politica adecuada."
     }
   ],
   "resumen": {
-    "issues_pendientes": 4,
+    "issues_pendientes": 2,
+    "issues_aplicados": 8,
     "issues_verificados": 4,
-    "estado_general": "rendimiento optimizado; mejoras incrementales en imagenes y fuentes"
-  }
+    "estado_general": "rendimiento + observabilidad endurecidos (task 13); imagenes y fuentes optimizadas previamente"
+  },
+  "fecha_actualizacion": "2026-04-28"
 }

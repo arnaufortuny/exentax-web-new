@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams } from "wouter";
 import { useTranslation } from "react-i18next";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
+import { apiRequest, LIVE_QUERY_OPTS } from "@/lib/queryClient";
 import { useLangPath } from "@/hooks/useLangPath";
 import { CheckCircleIcon, XCircleIcon, SpinnerIcon, CalendarIcon, ClockCircleIcon, VideoIcon, ArrowLeftIcon, CalendarXIcon, CalendarClockIcon, PhoneIcon } from "@/components/icons";
 import { BRAND } from "@/lib/constants";
@@ -98,6 +98,7 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
   const [rescheduleErrorKey, setRescheduleErrorKey] = useState<string>("agenda.rescheduleError");
 
   const { data: availableSlots, isLoading: slotsLoading, isError: slotsError } = useQuery<Array<{ time: string; endTime: string }>>({
+    ...LIVE_QUERY_OPTS,
     queryKey: ["/api/bookings/available-slots", selectedDate],
     queryFn: async () => {
       const res = await apiRequest("GET", `/api/bookings/available-slots?date=${selectedDate}`);

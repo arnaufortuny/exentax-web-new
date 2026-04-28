@@ -4,9 +4,21 @@ import * as s from "../../shared/schema";
 import { normalizeEmail, wrapStorageError, SlotConflictError, isSlotUniqueViolation } from "./core";
 import { todayMadridISO } from "../server-constants";
 import { encryptSensitiveFields, decryptSensitiveFields, type SensitiveFieldName } from "../field-encryption";
+import { logger } from "../logger";
 import crypto from "crypto";
 
 const AGENDA_SENSITIVE: readonly SensitiveFieldName[] = ["phone"];
+
+// Defensive hard caps. Even though business volumes today are small, an
+// unbounded SELECT against `agenda` or `blocked_days` would degrade gracefully
+// to "the whole pool stalls on a multi-MB query". The reminder reconciler
+// runs every hour from a single instance so 5000 future bookings is already
+// pathologically large; we trim to the cap and log a WARN so operators know
+// to introduce real pagination if we ever hit it.
+const FUTURE_AGENDA_HARD_CAP = 5000;
+const BLOCKED_DAYS_HARD_CAP = 2000;
+const AGENDA_FILTER_DEFAULT_LIMIT = 200;
+const AGENDA_FILTER_HARD_CAP = 1000;
 
 function decryptAgenda<T extends Record<string, unknown>>(row: T): T {
   return decryptSensitiveFields(row, AGENDA_SENSITIVE);
@@ -21,7 +33,10 @@ export async function getFutureAgenda() {
         sql`${s.agenda.status} NOT IN ('cancelled', 'no_show')`,
         sql`COALESCE(${s.agenda.reminderSent}, false) = false`,
       )
-    );
+    ).limit(FUTURE_AGENDA_HARD_CAP);
+    if (rows.length >= FUTURE_AGENDA_HARD_CAP) {
+      logger.warn(`getFutureAgenda hit hard cap (${FUTURE_AGENDA_HARD_CAP}) — reminder sweep may miss bookings; introduce real pagination`, "db");
+    }
     return rows.map(r => decryptAgenda(r as unknown as Record<string, unknown>) as unknown as s.Agenda);
   } catch (err) { throw wrapStorageError("getFutureAgenda", err); }
 }
@@ -164,7 +179,7 @@ export async function listAgendasFiltered(opts: ListAgendasFilter = {}) {
       const needle = `%${raw.toLowerCase()}%`;
       conds.push(sql`(LOWER(${s.agenda.id}) = ${raw.toLowerCase()} OR LOWER(${s.agenda.name}) LIKE ${needle} OR LOWER(${s.agenda.email}) LIKE ${needle})`);
     }
-    const limit = Math.min(Math.max(opts.limit ?? 200, 1), 1000);
+    const limit = Math.min(Math.max(opts.limit ?? AGENDA_FILTER_DEFAULT_LIMIT, 1), AGENDA_FILTER_HARD_CAP);
     const where = conds.length ? and(...conds) : undefined;
     const baseQuery = db.select().from(s.agenda);
     const filteredQuery = where ? baseQuery.where(where) : baseQuery;
@@ -177,7 +192,13 @@ export async function listAgendasFiltered(opts: ListAgendasFilter = {}) {
 
 export async function getAllBlockedDays() {
   try {
-    return await db.select().from(s.blockedDays).orderBy(asc(s.blockedDays.date));
+    const rows = await db.select().from(s.blockedDays)
+      .orderBy(asc(s.blockedDays.date))
+      .limit(BLOCKED_DAYS_HARD_CAP);
+    if (rows.length >= BLOCKED_DAYS_HARD_CAP) {
+      logger.warn(`getAllBlockedDays hit hard cap (${BLOCKED_DAYS_HARD_CAP}) — booking calendar may miss days; switch to a date-range query`, "db");
+    }
+    return rows;
   } catch (err) { throw wrapStorageError("getAllBlockedDays", err); }
 }
 

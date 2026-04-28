@@ -201,6 +201,32 @@ app.use("/uploads", (_req, res) => {
   res.status(403).end();
 });
 
+// Default cache policy for /api/* responses: `no-store`. Concrete routes can
+// still set their own `Cache-Control` (e.g. `/api/geo` uses `private,
+// max-age=600`, sitemaps use `public, max-age=3600`) — we honour their choice
+// and only fill the gap so JSON endpoints never get cached by proxies or
+// browsers by accident. Wrapping `res.setHeader` lets us detect "did the
+// route already set Cache-Control?" without a `finish` listener race.
+// Mounted *before* /api/health so even the liveness probe gets the default.
+app.use("/api", (_req, res, next) => {
+  let routeSetCacheControl = false;
+  const origSetHeader = res.setHeader.bind(res);
+  res.setHeader = ((name: string, value: number | string | readonly string[]) => {
+    if (typeof name === "string" && name.toLowerCase() === "cache-control") {
+      routeSetCacheControl = true;
+    }
+    return origSetHeader(name, value);
+  }) as typeof res.setHeader;
+  const origEnd = res.end.bind(res);
+  res.end = ((...args: unknown[]) => {
+    if (!routeSetCacheControl && !res.getHeader("Cache-Control") && !res.headersSent) {
+      origSetHeader("Cache-Control", "no-store");
+    }
+    return (origEnd as (...a: unknown[]) => unknown)(...args);
+  }) as typeof res.end;
+  next();
+});
+
 // Liveness — process is up. Intentionally does NOT touch the DB so a
 // transient DB outage cannot cause the orchestrator to restart the
 // process (which would only worsen recovery). Readiness is split into
@@ -527,7 +553,14 @@ app.use((req, res, next) => {
       // self-amplification when scrapers poll frequently.
       if (path !== "/api/metrics") {
         try {
-          recordHttpRequest(req.method, res.statusCode, duration);
+          // `req.route?.path` is the *registered* template (e.g.
+          // `/booking/:id`) so cardinality stays bounded by the route table.
+          // Express also exposes `req.baseUrl` for sub-routers; combining
+          // both reconstructs the full template.
+          const tmpl = req.route?.path
+            ? `${req.baseUrl || ""}${req.route.path}`
+            : undefined;
+          recordHttpRequest(req.method, res.statusCode, duration, tmpl);
         } catch (err) {
           // Metrics recording is best-effort: a failure here MUST NOT break
           // the request lifecycle, but it must also not be silent — a broken

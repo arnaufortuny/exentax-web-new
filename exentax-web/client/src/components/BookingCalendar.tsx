@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { useQuery, useMutation } from "@tanstack/react-query";
-import { queryClient } from "@/lib/queryClient";
+import { queryClient, REFERENCE_QUERY_OPTS, LIVE_QUERY_OPTS } from "@/lib/queryClient";
 import { useTranslation } from "react-i18next";
 import { CONTACT } from "@/lib/constants";
 import { useInlineMessage } from "@/hooks/useInlineMessage";
@@ -107,6 +107,7 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
   const dayNamesFull = t("booking.dayNames", { returnObjects: true }) as string[];
 
   const blockedDaysQuery = useQuery<string[]>({
+    ...REFERENCE_QUERY_OPTS,
     queryKey: ["/api/bookings/blocked-days"],
     queryFn: async () => {
       const res = await fetch("/api/bookings/blocked-days");
@@ -114,12 +115,12 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       const json = await res.json();
       return json.data || json;
     },
-    staleTime: 300_000,
   });
   const blockedDates = useMemo(() => new Set(blockedDaysQuery.data || []), [blockedDaysQuery.data]);
   const todayStr = useMemo(() => todayMadridISO(), []);
 
   const slotsQuery = useQuery<{ date: string; slots: string[]; blocked?: boolean }>({
+    ...LIVE_QUERY_OPTS,
     queryKey: ["/api/bookings/available-slots", selectedDate],
     queryFn: async () => {
       const res = await fetch(`/api/bookings/available-slots?date=${selectedDate}`);
@@ -128,7 +129,6 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
       return { date: json.date, slots: json.slots, blocked: json.blocked };
     },
     enabled: !!selectedDate,
-    staleTime: 60_000,
     retry: 3,
     retryDelay: (attempt) => Math.min(1000 * 2 ** attempt, 8000),
   });

@@ -27,6 +27,29 @@ const httpDurationBuckets: number[] = HISTOGRAM_BUCKETS_MS.map(() => 0);
 let httpDurationCount = 0;
 let httpDurationSum = 0;
 
+// Per-route histograms keyed by `${method} ${routeTemplate}`. We deliberately
+// key by the registered template (e.g. `/api/booking/:bookingId`), never by
+// the resolved URL, so cardinality stays bounded by the route table even if
+// hostile callers fuzz path segments. Routes we have not seen before fall
+// into the `__other` bucket — that prevents a label explosion if a future
+// caller forgets to use `route.path`.
+const PER_ROUTE_LIMIT = 200;
+interface RouteStats {
+  count: number;
+  sumMs: number;
+  buckets: number[];
+  byStatusClass: Record<string, number>;
+}
+const perRoute: Map<string, RouteStats> = new Map();
+function newRouteStats(): RouteStats {
+  return {
+    count: 0,
+    sumMs: 0,
+    buckets: HISTOGRAM_BUCKETS_MS.map(() => 0),
+    byStatusClass: Object.create(null),
+  };
+}
+
 let discordQueueSize = 0;
 let discordDropTotal = 0;
 let discordSendFailTotal = 0;
@@ -53,7 +76,7 @@ const breakerStates: Record<string, "closed" | "open" | "half-open"> = {};
 const elDelay = monitorEventLoopDelay({ resolution: 20 });
 elDelay.enable();
 
-export function recordHttpRequest(method: string, status: number, durationMs: number): void {
+export function recordHttpRequest(method: string, status: number, durationMs: number, route?: string): void {
   const klass = `${Math.floor(status / 100)}xx`;
   const key = `${method}:${klass}`;
   httpRequestsTotal[key] = (httpRequestsTotal[key] ?? 0) + 1;
@@ -62,6 +85,59 @@ export function recordHttpRequest(method: string, status: number, durationMs: nu
   for (let i = 0; i < HISTOGRAM_BUCKETS_MS.length; i++) {
     if (durationMs <= HISTOGRAM_BUCKETS_MS[i]) httpDurationBuckets[i]++;
   }
+
+  // Per-route slice. We bucket unknown routes into `__other` so cardinality
+  // is hard-bounded; once `PER_ROUTE_LIMIT` distinct keys are registered,
+  // additional routes also fall into `__other`. This keeps the metric usable
+  // even after years of route churn or accidental dynamic paths.
+  const routeTemplate = route && route.length > 0 ? route : "__other";
+  const routeKey = `${method} ${routeTemplate}`;
+  let stats = perRoute.get(routeKey);
+  if (!stats) {
+    if (perRoute.size >= PER_ROUTE_LIMIT) {
+      const otherKey = `${method} __other`;
+      stats = perRoute.get(otherKey);
+      if (!stats) {
+        stats = newRouteStats();
+        perRoute.set(otherKey, stats);
+      }
+    } else {
+      stats = newRouteStats();
+      perRoute.set(routeKey, stats);
+    }
+  }
+  stats.count++;
+  stats.sumMs += durationMs;
+  stats.byStatusClass[klass] = (stats.byStatusClass[klass] ?? 0) + 1;
+  for (let i = 0; i < HISTOGRAM_BUCKETS_MS.length; i++) {
+    if (durationMs <= HISTOGRAM_BUCKETS_MS[i]) stats.buckets[i]++;
+  }
+}
+
+// Linear-interpolated percentile from a cumulative bucket histogram. Returns
+// null when the histogram is empty so callers can omit the series instead of
+// reporting a misleading 0. The input must be cumulative and aligned with
+// `HISTOGRAM_BUCKETS_MS`.
+function percentileFromBuckets(buckets: number[], total: number, p: number): number | null {
+  if (total <= 0) return null;
+  const target = total * p;
+  let prevBound = 0;
+  let prevCount = 0;
+  for (let i = 0; i < HISTOGRAM_BUCKETS_MS.length; i++) {
+    const count = buckets[i];
+    if (count >= target) {
+      const upper = HISTOGRAM_BUCKETS_MS[i];
+      const span = count - prevCount;
+      if (span <= 0) return upper;
+      const frac = (target - prevCount) / span;
+      return Math.round(prevBound + (upper - prevBound) * frac);
+    }
+    prevBound = HISTOGRAM_BUCKETS_MS[i];
+    prevCount = count;
+  }
+  // Above the last finite bound — return the top bound rather than +Inf so
+  // dashboards stay numeric. Operators read this as "≥ 10s".
+  return HISTOGRAM_BUCKETS_MS[HISTOGRAM_BUCKETS_MS.length - 1];
 }
 
 export function setDiscordQueueSize(n: number): void { discordQueueSize = n; }
@@ -99,6 +175,26 @@ export function setEmailRetryQueueSize(n: number): void { emailRetryQueueSize = 
 export function incAlertFallback(): void { alertFallbackTotal++; }
 export function incClientError(): void { clientErrorTotal++; }
 
+// DB pool gauges are sampled lazily inside `snapshot()` to avoid coupling
+// metrics.ts to db.ts at module-init time (which would create an import
+// cycle: db -> logger; metrics is consumed by observability which loads on
+// boot). The setter pattern lets the observability route push fresh values
+// right before exposition.
+let dbPoolTotal = 0;
+let dbPoolIdle = 0;
+let dbPoolWaiting = 0;
+let dbPoolMax = 0;
+let dbTotalQueries = 0;
+let dbSlowQueries = 0;
+export function setDbPoolStats(stats: { total: number; idle: number; waiting: number; max: number; totalQueries: number; slowQueries: number }): void {
+  dbPoolTotal = stats.total;
+  dbPoolIdle = stats.idle;
+  dbPoolWaiting = stats.waiting;
+  dbPoolMax = stats.max;
+  dbTotalQueries = stats.totalQueries;
+  dbSlowQueries = stats.slowQueries;
+}
+
 export function setBreakerState(name: string, state: "closed" | "open" | "half-open"): void {
   breakerStates[name] = state;
 }
@@ -118,6 +214,19 @@ export interface MetricsSnapshot {
     durationCount: number;
     durationSumMs: number;
     bucketsMs: { le: number; count: number }[];
+    p50Ms: number | null;
+    p95Ms: number | null;
+    p99Ms: number | null;
+    perRoute: Array<{
+      method: string;
+      route: string;
+      count: number;
+      sumMs: number;
+      byStatusClass: Record<string, number>;
+      p50Ms: number | null;
+      p95Ms: number | null;
+      p99Ms: number | null;
+    }>;
   };
   discord: {
     queueSize: number;
@@ -137,6 +246,7 @@ export interface MetricsSnapshot {
   alerts: { fallbackTotal: number };
   client: { errorsTotal: number };
   breakers: Record<string, "closed" | "open" | "half-open">;
+  db: { poolTotal: number; poolIdle: number; poolWaiting: number; poolMax: number; queriesTotal: number; slowQueriesTotal: number };
 }
 
 export function snapshot(): MetricsSnapshot {
@@ -151,6 +261,24 @@ export function snapshot(): MetricsSnapshot {
       durationCount: httpDurationCount,
       durationSumMs: Math.round(httpDurationSum),
       bucketsMs: HISTOGRAM_BUCKETS_MS.map((le, i) => ({ le, count: httpDurationBuckets[i] })),
+      p50Ms: percentileFromBuckets(httpDurationBuckets, httpDurationCount, 0.50),
+      p95Ms: percentileFromBuckets(httpDurationBuckets, httpDurationCount, 0.95),
+      p99Ms: percentileFromBuckets(httpDurationBuckets, httpDurationCount, 0.99),
+      perRoute: Array.from(perRoute.entries()).map(([key, s]) => {
+        const sp = key.indexOf(" ");
+        const method = sp > 0 ? key.slice(0, sp) : key;
+        const route = sp > 0 ? key.slice(sp + 1) : "__other";
+        return {
+          method,
+          route,
+          count: s.count,
+          sumMs: Math.round(s.sumMs),
+          byStatusClass: { ...s.byStatusClass },
+          p50Ms: percentileFromBuckets(s.buckets, s.count, 0.50),
+          p95Ms: percentileFromBuckets(s.buckets, s.count, 0.95),
+          p99Ms: percentileFromBuckets(s.buckets, s.count, 0.99),
+        };
+      }),
     },
     discord: {
       queueSize: discordQueueSize,
@@ -170,6 +298,14 @@ export function snapshot(): MetricsSnapshot {
     alerts: { fallbackTotal: alertFallbackTotal },
     client: { errorsTotal: clientErrorTotal },
     breakers: { ...breakerStates },
+    db: {
+      poolTotal: dbPoolTotal,
+      poolIdle: dbPoolIdle,
+      poolWaiting: dbPoolWaiting,
+      poolMax: dbPoolMax,
+      queriesTotal: dbTotalQueries,
+      slowQueriesTotal: dbSlowQueries,
+    },
   };
 }
 
@@ -198,6 +334,49 @@ export function renderPrometheus(): string {
   lines.push(`http_request_duration_ms_bucket{le="+Inf"} ${snap.http.durationCount}`);
   lines.push(`http_request_duration_ms_sum ${snap.http.durationSumMs}`);
   lines.push(`http_request_duration_ms_count ${snap.http.durationCount}`);
+
+  // Aggregate latency percentiles (interpolated from the histogram). Emitted
+  // as gauges so a Grafana single-stat panel can show "current p95" without
+  // a recording rule.
+  if (snap.http.p50Ms !== null) {
+    lines.push(`# HELP http_request_duration_ms_quantile Interpolated request latency percentile.`);
+    lines.push(`# TYPE http_request_duration_ms_quantile gauge`);
+    lines.push(`http_request_duration_ms_quantile{quantile="0.5"} ${snap.http.p50Ms}`);
+    if (snap.http.p95Ms !== null) lines.push(`http_request_duration_ms_quantile{quantile="0.95"} ${snap.http.p95Ms}`);
+    if (snap.http.p99Ms !== null) lines.push(`http_request_duration_ms_quantile{quantile="0.99"} ${snap.http.p99Ms}`);
+  }
+
+  // Per-route series. Cardinality is bounded by the registered Express route
+  // table because we record `req.route.path` (template) rather than the
+  // resolved URL.
+  if (snap.http.perRoute.length > 0) {
+    lines.push(`# HELP http_route_requests_total Requests bucketed by route template and status class.`);
+    lines.push(`# TYPE http_route_requests_total counter`);
+    for (const r of snap.http.perRoute) {
+      const safeRoute = r.route.replace(/"/g, "");
+      for (const [klass, count] of Object.entries(r.byStatusClass)) {
+        lines.push(`http_route_requests_total{method="${r.method}",route="${safeRoute}",status="${klass}"} ${count}`);
+      }
+    }
+    lines.push(`# TYPE http_route_request_duration_ms_sum counter`);
+    for (const r of snap.http.perRoute) {
+      const safeRoute = r.route.replace(/"/g, "");
+      lines.push(`http_route_request_duration_ms_sum{method="${r.method}",route="${safeRoute}"} ${r.sumMs}`);
+    }
+    lines.push(`# TYPE http_route_request_duration_ms_count counter`);
+    for (const r of snap.http.perRoute) {
+      const safeRoute = r.route.replace(/"/g, "");
+      lines.push(`http_route_request_duration_ms_count{method="${r.method}",route="${safeRoute}"} ${r.count}`);
+    }
+    lines.push(`# HELP http_route_request_duration_ms_quantile Per-route latency percentile (interpolated).`);
+    lines.push(`# TYPE http_route_request_duration_ms_quantile gauge`);
+    for (const r of snap.http.perRoute) {
+      const safeRoute = r.route.replace(/"/g, "");
+      if (r.p50Ms !== null) lines.push(`http_route_request_duration_ms_quantile{method="${r.method}",route="${safeRoute}",quantile="0.5"} ${r.p50Ms}`);
+      if (r.p95Ms !== null) lines.push(`http_route_request_duration_ms_quantile{method="${r.method}",route="${safeRoute}",quantile="0.95"} ${r.p95Ms}`);
+      if (r.p99Ms !== null) lines.push(`http_route_request_duration_ms_quantile{method="${r.method}",route="${safeRoute}",quantile="0.99"} ${r.p99Ms}`);
+    }
+  }
 
   lines.push(`# TYPE discord_queue_size gauge`);
   lines.push(`discord_queue_size ${snap.discord.queueSize}`);
@@ -246,5 +425,22 @@ export function renderPrometheus(): string {
   for (const [name, state] of Object.entries(snap.breakers)) {
     lines.push(`circuit_breaker_state{name="${name}"} ${breakerStateValue(state)}`);
   }
+
+  lines.push(`# HELP db_pool_connections_total Active connections in the pg pool.`);
+  lines.push(`# TYPE db_pool_connections_total gauge`);
+  lines.push(`db_pool_connections_total ${snap.db.poolTotal}`);
+  lines.push(`# TYPE db_pool_connections_idle gauge`);
+  lines.push(`db_pool_connections_idle ${snap.db.poolIdle}`);
+  lines.push(`# HELP db_pool_clients_waiting Clients queued waiting for a connection.`);
+  lines.push(`# TYPE db_pool_clients_waiting gauge`);
+  lines.push(`db_pool_clients_waiting ${snap.db.poolWaiting}`);
+  lines.push(`# TYPE db_pool_max gauge`);
+  lines.push(`db_pool_max ${snap.db.poolMax}`);
+  lines.push(`# TYPE db_queries_total counter`);
+  lines.push(`db_queries_total ${snap.db.queriesTotal}`);
+  lines.push(`# HELP db_slow_queries_total Queries exceeding DB_SLOW_QUERY_MS threshold.`);
+  lines.push(`# TYPE db_slow_queries_total counter`);
+  lines.push(`db_slow_queries_total ${snap.db.slowQueriesTotal}`);
+
   return lines.join("\n") + "\n";
 }

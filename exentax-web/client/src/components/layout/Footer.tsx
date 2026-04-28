@@ -156,7 +156,7 @@ export default function Footer() {
 
         <div className="pt-16 pb-12 text-center">
           <Link href={lp("home")} data-testid="link-footer-home">
-            <img src="/ex-icon-green.png" alt={BRAND.NAME} className="h-28 w-auto object-contain mx-auto brightness-0" loading="lazy" data-testid="img-logo-footer" />
+            <img src="/ex-icon-green.png" alt={BRAND.NAME} width={112} height={112} className="h-28 w-auto object-contain mx-auto brightness-0" loading="lazy" decoding="async" data-testid="img-logo-footer" />
           </Link>
         </div>
 

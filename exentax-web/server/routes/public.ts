@@ -347,11 +347,30 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     return res.json({ country, calculatorCountry, currency, ccaaProfile });
   });
 
+  // Defensive pagination contract. Today this endpoint returns ~tens of
+  // dates so callers don't *need* to paginate, but accepting an explicit
+  // `limit` (clamped to `BLOCKED_DAYS_MAX_LIMIT`) lets us reject unbounded
+  // requests before they hit storage. Anything above the cap is rejected
+  // with HTTP 400 — silent truncation would create the worst kind of bug
+  // (calendar appears free for blocked days the client never received).
+  const BLOCKED_DAYS_MAX_LIMIT = 1000;
+  const blockedDaysQuerySchema = z.object({
+    limit: z.coerce.number().int().min(1).max(BLOCKED_DAYS_MAX_LIMIT).optional(),
+    offset: z.coerce.number().int().min(0).optional(),
+  }).strict();
   app.get("/api/bookings/blocked-days", asyncHandler(async (req, res) => {
     const ip = getClientIp(req);
     if (!(await checkPublicDataRateLimit(ip))) return apiRateLimited(res, "rateLimited");
+    const parsed = blockedDaysQuerySchema.safeParse(req.query);
+    if (!parsed.success) {
+      return apiValidationFail(res, parsed.error);
+    }
+    const { limit, offset } = parsed.data;
     const rows = await getAllBlockedDays();
-    return apiOk(res, { data: rows.map(r => r.date).filter(Boolean) });
+    const dates = rows.map(r => r.date).filter(Boolean);
+    const start = offset ?? 0;
+    const end = limit !== undefined ? start + limit : undefined;
+    return apiOk(res, { data: dates.slice(start, end), total: dates.length });
   }));
 
   const slotsQuerySchema = z.object({

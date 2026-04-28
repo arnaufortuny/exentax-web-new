@@ -1005,7 +1005,7 @@ export default function BlogPost() {
                 <div className="flex flex-wrap items-center justify-between gap-4 mb-12 pb-6 border-b border-[var(--border)]">
                   <div className="flex flex-wrap items-center gap-3">
                     <span className="flex items-center gap-2 text-[var(--text-2)] text-[13.5px] font-body font-medium">
-                      <img src="/ex-author-icon.png" alt={t("blogPost.authorAvatarAlt")} className="w-6 h-6 rounded-full object-cover flex-shrink-0 overflow-hidden" style={{ clipPath: "circle(50%)" }} loading="lazy" data-testid="img-author-blog-post" />
+                      <img src="/ex-author-icon.png" alt={t("blogPost.authorAvatarAlt")} width={24} height={24} className="w-6 h-6 rounded-full object-cover flex-shrink-0 overflow-hidden" style={{ clipPath: "circle(50%)" }} loading="lazy" decoding="async" data-testid="img-author-blog-post" />
                       {t("blogPost.byExentax")}
                     </span>
                     <span className="text-[var(--text-3)] opacity-40">·</span>

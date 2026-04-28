@@ -80,6 +80,11 @@ export async function setupVite(server: Server, app: Express) {
       if (prepared.noindex) {
         res.setHeader("X-Robots-Tag", "noindex, nofollow");
       }
+      // Mirror the production HTML pipeline: HTML must never be cached so
+      // updates to assets/meta show up immediately. Static assets remain
+      // cacheable via the dedicated middleware in `server/index.ts` and
+      // `server/static.ts`.
+      res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
       res
         .status(prepared.status)
         .set({ "Content-Type": "text/html" })

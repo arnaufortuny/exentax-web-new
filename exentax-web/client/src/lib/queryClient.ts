@@ -88,6 +88,11 @@ export const queryClient = new QueryClient({
       queryFn: getQueryFn({ on401: "throw" }),
       refetchInterval: false,
       refetchOnWindowFocus: true,
+      // Default policy targets *changing* data (booking availability,
+      // visitor metadata, etc). Truly static data should opt in to a
+      // longer staleTime via the helpers below — never edit this default
+      // upward to "fix" one query, or every other query inherits stale
+      // reads silently.
       staleTime: 30_000,
       gcTime: 5 * 60_000,
       retry: (failureCount, error) => {
@@ -105,3 +110,36 @@ export const queryClient = new QueryClient({
     },
   },
 });
+
+// --- Per-query freshness presets ------------------------------------------------
+//
+// React Query's `staleTime` should match the data's actual mutation rate.
+// These presets centralise the policy so callers don't sprinkle magic
+// numbers across the app. Use them in `useQuery({ ...QUERY_OPTS_X, ... })`.
+//
+//   STATIC_QUERY_OPTS    — content that only changes on deploy (legals,
+//                          footer config, blog metadata bundled at build
+//                          time). Never re-fetched on focus; manual
+//                          invalidation only.
+//   REFERENCE_QUERY_OPTS — slow-moving server data (legal versions, country
+//                          lists). 10-minute freshness window.
+//   LIVE_QUERY_OPTS      — booking availability, agenda counts, anything
+//                          that must reflect another user's action quickly.
+//                          5-second freshness so a fresh booking shows up
+//                          almost immediately.
+export const STATIC_QUERY_OPTS = {
+  staleTime: Infinity,
+  gcTime: Infinity,
+  refetchOnWindowFocus: false as const,
+  refetchOnReconnect: false as const,
+};
+export const REFERENCE_QUERY_OPTS = {
+  staleTime: 10 * 60_000,
+  gcTime: 30 * 60_000,
+  refetchOnWindowFocus: false as const,
+};
+export const LIVE_QUERY_OPTS = {
+  staleTime: 5_000,
+  gcTime: 60_000,
+  refetchOnWindowFocus: true as const,
+};
