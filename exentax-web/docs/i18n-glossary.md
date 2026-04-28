@@ -95,7 +95,44 @@ original form in every locale.
 - Thousands separator: `.` in ES/CA/DE/PT; non-breaking space in FR;
   `,` in EN.
 
-## 7. Maintenance
+## 7. Forbidden variants the lint catches
+
+The `scripts/i18n-glossary-lint.ts` rule set rejects these common drift
+variants in addition to the canonical-only checks above. They tend to
+appear when content is pasted from email, drafted by a non-native
+author, or autocorrected.
+
+- **Run-together form names** — no space between the brand keyword and
+  the number:
+  - `Form5472`, `form1120`, `FORM1040-NR` → use `Form 5472`.
+  - `Modelo720`, `MODELO720`, `modelo100` → use `modelo 720`.
+- **W-8 series with the dash on the wrong side or stray space** —
+  canonical glues the form code as `W-8BEN` / `W-8BEN-E`:
+  - `W8BEN`, `W8 BEN` (existing rule) → use `W-8BEN`.
+  - `W-8 BEN`, `W-8 BEN-E`, `W-8-BEN` (stray space or extra dash before
+    `BEN`) → use `W-8BEN`.
+  - `W8-BEN`, `W8-BEN-E` (dash between 8 and BEN instead of W and 8) →
+    use `W-8BEN`.
+- **Spanish `formulario` mixed with a US IRS form number** — IRS form
+  names stay literal across every locale:
+  - `formulario 5472`, `formulario 1120`, `formulario 1040-NR` → use
+    `Form 5472`, `Form 1120`, `Form 1040-NR`.
+  - The rule is scoped to known US IRS form numbers (1040, 1042, 1065,
+    1099, 1120, 2553, 5472, 7004, 8832, 8804, 8805, 8938, 940, 941,
+    944) so genuinely Spanish or European forms (e.g. the French
+    `formulario 3916`) are not flagged.
+
+The W-8 wrong-dash and stray-space rules deliberately do NOT use the
+per-value `allowedContext` escape hatch: a single canonical `W-8BEN`
+elsewhere in the same article must not mask drift in the rest of the
+prose. Lowercase slug occurrences inside URL paths and HTML comment
+markers are still suppressed by the URL-context heuristic.
+
+Run `npx tsx scripts/i18n-glossary-lint.ts --self-test` to exercise
+the rule set against documented bad and good inputs (regression guard
+for the rules above).
+
+## 8. Maintenance
 
 - When adding a new domain term, add a row here in all six columns
   before merging.

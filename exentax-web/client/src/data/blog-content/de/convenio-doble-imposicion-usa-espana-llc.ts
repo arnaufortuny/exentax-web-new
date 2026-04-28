@@ -129,7 +129,7 @@ Ein spanischer Steuerberater, der internationale Strukturen mit LLCs versteht, i
 
 Wenn Sie Ihren Fall mit konkreten Zahlen prüfen möchten, **buche eine kostenlose 30-Minuten-Beratung** mit Exentax.
 
-Zur Vertiefung lies auch <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">LLC als Alternative zum autónomo-Status in Spanien</a> und <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">Vollständiger Leitfaden zu den Formularen W8-BEN und W8-BEN-E</a>.
+Zur Vertiefung lies auch <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">LLC als Alternative zum autónomo-Status in Spanien</a> und <a href="/de/blog/w8-ben-und-w8-ben-e-der-vollstandige-leitfaden">Vollständiger Leitfaden zu den Formularen W-8BEN und W-8BEN-E</a>.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
 
 Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance endet aber nicht mit der Gründung: Als Eigentümer mit Steuerwohnsitz in einem anderen Land hat Ihre örtliche Finanzverwaltung weiterhin das Recht, die Erträge der LLC zu besteuern. Entscheidend ist, **unter welchem Regime**.

@@ -133,7 +133,7 @@ Un assessor fiscal espanyol que entengui estructures internacionals amb LLCs és
 
 Si vols revisar el teu cas amb xifres concretes, **reserva una consultoria gratuïta de 30 minuts** amb Exentax.
 
-Per aprofundir, llegeix també <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC com a alternativa a ser autònom a Espanya</a> i <a href="/ca/blog/w8-ben-i-w8-ben-e-la-guia-completa">Guia completa dels formularis W8-BEN i W8-BEN-E</a>.
+Per aprofundir, llegeix també <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC com a alternativa a ser autònom a Espanya</a> i <a href="/ca/blog/w8-ben-i-w8-ben-e-la-guia-completa">Guia completa dels formularis W-8BEN i W-8BEN-E</a>.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

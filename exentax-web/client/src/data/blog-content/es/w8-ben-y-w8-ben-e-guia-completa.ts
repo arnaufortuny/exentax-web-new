@@ -1,6 +1,6 @@
 export default `
 
-Si tú o tu LLC cobráis dinero desde Estados Unidos (Stripe, PayPal, plataformas de afiliación, AdSense, dividendos, royalties, brokers...), antes o después os pueden pedir un **W8-BEN** o un **W8-BEN-E**. No todas las plataformas lo exigen: en banca de empresa como Mercury, Relay o Wise solo lo firmarás si te lo solicitan expresamente, mientras que en brokers como Interactive Brokers es obligatorio desde el alta. Cuando se exige y no se rellena (o se rellena mal), el resultado es siempre el mismo: el pagador estadounidense te aplica una **retención del 30%** sobre lo que te debe, "por si acaso". 30% que después es muy difícil recuperar.
+Si tú o tu LLC cobráis dinero desde Estados Unidos (Stripe, PayPal, plataformas de afiliación, AdSense, dividendos, royalties, brokers...), antes o después os pueden pedir un **W-8BEN** o un **W-8BEN-E**. No todas las plataformas lo exigen: en banca de empresa como Mercury, Relay o Wise solo lo firmarás si te lo solicitan expresamente, mientras que en brokers como Interactive Brokers es obligatorio desde el alta. Cuando se exige y no se rellena (o se rellena mal), el resultado es siempre el mismo: el pagador estadounidense te aplica una **retención del 30%** sobre lo que te debe, "por si acaso". 30% que después es muy difícil recuperar.
 
 Esta guía es la versión completa, en español, sin tecnicismos innecesarios pero rigurosa. Vas a entender qué son estos formularios, en qué se diferencian, quién debe presentar cada uno, dónde, cómo se rellenan paso a paso y qué errores pueden salirte caros.
 

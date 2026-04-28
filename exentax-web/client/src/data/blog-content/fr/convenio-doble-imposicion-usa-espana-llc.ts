@@ -129,7 +129,7 @@ Un conseiller fiscal espagnol qui comprend les structures internationales avec L
 
 Si vous voulez revoir votre cas avec des chiffres concrets, **réservez une consultation gratuite de 30 minutes** avec Exentax.
 
-Pour aller plus loin, lisez aussi <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC comme alternative au statut d'autónomo en Espagne</a> et <a href="/fr/blog/w8-ben-et-w8-ben-e-le-guide-complet">Guide complet des formulaires W8-BEN et W8-BEN-E</a>.
+Pour aller plus loin, lisez aussi <a href="/fr/blog/llc-comme-alternative-au-statut-dautonomo-en-espagne">LLC comme alternative au statut d'autónomo en Espagne</a> et <a href="/fr/blog/w8-ben-et-w8-ben-e-le-guide-complet">Guide complet des formulaires W-8BEN et W-8BEN-E</a>.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
 
 Une LLC américaine est un outil légal reconnu internationalement. Mais la conformité ne s'arrête pas à la constitution: en tant que propriétaire résident fiscal d'un autre pays, votre administration locale conserve le droit d'imposer ce que la LLC génère. L'essentiel est de savoir **sous quel régime**.

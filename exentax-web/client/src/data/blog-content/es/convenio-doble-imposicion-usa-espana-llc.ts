@@ -137,7 +137,7 @@ Un asesor fiscal español que entienda estructuras internacionales con LLCs no e
 
 Si quieres revisar tu caso con cifras concretas, **agenda una consulta gratuita de 30 minutos** con Exentax y te explicamos exactamente cómo encajaría tu LLC dentro del convenio USA-España y cómo coordinarlo con tu asesor en España.
 
-Para profundizar más, lee también <a href="/es/blog/llc-alternativa-autonomo-espana">LLC como alternativa a ser autónomo en España</a> y <a href="/es/blog/w8-ben-y-w8-ben-e-guia-completa">Guía completa de los formularios W8-BEN y W8-BEN-E</a>.
+Para profundizar más, lee también <a href="/es/blog/llc-alternativa-autonomo-espana">LLC como alternativa a ser autónomo en España</a> y <a href="/es/blog/w8-ben-y-w8-ben-e-guia-completa">Guía completa de los formularios W-8BEN y W-8BEN-E</a>.
 ## Compliance fiscal en tu país: CFC, TFI y atribución de rentas
 
 Una LLC americana es una herramienta legal y reconocida internacionalmente. Pero el cumplimiento no termina al constituirla: como propietario residente fiscal en otro país, tu administración tributaria sigue teniendo derecho a gravar lo que la LLC genera. Lo importante es saber **bajo qué régimen** aplica esa tributación.

@@ -118,12 +118,44 @@ const rules: Rule[] = [
     // somewhere in the same value (the bad regex is case-sensitive).
     allowedContext: /\bForm\s+\d{3,4}/,
   },
+  // ── Run-together 'Form' + number with no space (forbidden) ──
+  // Catches `Form5472`, `form1120`, `FORM1040-NR`. Canonical is
+  // `Form 5472` with a space between the brand keyword and number.
+  {
+    id: "Form-number run-together",
+    bad: /\bForm(\d{3,4}(?:-[A-Z0-9]{1,3})?)\b/i,
+    hint: "Use 'Form NNNN' with a space between 'Form' and the number (e.g. 'Form 5472').",
+  },
   // ── W-8 series: keep the dash. ──
   {
     id: "W8 missing dash",
     bad: /\bW\s?8\s?(BEN|BEN-E|BEN E)\b/i,
     hint: "Use 'W-8BEN' or 'W-8BEN-E'.",
     allowedContext: /\bW-8BEN(-E)?\b/,
+  },
+  // ── W-8 with stray space or extra dash before BEN (forbidden) ──
+  // Catches `W-8 BEN`, `W-8 BEN-E`, `W-8-BEN`. Canonical glues the
+  // form code: `W-8BEN` / `W-8BEN-E`. No `allowedContext`: each bad
+  // occurrence must be reported on its own merits (a single correct
+  // `W-8BEN` somewhere else in the same article must NOT mask drift).
+  // Case-sensitive on `BEN` to avoid colliding with the Catalan word
+  // `ben` ("well") that legitimately follows `W-8` in prose.
+  {
+    id: "W-8 stray separator before BEN",
+    bad: /\bW-8[\s\-]+BEN(?:[\s\-]?E)?\b/,
+    hint: "Use 'W-8BEN' / 'W-8BEN-E' (no space or extra dash between '8' and 'BEN').",
+  },
+  // ── W-8 with the dash on the wrong side (forbidden) ──
+  // Catches `W8-BEN`, `W8-BEN-E` (run-together 'W8' with a dash before
+  // 'BEN', often produced by autocorrect or pasted from email subjects).
+  // Lowercase slug occurrences inside URL paths and HTML comment
+  // markers (e.g. `/blog/w8-ben-...`, `<!-- :w8-ben-... -->`) are
+  // suppressed by `inUrlContext`. Case-sensitive on `BEN` because
+  // lowercase `w8-ben` only legitimately appears as a URL slug.
+  {
+    id: "W-8 wrong dash position",
+    bad: /\bW8-BEN(?:-E)?\b/,
+    hint: "Use 'W-8BEN' / 'W-8BEN-E' (dash between W and 8, not between 8 and BEN).",
   },
   // ── Spanish AEAT model numbers ──
   // Must be 'modelo NNN' lower-case 'modelo'. 'Modelo' at sentence start
@@ -132,6 +164,24 @@ const rules: Rule[] = [
     id: "Modelo number all-caps",
     bad: /\bMODELO\s+(720|721|100|130|111|303|390|349)\b/,
     hint: "Use lowercase 'modelo 720' / 'modelo 100' (sentence-case form).",
+  },
+  // ── Run-together 'modelo' + AEAT number with no space (forbidden) ──
+  // Catches `modelo720`, `Modelo720`, `MODELO720`. Canonical keeps the
+  // space: `modelo 720`.
+  {
+    id: "Modelo number run-together",
+    bad: /\bmodelo(720|721|100|130|111|303|390|349)\b/i,
+    hint: "Use 'modelo NNN' with a space between 'modelo' and the number (e.g. 'modelo 720').",
+  },
+  // ── Spanish 'formulario' replacing canonical 'Form NNNN' (forbidden) ──
+  // The glossary keeps US IRS form names literal across every locale:
+  // `Form 5472`, not `formulario 5472`. Restricted to the US IRS form
+  // numbers in active use so genuinely Spanish/European form names
+  // (e.g. the French `formulario 3916`) are not flagged.
+  {
+    id: "Spanish 'formulario' + US IRS form number",
+    bad: /\bformulario\s+(1040(?:-NR)?|1042(?:-[A-Z])?|1065|1099|1120|2553|5472|7004|8832|8804|8805|8938|940|941|944)\b/i,
+    hint: "Use canonical 'Form NNNN' literal (e.g. 'Form 5472'), not 'formulario 5472'.",
   },
   // ── Brand-protected names: must keep canonical casing. ──
   // Mercury, Stripe, PayPal, Wise, Relay, Slash, Wallester, Revolut,
@@ -239,6 +289,96 @@ function scan(label: string, bundles: Record<string, Flat>, checkRequired: boole
     if (violations.length) exit = 1;
   }
   return total;
+}
+
+// ─── Self-tests for the rule set ─────────────────────────────────────
+// Run with `npx tsx scripts/i18n-glossary-lint.ts --self-test` to
+// verify the rule set still catches the documented drift variants
+// (run-together, stray-space, wrong-dash, formulario+number) and
+// stays quiet on canonical and false-positive contexts. These tests
+// are also a regression guard for the W-8 rules: a single correct
+// `W-8BEN` somewhere in the same value must NOT mask drift elsewhere.
+function selfTest(): number {
+  type Case = { input: string; expectFire: string[]; expectQuiet?: boolean };
+  const cases: Case[] = [
+    // Run-together
+    { input: "Form5472", expectFire: ["Form-number run-together"] },
+    { input: "form1120", expectFire: ["Form-number run-together"] },
+    { input: "Modelo720", expectFire: ["Modelo number run-together"] },
+    { input: "MODELO720", expectFire: ["Modelo number run-together"] },
+    // W-8 stray space / extra dash
+    { input: "Use a W-8 BEN form", expectFire: ["W-8 stray separator before BEN"] },
+    { input: "Use a W-8 BEN-E form", expectFire: ["W-8 stray separator before BEN"] },
+    { input: "Use a W-8-BEN form", expectFire: ["W-8 stray separator before BEN"] },
+    // W-8 wrong dash position
+    { input: "Use a W8-BEN form", expectFire: ["W-8 wrong dash position"] },
+    { input: "Use a W8-BEN-E form", expectFire: ["W-8 wrong dash position"] },
+    // Critical regression: canonical W-8BEN in same value must NOT
+    // suppress drift elsewhere in that value. (Trailing words instead
+    // of bare punctuation, because `inUrlContext` is intentionally
+    // permissive about a trailing `.`/`-`/`/` to protect domain names.)
+    {
+      input: "We accept the W-8BEN; never write W-8 BEN or W8-BEN forms",
+      expectFire: ["W-8 stray separator before BEN", "W-8 wrong dash position"],
+    },
+    // Spanish formulario + US IRS form
+    { input: "presentar el formulario 5472 ante el IRS", expectFire: ["Spanish 'formulario' + US IRS form number"] },
+    { input: "el formulario 1120 anual", expectFire: ["Spanish 'formulario' + US IRS form number"] },
+    // ── False-positive guards (must stay quiet) ──
+    { input: "Form 5472", expectFire: [], expectQuiet: true },
+    { input: "modelo 720", expectFire: [], expectQuiet: true },
+    { input: "W-8BEN", expectFire: [], expectQuiet: true },
+    { input: "W-8BEN-E", expectFire: [], expectQuiet: true },
+    // Catalan word `ben` ("well") next to W-8 must not collide with BEN.
+    { input: "amb un W-8 ben fet, pots rebre els pagaments", expectFire: [], expectQuiet: true },
+    // French form number kept literal in Spanish prose must not be flagged.
+    { input: "el formulario 3916 francés", expectFire: [], expectQuiet: true },
+    // 'el formulario W-8BEN-E' (no digit follows) must not be flagged.
+    { input: "el formulario W-8BEN-E", expectFire: [], expectQuiet: true },
+    // Lowercase slug context (URL path) must be suppressed by inUrlContext.
+    { input: '<a href="/blog/w8-ben-and-w8-ben-e-the-complete-guide">guide</a>', expectFire: [], expectQuiet: true },
+    { input: "<!-- exentax:lote7-native-v1:w8-ben-y-w8-ben-e-guia-completa -->", expectFire: [], expectQuiet: true },
+  ];
+
+  function fireRules(value: string): string[] {
+    const fired: string[] = [];
+    for (const rule of rules) {
+      const flags = rule.bad.flags.includes("g") ? rule.bad.flags : rule.bad.flags + "g";
+      const re = new RegExp(rule.bad.source, flags);
+      for (const m of value.matchAll(re)) {
+        const idx = m.index ?? 0;
+        if (inUrlContext(value, idx, m[0].length)) continue;
+        if (rule.allowedContext && rule.allowedContext.test(value)) continue;
+        if (!fired.includes(rule.id)) fired.push(rule.id);
+        break;
+      }
+    }
+    return fired;
+  }
+
+  let failures = 0;
+  console.log("\n── Self-test ──");
+  for (const c of cases) {
+    const fired = fireRules(c.input);
+    const expected = new Set(c.expectFire);
+    const got = new Set(fired);
+    const missing = [...expected].filter((id) => !got.has(id));
+    const unexpected = [...got].filter((id) => !expected.has(id));
+    const ok = missing.length === 0 && unexpected.length === 0;
+    console.log(`${ok ? "✓" : "✗"} "${c.input}" → ${fired.length ? fired.join(", ") : "(no flag)"}`);
+    if (!ok) {
+      failures++;
+      if (missing.length) console.log(`    expected to fire: ${missing.join(", ")}`);
+      if (unexpected.length) console.log(`    unexpected fires: ${unexpected.join(", ")}`);
+    }
+  }
+  console.log(`Self-test: ${failures === 0 ? "PASS ✓" : `FAIL ✗ (${failures})`}`);
+  return failures;
+}
+
+if (process.argv.includes("--self-test")) {
+  const failures = selfTest();
+  process.exit(failures === 0 ? 0 : 1);
 }
 
 let totalViolations = 0;
