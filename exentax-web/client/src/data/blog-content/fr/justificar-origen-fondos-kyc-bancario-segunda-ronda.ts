@@ -59,9 +59,9 @@ Répondre sous 24-48h aux clarifications.
 ### Comment nous l'abordons chez Exentax
 
 Chez Exentax, nous accompagnons régulièrement des rondes KYC. Réservez une session initiale gratuite via notre page contact.
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
@@ -69,7 +69,7 @@ Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** appropri�
 - **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
 - **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
 
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser

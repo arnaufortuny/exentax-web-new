@@ -88,9 +88,9 @@ Para continuar neste fio, <a href="/pt/blog/iban-swift-e-routing-number-entenden
 | Wise Business | Conversão de divisas | Taxa de câmbio real (EMI) |
 
 Na Exentax já constituímos LLCs para vendedores Amazon FBA, lojas Shopify e operações de dropshipping a operar a partir de Portugal e do Brasil. Conhecemos o que funciona em cada modelo. Marca a tua consulta gratuita e dizemos-te exatamente qual estrutura serve o teu ecommerce.
-## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+## Arquitetura bancária equilibrada: Mercury, Relay, Slash e Wise
 
-Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, onde cada ferramenta cobre um papel:
 
 - **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
 - **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
@@ -114,7 +114,7 @@ A LLC para ecommerce lê-se de forma mais útil como um mapa operativo estável 
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos esta arquitetura como parte da constituição.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.

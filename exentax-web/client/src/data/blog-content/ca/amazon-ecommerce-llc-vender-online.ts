@@ -88,9 +88,9 @@ Per continuar aquest fil, <a href="/ca/blog/iban-swift-i-routing-number-entendre
 | Wise Business | Conversió de divises | Tipus de canvi real (EMI) |
 
 A Exentax hem constituït LLCs per a venedors d'Amazon FBA, botigues Shopify i operacions de dropshipping que operen des de Catalunya. Sabem què funciona en cada model. Reserva la teva assessoria gratuïta i et direm exactament quina estructura encaixa amb el teu ecommerce.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
@@ -108,7 +108,7 @@ La LLC per a ecommerce es llegeix de manera més útil com un mapa operatiu esta
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 ### Següents passos
 
 Ara que tens el context complet, el pas següent natural és contrastar-lo amb la teva pròpia situació: què encaixa, què no, i on són els matisos que depenen de la teva residència, la teva activitat i el teu volum. Una revisió ràpida del teu cas sol estalviar molt soroll abans de qualsevol decisió estructural.

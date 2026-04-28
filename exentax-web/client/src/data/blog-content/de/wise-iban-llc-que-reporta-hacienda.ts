@@ -111,7 +111,7 @@ Bei Exentax arbeiten wir genau an dieser Schnittstelle: <a href="/de/blog/llc-in
 <!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
 ## Warum die IBAN eines an eine LLC gebundenen Kontos eine eigene Referenzkarte verdient
 
-Eine an eine LLC gebundene IBAN verdient eine eigene Referenzkarte, getrennt von den übrigen Bankdokumenten, weil sie das Element ist, das am häufigsten in Abstimmungen und grenzüberschreitenden Kontrollen auftaucht. Die Karte muss nicht komplex sein: sie nennt die genaue Kontoinhaberin oder den genauen Kontoinhaber, die Ausgabejurisdiktion der IBAN, die Rolle des Kontos im Banken-Stack und das Eröffnungsdatum. Diese vier Informationen reichen aus, um den überwiegenden Teil der möglichen Fragen rasch zu beantworten.
+Eine an eine LLC gebundene IBAN verdient eine eigene Referenzkarte, getrennt von den übrigen Bankdokumenten, weil sie das Element ist, das am häufigsten in Abstimmungen und grenzüberschreitenden Kontrollen auftaucht. Die Karte muss nicht komplex sein: sie nennt die genaue Kontoinhaberin oder den genauen Kontoinhaber, die Ausgabejurisdiktion der IBAN, die Rolle der Kontos in der Banken-Architektur und das Eröffnungsdatum. Diese vier Informationen reichen aus, um den überwiegenden Teil der möglichen Fragen rasch zu beantworten.
 
 Der Nutzen dieser Karte zeigt sich vor allem, wenn eine Behörde um Klärung bittet: anstatt die Information aus mehreren Quellen rekonstruieren zu müssen, wird eine bereits kohärente und in sich tragende Karte übermittelt, was das Gespräch rasch abschliesst.
 <!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
@@ -217,16 +217,16 @@ aktuell, die Heimaterklärung des Mitglieds spiegelt die Wise-Salden
 und -Bewegungen, und die Buchhaltung der LLC zeichnet die
 Wise-Bewegungen mit klaren Etiketten auf. Die Reporting-Schichten
 sprechen dann dieselbe Sprache, und die Wise-IBAN bleibt das, was
-sie sein soll: ein bequemes operatives Werkzeug innerhalb eines
-vollständig sichtbaren Stacks.
+sie sein soll: ein bequemes operatives Werkzeug innerhalb einer
+vollständig sichtbaren Architektur.
 
 <!-- /exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda -->
 
 <!-- exentax:lote8-native-v1:wise-iban-llc-que-reporta-hacienda-bis -->
 ## Eine kurze Schlussnotiz
 
-Die richtig geführte Wise-IBAN passt sich in einen vollständig
-sichtbaren Stack ein und gewinnt dadurch an Stabilität. Was sie
+Die richtig geführte Wise-IBAN passt sich in eine vollständig
+sichtbaren Architektur ein und gewinnt dadurch an Stabilität. Was sie
 verliert — die Illusion einer Verschleierung — hatte ohnehin
 keinen praktischen Wert, weil CRS und Heimaterklärung diese
 Sichtbarkeit ohnehin herstellen.
@@ -257,7 +257,7 @@ Diese kleine jährliche Geste vermeidet, dass sich Diskrepanzen ansammeln, die s
 ## Zum Weiterlesen
 
 - [Wise Business mit Ihrer LLC: der vollständige Multi-Währungs-Leitfaden](/de/blog/wise-business-mit-ihrer-llc-der-vollstandige-leitfaden-fur)
-- [Wise und Banken für Ihre LLC: der komplette Banking-Stack](/de/blog/wise-banken-und-llc-der-komplette-banking-stack-den-niemand)
+- [Wise und Banken für Ihre LLC: die komplette Banking-Architektur](/de/blog/wise-banken-und-llc-der-komplette-banking-stack-den-niemand)
 - [Währungen für Ihre LLC wechseln: beste Optionen ohne versteckte Gebühren](/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und)
 <!-- /exentax:cross-refs-v1 -->
 

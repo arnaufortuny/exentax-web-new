@@ -43,7 +43,7 @@ Per no quedar-nos en abstracte, dos escenaris típics:
 ### Escenari 1: freelancer de 60.000 €/any
 
 - **Com a autònom:** quota anual ≈ 4.200 €, despeses deduïbles limitades (≈ 6.000 €), base imposable ≈ 54.000 €, IRPF efectiu ≈ 30%. Total impostos + quota: **≈ 20.500 €**.
-- **Amb LLC ben dissenyada:** despeses deduïbles ≈ 15.000 € (tot l'stack professional facturat via LLC), base ≈ 45.000 €, IRPF efectiu ≈ 25%. Cost de manteniment LLC ≈ 1.500-2.500 €. Total: **≈ 13.000-14.000 €**.
+- **Amb LLC ben dissenyada:** despeses deduïbles ≈ 15.000 € (tota l'arquitectura professional facturada via LLC), base ≈ 45.000 €, IRPF efectiu ≈ 25%. Cost de manteniment LLC ≈ 1.500-2.500 €. Total: **≈ 13.000-14.000 €**.
 - **Estalvi net anual:** entre **6.000 € i 7.500 €**.
 
 ### Escenari 2: agència digital o assessor de 120.000 €/any
@@ -59,7 +59,7 @@ Un altre avantatge que cal entendre bé i sense alarmismes. Els comptes bancaris
 
 Això **no significa** que siguin opacs ni que puguis deixar de declarar-los. Si superes els llindars del **model 720/721** (50.000 € en comptes a l'estranger, criptos, etc.), els has de declarar igual. I si reps ingressos via la teva LLC, els has d'incloure al teu IRPF. El que sí significa és que no hi ha un creuament automàtic de dades: la informació arriba a Hisenda **a través teu**, via la teva pròpia declaració, no via un fitxer del banc. Això t'obliga a portar-ho tot net i ben documentat: qualsevol intent d'"oblidar-se" acaba malament en una inspecció.
 
-L'stack bancari recomanat per a una LLC moderna:
+L'arquitectura bancària recomanada per a una LLC moderna:
 
 - **Wise Business**, **Relay** i **Slash** en primer pla: multidivisa, subcomptes, targetes, tresoreria; **Wise sí està al CRS** perquè opera amb IBAN belga.
 - **Mercury** en segon pla: compte operatiu principal en USD, $0 en wires nacionals i molt baixos en internacionals, FDIC pass-through fins a 5M$ via sweep.

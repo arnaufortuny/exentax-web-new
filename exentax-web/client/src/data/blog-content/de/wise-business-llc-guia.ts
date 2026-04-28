@@ -70,7 +70,7 @@ Je nach Währung und Korridor hat Wise Transferlimits. Wenn Sie $50.000 auf einm
 Wise gibt Ihnen Bankdaten (Routing Number, Kontonummer) zum Empfang von Geld. Diese unterscheiden sich von denen bei Mercury. Stellen Sie sicher, dass Sie dem richtigen Empfänger die richtigen Daten geben.
 ### Wise im Kontext Ihrer Finanzoperationen
 
-Wise nimmt eine spezifische Rolle in Ihrem Finanz-Stack ein:
+Wise nimmt eine spezifische Rolle in Ihrer Finanz-Architektur ein:
 
 1. **Einnahmen und Liquidität:** Mercury verwaltet Ihre Zahlungseingänge, Lieferantenzahlungen und operatives Kapital
 2. **Internationale Konvertierung:** Wise konvertiert USD in EUR, MXN, COP zum Realkurs, wenn Sie Gewinne entnehmen müssen
@@ -87,17 +87,17 @@ Ein angrenzender Beitrag, den man neben diesem geöffnet lassen sollte: <a href=
 
 **SaaS mit globalen Kunden:** Ihre Kunden zahlen über Stripe (das auf Mercury einzahlt), Ihr Freelancer-Team in Lateinamerika wird über Wise in lokalen Währungen bezahlt. Der Fluss ist sauber, dokumentiert und effizient.
 
-Bei Exentax positionieren wir Wise Business in der Banking-Architektur hunderter DACH-LLCs. Buchen Sie Ihre kostenlose Beratung: wir sagen Ihnen genau, welche Rolle Wise in Ihrem Fall spielen soll.
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+Bei Exentax positionieren wir Wise Business in die Banking-Architektur hunderter DACH-LLCs. Buchen Sie Ihre kostenlose Beratung: wir sagen Ihnen genau, welche Rolle Wise in Ihrem Fall spielen soll.
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn Sie Meta Ads, Google Ads oder SaaS-Abos verwalten.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -156,7 +156,7 @@ Was folgt, ist die operative Sicht, nicht die aus dem Lehrbuch. Wir haben dieses
 
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia -->
-## Praktische Entscheidungsmatrix: wann Wise zum Stack gehören sollte
+## Praktische Entscheidungsmatrix: wann Wise zum Architektur gehören sollte
 
 Die meisten LLC-Eigentümer brauchen nicht eine einzige Bank, sondern
 ein kleines, gut abgestimmtes Set an Konten, das ruhig drei Dinge tut:
@@ -165,7 +165,7 @@ halten und Geld reibungslos auf die persönliche Seite überweisen. Wise
 Business ist hier die Multi-Währungs-Schicht, nicht ein Ersatz für die
 US-Domizilbank. Unten steht die Matrix, die wir mit den meisten
 Mandanten nutzen, um zu entscheiden, ob Wise als zweites oder drittes
-Werkzeug in den Stack gehört.
+Werkzeug in die Architektur gehört.
 
 | Profil                                            | Mercury | Relay | Wise Business | Stripe   |
 |---------------------------------------------------|---------|-------|---------------|----------|
@@ -227,7 +227,7 @@ Bank vorhersehbar.
 
 Wir behandeln Wise Business als die Multi-Währungs-Lunge der LLC: sie
 atmet Zahlungen von EU-Kunden ein, atmet Auszahlungen an das Mitglied
-aus, und der Rest des Stacks trägt die US-Schwerkraft.
+aus, und der Rest die Architektur trägt die US-Schwerkraft.
 
 <!-- /exentax:lote7-native-v1:wise-business-llc-guia -->
 
@@ -373,7 +373,7 @@ dem Weg bleibt, statt um seine Aufmerksamkeit zu konkurrieren.
 <!-- /exentax:lote7-native-v1:wise-business-llc-guia-bis -->
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia-bis2 -->
-## Eine tiefere Lesart des Wise-Business-Stacks für LLCs
+## Eine tiefere Lesart des Wise-Business-Konfigurationen für LLCs
 
 Drei strukturelle Eigenschaften von Wise Business prägen, wie die
 LLC mit der Zeit altert: das Partnerbank-Modell unter der Marke, der
@@ -429,7 +429,7 @@ Dieses einzelne Dokument beseitigt die häufigste Reibungsquelle
 zwischen Mitglied und Buchhaltung am Jahresende.
 
 Drittens: Die Wise-Business-Audit-Spur ist besonders sauber für
-Konten-Übertragungen innerhalb des LLC-eigenen Stacks: von Wise zu
+Konten-Übertragungen innerhalb der LLC-eigenen Architektur: von Wise zu
 Mercury oder Relay, von Mercury zurück in Wise aus FX-Gründen, und
 so weiter. Jede Etappe hat ihren eigenen Kontoauszugsposten auf
 beiden Seiten; die Abstimmung des Inter-Konto-Anteils der LLC-
@@ -441,7 +441,7 @@ Etiketten gesetzt sind.
 <!-- exentax:cross-refs-v1 -->
 ## Zum Weiterlesen
 
-- [Wise und Banken für Ihre LLC: der komplette Banking-Stack](/de/blog/wise-banken-und-llc-der-komplette-banking-stack-den-niemand)
+- [Wise und Banken für Ihre LLC: die komplette Banking-Architektur](/de/blog/wise-banken-und-llc-der-komplette-banking-stack-den-niemand)
 - [Wise IBAN und LLC: was wirklich an die Steuerbehörde gemeldet wird](/de/blog/wise-iban-und-llc-was-wirklich-an-die-steuerbehoerde)
 - [Währungen für Ihre LLC wechseln: beste Optionen ohne versteckte Gebühren](/de/blog/wahrungen-fur-ihre-llc-wechseln-beste-optionen-und)
 <!-- /exentax:cross-refs-v1 -->

@@ -70,7 +70,7 @@ Segons la divisa i el corredor, Wise imposa límits de transferència. Si necess
 Wise et dona dades bancàries (routing number, número de compte) per rebre diners. Aquestes són diferents de les de Mercury. Assegura't de donar les dades correctes a l'interlocutor adequat.
 ### Wise en el context de la teva operació financera
 
-Wise ocupa un paper específic al teu stack financer:
+Wise ocupa un paper específic a la teva arquitectura financera:
 
 1. **Ingressos i tresoreria:** Mercury gestiona els teus cobraments, pagaments a proveïdors i capital operatiu
 2. **Conversió internacional:** Wise converteix USD a EUR, MXN, COP al tipus real quan necessites treure beneficis
@@ -88,16 +88,16 @@ Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/com-g
 **SaaS amb clients globals:** Els teus clients paguen per Stripe (que diposita a Mercury). El teu equip de freelancers a Llatinoamèrica cobra per Wise a les seves divises locals. El flux és net, documentat i eficient.
 
 A Exentax posicionem Wise Business a l'arquitectura bancària de centenars de LLCs catalanes. Reserva la teva assessoria gratuïta: et diem exactament quina funció ha de fer Wise en el teu cas.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
 - **Slash** (recolzada per Column N.A. (banc amb llicència federal, FDIC)). Banca dissenyada per a operadors online: emissió instantània de targetes virtuals per proveïdor, controls de despesa granulars, *cashback* en publicitat digital. Complement natural quan gestiones Meta Ads, Google Ads o subscripcions SaaS.
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 ### Següents passos
 
 Ara que tens el context complet, el pas següent natural és contrastar-lo amb la teva pròpia situació: què encaixa, què no, i on són els matisos que depenen de la teva residència, la teva activitat i el teu volum. Una revisió ràpida del teu cas sol estalviar molt soroll abans de qualsevol decisió estructural.
@@ -164,7 +164,7 @@ Tractem aquest bloc com una de les decisions que sostenen l'estratègia LLC: err
 
 
 <!-- exentax:lote7-native-v1:wise-business-llc-guia -->
-## Matriu pràctica de decisió: quan Wise ha d'entrar al stack
+## Matriu pràctica de decisió: quan Wise ha d'entrar a l'arquitectura
 
 La majoria de propietaris de LLC no necessiten un únic banc, sinó un
 petit conjunt ben alineat de comptes que fa tres coses amb calma:
@@ -172,7 +172,7 @@ rebre pagaments de clients, mantenir fons en la moneda correcta i
 moure diners cap al costat personal sense fricció. Wise Business hi
 ocupa el lloc de la capa multi-moneda, no el del substitut del banc
 US domiciliari. A sota hi ha la matriu que utilitzem amb la majoria
-de clients per decidir si Wise ha d'incorporar-se al stack com a
+de clients per decidir si Wise ha d'incorporar-se a l'arquitectura com a
 segona o tercera eina.
 
 | Perfil                                              | Mercury | Relay  | Wise Business | Stripe |
@@ -235,7 +235,7 @@ trivial i la conversa AML amb el banc previsible.
 
 Tractem Wise Business com el pulmó multi-moneda de la LLC: inspira
 els pagaments dels clients de la UE, expira els pagaments al soci, i
-la resta del stack porta la gravetat del costat US.
+la resta de l'arquitectura porta la gravetat del costat US.
 
 <!-- /exentax:lote7-native-v1:wise-business-llc-guia -->
 
@@ -352,7 +352,7 @@ negoci en lloc de competir per la seva atenció.
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
-- [Wise i bancs per a la teva LLC: la stack bancària completa](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise i bancs per a la teva LLC: l'arquitectura bancària completa](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [Wise IBAN i LLC: què es reporta realment a Hisenda](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
 - [Canviar divises per a la teva LLC: millors opcions sense comissions ocultes](/ca/blog/canviar-divises-per-a-la-teva-llc-millors-opcions-i-com)
 <!-- /exentax:cross-refs-v1 -->

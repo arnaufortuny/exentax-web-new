@@ -253,7 +253,7 @@ Três tipos abrem uma LLC: os que copiam um YouTuber e erram, os que resolvem um
 
 **É legal pagar 0% nos US?** Sim, se e só se sem ETBUS e rendimento não US-source.
 
-Na Exentax abrimos a LLC com o stack completo e modelamos antes se traz valor real.
+Na Exentax abrimos a LLC com a arquitetura completa e modelamos antes se traz valor real.
 <!-- /exentax:execution-v2 -->
 
 ## Montamos para si sem perder um fim de semana

@@ -86,16 +86,16 @@ Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/i
 Si vols optimitzar la forma en què mous diners entre la teva LLC i el teu compte personal, agenda una assessoria gratuïta. T'ajudem a configurar el flux més eficient per al teu cas.
 
 A Exentax assessorem cada setmana clients catalans sobre la millor manera de passar USD a EUR. Reserva la teva assessoria gratuïta i et mostrem com transferir 10.000 $ al mes sense deixar centenars d'euros pel camí.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
 - **Slash** (recolzada per Column N.A. (banc amb llicència federal, FDIC)). Banca dissenyada per a operadors online: emissió instantània de targetes virtuals per proveïdor, controls de despesa granulars, *cashback* en publicitat digital. Complement natural quan gestiones Meta Ads, Google Ads o subscripcions SaaS.
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -160,7 +160,7 @@ _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
-- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, bancs i LLC: l'arquitectura bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
 - [ACH vs transferència bancària: terminis i impacte en el flux de la LLC](/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte)
 <!-- /exentax:cross-refs-v1 -->

@@ -35,7 +35,7 @@ Punts forts: banc US sòlid, fins a 20 sub-comptes, permisos d'equip. Límits: U
 1. **Comptes especialitzats**, no improvisats.
 2. **Fluxos KYC-friendly**: el que circula ha de coincidir amb el que es va declarar en l'obertura.
 3. **Redundància operativa**: almenys dos comptes operatius en dos proveïdors diferents.
-4. **Integració comptable**: assegura't que la stack integri amb QuickBooks, Xero o Wave.
+4. **Integració comptable**: assegura't que l'arquitectura integri amb QuickBooks, Xero o Wave.
 ### Procediment de migració sense trencar l'operativa
 
 1. **Obrir els nous comptes** mantenint l'existent actiu. 4-8 setmanes de KYC.
@@ -53,10 +53,10 @@ Migració neta: 3-6 mesos.
 - **Oblidar actualitzar subscripcions recurrents** a la targeta antiga.
 ### Com ho abordem a Exentax
 
-A Exentax dissenyem stacks bancàries en funció dels fluxos reals, no de la moda. Reserva una sessió inicial gratuïta a la nostra pàgina d'agendament.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+A Exentax dissenyem arquitectures bancàries en funció dels fluxos reals, no de la moda. Reserva una sessió inicial gratuïta a la nostra pàgina d'agendament.
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
@@ -64,7 +64,7 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -96,13 +96,13 @@ Reorganitzar l'estructura bancària d'una LLC incorporant Mercury, Relay i Wise 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
 ## Com llegir la reorganització bancària de la LLC com una actualització de mapatge en lloc d'un canvi de proveïdor
 
-La reorganització bancària de la LLC es llegeix de manera més útil com una actualització del mapatge rol-per-proveïdor entre Mercury, Relay i Wise, que com un canvi de proveïdor aïllat. Una nota curta i datada al dossier de la LLC que registri quin proveïdor fa quin paper al nou stack i quins ho feien a l'anterior fa la reorganització consultable en pocs minuts.
+La reorganització bancària de la LLC es llegeix de manera més útil com una actualització del mapatge rol-per-proveïdor entre Mercury, Relay i Wise, que com un canvi de proveïdor aïllat. Una nota curta i datada al dossier de la LLC que registri quin proveïdor fa quin paper a la nova arquitectura i quins ho feien a l'anterior fa la reorganització consultable en pocs minuts.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca -->
 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca-bis -->
-## Com llegir la transició entre stack antic i nou com una nota datada en lloc d'un canvi implícit
+## Com llegir la transició entre arquitectura antiga i nova com una nota datada en lloc d'un canvi implícit
 
-La transició entre l'stack antic i el nou es pren de manera més serena com una nota curta i datada que registra la data del canvi i el paper de cada proveïdor abans i després — fent que qualsevol qüestió posterior es pugui respondre en pocs minuts sense reconstruir el context de memòria.
+La transició entre l'arquitectura antiga i la nova es pren de manera més serena com una nota curta i datada que registra la data del canvi i el paper de cada proveïdor abans i després — fent que qualsevol qüestió posterior es pugui respondre en pocs minuts sense reconstruir el context de memòria.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca-bis -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -130,15 +130,15 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 
 Detall pràctic per fixar abans d'actuar. La major part del dany evitable que veiem en aquest punt ve de saltar-se la documentació, no de la lògica fiscal subjacent.
 
-## Actualització Exentax avui: stack bancari al dia
+## Actualització Exentax avui: arquitectura bancària al dia
 
-L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb funcions complementàries:
+L'arquitectura bancària recomanada per a una LLC actualment ha consolidat tres peces amb funcions complementàries:
 
 - **Mercury (operativa principal).** Compte a través de **Column NA**, **cobertura FDIC fins a 5 M USD** via sweep, **wires domèstics a 0 USD**, internacionals 0 entrants / 5 sortints (depèn del corredor), 20+ sub-comptes gratuïts. Ideal com a compte operatiu USD i base de la comptabilitat.
 - **Relay (multicompte i regles).** Fins a 20 comptes operatius + regles d'auto-repartiment (impostos, opex, estalvi). Útil quan la LLC comença a separar *buckets* de caixa sense passar a ERP. Compatible amb Plaid per a integració amb Wave/Quickbooks.
 - **Wise Business (multidivisa).** EMI amb 50+ divises a tipus mig interbancari, FX típic **0,4-1,5 %**, dades locals en 10+ països. Indispensable si reps en EUR/GBP o pagues a freelancers LATAM/UE.
 
-### Model d'stack avui segons volum
+### Model d'arquitectura avui segons volum
 
 | Volum anual | Configuració recomanada |
 |---|---|
@@ -165,13 +165,13 @@ L'stack bancari recomanat per a una LLC actualment ha consolidat tres peces amb 
 <!-- exentax:execution-v2 -->
 ## Com reorganitzem la banca d'una LLC a Exentax quan ja no escala
 
-Quan una LLC comença a rebre pagaments seriosos, el stack inicial (de vegades només Mercury) es queda curt: límits, retencions, una sola passarel·la i zero reserva. El mètode Exentax el reorganitza sense downtime ni tancaments.
+Quan una LLC comença a rebre pagaments seriosos, l'arquitectura inicial (de vegades només Mercury) es queda curt: límits, retencions, una sola passarel·la i zero reserva. El mètode Exentax el reorganitza sense downtime ni tancaments.
 
 - **Compte principal i compte mirall** en paral·lel: Mercury o Relay com a operatiu, Wise com a reserva multi-divisa, Stripe + Paddle/DoDo com a passarel·les.
 - **Migració progressiva** de domiciliacions i subscripcions perquè cap client vegi un cobrament fallit durant la transició.
 - **KYC ampliat preparat** amb descripció d'activitat, MCC i documentació coherent entre tots els comptes per passar revisions de segona línia.
 
-Si el teu stack actual ja no aguanta, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts: lliurem el pla de migració per escrit abans de tocar res.
+Si la teva arquitectura actual ja no aguanta, obre la <strong>calculadora Exentax</strong> o reserva trenta minuts: lliurem el pla de migració per escrit abans de tocar res.
 <!-- /exentax:execution-v2 -->
 
 ## El cas específic del resident fiscal a Catalunya o l'Estat espanyol i a Andorra
@@ -179,10 +179,10 @@ Si el teu stack actual ja no aguanta, obre la <strong>calculadora Exentax</stron
   **A l'Estat espanyol**, la reorganització bancària suposa actualització del **Model 720** si el saldo agregat de les noves entitats supera 50 000 € al tancament o saldo mitjà del quart trimestre, en aplicació de la **Disposició Addicional 18a de la LGT** (modificada per la Llei 5/2022). El nou règim sancionador (articles 198 i 199 LGT) substitueix l'anterior declarat contrari al dret UE pel TJUE en el cas C-788/19.
 
 <!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
-## Quan el stack és el coll d'ampolla, no el banc
+## Quan l'arquitectura és el coll d'ampolla, no el banc
 
 La majoria de trucades que rebem per "vull reorganitzar la banca de
-la meva LLC" no són, de fet, sobre un mal banc. Són sobre un stack
+la meva LLC" no són, de fet, sobre un mal banc. Són sobre una arquitectura
 que ha crescut per casualitat: un compte Mercury obert el primer
 any, un canal de payout Stripe afegit quan van arribar els pagaments
 web, una targeta Wise introduïda per a despeses publicitàries i, en
@@ -256,7 +256,7 @@ moviment?" deixa d'aparèixer.
 - Tancar només el que sigui realment redundant i només després d'un
   tancament mensual net.
 
-Tractem el stack bancari com el sistema circulatori de la LLC: cada
+Tractem l'arquitectura bancària com el sistema circulatori de la LLC: cada
 vas té una feina, i reorganitzar significa corregir el plànol, no
 arrencar els vasos.
 

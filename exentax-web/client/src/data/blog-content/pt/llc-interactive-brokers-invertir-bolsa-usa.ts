@@ -97,7 +97,7 @@ Significa isto que não deves investir via LLC? Não. Significa que, se a tua ca
 
 **O cliente que opera futuros a partir da sua conta pessoal**: quando o volume sobe, a mistura com o seu património pessoal complica-lhe a fiscalidade do seu país e a separação. Movemo-lo para Tradovate sobre a LLC, com documentação de capitalização e operating agreement atualizado.
 
-**O cliente que quer combinar cripto + ações US + tesouraria**: desenhamos o stack completo. Mercury para a operação, Slash para tesouraria em T-Bills, IB para ações/ETFs, Kraken para cripto. Distribuições planeadas. Compliance US contínuo.
+**O cliente que quer combinar cripto + ações US + tesouraria**: desenhamos a arquitetura completa. Mercury para a operação, Slash para tesouraria em T-Bills, IB para ações/ETFs, Kraken para cripto. Distribuições planeadas. Compliance US contínuo.
 ## Como se faz bem
 
 1. **Antes de abrir broker**: rever que a LLC tenha a documentação corporativa coerente (Articles, EIN, Operating Agreement, BOI apresentado).

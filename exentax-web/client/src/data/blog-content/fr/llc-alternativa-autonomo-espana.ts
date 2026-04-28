@@ -59,7 +59,7 @@ Autre avantage à comprendre sans alarmisme. Les comptes bancaires aux USA (Merc
 
 Cela **ne signifie pas** qu'ils sont opaques ou que vous pouvez ne pas les déclarer. Si vous dépassez les seuils du **modèle 720/721** (50 000 € en comptes à l'étranger, cryptos, etc.), vous devez les déclarer. Et si vous percevez des revenus via votre LLC, vous devez les inclure dans votre IRPF. Cela signifie qu'il n'y a pas de croisement automatique: l'information arrive au fisc **par vous**, via votre déclaration. Cela vous oblige à tout tenir propre et bien documenté.
 
-Stack bancaire recommandé pour une LLC moderne:
+Configuration bancaire recommandée pour une LLC moderne:
 
 - **Wise Business**, **Relay** et **Slash** au premier plan: multi-devises, sous-comptes, cartes, trésorerie; **Wise Business détenue par une LLC américaine est HORS CRS** (la LLC est une entité américaine et les États-Unis ne sont pas un État participant au CRS); seule une **Wise Personal ouverte à votre nom en tant que résident fiscal espagnol** entrerait dans le CRS via Wise Europe SA (Belgique).
 - **Mercury** au second plan: compte opérationnel principal en USD, 0 $ sur les virements domestiques et très bas à l'international, FDIC pass-through jusqu'à 5M$ via sweep.

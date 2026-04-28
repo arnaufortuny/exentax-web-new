@@ -91,16 +91,16 @@ La majoria de bancs cobren entre $15-50 per wire transfer. Mercury no cobra res.
 Mercury fa servir partner banks (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats) com a custodis, amb assegurança FDIC. No és una fintech experimental. és infraestructura financera seriosa per a la teva LLC.
 
 A Exentax optimitzem cada setmana el routing bancari per a clients catalans. Reserva la teva assessoria gratuïta: mirem els teus fluxos recurrents i et diem què passar per ACH i què empènyer per Wire.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
 - **Slash** (recolzada per Column N.A. (banc amb llicència federal, FDIC)). Banca dissenyada per a operadors online: emissió instantània de targetes virtuals per proveïdor, controls de despesa granulars, *cashback* en publicitat digital. Complement natural quan gestiones Meta Ads, Google Ads o subscripcions SaaS.
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -155,7 +155,7 @@ Revenue: clients US via ACH/Stripe → Mercury/Wise USD. Clients internacionals 
 
 **Wise USD és realment "compte US"?** Compte Wise Inc. amb routing ACH propi. Opera com a compte US per a ACH i wires domèstics.
 
-A Exentax muntem el stack bancari per casos d'ús.
+A Exentax muntem l'arquitectura bancària per casos d'ús.
 <!-- /exentax:execution-v2 -->
 
 ## Com treballem a Exentax

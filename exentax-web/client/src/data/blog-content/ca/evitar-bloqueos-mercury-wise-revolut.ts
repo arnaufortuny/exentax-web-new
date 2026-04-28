@@ -132,7 +132,7 @@ Les dues palanques pràctiques que mantenen l'operació fluida a Mercury i Wise 
 ## Per continuar la lectura
 
 - [Com obrir un compte Mercury per a la teva LLC des de qualsevol país](/ca/blog/com-obrir-un-compte-mercury-per-a-la-teva-llc-des-de)
-- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, bancs i LLC: l'arquitectura bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [Reorganitzar la banca de la teva LLC: quan combinar Mercury, Relay i Wise](/ca/blog/reorganitzar-la-banca-de-la-teva-llc-quan-combinar-mercury)
 <!-- /exentax:cross-refs-v1 -->
 

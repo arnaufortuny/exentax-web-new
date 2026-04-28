@@ -121,16 +121,16 @@ La regla pràctica: una LLC operativa, amb substància, declarada correctament e
 A Exentax muntem l'estructura perquè encaixi al primer escenari i documentem cada pas perquè la teva declaració local sigui defensable davant d'una eventual revisió.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
 - **Slash** (recolzada per Column N.A. (banc amb llicència federal, FDIC)). Banca dissenyada per a operadors online: emissió instantània de targetes virtuals per proveïdor, controls de despesa granulars, *cashback* en publicitat digital. Complement natural quan gestiones Meta Ads, Google Ads o subscripcions SaaS.
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -213,7 +213,7 @@ Freelance resident a Madrid amb: Wise EUR saldo 18.400 EUR, Mercury Personal Sav
 3. Confondre el saldo mitjà del darrer trimestre amb la mitjana anual.
 4. Presentar tard voluntàriament: les sancions són lleus, però s'apliquen les majoracions de l'article 27 LGT.
 
-> **El teu stack frega els 50.000 EUR per bloc?** Passa els saldos per la <strong>calculadora fiscal d'Exentax</strong> i mira si passar a una LLC ben declarada compensa la complexitat actual.
+> **La teva arquitectura frega els 50.000 EUR per bloc?** Passa els saldos per la <strong>calculadora fiscal d'Exentax</strong> i mira si passar a una LLC ben declarada compensa la complexitat actual.
 
 Per a la capa bancària prèvia al 720 llegeix <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat">què reporten realment els bancs americans al teu fisc</a>, i per a l'estratègia global <a href="/ca/blog/camins-legals-per-minimitzar-impostos">els camins legals per minimitzar impostos</a>. Per delegar la presentació, <strong>reserva una sessió amb l'equip Exentax</strong> i la tanquem en una setmana.
 

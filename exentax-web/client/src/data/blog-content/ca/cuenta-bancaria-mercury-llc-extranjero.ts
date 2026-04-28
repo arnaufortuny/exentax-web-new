@@ -4,7 +4,7 @@ export default `
 Si acabes de constituir la teva LLC des de Catalunya, la pregunta següent gairebé sempre és la mateixa: "com obro un compte bancari americà sense trepitjar els Estats Units?" Durant anys la resposta per defecte era Mercury. **A avui, però, a Exentax ja no recomanem Mercury com a compte principal si tota la teva operativa passa fora dels EUA.** El motiu és molt concret: quan Mercury tanca un compte per una revisió de compliance, cada cop més freqüent, **retorna els fons mitjançant un xec físic en USD a nom de la LLC, enviat per correu postal a l'adreça registrada**. Per a un resident fiscal a Catalunya, Espanya o LATAM, dipositar aquell xec és lent, car i, en molts bancs europeus, directament impossible.
 
 > **Avís avui, Mercury i operativa no estatunidenca.**
-> Si el 100 % de la teva activitat (clients, cobraments, despeses) passa fora dels EUA, Exentax **no** recomana Mercury com a compte principal. El producte és sòlid, però el mecanisme de devolució per tancament de compliance (xec físic en USD) penalitza específicament el titular no resident. Recomanació: utilitza **Relay** (Thread Bank, FDIC) o **Slash** (Column N.A. i/o Stearns Bank, FDIC) com a compte principal i, si obres Mercury, mantén-lo com a secundari amb saldo operatiu baix. Dissenyem el stack amb tu en l'assessoria inicial.
+> Si el 100 % de la teva activitat (clients, cobraments, despeses) passa fora dels EUA, Exentax **no** recomana Mercury com a compte principal. El producte és sòlid, però el mecanisme de devolució per tancament de compliance (xec físic en USD) penalitza específicament el titular no resident. Recomanació: utilitza **Relay** (Thread Bank, FDIC) o **Slash** (Column N.A. i/o Stearns Bank, FDIC) com a compte principal i, si obres Mercury, mantén-lo com a secundari amb saldo operatiu baix. Dissenyem l'arquitectura amb tu en l'assessoria inicial.
 
 Aquesta guia continua explicant com funciona Mercury i com obrir el compte correctament, però llegeix l'avís de dalt abans de prendre cap decisió.
 
@@ -22,7 +22,7 @@ Els seus avantatges principals per a propietaris de LLC:
 - **ACH gratuït.** Transferències domèstiques sense cost.
 - **Targeta de dèbit virtual i física.** Per a pagaments online, subscripcions i despeses operatives.
 - **Integracions comptables.** Es connecta amb QuickBooks, Xero i altres eines de comptabilitat.
-- **API per a desenvolupadors.** Ideal si necessites automatitzar pagaments, conciliacions o integrar-te amb el teu stack.
+- **API per a desenvolupadors.** Ideal si necessites automatitzar pagaments, conciliacions o integrar-te amb la teva arquitectura.
 - **Múltiples comptes.** Pots crear subcomptes per organitzar els teus diners (impostos, operacions, reserves).
 ### Requisits per obrir compte a Mercury
 
@@ -76,7 +76,7 @@ Si la teva LLC manté capital entre distribucions (la majoria de freelancers acu
 
 ### Quan Mercury tanca o bloqueja: el xec físic
 
-Quan Mercury decideix tancar un compte (o el bloqueja per revisió de compliance), els fons no queden retinguts: Mercury els retorna al titular mitjançant un **xec físic emès en USD a nom de la LLC**, enviat per correu postal a l'adreça registrada de l'empresa (normalment la del Registered Agent). Per anticipar-ho convé tenir un segon compte operatiu preparat (Relay, Slash o un EMI europeu del stack) i una adreça d'enviament fiable, perquè des que es cursa el xec fins que es pot dipositar poden passar diverses setmanes.
+Quan Mercury decideix tancar un compte (o el bloqueja per revisió de compliance), els fons no queden retinguts: Mercury els retorna al titular mitjançant un **xec físic emès en USD a nom de la LLC**, enviat per correu postal a l'adreça registrada de l'empresa (normalment la del Registered Agent). Per anticipar-ho convé tenir un segon compte operatiu preparat (Relay, Slash o un EMI europeu de l'arquitectura) i una adreça d'enviament fiable, perquè des que es cursa el xec fins que es pot dipositar poden passar diverses setmanes.
 
 ### Wallester: targetes corporatives amb IBAN euro i control total
 
@@ -152,16 +152,16 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
 - **Slash** (recolzada per Column N.A. (banc amb llicència federal, FDIC)). Banca dissenyada per a operadors online: emissió instantània de targetes virtuals per proveïdor, controls de despesa granulars, *cashback* en publicitat digital. Complement natural quan gestiones Meta Ads, Google Ads o subscripcions SaaS.
 - **Wise Business** (EMI multidivisa, no és banc). Per cobrar i pagar en EUR, GBP, USD i altres divises amb dades bancàries locals i conversió a *mid-market rate*. No substitueix un compte US real, però és imbatible per a tresoreria internacional.
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -224,7 +224,7 @@ Mercury continua sent l'opció per defecte per a una LLC de no resident; dades r
 <!-- exentax:execution-v2 -->
 ## Com triem el banking de la teva LLC a Exentax
 
-Mercury va ser durant anys l'opció per defecte per a no residents, però el mètode Exentax recomana avui sempre un stack en cascada perquè els tancaments per compliance s'han tornat rutina. El que fem cada setmana amb clients nous és sempre el mateix.
+Mercury va ser durant anys l'opció per defecte per a no residents, però el mètode Exentax recomana avui sempre una arquitectura en cascada perquè els tancaments per compliance s'han tornat rutina. El que fem cada setmana amb clients nous és sempre el mateix.
 
 - **Compte principal i compte mirall** des del dia u: Mercury o Relay com a operatiu i Wise com a reserva per mantenir liquiditat si un congela 30 dies.
 - **Stripe i passarel·la alternativa** (Paddle o DoDo) si vens a clients finals: una sola passarel·la activa és punt únic de fallada.
@@ -275,7 +275,7 @@ Per aprofundir en l'estructura bancària completa llegeix <a href="/ca/blog/els-
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
-- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, bancs i LLC: l'arquitectura bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [Com evitar els bloquejos de compte a Mercury, Wise i Revolut](/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i-revolut)
 - [Due diligence bancari per a la teva LLC americana: què verifiquen](/ca/blog/due-diligence-bancari-per-a-la-teva-llc-americana-el-que)
 <!-- /exentax:cross-refs-v1 -->

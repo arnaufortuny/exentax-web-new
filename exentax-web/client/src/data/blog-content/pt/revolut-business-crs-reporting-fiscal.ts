@@ -37,7 +37,7 @@ Se IP, morada de cartão, telefone e transferências apontam Espanha apesar de d
 Vendas em plataformas: <a href="/pt/blog/dac7-o-novo-reporting-de-plataformas-digitais-em-2026">DAC7</a>; cripto via exchanges UE: <a href="/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em">DAC8</a>.
 ### Em resumo
 
-Revolut Business é excelente; conhecer o perfil CRS é essencial. Declare corretamente e desenhe stack coerente.
+Revolut Business é excelente; conhecer o perfil CRS é essencial. Declare corretamente e desenhe arquitetura coerente.
 
 Na Exentax avaliamos caso a caso se o Revolut Business encaixa. Marca a tua consulta gratuita: olhamos para todo o mapa bancário e dizemos-te o que manter, o que mover.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
@@ -78,14 +78,14 @@ A prática bancária descrita assenta em documentação pública e nas política
 - **FATCA e CRS.** IRC §1471–1474 (FATCA e formulários W-8/W-9), os acordos intergovernamentais Modelo 1 entre os EUA e Portugal, Brasil ou outras jurisdições lusófonas, bem como o Common Reporting Standard da <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>, ao qual os EUA não aderiram mas que se aplica às fintechs com licença europeia (Wise Europe SA na Bélgica, Revolut Bank UAB na Lituânia).
 - **Plataformas concretas.** Termos de utilização, políticas de privacidade e FAQ regulatórias publicadas por Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN-MSB nos EUA; Wise Europe SA na UE; Wise Payments Ltd. no Reino Unido), Revolut Business (Revolut Bank UAB na Lituânia) e Payoneer (Payoneer Europe Ltd. na Irlanda).
 
-Estas referências servem de orientação; cada caso bancário exige uma análise individual de KYC, país de residência e volume operado. Para um cliente residente em Portugal ou no Brasil com uma LLC americana, recomendamos tipicamente um stack US primário (Mercury ou Relay) e um nó europeu secundário (Wise Business para recebimentos em EUR ou Wallester para cartões), de modo a manter a pegada CRS controlada e a evitar que uma única plataforma carregue todo o risco operacional.
+Estas referências servem de orientação; cada caso bancário exige uma análise individual de KYC, país de residência e volume operado. Para um cliente residente em Portugal ou no Brasil com uma LLC americana, recomendamos tipicamente uma arquitetura US primário (Mercury ou Relay) e um nó europeu secundário (Wise Business para recebimentos em EUR ou Wallester para cartões), de modo a manter a pegada CRS controlada e a evitar que uma única plataforma carregue todo o risco operacional.
 
 <!-- /exentax:legal-refs-v1 -->
 
 <!-- exentax:lote20-native-v1:revolut-business-crs-reporting-fiscal-pt -->
-## Como ler o reporte CRS como propriedade do stack bancário e não como evento isolado
+## Como ler o reporte CRS como propriedade da arquitetura bancária e não como evento isolado
 
-O reporte CRS lê-se com mais calma quando é tratado como propriedade do stack bancário no seu conjunto e não como evento isolado de um determinado prestador. O standard CRS afecta os bancos obrigados a reportar dentro de um perímetro definido; compreender esse perímetro e a própria posição nele substitui qualquer discussão sobre prestadores individuais.
+O reporte CRS lê-se com mais calma quando é tratado como propriedade da arquitetura bancária no seu conjunto e não como evento isolado de um determinado prestador. O standard CRS afecta os bancos obrigados a reportar dentro de um perímetro definido; compreender esse perímetro e a própria posição nele substitui qualquer discussão sobre prestadores individuais.
 <!-- /exentax:lote20-native-v1:revolut-business-crs-reporting-fiscal-pt -->
 
 <!-- exentax:lote30-native-v1:revolut-business-crs-reporting-fiscal-pt -->
@@ -114,7 +114,7 @@ Revolut Business é prático, multi-moeda e barato - e reporta sistematicamente 
 
 **Posso declarar residência "US" no KYC?** Declaração falsa ao banco - crime.
 
-Na Exentax estruturamos o stack bancário tendo em conta o que CRS/FATCA reportam.
+Na Exentax estruturamos a arquitetura bancária tendo em conta o que CRS/FATCA reportam.
 <!-- /exentax:execution-v2 -->
 
 ## O teu próximo passo com a Exentax

@@ -118,7 +118,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 - **EIN e notificações.** Sem EIN não se submete 5472 nem BOI. O IRS não avisa antes de sancionar; descobre-se quando o EIN é bloqueado ou uma submissão posterior é rejeitada.<!-- exentax:execution-v2 -->
 ## LLC para agências de marketing digital: o setup que escala sem fricções
 
-Uma agência de marketing digital é um dos perfis onde a LLC americana funciona quase sempre: clientes B2B internacionais, factura limpa sem IVA cruzado, banca dollar-friendly e um stack que escala de freelance a equipa de 8-15. Eis o que funciona em agências reais com 200k-2M anuais.
+Uma agência de marketing digital é um dos perfis onde a LLC americana funciona quase sempre: clientes B2B internacionais, factura limpa sem IVA cruzado, banca dollar-friendly e uma arquitetura que escala de freelance a equipa de 8-15. Eis o que funciona em agências reais com 200k-2M anuais.
 
 - **Porque a LLC encaixa com a agência.** Os seus clientes são empresas (B2B), pagam em USD ou EUR sem obrigação de retenção, valorizam que facture desde entidade internacional. Mercury + Stripe + Wise resolve cobrança USD/EUR, conversão e emissão de cartões para Meta, Google, Notion. Sem IVA cruzado.
 - **Estrutura típica que recomendamos.** Single-member LLC em Wyoming ou New Mexico, EIN, Mercury Business como conta principal, Wise Business para EUR/GBP, Stripe US para cartões, contractor agreements com a equipa (W-9 ou W-8BEN por país). Custo de manutenção: 1.500-2.500 USD anuais tudo incluído.

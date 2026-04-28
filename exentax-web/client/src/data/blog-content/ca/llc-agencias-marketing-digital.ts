@@ -115,7 +115,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 Cada situació fiscal depèn de la teva residència, de l'activitat exercida i dels contractes en vigor. La informació aquí presentada és general i no substitueix l'assessorament personalitzat; analitza el teu cas concret abans de prendre decisions estructurals.<!-- exentax:execution-v2 -->
 ## LLC per a agències de màrqueting digital: el setup que escala sense friccions
 
-Una agència de màrqueting digital és un dels perfils on la LLC americana funciona gairebé sempre: clients B2B internacionals, factura neta sense IVA encreuat, banca dollar-friendly i un stack que escala fàcil d'un freelance a un equip de 8-15. Això és el que veiem funcionar en agències reals amb 200k-2M anuals.
+Una agència de màrqueting digital és un dels perfils on la LLC americana funciona gairebé sempre: clients B2B internacionals, factura neta sense IVA encreuat, banca dollar-friendly i una arquitectura que escala fàcil d'un freelance a un equip de 8-15. Això és el que veiem funcionar en agències reals amb 200k-2M anuals.
 
 - **Per què la LLC encaixa amb l'agència.** Els teus clients són empreses (B2B), et paguen en USD o EUR sense obligació de retenir, valoren que facturis des d'una entitat "internacional" en lloc d'un autònom. Mercury + Stripe + Wise resol cobrament USD/EUR, conversió i emissió de targetes per gastar a Meta, Google, Notion. Sense IVA encreuat.
 - **Estructura típica que recomanem.** Single-member LLC a Wyoming o New Mexico, EIN, Mercury Business com a compte principal, Wise Business per a EUR/GBP, Stripe US per a targetes, contractor agreements amb el teu equip (W-9 o W-8BEN segons país). Cost de manteniment: 1.500-2.500 USD anuals tot inclòs.

@@ -90,16 +90,16 @@ La plupart des banques facturent entre $15 et $50 par wire transfer. Mercury ne 
 Mercury utilise Column NA comme banque dépositaire, avec assurance FDIC. Ce n'est pas une fintech expérimentale, c'est une infrastructure financière sérieuse pour votre LLC.
 
 Chez Exentax on câble le routing bancaire optimal pour des clients francophones chaque semaine. Réservez votre consultation gratuite: on regarde vos flux récurrents et on vous dit lequel passer en ACH et lequel pousser en Wire.
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
 - **Slash** (adossé à Column N.A. (établissement à charte fédérale, FDIC)). Banque pensée pour les opérateurs en ligne: émission instantanée de cartes virtuelles par fournisseur, contrôles de dépenses granulaires, cashback sur la publicité numérique. Le complément naturel quand vous gérez Meta Ads, Google Ads ou des abonnements SaaS.
 - **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
 - **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -154,7 +154,7 @@ Revenue: clients US via ACH/Stripe → Mercury/Wise USD. Clients internationaux 
 
 **Wise USD est-il vraiment un « compte US »?** Compte Wise Inc. avec routing ACH propre. Opère comme compte US pour ACH et wires domestiques.
 
-Chez Exentax nous montons le stack bancaire par cas d'usage.
+Chez Exentax nous montons la configuration bancaire par cas d'usage.
 <!-- /exentax:execution-v2 -->
 
 ## Comment nous travaillons chez Exentax

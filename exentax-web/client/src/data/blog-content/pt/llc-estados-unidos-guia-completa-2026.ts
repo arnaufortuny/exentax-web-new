@@ -196,7 +196,7 @@ Três dados mudam a leitura deste guia atualmente:
 Um guia completo só é útil se depois alguém o executar sem erros. Na Exentax constituímos a LLC, abrimos a banca, apresentamos BOI e 5472 e mantemos o calendário fiscal ano após ano - tudo num único processo de cliente.
 
 - **Constituição e EIN** no estado correcto, com Operating Agreement assinado e BOI submetido antes de tocar na primeira conta bancária.
-- **Stack bancário em cascata** (Mercury ou Relay + Wise + gateway alternativo) para que nenhum fecho por compliance o deixe sem operação.
+- **Arquitetura bancária em cascata** (Mercury ou Relay + Wise + gateway alternativo) para que nenhum fecho por compliance o deixe sem operação.
 - **Calendário fiscal fechado** com 5472, 1120 pro-forma, annual report estadual e a sua obrigação de residência coordenados numa única linha temporal.
 
 Para ver o custo exacto e o plano antes de decidir, abra a <strong>calculadora Exentax</strong> ou marque trinta minutos: saímos da chamada com proposta e calendário.

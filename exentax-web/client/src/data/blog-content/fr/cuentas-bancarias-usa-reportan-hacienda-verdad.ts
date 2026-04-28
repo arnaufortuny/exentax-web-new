@@ -80,7 +80,7 @@ Trois schémas réels:
 **3. Le client qui a Wise multi-devises européen + Mercury**: on lui explique quelle entité déclare quoi. Habituellement, on réorganise pour que l'opérationnel principal vive sur Wise US ou Mercury, et que le module européen ne serve que pour des cas ponctuels.
 ## Comment on fait bien
 
-Une stack financière Exentax type:
+Une configuration financière Exentax type:
 
 - **Compte principal de la LLC** sur Mercury ou Wise US Inc. → hors CRS, ACH et wire en USD, intégrations comptables.
 - **Trésorerie à rendement** sur Slash → bons du Trésor US, capital dormant productif, même périmètre US.

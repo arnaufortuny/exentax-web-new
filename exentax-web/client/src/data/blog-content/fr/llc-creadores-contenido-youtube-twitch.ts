@@ -120,7 +120,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 Si vous vivez de YouTube, Twitch, TikTok ou Patreon et résidez hors US, une LLC bien montée change votre opérationnel: vous encaissez directement en USD depuis Google AdSense, Twitch, sponsors et plateformes, sans comptes personnels saturés, sans change cher, avec facture propre pour sponsors corporates.
 
 - **Le goulot sans LLC.** AdSense paie votre IBAN local, Twitch retient 30% sans W-8BEN, sponsors US demandent un W-9 (que vous ne pouvez fournir en personne non-US), et votre compte personnel reçoit virements internationaux avec frais 25-50 USD. Plus: l'administration reçoit le report CRS complet.
-- **Le stack avec LLC.** Single-member LLC au Wyoming ou Delaware, EIN, Mercury Business compte USD principal. Configurez AdSense pour payer la LLC (EIN), déposez W-8BEN-E sur Twitch/TikTok pour réduire retenue à 0% sous convention, signez sponsorships depuis la LLC avec facture propre.
+- **La configuration avec LLC.** Single-member LLC au Wyoming ou Delaware, EIN, Mercury Business compte USD principal. Configurez AdSense pour payer la LLC (EIN), déposez W-8BEN-E sur Twitch/TikTok pour réduire retenue à 0% sous convention, signez sponsorships depuis la LLC avec facture propre.
 - **Côté fiscal en résidence.** Si vous résidez en France, les revenus LLC sont imposés en IR comme BNC/BIC. LLC transparente = attribution directe. Si vous résidez en LATAM, la LLC est généralement opaque et seules distributions imposées.
 - **Cartes et dépenses.** Mercury émet cartes USD pour dépenser sur logiciels (Adobe, Notion), matériel (caméra, micro), promotion (Meta, Google) et abonnements. 100% déductible. Sans majoration de change sur chaque achat USD.
 

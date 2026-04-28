@@ -147,9 +147,9 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
@@ -161,7 +161,7 @@ Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** appropri�
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser

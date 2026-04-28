@@ -89,13 +89,13 @@ L'estratègia professional passa per:
 
 ## En resum
 
-El CRS no s'"evita" des d'una jurisdicció europea. Es planifica amb coneixement. Una LLC americana continua sent una eina extraordinàriament útil, però el disseny del seu stack bancari i de la seva residència fiscal són determinants perquè l'empremta informativa que genera sigui coherent amb el que declara.
+El CRS no s'"evita" des d'una jurisdicció europea. Es planifica amb coneixement. Una LLC americana continua sent una eina extraordinàriament útil, però el disseny de la seva arquitectura bancària i de la seva residència fiscal són determinants perquè l'empremta informativa que genera sigui coherent amb el que declara.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Vol que revisem com l'afecta el CRS en el seu cas concret i dissenyem el stack adequat? Reservi la seva assessoria gratuïta i ho analitzem amb vostè.
+Vol que revisem com l'afecta el CRS en el seu cas concret i dissenyem l'arquitectura adequada? Reservi la seva assessoria gratuïta i ho analitzem amb vostè.
 Si li ha quedat algun dubte sobre els matisos d'aquesta estructura, <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per">per què deixar de ser autònom a l'Estat espanyol (i quines alternatives té)</a> explica amb detall un aspecte adjacent que sovint deixem apuntat per a un altre dia.
 
 _Per ampliar en la mateixa sèrie: [empresa a Panamà: fiscalitat i residència](/ca/blog/empresa-a-panama-fiscalitat-i-residencia-2026)._

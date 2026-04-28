@@ -113,16 +113,16 @@ Eine kurze, datierte Notiz am Anfang des LLC-Ordners, die die wiederkehrenden Pf
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:bank-balance-v1 -->
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn Sie Meta Ads, Google Ads oder SaaS-Abos verwalten.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -188,7 +188,7 @@ Bei Exentax übernehmen wir integrale Compliance und regularisieren LLCs mit geb
 
 Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein reales Ausfallmuster, das wir in grenzüberschreitenden LLC-Akten gesehen haben. Lassen Sie keinen aus - die meisten Nachveranlagungen und Kontoschließungen, die wir später aufräumen, lassen sich auf einen dieser Punkte zurückführen.
 
-  ### Häufige LLC-Fehler aus DACH-Sicht: zwei Pflichtenstacks parallel
+  ### Häufige LLC-Fehler aus DACH-Sicht: zwei Pflichtenkataloge parallel
 
   Ein häufiger Fehler bei DACH-Gesellschaftern ist die isolierte Sicht: nur die US-Pflichten zu beachten und die deutschen, österreichischen oder schweizerischen Pflichten zu vergessen. Die parallel anzuwendenden Vorschriften sind: in Deutschland **§138 Abs. 2 AO** (Anzeigepflicht ≥10 % Beteiligung), **§§7-14 AStG** (CFC-Regelung), **Anlage AUS** (jährliche Erklärung); in Österreich **§109 BAO** und **WiEReG**; in der Schweiz **Art. 125 DBG** (Wertschriftenverzeichnis) und **AIA-Gesetz SR 653.1**.
 

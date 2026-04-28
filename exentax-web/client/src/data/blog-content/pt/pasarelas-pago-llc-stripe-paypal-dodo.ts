@@ -154,7 +154,7 @@ O gateway define a sua disponibilidade de cobrança, custo por transacção e, s
 - **Stripe (US, via LLC + EIN).** Standard para SaaS, subscrições e e-commerce profissional. Tarifa 2,9% + $0,30 US doméstico, +1% internacional, +1% conversão. Aprova LLCs não residentes com EIN + banco US (Mercury, Wise) + site operacional. Risco principal: freeze por chargebacks ou actividade alto risco.
 - **PayPal Business (US).** Imprescindível para B2C em LATAM e Europa onde o cliente "exige" PayPal. Comissão mais alta (~3,49%) e pior experiência de subscrição. Risco de hold 21 dias em contas novas.
 - **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** O MoR trata IVA e compliance para vendas digitais UE/UK/AU. Comissão 5%-8% mas remove OSS, MOSS, IVA UK, GST AU. Ideal para SaaS multi-jurisdição.
-- **Stack recomendado.** SaaS B2B global: Stripe + Paddle. Infoprodutos B2C UE: Lemon Squeezy/Dodo. Consultoria: Stripe + Wise + PayPal opcional. NUNCA depender de um único gateway.
+- **Arquitetura recomendada.** SaaS B2B global: Stripe + Paddle. Infoprodutos B2C UE: Lemon Squeezy/Dodo. Consultoria: Stripe + Wise + PayPal opcional. NUNCA depender de um único gateway.
 
 ### O que mais nos perguntam
 
@@ -162,7 +162,7 @@ O gateway define a sua disponibilidade de cobrança, custo por transacção e, s
 
 **Dodo/LS livra-me do IVA digital UE?** Sim, como Merchant of Record. Factura a Dodo/LS (B2B sem IVA com W-8BEN-E), eles ao cliente final com IVA do país correcto.
 
-Na Exentax modelamos o stack adequado e abrimos Stripe + Mercury + MoR - para que um freeze nunca o pare.
+Na Exentax modelamos a arquitetura adequada e abrimos Stripe + Mercury + MoR - para que um freeze nunca o pare.
 <!-- /exentax:execution-v2 -->
 
 ## Referências: fontes sobre estruturas e jurisdições
@@ -187,7 +187,7 @@ fricções invisíveis que acabam por custar mais do que a diferença
 de comissão.
 
 Na prática, recomendamos decidir a passarela em conjunto com o
-consultor e com o stack bancário da LLC (Mercury, Wise e
+consultor e com a arquitetura bancária da LLC (Mercury, Wise e
 eventualmente Relay) já desenhado. Assim evita-se que uma
 passarela adicionada mais tarde desorganize a arquitectura
 original do dia-a-dia operacional.

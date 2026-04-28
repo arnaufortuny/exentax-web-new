@@ -154,7 +154,7 @@ Das Gateway bestimmt Ihre Inkassoverfügbarkeit, Transaktionskosten und vor alle
 - **Stripe (US, via LLC + EIN).** Der Standard für SaaS, Abos und professionelles E-Commerce. Gebühr 2,9% + $0,30 US-domestic, +1% international, +1% Währungsumrechnung. Akzeptiert nicht-ansässige LLCs mit EIN + US-Bank (Mercury, Wise) + operativer Website. Hauptrisiko: Freeze durch Chargebacks oder als Hochrisiko eingestufte Aktivität (Coaching, Infoprodukte, Krypto, Adult).
 - **PayPal Business (US).** Unerlässlich für B2C in LATAM und Europa, wo Kunden PayPal fordern. Höhere Gebühr (~3,49%) und schlechtere Abo-Erfahrung. 21-Tage-Hold-Risiko bei neuen Konten.
 - **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** Der MoR übernimmt USt und Compliance für digitale EU/UK/AU-Verkäufe. Gebühr 5%-8% aber befreit von OSS, MOSS, UK VAT, AU GST. Ideal für SaaS multi-Jurisdiktion.
-- **Empfohlener Stack.** Globales B2B-SaaS: Stripe + Paddle. EU B2C-Infoprodukte: Lemon Squeezy/Dodo. Beratung: Stripe + Wise + optional PayPal. NIEMALS nur ein Gateway.
+- **Empfohlene Architektur.** Globales B2B-SaaS: Stripe + Paddle. EU B2C-Infoprodukte: Lemon Squeezy/Dodo. Beratung: Stripe + Wise + optional PayPal. NIEMALS nur ein Gateway.
 
 ### Was am häufigsten gefragt wird
 
@@ -162,7 +162,7 @@ Das Gateway bestimmt Ihre Inkassoverfügbarkeit, Transaktionskosten und vor alle
 
 **Befreit Dodo/LS von EU-Digital-USt?** Ja, als Merchant of Record. Sie fakturieren Dodo/LS (B2B ohne USt mit W-8BEN-E), diese den Endkunden mit korrekter Länder-USt.
 
-Bei Exentax modellieren wir den passenden Stack und öffnen Stripe + Mercury + MoR-Alternative - damit ein Freeze Sie nie stoppt.
+Bei Exentax modellieren wir die passende Architektur und öffnen Stripe + Mercury + MoR-Alternative - damit ein Freeze Sie nie stoppt.
 <!-- /exentax:execution-v2 -->
 
 ## Referenzen: Quellen zu Strukturen und Jurisdiktionen
@@ -215,8 +215,7 @@ und nachvollziehbar — und sie hält den Anforderungen der LLC
 ## Eine kurze Schlussbemerkung
 
 Wir empfehlen, die Wahl der Passarelle nicht isoliert zu treffen,
-sondern gemeinsam mit dem Berater und mit klarem Blick auf den
-Banken-Stack der LLC (Mercury, Wise, gegebenenfalls Relay).
+sondern gemeinsam mit dem Berater und mit klarem Blick auf die Banken-Architektur der LLC (Mercury, Wise, gegebenenfalls Relay).
 So lässt sich vermeiden, dass eine später hinzugefügte Passarelle
 die ursprüngliche Architektur durcheinanderbringt.
 

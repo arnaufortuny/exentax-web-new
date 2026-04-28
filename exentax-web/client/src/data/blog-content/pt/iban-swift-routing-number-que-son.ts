@@ -99,9 +99,9 @@ Para o Mercury, os dados que darás aos clientes são:
 Mercury tem $0 em comissões de wire, tanto nacionais como internacionais. Os teus fundos estão custodiados na Column NA com seguro FDIC.
 
 Na Exentax configuramos Mercury, Wise e Revolut Business para que as transferências entre os teus clientes e a tua LLC passem limpas. Marca a tua consulta gratuita: damos-te o manual certo para o teu negócio.
-## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+## Arquitetura bancária equilibrada: Mercury, Relay, Slash e Wise
 
-Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, onde cada ferramenta cobre um papel:
 
 - **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
 - **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
@@ -125,7 +125,7 @@ IBAN, SWIFT e routing number leem-se de forma mais útil como um mapeamento de i
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos esta arquitetura como parte da constituição.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -160,7 +160,7 @@ Confundir IBAN, SWIFT/BIC e ABA Routing Number custa pagamentos rejeitados, tran
 
 **Porque é que o meu cliente europeu não consegue pagar com cartão quando lhe dou SWIFT?** Porque SWIFT é transferência bancária, não pagamento com cartão. Para cartão use Stripe ou equivalente. Para wire, o cliente precisa de SWIFT + conta + morada do beneficiário e do banco.
 
-Na Exentax configuramos o stack bancário completo da sua LLC (Mercury principal, Wise Business secundária com IBAN europeu, gateway de pagamento se aplicável) para cobrar limpo em cada moeda e país.
+Na Exentax configuramos a arquitetura bancária completa da sua LLC (Mercury principal, Wise Business secundária com IBAN europeu, gateway de pagamento se aplicável) para cobrar limpo em cada moeda e país.
 <!-- /exentax:execution-v2 -->
 
 ## Como trabalhamos na Exentax
@@ -171,7 +171,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 ## Para continuar a leitura
 
 - [Wise, IBAN e LLC: o que é realmente reportado às autoridades fiscais](/pt/blog/wise-iban-e-llc-o-que-realmente-e-reportado-as-autoridades)
-- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Wise, bancos e LLC: a arquitetura bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
 - [ACH vs transferência bancária: prazos e impacto no fluxo da LLC](/pt/blog/ach-vs-transferencia-bancaria-prazos-de-pagamento-e-impacto)
 <!-- /exentax:cross-refs-v1 -->
 

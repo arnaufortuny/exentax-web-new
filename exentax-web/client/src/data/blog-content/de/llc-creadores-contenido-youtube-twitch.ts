@@ -152,7 +152,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 Wenn Sie von YouTube, Twitch, TikTok oder Patreon leben und außerhalb der USA wohnen, ändert eine gut aufgesetzte LLC Ihren Betrieb: Sie kassieren direkt in USD von Google AdSense, Twitch, Sponsoren und Plattformen, ohne überlastete Privatkonten, ohne teuren Wechsel, mit sauberer Rechnung für Corporate-Sponsoren.
 
 - **Der Engpass ohne LLC.** AdSense zahlt auf Ihr lokales IBAN, Twitch behält 30% ohne W-8BEN ein, US-Sponsoren verlangen W-9 (den Sie als Nicht-US-Person nicht geben können), und Ihr Privatkonto empfängt internationale Wires mit 25-50 USD Gebühren. Plus: das Finanzamt erhält den vollständigen CRS-Bericht.
-- **Der Stack mit LLC.** Single-member LLC in Wyoming oder Delaware, EIN, Mercury Business als USD-Hauptkonto. AdSense konfigurieren auf LLC (EIN) zu zahlen, W-8BEN-E auf Twitch/TikTok einreichen zur Reduktion der Quellensteuer auf 0% unter Abkommen, Sponsorships aus der LLC mit eigener Rechnung.
+- **Die Architektur mit LLC.** Single-member LLC in Wyoming oder Delaware, EIN, Mercury Business als USD-Hauptkonto. AdSense konfigurieren auf LLC (EIN) zu zahlen, W-8BEN-E auf Twitch/TikTok einreichen zur Reduktion der Quellensteuer auf 0% unter Abkommen, Sponsorships aus der LLC mit eigener Rechnung.
 - **Steuerlich am Wohnsitz.** In Deutschland werden LLC-Einkünfte in der ESt als gewerbliche/selbständige Einkünfte besteuert. Disregarded LLC = direkte Zurechnung. In LATAM ist die LLC meist opak, nur Ausschüttungen besteuert.
 - **Karten und Ausgaben.** Mercury gibt USD-Karten aus für Software (Adobe, Notion), Equipment (Kamera, Mikro), Promotion (Meta, Google) und Abos. 100% abzugsfähig. Kein Wechselaufschlag bei jeder USD-Belastung.
 

@@ -134,7 +134,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 Se constrói software, vende SaaS ou desenvolve para clientes internacionais, uma LLC americana resolve três problemas: cobra em USD/EUR sem fricção, profissionaliza a imagem perante clientes B2B corporativos e monta a base para escalar a equipa ou levantar capital.
 
 - **Porque a LLC encaixa em SaaS e dev.** Stripe US (melhor experiência de pagamento internacional), Mercury para cobranças B2B, possibilidade de listar SaaS em marketplaces americanos (AWS Marketplace, Salesforce AppExchange, Shopify) que exigem entidade US. Clientes enterprise B2B assinam com entidades, não freelancers.
-- **Stack típico.** Wyoming ou Delaware LLC, EIN, Mercury Business + Stripe US, Wise Business para EUR, GitHub/Vercel/AWS facturados à LLC (100% dedutível), contractor agreements com developers W-9/W-8BEN. Manutenção: 1.500-2.500 USD anuais.
+- **Arquitetura típica.** Wyoming ou Delaware LLC, EIN, Mercury Business + Stripe US, Wise Business para EUR, GitHub/Vercel/AWS facturados à LLC (100% dedutível), contractor agreements com developers W-9/W-8BEN. Manutenção: 1.500-2.500 USD anuais.
 - **Se planeia levantar capital.** Comece directo com Delaware C-Corp (ou LLC com plano claro de conversão). VC e compradores estratégicos exigem quase sempre Delaware C-Corp. Mudar depois é possível mas caro.
 - **Fiscalidade em residência.** Residente PT: lucros atribuídos a LLC tributam em IRS como actividade. SaaS B2C UE: ATENÇÃO OSS (IVA país do cliente desde 10k EUR/ano). B2B internacional: factura limpa sem IVA na maioria dos casos.
 
@@ -144,7 +144,7 @@ Se constrói software, vende SaaS ou desenvolve para clientes internacionais, um
 
 **Os meus GitHub Sponsors / Stripe / users pagantes US vão à LLC desde o dia 1?** Sim, configura destino de pagamento para conta Mercury da LLC e Stripe para entidade LLC com EIN. Migração: 1-2 horas.
 
-Na Exentax montamos o stack completo de LLC para developers/SaaS em 4-6 semanas (LLC + EIN + Mercury + Stripe + Wise + migração billing AWS/Vercel + contabilidade mensal), pronto para facturar o primeiro cliente enterprise.
+Na Exentax montamos a arquitetura completa de LLC para developers/SaaS em 4-6 semanas (LLC + EIN + Mercury + Stripe + Wise + migração billing AWS/Vercel + contabilidade mensal), pronto para facturar o primeiro cliente enterprise.
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cross-refs-v1 -->

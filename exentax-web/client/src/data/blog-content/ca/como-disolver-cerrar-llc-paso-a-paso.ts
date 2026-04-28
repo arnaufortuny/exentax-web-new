@@ -69,7 +69,7 @@ El tancament del compte bancari és el punt on més errors es cometen. La regla 
 - **Descarregar tots els extractes** (almenys set anys cap enrere) abans de tancar el compte. Un cop tancada, recuperar-los pot ser impossible o costós.
 - **Cancel·lar Stripe, PayPal i passarel·les** vinculades a la LLC i descarregar l'històric de moviments.
 
-> Si el teu stack actual és Wise Business + Relay + Slash amb Mercury de respatller, aquest és exactament l'ordre invers de tancament: primer les passarel·les, després les fintech secundàries, i al final el compte principal pel qual passa l'últim cash. Wallester, si el tens amb IBAN europeu, sol ser dels últims a tancar-se i ha de revisar-se a la llum de les teves obligacions CRS a Espanya.
+> Si la teva arquitectura actual és Wise Business + Relay + Slash amb Mercury de respatller, aquest és exactament l'ordre invers de tancament: primer les passarel·les, després les fintech secundàries, i al final el compte principal pel qual passa l'últim cash. Wallester, si el tens amb IBAN europeu, sol ser dels últims a tancar-se i ha de revisar-se a la llum de les teves obligacions CRS a Espanya.
 ### 4. Declaracions finals davant l'IRS
 
 Aquí és on molts tancaments es trenquen. La LLC, abans de morir, ha de presentar la seva **última temporada IRS**, marcant els formularis com a **Final return**:

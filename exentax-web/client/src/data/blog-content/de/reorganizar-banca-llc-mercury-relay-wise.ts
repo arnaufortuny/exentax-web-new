@@ -35,7 +35,7 @@ Stärken: solide US-Bank, bis zu 20 Sub-Konten, Teamberechtigungen. Grenzen: wen
 1. **Spezialisierte Konten**, keine Beliebigkeit.
 2. **KYC-freundliche Flüsse**: was läuft, muss zu dem passen, was bei Eröffnung erklärt wurde.
 3. **Operative Redundanz**: mindestens zwei operative Konten bei zwei Anbietern.
-4. **Buchhaltungs-Integration**: stellen Sie sicher, dass der Stack mit QuickBooks, Xero oder Wave integriert ist.
+4. **Buchhaltungs-Integration**: stellen Sie sicher, dass die Architektur mit QuickBooks, Xero oder Wave integriert ist.
 ### Migration ohne Bruch
 
 1. **Neue Konten eröffnen**, bestehendes aktiv halten. 4-8 Wochen KYC.
@@ -53,10 +53,10 @@ Saubere Migration: 3-6 Monate.
 - **Vergessen, Abos auf der alten Karte zu aktualisieren**.
 ### So machen wir es bei Exentax
 
-Bei Exentax planen wir Banking-Stacks anhand realer Flüsse, nicht Modetrends. Buchen Sie eine kostenlose Erstsession über unsere Buchungsseite.
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+Bei Exentax planen wir Banking-Architekturen anhand realer Flüsse, nicht Modetrends. Buchen Sie eine kostenlose Erstsession über unsere Buchungsseite.
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
@@ -64,7 +64,7 @@ Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**,
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
 
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -96,13 +96,13 @@ Die Reorganisation der Bankstruktur einer LLC unter Einbeziehung von Mercury, Re
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
 ## Wie sich die bankliche Reorganisation der LLC als Mapping-Update statt als Anbieterwechsel lesen lässt
 
-Die bankliche Reorganisation der LLC liest sich nützlicher als Update des Rolle-pro-Anbieter-Mappings zwischen Mercury, Relay und Wise denn als isolierter Anbieterwechsel. Eine kurze, datierte Notiz im LLC-Ordner, die festhält, welcher Anbieter im neuen Stack welche Rolle spielt und welche im alten Stack gespielt wurden, macht die Reorganisation in wenigen Minuten nachlesbar — ohne den ursprünglichen Übergangskontext zu verlieren.
+Die bankliche Reorganisation der LLC liest sich nützlicher als Update des Rolle-pro-Anbieter-Mappings zwischen Mercury, Relay und Wise denn als isolierter Anbieterwechsel. Eine kurze, datierte Notiz im LLC-Ordner, die festhält, welcher Anbieter in der neuen Architektur welche Rolle spielt und welche in der alten Architektur gespielt wurden, macht die Reorganisation in wenigen Minuten nachlesbar — ohne den ursprünglichen Übergangskontext zu verlieren.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de -->
 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de-bis -->
-## Wie sich der Übergang zwischen altem und neuem Stack als datierte Notiz statt als impliziter Wechsel lesen lässt
+## Wie sich der Übergang zwischen altem und neuem Architektur als datierte Notiz statt als impliziter Wechsel lesen lässt
 
-Der Übergang zwischen altem und neuem Stack pflegt sich am ruhigsten als kurze, datierte Notiz, die das Datum der Umstellung und die Rolle jedes Anbieters vor und nach dem Wechsel festhält — und damit jede spätere Frage in wenigen Minuten beantwortbar macht.
+Der Übergang zwischen alter und neuer Architektur pflegt sich am ruhigsten als kurze, datierte Notiz, die das Datum der Umstellung und die Rolle jedes Anbieters vor und nach dem Wechsel festhält — und damit jede spätere Frage in wenigen Minuten beantwortbar macht.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de-bis -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -130,15 +130,15 @@ Konkreter Befund aus unseren Akten: so läuft es tatsächlich, nicht wie es eine
 
 Praktisches Detail, das vor einer Handlung festgezurrt werden sollte. Der vermeidbare Schaden, den wir an genau diesem Punkt sehen, entsteht meist durch fehlende Dokumentation, nicht durch die steuerliche Logik selbst.
 
-## Exentax-Update aktuell: Banking-Stack aktuell
+## Exentax-Update aktuell: Banking-Architektur aktuell
 
-Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine mit komplementären Rollen verdichtet:
+Die empfohlene Banking-Architektur für eine LLC aktuell hat sich auf drei Bausteine mit komplementären Rollen verdichtet:
 
 - **Mercury (Hauptoperative).** Konto via **Column NA**, **FDIC-Deckung bis 5 Mio. USD** via Sweep, **Inlands-Wires zu 0 USD**, internationale 0 ein / 5 aus (korridorabhängig), 20+ kostenlose Sub-Konten. Ideal als operatives USD-Konto und Buchhaltungsbasis.
 - **Relay (Multi-Account und Regeln).** Bis zu 20 operative Konten + Auto-Allokation (Steuern, Opex, Sparen). Nützlich, wenn die LLC Cash-Buckets trennt, ohne ERP. Plaid-kompatibel für Wave/Quickbooks.
 - **Wise Business (Multi-Currency).** EMI mit 50+ Währungen zum Mid-Market, typischer FX **0,4-1,5 %**, lokale Daten in 10+ Ländern. Unentbehrlich bei EUR/GBP-Eingängen oder Zahlungen an LATAM/EU-Freelancer.
 
-### Stack-Modell aktuell nach Volumen
+### Architektur-Modell aktuell nach Volumen
 
 | Jahresvolumen | Empfohlener Aufbau |
 |---|---|
@@ -165,13 +165,13 @@ Der empfohlene Banking-Stack für eine LLC aktuell hat sich auf drei Bausteine m
 <!-- exentax:execution-v2 -->
 ## Wie wir das Banking einer LLC bei Exentax reorganisieren, wenn es nicht mehr skaliert
 
-Wenn eine LLC ernsthafte Zahlungen erhält, reicht der initiale Stack (manchmal nur Mercury) nicht: Limits, Sperren, ein einziges Gateway und null Backup. Die Exentax-Methode reorganisiert ihn ohne Downtime oder Kontoschließung.
+Wenn eine LLC ernsthafte Zahlungen erhält, reicht die initiale Architektur (manchmal nur Mercury) nicht: Limits, Sperren, ein einziges Gateway und null Backup. Die Exentax-Methode reorganisiert ihn ohne Downtime oder Kontoschließung.
 
 - **Haupt- und Spiegelkonto** parallel: Mercury oder Relay operativ, Wise als Multi-Währungs-Backup, Stripe + Paddle/DoDo als Gateways.
 - **Progressive Migration** von Lastschriften und Abos, damit kein Kunde während des Übergangs einen Fehlbuchung sieht.
 - **Erweitertes KYC vorbereitet** mit Tätigkeitsbeschreibung, MCC und kohärenter Dokumentation über alle Konten, um Second-Line-Prüfungen zu bestehen.
 
-Wenn Ihr aktueller Stack nicht mehr hält, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir liefern den Migrationsplan schriftlich, bevor irgendetwas berührt wird.
+Wenn Ihr aktueller Architektur nicht mehr hält, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir liefern den Migrationsplan schriftlich, bevor irgendetwas berührt wird.
 <!-- /exentax:execution-v2 -->
 
 ## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
@@ -191,11 +191,11 @@ Wenn Ihr aktueller Stack nicht mehr hält, starten Sie den <strong>Exentax-Rechn
   Bei einem Wechsel zwischen US-Fintechs (Wise → Mercury → Relay) ist die zeitliche Lückenlosigkeit der Zahlungsspur kritisch, weil sowohl das deutsche Finanzamt im Rahmen einer Außenprüfung nach § 193 AO als auch die FATCA-Meldungen eine vollständige Rekonstruktion der Bewegungen erwarten. Empfehlenswert ist, das alte Konto erst zu schließen, nachdem alle ausstehenden Forderungen vereinnahmt und die letzten Zahlungen abgewickelt sind, sowie ein vollständiger Export im PDF- und CSV-Format archiviert wurde. Eine ergänzende Buchungsdokumentation per DATEV-Schnittstelle oder durch eine in deutscher Sprache geführte Belegsammlung erleichtert spätere Betriebsprüfungen erheblich.
 
 <!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
-## Wenn der Stack der Engpass ist, nicht die Bank
+## Wenn die Architektur der Engpass ist, nicht die Bank
 
 Die meisten Anrufe zu "Ich möchte das Banking meiner LLC neu
 organisieren" handeln eigentlich nicht von einer schlechten Bank.
-Sie handeln von einem Stack, der zufällig gewachsen ist: ein
+Sie handeln von einer Architektur, die zufällig gewachsen ist: ein
 Mercury-Konto im ersten Jahr eröffnet, eine Stripe-Auszahlungsleitung
 ergänzt, als Webzahlungen kamen, eine Wise-Karte für Werbeausgaben
 hereingenommen und irgendwann Relay oder ein anderer Fintech für
@@ -268,7 +268,7 @@ Bewegung?" verschwindet.
 - Wirklich Redundantes erst nach einem sauberen Monatsabschluss
   schliessen.
 
-Wir behandeln den Banking-Stack als das Kreislaufsystem der LLC:
+Wir behandeln die Banking-Architektur als das Kreislaufsystem der LLC:
 jedes Gefäss hat eine Aufgabe, und Neuorganisieren bedeutet, das
 Layout zu reparieren, nicht die Gefässe herauszureissen.
 
@@ -291,7 +291,7 @@ Monatsabschluss: die Abstimmung wird kürzer, weil jede Datei je
 Konto schon vor-sortiert ist. Zweitens bei jeder KYC-Anfrage: jede
 Bank stellt nur Fragen zu dem, was sie sieht, und der Umfang der
 Antwort ist enger. Drittens bei Personalwechseln in der
-Buchhaltung: das neue Teammitglied versteht den Stack in einem
+Buchhaltung: das neue Teammitglied versteht die Architektur in einem
 Termin, weil die Rollen explizit sind.
 
 Wir empfehlen, nach jeder Neuorganisation eine kurze interne Notiz

@@ -37,7 +37,7 @@ La resposta curta i honesta per al cas típic d'una LLC de serveis sense establi
 - **Als EUA: 0% federal, 0% estatal** (a NM/WY/DE per a LLCs sense activitat local). Només costos de manteniment.
 - **A Espanya: IRPF sobre el benefici net** de la LLC, integrat a la teva declaració de la renda com a rendiments d'activitat econòmica en règim d'atribució, segons el teu marginal personal (19% al 47%).
 
-És a dir, **pagues a Espanya, però pagues millor**: sobre el benefici net després de deduccions àmplies, sense quota mensual d'autònoms, sense pagaments a compte trimestrals propis de l'autònom i amb un stack professional molt més eficient.
+És a dir, **pagues a Espanya, però pagues millor**: sobre el benefici net després de deduccions àmplies, sense quota mensual d'autònoms, sense pagaments a compte trimestrals propis de l'autònom i amb una arquitectura professional molt més eficient.
 ### Tipus d'ingressos coberts pel conveni
 
 | Tipus d'ingrés | Sense conveni (USA) | Amb conveni USA-Espanya |

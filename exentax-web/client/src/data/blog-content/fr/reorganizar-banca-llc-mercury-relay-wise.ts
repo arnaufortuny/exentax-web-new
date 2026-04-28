@@ -35,7 +35,7 @@ Forces: banque US solide, jusqu'à 20 sous-comptes, permissions équipe. Limites
 1. **Comptes spécialisés**, pas comptes "à l'arrache".
 2. **Flux KYC-friendly**: ce qui circule doit correspondre à ce qui a été déclaré à l'ouverture.
 3. **Redondance opérationnelle**: au moins deux comptes opérationnels chez deux prestataires.
-4. **Intégration comptable**: assurez-vous que la stack s'intègre avec QuickBooks, Xero ou Wave.
+4. **Intégration comptable**: assurez-vous que la configuration s'intègre avec QuickBooks, Xero ou Wave.
 ### Procédure de migration sans casser l'opération
 
 1. **Ouvrir les nouveaux comptes** en gardant l'existant actif. 4-8 semaines KYC.
@@ -53,10 +53,10 @@ Migration propre: 3-6 mois.
 - **Oublier de mettre à jour les abonnements récurrents** sur l'ancienne carte.
 ### Comment nous l'abordons chez Exentax
 
-Chez Exentax nous concevons les stacks bancaires en fonction des flux réels, pas de la mode. Réservez une session initiale gratuite via notre page contact.
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+Chez Exentax nous concevons les configurations bancaires en fonction des flux réels, pas de la mode. Réservez une session initiale gratuite via notre page contact.
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
@@ -64,7 +64,7 @@ Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** appropri�
 - **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
 - **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
 
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -121,9 +121,9 @@ Note de terrain après avoir piloté cela mois après mois pour des clients: la 
 
 C'est l'un des points que nous auditons en premier lorsque nous reprenons un dossier. S'il n'est pas propre ici, toute hypothèse en aval devient négociable face à l'administration.
 
-## Mise à jour Exentax actuellement: stack bancaire à jour
+## Mise à jour Exentax actuellement: configuration bancaire à jour
 
-Le stack bancaire recommandé pour une LLC actuellement a consolidé trois pièces aux rôles complémentaires:
+La configuration bancaire recommandée pour une LLC actuellement a consolidé trois pièces aux rôles complémentaires:
 
 - **Mercury (opérations principales).** Compte via **Column NA**, **couverture FDIC jusqu'à 5 M USD** via sweep, **wires domestiques à 0 USD**, internationaux 0 entrants / 5 sortants (selon corridor), 20+ sous-comptes gratuits. Idéal comme compte opérationnel USD et base comptable.
 - **Relay (multi-comptes et règles).** Jusqu'à 20 comptes opérationnels + règles d'auto-répartition (impôts, opex, épargne). Utile quand la LLC commence à séparer ses *cash buckets* sans passer à un ERP. Compatible Plaid pour Wave/Quickbooks.
@@ -156,13 +156,13 @@ Le stack bancaire recommandé pour une LLC actuellement a consolidé trois pièc
 <!-- exentax:execution-v2 -->
 ## Comment nous réorganisons le banking d'une LLC chez Exentax quand il ne tient plus
 
-Quand une LLC reçoit des paiements sérieux, le stack initial (parfois juste Mercury) ne tient plus: limites, gels, une seule passerelle et zéro secours. La méthode Exentax le réorganise sans downtime ni fermetures.
+Quand une LLC reçoit des paiements sérieux, la configuration initial (parfois juste Mercury) ne tient plus: limites, gels, une seule passerelle et zéro secours. La méthode Exentax le réorganise sans downtime ni fermetures.
 
 - **Compte principal et compte miroir** en parallèle: Mercury ou Relay opérationnel, Wise en secours multi-devises, Stripe + Paddle/DoDo en passerelle.
 - **Migration progressive** des prélèvements et abonnements pour qu'aucun client ne voie un encaissement échouer pendant la transition.
 - **KYC étendu préparé** avec description d'activité, MCC et documentation cohérents entre tous les comptes pour passer les contrôles de second niveau.
 
-Si votre stack actuel ne tient plus, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes: nous remettons le plan de migration par écrit avant de toucher à quoi que ce soit.
+Si votre configuration actuelle ne tient plus, lancez la <strong>calculatrice Exentax</strong> ou réservez trente minutes: nous remettons le plan de migration par écrit avant de toucher à quoi que ce soit.
 <!-- /exentax:execution-v2 -->
 
 ## Le cas spécifique du résident fiscal français
@@ -174,11 +174,11 @@ Si votre stack actuel ne tient plus, lancez la <strong>calculatrice Exentax</str
   Tout transfert international supérieur à 12 500 € entre comptes appartenant à la même personne est notifié automatiquement à TRACFIN par la banque française émettrice ou réceptrice (article L.561-15 du Code monétaire et financier). Une trace contradictoire avec la déclaration 3916-bis déclenche un signalement et, le cas échéant, une demande de justification documentée dans un délai de trente jours.
 
 <!-- exentax:lote7-native-v1:reorganizar-banca-llc-mercury-relay-wise -->
-## Quand le stack est le goulot, pas la banque
+## Quand la configuration est le goulot, pas la banque
 
 La plupart des appels reçus pour "je veux réorganiser la banque de
 ma LLC" ne portent pas vraiment sur une mauvaise banque. Ils
-portent sur un stack qui a grandi par accident : un compte Mercury
+portent sur une configuration qui a grandi par accident : un compte Mercury
 ouvert la première année, un canal de payout Stripe ajouté quand les
 paiements web sont arrivés, une carte Wise introduite pour les
 dépenses publicitaires et, à un certain moment, Relay ou un autre
@@ -252,7 +252,7 @@ disparaît.
 - Ne fermer ce qui est vraiment redondant qu'après une clôture
   mensuelle propre.
 
-Nous traitons le stack bancaire comme le système circulatoire de la
+Nous traitons la configuration bancaire comme le système circulatoire de la
 LLC : chaque vaisseau a un rôle, et réorganiser signifie corriger
 le tracé, pas arracher les vaisseaux.
 

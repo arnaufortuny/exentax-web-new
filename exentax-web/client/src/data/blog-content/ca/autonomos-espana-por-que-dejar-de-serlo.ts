@@ -63,7 +63,7 @@ La teva LLC com a Disregarded Entity de no resident funciona amb **pass-through 
 
 Amb una LLC, pots deduir com a despeses operatives tot el que sigui "ordinari i necessari" per al teu negoci:
 
-- **Tot el teu stack tecnològic**: hosting, dominis, APIs, SaaS, eines d'IA
+- **Tota la teva arquitectura tecnològica**: hosting, dominis, APIs, SaaS, eines d'IA
 - **Hardware**: ordinador, monitor, auriculars, micròfon, càmera
 - **Formació**: cursos, bootcamps, conferències, llibres tècnics
 - **Viatges de negoci**: vols, hotels, dietes (per a reunions amb clients, esdeveniments del sector)

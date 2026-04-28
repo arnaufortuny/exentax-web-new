@@ -63,7 +63,7 @@ Votre LLC en tant que Disregarded Entity de non-résident fonctionne avec la **p
 
 Avec une LLC, vous pouvez déduire comme charges opérationnelles tout ce qui est "ordinaire et nécessaire" pour votre activité:
 
-- **Tout votre stack technologique**: hébergement, domaines, APIs, SaaS, outils d'IA
+- **Tout votre configuration technologique**: hébergement, domaines, APIs, SaaS, outils d'IA
 - **Matériel**: ordinateur, écran, casque, micro, caméra
 - **Formation**: cours, bootcamps, conférences, livres techniques
 - **Voyages d'affaires**: vols, hôtels, indemnités de repas (pour des réunions clients, événements du secteur)

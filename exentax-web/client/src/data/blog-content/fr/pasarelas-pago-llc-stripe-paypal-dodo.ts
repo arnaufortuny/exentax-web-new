@@ -154,7 +154,7 @@ La passerelle définit votre disponibilité d'encaissement, votre coût par tran
 - **Stripe (US, via LLC + EIN).** Le standard pour SaaS, abonnements et e-commerce professionnel. Tarif 2,9% + 0,30$ domestique US, +1% international, +1% conversion. Approuve LLC non-résidentes avec EIN + banque US (Mercury, Wise) + site opérationnel + description claire. Risque principal: gel pour chargebacks ou activité haut risque (coaching, infoproduits, crypto, adulte).
 - **PayPal Business (US).** Indispensable pour B2C en Amérique latine et Europe où le client « exige » PayPal. Commission plus élevée (~3,49%) et pire expérience abonnement. Risque de hold 21 jours sur comptes neufs.
 - **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** Le MoR prend en charge la TVA et la conformité pour ventes numériques UE/UK/AU. Commission 5%-8% mais enlève OSS, MOSS, TVA UK, GST AU. Idéal pour SaaS et produits numériques multi-juridiction.
-- **Stack recommandé par modèle.** SaaS B2B global: Stripe + Paddle. Infoproduits B2C UE: Lemon Squeezy ou Dodo. Conseil: Stripe + Wise + PayPal optionnel. JAMAIS dépendre d'une seule passerelle.
+- **Configuration recommandée par modèle.** SaaS B2B global: Stripe + Paddle. Infoproduits B2C UE: Lemon Squeezy ou Dodo. Conseil: Stripe + Wise + PayPal optionnel. JAMAIS dépendre d'une seule passerelle.
 
 ### Ce qu'on nous demande le plus
 
@@ -162,7 +162,7 @@ La passerelle définit votre disponibilité d'encaissement, votre coût par tran
 
 **Dodo/LS me libère-t-il de la TVA numérique UE?** Oui, en tant que Merchant of Record. Vous facturez à Dodo/LS (B2B sans TVA avec W-8BEN-E), ils facturent au client final.
 
-Chez Exentax nous modélisons le stack adapté à votre marge, marché et produit et ouvrons Stripe + Mercury + MoR - pour qu'un gel ne vous arrête jamais.
+Chez Exentax nous modélisons la configuration adaptée à votre marge, marché et produit et ouvrons Stripe + Mercury + MoR - pour qu'un gel ne vous arrête jamais.
 <!-- /exentax:execution-v2 -->
 
 ## Références: sources sur les structures et juridictions

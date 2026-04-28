@@ -41,7 +41,7 @@ Voir <a href="/fr/blog/wise-business-et-crs-ce-qui-est-declare-a-votre-fisc">Wis
 Si votre LLC vend via plateformes (<a href="/fr/blog/dac7-le-nouveau-reporting-des-plateformes-numeriques-en-2026">DAC7</a>) ou opère en crypto via exchanges UE (<a href="/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal">DAC8</a>), des canaux supplémentaires alimentent votre fisc.
 ### En résumé
 
-Revolut Business est excellent; comprendre son profil CRS est essentiel. La clé n'est pas d'éviter Revolut, mais de déclarer correctement et de concevoir un stack cohérent.
+Revolut Business est excellent; comprendre son profil CRS est essentiel. La clé n'est pas d'éviter Revolut, mais de déclarer correctement et de concevoir une configuration cohérente.
 
 Chez Exentax on évalue cas par cas si Revolut Business a sa place dans la structure, pour des clients en France et en Belgique. Réservez votre consultation gratuite: on regarde la carte bancaire totale et on vous dit quoi garder, quoi déplacer.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
@@ -82,7 +82,7 @@ La pratique bancaire décrite s'appuie sur la documentation publique et sur les 
 - **FATCA et CRS.** IRC §1471–1474 (FATCA et formulaires W-8/W-9), accords intergouvernementaux Modèle 1 entre les États-Unis et la France, la Belgique ou la Suisse, ainsi que le Common Reporting Standard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>, auquel les États-Unis ne sont pas parties mais qui s'applique en revanche aux fintechs sous licence européenne (Wise Europe SA en Belgique, Revolut Bank UAB en Lituanie).
 - **Plateformes concrètes.** Conditions d'utilisation, politiques de confidentialité et FAQ réglementaires publiées par Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN-MSB aux États-Unis ; Wise Europe SA en UE ; Wise Payments Ltd. au Royaume-Uni), Revolut Business (Revolut Bank UAB en Lituanie) et Payoneer (Payoneer Europe Ltd. en Irlande).
 
-Ces éléments sont indicatifs ; chaque dossier bancaire mérite une analyse cas par cas du KYC, du pays de résidence et du volume opéré. Pour un client résidant en France, en Belgique ou en Suisse avec une LLC américaine, nous recommandons typiquement un stack US primaire (Mercury ou Relay) et un nœud européen secondaire (Wise Business pour les encaissements EUR ou Wallester pour les cartes), de sorte que la trace CRS reste maîtrisée et qu'aucune plateforme isolée ne porte tout le risque opérationnel.
+Ces éléments sont indicatifs ; chaque dossier bancaire mérite une analyse cas par cas du KYC, du pays de résidence et du volume opéré. Pour un client résidant en France, en Belgique ou en Suisse avec une LLC américaine, nous recommandons typiquement une configuration US primaire (Mercury ou Relay) et un nœud européen secondaire (Wise Business pour les encaissements EUR ou Wallester pour les cartes), de sorte que la trace CRS reste maîtrisée et qu'aucune plateforme isolée ne porte tout le risque opérationnel.
 
 <!-- /exentax:legal-refs-v1 -->
 
@@ -102,7 +102,7 @@ Revolut Business est pratique, multi-devise et bon marché - et reporte systéma
 
 **Puis-je déclarer résidence « US » au KYC?** Déclaration fausse à la banque - délit. Revolut demande documentation à l'appui.
 
-Chez Exentax nous structurons le stack bancaire en tenant compte de ce que CRS/FATCA reportent.
+Chez Exentax nous structurons la configuration bancaire en tenant compte de ce que CRS/FATCA reportent.
 <!-- /exentax:execution-v2 -->
 
 ## Votre prochaine étape avec Exentax

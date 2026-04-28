@@ -4,7 +4,7 @@ export default `
 Se acabaste de constituir a tua LLC a partir de Portugal ou do Brasil, a próxima pergunta é quase sempre a mesma: "como é que abro uma conta bancária americana sem pôr os pés nos Estados Unidos?" Durante anos a resposta por defeito era a Mercury. **atualmente, a Exentax já não recomenda a Mercury como conta principal quando toda a tua operação acontece fora dos EUA.** A razão é muito concreta: quando a Mercury fecha uma conta no âmbito de uma revisão de compliance, cada vez mais frequente, **devolve os fundos através de um cheque físico em USD em nome da LLC, enviado por correio postal para a morada registada da empresa**. Para um residente fiscal em Portugal, no Brasil ou em LATAM, depositar esse cheque é lento, caro e, em muitos bancos europeus, simplesmente impossível.
 
 > **Aviso hoje, Mercury e operação não estado-unidense.**
-> Se 100 % da tua atividade (clientes, recebimentos, despesas) acontece fora dos EUA, a Exentax **não** recomenda a Mercury como conta principal. O produto é sólido, mas o mecanismo de devolução em caso de fecho por compliance (cheque físico em USD) penaliza especificamente o titular não residente. Recomendação: usa **Relay** (Thread Bank, FDIC) ou **Slash** (Column N.A. e/ou Stearns Bank, FDIC) como conta principal e, se abrires Mercury, mantém-na como secundária com saldo operacional baixo. Desenhamos o stack contigo na consultoria inicial.
+> Se 100 % da tua atividade (clientes, recebimentos, despesas) acontece fora dos EUA, a Exentax **não** recomenda a Mercury como conta principal. O produto é sólido, mas o mecanismo de devolução em caso de fecho por compliance (cheque físico em USD) penaliza especificamente o titular não residente. Recomendação: usa **Relay** (Thread Bank, FDIC) ou **Slash** (Column N.A. e/ou Stearns Bank, FDIC) como conta principal e, se abrires Mercury, mantém-na como secundária com saldo operacional baixo. Desenhamos a arquitetura contigo na consultoria inicial.
 
 Este guia continua a explicar como funciona a Mercury e como abrir a conta corretamente, mas lê primeiro o aviso acima.
 
@@ -22,7 +22,7 @@ As suas vantagens principais para donos de LLC:
 - **ACH gratuito.** Transferências domésticas sem custo.
 - **Cartão de débito virtual e físico.** Para pagamentos online, subscrições e despesas operacionais.
 - **Integrações contabilísticas.** Conecta-se com QuickBooks, Xero e outras ferramentas de contabilidade.
-- **API para programadores.** Ideal se precisas automatizar pagamentos, conciliações ou integrar com o teu stack.
+- **API para programadores.** Ideal se precisas automatizar pagamentos, conciliações ou integrar com a tua arquitetura.
 - **Múltiplas contas.** Podes criar sub-contas para organizar o teu dinheiro (impostos, operações, reservas).
 ### Requisitos para abrir conta na Mercury
 
@@ -76,7 +76,7 @@ Se a tua LLC mantém capital entre distribuições (a maioria dos freelancers ac
 
 ### Quando a Mercury fecha ou bloqueia: o cheque físico
 
-Quando a Mercury decide fechar uma conta (ou a bloqueia para revisão de compliance), os fundos não ficam retidos: a Mercury devolve-os ao titular através de um **cheque físico emitido em USD em nome da LLC**, enviado por correio postal para a morada registada da empresa (normalmente a do Registered Agent). Para antecipar, convém ter uma segunda conta operacional preparada (Relay, Slash ou um EMI europeu do stack) e uma morada de envio fiável, porque desde que se emite o cheque até que se pode depositar podem passar várias semanas.
+Quando a Mercury decide fechar uma conta (ou a bloqueia para revisão de compliance), os fundos não ficam retidos: a Mercury devolve-os ao titular através de um **cheque físico emitido em USD em nome da LLC**, enviado por correio postal para a morada registada da empresa (normalmente a do Registered Agent). Para antecipar, convém ter uma segunda conta operacional preparada (Relay, Slash ou um EMI europeu da arquitetura) e uma morada de envio fiável, porque desde que se emite o cheque até que se pode depositar podem passar várias semanas.
 
 ### Wallester: cartões corporativos com IBAN euro e controlo total
 
@@ -152,16 +152,16 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+## Arquitetura bancária equilibrada: Mercury, Relay, Slash e Wise
 
-Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, onde cada ferramenta cobre um papel:
 
 - **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
 - **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
 - **Slash** (suportada pela Column N.A. (banco com licença federal, FDIC)). Banca desenhada para operadores online: emissão instantânea de cartões virtuais por fornecedor, controlos de gasto granulares, cashback em publicidade digital. É o complemento natural quando gere Meta Ads, Google Ads ou subscrições SaaS.
 - **Wise Business** (EMI multi-divisa, não é banco). Para receber e pagar em EUR, GBP, USD e outras divisas com dados bancários locais e conversão à *mid-market rate*. Não substitui uma conta US real, mas é imbatível para tesouraria internacional.
 - **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
-A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos esta arquitetura como parte da constituição.
 
 <!-- exentax:banking-facts-v1 -->
 ## Factos bancários e fiscais a precisar
@@ -224,7 +224,7 @@ Mercury continua a ser a opção por defeito para uma LLC de não residente; dad
 <!-- exentax:execution-v2 -->
 ## Como escolhemos o banking da sua LLC na Exentax
 
-A Mercury foi durante anos a escolha por defeito de não residentes, mas o método Exentax recomenda hoje sempre um stack em cascata porque os fechos por compliance se tornaram rotina. O que fazemos todas as semanas com clientes novos é sempre o mesmo.
+A Mercury foi durante anos a escolha por defeito de não residentes, mas o método Exentax recomenda hoje sempre uma arquitetura em cascata porque os fechos por compliance se tornaram rotina. O que fazemos todas as semanas com clientes novos é sempre o mesmo.
 
 - **Conta principal e conta espelho** desde o dia um: Mercury ou Relay como operacional e Wise como reserva para manter liquidez se uma congelar 30 dias.
 - **Stripe e gateway alternativo** (Paddle ou DoDo) se vende a clientes finais: um único gateway activo é ponto único de falha.
@@ -275,7 +275,7 @@ Para aprofundar a estrutura bancária completa leia <a href="/pt/blog/as-contas-
 <!-- exentax:cross-refs-v1 -->
 ## Para continuar a leitura
 
-- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Wise, bancos e LLC: a arquitetura bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
 - [Como evitar bloqueios de conta no Mercury, Wise e Revolut](/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-revolut)
 - [Due diligence bancária da sua LLC americana: o que os bancos verificam](/pt/blog/due-diligence-bancaria-para-sua-llc-americana-o-que-os)
 <!-- /exentax:cross-refs-v1 -->

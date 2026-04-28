@@ -83,13 +83,13 @@ Der professionelle Ansatz besteht aus:
 
 ## Zusammenfassung
 
-CRS „umgeht" man nicht aus einer europäischen Jurisdiktion. Man plant ihn ein, mit Sachkenntnis. Eine US-LLC bleibt ein außerordentlich nützliches Werkzeug, aber die Gestaltung Ihres Banking-Stacks und Ihres steuerlichen Wohnsitzes sind entscheidend dafür, dass die informative Spur, die Sie erzeugen, mit dem übereinstimmt, was Sie erklären.
+CRS „umgeht" man nicht aus einer europäischen Jurisdiktion. Man plant ihn ein, mit Sachkenntnis. Eine US-LLC bleibt ein außerordentlich nützliches Werkzeug, aber die Gestaltung Ihres Banking-Architekturen und Ihres steuerlichen Wohnsitzes sind entscheidend dafür, dass die informative Spur, die Sie erzeugen, mit dem übereinstimmt, was Sie erklären.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Möchten Sie, dass wir prüfen, wie sich CRS in Ihrem konkreten Fall auswirkt, und den passenden Stack entwerfen? Reservieren Sie Ihre kostenlose Beratung und wir analysieren es gemeinsam mit Ihnen.
+Möchten Sie, dass wir prüfen, wie sich CRS in Ihrem konkreten Fall auswirkt, und die passende Architektur entwerfen? Reservieren Sie Ihre kostenlose Beratung und wir analysieren es gemeinsam mit Ihnen.
 Wenn Ihnen zu den Nuancen dieser Struktur noch etwas unklar ist, erklärt <a href="/de/blog/warum-spanische-freelancer-die-selbststandigkeit-fur-eine-us">warum man die Selbstständigkeit in Spanien aufgibt (und welche Alternativen es gibt)</a> ausführlich einen angrenzenden Aspekt, den wir uns sonst für einen anderen Artikel aufheben.
 
 ### Verwandte Lektüren

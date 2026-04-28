@@ -78,7 +78,7 @@ La pràctica bancària descrita es basa en documentació pública i en les polí
 - **FATCA i CRS.** IRC §1471–1474 (FATCA i formularis W-8/W-9), els acords intergovernamentals Model 1 entre els EUA i Espanya o Andorra, així com el Common Reporting Standard de l'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>, al qual els EUA no s'han adherit però que sí que s'aplica a fintechs amb llicència europea (Wise Europe SA a Bèlgica, Revolut Bank UAB a Lituània).
 - **Plataformes concretes.** Termes d'ús, polítiques de privacitat i FAQ regulatòries publicades per Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN-MSB als EUA; Wise Europe SA a la UE; Wise Payments Ltd. al Regne Unit), Revolut Business (Revolut Bank UAB a Lituània) i Payoneer (Payoneer Europe Ltd. a Irlanda).
 
-Aquestes referències són orientatives; cada cas bancari requereix una anàlisi individual del KYC, del país de residència i del volum operat. Per a un client resident a Catalunya, a la resta de l'Estat espanyol o a Andorra amb una LLC americana, recomanem habitualment un stack US primari (Mercury o Relay) i un node europeu secundari (Wise Business per a cobraments en EUR o Wallester per a targetes), de manera que la petjada CRS quedi controlada i cap plataforma aïllada concentri tot el risc operatiu.
+Aquestes referències són orientatives; cada cas bancari requereix una anàlisi individual del KYC, del país de residència i del volum operat. Per a un client resident a Catalunya, a la resta de l'Estat espanyol o a Andorra amb una LLC americana, recomanem habitualment una arquitectura US primària (Mercury o Relay) i un node europeu secundari (Wise Business per a cobraments en EUR o Wallester per a targetes), de manera que la petjada CRS quedi controlada i cap plataforma aïllada concentri tot el risc operatiu.
 
 <!-- /exentax:legal-refs-v1 -->
 
@@ -114,7 +114,7 @@ Revolut Business és pràctic, multidivisa i barat - i reporta sistemàticament 
 
 **Puc declarar residència "US" al KYC?** Declaració falsa al banc - delicte.
 
-A Exentax estructurem el stack bancari tenint en compte el que CRS/FATCA reporten.
+A Exentax estructurem l'arquitectura bancària tenint en compte el que CRS/FATCA reporten.
 <!-- /exentax:execution-v2 -->
 
 ## El teu pròxim pas amb Exentax

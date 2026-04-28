@@ -6,7 +6,7 @@ De tempos a tempos surge uma versão "definitiva" do intercâmbio automático de
 
 ## Resumo executivo
 
-O CRS 2.0 (a versão revista do Common Reporting Standard da OCDE) e o CARF (Crypto-Asset Reporting Framework) ampliam aquilo que bancos e exchanges declaram às administrações fiscais das jurisdições aderentes. Mais dados, mais entidades obrigadas e, sobretudo, muito mais cripto dentro do perímetro. Os Estados Unidos não estão nessa fotografia e nada na sua política fiscal da última década indica que venham a estar: têm o seu próprio regime, FATCA, que é bilateral e de saída, e captam biliões de dólares de capital estrangeiro precisamente porque oferecem a única jurisdição relevante fora do CRS. Para o titular não residente de uma LLC, isto não é um atalho para "esconder" nada; é um facto técnico que molda a escolha do estado, o stack bancário e a coerência com a sua declaração no país de residência.
+O CRS 2.0 (a versão revista do Common Reporting Standard da OCDE) e o CARF (Crypto-Asset Reporting Framework) ampliam aquilo que bancos e exchanges declaram às administrações fiscais das jurisdições aderentes. Mais dados, mais entidades obrigadas e, sobretudo, muito mais cripto dentro do perímetro. Os Estados Unidos não estão nessa fotografia e nada na sua política fiscal da última década indica que venham a estar: têm o seu próprio regime, FATCA, que é bilateral e de saída, e captam biliões de dólares de capital estrangeiro precisamente porque oferecem a única jurisdição relevante fora do CRS. Para o titular não residente de uma LLC, isto não é um atalho para "esconder" nada; é um facto técnico que molda a escolha do estado, a arquitetura bancária e a coerência com a sua declaração no país de residência.
 
 ## CRS original: o que se quis corrigir e onde ficou curto
 
@@ -62,7 +62,7 @@ Somadas as três camadas, a matemática para Washington é muito positiva: pouco
 Aterrando o que vimos em decisões concretas que tomamos com clientes da Exentax todas as semanas, a fotografia operacional por ordem de importância:
 
 - **A sua LLC continua a ser uma ferramenta válida e declarável.** O facto de os EUA estarem fora do CRS não a transforma numa "estrutura opaca" do ponto de vista da sua administração de residência. Tem obrigações declarativas próprias (em Portugal: Anexo J da Declaração Modelo 3, Modelo 38, eventual obrigação relativa ao IES; em Espanha: IRPF + Modelo 720 + Modelo 721) que não dependem do CRS. O que muda é o fluxo automático, não a sua obrigação.
-- **O stack bancário é o fator decisivo.** Se trabalha exclusivamente com contas nos EUA (Mercury, Relay, banca regional) em nome da LLC, a pegada CRS para o seu fisco é praticamente nula. Assim que adiciona uma camada europeia (Wise Business, Revolut Business europeu, N26, Wallester, Payoneer Europe), aceita que essa informação chegue à sua administração. Não é bom nem mau: é informação que o seu planeamento tem de absorver para que o declarado e o reportado coincidam.
+- **A arquitetura bancária é o fator decisivo.** Se trabalha exclusivamente com contas nos EUA (Mercury, Relay, banca regional) em nome da LLC, a pegada CRS para o seu fisco é praticamente nula. Assim que adiciona uma camada europeia (Wise Business, Revolut Business europeu, N26, Wallester, Payoneer Europe), aceita que essa informação chegue à sua administração. Não é bom nem mau: é informação que o seu planeamento tem de absorver para que o declarado e o reportado coincidam.
 - **A cripto muda de regime com o CARF.** Se gere saldos relevantes em exchanges com sede europeia ou em jurisdições aderentes, parta do princípio de que a sua autoridade fiscal receberá essa informação de forma automática a curto prazo.
 - **O estado de constituição importa por motivos operacionais, não fiscais**. Wyoming e Novo México continuam a ganhar para perfis freelancer e de serviços; Delaware continua a ganhar para SaaS com vocação de levantar capital ou para holdings; Florida tem encaixe para residentes hispânicos com nexus físico nos EUA. Nenhuma decisão depende do CRS.
 - **Residência fiscal do titular como variável-mestra**. A residência não se escolhe, determina-se por factos (dias de presença, centro de interesses económicos, núcleo familiar). Pretender ocultar a residência real ao abrigo da assimetria FATCA-CRS é, além de um erro técnico, uma infração tipificada na maioria das jurisdições europeias e latino-americanas, com sanções severas.
@@ -97,7 +97,7 @@ O alcance do CRS 2.0 e do CARF lê-se de forma mais útil como um mapeamento jur
 CRS 2.0 e CARF não são uma crise para uma LLC bem estruturada; são uma mudança de perímetro que se incorpora ao diagnóstico inicial e à manutenção anual. O método Exentax aplica três blocos por ordem e deixa registo escrito de cada passo para que a decisão seja defensável perante qualquer inspeção.
 
 - **Diagnóstico CRS e CARF da sua situação atual.** Mapeamos cada conta em seu nome e em nome da LLC, identificamos que entidades reportam a que jurisdição e cruzamos essa fotografia com as suas declarações dos últimos exercícios.
-- **Desenho do stack alinhado com a sua residência.** Banco principal (Mercury ou Relay), gateways, contas multimoeda e, se aplicável, exchange cripto coerente com o seu volume e país. Cada peça tem de ter sentido fiscal e operacional.
+- **Desenho da arquitetura alinhada com a sua residência.** Banco principal (Mercury ou Relay), gateways, contas multimoeda e, se aplicável, exchange cripto coerente com o seu volume e país. Cada peça tem de ter sentido fiscal e operacional.
 - **Calendário único de obrigações.** Annual Report estadual, Form 5472 + 1120, BOI Report, declaração no país de residência, declarações de bens no estrangeiro quando aplicáveis, tudo numa única folha com avisos prévios.
 
 Para aplicar este método ao seu caso, abra a <a href="/pt#calculadora">calculadora Exentax</a> ou reserve trinta minutos com a equipa: sai da chamada com diagnóstico claro e, se for o caso, calendário de regularização ordenado, sem compromisso.
@@ -119,7 +119,7 @@ Para aplicar este método ao seu caso, abra a <a href="/pt#calculadora">calculad
 
 ## Falemos do seu caso
 
-Cada estrutura tem nuances: o país de residência, o tipo de atividade, a presença ou não de cripto, o volume, a antiguidade da LLC, as obrigações acumuladas. Na Exentax revemos a sua situação, dimensionamos a exposição real ao CRS 2.0 e ao CARF e desenhamos a estrutura LLC e o stack bancário que encaixam consigo. Acompanhamo-lo todos os anos na manutenção para que o calendário e as declarações continuem coerentes com a realidade do seu negócio.
+Cada estrutura tem nuances: o país de residência, o tipo de atividade, a presença ou não de cripto, o volume, a antiguidade da LLC, as obrigações acumuladas. Na Exentax revemos a sua situação, dimensionamos a exposição real ao CRS 2.0 e ao CARF e desenhamos a estrutura LLC e a arquitetura bancária que encaixam consigo. Acompanhamo-lo todos os anos na manutenção para que o calendário e as declarações continuem coerentes com a realidade do seu negócio.
 
 
 <!-- exentax:defensa-fiscal-v1 -->

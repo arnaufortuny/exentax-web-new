@@ -81,9 +81,9 @@ O IRS **não cobra taxa** para emitir um ITIN. Os custos no processo são os do 
 6. Pedir ITIN para perfis que não precisam (tipicamente, proprietários de single-member LLC sem actividade pessoal nos EUA).
 
 Qualquer destes erros leva a uma **CP-566** ou **CP-567 Notice** e, no pior caso, a refazer o processo do zero no ano seguinte.
-## ITIN, banca e stack operacional da sua LLC
+## ITIN, banca e arquitetura operacional da sua LLC
 
-Quando já tem ITIN, todo o ecossistema americano funciona melhor: brokers como Interactive Brokers aplicam a convenção aos seus dividendos, plataformas como Amazon KDP retêm o correcto, e os gateways que recolhem um W-8BEN actualizado deixam de reter 30 % por defeito. Do lado da sua LLC, integra-se naturalmente no stack bancário que recomendamos: **Wise Business**, **Relay** e **Slash** como contas operacionais principais, **Mercury** como secundária de apoio, e **Wallester** apenas quando precisa de um IBAN europeu em nome da LLC, sempre considerando o seu tratamento sob CRS e o reporting que isso pode activar para a Autoridade Tributária.
+Quando já tem ITIN, todo o ecossistema americano funciona melhor: brokers como Interactive Brokers aplicam a convenção aos seus dividendos, plataformas como Amazon KDP retêm o correcto, e os gateways que recolhem um W-8BEN actualizado deixam de reter 30 % por defeito. Do lado da sua LLC, integra-se naturalmente na arquitetura bancária que recomendamos: **Wise Business**, **Relay** e **Slash** como contas operacionais principais, **Mercury** como secundária de apoio, e **Wallester** apenas quando precisa de um IBAN europeu em nome da LLC, sempre considerando o seu tratamento sob CRS e o reporting que isso pode activar para a Autoridade Tributária.
 
 Se está a começar e ainda não tem a LLC montada, o lógico é trabalhar as duas peças em paralelo: <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">a LLC como alternativa ao autónomo</a>, o <a href="/pt/blog/ein-o-que-e-o-numero-fiscal-da-sua-llc-e-como-obte-lo">EIN</a> e, quando aplicável à sua situação pessoal, o ITIN. E se já tem LLC mas está a receber retenções americanas que não compreende, quase sempre a peça que falta para limpar a situação é esta.
 ### Renovação e caducidade: cuidado com ITINs adormecidos

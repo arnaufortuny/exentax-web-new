@@ -59,9 +59,9 @@ Klärungen binnen 24-48h beantworten.
 ### So machen wir es bei Exentax
 
 Bei Exentax begleiten wir KYC-Runden regelmäßig. Buchen Sie eine kostenlose Erstsession über unsere Buchungsseite.
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
@@ -69,7 +69,7 @@ Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**,
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
 
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung

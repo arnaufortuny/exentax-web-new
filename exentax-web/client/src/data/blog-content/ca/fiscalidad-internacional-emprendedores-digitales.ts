@@ -70,7 +70,7 @@ Els tractats de doble imposició entre el teu país de residència i els EUA pod
 L'<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> està treballant en el marc BEPS 2.0 (Pillar One i Pillar Two) per adaptar el sistema fiscal internacional a l'economia digital. Aquests canvis afectaran principalment grans multinacionals, però és important que els emprenedors digitals estiguin al corrent de les evolucions normatives.
 
 Per continuar aquest fil, <a href="/ca/blog/estructura-fiscal-optima-per-a-freelancers-internacionals-el">Estructura fiscal òptima per a freelancers internacionals: el framework complet</a> completa un matís que aquí només hem tocat de passada.
-## L'stack que ho simplifica tot
+## L'arquitectura que ho simplifica tot
 
 No necessites ser expert en fiscalitat internacional per optimitzar la teva situació. Necessites les eines correctes i un equip que sàpiga utilitzar-les:
 

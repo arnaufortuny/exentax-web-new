@@ -111,7 +111,7 @@ Na Exentax trabalhamos exatamente nessa fronteira: estruturar a <a href="/pt/blo
 <!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
 ## Porque é que o IBAN de uma conta associada a uma LLC merece uma ficha de referência dedicada
 
-Um IBAN associado a uma LLC merece uma ficha de referência dedicada, distinta dos restantes documentos bancários, porque é o elemento que mais frequentemente aparece nas reconciliações e nos controlos transfronteiriços. A ficha não precisa de ser complexa: indica o titular exato da conta, a jurisdição de emissão do IBAN, o papel da conta no stack bancário e a data de abertura. Estas quatro informações bastam para responder rapidamente à grande maioria das questões que podem surgir.
+Um IBAN associado a uma LLC merece uma ficha de referência dedicada, distinta dos restantes documentos bancários, porque é o elemento que mais frequentemente aparece nas reconciliações e nos controlos transfronteiriços. A ficha não precisa de ser complexa: indica o titular exato da conta, a jurisdição de emissão do IBAN, o papel da conta na arquitetura bancária e a data de abertura. Estas quatro informações bastam para responder rapidamente à grande maioria das questões que podem surgir.
 
 O benefício desta ficha manifesta-se sobretudo quando uma administração pede um esclarecimento: em vez de reconstituir a informação a partir de várias fontes, transmite-se uma ficha já coerente e autoportante, o que encerra rapidamente a conversa.
 <!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-pt -->
@@ -191,7 +191,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <!-- exentax:cross-refs-v1 -->
 ## Para continuar a leitura
 
-- [Wise, bancos e LLC: a stack bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
+- [Wise, bancos e LLC: a arquitetura bancária completa que ninguém explica](/pt/blog/wise-bancos-e-llc-a-stack-bancaria-completa-que-ninguem)
 - [Contas bancárias US: o que reporta cada entidade e como estruturar](/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade)
 - [DAC8 e criptomoedas: o novo reporting fiscal automático em 2026](/pt/blog/dac8-e-criptomoedas-o-novo-reporting-fiscal-automatico-em)
 <!-- /exentax:cross-refs-v1 -->

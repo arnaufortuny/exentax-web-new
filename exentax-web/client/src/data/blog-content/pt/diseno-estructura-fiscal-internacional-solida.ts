@@ -18,7 +18,7 @@ Manter ES/LATAM; mudar para regime eficiente (Andorra, Portugal NHR/IFICI, Itál
 ### Passo 4: Substância
 
 **Legal** (Articles, OA, BOI, EIN, <a href="/pt/blog/documentos-da-llc-quais-precisa-e-como-organiza-los">documentos</a>); **operacional** (separar contas, contratos, <a href="/pt/blog/separar-dinheiro-pessoal-e-da-llc-por-que-e-importante">separar contas</a>); **económica** (receitas/despesas em nome da LLC, <a href="/pt/blog/deducoes-fiscais-para-sua-llc-o-que-pode-deduzir-e-como">deduções</a>); **decisional**.
-### Passo 5: Banking stack
+### Passo 5: Banking arquitetura
 
 Principal: <a href="/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-revolut">Mercury</a>/Relay (US), Mercury. Secundária: Wise/Revolut, <a href="/pt/blog/wise-business-e-crs-o-que-e-reportado-a-sua-autoridade">Wise</a> e <a href="/pt/blog/revolut-business-e-crs-o-que-e-reportado-a-sua-autoridade">Revolut</a>. Cartões: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo, <a href="/pt/blog/gateways-de-pagamento-para-sua-llc-stripe-paypal-e-dodo">gateways</a>. Tesouraria: Slash/Mercury Treasury/IBKR.
 ### Passo 6: Compliance e revisão contínua
@@ -26,7 +26,7 @@ Principal: <a href="/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-re
 **EUA**: <a href="/pt/blog/o-que-e-o-irs-e-como-afeta-a-sua-llc-americana">Form 5472</a> + 1120, BOI, Annual Report, Form 5472, <a href="/pt/blog/boi-report-2026-guia-completo-para-a-declaracao-fincen">BOI</a>, <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual</a>.
 **Espanha (residente)**: IRPF, IVA, Modelo 720, 721, 100/130, 238 (DAC7).
 **LATAM**: por país.
-**Revisão anual**: residência, substância, stack, normas novas.
+**Revisão anual**: residência, substância, arquitetura, normas novas.
 ### Exemplos
 
 **Perfil 1: Consultor B2B ES, 80-150 k€**: Single-Member LLC NM, Mercury + Wise.
@@ -41,7 +41,7 @@ Principal: <a href="/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-re
 | 2 | Onde residirei? | Residência objetivo |
 | 3 | Que veículo? | Forma jurídica |
 | 4 | Como substância? | Plano operacional |
-| 5 | Como flui o dinheiro? | Banking stack |
+| 5 | Como flui o dinheiro? | Banking arquitetura |
 | 6 | Como manter? | Compliance |
 ### Erros típicos
 
@@ -66,9 +66,9 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+## Arquitetura bancária equilibrada: Mercury, Relay, Slash e Wise
 
-Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, onde cada ferramenta cobre um papel:
 
 - **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
 - **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
@@ -77,7 +77,7 @@ Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada
 - **Wallester / Revolut Business.** Wallester traz cartões corporativos com BIN próprio para alto volume. Revolut Business funciona como complemento europeu, não como conta principal da LLC.
 
 
-A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos esta arquitetura como parte da constituição.
 
 <!-- exentax:banking-facts-v1 -->
 ## Factos bancários e fiscais a precisar
@@ -198,7 +198,7 @@ diagramas "complexos mas elegantes" em revisões reais.
 ## Três estruturas que corremos com clientes
 
 Uma consultora em Espanha com clientes da UE e US opera uma single-
-member LLC associada a um pequeno stack Mercury + Wise. Os
+member LLC associada a uma pequeno arquitetura Mercury + Wise. Os
 rendimentos fluem para a sua declaração pessoal anual; o pro-forma
 1120 + 5472 da LLC documenta os fluxos relacionados; nenhuma camada
 de holding foi necessária. Manutenção anual total: leve.
@@ -211,7 +211,7 @@ de sócio sem redesenhar o diagrama.
 
 Uma fundadora com uma linha SaaS e uma linha de consultoria
 separada opera duas LLCs, uma por linha. Cada uma tem os seus
-livros, o seu stack bancário e o seu ciclo W-8. A separação
+livros, a sua arquitetura bancária e o seu ciclo W-8. A separação
 simplifica a opcionalidade de venda mais tarde (uma linha pode ser
 vendida sem afectar a outra) e mantém o reporting limpo.
 
@@ -236,7 +236,7 @@ vendida sem afectar a outra) e mantém o reporting limpo.
 - Plano de mobilidade de dois a cinco anos escrito.
 - Descrição da actividade: clientes por país, banda de receita
   esperada.
-- Stack bancário pré-mapeado (papéis Mercury, Relay, Wise, Stripe).
+- Arquitetura bancária pré-mapeado (papéis Mercury, Relay, Wise, Stripe).
 - Calendário de compliance anual (1120 + 5472, BOI, estado, CRS
   quando aplicável, declaração no país de residência).
 

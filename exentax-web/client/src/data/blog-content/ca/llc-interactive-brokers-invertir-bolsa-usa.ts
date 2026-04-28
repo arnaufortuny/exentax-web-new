@@ -97,7 +97,7 @@ Vol dir això que no has d'invertir via LLC? No. Vol dir que, si la teva cartera
 
 **El client que opera futurs des del seu compte personal**: quan el volum puja, la barreja amb el seu patrimoni personal li complica la fiscalitat del seu país i la separació. Ho movem a Tradovate sobre la LLC, amb documentació de capitalització i operating agreement actualitzat.
 
-**El client que vol combinar cripto + accions US + tresoreria**: dissenyem el stack complet. Mercury per a operativa, Slash per a tresoreria en T-Bills, IB per a accions/ETFs, Kraken per a cripto. Distribucions planificades. Compliance US continu.
+**El client que vol combinar cripto + accions US + tresoreria**: dissenyem l'arquitectura completa. Mercury per a operativa, Slash per a tresoreria en T-Bills, IB per a accions/ETFs, Kraken per a cripto. Distribucions planificades. Compliance US continu.
 ### Com es fa bé
 
 1. **Abans d'obrir broker**: revisar que la LLC tingui la documentació corporativa coherent (Articles, EIN, Operating Agreement, BOI presentat).

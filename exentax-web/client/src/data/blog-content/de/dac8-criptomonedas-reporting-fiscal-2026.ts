@@ -53,9 +53,9 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:lote24-native-v1:dac8-criptomonedas-reporting-fiscal-2026-de -->
-## Wie sich DAC8 als stabile Eigenschaft des Reporting-Stacks statt als wiederkehrende Überraschung lesen lässt
+## Wie sich DAC8 als stabile Eigenschaft die Reporting-Architektur statt als wiederkehrende Überraschung lesen lässt
 
-DAC8 liest sich ruhiger, wenn es als stabile Eigenschaft des Reporting-Stacks und nicht als wiederkehrende Überraschung behandelt wird. Der DAC8-Standard definiert, wer was an wen meldet, in einem Perimeter, der sich nicht jedes Jahr ändert, und das einmalige Verständnis dieses Perimeters genügt, um die jährliche Erklärung zu verankern, ohne die Analyse zu wiederholen.
+DAC8 liest sich ruhiger, wenn es als stabile Eigenschaft die Reporting-Architektur und nicht als wiederkehrende Überraschung behandelt wird. Der DAC8-Standard definiert, wer was an wen meldet, in einem Perimeter, der sich nicht jedes Jahr ändert, und das einmalige Verständnis dieses Perimeters genügt, um die jährliche Erklärung zu verankern, ohne die Analyse zu wiederholen.
 
 ## Wie sich der DAC8-Perimeter in einer kurzen Notiz festhalten lässt
 

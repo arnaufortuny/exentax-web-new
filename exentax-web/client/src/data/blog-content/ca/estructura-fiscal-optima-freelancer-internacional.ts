@@ -76,7 +76,7 @@ La clau de l'optimització fiscal amb una LLC és la seva classificació com a "
 5. **Migra gradualment**: no has de transferir-ho tot de cop
 
 Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/fiscalitat-internacional-per-a-emprenedors-digitals-guia">Fiscalitat internacional per a emprenedors digitals: guia completa</a>, que afina precisament els marges del que explica aquesta guia.
-### L'stack financer òptim per a freelancers internacionals
+### L'arquitectura financera òptima per a freelancers internacionals
 
 La combinació guanyadora que utilitzem per a la majoria dels nostres clients:
 

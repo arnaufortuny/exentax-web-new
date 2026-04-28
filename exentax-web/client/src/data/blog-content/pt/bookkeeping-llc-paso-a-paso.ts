@@ -14,7 +14,7 @@ Antes de tocar em qualquer software, o primeiro passo é <a href="/pt/blog/separ
 Se esta linha se cruza com frequência, o bookkeeping torna-se impossível e, pior, quebra-se a proteção legal da LLC. É a primeira regra e não admite exceções.
 ### Que ferramentas precisa
 
-Para uma LLC pequena ou média de não residente, este stack cobre tudo:
+Para uma LLC pequena ou média de não residente, esta arquitetura cobre tudo:
 
 - **Mercury** como conta operacional principal e, se quiser separar tesouraria, uma subconta ou Slash para reservas.
 - **Wise Business** para divisas diferentes do dólar, especialmente euros.
@@ -143,9 +143,9 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A aplicação concreta de qualquer destas normas ao seu caso depende da sua residência fiscal, da atividade da LLC e da documentação que mantenha. Este conteúdo é informativo e não substitui aconselhamento profissional personalizado.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
+## Arquitetura bancária equilibrada: Mercury, Relay, Slash e Wise
 
-Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
+Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, onde cada ferramenta cobre um papel:
 
 - **Mercury** (operada como fintech com bancos parceiros (Choice Financial Group e Evolve Bank & Trust principalmente; Column N.A. em contas legadas), FDIC via sweep network até ao limite em vigor). Conta principal operacional para não residentes com boa UX, ACH e wires. Continua a ser uma das opções mais comprovadas para abrir a partir de fora dos EUA.
 - **Relay** (suportada pela Thread Bank, FDIC). Excelente como **conta de backup** e para gestão "envelope budgeting": permite criar até 20 subcontas e 50 cartões de débito, integração profunda com QuickBooks e Xero. Se a Mercury bloquear ou pedir revisão KYC, a Relay evita que a sua operativa pare.
@@ -163,7 +163,7 @@ A contabilidade da LLC lê-se de forma mais útil como um procedimento mensal es
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos este stack como parte da constituição.
+A recomendação realista: **Mercury + Relay como backup + Slash para operativa publicitária + Wise para tesouraria FX**. É a configuração que minimiza risco de bloqueio e reduz custo real. Na Exentax abrimos e configuramos esta arquitetura como parte da constituição.
 
 <!-- exentax:banking-facts-v1 -->
 ## Factos bancários e fiscais a precisar

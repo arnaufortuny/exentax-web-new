@@ -41,7 +41,7 @@ Nicht jeder braucht eine ITIN. Bevor Sie Zeit und Geld investieren, sollten Sie 
 6. **Preise, Stipendien, in den USA bezahlte Vorträge.** Wenn Sie einen Preis, ein Stipendium eines US-Universitätsprogramms oder einmalige Einnahmen aus Vorträgen erhalten haben, ist es wahrscheinlich, dass 30 % einbehalten wurden und Sie eine ITIN brauchen, um zurückzuholen, was möglich ist.
 
 Es gibt ein subtileres siebtes Profil: den **Single-Member-LLC-Eigentümer**, der streng genommen **keine ITIN braucht, um Form 5472 + 1120 pro forma einzureichen** (die LLC wird über die EIN identifiziert, im Foreign-Owner-Feld genügen Name, Adresse und Land der Steueransässigkeit). Sobald dieselbe Person aber persönliche Aktivitäten hat, die einen Form 1040-NR auslösen (FIRPTA, Dividenden, K-1 aus einer anderen Struktur), ist die ITIN nicht mehr optional.
-## Der Dokumenten-Stack: W-7, Steuererklärung, Identifikation
+## Die Dokumenten-Architektur: W-7, Steuererklärung, Identifikation
 
 Der ITIN-Prozess dreht sich um drei Elemente. Eines davon zu überspringen ist praktisch eine Garantie für Ablehnung:
 
@@ -81,9 +81,9 @@ Der IRS **erhebt keine Gebühr** für die Ausstellung einer ITIN. Im Prozess fal
 6. ITIN für Profile beantragt, die keine brauchen (typisch: Single-Member-LLC-Eigentümer ohne persönliche US-Aktivität).
 
 Jeder dieser Fehler führt zu einer **CP-566** oder **CP-567 Notice** und schlimmstenfalls dazu, den Prozess im Folgejahr von vorne machen zu müssen.
-## ITIN, Banking und operativer LLC-Stack
+## ITIN, Banking und operativer LLC-Architektur
 
-Sobald Sie eine ITIN haben, funktioniert das gesamte US-Ökosystem besser: Broker wie Interactive Brokers wenden das Abkommen auf Ihre Dividenden an, Plattformen wie Amazon KDP behalten korrekt ein, und Gateways mit aktualisiertem W-8BEN behalten nicht mehr standardmäßig 30 % ein. Auf der LLC-Seite integrieren Sie sich natürlich in den von uns empfohlenen Banking-Stack: **Wise Business**, **Relay** und **Slash** als operative Hauptkonten, **Mercury** als sekundäres Backup und **Wallester** nur, wenn Sie eine europäische IBAN auf den Namen der LLC brauchen, stets unter Berücksichtigung der CRS-Behandlung und des möglichen Reportings an die spanische Steuerbehörde.
+Sobald Sie eine ITIN haben, funktioniert das gesamte US-Ökosystem besser: Broker wie Interactive Brokers wenden das Abkommen auf Ihre Dividenden an, Plattformen wie Amazon KDP behalten korrekt ein, und Gateways mit aktualisiertem W-8BEN behalten nicht mehr standardmäßig 30 % ein. Auf der LLC-Seite integrieren Sie sich natürlich in die von uns empfohlenen Banking-Architektur: **Wise Business**, **Relay** und **Slash** als operative Hauptkonten, **Mercury** als sekundäres Backup und **Wallester** nur, wenn Sie eine europäische IBAN auf den Namen der LLC brauchen, stets unter Berücksichtigung der CRS-Behandlung und des möglichen Reportings an die spanische Steuerbehörde.
 
 Wenn Sie noch am Anfang stehen und die LLC nicht eingerichtet haben, ist es logisch, beide Stränge parallel zu bearbeiten: <a href="/de/blog/llc-als-alternative-zum-autonomo-status-in-spanien">die LLC als Alternative zur Selbständigkeit</a>, die <a href="/de/blog/ein-was-ist-die-steuernummer-ihrer-llc-und-wie-sie-sie">EIN</a> und, wo persönlich anwendbar, die ITIN. Wenn Sie bereits eine LLC haben, aber US-Quellensteuer erhalten, die Sie nicht verstehen, ist das fehlende Teil zur Bereinigung fast immer dieses.
 ### Erneuerung und Ablauf: Vorsicht vor schlafenden ITINs

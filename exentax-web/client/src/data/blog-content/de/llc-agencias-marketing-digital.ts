@@ -125,7 +125,7 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 - **EIN und Benachrichtigung.** Ohne EIN ist weder 5472 noch BOI einreichbar. Der IRS warnt nicht vor Sanktionen; man bemerkt es, wenn die EIN gesperrt oder eine spätere Einreichung abgelehnt wird.<!-- exentax:execution-v2 -->
 ## LLC für Digital-Marketing-Agenturen: das Setup, das ohne Reibung skaliert
 
-Eine Digital-Marketing-Agentur ist eines der Profile, in dem die US-LLC fast immer funktioniert: B2B-internationale Kunden, saubere Rechnung ohne USt-Überschneidung, dollar-freundliches Banking und ein Stack, der von Solo-Freelance auf 8-15-Personen-Team skaliert. Das funktioniert in echten Agenturen mit 200k-2M jährlich.
+Eine Digital-Marketing-Agentur ist eines der Profile, in dem die US-LLC fast immer funktioniert: B2B-internationale Kunden, saubere Rechnung ohne USt-Überschneidung, dollar-freundliches Banking und eine Architektur, die von Solo-Freelance auf 8-15-Personen-Team skaliert. Das funktioniert in echten Agenturen mit 200k-2M jährlich.
 
 - **Warum die LLC zur Agentur passt.** Ihre Kunden sind Unternehmen (B2B), zahlen in USD oder EUR ohne Einbehaltspflicht, schätzen die Rechnung aus internationaler Entität statt Solo-Selbständigem. Mercury + Stripe + Wise löst USD/EUR-Empfang, Umrechnung und Kartenausgabe für Meta, Google, Notion. Keine USt-Überschneidung.
 - **Empfohlene typische Struktur.** Single-member LLC in Wyoming oder New Mexico, EIN, Mercury Business als Hauptkonto, Wise Business für EUR/GBP, Stripe US für Karten, Contractor Agreements (W-9 oder W-8BEN je Land). Wartungskosten: 1.500-2.500 USD jährlich all-in.

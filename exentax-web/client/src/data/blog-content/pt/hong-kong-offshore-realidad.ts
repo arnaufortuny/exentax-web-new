@@ -174,7 +174,7 @@ Hong Kong continua a vender-se como "0% sobre rendimentos de fonte estrangeira",
 
 **Vale ainda a pena montar uma HK Limited?** Para perfil específico (cliente asiático, presença local, volume >500k), sim; para genérico digital europeu, quase nunca. Custo de manutenção (auditoria obrigatória, secretário corporativo, registered office): 6-12k anuais mínimo.
 
-**Posso abrir conta HSBC HK sem viajar?** Na prática, não para não residentes sem escritório. O stack realista é Statrys ou Airwallex (fintech), com onboarding documental pesado.
+**Posso abrir conta HSBC HK sem viajar?** Na prática, não para não residentes sem escritório. A arquitetura realista é Statrys ou Airwallex (fintech), com onboarding documental pesado.
 
 Na Exentax revemos casos HK existentes e comparamos com alternativas (LLC US, EOOD Bulgária, Singapura) com os seus números reais - para decidir manter, migrar ou liquidar a estrutura.
 <!-- /exentax:execution-v2 -->

@@ -238,7 +238,7 @@ Trois types de personnes ouvrent une LLC: celles qui copient un YouTubeur et se 
 
 **Est-il légal de payer 0% aux US?** Oui, si et seulement si pas d'ETBUS et revenu non US-source. Conçu expressément dans IRC §864.
 
-Chez Exentax nous ouvrons la LLC avec le stack complet (formation, EIN, banque, Stripe, comptabilité, 1120/5472, BOI) et modélisons en amont si elle apporte de la valeur réelle.
+Chez Exentax nous ouvrons la LLC avec la configuration complète (formation, EIN, banque, Stripe, comptabilité, 1120/5472, BOI) et modélisons en amont si elle apporte de la valeur réelle.
 <!-- /exentax:execution-v2 -->
 
 ## Nous l'installons sans que vous perdiez un week-end

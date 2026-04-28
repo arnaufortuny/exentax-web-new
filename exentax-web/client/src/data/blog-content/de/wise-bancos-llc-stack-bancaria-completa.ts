@@ -1,4 +1,4 @@
-export default `Wenn jemand eine LLC aus dem Ausland eröffnet, läuft das Bankgespräch fast immer auf eine Frage hinaus: "Mercury oder Wise?". Diese Frage ist **das Symptom des Problems, nicht die Lösung**. Eine operative LLC trägt sich nicht über ein einziges Konto, nicht einmal über zwei. Sie braucht einen **Banking-Stack**, gedacht als System. In diesem Artikel erklären wir, wie ein Stack zu entwerfen ist, der den Alltag aushält, was passiert, wenn ein Stück ausfällt, und warum 80 % der Sperrungen, die wir bei Exentax sehen, genau aus dem Fehlen all dessen entstehen.
+export default `Wenn jemand eine LLC aus dem Ausland eröffnet, läuft das Bankgespräch fast immer auf eine Frage hinaus: "Mercury oder Wise?". Diese Frage ist **das Symptom des Problems, nicht die Lösung**. Eine operative LLC trägt sich nicht über ein einziges Konto, nicht einmal über zwei. Sie braucht eine **Banking-Architektur**, gedacht als System. In diesem Artikel erklären wir, wie eine Architektur zu entwerfen ist, die den Alltag aushält, was passiert, wenn ein Stück ausfällt, und warum 80 % der Sperrungen, die wir bei Exentax sehen, genau aus dem Fehlen all dessen entstehen.
 
 Dies ist kein Wise-vs-Mercury-Artikel (dafür haben Sie unseren <a href="/de/blog/wise-business-mit-ihrer-llc-der-vollstandige-leitfaden-fur">vollständigen Wise-Business-Leitfaden</a>, den <a href="/de/blog/mercury-konto-fur-ihre-llc-eroffnen-aus-jedem-land">Mercury-Leitfaden</a> und den <a href="/de/blog/traditionelle-banken-vs-fintech-fur-ihre-llc-wo-ihr-konto">Vergleich Banken vs Fintech</a>). Es ist der Artikel, der die vorhergehenden Stücke in eine kohärente Architektur ordnet.
 
@@ -9,9 +9,9 @@ Wer aus Europa oder Lateinamerika kommt, bringt ein konkretes Bankmodell mit: **
 Im **US-Fintech-Ökosystem** existiert dieses Modell nicht. Mercury, Wise, Brex, Relay, Revolut Business & Co. sind **Tech-Plattformen**, keine Banken. Konten werden per API eröffnet und geschlossen, Entscheidungen treffen ein Scoring-System + ein Compliance-Team, das Sie nicht kennen und nicht anrufen können. Entscheidet das System eine Prüfung, ist Ihr Zugang **30, 60 oder 90 Tage eingefroren**, ohne kurzfristige Garantie für die Mittelrückgewinnung.
 
 Erste mentale Verschiebung: **Ein Konto ist nicht "das Konto". Es ist ein Lieferant unter anderen, austauschbar wie ein Hosting oder eine Domain**. Und wie jeder kritische Lieferant braucht es Redundanz.
-## Der minimal überlebensfähige Stack einer operativen LLC
+## Die minimal überlebensfähige Architektur einer operativen LLC
 
-Ab dem zweiten Jahr realer Aktivität (regelmäßiges Fakturieren und Vereinnahmen) sieht der minimale Stack einer gut geführten LLC etwa so aus:
+Ab dem zweiten Jahr realer Aktivität (regelmäßiges Fakturieren und Vereinnahmen) sieht die minimale Architektur einer gut geführten LLC etwa so aus:
 
 1. **Operatives Hauptkonto in USD** (Mercury, Brex oder traditionelle Bank wie Bank of America/Chase, falls Sie persönlich eröffnen konnten).
 2. **Sekundäres USD-Konto** desselben Profils (typisch Relay als Backup zu Mercury oder umgekehrt). Nicht für den Alltag, sondern als **echtes Failover** bei Sperrung.
@@ -52,7 +52,7 @@ Bei Wise Business als US-LLC bekommen Sie eine **belgische IBAN** (BE...). Das �
 Der typische Fehler: "BE-IBAN, gehört der LLC, melde ich nicht". Falsch. Die Meldepflicht blickt auf den wirtschaftlich Berechtigten (Sie). Mehr in <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">US-Konten und Finanzamt</a> und im <a href="/de/blog/crs-und-ihre-us-llc-bankkonten-was-mit-ihrem-heimatland">CRS-Leitfaden für LLC-Konten</a>.
 ## Interne Regeln, die Ihnen 5 Stellen sparen
 
-Der Stack ist nur die Hardware. Reale Probleme verhindern die Betriebsregeln:
+Die Architektur ist nur die Hardware. Reale Probleme verhindern die Betriebsregeln:
 
 ### 1. Niemals Privates und LLC mischen
 
@@ -76,10 +76,10 @@ Eingangstransfer >5 000 USD eines neuen Kunden → früher oder später kommt ei
 
 ### 6. Absolutes Backup: "Wenn das morgen kippt"
 
-Quartalsfrage: "Fällt Mercury morgen endgültig aus, was tue ich in 72 Stunden?". Antwort "weiß ich nicht" → Stack falsch gebaut.
+Quartalsfrage: "Fällt Mercury morgen endgültig aus, was tue ich in 72 Stunden?". Antwort "weiß ich nicht" → Architektur falsch gebaut.
 ### Was passiert, wenn gesperrt wird (nicht "ob", sondern "wann")
 
-Operative Wahrheit: **jede LLC mit 18+ Aktivitätsmonaten hatte mindestens ein Sperr- oder Prüfungsereignis**. Schadenausmaß hängt vom Stack ab.
+Operative Wahrheit: **jede LLC mit 18+ Aktivitätsmonaten hatte mindestens ein Sperr- oder Prüfungsereignis**. Schadenausmaß hängt von der Architektur ab.
 
 Typische Sperrung:
 - **Tag 0**: automatischer "under review"-Mail.
@@ -105,13 +105,13 @@ PayPal Business: nützlich als Ergänzung, nicht als Hauptkanal.
 - **Virtuelle "Single-Use"-Karte**: einmalige Käufe bei wenig vertrauenswürdigen Anbietern.
 ### Was Sie mitnehmen sollten
 
-- Richtige Frage: nicht "Mercury oder Wise", sondern "**welchen Stack baue ich**".
+- Richtige Frage: nicht "Mercury oder Wise", sondern "**welche Architektur baue ich**".
 - Minimum: **2 USD-Konten + 1 Multi-Währungskonto + Gateway + segmentierte Karten + Reserven**.
 - Wise-IBAN ist belgisch, nicht lokal. Bleibt meldepflichtig.
-- Sperrungen sind kein Ausnahmefall, sondern vorhersagbare Routine. Stack entscheidet zwischen Belästigung und Krise.
+- Sperrungen sind kein Ausnahmefall, sondern vorhersagbare Routine. Architektur entscheidet zwischen Belästigung und Krise.
 - **Niemals Privates und LLC mischen**, nach Risiko segmentieren, 25-35 % Steuerpuffer, FX-Puffer und Vorab-Dokumentation: die fünf Regeln, die fünfstellig sparen.
 
-Wenn Sie eine LLC haben und mit uns den richtigen Banking-Stack für Ihr Volumen und Risikoprofil entwerfen wollen, **wir prüfen es mit Ihnen** in einer kostenlosen 30-Minuten-Beratung. Gut gebaut: günstig. Halbgar gebaut und am Tag der ersten "under review"-Mail entdeckt: teuer.
+Wenn Sie eine LLC haben und mit uns die richtige Banking-Architektur für Ihr Volumen und Risikoprofil entwerfen wollen, **wir prüfen es mit Ihnen** in einer kostenlosen 30-Minuten-Beratung. Gut gebaut: günstig. Halbgar gebaut und am Tag der ersten "under review"-Mail entdeckt: teuer.
 ## Rechtliche und regulatorische Quellen
 
 Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft sind. Hauptquellen zur Verifikation:
@@ -123,17 +123,17 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 - **Internationaler Rahmen.** OECD-Musterabkommen, Art. 5 (Betriebsstätte) und Kommentare; BEPS-Aktion 5 (wirtschaftliche Substanz); FATF-Empfehlung 24 (wirtschaftlicher Eigentümer).
 
 <!-- exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
-## Wie sich der Banking-Stack der LLC als stabiles Mapping statt als offener Produktvergleich lesen lässt
+## Wie sich die Banking-Architektur der LLC als stabiles Mapping statt als offener Produktvergleich lesen lässt
 
-Der Banking-Stack der LLC liest sich nützlicher als stabiles Mapping zwischen operativer Rolle, Kontoinhaber und Land des IBAN, denn als offener Produktvergleich. Unter den mit US-LLC-Profilen operativ kompatiblen Anbietern — Mercury, Wise, Stripe und Relay — nimmt jeder eine diskrete Rolle ein: Mercury und Relay als US-Geschäftskonto der LLC, Wise als Multiwährungs-Schicht und Stripe als Händler-Ingest, sofern anwendbar.
+Die Banking-Architektur der LLC liest sich nützlicher als stabiles Mapping zwischen operativer Rolle, Kontoinhaber und Land des IBAN, denn als offener Produktvergleich. Unter den mit US-LLC-Profilen operativ kompatiblen Anbietern — Mercury, Wise, Stripe und Relay — nimmt jeder eine diskrete Rolle ein: Mercury und Relay als US-Geschäftskonto der LLC, Wise als Multiwährungs-Schicht und Stripe als Händler-Ingest, sofern anwendbar.
 
-Eine kurze Notiz im LLC-Ordner, die festhält, welcher Anbieter im aktuellen Stack welche Rolle spielt, mit dem Datum der Konfiguration, macht die Architektur in wenigen Minuten nachlesbar, sobald eine Gegenpartei eine Bankverbindung anfragt oder ein Steuerberater eine Abstimmung verlangt.
+Eine kurze Notiz im LLC-Ordner, die festhält, welcher Anbieter in der aktuellen Architektur welche Rolle spielt, mit dem Datum der Konfiguration, macht die Architektur in wenigen Minuten nachlesbar, sobald eine Gegenpartei eine Bankverbindung anfragt oder ein Steuerberater eine Abstimmung verlangt.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
 
 <!-- exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-de-bis -->
-## Wie sich der LLC-Banking-Stack als jährlich überprüfbares Dokument lesen lässt
+## Wie sich die LLC-Banking-Architektur als jährlich überprüfbares Dokument lesen lässt
 
-Der LLC-Banking-Stack liest sich nützlicher, wenn er als jährlich überprüfbares Dokument im LLC-Ordner abgelegt ist und nicht als implizite Konfiguration in den Köpfen der Beteiligten. Ein kurzer Jahresreview, der bestätigt, dass jeder Anbieter weiterhin die ihm zugewiesene Rolle erfüllt, hält die Architektur konsistent — und macht spätere Anpassungen zu einer geplanten Entscheidung statt zu einer Reaktion auf einen Reibungspunkt.
+Die LLC-Banking-Architektur liest sich nützlicher, wenn sie als jährlich überprüfbares Dokument im LLC-Ordner abgelegt ist und nicht als implizite Konfiguration in den Köpfen der Beteiligten. Ein kurzer Jahresreview, der bestätigt, dass jeder Anbieter weiterhin die ihm zugewiesene Rolle erfüllt, hält die Architektur konsistent — und macht spätere Anpassungen zu einer geplanten Entscheidung statt zu einer Reaktion auf einen Reibungspunkt.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-de-bis -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -143,16 +143,16 @@ Der LLC-Banking-Stack liest sich nützlicher, wenn er als jährlich überprüfba
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:bank-balance-v1 -->
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn Sie Meta Ads, Google Ads oder SaaS-Abos verwalten.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -169,9 +169,9 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
 <!-- exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
-## Warum ein Banken-Stack mit mehreren Schienen operative Stabilität bringt
+## Warum eine Banken-Architektur mit mehreren Schienen operative Stabilität bringt
 
-Den Aufbau eines Banken-Stacks mit mehreren Schienen für eine LLC zu verfolgen, ist keine Frage theoretischer Redundanz; es ist eine Frage operativer Kontinuität. Wenn ein einziger Anbieter alle Flüsse zentralisiert, kann jede interne Prüfung oder einfache technische Wartung den Geschäftsbetrieb mehrere Tage unterbrechen. Umgekehrt reduziert ein Stack, der Empfangsschienen, Zahlungsschienen an Lieferanten und Devisen-Schienen trennt, die Anfälligkeit gegenüber einem einzigen Ausfallpunkt und glättet die Liquiditätsplanung.
+Den Aufbau einer Banken-Architektur mit mehreren Schienen für eine LLC zu verfolgen, ist keine Frage theoretischer Redundanz; es ist eine Frage operativer Kontinuität. Wenn ein einziger Anbieter alle Flüsse zentralisiert, kann jede interne Prüfung oder einfache technische Wartung den Geschäftsbetrieb mehrere Tage unterbrechen. Umgekehrt reduziert eine Architektur, die Empfangsschienen, Zahlungsschienen an Lieferanten und Devisen-Schienen trennt, die Anfälligkeit gegenüber einem einzigen Ausfallpunkt und glättet die Liquiditätsplanung.
 
 Ein einfaches und tragfähiges Schema besteht darin, jeder Schiene eine klare Funktion zuzuweisen und Überlappungen zu vermeiden: eine Hauptschiene für operative Flüsse, eine sekundäre Devisenschiene für internationale Zahlungen und ein Konto, das ausschliesslich Ausschüttungen an das Mitglied gewidmet ist. Diese Aufteilung beschleunigt die Abstimmungen, erleichtert die Gespräche mit der Buchhaltung und begrenzt Überraschungen, wenn einer der Anbieter eine Änderung der Tarif- oder Akzeptanzpolitik einführt.
 <!-- /exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de -->
@@ -202,7 +202,7 @@ Lesen Sie diesen Abschnitt als belastbare Checkliste: jeder Punkt markiert ein r
 ## Rechtliche und verfahrenstechnische Fakten
 
 <!-- exentax:execution-v2 -->
-## Wise + Banken für LLC: der komplette Banken-Stack für jeden Nichtansässigen
+## Wise + Banken für LLC: die komplette Banken-Architektur für jeden Nichtansässigen
 
 Die Frage „Mercury oder Wise?" ist falsch gestellt. Richtige Antwort: „beide plus Stripe plus Alternative".
 
@@ -211,7 +211,7 @@ Die Frage „Mercury oder Wise?" ist falsch gestellt. Richtige Antwort: „beide
 - **Schicht 3: Payment-Gateway (Stripe + Alternative).** Stripe US verbunden mit Mercury. Lemon Squeezy/Dodo als MoR für EU-Digital.
 - **Schicht 4: Treasury und optimiertes FX.** Wise-EUR-Konto für Reserven.
 
-### Kompletter Stack typischer Fall
+### Komplette Architektur, typischer Fall
 
 Wyoming LLC + EIN + Mercury + Wise Business + Stripe + Lemon Squeezy + PayPal. Monatlich ~50-100$ bei Volumen &lt;100k$/Jahr.
 
@@ -221,7 +221,7 @@ Wyoming LLC + EIN + Mercury + Wise Business + Stripe + Lemon Squeezy + PayPal. M
 
 **Brex/Ramp für kleine LLC?** Typisch nicht unter 500k$/Jahr.
 
-Bei Exentax bauen wir den kompletten Stack als Paket auf.
+Bei Exentax bauen wir die komplette Architektur als Paket auf.
 <!-- /exentax:execution-v2 -->
 
 ## Ihr nächster Schritt mit Exentax
@@ -230,7 +230,7 @@ Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strateg
 
 ## Der spezifische Fall des in Deutschland und Österreich Steuerpflichtigen
 
-  Eine vollständige Banking-Stack-Lösung für eine US-LLC mit deutschem oder österreichischem wirtschaftlich Berechtigten muss vier funktionale Schichten parallel abdecken.
+  Eine vollständige Banking-Architektur-Lösung für eine US-LLC mit deutschem oder österreichischem wirtschaftlich Berechtigten muss vier funktionale Schichten parallel abdecken.
 
   **Erstens**: ein primäres US-Geschäftskonto bei Mercury oder Relay für die Verwahrung der Hauptliquidität, FDIC-Versicherung über die Sweep-Network-Programme und ACH-Empfänge von US-Kunden.
 
@@ -242,9 +242,9 @@ Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strateg
 
   Für die deutsche Einkommensteuererklärung sind alle vier Schichten in der Anlage AUS und in der Buchhaltung der LLC abzubilden. Eine fortlaufende Aufzeichnung in DATEV erleichtert spätere Außenprüfungen erheblich. In Österreich gelten parallel die Vorschriften des § 124 BAO über die Buchführungspflicht und die Aufbewahrungsfrist von sieben Jahren nach § 132 BAO.
 
-  ### Banking-Stack einer US-LLC: Konfiguration aus DACH-Sicht
+  ### Banking-Architektur einer US-LLC: Konfiguration aus DACH-Sicht
 
-  Für einen DACH-Resident, der eine US-LLC betreibt, ergibt sich in der Praxis ein **dreistufiger Banking-Stack**: (1) **Wise Business Europe SA** (registriert in Belgien unter BCE 0708.022.075, überwacht durch die **Nationalbank von Belgien** als E-Geld-Institut nach der PSD2-Richtlinie 2015/2366, in Belgien umgesetzt durch das Gesetz vom 11.03.2018), (2) **Mercury** als US-Operativkonto (über die Partnerbanken **Column N.A.** und **Choice Financial Group**, FDIC #14583), und (3) ein nationales DACH-Konto bei einer Hausbank für laufende Privatverbrauchsausgaben des Gesellschafters.
+  Für einen DACH-Resident, der eine US-LLC betreibt, ergibt sich in der Praxis eine **dreistufige Banking-Architektur**: (1) **Wise Business Europe SA** (registriert in Belgien unter BCE 0708.022.075, überwacht durch die **Nationalbank von Belgien** als E-Geld-Institut nach der PSD2-Richtlinie 2015/2366, in Belgien umgesetzt durch das Gesetz vom 11.03.2018), (2) **Mercury** als US-Operativkonto (über die Partnerbanken **Column N.A.** und **Choice Financial Group**, FDIC #14583), und (3) ein nationales DACH-Konto bei einer Hausbank für laufende Privatverbrauchsausgaben des Gesellschafters.
 
   **Deutsche Compliance-Pflichten für den Gesellschafter:**
 
@@ -252,7 +252,7 @@ Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strateg
 
   **Geldwäscherechtliche Sorgfaltspflichten** der LLC und des Gesellschafters folgen aus dem **Geldwäschegesetz (GwG, Bekanntmachung vom 23.06.2017, BGBl. I S. 1822)**, insbesondere §10 GwG (allgemeine Sorgfaltspflichten) bei Transaktionen ab €15.000 und §15 GwG (verstärkte Sorgfaltspflichten) bei Hochrisikoländern oder PEP. Source-of-Funds-Nachweise sind ab dieser Schwelle zwingend; Mercury und Wise Business verlangen sie systematisch bei DACH-Antragstellern bereits ab USD 10.000 monatlichem Volumen.
 
-  **Österreich:** Das **Kontenregister- und Konteneinschaugesetz (KontRegG, BGBl. I Nr. 116/2015)** verpflichtet alle inländischen Kreditinstitute zur Meldung der Kontoinhaber an das BMF; ausländische Konten sind über das **Meldungspflichtgesetz nach §109 BAO** offenzulegen. Das ZaDiG 2018 (Zahlungsdienstegesetz) und die FMA überwachen die heimische Seite des Stacks.
+  **Österreich:** Das **Kontenregister- und Konteneinschaugesetz (KontRegG, BGBl. I Nr. 116/2015)** verpflichtet alle inländischen Kreditinstitute zur Meldung der Kontoinhaber an das BMF; ausländische Konten sind über das **Meldungspflichtgesetz nach §109 BAO** offenzulegen. Das ZaDiG 2018 (Zahlungsdienstegesetz) und die FMA überwachen die heimische Seite der Architektur.
 
   **Schweiz:** Das **Bankengesetz (BankG, SR 952.0)** und das **Geldwäschereigesetz (GwG, SR 955.0)** regeln die schweizerische Compliance. Schweizerische Steuerresidenten unterliegen dem **automatischen Informationsaustausch (AIA-Gesetz, SR 653.1)** mit über 100 Partnerstaaten — die Eidgenössische Steuerverwaltung (ESTV) erhält jährlich Daten von Wise Europe SA und Mercury via Standard CRS. Der Steuerpflichtige muss alle ausländischen Konten in der jährlichen Steuererklärung im **Wertschriften- und Guthabenverzeichnis** auflisten (Art. 125 Abs. 1 lit. b DBG, SR 642.11).
 
@@ -262,9 +262,9 @@ Diesen Block behandeln wir als eine der tragenden Entscheidungen der LLC-Strateg
 
 
 <!-- exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa -->
-## Den Banking-Stack aus Sicht der LLC betrachten
+## Die Banking-Architektur aus Sicht der LLC betrachten
 
-Wer den Banking-Stack einer LLC nicht zum Eröffnungszeitpunkt,
+Wer die Banking-Architektur einer LLC nicht zum Eröffnungszeitpunkt,
 sondern über zwölf Monate betrachtet, erkennt drei wiederkehrende
 Muster. Erstens die Komplementarität zwischen Mercury und Wise
 Business: Mercury dient als USD-Operationskonto mit
@@ -281,8 +281,7 @@ weise des nicht ansässigen Mitglieds besteht darin, die erwarteten
 ein- und ausgehenden Geldströme der nächsten zwölf Monate auf einer
 Seite zu skizzieren und diese Seite laut vorzulesen. Wenn der Satz,
 der dabei entsteht, klar ist — etwa "Stripe US zieht ein, Mercury
-hält den operativen Float, Wise verteilt in EUR" — dann steht der
-Stack richtig. Wenn er stockt, ist meist eine Schicht zu viel oder
+hält den operativen Float, Wise verteilt in EUR" — dann steht die Architektur richtig. Wenn er stockt, ist meist eine Schicht zu viel oder
 eine Schicht fehlt. Diese ehrliche Dokumentation der Entscheidung
 schützt die LLC besser als jede ausgefeilte Architektur.
 
@@ -309,10 +308,10 @@ geöffnet, sondern erst, wenn die Aktivität sie tatsächlich
 erfordert; ein vorzeitig geöffnetes Wise- oder Stripe-Konto ohne
 echten Verkehr lädt nur unnötige KYC-Erinnerungen ein. Drittens:
 die monatliche Abstimmung ist Teil der Routine, nicht ein
-Jahresendprojekt; sie dauert in einem sauber geführten Stack 20
+Jahresendprojekt; sie dauert in einer sauber geführten Architektur 20
 bis 40 Minuten und vermeidet Überraschungen.
 
-Wer diese drei Prinzipien einhält, erlebt den Banking-Stack der
+Wer diese drei Prinzipien einhält, erlebt die Banking-Architektur der
 LLC nicht als Quelle wiederkehrender Reibung, sondern als
 unsichtbare Infrastruktur, die das eigentliche Geschäft trägt.
 
@@ -331,11 +330,11 @@ Verschiebungen früh sichtbar macht.
 <!-- /exentax:lote8-native-v1:wise-bancos-llc-stack-bancaria-completa-ter -->
 
 <!-- exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de-bis -->
-## Wie sich Mercury und Wise im Stack ergänzen statt konkurrieren
+## Wie sich Mercury und Wise in der Architektur ergänzen statt konkurrieren
 
-Mercury und Wise besetzen im Stack unterschiedliche statt konkurrierende Funktionen: Mercury dient in der Regel als Empfangs- und USD-Zahlungsschiene, während Wise als Mehrwährungs-Devisenschiene für internationale Zahlungen fungiert. Diese funktionale Aufteilung verhindert, dass von einem einzigen Anbieter Anwendungsfälle abgedeckt werden, die nicht zu seinem Kerngeschäft gehören, und erleichtert das Gespräch mit jedem Compliance-Team, das so ein kohärentes Profil sieht.
+Mercury und Wise besetzen in der Architektur unterschiedliche statt konkurrierende Funktionen: Mercury dient in der Regel als Empfangs- und USD-Zahlungsschiene, während Wise als Mehrwährungs-Devisenschiene für internationale Zahlungen fungiert. Diese funktionale Aufteilung verhindert, dass von einem einzigen Anbieter Anwendungsfälle abgedeckt werden, die nicht zu seinem Kerngeschäft gehören, und erleichtert das Gespräch mit jedem Compliance-Team, das so ein kohärentes Profil sieht.
 
-Eine kleine zusätzliche Hygiene besteht darin, in der Buchhaltung jedem Konto eine eindeutige Klassifikation zu geben, die seiner Funktion im Stack entspricht. So lässt sich später unmittelbar erkennen, ob eine Bewegung zur Empfangs-, Devisen- oder Distributionsschiene gehört, ohne den Beleg suchen zu müssen.
+Eine kleine zusätzliche Hygiene besteht darin, in der Buchhaltung jedem Konto eine eindeutige Klassifikation zu geben, die seiner Funktion in der Architektur entspricht. So lässt sich später unmittelbar erkennen, ob eine Bewegung zur Empfangs-, Devisen- oder Distributionsschiene gehört, ohne den Beleg suchen zu müssen.
 <!-- /exentax:lote16-native-v1:wise-bancos-llc-stack-bancaria-completa-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

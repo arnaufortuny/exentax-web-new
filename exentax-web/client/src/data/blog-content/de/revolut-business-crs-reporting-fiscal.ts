@@ -37,7 +37,7 @@ Bei Indizien für ES-Wohnsitz trotz Andorra-Selbstauskunft: Anforderung Wohnsitz
 Bei Vertrieb über Plattformen: <a href="/de/blog/dac7-die-neue-meldung-digitaler-plattformen-die-ihr-geschaft">DAC7</a>; bei Krypto über EU-Börsen: <a href="/de/blog/dac8-und-kryptowahrungen-die-automatische-steuerliche">DAC8</a>.
 ### Zusammenfassung
 
-Revolut Business ist exzellent; CRS-Profil zu kennen ist essentiell. Schlüssel: korrekt deklarieren, kohärenten Stack entwerfen.
+Revolut Business ist exzellent; CRS-Profil zu kennen ist essentiell. Schlüssel: korrekt deklarieren, kohärenten Architektur entwerfen.
 
 Bei Exentax prüfen wir fallweise, ob Revolut Business in die Struktur passt. Buchen Sie Ihre kostenlose Beratung: wir schauen auf die gesamte Banking-Landkarte und sagen Ihnen, was bleibt und was umzieht.
 ## Steuer-Compliance in Ihrem Land: CFC, Hinzurechnungsbesteuerung und Einkünftezurechnung
@@ -78,7 +78,7 @@ Die geschilderte Bankpraxis stützt sich auf öffentliche Dokumentation und auf 
 - **FATCA und CRS.** IRC §1471–1474 (FATCA und W-8/W-9-Formulare), die zwischenstaatlichen Abkommen Modell 1 zwischen den USA und den DACH-Ländern sowie der Common Reporting Standard der <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a>, dem die USA nicht beigetreten sind, der jedoch sehr wohl auf europäisch lizenzierte Fintechs Anwendung findet (Wise Europe SA in Belgien, Revolut Bank UAB in Litauen).
 - **Konkrete Plattformen.** Veröffentlichte Nutzungsbedingungen, Datenschutzrichtlinien und regulatorische FAQ von Mercury (Choice Financial Group / Evolve Bank, FDIC), Relay (Thread Bank, FDIC), Wise Business (FinCEN-MSB in den USA; Wise Europe SA in der EU; Wise Payments Ltd. in UK), Revolut Business (Revolut Bank UAB in Litauen) und Payoneer (Payoneer Europe Ltd. in Irland).
 
-Diese Angaben dienen der Information; jeder konkrete Bankfall verlangt eine Einzelfallprüfung von KYC, Wohnsitzland und operiertem Volumen. Bei Mandaten mit DACH-Wohnsitz und einer LLC empfehlen wir typischerweise einen primären US-Stack (Mercury oder Relay) und einen sekundären europäischen Knoten (Wise Business für EUR-Inkasso oder Wallester für Karten), so dass die CRS-Spur kontrollierbar bleibt und die Geschäftsprozesse nicht von einer einzelnen Plattform abhängen.
+Diese Angaben dienen der Information; jeder konkrete Bankfall verlangt eine Einzelfallprüfung von KYC, Wohnsitzland und operiertem Volumen. Bei Mandaten mit DACH-Wohnsitz und einer LLC empfehlen wir typischerweise einen primären US-Konfiguration (Mercury oder Relay) und einen sekundären europäischen Knoten (Wise Business für EUR-Inkasso oder Wallester für Karten), so dass die CRS-Spur kontrollierbar bleibt und die Geschäftsprozesse nicht von einer einzelnen Plattform abhängen.
 
 <!-- /exentax:legal-refs-v1 -->
 
@@ -98,7 +98,7 @@ Revolut Business ist praktisch, multi-currency und günstig - und meldet systema
 
 **Kann ich Wohnsitz „US" im KYC angeben?** Falsche Erklärung an die Bank - Straftat.
 
-Bei Exentax strukturieren wir den Banken-Stack unter Berücksichtigung von CRS/FATCA-Meldungen.
+Bei Exentax strukturieren wir die Banken-Architektur unter Berücksichtigung von CRS/FATCA-Meldungen.
 <!-- /exentax:execution-v2 -->
 
 ## Ihr nächster Schritt mit Exentax
@@ -243,9 +243,9 @@ abgegebenen Zahlen.
   Die strategisch wichtigste Empfehlung lautet daher: Halten Sie Revolut nicht als Hauptkonto Ihrer LLC, wenn Sie die CRS-Datenspur minimieren wollen. Mercury, Relay oder Wise USD bleiben in dieser Hinsicht überlegen. Wenn Sie Revolut Business dennoch nutzen, dokumentieren Sie die Active-NFE-Klassifizierung mit Verträgen, Rechnungen und einer schriftlichen Begründung, die ein Finanzamtsprüfer in fünf Minuten verstehen kann.
 
 <!-- exentax:lote20-native-v1:revolut-business-crs-reporting-fiscal-de -->
-## Wie sich die CRS-Berichterstattung als Eigenschaft des Banking-Stacks und nicht als isoliertes Ereignis lesen lässt
+## Wie sich die CRS-Berichterstattung als Eigenschaft die Banking-Architektur und nicht als isoliertes Ereignis lesen lässt
 
-Die CRS-Berichterstattung liest sich am ruhigsten, wenn sie als Eigenschaft des gesamten Banking-Stacks und nicht als isoliertes Ereignis eines bestimmten Anbieters behandelt wird. Der CRS-Standard betrifft die Banken, die zur Meldung verpflichtet sind, in einem definierten Perimeter; das Verständnis dieses Perimeters und der eigenen Position darin ersetzt jede Diskussion über einzelne Anbieter.
+Die CRS-Berichterstattung liest sich am ruhigsten, wenn sie als Eigenschaft der gesamten Banking-Architektur und nicht als isoliertes Ereignis eines bestimmten Anbieters behandelt wird. Der CRS-Standard betrifft die Banken, die zur Meldung verpflichtet sind, in einem definierten Perimeter; das Verständnis dieses Perimeters und der eigenen Position darin ersetzt jede Diskussion über einzelne Anbieter.
 
 Diese Lesart hilft, die jährliche Meldung in den Steuerkalender einzuordnen, ohne dass jedes Jahr neu untersucht werden muss, wer was an wen meldet.
 

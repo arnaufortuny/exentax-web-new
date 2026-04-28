@@ -242,7 +242,7 @@ Tres tipus de persones obren una LLC: les que copien un YouTuber i s'equivoquen,
 
 **És legal pagar 0% als US?** Sí, si i només si sense ETBUS i renda no US-source.
 
-A Exentax obrim la LLC amb tot l'stack i modelem abans si t'aporta valor real.
+A Exentax obrim la LLC amb tota l'arquitectura i modelem abans si t'aporta valor real.
 <!-- /exentax:execution-v2 -->
 
 ## Fets legals i de procediment

@@ -133,9 +133,9 @@ Der CRS-Austausch rund um LLC-Bank­konten liest sich nützlicher als stabile Ka
 - **Null-Steuer**: keine LLC-Struktur erreicht „null Steuern", wenn Sie in einem Land mit CFC-/Steuertransparenz- oder Einkünftezurechnungsregeln leben. Was Sie erreichen, ist **keine Doppelbesteuerung** und **korrekte Meldung am Wohnsitz**, keine Beseitigung.
 
 <!-- exentax:lote21-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-de -->
-## Wie sich der CRS-Austausch als stabile Eigenschaft des Banking-Stacks statt als wiederkehrende Überraschung lesen lässt
+## Wie sich der CRS-Austausch als stabile Eigenschaft die Banking-Architektur statt als wiederkehrende Überraschung lesen lässt
 
-Der CRS-Informationsaustausch liest sich ruhiger, wenn er als stabile Eigenschaft des Banking-Stacks und nicht als wiederkehrende Überraschung behandelt wird. Der CRS-Standard definiert, wer was an wen meldet, in einem Perimeter, der sich nicht jedes Jahr ändert, und das einmalige Verständnis des Perimeters genügt, um die jährliche Meldung zu verankern, ohne die Analyse zu wiederholen.
+Der CRS-Informationsaustausch liest sich ruhiger, wenn er als stabile Eigenschaft die Banking-Architektur und nicht als wiederkehrende Überraschung behandelt wird. Der CRS-Standard definiert, wer was an wen meldet, in einem Perimeter, der sich nicht jedes Jahr ändert, und das einmalige Verständnis des Perimeters genügt, um die jährliche Meldung zu verankern, ohne die Analyse zu wiederholen.
 
 ## Wie sich der CRS-Perimeter in einer kurzen schriftlichen Notiz festhalten lässt
 

@@ -63,7 +63,7 @@ Sua LLC como Disregarded Entity de não residente funciona com **pass-through ta
 
 Com uma LLC, pode deduzir como gastos operacionais tudo o que seja "ordinário e necessário" para o seu negócio:
 
-- **Todo o seu stack tecnológico**: hosting, domínios, APIs, SaaS, ferramentas de IA
+- **Todo a sua arquitetura tecnológica**: hosting, domínios, APIs, SaaS, ferramentas de IA
 - **Hardware**: computador, monitor, fones de ouvido, microfone, câmera
 - **Formação**: cursos, bootcamps, conferências, livros técnicos
 - **Viagens de negócio**: voos, hotéis, diárias (para reuniões com clientes, eventos do setor)

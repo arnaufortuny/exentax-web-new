@@ -76,7 +76,7 @@ La clé de l'optimisation fiscale avec une LLC est sa classification en tant que
 5. **Migrez progressivement**: vous n'avez pas besoin de tout transférer d'un coup
 
 Une lecture voisine à garder sous la main: <a href="/fr/blog/fiscalite-internationale-pour-entrepreneurs-numeriques-guide">Fiscalité internationale pour entrepreneurs numériques: guide complet</a>, qui affine précisément les bords de ce qu'explique ce guide.
-### Le stack financier optimal pour les freelances internationaux
+### La configuration financière optimale pour les freelances internationaux
 
 La combinaison gagnante que nous utilisons pour la majorité de nos clients:
 

@@ -205,7 +205,7 @@ Hongkong verkauft sich weiterhin als "0% auf Auslandseinkünfte", aber das aktue
 
 **Lohnt sich eine HK Limited noch?** Für spezifische Profile (asiatische Kunden, lokale Präsenz, Volumen >500k), ja; für generisches europäisches Digital fast nie. Wartungskosten (Pflichtprüfung, Company Secretary, Registered Office): 6-12k jährlich Minimum.
 
-**Kann ich HSBC HK ohne Reise eröffnen?** In der Praxis nicht für Nichtansässige ohne Büro. Realistischer Stack: Statrys oder Airwallex (Fintech), mit umfangreichem Onboarding.
+**Kann ich HSBC HK ohne Reise eröffnen?** In der Praxis nicht für Nichtansässige ohne Büro. Realistische Architektur: Statrys oder Airwallex (Fintech), mit umfangreichem Onboarding.
 
 Bei Exentax prüfen wir bestehende HK-Fälle und vergleichen mit Alternativen (US-LLC, Bulgarien EOOD, Singapur) mit Ihren echten Zahlen - um zu entscheiden, ob halten, migrieren oder abwickeln.
 <!-- /exentax:execution-v2 -->

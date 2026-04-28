@@ -59,7 +59,7 @@ Ein weiterer Vorteil, der ohne Alarmismus verstanden werden muss. Bankkonten in 
 
 Das **bedeutet nicht**, dass sie undurchsichtig sind oder dass Sie sie nicht erklären müssen. Wenn Sie die **Modelo 720/721**-Schwellen überschreiten (50.000 € auf ausländischen Konten, Krypto usw.), müssen Sie sie trotzdem erklären. Und wenn Sie Einkünfte über Ihre LLC erhalten, müssen Sie sie in Ihre IRPF aufnehmen. Es bedeutet, dass es keinen automatischen Datenabgleich gibt: die Information erreicht das Finanzamt **über Sie**, nicht über eine Bank-Datei.
 
-Empfohlener Banking-Stack für eine moderne LLC:
+Empfohlene Banking-Architektur für eine moderne LLC:
 
 - **Wise Business**, **Relay** und **Slash** im Vordergrund: Multi-Währung, Unterkonten, Karten, Treasury; **Wise Business im Namen einer US-LLC liegt AUSSERHALB des CRS** (die LLC ist eine US-Entität, die USA sind kein CRS-Teilnehmerstaat); nur eine **Wise Personal auf Ihren Namen als Steuerresident in Spanien** würde via Wise Europe SA (Belgien) im CRS gemeldet.
 - **Mercury** im Hintergrund: USD-Hauptkonto, $0 inländische Wires, sehr niedrige internationale, FDIC pass-through bis 5M$ via sweep.

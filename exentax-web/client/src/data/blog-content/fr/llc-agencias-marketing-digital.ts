@@ -100,7 +100,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
 ## LLC pour agences de marketing numérique: le setup qui passe à l'échelle sans friction
 
-Une agence de marketing numérique est l'un des profils où la LLC américaine fonctionne presque toujours: clients B2B internationaux, facture propre sans TVA croisée, banque dollar-friendly et un stack qui passe d'un freelance à une équipe de 8-15. Voici ce qui marche dans des agences réelles à 200k-2M annuels.
+Une agence de marketing numérique est l'un des profils où la LLC américaine fonctionne presque toujours: clients B2B internationaux, facture propre sans TVA croisée, banque dollar-friendly et une configuration qui passe d'un freelance à une équipe de 8-15. Voici ce qui marche dans des agences réelles à 200k-2M annuels.
 
 - **Pourquoi la LLC convient à l'agence.** Vos clients sont des entreprises (B2B), paient en USD ou EUR sans obligation de retenue, apprécient une facture d'entité internationale plutôt que d'un indépendant. Mercury + Stripe + Wise résout encaissement USD/EUR, conversion et émission de cartes pour Meta, Google, Notion. Sans TVA croisée.
 - **Structure typique recommandée.** Single-member LLC au Wyoming ou New Mexico, EIN, Mercury Business compte principal, Wise Business pour EUR/GBP, Stripe US pour cartes, contractor agreements avec l'équipe (W-9 ou W-8BEN selon pays). Coût d'entretien: 1 500-2 500 USD annuels tout compris.

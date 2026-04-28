@@ -131,16 +131,16 @@ Les Modelos 720 et 721 se lisent plus utilement comme une cartographie annuelle 
 Chez Exentax, nous montons la structure pour qu'elle s'inscrive dans le premier scénario et documentons chaque étape pour que votre déclaration locale soit défendable en cas de contrôle.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
 - **Slash** (adossé à Column N.A. (établissement à charte fédérale, FDIC)). Banque pensée pour les opérateurs en ligne: émission instantanée de cartes virtuelles par fournisseur, contrôles de dépenses granulaires, cashback sur la publicité numérique. Le complément naturel quand vous gérez Meta Ads, Google Ads ou des abonnements SaaS.
 - **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
 - **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -207,7 +207,7 @@ Freelance résidant à Madrid avec: Wise EUR solde 18 400 EUR, Mercury Personal 
 3. Confondre la moyenne du dernier trimestre avec la moyenne annuelle.
 4. Déposer tard à titre volontaire: pénalités modestes, mais les majorations de l'article 27 LGT s'appliquent.
 
-> **Votre stack frôle les 50 000 EUR par bloc?** Passez vos soldes dans le <strong>calculateur fiscal Exentax</strong> et voyez si une LLC bien déclarée compense la complexité actuelle.
+> **Votre configuration frôle les 50 000 EUR par bloc?** Passez vos soldes dans le <strong>calculateur fiscal Exentax</strong> et voyez si une LLC bien déclarée compense la complexité actuelle.
 
 Pour la couche bancaire en amont du 720, lisez <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre">ce que les banques US déclarent vraiment à votre fisc</a>, et pour la stratégie globale <a href="/fr/blog/voies-legales-pour-minimiser-vos-impots">les voies légales pour minimiser vos impôts</a>. Pour déléguer le dépôt, <strong>réservez un échange avec l'équipe Exentax</strong> et on le clôture en une semaine.
 

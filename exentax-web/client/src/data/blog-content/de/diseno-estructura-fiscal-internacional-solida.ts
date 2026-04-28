@@ -19,7 +19,7 @@ Drei Szenarien: ES/LATAM bleiben; in effizientes Regime wechseln (Andorra, Portu
 ### Schritt 4: Substanz aufbauen
 
 **Rechtlich** (Articles, OA, BOI, EIN, Agent, Adresse, siehe <a href="/de/blog/llc-dokumente-welche-sie-brauchen-und-wie-sie-sie">Dokumente</a>); **operativ** (Konten getrennt, Verträge, Rechnungen, Tools, siehe <a href="/de/blog/personliches-geld-und-llc-trennen-warum-es-wichtig-ist">Trennung</a>); **wirtschaftlich** (Einkünfte, Aufwand auf LLC, siehe <a href="/de/blog/steuerliche-abzuge-fur-ihre-llc-was-sie-abziehen-konnen">Abzüge</a>); **entscheidungsbezogen** (dokumentierte Entscheidungen).
-### Schritt 5: Kohärenter Banking-Stack
+### Schritt 5: Kohärente Banking-Architektur
 
 Primär: <a href="/de/blog/wie-man-kontosperrungen-bei-mercury-wise-und-revolut">Mercury</a>/Relay (US, niedrige CRS-Spur), siehe Mercury. Sekundär: Wise/Revolut Business, siehe <a href="/de/blog/wise-business-und-crs-was-ihrer-steuerbehoerde-gemeldet-wird">Wise</a> und <a href="/de/blog/revolut-business-und-crs-was-ihrer-steuerbehorde-gemeldet">Revolut</a>. Karten: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo, siehe <a href="/de/blog/zahlungs-gateways-fur-ihre-llc-stripe-paypal-und-dodo">Gateways</a>. Treasury: Slash, Mercury Treasury, IBKR.
 ### Schritt 6: Compliance und kontinuierliche Überprüfung
@@ -27,7 +27,7 @@ Primär: <a href="/de/blog/wie-man-kontosperrungen-bei-mercury-wise-und-revolut"
 **US**: <a href="/de/blog/was-ist-der-irs-und-wie-betrifft-er-ihre-us-llc">Form 5472</a> + 1120 pro forma, BOI, Annual Report, siehe Form 5472, <a href="/de/blog/boi-report-2026-vollstandiger-leitfaden-zur-fincen">BOI</a>, <a href="/de/blog/jahrliche-llc-pflege-pflichten-die-sie-nicht-ignorieren">jährliche Pflege</a>.
 **Spanien (ansässig)**: IRPF, USt, Modelo 720, 721, 100/130, 238 (DAC7).
 **LATAM**: nach Land.
-**Jährliche Überprüfung**: Residenz, Substanz, Stack, neue Normen.
+**Jährliche Überprüfung**: Residenz, Substanz, Architektur, neue Normen.
 ## Beispiele nach Profil
 
 **Profil 1: B2B-Freelance ES, 80-150 k€/Jahr**: Single-Member LLC NM, Mercury + Wise, Wallester. ES = Aktivität zugerechnet.
@@ -45,7 +45,7 @@ Primär: <a href="/de/blog/wie-man-kontosperrungen-bei-mercury-wise-und-revolut"
 | 2 | Wo werde ich ansässig? | Zielresidenz |
 | 3 | Welches Vehikel? | Rechtsform |
 | 4 | Wie Substanz? | Operativplan |
-| 5 | Wie fließt das Geld? | Banking-Stack |
+| 5 | Wie fließt das Geld? | Banking-Architektur |
 | 6 | Wie pflegen? | Compliance + Review |
 ### Typische Fehler
 
@@ -70,9 +70,9 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:bank-balance-v1 -->
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
@@ -81,7 +81,7 @@ Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**,
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
 
 
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -222,7 +222,7 @@ Prüfungen.
 ## Drei Strukturen, die wir mit Mandanten geführt haben
 
 Eine Beraterin in Spanien mit EU- und US-Kunden betreibt eine
-Single-Member LLC mit einem kleinen Mercury-+-Wise-Stack. Die
+Single-Member LLC mit einem kleinen Mercury-+-Wise-Konfiguration. Die
 Einkünfte fliessen in ihre jährliche persönliche Erklärung; das
 Pro-forma-1120 + 5472 der LLC dokumentiert die verbundenen Flüsse;
 keine Holding-Schicht nötig. Gesamte jährliche Pflege: leicht.
@@ -236,7 +236,7 @@ Diagramm neu zeichnen zu müssen.
 
 Eine Gründerin mit einer SaaS-Linie und einer separaten
 Beratungslinie betreibt zwei LLCs, eine pro Linie. Jede hat ihre
-Bücher, ihren Bank-Stack und ihren W-8-Zyklus. Die Trennung
+Bücher, ihre Bank-Architektur und ihren W-8-Zyklus. Die Trennung
 vereinfacht später die Verkaufsoptionalität (eine Linie könnte
 verkauft werden, ohne die andere zu beeinträchtigen) und hält die
 Berichterstattung sauber.
@@ -262,7 +262,7 @@ Berichterstattung sauber.
 - Steueransässigkeit des Mitglieds bestätigt und dokumentiert.
 - Zwei-bis-fünf-Jahres-Mobilitätsplan schriftlich.
 - Tätigkeitsbeschreibung: Kunden je Land, erwartete Umsatzbandbreite.
-- Bank-Stack vor-zugeordnet (Mercury-, Relay-, Wise-, Stripe-Rollen).
+- Bank-Architektur vor-zugeordnet (Mercury-, Relay-, Wise-, Stripe-Rollen).
 - Jährlicher Compliance-Kalender (1120 + 5472, BOI, Staat, CRS wo
   anwendbar, Heimaterklärung).
 

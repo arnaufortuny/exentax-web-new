@@ -157,7 +157,7 @@ La passarel·la defineix la teva disponibilitat de cobrament, el cost per transa
 - **Stripe (US, via LLC + EIN).** L'estàndard per a SaaS, subscripcions i e-commerce professional. Tarifa 2,9% + $0,30 US domèstic, +1% internacional, +1% conversió de divisa. Aprova LLCs de no residents amb EIN + banc US (Mercury, Wise) + web operativa. Risc principal: freeze per chargebacks o activitat alt risc.
 - **PayPal Business (US).** Imprescindible per a B2C a LATAM i Europa. Comissió més alta (~3,49%) i pitjor experiència en subscripcions. Risc de hold 21 dies en comptes noves.
 - **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** El MoR s'encarrega de l'IVA i compliment fiscal per vendes digitals UE/UK/AU. Comissió 5%-8% però treu OSS, MOSS, IVA UK, GST AU. Ideal per SaaS multi-jurisdicció.
-- **Stack recomanat.** SaaS B2B global: Stripe + Paddle. Infoproductes B2C UE: Lemon Squeezy/Dodo. Assessoria: Stripe + Wise + PayPal opcional. MAI dependre d'una sola passarel·la.
+- **Arquitectura recomanada.** SaaS B2B global: Stripe + Paddle. Infoproductes B2C UE: Lemon Squeezy/Dodo. Assessoria: Stripe + Wise + PayPal opcional. MAI dependre d'una sola passarel·la.
 
 ### El que més ens pregunten
 
@@ -165,7 +165,7 @@ La passarel·la defineix la teva disponibilitat de cobrament, el cost per transa
 
 **Dodo/LS em treu l'IVA digital UE?** Sí, com a Merchant of Record. Factures a Dodo/LS (B2B sense IVA amb W-8BEN-E), ells al client final amb l'IVA del país correcte.
 
-A Exentax modelem el stack adequat i obrim Stripe + Mercury + MoR - perquè un freeze no et pari mai.
+A Exentax modelem l'arquitectura adequada i obrim Stripe + Mercury + MoR - perquè un freeze no et pari mai.
 <!-- /exentax:execution-v2 -->
 
 ## Com treballem a Exentax

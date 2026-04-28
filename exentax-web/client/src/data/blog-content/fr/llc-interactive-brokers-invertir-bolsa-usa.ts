@@ -97,7 +97,7 @@ C'est de la planification patrimoniale standard, pas un problème de la LLC. On 
 
 **Le client qui trade des futures depuis son compte personnel**: quand le volume monte, le mélange avec son patrimoine personnel complique la fiscalité de son pays et la séparation. On le bascule sur Tradovate sur la LLC, avec documentation de capitalisation et operating agreement à jour.
 
-**Le client qui veut combiner crypto + actions US + trésorerie**: on conçoit la stack complète. Mercury pour l'opérationnel, Slash pour la trésorerie en T-Bills, IB pour les actions/ETF, Kraken pour la crypto. Distributions planifiées. Conformité US continue.
+**Le client qui veut combiner crypto + actions US + trésorerie**: on conçoit la configuration complète. Mercury pour l'opérationnel, Slash pour la trésorerie en T-Bills, IB pour les actions/ETF, Kraken pour la crypto. Distributions planifiées. Conformité US continue.
 ## Comment on fait bien
 
 1. **Avant d'ouvrir un broker**: vérifier que la LLC a une documentation corporate cohérente (Articles, EIN, Operating Agreement, BOI déposé).
@@ -116,7 +116,7 @@ Et, surtout, on vous monte l'écosystème complet: banque opérationnelle, trés
 ---
 ### Lectures complémentaires
 
-- <a href="/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne">La stack bancaire complète d'une LLC bien conçue</a>
+- <a href="/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne">La configuration bancaire complète d'une LLC bien conçue</a>
 - <a href="/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre">Les comptes US déclarent-ils à votre fisc? Ce qui se passe vraiment</a>
 - <a href="/fr/blog/votre-llc-ne-paie-pas-dimpot-aux-usa-alors-que-se-passe-t-il">LLC sans impôt aux USA: comment s'organise la fiscalité dans votre pays</a>
 - <a href="/fr/blog/cryptomonnaies-et-trading-avec-llc-guide-fiscal-complet-pour">Crypto et trading depuis une LLC: cadre fiscal</a>

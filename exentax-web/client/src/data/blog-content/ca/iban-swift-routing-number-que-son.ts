@@ -99,9 +99,9 @@ Per a Mercury, les dades que donaràs als clients són:
 Mercury té $0 en comissions de wire, tant nacionals com internacionals. Els teus fons estan custodiats a Column NA amb assegurança FDIC.
 
 A Exentax configurem Mercury, Wise i Revolut Business perquè les transferències entre els teus clients i la teva LLC passin netes. Reserva la teva assessoria gratuïta: et donem el manual correcte per al teu negoci.
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
@@ -119,7 +119,7 @@ IBAN, SWIFT i routing number es llegeixen de manera més útil com un mapatge d'
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 ### Següents passos
 
 Ara que tens el context complet, el pas següent natural és contrastar-lo amb la teva pròpia situació: què encaixa, què no, i on són els matisos que depenen de la teva residència, la teva activitat i el teu volum. Una revisió ràpida del teu cas sol estalviar molt soroll abans de qualsevol decisió estructural.
@@ -154,7 +154,7 @@ Confondre IBAN, SWIFT/BIC i ABA Routing Number costa pagaments rebutjats, transf
 
 **Per què el meu client europeu no aconsegueix pagar-me amb targeta quan li dono SWIFT?** Perquè SWIFT és transferència bancària, no pagament amb targeta. Per a targeta utilitza Stripe o equivalent. Per a wire, el client necessita SWIFT + número de compte + adreça del beneficiari i del banc.
 
-A Exentax configurem el stack bancari complet de la teva LLC (Mercury principal, Wise Business secundària amb IBAN europeu, i passarel·la de pagament si aplica) perquè cobris net en cada moneda i país.
+A Exentax configurem l'arquitectura bancària completa de la teva LLC (Mercury principal, Wise Business secundària amb IBAN europeu, i passarel·la de pagament si aplica) perquè cobris net en cada moneda i país.
 <!-- /exentax:execution-v2 -->
 
 ## Com treballem a Exentax
@@ -165,7 +165,7 @@ El nostre equip està especialitzat en estructures fiscals internacionals per a 
 ## Per continuar la lectura
 
 - [Wise, IBAN i LLC: què es reporta realment a Hisenda i què no](/ca/blog/wise-iban-i-llc-que-es-reporta-realment-a-hisenda)
-- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, bancs i LLC: l'arquitectura bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [ACH vs transferència bancària: terminis i impacte en el flux de la LLC](/ca/blog/ach-vs-transferencia-bancaria-terminis-de-pagament-i-impacte)
 <!-- /exentax:cross-refs-v1 -->
 

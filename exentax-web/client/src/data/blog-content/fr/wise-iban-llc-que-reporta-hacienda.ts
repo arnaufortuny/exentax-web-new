@@ -111,7 +111,7 @@ Chez Exentax, nous travaillons précisément sur cette frontière: structurer la
 <!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
 ## Pourquoi l'IBAN d'un compte rattaché à une LLC mérite une fiche de référence dédiée
 
-Un IBAN rattaché à une LLC mérite une fiche de référence dédiée, distincte des autres documents bancaires, parce qu'il est l'élément qui apparaît le plus souvent dans les rapprochements et les contrôles transfrontaliers. La fiche n'a pas besoin d'être complexe : elle indique le titulaire exact du compte, la juridiction d'émission de l'IBAN, le rôle du compte dans le stack bancaire et la date d'ouverture. Ces quatre informations suffisent à répondre rapidement à la grande majorité des questions qui peuvent surgir.
+Un IBAN rattaché à une LLC mérite une fiche de référence dédiée, distincte des autres documents bancaires, parce qu'il est l'élément qui apparaît le plus souvent dans les rapprochements et les contrôles transfrontaliers. La fiche n'a pas besoin d'être complexe : elle indique le titulaire exact du compte, la juridiction d'émission de l'IBAN, le rôle du compte dans la configuration bancaire et la date d'ouverture. Ces quatre informations suffisent à répondre rapidement à la grande majorité des questions qui peuvent surgir.
 
 Le bénéfice de cette fiche apparaît surtout lorsqu'une administration demande une clarification : au lieu de reconstituer l'information à partir de plusieurs sources, on transmet une fiche déjà cohérente et auto-portée, ce qui referme la conversation rapidement.
 <!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-fr -->
@@ -191,7 +191,7 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 <!-- exentax:cross-refs-v1 -->
 ## Sur le même sujet
 
-- [Wise, banques et LLC : la stack bancaire complète que personne n'explique](/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne)
+- [Wise, banques et LLC : la configuration bancaire complète que personne n'explique](/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne)
 - [Comptes bancaires US : ce qui est déclaré et organiser le reporting LLC](/fr/blog/les-comptes-bancaires-americains-rapportent-ils-a-votre)
 - [DAC8 et cryptos : reporting fiscal automatique des crypto-actifs en 2026](/fr/blog/dac8-et-cryptomonnaies-le-nouveau-reporting-fiscal)
 <!-- /exentax:cross-refs-v1 -->

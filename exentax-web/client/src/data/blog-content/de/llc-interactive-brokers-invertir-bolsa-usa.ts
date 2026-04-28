@@ -97,7 +97,7 @@ Es ist Standard-Vermögensplanung, kein Problem der LLC. Wir entwerfen es gemein
 
 **Der Kunde, der Futures aus seinem persönlichen Konto handelt**: Wenn das Volumen steigt, kompliziert die Vermischung mit dem Privatvermögen seine heimische Steuersituation und die Trennung. Wir verlagern es zu Tradovate über die LLC, mit Kapitalisierungsdokumentation und aktualisiertem Operating Agreement.
 
-**Der Kunde, der Krypto + US-Aktien + Treasury kombinieren möchte**: Wir designen den kompletten Stack. Mercury für die Operativa, Slash für Treasury in T-Bills, IB für Aktien/ETFs, Kraken für Krypto. Geplante Ausschüttungen. Laufende US-Compliance.
+**Der Kunde, der Krypto + US-Aktien + Treasury kombinieren möchte**: Wir designen die komplette Architektur. Mercury für die Operativa, Slash für Treasury in T-Bills, IB für Aktien/ETFs, Kraken für Krypto. Geplante Ausschüttungen. Laufende US-Compliance.
 ### So macht man es richtig
 
 1. **Vor der Brokereröffnung**: prüfen, dass die LLC die Gesellschaftsdokumentation kohärent hat (Articles, EIN, Operating Agreement, BOI eingereicht).
@@ -217,7 +217,7 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 <!-- related-inline-stripped-2026-04 -->
 
 <!-- exentax:lote10-native-v1:llc-interactive-brokers-invertir-bolsa-usa -->
-## Wie Interactive Brokers in den LLC-Stack passt
+## Wie Interactive Brokers in die LLC-Architektur passt
 
 Interactive Brokers wird häufig in Verbindung mit der LLC
 verwendet, weil es einen breiten Zugang zu US-Märkten bietet und
@@ -243,7 +243,7 @@ Vorbereitung leicht vermeidbar gewesen wären.
 Auch hier gilt die Faustregel der gut geführten LLC: die Antwort
 ist selten "ja" oder "nein", sondern "es kommt auf das konkrete
 Profil an". Wer diese Frage einmal sauber mit dem Berater klärt,
-hat den Broker-Stack typischerweise jahrelang nicht mehr im
+hat die Broker-Architektur typischerweise jahrelang nicht mehr im
 Kopf — und genau das ist das Ziel: ein Setup, das funktioniert,
 ohne dass man jeden Monat über strukturelle Fragen nachdenken
 muss.

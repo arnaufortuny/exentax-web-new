@@ -204,7 +204,7 @@ Eine US-LLC wird vom <a href="https://www.irs.gov" target="_blank" rel="noopener
 Ein vollständiger Leitfaden nützt nur, wenn ihn jemand danach fehlerfrei umsetzt. Bei Exentax gründen wir die LLC, eröffnen das Banking, reichen BOI und 5472 ein und halten den Steuerkalender Jahr für Jahr - alles in einer einzigen Klientenakte.
 
 - **Gründung und EIN** im richtigen Bundesstaat, mit unterzeichnetem Operating Agreement und vor jeder Bankkonto-Öffnung eingereichtem BOI.
-- **Kaskaden-Banking-Stack** (Mercury oder Relay + Wise + alternatives Gateway), damit keine Compliance-Schließung die Operation lahmlegt.
+- **Kaskaden-Banking-Architektur** (Mercury oder Relay + Wise + alternatives Gateway), damit keine Compliance-Schließung die Operation lahmlegt.
 - **Geschlossener Steuerkalender** mit 5472, pro-forma 1120, Annual Report des Staates und Ihrer Wohnsitz-Pflicht in einer einzigen Zeitleiste.
 
 Um vor der Entscheidung Kosten und Plan zu sehen, starten Sie den <strong>Exentax-Rechner</strong> oder buchen dreißig Minuten: wir verlassen das Gespräch mit Angebot und Kalender.
@@ -232,7 +232,7 @@ Der Aufbau einer LLC ist nicht der schwierigste Teil; der
 schwierigste Teil ist, sie über die Jahre hinweg konsistent zu
 führen. Eine LLC, die im ersten Jahr sauber konfiguriert wird —
 mit einem klaren Operating Agreement, einer korrekten Adresse,
-einem ordentlichen Banken-Stack und einer dokumentierten
+einer ordentlichen Banken-Architektur und einer dokumentierten
 Trennung der Mittel — verlangt in den Folgejahren nur kleine
 jährliche Wartungen.
 

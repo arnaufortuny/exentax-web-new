@@ -4,7 +4,7 @@ export default `
 Wenn Sie Ihre LLC gerade gegründet haben, ist die nächste Frage fast immer dieselbe: „Wie eröffne ich ein US-Bankkonto, ohne nach New York zu fliegen?" Jahrelang war Mercury die Standardantwort. **Im Jahr aktuell empfiehlt Exentax Mercury jedoch nicht mehr als Hauptkonto, wenn Ihre gesamte Geschäftstätigkeit außerhalb der USA stattfindet.** Der Grund ist sehr konkret: Wenn Mercury ein Konto im Rahmen einer Compliance-Prüfung schließt, was aktuell immer häufiger vorkommt, **erstattet Mercury die Guthaben per physischem USD-Scheck auf den Namen der LLC, per Post an die registrierte Geschäftsadresse**. Für einen Steuerresidenten in Deutschland, Österreich, der Schweiz oder LATAM ist das Einlösen dieses Schecks langsam, teuer und in vielen europäischen Banken faktisch unmöglich.
 
 > **Hinweis aktuell, Mercury und nicht-US-Geschäftstätigkeit.**
-> Wenn 100 % Ihrer Aktivität (Kunden, Zahlungen, Ausgaben) außerhalb der USA stattfindet, empfiehlt Exentax Mercury **nicht** als Hauptkonto. Das Produkt ist solide, aber der Rückzahlungsmechanismus bei Compliance-Schließung (Papier-Scheck in USD) benachteiligt nicht-ansässige Inhaber gezielt. Empfehlung: Nutzen Sie **Relay** (Thread Bank, FDIC) oder **Slash** (Column N.A. und/oder Stearns Bank, FDIC) als Hauptkonto und behalten Sie Mercury, falls überhaupt eröffnet, als Zweitkonto mit niedrigem Betriebssaldo. Wir entwerfen den Stack mit Ihnen in der Erstberatung.
+> Wenn 100 % Ihrer Aktivität (Kunden, Zahlungen, Ausgaben) außerhalb der USA stattfindet, empfiehlt Exentax Mercury **nicht** als Hauptkonto. Das Produkt ist solide, aber der Rückzahlungsmechanismus bei Compliance-Schließung (Papier-Scheck in USD) benachteiligt nicht-ansässige Inhaber gezielt. Empfehlung: Nutzen Sie **Relay** (Thread Bank, FDIC) oder **Slash** (Column N.A. und/oder Stearns Bank, FDIC) als Hauptkonto und behalten Sie Mercury, falls überhaupt eröffnet, als Zweitkonto mit niedrigem Betriebssaldo. Wir entwerfen die Architektur mit Ihnen in der Erstberatung.
 
 Dieser Leitfaden erklärt weiterhin, wie Mercury funktioniert und wie das Konto korrekt eröffnet wird, aber lesen Sie zuerst den Hinweis oben.
 
@@ -22,7 +22,7 @@ Die wichtigsten Vorteile für LLC-Inhaber:
 - **Kostenloses ACH.** Inlandsüberweisungen ohne Kosten.
 - **Virtuelle und physische Debitkarte.** Für Online-Zahlungen, Abonnements und Betriebsausgaben.
 - **Buchhaltungsintegrationen.** Verbindung mit QuickBooks, Xero und anderen Buchhaltungstools.
-- **API für Entwickler.** Ideal, wenn Sie Zahlungen, Abstimmungen automatisieren oder sich in Ihren Stack integrieren müssen.
+- **API für Entwickler.** Ideal, wenn Sie Zahlungen, Abstimmungen automatisieren oder sich in Ihre Architektur integrieren müssen.
 - **Mehrere Konten.** Sie können Unterkonten erstellen, um Ihr Geld zu organisieren (Steuern, Betrieb, Rücklagen).
 ### Voraussetzungen für die Kontoeröffnung bei Mercury
 
@@ -76,7 +76,7 @@ Wenn Ihre LLC Kapital zwischen Ausschüttungen hält (die meisten Freiberufler s
 
 ### Wenn Mercury das Konto schließt oder einfriert: der physische Scheck
 
-Wenn Mercury beschließt, ein Konto zu schließen (oder es zur Compliance-Prüfung einfriert), bleiben die Mittel nicht eingefroren: Mercury sendet sie dem Inhaber per **physischem USD-Scheck auf den Namen der LLC** an die hinterlegte Firmenadresse (in der Regel die des Registered Agent). Halten Sie ein zweites operatives Konto bereit (Relay, Slash oder ein europäischer EMI im Stack) und eine zuverlässige Versandadresse, denn vom Versand bis zum Einlösen des Schecks können mehrere Wochen vergehen.
+Wenn Mercury beschließt, ein Konto zu schließen (oder es zur Compliance-Prüfung einfriert), bleiben die Mittel nicht eingefroren: Mercury sendet sie dem Inhaber per **physischem USD-Scheck auf den Namen der LLC** an die hinterlegte Firmenadresse (in der Regel die des Registered Agent). Halten Sie ein zweites operatives Konto bereit (Relay, Slash oder eine europäischer EMI in der Architektur) und eine zuverlässige Versandadresse, denn vom Versand bis zum Einlösen des Schecks können mehrere Wochen vergehen.
 
 ### Wallester: Firmenkarten mit Euro-IBAN und voller Kontrolle
 
@@ -152,16 +152,16 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohnsitz, der Tätigkeit der LLC und der von Ihnen geführten Dokumentation ab. Dieser Inhalt ist informativ und ersetzt keine personalisierte professionelle Beratung.
 
 <!-- exentax:bank-balance-v1 -->
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn Sie Meta Ads, Google Ads oder SaaS-Abos verwalten.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -253,9 +253,9 @@ Mercury ist weiterhin die Standardoption für eine LLC eines Nicht-Residenten; r
 **Meldet das Mercury-Konto via CRS?** Nein. Es ist ein US-Konto (FATCA/IGA), kein CRS. Im Wohnsitzland aber zu deklarieren, wenn der Auslandsvermögens-Schwellenwert überschritten wird (Spanien: Modelo 720 ab > 50.000 €).
 
 <!-- exentax:execution-v2 -->
-## Wie wir den Banking-Stack Ihrer LLC bei Exentax wählen
+## Wie wir die Banking-Architektur Ihrer LLC bei Exentax wählen
 
-Mercury war jahrelang die Standardwahl für Nichtansässige, doch die Exentax-Methode empfiehlt heute immer einen Kaskaden-Stack, weil Compliance-Schließungen Routine geworden sind. Was wir wöchentlich mit neuen Kunden tun, ist stets dasselbe.
+Mercury war jahrelang die Standardwahl für Nichtansässige, doch die Exentax-Methode empfiehlt heute immer eine Kaskaden-Architektur, weil Compliance-Schließungen Routine geworden sind. Was wir wöchentlich mit neuen Kunden tun, ist stets dasselbe.
 
 - **Hauptkonto und Spiegelkonto** ab Tag eins: Mercury oder Relay operativ und Wise als Backup, damit Liquidität bleibt, wenn eines 30 Tage einfriert.
 - **Stripe plus alternatives Gateway** (Paddle oder DoDo) bei Endkundenverkauf: ein einziges aktives Gateway ist ein Single Point of Failure.

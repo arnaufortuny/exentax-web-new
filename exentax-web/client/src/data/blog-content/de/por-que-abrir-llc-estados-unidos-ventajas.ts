@@ -264,7 +264,7 @@ Drei Typen gründen eine LLC: die, die einen YouTuber kopieren und sich irren, d
 
 **Ist 0% US legal?** Ja, wenn kein ETBUS und kein US-source-income. Ausdrücklich in IRC §864 designed.
 
-Bei Exentax gründen wir die LLC mit vollem Stack und modellieren vorab den Mehrwert.
+Bei Exentax gründen wir die LLC mit vollem Architektur und modellieren vorab den Mehrwert.
 <!-- /exentax:execution-v2 -->
 
 ## Wir richten es ein, ohne dass Sie ein Wochenende verlieren
@@ -293,7 +293,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 Die Liste der theoretischen Vorteile einer LLC ist lang. In der
 Praxis sind es jedoch nur wenige, die im Alltag spürbar werden:
-ein internationaler Zahlungsstack, der zuverlässig funktioniert,
+eine internationale Zahlungsarchitektur, der zuverlässig funktioniert,
 ein klares rechtliches Gefäss für die Geschäftsaktivität, und
 eine Buchhaltung, die mit der typischen Komplexität eines
 internationalen Geschäfts zurechtkommt.

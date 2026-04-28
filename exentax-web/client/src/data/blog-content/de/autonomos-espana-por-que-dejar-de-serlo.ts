@@ -63,7 +63,7 @@ Ihre LLC als Disregarded Entity eines Nichtansässigen funktioniert mit **Pass-t
 
 Mit einer LLC können Sie als Betriebsausgaben alles absetzen, was "gewöhnlich und notwendig" für Ihr Geschäft ist:
 
-- **Ihr gesamter Tech-Stack**: Hosting, Domains, APIs, SaaS, KI-Tools
+- **Ihr gesamter Tech-Architektur**: Hosting, Domains, APIs, SaaS, KI-Tools
 - **Hardware**: Computer, Monitor, Kopfhörer, Mikrofon, Kamera
 - **Weiterbildung**: Kurse, Bootcamps, Konferenzen, Fachbücher
 - **Geschäftsreisen**: Flüge, Hotels, Verpflegungspauschalen (für Kundentreffen, Branchenveranstaltungen)

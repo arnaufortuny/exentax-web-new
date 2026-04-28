@@ -121,16 +121,16 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 Bei Exentax richten wir die Struktur so ein, dass sie ins erste Szenario passt, und dokumentieren jeden Schritt, damit Ihre örtliche Erklärung im Falle einer Prüfung verteidigt werden kann.
 
 <!-- exentax:bank-balance-v1 -->
-## Ausgewogener Banking-Stack: Mercury, Relay, Slash und Wise
+## Ausgewogene Banking-Architektur: Mercury, Relay, Slash und Wise
 
-Es gibt nicht das perfekte Konto für eine LLC. Es gibt den richtigen **Stack**, in dem jedes Tool eine Rolle übernimmt:
+Es gibt nicht das perfekte Konto für eine LLC. Es gibt die richtige **Architektur**, in der jedes Tool eine Rolle übernimmt:
 
 - **Mercury** (als Fintech mit Partnerbanken (hauptsächlich Choice Financial Group und Evolve Bank & Trust; Column N.A. in Altkonten) betrieben, FDIC über Sweep-Netzwerk bis zur geltenden Grenze). Operatives Hauptkonto für Nicht-Residenten mit guter UX, ACH und Wire. Weiterhin eine der bewährtesten Optionen, um aus dem Ausland zu eröffnen.
 - **Relay** (gehalten bei Thread Bank, FDIC). Hervorragendes **Backup-Konto** und für Envelope-Budgeting: bis zu 20 Unterkonten und 50 Debitkarten, tiefe QuickBooks- und Xero-Integration. Wenn Mercury sperrt oder eine KYC-Überprüfung verlangt, hält Relay Ihren Betrieb am Laufen.
 - **Slash** (gehalten bei Column N.A. (bundesweit konzessionierte Bank, FDIC)). Banking für Online-Operatoren: sofortige Ausgabe virtueller Karten je Anbieter, granulare Ausgabenkontrollen, Cashback auf digitale Werbung. Natürliche Ergänzung, wenn Sie Meta Ads, Google Ads oder SaaS-Abos verwalten.
 - **Wise Business** (Multi-Währungs-EMI, keine Bank). Zum Empfangen und Zahlen in EUR, GBP, USD und weiteren Währungen mit lokalen Bankdaten und Mid-Market-FX. Ersetzt kein echtes US-Konto, ist aber für internationale Treasury unschlagbar.
 - **Wallester / Revolut Business.** Wallester liefert Firmenkarten mit eigenem BIN für hohe Volumen. Revolut Business funktioniert als europäische Ergänzung, nicht als Hauptkonto der LLC.
-Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diesen Stack im Rahmen der Gründung.
+Die realistische Empfehlung: **Mercury + Relay als Backup + Slash für Werbe-Operationen + Wise für FX-Treasury**. Diese Konfiguration minimiert das Sperr-Risiko und senkt die realen Kosten. Bei Exentax eröffnen und konfigurieren wir diese Architektur im Rahmen der Gründung.
 
 <!-- exentax:banking-facts-v1 -->
 ## Bank- und Steuerfakten zur Präzisierung
@@ -213,7 +213,7 @@ Madrid-ansässiger Freelancer mit: Wise EUR Saldo 18.400 EUR, Mercury Personal S
 3. Den Quartalsdurchschnitt mit dem Jahresdurchschnitt verwechseln.
 4. Freiwillig spät einreichen: die Sanktionen sind milde, aber die Zuschläge nach Artikel 27 LGT greifen.
 
-> **Liegt Ihr Stack nahe an 50.000 EUR pro Block?** Lassen Sie Ihre Salden durch den <strong>Exentax-Steuerrechner</strong> laufen und prüfen Sie, ob eine sauber deklarierte LLC die heutige Komplexität ausgleicht.
+> **Liegt Ihr Architektur nahe an 50.000 EUR pro Block?** Lassen Sie Ihre Salden durch den <strong>Exentax-Steuerrechner</strong> laufen und prüfen Sie, ob eine sauber deklarierte LLC die heutige Komplexität ausgleicht.
 
 Für die Bankberichts-Schicht vor dem Modelo 720 lesen Sie <a href="/de/blog/melden-us-bankkonten-an-ihre-heimische-steuerbehorde-die">was US-Banken wirklich an Ihre Heimat-Steuerbehörde melden</a>, und für die Gesamtsteuerstrategie <a href="/de/blog/legale-wege-um-ihre-steuern-zu-minimieren">die legalen Wege zur Steuerminimierung</a>. Wenn Sie die Einreichung delegieren möchten, <strong>vereinbaren Sie ein Gespräch mit dem Exentax-Team</strong> und wir schließen sie in einer Woche ab.
 

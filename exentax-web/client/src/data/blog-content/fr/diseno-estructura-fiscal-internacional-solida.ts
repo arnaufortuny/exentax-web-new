@@ -19,7 +19,7 @@ Trois scénarios: maintenir résidence ES/LATAM; changer pour pays à régime ef
 ### Étape 4: Doter de substance
 
 Substance **légale** (Articles, OA, BOI, EIN, agent, adresse, voir <a href="/fr/blog/documents-llc-ceux-dont-vous-avez-besoin-et-comment-les">documents LLC</a>); **opérationnelle** (séparation comptes, contrats, factures, outils, voir <a href="/fr/blog/separer-argent-personnel-et-llc-pourquoi-cest-essentiel">séparer comptes</a>); **économique** (revenus, charges au nom LLC, voir <a href="/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez">déductions</a>); **décisionnelle** (décisions documentées).
-### Étape 5: Stack bancaire cohérent
+### Étape 5: Configuration bancaire cohérente
 
 Principal: <a href="/fr/blog/comment-eviter-les-blocages-de-compte-chez-mercury-wise-et">Mercury</a>/Relay (US, faible empreinte CRS), voir Mercury. Secondaire multi-devises: Wise/Revolut Business, voir <a href="/fr/blog/wise-business-et-crs-ce-qui-est-declare-a-votre-fisc">Wise</a> et <a href="/fr/blog/revolut-business-et-crs-ce-qui-est-declare-a-votre-fisc">Revolut</a>. Cartes: Wallester. Pasarelles: Stripe/PayPal/Adyen/DoDo, voir <a href="/fr/blog/passerelles-de-paiement-pour-votre-llc-stripe-paypal-et-dodo">passerelles</a>. Trésorerie: Slash, Mercury Treasury, IBKR.
 ### Étape 6: Compliance et révision continue
@@ -27,7 +27,7 @@ Principal: <a href="/fr/blog/comment-eviter-les-blocages-de-compte-chez-mercury-
 **US**: <a href="/fr/blog/quest-ce-que-lirs-et-comment-affecte-t-il-votre-llc">Form 5472</a> + 1120 pro forma, BOI, Annual Report, voir Form 5472, <a href="/fr/blog/boi-report-2026-guide-complet-pour-le-depot-fincen">BOI</a>, <a href="/fr/blog/maintenance-annuelle-llc-obligations-que-vous-ne-pouvez-pas">maintenance annuelle</a>.
 **Espagne (résident)**: IRPF, TVA, Modelo 720, Modelo 721, 100/130, 238 (DAC7).
 **LATAM**: selon pays.
-**Révision annuelle**: résidence, substance, stack, normes nouvelles (DAC7/DAC8/MiCA).
+**Révision annuelle**: résidence, substance, configuration, normes nouvelles (DAC7/DAC8/MiCA).
 ## Exemples par profil
 
 **Profil 1: Consultant freelance B2B ES, 80-150 k€/an**: Single-Member LLC NM, Mercury principal + Wise secondaire, Wallester. ES = activité économique imputée. Économie significative vs autonome pur.
@@ -45,7 +45,7 @@ Principal: <a href="/fr/blog/comment-eviter-les-blocages-de-compte-chez-mercury-
 | 2 | Où vais-je résider? | Résidence cible |
 | 3 | Quel véhicule? | Forme juridique |
 | 4 | Comment substance? | Plan opérationnel |
-| 5 | Comment l'argent circule? | Stack bancaire |
+| 5 | Comment l'argent circule? | Configuration bancaire |
 | 6 | Comment maintenir? | Compliance + révision |
 ### Erreurs typiques
 
@@ -70,16 +70,16 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 L'application concrète de ces règles à votre cas dépend de votre résidence fiscale, de l'activité de la LLC et de la documentation conservée. Ce contenu est informatif et ne remplace pas un conseil professionnel personnalisé.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancaire équilibré: Mercury, Relay, Slash et Wise
+## Configuration bancaire équilibrée: Mercury, Relay, Slash et Wise
 
-Il n'existe pas de compte parfait pour une LLC. Il existe le **stack** approprié, où chaque outil joue un rôle:
+Il n'existe pas de compte parfait pour une LLC. Il existe le **configuration** appropriée, où chaque outil joue un rôle:
 
 - **Mercury** (opéré comme fintech avec des banques partenaires (Choice Financial Group et Evolve Bank & Trust principalement; Column N.A. sur des comptes hérités), FDIC via sweep network jusqu'à la limite en vigueur). Compte principal opérationnel pour non-résidents avec une bonne UX, ACH et virements. Reste l'une des options les plus éprouvées à ouvrir depuis l'étranger.
 - **Relay** (adossé à Thread Bank, FDIC). Excellent **compte de secours** et pour le budgeting "envelope": jusqu'à 20 sous-comptes et 50 cartes de débit, intégration profonde avec QuickBooks et Xero. Si Mercury bloque ou demande une revue KYC, Relay évite l'arrêt de votre activité.
 - **Slash** (adossé à Column N.A. (établissement à charte fédérale, FDIC)). Banque pensée pour les opérateurs en ligne: émission instantanée de cartes virtuelles par fournisseur, contrôles de dépenses granulaires, cashback sur la publicité numérique. Le complément naturel quand vous gérez Meta Ads, Google Ads ou des abonnements SaaS.
 - **Wise Business** (EMI multi-devises, ce n'est pas une banque). Pour encaisser et payer en EUR, GBP, USD et autres devises avec coordonnées bancaires locales et conversion au taux interbancaire. Ne remplace pas un vrai compte américain, mais imbattable pour la trésorerie internationale.
 - **Wallester / Revolut Business.** Wallester apporte des cartes corporate avec BIN propre pour gros volume. Revolut Business fonctionne en complément européen, pas comme compte principal de la LLC.
-La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons ce stack dans le cadre de la constitution.
+La recommandation réaliste: **Mercury + Relay en secours + Slash pour les opérations publicitaires + Wise pour la trésorerie FX**. C'est la configuration qui minimise le risque de blocage et réduit le coût réel. Chez Exentax, nous ouvrons et configurons cette configuration dans le cadre de la constitution.
 
 <!-- exentax:banking-facts-v1 -->
 ## Faits bancaires et fiscaux à préciser
@@ -194,7 +194,7 @@ diagrammes "complexes mais élégants" dans les revues réelles.
 ## Trois structures menées avec des clients
 
 Une consultante en Espagne avec des clients UE et US opère une
-single-member LLC associée à un petit stack Mercury + Wise. Les
+single-member LLC associée à une petit configuration Mercury + Wise. Les
 revenus remontent dans sa déclaration personnelle annuelle ; le
 pro-forma 1120 + 5472 de la LLC documente les flux liés ; aucune
 couche de holding n'a été nécessaire. Maintenance annuelle totale :
@@ -208,8 +208,7 @@ est portable et survit à une relocation de membre sans redessiner le
 diagramme.
 
 Un fondateur avec une ligne SaaS et une ligne conseil distincte
-opère deux LLC, une par ligne. Chacune a ses livres, son stack
-bancaire, son cycle W-8. La séparation simplifie l'optionnalité de
+opère deux LLC, une par ligne. Chacune a ses livres, son configuration bancaire, son cycle W-8. La séparation simplifie l'optionnalité de
 vente plus tard (une ligne peut être vendue sans affecter l'autre)
 et garde le reporting propre.
 
@@ -233,7 +232,7 @@ et garde le reporting propre.
 - Plan de mobilité deux à cinq ans écrit.
 - Description d'activité : clients par pays, fourchette de revenu
   attendue.
-- Stack bancaire pré-mappé (rôles Mercury, Relay, Wise, Stripe).
+- Configuration bancaire pré-mappé (rôles Mercury, Relay, Wise, Stripe).
 - Calendrier de conformité annuel (1120 + 5472, BOI, État, CRS le
   cas échéant, déclaration locale).
 

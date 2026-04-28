@@ -59,7 +59,7 @@ Outra vantagem que precisa ser entendida sem alarmismo. Contas bancárias nos EU
 
 Isso **não significa** que sejam opacas ou que possa deixar de declará-las. Se ultrapassa os limiares do **modelo 720/721** (50.000 € em contas no exterior, criptos, etc.), tem que declarar igual. E se recebe via LLC, tem que incluir no IRPF. O que significa é que não há cruzamento automático: a informação chega ao fisco **através de si**, via sua declaração, não via ficheiro do banco. Isso obriga a manter tudo limpo e documentado: qualquer tentativa de "esquecer" termina mal numa fiscalização.
 
-Stack bancário recomendado para uma LLC moderna:
+Arquitetura bancária recomendada para uma LLC moderna:
 
 - **Wise Business**, **Relay** e **Slash** em primeiro plano: multi-moeda, sub-contas, cartões, tesouraria; **Wise está no CRS** porque opera com IBAN belga.
 - **Mercury** em segundo plano: conta operativa principal em USD, $0 em wires nacionais e muito baixos em internacionais, FDIC pass-through até 5M$ via sweep.

@@ -84,13 +84,13 @@ L'approche professionnelle passe par :
 
 ## En résumé
 
-La CRS ne s'« évite » pas depuis une juridiction européenne. Elle se planifie en connaissance de cause. Une LLC américaine reste un outil extraordinairement utile, mais la conception de votre stack bancaire et de votre résidence fiscale sont déterminantes pour que l'empreinte informative que vous générez soit cohérente avec ce que vous déclarez.
+La CRS ne s'« évite » pas depuis une juridiction européenne. Elle se planifie en connaissance de cause. Une LLC américaine reste un outil extraordinairement utile, mais la conception de votre configuration bancaire et de votre résidence fiscale sont déterminantes pour que l'empreinte informative que vous générez soit cohérente avec ce que vous déclarez.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Vous voulez que nous regardions comment la CRS vous affecte dans votre cas concret et que nous concevions le stack adéquat ? Réservez votre consultation gratuite et nous l'analysons avec vous.
+Vous voulez que nous regardions comment la CRS vous affecte dans votre cas concret et que nous concevions la configuration adéquate ? Réservez votre consultation gratuite et nous l'analysons avec vous.
 S'il reste des doutes sur les nuances de cette structure, <a href="/fr/blog/pourquoi-les-freelancers-espagnols-quittent-le-statut-dauto">pourquoi quitter le statut d'auto-entrepreneur en Espagne (et quelles alternatives vous avez)</a> explique en détail un aspect connexe que nous laissons habituellement pour un autre article.
 
 ### Lectures associées

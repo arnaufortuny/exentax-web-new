@@ -18,7 +18,7 @@ Mantenir ES/LATAM; canviar a règim eficient (Andorra, Portugal NHR/IFICI, Itàl
 ### Pas 4: Substància
 
 **Legal** (Articles, OA, BOI, EIN, <a href="/ca/blog/documents-de-la-llc-quins-necessites-i-com-organitzar-los">documents</a>); **operativa** (separar comptes, contractes, <a href="/ca/blog/separar-diners-personals-i-de-la-llc-per-que-es-important">separar comptes</a>); **econòmica** (ingressos/despeses en nom LLC, <a href="/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com">deduccions</a>); **decisional**.
-### Pas 5: Banking stack
+### Pas 5: Arquitectura bancària
 
 Principal: <a href="/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i-revolut">Mercury</a>/Relay (US), Mercury. Secundària: Wise/Revolut, <a href="/ca/blog/wise-business-i-crs-que-es-reporta-a-hisenda">Wise</a> i <a href="/ca/blog/revolut-business-i-crs-que-es-reporta-a-hisenda">Revolut</a>. Targetes: Wallester. Gateways: Stripe/PayPal/Adyen/DoDo, <a href="/ca/blog/passarelles-de-pagament-per-a-la-teva-llc-stripe-paypal-i">gateways</a>. Tresoreria: Slash, Mercury Treasury, IBKR.
 ### Pas 6: Compliance i revisió
@@ -41,7 +41,7 @@ Principal: <a href="/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i
 | 2 | On residiré? | Residència objectiu |
 | 3 | Quin vehicle? | Forma jurídica |
 | 4 | Com substància? | Pla operatiu |
-| 5 | Com flueix el diner? | Banking stack |
+| 5 | Com flueix el diner? | Arquitectura bancària |
 | 6 | Com mantenir? | Compliance |
 ### Errors típics
 
@@ -66,9 +66,9 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
@@ -77,7 +77,7 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 - **Wallester / Revolut Business.** Wallester aporta targetes corporatives amb BIN propi per a alt volum. Revolut Business funciona com a complement europeu, no com a compte principal de la LLC.
 
 
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar
@@ -195,7 +195,7 @@ operativa, neta i ben documentada, supera la majoria dels diagrames
 ## Tres estructures que hem corregut amb clients
 
 Una consultora a Espanya amb clients de la UE i US opera una single-
-member LLC associada a un petit stack Mercury + Wise. Els ingressos
+member LLC associada a una petita arquitectura Mercury + Wise. Els ingressos
 flueixen a la seva declaració personal anual; el pro-forma 1120 +
 5472 de la LLC documenta els fluxos relacionats; cap capa de holding
 necessària. Manteniment anual total: lleuger.
@@ -208,7 +208,7 @@ soci sense redibuixar el diagrama.
 
 Una fundadora amb una línia SaaS i una línia de assessoria
 separada opera dues LLCs, una per línia. Cadascuna té els seus
-llibres, el seu stack bancari i el seu cicle W-8. La separació
+llibres, la seva arquitectura bancària i el seu cicle W-8. La separació
 simplifica l'opcionalitat de venda més endavant (una línia es podria
 vendre sense afectar l'altra) i manté el reporting net.
 
@@ -233,7 +233,7 @@ vendre sense afectar l'altra) i manté el reporting net.
 - Pla de mobilitat de dos a cinc anys escrit.
 - Descripció de l'activitat: clients per país, banda de rendició
   esperada.
-- Stack bancari pre-mapat (rols Mercury, Relay, Wise, Stripe).
+- Arquitectura bancària pre-mapat (rols Mercury, Relay, Wise, Stripe).
 - Calendari de compliance anual (1120 + 5472, BOI, estat, CRS quan
   aplica, declaració al país de residència).
 

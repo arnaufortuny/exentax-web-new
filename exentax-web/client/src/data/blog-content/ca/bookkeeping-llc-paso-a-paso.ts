@@ -14,7 +14,7 @@ Abans de tocar cap programari, el primer és <a href="/ca/blog/separar-diners-pe
 Si aquesta línia es creua sovint, el bookkeeping es torna impossible i, pitjor, es trenca el blindatge legal de la LLC. És la primera norma i no admet excepcions.
 ### Quines eines necessites
 
-Per a una LLC petita o mitjana de no resident, aquest stack ho cobreix tot:
+Per a una LLC petita o mitjana de no resident, aquesta arquitectura ho cobreix tot:
 
 - **Mercury** com a compte operatiu principal i, si vols separar tresoreria, un subcompte o Slash per a reserves.
 - **Wise Business** per a divises diferents del dòlar, especialment euros.
@@ -143,9 +143,9 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 L'aplicació concreta de qualsevol d'aquestes normes al teu cas depèn de la teva residència fiscal, l'activitat de la LLC i la documentació que mantinguis. Aquest contingut és informatiu i no substitueix l'assessorament professional personalitzat.
 
 <!-- exentax:bank-balance-v1 -->
-## Stack bancari equilibrat: Mercury, Relay, Slash i Wise
+## Arquitectura bancària equilibrada: Mercury, Relay, Slash i Wise
 
-No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on cada eina cobreix un rol:
+No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correcta, on cada eina cobreix un rol:
 
 - **Mercury** (operada com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), FDIC via sweep network fins al límit vigent). Compte principal operatiu per a no residents amb bona UX, ACH i wires. Continua sent una de les opcions més provades per obrir des de fora dels EUA.
 - **Relay** (recolzada per Thread Bank, FDIC). Excel·lent com a **compte de respatller** i per a "envelope budgeting": permet crear fins a 20 subcomptes i 50 targetes de dèbit, integració profunda amb QuickBooks i Xero. Si Mercury bloqueja o demana revisió KYC, Relay evita que la teva operativa s'aturi.
@@ -157,7 +157,7 @@ No existeix el compte perfecte per a una LLC. Existeix el **stack** correcte, on
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->
 
-La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquest stack com a part de la constitució.
+La recomanació realista: **Mercury + Relay com a respatller + Slash per a operativa publicitària + Wise per a tresoreria FX**. És la configuració que minimitza el risc de bloqueig i redueix el cost real. A Exentax obrim i configurem aquesta arquitectura com a part de la constitució.
 
 <!-- exentax:banking-facts-v1 -->
 ## Fets bancaris i fiscals a precisar

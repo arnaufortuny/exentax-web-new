@@ -111,7 +111,7 @@ A Exentax treballem exactament en aquesta frontera: estructurar la <a href="/ca/
 <!-- exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
 ## Per què l'IBAN d'un compte associat a una LLC mereix una fitxa de referència dedicada
 
-Un IBAN associat a una LLC mereix una fitxa de referència dedicada, diferent dels altres documents bancaris, perquè és l'element que més sovint apareix en les conciliacions i els controls transfronterers. La fitxa no cal que sigui complexa: indica el titular exacte del compte, la jurisdicció d'emissió de l'IBAN, el paper del compte dins el stack bancari i la data d'obertura. Aquestes quatre informacions basten per respondre ràpidament a la gran majoria de les preguntes que poden sorgir.
+Un IBAN associat a una LLC mereix una fitxa de referència dedicada, diferent dels altres documents bancaris, perquè és l'element que més sovint apareix en les conciliacions i els controls transfronterers. La fitxa no cal que sigui complexa: indica el titular exacte del compte, la jurisdicció d'emissió de l'IBAN, el paper del compte dins l'arquitectura bancària i la data d'obertura. Aquestes quatre informacions basten per respondre ràpidament a la gran majoria de les preguntes que poden sorgir.
 
 El benefici d'aquesta fitxa es manifesta sobretot quan una administració demana un aclariment: en lloc de reconstituir la informació a partir de diverses fonts, es transmet una fitxa ja coherent i autoportant, cosa que tanca ràpidament la conversa.
 <!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
@@ -191,7 +191,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 <!-- exentax:cross-refs-v1 -->
 ## Per continuar la lectura
 
-- [Wise, bancs i LLC: la stack bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
+- [Wise, bancs i LLC: l'arquitectura bancària completa que ningú no t'explica](/ca/blog/wise-bancs-i-llc-la-stack-bancaria-completa-que-ningu-no)
 - [Comptes bancaris US: què reporta cada entitat i com estructurar-ho](/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat)
 - [DAC8 i criptomonedes: el nou reporting fiscal automàtic el 2026](/ca/blog/dac8-i-criptomonedes-el-nou-reporting-fiscal-automatic-el)
 <!-- /exentax:cross-refs-v1 -->

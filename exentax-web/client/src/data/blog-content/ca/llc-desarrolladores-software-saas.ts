@@ -128,7 +128,7 @@ L'elecció de jurisdicció depèn sempre de la residència fiscal real del titul
 Si construeixes programari, vens SaaS o desenvolupes per a clients internacionals, una LLC americana resol tres problemes alhora: cobres en USD/EUR sense friccions, professionalitzes la imatge davant clients corporates B2B i muntes la base per escalar a equip o aixecar capital.
 
 - **Per què la LLC encaixa en SaaS i dev.** Stripe US (la millor experiència de pagament internacional), Mercury per a cobraments B2B, possibilitat de llistar el teu SaaS en marketplaces americans (AWS Marketplace, Salesforce AppExchange, Shopify) que requereixen entitat US. Clients enterprise B2B signen contractes amb entitats, no amb freelancers.
-- **El stack típic.** Wyoming o Delaware LLC (Delaware si planeges aixecar capital o convertir a C-Corp), EIN, Mercury Business + Stripe US, Wise Business per a EUR, GitHub/Vercel/AWS facturats a la LLC (deduïble 100%), contractor agreements amb desenvolupadors W-9/W-8BEN. Cost de manteniment: 1.500-2.500 USD anuals.
+- **L'arquitectura típica.** Wyoming o Delaware LLC (Delaware si planeges aixecar capital o convertir a C-Corp), EIN, Mercury Business + Stripe US, Wise Business per a EUR, GitHub/Vercel/AWS facturats a la LLC (deduïble 100%), contractor agreements amb desenvolupadors W-9/W-8BEN. Cost de manteniment: 1.500-2.500 USD anuals.
 - **Si planeges aixecar capital o vendre el SaaS.** Comença directe amb Delaware C-Corp (o LLC amb pla clar de conversió a C-Corp). Els inversors VC i els compradors estratègics gairebé sempre demanen Delaware C-Corp. Canviar després és possible però costós.
 - **El fiscal en residència.** Si resideixes a Catalunya, beneficis atribuïts a LLC tributen en IRPF com a activitat econòmica. SaaS B2C UE: ULL amb OSS (IVA del país del client des de 10k EUR/any). B2B internacional: factura neta sense IVA en la majoria de casos.
 
@@ -138,7 +138,7 @@ Si construeixes programari, vens SaaS o desenvolupes per a clients internacional
 
 **El meu GitHub Sponsors / Stripe / paying users US van a la LLC des del dia 1?** Sí, configures el destí de cobrament al compte Mercury de la LLC i el teu Stripe a l'entitat LLC amb el seu EIN. Migració: 1-2 hores de feina.
 
-A Exentax muntem el stack complet de LLC per a desenvolupadors/SaaS (LLC + EIN + Mercury + Stripe + Wise + AWS/Vercel billing migration + comptabilitat mensual) en 4-6 setmanes, llest per facturar al primer client enterprise.
+A Exentax muntem l'arquitectura completa de LLC per a desenvolupadors/SaaS (LLC + EIN + Mercury + Stripe + Wise + AWS/Vercel billing migration + comptabilitat mensual) en 4-6 setmanes, llest per facturar al primer client enterprise.
 <!-- /exentax:execution-v2 -->
 
 _Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
