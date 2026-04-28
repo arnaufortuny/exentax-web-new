@@ -48,8 +48,12 @@ Runtime smoke:
 - Newsletter broadcast worker + email retry worker started.
 - `email_retry_queue` drained of orphan E2E jobs (33 leftover `@e2e.exentax.test` jobs removed; `scripts/test-booking-e2e.ts` cleanup() now drains them on every run so they cannot re-accumulate).
 
-Production secret coverage (verified previously, still required at deploy time):
-- **Required for full functionality**: `DATABASE_URL`, `SESSION_SECRET`, `FIELD_ENCRYPTION_KEY`, `GOOGLE_SERVICE_ACCOUNT_KEY`, `GMAIL_SEND_AS`, `GMAIL_DELEGATED_USER`, `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`, `DISCORD_CLIENT_ID`, `DISCORD_GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`.
+Production secret coverage — operator action required at deploy time. Names below are the EXACT env-var keys the runtime reads (verified against `process.env.*` in `server/`):
+- **Database / crypto (fail-fast if missing)**: `DATABASE_URL`, `FIELD_ENCRYPTION_KEY`.
+- **Google integrations (Meet, Calendar, Search Console, Indexing)**: `GOOGLE_SERVICE_ACCOUNT_KEY`, `GOOGLE_CALENDAR_ID`, `GOOGLE_SC_SITE_URL` (optional), `GOOGLE_INDEXING_API_ENABLE` (optional).
+- **Email (Gmail send-as the impersonated mailbox)**: `GMAIL_SENDER`.
+- **Discord bot + admin gating**: `DISCORD_BOT_TOKEN`, `DISCORD_PUBLIC_KEY`, `DISCORD_APP_ID`, `DISCORD_GUILD_ID`, `ADMIN_DISCORD_ROLE_ID`.
+- **Operational**: `ADMIN_EMAIL`, `CONTACT_EMAIL`, `LEGAL_EMAIL`, `SITE_URL`, `DOMAIN`, `WHATSAPP_NUMBER`, `COMPANY_ADDRESS_SHORT`, `ALLOWED_ORIGINS` (CORS), `INDEXNOW_KEY` (+ optional `INDEXNOW_KEY_LOCATION`), `METRICS_TOKEN` (optional, gates `/metrics`).
 - In dev these emit warning logs and the dependent feature is gracefully disabled (Discord bot, Google Calendar/Meet, Gmail send) — no crashes.
 
 ## Repo conventions (post-cleanup 2026-04)
