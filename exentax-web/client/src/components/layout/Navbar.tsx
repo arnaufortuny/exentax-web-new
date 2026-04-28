@@ -278,36 +278,99 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                         </svg>
                       </button>
                       <div
-                        className={`absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[340px] transition-all duration-200 origin-top ${
-                          servicesOpen ? "visible opacity-100 scale-100 pointer-events-auto" : "invisible opacity-0 scale-95 pointer-events-none"
+                        className={`absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[400px] transition-all duration-300 origin-top ${
+                          servicesOpen ? "visible opacity-100 scale-100 translate-y-0 pointer-events-auto" : "invisible opacity-0 scale-95 -translate-y-1 pointer-events-none"
                         }`}
                       >
                         <div
                           role="menu"
                           aria-label={t("nav.services")}
-                          className="bg-white border border-[var(--border)] rounded-2xl shadow-[0_18px_40px_rgba(0,0,0,0.12)] overflow-hidden"
+                          className="relative overflow-hidden rounded-[24px] border border-[rgba(255,255,255,0.6)] ring-1 ring-[rgba(0,0,0,0.06)] bg-[rgba(255,255,255,0.92)] backdrop-blur-[28px] backdrop-saturate-[1.6] shadow-[0_24px_60px_-12px_rgba(0,0,0,0.18),_0_8px_24px_-4px_rgba(0,0,0,0.10),_inset_0_1px_0_rgba(255,255,255,0.8)]"
                           data-testid="dropdown-services"
                         >
-                        <ul className="py-2">
-                          {servicesSubItems.map((s) => {
-                            const itemActive = currentRouteKey === s.key;
-                            return (
-                              <li key={s.key}>
-                                <Link
-                                  href={s.href}
-                                  onMouseEnter={() => prefetchPage(s.key)}
-                                  onClick={() => setServicesOpen(false)}
-                                  className={`block px-4 py-2.5 transition-colors ${itemActive ? "bg-[rgba(0,229,16,0.08)]" : "hover:bg-[var(--bg-1)]"}`}
-                                  data-testid={`nav-services-${s.key}`}
-                                  role="menuitem"
-                                >
-                                  <span className={`block font-body font-semibold text-[14px] ${itemActive ? "text-[#00E510]" : "text-[var(--text-1)]"}`}>{s.label}</span>
-                                  <span className="block text-[12px] text-[var(--text-2)] leading-snug mt-0.5">{s.description}</span>
-                                </Link>
-                              </li>
-                            );
-                          })}
-                        </ul>
+                          {/* Specular sheen — top highlight */}
+                          <div
+                            aria-hidden="true"
+                            className="pointer-events-none absolute inset-x-0 top-0 h-20"
+                            style={{ background: "linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.0) 100%)" }}
+                          />
+                          {/* Subtle green tint at bottom */}
+                          <div
+                            aria-hidden="true"
+                            className="pointer-events-none absolute inset-x-0 bottom-0 h-24"
+                            style={{ background: "linear-gradient(0deg, rgba(0,229,16,0.04) 0%, rgba(0,229,16,0.0) 100%)" }}
+                          />
+
+                          {/* Items list */}
+                          <ul className="relative py-2">
+                            {servicesSubItems.map((s) => {
+                              const itemActive = currentRouteKey === s.key;
+                              return (
+                                <li key={s.key}>
+                                  <Link
+                                    href={s.href}
+                                    onMouseEnter={() => prefetchPage(s.key)}
+                                    onClick={() => setServicesOpen(false)}
+                                    className={`group relative flex items-start gap-3 px-5 py-3 transition-colors duration-200 ${
+                                      itemActive
+                                        ? "bg-[rgba(0,229,16,0.08)]"
+                                        : "hover:bg-[rgba(0,229,16,0.05)]"
+                                    }`}
+                                    data-testid={`nav-services-${s.key}`}
+                                    role="menuitem"
+                                  >
+                                    {/* Active left accent bar */}
+                                    <span
+                                      aria-hidden="true"
+                                      className={`absolute left-0 top-2.5 bottom-2.5 w-[3px] rounded-r-full bg-[#00E510] transition-opacity duration-200 ${
+                                        itemActive ? "opacity-100" : "opacity-0"
+                                      }`}
+                                    />
+                                    {/* Bullet dot — green when active/hover */}
+                                    <span
+                                      aria-hidden="true"
+                                      className={`mt-[7px] block h-1.5 w-1.5 flex-shrink-0 rounded-full transition-colors duration-200 ${
+                                        itemActive
+                                          ? "bg-[#00C80E]"
+                                          : "bg-[var(--text-3)] group-hover:bg-[#00C80E]"
+                                      }`}
+                                    />
+                                    {/* Label + description */}
+                                    <div className="flex-1 min-w-0">
+                                      <div className="flex items-center justify-between gap-2">
+                                        <span
+                                          className={`block font-body font-semibold text-[15px] leading-tight transition-colors duration-200 ${
+                                            itemActive
+                                              ? "text-[#00C80E]"
+                                              : "text-[var(--text-1)] group-hover:text-[#00C80E]"
+                                          }`}
+                                        >
+                                          {s.label}
+                                        </span>
+                                        <svg
+                                          width="14"
+                                          height="14"
+                                          viewBox="0 0 24 24"
+                                          fill="none"
+                                          aria-hidden="true"
+                                          className={`flex-shrink-0 text-[#00C80E] transition-all duration-200 ${
+                                            itemActive
+                                              ? "opacity-100 translate-x-0"
+                                              : "opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0"
+                                          }`}
+                                        >
+                                          <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                      </div>
+                                      <span className="block font-body text-[13px] text-[var(--text-2)] leading-snug mt-1">
+                                        {s.description}
+                                      </span>
+                                    </div>
+                                  </Link>
+                                </li>
+                              );
+                            })}
+                          </ul>
                         </div>
                       </div>
                     </div>
