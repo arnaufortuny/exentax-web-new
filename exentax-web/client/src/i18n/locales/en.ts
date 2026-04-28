@@ -1958,7 +1958,6 @@ const en = {
   },
   calculator: {
     placeholderZero: "0",
-    eyebrow: "Tax diagnostic",
     title: "How much are you overpaying in taxes right now?",
     subtitle: "Set up your situation and get a clear estimate in under 30 seconds.",
     selectCountry: "Where do you currently reside?",

@@ -1960,7 +1960,6 @@ errors: {
 },
 calculator: {
     placeholderZero: "0",
-    eyebrow: "Steuerdiagnose",
     title: "Wie viel zu viel Steuern zahlen Sie gerade?",
     subtitle: "Konfigurieren Sie Ihre Situation und erhalten Sie in weniger als 30 Sekunden eine klare Schätzung.",
     selectCountry: "Wo wohnen Sie derzeit?",

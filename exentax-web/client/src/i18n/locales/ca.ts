@@ -1724,7 +1724,6 @@ const ca = {
   },
   calculator: {
     placeholderZero: "0",
-    eyebrow: "Diagnòstic fiscal",
     title: "Quant estàs pagant de més en impostos ara mateix?",
     subtitle: "Configura la teva situació i obtén una estimació clara en menys de 30 segons.",
     selectCountry: "On resideixes actualment?",
