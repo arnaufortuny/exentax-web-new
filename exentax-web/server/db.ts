@@ -1,5 +1,5 @@
 import { drizzle } from "drizzle-orm/node-postgres";
-import { Pool } from "pg";
+import { Pool, type PoolClient } from "pg";
 import * as schema from "../shared/schema";
 import { logger } from "./logger";
 
@@ -36,58 +36,48 @@ export async function closePool() {
 }
 
 /**
- * Idempotent column migrations — runs at startup, safe to run multiple times.
- * Use ADD COLUMN IF NOT EXISTS to add new columns without breaking existing deployments.
+ * Defensive startup migration. The source of truth for the schema is
+ * `./migrations/*.sql` (drizzle-kit). This function only applies idempotent
+ * deltas that may not yet be present on a legacy production DB.
+ * See `exentax-web/docs/data-model.md` §8 for the full migration flow.
  */
 export async function runColumnMigrations(): Promise<void> {
   const client = await pool.connect();
   try {
+    // FK constraints. Use NOT VALID so adding the constraint never fails on
+    // legacy orphan rows; subsequent VALIDATE attempts to enforce on existing
+    // data and is non-fatal if it can't (orphans are logged for cleanup).
+    await ensureForeignKeyNotValid(client, {
+      table: "newsletter_campaign_jobs",
+      constraint: "newsletter_campaign_jobs_campaign_id_newsletter_campaigns_id_fk",
+      definition: "FOREIGN KEY (campaign_id) REFERENCES newsletter_campaigns(id) ON DELETE CASCADE",
+    });
+    await ensureForeignKeyNotValid(client, {
+      table: "newsletter_campaign_jobs",
+      constraint: "newsletter_campaign_jobs_subscriber_id_newsletter_subscribers_id_fk",
+      definition: "FOREIGN KEY (subscriber_id) REFERENCES newsletter_subscribers(id) ON DELETE CASCADE",
+    });
+    await ensureForeignKeyNotValid(client, {
+      table: "agenda_admin_actions",
+      constraint: "agenda_admin_actions_booking_id_agenda_id_fk",
+      definition: "FOREIGN KEY (booking_id) REFERENCES agenda(id) ON DELETE SET NULL",
+    });
+
+    // Partial indices for hot sweep paths.
     await client.query(`
-      ALTER TABLE agenda
-        ADD COLUMN IF NOT EXISTS reschedule_count integer DEFAULT 0,
-        ADD COLUMN IF NOT EXISTS last_rescheduled_at text,
-        ADD COLUMN IF NOT EXISTS cancelled_at text,
-        ADD COLUMN IF NOT EXISTS meeting_type text DEFAULT 'google_meet'
+      CREATE INDEX IF NOT EXISTS newsletter_subs_active_idx
+        ON newsletter_subscribers (unsubscribed_at)
+        WHERE unsubscribed_at IS NULL
     `);
     await client.query(`
-      DO $$ BEGIN
-        IF NOT EXISTS (
-          SELECT 1 FROM pg_constraint WHERE conname = 'agenda_meeting_type_check'
-        ) THEN
-          ALTER TABLE agenda ADD CONSTRAINT agenda_meeting_type_check
-            CHECK (meeting_type IS NULL OR meeting_type IN ('google_meet','phone_call'));
-        END IF;
-      END $$;
+      CREATE INDEX IF NOT EXISTS booking_drafts_pending_sweep_idx
+        ON booking_drafts (fecha_creacion)
+        WHERE completed_at IS NULL AND reminder_sent_at IS NULL
     `);
-    await client.query(`
-      CREATE TABLE IF NOT EXISTS seo_rankings (
-        id serial PRIMARY KEY,
-        snapshot_date text NOT NULL,
-        slug text NOT NULL,
-        lang text NOT NULL,
-        keyword text NOT NULL,
-        page_url text NOT NULL,
-        impressions integer NOT NULL DEFAULT 0,
-        clicks integer NOT NULL DEFAULT 0,
-        ctr text NOT NULL DEFAULT '0',
-        position text NOT NULL DEFAULT '0',
-        has_data boolean NOT NULL DEFAULT false,
-        created_at timestamp DEFAULT now()
-      )
-    `);
-    await client.query(`
-      CREATE INDEX IF NOT EXISTS seo_rankings_snapshot_idx ON seo_rankings(snapshot_date)
-    `);
-    await client.query(`
-      CREATE INDEX IF NOT EXISTS seo_rankings_slug_lang_idx ON seo_rankings(slug, lang)
-    `);
-    await client.query(`
-      CREATE UNIQUE INDEX IF NOT EXISTS seo_rankings_snapshot_slug_lang_idx
-        ON seo_rankings(snapshot_date, slug, lang)
-    `);
-    // Pre-clean: cancel duplicate active slots (keep oldest by id) before
-    // creating the partial unique index, so the migration is safe even if
-    // historical data accidentally contains overlapping bookings.
+
+    // Slot uniqueness — the only mechanism preventing double-booking. Recreate
+    // defensively. Pre-cleanup cancels duplicate active rows (keeping the
+    // oldest by id) so the unique index can always be created.
     const dupCleanup = await client.query(`
       WITH dups AS (
         SELECT id,
@@ -106,80 +96,54 @@ export async function runColumnMigrations(): Promise<void> {
     `);
     if (dupCleanup.rowCount && dupCleanup.rowCount > 0) {
       const ids = dupCleanup.rows.map((r: { id: string; fecha_reunion: string; hora_inicio: string }) => `${r.id}@${r.fecha_reunion} ${r.hora_inicio}`).join(", ");
-      logger.warn(`[migration] Auto-cancelled ${dupCleanup.rowCount} duplicate active agenda row(s) before creating unique slot index: ${ids}`, "db");
+      logger.warn(`[migration] Auto-cancelled ${dupCleanup.rowCount} duplicate active agenda row(s) before ensuring unique slot index: ${ids}`, "db");
     }
     await client.query(`
       CREATE UNIQUE INDEX IF NOT EXISTS agenda_active_slot_uniq_idx
         ON agenda (fecha_reunion, hora_inicio)
         WHERE estado IS NULL OR estado NOT IN ('cancelled','no_show')
     `);
-    // Persistent email retry queue (drained by server/email-retry-queue.ts).
-    // Buffers transactional emails (currently booking confirmations) that
-    // could not be sent at event time so the worker can re-attempt them
-    // with exponential backoff after Gmail config / transport issues clear.
-    await client.query(`
-      CREATE TABLE IF NOT EXISTS email_retry_queue (
-        id varchar(64) PRIMARY KEY,
-        email_type text NOT NULL,
-        payload text NOT NULL,
-        attempts integer NOT NULL DEFAULT 0,
-        max_attempts integer NOT NULL DEFAULT 6,
-        last_error text,
-        next_attempt_at text NOT NULL,
-        fecha_creacion timestamp DEFAULT now()
-      )
-    `);
-    await client.query(`
-      CREATE INDEX IF NOT EXISTS email_retry_next_attempt_idx ON email_retry_queue(next_attempt_at)
-    `);
-    await client.query(`
-      CREATE INDEX IF NOT EXISTS email_retry_type_idx ON email_retry_queue(email_type)
-    `);
-    // Per-row claim marker so multiple worker instances (horizontal scaling
-    // or rolling deploys) cannot pick up the same job and emit duplicate
-    // booking-confirmation emails. Drained atomically via FOR UPDATE SKIP
-    // LOCKED in server/email-retry-queue.ts.
-    await client.query(`
-      ALTER TABLE email_retry_queue
-        ADD COLUMN IF NOT EXISTS claimed_at text
-    `);
-    // Audit trail for the Discord agenda bot. Persists every action a
-    // staff member triggers (slash command or button) so we keep history
-    // even after Discord messages are deleted or channels purged.
-    await client.query(`
-      CREATE TABLE IF NOT EXISTS agenda_admin_actions (
-        id varchar(64) PRIMARY KEY,
-        booking_id varchar(64),
-        actor_discord_id text NOT NULL,
-        actor_discord_name text,
-        action text NOT NULL,
-        payload text,
-        fecha_creacion timestamp DEFAULT now()
-      )
-    `);
-    await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_booking_idx ON agenda_admin_actions(booking_id)`);
-    await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_actor_idx ON agenda_admin_actions(actor_discord_id)`);
-    await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_created_at_idx ON agenda_admin_actions(fecha_creacion)`);
-    // Composite partial index for the incomplete-booking reminder cron
-    // (server/scheduled/incomplete-bookings.ts → getBookingDraftsForReminder).
-    // The cron filters by `reminder_sent_at IS NULL AND completed_at IS NULL`
-    // and a `created_at` range every 5 minutes; a partial index on
-    // `created_at` over the OPEN drafts subset turns the scan into an
-    // index-only range lookup and stops the table from being walked end to
-    // end as draft volume grows.
-    await client.query(`
-      CREATE INDEX IF NOT EXISTS booking_drafts_open_created_idx
-        ON booking_drafts (fecha_creacion)
-        WHERE reminder_sent_at IS NULL AND completed_at IS NULL
-    `);
+
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
-    // Migration failures must be fatal: silently degraded indexes (especially
-    // agenda_active_slot_uniq_idx) would weaken our concurrency guarantees.
+    // Slot uniqueness is the only mechanism preventing double-booking, so
+    // migration failures are fatal — silently degraded indexes would weaken
+    // concurrency guarantees. FK additions above are non-fatal (NOT VALID).
     logger.error(`Column migration failed: ${err instanceof Error ? err.message : String(err)}`, "db");
     throw err;
   } finally {
     client.release();
+  }
+}
+
+/**
+ * Add a FK constraint as NOT VALID (skips checking existing rows so legacy
+ * orphans don't block startup), then attempt VALIDATE in a separate step.
+ * VALIDATE failures are logged at WARN — they signal orphan data that needs
+ * a manual cleanup but don't prevent the server from booting.
+ */
+async function ensureForeignKeyNotValid(
+  client: PoolClient,
+  opts: { table: string; constraint: string; definition: string },
+): Promise<void> {
+  const { table, constraint, definition } = opts;
+  await client.query(`
+    DO $$ BEGIN
+      IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = '${constraint}') THEN
+        ALTER TABLE ${table}
+          ADD CONSTRAINT ${constraint} ${definition} NOT VALID;
+      END IF;
+    END $$;
+  `);
+  try {
+    await client.query(`ALTER TABLE ${table} VALIDATE CONSTRAINT ${constraint}`);
+  } catch (err) {
+    logger.warn(
+      `[migration] FK ${constraint} on ${table} added but VALIDATE failed (legacy orphan rows present): ${
+        err instanceof Error ? err.message : String(err)
+      }. New writes are still enforced; clean up orphans and re-run VALIDATE manually.`,
+      "db",
+    );
   }
 }
 

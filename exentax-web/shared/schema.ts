@@ -165,6 +165,9 @@ export const newsletterSubscribers = pgTable("newsletter_subscribers", {
 }, (table) => [
   uniqueIndex("newsletter_email_idx").on(table.email),
   index("newsletter_unsub_token_idx").on(table.unsubscribeToken),
+  // Partial index covering the active-subscriber filter used by the broadcast worker.
+  index("newsletter_subs_active_idx").on(table.unsubscribedAt)
+    .where(sql`${table.unsubscribedAt} IS NULL`),
 ]);
 
 export const insertNewsletterSubscriberSchema = createInsertSchema(newsletterSubscribers).omit({ createdAt: true });
@@ -199,8 +202,10 @@ export const newsletterCampaigns = pgTable("newsletter_campaigns", {
 
 export const newsletterCampaignJobs = pgTable("newsletter_campaign_jobs", {
   id: varchar("id", { length: 64 }).primaryKey(),
-  campaignId: varchar("campaign_id", { length: 64 }).notNull(),
-  subscriberId: varchar("subscriber_id", { length: 64 }).notNull(),
+  campaignId: varchar("campaign_id", { length: 64 }).notNull()
+    .references(() => newsletterCampaigns.id, { onDelete: "cascade" }),
+  subscriberId: varchar("subscriber_id", { length: 64 }).notNull()
+    .references(() => newsletterSubscribers.id, { onDelete: "cascade" }),
   email: text("email").notNull(),
   unsubscribeToken: text("unsubscribe_token"),
   status: text("status").default("pending"),        // pending | sending | sent | failed | skipped
@@ -278,6 +283,11 @@ export const consentLog = pgTable("consent_log", {
   index("consent_log_created_at_idx").on(table.createdAt),
 ]);
 
+/**
+ * SEO rankings snapshot — to be populated from Google Search Console.
+ * Reserved for the planned SEO task; not yet read or written by the server.
+ * See `docs/data-model.md` for the rationale on keeping this table.
+ */
 export const seoRankings = pgTable("seo_rankings", {
   id: serial("id").primaryKey(),
   snapshotDate: text("snapshot_date").notNull(),
@@ -344,7 +354,8 @@ export type EmailRetryJob = typeof emailRetryQueue.$inferSelect;
  */
 export const agendaAdminActions = pgTable("agenda_admin_actions", {
   id: varchar("id", { length: 64 }).primaryKey(),
-  bookingId: varchar("booking_id", { length: 64 }),
+  bookingId: varchar("booking_id", { length: 64 })
+    .references(() => agenda.id, { onDelete: "set null" }),
   actorDiscordId: text("actor_discord_id").notNull(),
   actorDiscordName: text("actor_discord_name"),
   action: text("action").notNull(),
@@ -390,14 +401,10 @@ export const bookingDrafts = pgTable("booking_drafts", {
   index("booking_drafts_created_at_idx").on(table.createdAt),
   index("booking_drafts_reminder_sent_at_idx").on(table.reminderSentAt),
   index("booking_drafts_completed_at_idx").on(table.completedAt),
-  // Mirrors the partial index created at runtime in `server/db.ts`
-  // (`booking_drafts_open_created_idx`). Drizzle's `pgTable` does not yet
-  // model PostgreSQL partial indexes, so the actual partial predicate
-  // (`WHERE reminder_sent_at IS NULL AND completed_at IS NULL`) is applied
-  // by the column-migrations step at startup; this entry exists so the
-  // schema-level index registry stays in sync with what is actually in
-  // the database for tooling that introspects it.
-  index("booking_drafts_open_created_idx").on(table.createdAt),
+  // Partial index for the pending-draft sweep (`getBookingDraftsForReminder`).
+  index("booking_drafts_pending_sweep_idx")
+    .on(table.createdAt)
+    .where(sql`${table.completedAt} IS NULL AND ${table.reminderSentAt} IS NULL`),
 ]);
 
 export const insertBookingDraftSchema = createInsertSchema(bookingDrafts).omit({ createdAt: true });
