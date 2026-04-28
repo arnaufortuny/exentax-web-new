@@ -325,6 +325,34 @@ across DST".
   `--fail-on-zombies` to make the script exit non-zero on any finding
   (useful when wired into a periodic cron / CI alert).
 
+  The detection / repair logic lives in `server/agenda-reconcile.ts`
+  so it can be invoked both by this CLI script and by the daily
+  scheduler described below — the script is now a thin wrapper.
+
+  **Daily automated sweep** — `server/scheduled/reconcile-zombies.ts`
+  runs the same dry-run detection once per day at 06:00 server time
+  (wired alongside the periodic-reports scheduler in
+  `server/index.ts`). Behaviour:
+
+  - Always logs the full dry-run report to the application log under
+    `[reconcile-zombies]`, regardless of outcome — this is the
+    "preserved dry-run output" an operator reviews before re-running
+    the script with `--apply`.
+  - A clean run (zero items across all four buckets) is silent on
+    Discord — only the per-bucket counts go to the log as a heartbeat.
+  - Any non-zero finding posts **one** embed to the Discord
+    `#sistema-errores` channel (event type `system_error`,
+    severity `[AVISO]`) with the per-bucket counts and a pointer to
+    re-run `tsx exentax-web/scripts/reconcile-agenda-zombies.ts --apply`
+    after reviewing the full report in the log.
+  - The Discord alert is deduped by date (`reconcile_zombies:YYYY-MM-DD`)
+    so duplicate ticks within the same day never produce duplicate
+    embeds.
+  - The scheduler **never** auto-applies repairs. The repair path
+    (delete the stranded Google Calendar events from bucket A) is
+    idempotent and safe, but a human glance is still required so a
+    Google API outage in progress isn't blindly papered over.
+
 * **`tsx tests/madrid-time-dst.test.ts`** — DST regression suite for
   `madridWallTimeToUtcMs` and `isWeekdayISO`. Run after any change to
   `shared/madrid-time.ts` or to the reminder scheduling math.

@@ -2,10 +2,15 @@
 /*
  * reconcile-agenda-zombies.ts
  * ---------------------------------------------------------------------------
- * One-off operational script to detect and (optionally) repair inconsistent
- * states between `agenda`, `booking_drafts`, and external Google Calendar
- * events. Designed to be run on demand from the shell when the team
- * suspects drift, and as a periodic sanity check after major incidents.
+ * CLI wrapper around `server/agenda-reconcile.ts`. Detects (and optionally
+ * repairs) inconsistent states between `agenda`, `booking_drafts`, and
+ * external Google Calendar events. Designed to be run on demand from the
+ * shell when the team suspects drift, and as a periodic sanity check after
+ * major incidents.
+ *
+ * The detection / repair logic itself lives in `server/agenda-reconcile.ts`
+ * so it can also be invoked by the daily scheduler in
+ * `server/scheduled/reconcile-zombies.ts`.
  *
  * What it looks for
  * -----------------
@@ -49,150 +54,26 @@
  * side, NULL update on DB side). Only the apply mode writes anything.
  * ---------------------------------------------------------------------------
  */
-import { db, closePool } from "../server/db";
-import { eq, and, sql, isNotNull } from "drizzle-orm";
-import * as s from "../shared/schema";
-import { deleteGoogleMeetEvent } from "../server/google-meet";
-import { logger } from "../server/logger";
-import { AGENDA_STATUSES } from "../server/server-constants";
+import { closePool } from "../server/db";
+import {
+  detectFindings,
+  repairInactiveWithEvent,
+  formatFindingsReport,
+  totalFindings,
+} from "../server/agenda-reconcile";
 
 const ARGS = new Set(process.argv.slice(2));
 const APPLY = ARGS.has("--apply");
 const FAIL_ON_ZOMBIES = ARGS.has("--fail-on-zombies");
 
-interface Findings {
-  inactiveWithEvent: Array<{ id: string; status: string | null; eventId: string }>;
-  activeWithoutEvent: Array<{ id: string; meetingDate: string | null; startTime: string | null; email: string | null }>;
-  draftCompletedWithoutBooking: Array<{ id: string; email: string; completedAt: string | null }>;
-  bookingsOnBlockedDays: Array<{ id: string; meetingDate: string; email: string | null }>;
-}
-
-async function detect(): Promise<Findings> {
-  // A. Inactive (cancelled / no_show) agenda rows that still hold a Google
-  // event id. Use a raw SQL list since `inArray` against a literal needs
-  // an explicit `as` cast at the type level.
-  const inactiveWithEvent = await db
-    .select({ id: s.agenda.id, status: s.agenda.status, eventId: s.agenda.googleMeetEventId })
-    .from(s.agenda)
-    .where(and(
-      isNotNull(s.agenda.googleMeetEventId),
-      sql`${s.agenda.status} IN (${AGENDA_STATUSES.CANCELLED}, ${AGENDA_STATUSES.NO_SHOW})`,
-    ));
-
-  // B. Active google_meet bookings without an event id.
-  const activeWithoutEvent = await db
-    .select({
-      id: s.agenda.id,
-      meetingDate: s.agenda.meetingDate,
-      startTime: s.agenda.startTime,
-      email: s.agenda.email,
-    })
-    .from(s.agenda)
-    .where(and(
-      sql`${s.agenda.googleMeetEventId} IS NULL`,
-      sql`${s.agenda.meetingType} = 'google_meet'`,
-      sql`${s.agenda.status} IS NULL OR ${s.agenda.status} NOT IN ('cancelled','no_show')`,
-    ));
-
-  // C. Drafts marked completed but with no active agenda for the email.
-  const draftCompletedWithoutBooking = await db.execute(sql`
-    SELECT d.id, d.email, d.completed_at AS "completedAt"
-    FROM booking_drafts d
-    WHERE d.completed_at IS NOT NULL
-      AND NOT EXISTS (
-        SELECT 1 FROM agenda a
-        WHERE a.email = d.email
-          AND (a.estado IS NULL OR a.estado NOT IN ('cancelled','no_show'))
-      )
-  `);
-
-  // D. Bookings sitting on a blocked day.
-  const bookingsOnBlockedDays = await db.execute(sql`
-    SELECT a.id, a.fecha_reunion AS "meetingDate", a.email
-    FROM agenda a
-    JOIN blocked_days b ON b.fecha = a.fecha_reunion
-    WHERE a.estado IS NULL OR a.estado NOT IN ('cancelled','no_show')
-  `);
-
-  return {
-    inactiveWithEvent: inactiveWithEvent.map(r => ({
-      id: r.id, status: r.status, eventId: r.eventId as string,
-    })),
-    activeWithoutEvent: activeWithoutEvent.map(r => ({
-      id: r.id,
-      meetingDate: r.meetingDate,
-      startTime: r.startTime,
-      email: r.email,
-    })),
-    draftCompletedWithoutBooking: (draftCompletedWithoutBooking.rows as Array<{ id: string; email: string; completedAt: string | null }>) ?? [],
-    bookingsOnBlockedDays: (bookingsOnBlockedDays.rows as Array<{ id: string; meetingDate: string; email: string | null }>) ?? [],
-  };
-}
-
-async function repairInactiveWithEvent(rows: Findings["inactiveWithEvent"]): Promise<{ deleted: number; cleared: number; failed: number }> {
-  let deleted = 0;
-  let cleared = 0;
-  let failed = 0;
-  for (const r of rows) {
-    let gone = false;
-    try {
-      await deleteGoogleMeetEvent(r.eventId);
-      gone = true;
-      deleted++;
-    } catch (err) {
-      // Treat "Resource has been deleted" / 404 from Google as already gone.
-      const msg = err instanceof Error ? err.message : String(err);
-      if (/410|404|deleted|notFound/i.test(msg)) {
-        gone = true;
-      } else {
-        failed++;
-        logger.warn(`[reconcile] Google delete failed for ${r.id} (${r.eventId}): ${msg}`, "reconcile");
-      }
-    }
-    // Whether the delete succeeded or the event is already gone, clear the
-    // column so the next run does not retry the same id forever. If the
-    // delete genuinely failed (network hiccup), the next pass will pick
-    // the new orphan up only if a fresh `googleMeetEventId` ever appears,
-    // which is impossible for a cancelled row — so clearing is safe.
-    if (gone) {
-      try {
-        await db.update(s.agenda)
-          .set({ googleMeetEventId: null })
-          .where(eq(s.agenda.id, r.id));
-        cleared++;
-      } catch (err) {
-        logger.warn(`[reconcile] DB clear failed for ${r.id}: ${err instanceof Error ? err.message : String(err)}`, "reconcile");
-        failed++;
-      }
-    }
-  }
-  return { deleted, cleared, failed };
-}
-
-function fmt(rows: unknown[]): string {
-  if (rows.length === 0) return "  (none)";
-  return rows.map(r => "  - " + JSON.stringify(r)).join("\n");
-}
-
 async function main() {
   const mode = APPLY ? "APPLY" : "dry-run";
   console.log(`[reconcile-agenda-zombies] mode=${mode}\n`);
 
-  const findings = await detect();
-  const total =
-    findings.inactiveWithEvent.length +
-    findings.activeWithoutEvent.length +
-    findings.draftCompletedWithoutBooking.length +
-    findings.bookingsOnBlockedDays.length;
+  const findings = await detectFindings();
+  const total = totalFindings(findings);
 
-  console.log(`A. Inactive bookings with live Google event (${findings.inactiveWithEvent.length}):`);
-  console.log(fmt(findings.inactiveWithEvent));
-  console.log(`\nB. Active google_meet bookings without an event id (${findings.activeWithoutEvent.length}):`);
-  console.log(fmt(findings.activeWithoutEvent));
-  console.log(`\nC. Drafts marked completed without an active booking (${findings.draftCompletedWithoutBooking.length}):`);
-  console.log(fmt(findings.draftCompletedWithoutBooking));
-  console.log(`\nD. Active bookings on blocked days (${findings.bookingsOnBlockedDays.length}):`);
-  console.log(fmt(findings.bookingsOnBlockedDays));
+  console.log(formatFindingsReport(findings));
 
   if (APPLY && findings.inactiveWithEvent.length > 0) {
     console.log(`\nApplying repair on (A) — deleting ${findings.inactiveWithEvent.length} stranded Google events…`);

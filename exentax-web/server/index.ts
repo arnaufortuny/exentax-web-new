@@ -855,6 +855,19 @@ httpServer.listen(
       logger.warn(`Retention-purge scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "retention");
     }
 
+    // Daily booking-system safety check (06:00 server time). Detects drift
+    // between agenda, booking_drafts, blocked days, and Google Calendar
+    // events. Silent on a clean run; posts a single embed to
+    // `#sistema-errores` if any bucket has findings. See `server/scheduled/
+    // reconcile-zombies.ts` and §7c of `docs/discord-bot-agenda.md`.
+    try {
+      const { startReconcileZombiesScheduler } = await import("./scheduled/reconcile-zombies");
+      activeIntervals.push(startReconcileZombiesScheduler());
+      logger.info("Reconcile-zombies scheduler started (daily 06:00 dry-run)", "reconcile");
+    } catch (err) {
+      logger.warn(`Reconcile-zombies scheduler failed to start (non-fatal): ${err instanceof Error ? err.message : String(err)}`, "reconcile");
+    }
+
   } catch (err) {
     logger.error(`Fatal startup error: ${(err as Error).message}`, "express");
     process.exit(1);
