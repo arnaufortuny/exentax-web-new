@@ -58,7 +58,8 @@ exentax-web/
 │   ├── google-credentials.ts, google-meet.ts, google-utils.ts   # Calendar + Meet vía service account
 │   ├── discord.ts                 # Bot REST API por canal, dedupe in-memory
 │   ├── discord-bot.ts             # Endpoint /api/discord/interactions (Ed25519) + slash sync
-│   ├── discord-bot-commands.ts    # Handlers /agenda /cita /ayuda + role gate ADMIN_DISCORD_ROLE_ID
+│   ├── discord-bot-commands.ts    # Re-export thin: dispatchSlashCommand / dispatchComponent / dispatchModalSubmit
+│   ├── discord/handlers/          # Una superficie por archivo — slash, components, modals, booking-actions, commands/{help,agenda,cita,newsletter}
 │   ├── indexnow.ts                # ping a buscadores + ruta de verificación
 │   ├── email.ts, email-i18n.ts, email-layout.ts                # Gmail API (service account)
 │   ├── field-encryption.ts        # AES-GCM de campos PII (FIELD_ENCRYPTION_KEY)
