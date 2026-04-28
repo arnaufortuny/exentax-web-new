@@ -44,13 +44,6 @@ export type ExpenseCategoryDef = {
   group: ExpenseGroup;
 };
 
-export type UseCasePreset = {
-  id: string;
-  label: string;
-  monthlyIncome: number;
-  expenses: Record<string, number>;
-};
-
 export interface CalcOptions {
   tarifaPlana?: boolean;
   franceMicro?: boolean;

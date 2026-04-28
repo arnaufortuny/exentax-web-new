@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef, useSyncExternalStore, lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { resolveLocale } from "@/lib/lang-utils";
-import { calculateSavings, computeAllStructures, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES, DISPLAY_CURRENCIES, convertFromEUR, convertToEUR, USE_CASE_PRESETS, NON_DEDUCTIBLE_INFO } from "@/lib/calculator";
+import { calculateSavings, computeAllStructures, formatCurrency, countries, activities, getExpenseCategories, calcDeductibleTotal, COUNTRY_CURRENCY, COUNTRY_REGIMES, DISPLAY_CURRENCIES, convertFromEUR, convertToEUR, NON_DEDUCTIBLE_INFO } from "@/lib/calculator";
 import type { ExpenseItem, AllStructuresResult } from "@/lib/calculator";
 import { apiRequest } from "@/lib/queryClient";
 import { useLangPath } from "@/hooks/useLangPath";
@@ -118,22 +118,6 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
     ? computeAllStructures(income, country, activity, expenses, expenseItems)
     : null,
     [income, country, activity, expenses, expenseItems, hasCountry]);
-
-  function applyPreset(presetId: string) {
-    const preset = USE_CASE_PRESETS.find(p => p.id === presetId);
-    if (!preset) return;
-    setIncome(preset.monthlyIncome);
-    setIncomeTouched(true);
-    setShowExpenseDetails(true);
-    setShowExpensesSection(true);
-    const items: ExpenseItem[] = Object.entries(preset.expenses).map(([id, monthly]) => {
-      const cat = expenseCategories.find(c => c.id === id);
-      if (!cat) return null;
-      return { id, label: cat.label, monthly, deductPct: cat.deductPct };
-    }).filter((x): x is ExpenseItem => x !== null);
-    setExpenseItems(items);
-    setExpenses(0);
-  }
 
   // Geo-based prefill (Task #11): on mount, ask the server for the visitor's
   // country (resolved from cf-ipcountry / x-vercel-ip-country / fly-client-ip-
@@ -395,23 +379,6 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
                     >
                       <span className={displayCurrency === c.code ? "opacity-90" : "opacity-65"}>{c.symbol}</span>
                       <span>{c.code}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <p className={`text-[var(--text-2)] font-medium ${compact ? "text-[11px] mb-1" : "text-xs sm:text-sm mb-2"}`}>
-                  {t("calculator.useCasePreset", { defaultValue: "¿Quieres precargar un caso típico?" })}
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {USE_CASE_PRESETS.map(p => (
-                    <button
-                      key={p.id}
-                      onClick={() => applyPreset(p.id)}
-                      className="group inline-flex items-center text-[12px] sm:text-[13px] font-semibold leading-none rounded-full px-3 py-1.5 border-2 backdrop-blur-2xl backdrop-saturate-150 transition-all duration-200 bg-[var(--glass-bg)] text-[var(--text-2)] border-[rgba(0,229,16,0.35)] shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_6px_14px_-10px_rgba(11,13,12,0.18)] hover:border-[#00E510] hover:bg-[rgba(0,229,16,0.08)] hover:text-[var(--text-1)] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_10px_22px_-12px_rgba(0,229,16,0.4)] hover:-translate-y-0.5"
-                      data-testid={`button-preset-${p.id}`}
-                    >
-                      {t(`calculator.presetLabels.${p.id}`, { defaultValue: p.label })}
                     </button>
                   ))}
                 </div>

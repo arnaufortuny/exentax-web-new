@@ -1926,13 +1926,6 @@ const ca = {
       generic: "El teu perfil de negoci digital internacional és compatible amb una estructura LLC. L'eficiència depèn de la teva residència i estratègia de retirades.",
     },
     displayCurrency: "Divisa de visualització",
-    useCasePreset: "Vols precarregar un cas típic?",
-    presetLabels: {
-      "freelancer-digital": "Freelancer digital",
-      consultor: "Consultor / coach",
-      ecommerce: "E-commerce / dropshipping",
-      b2b: "Serveis B2B",
-    },
     nonDeductibleInfoTitle: "Despeses NO deduïbles (informatiu)",
     nonDeductibleLabels: {
       personal: "Despeses personals / familiars",

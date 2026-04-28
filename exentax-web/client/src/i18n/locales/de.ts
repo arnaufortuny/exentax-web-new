@@ -2161,13 +2161,6 @@ calculator: {
       generic: "Ihr internationales digitales Geschäftsprofil ist mit einer LLC-Struktur kompatibel. Die Effizienz hängt von Ihrem Wohnsitz und Ihrer Entnahmestrategie ab.",
     },
     displayCurrency: "Anzeigewährung",
-    useCasePreset: "Möchten Sie einen typischen Fall vorladen?",
-    presetLabels: {
-      "freelancer-digital": "Digitaler Freelancer",
-      consultor: "Berater / Coach",
-      ecommerce: "E-Commerce / Dropshipping",
-      b2b: "B2B-Dienstleistungen",
-    },
     nonDeductibleInfoTitle: "Nicht abzugsfähige Ausgaben (informativ)",
     nonDeductibleLabels: {
       personal: "Persönliche / familiäre Ausgaben",

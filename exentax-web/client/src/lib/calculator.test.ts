@@ -5,11 +5,17 @@
  * Unit tests for `computeAllStructures()` — the 3-structure comparator
  * (autónomo · sociedad local · LLC USA).
  *
- * Covers (per Task #14):
- *   - The four canonical use-case presets (`USE_CASE_PRESETS`) for
- *     internationally-oriented profiles → bestId === "llc".
+ * Covers:
+ *   - Four canonical internationally-oriented profiles (test-only fixtures
+ *     defined inline below) → bestId === "llc".
  *   - Four "LLC not best" scenarios (analogous to L1–L4 in
  *     `docs/calculator-cases.md`) → bestId !== "llc".
+ *
+ * NOTE: The "use-case preset" buttons that previously surfaced these profiles
+ * to end users in the calculator UI have been removed. The fixtures below
+ * are kept *only* as a regression harness so refactors of `computeAllStructures`
+ * cannot silently flip the "LLC wins" answer for the canonical international
+ * profiles. They are not exported and never reach the bundle.
  *
  * Run via `npm run test:calculator` (added in package.json) or directly with
  * `npx tsx client/src/lib/calculator.test.ts`. Exits with code 0 on success
@@ -18,13 +24,41 @@
  */
 
 import {
-  USE_CASE_PRESETS,
   computeAllStructures,
   calculateSavings,
   type CalcOptions,
   type ExpenseItem,
   type AllStructuresResult,
 } from "./calculator";
+
+// Test-only fixtures (not bundled, not shown to users).
+type _PresetFixture = {
+  id: string;
+  monthlyIncome: number;
+  expenses: Record<string, number>;
+};
+const _PRESET_FIXTURES: _PresetFixture[] = [
+  {
+    id: "freelancer-digital",
+    monthlyIncome: 4000,
+    expenses: { software: 80, hosting: 30, asesoria: 80, telefono: 50, marketing: 50, homeOffice: 100 },
+  },
+  {
+    id: "consultor",
+    monthlyIncome: 7000,
+    expenses: { asesoria: 120, software: 80, marketing: 80, viajesTransporte: 100, viajesComidas: 60, homeOffice: 150, formacion: 80 },
+  },
+  {
+    id: "ecommerce",
+    monthlyIncome: 10000,
+    expenses: { marketing: 800, software: 150, hosting: 80, asesoria: 100, contratistas: 300, bancos: 120 },
+  },
+  {
+    id: "b2b",
+    monthlyIncome: 12000,
+    expenses: { asesoria: 150, software: 120, contratistas: 400, marketing: 100, viajesTransporte: 100, seguros: 80, legal: 80 },
+  },
+];
 
 type Result = { name: string; ok: boolean; detail?: string };
 const results: Result[] = [];
@@ -54,7 +88,7 @@ function fmt(r: AllStructuresResult): string {
 const PRESET_COUNTRY = "espana";
 const PRESET_ACTIVITY = "digitalServices";
 
-for (const preset of USE_CASE_PRESETS) {
+for (const preset of _PRESET_FIXTURES) {
   const items = presetItems(preset.expenses);
   const r = computeAllStructures(
     preset.monthlyIncome,

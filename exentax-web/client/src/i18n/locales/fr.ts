@@ -2162,13 +2162,6 @@ errors: {
       generic: "Votre profil d'entreprise numérique internationale est compatible avec une structure LLC. L'efficacité dépend de votre résidence et de votre stratégie de retraits.",
     },
     displayCurrency: "Devise d'affichage",
-    useCasePreset: "Voulez-vous précharger un cas typique ?",
-    presetLabels: {
-      "freelancer-digital": "Freelance digital",
-      consultor: "Consultant / coach",
-      ecommerce: "E-commerce / dropshipping",
-      b2b: "Services B2B",
-    },
     nonDeductibleInfoTitle: "Dépenses NON déductibles (informatif)",
     nonDeductibleLabels: {
       personal: "Dépenses personnelles / familiales",

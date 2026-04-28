@@ -3,7 +3,6 @@ import type {
   IrpfBracketDetail,
   ExpenseItem,
   ExpenseCategoryDef,
-  UseCasePreset,
   CalcOptions,
   CalcResult,
   StructureResult,
@@ -16,7 +15,6 @@ export type {
   IrpfBracketDetail,
   ExpenseItem,
   ExpenseCategoryDef,
-  UseCasePreset,
   CalcOptions,
   CalcResult,
   StructureResult,
@@ -61,33 +59,6 @@ export const NON_DEDUCTIBLE_INFO: { id: string; label: string }[] = [
   { id: "multas", label: "Multas y sanciones" },
   { id: "entretenimiento", label: "Entretenimiento puro (post-TCJA)" },
   { id: "distributions", label: "Distributions de la LLC al socio" },
-];
-
-export const USE_CASE_PRESETS: UseCasePreset[] = [
-  {
-    id: "freelancer-digital",
-    label: "Freelancer digital",
-    monthlyIncome: 4000,
-    expenses: { software: 80, hosting: 30, asesoria: 80, telefono: 50, marketing: 50, homeOffice: 100 },
-  },
-  {
-    id: "consultor",
-    label: "Consultor / coach",
-    monthlyIncome: 7000,
-    expenses: { asesoria: 120, software: 80, marketing: 80, viajesTransporte: 100, viajesComidas: 60, homeOffice: 150, formacion: 80 },
-  },
-  {
-    id: "ecommerce",
-    label: "E-commerce / dropshipping",
-    monthlyIncome: 10000,
-    expenses: { marketing: 800, software: 150, hosting: 80, asesoria: 100, contratistas: 300, bancos: 120 },
-  },
-  {
-    id: "b2b",
-    label: "Servicios B2B",
-    monthlyIncome: 12000,
-    expenses: { asesoria: 150, software: 120, contratistas: 400, marketing: 100, viajesTransporte: 100, seguros: 80, legal: 80 },
-  },
 ];
 
 const COUNTRY_EXPENSE_OVERRIDES: Record<string, Partial<Record<string, { deductPct: 100 | 80 | 50 | 20; label?: string }>>> = {

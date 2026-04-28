@@ -2347,13 +2347,6 @@ const es = {
  generic:"Tu perfil de negocio digital internacional es compatible con una estructura LLC. La eficiencia depende de tu residencia y estrategia de retiros.",
  },
  displayCurrency:"Divisa de visualización",
- useCasePreset:"¿Quieres precargar un caso típico?",
- presetLabels: {
-  "freelancer-digital":"Freelancer digital",
-  consultor:"Consultor / coach",
-  ecommerce:"E-commerce / dropshipping",
-  b2b:"Servicios B2B",
- },
  nonDeductibleInfoTitle:"Gastos NO deducibles (informativo)",
  nonDeductibleLabels: {
   personal:"Gastos personales / familiares",
