@@ -1220,8 +1220,8 @@ const ca = {
   homePage: {
     seoTitle: "La teva LLC als EUA amb respatller fiscal premium | Exentax",
     seoDesc: "Constitució, EIN, banca americana, compliance IRS i un fiscalista real al telèfon. L'estructura legal que fan servir founders, fons i operadors seriosos. Sense software low-cost.",
-    ogTitle: "La teva LLC als EUA en 48 h, sense sorpreses",
-    ogDesc: "Constitueix la teva LLC als EUA en 48 h amb assessors experts. Consulta gratuïta de 30 min. Exentax t'acompanya del diagnòstic a la compliance anual.",
+    ogTitle: "La LLC que fan servir founders, fons i operadors seriosos",
+    ogDesc: "Constitució, EIN, banca americana i compliance IRS amb el respatller d'un fiscalista real. Estructura legal premium, de principi a fi. Sense software low-cost.",
     seoKeywords: "Exentax, LLC Estats Units, optimització fiscal, pagar menys impostos legalment, LLC per a freelancers, LLC autònoms, estructura fiscal, reduir impostos, fiscalitat internacional, LLC Wyoming, LLC Delaware, EIN, Form 5472, compliance IRS, compte bancari USA, facturar amb LLC americana, impostos freelancer, nòmada digital fiscalitat",
     jsonLd: {
       webPageName: "La teva estructura fiscal als EUA",

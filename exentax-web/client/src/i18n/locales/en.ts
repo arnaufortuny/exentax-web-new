@@ -1088,8 +1088,8 @@ const en = {
   homePage: {
     seoTitle: "Your US LLC with premium tax backing | Exentax",
     seoDesc: "Formation, EIN, US banking, IRS compliance and a real tax advisor on the phone. The legal structure used by founders, funds and serious operators. No low-cost software.",
-    ogTitle: "Your US LLC in 48 hours, no surprises",
-    ogDesc: "Set up your US LLC in 48 h with expert tax advisors. Free 30-min consultation. Exentax: tax-led setup, banking and compliance for your US LLC.",
+    ogTitle: "The US LLC used by founders, funds and serious operators",
+    ogDesc: "Formation, EIN, US banking and IRS compliance backed by a real tax advisor. Premium legal structure, end to end. No low-cost software.",
     seoKeywords: "Exentax, US LLC, tax optimization, pay less taxes legally, LLC for freelancers, LLC for self-employed, tax structure, reduce taxes, international taxation, Wyoming LLC, Delaware LLC, New Mexico LLC, EIN, Form 5472, IRS compliance, US bank account, invoice with US LLC, freelancer taxes, digital nomad taxation",
     jsonLd: {
       webPageName: "Your US tax structure",
