@@ -936,7 +936,7 @@ async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promis
 
     ${bodyText(rt.manageNote)}
 
-    ${ctaButton(withUtm(data.manageUrl, "transactional", "cancellation_confirmation", lang), rt.ctaManage)}
+    ${ctaButton(withUtm(data.manageUrl, "transactional", "reschedule_confirmation", lang), rt.ctaManage)}
 
     ${brandSignature(lang, rt.closing)}
     ${unsubNote(rt.unsubNote)}

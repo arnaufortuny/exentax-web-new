@@ -1684,7 +1684,15 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
   });
 
-  app.get("/api/newsletter/unsubscribe/:token", asyncHandler(async (req, res) => {
+  // RFC 8058 one-click unsubscribe for the newsletter broadcast. The
+  // emitted MIME header pair is `List-Unsubscribe: <url>` +
+  // `List-Unsubscribe-Post: List-Unsubscribe=One-Click`, which causes
+  // Gmail / Yahoo / Apple Mail clients to call POST (not GET) when the
+  // user clicks the native "Unsubscribe" affordance. The GET variant
+  // remains for legacy mail clients and as a clickable footer link.
+  // Both verbs share semantics: idempotent, rate-limited, never leak
+  // subscriber existence to the network.
+  const newsletterUnsubHandler = asyncHandler(async (req, res) => {
     // Rate-limited to stop brute-force token enumeration and DoS over the
     // newsletter table (1 SELECT per call, 1 UPDATE per hit). Applies before
     // any DB hit. `publicDataLimiter` (60/min/IP) is fine — real unsubscribe
@@ -1705,7 +1713,9 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     await updateNewsletterSubscriber(subscriber.id, { unsubscribedAt: new Date().toISOString() });
     logger.info(`Newsletter unsubscribe: ${subscriber.email.slice(0, 3)}***@${subscriber.email.split("@")[1] ?? ""}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
-  }));
+  });
+  app.get("/api/newsletter/unsubscribe/:token", newsletterUnsubHandler);
+  app.post("/api/newsletter/unsubscribe/:token", newsletterUnsubHandler);
 
   // RFC 8058 one-click unsubscribe for the drip nurture sequence (guide
   // download + post-booking nurture). Same shape as the newsletter route:

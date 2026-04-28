@@ -158,6 +158,11 @@ const GERUND_NOUN_ALLOWLIST = new Set([
 const FULL_SCAN_FILES = [
   "exentax-web/client/src/data/blog-i18n/pt.ts",
   "exentax-web/client/src/i18n/locales/pt.ts",
+  // Server-side email translations were split out of `email-i18n.ts` into
+  // per-language modules in 2026-04. The PT bundle must obey the same
+  // pt-PT (European Portuguese) rules as the client copy — same lint set,
+  // same brasileirismos blocklist.
+  "exentax-web/server/email-i18n/pt.ts",
 ];
 
 const FULL_SCAN_DIRS = [

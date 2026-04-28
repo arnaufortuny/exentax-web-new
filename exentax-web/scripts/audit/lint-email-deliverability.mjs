@@ -300,6 +300,35 @@ if (subjectChecks === 0) {
   fail("Rule 10: no subject literals found in email-i18n.ts — parser broken or schema drift?");
 }
 
+// ─── Rule 11: List-Unsubscribe-Post requires a real POST handler ──────
+//
+// `buildRaw()` always emits the `List-Unsubscribe-Post: List-Unsubscribe=
+// One-Click` header alongside `List-Unsubscribe:` (RFC 8058). Mailbox
+// providers (Gmail, Yahoo, Apple Mail) call POST — not GET — when the
+// user clicks the native "Unsubscribe" affordance in their inbox.
+// Both the newsletter and the drip routes must therefore expose POST
+// handlers; emitting the header without a POST handler returns 404/405
+// to the provider and silently breaks one-click unsubscribe (a hard
+// deliverability and legal-trust issue).
+const publicRoutesSrc = readFileSync(
+  join(REPO_ROOT, "server", "routes", "public.ts"),
+  "utf8",
+);
+for (const route of [
+  "/api/newsletter/unsubscribe/:token",
+  "/api/drip/unsubscribe/:token",
+]) {
+  const escaped = route.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const getRe = new RegExp(`app\\.(?:get|all)\\(\\s*["']${escaped}["']`);
+  const postRe = new RegExp(`app\\.(?:post|all)\\(\\s*["']${escaped}["']`);
+  if (!getRe.test(publicRoutesSrc)) {
+    fail(`Rule 11: public route GET ${route} is missing — unsub footer link will 404.`);
+  }
+  if (!postRe.test(publicRoutesSrc)) {
+    fail(`Rule 11: public route POST ${route} is missing — emitting List-Unsubscribe-Post without it breaks RFC 8058 one-click unsub.`);
+  }
+}
+
 // ─── Report ───────────────────────────────────────────────────────────
 if (failures.length === 0) {
   console.log(`✅ lint-email-deliverability: OK (${sendEmailCalls.length} sendEmail callsites · ${bookingSenders.length} booking senders · ${ctaCalls.length} CTAs UTM-tagged · ${subjectChecks} subjects spam-checked)`);
