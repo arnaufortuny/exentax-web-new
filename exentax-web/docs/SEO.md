@@ -45,6 +45,15 @@ Renderizado por los componentes de `client/src/components/seo/`:
   ruta pública declarada exista en `client/public/` y emite
   `missing-og-image-asset(<path>)`; `scripts/seo/validate-social-previews.mjs`
   convierte ese señal en error duro.
+- **Favicons / iconos PWA:** `scripts/seo/validate-icon-assets.mjs`
+  (expuesto como `npm run seo:icons` y encadenado dentro de
+  `npm run seo:check`) lee la cabecera PNG de `favicon-16x16.png`,
+  `favicon-32x32.png`, `favicon-48x48.png`, `apple-touch-icon.png`,
+  `icon-192.png` y `icon-512.png`, y falla si las dimensiones
+  intrínsecas no coinciden con el nombre de archivo. Cruza además cada
+  entrada de `site.webmanifest > icons[]` para garantizar que el
+  atributo `sizes` declarado coincide con los píxeles reales del
+  archivo apuntado.
 
 ## Auditorías automáticas
 
