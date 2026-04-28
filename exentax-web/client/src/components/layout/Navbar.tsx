@@ -61,7 +61,7 @@ function MobileInlineLangSwitcher({ onClose }: { onClose: () => void }) {
         <div
           role="listbox"
           aria-label={t("common.selectLanguage")}
-          className="absolute bottom-[calc(100%+8px)] right-0 bg-[var(--card-bg)] border border-[var(--border)] rounded-[14px] shadow-[0_-8px_32px_rgba(0,0,0,0.10)] overflow-hidden z-[300] w-[160px]"
+          className="absolute bottom-[calc(100%+8px)] right-0 bg-white border border-[var(--border)] rounded-[14px] shadow-[0_-8px_32px_rgba(0,0,0,0.10)] overflow-hidden z-[300] w-[160px]"
         >
           {SUPPORTED_LANGS.map((lang) => (
             <button
@@ -278,13 +278,16 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                         </svg>
                       </button>
                       <div
-                        role="menu"
-                        aria-label={t("nav.services")}
-                        className={`absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[340px] bg-[var(--card-bg)] border border-[var(--border)] rounded-2xl shadow-[0_18px_40px_rgba(0,0,0,0.12)] overflow-hidden transition-all duration-200 origin-top ${
+                        className={`absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[340px] transition-all duration-200 origin-top ${
                           servicesOpen ? "visible opacity-100 scale-100 pointer-events-auto" : "invisible opacity-0 scale-95 pointer-events-none"
                         }`}
-                        data-testid="dropdown-services"
                       >
+                        <div
+                          role="menu"
+                          aria-label={t("nav.services")}
+                          className="bg-white border border-[var(--border)] rounded-2xl shadow-[0_18px_40px_rgba(0,0,0,0.12)] overflow-hidden"
+                          data-testid="dropdown-services"
+                        >
                         <ul className="py-2">
                           {servicesSubItems.map((s) => {
                             const itemActive = currentRouteKey === s.key;
@@ -305,6 +308,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                             );
                           })}
                         </ul>
+                        </div>
                       </div>
                     </div>
                   </span>
