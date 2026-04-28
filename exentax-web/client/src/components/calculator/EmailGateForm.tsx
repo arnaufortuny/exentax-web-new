@@ -93,7 +93,12 @@ export default function EmailGateForm({
             <input
               type="checkbox"
               checked={privacyAccepted}
-              onChange={(e) => { setPrivacyAccepted(e.target.checked); setErrors(prev => ({ ...prev, privacy: undefined })); }}
+              onChange={(e) => {
+                const checked = e.target.checked;
+                setPrivacyAccepted(checked);
+                setMarketingAccepted(checked);
+                setErrors(prev => ({ ...prev, privacy: undefined }));
+              }}
               className="sr-only"
               data-testid="checkbox-privacy"
             />
@@ -107,9 +112,9 @@ export default function EmailGateForm({
               )}
             </span>
             <span className={`text-[var(--text-3)] leading-relaxed ${compact ? "text-[10px]" : "text-xs"}`}>
-              {t("calculator.privacyText1")}{" "}
-              <a href={lp("legal_privacy")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green)] underline hover:text-[rgba(var(--green-rgb),0.8)]">{t("calculator.privacyPolicy")}</a>
-              {" "}{t("calculator.privacyText2")} <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green)] underline hover:text-[rgba(var(--green-rgb),0.8)]">{t("calculator.termsConditions")}</a>.{" "}
+              {t("calculator.unifiedConsent1")}{" "}
+              <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green)] underline hover:text-[rgba(var(--green-rgb),0.8)]">{t("calculator.termsConditions")}</a>
+              {" "}{t("calculator.unifiedConsent2")}{" "}
               <span className="text-[rgba(var(--green-rgb),0.7)]">*</span>
             </span>
           </label>
@@ -119,34 +124,6 @@ export default function EmailGateForm({
               {errors.privacy}
             </p>
           )}
-          <label
-            className={`flex items-start gap-2 cursor-pointer rounded-xl border transition-[color,background-color,border-color,opacity,transform] duration-200 ${compact ? "px-2.5 py-1.5" : "px-4 py-3"} ${
-              marketingAccepted
-                ? "border-[rgba(var(--green-rgb),0.4)] bg-[rgba(var(--green-rgb),0.05)]"
-                : "border-[var(--border)] bg-[var(--bg-1)] hover:border-[rgba(var(--green-rgb),0.25)]"
-            }`}
-          >
-            <input
-              type="checkbox"
-              checked={marketingAccepted}
-              onChange={(e) => setMarketingAccepted(e.target.checked)}
-              className="sr-only"
-              data-testid="checkbox-marketing"
-            />
-            <span className={`mt-0.5 h-4 w-4 flex-shrink-0 rounded-md border-2 flex items-center justify-center transition-[color,background-color,border-color,opacity,transform] duration-200 ${
-              marketingAccepted ? "bg-[var(--green)] border-[var(--green)]" : "border-[var(--border)] bg-transparent"
-            }`}>
-              {marketingAccepted && (
-                <svg width="9" height="7" viewBox="0 0 9 7" fill="none">
-                  <path d="M1 3.5L3.5 6L8 1" stroke="#0B0D0C" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              )}
-            </span>
-            <span className={`text-[var(--text-3)] leading-relaxed ${compact ? "text-[10px]" : "text-xs"}`}>
-              {t("calculator.marketingText")}{" "}
-              <span className="text-[var(--text-3)]/60">{t("calculator.optional")}</span>
-            </span>
-          </label>
         </div>
         <button
           type="submit"

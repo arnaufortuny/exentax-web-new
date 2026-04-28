@@ -685,7 +685,12 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                 <input
                   type="checkbox"
                   checked={privacyAccepted}
-                  onChange={(e) => { setPrivacyAccepted(e.target.checked); setPrivacyError(false); }}
+                  onChange={(e) => {
+                    const checked = e.target.checked;
+                    setPrivacyAccepted(checked);
+                    setMarketingAccepted(checked);
+                    setPrivacyError(false);
+                  }}
                   className="sr-only"
                   data-testid="checkbox-privacy"
                 />
@@ -699,10 +704,11 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                   )}
                 </span>
                 <span className="text-xs text-[var(--text-3)] leading-relaxed">
-                  {t("booking.privacyLabel")}{" "}
+                  {t("booking.unifiedConsent1")}{" "}
+                  <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green-hover)] underline hover:text-[var(--green-hover)]">{t("booking.termsConditions")}</a>
+                  {" "}{t("booking.unifiedConsent2")}{" "}
                   <a href={lp("legal_privacy")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green-hover)] underline hover:text-[var(--green-hover)]">{t("booking.privacyPolicy")}</a>
-                  {" "}{t("booking.privacyConsent")}{" "}
-                  <a href={lp("legal_terms")} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="text-[var(--green-hover)] underline hover:text-[var(--green-hover)]">{t("booking.termsConditions")}</a>.{" "}
+                  {t("booking.unifiedConsent3")}{" "}
                   <span className="text-[var(--green)]/70">*</span>
                 </span>
               </label>
@@ -712,32 +718,6 @@ export default function BookingCalendar({ prefilledContext, prefilledName, prefi
                   {t("booking.privacyError")}
                 </p>
               )}
-              <label className={`flex items-start gap-3 cursor-pointer rounded-xl border transition-[color,background-color,border-color,opacity,transform] duration-200 px-4 py-3 ${
-                marketingAccepted
-                  ? "border-[var(--border-active)] bg-[var(--green-soft)]"
-                  : "border-[var(--border)] bg-[var(--bg-1)] hover:border-[var(--border-active)]"
-              }`}>
-                <input
-                  type="checkbox"
-                  checked={marketingAccepted}
-                  onChange={(e) => setMarketingAccepted(e.target.checked)}
-                  className="sr-only"
-                  data-testid="checkbox-marketing"
-                />
-                <span className={`mt-0.5 h-4 w-4 flex-shrink-0 rounded-md border-2 flex items-center justify-center transition-[color,background-color,border-color,opacity,transform] duration-200 ${
-                  marketingAccepted ? "bg-[var(--green)] border-[var(--green)]" : "border-[var(--border)] bg-transparent"
-                }`}>
-                  {marketingAccepted && (
-                    <svg width="9" height="7" viewBox="0 0 9 7" fill="none">
-                      <path d="M1 3.5L3.5 6L8 1" stroke="var(--text-1)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  )}
-                </span>
-                <span className="text-xs text-[var(--text-3)] leading-relaxed">
-                  {t("booking.marketingLabel")}{" "}
-                  <span className="text-[var(--text-3)]/60">{t("booking.marketingOptional")}</span>
-                </span>
-              </label>
             </div>
 
             {bookMutation.isError && (
