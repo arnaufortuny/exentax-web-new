@@ -125,7 +125,7 @@ export default function SubscribePopup() {
         type="button"
         aria-label={t("popup.close", { defaultValue: "Cerrar" })}
         onClick={close}
-        className="absolute inset-0 bg-black/90 backdrop-blur-md"
+        className="absolute inset-0 bg-black/90 backdrop-blur-md !rounded-none"
         data-testid="button-popup-backdrop"
       />
       <div
