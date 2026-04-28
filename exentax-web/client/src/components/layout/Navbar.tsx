@@ -311,7 +311,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                                     href={s.href}
                                     onMouseEnter={() => prefetchPage(s.key)}
                                     onClick={() => setServicesOpen(false)}
-                                    className={`group relative flex items-start gap-3 px-5 py-3 transition-colors duration-200 ${
+                                    className={`group relative block px-5 py-3 transition-colors duration-200 ${
                                       itemActive
                                         ? "bg-[rgba(0,229,16,0.08)]"
                                         : "hover:bg-[rgba(0,229,16,0.05)]"
@@ -326,46 +326,34 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
                                         itemActive ? "opacity-100" : "opacity-0"
                                       }`}
                                     />
-                                    {/* Bullet dot — green when active/hover */}
-                                    <span
-                                      aria-hidden="true"
-                                      className={`mt-[7px] block h-1.5 w-1.5 flex-shrink-0 rounded-full transition-colors duration-200 ${
-                                        itemActive
-                                          ? "bg-[#00C80E]"
-                                          : "bg-[var(--text-3)] group-hover:bg-[#00C80E]"
-                                      }`}
-                                    />
-                                    {/* Label + description */}
-                                    <div className="flex-1 min-w-0">
-                                      <div className="flex items-center justify-between gap-2">
-                                        <span
-                                          className={`block font-body font-semibold text-[15px] leading-tight transition-colors duration-200 ${
-                                            itemActive
-                                              ? "text-[#00C80E]"
-                                              : "text-[var(--text-1)] group-hover:text-[#00C80E]"
-                                          }`}
-                                        >
-                                          {s.label}
-                                        </span>
-                                        <svg
-                                          width="14"
-                                          height="14"
-                                          viewBox="0 0 24 24"
-                                          fill="none"
-                                          aria-hidden="true"
-                                          className={`flex-shrink-0 text-[#00C80E] transition-all duration-200 ${
-                                            itemActive
-                                              ? "opacity-100 translate-x-0"
-                                              : "opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0"
-                                          }`}
-                                        >
-                                          <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                      </div>
-                                      <span className="block font-body text-[13px] text-[var(--text-2)] leading-snug mt-1">
-                                        {s.description}
+                                    <div className="flex items-center justify-between gap-2">
+                                      <span
+                                        className={`block font-body font-semibold text-[15px] leading-tight transition-colors duration-200 ${
+                                          itemActive
+                                            ? "text-[#00C80E]"
+                                            : "text-[var(--text-1)] group-hover:text-[#00C80E]"
+                                        }`}
+                                      >
+                                        {s.label}
                                       </span>
+                                      <svg
+                                        width="14"
+                                        height="14"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        aria-hidden="true"
+                                        className={`flex-shrink-0 text-[#00C80E] transition-all duration-200 ${
+                                          itemActive
+                                            ? "opacity-100 translate-x-0"
+                                            : "opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0"
+                                        }`}
+                                      >
+                                        <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                                      </svg>
                                     </div>
+                                    <span className="block font-body text-[13px] text-[var(--text-2)] leading-snug mt-1">
+                                      {s.description}
+                                    </span>
                                   </Link>
                                 </li>
                               );
