@@ -389,6 +389,14 @@ export const bookingDrafts = pgTable("booking_drafts", {
   index("booking_drafts_created_at_idx").on(table.createdAt),
   index("booking_drafts_reminder_sent_at_idx").on(table.reminderSentAt),
   index("booking_drafts_completed_at_idx").on(table.completedAt),
+  // Mirrors the partial index created at runtime in `server/db.ts`
+  // (`booking_drafts_open_created_idx`). Drizzle's `pgTable` does not yet
+  // model PostgreSQL partial indexes, so the actual partial predicate
+  // (`WHERE reminder_sent_at IS NULL AND completed_at IS NULL`) is applied
+  // by the column-migrations step at startup; this entry exists so the
+  // schema-level index registry stays in sync with what is actually in
+  // the database for tooling that introspects it.
+  index("booking_drafts_open_created_idx").on(table.createdAt),
 ]);
 
 export const insertBookingDraftSchema = createInsertSchema(bookingDrafts).omit({ createdAt: true });

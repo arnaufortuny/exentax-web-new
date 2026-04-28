@@ -27,7 +27,7 @@ import type { SupportedLang } from "../server-constants";
 import { createGoogleMeetEvent, deleteGoogleMeetEvent } from "../google-meet";
 import {
   generateTimeSlots, getEndTime, isWeekday, scheduleReminderEmail, cancelReminderTimer, sanitizeInput,
-  checkBookingRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
+  checkBookingRateLimit, checkBookingEmailRateLimit, checkBookingDraftEmailRateLimit, checkBookingManageRateLimit, checkCalcRateLimit, checkPublicDataRateLimit, checkVisitorRateLimit,
   checkNewsletterRateLimit, checkConsentRateLimit, isNewVisitor, isBotVisitor, getClientIp, withSlotLock, withBookingLock,
   asyncHandler, PHONE_MAX_LENGTH, isValidPhone, ISO_DATE_RE, isValidISODate,
 } from "../route-helpers";
@@ -451,6 +451,10 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const parsed = bookingDraftSchema.safeParse(req.body);
     if (!parsed.success) return apiValidationFail(res, parsed.error);
     const { email, name, language } = parsed.data;
+    // Per-email throttle (defence in depth on top of the IP limiter, since
+    // the upsert is keyed by email and could otherwise be spammed from
+    // rotating IPs to flood the drafts table).
+    if (!(await checkBookingDraftEmailRateLimit(email))) return apiRateLimited(res, "rateLimited");
     const userAgent = (req.headers["user-agent"] as string | undefined) || null;
 
     // No-op si el email ya tiene una agenda activa: el usuario ya reservó
@@ -481,6 +485,13 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     }
 
     const { name, lastName, email, phone, date, startTime, notes, context, activity, monthlyProfit, globalClients, digitalOperation, shareNote, privacyAccepted, marketingAccepted, meetingType, language } = parsed.data;
+    // Per-email throttle: parallel to the IP limiter so an attacker cannot
+    // burn through bookings for the same address from rotating IPs.
+    // hasExistingBooking() below already blocks the duplicate-booking case;
+    // this caps repeated attempts after a cancellation as well.
+    if (!(await checkBookingEmailRateLimit(email))) {
+      return apiRateLimited(res, "tooManyBookings");
+    }
 
     if (!isWeekday(date)) {
       return apiFail(res, 400, backendLabel("weekdaysOnly", resolveRequestLang(req)), "INVALID_DATE");

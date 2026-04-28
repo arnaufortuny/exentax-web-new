@@ -230,6 +230,105 @@ round-trip, real button rendering / clicks in a Discord client, and real
 Gmail / Google Meet side-effects (those are no-op'd by leaving
 `GOOGLE_SERVICE_ACCOUNT_KEY` unset for the test process).
 
+## 7b. Agenda system invariants (do NOT break)
+
+Hard rules that the booking system relies on. Any future change that
+violates one of these must be rejected — the safety properties below are
+load-bearing for "no double bookings, no orphan reminders, no slot drift
+across DST".
+
+1. **One active booking per (date, startTime).** Enforced by both the
+   in-process slot lock (`withSlotLock` in `server/route-helpers.ts`)
+   AND the partial unique index `agenda_active_slot_uniq_idx` on
+   `agenda(fecha_reunion, hora_inicio) WHERE estado IS NULL OR estado
+   NOT IN ('cancelled','no_show')`. Either layer alone is sufficient
+   for correctness; together they cover both single-instance bursts
+   and any future horizontal scaling.
+
+2. **All booking timestamps are interpreted in `Europe/Madrid` wall
+   time.** The single canonical translation is
+   `madridWallTimeToUtcMs(date, startTime)` in `shared/madrid-time.ts`,
+   used by both the client calendar and the server reminder scheduler.
+   Bypassing it (e.g. `new Date("2026-03-29T09:00")`) will silently
+   shift bookings by ±1h on DST days. DST regression suite:
+   `tsx tests/madrid-time-dst.test.ts`.
+
+3. **Reminders survive process restarts.** `scheduleReminderEmail` does
+   set an in-memory timer, but the source of truth is the `agenda`
+   row's `reminder_sent` flag. On startup AND every hour, the recovery
+   sweep `recoverPendingReminders` in `server/index.ts` calls
+   `getFutureAgenda` and schedules / re-fires anything still pending,
+   using the atomic `markReminderSent` claim so that the timer and the
+   sweep cannot double-send.
+
+4. **`manage_token` is a 24-byte CSPRNG secret per booking.** Generated
+   with `crypto.randomBytes(24).toString("hex")` (≥ 192 bits). All
+   comparisons go through `crypto.timingSafeEqual` (see
+   `getAgendaByIdAndToken`). The token is never logged: the request
+   logger uses `req.path` (no query string), the body redactor masks
+   `token` / `managetoken`, and Discord notifications NEVER carry the
+   token (asserted by `tests/discord-no-token-leak.test.ts`).
+
+5. **Manage endpoints reject mutation after cancellation.** Even with a
+   valid `manage_token`, `/api/booking/:id/cancel` and `…/reschedule`
+   refuse a cancelled or past booking. The token itself stays valid for
+   read-only `GET /api/booking/:id` so the client can render the final
+   status, but cannot be re-used to revive a dead booking.
+
+6. **Validation for every booking endpoint.** `book`, `draft`,
+   `available-slots`, `reschedule`, `cancel` all run a `strict()` Zod
+   schema before any DB call. Server-side guards re-check
+   `isWeekday(date)`, `validSlots.includes(startTime)`,
+   `date >= todayMadridISO()`, and `getBlockedDay(date)` so that a
+   client bypassing the calendar UI cannot land an invalid slot.
+
+7. **Rate limits are per-IP AND per-email.** Booking endpoints have
+   parallel limiters (`bookingLimiter` keyed by IP, `bookingEmailLimiter`
+   keyed by email; `bookingDraftEmailLimiter` for the draft endpoint).
+   Both must pass — either dimension alone is bypassable by an
+   attacker rotating the other.
+
+8. **Google Calendar / Meet failures NEVER cancel a booking.** The Meet
+   creation call is wrapped in `googleCalendarBreaker.execute(...)` in
+   `server/google-meet.ts`; a transport failure leaves `meetLink=null`
+   and the booking still confirms. The circuit-breaker state is
+   exposed via `/api/metrics` and an OPEN transition is mirrored to
+   the Discord errors channel. Stranded events are reconciled by
+   `tsx scripts/reconcile-agenda-zombies.ts` (see §10 below).
+
+9. **Every admin mutation is audited.** Any Discord slash command or
+   button that mutates state writes a row to `agenda_admin_actions`
+   via `logAdminAction(...)` (actor, action, payload). The schema is
+   append-only — losing an audit line is a P1 incident.
+
+10. **Drafts are kept lean.** `booking_drafts` is purely a rescue email
+    funnel; the `incomplete-bookings` cron sweeps it every 5 min using
+    the partial index `booking_drafts_open_created_idx WHERE
+    reminder_sent_at IS NULL AND completed_at IS NULL`. Drafts older
+    than 24h are dropped from the eligibility window so the table does
+    not grow unbounded. `markBookingDraftCompleted(email)` is fired
+    from `/api/bookings/book` so a confirmed booking immediately
+    extinguishes any open draft for the same address.
+
+## 7c. Operational scripts
+
+* **`tsx scripts/reconcile-agenda-zombies.ts`** — dry-run audit of
+  drift between `agenda`, `booking_drafts`, blocked days, and Google
+  Calendar events. Prints four buckets:
+  - (A) cancelled/no-show bookings still holding a Google event id
+  - (B) active `google_meet` bookings with a NULL event id
+  - (C) drafts marked completed without a matching active booking
+  - (D) active bookings sitting on a blocked day
+
+  Add `--apply` to actually delete the stranded Google events from
+  bucket (A) and clear their `google_meet_event_id` column. Add
+  `--fail-on-zombies` to make the script exit non-zero on any finding
+  (useful when wired into a periodic cron / CI alert).
+
+* **`tsx tests/madrid-time-dst.test.ts`** — DST regression suite for
+  `madridWallTimeToUtcMs` and `isWeekdayISO`. Run after any change to
+  `shared/madrid-time.ts` or to the reminder scheduling math.
+
 ## 8. Operational notes
 
 * Slash command publication takes up to 1 hour to propagate globally

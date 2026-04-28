@@ -256,6 +256,18 @@ function createAndTrackLimiter(name: string, maxRequests: number, windowMs: numb
 }
 
 const bookingLimiter = createAndTrackLimiter("booking", 5, 60 * 60 * 1000);
+// Per-email throttle for `/api/bookings/book`. Independent of the IP
+// limiter so a single visitor cannot bypass it by rotating IPs (mobile +
+// VPN). 5/hour matches the IP cap; the duplicate-booking guard
+// (hasExistingBooking) usually rejects long before we get here, but this
+// adds defense in depth against scripted spam.
+const bookingEmailLimiter = createAndTrackLimiter("bookingEmail", 5, 60 * 60 * 1000);
+// Per-email throttle for `/api/bookings/draft`. The endpoint is upsert-
+// idempotent and intentionally cheap, but unbounded per-email writes from
+// rotating IPs would let an attacker pump arbitrary email addresses into
+// the drafts table to scrape the rescue email funnel. 10/hour easily
+// covers a real visitor that types and re-types their email.
+const bookingDraftEmailLimiter = createAndTrackLimiter("bookingDraftEmail", 10, 60 * 60 * 1000);
 const bookingManageLimiter = createAndTrackLimiter("bookingManage", 30, 60 * 60 * 1000);
 const calcLimiter = createAndTrackLimiter("calc", 10, 60 * 60 * 1000);
 const newsletterLimiter = createAndTrackLimiter("newsletter", 3, 60 * 60 * 1000);
@@ -280,6 +292,10 @@ export function withBookingLock<T>(bookingId: string, fn: () => Promise<T>): Pro
 }
 
 export function checkBookingRateLimit(ip: string): Promise<boolean> { return bookingLimiter.check(ip); }
+// `email` is normalised by the caller (lowercased, trimmed) so the same
+// inbox cannot evade the throttle by toggling case or whitespace.
+export function checkBookingEmailRateLimit(email: string): Promise<boolean> { return bookingEmailLimiter.check(email); }
+export function checkBookingDraftEmailRateLimit(email: string): Promise<boolean> { return bookingDraftEmailLimiter.check(email); }
 export function checkBookingManageRateLimit(ip: string): Promise<boolean> { return bookingManageLimiter.check(ip); }
 export function checkCalcRateLimit(ip: string): Promise<boolean> { return calcLimiter.check(ip); }
 export function checkNewsletterRateLimit(ip: string): Promise<boolean> { return newsletterLimiter.check(ip); }

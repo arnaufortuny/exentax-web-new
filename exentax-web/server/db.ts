@@ -160,6 +160,18 @@ export async function runColumnMigrations(): Promise<void> {
     await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_booking_idx ON agenda_admin_actions(booking_id)`);
     await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_actor_idx ON agenda_admin_actions(actor_discord_id)`);
     await client.query(`CREATE INDEX IF NOT EXISTS agenda_admin_actions_created_at_idx ON agenda_admin_actions(fecha_creacion)`);
+    // Composite partial index for the incomplete-booking reminder cron
+    // (server/scheduled/incomplete-bookings.ts → getBookingDraftsForReminder).
+    // The cron filters by `reminder_sent_at IS NULL AND completed_at IS NULL`
+    // and a `created_at` range every 5 minutes; a partial index on
+    // `created_at` over the OPEN drafts subset turns the scan into an
+    // index-only range lookup and stops the table from being walked end to
+    // end as draft volume grows.
+    await client.query(`
+      CREATE INDEX IF NOT EXISTS booking_drafts_open_created_idx
+        ON booking_drafts (fecha_creacion)
+        WHERE reminder_sent_at IS NULL AND completed_at IS NULL
+    `);
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     // Migration failures must be fatal: silently degraded indexes (especially
