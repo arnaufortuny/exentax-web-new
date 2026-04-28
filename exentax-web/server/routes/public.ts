@@ -159,6 +159,23 @@ const FAQ_LASTMOD_DYNAMIC = (): string => _maxMtime([
 const PAGES_INDEX_LASTMOD_DYNAMIC = (): string => _maxMtime(
   Object.values(PAGE_FILES_BY_ROUTE).flat()
 );
+// Task #5 (LOTE 2): the sitemap-index entry for /sitemap-blog.xml must reflect
+// the most recent blog source-file mtime instead of `new Date()` so the
+// <lastmod> only shifts when blog content is actually edited. We hash the
+// directory of registries that drive BLOG_POSTS, BLOG_META_BY_LANG and the
+// per-lang i18n maps (the same files the blog-validate-all suite watches).
+const BLOG_LASTMOD_DYNAMIC = (): string => _maxMtime([
+  "data/blog-posts.ts",
+  "data/blog-posts-content.ts",
+  "data/blog-posts-i18n.ts",
+  "data/blog-posts-slugs.ts",
+  "data/blog-i18n-all.ts",
+  "data/blog-cta-library.ts",
+  "data/blog-cta-routes.ts",
+  "data/blog-mid-cta-copy.ts",
+  "data/blog-related.ts",
+  "data/blog-sources.ts",
+]);
 
 // Cached privacy policy version (TTL: 10 min) — avoids a DB hit per consent log insertion
 let _privacyVersionCache: string | null = null;
@@ -1316,8 +1333,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         res.header("X-Cache", "HIT");
         return res.send(sitemapIndexCache.xml);
       }
-      const today = new Date().toISOString().slice(0, 10);
-      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-pages.xml</loc>\n    <lastmod>${PAGES_INDEX_LASTMOD_DYNAMIC()}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-blog.xml</loc>\n    <lastmod>${today}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-faq.xml</loc>\n    <lastmod>${FAQ_LASTMOD_DYNAMIC()}</lastmod>\n  </sitemap>\n</sitemapindex>`;
+      const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-pages.xml</loc>\n    <lastmod>${PAGES_INDEX_LASTMOD_DYNAMIC()}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-blog.xml</loc>\n    <lastmod>${BLOG_LASTMOD_DYNAMIC()}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>${SITE_URL}/sitemap-faq.xml</loc>\n    <lastmod>${FAQ_LASTMOD_DYNAMIC()}</lastmod>\n  </sitemap>\n</sitemapindex>`;
       sitemapIndexCache = { xml, generatedAt: Date.now() };
       res.header("Content-Type", "application/xml");
       res.header("Cache-Control", "public, max-age=3600");
@@ -1384,9 +1400,11 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         }
       }
 
-      // Blog index per language.
+      // Blog index per language. Priority 0.7 per LOTE 2 contract — the
+      // index is a hub but each cluster post (priority 0.8) carries the
+      // real ranking weight.
       for (const lang of SUPPORTED_LANGS as readonly SupportedLang[]) {
-        const parts = [`  <url>\n    <loc>${SITE_URL}/${lang}/blog</loc>\n    <lastmod>${PAGES_INDEX_LASTMOD_DYNAMIC()}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n`];
+        const parts = [`  <url>\n    <loc>${SITE_URL}/${lang}/blog</loc>\n    <lastmod>${BLOG_LASTMOD_DYNAMIC()}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n`];
         for (const altLang of SUPPORTED_LANGS as readonly SupportedLang[]) {
           parts.push(`    <xhtml:link rel="alternate" hreflang="${HREFLANG_BCP47[altLang]}" href="${SITE_URL}/${altLang}/blog" />\n`);
         }
@@ -1465,7 +1483,17 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           ];
           if (lastmod) parts.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>\n`);
           parts.push(`    <changefreq>monthly</changefreq>\n`);
-          parts.push(`    <priority>0.8</priority>\n`);
+          // Blog post priority follows the LOTE 2 contract (0.6–0.7) and
+          // is signal-based on cluster membership: posts that support the
+          // LLC pillar (matched by slug keyword against the canonical ES
+          // slug — translations preserve the same keyword family) get 0.7;
+          // the rest of the editorial corpus (general fiscalidad / banking
+          // / nomadismo) gets 0.6. Pillar-cluster posts have the highest
+          // commercial intent in our masterpiece-audit signals (calc-cta
+          // density, internal links to /servicios/llc, conversion volume).
+          const LLC_CLUSTER_RE = /(^|-)(llc|ein|itin|delaware|wyoming|florida|new-mexico|registered-agent|form-1120|form-5472|boi-report|fincen)(-|$)/i;
+          const postPriority = LLC_CLUSTER_RE.test(postSlug) ? "0.7" : "0.6";
+          parts.push(`    <priority>${postPriority}</priority>\n`);
           // Always emit all 6 hreflang alternates + x-default. When a locale
           // does not have its own translation yet, fall back to the ES URL
           // (Google's recommended interim behavior) so the matrix stays
