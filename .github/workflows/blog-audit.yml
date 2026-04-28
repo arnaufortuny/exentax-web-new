@@ -32,11 +32,17 @@ jobs:
       - name: Blog structure audit (single H1, section length, heading order, next-step closing)
         run: node scripts/blog/blog-structure-audit.mjs
 
-      - name: Blog i18n sync check (ES baseline vs EN/CA/DE/FR/PT)
-        run: node scripts/blog-i18n-sync-check.mjs
+      - name: Blog consistency check (ES baseline vs EN/CA/DE/FR/PT, slugs, categories, sources)
+        run: node scripts/blog/blog-consistency-check.mjs
 
-      - name: SEO blog audit (titles, descriptions, headings, duplicates)
-        run: node scripts/seo-blog-audit.mjs
+      - name: SEO meta audit (titles, descriptions per locale)
+        run: node scripts/seo/seo-meta-audit.mjs
+
+      - name: SEO FAQ JSON-LD check (all locales)
+        run: node scripts/seo/seo-faq-jsonld-check.mjs
+
+      - name: SEO LLM-readiness audit (llms.txt, robots, JSON-LD surface)
+        run: node scripts/seo/seo-llm-readiness.mjs
 
       - name: Blog sources gate (every article must declare SOURCES_BY_SLUG entry)
         working-directory: ${{ github.workspace }}
