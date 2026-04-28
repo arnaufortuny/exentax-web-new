@@ -115,11 +115,11 @@ It's not plug-and-play. It's a project. But from year one onwards, the differenc
 
 Every case is individual. Legislation changes, both in Spain and in the US. What is optimal today may need adjustments tomorrow. So this isn't a guide to "rush and open an LLC", but to **truly understand the alternative** before making a decision that will impact your tax life for years.
 
-If you want to see, with your real numbers, how much you'd save per year, try our **free tax calculator** or book a **free 30-minute advisory session** with the Exentax team. We give you concrete numbers, no smoke.
+If you want to see, with your real numbers, how much you'd save per year, try our **free tax calculator** or book a **free 30-minute consultation** with the Exentax team. We give you concrete numbers, no smoke.
 
 To go deeper, read our guide on <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax">Self-employed in Spain vs LLC in the US: complete tax comparison</a>, our piece <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> and our guide on <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">Do US bank accounts report to your home tax authority? The honest answer</a>.
 
-Book your free advisory session with Exentax and stop paying like a year-2000 freelancer when you actually run a today digital business.
+Book your free consultation with Exentax and stop paying like a year-2000 freelancer when you actually run a today digital business.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
@@ -208,7 +208,7 @@ At Exentax we model the full scenario (current contribution + IRPF + VAT + LLC c
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- task9-2026-expansion -->
 ## Living in Spain with a US LLC: effective taxation, filings and worked cases by revenue band

@@ -40,7 +40,7 @@ DeFi sem operador identificável fora do reporte direto, mas frontends UE podem 
 
 DAC8 fecha o ciclo. CRS (banca) + DAC7 (plataformas) + DAC8 (cripto). A opacidade fiscal digital cai drasticamente recentemente.
 
-Na Exentax estruturamos LLCs para traders e builders Web3 em Portugal e no Brasil, com a DAC 8 e o CARF já embutidos no desenho. Marca a tua assessoria gratuita e pomos a tua operação cripto em conformidade como deve ser.
+Na Exentax estruturamos LLCs para traders e builders Web3 em Portugal e no Brasil, com a DAC 8 e o CARF já embutidos no desenho. Marca a tua consulta gratuita e pomos a tua operação cripto em conformidade como deve ser.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -216,7 +216,7 @@ encolhe, não cresce.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20DAC%208%20%C3%A9%20a%20vers%C3%A3o%20cripto%20da%20DAC%207%3A%20a%20partir%20de%20hoje%2C%20todas%20as%20plataformas%20de%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20DAC%208%20%C3%A9%20a%20vers%C3%A3o%20cripto%20da%20DAC%207%3A%20a%20partir%20de%20hoje%2C%20todas%20as%20plataformas%20de%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

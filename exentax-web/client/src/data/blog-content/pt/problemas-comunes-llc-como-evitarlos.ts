@@ -21,7 +21,7 @@ Estes são os 7 problemas mais comuns, e exatamente como evitá-los.
 - Uso do cartão de débito para despesas pessoais
 - Não responder a tempo às solicitações de verificação da equipa de compliance
 
-**Como evitamos:** Na assessoria inicial explicamos as regras do jogo. Configuramos a sua operação para que o fluxo de dinheiro seja limpo desde o primeiro dia: faturas para cada receita, distributions documentadas, separação estrita de fundos pessoais e do negócio. E se o compliance o contactar, ajudamo-lo a responder.
+**Como evitamos:** Na consultoria inicial explicamos as regras do jogo. Configuramos a sua operação para que o fluxo de dinheiro seja limpo desde o primeiro dia: faturas para cada receita, distributions documentadas, separação estrita de fundos pessoais e do negócio. E se o compliance o contactar, ajudamo-lo a responder.
 ### 3. Misturar dinheiro pessoal e do negócio
 
 **O problema:** Usar a conta da LLC para pagar Netflix, a compra do supermercado ou o aluguer. Isto não só viola a separação legal entre si e a empresa (o "corporate veil"), como também levanta alertas no compliance e complica a preparação fiscal.
@@ -58,7 +58,7 @@ Muitos donos de LLC nem sequer sabem que esta obrigação existe porque é relat
 
 Alguns freelancers acreditam que com uma LLC "desaparecem" do radar fiscal do seu país. Isto é falso e perigoso. Os acordos de intercâmbio de informação fiscal entre países (CRS) fazem com que a sua atividade seja visível para a autoridade tributária local.
 
-**Como evitamos:** Na assessoria inicial analisamos a sua situação fiscal completa, incluindo as suas obrigações no seu país de residência. Explicamos exatamente o que deve declarar, como fazê-lo e quanto pode deduzir legalmente. Não deixamos pontas soltas.
+**Como evitamos:** Na consultoria inicial analisamos a sua situação fiscal completa, incluindo as suas obrigações no seu país de residência. Explicamos exatamente o que deve declarar, como fazê-lo e quanto pode deduzir legalmente. Não deixamos pontas soltas.
 ### Quanto custam estes problemas na prática
 
 Para que a dimensão fique clara:
@@ -83,11 +83,11 @@ A constituição representa 10% do trabalho. Os 90% restantes são manutenção,
 Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/quanto-custa-constituir-uma-llc-americana-analise-completa">Quanto custa constituir uma LLC americana? Análise completa dos custos</a> ajuda a arredondar o contexto.
 ### A diferença entre fazer as coisas bem e fazer as coisas "pela metade"
 
-90% dos problemas que vemos poderiam ter sido evitados com um assessoramento adequado desde o início. Uma LLC bem constituída, com compliance em dia e uma operação rastreável, é uma máquina de eficiência fiscal. Uma LLC mal gerida é uma bomba-relógio.
+90% dos problemas que vemos poderiam ter sido evitados com um acompanhamento adequado desde o início. Uma LLC bem constituída, com compliance em dia e uma operação rastreável, é uma máquina de eficiência fiscal. Uma LLC mal gerida é uma bomba-relógio.
 
 Na Exentax não apenas abrimos LLCs. Asseguramo-nos de que funcionem bem, cumpram com todas as obrigações e o protejam como estão desenhadas para fazer. Constituição, manutenção anual, compliance bancário e suporte contínuo, tudo incluído.
 
-Na Exentax corrigimos estes desvios todas as semanas. Marca a tua assessoria gratuita: auditamos a tua LLC, listamos os riscos ativos e damos-te um plano concreto de limpeza.
+Na Exentax corrigimos estes desvios todas as semanas. Marca a tua consulta gratuita: auditamos a tua LLC, listamos os riscos ativos e damos-te um plano concreto de limpeza.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -227,7 +227,7 @@ As três adaptações referidas não se introduzem numa semana, mas confortavelm
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Depois%20de%20gerir%20v%C3%A1rias%20centenas%20de%20LLCs%20para%20clientes%20lus%C3%B3fonos%2C%20os%20mesmos%20er%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Depois%20de%20gerir%20v%C3%A1rias%20centenas%20de%20LLCs%20para%20clientes%20lus%C3%B3fonos%2C%20os%20mesmos%20er%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

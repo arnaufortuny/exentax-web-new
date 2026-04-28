@@ -12,7 +12,7 @@ A sua função essencial é agrupar a titularidade e centralizar decisões, divi
 Existem vários modelos, dependendo do propósito:
 
 - **Holding pura**: só detém participações, não realiza atividade económica. Veículo limpo para concentrar controlo.
-- **Holding mista**: além de deter participações, presta serviços reais (assessoria, direção, marketing) às suas filiais e a outros clientes.
+- **Holding mista**: além de deter participações, presta serviços reais (consultoria, direção, marketing) às suas filiais e a outros clientes.
 - **Holding patrimonial**: detém imóveis, investimentos financeiros ou propriedade intelectual além de participações empresariais.
 - **Holding internacional**: filiais em diferentes países, holding centralizada numa jurisdição com regime favorável.
 ### Benefícios reais de uma holding
@@ -40,7 +40,7 @@ Constituir uma holding só por moda adiciona contabilidade, declarações, custo
 A estrutura típica para um empreendedor com várias atividades em Portugal:
 
 - **Holding (SGPS ou Lda. patrimonial)**: detém 100 % das filiais.
-- **Filial operacional 1**: atividade principal (serviços, e-commerce, assessoria).
+- **Filial operacional 1**: atividade principal (serviços, e-commerce, consultoria).
 - **Filial operacional 2**: segunda atividade ou novo projeto.
 - **Filial imobiliária** (opcional): detém imóveis do grupo.
 
@@ -63,7 +63,7 @@ Para perfis mais complexos (várias jurisdições operacionais, presença intern
 - **Portugal**: SGPS com regime favorável para participações sociais.
 - **Estados Unidos**: as LLCs como veículos pass-through podem cumprir funções de holding leve, embora não para grandes estruturas.
 
-Qualquer estrutura internacional deve desenhar-se com assessoria especializada e respeitar substância económica, BEPS e registos de beneficiários finais.
+Qualquer estrutura internacional deve desenhar-se com consultoria especializada e respeitar substância económica, BEPS e registos de beneficiários finais.
 ### Holdings e LLCs americanas
 
 Muitos clientes perguntam-nos se uma LLC pode atuar como holding. Sim, em certa medida. Uma LLC com várias subsidiárias pode atuar como holding leve:
@@ -81,7 +81,7 @@ Uma holding tem um custo recorrente que convém orçamentar:
 - Domicílio social e secretariado: 500-2.000 EUR/ano.
 - Contabilidade e contas anuais: 1.500-5.000 EUR/ano.
 - Auditoria se ultrapassar limiares: 3.000-10.000 EUR/ano.
-- Assessoria fiscal especializada: 2.000-8.000 EUR/ano.
+- Consultoria fiscal especializada: 2.000-8.000 EUR/ano.
 
 Piso realista anual: 4.000-12.000 EUR para uma holding internacional bem gerida. A holding só se justifica se a poupança fiscal ou o controlo adicional supera com margem esse custo.
 ### Riscos e erros frequentes
@@ -108,7 +108,7 @@ Se só cumpre uma ou nenhuma destas condições, provavelmente ainda não é o s
 Holding clássico protege património acumulado, permite reinvestir em imóveis ou filiais sem pagar IRS intermédio e profissionaliza a sucessão. Poupança real estimada: 25-40 % do impacto fiscal sem holding a longo prazo.
 
 **Caso 2: empreendedor com SaaS em crescimento de 100.000 EUR/ano.**
-Holding ainda não compensa. Os custos adicionais (assessoria, contabilidade dupla, registos mercantis) superam o benefício fiscal. Melhor consolidar a operacional primeiro e reconsiderar quando ultrapassar 200.000 EUR.
+Holding ainda não compensa. Os custos adicionais (consultoria, contabilidade dupla, registos mercantis) superam o benefício fiscal. Melhor consolidar a operacional primeiro e reconsiderar quando ultrapassar 200.000 EUR.
 
 **Caso 3: profissional com vários negócios complementares.**
 Holding faz muito sentido. Cada negócio isolado em filial separada protege os restantes, simplifica saídas ou vendas parciais e permite atribuir investimentos cruzados com eficiência fiscal.
@@ -230,7 +230,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20holding%20usa-se%20em%20muitos%20contextos%20e%20quase%20sempre%20com%20alguma%20confus%C3%A3o%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20holding%20usa-se%20em%20muitos%20contextos%20e%20quase%20sempre%20com%20alguma%20confus%C3%A3o%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/pt/servicos/llc-wyoming">LLC em Wyoming</a> com custos, prazos e próximos passos concretos.
 

@@ -90,7 +90,7 @@ The winning combination we use for most of our clients:
 ### Steps to implement the optimal structure
 
 1. **Analyze your current situation**: revenue, expenses, client mix, country of residence
-2. **Consult with Exentax**: free strategic advisory session with real numbers
+2. **Consult with Exentax**: free strategic consultation with real numbers
 3. **Form your LLC**: choose the right state, get EIN, prepare documents
 4. **Set up financial infrastructure**: Mercury, Stripe, Wise, Slash, Wallester
 5. **Migrate gradually**: start billing new clients from the LLC, then existing clients
@@ -189,7 +189,7 @@ There is no universal optimal structure. What is optimal for a digital freelance
 
 ### What we are asked the most
 
-**What about the "ideal" structure of fiscal influencer X?** Usually designed for their case (residency, volume, mix), not yours. Replicating without prior diagnosis is the #1 source of rework we see in advisory sessions.
+**What about the "ideal" structure of fiscal influencer X?** Usually designed for their case (residency, volume, mix), not yours. Replicating without prior diagnosis is the #1 source of rework we see in consultations.
 
 **When does it make sense to change structure?** When the annual net saving is at least 3x the annual maintenance cost of the new structure, and the transition can happen without breaking operational continuity with clients and banking.
 

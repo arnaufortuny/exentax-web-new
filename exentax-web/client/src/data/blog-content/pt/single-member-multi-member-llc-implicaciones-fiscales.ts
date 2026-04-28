@@ -45,7 +45,7 @@ Sem análise específica da jurisdição, não se pode estimar a fiscalidade rea
 ## Procedimento ordenado
 
 ### 1. Decisão informada com aconselhamento prévio
-Validar com assessor fiscal no teu país (e no do sócio).
+Validar com consultor fiscal no teu país (e no do sócio).
 
 ### 2. Operating Agreement novo
 Reflectindo: percentagens, repartição de lucros/perdas, aportes iniciais, regras de decisão, saída.
@@ -117,7 +117,7 @@ A nossa posição aqui é deliberadamente conservadora: optimizamos para o que s
 
 A Ana gere há dezoito meses uma LLC do Wyoming em single-member, a partir de Madrid. Decide integrar um sócio técnico com 30%, residente em Lisboa. A passagem planeia-se em seis semanas, não em três dias.
 
-**Semanas 1-2 — decisão e modelação.** Cálculo conjunto com o assessor espanhol e a nossa equipa: a LLC deixa de ser *disregarded entity* assim que entra o segundo sócio e passa a *partnership* nos EUA (Form 1065 e K-1 por sócio). Em Espanha as rendas continuam a aparecer no Modelo 100, na proporção da participação; em Portugal o sócio entrante revê o Anexo J e o enquadramento da CDT com o seu contabilista.
+**Semanas 1-2 — decisão e modelação.** Cálculo conjunto com o consultor espanhol e a nossa equipa: a LLC deixa de ser *disregarded entity* assim que entra o segundo sócio e passa a *partnership* nos EUA (Form 1065 e K-1 por sócio). Em Espanha as rendas continuam a aparecer no Modelo 100, na proporção da participação; em Portugal o sócio entrante revê o Anexo J e o enquadramento da CDT com o seu contabilista.
 
 **Semanas 3-4 — papel jurídico.** Novo Operating Agreement com capital, direitos de voto, distribuições, cláusulas de saída e regras de bloqueio. Este documento é o escudo no dia em que aparece uma decisão difícil; merece cuidado, não um modelo gratuito.
 
@@ -159,7 +159,7 @@ A diferença entre um ou vários sócios muda a classificação fiscal por defei
 
 ### Quando single-member e quando multi-member
 
-Single-member: empresário solo, freelance, assessoria. Multi-member: sócios reais, joint venture, fundo de investimento.
+Single-member: empresário solo, freelance, consultoria. Multi-member: sócios reais, joint venture, fundo de investimento.
 
 ### O que mais nos perguntam
 
@@ -241,7 +241,7 @@ Uma nota curta no ficheiro da LLC que regista a configuração escolhida, a data
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20de%20single-member%20LLC%20para%20multi-member%20LLC%20parece%20um%20tr%C3%A2mite%20menor%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20de%20single-member%20LLC%20para%20multi-member%20LLC%20parece%20um%20tr%C3%A2mite%20menor%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

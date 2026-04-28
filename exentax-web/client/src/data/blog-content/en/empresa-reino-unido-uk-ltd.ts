@@ -169,7 +169,7 @@ The UK Ltd is a serious and consolidated option, especially if your business tou
 
 For profiles seeking corporate tax optimization without needing British presence, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> offers a better combination of cost, effective taxation and operations. If your case fits the UK, the option is valid and bearable; if it fits the LLC, the option is more efficient.
 
-At Exentax we can help you compare the two options with real numbers for your activity and country of residence. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+At Exentax we can help you compare the two options with real numbers for your activity and country of residence. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:

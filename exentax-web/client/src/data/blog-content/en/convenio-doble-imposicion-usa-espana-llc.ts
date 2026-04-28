@@ -133,7 +133,7 @@ A Spanish tax advisor who understands international structures with LLCs is not 
 - You must keep your **tax-residency certificate** available and file correctly via **Modelo 100**, plus **Modelos 720/721** if applicable.
 - The complete setup: **Exentax + Spanish tax advisor**.
 
-If you want to review your case with concrete numbers, **book a free 30-minute advisory session** with Exentax and we'll explain exactly how your LLC fits within the US-Spain treaty and how to coordinate it with your advisor in Spain.
+If you want to review your case with concrete numbers, **book a free 30-minute consultation** with Exentax and we'll explain exactly how your LLC fits within the US-Spain treaty and how to coordinate it with your advisor in Spain.
 
 To go deeper, also read <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC as an alternative to being self-employed in Spain</a> and <a href="/en/blog/w8-ben-and-w8-ben-e-the-complete-guide">Complete guide to W-8BEN and W-8BEN-E</a>.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -195,7 +195,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## How the US-Spain treaty applies to your LLC, clause by clause
 
 The treaty between Spain and the United States signed in 1990 and amended by the Protocol in force since 2019 (BOE 23 October 2019) splits taxing rights between both countries. For an SMLLC in income attribution, four articles really matter. We explain them in order of impact.
@@ -216,7 +216,7 @@ At Exentax we map every flow of your LLC against the applicable treaty article, 
 
 ## How we work at Exentax
 
-Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free advisory session in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
 <!-- exentax:lote15-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
 ## How the US–Spain treaty actually plays out for a single-member LLC
@@ -229,7 +229,7 @@ In practice this means that three articles do most of the work in a calm year: t
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

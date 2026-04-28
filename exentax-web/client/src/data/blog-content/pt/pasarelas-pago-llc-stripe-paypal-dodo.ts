@@ -127,7 +127,7 @@ Uma nota curta no ficheiro da LLC que registe qual gateway é usada para que tip
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Na Exentax cablamos Stripe, PayPal Business US e Dodo Payments todas as semanas para clientes lusófonos. Marca a tua assessoria gratuita: analisamos o teu fluxo e dizemos-te o que ligar onde.
+Na Exentax cablamos Stripe, PayPal Business US e Dodo Payments todas as semanas para clientes lusófonos. Marca a tua consulta gratuita: analisamos o teu fluxo e dizemos-te o que ligar onde.
 ### Próximos passos
 
 Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
@@ -154,7 +154,7 @@ O gateway define a sua disponibilidade de cobrança, custo por transacção e, s
 - **Stripe (US, via LLC + EIN).** Standard para SaaS, subscrições e e-commerce profissional. Tarifa 2,9% + $0,30 US doméstico, +1% internacional, +1% conversão. Aprova LLCs não residentes com EIN + banco US (Mercury, Wise) + site operacional. Risco principal: freeze por chargebacks ou actividade alto risco.
 - **PayPal Business (US).** Imprescindível para B2C em LATAM e Europa onde o cliente "exige" PayPal. Comissão mais alta (~3,49%) e pior experiência de subscrição. Risco de hold 21 dias em contas novas.
 - **Dodo / Lemon Squeezy / Paddle (Merchant of Record).** O MoR trata IVA e compliance para vendas digitais UE/UK/AU. Comissão 5%-8% mas remove OSS, MOSS, IVA UK, GST AU. Ideal para SaaS multi-jurisdição.
-- **Stack recomendado.** SaaS B2B global: Stripe + Paddle. Infoprodutos B2C UE: Lemon Squeezy/Dodo. Assessoria: Stripe + Wise + PayPal opcional. NUNCA depender de um único gateway.
+- **Stack recomendado.** SaaS B2B global: Stripe + Paddle. Infoprodutos B2C UE: Lemon Squeezy/Dodo. Consultoria: Stripe + Wise + PayPal opcional. NUNCA depender de um único gateway.
 
 ### O que mais nos perguntam
 
@@ -187,7 +187,7 @@ fricções invisíveis que acabam por custar mais do que a diferença
 de comissão.
 
 Na prática, recomendamos decidir a passarela em conjunto com o
-assessor e com o stack bancário da LLC (Mercury, Wise e
+consultor e com o stack bancário da LLC (Mercury, Wise e
 eventualmente Relay) já desenhado. Assim evita-se que uma
 passarela adicionada mais tarde desorganize a arquitectura
 original do dia-a-dia operacional.
@@ -227,7 +227,7 @@ original do dia-a-dia operacional.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20j%C3%A1%20tentou%20Stripe%20Portugal%20ou%20PayPal%20Business%20local%20num%20SaaS%20B2B%20global%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20j%C3%A1%20tentou%20Stripe%20Portugal%20ou%20PayPal%20Business%20local%20num%20SaaS%20B2B%20global%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -100,7 +100,7 @@ If asset protection is a priority (you have significant personal assets, face li
 Choose Delaware only if you have specific plans to raise venture capital or need the Delaware prestige for a particular reason.
 ### What we do at Exentax
 
-We analyze your situation during the strategic advisory session and recommend the optimal state for your specific circumstances. We've helped hundreds of entrepreneurs choose correctly, and we've never had a client wish they'd chosen differently once they understand the tradeoffs.
+We analyze your situation during the strategic consultation and recommend the optimal state for your specific circumstances. We've helped hundreds of entrepreneurs choose correctly, and we've never had a client wish they'd chosen differently once they understand the tradeoffs.
 ### State comparison: the complete picture
 
 | Factor | New Mexico | Wyoming | Delaware | Florida |

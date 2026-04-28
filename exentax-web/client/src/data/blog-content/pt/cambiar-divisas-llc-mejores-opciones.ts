@@ -83,9 +83,9 @@ Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/iban-swift-e-rou
 - **Evite conversões do PayPal**: retire o dinheiro em dólares e converta no Wise
 - **Compare antes de enviar**: as comissões variam conforme o montante e a divisa
 
-Se quer otimizar a forma como movimenta dinheiro entre a sua LLC e a sua conta pessoal, agende uma assessoria gratuita. Ajudamos a configurar o fluxo mais eficiente para o seu caso.
+Se quer otimizar a forma como movimenta dinheiro entre a sua LLC e a sua conta pessoal, agende uma consulta gratuita. Ajudamos a configurar o fluxo mais eficiente para o seu caso.
 
-Na Exentax aconselhamos todas as semanas clientes em Portugal e no Brasil sobre a melhor combinação USD → EUR/BRL. Marca a tua assessoria gratuita e mostramos-te como transferir 10 000 USD por mês sem deixar centenas pelo caminho.
+Na Exentax aconselhamos todas as semanas clientes em Portugal e no Brasil sobre a melhor combinação USD → EUR/BRL. Marca a tua consulta gratuita e mostramos-te como transferir 10 000 USD por mês sem deixar centenas pelo caminho.
 ## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
 
 Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
@@ -188,7 +188,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20tua%20LLC%20fatura%20em%20d%C3%B3lares%2C%20mas%20a%20tua%20renda%20em%20Lisboa%2C%20Porto%20ou%20S%C3%A3o%20Paulo%20pa%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20tua%20LLC%20fatura%20em%20d%C3%B3lares%2C%20mas%20a%20tua%20renda%20em%20Lisboa%2C%20Porto%20ou%20S%C3%A3o%20Paulo%20pa%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -131,7 +131,7 @@ Na Exentax preparamos os W-8BEN-E da sua LLC onde realmente são exigidos: Strip
 
 > Cada caso é individual e a legislação fiscal pode mudar; estes formulários e critérios FATCA são atualizados periodicamente.
 
-Se quer que revisemos sua situação, agende sua assessoria gratuita com a Exentax.
+Se quer que revisemos sua situação, agende sua consulta gratuita com a Exentax.
 
 Para aprofundar, leia também <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">As contas bancárias nos EUA reportam ao fisco espanhol?</a> e <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">LLC como alternativa a ser autónomo na Espanha</a>.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
@@ -150,7 +150,7 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 <!-- exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-pt -->
 ## Como ler a questão dos Forms W-8BEN e W-8BEN-E como um mapeamento de relações estáveis em vez de um formulário a preencher uma vez
 
-A questão dos Forms W-8BEN e W-8BEN-E lê-se de forma mais útil como um mapeamento de relações estáveis entre a pessoa ou entidade que certifica o seu estatuto, o pagador americano que pede a certificação e a jurisdição de residência do beneficiário, em vez de um formulário a preencher uma vez. Este mapeamento mantém-se relevável em poucos minutos numa revisão periódica da documentação no ficheiro pessoal com um assessor.
+A questão dos Forms W-8BEN e W-8BEN-E lê-se de forma mais útil como um mapeamento de relações estáveis entre a pessoa ou entidade que certifica o seu estatuto, o pagador americano que pede a certificação e a jurisdição de residência do beneficiário, em vez de um formulário a preencher uma vez. Este mapeamento mantém-se relevável em poucos minutos numa revisão periódica da documentação no ficheiro pessoal com um consultor.
 <!-- /exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-pt -->
 
 <!-- exentax:lote33-native-v1-bis:w8-ben-y-w8-ben-e-guia-completa-pt -->
@@ -312,7 +312,7 @@ de benefício de convenção quando se aplica, anexamos o documento de
 constituição da LLC e a carta EIN, e os payouts decorrem à taxa
 convencional padrão.
 
-Uma LLC de assessoria trabalha para uma cotada US. O seu sistema
+Uma LLC de consultoria trabalha para uma cotada US. O seu sistema
 contabilístico faz renovações anuais do W-8; actualizamos o
 formulário com os mesmos dados, guardamos tanto a versão anterior
 como a nova na pasta de compliance da LLC e marcamos a data de
@@ -399,7 +399,7 @@ A escolha do formulário correcto esclarece-se no primeiro contacto com uma cont
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20voc%C3%AA%20ou%20sua%20LLC%20recebem%20dinheiro%20dos%20Estados%20Unidos%20(Stripe%2C%20PayPal%2C%20plata%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20voc%C3%AA%20ou%20sua%20LLC%20recebem%20dinheiro%20dos%20Estados%20Unidos%20(Stripe%2C%20PayPal%2C%20plata%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

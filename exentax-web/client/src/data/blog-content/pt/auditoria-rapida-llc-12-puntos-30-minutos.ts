@@ -1,4 +1,4 @@
-export default `Se já tens a tua LLC há algum tempo e nunca fizeste uma revisão completa, este artigo é a auditoria que devias fazer hoje. Não requer acesso ao banco nem reunião com um assessor: doze pontos que podes verificar tu mesmo em trinta minutos e que cobrem 90 % dos problemas que vemos na Exentax todas as semanas.
+export default `Se já tens a tua LLC há algum tempo e nunca fizeste uma revisão completa, este artigo é a auditoria que devias fazer hoje. Não requer acesso ao banco nem reunião com um consultor: doze pontos que podes verificar tu mesmo em trinta minutos e que cobrem 90 % dos problemas que vemos na Exentax todas as semanas.
 
 A ideia não é meter medo, é dar um mapa. Se passas os doze pontos, a tua LLC está razoavelmente saudável. Se falhas três ou mais, tens trabalhos pendentes para priorizar.
 
@@ -226,7 +226,7 @@ Para aplicar o mesmo guião agora, abra a <strong>calculadora Exentax</strong> o
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20j%C3%A1%20tens%20a%20tua%20LLC%20h%C3%A1%20algum%20tempo%20e%20nunca%20fizeste%20uma%20revis%C3%A3o%20completa%2C%20est%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20j%C3%A1%20tens%20a%20tua%20LLC%20h%C3%A1%20algum%20tempo%20e%20nunca%20fizeste%20uma%20revis%C3%A3o%20completa%2C%20est%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

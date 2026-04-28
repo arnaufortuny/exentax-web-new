@@ -69,7 +69,7 @@ Com uma LLC, pode deduzir como gastos operacionais tudo o que seja "ordinário e
 - **Viagens de negócio**: voos, hotéis, diárias (para reuniões com clientes, eventos do setor)
 - **Coworking ou home office**: percentagem do seu aluguer se trabalha de casa
 - **Comunicações**: internet, telefone, VPN
-- **Serviços profissionais**: contabilidade, assessoria fiscal, seguros
+- **Serviços profissionais**: contabilidade, consultoria fiscal, seguros
 - **Comissões bancárias**: embora com Mercury sejam $0 em wires, então pouco a deduzir aí
 
 ### Exemplo com números reais
@@ -97,9 +97,9 @@ Com uma LLC, não existe equivalente. Não há quota fixa mensal. Seus custos s�
 
 Não estamos a dizer que ser trabalhador autónomo esteja errado. Estamos a dizer que, se o seu perfil é digital e seus clientes são internacionais, há opções muito melhores. E que cada mês que continua a pagar a mais por inércia, é dinheiro que não recupera.
 
-Na Exentax analisamos o seu caso concreto numa assessoria gratuita de 30 minutos. Colocamos os números à sua frente: quanto paga hoje, quanto pagaria com LLC, e quanto economiza por ano. Sem compromisso, sem pressão, sem "resultados orientativos". Números reais com o seu faturamento real.
+Na Exentax analisamos o seu caso concreto numa consulta gratuita de 30 minutos. Colocamos os números à sua frente: quanto paga hoje, quanto pagaria com LLC, e quanto economiza por ano. Sem compromisso, sem pressão, sem "resultados orientativos". Números reais com o seu faturamento real.
 
-Se te revês no trabalhador independente que não consegue crescer ou no MEI que já não cabe, a LLC é muitas vezes a saída mais limpa, desde que esteja bem desenhada. Na Exentax fazemos o diagnóstico em 30 minutos: marca a tua assessoria gratuita e dizemos-te claramente se faz sentido para ti.
+Se te revês no trabalhador independente que não consegue crescer ou no MEI que já não cabe, a LLC é muitas vezes a saída mais limpa, desde que esteja bem desenhada. Na Exentax fazemos o diagnóstico em 30 minutos: marca a tua consulta gratuita e dizemos-te claramente se faz sentido para ti.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -194,7 +194,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Este%20artigo%20foi%20pensado%20para%20os%20aut%C3%B4nomos%20de%20Espanha%2C%20mas%20a%20l%C3%B3gica%20cola%20no%20tr%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Este%20artigo%20foi%20pensado%20para%20os%20aut%C3%B4nomos%20de%20Espanha%2C%20mas%20a%20l%C3%B3gica%20cola%20no%20tr%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -136,7 +136,7 @@ Having an LLC is not the same as having it well managed. The gap between the two
 
 If after reading this checklist you still have doubts, the sensible move is to review now, before the problem appears. At Exentax we don't sell LLCs: we structure real operations, manage compliance and coordinate banking, investing and international taxation. If you already have an LLC and you're not sure whether it's well structured, **we'll review it with you** and tell you what needs adjusting and what's already fine.
 
-Book a free 30-minute advisory session and let's go through it together. Better to spot today what needs to be fixed than to wait for the IRS or your tax authority to do it for you.
+Book a free 30-minute consultation and let's go through it together. Better to spot today what needs to be fixed than to wait for the IRS or your tax authority to do it for you.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.

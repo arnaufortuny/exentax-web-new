@@ -2,7 +2,7 @@ export default `IVA em serviços digitais é o tema em que 80 % dos independente
 
 ## A regra geral: localização do serviço
 
-Para serviços digitais (programação, design, assessoria, marketing, formação online, etc.), a localização do IVA depende de quem é o seu cliente:
+Para serviços digitais (programação, design, consultoria, marketing, formação online, etc.), a localização do IVA depende de quem é o seu cliente:
 ## Serviços B2B (a empresas)
 
 O IVA localiza-se no país do destinatário (a empresa que o contrata):
@@ -43,7 +43,7 @@ Os seus clientes são empresas americanas. **Não cobra IVA** em nenhuma fatura.
 
 Fatura sem IVA espanhol. Inclui o VAT ID do cliente. Declara no Modelo 303 e Modelo 349.
 
-### Assessor com clientes mistos (Espanha + internacional)
+### Consultor com clientes mistos (Espanha + internacional)
 
 As faturas a clientes espanhóis levam IVA (21%). As faturas a clientes da UE vão sem IVA (inversão do sujeito passivo). As faturas fora da UE vão sem IVA (não sujeitas).
 
@@ -82,7 +82,7 @@ Para fechar, leituras relacionadas que encaixam naturalmente ao lado deste artig
 4. **Não declarar operações não sujeitas no Modelo 303.** Embora não cobre IVA, deve declarar a base tributável nos campos correspondentes.
 5. **Confundir B2B com B2C.** As regras são completamente distintas. Se vende a um particular em França, não é o mesmo que vender a uma SAS francesa.
 
-Na Exentax encarregamo-nos de que a sua estrutura fiscal seja a correta para o seu tipo de clientes. Se está cheio de modelos trimestrais e quer simplificar a sua vida, agende uma assessoria gratuita. Explicamos-lhe como a LLC pode eliminar 90% da sua burocracia fiscal.
+Na Exentax encarregamo-nos de que a sua estrutura fiscal seja a correta para o seu tipo de clientes. Se está cheio de modelos trimestrais e quer simplificar a sua vida, agende uma consulta gratuita. Explicamos-lhe como a LLC pode eliminar 90% da sua burocracia fiscal.
 
 <!-- exentax:lote17-native-v1:iva-servicios-digitales-internacional-pt -->
 ## Porque é que o IVA sobre serviços digitais se trata por perfis em vez de casos isolados
@@ -102,7 +102,7 @@ O IVA sobre serviços digitais internacionais lê-se de forma mais útil como um
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Na Exentax configuramos IVA / Sales Tax para clientes lusófonos que vendem digital mundialmente. Marca a tua assessoria gratuita: mapeamos os teus fluxos e dizemos-te onde cobrar, onde não cobrar e onde declarar.
+Na Exentax configuramos IVA / Sales Tax para clientes lusófonos que vendem digital mundialmente. Marca a tua consulta gratuita: mapeamos os teus fluxos e dizemos-te onde cobrar, onde não cobrar e onde declarar.
 ## Montamos para si sem perder um fim de semana
 
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
@@ -145,7 +145,7 @@ Esta distinção simples resolve a maioria das dúvidas que
 parecem, à distância, insolúveis.
 
 A LLC que mantém um pequeno mapa por país, actualizado
-anualmente em conjunto com o assessor, atravessa estas
+anualmente em conjunto com o consultor, atravessa estas
 obrigações sem sobressaltos e mantém a fluidez operacional.
 
 <!-- /exentax:lote9-native-v1:iva-servicios-digitales-internacional -->
@@ -155,7 +155,7 @@ obrigações sem sobressaltos e mantém a fluidez operacional.
 
 A complexidade aparente do IVA digital reduz-se drasticamente
 quando o membro mantém um único quadro com país de residência do
-cliente, regime aplicável e referência ao assessor responsável
+cliente, regime aplicável e referência ao consultor responsável
 em cada jurisdição relevante.
 
 <!-- /exentax:lote9-native-v1:iva-servicios-digitales-internacional-bis -->
@@ -202,7 +202,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22IVA%20em%20servi%C3%A7os%20digitais%20%C3%A9%20o%20tema%20em%20que%2080%20%25%20dos%20independentes%20em%20Portugal%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22IVA%20em%20servi%C3%A7os%20digitais%20%C3%A9%20o%20tema%20em%20que%2080%20%25%20dos%20independentes%20em%20Portugal%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

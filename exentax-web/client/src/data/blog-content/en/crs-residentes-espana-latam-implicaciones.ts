@@ -95,7 +95,7 @@ CRS implications for Spanish and Latin American residents read more usefully as 
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Want us to review how CRS affects your specific case and design the right stack? Book your free advisory session and we'll analyse it with you.
+Want us to review how CRS affects your specific case and design the right stack? Book your free consultation and we'll analyse it with you.
 If something in this structure left you wanting more detail, <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">why Spanish freelancers are leaving self-employment for a US LLC</a> dives into a neighbouring piece of the puzzle that we usually keep for a separate write-up.
 
 _More on this topic: [Panama company: tax and residency](/en/blog/panama-company-tax-and-residency-2026), [Offshore structures: real benefits and honest risks](/en/blog/offshore-structures-benefits-and-real-risks), [From single-member to multi-member LLC: real tax implications before taking the step](/en/blog/from-single-member-to-multi-member-llc-real-tax-implications), [Exit Tax in Spain: departure tax for crypto investors, LLC owners and Interactive Brokers users](/en/blog/exit-tax-spain-llc-crypto-interactive-brokers)._
@@ -126,7 +126,7 @@ Fintech and CRS information evolves; here is the current state, exactly as it st
 The reasoning of this article rests on the following regulation and doctrine, currently in force:
 
 - **Spain.** Personal Income Tax Law 35/2006 (arts. 8, 9 and 91 on tax residence and CFC rules), Corporate Income Tax Law 27/2014 (art. 100 on CFC), General Tax Law 58/2003, Law 5/2022 which reformed Modelo 720 after CJEU C-788/19 of 27/01/2022, RD 1065/2007 (Modelos 232 and 720) and Order HFP/887/2023 (Modelo 721 on crypto-assets held abroad).
-- **Administrative doctrine.** TEAC resolutions and binding advisory sessions from the DGT on single-member LLCs (among others V0443-08, V1631-17, V1147-22), interpreted in light of the BOE notice of February 2020 on the classification of foreign transparent entities.
+- **Administrative doctrine.** TEAC resolutions and binding consultations from the DGT on single-member LLCs (among others V0443-08, V1631-17, V1147-22), interpreted in light of the BOE notice of February 2020 on the classification of foreign transparent entities.
 - **Treaties and international rules.** Spain–US Double Taxation Treaty signed in 1990 with the 2013 Protocol in force since 2019, Directive 2011/16/EU as amended by DAC6, DAC7 and DAC8, and the OECD Model Convention with its Commentaries.
 - **United States.** Treas. Reg. §301.7701-3 (check-the-box classification), IRC §6038A and Treas. Reg. §1.6038A-2 (Form 5472), IRC §7701(a)(31) and FBAR rules (31 CFR 1010.350).
 
@@ -161,7 +161,7 @@ Want to apply this protocol to your case? <a href="/en/book">Book a session with
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

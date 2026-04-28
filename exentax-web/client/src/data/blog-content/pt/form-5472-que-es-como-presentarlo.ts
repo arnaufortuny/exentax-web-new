@@ -91,7 +91,7 @@ Se tens uma LLC e não apresentaste o Form 5472 de anos anteriores, mantém a ca
 
 - **Declarações tardias voluntárias**: o IRS tem procedimentos para apresentar formulários atrasados
 - **Causa razoável**: se puderes demonstrar que o incumprimento não foi intencional, o IRS pode reduzir ou eliminar sanções
-- **Assessoramento profissional**: é crítico que este processo seja gerido por alguém com experiência
+- **Acompanhamento profissional**: é crítico que este processo seja gerido por alguém com experiência
 
 Na Exentax ajudamos clientes que vêm de outros serviços (ou que geriam a sua LLC sozinhos) a regularizar a sua situação. O importante é agir. quanto antes te puseres em dia, melhor.
 ### O que as entidades financeiras pedem do Operating Agreement
@@ -116,7 +116,7 @@ Os erros mais frequentes que constatamos:
 
 O Form 5472 (juntamente com o Form 1120 pro-forma) é um trâmite informativo anual que toda LLC com dono estrangeiro deve apresentar. Não implica pagamento de impostos. Não é complicado se o gere alguém que sabe o que faz. E na Exentax tratamos disto como parte da manutenção anual da tua LLC.
 
-Tens dúvidas se a tua LLC está mesmo em dia com o Form 5472, ou andas a geri-la sozinho a partir de Lisboa, Porto ou São Paulo e queres delegar? Agenda a tua assessoria gratuita. Revemos o histórico, vemos o que já foi (ou não foi) submetido e propomos-te um plano claro para te manteres em regra ano após ano.
+Tens dúvidas se a tua LLC está mesmo em dia com o Form 5472, ou andas a geri-la sozinho a partir de Lisboa, Porto ou São Paulo e queres delegar? Agenda a tua consulta gratuita. Revemos o histórico, vemos o que já foi (ou não foi) submetido e propomos-te um plano claro para te manteres em regra ano após ano.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -211,7 +211,7 @@ Se quiser que o apresentemos ou apenas rever o último, abra a <strong>calculado
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Constitu%C3%ADste%20a%20tua%20LLC%20americana%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20algu%C3%A9m%20t%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Constitu%C3%ADste%20a%20tua%20LLC%20americana%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20algu%C3%A9m%20t%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

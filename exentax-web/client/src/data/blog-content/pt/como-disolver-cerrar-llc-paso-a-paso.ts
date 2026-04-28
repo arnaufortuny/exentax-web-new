@@ -24,7 +24,7 @@ Nem toda a "vontade de encerrar" é vontade real. Antes de iniciar, verifique se
 - **Mudar estrutura** (single-member para multi-member, ou constituir nova entidade e transferir contratos) se o que muda é o modelo de negócio, não a vontade.
 - **Mudar de estado** via *domestication* ou *conversion* se o que pesa são taxas ou reporting do estado actual.
 
-Se ainda assim quer encerrar, este é o procedimento. Cada caso é individual, reveja com um assessor antes de executar.
+Se ainda assim quer encerrar, este é o procedimento. Cada caso é individual, reveja com um consultor antes de executar.
 ### Visão geral: a ordem importa
 
 O encerramento de uma LLC compõe-se de **sete blocos** nesta ordem. Saltar um ou inverter ordem produz custos desnecessários ou janelas em que a LLC continua a gerar obrigações sem que esteja já a geri-la:
@@ -155,7 +155,7 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 <!-- exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-pt -->
 ## Como ler o encerramento da LLC como uma sequência documentada em vez de um fim súbito
 
-O encerramento da LLC lê-se de forma mais útil como uma sequência documentada — declarações finais, dissolução junto do Estado, arquivamento dos registos — em vez de um fim súbito. A sequência não muda com a dimensão da LLC, e uma nota curta e datada no ficheiro da LLC que registe cada passo com a sua referência de confirmação torna o encerramento defensável em poucos minutos numa conversa posterior com um assessor ou numa interação com uma administração.
+O encerramento da LLC lê-se de forma mais útil como uma sequência documentada — declarações finais, dissolução junto do Estado, arquivamento dos registos — em vez de um fim súbito. A sequência não muda com a dimensão da LLC, e uma nota curta e datada no ficheiro da LLC que registe cada passo com a sua referência de confirmação torna o encerramento defensável em poucos minutos numa conversa posterior com um consultor ou numa interação com uma administração.
 <!-- /exentax:lote30-native-v1:como-disolver-cerrar-llc-paso-a-paso-pt -->
 
 <!-- exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-pt -->
@@ -263,7 +263,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22como%20disolver%20cerrar%20llc%20paso%20a%20paso%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22como%20disolver%20cerrar%20llc%20paso%20a%20paso%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

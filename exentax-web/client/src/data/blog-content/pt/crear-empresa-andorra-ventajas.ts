@@ -11,7 +11,7 @@ Capital social mínimo:
 - SL: 3.000 EUR.
 - SA: 60.000 EUR.
 
-Constituição: 4-8 semanas. Custo habitual entre escritura, registo, assessoria e trâmites: 2.500-6.000 EUR.
+Constituição: 4-8 semanas. Custo habitual entre escritura, registo, consultoria e trâmites: 2.500-6.000 EUR.
 
 A constituição exige sempre presença física do sócio ou procurador em Andorra para assinatura perante notário. Os sócios podem ser estrangeiros, mas o administrador costuma ser residente andorrano (ou o próprio sócio quando obtém a residência).
 ### Fiscalidade corporativa
@@ -73,7 +73,7 @@ Andorra é um país caro face à maioria de Portugal e da LatAm:
 - **Seguros, escolarização, saúde privada**: níveis europeus altos.
 - **Serviços**: limitados face a uma capital europeia grande.
 
-Operacionalmente, manter uma SL andorrana custa entre 2.500 e 5.000 EUR/ano em gestão, assessoria e obrigações registrais.
+Operacionalmente, manter uma SL andorrana custa entre 2.500 e 5.000 EUR/ano em gestão, consultoria e obrigações registrais.
 ### Banca andorrana
 
 Os bancos principais (Andorra Banc Agrícol, MoraBanc, Crèdit Andorrà, BancSabadell d'Andorra) são sólidos e operam com padrões europeus. Abertura de conta corporativa exige presença, KYC completo e, normalmente, depósito mínimo ou vinculação.
@@ -94,7 +94,7 @@ Andorra não compete com a LLC: complementa-a quando está disposto a viver lá.
 - **Subestimar o custo de vida**: o IRS baixo compensa-se parcialmente com custos de habitação, escola e serviços.
 - **Não planear a saída fiscal**: exit tax sobre mais-valias latentes, sociedades familiares, tudo deve planear-se antes da mudança.
 - **Subestimar a quotização CASS**: os 22 % sobre a base de quotização do administrador podem somar mais do que o previsto.
-- **Pensar que a SL andorrana opera sozinha**: precisa de gestão, assessoria, contabilidade e compliance como qualquer sociedade europeia.
+- **Pensar que a SL andorrana opera sozinha**: precisa de gestão, consultoria, contabilidade e compliance como qualquer sociedade europeia.
 ### Riscos reais e honestos
 
 - **Vida num país pequeno**: 80.000 habitantes, opções limitadas em alguns serviços, distância a aeroportos internacionais.
@@ -220,7 +220,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Andorra%20passou%20em%20quinze%20anos%20de%20ser%20um%20destino%20de%20compras%20a%20converter-se%20num%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Andorra%20passou%20em%20quinze%20anos%20de%20ser%20um%20destino%20de%20compras%20a%20converter-se%20num%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

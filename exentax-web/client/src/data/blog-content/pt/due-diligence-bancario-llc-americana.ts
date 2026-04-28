@@ -43,7 +43,7 @@ Alguns setores recebem um escrutínio adicional por parte dos bancos:
 - **Criptomoedas e trading**: regulamentação em evolução constante
 - **Serviços financeiros**: requerem licenças adicionais em muitos estados
 - **Indústrias reguladas**: farmacêutica, gaming, produtos para adultos
-- **Assessoria a governos**: implica riscos de compliance adicionais
+- **Consultoria a governos**: implica riscos de compliance adicionais
 
 Se o teu negócio está num destes setores, não significa que não possas abrir uma conta. Simplesmente, o processo pode demorar mais tempo e requerer mais documentação.
 ### Como facilitar o processo
@@ -72,7 +72,7 @@ Se a Mercury (ou qualquer outra fintech) rejeitar a tua candidatura, as razões 
 
 - **Atividade não suportada**: certos setores (crypto, jogos de azar, CBD) têm restrições adicionais
 - **Documentação inconsistente**: a informação do formulário não coincide com os documentos fornecidos
-- **Descrição da atividade vaga**: "assessoria" sem mais detalhes não é suficiente
+- **Descrição da atividade vaga**: "consultoria" sem mais detalhes não é suficiente
 - **Histórico do endereço do Registered Agent**: se o agente tem um histórico de LLCs problemáticas associadas
 
 A boa notícia: uma rejeição não é definitiva. Com a documentação correta e uma descrição clara da tua atividade, é frequentemente possível submeter novamente ou optar por uma alternativa como a Relay.
@@ -89,7 +89,7 @@ A chave é manter uma operação coerente, documentada e previsível. Se as tuas
 Uma leitura adjacente a manter à mão: <a href="/pt/blog/conformidade-anti-lavagem-de-dinheiro-para-sua-llc-o-que">Conformidade anti-lavagem de dinheiro para sua LLC: o que precisa saber</a>, que afina precisamente os contornos do que este guia explica.
 ### Como coordenamos na Exentax
 
-Na Exentax preparamos o dossier bancário para passar Mercury, Relay ou Chase à primeira para clientes em Portugal e no Brasil. Marca a tua assessoria gratuita: identificamos os buracos e tapamo-los antes de clicares em „Open account”.
+Na Exentax preparamos o dossier bancário para passar Mercury, Relay ou Chase à primeira para clientes em Portugal e no Brasil. Marca a tua consulta gratuita: identificamos os buracos e tapamo-los antes de clicares em „Open account”.
 ## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
 
 Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
@@ -171,7 +171,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20bancos%20e%20fintechs%20dos%20EUA%20fazem%20hoje%20uma%20due%20diligence%20muito%20mais%20apertada%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20bancos%20e%20fintechs%20dos%20EUA%20fazem%20hoje%20uma%20due%20diligence%20muito%20mais%20apertada%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

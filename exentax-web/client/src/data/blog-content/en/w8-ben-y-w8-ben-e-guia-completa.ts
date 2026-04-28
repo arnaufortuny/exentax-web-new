@@ -143,7 +143,7 @@ At Exentax we prepare your LLC's W-8BEN-E and help you submit it correctly where
 
 > Every case is individual and tax law can change; these forms and FATCA criteria are updated periodically. So review your paperwork with each major change in your business or whenever the IRS publishes a new version.
 
-If you want us to review your situation, book your free advisory session with Exentax and we'll get your LLC's W-8s and your international paperwork in order.
+If you want us to review your situation, book your free consultation with Exentax and we'll get your LLC's W-8s and your international paperwork in order.
 
 To go deeper, also read <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">Do US bank accounts report to your home tax authority?</a> and <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC as an alternative to being self-employed in Spain</a>.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -220,12 +220,12 @@ At Exentax we prepare correct W-8BEN-E (FATCA classification, treaty benefits, b
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

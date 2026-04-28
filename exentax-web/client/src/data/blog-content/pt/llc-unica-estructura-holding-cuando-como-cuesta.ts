@@ -8,7 +8,7 @@ Quatro gatilhos claros. Se reconheces dois ou mais, o salto provavelmente compen
 
 ### 1. Volume e mistura de linhas de negócio
 
-Se receitas de assessoria, um SaaS, comissões de afiliação e uma loja online convivem na mesma LLC, a contabilidade complica-se e o risco contamina-se: se uma linha tem um problema legal, todas as outras estão expostas. Uma holding com sub-LLCs operativas separa isso.
+Se receitas de consultoria, um SaaS, comissões de afiliação e uma loja online convivem na mesma LLC, a contabilidade complica-se e o risco contamina-se: se uma linha tem um problema legal, todas as outras estão expostas. Uma holding com sub-LLCs operativas separa isso.
 
 ### 2. Risco assimétrico entre linhas
 
@@ -31,7 +31,7 @@ Tu (pessoa singular, residente fiscal do teu país)
 ▼
 Holding LLC (Wyoming ou Delaware)
 │
-├── Operativa A LLC (assessoria)
+├── Operativa A LLC (consultoria)
 ├── Operativa B LLC (SaaS)
 └── IP LLC (marca, código)
 \`\`\`
@@ -100,7 +100,7 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 <!-- exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-pt -->
 ## Como ler a questão da LLC holding como um mapeamento estrutural em vez de uma escolha de estatuto
 
-A questão da LLC holding lê-se de forma mais útil como um mapeamento estrutural estável entre a LLC operacional, a LLC holding e o beneficiário, em vez de uma escolha de estatuto. Este mapeamento não muda com o resultado do ano, e uma nota curta e datada no ficheiro torna a relação relevável em poucos minutos numa conversa com um assessor.
+A questão da LLC holding lê-se de forma mais útil como um mapeamento estrutural estável entre a LLC operacional, a LLC holding e o beneficiário, em vez de uma escolha de estatuto. Este mapeamento não muda com o resultado do ano, e uma nota curta e datada no ficheiro torna a relação relevável em poucos minutos numa conversa com um consultor.
 <!-- /exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -195,7 +195,7 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 Este é um dos pontos que auditamos primeiro quando assumimos um processo. Se não estiver limpo aqui, qualquer hipótese a jusante torna-se negociável perante a autoridade.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20uma%20LLC%20funciona%2C%20a%20pergunta%20muda%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20uma%20LLC%20funciona%2C%20a%20pergunta%20muda%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/pt/servicos/llc-wyoming">LLC em Wyoming</a> com custos, prazos e próximos passos concretos.
 

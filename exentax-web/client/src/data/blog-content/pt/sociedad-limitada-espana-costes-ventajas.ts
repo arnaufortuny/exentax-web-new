@@ -4,10 +4,10 @@ Constituir uma sociedade limitada (SL) espanhola continua a ser o passo natural 
 
 ## Custo real de constituir uma SL
 
-O custo mínimo de constituir uma SL em Espanha atualmente ronda os 600 euros com um serviço integrado (notário, registo comercial, assessoria inicial, inscrição na agência tributária e Segurança Social). Com notário tradicional e assessoria externa, sobe para 1.000-1.500 euros. Capital social: a partir de 1 euro após a reforma Crea y Crece, embora os bancos exijam muitas vezes desembolso real superior para abrir conta operacional. Prazos: a constituição expressa via CIRCE permite ter a SL operacional em 24-72 horas; via notário tradicional, uma semana. Convém reservar o nome no Registo Mercantil Central antes de qualquer passo.
+O custo mínimo de constituir uma SL em Espanha atualmente ronda os 600 euros com um serviço integrado (notário, registo comercial, consultoria inicial, inscrição na agência tributária e Segurança Social). Com notário tradicional e consultoria externa, sobe para 1.000-1.500 euros. Capital social: a partir de 1 euro após a reforma Crea y Crece, embora os bancos exijam muitas vezes desembolso real superior para abrir conta operacional. Prazos: a constituição expressa via CIRCE permite ter a SL operacional em 24-72 horas; via notário tradicional, uma semana. Convém reservar o nome no Registo Mercantil Central antes de qualquer passo.
 ## Custos recorrentes de manter uma SL
 
-Uma SL implica custos fixos anuais que um autónomo não tem: assessoria especializada (1.500-3.000 euros ano por contabilidade mercantil completa), depósito de contas no Registo Mercantil (50-200 euros), taxas, modelos extra (200, 232 se houver operações vinculadas, 184 informativo em SC). Se o administrador é sócio e trabalha na sociedade, deve dar-se de alta como autónomo societário (quota mensal desde 380 euros). Somando tudo, o custo mínimo realista de manter uma SL pequena ronda os 6.000-9.000 euros anuais, antes de impostos.
+Uma SL implica custos fixos anuais que um autónomo não tem: consultoria especializada (1.500-3.000 euros ano por contabilidade mercantil completa), depósito de contas no Registo Mercantil (50-200 euros), taxas, modelos extra (200, 232 se houver operações vinculadas, 184 informativo em SC). Se o administrador é sócio e trabalha na sociedade, deve dar-se de alta como autónomo societário (quota mensal desde 380 euros). Somando tudo, o custo mínimo realista de manter uma SL pequena ronda os 6.000-9.000 euros anuais, antes de impostos.
 
 ## Vantagens reais: proteção, fiscalidade e profissionalismo
 
@@ -31,7 +31,7 @@ O regime jurídico está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 | Conceito | Autónomo | SL Espanha | LLC EUA (não residente) |
 |---|---|---|---|
 | **Constituição** | Gratuita (registo IAE) | 600-1.500€ + 3.000€ capital + notário | desde 2.000€ |
-| **Manutenção anual** | Quota RETA + IRPF | 6.000-9.000€ (assessoria + contas + ISC) | desde 1.500€ |
+| **Manutenção anual** | Quota RETA + IRPF | 6.000-9.000€ (consultoria + contas + ISC) | desde 1.500€ |
 | **Tributação lucros** | IRPF 19-47% progressivo | IS 23% (reduzido) ou 25% (geral) | 0% federal nos EUA + IRPF na residência |
 | **Dupla tributação** | Não (pass-through) | Sim (IS + IRPF dividendos) | Não (atribuição de rendimentos) |
 | **Reinvestimento lucros** | Complexo (despesa IRPF) | Eficiente (retém a 23-25%) | Complexo (atribuição anual) |
@@ -43,7 +43,7 @@ O regime jurídico está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 
 ## Casos práticos: quando SL vs LLC compensa
 
-**Caso 1. Assessor digital, 70.000€/ano, cliente único EUA.** Melhor LLC: 0% federal, IRPF em Espanha sobre lucro líquido. SL aqui perde por custos fixos altos (6.000-9.000€) e dupla tributação.
+**Caso 1. Consultor digital, 70.000€/ano, cliente único EUA.** Melhor LLC: 0% federal, IRPF em Espanha sobre lucro líquido. SL aqui perde por custos fixos altos (6.000-9.000€) e dupla tributação.
 
 **Caso 2. Agência marketing 4 sócios, 250.000€/ano, escritório Barcelona, 3 empregados.** Melhor SL: precisa de figura mercantil para clientes corporates ES, possibilidade de reter lucros a IS 23%, contratar quadro com cotização SS, distribuição equilibrada de sócios. LLC aqui não encaixa por barreira operativa com clientes locais.
 
@@ -55,11 +55,11 @@ O regime jurídico está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 
 | Custo | Montante anual aprox |
 |---|---:|
-| Assessoria fiscal completa | 2.400-4.800€ |
+| Consultoria fiscal completa | 2.400-4.800€ |
 | Contas anuais depositadas Registo Comercial | 100-200€ |
 | Auditoria (se aplica limites art. 263 LSC) | 1.500-4.000€ |
 | Livros oficiais legalizados | 50€ |
-| Formulário 200 IS + retenções | incluído na assessoria |
+| Formulário 200 IS + retenções | incluído na consultoria |
 | Quota autónomo administrador | 4.200-7.200€ |
 | Seguro RC profissional empresa | 600-1.500€ |
 | Domiciliação social (se sem escritório próprio) | 600-1.200€ |
@@ -108,7 +108,7 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 **O que funciona de verdade**
 - Modelar a situação na <strong>calculadora Exentax</strong> antes de mexer numa única peça, para ver o custo anual total, não apenas a fatura de hoje.
 - Separar desde o primeiro dia os fluxos pessoais e de negócio, com contas distintas e uma checklist viva dos comprovativos.
-- Trabalhar com um assessor que olha para todas as peças em conjunto: estrutura, banca, conformidade e residência, não cada uma isoladamente.
+- Trabalhar com um consultor que olha para todas as peças em conjunto: estrutura, banca, conformidade e residência, não cada uma isoladamente.
 - Rever todo o desenho uma vez por ano (residência fiscal, estrutura jurídica, atividade real e banca) em vez de esperar que seja a Inspeção a fazer essa revisão por si com sanções por cima.
 
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
@@ -136,7 +136,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

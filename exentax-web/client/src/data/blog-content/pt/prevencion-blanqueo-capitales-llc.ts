@@ -74,7 +74,7 @@ Paradoxalmente, ter uma LLC bem constituída e manter um compliance impecável p
 
 A tua LLC, com o seu EIN, as suas declarações em dia e a sua conta bancária dedicada no Mercury (Column NA, FDIC, tudo em ordem), é exatamente o que o sistema espera ver de um profissional que opera internacionalmente.
 
-Na Exentax alinhamos BOI + Registo Central de Beneficiário Efetivo + Anexo J para clientes lusófonos. Marca a tua assessoria gratuita e pomos a tua LLC em conformidade dos dois lados do Atlântico.
+Na Exentax alinhamos BOI + Registo Central de Beneficiário Efetivo + Anexo J para clientes lusófonos. Marca a tua consulta gratuita e pomos a tua LLC em conformidade dos dois lados do Atlântico.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -185,7 +185,7 @@ A coerência do dossier mantém-se com mais facilidade através de uma revisão 
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20legisla%C3%A7%C3%A3o%20anti-branqueamento%20em%20Portugal%20(Lei%2083%2F2017%2C%20Banco%20de%20Portugal%2C%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20legisla%C3%A7%C3%A3o%20anti-branqueamento%20em%20Portugal%20(Lei%2083%2F2017%2C%20Banco%20de%20Portugal%2C%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

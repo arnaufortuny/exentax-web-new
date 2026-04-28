@@ -29,7 +29,7 @@ Principal: <a href="/pt/blog/como-evitar-bloqueios-de-conta-no-mercury-wise-e-re
 **Revisão anual**: residência, substância, stack, normas novas.
 ### Exemplos
 
-**Perfil 1: Assessor B2B ES, 80-150 k€**: Single-Member LLC NM, Mercury + Wise.
+**Perfil 1: Consultor B2B ES, 80-150 k€**: Single-Member LLC NM, Mercury + Wise.
 **Perfil 2: E-commerce Amazon Europa, 200-500 k€**: LLC + IOSS/OSS + alfândega. DAC7.
 **Perfil 3: SaaS B2B LATAM, 100 k€ ARR**: LLC + Mercury + Stripe + MoR.
 **Perfil 4: Trader cripto/futures**: LLC sem substância = alto CFC.
@@ -197,7 +197,7 @@ diagramas "complexos mas elegantes" em revisões reais.
 
 ## Três estruturas que corremos com clientes
 
-Uma assessora em Espanha com clientes da UE e US opera uma single-
+Uma consultora em Espanha com clientes da UE e US opera uma single-
 member LLC associada a um pequeno stack Mercury + Wise. Os
 rendimentos fluem para a sua declaração pessoal anual; o pro-forma
 1120 + 5472 da LLC documenta os fluxos relacionados; nenhuma camada
@@ -209,7 +209,7 @@ declara a parte proporcional em casa; a LLC é o casco operacional,
 não uma holding. A estrutura é portátil e sobrevive a uma relocação
 de sócio sem redesenhar o diagrama.
 
-Uma fundadora com uma linha SaaS e uma linha de assessoria
+Uma fundadora com uma linha SaaS e uma linha de consultoria
 separada opera duas LLCs, uma por linha. Cada uma tem os seus
 livros, o seu stack bancário e o seu ciclo W-8. A separação
 simplifica a opcionalidade de venda mais tarde (uma linha pode ser
@@ -221,7 +221,7 @@ vendida sem afectar a outra) e mantém o reporting limpo.
   residência do sócio não permite. As regras de sede de direcção
   efectiva do país de residência acabarão por vencer.
 - Empilhar holdings para "parecer corporate" quando a actividade é
-  assessoria de uma só pessoa. A complexidade torna-se ela própria
+  consultoria de uma só pessoa. A complexidade torna-se ela própria
   superfície de risco.
 - Esquecer que o BOI se aplica à LLC e aos seus beneficiários
   efectivos, independentemente de quão limpa esteja a declaração no
@@ -276,7 +276,7 @@ hoje.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Desenhar%20uma%20estrutura%20internacional%20n%C3%A3o%20%C3%A9%20escolher%20o%20pa%C3%ADs%20mais%20ex%C3%B3tico%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Desenhar%20uma%20estrutura%20internacional%20n%C3%A3o%20%C3%A9%20escolher%20o%20pa%C3%ADs%20mais%20ex%C3%B3tico%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

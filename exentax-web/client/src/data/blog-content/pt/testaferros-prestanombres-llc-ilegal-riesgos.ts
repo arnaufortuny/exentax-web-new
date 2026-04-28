@@ -77,7 +77,7 @@ E mesmo assim, os nossos clientes obtêm um nível de privacidade excelente: nom
 
 Privacidade sim. Anonimato perante as autoridades, não. Fraude, nunca.
 
-Na Exentax recusamos este tipo de montagem e explicamos porquê. Marca a tua assessoria gratuita: construímos uma estrutura no teu próprio nome, completamente legal, sem arranjos que caem na primeira fiscalização.
+Na Exentax recusamos este tipo de montagem e explicamos porquê. Marca a tua consulta gratuita: construímos uma estrutura no teu próprio nome, completamente legal, sem arranjos que caem na primeira fiscalização.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -211,7 +211,7 @@ Os registos de beneficiários efetivos acrescentam uma segunda camada à mesma l
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22P%C3%B4r%20a%20LLC%20em%20nome%20de%20um%20amigo%2C%20irm%C3%A3o%20ou%20%E2%80%9Etesta%20de%20ferro%E2%80%9D%20%C3%A9%20uma%20das%20ideias%20que%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22P%C3%B4r%20a%20LLC%20em%20nome%20de%20um%20amigo%2C%20irm%C3%A3o%20ou%20%E2%80%9Etesta%20de%20ferro%E2%80%9D%20%C3%A9%20uma%20das%20ideias%20que%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

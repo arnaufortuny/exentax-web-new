@@ -111,7 +111,7 @@ The Bulgarian lev is fixed to the euro via a currency board at 1.95583 BGN/EUR s
 
 Bulgaria with its 10% is a valid option if you actually want to move to Bulgaria. It is not a fiscal shortcut to keep your life in Spain, Mexico or Argentina. For that case, a US LLC delivers a better combination of taxation, operating costs and banking flexibility.
 
-If you want to compare your specific case without commitment, at Exentax we help you compare real numbers before incorporating anything. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+If you want to compare your specific case without commitment, at Exentax we help you compare real numbers before incorporating anything. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 
 The final decision is not comparing headline rates but estimating the real combined burden with substance, banking and compliance costs. When that calculation is done well, Bulgaria can be excellent or totally unsuitable depending on your concrete profile.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -188,7 +188,7 @@ At Exentax we model Bulgaria with your real clients, residency and volume — an
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 
 <!-- exentax:cross-refs-v1 -->
@@ -202,7 +202,7 @@ Thousands of freelancers and entrepreneurs already operate their US LLC fully le
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

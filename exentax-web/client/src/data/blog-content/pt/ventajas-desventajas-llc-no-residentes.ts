@@ -32,7 +32,7 @@ A tua LLC tem obrigações anuais: Form 5472 + 1120, FBAR (se aplicável), Annua
 Manter uma LLC custa entre $200 e $1,000/ano dependendo do estado e dos serviços que contrates. Não é grátis.
 
 ### 3. Complexidade fiscal
-A tua situação fiscal torna-se mais complexa. Tens obrigações nos EUA e no teu país de residência. Precisas de assessoria profissional. não é algo que possas fazer com um tutorial do YouTube.
+A tua situação fiscal torna-se mais complexa. Tens obrigações nos EUA e no teu país de residência. Precisas de consultoria profissional. não é algo que possas fazer com um tutorial do YouTube.
 
 ### 4. Não elimina impostos no teu país
 A LLC não paga nos EUA, mas **continuas a ter obrigações fiscais no teu país de residência**. A vantagem é que podes otimizar quanto e como tributas, mas os impostos não desaparecem.
@@ -46,7 +46,7 @@ Se faturas menos de $1,500-2,000/mês, ou se todos os teus clientes são naciona
 
 - Freelancers digitais com rendimentos superiores a **$2,000/mês**
 - Empreendedores com **clientes internacionais** (especialmente EUA, UK, UE)
-- Criadores de conteúdo, programadores, designers, assessores
+- Criadores de conteúdo, programadores, designers, consultores
 - Vendedores de produtos digitais (cursos, software, SaaS)
 - Vendedores de ecommerce (Amazon, Shopify)
 ## Mais vantagens que vale a pena mencionar
@@ -74,7 +74,7 @@ Vamos ser honestos com as desvantagens, mas também realistas:
 
 - **"É mais complexo fiscalmente"** → Sim, mas na Exentax tratamos de toda a complexidade. Tu não tocas num único formulário.
 - **"Tem custos de manutenção"** → Sim, mas se faturas mais de $2,000/mês, a poupança fiscal supera os custos no primeiro mês.
-- **"Pode haver bloqueios bancários"** → Só se operares mal. Com boa documentação e coerência, os bloqueios são raríssimos. E nós assessoramos-te para os prevenir.
+- **"Pode haver bloqueios bancários"** → Só se operares mal. Com boa documentação e coerência, os bloqueios são raríssimos. E nós acompanhamos-te para os prevenir.
 - **"Continuas a pagar impostos no teu país"** → Sim, mas com uma base tributável otimizada graças aos gastos dedutíveis da LLC. O imposto federal nos EUA é 0%.
 
 Para fechar, leituras relacionadas que encaixam naturalmente ao lado deste artigo: <a href="/pt/blog/autonomo-em-espanha-vs-llc-nos-eua-comparacao-fiscal">Autônomo em Espanha vs LLC nos EUA: comparação fiscal completa</a> e <a href="/pt/blog/por-que-nao-abrir-uma-empresa-na-estonia-a-llc-americana">Por que não abrir uma empresa na Estónia: a LLC americana vence para a maioria</a> ajudam a arredondar o contexto.
@@ -82,9 +82,9 @@ Para fechar, leituras relacionadas que encaixam naturalmente ao lado deste artig
 
 Não constituas uma LLC porque viste um reel de Instagram que te prometia pagar 0% de impostos. Analisa a tua situação real: rendimentos, tipo de clientes, país de residência, planos a médio prazo.
 
-Na Exentax fazemos essa análise contigo na assessoria gratuita. Se uma LLC faz sentido para ti, dizemos-te com números. Se não, também te dizemos. Preferimos ser honestos a vender-te algo que não precisas. é assim que se constroem relações duradouras.
+Na Exentax fazemos essa análise contigo na consulta gratuita. Se uma LLC faz sentido para ti, dizemos-te com números. Se não, também te dizemos. Preferimos ser honestos a vender-te algo que não precisas. é assim que se constroem relações duradouras.
 
-Na Exentax pomos as duas colunas à frente de cada potencial cliente antes de começar. Marca a tua assessoria gratuita: listamos vantagens e desvantagens aplicadas ao teu perfil real.
+Na Exentax pomos as duas colunas à frente de cada potencial cliente antes de começar. Marca a tua consulta gratuita: listamos vantagens e desvantagens aplicadas ao teu perfil real.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -209,7 +209,7 @@ Na Exentax modelamos prós/contras com o seu caso real.
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Antes%20de%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%2C%20tens%20de%20ver%20a%20fotografia%20comple%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Antes%20de%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%2C%20tens%20de%20ver%20a%20fotografia%20comple%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

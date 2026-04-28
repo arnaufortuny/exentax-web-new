@@ -106,7 +106,7 @@ Significa isto que não deves investir via LLC? Não. Significa que, se a tua ca
 4. **Conta segregada**: a conta de broker opera-se a partir da conta bancária da LLC, não da conta pessoal do sócio.
 5. **Operating Agreement coerente**: reflete a atividade investidora se aplicável, define como se aprovam movimentos, como se distribui o resultado.
 6. **Reporting interno**: em cada fecho fiscal, as P&L do broker incorporam-se na contabilidade da LLC e no 5472 / 1120 pro forma.
-7. **Coordenação com o teu assessor local**: para que a atribuição / distribuição do rendimento investidor se declare bem no teu país.
+7. **Coordenação com o teu consultor local**: para que a atribuição / distribuição do rendimento investidor se declare bem no teu país.
 ### Porquê a Exentax
 
 Porque montamos LLCs que estão prontas para operar com brokers desde o primeiro dia. Documentação consistente, EIN correto, BOI apresentado, operating agreement adaptado, W-8BEN-E preparado. Quando vais abrir IB, Tradovate ou Kraken, não vais encontrar um "volte amanhã": vais abrir conta e operar.
@@ -134,9 +134,9 @@ Uma nota curta no ficheiro da LLC que registe o titular da conta, a data de aber
 <!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-pt -->
 
 <!-- exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-pt -->
-## Como reler a configuração sem partir do zero a cada conversa com um assessor
+## Como reler a configuração sem partir do zero a cada conversa com um consultor
 
-Uma nota curta e datada, que registe o titular da conta, o país de residência do beneficiário e o tipo de atividade alojada na LLC, é suficiente para reler a configuração em poucos minutos numa conversa com um assessor fiscal, sem ter de a reconstruir de memória nem reabrir o ficheiro todo.
+Uma nota curta e datada, que registe o titular da conta, o país de residência do beneficiário e o tipo de atividade alojada na LLC, é suficiente para reler a configuração em poucos minutos numa conversa com um consultor fiscal, sem ter de a reconstruir de memória nem reabrir o ficheiro todo.
 <!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -243,7 +243,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20das%20perguntas%20mais%20frequentes%20que%20os%20clientes%20da%20Exentax%20fecham%20connosco%3A%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20das%20perguntas%20mais%20frequentes%20que%20os%20clientes%20da%20Exentax%20fecham%20connosco%3A%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

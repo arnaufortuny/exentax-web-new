@@ -58,7 +58,7 @@ Depende do seu volume:
 - **10.000€ – 50.000€/ano:** Começa a fazer sentido pela proteção patrimonial e as deduções.
 - **Mais de 50.000€/ano:** Sem dúvida. A otimização fiscal + proteção + acesso a serviços profissionais justificam o custo desde o primeiro mês.
 
-Na Exentax vemos todas as semanas traders portugueses e brasileiros a estudar passar a cripto para dentro de uma LLC. Marca a tua assessoria gratuita: analisamos o teu caso e dizemos-te claramente o que aguenta perante as Finanças e o que não.
+Na Exentax vemos todas as semanas traders portugueses e brasileiros a estudar passar a cripto para dentro de uma LLC. Marca a tua consulta gratuita: analisamos o teu caso e dizemos-te claramente o que aguenta perante as Finanças e o que não.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -114,7 +114,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 ## Uma rotina por trimestre mantém o reporting cripto sereno
 
-A maior fricção no trading cripto com LLC não vem da taxa, vem de registos incompletos. Uma rotina trimestral leve — exportar trades do Kraken ou Coinbase, conciliar com o Mercury ou Wise, anotar movimentos atípicos — evita perder três dias em Abril. Quem leva o DAC8 a sério arquiva também os KYC da exchange: é exactamente aí que o assessor fiscal espanhol ou português irá perguntar no ano seguinte.
+A maior fricção no trading cripto com LLC não vem da taxa, vem de registos incompletos. Uma rotina trimestral leve — exportar trades do Kraken ou Coinbase, conciliar com o Mercury ou Wise, anotar movimentos atípicos — evita perder três dias em Abril. Quem leva o DAC8 a sério arquiva também os KYC da exchange: é exactamente aí que o consultor fiscal espanhol ou português irá perguntar no ano seguinte.
 
 <!-- exentax:execution-v2 -->
 ## Como cripto, LLC e residência se encaixam numa imputação defensável
@@ -155,7 +155,7 @@ O tratamento fiscal da atividade cripto dentro de uma LLC raramente é um tema l
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20fazes%20trading%20de%20cripto%20a%20partir%20de%20Portugal%2C%20j%C3%A1%20sabes%20como%20o%20jogo%20ficou%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20fazes%20trading%20de%20cripto%20a%20partir%20de%20Portugal%2C%20j%C3%A1%20sabes%20como%20o%20jogo%20ficou%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

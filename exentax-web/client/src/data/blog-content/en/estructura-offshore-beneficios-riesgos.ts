@@ -110,7 +110,7 @@ The traditional distinction has lost meaning. What matters today: Is there real 
 
 Offshore is neither the magic solution some sell nor the crime others denounce. It is a tool that, used well, optimizes taxation and protects assets; and that, used poorly, creates more problems than it solves. The key is honest design, full declaration and choosing the right jurisdiction for the real case.
 
-At Exentax we can analyze your situation and propose the minimum viable structure that covers your goals without unnecessary risks. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+At Exentax we can analyze your situation and propose the minimum viable structure that covers your goals without unnecessary risks. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:

@@ -118,7 +118,7 @@ To close on the concrete side, these are the mistakes we see month after month a
 
 Form 5472 is one of the few cases where the cost of **doing nothing** is geometrically higher than doing it right. The USD 25,000 base per year is not negotiable; what is negotiable is **how you regularise, in what order, with what argument and which collateral risks you close at the same time**.
 
-If you have an LLC and think you might be in any of the three profiles, never filed, filed late, filed but wrong, the rational move is to **map your situation with real numbers before the IRS does**. In a free 30-minute advisory session we go through it with you, tell you which profile you fall into, what your exposure is and which regularisation route is realistic. It is the cheapest move you can make on this topic today.
+If you have an LLC and think you might be in any of the three profiles, never filed, filed late, filed but wrong, the rational move is to **map your situation with real numbers before the IRS does**. In a free 30-minute consultation we go through it with you, tell you which profile you fall into, what your exposure is and which regularisation route is realistic. It is the cheapest move you can make on this topic today.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -165,7 +165,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## What happens if you do NOT file 5472: how the IRS penalty works and how to regularise
 
 The 5472 is the most expensive obligation a non-resident LLC owner can fail. Sanction is civil, automatic (not IRS discretion), and starts at $25,000 per form per year. Here is what really happens and, more importantly, how to regularise minimising damage before the IRS opens the file itself.
@@ -186,7 +186,7 @@ At Exentax we handle late-5472 regularisations (late filing + reasonable cause +
 
 ## How we work at Exentax
 
-Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free advisory session in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
 
 <!-- exentax:lote15-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
@@ -208,7 +208,7 @@ Two practical points reduce most of the friction. First, abatement criteria exis
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

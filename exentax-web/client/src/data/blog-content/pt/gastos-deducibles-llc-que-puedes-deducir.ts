@@ -35,7 +35,7 @@ Aqui é onde a coisa fica interessante. A lista é muito mais ampla do que a mai
 ### Serviços profissionais
 - **Contabilidade e preparação de impostos** (como os serviços da Exentax)
 - **Serviços legais:** advogados, contratos, propriedade intelectual
-- **Assessoria de negócio:** mentores, coaches, assessores estratégicos
+- **Consultoria de negócio:** mentores, coaches, consultores estratégicos
 - **Registered Agent:** o seu agente registado nos EUA
 - **Design e branding:** logo, identidade visual, design web
 - **Tradução e copywriting**
@@ -130,7 +130,7 @@ Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/e-possive
 
 Parte do nosso serviço de manutenção inclui orientação sobre que gastos pode deduzir e como documentá-los corretamente. Não deixamos sozinho com uma lista. acompanhamos para que maximize as suas deduções sem problemas.
 
-Na Exentax fazemos mensalmente a contabilidade dedutível de dezenas de LLCs lusófonas. Marca a tua assessoria gratuita: mostramos-te exatamente o que passa, o que não passa e como documentar sem deixar pontas soltas.
+Na Exentax fazemos mensalmente a contabilidade dedutível de dezenas de LLCs lusófonas. Marca a tua consulta gratuita: mostramos-te exatamente o que passa, o que não passa e como documentar sem deixar pontas soltas.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -194,9 +194,9 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 
 A regra do IRS é enganosamente simples: "ordinary and necessary" para a sua actividade. Mas o detalhe está na documentação, no método de pagamento e na coerência. Eis o que uma LLC bem operada realmente deduz - e os erros que vemos quase semanalmente.
 
-- **Claramente dedutível.** Software (Notion, Figma, taxas Stripe, hosting), publicidade (Meta, Google, LinkedIn), subcontratados com W-9 ou W-8BEN, comissões de plataformas, subscrições profissionais, equipamento informático 100% empresarial, contabilidade e assessoria. Pagamento da conta da LLC, factura em nome da LLC, arquivada no Drive ou semelhante, etiquetada por categoria.
+- **Claramente dedutível.** Software (Notion, Figma, taxas Stripe, hosting), publicidade (Meta, Google, LinkedIn), subcontratados com W-9 ou W-8BEN, comissões de plataformas, subscrições profissionais, equipamento informático 100% empresarial, contabilidade e consultoria. Pagamento da conta da LLC, factura em nome da LLC, arquivada no Drive ou semelhante, etiquetada por categoria.
 - **Dedutível com condições.** Coworking e escritório (totalmente), home office (percentagem do espaço dedicado exclusivamente, com documentação), viagens de negócio (bilhete, hotel, ajudas razoáveis; "eu e a família em Bali" não), formação específica da actividade, refeições com clientes (50% dedutível federal).
-- **Problemático sem substância.** Carro pessoal, roupa não-uniforme, despesas pessoais misturadas, "assessoria" paga a familiares sem serviço real ou W-9, viagens sem agenda documentada. A LLC é transparente para o IRS e opaca para o banco - ambos cruzam em inspecção.
+- **Problemático sem substância.** Carro pessoal, roupa não-uniforme, despesas pessoais misturadas, "consultoria" paga a familiares sem serviço real ou W-9, viagens sem agenda documentada. A LLC é transparente para o IRS e opaca para o banco - ambos cruzam em inspecção.
 - **Disregarded vs C-Corp: a nuance.** Em disregarded, as despesas reduzem o Schedule C ou rendimento atribuído. Em C-Corp via form 8832, reduzem o lucro corporativo tributado a 21% federal. A documentação é idêntica.
 
 ### O que mais nos perguntam
@@ -243,7 +243,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20vem%20do%20Regime%20Simplificado%20em%20Portugal%20ou%20do%20MEI%20no%20Brasil%20conhece%20a%20fru%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quem%20vem%20do%20Regime%20Simplificado%20em%20Portugal%20ou%20do%20MEI%20no%20Brasil%20conhece%20a%20fru%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

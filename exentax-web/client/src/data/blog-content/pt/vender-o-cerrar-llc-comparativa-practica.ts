@@ -129,7 +129,7 @@ Se quiser saber o que encaixa no seu caso real, abra a <strong>calculadora Exent
 <!-- exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-pt -->
 ## Como ler a escolha entre vender ou encerrar a LLC como um mapeamento estável em vez de uma decisão emocional
 
-A escolha entre vender ou encerrar a LLC lê-se de forma mais útil como um mapeamento estável entre o estado atual do veículo, o perfil do comprador potencial e as obrigações residuais, em vez de uma decisão emocional. Uma nota curta e datada no ficheiro da LLC com os três pontos torna a comparação relevável em poucos minutos numa conversa com um assessor, em vez de a reconstruir de memória sob pressão.
+A escolha entre vender ou encerrar a LLC lê-se de forma mais útil como um mapeamento estável entre o estado atual do veículo, o perfil do comprador potencial e as obrigações residuais, em vez de uma decisão emocional. Uma nota curta e datada no ficheiro da LLC com os três pontos torna a comparação relevável em poucos minutos numa conversa com um consultor, em vez de a reconstruir de memória sob pressão.
 <!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -181,7 +181,7 @@ o IRS, o estado e o banco.
 
 ## Três histórias reais de clientes
 
-Uma assessora a operar com uma single-member LLC há três anos
+Uma consultora a operar com uma single-member LLC há três anos
 decidiu desactivá-la quando mudou de jurisdição. Encerrar era o
 certo: sem contratos transferíveis, o histórico bancário só lhe
 servia a ela, e o custo de venda excedia o preço realista. Corremos
@@ -194,7 +194,7 @@ todos em nome da LLC. Corremos uma venda estruturada, o comprador
 assumiu a LLC, e a fundadora manteve a sua narrativa de saída
 limpa.
 
-Uma assessora com duas LLCs (uma operacional, uma dormente) fechou
+Uma consultora com duas LLCs (uma operacional, uma dormente) fechou
 a dormente e manteve a activa. A LLC dormente não tinha activos e
 só acrescentava trabalho de compliance todos os anos. Fechá-la
 simplificou o ciclo 1120 + 5472 seguinte e reduziu o perímetro de
@@ -243,7 +243,7 @@ sentidos, é valor permanente para o sócio.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Chega%20um%20momento%20em%20muitas%20LLCs%20em%20que%20a%20pergunta%20%C3%A9%20a%20mesma%3A%20fecho-a%20ou%20vendo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Chega%20um%20momento%20em%20muitas%20LLCs%20em%20que%20a%20pergunta%20%C3%A9%20a%20mesma%3A%20fecho-a%20ou%20vendo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -63,7 +63,7 @@ If your monthly billing is low, or all your clients are domestic, an LLC probabl
 
 Don't form an LLC because you saw an Instagram reel promising 0% taxes. Analyze your real situation: income, type of clients, country of residence, medium-term plans.
 
-At Exentax we do that analysis with you in the free advisory session. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need. that's how long-term relationships are built.
+At Exentax we do that analysis with you in the free consultation. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need. that's how long-term relationships are built.
 ### The complete financial infrastructure
 
 | Tool | Function | Why it matters |

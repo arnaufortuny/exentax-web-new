@@ -50,7 +50,7 @@ A banca búlgara funciona, mas abrir conta como estrangeiro exige normalmente pr
 Wise Business e Revolut Business funcionam também, mas como EMI. Para Stripe e outros processadores, uma empresa búlgara com IBAN BG é elegível, mas o ecossistema fintech europeu não é tão amplo nem tão ágil como o americano.
 ## Comparação honesta com a LLC americana
 
-Para o perfil maioritário que assessoramos na Exentax (freelancer, agência digital, SaaS, criador de conteúdo, e-commerce):
+Para o perfil maioritário que acompanhamos na Exentax (freelancer, agência digital, SaaS, criador de conteúdo, e-commerce):
 
 - **Fiscalidade efetiva**: uma LLC nos EUA permite 0 % federal para não residentes e distribuição de benefícios sem imposto adicional nos EUA (<a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">pass-through</a>). O total a pagar depende apenas do seu país de residência.
 - **Sem necessidade de mudar**: a LLC opera-se a partir de qualquer país. A Bulgária só é ótima se está disposto a viver lá.
@@ -222,7 +222,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Bulg%C3%A1ria%20aparece%20de%20forma%20recorrente%20quando%20algu%C3%A9m%20procura%20pa%C3%ADs%20europeu%20com%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Bulg%C3%A1ria%20aparece%20de%20forma%20recorrente%20quando%20algu%C3%A9m%20procura%20pa%C3%ADs%20europeu%20com%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

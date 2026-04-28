@@ -124,7 +124,7 @@ There always is, but smaller than it seems. Consolidated regimes (Andorra, Panam
 
 Legal paths to pay less tax do exist. None consists in not declaring. The most effective ones combine international structure, fiscal planning and, when possible, favorable residency. The choice depends on your life, your income and your tolerance for change.
 
-At Exentax we can analyze your specific situation and propose the path that best fits, without empty promises and without structures that create problems three years later. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+At Exentax we can analyze your specific situation and propose the path that best fits, without empty promises and without structures that create problems three years later. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.

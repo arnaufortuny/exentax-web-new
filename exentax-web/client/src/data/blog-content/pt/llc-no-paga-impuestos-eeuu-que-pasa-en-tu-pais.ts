@@ -29,10 +29,10 @@ Entram aqui as **regras de transparência fiscal internacional (CFC)**: se a LLC
 
 Espanha é o caso mais sofisticado. A <a href="/pt/blog/doutrina-administrativa-espanhola-sobre-a-llc-americana">consulta vinculativa V0537-20</a> estabelece que o tratamento fiscal de uma LLC americana para um residente espanhol depende de **análise caso a caso** sobre seis critérios. Na prática, quase todas as LLCs single-member de espanhóis caem em **transparência fiscal**.
 
-O que importa: o teu assessor americano não sabe em que casa cai o teu país. E o teu assessor local provavelmente não conhece os seis critérios. É assim que se forma o buraco negro.
+O que importa: o teu consultor americano não sabe em que casa cai o teu país. E o teu consultor local provavelmente não conhece os seis critérios. É assim que se forma o buraco negro.
 ### O que se passa no ano 1 (quando ainda ninguém te avisou)
 
-Ano 1 com LLC. Facturas a clientes desde a LLC, recebes em Mercury ou Wise Business, pagas despesas, e no fim do ano tens lucro. O teu assessor americano (se tiveres) prepara o 1120 pro-forma + 5472 e diz: "tudo em ordem, não deves nada ao IRS".
+Ano 1 com LLC. Facturas a clientes desde a LLC, recebes em Mercury ou Wise Business, pagas despesas, e no fim do ano tens lucro. O teu consultor americano (se tiveres) prepara o 1120 pro-forma + 5472 e diz: "tudo em ordem, não deves nada ao IRS".
 
 Acontece um destes três cenários:
 
@@ -206,7 +206,7 @@ Na Exentax modelamos a sua situação completa (LLC + residência actual + poss�
 Leia esta secção como uma checklist com mordida: cada ponto sinaliza um modo de falha real que vimos em processos LLC transfronteiriços. Não salte nenhum - a maioria das reavaliações e encerramentos de conta que limpamos remonta a um destes itens.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20frase%20que%20se%20repete%20em%20cada%20v%C3%ADdeo%20do%20YouTube%20e%20em%20cada%20an%C3%BAncio%20de%20abre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20frase%20que%20se%20repete%20em%20cada%20v%C3%ADdeo%20do%20YouTube%20e%20em%20cada%20an%C3%BAncio%20de%20abre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Novo México, vê a nossa página de serviço <a href="/pt/servicos/llc-novo-mexico">LLC em Novo México</a> com custos, prazos e próximos passos concretos.
 

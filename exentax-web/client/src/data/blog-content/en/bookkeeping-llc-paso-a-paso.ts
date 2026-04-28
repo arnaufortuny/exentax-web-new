@@ -116,7 +116,7 @@ When your volume exceeds 50 monthly transactions or your activity gets complex (
 
 LLC bookkeeping is not complicated, but it requires routine. Separate finances from day one, pick a simple tool, reconcile every month and keep your receipts. With that discipline, your LLC runs for years without surprises and the annual filing stops being a stressful event.
 
-If you prefer not to handle it yourself, at Exentax we can run the bookkeeping of your LLC alongside the rest of the tax and operating package. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+If you prefer not to handle it yourself, at Exentax we can run the bookkeeping of your LLC alongside the rest of the tax and operating package. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.

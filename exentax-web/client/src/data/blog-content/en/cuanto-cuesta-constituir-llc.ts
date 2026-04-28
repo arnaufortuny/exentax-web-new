@@ -163,7 +163,7 @@ Here is where we close the loop and pull together what other websites scatter ac
 
 **What you save vs DIY:** a misfiled 5472 is USD 25,000 per form per year (IRC §6038A); a late BOI, when it applies, is USD 591/day cumulative; a rejected ITIN leaves you without operational banking for months. The Exentax value is not just running the paperwork; it is getting it right first time and having an accountable adviser when the IRS or your home-country authority asks.
 
-Zero surprises, zero "ah, that wasn't included", zero invoice shocks. Book a free advisory session and we will give you the exact numbers for your specific case.
+Zero surprises, zero "ah, that wasn't included", zero invoice shocks. Book a free consultation and we will give you the exact numbers for your specific case.
 
 ## Legal and regulatory references
 

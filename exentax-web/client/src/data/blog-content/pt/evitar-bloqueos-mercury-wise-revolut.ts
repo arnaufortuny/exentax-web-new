@@ -66,7 +66,7 @@ Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/iban-swift-e
 - **Mercury** usa a Column NA como banco custodiante. Os teus fundos têm seguro FDIC até $250K por depositante. Os wires nacionais e internacionais são $0. É uma plataforma fintech séria, não uma brincadeira.
 - **Wise Business** é uma EMI (Instituição de Dinheiro Eletrónico), não um banco. Não tem seguro de depósitos como um banco tradicional, mas os fundos de clientes estão segregados. Usa-o para conversões e transferências, não como tesouraria principal.
 - **Relay** usa o Thread Bank como banco subjacente. Boa opção como conta de reserva com até 20 subcontas gratuitas.
-Na Exentax desbloqueamos este tipo de situação todas as semanas para clientes lusófonos. Marca a tua assessoria gratuita: identificamos os sinais que estão a prender o teu banco e repomos o fluxo.
+Na Exentax desbloqueamos este tipo de situação todas as semanas para clientes lusófonos. Marca a tua consulta gratuita: identificamos os sinais que estão a prender o teu banco e repomos o fluxo.
 ### Próximos passos
 
 Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
@@ -162,7 +162,7 @@ Os dois alavancas práticas que mantêm a operação fluida em Mercury e Wise s�
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22N%C3%A3o%20h%C3%A1%20pesadelo%20pior%20para%20um%20freelancer%20em%20Portugal%20ou%20no%20Brasil%20do%20que%20um%20Me%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22N%C3%A3o%20h%C3%A1%20pesadelo%20pior%20para%20um%20freelancer%20em%20Portugal%20ou%20no%20Brasil%20do%20que%20um%20Me%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

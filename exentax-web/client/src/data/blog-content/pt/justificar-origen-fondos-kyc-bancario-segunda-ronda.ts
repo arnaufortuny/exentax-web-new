@@ -172,7 +172,7 @@ Uma segunda ronda de KYC raramente é o banco a duvidar de si
 pessoalmente. É um processo periódico que a equipa de compliance
 corre quando o perfil de uma conta e os seus movimentos reais
 deixam de coincidir: uma LLC aberta com a utilização declarada
-"assessoria, volume baixo" que agora recebe payouts de marketplace,
+"consultoria, volume baixo" que agora recebe payouts de marketplace,
 ou um sócio listado como residente fiscal espanhol cuja despesa em
 cartão parece centrada noutra jurisdição. O banco está a actualizar
 o seu modelo do cliente, e os documentos pedidos visam confirmar que
@@ -201,7 +201,7 @@ representativas. Sem nova estrutura, sem nova conta, sem alarmes. A
 equipa de compliance marcou o processo como completo em menos de
 dez dias úteis.
 
-Uma LLC de assessoria com um único cliente institucional grande
+Uma LLC de consultoria com um único cliente institucional grande
 recebeu uma carta de segunda ronda na semana em que a primeira
 factura foi paga. A resposta foi uma cópia do contrato-quadro de
 serviços, o registo da transferência correspondente e uma curta
@@ -255,7 +255,7 @@ bancário da LLC e o seguro mais barato contra bloqueios futuros.
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20tens%20a%20tua%20LLC%20h%C3%A1%20tempo%20e%20o%20Mercury%2C%20o%20Wise%20ou%20a%20tua%20passarela%20te%20pedem%20de%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20tens%20a%20tua%20LLC%20h%C3%A1%20tempo%20e%20o%20Mercury%2C%20o%20Wise%20ou%20a%20tua%20passarela%20te%20pedem%20de%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -69,7 +69,7 @@ Se és cidadão ou residente fiscal dos EUA (o que não se aplica à maioria dos
 Para não residentes com LLCs, o FBAR normalmente não é diretamente aplicável. Mas se a tua situação mudar (por exemplo, se obtiveres residência americana), esta obrigação entra em vigor imediatamente. É importante tê-lo no radar.
 ### O que acontece quando a Autoridade Tributária faz perguntas
 
-O cenário mais comum: és freelancer, constituis a tua LLC, começas a faturar por ela. O teu assessor fiscal local declara os rendimentos no teu IRS/IRPF. Tudo correto.
+O cenário mais comum: és freelancer, constituis a tua LLC, começas a faturar por ela. O teu consultor fiscal local declara os rendimentos no teu IRS/IRPF. Tudo correto.
 
 Um dia, a autoridade tributária envia-te um pedido de informação sobre a tua atividade internacional. Não é uma inspeção. é um pedido de esclarecimento.
 
@@ -90,13 +90,13 @@ Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste arti
 Na Exentax operamos com total transparência. Quando constituímos a sua LLC:
 
 - Explicamos exatamente que obrigações tem no seu país de residência
-- Preparamos toda a documentação que o seu assessor fiscal local necessita para a sua declaração
+- Preparamos toda a documentação que o seu consultor fiscal local necessita para a sua declaração
 - Mantemos um registo rastreável de todas as operações da LLC
 - Acompanhamo-lo na interação com a sua autoridade tributária local se surgir alguma consulta
 
 Não procuramos clientes que queiram esconder dinheiro. Procuramos profissionais que queiram pagar o justo, operar de forma profissional e dormir tranquilos sabendo que tudo está em ordem.
 
-Na Exentax estruturamos LLCs a partir da realidade CRS + FATCA e do critério concreto das Finanças. Marca a tua assessoria gratuita e explicamos-te o que efetivamente chega ao teu país e o que não chega.
+Na Exentax estruturamos LLCs a partir da realidade CRS + FATCA e do critério concreto das Finanças. Marca a tua consulta gratuita e explicamos-te o que efetivamente chega ao teu país e o que não chega.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -199,7 +199,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20CRS%20da%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20CRS%20da%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

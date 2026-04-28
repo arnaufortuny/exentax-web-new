@@ -122,7 +122,7 @@ Mercury and Brex issue all these categories at no cost. Wise too. If you pay eve
 - Freezes are not exceptions, they're a routine event with a predictable timeline. The difference between "annoyance" and "crisis" is the stack.
 - **Never mix personal and LLC**, segment by risk, 25-35% tax buffer, FX buffer and pre-payment documentation are the five rules that save you five figures.
 
-If you have an LLC and want us to design the right banking stack for your volume and risk profile with you, **we'll go through it together** in a free 30-minute advisory session. Building it well is cheap. Building it half-way and finding out the day Mercury sends the first "your account is under review" email is expensive.
+If you have an LLC and want us to design the right banking stack for your volume and risk profile with you, **we'll go through it together** in a free 30-minute consultation. Building it well is cheap. Building it half-way and finding out the day Mercury sends the first "your account is under review" email is expensive.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -237,7 +237,7 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

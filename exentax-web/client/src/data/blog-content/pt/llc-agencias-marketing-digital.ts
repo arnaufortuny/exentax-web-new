@@ -23,7 +23,7 @@ Não precisa viajar aos Estados Unidos, não precisa de escritório físico, e t
 
 Se a sua agência fatura mais de 3.000-5.000€ por mês e tem pelo menos alguns clientes internacionais, é muito provável que a estrutura LLC o beneficie. Quanto maior for a sua faturação, maior pode ser a diferença.
 
-Se fatura menos ou só tem clientes locais, pode ser que uma LLC não seja a melhor opção ainda. Na assessoria gratuita analisamos o seu caso específico e damos-lhe uma resposta honesta.
+Se fatura menos ou só tem clientes locais, pode ser que uma LLC não seja a melhor opção ainda. Na consulta gratuita analisamos o seu caso específico e damos-lhe uma resposta honesta.
 ## Integrações chave para agências
 
 ### Stripe para cobrar a clientes internacionais
@@ -64,9 +64,9 @@ Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/llc-americana-pa
 
 Constituição completa da LLC, EIN, conta bancária, configuração de Stripe e faturação, compliance anual. Não desaparecemos depois de montar a empresa. ficamos consigo para que tudo funcione corretamente. Suporte contínuo, o ano todo.
 
-Agende uma assessoria gratuita e explicamos-lhe como poderia funcionar para a sua agência. Em 30 minutos fazemos os números com as suas cifras reais.
+Agende uma consulta gratuita e explicamos-lhe como poderia funcionar para a sua agência. Em 30 minutos fazemos os números com as suas cifras reais.
 
-Na Exentax estruturamos agências em Portugal e no Brasil que operam entre Lisboa, São Paulo e Nova Iorque. Marca a tua assessoria gratuita e mostramos-te como dividir entre Lda e LLC sem risco com as Finanças.
+Na Exentax estruturamos agências em Portugal e no Brasil que operam entre Lisboa, São Paulo e Nova Iorque. Marca a tua consulta gratuita e mostramos-te como dividir entre Lda e LLC sem risco com as Finanças.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -80,7 +80,7 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 <!-- exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
 ## Como ler a LLC para agências de marketing digital como um mapa operativo estável em vez de uma escolha de custo
 
-A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
+A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
 <!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -175,7 +175,7 @@ Este artigo é atualizado anualmente com as alterações regulatórias que afeta
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20uma%20ag%C3%AAncia%20digital%20em%20Portugal%20que%20factura%20clientes%20americanos%2C%20brit%C3%A2ni%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20uma%20ag%C3%AAncia%20digital%20em%20Portugal%20que%20factura%20clientes%20americanos%2C%20brit%C3%A2ni%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

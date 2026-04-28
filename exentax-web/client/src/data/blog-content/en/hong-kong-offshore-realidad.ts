@@ -110,7 +110,7 @@ A real geopolitical risk. Any legal tightening or capital restriction can affect
 
 Hong Kong is still a serious jurisdiction, but it is no longer the magic offshore solution some keep selling. For non-resident entrepreneurs who want simplicity, operating banking, reasonable cost and clean taxation, the US LLC offers today a better combination.
 
-If you are torn between the two options, at Exentax we can analyze your specific case before you commit to costs that are hard to reverse later. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+If you are torn between the two options, at Exentax we can analyze your specific case before you commit to costs that are hard to reverse later. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.

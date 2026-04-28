@@ -88,7 +88,7 @@ Todos os nossos agentes incluem:
 - Renovação anual automática (sem que tenha de fazer nada)
 - Reenvio de correio físico quando necessário
 
-Na Exentax integramos um Registered Agent sólido logo na constituição para clientes lusófonos. Marca a tua assessoria gratuita: validamos a tua cobertura e, se for frágil, trocamo-la.
+Na Exentax integramos um Registered Agent sólido logo na constituição para clientes lusófonos. Marca a tua consulta gratuita: validamos a tua cobertura e, se for frágil, trocamo-la.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -185,7 +185,7 @@ Se quiser rever o seu agente actual ou trocá-lo sem perder antiguidade, abra a 
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%20n%C3%A3o%20h%C3%A1%20bem%20um%20equivalente%20ao%20Registered%20Agent%3A%20%C3%A9%20uma%20mistura%20de%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%20n%C3%A3o%20h%C3%A1%20bem%20um%20equivalente%20ao%20Registered%20Agent%3A%20%C3%A9%20uma%20mistura%20de%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

@@ -103,7 +103,7 @@ If your US financial accounts (Mercury, Relay, Slash) have an aggregate balance 
 | Mixed finances | Corporate veil pierced (unlimited liability) | Mercury setup guidance + separation protocols |
 | Form 5472 missed | $25,000/year | Included in annual maintenance |
 | BOI Report missed | $591/day + criminal risk | Filed at formation + annual updates |
-| Wrong state | $300+/year in unnecessary fees | State selection advisory session |
+| Wrong state | $300+/year in unnecessary fees | State selection consultation |
 | No Operating Agreement | Bank rejection + legal exposure | Custom OA included |
 | DIY compliance | Multiple errors, rejection, penalties | Full professional service |
 | No FBAR | $12,909+ per violation | Filed annually by Exentax |

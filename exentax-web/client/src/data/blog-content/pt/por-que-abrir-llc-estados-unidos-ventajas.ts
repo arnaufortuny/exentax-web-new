@@ -11,7 +11,7 @@ Uma das vantagens mais valorizadas das LLCs americanas é a **privacidade**. Dep
 ### Como funciona?
 
 - **Novo México e Wyoming** permitem constituir LLCs onde os dados dos membros (proprietários) não são de acesso público. Os Articles of Organization mostram apenas o nome do agente registado e o endereço da empresa. não o seu.
-- **O Operating Agreement é um documento privado.** Não é registado perante nenhuma autoridade. É o documento interno que estabelece as regras da sua LLC, e só o conhece (e o seu assessor).
+- **O Operating Agreement é um documento privado.** Não é registado perante nenhuma autoridade. É o documento interno que estabelece as regras da sua LLC, e só o conhece (e o seu consultor).
 - **Não existe um registo público de membros** de LLCs como ocorre em muitos países europeus ou latino-americanos.
 
 ### Por que a privacidade importa?
@@ -149,7 +149,7 @@ Voos, hospedagem, transporte local, diárias, desde que a viagem tenha um propó
 Anúncios no Meta, Google Ads, LinkedIn Ads, design de marca, branding, SEO, produção de conteúdo, relações públicas, patrocínios relevantes.
 
 ### Serviços profissionais
-Contabilidade (olá, Exentax), assessoria fiscal, agente registado, serviços jurídicos, assessoria especializada, design gráfico, copywriting.
+Contabilidade (olá, Exentax), consultoria fiscal, agente registado, serviços jurídicos, consultoria especializada, design gráfico, copywriting.
 
 ### Telecomunicações
 Conta de internet (percentual profissional), plano de telemóvel (percentual profissional), VPN, serviços de comunicação.
@@ -180,9 +180,9 @@ Não subcontratamos, não delegamos a terceiros, não usamos modelos genéricos.
 Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/documentos-da-llc-quais-precisa-e-como-organiza-los">Documentos da LLC: quais precisa e como organizá-los</a> detalha uma peça vizinha que costumamos reservar para um artigo dedicado.
 ### Faz sentido para si?
 
-Se é freelancer, assessor, desenvolvedor, designer, profissional de marketing ou qualquer profissional digital que fatura mais de $2,000 por mês a clientes internacionais, a resposta provavelmente é sim.
+Se é freelancer, consultor, desenvolvedor, designer, profissional de marketing ou qualquer profissional digital que fatura mais de $2,000 por mês a clientes internacionais, a resposta provavelmente é sim.
 
-Na Exentax mostramos todas as semanas a clientes lusófonos como a LLC vira equações que pareciam bloqueadas. Marca a tua assessoria gratuita e fazemos a demonstração sobre os teus números reais.
+Na Exentax mostramos todas as semanas a clientes lusófonos como a LLC vira equações que pareciam bloqueadas. Marca a tua consulta gratuita e fazemos a demonstração sobre os teus números reais.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -261,7 +261,7 @@ Na Exentax abrimos a LLC com o stack completo e modelamos antes se traz valor re
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Porqu%C3%AA%20uma%20LLC%20americana%20em%20vez%20de%20ficar%20em%20Lda%2C%20recibos%20verdes%20ou%20MEI%3F%20Respo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Porqu%C3%AA%20uma%20LLC%20americana%20em%20vez%20de%20ficar%20em%20Lda%2C%20recibos%20verdes%20ou%20MEI%3F%20Respo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

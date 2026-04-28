@@ -68,7 +68,7 @@ Quem passou por aqui sabe que o momento decisivo é **o prazo do passo 2**. Uma 
 O IRS prevê uma **reasonable cause exception** ao abrigo do 6038A. Não é magia: é doutrina com critérios. O que tipicamente **funciona**:
 
 - Demonstrar que agiste com **diligência ordinária** e que o erro veio de causa razoável, não negligência.
-- Apresentar correspondência com assessores anteriores que te asseguraram que não havia obrigação.
+- Apresentar correspondência com consultores anteriores que te asseguraram que não havia obrigação.
 - Demonstrar que assim que tomaste conhecimento da obrigação, **regularizaste imediatamente**.
 - Mostrar que a informação estava disponível e que apresentaste declarações correctas e completas ao regularizar.
 
@@ -121,7 +121,7 @@ O Form 5472 é um dos poucos casos onde o custo de **não fazer nada** é geomet
 <!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
 ## Como ler as consequências de não apresentar o Form 5472 como um mapeamento estável em vez de uma ameaça vaga
 
-As consequências de não apresentar o Form 5472 leem-se de forma mais útil como um mapeamento estável entre o ano afetado, o tipo de omissão e o tipo de remediação, em vez de uma ameaça vaga. Este mapeamento mantém-se relevável em poucos minutos numa conversa com um assessor — uma nota curta e datada no ficheiro pessoal com os três eixos é suficiente.
+As consequências de não apresentar o Form 5472 leem-se de forma mais útil como um mapeamento estável entre o ano afetado, o tipo de omissão e o tipo de remediação, em vez de uma ameaça vaga. Este mapeamento mantém-se relevável em poucos minutos numa conversa com um consultor — uma nota curta e datada no ficheiro pessoal com os três eixos é suficiente.
 <!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -243,7 +243,7 @@ Dois pontos práticos eliminam a maior parte do atrito. Primeiro, existem crité
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20declara%C3%A7%C3%A3o%20na%20vida%20fiscal%20de%20uma%20LLC%20unipessoal%20com%20s%C3%B3cio%20estrangeiro%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22H%C3%A1%20uma%20declara%C3%A7%C3%A3o%20na%20vida%20fiscal%20de%20uma%20LLC%20unipessoal%20com%20s%C3%B3cio%20estrangeiro%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

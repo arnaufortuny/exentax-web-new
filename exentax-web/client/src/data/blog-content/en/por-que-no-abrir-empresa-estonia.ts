@@ -252,7 +252,7 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## Why opening a company in Estonia (almost always) does not pay off
 
 Estonia was sold as the digital entrepreneur's paradise with e-Residency. The technical reality, after five years of practice with clients who came to fix the setup, is that for 90% of profiles opening it, it is worse than a US LLC or a company at residence. Worth knowing before paying the e-Residency fee and the thousands that follow.

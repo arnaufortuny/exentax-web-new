@@ -81,9 +81,9 @@ Pode dissolver a LLC a qualquer momento. Mas ninguém se arrependeu até agora. 
 Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/ach-vs-transferencia-bancaria-prazos-de-pagamento-e-impacto">ACH vs transferência bancária: prazos de pagamento e impacto no fluxo de caixa da LLC</a> e <a href="/pt/blog/como-escalar-seu-negocio-digital-com-uma-llc-americana">Como escalar seu negócio digital com uma LLC americana</a> detalham peças vizinhas que costumamos reservar para artigos dedicados.
 ### Pronto para começar?
 
-Se quer saber como seria seu primeiro mês com uma LLC, agende uma assessoria gratuita. Explicamos o processo completo, fazemos os cálculos com seu faturamento real e esclarecemos todas as suas dúvidas. Em 30 minutos terá clareza se a LLC é para si.
+Se quer saber como seria seu primeiro mês com uma LLC, agende uma consulta gratuita. Explicamos o processo completo, fazemos os cálculos com seu faturamento real e esclarecemos todas as suas dúvidas. Em 30 minutos terá clareza se a LLC é para si.
 
-Na Exentax acompanhamos o mês 1 de cada cliente lusófono, semana a semana. Marca a tua assessoria gratuita: vemos onde estás e damos-te o mapa.
+Na Exentax acompanhamos o mês 1 de cada cliente lusófono, semana a semana. Marca a tua consulta gratuita: vemos onde estás e damos-te o mapa.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -176,7 +176,7 @@ Na Exentax acompanhamos os 30 dias iniciais com calendário semanal e mediação
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20primeiro%20m%C3%AAs%20de%20uma%20LLC%2C%20para%20quem%20vem%20de%20recibos%20verdes%20ou%20de%20Lda%20em%20Portu%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20primeiro%20m%C3%AAs%20de%20uma%20LLC%2C%20para%20quem%20vem%20de%20recibos%20verdes%20ou%20de%20Lda%20em%20Portu%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

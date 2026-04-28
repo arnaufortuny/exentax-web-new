@@ -129,7 +129,7 @@ One adjacent read worth having open alongside this one: <a href="/en/blog/anti-m
 
 If you're in the "high risk" column for any factor, address it immediately. At Exentax, we review your account setup during onboarding to eliminate freeze risk factors before they become problems.
 
-Book your strategic advisory session and we'll coordinate your banking due diligence from the start.
+Book your strategic consultation and we'll coordinate your banking due diligence from the start.
 ## A balanced banking stack: Mercury, Relay, Slash and Wise
 
 There is no perfect account for an LLC. There is the right **stack**, where each tool plays a role:

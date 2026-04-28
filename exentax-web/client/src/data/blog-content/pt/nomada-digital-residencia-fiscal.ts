@@ -133,7 +133,7 @@ Se é nómada digital (ou está a pensar em sê-lo), a sequência ideal é:
 4. **Configure o seu ecossistema financeiro** (Mercury + Wise + Stripe)
 5. **Comunique a mudança** às autoridades fiscais do seu país de origem
 
-És nómada digital lusófono e queres clarificar a tua residência fiscal antes que se transforme num dossier complicado com as Finanças? Agenda a tua assessoria gratuita. Analisamos a tua situação, os teus dias de presença e os teus clientes e propomos-te um plano realista atualmente.
+És nómada digital lusófono e queres clarificar a tua residência fiscal antes que se transforme num dossier complicado com as Finanças? Agenda a tua consulta gratuita. Analisamos a tua situação, os teus dias de presença e os teus clientes e propomos-te um plano realista atualmente.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -280,7 +280,7 @@ Para se manter fora de zonas cinzentas continue com <a href="/pt/blog/estruturas
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Trabalhas%20dois%20meses%20desde%20Lisboa%2C%20um%20m%C3%AAs%20desde%20Bali%2C%20vais%20ver%20a%20fam%C3%ADlia%20a%20Co%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Trabalhas%20dois%20meses%20desde%20Lisboa%2C%20um%20m%C3%AAs%20desde%20Bali%2C%20vais%20ver%20a%20fam%C3%ADlia%20a%20Co%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -59,7 +59,7 @@ A banca panamenha continua a ser séria, mas abrir conta como estrangeiro hoje �
 Comparado com abrir Mercury para uma LLC em 7-14 dias sem viajar, a diferença é abissal.
 ## Comparação honesta com a LLC americana
 
-Para o perfil habitual que assessoramos:
+Para o perfil habitual que acompanhamos:
 
 - **Fiscalidade líquida**: ambas as estruturas podem atingir 0 % no país de constituição (Panamá por territorialidade, EUA por <a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">pass-through</a>). No seu país de residência tributa igual com uma ou outra.
 - **Substância e compliance**: o Panamá exige cada vez mais justificar substância. A LLC americana não tem essa carga.
@@ -190,7 +190,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20Panam%C3%A1%20foi%20durante%20d%C3%A9cadas%20um%20nome%20associado%20a%20sociedades%20offshore%2C%20banca%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20Panam%C3%A1%20foi%20durante%20d%C3%A9cadas%20um%20nome%20associado%20a%20sociedades%20offshore%2C%20banca%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

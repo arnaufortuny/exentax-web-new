@@ -13,7 +13,7 @@ O erro mais caro e mais fácil de corrigir. Muitos freelancers só deduzem as de
 - **Seguros profissionais** (responsabilidade civil, seguros de saúde se és trabalhador independente/autónomo)
 - **Viagens de trabalho** (transporte, alojamento, diárias)
 - **Contribuição de trabalhador independente/autónomo**: sim, a própria contribuição é dedutível
-- **Assessoria fiscal e contabilística**
+- **Consultoria fiscal e contabilística**
 
 Um freelancer que fatura 60.000€/ano e só deduz 3.000€ em despesas poderia estar a deduzir 12.000-15.000€ se mantiver um registo correto. Isso pode significar **3.000-4.000€ a menos de IRPF por ano**.
 ### Erro 2: Escolher a epígrafe do IAE incorreta
@@ -55,7 +55,7 @@ Erros comuns:
 - **Não compensar perdas** de trimestres anteriores
 ### Erro 6: Ignorar a fiscalidade internacional
 
-Se faturas a clientes fora de Espanha, tens opções de otimização fiscal que a maioria dos assessores sem experiência internacional desconhecem:
+Se faturas a clientes fora de Espanha, tens opções de otimização fiscal que a maioria dos consultores sem experiência internacional desconhecem:
 
 - **LLC nos Estados Unidos:** Estrutura com 0% de imposto federal nos EUA para não residentes
 - **Convenções de Dupla Tributação:** Para evitar pagar impostos duas vezes pelos mesmos rendimentos
@@ -95,9 +95,9 @@ Falando de despesas dedutíveis. muitos freelancers com LLC não aproveitam a am
 A chave: cada despesa deve ser "ordinária e necessária" para a tua atividade, e deve estar documentada. Guarda todas as faturas e recibos.
 ### Erro 10: Trabalhar com alguém que não entende fiscalidade internacional
 
-Muitos assessores fiscais são excelentes para trabalhadores independentes/autónomos e PMEs locais. E fazem-no bem para esse perfil. Mas se faturas a clientes internacionais, tens (ou queres) uma LLC americana, e precisas de otimização fiscal com estruturas em vários países, precisas de alguém que fale essa linguagem.
+Muitos consultores fiscais são excelentes para trabalhadores independentes/autónomos e PMEs locais. E fazem-no bem para esse perfil. Mas se faturas a clientes internacionais, tens (ou queres) uma LLC americana, e precisas de otimização fiscal com estruturas em vários países, precisas de alguém que fale essa linguagem.
 
-Sinais de que o teu assessor não entende a tua situação:
+Sinais de que o teu consultor não entende a tua situação:
 - Não sabem o que é o Form 5472 nem o BOI Report
 - Dizem-te que "a LLC não te serve para nada"
 - Não entendem o conceito de pass-through taxation para não residentes
@@ -121,11 +121,11 @@ Para um freelancer com 60.000€ de faturação anual:
 | Ignorar otimização internacional | 15.000-20.000€ |
 | Não planear | variable |
 | Não maximizar deduções LLC | 3.000-6.000€ |
-| Assessor sem experiência internacional | 5.000-15.000€ |
+| Consultor sem experiência internacional | 5.000-15.000€ |
 
 **Total potencial: até 45.000€/ano em erros evitáveis.** Sim, leste bem. Quarenta e cinco mil euros que poderiam estar no teu bolso se alguém competente gerisse a tua fiscalidade.
 
-Na Exentax corrigimos este tipo de buraco todas as semanas para clientes em Portugal e no Brasil. Marca a tua assessoria gratuita: auditamos a tua situação real e pomos as Finanças e o IRS americano de novo em ordem.
+Na Exentax corrigimos este tipo de buraco todas as semanas para clientes em Portugal e no Brasil. Marca a tua consulta gratuita: auditamos a tua situação real e pomos as Finanças e o IRS americano de novo em ordem.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -230,7 +230,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20fala%20dos%20freelancers%20espanh%C3%B3is%2C%20mas%20tr%C3%AAs%20quartos%20dos%20erros%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20fala%20dos%20freelancers%20espanh%C3%B3is%2C%20mas%20tr%C3%AAs%20quartos%20dos%20erros%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

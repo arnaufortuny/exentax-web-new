@@ -75,7 +75,7 @@ Com uma LLC podes deduzir toda a despesa "ordinária e necessária" para o teu n
 - **Home office:** parte proporcional de aluguer, internet, eletricidade, telefone
 - **Formação:** cursos, livros profissionais, conferências, eventos do setor
 - **Viagens de negócio:** bilhetes de avião, alojamento, transporte local
-- **Serviços profissionais:** contabilidade, jurídico, assessoria, registered agent
+- **Serviços profissionais:** contabilidade, jurídico, consultoria, registered agent
 - **Comissões:** Stripe, PayPal, comissões bancárias
 - **Seguros:** seguro de responsabilidade civil, seguro médico profissional
 - **Subscrições profissionais:** ferramentas de produtividade, plataformas de design, APIs
@@ -140,7 +140,7 @@ Para continuar neste fio, <a href="/pt/blog/vantagens-e-desvantagens-de-uma-llc-
 
 Se decides dar o passo, na Exentax não nos limitamos a criar a tua LLC e obter o teu EIN. desenhamos a tua estrutura completa: abertura de conta bancária, configuração de tesouraria com Slash, cartões corporativos Wallester, integração com Stripe ou o gateway que necessites, e todo o compliance anual (Form 5472, BOI Report, renovação de agente registado). Não somos vendedores de LLCs: somos designers de estruturas.
 
-Queres ver, com os teus números reais (faturação, margens, residência fiscal em Portugal ou no Brasil), o que daria a tua atividade com uma LLC americana em vez do teu regime atual? Agenda a tua assessoria gratuita. Fazemos as contas juntos, sem compromisso, e sais com uma resposta clara.
+Queres ver, com os teus números reais (faturação, margens, residência fiscal em Portugal ou no Brasil), o que daria a tua atividade com uma LLC americana em vez do teu regime atual? Agenda a tua consulta gratuita. Fazemos as contas juntos, sem compromisso, e sais com uma resposta clara.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -239,7 +239,7 @@ Na Exentax fazemos um diagnóstico de sessenta minutos com os seus números: exp
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Este%20artigo%20compara%20diretamente%20o%20aut%C3%B3nomo%20espanhol%20com%20a%20LLC%20americana%2C%20porq%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Este%20artigo%20compara%20diretamente%20o%20aut%C3%B3nomo%20espanhol%20com%20a%20LLC%20americana%2C%20porq%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

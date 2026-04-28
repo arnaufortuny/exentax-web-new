@@ -129,7 +129,7 @@ Yes, through a process called "domestication" or by forming a new LLC in the tar
 **How do I know if my LLC is in Good Standing?**
 Most states have an online lookup tool. Search for your LLC by name on the Secretary of State website. At Exentax, we monitor this for all our clients.
 
-At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes. Many filings have grace periods or penalty abatement options for first-time non-compliance. The sooner you act, the better the outcome.
+At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes. Many filings have grace periods or penalty abatement options for first-time non-compliance. The sooner you act, the better the outcome.
 
 Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/anti-money-laundering-compliance-for-your-llc-what-you-need">Anti-money laundering compliance for your LLC: what you need to know</a> helps round off the context.
 ## Legal and regulatory references

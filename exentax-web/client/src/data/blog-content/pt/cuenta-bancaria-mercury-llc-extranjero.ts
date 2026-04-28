@@ -4,7 +4,7 @@ export default `
 Se acabaste de constituir a tua LLC a partir de Portugal ou do Brasil, a próxima pergunta é quase sempre a mesma: "como é que abro uma conta bancária americana sem pôr os pés nos Estados Unidos?" Durante anos a resposta por defeito era a Mercury. **atualmente, a Exentax já não recomenda a Mercury como conta principal quando toda a tua operação acontece fora dos EUA.** A razão é muito concreta: quando a Mercury fecha uma conta no âmbito de uma revisão de compliance, cada vez mais frequente, **devolve os fundos através de um cheque físico em USD em nome da LLC, enviado por correio postal para a morada registada da empresa**. Para um residente fiscal em Portugal, no Brasil ou em LATAM, depositar esse cheque é lento, caro e, em muitos bancos europeus, simplesmente impossível.
 
 > **Aviso hoje, Mercury e operação não estado-unidense.**
-> Se 100 % da tua atividade (clientes, recebimentos, despesas) acontece fora dos EUA, a Exentax **não** recomenda a Mercury como conta principal. O produto é sólido, mas o mecanismo de devolução em caso de fecho por compliance (cheque físico em USD) penaliza especificamente o titular não residente. Recomendação: usa **Relay** (Thread Bank, FDIC) ou **Slash** (Column N.A. e/ou Stearns Bank, FDIC) como conta principal e, se abrires Mercury, mantém-na como secundária com saldo operacional baixo. Desenhamos o stack contigo na assessoria inicial.
+> Se 100 % da tua atividade (clientes, recebimentos, despesas) acontece fora dos EUA, a Exentax **não** recomenda a Mercury como conta principal. O produto é sólido, mas o mecanismo de devolução em caso de fecho por compliance (cheque físico em USD) penaliza especificamente o titular não residente. Recomendação: usa **Relay** (Thread Bank, FDIC) ou **Slash** (Column N.A. e/ou Stearns Bank, FDIC) como conta principal e, se abrires Mercury, mantém-na como secundária com saldo operacional baixo. Desenhamos o stack contigo na consultoria inicial.
 
 Este guia continua a explicar como funciona a Mercury e como abrir a conta corretamente, mas lê primeiro o aviso acima.
 
@@ -122,7 +122,7 @@ Sim, tudo a zero. A Mercury monetiza com produtos premium (Mercury Treasury, cr�
 3. **Ativa a autenticação de dois fatores** desde o primeiro dia. A segurança não é opcional.
 4. **Cria sub-contas** para organizar o teu dinheiro: uma para operações, outra para impostos, outra para reservas. A Mercury torna isto muito fácil.
 
-Na Exentax tratamos da abertura da tua conta Mercury como parte da constituição da tua LLC: preparamos a documentação, redigimos uma descrição de atividade limpa e garantimos que o pedido passa à primeira, sem ir e vir com a equipa de compliance. Agenda a tua assessoria gratuita e explicamos-te tudo.
+Na Exentax tratamos da abertura da tua conta Mercury como parte da constituição da tua LLC: preparamos a documentação, redigimos uma descrição de atividade limpa e garantimos que o pedido passa à primeira, sem ir e vir com a equipa de compliance. Agenda a tua consulta gratuita e explicamos-te tudo.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -282,7 +282,7 @@ Para aprofundar a estrutura bancária completa leia <a href="/pt/blog/as-contas-
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20acabaste%20de%20constituir%20a%20tua%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20a%20pr%C3%B3x%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20acabaste%20de%20constituir%20a%20tua%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20a%20pr%C3%B3x%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

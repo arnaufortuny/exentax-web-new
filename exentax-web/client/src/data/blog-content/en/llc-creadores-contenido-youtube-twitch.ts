@@ -110,7 +110,7 @@ To keep going on this thread, <a href="/en/blog/us-llc-for-digital-marketing-age
 
 Every dollar deducted is a dollar you don't pay taxes on. With a 30% tax rate in your home country, $20,000 in deductions saves you $6,000 in taxes annually.
 
-Book your strategic advisory session and we'll structure your LLC for your content creation business.
+Book your strategic consultation and we'll structure your LLC for your content creation business.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -168,7 +168,7 @@ At Exentax we build the full creator setup (LLC + EIN + Mercury + W-8BEN-E + AdS
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- exentax:cross-refs-v1 -->
 ## On the same topic

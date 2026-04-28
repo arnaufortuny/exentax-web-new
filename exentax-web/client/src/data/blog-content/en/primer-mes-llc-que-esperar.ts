@@ -108,7 +108,7 @@ If something in this structure left you wanting more detail, <a href="/en/blog/a
 | Record-keeping system set up | ☐ | Google Drive folders created |
 | First invoice sent | ☐ | You're officially operating! |
 
-Book your strategic advisory session. Let's get your first month started on the right foot.
+Book your strategic consultation. Let's get your first month started on the right foot.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:

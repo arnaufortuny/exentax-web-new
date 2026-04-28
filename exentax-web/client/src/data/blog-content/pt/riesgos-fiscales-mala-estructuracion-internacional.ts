@@ -24,7 +24,7 @@ A TFI ativa-se quando se verificam três condições cumulativas:
 
 Se ativar, os rendimentos são imputados ao sócio em Espanha ou em Portugal como se os tivesse obtido diretamente, perdendo a vantagem fiscal da estrutura. A dedução por dupla tributação é residual porque a LLC normalmente não paga imposto americano.
 
-**Como evitar**: se a atividade for operacional (serviços de assessoria, e-commerce ativo, SaaS com desenvolvimento contínuo), normalmente não se ativa pelo filtro da natureza do rendimento. Se for rendimento passivo, há que redesenhar (ver <a href="/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos">tributação da LLC segundo a atividade</a>).
+**Como evitar**: se a atividade for operacional (serviços de consultoria, e-commerce ativo, SaaS com desenvolvimento contínuo), normalmente não se ativa pelo filtro da natureza do rendimento. Se for rendimento passivo, há que redesenhar (ver <a href="/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos">tributação da LLC segundo a atividade</a>).
 
 ## Risco 3: Residência fiscal fictícia
 
@@ -97,7 +97,7 @@ Os riscos fiscais não são hipotéticos: são a realidade das inspeções que v
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Quer uma revisão profissional da sua estrutura para detetar e corrigir riscos antes que seja a Autoridade Tributária a fazê-lo? Marque a sua assessoria gratuita.
+Quer uma revisão profissional da sua estrutura para detetar e corrigir riscos antes que seja a Autoridade Tributária a fazê-lo? Marque a sua consulta gratuita.
 
 Se algum aspeto desta estrutura ficou por aprofundar, <a href="/pt/blog/tributacao-internacional-para-empreendedores-digitais-guia">Tributação internacional para empreendedores digitais: guia completo</a> detalha em profundidade uma peça vizinha que costumamos reservar para um artigo dedicado.
 
@@ -136,14 +136,14 @@ Uma estrutura internacional mal montada não falha pela estrutura: falha por err
 
 **Como sei se a minha estrutura atual tem risco?** Quatro indicadores simples: (1) há substância operacional real em cada entidade? (2) os preços entre entidades são de mercado? (3) está tudo declarado no país de residência? (4) o fluxo tem propósito comercial além do fiscal? Se alguma resposta for não, há risco.
 
-**Como se regulariza uma estrutura mal montada?** Auditoria interna primeiro (o que se incumpriu e quando), regularização voluntária com assessor em cada jurisdição (filings tardios + reasonable cause + abatement programs do lado norte-americano; denúncia espontânea do art. 22 do RGIT em Portugal), e restruturação para um setup tecnicamente correto. A ordem importa tanto como as ações.
+**Como se regulariza uma estrutura mal montada?** Auditoria interna primeiro (o que se incumpriu e quando), regularização voluntária com consultor em cada jurisdição (filings tardios + reasonable cause + abatement programs do lado norte-americano; denúncia espontânea do art. 22 do RGIT em Portugal), e restruturação para um setup tecnicamente correto. A ordem importa tanto como as ações.
 
 Na Exentax fazemos due diligence de estruturas herdadas, regularizamos e redesenhamos para setups que passam inspeção — porque a otimização legítima existe, mas nunca se parece com aquilo que vende um canal de Telegram.
 <!-- /exentax:execution-v2 -->
 
 ## O seu próximo passo com a Exentax
 
-Na Exentax constituímos e mantemos LLCs de não residentes diariamente: estado, EIN, Operating Agreement, BOI quando se aplica, banca com Mercury e Wise, gateways Stripe e Adyen, contabilidade mensal, Form 5472 e 1120 pro-forma todos os anos, e coordenação com a sua fiscalidade no país de residência. Se quer validar o seu caso com números reais, marque uma assessoria com a nossa equipa e explicamos passo a passo como encaixaria na sua situação concreta.
+Na Exentax constituímos e mantemos LLCs de não residentes diariamente: estado, EIN, Operating Agreement, BOI quando se aplica, banca com Mercury e Wise, gateways Stripe e Adyen, contabilidade mensal, Form 5472 e 1120 pro-forma todos os anos, e coordenação com a sua fiscalidade no país de residência. Se quer validar o seu caso com números reais, marque uma consultoria com a nossa equipa e explicamos passo a passo como encaixaria na sua situação concreta.
 
 <!-- exentax:cross-refs-v1 -->
 ### Mais leituras relacionadas
@@ -175,7 +175,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Reserve uma sess�
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20casos%20mais%20dolorosos%20que%20vemos%20n%C3%A3o%20v%C3%AAm%20de%20gente%20que%20n%C3%A3o%20fez%20nada%2C%20v%C3%AAm%20de%20g%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Os%20casos%20mais%20dolorosos%20que%20vemos%20n%C3%A3o%20v%C3%AAm%20de%20gente%20que%20n%C3%A3o%20fez%20nada%2C%20v%C3%AAm%20de%20g%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

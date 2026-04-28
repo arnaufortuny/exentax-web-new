@@ -111,7 +111,7 @@ At Exentax, when your RA receives any document, we:
 
 You never need to worry about missing a deadline because a letter sat unopened at a mailbox.
 
-Book your strategic advisory session and we'll handle your Registered Agent as part of the complete formation package.
+Book your strategic consultation and we'll handle your Registered Agent as part of the complete formation package.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:

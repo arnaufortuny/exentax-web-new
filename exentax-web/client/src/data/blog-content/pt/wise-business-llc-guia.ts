@@ -83,11 +83,11 @@ Uma leitura adjacente a manter à mão: <a href="/pt/blog/como-gerir-sua-llc-no-
 
 **Freelancer em Espanha que fatura em USD:** O teu cliente americano paga na tua Mercury por ACH. No final do mês, transferes a tua distribuição para a Wise, convertes para EUR à taxa real e envias para a tua conta espanhola por SEPA. Custo total da conversão: 0,4-0,6%. Com um banco tradicional pagarias 2-3%.
 
-**Assessor na Colômbia que fatura em EUR e USD:** Recebes USD na Mercury e EUR na tua conta Wise europeia. Convertes ambas para COP quando precisas e envias para a tua conta colombiana. A Wise dá-te a taxa mid-market, o que pode poupar milhares de pesos por cada $1.000 convertidos face à taxa do teu banco local.
+**Consultor na Colômbia que fatura em EUR e USD:** Recebes USD na Mercury e EUR na tua conta Wise europeia. Convertes ambas para COP quando precisas e envias para a tua conta colombiana. A Wise dá-te a taxa mid-market, o que pode poupar milhares de pesos por cada $1.000 convertidos face à taxa do teu banco local.
 
 **SaaS com clientes globais:** Os teus clientes pagam pelo Stripe (que deposita na Mercury). A tua equipa de freelancers na América Latina recebe pela Wise nas suas moedas locais. O fluxo é limpo, documentado e eficiente.
 
-Na Exentax posicionamos o Wise Business na arquitetura bancária de centenas de LLCs lusófonas. Marca a tua assessoria gratuita: dizemos-te exatamente que função o Wise deve desempenhar no teu caso.
+Na Exentax posicionamos o Wise Business na arquitetura bancária de centenas de LLCs lusófonas. Marca a tua consulta gratuita: dizemos-te exatamente que função o Wise deve desempenhar no teu caso.
 ## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
 
 Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
@@ -178,7 +178,7 @@ correspondente nos EUA entregaria.
 
 ## Casos reais de clientes (anonimizados)
 
-Uma assessora bilingue instalada em Barcelona facturava cerca de
+Uma consultora bilingue instalada em Barcelona facturava cerca de
 metade dos seus clientes alemães e franceses em EUR e a outra metade
 em USD. Com a Mercury como domicílio e a Wise Business como camada
 EUR/GBP, o custo de conversão caiu para uma fracção do que o anterior
@@ -324,7 +324,7 @@ do comunicado de imprensa da parceria e do contrato subjacente
 antes da chegada da primeira transferência. Sem interrupção de KYC,
 sem atraso de payout.
 
-Um assessor que se relocalizou de um país da UE para outro no fim
+Um consultor que se relocalizou de um país da UE para outro no fim
 de ano actualizou a residência da Wise Business no primeiro dia da
 mudança, anexou uma curta nota de cobertura a explicar a mudança e
 a actividade inalterada da LLC, e continuou a operar sem ciclo de
@@ -389,7 +389,7 @@ do caminho do negócio em vez de competir pela sua atenção.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Wise%20Business%20n%C3%A3o%20%C3%A9%20um%20banco%20americano%3A%20%C3%A9%20uma%20EMI%20europeia%20com%20coordenadas%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Wise%20Business%20n%C3%A3o%20%C3%A9%20um%20banco%20americano%3A%20%C3%A9%20uma%20EMI%20europeia%20com%20coordenadas%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

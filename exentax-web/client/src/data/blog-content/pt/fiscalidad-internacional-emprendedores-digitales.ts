@@ -64,7 +64,7 @@ Os tratados de dupla tributação entre o teu país de residência e os EUA pode
 - **Não ignores as tuas obrigações fiscais**: em nenhum país
 - **Não cries estruturas sem substância económica**: os reguladores detetam-nas
 - **Não mistures finanças pessoais e empresariais**: compromete a tua estrutura
-- **Não tomes decisões fiscais sem assessoria profissional**: cada situação é diferente
+- **Não tomes decisões fiscais sem consultoria profissional**: cada situação é diferente
 ### O futuro da fiscalidade digital
 
 A <a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a> está a trabalhar no marco BEPS 2.0 (Pillar One e Pillar Two) para adaptar o sistema fiscal internacional à economia digital. Estas mudanças afetarão principalmente grandes multinacionais, mas é importante que os empreendedores digitais estejam atentos às evoluções normativas.
@@ -82,7 +82,7 @@ Não precisas ser especialista em fiscalidade internacional para otimizar a tua 
 
 Na Exentax seguimos de perto todos os desenvolvimentos regulatórios internacionais para adaptar as estratégias dos nossos clientes. Não vais acordar um dia com uma nova norma que te apanhe desprevenido, nós já a teremos lido, analisado e ter-te-emos avisado antes.
 
-Na Exentax desmontamos este puzzle todas as semanas para empreendedores em Portugal e no Brasil. Marca a tua assessoria gratuita e dizemos-te o que realmente aguenta na tua situação, não no vídeo de um guru.
+Na Exentax desmontamos este puzzle todas as semanas para empreendedores em Portugal e no Brasil. Marca a tua consulta gratuita e dizemos-te o que realmente aguenta na tua situação, não no vídeo de um guru.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -180,7 +180,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20partir%20de%20Portugal%2C%20a%20fiscalidade%20internacional%20do%20empreendedor%20digital%20n%C3%A3o%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20partir%20de%20Portugal%2C%20a%20fiscalidade%20internacional%20do%20empreendedor%20digital%20n%C3%A3o%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

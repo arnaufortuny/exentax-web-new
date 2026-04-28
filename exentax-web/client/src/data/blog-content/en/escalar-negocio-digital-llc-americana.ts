@@ -74,7 +74,7 @@ If you're billing consistently, have international clients, and feel your curren
 
 At Exentax we don't just form your LLC. we design the entire ecosystem and accompany you through growth. From the first invoice to when you need to convert to C-Corp for your Series A. Banking (Mercury/Relay), treasury (Slash), cards (Wallester), payments (Stripe/Adyen/DoDo), currency conversion (Wise/Revolut), corporate investment (Interactive Brokers/Kraken), all integrated.
 
-Book your free advisory session. We'll analyze your situation, tell you if scaling with an LLC makes sense, and design the structure that lets you grow without limits.
+Book your free consultation. We'll analyze your situation, tell you if scaling with an LLC makes sense, and design the structure that lets you grow without limits.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
@@ -183,7 +183,7 @@ The adjustments triggered by each scaling threshold can be captured in a single 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

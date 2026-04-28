@@ -80,7 +80,7 @@ What we see: regularization of non-prescribed periods + interest + minimum 50% p
 
 Spanish administrative doctrine on the US LLC is very specific: in the typical single-member LLC case, the result is imputed to the Spanish-resident partner as economic activity in the general base. This requires serious planning, not improvisation. Good news: well-designed, an LLC remains an excellent tool to internationalize your business and legally optimize your global tax burden.
 
-Want to review your case in light of current doctrine and design the most efficient structure for your situation? Book your free advisory session.
+Want to review your case in light of current doctrine and design the most efficient structure for your situation? Book your free consultation.
 
 Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/international-taxation-for-digital-entrepreneurs-the">International taxation for digital entrepreneurs: the complete guide</a> helps round off the context.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -127,7 +127,7 @@ The published Spanish administrative doctrine on LLCs reads more usefully as a s
 At Exentax we structure the entity to fit the first scenario and document every step so your local return can be defended in case of review.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 ## References: sources on structures and jurisdictions
 
 The comparisons and quantitative data on the jurisdictions cited here rely on official sources updated to today:
@@ -147,7 +147,7 @@ Choosing a jurisdiction always depends on the holder's actual tax residency and 
 <!-- exentax:execution-v2 -->
 ## How the Spanish DGT-TEAC doctrine actually applies to your LLC
 
-Spanish LLC doctrine cannot be understood by reading a single binding advisory session: you have to cross-read several and grasp the underlying logic. In practice, the Spanish tax authority (AEAT) attributes the LLC's net result to the resident partner when the LLC is treated as transparent and lacks substance, and typically classifies it as business income if the activity is operational, or as capital income if it is merely passive.
+Spanish LLC doctrine cannot be understood by reading a single binding consultation: you have to cross-read several and grasp the underlying logic. In practice, the Spanish tax authority (AEAT) attributes the LLC's net result to the resident partner when the LLC is treated as transparent and lacks substance, and typically classifies it as business income if the activity is operational, or as capital income if it is merely passive.
 
 - **CV0024-19, CV1631-21 and later.** Confirm that an SMLLC is treated as an income-attribution entity for the Spain-resident partner, unless a C-Corp election is formalised and effective US taxation occurs. This prevents double taxation but requires reporting the full profit in the year accrued, not when distributed.
 - **Income classification.** If the LLC renders professional services, the income flows to the partner's IRPF as business income (consistent IAE heading). If the LLC merely holds passive investments, capital-income classification applies and non-resident withholding rules kick in.
@@ -169,12 +169,12 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 
 ## How we work at Exentax
 
-Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free advisory session in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

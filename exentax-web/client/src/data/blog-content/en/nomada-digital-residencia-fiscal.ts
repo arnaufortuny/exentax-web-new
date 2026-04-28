@@ -68,7 +68,7 @@ Regardless of where you establish tax residency, your LLC's financial stack rema
 | **Relay** | Backup | 20 sub-accounts for organizing by country/project |
 ### Our approach at Exentax
 
-We don't provide advice on changing your tax residency, that requires advisory session with tax lawyers in both your current and future country of residence. What we do:
+We don't provide advice on changing your tax residency, that requires consultation with tax lawyers in both your current and future country of residence. What we do:
 
 1. Form your LLC in the optimal US state
 2. Set up your banking infrastructure (Mercury, Wise, Slash, Wallester, Stripe)
@@ -201,7 +201,7 @@ FinCEN and <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> 
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## Digital nomad and tax residence: why "living nowhere" does not exist for the tax authority
 
 The "I'm a nomad, not tax-resident anywhere" narrative works great on LinkedIn and terribly in an audit. Every country applies objective criteria (days, dwelling, centre of interests) and, ultimately, treaty tie-breakers. If you do not close your previous residence and open a new one with documentary proof, you remain tax-resident where you were - LLC or no LLC.
@@ -222,7 +222,7 @@ At Exentax we plan the residence change with calendar, documentation and forms -
 
 ## How we work at Exentax
 
-Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free advisory session in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
+Our team specialises in international tax structures for residents of Spanish-speaking countries operating online businesses. We combine local knowledge of Spain, Andorra and Latin America with operational experience setting up entities in Delaware, Wyoming, Estonia and other jurisdictions. Every case starts with a free consultation in which we evaluate residency, activity and goals, and we honestly tell you whether the proposed structure makes sense or whether a simpler alternative is enough.
 
 <!-- task9-2026-expansion -->
 ## Digital nomad: legal strategy to pay less tax while travelling, digital nomad visas, 183 day rule and LLC as a vehicle

@@ -116,7 +116,7 @@ Panama has entered and exited grey lists several times. It has implemented trans
 
 Panama remains a serious country with a technically solid jurisdiction, but its historical appeal has eroded. International compliance, banking pressure and operating costs have leveled the playing field versus simpler alternatives.
 
-For non-resident entrepreneurs looking for fiscal clarity, working banking and international reputation without complications, a US LLC solves the average case better. If your situation is more complex (multiple countries, meaningful wealth, real LatAm presence), we can analyze it in detail. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
+For non-resident entrepreneurs looking for fiscal clarity, working banking and international reputation without complications, a US LLC solves the average case better. If your situation is more complex (multiple countries, meaningful wealth, real LatAm presence), we can analyze it in detail. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 
 Panama remains one of the most interesting jurisdictions in the Americas for efficient tax residency, as long as it is understood that success depends on real relocation, impeccable documentation and periodic review of local and international regulatory frameworks.
 ## Legal and regulatory references

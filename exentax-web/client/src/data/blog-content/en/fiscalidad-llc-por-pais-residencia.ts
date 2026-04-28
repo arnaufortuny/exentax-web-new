@@ -135,7 +135,7 @@ Argentina has one of the highest effective tax rates in the region.
 | **Total cost** | **$30,240 (42.0%)** | **$13,500 (18.8%)** |
 | **Annual savings** | – | **$16,740** |
 
-These scenarios are simplified illustrations. Your specific numbers depend on your exact income level, deduction profile, and tax situation. Book a advisory session for a personalized analysis.
+These scenarios are simplified illustrations. Your specific numbers depend on your exact income level, deduction profile, and tax situation. Book a consultation for a personalized analysis.
 
 One adjacent read worth having open alongside this one: <a href="/en/blog/us-resident-vs-non-resident-llc-the-key-tax-differences">US resident vs non-resident LLC: the key tax differences</a>, which sharpens exactly the edges we skimmed above.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -226,7 +226,7 @@ We treat this block as one of the load-bearing decisions of the LLC strategy: ge
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

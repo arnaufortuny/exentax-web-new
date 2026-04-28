@@ -92,7 +92,7 @@ Portugal é um Estado membro da UE, pelo que se aplica o diferimento automático
 
 ## Aviso legal
 
-Este artigo é informativo e não constitui aconselhamento fiscal personalizado. A legislação fiscal espanhola é complexa e sujeita a alterações. Consulte sempre um assessor fiscal qualificado antes de tomar decisões com base neste conteúdo.
+Este artigo é informativo e não constitui aconselhamento fiscal personalizado. A legislação fiscal espanhola é complexa e sujeita a alterações. Consulte sempre um consultor fiscal qualificado antes de tomar decisões com base neste conteúdo.
 ## O seu próximo passo com a Exentax
 
 O que segue é a visão operacional, não a teórica. Já corremos esta jogada vezes suficientes para saber quais variáveis cedem primeiro sob o escrutínio de uma autoridade fiscal ou de uma compliance bancária, e é nessa ordem que as trabalhamos.
@@ -136,17 +136,17 @@ As posições IBKR são activos financeiros pessoais e desencadeiam o art. 95 bi
 
 ## Calendário prático 12-6-3 meses antes de sair
 
-**T menos 12 meses.** Inventário: lista completa de activos pessoais (IBKR, carteiras cripto, contas bancárias), balanço da LLC, Operating Agreement, carta EIN. Primeira conversa com a nossa equipa e o seu assessor espanhol para modelar a mais-valia latente e escolher o destino pelo impacto fiscal, não só pelo clima.
+**T menos 12 meses.** Inventário: lista completa de activos pessoais (IBKR, carteiras cripto, contas bancárias), balanço da LLC, Operating Agreement, carta EIN. Primeira conversa com a nossa equipa e o seu consultor espanhol para modelar a mais-valia latente e escolher o destino pelo impacto fiscal, não só pelo clima.
 
 **T menos 6 meses.** Decisão sobre o diferimento (UE/EEE automático vs fora da UE condicional). Preparar documentação que apoia a avaliação da participação na LLC: 24 meses de extractos Mercury ou Wise, histórico Form 5472, lista de contratos. Onboarding no destino (NIF, banco, título de residência).
 
-**T menos 3 meses.** Retrato final dos valores ao dia da mudança. Redacção do pedido de diferimento se aplicável. Coordenação do Modelo 100 do ano parcial com o seu assessor espanhol e planeamento do primeiro Modelo 720 para o ano de residência no novo país.
+**T menos 3 meses.** Retrato final dos valores ao dia da mudança. Redacção do pedido de diferimento se aplicável. Coordenação do Modelo 100 do ano parcial com o seu consultor espanhol e planeamento do primeiro Modelo 720 para o ano de residência no novo país.
 
 
 
 ### Uma frase que repetimos a cada cliente antes da partida
 
-A exit tax raramente é o travão temido no início da conversa. O custo oculto vem quase sempre de um calendário apertado: pedido de diferimento tardio, avaliação da LLC sem suporte documental, Modelo 720 esquecido no ano parcial. Uma preparação estruturada em doze meses, com o assessor espanhol envolvido desde o primeiro mês, transforma a conversa de exit tax de uma conversa tensa numa conversa de planeamento. Acompanhámos dezenas de fundadores e as mudanças mais serenas foram sempre as que começaram cedo, com papel preparado, não as que improvisaram no último trimestre.
+A exit tax raramente é o travão temido no início da conversa. O custo oculto vem quase sempre de um calendário apertado: pedido de diferimento tardio, avaliação da LLC sem suporte documental, Modelo 720 esquecido no ano parcial. Uma preparação estruturada em doze meses, com o consultor espanhol envolvido desde o primeiro mês, transforma a conversa de exit tax de uma conversa tensa numa conversa de planeamento. Acompanhámos dezenas de fundadores e as mudanças mais serenas foram sempre as que começaram cedo, com papel preparado, não as que improvisaram no último trimestre.
 
 <!-- exentax:execution-v2 -->
 ## Exit Tax ao sair de Espanha com LLC, cripto e Interactive Brokers: o cálculo real
@@ -300,7 +300,7 @@ Dois outros pormenores aparecem frequentemente em conversas posteriores com a ad
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20est%C3%A1%20a%20planear%20deixar%20a%20Espanha%2C%20ou%20j%C3%A1%20o%20fez%2C%20e%20det%C3%A9m%20um%20patrim%C3%B4nio%20signif%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20est%C3%A1%20a%20planear%20deixar%20a%20Espanha%2C%20ou%20j%C3%A1%20o%20fez%2C%20e%20det%C3%A9m%20um%20patrim%C3%B4nio%20signif%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

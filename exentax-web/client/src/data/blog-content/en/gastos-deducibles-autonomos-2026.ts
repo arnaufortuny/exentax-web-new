@@ -25,7 +25,7 @@ Tax, accounting and labour advisory fees are fully deductible. Training is deduc
 
 The mistakes that generate most penalties: claiming family meals as per diems, personal fuel without documented professional use, personal clothing invoiced as uniform without being one, client gifts above 1% of turnover and, above all, expenses without invoice. If your activity is 100% digital, a <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC</a> lets you document expenses under US criteria (ordinary and necessary), considerably broader and more flexible than the Spanish ones, while keeping full traceability for your residence-country return.
 
-The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding advisory sessions of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
+The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding consultations of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
 
 ## Detailed deductible expenses table by category
 
@@ -93,7 +93,7 @@ Deductible expenses for the self-employed read more usefully when they're treate
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
-At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free advisory session</a> of 30 minutes and you leave with a clear plan.
+At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
 ## How we close this with the Exentax method
@@ -117,7 +117,7 @@ If you want to move from doubt to plan, book 30 minutes with Exentax and we walk
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

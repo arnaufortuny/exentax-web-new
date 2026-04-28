@@ -47,7 +47,7 @@ Sem entrar em jurisdições puramente insulares, as opções que hoje mantêm se
 - **Bulgária (OOD)**: 10 % de imposto sobre sociedades, útil só se vive no país.
 - **EAU Free Zone**: 0 % se cumprir Qualifying Income, custos operacionais altos, residência pessoal exigida para otimização plena.
 - **Hong Kong / Singapura**: territorial, custos e compliance altos, presença na Ásia recomendável.
-- **Panamá / BVI / Cayman**: nicho de planeamento patrimonial avançado com assessoria especializada; não recomendável como veículo operacional médio.
+- **Panamá / BVI / Cayman**: nicho de planeamento patrimonial avançado com consultoria especializada; não recomendável como veículo operacional médio.
 ### Como se desenha uma estrutura honesta
 
 Uma boa estrutura cumpre cinco princípios:
@@ -59,7 +59,7 @@ Uma boa estrutura cumpre cinco princípios:
 5. **Margem de futuro**: resistente a mudanças regulatórias previsíveis (BEPS, CRS, registos de beneficiários).
 ### A opção que recomendamos na maioria dos casos
 
-Para freelancers, assessores, agências digitais, SaaS, e-commerce e criadores que residem em Portugal, LatAm ou Europa e têm rendimentos internacionais, uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> resolve o caso médio melhor que qualquer alternativa offshore tradicional:
+Para freelancers, consultores, agências digitais, SaaS, e-commerce e criadores que residem em Portugal, LatAm ou Europa e têm rendimentos internacionais, uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> resolve o caso médio melhor que qualquer alternativa offshore tradicional:
 
 - 0 % imposto federal por <a href="/pt/blog/tributacao-pass-through-para-llc-como-funciona-e-por-que">pass-through</a>.
 - Custo anual de 500-800 USD.
@@ -217,7 +217,7 @@ Uma **LLC nos EUA** não consta de nenhuma lista não cooperativa. Estados como 
 Para o ecossistema completo e o lugar da LLC continue com <a href="/pt/blog/caminhos-legais-para-minimizar-impostos">os caminhos legais para pagar o mínimo</a>, e se o ativo principal são contas ou cripto fora do país consulte <a href="/pt/blog/modelo-720-e-modelo-721-guia-para-residentes-em-espanha-com">o guia Modelo 720 e 721</a>. Para desenhar a estrutura <a href="/pt/agendar">agende uma sessão com a Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20offshore%20arrasta%20um%20peso%20enorme%3A%20para%20alguns%20significa%20liberdade%20fi%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20offshore%20arrasta%20um%20peso%20enorme%3A%20para%20alguns%20significa%20liberdade%20fi%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

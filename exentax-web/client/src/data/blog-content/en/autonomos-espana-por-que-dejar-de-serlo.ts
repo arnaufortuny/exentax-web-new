@@ -108,7 +108,7 @@ It means restructuring, not disappearing. You're not hiding from Hacienda. You'r
 
 The result: you pay Spanish taxes on your actual profit (after legitimate LLC deductions), not on your gross revenue with limited deduction options.
 
-Book your strategic advisory session and we'll analyze your specific case, with real numbers, not promises.
+Book your strategic consultation and we'll analyze your specific case, with real numbers, not promises.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.

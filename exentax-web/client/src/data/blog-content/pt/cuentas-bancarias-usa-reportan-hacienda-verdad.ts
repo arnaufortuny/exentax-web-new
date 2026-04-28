@@ -68,7 +68,7 @@ Para que uma autoridade estrangeira queira saber quem está por trás de uma LLC
 
 A DAC7 (plataformas digitais) e a DAC8 (cripto) são diretivas da União Europeia. Impõem obrigações a plataformas e exchanges com presença europeia, não a uma LLC americana nem às suas contas US. A tua LLC não entra na DAC7 nem na DAC8 pelo facto de existir ou de operar com clientes internacionais.
 
-Como residente fiscal europeu tens as tuas próprias obrigações declarativas (Modelo 720/721 em Espanha, declaração de contas no estrangeiro em Portugal, equivalentes em França, Alemanha), e isso geres ao teu ritmo e com o teu assessor local. A LLC não acrescenta nem retira aqui: acrescentas o ativo se ultrapassar o limite, declaras, continuas a operar.
+Como residente fiscal europeu tens as tuas próprias obrigações declarativas (Modelo 720/721 em Espanha, declaração de contas no estrangeiro em Portugal, equivalentes em França, Alemanha), e isso geres ao teu ritmo e com o teu consultor local. A LLC não acrescenta nem retira aqui: acrescentas o ativo se ultrapassar o limite, declaras, continuas a operar.
 ## O que vemos cada semana na Exentax
 
 Três padrões reais:
@@ -204,7 +204,7 @@ Para ver como estes dados se cruzam com a apresentação do 720 continue com <a 
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22%C3%89%20a%20pergunta%20que%20mais%20se%20repete%20quando%20um%20cliente%20fecha%20a%20sua%20LLC%20connosco%3A%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22%C3%89%20a%20pergunta%20que%20mais%20se%20repete%20quando%20um%20cliente%20fecha%20a%20sua%20LLC%20connosco%3A%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

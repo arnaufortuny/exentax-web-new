@@ -95,7 +95,7 @@ Se ficaram pontos desta estrutura por aprofundar, <a href="/pt/blog/problemas-co
 
 Na Exentax cuidamos de todo o processo de constituição do início ao fim. nos dá seu passaporte, nos diz como quer que sua LLC se chame, e nós fazemos o resto:
 
-1. **Escolhemos o estado ideal** consigo na assessoria inicial
+1. **Escolhemos o estado ideal** consigo na consultoria inicial
 2. **Registramos os Articles of Organization**: normalmente em 1-3 dias
 3. **Solicitamos o EIN** ao IRS. cuidamos de toda a comunicação
 4. **Redigimos seu Operating Agreement**: personalizado, não um template genérico
@@ -105,7 +105,7 @@ Na Exentax cuidamos de todo o processo de constituição do início ao fim. nos 
 
 O processo completo: entre 3 e 10 semanas (o gargalo é o EIN do IRS, não nós). E durante todo esse tempo, tem suporte direto com nossa equipa.
 
-Queres começar o processo com acompanhamento de ponta a ponta a partir de Portugal ou do Brasil? Agenda a tua assessoria gratuita. Validamos o teu projeto, escolhemos juntos o melhor estado e arrancamos com a constituição assim que disseres "vamos".
+Queres começar o processo com acompanhamento de ponta a ponta a partir de Portugal ou do Brasil? Agenda a tua consulta gratuita. Validamos o teu projeto, escolhemos juntos o melhor estado e arrancamos com a constituição assim que disseres "vamos".
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -216,7 +216,7 @@ Para ver o custo exacto e o calendário antes de decidir, abra a <strong>calcula
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Decidiste%20abrir%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20queres%20ver%20o%20proc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Decidiste%20abrir%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%20queres%20ver%20o%20proc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

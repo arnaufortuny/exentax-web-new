@@ -105,7 +105,7 @@ Se depois desta leitura te reconheces num ou mais erros, a ordem razoável é:
 1. **Diagnóstico real**: ano a ano, o que foi apresentado e o que não foi. Estado actual da LLC e do Registered Agent. Contas e plataformas com a residência fiscal declarada.
 2. **Apresentações em atraso**: 5472, BOI e Annual Reports pendentes com a estratégia adequada (declaração voluntária, reasonable cause).
 3. **Reorganizar a operativa**: conta da LLC limpa, separação efectiva com a pessoal, Operating Agreement assinado e guardado.
-4. **Coordenação com o teu assessor local**: regularizar declarações afectadas antes do cruzamento CRS/DAC.
+4. **Coordenação com o teu consultor local**: regularizar declarações afectadas antes do cruzamento CRS/DAC.
 5. **Manutenção estável**: ver o <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">calendário anual de obrigações</a> e delegar o que não conseguires controlar.
 
 Essencial: **uma situação irregular custa menos corrigida voluntariamente do que descoberta em inspecção.** Quase sempre.
@@ -113,7 +113,7 @@ Essencial: **uma situação irregular custa menos corrigida voluntariamente do q
 
 A maioria destes erros não se comete por falta de inteligência, comete-se por **falta de informação actualizada e de seguimento**. Se o teu prestador de LLC desapareceu no dia em que recebeste o EIN, a solução não é encontrar outro que também desapareça: é trabalhar com alguém que entenda toda a operação.
 
-Na Exentax cobrimos o ciclo completo: estrutura, banca, processadores de pagamento, investimento, cripto se aplicar, compliance anual com <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e FinCEN, coordenação com o teu assessor local. Não constituímos LLCs e desaparecemos: gerimo-las.
+Na Exentax cobrimos o ciclo completo: estrutura, banca, processadores de pagamento, investimento, cripto se aplicar, compliance anual com <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e FinCEN, coordenação com o teu consultor local. Não constituímos LLCs e desaparecemos: gerimo-las.
 ## O que deves levar deste artigo
 
 Ter uma LLC mal gerida é **mais caro** do que não a ter. A diferença entre estar em ordem ou não mede-se em sanções evitáveis, fricção desnecessária com a AT e perda da protecção que a LLC devia dar.
@@ -226,7 +226,7 @@ Os erros que vemos repetir-se em LLC já constituídas durante recent years têm
 
 ### FAQ hoje
 
-**Estes erros podem ser sanados sem assessor?** Operating Agreement e BOI sim. 5472 atrasado convém sempre com assessor para construir bem a *reasonable cause*.
+**Estes erros podem ser sanados sem consultor?** Operating Agreement e BOI sim. 5472 atrasado convém sempre com consultor para construir bem a *reasonable cause*.
 
 **Erro mais subestimado?** Não documentar a origem dos fundos ao injetar capital. Em KYC bancário de 2ª volta, sem comprovativo o bloqueio dura semanas.
 
@@ -254,7 +254,7 @@ Se a sua LLC tem lacunas e quer o custo real de as fechar, abra a <strong>calcul
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20j%C3%A1%20tens%20uma%20LLC%20nos%20Estados%20Unidos%2C%20este%20artigo%20%C3%A9%20para%20ti%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20j%C3%A1%20tens%20uma%20LLC%20nos%20Estados%20Unidos%2C%20este%20artigo%20%C3%A9%20para%20ti%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

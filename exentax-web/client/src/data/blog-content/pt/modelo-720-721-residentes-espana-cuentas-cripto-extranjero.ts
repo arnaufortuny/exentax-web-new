@@ -121,7 +121,7 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 <!-- exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
 ## Como ler os Modelos 720 e 721 como um mapeamento anual estável em vez de uma preocupação recorrente
 
-Os Modelos 720 e 721 leem-se de forma mais útil como um mapeamento anual estável entre o país onde os ativos são detidos, o tipo de ativo (conta, título, cripto) e o formulário de declaração correspondente, em vez de uma preocupação recorrente. O mapeamento não muda de ano para ano — só os saldos acumulados se movem, e uma nota curta por ano no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
+Os Modelos 720 e 721 leem-se de forma mais útil como um mapeamento anual estável entre o país onde os ativos são detidos, o tipo de ativo (conta, título, cripto) e o formulário de declaração correspondente, em vez de uma preocupação recorrente. O mapeamento não muda de ano para ano — só os saldos acumulados se movem, e uma nota curta por ano no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
 <!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
 
 <!-- exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-pt -->
@@ -226,7 +226,7 @@ proprietário de uma LLC residente fiscal em Espanha tem de conhecer
 quando os limites são ultrapassados. A prática serena consiste em
 fazer uma vez por ano — tipicamente em Janeiro — uma listagem dos
 saldos no estrangeiro: Mercury, Wise, Stripe, Relay e plataformas
-cripto associadas. Esta listagem é revista com o assessor e a
+cripto associadas. Esta listagem é revista com o consultor e a
 decisão de apresentação é tomada com calma a partir dos limites,
 não à última hora.
 
@@ -288,7 +288,7 @@ Num ano calmo, a maneira mais limpa de manter ambos os modelos geríveis é mant
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9s%20residente%20fiscal%20em%20Espanha%20e%20tens%20uma%20LLC%20americana%2C%20uma%20conta%20Wise%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9s%20residente%20fiscal%20em%20Espanha%20e%20tens%20uma%20LLC%20americana%2C%20uma%20conta%20Wise%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

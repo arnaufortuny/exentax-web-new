@@ -78,7 +78,7 @@ Stripe, PayPal e Adyen funcionam sem restrições com UK Ltd.
 - **Reputação internacional**: uma empresa britânica é percebida como séria em qualquer mercado.
 - **Constituição barata e rápida**: 24-48 horas, dezenas de libras de taxas oficiais.
 - **Transparência regulatória**: o sistema britânico é previsível e consolidado.
-- **Acesso ao mercado britânico** para clientes UK: importante em setores como assessoria, fintech, ecommerce europeu, marketing.
+- **Acesso ao mercado britânico** para clientes UK: importante em setores como consultoria, fintech, ecommerce europeu, marketing.
 - **Convénios de dupla tributação** amplos.
 - **Sem auditoria obrigatória** para PME.
 - **Regime Substantial Shareholding Exemption** (SSE) para holdings com participações qualificadas.
@@ -91,7 +91,7 @@ Stripe, PayPal e Adyen funcionam sem restrições com UK Ltd.
 - **VAT obrigatório** acima do limiar, com declarações trimestrais sob Making Tax Digital.
 ## Comparação honesta com a LLC americana
 
-Para o perfil habitual da Exentax (freelancer, agência, ecommerce, SaaS, criador, assessor):
+Para o perfil habitual da Exentax (freelancer, agência, ecommerce, SaaS, criador, consultor):
 
 - **Carga fiscal corporativa**: LLC 0 % federal vs UK 19-25 %.
 - **Privacidade**: LLC em Wyoming/Novo México oferece privacidade real, UK publica tudo.
@@ -233,7 +233,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20Reino%20Unido%20continua%20sendo%2C%20depois%20do%20Brexit%2C%20uma%20das%20jurisdi%C3%A7%C3%B5es%20mais%20util%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20Reino%20Unido%20continua%20sendo%2C%20depois%20do%20Brexit%2C%20uma%20das%20jurisdi%C3%A7%C3%B5es%20mais%20util%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

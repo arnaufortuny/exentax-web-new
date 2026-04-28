@@ -221,15 +221,15 @@ A boa notícia é que implementar esta separação é simples se o fizeres desde
 <!-- exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-pt -->
 ## Como ler a separação entre dinheiro pessoal e dinheiro da LLC como um mapeamento estável em vez de uma regra pontual
 
-A separação entre dinheiro pessoal e dinheiro da LLC lê-se de forma mais útil como um mapeamento estável entre a conta da LLC, a conta pessoal do beneficiário e os movimentos datados entre as duas, em vez de uma regra pontual. Este mapeamento não muda de mês para mês, e uma nota curta e datada no ficheiro da LLC com a data de corte e o saldo de fecho de cada lado torna a separação defensável em poucos minutos numa conversa com um banco ou um assessor.
+A separação entre dinheiro pessoal e dinheiro da LLC lê-se de forma mais útil como um mapeamento estável entre a conta da LLC, a conta pessoal do beneficiário e os movimentos datados entre as duas, em vez de uma regra pontual. Este mapeamento não muda de mês para mês, e uma nota curta e datada no ficheiro da LLC com a data de corte e o saldo de fecho de cada lado torna a separação defensável em poucos minutos numa conversa com um banco ou um consultor.
 <!-- /exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-pt -->
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Na Exentax encarregamo-nos de que a tua LLC esteja corretamente estruturada desde o dia um. incluindo a abertura da tua conta bancária, a configuração da tua contabilidade e a apresentação de todos os formulários perante o IRS. Se queres assegurar-te de que a tua separação financeira está correta, podes agendar uma assessoria gratuita onde revemos a tua situação sem compromisso.
-Na Exentax instalamos desde o dia 1 a disciplina contas/cartões/faturas para clientes lusófonos. Marca a tua assessoria gratuita: verificamos o teu setup e damos-te as regras simples que não podes voltar a quebrar.
+Na Exentax encarregamo-nos de que a tua LLC esteja corretamente estruturada desde o dia um. incluindo a abertura da tua conta bancária, a configuração da tua contabilidade e a apresentação de todos os formulários perante o IRS. Se queres assegurar-te de que a tua separação financeira está correta, podes agendar uma consulta gratuita onde revemos a tua situação sem compromisso.
+Na Exentax instalamos desde o dia 1 a disciplina contas/cartões/faturas para clientes lusófonos. Marca a tua consulta gratuita: verificamos o teu setup e damos-te as regras simples que não podes voltar a quebrar.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -344,7 +344,7 @@ Na prática diária, estes três hábitos combinam-se numa única rotina curta: 
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20vens%20de%20recibos%20verdes%20ou%20de%20MEI%2C%20provavelmente%20habituaste-te%20a%20usar%20a%20con%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20vens%20de%20recibos%20verdes%20ou%20de%20MEI%2C%20provavelmente%20habituaste-te%20a%20usar%20a%20con%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

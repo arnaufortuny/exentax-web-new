@@ -43,7 +43,7 @@ O que vemos cada semana nos casos que chegam até nós é sempre o mesmo padrão
 **O que funciona de verdade**
 - Modelar a situação na <strong>calculadora Exentax</strong> antes de mexer numa única peça, para ver o custo anual total, não apenas a fatura de hoje.
 - Separar desde o primeiro dia os fluxos pessoais e de negócio, com contas distintas e uma checklist viva dos comprovativos.
-- Trabalhar com um assessor que olha para todas as peças em conjunto: estrutura, banca, conformidade e residência, não cada uma isoladamente.
+- Trabalhar com um consultor que olha para todas as peças em conjunto: estrutura, banca, conformidade e residência, não cada uma isoladamente.
 
 Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da chamada com os números fechados e um calendário operacional.
 <!-- /exentax:execution-v2 -->
@@ -70,7 +70,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Poucas%20perguntas%20se%20repetem%20mais%20entre%20quem%20come%C3%A7a%3A%20posso%20faturar%20sem%20me%20insc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Poucas%20perguntas%20se%20repetem%20mais%20entre%20quem%20come%C3%A7a%3A%20posso%20faturar%20sem%20me%20insc%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 
