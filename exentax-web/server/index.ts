@@ -305,7 +305,6 @@ const LEGACY_ES_REDIRECTS: Record<string, string> = {
   "/nuestros-servicios":   "/es/servicios",
   "/servicios":            "/es/servicios",
   "/preguntas-frecuentes": "/es/preguntas-frecuentes",
-  "/agendar":              "/es/agendar",
   "/blog":                 "/es/blog",
   "/legal/terminos":       "/es/legal/terminos",
   "/legal/privacidad":     "/es/legal/privacidad",
@@ -355,9 +354,32 @@ const LEGACY_ES_REDIRECTS: Record<string, string> = {
   "/ca/els-nostres-serveis/llc-florida":             "/ca/serveis/llc-florida",
   "/ca/els-nostres-serveis/obte-el-teu-itin":        "/ca/serveis/obte-el-teu-itin",
 };
+// Language-neutral shortcuts (e.g. for YouTube descriptions, social bios).
+// These detect the visitor's Accept-Language header and 302-redirect to the
+// matching localized URL — so the same shareable link works for any audience.
+// 302 (not 301) because the destination depends on per-request headers, not
+// on a stable canonical mapping.
+const LANG_NEUTRAL_BOOK_PATHS = new Set(["/agendar", "/book"]);
+const BOOK_SLUG_BY_LANG: Record<string, string> = {
+  es: "agendar", en: "book", fr: "reserver",
+  de: "buchen",  pt: "agendar", ca: "agendar",
+};
+function detectLangFromAcceptLanguage(header: string | undefined): string {
+  const accept = (header || "").toLowerCase();
+  for (const part of accept.split(",")) {
+    const code = part.split(";")[0].trim().slice(0, 2);
+    if (BOOK_SLUG_BY_LANG[code]) return code;
+  }
+  return "es";
+}
+
 app.use((req, res, next) => {
   const p = req.path;
   const qs = req.originalUrl.includes("?") ? req.originalUrl.slice(req.originalUrl.indexOf("?")) : "";
+  if (LANG_NEUTRAL_BOOK_PATHS.has(p)) {
+    const lang = detectLangFromAcceptLanguage(req.headers["accept-language"] as string | undefined);
+    return res.redirect(302, `/${lang}/${BOOK_SLUG_BY_LANG[lang]}${qs}`);
+  }
   const direct = LEGACY_ES_REDIRECTS[p];
   if (direct) return res.redirect(301, direct + qs);
   if (p.startsWith("/blog/") && p.length > 6) {
