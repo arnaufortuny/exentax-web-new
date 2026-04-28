@@ -65,6 +65,7 @@ async function drainOnce(): Promise<void> {
           name: row.name ?? null,
           language: row.language,
           step: stepToSend,
+          unsubToken: (row as { unsubscribeToken?: string | null }).unsubscribeToken ?? null,
         });
         await advanceDripEnrollment({
           id: row.id,
@@ -125,6 +126,7 @@ export async function sendImmediateStep1(args: {
   email: string;
   name: string | null;
   language: string;
+  unsubToken?: string | null;
 }): Promise<void> {
   try {
     await sendDripEmail({
@@ -132,6 +134,7 @@ export async function sendImmediateStep1(args: {
       name: args.name,
       language: args.language,
       step: 1,
+      unsubToken: args.unsubToken ?? null,
     });
     await advanceDripEnrollment({
       id: args.id,

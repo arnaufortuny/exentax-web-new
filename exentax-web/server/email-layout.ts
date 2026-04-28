@@ -8,7 +8,19 @@ import {
   TIKTOK_URL,
   YOUTUBE_URL,
   FACEBOOK_URL,
+  type SupportedLang,
 } from "./server-constants";
+import {
+  SIGNATURE_TITLE_I18N,
+  MEET_I18N,
+  PHONE_I18N,
+  FOOTER_RIGHTS_I18N,
+} from "./email-i18n";
+
+// Re-export the layout-i18n bundles so any external code that previously
+// reached for them through `email-layout.ts` keeps working. New call sites
+// should import directly from `email-i18n.ts`.
+export { SIGNATURE_TITLE_I18N, MEET_I18N, PHONE_I18N, FOOTER_RIGHTS_I18N };
 
 export const SITE_URL = _SITE_URL;
 export const WHATSAPP_URL = _WHATSAPP_URL;
@@ -75,15 +87,15 @@ export function emailHtml(body: string, preheader?: string, lang = "es"): string
   const preheaderHtml = preheader
     ? `<div style="display:none;font-size:1px;color:${C_BG};line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">${preheader}${"&zwnj;&nbsp;".repeat(40)}</div>`
     : "";
-  const rightsText = ({ es: "Todos los derechos reservados", en: "All rights reserved", fr: "Tous droits réservés", de: "Alle Rechte vorbehalten", pt: "Todos os direitos reservados", ca: "Tots els drets reservats" } as Record<string, string>)[lang] || "All rights reserved";
+  const rightsText = (FOOTER_RIGHTS_I18N as Record<string, string>)[lang] || FOOTER_RIGHTS_I18N.en;
   return `<!DOCTYPE html>
 <html lang="${lang}" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" style="background-color:${C_BG};">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="color-scheme" content="light"/>
-  <meta name="supported-color-schemes" content="light"/>
+  <meta name="color-scheme" content="light dark"/>
+  <meta name="supported-color-schemes" content="light dark"/>
   <title>${_BRAND_NAME}</title>
   <!--[if mso]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
   <style>
@@ -193,18 +205,11 @@ export function ctaButton(href: string, text: string): string {
 }
 
 const SIGNATURE_NAME = "Claudia Hinojosa";
-const SIGNATURE_TITLE_I18N: Record<string, string> = {
-  es: "Asesora Fiscal",
-  en: "Tax Advisor",
-  fr: "Conseillère Fiscale",
-  de: "Steuerberaterin",
-  pt: "Consultora Fiscal",
-  ca: "Assessora Fiscal",
-};
 
 export function brandSignature(lang?: string, closing?: string): string {
-  const l = lang && SIGNATURE_TITLE_I18N[lang] ? lang : "es";
-  const title = SIGNATURE_TITLE_I18N[l];
+  const titles = SIGNATURE_TITLE_I18N as Record<string, string>;
+  const l = lang && titles[lang] ? lang : "es";
+  const title = titles[l];
   const closingHtml = closing
     ? `<p class="txt-2" style="font-family:${F_STACK};font-size:15px;color:${C_TEXT_2};margin:0 0 20px;line-height:1.7;">${closing}</p>`
     : "";
@@ -225,6 +230,23 @@ export function bulletList(items: string[]): string {
 
 export function unsubNote(text: string): string {
   return `<p class="txt-3" style="font-family:${F_STACK};font-size:11px;color:${C_TEXT_3};text-align:center;margin:20px 0 0;line-height:1.6;">${text}</p>`;
+}
+
+/**
+ * Marketing-email footer that combines the "you received this because…"
+ * disclaimer with a visible, clickable Unsubscribe link. Used by drip
+ * nurture, calculator report and newsletter broadcast — i.e. every
+ * non-operational email. Booking/agenda emails keep `unsubNote(text)`
+ * (disclaimer only — no opt-out link, since users cannot unsubscribe
+ * from operational notifications about their own bookings).
+ *
+ * The link inherits the same muted treatment as the surrounding text
+ * but is underlined so it is unambiguously interactive in every MUA
+ * (Gmail / Apple Mail / Outlook / Yahoo). `rel="noopener"` because
+ * MUAs render footers in unusual contexts.
+ */
+export function unsubFooterWithLink(text: string, unsubUrl: string, linkLabel: string): string {
+  return `<p class="txt-3" style="font-family:${F_STACK};font-size:11px;color:${C_TEXT_3};text-align:center;margin:20px 0 0;line-height:1.6;">${text}<br><a href="${unsubUrl}" style="color:${C_TEXT_3};text-decoration:underline;" target="_blank" rel="noopener">${linkLabel}</a></p>`;
 }
 
 const SVG_ICONS: Record<string, string> = {
@@ -269,26 +291,9 @@ export function greenPanel(labelText: string, content: string): string {
   </table>`;
 }
 
-const MEET_I18N: Record<string, { title: string; joinBtn: string; joinSub: string; pending: string }> = {
-  es: { title: "Videollamada Google Meet", joinBtn: "Unirme a la reunión", joinSub: "Únete desde cualquier dispositivo a la hora acordada.", pending: "Te enviaremos el enlace de Google Meet en las próximas horas, antes de la reunión." },
-  en: { title: "Google Meet Video Call", joinBtn: "Join meeting", joinSub: "Join from any device at the scheduled time.", pending: "We'll send you the Google Meet link in the next few hours, before the meeting." },
-  fr: { title: "Appel vidéo Google Meet", joinBtn: "Rejoindre la réunion", joinSub: "Rejoignez depuis n'importe quel appareil à l'heure prévue.", pending: "Nous vous enverrons le lien Google Meet dans les prochaines heures, avant la réunion." },
-  de: { title: "Google Meet Videoanruf", joinBtn: "An Besprechung teilnehmen", joinSub: "Treten Sie zur geplanten Zeit von jedem Gerät bei.", pending: "Wir senden Ihnen den Google Meet Link in den nächsten Stunden vor dem Termin." },
-  pt: { title: "Videochamada Google Meet", joinBtn: "Entrar na reunião", joinSub: "Entre de qualquer dispositivo no horário agendado.", pending: "Enviaremos o link do Google Meet nas próximas horas, antes da reunião." },
-  ca: { title: "Videotrucada Google Meet", joinBtn: "Unir-me a la reunió", joinSub: "Uneix-te des de qualsevol dispositiu a l'hora acordada.", pending: "T'enviarem l'enllaç de Google Meet en les properes hores, abans de la reunió." },
-};
-
-const PHONE_I18N: Record<string, { title: string; intro: (phone: string) => string; sub: string; pendingTitle: string; pendingBody: string }> = {
-  es: { title: "Llamada telefónica", intro: (p) => `Te llamaremos al <strong>${p}</strong> a la hora acordada.`, sub: "Asegúrate de tener cobertura y un sitio tranquilo para hablar.", pendingTitle: "Llamada telefónica", pendingBody: "Te llamaremos al teléfono que nos indicaste a la hora acordada." },
-  en: { title: "Phone call", intro: (p) => `We'll call you at <strong>${p}</strong> at the scheduled time.`, sub: "Make sure you have coverage and a quiet place to talk.", pendingTitle: "Phone call", pendingBody: "We'll call you at the phone number you provided at the scheduled time." },
-  fr: { title: "Appel téléphonique", intro: (p) => `Nous vous appellerons au <strong>${p}</strong> à l'heure prévue.`, sub: "Assurez-vous d'avoir du réseau et un endroit calme pour parler.", pendingTitle: "Appel téléphonique", pendingBody: "Nous vous appellerons au numéro que vous nous avez fourni à l'heure prévue." },
-  de: { title: "Telefonanruf", intro: (p) => `Wir rufen Sie zum vereinbarten Zeitpunkt unter <strong>${p}</strong> an.`, sub: "Stellen Sie sicher, dass Sie Empfang und einen ruhigen Ort zum Sprechen haben.", pendingTitle: "Telefonanruf", pendingBody: "Wir rufen Sie zur vereinbarten Zeit unter der angegebenen Telefonnummer an." },
-  pt: { title: "Chamada telefónica", intro: (p) => `Ligaremos para o <strong>${p}</strong> à hora agendada.`, sub: "Garanta que tem rede e um local tranquilo para falar.", pendingTitle: "Chamada telefónica", pendingBody: "Ligaremos para o número que nos indicou à hora agendada." },
-  ca: { title: "Trucada telefònica", intro: (p) => `Et trucarem al <strong>${p}</strong> a l'hora acordada.`, sub: "Assegura't de tenir cobertura i un lloc tranquil per parlar.", pendingTitle: "Trucada telefònica", pendingBody: "Et trucarem al telèfon que ens vas indicar a l'hora acordada." },
-};
-
 export function phoneCallBlock(phone: string | null | undefined, lang = "es"): string {
-  const t = PHONE_I18N[lang] || PHONE_I18N.es;
+  const table = PHONE_I18N as Record<string, (typeof PHONE_I18N)[SupportedLang]>;
+  const t = table[lang] || PHONE_I18N.es;
   if (phone && phone.trim()) {
     return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background:${C_NEON_BG};background-color:${C_NEON_BG};border:1px solid ${C_BORDER};border-radius:16px;margin:0 0 24px;" bgcolor="${C_NEON_BG}">
       <tr><td style="padding:24px 24px;background:${C_NEON_BG};background-color:${C_NEON_BG};text-align:center;" bgcolor="${C_NEON_BG}">
@@ -312,7 +317,8 @@ export function meetingBlock(opts: { meetingType?: "google_meet" | "phone_call";
 }
 
 export function meetBlock(meetLink: string | null, lang = "es"): string {
-  const t = MEET_I18N[lang] || MEET_I18N.es;
+  const meetTable = MEET_I18N as Record<string, (typeof MEET_I18N)[SupportedLang]>;
+  const t = meetTable[lang] || MEET_I18N.es;
   if (meetLink) {
     return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background:${C_NEON_BG};background-color:${C_NEON_BG};border:1px solid ${C_BORDER};border-radius:16px;margin:0 0 24px;" bgcolor="${C_NEON_BG}">
       <tr><td style="padding:24px 24px;background:${C_NEON_BG};background-color:${C_NEON_BG};text-align:center;" bgcolor="${C_NEON_BG}">

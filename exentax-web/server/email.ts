@@ -3,11 +3,11 @@ import crypto from "crypto";
 import { logger } from "./logger";
 import { getGoogleServiceAccountKey } from "./google-credentials.js";
 import { isTransient, isAuthError } from "./google-utils";
-import { getEmailTranslations, resolveEmailLang, resolveLocalLabel, getCalculatorFidelityLabels } from "./email-i18n";
+import { getEmailTranslations, resolveEmailLang, resolveLocalLabel, getCalculatorFidelityLabels, UNSUB_LINK_I18N } from "./email-i18n";
 import { emailBreaker } from "./circuit-breaker";
 import { enqueueEmail, registerEmailRetryHandler } from "./email-retry-queue";
 import {
-  emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote,
+  emailHtml, label, heading, bodyText, divider, ctaButton, brandSignature, unsubNote, unsubFooterWithLink,
   infoCard, greenPanel, meetBlock, meetingBlock, bulletList,
   SITE_URL, WHATSAPP_URL,
   C_BG, C_NEON, C_NEON_DK, C_TEXT_1, C_TEXT_2, C_TEXT_3, C_BORDER,
@@ -29,6 +29,48 @@ import type {
 } from "../shared/email";
 
 const SENDER_EMAIL = CONTACT_EMAIL;
+
+/**
+ * Public URL of the brand mark used as the email banner. Defaults to the
+ * static asset shipped with the app (`/ex-icon-green.png` served by Vite
+ * out of `client/public/`). Operators can override via env to swap in a
+ * CDN/cache-busted variant without redeploying.
+ */
+export const EMAIL_LOGO_URL = process.env.EMAIL_LOGO_URL || `${SITE_URL}/ex-icon-green.png`;
+
+/**
+ * Lead-magnet PDF advertised in drip step #1 ("Open my guide"). Defaults
+ * to `${SITE_URL}/guide.pdf` until design uploads the real asset; making
+ * this env-configurable lets ops point at a real CDN URL the moment the
+ * file is ready, without a code change.
+ */
+export const GUIDE_PDF_URL = process.env.GUIDE_PDF_URL || `${SITE_URL}/guide.pdf`;
+
+/**
+ * Mailto-form `List-Unsubscribe` value used on every 1:1 transactional
+ * email (booking confirmation, reminder, reschedule, cancellation,
+ * no-show, follow-up, calculator result, incomplete-booking nudge). It
+ * intentionally does NOT carry a `List-Unsubscribe-Post: One-Click`
+ * companion — RFC 8058 one-click is reserved for genuine bulk content
+ * (drip + newsletter), where the user's MUA can act without a click
+ * round-trip. For 1:1 mail, the mailto form is enough to surface a
+ * native "Unsubscribe" affordance in Gmail / Apple Mail and gives
+ * Claudia a manual signal she can act on.
+ */
+export const TRANSACTIONAL_UNSUB_MAILTO = `mailto:${SENDER_EMAIL}?subject=Unsubscribe`;
+
+/**
+ * Build the RFC 8058 one-click unsubscribe URL for a drip enrollment.
+ * The token is generated when the row is inserted (`storage/marketing
+ * .ts:tryCreateDripEnrollment`) and resolved by the public route at
+ * `/api/drip/unsubscribe/:token` (POST → 200, GET → confirmation page).
+ * Returns null when the row predates the token migration, in which
+ * case the caller falls back to the mailto form.
+ */
+export function buildDripUnsubUrl(token: string | null | undefined): string | null {
+  if (!token || typeof token !== "string") return null;
+  return `${SITE_URL}/api/drip/unsubscribe/${encodeURIComponent(token)}`;
+}
 
 /**
  * Mask an email for log output: keep first 3 chars of local part + first
@@ -346,7 +388,7 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
     throw new Error("gmail_not_configured");
   }
-  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL);
+  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
   logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: ok ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
   if (!ok) {
     // Circuit breaker open or transient send failed even after in-process retries.
@@ -376,6 +418,33 @@ export async function sendBookingConfirmation(data: BookingEmailData): Promise<v
   }
 }
 
+/**
+ * Wrap a transactional email sender so that ANY failure (Gmail not
+ * configured, transport error, circuit-breaker open, send returned
+ * false) is captured and enqueued in the persistent retry queue. The
+ * worker will then re-invoke the underlying `oncefn` with full backoff
+ * tracking. The wrapper never throws — calling code can fire-and-forget.
+ *
+ * Used for the "soft" senders (reminder, reschedule, cancellation,
+ * no-show, follow-up, calculator, incomplete-booking, drip) where the
+ * caller does not want a UI/HTTP path to be blocked by an email outage.
+ * The booking-confirmation flow uses a hand-rolled equivalent above so
+ * that we can preserve its specific "throws on tx-strict" semantics.
+ */
+async function withRetryQueue<T>(
+  type: import("./email-retry-queue").EmailRetryType,
+  data: T,
+  oncefn: (d: T) => Promise<void>,
+): Promise<void> {
+  try {
+    await oncefn(data);
+  } catch (err) {
+    const reason = err instanceof Error ? err.message : String(err);
+    logger.warn(`Email ${type} deferred to retry queue: ${reason.slice(0, 200)}`, "email");
+    await enqueueEmail(type, data, { reason });
+  }
+}
+
 // Register the persistent retry handler so the queue worker can re-attempt
 // booking confirmations later (e.g. after Gmail credentials are configured
 // or after a transient SMTP outage clears). IMPORTANT: register the
@@ -385,7 +454,7 @@ registerEmailRetryHandler("booking_confirmation", async (payload) => {
   await sendBookingConfirmationOnce(payload as BookingEmailData);
 });
 
-export function renderCalculatorEmailHtml(data: CalculatorEmailData): { html: string; subject: string; lang: string } {
+export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { unsubUrl?: string }): { html: string; subject: string; lang: string } {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ct = t.calculator;
@@ -518,7 +587,9 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData): { html: st
     ${bodyText(ct.ctaDesc)}
 
     ${brandSignature(lang)}
-    ${unsubNote(ct.unsubNote)}
+    ${opts?.unsubUrl
+      ? unsubFooterWithLink(ct.unsubNote, opts.unsubUrl, UNSUB_LINK_I18N[lang])
+      : unsubNote(ct.unsubNote)}
   `;
 
   const subject = `${ct.subjectPrefix} | ${ahorroF}`;
@@ -526,26 +597,35 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData): { html: st
   return { html, subject, lang };
 }
 
-export async function sendCalculatorEmail(data: CalculatorEmailData) {
-  const { html: clientHtml, subject: clientSubject, lang } = renderCalculatorEmailHtml(data);
+async function sendCalculatorEmailOnce(data: CalculatorEmailData): Promise<void> {
+  // Calculator is a one-shot automated marketing email (single send per
+  // lead, no recurring list). Per the email-system policy we still
+  // surface a visible unsubscribe affordance — but since there is no
+  // per-recipient enrollment row, the only honest opt-out is the mailto
+  // form (auto-handled by `email-suppression`). Booking emails do not
+  // get this footer at all (operational notifications about the user's
+  // own appointment cannot be opted out).
+  const { html: clientHtml, subject: clientSubject, lang } = renderCalculatorEmailHtml(data, { unsubUrl: TRANSACTIONAL_UNSUB_MAILTO });
   const gmail = getGmailClient();
   const leadRef = data.leadId || "—";
-  if (gmail) {
-    try {
-      const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL);
-      logger.info(`Calculator lead sent → ${maskEmail(data.email)}`, "email");
-      logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
-    } catch (err) {
-      logger.error(`Calculator email failed for ${maskEmail(data.email)}:`, "email", err);
-      logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: String(err), clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
-    }
-  } else {
-    logger.debug("CALCULATOR LEAD (no Gmail): " + JSON.stringify({ email: maskEmail(data.email), leadId: leadRef }), "email");
+  if (!gmail) {
     logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
+    throw new Error("gmail_not_configured");
   }
+  const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { listUnsubscribe: TRANSACTIONAL_UNSUB_MAILTO });
+  logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
+  if (!sent) throw new Error("circuit_breaker_or_transient_failure");
+  logger.info(`Calculator lead sent → ${maskEmail(data.email)}`, "email");
 }
 
-export async function sendReminderEmail(data: ReminderEmailData) {
+export async function sendCalculatorEmail(data: CalculatorEmailData): Promise<void> {
+  await withRetryQueue("calculator_report", data, sendCalculatorEmailOnce);
+}
+registerEmailRetryHandler("calculator_report", async (payload) => {
+  await sendCalculatorEmailOnce(payload as CalculatorEmailData);
+});
+
+async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const rt = t.reminder;
@@ -634,9 +714,10 @@ export async function sendReminderEmail(data: ReminderEmailData) {
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment]);
+      const sent = await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment], undefined);
       logger.info(`Reminder sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("Reminder send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
@@ -645,10 +726,18 @@ export async function sendReminderEmail(data: ReminderEmailData) {
   } else {
     logger.debug("REMINDER (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+    throw new Error("gmail_not_configured");
   }
 }
 
-export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
+export async function sendReminderEmail(data: ReminderEmailData): Promise<void> {
+  await withRetryQueue("booking_reminder", data, sendReminderEmailOnce);
+}
+registerEmailRetryHandler("booking_reminder", async (payload) => {
+  await sendReminderEmailOnce(payload as ReminderEmailData);
+});
+
+async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const rt = t.reschedule;
@@ -688,9 +777,10 @@ export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
       logger.info(`Reschedule confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("Reschedule confirmation send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
@@ -699,10 +789,18 @@ export async function sendRescheduleConfirmation(data: RescheduleEmailData) {
   } else {
     logger.debug("RESCHEDULE (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+    throw new Error("gmail_not_configured");
   }
 }
 
-export async function sendCancellationEmail(data: CancellationEmailData) {
+export async function sendRescheduleConfirmation(data: RescheduleEmailData): Promise<void> {
+  await withRetryQueue("reschedule_notification", data, sendRescheduleConfirmationOnce);
+}
+registerEmailRetryHandler("reschedule_notification", async (payload) => {
+  await sendRescheduleConfirmationOnce(payload as RescheduleEmailData);
+});
+
+async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ct = t.cancellation;
@@ -742,9 +840,10 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
       logger.info(`Cancellation confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("Cancellation confirmation send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
@@ -753,8 +852,16 @@ export async function sendCancellationEmail(data: CancellationEmailData) {
   } else {
     logger.debug("CANCELLATION (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>`, date: `${data.date} ${data.startTime}–${data.endTime}` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+    throw new Error("gmail_not_configured");
   }
 }
+
+export async function sendCancellationEmail(data: CancellationEmailData): Promise<void> {
+  await withRetryQueue("cancellation_notification", data, sendCancellationEmailOnce);
+}
+registerEmailRetryHandler("cancellation_notification", async (payload) => {
+  await sendCancellationEmailOnce(payload as CancellationEmailData);
+});
 
 /**
  * Manual follow-up email sent by an operator from Discord (`/cita email
@@ -768,7 +875,7 @@ export interface FollowupEmailData {
   clientEmail: string;
   language: string | null;
 }
-export async function sendFollowupEmail(data: FollowupEmailData) {
+async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
   // Self-contained i18n: all user-visible strings come from t.followup.
   // No cross-template dependency on t.noShow — each email template owns
   // its own subject, heading, intro, CTA, closing and unsubNote.
@@ -796,9 +903,10 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
       logger.info(`Follow-up sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("Follow-up send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
@@ -807,8 +915,16 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
   } else {
     logger.debug("FOLLOWUP (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+    throw new Error("gmail_not_configured");
   }
 }
+
+export async function sendFollowupEmail(data: FollowupEmailData): Promise<void> {
+  await withRetryQueue("post_meeting_followup", data, sendFollowupEmailOnce);
+}
+registerEmailRetryHandler("post_meeting_followup", async (payload) => {
+  await sendFollowupEmailOnce(payload as FollowupEmailData);
+});
 
 /**
  * Drip sequence email — one of 6 nurture steps (days 0/3/6/9/12/15).
@@ -829,13 +945,16 @@ export interface DripEmailData {
   name?: string | null;
   language: string | null;
   step: 1 | 2 | 3 | 4 | 5 | 6;
+  /**
+   * Per-enrollment unsubscribe token persisted on the
+   * `drip_enrollments.unsubscribe_token` column. When present we render
+   * an RFC 8058 HTTPS one-click `List-Unsubscribe-Post: One-Click`
+   * header so Gmail / Yahoo MUAs can unsubscribe the recipient with a
+   * single click. Legacy rows that pre-date the token migration
+   * gracefully fall back to the mailto form.
+   */
+  unsubToken?: string | null;
 }
-
-// TODO: replace with the real lead-magnet PDF URL once design uploads
-// it. Until then we link to /guide.pdf (a 404 placeholder is preferable
-// to silently linking to the home page — it makes the missing asset
-// visible during QA).
-const GUIDE_PDF_URL = `${SITE_URL}/guide.pdf`;
 
 function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: ReturnType<typeof getEmailTranslations>["drip"]): string {
   if (step === 1) return ctaButton(GUIDE_PDF_URL, dripT.ctaOpenGuide);
@@ -844,7 +963,7 @@ function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: Ret
   return ""; // steps 2, 3, 5 are text-only nurture
 }
 
-export async function sendDripEmail(data: DripEmailData): Promise<void> {
+async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const d = t.drip;
@@ -859,6 +978,22 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
   const cta = dripCtaFor(data.step, lang, d);
   const psHtml = stepCopy.ps ? bodyText(stepCopy.ps) : "";
 
+  // Drip is bulk nurture content (6 emails / 15 days per enrollment), so a
+  // `List-Unsubscribe` header is required to satisfy modern bulk-sender
+  // expectations (Gmail / Yahoo Feb 2024) and to surface a native unsub
+  // affordance in the recipient's MUA. When the row carries an
+  // `unsubscribe_token` (post-migration), we render the RFC 8058 HTTPS
+  // form with `List-Unsubscribe-Post: One-Click` so MUAs unsubscribe with
+  // a single click. Legacy rows (token=null) gracefully fall back to the
+  // mailto form so we never lose the unsub affordance entirely.
+  // The same URL is also embedded as a visible footer link via
+  // `unsubFooterWithLink` — drip is one of the templates the user
+  // explicitly asked to surface a clickable Unsubscribe in the body
+  // (along with newsletter and the calculator report). Booking emails
+  // do not get this footer or the header.
+  const oneClickUrl = buildDripUnsubUrl(data.unsubToken);
+  const dripUnsub = oneClickUrl ?? `mailto:${SENDER_EMAIL}?subject=Unsubscribe%20drip`;
+
   const clientBody = `
     ${heading(greeting)}
 
@@ -869,7 +1004,7 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
     ${psHtml}
 
     ${brandSignature(lang, d.sigClosing)}
-    ${unsubNote(d.unsubNote)}
+    ${unsubFooterWithLink(d.unsubNote, dripUnsub, UNSUB_LINK_I18N[lang])}
   `;
 
   const subject = stepCopy.subject;
@@ -883,21 +1018,11 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
     throw new Error("Gmail not configured");
   }
 
-  // Drip is bulk nurture content (6 emails / 15 days per enrollment), so a
-  // `List-Unsubscribe` header is required to satisfy modern bulk-sender
-  // expectations (Gmail / Yahoo Feb 2024) and to surface a native unsub
-  // affordance in the recipient's MUA. We use the `mailto:` form as a
-  // baseline because the drip table does not yet carry a per-enrollment
-  // token (audit follow-up F-1 upgrades this to a one-click HTTPS endpoint).
-  // `List-Unsubscribe-Post: One-Click` is intentionally NOT set here — it
-  // requires an HTTPS endpoint that resolves a single-use token.
-  const dripUnsub = `mailto:${SENDER_EMAIL}?subject=Unsubscribe%20drip`;
-
   try {
     const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, undefined, undefined, undefined, { listUnsubscribe: dripUnsub });
     if (!ok) {
       logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "sendEmail returned false" });
-      throw new Error("sendEmail returned false");
+      throw new Error("circuit_breaker_or_transient_failure");
     }
     logger.info(`Drip ${logType} sent → ${maskEmail(data.email)}`, "email");
     logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "enviado", clientLanguage: lang });
@@ -907,6 +1032,21 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
     throw err;
   }
 }
+
+/**
+ * Public drip-step sender. Wrapped in the persistent retry queue so a
+ * Gmail outage during a 6-email/15-day nurture sequence never silently
+ * loses a step — the worker re-attempts with backoff (1m → 12h cap)
+ * until success or `MAX_ATTEMPTS`. The drip-worker's own backoff
+ * (`drip_enrollments.next_send_at`) governs WHEN to send each step;
+ * this queue governs WHAT to do when a send-time attempt fails.
+ */
+export async function sendDripEmail(data: DripEmailData): Promise<void> {
+  await withRetryQueue("drip_step", data, sendDripEmailOnce);
+}
+registerEmailRetryHandler("drip_step", async (payload) => {
+  await sendDripEmailOnce(payload as DripEmailData);
+});
 
 /**
  * Recordatorio "Reserva incompleta": se envía a quien empezó el flujo de
@@ -922,7 +1062,7 @@ export interface IncompleteBookingEmailData {
   clientName?: string | null;
   language: string | null;
 }
-export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailData) {
+async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ib = t.incompleteBooking;
@@ -953,9 +1093,10 @@ export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailDat
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
       logger.info(`Incomplete-booking sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "enviado", clientName: data.clientName || undefined, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName || undefined, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("Incomplete-booking send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName || undefined });
@@ -964,11 +1105,18 @@ export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailDat
   } else {
     logger.debug("INCOMPLETE BOOKING (no Gmail): " + JSON.stringify({ email: maskEmail(data.clientEmail), lang }), "email");
     logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: "fallido", error: "Gmail not configured", clientLanguage: lang });
-    throw new Error("Gmail not configured");
+    throw new Error("gmail_not_configured");
   }
 }
 
-export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
+export async function sendIncompleteBookingEmail(data: IncompleteBookingEmailData): Promise<void> {
+  await withRetryQueue("incomplete_booking_reminder", data, sendIncompleteBookingEmailOnce);
+}
+registerEmailRetryHandler("incomplete_booking_reminder", async (payload) => {
+  await sendIncompleteBookingEmailOnce(payload as IncompleteBookingEmailData);
+});
+
+async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const ns = t.noShow;
@@ -1003,9 +1151,10 @@ export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
       logger.info(`No-show reschedule sent → ${maskEmail(data.clientEmail)}`, "email");
-      logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
+      logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
+      if (!sent) throw new Error("circuit_breaker_or_transient_failure");
     } catch (err) {
       logger.error("No-show reschedule send failed:", "email", err);
       logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "fallido", error: String(err), clientName: data.clientName });
@@ -1014,6 +1163,14 @@ export async function sendNoShowRescheduleEmail(data: NoShowEmailData) {
   } else {
     logger.debug("NO-SHOW (no Gmail): " + JSON.stringify({ client: `${maskName(data.clientName)} <${maskEmail(data.clientEmail)}>` }), "email");
     logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName });
+    throw new Error("gmail_not_configured");
   }
 }
+
+export async function sendNoShowRescheduleEmail(data: NoShowEmailData): Promise<void> {
+  await withRetryQueue("no_show_followup", data, sendNoShowRescheduleEmailOnce);
+}
+registerEmailRetryHandler("no_show_followup", async (payload) => {
+  await sendNoShowRescheduleEmailOnce(payload as NoShowEmailData);
+});
 

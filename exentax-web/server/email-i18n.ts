@@ -7,6 +7,73 @@ export function resolveEmailLang(lang?: string | null): SupportedLang {
   return "es";
 }
 
+/**
+ * Centralised i18n bundles for layout chrome that lives in
+ * `email-layout.ts`: signature title, Google Meet block, phone-call
+ * block. Keeping these next to the rest of the email copy guarantees
+ * the translation team only ever has to look in ONE file (Task #1
+ * Phase A — code structure: separate concerns from the layout file).
+ *
+ * The layout module re-exports these so existing call sites keep
+ * working without churn; new code should import from here directly.
+ */
+export const SIGNATURE_TITLE_I18N: Record<SupportedLang, string> = {
+  es: "Asesora Fiscal",
+  en: "Tax Advisor",
+  fr: "Conseillère Fiscale",
+  de: "Steuerberaterin",
+  pt: "Consultora Fiscal",
+  ca: "Assessora Fiscal",
+};
+
+export const MEET_I18N: Record<SupportedLang, { title: string; joinBtn: string; joinSub: string; pending: string }> = {
+  es: { title: "Videollamada Google Meet", joinBtn: "Unirme a la reunión", joinSub: "Únete desde cualquier dispositivo a la hora acordada.", pending: "Te enviaremos el enlace de Google Meet en las próximas horas, antes de la reunión." },
+  en: { title: "Google Meet Video Call", joinBtn: "Join meeting", joinSub: "Join from any device at the scheduled time.", pending: "We'll send you the Google Meet link in the next few hours, before the meeting." },
+  fr: { title: "Appel vidéo Google Meet", joinBtn: "Rejoindre la réunion", joinSub: "Rejoignez depuis n'importe quel appareil à l'heure prévue.", pending: "Nous vous enverrons le lien Google Meet dans les prochaines heures, avant la réunion." },
+  de: { title: "Google Meet Videoanruf", joinBtn: "An Besprechung teilnehmen", joinSub: "Treten Sie zur geplanten Zeit von jedem Gerät bei.", pending: "Wir senden Ihnen den Google Meet Link in den nächsten Stunden vor dem Termin." },
+  pt: { title: "Videochamada Google Meet", joinBtn: "Entrar na reunião", joinSub: "Entre de qualquer dispositivo no horário agendado.", pending: "Enviaremos o link do Google Meet nas próximas horas, antes da reunião." },
+  ca: { title: "Videotrucada Google Meet", joinBtn: "Unir-me a la reunió", joinSub: "Uneix-te des de qualsevol dispositiu a l'hora acordada.", pending: "T'enviarem l'enllaç de Google Meet en les properes hores, abans de la reunió." },
+};
+
+export const PHONE_I18N: Record<SupportedLang, { title: string; intro: (phone: string) => string; sub: string; pendingTitle: string; pendingBody: string }> = {
+  es: { title: "Llamada telefónica", intro: (p) => `Te llamaremos al <strong>${p}</strong> a la hora acordada.`, sub: "Asegúrate de tener cobertura y un sitio tranquilo para hablar.", pendingTitle: "Llamada telefónica", pendingBody: "Te llamaremos al teléfono que nos indicaste a la hora acordada." },
+  en: { title: "Phone call", intro: (p) => `We'll call you at <strong>${p}</strong> at the scheduled time.`, sub: "Make sure you have coverage and a quiet place to talk.", pendingTitle: "Phone call", pendingBody: "We'll call you at the phone number you provided at the scheduled time." },
+  fr: { title: "Appel téléphonique", intro: (p) => `Nous vous appellerons au <strong>${p}</strong> à l'heure prévue.`, sub: "Assurez-vous d'avoir du réseau et un endroit calme pour parler.", pendingTitle: "Appel téléphonique", pendingBody: "Nous vous appellerons au numéro que vous nous avez fourni à l'heure prévue." },
+  de: { title: "Telefonanruf", intro: (p) => `Wir rufen Sie zum vereinbarten Zeitpunkt unter <strong>${p}</strong> an.`, sub: "Stellen Sie sicher, dass Sie Empfang und einen ruhigen Ort zum Sprechen haben.", pendingTitle: "Telefonanruf", pendingBody: "Wir rufen Sie zur vereinbarten Zeit unter der angegebenen Telefonnummer an." },
+  pt: { title: "Chamada telefónica", intro: (p) => `Ligaremos para o <strong>${p}</strong> à hora agendada.`, sub: "Garanta que tem rede e um local tranquilo para falar.", pendingTitle: "Chamada telefónica", pendingBody: "Ligaremos para o número que nos indicou à hora agendada." },
+  ca: { title: "Trucada telefònica", intro: (p) => `Et trucarem al <strong>${p}</strong> a l'hora acordada.`, sub: "Assegura't de tenir cobertura i un lloc tranquil per parlar.", pendingTitle: "Trucada telefònica", pendingBody: "Et trucarem al telèfon que ens vas indicar a l'hora acordada." },
+};
+
+/**
+ * Localised "rights reserved" suffix shown in every email footer.
+ * Centralised so future locale additions touch one place.
+ */
+export const FOOTER_RIGHTS_I18N: Record<SupportedLang, string> = {
+  es: "Todos los derechos reservados",
+  en: "All rights reserved",
+  fr: "Tous droits réservés",
+  de: "Alle Rechte vorbehalten",
+  pt: "Todos os direitos reservados",
+  ca: "Tots els drets reservats",
+};
+
+/**
+ * Visible "Unsubscribe" link label rendered in the footer of MARKETING
+ * emails only (drip nurture, calculator report, newsletter broadcast).
+ * Booking/agenda emails — confirmation, reminder, reschedule,
+ * cancellation, no-show, post-meeting follow-up, incomplete-booking
+ * reminder — are operational/transactional and intentionally do NOT
+ * surface this link, only a "you received this because…" disclaimer.
+ */
+export const UNSUB_LINK_I18N: Record<SupportedLang, string> = {
+  es: "Darse de baja",
+  en: "Unsubscribe",
+  fr: "Se désinscrire",
+  de: "Abmelden",
+  pt: "Cancelar inscrição",
+  ca: "Donar-se de baixa",
+};
+
 interface EmailTranslations {
   booking: {
     subjectPrefix: string;

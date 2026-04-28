@@ -176,13 +176,19 @@ export async function tryCreateDripEnrollment(opts: {
     const id = generateId("DRIP");
     const nowIso = new Date().toISOString();
     const cleanName = opts.name?.trim() || null;
+    // RFC 8058 one-click unsubscribe token, generated alongside the row so
+    // every drip email can carry a `List-Unsubscribe` header pointing to a
+    // unique HTTPS endpoint. 32 bytes hex = 64 chars, indistinguishable
+    // from random by an attacker without the secret.
+    const unsubToken = (await import("node:crypto")).randomBytes(32).toString("hex");
     const inserted = await db.execute(sql`
-      INSERT INTO drip_enrollments (id, email, name, language, source, current_step, next_send_at)
-      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, ${nowIso})
+      INSERT INTO drip_enrollments (id, email, name, language, source, current_step, next_send_at, unsubscribe_token)
+      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, ${nowIso}, ${unsubToken})
       ON CONFLICT (email) WHERE completed_at IS NULL DO NOTHING
       RETURNING id, email, name, language, source, current_step AS "currentStep",
                 next_send_at AS "nextSendAt", completed_at AS "completedAt",
                 claimed_at AS "claimedAt", last_error AS "lastError",
+                unsubscribe_token AS "unsubscribeToken",
                 fecha_creacion AS "createdAt"
     `);
     const rows = (inserted as unknown as { rows: s.DripEnrollment[] }).rows ?? [];
@@ -269,6 +275,7 @@ export async function claimDueDripEnrollments(opts: { limit: number; staleSecond
                 d.completed_at AS "completedAt",
                 d.claimed_at  AS "claimedAt",
                 d.last_error  AS "lastError",
+                d.unsubscribe_token AS "unsubscribeToken",
                 d.fecha_creacion AS "createdAt"
     `);
     const rows = (result as unknown as { rows: s.DripEnrollment[] }).rows ?? [];
@@ -283,6 +290,38 @@ export async function findActiveDripEnrollmentByEmail(email: string) {
       .limit(1);
     return rows[0] ?? null;
   } catch (err) { throw wrapStorageError("findActiveDripEnrollmentByEmail", err); }
+}
+
+/**
+ * Resolve a drip enrollment by its RFC 8058 unsubscribe token. Used by
+ * the public `/api/drip/unsubscribe/:token` endpoint to identify which
+ * row to terminate when the recipient clicks the one-click link in their
+ * mail client. Returns null when the token is unknown — the route
+ * layer maps that to a generic 200 to avoid leaking enumeration signal.
+ */
+export async function findDripEnrollmentByUnsubToken(token: string) {
+  try {
+    const rows = await db.select().from(s.dripEnrollments)
+      .where(eq(s.dripEnrollments.unsubscribeToken, token))
+      .limit(1);
+    return rows[0] ?? null;
+  } catch (err) { throw wrapStorageError("findDripEnrollmentByUnsubToken", err); }
+}
+
+/**
+ * Idempotently mark a drip enrollment as unsubscribed: sets `completed_at`
+ * (so the active-uniq index releases the email) and clears `next_send_at`
+ * (so the worker stops scheduling further steps). Safe to call multiple
+ * times — re-running on an already-completed row is a cheap no-op.
+ */
+export async function unsubscribeDripEnrollment(id: string): Promise<void> {
+  try {
+    await db.update(s.dripEnrollments).set({
+      completedAt: new Date().toISOString(),
+      nextSendAt: null,
+      claimedAt: null,
+    }).where(eq(s.dripEnrollments.id, id));
+  } catch (err) { throw wrapStorageError("unsubscribeDripEnrollment", err); }
 }
 
 // ─── GDPR retention purges ──────────────────────────────────────────────────

@@ -12,6 +12,7 @@ import {
   upsertNewsletterSubscriber,
   getAgendaByIdAndToken, updateAgenda,
   findNewsletterByUnsubToken, updateNewsletterSubscriber,
+  findDripEnrollmentByUnsubToken, unsubscribeDripEnrollment,
   insertConsentLog,
   upsertBookingDraft, markBookingDraftCompleted,
   SlotConflictError,
@@ -700,6 +701,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
               email: enrollment.email,
               name: enrollment.name ?? null,
               language: enrollment.language,
+              unsubToken: enrollment.unsubscribeToken,
             });
           }
         } catch (err) {
@@ -1162,6 +1164,7 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
             email: enrollment.email,
             name: enrollment.name ?? null,
             language: enrollment.language,
+            unsubToken: enrollment.unsubscribeToken,
           });
         }
       } catch (err) {
@@ -1703,6 +1706,34 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     logger.info(`Newsletter unsubscribe: ${subscriber.email.slice(0, 3)}***@${subscriber.email.split("@")[1] ?? ""}`, "newsletter");
     return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
   }));
+
+  // RFC 8058 one-click unsubscribe for the drip nurture sequence (guide
+  // download + post-booking nurture). Same shape as the newsletter route:
+  //   GET  /api/drip/unsubscribe/:token  →  HTML confirmation page
+  //   POST /api/drip/unsubscribe/:token  →  200 (Gmail / Yahoo one-click)
+  // Both verbs flip `completed_at` so the worker stops claiming the row
+  // and the partial unique index releases the email for any future
+  // re-enrollment. Idempotent: a second hit just shows "already unsubscribed".
+  const dripUnsubHandler = asyncHandler(async (req, res) => {
+    const ip = getClientIp(req);
+    const lang = resolveRequestLang(req);
+    if (!(await checkPublicDataRateLimit(ip))) {
+      return res.status(429).send(unsubscribeHtml(backendLabel("unsubError", lang), backendLabel("rateLimited", lang), lang));
+    }
+    const token = (req.params.token as string || "").trim();
+    if (!token || token.length > 200) {
+      return res.status(400).send(unsubscribeHtml(backendLabel("unsubError", lang), backendLabel("unsubInvalidLink", lang), lang));
+    }
+    const enrollment = await findDripEnrollmentByUnsubToken(token);
+    if (!enrollment || enrollment.completedAt) {
+      return res.status(200).send(unsubscribeHtml(backendLabel("unsubAlreadyTitle", lang), backendLabel("unsubAlreadyMsg", lang), lang));
+    }
+    await unsubscribeDripEnrollment(enrollment.id);
+    logger.info(`Drip unsubscribe: ${enrollment.email.slice(0, 3)}***@${enrollment.email.split("@")[1] ?? ""}`, "drip");
+    return res.status(200).send(unsubscribeHtml(backendLabel("unsubSuccessTitle", lang), backendLabel("unsubSuccessMsg", lang), lang));
+  });
+  app.get("/api/drip/unsubscribe/:token", dripUnsubHandler);
+  app.post("/api/drip/unsubscribe/:token", dripUnsubHandler);
 
 }
 

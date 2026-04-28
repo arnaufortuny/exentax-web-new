@@ -476,6 +476,13 @@ export const dripEnrollments = pgTable("drip_enrollments", {
   completedAt: text("completed_at"),
   claimedAt: text("claimed_at"),
   lastError: text("last_error"),
+  // RFC 8058 one-click unsubscribe token. 32+ random bytes hex-encoded,
+  // unique per enrollment so a single click in the recipient's MUA can
+  // resolve to exactly one row without exposing the email address. Set
+  // at insert time by `enrollDripContact`. Nullable for legacy rows that
+  // pre-date this column; the public unsubscribe route falls back to a
+  // `mailto:` instruction when missing.
+  unsubscribeToken: text("unsubscribe_token"),
   createdAt: timestamp("fecha_creacion").defaultNow(),
 }, (table) => [
   index("drip_enrollments_email_idx").on(table.email),

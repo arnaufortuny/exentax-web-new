@@ -1,18 +1,28 @@
 /**
  * Persistent email retry queue.
  *
- * Buffers transactional emails (currently: booking confirmations) that
- * failed to send because Gmail was not configured at the time of the event,
- * or because the underlying transport raised a transient error. The queue
- * is durable (Postgres-backed) so retries survive process restarts.
+ * Buffers ALL transactional emails (booking confirmations, reminders,
+ * reschedule/cancel/no-show notices, post-meeting follow-ups, calculator
+ * reports, incomplete-booking reminders, drip-sequence steps and the
+ * weekly newsletter broadcast) that failed to send because Gmail was not
+ * configured at the time of the event, or because the underlying
+ * transport raised a transient error. The queue is durable
+ * (Postgres-backed) so retries survive process restarts and rolling
+ * deploys.
  *
  * The queue is intentionally tiny in surface area:
  *   - `enqueueEmail(type, payload)`         → persist a job
+ *   - `registerEmailRetryHandler(type, fn)` → bind a sender to a type
  *   - `startEmailRetryWorker(intervalMs)`   → poll every N ms and re-attempt
  *
  * Backoff is computed from `attempts`: 1m, 5m, 15m, 1h, 4h, 12h (cap).
  * After `MAX_ATTEMPTS` the row is left in place with `attempts >= max` so
  * an operator can inspect it; the worker stops trying.
+ *
+ * Adding a new template = three steps: (1) add the literal to
+ * `EmailRetryType`, (2) call `registerEmailRetryHandler(type, fn)` from
+ * `email.ts`, (3) wrap the new sender with `enqueueEmail(type, …)` on
+ * the failure path. No changes to this file are required beyond #1.
  */
 
 import { eq, sql } from "drizzle-orm";
@@ -21,7 +31,17 @@ import { db, type DbOrTx } from "./db";
 import { emailRetryQueue, type InsertEmailRetryJob, type EmailRetryJob } from "../shared/schema";
 import { logger } from "./logger";
 
-export type EmailRetryType = "booking_confirmation";
+export type EmailRetryType =
+  | "booking_confirmation"
+  | "booking_reminder"
+  | "reschedule_notification"
+  | "cancellation_notification"
+  | "no_show_followup"
+  | "post_meeting_followup"
+  | "calculator_report"
+  | "incomplete_booking_reminder"
+  | "drip_step"
+  | "newsletter_broadcast";
 
 const MAX_ATTEMPTS = 6;
 // A row whose `claimed_at` is older than this is considered abandoned by a
