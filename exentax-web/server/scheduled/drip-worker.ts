@@ -15,7 +15,7 @@
  * (next_send_at is unchanged on failure — we don't compound delays).
  */
 import { logger } from "../logger";
-import { sendDripEmail } from "../email";
+import { sendDripEmailOnce } from "../email";
 import {
   claimDueDripEnrollments,
   advanceDripEnrollment,
@@ -60,7 +60,7 @@ async function drainOnce(): Promise<void> {
       // step we are about to send is currentStep + 1, capped at 6.
       const stepToSend = Math.min(6, (row.currentStep ?? 0) + 1) as 1 | 2 | 3 | 4 | 5 | 6;
       try {
-        await sendDripEmail({
+        await sendDripEmailOnce({
           email: row.email,
           name: row.name ?? null,
           language: row.language,
@@ -129,7 +129,7 @@ export async function sendImmediateStep1(args: {
   unsubToken?: string | null;
 }): Promise<void> {
   try {
-    await sendDripEmail({
+    await sendDripEmailOnce({
       email: args.email,
       name: args.name,
       language: args.language,

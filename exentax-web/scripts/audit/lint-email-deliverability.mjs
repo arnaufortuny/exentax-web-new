@@ -107,7 +107,7 @@ const bookingSenders = [
  * template literals where `}` is not column-zero.
  */
 function sliceFunctionBody(src, fnName) {
-  const startRe = new RegExp(`^(async\\s+)?function\\s+${fnName}\\b`, "m");
+  const startRe = new RegExp(`^(?:export\\s+)?(?:async\\s+)?function\\s+${fnName}\\b`, "m");
   const startMatch = startRe.exec(src);
   if (!startMatch) return null;
   const start = startMatch.index;

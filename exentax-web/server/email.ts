@@ -1135,7 +1135,7 @@ function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: Ret
   return ""; // steps 2, 3, 5 are text-only nurture
 }
 
-async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
+export async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
   const d = t.drip;
@@ -1145,11 +1145,13 @@ async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
 
   // Lead-magnet hard fail: drip step 1 advertises the guide PDF. If the
   // hosting URL is still the default placeholder in production we refuse
-  // to send (throwing here re-enqueues the job in the retry queue) so a
-  // broken `/guide.pdf` link never reaches a recipient. The boot-time
-  // `assertGuidePdfUrlReady()` already pages on-call so the URL is fixed
-  // same-day; until it is, the job parks in the retry queue with
-  // exponential backoff rather than burning a first impression.
+  // to send (throwing here propagates to the drip-worker, which calls
+  // `markDripEnrollmentError()` — the row keeps `current_step = 0` and
+  // is re-attempted on the next worker tick because `next_send_at` is
+  // not advanced on failure) so a broken `/guide.pdf` link never reaches
+  // a recipient. The boot-time `assertGuidePdfUrlReady()` already pages
+  // on-call so the URL is fixed same-day; until it is, the row parks in
+  // the drip table at step 0 rather than burning a first impression.
   if (data.step === 1 && process.env.NODE_ENV === "production" && GUIDE_PDF_URL === GUIDE_PDF_DEFAULT_PLACEHOLDER) {
     throw new Error("guide_pdf_url_not_configured");
   }
