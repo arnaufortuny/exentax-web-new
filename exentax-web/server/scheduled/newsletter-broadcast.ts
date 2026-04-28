@@ -23,7 +23,7 @@ import * as s from "../../shared/schema";
 import { logger } from "../logger";
 import { notifyEvent } from "../discord";
 import { generateId } from "../storage/core";
-import { getGmailClient, maskEmail } from "../email";
+import { getGmailClient, maskEmail, sendNewsletterEmail } from "../email";
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 const RATE_LIMIT_MS = 500;          // 2 emails/sec → 7200/h. Ajustable según proveedor.
@@ -253,6 +253,24 @@ async function processCampaignBatch(campaign: typeof s.newsletterCampaigns.$infe
   }
 }
 
+/**
+ * Send a single newsletter job through the unified `sendNewsletterEmail`
+ * transport (refactored 2026-04-28). Sharing the transport with
+ * booking/drip/calculator means broadcasts now get the same circuit
+ * breaker, suppression list, header-injection guards (`stripCrlf` on
+ * every MIME header), masked PII logging, and `Auto-Submitted` /
+ * `Precedence: bulk` deliverability headers as the rest of the system.
+ *
+ * The worker keeps its own retry/resume loop (the
+ * `newsletter_campaign_jobs` table tracks attempts per job), so this
+ * function intentionally does NOT enqueue into `email_retry_queue` on
+ * failure — `sendNewsletterEmail` returns `false`, `markJobResult`
+ * persists the failure, and the next worker tick will pick the job
+ * back up if `attempts < MAX_ATTEMPTS`.
+ *
+ * The campaign id is reused as `X-Entity-Ref-ID` so Gmail dedups
+ * resends of the same job into a single conversation.
+ */
 async function sendCampaignJob(
   gmail: any,
   campaign: typeof s.newsletterCampaigns.$inferSelect,
@@ -267,16 +285,16 @@ async function sendCampaignJob(
     ? `${SITE_URL}/api/newsletter/unsubscribe/${job.unsubscribe_token}`
     : `${SITE_URL}/contacto`;
 
-  // Reemplaza placeholder {{unsubscribe_url}} en el body con la URL única
-  // del suscriptor (token no firmado pero único + lookup en DB con WHERE
-  // unsubscribed_at IS NULL para idempotencia y rate-limit per-token en
-  // server/routes/public.ts:checkUnsubscribeRateLimit).
+  // Replace the {{unsubscribe_url}} placeholder with the per-subscriber
+  // URL (unsigned but unique, with DB-side WHERE unsubscribed_at IS NULL
+  // for idempotency and per-token rate-limit in
+  // routes/public.ts:checkUnsubscribeRateLimit).
   let html = (campaign.bodyHtml ?? "").replace(/{{\s*unsubscribe_url\s*}}/g, unsubUrl);
 
-  // Defense-in-depth: si el HTML no incluye link visible al unsubscribe,
-  // append un footer mínimo para compliance GDPR + LGPD + CAN-SPAM.
-  // Aunque la validación al crear campaign exige el placeholder, esta capa
-  // garantiza que cualquier HTML que llegue aquí tenga link unsub visible.
+  // Defense-in-depth: if the campaign HTML lacks a visible unsub link,
+  // append a minimal footer for GDPR/LGPD/CAN-SPAM compliance. The
+  // create-campaign validation already requires the placeholder, but
+  // this layer guarantees every send carries a visible opt-out path.
   if (!html.includes(unsubUrl)) {
     const footerEs = `
 <hr style="margin:32px 0;border:none;border-top:1px solid #e5e5e5"/>
@@ -289,30 +307,14 @@ async function sendCampaignJob(
     html = html + "\n" + footerEs;
   }
 
-  // Sender name "Exentax Newsletter" diferencia broadcasts de transaccionales
-  // (welcomeLead, bookingConfirmation, etc. usan "Exentax"). Esto ayuda al
-  // cliente a identificar canal y a su filtro de spam a clasificar correctamente.
-  const fromAddress = process.env.GMAIL_SENDER ?? "hola@exentax.com";
-  const raw = [
-    `From: Exentax Newsletter <${fromAddress}>`,
-    `Reply-To: ${fromAddress}`,
-    `To: ${job.email}`,
-    `Subject: ${campaign.subject}`,
-    `MIME-Version: 1.0`,
-    `Content-Type: text/html; charset=UTF-8`,
-    `List-Unsubscribe: <${unsubUrl}>`,
-    `List-Unsubscribe-Post: List-Unsubscribe=One-Click`,
-    ``,
-    html,
-  ].join("\r\n");
-  const encoded = Buffer.from(raw).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-
   try {
-    await gmail.users.messages.send({
-      userId: "me",
-      requestBody: { raw: encoded },
+    return await sendNewsletterEmail({
+      to: job.email,
+      subject: campaign.subject,
+      html,
+      unsubUrl,
+      entityRefId: `newsletter-${campaign.id}-${job.id}`,
     });
-    return true;
   } catch (err) {
     logger.error(`[newsletter-broadcast] send failed → ${maskEmail(job.email)}`, "newsletter", err);
     return false;

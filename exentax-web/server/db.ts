@@ -190,6 +190,26 @@ export async function runColumnMigrations(): Promise<void> {
         ON discord_outbound_queue (fecha_creacion)
     `);
 
+    // Drip-enrollment one-click unsubscribe token (Task #1, 2026-04-28).
+    // The drip sender, the worker drain, and `routes/public.ts:GET|POST
+    // /api/drip/unsubscribe/:token` all dereference this column at runtime.
+    // Without this idempotent ALTER, a fresh DB (or any environment that
+    // skipped the manual `drizzle-kit push`) would fail every drip insert
+    // (`tryCreateDripEnrollment` writes the column) and every unsub click
+    // would 404. Hex token, 64 chars; nullable so legacy rows that pre-date
+    // the migration coexist (sender falls back to mailto). Partial index on
+    // active tokens because the only lookup pattern is "find the still-
+    // subscribed enrollment by token" in the unsubscribe handler.
+    await client.query(`
+      ALTER TABLE drip_enrollments
+        ADD COLUMN IF NOT EXISTS unsubscribe_token varchar(64)
+    `);
+    await client.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS drip_enrollments_unsub_token_uniq_idx
+        ON drip_enrollments (unsubscribe_token)
+        WHERE unsubscribe_token IS NOT NULL
+    `);
+
     logger.debug("Column migrations applied.", "db");
   } catch (err) {
     // Slot uniqueness is the only mechanism preventing double-booking, so

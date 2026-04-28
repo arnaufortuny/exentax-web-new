@@ -39,12 +39,26 @@ const SENDER_EMAIL = CONTACT_EMAIL;
 export const EMAIL_LOGO_URL = process.env.EMAIL_LOGO_URL || `${SITE_URL}/ex-icon-green.png`;
 
 /**
- * Lead-magnet PDF advertised in drip step #1 ("Open my guide"). Defaults
- * to `${SITE_URL}/guide.pdf` until design uploads the real asset; making
- * this env-configurable lets ops point at a real CDN URL the moment the
- * file is ready, without a code change.
+ * Lead-magnet PDF advertised in drip step #1 ("Open my guide"). The
+ * canonical asset lives at `${SITE_URL}/guide.pdf` (served by the static
+ * client/public/ directory) and `GUIDE_PDF_URL` env var lets ops point
+ * at a CDN replacement without a code change. To avoid silently shipping
+ * a broken link, `assertGuidePdfUrlReady()` is invoked at boot and emits
+ * a CRITICAL alert (logger.error → Discord-notified) if the URL still
+ * resolves to the default placeholder in production. Drip step 1 will
+ * still be sent (the body has more value than the link) but the on-call
+ * channel is paged so the asset can be uploaded same-day.
  */
 export const GUIDE_PDF_URL = process.env.GUIDE_PDF_URL || `${SITE_URL}/guide.pdf`;
+const GUIDE_PDF_DEFAULT_PLACEHOLDER = `${SITE_URL}/guide.pdf`;
+export function assertGuidePdfUrlReady(): void {
+  if (process.env.NODE_ENV === "production" && GUIDE_PDF_URL === GUIDE_PDF_DEFAULT_PLACEHOLDER) {
+    logger.error(
+      `GUIDE_PDF_URL not configured: drip step 1 is advertising the default placeholder ${GUIDE_PDF_DEFAULT_PLACEHOLDER}. Set GUIDE_PDF_URL env var to the real CDN URL.`,
+      "email",
+    );
+  }
+}
 
 /**
  * Mailto-form `List-Unsubscribe` value used on every 1:1 transactional
@@ -184,8 +198,31 @@ export function getGmailClient() {
   }
 }
 
+/**
+ * Per-call MIME header overrides. Centralised here so every transport
+ * exit (transactional senders, drip worker, newsletter broadcast)
+ * exposes the SAME deliverability surface and the SAME audit trail.
+ *
+ * - `listUnsubscribe`: RFC 2369 / RFC 8058 unsub URL (mailto: or HTTPS).
+ *   When present, `List-Unsubscribe-Post: List-Unsubscribe=One-Click` is
+ *   appended automatically (Gmail / Yahoo Feb 2024 bulk-sender contract).
+ * - `autoSubmitted`: RFC 3834 hint. ALL programmatically-sent mail
+ *   should set `auto-generated`. Keeps replies out of out-of-office
+ *   loops and signals to spam filters that a human did not type this.
+ * - `precedence`: RFC 2076 — set to `bulk` for newsletter / drip
+ *   broadcasts only. Booking confirmations / reminders are 1:1
+ *   transactional and MUST NOT carry it (would lower priority in
+ *   Gmail's tab classification).
+ * - `entityRefId`: Gmail-only `X-Entity-Ref-ID` thread-dedup hint.
+ *   When two messages share the same value Gmail merges them into the
+ *   same thread / suppresses duplicates — useful for retried sends so
+ *   the recipient does not see the same calendar invite twice.
+ */
 interface BuildRawOpts {
   listUnsubscribe?: string;
+  autoSubmitted?: "auto-generated" | "auto-replied" | "auto-notified";
+  precedence?: "bulk" | "list";
+  entityRefId?: string;
 }
 
 /**
@@ -211,6 +248,9 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
   const safeBcc = bcc ? stripCrlf(bcc) : undefined;
   const safeFromName = stripCrlf(fromName);
   const safeListUnsub = opts?.listUnsubscribe ? stripCrlf(opts.listUnsubscribe) : undefined;
+  const safeAutoSubmitted = opts?.autoSubmitted ? stripCrlf(opts.autoSubmitted) : undefined;
+  const safePrecedence = opts?.precedence ? stripCrlf(opts.precedence) : undefined;
+  const safeEntityRefId = opts?.entityRefId ? stripCrlf(opts.entityRefId) : undefined;
   const encodedSubject = `=?UTF-8?B?${Buffer.from(subject).toString("base64")}?=`;
   const messageId = `<${crypto.randomBytes(12).toString("hex")}@${SENDER_EMAIL.split("@")[1] || "exentax.com"}>`;
 
@@ -231,6 +271,9 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
       lines.push(`List-Unsubscribe: <${safeListUnsub}>`);
       lines.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
     }
+    if (safeAutoSubmitted) lines.push(`Auto-Submitted: ${safeAutoSubmitted}`);
+    if (safePrecedence) lines.push(`Precedence: ${safePrecedence}`);
+    if (safeEntityRefId) lines.push(`X-Entity-Ref-ID: ${safeEntityRefId}`);
     lines.push("", htmlBase64);
     return Buffer.from(lines.join("\r\n")).toString("base64url");
   }
@@ -250,6 +293,9 @@ function buildRaw(to: string, subject: string, html: string, replyTo?: string, f
     headers.push(`List-Unsubscribe: <${safeListUnsub}>`);
     headers.push(`List-Unsubscribe-Post: List-Unsubscribe=One-Click`);
   }
+  if (safeAutoSubmitted) headers.push(`Auto-Submitted: ${safeAutoSubmitted}`);
+  if (safePrecedence) headers.push(`Precedence: ${safePrecedence}`);
+  if (safeEntityRefId) headers.push(`X-Entity-Ref-ID: ${safeEntityRefId}`);
 
   const parts: string[] = [];
   parts.push(`--${boundary}`);
@@ -388,7 +434,7 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
     throw new Error("gmail_not_configured");
   }
-  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { ...headerPolicyFor("transactional"), entityRefId: agendaRef !== "—" ? `booking-confirmation-${agendaRef}` : undefined });
   logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: ok ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
   if (!ok) {
     // Circuit breaker open or transient send failed even after in-process retries.
@@ -443,6 +489,76 @@ async function withRetryQueue<T>(
     logger.warn(`Email ${type} deferred to retry queue: ${reason.slice(0, 200)}`, "email");
     await enqueueEmail(type, data, { reason });
   }
+}
+
+/**
+ * Centralised header policy keyed by email family. Every transport exit
+ * (`sendBookingConfirmationOnce`, `sendDripEmailOnce`, the newsletter
+ * worker, …) reads from this single table so the deliverability surface
+ * is reviewable at a glance and impossible to drift between templates.
+ *
+ * - "transactional" — 1:1 booking-related mail. No `Precedence`, no
+ *   `List-Unsubscribe` (operational notification — the user cannot
+ *   unsubscribe from their own appointment). Carries `Auto-Submitted:
+ *   auto-generated` so OoO replies don't loop back.
+ * - "marketing-1to1" — calculator report (one-shot, no recurring list).
+ *   Mailto unsub for visibility; `Auto-Submitted` only.
+ * - "marketing-bulk" — drip nurture + newsletter broadcasts. Full unsub
+ *   contract (`List-Unsubscribe` HTTPS one-click + visible footer link),
+ *   `Precedence: bulk` for proper Gmail tab routing, and
+ *   `Auto-Submitted: auto-generated`.
+ *
+ * Per-call overrides (`listUnsubscribe`, `entityRefId`) are layered on
+ * top of the policy so a sender can still pin a per-recipient unsub
+ * URL without forking the table.
+ */
+type EmailFamily = "transactional" | "marketing-1to1" | "marketing-bulk";
+function headerPolicyFor(family: EmailFamily): BuildRawOpts {
+  switch (family) {
+    case "transactional":
+      return { autoSubmitted: "auto-generated" };
+    case "marketing-1to1":
+      return { autoSubmitted: "auto-generated" };
+    case "marketing-bulk":
+      return { autoSubmitted: "auto-generated", precedence: "bulk" };
+  }
+}
+
+/**
+ * Public newsletter sender — drives the broadcast worker through the
+ * same `sendEmail` transport every other template uses, so
+ * `email-suppression`, the circuit breaker, the masked-PII logger and
+ * the header-injection guards are all enforced uniformly. The worker
+ * keeps its own job table for resumability + 2/sec rate-limit, so we
+ * intentionally DO NOT enqueue into `email_retry_queue` here (would
+ * double-handle retries). The `From: "Exentax Newsletter"` display
+ * name is preserved so spam filters keep classifying broadcasts in the
+ * Promotions tab and away from booking confirmations.
+ */
+export interface NewsletterEmailOpts {
+  to: string;
+  subject: string;
+  html: string;
+  unsubUrl: string;
+  /** Stable id used as `X-Entity-Ref-ID` for Gmail thread dedup on retried jobs. */
+  entityRefId?: string;
+}
+export async function sendNewsletterEmail(opts: NewsletterEmailOpts): Promise<boolean> {
+  const replyToAddr = process.env.GMAIL_SENDER ?? SENDER_EMAIL;
+  return sendEmail(
+    opts.to,
+    opts.subject,
+    opts.html,
+    replyToAddr,
+    "Exentax Newsletter",
+    undefined,
+    undefined,
+    {
+      ...headerPolicyFor("marketing-bulk"),
+      listUnsubscribe: opts.unsubUrl,
+      entityRefId: opts.entityRefId,
+    },
+  );
 }
 
 // Register the persistent retry handler so the queue worker can re-attempt
@@ -612,7 +728,7 @@ async function sendCalculatorEmailOnce(data: CalculatorEmailData): Promise<void>
     logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     throw new Error("gmail_not_configured");
   }
-  const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { listUnsubscribe: TRANSACTIONAL_UNSUB_MAILTO });
+  const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { ...headerPolicyFor("marketing-1to1"), listUnsubscribe: TRANSACTIONAL_UNSUB_MAILTO, entityRefId: leadRef !== "—" ? `calculator-${leadRef}` : undefined });
   logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
   if (!sent) throw new Error("circuit_breaker_or_transient_failure");
   logger.info(`Calculator lead sent → ${maskEmail(data.email)}`, "email");
@@ -714,7 +830,7 @@ async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment], undefined);
+      const sent = await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment], undefined, headerPolicyFor("transactional"));
       logger.info(`Reminder sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -777,7 +893,7 @@ async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promis
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Reschedule confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -840,7 +956,7 @@ async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<v
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Cancellation confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -903,7 +1019,7 @@ async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Follow-up sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -1019,7 +1135,7 @@ async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
   }
 
   try {
-    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, undefined, undefined, undefined, { listUnsubscribe: dripUnsub });
+    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, undefined, undefined, undefined, { ...headerPolicyFor("marketing-bulk"), listUnsubscribe: dripUnsub, entityRefId: data.unsubToken ? `drip-${data.unsubToken}-step${data.step}` : undefined });
     if (!ok) {
       logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "sendEmail returned false" });
       throw new Error("circuit_breaker_or_transient_failure");
@@ -1093,7 +1209,7 @@ async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData):
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Incomplete-booking sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName || undefined, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -1151,7 +1267,7 @@ async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<voi
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined);
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`No-show reschedule sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
