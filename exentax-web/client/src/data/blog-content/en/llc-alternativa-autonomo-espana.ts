@@ -1,6 +1,6 @@
 export default `If you're a freelancer in Spain and your work runs entirely on a laptop, you've probably done the math more than once. The monthly social-security quota for autónomos, the progressive personal income tax (IRPF), the quarterly tax forms, the advance payments, the EU reverse-charge VAT, the Modelo 349, the Modelo 720 if you hold anything abroad… and at the end of the year, almost half of what you billed never reaches your pocket.
 
-That's why more and more freelancers, small agencies, developers, consultants, course creators, traders and content creators look for **real alternatives to being an autónomo in Spain**. And the one that fits best for fully digital profiles with international clients is the **US LLC**. It is not magic, not a trick, not tax fraud. It is a legal structure recognized by Spanish administrative doctrine and supported by the US-Spain double-taxation treaty that, designed properly, can save thousands of euros per year and let you operate as a modern international business.
+That's why more and more freelancers, small agencies, developers, advisors, course creators, traders and content creators look for **real alternatives to being an autónomo in Spain**. And the one that fits best for fully digital profiles with international clients is the **US LLC**. It is not magic, not a trick, not tax fraud. It is a legal structure recognized by Spanish administrative doctrine and supported by the US-Spain double-taxation treaty that, designed properly, can save thousands of euros per year and let you operate as a modern international business.
 
 This is the honest version. No impossible promises. Numbers, advantages, drawbacks and the profiles for which it does **not** make sense.
 
@@ -46,7 +46,7 @@ Two typical scenarios so this doesn't stay abstract:
 - **With a properly designed LLC:** deductible expenses ≈ €15,000 (full pro stack billed via the LLC), base ≈ €45,000, effective IRPF ≈ 25%. LLC maintenance ≈ €1,500-€2,500. Total: **≈ €13,000-€14,000**.
 - **Net annual saving:** between **€6,000 and €7,500**.
 
-### Scenario 2, Digital agency or consultant at €120,000/year
+### Scenario 2, Digital agency or advisor at €120,000/year
 
 - **As autónomo:** quota ≈ €4,800, IRPF reaching 45% brackets. Total estimate: **≈ €45,000**.
 - **With LLC:** more planning capacity, more legitimate deductible expenses, no monthly quota and the option to retain profits inside the LLC for reinvestment. Total estimate: **≈ €28,000-€32,000**.
@@ -69,7 +69,7 @@ The banking stack we recommend for a modern LLC:
 The LLC works very well if:
 
 - You bill mostly **clients outside Spain** (EU or worldwide).
-- Your work is **100% digital**: software, SaaS, marketing, design, consulting, online training, info-products, content, ecommerce.
+- Your work is **100% digital**: software, SaaS, marketing, design, advisory, online training, info-products, content, ecommerce.
 - You're willing to **operate in USD** and integrate with US tools (Stripe, Mercury, etc.).
 - You want to **separate your personal assets** from the business.
 - Your billing is over **€30,000-€40,000/year** and you see yourself growing.
@@ -115,11 +115,11 @@ It's not plug-and-play. It's a project. But from year one onwards, the differenc
 
 Every case is individual. Legislation changes, both in Spain and in the US. What is optimal today may need adjustments tomorrow. So this isn't a guide to "rush and open an LLC", but to **truly understand the alternative** before making a decision that will impact your tax life for years.
 
-If you want to see, with your real numbers, how much you'd save per year, try our **free tax calculator** or book a **free 30-minute consultation** with the Exentax team. We give you concrete numbers, no smoke.
+If you want to see, with your real numbers, how much you'd save per year, try our **free tax calculator** or book a **free 30-minute advisory session** with the Exentax team. We give you concrete numbers, no smoke.
 
 To go deeper, read our guide on <a href="/en/blog/self-employed-in-spain-vs-llc-in-the-us-complete-tax">Self-employed in Spain vs LLC in the US: complete tax comparison</a>, our piece <a href="/en/blog/why-spanish-freelancers-are-leaving-self-employment-for-a-us">Why Spanish freelancers are leaving self-employment for a US LLC</a> and our guide on <a href="/en/blog/do-us-bank-accounts-report-to-your-home-tax-authority-the">Do US bank accounts report to your home tax authority? The honest answer</a>.
 
-Book your free consultation with Exentax and stop paying like a year-2000 freelancer when you actually run a today digital business.
+Book your free advisory session with Exentax and stop paying like a year-2000 freelancer when you actually run a today digital business.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
@@ -208,7 +208,7 @@ At Exentax we model the full scenario (current contribution + IRPF + VAT + LLC c
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 <!-- task9-2026-expansion -->
 ## Living in Spain with a US LLC: effective taxation, filings and worked cases by revenue band
@@ -267,6 +267,6 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 `;

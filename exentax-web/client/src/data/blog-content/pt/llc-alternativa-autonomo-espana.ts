@@ -1,6 +1,6 @@
 export default `Se é trabalhador independente na Espanha (autónomo) e seu trabalho cabe num laptop, provavelmente já fez as contas mais de uma vez. A cota mensal de autónomos, o IRPF progressivo, os modelos trimestrais, os pagamentos antecipados, o IVA com clientes europeus, a inversão do sujeito passivo, o modelo 349, o modelo 720 se tem algo no exterior… No fim do ano, quase metade do que fatura não chega ao seu bolso.
 
-Por isso cada vez mais freelancers, pequenas agências, desenvolvedores, consultores, infoprodutores, traders e criadores de conteúdo procuram **alternativas reais a ser autónomo na Espanha**. E entre todas, a que melhor encaixa para perfis 100% digitais com clientes internacionais é a **LLC nos Estados Unidos**. Não é mágica, não é truque fiscal, não é fraude. É uma estrutura legal reconhecida pela doutrina administrativa espanhola e pelo tratado de dupla tributação entre EUA e Espanha que, bem desenhada, permite economizar milhares de euros por ano e operar como uma empresa internacional moderna.
+Por isso cada vez mais freelancers, pequenas agências, desenvolvedores, assessores, infoprodutores, traders e criadores de conteúdo procuram **alternativas reais a ser autónomo na Espanha**. E entre todas, a que melhor encaixa para perfis 100% digitais com clientes internacionais é a **LLC nos Estados Unidos**. Não é mágica, não é truque fiscal, não é fraude. É uma estrutura legal reconhecida pela doutrina administrativa espanhola e pelo tratado de dupla tributação entre EUA e Espanha que, bem desenhada, permite economizar milhares de euros por ano e operar como uma empresa internacional moderna.
 
 Esta é a versão honesta. Sem promessas impossíveis. Com números, vantagens, desvantagens e perfis para os quais **não** compensa.
 
@@ -46,7 +46,7 @@ Dois cenários típicos:
 - **Com LLC bem desenhada:** despesas dedutíveis ≈ 15.000 €, base ≈ 45.000 €, IRPF efetivo ≈ 25%. Manutenção LLC ≈ 1.500-2.500 €. Total: **≈ 13.000-14.000 €**.
 - **Economia líquida anual:** entre **6.000 € e 7.500 €**.
 
-### Cenário 2, Agência digital ou consultor de 120.000 €/ano
+### Cenário 2, Agência digital ou assessor de 120.000 €/ano
 
 - **Como autónomo:** cota ≈ 4.800 €, IRPF nas faixas de 45%. Total estimado: **≈ 45.000 €**.
 - **Com LLC:** mais planeamento, mais despesas dedutíveis legítimas, sem cota mensal, opção de reter parte do lucro na LLC. Total estimado: **≈ 28.000-32.000 €**.
@@ -69,7 +69,7 @@ Stack bancário recomendado para uma LLC moderna:
 A LLC funciona muito bem se:
 
 - fatura majoritariamente para **clientes fora da Espanha**.
-- Seu trabalho é **100% digital**: software, SaaS, marketing, design, consultoria, treinamento online, infoprodutos, conteúdo, ecommerce.
+- Seu trabalho é **100% digital**: software, SaaS, marketing, design, assessoria, treinamento online, infoprodutos, conteúdo, ecommerce.
 - Está disposto a **operar em USD** e integrar com ferramentas americanas.
 - Quer **separar património pessoal** do negócio.
 - Faturação acima de **30.000-40.000 €/ano** e em crescimento.
@@ -112,11 +112,11 @@ Não é plug-and-play. É um projeto. Mas a partir do primeiro ano, a diferença
 
 Cada caso é individual. A legislação muda, tanto na Espanha como nos EUA. Por isso esta não é uma guia para "correr e abrir uma LLC", mas para **entender bem a alternativa** antes de uma decisão que impactará sua vida fiscal por anos.
 
-Se quer ver, com seus números reais, quanto economizaria por ano, experimente nossa **calculadora fiscal gratuita** ou agende uma **consultoria gratuita de 30 minutos** com a equipa Exentax. Damos cifras concretas, sem fumaça.
+Se quer ver, com seus números reais, quanto economizaria por ano, experimente nossa **calculadora fiscal gratuita** ou agende uma **assessoria gratuita de 30 minutos** com a equipa Exentax. Damos cifras concretas, sem fumaça.
 
 Para aprofundar, leia também <a href="/pt/blog/autonomo-em-espanha-vs-llc-nos-eua-comparacao-fiscal">Autónomo na Espanha vs LLC nos EUA</a>, <a href="/pt/blog/por-que-freelancers-espanhois-estao-deixando-o-trabalho">Por que freelancers espanhóis estão a deixar o regime de autónomos</a> e <a href="/pt/blog/as-contas-bancarias-americanas-reportam-a-sua-autoridade">As contas bancárias nos EUA reportam ao fisco espanhol?</a>.
 
-Agende sua consultoria gratuita com a Exentax e pare de pagar como um autónomo do ano 2000 quando trabalha como um negócio digital de hoje.
+Agende sua assessoria gratuita com a Exentax e pare de pagar como um autónomo do ano 2000 quando trabalha como um negócio digital de hoje.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -152,7 +152,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 <!-- exentax:lote32-native-v1:llc-alternativa-autonomo-espana-pt -->
 ## Como ler a comparação LLC contra autónomo espanhol como um mapeamento estável em vez de um debate de comunidade
 
-A comparação LLC contra autónomo espanhol lê-se de forma mais útil como um mapeamento estável entre o país de residência do beneficiário, o país onde se cria valor e o país dos clientes, em vez de um debate de comunidade. Este mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+A comparação LLC contra autónomo espanhol lê-se de forma mais útil como um mapeamento estável entre o país de residência do beneficiário, o país onde se cria valor e o país dos clientes, em vez de um debate de comunidade. Este mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-pt -->
 
 <!-- exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-pt -->
@@ -272,7 +272,7 @@ Não dispensa o Modelo 720, não esconde nada graças ao FATCA, não exonera a c
 Se o objetivo principal é minimizar carga fiscal continue com <a href="/pt/blog/caminhos-legais-para-minimizar-impostos">os caminhos legais para pagar o mínimo possível</a>, e se o ativo principal está em cripto ou corretoras estrangeiras complemente com <a href="/pt/blog/modelo-720-e-modelo-721-guia-para-residentes-em-espanha-com">o guia Modelo 720 e 721</a>. Para rever o seu caso <strong>agende uma sessão com a Exentax</strong>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20voc%C3%AA%20%C3%A9%20trabalhador%20independente%20na%20Espanha%20(aut%C3%B3nomo)%20e%20seu%20trabalho%20cabe%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20voc%C3%AA%20%C3%A9%20trabalhador%20independente%20na%20Espanha%20(aut%C3%B3nomo)%20e%20seu%20trabalho%20cabe%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

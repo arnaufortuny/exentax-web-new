@@ -30,7 +30,7 @@ Every subscription used for your business:
 - Lawyer fees for contracts or legal questions
 - Copywriter, translator, or designer services
 - Virtual assistant services
-- Consulting fees
+- Advisory fees
 
 ### Banking and financial fees
 - Wire transfer fees (if not using Mercury. Mercury is $0)
@@ -250,7 +250,7 @@ The IRS rule is deceptively simple: "ordinary and necessary" for your trade. But
 
 - **Clearly deductible.** Software (Notion, Figma, Stripe fees, hosting), advertising (Meta, Google, LinkedIn), contractors with W-9 or W-8BEN, platform fees, professional subscriptions, computer equipment used 100% for business, accounting and advisory. Pay from the LLC account, invoice in the LLC's name, stored in Drive or similar, tagged by category.
 - **Conditional deductions.** Coworking and office (fully), home office (proportion of space exclusively used, with documentation), business travel (ticket, hotel, reasonable per diem; "me and my family in Bali" does not count), training specific to your activity, client meals (50% federal deductible).
-- **Problematic without substance.** Personal car, non-uniform clothing, mixed personal expenses, "consulting" paid to family without real service or W-9, trips without documented agenda. The LLC is transparent to the IRS and opaque to the bank - both cross data in an audit.
+- **Problematic without substance.** Personal car, non-uniform clothing, mixed personal expenses, "advisory" paid to family without real service or W-9, trips without documented agenda. The LLC is transparent to the IRS and opaque to the bank - both cross data in an audit.
 - **Disregarded vs C-Corp: the nuance.** If your LLC is disregarded (single-member), expenses reduce Schedule C or attributed income. If you elected C-Corp via form 8832, they reduce corporate profit taxed at 21% federal. Documentation requirements are identical.
 
 ### What we are asked the most
@@ -277,7 +277,7 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -309,7 +309,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

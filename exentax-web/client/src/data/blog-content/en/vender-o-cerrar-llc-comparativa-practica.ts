@@ -24,7 +24,7 @@ The choice depends on what you have, who you are selling to (if anyone), and you
 ### When closing (dissolution) makes sense
 
 - **No buyer** willing to pay more than you would liquidating yourself.
-- The business depends heavily on **you as a person** (consulting, personal-brand agency): no transferable separable asset.
+- The business depends heavily on **you as a person** (advisory, personal-brand agency): no transferable separable asset.
 - You want to **simplify your life** and the residual assets (bank balance, equipment, software) you can liquidate yourself.
 - The LLC has **accumulated technical debt** that a buyer would discount harshly.
 
@@ -102,7 +102,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 ## Exentax today update: decide with your head
 
@@ -144,7 +144,7 @@ If you want to know which path fits your real case, run the <strong>Exentax calc
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -190,7 +190,7 @@ the state and the bank.
 
 ## Three real client stories
 
-A consultant operating through a single-member LLC for three years
+A advisor operating through a single-member LLC for three years
 decided to wind it down when relocating jurisdictions. Closing was
 the right call: there were no transferable contracts, the bank
 history was useful only to her, and the cost of selling exceeded the
@@ -202,7 +202,7 @@ the customer contracts and the merchant accounts were all in the
 LLC's name. We ran a structured sale, the buyer assumed the LLC,
 and the founder kept her clean exit narrative.
 
-A consultant with two LLCs (one operating, one dormant) closed the
+A advisor with two LLCs (one operating, one dormant) closed the
 dormant one and kept the active one. The dormant LLC carried no
 assets and only added compliance work each year. Closing it
 simplified the next 1120 + 5472 cycle and reduced the BOI
@@ -262,6 +262,6 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 `;

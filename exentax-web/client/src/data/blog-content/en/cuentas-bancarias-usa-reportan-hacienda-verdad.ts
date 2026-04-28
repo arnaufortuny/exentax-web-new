@@ -147,7 +147,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 - **EIN and notice.** Without an EIN you cannot file 5472 or BOI. The IRS does not warn before imposing penalties; you find out when an EIN is flagged or a later filing is rejected.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, IRS filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## What US accounts of your LLC report and do not report
 
 The real discretion of US accounts is not a myth nor an absolute promise: it is a documented asymmetry of the international financial system, with concrete limits and a usage manual if you want to leverage it properly. These are the facts, no theories.
@@ -264,7 +264,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

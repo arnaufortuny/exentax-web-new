@@ -216,7 +216,7 @@ A janela de sobreposição estabelece-se realisticamente entre duas e quatro sem
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Mudar%20de%20fornecedor%20de%20manuten%C3%A7%C3%A3o%20da%20tua%20LLC%20%C3%A9%20uma%20das%20decis%C3%B5es%20que%20mais%20medo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Mudar%20de%20fornecedor%20de%20manuten%C3%A7%C3%A3o%20da%20tua%20LLC%20%C3%A9%20uma%20das%20decis%C3%B5es%20que%20mais%20medo%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

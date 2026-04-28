@@ -153,7 +153,7 @@ La diferència entre un o diversos socis canvia la classificació fiscal per def
 
 ### Quan single-member i quan multi-member
 
-Single-member: emprenedor sol, freelance, consultoria. Multi-member: socis reals, joint venture, fons d'inversió.
+Single-member: emprenedor sol, freelance, assessoria. Multi-member: socis reals, joint venture, fons d'inversió.
 
 ### El que més ens pregunten
 

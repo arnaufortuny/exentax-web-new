@@ -105,7 +105,7 @@ A Exentax ens encarreguem de tot el procés de constitució de principi a fi. Tu
 
 El procés complet: entre 3 i 10 setmanes (el coll d'ampolla és l'EIN de l'IRS, no nosaltres). I durant tot aquest temps, tens suport directe amb el nostre equip.
 
-Vols començar el procés amb un acompanyament de cap a cap des de Catalunya? Agenda la teva consultoria gratuïta. Validem el teu projecte, triem junts el millor estat i arrenquem amb la constitució en el moment que ens diguis.
+Vols començar el procés amb un acompanyament de cap a cap des de Catalunya? Agenda la teva assessoria gratuïta. Validem el teu projecte, triem junts el millor estat i arrenquem amb la constitució en el moment que ens diguis.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

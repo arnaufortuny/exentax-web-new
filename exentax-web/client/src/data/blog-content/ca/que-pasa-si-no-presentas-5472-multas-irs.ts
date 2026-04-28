@@ -121,7 +121,7 @@ El Form 5472 és un dels pocs casos on el cost de **no fer res** és geomètrica
 <!-- exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
 ## Com llegir les conseqüències de no presentar el Form 5472 com un mapatge estable en lloc d'una amenaça vaga
 
-Les conseqüències de no presentar el Form 5472 es llegeixen de manera més útil com un mapatge estable entre l'any afectat, el tipus d'omissió i el tipus de remediació, en lloc d'una amenaça vaga. Aquest mapatge es manté consultable en pocs minuts en una conversa amb un assessor — una nota curta i datada al dossier personal amb els tres eixos és suficient, i aquesta és la lectura més serena de la situació en una conversa amb un consultor fiscal.
+Les conseqüències de no presentar el Form 5472 es llegeixen de manera més útil com un mapatge estable entre l'any afectat, el tipus d'omissió i el tipus de remediació, en lloc d'una amenaça vaga. Aquest mapatge es manté consultable en pocs minuts en una conversa amb un assessor — una nota curta i datada al dossier personal amb els tres eixos és suficient, i aquesta és la lectura més serena de la situació en una conversa amb un assessor fiscal.
 <!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-ca -->
 
 <!-- exentax:lote32-native-v1-bis:que-pasa-si-no-presentas-5472-multas-irs-ca -->

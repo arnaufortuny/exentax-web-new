@@ -1,6 +1,6 @@
 export default `Si ets autònom a Espanya i la teva feina es pot fer des d'un portàtil, segurament ja has fet els números més d'un cop. La quota mensual d'autònoms, l'IRPF progressiu, els models trimestrals, els pagaments a compte, l'IVA amb clients europeus, la inversió del subjecte passiu, el model 349, el model 720 si tens alguna cosa fora... I al final de l'any, gairebé la meitat del que factures no arriba a la teva butxaca.
 
-Per això cada vegada més freelancers, agències petites, desenvolupadors, consultors, infoproductors, traders i creadors de contingut busquen **alternatives reals a ser autònom a Espanya**. I entre totes, la que millor encaixa per a perfils 100% digitals amb clients internacionals és la **LLC als Estats Units**. No és màgia, no és un truc fiscal, no és defraudar. És una estructura legal reconeguda per la doctrina administrativa espanyola i pel conveni de doble imposició entre USA i Espanya que, ben dissenyada, permet estalviar milers d'euros l'any i operar com una empresa internacional moderna.
+Per això cada vegada més freelancers, agències petites, desenvolupadors, assessors, infoproductors, traders i creadors de contingut busquen **alternatives reals a ser autònom a Espanya**. I entre totes, la que millor encaixa per a perfils 100% digitals amb clients internacionals és la **LLC als Estats Units**. No és màgia, no és un truc fiscal, no és defraudar. És una estructura legal reconeguda per la doctrina administrativa espanyola i pel conveni de doble imposició entre USA i Espanya que, ben dissenyada, permet estalviar milers d'euros l'any i operar com una empresa internacional moderna.
 
 Aquesta és la versió honesta. Sense promeses impossibles. Amb números, avantatges, inconvenients i perfils a qui **no** convé.
 
@@ -46,7 +46,7 @@ Per no quedar-nos en abstracte, dos escenaris típics:
 - **Amb LLC ben dissenyada:** despeses deduïbles ≈ 15.000 € (tot l'stack professional facturat via LLC), base ≈ 45.000 €, IRPF efectiu ≈ 25%. Cost de manteniment LLC ≈ 1.500-2.500 €. Total: **≈ 13.000-14.000 €**.
 - **Estalvi net anual:** entre **6.000 € i 7.500 €**.
 
-### Escenari 2: agència digital o consultor de 120.000 €/any
+### Escenari 2: agència digital o assessor de 120.000 €/any
 
 - **Com a autònom:** quota ≈ 4.800 €, IRPF que entra en trams del 45%. Total estimat: **≈ 45.000 €**.
 - **Amb LLC:** més capacitat de planificació, més despeses deduïbles legítimes, absència de quota mensual i possibilitat de retenir part del benefici dins la LLC per reinvertir. Total estimat: **≈ 28.000-32.000 €**.
@@ -69,7 +69,7 @@ L'stack bancari recomanat per a una LLC moderna:
 La LLC funciona molt bé si:
 
 - Factures majoritàriament a **clients fora d'Espanya** (UE o resta del món).
-- La teva feina és **100% digital**: programari, SaaS, màrqueting, disseny, consultoria, formació online, infoproductes, contingut, ecommerce internacional.
+- La teva feina és **100% digital**: programari, SaaS, màrqueting, disseny, assessoria, formació online, infoproductes, contingut, ecommerce internacional.
 - Estàs disposat a **operar amb USD** i a integrar-te amb eines nord-americanes (Stripe, Mercury, etc.).
 - Vols **separar el patrimoni personal** del negoci.
 - La teva facturació supera els **30.000-40.000 €/any** i et veus creixent.
@@ -119,7 +119,7 @@ Si vols veure, amb els teus números reals, quant estalviaries l'any, prova la n
 
 Per aprofundir, llegeix també la nostra guia <a href="/ca/blog/autonom-a-espanya-vs-llc-als-eua-comparativa-fiscal-completa">Autònom a Espanya vs LLC als EUA: comparativa fiscal completa</a>, l'article <a href="/ca/blog/per-que-els-freelancers-espanyols-estan-deixant-lautonom-per">Per què els freelancers espanyols estan deixant l'autònom per una LLC americana</a> i la guia <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat">Els comptes bancaris als EUA reporten a Hisenda? La veritat sense alarmismes</a>.
 
-Reserva la teva consultoria gratuïta amb Exentax i deixa de pagar com un autònom de l'any 2000 quan treballes com un negoci digital del avui.
+Reserva la teva assessoria gratuïta amb Exentax i deixa de pagar com un autònom de l'any 2000 quan treballes com un negoci digital del avui.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

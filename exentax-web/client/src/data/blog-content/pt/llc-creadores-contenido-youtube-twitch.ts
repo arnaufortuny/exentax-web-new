@@ -84,7 +84,7 @@ Montámos LLCs para YouTubers, streamers de Twitch, podcasters e criadores de cu
 
 Quer saber se uma LLC faz sentido para o seu canal? Agende uma assessoria gratuita de 30 minutos. Dizemos-lhe exatamente quanto pode economizar com os seus números reais.
 
-Na Exentax estruturamos receitas multi-plataforma de creators lusófonos. Marca a tua consultoria gratuita: mapeamos AdSense, Twitch e patrocínios e dizemos-te onde cada euro deve aterrar.
+Na Exentax estruturamos receitas multi-plataforma de creators lusófonos. Marca a tua assessoria gratuita: mapeamos AdSense, Twitch e patrocínios e dizemos-te onde cada euro deve aterrar.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -166,7 +166,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20creator%20em%20Portugal%20ou%20no%20Brasil%20a%20viver%20de%20AdSense%2C%20Twitch%2C%20Patreon%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20creator%20em%20Portugal%20ou%20no%20Brasil%20a%20viver%20de%20AdSense%2C%20Twitch%2C%20Patreon%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

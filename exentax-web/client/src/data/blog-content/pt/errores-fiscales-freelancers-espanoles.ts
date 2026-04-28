@@ -125,7 +125,7 @@ Para um freelancer com 60.000€ de faturação anual:
 
 **Total potencial: até 45.000€/ano em erros evitáveis.** Sim, leste bem. Quarenta e cinco mil euros que poderiam estar no teu bolso se alguém competente gerisse a tua fiscalidade.
 
-Na Exentax corrigimos este tipo de buraco todas as semanas para clientes em Portugal e no Brasil. Marca a tua consultoria gratuita: auditamos a tua situação real e pomos as Finanças e o IRS americano de novo em ordem.
+Na Exentax corrigimos este tipo de buraco todas as semanas para clientes em Portugal e no Brasil. Marca a tua assessoria gratuita: auditamos a tua situação real e pomos as Finanças e o IRS americano de novo em ordem.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -230,7 +230,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20fala%20dos%20freelancers%20espanh%C3%B3is%2C%20mas%20tr%C3%AAs%20quartos%20dos%20erros%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20fala%20dos%20freelancers%20espanh%C3%B3is%2C%20mas%20tr%C3%AAs%20quartos%20dos%20erros%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

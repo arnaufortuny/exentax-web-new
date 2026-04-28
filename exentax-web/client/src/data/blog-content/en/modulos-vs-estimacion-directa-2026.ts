@@ -7,7 +7,7 @@ The tax regime you choose as an autonomo determines how you calculate IRPF and V
 The modulos regime computes your income from physical parameters published yearly by the Tax Agency (staff, premises area, contracted kilowatts, number of tables, etc.) and not from your real income and expenses. It is designed for activities easy to estimate: small retail, hospitality, road transport, taxis, mechanical workshops, hairdressers. The liability is the result of applying a fixed coefficient to each module and adding up; VAT goes through a parallel simplified system. The big upside is simplicity: you pay the same even if you invoice more. The big downside: you pay the same even if you earn less.
 ## Direct estimation: the real option for digital freelancers
 
-Direct estimation, in its simplified version (income up to 600,000 euros) or normal (above), computes your IRPF as income minus deductible expenses. It is the standard regime for digital freelancers, consultants, liberal professionals and most SMEs. You keep income, expense and investment-asset books and, where applicable, provisions. The simplified version adds a 5% deduction on positive net income for hard-to-justify expenses, capped annually at 2,000 euros. Over 90% of Spain's professional autonomos use it.
+Direct estimation, in its simplified version (income up to 600,000 euros) or normal (above), computes your IRPF as income minus deductible expenses. It is the standard regime for digital freelancers, advisors, liberal professionals and most SMEs. You keep income, expense and investment-asset books and, where applicable, provisions. The simplified version adds a 5% deduction on positive net income for hard-to-justify expenses, capped annually at 2,000 euros. Over 90% of Spain's professional autonomos use it.
 
 ## Modulos thresholds and exclusions
 
@@ -28,7 +28,7 @@ If your activity is 100% digital, international and with mostly non-Spanish clie
 Detailed regulation is in Spain's IRPF Regulation (RD 439/2007) and in the annual modulos Order published every November in the <a href="https://www.boe.es/">BOE</a>. To verify your IAE epigraph, consult the <a href="https://sede.agenciatributaria.gob.es/">Tax Agency portal</a> before deciding.
 
 
-At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
+At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free advisory session</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
 ## How we close this with the Exentax method
@@ -52,7 +52,7 @@ If you want to move from doubt to plan, book 30 minutes with Exentax and we walk
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -106,7 +106,7 @@ The choice between Módulos and Estimación Directa reads more usefully when it'
 <!-- exentax:lote6-native-v1-ter:modulos-vs-estimacion-directa-2026 -->
 ### A side-by-side decision table we share with autónomos
 
-We rarely recommend modulos versus direct estimation in the abstract: the answer depends on the activity profile and on the income predictability. The decision table we share with clients has four columns. First column: activity sector (modulos availability is set by activity code; some digital and consulting profiles are excluded by definition). Second column: income predictability (modulos give the same fixed quarterly bill regardless of actual income, which protects upside but punishes weak years). Third column: deductible-expense intensity (direct estimation rewards high-expense profiles because the IRPF base is net; modulos ignore expenses, which favours low-expense activities). Fourth column: the multi-year discipline (changing regimes locks in the new choice for at least three years, so the decision should be projected against a three-year horizon, not a single year). The clean recommendation comes from filling the table with real numbers and reading the result, not from a one-line rule.
+We rarely recommend modulos versus direct estimation in the abstract: the answer depends on the activity profile and on the income predictability. The decision table we share with clients has four columns. First column: activity sector (modulos availability is set by activity code; some digital and advisory profiles are excluded by definition). Second column: income predictability (modulos give the same fixed quarterly bill regardless of actual income, which protects upside but punishes weak years). Third column: deductible-expense intensity (direct estimation rewards high-expense profiles because the IRPF base is net; modulos ignore expenses, which favours low-expense activities). Fourth column: the multi-year discipline (changing regimes locks in the new choice for at least three years, so the decision should be projected against a three-year horizon, not a single year). The clean recommendation comes from filling the table with real numbers and reading the result, not from a one-line rule.
 
 ### Common pitfalls when changing regime
 
@@ -122,5 +122,5 @@ The first pitfall is changing regime mid-year by mistake (e.g., crossing the act
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->`;

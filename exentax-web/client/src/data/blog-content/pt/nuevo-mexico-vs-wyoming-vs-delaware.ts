@@ -21,7 +21,7 @@ Novo México é o estado mais popular entre os nossos clientes na Exentax, e com
 - **Custo de constituição e manutenção mais baixo** dos três estados
 - **Processo simples e rápido**: sem burocracia desnecessária
 
-**Ideal para:** a grande maioria dos freelancers, consultores, programadores, designers e empreendedores digitais. Se queres a opção mais prática, mais privada e com menores custos recorrentes, Novo México é a escolha óbvia. É o estado que recomendamos por defeito na Exentax, a menos que a tua situação específica requeira outra coisa.
+**Ideal para:** a grande maioria dos freelancers, assessores, programadores, designers e empreendedores digitais. Se queres a opção mais prática, mais privada e com menores custos recorrentes, Novo México é a escolha óbvia. É o estado que recomendamos por defeito na Exentax, a menos que a tua situação específica requeira outra coisa.
 ### Wyoming: boa privacidade, maior custo
 
 **Constituição:** Consultar
@@ -109,7 +109,7 @@ A realidade é que qualquer um dos três estados funciona bem. A diferença entr
 
 Na Exentax recomendamos-te o estado que encaixa com o teu perfil concreto. Não vendemos um estado por defeito. Analisamos a tua situação e dizemos-te qual faz mais sentido para ti.
 
-Ainda estás indeciso entre Novo México, Wyoming e Delaware? Agenda a tua consultoria gratuita. Olhamos para o teu negócio, a tua residência fiscal (Portugal, Brasil ou outro) e os teus objetivos e recomendamos-te o estado que te vai custar menos tempo e dinheiro a longo prazo.
+Ainda estás indeciso entre Novo México, Wyoming e Delaware? Agenda a tua assessoria gratuita. Olhamos para o teu negócio, a tua residência fiscal (Portugal, Brasil ou outro) e os teus objetivos e recomendamos-te o estado que te vai custar menos tempo e dinheiro a longo prazo.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -210,7 +210,7 @@ Para o custo e o plano em cada estado para o seu caso, abra a <strong>calculador
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20come%C3%A7as%20a%20pesquisar%20sobre%20LLCs%20a%20partir%20de%20Lisboa%2C%20Porto%20ou%20de%20qualque%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20come%C3%A7as%20a%20pesquisar%20sobre%20LLCs%20a%20partir%20de%20Lisboa%2C%20Porto%20ou%20de%20qualque%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 
@@ -223,7 +223,7 @@ Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisam
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos">Comparar o meu caso com um consultor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos">Comparar o meu caso com um assessor</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

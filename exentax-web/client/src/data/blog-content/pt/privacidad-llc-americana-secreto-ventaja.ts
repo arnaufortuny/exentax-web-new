@@ -89,7 +89,7 @@ Quando constituímos a sua LLC:
 
 A privacidade é uma ferramenta legítima e útil. Usamo-la corretamente, dentro do enquadramento legal, para proteger a sua informação pessoal enquanto opera de forma profissional e transparente.
 
-Na Exentax configuramos LLCs para maximizar a confidencialidade, mantendo-te 100 % transparente perante as Finanças. Marca a tua consultoria gratuita e dizemos-te o que podes realmente manter privado.
+Na Exentax configuramos LLCs para maximizar a confidencialidade, mantendo-te 100 % transparente perante as Finanças. Marca a tua assessoria gratuita e dizemos-te o que podes realmente manter privado.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -182,7 +182,7 @@ Na Exentax estruturamos LLCs com privacidade real vs terceiros e compliance tota
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20qualquer%20pessoa%20pode%20ir%20%C3%A0%20certid%C3%A3o%20permanente%20e%20ver%20a%20tua%20Lda%2C%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20qualquer%20pessoa%20pode%20ir%20%C3%A0%20certid%C3%A3o%20permanente%20e%20ver%20a%20tua%20Lda%2C%20c%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Novo México, vê a nossa página de serviço <a href="/pt/servicos/llc-novo-mexico">LLC em Novo México</a> com custos, prazos e próximos passos concretos.
 
@@ -203,7 +203,7 @@ Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisam
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-novo-mexico">Comparar o meu caso com um consultor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-novo-mexico">Comparar o meu caso com um assessor</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

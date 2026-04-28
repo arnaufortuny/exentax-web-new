@@ -87,7 +87,7 @@ La diferència entre un freelancer que paga el 40% i un que paga el 15% no és l
 
 A Exentax analitzem la teva situació completa: país de residència, ingressos, despeses, clients, model de negoci. I dissenyem una estructura que optimitzi la teva fiscalitat de forma legal, documentada i sostenible.
 
-Vols saber exactament com tributarà la teva LLC segons el teu país de residència (Catalunya o un altre) i com optimitzar la declaració? Agenda la teva consultoria gratuïta i mirem el teu cas amb detall.
+Vols saber exactament com tributarà la teva LLC segons el teu país de residència (Catalunya o un altre) i com optimitzar la declaració? Agenda la teva assessoria gratuïta i mirem el teu cas amb detall.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

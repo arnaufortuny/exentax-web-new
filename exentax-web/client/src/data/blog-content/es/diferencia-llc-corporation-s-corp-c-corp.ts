@@ -49,7 +49,7 @@ La diferencia es enorme: para perfiles operativos sin pretensión de inversión 
 
 ## Qué elegir según tu perfil
 
-- **Freelancer, agencia digital, consultor, infoproducto, ecommerce pequeño, SaaS bootstrapped, trader por cuenta propia**: **LLC**, sin duda. Wyoming o Nuevo México por coste; Delaware si prevés crecer mucho y posible conversión futura.
+- **Freelancer, agencia digital, asesor, infoproducto, ecommerce pequeño, SaaS bootstrapped, trader por cuenta propia**: **LLC**, sin duda. Wyoming o Nuevo México por coste; Delaware si prevés crecer mucho y posible conversión futura.
 - **Startup con ronda seed o serie A planificada**: **Delaware C-Corp** desde el día uno, asumiendo la doble tributación como coste de acceso a capital. Constituir la C-Corp directamente evita la conversión LLC→C-Corp, que es un evento imponible que dispara *built-in gains*.
 - **Negocio físico en EE. UU. con empleados y operativa local**: probablemente C-Corp si esperas crecer mucho; LLC si vas a operar como pequeño negocio sin necesidad de levantar capital institucional.
 - **Profesional regulado (abogado, médico, arquitecto)**: muchos estados exigen **Professional LLC (PLLC)** o **Professional Corporation (PC)** con licencia estatal. La S-election puede compensar para residentes US, no para extranjeros.

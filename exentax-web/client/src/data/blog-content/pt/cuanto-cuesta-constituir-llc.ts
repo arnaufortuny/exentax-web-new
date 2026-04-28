@@ -75,12 +75,12 @@ Os preços de tabela não escolhem o estado por si. O estado certo depende daqui
 
 | Perfil de cliente | Estado recomendado | Porquê |
 |---|---|---|
-| **Freelancer / consultor B2B** a facturar a clientes europeus, brasileiros ou norte-americanos, sem trabalhadores | Novo México | Sem Annual Report, sem taxa anual estadual e privacidade razoável. A estrutura mais barata de manter a 2-3 anos. |
+| **Freelancer / assessor B2B** a facturar a clientes europeus, brasileiros ou norte-americanos, sem trabalhadores | Novo México | Sem Annual Report, sem taxa anual estadual e privacidade razoável. A estrutura mais barata de manter a 2-3 anos. |
 | **Agência digital ou estúdio criativo** com 1-3 sócios, sem perspectiva de captar capital externo | Wyoming | Charging order law sólida (melhor protecção face a credores pessoais), Annual Report com taxa contida e reputação neutra junto da banca. |
 | **SaaS ou startup tecnológica** que prevê captar VC americano, entrar numa aceleradora ou fechar uma Série A | Delaware | É o padrão de facto da Série A; nenhum VC de Sand Hill Road aceita uma LLC do Novo México sem reorganização cara. A Franchise Tax pesa mas evita reincorporar mais tarde. |
 | **E-commerce ou dropshipping** sobre Shopify, Stripe e Amazon FBA, volume médio | Wyoming ou Novo México | Sem investidor à vista, ambos servem. Wyoming pesa mais quando o negócio acumula activos (stock, marca registada); Novo México quando o negócio é puro cash flow. |
 | **Criador de conteúdo** (YouTube, Twitch, Substack, formações online) com monetização via AdSense, sponsors e plataformas | Novo México | O custo fixo mais baixo e zero Annual Report compensam de sobra; a maioria dos criadores não precisa da sofisticação corporate do Delaware. |
-| **Consultor com clientes nos EUA** que precisa de cartão corporate estável | Wyoming | Mercury e Relay processam bem LLCs do Wyoming, e o cartão corporate é aceite sem fricção por o estado ter reputação tradicional. |
+| **Assessor com clientes nos EUA** que precisa de cartão corporate estável | Wyoming | Mercury e Relay processam bem LLCs do Wyoming, e o cartão corporate é aceite sem fricção por o estado ter reputação tradicional. |
 | **Estrutura de holding** ou detenção de PI entre cofundadores | Delaware | O Delaware Court of Chancery é a jurisprudência societária mais previsível do mundo; o prémio justifica-se em litígios. |
 
 A pista "Florida" tem artigo dedicado e só aparece quando há presença física em Miami ou se prevê contratar trabalhadores locais. Para 80 % dos clientes não residentes que aconselhamos, a escolha honesta fica entre Novo México (mais barato), Wyoming (mais equilibrado) e Delaware (quando há tese de investimento).
@@ -93,7 +93,7 @@ A pergunta que quase ninguém responde por inteiro é: **quanto vai ter pago daq
 
 - **Mês 0**: constituição completa (honorário único integral, tudo incluído: filing ao Secretary of State, EIN, Operating Agreement, BOI se aplicável, Registered Agent do ano 1).
 - **Meses 1-12**: zero encargos estaduais adicionais (NM não exige Annual Report). Trabalho silencioso de cumprimento federal em segundo plano.
-- **Mês 12**: manutenção anual Exentax (Form 5472 + 1120 pro-forma, renovação do Registered Agent, monitorização BOI, coordenação com o seu consultor fiscal de residência).
+- **Mês 12**: manutenção anual Exentax (Form 5472 + 1120 pro-forma, renovação do Registered Agent, monitorização BOI, coordenação com o seu assessor fiscal de residência).
 - **Por volta do mês 16**: apresentação efectiva do 5472/1120 ao IRS Service Center de Ogden, Utah (vencimento 15 de Abril, prorrogação via Form 7004 até 15 de Outubro se for preciso).
 - **Mês 24**: segundo ciclo de manutenção anual.
 
@@ -158,10 +158,10 @@ Para aprofundar, <a href="/pt/blog/llc-americana-para-agencias-de-marketing-digi
 - Annual Report estadual em Wyoming, Delaware ou Florida quando aplicável.
 - Monitorização do BOI Report (actualizações em caso de alterações de propriedade, morada ou estrutura).
 - FBAR se aplicável (saldos agregados > 10.000 USD em contas estrangeiras do titular).
-- Coordenação com o seu consultor fiscal de residência para que a declaração local reflicta correctamente a atribuição ou o dividendo.
+- Coordenação com o seu assessor fiscal de residência para que a declaração local reflicta correctamente a atribuição ou o dividendo.
 - Suporte escrito contínuo todo o ano, com responsável atribuído ao seu processo.
 
-**O que poupa face a fazer sozinho:** um 5472 mal apresentado são 25.000 USD por formulário e ano (IRC §6038A); um BOI fora de prazo, quando aplicável, são 591 USD/dia acumulativos; um ITIN rejeitado deixa-o sem banca operacional durante meses. O valor Exentax não é apenas fazer o trâmite, é fazê-lo bem à primeira e ter um consultor responsável quando o IRS ou a AT vierem perguntar.
+**O que poupa face a fazer sozinho:** um 5472 mal apresentado são 25.000 USD por formulário e ano (IRC §6038A); um BOI fora de prazo, quando aplicável, são 591 USD/dia acumulativos; um ITIN rejeitado deixa-o sem banca operacional durante meses. O valor Exentax não é apenas fazer o trâmite, é fazê-lo bem à primeira e ter um assessor responsável quando o IRS ou a AT vierem perguntar.
 
 Zero extras, zero "ah, isso não estava incluído", zero variações na factura. Marque uma consulta gratuita e damos-lhe os números exactos para o seu caso concreto.
 
@@ -223,7 +223,7 @@ Cada situação fiscal depende da sua residência, da actividade exercida e dos 
 
 **O que cobre exatamente o serviço?** Constituição completa: estado + EIN + Operating Agreement + BOI inicial + acompanhamento bancário + ITIN quando aplicável. Orçamento fechado por escrito antes de começar, sem surpresas no final.
 
-**E o que cobre a manutenção anual?** Registered Agent, Annual Report do estado, 5472 + 1120 pro forma submetidos ao IRS, monitorização BOI e coordenação com o seu consultor fiscal no país de residência. Calendário anual completo coberto.
+**E o que cobre a manutenção anual?** Registered Agent, Annual Report do estado, 5472 + 1120 pro forma submetidos ao IRS, monitorização BOI e coordenação com o seu assessor fiscal no país de residência. Calendário anual completo coberto.
 
 **Pillar Two da OCDE encarece a LLC?** Não para LLC unipessoais com facturação normal. GloBE aplica-se apenas a grupos consolidados ≥ 750 M EUR.
 
@@ -235,7 +235,7 @@ Cada situação fiscal depende da sua residência, da actividade exercida e dos 
 
 **O que acontece se perder o prazo de 15 de Abril do 5472?** Se submeter o Form 7004 antes de 15 de Abril, ganha extensão automática até 15 de Outubro sem sanção. Se deixar passar 15 de Abril sem extensão, a sanção devenga-se: **25.000 USD por formulário e ano**, mais 25.000 USD por cada 30 dias adicionais se o IRS notificar e continuar sem submeter. É a sanção mais cara e previsível do calendário federal — por isso a prorrogação é automática no serviço Exentax.
 
-**A LLC obriga-me a apresentar algo em Portugal ou no Brasil?** Sim: como residente fiscal europeu ou brasileiro é o titular que tributa pelos rendimentos atribuídos ou distribuídos da LLC. Em Portugal há que avaliar Modelo 22, Modelo 39 ou Modelo 38, IRS para contas no estrangeiro e eventual aplicação do art. 66.º CIRC; no Brasil, a Lei 14.754/2023 reorganizou o regime de offshores e há que reflectir na DIRPF anual. Coordenamos esta parte com o seu consultor fiscal de residência para que as duas pontas batam certo.
+**A LLC obriga-me a apresentar algo em Portugal ou no Brasil?** Sim: como residente fiscal europeu ou brasileiro é o titular que tributa pelos rendimentos atribuídos ou distribuídos da LLC. Em Portugal há que avaliar Modelo 22, Modelo 39 ou Modelo 38, IRS para contas no estrangeiro e eventual aplicação do art. 66.º CIRC; no Brasil, a Lei 14.754/2023 reorganizou o regime de offshores e há que reflectir na DIRPF anual. Coordenamos esta parte com o seu assessor fiscal de residência para que as duas pontas batam certo.
 
 <!-- exentax:execution-v2 -->
 ## O custo real de constituir uma LLC, método Exentax
@@ -254,7 +254,7 @@ Para ver o seu número exacto sem surpresas, abra a <strong>calculadora Exentax<
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Marque uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Quer falar agora? Escreva-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Vamos%20falar%20de%20dinheiro%2C%20diretamente%20e%20sem%20rodeios%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Quer falar agora? Escreva-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Vamos%20falar%20de%20dinheiro%2C%20diretamente%20e%20sem%20rodeios%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se quiser ver o detalhe do processo completo, consulte a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

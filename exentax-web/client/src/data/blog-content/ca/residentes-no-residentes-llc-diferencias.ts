@@ -61,7 +61,7 @@ L'invers també s'aplica: si ets resident i deixes els EUA (retornes la Green Ca
 - **Amb LLC:** $0 federal als EUA + tributació optimitzada al país de residència = ~8.000-10.000€
 - **Estalvi anual: ~20.000€**
 
-### Carlos. Consultor de màrqueting a Mèxic (no resident dels EUA)
+### Carlos. Assessor de màrqueting a Mèxic (no resident dels EUA)
 - Factura $60,000/any a startups americanes
 - **Sense LLC:** ISR Mèxic ~30% = ~$18,000
 - **Amb LLC:** $0 federal + estructura optimitzada a Mèxic = ~$5,000-7,000
@@ -88,12 +88,12 @@ Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a h
 A Exentax fixem aquest estatus per a cada nou client català abans de tocar l'estructura. Reserva la teva assessoria gratuïta: definim el teu estatus IRS i t'expliquem exactament què comporta.
 ## Cas pràctic per a un resident fiscal a Catalunya
 
-Per a un freelancer o consultor resident fiscal a Catalunya que obre una LLC US sense ETBUS i sense US-source income, l'esquema típic és el següent:
+Per a un freelancer o assessor resident fiscal a Catalunya que obre una LLC US sense ETBUS i sense US-source income, l'esquema típic és el següent:
 
 - **Costat US**: la LLC paga **0 % federal** (IRC §§871, 882) i **0 % estatal** si està constituïda a Wyoming, Nou Mèxic, Florida o Texas. Obligació declarativa anual: Form 5472 + Form 1120 pro-forma (Treas. Reg. §1.6038A-1) amb sanció de **25.000 USD per formulari** en cas de retard. Sense obligació BOI Report des de la IFR FinCEN del 21 de març de 2025 per a LLCs formades als US per no residents.
 - **Costat Espanya/Catalunya**: la **DGT consulta vinculant V0290-20 (febrer 2020)** confirma que les SMLLC disregarded són tractades com a entitats en **règim d'atribució de rendes (art. 87 LIRPF)**: els beneficis nets s'imputen al soci en l'IRPF de l'exercici en què es generen, integrant-se en la base general. Es declaren al **Modelo 100 (declaració de la renda)**, amb tributació al tipus marginal IRPF (estatal + autonòmic català, fins al **47-50 %** acumulat al tram superior; **escala autonòmica catalana** segons Llei 5/2020 amb tipus marginal màxim del **25,5 %** a partir de 175.000 €).
 - **Modelo 720 i 721**: comptes bancaris als US amb saldo mig o final superior a **50.000 €** han de declarar-se al **Modelo 720** (RD 1065/2007 art. 42 bis). Tras la STJUE C-788/19 (27/01/2022) i la **Llei 5/2022**, les sancions s'han reduït al règim general LGT (multes proporcionals a la quota deixada d'ingressar i sense recàrrec confiscatori). Criptoactius custodiats als US: **Modelo 721** (Ordre HFP/887/2023). Operacions vinculades amb la LLC: **Modelo 232**.
-- **Cotització RETA**: si el soci és autònom a Espanya, manté la cotització RETA per ingressos reals (RD-Llei 13/2022): de **230 €/mes** (ingressos fins a 670 €) fins a **590 €/mes** (ingressos > 6.000 €). Si tota l'activitat es canalitza per la LLC, pot avaluar-se l'**alta o baixa al RETA** segons l'estructura concreta i la consultoria fiscal personalitzada.
+- **Cotització RETA**: si el soci és autònom a Espanya, manté la cotització RETA per ingressos reals (RD-Llei 13/2022): de **230 €/mes** (ingressos fins a 670 €) fins a **590 €/mes** (ingressos > 6.000 €). Si tota l'activitat es canalitza per la LLC, pot avaluar-se l'**alta o baixa al RETA** segons l'estructura concreta i la assessoria fiscal personalitzada.
 - **CDI Espanya-EUA**: el conveni (BOE 22/12/1990, Protocol 27/11/2019) regeix la doble imposició. Per una SMLLC disregarded sense ETBUS, no hi ha doble imposició a evitar (0 % US + IRPF Espanya).
 
 L'avantatge net per a un resident fiscal català: separació patrimonial real (limitació de responsabilitat), accés a banca USD i passarel·les de pagament americanes (Stripe US, PayPal US) amb menys fricció que des d'Espanya, deduïbilitat àmplia de despeses professionals via la LLC, i alleugeriment de la càrrega de cotització RETA si l'estructura ho permet.

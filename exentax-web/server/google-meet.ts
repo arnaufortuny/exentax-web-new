@@ -69,7 +69,7 @@ function getCalendarClient() {
 
 const MEET_EVENT_I18N: Record<string, { summary: (name: string) => string; description: (name: string) => string; notesLabel: string }> = {
   es: { summary: (n) => `Asesoría Exentax: ${n}`, description: (n) => `Asesoría fiscal estratégica de 30 minutos con ${n}.`, notesLabel: "Notas del cliente" },
-  en: { summary: (n) => `Exentax Advisory: ${n}`, description: (n) => `30-minute strategic tax consultation with ${n}.`, notesLabel: "Client notes" },
+  en: { summary: (n) => `Exentax Advisory: ${n}`, description: (n) => `30-minute strategic tax advisory session with ${n}.`, notesLabel: "Client notes" },
   fr: { summary: (n) => `Consultation Exentax: ${n}`, description: (n) => `Consultation fiscale stratégique de 30 minutes avec ${n}.`, notesLabel: "Notes du client" },
   de: { summary: (n) => `Exentax Beratung: ${n}`, description: (n) => `30-minütige strategische Steuerberatung mit ${n}.`, notesLabel: "Notizen des Kunden" },
   pt: { summary: (n) => `Consultoria Exentax: ${n}`, description: (n) => `Consultoria fiscal estratégica de 30 minutos com ${n}.`, notesLabel: "Notas do cliente" },

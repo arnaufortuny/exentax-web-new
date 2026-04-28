@@ -12,7 +12,7 @@ A sua função essencial é agrupar a titularidade e centralizar decisões, divi
 Existem vários modelos, dependendo do propósito:
 
 - **Holding pura**: só detém participações, não realiza atividade económica. Veículo limpo para concentrar controlo.
-- **Holding mista**: além de deter participações, presta serviços reais (consultoria, direção, marketing) às suas filiais e a outros clientes.
+- **Holding mista**: além de deter participações, presta serviços reais (assessoria, direção, marketing) às suas filiais e a outros clientes.
 - **Holding patrimonial**: detém imóveis, investimentos financeiros ou propriedade intelectual além de participações empresariais.
 - **Holding internacional**: filiais em diferentes países, holding centralizada numa jurisdição com regime favorável.
 ### Benefícios reais de uma holding
@@ -40,7 +40,7 @@ Constituir uma holding só por moda adiciona contabilidade, declarações, custo
 A estrutura típica para um empreendedor com várias atividades em Portugal:
 
 - **Holding (SGPS ou Lda. patrimonial)**: detém 100 % das filiais.
-- **Filial operacional 1**: atividade principal (serviços, e-commerce, consultoria).
+- **Filial operacional 1**: atividade principal (serviços, e-commerce, assessoria).
 - **Filial operacional 2**: segunda atividade ou novo projeto.
 - **Filial imobiliária** (opcional): detém imóveis do grupo.
 
@@ -230,7 +230,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20holding%20usa-se%20em%20muitos%20contextos%20e%20quase%20sempre%20com%20alguma%20confus%C3%A3o%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20palavra%20holding%20usa-se%20em%20muitos%20contextos%20e%20quase%20sempre%20com%20alguma%20confus%C3%A3o%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/pt/servicos/llc-wyoming">LLC em Wyoming</a> com custos, prazos e próximos passos concretos.
 

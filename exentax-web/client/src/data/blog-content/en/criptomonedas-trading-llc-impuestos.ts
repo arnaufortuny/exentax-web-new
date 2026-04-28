@@ -9,7 +9,7 @@ It can, depending on your situation. The potential benefits:
 - **Kraken** offers corporate accounts with access to 200+ cryptocurrencies, institutional-grade staking, and OTC trading desk
 - **Interactive Brokers** provides access to crypto alongside 150+ traditional markets (stocks, bonds, futures, forex), all from one LLC account
 - **Tradovate** for futures trading on CME, CBOT, NYMEX. accessible through your LLC
-- Professional invoicing for crypto-related businesses (consulting, development, advisory)
+- Professional invoicing for crypto-related businesses (advisory, development, advisory)
 - Asset protection from LLC structure. your personal assets are separated from trading risk
 
 **Tax considerations:**
@@ -214,7 +214,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

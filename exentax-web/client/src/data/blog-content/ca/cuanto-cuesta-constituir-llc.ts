@@ -75,12 +75,12 @@ Els preus de taula no trien l'estat per vostè. L'estat correcte depèn d'a què
 
 | Perfil de client | Estat recomanat | Per què |
 |---|---|---|
-| **Freelance / consultor B2B** facturant a clients catalans, espanyols, andorrans, francesos o nord-americans, sense empleats | Nou Mèxic | Sense Annual Report, sense taxa anual estatal i privacitat raonable. L'estructura més barata de mantenir a 2-3 anys vista. |
+| **Freelance / assessor B2B** facturant a clients catalans, espanyols, andorrans, francesos o nord-americans, sense empleats | Nou Mèxic | Sense Annual Report, sense taxa anual estatal i privacitat raonable. L'estructura més barata de mantenir a 2-3 anys vista. |
 | **Agència digital o estudi creatiu** amb 1-3 socis, sense previsió d'inversors externs | Wyoming | Charging order law sòlida (millor protecció enfront de creditors personals), Annual Report amb taxa continguda i reputació neutra davant la banca. |
 | **SaaS o startup tecnològica** que preveu captar VC americà, entrar en una acceleradora o tancar una Sèrie A | Delaware | És l'estàndard de fet per a la Sèrie A; cap VC de Sand Hill Road acceptarà una LLC del Nou Mèxic sense reorganització cara. La Franchise Tax pesa, però li estalvia reincorporar més endavant. |
 | **E-commerce o dropshipping** sobre Shopify, Stripe i Amazon FBA, volum mitjà | Wyoming o Nou Mèxic | Sense inversor a la vista, tots dos serveixen. Wyoming pesa més quan el negoci acumula actius (estoc, marca registrada); Nou Mèxic quan el negoci és pur cash flow. |
 | **Creador de contingut** (YouTube, Twitch, Substack, formacions en línia) amb monetització via AdSense, sponsors i plataformes | Nou Mèxic | El cost fix més baix i zero Annual Report compensen de sobres; la majoria de creadors no necessiten la sofisticació corporate de Delaware. |
-| **Consultor amb clients als EUA** que necessita targeta corporate estable | Wyoming | Mercury i Relay processen bé les LLC del Wyoming, i la targeta corporate s'accepta sense fricció perquè l'estat té reputació tradicional. |
+| **Assessor amb clients als EUA** que necessita targeta corporate estable | Wyoming | Mercury i Relay processen bé les LLC del Wyoming, i la targeta corporate s'accepta sense fricció perquè l'estat té reputació tradicional. |
 | **Estructura de holding** o tinença de PI entre cofundadors | Delaware | El Delaware Court of Chancery és la jurisprudència societària més previsible del món; la prima es justifica en litigis. |
 
 La via "Florida" té article propi i només apareix quan hi ha presència física a Miami o quan es preveu contractar treballadors locals. Per al 80 % dels clients no residents que assessorem, la tria honesta queda entre Nou Mèxic (el més barat), Wyoming (el més equilibrat) i Delaware (quan hi ha tesi d'inversió).

@@ -113,7 +113,7 @@ Conclusion almost always: **voluntary regularisation is cheaper** than waiting f
 - Cheap path: **report properly from year one**. Expensive path: regularise after proceedings open.
 - Changing tax residency can be an option, but only if real and complete, not on paper.
 
-If you have an LLC and aren't 100% sure how you should be taxed at home, or if you've gone years without declaring and want to know your exposure and how to regularise at minimum cost, **we'll go through it with you** in a free 30-minute consultation. Better to see the whole map once than to discover it one penalty at a time.
+If you have an LLC and aren't 100% sure how you should be taxed at home, or if you've gone years without declaring and want to know your exposure and how to regularise at minimum cost, **we'll go through it with you** in a free 30-minute advisory session. Better to see the whole map once than to discover it one penalty at a time.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.

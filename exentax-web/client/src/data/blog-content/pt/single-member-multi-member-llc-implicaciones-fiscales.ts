@@ -159,7 +159,7 @@ A diferença entre um ou vários sócios muda a classificação fiscal por defei
 
 ### Quando single-member e quando multi-member
 
-Single-member: empresário solo, freelance, consultoria. Multi-member: sócios reais, joint venture, fundo de investimento.
+Single-member: empresário solo, freelance, assessoria. Multi-member: sócios reais, joint venture, fundo de investimento.
 
 ### O que mais nos perguntam
 
@@ -241,7 +241,7 @@ Uma nota curta no ficheiro da LLC que regista a configuração escolhida, a data
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20de%20single-member%20LLC%20para%20multi-member%20LLC%20parece%20um%20tr%C3%A2mite%20menor%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20de%20single-member%20LLC%20para%20multi-member%20LLC%20parece%20um%20tr%C3%A2mite%20menor%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

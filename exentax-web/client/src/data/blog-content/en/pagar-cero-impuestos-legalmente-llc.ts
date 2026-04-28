@@ -59,7 +59,7 @@ No corporate-level tax in the US means no double taxation. the income is only ta
 
 **Savings: ~€9,800/year**
 
-### Example 2: Carlos. Marketing consultant in Mexico ($60,000/year)
+### Example 2: Carlos. Marketing advisor in Mexico ($60,000/year)
 
 **Without LLC:**
 - ISR Mexico (1.92-35% progressive): ~$18,000
@@ -94,7 +94,7 @@ You won't pay 0% total taxes. But you can significantly reduce your effective ta
 - Optimized income reporting in your country of residence
 - Professional financial infrastructure (Mercury, Slash, Wise)
 
-The actual savings depend on your country, income level, expenses, and specific situation. We calculate your real numbers during the strategic consultation. no guesswork, no promises we can't keep.
+The actual savings depend on your country, income level, expenses, and specific situation. We calculate your real numbers during the strategic advisory session. no guesswork, no promises we can't keep.
 ### The complete annual compliance calendar
 
 | Month | Deadline | Filing | What happens if missed |
@@ -132,7 +132,7 @@ A properly structured and documented LLC with transparent filings is unlikely to
 Tax laws evolve. The LLC structure is flexible enough to adapt. If your country introduces new CFC (Controlled Foreign Corporation) rules or changes treaty provisions, we help you adjust your structure accordingly.
 
 **Can I combine the LLC with other tax planning strategies?**
-Yes. Depending on your country and situation, the LLC can be combined with tax residency planning, treaty optimization, retirement account strategies, and other legitimate approaches. We discuss all options during the consultation.
+Yes. Depending on your country and situation, the LLC can be combined with tax residency planning, treaty optimization, retirement account strategies, and other legitimate approaches. We discuss all options during the advisory session.
 
 Closing out, here's a related piece that sits naturally next to this article: <a href="/en/blog/10-tax-mistakes-spanish-freelancers-make-and-how-to-avoid">10 tax mistakes Spanish freelancers make (and how to avoid them)</a> helps round off the context.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
@@ -272,7 +272,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

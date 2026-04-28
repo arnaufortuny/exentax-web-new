@@ -140,7 +140,7 @@ Dubai is a serious country that has built impressive business infrastructure. Th
 
 For most non-residents seeking tax optimization without relocating, a US LLC covers the case with less cost and friction. For profiles wanting residency and the right revenue level, the UAE remains a valid option.
 
-At Exentax we can compare your specific case with real numbers before you take decisions that are hard to reverse. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+At Exentax we can compare your specific case with real numbers before you take decisions that are hard to reverse. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -223,7 +223,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

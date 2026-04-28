@@ -19,7 +19,7 @@ Se trabalha de casa, pode deduzir até 30% da percentagem da habitação afeta �
 
 ## Contabilidade, formação, marketing e despesas profissionais
 
-Os honorários de consultoria fiscal, contabilística e laboral são integralmente dedutíveis. A formação é dedutível se ligada à atividade: cursos online, congressos, livros técnicos, subscrições a publicações profissionais, masterclasses. Marketing também: campanhas Meta, Google, LinkedIn, TikTok, plataformas de afiliação, agência, geração de leads, fotógrafo, design gráfico. As comissões de gateways (Stripe, PayPal, Redsys, GoCardless) e de marketplaces são dedutíveis como despesa financeira ou operacional consoante a contabilização. Categorizar bem permite que o modelo 130 reflita corretamente a realidade.
+Os honorários de assessoria fiscal, contabilística e laboral são integralmente dedutíveis. A formação é dedutível se ligada à atividade: cursos online, congressos, livros técnicos, subscrições a publicações profissionais, masterclasses. Marketing também: campanhas Meta, Google, LinkedIn, TikTok, plataformas de afiliação, agência, geração de leads, fotógrafo, design gráfico. As comissões de gateways (Stripe, PayPal, Redsys, GoCardless) e de marketplaces são dedutíveis como despesa financeira ou operacional consoante a contabilização. Categorizar bem permite que o modelo 130 reflita corretamente a realidade.
 
 ## Erros frequentes e a alternativa estrutural
 
@@ -35,7 +35,7 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 | **Veículo e deslocações** | Combustível, parqueamento, portagens, manutenção | 50% se uso misto profissional/pessoal; 100% se uso 100% profissional documentado |
 | **Material e escritório** | Computador, software, impressora, papelaria | 100% dedutível. Bens >300€ amortizam-se segundo tabela IRPF |
 | **Formação** | Cursos, livros técnicos, certificações | 100% se diretamente relacionados com a atividade |
-| **Serviços profissionais** | Consultoria fiscal, advogado, notário, contabilista | 100% dedutível com fatura |
+| **Serviços profissionais** | Assessoria fiscal, advogado, notário, contabilista | 100% dedutível com fatura |
 | **Quotas e ordens** | Ordem profissional, associações setoriais | 100% dedutível |
 | **Marketing e publicidade** | Anúncios online, alojamento, domínio, design | 100% dedutível |
 | **Comissões bancárias** | Conta profissional, TPA, Stripe, PayPal | 100% dedutível se conta profissional |
@@ -48,7 +48,7 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 
 **Caso 1. Programador com escritório em casa.** Vive num apartamento de 80 m² com um escritório de 12 m² destinado à atividade (15% afeto). Serviços mensais: 200€ (eletricidade + gás + internet). Dedução: 200 × 0,15 × 0,30 = 9€/mês = 108€/ano. Se também declara renda proporcional, adiciona 15% da renda. Documentação obrigatória: registo IAE com percentagem afeta e faturas de serviços em seu nome.
 
-**Caso 2. Consultora com carro profissional.** Compra um Tesla Model 3 por 47.000€ uso 100% profissional (visitas a clientes, sem outro carro). Dedutível: amortização a 8 anos (5.875€/ano), seguro completo, manutenção, parqueamento aeroporto durante viagens, portagens. A AEAT exige livro de viagens profissionais com quilometragem e motivo. Sem livro, risco de reclassificação a uso misto (50%).
+**Caso 2. Assessora com carro profissional.** Compra um Tesla Model 3 por 47.000€ uso 100% profissional (visitas a clientes, sem outro carro). Dedutível: amortização a 8 anos (5.875€/ano), seguro completo, manutenção, parqueamento aeroporto durante viagens, portagens. A AEAT exige livro de viagens profissionais com quilometragem e motivo. Sem livro, risco de reclassificação a uso misto (50%).
 
 **Caso 3. Designer gráfica com coworking.** Adesão coworking 250€/mês, software (Adobe + Figma) 80€/mês, formação anual 1.500€, quota autónomos 230€/mês. Total dedutível anual: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Reduz a base tributável IRPF antes de aplicar tarifas.
 
@@ -129,7 +129,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20fatura%20fiscal%20de%20um%20aut%C3%B3nomo%20em%20Espanha%20depende%20menos%20da%20taxa%20marginal%20e%20ma%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20fatura%20fiscal%20de%20um%20aut%C3%B3nomo%20em%20Espanha%20depende%20menos%20da%20taxa%20marginal%20e%20ma%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -175,7 +175,7 @@ No venem fum ni modes. Dissenyem estructures fiscals basades en la legislació v
 - **Banca a Mercury** amb $0 comissions i assegurança FDIC
 - **Compliance total:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Encara dubtes entre Estònia i una LLC americana per estructurar la teva activitat? Agenda la teva consultoria gratuïta. Comparem les dues opcions amb els teus números reals i et mostrem, sense biaix, quina et surt més barata a llarg termini.
+Encara dubtes entre Estònia i una LLC americana per estructurar la teva activitat? Agenda la teva assessoria gratuïta. Comparem les dues opcions amb els teus números reals i et mostrem, sense biaix, quina et surt més barata a llarg termini.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

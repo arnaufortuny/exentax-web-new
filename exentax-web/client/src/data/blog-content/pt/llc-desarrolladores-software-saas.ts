@@ -69,7 +69,7 @@ Na assessoria gratuita analisamos seu caso e dizemos exatamente se compensa ou n
 
 Agende sua chamada gratuita de 30 minutos e vemos juntos.
 
-Na Exentax acompanhamos fundadores SaaS lusófonos que vendem global. Marca a tua consultoria gratuita e dizemos-te como dividir código, equipa e cashflow entre Portugal/Brasil e a tua LLC.
+Na Exentax acompanhamos fundadores SaaS lusófonos que vendem global. Marca a tua assessoria gratuita e dizemos-te como dividir código, equipa e cashflow entre Portugal/Brasil e a tua LLC.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -178,7 +178,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Um%20developer%20SaaS%20em%20Portugal%20que%20fatura%20em%20USD%20via%20Stripe%20acaba%20quase%20sempre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Um%20developer%20SaaS%20em%20Portugal%20que%20fatura%20em%20USD%20via%20Stripe%20acaba%20quase%20sempre%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Delaware, vê a nossa página de serviço <a href="/pt/servicos/llc-delaware">LLC em Delaware</a> com custos, prazos e próximos passos concretos.
 
@@ -197,7 +197,7 @@ A avaliação da adequação da LLC para um perfil de SaaS actualiza-se anualmen
 <!-- /exentax:lote20-native-v1:llc-desarrolladores-software-saas-pt-bis -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um consultor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um assessor</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

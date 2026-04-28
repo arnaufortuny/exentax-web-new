@@ -14,7 +14,7 @@ Compare this to being autónomo in Spain: as a sole proprietor, you respond with
 
 When you sign a contract, your LLC signs it, not you personally. When you invoice a client, it's the LLC invoicing. When a dispute arises, the LLC is the counterparty.
 
-**Before LLC:** You sign a $50,000 consulting contract. If the project goes badly and the client sues for $100,000, they can come after your personal assets.
+**Before LLC:** You sign a $50,000 advisory contract. If the project goes badly and the client sues for $100,000, they can come after your personal assets.
 
 **With LLC:** Your LLC signs the contract. If the project goes badly and the client sues for $100,000, they're suing the LLC. Your personal bank account, home, and savings are protected.
 ### What threatens the liability protection?

@@ -14,6 +14,32 @@ Exentax Web is a public-facing TaxTech platform offering international LLC forma
 - Verify structure before and after changes, all code must have error handling, debug automatically, never cause regressions
 - ASSET PROTECTION: Do NOT regenerate, recompress, or modify image assets without explicit user consent
 
+## Audit Task #2 — 2026-04-28 (9-block integral audit + consultoría → asesoría rename)
+
+Cross-locale rename `consultoría/consultoria/consulting/consultation/consultant` →
+`asesoría/assessoria/advisory/advisory session/advisor` applied per language with
+respect for `docs/i18n-glossary.md` (FR keeps `conseil`, DE keeps `Beratung`).
+Server-side: `google-meet.ts` event titles updated for ES/EN/CA;
+`server/email-i18n/{en,pt}.ts` updated; `server/seo-content.ts` localised fields
+updated.
+
+Reports written:
+- `BASELINE.md` (root) — 5 baseline commands captured literally.
+- `docs/audits/NAVIGATION-AUDIT.md` — 18 routes × 6 locales, hreflang OK.
+- `docs/audits/AGENDA-AUDIT.md` — booking lifecycle + Google Meet i18n.
+- `docs/audits/DISCORD-AUDIT.md` — 7 channel inventory + bot gating.
+- `docs/audits/PERFORMANCE-AUDIT.md` — bundle shape (no regression).
+- `docs/audits/PENDING-FINAL.md` — explicit deferrals (slugs, home SEO desc,
+  prod-only live verifications, brand-voice EN whitelist for "consultation").
+
+Final verification (post-rename):
+- `tsc --noEmit --strict`: EXIT 0
+- `npm --workspace exentax-web run i18n:check`: EXIT 0 (1558 keys × 6 lang clean)
+- `SKIP_BUILD_E2E=1 npm --workspace exentax-web run build`: EXIT 0
+- `GET /api/health/ready`: ready (db + breakers + emailWorker OK)
+- `npm --workspace exentax-web run check`: EXIT 1 — same 6 errors as baseline
+  (homePage SEO desc >165c × 6 locales). NOT a regression; deferred to LOTE 1.
+
 ## Production readiness — pase 2026-04-28
 
 End-to-end verification pass run on 2026-04-28. **Verdict: READY.**

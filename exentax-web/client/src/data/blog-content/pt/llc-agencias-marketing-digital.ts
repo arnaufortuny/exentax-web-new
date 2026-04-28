@@ -66,7 +66,7 @@ Constituição completa da LLC, EIN, conta bancária, configuração de Stripe e
 
 Agende uma assessoria gratuita e explicamos-lhe como poderia funcionar para a sua agência. Em 30 minutos fazemos os números com as suas cifras reais.
 
-Na Exentax estruturamos agências em Portugal e no Brasil que operam entre Lisboa, São Paulo e Nova Iorque. Marca a tua consultoria gratuita e mostramos-te como dividir entre Lda e LLC sem risco com as Finanças.
+Na Exentax estruturamos agências em Portugal e no Brasil que operam entre Lisboa, São Paulo e Nova Iorque. Marca a tua assessoria gratuita e mostramos-te como dividir entre Lda e LLC sem risco com as Finanças.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -80,7 +80,7 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 <!-- exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
 ## Como ler a LLC para agências de marketing digital como um mapa operativo estável em vez de uma escolha de custo
 
-A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -175,7 +175,7 @@ Este artigo é atualizado anualmente com as alterações regulatórias que afeta
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20uma%20ag%C3%AAncia%20digital%20em%20Portugal%20que%20factura%20clientes%20americanos%2C%20brit%C3%A2ni%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20uma%20ag%C3%AAncia%20digital%20em%20Portugal%20que%20factura%20clientes%20americanos%2C%20brit%C3%A2ni%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

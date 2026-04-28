@@ -1,12 +1,12 @@
 export default `
 
-El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y consultores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no una empresa? ¿Qué cambia si facturas desde tu autónomo o desde una LLC americana? Las reglas son distintas en cada caso y un error puede costar caro en una inspección de la AEAT.
+El IVA en operaciones internacionales es uno de los temas que más confunde a freelancers y asesores españoles. ¿Cobras IVA a un cliente en Alemania? ¿Y a uno en Estados Unidos? ¿Y si el cliente es un particular y no una empresa? ¿Qué cambia si facturas desde tu autónomo o desde una LLC americana? Las reglas son distintas en cada caso y un error puede costar caro en una inspección de la AEAT.
 
 En este artículo desglosamos las reglas de localización del IVA para servicios digitales según la Ley 37/1992 (LIVA) y la Directiva 2006/112/CE, los modelos formales que tienes que presentar, los escenarios reales más habituales y cómo una LLC bien declarada simplifica gran parte de esta complejidad sin saltarse ninguna norma.
 
 ## La regla general: localización del servicio
 
-Para servicios digitales (programación, diseño, consultoría, marketing, formación online, software como servicio, etc.) la localización del IVA depende de quién es tu cliente: empresa o particular.
+Para servicios digitales (programación, diseño, asesoría, marketing, formación online, software como servicio, etc.) la localización del IVA depende de quién es tu cliente: empresa o particular.
 
 ### Servicios B2B (a empresas)
 
@@ -52,7 +52,7 @@ Tus clientes son empresas americanas. **No cobras IVA** en ninguna factura. Las 
 
 Facturas sin IVA español. Incluyes el VAT ID del cliente verificado en VIES. Declaras en Modelo 303 (casilla 59) y Modelo 349.
 
-### Consultor con clientes mixtos (España + internacional)
+### Asesor con clientes mixtos (España + internacional)
 
 Las facturas a clientes españoles llevan IVA (21%). Las facturas a empresas de la UE van sin IVA con inversión del sujeto pasivo. Las facturas fuera de la UE van sin IVA (no sujetas). Cada operación termina en una casilla distinta del 303.
 

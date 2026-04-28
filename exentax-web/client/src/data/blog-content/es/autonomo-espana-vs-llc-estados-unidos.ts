@@ -77,7 +77,7 @@ Con una LLC puedes deducir todo gasto "ordinario y necesario" para tu negocio:
 - **Home office:** parte proporcional de alquiler, internet, electricidad, teléfono
 - **Formación:** cursos, libros profesionales, conferencias, eventos del sector
 - **Viajes de negocio:** billetes de avión, alojamiento, transporte local
-- **Servicios profesionales:** contabilidad, legal, consultoría, registered agent
+- **Servicios profesionales:** contabilidad, legal, asesoría, registered agent
 - **Comisiones:** Stripe, PayPal, comisiones bancarias
 - **Seguros:** seguro de responsabilidad civil, seguro médico profesional
 - **Suscripciones profesionales:** herramientas de productividad, plataformas de diseño, APIs

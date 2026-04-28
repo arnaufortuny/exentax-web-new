@@ -18,7 +18,7 @@ Para uma Single-Member LLC com proprietário estrangeiro, o IRS a classifica com
 Sim, zero dólares. Não é um erro de digitação.
 ### Como é possível que seja $0?
 
-Porque o sistema fiscal norte-americano tributa os rendimentos segundo a sua **fonte**. Se é não residente dos EUA e os seus rendimentos provêm de serviços prestados fora dos Estados Unidos (freelancing, consultoria, desenvolvimento de software, design, marketing digital, etc.), esses rendimentos não são considerados de fonte norte-americana.
+Porque o sistema fiscal norte-americano tributa os rendimentos segundo a sua **fonte**. Se é não residente dos EUA e os seus rendimentos provêm de serviços prestados fora dos Estados Unidos (freelancing, assessoria, desenvolvimento de software, design, marketing digital, etc.), esses rendimentos não são considerados de fonte norte-americana.
 
 E se não são de fonte norte-americana, os EUA não têm competência para tributá-los. Assim funciona o sistema. não é uma brecha legal, é o design do próprio código fiscal.
 
@@ -120,7 +120,7 @@ Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/residente
 
 Cada caso é diferente, mas a maioria dos nossos clientes reduz a sua carga fiscal total entre 50% e 70% em relação a operar como trabalhador independente/autónomo no seu país. Se fatura mais de $3,000 por mês, os números começam a ficar muito interessantes.
 
-Queres perceber como a tributação pass-through se aplica ao teu caso concreto, consoante a tua residência (Portugal, Brasil ou outro) e o tipo de clientes que tens? Agenda a tua consultoria gratuita e olhamos para a tua situação em detalhe.
+Queres perceber como a tributação pass-through se aplica ao teu caso concreto, consoante a tua residência (Portugal, Brasil ou outro) e o tipo de clientes que tens? Agenda a tua assessoria gratuita e olhamos para a tua situação em detalhe.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -212,7 +212,7 @@ Para o seu número exacto de tributação combinada, abra a <strong>calculadora 
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20LLC%20americana%20paga%200%20%24%20de%20imposto%20federal%20nos%20Estados%20Unidos%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20LLC%20americana%20paga%200%20%24%20de%20imposto%20federal%20nos%20Estados%20Unidos%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

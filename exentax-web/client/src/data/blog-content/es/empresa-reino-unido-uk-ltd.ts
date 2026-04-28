@@ -80,7 +80,7 @@ Stripe, PayPal y Adyen funcionan sin restricciones con UK Ltd.
 - **Reputación internacional**: una empresa británica es percibida como seria en cualquier mercado.
 - **Constitución barata y rápida**: 24-48 horas, decenas de libras de tasas oficiales.
 - **Transparencia regulatoria**: el sistema británico es predecible y consolidado.
-- **Acceso al mercado británico** para clientes UK: importante en sectores como consultoría, fintech, ecommerce europeo, marketing.
+- **Acceso al mercado británico** para clientes UK: importante en sectores como asesoría, fintech, ecommerce europeo, marketing.
 - **Convenios de doble imposición** amplios.
 - **Sin auditoría obligatoria** para pymes.
 - **Régimen Substantial Shareholding Exemption** (SSE) para holdings con participaciones cualificadas.
@@ -93,7 +93,7 @@ Stripe, PayPal y Adyen funcionan sin restricciones con UK Ltd.
 - **VAT obligatorio** por encima del umbral, con declaraciones trimestrales bajo Making Tax Digital.
 ## Comparación honesta con la LLC americana
 
-Para el perfil habitual de Exentax (freelance, agencia, ecommerce, SaaS, creador, consultor):
+Para el perfil habitual de Exentax (freelance, agencia, ecommerce, SaaS, creador, asesor):
 
 - **Carga fiscal corporativa**: LLC 0% federal vs UK 19-25%.
 - **Privacidad**: LLC en Wyoming/New Mexico ofrece privacidad real, UK publica todo.

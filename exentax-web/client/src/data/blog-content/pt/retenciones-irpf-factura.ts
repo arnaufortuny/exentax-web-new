@@ -4,7 +4,7 @@ As retenções de IRPF na fatura são a forma como a agência tributária espanh
 
 ## Quando se aplica retenção: atividades profissionais vs empresariais
 
-A retenção de IRPF aplica-se a atividades profissionais (epígrafe IAE da secção dois ou três): consultores, advogados, arquitetos, tradutores, médicos privados, formadores. Não se aplica a atividades empresariais puras (secção um): comércio a retalho, hotelaria, transportadores. Se é autónomo profissional e fatura a empresas ou a outros autónomos, retém; se fatura a particulares, não retém. A distinção entre profissional e empresarial é dos pontos onde se cometem mais erros e onde a agência tributária cruza dados automaticamente.
+A retenção de IRPF aplica-se a atividades profissionais (epígrafe IAE da secção dois ou três): assessores, advogados, arquitetos, tradutores, médicos privados, formadores. Não se aplica a atividades empresariais puras (secção um): comércio a retalho, hotelaria, transportadores. Se é autónomo profissional e fatura a empresas ou a outros autónomos, retém; se fatura a particulares, não retém. A distinção entre profissional e empresarial é dos pontos onde se cometem mais erros e onde a agência tributária cruza dados automaticamente.
 ## Percentagens: 15% geral e 7% para novos autónomos
 
 A percentagem geral atualmente mantém-se em 15% sobre o montante sem IVA. Os autónomos profissionais novos (no exercício de início e nos dois seguintes) podem aplicar a reduzida de 7%, desde que não tenham exercido atividade profissional no ano anterior e comuniquem formalmente esta circunstância ao pagador. Há percentagens especiais: 1% para módulos em algumas atividades, 19% para arrendamentos urbanos (modelo 115), 19% para rendimentos de capital mobiliário (juros, dividendos). Aplicar a percentagem errada deixa uma das duas partes com um desencontro.
@@ -139,7 +139,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22As%20reten%C3%A7%C3%B5es%20de%20IRPF%20na%20fatura%20s%C3%A3o%20a%20forma%20como%20a%20ag%C3%AAncia%20tribut%C3%A1ria%20espanhol%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22As%20reten%C3%A7%C3%B5es%20de%20IRPF%20na%20fatura%20s%C3%A3o%20a%20forma%20como%20a%20ag%C3%AAncia%20tribut%C3%A1ria%20espanhol%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

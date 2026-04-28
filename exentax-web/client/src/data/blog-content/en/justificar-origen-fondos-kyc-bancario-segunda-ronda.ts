@@ -190,7 +190,7 @@ Most of the avoidable damage we see in this exact point comes from skipping the 
 
 A second KYC round is rarely the bank doubting you personally. It is a
 periodic process the compliance team runs when an account profile and
-its real movements stop matching: an LLC opened with a "consulting,
+its real movements stop matching: an LLC opened with a "advisory,
 low-volume" stated use that now receives marketplace payouts, or a
 member listed as Spanish tax resident whose card spend looks centred
 in another jurisdiction. The bank is updating its model of the
@@ -217,7 +217,7 @@ the payout cadence, and three sample invoices. No new structure, no
 new account, no drama. The compliance team marked the file complete
 within ten business days.
 
-A consulting LLC with a single large institutional client got a
+A advisory LLC with a single large institutional client got a
 second-round letter the week the first invoice cleared. The answer
 was a copy of the master services agreement, the corresponding wire
 trace, and a short note explaining that the client expected
@@ -284,6 +284,6 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 `;

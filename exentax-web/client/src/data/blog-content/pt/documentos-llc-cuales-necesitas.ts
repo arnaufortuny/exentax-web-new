@@ -86,7 +86,7 @@ Recomendamos ter uma cópia digital organizada de tudo:
 
 Vais precisar destes documentos cada vez que abrires uma conta nova, te registares num processador de pagamentos ou um cliente grande te pedir verificação. Tê-los organizados poupa-te horas.
 
-Na Exentax acompanhamos todas as semanas a recolha e certificação dos documentos certos. Marca a tua consultoria gratuita: enviamos-te a checklist exata para o teu caso e poupamo-te idas e vindas.
+Na Exentax acompanhamos todas as semanas a recolha e certificação dos documentos certos. Marca a tua assessoria gratuita: enviamos-te a checklist exata para o teu caso e poupamo-te idas e vindas.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -167,7 +167,7 @@ Na Exentax mantemos esse dossier vivo dentro do retainer anual e entregamo-lo em
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20n%C3%A3o%20precisas%20de%20metade%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20n%C3%A3o%20precisas%20de%20metade%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

@@ -88,7 +88,7 @@ Antes de 15 de abril, garantimos que a sua extensão esteja apresentada. Depois,
 Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste artigo: <a href="/pt/blog/10-erros-fiscais-de-freelancers-espanhois-e-como-evita-los">10 erros fiscais de freelancers espanhóis (e como evitá-los)</a> ajuda a arredondar o contexto.
 ### Tem dúvidas?
 
-Na Exentax submetemos os 7004 dos nossos clientes todas as primaveras. Marca a tua consultoria gratuita: alinhamos o teu calendário fiscal português/brasileiro com o americano e blindamos os prazos.
+Na Exentax submetemos os 7004 dos nossos clientes todas as primaveras. Marca a tua assessoria gratuita: alinhamos o teu calendário fiscal português/brasileiro com o americano e blindamos os prazos.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -176,7 +176,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

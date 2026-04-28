@@ -4,7 +4,7 @@ export default `
 Mercury used to be the default banking recommendation for non-resident LLC owners. currently, **Exentax no longer recommends Mercury as the primary account when your operations are entirely outside the United States.** The reason is specific and operational, not ideological: when Mercury closes an account during a compliance review, increasingly common today, **it returns the funds via a physical USD check in the LLC's name, mailed to the registered business address**. For a tax resident in Spain, LATAM, or anywhere outside the US, depositing that check is slow, expensive, and at many European banks effectively impossible. This guide still explains how Mercury works and how to open it correctly, but read the warning below first.
 
 > **today advisory, Mercury and non-US operations.**
-> If 100% of your activity (clients, payments, expenses) happens outside the US, Exentax does **not** recommend Mercury as your primary account. The product is solid, but the compliance-closure failure mode (paper USD check) penalizes non-resident holders specifically. Use **Relay** (Thread Bank, FDIC) or **Slash** (Column N.A. (federally chartered, FDIC)) as the primary account; if you open Mercury, keep it as a secondary with a low operating balance. We design the stack with you in the initial consultation.
+> If 100% of your activity (clients, payments, expenses) happens outside the US, Exentax does **not** recommend Mercury as your primary account. The product is solid, but the compliance-closure failure mode (paper USD check) penalizes non-resident holders specifically. Use **Relay** (Thread Bank, FDIC) or **Slash** (Column N.A. (federally chartered, FDIC)) as the primary account; if you open Mercury, keep it as a secondary with a low operating balance. We design the stack with you in the initial advisory session.
 
 ## What is Mercury?
 
@@ -305,7 +305,7 @@ All four platforms ask for: LLC Articles of Organization, EIN Confirmation Lette
 ### Mistakes that trigger rejection
 
 - Personal address served by a generic mail forwarding provider with no verifiable contract.
-- Activity description too vague (for example "consulting" with no sector or clients).
+- Activity description too vague (for example "advisory" with no sector or clients).
 - Source of funds unexplained when wires above USD 25,000 arrive from a European EMI.
 - Generic Operating Agreement with no management or voting section.
 
@@ -335,7 +335,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

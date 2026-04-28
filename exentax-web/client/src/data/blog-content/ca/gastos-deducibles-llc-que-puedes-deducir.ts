@@ -35,7 +35,7 @@ Aquí és on la cosa es posa interessant. La llista és molt més àmplia del qu
 ### Serveis professionals
 - **Comptabilitat i preparació d'impostos** (com els serveis d'Exentax)
 - **Serveis legals:** advocats, contractes, propietat intel·lectual
-- **Consultoria de negoci:** mentors, coaches, assessors estratègics
+- **Assessoria de negoci:** mentors, coaches, assessors estratègics
 - **Registered Agent:** el teu agent registrat als EUA
 - **Disseny i branding:** logotip, identitat visual, disseny web
 - **Traducció i copywriting**
@@ -196,7 +196,7 @@ La regla de l'IRS és enganosament simple: "ordinary and necessary" per a la tev
 
 - **Clarament deduïble.** Programari (Notion, Figma, comissions Stripe, hosting), publicitat (Meta, Google, LinkedIn), subcontractistes amb W-9 o W-8BEN, comissions de plataformes, subscripcions professionals, equipament informàtic d'ús 100% empresarial, comptabilitat i assessoria. Pagament des del compte de la LLC, factura a nom de la LLC, arxivada al Drive o equivalent, etiquetada per categoria.
 - **Deduïble amb condicions.** Coworking i oficina (totalment), home office (percentatge de l'espai dedicat exclusivament, amb documentació), viatges amb propòsit de negoci (bitllet, hotel, dietes raonables; "jo i la família a Bali" no), formació específica de l'activitat, àpats amb clients (50% deduïble federal).
-- **Problemàtic sense substància.** Cotxe personal, roba no-uniforme, despeses personals barrejades, "consultoria" pagada a familiars sense servei real ni W-9, viatges sense agenda documentada. La LLC és transparent per a l'IRS i opaca per al banc - tots dos creuen dades en una inspecció.
+- **Problemàtic sense substància.** Cotxe personal, roba no-uniforme, despeses personals barrejades, "assessoria" pagada a familiars sense servei real ni W-9, viatges sense agenda documentada. La LLC és transparent per a l'IRS i opaca per al banc - tots dos creuen dades en una inspecció.
 - **Disregarded vs C-Corp: el matís.** En disregarded, les despeses redueixen Schedule C o renda atribuïda. En C-Corp via form 8832, redueixen el benefici corporatiu gravat al 21% federal. La documentació és idèntica.
 
 ### Què ens pregunten més

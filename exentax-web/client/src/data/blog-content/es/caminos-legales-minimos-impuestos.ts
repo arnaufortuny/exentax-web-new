@@ -1,6 +1,6 @@
 export default `
 
-Pagar pocos impuestos de forma legal es posible. Pagar cero, casi nunca. La diferencia entre los dos planteamientos marca la frontera entre la planificación fiscal seria y la fantasía que circula en redes sociales. Esta guía recorre los caminos legales reales para minimizar tu factura fiscal sin cruzar la línea, con foco en perfiles habituales: freelancers, consultores, ecommerce, SaaS, creadores de contenido y emprendedores digitales.
+Pagar pocos impuestos de forma legal es posible. Pagar cero, casi nunca. La diferencia entre los dos planteamientos marca la frontera entre la planificación fiscal seria y la fantasía que circula en redes sociales. Esta guía recorre los caminos legales reales para minimizar tu factura fiscal sin cruzar la línea, con foco en perfiles habituales: freelancers, asesores, ecommerce, SaaS, creadores de contenido y emprendedores digitales.
 
 En Exentax llevamos años trabajando con personas que vienen huyendo del 47% de IRPF más <a href="https://www.seg-social.es" target="_blank" rel="noopener">Seguridad Social</a>. La buena noticia es que existen caminos honestos. La menos buena es que ninguno consiste en "no declarar".
 
@@ -159,7 +159,7 @@ La información sobre fintech y CRS evoluciona y queremos que la tengas tal cual
 Pagar menos impuestos legalmente no es un truco, es una combinación coherente de cuatro palancas que funcionan según tu perfil. La ilusión del "cero impuestos" suele esconder fraude o estructuras que el primer requerimiento desmonta. Estas son las palancas reales que aplicamos en Exentax.
 
 - **Selección de jurisdicción de residencia.** El factor con más impacto. Cambiar la residencia fiscal a un país con régimen favorable (Andorra, Portugal con NHR-IFICI, Italia con régimen impatriados, Emiratos, Paraguay, Uruguay) puede reducir el tipo efectivo del 47 % al 10-25 %. Exige mudanza real con prueba de centro de intereses vitales - no se "compra" con un alquiler simbólico.
-- **Estructura de actividad correcta.** Una LLC americana con socio en residencia fiscal favorable, operando como conducto transparente, optimiza dentro del marco del convenio. Para perfiles específicos (consultoría, SaaS, ecommerce, royalties), las cifras se mueven entre 0 % y 15 % efectivo según jurisdicción y composición.
+- **Estructura de actividad correcta.** Una LLC americana con socio en residencia fiscal favorable, operando como conducto transparente, optimiza dentro del marco del convenio. Para perfiles específicos (asesoría, SaaS, ecommerce, royalties), las cifras se mueven entre 0 % y 15 % efectivo según jurisdicción y composición.
 - **Diferimiento e ingeniería temporal.** Capitalizar beneficios en una sociedad opaca, distribuir en años de menor presión fiscal, sincronizar venta de activos con cambios de residencia. No reduce el impuesto a cero, pero puede aplazarlo años con coste financiero positivo.
 - **Aprovechamiento de exenciones legales.** Plusvalías por venta de empresa con exención por reinversión, regímenes especiales para investigadores, deducciones por I+D, exenciones forales en País Vasco/Navarra. Todas existen en la ley pero requieren cumplir requisitos formales.
 

@@ -64,7 +64,7 @@ US tax compliance is complex. Mistakes cost more than professional help. Common 
 
 Some LLC owners assume the LLC structure replaces insurance. It doesn't. the LLC limits personal liability, but the LLC itself can still face claims.
 
-**Fix:** Consider professional liability (E&O) insurance, especially for consulting and agency work. General liability for client-facing activities. Cyber liability if you handle client data.
+**Fix:** Consider professional liability (E&O) insurance, especially for advisory and agency work. General liability for client-facing activities. Cyber liability if you handle client data.
 ### Mistake #12: Not tracking foreign asset declarations
 
 Many countries require declaring foreign assets above certain thresholds. Spain's Modelo 720 applies to foreign assets exceeding €50,000. Failure to declare can result in significant penalties.
@@ -103,7 +103,7 @@ If your US financial accounts (Mercury, Relay, Slash) have an aggregate balance 
 | Mixed finances | Corporate veil pierced (unlimited liability) | Mercury setup guidance + separation protocols |
 | Form 5472 missed | $25,000/year | Included in annual maintenance |
 | BOI Report missed | $591/day + criminal risk | Filed at formation + annual updates |
-| Wrong state | $300+/year in unnecessary fees | State selection consultation |
+| Wrong state | $300+/year in unnecessary fees | State selection advisory session |
 | No Operating Agreement | Bank rejection + legal exposure | Custom OA included |
 | DIY compliance | Multiple errors, rejection, penalties | Full professional service |
 | No FBAR | $12,909+ per violation | Filed annually by Exentax |
@@ -220,5 +220,5 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->`;

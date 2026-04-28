@@ -164,7 +164,7 @@ La diferencia entre tener uno o varios socios en tu LLC US no es cosmética: cam
 
 ### Cuándo conviene single-member y cuándo multi-member
 
-Single-member: emprendedor solo, freelance, consultoría, e-commerce de un dueño, agencia con team interno (no socios). Multi-member: socios reales con aportación efectiva diferenciada, joint venture entre dos profesionales, fondo de inversión con varios LP, holding familiar con cónyuges como co-owners reales.
+Single-member: emprendedor solo, freelance, asesoría, e-commerce de un dueño, agencia con team interno (no socios). Multi-member: socios reales con aportación efectiva diferenciada, joint venture entre dos profesionales, fondo de inversión con varios LP, holding familiar con cónyuges como co-owners reales.
 
 ### Lo que más nos preguntan
 

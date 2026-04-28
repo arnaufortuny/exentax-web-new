@@ -88,7 +88,7 @@ Os grandes bancos estónios (LHV, SEB, Swedbank) abrem conta corporativa só a O
 **Caso 1: SaaS bootstrapped que reinveste 100 % dos lucros em produto e marketing.**
 A Estónia é perfeita. Tributação zero até distribuir, software de gestão bancária e fiscal totalmente digital, e-Residency facilita gestão online. Reinvestimento sustentado amplifica o valor do regime.
 
-**Caso 2: consultor europeu com 80.000 EUR/ano que precisa do dinheiro para viver.**
+**Caso 2: assessor europeu com 80.000 EUR/ano que precisa do dinheiro para viver.**
 A Estónia é má escolha. Cada distribuição tributa a 22 % efetivo mais imposto no seu país de residência. A carga total supera a de outras estruturas europeias ou da LLC americana.
 
 **Caso 3: agência com clientes B2B europeus e necessidade de IVA intracomunitário.**
@@ -190,7 +190,7 @@ O sistema fiscal estónio vendeu-se durante anos como "0% corporate" - tecnicame
 
 ### O que mais nos perguntam
 
-**A Estónia é melhor que LLC US para freelancer digital com clientes UE?** Freelancer com extracção cash mensal: Estónia e LLC US equivalentes em carga fiscal total - a vantagem "0%" estónia evapora-se com o dividendo. Empreendedor que reinveste (SaaS a escalar, consultoria com bónus de fim de ano): Estónia diferida vs LLC com tributação pass-through imediata faz diferença.
+**A Estónia é melhor que LLC US para freelancer digital com clientes UE?** Freelancer com extracção cash mensal: Estónia e LLC US equivalentes em carga fiscal total - a vantagem "0%" estónia evapora-se com o dividendo. Empreendedor que reinveste (SaaS a escalar, assessoria com bónus de fim de ano): Estónia diferida vs LLC com tributação pass-through imediata faz diferença.
 
 **E se vivo em Portugal com NHR activo?** NHR isenta dividendos de fonte estrangeira sob certas condições. NHR + OÜ funcionou em muitos casos, mas o regime NHR está limitado em altas posteriores à sua última reforma — verificar elegibilidade antes de planear.
 
@@ -204,7 +204,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Est%C3%B3nia%20tornou-se%20popular%20gra%C3%A7as%20%C3%A0%20e-Residency%2C%20%C3%A0%20sua%20digitaliza%C3%A7%C3%A3o%20e%20%C3%A0%20pro%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Est%C3%B3nia%20tornou-se%20popular%20gra%C3%A7as%20%C3%A0%20e-Residency%2C%20%C3%A0%20sua%20digitaliza%C3%A7%C3%A3o%20e%20%C3%A0%20pro%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

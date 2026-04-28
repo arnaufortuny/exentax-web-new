@@ -1,6 +1,6 @@
 export default `O artigo original foi pensado para Espanha, mas o padrão aplica-se diretamente a Portugal: assim que um trabalhador independente fatura clientes fora da UE, IVA intracomunitário, isenções do artigo 6.º do CIVA e retenções tornam-se desporto de alto rendimento. Com uma LLC pelo meio, tens de partir faturação entre Portugal e EUA com precisão cirúrgica.
 
-E no entanto, a maioria dos consultores fiscais em Espanha trata-te exatamente da mesma forma. Aplicam-te o mesmo IRPF progressivo, cobram-te a mesma quota de trabalhadores independentes/autónomos, e nem sequer mencionam que existem alternativas legais para otimizar a tua carga fiscal de forma radical.
+E no entanto, a maioria dos assessores fiscais em Espanha trata-te exatamente da mesma forma. Aplicam-te o mesmo IRPF progressivo, cobram-te a mesma quota de trabalhadores independentes/autónomos, e nem sequer mencionam que existem alternativas legais para otimizar a tua carga fiscal de forma radical.
 
 ## Por que é que os clientes internacionais mudam a tua fiscalidade?
 
@@ -8,7 +8,7 @@ Quando prestas serviços a empresas fora de Espanha, há várias vantagens fisca
 
 ### 1. O IVA não se aplica na maioria dos casos
 
-Se vendes serviços digitais (programação, design, consultoria, marketing, etc.) a empresas com sede fora de Espanha:
+Se vendes serviços digitais (programação, design, assessoria, marketing, etc.) a empresas com sede fora de Espanha:
 
 - **Clientes na UE (B2B):** Aplica-se a inversão do sujeito passivo. Tu faturas sem IVA e o cliente autoliquida-o no seu país. Modelo 349 obrigatório.
 - **Clientes fora da UE:** A operação não está sujeita a IVA espanhol. Faturas sem IVA diretamente.
@@ -103,7 +103,7 @@ Para continuar neste fio, <a href="/pt/blog/e-possivel-pagar-0-de-impostos-legal
 
 Se faturas mais de 30.000€/ano a clientes internacionais, a otimização fiscal com uma LLC é legal, está ao alcance de qualquer freelancer, e a poupança é real.
 
-Na Exentax decidimos este tipo de caso todas as semanas para clientes em Portugal e no Brasil. Marca a tua consultoria gratuita: olhamos para as tuas faturas reais e dizemos-te por onde devem sair.
+Na Exentax decidimos este tipo de caso todas as semanas para clientes em Portugal e no Brasil. Marca a tua assessoria gratuita: olhamos para as tuas faturas reais e dizemos-te por onde devem sair.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -184,7 +184,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20foi%20pensado%20para%20Espanha%2C%20mas%20o%20padr%C3%A3o%20aplica-se%20diretament%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20artigo%20original%20foi%20pensado%20para%20Espanha%2C%20mas%20o%20padr%C3%A3o%20aplica-se%20diretament%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

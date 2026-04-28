@@ -66,7 +66,7 @@ El cumplimiento no es un evento, es un proceso anual:
 - **Revisión anual**: residencia fiscal, sustancia, stack bancario, normativa nueva (DAC7, DAC8, MiCA, cambios CDI), umbrales modificados.
 ## Ejemplos por perfil
 
-**Perfil 1: Consultor freelance B2B residente en España, factura 80.000-150.000 €/año, sin equipo.**
+**Perfil 1: Asesor freelance B2B residente en España, factura 80.000-150.000 €/año, sin equipo.**
 
 Estructura recomendada típica: Single-Member LLC en Nuevo México, Disregarded Entity, Mercury principal + Wise secundario para clientes EUR, Wallester para tarjetas, contabilidad a nombre de la LLC. Calificación España: rendimiento de actividad económica imputada al socio. Ahorro vs autónomo puro: significativo en cotización + base general gracias a deducciones de la LLC.
 

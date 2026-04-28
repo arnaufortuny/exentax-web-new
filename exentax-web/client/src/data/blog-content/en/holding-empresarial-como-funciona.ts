@@ -14,7 +14,7 @@ Its essential function is to consolidate ownership and centralize decisions, div
 There are several models depending on the purpose:
 
 - **Pure holding**: only owns shareholdings, no operating activity. A clean vehicle for concentrating control.
-- **Mixed holding**: in addition to owning shareholdings, provides real services (consulting, management, marketing) to its subsidiaries and other clients.
+- **Mixed holding**: in addition to owning shareholdings, provides real services (advisory, management, marketing) to its subsidiaries and other clients.
 - **Asset holding**: owns real estate, financial investments or intellectual property in addition to operating shareholdings.
 - **International holding**: subsidiaries in different countries, holding centralized in a jurisdiction with a favorable regime.
 ### Real benefits of a holding
@@ -42,7 +42,7 @@ Setting up a holding just because it is fashionable adds bookkeeping, filings, c
 Typical structure for an entrepreneur with several activities in Spain:
 
 - **Holding (asset S.L.)**: owns 100% of subsidiaries.
-- **Operating subsidiary 1**: main activity (services, ecommerce, consulting).
+- **Operating subsidiary 1**: main activity (services, ecommerce, advisory).
 - **Operating subsidiary 2**: second activity or new project.
 - **Real estate subsidiary** (optional): owns the group's properties.
 
@@ -143,7 +143,7 @@ A well-designed holding is a powerful tool for centralization, tax efficiency an
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
-For non-resident entrepreneurs with a single international operating business, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> usually covers the case without needing a holding. When the business grows and several activities appear, we can analyze together whether a holding (US, Spanish or international) makes sense. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+For non-resident entrepreneurs with a single international operating business, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> usually covers the case without needing a holding. When the business grows and several activities appear, we can analyze together whether a holding (US, Spanish or international) makes sense. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
@@ -197,7 +197,7 @@ At Exentax we model whether a holding actually saves you money in your specific 
 
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.
 
 
 
@@ -212,7 +212,7 @@ Thousands of freelancers and entrepreneurs already operate their US LLC fully le
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

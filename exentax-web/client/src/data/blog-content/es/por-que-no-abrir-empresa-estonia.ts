@@ -147,7 +147,7 @@ Seamos justos. La OÜ estona puede tener sentido en casos muy específicos:
 - Operas exclusivamente en el mercado SEPA
 - No necesitas acceso a la infraestructura financiera americana
 
-Pero si eres freelancer digital, SaaS, e-commerce internacional, creador de contenido o consultora, la LLC es superior en prácticamente todos los aspectos.
+Pero si eres freelancer digital, SaaS, e-commerce internacional, creador de contenido o asesora, la LLC es superior en prácticamente todos los aspectos.
 ### Comparativa directa: Estonia vs LLC
 
 | Concepto | OÜ Estonia | LLC en EE.UU. |

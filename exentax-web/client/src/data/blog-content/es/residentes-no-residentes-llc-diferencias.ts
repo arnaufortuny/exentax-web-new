@@ -63,7 +63,7 @@ Lo inverso también aplica: si eres residente y dejas EE.UU. (devuelves la Green
 - **Con LLC:** $0 federal en EE.UU. + tributación optimizada en país de residencia = ~8.000-10.000€
 - **Ahorro anual: ~20.000€**
 
-### Carlos. Consultor de marketing en México (no residente de EE.UU.)
+### Carlos. Asesor de marketing en México (no residente de EE.UU.)
 - Factura $60,000/año a startups americanas
 - **Sin LLC:** ISR México ~30% = ~$18,000
 - **Con LLC:** $0 federal + estructura optimizada en México = ~$5,000-7,000

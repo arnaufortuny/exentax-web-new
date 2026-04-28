@@ -127,7 +127,7 @@ Passos típicos de uma regularização:
 3. **Apresentações em atraso** ao IRS e ao FinCEN
 4. **Actualização ao estado** e reactivação se a LLC foi dissolvida
 5. **Reorganização bancária e operacional** para não continuar a gerar erros
-6. **Coordenação com o seu consultor local** para alinhar declarações
+6. **Coordenação com o seu assessor local** para alinhar declarações
 
 Na Exentax acompanhamos pessoas que vêm de gabinetes genéricos ou de serviços "low cost" de constituição que não incluíam gestão real. Não julgamos: organizamos. Mais detalhe sobre a <a href="/pt/blog/manutencao-anual-da-llc-obrigacoes-que-nao-pode-ignorar">manutenção anual real de uma LLC</a> e a diferença entre <a href="/pt/blog/residente-eua-vs-nao-residente-llc-as-diferencas-fiscais">residente e não residente</a> para efeitos de LLC.
 ## O que deve levar deste artigo
@@ -218,7 +218,7 @@ Manter uma LLC bem gerida atualmente implica um calendário operativo a fixar na
 
 - **Mensal.** Conciliação bancária Mercury/Slash (fecho do mês), categorização de despesas, cópia de segurança encriptada dos extratos, revisão de Stripe/PayPal/DoDo (disputas, retenções).
 - **Trimestral.** Revisão de subscrições (cancelar as inativas reduz ruído no 5472), *owner draw* documentado com descritivo e referência, verificação de fundos para impostos.
-- **Anual (calendário fiscal hoje).** **15 jan**: marcar consultor para preparar 5472. **15 fev**: fecho contabilístico. **15 mar**: 1042-S se emites pagamentos a relacionados (raro em SMLLC). **15 abr**: 5472 + 1120 pro forma ou **Form 7004** para prolongar até 15 out. **Mês de aniversário**: Annual Report estadual + renovação Registered Agent. **Em 30 dias após qualquer alteração**: BOI Update se a LLC continuar em âmbito.
+- **Anual (calendário fiscal hoje).** **15 jan**: marcar assessor para preparar 5472. **15 fev**: fecho contabilístico. **15 mar**: 1042-S se emites pagamentos a relacionados (raro em SMLLC). **15 abr**: 5472 + 1120 pro forma ou **Form 7004** para prolongar até 15 out. **Mês de aniversário**: Annual Report estadual + renovação Registered Agent. **Em 30 dias após qualquer alteração**: BOI Update se a LLC continuar em âmbito.
 
 ### Documentação a guardar 7 anos
 
@@ -234,7 +234,7 @@ Manter uma LLC bem gerida atualmente implica um calendário operativo a fixar na
 
 **E se o exercício fechar sem operações?** O 5472 só é obrigatório se houve *reportable transactions*. Ainda assim, prudente declarar se houve aporte inicial ou Registered Agent pago com fundos próprios.
 
-**Posso gerir sozinho ou preciso de consultor?** Sozinho, se domino 5472, BOI e Annual Report. Consultor, se volume > ~50 faturas/ano ou vendas aos EUA (risco PE/ECI).
+**Posso gerir sozinho ou preciso de assessor?** Sozinho, se domino 5472, BOI e Annual Report. Assessor, se volume > ~50 faturas/ano ou vendas aos EUA (risco PE/ECI).
 
 <!-- exentax:execution-v2 -->
 ## Checklist anual operacional da LLC, método Exentax
@@ -264,7 +264,7 @@ O lembrete anual recorrente ganha eficácia quando não é uma única nota mas s
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Tem%20uma%20LLC%20nos%20EUA%20e%20tudo%20parece%20funcionar%3A%20factura%20aos%20seus%20clientes%2C%20movim%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Tem%20uma%20LLC%20nos%20EUA%20e%20tudo%20parece%20funcionar%3A%20factura%20aos%20seus%20clientes%2C%20movim%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

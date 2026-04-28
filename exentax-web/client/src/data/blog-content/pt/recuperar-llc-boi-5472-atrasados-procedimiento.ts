@@ -125,9 +125,9 @@ Este artigo é atualizado anualmente com as alterações regulatórias que afeta
 
 O procedimento de regularização de 5472 e BOI atrasados mudou em aspetos pequenos mas importantes em recent years:
 
-- **5472 fora de prazo.** A sanção inicial mantém-se em **25.000 USD por formulário e ano** (IRC §6038A) com aumento de 25.000 USD por cada 30 dias após notificação do IRS. Via habitual: apresentar o 5472 + 1120 pro forma com **carta de** *reasonable cause* em anexo, citando factos concretos: pandemia, mudança de consultor, mudança de residência, erro administrativo documentado. A prática IRS de 2024-hoje aceitou *reasonable cause* em taxas razoáveis quando a cronologia é coerente e a regularização é voluntária.
+- **5472 fora de prazo.** A sanção inicial mantém-se em **25.000 USD por formulário e ano** (IRC §6038A) com aumento de 25.000 USD por cada 30 dias após notificação do IRS. Via habitual: apresentar o 5472 + 1120 pro forma com **carta de** *reasonable cause* em anexo, citando factos concretos: pandemia, mudança de assessor, mudança de residência, erro administrativo documentado. A prática IRS de 2024-hoje aceitou *reasonable cause* em taxas razoáveis quando a cronologia é coerente e a regularização é voluntária.
 - **BOI atrasado.** Após a *interim final rule* de março 2025, só as **foreign reporting companies** permanecem em âmbito. Em atraso, multa civil de **591 USD/dia** (valor ajustado à inflação, fonte FinCEN). Apresentação voluntária antes de notificação reduz materialmente o risco penal.
-- **Mecânica de apresentação hoje.** O IRS continua a exigir 5472 em **papel** ou via e-file específico (não TurboTax/consultor geral). Enviar por correio registado para Ogden, Utah com tracking e conservar 7 anos.
+- **Mecânica de apresentação hoje.** O IRS continua a exigir 5472 em **papel** ou via e-file específico (não TurboTax/assessor geral). Enviar por correio registado para Ogden, Utah com tracking e conservar 7 anos.
 
 ### Ordem recomendada
 
@@ -217,7 +217,7 @@ Na prática, o calendário de recuperação constrói-se em três fases curtas: 
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20tens%20uma%20LLC%20e%20o%20BOI%20Report%20n%C3%A3o%20est%C3%A1%20apresentado%2C%20ou%20os%20Forms%205472%20%2B%201120%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20tens%20uma%20LLC%20e%20o%20BOI%20Report%20n%C3%A3o%20est%C3%A1%20apresentado%2C%20ou%20os%20Forms%205472%20%2B%201120%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

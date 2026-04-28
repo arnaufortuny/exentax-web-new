@@ -106,9 +106,9 @@ An LLC is not for everyone. It doesn't make sense if:
 - All your clients are domestic (no international advantage)
 - You need a local professional license (doctors, lawyers practicing locally)
 - You're looking to "disappear" from tax authorities (the LLC is about transparency, not hiding)
-### Book your strategic consultation
+### Book your strategic advisory session
 
-If you want to know whether a US LLC makes sense for your specific situation, book a strategic 30-minute consultation. We analyze your income, costs, and country of residence and give you real numbers, not generic promises.
+If you want to know whether a US LLC makes sense for your specific situation, book a strategic 30-minute advisory session. We analyze your income, costs, and country of residence and give you real numbers, not generic promises.
 ### Quick comparison: LLC vs. staying as you are
 
 | Factor | Without LLC | With LLC (Exentax) |
@@ -155,7 +155,7 @@ We don't just file paperwork. We build your complete business infrastructure:
 Yes. The entire process is 100% online. You never need to visit the United States.
 
 **How much does it cost in total?**
-Formation costs vary by state (state filing fee plus our service fee). Annual maintenance is a fixed fee covering all filings and support. Book a consultation for exact pricing.
+Formation costs vary by state (state filing fee plus our service fee). Annual maintenance is a fixed fee covering all filings and support. Book a advisory session for exact pricing.
 
 **What if I already have an LLC from another service?**
 We can take over your annual maintenance, including Registered Agent transfer, if your existing LLC is properly structured. If it needs corrections, we can help restructure.

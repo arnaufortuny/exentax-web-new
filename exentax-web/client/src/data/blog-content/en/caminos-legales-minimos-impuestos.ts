@@ -1,6 +1,6 @@
 export default `
 
-Paying few taxes legally is possible. Paying zero, almost never. The difference between the two framings marks the line between serious tax planning and the fantasy circulating on social media. This guide walks through the real legal paths to minimize your tax bill without crossing the line, focused on common profiles: freelancers, consultants, ecommerce operators, SaaS founders, content creators and digital entrepreneurs.
+Paying few taxes legally is possible. Paying zero, almost never. The difference between the two framings marks the line between serious tax planning and the fantasy circulating on social media. This guide walks through the real legal paths to minimize your tax bill without crossing the line, focused on common profiles: freelancers, advisors, ecommerce operators, SaaS founders, content creators and digital entrepreneurs.
 
 At Exentax we have spent years working with people fleeing the 47% IRPF plus social security. The good news is that honest paths exist. The less good news is that none of them consists in "not declaring".
 
@@ -113,7 +113,7 @@ Between 2 and 6 months for a well-formed LLC, with an operational bank account a
 
 Only if you have past unresolved situations. For forward planning, amnesties are not a tool but a last resort. Better to structure correctly from the start.
 
-**Is it worth consulting before acting?**
+**Is it worth advisory before acting?**
 
 Always. One hour of professional advice before incorporating saves years of problems and thousands in penalties. Initial structure mistakes are the costliest and hardest to fix.
 
@@ -124,7 +124,7 @@ There always is, but smaller than it seems. Consolidated regimes (Andorra, Panam
 
 Legal paths to pay less tax do exist. None consists in not declaring. The most effective ones combine international structure, fiscal planning and, when possible, favorable residency. The choice depends on your life, your income and your tolerance for change.
 
-At Exentax we can analyze your specific situation and propose the path that best fits, without empty promises and without structures that create problems three years later. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+At Exentax we can analyze your specific situation and propose the path that best fits, without empty promises and without structures that create problems three years later. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
@@ -169,7 +169,7 @@ Fintech and CRS information evolves; here is the current state:
 Paying less tax legally is not a trick, it is a coherent combination of four levers that work depending on your profile. The "zero tax" illusion typically hides fraud or structures the first audit dismantles. These are the real levers we apply at Exentax.
 
 - **Residency jurisdiction selection.** The lever with most impact. Moving tax residency to a favourable regime (Andorra, Portugal with NHR-IFICI, Italy with impatriate regime, UAE, Paraguay, Uruguay) can drop the effective rate from 47 % to 10-25 %. Requires real relocation with proof of centre of vital interests - not "bought" with a token lease.
-- **Right activity structure.** A US LLC with the partner in a favourable tax residency, operating as a transparent conduit, optimises within the treaty framework. For specific profiles (consulting, SaaS, ecommerce, royalties), numbers move between 0 % and 15 % effective depending on jurisdiction and composition.
+- **Right activity structure.** A US LLC with the partner in a favourable tax residency, operating as a transparent conduit, optimises within the treaty framework. For specific profiles (advisory, SaaS, ecommerce, royalties), numbers move between 0 % and 15 % effective depending on jurisdiction and composition.
 - **Deferral and temporal engineering.** Capitalising profits in an opaque entity, distributing in lower-pressure years, syncing asset sales with residency changes. Does not zero out tax, but can defer it for years with a positive financial carry.
 - **Use of legal exemptions.** Capital gains exemption on company sale via reinvestment, special regimes for researchers, R&D deductions, foral exemptions in the Basque Country/Navarre. All in law but with formal requirements to meet.
 
@@ -256,7 +256,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

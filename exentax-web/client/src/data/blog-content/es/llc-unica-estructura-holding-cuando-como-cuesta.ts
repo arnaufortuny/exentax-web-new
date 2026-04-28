@@ -10,7 +10,7 @@ Pasar de LLC única a holding tiene cuatro disparadores claros. Si reconoces dos
 
 ### 1. Volumen y mezcla de líneas de negocio
 
-Si dentro de la misma LLC conviven cobros de consultoría, ingresos de un SaaS, comisiones de afiliación y una tienda online, la contabilidad se vuelve un lío y, sobre todo, el riesgo se contagia: si una de las líneas tiene un problema legal, todas las demás están expuestas. Una holding con sub-LLCs operativas separa eso.
+Si dentro de la misma LLC conviven cobros de asesoría, ingresos de un SaaS, comisiones de afiliación y una tienda online, la contabilidad se vuelve un lío y, sobre todo, el riesgo se contagia: si una de las líneas tiene un problema legal, todas las demás están expuestas. Una holding con sub-LLCs operativas separa eso.
 
 ### 2. Riesgo asimétrico entre líneas
 
@@ -33,7 +33,7 @@ Tú (persona física, residente fiscal de tu país)
 ▼
 Holding LLC (Wyoming o Delaware)
 │
-├── Operativa A LLC (consultoría)
+├── Operativa A LLC (asesoría)
 ├── Operativa B LLC (SaaS)
 └── IP LLC (marca, código)
 \`\`\`
@@ -153,7 +153,7 @@ La elección de jurisdicción depende siempre de la residencia fiscal real del t
 La pregunta llega cuando el primer año de LLC ya facturó decentemente y empieza a aparecer el segundo proyecto, el inmueble que quieres comprar o el SaaS que quieres lanzar. ¿Lo metes todo en la misma LLC o creas una holding con subsidiarias? La respuesta depende de cuatro variables medibles. Te las explico.
 
 - **Cuándo basta una LLC única.** Una sola actividad operativa (ej: agencia de marketing), volumen estable, sin activos de alto valor diferenciados, sin plan de venta parcial del negocio. Coste anual: 1.500-2.500 USD (registered agent + contabilidad básica + 1120/5472). Es la opción óptima para 80% de casos en los primeros 1-3 años.
-- **Cuándo conviene holding + subsidiarias.** Múltiples actividades con riesgo desigual (consultoría + SaaS + cartera de inversión), inmuebles separados (cada propiedad en su propia LLC para aislar responsabilidad), plan de venta parcial (vender el SaaS sin tocar la consultoría), o equipos diferentes con socios distintos por línea. Estructura: holding LLC madre (Wyoming) + subsidiarias operativas (Wyoming/Delaware según necesidad).
+- **Cuándo conviene holding + subsidiarias.** Múltiples actividades con riesgo desigual (asesoría + SaaS + cartera de inversión), inmuebles separados (cada propiedad en su propia LLC para aislar responsabilidad), plan de venta parcial (vender el SaaS sin tocar la asesoría), o equipos diferentes con socios distintos por línea. Estructura: holding LLC madre (Wyoming) + subsidiarias operativas (Wyoming/Delaware según necesidad).
 - **Coste real de la holding.** Holding + 2 subsidiarias: 4-6k USD anuales (3x registered agent, 3x contabilidad, 3x 1120/5472, operating agreement intercompañía). Holding + 5 subsidiarias: 8-12k USD. Solo compensa si el ahorro fiscal/protección/ flexibilidad operativa supera ese coste - y en muchos casos lo supera ampliamente con activos >300k EUR/USD por línea.
 - **Cómo se construye técnicamente.** La holding LLC posee 100% del membership interest de cada subsidiaria. Las subsidiarias facturan a sus clientes y, al cierre del año, distribuyen beneficio a la holding (sin coste fiscal US si todas son disregarded en single-member; con tratamiento partnership si hay varios miembros). La holding centraliza tesorería, decisiones estratégicas y, eventualmente, reinversión en nueva subsidiaria.
 

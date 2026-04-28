@@ -50,7 +50,7 @@ If your monthly billing is low, or all your clients are domestic, an LLC probabl
 
 - Freelancers with income above **$2,000/month**
 - Entrepreneurs with **international clients** (especially US, UK, EU)
-- Content creators, developers, designers, consultants
+- Content creators, developers, designers, advisors
 - Digital product sellers (courses, software, SaaS)
 - E-commerce sellers (Amazon, Shopify)
 ### Who should NOT
@@ -63,7 +63,7 @@ If your monthly billing is low, or all your clients are domestic, an LLC probabl
 
 Don't form an LLC because you saw an Instagram reel promising 0% taxes. Analyze your real situation: income, type of clients, country of residence, medium-term plans.
 
-At Exentax we do that analysis with you in the free consultation. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need. that's how long-term relationships are built.
+At Exentax we do that analysis with you in the free advisory session. If an LLC makes sense for you, we tell you with numbers. If it doesn't, we tell you that too. We'd rather be honest than sell you something you don't need. that's how long-term relationships are built.
 ### The complete financial infrastructure
 
 | Tool | Function | Why it matters |
@@ -86,7 +86,7 @@ International clients (US, UK, Germany). As autónomo, she pays €36,000 in tax
 ### Diego. Mexican video editor billing $72K/year
 Works for US production companies. Without LLC: $22K in ISR. With LLC: $10K optimized. **Annual savings: $12,000.**
 
-### Valentina. Colombian marketing consultant billing $54K/year
+### Valentina. Colombian marketing advisor billing $54K/year
 Serves international agencies. Without LLC: $14K in Colombia tax. With LLC: $5.5K optimized + USD banking (avoids peso volatility). **Annual savings: $8,500 + currency advantage.**
 
 ### Mateo. Argentine developer billing $60K/year
@@ -241,7 +241,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

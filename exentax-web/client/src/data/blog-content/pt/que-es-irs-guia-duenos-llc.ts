@@ -104,7 +104,7 @@ Tu não ligas para o IRS, não preenches formulários, não te preocupas com pra
 
 Agenda uma assessoria gratuita e explicamos-te exatamente como funciona a tua relação com o IRS como dono de LLC. Spoiler: é muito mais simples do que parece.
 
-Na Exentax falamos com o IRS todos os dias em nome dos clientes lusófonos. Marca a tua consultoria gratuita: dizemos-te que formulários te tocam, quais podes ignorar, e quando realmente é hora de agir com urgência (raramente).
+Na Exentax falamos com o IRS todos os dias em nome dos clientes lusófonos. Marca a tua assessoria gratuita: dizemos-te que formulários te tocam, quais podes ignorar, e quando realmente é hora de agir com urgência (raramente).
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -130,7 +130,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 <!-- exentax:lote32-native-v1:que-es-irs-guia-duenos-llc-pt -->
 ## Como ler a relação com o IRS como um mapeamento estável de obrigações em vez de uma preocupação difusa
 
-A relação com o IRS lê-se de forma mais útil como um mapeamento estável de obrigações entre o estatuto fiscal da LLC, o perfil do beneficiário e os formulários anuais correspondentes, em vez de uma preocupação difusa. Uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+A relação com o IRS lê-se de forma mais útil como um mapeamento estável de obrigações entre o estatuto fiscal da LLC, o perfil do beneficiário e os formulários anuais correspondentes, em vez de uma preocupação difusa. Uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote32-native-v1:que-es-irs-guia-duenos-llc-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -213,7 +213,7 @@ Pragmaticamente, a pasta anual estrutura-se em quatro subpastas: identificação
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20empreendedor%20em%20Portugal%2C%20o%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20empreendedor%20em%20Portugal%2C%20o%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

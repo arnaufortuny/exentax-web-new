@@ -90,7 +90,7 @@ Es operable pero limitado. Stripe y PayPal funcionan con OÜ.
 **Caso 1: SaaS bootstrapped que reinvierte el 100% de beneficios en producto y marketing.**
 Estonia es perfecta. Tributación cero hasta que distribuyas, software de gestión bancaria y fiscal totalmente digital, e-Residency facilita gestión online. Reinversión sostenida amplifica el valor del régimen.
 
-**Caso 2: consultor europeo con 80.000 EUR/año que necesita el dinero para vivir.**
+**Caso 2: asesor europeo con 80.000 EUR/año que necesita el dinero para vivir.**
 Estonia es mala elección. Cada distribución tributa al 22% efectivo más impuesto en tu país de residencia. La carga total supera la de otras estructuras europeas o la LLC americana.
 
 **Caso 3: agencia con clientes B2B europeos y necesidad de IVA intracomunitario.**
@@ -174,7 +174,7 @@ El sistema fiscal estonio se vendió durante años como "0% corporate" - y técn
 
 ### Lo que más nos preguntan
 
-**¿Es Estonia mejor que LLC US para freelance digital con clientes EU?** Para freelance que necesita extraer cash mensual: Estonia y LLC US son equivalentes en carga fiscal total - la ventaja "0%" estonia se evapora con el dividendo. Para emprendedor que reinvierte (SaaS escalando, consultora con bonus a fin de ejercicio), Estonia diferida vs LLC con tributación pass-through inmediata sí marca diferencia.
+**¿Es Estonia mejor que LLC US para freelance digital con clientes EU?** Para freelance que necesita extraer cash mensual: Estonia y LLC US son equivalentes en carga fiscal total - la ventaja "0%" estonia se evapora con el dividendo. Para emprendedor que reinvierte (SaaS escalando, asesora con bonus a fin de ejercicio), Estonia diferida vs LLC con tributación pass-through inmediata sí marca diferencia.
 
 **¿Y si vivo en Portugal con NHR vigente?** NHR exonera dividendos de fuente extranjera bajo ciertas condiciones (no si la OÜ está en lista negra, no si hay tax sparing). Combinación NHR + OÜ sí ha funcionado en muchos casos, pero el régimen NHR está limitado para nuevas altas tras su última reforma — verificar caducidad antes de planificar.
 

@@ -88,7 +88,7 @@ Els grans bancs estonians (LHV, SEB, Swedbank) obren compte corporatiu només a 
 **Cas 1: SaaS bootstrapped que reinverteix el 100 % de beneficis en producte i màrqueting.**
 Estònia és perfecta. Tributació zero fins que distribueixis, programari de gestió bancària i fiscal totalment digital, e-Residency facilita gestió online. Reinversió sostinguda amplifica el valor del règim.
 
-**Cas 2: consultor europeu amb 80.000 EUR/any que necessita els diners per viure.**
+**Cas 2: assessor europeu amb 80.000 EUR/any que necessita els diners per viure.**
 Estònia és mala elecció. Cada distribució tributa al 22 % efectiu més impost al teu país de residència. La càrrega total supera la d'altres estructures europees o la LLC americana.
 
 **Cas 3: agència amb clients B2B europeus i necessitat d'IVA intracomunitari.**

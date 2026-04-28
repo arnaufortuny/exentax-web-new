@@ -139,7 +139,7 @@ FinCEN and IRS reporting requirements moved recently; the current state is:
 
 Mercury, Wise, Relay, Brex and virtually every US bank opening to non-residents operate under FinCEN/Patriot Act AML/KYC rules. They are not your enemy: they comply with a law that obliges monitoring, reporting and, if needed, closing accounts. Understanding which signals trigger AML systems is the difference between three years of clean operation and losing the account in two weeks.
 
-- **The KYC triangle at opening.** Beneficial owner identity (passport + personal address with utility bill), source of funds (contract/invoice/statement showing real prior activity), and consistency of declared activity with website and flows. Saying "consulting" but receiving payments from 50 different crypto wallets triggers alert.
+- **The KYC triangle at opening.** Beneficial owner identity (passport + personal address with utility bill), source of funds (contract/invoice/statement showing real prior activity), and consistency of declared activity with website and flows. Saying "advisory" but receiving payments from 50 different crypto wallets triggers alert.
 - **Five red flags triggering immediate review.** Circular movements (send 10k to personal and return), transfers to/from high-risk jurisdictions (Iran, North Korea, DRC and other FATF list), structuring under reporting thresholds (multiple 9,500$ payments to avoid the 10k$ CTR), unjustified activity spikes, and discrepancy between declared and real activity.
 - **The SAR and why they never warn you.** When the bank detects suspicious activity it files a Suspicious Activity Report with FinCEN and by law CANNOT inform you (tipping-off is a criminal offence). What you see: account closed with 30 days to withdraw, no explanation. The #1 closure reason we see.
 - **How to protect your LLC.** Exhaustive client documentation (signed contracts, invoices, address and country), real monthly bookkeeping with bank reconciliation, avoid moving money to personal without clear concept ("draw" or "loan to member" identified), do not use the account for friends/family, and never operate from sanctioned-country IPs.
@@ -168,7 +168,7 @@ Read this section as a checklist with teeth: each point flags a real failure mod
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -200,7 +200,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

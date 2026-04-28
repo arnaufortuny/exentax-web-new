@@ -48,7 +48,7 @@ Si tu facturación mensual es reducida, o si todos tus clientes son nacionales, 
 
 - Freelancers digitales con ingresos superiores a **$2,000/mes**
 - Emprendedores con **clientes internacionales** (especialmente EE.UU. UK, UE)
-- Creadores de contenido, desarrolladores, diseñadores, consultores
+- Creadores de contenido, desarrolladores, diseñadores, asesores
 - Vendedores de productos digitales (cursos, software, SaaS)
 - Vendedores de ecommerce (Amazon, Shopify)
 ## Más ventajas que merece la pena mencionar

@@ -363,7 +363,7 @@ export function injectMeta(html: string, reqPath: string): string {
       "name": BRAND_NAME,
       "url": BASE_URL,
       "logo": `${BASE_URL}/icon-192.png`,
-      "description": "Tax consulting for freelancers, digital nomads, and entrepreneurs. US LLC creation and management, tax optimization, and fiscal compliance.",
+      "description": "Tax advisory for freelancers, digital nomads, and entrepreneurs. US LLC creation and management, tax optimization, and fiscal compliance.",
       "areaServed": "Worldwide",
       "priceRange": "$$",
       "sameAs": [

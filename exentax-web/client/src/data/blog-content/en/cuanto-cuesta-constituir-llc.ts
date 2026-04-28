@@ -75,12 +75,12 @@ The price tags above do not pick the state for you. The right state depends on w
 
 | Client profile | Recommended state | Why |
 |---|---|---|
-| **Freelancer / B2B consultant** invoicing UK, EU or US clients, no employees | New Mexico | No Annual Report, no state annual fee and reasonable privacy. The cheapest structure to keep alive over 2-3 years. |
+| **Freelancer / B2B advisor** invoicing UK, EU or US clients, no employees | New Mexico | No Annual Report, no state annual fee and reasonable privacy. The cheapest structure to keep alive over 2-3 years. |
 | **Digital agency or creative studio** with 1-3 partners and no plan to raise outside capital | Wyoming | Strong charging order law (better protection against personal creditors), modest Annual Report fee and a neutral reputation with banks. |
 | **SaaS or tech startup** that anticipates a US VC, an accelerator or a Series A | Delaware | The de facto standard for Series A; no Sand Hill Road VC will accept a New Mexico LLC without a costly redomestication. The Franchise Tax stings, but it spares you reincorporating later. |
 | **E-commerce or dropshipping** running on Shopify, Stripe and Amazon FBA at mid volume | Wyoming or New Mexico | If no investor is on the horizon, both work. Wyoming is heavier when the business holds assets (inventory, trademarks); New Mexico when the business is pure cash flow. |
 | **Content creator** (YouTube, Twitch, Substack, online courses) monetising via AdSense, sponsors and platforms | New Mexico | The lowest fixed maintenance cost and a zero Annual Report easily wins; most creators do not need Delaware's corporate sophistication. |
-| **Consultant with US clients needing a stable corporate card** | Wyoming | Mercury and Relay handle Wyoming LLCs cleanly, and the corporate card is accepted without friction because the state is "old money" reputable. |
+| **Advisor with US clients needing a stable corporate card** | Wyoming | Mercury and Relay handle Wyoming LLCs cleanly, and the corporate card is accepted without friction because the state is "old money" reputable. |
 | **Holding structure** or IP custodian among co-founders | Delaware | The Delaware Court of Chancery is the most predictable corporate-law jurisprudence in the world; the premium is worth it on disputes. |
 
 The Florida lane has its own dedicated article and shows up only when you have physical presence in Miami or you intend to hire local employees. For 80 % of the non-resident clients we advise, the honest choice falls between New Mexico (cheapest), Wyoming (most balanced) and Delaware (when there is an investment thesis).
@@ -163,7 +163,7 @@ Here is where we close the loop and pull together what other websites scatter ac
 
 **What you save vs DIY:** a misfiled 5472 is USD 25,000 per form per year (IRC §6038A); a late BOI, when it applies, is USD 591/day cumulative; a rejected ITIN leaves you without operational banking for months. The Exentax value is not just running the paperwork; it is getting it right first time and having an accountable adviser when the IRS or your home-country authority asks.
 
-Zero surprises, zero "ah, that wasn't included", zero invoice shocks. Book a free consultation and we will give you the exact numbers for your specific case.
+Zero surprises, zero "ah, that wasn't included", zero invoice shocks. Book a free advisory session and we will give you the exact numbers for your specific case.
 
 ## Legal and regulatory references
 

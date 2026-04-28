@@ -96,7 +96,7 @@ Not for everyone. The RETA is mandatory if you carry out a regular, personal eco
 
 The special regime is governed by <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960">Royal Legislative Decree 1/1994</a> and the specific 2026 amounts are published at <a href="https://www.seg-social.es/">the Social Security e-Office</a>. For the related tax base, see our guides on <a href="/en/blog/spain-2026-irpf-tax-brackets-explained">Spain 2026 income tax brackets</a> and <a href="/en/blog/deductible-expenses-self-employed-spain-2026">autónomo deductible expenses</a>. The autónomo quota isn't planned in isolation: it's part of a global tax design that includes income tax, VAT, withholdings and legal structure. Getting it right in year one saves thousands of euros from year two onward.
 
-At Exentax we analyse your case with real data, estimate how much you pay today between RETA and IRPF, and compare it against a properly implemented LLC to tell you if it's worth the switch. <a href="/en/book">Book a free 30-minute consultation</a> and leave with a concrete plan, not a generic promise.
+At Exentax we analyse your case with real data, estimate how much you pay today between RETA and IRPF, and compare it against a properly implemented LLC to tell you if it's worth the switch. <a href="/en/book">Book a free 30-minute advisory session</a> and leave with a concrete plan, not a generic promise.
 
 <!-- exentax:execution-v2 -->
 ## How we execute it at Exentax
@@ -116,7 +116,7 @@ _More on this topic: [the autónomo quota by income tiers](/en/blog/spain-self-e
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -155,6 +155,6 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 `;

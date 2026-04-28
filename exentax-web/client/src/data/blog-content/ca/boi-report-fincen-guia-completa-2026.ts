@@ -96,7 +96,7 @@ El BOI Report està inclòs en els nostres serveis de constitució i manteniment
 
 No has d'entrar a cap portal governamental, omplir formularis en anglès ni preocupar-te pels terminis. Ens encarreguem de tot.
 
-Tens dubtes sobre si la teva LLC entra dins de l'àmbit vigent del BOIR o si una presentació antiga continua sent vàlida? Agenda la teva consultoria gratuïta. Revisem el teu estat a FinCEN segons la regla de març de 2025 i, si la teva entitat està fora de l'àmbit (escenari habitual per a la majoria de LLC USA propietat de no residents), et confirmem per escrit que quedes regularitzat sense més tràmits — un tràmit menys al teu calendari.
+Tens dubtes sobre si la teva LLC entra dins de l'àmbit vigent del BOIR o si una presentació antiga continua sent vàlida? Agenda la teva assessoria gratuïta. Revisem el teu estat a FinCEN segons la regla de març de 2025 i, si la teva entitat està fora de l'àmbit (escenari habitual per a la majoria de LLC USA propietat de no residents), et confirmem per escrit que quedes regularitzat sense més tràmits — un tràmit menys al teu calendari.
 ### Propers passos
 
 Si vols validar si aquesta estratègia encaixa amb la teva situació concreta, a Exentax revisem el teu cas de forma personalitzada i et proposem l'estructura legal i eficient que realment et convé. Reserva una sessió inicial sense compromís des de la nostra pàgina de contacte.

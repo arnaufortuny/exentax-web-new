@@ -40,7 +40,7 @@ Manter categorias estáveis ajuda no fecho e, sobretudo, na sua declaração. As
 - Comissões de gateways (Stripe, PayPal, Adyen, DoDo).
 - Comissões bancárias e FX.
 - Marketing e publicidade.
-- Serviços profissionais (consultoria, advogados, registered agent).
+- Serviços profissionais (assessoria, advogados, registered agent).
 - Viagens e deslocações ligadas ao negócio.
 - Equipamento (computador, telemóvel profissional).
 - Coworking e escritório.
@@ -62,9 +62,9 @@ O fecho mensal vai levar entre 30 e 90 minutos consoante o volume. A rotina idea
 Se cobra em euros e opera a LLC em USD, sempre que receber um pagamento deve anotar duas coisas: o montante original e o montante convertido em USD à taxa do dia. O IRS aceita a taxa diária ou uma taxa média anual razoável; o importante é ser coerente e documentar a fonte (Wise, Mercury ou a taxa do banco central).
 
 Não misture divisas na mesma coluna. Se a sua folha tem "Montante USD" como coluna principal, converta no momento do registo; não deixe para depois.
-### Fecho anual e entrega ao consultor
+### Fecho anual e entrega ao assessor
 
-A 31 de dezembro faz um fecho alargado: além do fecho mensal, gera um resumo anual com totais por categoria, receitas brutas, despesas brutas, lucro líquido e owner draws totais. Esse resumo é o que entrega ao seu consultor para preparar o Form 1120 pro-forma e o <a href="/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir">Form 5472</a> obrigatório para LLCs de não residentes.
+A 31 de dezembro faz um fecho alargado: além do fecho mensal, gera um resumo anual com totais por categoria, receitas brutas, despesas brutas, lucro líquido e owner draws totais. Esse resumo é o que entrega ao seu assessor para preparar o Form 1120 pro-forma e o <a href="/pt/blog/form-5472-o-que-e-quem-deve-apresenta-lo-e-como-cumprir">Form 5472</a> obrigatório para LLCs de não residentes.
 
 Na Exentax pedimos aos nossos clientes este pacote antes de 28 de fevereiro: extratos do ano, folha com fechos mensais conciliados, pasta de comprovativos e resumo anual por categorias. Com esta informação preparamos a declaração sem precisar de lhe pedir mais nada durante semanas.
 ### Erros frequentes a evitar
@@ -73,7 +73,7 @@ Na Exentax pedimos aos nossos clientes este pacote antes de 28 de fevereiro: ext
 - **Não conciliar mensalmente.** Acumular conciliações transforma um trabalho de uma hora em vários dias.
 - **Esquecer as comissões FX.** Quando a Wise converte 1.000 EUR para USD, há uma pequena comissão que também é despesa dedutível. Não a registar é perder dinheiro.
 - **Não guardar as faturas emitidas.** Qualquer banco ou gateway pode pedir-lhe a origem de um recebimento grande. Sem a fatura original, as explicações tornam-se difíceis.
-- **Esperar por março para começar.** É a receita certa para apresentar fora de prazo ou entregar números aproximados ao consultor.
+- **Esperar por março para começar.** É a receita certa para apresentar fora de prazo ou entregar números aproximados ao assessor.
 ### Como o fazemos na Exentax
 
 Para os clientes que preferem delegar, na Exentax oferecemos bookkeeping mensal gerido: nós descarregamos os extratos da Mercury e Wise via ligação segura, categorizamos os movimentos, conciliamos o saldo e entregamos-lhe um relatório mensal claro. Só precisa de manter as finanças separadas e enviar-nos as faturas das despesas que não estejam no extrato (subscrições, recibos em papel, etc.).
@@ -191,7 +191,7 @@ A contabilidade de uma LLC americana não exige uma equipa: exige disciplina, a 
 
 ### O que mais nos perguntam
 
-**Preciso de um contabilista americano para a contabilidade?** Não: a contabilidade operacional é feita pelo dono com software standard. Precisa sim de um consultor (americano ou internacional com experiência em SMLLC não residentes) para o fecho anual, 5472 e imputação na residência. Separamos assim para que o custo seja proporcional ao tamanho.
+**Preciso de um contabilista americano para a contabilidade?** Não: a contabilidade operacional é feita pelo dono com software standard. Precisa sim de um assessor (americano ou internacional com experiência em SMLLC não residentes) para o fecho anual, 5472 e imputação na residência. Separamos assim para que o custo seja proporcional ao tamanho.
 
 **E se tiver dois anos sem contabilidade organizada?** Reconstrução a partir de extractos bancários, facturas emitidas e movimentos de gateway. Trabalho duro mas exequível; já o fizemos com clientes que chegam com quatro anos misturados. Organize antes da próxima declaração, não espere pela carta.
 
@@ -212,7 +212,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Manter%20a%20contabilidade%20de%20uma%20LLC%20americana%20assusta%20mais%20do%20que%20deveria%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Manter%20a%20contabilidade%20de%20uma%20LLC%20americana%20assusta%20mais%20do%20que%20deveria%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

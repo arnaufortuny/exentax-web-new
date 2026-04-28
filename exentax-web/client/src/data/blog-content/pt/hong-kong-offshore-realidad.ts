@@ -29,7 +29,7 @@ Antes da fiscalidade, existe um piso de custos que não desaparece:
 - **Company Secretary** residente: 600 a 1.500 USD anuais.
 - **Domicílio social** registado: 300 a 800 USD anuais.
 - **Auditoria obrigatória** por um Hong Kong CPA: desde 1.500 USD para empresas pequenas, em muitos casos 2.500 a 5.000 USD.
-- **Profits Tax Return** anual: gestão por um consultor entre 500 e 1.500 USD.
+- **Profits Tax Return** anual: gestão por um assessor entre 500 e 1.500 USD.
 - **Offshore claim** (se solicitada): 2.000 a 5.000 USD adicionais em honorários na primeira vez.
 
 O piso realista para manter uma empresa básica é 4.000 a 7.000 USD por ano. Muito longe do custo de manutenção de uma <a href="/pt/blog/quanto-custa-constituir-uma-llc-americana-analise-completa">LLC americana</a>, que ronda os 500 a 800 USD anuais.
@@ -71,7 +71,7 @@ Para além do custo, os riscos práticos:
 - **Endurecimento BEPS Pillar Two**: a partir de recent years, multinacionais médias podem ver a vantagem territorial erodida.
 ### Casos típicos onde se aplica
 
-**Caso 1: consultor europeu com clientes em Singapura e Tóquio.**
+**Caso 1: assessor europeu com clientes em Singapura e Tóquio.**
 Hong Kong faz sentido se passa vários meses por ano na região. A conta bancária local facilita cobranças asiáticas e o regime territorial pode aplicar-se se a atividade for exterior e bem documentada.
 
 **Caso 2: ecommerce que vende a clientes ocidentais mas com fornecedores chineses.**
@@ -196,7 +196,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Hong%20Kong%20foi%20durante%20d%C3%A9cadas%20a%20jurisdi%C3%A7%C3%A3o%20offshore%20preferida%20de%20empreendedor%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Hong%20Kong%20foi%20durante%20d%C3%A9cadas%20a%20jurisdi%C3%A7%C3%A3o%20offshore%20preferida%20de%20empreendedor%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

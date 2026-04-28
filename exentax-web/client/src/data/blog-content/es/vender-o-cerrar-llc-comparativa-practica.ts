@@ -28,7 +28,7 @@ La elección entre las tres depende de qué tienes, a quién se lo vendes (si ha
 La opción típica cuando:
 
 - **No hay comprador interesado** en pagar más de lo que valdría liquidar tú mismo.
-- El negocio depende fuertemente de **ti como persona** (consultoría, agencia personalista, marca personal): no hay activo transmisible separable.
+- El negocio depende fuertemente de **ti como persona** (asesoría, agencia personalista, marca personal): no hay activo transmisible separable.
 - Quieres **simplificar tu vida** y los activos residuales (saldo bancario, equipo, software) los puedes liquidar por tu cuenta.
 - La LLC tiene **deuda técnica acumulada** que un comprador descontaría brutalmente.
 

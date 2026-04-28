@@ -18,7 +18,7 @@ Para una Single-Member LLC con propietario extranjero, el IRS la clasifica como 
 Sí, cero dólares. No es un error tipográfico.
 ### ¿Cómo es posible que sea $0?
 
-Porque el sistema fiscal estadounidense grava los ingresos según su **fuente**. Si eres no residente de EE.UU. y tus ingresos provienen de servicios prestados fuera de Estados Unidos (freelancing, consultoría, desarrollo de software, diseño, marketing digital, etc.), esos ingresos no se consideran de fuente estadounidense.
+Porque el sistema fiscal estadounidense grava los ingresos según su **fuente**. Si eres no residente de EE.UU. y tus ingresos provienen de servicios prestados fuera de Estados Unidos (freelancing, asesoría, desarrollo de software, diseño, marketing digital, etc.), esos ingresos no se consideran de fuente estadounidense.
 
 Y si no son de fuente estadounidense, EE.UU. no tiene potestad para gravarlos. Así funciona el sistema, no es una laguna legal, es el diseño del propio código fiscal.
 

@@ -90,7 +90,7 @@ It is workable but limited. Stripe and PayPal work with OÜ.
 **Case 1: bootstrapped SaaS reinvesting 100% of profits in product and marketing.**
 Estonia is perfect. Zero tax until distribution, fully digital banking and tax software, e-Residency eases online management. Sustained reinvestment amplifies the regime's value.
 
-**Case 2: European consultant earning 80,000 EUR/year who needs the money to live.**
+**Case 2: European advisor earning 80,000 EUR/year who needs the money to live.**
 Estonia is a poor choice. Each distribution is taxed at 22% effective plus tax in your country of residence. The total burden exceeds other European structures or a US LLC.
 
 **Case 3: agency with European B2B clients needing intra-EU VAT.**
@@ -124,9 +124,9 @@ Yes, but the salary is taxed in your country of residence, not Estonia. The OÜ 
 
 Estonia has built an admirable tax and digital system, but its usefulness for non-resident entrepreneurs is more limited than the marketing suggests. The "0%" is a deferral, not an elimination, and your country of residence always ends up collecting.
 
-For most of the profiles we advise, a <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">US LLC in pass-through</a> offers better effective taxation, more workable banking and lower maintenance costs. If you want to compare specific numbers for your case, at Exentax we can do it without commitment. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+For most of the profiles we advise, a <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">US LLC in pass-through</a> offers better effective taxation, more workable banking and lower maintenance costs. If you want to compare specific numbers for your case, at Exentax we can do it without commitment. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 
-For most of the profiles we advise, a <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">US LLC in pass-through</a> offers better effective taxation, more workable banking and lower maintenance costs. If you want to compare specific numbers for your case, at Exentax we can do it without commitment. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+For most of the profiles we advise, a <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">US LLC in pass-through</a> offers better effective taxation, more workable banking and lower maintenance costs. If you want to compare specific numbers for your case, at Exentax we can do it without commitment. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
@@ -213,7 +213,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

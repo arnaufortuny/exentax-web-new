@@ -75,7 +75,7 @@ Amb una LLC pots deduir tota despesa "ordinària i necessària" per al teu negoc
 - **Home office:** part proporcional de lloguer, internet, electricitat, telèfon
 - **Formació:** cursos, llibres professionals, conferències, esdeveniments del sector
 - **Viatges de negocis:** bitllets d'avió, allotjament, transport local
-- **Serveis professionals:** comptabilitat, legal, consultoria, registered agent
+- **Serveis professionals:** comptabilitat, legal, assessoria, registered agent
 - **Comissions:** Stripe, PayPal, comissions bancàries
 - **Assegurances:** assegurança de responsabilitat civil, assegurança mèdica professional
 - **Subscripcions professionals:** eines de productivitat, plataformes de disseny, APIs
@@ -140,7 +140,7 @@ Per continuar aquest fil, <a href="/ca/blog/avantatges-i-desavantatges-duna-llc-
 
 Si decideixes fer el pas, a Exentax no ens limitem a crear la teva LLC i obtenir el teu EIN. dissenyem la teva estructura completa: obertura de compte bancari, configuració de tresoreria amb Slash, targetes corporatives Wallester, integració amb Stripe o la passarel·la que necessitis, i tot el compliance anual (Form 5472, BOI Report, renovació d'agent registrat). No som venedors de LLCs: som dissenyadors d'estructures.
 
-Vols veure, amb els teus números reals (facturació, marges, residència a Catalunya), què passaria amb la teva activitat si fessis el salt a una LLC en lloc de continuar com a autònom? Agenda la teva consultoria gratuïta. Fem els números junts, sense compromís, i te'n vas amb una resposta clara.
+Vols veure, amb els teus números reals (facturació, marges, residència a Catalunya), què passaria amb la teva activitat si fessis el salt a una LLC en lloc de continuar com a autònom? Agenda la teva assessoria gratuïta. Fem els números junts, sense compromís, i te'n vas amb una resposta clara.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

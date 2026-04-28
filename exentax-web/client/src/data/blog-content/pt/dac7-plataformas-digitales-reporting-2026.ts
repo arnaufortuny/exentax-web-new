@@ -88,7 +88,7 @@ Se a sua LLC vende na Amazon Europa, recebe via Wise Bélgica, paga fornecedores
 
 A DAC7 é o complemento natural do CRS para a economia de plataformas. Não é opcional, não se evita e, combinada com CRS e DAC8, conforma o sistema de informação tributária mais denso da história europeia. A forma profissional de operar é declarar bem e desenhar a estrutura para que o declarado seja fiscalmente eficiente.
 
-Vende na Amazon, Etsy, Airbnb ou em qualquer plataforma europeia a partir de uma LLC e quer ver como optimizar legalmente a sua carga fiscal sem riscos? Marque a sua consultoria gratuita.
+Vende na Amazon, Etsy, Airbnb ou em qualquer plataforma europeia a partir de uma LLC e quer ver como optimizar legalmente a sua carga fiscal sem riscos? Marque a sua assessoria gratuita.
 
 ## Compliance fiscal em Portugal e no Brasil: CFC, transparência fiscal e atribuição de rendimentos
 
@@ -157,7 +157,7 @@ Na Exentax ajustamos a configuração da sua LLC em cada plataforma DAC7 para qu
 
 ## Montamos para si sem perder um fim de semana
 
-Milhares de trabalhadores independentes e empreendedores já operam com a sua LLC americana de forma 100% legal e documentada. Na Exentax encarregamo-nos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e compliance no seu país de residência. Marque uma consultoria gratuita e dir-lhe-emos com sinceridade se a LLC faz sentido para o seu caso, sem promessas absolutas.
+Milhares de trabalhadores independentes e empreendedores já operam com a sua LLC americana de forma 100% legal e documentada. Na Exentax encarregamo-nos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> e compliance no seu país de residência. Marque uma assessoria gratuita e dir-lhe-emos com sinceridade se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Marque uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.
 
@@ -191,7 +191,7 @@ Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Marque uma sessã
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20DAC%207%20%C3%A9%20a%20diretiva%20europeia%20que%20obriga%20Airbnb%2C%20Vinted%2C%20OLX%2C%20Etsy%20e%20companhi%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20DAC%207%20%C3%A9%20a%20diretiva%20europeia%20que%20obriga%20Airbnb%2C%20Vinted%2C%20OLX%2C%20Etsy%20e%20companhi%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -61,7 +61,7 @@ A good structure follows five principles:
 5. **Future-proof margin**: resilient to foreseeable regulatory changes (BEPS, CRS, beneficial owner registers).
 ### The option we recommend in most cases
 
-For freelancers, consultants, digital agencies, SaaS, ecommerce and creators residing in Spain, LatAm or Europe with international income, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> solves the average case better than any traditional offshore alternative:
+For freelancers, advisors, digital agencies, SaaS, ecommerce and creators residing in Spain, LatAm or Europe with international income, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> solves the average case better than any traditional offshore alternative:
 
 - 0% federal tax through <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">pass-through</a>.
 - Annual cost of USD 500-800.
@@ -110,7 +110,7 @@ The traditional distinction has lost meaning. What matters today: Is there real 
 
 Offshore is neither the magic solution some sell nor the crime others denounce. It is a tool that, used well, optimizes taxation and protects assets; and that, used poorly, creates more problems than it solves. The key is honest design, full declaration and choosing the right jurisdiction for the real case.
 
-At Exentax we can analyze your situation and propose the minimum viable structure that covers your goals without unnecessary risks. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+At Exentax we can analyze your situation and propose the minimum viable structure that covers your goals without unnecessary risks. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -228,7 +228,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

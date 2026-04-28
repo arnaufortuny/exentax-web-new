@@ -1,6 +1,6 @@
 # Google SERP previews — 18 indexable pages × 6 locales
 
-_Generated 2026-04-28T17:20:44.971Z_
+_Generated 2026-04-28T19:05:36.584Z_
 
 This report follows up on Task #3 by re-checking how the refreshed copy renders in Google's desktop and mobile SERP cards. The character budgets used here are aligned with `scripts/seo/verify-meta.ts`, so a passing meta-check translates directly into clean SERP previews.
 
@@ -201,10 +201,10 @@ Cards with at least one note. _Mobile-title wraps are normal Google rendering_ �
 
 - **Title** (55 chars · 453 px est. desktop)
   > A sua LLC nos EUA com respaldo fiscal premium | Exentax
-- **Description** (179 chars · 927 px est. desktop)
-  > Constituição, EIN, banca americana, compliance IRS e um consultor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.
+- **Description** (178 chars · 927 px est. desktop)
+  > Constituição, EIN, banca americana, compliance IRS e um assessor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.
 - Notes:
-  - 🔴 Description is 179 chars, exceeds desktop cap of 165; tail will be cropped.
+  - 🔴 Description is 178 chars, exceeds desktop cap of 165; tail will be cropped.
 
 ### `/pt/servicos/llc-delaware` · subpage · service_llcDe (pt)
 
@@ -355,11 +355,11 @@ Hard desktop truncations were detected — review the flagged cards above and sh
 | --- | --- | ---: | ---: | --- |
 | pillar | `/pt/abrir-llc-eua` | 48 | 158 | ✅ |
 | static | `/pt/sobre-llc` | 51 | 152 | ✅ |
-| static | `/pt/blog` | 55 | 158 | ✅ |
-| static | `/pt/agendar` | 51 | 146 | ✅ |
-| static | `/pt/perguntas-frequentes` | 45 | 155 | ✅ |
-| static | `/pt` | 55 | 179 | 🔴desktop-description |
-| static | `/pt/como-trabalhamos` | 53 | 156 | ✅ |
+| static | `/pt/blog` | 55 | 157 | ✅ |
+| static | `/pt/agendar` | 50 | 145 | ✅ |
+| static | `/pt/perguntas-frequentes` | 45 | 154 | ✅ |
+| static | `/pt` | 55 | 178 | 🔴desktop-description |
+| static | `/pt/como-trabalhamos` | 52 | 154 | ✅ |
 | static | `/pt/legal/cookies` | 29 | 136 | ✅ |
 | static | `/pt/legal/aviso-legal` | 34 | 146 | ✅ |
 | static | `/pt/legal/privacidade` | 33 | 140 | ✅ |

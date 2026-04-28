@@ -90,7 +90,7 @@ The winning combination we use for most of our clients:
 ### Steps to implement the optimal structure
 
 1. **Analyze your current situation**: revenue, expenses, client mix, country of residence
-2. **Consult with Exentax**: free strategic consultation with real numbers
+2. **Consult with Exentax**: free strategic advisory session with real numbers
 3. **Form your LLC**: choose the right state, get EIN, prepare documents
 4. **Set up financial infrastructure**: Mercury, Stripe, Wise, Slash, Wallester
 5. **Migrate gradually**: start billing new clients from the LLC, then existing clients
@@ -185,11 +185,11 @@ There is no universal optimal structure. What is optimal for a digital freelance
 
 - **Digital freelancer, Spain residency, global B2B/B2C clients, EUR 100-300k.** US single-member LLC + autónomo in residency with attributed dividends; OSS if EU B2C; coordinated IRPF/VAT + 5472 + 720 calendar. All-in annual cost EUR 2,500-4,500, typical tax savings 25-40% vs pure autónomo.
 - **Ecommerce seller, LatAm residency, US/global clients, USD 200-800k.** US LLC Wyoming or New Mexico + Mercury + Stripe + A2X; no EU VAT if threshold not crossed; tax filing in residency according to country (direct attribution typical in pass-through). Annual cost USD 3,000-5,000, savings strongly local-legislation-dependent.
-- **B2B consultant, mobile residency, EU/UK clients, EUR 80-200k.** UK Ltd with OSS via tax rep or Bulgarian EOOD with minimum substance; Wise + Tide or DSK banking; optimised personal residency (Portugal NHR while it lasts, Andorra, Cyprus). More complex structure but profitable above 150k.
+- **B2B advisor, mobile residency, EU/UK clients, EUR 80-200k.** UK Ltd with OSS via tax rep or Bulgarian EOOD with minimum substance; Wise + Tide or DSK banking; optimised personal residency (Portugal NHR while it lasts, Andorra, Cyprus). More complex structure but profitable above 150k.
 
 ### What we are asked the most
 
-**What about the "ideal" structure of fiscal influencer X?** Usually designed for their case (residency, volume, mix), not yours. Replicating without prior diagnosis is the #1 source of rework we see in consultations.
+**What about the "ideal" structure of fiscal influencer X?** Usually designed for their case (residency, volume, mix), not yours. Replicating without prior diagnosis is the #1 source of rework we see in advisory sessions.
 
 **When does it make sense to change structure?** When the annual net saving is at least 3x the annual maintenance cost of the new structure, and the transition can happen without breaking operational continuity with clients and banking.
 
@@ -227,7 +227,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

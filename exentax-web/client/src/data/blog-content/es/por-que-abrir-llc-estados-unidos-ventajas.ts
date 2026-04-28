@@ -151,7 +151,7 @@ Vuelos, alojamiento, transporte local, dietas, siempre que el viaje tenga un pro
 Anuncios en Meta, Google Ads, LinkedIn Ads, diseño de marca, branding, SEO, producción de contenido, relaciones públicas, patrocinios relevantes.
 
 ### Servicios profesionales
-Contabilidad (hola, Exentax), asesoría fiscal, agente registrado, servicios legales, consultoría especializada, diseño gráfico, copywriting.
+Contabilidad (hola, Exentax), asesoría fiscal, agente registrado, servicios legales, asesoría especializada, diseño gráfico, copywriting.
 
 ### Telecomunicaciones
 Factura de internet (porcentaje profesional), plan de teléfono móvil (porcentaje profesional), VPN, servicios de comunicación.
@@ -182,7 +182,7 @@ No subcontratamos, no delegamos en terceros, no usamos plantillas genéricas. Ca
 Si te ha quedado alguna duda sobre los matices de esta estructura, <a href="/es/blog/documentos-llc-cuales-necesitas">Documentos de tu LLC: cuáles necesitas y para qué sirve cada uno</a> explica en detalle un aspecto colindante que solemos dejar apuntado para otro día.
 ### ¿Tiene sentido para ti?
 
-Si eres freelancer, consultor, desarrollador, diseñador, marketer o cualquier profesional digital que factura más de $2,000 al mes a clientes internacionales, la respuesta probablemente es sí.
+Si eres freelancer, asesor, desarrollador, diseñador, marketer o cualquier profesional digital que factura más de $2,000 al mes a clientes internacionales, la respuesta probablemente es sí.
 
 Agenda tu asesoría gratuita de 30 minutos con Exentax. Analizamos tu caso, te mostramos los números y te decimos honestamente si una LLC es lo que necesitas, o si hay una opción mejor para tu situación. Sin compromiso, sin presión, con datos reales.
 ## Referencias legales y normativas

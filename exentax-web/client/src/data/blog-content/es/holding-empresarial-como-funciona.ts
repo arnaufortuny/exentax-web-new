@@ -14,7 +14,7 @@ Su función esencial es agrupar la titularidad y centralizar decisiones, dividen
 Existen varios modelos, dependiendo del propósito:
 
 - **Holding puro**: solo posee participaciones, no realiza actividad económica. Vehículo limpio para concentrar control.
-- **Holding mixto**: además de poseer participaciones, presta servicios reales (consultoría, dirección, marketing) a sus filiales y otros clientes.
+- **Holding mixto**: además de poseer participaciones, presta servicios reales (asesoría, dirección, marketing) a sus filiales y otros clientes.
 - **Holding patrimonial**: posee inmuebles, inversiones financieras o propiedad intelectual además de participaciones empresariales.
 - **Holding internacional**: filiales en distintos países, holding centralizada en una jurisdicción con régimen favorable.
 ### Beneficios reales de un holding
@@ -42,7 +42,7 @@ Constituir un holding solo por moda añade contabilidad, declaraciones, costes y
 La estructura típica para un emprendedor con varias actividades en España:
 
 - **Holding (S.L. patrimonial)**: posee 100%<!-- [REVISIÓN MANUAL: cifra "100%" — verificar contra fuente oficial vigente (revisión editorial) — fecha: 2026-04-21] --> de las filiales.
-- **Filial operativa 1**: actividad principal (servicios, ecommerce, consultoría).
+- **Filial operativa 1**: actividad principal (servicios, ecommerce, asesoría).
 - **Filial operativa 2**: segunda actividad o nuevo proyecto.
 - **Filial inmobiliaria** (opcional): posee inmuebles del grupo.
 

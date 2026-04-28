@@ -43,7 +43,7 @@ Alguns sectors reben un escrutini addicional per part dels bancs:
 - **Criptomonedes i trading**: regulació en evolució constant
 - **Serveis financers**: requereixen llicències addicionals en molts estats
 - **Indústries regulades**: farmacèutica, gaming, productes per a adults
-- **Consultoria a governs**: implica riscos de compliance addicionals
+- **Assessoria a governs**: implica riscos de compliance addicionals
 
 Si el teu negoci està en un d'aquests sectors, no significa que no puguis obrir un compte. Simplement, el procés pot trigar més temps i requerir més documentació.
 ### Com facilitar el procés
@@ -72,7 +72,7 @@ Si Mercury (o qualsevol altra fintech) rebutja la teva sol·licitud, les raons m
 
 - **Activitat no suportada**: certs sectors (cripto, joc, CBD) tenen restriccions addicionals
 - **Documentació inconsistent**: la informació del formulari no coincideix amb els documents proporcionats
-- **Descripció de l'activitat vaga**: "consultoria" sense més detalls no és suficient
+- **Descripció de l'activitat vaga**: "assessoria" sense més detalls no és suficient
 - **Historial de l'adreça del Registered Agent**: si l'agent té un historial de LLCs problemàtiques associades
 
 La bona notícia: un rebuig no és definitiu. Amb la documentació correcta i una descripció clara de la teva activitat, sovint és possible tornar a enviar o optar per una alternativa com Relay.

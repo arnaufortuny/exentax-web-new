@@ -87,7 +87,7 @@ Para continuar neste fio, <a href="/pt/blog/iban-swift-e-routing-number-entenden
 | Jungle Scout / Helium 10 | Pesquisa de produto | $29-99/mês |
 | Wise Business | Conversão de divisas | Taxa de câmbio real (EMI) |
 
-Na Exentax já constituímos LLCs para vendedores Amazon FBA, lojas Shopify e operações de dropshipping a operar a partir de Portugal e do Brasil. Conhecemos o que funciona em cada modelo. Marca a tua consultoria gratuita e dizemos-te exatamente qual estrutura serve o teu ecommerce.
+Na Exentax já constituímos LLCs para vendedores Amazon FBA, lojas Shopify e operações de dropshipping a operar a partir de Portugal e do Brasil. Conhecemos o que funciona em cada modelo. Marca a tua assessoria gratuita e dizemos-te exatamente qual estrutura serve o teu ecommerce.
 ## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
 
 Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
@@ -187,7 +187,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Vender%20na%20Amazon%2C%20Shopify%20ou%20Etsy%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20costuma%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Vender%20na%20Amazon%2C%20Shopify%20ou%20Etsy%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20costuma%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

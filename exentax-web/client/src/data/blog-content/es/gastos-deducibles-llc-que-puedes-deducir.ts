@@ -37,7 +37,7 @@ Aquí es donde la cosa se pone interesante. La lista es mucho más amplia de lo 
 ### Servicios profesionales
 - **Contabilidad y preparación de impuestos** (como los servicios de Exentax)
 - **Servicios legales:** abogados, contratos, propiedad intelectual
-- **Consultoría de negocio:** mentores, coaches, asesores estratégicos
+- **Asesoría de negocio:** mentores, coaches, asesores estratégicos
 - **Registered Agent:** tu agente registrado en EE.UU.
 - **Diseño y branding:** logo, identidad visual, diseño web
 - **Traducción y copywriting**
@@ -194,7 +194,7 @@ La regla del IRS es engañosamente simple: "ordinary and necessary" para tu acti
 
 - **Lo claramente deducible.** Software (Notion, Figma, Stripe fees, hosting), publicidad (Meta, Google, LinkedIn), subcontratistas con W-9 o W-8BEN, comisiones de plataformas, suscripciones profesionales, equipo informático con uso 100% empresarial, contabilidad y asesoría. Pago desde la cuenta de la LLC, factura a nombre de la LLC, archivada en Drive o Google Drive con tag por categoría.
 - **Lo deducible con condiciones.** Coworking y oficina (sí, totalmente), home office (porcentaje del espacio dedicado, requiere documentación), viajes con propósito de negocio (billete, hotel, dietas razonables; el "yo y mi familia en Bali" no), formación específica de tu actividad, comidas con clientes (50% deducible federal).
-- **Lo problemático sin sustancia.** Coche personal, ropa que no es uniforme, gastos personales mezclados, "consultoría" pagada a familiares sin servicio real ni W-9, viajes sin agenda documentada. La LLC es transparente para el IRS y opaca para el banco - pero ambos cruzan datos en una inspección.
+- **Lo problemático sin sustancia.** Coche personal, ropa que no es uniforme, gastos personales mezclados, "asesoría" pagada a familiares sin servicio real ni W-9, viajes sin agenda documentada. La LLC es transparente para el IRS y opaca para el banco - pero ambos cruzan datos en una inspección.
 - **Disregarded vs C-Corp: el matiz.** Si tu LLC es disregarded (single-member), los gastos reducen tu Schedule C / income atribuido. Si elegiste C-Corp con form 8832, reducen el beneficio corporativo gravado al 21% federal. El control documental es idéntico en ambos casos.
 
 ### Lo que más nos preguntan

@@ -102,7 +102,7 @@ Pense na proteção patrimonial como um seguro: espera não precisar dele nunca,
 
 O custo de manter uma LLC é uma fração do que perderia se um problema legal afetasse os seus bens pessoais. Um processo pode custar dezenas de milhares de euros. A sua LLC custa uma fração disso por ano. As contas são fáceis.
 
-Na Exentax combinamos LLC e direito português para blindar o património dos nossos clientes. Marca a tua consultoria gratuita e vemos o que o teu caso pessoal realmente precisa.
+Na Exentax combinamos LLC e direito português para blindar o património dos nossos clientes. Marca a tua assessoria gratuita e vemos o que o teu caso pessoal realmente precisa.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -127,7 +127,7 @@ A proteção patrimonial através da LLC lê-se de forma mais útil como um mapa
 <!-- exentax:lote29-native-v1-bis:llc-seguridad-juridica-proteccion-patrimonial-pt -->
 ## Porque a nota se organiza pela relação e não pelo veículo isoladamente
 
-A nota organiza-se pela relação entre beneficiário, veículo e ativos — não pelo veículo isoladamente, porque a proteção nasce dessa relação e não do veículo como objeto de marca, e esta visão facilita qualquer revisão posterior com um consultor.
+A nota organiza-se pela relação entre beneficiário, veículo e ativos — não pelo veículo isoladamente, porque a proteção nasce dessa relação e não do veículo como objeto de marca, e esta visão facilita qualquer revisão posterior com um assessor.
 <!-- /exentax:lote29-native-v1-bis:llc-seguridad-juridica-proteccion-patrimonial-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -163,7 +163,7 @@ Na Exentax desenhamos a estrutura LLC adequada ao seu perfil de risco e operamo-
 Milhares de freelancers e empreendedores já operam a sua LLC americana de forma 100% legal e documentada. Na Exentax tratamos de todo o processo: constituição, banca, gateways de pagamento, contabilidade, declarações IRS e compliance no seu país de residência. Marque uma consulta gratuita e dir-lhe-emos honestamente se a LLC faz sentido para o seu caso, sem promessas absolutas.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20a%20prote%C3%A7%C3%A3o%20patrimonial%20passa%20pela%20Lda%2C%20pela%20doa%C3%A7%C3%A3o%20com%20reserva%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Em%20Portugal%2C%20a%20prote%C3%A7%C3%A3o%20patrimonial%20passa%20pela%20Lda%2C%20pela%20doa%C3%A7%C3%A3o%20com%20reserva%20d%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Wyoming, vê a nossa página de serviço <a href="/pt/servicos/llc-wyoming">LLC em Wyoming</a> com custos, prazos e próximos passos concretos.
 
@@ -184,6 +184,6 @@ Preferes agenda? <a href="/pt/agendar">Marca uma sessão gratuita</a> e analisam
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-wyoming">Comparar o meu caso com um consultor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-wyoming">Comparar o meu caso com um assessor</a>.
 <!-- /exentax:cta-v1 -->
 `;

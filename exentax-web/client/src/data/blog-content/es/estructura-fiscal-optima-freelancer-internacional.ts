@@ -168,7 +168,7 @@ No hay estructura óptima universal. Lo que es óptimo para un freelance digital
 
 - **Freelance digital, residencia España, clientes globales B2B/B2C, 100-300k EUR.** LLC US single-member + autónomo en residencia con dividendos imputados; OSS si hay B2C EU; calendario IRPF/IVA + 5472 + 720 coordinado. Coste anual all-in 2.500-4.500 EUR, ahorro fiscal típico 25-40% vs autónomo puro.
 - **Seller ecommerce, residencia LatAm, clientes US/global, 200-800k USD.** LLC US Wyoming o New Mexico + Mercury + Stripe + A2X; sin IVA EU si no se cruza umbral; declaración fiscal en residencia según país (atribución directa típica en pass-through). Coste 3.000-5.000 USD anuales, ahorro depende fuertemente de la legislación local.
-- **Consultor B2B, residencia móvil, clientes EU/UK, 80-200k EUR.** UK Ltd con OSS via representante o EOOD búlgara con sustancia mínima; banca Wise + Tide o DSK; residencia personal optimizada (Portugal NHR mientras dure, Andorra, Chipre). Estructura más compleja pero rentable sobre 150k+.
+- **Asesor B2B, residencia móvil, clientes EU/UK, 80-200k EUR.** UK Ltd con OSS via representante o EOOD búlgara con sustancia mínima; banca Wise + Tide o DSK; residencia personal optimizada (Portugal NHR mientras dure, Andorra, Chipre). Estructura más compleja pero rentable sobre 150k+.
 
 ### Lo que más nos preguntan
 

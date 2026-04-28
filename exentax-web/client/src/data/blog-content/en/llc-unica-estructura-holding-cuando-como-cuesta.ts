@@ -8,7 +8,7 @@ Moving from single LLC to holding has four clear triggers. If you recognize two 
 
 ### 1. Volume and mix of business lines
 
-If consulting receipts, SaaS revenue, affiliate commissions and an online store coexist in the same LLC, accounting becomes messy and risk spreads: if one line has a legal issue, all the others are exposed. A holding with operating sub-LLCs separates that.
+If advisory receipts, SaaS revenue, affiliate commissions and an online store coexist in the same LLC, accounting becomes messy and risk spreads: if one line has a legal issue, all the others are exposed. A holding with operating sub-LLCs separates that.
 
 ### 2. Asymmetric risk between lines
 
@@ -31,7 +31,7 @@ You (individual, tax resident of your country)
 ▼
 Holding LLC (Wyoming or Delaware)
 │
-├── Operating A LLC (consulting)
+├── Operating A LLC (advisory)
 ├── Operating B LLC (SaaS)
 └── IP LLC (brand, code)
 \`\`\`
@@ -161,7 +161,7 @@ Run the first month with two entities, separate cards, separate categories, and 
 The question lands when the first LLC year invoiced decently and the second project, the property you want to buy or the SaaS you want to launch appears. Put it all in the same LLC or create a holding with subsidiaries? The answer depends on four measurable variables.
 
 - **When a single LLC is enough.** One operational activity (e.g. marketing agency), stable volume, no high-value differentiated assets, no partial sale plan. Annual cost: 1,500-2,500 USD (registered agent + basic accounting + 1120/5472). Optimal for 80% of cases in the first 1-3 years.
-- **When holding + subsidiaries fit.** Multiple activities with uneven risk (consulting + SaaS + investment portfolio), separate properties (each in its own LLC to isolate liability), partial sale plan (sell the SaaS without touching consulting), or different teams with different partners per line. Structure: parent holding LLC (Wyoming) + operating subsidiaries (Wyoming/Delaware as needed).
+- **When holding + subsidiaries fit.** Multiple activities with uneven risk (advisory + SaaS + investment portfolio), separate properties (each in its own LLC to isolate liability), partial sale plan (sell the SaaS without touching advisory), or different teams with different partners per line. Structure: parent holding LLC (Wyoming) + operating subsidiaries (Wyoming/Delaware as needed).
 - **Real cost of the holding.** Holding + 2 subsidiaries: 4-6k USD yearly (3x registered agent, 3x accounting, 3x 1120/5472, intercompany operating agreement). Holding + 5 subsidiaries: 8-12k USD. Only worth it if the fiscal/protection/flexibility saving exceeds that cost - and it often does with assets >300k EUR/USD per line.
 - **How it is built technically.** The holding LLC owns 100% of each subsidiary's membership interest. Subsidiaries invoice clients and at year-end distribute profit to the holding (no US tax cost if all single-member disregarded; partnership treatment if multi-member). The holding centralises treasury, strategic decisions and reinvestment.
 
@@ -214,7 +214,7 @@ Or call us directly at <a href="tel:+34614916910">+34 614 916 910</a> if you'd r
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/services/llc-wyoming">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

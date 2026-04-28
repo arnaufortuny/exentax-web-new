@@ -29,7 +29,7 @@ Principal: <a href="/ca/blog/com-evitar-els-bloquejos-de-compte-a-mercury-wise-i
 **Revisió anual**.
 ### Exemples
 
-**Perfil 1: Consultor B2B ES, 80-150 k€**: Single-Member LLC NM, Mercury + Wise.
+**Perfil 1: Assessor B2B ES, 80-150 k€**: Single-Member LLC NM, Mercury + Wise.
 **Perfil 2: Amazon Europa, 200-500 k€**: LLC + IOSS/OSS. DAC7.
 **Perfil 3: SaaS B2B LATAM, 100 k€ ARR**: LLC + Mercury + Stripe + MoR.
 **Perfil 4: Trader cripto/futures**: LLC sense substància = alt CFC.
@@ -206,7 +206,7 @@ part proporcional a casa; la LLC és el casc operatiu, no un
 holding. L'estructura és portable i sobreviu a una relocació de
 soci sense redibuixar el diagrama.
 
-Una fundadora amb una línia SaaS i una línia de consultoria
+Una fundadora amb una línia SaaS i una línia de assessoria
 separada opera dues LLCs, una per línia. Cadascuna té els seus
 llibres, el seu stack bancari i el seu cicle W-8. La separació
 simplifica l'opcionalitat de venda més endavant (una línia es podria
@@ -218,7 +218,7 @@ vendre sense afectar l'altra) i manté el reporting net.
   residència del soci no permet. Les regles de seu de direcció
   efectiva del país de residència acabaran guanyant.
 - Apilar holdings per "semblar corporate" quan l'activitat és
-  consultoria d'una sola persona. La complexitat es converteix en la
+  assessoria d'una sola persona. La complexitat es converteix en la
   seva pròpia superfície de risc.
 - Oblidar que el BOI s'aplica a la LLC i als seus beneficiaris
   efectius, independentment de com de neta sigui la declaració al

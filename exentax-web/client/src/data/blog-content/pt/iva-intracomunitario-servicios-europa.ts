@@ -4,7 +4,7 @@ Se é autónomo ou PME espanhol com clientes empresa noutros países da UE, o IV
 
 ## Serviços B2B: regra geral e exceções
 
-O artigo 69 da Lei espanhola do IVA estabelece que nos serviços B2B intracomunitários a operação se localiza na sede do destinatário. Ou seja: se vende consultoria a uma empresa francesa, a operação tributa em França e emite a fatura sem IVA espanhol. Exceções relevantes: serviços relacionados com bens imóveis (tributam onde está o imóvel), transporte de passageiros (onde se realiza), restauração e catering (local de consumo) e serviços culturais ou educativos presenciais (local do evento). Convém rever cada operação porque a qualificação errada é dos erros mais comuns.
+O artigo 69 da Lei espanhola do IVA estabelece que nos serviços B2B intracomunitários a operação se localiza na sede do destinatário. Ou seja: se vende assessoria a uma empresa francesa, a operação tributa em França e emite a fatura sem IVA espanhol. Exceções relevantes: serviços relacionados com bens imóveis (tributam onde está o imóvel), transporte de passageiros (onde se realiza), restauração e catering (local de consumo) e serviços culturais ou educativos presenciais (local do evento). Convém rever cada operação porque a qualificação errada é dos erros mais comuns.
 ## Registo de Operadores Intracomunitários e VIES
 
 Para emitir fatura sem IVA a um cliente UE precisa de estar inscrito no Registo de Operadores Intracomunitários (ROI) em Espanha, o que lhe dá um NIF-IVA com prefixo ES. O cliente também deve ter um VIES válido no seu país. Antes de cada fatura intracomunitária convém verificar o número do cliente no portal VIES da Comissão Europeia. Se o cliente não tem VIES válido, não pode aplicar a inversão do sujeito passivo e deve repercutir IVA espanhol, o que altera a operação e muitas vezes bloqueia a aceitação da fatura.
@@ -29,7 +29,7 @@ O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 
 ## Casos práticos com números reais
 
-**Caso 1. Consultor TI espanhol com cliente francês.** Fatura um projeto de 5.000€ a uma empresa sediada em Paris. O seu NIF-IVA espanhol está ativo no VIES, o do cliente também. Emite uma fatura de exatamente 5.000€ com a menção "operação com inversão do sujeito passivo, art. 84 LIVA". No formulário 349 espanhol declara 5.000€ como prestação de serviços intracomunitários; no formulário 303, casa 59 (entregas intracomunitárias). O cliente francês autoliquida IVA francês. Não paga IVA em Espanha por esta operação; declara o rendimento no IRPF.
+**Caso 1. Assessor TI espanhol com cliente francês.** Fatura um projeto de 5.000€ a uma empresa sediada em Paris. O seu NIF-IVA espanhol está ativo no VIES, o do cliente também. Emite uma fatura de exatamente 5.000€ com a menção "operação com inversão do sujeito passivo, art. 84 LIVA". No formulário 349 espanhol declara 5.000€ como prestação de serviços intracomunitários; no formulário 303, casa 59 (entregas intracomunitárias). O cliente francês autoliquida IVA francês. Não paga IVA em Espanha por esta operação; declara o rendimento no IRPF.
 
 **Caso 2. Designer web com cliente alemão sem VIES válido.** O cliente alemão aparece como pessoa singular, sem número de IVA registado. A operação é considerada B2C: localização na sede do prestador (Espanha) até ao limiar OSS, depois na sede do cliente. Se as suas vendas B2C UE anuais forem inferiores a 10.000€, cobra IVA espanhol a 21%. Acima do limiar, tributa na Alemanha a 19% via OSS. Decisão chave: verificar VIES sempre antes de emitir.
 
@@ -117,7 +117,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9%20aut%C3%B3nomo%20ou%20PME%20espanhol%20com%20clientes%20empresa%20noutros%20pa%C3%ADses%20da%20UE%2C%20o%20IV%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20%C3%A9%20aut%C3%B3nomo%20ou%20PME%20espanhol%20com%20clientes%20empresa%20noutros%20pa%C3%ADses%20da%20UE%2C%20o%20IV%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

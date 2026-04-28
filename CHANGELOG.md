@@ -3,6 +3,55 @@
 Todos los cambios notables de este repositorio se documentan aquí.
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Unreleased] — 2026-04-28
+
+### Audit Task #2 — 9-block integral audit + consultoría → asesoría rename
+- **Cross-locale rename pass** in 6 languages aligned with
+  `docs/i18n-glossary.md`:
+  - **ES**: `consultoría/consultor*` → `asesoría/asesor*` (full).
+  - **CA**: `consultoria/consultor*` → `assessoria/assessor*` (full).
+  - **PT**: `consultoria/consultor*` → `assessoria/assessor*` (full)
+    in UI, email subjects, server SEO. PT `Calendar event copy` keeps
+    `Consultoria` per glossary §2 (`asesoría fiscal → consultoria fiscal`).
+  - **EN**: `Consulting/consultation/consultant` → `Advisory/advisory
+    session/advisor` in UI, server SEO and email templates. **Brand
+    mid-CTA** `Free consultation, no strings attached` retained per
+    canonical brand voice (locked by `blog-mid-cta-check.mjs`); see
+    PENDING-FINAL §6.
+  - **FR**: keeps `conseil/consultation` per glossary canonical (no
+    blanket rename).
+  - **DE**: keeps `Beratung/Steuerberatung` per glossary canonical (no
+    blanket rename).
+  - **Calendar event titles** (`server/google-meet.ts`) updated for ES
+    (`Asesoría Exentax`), EN (`Exentax Advisory`), CA (`Assessoria
+    Exentax`); FR/DE/PT unchanged per glossary.
+- **Audit reports written** under `docs/audits/`:
+  - `BASELINE.md` (root): 5 baseline commands captured literally.
+  - `docs/audits/NAVIGATION-AUDIT.md` (Bloque 2): all 18 routes × 6
+    locales, hreflang & internal-link health.
+  - `docs/audits/AGENDA-AUDIT.md` (Bloque 4): booking lifecycle,
+    Google Meet i18n, dev/prod gap.
+  - `docs/audits/DISCORD-AUDIT.md` (Bloque 5): 7 channel inventory,
+    bot gating, notifier surface.
+  - `docs/audits/PERFORMANCE-AUDIT.md` (Bloque 6): bundle shape,
+    server health, no regressions vs baseline.
+  - `docs/audits/PENDING-FINAL.md`: 6 explicitly deferred items
+    with rationale.
+- **Verification (post-audit, post-rename):**
+  - `tsc --noEmit --strict`: EXIT 0.
+  - `npm --workspace exentax-web run i18n:check`: EXIT 0 (1558 keys ×
+    6 lang clean — no missing/extra/empty/placeholder mismatch).
+  - `SKIP_BUILD_E2E=1 npm --workspace exentax-web run build`: EXIT 0,
+    bundle shape byte-equivalent to baseline.
+  - `GET /api/health/ready`: ready, db OK, breakers OK, emailWorker OK.
+  - `npm --workspace exentax-web run check`: EXIT 1 — same baseline
+    failure (`seo:meta`: home description >165 c × 6 locales). NOT a
+    regression; explicitly deferred to LOTE 1 SEO meta task per
+    PENDING-FINAL §2.
+- **Untouched per WHAT-NOT-TO-TOUCH.md:** `package.json`,
+  `vite.config.ts`, `drizzle.config.ts`, all URL slugs, the home
+  description copy.
+
 ## [Unreleased] — 2026-04-27
 
 ### SEO meta verifier — 0 warnings (CTA normalization + title trim)

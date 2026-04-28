@@ -71,7 +71,7 @@ Més enllà del cost, els riscos pràctics:
 - **Enduriment BEPS Pillar Two**: a partir de recent years, multinacionals mitjanes poden veure erosionat l'avantatge territorial.
 ### Casos típics on aplica
 
-**Cas 1: consultor europeu amb clients a Singapur i Tòquio.**
+**Cas 1: assessor europeu amb clients a Singapur i Tòquio.**
 Hong Kong té sentit si passa diversos mesos a l'any a la regió. El compte bancari local facilita cobraments asiàtics i el règim territorial pot aplicar si l'activitat és exterior i ben documentada.
 
 **Cas 2: ecommerce que ven a clients occidentals però amb proveïdors xinesos.**

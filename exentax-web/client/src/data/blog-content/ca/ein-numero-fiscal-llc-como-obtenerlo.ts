@@ -72,7 +72,7 @@ Unes lectures veïnes per tenir obertes al costat d'aquesta: <a href="/ca/blog/p
 
 No et preocupis. L'EIN s'assigna de forma permanent a la teva LLC i no caduca. Si perds el document d'assignació (la carta CP 575), pots sol·licitar una còpia trucant a l'IRS o enviant el formulari corresponent. També pots trobar el teu EIN en declaracions anteriors presentades davant l'IRS. I si ets client nostre, òbviament el tenim arxivat.
 
-Vols constituir la teva LLC des de Catalunya i que ens encarreguem de l'EIN, de l'ITIN si cal, del compte Mercury i de la declaració anual? Agenda la teva consultoria gratuïta i arrenquem junts, sense paperassa del teu costat.
+Vols constituir la teva LLC des de Catalunya i que ens encarreguem de l'EIN, de l'ITIN si cal, del compte Mercury i de la declaració anual? Agenda la teva assessoria gratuïta i arrenquem junts, sense paperassa del teu costat.
 ## Referències legals i normatives
 
 Aquest article es basa en normativa vigents actualment. Citem les fonts principals per a verificació:

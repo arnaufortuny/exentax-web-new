@@ -1123,7 +1123,7 @@ registerEmailRetryHandler("post_meeting_followup", async (payload) => {
  * Step is 1-indexed (1..6). The CTA placement varies per step:
  *   - step 1: "Open my guide"          → GUIDE_PDF_URL
  *   - step 4: "Calculate my savings"   → home page #calculadora anchor
- *   - step 6: "Book my free consultation" → /book localized
+ *   - step 6: "Book my free advisory session" → /book localized
  *   - steps 2, 3, 5: no CTA button (text-only nurture)
  *
  * Throws on send failure so the worker can mark the row with

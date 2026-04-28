@@ -18,7 +18,7 @@ Per a una Single-Member LLC amb propietari estranger, l'IRS la classifica com a 
 Sí, zero dòlars. No és un error tipogràfic.
 ### Com és possible que sigui $0?
 
-Perquè el sistema fiscal nord-americà grava els ingressos segons la seva **font**. Si ets no resident dels EUA i els teus ingressos provenen de serveis prestats fora dels Estats Units (freelancing, consultoria, desenvolupament de programari, disseny, màrqueting digital, etc.), aquests ingressos no es consideren de font nord-americana.
+Perquè el sistema fiscal nord-americà grava els ingressos segons la seva **font**. Si ets no resident dels EUA i els teus ingressos provenen de serveis prestats fora dels Estats Units (freelancing, assessoria, desenvolupament de programari, disseny, màrqueting digital, etc.), aquests ingressos no es consideren de font nord-americana.
 
 I si no són de font nord-americana, els EUA no tenen potestat per gravar-los. Així funciona el sistema. no és una llacuna legal, és el disseny del propi codi fiscal.
 
@@ -120,7 +120,7 @@ Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a h
 
 Cada cas és diferent, però la majoria dels nostres clients redueixen la seva càrrega fiscal total entre un 50% i un 70% respecte a operar com a autònom/treballador per compte propi al seu país. Si factures més de $3,000 al mes, els números comencen a ser molt interessants.
 
-Vols entendre com s'aplica la tributació pass-through al teu cas concret, segons la teva residència a Catalunya i el tipus de clients que tens? Agenda la teva consultoria gratuïta i mirem la teva situació amb detall.
+Vols entendre com s'aplica la tributació pass-through al teu cas concret, segons la teva residència a Catalunya i el tipus de clients que tens? Agenda la teva assessoria gratuïta i mirem la teva situació amb detall.
 ## Referències legals i normatives
 
 Aquest article es basa en normativa vigents actualment. Citem les fonts principals per a verificació:

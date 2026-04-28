@@ -54,7 +54,7 @@ A US LLC changes how the world perceives your business:
 - Digital agencies with global clients
 - SaaS founders with international users
 - Content creators with global audiences and brand deals
-- Consultants working with multinational clients
+- Advisors working with multinational clients
 - E-commerce entrepreneurs selling globally
 - Software developers with international clients
 ### Real tax savings by income level
@@ -66,7 +66,7 @@ A US LLC changes how the world perceives your business:
 | €80,000 | ~€33,000 (IRPF + SS) | ~€13,000 (local + LLC costs) | ~€20,000 |
 | €120,000 | ~€52,000 (IRPF + SS) | ~€20,000 (local + LLC costs) | ~€32,000 |
 
-These figures are illustrative and depend on your country of residence, deduction profile, and specific tax situation. The free strategic consultation provides exact numbers for your case.
+These figures are illustrative and depend on your country of residence, deduction profile, and specific tax situation. The free strategic advisory session provides exact numbers for your case.
 ### What the US LLC does NOT do
 
 It's important to be transparent about limitations:
@@ -125,7 +125,7 @@ Not a traditional accountant. Exentax handles all US compliance (Form 5472, Form
 
 The honest answer: it depends on your situation.
 
-In the strategic consultation, we analyze:
+In the strategic advisory session, we analyze:
 - Your current billing and client mix
 - Your country of residence and its tax treatment of foreign income
 - Your specific expenses and deductions
@@ -166,7 +166,7 @@ The LLC pays for itself many times over for the right profile.
 
 Here's exactly what happens when you form your LLC with Exentax:
 
-1. **Free strategic consultation** (30 min), we analyze your situation and confirm the LLC makes sense
+1. **Free strategic advisory session** (30 min), we analyze your situation and confirm the LLC makes sense
 2. **State selection**: we recommend NM, WY, or DE based on your specific needs
 3. **LLC name verification**: we check availability in your chosen state
 4. **Articles of Organization filed**: LLC created in 1-3 business days
@@ -177,7 +177,7 @@ Here's exactly what happens when you form your LLC with Exentax:
 9. **Financial stack setup**: guidance on Stripe, Wise, Slash, Wallester configuration
 10. **First invoice**: you're ready to bill through your LLC
 
-The entire process from consultation to first invoice takes approximately 3-5 weeks.
+The entire process from advisory session to first invoice takes approximately 3-5 weeks.
 ## Frequently asked questions
 
 **Is it really $0 US federal tax?**
@@ -187,7 +187,7 @@ Yes. IRC §871 and §882 establish that non-resident aliens with no US-source in
 The LLC is flexible. You can add partners, change states, convert to a C-Corp for VC investment, or dissolve if needed. We help you adapt your structure as your business evolves.
 
 **How do I know if the numbers work for me?**
-Book the free strategic consultation. We analyze your specific income, expenses, country of residence, and client mix. We give you exact numbers, not generic promises.
+Book the free strategic advisory session. We analyze your specific income, expenses, country of residence, and client mix. We give you exact numbers, not generic promises.
 
 If something in this structure left you wanting more detail, <a href="/en/blog/llc-documents-which-ones-you-need-and-how-to-keep-them">LLC documents: which ones you need and how to keep them organized</a> dives into a neighbouring piece of the puzzle we usually keep for a separate write-up.
 ## Legal and regulatory references
@@ -300,7 +300,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/services">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

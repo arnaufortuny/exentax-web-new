@@ -45,7 +45,7 @@ This means that, even though the LLC is American, the data on your ownership and
 
 Revolut will ask you to complete a CRS Self-Certification form when you open the account. There you declare whether the LLC is Active NFE or Passive NFE, who the controlling persons are, and the entity's tax residence(s).
 
-An **Active NFE** is one in which less than 50% of its income is passive (dividends, interest, rents, non-operational royalties, investment gains) and less than 50% of its assets produce or are held to produce passive income. A typical professional services LLC invoicing consulting or development meets the Active NFE criteria.
+An **Active NFE** is one in which less than 50% of its income is passive (dividends, interest, rents, non-operational royalties, investment gains) and less than 50% of its assets produce or are held to produce passive income. A typical professional services LLC invoicing advisory or development meets the Active NFE criteria.
 
 In practice, Revolut tends to apply conservative criteria and, when in doubt or with insufficient documentation, classifies as Passive NFE. The consequence is the same: it reports to the beneficial owner.
 ### What if you misdeclare residence
@@ -76,7 +76,7 @@ If your LLC sells through digital platforms (Amazon, Etsy, Airbnb, SaaS marketpl
 
 Revolut Business is an excellent tool, but understanding its CRS reporting profile is essential if you have an LLC and you reside in a CRS-adhering country. The key is not to avoid Revolut, but to declare correctly and design the stack so that the information reported is consistent with what you pay.
 
-Want to review your banking stack and understand exactly what reaches your tax authority, and how to declare it correctly? Book your free consultation.
+Want to review your banking stack and understand exactly what reaches your tax authority, and how to declare it correctly? Book your free advisory session.
 ## Tax compliance in your country: CFC, controlled-foreign rules and income attribution
 
 A US LLC is a fully legal, internationally recognized vehicle. But compliance does not end at incorporation: as an owner who is tax-resident elsewhere, your local tax authority still has the right to tax what the LLC earns. The key is **under which regime**.
@@ -110,7 +110,7 @@ Fintech and CRS information evolves; here is the current state:
 - **Zero tax**: no LLC structure delivers "zero tax" if you live in a country with CFC/tax transparency or income attribution rules. What you achieve is **no double taxation** and **correct reporting at residence**, not elimination.
 ## We set it up without you losing a weekend
 
-Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free consultation and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
+Thousands of freelancers and entrepreneurs already operate their US LLC fully legally and properly documented. At Exentax we handle the entire process: formation, banking, payment gateways, bookkeeping, <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> filings and compliance in your country of residence. Book a free advisory session and we will tell you honestly whether the LLC makes sense for your case, with no absolute promises.<!-- exentax:execution-v2 -->
 ## Revolut Business and CRS: what it reports to your tax authority and how it looks from the other side
 
 Revolut Business is practical, multi-currency and cheap - and reports systematically under the Common Reporting Standard like any European bank. If you open Revolut Business for your LLC thinking "it is fintech, not a bank" and therefore does not report, you are wrong. Here is what is sent, when and how the data appears at your tax office.
@@ -148,7 +148,7 @@ _More on this topic: [LLC in the United States: complete guide for non-residents
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -207,7 +207,7 @@ to both home countries proportionally to the declared beneficial-
 owner share, and we reconciled member draws against the K-1-style
 allocation each member declared at home. No surprises.
 
-A consultant who briefly parked a large advance in Revolut Business
+A advisor who briefly parked a large advance in Revolut Business
 saw the December snapshot trigger a follow-up question from the home
 tax office the next spring. The fix was a one-page note attaching
 the contract that justified the advance, the matching invoice, and
@@ -267,6 +267,6 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 `;

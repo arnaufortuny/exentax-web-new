@@ -87,7 +87,7 @@ A diferença entre um freelancer que paga 40% e um que paga 15% não é a LLC em
 
 Na Exentax analisamos a sua situação completa: país de residência, rendimentos, despesas, clientes, modelo de negócio. E desenhamos uma estrutura que otimize a sua fiscalidade de forma legal, documentada e sustentável.
 
-Queres saber exatamente como a tua LLC será tributada consoante o teu país de residência (Portugal, Brasil ou outro) e como otimizar a declaração? Agenda a tua consultoria gratuita e olhamos para o teu caso ao detalhe.
+Queres saber exatamente como a tua LLC será tributada consoante o teu país de residência (Portugal, Brasil ou outro) e como otimizar a declaração? Agenda a tua assessoria gratuita e olhamos para o teu caso ao detalhe.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -191,7 +191,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20Single-Member%20LLC%20americana%20n%C3%A3o%20paga%20imposto%20federal%20nos%20Estados%20Unidos%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Uma%20Single-Member%20LLC%20americana%20n%C3%A3o%20paga%20imposto%20federal%20nos%20Estados%20Unidos%20s%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

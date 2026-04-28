@@ -111,7 +111,7 @@ Vamos ser diretos: se ignorares a manutenção da tua LLC, as consequências sã
 
 Não vale a pena arriscar. A manutenção anual é um investimento pequeno comparado com o que te protege e te poupa.
 
-Na Exentax tratamos da manutenção anual completa (Annual Report, 5472, 1120, BOI, Registered Agent) para clientes lusófonos. Marca a tua consultoria gratuita: auditamos o estado da tua LLC e propomos um plano de regularização.
+Na Exentax tratamos da manutenção anual completa (Annual Report, 5472, 1120, BOI, Registered Agent) para clientes lusófonos. Marca a tua assessoria gratuita: auditamos o estado da tua LLC e propomos um plano de regularização.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -194,7 +194,7 @@ Se quiser que tratemos da sua manutenção anual ou auditar o último exercício
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Muitos%20clientes%20em%20Portugal%20chegam%20at%C3%A9%20n%C3%B3s%20com%20LLCs%20abertas%20h%C3%A1%2018%20meses%20no%20Le%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Muitos%20clientes%20em%20Portugal%20chegam%20at%C3%A9%20n%C3%B3s%20com%20LLCs%20abertas%20h%C3%A1%2018%20meses%20no%20Le%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

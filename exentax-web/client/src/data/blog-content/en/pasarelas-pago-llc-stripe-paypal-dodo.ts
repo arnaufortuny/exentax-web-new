@@ -96,7 +96,7 @@ Connect all payment processors to your Mercury account for unified cash manageme
 | **Best for** | B2B and B2C | B2C digital (handles VAT) | Marketplace sellers | Wire/ACH collection |
 ### Setting up your complete payment stack
 
-### For B2B services (consulting, dev, design):
+### For B2B services (advisory, dev, design):
 1. **Primary:** Mercury wire details (share routing + account number). $0 fees
 2. **Backup:** Stripe payment links (for clients who prefer cards)
 3. **International:** Wise multi-currency account (for EUR/GBP-paying clients)
@@ -158,7 +158,7 @@ The gateway defines your collection availability, your cost per transaction and,
 - **Stripe (US, via LLC + EIN).** The standard for SaaS, subscriptions and professional e-commerce. Standard fee 2.9% + $0.30 for US domestic, +1% international, +1% currency conversion. Approves non-resident LLCs with EIN + US bank (Mercury, Wise) + operational website + clear product description. Main risk: freeze due to chargebacks or activity profiled as high risk (coaching, infoproducts, crypto, adult).
 - **PayPal Business (US).** Essential for B2C in LATAM and Europe where customers "demand" PayPal for trust. Higher fee (~3.49% + fixed) and worse subscription experience. Risk of 21-day hold on new accounts and rolling reserves. Useful as second method, not only.
 - **Dodo Payments / Lemon Squeezy / Paddle (Merchant of Record).** The MoR handles VAT and tax compliance for digital sales in EU/UK/AU; you sell to them, they sell to the end customer. Fee 5%-8% but removes OSS, MOSS, UK VAT, AU GST and country-by-country reporting. Ideal for SaaS and digital products across many jurisdictions.
-- **Recommended stack by model.** Global B2B SaaS: Stripe + Paddle. EU B2C infoproducts: Lemon Squeezy or Dodo (MoR covers digital VAT). Consulting services: Stripe + Wise/transfer + optional PayPal. US physical e-commerce: Stripe + Shop Pay. NEVER rely on a single gateway: a freeze without alternative is operational risk #1.
+- **Recommended stack by model.** Global B2B SaaS: Stripe + Paddle. EU B2C infoproducts: Lemon Squeezy or Dodo (MoR covers digital VAT). Advisory services: Stripe + Wise/transfer + optional PayPal. US physical e-commerce: Stripe + Shop Pay. NEVER rely on a single gateway: a freeze without alternative is operational risk #1.
 
 ### What we are asked the most
 
@@ -215,7 +215,7 @@ Our position here is deliberate and conservative: we optimise for what survives 
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -249,7 +249,7 @@ If your priority is the ITIN, see <a href="/en/services/get-your-itin">Get your 
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

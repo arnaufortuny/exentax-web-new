@@ -133,7 +133,7 @@ Si ets nòmada digital (o estàs pensant a ser-ho), la seqüència ideal és:
 4. **Configura el teu ecosistema financer** (Mercury + Wise + Stripe)
 5. **Comunica el canvi** a les autoritats fiscals del teu país d'origen
 
-Ets nòmada digital català i vols aclarir la teva residència fiscal abans que es converteixi en un expedient complicat amb Hisenda? Agenda la teva consultoria gratuïta. Analitzem la teva situació, els teus dies de presència i els teus clients i et proposem un pla realista per actualment.
+Ets nòmada digital català i vols aclarir la teva residència fiscal abans que es converteixi en un expedient complicat amb Hisenda? Agenda la teva assessoria gratuïta. Analitzem la teva situació, els teus dies de presència i els teus clients i et proposem un pla realista per actualment.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

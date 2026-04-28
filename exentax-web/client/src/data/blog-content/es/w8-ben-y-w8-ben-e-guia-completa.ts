@@ -41,7 +41,7 @@ Sin un W-8 firmado, el pagador retiene el 30% sobre todo y manda el dinero al IR
 
 Lo presenta **quien recibe el dinero**, no quien lo paga. Es decir:
 
-- Tú como **persona física** si cobras directamente de USA (ej. eres consultor independiente y un cliente americano te paga vía Wise o un broker te ingresa dividendos a tu nombre): **W-8BEN**.
+- Tú como **persona física** si cobras directamente de USA (ej. eres asesor independiente y un cliente americano te paga vía Wise o un broker te ingresa dividendos a tu nombre): **W-8BEN**.
 - Tu **LLC** (o tu sociedad española, alemana, mexicana...) si los pagos van a la cuenta de la entidad: **W-8BEN-E**.
 ### Cuándo presentarlos
 

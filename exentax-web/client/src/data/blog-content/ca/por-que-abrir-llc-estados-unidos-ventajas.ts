@@ -149,7 +149,7 @@ Vols, allotjament, transport local, dietes, sempre que el viatge tingui un prop�
 Anuncis a Meta, Google Ads, LinkedIn Ads, disseny de marca, branding, SEO, producció de contingut, relacions públiques, patrocinis rellevants.
 
 ### Serveis professionals
-Comptabilitat (hola, Exentax), assessoria fiscal, agent registrat, serveis legals, consultoria especialitzada, disseny gràfic, copywriting.
+Comptabilitat (hola, Exentax), assessoria fiscal, agent registrat, serveis legals, assessoria especialitzada, disseny gràfic, copywriting.
 
 ### Telecomunicacions
 Factura d'internet (percentatge professional), pla de telèfon mòbil (percentatge professional), VPN, serveis de comunicació.
@@ -180,7 +180,7 @@ No subcontractem, no deleguem en tercers, no usem plantilles genèriques. Cada L
 Si algun aspecte d'aquesta estructura t'ha deixat amb ganes de més detall, <a href="/ca/blog/documents-de-la-llc-quins-necessites-i-com-organitzar-los">Documents de la LLC: quins necessites i com organitzar-los</a> aprofundeix en una peça veïna que normalment reservem per a un article a part.
 ### Té sentit per a tu?
 
-Si ets freelancer, consultor, desenvolupador, dissenyador, marketer o qualsevol professional digital que factura més de $2,000 al mes a clients internacionals, la resposta probablement és sí.
+Si ets freelancer, assessor, desenvolupador, dissenyador, marketer o qualsevol professional digital que factura més de $2,000 al mes a clients internacionals, la resposta probablement és sí.
 
 A Exentax mostrem cada setmana a clients catalans com la LLC capgira equacions que semblaven bloquejades. Reserva la teva assessoria gratuïta i fem la demostració sobre els teus números reals.
 ## Referències legals i normatives

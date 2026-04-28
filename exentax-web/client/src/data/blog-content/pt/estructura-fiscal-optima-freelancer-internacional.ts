@@ -89,7 +89,7 @@ A combinação vencedora que usamos para a maioria dos nossos clientes:
 
 Na Exentax fazemos todo este processo contigo. Desde a análise inicial até à constituição, passando pela configuração de toda a tua infraestrutura financeira. Mercury, Stripe, Wise, tudo pronto para faturar. Agenda uma assessoria gratuita e analisamos se faz sentido para o teu caso concreto.
 
-Na Exentax desenhamos estruturas caso a caso para freelancers em Portugal e no Brasil. Marca a tua consultoria gratuita e dizemos-te que combinação (LLC, residência, tratados) faz sentido para o teu perfil real.
+Na Exentax desenhamos estruturas caso a caso para freelancers em Portugal e no Brasil. Marca a tua assessoria gratuita e dizemos-te que combinação (LLC, residência, tratados) faz sentido para o teu perfil real.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -167,7 +167,7 @@ Não há estrutura óptima universal. O que é óptimo para um freelancer digita
 
 - **Freelancer digital, residência Portugal, clientes globais B2B/B2C, 100-300k EUR.** LLC US single-member + estatuto em residência com dividendos imputados; OSS se houver B2C UE; calendário IRS/IVA + 5472 + IES coordenado. Custo anual all-in 2.500-4.500 EUR, poupança fiscal típica 25-40% vs estatuto puro.
 - **Seller ecommerce, residência LatAm, clientes US/global, 200-800k USD.** LLC US Wyoming ou New Mexico + Mercury + Stripe + A2X; sem IVA UE se não cruzar limiar; declaração fiscal em residência conforme país. Custo 3.000-5.000 USD anuais, poupança fortemente dependente da legislação local.
-- **Consultor B2B, residência móvel, clientes UE/UK, 80-200k EUR.** UK Ltd com OSS via representante ou EOOD búlgara com substância mínima; banca Wise + Tide ou DSK; residência pessoal optimizada (Portugal NHR enquanto durar, Andorra, Chipre). Estrutura mais complexa mas rentável acima de 150k.
+- **Assessor B2B, residência móvel, clientes UE/UK, 80-200k EUR.** UK Ltd com OSS via representante ou EOOD búlgara com substância mínima; banca Wise + Tide ou DSK; residência pessoal optimizada (Portugal NHR enquanto durar, Andorra, Chipre). Estrutura mais complexa mas rentável acima de 150k.
 
 ### O que mais nos perguntam
 
@@ -192,7 +192,7 @@ A nossa equipa é especializada em estruturas fiscais internacionais para reside
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Falar%20de%20%E2%80%9Eestrutura%20fiscal%20%C3%B3tima%E2%80%9D%20a%20partir%20de%20Portugal%20sem%20mencionar%20a%20href%3Dh%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Falar%20de%20%E2%80%9Eestrutura%20fiscal%20%C3%B3tima%E2%80%9D%20a%20partir%20de%20Portugal%20sem%20mencionar%20a%20href%3Dh%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

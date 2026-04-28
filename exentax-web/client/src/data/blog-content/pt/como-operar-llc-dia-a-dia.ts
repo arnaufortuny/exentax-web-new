@@ -120,7 +120,7 @@ Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/seu-prime
 - **Não ter uma rotina**: a negligência acumula-se e no final do ano tens um caos contabilístico
 - **Pedir a clientes que paguem para a tua conta pessoal**: cada pagamento deve ir para a conta da LLC
 
-Na Exentax acompanhamos o dia a dia de centenas de LLCs geridas a partir de Portugal e do Brasil. Marca a tua consultoria gratuita e mostramos-te como estruturar o teu mês 1 para que o mês 12 seja só copiar e colar.
+Na Exentax acompanhamos o dia a dia de centenas de LLCs geridas a partir de Portugal e do Brasil. Marca a tua assessoria gratuita e mostramos-te como estruturar o teu mês 1 para que o mês 12 seja só copiar e colar.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -215,7 +215,7 @@ Operar bem uma LLC é questão de hábitos, não de talento contabilístico. As 
 
 **Quanto tempo mensal exige operar uma LLC bem cuidada?** Entre 90 minutos e 3 horas por mês para uma LLC com 5-30 transacções mensais. O fecho anual (5472, conciliação final, BOI se houver mudanças) soma 4-8 horas adicionais em Abril.
 
-**Posso deixar tudo ao consultor e desligar-me?** Não totalmente. A conciliação contabilística mensal, a emissão de facturas e a decisão sobre member draws não se delegam sem risco. O que delegamos na Exentax é o fecho anual, o calendário fiscal e a resposta a requerimentos.
+**Posso deixar tudo ao assessor e desligar-me?** Não totalmente. A conciliação contabilística mensal, a emissão de facturas e a decisão sobre member draws não se delegam sem risco. O que delegamos na Exentax é o fecho anual, o calendário fiscal e a resposta a requerimentos.
 
 Na Exentax deixamos o cliente com um manual operacional da sua LLC adaptado ao fluxo, calendários sincronizados e um ponto de contacto fixo para as dúvidas que surjam durante o ano.
 <!-- /exentax:execution-v2 -->
@@ -272,7 +272,7 @@ No calendário semanal real, os três rituais encaixam-se com mais facilidade qu
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Depois%20de%20constitu%C3%ADda%20a%20LLC%2C%20a%20pergunta%20deixa%20de%20ser%20%E2%80%9Ecomo%20se%20cria%E2%80%9D%20e%20passa%20a%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Depois%20de%20constitu%C3%ADda%20a%20LLC%2C%20a%20pergunta%20deixa%20de%20ser%20%E2%80%9Ecomo%20se%20cria%E2%80%9D%20e%20passa%20a%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

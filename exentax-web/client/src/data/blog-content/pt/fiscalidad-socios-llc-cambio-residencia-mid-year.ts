@@ -125,7 +125,7 @@ As comparações e dados quantitativos sobre as jurisdições citadas baseiam-se
 <!-- exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
 ## Como ler uma mudança de residência a meio do ano por um sócio da LLC como um mapeamento temporal estável em vez de uma confusão
 
-Uma mudança de residência a meio do ano por um sócio da LLC lê-se de forma mais útil como um mapeamento temporal estável entre as datas da mudança, as regras de residência de cada país envolvido e a parte correspondente do resultado da LLC para o ano, em vez de uma confusão. Uma nota curta e datada no ficheiro pessoal, que registe as datas relevantes e a regra invocada para cada lado, torna a posição relevável em poucos minutos numa conversa com um consultor.
+Uma mudança de residência a meio do ano por um sócio da LLC lê-se de forma mais útil como um mapeamento temporal estável entre as datas da mudança, as regras de residência de cada país envolvido e a parte correspondente do resultado da LLC para o ano, em vez de uma confusão. Uma nota curta e datada no ficheiro pessoal, que registe as datas relevantes e a regra invocada para cada lado, torna a posição relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -211,7 +211,7 @@ Este artigo é atualizado anualmente com as alterações regulatórias que afeta
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Mudar%20de%20pa%C3%ADs%20de%20resid%C3%AAncia%20fiscal%20a%20meio%20de%20um%20exerc%C3%ADcio%20enquanto%20%C3%A9s%20membro%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Mudar%20de%20pa%C3%ADs%20de%20resid%C3%AAncia%20fiscal%20a%20meio%20de%20um%20exerc%C3%ADcio%20enquanto%20%C3%A9s%20membro%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

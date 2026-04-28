@@ -99,7 +99,7 @@ const ca = {
       seoTitle: "Política de privacitat | Exentax",
       seoDescription: "Com tractem les teves dades personals a Exentax: bases legals, finalitats, cessions, terminis de conservació i els teus drets com a usuari.",
       ogTitle: "Política de privacitat · Exentax",
-      ogDescription: "Com Exentax recopila, utilitza i protegeix les teves dades personals als serveis fiscals. Consultors fiscals Exentax per a titulars de LLC no residents.",
+      ogDescription: "Com Exentax recopila, utilitza i protegeix les teves dades personals als serveis fiscals. Assessors fiscals Exentax per a titulars de LLC no residents.",
       seoKeywords: "política privacitat Exentax, protecció dades LLC, privacitat constitució LLC, Exentax privacitat",
       body: `<p>Exentax LLC es compromet a protegir la privacitat i seguretat de les dades personals dels nostres clients, usuaris i visitants.</p>
 <p>Aquesta Política explica quines dades recopilem, com les usem, amb qui les compartim, com les protegim, i quins són els seus drets.</p>
@@ -693,7 +693,7 @@ const ca = {
       seoTitle: "Política de reemborsaments | Exentax",
       seoDescription: "Quan pots demanar un reemborsament, terminis, supòsits coberts i com iniciar el procés. Condicions clares, sense lletra petita.",
       ogTitle: "Política de reemborsament · Exentax",
-      ogDescription: "Política de reemborsament d'Exentax: cancel·lacions, devolucions i garanties de servei. Consultors fiscals Exentax per a titulars de LLC no residents.",
+      ogDescription: "Política de reemborsament d'Exentax: cancel·lacions, devolucions i garanties de servei. Assessors fiscals Exentax per a titulars de LLC no residents.",
       seoKeywords: "política reemborsament Exentax, garantia constitució LLC, reemborsament LLC, Exentax reemborsaments",
       body: `<p>A Exentax ens comprometem a la transparència total des del primer contacte. Aquesta política explica clarament quan oferim reemborsaments i quan no, i per què.</p>
 
@@ -746,7 +746,7 @@ const ca = {
       seoTitle: "Avís legal i disclaimer | Exentax",
       seoDescription: "Limitació de responsabilitat i avís legal sobre la informació publicada a exentax.com. El contingut no substitueix un assessorament personalitzat.",
       ogTitle: "Avís legal i fiscal · Exentax",
-      ogDescription: "Avís legal i fiscal d'Exentax: abast del servei, límits de responsabilitat i obligacions. Consultors fiscals Exentax per a titulars de LLC no residents.",
+      ogDescription: "Avís legal i fiscal d'Exentax: abast del servei, límits de responsabilitat i obligacions. Assessors fiscals Exentax per a titulars de LLC no residents.",
       seoKeywords: "avís Exentax, avís legal fiscal, limitacions responsabilitat, serveis LLC avís",
       body: `<div class="legal-hl"><p><strong>ACCEPTACIÓ DEL DISCLAIMER</strong></p><p>EN USAR ELS SERVEIS D'EXENTAX, VOSTÈ DECLARA QUE HA LLEGIT AQUEST DISCLAIMER COMPLET, COMPRÈN LES SEVES LIMITACIONS I ABAST, ACCEPTA LA NATURALESA INFORMATIVA I DE PREPARACIÓ DE DOCUMENTS DEL SERVEI, ENTÉN QUE EXENTAX NO PROPORCIONA ASSESSORAMENT LEGAL O FISCAL, I ES COMPROMET A OBTENIR ASSESSORAMENT PROFESSIONAL INDEPENDENT.</p><p>Si no està d'acord amb alguna part d'aquest Disclaimer, NO UTILITZI els nostres serveis ni aquest lloc web.</p></div>
 
@@ -943,7 +943,7 @@ const ca = {
     desc1: "Ens dediquem exclusivament a estructures LLC i negocis digitals.",
     desc2: "No som una gestoria tradicional que fa de tot.",
     desc3: "Sabem com funcionen els teus ingressos i com estructurar-los.",
-    tags: ["Freelancers","SaaS","Agències","Creadors","Consultors internacionals"],
+    tags: ["Freelancers","SaaS","Agències","Creadors","Assessors internacionals"],
     channelTitle: "No importa el canal.",
     structureMatters: "Importa l'estructura.",
     bookNow: "Reserva la teva assessoria ara",
@@ -1106,7 +1106,7 @@ const ca = {
       about_5: "No. Les gestories tradicionals fan de tot per a tothom. Nosaltres només fem una cosa: **LLCs americanes per a emprenedors digitals**. Constitució, banca, compliance i declaracions.\n\nNo portem autònoms locals, no fem declaracions de renda, no gestionem nòmines. Només LLCs americanes i tot el que les envolta. Aquesta especialització és el que ens permet fer-ho bé.",
       about_6: "En tres coses fonamentals:\n\n• **Anàlisi personalitzada:** no et venem una plantilla genèrica. Analitzem el teu cas concret i dissenyem l'estructura que realment necessites.\n• **Acompanyament continu:** no desapareixem després de constituir la LLC. Ens quedem amb tu per gestionar el manteniment, el compliance i qualsevol cosa que sorgeixi.\n• **Proximitat real:** parlem el teu idioma, literal i figuradament. Entenem la teva situació perquè hi hem estat.",
       about_7: "Perquè seria irresponsable fer-ho. Cada situació fiscal és diferent i depèn de múltiples variables:\n\n• El teu país de residència fiscal\n• El teu tipus d'activitat\n• El teu volum de facturació\n• Com retires els beneficis\n• Desenes de factors individuals més\n\nQualsevol que et prometi \"pagaràs exactament un X%\" sense conèixer el teu cas a fons t'està enganyant.\n\nEl que sí fem és compartir-te informació detallada sobre el rang d'estalvi típic que veiem en perfils similars al teu, basat en centenars de casos reals. Això ho fem a la trucada estratègica. **A Exentax dissenyem la teva estructura completa** perquè tinguis claredat total sobre la teva fiscalitat.",
-      fit_0: "Una LLC encaixa especialment bé amb negocis digitals que facturen a clients internacionals:\n\n• **Freelancers i consultors** que treballen amb clients de diversos països\n• **Agències digitals** (màrqueting, desenvolupament, disseny)\n• **Creadors de contingut** amb ingressos de plataformes internacionals\n• **SaaS i productes digitals** amb vendes globals\n• **E-commerce** amb proveïdors i clients internacionals\n• **Coaches i formadors online** amb audiència internacional\n\nLa clau és que els teus ingressos vinguin majoritàriament de fora del teu país de residència. Si factures localment a empreses de la teva ciutat, probablement una LLC no sigui el més adequat.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
+      fit_0: "Una LLC encaixa especialment bé amb negocis digitals que facturen a clients internacionals:\n\n• **Freelancers i assessors** que treballen amb clients de diversos països\n• **Agències digitals** (màrqueting, desenvolupament, disseny)\n• **Creadors de contingut** amb ingressos de plataformes internacionals\n• **SaaS i productes digitals** amb vendes globals\n• **E-commerce** amb proveïdors i clients internacionals\n• **Coaches i formadors online** amb audiència internacional\n\nLa clau és que els teus ingressos vinguin majoritàriament de fora del teu país de residència. Si factures localment a empreses de la teva ciutat, probablement una LLC no sigui el més adequat.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       fit_1: "Treballem amb emprenedors de **qualsevol país hispanoparlant** i també amb parlants de portuguès, francès, italià, alemany, català i anglès.\n\nLa majoria dels nostres clients són a Espanya, Mèxic, Argentina, Colòmbia i Xile, però l'estructura funciona igual des de qualsevol país.\n\nEl que importa no és la teva nacionalitat sinó el teu model de negoci i la teva situació fiscal. Això ho avaluem a la trucada inicial.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       fit_2: "Sí, sense problema. Tenir una empresa al teu país i una LLC als Estats Units són coses independents. De fet, molts dels nostres clients tenen ambdues.\n\nLa clau està en **com estructures la relació entre ambdues entitats**: qui factura què, com flueixen els pagaments, què declara cadascuna. Això és exactament el que analitzem en el teu cas particular.\n\nA l'assessoria fiscal estratègica t'expliquem com podria funcionar la combinació per a la teva situació concreta.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       fit_3: "No hi ha un mínim legal: qualsevol autònom o emprenedor digital pot constituir una LLC.\n\nLa pregunta útil no és quant factures avui, sinó com està estructurada la teva activitat: clients internacionals, model de negoci digital, residència fiscal compatible i plans de creixement.\n\nA la trucada inicial analitzem la teva situació real i et diem amb claredat si una LLC encaixa amb el teu cas o si té més sentit esperar.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
@@ -1120,7 +1120,7 @@ const ca = {
       llc_6: "Són els tres estats més populars per constituir LLCs i cadascun té avantatges diferenciats:\n\n• **Wyoming:** ideal si busques privacitat màxima. No fa pública la informació dels socis. Manteniment anual lleuger i preferit dels nòmades digitals.\n• **Delaware:** l'estat premium. L'escullen startups que busquen finançament i inversors internacionals. Té un sistema legal molt desenvolupat i és respectat internacionalment.\n• **Nou Mèxic:** estructura eficient i directa. Bona privacitat i perfecte si busques operar sense complexitat innecessària.\n\nA la trucada inicial et diem quin recomanem segons el teu perfil. Agenda la teva assessoria fiscal estratègica.",
       llc_7: "Sí. Aquest és un dels beneficis principals d'una LLC. Si la teva empresa té un deute o un problema legal, els teus creditors només poden anar contra els actius de l'empresa, no contra la teva casa, el teu cotxe o el teu compte personal.\n\n**Això sí, aquesta protecció funciona sempre que mantinguis les finances separades.** Si barreges diners personals amb diners de l'empresa, la protecció es pot perdre (el que es coneix com \"perforar el vel corporatiu\").\n\nPer això és fonamental tenir un compte bancari separat i portar les coses ordenades.",
       llc_8: "Pots tenir socis sense problema. Una LLC pot tenir un o diversos membres (multi-member LLC).\n\nCada soci té el seu percentatge de participació definit i els beneficis es reparteixen segons aquest percentatge.\n\nAixò sí, la fiscalitat té matisos addicionals amb múltiples socis perquè cadascun declara la seva part. **A Exentax gestionem LLCs multi-member** i ens encarreguem que l'estructura fiscal de cada soci estigui ben configurada.",
-      llc_9: "**No.** La teva LLC americana no cobra IVA (ni sales tax) quan proveixes serveis de consultoria, assessorament, desenvolupament de programari o altres serveis digitals. Els Estats Units no tenen IVA federal, i els serveis professionals no estan subjectes a sales tax estatal.\n\nAixò significa que les teves factures des de la LLC són **netes, sense recàrrecs d'IVA**, cosa que simplifica enormement la teva facturació internacional.\n\n**I si el meu client és a la Unió Europea?** Depèn del tipus de client:\n\n• **Client empresa (B2B):** no pagues IVA. S'aplica la inversió del subjecte passiu (reverse charge) i és el teu client qui gestiona l'IVA al seu país.\n• **Client particular (B2C):** en alguns casos pot aplicar IVA del país del client, depenent del tipus de servei. Els serveis de consultoria i assessorament generalment estan exempts quan es presten des de fora de la UE.\n\nA la pràctica, la majoria dels nostres clients facturen B2B a empreses i professionals, de manera que l'IVA no és un problema. A Exentax et configurem la facturació correctament des del primer dia.",
+      llc_9: "**No.** La teva LLC americana no cobra IVA (ni sales tax) quan proveixes serveis de assessoria, assessorament, desenvolupament de programari o altres serveis digitals. Els Estats Units no tenen IVA federal, i els serveis professionals no estan subjectes a sales tax estatal.\n\nAixò significa que les teves factures des de la LLC són **netes, sense recàrrecs d'IVA**, cosa que simplifica enormement la teva facturació internacional.\n\n**I si el meu client és a la Unió Europea?** Depèn del tipus de client:\n\n• **Client empresa (B2B):** no pagues IVA. S'aplica la inversió del subjecte passiu (reverse charge) i és el teu client qui gestiona l'IVA al seu país.\n• **Client particular (B2C):** en alguns casos pot aplicar IVA del país del client, depenent del tipus de servei. Els serveis de assessoria i assessorament generalment estan exempts quan es presten des de fora de la UE.\n\nA la pràctica, la majoria dels nostres clients facturen B2B a empreses i professionals, de manera que l'IVA no és un problema. A Exentax et configurem la facturació correctament des del primer dia.",
       process_0: "El procés té quatre passos molt clars:\n\n• **Pas 1, Trucada inicial:** parlem per videotrucada 30 minuts sense compromís. Et fem preguntes sobre el teu negoci, els teus ingressos, la teva situació actual i els teus objectius. Et diem si una LLC pot tenir sentit per a tu.\n• **Pas 2, Disseny d'estructura:** si decideixes seguir endavant, dissenyem la teva estructura personalitzada. Et diem quin estat recomanem, quin banc et convé i quina configuració necessites.\n• **Pas 3, Execució:** constitució, EIN, coordinació de compte bancari, documentació completa. Tu ens dones les dades un cop i nosaltres ho coordinem tot.\n• **Pas 4, Manteniment continu:** un cop tot està actiu, seguim gestionant el compliance anual perquè mai tinguis problemes.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       process_1: "Nosaltres ens encarreguem de tot: constitució, banca, compliance i declaracions. Tu només has de donar-nos les dades un cop: informació personal, documents i dades del teu negoci.\n\nA partir d'aquí, nosaltres:\n\n• Preparem els Articles of Organization i els presentem davant l'estat\n• Sol·licitem l'EIN davant l'IRS\n• Coordinam amb el Registered Agent\n• Assistim en la sol·licitud de compte bancari\n• T'entreguem tot llest per operar\n\nNo has d'omplir formularis de l'IRS en anglès, ni trucar a oficines americanes, ni entendre procediments legals. Agenda la teva trucada i comencem.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       process_2: "Molt pocs. Per arrencar necessites:\n\n• Passaport o DNI vigent\n• Adreça fora dels Estats Units on vius habitualment\n• Dades bàsiques del teu negoci: nom desitjat per a l'empresa, descripció de l'activitat i data aproximada d'inici\n\nDesprés, per a l'obertura de compte bancari, alguns bancs poden demanar-te documents addicionals com un comprovant de domicili o informació sobre l'origen dels fons, però això ho veiem cas per cas.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
@@ -1131,7 +1131,7 @@ const ca = {
       process_7: "La constitució inclou **12 mesos de suport continu** per WhatsApp i email per resoldre dubtes, ajustar l'operativa i deixar la teva LLC plenament funcional.\n\nEn renovar el **servei de manteniment anual** (Annual Report, Form 5472, Form 1120 pro-forma, BOI Report davant FinCEN i Registered Agent), aquest suport es prolonga 12 mesos més, any rere any. No som dels que munten l'empresa i desapareixen.\n\nEstem disponibles per respondre dubtes, resoldre problemes, assistir-te amb el compte bancari i gestionar qualsevol requeriment de l'IRS que pugui sorgir. Som el teu equip de referència per a tot el relacionat amb la teva LLC.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       process_8: "Responem en **menys de 24 hores laborables** sempre. La majoria de vegades molt abans.\n\nNo som una gran corporació on el teu email es perd en un sistema de tiquets. Som un equip petit i responem nosaltres mateixos. Si ens escrius un dilluns a les 10 del matí, tindràs resposta aquell mateix dia. Si ens escrius un diumenge a la nit, et contestem el dilluns.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
       process_9: "Garantim que tot el que contractis s'executarà correctament:\n\n• La teva LLC estarà correctament constituïda\n• Tindràs el teu EIN\n• El compliance estarà gestionat a temps\n\nSi per algun motiu alguna cosa falla per la nostra part, ho assumim nosaltres i ho deixem resolt.\n\nI si sorgeix qualsevol imprevist, ho resolem junts. Pots consultar la nostra {{link:legal_refunds|política de reemborsaments}} per a més detalls.\n\n→ {{link:book|Reserva una trucada de 30 minuts}} i revisem el teu cas a fons.",
-      banking_0: "Coordinam l'obertura de comptes principalment amb **Mercury** i **Relay**. Són els dos bancs digitals més usats per emprenedors internacionals amb LLC i els que tenen millors taxes d'acceptació per a estrangers.\n\n• **Mercury:** ideal per a negocis tech, SaaS i empreses que facturen volums mitjans-alts. Bona plataforma, integracions amb eines i suport ràpid.\n• **Relay:** excel·lent per a freelancers, consultors i negocis de serveis. Molt fàcil d'usar i amb bon suport.\n• **Wise Business:** opció secundària recomanada quan necessites operativa multi-divisa o cobraments internacionals amb FX competitiu, complementant Mercury o Relay.\n\nNosaltres coordinam tota la sol·licitud, preparem la documentació i t'acompanyem en el procés fins que el teu compte estigui operatiu.\n\n→ {{link:https://wa.me/34614916910|Escriu-nos per WhatsApp}} i et responem amb passos concrets.",
+      banking_0: "Coordinam l'obertura de comptes principalment amb **Mercury** i **Relay**. Són els dos bancs digitals més usats per emprenedors internacionals amb LLC i els que tenen millors taxes d'acceptació per a estrangers.\n\n• **Mercury:** ideal per a negocis tech, SaaS i empreses que facturen volums mitjans-alts. Bona plataforma, integracions amb eines i suport ràpid.\n• **Relay:** excel·lent per a freelancers, assessors i negocis de serveis. Molt fàcil d'usar i amb bon suport.\n• **Wise Business:** opció secundària recomanada quan necessites operativa multi-divisa o cobraments internacionals amb FX competitiu, complementant Mercury o Relay.\n\nNosaltres coordinam tota la sol·licitud, preparem la documentació i t'acompanyem en el procés fins que el teu compte estigui operatiu.\n\n→ {{link:https://wa.me/34614916910|Escriu-nos per WhatsApp}} i et responem amb passos concrets.",
       banking_1: "Depèn del banc:\n\n• **Mercury i Relay:** solen aprovar comptes en 24-48 hores si el teu perfil és clar\n• **Wise:** pot tardar fins a una setmana\n\nEn casos on el banc demana informació addicional o fa revisió manual, pot tardar una mica més. El normal és tenir el teu compte operatiu en menys de 7 dies des que presentem la sol·licitud. Els terminis són estimats i depenen de cada banc.\n\n→ {{link:https://wa.me/34614916910|Escriu-nos per WhatsApp}} i et responem amb passos concrets.",
       banking_2: "Treballem amb els bancs que tenen les **taxes d'acceptació més altes** per a emprenedors internacionals, i preparem la teva sol·licitud de la forma òptima perquè el procés sigui el més fluid possible.\n\nSi per algun motiu un banc necessita informació addicional, t'ajudem a preparar la resposta. I si necessites aplicar a una alternativa, t'assistim en tot el procés.\n\n→ {{link:https://wa.me/34614916910|Escriu-nos per WhatsApp}} i et responem amb passos concrets.",
       banking_3: "És molt poc freqüent. Els bancs digitals tenen departaments de compliance que revisen els comptes periòdicament, i de vegades poden demanar documentació addicional.\n\nLa clau perquè tot funcioni sense problemes és mantenir la documentació al dia, no barrejar operacions personals i respondre ràpid si el banc et demana alguna cosa. Precisament això és el que gestionem en el nostre servei de manteniment.\n\nSi alguna vegada un banc necessita informació addicional, t'ajudem a preparar la resposta. I si necessites obrir compte en un altre banc, t'assistim en tot el procés.\n\n→ {{link:https://wa.me/34614916910|Escriu-nos per WhatsApp}} i et responem amb passos concrets.",
@@ -1280,7 +1280,7 @@ const ca = {
         },
         fl: {
          badge: "Mercat USA",
-         includes: ["Tot el que inclou el pla de Wyoming","Constitució a Florida, hub natural per al mercat llatinoamericà i europeu als EUA","Accés a infraestructura bancària local consolidada a Miami","Estructura ideal per a e-commerce, consultoria internacional i serveis professionals","Reputació reconeguda davant de proveïdors de pagament i plataformes SaaS","Annual Report obligatori gestionat dins del manteniment anual"],
+         includes: ["Tot el que inclou el pla de Wyoming","Constitució a Florida, hub natural per al mercat llatinoamericà i europeu als EUA","Accés a infraestructura bancària local consolidada a Miami","Estructura ideal per a e-commerce, assessoria internacional i serveis professionals","Reputació reconeguda davant de proveïdors de pagament i plataformes SaaS","Annual Report obligatori gestionat dins del manteniment anual"],
         },
       }
     },
@@ -1305,7 +1305,7 @@ const ca = {
           banking: "Acceptació generalitzada en bancs i plataformes de pagament internacionals.",
           annualCost: "Baix. Taxes estatals reduïdes; sota el tractament per defecte de l'IRS, una LLC unipersonal no resident no tributa als EUA per ingressos sense ECI. La teva obligació fiscal al teu país de residència es manté.",
           timeline: "3-4 dies hàbils per tenir la LLC operativa.",
-          idealProfile: "Freelancers, consultors i emprenedors digitals que volen començar amb una estructura professional, directa i sense costos innecessaris.",
+          idealProfile: "Freelancers, assessors i emprenedors digitals que volen començar amb una estructura professional, directa i sense costos innecessaris.",
           highlights: ["Costos estatals més baixos del mercat","Constitució ràpida i sense burocràcia excessiva","Privacitat sòlida en l'estructura de propietat","Punt d'entrada ideal per validar el teu model internacional"]
         },
         wy: {
@@ -1329,7 +1329,7 @@ const ca = {
          banking: "Excel·lent. Hub bancari consolidat a Miami amb àmplia experiència atenent no residents.",
          annualCost: "Moderat-alt. Sense impost estatal sobre la renda, però Annual Report obligatori cada any.",
          timeline: "3-4 dies hàbils per tenir la LLC operativa.",
-         idealProfile: "E-commerce orientat a EUA i LATAM, consultoria internacional, serveis professionals i emprenedors amb clients o proveïdors americans.",
+         idealProfile: "E-commerce orientat a EUA i LATAM, assessoria internacional, serveis professionals i emprenedors amb clients o proveïdors americans.",
          highlights: ["Sense impost estatal sobre la renda","Hub natural per al mercat llatinoamericà","Banca local sòlida i reconeguda","Reputació robusta davant plataformes i bancs"],
         },
       }
@@ -1413,7 +1413,7 @@ const ca = {
   reservarPage: {
     seoTitle: "Reserva la teva trucada amb un fiscalista expert",
     seoDesc: "30 minuts amb un fiscalista que constitueix LLC EUA per a no residents cada setmana. Diagnòstic real, pla clar i preu tancat. Places limitades.",
-    ogTitle: "Consultoria LLC EUA gratis · 30 min amb experts",
+    ogTitle: "Assessoria LLC EUA gratis · 30 min amb experts",
     ogDesc: "30 min gratis amb experts en LLC EUA. Diagnòstic i pla a mida per a la teva estructura internacional. Exentax: la teva LLC americana operativa en 48 hores.",
     seoKeywords: "Exentax agenda, Exentax assessoria fiscal, reservar assessoria fiscal, optimització fiscal freelancer, reduir impostos freelancer, anàlisi fiscal personalitzada, assessoria fiscal LLC americana, planificació fiscal reunió, reservar assessoria fiscal online, videotrucada fiscal 30 minuts, LLC per a freelancers assessoria",
   },
@@ -1648,7 +1648,7 @@ const ca = {
     newMexico: "Nou Mèxic",
     wyoming: "Wyoming",
     delaware: "Delaware",
-    nmAdvantages: ["Estructura eficient sense complexitat innecessària","Taxes estatals baixes i procés simplificat","Bona privacitat dels socis","No requereix publicació a la premsa","Ideal per a freelancers i consultors"],
+    nmAdvantages: ["Estructura eficient sense complexitat innecessària","Taxes estatals baixes i procés simplificat","Bona privacitat dels socis","No requereix publicació a la premsa","Ideal per a freelancers i assessors"],
     wyAdvantages: ["Màxima privacitat: socis fora de registres públics","Reconeguda globalment per bancs i institucions","Sense impost estatal sobre la renda","Sistema legal business-friendly","La més popular entre nòmades digitals i traders"],
     deAdvantages: ["60%+ d'empreses del Fortune 500","Court of Chancery especialitzat en corporacions","Màxima credibilitat davant inversors","Facilita rondes de finançament","Ideal per a startups que busquen escalar"],
     florida: "Florida",
@@ -1821,7 +1821,7 @@ const ca = {
     regimeSinRegimen: "Sense règim",
     activityLabels: {
       servicios: "Serveis digitals",
-      consultoria: "Assessoria / consultoria",
+      consultoria: "Assessoria / assessoria",
       marketing: "Màrqueting / publicitat",
       saas: "Software / SaaS",
       desarrollo: "Desenvolupament web / apps",
@@ -1834,7 +1834,7 @@ const ca = {
       otro: "Altre"
 ,
       digitalServices:"Serveis digitals",
-      consultingAdvisory:"Consultoria",
+      consultingAdvisory:"Assessoria",
       marketingAdvertising:"Màrqueting i publicitat",
       socialMedia:"Xarxes socials",
       contentCreation:"Creació de contingut",
@@ -1952,7 +1952,7 @@ const ca = {
     equal: "Igual",
     llcNotBestTitle: "Honest: en el teu cas, una altra estructura pot guanyar",
     llcNotBestHeader: "En el teu escenari, la LLC no és l'opció més barata",
-    llcNotBestBody: "La LLC EUA brilla amb serveis digitals, consultoria internacional i clients fora del teu país de residència. Amb el perfil que has indicat pot no ser l'opció òptima, i preferim dir-t'ho a forçar el resultat.",
+    llcNotBestBody: "La LLC EUA brilla amb serveis digitals, assessoria internacional i clients fora del teu país de residència. Amb el perfil que has indicat pot no ser l'opció òptima, i preferim dir-t'ho a forçar el resultat.",
     keyMessagesTitle: "Per què Exentax + LLC EUA",
     keyMsg: {
       zeroUS: "0% federal EUA si no operes en territori nord-americà (disregarded entity).",
@@ -1964,7 +1964,7 @@ const ca = {
     },
     warningsTitle: "Abans de decidir, tingues en compte això",
     warn: {
-      notForAll: "No és apta per a tots els casos, funciona millor amb serveis digitals, consultoria i freelancers internacionals.",
+      notForAll: "No és apta per a tots els casos, funciona millor amb serveis digitals, assessoria i freelancers internacionals.",
       notElim: "No elimina impostos: els optimitza legalment. El teu país de residència pot gravar els beneficis segons les seves regles.",
       localOnly: "Si només factures a clients locals, una LLC pot no ser l'opció òptima.",
     },

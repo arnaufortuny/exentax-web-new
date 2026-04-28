@@ -48,7 +48,7 @@ El criterio oficial sobre gastos deducibles está recogido en la <a href="https:
 
 **Caso 1. Desarrollador con oficina en casa.** Vives en piso de 80 m² con un despacho de 12 m² destinado a la actividad (15% afecto). Suministros mensuales: 200€ (luz + gas + internet). Deducción: 200 × 0,15 × 0,30 = 9€/mes = 108€/año. Si declaras también el alquiler proporcional, añades 15% del alquiler. Documentación obligatoria: alta de IAE con el porcentaje afecto y facturas de suministros a tu nombre.
 
-**Caso 2. Consultora con coche profesional.** Compras un Tesla Model 3 por 47.000€ uso 100% profesional (visitas a clientes, no tienes otro coche). Deducible: amortización a 8 años (5.875€/año), seguro completo, mantenimiento, parking en aeropuertos durante viajes, peajes. Hacienda exige libro de viajes profesionales con kilometraje y motivo. Sin libro, riesgo de reclasificación a uso mixto (50%).
+**Caso 2. Asesora con coche profesional.** Compras un Tesla Model 3 por 47.000€ uso 100% profesional (visitas a clientes, no tienes otro coche). Deducible: amortización a 8 años (5.875€/año), seguro completo, mantenimiento, parking en aeropuertos durante viajes, peajes. Hacienda exige libro de viajes profesionales con kilometraje y motivo. Sin libro, riesgo de reclasificación a uso mixto (50%).
 
 **Caso 3. Diseñadora gráfica con coworking.** Membresía coworking 250€/mes, software (Adobe + Figma) 80€/mes, formación anual 1.500€, cuota autónomos 230€/mes. Total deducible anual: (250+80) × 12 + 1.500 + 230 × 12 = 3.960 + 1.500 + 2.760 = 8.220€. Reduce base imponible IRPF antes de aplicar tramos.
 

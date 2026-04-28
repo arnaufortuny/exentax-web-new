@@ -18,7 +18,7 @@ Na prática: se vives em Portugal, Brasil ou qualquer outro país, a tua LLC ame
 
 Há razões muito concretas (e muito convincentes):
 
-- **Fiscalidade ordenada.** A tua LLC, bem estruturada, não tributa a nível federal nos EUA (sem ECI). A tua carga total depende do país onde resides e de como declaras: a LLC reduz e ordena a base, não te isenta de tributar no teu país de residência. O que pagas exatamente calculamo-lo com os teus números reais na calculadora e na consultoria.
+- **Fiscalidade ordenada.** A tua LLC, bem estruturada, não tributa a nível federal nos EUA (sem ECI). A tua carga total depende do país onde resides e de como declaras: a LLC reduz e ordena a base, não te isenta de tributar no teu país de residência. O que pagas exatamente calculamo-lo com os teus números reais na calculadora e na assessoria.
 - **Proteção patrimonial.** A tua casa, as tuas poupanças e os teus bens ficam separados do negócio. Se algo correr mal na empresa, o teu património pessoal está protegido pela responsabilidade limitada (desde que não misturas fundos pessoais com os da LLC).
 - **Privacidade estadual.** Em estados como Novo México ou Wyoming, os dados dos membros não aparecem em registos públicos estaduais. Isto não é anonimato absoluto: o BOI Report perante a FinCEN identifica os beneficiários efetivos e as autoridades podem aceder a essa informação por canais formais. Ganhas discrição perante o público, não opacidade perante as autoridades.
 - **Banca em dólares.** Acesso a contas no Mercury (respaldado pelo Column NA, com seguro FDIC) ou Relay (respaldado pelo Thread Bank), sem restrições. Transferências internacionais a $0 com Mercury. Sem comissões de manutenção.
@@ -95,7 +95,7 @@ Para fechar, uma leitura relacionada que encaixa naturalmente ao lado deste arti
 
 Absolutamente. Não é evasão fiscal. É planeamento fiscal legal utilizando estruturas reconhecidas pelo IRS e as autoridades do teu país. Milhões de empresas operam assim. A chave está em declarar corretamente e manter o compliance em dia, e disso tratamos nós.
 
-Queres perceber se a LLC encaixa no teu caso, ou se ainda compensa manter a atividade aberta em Portugal (ou o teu CNPJ no Brasil)? Agenda a tua consultoria gratuita de 30 minutos. Olhamos para os teus clientes, residência fiscal e objetivos e dizemos-te de forma honesta quanto irias poupar. Sem compromisso, sem letra miudinha.
+Queres perceber se a LLC encaixa no teu caso, ou se ainda compensa manter a atividade aberta em Portugal (ou o teu CNPJ no Brasil)? Agenda a tua assessoria gratuita de 30 minutos. Olhamos para os teus clientes, residência fiscal e objetivos e dizemos-te de forma honesta quanto irias poupar. Sem compromisso, sem letra miudinha.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -124,13 +124,13 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 <!-- exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-pt -->
 ## Como ler a LLC dos EUA como uma escolha estrutural estável em vez de um argumento comercial
 
-A LLC dos EUA lê-se de forma mais útil como uma escolha estrutural estável entre as obrigações recorrentes do veículo (Form 5472, BOI, renovação do Registered Agent) e os benefícios recorrentes (separação jurídica, infraestrutura de pagamentos dos EUA, estrutura simples para atividades digitais), em vez de um argumento comercial. Uma nota curta e datada no ficheiro da LLC com os dois lados torna a escolha relevável em poucos minutos numa conversa com um consultor.
+A LLC dos EUA lê-se de forma mais útil como uma escolha estrutural estável entre as obrigações recorrentes do veículo (Form 5472, BOI, renovação do Registered Agent) e os benefícios recorrentes (separação jurídica, infraestrutura de pagamentos dos EUA, estrutura simples para atividades digitais), em vez de um argumento comercial. Uma nota curta e datada no ficheiro da LLC com os dois lados torna a escolha relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-pt -->
 
 <!-- exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-pt -->
 ## Porque a nota se refere ao ano fiscal e não a eventos isolados
 
-A nota refere-se ao ano fiscal e não a eventos isolados — as obrigações recorrentes e os benefícios recorrentes manifestam-se ao nível anual, e esta visão acerta a granularidade correta para qualquer revisão posterior com um consultor ou autoavaliação.
+A nota refere-se ao ano fiscal e não a eventos isolados — as obrigações recorrentes e os benefícios recorrentes manifestam-se ao nível anual, e esta visão acerta a granularidade correta para qualquer revisão posterior com um assessor ou autoavaliação.
 <!-- /exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -203,7 +203,7 @@ Para ver o custo exacto e o plano antes de decidir, abra a <strong>calculadora E
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Faturas%20a%20clientes%20l%C3%A1%20fora%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%2C%20no%20fim%20do%20ano%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Faturas%20a%20clientes%20l%C3%A1%20fora%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%20e%2C%20no%20fim%20do%20ano%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

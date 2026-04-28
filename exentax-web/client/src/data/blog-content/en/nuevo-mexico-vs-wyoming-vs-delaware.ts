@@ -30,7 +30,7 @@ New Mexico is the best-kept secret among US LLC formations. It offers:
 - Less recognized by traditional VC investors
 - Some banks may ask additional questions (but Mercury and Relay accept NM LLCs without issues)
 
-**Best for:** Freelancers, digital entrepreneurs, content creators, consultants, and anyone who wants a simple, cost-effective structure with strong privacy. This is our recommended choice for the vast majority of clients.
+**Best for:** Freelancers, digital entrepreneurs, content creators, advisors, and anyone who wants a simple, cost-effective structure with strong privacy. This is our recommended choice for the vast majority of clients.
 ### Wyoming: the privacy powerhouse
 
 Wyoming has been a leader in LLC law for decades. It invented the LLC structure in 1977.
@@ -93,14 +93,14 @@ All three states require BOI Report filing and banking KYC; privacy applies to p
 
 **For most of our clients:** New Mexico or Wyoming.
 
-If you're a freelancer, consultant, agency, or digital entrepreneur who wants to optimize taxes, access US banking, and operate professionally. New Mexico gives you everything you need at the lowest ongoing cost.
+If you're a freelancer, advisor, agency, or digital entrepreneur who wants to optimize taxes, access US banking, and operate professionally. New Mexico gives you everything you need at the lowest ongoing cost.
 
 If asset protection is a priority (you have significant personal assets, face litigation risk, or want extra peace of mind). Wyoming offers the strongest protections.
 
 Choose Delaware only if you have specific plans to raise venture capital or need the Delaware prestige for a particular reason.
 ### What we do at Exentax
 
-We analyze your situation during the strategic consultation and recommend the optimal state for your specific circumstances. We've helped hundreds of entrepreneurs choose correctly, and we've never had a client wish they'd chosen differently once they understand the tradeoffs.
+We analyze your situation during the strategic advisory session and recommend the optimal state for your specific circumstances. We've helped hundreds of entrepreneurs choose correctly, and we've never had a client wish they'd chosen differently once they understand the tradeoffs.
 ### State comparison: the complete picture
 
 | Factor | New Mexico | Wyoming | Delaware | Florida |

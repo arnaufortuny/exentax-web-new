@@ -75,12 +75,12 @@ Los precios de tabla no deciden por ti. El estado correcto depende de a qué te 
 
 | Perfil de cliente | Recomendación principal | Por qué |
 |---|---|---|
-| **Freelancer / consultor B2B** facturando a clientes europeos o norteamericanos, sin empleados | Nuevo México | Sin Annual Report, sin tasa anual estatal y privacidad razonable. La estructura más barata de mantener a 2-3 años vista. |
+| **Freelancer / asesor B2B** facturando a clientes europeos o norteamericanos, sin empleados | Nuevo México | Sin Annual Report, sin tasa anual estatal y privacidad razonable. La estructura más barata de mantener a 2-3 años vista. |
 | **Agencia digital o estudio creativo** con 1-3 socios, sin previsión de inversores externos | Wyoming | Charging order law sólida (mejor protección frente a acreedores personales), Annual Report con tasa contenida y reputación neutra. |
 | **SaaS o startup tecnológica** que prevé levantar capital, traer un VC americano o entrar en una aceleradora | Delaware | Es el estándar de facto para Series A; ningún VC de Sand Hill Road va a aceptar una LLC de Nuevo México sin reorganización previa. La franchise tax pesa, pero te ahorra reincorporar después. |
 | **E-commerce o dropshipping** con plataformas (Shopify, Stripe, Amazon FBA) y volumen medio | Wyoming o Nuevo México | Si no buscas inversor, ambos sirven. Wyoming pesa más cuando el negocio acumula activos (inventario, marca registrada); Nuevo México cuando el negocio es puro flujo de caja. |
 | **Creator de contenido** (YouTube, Twitch, sustacks, cursos online) con monetización vía AdSense, sponsors y plataformas | Nuevo México | El menor coste fijo de mantenimiento y nulo Annual Report compensa de sobra: la mayoría de creators no necesitan la sofisticación corporativa de Delaware. |
-| **Consultor con clientes en EE. UU. y necesidad de tarjeta corporate** estable | Wyoming | Mercury y Relay funcionan bien con LLCs de Wyoming, y la tarjeta empresarial se acepta sin objeciones por ser estado tradicional. |
+| **Asesor con clientes en EE. UU. y necesidad de tarjeta corporate** estable | Wyoming | Mercury y Relay funcionan bien con LLCs de Wyoming, y la tarjeta empresarial se acepta sin objeciones por ser estado tradicional. |
 | **Estructura para holding** o tenencia de IP entre socios fundadores | Delaware | El Delaware Court of Chancery es la jurisprudencia más predecible del mundo en disputas societarias; vale lo que cuesta. |
 
 La franja "Florida" merece su propio artículo y aparece cuando hay presencia física en Miami o cuando vas a contratar empleados locales. Para el 80% de los clientes no residentes que asesoramos, la elección honesta queda entre Nuevo México (más barato), Wyoming (más equilibrado) y Delaware (cuando hay tesis de inversión).

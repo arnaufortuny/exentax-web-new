@@ -73,7 +73,7 @@ Más allá del coste, los riesgos prácticos:
 - **Endurecimiento BEPS Pillar Two**: a partir de recent years, multinacionales medianas pueden ver erosionada la ventaja territorial.
 ### Casos típicos donde aplica
 
-**Caso 1: consultor europeo con clientes en Singapur y Tokio.**
+**Caso 1: asesor europeo con clientes en Singapur y Tokio.**
 Hong Kong tiene sentido si pasa varios meses al año en la región. La cuenta bancaria local facilita cobros asiáticos y el régimen territorial puede aplicar si la actividad es exterior y bien documentada.
 
 **Caso 2: ecommerce que vende a clientes occidentales pero con proveedores chinos.**

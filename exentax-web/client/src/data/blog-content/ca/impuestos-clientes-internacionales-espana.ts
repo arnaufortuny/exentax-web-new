@@ -8,7 +8,7 @@ Quan prestes serveis a empreses fora d'Espanya, hi ha diversos avantatges fiscal
 
 ### 1. L'IVA no aplica en la majoria dels casos
 
-Si vens serveis digitals (programació, disseny, consultoria, màrqueting, etc.) a empreses amb seu fora d'Espanya:
+Si vens serveis digitals (programació, disseny, assessoria, màrqueting, etc.) a empreses amb seu fora d'Espanya:
 
 - **Clients a la UE (B2B):** Aplica la inversió del subjecte passiu. Tu factures sense IVA i el client l'autoliquida al seu país. Model 349 obligatori.
 - **Clients fora de la UE:** L'operació està no subjecta a IVA espanyol. Factures sense IVA directament.

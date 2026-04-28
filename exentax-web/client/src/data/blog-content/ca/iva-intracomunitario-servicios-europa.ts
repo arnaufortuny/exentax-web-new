@@ -4,7 +4,7 @@ Si ets autònom o pime espanyola i tens clients empresa en altres països de la 
 
 ## Serveis B2B: regla general i excepcions
 
-L'article 69 de la Llei de l'IVA estableix que en serveis B2B intracomunitaris l'operació es localitza a la seu del destinatari. És a dir: si vens consultoria a una empresa francesa, l'operació tributa a França i tu emets la factura sense IVA espanyol. Excepcions rellevants: serveis relacionats amb béns immobles (tributen on és l'immoble), transport de passatgers (on es realitza), restauració i catering (lloc de consum) i serveis culturals o educatius presencials (lloc de l'esdeveniment). Convé revisar cada operació perquè la qualificació errònia és dels errors més comuns.
+L'article 69 de la Llei de l'IVA estableix que en serveis B2B intracomunitaris l'operació es localitza a la seu del destinatari. És a dir: si vens assessoria a una empresa francesa, l'operació tributa a França i tu emets la factura sense IVA espanyol. Excepcions rellevants: serveis relacionats amb béns immobles (tributen on és l'immoble), transport de passatgers (on es realitza), restauració i catering (lloc de consum) i serveis culturals o educatius presencials (lloc de l'esdeveniment). Convé revisar cada operació perquè la qualificació errònia és dels errors més comuns.
 ## Registre d'Operadors Intracomunitaris i VIES
 
 Per emetre factura sense IVA a un client UE necessites estar donat d'alta al Registre d'Operadors Intracomunitaris (ROI) a Espanya, fet que et dona un NIF-IVA amb prefix ES. El client també ha de tenir un VIES vàlid al seu país. Abans de cada factura intracomunitària convé comprovar el número del client al portal VIES de la Comissió Europea. Si el client no té VIES vàlid, no pots aplicar la inversió del subjecte passiu i has de repercutir IVA espanyol, fet que canvia l'operativa i sovint bloqueja l'acceptació de la factura.
@@ -29,7 +29,7 @@ El marc normatiu està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 
 ## Casos pràctics amb números reals
 
-**Cas 1. Consultor TI espanyol amb client francès.** Factures un projecte de 5.000€ a una empresa amb seu a París. El teu NIF-IVA espanyol està actiu a VIES, el del client també. Emets factura per 5.000€ exactes amb la menció "operació amb inversió del subjecte passiu, art. 84 LIVA". Al model 349 declares 5.000€ com a prestació de serveis intracomunitaris; al model 303, casella 59 (lliuraments intracomunitaris). El client francès autoliquida IVA francès. Tu no ingresses IVA a Espanya per aquesta operació; sí declares l'ingrés a l'IRPF.
+**Cas 1. Assessor TI espanyol amb client francès.** Factures un projecte de 5.000€ a una empresa amb seu a París. El teu NIF-IVA espanyol està actiu a VIES, el del client també. Emets factura per 5.000€ exactes amb la menció "operació amb inversió del subjecte passiu, art. 84 LIVA". Al model 349 declares 5.000€ com a prestació de serveis intracomunitaris; al model 303, casella 59 (lliuraments intracomunitaris). El client francès autoliquida IVA francès. Tu no ingresses IVA a Espanya per aquesta operació; sí declares l'ingrés a l'IRPF.
 
 **Cas 2. Dissenyadora web amb client alemany sense VIES vàlid.** El client alemany figura com a persona física, no té número d'IVA registrat. L'operació es considera B2C: localització a la seu del prestador (Espanya) fins al llindar OSS, després a la seu del client. Si les teves vendes B2C UE són inferiors a 10.000€/any, repercuteixes IVA espanyol al 21%. Si superes el llindar, tributes a Alemanya al 19% via OSS. Decisió clau: comprovar VIES sempre abans d'emetre.
 

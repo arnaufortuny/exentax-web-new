@@ -59,7 +59,7 @@ A US LLC owned from the UK is treated by HMRC as **opaque (a body corporate)** i
 
 ## What to choose by profile
 
-- **Freelancer, digital agency, consultant, info-product creator, small ecommerce, bootstrapped SaaS, prop trader**: **LLC**, no doubt. Wyoming or New Mexico for cost; Delaware if you expect to grow significantly and might convert later.
+- **Freelancer, digital agency, advisor, info-product creator, small ecommerce, bootstrapped SaaS, prop trader**: **LLC**, no doubt. Wyoming or New Mexico for cost; Delaware if you expect to grow significantly and might convert later.
 - **Startup with seed or Series A planned**: **Delaware C-Corp** from day one, accepting double taxation as the cost of accessing capital. Incorporating directly avoids LLC→C-Corp conversion, which is a taxable event triggering built-in gains.
 - **Physical US business with employees and local operations**: probably C-Corp if you expect to scale; LLC if you operate as a small business with no institutional capital plans.
 - **Regulated professional (lawyer, doctor, architect)**: many states require a **Professional LLC (PLLC)** or **Professional Corporation (PC)** with state licensing.
@@ -97,7 +97,7 @@ The right choice depends on your 3-5 year plan, not on whichever forum is trendi
 > <a href="/en/services">Find out whether an LLC fits your case</a>
 <!-- /exentax:calc-cta-v1 -->
 
-At Exentax we review your case with real numbers and tell you whether an LLC, a C-Corp or no US structure makes sense. <a href="/book">Book a free 30-minute consultation</a> and walk away with a clear plan.
+At Exentax we review your case with real numbers and tell you whether an LLC, a C-Corp or no US structure makes sense. <a href="/book">Book a free 30-minute advisory session</a> and walk away with a clear plan.
 
 <!-- exentax:execution-v2 -->
 ## How we solve this with the Exentax method
@@ -121,7 +121,7 @@ If you want to go from doubt to plan, book 30 minutes with Exentax and leave the
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 

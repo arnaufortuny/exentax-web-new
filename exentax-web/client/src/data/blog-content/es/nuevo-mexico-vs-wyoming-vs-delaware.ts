@@ -20,7 +20,7 @@ Nuevo México es el estado más popular entre nuestros clientes en Exentax, y co
 - **Coste de constitución y mantenimiento más bajo** de los tres estados
 - **Proceso sencillo y rápido**: sin burocracia innecesaria
 
-**Ideal para:** la gran mayoría de freelancers, consultores, desarrolladores, diseñadores y emprendedores digitales. Si quieres la opción más práctica, más privada y con menores costes recurrentes, Nuevo México es la elección obvia. Es el estado que recomendamos por defecto en Exentax a menos que tu situación específica requiera otra cosa.
+**Ideal para:** la gran mayoría de freelancers, asesores, desarrolladores, diseñadores y emprendedores digitales. Si quieres la opción más práctica, más privada y con menores costes recurrentes, Nuevo México es la elección obvia. Es el estado que recomendamos por defecto en Exentax a menos que tu situación específica requiera otra cosa.
 ### Wyoming: buena privacidad, mayor coste
 
 **Constitución:** Consultar

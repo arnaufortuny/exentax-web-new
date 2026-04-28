@@ -61,7 +61,7 @@ Una buena estructura cumple cinco principios:
 5. **Margen de futuro**: resistente a cambios regulatorios previsibles (BEPS, CRS, registros de beneficiarios).
 ### La opción que recomendamos en la mayoría de casos
 
-Para freelancers, consultores, agencias digitales, SaaS, ecommerce y creadores que residen en España, LatAm o Europa y tienen ingresos internacionales, una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> resuelve el caso medio mejor que cualquier alternativa offshore tradicional:
+Para freelancers, asesores, agencias digitales, SaaS, ecommerce y creadores que residen en España, LatAm o Europa y tienen ingresos internacionales, una <a href="/es/blog/llc-estados-unidos-guia-completa-2026">LLC americana</a> resuelve el caso medio mejor que cualquier alternativa offshore tradicional:
 
 - 0% impuesto federal por <a href="/es/blog/tributacion-pass-through-llc-como-funciona">pass-through</a>.
 - Coste anual de 500-800 USD.

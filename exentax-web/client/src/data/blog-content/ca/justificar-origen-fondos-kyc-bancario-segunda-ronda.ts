@@ -166,7 +166,7 @@ Aquest és un dels punts que auditem primer quan assumim un expedient. Si no est
 Una segona ronda de KYC rarament és el banc dubtant de tu
 personalment. És un procés periòdic que l'equip de compliance fa
 quan el perfil d'un compte i els seus moviments reals deixen de
-coincidir: una LLC oberta amb l'ús declarat "consultoria, volum
+coincidir: una LLC oberta amb l'ús declarat "assessoria, volum
 baix" que ara rep payouts de marketplace, o un soci llistat com a
 resident fiscal espanyol amb despesa en targeta centrada en una
 altra jurisdicció. El banc està actualitzant el seu model del
@@ -196,7 +196,7 @@ factures representatives. Sense estructura nova, sense compte nou,
 sense soroll. L'equip de compliance va marcar l'expedient com a
 complet en menys de deu dies hàbils.
 
-Una LLC de consultoria amb un únic client institucional gran va
+Una LLC de assessoria amb un únic client institucional gran va
 rebre una carta de segona ronda la setmana en què es va liquidar la
 primera factura. La resposta va ser una còpia del contracte marc de
 serveis, el registre de la transferència corresponent i una breu

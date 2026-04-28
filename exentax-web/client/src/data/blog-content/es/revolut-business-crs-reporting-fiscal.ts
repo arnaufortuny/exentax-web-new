@@ -51,7 +51,7 @@ Revolut te pedirá completar un formulario de autodeclaración (CRS Self-Certifi
 - Quién es controlling person.
 - País(es) de residencia fiscal de la entidad y de los controlling persons.
 
-Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas pasivas (dividendos, intereses, alquileres, royalties no operativos, ganancias de inversión) y menos del 50% de sus activos producen o se mantienen para producir rentas pasivas. Una LLC de servicios profesionales típica que factura consultoría o desarrollo cumple los criterios de Active NFE.
+Una **Active NFE** es aquella en la que menos del 50% de sus ingresos son rentas pasivas (dividendos, intereses, alquileres, royalties no operativos, ganancias de inversión) y menos del 50% de sus activos producen o se mantienen para producir rentas pasivas. Una LLC de servicios profesionales típica que factura asesoría o desarrollo cumple los criterios de Active NFE.
 
 Sin embargo, en la práctica Revolut tiende a aplicar criterios conservadores y, ante duda o documentación insuficiente, clasifica como Passive NFE. La consecuencia es la misma: reporta al beneficiario efectivo.
 ### Qué pasa si declaras mal la residencia fiscal

@@ -10,7 +10,7 @@ Cuando prestas servicios a empresas fuera de España, hay varias ventajas fiscal
 
 ### 1. El IVA no aplica en la mayoría de los casos
 
-Si vendes servicios digitales (programación, diseño, consultoría, marketing, etc.) a empresas con sede fuera de España:
+Si vendes servicios digitales (programación, diseño, asesoría, marketing, etc.) a empresas con sede fuera de España:
 
 - **Clientes en la UE (B2B):** Aplica la inversión del sujeto pasivo. Tú facturas sin IVA y el cliente lo autoliquida en su país. Modelo 349 obligatorio.
 - **Clientes fuera de la UE:** La operación está no sujeta a IVA español. Facturas sin IVA directamente.

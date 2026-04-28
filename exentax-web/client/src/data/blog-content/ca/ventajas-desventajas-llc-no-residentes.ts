@@ -46,7 +46,7 @@ Si factures menys de $1,500-2,000/mes, o si tots els teus clients són nacionals
 
 - Freelancers digitals amb ingressos superiors a **$2,000/mes**
 - Emprenedors amb **clients internacionals** (especialment EUA, UK, UE)
-- Creadors de contingut, desenvolupadors, dissenyadors, consultors
+- Creadors de contingut, desenvolupadors, dissenyadors, assessors
 - Venedors de productes digitals (cursos, programari, SaaS)
 - Venedors d'ecommerce (Amazon, Shopify)
 ## Més avantatges que val la pena esmentar

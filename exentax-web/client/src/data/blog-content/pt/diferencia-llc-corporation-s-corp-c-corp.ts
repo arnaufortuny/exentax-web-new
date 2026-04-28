@@ -65,7 +65,7 @@ Uma LLC US detida desde Portugal é tipicamente analisada pela **Autoridade Trib
 
 ## Que escolher segundo o seu perfil
 
-- **Freelancer, agência digital, consultor, infoprodutor, pequeno ecommerce, SaaS bootstrapped**: **LLC** sem dúvida se faturar maioritariamente ao internacional. Wyoming ou Novo México pelo custo; Delaware se prevê crescer muito.
+- **Freelancer, agência digital, assessor, infoprodutor, pequeno ecommerce, SaaS bootstrapped**: **LLC** sem dúvida se faturar maioritariamente ao internacional. Wyoming ou Novo México pelo custo; Delaware se prevê crescer muito.
 - **Startup com ronda seed ou série A planeada**: **Delaware C-Corp** desde o primeiro dia, assumindo a dupla tributação como custo de acesso a capital.
 - **Negócio físico nos EUA com empregados e operação local**: provavelmente C-Corp se prevê crescer muito; LLC se for pequeno negócio.
 - **Profissional regulamentado (advogado, médico, arquiteto)**: muitos estados exigem **Professional LLC (PLLC)** ou **Professional Corporation (PC)** com licença estatal.
@@ -119,7 +119,7 @@ O que vemos cada semana nos casos que nos chegam é o mesmo padrão: a dúvida f
 **O que funciona de verdade**
 - Modelar a sua situação na <strong>calculadora Exentax</strong> antes de mover uma única peça, para ver o custo total anual e não só a fatura de hoje.
 - Separar desde o primeiro dia os fluxos de dinheiro, com contas distintas e uma checklist viva de comprovativos.
-- Trabalhar com um consultor que olhe as peças juntas: estrutura, banca, conformidade e residência — não cada uma por si.
+- Trabalhar com um assessor que olhe as peças juntas: estrutura, banca, conformidade e residência — não cada uma por si.
 
 Se quer passar da dúvida ao plano, agende 30 minutos com a Exentax e saímos da chamada com os números fechados e o calendário operacional.
 <!-- /exentax:execution-v2 -->
@@ -146,12 +146,12 @@ Se quer passar da dúvida ao plano, agende 30 minutos com a Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Precisa de falar já? Ligue-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreva-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20venho%20do%20artigo%20%22Diferen%C3%A7a%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20e%20C-Corp%22%20e%20quero%20falar%20com%20um%20consultor.">WhatsApp</a> e respondemos hoje mesmo.</p>
+<p data-testid="cta-action-row">Precisa de falar já? Ligue-nos para <a href="tel:+34614916910">+34 614 916 910</a> ou escreva-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20venho%20do%20artigo%20%22Diferen%C3%A7a%20entre%20LLC%2C%20Corporation%2C%20S-Corp%20e%20C-Corp%22%20e%20quero%20falar%20com%20um%20assessor.">WhatsApp</a> e respondemos hoje mesmo.</p>
 
 Se o seu plano é montar a LLC no Delaware, consulte a nossa página de serviço <a href="/pt/servicos/llc-delaware">LLC no Delaware</a> com custos, prazos e próximos passos concretos.
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:cta-v1 -->
-Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um consultor</a>.
+Comparamos Novo México, Wyoming, Delaware e Florida sobre o seu caso real — sem lhe vender o estado da moda. <a href="/pt/servicos/llc-delaware">Comparar o meu caso com um assessor</a>.
 <!-- /exentax:cta-v1 -->
 `;

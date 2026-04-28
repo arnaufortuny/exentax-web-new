@@ -67,7 +67,7 @@ En la majoria de cobraments via Stripe, PayPal, AdSense o similars no te'l deman
 - **Certificat de residència fiscal.**
 ## Casos pràctics amb xifres
 
-### Cas A, Consultor de programari amb clients USA i UE
+### Cas A, Assessor de programari amb clients USA i UE
 
 - LLC factura **120.000 USD/any** per serveis prestats des d'Espanya.
 - Despeses LLC: 30.000 USD.
@@ -131,7 +131,7 @@ Un assessor fiscal espanyol que entengui estructures internacionals amb LLCs és
 - Cal tenir el **certificat de residència fiscal** disponible i declarar correctament al **Modelo 100**.
 - Setup complet: **Exentax + assessor fiscal espanyol**.
 
-Si vols revisar el teu cas amb xifres concretes, **reserva una consultoria gratuïta de 30 minuts** amb Exentax.
+Si vols revisar el teu cas amb xifres concretes, **reserva una assessoria gratuïta de 30 minuts** amb Exentax.
 
 Per aprofundir, llegeix també <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC com a alternativa a ser autònom a Espanya</a> i <a href="/ca/blog/w8-ben-i-w8-ben-e-la-guia-completa">Guia completa dels formularis W-8BEN i W-8BEN-E</a>.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
@@ -222,7 +222,7 @@ El nostre equip coordina aquest expedient amb el teu assessor fiscal espanyol i 
 El conveni entre Espanya i Estats Units signat el 1990 i modificat pel Protocol en vigor des de 2019 (BOE 23 d'octubre de 2019) reparteix la potestat tributària entre els dos països. Per a una SMLLC en atribució de rendes, el que importa són quatre articles concrets. Te'ls expliquem per ordre d'impacte.
 
 - **Article 7 - Beneficis empresarials.** Si la LLC és transparent i no constitueix establiment permanent als EUA, els beneficis tributen exclusivament a Espanya, al teu IRPF com a rendiment d'activitat econòmica. Aquesta és la lògica que fa que una SMLLC pagui típicament zero impost federal i tot el pes recaigui a la residència.
-- **Article 14 (Protocol 2019) - Serveis personals independents.** Reforçat després del Protocol: per a professionals independents residents a Espanya sense base fixa als EUA, els honoraris es graven exclusivament a Espanya. Combinat amb l'art. 7 blinda l'operativa habitual de consultor o desenvolupador.
+- **Article 14 (Protocol 2019) - Serveis personals independents.** Reforçat després del Protocol: per a professionals independents residents a Espanya sense base fixa als EUA, els honoraris es graven exclusivament a Espanya. Combinat amb l'art. 7 blinda l'operativa habitual de assessor o desenvolupador.
 - **Article 23 - Eliminació de la doble imposició.** Permet acreditar a Espanya l'impost pagat als EUA (federal i estatal), amb el límit de la quota espanyola sobre la mateixa renda. Per a una SMLLC amb zero impost federal, el crèdit és nul però també ho és la doble imposició real.
 - **Article 25 (Protocol 2019) - Procediment amistós (MAP).** Si AEAT i IRS qualifiquen de manera divergent la mateixa renda, el MAP permet resoldre via acord entre administracions en aproximadament 24 mesos. Útil davant un requeriment divergent; la majoria de casos no hi arriben perquè la doctrina DGT és clara.
 

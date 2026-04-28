@@ -44,7 +44,7 @@ El régimen jurídico está en la <a href="https://www.boe.es/buscar/act.php?id=
 
 ## Casos prácticos: cuándo compensa SL vs LLC
 
-**Caso 1. Consultor digital, 70.000€/año, cliente único USA.** Mejor LLC: 0% federal, IRPF en España sobre beneficio neto. SL aquí pierde por costes fijos altos (6.000-9.000€) y doble tributación.
+**Caso 1. Asesor digital, 70.000€/año, cliente único USA.** Mejor LLC: 0% federal, IRPF en España sobre beneficio neto. SL aquí pierde por costes fijos altos (6.000-9.000€) y doble tributación.
 
 **Caso 2. Agencia marketing 4 socios, 250.000€/año, oficina Barcelona, 3 empleados.** Mejor SL: necesitas figura mercantil para clientes corporates ES, posibilidad de retener beneficios a IS 23%, contratar plantilla con cotización SS, distribución equilibrada de socios. LLC aquí no encaja por barrera operativa con clientes locales.
 

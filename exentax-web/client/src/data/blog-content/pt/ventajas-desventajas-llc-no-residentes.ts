@@ -46,7 +46,7 @@ Se faturas menos de $1,500-2,000/mês, ou se todos os teus clientes são naciona
 
 - Freelancers digitais com rendimentos superiores a **$2,000/mês**
 - Empreendedores com **clientes internacionais** (especialmente EUA, UK, UE)
-- Criadores de conteúdo, programadores, designers, consultores
+- Criadores de conteúdo, programadores, designers, assessores
 - Vendedores de produtos digitais (cursos, software, SaaS)
 - Vendedores de ecommerce (Amazon, Shopify)
 ## Mais vantagens que vale a pena mencionar
@@ -84,7 +84,7 @@ Não constituas uma LLC porque viste um reel de Instagram que te prometia pagar 
 
 Na Exentax fazemos essa análise contigo na assessoria gratuita. Se uma LLC faz sentido para ti, dizemos-te com números. Se não, também te dizemos. Preferimos ser honestos a vender-te algo que não precisas. é assim que se constroem relações duradouras.
 
-Na Exentax pomos as duas colunas à frente de cada potencial cliente antes de começar. Marca a tua consultoria gratuita: listamos vantagens e desvantagens aplicadas ao teu perfil real.
+Na Exentax pomos as duas colunas à frente de cada potencial cliente antes de começar. Marca a tua assessoria gratuita: listamos vantagens e desvantagens aplicadas ao teu perfil real.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -209,7 +209,7 @@ Na Exentax modelamos prós/contras com o seu caso real.
 A nossa equipa é especializada em estruturas fiscais internacionais para residentes de países de língua espanhola que operam negócios online. Combinamos conhecimento local de Espanha, Andorra e América Latina com experiência operacional na constituição de entidades em Delaware, Wyoming, Estónia e outras jurisdições. Cada caso começa com uma consulta gratuita na qual avaliamos a residência, a atividade e os objetivos, e dizemos-lhe honestamente se a estrutura proposta faz sentido ou se uma alternativa mais simples é suficiente.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Antes%20de%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%2C%20tens%20de%20ver%20a%20fotografia%20comple%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Antes%20de%20montar%20uma%20LLC%20a%20partir%20de%20Portugal%2C%20tens%20de%20ver%20a%20fotografia%20comple%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

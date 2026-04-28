@@ -103,7 +103,7 @@ Esta combinação dá-te segurança FDIC, acesso a gateways de pagamento, conver
 Na Exentax configuramos esta estrutura como parte do processo de constituição. Não te deixamos com uma LLC e uma conta. montamos o ecossistema financeiro completo para que comeces a operar desde o primeiro dia.
 
 Precisa de ajuda para escolher e configurar suas contas? Agende uma assessoria gratuita e orientamos conforme o seu caso.
-Na Exentax abrimos contas Mercury, Relay, Wise e Revolut Business todas as semanas para clientes em Portugal e no Brasil. Conhecemos as armadilhas caso a caso. Marca a tua consultoria gratuita e dizemos-te qual combinação banco + fintech encaixa no teu negócio.
+Na Exentax abrimos contas Mercury, Relay, Wise e Revolut Business todas as semanas para clientes em Portugal e no Brasil. Conhecemos as armadilhas caso a caso. Marca a tua assessoria gratuita e dizemos-te qual combinação banco + fintech encaixa no teu negócio.
 ### Próximos passos
 
 Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
@@ -187,7 +187,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20abres%20a%20tua%20primeira%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20a%20pergunta%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20abres%20a%20tua%20primeira%20LLC%20a%20partir%20de%20Portugal%20ou%20do%20Brasil%2C%20a%20pergunta%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

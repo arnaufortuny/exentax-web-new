@@ -340,7 +340,7 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   "/en/how-we-work": {
     title: "How it works: your LLC ready in 4 steps | Exentax",
-    description: "Strategic consulting → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
+    description: "Strategic advisory → personalized structure → formation in 2-4 days → annual compliance. Clear process, no fine print. Over 127 satisfied clients.",
     canonical: `${BASE_URL}/en/how-we-work`,
   },
   "/fr/comment-nous-travaillons": {
@@ -429,8 +429,8 @@ export const PAGE_META: Record<string, PageMeta> = {
     canonical: `${BASE_URL}/es/agendar`,
   },
   "/en/book": {
-    title: "30-min strategic tax consultation | Exentax",
-    description: "Book your strategic tax consultation. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
+    title: "30-min strategic tax advisory session | Exentax",
+    description: "Book your strategic tax advisory session. In 30 minutes we analyze your real tax situation and calculate how much you can save with an LLC.",
     canonical: `${BASE_URL}/en/book`,
   },
   "/fr/reserver": {
@@ -445,7 +445,7 @@ export const PAGE_META: Record<string, PageMeta> = {
   },
   "/pt/agendar": {
     title: "Consultoria fiscal estratégica 30 min | Exentax",
-    description: "Agende sua consultoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
+    description: "Agende sua assessoria fiscal estratégica. Em 30 minutos analisamos sua situação fiscal real e calculamos quanto você pode economizar com uma LLC.",
     canonical: `${BASE_URL}/pt/agendar`,
   },
   "/ca/agendar": {
@@ -557,7 +557,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     book: {
       es: "Asesoría fiscal estratégica 30 min | Exentax",
-      en: "30-min strategic tax consultation | Exentax",
+      en: "30-min strategic tax advisory session | Exentax",
       fr: "Consultation fiscale gratuite 30 min | Exentax",
       de: "Kostenlose 30-Min-Steuerberatung | Exentax",
       pt: "Consultoria fiscal gratuita 30 min | Exentax",
@@ -680,10 +680,10 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     how_we_work: {
       es: "Cómo trabajamos LLC: asesoría fiscal estratégica, plan personalizado LLC y proceso constitución LLC en 2-4 días con compliance anual. Sin letra pequeña.",
-      en: "LLC formation process: strategic tax consultation, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
+      en: "LLC formation process: strategic tax advisory session, personalized LLC plan and formation in 2-4 days with annual LLC compliance. No surprises or fine print.",
       fr: "Processus constitution LLC : consultation fiscale stratégique, plan LLC personnalisé et constitution en 2-4 jours avec conformité annuelle. Sans surprises.",
       de: "LLC Gründungsprozess: strategische Steuerberatung, individueller LLC Plan und Gründung in 2-4 Tagen mit jährlicher LLC Compliance. Ohne Überraschungen.",
-      pt: "Processo constituição LLC: consultoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
+      pt: "Processo constituição LLC: assessoria fiscal estratégica, plano LLC personalizado e constituição em 2-4 dias com compliance anual. Sem surpresas.",
       ca: "Procés constitució LLC: assessoria fiscal estratègica, pla LLC personalitzat i constitució en 2-4 dies amb compliance anual. Sense lletra petita.",
     },
     about_llc: {
@@ -703,11 +703,11 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "FAQ LLC EUA: preguntes freqüents LLC per a autònoms — costos LLC, impostos LLC, legalitat LLC i diferències Wyoming Delaware Nou Mèxic.",
     },
     book: {
-      es: "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu consultoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
-      en: "Book tax consultation Exentax: strategic LLC call of 30 min. We deliver a 30-min tax consultation and calculate your savings with a US LLC.",
+      es: "Agendar asesoría fiscal Exentax: llamada estratégica LLC de 30 minutos. Analizamos tu asesoría fiscal 30 minutos y calculamos el ahorro con una LLC.",
+      en: "Book tax advisory session Exentax: strategic LLC call of 30 min. We deliver a 30-min tax advisory session and calculate your savings with a US LLC.",
       fr: "Réserver consultation fiscale Exentax : appel stratégique LLC de 30 min. Nous menons votre consultation fiscale 30 min et calculons vos économies LLC.",
       de: "Steuerberatung buchen Exentax: strategischer LLC Anruf von 30 Min. 30-min Steuerberatung mit Berechnung Ihrer Ersparnis mit einer US-LLC.",
-      pt: "Agendar consultoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a consultoria fiscal 30 min e calculamos a economia com uma LLC.",
+      pt: "Agendar assessoria fiscal Exentax: chamada estratégica LLC de 30 min. Fazemos a assessoria fiscal 30 min e calculamos a economia com uma LLC.",
       ca: "Reservar assessoria fiscal Exentax: trucada estratègica LLC de 30 min. Fem l'assessoria fiscal 30 min i calculem l'estalvi amb una LLC als EUA.",
     },
     legal_terms: {
@@ -804,7 +804,7 @@ function buildI18nMeta(): Record<string, PageMeta> {
       en: "Open a US LLC in 2-4 days as a non-resident: pick the state, get the EIN without SSN, open Mercury, file Form 1120 + 5472 with the IRS and declare profits at home. Full guide with expert tax advisors.",
       fr: "Ouvrir une LLC américaine en 2-4 jours en tant que non-résident : choisir l'État, obtenir l'EIN sans SSN, ouvrir Mercury, déposer Form 1120 + 5472 et déclarer en France. Guide complet par des fiscalistes.",
       de: "US-LLC in 2-4 Tagen als Nicht-Resident eröffnen: Bundesstaat wählen, EIN ohne SSN, Mercury-Konto, Form 1120 + 5472 beim IRS und saubere Erklärung im Heimatland. Vollständige Anleitung mit Steuerexperten.",
-      pt: "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil. Guia completo com consultores fiscais.",
+      pt: "Abrir uma LLC americana em 2-4 dias como não-residente: escolher o estado, EIN sem SSN, conta Mercury, Form 1120 + 5472 no IRS e declaração limpa em Portugal/Brasil. Guia completo com assessores fiscais.",
       ca: "Obrir una LLC americana en 2-4 dies sent no resident: escollir l'estat, EIN sense SSN, compte Mercury, Form 1120 + 5472 a l'IRS i declaració neta a l'IRPF. Guia completa amb assessors fiscals experts.",
     },
   };
@@ -833,10 +833,10 @@ function buildI18nMeta(): Record<string, PageMeta> {
     },
     how_we_work: {
       es: "cómo trabajamos LLC, proceso constitución LLC, asesoría fiscal estratégica, plan personalizado LLC, compliance anual LLC, soporte LLC",
-      en: "LLC formation process, strategic tax consultation, personalized LLC plan, annual LLC compliance, ongoing LLC support",
+      en: "LLC formation process, strategic tax advisory session, personalized LLC plan, annual LLC compliance, ongoing LLC support",
       fr: "processus constitution LLC, consultation fiscale stratégique, plan LLC personnalisé, conformité annuelle LLC, support LLC",
       de: "LLC Gründungsprozess, strategische Steuerberatung, individueller LLC Plan, jährliche LLC Compliance, LLC Support",
-      pt: "processo constituição LLC, consultoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
+      pt: "processo constituição LLC, assessoria fiscal estratégica, plano LLC personalizado, compliance anual LLC, suporte LLC",
       ca: "procés constitució LLC, assessoria fiscal estratègica, pla LLC personalitzat, compliance anual LLC, suport LLC",
     },
     about_llc: {
@@ -856,12 +856,12 @@ function buildI18nMeta(): Record<string, PageMeta> {
       ca: "FAQ LLC EUA, preguntes freqüents LLC, LLC autònoms dubtes, costos LLC, impostos LLC, legalitat LLC, FAQ Wyoming Delaware Nou Mèxic",
     },
     book: {
-      es: "agendar asesoría fiscal, llamada estratégica LLC, consultoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
-      en: "book tax consultation, strategic LLC call, 30-min tax consultation, free LLC advisory, book Exentax call",
+      es: "agendar asesoría fiscal, llamada estratégica LLC, asesoría fiscal 30 minutos, asesoría LLC gratis, reservar llamada Exentax",
+      en: "book tax advisory session, strategic LLC call, 30-min tax advisory session, free LLC advisory, book Exentax call",
       fr: "réserver consultation fiscale, appel stratégique LLC, consultation fiscale 30 min, conseil LLC gratuit, réserver appel Exentax",
       de: "Steuerberatung buchen, strategischer LLC Anruf, 30-Min Steuerberatung, kostenlose LLC Beratung, Exentax Termin",
-      pt: "agendar consultoria fiscal, chamada estratégica LLC, consultoria fiscal 30 min, consultoria LLC grátis, reservar Exentax",
-      ca: "reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, consultoria LLC gratuïta, reservar Exentax",
+      pt: "agendar assessoria fiscal, chamada estratégica LLC, assessoria fiscal 30 min, assessoria LLC grátis, reservar Exentax",
+      ca: "reservar assessoria fiscal, trucada estratègica LLC, assessoria fiscal 30 min, assessoria LLC gratuïta, reservar Exentax",
     },
     service_llc_nm: {
       es: "LLC Nuevo México, LLC New Mexico no residentes, NM LLC sin informe anual, NM LLC privacidad, LLC barata Estados Unidos",
@@ -1053,7 +1053,7 @@ export const PAGE_SEO_CONTENT: Record<string, string> = {
 </ul>
 <p>Declaraciones IRS (Form 1120, Form 5472), BOI Report, renovación agente registrado y compliance fiscal continuo. Annual Report en estados que lo exigen (Wyoming y Delaware).</p>
 <h2>¿Para quién es Exentax?</h2>
-<p>Freelancers, programadores, diseñadores, consultores, creadores de contenido, traders de criptomonedas y forex, e-commerce, SaaS, agencias de marketing y nómadas digitales que facturan internacionalmente.</p>
+<p>Freelancers, programadores, diseñadores, asesores, creadores de contenido, traders de criptomonedas y forex, e-commerce, SaaS, agencias de marketing y nómadas digitales que facturan internacionalmente.</p>
 <h3>Países atendidos</h3>
 <p>Trabajamos con autónomos y emprendedores de España, Argentina, México, Colombia, Chile y Perú. Nuestro equipo habla español e inglés y conoce la legislación fiscal de cada país.</p>
 <p>Contacto: <a href="https://wa.me/34614916910">WhatsApp +34 614 916 910</a></p>
@@ -2849,7 +2849,7 @@ export const PAGE_SCHEMAS_I18N: Partial<Record<string, Partial<Record<SupportedL
       ],
       faq: [
         { q: "É legal abrir uma LLC nos EUA sendo não residente?", a: "Sim. Os Estados Unidos permitem expressamente que pessoas singulares não residentes e sem SSN sejam proprietárias únicas ou múltiplas de uma LLC. A operação é regulada pelo IRS (Form 5472 + 1120 pro forma) e pelas leis estaduais." },
-        { q: "Quanto custa abrir e manter uma LLC nos EUA?", a: "A constituição profissional ronda os 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, consultoria inicial e bancária). Manutenção anual: 400-900 USD consoante estado, agente, franchise tax e reports." },
+        { q: "Quanto custa abrir e manter uma LLC nos EUA?", a: "A constituição profissional ronda os 2.000 USD (Articles of Organization, Registered Agent, EIN, Operating Agreement, assessoria inicial e bancária). Manutenção anual: 400-900 USD consoante estado, agente, franchise tax e reports." },
         { q: "Em quantos dias posso ter a minha LLC operativa?", a: "A LLC constitui-se em 24-48 horas úteis. O EIN demora 4-15 dias. A conta Mercury ativa em 1-3 dias após KYC. Total: 7-20 dias para ficar plenamente operativa." },
         { q: "Tenho de viajar aos EUA para abrir a LLC?", a: "Não. Todo o processo (constituição, EIN, banca, compliance) é gerido 100% à distância a partir do seu país. Basta passaporte e assinatura eletrónica." },
         { q: "Que impostos paga uma LLC com dono não residente?", a: "Uma Single-Member LLC com proprietário estrangeiro e sem Effectively Connected Income (ECI) nos EUA é tributada a 0% federal sobre os lucros obtidos fora dos EUA. Esses lucros têm de ser declarados no país de residência fiscal." },
@@ -2899,7 +2899,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <ul>
 <li>Up to 0% US federal IRS with a well-designed LLC structure (non-residents)</li>
 <li>+50 clients with an active and optimized structure</li>
-<li>Strategic 30-minute video consultation</li>
+<li>Strategic 30-minute video advisory session</li>
 <li>100% online: no travel to the United States required</li>
 <li>Ongoing fiscal compliance: you are never on your own</li>
 </ul>
@@ -2920,7 +2920,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <a href="/en/how-we-work">How we work: step by step</a>
 <a href="/en/services">Services and pricing</a>
 <a href="/en/faq">Frequently asked questions</a>
-<a href="/en/book">Book a strategic tax consultation</a>
+<a href="/en/book">Book a strategic tax advisory session</a>
 </nav>
 </article>`,
     about_llc: `<article>
@@ -2963,14 +2963,14 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Annual Report: only required in Wyoming and Delaware (New Mexico does not require one)</li>
 <li>Registered Agent renewal: annual, in the state of formation</li>
 </ul>
-<p>See <a href="/en/services">services and pricing</a> or <a href="/en/book">book a strategic tax consultation</a>.</p>
+<p>See <a href="/en/services">services and pricing</a> or <a href="/en/book">book a strategic tax advisory session</a>.</p>
 </article>`,
     how_we_work: `<article>
 <h1>How We Work: step-by-step tax optimization</h1>
 <h2>A clear, four-phase process with no surprises</h2>
 <p>Exentax runs a structured four-phase process to optimize your international tax position legally and safely. Everything is 100% online: no travel to the United States required.</p>
 <h2>Phase 1: Strategic Tax Diagnosis</h2>
-<p>A 30-minute video consultation where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
+<p>A 30-minute video advisory session where we analyze your current tax situation, income profile, residency and professional activity. We determine whether a US LLC is the right fit and estimate your savings.</p>
 <h2>Phase 2: LLC Formation</h2>
 <p>We handle the full formation in the state that best fits your case: Articles of Organization, personalized Operating Agreement, IRS EIN application and Registered Agent designation. Typical completion in 2–4 weeks.</p>
 <h2>Phase 3: Banking and Payment Setup</h2>
@@ -2998,9 +2998,9 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h2>Additional services</h2>
 <ul>
 <li>ITIN application (Individual Taxpayer Identification Number)</li>
-<li>30-minute strategic tax consultation via Google Meet</li>
+<li>30-minute strategic tax advisory session via Google Meet</li>
 </ul>
-<p>No hidden fees. No lock-in. Cancel anytime. <a href="/en/book">Book a strategic tax consultation</a>.</p>
+<p>No hidden fees. No lock-in. Cancel anytime. <a href="/en/book">Book a strategic tax advisory session</a>.</p>
 </article>`,
     faq: `<article>
 <h1>Frequently asked questions: US LLC and international tax</h1>
@@ -3027,13 +3027,13 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Yes. Mercury onboarding is fully online. You only need your formed LLC and the EIN.</p>
 <h3>Can I use Stripe with my US LLC?</h3>
 <p>Yes. A US LLC gives you full Stripe access with no country-based restrictions, across 135+ currencies.</p>
-<p>More questions? <a href="/en/book">Book a strategic tax consultation</a>.</p>
+<p>More questions? <a href="/en/book">Book a strategic tax advisory session</a>.</p>
 </article>`,
     book: `<article>
-<h1>Strategic tax consultation: 30 minutes over video</h1>
+<h1>Strategic tax advisory session: 30 minutes over video</h1>
 <h2>Personalized fiscal diagnosis for your digital business</h2>
 <p>Book a 30-minute video call with an Exentax tax advisor. We analyze your current fiscal situation and tell you whether a US LLC is the right move for your digital business.</p>
-<h2>What the consultation includes</h2>
+<h2>What the advisory session includes</h2>
 <ul>
 <li>Full analysis of your current tax situation in your country</li>
 <li>Personalized savings estimate with an LLC structure</li>
@@ -3397,7 +3397,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <a href="/pt/como-trabalhamos">Como trabalhamos</a>
 <a href="/pt/servicos">Nossos serviços e preços</a>
 <a href="/pt/perguntas-frequentes">Perguntas frequentes</a>
-<a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>
+<a href="/pt/agendar">Agendar assessoria fiscal estratégica</a>
 </nav>
 </article>`,
     about_llc: `<article>
@@ -3439,7 +3439,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Annual Report: apenas Wyoming e Delaware</li>
 <li>Renovação anual do agente registrado</li>
 </ul>
-<p>Veja <a href="/pt/servicos">nossos serviços</a> ou <a href="/pt/agendar">agende uma consultoria</a>.</p>
+<p>Veja <a href="/pt/servicos">nossos serviços</a> ou <a href="/pt/agendar">agende uma assessoria</a>.</p>
 </article>`,
     how_we_work: `<article>
 <h1>Como trabalhamos: otimização fiscal passo a passo</h1>
@@ -3452,7 +3452,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <h2>Fase 3: Conta bancária e meios de pagamento</h2>
 <p>Abrimos sua conta Mercury ou Relay em USD e configuramos Stripe e gateways de pagamento.</p>
 <h2>Fase 4: Compliance contínuo</h2>
-<p>Gestão fiscal anual: Form 5472, Form 1120, BOI Report, renovação do agente registrado, Annual Report (Wyoming/Delaware) e consultoria permanente.</p>
+<p>Gestão fiscal anual: Form 5472, Form 1120, BOI Report, renovação do agente registrado, Annual Report (Wyoming/Delaware) e assessoria permanente.</p>
 <p><a href="/pt/agendar">Agende seu diagnóstico</a> ou veja <a href="/pt/servicos">serviços e preços</a>.</p>
 </article>`,
     our_services: `<article>
@@ -3476,7 +3476,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <li>Obtenção do ITIN</li>
 <li>Consultoria estratégica de 30 minutos por Google Meet</li>
 </ul>
-<p>Sem custos ocultos. Sem fidelidade. <a href="/pt/agendar">Agendar consultoria</a>.</p>
+<p>Sem custos ocultos. Sem fidelidade. <a href="/pt/agendar">Agendar assessoria</a>.</p>
 </article>`,
     faq: `<article>
 <h1>Perguntas frequentes: LLC americana e tributação internacional</h1>
@@ -3501,7 +3501,7 @@ export const PAGE_SEO_CONTENT_I18N: Partial<Record<SupportedLang, Partial<Record
 <p>Sim. Totalmente online.</p>
 <h3>Posso usar Stripe com minha LLC americana?</h3>
 <p>Sim, sem restrições geográficas, em mais de 135 moedas.</p>
-<p>Mais dúvidas? <a href="/pt/agendar">Agendar consultoria fiscal estratégica</a>.</p>
+<p>Mais dúvidas? <a href="/pt/agendar">Agendar assessoria fiscal estratégica</a>.</p>
 </article>`,
     book: `<article>
 <h1>Consultoria fiscal estratégica: 30 minutos por videochamada</h1>

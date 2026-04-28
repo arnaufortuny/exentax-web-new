@@ -90,7 +90,7 @@ A maioria dos bancos cobra entre $15-50 por wire transfer. Mercury não cobra na
 
 Mercury usa Column NA como banco custodiante, com seguro FDIC. Não é uma fintech experimental. é infraestrutura financeira séria para sua LLC.
 
-Na Exentax otimizamos todas as semanas o routing bancário para clientes lusófonos. Marca a tua consultoria gratuita: olhamos para os teus fluxos recorrentes e dizemos-te o que passa por ACH e o que tem de ir por Wire.
+Na Exentax otimizamos todas as semanas o routing bancário para clientes lusófonos. Marca a tua assessoria gratuita: olhamos para os teus fluxos recorrentes e dizemos-te o que passa por ACH e o que tem de ir por Wire.
 ## Stack bancário equilibrado: Mercury, Relay, Slash e Wise
 
 Não existe a conta perfeita para uma LLC. Existe o **stack** correto, onde cada ferramenta cobre um papel:
@@ -209,7 +209,7 @@ de crescimento.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20partir%20de%20Portugal%20e%20do%20Brasil%2C%20estamos%20habituados%20%C3%A0s%20SEPA%20em%201%20dia%20%C3%BAtil%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20partir%20de%20Portugal%20e%20do%20Brasil%2C%20estamos%20habituados%20%C3%A0s%20SEPA%20em%201%20dia%20%C3%BAtil%20ou%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

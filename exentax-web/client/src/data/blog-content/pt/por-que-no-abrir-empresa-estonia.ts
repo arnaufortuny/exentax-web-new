@@ -142,7 +142,7 @@ Sejamos justos. A OÜ estoniana pode fazer sentido em casos muito específicos:
 - Opera exclusivamente no mercado SEPA
 - Não precisa de acesso ao ecossistema financeiro americano
 
-Mas se é trabalhador independente/autónomo digital, SaaS, e-commerce internacional, criador de conteúdo ou consultoria, a LLC é superior em praticamente todos os aspetos.
+Mas se é trabalhador independente/autónomo digital, SaaS, e-commerce internacional, criador de conteúdo ou assessoria, a LLC é superior em praticamente todos os aspetos.
 ### Comparação direta: Estónia vs LLC
 
 | Conceito | OÜ Estónia | LLC nos EUA |
@@ -175,7 +175,7 @@ Não vendemos fumo nem modas. Desenhamos estruturas fiscais baseadas na legisla�
 - **Banca no Mercury** com $0 comissões e seguro FDIC
 - **Compliance total:** Form 5472, Form 1120, BOI Report, Registered Agent
 
-Ainda estás indeciso entre a Estónia e uma LLC americana para estruturar a tua atividade? Agenda a tua consultoria gratuita. Comparamos as duas opções com os teus números reais e mostramos-te, sem viés, qual te sai mais barata a longo prazo.
+Ainda estás indeciso entre a Estónia e uma LLC americana para estruturar a tua atividade? Agenda a tua assessoria gratuita. Comparamos as duas opções com os teus números reais e mostramos-te, sem viés, qual te sai mais barata a longo prazo.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -285,7 +285,7 @@ A decisão de não escolher a Estónia documenta-se de forma limpa fixando o per
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pesquisas%20otimiza%C3%A7%C3%A3o%20fiscal%20freelancer%20no%20YouTube%20e%20em%20poucos%20minutos%20cais%20nu%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pesquisas%20otimiza%C3%A7%C3%A3o%20fiscal%20freelancer%20no%20YouTube%20e%20em%20poucos%20minutos%20cais%20nu%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

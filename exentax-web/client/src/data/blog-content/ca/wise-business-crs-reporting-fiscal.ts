@@ -86,7 +86,7 @@ Comparativa ampliada a <a href="/ca/blog/wise-business-amb-la-teva-llc-la-guia-c
 
 ### En resum
 
-Wise Business no és una drecera per evitar el reporting fiscal. És una excel·lent fintech regulada que reporta via CRS des de Bèlgica cap a la seva autoritat fiscal. Ben integrada dins una estructura coherent amb la seva LLC nord-americana, és molt útil. Mal integrada, o feta servir amb autocertificacions que no quadren amb la realitat, esdevé la font més habitual dels problemes fiscals que ens arriben a la consultoria.
+Wise Business no és una drecera per evitar el reporting fiscal. És una excel·lent fintech regulada que reporta via CRS des de Bèlgica cap a la seva autoritat fiscal. Ben integrada dins una estructura coherent amb la seva LLC nord-americana, és molt útil. Mal integrada, o feta servir amb autocertificacions que no quadren amb la realitat, esdevé la font més habitual dels problemes fiscals que ens arriben a la assessoria.
 
 ## Compliance fiscal a Catalunya: AEAT, ATC i normativa estatal aplicable
 

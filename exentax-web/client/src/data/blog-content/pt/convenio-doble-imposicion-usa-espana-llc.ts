@@ -65,7 +65,7 @@ Na maioria dos cobramentos via Stripe, PayPal, AdSense, não vão pedir ativamen
 - **Certificado de residência fiscal.**
 ## Casos práticos com cifras
 
-### Caso A, Consultor de software com clientes USA e UE
+### Caso A, Assessor de software com clientes USA e UE
 
 - LLC fatura **120.000 USD/ano** por serviços prestados da Espanha.
 - Despesas LLC: 30.000 USD.
@@ -127,7 +127,7 @@ Um assessor fiscal espanhol que entenda estruturas internacionais com LLCs é **
 - Retenções USA se compensam na Espanha via dedução.
 - Setup completo: **Exentax + assessor fiscal espanhol**.
 
-Se quer revisar seu caso com cifras concretas, **agende uma consultoria gratuita de 30 minutos** com a Exentax.
+Se quer revisar seu caso com cifras concretas, **agende uma assessoria gratuita de 30 minutos** com a Exentax.
 
 Para aprofundar, leia também <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">LLC como alternativa a ser autónomo na Espanha</a> e <a href="/pt/blog/w8-ben-e-w8-ben-e-o-guia-completo">Guia completa dos formulários W-8BEN e W-8BEN-E</a>.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
@@ -146,7 +146,7 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 
 O convénio de dupla tributação Espanha-EUA lê-se de forma mais útil como um mapeamento estável entre o país de residência fiscal do beneficiário e o país da fonte de cada tipo de rendimento, em vez de um atalho genérico para "não pagar duas vezes". O convénio não substitui as regras de residência de cada país: organiza uma forma de coordenação, tipo de rendimento a tipo de rendimento.
 
-Uma nota curta e datada no ficheiro pessoal, que registe o país de residência declarado no ano, os tipos de rendimento recebidos e o lado onde cada um foi tributado primeiro, torna a posição relevável em poucos minutos numa conversa com um consultor fiscal.
+Uma nota curta e datada no ficheiro pessoal, que registe o país de residência declarado no ano, os tipos de rendimento recebidos e o lado onde cada um foi tributado primeiro, torna a posição relevável em poucos minutos numa conversa com um assessor fiscal.
 <!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-pt -->
 
 <!-- exentax:calc-cta-v1 -->
@@ -236,7 +236,7 @@ Uma vez fechado o ano fiscal espanhol, datamos e arquivamos três peças: o Mode
 O convénio entre Espanha e Estados Unidos assinado em 1990 e modificado pelo Protocolo em vigor desde 2019 (BOE 23 de Outubro de 2019) reparte o poder tributário entre os dois países. Para uma SMLLC em atribuição de rendimentos, quatro artigos importam mesmo. Explicamo-los por ordem de impacto.
 
 - **Artigo 7 - Lucros empresariais.** Se a LLC é transparente e não constitui estabelecimento estável nos EUA, os lucros são tributados exclusivamente em Espanha, no seu IRPF como rendimento de actividade económica. É a lógica que faz uma SMLLC pagar tipicamente zero imposto federal e todo o peso recair na residência.
-- **Artigo 14 (Protocolo 2019) - Serviços pessoais independentes.** Reforçado após o Protocolo: para profissionais independentes residentes em Espanha sem base fixa nos EUA, os honorários tributam-se exclusivamente em Espanha. Combinado com o art. 7 blinda a operativa habitual de consultor ou developer.
+- **Artigo 14 (Protocolo 2019) - Serviços pessoais independentes.** Reforçado após o Protocolo: para profissionais independentes residentes em Espanha sem base fixa nos EUA, os honorários tributam-se exclusivamente em Espanha. Combinado com o art. 7 blinda a operativa habitual de assessor ou developer.
 - **Artigo 23 - Eliminação da dupla tributação.** Permite imputar em Espanha o imposto pago nos EUA (federal e estadual), com limite da quota espanhola sobre o mesmo rendimento. Para uma SMLLC com zero imposto federal, o crédito é nulo mas a dupla tributação real também.
 - **Artigo 25 (Protocolo 2019) - Procedimento amigável (MAP).** Se AEAT e IRS qualificarem o mesmo rendimento de forma divergente, o MAP permite resolver via acordo entre administrações em cerca de 24 meses. Útil em requerimento divergente; a maioria dos casos não chega aqui porque a doutrina DGT é clara.
 
@@ -293,7 +293,7 @@ Na prática, três artigos fazem o essencial do trabalho num ano calmo: o artigo
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20algu%C3%A9m%20v%C3%AA%20pela%20primeira%20vez%20a%20combina%C3%A7%C3%A3o%20LLC%20nos%20EUA%20e%20residente%20fisca%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Quando%20algu%C3%A9m%20v%C3%AA%20pela%20primeira%20vez%20a%20combina%C3%A7%C3%A3o%20LLC%20nos%20EUA%20e%20residente%20fisca%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

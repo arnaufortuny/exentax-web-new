@@ -118,7 +118,7 @@ At Exentax we cover the whole cycle: structure, banking, payment processors, inv
 
 Having a poorly managed LLC is **more expensive** than not having one at all. The difference between being in good standing and not is measured in avoidable penalties, tax-authority headaches and the loss of the protection your LLC should be giving you.
 
-If you recognised yourself in three or more of these mistakes, the cost of staying still is higher than the cost of reviewing your situation. **We'll review it with you** in a free 30-minute consultation: we diagnose what to fix, in what order, and with what priority. Better to spot today than to wait for the IRS or your local tax authority to spot it for you.
+If you recognised yourself in three or more of these mistakes, the cost of staying still is higher than the cost of reviewing your situation. **We'll review it with you** in a free 30-minute advisory session: we diagnose what to fix, in what order, and with what priority. Better to spot today than to wait for the IRS or your local tax authority to spot it for you.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
@@ -264,5 +264,5 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->`;

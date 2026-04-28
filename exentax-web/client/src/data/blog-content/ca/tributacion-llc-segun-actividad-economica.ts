@@ -4,7 +4,7 @@ Parlar de «fiscalitat de la LLC» en abstracte porta a errors greus: la fiscali
 
 ## Punts clau
 
-### 1. Serveis professionals (consultoria, desenvolupament, disseny, màrqueting)
+### 1. Serveis professionals (assessoria, desenvolupament, disseny, màrqueting)
 
 És el cas més comú i el més senzill. La seva LLC factura serveis a clients B2B internacionals (EUA, UE, Amèrica Llatina). Característiques:
 

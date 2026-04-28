@@ -83,7 +83,7 @@ Un matiz que quedó corto y que conviene leer aparte: <a href="/es/blog/como-ope
 
 **Freelancer en España que cobra en USD:** Tu cliente americano paga a tu Mercury por ACH. A final de mes, transfieres tu distribución a Wise, conviertes a EUR al tipo de cambio real, y envías a tu cuenta española por SEPA. Coste total de la conversión: 0.4-0.6%. Con un banco tradicional pagarías 2-3%.
 
-**Consultor en Colombia que cobra en EUR y USD:** Recibes pagos en USD en Mercury y en EUR en tu cuenta Wise europea. Conviertes ambas divisas a COP cuando necesitas y envías a tu cuenta colombiana. Wise te da el tipo mid-market, que puede suponer un ahorro de miles de pesos por cada $1,000 convertidos frente a la tasa de tu banco local.
+**Asesor en Colombia que cobra en EUR y USD:** Recibes pagos en USD en Mercury y en EUR en tu cuenta Wise europea. Conviertes ambas divisas a COP cuando necesitas y envías a tu cuenta colombiana. Wise te da el tipo mid-market, que puede suponer un ahorro de miles de pesos por cada $1,000 convertidos frente a la tasa de tu banco local.
 
 **SaaS con clientes globales:** Tus clientes pagan por Stripe (que deposita en Mercury). Tu equipo de freelancers en Latinoamérica cobra por Wise en sus monedas locales. El flujo es limpio, documentado y eficiente.
 

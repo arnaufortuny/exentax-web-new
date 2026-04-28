@@ -166,7 +166,7 @@ beneficiari efectiu declarada, i vam reconciliar les retirades dels
 socis amb l'assignació tipus K-1 que cada soci declarava a casa.
 Cap sorpresa.
 
-Un consultor que havia estacionat breument una bestreta gran a
+Un assessor que havia estacionat breument una bestreta gran a
 Revolut Business va veure la instantània de desembre desencadenar
 una pregunta de seguiment de la seva autoritat fiscal la primavera
 següent. La correcció va ser una nota d'una pàgina amb el contracte

@@ -80,7 +80,7 @@ Stripe, PayPal and Adyen work with no restrictions for UK Ltd.
 - **International reputation**: a British company is perceived as serious in any market.
 - **Cheap and fast incorporation**: 24-48 hours, tens of GBP in official fees.
 - **Regulatory transparency**: the British system is predictable and consolidated.
-- **Access to the UK market** for UK clients: important in sectors such as consulting, fintech, European ecommerce, marketing.
+- **Access to the UK market** for UK clients: important in sectors such as advisory, fintech, European ecommerce, marketing.
 - **Broad double tax treaties**.
 - **No mandatory audit** for SMEs.
 - **Substantial Shareholding Exemption (SSE)** for holdings with qualifying interests.
@@ -93,7 +93,7 @@ Stripe, PayPal and Adyen work with no restrictions for UK Ltd.
 - **Mandatory VAT** above the threshold, with quarterly returns under Making Tax Digital.
 ## Honest comparison with the US LLC
 
-For the typical Exentax profile (freelance, agency, ecommerce, SaaS, creator, consultant):
+For the typical Exentax profile (freelance, agency, ecommerce, SaaS, creator, advisor):
 
 - **Corporate tax burden**: LLC 0% federal vs UK 19-25%.
 - **Privacy**: LLC in Wyoming/New Mexico offers real privacy, UK publishes everything.
@@ -169,7 +169,7 @@ The UK Ltd is a serious and consolidated option, especially if your business tou
 
 For profiles seeking corporate tax optimization without needing British presence, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> offers a better combination of cost, effective taxation and operations. If your case fits the UK, the option is valid and bearable; if it fits the LLC, the option is more efficient.
 
-At Exentax we can help you compare the two options with real numbers for your activity and country of residence. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+At Exentax we can help you compare the two options with real numbers for your activity and country of residence. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ## Legal and regulatory references
 
 This article relies on rules currently in force. Main sources for verification:
@@ -252,7 +252,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

@@ -2,7 +2,7 @@ export default `
 
 <p class="text-sm opacity-80 italic"><strong>Guía pilar:</strong> si quieres el flujo completo paso a paso, consulta nuestra <a href="/es/abrir-llc-estados-unidos">guía definitiva para abrir una LLC en Estados Unidos en 2026</a>.</p>
 
-Facturas a clientes internacionales desde España y, entre cuota de autónomos, IRPF y tramo autonómico, ves cómo se te va cerca del 47% de cada euro que ganas. No eres una excepción: cada vez más freelancers, desarrolladores y consultores hispanohablantes estructuran su actividad internacional a través de una LLC americana.
+Facturas a clientes internacionales desde España y, entre cuota de autónomos, IRPF y tramo autonómico, ves cómo se te va cerca del 47% de cada euro que ganas. No eres una excepción: cada vez más freelancers, desarrolladores y asesores hispanohablantes estructuran su actividad internacional a través de una LLC americana.
 
 Una LLC bien constituida no es un montaje opaco: es una sociedad estadounidense reconocida por el <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, totalmente legal, que combina protección patrimonial y tributación pass-through (0% federal en EE. UU. para no residentes). Esta guía te explica, sin rodeos, cómo funciona actualmente, qué cambia respecto al régimen de autónomos en España y cuándo realmente tiene sentido dar el paso.
 

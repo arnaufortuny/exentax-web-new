@@ -4,7 +4,7 @@ Hablar de "fiscalidad de la LLC" en abstracto lleva a errores graves: la fiscali
 
 ## Puntos clave
 
-### 1. Servicios profesionales (consultoría, desarrollo, diseño, marketing)
+### 1. Servicios profesionales (asesoría, desarrollo, diseño, marketing)
 
 Es el caso más común y el más sencillo. Tu LLC factura servicios a clientes B2B internacionales (USA, UE, LATAM). Características:
 

@@ -25,7 +25,7 @@ Tax, accounting and labour advisory fees are fully deductible. Training is deduc
 
 The mistakes that generate most penalties: claiming family meals as per diems, personal fuel without documented professional use, personal clothing invoiced as uniform without being one, client gifts above 1% of turnover and, above all, expenses without invoice. If your activity is 100% digital, a <a href="/en/blog/us-llc-as-an-alternative-to-being-self-employed-in-spain">US LLC</a> lets you document expenses under US criteria (ordinary and necessary), considerably broader and more flexible than the Spanish ones, while keeping full traceability for your residence-country return.
 
-The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding consultations of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
+The official criterion on deductible expenses is in <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764">Law 35/2006 on IRPF</a> and the binding advisory sessions of the <a href="https://petete.tributos.hacienda.gob.es/">Spanish Tax Directorate</a>. Documenting well today saves a lot tomorrow: every archived invoice is one euro less for the Treasury later.
 
 ## Detailed deductible expenses table by category
 
@@ -48,7 +48,7 @@ The official criterion on deductible expenses is in <a href="https://www.boe.es/
 
 **Case 1. Developer with home office.** You live in an 80 m² flat with a 12 m² office assigned to the activity (15% allocated). Monthly utilities: 200€ (electricity + gas + internet). Deduction: 200 × 0.15 × 0.30 = 9€/month = 108€/year. If you also declare proportional rent, add 15% of rent. Mandatory documentation: IAE registration with allocated percentage and utility invoices in your name.
 
-**Case 2. Consultant with professional vehicle.** You buy a Tesla Model 3 for 47,000€, 100% professional use (client visits, no other car). Deductible: amortisation over 8 years (5,875€/year), full insurance, maintenance, airport parking during trips, tolls. Spain's tax authority requires a professional travel log with mileage and reason. Without log, risk of reclassification to mixed use (50%).
+**Case 2. Advisor with professional vehicle.** You buy a Tesla Model 3 for 47,000€, 100% professional use (client visits, no other car). Deductible: amortisation over 8 years (5,875€/year), full insurance, maintenance, airport parking during trips, tolls. Spain's tax authority requires a professional travel log with mileage and reason. Without log, risk of reclassification to mixed use (50%).
 
 **Case 3. Graphic designer with coworking.** Coworking membership 250€/month, software (Adobe + Figma) 80€/month, annual training 1,500€, self-employed quota 230€/month. Total annual deductible: (250+80) × 12 + 1,500 + 230 × 12 = 3,960 + 1,500 + 2,760 = 8,220€. Reduces IRPF taxable base before applying brackets.
 
@@ -93,7 +93,7 @@ Deductible expenses for the self-employed read more usefully when they're treate
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->
 
-At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free consultation</a> of 30 minutes and you leave with a clear plan.
+At Exentax we review your case with real data and tell you whether changing structure pays off. <a href="/en/book">book a free advisory session</a> of 30 minutes and you leave with a clear plan.
 
 <!-- exentax:execution-v2 -->
 ## How we close this with the Exentax method
@@ -117,7 +117,7 @@ If you want to move from doubt to plan, book 30 minutes with Exentax and we walk
 <!-- exentax:defensa-fiscal-v1 -->
 ## What if HMRC, the IRS or my local tax authority asks about my LLC?
 
-  It's the question every client raises in the first consultation, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
+  It's the question every client raises in the first advisory session, and the short answer is: your LLC isn't opaque, and a properly declared structure closes any inquiry in standard forms. Your tax authority can request the state Certificate of Formation (Wyoming, Delaware or New Mexico), the EIN issued by the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a>, the signed Operating Agreement, the Mercury or Wise statements for the year, the Form 5472 plus pro-forma 1120 you filed, and the bookkeeping that reconciles income, expenses and movements. If all of that exists and is delivered in order, the inquiry doesn't escalate.
 
   What tax authorities do pursue, and rightly, is sham ownership (nominees, paper residency) and undeclared foreign accounts. A well-structured LLC is the opposite: you appear as **beneficial owner** in the BOI Report when applicable (verifiable at <a href="https://www.fincen.gov/boi" target="_blank" rel="noopener">fincen.gov/boi</a>), you sign the bank accounts and you declare the income where you actually live. The structure is registered with the state Secretary of State, with the IRS and, when European banks are involved, inside the CRS perimeter of the <a href="https://www.oecd.org" target="_blank" rel="noopener">OECD</a> standard.
 
@@ -176,7 +176,7 @@ The AEAT can request supporting documentation for a Form 130 result during the f
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

@@ -21,7 +21,7 @@ Nou Mèxic és l'estat més popular entre els nostres clients a Exentax, i amb r
 - **Cost de constitució i manteniment més baix** dels tres estats
 - **Procés senzill i ràpid**: sense burocràcia innecessària
 
-**Ideal per a:** la gran majoria de freelancers, consultors, desenvolupadors, dissenyadors i emprenedors digitals. Si vols l'opció més pràctica, més privada i amb menors costos recurrents, Nou Mèxic és l'elecció òbvia. És l'estat que recomanem per defecte a Exentax tret que la teva situació específica requereixi una altra cosa.
+**Ideal per a:** la gran majoria de freelancers, assessors, desenvolupadors, dissenyadors i emprenedors digitals. Si vols l'opció més pràctica, més privada i amb menors costos recurrents, Nou Mèxic és l'elecció òbvia. És l'estat que recomanem per defecte a Exentax tret que la teva situació específica requereixi una altra cosa.
 ### Wyoming: bona privacitat, major cost
 
 **Constitució:** Consultar
@@ -109,7 +109,7 @@ La realitat és que qualsevol dels tres estats funciona bé. La diferència entr
 
 A Exentax et recomanem l'estat que encaixa amb el teu perfil concret. No venem un estat per defecte. Analitzem la teva situació i et diem quin té més sentit per a tu.
 
-Encara dubtes entre Nou Mèxic, Wyoming i Delaware? Agenda la teva consultoria gratuïta. Mirem el teu negoci, la teva residència fiscal i els teus objectius i et recomanem l'estat que et costarà menys temps i diners a llarg termini.
+Encara dubtes entre Nou Mèxic, Wyoming i Delaware? Agenda la teva assessoria gratuïta. Mirem el teu negoci, la teva residència fiscal i els teus objectius i et recomanem l'estat que et costarà menys temps i diners a llarg termini.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

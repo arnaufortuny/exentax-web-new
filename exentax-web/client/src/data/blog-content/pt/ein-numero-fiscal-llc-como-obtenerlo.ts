@@ -72,7 +72,7 @@ Algumas leituras adjacentes a manter à mão: <a href="/pt/blog/por-que-abrir-um
 
 Não te preocupes. O EIN é atribuído de forma permanente à tua LLC e não caduca. Se perderes o documento de atribuição (a carta CP 575), podes solicitar uma cópia ligando ao IRS ou enviando o formulário correspondente. Também podes encontrar o teu EIN em declarações anteriores apresentadas perante o IRS. E se és nosso cliente, obviamente temo-lo arquivado.
 
-Queres constituir a tua LLC a partir de Portugal ou do Brasil e que tratemos do EIN, do ITIN se for preciso, da conta Mercury e da declaração anual? Agenda a tua consultoria gratuita e arrancamos juntos, sem burocracia do teu lado.
+Queres constituir a tua LLC a partir de Portugal ou do Brasil e que tratemos do EIN, do ITIN se for preciso, da conta Mercury e da declaração anual? Agenda a tua assessoria gratuita e arrancamos juntos, sem burocracia do teu lado.
 ## Referências legais e regulamentares
 
 Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes principais para verificação:
@@ -161,7 +161,7 @@ Se quiser que tratemos do seu ou auditar um já emitido, abra a <strong>calculad
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20EIN%20(Employer%20Identification%20Number)%20%C3%A9%2C%20para%20a%20tua%20LLC%2C%20o%20equivalente%20ao%20NI%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20EIN%20(Employer%20Identification%20Number)%20%C3%A9%2C%20para%20a%20tua%20LLC%2C%20o%20equivalente%20ao%20NI%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

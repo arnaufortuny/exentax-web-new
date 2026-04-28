@@ -69,7 +69,7 @@ En la mayoría de cobros vía Stripe, PayPal, AdSense o similares no te lo pedir
 - **Certificado de residencia fiscal:** emitido por la AEAT cuando lo necesites para un pagador exterior.
 ## Casos prácticos con cifras
 
-### Caso A, Consultor de software con clientes USA y EU
+### Caso A, Asesor de software con clientes USA y EU
 
 - LLC factura **120.000 USD/año** por servicios prestados desde España.
 - Gastos LLC: 30.000 USD (software, hardware, viajes, registered agent, asesoría).
@@ -200,7 +200,7 @@ Este contenido es divulgativo y no sustituye al asesoramiento personalizado para
 El convenio entre España y Estados Unidos firmado en 1990 y modificado por el Protocolo en vigor desde 2019 (BOE 23 de octubre de 2019) reparte la potestad tributaria entre ambos países. Para una SMLLC en atribución de rentas, lo que importa son cuatro artículos concretos. Te los explicamos en orden de impacto.
 
 - **Artículo 7 - Beneficios empresariales.** Si la LLC es transparente y no constituye establecimiento permanente en EE. UU., los beneficios tributan exclusivamente en España, en tu IRPF como rendimiento de actividad económica. Esta es la lógica que hace que una SMLLC pague típicamente cero impuesto federal y todo el peso recaiga en residencia.
-- **Artículo 14 (Protocolo 2019) - Servicios personales independientes.** Reforzado tras el Protocolo: para profesionales independientes residentes en España sin base fija en EE. UU., los honorarios se gravan exclusivamente en España. Combinado con el art. 7, blinda la operativa habitual de consultor o desarrollador.
+- **Artículo 14 (Protocolo 2019) - Servicios personales independientes.** Reforzado tras el Protocolo: para profesionales independientes residentes en España sin base fija en EE. UU., los honorarios se gravan exclusivamente en España. Combinado con el art. 7, blinda la operativa habitual de asesor o desarrollador.
 - **Artículo 23 - Eliminación de doble imposición.** Permite acreditar en España el impuesto pagado en EE. UU. (federal y estatal), con el límite de la cuota española sobre la misma renta. Para una SMLLC con cero impuesto federal, el crédito es nulo pero también lo es la doble imposición real.
 - **Artículo 25 (Protocolo 2019) - Procedimiento amistoso (MAP).** Si AEAT y IRS califican de forma divergente la misma renta, MAP permite resolver vía acuerdo entre administraciones en plazo aproximado de 24 meses. Útil si recibes un requerimiento divergente; la mayoría de casos no llega aquí porque la doctrina DGT es clara.
 

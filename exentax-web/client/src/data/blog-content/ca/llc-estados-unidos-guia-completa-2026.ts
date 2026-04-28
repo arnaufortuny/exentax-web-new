@@ -18,7 +18,7 @@ A la pràctica: si vius a Espanya, Mèxic, Colòmbia o qualsevol altre país, la
 
 Hi ha raons molt concretes (i molt convincents):
 
-- **Fiscalitat ordenada.** La teva LLC, ben estructurada, no tributa a nivell federal als EUA (sense ECI). La teva càrrega total depèn del país on resideixis i de com declaris: la LLC redueix i ordena la base, no t'eximeix de tributar al teu país de residència. El que pagues exactament ho calculem amb les teves dades reals a la calculadora i a la consultoria.
+- **Fiscalitat ordenada.** La teva LLC, ben estructurada, no tributa a nivell federal als EUA (sense ECI). La teva càrrega total depèn del país on resideixis i de com declaris: la LLC redueix i ordena la base, no t'eximeix de tributar al teu país de residència. El que pagues exactament ho calculem amb les teves dades reals a la calculadora i a la assessoria.
 - **Protecció patrimonial.** La teva casa, els teus estalvis i els teus béns queden separats del negoci. Si alguna cosa surt malament a l'empresa, el teu patrimoni personal està protegit per la responsabilitat limitada (sempre que no barregis fons personals amb els de la LLC).
 - **Privacitat estatal.** En estats com Nou Mèxic o Wyoming, les dades dels membres no apareixen en registres públics estatals. Això no és anonimat absolut: el BOI Report davant la FinCEN identifica els beneficiaris reals i les autoritats poden accedir a aquesta informació per canals formals. El que guanyes és discreció davant el públic, no opacitat davant les autoritats.
 - **Banca en dòlars.** Accés a comptes a Mercury (operat com a fintech amb bancs associats (Choice Financial Group i Evolve Bank & Trust principalment; Column N.A. en comptes heretats), amb assegurança FDIC) o Relay (recolzat per Thread Bank), sense restriccions. Transferències internacionals a $0 amb Mercury. Sense comissions de manteniment.
@@ -95,7 +95,7 @@ Per tancar, una lectura relacionada que encaixa al costat d'aquest article: <a h
 
 Absolutament. No és evasió fiscal. És planificació fiscal legal utilitzant estructures reconegudes per l'IRS i les autoritats del teu país. Milions d'empreses operen així. La clau està a declarar correctament i mantenir el compliance al dia, i d'això ens encarreguem nosaltres.
 
-Vols saber si la LLC encaixa amb el teu cas, o si encara et compensa més continuar com a autònom o passar per una SL? Agenda la teva consultoria gratuïta de 30 minuts. Mirem els teus clients, la teva residència fiscal i els teus objectius i et diem honestament quant estalviaries. Sense compromís i sense lletra petita.
+Vols saber si la LLC encaixa amb el teu cas, o si encara et compensa més continuar com a autònom o passar per una SL? Agenda la teva assessoria gratuïta de 30 minuts. Mirem els teus clients, la teva residència fiscal i els teus objectius i et diem honestament quant estalviaries. Sense compromís i sense lletra petita.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

@@ -59,7 +59,7 @@ Na Exentax também nos encarregamos das atualizações do Operating Agreement qu
 Para continuar neste fio, <a href="/pt/blog/por-que-abrir-uma-llc-americana-em-2026-os-5-pilares-da">Por que abrir uma LLC americana atualmente: os 5 pilares da vantagem americana</a> e <a href="/pt/blog/ein-vs-itin-vs-ssn-os-numeros-de-identificacao-fiscal">EIN vs ITIN vs SSN: os números de identificação fiscal americanos explicados</a> completam nuances que aqui apenas tocámos.
 ### O que deverias levar deste artigo
 
-Na Exentax redigimos Operating Agreements alinhados com o direito da família e das sucessões português. Marca a tua consultoria gratuita: verificamos se o teu aguenta.
+Na Exentax redigimos Operating Agreements alinhados com o direito da família e das sucessões português. Marca a tua assessoria gratuita: verificamos se o teu aguenta.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -180,7 +180,7 @@ Se a sua LLC opera sem OA ou com um descarregado, abra a <strong>calculadora Exe
 <!-- /exentax:execution-v2 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20empreendedor%20em%20Portugal%20habituado%20ao%20pacto%20social%20da%20Lda%20registado%20n%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Para%20um%20empreendedor%20em%20Portugal%20habituado%20ao%20pacto%20social%20da%20Lda%20registado%20n%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

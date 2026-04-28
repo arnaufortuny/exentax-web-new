@@ -96,7 +96,7 @@ O BOI Report está incluído nos nossos serviços de constituição e manutenç�
 
 Não tem de entrar em nenhum portal governamental, preencher formulários em inglês nem preocupar-se com prazos. Tratamos de tudo.
 
-Tens dúvidas sobre se a tua LLC entra no âmbito vigente do BOIR ou se uma submissão antiga continua válida? Agenda a tua consultoria gratuita. Verificamos o teu estado na FinCEN segundo a regra de março de 2025 e, se a tua entidade está fora do âmbito (cenário esperado para a maioria das LLC USA detidas por não residentes), confirmamos por escrito que ficas regularizado sem mais trâmites — uma formalidade a menos no teu calendário.
+Tens dúvidas sobre se a tua LLC entra no âmbito vigente do BOIR ou se uma submissão antiga continua válida? Agenda a tua assessoria gratuita. Verificamos o teu estado na FinCEN segundo a regra de março de 2025 e, se a tua entidade está fora do âmbito (cenário esperado para a maioria das LLC USA detidas por não residentes), confirmamos por escrito que ficas regularizado sem mais trâmites — uma formalidade a menos no teu calendário.
 ### Próximos passos
 
 Se quer validar se esta estratégia encaixa na sua situação concreta, na Exentax revemos o seu caso de forma personalizada e propomos a estrutura legal e eficiente que realmente lhe convém. Reserve uma sessão inicial sem compromisso a partir da nossa página de contacto.
@@ -204,7 +204,7 @@ Se quiser que tratemos de tudo ou apenas verificar o seu, abra a <strong>calcula
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20constitu%C3%ADste%20uma%20LLC%20nos%20Estados%20Unidos%20nos%20%C3%BAltimos%20anos%2C%20j%C3%A1%20deves%20ter%20ouv%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20constitu%C3%ADste%20uma%20LLC%20nos%20Estados%20Unidos%20nos%20%C3%BAltimos%20anos%2C%20j%C3%A1%20deves%20ter%20ouv%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

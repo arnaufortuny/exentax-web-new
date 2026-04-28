@@ -98,7 +98,7 @@ A Exentax ajudem clients que vénen d'altres serveis (o que gestionaven la seva 
 
 El Form 5472 (juntament amb el Form 1120 pro-forma) és un tràmit informatiu anual que tota LLC amb propietari estranger ha de presentar. No implica pagament d'impostos. No és complicat si el gestiona algú que sap el que fa. I a Exentax ens encarreguem d'això com a part del manteniment anual de la teva LLC.
 
-Tens dubtes si la teva LLC està realment al dia amb el Form 5472, o portes la LLC pel teu compte des de Catalunya i prefereixes delegar-ho? Agenda la teva consultoria gratuïta. Revisem l'històric, veiem què s'ha presentat (i què no) i et proposem un pla clar perquè quedis en regla any rere any.
+Tens dubtes si la teva LLC està realment al dia amb el Form 5472, o portes la LLC pel teu compte des de Catalunya i prefereixes delegar-ho? Agenda la teva assessoria gratuïta. Revisem l'històric, veiem què s'ha presentat (i què no) i et proposem un pla clar perquè quedis en regla any rere any.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

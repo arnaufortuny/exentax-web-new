@@ -61,7 +61,7 @@ Una LLC US detinguda des de Catalunya és tractada per **Hisenda Espanyola** com
 
 ## Què triar segons el teu perfil
 
-- **Freelancer, agència digital, consultor, infoproducte, ecommerce petit, SaaS bootstrapped**: **LLC** sense dubte si factures majoritàriament a internacional. Wyoming o Nou Mèxic pel cost; Delaware si preveus créixer molt.
+- **Freelancer, agència digital, assessor, infoproducte, ecommerce petit, SaaS bootstrapped**: **LLC** sense dubte si factures majoritàriament a internacional. Wyoming o Nou Mèxic pel cost; Delaware si preveus créixer molt.
 - **Startup amb ronda seed o sèrie A planificada**: **Delaware C-Corp** des del primer dia, assumint la doble imposició com a cost d'accés a capital.
 - **Negoci físic als EUA amb empleats i operativa local**: probablement C-Corp si esperes créixer molt; LLC si vas a operar com a petit negoci.
 - **Professional regulat (advocat, metge, arquitecte col·legiat)**: molts estats exigeixen **Professional LLC (PLLC)** o **Professional Corporation (PC)** amb llicència estatal.

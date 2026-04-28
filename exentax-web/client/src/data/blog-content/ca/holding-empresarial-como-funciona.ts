@@ -12,7 +12,7 @@ La seva funció essencial és agrupar la titularitat i centralitzar decisions, d
 Existeixen diversos models, depenent del propòsit:
 
 - **Holding pura**: només posseeix participacions, no realitza activitat econòmica. Vehicle net per concentrar control.
-- **Holding mixta**: a més de posseir participacions, presta serveis reals (consultoria, direcció, màrqueting) a les seves filials i altres clients.
+- **Holding mixta**: a més de posseir participacions, presta serveis reals (assessoria, direcció, màrqueting) a les seves filials i altres clients.
 - **Holding patrimonial**: posseeix immobles, inversions financeres o propietat intel·lectual a més de participacions empresarials.
 - **Holding internacional**: filials en diferents països, holding centralitzada en una jurisdicció amb règim favorable.
 ### Beneficis reals d'una holding
@@ -40,7 +40,7 @@ Constituir una holding només per moda afegeix comptabilitat, declaracions, cost
 L'estructura típica per a un emprenedor amb diverses activitats a Espanya:
 
 - **Holding (S.L. patrimonial)**: posseeix 100 % de les filials.
-- **Filial operativa 1**: activitat principal (serveis, ecommerce, consultoria).
+- **Filial operativa 1**: activitat principal (serveis, ecommerce, assessoria).
 - **Filial operativa 2**: segona activitat o nou projecte.
 - **Filial immobiliària** (opcional): posseeix immobles del grup.
 

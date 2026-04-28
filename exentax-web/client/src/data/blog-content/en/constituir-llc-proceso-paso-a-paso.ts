@@ -100,7 +100,7 @@ Each error costs you weeks of delay and, in some cases, money.
 
 We handle the entire formation process from start to finish. You give us your passport, tell us what you want your LLC to be called, and we do the rest:
 
-1. **We choose the optimal state** together during the initial consultation
+1. **We choose the optimal state** together during the initial advisory session
 2. **We file the Articles of Organization**: typically in 1-3 days
 3. **We obtain the EIN** from the IRS. we handle all communication
 4. **We prepare your Operating Agreement**: customized, not a generic template

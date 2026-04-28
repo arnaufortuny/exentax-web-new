@@ -39,7 +39,7 @@ Vendas em plataformas: <a href="/pt/blog/dac7-o-novo-reporting-de-plataformas-di
 
 Revolut Business é excelente; conhecer o perfil CRS é essencial. Declare corretamente e desenhe stack coerente.
 
-Na Exentax avaliamos caso a caso se o Revolut Business encaixa. Marca a tua consultoria gratuita: olhamos para todo o mapa bancário e dizemos-te o que manter, o que mover.
+Na Exentax avaliamos caso a caso se o Revolut Business encaixa. Marca a tua assessoria gratuita: olhamos para todo o mapa bancário e dizemos-te o que manter, o que mover.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -166,7 +166,7 @@ beneficiário efectivo declarada, e reconciliámos as retiradas dos
 sócios com a alocação tipo K-1 que cada sócio declarava em casa.
 Sem surpresas.
 
-Um consultor que tinha estacionado por pouco tempo um adiantamento
+Um assessor que tinha estacionado por pouco tempo um adiantamento
 grande na Revolut Business viu a instantânea de Dezembro
 desencadear uma pergunta de seguimento da sua autoridade fiscal na
 Primavera seguinte. A correcção foi uma nota de uma página com o
@@ -251,7 +251,7 @@ parte mais leve do ano.
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Revolut%20Business%20%C3%A9%20operada%20a%20partir%20da%20Litu%C3%A2nia%20para%20a%20UE%20e%20aplica%20o%20CRS%20po%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20Revolut%20Business%20%C3%A9%20operada%20a%20partir%20da%20Litu%C3%A2nia%20para%20a%20UE%20e%20aplica%20o%20CRS%20po%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

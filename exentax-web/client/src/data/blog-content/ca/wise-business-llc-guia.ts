@@ -83,7 +83,7 @@ Una lectura veïna per tenir oberta al costat d'aquesta: <a href="/ca/blog/com-g
 
 **Freelancer a Espanya que factura en USD:** El teu client americà paga a la teva Mercury per ACH. A final de mes, transfereixes la teva distribució a Wise, converteixes a EUR al tipus real i envies al teu compte espanyol per SEPA. Cost total de la conversió: 0,4-0,6%. Amb un banc tradicional pagaries 2-3%.
 
-**Consultor a Colòmbia que factura en EUR i USD:** Reps USD a Mercury i EUR al teu compte Wise europeu. Converteixes les dues a COP quan cal i envies al teu compte colombià. Wise et dona el tipus mid-market, el que pot suposar un estalvi de milers de pesos per cada $1.000 convertits respecte al tipus del teu banc local.
+**Assessor a Colòmbia que factura en EUR i USD:** Reps USD a Mercury i EUR al teu compte Wise europeu. Converteixes les dues a COP quan cal i envies al teu compte colombià. Wise et dona el tipus mid-market, el que pot suposar un estalvi de milers de pesos per cada $1.000 convertits respecte al tipus del teu banc local.
 
 **SaaS amb clients globals:** Els teus clients paguen per Stripe (que diposita a Mercury). El teu equip de freelancers a Llatinoamèrica cobra per Wise a les seves divises locals. El flux és net, documentat i eficient.
 
@@ -315,7 +315,7 @@ comunicat de premsa de la col·laboració i el contracte subjacent
 abans que arribés la primera transferència. Sense interrupció de
 KYC, sense retard de payout.
 
-Un consultor que es va relocalitzar d'un país de la UE a un altre a
+Un assessor que es va relocalitzar d'un país de la UE a un altre a
 final d'any va actualitzar la residència de Wise Business el primer
 dia del trasllat, va adjuntar una breu nota de coberta explicant el
 trasllat i l'activitat inalterada de la LLC, i va continuar

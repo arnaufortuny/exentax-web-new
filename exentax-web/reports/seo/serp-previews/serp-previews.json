@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T17:20:44.978Z",
+  "generatedAt": "2026-04-28T19:05:36.590Z",
   "budgets": {
     "DESKTOP_TITLE_PX": 580,
     "DESKTOP_DESC_PX": 990,
@@ -1101,9 +1101,9 @@
       "routePath": "/pt/blog",
       "lang": "pt",
       "title": "Blog Exentax · LLC EUA, fiscalidade e banca sem rodeios",
-      "description": "Os guias que o seu contabilista nunca lhe deu: LLC para não residentes, Form 5472, ITIN, banca americana e fiscalidade real. Por consultores que vivem o tema.",
+      "description": "Os guias que o seu contabilista nunca lhe deu: LLC para não residentes, Form 5472, ITIN, banca americana e fiscalidade real. Por assessores que vivem o tema.",
       "titleChars": 55,
-      "descChars": 158,
+      "descChars": 157,
       "titlePx": 436,
       "descPx": 823,
       "issues": []
@@ -1113,11 +1113,11 @@
       "key": "book",
       "routePath": "/pt/agendar",
       "lang": "pt",
-      "title": "Reserve a sua chamada com um consultor especialista",
-      "description": "30 minutos com um consultor que abre LLC EUA para não residentes todas as semanas. Diagnóstico real, plano claro e preço fechado. Vagas limitadas.",
-      "titleChars": 51,
-      "descChars": 146,
-      "titlePx": 430,
+      "title": "Reserve a sua chamada com um assessor especialista",
+      "description": "30 minutos com um assessor que abre LLC EUA para não residentes todas as semanas. Diagnóstico real, plano claro e preço fechado. Vagas limitadas.",
+      "titleChars": 50,
+      "descChars": 145,
+      "titlePx": 431,
       "descPx": 777,
       "issues": []
     },
@@ -1127,9 +1127,9 @@
       "routePath": "/pt/perguntas-frequentes",
       "lang": "pt",
       "title": "FAQ LLC EUA para não residentes · Sem rodeios",
-      "description": "Impostos, EIN, ITIN, Form 5472, banca americana, que estado escolher e custos reais. Sem marketing barato: respostas diretas de consultores especializados.",
+      "description": "Impostos, EIN, ITIN, Form 5472, banca americana, que estado escolher e custos reais. Sem marketing barato: respostas diretas de assessores especializados.",
       "titleChars": 45,
-      "descChars": 155,
+      "descChars": 154,
       "titlePx": 364,
       "descPx": 817,
       "issues": []
@@ -1140,9 +1140,9 @@
       "routePath": "/pt",
       "lang": "pt",
       "title": "A sua LLC nos EUA com respaldo fiscal premium | Exentax",
-      "description": "Constituição, EIN, banca americana, compliance IRS e um consultor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.",
+      "description": "Constituição, EIN, banca americana, compliance IRS e um assessor fiscal real ao telefone. A estrutura legal usada por founders, fundos e operadores sérios. Sem software low-cost.",
       "titleChars": 55,
-      "descChars": 179,
+      "descChars": 178,
       "titlePx": 453,
       "descPx": 927,
       "issues": [
@@ -1150,7 +1150,7 @@
           "scope": "description",
           "surface": "desktop",
           "severity": "error",
-          "note": "Description is 179 chars, exceeds desktop cap of 165; tail will be cropped."
+          "note": "Description is 178 chars, exceeds desktop cap of 165; tail will be cropped."
         }
       ]
     },
@@ -1159,10 +1159,10 @@
       "key": "how_we_work",
       "routePath": "/pt/como-trabalhamos",
       "lang": "pt",
-      "title": "Como trabalhamos: a sua LLC EUA com um consultor real",
-      "description": "Diagnóstico, constituição, EIN, banca e compliance: quatro fases com prazos reais e um consultor sénior à frente. Não é chat de suporte, é consultoria real.",
-      "titleChars": 53,
-      "descChars": 156,
+      "title": "Como trabalhamos: a sua LLC EUA com um assessor real",
+      "description": "Diagnóstico, constituição, EIN, banca e compliance: quatro fases com prazos reais e um assessor sénior à frente. Não é chat de suporte, é assessoria real.",
+      "titleChars": 52,
+      "descChars": 154,
       "titlePx": 441,
       "descPx": 797,
       "issues": []

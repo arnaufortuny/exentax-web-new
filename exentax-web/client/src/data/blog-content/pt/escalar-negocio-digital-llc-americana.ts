@@ -72,7 +72,7 @@ Se está a faturar regularmente, tem clientes internacionais e sente que sua est
 
 Na Exentax não apenas constituímos sua LLC. acompanhamos em todo o crescimento. Desde a primeira fatura até quando precisar converter para C-Corp para sua rodada Series A (sim, já acompanhamos clientes nesse caminho).
 
-Na Exentax acompanhamos a travessia dos seis dígitos para empreendedores em Portugal e no Brasil. Marca a tua consultoria gratuita e mostramos-te como escalar sem seres apanhado pelas Finanças.
+Na Exentax acompanhamos a travessia dos seis dígitos para empreendedores em Portugal e no Brasil. Marca a tua assessoria gratuita e mostramos-te como escalar sem seres apanhado pelas Finanças.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -195,7 +195,7 @@ Milhares de freelancers e empreendedores já operam a sua LLC americana de forma
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20um%20neg%C3%B3cio%20digital%20de%205%20000%20para%2050%20000%20%E2%82%AC%20por%20m%C3%AAs%20a%20partir%20de%20Portugal%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Passar%20um%20neg%C3%B3cio%20digital%20de%205%20000%20para%2050%20000%20%E2%82%AC%20por%20m%C3%AAs%20a%20partir%20de%20Portugal%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se planeias montar a LLC em Delaware, vê a nossa página de serviço <a href="/pt/servicos/llc-delaware">LLC em Delaware</a> com custos, prazos e próximos passos concretos.
 

@@ -1,4 +1,4 @@
-export default `Pagar poucos impostos de forma legal é possível. Pagar zero, quase nunca. A diferença entre as duas abordagens marca a fronteira entre o planeamento fiscal sério e a fantasia que circula nas redes sociais. Este guia percorre os caminhos legais reais para minimizar a sua fatura fiscal sem cruzar a linha, com foco em perfis habituais: freelancers, consultores, e-commerce, SaaS, criadores de conteúdo e empreendedores digitais.
+export default `Pagar poucos impostos de forma legal é possível. Pagar zero, quase nunca. A diferença entre as duas abordagens marca a fronteira entre o planeamento fiscal sério e a fantasia que circula nas redes sociais. Este guia percorre os caminhos legais reais para minimizar a sua fatura fiscal sem cruzar a linha, com foco em perfis habituais: freelancers, assessores, e-commerce, SaaS, criadores de conteúdo e empreendedores digitais.
 
 Na Exentax trabalhamos há anos com pessoas que vêm a fugir do IRS e da Segurança Social. A boa notícia é que existem caminhos honestos. A menos boa é que nenhum consiste em "não declarar".
 
@@ -136,7 +136,7 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 <!-- exentax:lote32-native-v1:caminos-legales-minimos-impuestos-pt -->
 ## Como ler os caminhos legais para minimizar impostos como um mapeamento estrutural estável em vez de um truque de marketing
 
-Os caminhos legais para minimizar impostos leem-se de forma mais útil como um mapeamento estrutural estável entre residência, criação de valor e clientes, em vez de um truque de marketing. O mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
+Os caminhos legais para minimizar impostos leem-se de forma mais útil como um mapeamento estrutural estável entre residência, criação de valor e clientes, em vez de um truque de marketing. O mapeamento não muda com a estação do ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos numa conversa com um assessor.
 <!-- /exentax:lote32-native-v1:caminos-legales-minimos-impuestos-pt -->
 
 <!-- exentax:lote32-native-v1-bis:caminos-legales-minimos-impuestos-pt -->
@@ -170,7 +170,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 Pagar menos impostos legalmente não é um truque, é uma combinação coerente de quatro alavancas que funcionam consoante o seu perfil. A ilusão do "zero impostos" esconde habitualmente fraude ou estruturas que o primeiro requerimento desmonta. Estas são as alavancas reais que aplicamos na Exentax.
 
 - **Selecção de jurisdição de residência.** A alavanca de maior impacto. Mudar residência fiscal para regime favorável (Andorra, Portugal com NHR-IFICI, Itália com regime impatriados, Emirados, Paraguai, Uruguai) pode reduzir a taxa efectiva de 47 % para 10-25 %. Exige mudança real com prova de centro de interesses vitais - não se "compra" com arrendamento simbólico.
-- **Estrutura de actividade correcta.** Uma LLC americana com sócio em residência favorável, a operar como conduto transparente, optimiza dentro do quadro do convénio. Para perfis específicos (consultoria, SaaS, ecommerce, royalties), os números situam-se entre 0 % e 15 % efectivo conforme jurisdição e composição.
+- **Estrutura de actividade correcta.** Uma LLC americana com sócio em residência favorável, a operar como conduto transparente, optimiza dentro do quadro do convénio. Para perfis específicos (assessoria, SaaS, ecommerce, royalties), os números situam-se entre 0 % e 15 % efectivo conforme jurisdição e composição.
 - **Diferimento e engenharia temporal.** Capitalizar lucros em sociedade opaca, distribuir em anos de menor pressão fiscal, sincronizar venda de activos com mudanças de residência. Não reduz o imposto a zero, mas pode adiá-lo anos com carry financeiro positivo.
 - **Aproveitamento de isenções legais.** Mais-valias por venda de empresa com isenção por reinvestimento, regimes especiais para investigadores, deduções I&D, isenções forais no País Basco/Navarra. Todas existem na lei mas exigem requisitos formais.
 
@@ -237,7 +237,7 @@ Uma LLC bem declarada permite separar património, profissionalizar a gestão e,
 Para ver como a LLC encaixa na sua vida em Espanha continue com <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">o guia LLC vs autónomo</a>, e se o pensamento é mudar de país veja <a href="/pt/blog/nomade-digital-onde-pagar-impostos-e-como-escolher-a">a estratégia de nómada digital e residência fiscal</a>. Para desenhar o plano <a href="/pt/agendar">agende uma sessão com a Exentax</a>.
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pagar%20poucos%20impostos%20de%20forma%20legal%20%C3%A9%20poss%C3%ADvel%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Pagar%20poucos%20impostos%20de%20forma%20legal%20%C3%A9%20poss%C3%ADvel%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

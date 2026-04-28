@@ -2,7 +2,7 @@ export default `L'IVA en serveis digitals és el tema on es claven el 80 % dels 
 
 ## La regla general: localització del servei
 
-Per a serveis digitals (programació, disseny, consultoria, màrqueting, formació en línia, etc.), la localització de l'IVA depèn de qui és el teu client:
+Per a serveis digitals (programació, disseny, assessoria, màrqueting, formació en línia, etc.), la localització de l'IVA depèn de qui és el teu client:
 ## Serveis B2B (a empreses)
 
 L'IVA es localitza al país del destinatari (l'empresa que et contracta):
@@ -43,7 +43,7 @@ Els teus clients són empreses americanes. **No cobres IVA** a cap factura. Les 
 
 Factures sense IVA espanyol. Inclous el VAT ID del client. Declares al Model 303 i Model 349.
 
-### Consultor amb clients mixtos (Espanya + internacional)
+### Assessor amb clients mixtos (Espanya + internacional)
 
 Les factures a clients espanyols porten IVA (21%). Les factures a clients de la UE van sense IVA (inversió del subjecte passiu). Les factures fora de la UE van sense IVA (no subjectes).
 

@@ -41,7 +41,7 @@ Some industries receive extra scrutiny:
 - **Cryptocurrency and trading**: evolving regulations, higher risk classification
 - **Financial services**: may require additional licenses in some states
 - **Regulated industries**: pharmaceuticals, gaming, adult products
-- **Government consulting**: additional compliance risks
+- **Government advisory**: additional compliance risks
 
 If your business is in one of these sectors, it doesn't mean you can't open an account. The process may take longer and require more documentation.
 ### How to maximize approval chances
@@ -129,7 +129,7 @@ One adjacent read worth having open alongside this one: <a href="/en/blog/anti-m
 
 If you're in the "high risk" column for any factor, address it immediately. At Exentax, we review your account setup during onboarding to eliminate freeze risk factors before they become problems.
 
-Book your strategic consultation and we'll coordinate your banking due diligence from the start.
+Book your strategic advisory session and we'll coordinate your banking due diligence from the start.
 ## A balanced banking stack: Mercury, Relay, Slash and Wise
 
 There is no perfect account for an LLC. There is the right **stack**, where each tool plays a role:
@@ -211,7 +211,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:conv-fill-v1 -->
 <!-- /exentax:cta-conv-v1 -->
 
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

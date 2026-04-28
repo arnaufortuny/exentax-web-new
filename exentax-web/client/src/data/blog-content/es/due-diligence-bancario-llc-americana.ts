@@ -45,7 +45,7 @@ Algunos sectores reciben un escrutinio adicional por parte de los bancos:
 - **Criptomonedas y trading**: regulación en evolución constante
 - **Servicios financieros**: requieren licencias adicionales en muchos estados
 - **Industrias reguladas**: farmacéutica, gaming, productos para adultos
-- **Consultoría a gobiernos**: implica riesgos de compliance adicionales
+- **Asesoría a gobiernos**: implica riesgos de compliance adicionales
 
 Si tu negocio está en uno de estos sectores, no significa que no puedas abrir una cuenta. Simplemente, el proceso puede llevar más tiempo y requerir más documentación.
 ### Cómo facilitar el proceso

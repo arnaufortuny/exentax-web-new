@@ -209,7 +209,7 @@ Na prática, guardar os últimos três anos numa única pasta digital com a mesm
 <!-- exentax:cta-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20a%20tua%20LLC%20opera%20h%C3%A1%20algum%20tempo%20e%20a%20separa%C3%A7%C3%A3o%20entre%20o%20teu%20dinheiro%20pessoal%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Se%20a%20tua%20LLC%20opera%20h%C3%A1%20algum%20tempo%20e%20a%20separa%C3%A7%C3%A3o%20entre%20o%20teu%20dinheiro%20pessoal%20%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

@@ -8,7 +8,7 @@ Quatre disparadors clars. Si en reconeixes dos o més, el salt probablement comp
 
 ### 1. Volum i barreja de línies de negoci
 
-Si dins la mateixa LLC conviuen cobraments de consultoria, ingressos d'un SaaS, comissions d'afiliació i una botiga online, la comptabilitat es torna un embolic i el risc s'encomana: si una línia té un problema legal, totes les altres queden exposades.
+Si dins la mateixa LLC conviuen cobraments de assessoria, ingressos d'un SaaS, comissions d'afiliació i una botiga online, la comptabilitat es torna un embolic i el risc s'encomana: si una línia té un problema legal, totes les altres queden exposades.
 
 ### 2. Risc asimètric entre línies
 
@@ -31,7 +31,7 @@ Tu (persona física, resident fiscal del teu país)
 ▼
 Holding LLC (Wyoming o Delaware)
 │
-├── Operativa A LLC (consultoria)
+├── Operativa A LLC (assessoria)
 ├── Operativa B LLC (SaaS)
 └── IP LLC (marca, codi)
 \`\`\`

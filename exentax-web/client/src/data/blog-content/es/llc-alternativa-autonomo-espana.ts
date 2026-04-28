@@ -2,7 +2,7 @@ export default `
 
 Si eres autónomo en España y tu trabajo se puede hacer desde un portátil, lo más probable es que ya hayas hecho la cuenta varias veces. La cuota mensual de autónomos, el IRPF progresivo, los modelos trimestrales, los pagos a cuenta, el IVA con clientes europeos, la inversión del sujeto pasivo, el modelo 349, el modelo 720 si tienes algo fuera... Y al final del año, casi la mitad de lo que facturas no llega a tu bolsillo.
 
-Por eso cada vez más freelancers, agencias pequeñas, desarrolladores, consultores, infoproductores, traders y creadores de contenido buscan **alternativas reales a ser autónomo en España**. Y entre todas ellas, la que mejor encaja para perfiles 100% digitales con clientes internacionales es la **LLC en Estados Unidos**. No es magia, no es un truco fiscal, no es defraudar. Es una estructura legal reconocida, soportada por la doctrina administrativa española y por el convenio de doble imposición entre USA y España, que bien diseñada permite ahorrar miles de euros al año y operar como una empresa internacional moderna.
+Por eso cada vez más freelancers, agencias pequeñas, desarrolladores, asesores, infoproductores, traders y creadores de contenido buscan **alternativas reales a ser autónomo en España**. Y entre todas ellas, la que mejor encaja para perfiles 100% digitales con clientes internacionales es la **LLC en Estados Unidos**. No es magia, no es un truco fiscal, no es defraudar. Es una estructura legal reconocida, soportada por la doctrina administrativa española y por el convenio de doble imposición entre USA y España, que bien diseñada permite ahorrar miles de euros al año y operar como una empresa internacional moderna.
 
 Esta guía es la versión honesta. Sin promesas imposibles. Con números, con ventajas, con desventajas y con perfiles a los que **no** les compensa.
 
@@ -48,7 +48,7 @@ Para que no se quede en abstracto, dos escenarios típicos:
 - **Con LLC bien diseñada:** gastos deducibles ≈ 15.000 € (todo el stack profesional facturado vía LLC), base ≈ 45.000 €, IRPF efectivo ≈ 25%. Coste de mantenimiento LLC ≈ 1.500-2.500 €. Total: **≈ 13.000-14.000 €**.
 - **Ahorro neto anual:** entre **6.000 € y 7.500 €**.
 
-### Escenario 2: agencia digital o consultor de 120.000 €/año
+### Escenario 2: agencia digital o asesor de 120.000 €/año
 
 - **Como autónomo:** cuota ≈ 4.800 €, IRPF que entra en tramos del 45%. Total estimado: **≈ 45.000 €**.
 - **Con LLC:** mayor capacidad de planificación, más gastos deducibles legítimos, ausencia de cuota mensual y posibilidad de retener parte del beneficio en la propia LLC para reinvertir. Total estimado: **≈ 28.000-32.000 €**.
@@ -71,7 +71,7 @@ El stack bancario que recomendamos para una LLC moderna:
 La LLC funciona muy bien si:
 
 - Facturas mayoritariamente a **clientes fuera de España** (UE o resto del mundo).
-- Tu trabajo es **100% digital**: software, SaaS, marketing, diseño, consultoría, formación online, infoproductos, contenido, trading no profesional para terceros, ecommerce internacional.
+- Tu trabajo es **100% digital**: software, SaaS, marketing, diseño, asesoría, formación online, infoproductos, contenido, trading no profesional para terceros, ecommerce internacional.
 - Estás dispuesto a **operar con USD** y a integrarte con herramientas estadounidenses (Stripe, Mercury, etc.).
 - Quieres **separar tu patrimonio personal** del negocio.
 - Tu facturación supera los **30.000-40.000 €/año** y te ves creciendo.

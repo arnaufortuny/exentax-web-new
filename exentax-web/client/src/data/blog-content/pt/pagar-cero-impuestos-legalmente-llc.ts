@@ -105,7 +105,7 @@ Ambas as opções são legais, sustentáveis e muito melhores do que os 40% que 
 
 Se quer saber qual destes cenários se encaixa na sua situação real, agende uma assessoria gratuita. Analisamos o seu caso sem compromisso.
 
-Na Exentax mostramos a cada cliente lusófono o que é alcançável no seu caso real, e não na fantasia de marketing de um vendedor do Dubai. Marca a tua consultoria gratuita e fazemos as contas juntos.
+Na Exentax mostramos a cada cliente lusófono o que é alcançável no seu caso real, e não na fantasia de marketing de um vendedor do Dubai. Marca a tua assessoria gratuita e fazemos as contas juntos.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
@@ -210,7 +210,7 @@ Para o plano legal com o seu número real, abra a <strong>calculadora Exentax</s
 
 <!-- exentax:cta-v1 -->
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Sejamos%20diretos%20desde%20a%20primeira%20linha%3A%20%E2%80%9Ezero%20impostos%E2%80%9D%20sendo%20residente%20fisca%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22Sejamos%20diretos%20desde%20a%20primeira%20linha%3A%20%E2%80%9Ezero%20impostos%E2%80%9D%20sendo%20residente%20fisca%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 

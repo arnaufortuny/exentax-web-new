@@ -39,7 +39,7 @@ Sense un W-8 signat, el pagador reté el 30% i envia els diners a l'IRS. Amb un 
 
 El formulari el presenta **qui rep els diners**, no qui els paga. És a dir:
 
-- Tu com a **persona física** si cobres directament d'USA (ex. consultor independent i un client americà et paga via Wise, o un broker t'ingressa dividends al teu nom): **W-8BEN**.
+- Tu com a **persona física** si cobres directament d'USA (ex. assessor independent i un client americà et paga via Wise, o un broker t'ingressa dividends al teu nom): **W-8BEN**.
 - La teva **LLC** (o la teva societat espanyola, alemanya, mexicana...) si els pagaments van al compte de l'entitat: **W-8BEN-E**.
 ### Quan presentar-los
 
@@ -143,7 +143,7 @@ A Exentax preparem els W-8BEN-E de la teva LLC allà on realment són exigits: S
 
 > Cada cas és individual i la legislació fiscal pot canviar; aquests formularis i criteris FATCA s'actualitzen periòdicament. Per això convé revisar el teu paperam amb cada canvi important al teu negoci o cada vegada que l'IRS publiqui una versió nova.
 
-Si vols que revisem la teva situació, reserva la teva consultoria gratuïta amb Exentax i deixarem els W-8 de la teva LLC i la teva paperassa internacional en ordre.
+Si vols que revisem la teva situació, reserva la teva assessoria gratuïta amb Exentax i deixarem els W-8 de la teva LLC i la teva paperassa internacional en ordre.
 
 Per aprofundir, llegeix també <a href="/ca/blog/els-comptes-bancaris-americans-informen-a-la-teva-autoritat">Els comptes bancaris als EUA reporten a Hisenda?</a> i <a href="/ca/blog/llc-com-a-alternativa-a-ser-autonom-a-espanya">LLC com a alternativa a ser autònom a Espanya</a>.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
@@ -291,7 +291,7 @@ benefici de conveni quan s'aplica, hi adjuntem el document de
 constitució de la LLC i la carta EIN, i els payouts es fan a la
 taxa convencional estàndard.
 
-Una LLC de consultoria treballa per a una cotitzada US. El seu
+Una LLC de assessoria treballa per a una cotitzada US. El seu
 sistema comptable fa renovacions anuals del W-8; actualitzem el
 formulari amb les mateixes dades, conservem tant la versió anterior
 com la nova a la carpeta de compliance de la LLC i marquem la data

@@ -61,7 +61,7 @@ O inverso também se aplica: se é residente e deixa os EUA (devolve a Green Car
 - **Com LLC:** $0 federal nos EUA + tributação otimizada no país de residência = ~8.000-10.000€
 - **Poupança anual: ~20.000€**
 
-### Carlos. Consultor de marketing no México (não residente dos EUA)
+### Carlos. Assessor de marketing no México (não residente dos EUA)
 - Fatura $60,000/ano a startups americanas
 - **Sem LLC:** ISR México ~30% = ~$18,000
 - **Com LLC:** $0 federal + estrutura otimizada no México = ~$5,000-7,000
@@ -85,13 +85,13 @@ Se ficou algum ponto desta estrutura por aprofundar, <a href="/pt/blog/10-erros-
 - Viajar aos Estados Unidos
 - Falar inglês (para isso estamos nós)
 
-Na Exentax fixamos este estatuto logo na entrada de cada novo cliente lusófono. Marca a tua consultoria gratuita: definimos o teu estatuto IRS e explicamos tudo o que isso implica.
+Na Exentax fixamos este estatuto logo na entrada de cada novo cliente lusófono. Marca a tua assessoria gratuita: definimos o teu estatuto IRS e explicamos tudo o que isso implica.
 ### Próximos passos
 
 Agora que tem o contexto completo, o passo seguinte natural é confrontá-lo com a sua própria situação: o que encaixa, o que não encaixa e onde estão as nuances que dependem da sua residência, da sua actividade e do seu volume. Uma revisão rápida do seu caso costuma poupar muito ruído antes de qualquer decisão estrutural.
 ## Caso prático para um residente fiscal em Portugal ou no Brasil
 
-Para um freelancer ou consultor residente fiscal em Portugal que abre uma LLC US sem ETBUS e sem US-source income, o esquema típico é o seguinte:
+Para um freelancer ou assessor residente fiscal em Portugal que abre uma LLC US sem ETBUS e sem US-source income, o esquema típico é o seguinte:
 
 - **Lado US**: a LLC paga **0 % federal** (IRC §§871, 882) e **0 % estadual** se constituída em Wyoming, Novo México, Florida ou Texas. Obrigação declarativa anual: Form 5472 + Form 1120 pro-forma (Treas. Reg. §1.6038A-1) com sanção de **25.000 USD por formulário** em caso de atraso. Sem obrigação BOI Report desde a IFR FinCEN de 21 de março de 2025 para LLCs formadas nos US por não residentes.
 - **Lado Portugal**: a Autoridade Tributária portuguesa trata habitualmente a SMLLC disregarded como entidade transparente, com os lucros líquidos imputados ao sócio em sede de **IRS Categoria B** (rendimentos empresariais e profissionais). Pode aplicar regime simplificado (coeficiente 0,75 para serviços) ou contabilidade organizada. Taxas progressivas de IRS até **48 %** + sobretaxa de solidariedade até 5 % (Lei n.º 12-A/2010 e atualizações). Segurança Social: regime dos trabalhadores independentes a **21,4 %** sobre 70 % do rendimento relevante.
@@ -189,7 +189,7 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20distin%C3%A7%C3%A3o%20%E2%80%9Eresidente%20%2F%20n%C3%A3o%20residente%E2%80%9D%20do%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22A%20distin%C3%A7%C3%A3o%20%E2%80%9Eresidente%20%2F%20n%C3%A3o%20residente%E2%80%9D%20do%20a%20href%3Dhttps%3A%2F%2Fwww%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se queres ver todo o processo em detalhe, vê a nossa <a href="/pt/servicos">página de serviços</a> com tudo o que cobrimos.
 

@@ -43,7 +43,7 @@ El règim jurídic està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-
 
 ## Casos pràctics: quan SL vs LLC compensa
 
-**Cas 1. Consultor digital, 70.000€/any, client únic EUA.** Millor LLC: 0% federal, IRPF a Espanya sobre benefici net. SL aquí perd per costos fixos alts (6.000-9.000€) i doble tributació.
+**Cas 1. Assessor digital, 70.000€/any, client únic EUA.** Millor LLC: 0% federal, IRPF a Espanya sobre benefici net. SL aquí perd per costos fixos alts (6.000-9.000€) i doble tributació.
 
 **Cas 2. Agència màrqueting 4 socis, 250.000€/any, oficina Barcelona, 3 empleats.** Millor SL: necessites figura mercantil per a clients corporates ES, possibilitat de retenir beneficis a IS 23%, contractar plantilla amb cotització SS, distribució equilibrada de socis. LLC aquí no encaixa per barrera operativa amb clients locals.
 

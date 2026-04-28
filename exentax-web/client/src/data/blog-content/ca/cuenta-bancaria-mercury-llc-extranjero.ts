@@ -122,7 +122,7 @@ Sí, tot a zero. Mercury monetitza amb productes premium (Mercury Treasury, crè
 3. **Activa l'autenticació de dos factors** des del primer dia. La seguretat no és opcional.
 4. **Crea subcomptes** per organitzar els teus diners: un per a operacions, un altre per a impostos, un altre per a reserves. Mercury ho fa molt fàcil.
 
-A Exentax ens encarreguem de l'obertura del teu compte Mercury com a part de la constitució de la teva LLC: preparem la documentació, redactem una descripció d'activitat neta i ens assegurem que la sol·licitud passi a la primera, sense anar i venir amb l'equip de compliance. Agenda la teva consultoria gratuïta i t'ho expliquem tot.
+A Exentax ens encarreguem de l'obertura del teu compte Mercury com a part de la constitució de la teva LLC: preparem la documentació, redactem una descripció d'activitat neta i ens assegurem que la sol·licitud passi a la primera, sense anar i venir amb l'equip de compliance. Agenda la teva assessoria gratuïta i t'ho expliquem tot.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.

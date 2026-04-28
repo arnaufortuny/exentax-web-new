@@ -73,7 +73,7 @@ Beyond the cost, the practical risks:
 - **BEPS Pillar Two tightening**: from recent years, mid-sized multinationals may see the territorial advantage eroded.
 ### Typical scenarios where it applies
 
-**Case 1: European consultant with clients in Singapore and Tokyo.**
+**Case 1: European advisor with clients in Singapore and Tokyo.**
 Hong Kong makes sense if you spend several months a year in the region. The local bank account eases Asian collections and the territorial regime may apply if activity is external and well documented.
 
 **Case 2: ecommerce selling to Western clients but with Chinese suppliers.**
@@ -110,7 +110,7 @@ A real geopolitical risk. Any legal tightening or capital restriction can affect
 
 Hong Kong is still a serious jurisdiction, but it is no longer the magic offshore solution some keep selling. For non-resident entrepreneurs who want simplicity, operating banking, reasonable cost and clean taxation, the US LLC offers today a better combination.
 
-If you are torn between the two options, at Exentax we can analyze your specific case before you commit to costs that are hard to reverse later. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+If you are torn between the two options, at Exentax we can analyze your specific case before you commit to costs that are hard to reverse later. At Exentax we review your case with real data: <a href="/en/book">book a free advisory session</a> for 30 minutes.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.
@@ -215,7 +215,7 @@ For state-specific details, see our <a href="/en/services/llc-wyoming">Wyoming L
 <!-- /exentax:cross-refs-v1 -->
 
 <!-- exentax:cta-v1 -->
-Book a free 30-minute consultation. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free consultation</a>.
+Book a free 30-minute advisory session. We review your real situation and tell you what actually fits. <a href="/en/book">Book a free advisory session</a>.
 <!-- /exentax:cta-v1 -->
 
 `;

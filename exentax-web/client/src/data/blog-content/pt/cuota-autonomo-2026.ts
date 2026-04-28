@@ -23,7 +23,7 @@ Cada ano, a TGSS regulariza o cotizado provisoriamente com o rendimento real dec
 
 ## Quando deixar de pagar RETA faz sentido
 
-Para perfis 100% digitais com clientes maioritariamente internacionais, uma <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">LLC americana bem estruturada</a> permite cessar o RETA e operar como entidade jurídica a partir dos EUA, com custo anual de manutenção muito inferior à quota anual de autónomo. A condição é que a atividade e a faturação se reorganizem realmente através da LLC, não como mera fachada. Se a sua base mensal ronda os 6.000 euros e a quota mínima se aproxima dos 607 euros (com o máximo do escalão a atingir 1.607 euros), a poupança líquida pode compensar mesmo o custo de coordenação com o seu consultor fiscal em Espanha.
+Para perfis 100% digitais com clientes maioritariamente internacionais, uma <a href="/pt/blog/llc-como-alternativa-a-ser-autonomo-em-espanha">LLC americana bem estruturada</a> permite cessar o RETA e operar como entidade jurídica a partir dos EUA, com custo anual de manutenção muito inferior à quota anual de autónomo. A condição é que a atividade e a faturação se reorganizem realmente através da LLC, não como mera fachada. Se a sua base mensal ronda os 6.000 euros e a quota mínima se aproxima dos 607 euros (com o máximo do escalão a atingir 1.607 euros), a poupança líquida pode compensar mesmo o custo de coordenação com o seu assessor fiscal em Espanha.
 Consulte a tabela oficial em vigor no <a href="https://www.seg-social.es/">portal da Segurança Social espanhola</a> e o <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960">Decreto Legislativo Real 1/1994</a> que regula o RETA. Cotizar por menos hoje pode sair caro amanhã; cotizar a mais sem necessidade reduz a poupança. A chave é ajustar a base com realismo e revê-la todos os trimestres.
 
 <!-- exentax:lote26-native-v1:cuota-autonomo-2026-pt -->
@@ -78,7 +78,7 @@ Se quiser passar da dúvida ao plano, agende 30 minutos com Exentax e saímos da
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:cta-conv-v1 -->
-<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20regime%20especial%20dos%20trabalhadores%20aut%C3%B3nomos%20em%20Espanha%20(RETA)%20contribui%20des%E2%80%A6%22%20e%20quero%20falar%20com%20um%20consultor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
+<p data-testid="cta-action-row">Queres falar agora? Escreve-nos por <a href="https://wa.me/34614916910?text=Ol%C3%A1%20Exentax%2C%20estou%20a%20ler%20%22O%20regime%20especial%20dos%20trabalhadores%20aut%C3%B3nomos%20em%20Espanha%20(RETA)%20contribui%20des%E2%80%A6%22%20e%20quero%20falar%20com%20um%20assessor%20sobre%20o%20meu%20caso.">WhatsApp</a> e respondemos hoje.</p>
 
 Se preferes falar diretamente, <a href="/pt/agendar">marca uma sessão gratuita</a> e analisamos o teu caso real em trinta minutos.
 
