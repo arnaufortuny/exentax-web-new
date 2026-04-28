@@ -9,6 +9,7 @@ import { logger } from "./logger";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
 import { startEmailRetryWorker } from "./email-retry-queue";
 import { startDripWorker } from "./scheduled/drip-worker";
+import { startDiscordAlertWorker } from "./discord-alerts";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
 import { notifyCriticalError } from "./discord";
 import { SITE_URL } from "./server-constants";
@@ -523,6 +524,16 @@ activeIntervals.push(startEmailRetryWorker(60_000));
 // Start the drip-sequence worker (advances drip_enrollments steps 2–6
 // on the day-3/6/9/12/15 cadence). Step 1 fires inline at enroll time.
 activeIntervals.push(startDripWorker(60_000));
+
+// Task #32 — evaluate Discord interaction-telemetry alert rules every minute.
+// Closes the observability loop opened by Task #12 (signature failures,
+// replay rejections, unauthorised attempts, queue drops) by posting a
+// throttled `system_error` notification to #exentax-errores when any of
+// those counters cross their per-minute threshold. Thresholds and timing
+// are documented in docs/deploy/DISCORD-SETUP.md §11 and overridable via
+// `DISCORD_ALERT_THRESHOLD_*`, `DISCORD_ALERT_WINDOW_SECONDS` and
+// `DISCORD_ALERT_REMINDER_MINUTES` env vars.
+activeIntervals.push(startDiscordAlertWorker(60_000));
 
 
 app.use((req, res, next) => {

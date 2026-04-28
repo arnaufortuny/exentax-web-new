@@ -321,6 +321,55 @@ $METRICS_TOKEN`).
 - Si proviene de un guild externo (alguien añadió el bot a otro
   servidor), revoca esa instalación desde el Developer Portal.
 
+### Reglas de alerta automáticas (Task #32)
+
+Sin Alertmanager externo: el proceso evalúa internamente las cuatro métricas
+críticas de Task #12 cada minuto y publica un único embed throttled en
+`#exentax-errores` (`system_error`, prefijo `[ERROR]`) cuando la *tasa por
+minuto* supera el umbral. Implementación: `server/discord-alerts.ts`,
+arrancado desde `server/index.ts` junto al resto de workers.
+
+Comportamiento:
+
+- **Warm-up.** La primera muestra solo establece la línea base; nunca
+  dispara una alerta nada más arrancar el proceso (evita falsos positivos
+  por contadores acumulados antes del reinicio).
+- **Sliding window.** Se calcula `delta(metric) / window * 60` con la
+  ventana de `DISCORD_ALERT_WINDOW_SECONDS` (60 s por defecto) y la
+  baseline rueda hacia delante cada vez que la ventana expira.
+- **Throttle.** Mientras la regla siga por encima del umbral solo se
+  re-notifica cada `DISCORD_ALERT_REMINDER_MINUTES` (30 min por defecto)
+  con un recordatorio "still firing" — el resto de evaluaciones quedan
+  silenciadas.
+- **Resolución.** En cuanto la tasa baja por debajo del umbral se publica
+  un embed final `RESOLVED` (criticidad `info`) y la regla vuelve a estado
+  limpio.
+
+| Regla (`ruleId`) | Métrica origen | Umbral por defecto | Override env var |
+|---|---|---|---|
+| `signature_failures` | `discord_signature_failures_total` (sum reasons) | 10 / min | `DISCORD_ALERT_THRESHOLD_SIGNATURE_FAILURES` |
+| `replay_rejected`    | `discord_replay_rejected_total`                  | 5 / min  | `DISCORD_ALERT_THRESHOLD_REPLAY_REJECTED` |
+| `unauthorised`       | `discord_unauthorised_total`                     | 10 / min | `DISCORD_ALERT_THRESHOLD_UNAUTHORISED` |
+| `dropped`            | `discord_dropped_total`                          | 1 / min  | `DISCORD_ALERT_THRESHOLD_DROPPED` |
+
+Otros knobs:
+
+- `DISCORD_ALERT_WINDOW_SECONDS` (default `60`) — ventana de cómputo de
+  tasa. Bajarlo da alertas más sensibles pero más ruidosas.
+- `DISCORD_ALERT_REMINDER_MINUTES` (default `30`) — cadencia del embed
+  "still firing" durante un incidente sostenido.
+
+Cualquier valor no positivo o no numérico se ignora y se aplica el default;
+así un `.env` mal editado nunca deja al sistema sin alertas.
+
+Cada alerta lleva los campos `Metric`, `Rate`, `Threshold`, `Window`,
+`Firing since` y `State` (`FIRING` / `STILL FIRING` / `RESOLVED`) para que
+el operador pueda decidir desde el propio embed si abrir un incidente o
+esperar el recordatorio. La `dedupKey` incluye el bucket de minuto y el
+estado, lo que evita duplicados intra-minuto pero permite que `firing`,
+`still_firing` y `resolved` lleguen aunque coincidan en la misma ventana
+de dedupe (5 min) de `notifyEvent`.
+
 ### Incidentes de seguridad — pasos comunes
 
 1. **Rotar `DISCORD_BOT_TOKEN`** (Bot → Reset Token). El token previo deja
