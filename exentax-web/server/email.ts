@@ -13,6 +13,7 @@ import {
   C_BG, C_NEON, C_NEON_DK, C_TEXT_1, C_TEXT_2, C_TEXT_3, C_BORDER,
   C_ACCENT, C_ACCENT_BG, C_ACCENT_BD, F_STACK,
 } from "./email-layout";
+import { buildIcsAttachment, buildGoogleCalendarUrl } from "./calendar-invite";
 import { escapeHtml } from "./routes/shared";
 import { FX_RATES_PER_EUR, convertFromEUR as fxConvertFromEUR } from "../shared/calculator-fx";
 import { BRAND_NAME, CONTACT_EMAIL, type SupportedLang } from "./server-constants";
@@ -550,48 +551,90 @@ export async function sendReminderEmail(data: ReminderEmailData) {
   const rt = t.reminder;
   const gmail = getGmailClient();
   const firstName = escapeHtml(data.clientName.split(" ")[0]);
+  const dateFormatted = t.dateFormatter(data.date);
+
+  // Build the calendar invite (.ics) and the one-click "Add to Google
+  // Calendar" link from the same canonical Madrid wall-time. The .ics covers
+  // Apple Calendar / Outlook / Fastmail and the link covers Gmail users that
+  // would rather not download an attachment. Both are derived from the same
+  // booking row so they cannot drift.
+  const calendarSummary = rt.calendarSummary;
+  const calendarDescription = rt.calendarDescription(data.manageUrl ?? null);
+  const calendarPayload = {
+    date: data.date,
+    startTime: data.startTime,
+    endTime: data.endTime,
+    summary: calendarSummary,
+    description: calendarDescription,
+    meetingType: data.meetingType,
+    meetLink: data.meetLink,
+    phone: data.phone,
+    manageUrl: data.manageUrl,
+    agendaId: data.agendaId ?? null,
+    clientEmail: data.clientEmail,
+    phoneCallLabel: rt.phoneCallLocation,
+  };
+  const icsAttachment = buildIcsAttachment(calendarPayload);
+  const googleCalUrl = buildGoogleCalendarUrl(calendarPayload);
+
+  const timeValue = `${data.startTime} – ${data.endTime} <span style="color:${C_TEXT_3};font-weight:500;">· ${escapeHtml(rt.timezoneNote)}</span>`;
 
   const clientBody = `
     ${heading(rt.heading(firstName))}
 
     ${bodyText(rt.intro)}
 
+    ${label(rt.detailsTitle)}
+
     ${infoCard([
-      { icon: "clock", label: rt.timeLabel, value: data.startTime },
+      { icon: "calendar", label: rt.dateLabel, value: dateFormatted },
+      { icon: "clock", label: rt.timeLabel, value: timeValue },
     ])}
 
     ${meetingBlock({ meetingType: data.meetingType, meetLink: data.meetLink, phone: data.phone, lang })}
 
     ${divider()}
 
-    ${bodyText(`<strong>${rt.directTitle}</strong>`)}
+    ${bodyText(`<strong>${rt.briefTitle}</strong>`)}
 
-    ${bodyText(rt.directDesc)}
+    ${bodyText(rt.briefDesc)}
 
     ${divider()}
 
-    ${bodyText(rt.prepareTitle)}
-
-    ${bulletList(rt.prepareItems)}
+    ${greenPanel(rt.prepareTitle, bulletList(rt.prepareItems))}
 
     ${bodyText(rt.prepareNote)}
 
     ${divider()}
 
+    ${label(rt.addCalendarTitle)}
+
+    ${bodyText(rt.addCalendarDesc)}
+
+    ${ctaButton(googleCalUrl, rt.addCalendarCta)}
+
+    ${bodyText(rt.icsAttachedNote)}
+
     ${data.manageUrl
-      ? `${bodyText(`${rt.imprevisto} <a href="${data.manageUrl}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">${data.manageUrl}</a>`)}`
+      ? `${divider()}
+
+    ${label(rt.manageTitle)}
+
+    ${bodyText(rt.manageDesc)}
+
+    ${ctaButton(data.manageUrl, rt.ctaManage)}`
       : ""}
 
     ${brandSignature(lang, rt.closing)}
     ${unsubNote(rt.unsubNote)}
   `;
 
-  const reminderSubj = `${rt.subjectPrefix} | ${data.startTime}`;
-  const html = emailHtml(clientBody, `${rt.subjectPrefix} | ${data.startTime}`, lang);
+  const reminderSubj = rt.subject(data.startTime);
+  const html = emailHtml(clientBody, reminderSubj, lang);
 
   if (gmail) {
     try {
-      await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL);
+      await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment]);
       logger.info(`Reminder sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: "enviado", clientName: data.clientName, clientLanguage: lang });
     } catch (err) {

@@ -734,6 +734,7 @@ async function sendManualEmail(id: string, tipo: string, actor: ActorContext, in
       date: row.meetingDate, startTime: row.startTime, endTime: row.endTime,
       meetLink: row.googleMeet || null, manageUrl,
       language: lang,
+      agendaId: id,
     });
     await logAdminAction({ bookingId: id, actorDiscordId: actor.id, actorDiscordName: actor.name, action: "cita.email.recordatorio" });
     notifyAdminAction({ actor, action: "cita.email.recordatorio", title: `Recordatorio enviado · ${id}` });

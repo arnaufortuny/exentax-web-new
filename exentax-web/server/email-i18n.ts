@@ -30,18 +30,30 @@ interface EmailTranslations {
     unsubNote: string;
   };
   reminder: {
-    subjectPrefix: string;
+    subject: (startTime: string) => string;
     heading: (name: string) => string;
     intro: string;
+    detailsTitle: string;
+    dateLabel: string;
     timeLabel: string;
-    directTitle: string;
-    directDesc: string;
+    timezoneNote: string;
+    briefTitle: string;
+    briefDesc: string;
     prepareTitle: string;
     prepareItems: string[];
     prepareNote: string;
-    imprevisto: string;
+    addCalendarTitle: string;
+    addCalendarDesc: string;
+    addCalendarCta: string;
+    icsAttachedNote: string;
+    manageTitle: string;
+    manageDesc: string;
+    ctaManage: string;
     closing: string;
     unsubNote: string;
+    calendarSummary: string;
+    calendarDescription: (manageUrl: string | null) => string;
+    phoneCallLocation: string;
   };
   calculator: {
     subjectPrefix: string;
@@ -195,23 +207,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "Has recibido este email porque reservaste una asesoría en exentax.com.",
     },
     reminder: {
-      subjectPrefix: "Mañana vemos tu caso",
+      subject: (startTime) => `Tu asesoría es hoy a las ${startTime} (Madrid)`,
       heading: (name) => `Hola ${name},`,
-      intro: "Mañana tenemos la asesoría.",
+      intro: "En unas horas tenemos tu asesoría. Te dejo todo lo necesario en este email para que llegues sin pensar en nada.",
+      detailsTitle: "Tu asesoría",
+      dateLabel: "Fecha",
       timeLabel: "Hora",
-      directTitle: "La idea es ir al punto.",
-      directDesc: "Ver cómo estás operando, qué estás pagando y si hay margen real de mejora.",
-      prepareTitle: "Si puedes, ven con una idea clara de:",
+      timezoneNote: "Hora peninsular (Europe/Madrid)",
+      briefTitle: "Cómo la vamos a enfocar",
+      briefDesc: "Vamos directos al grano: cómo estás operando hoy, qué estás pagando y si hay margen real de mejora. Sin teoría innecesaria.",
+      prepareTitle: "Para sacarle partido en 30 minutos, ten claro:",
       prepareItems: [
-        "Cómo generas ingresos",
-        "Dónde resides",
-        "Cómo cobras actualmente",
-        "Qué estás pagando",
+        "Cómo generas ingresos exactamente",
+        "Dónde resides fiscalmente hoy",
+        "Cómo estás cobrando actualmente",
+        "Qué estás pagando aproximadamente en impuestos y cuotas",
       ],
-      prepareNote: "Con eso en pocos minutos podemos darte una visión bastante clara.",
-      imprevisto: "Si te surge cualquier imprevisto:",
-      closing: "Nos vemos mañana,",
+      prepareNote: "Con eso podemos darte una visión clara en muy poco tiempo.",
+      addCalendarTitle: "Añade la asesoría a tu calendario",
+      addCalendarDesc: "Para que no se te pase, puedes añadirla a tu calendario en un clic:",
+      addCalendarCta: "Añadir a Google Calendar",
+      icsAttachedNote: "También tienes adjunto un archivo .ics que abre directamente en Apple Calendar, Outlook o cualquier otro calendario.",
+      manageTitle: "¿Necesitas cancelar o cambiar la hora?",
+      manageDesc: "Si te surge cualquier imprevisto, puedes reagendar o cancelar la asesoría desde tu enlace personal sin escribirnos. Tarda 10 segundos:",
+      ctaManage: "Cancelar o reagendar",
+      closing: "Nos vemos en un rato,",
       unsubNote: "Has recibido este recordatorio porque tienes una asesoría programada en exentax.com.",
+      calendarSummary: "Asesoría con Exentax",
+      calendarDescription: (manageUrl) =>
+        `Asesoría gratuita con Exentax (30 min).\n\nAnalizaremos tu situación actual y veremos si tiene sentido estructurar tu actividad con una LLC en EE.UU. Sin presión y sin teoría innecesaria.${manageUrl ? `\n\nGestionar la asesoría: ${manageUrl}` : ""}`,
+      phoneCallLocation: "Llamada telefónica",
     },
     calculator: {
       subjectPrefix: "Tu estimación fiscal",
@@ -419,23 +444,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "You received this email because you booked a consultation at exentax.com.",
     },
     reminder: {
-      subjectPrefix: "Tomorrow we review your case",
+      subject: (startTime) => `Your consultation today at ${startTime} (Madrid)`,
       heading: (name) => `Hi ${name},`,
-      intro: "Tomorrow we have the consultation.",
+      intro: "Your consultation is in a few hours. Everything you need is in this email so you can show up without thinking about logistics.",
+      detailsTitle: "Your consultation",
+      dateLabel: "Date",
       timeLabel: "Time",
-      directTitle: "We'll get straight to the point.",
-      directDesc: "We'll look at how you're operating, what you're paying, and whether there's real room for improvement.",
-      prepareTitle: "If you can, come with a clear idea of:",
+      timezoneNote: "Madrid time (Europe/Madrid)",
+      briefTitle: "How we'll use the time",
+      briefDesc: "Straight to the point: how you're operating today, what you're paying, and whether there's real room to improve. No unnecessary theory.",
+      prepareTitle: "To get the most out of 30 minutes, have a clear picture of:",
       prepareItems: [
-        "How you generate income",
-        "Where you reside",
-        "How you currently get paid",
-        "What you're paying in taxes",
+        "How you generate income, exactly",
+        "Where you actually reside for tax purposes",
+        "How you currently collect payments",
+        "What you're roughly paying in taxes and fixed contributions",
       ],
-      prepareNote: "With that, in just a few minutes we can give you a fairly clear picture.",
-      imprevisto: "If something comes up:",
-      closing: "See you tomorrow,",
+      prepareNote: "With that, we can give you a clear read in very little time.",
+      addCalendarTitle: "Add the meeting to your calendar",
+      addCalendarDesc: "So you don't miss it, you can add it to your calendar in one click:",
+      addCalendarCta: "Add to Google Calendar",
+      icsAttachedNote: "We've also attached a .ics file that opens directly in Apple Calendar, Outlook or any other calendar app.",
+      manageTitle: "Need to cancel or change the time?",
+      manageDesc: "If something comes up, you can reschedule or cancel the consultation from your personal link without writing to us. It takes 10 seconds:",
+      ctaManage: "Cancel or reschedule",
+      closing: "See you in a bit,",
       unsubNote: "You received this reminder because you have a consultation scheduled at exentax.com.",
+      calendarSummary: "Consultation with Exentax",
+      calendarDescription: (manageUrl) =>
+        `Free consultation with Exentax (30 min).\n\nWe'll review your current situation and see whether structuring your activity through a US LLC makes sense for you. No pressure and no unnecessary theory.${manageUrl ? `\n\nManage the consultation: ${manageUrl}` : ""}`,
+      phoneCallLocation: "Phone call",
     },
     calculator: {
       subjectPrefix: "Your tax estimate",
@@ -643,23 +681,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "Vous avez reçu cet email car vous avez réservé une consultation sur exentax.com.",
     },
     reminder: {
-      subjectPrefix: "Demain nous voyons votre cas",
+      subject: (startTime) => `Votre consultation aujourd'hui à ${startTime} (Madrid)`,
       heading: (name) => `Bonjour ${name},`,
-      intro: "Demain nous avons la consultation.",
+      intro: "Votre consultation a lieu dans quelques heures. Vous trouverez tout le nécessaire dans cet email pour ne pas avoir à y penser.",
+      detailsTitle: "Votre consultation",
+      dateLabel: "Date",
       timeLabel: "Heure",
-      directTitle: "L'idée est d'aller droit au but.",
-      directDesc: "Voir comment vous opérez, ce que vous payez et s'il y a une marge réelle d'amélioration.",
-      prepareTitle: "Si possible, venez avec une idée claire de :",
+      timezoneNote: "Heure de Madrid (Europe/Madrid)",
+      briefTitle: "Comment nous allons utiliser le temps",
+      briefDesc: "Droit au but : comment vous opérez aujourd'hui, ce que vous payez et s'il y a une vraie marge d'amélioration. Sans théorie inutile.",
+      prepareTitle: "Pour tirer le meilleur des 30 minutes, ayez en tête :",
       prepareItems: [
-        "Comment vous générez des revenus",
-        "Où vous résidez",
-        "Comment vous encaissez actuellement",
-        "Ce que vous payez",
+        "Comment vous générez vos revenus, précisément",
+        "Où vous résidez réellement sur le plan fiscal",
+        "Comment vous encaissez aujourd'hui",
+        "Ce que vous payez approximativement en impôts et cotisations fixes",
       ],
-      prepareNote: "Avec cela, en quelques minutes nous pouvons vous donner une vision assez claire.",
-      imprevisto: "Si un imprévu survient :",
-      closing: "À demain,",
+      prepareNote: "Avec cela, nous pouvons vous donner une vision claire en très peu de temps.",
+      addCalendarTitle: "Ajoutez la consultation à votre agenda",
+      addCalendarDesc: "Pour ne rien laisser au hasard, vous pouvez l'ajouter à votre agenda en un clic :",
+      addCalendarCta: "Ajouter à Google Agenda",
+      icsAttachedNote: "Vous avez aussi un fichier .ics en pièce jointe, qui s'ouvre directement dans Apple Calendar, Outlook ou tout autre agenda.",
+      manageTitle: "Besoin d'annuler ou de changer l'heure ?",
+      manageDesc: "Si un imprévu survient, vous pouvez reprogrammer ou annuler la consultation depuis votre lien personnel, sans nous écrire. Cela prend 10 secondes :",
+      ctaManage: "Annuler ou reprogrammer",
+      closing: "À tout à l'heure,",
       unsubNote: "Vous avez reçu ce rappel car vous avez une consultation programmée sur exentax.com.",
+      calendarSummary: "Consultation avec Exentax",
+      calendarDescription: (manageUrl) =>
+        `Consultation gratuite avec Exentax (30 min).\n\nNous analyserons votre situation actuelle et verrons s'il est pertinent de structurer votre activité via une LLC aux États-Unis. Sans pression et sans théorie inutile.${manageUrl ? `\n\nGérer la consultation : ${manageUrl}` : ""}`,
+      phoneCallLocation: "Appel téléphonique",
     },
     calculator: {
       subjectPrefix: "Votre estimation fiscale",
@@ -867,23 +918,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "Sie haben diese E-Mail erhalten, weil Sie eine Beratung auf exentax.com gebucht haben.",
     },
     reminder: {
-      subjectPrefix: "Morgen besprechen wir Ihren Fall",
+      subject: (startTime) => `Ihre Beratung heute um ${startTime} (Madrid)`,
       heading: (name) => `Hallo ${name},`,
-      intro: "Morgen haben wir die Beratung.",
+      intro: "Ihre Beratung findet in wenigen Stunden statt. In dieser E-Mail finden Sie alles Notwendige, damit Sie sich um nichts mehr kümmern müssen.",
+      detailsTitle: "Ihre Beratung",
+      dateLabel: "Datum",
       timeLabel: "Uhrzeit",
-      directTitle: "Die Idee ist, direkt zum Punkt zu kommen.",
-      directDesc: "Wir schauen, wie Sie arbeiten, was Sie zahlen und ob es echten Verbesserungsspielraum gibt.",
-      prepareTitle: "Wenn möglich, kommen Sie mit einer klaren Vorstellung von:",
+      timezoneNote: "Madrider Zeit (Europe/Madrid)",
+      briefTitle: "So nutzen wir die Zeit",
+      briefDesc: "Direkt zum Punkt: Wie Sie heute arbeiten, was Sie zahlen und ob es echten Verbesserungsspielraum gibt. Ohne unnötige Theorie.",
+      prepareTitle: "Damit Sie 30 Minuten optimal nutzen, sollten Sie wissen:",
       prepareItems: [
-        "Wie Sie Einkommen generieren",
-        "Wo Sie ansässig sind",
-        "Wie Sie derzeit kassieren",
-        "Was Sie zahlen",
+        "Wie Sie genau Einkommen generieren",
+        "Wo Sie tatsächlich steuerlich ansässig sind",
+        "Wie Sie derzeit Ihre Zahlungen einnehmen",
+        "Was Sie ungefähr an Steuern und festen Beiträgen zahlen",
       ],
-      prepareNote: "Damit können wir Ihnen in wenigen Minuten ein recht klares Bild geben.",
-      imprevisto: "Falls etwas dazwischenkommt:",
-      closing: "Bis morgen,",
+      prepareNote: "Damit können wir Ihnen in sehr kurzer Zeit ein klares Bild geben.",
+      addCalendarTitle: "Beratung in Ihren Kalender eintragen",
+      addCalendarDesc: "Damit nichts untergeht, können Sie sie mit einem Klick in Ihren Kalender übernehmen:",
+      addCalendarCta: "Zu Google Kalender hinzufügen",
+      icsAttachedNote: "Im Anhang finden Sie zusätzlich eine .ics-Datei, die sich direkt in Apple Kalender, Outlook oder jedem anderen Kalender öffnen lässt.",
+      manageTitle: "Müssen Sie absagen oder die Uhrzeit ändern?",
+      manageDesc: "Wenn etwas dazwischenkommt, können Sie die Beratung über Ihren persönlichen Link verschieben oder absagen, ohne uns zu schreiben. Dauert 10 Sekunden:",
+      ctaManage: "Absagen oder verschieben",
+      closing: "Bis gleich,",
       unsubNote: "Sie haben diese Erinnerung erhalten, weil Sie eine Beratung auf exentax.com geplant haben.",
+      calendarSummary: "Beratung mit Exentax",
+      calendarDescription: (manageUrl) =>
+        `Kostenlose Beratung mit Exentax (30 Min.).\n\nWir analysieren Ihre aktuelle Situation und prüfen, ob es sinnvoll ist, Ihre Tätigkeit über eine US-LLC zu strukturieren. Ohne Druck und ohne unnötige Theorie.${manageUrl ? `\n\nBeratung verwalten: ${manageUrl}` : ""}`,
+      phoneCallLocation: "Telefonanruf",
     },
     calculator: {
       subjectPrefix: "Ihre Steuerberechnung",
@@ -1091,23 +1155,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "Recebeu este email porque marcou uma consultoria em exentax.com.",
     },
     reminder: {
-      subjectPrefix: "Amanhã vemos o seu caso",
+      subject: (startTime) => `A sua consultoria hoje às ${startTime} (Madrid)`,
       heading: (name) => `Olá ${name},`,
-      intro: "Amanhã temos a consultoria.",
+      intro: "A sua consultoria é dentro de algumas horas. Tem aqui tudo o que precisa neste email para não ter de pensar em nada.",
+      detailsTitle: "A sua consultoria",
+      dateLabel: "Data",
       timeLabel: "Hora",
-      directTitle: "A ideia é ir direto ao ponto.",
-      directDesc: "Ver como está a operar, o que está a pagar e se há margem real de melhoria.",
-      prepareTitle: "Se puder, venha com uma ideia clara de:",
+      timezoneNote: "Hora de Madrid (Europe/Madrid)",
+      briefTitle: "Como vamos aproveitar o tempo",
+      briefDesc: "Direto ao ponto: como está a operar hoje, o que está a pagar e se há margem real de melhoria. Sem teoria desnecessária.",
+      prepareTitle: "Para tirar partido de 30 minutos, tenha claro:",
       prepareItems: [
-        "Como gera rendimentos",
-        "Onde reside",
-        "Como recebe atualmente",
-        "O que está a pagar",
+        "Como gera rendimentos exatamente",
+        "Onde reside fiscalmente de verdade",
+        "Como recebe os pagamentos atualmente",
+        "O que está a pagar aproximadamente em impostos e contribuições fixas",
       ],
-      prepareNote: "Com isso, em poucos minutos podemos dar-lhe uma visão bastante clara.",
-      imprevisto: "Se surgir algum imprevisto:",
-      closing: "Até amanhã,",
+      prepareNote: "Com isso podemos dar-lhe uma visão clara em muito pouco tempo.",
+      addCalendarTitle: "Adicione a consultoria ao seu calendário",
+      addCalendarDesc: "Para não falhar, pode adicioná-la ao seu calendário num clique:",
+      addCalendarCta: "Adicionar ao Google Calendar",
+      icsAttachedNote: "Tem também um ficheiro .ics em anexo que abre diretamente no Apple Calendar, Outlook ou qualquer outro calendário.",
+      manageTitle: "Precisa de cancelar ou mudar a hora?",
+      manageDesc: "Se surgir algum imprevisto, pode reagendar ou cancelar a consultoria a partir do seu link pessoal sem nos escrever. Demora 10 segundos:",
+      ctaManage: "Cancelar ou reagendar",
+      closing: "Até já,",
       unsubNote: "Recebeu este lembrete porque tem uma consultoria agendada em exentax.com.",
+      calendarSummary: "Consultoria com Exentax",
+      calendarDescription: (manageUrl) =>
+        `Consultoria gratuita com Exentax (30 min).\n\nVamos analisar a sua situação atual e ver se faz sentido estruturar a sua atividade através de uma LLC nos EUA. Sem pressão e sem teoria desnecessária.${manageUrl ? `\n\nGerir a consultoria: ${manageUrl}` : ""}`,
+      phoneCallLocation: "Chamada telefónica",
     },
     calculator: {
       subjectPrefix: "A sua estimativa fiscal",
@@ -1315,23 +1392,36 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       unsubNote: "Has rebut aquest email perquè has reservat una assessoria a exentax.com.",
     },
     reminder: {
-      subjectPrefix: "Demà veiem el teu cas",
+      subject: (startTime) => `La teva assessoria és avui a les ${startTime} (Madrid)`,
       heading: (name) => `Hola ${name},`,
-      intro: "Demà tenim l'assessoria.",
+      intro: "En unes hores tenim la teva assessoria. Et deixo tot el necessari en aquest correu perquè arribis sense haver de pensar en res.",
+      detailsTitle: "La teva assessoria",
+      dateLabel: "Data",
       timeLabel: "Hora",
-      directTitle: "La idea és anar al gra.",
-      directDesc: "Veure com estàs operant, què estàs pagant i si hi ha marge real de millora.",
-      prepareTitle: "Si pots, vine amb una idea clara de:",
+      timezoneNote: "Hora peninsular (Europe/Madrid)",
+      briefTitle: "Com l'enfocarem",
+      briefDesc: "Anem al gra: com estàs operant avui, què estàs pagant i si hi ha marge real de millora. Sense teoria innecessària.",
+      prepareTitle: "Per treure'n profit en 30 minuts, tingues clar:",
       prepareItems: [
-        "Com generes ingressos",
-        "On resideixes",
-        "Com cobres actualment",
-        "Què estàs pagant",
+        "Com generes ingressos exactament",
+        "On resideixes fiscalment de veritat",
+        "Com estàs cobrant actualment",
+        "Què estàs pagant aproximadament en impostos i quotes fixes",
       ],
-      prepareNote: "Amb això en pocs minuts podem donar-te una visió bastant clara.",
-      imprevisto: "Si et sorgeix qualsevol imprevist:",
-      closing: "Ens veiem demà,",
+      prepareNote: "Amb això podem donar-te una visió clara en molt poc temps.",
+      addCalendarTitle: "Afegeix l'assessoria al teu calendari",
+      addCalendarDesc: "Perquè no se't passi, pots afegir-la al teu calendari amb un sol clic:",
+      addCalendarCta: "Afegir a Google Calendar",
+      icsAttachedNote: "També tens adjunt un fitxer .ics que s'obre directament a Apple Calendar, Outlook o qualsevol altre calendari.",
+      manageTitle: "Necessites cancel·lar o canviar l'hora?",
+      manageDesc: "Si et sorgeix qualsevol imprevist, pots reagendar o cancel·lar l'assessoria des del teu enllaç personal sense escriure'ns. Triga 10 segons:",
+      ctaManage: "Cancel·lar o reagendar",
+      closing: "Ens veiem aviat,",
       unsubNote: "Has rebut aquest recordatori perquè tens una assessoria programada a exentax.com.",
+      calendarSummary: "Assessoria amb Exentax",
+      calendarDescription: (manageUrl) =>
+        `Assessoria gratuïta amb Exentax (30 min).\n\nAnalitzarem la teva situació actual i veurem si té sentit estructurar la teva activitat amb una LLC als EUA. Sense pressió i sense teoria innecessària.${manageUrl ? `\n\nGestionar l'assessoria: ${manageUrl}` : ""}`,
+      phoneCallLocation: "Trucada telefònica",
     },
     calculator: {
       subjectPrefix: "La teva estimació fiscal",

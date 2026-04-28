@@ -77,6 +77,7 @@ export interface ReminderEmailData {
   phone?: string | null;
   manageUrl?: string | null;
   language?: string | null;
+  agendaId?: string | null;
 }
 
 export interface RescheduleEmailData {
