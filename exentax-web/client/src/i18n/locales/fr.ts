@@ -1088,8 +1088,8 @@ const fr = {
     confirmingDesc: "Nous confirmons votre réservation. Un instant s'il vous plaît.",
   },
   homePage: {
-    seoTitle: "Conseil fiscal d'élite pour votre LLC US | Exentax",
-    seoDesc: "Là où s'arrête le software low-cost, Exentax commence. LLC US, EIN, banque américaine, moins d'impôts, confidentialité maximale et fiscaliste dédié.",
+    seoTitle: "Votre LLC US avec couverture fiscale premium | Exentax",
+    seoDesc: "Constitution, EIN, banque américaine, conformité IRS et un fiscaliste réel au téléphone. La structure légale qu'utilisent founders, fonds et opérateurs sérieux. Sans software low-cost.",
     ogTitle: "Votre LLC américaine en 48 h, sans surprise",
     ogDesc: "Créez votre LLC américaine en 48 h avec des fiscalistes experts. Consultation gratuite 30 min. Exentax : votre LLC américaine opérationnelle en 48 h.",
     seoKeywords: "Exentax, LLC États-Unis, optimisation fiscale, payer moins d'impôts légalement, LLC pour freelances, LLC auto-entrepreneur, structure fiscale, réduire les impôts, fiscalité internationale, LLC Wyoming, LLC Delaware, EIN, Form 5472, conformité IRS, compte bancaire USA, facturer avec LLC américaine, impôts freelance, nomade digital fiscalité",

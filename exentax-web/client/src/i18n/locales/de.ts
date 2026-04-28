@@ -1087,8 +1087,8 @@ const de = {
     confirmingDesc: "Wir bestätigen Ihre Buchung. Einen Moment bitte.",
   },
   homePage: {
-    seoTitle: "Elite-Steuerberatung für Ihre US-LLC | Exentax",
-    seoDesc: "Wo Low-Cost-Software endet, beginnen wir. US-LLC, EIN, US-Banking, weniger Steuern, maximale Privatsphäre und ein echter Steuerberater für Ihren Fall.",
+    seoTitle: "Ihre US-LLC mit Premium-Steuerbetreuung | Exentax",
+    seoDesc: "Gründung, EIN, US-Banking, IRS-Compliance und ein echter Steuerberater am Telefon. Die Rechtsstruktur, die Founder, Fonds und ernsthafte Operatoren nutzen. Ohne Low-Cost-Software.",
     ogTitle: "Ihre US-LLC in 48 Stunden – garantiert",
     ogDesc: "Gründen Sie Ihre US-LLC in 48 Stunden mit Steuerexperten. Kostenlose 30-Minuten-Beratung. Exentax begleitet Ihre LLC von der Diagnose bis zum Alltag.",
     seoKeywords: "Exentax, US LLC, Steueroptimierung, legal weniger Steuern zahlen, LLC für Freiberufler, LLC Selbstständige, Steuerstruktur, Steuern reduzieren, internationale Besteuerung, Wyoming LLC, Delaware LLC, EIN, Form 5472, IRS Compliance, US-Bankkonto, mit US LLC fakturieren, Freiberufler Steuern, digitaler Nomade Steuern",
