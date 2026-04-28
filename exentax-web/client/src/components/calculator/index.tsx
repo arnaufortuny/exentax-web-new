@@ -332,13 +332,6 @@ export default function Calculator({ compact: compactProp = false }: CalculatorP
       data-testid="calculator"
       style={{ background: 'var(--card-bg)' }}
     >
-      <div className="flex items-center justify-center gap-2 mb-3">
-        <span className="h-px w-8 bg-gradient-to-r from-transparent to-[rgba(0,229,16,0.6)]" />
-        <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--green)]">
-          {t("calculator.eyebrow", { defaultValue: "Diagnóstico fiscal" })}
-        </span>
-        <span className="h-px w-8 bg-gradient-to-l from-transparent to-[rgba(0,229,16,0.6)]" />
-      </div>
       <h3 className={`font-heading font-bold text-[var(--text-1)] text-center leading-[1.05] tracking-[-0.025em] ${compact ? "text-[22px] sm:text-[26px]" : "text-3xl sm:text-4xl lg:text-[42px]"}`}>
         {t("calculator.title")}
       </h3>
