@@ -45,6 +45,8 @@ reports/seo/*
 # CI and fails critical if it is missing or older than 14 days. Refresh it
 # with `node scripts/blog-verify-source-urls.mjs`.
 !reports/seo/source-url-verification.json
+!reports/seo/lote5-veracidad.md
+!reports/seo/lote5-veracidad.json
 # Exception: the SERP previews report (Task #4) is committed so reviewers
 # can open the visual gallery without re-running the generator. Refresh it
 # with `npx tsx scripts/seo/serp-previews.ts`.
