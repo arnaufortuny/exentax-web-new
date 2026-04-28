@@ -883,8 +883,18 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
     throw new Error("Gmail not configured");
   }
 
+  // Drip is bulk nurture content (6 emails / 15 days per enrollment), so a
+  // `List-Unsubscribe` header is required to satisfy modern bulk-sender
+  // expectations (Gmail / Yahoo Feb 2024) and to surface a native unsub
+  // affordance in the recipient's MUA. We use the `mailto:` form as a
+  // baseline because the drip table does not yet carry a per-enrollment
+  // token (audit follow-up F-1 upgrades this to a one-click HTTPS endpoint).
+  // `List-Unsubscribe-Post: One-Click` is intentionally NOT set here — it
+  // requires an HTTPS endpoint that resolves a single-use token.
+  const dripUnsub = `mailto:${SENDER_EMAIL}?subject=Unsubscribe%20drip`;
+
   try {
-    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL);
+    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, undefined, undefined, undefined, { listUnsubscribe: dripUnsub });
     if (!ok) {
       logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "sendEmail returned false" });
       throw new Error("sendEmail returned false");

@@ -14,9 +14,73 @@ import { logger } from "../logger";
 import { snapshot, renderPrometheus, setEmailRetryQueueSize, setDbPoolStats, incClientError } from "../metrics";
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
-import { getDiscordQueueSize } from "../discord";
+import { getDiscordQueueSize, notifyEvent } from "../discord";
 import { isBotConfigured, checkDiscordConnectivity } from "../discord-bot";
 import { checkCsrfOrigin } from "../route-helpers";
+
+// ─── Email retry queue overflow alert ────────────────────────────────────────
+//
+// We piggy-back on the metrics scrape (the only existing path that polls the
+// queue size from the DB) to emit a Discord warning when the backlog grows
+// past `EMAIL_RETRY_QUEUE_ALERT_THRESHOLD` (env, default 25). The alert is
+// dedup-keyed and protected by a hysteresis flag so a sustained backlog only
+// ever produces one notification per ~30 min, and we re-arm only after the
+// queue drains below `threshold / 2` (low-watermark) to prevent flapping at
+// the boundary. When the queue clears we emit a single follow-up "drained"
+// info notice with a matching dedup key suffix so the operator timeline
+// shows the close-out without spamming the channel.
+const ALERT_THRESHOLD = Math.max(1, Number(process.env.EMAIL_RETRY_QUEUE_ALERT_THRESHOLD || 25));
+let _queueAlertArmed = true;        // becomes false once we've alerted; re-arms below low-watermark
+let _lastQueueAlertAt = 0;
+
+function maybeAlertEmailRetryQueue(size: number): void {
+  const lowWatermark = Math.max(1, Math.floor(ALERT_THRESHOLD / 2));
+  // High-watermark: alert once per 30 min while size stays elevated.
+  if (size >= ALERT_THRESHOLD && _queueAlertArmed) {
+    _queueAlertArmed = false;
+    _lastQueueAlertAt = Date.now();
+    notifyEvent({
+      type: "system_error",
+      criticality: "warning",
+      title: "Email retry queue backlog over threshold",
+      description: [
+        `**Current size**: \`${size}\``,
+        `**Threshold**: \`${ALERT_THRESHOLD}\``,
+        `Email retries are accumulating. Check Gmail API quota,`,
+        `service-account credentials and the email worker heartbeat`,
+        `(\`/api/health/ready\` → \`emailWorker\`).`,
+      ].join("\n"),
+      channel: "errores",
+      origin: "metrics/email-retry-queue",
+      // 30-min dedup so a sustained backlog produces at most one notice.
+      dedupKey: `email_retry_queue_size_high_${Math.floor(Date.now() / (30 * 60_000))}`,
+    });
+    logger.warn(
+      `[email-retry] queue size ${size} >= threshold ${ALERT_THRESHOLD} — Discord alert emitted`,
+      "metrics",
+    );
+  } else if (size <= lowWatermark && !_queueAlertArmed) {
+    // Re-arm and emit a single "cleared" notice so operators see the recovery.
+    _queueAlertArmed = true;
+    notifyEvent({
+      type: "admin_action",
+      criticality: "info",
+      title: "Email retry queue drained",
+      description: [
+        `**Current size**: \`${size}\``,
+        `**Low watermark**: \`${lowWatermark}\``,
+        `Backlog is back to normal — alert re-armed.`,
+      ].join("\n"),
+      channel: "errores",
+      origin: "metrics/email-retry-queue",
+      dedupKey: `email_retry_queue_size_cleared_${_lastQueueAlertAt}`,
+    });
+    logger.info(
+      `[email-retry] queue size ${size} <= low watermark ${lowWatermark} — alert re-armed`,
+      "metrics",
+    );
+  }
+}
 
 interface ReadinessResult {
   status: "ready" | "degraded";
@@ -183,6 +247,13 @@ export function registerObservabilityRoutes(
     try {
       const size = await getEmailRetryQueueSize();
       setEmailRetryQueueSize(size);
+      // Side-effect: emit a Discord alert if the backlog crosses the
+      // configured threshold (with hysteresis + dedup — see the helper
+      // at the top of this file). Wrapped so any notification failure
+      // never breaks the metrics endpoint itself.
+      try { maybeAlertEmailRetryQueue(size); } catch (err) {
+        logger.warn(`[metrics] retry-queue alert hook failed: ${err instanceof Error ? err.message : String(err)}`, "metrics");
+      }
     } catch { /* metrics path is best-effort */ }
     try {
       setDbPoolStats(getPoolStats());
