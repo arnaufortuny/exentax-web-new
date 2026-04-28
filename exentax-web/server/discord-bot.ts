@@ -28,6 +28,12 @@ import type { Request, Response, Express } from "express";
 import type { RESTPatchAPIWebhookWithTokenMessageJSONBody } from "discord-api-types/v10";
 import { logger } from "./logger";
 import { dispatchSlashCommand, dispatchComponent, dispatchModalSubmit } from "./discord-bot-commands";
+import {
+  incDiscordSignatureFailure, incDiscordReplayRejected, incDiscordUnauthorised,
+  incDiscordAuditWriteFailure,
+  incDiscordInteractionType, recordDiscordCommand,
+} from "./metrics";
+import { logAdminAction } from "./storage";
 
 // ─── Discord protocol constants ─────────────────────────────────────────────
 
@@ -99,6 +105,49 @@ export function verifyDiscordSignature(rawBody: Buffer, signatureHex: string, ti
   } catch {
     return false;
   }
+}
+
+// Replay-protection window for inbound interactions. Discord's own
+// signature spec proves the payload was minted by Discord but it does NOT
+// itself constrain how stale the timestamp may be — without our own window
+// a captured request could be replayed at any later time. 5 minutes is
+// generous enough to survive clock skew + reasonable network latency
+// (Discord docs themselves use ±5min in their official examples) and
+// short enough to make replay capture effectively useless.
+export const SIGNATURE_TIMESTAMP_WINDOW_SECONDS = 5 * 60;
+
+export type SignatureCheck =
+  | { ok: true }
+  | { ok: false; reason: "missing" | "bad_format" | "bad_signature" | "replay_window" };
+
+/**
+ * Strict, structured signature + replay check for the inbound Discord
+ * interaction request. The boolean variant above is preserved so existing
+ * callers (and the E2E suite) keep their contract; the route layer uses
+ * this richer variant to emit the right Prometheus counter and to return
+ * a precise 401 reason without leaking which check failed in the public
+ * response body.
+ */
+export function checkInboundSignature(
+  rawBody: Buffer | undefined, signatureHex: string, timestampHeader: string,
+  nowSeconds: number = Math.floor(Date.now() / 1000),
+): SignatureCheck {
+  if (!rawBody || !signatureHex || !timestampHeader) {
+    return { ok: false, reason: "missing" };
+  }
+  // The timestamp header is documented as a Unix epoch in seconds; reject
+  // anything that is not a positive integer string before we even hash it.
+  const ts = Number(timestampHeader);
+  if (!Number.isFinite(ts) || ts <= 0 || !/^\d+$/.test(timestampHeader)) {
+    return { ok: false, reason: "bad_format" };
+  }
+  if (Math.abs(nowSeconds - ts) > SIGNATURE_TIMESTAMP_WINDOW_SECONDS) {
+    return { ok: false, reason: "replay_window" };
+  }
+  if (!verifyDiscordSignature(rawBody, signatureHex, timestampHeader)) {
+    return { ok: false, reason: "bad_signature" };
+  }
+  return { ok: true };
 }
 
 // ─── Discord API minimal shapes ──────────────────────────────────────────────
@@ -185,6 +234,41 @@ interface RequestWithRawBody extends Request {
   rawBody?: Buffer;
 }
 
+/**
+ * Derive a human-meaningful command label for metrics + audit. Slash
+ * commands resolve to `<top> <subcommand>` (e.g. `agenda.bloquear`),
+ * components and modals to `component:<custom_id_prefix>` so the per-
+ * command counter stays bounded even when custom_ids carry booking IDs.
+ */
+function commandLabelFor(interaction: DiscordInteraction): string {
+  if (interaction.type === INTERACTION_TYPE.APPLICATION_COMMAND) {
+    const top = interaction.data?.name || "unknown";
+    const subRaw = interaction.data?.options?.[0];
+    const sub = subRaw && subRaw.type === 1 ? subRaw.name : null;
+    return sub ? `${top}.${sub}` : top;
+  }
+  if (interaction.type === INTERACTION_TYPE.MESSAGE_COMPONENT) {
+    const id = interaction.data?.custom_id || "unknown";
+    return `component:${id.split(":")[0]}`;
+  }
+  if (interaction.type === INTERACTION_TYPE.MODAL_SUBMIT) {
+    const id = interaction.data?.custom_id || "unknown";
+    return `modal:${id.split(":")[0]}`;
+  }
+  return `type:${interaction.type}`;
+}
+
+/**
+ * Generate a short, opaque correlation id we can include in operator-facing
+ * error replies. The id is unique enough to grep server logs for the
+ * matching `[discord-bot] Dispatch failed errorId=…` line; we deliberately
+ * keep it short (8 hex chars) to remain copy-pastable from a Discord
+ * ephemeral message on a phone.
+ */
+function newErrorId(): string {
+  return crypto.randomBytes(4).toString("hex");
+}
+
 export async function handleInteractionRequest(req: RequestWithRawBody, res: Response): Promise<void> {
   if (!isBotConfigured()) {
     res.status(503).json({ error: "discord_bot_not_configured" });
@@ -192,13 +276,20 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
   }
   const signature = String(req.headers["x-signature-ed25519"] || "");
   const timestamp = String(req.headers["x-signature-timestamp"] || "");
-  const rawBody = req.rawBody;
-  if (!signature || !timestamp || !rawBody) {
-    res.status(401).json({ error: "missing_signature" });
-    return;
-  }
-  if (!verifyDiscordSignature(rawBody, signature, timestamp)) {
-    res.status(401).json({ error: "bad_signature" });
+  const sigCheck = checkInboundSignature(req.rawBody, signature, timestamp);
+  if (!sigCheck.ok) {
+    if (sigCheck.reason === "replay_window") {
+      incDiscordReplayRejected();
+      // Treat replay rejections separately in the log so on-call can spot
+      // them without grepping a generic "bad_signature" haystack.
+      logger.warn(`[discord-bot] Rejected interaction outside replay window (ts=${timestamp})`, "discord-bot");
+    } else {
+      incDiscordSignatureFailure(sigCheck.reason);
+    }
+    // Public response stays opaque ("bad_signature") so a probing attacker
+    // cannot tell which gate stopped them. Operators rely on logs + the
+    // reason-tagged Prometheus counter to triage.
+    res.status(401).json({ error: sigCheck.reason === "missing" ? "missing_signature" : "bad_signature" });
     return;
   }
   const interaction = req.body as DiscordInteraction;
@@ -206,6 +297,7 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
     res.status(400).json({ error: "invalid_payload" });
     return;
   }
+  incDiscordInteractionType(interaction.type);
 
   // PING — Discord verification handshake. Must respond synchronously.
   if (interaction.type === INTERACTION_TYPE.PING) {
@@ -216,7 +308,31 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
   // Every non-PING type requires authorisation.
   const actor = resolveActor(interaction);
   if (!actor.isAuthorised) {
-    logger.warn(`[discord-bot] Unauthorised interaction from ${actor.id} (${actor.name}) type=${interaction.type}`, "discord-bot");
+    incDiscordUnauthorised();
+    const label = commandLabelFor(interaction);
+    logger.warn(`[discord-bot] Unauthorised interaction from ${actor.id} (${actor.name}) type=${interaction.type} label=${label}`, "discord-bot");
+    // Persist an audit row so a spike of unauthorised attempts shows up in
+    // the same dashboard as authorised actions. The action prefix
+    // `unauthorized:` keeps it visually distinct in `agenda_admin_actions`
+    // and easy to query (`WHERE action LIKE 'unauthorized:%'`).
+    //
+    // FIRE-AND-FORGET on purpose: Discord enforces a 3s reply deadline. A
+    // slow Postgres or open circuit breaker must never delay the deny
+    // response — the metric `discord_unauthorised_total` already incremented
+    // synchronously above gives us the realtime signal, and the audit log
+    // is best-effort enrichment. Errors are logged, not surfaced.
+    void logAdminAction({
+      actorDiscordId: actor.id,
+      actorDiscordName: actor.name,
+      action: `unauthorized:${label}`,
+      payload: { type: interaction.type, guildId: interaction.guild_id || null, channelId: interaction.channel_id || null },
+    }).catch((err) => {
+      // Bump a metric in addition to the warn line so a sustained DB
+      // outage producing audit gaps shows up in dashboards/alerts and
+      // not just in log search.
+      incDiscordAuditWriteFailure();
+      logger.warn(`[discord-bot] Failed to persist unauthorized audit row: ${err instanceof Error ? err.message : String(err)}`, "discord-bot");
+    });
     res.status(200).json({
       type: INTERACTION_RESPONSE_TYPE.CHANNEL_MESSAGE_WITH_SOURCE,
       data: {
@@ -227,6 +343,8 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
     return;
   }
 
+  const label = commandLabelFor(interaction);
+  const t0 = Date.now();
   try {
     switch (interaction.type) {
       case INTERACTION_TYPE.APPLICATION_COMMAND:
@@ -246,13 +364,23 @@ export async function handleInteractionRequest(req: RequestWithRawBody, res: Res
         return;
     }
   } catch (err) {
-    logger.error(`[discord-bot] Dispatch failed type=${interaction.type}`, "discord-bot", err);
+    // Stable correlation id so the operator can copy/paste it back into a
+    // bug report or grep the server logs. We never expose stack traces or
+    // exception messages to Discord — they may contain PII (booking emails)
+    // or implementation details that aid reconnaissance.
+    const errorId = newErrorId();
+    logger.error(`[discord-bot] Dispatch failed errorId=${errorId} type=${interaction.type} label=${label} actor=${actor.id}`, "discord-bot", err);
     if (!res.headersSent) {
       res.status(200).json({
         type: INTERACTION_RESPONSE_TYPE.CHANNEL_MESSAGE_WITH_SOURCE,
-        data: { flags: EPHEMERAL, content: "Error: Error interno procesando la acción. Revisa los logs del servidor." },
+        data: {
+          flags: EPHEMERAL,
+          content: `Error: Error interno procesando la acción. errorId=\`${errorId}\` — comparte este código con el equipo técnico para revisar los logs.`,
+        },
       });
     }
+  } finally {
+    try { recordDiscordCommand(label, Date.now() - t0); } catch { /* best-effort */ }
   }
 }
 
@@ -429,6 +557,41 @@ export function buildSlashCommandManifest() {
   ];
 }
 
+/**
+ * Compare the local manifest against what Discord currently has for the
+ * application. Returns true when the live shape matches our manifest at
+ * the (top-level command, subcommand, option name+type+required+choices)
+ * level — i.e. anything Discord would actually surface to the user. We
+ * intentionally do NOT compare cosmetic fields Discord normalises (id,
+ * application_id, version, default_permission, name_localizations, etc.)
+ * because those are server-assigned or undefined locally.
+ */
+function manifestEquivalent(local: ReturnType<typeof buildSlashCommandManifest>, live: unknown[]): boolean {
+  type Opt = { type?: number; name: string; required?: boolean; choices?: Array<{ name: string; value: string | number }>; options?: Opt[] };
+  type Cmd = { name: string; description?: string; options?: Opt[] };
+  function normaliseOpt(o: Opt): unknown {
+    return {
+      type: o.type ?? null,
+      name: o.name,
+      required: o.required ?? false,
+      choices: Array.isArray(o.choices)
+        ? o.choices.map(c => ({ name: c.name, value: c.value })).sort((a, b) => String(a.value).localeCompare(String(b.value)))
+        : null,
+      options: Array.isArray(o.options) ? o.options.map(normaliseOpt) : null,
+    };
+  }
+  function normaliseCmd(c: Cmd): unknown {
+    return {
+      name: c.name,
+      description: c.description ?? "",
+      options: Array.isArray(c.options) ? c.options.map(normaliseOpt) : null,
+    };
+  }
+  const a = (local as Cmd[]).map(normaliseCmd).sort((x, y) => (x as { name: string }).name.localeCompare((y as { name: string }).name));
+  const b = (live as Cmd[]).map(normaliseCmd).sort((x, y) => (x as { name: string }).name.localeCompare((y as { name: string }).name));
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
 export async function registerSlashCommands(): Promise<void> {
   if (!isBotConfigured()) {
     logger.info("[discord-bot] Bot not configured (missing env vars) — skipping command registration", "discord-bot");
@@ -437,6 +600,31 @@ export async function registerSlashCommands(): Promise<void> {
   const url = `${DISCORD_API}/applications/${DISCORD_APP_ID}/commands`;
   const manifest = buildSlashCommandManifest();
   try {
+    // Diff-before-PUT: Discord's PUT replaces the entire manifest atomically,
+    // so an unconditional PUT on every cold start works correctly but bumps
+    // each command's `version` field on the Discord side and consumes one
+    // of the daily 200 global registration writes per application. Doing
+    // a GET first lets us no-op when the live shape already matches — a
+    // strict idempotency guarantee for ops scripts that may call this
+    // helper repeatedly (CI, cold-restart loops, blue/green rollouts).
+    let live: unknown[] | null = null;
+    try {
+      const liveRes = await fetch(url, {
+        headers: { Authorization: `Bot ${DISCORD_BOT_TOKEN}` },
+      });
+      if (liveRes.ok) {
+        const body = await liveRes.json();
+        if (Array.isArray(body)) live = body;
+      } else {
+        logger.warn(`[discord-bot] GET commands HTTP ${liveRes.status} — falling back to unconditional PUT`, "discord-bot");
+      }
+    } catch (err) {
+      logger.warn(`[discord-bot] GET commands failed — falling back to unconditional PUT: ${err instanceof Error ? err.message : String(err)}`, "discord-bot");
+    }
+    if (live && manifestEquivalent(manifest, live)) {
+      logger.info(`[discord-bot] Slash commands already up-to-date (${manifest.length} top-level) — no-op`, "discord-bot");
+      return;
+    }
     const res = await fetch(url, {
       method: "PUT",
       headers: {
@@ -455,6 +643,58 @@ export async function registerSlashCommands(): Promise<void> {
     logger.error("[discord-bot] Slash command registration failed", "discord-bot", err);
   }
 }
+
+// ─── Outbound: Discord connectivity probe (used by /api/health/ready) ───────
+//
+// Calls GET /users/@me with the bot token. The endpoint is cheap, doesn't
+// touch any guild and Discord rate-limits it generously per token, but we
+// still cache the verdict for ~60s so a kubelet-style readiness probe
+// doesn't hammer Discord every few seconds. The cache stores both the OK
+// state and the most recent failure reason so the readiness JSON can
+// surface something actionable instead of a generic 503.
+
+interface DiscordPingResult { ok: boolean; message?: string; checkedAt: number }
+let _pingCache: DiscordPingResult | null = null;
+const PING_TTL_MS = 60_000;
+
+export async function checkDiscordConnectivity(now: number = Date.now()): Promise<DiscordPingResult> {
+  if (!isBotConfigured()) {
+    return { ok: false, message: "bot not configured (missing env vars)", checkedAt: now };
+  }
+  if (_pingCache && now - _pingCache.checkedAt < PING_TTL_MS) {
+    return _pingCache;
+  }
+  const url = `${DISCORD_API}/users/@me`;
+  // 2.5s timeout — readiness probes need to be snappy; if Discord is
+  // unreachable the probe should degrade quickly rather than block the
+  // /api/health/ready response and trigger orchestrator timeouts.
+  const ac = new AbortController();
+  const timer = setTimeout(() => ac.abort(), 2_500);
+  try {
+    const res = await fetch(url, {
+      headers: { Authorization: `Bot ${DISCORD_BOT_TOKEN}` },
+      signal: ac.signal,
+    });
+    if (res.ok) {
+      _pingCache = { ok: true, checkedAt: now };
+    } else {
+      _pingCache = { ok: false, message: `HTTP ${res.status}`, checkedAt: now };
+    }
+  } catch (err) {
+    const msg = err instanceof Error ? (err.name === "AbortError" ? "timeout" : err.message) : String(err);
+    _pingCache = { ok: false, message: msg, checkedAt: now };
+  } finally {
+    clearTimeout(timer);
+  }
+  return _pingCache;
+}
+
+/**
+ * Test-only seam to clear the connectivity cache (used by readiness
+ * unit tests). Production code never calls this — the TTL handles
+ * staleness.
+ */
+export function _resetDiscordConnectivityCache(): void { _pingCache = null; }
 
 // ─── Wire-up: mount the HTTP route ──────────────────────────────────────────
 

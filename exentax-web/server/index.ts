@@ -30,6 +30,12 @@ const REQUIRED_ENV_VARS: Array<{ name: string; prodOnly?: boolean; hint: string 
   { name: "DISCORD_CHANNEL_REGISTROS",  prodOnly: true, hint: "Discord channel ID for #exentax-registros (lead/newsletter notifications; also fallback for #errores)" },
   { name: "DISCORD_CHANNEL_AGENDA",     prodOnly: true, hint: "Discord channel ID for #exentax-agenda (booking lifecycle + bot interactive controls)" },
   { name: "DISCORD_CHANNEL_CONSENTIMIENTOS", prodOnly: true, hint: "Discord channel ID for #exentax-consentimientos (GDPR consent log mirror with con_* IDs)" },
+  // Bot-critical channels — without these the audit trail and error
+  // surface for the *only admin surface of the project* go silent.
+  // Must fail-fast in prod so a misconfigured deploy is caught at boot
+  // instead of at first incident.
+  { name: "DISCORD_CHANNEL_AUDITORIA",  prodOnly: true, hint: "Discord channel ID for #exentax-auditoria (mandatory audit trail of every /agenda /cita action and unauthorized attempt)" },
+  { name: "DISCORD_CHANNEL_ERRORES",    prodOnly: true, hint: "Discord channel ID for #exentax-errores (system_error / validation_failed routing target — bot can't escalate without it)" },
 ];
 
 const isProd = process.env.NODE_ENV === "production";
@@ -46,6 +52,52 @@ if (missingVars.length > 0) {
     process.exit(1);
   } else {
     for (const msg of missingVars) {
+      logger.warn(`[env] ${msg}`, "startup");
+    }
+  }
+}
+
+// Format-level validation for the Discord interaction endpoint envs. The
+// presence check above already ensures these are set in production; the
+// extra format checks catch the most common deployment foot-guns:
+//   - DISCORD_PUBLIC_KEY copy/pasted with surrounding whitespace, the
+//     "0x" prefix or the word "..." truncated by a copy buffer (Ed25519
+//     public keys are exactly 32 raw bytes = 64 hex chars).
+//   - Channel/role/app/guild IDs swapped for invite codes or names — they
+//     must be Discord snowflakes (numeric, 17–20 digits in 2026).
+// Mismatches here are configuration errors, not transient outages, so we
+// fail fast in production and log loud warnings in dev.
+function isHex64(v: string): boolean { return /^[0-9a-fA-F]{64}$/.test(v); }
+function isSnowflake(v: string): boolean { return /^\d{17,20}$/.test(v); }
+const FORMAT_CHECKS: Array<{ name: string; ok: (v: string) => boolean; expected: string; prodOnly?: boolean }> = [
+  { name: "DISCORD_PUBLIC_KEY", ok: isHex64, expected: "64 hexadecimal characters (32-byte Ed25519 public key)", prodOnly: true },
+  { name: "DISCORD_APP_ID",     ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_GUILD_ID",   ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "ADMIN_DISCORD_ROLE_ID", ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_CHANNEL_REGISTROS",        ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_CHANNEL_AGENDA",           ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_CHANNEL_CONSENTIMIENTOS",  ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_CHANNEL_AUDITORIA",        ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+  { name: "DISCORD_CHANNEL_ERRORES",          ok: isSnowflake, expected: "Discord snowflake (17–20 digits)", prodOnly: true },
+];
+const formatErrors: string[] = [];
+for (const c of FORMAT_CHECKS) {
+  const raw = process.env[c.name];
+  if (!raw) continue; // presence enforced separately; absent envs already reported above
+  if (raw !== raw.trim()) {
+    formatErrors.push(`${c.name} has surrounding whitespace — strip it from the secret value`);
+    continue;
+  }
+  if (!c.ok(raw)) {
+    formatErrors.push(`${c.name} has wrong format — expected ${c.expected}`);
+  }
+}
+if (formatErrors.length > 0) {
+  if (isProd) {
+    logger.error(`FATAL: Discord env format errors:\n  ${formatErrors.join("\n  ")}`, "startup");
+    process.exit(1);
+  } else {
+    for (const msg of formatErrors) {
       logger.warn(`[env] ${msg}`, "startup");
     }
   }

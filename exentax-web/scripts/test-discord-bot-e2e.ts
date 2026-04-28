@@ -93,6 +93,7 @@ globalThis.fetch = interceptingFetch;
 const {
   handleInteractionRequest, INTERACTION_TYPE,
   buildSlashCommandManifest,
+  SIGNATURE_TIMESTAMP_WINDOW_SECONDS,
 } = await import("../server/discord-bot");
 const { db } = await import("../server/db");
 const s = await import("../shared/schema");
@@ -177,13 +178,13 @@ function makeRes(): MockResponse {
 }
 
 async function invoke(
-  partial: InteractionPayload, opts: { signOverride?: string; tamperBody?: boolean } = {},
+  partial: InteractionPayload, opts: { signOverride?: string; tamperBody?: boolean; timestampOverride?: string } = {},
 ): Promise<MockResponse> {
   // Wrap so every interaction has id/token/application_id/member by default;
   // callers that need to test the unauthorised path pass member explicitly.
   const interactionPayload = freshInteraction(partial);
   const rawBody = Buffer.from(JSON.stringify(interactionPayload), "utf8");
-  const timestamp = String(Math.floor(Date.now() / 1000));
+  const timestamp = opts.timestampOverride ?? String(Math.floor(Date.now() / 1000));
   const signature = opts.signOverride ?? signBody(rawBody, timestamp);
   const sentBody = opts.tamperBody ? Buffer.concat([rawBody, Buffer.from(" ")]) : rawBody;
 
@@ -298,11 +299,12 @@ async function run() {
 
   // Sanity: manifest snapshot.
   const manifest = buildSlashCommandManifest();
-  assert("Slash command manifest exposes /ayuda /agenda /cita",
-    manifest.length === 3 &&
+  assert("Slash command manifest exposes /ayuda /agenda /cita /newsletter",
+    manifest.length === 4 &&
     manifest.find(c => c.name === "ayuda") &&
     manifest.find(c => c.name === "agenda") &&
-    manifest.find(c => c.name === "cita"),
+    manifest.find(c => c.name === "cita") &&
+    manifest.find(c => c.name === "newsletter"),
     `got ${manifest.map(c => c.name).join(",")}`);
 
   // ── Signature verification ──
@@ -318,6 +320,37 @@ async function run() {
   {
     const res = await invoke({ type: INTERACTION_TYPE.PING }, { tamperBody: true });
     assert("PING tampered body → 401", res.statusCode === 401);
+  }
+  // Replay-window boundary tests. The bot rejects any request whose
+  // X-Signature-Timestamp drifts more than ±SIGNATURE_TIMESTAMP_WINDOW_SECONDS
+  // from server time (currently 300s). A signature can be perfectly valid
+  // and still be rejected for being too old / too future-dated, which
+  // protects against capture+replay even if the public key never rotates.
+  {
+    const stale = String(Math.floor(Date.now() / 1000) - (SIGNATURE_TIMESTAMP_WINDOW_SECONDS + 60));
+    const res = await invoke({ type: INTERACTION_TYPE.PING }, { timestampOverride: stale });
+    assert("PING with stale timestamp (>5min in past) → 401",
+      res.statusCode === 401, `got ${res.statusCode}`);
+  }
+  {
+    const future = String(Math.floor(Date.now() / 1000) + (SIGNATURE_TIMESTAMP_WINDOW_SECONDS + 60));
+    const res = await invoke({ type: INTERACTION_TYPE.PING }, { timestampOverride: future });
+    assert("PING with future timestamp (>5min ahead) → 401",
+      res.statusCode === 401, `got ${res.statusCode}`);
+  }
+  {
+    // Just inside the allowed window — must still PONG.
+    const inside = String(Math.floor(Date.now() / 1000) - (SIGNATURE_TIMESTAMP_WINDOW_SECONDS - 30));
+    const res = await invoke({ type: INTERACTION_TYPE.PING }, { timestampOverride: inside });
+    assert("PING with timestamp just inside replay window → 200 PONG",
+      res.statusCode === 200 && res.body?.type === 1,
+      `status=${res.statusCode} body=${JSON.stringify(res.body)}`);
+  }
+  {
+    // Non-numeric timestamp → bad_format reason → 401.
+    const res = await invoke({ type: INTERACTION_TYPE.PING }, { timestampOverride: "not-a-number" });
+    assert("PING with non-numeric timestamp → 401",
+      res.statusCode === 401, `got ${res.statusCode}`);
   }
 
   // ── Authorisation ──

@@ -30,6 +30,20 @@ let httpDurationSum = 0;
 let discordQueueSize = 0;
 let discordDropTotal = 0;
 let discordSendFailTotal = 0;
+// Inbound interaction telemetry (Task #12 hardening): per-reason signature
+// failures, replay-window rejections, unauthorised attempts and per-command
+// invocation counters + dispatch latency. Kept in the same module as the
+// existing discord_* gauges so a single Prometheus scrape carries the full
+// picture of the bot's interaction endpoint.
+const discordSignatureFailuresByReason: CounterMap = Object.create(null);
+let discordReplayRejectedTotal = 0;
+let discordUnauthorisedTotal = 0;
+let discordAuditWriteFailureTotal = 0;
+const discordInteractionsByType: CounterMap = Object.create(null);
+const discordCommandTotal: CounterMap = Object.create(null);
+const discordCommandDurationBuckets: number[] = HISTOGRAM_BUCKETS_MS.map(() => 0);
+let discordCommandDurationCount = 0;
+let discordCommandDurationSum = 0;
 let emailRetryQueueSize = 0;
 let alertFallbackTotal = 0;
 let clientErrorTotal = 0;
@@ -53,6 +67,34 @@ export function recordHttpRequest(method: string, status: number, durationMs: nu
 export function setDiscordQueueSize(n: number): void { discordQueueSize = n; }
 export function incDiscordDropped(): void { discordDropTotal++; }
 export function incDiscordSendFailure(): void { discordSendFailTotal++; }
+
+// Inbound interaction telemetry — see header for rationale. Each helper is
+// best-effort and self-contained: a counter increment must never throw or
+// allocate beyond a single key lookup. `reason` for signature failures is
+// one of: "missing", "bad_format", "bad_signature".
+export function incDiscordSignatureFailure(reason: string): void {
+  const k = reason || "unknown";
+  discordSignatureFailuresByReason[k] = (discordSignatureFailuresByReason[k] ?? 0) + 1;
+}
+export function incDiscordReplayRejected(): void { discordReplayRejectedTotal++; }
+export function incDiscordUnauthorised(): void { discordUnauthorisedTotal++; }
+// Bumped from the catch around the fire-and-forget `logAdminAction` for
+// unauthorised attempts. Lets ops detect when DB pressure is causing
+// silent gaps in the audit trail without having to grep the warn logs.
+export function incDiscordAuditWriteFailure(): void { discordAuditWriteFailureTotal++; }
+export function incDiscordInteractionType(type: string | number): void {
+  const k = String(type);
+  discordInteractionsByType[k] = (discordInteractionsByType[k] ?? 0) + 1;
+}
+export function recordDiscordCommand(name: string, durationMs: number): void {
+  const k = name || "unknown";
+  discordCommandTotal[k] = (discordCommandTotal[k] ?? 0) + 1;
+  discordCommandDurationCount++;
+  discordCommandDurationSum += durationMs;
+  for (let i = 0; i < HISTOGRAM_BUCKETS_MS.length; i++) {
+    if (durationMs <= HISTOGRAM_BUCKETS_MS[i]) discordCommandDurationBuckets[i]++;
+  }
+}
 export function setEmailRetryQueueSize(n: number): void { emailRetryQueueSize = n; }
 export function incAlertFallback(): void { alertFallbackTotal++; }
 export function incClientError(): void { clientErrorTotal++; }
@@ -77,7 +119,20 @@ export interface MetricsSnapshot {
     durationSumMs: number;
     bucketsMs: { le: number; count: number }[];
   };
-  discord: { queueSize: number; droppedTotal: number; sendFailureTotal: number };
+  discord: {
+    queueSize: number;
+    droppedTotal: number;
+    sendFailureTotal: number;
+    signatureFailures: Record<string, number>;
+    replayRejectedTotal: number;
+    unauthorisedTotal: number;
+    auditWriteFailureTotal: number;
+    interactionsByType: Record<string, number>;
+    commandTotal: Record<string, number>;
+    commandDurationCount: number;
+    commandDurationSumMs: number;
+    commandBucketsMs: { le: number; count: number }[];
+  };
   email: { retryQueueSize: number };
   alerts: { fallbackTotal: number };
   client: { errorsTotal: number };
@@ -97,7 +152,20 @@ export function snapshot(): MetricsSnapshot {
       durationSumMs: Math.round(httpDurationSum),
       bucketsMs: HISTOGRAM_BUCKETS_MS.map((le, i) => ({ le, count: httpDurationBuckets[i] })),
     },
-    discord: { queueSize: discordQueueSize, droppedTotal: discordDropTotal, sendFailureTotal: discordSendFailTotal },
+    discord: {
+      queueSize: discordQueueSize,
+      droppedTotal: discordDropTotal,
+      sendFailureTotal: discordSendFailTotal,
+      signatureFailures: { ...discordSignatureFailuresByReason },
+      replayRejectedTotal: discordReplayRejectedTotal,
+      unauthorisedTotal: discordUnauthorisedTotal,
+      auditWriteFailureTotal: discordAuditWriteFailureTotal,
+      interactionsByType: { ...discordInteractionsByType },
+      commandTotal: { ...discordCommandTotal },
+      commandDurationCount: discordCommandDurationCount,
+      commandDurationSumMs: Math.round(discordCommandDurationSum),
+      commandBucketsMs: HISTOGRAM_BUCKETS_MS.map((le, i) => ({ le, count: discordCommandDurationBuckets[i] })),
+    },
     email: { retryQueueSize: emailRetryQueueSize },
     alerts: { fallbackTotal: alertFallbackTotal },
     client: { errorsTotal: clientErrorTotal },
@@ -137,6 +205,33 @@ export function renderPrometheus(): string {
   lines.push(`discord_dropped_total ${snap.discord.droppedTotal}`);
   lines.push(`# TYPE discord_send_failure_total counter`);
   lines.push(`discord_send_failure_total ${snap.discord.sendFailureTotal}`);
+
+  lines.push(`# TYPE discord_signature_failures_total counter`);
+  for (const [reason, n] of Object.entries(snap.discord.signatureFailures)) {
+    lines.push(`discord_signature_failures_total{reason="${reason}"} ${n}`);
+  }
+  lines.push(`# TYPE discord_replay_rejected_total counter`);
+  lines.push(`discord_replay_rejected_total ${snap.discord.replayRejectedTotal}`);
+  lines.push(`# TYPE discord_unauthorised_total counter`);
+  lines.push(`discord_unauthorised_total ${snap.discord.unauthorisedTotal}`);
+  lines.push(`# HELP discord_audit_write_failure_total Failed writes of audit rows from the unauthorised-attempt fire-and-forget path. A non-zero rate means the audit trail is missing some unauthorised attempts (Postgres degraded or schema drift).`);
+  lines.push(`# TYPE discord_audit_write_failure_total counter`);
+  lines.push(`discord_audit_write_failure_total ${snap.discord.auditWriteFailureTotal}`);
+  lines.push(`# TYPE discord_interactions_total counter`);
+  for (const [type, n] of Object.entries(snap.discord.interactionsByType)) {
+    lines.push(`discord_interactions_total{type="${type}"} ${n}`);
+  }
+  lines.push(`# TYPE discord_command_total counter`);
+  for (const [name, n] of Object.entries(snap.discord.commandTotal)) {
+    lines.push(`discord_command_total{name="${name}"} ${n}`);
+  }
+  lines.push(`# TYPE discord_command_duration_ms histogram`);
+  for (const b of snap.discord.commandBucketsMs) {
+    lines.push(`discord_command_duration_ms_bucket{le="${b.le}"} ${b.count}`);
+  }
+  lines.push(`discord_command_duration_ms_bucket{le="+Inf"} ${snap.discord.commandDurationCount}`);
+  lines.push(`discord_command_duration_ms_sum ${snap.discord.commandDurationSumMs}`);
+  lines.push(`discord_command_duration_ms_count ${snap.discord.commandDurationCount}`);
 
   lines.push(`# TYPE email_retry_queue_size gauge`);
   lines.push(`email_retry_queue_size ${snap.email.retryQueueSize}`);

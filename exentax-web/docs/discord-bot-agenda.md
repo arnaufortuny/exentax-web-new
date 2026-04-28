@@ -386,3 +386,50 @@ Buttons and select options follow the same pattern — register the
 custom ID under `bookingActionRows()` in `server/discord.ts`, add a
 `case` in `dispatchComponent`, and assert the round-trip in
 `test-discord-bot-buttons.ts` + `test-discord-bot-e2e.ts`.
+
+## 10. Runbook — operación del bot endurecido (Task #12)
+
+Punto único de entrada para guardia. La lista exhaustiva con métricas,
+umbrales y procedimientos vive en
+[`docs/deploy/DISCORD-SETUP.md` §11](./deploy/DISCORD-SETUP.md). Aquí
+quedan los puntos imprescindibles para alguien que ya conoce la agenda.
+
+### Endurecimientos vigentes (qué se puede asumir hoy)
+
+- El endpoint `POST /api/discord/interactions` valida la firma Ed25519
+  contra `req.rawBody` con ventana anti-replay de **±300 s**
+  (`SIGNATURE_TIMESTAMP_WINDOW_SECONDS` en `discord-bot.ts`). Las
+  rechazadas por ventana suman a `discord_replay_rejected_total` y no
+  contaminan `discord_signature_failures_total{reason="bad_signature"}`.
+- Cada intento sin rol admin queda en `agenda_admin_actions` con
+  `action LIKE 'unauthorized:%'` además de incrementar
+  `discord_unauthorised_total`. El usuario solo ve "permiso denegado".
+- Los errores en dispatch responden ephemerally con
+  `errorId=<8 hex>` correlacionable contra logs.
+- `registerSlashCommands` hace **GET → diff → PUT** (idempotente). Si el
+  manifest local coincide con el publicado, log
+  `[discord-bot] Slash commands already up-to-date` y no se hace PUT.
+- `/api/health/ready` ejecuta un ping cacheado (TTL 60 s) a
+  `discord.com/api/v10/users/@me` y degrada readiness a 503 cuando falla
+  (campo `checks.discord`).
+
+### Comandos rápidos
+
+| Necesidad | Comando |
+|---|---|
+| Ver el manifest publicado vs el local sin tocar nada | `npx tsx scripts/register-discord-commands.ts --diff` |
+| Forzar re-publish del manifest | `npx tsx scripts/register-discord-commands.ts` |
+| E2E end-to-end contra Postgres real | `DATABASE_URL=… npx tsx scripts/test-discord-bot-e2e.ts` |
+| Ver últimos accesos no autorizados | `select created_at, actor_discord_id, action from agenda_admin_actions where action like 'unauthorized:%' order by created_at desc limit 50;` |
+| Buscar el contexto de un errorId | `pm2 logs exentax \| grep "errorId=<id>"` |
+
+### Métricas clave (ver §11 de DISCORD-SETUP.md para la tabla completa)
+
+- `discord_signature_failures_total{reason="bad_signature"}` —
+  >5/min sostenido sugiere rotación de `DISCORD_PUBLIC_KEY` o spoof.
+- `discord_replay_rejected_total` — aislado ⇒ reloj NTP del host;
+  acompañado de bad_signature ⇒ ataque.
+- `discord_command_duration_ms_*` p99 > 2.5 s ⇒ riesgo de timeout
+  Discord (3 s para responder).
+- `discord_queue_size` >50 sostenido ⇒ Discord lento o circuit breaker
+  abierto; vigilar `discord_dropped_total` para pérdidas reales.

@@ -217,3 +217,120 @@ Luego desde el servidor de Discord:
 
 Si cualquiera de estos pasos falla, el mapa `TYPE_TO_CHANNEL` o la env var
 correspondiente está mal.
+
+## 11. Runbook operativo del bot (Task #12)
+
+Esta sección es el manual de a-bordo para guardia: cada síntoma incluye
+qué métrica/log mirar y la acción correctora directa. Todas las métricas
+viven en `GET /api/metrics` (header `Authorization: Bearer
+$METRICS_TOKEN`).
+
+### Endurecimiento del endpoint de interacciones
+
+- Verificación **Ed25519 estricta** sobre el cuerpo crudo (`req.rawBody`),
+  el cuerpo se preserva intacto por el middleware
+  `express.raw({ type: "*/*", limit: "256kb" })` montado solo para
+  `/api/discord/interactions` (`server/index.ts`).
+- **Ventana anti-replay** de ±300 s sobre `X-Signature-Timestamp`. Las
+  rechazadas suman a `discord_replay_rejected_total` y no a
+  `discord_signature_failures_total{reason="bad_signature"}` para
+  poder distinguir un bug de reloj de un ataque de firma. Constante
+  exportada: `SIGNATURE_TIMESTAMP_WINDOW_SECONDS` en `discord-bot.ts`.
+- **Validación de envs al arranque** en `server/index.ts` aborta el
+  proceso en producción si:
+  - `DISCORD_PUBLIC_KEY` no es exactamente 64 chars hex.
+  - cualquier ID Discord (app/guild/role/canal) no es un snowflake (17–20
+    dígitos numéricos).
+  - cualquier env tiene espacios alrededor (copy/paste accidental).
+
+### Métricas a vigilar (todas Prometheus, prefijo `discord_*`)
+
+| Métrica | Significado | Umbral / acción |
+|---|---|---|
+| `discord_signature_failures_total{reason="missing"}` | Falta header — petición no proviene de Discord | Constantes ⇒ algún cliente externo está apuntando al endpoint; revisa CDN/firewall |
+| `discord_signature_failures_total{reason="bad_format"}` | Timestamp no numérico | Indicio de payload manipulado |
+| `discord_signature_failures_total{reason="bad_signature"}` | Firma inválida | >5/min sostenido ⇒ rotación de `DISCORD_PUBLIC_KEY` necesaria o intento de spoof |
+| `discord_replay_rejected_total` | Timestamp fuera de ±5min | Si crece aislado: comprueba reloj NTP del host. Si crece junto a `bad_signature` ⇒ ataque |
+| `discord_unauthorised_total` | Usuarios sin rol admin que invocaron al bot | Cada incidente queda en `agenda_admin_actions` con `action LIKE 'unauthorized:%'` |
+| `discord_audit_write_failure_total` | Fallo al persistir fila de auditoría desde la ruta fire-and-forget de no-autorizados | ≠0 ⇒ Postgres degradado y se están perdiendo trazas de intentos no autorizados; investigar circuit_breaker_state{name="postgres"} |
+| `discord_interactions_total{type="2"}` | Comandos slash recibidos | — |
+| `discord_command_total{name="agenda.bloquear"}` | Conteo por comando | Pico anómalo ⇒ revisa abuso |
+| `discord_command_duration_ms_*` | Latencia de despacho | p99 > 2.5s ⇒ riesgo de timeout Discord (3s para responder) |
+| `discord_queue_size` | Pendientes en cola outbound | >50 sostenido ⇒ Discord lento o circuit breaker abierto |
+| `discord_dropped_total` | Mensajes descartados al saturarse la cola | ≠0 ⇒ ya hubo pérdida; investigar `notifyEvent` críticos perdidos |
+| `discord_send_failure_total` | POST/PATCH a discord.com/api fallidos | Crecimiento sostenido ⇒ rate-limit o token rotado |
+
+### Síntomas y diagnóstico
+
+**1. Discord responde "interactions endpoint inválido" al guardar la URL.**
+- Causa típica: `DISCORD_PUBLIC_KEY` mal copiada (incluye espacios o solo
+  los primeros 32 chars).
+- El validador de arranque lo detecta — busca en logs
+  `[env] DISCORD_PUBLIC_KEY has wrong format`.
+
+**2. `/agenda hoy` devuelve "permiso denegado" a un admin legítimo.**
+- Verifica que `ADMIN_DISCORD_ROLE_ID` coincide exactamente con el rol del
+  servidor (Settings → Roles → Copy ID con Developer Mode ON).
+- Confirma que `Server Members Intent` está ON en la pestaña Bot del
+  Developer Portal (sin él, `member.roles` viene vacío).
+- Revisa `agenda_admin_actions` para ver si la invocación ha caído como
+  `unauthorized:agenda.hoy` — si es así el rol no está en la lista.
+
+**3. Operador ve "Error interno procesando la acción. errorId=`abcd1234`".**
+- El errorId es único por incidente. `grep "errorId=abcd1234"` en logs
+  para ver el stack y la acción exacta.
+- Una causa común es Google Calendar 401 (refresca
+  `GOOGLE_SERVICE_ACCOUNT_KEY`) o Postgres en degradado (mira
+  `circuit_breaker_state{name="postgres"}`).
+
+**4. La cola Discord (`discord_queue_size`) crece sin parar.**
+- Probablemente el circuito a Discord está abierto. Mira
+  `circuit_breaker_state{name="discord-rest"}` (0=cerrado, 1=half-open,
+  2=abierto).
+- Razones habituales: rate-limit 429 sostenido (revisa
+  `discord_send_failure_total` + logs `[discord] HTTP 429`), token rotado
+  (rota también `DISCORD_BOT_TOKEN` en envs y reinicia), o caída del
+  endpoint Discord (status.discord.com).
+- Mensajes críticos perdidos quedan registrados como
+  `[discord] FALLBACK alert: …` antes de incrementar
+  `discord_dropped_total`.
+
+**5. `/api/health/ready` devuelve 503 con `discord.ok=false`.**
+- El health check hace un GET cacheado a `discord.com/api/v10/users/@me`
+  con TTL 60 s. Mira el campo `message` para distinguir `timeout` /
+  `HTTP 401` (token invalidado) / `HTTP 5xx` (Discord caído).
+- En producción esto degrada readiness pero no liveness — el orquestador
+  no reinicia el proceso, solo deja de enrutar tráfico.
+
+**6. Los comandos slash no aparecen en Discord tras un deploy.**
+- Reinicio en frío llama a `registerSlashCommands()` que ahora hace
+  GET-luego-PUT solo si hay diferencia. El log `[discord-bot] Slash
+  commands already up-to-date` indica no-op intencional.
+- Para forzar resync sin tocar producción, ejecuta en local:
+  `npx tsx exentax-web/scripts/register-discord-commands.ts --diff`
+  con `DISCORD_APP_ID`/`DISCORD_BOT_TOKEN` apuntando al app de prod.
+  Después `--dry-run` se omite y publica.
+- Discord cachea hasta 1 h tras un PUT global, así que los cambios no
+  son inmediatos en el cliente del usuario aunque la API ya devuelva
+  el manifest nuevo.
+
+**7. Spike de `unauthorized:*` en `agenda_admin_actions`.**
+- Filtra por `actor_discord_id` para ver si es un único usuario probando
+  o varios. Cualquier intento queda con `payload.guildId` y
+  `payload.channelId` para reconstruir contexto.
+- Si proviene de un guild externo (alguien añadió el bot a otro
+  servidor), revoca esa instalación desde el Developer Portal.
+
+### Incidentes de seguridad — pasos comunes
+
+1. **Rotar `DISCORD_BOT_TOKEN`** (Bot → Reset Token). El token previo deja
+   de funcionar al instante; las peticiones fallidas con HTTP 401
+   incrementan `discord_send_failure_total`.
+2. **Rotar `DISCORD_PUBLIC_KEY`** solo es necesario si Discord lo cambia
+   (raro). El endpoint público sigue siendo el mismo.
+3. **Bajar el rol admin** a un usuario sospechoso desde Discord — efecto
+   inmediato: el siguiente `/cita …` cae a `unauthorized:cita.<sub>`.
+4. **Auditoría completa**: cada acción admin (autorizada o no) es una
+   fila en `agenda_admin_actions` con `actor_discord_id`,
+   `actor_discord_name`, `action`, `payload` y `created_at`. La tabla es
+   append-only (sin UPDATE/DELETE en código de producción).

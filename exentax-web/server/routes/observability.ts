@@ -15,6 +15,7 @@ import { snapshot, renderPrometheus, setEmailRetryQueueSize, incClientError } fr
 import { getEmailRetryQueueSize, getEmailWorkerHeartbeat } from "../email-retry-queue";
 import { getRegisteredBreakers } from "../circuit-breaker";
 import { getDiscordQueueSize } from "../discord";
+import { isBotConfigured, checkDiscordConnectivity } from "../discord-bot";
 import { checkCsrfOrigin } from "../route-helpers";
 
 interface ReadinessResult {
@@ -61,6 +62,24 @@ async function evaluateReadiness(): Promise<ReadinessResult> {
         ? `last drain ${Math.round(since / 1000)}s ago (>${Math.round(grace / 1000)}s)`
         : hb.lastDrainAt === 0 ? "warming up" : `last drain ${Math.round(since / 1000)}s ago`,
   };
+
+  // Discord interaction endpoint connectivity. Only meaningful when the
+  // bot is configured (prod). The check is cached for ~60s inside
+  // `checkDiscordConnectivity` so a high-frequency readiness scrape does
+  // not hammer Discord. We mark Discord as a degrading dependency only
+  // in production — locally the bot is intentionally not configured and
+  // we don't want a missing env to fail readiness for unrelated work.
+  if (isBotConfigured()) {
+    try {
+      const ping = await checkDiscordConnectivity();
+      checks.discord = {
+        ok: ping.ok,
+        message: ping.ok ? undefined : `discord ping failed: ${ping.message ?? "unknown"}`,
+      };
+    } catch (err) {
+      checks.discord = { ok: false, message: err instanceof Error ? err.message : String(err) };
+    }
+  }
 
   const ready = Object.values(checks).every(c => c.ok);
   return { status: ready ? "ready" : "degraded", ready, checks };
