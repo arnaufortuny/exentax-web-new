@@ -328,7 +328,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "Puedes completar tu reserva cuando quieras.",
       ctaLabel: "Completar mi reserva →",
       replyNote: "Si prefieres escribirme directamente, responde a este email. Estoy aquí.",
-      closing: "Arnau",
+      closing: "Un abrazo,",
       unsubNote: "Has recibido este email porque empezaste una reserva en exentax.com.",
     },
     drip: {
@@ -336,7 +336,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Calcular mi ahorro",
       ctaBook: "Reservar mi consulta gratuita",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
-      sigClosing: "Arnau",
+      sigClosing: "Un abrazo,",
       unsubNote: "Has recibido estos emails porque solicitaste la guía gratuita o reservaste una consulta en exentax.com.",
       steps: [
         {
@@ -371,7 +371,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "Lo que me contó Laura cuando acabamos su LLC.",
           paragraphs: [
             "Laura es diseñadora freelance. Clientes en Alemania, Países Bajos y UK. Factura unos 48.000 euros al año.",
-            "Me escribió tres semanas después de constituir su LLC. Solo decía una cosa: «Arnau, acabo de ver que este mes no me han cargado la cuota. No me lo creía.»",
+            "Me escribió tres semanas después de constituir su LLC. Solo decía una cosa: «Claudia, acabo de ver que este mes no me han cargado la cuota. No me lo creía.»",
             "Son 296 euros que antes salían solos cada mes. Sin preguntarle. Sin que ella pudiera hacer nada.",
             "Ahora son suyos.",
             "¿Cuánto sería en tu caso? Calcula exactamente lo que te quedarías tú.",
@@ -565,7 +565,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "You can complete your booking whenever you're ready.",
       ctaLabel: "Complete my booking →",
       replyNote: "If you'd rather just write to me directly, reply to this email. I'm here.",
-      closing: "Arnau",
+      closing: "Warmly,",
       unsubNote: "You received this email because you started a booking on exentax.com.",
     },
     drip: {
@@ -573,7 +573,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Calculate my savings",
       ctaBook: "Book my free consultation",
       greeting: (name) => name ? `Hi ${name},` : "Hi,",
-      sigClosing: "Arnau",
+      sigClosing: "Warmly,",
       unsubNote: "You received these emails because you requested the free guide or booked a consultation at exentax.com.",
       steps: [
         {
@@ -608,7 +608,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "What Laura told me after we finished her LLC.",
           paragraphs: [
             "Laura is a freelance designer. Clients in Germany, the Netherlands and the UK. She earns around 48,000 euros a year.",
-            "She messaged me three weeks after incorporating her LLC. Just one line: “Arnau, I just noticed the monthly fee didn’t come out this month. I couldn’t believe it.”",
+            "She messaged me three weeks after incorporating her LLC. Just one line: “Claudia, I just noticed the monthly fee didn’t come out this month. I couldn’t believe it.”",
             "That’s 296 euros that used to leave automatically every month. Without asking her. Without giving her any choice.",
             "Now it stays with her.",
             "How much would it be in your case?",
@@ -802,7 +802,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "Tu peux finaliser ta réservation quand tu veux.",
       ctaLabel: "Finaliser ma réservation →",
       replyNote: "Si tu préfères m'écrire directement, réponds à cet email. Je suis là.",
-      closing: "Arnau",
+      closing: "Bien à vous,",
       unsubNote: "Tu as reçu cet email parce que tu as commencé une réservation sur exentax.com.",
     },
     drip: {
@@ -810,7 +810,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Calculer mes économies",
       ctaBook: "Réserver ma consultation gratuite",
       greeting: (name) => name ? `Bonjour ${name},` : "Bonjour,",
-      sigClosing: "Arnau",
+      sigClosing: "Bien à vous,",
       unsubNote: "Vous avez reçu ces emails parce que vous avez demandé le guide gratuit ou réservé une consultation sur exentax.com.",
       steps: [
         {
@@ -845,7 +845,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "Ce que Laura m’a dit quand on a terminé sa LLC.",
           paragraphs: [
             "Laura est designer freelance. Des clients en Allemagne, aux Pays-Bas et au Royaume-Uni. Elle facture environ 48.000 euros par an.",
-            "Elle m’a écrit trois semaines après avoir constitué sa LLC. Un seul message : “Arnau, je viens de voir que les cotisations n’ont pas été prélevées ce mois-ci. Je n’en revenais pas.”",
+            "Elle m’a écrit trois semaines après avoir constitué sa LLC. Un seul message : “Claudia, je viens de voir que les cotisations n’ont pas été prélevées ce mois-ci. Je n’en revenais pas.”",
             "Ce sont 296 euros qui partaient automatiquement chaque mois. Sans lui demander. Sans qu’elle puisse rien y faire.",
             "Maintenant ils restent chez elle.",
             "Combien ce serait dans ton cas ?",
@@ -1039,7 +1039,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "Du kannst deine Buchung jederzeit abschließen.",
       ctaLabel: "Meine Buchung abschließen →",
       replyNote: "Wenn du mir lieber direkt schreiben möchtest, antworte auf diese E-Mail. Ich bin da.",
-      closing: "Arnau",
+      closing: "Beste Grüße,",
       unsubNote: "Du hast diese E-Mail erhalten, weil du auf exentax.com mit einer Buchung begonnen hast.",
     },
     drip: {
@@ -1047,7 +1047,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Meine Ersparnis berechnen",
       ctaBook: "Meine kostenlose Beratung buchen",
       greeting: (name) => name ? `Hallo ${name},` : "Hallo,",
-      sigClosing: "Arnau",
+      sigClosing: "Beste Grüße,",
       unsubNote: "Du erhältst diese E-Mails, weil du den kostenlosen Leitfaden angefordert oder eine Beratung auf exentax.com gebucht hast.",
       steps: [
         {
@@ -1082,7 +1082,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "Was Laura mir sagte, als wir ihre LLC fertig hatten.",
           paragraphs: [
             "Laura ist freiberufliche Designerin. Kunden in Deutschland, den Niederlanden und Großbritannien. Sie fakturiert rund 48.000 Euro im Jahr.",
-            "Sie schrieb mir drei Wochen nach der Gründung ihrer LLC. Nur eine Zeile: „Arnau, ich habe gerade gesehen, dass der Beitrag diesen Monat nicht abgebucht wurde. Ich konnte es nicht glauben.“",
+            "Sie schrieb mir drei Wochen nach der Gründung ihrer LLC. Nur eine Zeile: „Claudia, ich habe gerade gesehen, dass der Beitrag diesen Monat nicht abgebucht wurde. Ich konnte es nicht glauben.“",
             "Das sind 296 Euro, die jeden Monat automatisch abgingen. Ohne sie zu fragen. Ohne dass sie etwas dagegen tun konnte.",
             "Jetzt bleiben sie bei ihr.",
             "Wie viel wäre es in deinem Fall?",
@@ -1276,7 +1276,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "Podes completar a tua reserva quando quiseres.",
       ctaLabel: "Completar a minha reserva →",
       replyNote: "Se preferires escrever-me diretamente, responde a este email. Estou aqui.",
-      closing: "Arnau",
+      closing: "Um abraço,",
       unsubNote: "Recebeste este email porque começaste uma reserva em exentax.com.",
     },
     drip: {
@@ -1284,7 +1284,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Calcular as minhas poupanças",
       ctaBook: "Reservar a minha consulta gratuita",
       greeting: (name) => name ? `Olá ${name},` : "Olá,",
-      sigClosing: "Arnau",
+      sigClosing: "Um abraço,",
       unsubNote: "Recebeu estes emails porque pediu o guia gratuito ou marcou uma consulta em exentax.com.",
       steps: [
         {
@@ -1319,7 +1319,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "O que a Laura me disse quando acabámos a LLC dela.",
           paragraphs: [
             "A Laura é designer freelance. Clientes na Alemanha, Países Baixos e Reino Unido. Fatura cerca de 48.000 euros por ano.",
-            "Escreveu-me três semanas depois de constituir a LLC. Só dizia uma coisa: «Arnau, acabei de ver que este mês não me descontaram a contribuição. Não acreditei.»",
+            "Escreveu-me três semanas depois de constituir a LLC. Só dizia uma coisa: «Claudia, acabei de ver que este mês não me descontaram a contribuição. Não acreditei.»",
             "São 296 euros que antes saíam automaticamente todos os meses. Sem a consultar. Sem que ela pudesse fazer nada.",
             "Agora ficam com ela.",
             "Quanto seria no teu caso?",
@@ -1513,7 +1513,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       intro3: "Pots completar la teva reserva quan vulguis.",
       ctaLabel: "Completar la meva reserva →",
       replyNote: "Si prefereixes escriure'm directament, respon a aquest email. Sóc aquí.",
-      closing: "Arnau",
+      closing: "Una abraçada,",
       unsubNote: "Has rebut aquest email perquè has començat una reserva a exentax.com.",
     },
     drip: {
@@ -1521,7 +1521,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       ctaCalculate: "Calcular el meu estalvi",
       ctaBook: "Reservar la meva consulta gratuïta",
       greeting: (name) => name ? `Hola ${name},` : "Hola,",
-      sigClosing: "Arnau",
+      sigClosing: "Una abraçada,",
       unsubNote: "Has rebut aquests emails perquè vas demanar la guia gratuïta o vas reservar una consulta a exentax.com.",
       steps: [
         {
@@ -1556,7 +1556,7 @@ const translations: Record<SupportedLang, EmailTranslations> = {
           subject: "El que em va dir la Laura quan vam acabar la seva LLC.",
           paragraphs: [
             "La Laura és dissenyadora freelance. Clients a Alemanya, Països Baixos i Regne Unit. Factura uns 48.000 euros l’any.",
-            "Em va escriure tres setmanes després de constituir la seva LLC. Només deia una cosa: «Arnau, acabo de veure que aquest mes no m’han carregat la quota. No m’ho creia.»",
+            "Em va escriure tres setmanes després de constituir la seva LLC. Només deia una cosa: «Claudia, acabo de veure que aquest mes no m’han carregat la quota. No m’ho creia.»",
             "Són 296 euros que abans sortien sols cada mes. Sense preguntar-li. Sense que ella pogués fer res.",
             "Ara són seus.",
             "Quant seria en el teu cas?",

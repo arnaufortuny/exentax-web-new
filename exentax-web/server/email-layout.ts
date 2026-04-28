@@ -30,6 +30,7 @@ const C_HIGHLIGHT_BG = C_NEON_BG;
 const C_HIGHLIGHT_BD = "rgba(0,229,16,0.15)";
 const C_HIGHLIGHT_TX = C_NEON_DK;
 export const F_STACK    = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
+export const F_HEAD     = "'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif";
 
 const LOGO_URL = `${SITE_URL}/ex-icon-green.png`;
 
@@ -86,10 +87,10 @@ export function emailHtml(body: string, preheader?: string, lang = "es"): string
   <title>${_BRAND_NAME}</title>
   <!--[if mso]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
     body { margin:0 !important; padding:0 !important; background:${C_BG} !important; background-color:${C_BG} !important; color:${C_TEXT_2}; font-family:${F_STACK}; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
     * { box-sizing:border-box; }
-    h1, h2, h3 { color:${C_TEXT_1}; font-family:'Archivo Black', ${F_STACK}; font-weight:900; text-transform:uppercase; letter-spacing:-0.01em; }
+    h1, h2, h3 { color:${C_TEXT_1}; font-family:${F_HEAD}; font-weight:700; letter-spacing:-0.01em; }
     p, span, li { color:${C_TEXT_2}; }
     strong, b { color:${C_TEXT_1}; }
     a { color:${C_NEON_DK}; }
@@ -170,7 +171,7 @@ export function label(text: string): string {
 }
 
 export function heading(text: string): string {
-  return `<p class="txt-1" style="font-family:${F_STACK};font-size:24px;font-weight:800;color:${C_TEXT_1};margin:0 0 18px;line-height:1.3;">${text}</p>`;
+  return `<p class="txt-1" style="font-family:${F_HEAD};font-size:26px;font-weight:700;color:${C_TEXT_1};margin:0 0 18px;line-height:1.25;letter-spacing:-0.015em;">${text}</p>`;
 }
 
 export function bodyText(text: string, mb = "18px"): string {
@@ -191,27 +192,27 @@ export function ctaButton(href: string, text: string): string {
   </table>`;
 }
 
-const SIGNATURE_I18N: Record<string, { line1: string; line2: string }> = {
-  es: { line1: "Estructuración fiscal internacional", line2: "Banca, inversión y operativa global." },
-  en: { line1: "International tax structuring", line2: "Banking, investment and global operations." },
-  fr: { line1: "Structuration fiscale internationale", line2: "Banque, investissement et opérations internationales." },
-  de: { line1: "Internationale Steuerstrukturierung", line2: "Banking, Investitionen und globale Geschäftstätigkeit." },
-  pt: { line1: "Estruturação fiscal internacional", line2: "Banca, investimento e operações globais." },
-  ca: { line1: "Estructuració fiscal internacional", line2: "Banca, inversió i operativa global." },
+const SIGNATURE_NAME = "Claudia Hinojosa";
+const SIGNATURE_TITLE_I18N: Record<string, string> = {
+  es: "Asesora Fiscal",
+  en: "Tax Advisor",
+  fr: "Conseillère Fiscale",
+  de: "Steuerberaterin",
+  pt: "Consultora Fiscal",
+  ca: "Assessora Fiscal",
 };
 
 export function brandSignature(lang?: string, closing?: string): string {
-  const l = lang && SIGNATURE_I18N[lang] ? lang : "es";
-  const sig = SIGNATURE_I18N[l];
+  const l = lang && SIGNATURE_TITLE_I18N[lang] ? lang : "es";
+  const title = SIGNATURE_TITLE_I18N[l];
   const closingHtml = closing
     ? `<p class="txt-2" style="font-family:${F_STACK};font-size:15px;color:${C_TEXT_2};margin:0 0 20px;line-height:1.7;">${closing}</p>`
     : "";
   return `<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:28px;">
     <tr><td>
       ${closingHtml}
-      <p class="txt-1" style="font-family:${F_STACK};font-size:16px;font-weight:800;color:${C_TEXT_1};margin:0 0 4px;line-height:1.4;">${_BRAND_NAME}</p>
-      <p class="txt-2" style="font-family:${F_STACK};font-size:13px;color:${C_TEXT_2};margin:0 0 2px;line-height:1.5;">${sig.line1}</p>
-      <p class="txt-3" style="font-family:${F_STACK};font-size:12px;color:${C_TEXT_3};margin:0;line-height:1.5;">${sig.line2}</p>
+      <p class="txt-1" style="font-family:${F_HEAD};font-size:17px;font-weight:700;color:${C_TEXT_1};margin:0 0 4px;line-height:1.4;letter-spacing:-0.01em;">${SIGNATURE_NAME}</p>
+      <p class="txt-2" style="font-family:${F_STACK};font-size:13px;color:${C_TEXT_2};margin:0 0 2px;line-height:1.5;">${title} · ${_BRAND_NAME}</p>
     </td></tr>
   </table>`;
 }

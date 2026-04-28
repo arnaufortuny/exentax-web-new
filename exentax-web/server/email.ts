@@ -86,7 +86,7 @@ export function maskName(name: string | null | undefined): string {
   return `${firstMasked} ${last[0]}.`;
 }
 const REPLY_TO_EMAIL = CONTACT_EMAIL;
-const FROM_NAME = BRAND_NAME;
+const FROM_NAME = "Claudia Hinojosa";
 
 interface LogEmailOpts {
   to: string;
@@ -914,7 +914,7 @@ export async function sendDripEmail(data: DripEmailData): Promise<void> {
  * confirmar la cita. Disparado por el cron `incomplete-bookings.ts` a partir
  * de los drafts almacenados en la tabla `booking_drafts`.
  *
- * Tono: amistoso, sin urgencia, firmado por Arnau personalmente.
+ * Tono: amistoso, sin urgencia, firmado por Claudia personalmente.
  * CTA: vuelve a la página localizada de reserva.
  */
 export interface IncompleteBookingEmailData {
