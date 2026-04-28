@@ -17,6 +17,29 @@ vite.config.ts.*
 reports/*
 !reports/seo/
 reports/seo/*
+# Exception: the CTA / WhatsApp / navigation audit deliverables for
+# Task #19 are committed so reviewers can open the final report and
+# the supporting inventories/crawler outputs without re-running the
+# generators. Refresh them with the four scripts in `scripts/cta-*.mjs`
+# and `scripts/cta-whatsapp-audit.mjs` (see §5 of cta-audit-report.md).
+!reports/README.md
+!reports/cta-audit-report.md
+!reports/cta-inventory.md
+!reports/cta-inventory.csv
+!reports/cta-inventory.json
+!reports/cta-inventory-by-locale.csv
+!reports/cta-inventory-by-locale.json
+!reports/cta-crawler.md
+!reports/cta-crawler.json
+!reports/cta-rendered-crawler.md
+!reports/cta-rendered-crawler.json
+!reports/cta-rendered-inventory.csv
+!reports/cta-rendered-inventory.json
+!reports/cta-canonical.csv
+!reports/cta-canonical.json
+!reports/whatsapp-audit.md
+!reports/whatsapp-inventory.csv
+!reports/whatsapp-inventory.json
 # Exception: the blog source-URL ping cache MUST be tracked. The structural
 # validator (scripts/blog-sources-validate.mjs, rule 5) reads it offline in
 # CI and fails critical if it is missing or older than 14 days. Refresh it
