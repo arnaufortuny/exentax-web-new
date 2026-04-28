@@ -119,6 +119,8 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 Der CRS-Austausch rund um LLC-Bank­konten liest sich nützlicher als stabile Karte zwischen dem berichts­pflichtigen Finanz­institut, dem auf dem Konto identifizierten wirtschaftlich Berechtigten und der empfangenden Steuer­verwaltung denn als Jahres­end-Überraschung. Die Karte verschiebt sich nicht zwischen den Zyklen.
 <!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

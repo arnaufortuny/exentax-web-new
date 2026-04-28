@@ -105,6 +105,8 @@ La reorganització bancària de la LLC es llegeix de manera més útil com una a
 La transició entre l'arquitectura antiga i la nova es pren de manera més serena com una nota curta i datada que registra la data del canvi i el paper de cada proveïdor abans i després — fent que qualsevol qüestió posterior es pugui respondre en pocs minuts sense reconstruir el context de memòria.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-ca-bis -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

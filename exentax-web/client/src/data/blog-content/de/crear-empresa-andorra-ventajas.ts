@@ -171,6 +171,8 @@ Die Andorra-Gesellschaft liest sich nützlicher als Profil-Mapping zwischen dem 
 Die Notiz bezieht sich auf das Profil des wirtschaftlich Berechtigten und nicht auf das Image der Jurisdiktion — die maßgebliche Größe für die Antwort ist die Kombination aus Wohnsitz, Wertschöpfungs­ort und Kunden­markt, nicht der gerade aktive Werbe­diskurs über Andorra.
 <!-- /exentax:lote29-native-v1-bis:crear-empresa-andorra-ventajas-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

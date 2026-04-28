@@ -32,6 +32,8 @@ Consulte a tabela oficial em vigor no <a href="https://www.seg-social.es/">porta
 A quota de autónomo 2026 lê-se de forma mais serena como um mapeamento anual estável entre os rendimentos líquidos previstos e a base de contribuição correspondente, e não como uma surpresa recorrente. Os escalões oficiais definem uma relação discreta que não muda de mês para mês.
 <!-- /exentax:lote26-native-v1:cuota-autonomo-2026-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

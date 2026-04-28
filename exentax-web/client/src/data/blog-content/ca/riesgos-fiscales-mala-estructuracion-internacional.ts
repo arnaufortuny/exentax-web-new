@@ -93,6 +93,8 @@ La **regularització voluntària** abans de qualsevol requeriment (art. 305.4 CP
 
 Els riscos fiscals no són hipotètics: són la realitat de les inspeccions que veiem cada mes. La bona notícia és que tots aquests riscos són **evitables** amb planificació seriosa i honesta. L'optimització fiscal legal existeix i és molt potent; l'opacitat com a estratègia és una drecera que acaba sempre al mateix lloc.
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

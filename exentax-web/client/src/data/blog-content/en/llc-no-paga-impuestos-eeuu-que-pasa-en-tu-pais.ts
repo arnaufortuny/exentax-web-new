@@ -136,6 +136,8 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - [US LLC taxation by country of residence: what you pay where](/en/blog/us-llc-taxation-by-country-of-residence-what-you-pay-where)
 <!-- /exentax:cross-refs-v1 -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

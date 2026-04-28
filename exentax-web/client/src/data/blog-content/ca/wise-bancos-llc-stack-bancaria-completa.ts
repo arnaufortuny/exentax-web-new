@@ -144,6 +144,8 @@ L'arquitectura bancària de la LLC es llegeix de manera més útil com un mapatg
 Una nota curta al dossier de la LLC que registri quin proveïdor fa quin rol a l'arquitectura actual, amb la data en què la configuració es va fixar, fa l'arquitectura consultable en pocs minuts cada vegada que una contrapart demana dades bancàries o un assessor fiscal demana una conciliació.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

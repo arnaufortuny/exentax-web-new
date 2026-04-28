@@ -211,6 +211,8 @@ Die Frage der Vorteile einer US-LLC liest sich nützlicher als stabile Profil­k
 Die Notiz organisiert sich pro Achse — Wohnsitz, Aktivität, Kunden­geografie — und nicht pro Marketing-Versprechen, weil die Achsen die Profil­karte stabil tragen.
 <!-- /exentax:lote34-native-v1-bis:por-que-abrir-llc-estados-unidos-ventajas-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

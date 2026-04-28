@@ -200,6 +200,8 @@ font de la carte postale la partie la plus légère de l'année.
 Le reporting CRS d'un compte business se lit plus utilement comme une cartographie stable entre la résidence fiscale du bénéficiaire, le pays où le compte est tenu et l'administration fiscale qui reçoit l'information, plutôt que comme un risque ouvert. Cette cartographie ne change pas d'un trimestre à l'autre.
 <!-- /exentax:lote30-native-v1:revolut-business-crs-reporting-fiscal-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

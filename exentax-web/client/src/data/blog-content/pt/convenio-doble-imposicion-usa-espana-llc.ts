@@ -149,6 +149,8 @@ O convénio de dupla tributação Espanha-EUA lê-se de forma mais útil como um
 Uma nota curta e datada no ficheiro pessoal, que registe o país de residência declarado no ano, os tipos de rendimento recebidos e o lado onde cada um foi tributado primeiro, torna a posição relevável em poucos minutos numa conversa com um consultor fiscal.
 <!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

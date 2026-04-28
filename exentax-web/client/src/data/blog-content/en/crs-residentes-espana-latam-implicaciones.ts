@@ -91,6 +91,8 @@ CRS is not "avoided" from a European jurisdiction. It is planned for, with knowl
 CRS implications for Spanish and Latin American residents read more usefully as a stable mapping between the reporting financial institution, the residence declared on the account and the receiving tax administration, than as a country-by-country anecdote. The mapping doesn't shift with each anecdote.
 <!-- /exentax:lote36-native-v1:crs-residentes-espana-latam-implicaciones-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

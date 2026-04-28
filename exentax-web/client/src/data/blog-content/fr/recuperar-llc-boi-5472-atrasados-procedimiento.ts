@@ -101,6 +101,8 @@ Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vi
 La régularisation des BOI et Form 5472 en retard se lit plus utilement comme une procédure documentée avec une séquence fixe — combler l'écart année par année, déposer dans l'ordre chronologique, archiver les confirmations — plutôt que comme une réaction improvisée. La procédure ne change pas avec le nombre d'années à rattraper.
 <!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -89,6 +89,8 @@ The list of deductible expenses for autónomos reads more usefully when it's tre
 Deductible expenses for the self-employed read more usefully when they're treated as a stable annual mapping between the type of activity, the type of expense and the deductibility rule that applies, than as a recurring debate. The mapping doesn't change month to month, and a short note in the activity folder helps.
 <!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

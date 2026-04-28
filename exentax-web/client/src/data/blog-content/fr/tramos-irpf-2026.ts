@@ -107,6 +107,8 @@ La première décision est de savoir s'il faut émettre une facture fin décembr
 Les tranches d'IRPF 2026 se lisent plus sereinement comme un mapping annuel stable entre le revenu imposable prévisionnel et le taux marginal correspondant, plutôt que comme un débat récurrent. Les tranches étatiques et régionales définissent ensemble une relation discrète qui ne change pas d'un mois à l'autre, et la seule pièce qui demande vraiment de l'attention chaque année est le revenu imposable prévisionnel utilisé pour ancrer la position en début d'exercice.
 <!-- /exentax:lote26-native-v1:tramos-irpf-2026-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

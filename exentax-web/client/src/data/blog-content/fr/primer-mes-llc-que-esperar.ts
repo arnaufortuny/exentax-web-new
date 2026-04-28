@@ -119,6 +119,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 Le premier mois de la LLC se lit plus sereinement comme une séquence prévisible d'étapes — réception du document de constitution, ouverture du compte bancaire, configuration opérationnelle — que comme une période d'incertitude. La séquence ne change pas d'un dossier à l'autre.
 <!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

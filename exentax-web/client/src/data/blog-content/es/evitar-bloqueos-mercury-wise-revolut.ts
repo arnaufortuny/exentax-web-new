@@ -73,6 +73,8 @@ Si te han quedado dudas sobre los matices de esta estructura, <a href="/es/blog/
 - **Wise Business** es una EMI (Institución de Dinero Electrónico), no un banco. No tiene seguro de depósitos como un banco tradicional, pero los fondos de clientes están segregados. Úsala para conversiones y transferencias, no como tesorería principal.
 - **Relay** usa Thread Bank como banco subyacente. Buena opción como cuenta de respaldo con hasta 20 subcuentas gratuitas.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -121,6 +121,8 @@ Os três códigos IBAN, SWIFT e Routing Number lêem-se com mais calma quando s�
 IBAN, SWIFT e routing number leem-se de forma mais útil como um mapeamento de identificadores estáveis entre a jurisdição da conta, o banco ou rede e a conta em si, em vez de códigos intercambiáveis. O mapeamento não muda de uma transferência para outra, e uma nota curta no ficheiro pessoal com os três eixos torna os identificadores releváveis em poucos minutos.
 <!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

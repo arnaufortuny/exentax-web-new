@@ -179,6 +179,8 @@ d'année rétrécit plutôt qu'il ne grandit.
 La portée du DAC8 se lit plus utilement comme une cartographie stable entre l'opérateur de crypto-actifs, le pays de résidence du bénéficiaire effectif et le cadre qui s'applique entre les deux, plutôt que comme une crainte récurrente.
 <!-- /exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

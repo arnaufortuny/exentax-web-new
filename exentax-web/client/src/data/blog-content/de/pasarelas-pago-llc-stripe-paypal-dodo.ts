@@ -123,6 +123,8 @@ Die Wahl der Payment-Gateway für die LLC liest sich nützlicher als stabiles Ma
 Eine kurze Notiz im LLC-Ordner, die festhält, welche Gateway für welchen Kundentyp verwendet wird und wie das Settlement auf das Bankkonto der LLC gelangt, macht dieses Mapping zu etwas, das das Mitglied jederzeit nachlesen kann, ohne es aus dem Gedächtnis zu rekonstruieren.
 <!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

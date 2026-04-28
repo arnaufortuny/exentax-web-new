@@ -77,6 +77,8 @@ Le critère officiel sur les charges déductibles figure dans la <a href="https:
 
 **Que se passe-t-il si je perds une facture ?** L'AEAT admet la reconstitution via extrait bancaire + certificat fournisseur + déclaration sur l'honneur. Le processus est lourd et fréquemment rejeté. Mieux : archive numérique (Drive, Notion, gestionnaire) actualisée mensuellement.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -128,6 +128,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 A questão do registered agent lê-se de forma mais útil como uma relação estrutural estável entre o estado de registo, o veículo e o destinatário de notificações ali depositado, em vez de uma escolha de prestador.
 <!-- /exentax:lote33-native-v1:registered-agent-que-es-por-que-necesitas-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

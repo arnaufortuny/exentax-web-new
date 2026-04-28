@@ -153,6 +153,8 @@ As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado a
 A distinção ITIN e SSN lê-se de forma mais útil como um mapeamento estável entre o estatuto migratório ou fiscal da pessoa, a agência emissora e o uso previsto, em vez de uma escolha intercambiável.
 <!-- /exentax:lote35-native-v1:itin-ssn-que-son-como-obtenerlos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

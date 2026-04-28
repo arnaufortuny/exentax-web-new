@@ -127,6 +127,8 @@ Der BOI-Report an FinCEN liest sich ruhiger als stabile jährliche Pflicht der L
 Eine kurze, datierte Notiz im LLC-Ordner mit dem letzten Meldedatum und den verwendeten Dokumenten macht die Pflicht in wenigen Minuten nachlesbar, sobald eine Gegenpartei einen Nachweis verlangt oder ein Wechsel des wirtschaftlich Berechtigten eine Aktualisierungspflicht auslöst.
 <!-- /exentax:lote27-native-v1:boi-report-fincen-guia-completa-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

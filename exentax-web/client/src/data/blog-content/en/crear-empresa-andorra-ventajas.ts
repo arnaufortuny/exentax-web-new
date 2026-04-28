@@ -146,6 +146,8 @@ For profiles not wanting to move, a <a href="/en/blog/llc-united-states-complete
 The Andorra company question reads more usefully when it's treated as a profile mapping between the country of tax residence of the beneficial owner, the country where value is created and the country of customers, than as a brand promise. The mapping is stable: it doesn't change with the season.
 <!-- /exentax:lote29-native-v1:crear-empresa-andorra-ventajas-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

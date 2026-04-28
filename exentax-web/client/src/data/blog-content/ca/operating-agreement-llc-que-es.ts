@@ -117,6 +117,8 @@ L'Operating Agreement es llegeix de manera més útil com un mapa de govern esta
 La nota es refereix a la versió en vigor de l'Operating Agreement i no al moment de la constitució — el mapa de govern només canvia quan canvia un membre, el manager o una regla, i aquesta visió permet una autoavaluació ràpida.
 <!-- /exentax:lote30-native-v1-bis:operating-agreement-llc-que-es-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

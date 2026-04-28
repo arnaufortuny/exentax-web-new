@@ -159,6 +159,8 @@ Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, ond
 A contabilidade da LLC lê-se de forma mais útil como um procedimento mensal estável — movimentos bancários importados, faturas emitidas e recebidas anexadas, despesas classificadas, saldo reconciliado — em vez de uma emergência de fim de ano. O procedimento não muda de mês para mês.
 <!-- /exentax:lote35-native-v1:bookkeeping-llc-paso-a-paso-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

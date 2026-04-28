@@ -133,6 +133,8 @@ A LLC dos EUA lê-se de forma mais útil como uma escolha estrutural estável en
 A nota refere-se ao ano fiscal e não a eventos isolados — as obrigações recorrentes e os benefícios recorrentes manifestam-se ao nível anual, e esta visão acerta a granularidade correta para qualquer revisão posterior com um consultor ou autoavaliação.
 <!-- /exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

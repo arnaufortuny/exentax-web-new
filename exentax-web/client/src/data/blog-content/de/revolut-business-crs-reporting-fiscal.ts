@@ -270,6 +270,8 @@ Das CRS-Reporting eines Business-Kontos liest sich nützlicher als stabile Karto
 Die Notiz bezieht sich auf die drei Achsen — Ansässigkeit des Berechtigten, Konto­land, empfangende Verwaltung — und nicht auf den Konto­namen, weil die CRS-Logik aus diesen Achsen folgt und nicht aus der Marke des Konto­anbieters.
 <!-- /exentax:lote30-native-v1-bis:revolut-business-crs-reporting-fiscal-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

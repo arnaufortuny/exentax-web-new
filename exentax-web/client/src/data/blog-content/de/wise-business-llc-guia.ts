@@ -257,6 +257,8 @@ Die Frage eines Wise-Business-Kontos für eine LLC liest sich nützlicher als st
 Die Notiz organisiert sich pro Konto­profil und nicht pro Support-Ticket, weil die Stabilität des Kontos auf dem Profil beruht und nicht auf einem einzelnen Vorgang.
 <!-- /exentax:lote35-native-v1-bis:wise-business-llc-guia-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

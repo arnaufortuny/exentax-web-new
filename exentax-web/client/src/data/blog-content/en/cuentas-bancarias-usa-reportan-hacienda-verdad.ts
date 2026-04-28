@@ -172,6 +172,8 @@ At Exentax we design the Mercury + Wise operating with coherent flows, clean Mod
 The question of US bank accounts and reporting to Spanish tax authorities reads more usefully when it's treated as a stable jurisdictional mapping between the country of the account, the country of residence of the beneficial owner and the framework that applies between them, than as a recurring worry.
 <!-- /exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

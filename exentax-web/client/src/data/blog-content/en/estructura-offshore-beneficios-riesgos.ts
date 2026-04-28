@@ -163,6 +163,8 @@ The word "offshore" carries 1990s connotations that no longer apply. Today a com
 **Is having a BVI or Cayman entity legal today?** Yes, declaring it in residency and complying with CRS/CFC. The question is not legality but usefulness: maintenance cost (5-12k yearly), complex banking and reputation with Stripe or a potential buyer almost never beat nominal savings vs a US LLC or EU EOOD.
 **When does a classic offshore jurisdiction actually pay off?** Specific cases: intermediate holding for an international group with significant cross-border flows, IP holding with consolidated royalties, or real residence in the jurisdiction. For solo digital freelance or ecommerce, almost never.
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

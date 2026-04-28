@@ -107,6 +107,8 @@ Das LLC-Profil eines Content-Creators auf YouTube oder Twitch liest sich nützli
 Die jährliche Aktualisierung dieser Zuordnung pflegt sich am ruhigsten als kurzer, datierter Eintrag im LLC-Ordner mit der Plattform und dem entsprechenden Einnahmentyp zum Stichtag.
 <!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

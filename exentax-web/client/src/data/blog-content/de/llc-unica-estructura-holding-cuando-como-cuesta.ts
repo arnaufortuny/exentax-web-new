@@ -111,6 +111,8 @@ Die Frage einer Holding-LLC liest sich nützlicher als stabile strukturelle Kart
 Die Notiz hält die Beziehung zwischen operativer LLC, Holding-LLC und wirtschaftlich Berechtigtem fest — nicht die Marken­namen der einzelnen Vehikel, weil die Beziehung stabil bleibt, während die Marken­namen variabel sind.
 <!-- /exentax:lote31-native-v1-bis:llc-unica-estructura-holding-cuando-como-cuesta-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

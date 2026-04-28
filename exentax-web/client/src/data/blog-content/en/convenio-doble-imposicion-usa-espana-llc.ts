@@ -164,6 +164,8 @@ The US-Spain double taxation treaty reads more usefully when it's treated as a s
 A short note in the personal folder that records the country of residence declared for the year, the types of income received and the side where each one was first taxed makes the position reviewable in a few minutes whenever a tax adviser asks for clarification, instead of forcing a reconstruction from memory of the entire year.
 <!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

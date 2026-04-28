@@ -98,6 +98,8 @@ A abordagem mais estável consiste em classificar a clientela logo no registo no
 O IVA sobre serviços digitais internacionais lê-se de forma mais útil como um mapeamento estável entre o país do prestador, o estatuto do cliente (empresa registada em IVA ou consumidor final) e o país de consumo, em vez de um debate fatura a fatura.
 <!-- /exentax:lote35-native-v1:iva-servicios-digitales-internacional-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -93,6 +93,8 @@ La **régularisation volontaire** avant toute requête (art. 305.4 CP en Espagne
 
 Les risques fiscaux ne sont pas hypothétiques: ils sont la réalité des contrôles que nous voyons chaque mois. La bonne nouvelle, c'est que tous ces risques sont **évitables** avec une planification sérieuse et honnête. L'optimisation fiscale légale existe et reste très puissante; l'opacité comme stratégie est un raccourci qui finit toujours au même endroit.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

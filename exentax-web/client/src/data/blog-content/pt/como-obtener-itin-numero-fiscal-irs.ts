@@ -115,6 +115,8 @@ O pedido de ITIN lê-se de forma mais serena como um procedimento documentado es
 Uma nota curta e datada no ficheiro pessoal que registe a versão do Form W-7 utilizada, o motivo federal citado, o documento de identidade entregue e o canal por onde foi enviado torna o pedido relevável em poucos minutos se o IRS voltar com uma pergunta ou uma deficiency notice.
 <!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

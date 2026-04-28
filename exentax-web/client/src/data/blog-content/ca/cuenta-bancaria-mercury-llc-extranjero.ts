@@ -174,6 +174,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 L'obertura d'un compte Mercury per a una LLC amb membre no resident es llegeix de manera més serena com un procediment documentat estable.
 <!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

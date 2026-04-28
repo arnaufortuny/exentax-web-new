@@ -149,6 +149,8 @@ Els Models 720 i 721 es llegeixen de manera més útil com un mapatge anual esta
 La nota s'organitza per tipus d'actiu — compte, títol, cripto — i no per país, perquè el formulari de declaració aplicable s'assenta en el tipus d'actiu, i aquesta visió facilita la reconciliació amb els Models sense reconstruir la posició de memòria.
 <!-- /exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -105,6 +105,8 @@ Die bankliche Reorganisation der LLC liest sich nützlicher als Update des Rolle
 Der Übergang zwischen alter und neuer Architektur pflegt sich am ruhigsten als kurze, datierte Notiz, die das Datum der Umstellung und die Rolle jedes Anbieters vor und nach dem Wechsel festhält — und damit jede spätere Frage in wenigen Minuten beantwortbar macht.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

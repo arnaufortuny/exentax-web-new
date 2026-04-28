@@ -166,6 +166,8 @@ There is no perfect account for an LLC. There is the right **stack**, where each
 Critical post-formation LLC errors read more usefully when they're treated as a 12-month review checklist — registered agent address still valid, beneficial-owner data current, bookkeeping closed by quarter, federal and state filings tracked — than as isolated incidents to react to. The checklist doesn't change year to year, only the items that need attention move.
 <!-- /exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

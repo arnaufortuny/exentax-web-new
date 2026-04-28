@@ -230,6 +230,8 @@ La separació entre diners personals i diners de la LLC es llegeix de manera mé
 La nota es refereix a la data de tall i al saldo de tancament de cada banda, i no a cada moviment individual — la magnitud rellevant per a una verificació posterior és el saldo a les dates de referència, no l'historial complet.
 <!-- /exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

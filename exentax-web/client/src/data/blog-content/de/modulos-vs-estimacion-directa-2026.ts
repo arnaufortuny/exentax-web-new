@@ -104,6 +104,8 @@ Die Wahl zwischen Módulos und Estimación Directa liest sich nützlicher, wenn 
 Die Wahl zwischen Módulos und Estimación Directa liest sich nützlicher als Profilfrage — was ist das tatsächliche Verhältnis zwischen Erträgen und abzugsfähigen Ausgaben für genau diese Tätigkeit — denn als allgemeine Debatte. Die Antwort hängt nicht von dem ab, was im Sektor am häufigsten vorkommt, sondern von der Quote, die dieser konkrete Selbstständige für das fragliche Jahr dokumentieren kann.
 <!-- /exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

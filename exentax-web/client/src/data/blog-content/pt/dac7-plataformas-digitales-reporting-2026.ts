@@ -102,6 +102,8 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - **Brasil (Lei 12.973/2014, IN RFB 1.520/2014).** O regime brasileiro de **tributação de lucros no exterior (TBU)** tributa anualmente os lucros da controlada estrangeira, independentemente da distribuição, conforme a Lei 12.973/2014. A pessoa física residente fiscal no Brasil titular de LLC tem obrigação de declarar a participação na **Ficha Bens e Direitos** da DIRPF, os rendimentos auferidos na **Ficha de Rendimentos Recebidos do Exterior** com aplicação do **carnê-leão mensal** sobre o ganho, e a **DCBE** ao BACEN se a posição agregada superar USD 1.000.000.
 - **Angola, Moçambique e países lusófonos.** Cada jurisdição tem o seu próprio quadro: Angola e Moçambique têm regimes mais embrionários de transparência internacional, com obrigação principal de declarar contas no exterior superiores a determinados limiares cambiais. Princípio comum: o que a LLC retém como lucro considera-se recebido pelo sócio se a entidade for considerada transparente ou controlada.
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

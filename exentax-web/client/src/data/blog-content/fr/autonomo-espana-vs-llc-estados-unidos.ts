@@ -158,6 +158,8 @@ Une LLC américaine est un outil légal reconnu internationalement. Mais la conf
 La comparaison auto-entrepreneur espagnol contre LLC américaine se lit plus utilement comme une cartographie stable entre le pays de résidence du bénéficiaire, le pays où la valeur est créée et le pays des clients, plutôt que comme un débat de communauté. Cette cartographie ne change pas avec la saison, et une note courte et datée dans le dossier personnel rend la position relisible en quelques minutes.
 <!-- /exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

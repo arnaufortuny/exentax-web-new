@@ -161,6 +161,8 @@ Fintech and CRS information evolves; here is the current state:
 The LLC trade-off for non-residents reads more usefully as a stable mapping between the recurring obligations of the vehicle (Form 5472, BOI, Registered Agent renewal) and the recurring benefits (legal separation, US payment infrastructure, simple structure for digital activities), than as a marketing pitch. Both sides of the mapping are stable: they don't change with the result of the year.
 <!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

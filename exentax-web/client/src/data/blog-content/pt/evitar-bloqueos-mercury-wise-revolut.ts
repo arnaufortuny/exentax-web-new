@@ -82,6 +82,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 A estabilidade da conta na Mercury e na Wise lê-se de forma mais útil como um procedimento documentado — identificação do beneficiário mantida atualizada, origem dos fundos documentada, contexto da atividade atualizado quando evolui — em vez de uma questão de sorte. O procedimento não muda com a dimensão da conta.
 <!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

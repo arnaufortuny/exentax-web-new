@@ -150,6 +150,8 @@ Die Frage einer bulgarischen Gesellschaft liest sich nützlicher als stabile str
 Die Notiz hält die strukturelle Lesart der Beziehung zwischen Vehikel, wirtschaftlich Berechtigtem und der Behandlung von Ergebnis und Ausschüttung fest und nicht eine isolierte Steuersatz­zahl, weil die Lesart über das Jahr stabil bleibt, während eine isolierte Zahl ohne Kontext nicht überprüfbar ist.
 <!-- /exentax:lote35-native-v1-bis:empresa-bulgaria-10-tributacion-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -148,6 +148,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A questão dos erros fiscais dos freelancers espanhóis lê-se de forma mais útil como uma checklist anual estável — livros fechados por trimestre, despesas corretamente classificadas, declarações no prazo, rendimentos estrangeiros documentados — em vez de incidentes isolados.
 <!-- /exentax:lote34-native-v1:errores-fiscales-freelancers-espanoles-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

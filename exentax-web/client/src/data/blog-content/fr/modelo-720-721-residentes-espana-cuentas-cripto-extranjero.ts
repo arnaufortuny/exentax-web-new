@@ -124,6 +124,8 @@ Règle pratique: une LLC opérationnelle, avec substance, correctement déclaré
 Les Modelos 720 et 721 se lisent plus utilement comme une cartographie annuelle stable entre le pays où les actifs sont détenus, le type d'actif (compte, titre, crypto) et le formulaire de déclaration correspondant, plutôt que comme une crainte récurrente. La cartographie ne change pas d'une année sur l'autre — seuls les soldes cumulés évoluent.
 <!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

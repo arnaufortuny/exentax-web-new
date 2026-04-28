@@ -101,6 +101,8 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 
 The practical rule: an operating LLC with real substance, properly declared in your country of residence, is **legitimate tax planning**. An LLC used to hide income, fake non-residence or shift passive income with no economic basis lands inside **art. 15 LGT (anti-abuse)** or, in the worst case, **art. 16 LGT (simulation)**. The facts decide, not the paperwork.
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

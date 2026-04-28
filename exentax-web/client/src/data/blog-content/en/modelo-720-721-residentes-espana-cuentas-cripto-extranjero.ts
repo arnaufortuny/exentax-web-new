@@ -143,6 +143,8 @@ Fintech and CRS information evolves; here is the current state:
 Models 720 and 721 read more usefully when they're treated as a stable annual mapping between the country where the assets are held, the type of asset (account, security, crypto) and the corresponding declaration form, than as a recurring fear. The mapping doesn't change year to year — only the cumulative balance moves.
 <!-- /exentax:lote31-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

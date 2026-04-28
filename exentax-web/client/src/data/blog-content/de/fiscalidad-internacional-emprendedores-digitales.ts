@@ -127,6 +127,8 @@ Die internationale Besteuerung digitaler Unternehmer liest sich nützlicher als 
 Die jährliche Überprüfung des Mappings Residenz/Vehikel/Kundenland pflegt sich am ruhigsten als kurzer, datierter Eintrag im persönlichen Ordner, der die drei Werte zum Stichtag bestätigt und nur die tatsächlich bewegten Achsen zur Anpassung vormerkt.
 <!-- /exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

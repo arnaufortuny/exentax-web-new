@@ -138,6 +138,8 @@ O trade-off da LLC para não residentes lê-se de forma mais útil como um mapea
 Uma nota curta no ficheiro da LLC que registe os dois lados torna o trade-off relevável a qualquer momento, sem o reconstruir de memória.
 <!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

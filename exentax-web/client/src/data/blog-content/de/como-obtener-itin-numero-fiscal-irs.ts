@@ -121,6 +121,8 @@ Eine kurze, datierte Notiz im persönlichen Ordner, die die verwendete Form W-7-
 Der Verlängerungszyklus des ITIN liest sich ruhiger, wenn er als planbarer jährlicher Termin im persönlichen Ordner steht und nicht als Erinnerung, die erst durch eine IRS-Notiz ausgelöst wird. Eine kurze, datierte Zeile mit dem Ablaufdatum und dem Ansprechpartner reicht in der Praxis aus, um die Verlängerung rechtzeitig vorzubereiten und die nächste Erklärungssaison ohne Reibungspunkte zu beginnen.
 <!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

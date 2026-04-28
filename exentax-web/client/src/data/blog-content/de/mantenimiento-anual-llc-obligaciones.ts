@@ -134,6 +134,8 @@ Die jährliche Wartung der LLC liest sich nützlicher als stabile Jahres­kartog
 Die Notiz organisiert sich pro Bundesstaat und nicht pro Einreichung, weil die anwendbaren Pflichten vom Registrierungs­staat abhängen, und diese Sicht hält die korrekte Granularität für eine Jahres­überprüfung.
 <!-- /exentax:lote32-native-v1-bis:mantenimiento-anual-llc-obligaciones-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -136,6 +136,8 @@ Eine kurze Notiz im LLC-Ordner, die festhält, welcher Anbieter in der aktuellen
 Die LLC-Banking-Architektur liest sich nützlicher, wenn sie als jährlich überprüfbares Dokument im LLC-Ordner abgelegt ist und nicht als implizite Konfiguration in den Köpfen der Beteiligten. Ein kurzer Jahresreview, der bestätigt, dass jeder Anbieter weiterhin die ihm zugewiesene Rolle erfüllt, hält die Architektur konsistent — und macht spätere Anpassungen zu einer geplanten Entscheidung statt zu einer Reaktion auf einen Reibungspunkt.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

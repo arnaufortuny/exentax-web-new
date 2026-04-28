@@ -168,6 +168,8 @@ Eine kurze, datierte Notiz im LLC-Ordner mit dem Stichtag und dem Schlussstand j
 Die Notiz bezieht sich auf den Stichtag und nicht auf jede einzelne Bewegung — die maßgebliche Größe für eine spätere Überprüfung ist der Saldo­stand zum Stichtag jeder Seite und seine Belegbarkeit, nicht die vollständige Bewegungs­historie, und diese Sicht trifft die korrekte Granularität.
 <!-- /exentax:lote29-native-v1-bis:documentar-separacion-fondos-llc-historial-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

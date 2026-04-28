@@ -159,6 +159,8 @@ Die Unterscheidung ITIN und SSN liest sich nützlicher als stabile Identifikator
 Die Notiz organisiert sich pro Identifikator und nicht pro Antrag, weil die spätere Verwendung an den Identifikator anknüpft und nicht an den einzelnen Antrags­vorgang.
 <!-- /exentax:lote35-native-v1-bis:itin-ssn-que-son-como-obtenerlos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

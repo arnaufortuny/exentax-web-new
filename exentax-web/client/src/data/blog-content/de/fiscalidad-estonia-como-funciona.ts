@@ -174,6 +174,8 @@ Die Frage der estnischen Fiskalität liest sich nützlicher als stabile struktur
 Die Notiz hält die strukturelle Lesart der Beziehung Vehikel–Person fest und nicht eine isolierte Zahl, weil die Lesart über das Jahr hinweg stabil bleibt.
 <!-- /exentax:lote33-native-v1-bis:fiscalidad-estonia-como-funciona-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

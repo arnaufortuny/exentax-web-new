@@ -199,6 +199,8 @@ La qüestió d'una societat estoniana es llegeix de manera més útil com una ca
 La nota s'organitza per eix — residència del beneficiari, lloc de creació de valor, mercat dels clients — i no per efecte de marca, perquè els eixos es mantenen estables mentre el discurs comercial canvia amb la temporada.
 <!-- /exentax:lote30-native-v1-bis:por-que-no-abrir-empresa-estonia-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

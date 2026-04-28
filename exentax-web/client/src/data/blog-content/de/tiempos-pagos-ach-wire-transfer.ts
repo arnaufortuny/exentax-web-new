@@ -126,6 +126,8 @@ Die Zeiten von ACH- und Wire-Transfer-Zahlungen lesen sich nützlicher als stabi
 Die typische Frist pro Anweisungstyp ist im Tagesbetrieb wichtiger als die Bestzeit eines einzelnen Vorgangs — die Erwartungshaltung gegenüber Zahlern und Empfängern setzt auf einer realistischen Bandbreite auf, nicht auf einem Einzelfall, und diese Bandbreite hält sich über Monate hinweg stabil.
 <!-- /exentax:lote28-native-v1-bis:tiempos-pagos-ach-wire-transfer-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

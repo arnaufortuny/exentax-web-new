@@ -79,6 +79,8 @@ For an autónomo invoicing 60,000€/year, the SL switch frequently reduces net 
 
 **When to close an SL that no longer works?** As soon as possible, because an inactive SL still costs ~6,000€/year in maintenance. If 6+ months without activity, calculate closure cost vs keeping it "just in case". Closure takes 6-12 months and ~600-1,500€.
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

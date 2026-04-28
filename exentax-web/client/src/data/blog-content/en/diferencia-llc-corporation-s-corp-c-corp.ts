@@ -93,6 +93,8 @@ The right choice depends on your 3-5 year plan, not on whichever forum is trendi
 - [LLC taxation by economic activity: services, e-commerce, SaaS](/en/blog/llc-taxation-by-economic-activity-services-ecommerce-saas)
 <!-- /exentax:cross-refs-v1 -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Find out whether an LLC fits your case</a>
 <!-- /exentax:calc-cta-v1 -->

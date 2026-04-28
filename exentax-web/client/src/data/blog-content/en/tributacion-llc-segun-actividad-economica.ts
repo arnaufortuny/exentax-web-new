@@ -112,6 +112,8 @@ The mapping captures more durably in a short, dated note that lists the activity
 LLC taxation by economic activity reads more usefully as a stable mapping between the activity type — services, digital products, dropshipping, intellectual property — and the treatment expected in the United States and in the residence country, than as a single global rule.
 <!-- /exentax:lote36-native-v1:tributacion-llc-segun-actividad-economica-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

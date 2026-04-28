@@ -99,6 +99,8 @@ Abzugsfähige Ausgaben für Selbstständige lesen sich nützlicher als stabiles 
 Die Notiz organisiert sich pro Ausgabetyp und nicht pro einzelnem Beleg — die maßgebliche Größe für die Abzugs­fähigkeit ist die anwendbare Regel pro Ausgabetyp, nicht der einzelne Beleg, und diese Sicht trifft die korrekte Granularität für eine Jahres­überprüfung.
 <!-- /exentax:lote29-native-v1-bis:gastos-deducibles-autonomos-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

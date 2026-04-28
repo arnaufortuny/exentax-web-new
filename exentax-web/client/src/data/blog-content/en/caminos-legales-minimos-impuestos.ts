@@ -142,6 +142,8 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 The legal minimum-tax paths read more usefully when they're treated as a stable structural mapping between residence, value creation and customers, than as a marketing trick. The mapping doesn't change with the season, and a short dated note in the personal folder with the three axes makes the position reviewable.
 <!-- /exentax:lote32-native-v1:caminos-legales-minimos-impuestos-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

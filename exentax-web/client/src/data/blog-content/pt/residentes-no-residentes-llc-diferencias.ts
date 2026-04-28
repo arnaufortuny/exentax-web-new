@@ -119,6 +119,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A distinção residente e não-residente lê-se de forma mais útil como um mapa de perfil estável entre o país de residência do beneficiário, o veículo e a relação entre os dois, em vez de uma discussão de estatuto. Este mapa não muda de ano para ano, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável.
 <!-- /exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

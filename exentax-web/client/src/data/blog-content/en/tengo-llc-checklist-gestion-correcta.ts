@@ -177,6 +177,8 @@ The LLC management checklist reads more usefully when it's treated as a stable a
 The note is organized by recurring obligation rather than by month of the year, because the obligations remain the same each year while their dates shift, and this view keeps the map reusable from one cycle to the next.
 <!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

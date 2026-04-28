@@ -73,6 +73,8 @@ Werden beide Sichten auf demselben Planungsblatt gehalten, hört der Beitrag auf
 Die Frage der spanischen Selbstständigen-Beiträge liest sich nützlicher als stabile Jahres­kartografie zwischen der Beitrags­basis, der entsprechenden Rate und den an diese Basis gekoppelten öffentlichen Leistungen denn als bewegliche Zahl. Die Struktur der Kartografie ändert sich nicht von Jahr zu Jahr.
 <!-- /exentax:lote34-native-v1:cuotas-autonomos-2026-guia-completa-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

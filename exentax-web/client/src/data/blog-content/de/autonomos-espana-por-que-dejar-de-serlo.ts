@@ -138,6 +138,8 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 Die Frage des Ausstiegs aus dem spanischen Autónomo-Status liest sich nützlicher als stabile strukturelle Entscheidung zwischen der tatsächlich ausgeübten Tätigkeit, dem Wohnsitz des wirtschaftlich Berechtigten und dem Vehikel, das die Tätigkeit hält, denn als monatlicher Frust über die Sozial­abgaben.
 <!-- /exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

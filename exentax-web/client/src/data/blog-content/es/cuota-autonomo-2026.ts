@@ -26,6 +26,8 @@ Cada año, la TGSS regulariza lo cotizado provisionalmente con el rendimiento re
 Para perfiles 100% digitales con clientes mayoritariamente internacionales, una <a href="/es/blog/llc-alternativa-autonomo-espana">LLC americana bien estructurada</a> permite causar baja del RETA y operar como entidad jurídica desde EE.UU., con coste anual de mantenimiento muy inferior a la cuota anual de autónomo. La condición es que la actividad y la facturación se reordenen realmente a través de la LLC, no como mera fachada. Si tu base mensual ronda los 6.000 euros y la cuota mínima se acerca a los 607 euros (y la máxima del tramo a los 1.607 euros), el ahorro neto puede compensar incluso el coste de coordinación con tu asesor fiscal en España.
 Comprueba la tabla oficial vigente en el <a href="https://www.seg-social.es/">portal de la Seguridad Social</a> y consulta el <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1994-14960">Real Decreto Legislativo 1/1994</a> que regula el RETA. Cotizar de menos hoy puede salir caro mañana; cotizar de más sin necesidad reduce tu ahorro. La clave es ajustar la base con realismo y revisarla cada trimestre.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

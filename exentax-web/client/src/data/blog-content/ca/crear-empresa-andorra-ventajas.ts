@@ -138,6 +138,8 @@ Andorra és una opció seriosa, no un truc. Per a emprenedors i professionals am
 
 Per a perfils que no volen mudar-se, una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a> resol l'optimització corporativa sense necessitat de canviar de país. Per a qui sí està disposat a fer el pas, la combinació residència andorrana + LLC americana és una de les estructures més eficients que veiem.
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

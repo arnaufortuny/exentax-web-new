@@ -107,6 +107,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A fiscalidade da LLC por país de residência lê-se como um mapeamento estável entre o beneficiário e o país.
 <!-- /exentax:lote32-native-v1:fiscalidad-llc-por-pais-residencia-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

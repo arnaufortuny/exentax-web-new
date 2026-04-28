@@ -100,6 +100,8 @@ This article relies on rules currently in force. Main sources for verification:
 The recovery of late BOI and Form 5472 filings reads more usefully when it's treated as a documented procedure with a fixed sequence — close the gap by year, file in chronological order, archive the confirmations — than as a improvised reaction. The procedure doesn't change with the number of years to catch up.
 <!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -110,6 +110,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 La question d'un compte Wise Business pour une LLC se lit plus utilement comme une cartographie stable entre l'identifiant du compte, l'identification du bénéficiaire effectif et le contexte d'activité documenté, plutôt que comme une suite de tickets de support à résoudre au fil de l'eau. Cette cartographie ne change pas d'un mois à l'autre, et une note courte et datée dans le dossier LLC avec les trois axes rend la position relisible en quelques minutes.
 <!-- /exentax:lote35-native-v1:wise-business-llc-guia-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

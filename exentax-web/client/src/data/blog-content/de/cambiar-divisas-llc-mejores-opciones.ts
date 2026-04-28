@@ -122,6 +122,8 @@ Die Währungs­konversion in der LLC liest sich nützlicher als stabile operativ
 Die Notiz bezieht sich auf die drei Währungs­achsen — Kunden, operatives Konto, Wohnsitz — und nicht auf den Tageskurs, weil die Karte stabil bleibt, während der Tageskurs schwankt, und diese Sicht trifft die korrekte Granularität für eine wiederkehrende Konversions­strategie.
 <!-- /exentax:lote30-native-v1-bis:cambiar-divisas-llc-mejores-opciones-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

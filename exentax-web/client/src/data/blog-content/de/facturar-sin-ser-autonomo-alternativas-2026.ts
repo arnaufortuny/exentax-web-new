@@ -118,6 +118,8 @@ Die Alternativwahl verankert sich schriftlich in einer kurzen Notiz, die die dre
 Die Frage des Rechnung­stellens ohne Autónomo-Status liest sich nützlicher als stabile Karte struktureller Alternativen — eigenes ausländisches Vehikel, dritter Abrechnungs­anbieter, vertraglich gebundene Rolle unter anderem Vehikel — denn als einzelner Trick, der jede Situation löst.
 <!-- /exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

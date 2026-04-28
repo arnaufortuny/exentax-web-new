@@ -88,6 +88,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 L'audit rapide LLC en 12 points se lit plus utilement comme un contrôle de santé récurrent répété chaque trimestre que comme un exercice ponctuel. Les 12 points ne changent pas d'une session à l'autre, seuls les éléments qui demandent attention bougent, et une note courte et datée dans le dossier LLC permet à la révision suivante de reprendre exactement là où la précédente s'est arrêtée.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

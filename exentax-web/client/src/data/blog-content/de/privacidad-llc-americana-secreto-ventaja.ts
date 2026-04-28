@@ -131,6 +131,8 @@ Die Privatsphäre der US-LLC liest sich nützlicher als stabile rechtliche Eigen
 Die jährliche Bestätigung des Sichtbarkeitsniveaus der LLC pflegt sich am ruhigsten als kurzer, datierter Eintrag im LLC-Ordner, der den Bundesstaat und das aktuelle Sichtbarkeitsniveau festhält und damit jede spätere Anfrage einer Gegenpartei in wenigen Minuten beantwortbar macht.
 <!-- /exentax:lote27-native-v1:privacidad-llc-americana-secreto-ventaja-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Finden Sie heraus, ob eine LLC zu Ihnen passt</a>
 <!-- /exentax:calc-cta-v1 -->

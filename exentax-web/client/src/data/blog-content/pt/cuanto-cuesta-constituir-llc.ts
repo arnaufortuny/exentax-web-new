@@ -175,6 +175,8 @@ Este artigo apoia-se em normas em vigor. Citamos as fontes principais para que p
 - **UE / OCDE.** Directiva (UE) 2011/16, alterada pela DAC6 (mecanismos transfronteiriços), DAC7 (Directiva (UE) 2021/514, plataformas digitais) e DAC8 (criptoactivos); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, assimetrias híbridas); Norma Comum de Comunicação (CRS) da OCDE.
 - **Quadro internacional.** Modelo de Convenção Fiscal da OCDE, art. 5.º (estabelecimento estável) e comentários; Acção 5 BEPS (substância económica); Recomendação 24 do GAFI (beneficiários efectivos).
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

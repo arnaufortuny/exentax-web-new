@@ -176,6 +176,8 @@ Die Dubai-Frage liest sich nützlicher als stabile Profil­frage zwischen dem ta
 Die Notiz bezieht sich auf das Steuerjahr und nicht auf den Marketing­zyklus — die maßgebliche Größe für die Beurteilung ist die tatsächliche Lage des wirtschaftlich Berechtigten im Kalenderjahr, nicht der gerade aktive Werbe­diskurs über die Vereinigten Arabischen Emirate.
 <!-- /exentax:lote29-native-v1-bis:dubai-uae-mito-no-impuestos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

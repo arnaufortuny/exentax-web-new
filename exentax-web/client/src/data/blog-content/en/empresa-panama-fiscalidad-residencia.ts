@@ -144,6 +144,8 @@ Fintech and CRS information evolves; here is the current state:
 The Panama company question reads more usefully when it's treated as a profile mapping between the country of residence of the beneficial owner and the country where value is actually created, than as a generic comparison.
 <!-- /exentax:lote28-native-v1:empresa-panama-fiscalidad-residencia-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

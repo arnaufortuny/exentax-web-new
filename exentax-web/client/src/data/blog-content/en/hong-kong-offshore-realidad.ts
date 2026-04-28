@@ -133,6 +133,8 @@ Practical rule: an operative LLC with substance, properly declared in your count
 The Hong Kong offshore question reads more usefully as a stable structural reading between the place where the activity is carried on, the source of the income and the residence of the beneficial owner, than as a marketing shortcut. The reading doesn't shift with marketing trends, and a short dated note in the personal folder with the three axes makes the position reviewable.
 <!-- /exentax:lote35-native-v1:hong-kong-offshore-realidad-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -121,6 +121,8 @@ Un hàbit que redueix la fricció consisteix a fixar dues finestres setmanals pe
 Els temps dels pagaments ACH i wire transfer es llegeixen de manera més útil com un mapatge estable entre el tipus d'instrucció (ACH o wire), el moment en què es llança i el termini operatiu esperat, en lloc d'una espera incerta. Aquests terminis no canvien de mes en mes, i una nota curta al dossier de la LLC amb la finestra típica per tipus d'instrucció fa l'expectativa consultable.
 <!-- /exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

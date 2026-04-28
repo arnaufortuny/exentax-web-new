@@ -116,6 +116,8 @@ Die Beziehung zum IRS liest sich nützlicher als stabile Pflichten­kartografie 
 Die Notiz hält die jährlichen Pflichten und nicht jeden einzelnen Vorgang fest — die maßgebliche Größe für eine spätere Überprüfung sind die Pflichten pro Jahr.
 <!-- /exentax:lote32-native-v1-bis:que-es-irs-guia-duenos-llc-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -147,6 +147,8 @@ La operativa diaria descrita se apoya en las siguientes obligaciones formales y 
 - **Buenas prácticas contables.** Recomendaciones del AICPA para LLC con actividad internacional y guías del IRS Publication 583 (Starting a Business and Keeping Records).
 - **Banca y trazabilidad.** Términos de Mercury, Relay y Wise Business; obligaciones KYC del Bank Secrecy Act (31 CFR Part 1010).
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

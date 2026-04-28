@@ -114,6 +114,8 @@ O BOI report ao FinCEN lê-se de forma mais serena como uma obrigação anual es
 Uma nota curta e datada no ficheiro da LLC com a última data de entrega e os documentos utilizados torna a obrigação relevável em poucos minutos.
 <!-- /exentax:lote27-native-v1:boi-report-fincen-guia-completa-2026-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

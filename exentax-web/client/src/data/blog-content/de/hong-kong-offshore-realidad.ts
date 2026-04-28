@@ -157,6 +157,8 @@ Die Hongkong-Offshore-Frage liest sich nützlicher als stabile strukturelle Lesa
 Die Notiz organisiert sich pro Achse — Ort der Tätigkeit, Quelle der Einkünfte, Wohnsitz — und nicht pro Marketing-Versprechen, weil die Achsen die strukturelle Lesart stabil tragen.
 <!-- /exentax:lote35-native-v1-bis:hong-kong-offshore-realidad-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

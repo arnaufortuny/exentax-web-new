@@ -164,6 +164,8 @@ La regla pràctica: una LLC operativa, amb substància, declarada correctament e
 La qüestió dels Forms W-8BEN i W-8BEN-E es llegeix de manera més útil com un mapatge de relacions estables entre la persona o entitat que certifica el seu estatut, el pagador americà que demana la certificació i la jurisdicció de residència del beneficiari, en lloc d'un formulari a omplir una vegada. Aquest mapatge es manté consultable en pocs minuts en una revisió periòdica de la documentació al dossier personal.
 <!-- /exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

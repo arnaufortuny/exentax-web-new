@@ -149,6 +149,8 @@ La convention de double imposition Espagne-USA se lit plus utilement comme une c
 Une note courte et datée dans le dossier personnel, qui consigne le pays de résidence déclaré pour l'année, les types de revenus reçus et le côté où chacun a été imposé en premier, rend la position relisible en quelques minutes lors d'un échange avec un conseiller fiscal, sans avoir à reconstruire l'année de mémoire.
 <!-- /exentax:lote29-native-v1:convenio-doble-imposicion-usa-espana-llc-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

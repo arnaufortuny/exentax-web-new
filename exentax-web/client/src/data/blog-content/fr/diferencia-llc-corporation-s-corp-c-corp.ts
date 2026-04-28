@@ -94,6 +94,8 @@ Le bon choix dépend de votre plan à 3-5 ans, pas de la mode du forum du moment
 - [Imposition de la LLC selon l'activité économique : services, e-commerce, SaaS](/fr/blog/imposition-de-la-llc-selon-lactivite-economique-services)
 <!-- /exentax:cross-refs-v1 -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Découvrez si une LLC est faite pour vous</a>
 <!-- /exentax:calc-cta-v1 -->

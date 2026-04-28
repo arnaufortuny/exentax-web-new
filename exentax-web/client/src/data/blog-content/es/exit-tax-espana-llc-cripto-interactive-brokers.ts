@@ -186,6 +186,8 @@ Una vez que has cambiado de residencia (especialmente si has elegido un destino 
 - **Controlar la carga fiscal** en el nuevo país de residencia, donde la tributación de las rentas de la LLC se rige por las normas locales.
 El perfil más habitual que vemos en Exentax: inversor que sale de España hacia Dubai o un destino latinoamericano, mantiene la LLC para operar mercados financieros y cripto, y planifica correctamente tanto el exit tax español como la nueva estructura fiscal en destino. Lo cubrimos a fondo en nuestra guía sobre <a href="/es/blog/llc-interactive-brokers-invertir-bolsa-usa">LLC e Interactive Brokers para invertir desde EE. UU.</a> y en el artículo sobre <a href="/es/blog/criptomonedas-trading-llc-impuestos">trading de criptomonedas con LLC</a>.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

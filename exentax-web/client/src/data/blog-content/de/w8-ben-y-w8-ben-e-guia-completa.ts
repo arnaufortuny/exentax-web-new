@@ -157,6 +157,8 @@ Die Frage der Forms W-8BEN und W-8BEN-E liest sich nützlicher als stabile Bezie
 Die Notiz organisiert sich pro Beziehung zwischen Zahler und Empfänger und nicht pro einzelner Zahlung, weil die Bescheinigung des Status auf der Beziehung beruht und nicht auf einer einzelnen Operation. Diese Sicht hält die korrekte Granularität für eine periodische Überprüfung der Dokumentation.
 <!-- /exentax:lote33-native-v1-bis:w8-ben-y-w8-ben-e-guia-completa-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

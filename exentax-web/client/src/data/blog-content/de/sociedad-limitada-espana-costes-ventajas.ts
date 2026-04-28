@@ -99,6 +99,8 @@ Ein weiteres Element, das in die Lesart einbezogen werden sollte, ist die Stabil
 Die Frage einer spanischen SL liest sich nützlicher als stabile Karte zwischen wiederkehrenden Kosten, vom Vehikel abgedeckten Funktionen und Wohnsitz des wirtschaftlich Berechtigten denn als punktueller Vergleich.
 <!-- /exentax:lote36-native-v1:sociedad-limitada-espana-costes-ventajas-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

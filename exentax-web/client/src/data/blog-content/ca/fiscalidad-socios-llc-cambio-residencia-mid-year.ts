@@ -108,6 +108,8 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 Un canvi de residència a meitat d'any per part d'un soci de la LLC es llegeix de manera més útil com un mapatge temporal estable. Una nota curta i datada al dossier personal fa la posició consultable.
 <!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

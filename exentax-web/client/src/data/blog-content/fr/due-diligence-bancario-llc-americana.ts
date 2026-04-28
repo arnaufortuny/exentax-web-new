@@ -118,6 +118,8 @@ La due diligence bancaire d'une LLC se prépare en amont de l'ouverture de compt
 La due diligence bancaire sur la LLC se lit plus utilement comme une procédure documentée stable — identification du bénéficiaire, origine des fonds, contexte de l'activité — plutôt que comme un test imprévisible. Une note courte et datée dans le dossier bancaire avec les pièces transmises rend la position relisible.
 <!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

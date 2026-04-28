@@ -146,6 +146,8 @@ La configuration bancaire de la LLC se lit plus utilement comme un mapping stabl
 Une courte note dans le dossier LLC qui consigne quel prestataire joue quel rôle dans la configuration actuelle, avec la date où la configuration a été fixée, rend l'architecture relisible en quelques minutes dès qu'une contrepartie demande des coordonnées bancaires ou qu'un conseiller fiscal demande une réconciliation.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

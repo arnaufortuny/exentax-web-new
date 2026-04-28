@@ -113,6 +113,8 @@ Fintech and CRS information evolves; here is the current state:
 Scaling a digital business through a US LLC reads more usefully when it's treated as a stable architectural choice between the operating role of the LLC, the country of the customers and the country of residence of the beneficial owner, than as a one-shot decision. The architecture doesn't change with each new market — only the scale on each axis evolves.
 <!-- /exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

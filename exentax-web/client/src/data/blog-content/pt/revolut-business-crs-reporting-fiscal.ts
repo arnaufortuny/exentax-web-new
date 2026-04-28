@@ -94,6 +94,8 @@ O reporte CRS lê-se com mais calma quando é tratado como propriedade da arquit
 O reporting CRS de uma conta business lê-se de forma mais útil como um mapeamento estável entre a residência fiscal do beneficiário, o país onde a conta é mantida e a administração fiscal que recebe a informação, em vez de um risco aberto. Esse mapeamento não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável.
 <!-- /exentax:lote30-native-v1:revolut-business-crs-reporting-fiscal-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

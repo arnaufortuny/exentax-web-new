@@ -126,6 +126,8 @@ Die Frage der Besteuerung internationaler Kunden für einen in Spanien ansässig
 Die jährliche Pflege dieses Mappings pflegt sich am ruhigsten als kurzer datierter Eintrag im Kundenordner, der die Kundentypen und ihre Länder zum Stichtag festhält und die im Folgejahr anwendbaren Regeln direkt nachvollziehbar macht.
 <!-- /exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

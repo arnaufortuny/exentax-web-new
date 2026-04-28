@@ -140,6 +140,8 @@ L'Andorre est une option sérieuse, pas un truc. Pour entrepreneurs et professio
 
 Pour des profils qui ne veulent pas déménager, une <a href="/fr/blog/llc-aux-etats-unis-guide-complet-pour-non-residents-en-2026">LLC américaine</a> résout l'optimisation corporate sans nécessité de changer de pays. Pour ceux qui sont prêts à franchir le pas, la combinaison résidence andorrane + LLC américaine est l'une des structures les plus efficaces que nous voyons.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

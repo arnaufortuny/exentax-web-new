@@ -118,6 +118,8 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 Die Einreichung des Form 5472 liest sich nützlicher als stabile jährliche Schritte­folge — Identifikation der berichts­pflichtigen Personen, Auflistung der berichts­pflichtigen Transaktionen, Zuordnung zur richtigen Frist — denn als jährliche Improvisation. Die Schritte­folge ändert sich nicht von Jahr zu Jahr.
 <!-- /exentax:lote35-native-v1:form-5472-que-es-como-presentarlo-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

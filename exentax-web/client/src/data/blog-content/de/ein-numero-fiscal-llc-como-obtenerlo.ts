@@ -95,6 +95,8 @@ Die EIN-Frage liest sich nützlicher als stabiler struktureller Identifikator de
 Die Notiz bezieht sich auf den EIN als stabile Bezugs­größe und nicht auf eine einzelne Einreichung, weil jede spätere Pflicht­einreichung an diesen Identifikator anknüpft.
 <!-- /exentax:lote33-native-v1-bis:ein-numero-fiscal-llc-como-obtenerlo-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -127,6 +127,8 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 - [Tributação da LLC por país de residência: o que se paga e onde](/pt/blog/tributacao-da-llc-por-pais-de-residencia-o-que-se-paga-onde)
 <!-- /exentax:cross-refs-v1 -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

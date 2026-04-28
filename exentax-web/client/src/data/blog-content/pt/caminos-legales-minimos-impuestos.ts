@@ -145,6 +145,8 @@ Os caminhos legais para minimizar impostos leem-se de forma mais útil como um m
 A nota organiza-se por eixo — residência, criação de valor, clientes — e não por promessa de marketing, porque os eixos mantêm-se estáveis ao longo do ano.
 <!-- /exentax:lote32-native-v1-bis:caminos-legales-minimos-impuestos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

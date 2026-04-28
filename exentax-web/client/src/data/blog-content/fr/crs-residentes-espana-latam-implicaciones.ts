@@ -86,6 +86,8 @@ L'approche professionnelle passe par :
 
 La CRS ne s'« évite » pas depuis une juridiction européenne. Elle se planifie en connaissance de cause. Une LLC américaine reste un outil extraordinairement utile, mais la conception de votre configuration bancaire et de votre résidence fiscale sont déterminantes pour que l'empreinte informative que vous générez soit cohérente avec ce que vous déclarez.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

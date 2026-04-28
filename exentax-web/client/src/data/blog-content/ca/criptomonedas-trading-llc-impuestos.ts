@@ -75,6 +75,8 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 La qüestió de la LLC per a trading de criptomonedes es llegeix de manera més útil com un mapatge estable entre residència, tipus d'activitat (ocasional o habitual) i tractament fiscal corresponent, en lloc d'una drecera de comunitat. Aquest mapatge no canvia amb l'estació de l'any.
 <!-- /exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

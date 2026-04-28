@@ -116,6 +116,8 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 Die Frage US-Bank­konten und Meldung an die spanische Finanz­verwaltung liest sich nützlicher als stabile jurisdiktionelle Kartografie zwischen dem Land des Kontos, dem Wohnsitz­land des wirtschaftlich Berechtigten und dem zwischen beiden anwendbaren Rahmen denn als wiederkehrende Sorge. Diese Kartografie ändert sich nicht mit Marketing-Trends, und eine kurze Notiz im persönlichen Ordner mit den drei Achsen macht die Position in wenigen Minuten überprüfbar.
 <!-- /exentax:lote34-native-v1:cuentas-bancarias-usa-reportan-hacienda-verdad-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

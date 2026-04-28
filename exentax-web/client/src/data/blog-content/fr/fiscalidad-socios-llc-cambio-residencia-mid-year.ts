@@ -128,6 +128,8 @@ Les comparaisons et données quantitatives sur les juridictions citées s'appuie
 Un changement de résidence en cours d'année par un membre d'une LLC se lit plus utilement comme une cartographie temporelle stable entre les dates du déménagement, les règles de résidence de chaque pays concerné et la part correspondante du résultat de la LLC pour l'année, plutôt que comme une confusion. Une note courte dans le dossier personnel rend la position relisible.
 <!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

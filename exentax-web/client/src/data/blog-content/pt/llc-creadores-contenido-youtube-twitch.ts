@@ -110,6 +110,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 O perfil LLC de um criador de conteúdo no YouTube ou Twitch lê-se de forma mais útil como um mapeamento estável entre plataformas e tipos de receita — publicidade, memberships, tips, patrocínios — do que como uma improvisação mensal. Essa associação não muda de trimestre em trimestre, e uma nota curta no ficheiro da LLC com a plataforma e o tipo de receita correspondente torna a configuração operacional consultável a qualquer momento.
 <!-- /exentax:lote27-native-v1:llc-creadores-contenido-youtube-twitch-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

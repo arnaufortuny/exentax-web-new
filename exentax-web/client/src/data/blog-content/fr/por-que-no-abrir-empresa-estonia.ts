@@ -169,6 +169,8 @@ La question d'une société estonienne se lit plus utilement comme une cartograp
 La note s'organise par axe — résidence du bénéficiaire, lieu de création de valeur, marché des clients — et non par effet de marque, parce que les axes restent stables alors que le discours marketing évolue avec la saison.
 <!-- /exentax:lote30-native-v1-bis:por-que-no-abrir-empresa-estonia-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

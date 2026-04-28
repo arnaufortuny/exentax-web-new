@@ -103,6 +103,8 @@ Den Selbstständigenbeitrag als Jahreszahl statt als monatlichen Abfluss zu lese
 Der Selbstständigen-Beitrag 2026 liest sich ruhiger, wenn er als stabiles jährliches Mapping zwischen den prognostizierten Nettoerträgen und der entsprechenden Beitragsbasis behandelt wird und nicht als wiederkehrende Überraschung. Die offiziellen Stufen definieren eine diskrete Beziehung, die sich nicht von Monat zu Monat ändert, und die einzige Stelle, die wirkliche Aufmerksamkeit erfordert, ist die zu Jahresbeginn verwendete Prognose der Nettoerträge.
 <!-- /exentax:lote26-native-v1:cuota-autonomo-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -101,6 +101,8 @@ Documenting the separation of LLC funds reads more usefully when it's treated as
 A short note in the LLC folder that records the cut-off date and the closing balance of each side turns the separation into something the member can defend in a few minutes whenever a bank or a tax adviser asks.
 <!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

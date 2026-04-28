@@ -132,6 +132,8 @@ Se quiser saber o que encaixa no seu caso real, abra a <strong>calculadora Exent
 A escolha entre vender ou encerrar a LLC lê-se de forma mais útil como um mapeamento estável entre o estado atual do veículo, o perfil do comprador potencial e as obrigações residuais, em vez de uma decisão emocional. Uma nota curta e datada no ficheiro da LLC com os três pontos torna a comparação relevável em poucos minutos numa conversa com um consultor, em vez de a reconstruir de memória sob pressão.
 <!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

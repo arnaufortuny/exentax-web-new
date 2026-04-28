@@ -176,6 +176,8 @@ Aquest article es recolza en normativa vigent. Citem les fonts principals perqu�
 - **UE / OCDE.** Directiva (UE) 2011/16, modificada per DAC6 (mecanismes transfronterers), DAC7 (Directiva (UE) 2021/514, plataformes digitals) i DAC8 (criptoactius); Directiva (UE) 2016/1164 (ATAD: CFC, *exit tax*, asimetries híbrides); Estàndard Comú de Reporte (CRS) de l'OCDE.
 - **Marc internacional.** Model de Conveni Fiscal de l'OCDE, art. 5 (establiment permanent) i comentaris; Acció 5 BEPS (substància econòmica); Recomanació 24 del GAFI (titularitat real).
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

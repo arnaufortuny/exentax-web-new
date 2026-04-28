@@ -120,6 +120,8 @@ The BOI report to FinCEN reads more calmly when it's treated as a stable annual 
 A short, dated note in the LLC folder that records the last filing date and the documents used for it makes the obligation reviewable in a few minutes whenever a counterparty asks for proof or whenever a change of beneficial owner triggers an update obligation.
 <!-- /exentax:lote27-native-v1:boi-report-fincen-guia-completa-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -202,6 +202,8 @@ Eine kurze Notiz im persönlichen Ordner, die das Inventar der relevanten Vermö
 Die Exit-Tax-Position liest sich auch in den Folgejahren ruhiger, wenn sie als pflegbarer Eintrag im persönlichen Ordner geführt wird und nicht als einmalige Übung am Tag der Abreise. Eine kurze, datierte Aktualisierung pro Jahr genügt, um die Position konsistent zu halten.
 <!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

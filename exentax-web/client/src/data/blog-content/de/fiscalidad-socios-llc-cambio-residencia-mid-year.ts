@@ -121,6 +121,8 @@ Ein unterjähriger Wohnsitzwechsel eines LLC-Gesellschafters liest sich nützlic
 Die Notiz bezieht sich auf die Daten des Umzugs und auf die für jede Seite zitierte Regel — nicht auf das Gefühl des Übergangs, weil eine spätere Verwaltungs­anfrage stets auf nachprüfbaren Daten und Regeln aufsetzt.
 <!-- /exentax:lote29-native-v1-bis:fiscalidad-socios-llc-cambio-residencia-mid-year-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

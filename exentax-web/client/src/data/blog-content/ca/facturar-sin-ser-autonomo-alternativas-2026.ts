@@ -102,6 +102,8 @@ En el model cooperatiu, el freelance s'adhereix com a membre-treballador en els 
 Per a freelances amb la majoria de clients a l'estranger i un ritme de facturació mensual estable, la LLC posseïda des d'Espanya esdevé una conversa natural, no un truc enginyós. L'estructura ofereix una banca operativa neta (Mercury, Wise, Stripe i Relay són els noms que es repeteixen a les nostres instal·lacions), una embolcall jurídic nord-americà còmode per a clients internacionals, tributació pass-through que fa fluir l'ingrés cap al propietari resident a Espanya per a declaració a l'IRPF en la categoria estàndard (habitualment activitat econòmica) i una càrrega declarativa previsible: Form 5472 més la disciplina comptable més les declaracions anuals estatals. L'estructura no esborra l'IRPF espanyol ni el RETA quan el propietari segueix sent resident fiscal a Espanya; canvia com l'activitat és operada, bancaritzada i presentada a clients internacionals, i elimina la quota d'autònom durant el període en què el propietari deixa d'estar inscrit com a autònom. L'encaix és una qüestió de composició de clients, ritme de facturació i projecte personal de residència, no una drecera màgica, i és precisament per això que només obrim la conversa quan les dades mostren que mereix una hora.
 <!-- /exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -188,6 +188,8 @@ Eine kurze Notiz im Ordner, die diese Achsen für die aktuelle Struktur festhäl
 Die jährliche Überprüfung der Strukturkartografie pflegt sich am ruhigsten als kurzer datierter Eintrag, der die drei strukturierenden Achsen — Steueransässigkeit, Ort der Wertschöpfung, Aktivitätstyp — zum Stichtag bestätigt und nur die tatsächlich bewegten Achsen zur Anpassung vormerkt, statt die gesamte Struktur jedes Jahr neu zu bewerten.
 <!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

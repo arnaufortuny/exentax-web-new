@@ -133,6 +133,8 @@ Die drei Codes lassen sich in der LLC-Akte sauber ablegen, wenn sie als drei get
 IBAN, SWIFT und Routing-Number lesen sich nützlicher als stabile Identifikator-Kartografie zwischen der Konto­jurisdiktion, der Bank bzw. dem Netzwerk und dem Konto selbst denn als austauschbare Codes. Diese Kartografie ändert sich nicht von einer Überweisung zur nächsten, und eine kurze Notiz im persönlichen Ordner mit den drei Achsen macht die Identifikatoren überprüfbar.
 <!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

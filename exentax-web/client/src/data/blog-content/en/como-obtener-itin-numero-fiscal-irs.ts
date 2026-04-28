@@ -115,6 +115,8 @@ The ITIN application reads more calmly when it's treated as a stable, documented
 A short, dated note in the personal folder that records the version of Form W-7 used, the federal filing reason cited, the identity document submitted and the channel through which it was sent makes the application reviewable in a few minutes if the IRS comes back with a question or a deficiency notice. The same note also makes it much easier to handle the renewal cycle on time, instead of starting from scratch when the ITIN expires.
 <!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

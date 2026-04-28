@@ -133,6 +133,8 @@ The LLC + Interactive Brokers configuration reads more usefully when it's treate
 A short note in the LLC folder that records the holder of the brokerage account, the date the account was opened and the activity hosted in the LLC turns the configuration into something the member can review in a few minutes whenever a tax adviser asks for clarification.
 <!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

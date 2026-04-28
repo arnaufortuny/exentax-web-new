@@ -108,6 +108,8 @@ Este artículo se apoya en normativa vigentes actualmente:
 - **EE. UU.** Treas. Reg. §301.7701-3 (clasificación de entidades, *check-the-box*); IRC §6038A y Treas. Reg. §1.6038A-2 (Form 5472 para LLC de propiedad extranjera).
 - **AEAT.** Manual práctico del IVA (edición vigente) y consultas vinculantes <a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a> V0297-22, V1543-21 sobre tributación de LLC desde España.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

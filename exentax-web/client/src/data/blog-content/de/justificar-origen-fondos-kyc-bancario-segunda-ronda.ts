@@ -108,6 +108,8 @@ Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" r
 Die zweite KYC-Runde der Bank liest sich ruhiger als dokumentierte Prozedur — die Bank möchte das ergänzen, was zum Schließen der Akte fehlte — denn als offene Bedrohung der Beziehung. Eine kurze, datierte Notiz im Bankordner mit den übermittelten Unterlagen macht die zweite Runde schneller bearbeitbar.
 <!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

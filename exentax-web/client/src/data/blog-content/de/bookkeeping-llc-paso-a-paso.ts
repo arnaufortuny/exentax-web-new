@@ -141,6 +141,8 @@ Praktische Regel: eine operative LLC mit Substanz, korrekt im Wohnsitzstaat erkl
 Die LLC-Buchführung liest sich nützlicher als stabile monatliche Prozedur — importierte Bank­bewegungen, ausgestellte und erhaltene Rechnungen angehängt, klassifizierte Ausgaben, abgestimmter Saldo — denn als Jahres­end-Notfall. Die Prozedur ändert sich nicht von Monat zu Monat, nur das Volumen bewegt sich, und eine kurze datierte Notiz beim Periodenschluss im LLC-Ordner macht das nächste Gespräch mit Buch­halter oder Bank deutlich effizienter.
 <!-- /exentax:lote35-native-v1:bookkeeping-llc-paso-a-paso-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

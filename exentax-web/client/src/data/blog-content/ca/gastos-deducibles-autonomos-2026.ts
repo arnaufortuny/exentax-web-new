@@ -82,6 +82,8 @@ El criteri oficial sobre despeses deduïbles està recollit a la <a href="https:
 Les despeses deduïbles dels autònoms es llegeixen com un mapatge anual estable entre tipus d'activitat, tipus de despesa i regla aplicable.
 <!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -174,6 +174,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 A abertura de uma conta Mercury para uma LLC com membro não residente lê-se de forma mais serena como um procedimento documentado estável do que como um pedido incerto. As peças recorrentes — identificação completa do membro não residente, descrição clara da atividade da LLC e uma explicação coerente dos fluxos — definem um quadro discreto.
 <!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

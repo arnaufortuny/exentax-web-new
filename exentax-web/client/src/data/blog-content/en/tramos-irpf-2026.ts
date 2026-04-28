@@ -107,6 +107,8 @@ The first decision is whether to issue an invoice in late December or early Janu
 The 2026 IRPF brackets read more calmly when they're treated as a stable annual mapping between projected taxable income and the corresponding marginal rate, rather than as a recurring debate. The state and regional brackets together define a discrete relationship that doesn't change month to month, and the only piece that requires real attention each year is the projected taxable income figure used to anchor the position at the start of the year.
 <!-- /exentax:lote26-native-v1:tramos-irpf-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

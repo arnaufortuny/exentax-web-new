@@ -119,6 +119,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 El primer mes de la LLC es llegeix de manera més serena com una seqüència previsible de passos — recepció del document de constitució, obertura del compte bancari, configuració operativa — que com un període d'incertesa. La seqüència no canvia d'un dossier a l'altre, i una nota curta i datada al dossier de la LLC amb cada pas assolit fa el recorregut consultable a qualsevol moment.
 <!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

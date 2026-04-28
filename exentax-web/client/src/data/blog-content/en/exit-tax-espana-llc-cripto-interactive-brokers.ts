@@ -143,6 +143,8 @@ The Spanish exit tax reads more calmly in profiles that combine an LLC, crypto h
 A short note in the personal folder that records the inventory of relevant assets at the cut-off date, with the chosen valuation method for each one and a reference to the source used, makes the exit-tax position reviewable in a few minutes at any point in the years that follow the departure.
 <!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

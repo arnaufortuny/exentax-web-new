@@ -65,6 +65,8 @@ El marco normativo está en la <a href="https://www.boe.es/buscar/act.php?id=BOE
 6. ✓ Trasladar al modelo 349 trimestral o mensual.
 7. ✓ Cuadrar el resumen con modelo 303 y revisar coherencia anual con modelo 390.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

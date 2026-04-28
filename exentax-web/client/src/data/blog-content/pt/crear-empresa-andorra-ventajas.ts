@@ -144,6 +144,8 @@ Para perfis que não querem mudar-se, uma <a href="/pt/blog/llc-estados-unidos-g
 A sociedade andorrana lê-se de forma mais útil como um mapeamento de perfil entre o país de residência fiscal do beneficiário, o país onde se cria valor e o país dos clientes.
 <!-- /exentax:lote29-native-v1:crear-empresa-andorra-ventajas-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

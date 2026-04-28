@@ -159,6 +159,8 @@ A questão dos Forms W-8BEN e W-8BEN-E lê-se de forma mais útil como um mapeam
 A nota organiza-se por relação entre pagador e beneficiário e não por pagamento individual, porque a certificação do estatuto assenta na relação e não numa operação isolada. Esta visão mantém a granularidade correta para uma revisão periódica da documentação.
 <!-- /exentax:lote33-native-v1-bis:w8-ben-y-w8-ben-e-guia-completa-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

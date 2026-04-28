@@ -157,6 +157,8 @@ Kritische Fehler nach der LLC-Gründung lesen sich nützlicher als 12-Monats-Pr�
 Die Prüf­liste organisiert sich pro Achse und nicht pro Vorfall, weil die Achsen über das Geschäfts­jahr stabil bleiben, während Vorfälle sporadisch auftreten und aus dem Kontext gerissen schwer einzuordnen sind.
 <!-- /exentax:lote34-native-v1-bis:errores-criticos-llc-ya-constituida-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

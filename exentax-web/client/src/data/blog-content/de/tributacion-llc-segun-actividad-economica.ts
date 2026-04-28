@@ -94,6 +94,8 @@ Mehr zur Vermeidung typischer Fehler in <a href="/de/blog/steuerrisiken-bei-mang
 
 Eine LLC wird nicht „auf eine einzige Weise" besteuert: Sie wird besteuert nach dem, was sie tut, wo sie es tut und von wo aus sie kontrolliert wird. Das ernsthafte Gespräch über Steuerplanung beginnt damit, Ihre tatsächliche Tätigkeit zu verstehen, nicht damit, ein Land auf einer Karte auszuwählen.
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

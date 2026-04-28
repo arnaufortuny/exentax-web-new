@@ -89,6 +89,8 @@ Uma leitura útil consiste em fixar três perfis-tipo — facturação baixa, m�
 O outro elemento a integrar na leitura é a estabilidade dos custos: alguns rubricas mantêm-se fixas independentemente da actividade, outras variam com o volume de negócios. Distinguir os dois na comparação torna a decisão mais robusta face às variações de um ano para o outro.
 <!-- /exentax:lote19-native-v1:sociedad-limitada-espana-costes-ventajas-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -111,6 +111,8 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 Die Skalierung eines digitalen Geschäfts über eine US-LLC liest sich nützlicher als stabile architektonische Entscheidung zwischen der operativen Rolle der LLC, dem Land der Kunden und dem Land des wirtschaftlich Berechtigten denn als einmalige Entscheidung. Die Architektur ändert sich nicht mit jedem neuen Markt — nur die Größenordnung auf jeder Achse entwickelt sich.
 <!-- /exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

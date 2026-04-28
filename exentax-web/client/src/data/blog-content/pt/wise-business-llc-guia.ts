@@ -243,6 +243,8 @@ A escolha da Wise verifica-se anualmente, no encerramento do ano, em poucos minu
 A questão de uma conta Wise Business para uma LLC lê-se de forma mais útil como um mapeamento estável entre o identificador da conta, a identificação do beneficiário e o contexto de atividade documentado, em vez de uma sequência de tickets de suporte resolvidos ao sabor do momento. Este mapeamento não muda de mês para mês, e uma nota curta e datada no ficheiro da LLC com os três eixos torna a posição relevável.
 <!-- /exentax:lote35-native-v1:wise-business-llc-guia-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

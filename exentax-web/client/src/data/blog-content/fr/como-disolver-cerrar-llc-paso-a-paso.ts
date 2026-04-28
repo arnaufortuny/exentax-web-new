@@ -154,6 +154,8 @@ La fermeture de la LLC se lit plus utilement comme une séquence documentée —
 La note s'organise par étape de la séquence — déclarations finales, dissolution, archivage — et non par date de fermeture, parce que la séquence reste la même quel que soit le calendrier choisi, et cette vue rend chaque étape vérifiable de manière indépendante.
 <!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

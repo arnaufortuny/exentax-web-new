@@ -59,6 +59,8 @@ L'avantage fiscal est tout aussi net : pas de double imposition sociétaire et, 
 
 **Cas 3. Autónomo gros revenu.** Vous facturez 100 000 €, charges 15 000 €. Rendement net 85 000 € (7 083 €/mois, tranche 15). Cotisation mensuelle 604,80 €, annuelle 7 257,60 € (7,3%). IRPF estimé : 35 000 €. Total 42 257,60 € (42,3%). Net 57 742,40 €. Avec LLC : cotisation 0 €, IRPF 35 000 €, total 35 000 € (35%), net 65 000 €. **Économie annuelle : 7 257,60 €.**
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

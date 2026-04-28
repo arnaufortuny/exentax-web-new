@@ -125,6 +125,8 @@ Der erste Monat der LLC liest sich ruhiger als vorhersehbare Sequenz von Schritt
 Die Sequenz nach dem ersten Monat liest sich nützlicher als pflegbares Dokument, das die erreichten Schritte und die noch ausstehenden Punkte mit jeweiligem Datum festhält, denn als abgeschlossener Schritt — und macht den Übergang zur regelmäßigen Betriebsphase zu einer geplanten Bewegung statt zu einer impliziten Annahme.
 <!-- /exentax:lote27-native-v1:primer-mes-llc-que-esperar-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

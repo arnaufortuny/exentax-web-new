@@ -161,6 +161,8 @@ There is no perfect account for an LLC. There is the right **stack**, where each
 LLC bookkeeping reads more usefully when it's treated as a stable monthly procedure — bank movements imported, invoices issued and received attached, expenses classified, balance reconciled — than as a year-end emergency. The procedure doesn't change month to month, only the volume moves, and a short dated note at the close of each period in the LLC folder makes the next conversation with an accountant or a bank far more efficient.
 <!-- /exentax:lote35-native-v1:bookkeeping-llc-paso-a-paso-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

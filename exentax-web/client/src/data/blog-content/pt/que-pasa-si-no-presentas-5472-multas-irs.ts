@@ -124,6 +124,8 @@ O Form 5472 é um dos poucos casos onde o custo de **não fazer nada** é geomet
 As consequências de não apresentar o Form 5472 leem-se de forma mais útil como um mapeamento estável entre o ano afetado, o tipo de omissão e o tipo de remediação, em vez de uma ameaça vaga. Este mapeamento mantém-se relevável em poucos minutos numa conversa com um consultor — uma nota curta e datada no ficheiro pessoal com os três eixos é suficiente.
 <!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

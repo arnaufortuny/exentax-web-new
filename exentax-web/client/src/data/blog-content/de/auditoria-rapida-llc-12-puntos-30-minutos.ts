@@ -195,6 +195,8 @@ administrativen Hintergrund.
 Das schnelle 12-Punkte-LLC-Audit liest sich nützlicher als wiederkehrender Gesundheits-Check pro Quartal denn als einmalige Übung. Die 12 Punkte ändern sich nicht zwischen den Sitzungen, nur die Punkte, die Aufmerksamkeit erfordern, bewegen sich, und eine kurze datierte Notiz im LLC-Ordner erlaubt der nächsten Überprüfung, genau dort fortzufahren, wo die vorherige aufgehört hat.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

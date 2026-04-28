@@ -156,6 +156,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 L'opération quotidienne de la LLC se lit plus utilement comme un ensemble d'habitudes documentées — réconciliation bancaire mensuelle, classement des justificatifs au mois, séparation stricte entre fonds personnels et fonds de la LLC — que comme une improvisation pilotée par les besoins de la semaine. Ces habitudes ne changent pas d'un mois à l'autre, et une courte note dans le dossier qui consigne la fréquence retenue pour chacune rend l'opération relisible à tout moment.
 <!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -224,6 +224,8 @@ A boa notícia é que implementar esta separação é simples se o fizeres desde
 A separação entre dinheiro pessoal e dinheiro da LLC lê-se de forma mais útil como um mapeamento estável entre a conta da LLC, a conta pessoal do beneficiário e os movimentos datados entre as duas, em vez de uma regra pontual. Este mapeamento não muda de mês para mês, e uma nota curta e datada no ficheiro da LLC com a data de corte e o saldo de fecho de cada lado torna a separação defensável em poucos minutos numa conversa com um banco ou um consultor.
 <!-- /exentax:lote31-native-v1:separar-dinero-personal-llc-por-que-importa-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -89,6 +89,8 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A questão do EIN lê-se de forma mais útil como um identificador estrutural estável da LLC em vez de um passo único. Este identificador mantém-se estável ao longo da vida do veículo.
 <!-- /exentax:lote33-native-v1:ein-numero-fiscal-llc-como-obtenerlo-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

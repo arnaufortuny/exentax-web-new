@@ -162,6 +162,8 @@ La checklist de gestion d'une LLC se lit plus utilement comme une carte annuelle
 La note s'organise par obligation récurrente plutôt que par mois de l'année, parce que les obligations restent les mêmes d'un cycle à l'autre alors que leurs dates se décalent, et cette vue garde la carte réutilisable d'un cycle au suivant.
 <!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

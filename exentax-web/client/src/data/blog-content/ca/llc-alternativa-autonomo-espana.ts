@@ -164,6 +164,8 @@ La comparació LLC contra autònom espanyol es llegeix de manera més útil com 
 La nota s'organitza per eix — residència, creació de valor, mercat client — i no per jurisdicció, perquè els eixos es mantenen estables mentre que el discurs de màrqueting al voltant d'una jurisdicció canvia amb l'estació.
 <!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

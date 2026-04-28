@@ -101,6 +101,8 @@ Une LLC américaine est un outil légal et reconnu internationalement. Mais la c
 - **Convention France–États-Unis.** La convention de 1994 (avec ses avenants successifs, dernier protocole en vigueur depuis 2009) règle la double imposition sur dividendes, intérêts et redevances. Une LLC sans établissement stable en France ne constitue pas, en soi, un ES de l'associé, mais la **direction effective** peut en créer un si toute la gestion se fait depuis votre domicile français (BOI-INT-CVB-USA-10-20).
 - **Belgique, Luxembourg, Suisse, Québec.** Chaque juridiction francophone a son propre régime de transparence et anti-abus : Belgique avec la **Cayman Tax** (taxe de transparence sur les constructions juridiques étrangères, art. 5/1 CIR 92), Luxembourg avec la directive ATAD transposée et le test de substance, Suisse avec la **circulaire AFC n°5** sur la transparence des sociétés étrangères, Québec avec les **règles SECI** fédérales canadiennes (sociétés étrangères contrôlées par des intérêts canadiens). Le principe commun : ce que la LLC retient comme bénéfice est considéré comme perçu par le résident si l'entité est jugée transparente ou contrôlée.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

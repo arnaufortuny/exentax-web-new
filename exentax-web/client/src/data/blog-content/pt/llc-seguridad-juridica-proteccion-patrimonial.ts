@@ -130,6 +130,8 @@ A proteção patrimonial através da LLC lê-se de forma mais útil como um mapa
 A nota organiza-se pela relação entre beneficiário, veículo e ativos — não pelo veículo isoladamente, porque a proteção nasce dessa relação e não do veículo como objeto de marca, e esta visão facilita qualquer revisão posterior com um consultor.
 <!-- /exentax:lote29-native-v1-bis:llc-seguridad-juridica-proteccion-patrimonial-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

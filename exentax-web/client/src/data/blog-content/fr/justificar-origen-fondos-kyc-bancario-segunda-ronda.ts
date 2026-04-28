@@ -124,6 +124,8 @@ Chez Exentax nous préparons le dossier Source of Wealth/Funds avant la premièr
 La deuxième manche du KYC bancaire se lit plus sereinement comme une procédure documentée — le banquier demande à compléter ce qui manquait pour clore le dossier — que comme une menace ouverte sur la relation. Les pièces demandées suivent un schéma stable : justificatif de l'origine des fonds, contexte de l'activité, confirmation du bénéficiaire effectif. Une courte note dans le dossier qui consigne ce qui a été transmis et à quelle date rend la deuxième manche plus rapide à traiter.
 <!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

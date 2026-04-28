@@ -124,6 +124,8 @@ Die Frage, was ein von einer LLC gehaltener Wise-IBAN an die spanische Steuerbeh
 Eine kurze Notiz im LLC-Ordner, die den bei Wise eröffneten Kontotyp, den rechtlichen Inhaber, das Land des IBAN und den dafür geltenden Austauschkanal festhält, macht dasselbe Mapping in wenigen Minuten nachlesbar, statt es bei jeder Wiederkehr der Frage erneut aus dem Gedächtnis rekonstruieren zu müssen — sei es bei einer Prüfung oder einem Beratungstermin.
 <!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

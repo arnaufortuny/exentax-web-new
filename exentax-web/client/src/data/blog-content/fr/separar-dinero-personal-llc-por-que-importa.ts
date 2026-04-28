@@ -230,6 +230,8 @@ La séparation entre l'argent personnel et l'argent de la LLC se lit plus utilem
 La note se rapporte à la date d'arrêté et au solde de clôture de chaque côté, et non à chaque mouvement individuel — la grandeur pertinente pour une vérification ultérieure est le solde aux dates de référence, pas l'historique complet, et cette vue trouve la bonne granularité.
 <!-- /exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

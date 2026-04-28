@@ -139,6 +139,8 @@ Spain with the ETVE regime is competitive when activity justifies it. Netherland
 
 A well-designed holding is a powerful tool for centralization, tax efficiency and planning. Poorly designed or applied as a fad, it is expensive complexity that adds nothing. The decision depends on the size and maturity of your business, not on the headline of the latest viral video.
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -93,6 +93,8 @@ As obrigações junto da <a href="https://www.fincen.gov" target="_blank" rel="n
 A documentação da separação de fundos da LLC lê-se de forma mais útil como um mapeamento anual estável entre a conta bancária da LLC, a conta pessoal do beneficiário e os movimentos datados entre as duas, em vez de uma tarefa recorrente. Uma nota curta e datada no ficheiro da LLC com a data de corte e o saldo de fecho de cada lado torna a separação defensável em poucos minutos.
 <!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

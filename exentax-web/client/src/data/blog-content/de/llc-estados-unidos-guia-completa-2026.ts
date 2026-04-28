@@ -119,6 +119,8 @@ Die US-LLC liest sich nützlicher als stabile strukturelle Wahl zwischen den wie
 Die Notiz bezieht sich auf das Steuerjahr und nicht auf einzelne Ereignisse — die wiederkehrenden Pflichten und die wiederkehrenden Vorteile zeigen sich auf Jahres­ebene, und diese Sicht trifft die korrekte Granularität für jede spätere Beratungs­situation oder eigene Selbst­überprüfung.
 <!-- /exentax:lote30-native-v1-bis:llc-estados-unidos-guia-completa-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

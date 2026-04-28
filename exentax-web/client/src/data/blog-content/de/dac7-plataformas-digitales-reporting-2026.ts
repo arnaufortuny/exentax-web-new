@@ -108,6 +108,8 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 Die DAC7-Plattform­meldung liest sich nützlicher als stabile Jahres­kartografie zwischen der Plattform, dem Wohnsitz­land des Verkäufers und dem ausgelösten Schwellen­wert denn als wiederkehrende Sorge.
 <!-- /exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

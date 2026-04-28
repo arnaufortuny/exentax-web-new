@@ -155,6 +155,8 @@ Eine kurze, datierte Notiz im persönlichen Ordner, die das für das Jahr erklä
 Die Notiz organisiert sich pro Einkunftsart und nicht pro Land — die Koordinations­regel des Abkommens setzt auf der Einkunftsart auf, nicht auf der Geografie als solcher, und diese Sicht trifft die korrekte Granularität für jede spätere Diskussion mit einem Berater.
 <!-- /exentax:lote29-native-v1-bis:convenio-doble-imposicion-usa-espana-llc-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

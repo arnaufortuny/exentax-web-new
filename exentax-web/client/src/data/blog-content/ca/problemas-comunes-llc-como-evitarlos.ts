@@ -125,6 +125,8 @@ Els errors més freqüents que veiem en dossiers de LLC es llegeixen de manera m
 Una nota curta i datada al capdamunt del dossier de la LLC, amb les obligacions recurrents i la data en què cadascuna es va complir per última vegada, converteix aquesta mateixa checklist en una cosa que el membre pot revisar en pocs minuts l'any, en lloc de reconstruir-la de memòria sota pressió en un control.
 <!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

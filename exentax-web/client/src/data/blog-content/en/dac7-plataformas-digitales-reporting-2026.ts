@@ -105,6 +105,8 @@ The DAC7 perimeter captures more durably in a short, dated note that lists the r
 DAC7 platform reporting reads more usefully when it's treated as a stable yearly mapping between the platform that hosted the activity, the country of residence of the seller and the threshold that triggered the report, than as a recurring concern. The mapping doesn't change year to year — only the volume on each platform moves, and a short dated note in the personal folder with the three axes makes the position reviewable in a few minutes during a tax conversation.
 <!-- /exentax:lote32-native-v1:dac7-plataformas-digitales-reporting-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

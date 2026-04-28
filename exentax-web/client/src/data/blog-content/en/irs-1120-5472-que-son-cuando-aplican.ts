@@ -93,6 +93,8 @@ That's why at Exentax we treat these forms as the **natural by-product** of good
 - **No tax is paid** with these forms, but **not filing them costs USD 25,000 per year**.
 - The most expensive mistake is filling them out poorly or arriving at year-end without the documentation backing what is reported.
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

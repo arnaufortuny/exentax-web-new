@@ -133,6 +133,8 @@ Die Konfiguration LLC + Interactive Brokers liest sich nützlicher als stabiles 
 Eine kurze Notiz im LLC-Ordner mit den drei Werten macht die Konfiguration jederzeit nachlesbar, ohne sie aus dem Gedächtnis zu rekonstruieren.
 <!-- /exentax:lote28-native-v1:llc-interactive-brokers-invertir-bolsa-usa-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

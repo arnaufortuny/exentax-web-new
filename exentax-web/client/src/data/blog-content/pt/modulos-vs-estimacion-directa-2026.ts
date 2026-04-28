@@ -92,6 +92,8 @@ A renúncia apresenta-se via Modelo 036 em Dezembro para ter efeito a partir de 
 Há um perfil recorrente na nossa prática para quem ambos os regimes ficam apertados: um freelancer com a maioria dos clientes no estrangeiro, facturação mensal recorrente em moeda estrangeira e um catálogo de serviços digitais que se enquadra mal nos códigos de actividade IRPF concebidos para ofícios locais. Nesse perfil, os módulos não estão disponíveis (excluídos por actividade) e a estimativa directa parece pagar duas vezes (quota RETA mais IRPF integral sobre o líquido) por uma estrutura não pensada para fluxos digitais transfronteiriços. A conversa que abrimos habitualmente nesse momento compara duas alternativas estruturais: uma SL espanhola (com o seu próprio imposto sobre sociedades e a sua camada de dividendo, válida quando é necessária presença local) e uma LLC americana detida a partir de Espanha (com a sua mecânica pass-through e a sua carga declarativa, válida quando a maioria dos clientes e a tesouraria estão fora de Espanha). Nenhuma é um atalho; ambas são decisões com horizonte de três anos e com o seu custo de instalação, e é precisamente por isso que a comparação merece uma hora calma em vez de uma pesquisa rápida online.
 <!-- /exentax:lote6-native-v1:modulos-vs-estimacion-directa-2026 -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

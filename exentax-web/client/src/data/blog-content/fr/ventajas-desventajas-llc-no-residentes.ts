@@ -125,6 +125,8 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 Le trade-off de la LLC pour les non-résidents se lit plus utilement comme une cartographie stable entre les obligations récurrentes du véhicule (Form 5472, BOI, renouvellement du Registered Agent) et les bénéfices récurrents (séparation juridique, infrastructure de paiement US, structure simple pour activités digitales), plutôt que comme un argumentaire commercial. Les deux côtés sont stables : ils ne changent pas avec le résultat de l'année.
 <!-- /exentax:lote28-native-v1:ventajas-desventajas-llc-no-residentes-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

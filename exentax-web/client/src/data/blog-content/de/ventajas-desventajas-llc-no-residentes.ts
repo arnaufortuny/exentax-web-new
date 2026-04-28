@@ -123,6 +123,8 @@ Der LLC-Trade-off für Nicht-Residenten liest sich nützlicher als stabile Karto
 Eine kurze, datierte Notiz im LLC-Ordner, die die wiederkehrenden Pflichten und die wiederkehrenden Vorteile aufführt, macht den Trade-off jederzeit nachlesbar — was besonders dann hilfreich ist, wenn ein Beratungsgespräch ansteht oder wenn der wirtschaftlich Berechtigte nach einigen Monaten Abstand seine eigene Position überprüfen möchte, ohne sie aus dem Gedächtnis zu rekonstruieren.
 <!-- /exentax:lote28-native-v1-bis:ventajas-desventajas-llc-no-residentes-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

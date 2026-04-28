@@ -125,6 +125,8 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A questão de uma estrutura offshore lê-se de forma mais útil como um mapa de perfil estável entre o país de residência do beneficiário, o país onde se cria valor e o país dos clientes, em vez de um discurso de marca sobre uma jurisdição específica.
 <!-- /exentax:lote31-native-v1:estructura-offshore-beneficios-riesgos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

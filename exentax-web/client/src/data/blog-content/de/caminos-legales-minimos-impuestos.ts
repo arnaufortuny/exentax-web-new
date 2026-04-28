@@ -188,6 +188,8 @@ Die legalen Wege zur Steuer­minimierung lesen sich nützlicher als stabile stru
 Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden — und nicht pro Marketing-Versprechen, weil die Achsen stabil bleiben.
 <!-- /exentax:lote32-native-v1-bis:caminos-legales-minimos-impuestos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

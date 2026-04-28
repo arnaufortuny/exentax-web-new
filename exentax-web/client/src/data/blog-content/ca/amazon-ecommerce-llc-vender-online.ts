@@ -104,6 +104,8 @@ No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correc
 La LLC per a ecommerce es llegeix de manera més útil com un mapa operatiu estable entre el marketplace, el beneficiari i el país de residència del beneficiari, en lloc d'una drecera comercial. Aquest mapa no canvia amb la temporada de l'any, i una nota curta i datada al dossier de la LLC amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor fiscal.
 <!-- /exentax:lote31-native-v1:amazon-ecommerce-llc-vender-online-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -93,6 +93,8 @@ A **regularização voluntária** antes de qualquer requerimento (art. 305.4 CP 
 
 Os riscos fiscais não são hipotéticos: são a realidade das inspeções que vemos todos os meses. A boa notícia é que todos estes riscos são **evitáveis** com planeamento sério e honesto. A otimização fiscal legal existe e é muito poderosa; a opacidade como estratégia é um atalho que acaba sempre no mesmo sítio.
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

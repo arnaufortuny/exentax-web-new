@@ -178,6 +178,8 @@ O exit tax espanhol lê-se de forma mais serena em perfis que combinam uma LLC, 
 Uma nota curta no ficheiro pessoal que registe o inventário dos ativos relevantes na data de corte, com o método de valorização escolhido para cada um e uma referência à fonte utilizada, torna a posição de exit tax relevável em poucos minutos.
 <!-- /exentax:lote26-native-v1:exit-tax-espana-llc-cripto-interactive-brokers-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

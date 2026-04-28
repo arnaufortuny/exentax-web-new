@@ -99,6 +99,8 @@ L'arrendatari (autònom o empresa) presenta model 115 trimestral declarant els 1
 Les retencions d'IRPF a la factura es llegeixen de manera més útil com un mapatge anual estable.
 <!-- /exentax:lote28-native-v1:retenciones-irpf-factura-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

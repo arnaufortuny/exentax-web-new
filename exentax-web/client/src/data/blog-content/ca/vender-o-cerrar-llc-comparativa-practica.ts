@@ -132,6 +132,8 @@ Si vols saber què encaixa al teu cas real, obre la <strong>calculadora Exentax<
 La tria entre vendre o tancar la LLC es llegeix de manera més útil com un mapatge estable entre l'estat actual del vehicle, el perfil del comprador potencial i les obligacions residuals, en lloc d'una decisió emocional.
 <!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

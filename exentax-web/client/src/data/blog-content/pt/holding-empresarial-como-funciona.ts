@@ -137,6 +137,8 @@ Espanha com o regime ETVE é competitiva se a atividade o justifica. Países Bai
 
 Uma holding bem desenhada é uma ferramenta poderosa de centralização, eficiência fiscal e planeamento. Mal desenhada ou aplicada por moda, é complexidade cara que não aporta. A decisão depende do tamanho e maturidade do seu negócio, não da manchete do último vídeo viral.
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

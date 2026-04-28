@@ -121,6 +121,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 La fiscalitat internacional d'emprenedors digitals es llegeix de manera més útil com un mapatge estable entre la residència fiscal del beneficiari, el vehicle utilitzat i el país dels clients, que com un debat recurrent.
 <!-- /exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

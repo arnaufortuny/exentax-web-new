@@ -102,6 +102,8 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 - **CDI Espanya–EUA.** El conveni (<a href="https://www.boe.es" target="_blank" rel="noopener">BOE</a> 22/12/1990, Protocol en vigor 27/11/2019) ordena la doble imposició sobre dividends, interessos i royalties. Una LLC sense establiment permanent a Espanya no constitueix per si sola EP del soci, però la direcció efectiva sí pot crear-lo si tota la gestió es fa des de Catalunya.
 - **Andorra, Estat francès (Catalunya Nord) i UE.** Si valora un trasllat a Andorra (CDI amb Espanya en vigor des de 2016, IRPF andorrà al 10 % màxim), tingui en compte el **règim de quinquenni de l'art. 8.2 LIRPF** que manté la residència fiscal espanyola durant 5 anys per trasllats a paradisos fiscals (Andorra ja no figura a la llista negra). Per a Catalunya Nord (Roselló) regeix el règim francès. A la UE, la **Directiva ATAD II** (transposada a Espanya com art. 15 bis LIS) tanca esquemes híbrids amb LLC.
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -130,6 +130,8 @@ Die Folgen einer Nicht­einreichung des Form 5472 lesen sich nützlicher als sta
 Die Notiz organisiert sich pro Jahr und nicht pro Vorgang, weil die Heilung sich auf das betroffene Jahr bezieht und sich die Sicht so leichter mit der vorhandenen Pflichten­karte abgleichen lässt — eine kurze Notiz pro Jahr genügt für eine Überprüfung.
 <!-- /exentax:lote32-native-v1-bis:que-pasa-si-no-presentas-5472-multas-irs-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

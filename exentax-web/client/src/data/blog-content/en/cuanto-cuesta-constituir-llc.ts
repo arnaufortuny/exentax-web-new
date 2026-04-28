@@ -176,6 +176,8 @@ This article relies on rules currently in force. We cite the main sources so you
 - **US-UK / US-Ireland tax framework.** The UK-US Double Taxation Convention (in force since 31 March 2003) and the Ireland-US Convention; OECD Model Tax Convention, Art. 5 (permanent establishment) and the Action 5 BEPS report (substance).
 - **International framework.** OECD Model Convention commentary; FATF Recommendation 24 (beneficial ownership).
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

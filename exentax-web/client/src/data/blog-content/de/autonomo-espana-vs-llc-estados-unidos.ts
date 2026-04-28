@@ -163,6 +163,8 @@ Eine US-LLC ist ein legales und international anerkanntes Instrument. Compliance
 Der Vergleich spanisches Autónomo gegen amerikanische LLC liest sich nützlicher als stabile Profil­karte zwischen Wohnsitz, Wertschöpfung und Kunden denn als Community-Debatte. Diese Karte ändert sich nicht mit der Saison.
 <!-- /exentax:lote33-native-v1:autonomo-espana-vs-llc-estados-unidos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -133,6 +133,8 @@ Fintech and CRS information evolves; here is the current state:
 The CRS exchange around LLC bank accounts reads more usefully as a stable mapping between the reporting financial institution, the beneficial owner identified on the account and the receiving tax administration, than as a year-end surprise. The mapping doesn't shift between cycles, only the reported balances move, and a short dated note in the LLC folder with the three nodes makes the position reviewable in a few minutes.
 <!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

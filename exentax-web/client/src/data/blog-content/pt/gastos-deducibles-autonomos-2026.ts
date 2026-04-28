@@ -83,6 +83,8 @@ O critério oficial sobre despesas dedutíveis está na <a href="https://www.boe
 As despesas dedutíveis dos trabalhadores independentes leem-se de forma mais útil como um mapeamento anual estável entre o tipo de atividade, o tipo de despesa e a regra de dedutibilidade aplicável.
 <!-- /exentax:lote29-native-v1:gastos-deducibles-autonomos-2026-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

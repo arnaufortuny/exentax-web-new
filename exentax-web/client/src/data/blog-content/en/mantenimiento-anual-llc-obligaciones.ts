@@ -160,6 +160,8 @@ Annual LLC maintenance reads more usefully when it's treated as a stable yearly 
 The note is organized by state — and not by individual filing — because the applicable obligations depend on the state of registration, and this view keeps the right granularity for an annual review.
 <!-- /exentax:lote32-native-v1-bis:mantenimiento-anual-llc-obligaciones-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

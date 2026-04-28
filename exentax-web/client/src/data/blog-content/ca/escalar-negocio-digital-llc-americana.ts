@@ -113,6 +113,8 @@ El creixement d'un negoci digital a través d'una LLC americana es llegeix de ma
 Una nota curta al dossier de la LLC amb els tres eixos fa el creixement previsible en lloc de reactiu, i facilita molt qualsevol revisió posterior amb un assessor fiscal.
 <!-- /exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

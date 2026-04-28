@@ -82,6 +82,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 La stabilité d'un compte Mercury ou Wise se lit plus utilement comme une procédure documentée plutôt que comme une question de chance.
 <!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

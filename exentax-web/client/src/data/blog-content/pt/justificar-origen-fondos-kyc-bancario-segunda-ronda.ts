@@ -130,6 +130,8 @@ Na Exentax preparamos o dossier de Source of Wealth/Funds antes da primeira oper
 A segunda ronda do KYC bancário lê-se de forma mais serena como um procedimento documentado do que como uma ameaça aberta. Uma nota curta e datada no ficheiro bancário com o que foi enviado torna a segunda ronda mais rápida de tratar.
 <!-- /exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -153,6 +153,8 @@ The choice captures more durably in a short, dated note that lists the three var
 The bank vs fintech choice reads more usefully as a stable mapping between the type of vehicle, the country of residence of the beneficial owner and the type of incoming flows expected, than as a brand discussion.
 <!-- /exentax:lote32-native-v1:bancos-vs-fintech-llc-donde-abrir-cuenta-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

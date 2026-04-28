@@ -73,6 +73,8 @@ When both views coexist on the same planning sheet, the contribution stops being
 The Spanish self-employed contributions question reads more usefully when it's treated as a stable annual mapping between the contribution base, the corresponding installment and the public benefits associated with that base, than as a moving figure. The structure of the mapping doesn't change year to year.
 <!-- /exentax:lote34-native-v1:cuotas-autonomos-2026-guia-completa-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

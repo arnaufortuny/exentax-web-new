@@ -132,6 +132,8 @@ Oui, par apport ou échange de titres. En France et en Espagne il existe des ré
 
 Oui, tant que les bénéfices restent dans la holding (pas de distribution de dividendes à la personne physique). Cela permet de réinvestir, prêter et professionnaliser la gestion patrimoniale sans déclencher l'IR jusqu'au retrait effectif.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -151,6 +151,8 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 Els errors crítics post-constitució d'una LLC es llegeixen de manera més útil com una checklist de revisió a 12 mesos — adreça del registered agent encara vàlida, dades del beneficiari actualitzades, comptabilitat tancada per trimestre, registres federals i estatals seguits — en lloc d'incidents aïllats. La checklist no canvia d'un any a l'altre, només els punts a tractar es mouen.
 <!-- /exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

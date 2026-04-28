@@ -91,6 +91,8 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A prevenção do branqueamento lê-se de forma mais útil como um mapeamento de expectativas documentais estáveis — identificação do beneficiário, origem dos fundos, contexto da atividade — em vez de uma preocupação difusa. O mapeamento mantém-se válido de uma conta para a seguinte, e uma nota curta no ficheiro torna a posição relevável.
 <!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

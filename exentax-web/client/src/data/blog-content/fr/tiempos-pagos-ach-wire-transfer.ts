@@ -120,6 +120,8 @@ Une habitude qui réduit la friction consiste à fixer deux fenêtres hebdomadai
 Les délais des paiements ACH et wire transfer se lisent plus utilement comme une cartographie stable entre le type d'instruction (ACH ou wire), le moment où l'instruction est lancée et le délai opérationnel attendu, plutôt que comme une attente incertaine. Ces délais ne changent pas d'un mois à l'autre.
 <!-- /exentax:lote28-native-v1:tiempos-pagos-ach-wire-transfer-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

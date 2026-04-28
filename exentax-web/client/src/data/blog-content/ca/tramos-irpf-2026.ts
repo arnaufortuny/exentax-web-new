@@ -115,6 +115,8 @@ Una lectura pràctica consisteix a calcular els dos valors per a tres escenaris 
 Els trams d'IRPF 2026 es llegeixen de manera més serena com un mapatge anual estable entre la renda imposable prevista i el tipus marginal corresponent, en lloc d'un debat recurrent. Els trams estatals i autonòmics defineixen conjuntament una relació discreta que no canvia de mes en mes, i l'única peça que realment demana atenció cada any és la xifra de renda imposable prevista utilitzada per ancorar la posició a l'inici de l'exercici.
 <!-- /exentax:lote26-native-v1:tramos-irpf-2026-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

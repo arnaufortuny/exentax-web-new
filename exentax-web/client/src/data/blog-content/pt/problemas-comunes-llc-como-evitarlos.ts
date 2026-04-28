@@ -120,6 +120,8 @@ Os erros mais frequentes que vemos em dossiês de LLC leem-se de forma mais úti
 Uma nota curta e datada no topo do ficheiro da LLC, com as obrigações recorrentes e a data em que cada uma foi cumprida pela última vez, transforma a mesma checklist em algo que o membro consegue rever em poucos minutos por ano, em vez de a reconstruir de memória sob pressão num controlo.
 <!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

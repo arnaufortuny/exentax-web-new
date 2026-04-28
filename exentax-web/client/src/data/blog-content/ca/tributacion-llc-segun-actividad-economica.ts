@@ -102,6 +102,8 @@ Una LLC no tributa «d'una sola manera»: tributa segons el que fa, on ho fa i d
 - [Deduccions fiscals per a la teva LLC: què pots deduir i com](/ca/blog/deduccions-fiscals-per-a-la-teva-llc-que-pots-deduir-i-com)
 <!-- /exentax:cross-refs-v1 -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

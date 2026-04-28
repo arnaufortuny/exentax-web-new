@@ -141,6 +141,8 @@ Fintech and CRS information evolves; here is the current state:
 The consequences of not filing Form 5472 read more usefully as a stable mapping between the year affected, the type of omission and the type of remediation than as a vague threat. The mapping is reviewable in a few minutes during a conversation.
 <!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

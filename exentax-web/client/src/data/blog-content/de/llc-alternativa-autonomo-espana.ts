@@ -162,6 +162,8 @@ Der Vergleich LLC gegen spanisches Autónomo liest sich nützlicher als stabile 
 Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden­markt — und nicht pro Jurisdiktion, weil die Achsen stabil bleiben, während sich der Marketing-Diskurs einer einzelnen Jurisdiktion mit der Saison ändert. Eine kurze Notiz pro Achse genügt für die Position.
 <!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

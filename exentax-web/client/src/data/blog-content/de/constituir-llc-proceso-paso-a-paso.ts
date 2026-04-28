@@ -163,6 +163,8 @@ Der Prozess der LLC-Gründung liest sich nützlicher als stabile Reihenfolge von
 Die Notiz organisiert sich pro Schritt der Reihenfolge und nicht pro Anbieter, weil die Reihenfolge stabil bleibt, während die Anbieter­wahl mit der Saison wechseln kann.
 <!-- /exentax:lote33-native-v1-bis:constituir-llc-proceso-paso-a-paso-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

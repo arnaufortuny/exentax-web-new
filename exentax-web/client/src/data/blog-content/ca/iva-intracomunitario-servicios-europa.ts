@@ -71,6 +71,8 @@ El marc normatiu està a la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 L'IVA intracomunitari sobre serveis es llegeix com un mapatge estable entre prestador, estatut del client i país de consum.
 <!-- /exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

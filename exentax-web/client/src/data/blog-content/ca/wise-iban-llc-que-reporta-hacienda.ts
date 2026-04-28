@@ -124,6 +124,8 @@ La qüestió del que reporta un IBAN Wise mantingut per una LLC a l'administraci
 Una nota curta al dossier de la LLC que registri el tipus de compte obert a Wise, el titular legal, el país de l'IBAN i el canal d'intercanvi que li és aplicable fa aquest mapatge consultable en pocs minuts, en lloc d'haver-lo de reconstruir de memòria cada vegada que la qüestió torna a aparèixer en un control o en una reunió amb l'equip fiscal.
 <!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -117,6 +117,8 @@ Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noo
 La prévention du blanchiment se lit plus utilement comme une cartographie d'attentes documentaires stables — identification du bénéficiaire effectif, origine des fonds, contexte de l'activité — que comme une crainte diffuse. La cartographie reste valide d'un compte à l'autre.
 <!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

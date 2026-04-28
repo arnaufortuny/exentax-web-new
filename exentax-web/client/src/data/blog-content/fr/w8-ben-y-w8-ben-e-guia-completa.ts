@@ -151,6 +151,8 @@ Règle pratique: une LLC opérationnelle, avec substance, correctement déclaré
 La question des Forms W-8BEN et W-8BEN-E se lit plus utilement comme une cartographie de relations stables entre la personne ou l'entité qui certifie son statut, le payeur américain qui demande la certification et la juridiction de résidence du bénéficiaire effectif, plutôt que comme un formulaire à remplir une fois. Cette cartographie reste relisible en quelques minutes lors d'une révision périodique de la documentation.
 <!-- /exentax:lote33-native-v1:w8-ben-y-w8-ben-e-guia-completa-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

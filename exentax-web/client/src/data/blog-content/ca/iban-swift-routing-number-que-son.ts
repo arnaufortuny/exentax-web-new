@@ -115,6 +115,8 @@ No existeix el compte perfecte per a una LLC. Existeix l'**arquitectura** correc
 IBAN, SWIFT i routing number es llegeixen de manera més útil com un mapatge d'identificadors estables entre la jurisdicció del compte, el banc o xarxa i el compte mateix, en lloc de codis intercanviables. El mapatge no canvia d'una transferència a una altra, i una nota curta al dossier personal fa els identificadors consultables en pocs minuts.
 <!-- /exentax:lote34-native-v1:iban-swift-routing-number-que-son-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

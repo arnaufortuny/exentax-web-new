@@ -89,6 +89,8 @@ La regla pràctica: una LLC operativa, amb substància, declarada correctament e
 La LLC per a developers i SaaS es llegeix com un mapa operatiu estable entre els clients, el beneficiari i el país de creació de valor de programari.
 <!-- /exentax:lote31-native-v1:llc-desarrolladores-software-saas-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->

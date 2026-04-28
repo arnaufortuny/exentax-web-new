@@ -88,6 +88,8 @@ Cet article s'appuie sur la réglementation en vigueur à la date de actuellemen
 Une note courte et datée dans le dossier LLC, qui consigne les trois passations (Registered Agent, adresse postale, garde des documents) avec la référence de confirmation, suffit à relire la transition en quelques minutes lors d'un échange avec un conseiller ou une banque.
 <!-- /exentax:lote29-native-v1:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -121,6 +121,8 @@ Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas 
 A questão da tributação de clientes internacionais para um trabalhador independente residente em Espanha lê-se de forma mais útil como um mapeamento estável entre o tipo de cliente (empresa ou particular) e o país de residência do cliente, do que como uma pesquisa caso a caso por fatura. As regras aplicáveis não mudam de mês para mês.
 <!-- /exentax:lote27-native-v1:impuestos-clientes-internacionales-espana-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

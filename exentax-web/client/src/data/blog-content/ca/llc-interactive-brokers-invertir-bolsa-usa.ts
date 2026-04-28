@@ -139,6 +139,8 @@ Una nota curta al dossier de la LLC que registri el titular del compte, la data 
 Una nota curta i datada, que registri el titular del compte, el país de residència del beneficiari i el tipus d'activitat allotjada a la LLC, n'hi ha prou per rellegir la configuració en pocs minuts en una conversa amb un assessor fiscal, sense haver-la de reconstruir de memòria ni reobrir el dossier sencer.
 <!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

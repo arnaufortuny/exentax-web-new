@@ -93,6 +93,8 @@ Die Eignungsprüfung verankert sich schriftlich in einer kurzen, datierten Notiz
 Die LLC für Digital-Marketing-Agenturen liest sich nützlicher als stabile operative Karte zwischen den US-Kunden, dem wirtschaftlich Berechtigten und dem Land der Wertschöpfung denn als Kostenwahl. Diese Karte ändert sich nicht von Quartal zu Quartal, und eine kurze Notiz im Agentur­ordner mit den drei Achsen macht die Position überprüfbar.
 <!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

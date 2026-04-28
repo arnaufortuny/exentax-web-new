@@ -162,6 +162,8 @@ A operação diária da LLC lê-se de forma mais útil como um conjunto de hábi
 Uma nota curta no ficheiro da LLC que registe a frequência escolhida para cada um torna a operação relevável a qualquer momento, sem ter de a reconstruir de memória — o que ajuda bastante numa revisão posterior ou na passagem a um novo contabilista.
 <!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

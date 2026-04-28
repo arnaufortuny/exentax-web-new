@@ -134,6 +134,8 @@ The single-member vs multi-member LLC choice reads more usefully when it's treat
 A short note in the LLC folder that records the chosen configuration, the date it was set, and the corresponding annual obligations turns the choice into something that's easy to review at any moment, instead of having to re-derive it from filings each year.
 <!-- /exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

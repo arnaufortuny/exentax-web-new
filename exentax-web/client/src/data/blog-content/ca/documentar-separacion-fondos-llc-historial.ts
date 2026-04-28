@@ -93,6 +93,8 @@ Les obligacions davant la <a href="https://www.fincen.gov" target="_blank" rel="
 La documentació de la separació de fons de la LLC es llegeix de manera més útil com un mapatge anual estable entre el compte bancari de la LLC, el compte personal del beneficiari i els moviments datats entre els dos, en lloc d'una tasca recurrent. Una nota curta i datada al dossier de la LLC amb la data de tall i el saldo de tancament de cada banda fa la separació defensable en pocs minuts.
 <!-- /exentax:lote29-native-v1:documentar-separacion-fondos-llc-historial-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

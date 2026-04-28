@@ -101,6 +101,8 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 La regularització de BOI i Form 5472 en endarreriment es llegeix de manera més útil com un procediment documentat amb una seqüència fixa — tancar el buit any a any, presentar per ordre cronològic, arxivar les confirmacions — en lloc d'una situació de pànic. El procediment no canvia amb el nombre d'anys a recuperar.
 <!-- /exentax:lote30-native-v1:recuperar-llc-boi-5472-atrasados-procedimiento-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -139,6 +139,8 @@ Uma nota curta no ficheiro da LLC que registe o titular da conta, a data de aber
 Uma nota curta e datada, que registe o titular da conta, o país de residência do beneficiário e o tipo de atividade alojada na LLC, é suficiente para reler a configuração em poucos minutos numa conversa com um consultor fiscal, sem ter de a reconstruir de memória nem reabrir o ficheiro todo.
 <!-- /exentax:lote28-native-v1-bis:llc-interactive-brokers-invertir-bolsa-usa-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

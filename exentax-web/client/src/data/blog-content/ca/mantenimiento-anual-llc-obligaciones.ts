@@ -128,6 +128,8 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 El manteniment anual de la LLC es llegeix com un mapatge anual estable entre l'estat, el registered agent i les obligacions.
 <!-- /exentax:lote32-native-v1:mantenimiento-anual-llc-obligaciones-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->

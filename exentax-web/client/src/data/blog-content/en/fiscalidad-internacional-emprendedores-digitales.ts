@@ -137,6 +137,8 @@ Fintech and CRS information evolves; here is the current state:
 International taxation for digital entrepreneurs reads more usefully when it's treated as a stable mapping between residence, vehicle and country of customers, than as a recurring debate.
 <!-- /exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

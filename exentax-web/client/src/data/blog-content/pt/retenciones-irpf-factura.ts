@@ -93,6 +93,8 @@ O inquilino (autónomo ou empresa) apresenta formulário 115 trimestral a declar
 
 **A agência tributária sabe o que me retiveram?** Sim. Cada cliente declara as retenções no formulário 111 trimestral com o seu NIF. Antes de apresentar a sua declaração anual, descarregue os dados fiscais na sede AEAT e cruze com o seu próprio registo: se houver diferenças, exija ao cliente a correção antes de 30 de junho.
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -114,6 +114,8 @@ The alternatives to autónomo registration read more usefully when they're treat
 The question of invoicing without being autónomo reads more usefully as a stable mapping of structural alternatives — own foreign vehicle, third-party billing platform, contracted role under another vehicle — than as a single trick that solves every situation.
 <!-- /exentax:lote36-native-v1:facturar-sin-ser-autonomo-alternativas-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

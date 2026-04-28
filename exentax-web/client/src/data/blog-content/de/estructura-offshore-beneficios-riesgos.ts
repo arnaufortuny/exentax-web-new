@@ -140,6 +140,8 @@ Die Frage einer Offshore-Struktur liest sich nützlicher als stabile Profil­kar
 Die Notiz organisiert sich pro Achse — Wohnsitz, Wertschöpfung, Kunden­markt — und nicht pro Jurisdiktion, weil die Achsen stabil bleiben, während sich der Marken­diskurs einer einzelnen Offshore-Jurisdiktion mit der Saison ändert.
 <!-- /exentax:lote31-native-v1-bis:estructura-offshore-beneficios-riesgos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

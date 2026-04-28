@@ -166,6 +166,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 La qüestió de les despeses deduïbles d'una LLC es llegeix com un mapa estable entre tipus de despesa, comprovant documental i propòsit de l'activitat.
 <!-- /exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

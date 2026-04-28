@@ -150,6 +150,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 - [Quanto custa constituir uma LLC americana: análise completa](/pt/blog/quanto-custa-constituir-uma-llc-americana-analise-completa)
 <!-- /exentax:cross-refs-v1 -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

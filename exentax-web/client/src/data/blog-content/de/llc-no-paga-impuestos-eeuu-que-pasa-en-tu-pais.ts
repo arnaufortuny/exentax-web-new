@@ -147,6 +147,8 @@ Die Aussage "die LLC zahlt keine US-Steuer" liest sich am ehrlichsten als rein t
 Die Aussage „die LLC zahlt keine Steuern in den USA" liest sich nützlicher als unvollständiger Satz, der eine zweite Lesart im Wohnsitz­land des wirtschaftlich Berechtigten verlangt, denn als Schlussfolgerung. Die zweite Lesart hängt vom Wohnsitz­land ab und ändert die Vollständigkeit der Aussage.
 <!-- /exentax:lote36-native-v1:llc-no-paga-impuestos-eeuu-que-pasa-en-tu-pais-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -113,6 +113,8 @@ Una LLC americana és una eina legal i reconeguda internacionalment. Però el co
 La sol·licitud d'ITIN es llegeix de manera més serena com un procediment documentat estable que com un esdeveniment puntual. Les peces necessàries — un Form W-7 vàlid, un motiu de declaració federal que justifiqui la necessitat d'ITIN i un document d'identitat acceptat per l'IRS — defineixen un procés discret que no canvia d'any en any.
 <!-- /exentax:lote26-native-v1:como-obtener-itin-numero-fiscal-irs-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->

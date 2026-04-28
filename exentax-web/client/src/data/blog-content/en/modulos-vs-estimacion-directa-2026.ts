@@ -98,6 +98,8 @@ There is a recurring profile in our practice for whom both regimes feel cramped:
 The choice between Módulos and Estimación Directa reads more usefully when it's treated as a profile question — what's the actual relationship between income and deductible expenses for this specific activity — than as a general debate. The answer doesn't depend on what's most common in the sector, but on the ratio that this particular self-employed person can document for the year in question.
 <!-- /exentax:lote28-native-v1:modulos-vs-estimacion-directa-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

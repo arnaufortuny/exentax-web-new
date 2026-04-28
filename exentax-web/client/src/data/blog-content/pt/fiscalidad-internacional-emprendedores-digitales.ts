@@ -124,6 +124,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 A fiscalidade internacional de empreendedores digitais lê-se de forma mais útil como um mapeamento estável entre a residência fiscal do beneficiário, o veículo utilizado e o país dos clientes, do que como um debate recorrente. Estes três eixos definem um quadro discreto que não muda de trimestre em trimestre.
 <!-- /exentax:lote27-native-v1:fiscalidad-internacional-emprendedores-digitales-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -108,6 +108,8 @@ A aplicação concreta de qualquer destas normas ao seu caso depende da sua resi
 
 As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Fala com a nossa equipa</a>
 <!-- /exentax:calc-cta-v1 -->

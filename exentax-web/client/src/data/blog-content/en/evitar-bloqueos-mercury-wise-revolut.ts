@@ -105,6 +105,8 @@ What follows is the operational view, not the textbook one. We have run this pla
 Account stability with Mercury and Wise reads more usefully when it's treated as a documented procedure — beneficial owner identification kept current, source of funds documented, business activity context updated when it evolves — than as luck. The procedure doesn't change with the size of the account.
 <!-- /exentax:lote31-native-v1:evitar-bloqueos-mercury-wise-revolut-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

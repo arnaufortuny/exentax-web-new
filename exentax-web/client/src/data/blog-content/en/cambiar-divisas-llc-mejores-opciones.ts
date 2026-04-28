@@ -114,6 +114,8 @@ Currency conversion choices for an LLC become more useful when they're treated a
 Currency conversion in the LLC reads more usefully when it's treated as a stable operational map between the currency of the customers, the currency of the operating account and the currency of the residence of the beneficial owner, than as a one-off market decision. The map doesn't change with the daily exchange rate — only the volume on each axis evolves.
 <!-- /exentax:lote30-native-v1:cambiar-divisas-llc-mejores-opciones-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

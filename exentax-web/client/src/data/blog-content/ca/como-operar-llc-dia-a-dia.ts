@@ -168,6 +168,8 @@ Una nota curta al dossier de la LLC que registri la freqüència triada per a ca
 La rutina mensual de la LLC es manté de manera més serena com una entrada curta i datada al dossier de la LLC que registri la freqüència de cada hàbit i la data del darrer cicle — i fa que qualsevol traspàs o revisió posterior sigui llegible en pocs minuts en lloc de ser reconstruïda de memòria.
 <!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-ca-bis -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

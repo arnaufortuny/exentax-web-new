@@ -166,6 +166,8 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 Die Frage abzugs­fähiger Ausgaben einer LLC liest sich nützlicher als stabile Profil­karte zwischen Ausgaben­typ, dokumentarischem Beleg und Aktivitäts­zweck denn als geschlossene Liste. Diese Karte bleibt von einem Geschäfts­jahr zum nächsten gültig, und eine kurze Notiz im LLC-Ordner mit den drei Achsen macht die Position bei einer späteren Überprüfung nachvollziehbar.
 <!-- /exentax:lote34-native-v1:gastos-deducibles-llc-que-puedes-deducir-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

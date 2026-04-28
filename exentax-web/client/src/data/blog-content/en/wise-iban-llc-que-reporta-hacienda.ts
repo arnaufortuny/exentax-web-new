@@ -118,6 +118,8 @@ A short note in the LLC folder that records the type of account opened with Wise
 The same note also makes it much easier to align what's declared by the Spanish-resident member with what arrives through the exchange of information channel.
 <!-- /exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

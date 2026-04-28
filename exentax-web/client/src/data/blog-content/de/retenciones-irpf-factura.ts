@@ -115,6 +115,8 @@ IRPF-Einbehalte auf der Rechnung lesen sich nützlicher als stabiles jährliches
 Die Notiz bezieht sich auf das Steuerjahr und nicht auf die einzelne Rechnung — der gewählte Einbehaltssatz hängt vom Aktivitätstyp und vom Zahlertyp ab, und diese Achsen ändern sich nicht zwischen zwei Rechnungen desselben Kunden im selben Jahr, weshalb eine Jahresnotiz die korrekte Granularität trifft.
 <!-- /exentax:lote28-native-v1-bis:retenciones-irpf-factura-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

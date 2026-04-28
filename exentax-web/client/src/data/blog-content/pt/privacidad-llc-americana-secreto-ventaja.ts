@@ -129,6 +129,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 A privacidade da LLC americana lê-se de forma mais útil como uma propriedade jurídica estável do veículo, específica de cada estado, do que como uma vantagem de marketing transversal. O que efetivamente é público e o que não é depende do estado de registo, e essa relação não muda de ano para ano. Uma nota curta no ficheiro com o estado escolhido e o nível de visibilidade pública correspondente torna a posição relevável em poucos minutos.
 <!-- /exentax:lote27-native-v1:privacidad-llc-americana-secreto-ventaja-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

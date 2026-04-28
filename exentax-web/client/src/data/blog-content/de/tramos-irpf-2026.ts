@@ -119,6 +119,8 @@ Die Stufen lassen sich mit dem Bilanzplan koppeln, indem die durchschnittliche B
 Die IRPF-Stufen 2026 lesen sich ruhiger als stabiles jährliches Mapping zwischen dem prognostizierten zu versteuernden Einkommen und dem entsprechenden Grenzsteuersatz denn als wiederkehrende Debatte. Die staatlichen und regionalen Stufen definieren zusammen eine diskrete Beziehung, die sich nicht von Monat zu Monat ändert.
 <!-- /exentax:lote26-native-v1:tramos-irpf-2026-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

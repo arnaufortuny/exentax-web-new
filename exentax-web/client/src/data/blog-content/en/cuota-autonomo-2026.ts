@@ -38,6 +38,8 @@ Reading the self-employed contribution as an annual figure rather than as a mont
 The 2026 self-employed contribution reads more calmly when it's treated as a stable annual mapping between projected net earnings and the corresponding contribution base, rather than as a recurring surprise. The official brackets define a discrete relationship that does not change month to month, and the only piece that requires real attention is the projected net earnings figure used at the start of the year and any adjustment that's needed if the projection turns out to be materially different from the actual outcome.
 <!-- /exentax:lote26-native-v1:cuota-autonomo-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

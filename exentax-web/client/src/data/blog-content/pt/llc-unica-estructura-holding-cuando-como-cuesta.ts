@@ -103,6 +103,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A questão da LLC holding lê-se de forma mais útil como um mapeamento estrutural estável entre a LLC operacional, a LLC holding e o beneficiário, em vez de uma escolha de estatuto. Este mapeamento não muda com o resultado do ano, e uma nota curta e datada no ficheiro torna a relação relevável em poucos minutos numa conversa com um consultor.
 <!-- /exentax:lote31-native-v1:llc-unica-estructura-holding-cuando-como-cuesta-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -150,6 +150,8 @@ Fintech and CRS information evolves; here is the current state:
 The question of leaving the Spanish autónomo regime reads more usefully as a stable structural decision between the activity actually carried out, the residence of the beneficial owner and the vehicle that holds the activity, than as a monthly venting about social-security contributions. The reading does not change with each contribution receipt and a short dated note in the personal folder makes it reviewable.
 <!-- /exentax:lote36-native-v1:autonomos-espana-por-que-dejar-de-serlo-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

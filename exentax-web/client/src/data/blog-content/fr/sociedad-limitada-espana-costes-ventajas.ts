@@ -95,6 +95,8 @@ L'autre élément à intégrer dans la lecture est la stabilité des coûts: cer
 La question d'une SL espagnole se lit plus utilement comme une cartographie stable entre les coûts récurrents, les fonctions couvertes par le véhicule et la résidence du bénéficiaire effectif, plutôt que comme une comparaison ponctuelle.
 <!-- /exentax:lote36-native-v1:sociedad-limitada-espana-costes-ventajas-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

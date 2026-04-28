@@ -238,6 +238,8 @@ Separar tu dinero personal del dinero de tu LLC no es un detalle administrativo,
 
 La buena noticia es que implementar esta separación es sencillo si lo haces desde el principio. Una cuenta bancaria dedicada, un sistema de contabilidad básico y disciplina en tus distribuciones es todo lo que necesitas.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

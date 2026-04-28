@@ -112,6 +112,8 @@ L'approche la plus stable consiste à classer la clientèle dès l'enregistremen
 La TVA sur les services numériques internationaux se lit plus utilement comme une cartographie stable entre le pays du prestataire, le statut du client (entreprise enregistrée à la TVA ou consommateur final) et le pays de consommation, plutôt que comme un débat ponctuel par facture.
 <!-- /exentax:lote35-native-v1:iva-servicios-digitales-internacional-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

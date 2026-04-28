@@ -149,6 +149,8 @@ This article relies on rules currently in force. Main sources for verification:
 The Operating Agreement reads more usefully when it's treated as a stable governance map between the members, the manager and the rules of distribution, than as a one-shot document signed at incorporation. The map remains valid until a member, the manager or the rules change.
 <!-- /exentax:lote30-native-v1:operating-agreement-llc-que-es-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

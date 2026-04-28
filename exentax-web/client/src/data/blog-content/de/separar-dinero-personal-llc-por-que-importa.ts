@@ -230,6 +230,8 @@ Die Trennung zwischen privatem und LLC-Geld liest sich nützlicher als stabile K
 Die Notiz bezieht sich auf den Stichtag und auf den Schlussstand jeder Seite — nicht auf jede einzelne Bewegung. Die maßgebliche Größe für eine spätere Überprüfung ist der Saldo­stand zu den Referenz­daten, nicht die vollständige Historie, und diese Sicht trifft die korrekte Granularität für die Trennungs­dokumentation.
 <!-- /exentax:lote31-native-v1-bis:separar-dinero-personal-llc-por-que-importa-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -123,6 +123,8 @@ A questão do reporting Visa e Mastercard à administração fiscal espanhola l�
 Uma nota curta no ficheiro pessoal que registe o tipo de cartão detido, o emissor, o país de emissão e o titular legal da conta subjacente transforma essa mesma questão em algo relevável em poucos minutos da próxima vez que voltar a aparecer.
 <!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -83,6 +83,8 @@ Este artigo apoia-se em normativa em vigor à data de hoje. Citamos as fontes pr
 A LLC para agências de marketing digital lê-se de forma mais útil como um mapa operativo estável entre os clientes nos EUA, o beneficiário e o país onde se cria valor, em vez de uma escolha de custo. Este mapa não muda de trimestre em trimestre, e uma nota curta e datada no ficheiro da agência com os três eixos torna a posição relevável em poucos minutos numa conversa com um consultor.
 <!-- /exentax:lote30-native-v1:llc-agencias-marketing-digital-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

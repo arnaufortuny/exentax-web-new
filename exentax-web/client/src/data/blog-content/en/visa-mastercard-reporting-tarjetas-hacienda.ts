@@ -128,6 +128,8 @@ A short note in the personal folder that records the type of card held, the issu
 The same note also makes it much easier to align what's declared by the resident with what arrives through the exchange channel.
 <!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -166,6 +166,8 @@ A nota organiza-se por passo da sequência — declarações finais, dissoluçã
 Uma nota curta e datada por passo no ficheiro da LLC chega para reconstruir o processo de encerramento em poucos minutos, sem depender da memória.
 <!-- /exentax:lote30-native-v1-bis:como-disolver-cerrar-llc-paso-a-paso-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

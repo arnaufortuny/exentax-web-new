@@ -218,6 +218,8 @@ A US LLC is a fully legal, internationally recognized vehicle. But compliance do
 - [How much does it cost to form a US LLC: complete cost breakdown](/en/blog/how-much-does-it-cost-to-form-a-us-llc-complete-cost)
 <!-- /exentax:cross-refs-v1 -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Find out whether an LLC fits your case</a>
 <!-- /exentax:calc-cta-v1 -->

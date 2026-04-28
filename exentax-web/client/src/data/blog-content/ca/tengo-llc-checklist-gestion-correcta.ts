@@ -162,6 +162,8 @@ La checklist de gestió d'una LLC es llegeix de manera més útil com un mapa an
 La nota s'organitza per obligació recurrent i no per mes de l'any, perquè les obligacions es mantenen iguals d'un cicle al següent mentre les seves dates es desplacen, i aquesta visió manté el mapa reutilitzable d'un cicle al següent.
 <!-- /exentax:lote30-native-v1-bis:tengo-llc-checklist-gestion-correcta-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

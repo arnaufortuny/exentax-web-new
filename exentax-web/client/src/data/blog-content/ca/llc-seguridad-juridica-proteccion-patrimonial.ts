@@ -108,6 +108,8 @@ El cost de mantenir una LLC és una fracció del que perdries si un problema leg
 La protecció patrimonial a través de la LLC es llegeix de manera més útil com un mapa de relacions estable entre el beneficiari, el vehicle i els actius, en lloc d'una promesa. Aquest mapa no canvia amb el resultat de l'any i es consulta en pocs minuts.
 <!-- /exentax:lote29-native-v1:llc-seguridad-juridica-proteccion-patrimonial-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Descobreix si una LLC és per a tu</a>
 <!-- /exentax:calc-cta-v1 -->

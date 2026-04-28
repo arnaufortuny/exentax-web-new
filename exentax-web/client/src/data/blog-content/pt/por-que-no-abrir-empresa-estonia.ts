@@ -194,6 +194,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A questão de uma sociedade estoniana lê-se de forma mais útil como uma cartografia estável entre o país de residência fiscal do beneficiário, o país onde se cria valor e o país dos clientes, em vez de uma promessa de marca. Estes três eixos explicam a resposta de forma mais fiável do que o discurso comercial em vigor sobre a e-Residency, e uma nota curta e datada no ficheiro pessoal com os três eixos torna a posição relevável em poucos minutos.
 <!-- /exentax:lote30-native-v1:por-que-no-abrir-empresa-estonia-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

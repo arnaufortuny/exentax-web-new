@@ -156,6 +156,8 @@ The most common mistakes that we see on LLC files read more usefully when they'r
 A short, dated note at the top of the LLC folder that lists the recurring obligations and the date each one was last met turns the same checklist into something the member can review in a few minutes a year, instead of rebuilding it from memory under pressure.
 <!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

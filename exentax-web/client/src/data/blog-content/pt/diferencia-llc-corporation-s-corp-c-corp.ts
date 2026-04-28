@@ -100,6 +100,8 @@ A escolha correta depende do seu plano a 3-5 anos, não da moda do fórum do dia
 - [Tributação da LLC segundo a atividade económica: serviços, e-commerce, SaaS](/pt/blog/tributacao-da-llc-segundo-a-atividade-economica-servicos)
 <!-- /exentax:cross-refs-v1 -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

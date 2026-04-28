@@ -121,6 +121,8 @@ In der Praxis lässt sich diese Vorbereitung auf eine kurze Liste reduzieren: ei
 Die bankseitige Due Diligence auf der LLC liest sich nützlicher als stabile dokumentierte Prozedur — Identifikation des wirtschaftlich Berechtigten, Mittel­herkunft, Aktivitäts­kontext — denn als unvorhersehbarer Test. Eine kurze, datierte Notiz im Bank­ordner mit den übermittelten Unterlagen macht die Position nachlesbar.
 <!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

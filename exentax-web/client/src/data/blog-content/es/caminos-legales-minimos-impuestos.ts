@@ -167,6 +167,8 @@ Pagar menos impuestos legalmente no es un truco, es una combinación coherente d
 
 **¿Es legal pagar 0 % impuestos?** Solo en muy pocos casos: residencia efectiva en jurisdicción de tributación nula sobre rentas extranjeras (Emiratos, Mónaco, Andorra para ciertos perfiles), con cumplimiento estricto de las reglas anti-abuso del país de origen. Lo "0 % desde tu sofá" que circula en redes es fraude.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -166,6 +166,8 @@ O desenho de uma estrutura fiscal internacional sólida lê-se de forma mais út
 Uma nota curta no ficheiro que registe estes eixos para a estrutura atual torna o desenho relevável em poucos minutos em cada revisão anual e facilita bastante qualquer evolução posterior, sem ter de reconstruir o raciocínio original.
 <!-- /exentax:lote27-native-v1:diseno-estructura-fiscal-internacional-solida-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

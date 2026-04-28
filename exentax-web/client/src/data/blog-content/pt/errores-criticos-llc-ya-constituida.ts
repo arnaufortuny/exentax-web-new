@@ -166,6 +166,8 @@ Não existe a conta perfeita para uma LLC. Existe a **arquitetura** correta, ond
 Os erros críticos pós-constituição de uma LLC leem-se de forma mais útil como uma checklist de revisão a 12 meses — morada do registered agent ainda válida, dados do beneficiário atualizados, contabilidade fechada por trimestre, registos federais e estaduais acompanhados — em vez de incidentes isolados a que se reage de improviso. A checklist não muda de ano para ano, apenas os pontos a tratar se movem, e uma nota curta no ficheiro torna a posição relevável.
 <!-- /exentax:lote34-native-v1:errores-criticos-llc-ya-constituida-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

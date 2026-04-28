@@ -122,6 +122,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 L'intercanvi CRS al voltant de comptes bancaris LLC es llegeix com un mapatge estable entre la institució financera reportant, el beneficiari identificat al compte i l'administració fiscal receptora.
 <!-- /exentax:lote36-native-v1:crs-cuentas-bancarias-llc-intercambio-informacion-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

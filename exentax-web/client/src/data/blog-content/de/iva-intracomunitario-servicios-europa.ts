@@ -83,6 +83,8 @@ Die Frage der innergemeinschaftlichen Umsatz­steuer auf Dienst­leistungen lies
 Die Notiz organisiert sich pro Dienstleistungs­typ und nicht pro einzelner Rechnung — die anwendbare Umsatz­steuer­regel hängt vom Dienst­typ und vom Kunden­status ab, nicht von jeder Rechnung einzeln, und diese Sicht hält die korrekte Granularität für eine Jahres­überprüfung.
 <!-- /exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -77,6 +77,8 @@ Intra-EU VAT on services reads more usefully when it's treated as a stable mappi
 The note is organized by service type and not by individual invoice — the applicable VAT rule depends on the service type and the customer's status, not on each invoice in isolation, and this view keeps the right granularity for an annual review.
 <!-- /exentax:lote31-native-v1-bis:iva-intracomunitario-servicios-europa-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

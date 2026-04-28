@@ -155,6 +155,8 @@ Fintech and CRS information evolves; here is the current state:
 Banking due diligence on the LLC reads more usefully when it's treated as a stable documented procedure — beneficial owner identification, source of funds, business activity context — than as an unpredictable test. A short note in the bank folder that records what was sent and on which date keeps the position reviewable.
 <!-- /exentax:lote30-native-v1:due-diligence-bancario-llc-americana-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

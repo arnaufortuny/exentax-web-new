@@ -174,6 +174,8 @@ La qüestió de la residència fiscal per a nòmades digitals es llegeix de mane
 Una nota curta i datada al dossier personal que registri els dies de presència per país i el centre d'interessos declarat per a l'any fa la posició consultable a qualsevol moment — cosa que ajuda força tant en una consulta posterior d'una autoritat com en una reunió amb un assessor.
 <!-- /exentax:lote28-native-v1:nomada-digital-residencia-fiscal-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

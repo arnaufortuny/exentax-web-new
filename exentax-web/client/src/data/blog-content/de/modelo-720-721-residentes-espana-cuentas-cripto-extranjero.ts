@@ -149,6 +149,8 @@ Die Modelos 720 und 721 lesen sich nützlicher als stabile Jahres­kartografie z
 Die Notiz organisiert sich pro Vermögens­typ — Konto, Wertpapier, Krypto — und nicht pro Land, weil das anwendbare Erklärungs­formular auf dem Vermögens­typ aufsetzt und sich die Sicht so leichter mit den Modelos abgleichen lässt.
 <!-- /exentax:lote31-native-v1-bis:modelo-720-721-residentes-espana-cuentas-cripto-extranjero-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

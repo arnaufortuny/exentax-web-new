@@ -95,6 +95,8 @@ La aplicación concreta de cualquiera de estas normas a tu caso depende de tu re
 
 La normativa de información a FinCEN y al <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> se ha movido en recent years; la versión vigente es esta:
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

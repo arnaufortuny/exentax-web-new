@@ -119,6 +119,8 @@ Die Wahl single-member vs multi-member LLC liest sich nützlicher als stabile st
 Eine kurze Notiz im LLC-Ordner, die die gewählte Konfiguration, ihr Datum und die entsprechenden jährlichen Pflichten festhält, macht die Wahl zu etwas, das jederzeit nachlesbar ist.
 <!-- /exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

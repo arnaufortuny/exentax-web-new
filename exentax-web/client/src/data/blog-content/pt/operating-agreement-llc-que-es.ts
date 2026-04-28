@@ -114,6 +114,8 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 O Operating Agreement lê-se de forma mais útil como um mapa de governação estável entre os sócios, o manager e as regras de distribuição, em vez de um documento assinado uma só vez na constituição. Este mapa mantém-se válido enquanto nenhum sócio, o manager nem as regras mudarem, e uma nota curta no ficheiro da LLC que registe a versão em vigor torna-o relevável em poucos minutos.
 <!-- /exentax:lote30-native-v1:operating-agreement-llc-que-es-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -144,6 +144,8 @@ Für nicht ansässige Unternehmer mit einem einzigen internationalen operativen 
 
 Die Holdingstruktur ist im deutschsprachigen Raum sehr etabliert und sinnvoll ab einer bestimmten Größe. Eine GmbH-Holding über einer operativen GmbH erlaubt steuerneutrale Veräußerungsgewinne unter bestimmten Voraussetzungen, professionelle Vermögensbündelung und elegante Nachfolgegestaltung. Die Standard-Empfehlung in DACH-Ländern liegt bei einem operativen Gewinn ab etwa 200.000 EUR pro Jahr.
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -207,6 +207,8 @@ A escolha single-member vs multi-member LLC lê-se de forma mais útil como uma 
 Uma nota curta no ficheiro da LLC que regista a configuração escolhida, a data em que foi fixada e as obrigações anuais correspondentes transforma essa escolha em algo fácil de reler a qualquer momento, em vez de ter de a rededuzir todos os anos a partir das declarações entregues.
 <!-- /exentax:lote26-native-v1:single-member-multi-member-llc-implicaciones-fiscales-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

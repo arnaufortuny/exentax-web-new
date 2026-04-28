@@ -102,6 +102,8 @@ Une LLC ne se taxe pas « d'une seule manière » : elle se taxe selon ce qu'ell
 - [Déductions fiscales pour votre LLC : ce que vous pouvez déduire](/fr/blog/deductions-fiscales-pour-votre-llc-ce-que-vous-pouvez)
 <!-- /exentax:cross-refs-v1 -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

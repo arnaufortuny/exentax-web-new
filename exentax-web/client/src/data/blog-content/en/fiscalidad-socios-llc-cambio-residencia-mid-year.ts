@@ -142,6 +142,8 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 A mid-year change of residence by an LLC member reads more usefully when it's treated as a stable timeline mapping between the dates of the move, the residence rules of each country involved and the corresponding share of the LLC result for the year, than as a confusion. A short note in the personal folder with the dates and the rule cited makes the position reviewable.
 <!-- /exentax:lote29-native-v1:fiscalidad-socios-llc-cambio-residencia-mid-year-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

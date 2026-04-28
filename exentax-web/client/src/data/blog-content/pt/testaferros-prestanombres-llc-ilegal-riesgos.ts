@@ -125,6 +125,8 @@ A questão dos testas-de-ferro lê-se de forma mais útil como uma incompatibili
 A nota mantém a identificação do beneficiário e não uma página de marketing, porque a expectativa regulatória depende dessa identificação.
 <!-- /exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

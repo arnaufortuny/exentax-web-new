@@ -91,6 +91,8 @@ Aquest article es basa en normativa vigents actualment. Citem les fonts principa
 La prevenció del blanqueig es llegeix de manera més útil com un mapatge d'expectatives documentals estables — identificació del beneficiari, origen dels fons, context de l'activitat — en lloc d'una preocupació difusa. El mapatge es manté vàlid d'un compte al següent.
 <!-- /exentax:lote33-native-v1:prevencion-blanqueo-capitales-llc-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

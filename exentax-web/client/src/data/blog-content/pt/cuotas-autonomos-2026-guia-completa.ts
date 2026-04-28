@@ -71,6 +71,8 @@ A tabela de quotizações dos trabalhadores independentes para 2026 lê-se com m
 A questão das contribuições do trabalhador independente espanhol lê-se de forma mais útil como um mapeamento anual estável entre a base de contribuição, a prestação correspondente e as prestações públicas associadas a essa base, em vez de um número em movimento. A estrutura do mapeamento mantém-se estável.
 <!-- /exentax:lote34-native-v1:cuotas-autonomos-2026-guia-completa-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

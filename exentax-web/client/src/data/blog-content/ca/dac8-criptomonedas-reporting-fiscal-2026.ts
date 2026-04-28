@@ -103,6 +103,8 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 L'abast del DAC8 es llegeix com un mapatge estable entre l'operador, el país i el marc aplicable.
 <!-- /exentax:lote34-native-v1:dac8-criptomonedas-reporting-fiscal-2026-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

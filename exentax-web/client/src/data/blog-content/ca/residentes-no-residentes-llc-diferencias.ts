@@ -117,6 +117,8 @@ La regla pràctica: una LLC operativa, amb substància, declarada correctament e
 La distinció resident i no resident es llegeix com un mapa de perfil estable entre el país de residència del beneficiari, el vehicle i la relació entre tots dos.
 <!-- /exentax:lote33-native-v1:residentes-no-residentes-llc-diferencias-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

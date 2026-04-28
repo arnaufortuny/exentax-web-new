@@ -186,6 +186,8 @@ Practical rule: an operative LLC with substance, properly declared in your count
 The US LLC reads more usefully when it's treated as a stable structural choice between the recurring obligations of the vehicle (Form 5472, BOI, Registered Agent renewal) and the recurring benefits (legal separation, US payment infrastructure, simple structure for digital activities), than as a marketing pitch. Both sides of the choice are stable: they don't change with the result of the year, and a short dated note in the LLC folder with both sides keeps the trade-off reviewable in a few minutes whenever a tax adviser asks.
 <!-- /exentax:lote30-native-v1:llc-estados-unidos-guia-completa-2026-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

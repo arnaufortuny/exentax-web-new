@@ -155,6 +155,8 @@ A short note in the LLC folder that records which provider plays which role in t
 The same note also makes it much easier to spot when one of the providers stops fitting the role it was assigned and another configuration is needed, instead of waiting for a friction event to discover it.
 <!-- /exentax:lote26-native-v1:wise-bancos-llc-stack-bancaria-completa-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

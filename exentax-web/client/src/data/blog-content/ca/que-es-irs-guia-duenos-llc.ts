@@ -133,6 +133,8 @@ Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és
 La relació amb l'IRS es llegeix de manera més útil com un mapatge estable d'obligacions entre l'estatut fiscal de la LLC, el perfil del beneficiari i els formularis anuals corresponents, en lloc d'una preocupació difusa. Una nota curta i datada al dossier personal amb els tres eixos fa la posició consultable en pocs minuts en una conversa amb un assessor.
 <!-- /exentax:lote32-native-v1:que-es-irs-guia-duenos-llc-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Parla amb el nostre equip</a>
 <!-- /exentax:calc-cta-v1 -->

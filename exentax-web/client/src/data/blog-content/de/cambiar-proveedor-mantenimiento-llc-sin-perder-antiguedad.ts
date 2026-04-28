@@ -96,6 +96,8 @@ Eine kurze Notiz im LLC-Ordner mit dem Datum jeder Übergabe und der Bestätigun
 Die Notiz organisiert sich pro Übergabe und nicht pro Anbieter — die maßgebliche Größe für eine spätere Überprüfung ist das Datum jeder Übergabe und ihre Bestätigungs­referenz, nicht der Markenname des Anbieters, und diese Sicht erleichtert sowohl die spätere Nachverfolgung als auch jede Beratungs­situation.
 <!-- /exentax:lote29-native-v1-bis:cambiar-proveedor-mantenimiento-llc-sin-perder-antiguedad-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

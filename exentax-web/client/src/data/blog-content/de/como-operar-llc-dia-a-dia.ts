@@ -164,6 +164,8 @@ Eine kurze Notiz im LLC-Ordner, die die für jede Gewohnheit gewählte Frequenz 
 Die monatliche Routine der LLC pflegt sich am ruhigsten als kurzer, datierter Eintrag im LLC-Ordner, der die Frequenz jeder Gewohnheit und das Datum des letzten Durchlaufs festhält — und damit eine spätere Übergabe oder Prüfung in wenigen Minuten lesbar macht, statt sie aus dem Gedächtnis rekonstruieren zu müssen.
 <!-- /exentax:lote27-native-v1:como-operar-llc-dia-a-dia-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

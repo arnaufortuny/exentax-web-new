@@ -102,6 +102,8 @@ The tax risks of a poorly structured international setup read more usefully when
 A short note in the structure folder that records each axis with the date of the last review turns the inventory into something the beneficial owner can revisit at any time, instead of relying on memory or on a rebuilt account at the next concern.
 <!-- /exentax:lote28-native-v1:riesgos-fiscales-mala-estructuracion-internacional-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

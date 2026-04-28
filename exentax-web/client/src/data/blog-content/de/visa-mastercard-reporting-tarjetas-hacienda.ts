@@ -126,6 +126,8 @@ Die Frage des Visa- und Mastercard-Reportings an die spanische Steuerbehörde li
 Eine kurze Notiz im persönlichen Ordner, die den Kartentyp, den Emittenten, das Ausstellungsland und den rechtlichen Inhaber des zugrunde liegenden Kontos festhält, macht dieselbe Frage in wenigen Minuten nachlesbar.
 <!-- /exentax:lote26-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -156,6 +156,8 @@ Practical rule: an operative LLC with substance, properly declared in your count
 The Estonian tax rules become useful information when they're treated as background that explains a particular regime, not as the endpoint of a comparison aimed at deciding where to set up an activity. The decision on jurisdiction depends on the operating profile and on a series of practical factors that go beyond the headline rate.
 <!-- /exentax:lote19-native-v1:fiscalidad-estonia-como-funciona-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

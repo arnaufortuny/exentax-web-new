@@ -106,6 +106,8 @@ Die häufigsten Fehler, die wir auf LLC-Akten sehen, lesen sich nützlicher als 
 Eine kurze, datierte Notiz am Anfang des LLC-Ordners, die die wiederkehrenden Pflichten und das Datum ihrer letzten Erfüllung auflistet, verwandelt dieselbe Checkliste in etwas, das das Mitglied in wenigen Minuten pro Jahr durchsehen kann, statt es unter Druck aus dem Gedächtnis rekonstruieren zu müssen.
 <!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

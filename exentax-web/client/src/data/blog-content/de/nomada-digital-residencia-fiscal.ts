@@ -180,6 +180,8 @@ Eine kurze, datierte Notiz im persönlichen Ordner, die die Aufenthaltstage pro 
 Die Notiz organisiert sich pro Steuerjahr und nicht pro Reise — die maßgebliche Größe für die meisten Verwaltungen ist die Summe der Aufenthaltstage pro Land im Kalenderjahr, nicht die Reihenfolge der einzelnen Reisen, und diese Sicht erleichtert sowohl die spätere Überprüfung als auch jede Beratungssituation.
 <!-- /exentax:lote28-native-v1-bis:nomada-digital-residencia-fiscal-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

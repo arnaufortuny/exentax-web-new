@@ -189,6 +189,8 @@ Die Frage einer estnischen Gesellschaft liest sich nützlicher als stabile Karto
 Die Notiz organisiert sich pro Achse — Wohnsitz des Berechtigten, Ort der Wertschöpfung, Markt der Kunden — und nicht pro Marken­effekt, weil die Achsen stabil bleiben, während sich der Marketing­diskurs mit der Saison ändert. Diese Sicht trifft die korrekte Granularität für jede spätere Diskussion mit einem Berater.
 <!-- /exentax:lote30-native-v1-bis:por-que-no-abrir-empresa-estonia-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -120,6 +120,8 @@ Die Wahl zwischen **Verkauf** und **Schließung** einer LLC hat aktuell untersch
 Die Wahl Verkaufen oder Schließen der LLC liest sich nützlicher als stabile Kartografie zwischen dem aktuellen Zustand des Vehikels, dem Profil des potenziellen Käufers und den verbleibenden Pflichten denn als emotionale Entscheidung. Eine kurze Notiz im LLC-Ordner mit den drei Punkten macht den Vergleich überprüfbar.
 <!-- /exentax:lote31-native-v1:vender-o-cerrar-llc-comparativa-practica-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

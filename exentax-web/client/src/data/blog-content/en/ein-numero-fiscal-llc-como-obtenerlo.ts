@@ -133,6 +133,8 @@ Fintech and CRS information evolves; here is the current state:
 The EIN question reads more usefully as a stable structural identifier of the LLC than as a one-off step.
 <!-- /exentax:lote33-native-v1:ein-numero-fiscal-llc-como-obtenerlo-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

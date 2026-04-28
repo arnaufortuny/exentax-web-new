@@ -108,6 +108,8 @@ No. Form 7004 provides a maximum 6-month extension. If you need more time due to
 | **November** | Receive IRS acknowledgment | Exentax confirms |
 | **December** | Year-end review + planning | Exentax |
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Talk to our team</a>
 <!-- /exentax:calc-cta-v1 -->

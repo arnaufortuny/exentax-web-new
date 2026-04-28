@@ -79,6 +79,8 @@ El criterio oficial sobre gastos deducibles está recogido en la <a href="https:
 
 En Exentax revisamos tu caso con datos reales y te decimos si compensa cambiar de estructura. <a href="/es/agendar">agenda una consulta gratuita</a> de 30 minutos y salimos con un plan claro.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

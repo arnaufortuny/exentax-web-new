@@ -102,6 +102,8 @@ No modelo cooperativo, o freelancer adere como membro-trabalhador nos meses em q
 Para freelancers com a maioria dos clientes no estrangeiro e um ritmo de facturação mensal estável, a LLC detida a partir de Espanha torna-se uma conversa natural, não um truque inteligente. A estrutura oferece um banco operativo limpo (Mercury, Wise, Stripe e Relay são os nomes que se repetem nas nossas instalações), um envelope jurídico norte-americano confortável para clientes internacionais, tributação pass-through que faz fluir o rendimento para o proprietário residente em Espanha para declaração no IRPF na categoria padrão (habitualmente actividade económica) e uma carga declarativa previsível: Form 5472 mais a disciplina contabilística mais as declarações anuais estaduais. A estrutura não apaga o IRPF espanhol nem o RETA quando o proprietário permanece residente fiscal em Espanha; muda como a actividade é operada, bancarizada e apresentada a clientes internacionais, e remove a quota de autónomo durante o período em que o proprietário deixa de estar inscrito como autónomo. O encaixe é uma questão de composição de clientes, ritmo de facturação e projecto pessoal de residência, não um atalho mágico, e é precisamente por isso que só abrimos a conversa quando os dados mostram que merece uma hora.
 <!-- /exentax:lote6-native-v1-bis:facturar-sin-ser-autonomo-alternativas-2026 -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

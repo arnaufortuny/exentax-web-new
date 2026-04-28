@@ -135,6 +135,8 @@ Die Wahl zwischen Bank und Fintech liest sich nützlicher als stabile Profil­ka
 Die Notiz organisiert sich pro Anbieter und nicht pro Transaktion, weil die Stabilität auf dem Konto­profil beruht und nicht auf einer einzelnen Transaktion. Eine kurze Notiz pro Anbieter genügt für eine Jahres­überprüfung.
 <!-- /exentax:lote32-native-v1-bis:bancos-vs-fintech-llc-donde-abrir-cuenta-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

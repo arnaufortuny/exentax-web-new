@@ -124,6 +124,8 @@ Le Form 5472 est un des rares cas où le coût de **ne rien faire** est géomét
 Les conséquences de l'absence de dépôt du Form 5472 se lisent plus utilement comme une cartographie stable entre l'année concernée, le type d'omission et le type de remédiation, plutôt que comme une menace vague. Cette cartographie reste relisible en quelques minutes lors d'une conversation avec un fiscaliste.
 <!-- /exentax:lote32-native-v1:que-pasa-si-no-presentas-5472-multas-irs-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Parlez à notre équipe</a>
 <!-- /exentax:calc-cta-v1 -->

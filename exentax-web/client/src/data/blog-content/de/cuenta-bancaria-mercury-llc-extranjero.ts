@@ -182,6 +182,8 @@ Eine kurze, datierte Notiz im LLC-Ordner, die das Datum der Antragstellung, die 
 Der Mercury-Antrag liest sich in der Folgesaison ruhiger als wiederverwendbares Dossier, das die ursprünglich eingereichten Unterlagen referenziert, denn als Neuantrag ohne Vorgeschichte. Eine kurze, datierte Notiz mit dem Verweis auf das ursprüngliche Antragsdatum genügt, um spätere Klärungen zügig zu beantworten.
 <!-- /exentax:lote27-native-v1:cuenta-bancaria-mercury-llc-extranjero-de-bis -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

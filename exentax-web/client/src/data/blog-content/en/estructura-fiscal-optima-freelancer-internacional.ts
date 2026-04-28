@@ -153,6 +153,8 @@ Fintech and CRS information evolves; here is the current state:
 The optimal structure for the international freelancer reads more usefully as a stable mapping between residence, value creation and customers, than as a fashion choice.
 <!-- /exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

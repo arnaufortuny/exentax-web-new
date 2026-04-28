@@ -75,6 +75,8 @@ Dieser Artikel stützt sich auf Vorschriften, die zum Stichtag aktuell in Kraft 
 Die Frage einer LLC für Krypto-Trading liest sich nützlicher als stabile strukturelle Kartografie zwischen Wohnsitz, Aktivitäts­typ (gelegentlich oder gewerblich) und entsprechender steuerlicher Behandlung denn als Community-Abkürzung.
 <!-- /exentax:lote32-native-v1:criptomonedas-trading-llc-impuestos-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

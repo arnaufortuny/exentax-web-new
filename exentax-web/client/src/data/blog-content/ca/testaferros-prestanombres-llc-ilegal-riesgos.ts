@@ -122,6 +122,8 @@ La qüestió dels testaferros es llegeix de manera més útil com una incompatib
 La nota manté la identificació del beneficiari i no una pàgina de màrqueting, perquè l'expectativa regulatòria depèn d'aquesta identificació.
 <!-- /exentax:lote33-native-v1-bis:testaferros-prestanombres-llc-ilegal-riesgos-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

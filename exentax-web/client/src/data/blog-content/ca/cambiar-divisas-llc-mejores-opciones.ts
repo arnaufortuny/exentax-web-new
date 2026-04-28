@@ -108,6 +108,8 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 La conversió de divises a la LLC es llegeix de manera més útil com un mapa operatiu estable entre la divisa dels clients, la divisa del compte operatiu i la divisa del país de residència del beneficiari, en lloc d'una decisió puntual de mercat. El mapa no canvia amb la cotització del dia.
 <!-- /exentax:lote30-native-v1:cambiar-divisas-llc-mejores-opciones-ca -->
 
+Abans de continuar, posa números al teu cas: la <a href="/ca#calculadora">calculadora Exentax</a> compara, en menys de 2 minuts, la teva càrrega fiscal actual amb la que tindries operant una LLC nord-americana ben declarada al teu país de residència.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
 <!-- /exentax:calc-cta-v1 -->

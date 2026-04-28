@@ -168,6 +168,8 @@ A useful approach is to define three profiles — low, medium, high billing — 
 The per-profile result captures more durably in a short, dated note that lists, for each profile, the structure that emerged as more efficient and the two or three reasons that drove that conclusion. This note then serves as a reference whenever the actual profile shifts in a later year, so the full comparison doesn't need to be rebuilt from scratch.
 <!-- /exentax:lote20-native-v1:autonomo-espana-vs-llc-estados-unidos-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -111,6 +111,8 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 Le passage à l'échelle d'un business digital via une LLC américaine se lit plus utilement comme un choix architectural stable entre le rôle opérationnel de la LLC, le pays des clients et le pays de résidence du bénéficiaire, plutôt que comme une décision ponctuelle.
 <!-- /exentax:lote28-native-v1:escalar-negocio-digital-llc-americana-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

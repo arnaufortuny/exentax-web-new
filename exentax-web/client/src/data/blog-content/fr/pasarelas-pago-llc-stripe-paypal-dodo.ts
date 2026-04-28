@@ -123,6 +123,8 @@ Le choix de la passerelle de paiement de la LLC se lit plus utilement comme un m
 Une courte note dans le dossier LLC qui consigne quelle passerelle est utilisée pour quel type de client, et comment le settlement arrive sur le compte bancaire de la LLC, transforme ce mapping en quelque chose que le membre peut relire à tout moment.
 <!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

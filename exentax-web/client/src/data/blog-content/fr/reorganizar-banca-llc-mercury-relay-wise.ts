@@ -97,6 +97,8 @@ Réorganiser la structure bancaire d'une LLC en intégrant Mercury, Relay et Wis
 La réorganisation bancaire de la LLC se lit plus utilement comme une mise à jour du mapping rôle-par-fournisseur entre Mercury, Relay et Wise, qu'à un changement de fournisseur isolé.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

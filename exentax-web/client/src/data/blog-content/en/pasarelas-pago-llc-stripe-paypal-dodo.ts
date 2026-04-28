@@ -119,6 +119,8 @@ The LLC payment-gateway choice reads more usefully when it's treated as a stable
 A short note in the LLC folder that records which gateway is used for which type of customer, and how the settlement reaches the LLC's bank account, turns this mapping into something the member can review at any time.
 <!-- /exentax:lote26-native-v1:pasarelas-pago-llc-stripe-paypal-dodo-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

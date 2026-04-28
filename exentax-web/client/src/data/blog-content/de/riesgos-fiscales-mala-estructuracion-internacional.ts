@@ -93,6 +93,8 @@ Die **freiwillige Selbstanzeige** vor jeder Anfrage (Art. 305.4 CP in Spanien, �
 
 Die steuerlichen Risiken sind nicht hypothetisch: Sie sind die Realit채t der Pr체fungen, die wir jeden Monat sehen. Die gute Nachricht ist, dass alle diese Risiken mit ernsthafter und ehrlicher Planung **vermeidbar** sind. Die legale Steueroptimierung existiert und ist sehr wirkungsvoll; Opazit채t als Strategie ist eine Abk체rzung, die immer am gleichen Ort endet.
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen w체rden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Kostenlose Beratung, unverbindlich</a>
 <!-- /exentax:calc-cta-v1 -->

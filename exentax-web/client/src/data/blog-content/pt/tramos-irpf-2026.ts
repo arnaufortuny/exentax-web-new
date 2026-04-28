@@ -115,6 +115,8 @@ Uma leitura prática consiste em calcular ambos os valores para três cenários 
 Os escalões de IRPF 2026 leem-se de forma mais serena como um mapeamento anual estável entre o rendimento tributável previsto e a taxa marginal correspondente, em vez de um debate recorrente. Os escalões estatais e regionais definem em conjunto uma relação discreta que não muda de mês para mês.
 <!-- /exentax:lote26-native-v1:tramos-irpf-2026-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

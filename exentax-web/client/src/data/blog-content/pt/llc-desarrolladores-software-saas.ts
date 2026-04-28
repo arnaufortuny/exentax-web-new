@@ -95,6 +95,8 @@ A adequação da LLC para programadores de software e SaaS avalia-se com mais ho
 A LLC para developers e SaaS lê-se de forma mais útil como um mapa operativo estável entre os clientes (frequentemente dispersos globalmente), o beneficiário e o país onde se cria valor de software, em vez de uma escolha de tendência. Este mapa mantém-se válido de um release para o seguinte.
 <!-- /exentax:lote31-native-v1:llc-desarrolladores-software-saas-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/servicos">Descobre se uma LLC é para ti</a>
 <!-- /exentax:calc-cta-v1 -->

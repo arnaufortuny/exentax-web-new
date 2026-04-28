@@ -167,6 +167,8 @@ Die Pass-Through-Besteuerung der LLC liest sich nützlicher als stabile Beziehun
 Die Notiz organisiert sich pro Steuer­status und nicht pro Vorgang, weil die Pass-Through-Beziehung auf dem Status beruht und nicht auf einer einzelnen Operation.
 <!-- /exentax:lote32-native-v1-bis:tributacion-pass-through-llc-como-funciona-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

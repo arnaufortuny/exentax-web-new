@@ -152,6 +152,8 @@ La palabra "offshore" arrastra connotaciones de los años 90 que ya no aplican. 
 **¿Es legal tener una BVI o una Caymans actualmente?** Sí, declarándola en residencia y cumpliendo CRS/CFC. La cuestión no es legalidad sino utilidad: el coste de mantenimiento (5-12k anuales), banca compleja y reputación frente a Stripe o un comprador potencial casi nunca compensan el ahorro nominal vs LLC US o EOOD UE.
 **¿Cuándo sí compensa una jurisdicción "offshore" clásica?** Casos específicos: holding intermedia para un grupo internacional con flujos transfronterizos significativos, IP holding con royalties consolidados, o residente real en la jurisdicción. Para freelance digital o ecommerce solo, casi nunca.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

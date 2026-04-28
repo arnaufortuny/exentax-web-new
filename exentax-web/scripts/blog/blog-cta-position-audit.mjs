@@ -300,6 +300,22 @@ function main() {
   for (const r of worst) {
     mdLines.push(`- \`${r.lang}/${r.slug}\` — ${r.violations.length} violations: ${r.violations.join(", ")}`);
   }
+  // LOTE 6 — keep the editorial rationale visible in the audit artifact
+  // itself (not just in scripts/blog/blog-cta-position-audit.mjs comments)
+  // so reviewers reading the report understand why these positional
+  // warnings are accepted today.
+  mdLines.push("\n## Whitelist rationale (POSITIONAL_ALLOWLIST)\n");
+  mdLines.push("The slugs below are accepted by the CI guard with the");
+  mdLines.push("`calc_cta:too_early` / `calc_cta:too_late` codes. The mid-CTA");
+  mdLines.push("lands earlier than the editorial 30–85 % target window because");
+  mdLines.push("of the article's high-value protected blocks (`exentax:execution-v2`,");
+  mdLines.push("`exentax:cross-refs-v1`, `exentax:cta-conv-v1`, etc.) — there is");
+  mdLines.push("no safe insertion candidate inside the 30–85 % window without");
+  mdLines.push("breaking a semantic block. Restructuring is editorial work");
+  mdLines.push("tracked separately (see `docs/audits/2026-04/blog-editorial-pass.md`).\n");
+  for (const slug of POSITIONAL_ALLOWLIST) {
+    mdLines.push(`- \`${slug}\` — protected mid-section blocks force calc-cta < 30 %.`);
+  }
   writeFileSync(join(OUT_DIR, "blog-cta-positions.md"), mdLines.join("\n") + "\n");
   console.log(`Wrote blog-cta-positions.{json,md} — ${filesWithIssues} files with issues, ${totalViolations} violations.`);
 }

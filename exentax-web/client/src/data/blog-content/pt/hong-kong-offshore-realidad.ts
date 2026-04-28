@@ -128,6 +128,8 @@ Regra prática: uma LLC operacional, com substância, declarada corretamente na 
 A questão Hong Kong offshore lê-se de forma mais útil como uma leitura estável entre o local onde a atividade é exercida, a fonte do rendimento e a residência do beneficiário, em vez de um atalho de marketing. Esta leitura mantém-se estável.
 <!-- /exentax:lote35-native-v1:hong-kong-offshore-realidad-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

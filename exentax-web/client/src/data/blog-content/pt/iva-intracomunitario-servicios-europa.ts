@@ -71,6 +71,8 @@ O quadro normativo está na <a href="https://www.boe.es/buscar/act.php?id=BOE-A-
 O IVA intracomunitário sobre serviços lê-se de forma mais útil como um mapeamento estável entre o país do prestador, o estatuto do cliente (empresa registada em IVA ou consumidor final) e o país de consumo, em vez de um debate caso a caso.
 <!-- /exentax:lote31-native-v1:iva-intracomunitario-servicios-europa-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

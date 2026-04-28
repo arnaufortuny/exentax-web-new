@@ -130,6 +130,8 @@ Die Frage des Registered Agent liest sich nützlicher als stabile strukturelle B
 Die Notiz organisiert sich pro Bundesstaat und nicht pro Anbieter, weil die Pflicht aus dem Bundesstaat folgt und nicht aus der Marken­wahl des Dienstleisters.
 <!-- /exentax:lote33-native-v1-bis:registered-agent-que-es-por-que-necesitas-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

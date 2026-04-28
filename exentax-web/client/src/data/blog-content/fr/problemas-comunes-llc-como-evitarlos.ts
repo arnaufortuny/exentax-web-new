@@ -106,6 +106,8 @@ Les erreurs les plus fréquentes que nous voyons sur les dossiers LLC se lisent 
 Une courte note datée en tête du dossier LLC, listant les obligations récurrentes et la date à laquelle chacune a été remplie pour la dernière fois, transforme la même checklist en quelque chose que le membre peut relire en quelques minutes par an, au lieu de la reconstruire de mémoire sous pression au moment d'un contrôle.
 <!-- /exentax:lote26-native-v1:problemas-comunes-llc-como-evitarlos-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -189,6 +189,8 @@ Die Frage nach den Gründungs­kosten einer LLC liest sich nützlicher als stabi
 Die Aufstellung organisiert sich pro Posten und nicht pro Pauschale, weil eine Pauschale die einzelnen Quellen verschleiert und die Position später schwer überprüfbar macht.
 <!-- /exentax:lote34-native-v1-bis:cuanto-cuesta-constituir-llc-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/leistungen">Starten Sie heute, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->

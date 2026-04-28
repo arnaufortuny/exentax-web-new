@@ -132,6 +132,8 @@ Eine kurze, datierte Notiz im LLC-Ordner mit dem LLC-Typ, dem Gesellschafter­st
 Die Notiz bezieht sich auf den LLC-Typ und auf den Gesellschafter­status — nicht auf das Formular allein, weil die Erklärungs­pflicht aus diesen beiden Achsen folgt und nicht umgekehrt, und diese Sicht erlaubt eine schnelle Selbst­überprüfung.
 <!-- /exentax:lote29-native-v1-bis:irs-1120-5472-que-son-cuando-aplican-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->

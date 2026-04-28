@@ -162,6 +162,8 @@ La comparaison LLC contre auto-entrepreneur espagnol se lit plus utilement comme
 La note s'organise par axe — résidence, création de valeur, marché client — et non par juridiction, parce que les axes restent stables tandis que le discours marketing autour d'une juridiction change avec la saison.
 <!-- /exentax:lote32-native-v1-bis:llc-alternativa-autonomo-espana-fr -->
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/reserver">Consultation gratuite sans engagement</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -120,6 +120,8 @@ Si un aspect de cette structure mérite d'être creusé, <a href="/fr/blog/resid
 
 Chaque cas est différent, mais la plupart de nos clients réduisent leur charge fiscale totale de 50 % à 70 % par rapport au fait d'opérer en tant qu'auto-entrepreneur/travailleur indépendant dans leur pays. Si vous facturez plus de 3 000 $ par mois, les chiffres commencent à devenir très intéressants.
 
+Avant d'aller plus loin, mettez des chiffres sur votre cas : la <a href="/fr#calculadora">calculatrice Exentax</a> compare, en moins de 2 minutes, votre charge fiscale actuelle avec celle d'une LLC américaine correctement déclarée dans votre pays de résidence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/fr/services">Lancez-vous aujourd'hui, 100% en ligne</a>
 <!-- /exentax:calc-cta-v1 -->

@@ -158,6 +158,8 @@ Fintech and CRS information evolves; here is the current state:
 The LLC vs Spanish self-employed comparison reads more usefully when it's treated as a stable mapping between the country of residence of the beneficial owner, the country where value is created and the country of the customers, than as a community debate. The mapping doesn't change with the season, and a short dated note in the personal folder makes the position reviewable in a few minutes.
 <!-- /exentax:lote32-native-v1:llc-alternativa-autonomo-espana-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

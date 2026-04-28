@@ -141,6 +141,8 @@ Las comparativas y datos cuantitativos de jurisdicciones citadas se basan en fue
 - **España.** Ley 27/2014 del IS, Ley 35/2006 del IRPF (arts. 8-9 sobre residencia y art. 100 sobre TFI), y régimen especial de impatriados (art. 93 LIRPF, "Ley Beckham").
 - **<a href="https://www.oecd.org" target="_blank" rel="noopener">OCDE</a>.** Pilar Dos (GloBE) y Modelo de Convenio OCDE con Comentarios.
 
+Antes de seguir, pon números a tu caso: la <a href="/es#calculadora">calculadora Exentax</a> compara, en menos de 2 minutos, tu carga fiscal actual con la que tendrías operando una LLC declarada en tu país de residencia.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/es/agendar">Consulta gratuita sin compromiso</a>
 <!-- /exentax:calc-cta-v1 -->

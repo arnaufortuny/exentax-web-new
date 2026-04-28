@@ -115,6 +115,8 @@ Apontamento concreto dos nossos casos: é assim que acontece de facto, não como
 A auditoria rápida da LLC em 12 pontos lê-se de forma mais útil como um check-up recorrente repetido a cada trimestre, em vez de um exercício pontual. Os 12 pontos não mudam de uma sessão para outra; apenas os itens que pedem atenção se movem, e uma nota curta e datada no ficheiro da LLC permite que a revisão seguinte retome exatamente onde a anterior parou.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-pt -->
 
+Antes de avançar, põe números ao teu caso: a <a href="/pt#calculadora">calculadora Exentax</a> compara, em menos de 2 minutos, a tua carga fiscal atual com a que terias com uma LLC americana corretamente declarada no teu país de residência.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>
 <!-- /exentax:calc-cta-v1 -->

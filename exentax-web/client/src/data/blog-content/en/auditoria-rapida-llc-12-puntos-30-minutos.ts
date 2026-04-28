@@ -156,6 +156,8 @@ To apply the same playbook now, run the <strong>Exentax calculator</strong> or b
 The 12-point quick LLC audit reads more usefully as a recurring health check repeated each quarter than as a one-off exercise. The 12 points don't change between sessions; only the items that need attention move, and a short dated note in the LLC folder lets the next review pick up exactly where the previous one left off.
 <!-- /exentax:lote35-native-v1:auditoria-rapida-llc-12-puntos-30-minutos-en -->
 
+Before going further, put numbers on your case: the <a href="/en#calculadora">Exentax calculator</a> compares, in under 2 minutes, your current tax bill with what you would carry running a US LLC properly declared in your country of residence.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>
 <!-- /exentax:calc-cta-v1 -->

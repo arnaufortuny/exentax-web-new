@@ -117,6 +117,8 @@ Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; akt
 Der Antrag auf Verlängerung des Form 1120 liest sich nützlicher als geplanter Schritt im jährlichen Steuer­kalender denn als improvisierte Reaktion. Die Frist­struktur ändert sich nicht von Jahr zu Jahr, und eine kurze Notiz im LLC-Ordner mit den Schlüssel­daten macht den Antrag in wenigen Minuten überprüfbar.
 <!-- /exentax:lote35-native-v1:extension-irs-form-1120-como-solicitarla-de -->
 
+Bevor Sie weiterlesen, bringen Sie Zahlen in Ihren Fall: Der <a href="/de#calculadora">Exentax-Rechner</a> vergleicht in unter 2 Minuten Ihre aktuelle Steuerlast mit der, die Sie mit einer im Wohnsitzland korrekt deklarierten US-LLC tragen würden.
+
 <!-- exentax:calc-cta-v1 -->
 > <a href="/de/buchen">Sprechen Sie mit unserem Team</a>
 <!-- /exentax:calc-cta-v1 -->
