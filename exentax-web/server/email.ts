@@ -144,6 +144,60 @@ export function maskName(name: string | null | undefined): string {
 const REPLY_TO_EMAIL = CONTACT_EMAIL;
 const FROM_NAME = "Claudia Hinojosa";
 
+/**
+ * Per-purpose `From` display-name policy. Resolved via `senderNameFor()`
+ * so every callsite picks the right identity for the email family:
+ *   - "transactional" (1:1 booking + calculator + reminder etc.) is
+ *     signed by Claudia personally so the recipient sees a human reply.
+ *   - "drip" (6-step nurture) is signed in a softer, first-name form so
+ *     it reads like a personal-coach sequence rather than a notification.
+ *   - "newsletter" (broadcast) drops the personal name so the recipient
+ *     doesn't expect a 1:1 reply on a mass-send.
+ * Reply-To stays `CONTACT_EMAIL` for all three so any reply still lands
+ * in the shared inbox.
+ */
+export const FROM_NAME_BY_FAMILY = {
+  transactional: "Claudia Hinojosa · Exentax",
+  drip: "Claudia · Exentax",
+  newsletter: "Exentax",
+} as const;
+export type EmailIdentity = keyof typeof FROM_NAME_BY_FAMILY;
+export function senderNameFor(identity: EmailIdentity): string {
+  return FROM_NAME_BY_FAMILY[identity];
+}
+
+/**
+ * Append a consistent UTM tuple to any CTA URL embedded in an email.
+ * Used by every `ctaButton(...)` callsite (booking, calculator, drip,
+ * newsletter) so downstream analytics can attribute clicks per template
+ * × language × step. Idempotent: if the URL already carries a `utm_*`
+ * key, that value is preserved (we never overwrite an explicit override
+ * the caller passed in).
+ *   - utm_source = "email" (always)
+ *   - utm_medium = "transactional" | "drip" | "newsletter"
+ *   - utm_campaign = template id (e.g. "booking_confirmation", "drip_step_3")
+ *   - utm_content = `${lang}` or `${lang}_step${n}` for stepped flows
+ * Skips `mailto:` and relative anchor URLs (they cannot carry params).
+ */
+export function withUtm(
+  url: string,
+  medium: "transactional" | "drip" | "newsletter",
+  campaign: string,
+  content: string,
+): string {
+  if (!url || url.startsWith("mailto:") || url.startsWith("#")) return url;
+  try {
+    const u = new URL(url, SITE_URL);
+    if (!u.searchParams.has("utm_source")) u.searchParams.set("utm_source", "email");
+    if (!u.searchParams.has("utm_medium")) u.searchParams.set("utm_medium", medium);
+    if (!u.searchParams.has("utm_campaign")) u.searchParams.set("utm_campaign", campaign);
+    if (!u.searchParams.has("utm_content")) u.searchParams.set("utm_content", content);
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
 interface LogEmailOpts {
   to: string;
   subject: string;
@@ -415,7 +469,7 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     ${divider()}
 
     ${data.manageUrl
-      ? `${bodyText(`${bt.ctaManage}:`)}${ctaButton(data.manageUrl, bt.ctaManage)}`
+      ? `${bodyText(`${bt.ctaManage}:`)}${ctaButton(withUtm(data.manageUrl, "transactional", "booking_confirmation", lang), bt.ctaManage)}`
       : ""}
 
     ${bodyText(`${bt.orWrite} <a href="${WHATSAPP_URL}" style="color:${C_NEON_DK};font-weight:600;text-decoration:none;">WhatsApp</a>`)}
@@ -434,7 +488,7 @@ async function sendBookingConfirmationOnce(data: BookingEmailData): Promise<void
     logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: "fallido", error: "Gmail not configured", clientName: data.clientName, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
     throw new Error("gmail_not_configured");
   }
-  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { ...headerPolicyFor("transactional"), entityRefId: agendaRef !== "—" ? `booking-confirmation-${agendaRef}` : undefined });
+  const ok = await sendEmail(data.clientEmail, clientSubj, clientHtml, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, { ...headerPolicyFor("transactional"), entityRefId: agendaRef !== "—" ? `booking-confirmation-${agendaRef}` : undefined });
   logEmail({ to: data.clientEmail, subject: clientSubj, type: "booking_confirmation", channel: "transactional", status: ok ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang, relatedId: agendaRef !== "—" ? agendaRef : undefined, relatedType: "agenda" });
   if (!ok) {
     // Circuit breaker open or transient send failed even after in-process retries.
@@ -550,7 +604,7 @@ export async function sendNewsletterEmail(opts: NewsletterEmailOpts): Promise<bo
     opts.subject,
     opts.html,
     replyToAddr,
-    "Exentax Newsletter",
+    senderNameFor("newsletter"),
     undefined,
     undefined,
     {
@@ -698,7 +752,7 @@ export function renderCalculatorEmailHtml(data: CalculatorEmailData, opts?: { un
 
     ${bodyText(ct.ctaIntro)}
 
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ct.ctaButton)}
+    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "calculator_result", lang), ct.ctaButton)}
 
     ${bodyText(ct.ctaDesc)}
 
@@ -728,7 +782,7 @@ async function sendCalculatorEmailOnce(data: CalculatorEmailData): Promise<void>
     logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: "fallido", error: "Gmail not configured", relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
     throw new Error("gmail_not_configured");
   }
-  const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, { ...headerPolicyFor("marketing-1to1"), listUnsubscribe: TRANSACTIONAL_UNSUB_MAILTO, entityRefId: leadRef !== "—" ? `calculator-${leadRef}` : undefined });
+  const sent = await sendEmail(data.email, clientSubject, clientHtml, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, { ...headerPolicyFor("marketing-1to1"), listUnsubscribe: TRANSACTIONAL_UNSUB_MAILTO, entityRefId: leadRef !== "—" ? `calculator-${leadRef}` : undefined });
   logEmail({ to: data.email, subject: clientSubject, type: "calculator_result", channel: "transactional", status: sent ? "enviado" : "fallido", clientLanguage: lang, relatedId: leadRef !== "—" ? leadRef : undefined, relatedType: "lead" });
   if (!sent) throw new Error("circuit_breaker_or_transient_failure");
   logger.info(`Calculator lead sent → ${maskEmail(data.email)}`, "email");
@@ -807,7 +861,7 @@ async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
 
     ${bodyText(rt.addCalendarDesc)}
 
-    ${ctaButton(googleCalUrl, rt.addCalendarCta)}
+    ${ctaButton(withUtm(googleCalUrl, "transactional", "reminder", lang), rt.addCalendarCta)}
 
     ${bodyText(rt.icsAttachedNote)}
 
@@ -818,7 +872,7 @@ async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
 
     ${bodyText(rt.manageDesc)}
 
-    ${ctaButton(data.manageUrl, rt.ctaManage)}`
+    ${ctaButton(withUtm(data.manageUrl, "transactional", "reminder", lang), rt.ctaManage)}`
       : ""}
 
     ${brandSignature(lang, rt.closing)}
@@ -830,7 +884,7 @@ async function sendReminderEmailOnce(data: ReminderEmailData): Promise<void> {
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, FROM_NAME, [icsAttachment], undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, reminderSubj, html, REPLY_TO_EMAIL, senderNameFor("transactional"), [icsAttachment], undefined, headerPolicyFor("transactional"));
       logger.info(`Reminder sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject: reminderSubj, type: "reminder", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -882,7 +936,7 @@ async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promis
 
     ${bodyText(rt.manageNote)}
 
-    ${ctaButton(data.manageUrl, rt.ctaManage)}
+    ${ctaButton(withUtm(data.manageUrl, "transactional", "cancellation_confirmation", lang), rt.ctaManage)}
 
     ${brandSignature(lang, rt.closing)}
     ${unsubNote(rt.unsubNote)}
@@ -893,7 +947,7 @@ async function sendRescheduleConfirmationOnce(data: RescheduleEmailData): Promis
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Reschedule confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "reschedule_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -939,7 +993,7 @@ async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<v
 
     ${bodyText(ct.rebookNote)}
 
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ct.ctaRebook)}
+    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "cancellation_confirmation", lang), ct.ctaRebook)}
 
     ${bodyText(ct.rebookDesc)}
 
@@ -956,7 +1010,7 @@ async function sendCancellationEmailOnce(data: CancellationEmailData): Promise<v
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Cancellation confirmation sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "cancellation_confirmation", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -1010,7 +1064,7 @@ async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
 
     ${bodyText(intro)}
 
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ctaLabel)}
+    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "followup", lang), ctaLabel)}
 
     ${brandSignature(lang, fu.closing)}
     ${unsubNote(fu.unsubNote)}
@@ -1019,7 +1073,7 @@ async function sendFollowupEmailOnce(data: FollowupEmailData): Promise<void> {
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Follow-up sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "followup", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -1073,9 +1127,11 @@ export interface DripEmailData {
 }
 
 function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: ReturnType<typeof getEmailTranslations>["drip"]): string {
-  if (step === 1) return ctaButton(GUIDE_PDF_URL, dripT.ctaOpenGuide);
-  if (step === 4) return ctaButton(`${SITE_URL}/${lang}#calculadora`, dripT.ctaCalculate);
-  if (step === 6) return ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, dripT.ctaBook);
+  const campaign = `drip_step_${step}`;
+  const content = `${lang}_step${step}`;
+  if (step === 1) return ctaButton(withUtm(GUIDE_PDF_URL, "drip", campaign, content), dripT.ctaOpenGuide);
+  if (step === 4) return ctaButton(withUtm(`${SITE_URL}/${lang}#calculadora`, "drip", campaign, content), dripT.ctaCalculate);
+  if (step === 6) return ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "drip", campaign, content), dripT.ctaBook);
   return ""; // steps 2, 3, 5 are text-only nurture
 }
 
@@ -1086,6 +1142,17 @@ async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
   const stepIdx = data.step - 1;
   const stepCopy = d.steps[stepIdx];
   if (!stepCopy) throw new Error(`drip: invalid step ${data.step}`);
+
+  // Lead-magnet hard fail: drip step 1 advertises the guide PDF. If the
+  // hosting URL is still the default placeholder in production we refuse
+  // to send (throwing here re-enqueues the job in the retry queue) so a
+  // broken `/guide.pdf` link never reaches a recipient. The boot-time
+  // `assertGuidePdfUrlReady()` already pages on-call so the URL is fixed
+  // same-day; until it is, the job parks in the retry queue with
+  // exponential backoff rather than burning a first impression.
+  if (data.step === 1 && process.env.NODE_ENV === "production" && GUIDE_PDF_URL === GUIDE_PDF_DEFAULT_PLACEHOLDER) {
+    throw new Error("guide_pdf_url_not_configured");
+  }
 
   // Use only the first token of the name to avoid awkward greetings
   // like "Hola Juan García López,". Trim+collapse whitespace first.
@@ -1135,7 +1202,7 @@ async function sendDripEmailOnce(data: DripEmailData): Promise<void> {
   }
 
   try {
-    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, undefined, undefined, undefined, { ...headerPolicyFor("marketing-bulk"), listUnsubscribe: dripUnsub, entityRefId: data.unsubToken ? `drip-${data.unsubToken}-step${data.step}` : undefined });
+    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL, senderNameFor("drip"), undefined, undefined, { ...headerPolicyFor("marketing-bulk"), listUnsubscribe: dripUnsub, entityRefId: data.unsubToken ? `drip-${data.unsubToken}-step${data.step}` : undefined });
     if (!ok) {
       logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "sendEmail returned false" });
       throw new Error("circuit_breaker_or_transient_failure");
@@ -1198,7 +1265,7 @@ async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData):
 
     ${bodyText(ib.intro3)}
 
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ib.ctaLabel)}
+    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "incomplete_booking", lang), ib.ctaLabel)}
 
     ${bodyText(ib.replyNote)}
 
@@ -1209,7 +1276,7 @@ async function sendIncompleteBookingEmailOnce(data: IncompleteBookingEmailData):
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`Incomplete-booking sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "incomplete_booking", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName || undefined, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");
@@ -1250,7 +1317,7 @@ async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<voi
 
     ${bodyText(ns.rebookIntro)}
 
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, ns.ctaRebook)}
+    ${ctaButton(withUtm(`${SITE_URL}${getLocalizedPath("book", lang)}`, "transactional", "noshow_reschedule", lang), ns.ctaRebook)}
 
     ${bodyText(ns.sessionDesc)}
 
@@ -1267,7 +1334,7 @@ async function sendNoShowRescheduleEmailOnce(data: NoShowEmailData): Promise<voi
 
   if (gmail) {
     try {
-      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, FROM_NAME, undefined, undefined, headerPolicyFor("transactional"));
+      const sent = await sendEmail(data.clientEmail, subject, html, REPLY_TO_EMAIL, senderNameFor("transactional"), undefined, undefined, headerPolicyFor("transactional"));
       logger.info(`No-show reschedule sent → ${maskEmail(data.clientEmail)}`, "email");
       logEmail({ to: data.clientEmail, subject, type: "noshow_reschedule", channel: "transactional", status: sent ? "enviado" : "fallido", clientName: data.clientName, clientLanguage: lang });
       if (!sent) throw new Error("circuit_breaker_or_transient_failure");

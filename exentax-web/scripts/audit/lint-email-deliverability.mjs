@@ -44,10 +44,41 @@ const newsletterSrc = readFileSync(
 // Either as bare `headerPolicyFor("...")` or spread inside the rawOpts
 // object literal. We tolerate the calculator/drip variants which spread
 // the policy alongside a `listUnsubscribe` override.
-const sendEmailCalls = [...emailSrc.matchAll(/await sendEmail\([^)]+?\)/gs)];
+/**
+ * Find every `await sendEmail(...)` invocation, balancing parens so we
+ * capture the entire argument list including nested object/spread
+ * literals like `{ ...headerPolicyFor("..."), entityRefId: ... }`.
+ */
+function findBalancedCalls(src, fnName) {
+  const out = [];
+  const needle = `await ${fnName}(`;
+  let i = 0;
+  while ((i = src.indexOf(needle, i)) !== -1) {
+    let depth = 1;
+    let j = i + needle.length;
+    while (j < src.length && depth > 0) {
+      const ch = src[j];
+      if (ch === "(") depth++;
+      else if (ch === ")") depth--;
+      else if (ch === '"' || ch === "'" || ch === "`") {
+        // Skip over string literal content
+        const quote = ch; j++;
+        while (j < src.length && src[j] !== quote) {
+          if (src[j] === "\\") j++;
+          j++;
+        }
+      }
+      j++;
+    }
+    out.push({ index: i, end: j, text: src.slice(i, j) });
+    i = j;
+  }
+  return out;
+}
+const sendEmailCalls = findBalancedCalls(emailSrc, "sendEmail");
 if (sendEmailCalls.length === 0) fail("Rule 1: no sendEmail() calls found — parser broken?");
 for (const m of sendEmailCalls) {
-  const callText = m[0];
+  const callText = m.text;
   if (!/headerPolicyFor\(/.test(callText)) {
     const lineNo = emailSrc.slice(0, m.index).split("\n").length;
     fail(`Rule 1: sendEmail() at line ${lineNo} is missing headerPolicyFor(...) — every sender must pick a deliverability policy.`);
@@ -145,7 +176,15 @@ if (!/export function unsubFooterWithLink\b/.test(layoutSrc)) {
 }
 
 // ─── Rule 6: UNSUB_LINK_I18N covers all 6 supported langs ─────────────
-const i18nSrc = readFileSync(join(REPO_ROOT, "server", "email-i18n.ts"), "utf8");
+const i18nBarrelSrc = readFileSync(join(REPO_ROOT, "server", "email-i18n.ts"), "utf8");
+// After the modularization (T001 of #13) the per-language data lives
+// under `server/email-i18n/{lang}.ts`. Subject literals are scanned
+// across all six bundles below.
+const i18nLangSources = ["es", "en", "fr", "de", "pt", "ca"].map(lang => ({
+  lang,
+  src: readFileSync(join(REPO_ROOT, "server", "email-i18n", `${lang}.ts`), "utf8"),
+}));
+const i18nSrc = i18nBarrelSrc + "\n" + i18nLangSources.map(s => s.src).join("\n");
 const unsubBlock = /UNSUB_LINK_I18N[\s\S]*?\}\s*;/.exec(i18nSrc);
 if (!unsubBlock) {
   fail("Rule 6: UNSUB_LINK_I18N not found in email-i18n.ts.");
@@ -157,9 +196,113 @@ if (!unsubBlock) {
   }
 }
 
+// ─── Rule 7: every CTA URL is wrapped in withUtm() ────────────────────
+//
+// Mechanical sweep across email.ts: every `ctaButton(<url>, …)` call
+// must wrap its first argument in `withUtm(...)` so analytics can
+// attribute clicks per template × language. The only exception is
+// purely-internal stub URLs (mailto:, anchors) — none of which currently
+// reach a ctaButton callsite. Catches accidental copy-paste of new CTAs
+// that bypass the helper.
+const ctaCalls = [];
+{
+  // Strip JSDoc / line comments first so references in documentation do
+  // not register as live CTAs.
+  const stripped = emailSrc
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .split("\n").map(l => l.replace(/\/\/.*$/, "")).join("\n");
+  for (const m of stripped.matchAll(/ctaButton\(([^,]+),/g)) {
+    const arg = m[1].trim();
+    if (!arg.startsWith("withUtm(")) {
+      const lineNo = stripped.slice(0, m.index).split("\n").length;
+      fail(`Rule 7: ctaButton() at line ${lineNo} is not wrapped in withUtm(...) — every CTA must carry UTM tagging.`);
+    }
+    ctaCalls.push(m);
+  }
+}
+
+// ─── Rule 8: per-purpose From identity (FROM_NAME_BY_FAMILY) ──────────
+//
+// Every sendEmail() callsite must pass either senderNameFor("transactional"),
+// senderNameFor("drip"), or senderNameFor("newsletter") (or omit the
+// fromName arg only when the helper doesn't need a personal identity —
+// currently no such case). Catches a regression where someone hardcodes
+// "Claudia Hinojosa" or "Exentax Newsletter" again.
+if (!/export const FROM_NAME_BY_FAMILY\b/.test(emailSrc)) {
+  fail("Rule 8: FROM_NAME_BY_FAMILY identity table missing in email.ts.");
+}
+for (const m of sendEmailCalls) {
+  const callText = m.text;
+  // Skip the helper signature itself
+  if (/function\s+sendEmail\s*\(/.test(callText)) continue;
+  const hasIdentity = /senderNameFor\(/.test(callText);
+  if (!hasIdentity) {
+    const lineNo = emailSrc.slice(0, m.index).split("\n").length;
+    fail(`Rule 8: sendEmail() at line ${lineNo} is missing senderNameFor("transactional"|"drip"|"newsletter") — From-identity must come from the policy table.`);
+  }
+}
+// Catch hardcoded literals
+const literalIdentity = /sendEmail\([^)]*?,\s*"(Claudia Hinojosa|Exentax Newsletter|Exentax)"/g;
+let lm;
+while ((lm = literalIdentity.exec(emailSrc))) {
+  const lineNo = emailSrc.slice(0, lm.index).split("\n").length;
+  fail(`Rule 8: sendEmail() at line ${lineNo} hardcodes the From name "${lm[1]}" — use senderNameFor(...) instead.`);
+}
+
+// ─── Rule 9: lead-magnet hard-fail in production ──────────────────────
+//
+// `sendDripEmailOnce` must refuse to send step 1 when GUIDE_PDF_URL is
+// still the placeholder in production. This is the functional guarantee
+// (not just a boot warning) that no recipient ever receives a broken
+// `/guide.pdf` link.
+const dripBodyForGuide = sliceFunctionBody(emailSrc, "sendDripEmailOnce");
+if (dripBodyForGuide && !/GUIDE_PDF_DEFAULT_PLACEHOLDER/.test(dripBodyForGuide)) {
+  fail("Rule 9: sendDripEmailOnce must refuse step 1 in production when GUIDE_PDF_URL is the default placeholder (functional lead-magnet guarantee).");
+}
+
+// ─── Rule 10: spam-score / structural template lint ───────────────────
+//
+// Lightweight static heuristics applied to every visible subject /
+// heading literal in email-i18n.ts. Catches the classes of regressions
+// that hurt deliverability and inbox placement:
+//   (a) subject longer than 78 chars (gets truncated in Gmail web,
+//       penalised as spam-bait by some filters);
+//   (b) ALL-CAPS subject (top spam classifier signal);
+//   (c) excess of `!` or `$` in subject;
+//   (d) subject starting with "Re:" or "Fwd:" outside an actual reply
+//       context (deceptive-subject heuristic).
+const subjectLiterals = [...i18nSrc.matchAll(/subject\s*:\s*"([^"\n]+)"/g)];
+let subjectChecks = 0;
+for (const m of subjectLiterals) {
+  subjectChecks++;
+  const subj = m[1];
+  const lineNo = i18nSrc.slice(0, m.index).split("\n").length;
+  // Strip placeholders like {name} for length / caps measurement
+  const visible = subj.replace(/\{[^}]+\}/g, "x");
+  if (visible.length > 78) {
+    fail(`Rule 10a: i18n subject at line ${lineNo} is ${visible.length} chars (>78) — will be truncated in Gmail web. Subject: "${subj}"`);
+  }
+  const letters = visible.replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñÀ-ÿ]/g, "");
+  if (letters.length >= 8) {
+    const upper = letters.replace(/[^A-ZÁÉÍÓÚÜÑÀ-Þ]/g, "");
+    if (upper.length / letters.length > 0.6) {
+      fail(`Rule 10b: i18n subject at line ${lineNo} is mostly UPPERCASE (${Math.round(100*upper.length/letters.length)}%) — strong spam signal. Subject: "${subj}"`);
+    }
+  }
+  if ((subj.match(/!/g) || []).length > 1) {
+    fail(`Rule 10c: i18n subject at line ${lineNo} has multiple "!" — spam-bait. Subject: "${subj}"`);
+  }
+  if (/^\s*(Re:|Fwd:|RE:|FWD:)/.test(subj)) {
+    fail(`Rule 10d: i18n subject at line ${lineNo} starts with "Re:"/"Fwd:" — deceptive-subject signal. Subject: "${subj}"`);
+  }
+}
+if (subjectChecks === 0) {
+  fail("Rule 10: no subject literals found in email-i18n.ts — parser broken or schema drift?");
+}
+
 // ─── Report ───────────────────────────────────────────────────────────
 if (failures.length === 0) {
-  console.log(`✅ lint-email-deliverability: OK (${sendEmailCalls.length} sendEmail callsites checked, ${bookingSenders.length} booking senders verified)`);
+  console.log(`✅ lint-email-deliverability: OK (${sendEmailCalls.length} sendEmail callsites · ${bookingSenders.length} booking senders · ${ctaCalls.length} CTAs UTM-tagged · ${subjectChecks} subjects spam-checked)`);
   process.exit(0);
 }
 console.error("❌ lint-email-deliverability: failures:");
