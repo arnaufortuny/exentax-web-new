@@ -227,7 +227,7 @@ export default function Navbar({ hideBooking = false }: { hideBooking?: boolean 
             <img src="/logo-tight.png" alt={BRAND.NAME} width={600} height={110} fetchPriority="high" decoding="async" className="navbar-logo w-[120px] lg:w-[132px] xl:w-[130px] 2xl:w-[164px] h-auto object-contain block" data-testid="img-logo-navbar" />
           </Link>
 
-          <nav className="hidden xl:flex items-center justify-center gap-0 xl:gap-0.5 2xl:gap-2 flex-1 min-w-0 overflow-hidden" aria-label={t("common.mainNavigation")} data-testid="nav-desktop">
+          <nav className="hidden xl:flex items-center justify-center gap-0 xl:gap-0.5 2xl:gap-2 flex-1 min-w-0" aria-label={t("common.mainNavigation")} data-testid="nav-desktop">
             {navLinks.map((link, idx) => {
               const isActive = link.routeKey ? currentRouteKey === link.routeKey : isBlogActive;
               const linkEl = (
