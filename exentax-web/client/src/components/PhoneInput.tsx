@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useLayoutEffect } from "react";
+import { createPortal } from "react-dom";
 import { useTranslation } from "react-i18next";
 
 const COUNTRY_PREFIXES = [
@@ -112,9 +113,14 @@ export default function PhoneInput({
   const [number, setNumber] = useState(initial.number);
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [menuPos, setMenuPos] = useState<{ top: number; left: number; width: number } | null>(null);
   const ref = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
   const lastEmitted = useRef(value);
+  const userTouchedPrefix = useRef(false);
+  const ipDetectAttempted = useRef(false);
 
   useEffect(() => {
     if (value === lastEmitted.current) return;
@@ -128,9 +134,38 @@ export default function PhoneInput({
     setNumber(parsed.number);
   }, [value]);
 
+  // IP-based country prefix detection — runs once per mount.
+  // Skipped when the user has already typed a phone or manually picked a prefix.
+  useEffect(() => {
+    if (ipDetectAttempted.current) return;
+    ipDetectAttempted.current = true;
+    if (value && value.trim() !== "") return;
+    if (userTouchedPrefix.current) return;
+    let cancelled = false;
+    fetch("/api/geo", { credentials: "same-origin" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: { country?: string } | null) => {
+        if (cancelled || !data) return;
+        if (userTouchedPrefix.current) return;
+        if (lastEmitted.current && lastEmitted.current.trim() !== "") return;
+        const raw = (data.country || "").toUpperCase();
+        const iso = raw === "UK" ? "GB" : raw;
+        if (!iso) return;
+        const match = COUNTRY_PREFIXES.find((c) => c.code === iso);
+        if (match) setSelectedCode(match.code);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   useEffect(() => {
     function handleClick(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) {
+      const target = e.target as Node;
+      const inTrigger = ref.current?.contains(target);
+      const inMenu = menuRef.current?.contains(target);
+      if (!inTrigger && !inMenu) {
         setOpen(false);
         setSearch("");
       }
@@ -145,6 +180,38 @@ export default function PhoneInput({
     }
   }, [open]);
 
+  // Position the portaled dropdown beneath the trigger; flip above
+  // when there isn't enough room below.
+  useLayoutEffect(() => {
+    if (!open) {
+      setMenuPos(null);
+      return;
+    }
+    function recompute() {
+      const btn = triggerRef.current;
+      if (!btn) return;
+      const rect = btn.getBoundingClientRect();
+      const menuH = 260;
+      const margin = 8;
+      const spaceBelow = window.innerHeight - rect.bottom;
+      const top =
+        spaceBelow >= menuH + margin
+          ? rect.bottom + 4
+          : Math.max(margin, rect.top - menuH - 4);
+      const width = 260;
+      const maxLeft = window.innerWidth - width - margin;
+      const left = Math.max(margin, Math.min(rect.left, maxLeft));
+      setMenuPos({ top, left, width });
+    }
+    recompute();
+    window.addEventListener("scroll", recompute, true);
+    window.addEventListener("resize", recompute);
+    return () => {
+      window.removeEventListener("scroll", recompute, true);
+      window.removeEventListener("resize", recompute);
+    };
+  }, [open]);
+
   const selected = COUNTRY_PREFIXES.find(c => c.code === selectedCode) || COUNTRY_PREFIXES[0];
 
   function handleNumberChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -156,6 +223,7 @@ export default function PhoneInput({
   }
 
   function handleSelect(code: string) {
+    userTouchedPrefix.current = true;
     setSelectedCode(code);
     const cp = COUNTRY_PREFIXES.find(c => c.code === code)!;
     const combined = `${cp.prefix} ${number}`.trim();
@@ -181,6 +249,7 @@ export default function PhoneInput({
       <div className={`flex rounded-full overflow-hidden border transition-colors ${error ? "border-[var(--error)]" : "border-[var(--border)] focus-within:border-[var(--green)] focus-within:[outline:2px_solid_var(--green)] focus-within:[outline-offset:2px]"} bg-[var(--bg-1)]`}>
         <button
           type="button"
+          ref={triggerRef}
           onClick={() => setOpen(!open)}
           data-testid={`${testId}-prefix`}
           aria-label={`Select country code (current: ${selected.label} ${selected.prefix})`}
@@ -213,8 +282,18 @@ export default function PhoneInput({
           className={`flex-1 min-w-0 px-3 bg-transparent outline-none focus:outline-none focus-visible:outline-none text-[var(--text-1)] placeholder:text-[var(--text-3)] ${sizeClasses} ${padY}`}
         />
       </div>
-      {open && (
-        <div className="absolute top-[calc(100%+4px)] left-0 z-50 bg-[var(--bg-0)] rounded-xl border border-[var(--border)] shadow-lg w-[260px] max-h-[260px] overflow-hidden flex flex-col" style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+      {open && menuPos && typeof document !== "undefined" && createPortal(
+        <div
+          ref={menuRef}
+          role="listbox"
+          className="fixed z-[2000] bg-[var(--bg-0)] rounded-xl border border-[var(--border)] shadow-lg max-h-[260px] overflow-hidden flex flex-col"
+          style={{
+            top: menuPos.top,
+            left: menuPos.left,
+            width: menuPos.width,
+            boxShadow: "0 8px 32px rgba(0,0,0,0.18)",
+          }}
+        >
           <div className="p-2 border-b border-[var(--border)]">
             <input
               ref={searchRef}
@@ -223,7 +302,7 @@ export default function PhoneInput({
               onChange={e => setSearch(e.target.value)}
               placeholder={t("common.search")}
               data-testid={`${testId}-search`}
-              className="w-full py-1.5 px-3 rounded-full border border-[var(--border)] text-xs outline-none focus:border-[var(--green)] text-[var(--text-1)]"
+              className="w-full py-1.5 px-3 rounded-full border border-[var(--border)] text-xs outline-none focus:border-[var(--green)] text-[var(--text-1)] bg-[var(--bg-1)]"
             />
           </div>
           <div className="overflow-y-auto max-h-[210px]">
@@ -243,7 +322,8 @@ export default function PhoneInput({
               </button>
             ))}
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </div>
   );
