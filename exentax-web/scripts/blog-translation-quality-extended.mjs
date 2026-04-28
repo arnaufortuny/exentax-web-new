@@ -341,3 +341,28 @@ console.log(`  - MT tells: ${summary.mtTells} articles`);
 console.log(`  - low ratio: ${summary.lowRatioArticles} articles`);
 console.log(`  - untranslated paragraphs: ${summary.untranslatedParagraphs} articles`);
 console.log(`Output: docs/auditoria-multiidioma/blog-translation-quality-ext.{json,md}`);
+
+// ── Strict gate (CI) ────────────────────────────────────────────────────────
+// In --strict mode, exit non-zero if any heuristic finding is reported. The
+// default mode remains REPORT-ONLY, but CI invokes this script with --strict
+// so that future regressions (a register slip in FR/DE, a paragraph left
+// untranslated, ES tokens leaking into EN/FR/DE/PT) fail the build.
+const strict = process.argv.includes("--strict");
+if (strict) {
+  const total =
+    summary.languageLeakage +
+    summary.deRegisterIssues +
+    summary.frRegisterIssues +
+    summary.mtTells +
+    summary.lowRatioArticles +
+    summary.untranslatedParagraphs;
+  console.log();
+  console.log("═══ Strict gate ═══");
+  console.log(`  Total findings: ${total}`);
+  if (total > 0) {
+    console.error("✗ blog-translation-quality-extended FAILED in --strict mode.");
+    console.error("  See docs/auditoria-multiidioma/blog-translation-quality-ext.md for details.");
+    process.exit(1);
+  }
+  console.log("✓ blog-translation-quality-extended PASS (strict).");
+}

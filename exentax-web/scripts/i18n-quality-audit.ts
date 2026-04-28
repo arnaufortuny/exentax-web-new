@@ -252,3 +252,35 @@ for (const [lang, keys] of Object.entries(refinedSameAsEs)) {
 }
 console.log();
 console.log(`Artifacts written to ${outDir}`);
+
+// ── Strict gate (CI) ─────────────────────────────────────────────────
+// In --strict mode, exit non-zero if there is ANY violation across the
+// gate-able findings: HTML tag balance, Spanish leakage into other
+// locales, register conflicts in a single key, or refined same-as-ES
+// strings (text that was never translated).
+const strict = process.argv.includes("--strict");
+if (strict) {
+  const htmlIssueCount = Object.keys(htmlIssues).length;
+  const leakCount = Object.values(leaks).reduce((acc, items) => acc + items.length, 0);
+  const conflictCount = Object.values(registerStats).reduce(
+    (acc, s) => acc + s.conflicts.length,
+    0
+  );
+  const sameAsEsCount = Object.values(refinedSameAsEs).reduce(
+    (acc, keys) => acc + keys.length,
+    0
+  );
+  const total = htmlIssueCount + leakCount + conflictCount + sameAsEsCount;
+  console.log();
+  console.log("═══ Strict gate ═══");
+  console.log(`  HTML issues:        ${htmlIssueCount}`);
+  console.log(`  Spanish leaks:      ${leakCount}`);
+  console.log(`  Register conflicts: ${conflictCount}`);
+  console.log(`  Same-as-ES strings: ${sameAsEsCount}`);
+  console.log(`  Total violations:   ${total}`);
+  if (total > 0) {
+    console.error("✗ i18n quality audit FAILED in --strict mode.");
+    process.exit(1);
+  }
+  console.log("✓ i18n quality audit PASS (strict).");
+}

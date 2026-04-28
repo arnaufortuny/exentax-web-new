@@ -1,0 +1,40 @@
+name: i18n extended lint
+
+# Runs the extended translation-quality lint chain on every PR and push
+# to main. Fails the build if a glossary regression (e.g. "Fincen"
+# misspelling), a Spanish leak into another locale, a register slip
+# (informal du/tu in DE/FR), or an untranslated paragraph appears.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  i18n-extended:
+    name: Extended translation-quality lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    defaults:
+      run:
+        working-directory: exentax-web
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: exentax-web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run extended i18n lint chain
+        run: npm run lint:i18n-extended

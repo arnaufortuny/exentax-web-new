@@ -1,6 +1,6 @@
 # Blog translation-quality EXTENDED audit (Bloque 7)
 
-Generated: 2026-04-28T14:19:42.405Z
+Generated: 2026-04-28T14:37:17.828Z
 
 > REPORT-ONLY. Heuristic findings — verify each before editing.
 
