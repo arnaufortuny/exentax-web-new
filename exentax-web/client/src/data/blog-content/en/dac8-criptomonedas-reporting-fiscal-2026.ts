@@ -1,4 +1,4 @@
-export default `**DAC8** is the piece that completes Europe's tax-information system in the crypto world. From today, all crypto-asset service providers in the EU are required to report to European tax authorities the information of their clients and operations, in line with the CRS model applied to traditional banking. If you hold crypto and reside in the EU, or you have a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> operating with crypto on European exchanges, this affects you directly.
+export default `**DAC8** is the piece that completes Europe's tax-information system in the crypto world. From today, all crypto-asset service providers in the EU are required to report to European tax authorities the information of their clients and operations, in line with the CRS model applied to traditional banking. If you hold crypto and reside in the EU, or you have a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> operating with crypto on European exchanges, this affects you directly.
 
 ## What DAC8 is
 

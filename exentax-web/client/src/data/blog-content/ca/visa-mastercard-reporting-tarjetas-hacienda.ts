@@ -70,7 +70,7 @@ Sovint oblidem l'adquirent. Quan un comerç espanyol cobra amb targeta, el seu a
 Per a un emprenedor amb LLC que cobra de clients finals via Stripe US o un Merchant of Record com DoDo Payments, el flux és diferent: l'adquirent està fora d'Espanya, no presenta Modelo 170, i els ingressos arriben a Mercury o Wise. La traçabilitat per a Hisenda passa llavors pel saldo i els rendiments via CRS, no per l'adquirent.
 ## Què pot veure realment Hisenda del teu consum amb targeta
 
-Per a un resident fiscal espanyol que combina banca local amb fintech estrangera i, eventualment, una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a>:
+Per a un resident fiscal espanyol que combina banca local amb fintech estrangera i, eventualment, una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a>:
 
 El que l'AEAT pot consultar de manera recurrent:
 

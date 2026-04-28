@@ -61,7 +61,7 @@ A good structure follows five principles:
 5. **Future-proof margin**: resilient to foreseeable regulatory changes (BEPS, CRS, beneficial owner registers).
 ### The option we recommend in most cases
 
-For freelancers, consultants, digital agencies, SaaS, ecommerce and creators residing in Spain, LatAm or Europe with international income, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> solves the average case better than any traditional offshore alternative:
+For freelancers, consultants, digital agencies, SaaS, ecommerce and creators residing in Spain, LatAm or Europe with international income, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> solves the average case better than any traditional offshore alternative:
 
 - 0% federal tax through <a href="/en/blog/pass-through-taxation-for-llcs-how-it-works-and-why-it">pass-through</a>.
 - Annual cost of USD 500-800.

@@ -150,7 +150,7 @@ Na Exentax planeamos mudanças de residência a meio do ano com LLC activa: cale
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais
 
-- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
+- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
 <!-- /exentax:cross-refs-v1 -->
 ### Lembrete prático
 

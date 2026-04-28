@@ -138,7 +138,7 @@ Na Exentax montamos o stack completo de LLC para developers/SaaS em 4-6 semanas 
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais
 
-- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
+- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
 <!-- /exentax:cross-refs-v1 -->
 ## Como trabalhamos na Exentax
 

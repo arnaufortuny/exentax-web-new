@@ -143,7 +143,7 @@ A well-designed holding is a powerful tool for centralization, tax efficiency an
 > <a href="/en/services">Start today, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
-For non-resident entrepreneurs with a single international operating business, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> usually covers the case without needing a holding. When the business grows and several activities appear, we can analyze together whether a holding (US, Spanish or international) makes sense. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
+For non-resident entrepreneurs with a single international operating business, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> usually covers the case without needing a holding. When the business grows and several activities appear, we can analyze together whether a holding (US, Spanish or international) makes sense. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ### Next steps
 
 Now that you have the full context, the natural next step is to map it against your own situation: what fits, what doesn't, and where the nuances depend on your residency, your activity and your volume. A quick review of your specific case usually saves a lot of noise before taking any structural decision.

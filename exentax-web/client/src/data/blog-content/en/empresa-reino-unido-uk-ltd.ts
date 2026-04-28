@@ -167,7 +167,7 @@ If you live in the UK, sell mainly to UK clients, need specific British reputati
 
 The UK Ltd is a serious and consolidated option, especially if your business touches the British market or if you live in the UK. Its taxation has gone up and it is no longer the "cheap" jurisdiction it was until 2022, but it is still one of the most reputable structures in the world.
 
-For profiles seeking corporate tax optimization without needing British presence, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> offers a better combination of cost, effective taxation and operations. If your case fits the UK, the option is valid and bearable; if it fits the LLC, the option is more efficient.
+For profiles seeking corporate tax optimization without needing British presence, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> offers a better combination of cost, effective taxation and operations. If your case fits the UK, the option is valid and bearable; if it fits the LLC, the option is more efficient.
 
 At Exentax we can help you compare the two options with real numbers for your activity and country of residence. At Exentax we review your case with real data: <a href="/en/book">book a free consultation</a> for 30 minutes.
 ## Legal and regulatory references

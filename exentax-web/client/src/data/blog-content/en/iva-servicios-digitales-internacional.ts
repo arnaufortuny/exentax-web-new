@@ -169,7 +169,7 @@ Selling digital services (SaaS, infoproducts, subscriptions, downloads) to clien
 At Exentax we review your exact mix (B2B/B2C, EU/non-EU, sales platform) and set up OSS, VIES and the right invoice wording - so that on audit day the flow ties on its own.
 <!-- /exentax:execution-v2 -->
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

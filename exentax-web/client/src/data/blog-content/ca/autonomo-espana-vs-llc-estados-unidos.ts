@@ -203,7 +203,7 @@ Les comparatives i dades quantitatives sobre les jurisdiccions citades es basen 
 
 L'elecció de jurisdicció depèn sempre de la residència fiscal real del titular i de la substància econòmica de l'activitat; revisa el teu cas específic abans de qualsevol decisió estructural.
 
-_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

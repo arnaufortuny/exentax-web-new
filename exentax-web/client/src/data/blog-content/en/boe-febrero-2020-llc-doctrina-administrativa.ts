@@ -1,4 +1,4 @@
-export default `If you are a Spanish tax resident and you have a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a>, the key question isn't what the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> says but what **Spanish administrative doctrine** says about your LLC. Here lies a body of binding rulings from the Directorate-General of Taxes (<a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>) and resolutions of the Central Economic-Administrative Court (<a href="https://serviciostelematicosext.hacienda.gob.es/TEAC/DYCTEA" target="_blank" rel="noopener">TEAC</a>) that is absolutely decisive. Let's analyze it precisely.
+export default `If you are a Spanish tax resident and you have a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a>, the key question isn't what the <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> says but what **Spanish administrative doctrine** says about your LLC. Here lies a body of binding rulings from the Directorate-General of Taxes (<a href="https://petete.tributos.hacienda.gob.es" target="_blank" rel="noopener">DGT</a>) and resolutions of the Central Economic-Administrative Court (<a href="https://serviciostelematicosext.hacienda.gob.es/TEAC/DYCTEA" target="_blank" rel="noopener">TEAC</a>) that is absolutely decisive. Let's analyze it precisely.
 
 ## The underlying tax problem
 
@@ -143,7 +143,7 @@ Spanish LLC doctrine cannot be understood by reading a single binding consultati
 At Exentax we fit your LLC into the Spanish doctrine so the filing is documentarily defensible and consistent with your real activity.
 <!-- /exentax:execution-v2 -->
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

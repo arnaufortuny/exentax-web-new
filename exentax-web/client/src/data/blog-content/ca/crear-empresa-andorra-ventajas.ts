@@ -136,7 +136,7 @@ Es regeix pel conveni de doble imposició Espanya-Andorra signat el 2015. Les pe
 
 Andorra és una opció seriosa, no un truc. Per a emprenedors i professionals amb cert nivell d'ingressos, disposats a viure-hi i complir les exigències de residència, ofereix una fiscalitat personal molt competitiva (5-10 % IRPF, dividends exempts, sense patrimoni ni successions), entorn segur i proximitat europea.
 
-Per a perfils que no volen mudar-se, una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> resol l'optimització corporativa sense necessitat de canviar de país. Per a qui sí està disposat a fer el pas, la combinació residència andorrana + LLC americana és una de les estructures més eficients que veiem.
+Per a perfils que no volen mudar-se, una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a> resol l'optimització corporativa sense necessitat de canviar de país. Per a qui sí està disposat a fer el pas, la combinació residència andorrana + LLC americana és una de les estructures més eficients que veiem.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/ca/agendar">Consulta gratuïta sense compromís</a>
@@ -186,7 +186,7 @@ Les comparatives i dades quantitatives sobre les jurisdiccions citades es basen 
 
 L'elecció de jurisdicció depèn sempre de la residència fiscal real del titular i de la substància econòmica de l'activitat; revisa el teu cas específic abans de qualsevol decisió estructural.
 
-_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

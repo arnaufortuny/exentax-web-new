@@ -136,7 +136,7 @@ Regida pelo convénio de dupla tributação aplicável. As pensões públicas tr
 
 Andorra é uma opção séria, não um truque. Para empreendedores e profissionais com certo nível de rendimentos, dispostos a viver lá e cumprir as exigências de residência, oferece uma fiscalidade pessoal muito competitiva (5-10 % IRS, dividendos isentos, sem património nem sucessões), ambiente seguro e proximidade europeia.
 
-Para perfis que não querem mudar-se, uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> resolve a otimização corporativa sem necessidade de mudar de país. Para quem sim está disposto a dar o passo, a combinação residência andorrana + LLC americana é uma das estruturas mais eficientes que vemos.
+Para perfis que não querem mudar-se, uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> resolve a otimização corporativa sem necessidade de mudar de país. Para quem sim está disposto a dar o passo, a combinação residência andorrana + LLC americana é uma das estruturas mais eficientes que vemos.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/pt/agendar">Consulta gratuita sem compromisso</a>

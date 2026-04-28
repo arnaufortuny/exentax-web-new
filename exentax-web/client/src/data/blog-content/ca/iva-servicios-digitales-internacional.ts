@@ -122,7 +122,7 @@ Vendre serveis digitals (SaaS, infoproductes, subscripcions, descàrregues) a cl
 A Exentax revisem el teu mix exacte (B2B/B2C, dins/fora UE, plataforma de venda) i et configurem OSS, VIES i mencionem les factures correctament - perquè el dia de la inspecció el flux quadri sol.
 <!-- /exentax:execution-v2 -->
 
-_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

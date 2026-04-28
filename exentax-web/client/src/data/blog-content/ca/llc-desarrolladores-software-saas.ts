@@ -135,7 +135,7 @@ Si construeixes programari, vens SaaS o desenvolupes per a clients internacional
 A Exentax muntem el stack complet de LLC per a desenvolupadors/SaaS (LLC + EIN + Mercury + Stripe + Wise + AWS/Vercel billing migration + comptabilitat mensual) en 4-6 setmanes, llest per facturar al primer client enterprise.
 <!-- /exentax:execution-v2 -->
 
-_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

@@ -141,7 +141,7 @@ Una holding ben dissenyada és una eina poderosa de centralització, eficiència
 > <a href="/ca/serveis">Comença avui, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Per a emprenedors no residents amb un únic negoci operatiu internacional, una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> sol cobrir el cas sense necessitat de holding. Quan el negoci creix i apareixen diverses activitats, podem analitzar amb tu si una holding (americana, espanyola o internacional) té sentit. A Exentax revisem el teu cas amb dades reals: <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts.
+Per a emprenedors no residents amb un únic negoci operatiu internacional, una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a> sol cobrir el cas sense necessitat de holding. Quan el negoci creix i apareixen diverses activitats, podem analitzar amb tu si una holding (americana, espanyola o internacional) té sentit. A Exentax revisem el teu cas amb dades reals: <a href="/ca/agendar">agenda una consulta gratuïta</a> de 30 minuts.
 ## Compliance fiscal al teu país: CFC, TFI i atribució de rendes
 
 Una LLC americana és una eina legal i reconeguda internacionalment. Però el compliment no acaba en constituir-la: com a propietari resident fiscal en un altre país, l'administració tributària local manté el dret a gravar el que la LLC genera. L'important és saber **sota quin règim**.
@@ -185,7 +185,7 @@ Les comparatives i dades quantitatives sobre les jurisdiccions citades es basen 
 
 L'elecció de jurisdicció depèn sempre de la residència fiscal real del titular i de la substància econòmica de l'activitat; revisa el teu cas específic abans de qualsevol decisió estructural.
 
-_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el)._
+_Per ampliar en la mateixa sèrie: [LLC als Estats Units: guia completa per a no residents](/ca/blog/llc-estats-units-guia-completa-no-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

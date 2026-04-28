@@ -4,7 +4,7 @@ export default `A well-designed international structure is an extraordinary tool
 
 **Simulation** is regulated in art. 16 of the Spanish General Tax Law and has equivalents in all LATAM jurisdictions (Mexico: art. 5-A CFF, Colombia: art. 869 ET, Argentina: art. 2 Law 11.683).
 
-Simulation occurs when acts or transactions are apparent and do not respond to operational reality. Applied to international structures: if you interpose a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> between yourself and your clients but you continue providing the activity materially from Spain (same team, same office, same decisions), the AEAT can declare simulation and attribute income directly to you as an individual.
+Simulation occurs when acts or transactions are apparent and do not respond to operational reality. Applied to international structures: if you interpose a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> between yourself and your clients but you continue providing the activity materially from Spain (same team, same office, same decisions), the AEAT can declare simulation and attribute income directly to you as an individual.
 
 **Consequence**: regularization for all non-prescribed years (4 years in Spain, 5 in Mexico, 5 in Colombia) + late-payment interest + penalty 50-150% (art. 191-195 LGT) + possible tax crime if the defrauded amount per year exceeds €120,000 (art. 305 CP).
 
@@ -126,7 +126,7 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 
 Choosing a jurisdiction always depends on the holder's actual tax residency and on the economic substance of the activity; review your specific case before taking any structural decision.
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

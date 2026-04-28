@@ -1,4 +1,4 @@
-export default `**DAC7** is one of the most important regulations of the last few years for anyone selling through European digital platforms, and it's probably the most ignored one today. If you sell on Amazon, Etsy, eBay, Vinted, Airbnb, Booking, Uber, Cabify, Wallapop or any European marketplace, it affects you. And if you have a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> operating on these platforms as a seller, it does too.
+export default `**DAC7** is one of the most important regulations of the last few years for anyone selling through European digital platforms, and it's probably the most ignored one today. If you sell on Amazon, Etsy, eBay, Vinted, Airbnb, Booking, Uber, Cabify, Wallapop or any European marketplace, it affects you. And if you have a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> operating on these platforms as a seller, it does too.
 
 ## What DAC7 is
 

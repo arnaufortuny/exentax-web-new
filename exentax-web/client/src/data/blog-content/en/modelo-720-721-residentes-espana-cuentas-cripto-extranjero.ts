@@ -1,4 +1,4 @@
-export default `If you are a Spanish tax resident and own a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a>, a Wise or Mercury account, a foreign broker or any meaningful crypto balance outside a Spanish exchange, two filings draw the line between being safe and having a serious problem: **Modelo 720** and **Modelo 721**. Almost every other article on this blog refers to them in passing; this one is the reference piece to understand them properly.
+export default `If you are a Spanish tax resident and own a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a>, a Wise or Mercury account, a foreign broker or any meaningful crypto balance outside a Spanish exchange, two filings draw the line between being safe and having a serious problem: **Modelo 720** and **Modelo 721**. Almost every other article on this blog refers to them in passing; this one is the reference piece to understand them properly.
 
 ## What Modelo 720 is
 
@@ -26,7 +26,7 @@ Required to file the 720 and/or 721:
 - **Legal entities** resident in Spanish territory.
 - **Permanent establishments** in Spain of non-resident entities.
 - **Joint estates and unallocated inheritances** under article 35.4 LGT.
-- **Beneficial owners** (controlling persons), even when the legal owner is another person or entity. This is where a US LLC becomes meaningful: if you are the beneficial owner of a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> and the LLC holds a Wise or Mercury account, you are personally required to declare that account as a foreign-located asset.
+- **Beneficial owners** (controlling persons), even when the legal owner is another person or entity. This is where a US LLC becomes meaningful: if you are the beneficial owner of a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> and the LLC holds a Wise or Mercury account, you are personally required to declare that account as a foreign-located asset.
 ### Deadlines and filing
 
 - **Modelo 720**: from 1 January to **31 March** of the year following the reported year. Online only (AEAT e-Office, certificate or Cl@ve).

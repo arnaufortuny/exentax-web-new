@@ -141,7 +141,7 @@ Uma holding bem desenhada é uma ferramenta poderosa de centralização, eficiê
 > <a href="/pt/servicos">Começa hoje, 100% online</a>
 <!-- /exentax:calc-cta-v1 -->
 
-Para empreendedores não residentes com um único negócio operacional internacional, uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> costuma cobrir o caso sem necessidade de holding. Quando o negócio cresce e aparecem várias atividades, podemos analisar consigo se uma holding (americana, portuguesa ou internacional) faz sentido. Na Exentax analisamos o teu caso com dados reais: <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos.
+Para empreendedores não residentes com um único negócio operacional internacional, uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> costuma cobrir o caso sem necessidade de holding. Quando o negócio cresce e aparecem várias atividades, podemos analisar consigo se uma holding (americana, portuguesa ou internacional) faz sentido. Na Exentax analisamos o teu caso com dados reais: <a href="/pt/agendar">agenda uma consulta gratuita</a> de 30 minutos.
 ## Compliance fiscal no seu país: CFC, transparência fiscal e atribuição de rendimentos
 
 Uma LLC americana é uma ferramenta legal e reconhecida internacionalmente. Mas o cumprimento não termina ao constituí-la: como proprietário residente fiscal noutro país, a sua administração tributária local mantém o direito de tributar o que a LLC gera. O importante é saber **sob que regime**.
@@ -189,7 +189,7 @@ A escolha de jurisdição depende sempre da residência fiscal real do titular e
 <!-- exentax:cross-refs-v1 -->
 ### Leituras adicionais
 
-- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em)
+- [LLC nos Estados Unidos: guia completo para não residentes](/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026)
 <!-- /exentax:cross-refs-v1 -->
 
 Quer aplicar este protocolo ao seu caso? <a href="/pt/agendar">Agende uma sessão com a equipa Exentax</a> e revemos a sua LLC com números reais em trinta minutos, sem compromisso.

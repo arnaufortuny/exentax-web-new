@@ -1,4 +1,4 @@
-export default `Revolut Business is one of the most widely used European neobanks among entrepreneurs running international structures, and particularly among owners of <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLCs</a> who need to operate in EUR, GBP and other currencies with European cards. But Revolut is also a European financial institution subject to the **Common Reporting Standard (CRS)**, with very specific consequences that almost nobody explains before opening the account.
+export default `Revolut Business is one of the most widely used European neobanks among entrepreneurs running international structures, and particularly among owners of <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLCs</a> who need to operate in EUR, GBP and other currencies with European cards. But Revolut is also a European financial institution subject to the **Common Reporting Standard (CRS)**, with very specific consequences that almost nobody explains before opening the account.
 
 ## Which Revolut entities operate and where they report
 
@@ -141,7 +141,7 @@ The comparisons and quantitative data on the jurisdictions cited here rely on of
 
 Choosing a jurisdiction always depends on the holder's actual tax residency and on the economic substance of the activity; review your specific case before taking any structural decision.
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

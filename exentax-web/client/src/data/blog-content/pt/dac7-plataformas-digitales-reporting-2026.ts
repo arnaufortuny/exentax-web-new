@@ -1,6 +1,6 @@
 export default `
 
-A **DAC7** é uma das normativas mais relevantes dos últimos anos para qualquer pessoa ou empresa que venda através de plataformas digitais europeias, e é provavelmente a regulação que mais se ignora hoje. Se vende na Amazon, Etsy, eBay, Vinted, OLX, Airbnb, Booking, Uber, Bolt, Wallapop ou em qualquer outro marketplace europeu, é-lhe aplicável. E se opera com uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> como vendedor nessas plataformas, também.
+A **DAC7** é uma das normativas mais relevantes dos últimos anos para qualquer pessoa ou empresa que venda através de plataformas digitais europeias, e é provavelmente a regulação que mais se ignora hoje. Se vende na Amazon, Etsy, eBay, Vinted, OLX, Airbnb, Booking, Uber, Bolt, Wallapop ou em qualquer outro marketplace europeu, é-lhe aplicável. E se opera com uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> como vendedor nessas plataformas, também.
 
 ## O que é a DAC7
 

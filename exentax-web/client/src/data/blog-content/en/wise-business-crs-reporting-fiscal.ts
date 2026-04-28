@@ -1,6 +1,6 @@
 export default `
 
-Wise Business (formerly TransferWise) is the multi-currency fintech most owners of <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLCs</a> set up first, alongside any international entrepreneur who needs to move money across borders. The pitch is straightforward: mid-market FX, local IBANs in EUR, GBP, USD and a dozen other currencies, and fees so low they barely register. What most people miss is that Wise is also a fully regulated European financial institution under the **Common Reporting Standard (CRS)**, and that piece of the puzzle has very real implications you want to understand before you wire your LLC's money through it.
+Wise Business (formerly TransferWise) is the multi-currency fintech most owners of <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLCs</a> set up first, alongside any international entrepreneur who needs to move money across borders. The pitch is straightforward: mid-market FX, local IBANs in EUR, GBP, USD and a dozen other currencies, and fees so low they barely register. What most people miss is that Wise is also a fully regulated European financial institution under the **Common Reporting Standard (CRS)**, and that piece of the puzzle has very real implications you want to understand before you wire your LLC's money through it.
 
 ## Which Wise entity actually holds your account and where it reports
 

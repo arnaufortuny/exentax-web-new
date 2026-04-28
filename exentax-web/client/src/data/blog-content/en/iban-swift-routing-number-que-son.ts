@@ -175,7 +175,7 @@ Confusing IBAN, SWIFT/BIC and ABA Routing Number costs you rejected payments, bo
 At Exentax we configure the full banking stack of your LLC (Mercury primary, Wise Business secondary with European IBAN, and a payment gateway if applicable) so you collect cleanly in every currency and country.
 <!-- /exentax:execution-v2 -->
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

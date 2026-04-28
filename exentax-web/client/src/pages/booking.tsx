@@ -9,7 +9,7 @@ import { BRAND } from "@/lib/constants";
 import SEO from "@/components/SEO";
 import { todayMadridISO, tomorrowMadridISO, addDaysMadridISO } from "@/lib/madrid-time";
 import { toast } from "@/components/Toast";
-import MiniCalendar from "@/components/MiniCalendar";
+import Calendar from "@/components/Calendar";
 
 const RESCHEDULE_ERROR_KEYS: Record<string, string> = {
   SLOT_TAKEN: "agenda.errSlotTaken",
@@ -138,7 +138,7 @@ function RescheduleForm({ bookingId, tokenQs, onSuccess }: { bookingId: string; 
     <div className="space-y-4 font-body">
       <div>
         <label className="block text-sm font-body font-medium text-[var(--text-2)] mb-2">{t("agenda.selectNewDate")}</label>
-        <MiniCalendar
+        <Calendar
           value={selectedDate}
           onChange={(iso) => { setSelectedDate(iso); setSelectedSlot(""); }}
           minDate={minDate}

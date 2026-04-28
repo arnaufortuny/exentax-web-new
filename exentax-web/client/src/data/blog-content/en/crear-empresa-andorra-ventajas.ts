@@ -138,7 +138,7 @@ A common combination: LLC for international operations with global clients, Ando
 
 Andorra is a serious option, not a trick. For entrepreneurs and professionals with a certain income level, willing to live there and meet residency requirements, it offers very competitive personal taxation (5-10% IRPF, exempt dividends, no wealth or inheritance tax), a safe environment and European proximity.
 
-For profiles not wanting to move, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a> solves corporate optimization without needing to change country. For those willing to take the step, the combination of Andorran residency + US LLC is one of the most efficient structures we see.
+For profiles not wanting to move, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a> solves corporate optimization without needing to change country. For those willing to take the step, the combination of Andorran residency + US LLC is one of the most efficient structures we see.
 
 <!-- exentax:calc-cta-v1 -->
 > <a href="/en/book">Free consultation, no strings attached</a>

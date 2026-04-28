@@ -1,4 +1,4 @@
-export default `Se és residente fiscal em Espanha e tens uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a>, uma conta Wise ou Mercury, um broker no estrangeiro ou qualquer saldo relevante em criptomoedas fora de uma exchange espanhola, duas declarações marcam a fronteira entre estar em ordem e ter um problema sério: o **Modelo 720** e o **Modelo 721**. Quase todos os outros artigos deste blog os referem de passagem; este é o artigo de referência para os entender a fundo.
+export default `Se és residente fiscal em Espanha e tens uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a>, uma conta Wise ou Mercury, um broker no estrangeiro ou qualquer saldo relevante em criptomoedas fora de uma exchange espanhola, duas declarações marcam a fronteira entre estar em ordem e ter um problema sério: o **Modelo 720** e o **Modelo 721**. Quase todos os outros artigos deste blog os referem de passagem; este é o artigo de referência para os entender a fundo.
 
 ## O que é o Modelo 720
 
@@ -26,7 +26,7 @@ Estão obrigados a apresentar o 720 e/ou o 721:
 - **Pessoas coletivas** residentes em território espanhol.
 - **Estabelecimentos estáveis** em Espanha de entidades não residentes.
 - **Comunhões de bens e heranças jacentes** do art. 35.4 LGT.
-- **Beneficiários efetivos** (controlling persons), mesmo que a titularidade jurídica formal pertença a outra pessoa ou entidade. É aqui que a LLC americana faz sentido: se és beneficiário efetivo de uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a> e a LLC tem uma conta Wise ou Mercury, és pessoalmente obrigado a declarar essa conta como bem situado no estrangeiro.
+- **Beneficiários efetivos** (controlling persons), mesmo que a titularidade jurídica formal pertença a outra pessoa ou entidade. É aqui que a LLC americana faz sentido: se és beneficiário efetivo de uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a> e a LLC tem uma conta Wise ou Mercury, és pessoalmente obrigado a declarar essa conta como bem situado no estrangeiro.
 ### Prazos e forma de apresentação
 
 - **Modelo 720**: de 1 de janeiro a **31 de março** do ano seguinte ao exercício reportado. Apenas online (Sede Eletrónica da AEAT, certificado ou Cl@ve).

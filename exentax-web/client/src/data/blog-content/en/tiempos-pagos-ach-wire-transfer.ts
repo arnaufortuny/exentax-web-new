@@ -179,7 +179,7 @@ Revenue: US clients pay via ACH or Stripe → Mercury/Wise USD. International cl
 At Exentax we set up the banking stack by use case (US payments, EU clients, LATAM, FX optimisation) - so you collect in 24-48h, not 7-10 days due to wrong corridor.
 <!-- /exentax:execution-v2 -->
 
-_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in)._
+_More on this topic: [LLC in the United States: complete guide for non-residents](/en/blog/llc-united-states-complete-guide-non-residents-2026)._
 
 <!-- related-inline-stripped-2026-04 -->
 

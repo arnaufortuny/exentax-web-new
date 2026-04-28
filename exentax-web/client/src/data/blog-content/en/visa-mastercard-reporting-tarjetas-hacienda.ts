@@ -70,7 +70,7 @@ We often forget the acquirer. When a Spanish merchant takes a card payment, its 
 For an entrepreneur with a US LLC charging end customers via Stripe US or a Merchant of Record like DoDo Payments, the flow is different: the acquirer sits outside Spain, no Modelo 170 is filed, and the income lands in Mercury or Wise. Traceability for the AEAT then runs through the balance and income via CRS, not through the acquirer.
 ## What the tax authority can really see from your card spend
 
-Mapped onto a Spanish tax resident combining a local bank with foreign fintech and, possibly, a <a href="/en/blog/llc-in-the-united-states-complete-guide-for-non-residents-in">US LLC</a>:
+Mapped onto a Spanish tax resident combining a local bank with foreign fintech and, possibly, a <a href="/en/blog/llc-united-states-complete-guide-non-residents-2026">US LLC</a>:
 
 What the AEAT can consult on a recurring basis:
 

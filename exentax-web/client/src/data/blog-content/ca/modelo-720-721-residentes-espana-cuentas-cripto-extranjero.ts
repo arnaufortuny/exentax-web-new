@@ -1,4 +1,4 @@
-export default `Si ets resident fiscal a Espanya i tens una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a>, un compte Wise o Mercury, un broker a l'estranger o qualsevol saldo significatiu en criptomonedes fora d'un exchange espanyol, dues declaracions marquen la frontera entre estar bé i tenir un problema seriós: el **Model 720** i el **Model 721**. Gairebé tots els altres articles d'aquest blog els citen de passada; aquest és l'article de referència per entendre'ls a fons.
+export default `Si ets resident fiscal a Espanya i tens una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a>, un compte Wise o Mercury, un broker a l'estranger o qualsevol saldo significatiu en criptomonedes fora d'un exchange espanyol, dues declaracions marquen la frontera entre estar bé i tenir un problema seriós: el **Model 720** i el **Model 721**. Gairebé tots els altres articles d'aquest blog els citen de passada; aquest és l'article de referència per entendre'ls a fons.
 
 ## Què és el Model 720
 
@@ -26,7 +26,7 @@ Estan obligats a presentar el 720 i/o el 721:
 - **Persones jurídiques** residents en territori espanyol.
 - **Establiments permanents** a Espanya d'entitats no residents.
 - **Comunitats de béns i herències jacents** de l'art. 35.4 LGT.
-- **Titulars reals** (controlling persons), encara que la titularitat jurídica formal sigui d'una altra persona o entitat. Aquí és on la LLC americana cobra sentit: si ets beneficiari efectiu d'una <a href="/ca/blog/llc-als-estats-units-guia-completa-per-a-no-residents-el">LLC americana</a> i la LLC té un compte Wise o Mercury, estàs obligat a declarar aquest compte com a bé situat a l'estranger.
+- **Titulars reals** (controlling persons), encara que la titularitat jurídica formal sigui d'una altra persona o entitat. Aquí és on la LLC americana cobra sentit: si ets beneficiari efectiu d'una <a href="/ca/blog/llc-estats-units-guia-completa-no-residents-2026">LLC americana</a> i la LLC té un compte Wise o Mercury, estàs obligat a declarar aquest compte com a bé situat a l'estranger.
 ### Terminis i forma de presentació
 
 - **Model 720**: de l'1 de gener al **31 de març** de l'any següent a l'exercici declarat. Només telemàtica (Seu Electrònica AEAT, certificat o Cl@ve).

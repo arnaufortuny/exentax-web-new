@@ -67,7 +67,7 @@ Esquecemos frequentemente o adquirente. Quando um comerciante português recebe 
 Para um empreendedor com LLC que recebe de clientes finais via Stripe US ou um Merchant of Record como DoDo Payments, o fluxo é diferente: o adquirente está fora da Europa, não há Modelo 170 nem reporte equivalente em Portugal, e os rendimentos chegam a Mercury ou Wise. A rastreabilidade passa então pelo saldo e rendimentos via CRS, não pelo adquirente.
 ## O que o Fisco pode realmente ver dos seus pagamentos com cartão
 
-Para um residente fiscal em Portugal ou Espanha que combina banca local com fintech estrangeira e, eventualmente, uma <a href="/pt/blog/llc-nos-estados-unidos-guia-completo-para-nao-residentes-em">LLC americana</a>:
+Para um residente fiscal em Portugal ou Espanha que combina banca local com fintech estrangeira e, eventualmente, uma <a href="/pt/blog/llc-estados-unidos-guia-completo-nao-residentes-2026">LLC americana</a>:
 
 O que a autoridade fiscal pode consultar de forma recorrente:
 
