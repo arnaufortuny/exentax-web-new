@@ -200,7 +200,7 @@ Diese Dreiteilung wirkt selbstverständlich, wird aber unter Druck häufig über
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -226,7 +226,7 @@ _Weiter dazu: [LLC in den USA: vollständiger Leitfaden für Nicht-Residenten](/
 
 ## Exentax-Update aktuell: Fehler-Radar
 
-Die Fehler, die wir recent years bei bereits gegründeten LLCs wiederholt sehen, folgen erkennbaren Mustern mit begrenzten Folgen bei früher Entdeckung:
+Die Fehler, die wir in den letzten Jahren bei bereits gegründeten LLCs wiederholt sehen, folgen erkennbaren Mustern mit begrenzten Folgen bei früher Entdeckung:
 
 - **Vermischung privater und LLC-Mittel.** Ursache Nr. 1 für den Verlust der Haftungsbeschränkung (*piercing the corporate veil*). Jede Überweisung zwischen Konten braucht einen expliziten Verwendungszweck („Owner Draw aktuell-04", „Capital Contribution"). Mercury erlaubt Memos auf jedem Wire; immer nutzen.
 - **Ohne unterschriebenes Operating Agreement operieren.** Banken und Zahlungsdienstleister fordern es im wachsenden KYC seit Januar 2024. Ohne fehlt jeder dokumentarische Beleg interner Entscheidungen. Auch als SMLLC unterschreiben.
@@ -288,13 +288,13 @@ Wenn Ihre LLC Lücken hat und Sie die realen Kosten für deren Schließung kenne
 <!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-bis -->
 ## Wie sich die drei Schritte unter Zeitdruck praktisch durchführen lassen
 
-Unter Zeitdruck lassen sich die drei genannten Schritte am ruhigsten an drei aufeinanderfolgenden Tagen umsetzen: am ersten Tag das Inventar abschliessen, am zweiten Tag die unterstützenden Dokumente sammeln und sortieren, am dritten Tag die Korrektureinreichungen vorbereiten. Diese Tagesstruktur hält jeden Schritt von den anderen frei und vermeidet das gleichzeitige Bearbeiten von Stücken, die sich gegenseitig überschneiden würden.
+Unter Zeitdruck lassen sich die drei genannten Schritte am ruhigsten an drei aufeinanderfolgenden Tagen umsetzen: am ersten Tag das Inventar abschließen, am zweiten Tag die unterstützenden Dokumente sammeln und sortieren, am dritten Tag die Korrektureinreichungen vorbereiten. Diese Tagesstruktur hält jeden Schritt von den anderen frei und vermeidet das gleichzeitige Bearbeiten von Stücken, die sich gegenseitig überschneiden würden.
 <!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-bis -->
 
 <!-- exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-tris -->
 ## Wie sich nach abgeschlossener Korrektur eine Wiederholung verhindern lässt
 
-Sobald die Korrektur abgeschlossen ist, beugt eine kurze schriftliche Notiz mit der Chronologie des Vorfalls und den getroffenen Massnahmen einer Wiederholung wirksam vor, weil sie im Folgejahr als Referenz dient und die Erinnerung an die getroffenen Vereinbarungen wachhält.
+Sobald die Korrektur abgeschlossen ist, beugt eine kurze schriftliche Notiz mit der Chronologie des Vorfalls und den getroffenen Maßnahmen einer Wiederholung wirksam vor, weil sie im Folgejahr als Referenz dient und die Erinnerung an die getroffenen Vereinbarungen wachhält.
 <!-- /exentax:lote17-native-v1:errores-criticos-llc-ya-constituida-de-tris -->
 
 <!-- exentax:cross-refs-v1 -->

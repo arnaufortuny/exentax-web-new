@@ -112,7 +112,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 Die Bank-Due-Diligence einer LLC wird im Vorfeld der Kontoeröffnung vorbereitet, nicht während. Der Grund ist einfach: in der Eröffnungsphase verfügt das Compliance-Team über ein kurzes Zeitfenster und über eine Standardraster von Kriterien; jedes fehlende Dokument oder jede ungenaue Antwort verlängert den Prozess mechanisch.
 
-In der Praxis lässt sich diese Vorbereitung auf eine kurze Liste reduzieren: ein klar formuliertes Aktivitätsdossier, eine kohärente Eigentümerstruktur, eine offizielle Adresse, die mit den anderen Dokumenten übereinstimmt, und eine Beschreibung der erwarteten Geldflüsse, die in einem einzigen Absatz Platz findet. Diese vier Elemente decken den grössten Teil der Standardfragen ab und reduzieren die Gespräche während der Eröffnung erheblich.
+In der Praxis lässt sich diese Vorbereitung auf eine kurze Liste reduzieren: ein klar formuliertes Aktivitätsdossier, eine kohärente Eigentümerstruktur, eine offizielle Adresse, die mit den anderen Dokumenten übereinstimmt, und eine Beschreibung der erwarteten Geldflüsse, die in einem einzigen Absatz Platz findet. Diese vier Elemente decken den größten Teil der Standardfragen ab und reduzieren die Gespräche während der Eröffnung erheblich.
 <!-- /exentax:lote17-native-v1:due-diligence-bancario-llc-americana-de -->
 
 <!-- exentax:lote30-native-v1:due-diligence-bancario-llc-americana-de -->
@@ -191,7 +191,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 <!-- exentax:lote10-native-v1:due-diligence-bancario-llc-americana -->
 ## Wie die Bank-Due-Diligence ruhig durchläuft
 
-Die bankseitige Due-Diligence wirkt von aussen oft wie ein
+Die bankseitige Due-Diligence wirkt von außen oft wie ein
 strenger Filter, ist aber im Kern eine gut definierte Übung. Die
 Bank prüft drei Dinge: ob die LLC eine reale wirtschaftliche
 Aktivität ausübt, ob das wirtschaftlich berechtigte Mitglied

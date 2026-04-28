@@ -96,7 +96,7 @@ Reorganizar a estrutura bancária de uma LLC incluindo Mercury, Relay e Wise pre
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-pt -->
 ## Como ler a reorganização bancária da LLC como uma atualização de mapeamento em vez de uma troca de fornecedor
 
-A reorganização bancária da LLC lê-se de forma mais útil como uma atualização do mapeamento papel-por-fornecedor entre Mercury, Relay e Wise, do que como uma troca de fornecedor isolada. Uma nota curta e datada no ficheiro da LLC que registe que fornecedor desempenha que papel na novo arquitetura e quais desempenhavam no antigo torna a reorganização relevável em poucos minutos.
+A reorganização bancária da LLC lê-se de forma mais útil como uma atualização do mapeamento papel-por-fornecedor entre Mercury, Relay e Wise, do que como uma troca de fornecedor isolada. Uma nota curta e datada no ficheiro da LLC que registe que fornecedor desempenha que papel na nova arquitetura e quais desempenhavam no antigo torna a reorganização relevável em poucos minutos.
 <!-- /exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-pt -->
 
 <!-- exentax:lote27-native-v1:reorganizar-banca-llc-mercury-relay-wise-pt-bis -->

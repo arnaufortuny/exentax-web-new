@@ -145,7 +145,7 @@ L'Operating Agreement se lit plus utilement comme une carte de gouvernance stabl
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

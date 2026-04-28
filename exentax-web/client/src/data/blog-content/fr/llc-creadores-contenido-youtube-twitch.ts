@@ -135,7 +135,7 @@ Chez Exentax nous montons le setup créateur complet (LLC + EIN + Mercury + W-8B
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

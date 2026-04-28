@@ -254,7 +254,7 @@ das Modelo 720 für Bankkonten, nur mit einer eigenen Liste
 qualifizierter Plattformen und einer eigenen Schwelle. Beide
 Erklärungen sind informativ — sie verändern nicht die
 Steuerschuld, aber ihre nicht- oder unvollständige Einreichung
-kann disproportionale Sanktionen auslösen, die viel grösser sind
+kann disproportionale Sanktionen auslösen, die viel größer sind
 als der eigentliche Inhalt der Erklärung.
 
 <!-- /exentax:lote8-native-v1:modelo-720-721-residentes-espana-cuentas-cripto-extranjero -->

@@ -173,7 +173,7 @@ A escolha do corretor verifica-se anualmente, no encerramento do ano, em poucos 
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> e do IRS mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 

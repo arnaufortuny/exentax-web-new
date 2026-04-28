@@ -88,7 +88,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+Les obligations <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont évolué ces dernières années; voici la version en vigueur:
 ### Points clés
 
 - **BOI / Corporate Transparency Act : votre LLC n'est PAS soumise (un avantage concurrentiel).** Après l'**interim final rule de FinCEN de mars 2025**, l'obligation du BOI Report a été **restreinte aux « foreign reporting companies »** (entités constituées HORS des États-Unis et enregistrées pour exercer dans un État). Une **LLC formée aux US détenue par un non-résident NE dépose PAS le BOI Report** : une formalité en moins au calendrier, moins de paperasse et une structure plus propre que jamais. Si votre LLC a été constituée avant mars 2025 et que vous avez déjà déposé le BOI, conservez l'accusé. Le statut peut évoluer : **nous surveillons FinCEN.gov à chaque dépôt** et, si l'obligation revient, nous la gérons sans frais supplémentaires. Statut actuel vérifiable sur [fincen.gov/boi](https://www.fincen.gov/boi).

@@ -90,7 +90,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 Die zweite Runde der Mittelherkunftsprüfung liest sich ruhiger, wenn sie als geordneter Vorgang und nicht als Krise behandelt wird. Die Bank fordert in der zweiten Runde in der Regel nicht weniger, sondern besser strukturierte Belege: Verträge, Rechnungen, Kontoauszüge und eine kurze schriftliche Erläuterung der Bewegungen, alle aufeinander bezogen.
 
-Diese Lesart vermeidet, dass die Antwort hektisch zusammengestellt wird, und erhöht die Wahrscheinlichkeit, dass die Bank die Prüfung in dieser Runde abschliesst, ohne eine dritte zu öffnen.
+Diese Lesart vermeidet, dass die Antwort hektisch zusammengestellt wird, und erhöht die Wahrscheinlichkeit, dass die Bank die Prüfung in dieser Runde abschließt, ohne eine dritte zu öffnen.
 
 ## Wie sich die zweite Runde dokumentarisch geordnet beantworten lässt
 
@@ -100,7 +100,7 @@ Die geordnete Antwort auf die zweite Runde besteht aus einer kurzen Begleitnotiz
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 <!-- exentax:lote28-native-v1:justificar-origen-fondos-kyc-bancario-segunda-ronda-de -->
 ## Wie sich die zweite KYC-Runde der Bank als dokumentierte Prozedur statt als offene Bedrohung lesen lässt
@@ -214,7 +214,7 @@ repräsentative Rechnungen. Keine neue Struktur, kein neues Konto,
 keine Aufregung. Das Compliance-Team markierte die Akte in weniger
 als zehn Geschäftstagen als vollständig.
 
-Eine Beratungs-LLC mit einem einzelnen grossen institutionellen
+Eine Beratungs-LLC mit einem einzelnen großen institutionellen
 Kunden erhielt einen Brief zweiter Runde in der Woche der ersten
 Rechnungsbegleichung. Die Antwort war eine Kopie des
 Rahmendienstleistungsvertrags, die zugehörige Überweisungsspur und
@@ -222,7 +222,7 @@ eine kurze Notiz zur erwarteten quartalsweisen Fakturierung
 ähnlicher Grösse. Die Beziehung lief ohne Änderung weiter.
 
 Eine in Florida betriebene Dienstleistungs-LLC erhielt eine Anfrage
-nach einem grösseren internen Transfer zwischen Konten desselben
+nach einem größeren internen Transfer zwischen Konten desselben
 Mitglieds. Wir haben diese Bewegung ausdrücklich als
 Mitgliederentnahme umtituliert, den entsprechenden Buchungseintrag
 beigefügt und eine vorausschauende Notiz zur künftigen Behandlung

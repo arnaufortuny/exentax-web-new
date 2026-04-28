@@ -147,7 +147,7 @@ Der erste Monat einer LLC liest sich am realistischsten, wenn er als Einrichtung
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -207,7 +207,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 Der erste Monat einer neuen LLC besteht aus drei einfachen
 Teilen: die Gründungsdokumente sicher ablegen, das Banken-Setup
-abschliessen, und die Buchhaltungsroutine etablieren.
+abschließen, und die Buchhaltungsroutine etablieren.
 <!-- /exentax:lote14-native-v1:primer-mes-llc-que-esperar -->
 
 <!-- exentax:lote19-native-v1:primer-mes-llc-que-esperar-de-bis -->

@@ -178,7 +178,7 @@ La note s'organise par axe — résidence, création de valeur, marché client �
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

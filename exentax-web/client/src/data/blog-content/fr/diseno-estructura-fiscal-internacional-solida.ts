@@ -135,7 +135,7 @@ Chez Exentax nous appliquons ce framework depuis des années avec des clients d'
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 
@@ -194,7 +194,7 @@ diagrammes "complexes mais élégants" dans les revues réelles.
 ## Trois structures menées avec des clients
 
 Une consultante en Espagne avec des clients UE et US opère une
-single-member LLC associée à une petit configuration Mercury + Wise. Les
+single-member LLC associée à une petite configuration Mercury + Wise. Les
 revenus remontent dans sa déclaration personnelle annuelle ; le
 pro-forma 1120 + 5472 de la LLC documente les flux liés ; aucune
 couche de holding n'a été nécessaire. Maintenance annuelle totale :
@@ -208,7 +208,7 @@ est portable et survit à une relocation de membre sans redessiner le
 diagramme.
 
 Un fondateur avec une ligne SaaS et une ligne conseil distincte
-opère deux LLC, une par ligne. Chacune a ses livres, son configuration bancaire, son cycle W-8. La séparation simplifie l'optionnalité de
+opère deux LLC, une par ligne. Chacune a ses livres, sa configuration bancaire, son cycle W-8. La séparation simplifie l'optionnalité de
 vente plus tard (une ligne peut être vendue sans affecter l'autre)
 et garde le reporting propre.
 

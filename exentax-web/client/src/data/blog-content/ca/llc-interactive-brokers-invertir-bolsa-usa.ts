@@ -163,7 +163,7 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 

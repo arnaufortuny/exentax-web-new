@@ -157,7 +157,7 @@ Chez Exentax nous laissons l'opérationnel Mercury + Wise conçu avec flux cohé
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

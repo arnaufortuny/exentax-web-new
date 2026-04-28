@@ -192,7 +192,7 @@ Bei Exentax bereiten wir W-7, apostillierte Unterlagen und Einreichung über uns
 
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

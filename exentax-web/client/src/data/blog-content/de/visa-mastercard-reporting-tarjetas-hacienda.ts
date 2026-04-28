@@ -176,7 +176,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -283,7 +283,7 @@ Ein zweiter Fluss läuft über die internationalen Kanäle des Informationsausta
 <!-- exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de-bis -->
 ## Wie sich die Karten der LLC sauber von privaten Karten trennen lassen
 
-Eine separate Karte ausschliesslich für die operativen Ausgaben der LLC ist die einzelne Massnahme mit dem grössten Effekt auf die spätere Nachvollziehbarkeit. Sie verhindert die häufigste Quelle für nachträglichen Aufwand: das gemischte Abrechnen privater und geschäftlicher Posten auf derselben Karte. Eine zweite, ebenfalls hilfreiche Gewohnheit besteht darin, die monatlichen Kartenauszüge im selben digitalen Ordner abzulegen wie die Bankauszüge der LLC, sodass beim jährlichen Abschluss alle Belege bereits an einer einzigen Stelle vorliegen und keine separate Rekonstruktion nötig ist.
+Eine separate Karte ausschließlich für die operativen Ausgaben der LLC ist die einzelne Maßnahme mit dem größten Effekt auf die spätere Nachvollziehbarkeit. Sie verhindert die häufigste Quelle für nachträglichen Aufwand: das gemischte Abrechnen privater und geschäftlicher Posten auf derselben Karte. Eine zweite, ebenfalls hilfreiche Gewohnheit besteht darin, die monatlichen Kartenauszüge im selben digitalen Ordner abzulegen wie die Bankauszüge der LLC, sodass beim jährlichen Abschluss alle Belege bereits an einer einzigen Stelle vorliegen und keine separate Rekonstruktion nötig ist.
 <!-- /exentax:lote15-native-v1:visa-mastercard-reporting-tarjetas-hacienda-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

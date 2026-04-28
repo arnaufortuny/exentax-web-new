@@ -166,7 +166,7 @@ Le bilan avantages/inconvénients d'une LLC pour un non-résident n'a pas de ré
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

@@ -69,7 +69,7 @@ Die Bankschließung ist der fehleranfälligste Punkt. Praxisregel:
 - **Alle Auszüge** (mindestens sieben Jahre) vor Schließung herunterladen. Danach ist es schwierig oder kostspielig.
 - **Stripe, PayPal und Gateways** der LLC kündigen und Transaktionshistorie sichern.
 
-> Ist Ihr aktueller Architektur Wise Business + Relay + Slash mit Mercury als Backup, ist das genau die umgekehrte Schließreihenfolge: zuerst Gateways, dann sekundäre Fintechs, zuletzt das Hauptkonto, durch das das letzte Cash fließt. Wallester mit europäischer IBAN wird üblicherweise zuletzt geschlossen und im Lichte Ihrer CRS-Pflichten in Spanien geprüft.
+> Ist Ihre aktuelle Architektur Wise Business + Relay + Slash mit Mercury als Backup, ist das genau die umgekehrte Schließreihenfolge: zuerst Gateways, dann sekundäre Fintechs, zuletzt das Hauptkonto, durch das das letzte Cash fließt. Wallester mit europäischer IBAN wird üblicherweise zuletzt geschlossen und im Lichte Ihrer CRS-Pflichten in Spanien geprüft.
 ### 4. Schlusserklärungen beim IRS
 
 Hier brechen viele Schließungen. Vor ihrem Tod muss die LLC ihre **letzte IRS-Saison** einreichen, mit der Markierung **Final return**:
@@ -202,7 +202,7 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 <!-- exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
 ## Wie sich die Auflösungssequenz als ein einziger geordneter Prozess statt als Liste isolierter Aufgaben lesen lässt
 
-Die Auflösung einer LLC liest sich klarer, wenn sie als ein einziger geordneter Prozess und nicht als Liste isolierter Aufgaben behandelt wird. Die Reihenfolge ist entscheidend, denn jeder Schritt schliesst einen Perimeter, von dem der nächste Schritt abhängt: das Einstellen der operativen Tätigkeit geht der Begleichung offener Rechnungen voraus, die Begleichung geht den Schlussausschüttungen voraus, die Schlussausschüttungen gehen der federalen Schlusserklärung voraus, und die federale Schlusserklärung geht den beim Bundesstaat einzureichenden articles of dissolution voraus.
+Die Auflösung einer LLC liest sich klarer, wenn sie als ein einziger geordneter Prozess und nicht als Liste isolierter Aufgaben behandelt wird. Die Reihenfolge ist entscheidend, denn jeder Schritt schließt einen Perimeter, von dem der nächste Schritt abhängt: das Einstellen der operativen Tätigkeit geht der Begleichung offener Rechnungen voraus, die Begleichung geht den Schlussausschüttungen voraus, die Schlussausschüttungen gehen der federalen Schlusserklärung voraus, und die federale Schlusserklärung geht den beim Bundesstaat einzureichenden articles of dissolution voraus.
 
 Wird diese Reihenfolge eingehalten, erzeugt jeder Schritt das Dokument, das der nächste benötigt, und die Schlussakte baut sich schrittweise ohne Rückgriffe auf. Wird die Reihenfolge gebrochen, müssen einige Schritte wiederholt werden, weil die Belegunterlagen noch nicht verfügbar sind.
 
@@ -210,7 +210,7 @@ Die Lesart als einheitlicher Prozess hilft auch beim Zeitplan: der Kalender eine
 
 ## Wie sich jeder Schritt so dokumentieren lässt, dass er den nächsten trägt, ohne die Arbeit erneut zu leisten
 
-Jeder Schritt der Auflösung gewinnt, wenn er mit einer kurzen Notiz dokumentiert wird, die die erzeugten Belege bündelt: der schriftliche Beschluss der Mitglieder, die Nachweise über die Begleichung der ausstehenden Rechnungen, die Schlussauszüge der Konten, die Bestätigung der Schlussausschüttung, die Eingangsbestätigung der federalen Schlusserklärung und die Eingangsbestätigung der articles of dissolution. Diese kurzen, nach Schritten geordneten Notizen bilden anschliessend die übertragbare Schlussakte und ersparen die spätere Rekonstruktion der Sequenz.
+Jeder Schritt der Auflösung gewinnt, wenn er mit einer kurzen Notiz dokumentiert wird, die die erzeugten Belege bündelt: der schriftliche Beschluss der Mitglieder, die Nachweise über die Begleichung der ausstehenden Rechnungen, die Schlussauszüge der Konten, die Bestätigung der Schlussausschüttung, die Eingangsbestätigung der federalen Schlusserklärung und die Eingangsbestätigung der articles of dissolution. Diese kurzen, nach Schritten geordneten Notizen bilden anschließend die übertragbare Schlussakte und ersparen die spätere Rekonstruktion der Sequenz.
 <!-- /exentax:lote19-native-v1:como-disolver-cerrar-llc-paso-a-paso-de -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
@@ -236,7 +236,7 @@ Bei Exentax schließen wir monatlich LLCs und liefern das vollständige Dossier 
 
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -253,21 +253,21 @@ Schwachstellen der Strukturpflege sichtbar werden — fehlende
 BOI-Updates, ungeklärte Bankbewegungen, vergessene
 Form-5472-Pflichten. Eine ordentlich vorbereitete Auflösung
 spart in dieser Phase deutlich mehr Geld und Zeit, als sie
-kostet, weil sie diese Schwachstellen kontrolliert schliesst,
+kostet, weil sie diese Schwachstellen kontrolliert schließt,
 statt sie aufzudecken, wenn keine Zeit mehr bleibt zu reagieren.
 
 In der Praxis verläuft die Auflösung am ruhigsten, wenn sie als
 Projekt mit klarer Reihenfolge behandelt wird: zuerst die
 operative Aktivität auslaufen lassen, dann die offenen
-Bankbewegungen abschliessen, dann die letzten US-Erklärungen
+Bankbewegungen abschließen, dann die letzten US-Erklärungen
 einreichen, dann die Auflösungsdokumente bei der Behörde des
-US-Bundesstaats und schliesslich die Schliessung der Konten in
+US-Bundesstaats und schließlich die Schließung der Konten in
 abgestimmter Reihenfolge. Wer die Schritte vermischt, riskiert
 nicht das Endergebnis, aber er verlängert den Prozess unnötig.
 
 ## Eine letzte Notiz
 
-Eine LLC korrekt zu schliessen ist kein Versagen; es ist eine
+Eine LLC korrekt zu schließen ist kein Versagen; es ist eine
 strategische Entscheidung wie jede andere, und sie verdient
 dieselbe ruhige Vorbereitung wie ihre Eröffnung.
 
@@ -278,7 +278,7 @@ dieselbe ruhige Vorbereitung wie ihre Eröffnung.
 
 Wir empfehlen, den Auflösungsprozess vom ersten Tag an mit einem
 einseitigen Zeitplan zu führen, der die wichtigsten Daten
-festhält. Diese einfache Massnahme genügt fast immer, um den
+festhält. Diese einfache Maßnahme genügt fast immer, um den
 Prozess ruhig und planbar zu halten.
 
 <!-- /exentax:lote9-native-v1:como-disolver-cerrar-llc-paso-a-paso-bis -->

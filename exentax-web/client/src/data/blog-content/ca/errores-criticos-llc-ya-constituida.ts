@@ -192,7 +192,7 @@ L'expressió "error crític" sona dramàtica, però en el context d'una LLC ja o
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'IRS han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 
@@ -209,7 +209,7 @@ Cada situació fiscal depèn de la teva residència, de l'activitat exercida i d
 
 ## Actualització Exentax avui: radar d'errors
 
-Els errors que veiem repetir-se en LLC ja constituïdes durant recent years tenen patrons reconeixibles i conseqüències acotades si es detecten a temps:
+Els errors que veiem repetir-se en LLC ja constituïdes durant els darrers anys tenen patrons reconeixibles i conseqüències acotades si es detecten a temps:
 
 - **Barrejar fons personals i de la LLC.** És la causa número u de pèrdua de protecció patrimonial (*piercing the corporate veil*). Qualsevol transferència entre comptes ha de portar concepte explícit ("Owner Draw avui-04", "Capital Contribution"). Mercury permet memos a cada wire; usa'ls sempre.
 - **Operar sense Operating Agreement signat.** Bancs i processadors el demanen en KYC creixent des del gener de 2024. Sense ell, les decisions internes (canvi de domicili, admissió de soci) no tenen base documental. Signa'l encara que siguis SMLLC.

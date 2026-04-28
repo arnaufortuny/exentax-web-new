@@ -192,7 +192,7 @@ Aquests tres rituals, un cop instal·lats, transformen la gestió d'una LLC en u
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 

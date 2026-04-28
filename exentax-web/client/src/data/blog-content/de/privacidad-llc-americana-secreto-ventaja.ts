@@ -155,7 +155,7 @@ Der Unterschied zwischen Privacy und Geheimhaltung wird in dem Moment greifbar, 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

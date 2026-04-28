@@ -175,7 +175,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 
@@ -189,7 +189,7 @@ Des milliers de freelances et d'entrepreneurs opèrent déjà leur LLC américai
 
 ## Mise à jour Exentax actuellement: le processus de constitution, sans surprises
 
-Le parcours de constitution s'est stabilisé en recent years; les trois clés opérationnelles sont:
+Le parcours de constitution s'est stabilisé ces dernières années; les trois clés opérationnelles sont:
 
 - **Délais réels actuellement.** Wyoming livre les Articles en **24-48 h en ligne** (frais 100 USD), New Mexico en **3-5 jours ouvrés** (50 USD), Delaware en **5-10 jours ouvrés** (110 USD, *expedited* +50 à +1 000 USD).
 - **EIN sans SSN.** L’IRS traite toujours le **Form SS-4 par fax au +1-855-215-1627** en **4-6 semaines**. La voie en ligne est réservée aux demandeurs avec SSN/ITIN. Conservez la **CP 575** originale; en cas de perte, demandez un **147C** par téléphone à l’IRS Business Line.

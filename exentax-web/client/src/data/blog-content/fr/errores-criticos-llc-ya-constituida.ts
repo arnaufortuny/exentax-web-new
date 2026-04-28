@@ -180,7 +180,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 
@@ -197,7 +197,7 @@ Chaque situation fiscale dépend de votre résidence, de l'activité exercée et
 
 ## Mise à jour Exentax actuellement: radar des erreurs
 
-Les erreurs que nous voyons se répéter sur les LLC déjà constituées en recent years suivent des schémas reconnaissables avec des conséquences contenues si détectées tôt:
+Les erreurs que nous voyons se répéter sur les LLC déjà constituées ces dernières années suivent des schémas reconnaissables avec des conséquences contenues si détectées tôt:
 
 - **Mélanger fonds personnels et LLC.** Cause n°1 de perte de protection patrimoniale (*piercing the corporate veil*). Tout virement entre comptes doit porter un libellé explicite (« Owner Draw actuellement-04 », « Capital Contribution »). Mercury permet les libellés sur chaque virement; utilisez-les systématiquement.
 - **Opérer sans Operating Agreement signé.** Les banques et processeurs le demandent en KYC croissant depuis janvier 2024. Sans lui, les décisions internes (changement d'adresse, entrée d'associé) n'ont aucune base documentaire. Signez-le même en SMLLC.

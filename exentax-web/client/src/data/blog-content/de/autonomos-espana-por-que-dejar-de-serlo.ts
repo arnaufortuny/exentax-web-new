@@ -160,15 +160,15 @@ Die Frage, ob das Autónomo-Regime zu verlassen ist, liest sich ehrlicher, wenn 
 
 Die Entscheidung hält sich dauerhafter in einer kurzen, datierten Notiz, die die drei Variablen und die daraus folgende Schlussfolgerung auflistet, sodass die Diskussion nicht bei jedem Abrechnungszyklus erneut eröffnet wird.
 
-## Wie sich die jährliche Überprüfung ohne grosse Vorbereitung halten lässt
+## Wie sich die jährliche Überprüfung ohne große Vorbereitung halten lässt
 
-Die jährliche Überprüfung hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen drei Variablen gebunden bleibt und nur dort wieder eröffnet wird, wo eine der drei Variablen real abgewichen ist.
+Die jährliche Überprüfung hält sich ohne große Vorbereitung, wenn sie strikt an die festgehaltenen drei Variablen gebunden bleibt und nur dort wieder eröffnet wird, wo eine der drei Variablen real abgewichen ist.
 <!-- /exentax:lote22-native-v1:autonomos-espana-por-que-dejar-de-serlo-de -->
 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

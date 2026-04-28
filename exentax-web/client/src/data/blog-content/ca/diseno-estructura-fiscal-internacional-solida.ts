@@ -102,7 +102,7 @@ Una estructura fiscal internacional sòlida es concep partint de l'activitat rea
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> han evolucionat els darrers anys; aquest és l'estat vigent:
 ### Punts clau
 
 - **BOI / Corporate Transparency Act: la teva LLC NO està obligada (un avantatge competitiu).** Després de la **interim final rule de la FinCEN de març de 2025**, l'obligació del BOI Report va quedar **restringida a les "foreign reporting companies"** (entitats constituïdes FORA dels EUA i registrades per operar en un estat). Una **LLC formada als EUA propietat d'un no resident NO presenta el BOI Report**: un tràmit menys al calendari, menys burocràcia i una estructura més neta que mai. Si la teva LLC es va constituir abans de març de 2025 i ja vas presentar el BOI, conserva l'acusament. L'estat normatiu pot canviar: **monitoritzem FinCEN.gov en cada presentació** i, si l'obligació torna a aplicar, la gestionem sense cost addicional. Estat vigent verificable a [fincen.gov/boi](https://www.fincen.gov/boi).

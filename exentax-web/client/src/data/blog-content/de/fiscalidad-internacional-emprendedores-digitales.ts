@@ -153,7 +153,7 @@ Die Antworten pro Profil pflegen sich in einer kurzen, datierten Notiz, die die 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -206,7 +206,7 @@ und passt das zu der gewählten Geschäftsstruktur? Dritte Frage:
 welche Berichtspflichten resultieren aus den Antworten auf die
 ersten beiden Fragen?
 
-Wer diese drei Antworten sauber dokumentiert, hat den grössten
+Wer diese drei Antworten sauber dokumentiert, hat den größten
 Teil der internationalen Steuerlogik bereits unter Kontrolle.
 
 <!-- /exentax:lote12-native-v1:fiscalidad-internacional-emprendedores-digitales -->

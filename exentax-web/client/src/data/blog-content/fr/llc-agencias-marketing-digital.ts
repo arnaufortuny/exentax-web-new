@@ -117,7 +117,7 @@ Chez Exentax nous montons le setup complet d'une LLC pour agence en 4-6 semaines
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

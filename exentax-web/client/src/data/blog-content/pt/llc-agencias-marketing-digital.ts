@@ -109,7 +109,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 ### Pontos-chave
 
 - **BOI / Corporate Transparency Act: a tua LLC NÃO está obrigada (uma vantagem competitiva).** Após a **interim final rule da FinCEN de março de 2025**, a obrigação do BOI Report foi **restringida às "foreign reporting companies"** (entidades constituídas FORA dos EUA e registadas para operar num estado). Uma **LLC formada nos EUA detida por um não residente NÃO submete o BOI Report**: uma formalidade a menos no calendário, menos burocracia e uma estrutura mais limpa do que nunca. Se a tua LLC foi constituída antes de março de 2025 e já submeteste o BOI, guarda o comprovativo. O estado regulatório pode mudar: **monitorizamos a FinCEN.gov em cada submissão** e, se a obrigação voltar, gerimos sem custo adicional. Estado atual verificável em [fincen.gov/boi](https://www.fincen.gov/boi).

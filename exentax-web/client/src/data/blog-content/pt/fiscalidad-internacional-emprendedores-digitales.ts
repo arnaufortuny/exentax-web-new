@@ -140,7 +140,7 @@ A fiscalidade internacional de empreendedores digitais lê-se de forma mais úti
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 

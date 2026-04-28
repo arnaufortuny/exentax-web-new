@@ -113,7 +113,7 @@ Bei Exentax arbeiten wir genau an dieser Schnittstelle: <a href="/de/blog/llc-in
 
 Eine an eine LLC gebundene IBAN verdient eine eigene Referenzkarte, getrennt von den übrigen Bankdokumenten, weil sie das Element ist, das am häufigsten in Abstimmungen und grenzüberschreitenden Kontrollen auftaucht. Die Karte muss nicht komplex sein: sie nennt die genaue Kontoinhaberin oder den genauen Kontoinhaber, die Ausgabejurisdiktion der IBAN, die Rolle der Kontos in der Banken-Architektur und das Eröffnungsdatum. Diese vier Informationen reichen aus, um den überwiegenden Teil der möglichen Fragen rasch zu beantworten.
 
-Der Nutzen dieser Karte zeigt sich vor allem, wenn eine Behörde um Klärung bittet: anstatt die Information aus mehreren Quellen rekonstruieren zu müssen, wird eine bereits kohärente und in sich tragende Karte übermittelt, was das Gespräch rasch abschliesst.
+Der Nutzen dieser Karte zeigt sich vor allem, wenn eine Behörde um Klärung bittet: anstatt die Information aus mehreren Quellen rekonstruieren zu müssen, wird eine bereits kohärente und in sich tragende Karte übermittelt, was das Gespräch rasch abschließt.
 <!-- /exentax:lote17-native-v1:wise-iban-llc-que-reporta-hacienda-de -->
 
 <!-- exentax:lote26-native-v1:wise-iban-llc-que-reporta-hacienda-de -->

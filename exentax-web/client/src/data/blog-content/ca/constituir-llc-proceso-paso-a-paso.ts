@@ -175,7 +175,7 @@ La informació sobre fintech i CRS evoluciona; aquest és l'estat actual:
 <!-- exentax:legal-facts-v1 -->
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'IRS han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 
@@ -189,7 +189,7 @@ Milers de freelancers i emprenedors ja operen amb la seva LLC americana de maner
 
 ## Actualització Exentax avui: el procés de constitució, sense sorpreses
 
-El flux de constitució s'ha estabilitzat el recent years; les tres claus operatives són:
+El flux de constitució s'ha estabilitzat els darrers anys; les tres claus operatives són:
 
 - **Terminis reals avui.** Wyoming lliura Articles en **24-48 h online** (taxa 100 USD), New Mexico en **3-5 dies hàbils** (50 USD), Delaware en **5-10 dies hàbils** (110 USD, *expedited* +50 a +1.000 USD).
 - **EIN sense SSN.** L’IRS continua processant el **Form SS-4 per fax al +1-855-215-1627** en **4-6 setmanes**. Online només per a sol·licitants amb SSN/ITIN. Conserva la **CP 575** original; si la perds, demana una **147C** trucant a l’IRS Business Line.

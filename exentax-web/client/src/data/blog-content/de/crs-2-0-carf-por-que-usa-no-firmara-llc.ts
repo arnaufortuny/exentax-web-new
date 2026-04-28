@@ -147,7 +147,7 @@ gemeldeten Felder um neuere digitale Vermögensformen und um eine
 robustere Wirtschaftlich-Berechtigte-Identifikation. Für eine LLC,
 deren wirtschaftlich Berechtigter klar ist und deren BOI-Meldung
 sauber gepflegt ist, ist diese Erweiterung neutral. Für Strukturen,
-die undurchsichtig waren, schliesst sie eine Lücke, die nicht mehr
+die undurchsichtig waren, schließt sie eine Lücke, die nicht mehr
 verfügbar sein wird.
 
 CARF wiederum betrifft Mandanten, die Krypto-Assets über Plattformen

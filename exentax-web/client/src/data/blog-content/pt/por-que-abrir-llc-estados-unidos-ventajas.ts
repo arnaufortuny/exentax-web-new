@@ -230,7 +230,7 @@ O resto do catálogo de vantagens continua útil como informação de contexto, 
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 

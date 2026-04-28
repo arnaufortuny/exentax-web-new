@@ -68,7 +68,7 @@ Més enllà del cost, els riscos pràctics:
 - **Tancament bancari sense previ avís**: molts titulars relaten tancaments unilaterals amb 30 dies de termini i bloqueig de fons.
 - **Auditoria obligatòria**: si no la presentes, l'IRD imposa multes i el Companies Registry pot sol·licitar la dissolució.
 - **Strike-off involuntari**: l'incompliment d'Annual Returns pot provocar el striking-off i la pèrdua de la societat sense possibilitat de recuperar fons.
-- **Enduriment BEPS Pillar Two**: a partir de recent years, multinacionals mitjanes poden veure erosionat l'avantatge territorial.
+- **Enduriment BEPS Pillar Two**: en els darrers anys, multinacionals mitjanes poden veure erosionat l'avantatge territorial.
 ### Casos típics on aplica
 
 **Cas 1: assessor europeu amb clients a Singapur i Tòquio.**
@@ -175,7 +175,7 @@ A Exentax revisem casos HK existents i comparem amb alternatives (LLC US, EOOD B
 
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'<a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 

@@ -188,7 +188,7 @@ Chez Exentax nous montons le setup LLC + IBKR + W-8BEN-E + comptabilité spécif
 
 ## Faits légaux & de procédure
 
-Les obligations <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

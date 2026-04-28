@@ -151,7 +151,7 @@ A maioria dos problemas recorrentes que aparecem em LLCs operadas do estrangeiro
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 

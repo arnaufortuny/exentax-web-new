@@ -134,7 +134,7 @@ A informação sobre fintechs e CRS evolui; este é o estado atual:
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
 <!-- exentax:lote31-native-v1:estructura-fiscal-optima-freelancer-internacional-pt -->
 ## Como ler a estrutura ótima do freelancer internacional como um mapeamento estável em vez de uma escolha de moda

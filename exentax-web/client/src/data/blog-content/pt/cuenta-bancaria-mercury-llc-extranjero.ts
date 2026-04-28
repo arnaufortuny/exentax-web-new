@@ -190,7 +190,7 @@ A abertura de uma conta Mercury para uma LLC com membro não residente lê-se de
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 

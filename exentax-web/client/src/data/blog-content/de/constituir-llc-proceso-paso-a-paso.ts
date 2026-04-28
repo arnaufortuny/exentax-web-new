@@ -197,7 +197,7 @@ Die Sequenz dokumentiert sich am leichtesten mit einer kurzen Notiz pro Schritt,
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -211,7 +211,7 @@ Tausende von Freelancern und Unternehmern betreiben ihre US-LLC bereits vollstä
 
 ## Exentax-Update aktuell: der Gründungsprozess ohne Überraschungen
 
-Der Gründungsablauf hat sich recent years stabilisiert; die drei operativen Eckpunkte:
+Der Gründungsablauf hat sich in den letzten Jahren stabilisiert; die drei operativen Eckpunkte:
 
 - **Reale Fristen aktuell.** Wyoming liefert die Articles in **24-48 h online** (Gebühr 100 USD), New Mexico in **3-5 Werktagen** (50 USD), Delaware in **5-10 Werktagen** (110 USD, *expedited* +50 bis +1.000 USD).
 - **EIN ohne SSN.** Das IRS verarbeitet weiterhin den **Form SS-4 per Fax an +1-855-215-1627** in **4-6 Wochen**. Online ist nur für SSN/ITIN-Antragsteller. Bewahren Sie die original **CP 575** auf; bei Verlust **147C** über die IRS Business Line anfordern.

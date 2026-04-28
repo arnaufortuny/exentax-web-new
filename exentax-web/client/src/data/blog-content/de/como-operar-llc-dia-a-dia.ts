@@ -188,7 +188,7 @@ Diese drei Rituale verwandeln, einmal etabliert, die Führung einer LLC in eine 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

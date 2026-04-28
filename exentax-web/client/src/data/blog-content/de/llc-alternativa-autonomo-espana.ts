@@ -186,7 +186,7 @@ Die sauberste Art, den Vergleich lesbar zu machen, besteht darin, das operative 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -313,9 +313,9 @@ ruhigere Wahl.
 <!-- /exentax:lote13-native-v1:llc-alternativa-autonomo-espana -->
 
 <!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-bis -->
-## Wie sich der Vergleich Jahr für Jahr ohne grossen Aufwand aktualisieren lässt
+## Wie sich der Vergleich Jahr für Jahr ohne großen Aufwand aktualisieren lässt
 
-Damit der Vergleich Jahr für Jahr ohne grossen Aufwand aktualisierbar bleibt, lohnt es sich, das operative Profil und seine Zuordnungen in einem kurzen, datierten Dokument festzuhalten, das beim Jahresabschluss überprüft und nur dort angepasst wird, wo sich das Profil tatsächlich verändert hat.
+Damit der Vergleich Jahr für Jahr ohne großen Aufwand aktualisierbar bleibt, lohnt es sich, das operative Profil und seine Zuordnungen in einem kurzen, datierten Dokument festzuhalten, das beim Jahresabschluss überprüft und nur dort angepasst wird, wo sich das Profil tatsächlich verändert hat.
 <!-- /exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-bis -->
 
 <!-- exentax:lote18-native-v1:llc-alternativa-autonomo-espana-de-tris -->

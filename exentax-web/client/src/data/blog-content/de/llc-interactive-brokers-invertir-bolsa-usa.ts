@@ -171,7 +171,7 @@ Die Broker-Berichte fügen sich sauber in die LLC-Buchhaltung ein, wenn sie als 
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber <a href="https://www.fincen.gov" target="_blank" rel="noopener">FinCEN</a> und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

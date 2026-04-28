@@ -150,18 +150,18 @@ in beide Heimatländer, und wir haben die Mitgliederentnahmen mit der
 K-1-ähnlichen Zuteilung abgeglichen, die jedes Mitglied zu Hause
 erklärte. Keine Überraschungen.
 
-Ein Berater, der kurzzeitig einen grossen Vorschuss in Revolut
+Ein Berater, der kurzzeitig einen großen Vorschuss in Revolut
 Business parkte, sah die Dezember-Momentaufnahme im folgenden
 Frühling eine Nachfrage seiner heimischen Steuerbehörde auslösen.
 Die Korrektur war eine einseitige Notiz mit dem Vertrag, der den
 Vorschuss begründete, der entsprechenden Rechnung und der
-anschliessend erbrachten Leistung. Der Vorschuss war bereits
+anschließend erbrachten Leistung. Der Vorschuss war bereits
 deklariert, die Frage schloss sich rasch.
 
 ## Fehler, die einen ruhigen CRS-Bericht in eine laute Akte verwandeln
 
 - Revolut Business als Sparkonto behandeln. Die Momentaufnahme zum
-  31. Dezember speist den Bericht; grosse ungenutzte Salden werden
+  31. Dezember speist den Bericht; große ungenutzte Salden werden
   zu Gesprächsanlässen.
 - Privates Revolut und Revolut Business unter demselben mentalen
   E-Mail-Modell betreiben. Sie werden getrennt gemeldet, und das
@@ -295,9 +295,9 @@ Die Notiz bezieht sich auf die drei Achsen — Ansässigkeit des Berechtigten, K
 <!-- /exentax:defensa-fiscal-v1 -->
 
 <!-- exentax:lote20-native-v1:revolut-business-crs-reporting-fiscal-de-bis -->
-## Wie sich die jährliche CRS-Notiz ohne grossen Aufwand pflegen lässt
+## Wie sich die jährliche CRS-Notiz ohne großen Aufwand pflegen lässt
 
-Die jährliche CRS-Notiz lässt sich ohne grossen Aufwand pflegen, wenn sie an dasselbe Zeitfenster wie die Steuererklärung gekoppelt wird und nur die seit der letzten Aktualisierung tatsächlich veränderten Elemente erfasst.
+Die jährliche CRS-Notiz lässt sich ohne großen Aufwand pflegen, wenn sie an dasselbe Zeitfenster wie die Steuererklärung gekoppelt wird und nur die seit der letzten Aktualisierung tatsächlich veränderten Elemente erfasst.
 <!-- /exentax:lote20-native-v1:revolut-business-crs-reporting-fiscal-de-bis -->
 
 <!-- exentax:cta-v1 -->

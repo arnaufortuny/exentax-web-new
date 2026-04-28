@@ -165,7 +165,7 @@ Chez Exentax nous structurons LLC avec confidentialité réelle vs tiers et conf
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

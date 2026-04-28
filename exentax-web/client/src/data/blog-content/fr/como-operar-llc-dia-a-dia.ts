@@ -201,7 +201,7 @@ Chez Exentax nous laissons au client un manuel opérationnel de sa LLC adapté �
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

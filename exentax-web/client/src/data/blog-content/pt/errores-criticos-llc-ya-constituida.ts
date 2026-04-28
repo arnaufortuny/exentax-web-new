@@ -195,7 +195,7 @@ A expressão "erro crítico" soa dramática, mas no contexto de uma LLC já em f
 <!-- exentax:legal-facts-v1 -->
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do IRS mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do IRS mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 
@@ -209,7 +209,7 @@ Cada situação fiscal depende da sua residência, da atividade exercida e dos c
 
 ## Atualização Exentax hoje: radar de erros
 
-Os erros que vemos repetir-se em LLC já constituídas durante recent years têm padrões reconhecíveis e consequências limitadas se detetados a tempo:
+Os erros que vemos repetir-se em LLC já constituídas nos últimos anos têm padrões reconhecíveis e consequências limitadas se detetados a tempo:
 
 - **Misturar fundos pessoais e da LLC.** Causa nº 1 de perda de proteção patrimonial (*piercing the corporate veil*). Qualquer transferência entre contas deve levar descritivo explícito ("Owner Draw hoje-04", "Capital Contribution"). Mercury permite memos em cada wire; usa-os sempre.
 - **Operar sem Operating Agreement assinado.** Bancos e processadores pedem-no em KYC crescente desde janeiro de 2024. Sem ele, as decisões internas (mudança de morada, admissão de sócio) não têm base documental. Assina mesmo como SMLLC.

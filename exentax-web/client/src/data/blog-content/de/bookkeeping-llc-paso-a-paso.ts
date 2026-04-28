@@ -191,9 +191,9 @@ Fintech- und CRS-Informationen entwickeln sich weiter; hier der aktuelle Stand:
 
 Die Buchhaltung einer LLC liest sich ruhiger, wenn sie als stabiler monatlicher Rhythmus und nicht als Jahresend-Notfall behandelt wird. An ein festes Zeitfenster zu Beginn jedes Monats gekoppelt, erfasst sie die Vorgänge des Vormonats, solange sie noch frisch sind, und nimmt der Jahresendzeit die Aufgabe ab, zwölf Monate Bewegungen auf einmal zu rekonstruieren.
 
-## Wie sich die monatliche Routine ohne grosse Vorbereitung halten lässt
+## Wie sich die monatliche Routine ohne große Vorbereitung halten lässt
 
-Die monatliche Routine hält sich ohne grosse Vorbereitung, wenn sie auf eine kurze Liste wiederkehrender Schritte reduziert wird: Bankabstimmung, Klassifizierung neuer Bewegungen, Ablage der erhaltenen Belege, Abschluss des Monats in einer einzigen Notiz.
+Die monatliche Routine hält sich ohne große Vorbereitung, wenn sie auf eine kurze Liste wiederkehrender Schritte reduziert wird: Bankabstimmung, Klassifizierung neuer Bewegungen, Ablage der erhaltenen Belege, Abschluss des Monats in einer einzigen Notiz.
 <!-- /exentax:lote21-native-v1:bookkeeping-llc-paso-a-paso-de -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
@@ -217,7 +217,7 @@ Bei Exentax dokumentieren wir die operative Buchhaltung Schritt für Schritt und
 
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -253,9 +253,9 @@ eine Stunde und macht das Jahresende ruhig.
 <!-- /exentax:lote13-native-v1:bookkeeping-llc-paso-a-paso -->
 
 <!-- exentax:lote21-native-v1:bookkeeping-llc-paso-a-paso-de-bis -->
-## Wie sich der monatliche Buchhaltungsabschluss als kurzes wiederkehrendes Ritual statt als grosse Aufgabe lesen lässt
+## Wie sich der monatliche Buchhaltungsabschluss als kurzes wiederkehrendes Ritual statt als große Aufgabe lesen lässt
 
-Der monatliche Buchhaltungsabschluss liest sich am leichtesten als kurzes wiederkehrendes Ritual von wenigen Minuten und nicht als grosse Aufgabe. Auf wenige Schritte reduziert — Abstimmung, Klassifizierung, Ablage, Notiz —, schützt das Ritual die Buchhaltung vor dem Anwachsen von Rückständen, die sich am Jahresende zu einer einzigen schweren Operation summieren würden, und hält den Aufwand pro Monat klein und vorhersehbar genug, um zur normalen Routine der LLC zu gehören.
+Der monatliche Buchhaltungsabschluss liest sich am leichtesten als kurzes wiederkehrendes Ritual von wenigen Minuten und nicht als große Aufgabe. Auf wenige Schritte reduziert — Abstimmung, Klassifizierung, Ablage, Notiz —, schützt das Ritual die Buchhaltung vor dem Anwachsen von Rückständen, die sich am Jahresende zu einer einzigen schweren Operation summieren würden, und hält den Aufwand pro Monat klein und vorhersehbar genug, um zur normalen Routine der LLC zu gehören.
 <!-- /exentax:lote21-native-v1:bookkeeping-llc-paso-a-paso-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

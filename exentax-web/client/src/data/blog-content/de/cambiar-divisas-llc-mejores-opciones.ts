@@ -182,7 +182,7 @@ bereits einen Grossteil der Wechselfrage gelöst, ohne sich um
 externe Anbieter kümmern zu müssen.
 
 Externe Wechseldienste werden vor allem dann interessant, wenn
-die LLC monatlich grosse Beträge zwischen mehreren Währungen
+die LLC monatlich große Beträge zwischen mehreren Währungen
 bewegt oder wenn sie Kunden in einer Währung bedient, die im
 typischen Architektur nicht abgedeckt ist. In allen anderen Fällen ist
 die wirtschaftlichste Variante schlicht, die vorhandene Architektur

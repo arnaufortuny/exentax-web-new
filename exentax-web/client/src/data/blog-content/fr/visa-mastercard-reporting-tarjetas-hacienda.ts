@@ -198,7 +198,7 @@ Chez Exentax nous structurons l'usage avec comptabilité et déclaration correct
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

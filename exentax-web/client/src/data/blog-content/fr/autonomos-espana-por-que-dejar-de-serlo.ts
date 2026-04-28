@@ -63,7 +63,7 @@ Votre LLC en tant que Disregarded Entity de non-résident fonctionne avec la **p
 
 Avec une LLC, vous pouvez déduire comme charges opérationnelles tout ce qui est "ordinaire et nécessaire" pour votre activité:
 
-- **Tout votre configuration technologique**: hébergement, domaines, APIs, SaaS, outils d'IA
+- **Toute votre configuration technologique**: hébergement, domaines, APIs, SaaS, outils d'IA
 - **Matériel**: ordinateur, écran, casque, micro, caméra
 - **Formation**: cours, bootcamps, conférences, livres techniques
 - **Voyages d'affaires**: vols, hôtels, indemnités de repas (pour des réunions clients, événements du secteur)
@@ -148,7 +148,7 @@ L'information sur les fintechs et le CRS évolue; voici l'état actuel:
 <!-- exentax:legal-facts-v1 -->
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

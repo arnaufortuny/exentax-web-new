@@ -106,7 +106,7 @@ Die konkrete Anwendung dieser Regeln auf Ihren Fall hängt von Ihrem Steuerwohns
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 <!-- exentax:lote25-native-v1:irs-1120-5472-que-son-cuando-aplican-de -->
 ## Wie sich die Beziehung zwischen Form 1120 und Form 5472 als stabile jährliche Pflicht lesen lässt
@@ -224,7 +224,7 @@ Für staatsspezifische Details siehe unsere <a href="/de/leistungen/llc-wyoming"
 
 Für eine Single-Member LLC, die einer nicht-US Person gehört und für
 US-Steuerzwecke als disregarded behandelt wird, verlangt die IRS
-eine Pro-forma-1120-Hülle, die ausschliesslich als Träger für Form
+eine Pro-forma-1120-Hülle, die ausschließlich als Träger für Form
 5472 dient. Dieses Paar erhebt keine US-Steuer auf eine
 ausländisch gehaltene disregarded LLC; es dokumentiert, dass
 bestimmte meldepflichtige Transaktionen zwischen der LLC und ihrem
@@ -250,7 +250,7 @@ Eine Single-Member LLC mit einer Kapitaleinlage zur Gründung, einer
 kleinen monatlichen Entnahme an den ausländischen Eigentümer und
 keinen weiteren verbundenen Flüssen. Das 5472 meldet die Einlage und
 die Entnahmen; das Pro-forma-1120 trägt die Hülle. Die Saison
-dauert ein paar Stunden strukturierte Arbeit, einschliesslich
+dauert ein paar Stunden strukturierte Arbeit, einschließlich
 Buchhaltungs-Abgleich.
 
 Eine Single-Member LLC, die einer verbundenen ausländischen

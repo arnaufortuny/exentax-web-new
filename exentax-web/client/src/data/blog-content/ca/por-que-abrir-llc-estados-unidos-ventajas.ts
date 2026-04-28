@@ -247,7 +247,7 @@ A Exentax obrim la LLC amb tota l'arquitectura i modelem abans si t'aporta valor
 
 ## Fets legals i de procediment
 
-Les obligacions davant la FinCEN i l'IRS s'han mogut en recent years; aquest és l'estat vigent:
+Les obligacions davant la FinCEN i l'IRS han evolucionat els darrers anys; aquest és l'estat vigent:
 
 ### Punts clau
 

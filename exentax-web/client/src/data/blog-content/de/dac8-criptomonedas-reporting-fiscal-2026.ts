@@ -65,7 +65,7 @@ Der DAC8-Perimeter hält sich dauerhafter in einer kurzen, datierten Notiz fest,
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -215,9 +215,9 @@ lassen.
 <!-- /exentax:lote7-native-v1:dac8-criptomonedas-reporting-fiscal-2026-bis -->
 
 <!-- exentax:lote24-native-v1:dac8-criptomonedas-reporting-fiscal-2026-de-bis -->
-## Wie sich die DAC8-Notiz ohne grosse Vorbereitung jährlich pflegen lässt
+## Wie sich die DAC8-Notiz ohne große Vorbereitung jährlich pflegen lässt
 
-Die DAC8-Notiz pflegt sich jährlich ohne grosse Vorbereitung, wenn sie an den Jahresabschluss gekoppelt wird und nur dort angepasst wird, wo eine der drei Eckdaten — Plattform, Kontotyp, Meldejahr — real abgewichen ist.
+Die DAC8-Notiz pflegt sich jährlich ohne große Vorbereitung, wenn sie an den Jahresabschluss gekoppelt wird und nur dort angepasst wird, wo eine der drei Eckdaten — Plattform, Kontotyp, Meldejahr — real abgewichen ist.
 <!-- /exentax:lote24-native-v1:dac8-criptomonedas-reporting-fiscal-2026-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

@@ -68,7 +68,7 @@ Gibt es Fälle, in denen Hong Kong noch sinnvoll ist? Ja: Gesellschaften mit ech
 - **Bankenschließungen ohne Vorwarnung**: viele Halter berichten von einseitigen Schließungen mit 30 Tagen Frist und eingefrorenen Geldern.
 - **Pflichtprüfung**: bei Nichtvorlage verhängt die IRD Strafen und der Companies Registry kann die Auflösung anstoßen.
 - **Unfreiwillige Strike-off**: Versäumte Annual Returns können zur Streichung der Gesellschaft und zum Verlust von Geldern führen.
-- **BEPS Pillar Two Verschärfung**: ab recent years könnten mittelgroße multinationale Unternehmen den territorialen Vorteil verlieren.
+- **BEPS Pillar Two Verschärfung**: in den letzten Jahren könnten mittelgroße multinationale Unternehmen den territorialen Vorteil verlieren.
 ### Typische Anwendungsfälle
 
 **Fall 1: europäischer Berater mit Kunden in Singapur und Tokio.**
@@ -186,9 +186,9 @@ Die Hongkonger Gesellschaft liest sich am ehrlichsten als Profilfrage und nicht 
 
 Die Eignungsprüfung hält sich dauerhafter in einer kurzen, datierten Notiz fest, die die vier Variablen und die daraus folgende Schlussfolgerung auflistet.
 
-## Wie sich die jährliche Überprüfung ohne grosse Vorbereitung halten lässt
+## Wie sich die jährliche Überprüfung ohne große Vorbereitung halten lässt
 
-Die jährliche Überprüfung hält sich ohne grosse Vorbereitung, wenn sie strikt an die festgehaltenen vier Variablen gebunden bleibt und nur dort wieder eröffnet wird, wo eine der vier Variablen real abgewichen ist.
+Die jährliche Überprüfung hält sich ohne große Vorbereitung, wenn sie strikt an die festgehaltenen vier Variablen gebunden bleibt und nur dort wieder eröffnet wird, wo eine der vier Variablen real abgewichen ist.
 <!-- /exentax:lote23-native-v1:hong-kong-offshore-realidad-de -->
 
 <!-- exentax:legal-facts-v1 --><!-- exentax:execution-v2 -->
@@ -212,7 +212,7 @@ Bei Exentax prüfen wir bestehende HK-Fälle und vergleichen mit Alternativen (U
 
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 

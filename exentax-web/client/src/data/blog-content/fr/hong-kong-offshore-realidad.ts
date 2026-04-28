@@ -71,7 +71,7 @@ Au-delà du coût, les risques pratiques:
 - **Fermeture bancaire sans préavis**: beaucoup de titulaires racontent des fermetures unilatérales avec 30 jours de délai et blocage de fonds.
 - **Audit obligatoire**: si vous ne le présentez pas, l'IRD inflige des amendes et le Companies Registry peut demander la dissolution.
 - **Strike-off involontaire**: le non-respect des Annual Returns peut entraîner le striking-off et la perte de la société sans possibilité de récupérer les fonds.
-- **Durcissement BEPS Pillar Two**: à partir de recent years, les multinationales moyennes peuvent voir l'avantage territorial érodé.
+- **Durcissement BEPS Pillar Two**: ces dernières années, les multinationales moyennes peuvent voir l'avantage territorial érodé.
 ### Cas typiques où cela s'applique
 
 **Cas 1: consultant européen avec clients à Singapour et Tokyo.**
@@ -178,7 +178,7 @@ Chez Exentax nous révisons les cas HK existants et comparons avec alternatives 
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

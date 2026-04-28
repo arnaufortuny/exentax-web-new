@@ -148,7 +148,7 @@ Die Dokumentenablage hält sich am leichtesten als wiederkehrendes monatliches R
 <!-- exentax:legal-facts-v1 -->
 ## Rechts- und Verfahrensfakten
 
-Die Meldepflichten gegenüber FinCEN und IRS haben sich recent years bewegt; aktueller Stand:
+Die Meldepflichten gegenüber FinCEN und IRS haben sich in den letzten Jahren bewegt; aktueller Stand:
 
 ### Kernpunkte
 
@@ -196,9 +196,9 @@ Wenn Ihre Priorität die ITIN ist, siehe <a href="/de/leistungen/hol-deine-itin"
 <!-- /exentax:cta-conv-v1 -->
 
 <!-- exentax:lote23-native-v1:documentos-llc-cuales-necesitas-de-bis -->
-## Wie sich die Dokumentenliste ohne grosse Vorbereitung auf den neuesten Stand bringen lässt
+## Wie sich die Dokumentenliste ohne große Vorbereitung auf den neuesten Stand bringen lässt
 
-Die Dokumentenliste bringt sich ohne grosse Vorbereitung auf den neuesten Stand, wenn die Aktualisierung an einen festen Moment im Jahr gekoppelt wird — typischerweise den Jahresabschluss — und in wenigen Minuten geprüft wird, ob neue Dokumente aufgrund tatsächlicher Veränderungen im operativen Profil hinzugekommen sind oder ob die bestehende Ablage unverändert tragfähig bleibt.
+Die Dokumentenliste bringt sich ohne große Vorbereitung auf den neuesten Stand, wenn die Aktualisierung an einen festen Moment im Jahr gekoppelt wird — typischerweise den Jahresabschluss — und in wenigen Minuten geprüft wird, ob neue Dokumente aufgrund tatsächlicher Veränderungen im operativen Profil hinzugekommen sind oder ob die bestehende Ablage unverändert tragfähig bleibt.
 <!-- /exentax:lote23-native-v1:documentos-llc-cuales-necesitas-de-bis -->
 
 <!-- exentax:cross-refs-v1 -->

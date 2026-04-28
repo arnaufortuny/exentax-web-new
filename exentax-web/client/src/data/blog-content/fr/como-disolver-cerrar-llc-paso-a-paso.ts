@@ -128,7 +128,7 @@ Chacune se traduit en factures, sanctions ou demandes plusieurs mois ou années 
 
 Notre processus de **fermeture de LLC clé en main** suit exactement les sept étapes de ce guide. Vous nous donnez le contexte (État, année de constitution, situation bancaire, déclarations déposées, retards éventuels), nous concevons l'ordre, exécutons les déclarations finales, coordonnons avec le Registered Agent et vos banques, déposons la dissolution étatique, fermons l'EIN et, le cas échéant, mettons à jour le BOI Report. En cas de 5472 en retard, **phase préalable** de régularisation pour ne pas traîner d'exposition.
 
-Pour fermer votre LLC en toute sécurité, réservez une consultation gratuite: nous étudions votre situation, disons honnêtement s'il vaut mieux fermer ou pauser, et fournissons un plan de fermeture daté à devis fermé. Si au contraire la LLC reste pertinente mais que vous voulez baisser coûts et obligations, essayez d'abord notre <strong>calculatrice fiscale</strong> et comparez votre situation actuelle avec celle d'une LLC active avec la bon configuration: <a href="/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne">Wise Business, Relay et Slash en comptes opératifs, Mercury en secours, et Wallester uniquement quand un IBAN européen est requis</a>, avec l'analyse CRS qui s'impose.
+Pour fermer votre LLC en toute sécurité, réservez une consultation gratuite: nous étudions votre situation, disons honnêtement s'il vaut mieux fermer ou pauser, et fournissons un plan de fermeture daté à devis fermé. Si au contraire la LLC reste pertinente mais que vous voulez baisser coûts et obligations, essayez d'abord notre <strong>calculatrice fiscale</strong> et comparez votre situation actuelle avec celle d'une LLC active avec la bonne configuration: <a href="/fr/blog/wise-banques-et-llc-la-stack-bancaire-complete-que-personne">Wise Business, Relay et Slash en comptes opératifs, Mercury en secours, et Wallester uniquement quand un IBAN européen est requis</a>, avec l'analyse CRS qui s'impose.
 
 Bien fermer une LLC est un acte d'hygiène fiscale: ranger le passé pour libérer l'avenir. Cela vaut la peine, dans le bon ordre, avec qui l'a fait des centaines de fois.
 ## Conformité fiscale dans votre pays: CFC, transparence fiscale et attribution des revenus
@@ -225,7 +225,7 @@ Chez Exentax nous fermons des LLCs chaque mois et livrons le dossier complet (r�
 
 ## Faits légaux & de procédure
 
-Les obligations FinCEN et IRS ont bougé en recent years; voici la version en vigueur:
+Les obligations FinCEN et IRS ont évolué ces dernières années; voici la version en vigueur:
 
 ### Points clés
 

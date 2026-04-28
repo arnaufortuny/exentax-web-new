@@ -68,7 +68,7 @@ Para além do custo, os riscos práticos:
 - **Encerramento bancário sem aviso prévio**: muitos titulares relatam encerramentos unilaterais com 30 dias de prazo e bloqueio de fundos.
 - **Auditoria obrigatória**: se não a apresenta, a IRD impõe multas e o Companies Registry pode pedir a dissolução.
 - **Strike-off involuntário**: o incumprimento de Annual Returns pode provocar o striking-off e a perda da sociedade sem possibilidade de recuperar fundos.
-- **Endurecimento BEPS Pillar Two**: a partir de recent years, multinacionais médias podem ver a vantagem territorial erodida.
+- **Endurecimento BEPS Pillar Two**: nos últimos anos, multinacionais médias podem ver a vantagem territorial erodida.
 ### Casos típicos onde se aplica
 
 **Caso 1: consultor europeu com clientes em Singapura e Tóquio.**
@@ -181,7 +181,7 @@ Na Exentax revemos casos HK existentes e comparamos com alternativas (LLC US, EO
 
 ## Factos legais e de procedimento
 
-As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram em recent years; eis o estado atual:
+As obrigações junto da FinCEN e do <a href="https://www.irs.gov" target="_blank" rel="noopener">IRS</a> mudaram nos últimos anos; eis o estado atual:
 
 ### Pontos-chave
 
