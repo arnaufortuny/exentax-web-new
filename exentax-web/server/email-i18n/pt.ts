@@ -170,6 +170,44 @@ export const ptTranslations: EmailTranslations = {
       closing: "Um abraço,",
       unsubNote: "Recebeste este email porque começaste uma reserva em exentax.com.",
     },
+    calcDrip: {
+      ctaBook: "Marcar a minha consulta gratuita",
+      greeting: (name) => name ? `Olá ${name},` : "Olá,",
+      sigClosing: "Um abraço,",
+      unsubNote: "Recebes estes emails porque fizeste o cálculo em exentax.com. Se não te forem úteis, cancelas a subscrição com um clique.",
+      steps: [
+        {
+          subject: "O caso da Laura — passou de 19.800 € para 3.200 € em impostos",
+          paragraphs: [
+            "Há dois dias viste o teu próprio número de poupança. Hoje quero mostrar-te como isso se traduz na vida real.",
+            "A Laura é programadora freelancer em Madrid. Factura cerca de 78.000 € por ano a clientes nos Estados Unidos e no Canadá. Quando chegou até nós, pagava 19.800 € entre IRPF e Segurança Social — mais de 25 % do que ganha. Estava no limite.",
+            "Constituímos a LLC dela em Wyoming em menos de três semanas. Reestruturámos a forma como factura. Passámos parte da remuneração de salário para dividendos. Fechou o primeiro ano com 3.200 € de carga fiscal total — sim, isso inclui o IRPF residual em Espanha mais os impostos da LLC. De 19.800 € para 3.200 €.",
+            "Não é truque. É legal, está totalmente declarado em Espanha, e funciona porque a actividade dela encaixa no perfil que a estrutura LLC permite optimizar. O que mudou é que deixou de pagar a mais por desconhecer como o sistema está montado.",
+            "Se a tua simulação te deu um valor parecido — a maioria dos nossos clientes fica entre 10.000 € e 25.000 € de poupança anual — estás exactamente no mesmo ponto onde a Laura estava. A pergunta não é se a poupança é real (a tua simulação já respondeu). A pergunta é quando decides parar 30 minutos para vermos isto juntos.",
+          ],
+        },
+        {
+          subject: "As 3 dúvidas que me colocam SEMPRE (e como respondo)",
+          paragraphs: [
+            "Após três anos a montar LLCs para freelancers e pequenas empresas espanholas, ouço as mesmas três dúvidas em 90 % das primeiras chamadas. Vou respondê-las agora para que não te travem.",
+            "<strong>1. \"Isto é legal em Espanha?\"</strong> Sim, totalmente. A LLC é uma entidade reconhecida pela convenção para evitar a dupla tributação entre os EUA e Espanha, e como residente fiscal espanhol continuas a declarar cá. O que muda é a estrutura por onde passam os teus rendimentos: em vez de tributar tudo como rendimento de actividade independente, separamos a remuneração do sócio (continua tributada em Espanha) do lucro da sociedade (com tratamento fiscal muito mais eficiente). A administração fiscal conhece este enquadramento, está documentado, e milhares de pessoas fazem-no todos os anos.",
+            "<strong>2. \"E se for fiscalizado?\"</strong> É a pergunta que mais acalma assim que respondemos. Toda a estrutura fica documentada desde a origem: actas, contratos, modelos 720 / 721, contas separadas, cada movimento rastreado. Se a administração ligar, chegas com tudo na mão. E na prática: as LLCs bem montadas não levantam alertas, porque são declaradas exactamente como a administração espera.",
+            "<strong>3. \"Quanto demora e quanto custa manter?\"</strong> Constituição: 3 a 4 semanas. Depois, cerca de 600 € por ano — registo estatal, agente residente, contabilidade básica. Se a tua poupança estimada são 12.000 €, a manutenção fica abaixo de 5 %. O investimento paga-se no primeiro mês.",
+            "Se uma destas três ainda te trava, di-lo na chamada. É exactamente para isso que a consulta serve — para saíres com zero dúvidas e uma decisão clara, em qualquer dos sentidos.",
+          ],
+        },
+        {
+          subject: "Última coisa — falamos 30 minutos esta semana?",
+          paragraphs: [
+            "Dois emails respeitando o teu ritmo, e não quero ser insistente. Este é o último da série da calculadora.",
+            "A tua simulação deu-te um número concreto. Viste o caso real da Laura. Viste como respondo às três dúvidas mais comuns. Se ainda estás a ler, é porque alguma coisa encaixa.",
+            "A consulta dura 30 minutos, é gratuita e sem compromisso. Sais com três coisas claras: se o teu caso é viável, que poupança real podes esperar (não a simulação — o número para a tua situação real) e os passos exactos para começar se decidires avançar.",
+            "Se não for para ti, dizemo-lo com a mesma honestidade. Recusamos uma boa parte dos casos \"não é o teu momento\" — e preferimos assim. Mais vale dizer-te para esperares seis meses do que cobrar-te por algo que não te vai ajudar.",
+          ],
+          ps: "PS: se preferes perguntar por escrito antes de marcar, responde a este email. A Claudia lê pessoalmente e responde em menos de 24 h.",
+        },
+      ],
+    },
     drip: {
       ctaOpenGuide: "Abrir o meu guia",
       ctaCalculate: "Calcular as minhas poupanças",

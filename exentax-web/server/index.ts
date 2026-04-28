@@ -815,7 +815,11 @@ httpServer.listen(
             continue;
           }
           const meetingMs = getMeetingTimestampMs(m.meetingDate, m.startTime);
-          const reminderMs = meetingMs - 3 * 60 * 60 * 1000;
+          // Mirror the 24h offset used by `scheduleReminderEmail` so the
+          // recovery sweep agrees with the in-process timer about WHEN
+          // a reminder is "due" (otherwise a restart could either drop
+          // a reminder we already fired or fire one twice).
+          const reminderMs = meetingMs - 24 * 60 * 60 * 1000;
           const endTime = m.endTime || getEndTime(m.startTime);
           const manageUrl = m.manageToken ? `${SITE_URL}/booking/${m.id}?token=${m.manageToken}` : null;
           const payload = {

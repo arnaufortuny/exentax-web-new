@@ -6,23 +6,54 @@
  * helper), sends the next nurture step, and either schedules the next
  * step or marks the enrollment completed.
  *
- * The cadence is days 0, 3, 6, 9, 12, 15 — i.e. step 1 fires immediately
- * (sent inline by the route handler at enroll-time, not by this worker)
- * and steps 2–6 each follow the previous one by `STEP_DELAY_MS = 3 days`.
+ * Per-source cadence:
+ *  - `guide`      → 6 steps, 3-day cadence (days 0/3/6/9/12/15). Step 1
+ *    fires immediately (sent inline by the route handler at enroll-time
+ *    via `sendImmediateStep1`); the worker fires steps 2..6.
+ *  - `calculator` → 3 nurture steps, 2-day cadence (days 2/4/6 from
+ *    enrollment). The IMMEDIATE personalised report email on day 0 is
+ *    sent inline by the calculator route via `sendCalculatorEmail` and
+ *    is NOT counted as a drip step — the row enters with
+ *    `currentStep = 0` and `next_send_at = now() + 2d`, so the worker
+ *    fires step 1 first.
+ *  - `booking`    → legacy. New booking submissions no longer enroll
+ *    (the spec is: booking gets the confirmation + day-before reminder
+ *    only, plus newsletter membership). Existing in-flight rows keep
+ *    completing on the original 6-step / 3-day cadence so we don't
+ *    drop them mid-sequence.
  *
  * Failures are non-fatal: the storage helper records `last_error` and
  * releases the claim, so the row will be retried on the next due tick
  * (next_send_at is unchanged on failure — we don't compound delays).
  */
 import { logger } from "../logger";
-import { sendDripEmailOnce } from "../email";
+import { sendDripEmailOnce, sendCalcDripEmailOnce } from "../email";
 import {
   claimDueDripEnrollments,
   advanceDripEnrollment,
   markDripEnrollmentError,
 } from "../storage/marketing";
 
-const STEP_DELAY_MS = 3 * 24 * 60 * 60 * 1000; // 3 days
+const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+const STEP_DELAY_MS_BY_SOURCE: Record<string, number> = {
+  guide: 3 * ONE_DAY_MS,
+  booking: 3 * ONE_DAY_MS, // legacy — kept for in-flight rows
+  calculator: 2 * ONE_DAY_MS,
+};
+const TOTAL_STEPS_BY_SOURCE: Record<string, number> = {
+  guide: 6,
+  booking: 6, // legacy
+  calculator: 3,
+};
+const DEFAULT_DELAY_MS = 3 * ONE_DAY_MS;
+const DEFAULT_TOTAL_STEPS = 6;
+
+function totalStepsFor(source: string | null | undefined): number {
+  return TOTAL_STEPS_BY_SOURCE[source ?? ""] ?? DEFAULT_TOTAL_STEPS;
+}
+function delayMsFor(source: string | null | undefined): number {
+  return STEP_DELAY_MS_BY_SOURCE[source ?? ""] ?? DEFAULT_DELAY_MS;
+}
 
 // Treat a claim as crashed after 10 minutes — same window as the
 // transactional email queue. Long enough that a slow Gmail send never
@@ -36,13 +67,35 @@ let _draining = false;
 
 /**
  * Compute the ISO timestamp for the next step's send time. Returns
- * `null` when `nextStep` is past the final step (6) — the storage
- * helper interprets that as "completed", clearing `next_send_at` and
- * setting `completed_at`.
+ * `null` when `nextStep` is past the final step for this source — the
+ * storage helper interprets that as "completed", clearing
+ * `next_send_at` and setting `completed_at`.
  */
-function nextSendAtFor(nextStep: number): string | null {
-  if (nextStep > 6) return null;
-  return new Date(Date.now() + STEP_DELAY_MS).toISOString();
+function nextSendAtFor(source: string | null | undefined, nextStep: number): string | null {
+  if (nextStep > totalStepsFor(source)) return null;
+  return new Date(Date.now() + delayMsFor(source)).toISOString();
+}
+
+type ClaimedDripRow = Awaited<ReturnType<typeof claimDueDripEnrollments>>[number];
+
+/**
+ * Dispatch the right sender for the row's `source`. Calc-drip steps
+ * are typed 1..3; guide/booking steps are 1..6. The narrowing is safe
+ * because `stepToSend` is already clamped to `totalStepsFor(source)`
+ * by the caller.
+ */
+async function dispatchStep(row: ClaimedDripRow, stepToSend: number): Promise<void> {
+  const basePayload = {
+    email: row.email,
+    name: row.name ?? null,
+    language: row.language,
+    unsubToken: (row as { unsubscribeToken?: string | null }).unsubscribeToken ?? null,
+  };
+  if (row.source === "calculator") {
+    await sendCalcDripEmailOnce({ ...basePayload, step: stepToSend as 1 | 2 | 3 });
+    return;
+  }
+  await sendDripEmailOnce({ ...basePayload, step: stepToSend as 1 | 2 | 3 | 4 | 5 | 6 });
 }
 
 async function drainOnce(): Promise<void> {
@@ -56,31 +109,28 @@ async function drainOnce(): Promise<void> {
     if (claimed.length === 0) return;
 
     for (const row of claimed) {
+      const total = totalStepsFor(row.source);
       // currentStep is the LAST sent step (0 means none sent yet). The
-      // step we are about to send is currentStep + 1, capped at 6.
-      const stepToSend = Math.min(6, (row.currentStep ?? 0) + 1) as 1 | 2 | 3 | 4 | 5 | 6;
+      // step we are about to send is currentStep + 1, capped at the
+      // per-source total.
+      const stepToSend = Math.min(total, (row.currentStep ?? 0) + 1);
       try {
-        await sendDripEmailOnce({
-          email: row.email,
-          name: row.name ?? null,
-          language: row.language,
-          step: stepToSend,
-          unsubToken: (row as { unsubscribeToken?: string | null }).unsubscribeToken ?? null,
-        });
+        await dispatchStep(row, stepToSend);
         await advanceDripEnrollment({
           id: row.id,
           toStep: stepToSend,
-          nextSendAt: nextSendAtFor(stepToSend + 1),
+          nextSendAt: nextSendAtFor(row.source, stepToSend + 1),
         });
+        const completed = stepToSend >= total ? " (completed)" : "";
         logger.info(
-          `Drip worker: enrollment ${row.id} advanced to step ${stepToSend}${stepToSend === 6 ? " (completed)" : ""}`,
+          `Drip worker: enrollment ${row.id} (${row.source}) advanced to step ${stepToSend}${completed}`,
           "drip-worker",
         );
       } catch (err) {
         const message = err instanceof Error ? err.message : String(err);
         await markDripEnrollmentError({ id: row.id, error: message });
         logger.warn(
-          `Drip worker: enrollment ${row.id} step ${stepToSend} failed: ${message.slice(0, 200)}`,
+          `Drip worker: enrollment ${row.id} (${row.source}) step ${stepToSend} failed: ${message.slice(0, 200)}`,
           "drip-worker",
         );
       }
@@ -114,12 +164,19 @@ export function stopDripWorker(): void {
 }
 
 /**
- * Helper for the route layer: schedule step 1 to fire immediately
- * after a fresh enrollment is created. Sent in fire-and-forget mode
- * because the HTTP response should not wait on Gmail RTT.
+ * Helper for the route layer: schedule guide-drip step 1 to fire
+ * immediately after a fresh GUIDE enrollment is created. Sent in
+ * fire-and-forget mode because the HTTP response should not wait on
+ * Gmail RTT.
  *
  * On failure, the enrollment row keeps `current_step = 0` and the
  * worker will pick it up on its next tick (next_send_at is "now()").
+ *
+ * Calculator enrollments do NOT use this helper — their day-0 email
+ * is the personalised report sent inline by the calculator route via
+ * `sendCalculatorEmail`, and the row is created with
+ * `next_send_at = now() + 2d` so the worker fires step 1 (Laura case)
+ * after the cadence delay.
  */
 export async function sendImmediateStep1(args: {
   id: string;
@@ -139,7 +196,7 @@ export async function sendImmediateStep1(args: {
     await advanceDripEnrollment({
       id: args.id,
       toStep: 1,
-      nextSendAt: nextSendAtFor(2),
+      nextSendAt: nextSendAtFor("guide", 2),
     });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);

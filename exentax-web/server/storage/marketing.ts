@@ -153,14 +153,21 @@ export async function updateNewsletterSubscriber(id: string, updates: Partial<s.
 // background worker (server/scheduled/drip-worker.ts) advances steps 2–6
 // on the day-3/6/9/12/15 cadence.
 
-export type DripSource = "guide" | "booking";
+export type DripSource = "guide" | "booking" | "calculator";
 
 /**
- * Atomically create an active drip enrollment for `email` at step 0
- * with `nextSendAt = now()`. If an active enrollment already exists for
- * the email (completed_at IS NULL), the partial unique index causes
+ * Atomically create an active drip enrollment for `email` at step 0.
+ * If an active enrollment already exists for the email
+ * (`completed_at IS NULL`), the partial unique index causes
  * `ON CONFLICT DO NOTHING` to silently no-op and we return `null` so
  * the caller can skip the immediate-step send too.
+ *
+ * `nextSendAt` defaults to `now()` (used by the GUIDE flow, where step
+ * 1 is sent inline by the route handler via `sendImmediateStep1`). The
+ * CALCULATOR flow passes `nextSendAt = now() + 2 days` so the worker
+ * fires step 1 (Laura case) two days after the immediate personalised
+ * report email — the spec is 4 emails total at days 0/2/4/6 and the
+ * day-0 email is `sendCalculatorEmail`, not a drip step.
  *
  * Returns the freshly inserted row, or `null` if the email already has
  * an active enrollment (idempotent across page reloads / double-submits
@@ -171,10 +178,16 @@ export async function tryCreateDripEnrollment(opts: {
   name?: string | null;
   language: string;
   source: DripSource;
+  /**
+   * Optional override. When omitted, defaults to "now" (the guide
+   * flow's contract). Calculator passes "+2 days" so the worker waits
+   * for the configured cadence before firing step 1.
+   */
+  nextSendAt?: string;
 }): Promise<s.DripEnrollment | null> {
   try {
     const id = generateId("DRIP");
-    const nowIso = new Date().toISOString();
+    const nextSendAt = opts.nextSendAt ?? new Date().toISOString();
     const cleanName = opts.name?.trim() || null;
     // RFC 8058 one-click unsubscribe token, generated alongside the row so
     // every drip email can carry a `List-Unsubscribe` header pointing to a
@@ -183,7 +196,7 @@ export async function tryCreateDripEnrollment(opts: {
     const unsubToken = (await import("node:crypto")).randomBytes(32).toString("hex");
     const inserted = await db.execute(sql`
       INSERT INTO drip_enrollments (id, email, name, language, source, current_step, next_send_at, unsubscribe_token)
-      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, ${nowIso}, ${unsubToken})
+      VALUES (${id}, ${opts.email}, ${cleanName}, ${opts.language}, ${opts.source}, 0, ${nextSendAt}, ${unsubToken})
       ON CONFLICT (email) WHERE completed_at IS NULL DO NOTHING
       RETURNING id, email, name, language, source, current_step AS "currentStep",
                 next_send_at AS "nextSendAt", completed_at AS "completedAt",
@@ -199,10 +212,13 @@ export async function tryCreateDripEnrollment(opts: {
 }
 
 /**
- * Mark step `n` as just-sent and schedule step `n+1` for `nextDelayMs`
- * from now. When `n === 6`, sets `completed_at` and clears
- * `next_send_at` so the active-uniq index releases the email for any
- * future re-enrollment.
+ * Mark step `n` as just-sent and schedule the next send for `opts.nextSendAt`.
+ * The worker passes `nextSendAt = null` when `n` was the final step for that
+ * source (guide=6, calculator=3, legacy booking=6). In that case we set
+ * `completed_at = now()` and leave `next_send_at = null` so the
+ * `drip_enrollments_active_email_uniq` partial index releases the email for
+ * any future re-enrollment (e.g. user does the calculator and later requests
+ * the guide).
  */
 export async function advanceDripEnrollment(opts: {
   id: string;
@@ -210,10 +226,11 @@ export async function advanceDripEnrollment(opts: {
   nextSendAt: string | null;
 }) {
   try {
-    const completedAt = opts.toStep >= 6 ? new Date().toISOString() : null;
+    const isFinalStep = opts.nextSendAt === null;
+    const completedAt = isFinalStep ? new Date().toISOString() : null;
     await db.update(s.dripEnrollments).set({
       currentStep: opts.toStep,
-      nextSendAt: opts.toStep >= 6 ? null : opts.nextSendAt,
+      nextSendAt: opts.nextSendAt,
       completedAt,
       claimedAt: null,
       lastError: null,

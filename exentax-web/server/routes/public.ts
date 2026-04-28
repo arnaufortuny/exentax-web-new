@@ -682,30 +682,22 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
-        // Enroll booking lead in the 6-step drip sequence. Idempotent
-        // (partial unique index on active enrollments) so a contact who
-        // already signed up via the footer guide just keeps their
-        // existing schedule — no duplicate sequence is started.
-        // Await the row insert (the e2e test queries the table right
-        // after the booking response). Step-1 send stays fire-and-forget.
-        try {
-          const enrollment = await tryCreateDripEnrollment({
+        // Newsletter membership for booking leads (gated on explicit
+        // marketing consent). Per spec: booking flow is transactional —
+        // confirmation + day-before reminder only — and the lead joins
+        // the monthly newsletter list as their ongoing touchpoint. No
+        // drip sequence is started for booking submissions: the guide
+        // drip is for guide PDF requests; the calculator drip is for
+        // calculator submissions. Booking has its own dedicated
+        // operational thread (reschedule / reminder / cancellation /
+        // post-meeting follow-up) and does not need a marketing drip.
+        if (marketingAccepted) {
+          upsertNewsletterSubscriber(
             email,
-            name: name || null,
-            language: language || "es",
-            source: "booking",
-          });
-          if (enrollment) {
-            void sendImmediateStep1({
-              id: enrollment.id,
-              email: enrollment.email,
-              name: enrollment.name ?? null,
-              language: enrollment.language,
-              unsubToken: enrollment.unsubscribeToken,
-            });
-          }
-        } catch (err) {
-          logger.warn(`Drip enrollment (booking) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
+            name || "",
+            "booking",
+            ["fiscalidad", "llc"],
+          ).catch((err) => logger.warn(`Newsletter upsert (booking) error: ${err instanceof Error ? err.message : String(err)}`, "newsletter"));
         }
 
         notifyBookingCreated({ bookingId: bookingLeadId, name, lastName, email, phone, date, startTime, endTime, meetLink, meetingType, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
@@ -1062,6 +1054,23 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
         ["fiscalidad", "llc"]
       ).catch((err) => logger.error("calculator subscribe error:", "newsletter", err));
       notifyNewsletterSubscribe({ email: normalizedEmail, source: "calculadora_marketing", language: parsed.data.language, ip: calcIp });
+
+      // Enroll in the calculator nurture drip (3 follow-up emails on
+      // days 2 / 4 / 6 from now). The day-0 personalised report is
+      // sent inline above by `sendCalculatorEmail`; this enrollment
+      // schedules step 1 (Laura case) for +2d and the worker handles
+      // the rest. Idempotent via the partial unique index on active
+      // enrollments — a contact who already has an active guide drip
+      // simply keeps it. Gated on explicit marketing consent, same
+      // rule as the newsletter row.
+      const calcFirstNurtureAt = new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toISOString();
+      tryCreateDripEnrollment({
+        email: normalizedEmail,
+        name: null, // calculator form does not collect name
+        language: parsed.data.language || "es",
+        source: "calculator",
+        nextSendAt: calcFirstNurtureAt,
+      }).catch((err) => logger.warn(`Drip enrollment (calculator) error: ${err instanceof Error ? err.message : String(err)}`, "drip"));
     }
 
     notifyCalculatorLead({

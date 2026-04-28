@@ -170,6 +170,44 @@ export const frTranslations: EmailTranslations = {
       closing: "Bien à vous,",
       unsubNote: "Tu as reçu cet email parce que tu as commencé une réservation sur exentax.com.",
     },
+    calcDrip: {
+      ctaBook: "Réserver ma consultation gratuite",
+      greeting: (name) => name ? `Bonjour ${name},` : "Bonjour,",
+      sigClosing: "Bien à vous,",
+      unsubNote: "Vous recevez ces e-mails parce que vous avez utilisé le calculateur sur exentax.com. S'ils ne vous sont pas utiles, un clic suffit pour vous désinscrire.",
+      steps: [
+        {
+          subject: "Le cas de Laura — elle est passée de 19 800 € à 3 200 € d'impôts",
+          paragraphs: [
+            "Il y a deux jours, vous avez vu votre propre estimation d'économies. Aujourd'hui, je veux vous montrer ce que cela donne dans la vraie vie.",
+            "Laura est développeuse freelance à Madrid. Elle facture environ 78 000 € par an à des clients aux États-Unis et au Canada. Quand elle est arrivée chez nous, elle payait 19 800 € entre impôt sur le revenu et cotisations de travailleur indépendant — plus de 25 % de ce qu'elle gagne. Elle était à bout.",
+            "Nous avons monté sa LLC dans le Wyoming en moins de trois semaines. Nous avons restructuré sa façon de facturer. Nous avons basculé une partie de sa rémunération du salaire vers les dividendes. Sa première année s'est clôturée avec 3 200 € de charge fiscale totale — oui, cela inclut l'impôt espagnol résiduel et la fiscalité de la LLC. De 19 800 € à 3 200 €.",
+            "Ce n'est pas une astuce. C'est légal, entièrement déclaré en Espagne, et cela fonctionne parce que son activité correspond au profil que la structure LLC est conçue pour optimiser. Ce qui a changé, c'est qu'elle a cessé de payer trop par méconnaissance du système.",
+            "Si votre simulation vous a donné un chiffre similaire — la plupart de nos clients se situent entre 10 000 € et 25 000 € d'économies annuelles — vous êtes exactement là où Laura était. La question n'est pas de savoir si l'économie est réelle (votre simulation y a déjà répondu). La question, c'est quand vous décidez de prendre 30 minutes pour en parler avec moi.",
+          ],
+        },
+        {
+          subject: "Les 3 doutes qu'on me pose TOUJOURS (et comment j'y réponds)",
+          paragraphs: [
+            "Après trois ans à monter des LLC pour des freelances et des PME espagnoles, j'entends les mêmes trois doutes dans 90 % des premiers appels. Je vais y répondre maintenant pour qu'ils ne vous freinent plus.",
+            "<strong>1. « Est-ce légal en Espagne ? »</strong> Oui, totalement. La LLC est une entité reconnue par la convention fiscale entre les États-Unis et l'Espagne, et en tant que résident fiscal espagnol vous continuez à déclarer ici. Ce qui change, c'est la structure par laquelle passent vos revenus : au lieu de tout taxer comme revenu d'activité indépendante, on sépare la rémunération de l'associé (toujours imposée en Espagne) du bénéfice de la société (avec un traitement fiscal beaucoup plus efficace). L'administration fiscale connaît ce dispositif, il est documenté, et des milliers de personnes le font chaque année.",
+            "<strong>2. « Et si je suis contrôlé ? »</strong> C'est la question qui rassure le plus une fois la réponse donnée. Toute la structure est documentée dès le départ : procès-verbaux, contrats, formulaires 720 / 721, comptes séparés, traçabilité de chaque opération. Si l'administration appelle, vous arrivez avec tout en main. Et concrètement : les LLC bien montées ne déclenchent pas d'alertes, parce qu'elles sont déclarées exactement comme l'administration s'y attend.",
+            "<strong>3. « Combien de temps et combien ça coûte à entretenir ? »</strong> Constitution : 3 à 4 semaines. Ensuite, environ 600 € par an — enregistrement de l'État, agent désigné, comptabilité de base. Si votre économie estimée est de 12 000 €, l'entretien représente moins de 5 %. L'investissement se rentabilise dès le premier mois.",
+            "Si l'un de ces trois points vous freine encore, dites-le pendant l'appel. C'est exactement à ça que sert la consultation — pour que vous repartiez sans aucun doute, avec une décision claire dans un sens ou dans l'autre.",
+          ],
+        },
+        {
+          subject: "Dernière chose — on en parle 30 minutes cette semaine ?",
+          paragraphs: [
+            "Deux e-mails en respectant votre rythme, et je ne veux pas en faire trop. C'est le dernier de la série du calculateur.",
+            "Votre simulation vous a donné un chiffre concret. Vous avez vu le cas réel de Laura. Vous avez vu comment je réponds aux trois doutes les plus fréquents. Si vous lisez encore, c'est qu'il y a quelque chose qui colle.",
+            "La consultation dure 30 minutes, elle est gratuite et sans engagement. Vous repartez avec trois choses claires : si votre cas est viable, quelles économies réelles vous pouvez espérer (pas la simulation — le chiffre pour votre situation réelle), et les étapes exactes pour démarrer si vous le décidez.",
+            "Si ce n'est pas pour vous, on vous le dit avec la même honnêteté. Nous écartons une bonne part de cas « ce n'est pas le moment » — et c'est tant mieux. Mieux vaut vous dire d'attendre six mois que vous facturer pour quelque chose qui ne vous apportera rien.",
+          ],
+          ps: "PS : si vous préférez poser vos questions par écrit avant de réserver, répondez à cet e-mail. Claudia le lit personnellement et vous répond sous 24 h.",
+        },
+      ],
+    },
     drip: {
       ctaOpenGuide: "Ouvrir mon guide",
       ctaCalculate: "Calculer mes économies",

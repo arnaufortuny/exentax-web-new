@@ -170,6 +170,44 @@ export const esTranslations: EmailTranslations = {
       closing: "Un abrazo,",
       unsubNote: "Has recibido este email porque empezaste una reserva en exentax.com.",
     },
+    calcDrip: {
+      ctaBook: "Reservar mi consulta gratuita",
+      greeting: (name) => name ? `Hola ${name},` : "Hola,",
+      sigClosing: "Un abrazo,",
+      unsubNote: "Recibes estos correos porque hiciste el cálculo en exentax.com. Si no te aportan, te das de baja con un clic.",
+      steps: [
+        {
+          subject: "El caso de Laura — antes pagaba 19.800 €, ahora paga 3.200 €",
+          paragraphs: [
+            "Hace dos días viste cuánto podrías ahorrar tú. Hoy quiero contarte una historia real.",
+            "Laura es desarrolladora freelance en Madrid. Factura unos 78.000 € al año a clientes en Estados Unidos y Canadá. Cuando llegó a nosotros estaba pagando 19.800 € entre IRPF y cuota de autónomos — más de un 25 % de lo que ingresa. Estaba al límite.",
+            "Hicimos su LLC en Wyoming en menos de tres semanas. Reestructuramos cómo factura. Trasladamos parte de su retribución como dividendos en lugar de sueldo. El primer año cerró con 3.200 € de carga fiscal total. Sí, entre IRPF español residual + impuestos LLC. Pasó de 19.800 € a 3.200 €.",
+            "No es magia ni un truco. Es legal, está perfectamente declarado en España, y se sostiene porque su actividad encaja con el perfil que la LLC permite optimizar. Lo que cambió es que dejó de pagar de más por desconocer cómo está montado el sistema.",
+            "Si tu cálculo te dio una cifra parecida — y muchos clientes nuestros vienen con ahorros estimados entre 10.000 € y 25.000 € al año — significa que estás en el mismo punto en el que estaba Laura. La pregunta no es si el ahorro es real (tu propia simulación ya te lo dijo). La pregunta es cuándo decides pararte 30 minutos a verlo conmigo.",
+          ],
+        },
+        {
+          subject: "Las 3 dudas que SIEMPRE me plantean (y cómo las respondo)",
+          paragraphs: [
+            "Después de tres años montando LLCs para freelancers y pymes españolas, he escuchado las mismas tres dudas en el 90 % de las primeras llamadas. Te las respondo ahora para que no te frenen.",
+            "<strong>1. \"¿Esto es legal en España?\"</strong> Sí, completamente. La LLC es una entidad reconocida en el convenio para evitar la doble imposición entre EE. UU. y España, y como residente fiscal español sigues declarando aquí. Lo que cambia es la estructura por la que entran tus ingresos: pasas de tributar todo como rendimiento de actividades económicas a separar lo que es retribución del socio (sigue tributando en España) y lo que es beneficio de la sociedad (con un trato fiscal mucho más eficiente). Hacienda lo conoce, está documentado, y se hace por miles cada año.",
+            "<strong>2. \"¿Y si me hacen una inspección?\"</strong> Es la pregunta que más calma cuando la respondemos. Toda la estructura queda documentada de origen: actas, contratos, modelos 720 / 721, cuentas separadas, justificantes de cada movimiento. Si Hacienda llama, llegas con todo en la mano. Y la realidad: las LLCs bien montadas no levantan banderas, porque se declaran exactamente como Hacienda espera que se declaren.",
+            "<strong>3. \"¿Cuánto tarda y cuánto cuesta mantenerla?\"</strong> Constitución: 3 a 4 semanas. Después, mantenimiento anual de unos 600 € — registro estatal, agente residente, contabilidad básica. Si tu ahorro estimado son 12.000 €, el mantenimiento es menos del 5 %. La inversión se devuelve sola el primer mes.",
+            "Si una de estas tres todavía te frena, dilo en la llamada. Para eso es la consulta — para que salgas con cero dudas y una decisión clara, sea cual sea.",
+          ],
+        },
+        {
+          subject: "Última cosa — ¿hablamos 30 minutos esta semana?",
+          paragraphs: [
+            "Llevo dos correos respetando tu ritmo y no quiero ser pesado. Este es el último de la serie de la calculadora.",
+            "Tu simulación te dio una cifra de ahorro concreta. Has visto el caso real de Laura. Has visto cómo respondemos las tres dudas más habituales. Si aún sigues leyendo, es porque hay algo que te encaja.",
+            "La consulta es de 30 minutos, gratuita y sin compromiso. Salimos con tres cosas claras: si tu caso es viable o no, qué ahorro real puedes esperar (no la simulación, el número con tu situación concreta), y los pasos exactos para empezar si decides hacerlo.",
+            "Si no es para ti, lo decimos con la misma honestidad. Tenemos un margen alto de \"no es tu momento\" — y lo preferimos así. Mejor decirte que esperes seis meses que cobrarte por algo que no te va a aportar.",
+          ],
+          ps: "PD: si prefieres preguntar por escrito antes de reservar, responde a este email. Lee Claudia personalmente y te contesta en menos de 24 h.",
+        },
+      ],
+    },
     drip: {
       ctaOpenGuide: "Abrir mi guía",
       ctaCalculate: "Calcular mi ahorro",

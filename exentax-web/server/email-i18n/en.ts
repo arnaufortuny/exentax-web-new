@@ -170,6 +170,44 @@ export const enTranslations: EmailTranslations = {
       closing: "Warmly,",
       unsubNote: "You received this email because you started a booking on exentax.com.",
     },
+    calcDrip: {
+      ctaBook: "Book my free consultation",
+      greeting: (name) => name ? `Hi ${name},` : "Hi there,",
+      sigClosing: "Best,",
+      unsubNote: "You're getting these because you ran the calculator on exentax.com. If they're not useful, one click unsubscribes you.",
+      steps: [
+        {
+          subject: "Laura's case — she went from €19,800 to €3,200 in tax",
+          paragraphs: [
+            "Two days ago you saw your own savings number. Today I want to show you what that looks like in real life.",
+            "Laura is a freelance developer in Madrid. She bills around €78,000 a year to clients in the US and Canada. When she came to us she was paying €19,800 between income tax and self-employed contributions — over 25 % of what she earns. She was burning out.",
+            "We set up her LLC in Wyoming in under three weeks. We restructured how she invoices. We shifted part of her compensation from salary to dividends. Her first year closed with €3,200 in total tax — yes, that includes the residual Spanish income tax plus US LLC tax. From €19,800 to €3,200.",
+            "It isn't a trick. It's legal, fully declared in Spain, and it works because her activity fits the profile the LLC structure is designed to optimize. What changed is that she stopped overpaying for not knowing how the system was built.",
+            "If your calculator gave you a similar figure — most of our clients land between €10,000 and €25,000 in annual savings — then you're standing exactly where Laura was. The question isn't whether the savings are real (your simulation already answered that). The question is when you decide to spend 30 minutes walking through it with me.",
+          ],
+        },
+        {
+          subject: "The 3 doubts I ALWAYS hear (and how I answer them)",
+          paragraphs: [
+            "After three years setting up LLCs for Spanish freelancers and small companies, I hear the same three doubts in 90 % of first calls. Let me answer them now so they don't hold you back.",
+            "<strong>1. \"Is this legal in Spain?\"</strong> Yes, completely. The LLC is a recognized entity under the US–Spain double-taxation treaty, and as a Spanish tax resident you keep filing here. What changes is the structure your income flows through: instead of taxing everything as self-employed income, we separate partner compensation (still taxed in Spain) from company profit (with much more efficient treatment). The Spanish tax agency knows about this, it's documented, and thousands of people do it every year.",
+            "<strong>2. \"What happens if I get audited?\"</strong> This is the question that calms people the most when we answer it. The whole structure is documented from day one: minutes, contracts, forms 720 / 721, separate accounts, every transaction traced. If the tax agency calls, you walk in with everything in hand. And in practice: well-built LLCs don't raise flags, because they're declared exactly the way the agency expects.",
+            "<strong>3. \"How long does it take and what does it cost to maintain?\"</strong> Setup: 3 to 4 weeks. After that, around €600 a year — state registration, registered agent, basic accounting. If your estimated savings are €12,000, the maintenance is under 5 %. The investment pays itself back in the first month.",
+            "If one of these three is still holding you back, say it on the call. That's what the consultation is for — so you walk out with zero doubts and a clear decision either way.",
+          ],
+        },
+        {
+          subject: "Last one — shall we talk for 30 minutes this week?",
+          paragraphs: [
+            "Two emails respecting your pace and I don't want to overdo it. This is the last one in the calculator series.",
+            "Your simulation gave you a concrete number. You've seen Laura's real case. You've seen how I answer the three most common doubts. If you're still reading, something is fitting.",
+            "The consultation is 30 minutes, free, no commitment. You leave with three things clear: whether your case is viable, what real savings you can expect (not the simulation — the number for your actual situation), and the exact steps to start if you decide to.",
+            "If it isn't for you, we'll say so with the same honesty. We turn down a fair share of \"not your moment\" cases — and we prefer it that way. Better to tell you to wait six months than charge you for something that won't help.",
+          ],
+          ps: "PS: if you'd rather ask in writing before booking, just reply to this email. Claudia reads it personally and answers within 24 h.",
+        },
+      ],
+    },
     drip: {
       ctaOpenGuide: "Open my guide",
       ctaCalculate: "Calculate my savings",

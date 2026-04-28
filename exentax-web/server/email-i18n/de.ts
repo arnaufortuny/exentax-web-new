@@ -170,6 +170,44 @@ export const deTranslations: EmailTranslations = {
       closing: "Beste Grüße,",
       unsubNote: "Du hast diese E-Mail erhalten, weil du auf exentax.com mit einer Buchung begonnen hast.",
     },
+    calcDrip: {
+      ctaBook: "Kostenloses Erstgespräch buchen",
+      greeting: (name) => name ? `Hallo ${name},` : "Hallo,",
+      sigClosing: "Liebe Grüße,",
+      unsubNote: "Du erhältst diese Mails, weil du den Rechner auf exentax.com benutzt hast. Wenn sie nichts bringen, meldest du dich mit einem Klick ab.",
+      steps: [
+        {
+          subject: "Lauras Fall — von 19.800 € auf 3.200 € Steuern",
+          paragraphs: [
+            "Vor zwei Tagen hast du deine eigene Ersparniszahl gesehen. Heute will ich dir zeigen, wie das im echten Leben aussieht.",
+            "Laura ist freiberufliche Entwicklerin in Madrid. Sie stellt Kunden in den USA und Kanada rund 78.000 € pro Jahr in Rechnung. Als sie zu uns kam, zahlte sie 19.800 € zwischen Einkommensteuer und Selbstständigen-Beiträgen — über 25 % von dem, was sie verdient. Sie war am Limit.",
+            "Wir haben ihre LLC in Wyoming in unter drei Wochen aufgesetzt. Wir haben umstrukturiert, wie sie fakturiert. Wir haben einen Teil ihrer Vergütung von Gehalt auf Dividende umgestellt. Ihr erstes Jahr endete mit 3.200 € gesamter Steuerlast — ja, inklusive der spanischen Resteinkommensteuer und der LLC-Steuer. Von 19.800 € auf 3.200 €.",
+            "Das ist kein Trick. Es ist legal, in Spanien vollständig deklariert, und es funktioniert, weil ihre Tätigkeit zum Profil passt, das die LLC-Struktur optimiert. Was sich geändert hat: Sie hat aufgehört, zu viel zu zahlen, weil sie nicht wusste, wie das System aufgebaut ist.",
+            "Wenn dein Rechner eine ähnliche Zahl ergeben hat — die meisten unserer Kunden landen zwischen 10.000 € und 25.000 € jährlicher Ersparnis — dann stehst du genau dort, wo Laura stand. Die Frage ist nicht, ob die Ersparnis real ist (deine Simulation hat das schon beantwortet). Die Frage ist, wann du dir 30 Minuten nimmst, um es mit mir durchzugehen.",
+          ],
+        },
+        {
+          subject: "Die 3 Zweifel, die ich IMMER höre (und wie ich sie beantworte)",
+          paragraphs: [
+            "Nach drei Jahren, in denen ich LLCs für spanische Freiberufler und kleine Unternehmen aufsetze, höre ich in 90 % der Erstgespräche dieselben drei Zweifel. Ich beantworte sie jetzt, damit sie dich nicht bremsen.",
+            "<strong>1. „Ist das in Spanien legal?\"</strong> Ja, vollständig. Die LLC ist eine im Doppelbesteuerungsabkommen zwischen den USA und Spanien anerkannte Gesellschaftsform, und als spanischer Steueransässiger erklärst du weiter hier. Was sich ändert, ist die Struktur, durch die deine Einkünfte fließen: Statt alles als selbstständige Einkünfte zu versteuern, trennen wir die Gesellschaftervergütung (weiter in Spanien besteuert) vom Unternehmensgewinn (mit deutlich effizienterer Behandlung). Die spanische Steuerbehörde kennt das, es ist dokumentiert, und Tausende Menschen machen es jedes Jahr.",
+            "<strong>2. „Was, wenn ich geprüft werde?\"</strong> Das ist die Frage, die am meisten beruhigt, sobald die Antwort kommt. Die gesamte Struktur ist von Anfang an dokumentiert: Protokolle, Verträge, Formulare 720 / 721, getrennte Konten, jede Bewegung nachvollziehbar. Wenn die Steuerbehörde anruft, kommst du mit allem in der Hand an. Und in der Praxis: Gut aufgesetzte LLCs werfen keine Flaggen, weil sie genau so deklariert werden, wie es die Behörde erwartet.",
+            "<strong>3. „Wie lange dauert das und was kostet die Pflege?\"</strong> Gründung: 3 bis 4 Wochen. Danach rund 600 € pro Jahr — Eintrag im Bundesstaat, Registered Agent, Basis-Buchhaltung. Wenn deine geschätzte Ersparnis 12.000 € beträgt, sind die Pflegekosten unter 5 %. Die Investition rechnet sich im ersten Monat.",
+            "Wenn dich einer dieser drei Punkte noch bremst, sag es im Gespräch. Genau dafür ist das Erstgespräch da — damit du mit null Zweifeln und einer klaren Entscheidung rausgehst, in welche Richtung auch immer.",
+          ],
+        },
+        {
+          subject: "Letzter Schritt — sprechen wir 30 Minuten diese Woche?",
+          paragraphs: [
+            "Zwei E-Mails, in denen ich dein Tempo respektiere, und ich will es nicht übertreiben. Das ist die letzte aus der Rechner-Serie.",
+            "Deine Simulation hat dir eine konkrete Zahl gegeben. Du hast Lauras realen Fall gesehen. Du hast gesehen, wie ich die drei häufigsten Zweifel beantworte. Wenn du noch liest, passt da etwas zusammen.",
+            "Das Erstgespräch dauert 30 Minuten, ist kostenlos und unverbindlich. Du gehst mit drei klaren Dingen raus: ob dein Fall machbar ist, welche reale Ersparnis du erwarten kannst (nicht die Simulation — die Zahl für deine konkrete Situation) und die exakten Schritte, um zu starten, wenn du dich dafür entscheidest.",
+            "Wenn es nichts für dich ist, sagen wir es mit derselben Ehrlichkeit. Wir sortieren einen guten Teil der „nicht dein Moment\"-Fälle aus — und das ist gut so. Lieber sagen wir dir, du sollst sechs Monate warten, als dir etwas zu berechnen, das dir nichts bringt.",
+          ],
+          ps: "PS: Wenn du lieber schriftlich Fragen stellst, bevor du buchst, antworte einfach auf diese E-Mail. Claudia liest sie persönlich und antwortet innerhalb von 24 h.",
+        },
+      ],
+    },
     drip: {
       ctaOpenGuide: "Meinen Leitfaden öffnen",
       ctaCalculate: "Meine Ersparnis berechnen",

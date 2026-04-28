@@ -54,6 +54,7 @@ export type EmailRetryType =
   | "calculator_report"
   | "incomplete_booking_reminder"
   | "drip_step"
+  | "calc_drip_step"
   | "newsletter_broadcast";
 
 const MAX_ATTEMPTS = 6;

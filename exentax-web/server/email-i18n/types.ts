@@ -137,6 +137,30 @@ export interface EmailTranslations {
     closing: string;
     unsubNote: string;
   };
+  /**
+   * Calculator nurture sequence — 3 follow-up emails after the
+   * immediate personalized result (which is sent inline by
+   * `sendCalculatorEmail`, not by the drip worker). The 3 steps fire
+   * on day 2, day 4, day 6 from the calculator submission. Together
+   * with the immediate email this makes the 4-email calculator flow:
+   *   step 0 (inline)  — personalized result + CTA to advisory
+   *   step 1 (day 2)   — Laura case study reinforcing the decision
+   *   step 2 (day 4)   — destroying the 3 main objections
+   *   step 3 (day 6)   — final CTA to advisory
+   * Only the 3 nurture steps live here; the immediate email lives
+   * under the `calculator` key above.
+   */
+  calcDrip: {
+    ctaBook: string;
+    greeting: (name?: string | null) => string;
+    sigClosing: string;
+    unsubNote: string;
+    steps: Array<{
+      subject: string;
+      paragraphs: string[];
+      ps?: string;
+    }>;
+  };
   drip: {
     // CTA labels (rendered as buttons; CTAs are placeholders in the
     // attached copy, e.g. "[Open my guide →]" — we strip the brackets and

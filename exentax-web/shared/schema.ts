@@ -470,7 +470,7 @@ export const dripEnrollments = pgTable("drip_enrollments", {
   // bare cultural greeting when this is null/empty.
   name: text("name"),
   language: text("language").notNull(),
-  source: text("source").notNull(), // 'guide' | 'booking'
+  source: text("source").notNull(), // 'guide' | 'booking' | 'calculator'
   currentStep: integer("current_step").notNull().default(0), // 0=not yet sent, 1..6=last sent step
   nextSendAt: text("next_send_at"), // ISO; null when completed
   completedAt: text("completed_at"),
@@ -491,7 +491,7 @@ export const dripEnrollments = pgTable("drip_enrollments", {
     .on(table.email)
     .where(sql`${table.completedAt} IS NULL`),
   check("drip_enrollments_source_check",
-    sql`${table.source} IN ('guide','booking')`),
+    sql`${table.source} IN ('guide','booking','calculator')`),
   check("drip_enrollments_step_check",
     sql`${table.currentStep} >= 0 AND ${table.currentStep} <= 6`),
 ]);

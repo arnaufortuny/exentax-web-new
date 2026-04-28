@@ -103,11 +103,16 @@ export function scheduleReminderEmail(data: {
   agendaId?: string | null;
 }) {
   const meetingMs = getMeetingTimestampMs(data.date, data.startTime);
-  const reminderMs = meetingMs - 3 * 60 * 60 * 1000;
+  // Spec: agenda flow = confirmation email + day-before reminder. Fire
+  // 24h before the meeting (not 3h — that was a tighter intra-day
+  // nudge). Same offset is mirrored by the recovery sweep in
+  // server/index.ts so a process restart does not drop reminders that
+  // became due while we were down.
+  const reminderMs = meetingMs - 24 * 60 * 60 * 1000;
   const delay = reminderMs - Date.now();
 
   if (delay <= 0) {
-    logger.info(`Meeting in less than 3h — skipping reminder for ${maskEmail(data.clientEmail)}`, "reminder");
+    logger.info(`Meeting in less than 24h — skipping reminder for ${maskEmail(data.clientEmail)}`, "reminder");
     return;
   }
 
