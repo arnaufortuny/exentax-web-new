@@ -394,3 +394,47 @@ export const bookingDrafts = pgTable("booking_drafts", {
 export const insertBookingDraftSchema = createInsertSchema(bookingDrafts).omit({ createdAt: true });
 export type InsertBookingDraft = z.infer<typeof insertBookingDraftSchema>;
 export type BookingDraft = typeof bookingDrafts.$inferSelect;
+
+/**
+ * Drip enrollments — every footer guide signup or booking enrolls the
+ * email into a 6-step nurture sequence (days 0/3/6/9/12/15). The worker
+ * in `server/scheduled/drip-worker.ts` advances each row by claiming
+ * `next_send_at <= now()` jobs and incrementing `current_step` until it
+ * reaches 6, at which point `completed_at` is set.
+ *
+ * Dedup: a partial unique index on `(email)` filtered by
+ * `completed_at IS NULL` guarantees that the same address can only have
+ * one ACTIVE enrollment at a time. Re-enrollment after completion is
+ * allowed (the prior row keeps `completed_at` set, the next row is new).
+ */
+export const dripEnrollments = pgTable("drip_enrollments", {
+  id: varchar("id", { length: 64 }).primaryKey(),
+  email: text("email").notNull(),
+  // First name for personalisation in the greeting line. Nullable
+  // because footer guide signups today only ask for the email — only
+  // booking enrollments arrive with a name. Sender falls back to the
+  // bare cultural greeting when this is null/empty.
+  name: text("name"),
+  language: text("language").notNull(),
+  source: text("source").notNull(), // 'guide' | 'booking'
+  currentStep: integer("current_step").notNull().default(0), // 0=not yet sent, 1..6=last sent step
+  nextSendAt: text("next_send_at"), // ISO; null when completed
+  completedAt: text("completed_at"),
+  claimedAt: text("claimed_at"),
+  lastError: text("last_error"),
+  createdAt: timestamp("fecha_creacion").defaultNow(),
+}, (table) => [
+  index("drip_enrollments_email_idx").on(table.email),
+  index("drip_enrollments_next_send_idx").on(table.nextSendAt),
+  uniqueIndex("drip_enrollments_active_email_uniq")
+    .on(table.email)
+    .where(sql`${table.completedAt} IS NULL`),
+  check("drip_enrollments_source_check",
+    sql`${table.source} IN ('guide','booking')`),
+  check("drip_enrollments_step_check",
+    sql`${table.currentStep} >= 0 AND ${table.currentStep} <= 6`),
+]);
+
+export const insertDripEnrollmentSchema = createInsertSchema(dripEnrollments).omit({ createdAt: true });
+export type InsertDripEnrollment = z.infer<typeof insertDripEnrollmentSchema>;
+export type DripEnrollment = typeof dripEnrollments.$inferSelect;

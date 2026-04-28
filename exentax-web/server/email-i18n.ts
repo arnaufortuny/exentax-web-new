@@ -125,18 +125,32 @@ interface EmailTranslations {
     closing: string;
     unsubNote: string;
   };
-  newsletterWelcome: {
-    subject: string;
-    heading: string;
-    intro: string;
-    aboutTitle: string;
-    aboutItems: string[];
-    cadenceNote: string;
-    ctaIntro: string;
-    ctaButton: string;
-    ctaDesc: string;
-    closing: string;
+  drip: {
+    // CTA labels (rendered as buttons; CTAs are placeholders in the
+    // attached copy, e.g. "[Open my guide →]" — we strip the brackets and
+    // arrow and render a real button instead).
+    ctaOpenGuide: string;
+    ctaCalculate: string;
+    ctaBook: string;
+    // Personalised salutation reused across all 6 steps. When `name`
+    // is present we render "Hola {name}," / "Hi {name},"; when not we
+    // fall back to the bare cultural greeting. Each locale implements
+    // its own grammar (German keeps informal "Hallo {name}," to match
+    // the rest of the brand voice).
+    greeting: (name?: string | null) => string;
+    // Closing line shown above the brand signature in every step.
+    sigClosing: string;
     unsubNote: string;
+    steps: Array<{
+      subject: string;
+      // Each paragraph is rendered through `bodyText()`; line break in
+      // the attached copy → separate paragraph here.
+      paragraphs: string[];
+      // Optional postscript shown after the CTA / closing block.
+      // Only used on the final step (day 15) to maximise reply-rate
+      // without breaking the no-pressure voice.
+      ps?: string;
+    }>;
   };
   dateFormatter: (dateStr: string) => string;
   currencyFormatter: (amount: number) => string;
@@ -292,23 +306,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "Has recibido este email porque empezaste una reserva en exentax.com.",
     },
-    newsletterWelcome: {
-      subject: "Bienvenido a Exentax — empezamos contigo",
-      heading: "Hola,",
-      intro: "Gracias por suscribirte. A partir de ahora recibirás nuestros análisis sobre cómo estructurar bien una actividad internacional, sin teoría innecesaria y sin promesas vacías.",
-      aboutTitle: "Qué te vamos a enviar",
-      aboutItems: [
-        "Cambios reales en regulación internacional (CRS, FATCA, DAC) y qué implican para tu LLC",
-        "Cómo organizar la operativa para cobrar y mover dinero sin fricción",
-        "Casos prácticos de no residentes que ya operan con estructura en EE.UU.",
-        "Errores comunes que conviene evitar desde el principio",
+    drip: {
+      ctaOpenGuide: "Abrir mi guía",
+      ctaCalculate: "Calcular mi ahorro",
+      ctaBook: "Reservar mi consulta gratuita",
+      greeting: (name) => name ? `Hola ${name},` : "Hola,",
+      sigClosing: "Arnau",
+      unsubNote: "Has recibido estos emails porque solicitaste la guía gratuita o reservaste una consulta en exentax.com.",
+      steps: [
+        {
+          subject: "Aquí está tu guía. Pero primero léeme esto.",
+          paragraphs: [
+            "Antes de que abras la guía quiero ser directo contigo.",
+            "Si estás pagando cuota de autónomo cada mes, estás pagando de más. No porque hagas algo mal. Sino porque nadie te explicó que había otra opción.",
+            "Eso es exactamente lo que encontrarás aquí dentro.",
+          ],
+        },
+        {
+          subject: "¿Cuánto llevas pagado este año sin necesitarlo?",
+          paragraphs: [
+            "Haz el cálculo.",
+            "Cuota de autónomo desde enero hasta hoy. Multiplícalo por los meses que llevas dado de alta. Ese número que te sale no es una inversión. Es dinero que se fue sin que tuvieras opción de retenerlo.",
+            "Lo sé porque es lo que me cuentan todos los que llegan a Exentax. No es rabia. Es una mezcla de sorpresa y resignación. Como si hubiera sido inevitable.",
+            "No lo era.",
+            "Mañana te cuento cómo funciona la alternativa.",
+          ],
+        },
+        {
+          subject: "Te explico cómo funciona en menos de 2 minutos.",
+          paragraphs: [
+            "Una LLC americana es una empresa constituida en Estados Unidos.",
+            "Si eres residente en España y tu LLC no tiene clientes americanos, no pagas impuesto de sociedades en USA. Y no existe nada parecido a la cuota de autónomo. Si un mes no facturas, ese mes no pagas nada fijo.",
+            "Sí declaras tus beneficios en el IRPF español. Eso no cambia. Pero desaparece ese coste fijo mensual que sale de tu cuenta hagas lo que hagas.",
+            "El proceso completo con nosotros tarda entre 5 y 15 días. Todo remoto. Sin viajar. Sin papeleos interminables.",
+            "Así de simple.",
+          ],
+        },
+        {
+          subject: "Lo que me contó Laura cuando acabamos su LLC.",
+          paragraphs: [
+            "Laura es diseñadora freelance. Clientes en Alemania, Países Bajos y UK. Factura unos 48.000 euros al año.",
+            "Me escribió tres semanas después de constituir su LLC. Solo decía una cosa: «Arnau, acabo de ver que este mes no me han cargado la cuota. No me lo creía.»",
+            "Son 296 euros que antes salían solos cada mes. Sin preguntarle. Sin que ella pudiera hacer nada.",
+            "Ahora son suyos.",
+            "¿Cuánto sería en tu caso? Calcula exactamente lo que te quedarías tú.",
+          ],
+        },
+        {
+          subject: "Sé lo que estás pensando. Te respondo.",
+          paragraphs: [
+            "Cuando alguien llega hasta aquí siempre hay tres pensamientos rondando.",
+            "Que si es legal. Que si Hacienda lo sabe. Que qué pasa con la pensión.",
+            "Los tres tienen respuesta clara.",
+            "Es completamente legal. El convenio de doble imposición entre España y Estados Unidos contempla exactamente esta estructura. Lo que no es legal es no declarar los beneficios en el IRPF, y eso es lo primero que revisamos con cada cliente.",
+            "Hacienda conoce perfectamente las LLCs americanas. No es un secreto ni un truco. Es una estructura que miles de europeos usan correctamente cada año.",
+            "La pensión es una decisión personal. Muchos de nuestros clientes destinan parte del ahorro a planes privados con mejor rentabilidad. Pero te lo explicamos sin presión para que decidas tú con toda la información.",
+            "¿Tienes alguna duda que no está aquí? Respóndeme directamente. Leo todos los emails.",
+          ],
+        },
+        {
+          subject: "Solo te pido 30 minutos.",
+          paragraphs: [
+            "No para venderte nada.",
+            "Para analizar tu situación contigo. Tus ingresos, tus clientes, lo que pagas ahora. Y decirte honestamente si una LLC tiene sentido para ti o no.",
+            "Si no lo tiene, te lo digo. No me interesa que constituyas una LLC que no encaja con tu negocio.",
+            "Si lo tiene, te explico exactamente cómo sería el proceso, cuánto ahorrarías, y qué necesitarías de tu parte. Que no es mucho.",
+            "30 minutos. Sin compromiso. Sin presión.",
+          ],
+          ps: "P.S. Si prefieres empezar por email, también funciona. Cuéntame en una línea cuál es tu situación y te oriento sin compromiso.",
+        },
       ],
-      cadenceNote: "Solo te escribiremos cuando tengamos algo útil que aportar. Sin saturar la bandeja de entrada.",
-      ctaIntro: "Si quieres ver cuanto antes cómo encajaría todo en tu caso:",
-      ctaButton: "Reservar asesoría",
-      ctaDesc: "Lo revisamos contigo y te decimos directamente qué tiene sentido y qué no.",
-      closing: "Bienvenido a bordo,",
-      unsubNote: "Has recibido este email porque te suscribiste a nuestro boletín en exentax.com.",
     },
     dateFormatter: formatDateEs,
     currencyFormatter: (amount) => new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -463,23 +530,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "You received this email because you started a booking on exentax.com.",
     },
-    newsletterWelcome: {
-      subject: "Welcome to Exentax — let's get started",
-      heading: "Hi,",
-      intro: "Thanks for subscribing. From now on you'll receive our analysis on how to properly structure an international activity, with no unnecessary theory and no empty promises.",
-      aboutTitle: "What we'll be sending",
-      aboutItems: [
-        "Real changes in international regulation (CRS, FATCA, DAC) and what they mean for your LLC",
-        "How to set up operations to collect and move money without friction",
-        "Practical cases of non-residents already operating with a US structure",
-        "Common mistakes worth avoiding from the start",
+    drip: {
+      ctaOpenGuide: "Open my guide",
+      ctaCalculate: "Calculate my savings",
+      ctaBook: "Book my free consultation",
+      greeting: (name) => name ? `Hi ${name},` : "Hi,",
+      sigClosing: "Arnau",
+      unsubNote: "You received these emails because you requested the free guide or booked a consultation at exentax.com.",
+      steps: [
+        {
+          subject: "Your guide is here. But read this first.",
+          paragraphs: [
+            "Before you open the guide, I want to be straight with you.",
+            "If you’re paying self-employment fees every month, you’re overpaying. Not because you’re doing anything wrong. But because nobody told you there was another option.",
+            "That’s exactly what you’ll find inside.",
+          ],
+        },
+        {
+          subject: "How much have you paid this year that you didn’t have to?",
+          paragraphs: [
+            "Do the math.",
+            "Monthly self-employment fees since January. Multiply by however many months you’ve been registered. That number isn’t an investment. It’s money that left your account and you had no say in it.",
+            "I know because that’s what everyone tells me when they first reach out to Exentax. It’s not anger. It’s a mix of surprise and resignation. Like it was always going to be this way.",
+            "It wasn’t.",
+            "Tomorrow I’ll show you how the alternative works.",
+          ],
+        },
+        {
+          subject: "Let me explain how this works in under 2 minutes.",
+          paragraphs: [
+            "A US LLC is a company incorporated in the United States.",
+            "If you’re a resident in Spain and your LLC has no US-based clients, you pay no corporate tax in the US. And there’s nothing like a fixed monthly self-employment contribution. If you don’t invoice one month, you pay nothing that month.",
+            "You do declare your profits on your Spanish income tax return. That doesn’t change. But that fixed monthly fee that leaves your account no matter what disappears.",
+            "The full process with us takes between 5 and 15 days. Fully remote. No travel. No endless paperwork.",
+            "That’s it.",
+          ],
+        },
+        {
+          subject: "What Laura told me after we finished her LLC.",
+          paragraphs: [
+            "Laura is a freelance designer. Clients in Germany, the Netherlands and the UK. She earns around 48,000 euros a year.",
+            "She messaged me three weeks after incorporating her LLC. Just one line: “Arnau, I just noticed the monthly fee didn’t come out this month. I couldn’t believe it.”",
+            "That’s 296 euros that used to leave automatically every month. Without asking her. Without giving her any choice.",
+            "Now it stays with her.",
+            "How much would it be in your case?",
+          ],
+        },
+        {
+          subject: "I know what you’re thinking. Let me answer.",
+          paragraphs: [
+            "When someone gets this far, there are always three things on their mind.",
+            "Whether it’s legal. Whether the tax authority knows. What happens to their pension.",
+            "All three have a clear answer.",
+            "It’s completely legal. The double taxation treaty between Spain and the United States covers exactly this structure. What isn’t legal is not declaring your profits on your income tax return, and that’s the first thing we review with every client.",
+            "Tax authorities know all about US LLCs. It’s not a secret or a loophole. It’s a structure that thousands of Europeans use correctly every year.",
+            "The pension is a personal decision. Many of our clients put part of their savings into private pension plans with better returns. We walk you through it without any pressure so you can decide with full information.",
+            "Got a question that isn’t covered here? Reply directly. I read every email.",
+          ],
+        },
+        {
+          subject: "All I’m asking for is 30 minutes.",
+          paragraphs: [
+            "Not to sell you anything.",
+            "To go through your situation together. Your income, your clients, what you’re paying now. And tell you honestly whether an LLC makes sense for you or not.",
+            "If it doesn’t, I’ll tell you. I have no interest in you incorporating an LLC that doesn’t fit your business.",
+            "If it does, I’ll walk you through exactly what the process looks like, how much you’d save, and what you’d need from your side. Which isn’t much.",
+            "30 minutes. No commitment. No pressure.",
+          ],
+          ps: "P.S. If you’d rather start by email, that works too. Send me a one-liner about your situation and I’ll point you in the right direction — no obligation.",
+        },
       ],
-      cadenceNote: "We only write when we have something genuinely useful to share. No inbox flooding.",
-      ctaIntro: "If you'd rather see how it would all fit your case sooner:",
-      ctaButton: "Book a consultation",
-      ctaDesc: "We'll review it with you and tell you straight what makes sense and what doesn't.",
-      closing: "Welcome on board,",
-      unsubNote: "You received this email because you subscribed to our newsletter at exentax.com.",
     },
     dateFormatter: formatDateEn,
     currencyFormatter: (amount) => new Intl.NumberFormat("en-US", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -634,23 +754,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "Tu as reçu cet email parce que tu as commencé une réservation sur exentax.com.",
     },
-    newsletterWelcome: {
-      subject: "Bienvenue chez Exentax — on démarre avec vous",
-      heading: "Bonjour,",
-      intro: "Merci pour votre inscription. À partir de maintenant, vous recevrez nos analyses sur la manière de bien structurer une activité internationale, sans théorie inutile et sans promesses vides.",
-      aboutTitle: "Ce que nous allons vous envoyer",
-      aboutItems: [
-        "Changements réels de la réglementation internationale (CRS, FATCA, DAC) et leurs implications pour votre LLC",
-        "Comment préparer l'opérationnel pour encaisser et déplacer des fonds sans friction",
-        "Cas pratiques de non-résidents qui opèrent déjà avec une structure aux États-Unis",
-        "Erreurs courantes qu'il vaut mieux éviter dès le départ",
+    drip: {
+      ctaOpenGuide: "Ouvrir mon guide",
+      ctaCalculate: "Calculer mes économies",
+      ctaBook: "Réserver ma consultation gratuite",
+      greeting: (name) => name ? `Bonjour ${name},` : "Bonjour,",
+      sigClosing: "Arnau",
+      unsubNote: "Vous avez reçu ces emails parce que vous avez demandé le guide gratuit ou réservé une consultation sur exentax.com.",
+      steps: [
+        {
+          subject: "Ton guide est là. Mais lis ça d’abord.",
+          paragraphs: [
+            "Avant d’ouvrir le guide, je veux être direct avec toi.",
+            "Si tu paies des cotisations chaque mois, tu paies trop. Non pas parce que tu fais quelque chose de mal. Mais parce que personne ne t’a expliqué qu’il existait une autre option.",
+            "C’est exactement ce que tu vas trouver ici.",
+          ],
+        },
+        {
+          subject: "Combien as-tu payé cette année sans le devoir ?",
+          paragraphs: [
+            "Fais le calcul.",
+            "Cotisations mensuelles depuis janvier. Multiplie par le nombre de mois depuis que tu t’es inscrit. Ce chiffre n’est pas un investissement. C’est de l’argent qui est parti sans que tu aies pu faire quoi que ce soit.",
+            "Je le sais parce que c’est ce que me disent tous ceux qui arrivent chez Exentax. Ce n’est pas de la colère. C’est un mélange de surprise et de résignation. Comme si ça avait toujours été inévitable.",
+            "Ça ne l’était pas.",
+            "Demain je t’explique comment fonctionne l’alternative.",
+          ],
+        },
+        {
+          subject: "Je t’explique comment ça fonctionne en moins de 2 minutes.",
+          paragraphs: [
+            "Une LLC américaine est une société constituée aux États-Unis.",
+            "Si tu es résident en France et que ta LLC n’a pas de clients américains, tu ne paies pas d’impôt sur les sociétés aux États-Unis. Et il n’existe rien de comparable aux cotisations mensuelles obligatoires. Si tu ne factures pas un mois, tu ne paies rien de fixe ce mois-là.",
+            "Tu déclares bien tes bénéfices à l’impôt sur le revenu dans ton pays de résidence. Ça ne change pas. Mais cette charge fixe mensuelle qui sort quoi qu’il arrive disparaît.",
+            "Le processus complet avec nous prend entre 5 et 15 jours. Entièrement à distance. Sans voyager. Sans paperasse interminable.",
+            "C’est aussi simple que ça.",
+          ],
+        },
+        {
+          subject: "Ce que Laura m’a dit quand on a terminé sa LLC.",
+          paragraphs: [
+            "Laura est designer freelance. Des clients en Allemagne, aux Pays-Bas et au Royaume-Uni. Elle facture environ 48.000 euros par an.",
+            "Elle m’a écrit trois semaines après avoir constitué sa LLC. Un seul message : “Arnau, je viens de voir que les cotisations n’ont pas été prélevées ce mois-ci. Je n’en revenais pas.”",
+            "Ce sont 296 euros qui partaient automatiquement chaque mois. Sans lui demander. Sans qu’elle puisse rien y faire.",
+            "Maintenant ils restent chez elle.",
+            "Combien ce serait dans ton cas ?",
+          ],
+        },
+        {
+          subject: "Je sais ce que tu penses. Laisse-moi répondre.",
+          paragraphs: [
+            "Quand quelqu’un arrive jusqu’ici, il y a toujours trois questions qui tournent dans la tête.",
+            "Si c’est légal. Si l’administration fiscale est au courant. Ce qu’il advient de la retraite.",
+            "Les trois ont une réponse claire.",
+            "C’est totalement légal. La convention fiscale entre la France et les États-Unis encadre exactement ce type de structure. Ce qui n’est pas légal, c’est de ne pas déclarer ses bénéfices à l’impôt sur le revenu, et c’est la première chose que nous vérifions avec chaque client.",
+            "L’administration fiscale connaît parfaitement les LLC américaines. Ce n’est pas un secret ni une astuce. C’est une structure qu’utilisent correctement des milliers d’Européens chaque année.",
+            "La retraite est une décision personnelle. Beaucoup de nos clients utilisent une partie de leurs économies pour alimenter des plans d’épargne retraite privés avec de meilleures performances. On t’explique tout sans pression pour que tu décides toi-même avec toutes les informations.",
+            "Tu as une question qui n’est pas ici ? Réponds directement. Je lis tous les emails.",
+          ],
+        },
+        {
+          subject: "Je te demande juste 30 minutes.",
+          paragraphs: [
+            "Pas pour te vendre quoi que ce soit.",
+            "Pour analyser ta situation ensemble. Tes revenus, tes clients, ce que tu paies maintenant. Et te dire honnêtement si une LLC a du sens pour toi ou pas.",
+            "Si ce n’est pas le cas, je te le dis. Je n’ai aucun intérêt à ce que tu constitues une LLC qui ne correspond pas à ton activité.",
+            "Si c’est le cas, je t’explique exactement comment se déroulerait le processus, combien tu économiserais, et ce dont tu aurais besoin de ton côté. Ce qui n’est pas grand-chose.",
+            "30 minutes. Sans engagement. Sans pression.",
+          ],
+          ps: "P.S. Si tu préfères commencer par email, ça marche aussi. Envoie-moi une ligne sur ta situation et je t’oriente — sans engagement.",
+        },
       ],
-      cadenceNote: "Nous n'écrivons que lorsque nous avons quelque chose de réellement utile à partager. Pas de boîte de réception saturée.",
-      ctaIntro: "Si vous préférez voir rapidement comment cela s'appliquerait à votre cas :",
-      ctaButton: "Réserver une consultation",
-      ctaDesc: "Nous le revoyons avec vous et vous disons clairement ce qui a du sens et ce qui n'en a pas.",
-      closing: "Bienvenue à bord,",
-      unsubNote: "Vous avez reçu cet email car vous vous êtes inscrit à notre newsletter sur exentax.com.",
     },
     dateFormatter: formatDateFr,
     currencyFormatter: (amount) => new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -805,23 +978,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "Du hast diese E-Mail erhalten, weil du auf exentax.com mit einer Buchung begonnen hast.",
     },
-    newsletterWelcome: {
-      subject: "Willkommen bei Exentax — wir starten mit Ihnen",
-      heading: "Hallo,",
-      intro: "Vielen Dank für Ihre Anmeldung. Ab sofort erhalten Sie unsere Analysen dazu, wie sich eine internationale Tätigkeit sauber strukturieren lässt — ohne überflüssige Theorie und ohne leere Versprechungen.",
-      aboutTitle: "Was Sie von uns bekommen",
-      aboutItems: [
-        "Reale Änderungen der internationalen Regulierung (CRS, FATCA, DAC) und ihre Auswirkungen auf Ihre LLC",
-        "Wie der Betrieb für reibungslosen Zahlungseingang und Geldtransfer vorbereitet wird",
-        "Praxisfälle von Nichtansässigen, die bereits mit einer US-Struktur arbeiten",
-        "Häufige Fehler, die sich von Anfang an vermeiden lassen",
+    drip: {
+      ctaOpenGuide: "Meinen Leitfaden öffnen",
+      ctaCalculate: "Meine Ersparnis berechnen",
+      ctaBook: "Meine kostenlose Beratung buchen",
+      greeting: (name) => name ? `Hallo ${name},` : "Hallo,",
+      sigClosing: "Arnau",
+      unsubNote: "Du erhältst diese E-Mails, weil du den kostenlosen Leitfaden angefordert oder eine Beratung auf exentax.com gebucht hast.",
+      steps: [
+        {
+          subject: "Dein Leitfaden ist da. Aber lies das zuerst.",
+          paragraphs: [
+            "Bevor du den Leitfaden öffnest, möchte ich direkt mit dir sein.",
+            "Wenn du jeden Monat Pflichtbeiträge zahlst, zahlst du zu viel. Nicht weil du etwas falsch machst. Sondern weil dir niemand erklärt hat, dass es eine andere Option gibt.",
+            "Genau das findest du hier drin.",
+          ],
+        },
+        {
+          subject: "Wie viel hast du dieses Jahr gezahlt, ohne es zu müssen?",
+          paragraphs: [
+            "Rechne es durch.",
+            "Monatliche Pflichtbeiträge seit Januar. Multipliziert mit der Anzahl der Monate, seit du angemeldet bist. Diese Zahl ist keine Investition. Es ist Geld, das gegangen ist, ohne dass du etwas dagegen tun konntest.",
+            "Ich weiß das, weil mir das alle erzählen, die zu Exentax kommen. Es ist keine Wut. Es ist eine Mischung aus Überraschung und Resignation. Als wäre es immer unvermeidlich gewesen.",
+            "War es nicht.",
+            "Morgen erkläre ich dir, wie die Alternative funktioniert.",
+          ],
+        },
+        {
+          subject: "Ich erkläre dir in weniger als 2 Minuten, wie es funktioniert.",
+          paragraphs: [
+            "Eine US-LLC ist ein Unternehmen, das in den Vereinigten Staaten gegründet wurde.",
+            "Wenn du in Deutschland wohnst und deine LLC keine amerikanischen Kunden hat, zahlst du in den USA keine Körperschaftsteuer. Und es gibt nichts Vergleichbares zu monatlichen Pflichtbeiträgen. Wenn du in einem Monat nichts fakturierst, zahlst du in diesem Monat nichts Fixes.",
+            "Du erklärst deine Gewinne weiterhin in deiner deutschen Einkommensteuererklärung. Das ändert sich nicht. Aber dieser fixe monatliche Beitrag, der egal was passiert abgebucht wird, verschwindet.",
+            "Der gesamte Prozess bei uns dauert zwischen 5 und 15 Tagen. Vollständig remote. Kein Reisen. Kein endloser Papierkram.",
+            "So einfach ist das.",
+          ],
+        },
+        {
+          subject: "Was Laura mir sagte, als wir ihre LLC fertig hatten.",
+          paragraphs: [
+            "Laura ist freiberufliche Designerin. Kunden in Deutschland, den Niederlanden und Großbritannien. Sie fakturiert rund 48.000 Euro im Jahr.",
+            "Sie schrieb mir drei Wochen nach der Gründung ihrer LLC. Nur eine Zeile: „Arnau, ich habe gerade gesehen, dass der Beitrag diesen Monat nicht abgebucht wurde. Ich konnte es nicht glauben.“",
+            "Das sind 296 Euro, die jeden Monat automatisch abgingen. Ohne sie zu fragen. Ohne dass sie etwas dagegen tun konnte.",
+            "Jetzt bleiben sie bei ihr.",
+            "Wie viel wäre es in deinem Fall?",
+          ],
+        },
+        {
+          subject: "Ich weiß, was du denkst. Lass mich antworten.",
+          paragraphs: [
+            "Wenn jemand bis hierher kommt, gibt es immer drei Gedanken, die im Kopf kreisen.",
+            "Ob es legal ist. Ob das Finanzamt es weiß. Was mit der Rente passiert.",
+            "Alle drei haben eine klare Antwort.",
+            "Es ist vollkommen legal. Das Doppelbesteuerungsabkommen zwischen Deutschland und den Vereinigten Staaten deckt genau diese Struktur ab. Was nicht legal ist, ist die Gewinne nicht in der Einkommensteuererklärung anzugeben, und das ist das Erste, was wir mit jedem Kunden überprüfen.",
+            "Das Finanzamt kennt US-LLCs sehr gut. Es ist kein Geheimnis und kein Trick. Es ist eine Struktur, die Tausende von Europäern jedes Jahr korrekt nutzen.",
+            "Die Rente ist eine persönliche Entscheidung. Viele unserer Kunden investieren einen Teil der Ersparnis in private Rentenversicherungen mit besseren Renditen. Wir erklären alles ohne Druck, damit du mit allen Informationen selbst entscheidest.",
+            "Hast du eine Frage, die hier nicht beantwortet wird? Antworte direkt. Ich lese alle E-Mails.",
+          ],
+        },
+        {
+          subject: "Ich bitte dich nur um 30 Minuten.",
+          paragraphs: [
+            "Nicht um dir etwas zu verkaufen.",
+            "Um deine Situation gemeinsam durchzugehen. Deine Einnahmen, deine Kunden, was du jetzt zahlst. Und dir ehrlich zu sagen, ob eine LLC für dich sinnvoll ist oder nicht.",
+            "Wenn nicht, sage ich es dir. Es liegt nicht in meinem Interesse, dass du eine LLC gründest, die nicht zu deinem Unternehmen passt.",
+            "Wenn ja, erkläre ich dir genau, wie der Prozess aussehen würde, wie viel du sparen würdest, und was du von deiner Seite brauchst. Was nicht viel ist.",
+            "30 Minuten. Keine Verpflichtung. Kein Druck.",
+          ],
+          ps: "P.S. Wenn du lieber per E-Mail anfängst, geht das auch. Schreib mir eine Zeile zu deiner Situation und ich gebe dir eine erste Orientierung — unverbindlich.",
+        },
       ],
-      cadenceNote: "Wir schreiben Ihnen nur, wenn wir wirklich etwas Nützliches beizutragen haben. Kein überfülltes Postfach.",
-      ctaIntro: "Wenn Sie zügig sehen möchten, wie das auf Ihren Fall passt:",
-      ctaButton: "Beratung buchen",
-      ctaDesc: "Wir besprechen es mit Ihnen und sagen Ihnen klar, was Sinn ergibt und was nicht.",
-      closing: "Willkommen an Bord,",
-      unsubNote: "Sie haben diese E-Mail erhalten, weil Sie unseren Newsletter auf exentax.com abonniert haben.",
     },
     dateFormatter: formatDateDe,
     currencyFormatter: (amount) => new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -976,23 +1202,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "Recebeste este email porque começaste uma reserva em exentax.com.",
     },
-    newsletterWelcome: {
-      subject: "Bem-vindo à Exentax — começamos consigo",
-      heading: "Olá,",
-      intro: "Obrigado por se subscrever. A partir de agora vai receber as nossas análises sobre como estruturar bem uma atividade internacional, sem teoria desnecessária e sem promessas vazias.",
-      aboutTitle: "O que lhe vamos enviar",
-      aboutItems: [
-        "Alterações reais na regulação internacional (CRS, FATCA, DAC) e o que implicam para a sua LLC",
-        "Como preparar a operação para receber e mover dinheiro sem fricção",
-        "Casos práticos de não residentes que já operam com estrutura nos EUA",
-        "Erros comuns que convém evitar desde o início",
+    drip: {
+      ctaOpenGuide: "Abrir o meu guia",
+      ctaCalculate: "Calcular as minhas poupanças",
+      ctaBook: "Reservar a minha consulta gratuita",
+      greeting: (name) => name ? `Olá ${name},` : "Olá,",
+      sigClosing: "Arnau",
+      unsubNote: "Recebeu estes emails porque pediu o guia gratuito ou marcou uma consulta em exentax.com.",
+      steps: [
+        {
+          subject: "O teu guia já chegou. Mas lê isto primeiro.",
+          paragraphs: [
+            "Antes de abrires o guia quero ser direto contigo.",
+            "Se estás a pagar contribuições mensais obrigatórias todos os meses, estás a pagar a mais. Não porque estejas a fazer algo errado. Mas porque ninguém te explicou que havia outra opção.",
+            "É exatamente isso que vais encontrar aqui dentro.",
+          ],
+        },
+        {
+          subject: "Quanto já pagaste este ano sem precisares?",
+          paragraphs: [
+            "Faz as contas.",
+            "Contribuições mensais desde janeiro. Multiplica pelos meses em que estás registado. Esse número não é um investimento. É dinheiro que saiu da tua conta sem teres qualquer hipótese de o reter.",
+            "Sei isso porque é o que me dizem todos os que chegam ao Exentax. Não é raiva. É uma mistura de surpresa e resignação. Como se fosse sempre assim que teria de ser.",
+            "Não era.",
+            "Amanhã conto-te como funciona a alternativa.",
+          ],
+        },
+        {
+          subject: "Explico-te como funciona em menos de 2 minutos.",
+          paragraphs: [
+            "Uma LLC americana é uma empresa constituída nos Estados Unidos.",
+            "Se és residente em Espanha e a tua LLC não tem clientes americanos, não pagas imposto sobre o rendimento das empresas nos EUA. E não existe nada semelhante às contribuições mensais obrigatórias. Se num mês não faturares, esse mês não pagas nada de fixo.",
+            "Sim, declaras os teus lucros no IRS português. Isso não muda. Mas desaparece esse custo fixo mensal que sai da conta independentemente do que aconteça.",
+            "O processo completo connosco demora entre 5 e 15 dias. Tudo remoto. Sem viagens. Sem burocracia interminável.",
+            "É assim tão simples.",
+          ],
+        },
+        {
+          subject: "O que a Laura me disse quando acabámos a LLC dela.",
+          paragraphs: [
+            "A Laura é designer freelance. Clientes na Alemanha, Países Baixos e Reino Unido. Fatura cerca de 48.000 euros por ano.",
+            "Escreveu-me três semanas depois de constituir a LLC. Só dizia uma coisa: «Arnau, acabei de ver que este mês não me descontaram a contribuição. Não acreditei.»",
+            "São 296 euros que antes saíam automaticamente todos os meses. Sem a consultar. Sem que ela pudesse fazer nada.",
+            "Agora ficam com ela.",
+            "Quanto seria no teu caso?",
+          ],
+        },
+        {
+          subject: "Sei o que estás a pensar. Deixa-me responder.",
+          paragraphs: [
+            "Quando alguém chega até aqui há sempre três pensamentos a rondar.",
+            "Se é legal. Se as Finanças sabem. O que acontece à reforma.",
+            "Os três têm resposta clara.",
+            "É completamente legal. A convenção para evitar a dupla tributação entre Portugal e os Estados Unidos contempla exatamente esta estrutura. O que não é legal é não declarar os lucros no IRS, e é a primeira coisa que revemos com cada cliente.",
+            "As Finanças conhecem perfeitamente as LLCs americanas. Não é um segredo nem um truque. É uma estrutura que milhares de europeus utilizam corretamente todos os anos.",
+            "A reforma é uma decisão pessoal. Muitos dos nossos clientes destinam parte das poupanças a planos de poupança reforma privados com melhor rentabilidade. Mas explicamos tudo sem pressão para que decidas com toda a informação.",
+            "Tens alguma dúvida que não está aqui? Responde diretamente. Leio todos os emails.",
+          ],
+        },
+        {
+          subject: "Só te peço 30 minutos.",
+          paragraphs: [
+            "Não para te vender nada.",
+            "Para analisar a tua situação contigo. Os teus rendimentos, os teus clientes, o que pagas agora. E dizer-te honestamente se uma LLC faz sentido para ti ou não.",
+            "Se não fizer, digo-te. Não me interessa que constituas uma LLC que não se adapta ao teu negócio.",
+            "Se fizer, explico-te exatamente como seria o processo, quanto pouparias, e o que precisarias da tua parte. Que não é muito.",
+            "30 minutos. Sem compromisso. Sem pressão.",
+          ],
+          ps: "P.S. Se preferires começar por email, também funciona. Envia-me uma linha sobre a tua situação e oriento-te — sem compromisso.",
+        },
       ],
-      cadenceNote: "Só lhe escrevemos quando tivermos algo realmente útil para partilhar. Sem encher a caixa de entrada.",
-      ctaIntro: "Se quiser ver quanto antes como tudo encaixaria no seu caso:",
-      ctaButton: "Marcar consultoria",
-      ctaDesc: "Revemos consigo e dizemos-lhe diretamente o que faz sentido e o que não.",
-      closing: "Bem-vindo a bordo,",
-      unsubNote: "Recebeu este email porque se subscreveu na nossa newsletter em exentax.com.",
     },
     dateFormatter: formatDatePt,
     currencyFormatter: (amount) => new Intl.NumberFormat("pt-PT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),
@@ -1147,23 +1426,76 @@ const translations: Record<SupportedLang, EmailTranslations> = {
       closing: "Arnau",
       unsubNote: "Has rebut aquest email perquè has començat una reserva a exentax.com.",
     },
-    newsletterWelcome: {
-      subject: "Benvingut a Exentax — comencem amb tu",
-      heading: "Hola,",
-      intro: "Gràcies per subscriure't. A partir d'ara rebràs les nostres anàlisis sobre com estructurar bé una activitat internacional, sense teoria innecessària ni promeses buides.",
-      aboutTitle: "Què t'enviarem",
-      aboutItems: [
-        "Canvis reals en regulació internacional (CRS, FATCA, DAC) i què impliquen per a la teva LLC",
-        "Com deixar l'operativa preparada per cobrar i moure diners sense fricció",
-        "Casos pràctics de no residents que ja operen amb estructura als EUA",
-        "Errors comuns que convé evitar des del principi",
+    drip: {
+      ctaOpenGuide: "Obrir la meva guia",
+      ctaCalculate: "Calcular el meu estalvi",
+      ctaBook: "Reservar la meva consulta gratuïta",
+      greeting: (name) => name ? `Hola ${name},` : "Hola,",
+      sigClosing: "Arnau",
+      unsubNote: "Has rebut aquests emails perquè vas demanar la guia gratuïta o vas reservar una consulta a exentax.com.",
+      steps: [
+        {
+          subject: "La teva guia ja és aquí. Però llegeix això primer.",
+          paragraphs: [
+            "Abans d’obrir la guia vull ser directe amb tu.",
+            "Si estàs pagant quota mensual obligatòria cada mes, estàs pagant de més. No perquè facis res malament. Sinó perquè ningú t’havia explicat que hi havia una altra opció.",
+            "Això és exactament el que trobaràs aquí dins.",
+          ],
+        },
+        {
+          subject: "Quant has pagat enguany sense necessitar-ho?",
+          paragraphs: [
+            "Fes el càlcul.",
+            "Quota mensual des del gener fins avui. Multiplica-ho pels mesos que portes donat d’alta. Aquest número no és una inversió. És diners que han marxat sense que hagis pogut fer res per retenir-los.",
+            "Ho sé perquè és el que em diuen tots els que arriben a Exentax. No és ràbia. És una barreja de sorpresa i resignació. Com si sempre hagués de ser així.",
+            "No havia de ser.",
+            "Demà et conto com funciona l’alternativa.",
+          ],
+        },
+        {
+          subject: "T’explico com funciona en menys de 2 minuts.",
+          paragraphs: [
+            "Una LLC americana és una empresa constituïda als Estats Units.",
+            "Si ets resident a Espanya i la teva LLC no té clients americans, no pagues impost de societats als EUA. I no existeix res semblant a la quota mensual obligatòria. Si un mes no factures, aquell mes no pagues res fix.",
+            "Sí que declares els teus beneficis a l’IRPF espanyol. Això no canvia. Però desapareix aquell cost fix mensual que surt del compte facturis o no.",
+            "El procés complet amb nosaltres tarda entre 5 i 15 dies. Tot remot. Sense viatjar. Sense paperassa interminable.",
+            "Tan simple com això.",
+          ],
+        },
+        {
+          subject: "El que em va dir la Laura quan vam acabar la seva LLC.",
+          paragraphs: [
+            "La Laura és dissenyadora freelance. Clients a Alemanya, Països Baixos i Regne Unit. Factura uns 48.000 euros l’any.",
+            "Em va escriure tres setmanes després de constituir la seva LLC. Només deia una cosa: «Arnau, acabo de veure que aquest mes no m’han carregat la quota. No m’ho creia.»",
+            "Són 296 euros que abans sortien sols cada mes. Sense preguntar-li. Sense que ella pogués fer res.",
+            "Ara són seus.",
+            "Quant seria en el teu cas?",
+          ],
+        },
+        {
+          subject: "Sé el que estàs pensant. Et responc.",
+          paragraphs: [
+            "Quan algú arriba fins aquí sempre hi ha tres pensaments que rondin.",
+            "Si és legal. Si Hisenda ho sap. Què passa amb la pensió.",
+            "Els tres tenen resposta clara.",
+            "És completament legal. El conveni de doble imposició entre Espanya i els Estats Units contempla exactament aquesta estructura. El que no és legal és no declarar els beneficis a l’IRPF, i és el primer que revisem amb cada client.",
+            "Hisenda coneix perfectament les LLCs americanes. No és cap secret ni cap truc. És una estructura que milers d’europeus utilitzen correctament cada any.",
+            "La pensió és una decisió personal. Molts dels nostres clients destinen part de l’estalvi a plans privats amb millor rendibilitat. T’ho expliquem sense cap pressió perquè decideixis tu amb tota la informació.",
+            "Tens alguna pregunta que no és aquí? Respon directament. Llegeixo tots els emails.",
+          ],
+        },
+        {
+          subject: "Només et demano 30 minuts.",
+          paragraphs: [
+            "No per vendre’t res.",
+            "Per analitzar la teva situació amb tu. Els teus ingressos, els teus clients, el que pagues ara. I dir-te honestament si una LLC té sentit per a tu o no.",
+            "Si no en té, t’ho dic. No m’interessa que constitueixis una LLC que no encaixa amb el teu negoci.",
+            "Si en té, t’explico exactament com seria el procés, quant estalviaries, i el que necessitaries de la teva part. Que no és gaire.",
+            "30 minuts. Sense compromís. Sense pressió.",
+          ],
+          ps: "P.S. Si prefereixes començar per email, també funciona. Envia’m una línia sobre la teva situació i t’oriento — sense compromís.",
+        },
       ],
-      cadenceNote: "Només t'escriurem quan tinguem alguna cosa realment útil a aportar. Sense saturar la safata d'entrada.",
-      ctaIntro: "Si vols veure ben aviat com encaixaria tot en el teu cas:",
-      ctaButton: "Reservar assessoria",
-      ctaDesc: "Ho revisem amb tu i et diem directament què té sentit i què no.",
-      closing: "Benvingut a bord,",
-      unsubNote: "Has rebut aquest email perquè t'has subscrit al nostre butlletí a exentax.com.",
     },
     dateFormatter: formatDateCa,
     currencyFormatter: (amount) => new Intl.NumberFormat("ca-ES", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(amount),

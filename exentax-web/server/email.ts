@@ -15,7 +15,7 @@ import {
 } from "./email-layout";
 import { escapeHtml } from "./routes/shared";
 import { FX_RATES_PER_EUR, convertFromEUR as fxConvertFromEUR } from "../shared/calculator-fx";
-import { BRAND_NAME, CONTACT_EMAIL } from "./server-constants";
+import { BRAND_NAME, CONTACT_EMAIL, type SupportedLang } from "./server-constants";
 import { getLocalizedPath } from "../shared/routes";
 import type {
   EmailAttachment,
@@ -722,61 +722,90 @@ export async function sendFollowupEmail(data: FollowupEmailData) {
 }
 
 /**
- * Newsletter welcome email — sent after a successful POST /api/newsletter/subscribe.
- * No prices, no urgency tokens; CTA points to the localized booking page (the
- * approved no-price CTA shared across the rest of the transactional set).
+ * Drip sequence email — one of 6 nurture steps (days 0/3/6/9/12/15).
  *
- * The fire-and-forget caller is responsible for deciding whether to await
- * the result (we typically do not, to keep the subscribe response fast).
+ * Step is 1-indexed (1..6). The CTA placement varies per step:
+ *   - step 1: "Open my guide"          → GUIDE_PDF_URL
+ *   - step 4: "Calculate my savings"   → home page #calculadora anchor
+ *   - step 6: "Book my free consultation" → /book localized
+ *   - steps 2, 3, 5: no CTA button (text-only nurture)
+ *
+ * Throws on send failure so the worker can mark the row with
+ * `last_error` and retry on its next tick — there is no fire-and-forget
+ * here. `name` is optional; when present we render a personalised
+ * greeting like "Hola Juan,", otherwise we fall back to "Hola,".
  */
-export interface NewsletterWelcomeEmailData {
+export interface DripEmailData {
   email: string;
+  name?: string | null;
   language: string | null;
+  step: 1 | 2 | 3 | 4 | 5 | 6;
 }
-export async function sendNewsletterWelcomeEmail(data: NewsletterWelcomeEmailData) {
+
+// TODO: replace with the real lead-magnet PDF URL once design uploads
+// it. Until then we link to /guide.pdf (a 404 placeholder is preferable
+// to silently linking to the home page — it makes the missing asset
+// visible during QA).
+const GUIDE_PDF_URL = `${SITE_URL}/guide.pdf`;
+
+function dripCtaFor(step: 1 | 2 | 3 | 4 | 5 | 6, lang: SupportedLang, dripT: ReturnType<typeof getEmailTranslations>["drip"]): string {
+  if (step === 1) return ctaButton(GUIDE_PDF_URL, dripT.ctaOpenGuide);
+  if (step === 4) return ctaButton(`${SITE_URL}/${lang}#calculadora`, dripT.ctaCalculate);
+  if (step === 6) return ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, dripT.ctaBook);
+  return ""; // steps 2, 3, 5 are text-only nurture
+}
+
+export async function sendDripEmail(data: DripEmailData): Promise<void> {
   const lang = resolveEmailLang(data.language);
   const t = getEmailTranslations(lang);
-  const nw = t.newsletterWelcome;
-  const gmail = getGmailClient();
+  const d = t.drip;
+  const stepIdx = data.step - 1;
+  const stepCopy = d.steps[stepIdx];
+  if (!stepCopy) throw new Error(`drip: invalid step ${data.step}`);
+
+  // Use only the first token of the name to avoid awkward greetings
+  // like "Hola Juan García López,". Trim+collapse whitespace first.
+  const safeName = data.name ? escapeHtml(data.name.trim().split(/\s+/)[0]) : null;
+  const greeting = d.greeting(safeName);
+  const cta = dripCtaFor(data.step, lang, d);
+  const psHtml = stepCopy.ps ? bodyText(stepCopy.ps) : "";
 
   const clientBody = `
-    ${heading(nw.heading)}
+    ${heading(greeting)}
 
-    ${bodyText(nw.intro)}
+    ${stepCopy.paragraphs.map(p => bodyText(p)).join("\n")}
 
-    ${divider()}
+    ${cta}
 
-    ${greenPanel(nw.aboutTitle, bulletList(nw.aboutItems))}
+    ${psHtml}
 
-    ${bodyText(nw.cadenceNote)}
-
-    ${divider()}
-
-    ${bodyText(nw.ctaIntro)}
-
-    ${ctaButton(`${SITE_URL}${getLocalizedPath("book", lang)}`, nw.ctaButton)}
-
-    ${bodyText(nw.ctaDesc)}
-
-    ${brandSignature(lang, nw.closing)}
-    ${unsubNote(nw.unsubNote)}
+    ${brandSignature(lang, d.sigClosing)}
+    ${unsubNote(d.unsubNote)}
   `;
 
-  const subject = nw.subject;
+  const subject = stepCopy.subject;
   const html = emailHtml(clientBody, subject, lang);
+  const logType = `drip_step_${data.step}`;
+  const gmail = getGmailClient();
 
-  if (gmail) {
-    try {
-      await sendEmail(data.email, subject, html, REPLY_TO_EMAIL);
-      logger.info(`Newsletter welcome sent → ${maskEmail(data.email)}`, "email");
-      logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "enviado", clientLanguage: lang });
-    } catch (err) {
-      logger.error("Newsletter welcome send failed:", "email", err);
-      logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "fallido", error: String(err) });
+  if (!gmail) {
+    logger.debug(`DRIP ${logType} (no Gmail): ${JSON.stringify({ email: maskEmail(data.email), lang })}`, "email");
+    logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "Gmail not configured" });
+    throw new Error("Gmail not configured");
+  }
+
+  try {
+    const ok = await sendEmail(data.email, subject, html, REPLY_TO_EMAIL);
+    if (!ok) {
+      logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: "sendEmail returned false" });
+      throw new Error("sendEmail returned false");
     }
-  } else {
-    logger.debug("NEWSLETTER WELCOME (no Gmail): " + JSON.stringify({ email: data.email, lang }), "email");
-    logEmail({ to: data.email, subject, type: "newsletter_welcome", channel: "transactional", status: "fallido", error: "Gmail not configured", clientLanguage: lang });
+    logger.info(`Drip ${logType} sent → ${maskEmail(data.email)}`, "email");
+    logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "enviado", clientLanguage: lang });
+  } catch (err) {
+    logger.error(`Drip ${logType} send failed:`, "email", err);
+    logEmail({ to: data.email, subject, type: logType, channel: "transactional", status: "fallido", clientLanguage: lang, error: String(err) });
+    throw err;
   }
 }
 

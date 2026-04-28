@@ -17,7 +17,9 @@ import {
   SlotConflictError,
 } from "../storage";
 import { encryptField } from "../field-encryption";
-import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, sendNewsletterWelcomeEmail, renderCalculatorEmailHtml, maskEmail } from "../email";
+import { sendRescheduleConfirmation, sendCancellationEmail, sendCalculatorEmail, renderCalculatorEmailHtml, maskEmail } from "../email";
+import { sendImmediateStep1 } from "../scheduled/drip-worker";
+import { tryCreateDripEnrollment } from "../storage/marketing";
 import { enqueueEmail, triggerEmailDrain } from "../email-retry-queue";
 import { LEAD_SOURCES, DEFAULT_TIMEZONE, todayMadridISO, nowMadrid, SUPPORTED_LANGS, AGENDA_STATUSES, isCancelledStatus, SITE_URL, HREFLANG_BCP47 } from "../server-constants";
 import { ALL_ROUTE_KEYS, ROUTE_SLUGS, getLocalizedPath, type RouteKey } from "../../shared/routes";
@@ -649,6 +651,31 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
           agendaId: bookingLeadId,
         });
 
+        // Enroll booking lead in the 6-step drip sequence. Idempotent
+        // (partial unique index on active enrollments) so a contact who
+        // already signed up via the footer guide just keeps their
+        // existing schedule — no duplicate sequence is started.
+        // Await the row insert (the e2e test queries the table right
+        // after the booking response). Step-1 send stays fire-and-forget.
+        try {
+          const enrollment = await tryCreateDripEnrollment({
+            email,
+            name: name || null,
+            language: language || "es",
+            source: "booking",
+          });
+          if (enrollment) {
+            void sendImmediateStep1({
+              id: enrollment.id,
+              email: enrollment.email,
+              name: enrollment.name ?? null,
+              language: enrollment.language,
+            });
+          }
+        } catch (err) {
+          logger.warn(`Drip enrollment (booking) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
+        }
+
         notifyBookingCreated({ bookingId: bookingLeadId, name, lastName, email, phone, date, startTime, endTime, meetLink, meetingType, language, ip, activity, monthlyProfit, globalClients, digitalOperation, notes, context, shareNote, privacyAccepted, marketingAccepted });
         notifyNewLead({ leadId: bookingLeadId, name: `${name}${lastName ? " " + lastName : ""}`, email, phone, source: LEAD_SOURCES.BOOKING_WEB, language, ip, activity, bookingId: bookingLeadId });
         getCachedPrivacyVersion().then(async (privacyVersion) => {
@@ -1069,14 +1096,33 @@ export function registerPublicRoutes(app: Express, activeIntervals?: ReturnType<
     const normalizedEmail = email.trim().toLowerCase();
     const subscriber = await upsertNewsletterSubscriber(normalizedEmail, "", source || "footer", ["general"]);
     notifyNewsletterSubscribe({ email: normalizedEmail, source: source || "footer", language: language || null, ip, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false });
-    // Idempotency guard: `isNew` comes straight from PostgreSQL's `xmax = 0`
-    // system column on the upsert RETURNING — true only for fresh INSERTs,
-    // false for ON CONFLICT DO UPDATE rows. Race-free (atomic per row), so
-    // duplicate submits / page reloads / retries cannot trigger a second
-    // welcome email even when they arrive concurrently.
+    // Enroll in the 6-step drip sequence (days 0/3/6/9/12/15).
+    // `isNew` (from the upsert's `xmax = 0` check) guards the happy path;
+    // the drip helper itself is idempotent (partial unique index on
+    // active enrollments), so concurrent submits cannot enroll twice.
     if (subscriber?.isNew) {
-      sendNewsletterWelcomeEmail({ email: normalizedEmail, language: language || null })
-        .catch((err) => logger.warn(`Newsletter welcome send error: ${err instanceof Error ? err.message : String(err)}`, "email"));
+      // Await the row insert so the HTTP response only returns once the
+      // enrollment is durably committed (the e2e test queries the table
+      // immediately after subscribing). The expensive part — sending the
+      // first email — stays fire-and-forget so the response stays fast.
+      try {
+        const enrollment = await tryCreateDripEnrollment({
+          email: normalizedEmail,
+          name: null, // footer guide form does not collect a name
+          language: language || "es",
+          source: "guide",
+        });
+        if (enrollment) {
+          void sendImmediateStep1({
+            id: enrollment.id,
+            email: enrollment.email,
+            name: enrollment.name ?? null,
+            language: enrollment.language,
+          });
+        }
+      } catch (err) {
+        logger.warn(`Drip enrollment (guide) error: ${err instanceof Error ? err.message : String(err)}`, "drip");
+      }
     }
     getCachedPrivacyVersion().then(async (privacyVersion) => {
       const consentId = await logConsent({ formType: "newsletter_footer", email: normalizedEmail, privacyAccepted: true, marketingAccepted: marketingAccepted ?? false, language: language || null, source: source || "footer", privacyVersion, ip });

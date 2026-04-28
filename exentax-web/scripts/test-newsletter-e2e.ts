@@ -124,8 +124,10 @@ async function cleanup() {
     for (const email of createdEmails) {
       await db.delete(s.consentLog).where(eq(s.consentLog.email, email));
       await db.delete(s.newsletterSubscribers).where(eq(s.newsletterSubscribers.email, email));
+      await db.delete(s.dripEnrollments).where(eq(s.dripEnrollments.email, email));
     }
     await db.delete(s.consentLog).where(and(eq(s.consentLog.source, "e2e-test"), like(s.consentLog.email, "%@e2e.exentax.test")));
+    await db.delete(s.dripEnrollments).where(like(s.dripEnrollments.email, "%@e2e.exentax.test"));
     console.log(`\nCleanup: removed ${createdEmails.length} test subscriber(s).`);
   } catch (err) {
     console.error("Cleanup error:", err);
@@ -158,6 +160,16 @@ async function main() {
   assert("consent_log records privacy_accepted=true", newsletterConsent?.privacyAccepted === true);
   assert("consent_log records marketing_accepted=true", newsletterConsent?.marketingAccepted === true);
   assert("consent_log records language=es", newsletterConsent?.language === "es");
+
+  // Verify the 6-step drip sequence was enrolled (replaces the old
+  // single welcome email). The row is inserted in fire-and-forget mode
+  // alongside the consent log, so we reuse the same 400ms wait above.
+  const dripRows = await db.select().from(s.dripEnrollments).where(eq(s.dripEnrollments.email, httpEmail));
+  const drip = dripRows[0];
+  assert("drip_enrollments row created", !!drip, `rows=${JSON.stringify(dripRows)}`);
+  assert("drip enrollment source=guide", drip?.source === "guide", `source=${drip?.source}`);
+  assert("drip enrollment language=es", drip?.language === "es");
+  assert("drip enrollment is active (not completed)", drip?.completedAt === null);
 
   // -----------------------------------------------------------------------
   // 2. Unsubscribe per-language. To avoid hitting the 3/hour subscribe

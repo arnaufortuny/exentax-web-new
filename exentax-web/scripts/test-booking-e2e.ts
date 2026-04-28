@@ -157,6 +157,12 @@ async function cleanup() {
     // Drain any orphan email-retry jobs spawned by these bookings so the
     // dev worker doesn't keep retrying them every minute.
     await db.delete(s.emailRetryQueue).where(like(s.emailRetryQueue.payload, "%@e2e.exentax.test%"));
+    // Drop drip-sequence enrollments created by these bookings so the
+    // drip worker doesn't keep ticking on test rows.
+    for (const email of createdEmails) {
+      await db.delete(s.dripEnrollments).where(eq(s.dripEnrollments.email, email));
+    }
+    await db.delete(s.dripEnrollments).where(like(s.dripEnrollments.email, "%@e2e.exentax.test"));
     console.log(`\nCleanup: removed ${createdBookingIds.length} test booking(s).`);
   } catch (err) {
     console.error("Cleanup error:", err);

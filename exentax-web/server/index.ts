@@ -8,6 +8,7 @@ import { closePool, runColumnMigrations } from "./db";
 import { logger } from "./logger";
 import { registerCleanupIntervals, clearActiveTimers } from "./route-helpers";
 import { startEmailRetryWorker } from "./email-retry-queue";
+import { startDripWorker } from "./scheduled/drip-worker";
 import { backendLabel, resolveRequestLang } from "./routes/shared";
 import { notifyCriticalError } from "./discord";
 import { SITE_URL } from "./server-constants";
@@ -440,6 +441,10 @@ registerCleanupIntervals(activeIntervals);
 
 // Start the persistent email retry worker (drains email_retry_queue every minute).
 activeIntervals.push(startEmailRetryWorker(60_000));
+
+// Start the drip-sequence worker (advances drip_enrollments steps 2–6
+// on the day-3/6/9/12/15 cadence). Step 1 fires inline at enroll time.
+activeIntervals.push(startDripWorker(60_000));
 
 
 app.use((req, res, next) => {
